@@ -379,11 +379,10 @@ def help_text() -> str:
     return (
         "🩺 *CharaNas Medicine Bot*\n"
         "Undergraduate Medicine Department only.\n\n"
-        "Send one of these:\n"
-        "• *create question* — MCQ with answer buttons\n"
-        "• *case based question* — clinical case (reveal answer)\n"
-        "• *give me pdf files* — receive study PDFs\n"
-        "• *book source* — standard textbook list\n\n"
-        "Tap a button to reveal the correct answer.\n\n"
-        "Commands: /start /help /question /case /pdf /books"
+        "Choose a feature from the buttons below:\n"
+        "• *Short MCQ*\n"
+        "• *Case-based Question*\n"
+        "• *PDF files*\n"
+        "• *Book source*\n\n"
+        "For MCQs, tap an answer button to reveal the correct answer."
     )

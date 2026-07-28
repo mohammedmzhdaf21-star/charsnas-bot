@@ -4,7 +4,13 @@ from pathlib import Path
 from dotenv import load_dotenv
 import os
 
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
+from telegram import (
+    InlineKeyboardButton,
+    InlineKeyboardMarkup,
+    KeyboardButton,
+    ReplyKeyboardMarkup,
+    Update,
+)
 from telegram.ext import (
     Application,
     CallbackQueryHandler,
@@ -35,12 +41,26 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 if not BOT_TOKEN:
     raise SystemExit("BOT_TOKEN is missing. Copy .env.example to .env and set BOT_TOKEN.")
 
+# Main feature buttons shown to the user
+BTN_MCQ = "Short MCQ"
+BTN_CASE = "Case-based Question"
+BTN_PDF = "PDF files"
+BTN_BOOKS = "Book source"
+
+MENU_LABELS = {
+    BTN_MCQ: "question",
+    BTN_CASE: "case",
+    BTN_PDF: "pdf",
+    BTN_BOOKS: "books",
+}
+
 INTENT_PATTERNS = {
     "question": [
         r"\bcreate\s+questions?\b",
         r"\bgenerate\s+questions?\b",
         r"\bmake\s+(me\s+)?(a\s+)?questions?\b",
         r"\bgive\s+(me\s+)?(a\s+)?questions?\b",
+        r"\bshort\s+mcq\b",
         r"\bmcq\b",
     ],
     "case": [
@@ -64,8 +84,23 @@ INTENT_PATTERNS = {
 }
 
 
+def main_menu_keyboard() -> ReplyKeyboardMarkup:
+    return ReplyKeyboardMarkup(
+        [
+            [KeyboardButton(BTN_MCQ), KeyboardButton(BTN_CASE)],
+            [KeyboardButton(BTN_PDF), KeyboardButton(BTN_BOOKS)],
+        ],
+        resize_keyboard=True,
+        is_persistent=True,
+    )
+
+
 def detect_intent(text: str) -> str | None:
-    normalized = " ".join(text.lower().strip().split())
+    stripped = text.strip()
+    if stripped in MENU_LABELS:
+        return MENU_LABELS[stripped]
+
+    normalized = " ".join(stripped.lower().split())
     for intent, patterns in INTENT_PATTERNS.items():
         for pattern in patterns:
             if re.search(pattern, normalized):
@@ -98,6 +133,14 @@ def case_keyboard(idx: int) -> InlineKeyboardMarkup:
     )
 
 
+async def send_menu(update: Update, text: str | None = None) -> None:
+    await update.message.reply_text(
+        text or help_text(),
+        parse_mode="Markdown",
+        reply_markup=main_menu_keyboard(),
+    )
+
+
 async def send_question(update: Update) -> None:
     idx, item = pick_question()
     await update.message.reply_text(
@@ -116,12 +159,48 @@ async def send_case(update: Update) -> None:
     )
 
 
+async def send_books(update: Update) -> None:
+    await update.message.reply_text(
+        format_book_sources(),
+        parse_mode="Markdown",
+        reply_markup=main_menu_keyboard(),
+    )
+
+
+async def send_pdfs(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    paths = ensure_pdfs(PDF_DIR)
+    await update.message.reply_text(
+        "📄 Sending undergraduate medicine PDF study files…",
+        reply_markup=main_menu_keyboard(),
+    )
+    for path in paths:
+        with path.open("rb") as fh:
+            await update.message.reply_document(
+                document=fh,
+                filename=path.name,
+                caption=f"UG Medicine — {path.stem.replace('_', ' ')}",
+            )
+
+
+async def dispatch_intent(
+    update: Update, context: ContextTypes.DEFAULT_TYPE, intent: str
+) -> None:
+    if intent == "question":
+        await send_question(update)
+    elif intent == "case":
+        await send_case(update)
+    elif intent == "pdf":
+        await send_pdfs(update, context)
+    elif intent == "books":
+        await send_books(update)
+
+
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_text(help_text(), parse_mode="Markdown")
+    await send_menu(update)
 
 
 async def help_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_text(help_text(), parse_mode="Markdown")
+    await send_menu(update)
 
 
 async def question_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -133,46 +212,22 @@ async def case_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 
 async def books_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_text(format_book_sources(), parse_mode="Markdown")
-
-
-async def send_pdfs(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    paths = ensure_pdfs(PDF_DIR)
-    await update.message.reply_text(
-        "📄 Sending undergraduate medicine PDF study files…"
-    )
-    for path in paths:
-        with path.open("rb") as fh:
-            await update.message.reply_document(
-                document=fh,
-                filename=path.name,
-                caption=f"UG Medicine — {path.stem.replace('_', ' ')}",
-            )
+    await send_books(update)
 
 
 async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     text = update.message.text or ""
     intent = detect_intent(text)
 
-    if intent == "question":
-        await send_question(update)
-    elif intent == "case":
-        await send_case(update)
-    elif intent == "pdf":
-        await send_pdfs(update, context)
-    elif intent == "books":
-        await update.message.reply_text(format_book_sources(), parse_mode="Markdown")
-    else:
-        await update.message.reply_text(
-            "I only help with *undergraduate medicine*.\n\n"
-            "Try:\n"
-            "• create question\n"
-            "• case based question\n"
-            "• give me pdf files\n"
-            "• book source\n\n"
-            "Or /help",
-            parse_mode="Markdown",
-        )
+    if intent:
+        await dispatch_intent(update, context, intent)
+        return
+
+    await send_menu(
+        update,
+        "I only help with *undergraduate medicine*.\n\n"
+        "Please choose a feature from the buttons below.",
+    )
 
 
 async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -186,11 +241,13 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
             idx = int(idx_s)
             item = QUESTIONS[idx]
         except (ValueError, IndexError, KeyError):
-            await query.edit_message_text("This question expired. Send *create question* again.", parse_mode="Markdown")
+            await query.edit_message_text(
+                "This question expired. Tap *Short MCQ* again.",
+                parse_mode="Markdown",
+            )
             return
 
         text = format_question_result(item, choice)
-        # Show correct option highlighted in a disabled-style follow-up keyboard? Remove buttons after answer.
         await query.edit_message_text(text, parse_mode="Markdown")
         return
 
@@ -199,7 +256,10 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
             idx = int(data.split(":", 1)[1])
             item = CASES[idx]
         except (ValueError, IndexError):
-            await query.edit_message_text("This case expired. Send *case based question* again.", parse_mode="Markdown")
+            await query.edit_message_text(
+                "This case expired. Tap *Case-based Question* again.",
+                parse_mode="Markdown",
+            )
             return
         await query.edit_message_text(format_case_result(item), parse_mode="Markdown")
         return

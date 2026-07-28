@@ -4,14 +4,16 @@ Telegram study bot for the **Undergraduate Medicine** department only.
 
 ## What it does
 
-| You say | Bot does |
-|---|---|
-| `create question` | Sends an UG medicine MCQ with A–D buttons; answer revealed after you tap |
-| `case based question` | Sends a clinical case; tap **Reveal answer** |
-| `give me pdf files` | Sends medicine study PDFs |
-| `book source` | Lists standard UG medicine textbooks |
+On `/start`, the bot shows four feature buttons:
 
-Also supports: `/start` `/help` `/question` `/case` `/pdf` `/books`
+| Button | Action |
+|---|---|
+| `Short MCQ` | UG medicine MCQ with A–D buttons; answer revealed after you tap |
+| `Case-based Question` | Clinical case; tap **Reveal answer** |
+| `PDF files` | Sends medicine study PDFs |
+| `Book source` | Lists standard UG medicine textbooks |
+
+Also supports: `/help` `/question` `/case` `/pdf` `/books`
 
 ## Setup
 
