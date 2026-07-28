@@ -4,17 +4,15 @@ Telegram study bot for the **Undergraduate Medicine** department.
 
 ## Flow
 
-1. `/start` → choose a **specialty** (Cardiology, Ophthalmology, Urology, …)
-2. Then choose a feature:
-   - **Short MCQ** — answer buttons; correct answer revealed after tap
-   - **Case-based Question** — reveal answer button
-   - **PDF files** — specialty study notes PDF
+1. `/start` → choose a **specialty**
+2. Choose a feature:
+   - **Short MCQ** → then **Easy / Medium / Hard / Extreme**
+   - **Case-based Question** → then **Easy / Medium / Hard / Extreme**
+   - **PDF files** — multi-page specialty study pack with schematic figures
    - **Book source** — specialty textbooks
-3. Tap **Change specialty** anytime to go back and pick another topic
+3. **Back to features** or **Change specialty** anytime
 
-Questions/cases do not repeat within a specialty until the full set is used.
-
-Each specialty **PDF** is an expanded multi-page study pack (about 8 pages) with notes, revision prompts, book lists, and original schematic figures for learning (not copied textbook plates).
+Higher difficulties use longer, trickier stems. Questions/cases do not repeat within a specialty+difficulty pool until the set is exhausted.
 
 ## Setup
 
