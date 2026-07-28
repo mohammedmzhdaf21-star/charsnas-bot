@@ -21,8 +21,12 @@ from telegram.ext import (
 )
 
 from content import (
+    DIFFICULTIES,
+    DIFFICULTY_LABELS,
+    LABEL_TO_DIFFICULTY,
     SPECIALTIES,
     SPECIALTY_ORDER,
+    difficulty_menu_text,
     feature_menu_text,
     format_book_sources,
     format_case_prompt,
@@ -48,39 +52,25 @@ BTN_MCQ = "Short MCQ"
 BTN_CASE = "Case-based Question"
 BTN_PDF = "PDF files"
 BTN_BOOKS = "Book source"
-BTN_BACK = "Change specialty"
+BTN_BACK_SPECIALTY = "Change specialty"
+BTN_BACK_FEATURES = "Back to features"
 
 FEATURE_LABELS = {
     BTN_MCQ: "question",
     BTN_CASE: "case",
     BTN_PDF: "pdf",
     BTN_BOOKS: "books",
-    BTN_BACK: "back",
+    BTN_BACK_SPECIALTY: "back_specialty",
+    BTN_BACK_FEATURES: "back_features",
 }
 
 INTENT_PATTERNS = {
-    "question": [
-        r"\bcreate\s+questions?\b",
-        r"\bshort\s+mcq\b",
-        r"\bmcq\b",
-    ],
-    "case": [
-        r"\bcase[-\s]?based\b",
-        r"\bcase\s+questions?\b",
-    ],
-    "pdf": [
-        r"\bpdf\b",
-        r"\bpdf\s+files?\b",
-    ],
-    "books": [
-        r"\bbook\s+sources?\b",
-        r"\btextbooks?\b",
-    ],
-    "back": [
-        r"\bchange\s+specialty\b",
-        r"\bback\b",
-        r"\bmenu\b",
-    ],
+    "question": [r"\bshort\s+mcq\b", r"\bmcq\b"],
+    "case": [r"\bcase[-\s]?based\b", r"\bcase\s+questions?\b"],
+    "pdf": [r"\bpdf\b", r"\bpdf\s+files?\b"],
+    "books": [r"\bbook\s+sources?\b", r"\btextbooks?\b"],
+    "back_specialty": [r"\bchange\s+specialty\b"],
+    "back_features": [r"\bback\s+to\s+features\b", r"^back$"],
 }
 
 
@@ -103,7 +93,19 @@ def feature_keyboard() -> ReplyKeyboardMarkup:
         [
             [KeyboardButton(BTN_MCQ), KeyboardButton(BTN_CASE)],
             [KeyboardButton(BTN_PDF), KeyboardButton(BTN_BOOKS)],
-            [KeyboardButton(BTN_BACK)],
+            [KeyboardButton(BTN_BACK_SPECIALTY)],
+        ],
+        resize_keyboard=True,
+        is_persistent=True,
+    )
+
+
+def difficulty_keyboard() -> ReplyKeyboardMarkup:
+    return ReplyKeyboardMarkup(
+        [
+            [KeyboardButton("Easy"), KeyboardButton("Medium")],
+            [KeyboardButton("Hard"), KeyboardButton("Extreme")],
+            [KeyboardButton(BTN_BACK_FEATURES), KeyboardButton(BTN_BACK_SPECIALTY)],
         ],
         resize_keyboard=True,
         is_persistent=True,
@@ -123,6 +125,10 @@ def remaining_map(context: ContextTypes.DEFAULT_TYPE, field: str) -> dict:
     return store
 
 
+def pool_key(specialty_key: str, difficulty: str) -> str:
+    return f"{specialty_key}:{difficulty}"
+
+
 def detect_feature_intent(text: str) -> str | None:
     stripped = text.strip()
     if stripped in FEATURE_LABELS:
@@ -135,15 +141,18 @@ def detect_feature_intent(text: str) -> str | None:
     return None
 
 
-def question_keyboard(specialty_key: str, idx: int, item: dict) -> InlineKeyboardMarkup:
+def question_keyboard(specialty_key: str, difficulty: str, idx: int, item: dict) -> InlineKeyboardMarkup:
     rows = []
     row = []
+    # callback must stay under 64 bytes: q:card:e:0:A style short codes
+    diff_code = {"easy": "e", "medium": "m", "hard": "h", "extreme": "x"}[difficulty]
+    spec_code = specialty_key[:8]
     for option in item["options"]:
         letter = option_letter(option)
         row.append(
             InlineKeyboardButton(
                 option,
-                callback_data=f"q:{specialty_key}:{idx}:{letter}",
+                callback_data=f"q:{spec_code}:{diff_code}:{idx}:{letter}",
             )
         )
         if len(row) == 2:
@@ -151,17 +160,30 @@ def question_keyboard(specialty_key: str, idx: int, item: dict) -> InlineKeyboar
             row = []
     if row:
         rows.append(row)
+    # store full keys for callback resolution
     return InlineKeyboardMarkup(rows)
 
 
-def case_keyboard(specialty_key: str, idx: int) -> InlineKeyboardMarkup:
+def case_keyboard(specialty_key: str, difficulty: str, idx: int) -> InlineKeyboardMarkup:
+    diff_code = {"easy": "e", "medium": "m", "hard": "h", "extreme": "x"}[difficulty]
+    spec_code = specialty_key[:8]
     return InlineKeyboardMarkup(
-        [[InlineKeyboardButton("Reveal answer", callback_data=f"c:{specialty_key}:{idx}")]]
+        [[InlineKeyboardButton("Reveal answer", callback_data=f"c:{spec_code}:{diff_code}:{idx}")]]
     )
+
+
+def resolve_specialty_code(code: str) -> str | None:
+    matches = [k for k in SPECIALTIES if k.startswith(code) or k[:8] == code]
+    return matches[0] if len(matches) == 1 else (matches[0] if matches else None)
+
+
+DIFF_CODE = {"e": "easy", "m": "medium", "h": "hard", "x": "extreme"}
 
 
 async def show_specialty_menu(update: Update, context: ContextTypes.DEFAULT_TYPE, text: str | None = None) -> None:
     context.user_data["specialty"] = None
+    context.user_data["quiz_mode"] = None
+    context.user_data["difficulty"] = None
     await update.message.reply_text(
         text or specialty_menu_text(),
         parse_mode="Markdown",
@@ -171,6 +193,8 @@ async def show_specialty_menu(update: Update, context: ContextTypes.DEFAULT_TYPE
 
 async def show_feature_menu(update: Update, context: ContextTypes.DEFAULT_TYPE, specialty_key: str) -> None:
     context.user_data["specialty"] = specialty_key
+    context.user_data["quiz_mode"] = None
+    context.user_data["difficulty"] = None
     await update.message.reply_text(
         feature_menu_text(specialty_key),
         parse_mode="Markdown",
@@ -178,51 +202,68 @@ async def show_feature_menu(update: Update, context: ContextTypes.DEFAULT_TYPE, 
     )
 
 
+async def show_difficulty_menu(
+    update: Update, context: ContextTypes.DEFAULT_TYPE, specialty_key: str, mode: str
+) -> None:
+    context.user_data["specialty"] = specialty_key
+    context.user_data["quiz_mode"] = mode
+    await update.message.reply_text(
+        difficulty_menu_text(specialty_key, mode),
+        parse_mode="Markdown",
+        reply_markup=difficulty_keyboard(),
+    )
+
+
 async def require_specialty(update: Update, context: ContextTypes.DEFAULT_TYPE) -> str | None:
     key = current_specialty(context)
     if key:
         return key
-    await show_specialty_menu(
-        update,
-        context,
-        "Please choose a *specialty* first.",
-    )
+    await show_specialty_menu(update, context, "Please choose a *specialty* first.")
     return None
 
 
-async def send_question(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+async def send_question(update: Update, context: ContextTypes.DEFAULT_TYPE, difficulty: str) -> None:
     specialty_key = await require_specialty(update, context)
     if not specialty_key:
         return
 
     store = remaining_map(context, "remaining_questions")
-    remaining = store.get(specialty_key)
-    idx, item, remaining = pick_question(specialty_key, remaining)
-    store[specialty_key] = remaining
+    key = pool_key(specialty_key, difficulty)
+    remaining = store.get(key)
+    idx, item, remaining = pick_question(specialty_key, difficulty, remaining)
+    store[key] = remaining
+
+    # remember for callback resolution of short codes
+    context.user_data["difficulty"] = difficulty
+    context.user_data.setdefault("cb_spec", {})[specialty_key[:8]] = specialty_key
 
     label = specialty_label(specialty_key)
     await update.message.reply_text(
-        format_question_prompt(item, label),
+        format_question_prompt(item, label, difficulty),
         parse_mode="Markdown",
-        reply_markup=question_keyboard(specialty_key, idx, item),
+        reply_markup=question_keyboard(specialty_key, difficulty, idx, item),
     )
 
 
-async def send_case(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+async def send_case(update: Update, context: ContextTypes.DEFAULT_TYPE, difficulty: str) -> None:
     specialty_key = await require_specialty(update, context)
     if not specialty_key:
         return
 
     store = remaining_map(context, "remaining_cases")
-    remaining = store.get(specialty_key)
-    idx, item, remaining = pick_case(specialty_key, remaining)
-    store[specialty_key] = remaining
+    key = pool_key(specialty_key, difficulty)
+    remaining = store.get(key)
+    idx, item, remaining = pick_case(specialty_key, difficulty, remaining)
+    store[key] = remaining
+
+    context.user_data["difficulty"] = difficulty
+    context.user_data.setdefault("cb_spec", {})[specialty_key[:8]] = specialty_key
 
     label = specialty_label(specialty_key)
     await update.message.reply_text(
-        format_case_prompt(item, label),
+        format_case_prompt(item, label, difficulty),
         parse_mode="Markdown",
-        reply_markup=case_keyboard(specialty_key, idx),
+        reply_markup=case_keyboard(specialty_key, difficulty, idx),
     )
 
 
@@ -260,13 +301,26 @@ async def send_pdfs(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 async def dispatch_feature(
     update: Update, context: ContextTypes.DEFAULT_TYPE, intent: str
 ) -> None:
-    if intent == "back":
+    specialty_key = current_specialty(context)
+
+    if intent == "back_specialty":
         await show_specialty_menu(update, context)
-    elif intent == "question":
-        await send_question(update, context)
-    elif intent == "case":
-        await send_case(update, context)
-    elif intent == "pdf":
+        return
+    if intent == "back_features":
+        if specialty_key:
+            await show_feature_menu(update, context, specialty_key)
+        else:
+            await show_specialty_menu(update, context)
+        return
+
+    if intent in ("question", "case"):
+        if not specialty_key:
+            await show_specialty_menu(update, context, "Please choose a *specialty* first.")
+            return
+        await show_difficulty_menu(update, context, specialty_key, intent)
+        return
+
+    if intent == "pdf":
         await send_pdfs(update, context)
     elif intent == "books":
         await send_books(update, context)
@@ -286,24 +340,52 @@ async def help_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     text = (update.message.text or "").strip()
 
-    # Specialty selection (first menu)
+    # Specialty selection
     specialty_key = label_to_key(text)
     if specialty_key:
         await show_feature_menu(update, context, specialty_key)
         return
 
-    # Feature selection (second menu)
+    # Difficulty selection (only when waiting for MCQ/case difficulty)
+    if text in LABEL_TO_DIFFICULTY:
+        difficulty = LABEL_TO_DIFFICULTY[text]
+        mode = context.user_data.get("quiz_mode")
+        if mode == "question":
+            await send_question(update, context, difficulty)
+            return
+        if mode == "case":
+            await send_case(update, context, difficulty)
+            return
+        # If difficulty pressed without mode, ask them to pick feature first
+        if current_specialty(context):
+            await update.message.reply_text(
+                "First choose *Short MCQ* or *Case-based Question*, then a difficulty.",
+                parse_mode="Markdown",
+                reply_markup=feature_keyboard(),
+            )
+        else:
+            await show_specialty_menu(update, context)
+        return
+
     intent = detect_feature_intent(text)
     if intent:
         await dispatch_feature(update, context, intent)
         return
 
     if current_specialty(context):
-        await update.message.reply_text(
-            "Please choose a feature from the buttons below, or tap *Change specialty*.",
-            parse_mode="Markdown",
-            reply_markup=feature_keyboard(),
-        )
+        mode = context.user_data.get("quiz_mode")
+        if mode in ("question", "case"):
+            await update.message.reply_text(
+                "Please choose a difficulty button, or *Back to features*.",
+                parse_mode="Markdown",
+                reply_markup=difficulty_keyboard(),
+            )
+        else:
+            await update.message.reply_text(
+                "Please choose a feature from the buttons below, or tap *Change specialty*.",
+                parse_mode="Markdown",
+                reply_markup=feature_keyboard(),
+            )
     else:
         await show_specialty_menu(
             update,
@@ -319,36 +401,40 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
 
     if data.startswith("q:"):
         try:
-            _, specialty_key, idx_s, choice = data.split(":", 3)
+            _, spec_code, diff_code, idx_s, choice = data.split(":", 4)
+            specialty_key = context.user_data.get("cb_spec", {}).get(spec_code) or resolve_specialty_code(spec_code)
+            difficulty = DIFF_CODE[diff_code]
             idx = int(idx_s)
-            item = SPECIALTIES[specialty_key]["questions"][idx]
-        except (ValueError, IndexError, KeyError):
+            item = SPECIALTIES[specialty_key]["questions"][difficulty][idx]
+        except (ValueError, IndexError, KeyError, TypeError):
             await query.edit_message_text(
-                "This question expired. Tap *Short MCQ* again.",
+                "This question expired. Open *Short MCQ* and pick a difficulty again.",
                 parse_mode="Markdown",
             )
             return
         label = specialty_label(specialty_key)
         await query.edit_message_text(
-            format_question_result(item, choice, label),
+            format_question_result(item, choice, label, difficulty),
             parse_mode="Markdown",
         )
         return
 
     if data.startswith("c:"):
         try:
-            _, specialty_key, idx_s = data.split(":", 2)
+            _, spec_code, diff_code, idx_s = data.split(":", 3)
+            specialty_key = context.user_data.get("cb_spec", {}).get(spec_code) or resolve_specialty_code(spec_code)
+            difficulty = DIFF_CODE[diff_code]
             idx = int(idx_s)
-            item = SPECIALTIES[specialty_key]["cases"][idx]
-        except (ValueError, IndexError, KeyError):
+            item = SPECIALTIES[specialty_key]["cases"][difficulty][idx]
+        except (ValueError, IndexError, KeyError, TypeError):
             await query.edit_message_text(
-                "This case expired. Tap *Case-based Question* again.",
+                "This case expired. Open *Case-based Question* and pick a difficulty again.",
                 parse_mode="Markdown",
             )
             return
         label = specialty_label(specialty_key)
         await query.edit_message_text(
-            format_case_result(item, label),
+            format_case_result(item, label, difficulty),
             parse_mode="Markdown",
         )
         return
@@ -359,13 +445,11 @@ def main() -> None:
     app = Application.builder().token(BOT_TOKEN).build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("help", help_cmd))
-    app.add_handler(CommandHandler("question", send_question))
-    app.add_handler(CommandHandler("case", send_case))
     app.add_handler(CommandHandler("pdf", send_pdfs))
     app.add_handler(CommandHandler("books", send_books))
     app.add_handler(CallbackQueryHandler(on_callback))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, on_text))
-    print("CharaNas Medicine bot running (UG Medicine specialties)…")
+    print("CharaNas Medicine bot running (specialties + difficulty)…")
     app.run_polling(drop_pending_updates=True, allowed_updates=Update.ALL_TYPES)
 
 
