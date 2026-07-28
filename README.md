@@ -1,19 +1,18 @@
 # CharaNas Medicine Bot
 
-Telegram study bot for the **Undergraduate Medicine** department only.
+Telegram study bot for the **Undergraduate Medicine** department.
 
-## What it does
+## Flow
 
-On `/start`, the bot shows four feature buttons:
+1. `/start` → choose a **specialty** (Cardiology, Ophthalmology, Urology, …)
+2. Then choose a feature:
+   - **Short MCQ** — answer buttons; correct answer revealed after tap
+   - **Case-based Question** — reveal answer button
+   - **PDF files** — specialty study notes PDF
+   - **Book source** — specialty textbooks
+3. Tap **Change specialty** anytime to go back and pick another topic
 
-| Button | Action |
-|---|---|
-| `Short MCQ` | UG medicine MCQ with A–D buttons; answer revealed after you tap |
-| `Case-based Question` | Clinical case; tap **Reveal answer** |
-| `PDF files` | Sends medicine study PDFs |
-| `Book source` | Lists standard UG medicine textbooks |
-
-Also supports: `/help` `/question` `/case` `/pdf` `/books`
+Questions/cases do not repeat within a specialty until the full set is used.
 
 ## Setup
 
@@ -24,5 +23,3 @@ cp .env.example .env
 pip install -r requirements.txt
 python3 main.py
 ```
-
-PDFs are generated automatically into `pdfs/` on first run.
