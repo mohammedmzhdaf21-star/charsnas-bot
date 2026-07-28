@@ -294,21 +294,64 @@ PDF_CATALOG = [
 ]
 
 
-def format_question(item: dict | None = None) -> str:
-    item = item or random.choice(QUESTIONS)
+def correct_letter(item: dict) -> str:
+    """Return A/B/C/D from the answer string (e.g. 'B) ACE inhibitors')."""
+    return item["answer"].strip()[0].upper()
+
+
+def option_letter(option: str) -> str:
+    return option.strip()[0].upper()
+
+
+def pick_question() -> tuple[int, dict]:
+    idx = random.randrange(len(QUESTIONS))
+    return idx, QUESTIONS[idx]
+
+
+def pick_case() -> tuple[int, dict]:
+    idx = random.randrange(len(CASES))
+    return idx, CASES[idx]
+
+
+def format_question_prompt(item: dict) -> str:
+    return (
+        f"📘 *Undergraduate Medicine Question*\n"
+        f"Subject: *{item['subject']}*\n\n"
+        f"{item['question']}\n\n"
+        f"_Tap an answer button below._"
+    )
+
+
+def format_question_result(item: dict, chosen: str) -> str:
+    correct = correct_letter(item)
+    chosen = chosen.upper()
+    if chosen == correct:
+        verdict = "✅ *Correct!*"
+    else:
+        verdict = f"❌ *Incorrect.* You chose *{chosen}*."
     options = "\n".join(item["options"])
     return (
         f"📘 *Undergraduate Medicine Question*\n"
         f"Subject: *{item['subject']}*\n\n"
         f"{item['question']}\n\n"
         f"{options}\n\n"
+        f"{verdict}\n"
         f"✅ *Answer:* {item['answer']}\n"
         f"💡 {item['explanation']}"
     )
 
 
-def format_case(item: dict | None = None) -> str:
-    item = item or random.choice(CASES)
+def format_case_prompt(item: dict) -> str:
+    return (
+        f"🏥 *Case-Based Question (UG Medicine)*\n"
+        f"*{item['title']}*\n\n"
+        f"{item['stem']}\n\n"
+        f"❓ *Question:* {item['question']}\n\n"
+        f"_Tap the button below to reveal the answer._"
+    )
+
+
+def format_case_result(item: dict) -> str:
     return (
         f"🏥 *Case-Based Question (UG Medicine)*\n"
         f"*{item['title']}*\n\n"
@@ -337,9 +380,10 @@ def help_text() -> str:
         "🩺 *CharaNas Medicine Bot*\n"
         "Undergraduate Medicine Department only.\n\n"
         "Send one of these:\n"
-        "• *create question* — get an UG medicine MCQ\n"
-        "• *case based question* — get a clinical case\n"
+        "• *create question* — MCQ with answer buttons\n"
+        "• *case based question* — clinical case (reveal answer)\n"
         "• *give me pdf files* — receive study PDFs\n"
         "• *book source* — standard textbook list\n\n"
+        "Tap a button to reveal the correct answer.\n\n"
         "Commands: /start /help /question /case /pdf /books"
     )

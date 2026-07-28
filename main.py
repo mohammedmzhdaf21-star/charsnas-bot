@@ -4,10 +4,29 @@ from pathlib import Path
 from dotenv import load_dotenv
 import os
 
-from telegram import Update
-from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
+from telegram.ext import (
+    Application,
+    CallbackQueryHandler,
+    CommandHandler,
+    ContextTypes,
+    MessageHandler,
+    filters,
+)
 
-from content import format_book_sources, format_case, format_question, help_text
+from content import (
+    CASES,
+    QUESTIONS,
+    format_book_sources,
+    format_case_prompt,
+    format_case_result,
+    format_question_prompt,
+    format_question_result,
+    help_text,
+    option_letter,
+    pick_case,
+    pick_question,
+)
 from generate_pdfs import PDF_DIR, ensure_pdfs
 
 load_dotenv(Path(__file__).resolve().parent / ".env")
@@ -16,7 +35,6 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 if not BOT_TOKEN:
     raise SystemExit("BOT_TOKEN is missing. Copy .env.example to .env and set BOT_TOKEN.")
 
-# Intent patterns (natural language for UG medicine students)
 INTENT_PATTERNS = {
     "question": [
         r"\bcreate\s+questions?\b",
@@ -55,6 +73,49 @@ def detect_intent(text: str) -> str | None:
     return None
 
 
+def question_keyboard(idx: int, item: dict) -> InlineKeyboardMarkup:
+    rows = []
+    row = []
+    for option in item["options"]:
+        letter = option_letter(option)
+        row.append(
+            InlineKeyboardButton(
+                option,
+                callback_data=f"q:{idx}:{letter}",
+            )
+        )
+        if len(row) == 2:
+            rows.append(row)
+            row = []
+    if row:
+        rows.append(row)
+    return InlineKeyboardMarkup(rows)
+
+
+def case_keyboard(idx: int) -> InlineKeyboardMarkup:
+    return InlineKeyboardMarkup(
+        [[InlineKeyboardButton("Reveal answer", callback_data=f"c:{idx}")]]
+    )
+
+
+async def send_question(update: Update) -> None:
+    idx, item = pick_question()
+    await update.message.reply_text(
+        format_question_prompt(item),
+        parse_mode="Markdown",
+        reply_markup=question_keyboard(idx, item),
+    )
+
+
+async def send_case(update: Update) -> None:
+    idx, item = pick_case()
+    await update.message.reply_text(
+        format_case_prompt(item),
+        parse_mode="Markdown",
+        reply_markup=case_keyboard(idx),
+    )
+
+
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(help_text(), parse_mode="Markdown")
 
@@ -64,11 +125,11 @@ async def help_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 
 async def question_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_text(format_question(), parse_mode="Markdown")
+    await send_question(update)
 
 
 async def case_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_text(format_case(), parse_mode="Markdown")
+    await send_case(update)
 
 
 async def books_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -94,9 +155,9 @@ async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     intent = detect_intent(text)
 
     if intent == "question":
-        await update.message.reply_text(format_question(), parse_mode="Markdown")
+        await send_question(update)
     elif intent == "case":
-        await update.message.reply_text(format_case(), parse_mode="Markdown")
+        await send_case(update)
     elif intent == "pdf":
         await send_pdfs(update, context)
     elif intent == "books":
@@ -114,6 +175,36 @@ async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         )
 
 
+async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    query = update.callback_query
+    await query.answer()
+    data = query.data or ""
+
+    if data.startswith("q:"):
+        try:
+            _, idx_s, choice = data.split(":", 2)
+            idx = int(idx_s)
+            item = QUESTIONS[idx]
+        except (ValueError, IndexError, KeyError):
+            await query.edit_message_text("This question expired. Send *create question* again.", parse_mode="Markdown")
+            return
+
+        text = format_question_result(item, choice)
+        # Show correct option highlighted in a disabled-style follow-up keyboard? Remove buttons after answer.
+        await query.edit_message_text(text, parse_mode="Markdown")
+        return
+
+    if data.startswith("c:"):
+        try:
+            idx = int(data.split(":", 1)[1])
+            item = CASES[idx]
+        except (ValueError, IndexError):
+            await query.edit_message_text("This case expired. Send *case based question* again.", parse_mode="Markdown")
+            return
+        await query.edit_message_text(format_case_result(item), parse_mode="Markdown")
+        return
+
+
 def main() -> None:
     ensure_pdfs(PDF_DIR)
     app = Application.builder().token(BOT_TOKEN).build()
@@ -123,6 +214,7 @@ def main() -> None:
     app.add_handler(CommandHandler("case", case_cmd))
     app.add_handler(CommandHandler("pdf", send_pdfs))
     app.add_handler(CommandHandler("books", books_cmd))
+    app.add_handler(CallbackQueryHandler(on_callback))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, on_text))
     print("CharaNas Medicine bot running (UG Medicine)…")
     app.run_polling(drop_pending_updates=True, allowed_updates=Update.ALL_TYPES)
