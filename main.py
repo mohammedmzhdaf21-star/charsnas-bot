@@ -1,4 +1,6 @@
+import logging
 import re
+import traceback
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -11,6 +13,7 @@ from telegram import (
     ReplyKeyboardMarkup,
     Update,
 )
+from telegram.error import BadRequest
 from telegram.ext import (
     Application,
     CallbackQueryHandler,
@@ -19,6 +22,16 @@ from telegram.ext import (
     MessageHandler,
     filters,
 )
+
+logging.basicConfig(
+    format="%(asctime)s %(levelname)s %(name)s: %(message)s",
+    level=logging.INFO,
+    handlers=[
+        logging.StreamHandler(),
+        logging.FileHandler(Path(__file__).resolve().parent / "bot.log"),
+    ],
+)
+log = logging.getLogger("charanas-bot")
 
 from content import (
     DIFFICULTIES,
@@ -180,26 +193,38 @@ def resolve_specialty_code(code: str) -> str | None:
 DIFF_CODE = {"e": "easy", "m": "medium", "h": "hard", "x": "extreme"}
 
 
+async def safe_reply(update: Update, text: str, reply_markup=None, parse_mode: str | None = "Markdown") -> None:
+    """Send a reply; if Markdown fails, retry as plain text."""
+    message = update.effective_message
+    if not message:
+        return
+    try:
+        await message.reply_text(text, parse_mode=parse_mode, reply_markup=reply_markup)
+    except BadRequest as exc:
+        log.warning("Markdown send failed: %s — retrying plain text", exc)
+        await message.reply_text(text, reply_markup=reply_markup)
+
+
+async def safe_edit(query, text: str, parse_mode: str | None = "Markdown") -> None:
+    try:
+        await query.edit_message_text(text, parse_mode=parse_mode)
+    except BadRequest as exc:
+        log.warning("Markdown edit failed: %s — retrying plain text", exc)
+        await query.edit_message_text(text)
+
+
 async def show_specialty_menu(update: Update, context: ContextTypes.DEFAULT_TYPE, text: str | None = None) -> None:
     context.user_data["specialty"] = None
     context.user_data["quiz_mode"] = None
     context.user_data["difficulty"] = None
-    await update.message.reply_text(
-        text or specialty_menu_text(),
-        parse_mode="Markdown",
-        reply_markup=specialty_keyboard(),
-    )
+    await safe_reply(update, text or specialty_menu_text(), reply_markup=specialty_keyboard())
 
 
 async def show_feature_menu(update: Update, context: ContextTypes.DEFAULT_TYPE, specialty_key: str) -> None:
     context.user_data["specialty"] = specialty_key
     context.user_data["quiz_mode"] = None
     context.user_data["difficulty"] = None
-    await update.message.reply_text(
-        feature_menu_text(specialty_key),
-        parse_mode="Markdown",
-        reply_markup=feature_keyboard(),
-    )
+    await safe_reply(update, feature_menu_text(specialty_key), reply_markup=feature_keyboard())
 
 
 async def show_difficulty_menu(
@@ -207,9 +232,9 @@ async def show_difficulty_menu(
 ) -> None:
     context.user_data["specialty"] = specialty_key
     context.user_data["quiz_mode"] = mode
-    await update.message.reply_text(
+    await safe_reply(
+        update,
         difficulty_menu_text(specialty_key, mode),
-        parse_mode="Markdown",
         reply_markup=difficulty_keyboard(),
     )
 
@@ -238,9 +263,9 @@ async def send_question(update: Update, context: ContextTypes.DEFAULT_TYPE, diff
     context.user_data.setdefault("cb_spec", {})[specialty_key[:8]] = specialty_key
 
     label = specialty_label(specialty_key)
-    await update.message.reply_text(
+    await safe_reply(
+        update,
         format_question_prompt(item, label, difficulty),
-        parse_mode="Markdown",
         reply_markup=question_keyboard(specialty_key, difficulty, idx, item),
     )
 
@@ -260,9 +285,9 @@ async def send_case(update: Update, context: ContextTypes.DEFAULT_TYPE, difficul
     context.user_data.setdefault("cb_spec", {})[specialty_key[:8]] = specialty_key
 
     label = specialty_label(specialty_key)
-    await update.message.reply_text(
+    await safe_reply(
+        update,
         format_case_prompt(item, label, difficulty),
-        parse_mode="Markdown",
         reply_markup=case_keyboard(specialty_key, difficulty, idx),
     )
 
@@ -271,9 +296,9 @@ async def send_books(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None
     specialty_key = await require_specialty(update, context)
     if not specialty_key:
         return
-    await update.message.reply_text(
+    await safe_reply(
+        update,
         format_book_sources(specialty_key),
-        parse_mode="Markdown",
         reply_markup=feature_keyboard(),
     )
 
@@ -285,9 +310,9 @@ async def send_pdfs(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
     path = pdf_for_specialty(specialty_key, PDF_DIR)
     label = specialty_label(specialty_key)
-    await update.message.reply_text(
+    await safe_reply(
+        update,
         f"📄 Sending *{label}* PDF study notes…",
-        parse_mode="Markdown",
         reply_markup=feature_keyboard(),
     )
     with path.open("rb") as fh:
@@ -358,9 +383,9 @@ async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
             return
         # If difficulty pressed without mode, ask them to pick feature first
         if current_specialty(context):
-            await update.message.reply_text(
+            await safe_reply(
+                update,
                 "First choose *Short MCQ* or *Case-based Question*, then a difficulty.",
-                parse_mode="Markdown",
                 reply_markup=feature_keyboard(),
             )
         else:
@@ -375,15 +400,15 @@ async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     if current_specialty(context):
         mode = context.user_data.get("quiz_mode")
         if mode in ("question", "case"):
-            await update.message.reply_text(
+            await safe_reply(
+                update,
                 "Please choose a difficulty button, or *Back to features*.",
-                parse_mode="Markdown",
                 reply_markup=difficulty_keyboard(),
             )
         else:
-            await update.message.reply_text(
+            await safe_reply(
+                update,
                 "Please choose a feature from the buttons below, or tap *Change specialty*.",
-                parse_mode="Markdown",
                 reply_markup=feature_keyboard(),
             )
     else:
@@ -407,16 +432,13 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
             idx = int(idx_s)
             item = SPECIALTIES[specialty_key]["questions"][difficulty][idx]
         except (ValueError, IndexError, KeyError, TypeError):
-            await query.edit_message_text(
+            await safe_edit(
+                query,
                 "This question expired. Open *Short MCQ* and pick a difficulty again.",
-                parse_mode="Markdown",
             )
             return
         label = specialty_label(specialty_key)
-        await query.edit_message_text(
-            format_question_result(item, choice, label, difficulty),
-            parse_mode="Markdown",
-        )
+        await safe_edit(query, format_question_result(item, choice, label, difficulty))
         return
 
     if data.startswith("c:"):
@@ -427,30 +449,58 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
             idx = int(idx_s)
             item = SPECIALTIES[specialty_key]["cases"][difficulty][idx]
         except (ValueError, IndexError, KeyError, TypeError):
-            await query.edit_message_text(
+            await safe_edit(
+                query,
                 "This case expired. Open *Case-based Question* and pick a difficulty again.",
-                parse_mode="Markdown",
             )
             return
         label = specialty_label(specialty_key)
-        await query.edit_message_text(
-            format_case_result(item, label, difficulty),
-            parse_mode="Markdown",
-        )
+        await safe_edit(query, format_case_result(item, label, difficulty))
         return
 
 
+async def ping(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    await safe_reply(update, "✅ Bot is online. Send /start to open the specialty menu.")
+
+
+async def on_error(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
+    log.error("Handler error: %s\n%s", context.error, traceback.format_exc())
+    if isinstance(update, Update) and update.effective_message:
+        try:
+            await update.effective_message.reply_text(
+                "Something went wrong. Please send /start and try again."
+            )
+        except Exception:
+            pass
+
+
 def main() -> None:
+    log.info("Preparing PDFs…")
     ensure_pdfs(PDF_DIR)
-    app = Application.builder().token(BOT_TOKEN).build()
+    app = (
+        Application.builder()
+        .token(BOT_TOKEN)
+        .connect_timeout(30)
+        .read_timeout(30)
+        .write_timeout(30)
+        .pool_timeout(30)
+        .build()
+    )
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("help", help_cmd))
+    app.add_handler(CommandHandler("ping", ping))
     app.add_handler(CommandHandler("pdf", send_pdfs))
     app.add_handler(CommandHandler("books", send_books))
     app.add_handler(CallbackQueryHandler(on_callback))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, on_text))
+    app.add_error_handler(on_error)
+    log.info("CharaNas Medicine bot starting polling…")
     print("CharaNas Medicine bot running (specialties + difficulty)…")
-    app.run_polling(drop_pending_updates=True, allowed_updates=Update.ALL_TYPES)
+    app.run_polling(
+        drop_pending_updates=False,
+        allowed_updates=Update.ALL_TYPES,
+        bootstrap_retries=5,
+    )
 
 
 if __name__ == "__main__":
