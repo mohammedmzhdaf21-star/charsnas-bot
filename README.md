@@ -1,30 +1,26 @@
-# Charsnas Telegram Bot
+# CharaNas Medicine Bot
 
-Simple echo bot built with [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot).
+Telegram study bot for the **Undergraduate Medicine** department only.
+
+## What it does
+
+| You say | Bot does |
+|---|---|
+| `create question` | Sends an UG medicine MCQ with answer |
+| `case based question` | Sends a clinical case with discussion |
+| `give me pdf files` | Sends medicine study PDFs |
+| `book source` | Lists standard UG medicine textbooks |
+
+Also supports: `/start` `/help` `/question` `/case` `/pdf` `/books`
 
 ## Setup
 
-1. Create a bot with [@BotFather](https://t.me/BotFather) and copy the token.
-2. Configure the token:
-
 ```bash
 cp .env.example .env
-# edit .env and set BOT_TOKEN=...
-```
+# set BOT_TOKEN=...
 
-3. Install dependencies:
-
-```bash
 pip install -r requirements.txt
-```
-
-4. Run the bot:
-
-```bash
 python3 main.py
 ```
 
-## Usage
-
-- Send `/start` — bot replies with a greeting
-- Send any text — bot echoes it back
+PDFs are generated automatically into `pdfs/` on first run.
