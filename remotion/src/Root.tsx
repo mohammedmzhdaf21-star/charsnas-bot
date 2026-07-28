@@ -1,6 +1,7 @@
 import React from "react";
 import { Composition, Folder } from "remotion";
 import { VideoWithMotionGraphics } from "./VideoWithMotionGraphics";
+import { EarAnatomyMotion } from "./EarAnatomyMotion";
 import {
   VideoWithMotionGraphicsSchema,
   type VideoWithMotionGraphicsProps,
@@ -49,6 +50,14 @@ export const defaultProps: VideoWithMotionGraphicsProps = {
   },
 };
 
+export const earAnatomyDefaultProps = {
+  imageSrc: "ear-anatomy-poster.png",
+  headline: "گرنگی؟",
+  body: "وەک وردەکارییەکی پێشکەوتووی توێکاریی گوێ، بە بێدەنگی پاڵپشتی بیستن و هاوسەنگی دەکات",
+  lowerThirdTitle: "توێکاریی گوێ",
+  lowerThirdSubtitle: "بیستن و هاوسەنگی",
+};
+
 export const RemotionRoot: React.FC = () => {
   return (
     <Folder name="Motion-Graphics">
@@ -61,6 +70,15 @@ export const RemotionRoot: React.FC = () => {
         height={1080}
         schema={VideoWithMotionGraphicsSchema}
         defaultProps={defaultProps}
+      />
+      <Composition
+        id="EarAnatomyMotion"
+        component={EarAnatomyMotion}
+        durationInFrames={240}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={earAnatomyDefaultProps}
       />
     </Folder>
   );

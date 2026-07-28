@@ -8,11 +8,17 @@ import {
 } from "remotion";
 import type { LowerThirdProps } from "../types";
 
+type Props = LowerThirdProps & {
+  fontFamily?: string;
+  /** Use RTL layout for Arabic / Kurdish titles. */
+  rtl?: boolean;
+};
+
 /**
  * Animated lower-third graphic: accent bar + title/subtitle plate.
  * Slides in from the left with spring physics, holds, then exits.
  */
-export const LowerThird: React.FC<LowerThirdProps> = ({
+export const LowerThird: React.FC<Props> = ({
   title,
   subtitle = "",
   startFrame = 30,
@@ -20,6 +26,8 @@ export const LowerThird: React.FC<LowerThirdProps> = ({
   accentColor = "#E8A54B",
   backgroundColor = "rgba(12, 18, 28, 0.92)",
   textColor = "#FFFFFF",
+  fontFamily = '"DM Sans", "Helvetica Neue", Helvetica, Arial, sans-serif',
+  rtl = false,
 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -120,19 +128,20 @@ export const LowerThird: React.FC<LowerThirdProps> = ({
           }}
         />
         <div
+          dir={rtl ? "rtl" : "ltr"}
           style={{
             backgroundColor,
             padding: "16px 28px 18px 22px",
             minWidth: 280,
             maxWidth: 520,
+            textAlign: rtl ? "right" : "left",
           }}
         >
           <div
             style={{
               opacity: textOpacity,
               transform: `translateX(${textX}px)`,
-              fontFamily:
-                '"DM Sans", "Helvetica Neue", Helvetica, Arial, sans-serif',
+              fontFamily,
               fontSize: 32,
               fontWeight: 700,
               color: textColor,
@@ -148,13 +157,12 @@ export const LowerThird: React.FC<LowerThirdProps> = ({
                 opacity: textOpacity,
                 transform: `translateX(${textX}px)`,
                 marginTop: 6,
-                fontFamily:
-                  '"DM Sans", "Helvetica Neue", Helvetica, Arial, sans-serif',
+                fontFamily,
                 fontSize: 18,
                 fontWeight: 500,
                 color: accentColor,
-                letterSpacing: 1.2,
-                textTransform: "uppercase",
+                letterSpacing: rtl ? 0.4 : 1.2,
+                textTransform: rtl ? "none" : "uppercase",
               }}
             >
               {subtitle}
