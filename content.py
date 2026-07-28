@@ -303,14 +303,22 @@ def option_letter(option: str) -> str:
     return option.strip()[0].upper()
 
 
-def pick_question() -> tuple[int, dict]:
-    idx = random.randrange(len(QUESTIONS))
-    return idx, QUESTIONS[idx]
+def next_unique(items: list[dict], remaining: list[int] | None) -> tuple[int, dict, list[int]]:
+    """Pick the next unused item; reshuffle only after the full set is exhausted."""
+    pool = list(remaining) if remaining else []
+    if not pool:
+        pool = list(range(len(items)))
+        random.shuffle(pool)
+    idx = pool.pop()
+    return idx, items[idx], pool
 
 
-def pick_case() -> tuple[int, dict]:
-    idx = random.randrange(len(CASES))
-    return idx, CASES[idx]
+def pick_question(remaining: list[int] | None = None) -> tuple[int, dict, list[int]]:
+    return next_unique(QUESTIONS, remaining)
+
+
+def pick_case(remaining: list[int] | None = None) -> tuple[int, dict, list[int]]:
+    return next_unique(CASES, remaining)
 
 
 def format_question_prompt(item: dict) -> str:

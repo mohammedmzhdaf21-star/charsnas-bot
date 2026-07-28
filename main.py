@@ -141,8 +141,10 @@ async def send_menu(update: Update, text: str | None = None) -> None:
     )
 
 
-async def send_question(update: Update) -> None:
-    idx, item = pick_question()
+async def send_question(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    remaining = context.user_data.get("remaining_questions")
+    idx, item, remaining = pick_question(remaining)
+    context.user_data["remaining_questions"] = remaining
     await update.message.reply_text(
         format_question_prompt(item),
         parse_mode="Markdown",
@@ -150,8 +152,10 @@ async def send_question(update: Update) -> None:
     )
 
 
-async def send_case(update: Update) -> None:
-    idx, item = pick_case()
+async def send_case(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    remaining = context.user_data.get("remaining_cases")
+    idx, item, remaining = pick_case(remaining)
+    context.user_data["remaining_cases"] = remaining
     await update.message.reply_text(
         format_case_prompt(item),
         parse_mode="Markdown",
@@ -186,9 +190,9 @@ async def dispatch_intent(
     update: Update, context: ContextTypes.DEFAULT_TYPE, intent: str
 ) -> None:
     if intent == "question":
-        await send_question(update)
+        await send_question(update, context)
     elif intent == "case":
-        await send_case(update)
+        await send_case(update, context)
     elif intent == "pdf":
         await send_pdfs(update, context)
     elif intent == "books":
@@ -204,11 +208,11 @@ async def help_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 
 async def question_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await send_question(update)
+    await send_question(update, context)
 
 
 async def case_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await send_case(update)
+    await send_case(update, context)
 
 
 async def books_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
