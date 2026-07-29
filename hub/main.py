@@ -18,6 +18,7 @@ from telegram.error import BadRequest, Forbidden, TelegramError
 from telegram.ext import (
     Application,
     CallbackQueryHandler,
+    ChatMemberHandler,
     CommandHandler,
     ContextTypes,
     MessageHandler,
@@ -75,8 +76,28 @@ KEY_TO_DEPT = {d["key"]: d for d in DEPARTMENTS}
 # Channel join gate (Telegram cannot force-join; we require join then verify)
 CHANNEL_USERNAME = (os.getenv("CHANNEL_USERNAME") or "").strip().lstrip("@")
 CHANNEL_INVITE_LINK = (os.getenv("CHANNEL_INVITE_LINK") or "").strip()
-CHANNEL_CHAT_ID = (os.getenv("CHANNEL_CHAT_ID") or "").strip()  # e.g. -100xxxxxxxxxx
-REQUIRE_CHANNEL = (os.getenv("REQUIRE_CHANNEL", "1" if CHANNEL_USERNAME or CHANNEL_CHAT_ID else "0").strip().lower() in {"1", "true", "yes", "on"})
+_CHANNEL_ID_FILE = Path(__file__).resolve().parent / "channel_chat_id.txt"
+
+
+def _load_channel_chat_id() -> str:
+    env_id = (os.getenv("CHANNEL_CHAT_ID") or "").strip()
+    if env_id:
+        return env_id
+    if _CHANNEL_ID_FILE.exists():
+        return _CHANNEL_ID_FILE.read_text().strip()
+    return ""
+
+
+CHANNEL_CHAT_ID = _load_channel_chat_id()  # e.g. -100xxxxxxxxxx
+REQUIRE_CHANNEL = (
+    os.getenv(
+        "REQUIRE_CHANNEL",
+        "1" if (CHANNEL_USERNAME or CHANNEL_CHAT_ID or CHANNEL_INVITE_LINK) else "0",
+    )
+    .strip()
+    .lower()
+    in {"1", "true", "yes", "on"}
+)
 
 JOINED_STATUSES = {"creator", "administrator", "member", "restricted"}
 
@@ -173,12 +194,18 @@ async def safe_reply(update: Update, text: str, reply_markup=None) -> None:
         await message.reply_text(text)
 
 
-async def user_in_channel(context: ContextTypes.DEFAULT_TYPE, user_id: int) -> bool:
+def can_verify_membership() -> bool:
+    return channel_ref() is not None
+
+
+async def user_in_channel(context: ContextTypes.DEFAULT_TYPE, user_id: int) -> bool | None:
+    """Return True/False when verifiable; None when only invite-link soft gate is available."""
     if not REQUIRE_CHANNEL:
         return True
     chat = channel_ref()
     if chat is None:
-        return True
+        # Private invite configured but chat id unknown yet — soft gate
+        return None
     try:
         member = await context.bot.get_chat_member(chat_id=chat, user_id=user_id)
         status = getattr(member, "status", None)
@@ -190,11 +217,18 @@ async def user_in_channel(context: ContextTypes.DEFAULT_TYPE, user_id: int) -> b
             "Cannot check channel membership (is hub bot an admin of the channel?): %s",
             exc,
         )
-        # Fail open so students are not locked out if misconfigured
-        return True
+        # Soft-fail: still show join link, but allow continue so students are not locked out
+        return None
     except TelegramError as exc:
         log.warning("getChatMember failed: %s", exc)
         return False
+
+
+def persist_channel_chat_id(chat_id: int) -> None:
+    global CHANNEL_CHAT_ID
+    CHANNEL_CHAT_ID = str(chat_id)
+    _CHANNEL_ID_FILE.write_text(str(chat_id) + "\n")
+    log.info("Saved channel chat id %s to %s", chat_id, _CHANNEL_ID_FILE.name)
 
 
 async def send_department_link(update: Update, dept: dict) -> None:
@@ -215,16 +249,16 @@ async def offer_department(
 
     context.user_data["pending_dept"] = dept["key"]
 
-    if await user_in_channel(context, user.id):
+    status = await user_in_channel(context, user.id)
+    if status is True or (status is None and context.user_data.get("channel_soft_ok")):
         await send_department_link(update, dept)
         return
 
-    ch = f"@{CHANNEL_USERNAME}" if CHANNEL_USERNAME else "our channel"
     await safe_reply(
         update,
-        f"Before opening {dept['label']}, join {ch}.\n\n"
+        f"Before opening {dept['label']}, join our CharaNas channel.\n\n"
         "1) Tap Join the channel\n"
-        "2) Tap I joined — Continue\n\n"
+        "2) Come back and tap I joined — Continue\n\n"
         "(Telegram does not allow bots to add you automatically.)",
         reply_markup=join_gate_keyboard(dept["key"]),
     )
@@ -289,6 +323,17 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
     if not user:
         return
 
+    async def open_dept(dept: dict, thanks: bool = False) -> None:
+        prefix = "Thanks for joining!\n\n" if thanks else ""
+        await query.edit_message_text(
+            f"{prefix}{dept['label']} bot\n@{dept['username']}\n\n{dept['blurb']}\n\nTap below to open it:"
+        )
+        await query.message.reply_text(
+            f"Open {dept['label']}:",
+            reply_markup=link_keyboard(dept),
+            disable_web_page_preview=True,
+        )
+
     if data.startswith("dept:"):
         key = data.split(":", 1)[1]
         dept = KEY_TO_DEPT.get(key)
@@ -296,21 +341,14 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
             await query.edit_message_text("Unknown field. Send /start and try again.")
             return
         context.user_data["pending_dept"] = key
-        if await user_in_channel(context, user.id):
-            await query.edit_message_text(
-                f"{dept['label']} bot\n@{dept['username']}\n\n{dept['blurb']}\n\nTap below to open it:"
-            )
-            await query.message.reply_text(
-                f"Open {dept['label']}:",
-                reply_markup=link_keyboard(dept),
-                disable_web_page_preview=True,
-            )
+        status = await user_in_channel(context, user.id)
+        if status is True or (status is None and context.user_data.get("channel_soft_ok")):
+            await open_dept(dept)
             return
-        ch = f"@{CHANNEL_USERNAME}" if CHANNEL_USERNAME else "our channel"
         await query.edit_message_text(
-            f"Before opening {dept['label']}, join {ch}.\n\n"
+            f"Before opening {dept['label']}, join our CharaNas channel.\n\n"
             "1) Tap Join the channel\n"
-            "2) Tap I joined — Continue\n\n"
+            "2) Come back and tap I joined — Continue\n\n"
             "(Telegram does not allow bots to add you automatically.)",
             reply_markup=join_gate_keyboard(key),
         )
@@ -322,21 +360,37 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         if not dept:
             await query.edit_message_text("Session expired. Send /start and choose a field again.")
             return
-        if await user_in_channel(context, user.id):
-            await query.edit_message_text(
-                f"Thanks for joining!\n\n{dept['label']} bot\n@{dept['username']}\n\n{dept['blurb']}"
-            )
-            await query.message.reply_text(
-                f"Open {dept['label']}:",
-                reply_markup=link_keyboard(dept),
-                disable_web_page_preview=True,
+        status = await user_in_channel(context, user.id)
+        if status is False:
+            await query.answer(
+                "Still not seeing you in the channel. Join first, then tap Continue.",
+                show_alert=True,
             )
             return
-        await query.answer(
-            "Still not seeing you in the channel. Join first, then tap Continue.",
-            show_alert=True,
-        )
+        if status is None:
+            # Soft gate (private invite; chat id not known yet, or bot not admin)
+            context.user_data["channel_soft_ok"] = True
+        await open_dept(dept, thanks=True)
         return
+
+
+async def on_my_chat_member(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """When hub bot is added to the channel, remember chat id for hard membership checks."""
+    mcm = update.my_chat_member
+    if not mcm:
+        return
+    chat = mcm.chat
+    if chat.type != "channel":
+        return
+    new_status = mcm.new_chat_member.status
+    if new_status in {"administrator", "member"}:
+        persist_channel_chat_id(chat.id)
+        log.info(
+            "Hub bot is now %s in channel %r (id=%s) — hard membership checks enabled",
+            new_status,
+            chat.title,
+            chat.id,
+        )
 
 
 async def on_error(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -357,13 +411,12 @@ def main() -> None:
             "HUB_BOT_TOKEN is missing. Copy .env.example to .env and set HUB_BOT_TOKEN."
         )
 
-    if REQUIRE_CHANNEL and not channel_ref():
-        log.warning("REQUIRE_CHANNEL is on but CHANNEL_USERNAME / CHANNEL_CHAT_ID is empty")
-    elif REQUIRE_CHANNEL:
+    if REQUIRE_CHANNEL:
         log.info(
-            "Channel gate ON for %s (invite=%s)",
-            channel_ref(),
+            "Channel gate ON (verify=%s invite=%s ref=%s)",
+            "hard" if can_verify_membership() else "soft",
             "yes" if channel_url() else "no",
+            channel_ref(),
         )
     else:
         log.info("Channel gate OFF")
@@ -380,6 +433,7 @@ def main() -> None:
     app.add_handler(CommandHandler("help", help_cmd))
     app.add_handler(CommandHandler("ping", ping))
     app.add_handler(CallbackQueryHandler(on_callback))
+    app.add_handler(ChatMemberHandler(on_my_chat_member, ChatMemberHandler.MY_CHAT_MEMBER))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, on_text))
     app.add_error_handler(on_error)
 
