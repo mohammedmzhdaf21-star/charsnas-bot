@@ -22,16 +22,14 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                       'C) Only inhibits an enzyme always',
                                                       'D) Only is a vitamin'],
                                           'answer': 'A) Activates a receptor',
-                                          'explanation': 'Agonists activate receptors; antagonists '
-                                                         'block.'},
+                                          'explanation': "An agonist binds a receptor and stabilizes an active conformation, thereby increasing receptor signaling relative to basal tone. Full agonists can elicit the system's maximal response, whereas partial agonists produce a submaximal effect even at full occupancy. Antagonists occupy the same or related sites without activating the receptor and therefore reduce agonist effect."},
                                          {'question': 'First-pass metabolism mainly occurs after?',
                                           'options': ['A) Oral absorption via liver',
                                                       'B) IV bolus only',
                                                       'C) Intramuscular only always',
                                                       'D) Topical cream only'],
                                           'answer': 'A) Oral absorption via liver',
-                                          'explanation': 'Oral drugs may undergo extensive hepatic '
-                                                         'first-pass.'},
+                                          'explanation': 'After oral absorption, drug in the portal circulation passes through the liver before reaching the systemic arterial blood. Extensive hepatic extraction or gut-wall metabolism during this first pass can substantially reduce bioavailability. Intravenous administration bypasses first-pass metabolism, which is why oral and IV doses often differ for high-extraction drugs.'},
                                          {'question': 'Therapeutic index relates to?',
                                           'options': ['A) Safety margin between effective and '
                                                       'toxic doses',
@@ -40,15 +38,14 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                       'D) Only price'],
                                           'answer': 'A) Safety margin between effective and toxic '
                                                     'doses',
-                                          'explanation': 'Narrow TI drugs need careful '
-                                                         'monitoring.'}],
+                                          'explanation': 'The therapeutic index compares a toxic dose measure (for example TD50) with an effective dose measure (for example ED50), reflecting the margin between efficacy and harm. Drugs with a narrow therapeutic index have overlapping effective and toxic concentration ranges. Such agents typically require careful dose titration and, when appropriate, therapeutic drug monitoring.'}],
                                 'medium': [{'question': 'Beta-blocker caution is highest in?',
                                             'options': ['A) Asthma (nonselective agents)',
                                                         'B) Only mild acne',
                                                         'C) Only myopia',
                                                         'D) Only caries'],
                                             'answer': 'A) Asthma (nonselective agents)',
-                                            'explanation': 'Bronchoconstriction risk.'},
+                                            'explanation': 'Nonselective β-blockers antagonize β2-adrenergic receptors that mediate bronchial smooth-muscle relaxation. Loss of β2 tone can precipitate bronchoconstriction in patients with asthma or reactive airway disease. Cardioselective β1-blockers reduce but do not abolish this risk at higher doses.'},
                                            {'question': 'ACE inhibitor common side effect?',
                                             'options': ['A) Dry cough',
                                                         'B) Only orange urine always',
@@ -56,15 +53,14 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                         'this class',
                                                         'D) Only ototoxicity classic'],
                                             'answer': 'A) Dry cough',
-                                            'explanation': 'Bradykinin-related; ARB alternative '
-                                                           'often.'},
+                                            'explanation': 'ACE inhibitors block angiotensin-converting enzyme, which also degrades bradykinin in the lungs and vasculature. Accumulated bradykinin and related peptides stimulate sensory nerves and are the principal mechanism of ACE-inhibitor–associated dry cough. Angiotensin-receptor blockers spare ACE and therefore rarely cause this cough, making them a common alternative.'},
                                            {'question': 'Zero-order elimination example theme?',
                                             'options': ['A) Phenytoin / ethanol at higher levels',
                                                         'B) Always all antibiotics',
                                                         'C) Always all vitamins',
                                                         'D) Always saline'],
                                             'answer': 'A) Phenytoin / ethanol at higher levels',
-                                            'explanation': 'Saturable kinetics.'}],
+                                            'explanation': 'Zero-order (saturation) elimination occurs when metabolizing enzymes operate near Vmax, so a constant amount of drug is removed per unit time. Phenytoin and ethanol classically show this nonlinear behavior at clinically relevant concentrations. Small dose increases can then produce disproportionately large rises in plasma concentration and toxicity risk.'}],
                                 'hard': [{'question': 'A junior colleague asks for the single best '
                                                       'answer. Competitive antagonist effect on '
                                                       'agonist curve? Beware of near-miss '
@@ -77,8 +73,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                       'D) No change ever'],
                                           'answer': 'A) Right shift; same maximal response if '
                                                     'surmountable',
-                                          'explanation': 'Noncompetitive often depresses max '
-                                                         'response.'},
+                                          'explanation': 'A surmountable competitive antagonist and agonist compete for the same receptor site, so higher agonist concentrations restore receptor occupancy. On a concentration–response curve this produces a parallel rightward shift with preserved maximal response (Emax). Noncompetitive or irreversible antagonism more typically depresses Emax when receptor reserve is limited.'},
                                          {'question': 'A junior colleague asks for the single best '
                                                       'answer. CYP3A4 induction may? Beware of '
                                                       'near-miss distractors.',
@@ -87,7 +82,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                       'C) Only change tablet shape',
                                                       'D) Only affect topical drugs'],
                                           'answer': 'A) Reduce substrate drug levels',
-                                          'explanation': 'Clinically important interactions.'},
+                                          'explanation': 'CYP3A4 induction increases transcription and amount of active enzyme, accelerating oxidative metabolism of many substrates. Faster clearance lowers steady-state plasma concentrations and can cause loss of therapeutic effect for inducer-sensitive drugs. The interaction magnitude depends on inducer potency, substrate fraction metabolized by CYP3A4, and dosing time course.'},
                                          {'question': 'A junior colleague asks for the single best '
                                                       'answer. Loading dose mainly depends on? '
                                                       'Beware of near-miss distractors.',
@@ -98,7 +93,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                       'D) Only taste'],
                                           'answer': 'A) Volume of distribution and target '
                                                     'concentration',
-                                          'explanation': 'Maintenance relates more to clearance.'}],
+                                          'explanation': 'Loading dose is chosen to rapidly achieve a target concentration in the apparent volume of distribution: LD ≈ Css × Vd (adjusted for bioavailability). It fills the distributive space rather than matching elimination rate. Maintenance dose, by contrast, replaces drug lost through clearance and is therefore governed mainly by CL and dosing interval.'}],
                                 'extreme': [{'question': 'In a high-stakes pharmacy scenario with '
                                                          'incomplete data, which statement is MOST '
                                                          'correct? Torsades risk rises with? Avoid '
@@ -112,7 +107,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                          'D) Only vitamins C/D always'],
                                              'answer': 'A) QT-prolonging drugs + electrolyte '
                                                        'imbalance',
-                                             'explanation': 'Check interactions and K/Mg.'},
+                                             'explanation': 'Torsades de pointes is a polymorphic ventricular tachycardia linked to delayed ventricular repolarization and QT interval prolongation. Many drugs block cardiac IKr (hERG) potassium channels, and hypokalemia or hypomagnesemia further destabilize repolarization. Concurrent QT-prolonging drugs plus electrolyte imbalance therefore synergistically elevate torsades risk.'},
                                             {'question': 'In a high-stakes pharmacy scenario with '
                                                          'incomplete data, which statement is MOST '
                                                          'correct? Serotonin syndrome risk '
@@ -126,7 +121,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                          'D) Only fluoride + calcium always'],
                                              'answer': 'A) MAOI + SSRI / certain serotonergic '
                                                        'combos',
-                                             'explanation': 'Potentially life-threatening.'},
+                                             'explanation': 'Serotonin syndrome reflects excess serotonergic tone at central 5-HT receptors, especially 5-HT2A. Combining monoamine oxidase inhibitors with SSRIs, or other strongly serotonergic pairs, can produce hyperthermia, autonomic instability, clonus, and altered mentation. The interaction is pharmacodynamic amplification of synaptic serotonin rather than a simple additive sedative effect.'},
                                             {'question': 'In a high-stakes pharmacy scenario with '
                                                          'incomplete data, which statement is MOST '
                                                          'correct? Narrow therapeutic index '
@@ -140,7 +135,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                          'D) Only with sunlight'],
                                              'answer': 'A) CYP2C9 inhibitors can raise INR/bleed '
                                                        'risk',
-                                             'explanation': 'Monitor INR closely.'}]},
+                                             'explanation': "S-warfarin, the more potent enantiomer, is cleared largely by CYP2C9. CYP2C9 inhibitors reduce S-warfarin clearance, raising plasma levels and vitamin K epoxide reductase inhibition. The resulting increase in INR prolongs coagulation and elevates bleeding risk, which is clinically important because warfarin's therapeutic index is narrow."}]},
                   'cases': {'easy': [{'title': 'New Oral Drug Discussion',
                                       'stem': 'A student asks why an oral dose is much higher than '
                                               'the IV dose for the same drug.',
@@ -193,15 +188,14 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                            'D) Only remove all drugs always'],
                                                'answer': 'A) Ensure accurate medication lists '
                                                          'across transitions',
-                                               'explanation': 'Reduce errors at '
-                                                              'admission/discharge.'},
+                                               'explanation': 'Medication reconciliation systematically compares medication lists across care transitions such as admission, transfer, and discharge. The process identifies omissions, duplications, dosing errors, and unintended discrepancies between what the patient takes and what is ordered. Accurate lists reduce preventable adverse drug events at interfaces of care.'},
                                               {'question': 'ADR means?',
                                                'options': ['A) Adverse drug reaction',
                                                            'B) Average daily rate only',
                                                            'C) Antibiotic dose range only',
                                                            'D) Absolute drug resistance only'],
                                                'answer': 'A) Adverse drug reaction',
-                                               'explanation': 'Detect, report, manage.'},
+                                               'explanation': 'An adverse drug reaction is a noxious, unintended response to a medicine at doses used for prophylaxis, diagnosis, or therapy. ADRs include augmented (type A) dose-related effects and bizarre (type B) idiosyncratic or immune-mediated reactions. Detection, causality assessment, management, and spontaneous reporting are core pharmacovigilance tasks.'},
                                               {'question': 'Counseling on antibiotics should '
                                                            'include?',
                                                'options': ['A) Complete course as directed / '
@@ -213,7 +207,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                            'always'],
                                                'answer': 'A) Complete course as directed / '
                                                          'stewardship themes',
-                                               'explanation': 'Local guidance matters.'}],
+                                               'explanation': 'Completing an antibiotic course as prescribed helps eradicate susceptible pathogens when the indication, agent, and duration are appropriate. Unnecessary prolongation or use without infection, however, selects for resistant organisms and harms stewardship goals. Counseling therefore balances adherence with clear advice on indication, duration, and when to seek review.'}],
                                      'medium': [{'question': 'Beers Criteria help identify?',
                                                  'options': ['A) Potentially inappropriate meds in '
                                                              'older adults',
@@ -222,7 +216,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                              'D) Only tablet imprint codes'],
                                                  'answer': 'A) Potentially inappropriate meds in '
                                                            'older adults',
-                                                 'explanation': 'Deprescribing support.'},
+                                                 'explanation': 'Beers Criteria catalog medicines that are often potentially inappropriate in older adults because of altered pharmacokinetics, pharmacodynamics, and higher adverse-effect burden. Examples include strong anticholinergics and long-acting benzodiazepines. The lists support deprescribing discussions but must be individualized to comorbidity, goals of care, and safer alternatives.'},
                                                 {'question': 'Renal dose adjustment needed when?',
                                                  'options': ['A) Drug cleared renally and GFR '
                                                              'reduced',
@@ -231,7 +225,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                              'D) Never for antibiotics'],
                                                  'answer': 'A) Drug cleared renally and GFR '
                                                            'reduced',
-                                                 'explanation': 'Avoid accumulation/toxicity.'},
+                                                 'explanation': 'When glomerular filtration rate falls, renally cleared drugs and active metabolites accumulate unless the dose or interval is adjusted. Accumulation increases exposure and toxicity risk for agents such as many aminoglycosides, gabapentinoids, and renally excreted anticoagulants. Dose adjustment uses estimated kidney function and drug-specific renal dosing guidance.'},
                                                 {'question': 'Anticoagulant counseling key point?',
                                                  'options': ['A) Bleeding signs and interaction '
                                                              'awareness',
@@ -242,7 +236,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                              'D) Never tell dentist'],
                                                  'answer': 'A) Bleeding signs and interaction '
                                                            'awareness',
-                                                 'explanation': 'Safety netting.'}],
+                                                 'explanation': 'Therapeutic anticoagulation intentionally impairs hemostasis, so patients must recognize bleeding warning signs such as melena, hematuria, or uncontrolled bruising. Drug–drug and drug–food interactions can raise or lower anticoagulant effect, especially with warfarin and some DOAC pathways. Counseling links efficacy to safety-net actions when bleeding or interacting medicines appear.'}],
                                      'hard': [{'question': 'A junior colleague asks for the single '
                                                            'best answer. Vancomycin dosing '
                                                            'commonly uses? Beware of near-miss '
@@ -252,7 +246,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                            'C) Only tablet color',
                                                            'D) Fixed infant dose for all adults'],
                                                'answer': 'A) Weight and renal function ± levels',
-                                               'explanation': 'TDM in many protocols.'},
+                                               'explanation': 'Vancomycin is a large glycopeptide cleared predominantly by glomerular filtration, so dosing is guided by actual body weight and renal function. AUC- or trough-based therapeutic drug monitoring is used in many protocols to balance bactericidal exposure against nephrotoxicity. Loading strategies and subsequent adjustment reflect distribution volume and changing clearance.'},
                                               {'question': 'A junior colleague asks for the single '
                                                            'best answer. Hyperkalemia risk with? '
                                                            'Beware of near-miss distractors.',
@@ -261,7 +255,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                            'C) Only lactulose',
                                                            'D) Only artificial tears'],
                                                'answer': 'A) ACEI + spironolactone combinations',
-                                               'explanation': 'Monitor K+.'},
+                                               'explanation': 'ACE inhibitors reduce angiotensin II–mediated aldosterone secretion, decreasing renal potassium excretion. Mineralocorticoid-receptor antagonists such as spironolactone further block aldosterone effect in the collecting duct. Combined use therefore markedly increases hyperkalemia risk, especially in chronic kidney disease or with potassium supplements.'},
                                               {'question': 'A junior colleague asks for the single '
                                                            'best answer. Steroid sick-day rules '
                                                            'teach? Beware of near-miss '
@@ -273,7 +267,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                            'D) Only take every other month'],
                                                'answer': 'A) Increase dose during significant '
                                                          'illness per plan',
-                                               'explanation': 'Prevent adrenal crisis.'}],
+                                               'explanation': 'Long-term exogenous glucocorticoids suppress the hypothalamic–pituitary–adrenal axis, so endogenous cortisol may be inadequate during physiologic stress. Sick-day rules instruct temporary dose increases during significant illness, fever, or vomiting according to an individualized plan. The goal is to prevent adrenal crisis from relative cortisol deficiency.'}],
                                      'extreme': [{'question': 'In a high-stakes pharmacy scenario '
                                                               'with incomplete data, which '
                                                               'statement is MOST correct? '
@@ -289,7 +283,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                               'site'],
                                                   'answer': 'A) Stop infusion and follow protocol '
                                                             'antidote/pathway',
-                                                  'explanation': 'Tissue injury risk.'},
+                                                  'explanation': 'Vesicant chemotherapy extravasated into soft tissue can cause severe local necrosis through direct cytotoxicity and inflammation. Immediate priorities are to stop the infusion, leave or aspirate via the cannula as protocol directs, and mark the site while arranging antidote or surgical pathways. Agent-specific measures (for example dexrazoxane for anthracyclines) follow institutional extravasation protocols.'},
                                                  {'question': 'In a high-stakes pharmacy scenario '
                                                               'with incomplete data, which '
                                                               'statement is MOST correct? '
@@ -304,7 +298,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                               'D) Only dental check'],
                                                   'answer': 'A) Mandatory blood counts for '
                                                             'agranulocytosis risk',
-                                                  'explanation': 'Registry/protocol driven.'},
+                                                  'explanation': 'Clozapine can cause idiosyncratic agranulocytosis through toxic or immune-mediated injury to neutrophils. Mandatory scheduled full blood counts detect falling absolute neutrophil counts before life-threatening infection develops. Dispensing is typically linked to registry or protocol confirmation that hematologic monitoring remains within acceptable limits.'},
                                                  {'question': 'In a high-stakes pharmacy scenario '
                                                               'with incomplete data, which '
                                                               'statement is MOST correct? Opioid '
@@ -320,7 +314,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                   'answer': 'A) Appropriate indication, dose, '
                                                             'naloxone awareness, constipation '
                                                             'prophylaxis',
-                                                  'explanation': 'Safety + efficacy.'}]},
+                                                  'explanation': 'Hospital opioid stewardship matches opioid choice and dose to verified pain indication while minimizing respiratory depression and misuse risk. Naloxone availability and education address μ-opioid receptor overdose reversibility. Because opioids slow gut motility via enteric μ-receptors, prophylactic laxatives are routine to prevent opioid-induced constipation.'}]},
                        'cases': {'easy': [{'title': 'Discharge Med List Mismatch',
                                            'stem': "Discharge list misses the patient's home "
                                                    'anticoagulant.',
@@ -376,7 +370,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                        'C) Only kill microbes always',
                                                        'D) Only add flavor always'],
                                            'answer': 'A) Hold powder particles together',
-                                           'explanation': 'Excipient function.'},
+                                           'explanation': 'Binders are tablet excipients that adhesively link powder particles during granulation or compression, imparting mechanical strength to the compact. Adequate binding reduces friability and capping, while excess binder can slow disintegration and dissolution. Common examples include povidone, starch paste, and cellulose derivatives.'},
                                           {'question': 'Bioavailability compares?',
                                            'options': ['A) Rate and extent of absorption to '
                                                        'systemic circulation',
@@ -385,28 +379,28 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                        'D) Only label font'],
                                            'answer': 'A) Rate and extent of absorption to systemic '
                                                      'circulation',
-                                           'explanation': 'AUC themes.'},
+                                           'explanation': 'Bioavailability is the rate and extent to which unchanged drug reaches the systemic circulation. Extent is commonly quantified by area under the plasma concentration–time curve (AUC) relative to an intravenous reference for absolute bioavailability. Rate is reflected in parameters such as Cmax and tmax, which matter for onset and peak effect.'},
                                           {'question': 'Sterile products must be?',
                                            'options': ['A) Free from viable microorganisms',
                                                        'B) Only sweet tasting',
                                                        'C) Only scored tablets',
                                                        'D) Only sugar-coated'],
                                            'answer': 'A) Free from viable microorganisms',
-                                           'explanation': 'Aseptic manufacture critical.'}],
+                                           'explanation': 'Sterility means the absence of viable contaminating microorganisms in the finished product within the sensitivity of validated sterility assurance processes. Injectable and ophthalmic preparations require sterilization or aseptic manufacture because parenteral routes bypass skin and mucosal barriers. Failure of sterility can cause severe infection including sepsis.'}],
                                  'medium': [{'question': 'BCS Class II drugs are?',
                                              'options': ['A) Low solubility, high permeability',
                                                          'B) High solubility high permeability',
                                                          'C) Low solubility low permeability',
                                                          'D) High solubility low permeability'],
                                              'answer': 'A) Low solubility, high permeability',
-                                             'explanation': 'Dissolution often rate-limiting.'},
+                                             'explanation': 'The Biopharmaceutics Classification System places Class II drugs in the low aqueous solubility, high intestinal permeability quadrant. For these compounds, dissolution in gastrointestinal fluid is frequently rate-limiting for absorption. Formulation strategies that increase dissolution rate (particle size reduction, salts, solid dispersions) therefore often improve oral bioavailability.'},
                                             {'question': 'Lyophilization is?',
                                              'options': ['A) Freeze-drying',
                                                          'B) Only wet granulation',
                                                          'C) Only sugar coating',
                                                          'D) Only blister packing'],
                                              'answer': 'A) Freeze-drying',
-                                             'explanation': 'Stability of injectables/biologics.'},
+                                             'explanation': 'Lyophilization (freeze-drying) removes water by sublimation from a frozen product under vacuum, yielding a dry solid cake. Lower residual moisture slows hydrolysis and many other degradation pathways, improving stability of injectables and biologics. The process also enables reconstitution to a solution at the point of use.'},
                                             {'question': 'Osmotic pump tablets provide?',
                                              'options': ['A) Controlled release via osmotic '
                                                          'pressure',
@@ -414,7 +408,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                          'C) Only topical action',
                                                          'D) No release control'],
                                              'answer': 'A) Controlled release via osmotic pressure',
-                                             'explanation': 'Do not crush.'}],
+                                             'explanation': 'Osmotic pump tablets admit water through a semipermeable membrane; osmotic pressure then drives drug solution out through a laser-drilled orifice at a controlled rate. Release is relatively independent of gastrointestinal pH and motility within design limits. Crushing destroys the membrane system and can cause dose dumping.'}],
                                  'hard': [{'question': 'A junior colleague asks for the single '
                                                        'best answer. Noyes–Whitney relates to? '
                                                        'Beware of near-miss distractors.',
@@ -424,8 +418,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                        'D) Only pKa of acids only without '
                                                        'dissolution'],
                                            'answer': 'A) Dissolution rate',
-                                           'explanation': 'Surface area, diffusion, concentration '
-                                                          'gradient.'},
+                                           'explanation': "The Noyes–Whitney equation states that dissolution rate is proportional to surface area and to the concentration gradient between the drug's saturation solubility at the particle surface and the bulk solution. A diffusion layer thickness term and diffusion coefficient also govern mass transport. Particle-size reduction increases surface area and thus often accelerates dissolution."},
                                           {'question': 'A junior colleague asks for the single '
                                                        'best answer. Partition coefficient (log P) '
                                                        'indicates? Beware of near-miss '
@@ -435,7 +428,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                        'C) Only microbial limit',
                                                        'D) Only osmolarity of NS'],
                                            'answer': 'A) Lipophilicity',
-                                           'explanation': 'Affects absorption/distribution.'},
+                                           'explanation': 'The partition coefficient P is the equilibrium concentration ratio of unionized solute between octanol and water, usually expressed as log P. Higher log P indicates greater lipophilicity, favoring membrane permeation but often reducing aqueous solubility. Log P therefore helps predict absorption, distribution, and formulation challenges.'},
                                           {'question': 'A junior colleague asks for the single '
                                                        'best answer. HLB system helps select? '
                                                        'Beware of near-miss distractors.',
@@ -444,7 +437,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                        'C) Only needle gauges',
                                                        'D) Only fridge brands'],
                                            'answer': 'A) Emulsifying agents',
-                                           'explanation': 'Hydrophilic–lipophilic balance.'}],
+                                           'explanation': 'The hydrophilic–lipophilic balance (HLB) scale ranks surfactants by their relative affinity for water versus oil. Low-HLB agents tend to stabilize water-in-oil emulsions, whereas higher-HLB agents favor oil-in-water systems. Formulators select emulsifiers (or blends) whose HLB matches the required emulsion type and oil phase.'}],
                                  'extreme': [{'question': 'In a high-stakes pharmacy scenario with '
                                                           'incomplete data, which statement is '
                                                           'MOST correct? NANOPARTICLE carriers aim '
@@ -460,8 +453,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                               'answer': 'A) Modify '
                                                         'distribution/targeting/solubility '
                                                         'profiles',
-                                              'explanation': 'Formulation science of advanced '
-                                                             'delivery.'},
+                                              'explanation': "Nanoparticle carriers such as liposomes, polymeric nanoparticles, and lipid nanoparticles alter a drug's effective solubility, circulation time, and tissue distribution. Surface properties and size can promote passive accumulation or ligand-mediated targeting while protecting labile actives. These systems are formulation tools to optimize pharmacokinetics and local exposure rather than changing the drug's intrinsic receptor pharmacology alone."},
                                              {'question': 'In a high-stakes pharmacy scenario with '
                                                           'incomplete data, which statement is '
                                                           'MOST correct? Glass transition (Tg) '
@@ -472,8 +464,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                           'C) Only ECG paper',
                                                           'D) Only suture color'],
                                               'answer': 'A) Amorphous solid stability',
-                                              'explanation': 'Physical stability of amorphous '
-                                                             'drugs.'},
+                                              'explanation': 'The glass transition temperature (Tg) is the temperature region where an amorphous solid softens from a glassy to a rubbery state with increased molecular mobility. Above Tg, crystallization and chemical degradation of amorphous drugs or dispersions accelerate. Storage well below Tg, with controlled moisture plasticization, is therefore critical for amorphous physical stability.'},
                                              {'question': 'In a high-stakes pharmacy scenario with '
                                                           'incomplete data, which statement is '
                                                           'MOST correct? Extractables/leachables '
@@ -487,7 +478,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                           'D) Only pharmacy uniforms'],
                                               'answer': 'A) Container–closure systems for '
                                                         'injectables',
-                                              'explanation': 'Patient safety in packaging.'}]},
+                                              'explanation': 'Extractables are compounds that can be pulled from packaging under aggressive laboratory conditions; leachables migrate into the product under real storage. For injectables, container–closure systems (elastomers, plastics, glass) are primary sources of such impurities. Leachables may cause toxicity, particulate issues, or drug degradation, so materials are qualified with extractable/leachable studies.'}]},
                    'cases': {'easy': [{'title': 'Why Not Crush This Tablet?',
                                        'stem': 'A nurse asks to crush an enteric-coated tablet for '
                                                'a tube feed.',
@@ -538,7 +529,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                           'C) Tablet to be coated',
                                                           'D) Prescription to expire only'],
                                               'answer': 'A) Plasma concentration to fall by 50%',
-                                              'explanation': 'Dosing interval planning.'},
+                                              'explanation': 'Elimination half-life (t½) is the time required for plasma drug concentration to decrease by 50% during the terminal elimination phase in linear kinetics. It is determined by both clearance and volume of distribution (t½ ≈ 0.693 × Vd/CL). Half-life informs dosing interval selection and the time needed to approach steady state.'},
                                              {'question': 'Clearance reflects?',
                                               'options': ['A) Volume of plasma cleared of drug per '
                                                           'time',
@@ -547,22 +538,21 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                           'D) Only urine color'],
                                               'answer': 'A) Volume of plasma cleared of drug per '
                                                         'time',
-                                              'explanation': 'Determines maintenance dose.'},
+                                              'explanation': 'Clearance is the theoretical volume of plasma completely cleared of drug per unit time and equals the sum of organ clearances (notably hepatic and renal). At steady state, dosing rate equals clearance times steady-state concentration. Maintenance dose design therefore depends primarily on clearance and bioavailability.'},
                                              {'question': 'Steady state roughly after?',
                                               'options': ['A) ~4–5 half-lives with regular dosing',
                                                           'B) 1 minute always',
                                                           'C) 1 year always',
                                                           'D) Never'],
                                               'answer': 'A) ~4–5 half-lives with regular dosing',
-                                              'explanation': 'Loading dose can reach faster.'}],
+                                              'explanation': 'With regular fixed dosing and linear kinetics, plasma concentrations accumulate until input equals elimination at steady state. About 4–5 elimination half-lives are required to reach approximately 94–97% of steady-state exposure. A loading dose can achieve target concentrations sooner, but steady-state timing still follows half-life for subsequent accumulation.'}],
                                     'medium': [{'question': 'AUC represents?',
                                                 'options': ['A) Overall exposure',
                                                             'B) Only peak only',
                                                             'C) Only trough only',
                                                             'D) Only tablet weight'],
                                                 'answer': 'A) Overall exposure',
-                                                'explanation': 'Key in '
-                                                               'bioavailability/bioequivalence.'},
+                                                'explanation': 'Area under the plasma concentration–time curve (AUC) integrates concentration over time and quantifies total systemic exposure. For linear kinetics, AUC is proportional to dose and inversely related to clearance (AUC = F·Dose/CL). Bioavailability and bioequivalence assessments rely heavily on AUC comparisons between formulations.'},
                                                {'question': 'Nonlinear PK means?',
                                                 'options': ['A) Parameters change with dose (e.g., '
                                                             'saturation)',
@@ -571,7 +561,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                             'D) Only topical creams'],
                                                 'answer': 'A) Parameters change with dose (e.g., '
                                                           'saturation)',
-                                                'explanation': 'Phenytoin classic.'},
+                                                'explanation': 'Nonlinear (dose-dependent) pharmacokinetics occur when absorption, distribution, binding, or elimination processes saturate within the clinical dose range. Michaelis–Menten metabolism of phenytoin is a classic example: clearance falls as concentration rises. Consequently, steady-state concentration is no longer proportional to dose.'},
                                                {'question': 'Protein binding displacement may?',
                                                 'options': ['A) Transiently raise free fraction '
                                                             'for highly bound drugs',
@@ -580,8 +570,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                             'D) Only affect IV bags labels'],
                                                 'answer': 'A) Transiently raise free fraction for '
                                                           'highly bound drugs',
-                                                'explanation': 'Clinically nuanced; clearance '
-                                                               'often adjusts.'}],
+                                                'explanation': 'For highly protein-bound drugs, displacement can transiently increase unbound fraction and free concentration. Increased free drug is often also more available for clearance and distribution, so total concentration may fall while free levels partly re-equilibrate. Clinically important displacement interactions are therefore less common than total-level changes alone might suggest, but remain relevant for narrow-index, highly bound drugs.'}],
                                     'hard': [{'question': 'A junior colleague asks for the single '
                                                           'best answer. Hepatic clearance for high '
                                                           'extraction drugs depends strongly on? '
@@ -592,7 +581,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                           'C) Only tablet shape',
                                                           'D) Only gut motility solely'],
                                               'answer': 'A) Liver blood flow',
-                                              'explanation': 'Extraction ratio concepts.'},
+                                              'explanation': 'For high hepatic extraction-ratio drugs, the liver removes most drug from afferent blood in a single pass, so clearance approximates liver blood flow. Changes in hepatic perfusion (heart failure, shock, vasoactive drugs) therefore strongly alter clearance of flow-limited compounds. Low-extraction drugs are instead more sensitive to intrinsic metabolizing capacity and unbound fraction.'},
                                              {'question': 'A junior colleague asks for the single '
                                                           'best answer. Renal clearance includes? '
                                                           'Beware of near-miss distractors.',
@@ -602,7 +591,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                           'C) Only reabsorption forever',
                                                           'D) Only bile'],
                                               'answer': 'A) Filtration − reabsorption + secretion',
-                                              'explanation': 'pH/ion trapping can matter.'},
+                                              'explanation': 'Renal clearance is the net result of glomerular filtration of unbound drug, tubular secretion into urine, and tubular reabsorption back into blood. Thus CLr ≈ (f_u · GFR) + secretion − reabsorption. Urinary pH can alter reabsorption of weak acids and bases via ion trapping, changing excretion of some drugs and toxins.'},
                                              {'question': 'A junior colleague asks for the single '
                                                           'best answer. Two-compartment model '
                                                           'early phase is? Beware of near-miss '
@@ -613,7 +602,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                           'C) Only absorption for IV bolus',
                                                           'D) Only metabolism in gut only'],
                                               'answer': 'A) Distribution phase',
-                                              'explanation': 'Multi-compartment kinetics.'}],
+                                              'explanation': 'In a two-compartment model, drug first distributes from a central compartment (blood and rapidly equilibrating tissues) into a peripheral compartment. The early steeper decline on a semilog plot is this distribution (α) phase, followed by a slower terminal elimination (β) phase. Sampling during distribution can misrepresent concentrations intended to reflect the elimination phase.'}],
                                     'extreme': [{'question': 'In a high-stakes pharmacy scenario '
                                                              'with incomplete data, which '
                                                              'statement is MOST correct? TDM for '
@@ -630,8 +619,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                  'answer': 'A) Avoid sampling in distribution '
                                                            'phase; sample at steady state '
                                                            'appropriately',
-                                                 'explanation': 'Mis-timed levels cause wrong dose '
-                                                                'changes.'},
+                                                 'explanation': 'Digoxin distributes extensively to tissues, so plasma levels drawn too soon after a dose are still falling through the distribution phase and do not reflect the post-distribution concentration used for interpretation. Therapeutic drug monitoring therefore uses samples at steady state, typically at least 6–8 hours after a dose (often a trough). Mis-timed levels can prompt inappropriate dose changes.'},
                                                 {'question': 'In a high-stakes pharmacy scenario '
                                                              'with incomplete data, which '
                                                              'statement is MOST correct? '
@@ -645,7 +633,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                              'D) Only price'],
                                                  'answer': 'A) AUC and Cmax within regulatory '
                                                            'limits',
-                                                 'explanation': 'Generic substitution science.'},
+                                                 'explanation': 'Bioequivalence testing compares rate and extent of absorption of a test versus reference product, primarily through AUC (extent) and Cmax (rate) metrics. Regulatory acceptance generally requires the 90% confidence interval for key pharmacokinetic ratios to lie within predefined limits (commonly 80–125%). Demonstrated bioequivalence underpins most generic substitution decisions.'},
                                                 {'question': 'In a high-stakes pharmacy scenario '
                                                              'with incomplete data, which '
                                                              'statement is MOST correct? Nonlinear '
@@ -660,7 +648,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                              'D) Only affects ointments'],
                                                  'answer': 'A) Complex dose–concentration '
                                                            'relationships',
-                                                 'explanation': 'Expert dosing required.'}]},
+                                                 'explanation': 'When both plasma protein binding and clearance pathways saturate, free fraction, total concentration, and elimination rate can change together in a dose-dependent manner. The resulting relationship between dose and exposure becomes markedly nonlinear and time-dependent. Such drugs require cautious titration and often specialized monitoring rather than simple proportional dose adjustments.'}]},
                       'cases': {'easy': [{'title': 'Why Wait for Steady State?',
                                           'stem': 'Team wants a level 2 hours after first '
                                                   "gentamicin dose as 'trough steady state'.",
@@ -719,7 +707,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                              'C) Syringe aspiration rule',
                                                              'D) Sterile air ratio'],
                                                  'answer': 'A) Structure–activity relationship',
-                                                 'explanation': 'How structure changes activity.'},
+                                                 'explanation': "Structure–activity relationships (SAR) describe how systematic changes in a molecule's functional groups, scaffold, or stereochemistry alter biological potency, selectivity, or toxicity. SAR analysis links chemical features to target binding and disposition. Medicinal chemists use SAR to optimize lead compounds toward drug-like profiles."},
                                                 {'question': 'Prodrug is?',
                                                  'options': ['A) Inactive form converted in vivo '
                                                              'to active drug',
@@ -728,14 +716,14 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                              'D) Only a placebo'],
                                                  'answer': 'A) Inactive form converted in vivo to '
                                                            'active drug',
-                                                 'explanation': 'Improve properties/delivery.'},
+                                                 'explanation': 'A prodrug is a pharmacologically inactive or less active derivative that undergoes in vivo biotransformation to release the active parent drug. Common goals include improving solubility, permeability, stability, or targeted activation. Ester and phosphate prodrugs, for example, are cleaved by hydrolases after absorption or at the site of action.'},
                                                 {'question': 'pKa helps predict?',
                                                  'options': ['A) Ionization at a given pH',
                                                              'B) Only tablet hardness',
                                                              'C) Only microbial purity',
                                                              'D) Only label glue'],
                                                  'answer': 'A) Ionization at a given pH',
-                                                 'explanation': 'Affects solubility/absorption.'}],
+                                                 'explanation': 'The pKa of an ionizable group determines the equilibrium between protonated and deprotonated forms at a given pH via the Henderson–Hasselbalch relationship. Ionization state strongly influences aqueous solubility, membrane permeation, and receptor recognition. Predicting charged versus uncharged fractions at physiologic pH is therefore central to absorption design.'}],
                                        'medium': [{'question': 'Beta-lactam ring is essential for?',
                                                    'options': ['A) Many penicillins/cephalosporins '
                                                                'antibacterial action',
@@ -744,8 +732,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                                'D) Only SSRI action'],
                                                    'answer': 'A) Many penicillins/cephalosporins '
                                                              'antibacterial action',
-                                                   'explanation': 'Hydrolysis by beta-lactamases '
-                                                                  'resists.'},
+                                                   'explanation': 'The strained β-lactam ring acylates serine residues in bacterial penicillin-binding proteins, irreversibly inhibiting cell-wall transpeptidation. Ring integrity is therefore essential for antibacterial activity of penicillins and cephalosporins. β-Lactamase enzymes hydrolyze the amide bond of the ring, conferring resistance unless a β-lactamase inhibitor or stable analog is used.'},
                                                   {'question': 'Chirality matters because?',
                                                    'options': ['A) Enantiomers can differ in '
                                                                'activity/toxicity',
@@ -755,7 +742,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                                'D) Only affects shipping weight'],
                                                    'answer': 'A) Enantiomers can differ in '
                                                              'activity/toxicity',
-                                                   'explanation': 'Stereoselective pharmacology.'},
+                                                   'explanation': 'Enantiomers are nonsuperimposable mirror-image stereoisomers that can interact differently with chiral biological targets such as receptors and enzymes. One enantiomer may provide most therapeutic activity while the other contributes little efficacy or distinct toxicity. Stereoselective metabolism and transport further differentiate clinical pharmacokinetics of many chiral drugs.'},
                                                   {'question': 'Bioisostere replacement aims to?',
                                                    'options': ['A) Retain activity while improving '
                                                                'properties',
@@ -764,8 +751,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                                'D) Only add sugar'],
                                                    'answer': 'A) Retain activity while improving '
                                                              'properties',
-                                                   'explanation': 'Classic medicinal chemistry '
-                                                                  'tactic.'}],
+                                                   'explanation': 'Bioisosteric replacement substitutes an atom or group with another of similar steric and electronic character to retain target affinity while modulating ADME or toxicity. Classic examples include replacing hydrogen with fluorine or a carboxylic acid with a tetrazole. The tactic is used to improve potency, selectivity, metabolic stability, or physicochemical properties.'}],
                                        'hard': [{'question': 'A junior colleague asks for the '
                                                              'single best answer. Log D differs '
                                                              'from log P by? Beware of near-miss '
@@ -775,8 +761,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                              'C) Only measuring melting point',
                                                              'D) Only counting carbons'],
                                                  'answer': 'A) Accounting for ionization at a pH',
-                                                 'explanation': 'More physiologically relevant '
-                                                                'sometimes.'},
+                                                 'explanation': 'Log P describes partitioning of the purely unionized species, whereas log D is the pH-dependent distribution coefficient including all ionized and unionized forms present at that pH. At physiologic pH, ionized fractions often dominate for acids and bases, so log D is frequently more relevant to membrane permeation. Comparing log D across pH values maps ionization-sensitive lipophilicity.'},
                                                 {'question': 'A junior colleague asks for the '
                                                              'single best answer. Suicide '
                                                              'substrate / mechanism-based '
@@ -791,7 +776,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                              'forever'],
                                                  'answer': 'A) Requires enzyme activation then '
                                                            'inactivates enzyme',
-                                                 'explanation': 'E.g., some enzyme inactivators.'},
+                                                 'explanation': 'A mechanism-based (suicide) inhibitor is chemically transformed by the target enzyme into a reactive species that then covalently inactivates that enzyme. Catalytic turnover is therefore required before irreversible inhibition occurs. This distinguishes suicide substrates from simple reversible competitive inhibitors that need no enzymatic activation.'},
                                                 {'question': 'A junior colleague asks for the '
                                                              'single best answer. Hansch analysis '
                                                              'relates? Beware of near-miss '
@@ -803,7 +788,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                              'D) Only fridge temperature logs'],
                                                  'answer': 'A) Physicochemical parameters to '
                                                            'biological activity',
-                                                 'explanation': 'QSAR foundations.'}],
+                                                 'explanation': 'Hansch analysis is an early quantitative structure–activity relationship (QSAR) approach correlating biological activity with physicochemical descriptors such as hydrophobic (π), electronic (σ), and steric terms. Regression models relate these parameters to potency across a congeneric series. It provided a foundation for modern computational QSAR and property-based optimization.'}],
                                        'extreme': [{'question': 'In a high-stakes pharmacy '
                                                                 'scenario with incomplete data, '
                                                                 'which statement is MOST correct? '
@@ -820,7 +805,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                     'answer': 'A) Soft drugs designed for '
                                                               'predictable metabolism to inactive '
                                                               'metabolites',
-                                                    'explanation': 'Safety-by-design metabolism.'},
+                                                    'explanation': 'Soft drugs are active compounds deliberately designed to undergo rapid, predictable metabolism to inactive metabolites after exerting their effect, limiting systemic burden. Hard drugs, in contrast, are structurally resistant to metabolism or yield metabolites that remain active. Soft-drug design is a metabolism-based strategy to widen safety margins and control duration of action.'},
                                                    {'question': 'In a high-stakes pharmacy '
                                                                 'scenario with incomplete data, '
                                                                 'which statement is MOST correct? '
@@ -835,7 +820,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                                 'D) Only colorants'],
                                                     'answer': 'A) Careful selectivity to limit '
                                                               'off-target binding',
-                                                    'explanation': 'Modern covalent drug design.'},
+                                                    'explanation': 'Targeted covalent inhibitors use an electrophilic warhead to form a bond with a nucleophilic residue (often cysteine) near the binding site after reversible recognition. Selectivity depends on both noncovalent binding complementarity and warhead reactivity matched to the intended residue. Excessive reactivity increases off-target covalent modification and toxicity risk.'},
                                                    {'question': 'In a high-stakes pharmacy '
                                                                 'scenario with incomplete data, '
                                                                 'which statement is MOST correct? '
@@ -852,7 +837,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                                 'always'],
                                                     'answer': 'A) Hijacking degradation machinery '
                                                               'to degrade target proteins',
-                                                    'explanation': 'Emerging modality.'}]},
+                                                    'explanation': 'Proteolysis-targeting chimeras (PROTACs) are bifunctional molecules that simultaneously bind a target protein and an E3 ubiquitin ligase. Induced proximity leads to ubiquitination and proteasomal degradation of the target rather than simple occupancy-based inhibition. Because degradation can be catalytic, PROTACs represent an event-driven pharmacology modality.'}]},
                          'cases': {'easy': [{'title': 'Why Make a Prodrug?',
                                              'stem': 'A poorly soluble drug is redesigned as an '
                                                      'ester prodrug.',
@@ -908,21 +893,21 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                        'C) Only hospital billing',
                                                        'D) Only IV pump brands'],
                                            'answer': 'A) Medicines from natural sources',
-                                           'explanation': 'Plants/microbes/marine etc.'},
+                                           'explanation': 'Pharmacognosy is the pharmaceutical science concerned with medicines derived from natural sources, including plants, microbes, fungi, and marine organisms. It covers identification, chemistry, biosynthesis, quality, and biological activity of natural products. Many modern drugs originated as purified or semi-synthetic natural compounds.'},
                                           {'question': 'Digitalis historically relates to?',
                                            'options': ['A) Cardiac glycosides',
                                                        'B) Only antibiotics',
                                                        'C) Only local anesthetics',
                                                        'D) Only vitamins'],
                                            'answer': 'A) Cardiac glycosides',
-                                           'explanation': 'Classic natural product.'},
+                                           'explanation': 'Digitalis species yield cardenolide cardiac glycosides such as digoxin and digitoxin that inhibit the Na+/K+-ATPase. The resulting rise in intracellular sodium reduces calcium extrusion via NCX, increasing cardiac contractile force. Historically, foxglove preparations were among the earliest standardized natural cardiac therapies.'},
                                           {'question': 'Alkaloids are typically?',
                                            'options': ['A) Nitrogen-containing natural bases',
                                                        'B) Only sugars',
                                                        'C) Only fats',
                                                        'D) Only inorganic salts'],
                                            'answer': 'A) Nitrogen-containing natural bases',
-                                           'explanation': 'Many bioactive plant compounds.'}],
+                                           'explanation': 'Alkaloids are typically basic, nitrogen-containing secondary metabolites produced by plants and other organisms. The nitrogen often resides in a heterocyclic ring and confers characteristic solubility and receptor activity. Morphine, quinine, atropine, and caffeine illustrate the pharmacologic diversity of alkaloid natural products.'}],
                                  'medium': [{'question': "St John's wort interaction theme?",
                                              'options': ['A) CYP induction reducing many drug '
                                                          'levels',
@@ -930,9 +915,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                          'C) Only increases all drug levels always',
                                                          'D) Only affects tooth shade'],
                                              'answer': 'A) CYP induction reducing many drug levels',
-                                             'explanation': 'Notably oral '
-                                                            'contraceptives/transplant drugs '
-                                                            'themes.'},
+                                             'explanation': "Hypericum perforatum (St John's wort) induces CYP3A4 and P-glycoprotein via pregnane X receptor activation, accelerating clearance of many substrates. Plasma concentrations of drugs such as some oral contraceptives, immunosuppressants, and antiretrovirals can fall below therapeutic levels. The interaction is a classic inductive herb–drug interaction with loss-of-efficacy risk."},
                                             {'question': 'Secondary metabolites serve plants often '
                                                          'as?',
                                              'options': ['A) Defense/attraction chemicals; humans '
@@ -943,7 +926,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                          'D) Only chlorophyll always'],
                                              'answer': 'A) Defense/attraction chemicals; humans '
                                                        'use as drugs',
-                                             'explanation': 'Alkaloids, terpenoids, phenolics.'},
+                                             'explanation': 'Secondary metabolites are organic compounds not required for basic plant growth and primary metabolism but often mediating defense, signaling, or pollinator attraction. Humans exploit many of these molecules—alkaloids, terpenoids, phenolics, and glycosides—as drugs or leads. Their ecological roles help explain the prevalence of potent bioactivity in medicinal plants.'},
                                             {'question': 'Standardization of herbal drugs aims to?',
                                              'options': ['A) Consistent content of marker/active '
                                                          'constituents',
@@ -952,7 +935,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                          'D) Avoid quality tests'],
                                              'answer': 'A) Consistent content of marker/active '
                                                        'constituents',
-                                             'explanation': 'Quality assurance.'}],
+                                             'explanation': 'Herbal drug standardization seeks reproducible levels of marker compounds or known actives across batches of crude drugs or extracts. Chemical assays, chromatographic fingerprints, and botanical identification reduce variability from species, season, and processing. Consistent constituent content is a prerequisite for predictable pharmacologic effect and quality control.'}],
                                  'hard': [{'question': 'A junior colleague asks for the single '
                                                        'best answer. Microbial natural products '
                                                        'gave us many? Beware of near-miss '
@@ -962,7 +945,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                        'C) Only sutures',
                                                        'D) Only gloves'],
                                            'answer': 'A) Antibiotics',
-                                           'explanation': 'Penicillin onward.'},
+                                           'explanation': 'Microbial secondary metabolism has supplied a large fraction of clinical antibiotics, beginning with penicillin from Penicillium and extending to aminoglycosides, macrolides, tetracyclines, and many others. Actinomycetes and fungi remain major sources of antibacterial scaffolds. Semi-synthesis from microbial natural products continues to expand spectrum and overcome resistance.'},
                                           {'question': 'A junior colleague asks for the single '
                                                        'best answer. Adulteration of herbal '
                                                        'products may involve? Beware of near-miss '
@@ -974,7 +957,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                        'D) Only nicer bottles'],
                                            'answer': 'A) Wrong species / heavy metals / undeclared '
                                                      'drugs',
-                                           'explanation': 'Patient harm risk.'},
+                                           'explanation': 'Herbal product adulteration may substitute incorrect species, add heavy metals from contaminated soil or processing, or illegally spike undeclared synthetic drugs. Such practices create toxicity, hypersensitivity, and unexpected pharmacologic effects. Authentication (macroscopy, microscopy, DNA barcoding, analytics) is therefore essential for patient safety.'},
                                           {'question': 'A junior colleague asks for the single '
                                                        'best answer. Phytochemical screening tests '
                                                        'detect classes like? Beware of near-miss '
@@ -984,7 +967,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                        'C) Only HLA',
                                                        'D) Only INR'],
                                            'answer': 'A) Alkaloids, flavonoids, saponins, etc.',
-                                           'explanation': 'Preliminary characterization.'}],
+                                           'explanation': 'Phytochemical screening uses colorimetric and precipitation tests to detect major natural-product classes such as alkaloids, flavonoids, saponins, tannins, and cardiac glycosides in extracts. These assays provide rapid preliminary characterization before chromatographic isolation. Positive screens guide subsequent targeted extraction and structural elucidation.'}],
                                  'extreme': [{'question': 'In a high-stakes pharmacy scenario with '
                                                           'incomplete data, which statement is '
                                                           'MOST correct? Aristolochic acid '
@@ -997,7 +980,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                           'D) Only a flavor'],
                                               'answer': 'A) Nephrotoxicity/carcinogenicity in some '
                                                         'botanicals',
-                                              'explanation': 'Regulatory bans/warnings.'},
+                                              'explanation': 'Aristolochic acids from Aristolochia and related botanicals form DNA adducts after nitroreduction and are established nephrotoxins and carcinogens. Exposure is linked to aristolochic acid nephropathy and urothelial carcinoma. Regulatory bans and warnings reflect this mechanism-based genotoxic risk in certain traditional preparations.'},
                                              {'question': 'In a high-stakes pharmacy scenario with '
                                                           'incomplete data, which statement is '
                                                           'MOST correct? Aflatoxins in crude drugs '
@@ -1008,7 +991,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                           'C) Only pigments',
                                                           'D) Only sugars'],
                                               'answer': 'A) Fungal toxins; contamination risk',
-                                              'explanation': 'Quality control critical.'},
+                                              'explanation': 'Aflatoxins are difuranocoumarin mycotoxins produced mainly by Aspergillus flavus and A. parasiticus contaminating improperly stored plant materials. Aflatoxin B1 is metabolically activated to an epoxide that binds DNA and is a potent hepatocarcinogen. Crude drug quality control therefore includes limits and testing for fungal toxin contamination.'},
                                              {'question': 'In a high-stakes pharmacy scenario with '
                                                           'incomplete data, which statement is '
                                                           'MOST correct? Ethnopharmacology '
@@ -1023,8 +1006,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                           'D) Only counting prescriptions'],
                                               'answer': 'A) Studying traditional use to guide '
                                                         'discovery',
-                                              'explanation': 'Still needs scientific '
-                                                             'validation.'}]},
+                                              'explanation': 'Ethnopharmacology investigates traditional medicinal uses of organisms within cultural contexts to generate hypotheses for bioactive compound discovery. Historical use can prioritize species for extraction and bioassay, but traditional claims still require chemical isolation, mechanistic study, and clinical evidence. It is a discovery guide, not proof of efficacy or safety alone.'}]},
                    'cases': {'easy': [{'title': 'Herbal Product Question',
                                        'stem': "A patient asks if 'natural' means always safe.",
                                        'question': 'Answer theme?',
@@ -1077,7 +1059,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                            'D) Only font size'],
                                                'answer': 'A) Patient, drug, dose, route, '
                                                          'frequency, prescriber details',
-                                               'explanation': 'Legal/clinical screen.'},
+                                               'explanation': 'Legal and clinical prescription review confirms that the patient identity, medicine, strength, dose, route, frequency, and prescriber details are complete and appropriate. Ambiguity or missing elements can lead to wrong-drug or wrong-dose errors. Pharmacists also screen for contraindications and interactions as part of safe dispensing.'},
                                               {'question': 'OTC counseling should cover?',
                                                'options': ['A) Indication limits, dose, warnings, '
                                                            'when to refer',
@@ -1087,7 +1069,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                            'D) Hide side effects always'],
                                                'answer': 'A) Indication limits, dose, warnings, '
                                                          'when to refer',
-                                               'explanation': 'Responsible self-care.'},
+                                               'explanation': 'Over-the-counter counseling defines the intended self-limiting indication, correct dose and duration, key warnings, and red-flag symptoms that require referral. This ensures responsible self-care and reduces delayed diagnosis of serious disease. Product selection should match symptom pattern, comorbidities, and interacting medicines.'},
                                               {'question': 'Controlled drugs require?',
                                                'options': ['A) Extra legal storage/record controls '
                                                            'per law',
@@ -1096,7 +1078,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                            'D) Patient self-dispense from back'],
                                                'answer': 'A) Extra legal storage/record controls '
                                                          'per law',
-                                               'explanation': 'Follow local law.'}],
+                                               'explanation': 'Controlled drugs are substances with recognized abuse or dependence potential and are subject to heightened legal controls on prescribing, storage, recording, and destruction. Requirements vary by jurisdiction but typically include secure custody and auditable registers. Compliance protects patients and limits diversion into illicit supply.'}],
                                      'medium': [{'question': 'Near miss reporting helps?',
                                                  'options': ['A) System learning without waiting '
                                                              'for harm',
@@ -1105,7 +1087,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                              'D) Increase sales only'],
                                                  'answer': 'A) System learning without waiting for '
                                                            'harm',
-                                                 'explanation': 'Safety culture.'},
+                                                 'explanation': 'A near miss is an error that is intercepted before it reaches the patient or causes harm. Reporting near misses reveals latent system weaknesses—look-alike packaging, workflow interruptions, or unclear protocols—without waiting for injury. Analysis supports corrective actions that strengthen medication-safety culture.'},
                                                 {'question': 'Generic substitution depends on?',
                                                  'options': ['A) Local law/formulary and clinical '
                                                              'appropriateness',
@@ -1115,8 +1097,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                              'D) Only patient hair color'],
                                                  'answer': 'A) Local law/formulary and clinical '
                                                            'appropriateness',
-                                                 'explanation': 'Caution with critical-dose '
-                                                                'drugs.'},
+                                                 'explanation': 'Generic substitution replaces a brand product with a bioequivalent generic containing the same active substance when law and formulary policy allow. Clinical appropriateness still matters for narrow therapeutic-index drugs, modified-release forms, and patient-specific concerns. Pharmacists apply local rules while ensuring therapeutic equivalence and continuity of effect.'},
                                                 {'question': 'Privacy in pharmacy means?',
                                                  'options': ['A) Protect patient confidential '
                                                              'information',
@@ -1126,7 +1107,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                              'D) Share with friends'],
                                                  'answer': 'A) Protect patient confidential '
                                                            'information',
-                                                 'explanation': 'Ethics + law.'}],
+                                                 'explanation': 'Pharmacy privacy obligations protect confidential health information from unauthorized disclosure under professional ethics and data-protection law. Counseling should occur with reasonable auditory privacy, and records access must be limited to legitimate care needs. Breaches can harm patients and undermine trust in pharmaceutical care.'}],
                                      'hard': [{'question': 'A junior colleague asks for the single '
                                                            'best answer. Emergency supply '
                                                            'frameworks (where legal) require? '
@@ -1138,7 +1119,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                            'D) Ignoring care continuity'],
                                                'answer': 'A) Professional judgment + legal '
                                                          'criteria + documentation',
-                                               'explanation': 'Jurisdiction-specific.'},
+                                               'explanation': 'Where emergency supply without a current prescription is legally permitted, pharmacists apply statutory criteria such as prior treatment, appropriate indication, and quantity limits. Professional judgment assesses clinical risk if supply is deferred versus provided. Documentation of assessment and supply is required for accountability and continuity with the usual prescriber.'},
                                               {'question': 'A junior colleague asks for the single '
                                                            'best answer. Antimicrobial stewardship '
                                                            'in community includes? Beware of '
@@ -1150,7 +1131,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                            'D) Ignore allergy history'],
                                                'answer': 'A) Avoid unnecessary antibiotics; '
                                                          'counsel adherence; refer appropriately',
-                                               'explanation': 'Resistance threat.'},
+                                               'explanation': 'Community antimicrobial stewardship reduces unnecessary antibacterial exposure that selects for resistant organisms. Pharmacists counsel on adherence when antibiotics are indicated, avoid endorsing antibiotics for viral self-limiting illness, and refer patients with red-flag infections. These actions preserve antibiotic effectiveness at a population level.'},
                                               {'question': 'A junior colleague asks for the single '
                                                            'best answer. Health promotion role '
                                                            'example? Beware of near-miss '
@@ -1161,7 +1142,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                            'C) Avoiding all public health talk',
                                                            'D) Only counting tablets silently'],
                                                'answer': 'A) Smoking cessation support',
-                                               'explanation': 'Public health pharmacy.'}],
+                                               'explanation': 'Smoking cessation support is a core health-promotion role in pharmacy practice, combining behavioral advice with evidence-based pharmacotherapy such as nicotine replacement, varenicline, or bupropion where appropriate. Nicotine addiction is mediated by dopaminergic reinforcement pathways that cessation medicines help modulate. Reducing tobacco use lowers cardiovascular, pulmonary, and cancer risk.'}],
                                      'extreme': [{'question': 'In a high-stakes pharmacy scenario '
                                                               'with incomplete data, which '
                                                               'statement is MOST correct? '
@@ -1176,7 +1157,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                               'D) Alter the prescription yourself'],
                                                   'answer': 'A) Do not dispense; verify/report per '
                                                             'legal pathway',
-                                                  'explanation': 'Controlled drug diversion risk.'},
+                                                  'explanation': 'Suspected forged or fraudulent controlled-drug prescriptions raise diversion and patient-safety risks if dispensed. Pharmacists must not supply when authenticity cannot be established and should verify with the purported prescriber and follow legal reporting pathways. This protects legitimate patients while interrupting illicit acquisition of controlled substances.'},
                                                  {'question': 'In a high-stakes pharmacy scenario '
                                                               'with incomplete data, which '
                                                               'statement is MOST correct? Child '
@@ -1192,7 +1173,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                   'answer': 'A) mg/kg checks, max dose caps, '
                                                             'independent double check when '
                                                             'required',
-                                                  'explanation': 'Pediatrics is high-risk.'},
+                                                  'explanation': 'Pediatric doses are commonly calculated on a mg/kg (or mg/m²) basis because clearance and volume of distribution scale with size and maturation. Maximum dose caps prevent exceeding adult or product-labeled limits when weight-based math would overshoot. Independent double-checks reduce arithmetic and decimal-point errors that are especially hazardous in children.'},
                                                  {'question': 'In a high-stakes pharmacy scenario '
                                                               'with incomplete data, which '
                                                               'statement is MOST correct? Vaccine '
@@ -1206,7 +1187,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                               'D) Discard documentation'],
                                                   'answer': 'A) Quarantine stock and follow '
                                                             'cold-chain protocol before use',
-                                                  'explanation': 'Potency/safety.'}]},
+                                                  'explanation': 'Vaccines are temperature-sensitive biologics; excursions outside the labeled cold-chain range can denature antigens and reduce potency. Affected stock is quarantined and evaluated against stability data and public-health protocols before any release or discard decision. Using compromised vaccine risks failed immunization and false reassurance of protection.'}]},
                        'cases': {'easy': [{'title': 'OTC Request for Persistent Cough',
                                            'stem': 'Adult wants cough syrup for 4 weeks of cough '
                                                    'with weight loss.',
@@ -1264,14 +1245,14 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                            'C) Remove pharmacist review',
                                                            'D) Hide drug names'],
                                                'answer': 'A) Reduce medication errors and waste',
-                                               'explanation': 'Safer distribution.'},
+                                               'explanation': 'Unit-dose distribution dispenses individually packaged, ready-to-administer doses labeled for a specific patient and administration time. This reduces ward stock manipulation, wrong-dose selection, and wastage from unused multidose supplies. The system supports nurse verification against the medication administration record.'},
                                               {'question': 'IV admixture service focuses on?',
                                                'options': ['A) Aseptic compounding of injectables',
                                                            'B) Only counting oral tablets',
                                                            'C) Only shelf dusting',
                                                            'D) Only outpatient retail candy'],
                                                'answer': 'A) Aseptic compounding of injectables',
-                                               'explanation': 'Contamination prevention.'},
+                                               'explanation': 'An IV admixture service compounds sterile parenteral preparations under controlled aseptic conditions, verifying calculations, diluents, and compatibility. The aim is to prevent microbial contamination and particulate or chemical incompatibility in intravenous medicines. Centralized aseptic compounding also standardizes labeling and beyond-use dating.'},
                                               {'question': 'Formulary manages?',
                                                'options': ['A) Which medicines are '
                                                            'stocked/approved for use',
@@ -1280,7 +1261,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                            'D) Only cafeteria menus'],
                                                'answer': 'A) Which medicines are stocked/approved '
                                                          'for use',
-                                               'explanation': 'Evidence + cost + safety.'}],
+                                               'explanation': "A formulary is the institution's approved list of medicines selected for efficacy, safety, and cost-effectiveness relative to therapeutic alternatives. Pharmacy and therapeutics processes evaluate evidence and restrict nonformulary use. Formulary management shapes prescribing patterns and inventory control in the hospital."}],
                                      'medium': [{'question': 'TPN compounding requires?',
                                                  'options': ['A) Aseptic technique + '
                                                              'stability/compatibility checks',
@@ -1290,7 +1271,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                              'without training'],
                                                  'answer': 'A) Aseptic technique + '
                                                            'stability/compatibility checks',
-                                                 'explanation': 'Complex admixtures.'},
+                                                 'explanation': 'Total parenteral nutrition admixtures combine amino acids, dextrose, lipid emulsions, electrolytes, vitamins, and trace elements in complex physicochemical systems. Aseptic technique prevents bloodstream infection, while compatibility and stability checks avoid precipitation (for example calcium–phosphate) and emulsion cracking. Order review must also match nutrient provision to metabolic status.'},
                                                 {'question': 'Antimicrobial stewardship rounds '
                                                              'include pharmacists to?',
                                                  'options': ['A) Optimize choice/dose/duration',
@@ -1298,8 +1279,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                              'C) Ignore cultures',
                                                              'D) Avoid de-escalation always'],
                                                  'answer': 'A) Optimize choice/dose/duration',
-                                                 'explanation': 'Better outcomes + less '
-                                                                'resistance.'},
+                                                 'explanation': 'Antimicrobial stewardship rounds use multidisciplinary review to optimize drug choice, dose, route, and duration against culture data and infection syndromes. Pharmacists contribute pharmacokinetic dosing, IV-to-oral switch, and de-escalation expertise. The goals are improved clinical outcomes and reduced selection pressure for antimicrobial resistance.'},
                                                 {'question': 'Medication error disclosure ethics?',
                                                  'options': ['A) Be honest with patient/team per '
                                                              'policy',
@@ -1308,7 +1288,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                              'D) Alter charts secretly'],
                                                  'answer': 'A) Be honest with patient/team per '
                                                            'policy',
-                                                 'explanation': 'Safety culture.'}],
+                                                 'explanation': 'Ethical medication-error disclosure requires honest communication with the patient and care team according to institutional policy once an error is recognized. Transparency enables timely clinical mitigation and supports learning systems rather than individual blame alone. Concealing errors undermines autonomy, safety improvement, and professional trust.'}],
                                      'hard': [{'question': 'A junior colleague asks for the single '
                                                            'best answer. Clean room grades/air '
                                                            'quality matter for? Beware of '
@@ -1318,7 +1298,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                            'C) Only waiting room TV',
                                                            'D) Only outpatient counseling desks'],
                                                'answer': 'A) Aseptic preparation risk control',
-                                               'explanation': 'GMP concepts.'},
+                                               'explanation': 'Cleanroom grade classifications specify airborne particulate limits and air-handling performance for aseptic preparation areas. Higher-grade environments (with HEPA filtration and pressure cascades) reduce contamination risk during sterile compounding. Environmental monitoring and gowning discipline translate these engineering controls into microbial risk reduction for parenteral products.'},
                                               {'question': 'A junior colleague asks for the single '
                                                            'best answer. Smart pump libraries '
                                                            'reduce? Beware of near-miss '
@@ -1328,7 +1308,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                            'C) All ADRs magically',
                                                            'D) Labeling requirements'],
                                                'answer': 'A) Infusion programming errors',
-                                               'explanation': 'Technology + processes.'},
+                                               'explanation': 'Smart-pump drug libraries encode standardized concentrations, dosing units, and soft/hard limits for intravenous infusions. When clinicians select a library entry, the pump constrains programming that would otherwise allow 10-fold overdoses or unit mismatches. Technology thus reduces infusion programming errors when libraries are current and used.'},
                                               {'question': 'A junior colleague asks for the single '
                                                            'best answer. Recall management '
                                                            'requires? Beware of near-miss '
@@ -1340,7 +1320,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                            'D) Ignore notices'],
                                                'answer': 'A) Quarantine affected batches and trace '
                                                          'patients if needed',
-                                               'explanation': 'Pharmacovigilance operations.'}],
+                                               'explanation': 'Medicine recalls remove or restrict batches with quality defects, contamination, or safety signals. Hospital pharmacy must quarantine affected stock, stop further dispensing, and trace patients who already received implicated packs when clinical risk warrants. Timely quarantine and communication are operational pharmacovigilance duties.'}],
                                      'extreme': [{'question': 'In a high-stakes pharmacy scenario '
                                                               'with incomplete data, which '
                                                               'statement is MOST correct? '
@@ -1355,7 +1335,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                               'D) No special warnings needed'],
                                                   'answer': 'A) Never dispense IV vinca in same '
                                                             'way as IT meds; systemic safeguards',
-                                                  'explanation': 'Never event.'},
+                                                  'explanation': 'Intrathecal vincristine is almost uniformly fatal because vinca alkaloids cause severe neurotoxicity when injected into the CSF. Prevention relies on systemic safeguards: distinct packaging, never dispensing IV vinca in intrathecal sets, timing separation, and independent checks. Treating intrathecal and intravenous cytotoxics as interchangeable workflows is a recognized never-event pathway.'},
                                                  {'question': 'In a high-stakes pharmacy scenario '
                                                               'with incomplete data, which '
                                                               'statement is MOST correct? Disaster '
@@ -1370,7 +1350,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                               'D) No documentation'],
                                                   'answer': 'A) Critical meds continuity and cold '
                                                             'chain contingency',
-                                                  'explanation': 'Resilience.'},
+                                                  'explanation': 'Disaster formulary planning identifies critical medicines whose interruption would immediately threaten life or continuity of essential therapy, including cold-chain–dependent products. Contingency stocks, alternative agents, and backup refrigeration or generator plans maintain supply during emergencies. Resilience planning links inventory science to public-health surge needs.'},
                                                  {'question': 'In a high-stakes pharmacy scenario '
                                                               'with incomplete data, which '
                                                               'statement is MOST correct? '
@@ -1386,7 +1366,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                   'answer': 'A) Evacuate/protect, use spill kit, '
                                                             'report, follow hazardous drug '
                                                             'protocol',
-                                                  'explanation': 'Occupational safety.'}]},
+                                                  'explanation': 'Cytotoxic spills aerosolize or deposit hazardous drug residues that can cause occupational exposure through skin contact or inhalation. Response protocols evacuate unprotected staff, contain the spill with a dedicated kit, use appropriate PPE, and report the incident. Hazardous-drug policies define decontamination, waste disposal, and medical follow-up.'}]},
                        'cases': {'easy': [{'title': 'Ward Stock Look-Alike',
                                            'stem': 'Two vials look similar; wrong concentrated '
                                                    'electrolyte almost selected.',
@@ -1445,7 +1425,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                     'C) Only beta-blocker only',
                                                     'D) Only cyanide only'],
                                         'answer': 'A) Opioid toxicity',
-                                        'explanation': 'Supportive care still primary.'},
+                                        'explanation': "Naloxone is a competitive antagonist at μ-opioid receptors and rapidly reverses opioid-induced respiratory depression and sedation. Because many opioids outlast naloxone's effect, repeated dosing or infusion may be required. Supportive airway and ventilation care remain foundational while antagonism restores respiratory drive."},
                                        {'question': 'Activated charcoal useful when?',
                                         'options': ['A) Selected recent ingestions if airway '
                                                     'protected',
@@ -1455,22 +1435,21 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                     'D) Unconscious without airway always safe'],
                                         'answer': 'A) Selected recent ingestions if airway '
                                                   'protected',
-                                        'explanation': 'Contraindications exist.'},
+                                        'explanation': 'Activated charcoal adsorbs many toxins in the gut, reducing systemic absorption if given soon after ingestion when the airway is protected. It is ineffective for alcohols, metals, and corrosives and is contraindicated when aspiration risk is high or bowel integrity is compromised. Benefit depends on timing, charcoal–toxin binding, and clinical stability.'},
                                        {'question': 'ABC approach in poisoning means?',
                                         'options': ['A) Airway Breathing Circulation first',
                                                     'B) Always give antidote before ABCs',
                                                     'C) Only call family first',
                                                     'D) Only wait for labs forever'],
                                         'answer': 'A) Airway Breathing Circulation first',
-                                        'explanation': 'Resuscitation priority.'}],
+                                        'explanation': 'In acute poisoning, the ABC approach prioritizes airway patency, adequate breathing/ventilation, and circulatory support before toxin-specific antidotes. Hypoxia, hypoventilation, and shock cause immediate death independent of the intoxicant. Stabilization creates the physiologic window in which decontamination and antidotes can work.'}],
                               'medium': [{'question': 'Paracetamol toxicity antidote?',
                                           'options': ['A) N-acetylcysteine',
                                                       'B) Naloxone',
                                                       'C) Flumazenil routinely first',
                                                       'D) Digoxin Fab always'],
                                           'answer': 'A) N-acetylcysteine',
-                                          'explanation': 'Time-critical after significant '
-                                                         'overdose.'},
+                                          'explanation': 'In paracetamol overdose, a fraction of the drug is oxidized by CYP2E1 to NAPQI, which depletes hepatic glutathione and binds hepatocyte proteins. N-acetylcysteine replenishes glutathione and improves NAPQI detoxification, preventing or limiting centrilobular necrosis. Efficacy is greatest when started early after significant overdose according to nomogram-guided risk assessment.'},
                                          {'question': 'Methanol toxicity visual threat treated '
                                                       'with?',
                                           'options': ['A) Fomepizole/ethanol ± dialysis pathways',
@@ -1478,7 +1457,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                       'C) Only charcoal always curative',
                                                       'D) Only antibiotics'],
                                           'answer': 'A) Fomepizole/ethanol ± dialysis pathways',
-                                          'explanation': 'Block alcohol dehydrogenase.'},
+                                          'explanation': 'Methanol is metabolized by alcohol dehydrogenase to formaldehyde and then to formic acid, which causes metabolic acidosis and optic nerve injury. Fomepizole or ethanol competitively inhibit alcohol dehydrogenase, blocking formation of toxic metabolites. Hemodialysis removes methanol and formate when acidosis or high levels indicate extracorporeal elimination.'},
                                          {'question': 'Tricyclic antidepressant overdose ECG clue?',
                                           'options': ['A) Wide QRS / sodium channel block themes',
                                                       'B) Only short PR always benign',
@@ -1487,7 +1466,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                       'D) Normal ECG excludes severe toxicity '
                                                       'always'],
                                           'answer': 'A) Wide QRS / sodium channel block themes',
-                                          'explanation': 'Sodium bicarbonate therapy themes.'}],
+                                          'explanation': 'Tricyclic antidepressants block cardiac fast sodium channels, slowing phase-0 depolarization and widening the QRS complex on ECG. Sodium channel blockade promotes ventricular arrhythmias and seizures in severe overdose. Intravenous sodium bicarbonate provides sodium loading and alkalinization that partially overcome channel block and stabilize the membrane.'}],
                               'hard': [{'question': 'A junior colleague asks for the single best '
                                                     'answer. Physostigmine sometimes considered '
                                                     'in? Beware of near-miss distractors.',
@@ -1498,7 +1477,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                     'D) Cyanide as sole antidote'],
                                         'answer': 'A) Severe anticholinergic delirium (selected '
                                                   'cases)',
-                                        'explanation': 'Expert use only.'},
+                                        'explanation': 'Physostigmine is a reversible acetylcholinesterase inhibitor that increases synaptic acetylcholine and can temporarily reverse central anticholinergic delirium from agents such as atropine or certain antihistamines. It crosses the blood–brain barrier unlike neostigmine. Use is reserved for selected severe cases because bradycardia, seizures, and cholinergic excess are risks, especially with tricyclic co-ingestion.'},
                                        {'question': 'A junior colleague asks for the single best '
                                                     'answer. Hydrofluoric acid burn systemic risk? '
                                                     'Beware of near-miss distractors.',
@@ -1507,7 +1486,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                     'C) Only hyperglycemia only',
                                                     'D) Only polycythemia'],
                                         'answer': 'A) Hypocalcemia',
-                                        'explanation': 'Calcium therapy important.'},
+                                        'explanation': 'Hydrofluoric acid penetrates tissue and avidly binds cations, depleting ionized calcium and magnesium and disrupting cellular metabolism. Systemic hypocalcemia can trigger tetany, QT prolongation, and life-threatening arrhythmias after significant burns or inhalational exposure. Local and systemic calcium therapy is used to chelate fluoride and restore calcium homeostasis.'},
                                        {'question': 'A junior colleague asks for the single best '
                                                     'answer. Body packer rupture risk management? '
                                                     'Beware of near-miss distractors.',
@@ -1518,7 +1497,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                     'D) Ignore packets'],
                                         'answer': 'A) Urgent surgical/toxicology pathways; avoid '
                                                   'unsafe endoscopy themes',
-                                        'explanation': 'Life-threatening.'}],
+                                        'explanation': 'Body packers conceal drug-filled packets in the gastrointestinal tract; packet rupture can release massive opioid or cocaine doses with catastrophic toxicity. Management centers on urgent toxicology and surgical pathways when obstruction, rupture, or severe poisoning occurs. Blind endoscopic retrieval is generally avoided because of rupture risk to remaining packets.'}],
                               'extreme': [{'question': 'In a high-stakes pharmacy scenario with '
                                                        'incomplete data, which statement is MOST '
                                                        'correct? Cyanide antidote kits may '
@@ -1531,7 +1510,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                        'D) Only insulin always'],
                                            'answer': 'A) Hydroxocobalamin (and other protocol '
                                                      'options)',
-                                           'explanation': 'Smoke inhalation contexts.'},
+                                           'explanation': 'Cyanide inhibits mitochondrial cytochrome c oxidase (complex IV), halting oxidative phosphorylation and causing histotoxic hypoxia. Hydroxocobalamin binds cyanide to form cyanocobalamin, which is renally excreted, rapidly restoring aerobic metabolism in many protocols. Smoke inhalation victims may have concurrent cyanide and carbon monoxide poisoning requiring combined management.'},
                                           {'question': 'In a high-stakes pharmacy scenario with '
                                                        'incomplete data, which statement is MOST '
                                                        'correct? Serotonin syndrome vs NMS '
@@ -1544,7 +1523,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                        'C) Neither is dangerous',
                                                        'D) Only skin color differs'],
                                            'answer': 'A) Different triggers and management nuances',
-                                           'explanation': 'Tox vs neuroleptic pathways.'},
+                                           'explanation': 'Serotonin syndrome is typically precipitated by serotonergic drug combinations and features clonus, hyperreflexia, and rapid onset hyperthermia, whereas neuroleptic malignant syndrome follows dopamine antagonists with severe rigidity and slower onset. Distinguishing them matters because management differs: cyproheptadine and withdrawal of serotonergics versus dopaminergic support and antipsychotic cessation. Misclassification can delay toxin-specific therapy.'},
                                           {'question': 'In a high-stakes pharmacy scenario with '
                                                        'incomplete data, which statement is MOST '
                                                        'correct? Extracorporeal removal considered '
@@ -1557,7 +1536,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                        'D) Never useful'],
                                            'answer': 'A) Selected dialyzable toxins with severe '
                                                      'toxicity',
-                                           'explanation': 'EXTRIP guidance themes.'}]},
+                                           'explanation': 'Extracorporeal removal (hemodialysis or related techniques) is considered when a toxin has suitable physicochemical properties—low molecular weight, low protein binding, small volume of distribution—and severe clinical toxicity or failing endogenous clearance. Examples include severe lithium, salicylate, and toxic-alcohol poisoning. Guidance groups such as EXTRIP summarize evidence for when extracorporeal treatment adds benefit.'}]},
                 'cases': {'easy': [{'title': 'Pinpoint Pupils + Bradypnea',
                                     'stem': 'Unresponsive patient with pinpoint pupils and slow '
                                             'breathing; empty opioid bottles nearby.',
@@ -1615,14 +1594,14 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                 'answer': 'A) Killing/removal of all viable '
                                                           'microorganisms including spores '
                                                           '(process dependent)',
-                                                'explanation': 'Critical for injectables.'},
+                                                'explanation': 'Sterilization is a validated process that destroys or removes all viable microorganisms, including bacterial spores, to a specified sterility assurance level. Methods include moist heat, dry heat, filtration, ethylene oxide, and radiation, chosen for product compatibility. Injectable medicines depend on sterilization or aseptic processing to prevent contamination.'},
                                                {'question': 'Gram-positive bacteria stain?',
                                                 'options': ['A) Purple/blue in Gram stain',
                                                             'B) Always red only',
                                                             'C) Always invisible',
                                                             'D) Always acid-fast only'],
                                                 'answer': 'A) Purple/blue in Gram stain',
-                                                'explanation': 'Cell wall differences.'},
+                                                'explanation': 'Gram-positive bacteria retain crystal violet–iodine complex within a thick peptidoglycan cell wall and appear purple/blue after Gram staining. Gram-negative organisms have a thin peptidoglycan layer and outer membrane that allow decolorization and take up safranin counterstain (pink/red). The stain thus reflects fundamental cell-envelope structure.'},
                                                {'question': 'Disinfection differs from '
                                                             'sterilization by?',
                                                 'options': ['A) Reducing microbes on '
@@ -1634,7 +1613,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                 'answer': 'A) Reducing microbes on '
                                                           'surfaces/objects but not necessarily '
                                                           'sterilizing',
-                                                'explanation': 'Choose agent appropriately.'}],
+                                                'explanation': 'Disinfection reduces pathogenic microorganisms on inanimate surfaces or objects to a level judged safe for use, but it does not reliably eliminate all spores or achieve sterilization. Agent selection depends on spectrum, concentration, contact time, and material compatibility. Sterilization is required when absolute absence of viable microbes is needed, as for critical injectables.'}],
                                       'medium': [{'question': 'Endotoxin (LPS) risk is mainly '
                                                               'from?',
                                                   'options': ['A) Gram-negative bacteria',
@@ -1642,7 +1621,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                               'C) Only fungi always',
                                                               'D) Only prions only'],
                                                   'answer': 'A) Gram-negative bacteria',
-                                                  'explanation': 'Pyrogen tests/LAL themes.'},
+                                                  'explanation': 'Bacterial endotoxin is lipopolysaccharide (LPS) from the outer membrane of Gram-negative bacteria and is a potent pyrogen. Even sterile solutions can cause fever and septic-like reactions if LPS remains. Pharmaceutical water and parenteral products are therefore controlled with bacterial endotoxin tests such as LAL/recombinant factor C assays.'},
                                                  {'question': 'Autoclaving typical condition '
                                                               'theme?',
                                                   'options': ['A) Moist heat under pressure (e.g., '
@@ -1654,7 +1633,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                               'vials always sterilizes insides'],
                                                   'answer': 'A) Moist heat under pressure (e.g., '
                                                             '121°C themes)',
-                                                  'explanation': 'Validated cycles.'},
+                                                  'explanation': 'Autoclaving uses saturated steam under pressure to achieve moist-heat sterilization, classically exemplified by 121 °C for a validated hold time (often about 15 minutes for many loads). Steam kills microorganisms by coagulating proteins and is highly effective against spores when air removal and heat penetration are assured. Cycle parameters must be validated for load configuration.'},
                                                  {'question': 'Preservatives in multi-dose vials '
                                                               'help?',
                                                   'options': ['A) Inhibit microbial growth after '
@@ -1666,7 +1645,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                               'D) Make drugs sweeter only'],
                                                   'answer': 'A) Inhibit microbial growth after '
                                                             'opening',
-                                                  'explanation': 'Still use aseptic handling.'}],
+                                                  'explanation': 'Antimicrobial preservatives in multi-dose vials suppress growth of microbes introduced during repeated needle entries after first opening. They do not sterilize a grossly contaminated product and are not a substitute for aseptic handling. Preservative efficacy testing supports their inclusion within labeled beyond-use constraints.'}],
                                       'hard': [{'question': 'A junior colleague asks for the '
                                                             'single best answer. HEPA filters in '
                                                             'cleanrooms remove? Beware of '
@@ -1678,7 +1657,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                             'D) Only humidity'],
                                                 'answer': 'A) Airborne particles/microbes to '
                                                           'specified efficiency',
-                                                'explanation': 'Environmental control.'},
+                                                'explanation': 'High-efficiency particulate air (HEPA) filters remove airborne particles by interception, impaction, and diffusion with defined efficiency (typically ≥99.97% for 0.3 μm challenge particles). In cleanrooms they supply particle-controlled air that reduces microbial and particulate contamination risk during aseptic work. Filter integrity and airflow patterns are critical environmental controls.'},
                                                {'question': 'A junior colleague asks for the '
                                                             'single best answer. Biological '
                                                             'indicator for autoclave often uses? '
@@ -1690,7 +1669,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                             'D) Only Candida only'],
                                                 'answer': 'A) Geobacillus stearothermophilus '
                                                           'spores',
-                                                'explanation': 'Validate sterilization.'},
+                                                'explanation': 'Biological indicators for steam sterilization commonly use spores of Geobacillus stearothermophilus, which are highly heat resistant. Survival or kill of the spore challenge after a cycle provides a direct measure of lethality beyond physical parametric readouts alone. BI results support validation and routine monitoring of autoclave performance.'},
                                                {'question': 'A junior colleague asks for the '
                                                             'single best answer. Biofilm on '
                                                             'equipment causes? Beware of near-miss '
@@ -1702,7 +1681,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                             'D) Only nicer smell'],
                                                 'answer': 'A) Persistent contamination hard to '
                                                           'eradicate',
-                                                'explanation': 'Cleaning validation matters.'}],
+                                                'explanation': 'Biofilms are surface-associated microbial communities embedded in extracellular polymeric substance that impede biocide penetration and slow metabolism. Once established on pharmaceutical equipment, they shed planktonic cells and cause persistent contamination hard to eradicate by ordinary rinsing. Cleaning validation and hygienic design aim to prevent biofilm niches.'}],
                                       'extreme': [{'question': 'In a high-stakes pharmacy scenario '
                                                                'with incomplete data, which '
                                                                'statement is MOST correct? Aseptic '
@@ -1717,7 +1696,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                                'D) Only shipping speed'],
                                                    'answer': 'A) Operator/process capability to '
                                                              'maintain sterility',
-                                                   'explanation': 'GMP expectation.'},
+                                                   'explanation': 'Aseptic process simulation (media fill) replaces product with sterile growth medium processed through the full aseptic manufacturing train by operators under routine conditions. Subsequent incubation tests whether contamination was introduced, thereby demonstrating process and operator capability to maintain sterility. Media fills are a GMP expectation for validating aseptic operations.'},
                                                   {'question': 'In a high-stakes pharmacy scenario '
                                                                'with incomplete data, which '
                                                                'statement is MOST correct? '
@@ -1733,7 +1712,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                                'D) Only plastic chairs'],
                                                    'answer': 'A) Cell culture/biologic production '
                                                              'systems',
-                                                   'explanation': 'Hard to detect historically.'},
+                                                   'explanation': 'Mycoplasmas are cell-wall–deficient bacteria that pass many sterilizing filters and do not produce turbidity typical of ordinary bacterial contamination. In cell-culture and biologic manufacturing systems they alter metabolism, reduce yield, and can contaminate products. Dedicated nucleic-acid or culture-based mycoplasma tests are required because standard microscopy often misses them.'},
                                                   {'question': 'In a high-stakes pharmacy scenario '
                                                                'with incomplete data, which '
                                                                'statement is MOST correct? '
@@ -1748,8 +1727,7 @@ SPECIALTIES: dict[str, dict] = {'pharmacology': {'label': 'Pharmacology',
                                                                'D) Guesswork'],
                                                    'answer': 'A) Validated process data in lieu of '
                                                              'finished testing in defined cases',
-                                                   'explanation': 'Regulatory framework '
-                                                                  'dependent.'}]},
+                                                   'explanation': 'Parametric release authorizes batch release based on demonstrated control of validated critical process parameters instead of awaiting finished-product sterility test results in defined regulatory frameworks. It requires robust process understanding, monitoring, and documentation—commonly applied to terminally sterilized products. Without that validated evidence package, traditional end-product testing remains required.'}]},
                         'cases': {'easy': [{'title': 'Injectables Contaminated?',
                                             'stem': 'A batch of IV product grows unexpected '
                                                     'organisms in sterility tests.',
