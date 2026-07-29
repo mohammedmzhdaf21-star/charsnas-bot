@@ -1,4 +1,4 @@
-"""CharaNas hub bot — routes users to Medicine, Dentistry, or Pharmacy bots."""
+"""CharaNas hub bot — routes users to Medicine, Dentistry, Pharmacy, or MLS bots."""
 
 from __future__ import annotations
 
@@ -48,6 +48,12 @@ DEPARTMENTS = [
         "username": os.getenv("PHARMACY_BOT_USERNAME", "Charanaspharmacy_bot"),
         "blurb": "Undergraduate pharmacy specialties, MCQs, cases, PDFs, and book sources.",
     },
+    {
+        "key": "mls",
+        "label": "MLS",
+        "username": os.getenv("MLS_BOT_USERNAME", "CharanasMLS_bot"),
+        "blurb": "Undergraduate medical laboratory science specialties, MCQs, cases, PDFs, and book sources.",
+    },
 ]
 
 LABEL_TO_DEPT = {d["label"]: d for d in DEPARTMENTS}
@@ -61,7 +67,7 @@ def field_reply_keyboard() -> ReplyKeyboardMarkup:
     return ReplyKeyboardMarkup(
         [
             [KeyboardButton("Medicine"), KeyboardButton("Dentistry")],
-            [KeyboardButton("Pharmacy")],
+            [KeyboardButton("Pharmacy"), KeyboardButton("MLS")],
         ],
         resize_keyboard=True,
         is_persistent=True,
@@ -147,10 +153,13 @@ async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         if d["label"].lower() in lowered or d["key"] in lowered:
             await send_department_link(update, d)
             return
+    if "laboratory" in lowered or "lab science" in lowered:
+        await send_department_link(update, LABEL_TO_DEPT["MLS"])
+        return
 
     await safe_reply(
         update,
-        "Please choose Medicine, Dentistry, or Pharmacy.",
+        "Please choose Medicine, Dentistry, Pharmacy, or MLS.",
         reply_markup=field_reply_keyboard(),
     )
     await safe_reply(

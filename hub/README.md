@@ -5,11 +5,12 @@ Entry bot that links users to the department study bots:
 - Medicine → `@CharanasMedicine_bot`
 - Dentistry → `@Charanasdentistry_bot`
 - Pharmacy → `@Charanaspharmacy_bot`
+- MLS → `@CharanasMLS_bot` (set `MLS_BOT_USERNAME` if different)
 
 ## Flow
 
 1. User sends `/start`
-2. Hub shows **Medicine / Dentistry / Pharmacy** buttons
+2. Hub shows **Medicine / Dentistry / Pharmacy / MLS** buttons
 3. Tapping a button opens that department bot in Telegram
 
 ## Setup
