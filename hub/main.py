@@ -11,6 +11,7 @@ from telegram import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
     KeyboardButton,
+    MessageOriginChannel,
     ReplyKeyboardMarkup,
     Update,
 )
@@ -290,7 +291,10 @@ def welcome_text() -> str:
         )
         lines.append("")
     elif REQUIRE_CHANNEL and channel_url():
-        lines.append("سەرەتا بەشداری کەناڵەکەمان لە تێلێگرام بکە، پاشان بەردەوامبە.")
+        lines.append("⚠️ سەرەتا بەشداری کەناڵەکەمان بکە — بەبێ ئەوە بۆتی بوار ناکرێتەوە.")
+        lines.append("")
+    if REQUIRE_CHANNEL and not (folder_url() or campus_url() or channel_url()):
+        lines.append("⚠️ بەشداری کەناڵ پێویستە پێش کردنەوەی هەر بۆتێک.")
         lines.append("")
     lines.append("دوگمەی بوارێک لە خوارەوە لێدە.")
     return "\n".join(lines)
@@ -348,6 +352,58 @@ def bot_in_folder_tip(dept: dict) -> str:
     )
 
 
+def persist_channel_chat_id(chat_id: int) -> None:
+    global CHANNEL_CHAT_ID
+    CHANNEL_CHAT_ID = str(chat_id)
+    _CHANNEL_ID_FILE.write_text(str(chat_id) + "\n")
+    env_path = Path(__file__).resolve().parent / ".env"
+    if env_path.exists():
+        lines = env_path.read_text().splitlines()
+        found = False
+        for i, line in enumerate(lines):
+            if line.startswith("CHANNEL_CHAT_ID="):
+                lines[i] = f"CHANNEL_CHAT_ID={chat_id}"
+                found = True
+                break
+        if not found:
+            lines.append(f"CHANNEL_CHAT_ID={chat_id}")
+        env_path.write_text("\n".join(lines) + "\n")
+    log.info("Saved channel chat id %s to %s and .env", chat_id, _CHANNEL_ID_FILE.name)
+
+
+def extract_forwarded_channel(message) -> object | None:
+    """Return channel Chat if this message was forwarded from a channel."""
+    if message is None:
+        return None
+    origin = getattr(message, "forward_origin", None)
+    if isinstance(origin, MessageOriginChannel):
+        return origin.chat
+    fwd = getattr(message, "forward_from_chat", None)
+    if fwd is not None and getattr(fwd, "type", None) == "channel":
+        return fwd
+    return None
+
+
+def gate_blocked_text(dept_label: str) -> str:
+    return (
+        f"🔒 پێش کردنەوەی بۆتی «{dept_label}» دەبێت بەشداری کەناڵ بکەیت.\n\n"
+        "هەنگاوەکان:\n"
+        "١) دوگمەی «بەشداری لە کەناڵ» لێدە و بەشداری بکە\n"
+        "٢) بگەڕێرەوە ئێرە و «بەشداریم کرد — بەردەوامبە» لێدە\n\n"
+        "تا لە کەناڵدا نەبیت، ناتوانیت بۆتی بوارەکەت بکەیتەوە."
+    )
+
+
+def membership_alert(status: bool | None) -> str:
+    if status is False:
+        return "هێشتا لە کەناڵدا نیت. سەرەتا بەشداری بکە، پاشان بەردەوامبە."
+    return (
+        "ناتوانرێت بەشداری پشتڕاست بکرێتەوە. "
+        "دڵنیابە بەشداری کەناڵت کردووە. ئەگەر بەشداریت کردووە، "
+        "چاوەڕێ بە یان بەڕێوەبەر ناسنامەی کەناڵ تۆمار بکات (/set_channel)."
+    )
+
+
 async def safe_reply(update: Update, text: str, reply_markup=None) -> None:
     message = update.effective_message
     if not message:
@@ -364,10 +420,12 @@ def can_verify_membership() -> bool:
 
 
 async def user_in_channel(context: ContextTypes.DEFAULT_TYPE, user_id: int) -> bool | None:
+    """True = member, False = not member, None = cannot verify yet (blocked)."""
     if not REQUIRE_CHANNEL:
         return True
     chat = channel_ref()
     if chat is None:
+        log.warning("Channel gate blocked: CHANNEL_CHAT_ID / CHANNEL_USERNAME not set")
         return None
     try:
         member = await context.bot.get_chat_member(chat_id=chat, user_id=user_id)
@@ -377,20 +435,13 @@ async def user_in_channel(context: ContextTypes.DEFAULT_TYPE, user_id: int) -> b
         return ok
     except Forbidden as exc:
         log.error(
-            "Cannot check channel membership (is hub bot an admin of the channel?): %s",
+            "Cannot check channel membership (hub bot must be channel admin): %s",
             exc,
         )
         return None
     except TelegramError as exc:
         log.warning("getChatMember failed: %s", exc)
         return False
-
-
-def persist_channel_chat_id(chat_id: int) -> None:
-    global CHANNEL_CHAT_ID
-    CHANNEL_CHAT_ID = str(chat_id)
-    _CHANNEL_ID_FILE.write_text(str(chat_id) + "\n")
-    log.info("Saved channel chat id %s to %s", chat_id, _CHANNEL_ID_FILE.name)
 
 
 async def send_department_link(update: Update, dept: dict) -> None:
@@ -426,16 +477,13 @@ async def offer_department(
     context.user_data["pending_dept"] = dept["key"]
 
     status = await user_in_channel(context, user.id)
-    if status is True or (status is None and context.user_data.get("channel_soft_ok")):
+    if status is True:
         await send_department_link(update, dept)
         return
 
-    extra = " / فۆڵدەر" if folder_url() else ""
     await safe_reply(
         update,
-        f"پێش کردنەوەی {dept['label']}، بەشداری کەناڵی {FOLDER_NAME}{extra} بکە.\n\n"
-        "بۆتەکان لە ڕێگەی گرووپی کەمپەس و زیادکردنی هەر بۆتێک جارێک لە فۆڵدەر دەردەکەون.\n"
-        "بەشداری / زیادکردنی فۆڵدەر لێدە، پاشان «بەشداریم کرد — بەردەوامبە».",
+        gate_blocked_text(dept["label"]),
         reply_markup=join_gate_keyboard(dept["key"]),
     )
 
@@ -447,6 +495,12 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         await safe_reply(
             update,
             "کەناڵ / فۆڵدەر:",
+            reply_markup=extra,
+        )
+    if REQUIRE_CHANNEL:
+        await safe_reply(
+            update,
+            "⚠️ تێبینی: تا بەشداری کەناڵ نەکەیت، ناتوانیت بۆتی هیچ بوارێک بکەیتەوە.",
             reply_markup=extra,
         )
     await safe_reply(
@@ -468,6 +522,35 @@ async def ping(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await safe_reply(
         update,
         "بۆتی ناوەندی پەروەردەی چاراناس کاراە. /start بنێرە بۆ هەڵبژاردنی بوار.",
+    )
+
+
+async def set_channel_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Admin: reply to a forwarded channel post with /set_channel."""
+    message = update.effective_message
+    if not message:
+        return
+
+    candidate = message.reply_to_message or message
+    channel = extract_forwarded_channel(candidate)
+    if channel is None:
+        await safe_reply(
+            update,
+            "بۆ تۆمارکردنی کەناڵ:\n"
+            "١) بۆتی ناوەند (@Charanaseducenter_bot) وەک بەڕێوەبەر زیاد بکە بۆ کەناڵەکە\n"
+            "٢) پەیامێک لە کەناڵەکەوە فۆروارد بکە بۆ ئەم بۆتە\n"
+            "٣) وەڵامی ئەو پەیامە بدەرەوە بە /set_channel",
+        )
+        return
+
+    persist_channel_chat_id(channel.id)
+    title = getattr(channel, "title", "") or ""
+    await safe_reply(
+        update,
+        f"✅ کەناڵ تۆمارکرا.\n"
+        f"ناو: {title}\n"
+        f"ناسنامە: {channel.id}\n\n"
+        "ئێستا دەروازە توندە: تا خوێندکار بەشداری کەناڵ نەکات، بۆتی بوار ناکرێتەوە.",
     )
 
 
@@ -511,7 +594,22 @@ async def post_campus_menu(update: Update, context: ContextTypes.DEFAULT_TYPE) -
 
 
 async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    text = (update.message.text or "").strip()
+    message = update.effective_message
+    channel = extract_forwarded_channel(message)
+    if channel is not None and not can_verify_membership():
+        persist_channel_chat_id(channel.id)
+        title = getattr(channel, "title", "") or ""
+        await safe_reply(
+            update,
+            f"✅ کەناڵ تۆمارکرا لە فۆروارد.\nناو: {title}\nناسنامە: {channel.id}\n\n"
+            "دەروازەی بەشداری ئێستا کاراە.",
+        )
+        return
+
+    text = (message.text or "").strip() if message else ""
+    if not text:
+        return
+
     if (
         text == BTN_FOLDER
         or text in {"فۆڵدەر", "فۆڵدەرەکان", f"فۆڵدەری {FOLDER_NAME}"}
@@ -541,7 +639,6 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
     query = update.callback_query
     if not query:
         return
-    await query.answer()
     data = query.data or ""
     user = update.effective_user
     if not user:
@@ -565,6 +662,7 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         )
 
     if data.startswith("dept:"):
+        await query.answer()
         key = data.split(":", 1)[1]
         dept = KEY_TO_DEPT.get(key)
         if not dept:
@@ -572,14 +670,11 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
             return
         context.user_data["pending_dept"] = key
         status = await user_in_channel(context, user.id)
-        if status is True or (status is None and context.user_data.get("channel_soft_ok")):
+        if status is True:
             await open_dept(dept)
             return
-        extra = " / فۆڵدەر" if folder_url() else ""
         await query.edit_message_text(
-            f"پێش کردنەوەی {dept['label']}، بەشداری کەناڵی {FOLDER_NAME}{extra} بکە.\n\n"
-            "بۆتەکان لە ڕێگەی گرووپی کەمپەس و زیادکردنی هەر بۆتێک جارێک لە فۆڵدەر دەردەکەون.\n"
-            "بەشداری / زیادکردنی فۆڵدەر لێدە، پاشان «بەشداریم کرد — بەردەوامبە».",
+            gate_blocked_text(dept["label"]),
             reply_markup=join_gate_keyboard(key),
         )
         return
@@ -588,21 +683,20 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         key = data.split(":", 1)[1]
         dept = KEY_TO_DEPT.get(key) or KEY_TO_DEPT.get(context.user_data.get("pending_dept", ""))
         if not dept:
+            await query.answer()
             await query.edit_message_text(
                 "دانیشتنەکە بەسەرچوو. /start بنێرە و دووبارە بوار هەڵبژێرە."
             )
             return
         status = await user_in_channel(context, user.id)
-        if status is False:
-            await query.answer(
-                "هێشتا لە کەناڵدا نادۆزرێیتەوە. سەرەتا بەشداری بکە، پاشان بەردەوامبە.",
-                show_alert=True,
-            )
+        if status is not True:
+            await query.answer(membership_alert(status), show_alert=True)
             return
-        if status is None:
-            context.user_data["channel_soft_ok"] = True
+        await query.answer()
         await open_dept(dept, thanks=True)
         return
+
+    await query.answer()
 
 
 async def on_my_chat_member(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -642,12 +736,13 @@ def main() -> None:
         )
 
     if REQUIRE_CHANNEL:
-        log.info(
-            "Channel gate ON (verify=%s invite=%s ref=%s)",
-            "hard" if can_verify_membership() else "soft",
-            "yes" if channel_url() else "no",
-            channel_ref(),
-        )
+        if can_verify_membership():
+            log.info("HARD channel gate ON (ref=%s)", channel_ref())
+        else:
+            log.warning(
+                "HARD channel gate ON but CHANNEL_CHAT_ID missing — "
+                "forward a channel post to the hub bot or use /set_channel"
+            )
     else:
         log.info("Channel gate OFF")
 
@@ -663,14 +758,15 @@ def main() -> None:
     app.add_handler(CommandHandler("help", help_cmd))
     app.add_handler(CommandHandler("ping", ping))
     app.add_handler(CommandHandler("folder", folder_cmd))
+    app.add_handler(CommandHandler("set_channel", set_channel_cmd))
     app.add_handler(CommandHandler("post_campus_menu", post_campus_menu))
     app.add_handler(CallbackQueryHandler(on_callback))
     app.add_handler(ChatMemberHandler(on_my_chat_member, ChatMemberHandler.MY_CHAT_MEMBER))
-    app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, on_text))
+    app.add_handler(MessageHandler(filters.ALL & ~filters.COMMAND, on_text))
     app.add_error_handler(on_error)
 
-    log.info("CharaNas hub bot starting (Sorani UI)…")
-    print("CharaNas hub bot running (Kurdish Sorani)…")
+    log.info("CharaNas hub bot starting (Sorani UI, hard channel gate)…")
+    print("CharaNas hub bot running (Kurdish Sorani, hard channel gate)…")
     app.run_polling(
         drop_pending_updates=False,
         allowed_updates=Update.ALL_TYPES,
