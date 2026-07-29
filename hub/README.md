@@ -6,7 +6,7 @@ Entry bot that links users to the department study bots:
 - Dentistry → `@Charanasdentistry_bot`
 - Pharmacy → `@Charanaspharmacy_bot`
 - MLS → `@CharanasMLS_bot` (set `MLS_BOT_USERNAME` if different)
-- Nursing → `@CharanasNursing_bot` (set `NURSING_BOT_USERNAME` if different)
+- Nursing → `@Charanasnursing_bot` (set `NURSING_BOT_USERNAME` if different)
 
 ## Flow
 

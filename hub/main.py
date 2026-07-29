@@ -57,7 +57,7 @@ DEPARTMENTS = [
     {
         "key": "nursing",
         "label": "Nursing",
-        "username": os.getenv("NURSING_BOT_USERNAME", "CharanasNursing_bot"),
+        "username": os.getenv("NURSING_BOT_USERNAME", "Charanasnursing_bot"),
         "blurb": "Undergraduate nursing specialties, MCQs, cases, PDFs, and book sources.",
     },
 ]
