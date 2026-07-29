@@ -7,7 +7,14 @@ import os
 from pathlib import Path
 
 from dotenv import load_dotenv
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
+from telegram import (
+    InlineKeyboardButton,
+    InlineKeyboardMarkup,
+    KeyboardButton,
+    ReplyKeyboardMarkup,
+    Update,
+)
+from telegram.error import BadRequest
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
 
 logging.basicConfig(
@@ -22,7 +29,6 @@ log = logging.getLogger("charanas-hub-bot")
 
 load_dotenv(Path(__file__).resolve().parent / ".env")
 
-# Department bots (Telegram usernames without @)
 DEPARTMENTS = [
     {
         "key": "medicine",
@@ -44,40 +50,80 @@ DEPARTMENTS = [
     },
 ]
 
+LABEL_TO_DEPT = {d["label"]: d for d in DEPARTMENTS}
+
 
 def bot_url(username: str) -> str:
     return f"https://t.me/{username}?start=from_hub"
 
 
-def menu_keyboard() -> InlineKeyboardMarkup:
-    rows = [
-        [InlineKeyboardButton(f"Open {d['label']} bot", url=bot_url(d["username"]))]
-        for d in DEPARTMENTS
-    ]
-    return InlineKeyboardMarkup(rows)
+def field_reply_keyboard() -> ReplyKeyboardMarkup:
+    return ReplyKeyboardMarkup(
+        [
+            [KeyboardButton("Medicine"), KeyboardButton("Dentistry")],
+            [KeyboardButton("Pharmacy")],
+        ],
+        resize_keyboard=True,
+        is_persistent=True,
+    )
+
+
+def link_keyboard(dept: dict) -> InlineKeyboardMarkup:
+    return InlineKeyboardMarkup(
+        [[InlineKeyboardButton(f"Open {dept['label']} bot", url=bot_url(dept["username"]))]]
+    )
+
+
+def all_links_keyboard() -> InlineKeyboardMarkup:
+    return InlineKeyboardMarkup(
+        [
+            [InlineKeyboardButton(d["label"], url=bot_url(d["username"]))]
+            for d in DEPARTMENTS
+        ]
+    )
 
 
 def welcome_text() -> str:
     lines = [
-        "Welcome to *CharaNas*",
+        "Welcome to CharaNas Education Center",
         "",
-        "Choose your field below. You will be taken to that department's study bot:",
+        "Choose your field:",
         "",
     ]
     for d in DEPARTMENTS:
-        lines.append(f"• *{d['label']}* — @{d['username']}")
-        lines.append(f"  _{d['blurb']}_")
+        lines.append(f"- {d['label']}")
+        lines.append(f"  {d['blurb']}")
         lines.append("")
-    lines.append("Tap a button to open the bot for your field.")
+    lines.append("Tap a field button below, then Open to go to that bot.")
     return "\n".join(lines)
 
 
+async def safe_reply(update: Update, text: str, reply_markup=None) -> None:
+    message = update.effective_message
+    if not message:
+        return
+    try:
+        await message.reply_text(text, reply_markup=reply_markup, disable_web_page_preview=True)
+    except BadRequest as exc:
+        log.warning("Send failed: %s", exc)
+        await message.reply_text(text)
+
+
+async def send_department_link(update: Update, dept: dict) -> None:
+    await safe_reply(
+        update,
+        f"{dept['label']} bot\n@{dept['username']}\n\n{dept['blurb']}\n\nTap the button below to open it:",
+        reply_markup=link_keyboard(dept),
+    )
+
+
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_text(
-        welcome_text(),
-        parse_mode="Markdown",
-        reply_markup=menu_keyboard(),
-        disable_web_page_preview=True,
+    # Persistent field buttons + inline deep links
+    await safe_reply(update, welcome_text(), reply_markup=field_reply_keyboard())
+    await safe_reply(
+        update,
+        "Or tap a field here to open that bot directly:",
+        reply_markup=all_links_keyboard(),
     )
 
 
@@ -86,31 +132,43 @@ async def help_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 
 async def ping(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_text("✅ CharaNas hub bot is online. Send /start to choose a field.")
+    await safe_reply(update, "CharaNas hub bot is online. Send /start to choose a field.")
 
 
 async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    text = (update.message.text or "").strip().lower()
+    text = (update.message.text or "").strip()
+    dept = LABEL_TO_DEPT.get(text)
+    if dept:
+        await send_department_link(update, dept)
+        return
+
+    lowered = text.lower()
     for d in DEPARTMENTS:
-        if d["label"].lower() in text or d["key"] in text:
-            await update.message.reply_text(
-                f"Open the *{d['label']}* bot:\n@{d['username']}",
-                parse_mode="Markdown",
-                reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(f"Go to {d['label']}", url=bot_url(d["username"]))]]
-                ),
-                disable_web_page_preview=True,
-            )
+        if d["label"].lower() in lowered or d["key"] in lowered:
+            await send_department_link(update, d)
             return
 
-    await update.message.reply_text(
-        "Please choose a field from the buttons below, or send /start.",
-        reply_markup=menu_keyboard(),
+    await safe_reply(
+        update,
+        "Please choose Medicine, Dentistry, or Pharmacy.",
+        reply_markup=field_reply_keyboard(),
+    )
+    await safe_reply(
+        update,
+        "Direct links:",
+        reply_markup=all_links_keyboard(),
     )
 
 
 async def on_error(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
     log.error("Handler error: %s", context.error)
+    if isinstance(update, Update) and update.effective_message:
+        try:
+            await update.effective_message.reply_text(
+                "Something went wrong. Please send /start again."
+            )
+        except Exception:
+            pass
 
 
 def main() -> None:
@@ -136,7 +194,11 @@ def main() -> None:
 
     log.info("CharaNas hub bot starting…")
     print("CharaNas hub bot running…")
-    app.run_polling(drop_pending_updates=False, allowed_updates=Update.ALL_TYPES, bootstrap_retries=5)
+    app.run_polling(
+        drop_pending_updates=False,
+        allowed_updates=Update.ALL_TYPES,
+        bootstrap_retries=5,
+    )
 
 
 if __name__ == "__main__":
