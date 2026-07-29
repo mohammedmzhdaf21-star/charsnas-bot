@@ -1,6 +1,7 @@
 .env
 dentistry/.env
 pharmacy/.env
+hub/.env
 __pycache__/
 **/__pycache__/
 *.pyc
@@ -10,3 +11,4 @@ venv/
 bot.log
 dentistry/bot.log
 pharmacy/bot.log
+hub/bot.log
