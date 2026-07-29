@@ -1,4 +1,4 @@
-"""CharaNas hub bot — routes users to Medicine, Dentistry, Pharmacy, or MLS bots."""
+"""CharaNas hub bot — routes users to Medicine, Dentistry, Pharmacy, MLS, or Nursing bots."""
 
 from __future__ import annotations
 
@@ -54,6 +54,12 @@ DEPARTMENTS = [
         "username": os.getenv("MLS_BOT_USERNAME", "CharanasMLS_bot"),
         "blurb": "Undergraduate medical laboratory science specialties, MCQs, cases, PDFs, and book sources.",
     },
+    {
+        "key": "nursing",
+        "label": "Nursing",
+        "username": os.getenv("NURSING_BOT_USERNAME", "CharanasNursing_bot"),
+        "blurb": "Undergraduate nursing specialties, MCQs, cases, PDFs, and book sources.",
+    },
 ]
 
 LABEL_TO_DEPT = {d["label"]: d for d in DEPARTMENTS}
@@ -68,6 +74,7 @@ def field_reply_keyboard() -> ReplyKeyboardMarkup:
         [
             [KeyboardButton("Medicine"), KeyboardButton("Dentistry")],
             [KeyboardButton("Pharmacy"), KeyboardButton("MLS")],
+            [KeyboardButton("Nursing")],
         ],
         resize_keyboard=True,
         is_persistent=True,
@@ -157,9 +164,13 @@ async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         await send_department_link(update, LABEL_TO_DEPT["MLS"])
         return
 
+    if "nurse" in lowered:
+        await send_department_link(update, LABEL_TO_DEPT["Nursing"])
+        return
+
     await safe_reply(
         update,
-        "Please choose Medicine, Dentistry, Pharmacy, or MLS.",
+        "Please choose Medicine, Dentistry, Pharmacy, MLS, or Nursing.",
         reply_markup=field_reply_keyboard(),
     )
     await safe_reply(

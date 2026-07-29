@@ -3,6 +3,7 @@ dentistry/.env
 pharmacy/.env
 hub/.env
 mls/.env
+nursing/.env
 __pycache__/
 **/__pycache__/
 *.pyc
@@ -14,3 +15,4 @@ dentistry/bot.log
 pharmacy/bot.log
 hub/bot.log
 mls/bot.log
+nursing/bot.log
