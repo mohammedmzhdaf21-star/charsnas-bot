@@ -1852,7 +1852,7 @@ def format_question_result(
         f"{options}\n\n"
         f"{verdict}\n"
         f"✅ *Answer:* {item['answer']}\n"
-        f"💡 {item['explanation']}\n\n"
+        f"📚 *Scientific explanation:* {item['explanation']}\n\n"
         f"{breakdown}"
     )
 def format_case_prompt(item: dict, specialty_label_text: str, difficulty: str) -> str:
