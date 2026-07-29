@@ -1,25 +1,31 @@
-# CharaNas Medicine Bot
+# CharaNas Bots
 
-Telegram study bot for the **Undergraduate Medicine** department.
+Telegram study bots for CharaNas undergraduate departments.
 
-## Flow
+| Bot | Folder | Run |
+|---|---|---|
+| **Medicine** | repo root (`main.py`) | `python3 main.py` |
+| **Dentistry** | `dentistry/` | `cd dentistry && python3 main.py` |
 
-1. `/start` → choose a **specialty**
-2. Choose a feature:
-   - **Short MCQ** → then **Easy / Medium / Hard / Extreme**
-   - **Case-based Question** → then **Easy / Medium / Hard / Extreme**
-   - **PDF files** — multi-page specialty study pack with schematic figures
-   - **Book source** — specialty textbooks
-3. **Back to features** or **Change specialty** anytime
+Each bot needs its **own** BotFather token (do not run two bots with the same token).
 
-Higher difficulties use longer, trickier stems. Questions/cases do not repeat within a specialty+difficulty pool until the set is exhausted.
+## Medicine bot
 
-## Setup
+See root files: specialties → Short MCQ / Case / PDF / Books → Easy–Extreme.
 
 ```bash
-cp .env.example .env
-# set BOT_TOKEN=...
-
+cp .env.example .env   # BOT_TOKEN=...
 pip install -r requirements.txt
 python3 main.py
 ```
+
+## Dentistry bot
+
+```bash
+cd dentistry
+cp .env.example .env   # DENTISTRY_BOT_TOKEN=...
+pip install -r ../requirements.txt
+python3 main.py
+```
+
+Details: [dentistry/README.md](dentistry/README.md)

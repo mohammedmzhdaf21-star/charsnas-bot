@@ -1,7 +1,10 @@
 .env
+dentistry/.env
 __pycache__/
+**/__pycache__/
 *.pyc
 .venv/
 venv/
 *.egg-info/
 bot.log
+dentistry/bot.log
