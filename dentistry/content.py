@@ -22,7 +22,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                       'C) Lateral incisor',
                                                       'D) First premolar'],
                                           'answer': 'B) Mandibular third molar',
-                                          'explanation': 'Wisdom teeth are most often impacted.'},
+                                          'explanation': 'Mandibular third molars are the teeth most frequently impacted because they erupt last and often lack adequate space in the dental arch. Impaction occurs when eruption is blocked by bone, soft tissue, or an adjacent tooth. Maxillary canines are the next most commonly impacted teeth, but far less often than lower wisdom teeth.'},
                                          {'question': 'Local anesthetic for inferior alveolar '
                                                       'nerve typically targets?',
                                           'options': ['A) Mental foramen only',
@@ -30,7 +30,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                       'C) Infraorbital foramen only',
                                                       'D) Greater palatine only'],
                                           'answer': 'B) Mandibular foramen region',
-                                          'explanation': 'IANB near mandibular foramen.'},
+                                          'explanation': 'The inferior alveolar nerve enters the mandible at the mandibular foramen on the medial ramus. An inferior alveolar nerve block deposits anesthetic near this foramen so the solution bathes the nerve before it enters the mandibular canal. Successful anesthesia therefore depends on accurate needle placement relative to the lingula and mandibular foramen.'},
                                          {'question': 'Dry socket usually occurs after?',
                                           'options': ['A) Difficult extraction, especially lower '
                                                       'molars',
@@ -39,7 +39,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                       'D) Orthodontic bonding'],
                                           'answer': 'A) Difficult extraction, especially lower '
                                                     'molars',
-                                          'explanation': 'Alveolar osteitis after clot loss.'}],
+                                          'explanation': 'Alveolar osteitis (dry socket) follows premature loss or lysis of the blood clot that normally protects the extraction socket. Exposed bone and inflammatory mediators produce severe pain, typically beginning two to four days after a difficult mandibular molar extraction. Risk rises with traumatic extraction, smoking, and poor clot stability.'}],
                                 'medium': [{'question': 'Ludwig angina is infection of?',
                                             'options': ['A) Bilateral '
                                                         'submandibular/sublingual/submental spaces',
@@ -48,8 +48,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'D) Only TMJ capsule'],
                                             'answer': 'A) Bilateral '
                                                       'submandibular/sublingual/submental spaces',
-                                            'explanation': 'Airway-threatening floor-of-mouth '
-                                                           'infection.'},
+                                            'explanation': 'Ludwig angina is a rapidly spreading bilateral cellulitis of the submandibular, sublingual, and submental spaces, usually from an odontogenic source. Edema elevates the floor of the mouth and tongue, threatening the airway. Management prioritizes airway security, surgical drainage, and systemic antibiotics.'},
                                            {'question': 'INR is most relevant before surgery in '
                                                         'patients on?',
                                             'options': ['A) Warfarin',
@@ -57,8 +56,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'C) Paracetamol only',
                                                         'D) Chlorhexidine only'],
                                             'answer': 'A) Warfarin',
-                                            'explanation': 'Check coagulation risk with '
-                                                           'anticoagulant therapy.'},
+                                            'explanation': 'Warfarin inhibits vitamin K–dependent clotting factors and is monitored with the international normalized ratio (INR). Before invasive oral surgery, the INR helps estimate bleeding risk so hemostasis can be planned safely. Antiplatelet and direct oral anticoagulant regimens require different assessment approaches than INR.'},
                                            {'question': 'Oroantral communication risk is highest '
                                                         'extracting?',
                                             'options': ['A) Maxillary molars',
@@ -66,7 +64,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'C) Mandibular canines',
                                                         'D) Lower premolars always'],
                                             'answer': 'A) Maxillary molars',
-                                            'explanation': 'Close relation to maxillary sinus.'}],
+                                            'explanation': 'Maxillary molar roots often lie close to, or project into, the maxillary sinus floor. Extraction can tear the thin antral bone or sinus membrane and create an oroantral communication. Mandibular teeth do not border the maxillary sinus, so this complication is characteristic of upper posterior extractions.'}],
                                 'hard': [{'question': 'A junior colleague asks for the single best '
                                                       'answer. Which nerve injury risk is notable '
                                                       'in third molar surgery near the canal? '
@@ -76,7 +74,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                       'C) Phrenic nerve',
                                                       'D) Recurrent laryngeal only'],
                                           'answer': 'A) Inferior alveolar nerve',
-                                          'explanation': 'CBCT/risk assessment when indicated.'},
+                                          'explanation': 'The inferior alveolar nerve runs in the mandibular canal and may lie immediately adjacent to mandibular third molar roots. Surgical elevation or sectioning of the tooth can stretch, crush, or transect the nerve, causing lip and chin paresthesia or anesthesia. Preoperative imaging assesses canal proximity to guide risk discussion and technique.'},
                                          {'question': 'A junior colleague asks for the single best '
                                                       'answer. Bisphosphonate-related '
                                                       'osteonecrosis risk rises with? Beware of '
@@ -88,7 +86,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                       'D) Orthodontic retainers only'],
                                           'answer': 'A) Invasive dental surgery in at-risk '
                                                     'patients',
-                                          'explanation': 'MRONJ risk counseling.'},
+                                          'explanation': 'Medication-related osteonecrosis of the jaw (MRONJ) is exposed necrotic bone associated with antiresorptive or antiangiogenic drugs. Invasive procedures such as extractions disrupt oral mucosa and bone in a hypovascular, remodeling-impaired jaw, increasing MRONJ risk. Noninvasive care and careful surgical planning reduce that risk in susceptible patients.'},
                                          {'question': 'A junior colleague asks for the single best '
                                                       'answer. Displaced root into sinus needs? '
                                                       'Beware of near-miss distractors.',
@@ -99,7 +97,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                       'D) Immediate RCT of adjacent tooth only'],
                                           'answer': 'A) Retrieval strategy ± sinus '
                                                     'precautions/referral',
-                                          'explanation': 'Prevent sinusitis/oroantral fistula.'}],
+                                          'explanation': 'A root tip displaced into the maxillary sinus can act as a foreign body, promoting sinusitis or sustaining an oroantral fistula. Management requires retrieval when indicated, closure of any communication, and sinus precautions or specialist referral. Leaving the fragment indefinitely risks chronic antral infection.'}],
                                 'extreme': [{'question': 'In a high-stakes clinic scenario with '
                                                          'incomplete data, which statement is MOST '
                                                          'correct? A anticoagulated patient needs '
@@ -118,7 +116,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                              'answer': 'A) Coordinate physician guidance; local '
                                                        'hemostasis measures; do not stop '
                                                        'anticoagulants blindly',
-                                             'explanation': 'Balance thrombosis vs bleeding.'},
+                                             'explanation': 'Therapeutic anticoagulation reduces thromboembolic risk; abrupt cessation can precipitate stroke or venous thrombosis. For most dental extractions, continuing anticoagulation with meticulous local hemostasis (pressure, packing, sutures, tranexamic acid) is safer than unsupervised drug interruption. Physician coordination is used when bleeding risk is unusually high or INR is outside the therapeutic range.'},
                                             {'question': 'In a high-stakes clinic scenario with '
                                                          'incomplete data, which statement is MOST '
                                                          'correct? Post-op expanding neck hematoma '
@@ -131,7 +129,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                          'D) Only ice and observe without '
                                                          'assessment'],
                                              'answer': 'A) Airway emergency first',
-                                             'explanation': 'Return to theater/emergency pathway.'},
+                                             'explanation': 'An expanding neck hematoma after surgery can compress the airway, producing stridor, dyspnea, and rapid desaturation. Airway establishment takes absolute priority over investigating the bleeding source in the chair. Once the airway is secure, urgent surgical exploration and hemostasis follow.'},
                                             {'question': 'In a high-stakes clinic scenario with '
                                                          'incomplete data, which statement is MOST '
                                                          'correct? Osteoradionecrosis risk is '
@@ -145,8 +143,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                          'D) Only whitening trays'],
                                              'answer': 'A) Extractions in previously irradiated '
                                                        'jaws',
-                                             'explanation': 'Specialist pathways / HBO discussions '
-                                                            'vary by protocol.'}]},
+                                             'explanation': 'High-dose radiotherapy damages bone vasculature and cellularity in the jaws, impairing healing after trauma. Extractions in irradiated bone therefore carry a recognized risk of osteoradionecrosis. Prevention emphasizes atraumatic technique, optimal oral health before radiotherapy, and specialist pathways when extractions become necessary afterward.'}]},
                   'cases': {'easy': [{'title': 'Pain Day 3 After Extraction',
                                       'stem': 'A 24-year-old has severe pain 3 days after lower '
                                               'wisdom tooth removal. Socket looks empty; no pus or '
@@ -210,15 +207,14 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                       'C) Only open bite',
                                                       'D) Only crossbite'],
                                           'answer': 'A) Lower molar distal to normal vs upper',
-                                          'explanation': 'Class II: mesiobuccal cusp of upper 6 '
-                                                         'ahead relative to lower groove.'},
+                                          'explanation': 'In Angle’s classification, Class II molar occlusion means the mandibular first molar is positioned distal to its normal relation with the maxillary first molar. Clinically, the mesiobuccal cusp of the upper first molar occludes mesial to the buccal groove of the lower first molar. This describes a sagittal discrepancy of the buccal segment.'},
                                          {'question': 'Overjet describes?',
                                           'options': ['A) Horizontal overlap of incisors',
                                                       'B) Vertical overlap only',
                                                       'C) Only molar torque',
                                                       'D) Only arch length'],
                                           'answer': 'A) Horizontal overlap of incisors',
-                                          'explanation': 'Overbite is vertical.'},
+                                          'explanation': 'Overjet is the horizontal distance between the labial surface of the mandibular incisors and the incisal edges of the maxillary incisors. Overbite, by contrast, measures vertical overlap of the incisors. Distinguishing the two is fundamental to describing malocclusion in the anteroposterior and vertical planes.'},
                                          {'question': 'Space maintainer is used when?',
                                           'options': ['A) Premature loss of primary teeth risks '
                                                       'space loss',
@@ -227,7 +223,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                       'D) Only pulp capping'],
                                           'answer': 'A) Premature loss of primary teeth risks '
                                                     'space loss',
-                                          'explanation': 'Preserve arch length.'}],
+                                          'explanation': 'Early loss of a primary tooth allows adjacent teeth to drift into the edentulous space, shortening arch length and risking impaction or crowding of the successor. A space maintainer holds the mesiodistal dimension until the permanent tooth erupts. Preserving arch perimeter avoids more complex interceptive or comprehensive orthodontics later.'}],
                                 'medium': [{'question': 'Crossbite with functional shift suggests?',
                                             'options': ['A) Possible premature contact / occlusal '
                                                         'interference',
@@ -236,22 +232,21 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'D) Only fluorosis'],
                                             'answer': 'A) Possible premature contact / occlusal '
                                                       'interference',
-                                            'explanation': 'Eliminate interference early when '
-                                                           'indicated.'},
+                                            'explanation': 'A unilateral posterior crossbite with a mandibular functional shift often results from a premature occlusal contact that deflects the mandible on closure. The shift can produce asymmetric growth and muscle activity if left untreated. Early removal of the interfering contact or expansion to eliminate the shift is therefore indicated when a functional component is present.'},
                                            {'question': 'Anchorage in ortho means?',
                                             'options': ['A) Resistance to unwanted tooth movement',
                                                         'B) Only wire size',
                                                         'C) Only bracket color',
                                                         'D) Only elastic flavor'],
                                             'answer': 'A) Resistance to unwanted tooth movement',
-                                            'explanation': 'Critical for controlled mechanics.'},
+                                            'explanation': 'Anchorage is the resistance to unwanted reciprocal tooth movement that Newton’s third law would otherwise produce during orthodontic force application. Without adequate anchorage, active teeth move as planned while reactive units tip or drift undesirably. Anchorage may be dental, muscular, extraoral, or skeletal (for example, TADs).'},
                                            {'question': 'Thumb sucking prolonged may cause?',
                                             'options': ['A) Open bite / proclined upper incisors',
                                                         'B) Only dens invaginatus',
                                                         'C) Only enamel pearl',
                                                         'D) Only tori'],
                                             'answer': 'A) Open bite / proclined upper incisors',
-                                            'explanation': 'Habit counseling timing matters.'}],
+                                            'explanation': 'Prolonged non-nutritive sucking generates forward and intrusive forces on the maxillary incisors and impedes normal eruption of the anteriors. The resulting dentoalveolar changes commonly include anterior open bite and proclined upper incisors, sometimes with a narrow upper arch. Habit cessation before skeletal and dental patterns become entrenched improves spontaneous improvement potential.'}],
                                 'hard': [{'question': 'A junior colleague asks for the single best '
                                                       'answer. Root resorption risk in ortho '
                                                       'increases with? Beware of near-miss '
@@ -263,7 +258,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                       'D) Only mouthwash'],
                                           'answer': 'A) Heavy prolonged forces / certain tooth '
                                                     'vulnerabilities',
-                                          'explanation': 'Monitor radiographically as indicated.'},
+                                          'explanation': 'Orthodontic tooth movement depends on controlled periodontal ligament stress; heavy or prolonged forces can trigger sterile inflammation and clastic activity on the root surface. External apical root resorption is therefore more likely with excessive force magnitude or duration and in teeth with morphological vulnerability. Periodic radiographs help detect progressive resorption during treatment.'},
                                          {'question': 'A junior colleague asks for the single best '
                                                       'answer. Serial extraction concept is? '
                                                       'Beware of near-miss distractors.',
@@ -274,7 +269,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                       'D) Only scaling sessions'],
                                           'answer': 'A) Guided extraction sequence in severe '
                                                     'crowding mixed dentition',
-                                          'explanation': 'Specialist decision.'},
+                                          'explanation': 'Serial extraction is a planned sequence of primary and then selected permanent tooth removals in the mixed dentition when severe crowding is inevitable. The goal is to guide eruption into a more favorable alignment and reduce later complex mechanics. It is not indiscriminate extraction; case selection and timing require orthodontic diagnosis of space deficiency and growth.'},
                                          {'question': 'A junior colleague asks for the single best '
                                                       'answer. TADs provide? Beware of near-miss '
                                                       'distractors.',
@@ -283,7 +278,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                       'C) Only bleaching',
                                                       'D) Only anesthesia'],
                                           'answer': 'A) Skeletal anchorage',
-                                          'explanation': 'Temporary anchorage devices.'}],
+                                          'explanation': 'Temporary anchorage devices (TADs) are mini-implants or plates fixed to bone to provide absolute or near-absolute anchorage. Because they do not rely on reciprocal tooth support, they allow force systems that would otherwise move anchor teeth. They are removed after the needed tooth movements are completed.'}],
                                 'extreme': [{'question': 'In a high-stakes clinic scenario with '
                                                          'incomplete data, which statement is MOST '
                                                          'correct? Ortho in severe periodontitis '
@@ -297,8 +292,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                          'D) Only extract all teeth first always'],
                                              'answer': 'A) Disease control first; light forces; '
                                                        'perio co-management',
-                                             'explanation': 'Moving teeth in uncontrolled perio '
-                                                            'worsens attachment loss.'},
+                                             'explanation': 'Periodontitis involves plaque-driven inflammation and progressive attachment loss; orthodontic forces applied through an inflamed periodontium can accelerate destruction. Disease control (biofilm management and stable probing depths) must precede elective tooth movement. Light forces and periodontal co-management then minimize further attachment loss during alignment.'},
                                             {'question': 'In a high-stakes clinic scenario with '
                                                          'incomplete data, which statement is MOST '
                                                          'correct? Impacted canine close to roots '
@@ -310,8 +304,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                          'C) Only geographic tongue',
                                                          'D) Only hairy tongue'],
                                              'answer': 'A) Root resorption of adjacent incisors',
-                                             'explanation': 'CBCT when indicated; timely '
-                                                            'exposure/traction.'},
+                                             'explanation': 'An ectopically erupting maxillary canine can physically resorb the roots of adjacent lateral or central incisors through direct contact and pressure. The risk rises when the canine crown overlies the incisor root on imaging. Timely localization, exposure, and traction—or extraction of the deciduous canine when indicated—reduces progressive resorption.'},
                                             {'question': 'In a high-stakes clinic scenario with '
                                                          'incomplete data, which statement is MOST '
                                                          'correct? Surgical vs camouflage Class '
@@ -325,8 +318,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                          'D) Only appointment time'],
                                              'answer': 'A) Growth status, severity, profile, '
                                                        'occlusion',
-                                             'explanation': 'Orthognathic pathway when skeletal '
-                                                            'severe.'}]},
+                                             'explanation': 'Class III malocclusion may be dental, skeletal, or combined; treatment choice depends on remaining growth, skeletal severity, soft-tissue profile, and occlusal discrepancy. Mild dental Class III may be camouflaged with tooth movement, whereas significant skeletal disharmony in a nongrowing patient often requires orthognathic surgery with orthodontics. Growth modification is considered only while clinically useful growth remains.'}]},
                   'cases': {'easy': [{'title': 'Crowding in Teen',
                                       'stem': 'A 14-year-old has moderate crowding and Class I '
                                               'molars. Oral hygiene is good.',
@@ -380,7 +372,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                       'C) Only dens evaginatus',
                                                       'D) Only torus palatinus'],
                                           'answer': 'A) Dental biofilm',
-                                          'explanation': 'Remove plaque → gingivitis resolves.'},
+                                          'explanation': 'Plaque-induced gingivitis is an inflammatory response of the gingiva to accumulation of dental biofilm at the gingival margin. Microbial products trigger vascular dilation, leukocyte infiltration, and clinical erythema and bleeding. When biofilm is disrupted by effective oral hygiene, the gingiva returns to health without irreversible attachment loss.'},
                                          {'question': 'Clinical hallmark of periodontitis vs '
                                                       'gingivitis?',
                                           'options': ['A) Clinical attachment loss / bone loss',
@@ -389,21 +381,21 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                       'C) Only stain',
                                                       'D) Only calculus without inflammation ever'],
                                           'answer': 'A) Clinical attachment loss / bone loss',
-                                          'explanation': 'True periodontitis destroys attachment.'},
+                                          'explanation': 'Gingivitis is inflammation confined to the soft tissue, whereas periodontitis is defined by destruction of the periodontal ligament and alveolar bone, measured as clinical attachment loss. Pocketing alone does not confirm periodontitis without attachment or bone loss. Distinguishing the two guides prognosis and the intensity of therapy.'},
                                          {'question': 'Best daily plaque control tool foundation?',
                                           'options': ['A) Toothbrushing ± interdental cleaning',
                                                       'B) Only whitening strips',
                                                       'C) Only chewing ice',
                                                       'D) Only charcoal powder alone'],
                                           'answer': 'A) Toothbrushing ± interdental cleaning',
-                                          'explanation': 'Mechanical disruption of biofilm.'}],
+                                          'explanation': 'Dental biofilm must be disrupted mechanically because saliva and rinses alone do not remove adherent plaque from tooth surfaces. Toothbrushing cleans facial and lingual surfaces; interdental aids clean contact areas where periodontitis often begins. Consistent mechanical plaque control is therefore the foundation of periodontal health.'}],
                                 'medium': [{'question': 'Furcation involvement is assessed on?',
                                             'options': ['A) Multirooted teeth',
                                                         'B) Only incisors',
                                                         'C) Only canines',
                                                         'D) Only primary laterals'],
                                             'answer': 'A) Multirooted teeth',
-                                            'explanation': 'Nabers probe themes.'},
+                                            'explanation': 'Furcation involvement is pathologic bone loss between the roots of multirooted teeth, exposing the furcation entrance. Single-rooted teeth lack furcations, so this assessment applies to molars and some premolars. Nabers and curved probes help detect horizontal furcation invasion and grade its severity.'},
                                            {'question': 'Smoking effect on perio?',
                                             'options': ['A) Increases risk/severity; masks '
                                                         'bleeding',
@@ -411,7 +403,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'C) Only whitens naturally',
                                                         'D) No effect'],
                                             'answer': 'A) Increases risk/severity; masks bleeding',
-                                            'explanation': 'Major modifiable risk.'},
+                                            'explanation': 'Tobacco smoking impairs neutrophil function, reduces gingival blood flow, and alters cytokine responses, increasing periodontitis risk and severity. Reduced vascularity also masks gingival bleeding, so disease may appear less inflamed than it is. Smoking cessation is therefore a major modifiable factor in periodontal therapy outcomes.'},
                                            {'question': 'Aggressive/grade C young patient theme '
                                                         'includes?',
                                             'options': ['A) Rapid attachment loss often with A. '
@@ -423,7 +415,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                             'answer': 'A) Rapid attachment loss often with A. '
                                                       'actinomycetemcomitans historically '
                                                       'discussed',
-                                            'explanation': 'Early diagnosis critical.'}],
+                                            'explanation': 'Rapidly progressive periodontitis in young patients (historically localized aggressive periodontitis) features severe attachment loss out of proportion to local deposits. Aggregatibacter actinomycetemcomitans has been classically associated with the localized molar–incisor pattern. Early recognition allows intensive mechanical therapy and, when indicated, adjunctive antimicrobials.'}],
                                 'hard': [{'question': 'A junior colleague asks for the single best '
                                                       'answer. Periodontal abscess urgent care '
                                                       'includes? Beware of near-miss distractors.',
@@ -434,7 +426,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                       'D) Only nightguard forever'],
                                           'answer': 'A) Drainage + debridement + antimicrobials if '
                                                     'systemic signs',
-                                          'explanation': 'Relieve acute infection.'},
+                                          'explanation': 'A periodontal abscess is a localized purulent infection within a periodontal pocket or furcation. Drainage of pus, debridement of the pocket, and systemic antimicrobials when there are fever or spreading signs reduce bacterial load and pressure. Addressing the underlying periodontitis prevents recurrence.'},
                                          {'question': 'A junior colleague asks for the single best '
                                                       'answer. Implant peri-implantitis features? '
                                                       'Beware of near-miss distractors.',
@@ -446,7 +438,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                       'D) Only shade mismatch'],
                                           'answer': 'A) Inflammation + progressive bone loss '
                                                     'around implant',
-                                          'explanation': 'Different from mucositis.'},
+                                          'explanation': 'Peri-implant mucositis is reversible soft-tissue inflammation around an implant without progressive bone loss. Peri-implantitis adds progressive crestal bone loss to inflammation and probing changes, threatening implant stability. The distinction matters because bone loss requires more intensive anti-infective and often surgical management.'},
                                          {'question': 'A junior colleague asks for the single best '
                                                       'answer. Occlusal trauma alone without '
                                                       'inflammation? Beware of near-miss '
@@ -459,8 +451,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                       'D) Replaces brushing'],
                                           'answer': 'A) Does not initiate periodontitis plaque '
                                                     'pathway',
-                                          'explanation': 'Co-destructive when inflammation '
-                                                         'present.'}],
+                                          'explanation': 'Occlusal trauma produces adaptive or pathologic changes in the periodontium from excessive occlusal load, but it does not initiate the plaque-induced inflammatory pathway of periodontitis. When inflammation is already present, trauma can act as a co-destructive factor accelerating attachment loss. Controlling biofilm remains essential; occlusal adjustment alone does not cure periodontitis.'}],
                                 'extreme': [{'question': 'In a high-stakes clinic scenario with '
                                                          'incomplete data, which statement is MOST '
                                                          'correct? Necrotizing ulcerative '
@@ -474,8 +465,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                          'D) Only peg laterals'],
                                              'answer': 'A) Pain, bleeding, interdental necrosis ± '
                                                        'fetor',
-                                             'explanation': 'Stress/smoking/immunodeficiency '
-                                                            'associations.'},
+                                             'explanation': 'Necrotizing ulcerative gingivitis presents with painful punched-out interdental papillae, spontaneous bleeding, and often fetor oris. Fusospirochetal overgrowth in a host compromised by stress, smoking, or immunodeficiency drives superficial necrosis. Debridement, oral hygiene, and management of predisposing factors reverse the acute process.'},
                                             {'question': 'In a high-stakes clinic scenario with '
                                                          'incomplete data, which statement is MOST '
                                                          'correct? Pregnancy epulis is? Avoid '
@@ -488,7 +478,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                          'D) Always caries'],
                                              'answer': 'A) Pyogenic granuloma variant; often '
                                                        'regresses postpartum',
-                                             'explanation': 'Manage gently; definitive if needed.'},
+                                             'explanation': 'A pregnancy epulis is a pyogenic granuloma arising from gingiva under the influence of elevated pregnancy hormones and local irritants. It is a reactive vascular lesion, not a true neoplasm, and frequently regresses after parturition. Persistent lesions may be excised if they interfere with function or hygiene.'},
                                             {'question': 'In a high-stakes clinic scenario with '
                                                          'incomplete data, which statement is MOST '
                                                          'correct? Guided tissue regeneration aims '
@@ -499,7 +489,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                          'C) Only enamel microabrasion',
                                                          'D) Only bleaching'],
                                              'answer': 'A) New attachment apparatus regeneration',
-                                             'explanation': 'Membrane/barrier concepts.'}]},
+                                             'explanation': 'Guided tissue regeneration uses a barrier membrane to exclude gingival epithelium and connective tissue from the periodontal defect, allowing periodontal ligament and bone cells to repopulate the root surface. The intended outcome is regeneration of cementum, periodontal ligament, and alveolar bone rather than repair by long junctional epithelium alone. Case selection favors contained infrabony defects.'}]},
                   'cases': {'easy': [{'title': 'Bleeding Gums',
                                       'stem': 'A student has bleeding on brushing, soft swollen '
                                               'gingiva, no radiographic bone loss.',
@@ -551,15 +541,14 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                      'C) Only itching',
                                                      'D) Only TMJ click'],
                                          'answer': 'A) Spontaneous / lingering to cold',
-                                         'explanation': 'Classic symptomatic irreversible '
-                                                        'pulpitis.'},
+                                         'explanation': 'Symptomatic irreversible pulpitis reflects vital pulp tissue with inflammation severe enough that it cannot resolve even after removal of the irritant. C-fiber–mediated pain is often spontaneous and lingers after thermal stimulation, especially cold. Root canal treatment or extraction is required because the pulp will not heal.'},
                                         {'question': 'Best isolation for RCT?',
                                          'options': ['A) Rubber dam',
                                                      'B) Cotton only forever',
                                                      'C) No isolation',
                                                      'D) Only cheek retractor'],
                                          'answer': 'A) Rubber dam',
-                                         'explanation': 'Standard of care.'},
+                                         'explanation': 'A rubber dam isolates the tooth from saliva and oral microbes, preventing contamination of the root canal system during instrumentation and obturation. It also protects the airway from instruments and irrigants. Isolation is therefore a standard infection-control and safety requirement for nonsurgical endodontics.'},
                                         {'question': 'Working length aims to prepare to?',
                                          'options': ['A) Near apical constriction / radiographic '
                                                      'apex protocols',
@@ -568,7 +557,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                      'D) Only CEJ'],
                                          'answer': 'A) Near apical constriction / radiographic '
                                                    'apex protocols',
-                                         'explanation': 'Avoid overinstrumentation.'}],
+                                         'explanation': 'The apical constriction is the narrowest point of the canal near the cementoenamel or cementodentinal junction and is the usual physiologic terminus for canal preparation. Working length is set to this region (or per radiographic/electronic apex protocols) to clean the canal while limiting extrusion of debris and irrigant into periapical tissues. Overinstrumentation beyond the apex traumatizes the periodontium.'}],
                                'medium': [{'question': 'Necrotic pulp with apical radiolucency '
                                                        'suggests?',
                                            'options': ['A) Apical periodontitis',
@@ -576,7 +565,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                        'C) Only enamel hypoplasia',
                                                        'D) Only fluorosis'],
                                            'answer': 'A) Apical periodontitis',
-                                           'explanation': 'Endodontic infection pathway.'},
+                                           'explanation': 'Pulp necrosis allows bacteria and their toxins to exit through apical foramina into the periodontal ligament and bone. The resulting inflammatory bone resorption appears as a periapical radiolucency and is diagnosed as apical periodontitis. Vitality testing correlates the radiographic finding with a nonvital pulp.'},
                                           {'question': 'NaOCl is used as?',
                                            'options': ['A) Irrigant with '
                                                        'tissue-dissolving/antimicrobial action',
@@ -585,7 +574,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                        'D) Local anesthetic'],
                                            'answer': 'A) Irrigant with '
                                                      'tissue-dissolving/antimicrobial action',
-                                           'explanation': 'Careful to avoid extrusion.'},
+                                           'explanation': 'Sodium hypochlorite dissolves necrotic pulp tissue and has broad antimicrobial activity against canal flora, making it the primary endodontic irrigant. Its cytotoxicity means extrusion beyond the apex can damage soft tissue. Careful irrigation technique and appropriate concentration reduce that risk while maintaining cleaning efficacy.'},
                                           {'question': 'Cracked tooth pain often on?',
                                            'options': ['A) Release of biting pressure',
                                                        'B) Only hot coffee forever without bite',
@@ -593,7 +582,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                        'D) Only to percussion of adjacent tooth '
                                                        'always'],
                                            'answer': 'A) Release of biting pressure',
-                                           'explanation': 'Bite test helpful.'}],
+                                           'explanation': 'In a cracked tooth, occlusal load briefly separates the crack walls and stimulates the pulp or periodontal ligament; pain is characteristically sharp on release of biting pressure as the segments snap back. A bite test on individual cusps helps localize the crack. Early diagnosis guides cuspal coverage or endodontic therapy before the crack propagates.'}],
                                'hard': [{'question': 'A junior colleague asks for the single best '
                                                      'answer. NaOCl accident presents with? Beware '
                                                      'of near-miss distractors.',
@@ -605,8 +594,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                      'D) Only taste change'],
                                          'answer': 'A) Sudden pain, swelling, ecchymosis after '
                                                    'irrigation',
-                                         'explanation': 'Stop, cold packs, steroids/analgesia '
-                                                        'pathways, follow closely.'},
+                                         'explanation': 'Forceful extrusion of sodium hypochlorite into periapical tissues causes immediate chemical burns of soft tissue and vessels. Patients experience sudden severe pain, rapid swelling, and often ecchymosis or hemorrhage along fascial planes. Irrigation is stopped, supportive care is given, and the patient is monitored for airway and tissue sequelae.'},
                                         {'question': 'A junior colleague asks for the single best '
                                                      'answer. Missed second mesiobuccal canal '
                                                      '(MB2) in upper molars causes? Beware of '
@@ -616,7 +604,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                      'C) Only color change of face',
                                                      'D) Only gingival hyperplasia'],
                                          'answer': 'A) Persistent infection/failure risk',
-                                         'explanation': 'Know MB2 prevalence.'},
+                                         'explanation': 'Maxillary molars frequently have a second mesiobuccal canal (MB2) that branches within the mesiobuccal root. If untreated, residual bacteria in MB2 sustain periapical inflammation and cause post-treatment disease. Magnification and careful troughing of the mesiobuccal groove improve MB2 detection.'},
                                         {'question': 'A junior colleague asks for the single best '
                                                      'answer. Vertical root fracture prognosis is '
                                                      'often? Beware of near-miss distractors.',
@@ -625,7 +613,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                      'C) Always ignore',
                                                      'D) Always bleach'],
                                          'answer': 'A) Poor; extraction commonly',
-                                         'explanation': 'Especially if complete VRF.'}],
+                                         'explanation': 'A complete vertical root fracture separates the root along its long axis, creating a pathway for bacteria from the oral cavity into the periodontium. The resulting localized deep pocket and bone loss rarely heal with root canal therapy alone. Extraction (or root resection in selected multi-rooted teeth) is therefore commonly required.'}],
                                'extreme': [{'question': 'In a high-stakes clinic scenario with '
                                                         'incomplete data, which statement is MOST '
                                                         'correct? Avulsed permanent tooth '
@@ -640,7 +628,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'always'],
                                             'answer': 'A) Poor PDL viability; prognosis worsened; '
                                                       'manage per guidelines',
-                                            'explanation': 'Follow IADT guidelines.'},
+                                            'explanation': 'Periodontal ligament cells on an avulsed tooth die progressively with extraoral dry time; beyond about 60 minutes of dry storage, PDL viability is severely compromised. Replantation may still be attempted per IADT guidelines, but ankylosis and replacement resorption become likely. Immediate storage in appropriate media before arrival improves prognosis when dry time is shorter.'},
                                            {'question': 'In a high-stakes clinic scenario with '
                                                         'incomplete data, which statement is MOST '
                                                         'correct? Combined perio-endo lesion '
@@ -653,8 +641,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'D) Only whitening'],
                                             'answer': 'A) Address both endodontic and periodontal '
                                                       'components',
-                                            'explanation': 'Sequence often endo first if primary '
-                                                           'endo.'},
+                                            'explanation': 'Combined perio-endo lesions involve communication between pulpal and periodontal infection pathways, so both niches must be disinfected for healing. When the primary source is endodontic, root canal treatment is usually completed first because it can resolve the periodontal component of a true combined lesion. Persistent periodontal pockets then receive definitive periodontal therapy.'},
                                            {'question': 'In a high-stakes clinic scenario with '
                                                         'incomplete data, which statement is MOST '
                                                         'correct? Internal resorption vs external? '
@@ -667,7 +654,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'D) Always extract without diagnosis'],
                                             'answer': 'A) Different radiographic/clinical '
                                                       'patterns; treatment differs',
-                                            'explanation': 'CBCT useful.'}]},
+                                            'explanation': 'Internal resorption begins within the pulp chamber or canal from inflamed pulp tissue and appears as a ballooned canal outline that moves with tube shift less than external defects. External cervical or apical resorption originates on the root surface and has different radiographic borders and treatment needs. Distinguishing them—often aided by CBCT—determines whether pulp therapy, root surface management, or extraction is appropriate.'}]},
                  'cases': {'easy': [{'title': 'Night Pain Lower Molar',
                                      'stem': 'Spontaneous night pain, lingering cold response, no '
                                              'periapical radiolucency yet.',
@@ -723,14 +710,14 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'D) Only tray adhesive'],
                                             'answer': 'A) Fracture resistance of crowned '
                                                       'endodontically treated teeth',
-                                            'explanation': '2 mm ferrule ideal theme.'},
+                                            'explanation': 'A ferrule is a band of sound axial tooth structure of adequate height and thickness encircled by the crown margin. It braces the tooth against functional lever forces, reducing the risk of root fracture in endodontically treated, crowned teeth. Approximately 2 mm of circumferential ferrule is the classic biomechanical target when tooth structure allows.'},
                                            {'question': 'Kennedy Class I RPD is?',
                                             'options': ['A) Bilateral distal extension',
                                                         'B) Single tooth gap only',
                                                         'C) Only anterior bounded',
                                                         'D) Only full denture'],
                                             'answer': 'A) Bilateral distal extension',
-                                            'explanation': 'Support differs from tooth-borne.'},
+                                            'explanation': 'Kennedy Class I describes a bilateral edentulous area posterior to the remaining natural teeth (bilateral distal extension). Because terminal abutments are absent, the denture base is supported largely by residual ridge mucosa under load. This support pattern differs from tooth-borne Kennedy Class III frameworks.'},
                                            {'question': 'Impression for crowns needs?',
                                             'options': ['A) Accurate margins and soft tissue '
                                                         'management',
@@ -739,14 +726,14 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'D) Only shade tab photo'],
                                             'answer': 'A) Accurate margins and soft tissue '
                                                       'management',
-                                            'explanation': 'Quality impression = quality crown.'}],
+                                            'explanation': 'Cast restorations depend on an impression that records the finish line in undistorted detail and relates soft tissues without tears or voids. Hemostasis, cord or paste retraction, and moisture control expose the margin so die accuracy is possible. An inaccurate margin recording produces open margins, overhangs, or ill-fitting crowns.'}],
                                   'medium': [{'question': 'Biological width violation may cause?',
                                               'options': ['A) Chronic inflammation / bone loss',
                                                           'B) Only better papilla',
                                                           'C) Only faster ortho',
                                                           'D) Only whitening'],
                                               'answer': 'A) Chronic inflammation / bone loss',
-                                              'explanation': 'Respect supracrestal tissues.'},
+                                              'explanation': 'Supracrestal tissue attachment (biological width) is the combined junctional epithelium and connective tissue attachment coronal to alveolar crest. Placing a restoration margin that invades this zone chronically inflames the periodontium. The host response may produce persistent gingivitis or crestal bone loss until space for the attachment is reestablished.'},
                                              {'question': 'Implant vs tooth abutment key '
                                                           'difference?',
                                               'options': ['A) No PDL proprioception/same mobility '
@@ -756,14 +743,14 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                           'D) Teeth never fail'],
                                               'answer': 'A) No PDL proprioception/same mobility '
                                                         'profile',
-                                              'explanation': 'Occlusion planning differs.'},
+                                              'explanation': 'Natural teeth are suspended by a periodontal ligament that provides proprioception and physiologic mobility; osseointegrated implants are ankylosed to bone without a PDL. Occlusal forces are therefore transmitted more rigidly to implant bone, and tactile feedback differs. Prosthetic occlusion is planned to respect these biomechanical differences and avoid overload.'},
                                              {'question': 'Immediate denture is delivered?',
                                               'options': ['A) At extraction appointment',
                                                           'B) Only after 2 years always',
                                                           'C) Only before any exam',
                                                           'D) Only for orthodontics'],
                                               'answer': 'A) At extraction appointment',
-                                              'explanation': 'Interim esthetics/function.'}],
+                                              'explanation': 'An immediate denture is fabricated before extractions and inserted at the same appointment the teeth are removed. It maintains appearance and limited function during healing while acting as a protective surgical dressing. Soft-tissue and ridge remodeling later necessitate relines or a definitive prosthesis.'}],
                                   'hard': [{'question': 'A junior colleague asks for the single '
                                                         'best answer. Cantilever bridge risks? '
                                                         'Beware of near-miss distractors.',
@@ -772,7 +759,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'C) Never fails',
                                                         'D) Only better than implants always'],
                                             'answer': 'A) Leverage overload of abutments',
-                                            'explanation': 'Use cautiously.'},
+                                            'explanation': 'A cantilever fixed dental prosthesis has an abutment at only one end of the pontic, creating a class I lever under occlusal load. Moments concentrate stress in the abutment tooth, cement lute, and periodontal support, raising risks of decementation, fracture, or periodontal injury. Indication is therefore limited and biomechanically cautious.'},
                                            {'question': 'A junior colleague asks for the single '
                                                         'best answer. Retrievable cement-retained '
                                                         'implant crown advantage? Beware of '
@@ -784,8 +771,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'D) Screw retained never loosens'],
                                             'answer': 'A) Cement margin control issues vs screw '
                                                       'access esthetics tradeoffs',
-                                            'explanation': 'Excess cement → peri-implantitis '
-                                                           'risk.'},
+                                            'explanation': 'Cement-retained implant crowns can offer esthetic continuity without an occlusal screw access hole, but excess subgingival cement is difficult to remove and is strongly linked to peri-implant inflammation. Screw-retained designs trade that cement risk for a visible or restored access channel and easier retrievability. Choice balances retrievability, esthetics, and cement control.'},
                                            {'question': 'A junior colleague asks for the single '
                                                         'best answer. Surveying an RPD cast '
                                                         'determines? Beware of near-miss '
@@ -795,7 +781,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'C) Only patient age',
                                                         'D) Only bite force'],
                                             'answer': 'A) Path of insertion and undercuts',
-                                            'explanation': 'Design clasps accordingly.'}],
+                                            'explanation': 'Surveying orients a diagnostic cast to a chosen path of insertion and identifies soft- and hard-tissue undercuts relative to that path. Clasp tips are then placed in measured undercut, guiding planes are planned, and interferences to insertion are eliminated. Without surveying, clasp retention and framework seating become unpredictable.'}],
                                   'extreme': [{'question': 'In a high-stakes clinic scenario with '
                                                            'incomplete data, which statement is '
                                                            'MOST correct? Full-mouth rehab '
@@ -809,7 +795,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                            'D) Extract all without consent'],
                                                'answer': 'A) Disease control, VDO/occlusion plan, '
                                                          'provisionalization, finals',
-                                               'explanation': 'Provisional trial is critical.'},
+                                               'explanation': 'Full-mouth rehabilitation fails if active caries or periodontitis undermines new restorations, so disease control comes first. Vertical dimension, occlusal scheme, and esthetics are then tested in provisionals that allow neuromuscular and phonetic evaluation. Only after stability in provisionals are definitive restorations fabricated.'},
                                               {'question': 'In a high-stakes clinic scenario with '
                                                            'incomplete data, which statement is '
                                                            'MOST correct? Combination syndrome '
@@ -823,7 +809,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                            'D) Only mesiodens'],
                                                'answer': 'A) Edentulous maxilla opposing anterior '
                                                          'mandibular teeth',
-                                               'explanation': 'Bone resorption patterns.'},
+                                               'explanation': 'Combination syndrome classically occurs with a complete maxillary denture opposing mandibular anterior natural teeth (often with missing posterior support). Heavy anterior occlusal forces drive flabby anterior maxillary ridge resorption, papillary hyperplasia, and overeruption of mandibular anteriors with distal mandibular bone loss. Restoring posterior support and balancing occlusion mitigate the destructive pattern.'},
                                               {'question': 'In a high-stakes clinic scenario with '
                                                            'incomplete data, which statement is '
                                                            'MOST correct? Passive fit of implant '
@@ -836,7 +822,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                            'safely',
                                                            'D) Only shade matters'],
                                                'answer': 'A) Seats without strain on implants',
-                                               'explanation': 'Misfit → screw/bone problems.'}]},
+                                               'explanation': 'Passive fit means an implant framework seats on abutments without inducing tensile or compressive strain in the screws or peri-implant bone. Casting or scanning distortion that leaves a misfit creates constant preload stress, promoting screw loosening, component fracture, and bone microdamage. Verification of fit before final torque is therefore essential.'}]},
                     'cases': {'easy': [{'title': 'Broken Molar Crown',
                                         'stem': 'A patient wants a crown on a root-filled molar '
                                                 'with adequate ferrule.',
@@ -896,14 +882,14 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                              'always',
                                                              'D) Canine at 4 months'],
                                                  'answer': 'A) Mandibular first molar ~6 years',
-                                                 'explanation': 'Six-year molar.'},
+                                                 'explanation': 'The mandibular first permanent molars typically erupt around age six and are often the first permanent teeth to appear, distal to the primary second molars. They establish the foundation of the permanent occlusion. Their early eruption and deep pits make them important targets for sealants and caries prevention.'},
                                                 {'question': 'Fluoride varnish helps prevent?',
                                                  'options': ['A) Caries',
                                                              'B) Only malocclusion',
                                                              'C) Only ankylosis',
                                                              'D) Only supernumerary teeth'],
                                                  'answer': 'A) Caries',
-                                                 'explanation': 'Evidence-based prevention.'},
+                                                 'explanation': 'Fluoride varnish delivers a high fluoride concentration that promotes remineralization of enamel and forms calcium fluoride–like reservoirs on the tooth surface. Repeated professional application reduces caries incidence in children at risk. It is a topical preventive measure, not a restorative treatment for cavitated lesions.'},
                                                 {'question': 'Pulpotomy is often for?',
                                                  'options': ['A) Primary teeth with coronal '
                                                              'pulpitis and restorable tooth',
@@ -912,8 +898,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                              'D) Only bleaching'],
                                                  'answer': 'A) Primary teeth with coronal pulpitis '
                                                            'and restorable tooth',
-                                                 'explanation': 'Preserve tooth till '
-                                                                'exfoliation.'}],
+                                                 'explanation': 'Pulpotomy removes inflamed coronal pulp while preserving radicular pulp vitality in a restorable primary tooth, usually after carious or traumatic exposure with healthy root pulp. Medicaments dress the amputated pulp stumps to encourage healing or fixation. The tooth can then function until normal exfoliation if radicular pathology does not develop.'}],
                                        'medium': [{'question': 'SSC (stainless steel crown) '
                                                                'indication classic?',
                                                    'options': ['A) Multi-surface caries in primary '
@@ -923,7 +908,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                                'D) Only bleaching trays'],
                                                    'answer': 'A) Multi-surface caries in primary '
                                                              'molars',
-                                                   'explanation': 'Durable pediatric restoration.'},
+                                                   'explanation': 'Primary molars with multi-surface caries often lack sufficient tooth structure for durable intracoronal restorations and are subject to high occlusal load. Stainless steel crowns encircle and protect the remaining crown, providing full-coverage retention until exfoliation. They are the restoration of choice for extensive primary molar decay after appropriate pulp therapy when needed.'},
                                                   {'question': 'Early childhood caries pattern '
                                                                'often?',
                                                    'options': ['A) Maxillary anterior teeth',
@@ -933,7 +918,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                                'C) Only third molars',
                                                                'D) Only impacted canines'],
                                                    'answer': 'A) Maxillary anterior teeth',
-                                                   'explanation': 'Bottle/sippy habits.'},
+                                                   'explanation': 'Early childhood caries classically affects maxillary primary incisors because sweetened liquids pool around them during bottle or sippy-cup use, especially at night when salivary flow is low. Mandibular incisors are partly protected by the tongue and saliva. The pattern reflects prolonged fermentable carbohydrate exposure on susceptible enamel.'},
                                                   {'question': 'Behavior guidance basic first '
                                                                'line?',
                                                    'options': ['A) Tell-show-do / communication',
@@ -942,7 +927,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                                'themes',
                                                                'D) Ignore fear'],
                                                    'answer': 'A) Tell-show-do / communication',
-                                                   'explanation': 'Build trust.'}],
+                                                   'explanation': 'Tell-show-do introduces the child to instruments and sensations in a nonthreatening sequence, reducing fear through predictable communication. It establishes trust and cooperation before more advanced behavior guidance is considered. Basic communicative techniques are first-line for most pediatric dental visits.'}],
                                        'hard': [{'question': 'A junior colleague asks for the '
                                                              'single best answer. Intrusion of '
                                                              'primary tooth concern? Beware of '
@@ -952,7 +937,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                              'C) Only sinusitis always',
                                                              'D) Only TMJ ankylosis always'],
                                                  'answer': 'A) Damage to permanent successor',
-                                                 'explanation': 'Monitor eruption of permanent.'},
+                                                 'explanation': 'The developing permanent successor lies in close proximity to the primary tooth root; intrusive luxation can drive the primary root against the permanent tooth germ. Sequelae include enamel hypoplasia, dilaceration, or eruption disturbance of the permanent tooth. Clinical and radiographic follow-up monitors the successor’s development.'},
                                                 {'question': 'A junior colleague asks for the '
                                                              'single best answer. Space loss after '
                                                              'early primary second molar loss? '
@@ -965,7 +950,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                              'D) Only midline improves'],
                                                  'answer': 'A) Mesial drift of first permanent '
                                                            'molar',
-                                                 'explanation': 'Space maintainer consideration.'},
+                                                 'explanation': 'The primary second molar holds the leeway space and guides eruption of the first permanent molar. Early loss allows the permanent molar to drift mesially, consuming space needed for the premolars and causing crowding or impaction. A space maintainer is considered to preserve that arch length when indicated.'},
                                                 {'question': 'A junior colleague asks for the '
                                                              'single best answer. Molar-incisor '
                                                              'hypomineralization (MIH) features? '
@@ -980,7 +965,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                              'defect'],
                                                  'answer': 'A) Demarcated opacities on first '
                                                            'permanent molars/incisors',
-                                                 'explanation': 'Sensitivity and breakdown risk.'}],
+                                                 'explanation': 'Molar-incisor hypomineralization is a qualitative enamel defect producing demarcated opacities on first permanent molars and often incisors. Hypomineralized enamel is porous, sensitive, and prone to post-eruptive breakdown under mastication. Early diagnosis guides desensitizing care, sealants or restorations, and sometimes stainless steel crowns.'}],
                                        'extreme': [{'question': 'In a high-stakes clinic scenario '
                                                                 'with incomplete data, which '
                                                                 'statement is MOST correct? Child '
@@ -996,7 +981,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                                 'D) Only orthodontic crowding'],
                                                     'answer': 'A) Injuries inconsistent with '
                                                               'history/age',
-                                                    'explanation': 'Safeguarding duty.'},
+                                                    'explanation': 'Injuries that do not match the stated mechanism, developmental stage, or alleged timing raise concern for non-accidental trauma. Dentists have a professional and legal duty to recognize patterned oral injuries and escalate safeguarding. Documentation and referral protect the child when abuse or neglect is suspected.'},
                                                    {'question': 'In a high-stakes clinic scenario '
                                                                 'with incomplete data, which '
                                                                 'statement is MOST correct? GA '
@@ -1014,7 +999,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                     'answer': 'A) Extensive disease + '
                                                               'uncooperative/medical complexity '
                                                               'after alternatives considered',
-                                                    'explanation': 'Risk-benefit consent.'},
+                                                    'explanation': 'General anesthesia for dentistry is reserved when extensive treatment needs cannot be completed safely with behavioral guidance, local anesthesia, or sedation—especially with medical or developmental complexity. It allows definitive care in one controlled episode but carries systemic risk that requires informed consent. Alternatives should be considered and documented first.'},
                                                    {'question': 'In a high-stakes clinic scenario '
                                                                 'with incomplete data, which '
                                                                 'statement is MOST correct? '
@@ -1028,8 +1013,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                                 'extraoral',
                                                                 'D) Always discard without exam'],
                                                     'answer': 'A) Generally not be replanted',
-                                                    'explanation': 'IADT primary vs permanent '
-                                                                   'differ.'}]},
+                                                    'explanation': 'Replanting an avulsed primary tooth risks damage to the underlying permanent tooth germ from the primary root or from inflammatory sequelae. IADT guidelines therefore advise against replantation of primary teeth, unlike many permanent-tooth avulsion protocols. Soft-tissue management and follow-up of the successor take priority.'}]},
                          'cases': {'easy': [{'title': 'Carious Primary Molar',
                                              'stem': 'A 5-year-old has a deep cavity in a primary '
                                                      'molar, no mobility, restorable.',
@@ -1092,7 +1076,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                        'C) Only hard palate always',
                                                        'D) Only vermilion only always'],
                                            'answer': 'A) Non-keratinized mucosa',
-                                           'explanation': 'Unlike HSV often on keratinized.'},
+                                           'explanation': 'Recurrent aphthous ulcers arise on non-keratinized mucosa such as the buccal mucosa, floor of mouth, and ventral tongue, where the epithelium is thinner and more mobile. They do not typically begin on attached gingiva or hard palate, sites more characteristic of recurrent herpes labialis/intraoral HSV. The anatomic pattern helps differentiate aphthae from herpetic lesions.'},
                                           {'question': 'Leukoplakia definition theme?',
                                            'options': ['A) White patch that cannot be wiped or '
                                                        'diagnosed as another disease',
@@ -1101,14 +1085,14 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                        'D) Always normal linea alba'],
                                            'answer': 'A) White patch that cannot be wiped or '
                                                      'diagnosed as another disease',
-                                           'explanation': 'Risk of dysplasia.'},
+                                           'explanation': 'Oral leukoplakia is a clinical diagnosis of exclusion: a white plaque that cannot be wiped away and cannot be attributed to another defined disease such as candidiasis or lichen planus. A subset harbors dysplasia or carcinoma, so biopsy is required for definitive assessment. Risk correlates with tobacco use and lesion appearance.'},
                                           {'question': 'Geographic tongue is?',
                                            'options': ['A) Benign migratory glossitis',
                                                        'B) Always cancer',
                                                        'C) Always syphilis',
                                                        'D) Always trauma only'],
                                            'answer': 'A) Benign migratory glossitis',
-                                           'explanation': 'Reassure often.'}],
+                                           'explanation': 'Geographic tongue (benign migratory glossitis) shows migrating areas of filiform papilla atrophy surrounded by slightly raised white borders. It is an inflammatory but benign condition of unknown precise cause and often asymptomatic. Recognition avoids unnecessary biopsy when classic features are present and the patient can be reassured.'}],
                                  'medium': [{'question': 'Oral candidiasis risk factor?',
                                              'options': ['A) Antibiotics / steroids / dentures / '
                                                          'xerostomia / immunosuppression',
@@ -1117,21 +1101,21 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                          'D) Only sealants'],
                                              'answer': 'A) Antibiotics / steroids / dentures / '
                                                        'xerostomia / immunosuppression',
-                                             'explanation': 'Treat cause + antifungal.'},
+                                             'explanation': 'Candida albicans is an oral commensal that overgrows when local or systemic defenses fall—broad-spectrum antibiotics, corticosteroids, denture bases, xerostomia, or immunosuppression. Pseudomembranous or erythematous candidiasis results from this ecological shift. Therapy combines antifungal medication with correction of predisposing factors.'},
                                             {'question': 'Lichen planus oral classic?',
                                              'options': ['A) Reticular white striae (Wickham)',
                                                          'B) Only punched necrotic papillae of NUG',
                                                          'C) Only measles Koplik always',
                                                          'D) Only Fordyce granules'],
                                              'answer': 'A) Reticular white striae (Wickham)',
-                                             'explanation': 'Biopsy if uncertain/erosive.'},
+                                             'explanation': 'Oral lichen planus is a T-cell–mediated mucocutaneous disease; the reticular form shows lace-like white striae (Wickham striae), often bilaterally on the buccal mucosa. Erosive forms may cause pain and require distinction from other vesiculobullous diseases. Biopsy is indicated when the diagnosis is uncertain or dysplasia must be excluded.'},
                                             {'question': 'SCC risk factors include?',
                                              'options': ['A) Tobacco and alcohol',
                                                          'B) Only xylitol gum',
                                                          'C) Only electric toothbrush',
                                                          'D) Only aligners'],
                                              'answer': 'A) Tobacco and alcohol',
-                                             'explanation': 'Biopsy suspicious lesions.'}],
+                                             'explanation': 'Tobacco and alcohol are synergistic carcinogens for oral squamous cell carcinoma, causing cumulative DNA damage in keratinocytes of the oral epithelium. Chronic exposure drives dysplasia and invasive carcinoma, especially on the lateral tongue and floor of mouth. Suspicious, persistent lesions require biopsy regardless of painlessness.'}],
                                  'hard': [{'question': 'A junior colleague asks for the single '
                                                        'best answer. Pemphigus vulgaris oral clue? '
                                                        'Beware of near-miss distractors.',
@@ -1142,7 +1126,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                        'D) Only amalgam tattoo'],
                                            'answer': 'A) Flaccid bullae / positive Nikolsky / '
                                                      'desquamative gingivitis themes',
-                                           'explanation': 'Biopsy + immunofluorescence.'},
+                                           'explanation': 'Pemphigus vulgaris is an autoimmune acantholysis caused by autoantibodies against desmogleins, producing flaccid intraepithelial bullae that rupture easily (Nikolsky sign positive) and painful erosions, including desquamative gingivitis. Oral lesions often precede skin disease. Definitive diagnosis uses histopathology plus direct immunofluorescence.'},
                                           {'question': 'A junior colleague asks for the single '
                                                        'best answer. Sjögren dry mouth '
                                                        'association? Beware of near-miss '
@@ -1154,7 +1138,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                        'D) Only mesiodens'],
                                            'answer': 'A) Autoimmune exocrinopathy; caries risk '
                                                      'high',
-                                           'explanation': 'Preventive dentistry critical.'},
+                                           'explanation': 'Sjögren syndrome is an autoimmune destruction of exocrine glands that markedly reduces salivary flow. Hyposalivation impairs buffering and clearance of dietary sugars, sharply elevating caries risk and candidiasis. Intensive fluoride, dietary counseling, and saliva management are essential dental care components.'},
                                           {'question': 'A junior colleague asks for the single '
                                                        'best answer. OKC (odontogenic keratocyst) '
                                                        'behavior? Beware of near-miss distractors.',
@@ -1165,7 +1149,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                        'D) Always pulpitis'],
                                            'answer': 'A) High recurrence; careful surgical '
                                                      'management',
-                                           'explanation': 'Radiolucent jaw lesion differential.'}],
+                                           'explanation': 'The odontogenic keratocyst (keratocystic odontogenic tumor in older terminology) arises from dental lamina rests and is lined by parakeratinized stratified squamous epithelium with high proliferative activity. It tends to grow along medullary bone with relatively little cortical expansion and has a high recurrence rate after simple enucleation. Surgical planning accounts for this biological behavior.'}],
                                  'extreme': [{'question': 'In a high-stakes clinic scenario with '
                                                           'incomplete data, which statement is '
                                                           'MOST correct? Non-healing ulcer >2 '
@@ -1178,7 +1162,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                           'C) Always ignore',
                                                           'D) Always only vitamins'],
                                               'answer': 'A) Cancer until proven otherwise — biopsy',
-                                              'explanation': 'No endless observation.'},
+                                              'explanation': 'A solitary oral ulcer lasting longer than two weeks—especially in a smoker or heavy drinker—must be regarded as squamous cell carcinoma until histologically excluded. Malignant ulcers do not heal with symptomatic rinses alone. Prompt biopsy and specialist referral avoid diagnostic delay.'},
                                              {'question': 'In a high-stakes clinic scenario with '
                                                           'incomplete data, which statement is '
                                                           'MOST correct? Medication-related '
@@ -1192,7 +1176,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                           'D) Only caries'],
                                               'answer': 'A) Exposed bone in jaws with '
                                                         'antiresorptive history',
-                                              'explanation': 'MRONJ pathways.'},
+                                              'explanation': 'MRONJ presents as exposed necrotic jawbone persisting in a patient treated with antiresorptive or antiangiogenic medications, without radiotherapy to the jaws. Impaired osteoclast function and mucosal healing allow infection and necrosis after trauma or spontaneously. Stage-based care ranges from antimicrobial rinses to surgical debridement in refractory disease.'},
                                              {'question': 'In a high-stakes clinic scenario with '
                                                           'incomplete data, which statement is '
                                                           'MOST correct? HPV-related oropharyngeal '
@@ -1207,7 +1191,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                           'D) Only caries'],
                                               'answer': 'A) Increasing in younger non-smokers '
                                                         'sometimes; base of tongue/tonsillar',
-                                              'explanation': 'Referral awareness.'}]},
+                                              'explanation': 'High-risk HPV (notably HPV-16) drives a rising subset of oropharyngeal squamous carcinomas of the tonsillar crypts and base of tongue, often in patients without traditional heavy tobacco exposure. Viral oncogenes disrupt cell-cycle control in epithelia of these sites. Clinical awareness prompts appropriate referral for persistent unilateral throat or neck findings.'}]},
                    'cases': {'easy': [{'title': 'Recurrent Mouth Ulcers',
                                        'stem': 'Healthy teen gets painful ulcers on buccal mucosa '
                                                'lasting a week, then heal.',
@@ -1260,7 +1244,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                      'C) Only cervical thirds always Class V',
                                                      'D) Only cusp tip'],
                                          'answer': 'A) Proximal surfaces of posteriors',
-                                         'explanation': 'Classic classification.'},
+                                         'explanation': 'G.V. Black Class II cavities involve the proximal surfaces of posterior teeth, typically initiating just below the contact point where biofilm stagnates. The classification organizes cavity location for preparation design and matrix use. It does not by itself prescribe modern adhesive materials.'},
                                         {'question': 'Composite bonding relies on?',
                                          'options': ['A) Micromechanical adhesion after '
                                                      'etch/adhesive protocols',
@@ -1269,14 +1253,14 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                      'D) Only sutures'],
                                          'answer': 'A) Micromechanical adhesion after '
                                                    'etch/adhesive protocols',
-                                         'explanation': 'Isolation critical.'},
+                                         'explanation': 'Etching enamel (and appropriately conditioning dentin) creates microporosity that adhesive resins infiltrate to form resin tags and a hybrid layer. Retention of composite is therefore primarily micromechanical rather than chemical bonding to bulk tooth mineral alone. Moisture control is critical because contamination prevents resin infiltration.'},
                                         {'question': 'Caries detector dyes help?',
                                          'options': ['A) Visualize infected dentin cautiously',
                                                      'B) Replace radiographs always',
                                                      'C) Diagnose pulp vitality',
                                                      'D) Whiten teeth'],
                                          'answer': 'A) Visualize infected dentin cautiously',
-                                         'explanation': 'Do not over-rely.'}],
+                                         'explanation': 'Caries detector dyes bind preferentially to denatured collagen in infected dentin, helping visualize tissue that may harbor high bacterial load. They can also stain caries-affected or sound dentin nonspecifically, so dye uptake alone should not dictate aggressive excavation. Clinical hardness and knowledge of pulp proximity guide final removal.'}],
                                'medium': [{'question': 'Liners/bases under deep restorations aim '
                                                        'to?',
                                            'options': ['A) Protect pulp / thermal insulation / '
@@ -1285,8 +1269,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                        'C) Only etch enamel more',
                                                        'D) Only replace rubber dam'],
                                            'answer': 'A) Protect pulp / thermal insulation / seal',
-                                           'explanation': 'Material choice depends on remaining '
-                                                          'dentin.'},
+                                           'explanation': 'Liners and bases under deep restorations provide thermal insulation, chemical protection, and sometimes a sealing or bioactive interface over remaining dentin near the pulp. Material choice depends on remaining dentin thickness and whether a sedative, bioactive, or purely insulating layer is needed. They do not replace adequate caries removal and definitive sealing.'},
                                           {'question': 'Amalgam advantage includes?',
                                            'options': ['A) Wear resistance / less technique '
                                                        'sensitivity to moisture than composite',
@@ -1296,15 +1279,14 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                        'D) Never corrodes'],
                                            'answer': 'A) Wear resistance / less technique '
                                                      'sensitivity to moisture than composite',
-                                           'explanation': 'Still technique and indications '
-                                                          'matter.'},
+                                           'explanation': 'Dental amalgam’s metallic microstructure confers high compressive strength and wear resistance under posterior occlusal load. Unlike resin composites, amalgam does not rely on adhesive bonding that fails with moisture contamination during placement. Technique and cavity design still matter, but moisture tolerance is comparatively greater.'},
                                           {'question': 'Secondary caries often at?',
                                            'options': ['A) Margins of restorations',
                                                        'B) Only pulp horn center always',
                                                        'C) Only apex',
                                                        'D) Only cementum only far from margins'],
                                            'answer': 'A) Margins of restorations',
-                                           'explanation': 'Check seal and plaque control.'}],
+                                           'explanation': 'Secondary (recurrent) caries develops at restoration margins where microleakage or plaque stagnation allows demineralization of adjacent enamel and dentin. Open margins, overhangs, and poor oral hygiene are common contributors. Detecting and resealing or replacing defective margins interrupts this pathway.'}],
                                'hard': [{'question': 'A junior colleague asks for the single best '
                                                      'answer. C-factor high in? Beware of '
                                                      'near-miss distractors.',
@@ -1314,7 +1296,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                      'issue',
                                                      'D) Only sealants'],
                                          'answer': 'A) Class I deep boxy preparations',
-                                         'explanation': 'Polymerization stress risk.'},
+                                         'explanation': 'The C-factor is the ratio of bonded to unbonded surfaces in a cavity; Class I boxy preparations have many bonded walls and few free surfaces for stress relief. As composite polymerizes and shrinks, high C-factor configurations concentrate polymerization stress at the bonded interface. Incremental placement and low-shrinkage techniques reduce gap formation risk.'},
                                         {'question': 'A junior colleague asks for the single best '
                                                      'answer. Selective caries removal deep lesion '
                                                      'aims to? Beware of near-miss distractors.',
@@ -1325,7 +1307,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                      'D) Never restore'],
                                          'answer': 'A) Avoid pulp exposure while sealing remaining '
                                                    'soft dentin under protocol',
-                                         'explanation': 'Evidence-based stepwise approaches.'},
+                                         'explanation': 'In deep carious lesions, selective (partial) caries removal leaves soft, caries-affected dentin over the pulp to avoid exposure while excavating peripheral infected dentin to a hard, sealable margin. A well-sealed restoration deprives remaining bacteria of substrate, arresting the lesion. Stepwise excavation follows the same biological principle with a staged approach.'},
                                         {'question': 'A junior colleague asks for the single best '
                                                      'answer. Abfraction theory relates to? Beware '
                                                      'of near-miss distractors.',
@@ -1337,7 +1319,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                      'D) Only caries'],
                                          'answer': 'A) Occlusal stress cervical lesions debated '
                                                    'etiology',
-                                         'explanation': 'Multifactorial NCCLs.'}],
+                                         'explanation': 'Abfraction proposes that occlusal stress concentrates tensile strain at the cervical region, disrupting enamel and dentin and contributing to non-carious cervical lesions. Many lesions are multifactorial, also involving abrasion and erosion. The theory remains debated, so management addresses occlusal factors and tooth-surface loss together.'}],
                                'extreme': [{'question': 'In a high-stakes clinic scenario with '
                                                         'incomplete data, which statement is MOST '
                                                         'correct? Minimally invasive dentistry '
@@ -1351,7 +1333,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'D) Ignore risk factors'],
                                             'answer': 'A) Prevention, early detection, maximal '
                                                       'tissue preservation',
-                                            'explanation': 'ICDAS/risk-based care.'},
+                                            'explanation': 'Minimally invasive dentistry aims to prevent disease, detect lesions early, and restore only what is irreversibly lost while preserving sound tooth structure. Risk-based recall, fluoride, and sealants support this philosophy alongside conservative cavity designs. Maximal tissue preservation improves long-term tooth strength.'},
                                            {'question': 'In a high-stakes clinic scenario with '
                                                         'incomplete data, which statement is MOST '
                                                         'correct? Biomimetic restorative concept '
@@ -1365,7 +1347,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'D) Ignoring ferrule'],
                                             'answer': 'A) Replacing tissue with materials '
                                                       'mimicking properties/stress distribution',
-                                            'explanation': 'Adhesive protocols central.'},
+                                            'explanation': 'Biomimetic restorative dentistry seeks to replace enamel and dentin with materials and adhesive techniques that approximate the stiffness, bonding, and stress distribution of natural tooth tissues. By bonding and covering cusps when indicated, the restored tooth behaves more like an intact tooth under load. Adhesive protocols and progressive build-ups are central to the approach.'},
                                            {'question': 'In a high-stakes clinic scenario with '
                                                         'incomplete data, which statement is MOST '
                                                         'correct? Rampant caries management order? '
@@ -1378,7 +1360,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'D) Ignore diet'],
                                             'answer': 'A) Urgencies, disease control, temporaries, '
                                                       'definitive when stable',
-                                            'explanation': 'Stabilize before expensive finals.'}]},
+                                            'explanation': 'Rampant caries reflects high caries activity; placing definitive complex restorations before disease control invites rapid failure at new margins. Urgent pain and infection are managed first, then biofilm and dietary drivers are controlled with temporaries and preventive care. Definitive rehabilitation proceeds once activity stabilizes.'}]},
                  'cases': {'easy': [{'title': 'Occlusal Caries Molar',
                                      'stem': 'A deep fissure stains; bitewing shows enamel-dentin '
                                              'caries; tooth vital asymptomatic.',
@@ -1436,7 +1418,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'C) Only sinus polyps always',
                                                         'D) Only soft tissue cancer staging'],
                                             'answer': 'A) Interproximal caries and crestal bone',
-                                            'explanation': 'Workhorse for caries.'},
+                                            'explanation': 'Bitewing radiographs project the crowns of opposing maxillary and mandibular teeth and the crestal alveolar bone with minimal overlap when angulation is correct. They are the most sensitive routine view for detecting early interproximal caries and early horizontal bone loss. Periapicals alone often miss early proximal lesions because of geometric overlap.'},
                                            {'question': 'ALARA means?',
                                             'options': ['A) As Low As Reasonably Achievable '
                                                         'radiation',
@@ -1446,7 +1428,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'D) Only CBCT for all exams'],
                                             'answer': 'A) As Low As Reasonably Achievable '
                                                       'radiation',
-                                            'explanation': 'Justification + optimization.'},
+                                            'explanation': 'ALARA (As Low As Reasonably Achievable) is the radiation-protection principle that every exposure must be justified by diagnostic benefit and then optimized to the lowest dose that still yields adequate image quality. Collimation, sensors, and selection criteria operationalize ALARA in dentistry. Unnecessary retakes violate the principle.'},
                                            {'question': 'Periapical radiograph shows?',
                                             'options': ['A) Full tooth and periapical bone',
                                                         'B) Only bite relationship of all molars '
@@ -1454,7 +1436,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'C) Only cephalometric landmarks',
                                                         'D) Only chest'],
                                             'answer': 'A) Full tooth and periapical bone',
-                                            'explanation': 'Endo/periapical assessment.'}],
+                                            'explanation': 'A periapical radiograph images the entire tooth from crown to apex plus the surrounding periapical bone. It is used to assess apical periodontitis, root morphology, and periodontal bone along the root. Bitewings do not reliably show the periapical region.'}],
                                   'medium': [{'question': 'Panoramic radiograph advantage?',
                                               'options': ['A) Broad overview of jaws/TMJ/teeth',
                                                           'B) Highest resolution for early enamel '
@@ -1462,7 +1444,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                           'C) Zero distortion ever',
                                                           'D) Replaces all PAs always'],
                                               'answer': 'A) Broad overview of jaws/TMJ/teeth',
-                                              'explanation': 'Screening/ortho/surgery planning.'},
+                                              'explanation': 'A panoramic radiograph captures both jaws, dentition, TMJs, and contiguous structures in a single tomographic image. It is useful for screening, orthodontic assessment, and surgical planning when a broad anatomic overview is needed. Fine detail of early caries is inferior to intraoral radiographs.'},
                                              {'question': 'Radiolucent lesion at apex of nonvital '
                                                           'tooth likely?',
                                               'options': ['A) Periapical rarefying osteitis / '
@@ -1472,7 +1454,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                           'D) Always enamel pearl'],
                                               'answer': 'A) Periapical rarefying osteitis / '
                                                         'granuloma/cyst spectrum',
-                                              'explanation': 'Correlate vitality.'},
+                                              'explanation': 'Bacterial toxins from a necrotic pulp trigger inflammatory resorption of periapical bone, producing a radiolucency (rarefying osteitis) that may represent granuloma, cyst, or abscess histologically. Radiographic appearance alone cannot distinguish these entities. Pulp vitality testing links the lesion to an endodontic source.'},
                                              {'question': 'Lead apron/thyroid shield use follows?',
                                               'options': ['A) Current guidelines; justification '
                                                           'first',
@@ -1482,8 +1464,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                           'D) Only for staff not patients'],
                                               'answer': 'A) Current guidelines; justification '
                                                         'first',
-                                              'explanation': 'Protocols evolve — follow '
-                                                             'local/current.'}],
+                                              'explanation': 'Lead aprons and thyroid shields reduce exposure of radiosensitive tissues when they do not obscure anatomy, but justification of the radiograph and optimized technique remain primary. Contemporary guidelines emphasize thyroid protection especially in children and selection criteria over routine shielding rituals alone. Local protocols should follow current evidence-based recommendations.'}],
                                   'hard': [{'question': 'A junior colleague asks for the single '
                                                         'best answer. CBCT indications include? '
                                                         'Beware of near-miss distractors.',
@@ -1498,7 +1479,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                             'answer': 'A) Complex implant/impacted '
                                                       'tooth/endodontic anatomy when 2D '
                                                       'insufficient',
-                                            'explanation': 'Higher dose — justify.'},
+                                            'explanation': 'Cone-beam CT provides three-dimensional detail of teeth, bone, and anatomic relationships when two-dimensional images cannot answer the clinical question—for example complex implant sites, impacted teeth near nerves, or atypical endodontic anatomy. Effective dose is generally higher than panoramic or intraoral imaging. Indication must therefore be specific and justified.'},
                                            {'question': 'A junior colleague asks for the single '
                                                         'best answer. Ghost image on panoramic is? '
                                                         'Beware of near-miss distractors.',
@@ -1509,7 +1490,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'D) Always patient name'],
                                             'answer': 'A) Blurred contralateral dense object '
                                                       'projection',
-                                            'explanation': 'Recognize artifacts.'},
+                                            'explanation': 'On panoramic imaging, dense objects on one side of the jaw can cast a blurred, magnified “ghost” image on the contralateral side, projected higher and more posteriorly because of the rotational geometry. Recognizing ghosts prevents misdiagnosis of pathology. Common sources include earrings, the contralateral mandible angle, and the cervical spine.'},
                                            {'question': 'A junior colleague asks for the single '
                                                         'best answer. SLOB rule helps? Beware of '
                                                         'near-miss distractors.',
@@ -1520,7 +1501,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'D) Only processing chemicals'],
                                             'answer': 'A) Buccolingual localization with tube '
                                                       'shift',
-                                            'explanation': 'Same Lingual Opposite Buccal.'}],
+                                            'explanation': 'The SLOB rule (Same Lingual, Opposite Buccal) uses a horizontal tube shift between two periapical radiographs to localize an object buccolingually. If the object moves in the same direction as the tube head, it lies lingual; if opposite, it lies buccal. This parallax principle guides endodontic and surgical orientation.'}],
                                   'extreme': [{'question': 'In a high-stakes clinic scenario with '
                                                            'incomplete data, which statement is '
                                                            'MOST correct? Malignant lesion '
@@ -1534,7 +1515,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                            'D) Always normal trabeculation'],
                                                'answer': 'A) Ill-defined borders, cortical '
                                                          'destruction, rapid change',
-                                               'explanation': 'Urgent referral.'},
+                                               'explanation': 'Malignant jaw lesions often destroy bone with ill-defined, non-corticated borders and cortical perforation because neoplastic growth outpaces host bone remodeling. Rapid radiographic change and tooth mobility without periodontal explanation heighten suspicion. Such features warrant urgent specialist referral and biopsy rather than observation.'},
                                               {'question': 'In a high-stakes clinic scenario with '
                                                            'incomplete data, which statement is '
                                                            'MOST correct? Radiation dose concern '
@@ -1548,7 +1529,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                            'D) Clinical photo higher than CBCT'],
                                                'answer': 'A) CBCT generally > panoramic > '
                                                          'intraoral typically',
-                                               'explanation': 'Select wisely.'},
+                                               'explanation': 'Effective dose generally increases from well-collimated intraoral radiographs to panoramic imaging to CBCT examinations of larger fields of view, though exact values depend on exposure parameters. Selecting the lowest-dose modality that answers the diagnostic question embodies ALARA. CBCT is not a routine substitute for bitewings or periapicals.'},
                                               {'question': 'In a high-stakes clinic scenario with '
                                                            'incomplete data, which statement is '
                                                            'MOST correct? Idiopathic '
@@ -1563,8 +1544,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                            'D) Always extract'],
                                                'answer': 'A) Vitality and clinical context '
                                                          'distinguish',
-                                               'explanation': 'Condensing osteitis linked to pulp '
-                                                              'pathosis.'}]},
+                                               'explanation': 'Idiopathic osteosclerosis is a focal radiopacity in bone associated with a vital tooth and no inflammatory cause. Condensing osteitis is a reactive bony sclerosis at the apex of a tooth with pulpitis or necrosis. Pulp testing and clinical history distinguish the two and determine whether endodontic treatment is needed.'}]},
                     'cases': {'easy': [{'title': 'Suspected Interproximal Caries',
                                         'stem': 'Tight contacts, clinical doubt on upper '
                                                 'premolars.',
@@ -1614,25 +1594,25 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'C) 28 always excluding wisdom never vary',
                                                         'D) 16'],
                                             'answer': 'A) 32',
-                                            'explanation': 'Including third molars.'},
+                                            'explanation': 'The permanent dentition normally comprises 8 incisors, 4 canines, 8 premolars, and 12 molars, totaling 32 teeth including third molars. Congenitally missing third molars reduce the clinical count but do not change the anatomic norm. Primary teeth are fewer and lack premolars.'},
                                            {'question': 'Primary dentition count?',
                                             'options': ['A) 20', 'B) 32', 'C) 12', 'D) 36'],
                                             'answer': 'A) 20',
-                                            'explanation': 'No premolars in primary.'},
+                                            'explanation': 'The primary dentition consists of 8 incisors, 4 canines, and 8 molars—20 teeth total—with no premolars. Premolars succeed the primary molars in the mixed and permanent dentitions. Knowing the count prevents misidentification during pediatric examination and space analysis.'},
                                            {'question': 'Cusp of Carabelli is on?',
                                             'options': ['A) Maxillary first molar',
                                                         'B) Mandibular central',
                                                         'C) Maxillary lateral only',
                                                         'D) Mandibular canine'],
                                             'answer': 'A) Maxillary first molar',
-                                            'explanation': 'Mesiolingual aspect variation.'}],
+                                            'explanation': 'The cusp of Carabelli is an accessory cusp or tubercle on the mesiolingual surface of the maxillary first permanent molar (and sometimes the primary second molar). It is a common morphologic variation of phylogenetic interest. Its presence can affect sealant coverage and band adaptation.'}],
                                   'medium': [{'question': 'Maxillary first premolar often has?',
                                               'options': ['A) Two roots / two canals commonly',
                                                           'B) Always one canal only',
                                                           'C) Always three roots like upper molar',
                                                           'D) No cusps'],
                                               'answer': 'A) Two roots / two canals commonly',
-                                              'explanation': 'Endodontic relevance.'},
+                                              'explanation': 'The maxillary first premolar most often has two roots—one buccal and one palatal—and correspondingly two root canals. This bifurcation has direct endodontic and extraction significance because both canals must be located and instrumented. A minority of teeth present a single root with one or two canals.'},
                                              {'question': 'Contact point of anteriors is usually?',
                                               'options': ['A) Incisal third to middle third '
                                                           'junction themes',
@@ -1641,14 +1621,14 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                           'D) No contacts normal'],
                                               'answer': 'A) Incisal third to middle third junction '
                                                         'themes',
-                                              'explanation': 'Protects papilla.'},
+                                              'explanation': 'Proximal contact areas of anterior teeth are typically located in the incisal third, near the junction with the middle third, creating a contact that stabilizes the arch and protects the interdental papilla from food impaction. Contacts placed too far gingivally or openly invite black triangles and periodontal irritation. Proper contact morphology is therefore both esthetic and biologic.'},
                                              {'question': 'Curve of Spee is?',
                                               'options': ['A) Anteroposterior occlusal curvature',
                                                           'B) Only mediolateral Wilson',
                                                           'C) Only Bonwill triangle only',
                                                           'D) Only freeway space'],
                                               'answer': 'A) Anteroposterior occlusal curvature',
-                                              'explanation': 'Occlusion concepts.'}],
+                                              'explanation': 'The curve of Spee is the anteroposterior occlusal curvature seen in the sagittal plane, concave superiorly in the mandibular arch from canine through posterior teeth. It contributes to balanced occlusal contacts during function. Flattening or exaggeration of the curve is relevant in orthodontic and occlusal analysis.'}],
                                   'hard': [{'question': 'A junior colleague asks for the single '
                                                         'best answer. Mandibular first molar '
                                                         'typically canals? Beware of near-miss '
@@ -1660,7 +1640,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'D) No pulp'],
                                             'answer': 'A) Often 3 canals (MB, ML, D) with '
                                                       'variations',
-                                            'explanation': 'Middle mesial possible.'},
+                                            'explanation': 'Mandibular first molars most commonly have two roots with three principal canals: mesiobuccal, mesiolingual, and a distal canal (which may split into two). Anatomic variations include a middle mesial canal and two distal canals. Endodontic access and negotiation must anticipate these patterns to clean the entire system.'},
                                            {'question': 'A junior colleague asks for the single '
                                                         'best answer. Enamel is thickest at? '
                                                         'Beware of near-miss distractors.',
@@ -1669,7 +1649,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'C) Apex',
                                                         'D) Furcation'],
                                             'answer': 'A) Occlusal/incisal contact areas themes',
-                                            'explanation': 'Hardest tissue.'},
+                                            'explanation': 'Enamel reaches its greatest thickness over cusp tips and incisal edges—the functional contact areas that sustain heavy occlusal load—while thinning toward the cervix. This distribution resists wear where forces concentrate. Enamel is the hardest tissue in the body because of its high mineral content.'},
                                            {'question': 'A junior colleague asks for the single '
                                                         'best answer. Pulp horn height relates to? '
                                                         'Beware of near-miss distractors.',
@@ -1679,7 +1659,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                         'C) Only root length always equal',
                                                         'D) Only calculus'],
                                             'answer': 'A) Risk of exposure in prep of young teeth',
-                                            'explanation': 'Conservative prep.'}],
+                                            'explanation': 'Pulp horns extend occlusally under cusps and are relatively high in young teeth before secondary dentin accumulates. Cavity or crown preparation that ignores horn height risks mechanical pulp exposure. Conservative occlusal reduction and knowledge of age-related pulp anatomy reduce that risk.'}],
                                   'extreme': [{'question': 'In a high-stakes clinic scenario with '
                                                            'incomplete data, which statement is '
                                                            'MOST correct? Dens invaginatus risk? '
@@ -1690,7 +1670,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                            'C) Only freckles',
                                                            'D) Only torus'],
                                                'answer': 'A) Pulp infection via invagination',
-                                               'explanation': 'Early sealing/endo awareness.'},
+                                               'explanation': 'Dens invaginatus is an infolding of the enamel organ into the dental papilla, creating a deep palatal pit continuous with a blind or open channel toward the pulp. Oral bacteria can rapidly infect the pulp through this defect even in an apparently immature or minimally decayed tooth. Early fissure sealing or endodontic intervention addresses that pathway.'},
                                               {'question': 'In a high-stakes clinic scenario with '
                                                            'incomplete data, which statement is '
                                                            'MOST correct? Taurodontism features? '
@@ -1704,7 +1684,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                            'D) Only enamel pearl only'],
                                                'answer': 'A) Enlarged pulp chamber / apically '
                                                          'displaced furcation',
-                                               'explanation': 'Endodontic complexity.'},
+                                               'explanation': 'Taurodontism features an enlarged pulp chamber with apical displacement of the root furcation, producing short roots relative to crown–body height. The altered chamber morphology complicates canal location, instrumentation, and obturation. Recognition on radiographs prepares the clinician for endodontic difficulty.'},
                                               {'question': 'In a high-stakes clinic scenario with '
                                                            'incomplete data, which statement is '
                                                            'MOST correct? Dilaceration '
@@ -1716,7 +1696,7 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                                            'C) Only flossing forever easy',
                                                            'D) Only rubber dam clamp color'],
                                                'answer': 'A) Extraction and endodontics',
-                                               'explanation': 'Radiograph before surgery.'}]},
+                                               'explanation': 'Dilaceration is a sharp bend in the root or crown, usually from trauma to the developing tooth germ. The angulation impedes straight-line endodontic access and increases risk of root fracture or incomplete removal during extraction. Preoperative radiographs map the curvature so force direction can be planned.'}]},
                     'cases': {'easy': [{'title': 'Identify Tooth',
                                         'stem': 'A tooth has 3 roots and a Carabelli cusp trait.',
                                         'question': 'Most likely?',
