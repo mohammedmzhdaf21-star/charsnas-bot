@@ -91,6 +91,7 @@ KEY_TO_DEPT = {d["key"]: d for d in DEPARTMENTS}
 CHANNEL_USERNAME = (os.getenv("CHANNEL_USERNAME") or "").strip().lstrip("@")
 CHANNEL_INVITE_LINK = (os.getenv("CHANNEL_INVITE_LINK") or "").strip()
 _CHANNEL_ID_FILE = Path(__file__).resolve().parent / "channel_chat_id.txt"
+_UNLOCKED_FILE = Path(__file__).resolve().parent / "unlocked_users.json"
 
 
 def _load_channel_chat_id() -> str:
@@ -244,31 +245,13 @@ def start_extra_keyboard() -> InlineKeyboardMarkup | None:
 
 
 def join_gate_keyboard(dept_key: str) -> InlineKeyboardMarkup:
+    """Simple 2-step gate: join channel, then continue."""
     rows: list[list[InlineKeyboardButton]] = []
-    furl = folder_url()
     curl = channel_url()
-    camp = campus_url()
-    step = 1
-    if furl:
-        rows.append(
-            [InlineKeyboardButton(f"{step}) زیادکردنی فۆڵدەری {FOLDER_NAME}", url=furl)]
-        )
-        step += 1
-    elif curl:
-        rows.append([InlineKeyboardButton(f"{step}) بەشداری لە کەناڵ", url=curl)])
-        step += 1
-    if camp:
-        rows.append([InlineKeyboardButton(f"{step}) کردنەوەی گرووپی کەمپەس", url=camp)])
-        step += 1
-    if curl and furl:
-        rows.append([InlineKeyboardButton("یان تەنها بەشداری کەناڵ بکە", url=curl)])
+    if curl:
+        rows.append([InlineKeyboardButton("١) بەشداری لە کەناڵ", url=curl)])
     rows.append(
-        [
-            InlineKeyboardButton(
-                f"{step}) بەشداریم کرد — بەردەوامبە",
-                callback_data=f"joined:{dept_key}",
-            )
-        ]
+        [InlineKeyboardButton("٢) بەشداریم کرد ✅", callback_data=f"joined:{dept_key}")]
     )
     return InlineKeyboardMarkup(rows)
 
@@ -291,7 +274,7 @@ def welcome_text() -> str:
         )
         lines.append("")
     elif REQUIRE_CHANNEL and channel_url():
-        lines.append("⚠️ سەرەتا بەشداری کەناڵەکەمان بکە — بەبێ ئەوە بۆتی بوار ناکرێتەوە.")
+        lines.append("سەرەتا جارێک بەشداری کەناڵ بکە، پاشان بۆتەکان دەکرێنەوە.")
         lines.append("")
     if REQUIRE_CHANNEL and not (folder_url() or campus_url() or channel_url()):
         lines.append("⚠️ بەشداری کەناڵ پێویستە پێش کردنەوەی هەر بۆتێک.")
@@ -385,33 +368,37 @@ def extract_forwarded_channel(message) -> object | None:
 
 
 def gate_blocked_text(dept_label: str) -> str:
-    lines = [
-        f"🔒 پێش کردنەوەی بۆتی «{dept_label}» دەبێت بەشداری کەناڵ بکەیت.",
-        "",
-        "هەنگاوەکان:",
-        "١) دوگمەی «بەشداری لە کەناڵ» لێدە و بەشداری بکە",
-        "٢) بگەڕێرەوە ئێرە و «بەشداریم کرد — بەردەوامبە» لێدە",
-        "",
-        "تا لە کەناڵدا نەبیت، ناتوانیت بۆتی بوارەکەت بکەیتەوە.",
-    ]
-    if not can_verify_membership():
-        lines.extend(
-            [
-                "",
-                "⚙️ تێبینی بۆ بەڕێوەبەر: ناسنامەی کەناڵ هێشتا تۆمار نەکراوە.",
-                "بۆت بکە ئەدمینی کەناڵ → پەیامی کەناڵ فۆروارد بکە → /set_channel",
-            ]
-        )
-    return "\n".join(lines)
+    return (
+        f"بۆ کردنەوەی بۆتی «{dept_label}»:\n\n"
+        "١) بەشداری لە کەناڵ بکە\n"
+        "٢) دوگمەی «بەشداریم کرد ✅» لێدە"
+    )
 
 
 def membership_alert(status: bool | None) -> str:
-    if status is False:
-        return "هێشتا لە کەناڵدا نیت. سەرەتا بەشداری بکە، پاشان بەردەوامبە."
-    return (
-        "پشتڕاستکردنەوە کار ناکات: ناسنامەی کەناڵ تۆمار نەکراوە. "
-        "بەڕێوەبەر: بۆت وەک ئەدمین زیاد بکە، پەیامی کەناڵ فۆروارد بکە، /set_channel بنووسە."
-    )
+    return "تکایە سەرەتا بەشداری کەناڵ بکە، پاشان دووبارە «بەشداریم کرد ✅» لێدە."
+
+
+def load_unlocked_users() -> set[int]:
+    import json
+    if not _UNLOCKED_FILE.exists():
+        return set()
+    try:
+        data = json.loads(_UNLOCKED_FILE.read_text())
+        return {int(x) for x in data}
+    except Exception:
+        return set()
+
+
+def save_unlocked_user(user_id: int) -> None:
+    import json
+    users = load_unlocked_users()
+    users.add(int(user_id))
+    _UNLOCKED_FILE.write_text(json.dumps(sorted(users)))
+
+
+def is_user_unlocked(user_id: int) -> bool:
+    return int(user_id) in load_unlocked_users()
 
 
 async def safe_reply(update: Update, text: str, reply_markup=None) -> None:
@@ -430,12 +417,10 @@ def can_verify_membership() -> bool:
 
 
 async def user_in_channel(context: ContextTypes.DEFAULT_TYPE, user_id: int) -> bool | None:
-    """True = member, False = not member, None = cannot verify yet (blocked)."""
     if not REQUIRE_CHANNEL:
         return True
     chat = channel_ref()
     if chat is None:
-        log.warning("Channel gate blocked: CHANNEL_CHAT_ID / CHANNEL_USERNAME not set")
         return None
     try:
         member = await context.bot.get_chat_member(chat_id=chat, user_id=user_id)
@@ -444,14 +429,23 @@ async def user_in_channel(context: ContextTypes.DEFAULT_TYPE, user_id: int) -> b
         log.info("Channel check user=%s status=%s ok=%s", user_id, status, ok)
         return ok
     except Forbidden as exc:
-        log.error(
-            "Cannot check channel membership (hub bot must be channel admin): %s",
-            exc,
-        )
+        log.error("getChatMember forbidden (bot not admin?): %s", exc)
         return None
     except TelegramError as exc:
         log.warning("getChatMember failed: %s", exc)
         return False
+
+
+async def user_may_open_bots(context: ContextTypes.DEFAULT_TYPE, user_id: int) -> bool:
+    if not REQUIRE_CHANNEL:
+        return True
+    if is_user_unlocked(user_id):
+        return True
+    status = await user_in_channel(context, user_id)
+    if status is True:
+        save_unlocked_user(user_id)
+        return True
+    return False
 
 
 async def send_department_link(update: Update, dept: dict) -> None:
@@ -461,7 +455,6 @@ async def send_department_link(update: Update, dept: dict) -> None:
         "بۆ کردنەوەی، دوگمەی خوارەوە لێدە:",
         reply_markup=link_keyboard(dept),
     )
-    await safe_reply(update, bot_in_folder_tip(dept), reply_markup=start_extra_keyboard())
 
 
 async def send_folder_help(update: Update) -> None:
@@ -486,8 +479,7 @@ async def offer_department(
 
     context.user_data["pending_dept"] = dept["key"]
 
-    status = await user_in_channel(context, user.id)
-    if status is True:
+    if await user_may_open_bots(context, user.id):
         await send_department_link(update, dept)
         return
 
@@ -502,17 +494,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await safe_reply(update, welcome_text(), reply_markup=field_reply_keyboard())
     extra = start_extra_keyboard()
     if extra:
-        await safe_reply(
-            update,
-            "کەناڵ / فۆڵدەر:",
-            reply_markup=extra,
-        )
-    if REQUIRE_CHANNEL:
-        await safe_reply(
-            update,
-            "⚠️ تێبینی: تا بەشداری کەناڵ نەکەیت، ناتوانیت بۆتی هیچ بوارێک بکەیتەوە.",
-            reply_markup=extra,
-        )
+        await safe_reply(update, "کەناڵ:", reply_markup=extra)
     await safe_reply(
         update,
         "یان لێرە بوارێک هەڵبژێرە:",
@@ -676,19 +658,14 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         return
 
     async def open_dept(dept: dict, thanks: bool = False) -> None:
-        prefix = "سوپاس بۆ بەشداریکردن!\n\n" if thanks else ""
+        prefix = "سوپاس! ئێستا دەتوانیت بۆتەکە بکەیتەوە.\n\n" if thanks else ""
         await query.edit_message_text(
             f"{prefix}بۆتی {dept['label']}\n@{dept['username']}\n\n{dept['blurb']}\n\n"
-            "بۆ کردنەوەی، دوگمەی خوارەوە لێدە:"
+            "دوگمەی خوارەوە لێدە:"
         )
         await query.message.reply_text(
             f"کردنەوەی {dept['label']}:",
             reply_markup=link_keyboard(dept),
-            disable_web_page_preview=True,
-        )
-        await query.message.reply_text(
-            bot_in_folder_tip(dept),
-            reply_markup=start_extra_keyboard(),
             disable_web_page_preview=True,
         )
 
@@ -697,11 +674,10 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         key = data.split(":", 1)[1]
         dept = KEY_TO_DEPT.get(key)
         if not dept:
-            await query.edit_message_text("بوار نەناسراو. /start بنێرە و دووبارە هەوڵ بدە.")
+            await query.edit_message_text("بوار نەناسراو. /start بنێرە.")
             return
         context.user_data["pending_dept"] = key
-        status = await user_in_channel(context, user.id)
-        if status is True:
+        if await user_may_open_bots(context, user.id):
             await open_dept(dept)
             return
         await query.edit_message_text(
@@ -715,14 +691,16 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         dept = KEY_TO_DEPT.get(key) or KEY_TO_DEPT.get(context.user_data.get("pending_dept", ""))
         if not dept:
             await query.answer()
-            await query.edit_message_text(
-                "دانیشتنەکە بەسەرچوو. /start بنێرە و دووبارە بوار هەڵبژێرە."
-            )
+            await query.edit_message_text("دانیشتنەکە بەسەرچوو. /start بنێرە.")
             return
+
+        # Easy mode: tapping Continue unlocks (optional hard-check if channel id known)
         status = await user_in_channel(context, user.id)
-        if status is not True:
+        if status is False:
             await query.answer(membership_alert(status), show_alert=True)
             return
+
+        save_unlocked_user(user.id)
         await query.answer()
         await open_dept(dept, thanks=True)
         return
@@ -767,13 +745,8 @@ def main() -> None:
         )
 
     if REQUIRE_CHANNEL:
-        if can_verify_membership():
-            log.info("HARD channel gate ON (ref=%s)", channel_ref())
-        else:
-            log.warning(
-                "HARD channel gate ON but CHANNEL_CHAT_ID missing — "
-                "forward a channel post to the hub bot or use /set_channel"
-            )
+        mode = "hard+soft" if can_verify_membership() else "easy-soft (join then Continue)"
+        log.info("Channel gate ON (%s) invite=%s", mode, bool(channel_url()))
     else:
         log.info("Channel gate OFF")
 
