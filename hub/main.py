@@ -385,22 +385,32 @@ def extract_forwarded_channel(message) -> object | None:
 
 
 def gate_blocked_text(dept_label: str) -> str:
-    return (
-        f"🔒 پێش کردنەوەی بۆتی «{dept_label}» دەبێت بەشداری کەناڵ بکەیت.\n\n"
-        "هەنگاوەکان:\n"
-        "١) دوگمەی «بەشداری لە کەناڵ» لێدە و بەشداری بکە\n"
-        "٢) بگەڕێرەوە ئێرە و «بەشداریم کرد — بەردەوامبە» لێدە\n\n"
-        "تا لە کەناڵدا نەبیت، ناتوانیت بۆتی بوارەکەت بکەیتەوە."
-    )
+    lines = [
+        f"🔒 پێش کردنەوەی بۆتی «{dept_label}» دەبێت بەشداری کەناڵ بکەیت.",
+        "",
+        "هەنگاوەکان:",
+        "١) دوگمەی «بەشداری لە کەناڵ» لێدە و بەشداری بکە",
+        "٢) بگەڕێرەوە ئێرە و «بەشداریم کرد — بەردەوامبە» لێدە",
+        "",
+        "تا لە کەناڵدا نەبیت، ناتوانیت بۆتی بوارەکەت بکەیتەوە.",
+    ]
+    if not can_verify_membership():
+        lines.extend(
+            [
+                "",
+                "⚙️ تێبینی بۆ بەڕێوەبەر: ناسنامەی کەناڵ هێشتا تۆمار نەکراوە.",
+                "بۆت بکە ئەدمینی کەناڵ → پەیامی کەناڵ فۆروارد بکە → /set_channel",
+            ]
+        )
+    return "\n".join(lines)
 
 
 def membership_alert(status: bool | None) -> str:
     if status is False:
         return "هێشتا لە کەناڵدا نیت. سەرەتا بەشداری بکە، پاشان بەردەوامبە."
     return (
-        "ناتوانرێت بەشداری پشتڕاست بکرێتەوە. "
-        "دڵنیابە بەشداری کەناڵت کردووە. ئەگەر بەشداریت کردووە، "
-        "چاوەڕێ بە یان بەڕێوەبەر ناسنامەی کەناڵ تۆمار بکات (/set_channel)."
+        "پشتڕاستکردنەوە کار ناکات: ناسنامەی کەناڵ تۆمار نەکراوە. "
+        "بەڕێوەبەر: بۆت وەک ئەدمین زیاد بکە، پەیامی کەناڵ فۆروارد بکە، /set_channel بنووسە."
     )
 
 
@@ -526,20 +536,41 @@ async def ping(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 
 async def set_channel_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    """Admin: reply to a forwarded channel post with /set_channel."""
+    """Admin: /set_channel  OR  /set_channel -100...  OR reply to forwarded channel post."""
     message = update.effective_message
     if not message:
         return
 
+    # 1) Numeric id in command args: /set_channel -100123
+    if context.args:
+        raw = context.args[0].strip()
+        try:
+            chat_id = int(raw)
+            persist_channel_chat_id(chat_id)
+            await safe_reply(
+                update,
+                f"✅ ناسنامەی کەناڵ تۆمارکرا: {chat_id}\n\n"
+                "ئێستا دوای بەشداری، «بەشداریم کرد — بەردەوامبە» کار دەکات.",
+            )
+            return
+        except ValueError:
+            await safe_reply(update, "ناسنامە هەڵەیە. نموونە: /set_channel -1001234567890")
+            return
+
+    # 2) Reply to / forward of a channel post
     candidate = message.reply_to_message or message
     channel = extract_forwarded_channel(candidate)
     if channel is None:
         await safe_reply(
             update,
-            "بۆ تۆمارکردنی کەناڵ:\n"
-            "١) بۆتی ناوەند (@Charanaseducenter_bot) وەک بەڕێوەبەر زیاد بکە بۆ کەناڵەکە\n"
-            "٢) پەیامێک لە کەناڵەکەوە فۆروارد بکە بۆ ئەم بۆتە\n"
-            "٣) وەڵامی ئەو پەیامە بدەرەوە بە /set_channel",
+            "⚠️ بۆ کارکردنی دەروازە، ناسنامەی کەناڵ پێویستە.\n\n"
+            "ڕێگای ئاسان:\n"
+            "١) @Charanaseducenter_bot بکە بەڕێوەبەری کەناڵ\n"
+            "٢) پەیامێک لە ناو کەناڵ فۆروارد بکە بۆ ئەم بۆتە\n"
+            "٣) وەڵامی بدەرەوە: /set_channel\n\n"
+            "یان:\n"
+            "پەیامێکی کەناڵ فۆروارد بکە بۆ @userinfobot و ژمارەی -100... لێرە بنێرە:\n"
+            "/set_channel -100xxxxxxxx",
         )
         return
 
@@ -550,7 +581,7 @@ async def set_channel_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
         f"✅ کەناڵ تۆمارکرا.\n"
         f"ناو: {title}\n"
         f"ناسنامە: {channel.id}\n\n"
-        "ئێستا دەروازە توندە: تا خوێندکار بەشداری کەناڵ نەکات، بۆتی بوار ناکرێتەوە.",
+        "ئێستا خوێندکار دوای بەشداری دەتوانێت بۆتی بوار بکاتەوە.",
     )
 
 
