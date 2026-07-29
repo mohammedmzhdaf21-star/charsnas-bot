@@ -101,10 +101,15 @@ REQUIRE_CHANNEL = (
 
 JOINED_STATUSES = {"creator", "administrator", "member", "restricted"}
 
-# Optional Telegram shared-folder link (t.me/addlist/...). Can include the channel/groups,
-# but Telegram does NOT allow bots inside shareable folders.
+# Optional Telegram shared-folder link (t.me/addlist/...).
+# Shareable folders can include channels + groups (NOT bot DMs directly).
+# Workaround: put a Campus group (with all bots as members) + channel in the folder.
 FOLDER_INVITE_LINK = (os.getenv("FOLDER_INVITE_LINK") or "").strip()
 FOLDER_NAME = (os.getenv("FOLDER_NAME") or "CharaNas").strip() or "CharaNas"
+CAMPUS_GROUP_INVITE = (os.getenv("CAMPUS_GROUP_INVITE") or "").strip()
+CAMPUS_GROUP_CHAT_ID = (os.getenv("CAMPUS_GROUP_CHAT_ID") or "").strip()
+HUB_BOT_USERNAME = (os.getenv("HUB_BOT_USERNAME") or "Charanaseducenter_bot").strip().lstrip("@")
+BTN_FOLDER = f"{FOLDER_NAME} folder"
 
 
 def bot_url(username: str) -> str:
@@ -126,6 +131,10 @@ def folder_url() -> str | None:
     return None
 
 
+def campus_url() -> str | None:
+    return CAMPUS_GROUP_INVITE or None
+
+
 def channel_ref() -> str | int | None:
     """Chat id/username passed to getChatMember."""
     if CHANNEL_CHAT_ID:
@@ -144,6 +153,7 @@ def field_reply_keyboard() -> ReplyKeyboardMarkup:
             [KeyboardButton("Medicine"), KeyboardButton("Dentistry")],
             [KeyboardButton("Pharmacy"), KeyboardButton("MLS")],
             [KeyboardButton("Nursing")],
+            [KeyboardButton(BTN_FOLDER)],
         ],
         resize_keyboard=True,
         is_persistent=True,
@@ -153,12 +163,14 @@ def field_reply_keyboard() -> ReplyKeyboardMarkup:
 def link_keyboard(dept: dict) -> InlineKeyboardMarkup:
     rows = [[InlineKeyboardButton(f"Open {dept['label']} bot", url=bot_url(dept["username"]))]]
     furl = folder_url()
+    curl = channel_url()
+    camp = campus_url()
     if furl:
         rows.append([InlineKeyboardButton(f"Add {FOLDER_NAME} folder", url=furl)])
-    else:
-        url = channel_url()
-        if url:
-            rows.append([InlineKeyboardButton("Join CharaNas channel", url=url)])
+    if camp:
+        rows.append([InlineKeyboardButton("Open campus group (bots inside)", url=camp)])
+    if curl and not furl:
+        rows.append([InlineKeyboardButton("Join CharaNas channel", url=curl)])
     return InlineKeyboardMarkup(rows)
 
 
@@ -170,16 +182,18 @@ def pick_field_keyboard() -> InlineKeyboardMarkup:
 
 
 def start_extra_keyboard() -> InlineKeyboardMarkup | None:
-    """Folder / channel buttons shown on /start."""
+    """Folder / channel / campus buttons shown on /start."""
     rows: list[list[InlineKeyboardButton]] = []
     furl = folder_url()
-    if furl:
-        rows.append([InlineKeyboardButton(f"Add {FOLDER_NAME} folder (channel)", url=furl)])
+    camp = campus_url()
     curl = channel_url()
-    if curl and not furl:
-        rows.append([InlineKeyboardButton("Join CharaNas channel", url=curl)])
-    elif curl and furl:
-        rows.append([InlineKeyboardButton("Or join channel only", url=curl)])
+    if furl:
+        rows.append([InlineKeyboardButton(f"Add {FOLDER_NAME} folder", url=furl)])
+    if camp:
+        rows.append([InlineKeyboardButton("Campus group (bots live here)", url=camp)])
+    if curl:
+        label = "Join channel" if furl or camp else "Join CharaNas channel"
+        rows.append([InlineKeyboardButton(label, url=curl)])
     return InlineKeyboardMarkup(rows) if rows else None
 
 
@@ -187,14 +201,21 @@ def join_gate_keyboard(dept_key: str) -> InlineKeyboardMarkup:
     rows: list[list[InlineKeyboardButton]] = []
     furl = folder_url()
     curl = channel_url()
+    camp = campus_url()
+    step = 1
     if furl:
-        rows.append([InlineKeyboardButton(f"1) Add {FOLDER_NAME} folder", url=furl)])
+        rows.append([InlineKeyboardButton(f"{step}) Add {FOLDER_NAME} folder", url=furl)])
+        step += 1
     elif curl:
-        rows.append([InlineKeyboardButton("1) Join the channel", url=curl)])
+        rows.append([InlineKeyboardButton(f"{step}) Join the channel", url=curl)])
+        step += 1
+    if camp:
+        rows.append([InlineKeyboardButton(f"{step}) Open campus group", url=camp)])
+        step += 1
     if curl and furl:
         rows.append([InlineKeyboardButton("Or join channel only", url=curl)])
     rows.append(
-        [InlineKeyboardButton("2) I joined — Continue", callback_data=f"joined:{dept_key}")]
+        [InlineKeyboardButton(f"{step}) I joined — Continue", callback_data=f"joined:{dept_key}")]
     )
     return InlineKeyboardMarkup(rows)
 
@@ -210,16 +231,66 @@ def welcome_text() -> str:
         lines.append(f"- {d['label']}")
         lines.append(f"  {d['blurb']}")
         lines.append("")
-    if folder_url():
-        lines.append(f"Tip: tap Add {FOLDER_NAME} folder to put our channel in a Telegram folder.")
-        lines.append("(Telegram does not allow bots inside shared folders — open bots from here.)")
+    if folder_url() or campus_url():
+        lines.append(f"Folder setup: channel + campus group (bots are members of the group).")
+        lines.append(f"Tap {BTN_FOLDER} for the one-tap add link and how to keep bots in the tab.")
         lines.append("")
     elif REQUIRE_CHANNEL and channel_url():
-        lines.append("To open a department bot, join our Telegram channel first (one tap).")
-        lines.append("Then tap Continue — Telegram cannot join you automatically.")
+        lines.append("Join our Telegram channel first, then Continue.")
         lines.append("")
     lines.append("Tap a field button below.")
     return "\n".join(lines)
+
+
+def folder_howto_text() -> str:
+    """How bots end up in the folder despite Telegram's share-folder limits."""
+    lines = [
+        f"How {FOLDER_NAME} folder works",
+        "",
+        "Telegram will not put bot chats inside a *shared* folder invite.",
+        "So we use this working setup:",
+        "",
+        "1) Shared folder = Channel + Campus group",
+        "2) All study bots are *members/admins of the campus group*",
+        "   → opening the folder shows the group → bots are inside it",
+        "3) After you Open a department bot once, add that bot chat to the",
+        f"   {FOLDER_NAME} folder on your phone (Edit folder → Included chats)",
+        "   → the bot then appears as its own chat in your folder tab too",
+        "",
+    ]
+    if folder_url():
+        lines.append(f"Folder link: {folder_url()}")
+    else:
+        lines.append("Folder link: not set yet (admin: create folder + paste FOLDER_INVITE_LINK).")
+    if campus_url():
+        lines.append(f"Campus group: {campus_url()}")
+    else:
+        lines.append("Campus group: not set yet (admin: create group, add all bots, paste CAMPUS_GROUP_INVITE).")
+    if channel_url():
+        lines.append(f"Channel: {channel_url()}")
+    lines.extend(
+        [
+            "",
+            "Admin setup checklist:",
+            "1. Create group: CharaNas Campus",
+            "2. Add as admin: hub + Medicine + Dentistry + Pharmacy + MLS + Nursing bots",
+            "3. Settings → Chat Folders → New folder → add Channel + Campus group",
+            "4. Share folder → copy https://t.me/addlist/... link",
+            "5. Put FOLDER_INVITE_LINK and CAMPUS_GROUP_INVITE in hub/.env and restart",
+        ]
+    )
+    return "\n".join(lines)
+
+
+def bot_in_folder_tip(dept: dict) -> str:
+    return (
+        f"Keep @{dept['username']} in your {FOLDER_NAME} folder:\n"
+        f"1) Open the bot (button above)\n"
+        f"2) Telegram → Settings → Chat Folders → {FOLDER_NAME}\n"
+        f"3) Included chats → add @{dept['username']}\n\n"
+        "That is how bot chats appear in the folder tab "
+        "(shared folder invites cannot include bots directly)."
+    )
 
 
 async def safe_reply(update: Update, text: str, reply_markup=None) -> None:
@@ -276,6 +347,12 @@ async def send_department_link(update: Update, dept: dict) -> None:
         f"{dept['label']} bot\n@{dept['username']}\n\n{dept['blurb']}\n\nTap the button below to open it:",
         reply_markup=link_keyboard(dept),
     )
+    await safe_reply(update, bot_in_folder_tip(dept), reply_markup=start_extra_keyboard())
+
+
+async def send_folder_help(update: Update) -> None:
+    await safe_reply(update, folder_howto_text(), reply_markup=start_extra_keyboard() or field_reply_keyboard())
+    await safe_reply(update, "Choose a field anytime:", reply_markup=field_reply_keyboard())
 
 
 async def offer_department(
@@ -295,12 +372,11 @@ async def offer_department(
 
     await safe_reply(
         update,
-        f"Before opening {dept['label']}, join our CharaNas channel"
-        + (f" (or add the {FOLDER_NAME} folder)" if folder_url() else "")
+        f"Before opening {dept['label']}, join the {FOLDER_NAME} channel"
+        + (" / folder" if folder_url() else "")
         + ".\n\n"
-        "1) Tap Join / Add folder\n"
-        "2) Come back and tap I joined — Continue\n\n"
-        "(Telegram does not allow bots to add you automatically, and bots cannot be placed inside shared folders.)",
+        "Bots appear in the folder through the campus group + adding each bot chat once.\n"
+        "Tap Join / Add folder, then I joined — Continue.",
         reply_markup=join_gate_keyboard(dept["key"]),
     )
 
@@ -325,12 +401,60 @@ async def help_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await start(update, context)
 
 
+async def folder_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    await send_folder_help(update)
+
+
 async def ping(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await safe_reply(update, "CharaNas hub bot is online. Send /start to choose a field.")
 
 
+async def post_campus_menu(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Admin helper: post Open-bot buttons into the campus group."""
+    if not CAMPUS_GROUP_CHAT_ID:
+        await safe_reply(
+            update,
+            "Set CAMPUS_GROUP_CHAT_ID in hub/.env first (numeric id like -100...).",
+        )
+        return
+    try:
+        chat_id = int(CAMPUS_GROUP_CHAT_ID)
+    except ValueError:
+        chat_id = CAMPUS_GROUP_CHAT_ID
+
+    rows = [[InlineKeyboardButton(d["label"], url=bot_url(d["username"]))] for d in DEPARTMENTS]
+    if channel_url():
+        rows.append([InlineKeyboardButton("Channel", url=channel_url())])
+    if folder_url():
+        rows.append([InlineKeyboardButton(f"Add {FOLDER_NAME} folder", url=folder_url())])
+    text = (
+        f"{FOLDER_NAME} campus menu\n\n"
+        "Bots in this group are part of the shared folder.\n"
+        "Tap a department to open its study bot in private chat:"
+    )
+    try:
+        await context.bot.send_message(
+            chat_id=chat_id,
+            text=text,
+            reply_markup=InlineKeyboardMarkup(rows),
+            disable_web_page_preview=True,
+        )
+        await safe_reply(update, "Posted campus menu to the group.")
+    except TelegramError as exc:
+        log.error("post_campus_menu failed: %s", exc)
+        await safe_reply(
+            update,
+            f"Could not post to campus group: {exc}\n"
+            "Make sure the hub bot is an admin there.",
+        )
+
+
 async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     text = (update.message.text or "").strip()
+    if text == BTN_FOLDER or text.lower() in {"folder", "folders", f"{FOLDER_NAME.lower()} folder"}:
+        await send_folder_help(update)
+        return
+
     dept = LABEL_TO_DEPT.get(text)
     if dept:
         await offer_department(update, context, dept)
@@ -381,6 +505,11 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
             reply_markup=link_keyboard(dept),
             disable_web_page_preview=True,
         )
+        await query.message.reply_text(
+            bot_in_folder_tip(dept),
+            reply_markup=start_extra_keyboard(),
+            disable_web_page_preview=True,
+        )
 
     if data.startswith("dept:"):
         key = data.split(":", 1)[1]
@@ -394,12 +523,11 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
             await open_dept(dept)
             return
         await query.edit_message_text(
-            f"Before opening {dept['label']}, join our CharaNas channel"
-            + (f" (or add the {FOLDER_NAME} folder)" if folder_url() else "")
+            f"Before opening {dept['label']}, join the {FOLDER_NAME} channel"
+            + (" / folder" if folder_url() else "")
             + ".\n\n"
-            "1) Tap Join / Add folder\n"
-            "2) Come back and tap I joined — Continue\n\n"
-            "(Telegram does not allow bots to add you automatically, and bots cannot be placed inside shared folders.)",
+            "Bots appear in the folder through the campus group + adding each bot chat once.\n"
+            "Tap Join / Add folder, then I joined — Continue.",
             reply_markup=join_gate_keyboard(key),
         )
         return
@@ -482,6 +610,8 @@ def main() -> None:
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("help", help_cmd))
     app.add_handler(CommandHandler("ping", ping))
+    app.add_handler(CommandHandler("folder", folder_cmd))
+    app.add_handler(CommandHandler("post_campus_menu", post_campus_menu))
     app.add_handler(CallbackQueryHandler(on_callback))
     app.add_handler(ChatMemberHandler(on_my_chat_member, ChatMemberHandler.MY_CHAT_MEMBER))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, on_text))
