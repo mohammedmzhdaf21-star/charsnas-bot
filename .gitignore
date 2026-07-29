@@ -1,5 +1,6 @@
 .env
 dentistry/.env
+pharmacy/.env
 __pycache__/
 **/__pycache__/
 *.pyc
@@ -8,3 +9,4 @@ venv/
 *.egg-info/
 bot.log
 dentistry/bot.log
+pharmacy/bot.log
