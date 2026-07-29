@@ -432,7 +432,11 @@ async def user_in_channel(context: ContextTypes.DEFAULT_TYPE, user_id: int) -> b
         log.error("getChatMember forbidden (bot not admin?): %s", exc)
         return None
     except TelegramError as exc:
+        msg = str(exc).lower()
         log.warning("getChatMember failed: %s", exc)
+        # Bot is in channel but cannot read members → use easy Continue unlock
+        if "inaccessible" in msg or "not enough rights" in msg or "chat not found" in msg:
+            return None
         return False
 
 
@@ -694,14 +698,18 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
             await query.edit_message_text("دانیشتنەکە بەسەرچوو. /start بنێرە.")
             return
 
-        # Easy mode: tapping Continue unlocks (optional hard-check if channel id known)
+        # Only block when Telegram confirms the user is NOT a member.
+        # If check is unavailable, unlock on Continue (easy mode).
         status = await user_in_channel(context, user.id)
         if status is False:
-            await query.answer(membership_alert(status), show_alert=True)
+            await query.answer(
+                "هێشتا لە کەناڵدا نیت. سەرەتا بەشداری بکە، پاشان دووبارە هەوڵ بدە.",
+                show_alert=True,
+            )
             return
 
         save_unlocked_user(user.id)
-        await query.answer()
+        await query.answer("سەرکەوتوو بوو ✅")
         await open_dept(dept, thanks=True)
         return
 
