@@ -17,21 +17,20 @@ Entry bot that links users to the department study bots:
 
 Telegram does **not** allow bots to add people to a channel automatically. The hub uses the standard join gate: open channel → verify membership → continue.
 
-## Channel setup
+## Shared folder (channel + groups)
 
-1. Add the **hub bot** as an **admin** of your channel (needed for membership checks).
-2. In `hub/.env`:
+Telegram **shareable folders** can bundle your **channel** (and groups) into one link (`https://t.me/addlist/...`).
 
-```bash
-# Public channel
-CHANNEL_USERNAME=YourChannelUsername
-REQUIRE_CHANNEL=1
+**Limitation:** Telegram does **not** allow bots inside shareable folders. Students still open Medicine / Dentistry / … from this hub bot.
 
-# Or private channel
-# CHANNEL_CHAT_ID=-100xxxxxxxxxx
-# CHANNEL_INVITE_LINK=https://t.me/+xxxxxx
-# REQUIRE_CHANNEL=1
-```
+### How to create the folder link
+
+1. On Telegram: **Settings → Chat Folders → Create folder** (name it e.g. `CharaNas`)
+2. Add your **channel** (and any discussion group)
+3. Open the folder → **Share** / **Create invite link** → copy `https://t.me/addlist/...`
+4. Put it in `hub/.env` as `FOLDER_INVITE_LINK=...` and restart the hub
+
+Then `/start` shows **Add CharaNas folder**.
 
 ## Bot setup
 

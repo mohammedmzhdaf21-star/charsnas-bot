@@ -101,6 +101,11 @@ REQUIRE_CHANNEL = (
 
 JOINED_STATUSES = {"creator", "administrator", "member", "restricted"}
 
+# Optional Telegram shared-folder link (t.me/addlist/...). Can include the channel/groups,
+# but Telegram does NOT allow bots inside shareable folders.
+FOLDER_INVITE_LINK = (os.getenv("FOLDER_INVITE_LINK") or "").strip()
+FOLDER_NAME = (os.getenv("FOLDER_NAME") or "CharaNas").strip() or "CharaNas"
+
 
 def bot_url(username: str) -> str:
     return f"https://t.me/{username}?start=from_hub"
@@ -111,6 +116,13 @@ def channel_url() -> str | None:
         return CHANNEL_INVITE_LINK
     if CHANNEL_USERNAME:
         return f"https://t.me/{CHANNEL_USERNAME}"
+    return None
+
+
+def folder_url() -> str | None:
+    link = FOLDER_INVITE_LINK
+    if link and ("t.me/addlist/" in link or link.startswith("tg://")):
+        return link
     return None
 
 
@@ -140,9 +152,13 @@ def field_reply_keyboard() -> ReplyKeyboardMarkup:
 
 def link_keyboard(dept: dict) -> InlineKeyboardMarkup:
     rows = [[InlineKeyboardButton(f"Open {dept['label']} bot", url=bot_url(dept["username"]))]]
-    url = channel_url()
-    if url:
-        rows.append([InlineKeyboardButton("Join CharaNas channel", url=url)])
+    furl = folder_url()
+    if furl:
+        rows.append([InlineKeyboardButton(f"Add {FOLDER_NAME} folder", url=furl)])
+    else:
+        url = channel_url()
+        if url:
+            rows.append([InlineKeyboardButton("Join CharaNas channel", url=url)])
     return InlineKeyboardMarkup(rows)
 
 
@@ -153,11 +169,30 @@ def pick_field_keyboard() -> InlineKeyboardMarkup:
     )
 
 
+def start_extra_keyboard() -> InlineKeyboardMarkup | None:
+    """Folder / channel buttons shown on /start."""
+    rows: list[list[InlineKeyboardButton]] = []
+    furl = folder_url()
+    if furl:
+        rows.append([InlineKeyboardButton(f"Add {FOLDER_NAME} folder (channel)", url=furl)])
+    curl = channel_url()
+    if curl and not furl:
+        rows.append([InlineKeyboardButton("Join CharaNas channel", url=curl)])
+    elif curl and furl:
+        rows.append([InlineKeyboardButton("Or join channel only", url=curl)])
+    return InlineKeyboardMarkup(rows) if rows else None
+
+
 def join_gate_keyboard(dept_key: str) -> InlineKeyboardMarkup:
     rows: list[list[InlineKeyboardButton]] = []
-    url = channel_url()
-    if url:
-        rows.append([InlineKeyboardButton("1) Join the channel", url=url)])
+    furl = folder_url()
+    curl = channel_url()
+    if furl:
+        rows.append([InlineKeyboardButton(f"1) Add {FOLDER_NAME} folder", url=furl)])
+    elif curl:
+        rows.append([InlineKeyboardButton("1) Join the channel", url=curl)])
+    if curl and furl:
+        rows.append([InlineKeyboardButton("Or join channel only", url=curl)])
     rows.append(
         [InlineKeyboardButton("2) I joined — Continue", callback_data=f"joined:{dept_key}")]
     )
@@ -166,7 +201,7 @@ def join_gate_keyboard(dept_key: str) -> InlineKeyboardMarkup:
 
 def welcome_text() -> str:
     lines = [
-        "Welcome to CharaNas Education Center",
+        f"Welcome to {FOLDER_NAME} Education Center",
         "",
         "Choose your field:",
         "",
@@ -175,7 +210,11 @@ def welcome_text() -> str:
         lines.append(f"- {d['label']}")
         lines.append(f"  {d['blurb']}")
         lines.append("")
-    if REQUIRE_CHANNEL and channel_url():
+    if folder_url():
+        lines.append(f"Tip: tap Add {FOLDER_NAME} folder to put our channel in a Telegram folder.")
+        lines.append("(Telegram does not allow bots inside shared folders — open bots from here.)")
+        lines.append("")
+    elif REQUIRE_CHANNEL and channel_url():
         lines.append("To open a department bot, join our Telegram channel first (one tap).")
         lines.append("Then tap Continue — Telegram cannot join you automatically.")
         lines.append("")
@@ -256,16 +295,25 @@ async def offer_department(
 
     await safe_reply(
         update,
-        f"Before opening {dept['label']}, join our CharaNas channel.\n\n"
-        "1) Tap Join the channel\n"
+        f"Before opening {dept['label']}, join our CharaNas channel"
+        + (f" (or add the {FOLDER_NAME} folder)" if folder_url() else "")
+        + ".\n\n"
+        "1) Tap Join / Add folder\n"
         "2) Come back and tap I joined — Continue\n\n"
-        "(Telegram does not allow bots to add you automatically.)",
+        "(Telegram does not allow bots to add you automatically, and bots cannot be placed inside shared folders.)",
         reply_markup=join_gate_keyboard(dept["key"]),
     )
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await safe_reply(update, welcome_text(), reply_markup=field_reply_keyboard())
+    extra = start_extra_keyboard()
+    if extra:
+        await safe_reply(
+            update,
+            "Channel / folder:",
+            reply_markup=extra,
+        )
     await safe_reply(
         update,
         "Or tap a field here:",
@@ -346,10 +394,12 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
             await open_dept(dept)
             return
         await query.edit_message_text(
-            f"Before opening {dept['label']}, join our CharaNas channel.\n\n"
-            "1) Tap Join the channel\n"
+            f"Before opening {dept['label']}, join our CharaNas channel"
+            + (f" (or add the {FOLDER_NAME} folder)" if folder_url() else "")
+            + ".\n\n"
+            "1) Tap Join / Add folder\n"
             "2) Come back and tap I joined — Continue\n\n"
-            "(Telegram does not allow bots to add you automatically.)",
+            "(Telegram does not allow bots to add you automatically, and bots cannot be placed inside shared folders.)",
             reply_markup=join_gate_keyboard(key),
         )
         return
