@@ -1,4 +1,4 @@
-"""CharaNas hub bot — routes users to Medicine, Dentistry, Pharmacy, MLS, or Nursing bots."""
+"""CharaNas hub bot — routes users to department bots after optional channel join."""
 
 from __future__ import annotations
 
@@ -14,8 +14,15 @@ from telegram import (
     ReplyKeyboardMarkup,
     Update,
 )
-from telegram.error import BadRequest
-from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
+from telegram.error import BadRequest, Forbidden, TelegramError
+from telegram.ext import (
+    Application,
+    CallbackQueryHandler,
+    CommandHandler,
+    ContextTypes,
+    MessageHandler,
+    filters,
+)
 
 logging.basicConfig(
     format="%(asctime)s %(levelname)s %(name)s: %(message)s",
@@ -63,10 +70,39 @@ DEPARTMENTS = [
 ]
 
 LABEL_TO_DEPT = {d["label"]: d for d in DEPARTMENTS}
+KEY_TO_DEPT = {d["key"]: d for d in DEPARTMENTS}
+
+# Channel join gate (Telegram cannot force-join; we require join then verify)
+CHANNEL_USERNAME = (os.getenv("CHANNEL_USERNAME") or "").strip().lstrip("@")
+CHANNEL_INVITE_LINK = (os.getenv("CHANNEL_INVITE_LINK") or "").strip()
+CHANNEL_CHAT_ID = (os.getenv("CHANNEL_CHAT_ID") or "").strip()  # e.g. -100xxxxxxxxxx
+REQUIRE_CHANNEL = (os.getenv("REQUIRE_CHANNEL", "1" if CHANNEL_USERNAME or CHANNEL_CHAT_ID else "0").strip().lower() in {"1", "true", "yes", "on"})
+
+JOINED_STATUSES = {"creator", "administrator", "member", "restricted"}
 
 
 def bot_url(username: str) -> str:
     return f"https://t.me/{username}?start=from_hub"
+
+
+def channel_url() -> str | None:
+    if CHANNEL_INVITE_LINK:
+        return CHANNEL_INVITE_LINK
+    if CHANNEL_USERNAME:
+        return f"https://t.me/{CHANNEL_USERNAME}"
+    return None
+
+
+def channel_ref() -> str | int | None:
+    """Chat id/username passed to getChatMember."""
+    if CHANNEL_CHAT_ID:
+        try:
+            return int(CHANNEL_CHAT_ID)
+        except ValueError:
+            return CHANNEL_CHAT_ID
+    if CHANNEL_USERNAME:
+        return f"@{CHANNEL_USERNAME}"
+    return None
 
 
 def field_reply_keyboard() -> ReplyKeyboardMarkup:
@@ -82,18 +118,29 @@ def field_reply_keyboard() -> ReplyKeyboardMarkup:
 
 
 def link_keyboard(dept: dict) -> InlineKeyboardMarkup:
+    rows = [[InlineKeyboardButton(f"Open {dept['label']} bot", url=bot_url(dept["username"]))]]
+    url = channel_url()
+    if url:
+        rows.append([InlineKeyboardButton("Join CharaNas channel", url=url)])
+    return InlineKeyboardMarkup(rows)
+
+
+def pick_field_keyboard() -> InlineKeyboardMarkup:
+    """Inline field picks use callbacks so the channel gate can run."""
     return InlineKeyboardMarkup(
-        [[InlineKeyboardButton(f"Open {dept['label']} bot", url=bot_url(dept["username"]))]]
+        [[InlineKeyboardButton(d["label"], callback_data=f"dept:{d['key']}")] for d in DEPARTMENTS]
     )
 
 
-def all_links_keyboard() -> InlineKeyboardMarkup:
-    return InlineKeyboardMarkup(
-        [
-            [InlineKeyboardButton(d["label"], url=bot_url(d["username"]))]
-            for d in DEPARTMENTS
-        ]
+def join_gate_keyboard(dept_key: str) -> InlineKeyboardMarkup:
+    rows: list[list[InlineKeyboardButton]] = []
+    url = channel_url()
+    if url:
+        rows.append([InlineKeyboardButton("1) Join the channel", url=url)])
+    rows.append(
+        [InlineKeyboardButton("2) I joined — Continue", callback_data=f"joined:{dept_key}")]
     )
+    return InlineKeyboardMarkup(rows)
 
 
 def welcome_text() -> str:
@@ -107,7 +154,11 @@ def welcome_text() -> str:
         lines.append(f"- {d['label']}")
         lines.append(f"  {d['blurb']}")
         lines.append("")
-    lines.append("Tap a field button below, then Open to go to that bot.")
+    if REQUIRE_CHANNEL and channel_url():
+        lines.append("To open a department bot, join our Telegram channel first (one tap).")
+        lines.append("Then tap Continue — Telegram cannot join you automatically.")
+        lines.append("")
+    lines.append("Tap a field button below.")
     return "\n".join(lines)
 
 
@@ -122,6 +173,30 @@ async def safe_reply(update: Update, text: str, reply_markup=None) -> None:
         await message.reply_text(text)
 
 
+async def user_in_channel(context: ContextTypes.DEFAULT_TYPE, user_id: int) -> bool:
+    if not REQUIRE_CHANNEL:
+        return True
+    chat = channel_ref()
+    if chat is None:
+        return True
+    try:
+        member = await context.bot.get_chat_member(chat_id=chat, user_id=user_id)
+        status = getattr(member, "status", None)
+        ok = status in JOINED_STATUSES
+        log.info("Channel check user=%s status=%s ok=%s", user_id, status, ok)
+        return ok
+    except Forbidden as exc:
+        log.error(
+            "Cannot check channel membership (is hub bot an admin of the channel?): %s",
+            exc,
+        )
+        # Fail open so students are not locked out if misconfigured
+        return True
+    except TelegramError as exc:
+        log.warning("getChatMember failed: %s", exc)
+        return False
+
+
 async def send_department_link(update: Update, dept: dict) -> None:
     await safe_reply(
         update,
@@ -130,13 +205,37 @@ async def send_department_link(update: Update, dept: dict) -> None:
     )
 
 
+async def offer_department(
+    update: Update, context: ContextTypes.DEFAULT_TYPE, dept: dict
+) -> None:
+    """Gate on channel membership, then open the department bot."""
+    user = update.effective_user
+    if not user:
+        return
+
+    context.user_data["pending_dept"] = dept["key"]
+
+    if await user_in_channel(context, user.id):
+        await send_department_link(update, dept)
+        return
+
+    ch = f"@{CHANNEL_USERNAME}" if CHANNEL_USERNAME else "our channel"
+    await safe_reply(
+        update,
+        f"Before opening {dept['label']}, join {ch}.\n\n"
+        "1) Tap Join the channel\n"
+        "2) Tap I joined — Continue\n\n"
+        "(Telegram does not allow bots to add you automatically.)",
+        reply_markup=join_gate_keyboard(dept["key"]),
+    )
+
+
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    # Persistent field buttons + inline deep links
     await safe_reply(update, welcome_text(), reply_markup=field_reply_keyboard())
     await safe_reply(
         update,
-        "Or tap a field here to open that bot directly:",
-        reply_markup=all_links_keyboard(),
+        "Or tap a field here:",
+        reply_markup=pick_field_keyboard(),
     )
 
 
@@ -152,20 +251,20 @@ async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     text = (update.message.text or "").strip()
     dept = LABEL_TO_DEPT.get(text)
     if dept:
-        await send_department_link(update, dept)
+        await offer_department(update, context, dept)
         return
 
     lowered = text.lower()
     for d in DEPARTMENTS:
         if d["label"].lower() in lowered or d["key"] in lowered:
-            await send_department_link(update, d)
+            await offer_department(update, context, d)
             return
     if "laboratory" in lowered or "lab science" in lowered:
-        await send_department_link(update, LABEL_TO_DEPT["MLS"])
+        await offer_department(update, context, LABEL_TO_DEPT["MLS"])
         return
 
     if "nurse" in lowered:
-        await send_department_link(update, LABEL_TO_DEPT["Nursing"])
+        await offer_department(update, context, LABEL_TO_DEPT["Nursing"])
         return
 
     await safe_reply(
@@ -175,9 +274,69 @@ async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     )
     await safe_reply(
         update,
-        "Direct links:",
-        reply_markup=all_links_keyboard(),
+        "Or tap a field here:",
+        reply_markup=pick_field_keyboard(),
     )
+
+
+async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    query = update.callback_query
+    if not query:
+        return
+    await query.answer()
+    data = query.data or ""
+    user = update.effective_user
+    if not user:
+        return
+
+    if data.startswith("dept:"):
+        key = data.split(":", 1)[1]
+        dept = KEY_TO_DEPT.get(key)
+        if not dept:
+            await query.edit_message_text("Unknown field. Send /start and try again.")
+            return
+        context.user_data["pending_dept"] = key
+        if await user_in_channel(context, user.id):
+            await query.edit_message_text(
+                f"{dept['label']} bot\n@{dept['username']}\n\n{dept['blurb']}\n\nTap below to open it:"
+            )
+            await query.message.reply_text(
+                f"Open {dept['label']}:",
+                reply_markup=link_keyboard(dept),
+                disable_web_page_preview=True,
+            )
+            return
+        ch = f"@{CHANNEL_USERNAME}" if CHANNEL_USERNAME else "our channel"
+        await query.edit_message_text(
+            f"Before opening {dept['label']}, join {ch}.\n\n"
+            "1) Tap Join the channel\n"
+            "2) Tap I joined — Continue\n\n"
+            "(Telegram does not allow bots to add you automatically.)",
+            reply_markup=join_gate_keyboard(key),
+        )
+        return
+
+    if data.startswith("joined:"):
+        key = data.split(":", 1)[1]
+        dept = KEY_TO_DEPT.get(key) or KEY_TO_DEPT.get(context.user_data.get("pending_dept", ""))
+        if not dept:
+            await query.edit_message_text("Session expired. Send /start and choose a field again.")
+            return
+        if await user_in_channel(context, user.id):
+            await query.edit_message_text(
+                f"Thanks for joining!\n\n{dept['label']} bot\n@{dept['username']}\n\n{dept['blurb']}"
+            )
+            await query.message.reply_text(
+                f"Open {dept['label']}:",
+                reply_markup=link_keyboard(dept),
+                disable_web_page_preview=True,
+            )
+            return
+        await query.answer(
+            "Still not seeing you in the channel. Join first, then tap Continue.",
+            show_alert=True,
+        )
+        return
 
 
 async def on_error(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -198,6 +357,17 @@ def main() -> None:
             "HUB_BOT_TOKEN is missing. Copy .env.example to .env and set HUB_BOT_TOKEN."
         )
 
+    if REQUIRE_CHANNEL and not channel_ref():
+        log.warning("REQUIRE_CHANNEL is on but CHANNEL_USERNAME / CHANNEL_CHAT_ID is empty")
+    elif REQUIRE_CHANNEL:
+        log.info(
+            "Channel gate ON for %s (invite=%s)",
+            channel_ref(),
+            "yes" if channel_url() else "no",
+        )
+    else:
+        log.info("Channel gate OFF")
+
     app = (
         Application.builder()
         .token(token)
@@ -209,6 +379,7 @@ def main() -> None:
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("help", help_cmd))
     app.add_handler(CommandHandler("ping", ping))
+    app.add_handler(CallbackQueryHandler(on_callback))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, on_text))
     app.add_error_handler(on_error)
 
