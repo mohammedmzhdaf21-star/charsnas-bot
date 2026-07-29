@@ -153,16 +153,16 @@ def detect_feature_intent(text: str) -> str | None:
 
 
 def question_keyboard(specialty_key: str, difficulty: str, idx: int, item: dict) -> InlineKeyboardMarkup:
+    """Short A–D buttons; full option text is in the message body."""
     rows = []
     row = []
-    # callback must stay under 64 bytes: q:card:e:0:A style short codes
     diff_code = {"easy": "e", "medium": "m", "hard": "h", "extreme": "x"}[difficulty]
     spec_code = specialty_key[:8]
     for option in item["options"]:
         letter = option_letter(option)
         row.append(
             InlineKeyboardButton(
-                option,
+                letter,  # full answer text is shown in the message, not truncated on the button
                 callback_data=f"q:{spec_code}:{diff_code}:{idx}:{letter}",
             )
         )
@@ -171,7 +171,6 @@ def question_keyboard(specialty_key: str, difficulty: str, idx: int, item: dict)
             row = []
     if row:
         rows.append(row)
-    # store full keys for callback resolution
     return InlineKeyboardMarkup(rows)
 
 
@@ -204,11 +203,17 @@ async def safe_reply(update: Update, text: str, reply_markup=None, parse_mode: s
 
 
 async def safe_edit(query, text: str, parse_mode: str | None = "Markdown") -> None:
-    try:
-        await query.edit_message_text(text, parse_mode=parse_mode)
-    except BadRequest as exc:
-        log.warning("Markdown edit failed: %s — retrying plain text", exc)
-        await query.edit_message_text(text)
+    """Show the full answer even when long; split across messages if needed."""
+    import sys
+    from pathlib import Path as _Path
+    root = _Path(__file__).resolve().parent
+    if (root / "telegram_text.py").exists():
+        sys.path.insert(0, str(root))
+    elif (root.parent / "telegram_text.py").exists():
+        sys.path.insert(0, str(root.parent))
+    from telegram_text import edit_or_send_full
+
+    await edit_or_send_full(query, text)
 
 
 async def show_specialty_menu(update: Update, context: ContextTypes.DEFAULT_TYPE, text: str | None = None) -> None:
@@ -436,7 +441,21 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
             )
             return
         label = specialty_label(specialty_key)
-        await safe_edit(query, format_question_result(item, choice, label, difficulty))
+        result = format_question_result(item, choice, label, difficulty)
+        await safe_edit(query, result)
+        # Follow-up message guarantees the full answer is visible
+        import sys
+        from pathlib import Path as _P
+        _root = _P(__file__).resolve().parent
+        if (_root.parent / "telegram_text.py").exists():
+            sys.path.insert(0, str(_root.parent))
+        elif (_root / "telegram_text.py").exists():
+            sys.path.insert(0, str(_root))
+        from telegram_text import send_full_text, strip_markdown_markers
+        await send_full_text(
+            query.message,
+            "📄 Full answer:\n\n" + strip_markdown_markers(result),
+        )
         return
 
     if data.startswith("c:"):
@@ -453,7 +472,20 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
             )
             return
         label = specialty_label(specialty_key)
-        await safe_edit(query, format_case_result(item, label, difficulty))
+        result = format_case_result(item, label, difficulty)
+        await safe_edit(query, result)
+        import sys
+        from pathlib import Path as _P
+        _root = _P(__file__).resolve().parent
+        if (_root.parent / "telegram_text.py").exists():
+            sys.path.insert(0, str(_root.parent))
+        elif (_root / "telegram_text.py").exists():
+            sys.path.insert(0, str(_root))
+        from telegram_text import send_full_text, strip_markdown_markers
+        await send_full_text(
+            query.message,
+            "📄 Full answer:\n\n" + strip_markdown_markers(result),
+        )
         return
 
 

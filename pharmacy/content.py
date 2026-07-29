@@ -1841,14 +1841,14 @@ def option_letter(option: str) -> str:
 
 def format_question_prompt(item: dict, specialty_label_text: str, difficulty: str) -> str:
     diff = DIFFICULTY_LABELS[difficulty]
+    options = "\n".join(item["options"])
     return (
         f"📘 *Short MCQ — {specialty_label_text}*\n"
         f"Difficulty: *{diff}*\n\n"
         f"{item['question']}\n\n"
-        f"_Tap an answer button below._"
+        f"{options}\n\n"
+        f"_Tap A / B / C / D below. Full text is shown above._"
     )
-
-
 def format_question_result(
     item: dict, chosen: str, specialty_label_text: str, difficulty: str
 ) -> str:
