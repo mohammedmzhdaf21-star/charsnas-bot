@@ -1,4 +1,4 @@
-"""CharaNas hub bot — routes users to department bots after optional channel join."""
+"""CharaNas hub bot — Kurdish Sorani UI; routes to department bots."""
 
 from __future__ import annotations
 
@@ -37,43 +37,56 @@ log = logging.getLogger("charanas-hub-bot")
 
 load_dotenv(Path(__file__).resolve().parent / ".env")
 
+# All student-facing copy is Central Kurdish (Sorani). Brand name CharaNas kept.
 DEPARTMENTS = [
     {
         "key": "medicine",
-        "label": "Medicine",
+        "label": "پزیشکی",
+        "aliases": ("medicine", "پزیشکی", "پەزیشکی"),
         "username": os.getenv("MEDICINE_BOT_USERNAME", "CharanasMedicine_bot"),
-        "blurb": "Undergraduate medicine specialties, MCQs, cases, PDFs, and book sources.",
+        "blurb": "تایبەتمەندییەکانی پزیشکی قۆناغی بەکالۆریۆس، پرسیاری فرەهەڵبژاردە، کەیس، پەڕگەی PDF و سەرچاوەی کتێب.",
     },
     {
         "key": "dentistry",
-        "label": "Dentistry",
+        "label": "پزیشکی ددان",
+        "aliases": ("dentistry", "پزیشکی ددان", "ددانسازی", "ددان‌سازی", "ددان سازی"),
         "username": os.getenv("DENTISTRY_BOT_USERNAME", "Charanasdentistry_bot"),
-        "blurb": "Undergraduate dentistry specialties, MCQs, cases, PDFs, and book sources.",
+        "blurb": "تایبەتمەندییەکانی پزیشکی ددان قۆناغی بەکالۆریۆس، پرسیاری فرەهەڵبژاردە، کەیس، پەڕگەی PDF و سەرچاوەی کتێب.",
     },
     {
         "key": "pharmacy",
-        "label": "Pharmacy",
+        "label": "دەرمانسازی",
+        "aliases": ("pharmacy", "دەرمانسازی", "دەرمان سازی", "فارماسی"),
         "username": os.getenv("PHARMACY_BOT_USERNAME", "Charanaspharmacy_bot"),
-        "blurb": "Undergraduate pharmacy specialties, MCQs, cases, PDFs, and book sources.",
+        "blurb": "تایبەتمەندییەکانی دەرمانسازی قۆناغی بەکالۆریۆس، پرسیاری فرەهەڵبژاردە، کەیس، پەڕگەی PDF و سەرچاوەی کتێب.",
     },
     {
         "key": "mls",
-        "label": "MLS",
+        "label": "تاقیگەی پزیشکی",
+        "aliases": (
+            "mls",
+            "laboratory",
+            "lab science",
+            "تاقیگە",
+            "تاقیگەی پزیشکی",
+            "زانستی تاقیگە",
+            "زانستی تاقیگەی پزیشکی",
+        ),
         "username": os.getenv("MLS_BOT_USERNAME", "CharanasMLS_bot"),
-        "blurb": "Undergraduate medical laboratory science specialties, MCQs, cases, PDFs, and book sources.",
+        "blurb": "تایبەتمەندییەکانی زانستی تاقیگەی پزیشکی قۆناغی بەکالۆریۆس، پرسیاری فرەهەڵبژاردە، کەیس، پەڕگەی PDF و سەرچاوەی کتێب.",
     },
     {
         "key": "nursing",
-        "label": "Nursing",
+        "label": "پەرستاری",
+        "aliases": ("nursing", "nurse", "پەرستاری", "نەرسینگ"),
         "username": os.getenv("NURSING_BOT_USERNAME", "Charanasnursing_bot"),
-        "blurb": "Undergraduate nursing specialties, MCQs, cases, PDFs, and book sources.",
+        "blurb": "تایبەتمەندییەکانی پەرستاری قۆناغی بەکالۆریۆس، پرسیاری فرەهەڵبژاردە، کەیس، پەڕگەی PDF و سەرچاوەی کتێب.",
     },
 ]
 
 LABEL_TO_DEPT = {d["label"]: d for d in DEPARTMENTS}
 KEY_TO_DEPT = {d["key"]: d for d in DEPARTMENTS}
 
-# Channel join gate (Telegram cannot force-join; we require join then verify)
 CHANNEL_USERNAME = (os.getenv("CHANNEL_USERNAME") or "").strip().lstrip("@")
 CHANNEL_INVITE_LINK = (os.getenv("CHANNEL_INVITE_LINK") or "").strip()
 _CHANNEL_ID_FILE = Path(__file__).resolve().parent / "channel_chat_id.txt"
@@ -88,7 +101,7 @@ def _load_channel_chat_id() -> str:
     return ""
 
 
-CHANNEL_CHAT_ID = _load_channel_chat_id()  # e.g. -100xxxxxxxxxx
+CHANNEL_CHAT_ID = _load_channel_chat_id()
 REQUIRE_CHANNEL = (
     os.getenv(
         "REQUIRE_CHANNEL",
@@ -101,15 +114,12 @@ REQUIRE_CHANNEL = (
 
 JOINED_STATUSES = {"creator", "administrator", "member", "restricted"}
 
-# Optional Telegram shared-folder link (t.me/addlist/...).
-# Shareable folders can include channels + groups (NOT bot DMs directly).
-# Workaround: put a Campus group (with all bots as members) + channel in the folder.
 FOLDER_INVITE_LINK = (os.getenv("FOLDER_INVITE_LINK") or "").strip()
 FOLDER_NAME = (os.getenv("FOLDER_NAME") or "CharaNas").strip() or "CharaNas"
 CAMPUS_GROUP_INVITE = (os.getenv("CAMPUS_GROUP_INVITE") or "").strip()
 CAMPUS_GROUP_CHAT_ID = (os.getenv("CAMPUS_GROUP_CHAT_ID") or "").strip()
 HUB_BOT_USERNAME = (os.getenv("HUB_BOT_USERNAME") or "Charanaseducenter_bot").strip().lstrip("@")
-BTN_FOLDER = f"{FOLDER_NAME} folder"
+BTN_FOLDER = f"فۆڵدەری {FOLDER_NAME}"
 
 
 def bot_url(username: str) -> str:
@@ -136,7 +146,6 @@ def campus_url() -> str | None:
 
 
 def channel_ref() -> str | int | None:
-    """Chat id/username passed to getChatMember."""
     if CHANNEL_CHAT_ID:
         try:
             return int(CHANNEL_CHAT_ID)
@@ -147,12 +156,41 @@ def channel_ref() -> str | int | None:
     return None
 
 
+def resolve_department(text: str) -> dict | None:
+    stripped = text.strip()
+    if not stripped:
+        return None
+    if stripped in LABEL_TO_DEPT:
+        return LABEL_TO_DEPT[stripped]
+    lowered = stripped.lower()
+
+    for d in DEPARTMENTS:
+        if d["key"] == lowered:
+            return d
+        for alias in d["aliases"]:
+            if alias == stripped or alias.lower() == lowered:
+                return d
+
+    # Prefer the longest alias contained in the text (پزیشکی ددان > پزیشکی)
+    best: dict | None = None
+    best_len = 0
+    for d in DEPARTMENTS:
+        for alias in d["aliases"]:
+            if len(alias) < 3:
+                continue
+            if alias in stripped or alias.lower() in lowered:
+                if len(alias) > best_len:
+                    best = d
+                    best_len = len(alias)
+    return best
+
+
 def field_reply_keyboard() -> ReplyKeyboardMarkup:
     return ReplyKeyboardMarkup(
         [
-            [KeyboardButton("Medicine"), KeyboardButton("Dentistry")],
-            [KeyboardButton("Pharmacy"), KeyboardButton("MLS")],
-            [KeyboardButton("Nursing")],
+            [KeyboardButton("پزیشکی"), KeyboardButton("پزیشکی ددان")],
+            [KeyboardButton("دەرمانسازی"), KeyboardButton("تاقیگەی پزیشکی")],
+            [KeyboardButton("پەرستاری")],
             [KeyboardButton(BTN_FOLDER)],
         ],
         resize_keyboard=True,
@@ -161,38 +199,45 @@ def field_reply_keyboard() -> ReplyKeyboardMarkup:
 
 
 def link_keyboard(dept: dict) -> InlineKeyboardMarkup:
-    rows = [[InlineKeyboardButton(f"Open {dept['label']} bot", url=bot_url(dept["username"]))]]
+    rows = [
+        [
+            InlineKeyboardButton(
+                f"کردنەوەی بۆتی {dept['label']}",
+                url=bot_url(dept["username"]),
+            )
+        ]
+    ]
     furl = folder_url()
     curl = channel_url()
     camp = campus_url()
     if furl:
-        rows.append([InlineKeyboardButton(f"Add {FOLDER_NAME} folder", url=furl)])
+        rows.append([InlineKeyboardButton(f"زیادکردنی فۆڵدەری {FOLDER_NAME}", url=furl)])
     if camp:
-        rows.append([InlineKeyboardButton("Open campus group (bots inside)", url=camp)])
+        rows.append(
+            [InlineKeyboardButton("کردنەوەی گرووپی کەمپەس (بۆتەکان تێیدان)", url=camp)]
+        )
     if curl and not furl:
-        rows.append([InlineKeyboardButton("Join CharaNas channel", url=curl)])
+        rows.append([InlineKeyboardButton("بەشداری لە کەناڵی چاراناس", url=curl)])
     return InlineKeyboardMarkup(rows)
 
 
 def pick_field_keyboard() -> InlineKeyboardMarkup:
-    """Inline field picks use callbacks so the channel gate can run."""
     return InlineKeyboardMarkup(
         [[InlineKeyboardButton(d["label"], callback_data=f"dept:{d['key']}")] for d in DEPARTMENTS]
     )
 
 
 def start_extra_keyboard() -> InlineKeyboardMarkup | None:
-    """Folder / channel / campus buttons shown on /start."""
     rows: list[list[InlineKeyboardButton]] = []
     furl = folder_url()
     camp = campus_url()
     curl = channel_url()
     if furl:
-        rows.append([InlineKeyboardButton(f"Add {FOLDER_NAME} folder", url=furl)])
+        rows.append([InlineKeyboardButton(f"زیادکردنی فۆڵدەری {FOLDER_NAME}", url=furl)])
     if camp:
-        rows.append([InlineKeyboardButton("Campus group (bots live here)", url=camp)])
+        rows.append([InlineKeyboardButton("گرووپی کەمپەس (بۆتەکان لێرەن)", url=camp)])
     if curl:
-        label = "Join channel" if furl or camp else "Join CharaNas channel"
+        label = "بەشداری لە کەناڵ" if furl or camp else "بەشداری لە کەناڵی چاراناس"
         rows.append([InlineKeyboardButton(label, url=curl)])
     return InlineKeyboardMarkup(rows) if rows else None
 
@@ -204,27 +249,34 @@ def join_gate_keyboard(dept_key: str) -> InlineKeyboardMarkup:
     camp = campus_url()
     step = 1
     if furl:
-        rows.append([InlineKeyboardButton(f"{step}) Add {FOLDER_NAME} folder", url=furl)])
+        rows.append(
+            [InlineKeyboardButton(f"{step}) زیادکردنی فۆڵدەری {FOLDER_NAME}", url=furl)]
+        )
         step += 1
     elif curl:
-        rows.append([InlineKeyboardButton(f"{step}) Join the channel", url=curl)])
+        rows.append([InlineKeyboardButton(f"{step}) بەشداری لە کەناڵ", url=curl)])
         step += 1
     if camp:
-        rows.append([InlineKeyboardButton(f"{step}) Open campus group", url=camp)])
+        rows.append([InlineKeyboardButton(f"{step}) کردنەوەی گرووپی کەمپەس", url=camp)])
         step += 1
     if curl and furl:
-        rows.append([InlineKeyboardButton("Or join channel only", url=curl)])
+        rows.append([InlineKeyboardButton("یان تەنها بەشداری کەناڵ بکە", url=curl)])
     rows.append(
-        [InlineKeyboardButton(f"{step}) I joined — Continue", callback_data=f"joined:{dept_key}")]
+        [
+            InlineKeyboardButton(
+                f"{step}) بەشداریم کرد — بەردەوامبە",
+                callback_data=f"joined:{dept_key}",
+            )
+        ]
     )
     return InlineKeyboardMarkup(rows)
 
 
 def welcome_text() -> str:
     lines = [
-        f"Welcome to {FOLDER_NAME} Education Center",
+        f"بەخێربێیت بۆ ناوەندی پەروەردەی {FOLDER_NAME}",
         "",
-        "Choose your field:",
+        "بوارەکەت هەڵبژێرە:",
         "",
     ]
     for d in DEPARTMENTS:
@@ -232,51 +284,54 @@ def welcome_text() -> str:
         lines.append(f"  {d['blurb']}")
         lines.append("")
     if folder_url() or campus_url():
-        lines.append(f"Folder setup: channel + campus group (bots are members of the group).")
-        lines.append(f"Tap {BTN_FOLDER} for the one-tap add link and how to keep bots in the tab.")
+        lines.append("ڕێکخستنی فۆڵدەر: کەناڵ + گرووپی کەمپەس (بۆتەکان ئەندامی گرووپەکەن).")
+        lines.append(
+            f"دوگمەی «{BTN_FOLDER}» لێدە بۆ بەستەری زیادکردن و شێوازی هێشتنی بۆتەکان لە فۆڵدەر."
+        )
         lines.append("")
     elif REQUIRE_CHANNEL and channel_url():
-        lines.append("Join our Telegram channel first, then Continue.")
+        lines.append("سەرەتا بەشداری کەناڵەکەمان لە تێلێگرام بکە، پاشان بەردەوامبە.")
         lines.append("")
-    lines.append("Tap a field button below.")
+    lines.append("دوگمەی بوارێک لە خوارەوە لێدە.")
     return "\n".join(lines)
 
 
 def folder_howto_text() -> str:
-    """How bots end up in the folder despite Telegram's share-folder limits."""
     lines = [
-        f"How {FOLDER_NAME} folder works",
+        f"فۆڵدەری {FOLDER_NAME} چۆن کاردەکات",
         "",
-        "Telegram will not put bot chats inside a *shared* folder invite.",
-        "So we use this working setup:",
+        "تێلێگرام ڕێگە نادات گفتوگۆی بۆت لەناو بانگەوازی فۆڵدەری هاوبەش دابنرێت.",
+        "بۆیە ئەم ڕێگەکارە بەکاردەهێنین:",
         "",
-        "1) Shared folder = Channel + Campus group",
-        "2) All study bots are *members/admins of the campus group*",
-        "   → opening the folder shows the group → bots are inside it",
-        "3) After you Open a department bot once, add that bot chat to the",
-        f"   {FOLDER_NAME} folder on your phone (Edit folder → Included chats)",
-        "   → the bot then appears as its own chat in your folder tab too",
+        "١) فۆڵدەری هاوبەش = کەناڵ + گرووپی کەمپەس",
+        "٢) هەموو بۆتەکانی خوێندن ئەندام/بەڕێوەبەری گرووپی کەمپەسن",
+        "   ← کردنەوەی فۆڵدەر گرووپەکە پیشان دەدات ← بۆتەکان تێیدان",
+        "٣) دوای کردنەوەی بۆتی بەشێک جارێک، ئەو بۆتە زیاد بکە بۆ",
+        f"   فۆڵدەری {FOLDER_NAME} لە مۆبایلەکەت (دەستکاری فۆڵدەر ← چاتەکان)",
+        "   ← ئەوکات بۆتەکە وەک گفتوگۆیەکی سەربەخۆش لە تابەکە دەردەکەوێت",
         "",
     ]
     if folder_url():
-        lines.append(f"Folder link: {folder_url()}")
+        lines.append(f"بەستەری فۆڵدەر: {folder_url()}")
     else:
-        lines.append("Folder link: not set yet (admin: create folder + paste FOLDER_INVITE_LINK).")
+        lines.append("بەستەری فۆڵدەر: هێشتا دانەنراوە (بەڕێوەبەر: فۆڵدەر دروست بکە و FOLDER_INVITE_LINK دابنێ).")
     if campus_url():
-        lines.append(f"Campus group: {campus_url()}")
+        lines.append(f"گرووپی کەمپەس: {campus_url()}")
     else:
-        lines.append("Campus group: not set yet (admin: create group, add all bots, paste CAMPUS_GROUP_INVITE).")
+        lines.append(
+            "گرووپی کەمپەس: هێشتا دانەنراوە (بەڕێوەبەر: گرووپ دروست بکە، بۆتەکان زیاد بکە، CAMPUS_GROUP_INVITE دابنێ)."
+        )
     if channel_url():
-        lines.append(f"Channel: {channel_url()}")
+        lines.append(f"کەناڵ: {channel_url()}")
     lines.extend(
         [
             "",
-            "Admin setup checklist:",
-            "1. Create group: CharaNas Campus",
-            "2. Add as admin: hub + Medicine + Dentistry + Pharmacy + MLS + Nursing bots",
-            "3. Settings → Chat Folders → New folder → add Channel + Campus group",
-            "4. Share folder → copy https://t.me/addlist/... link",
-            "5. Put FOLDER_INVITE_LINK and CAMPUS_GROUP_INVITE in hub/.env and restart",
+            "پێڕستی ڕێکخستن بۆ بەڕێوەبەر:",
+            "١. گرووپ دروست بکە: کەمپەسی چاراناس",
+            "٢. وەک بەڕێوەبەر زیاد بکە: بۆتی ناوەند + پزیشکی + پزیشکی ددان + دەرمانسازی + تاقیگە + پەرستاری",
+            "٣. ڕێکخستنەکان ← فۆڵدەری چات ← فۆڵدەری نوێ ← کەناڵ + گرووپی کەمپەس زیاد بکە",
+            "٤. فۆڵدەر هاوبەش بکە ← بەستەری https://t.me/addlist/... کۆپی بکە",
+            "٥. FOLDER_INVITE_LINK و CAMPUS_GROUP_INVITE لە hub/.env دابنێ و بۆتەکە دەستپێبکەرەوە",
         ]
     )
     return "\n".join(lines)
@@ -284,12 +339,12 @@ def folder_howto_text() -> str:
 
 def bot_in_folder_tip(dept: dict) -> str:
     return (
-        f"Keep @{dept['username']} in your {FOLDER_NAME} folder:\n"
-        f"1) Open the bot (button above)\n"
-        f"2) Telegram → Settings → Chat Folders → {FOLDER_NAME}\n"
-        f"3) Included chats → add @{dept['username']}\n\n"
-        "That is how bot chats appear in the folder tab "
-        "(shared folder invites cannot include bots directly)."
+        f"بۆتی @{dept['username']} لە فۆڵدەری {FOLDER_NAME} بهێڵەرەوە:\n"
+        f"١) بۆتەکە بکەرەوە (دوگمەی سەرەوە)\n"
+        f"٢) تێلێگرام ← ڕێکخستنەکان ← فۆڵدەری چات ← {FOLDER_NAME}\n"
+        f"٣) چاتەکان ← @{dept['username']} زیاد بکە\n\n"
+        "ئەمە شێوازی دەرکەوتنی گفتوگۆی بۆتە لە تابەکەی فۆڵدەر "
+        "(بانگەوازی فۆڵدەری هاوبەش ڕاستەوخۆ بۆت وەرناگرێت)."
     )
 
 
@@ -309,12 +364,10 @@ def can_verify_membership() -> bool:
 
 
 async def user_in_channel(context: ContextTypes.DEFAULT_TYPE, user_id: int) -> bool | None:
-    """Return True/False when verifiable; None when only invite-link soft gate is available."""
     if not REQUIRE_CHANNEL:
         return True
     chat = channel_ref()
     if chat is None:
-        # Private invite configured but chat id unknown yet — soft gate
         return None
     try:
         member = await context.bot.get_chat_member(chat_id=chat, user_id=user_id)
@@ -327,7 +380,6 @@ async def user_in_channel(context: ContextTypes.DEFAULT_TYPE, user_id: int) -> b
             "Cannot check channel membership (is hub bot an admin of the channel?): %s",
             exc,
         )
-        # Soft-fail: still show join link, but allow continue so students are not locked out
         return None
     except TelegramError as exc:
         log.warning("getChatMember failed: %s", exc)
@@ -344,21 +396,29 @@ def persist_channel_chat_id(chat_id: int) -> None:
 async def send_department_link(update: Update, dept: dict) -> None:
     await safe_reply(
         update,
-        f"{dept['label']} bot\n@{dept['username']}\n\n{dept['blurb']}\n\nTap the button below to open it:",
+        f"بۆتی {dept['label']}\n@{dept['username']}\n\n{dept['blurb']}\n\n"
+        "بۆ کردنەوەی، دوگمەی خوارەوە لێدە:",
         reply_markup=link_keyboard(dept),
     )
     await safe_reply(update, bot_in_folder_tip(dept), reply_markup=start_extra_keyboard())
 
 
 async def send_folder_help(update: Update) -> None:
-    await safe_reply(update, folder_howto_text(), reply_markup=start_extra_keyboard() or field_reply_keyboard())
-    await safe_reply(update, "Choose a field anytime:", reply_markup=field_reply_keyboard())
+    await safe_reply(
+        update,
+        folder_howto_text(),
+        reply_markup=start_extra_keyboard() or field_reply_keyboard(),
+    )
+    await safe_reply(
+        update,
+        "هەر کاتێک بوارێک هەڵبژێرە:",
+        reply_markup=field_reply_keyboard(),
+    )
 
 
 async def offer_department(
     update: Update, context: ContextTypes.DEFAULT_TYPE, dept: dict
 ) -> None:
-    """Gate on channel membership, then open the department bot."""
     user = update.effective_user
     if not user:
         return
@@ -370,13 +430,12 @@ async def offer_department(
         await send_department_link(update, dept)
         return
 
+    extra = " / فۆڵدەر" if folder_url() else ""
     await safe_reply(
         update,
-        f"Before opening {dept['label']}, join the {FOLDER_NAME} channel"
-        + (" / folder" if folder_url() else "")
-        + ".\n\n"
-        "Bots appear in the folder through the campus group + adding each bot chat once.\n"
-        "Tap Join / Add folder, then I joined — Continue.",
+        f"پێش کردنەوەی {dept['label']}، بەشداری کەناڵی {FOLDER_NAME}{extra} بکە.\n\n"
+        "بۆتەکان لە ڕێگەی گرووپی کەمپەس و زیادکردنی هەر بۆتێک جارێک لە فۆڵدەر دەردەکەون.\n"
+        "بەشداری / زیادکردنی فۆڵدەر لێدە، پاشان «بەشداریم کرد — بەردەوامبە».",
         reply_markup=join_gate_keyboard(dept["key"]),
     )
 
@@ -387,12 +446,12 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     if extra:
         await safe_reply(
             update,
-            "Channel / folder:",
+            "کەناڵ / فۆڵدەر:",
             reply_markup=extra,
         )
     await safe_reply(
         update,
-        "Or tap a field here:",
+        "یان لێرە بوارێک هەڵبژێرە:",
         reply_markup=pick_field_keyboard(),
     )
 
@@ -406,15 +465,17 @@ async def folder_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None
 
 
 async def ping(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await safe_reply(update, "CharaNas hub bot is online. Send /start to choose a field.")
+    await safe_reply(
+        update,
+        "بۆتی ناوەندی پەروەردەی چاراناس کاراە. /start بنێرە بۆ هەڵبژاردنی بوار.",
+    )
 
 
 async def post_campus_menu(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    """Admin helper: post Open-bot buttons into the campus group."""
     if not CAMPUS_GROUP_CHAT_ID:
         await safe_reply(
             update,
-            "Set CAMPUS_GROUP_CHAT_ID in hub/.env first (numeric id like -100...).",
+            "سەرەتا CAMPUS_GROUP_CHAT_ID لە hub/.env دابنێ (ژمارەی وەک -100...).",
         )
         return
     try:
@@ -424,13 +485,13 @@ async def post_campus_menu(update: Update, context: ContextTypes.DEFAULT_TYPE) -
 
     rows = [[InlineKeyboardButton(d["label"], url=bot_url(d["username"]))] for d in DEPARTMENTS]
     if channel_url():
-        rows.append([InlineKeyboardButton("Channel", url=channel_url())])
+        rows.append([InlineKeyboardButton("کەناڵ", url=channel_url())])
     if folder_url():
-        rows.append([InlineKeyboardButton(f"Add {FOLDER_NAME} folder", url=folder_url())])
+        rows.append([InlineKeyboardButton(f"زیادکردنی فۆڵدەری {FOLDER_NAME}", url=folder_url())])
     text = (
-        f"{FOLDER_NAME} campus menu\n\n"
-        "Bots in this group are part of the shared folder.\n"
-        "Tap a department to open its study bot in private chat:"
+        f"مێنیوی کەمپەسی {FOLDER_NAME}\n\n"
+        "بۆتەکانی ئەم گرووپە بەشی فۆڵدەری هاوبەشن.\n"
+        "بوارێک لێدە بۆ کردنەوەی بۆتی خوێندن لە چاتی تایبەت:"
     )
     try:
         await context.bot.send_message(
@@ -439,48 +500,39 @@ async def post_campus_menu(update: Update, context: ContextTypes.DEFAULT_TYPE) -
             reply_markup=InlineKeyboardMarkup(rows),
             disable_web_page_preview=True,
         )
-        await safe_reply(update, "Posted campus menu to the group.")
+        await safe_reply(update, "مێنیوی کەمپەس بۆ گرووپەکە نێردرا.")
     except TelegramError as exc:
         log.error("post_campus_menu failed: %s", exc)
         await safe_reply(
             update,
-            f"Could not post to campus group: {exc}\n"
-            "Make sure the hub bot is an admin there.",
+            f"نەتوانرا بۆ گرووپی کەمپەس بنێردرێت: {exc}\n"
+            "دڵنیابە بۆتی ناوەند بەڕێوەبەری گرووپەکەیە.",
         )
 
 
 async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     text = (update.message.text or "").strip()
-    if text == BTN_FOLDER or text.lower() in {"folder", "folders", f"{FOLDER_NAME.lower()} folder"}:
+    if (
+        text == BTN_FOLDER
+        or text in {"فۆڵدەر", "فۆڵدەرەکان", f"فۆڵدەری {FOLDER_NAME}"}
+        or text.lower() in {"folder", "folders", f"{FOLDER_NAME.lower()} folder"}
+    ):
         await send_folder_help(update)
         return
 
-    dept = LABEL_TO_DEPT.get(text)
+    dept = resolve_department(text)
     if dept:
         await offer_department(update, context, dept)
         return
 
-    lowered = text.lower()
-    for d in DEPARTMENTS:
-        if d["label"].lower() in lowered or d["key"] in lowered:
-            await offer_department(update, context, d)
-            return
-    if "laboratory" in lowered or "lab science" in lowered:
-        await offer_department(update, context, LABEL_TO_DEPT["MLS"])
-        return
-
-    if "nurse" in lowered:
-        await offer_department(update, context, LABEL_TO_DEPT["Nursing"])
-        return
-
     await safe_reply(
         update,
-        "Please choose Medicine, Dentistry, Pharmacy, MLS, or Nursing.",
+        "تکایە پزیشکی، پزیشکی ددان، دەرمانسازی، تاقیگەی پزیشکی یان پەرستاری هەڵبژێرە.",
         reply_markup=field_reply_keyboard(),
     )
     await safe_reply(
         update,
-        "Or tap a field here:",
+        "یان لێرە بوارێک هەڵبژێرە:",
         reply_markup=pick_field_keyboard(),
     )
 
@@ -496,12 +548,13 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         return
 
     async def open_dept(dept: dict, thanks: bool = False) -> None:
-        prefix = "Thanks for joining!\n\n" if thanks else ""
+        prefix = "سوپاس بۆ بەشداریکردن!\n\n" if thanks else ""
         await query.edit_message_text(
-            f"{prefix}{dept['label']} bot\n@{dept['username']}\n\n{dept['blurb']}\n\nTap below to open it:"
+            f"{prefix}بۆتی {dept['label']}\n@{dept['username']}\n\n{dept['blurb']}\n\n"
+            "بۆ کردنەوەی، دوگمەی خوارەوە لێدە:"
         )
         await query.message.reply_text(
-            f"Open {dept['label']}:",
+            f"کردنەوەی {dept['label']}:",
             reply_markup=link_keyboard(dept),
             disable_web_page_preview=True,
         )
@@ -515,19 +568,18 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         key = data.split(":", 1)[1]
         dept = KEY_TO_DEPT.get(key)
         if not dept:
-            await query.edit_message_text("Unknown field. Send /start and try again.")
+            await query.edit_message_text("بوار نەناسراو. /start بنێرە و دووبارە هەوڵ بدە.")
             return
         context.user_data["pending_dept"] = key
         status = await user_in_channel(context, user.id)
         if status is True or (status is None and context.user_data.get("channel_soft_ok")):
             await open_dept(dept)
             return
+        extra = " / فۆڵدەر" if folder_url() else ""
         await query.edit_message_text(
-            f"Before opening {dept['label']}, join the {FOLDER_NAME} channel"
-            + (" / folder" if folder_url() else "")
-            + ".\n\n"
-            "Bots appear in the folder through the campus group + adding each bot chat once.\n"
-            "Tap Join / Add folder, then I joined — Continue.",
+            f"پێش کردنەوەی {dept['label']}، بەشداری کەناڵی {FOLDER_NAME}{extra} بکە.\n\n"
+            "بۆتەکان لە ڕێگەی گرووپی کەمپەس و زیادکردنی هەر بۆتێک جارێک لە فۆڵدەر دەردەکەون.\n"
+            "بەشداری / زیادکردنی فۆڵدەر لێدە، پاشان «بەشداریم کرد — بەردەوامبە».",
             reply_markup=join_gate_keyboard(key),
         )
         return
@@ -536,24 +588,24 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         key = data.split(":", 1)[1]
         dept = KEY_TO_DEPT.get(key) or KEY_TO_DEPT.get(context.user_data.get("pending_dept", ""))
         if not dept:
-            await query.edit_message_text("Session expired. Send /start and choose a field again.")
+            await query.edit_message_text(
+                "دانیشتنەکە بەسەرچوو. /start بنێرە و دووبارە بوار هەڵبژێرە."
+            )
             return
         status = await user_in_channel(context, user.id)
         if status is False:
             await query.answer(
-                "Still not seeing you in the channel. Join first, then tap Continue.",
+                "هێشتا لە کەناڵدا نادۆزرێیتەوە. سەرەتا بەشداری بکە، پاشان بەردەوامبە.",
                 show_alert=True,
             )
             return
         if status is None:
-            # Soft gate (private invite; chat id not known yet, or bot not admin)
             context.user_data["channel_soft_ok"] = True
         await open_dept(dept, thanks=True)
         return
 
 
 async def on_my_chat_member(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    """When hub bot is added to the channel, remember chat id for hard membership checks."""
     mcm = update.my_chat_member
     if not mcm:
         return
@@ -576,7 +628,7 @@ async def on_error(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
     if isinstance(update, Update) and update.effective_message:
         try:
             await update.effective_message.reply_text(
-                "Something went wrong. Please send /start again."
+                "هەڵەیەک ڕوویدا. تکایە دووبارە /start بنێرە."
             )
         except Exception:
             pass
@@ -617,8 +669,8 @@ def main() -> None:
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, on_text))
     app.add_error_handler(on_error)
 
-    log.info("CharaNas hub bot starting…")
-    print("CharaNas hub bot running…")
+    log.info("CharaNas hub bot starting (Sorani UI)…")
+    print("CharaNas hub bot running (Kurdish Sorani)…")
     app.run_polling(
         drop_pending_updates=False,
         allowed_updates=Update.ALL_TYPES,
