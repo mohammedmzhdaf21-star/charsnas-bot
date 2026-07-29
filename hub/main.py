@@ -129,10 +129,10 @@ def bot_url(username: str) -> str:
 
 
 def channel_url() -> str | None:
-    if CHANNEL_INVITE_LINK:
-        return CHANNEL_INVITE_LINK
     if CHANNEL_USERNAME:
         return f"https://t.me/{CHANNEL_USERNAME}"
+    if CHANNEL_INVITE_LINK:
+        return CHANNEL_INVITE_LINK
     return None
 
 
@@ -249,7 +249,7 @@ def join_gate_keyboard(dept_key: str) -> InlineKeyboardMarkup:
     rows: list[list[InlineKeyboardButton]] = []
     curl = channel_url()
     if curl:
-        rows.append([InlineKeyboardButton("١) بەشداری لە کەناڵ", url=curl)])
+        rows.append([InlineKeyboardButton("١) بەشداری لە کەناڵ @chara_nas", url=curl)])
     rows.append(
         [InlineKeyboardButton("٢) بەشداریم کرد ✅", callback_data=f"joined:{dept_key}")]
     )
@@ -274,7 +274,7 @@ def welcome_text() -> str:
         )
         lines.append("")
     elif REQUIRE_CHANNEL and channel_url():
-        lines.append("سەرەتا جارێک بەشداری کەناڵ بکە، پاشان بۆتەکان دەکرێنەوە.")
+        lines.append("🔒 بەشداری کەناڵ (@chara_nas) واجبە — بەبێ ئەوە بۆت ناکرێتەوە.")
         lines.append("")
     if REQUIRE_CHANNEL and not (folder_url() or campus_url() or channel_url()):
         lines.append("⚠️ بەشداری کەناڵ پێویستە پێش کردنەوەی هەر بۆتێک.")
@@ -369,9 +369,10 @@ def extract_forwarded_channel(message) -> object | None:
 
 def gate_blocked_text(dept_label: str) -> str:
     return (
-        f"بۆ کردنەوەی بۆتی «{dept_label}»:\n\n"
-        "١) بەشداری لە کەناڵ بکە\n"
-        "٢) دوگمەی «بەشداریم کرد ✅» لێدە"
+        f"🔒 بۆ کردنەوەی بۆتی «{dept_label}» دەبێت بەشداری کەناڵ بکەیت.\n\n"
+        "١) دوگمەی خوارەوە لێدە و بەشداری @chara_nas بکە\n"
+        "٢) بگەڕێرەوە و «بەشداریم کرد ✅» لێدە\n\n"
+        "بەبێ بەشداری، بۆتەکە ناکرێتەوە."
     )
 
 
@@ -441,9 +442,8 @@ async def user_in_channel(context: ContextTypes.DEFAULT_TYPE, user_id: int) -> b
 
 
 async def user_may_open_bots(context: ContextTypes.DEFAULT_TYPE, user_id: int) -> bool:
+    """Mandatory: must be a verified channel member."""
     if not REQUIRE_CHANNEL:
-        return True
-    if is_user_unlocked(user_id):
         return True
     status = await user_in_channel(context, user_id)
     if status is True:
@@ -698,12 +698,11 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
             await query.edit_message_text("دانیشتنەکە بەسەرچوو. /start بنێرە.")
             return
 
-        # Only block when Telegram confirms the user is NOT a member.
-        # If check is unavailable, unlock on Continue (easy mode).
         status = await user_in_channel(context, user.id)
-        if status is False:
+        if status is not True:
             await query.answer(
-                "هێشتا لە کەناڵدا نیت. سەرەتا بەشداری بکە، پاشان دووبارە هەوڵ بدە.",
+                "هێشتا لە کەناڵدا نیت یان پشتڕاست نەکرا. "
+                "سەرەتا بەشداری @chara_nas بکە، پاشان دووبارە هەوڵ بدە.",
                 show_alert=True,
             )
             return
@@ -753,8 +752,13 @@ def main() -> None:
         )
 
     if REQUIRE_CHANNEL:
-        mode = "hard+soft" if can_verify_membership() else "easy-soft (join then Continue)"
-        log.info("Channel gate ON (%s) invite=%s", mode, bool(channel_url()))
+        if not can_verify_membership():
+            log.error("REQUIRE_CHANNEL=1 but no CHANNEL_CHAT_ID/USERNAME — gate cannot verify")
+        log.info(
+            "MANDATORY channel gate ON (ref=%s url=%s)",
+            channel_ref(),
+            channel_url(),
+        )
     else:
         log.info("Channel gate OFF")
 
