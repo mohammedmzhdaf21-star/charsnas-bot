@@ -1852,11 +1852,21 @@ def format_question_prompt(item: dict, specialty_label_text: str, difficulty: st
 def format_question_result(
     item: dict, chosen: str, specialty_label_text: str, difficulty: str
 ) -> str:
+    from pathlib import Path as _P
+    import sys
+
+    _root = _P(__file__).resolve().parent
+    for _p in (_root, _root.parent):
+        if str(_p) not in sys.path:
+            sys.path.insert(0, str(_p))
+    from choice_explanations import format_all_choice_explanations
+
     correct = correct_letter(item)
     chosen = chosen.upper()
     verdict = "✅ *Correct!*" if chosen == correct else f"❌ *Incorrect.* You chose *{chosen}*."
     options = "\n".join(item["options"])
     diff = DIFFICULTY_LABELS[difficulty]
+    breakdown = format_all_choice_explanations(item)
     return (
         f"📘 *Short MCQ — {specialty_label_text}*\n"
         f"Difficulty: *{diff}*\n\n"
@@ -1864,10 +1874,9 @@ def format_question_result(
         f"{options}\n\n"
         f"{verdict}\n"
         f"✅ *Answer:* {item['answer']}\n"
-        f"💡 {item['explanation']}"
+        f"💡 {item['explanation']}\n\n"
+        f"{breakdown}"
     )
-
-
 def format_case_prompt(item: dict, specialty_label_text: str, difficulty: str) -> str:
     diff = DIFFICULTY_LABELS[difficulty]
     return (
