@@ -46,6 +46,7 @@ from content import (
     format_case_result,
     format_question_prompt,
     format_question_result,
+    present_question,
     label_to_key,
     option_letter,
     pick_case,
@@ -265,6 +266,10 @@ async def send_question(update: Update, context: ContextTypes.DEFAULT_TYPE, diff
     context.user_data["difficulty"] = difficulty
     context.user_data.setdefault("cb_spec", {})[specialty_key[:8]] = specialty_key
 
+    item = present_question(item)
+    presented = context.user_data.setdefault("presented_questions", {})
+    presented[f"{specialty_key}:{difficulty}:{idx}"] = item
+
     label = specialty_label(specialty_key)
     await safe_reply(
         update,
@@ -433,13 +438,15 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
             specialty_key = context.user_data.get("cb_spec", {}).get(spec_code) or resolve_specialty_code(spec_code)
             difficulty = DIFF_CODE[diff_code]
             idx = int(idx_s)
-            item = SPECIALTIES[specialty_key]["questions"][difficulty][idx]
+            bank_item = SPECIALTIES[specialty_key]["questions"][difficulty][idx]
         except (ValueError, IndexError, KeyError, TypeError):
             await safe_edit(
                 query,
                 "This question expired. Open *Short MCQ* and pick a difficulty again.",
             )
             return
+        presented = context.user_data.get("presented_questions", {})
+        item = presented.get(f"{specialty_key}:{difficulty}:{idx}", bank_item)
         label = specialty_label(specialty_key)
         result = format_question_result(item, choice, label, difficulty)
         await safe_edit(query, result)

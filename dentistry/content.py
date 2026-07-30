@@ -120,10 +120,13 @@ SPECIALTIES: dict[str, dict] = {'oral_surgery': {'label': 'Oral Surgery',
                                 'hard': [{'question': 'Which nerve is at notable injury risk '
                                                       'during mandibular third molar surgery near '
                                                       'the canal?',
-                                          'options': ['A) Optic nerve',
-                                                      'B) Phrenic nerve',
+                                          'options': ['A) Lingual nerve far from the '
+                                                      'lingual plate',
+                                                      'B) Facial nerve within the '
+                                                      'parotid gland',
                                                       'C) Inferior alveolar nerve',
-                                                      'D) Recurrent laryngeal nerve'],
+                                                      'D) Hypoglossal nerve in the '
+                                                      'posterior triangle'],
                                           'answer': 'C) Inferior alveolar nerve',
                                           'explanation': 'The inferior alveolar nerve runs in the '
                                                          'mandibular canal and may lie immediately '
@@ -2730,6 +2733,37 @@ def option_letter(option: str) -> str:
     return option.strip()[0].upper()
 
 
+def _option_body(option: str) -> str:
+    text = str(option).strip()
+    if len(text) > 2 and text[1] in ").]" and text[0].upper() in "ABCD":
+        return text[2:].strip()
+    return text
+
+
+def present_question(item: dict) -> dict:
+    """Shuffle A–D so the correct letter is not predictable from position."""
+    options = list(item.get("options") or [])
+    if len(options) < 2:
+        return dict(item)
+    bodies = [_option_body(o) for o in options]
+    correct_body = _option_body(item.get("answer", ""))
+    order = list(range(len(bodies)))
+    random.shuffle(order)
+    letters = "ABCD"
+    new_options = []
+    new_answer = item.get("answer")
+    for i, idx in enumerate(order):
+        letter = letters[i]
+        text = f"{letter}) {bodies[idx]}"
+        new_options.append(text)
+        if bodies[idx] == correct_body:
+            new_answer = text
+    out = dict(item)
+    out["options"] = new_options
+    out["answer"] = new_answer
+    return out
+
+
 def format_question_prompt(item: dict, specialty_label_text: str, difficulty: str) -> str:
     diff = DIFFICULTY_LABELS[difficulty]
     options = "\n".join(item["options"])
@@ -2738,7 +2772,7 @@ def format_question_prompt(item: dict, specialty_label_text: str, difficulty: st
         f"Difficulty: *{diff}*\n\n"
         f"{item['question']}\n\n"
         f"{options}\n\n"
-        f"_Tap A / B / C / D below. Full text is shown above._"
+        f"_Read all options carefully, then tap A / B / C / D._"
     )
 def format_question_result(
     item: dict, chosen: str, specialty_label_text: str, difficulty: str
