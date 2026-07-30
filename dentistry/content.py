@@ -10,2714 +10,1134 @@ SPECIALTY_ORDER = ['oral_surgery', 'orthodontics', 'periodontics', 'endodontics'
 SPECIALTIES: dict[str, dict] = {
  'oral_surgery': {
   'label': 'Oral Surgery',
-  'books': [
-   "Peterson's Principles of Oral and Maxillofacial Surgery",
-   'Contemporary Oral and Maxillofacial Surgery — Hupp',
-   'Local Anaesthesia in Dentistry'
-  ],
-  'pdf_notes': [
-   'IANB targets mandibular foramen region; know failure causes.',
-   'Dry socket: pain day 2-4, empty socket — irrigate + dressing.',
-   'Ludwig angina: airway first, urgent drainage/antibiotics.',
-   'Assess bleeding risk (anticoagulants) before surgery.',
-   'Impacted third molars: IAN/lingual nerve risk counseling.'
-  ],
+  'books': ["Peterson's Principles of Oral and Maxillofacial Surgery", 'Contemporary Oral and Maxillofacial Surgery — Hupp', 'Local Anaesthesia in Dentistry'],
+  'pdf_notes': ['IANB targets mandibular foramen region; know failure causes.', 'Dry socket: pain day 2-4, empty socket — irrigate + dressing.', 'Ludwig angina: airway first, urgent drainage/antibiotics.', 'Assess bleeding risk (anticoagulants) before surgery.', 'Impacted third molars: IAN/lingual nerve risk counseling.'],
   'questions': {
    'easy': [
     {
-     'question': 'Most common impacted tooth?',
-     'options': [
-      'A) Maxillary canine',
-      'B) Mandibular third molar',
-      'C) Maxillary lateral incisor',
-      'D) Mandibular first premolar'
-     ],
-     'answer': 'B) Mandibular third molar',
-     'explanation': 'Mandibular third molars are the teeth most frequently impacted because they erupt last and often lack adequate space in the dental arch. Impaction occurs when eruption is blocked by bone, soft tissue, or an adjacent tooth. Maxillary canines are the next most commonly impacted teeth, but far less often than lower wisdom teeth.',
-     'choice_explanations': {
-      'A': 'The maxillary canine is a long-erupting anterior tooth and the second most commonly impacted tooth. Mandibular third molars are the teeth most frequently impacted because they erupt last and often lack adequate space in the dental arch.',
-      'B': 'Mandibular third molars are the teeth most frequently impacted because they erupt last and often lack adequate space in the dental arch. Impaction occurs when eruption is blocked by bone, soft tissue, or an adjacent tooth.',
-      'C': 'The maxillary lateral incisor is a single-rooted anterior tooth; true bony impaction is uncommon versus agenesis. Mandibular third molars are the teeth most frequently impacted because they erupt last and often lack adequate space in the dental arch.',
-      'D': 'The mandibular first premolar is a bicuspid that usually erupts with space and is rarely fully impacted. Mandibular third molars are the teeth most frequently impacted because they erupt last and often lack adequate space in the dental arch.'
-     }
+     'question': 'Which tooth is most frequently impacted in humans, and why does that pattern matter clinically?',
+     'options': ['A) Mandibular third molar, which erupts last and often lacks adequate arch space', 'B) Maxillary central incisor, which erupts earliest and always has space', 'C) Mandibular first premolar, which rarely encounters eruption obstacles', 'D) Maxillary first molar, which erupts into a fully developed arch'],
+     'answer': 'A) Mandibular third molar, which erupts last and often lacks adequate arch space',
+     'explanation': 'Mandibular third molars erupt last and frequently meet insufficient posterior space, bone, or soft-tissue clearance, making them the most commonly impacted teeth. Clinically this drives the high rate of pericoronitis, caries of the distal second molar, and surgical removal. Maxillary canines are next most often impacted but far less often than lower wisdom teeth.',
+     'choice_explanations': {'A': 'Third molars erupt last into a region with limited mandibular length; eruption failure from bone/soft tissue/adjacent tooth blockade defines impaction and explains their predominance.', 'B': 'Central incisors erupt early into ample anterior space; true bony impaction is uncommon compared with third molars.', 'C': 'First premolars usually erupt with adequate space; they are not the teeth most often impacted.', 'D': 'First molars erupt into a prepared arch and are rarely impacted relative to mandibular third molars.'}
     },
     {
-     'question': 'Local anesthetic for an inferior alveolar nerve block typically targets which anatomic region?',
-     'options': [
-      'A) Mental foramen on the buccal mandible',
-      'B) Infraorbital foramen on the maxilla',
-      'C) Mandibular foramen on the medial ramus',
-      'D) Greater palatine foramen on the hard palate'
-     ],
-     'answer': 'C) Mandibular foramen on the medial ramus',
-     'explanation': 'The inferior alveolar nerve enters the mandible at the mandibular foramen on the medial ramus. An inferior alveolar nerve block deposits anesthetic near this foramen so the solution bathes the nerve before it enters the mandibular canal. Successful anesthesia therefore depends on accurate needle placement relative to the lingula and mandibular foramen.',
-     'choice_explanations': {
-      'A': 'The mental foramen transmits the mental nerve onto the buccal mandibular premolar region. The inferior alveolar nerve enters the mandible at the mandibular foramen on the medial ramus.',
-      'B': 'The infraorbital foramen on the maxilla transmits the infraorbital nerve to midface soft tissues. The inferior alveolar nerve enters the mandible at the mandibular foramen on the medial ramus.',
-      'C': 'The inferior alveolar nerve enters the mandible at the mandibular foramen on the medial ramus. An inferior alveolar nerve block deposits anesthetic near this foramen so the solution bathes the nerve before it enters the mandibular canal.',
-      'D': 'The greater palatine foramen transmits the greater palatine nerve to posterior hard-palate mucosa. The inferior alveolar nerve enters the mandible at the mandibular foramen on the medial ramus.'
-     }
+     'question': 'For a classical inferior alveolar nerve block, anesthetic solution is deposited nearest which landmark?',
+     'options': ['A) The mental foramen on the buccal mandibular body', 'B) The mandibular foramen on the medial surface of the ramus', 'C) The infraorbital foramen on the maxillary face', 'D) The greater palatine foramen on the hard palate'],
+     'answer': 'B) The mandibular foramen on the medial surface of the ramus',
+     'explanation': 'The inferior alveolar nerve enters the mandible at the mandibular foramen on the medial ramus. An IANB places local anesthetic near the lingula/foramen so the nerve is bathed before entering the canal. Accurate height and depth relative to this landmark determine success for ipsilateral mandibular teeth (except when accessory innervation intervenes).',
+     'choice_explanations': {'A': 'The mental foramen transmits the mental nerve after the IAN has already entered the canal; it is not the IANB target.', 'B': 'IANB targets the IAN at the mandibular foramen/lingula on the medial ramus before the nerve enters the mandibular canal.', 'C': 'The infraorbital foramen is a maxillary midface landmark for infraorbital blocks, not mandibular anesthesia.', 'D': 'The greater palatine foramen anesthetizes posterior palatal mucosa, not the inferior alveolar nerve.'}
     },
     {
-     'question': 'Alveolar osteitis (dry socket) most commonly follows which clinical situation?',
-     'options': [
-      'A) Difficult mandibular molar extraction with clot loss',
-      'B) Routine fluoride varnish application',
-      'C) Supragingival scaling without extraction',
-      'D) Orthodontic bracket bonding alone'
-     ],
-     'answer': 'A) Difficult mandibular molar extraction with clot loss',
-     'explanation': 'Alveolar osteitis (dry socket) follows premature loss or lysis of the blood clot that normally protects the extraction socket. Exposed bone and inflammatory mediators produce severe pain, typically beginning two to four days after a difficult mandibular molar extraction. Risk rises with traumatic extraction, smoking, and poor clot stability.',
-     'choice_explanations': {
-      'A': 'Alveolar osteitis (dry socket) follows premature loss or lysis of the blood clot that normally protects the extraction socket. Exposed bone and inflammatory mediators produce severe pain, typically beginning two to four days after a difficult mandibular molar extraction.',
-      'B': 'Fluoride varnish deposits high-concentration fluoride on enamel to favor remineralization. Alveolar osteitis (dry socket) follows premature loss or lysis of the blood clot that normally protects the extraction socket.',
-      'C': 'Supragingival scaling mechanically removes coronal calculus/biofilm without creating a socket. Alveolar osteitis (dry socket) follows premature loss or lysis of the blood clot that normally protects the extraction socket.',
-      'D': 'Orthodontic bonding adhesively fixes brackets to enamel without opening alveolar bone. Alveolar osteitis (dry socket) follows premature loss or lysis of the blood clot that normally protects the extraction socket.'
-     }
-    }
+     'question': 'Alveolar osteitis (dry socket) is best explained by which pathophysiologic sequence after extraction?',
+     'options': ['A) Immediate bacterial osteomyelitis of the entire mandible on day 0', 'B) Irreversible pulpitis confined to an unrestored adjacent premolar', 'C) Premature clot loss or fibrinolysis exposing bare alveolar bone, typically days 2–4', 'D) Acute maxillary sinusitis without any alveolar communication'],
+     'answer': 'C) Premature clot loss or fibrinolysis exposing bare alveolar bone, typically days 2–4',
+     'explanation': 'After extraction, a stable blood clot protects bone and initiates healing. Premature clot loss or fibrinolysis leaves exposed bone and inflammatory mediators, producing severe localized pain usually beginning 2–4 days later—classic dry socket, especially after difficult mandibular molar removal. Management centers on irrigation and soothing dressing rather than routine systemic antibiotics when infection is absent.',
+     'choice_explanations': {'A': 'Diffuse osteomyelitis is infection of bone marrow with systemic signs; dry socket is localized clot failure without that picture.', 'B': 'Pulpitis is intrapulpal inflammation of a vital/diseased tooth, not an empty post-extraction socket.', 'C': 'Dry socket is fibrinolysis/clot loss with exposed socket bone and delayed severe pain, classically days 2–4 after traumatic lower molar extraction.', 'D': 'Sinusitis is antral mucosal inflammation and does not explain an empty mandibular extraction socket.'}
+    },
    ],
    'medium': [
     {
-     'question': 'Ludwig angina is best described as infection involving which spaces?',
-     'options': [
-      'A) Temporomandibular joint capsule alone',
-      'B) Unilateral maxillary sinus alone',
-      'C) Pulp chamber and root canals only',
-      'D) Bilateral submandibular, sublingual, and submental spaces'
-     ],
-     'answer': 'D) Bilateral submandibular, sublingual, and submental spaces',
-     'explanation': 'Ludwig angina is a rapidly spreading bilateral cellulitis of the submandibular, sublingual, and submental spaces, usually from an odontogenic source. Edema elevates the floor of the mouth and tongue, threatening the airway. Urgent airway management, intravenous antibiotics, and surgical drainage are required.',
-     'choice_explanations': {
-      'A': 'The TMJ capsule is the synovial envelope of the condyle–temporal joint, not floor-of-mouth spaces. Ludwig angina is a rapidly spreading bilateral cellulitis of the submandibular, sublingual, and submental spaces, usually from an odontogenic source.',
-      'B': 'Isolated maxillary sinus disease is confined to one antrum and is not bilateral floor-of-mouth cellulitis. Ludwig angina is a rapidly spreading bilateral cellulitis of the submandibular, sublingual, and submental spaces, usually from an odontogenic source.',
-      'C': 'The pulp chamber and canals contain dental pulp within tooth structure, not cervical fascial spaces. Ludwig angina is a rapidly spreading bilateral cellulitis of the submandibular, sublingual, and submental spaces, usually from an odontogenic source.',
-      'D': 'Ludwig angina is a rapidly spreading bilateral cellulitis of the submandibular, sublingual, and submental spaces, usually from an odontogenic source. Edema elevates the floor of the mouth and tongue, threatening the airway.'
-     }
+     'question': 'A rapidly progressive floor-of-mouth infection with bilateral submandibular swelling and tongue elevation is managed first by addressing which priority?',
+     'options': ['A) Elective root canal therapy alone without airway assessment', 'B) Observation for 72 hours before any antimicrobial therapy', 'C) Immediate full-mouth extraction under local anesthesia only', 'D) Airway security, then IV antibiotics and urgent surgical drainage of involved spaces'],
+     'answer': 'D) Airway security, then IV antibiotics and urgent surgical drainage of involved spaces',
+     'explanation': 'Ludwig angina is bilateral cellulitis of the submandibular, sublingual, and submental spaces that can rapidly compromise the airway by elevating the tongue and floor of mouth. Immediate priorities are airway assessment/protection, parenteral antibiotics covering odontogenic flora, and surgical drainage. Definitive dental source control follows once the patient is safe.',
+     'choice_explanations': {'A': 'RCT addresses a dental source later but does not reverse acute airway-threatening cellulitis.', 'B': 'Delaying antibiotics in rapidly spreading deep-space infection risks airway obstruction and sepsis.', 'C': 'Multiple extractions under LA alone ignore airway risk and inadequate drainage of deep spaces.', 'D': 'Airway threat defines Ludwig angina urgency; secure airway, give IV antibiotics, and drain fascial spaces before elective dental procedures.'}
     },
     {
-     'question': 'Which laboratory measure is most relevant before oral surgery in a patient taking warfarin?',
-     'options': [
-      'A) HbA1c only',
-      'B) INR (international normalized ratio)',
-      'C) Serum amylase only',
-      'D) Fasting lipid panel only'
-     ],
-     'answer': 'B) INR (international normalized ratio)',
-     'explanation': 'Warfarin inhibits vitamin K–dependent clotting factors and is monitored with the international normalized ratio (INR). Before invasive oral surgery, the INR helps estimate bleeding risk so hemostasis planning and any physician-coordinated dose adjustment can be made appropriately.',
-     'choice_explanations': {
-      'A': 'HbA1c averages glycemia over ~3 months and does not quantify warfarin anticoagulation. Warfarin inhibits vitamin K–dependent clotting factors and is monitored with the international normalized ratio (INR).',
-      'B': 'Warfarin inhibits vitamin K–dependent clotting factors and is monitored with the international normalized ratio (INR). Before invasive oral surgery, the INR helps estimate bleeding risk so hemostasis planning and any physician-coordinated dose adjustment can be made appropriately.',
-      'C': 'Serum amylase is a pancreatic/salivary enzyme marker, mainly for pancreatitis assessment. Warfarin inhibits vitamin K–dependent clotting factors and is monitored with the international normalized ratio (INR).',
-      'D': 'A fasting lipid panel quantifies cholesterol/triglycerides for cardiovascular risk, not bleeding risk. Warfarin inhibits vitamin K–dependent clotting factors and is monitored with the international normalized ratio (INR).'
-     }
+     'question': 'Before elective oral surgery in a patient taking warfarin, which laboratory parameter most directly guides bleeding-risk planning?',
+     'options': ['A) INR (international normalized ratio)', 'B) HbA1c alone without coagulation data', 'C) Serum amylase alone', 'D) Fasting triglyceride level alone'],
+     'answer': 'A) INR (international normalized ratio)',
+     'explanation': 'Warfarin inhibits vitamin K–dependent clotting factors; therapeutic effect is monitored with INR. Knowing the current INR informs whether extraction can proceed with local hemostasis, whether physician coordination is needed, and how to plan packing/suturing. Metabolic labs such as HbA1c or lipids do not quantify warfarin anticoagulation.',
+     'choice_explanations': {'A': 'INR quantifies warfarin’s anticoagulant effect and is the key pre-extraction bleeding-risk metric for warfarin users.', 'B': 'HbA1c reflects average glycemia, not vitamin K–dependent coagulation status.', 'C': 'Amylase assesses pancreatic/salivary enzyme activity, not warfarin intensity.', 'D': 'Triglycerides relate to lipid risk, not surgical hemostasis under warfarin.'}
     },
     {
-     'question': 'Oroantral communication risk is highest when extracting which teeth?',
-     'options': [
-      'A) Mandibular incisors',
-      'B) Mandibular canines',
-      'C) Mandibular premolars',
-      'D) Maxillary molars'
-     ],
-     'answer': 'D) Maxillary molars',
-     'explanation': 'Maxillary molar roots often lie close to, or project into, the maxillary sinus floor. Extraction can tear the thin antral bone or sinus membrane and create an oroantral communication. Mandibular teeth do not communicate with the maxillary sinus.',
-     'choice_explanations': {
-      'A': 'Mandibular incisor apices lie in anterior mandibular bone remote from the maxillary sinus. Maxillary molar roots often lie close to, or project into, the maxillary sinus floor.',
-      'B': 'Mandibular canine roots occupy the anterior mandible and do not abut the maxillary antrum. Maxillary molar roots often lie close to, or project into, the maxillary sinus floor.',
-      'C': 'Mandibular premolars sit in the posterior mandible, distant from the maxillary sinus floor. Maxillary molar roots often lie close to, or project into, the maxillary sinus floor.',
-      'D': 'Maxillary molar roots often lie close to, or project into, the maxillary sinus floor. Extraction can tear the thin antral bone or sinus membrane and create an oroantral communication.'
-     }
-    }
+     'question': 'Oroantral communication risk is highest when extracting which teeth, based on root–sinus anatomy?',
+     'options': ['A) Mandibular central incisors remote from the antrum', 'B) Maxillary molars whose roots approximate or project into the sinus floor', 'C) Mandibular canines in the anterior mandible', 'D) Mandibular first premolars distant from the maxillary sinus'],
+     'answer': 'B) Maxillary molars whose roots approximate or project into the sinus floor',
+     'explanation': 'Maxillary molar (and often premolar) roots frequently lie close to or within the maxillary sinus floor. Traumatic elevation can tear thin bone or Schneiderian membrane, creating an oroantral communication. Mandibular teeth have no anatomic continuity with the maxillary antrum.',
+     'choice_explanations': {'A': 'Mandibular incisor apices lie far from the maxillary sinus and do not create oroantral openings.', 'B': 'Proximity of maxillary molar roots to the antral floor explains the highest OAC risk during their extraction.', 'C': 'Mandibular canines occupy anterior mandibular bone without antral adjacency.', 'D': 'Mandibular premolars sit in the mandible and cannot open into the maxillary sinus.'}
+    },
    ],
    'hard': [
     {
-     'question': 'Which nerve is at notable injury risk during mandibular third molar surgery near the canal?',
-     'options': [
-      'A) Lingual nerve far from the lingual plate',
-      'B) Facial nerve within the parotid gland',
-      'C) Inferior alveolar nerve',
-      'D) Hypoglossal nerve in the posterior triangle'
-     ],
-     'answer': 'C) Inferior alveolar nerve',
-     'explanation': 'The inferior alveolar nerve runs in the mandibular canal and may lie immediately adjacent to mandibular third molar roots. Surgical elevation or sectioning of the tooth can stretch, crush, or transect the nerve, causing altered lip and chin sensation. Preoperative imaging and informed consent address this risk.',
-     'choice_explanations': {
-      'A': 'The lingual nerve carries tongue sensation/taste and runs near the lingual plate in the third-molar area. The inferior alveolar nerve runs in the mandibular canal and may lie immediately adjacent to mandibular third molar roots.',
-      'B': 'The facial nerve (CN VII) traverses the parotid gland to motorize muscles of facial expression. The inferior alveolar nerve runs in the mandibular canal and may lie immediately adjacent to mandibular third molar roots.',
-      'C': 'The inferior alveolar nerve runs in the mandibular canal and may lie immediately adjacent to mandibular third molar roots. Surgical elevation or sectioning of the tooth can stretch, crush, or transect the nerve, causing altered lip and chin sensation.',
-      'D': 'The hypoglossal nerve (CN XII) motorizes tongue muscles in the neck, remote from the mandibular canal. The inferior alveolar nerve runs in the mandibular canal and may lie immediately adjacent to mandibular third molar roots.'
-     }
+     'question': 'A 28-year-old needs removal of a mesioangular mandibular third molar. Panoramic and CBCT show darkening of the root, interruption of the white lines of the canal, and diversion of the inferior alveolar canal. Which intraoperative principle best reduces permanent neurosensory injury?',
+     'options': ['A) Forceful elevator leverage directly toward the canal to speed removal', 'B) Ignore imaging and rely solely on clinical crown visibility', 'C) Use controlled sectioning and elevation away from the canal, with informed consent for IAN risk', 'D) Perform blind aggressive curettage of the entire canal contents'],
+     'answer': 'C) Use controlled sectioning and elevation away from the canal, with informed consent for IAN risk',
+     'explanation': 'Radiographic signs of intimate IAN–root relationship predict higher nerve injury risk. Risk reduction includes CBCT-informed planning, tooth sectioning to minimize apical force toward the canal, careful elevation vectors, and documented consent. Forceful blind leverage or canal curettage increases stretch, crush, or transection injury to the inferior alveolar nerve.',
+     'choice_explanations': {'A': 'Levering toward the canal concentrates compressive/tensile force on the IAN and raises permanent paresthesia risk.', 'B': 'Ignoring high-risk imaging signs forfeits planning that prevents nerve injury.', 'C': 'When imaging shows canal–root intimacy, sectioning and controlled elevation away from the canal plus consent are the evidence-aligned safety approach.', 'D': 'Curettage inside the canal can directly transect or avulse the IAN.'}
     },
     {
-     'question': 'Medication-related osteonecrosis of the jaw risk rises most with which scenario?',
-     'options': [
-      'A) Placement of removable orthodontic retainers',
-      'B) Topical fluoride varnish alone',
-      'C) Routine dental prophylaxis without mucosal trauma',
-      'D) Invasive dental surgery in patients on antiresorptive therapy'
-     ],
-     'answer': 'D) Invasive dental surgery in patients on antiresorptive therapy',
-     'explanation': 'Medication-related osteonecrosis of the jaw (MRONJ) is exposed necrotic bone associated with antiresorptive or antiangiogenic drugs. Invasive procedures such as extractions disrupt oral mucosa and bone healing in susceptible patients, elevating MRONJ risk compared with noninvasive care.',
-     'choice_explanations': {
-      'A': 'Removable retainers stabilize tooth position without surgically disrupting jaw mucosa or bone. Medication-related osteonecrosis of the jaw (MRONJ) is exposed necrotic bone associated with antiresorptive or antiangiogenic drugs.',
-      'B': 'Fluoride varnish deposits high-concentration fluoride on enamel to favor remineralization. Medication-related osteonecrosis of the jaw (MRONJ) is exposed necrotic bone associated with antiresorptive or antiangiogenic drugs.',
-      'C': 'Atraumatic prophylaxis does not create the mucosal/osseous wound that precipitates MRONJ. Medication-related osteonecrosis of the jaw (MRONJ) is exposed necrotic bone associated with antiresorptive or antiangiogenic drugs.',
-      'D': 'Medication-related osteonecrosis of the jaw (MRONJ) is exposed necrotic bone associated with antiresorptive or antiangiogenic drugs. Invasive procedures such as extractions disrupt oral mucosa and bone healing in susceptible patients, elevating MRONJ risk compared with noninvasive care.'
-     }
+     'question': 'Two days after difficult lower third-molar removal, a patient has severe localized socket pain, an empty socket with gray debris, no fever, and no fluctuance. Which management best matches the diagnosis?',
+     'options': ['A) Start broad empiric IV antibiotics for presumed Ludwig angina', 'B) Immediate incision of the contralateral submandibular space', 'C) Urgent anticoagulation reversal for suspected hematoma alone', 'D) Irrigate gently and place a soothing medicated dressing; antibiotics are not first-line without infection'],
+     'answer': 'D) Irrigate gently and place a soothing medicated dressing; antibiotics are not first-line without infection',
+     'explanation': 'Empty painful socket at days 2–4 without systemic infection indicates alveolar osteitis. Standard care is irrigation of debris and a eugenol-containing or other soothing dressing with analgesia; antibiotics are reserved for true infection. Ludwig angina and hematoma present differently (bilateral floor swelling/airway threat or expanding bruise).',
+     'choice_explanations': {'A': 'IV antibiotics target spreading infection; this presentation lacks systemic/space infection signs.', 'B': 'Contralateral space incision is for drained deep infection, not an empty extraction socket.', 'C': 'Anticoagulant reversal addresses bleeding risk, not fibrinolysis-related dry socket pain.', 'D': 'Classic dry socket is managed locally with irrigation and dressing; systemic antibiotics are unnecessary without cellulitis/fever/pus.'}
     },
     {
-     'question': 'A root tip displaced into the maxillary sinus during extraction most appropriately requires?',
-     'options': [
-      'A) Immediate root canal treatment of the adjacent vital tooth only',
-      'B) Retrieval strategy with sinus precautions and possible referral',
-      'C) Observation indefinitely without imaging or follow-up',
-      'D) Chlorhexidine rinse alone as definitive management'
-     ],
-     'answer': 'B) Retrieval strategy with sinus precautions and possible referral',
-     'explanation': 'A root tip displaced into the maxillary sinus can act as a foreign body, promoting sinusitis or sustaining an oroantral fistula. Management requires retrieval when indicated, closure of any communication, sinus precautions, and specialist referral if needed.',
-     'choice_explanations': {
-      'A': 'RCT disinfects and obturates pulp space; it cannot retrieve a foreign body from the sinus. A root tip displaced into the maxillary sinus can act as a foreign body, promoting sinusitis or sustaining an oroantral fistula.',
-      'B': 'A root tip displaced into the maxillary sinus can act as a foreign body, promoting sinusitis or sustaining an oroantral fistula. Management requires retrieval when indicated, closure of any communication, sinus precautions, and specialist referral if needed.',
-      'C': 'Indefinite observation without imaging ignores foreign-body sinusitis and oroantral fistula risk. A root tip displaced into the maxillary sinus can act as a foreign body, promoting sinusitis or sustaining an oroantral fistula.',
-      'D': 'Chlorhexidine is an antimicrobial rinse and does not remove a root tip from the antrum. A root tip displaced into the maxillary sinus can act as a foreign body, promoting sinusitis or sustaining an oroantral fistula.'
-     }
-    }
+     'question': 'During extraction of an upper first molar, a 4 mm communication to the antrum is noted with a positive Valsalva bubble test. The patient is otherwise healthy. What is the most appropriate immediate management concept?',
+     'options': ['A) Inform the patient, place a tension-free soft-tissue closure when feasible, prescribe sinus precautions, and arrange follow-up', 'B) Pack the antrum with nonresorbable cotton and discharge without advice', 'C) Ignore the finding because all communications close spontaneously without care', 'D) Perform immediate Caldwell–Luc antrostomy as routine first-line for every small OAC'],
+     'answer': 'A) Inform the patient, place a tension-free soft-tissue closure when feasible, prescribe sinus precautions, and arrange follow-up',
+     'explanation': 'Small intraoperative oroantral communications are managed by patient disclosure, primary soft-tissue closure when possible, sinus precautions (no nose-blowing/straws), and review. Persistent fistulae may need later layered closure ± buccal fat pad. Routine immediate Caldwell–Luc is not indicated for a small fresh communication, and leaving foreign packing in the antrum is harmful.',
+     'choice_explanations': {'A': 'Fresh small OAC: close mucosa if possible, sinus precautions, follow-up; escalate surgery only if fistula persists.', 'B': 'Nonresorbable antral packing invites infection and does not constitute proper closure.', 'C': 'Not all OACs close reliably without mucosal management and precautions; disclosure is mandatory.', 'D': 'Caldwell–Luc is not first-line for a small fresh communication manageable with local closure.'}
+    },
    ],
    'extreme': [
     {
-     'question': 'An anticoagulated patient needs urgent extraction with elevated bleeding risk. Best management concept?',
-     'options': [
-      'A) Stop all anticoagulants unilaterally the morning of surgery',
-      'B) Refuse extraction under every circumstance',
-      'C) Give vitamin K routinely without assessing the indication',
-      'D) Coordinate physician guidance; use local hemostasis; avoid blind anticoagulant cessation'
-     ],
-     'answer': 'D) Coordinate physician guidance; use local hemostasis; avoid blind anticoagulant cessation',
-     'explanation': 'Therapeutic anticoagulation reduces thromboembolic risk; abrupt cessation can precipitate stroke or venous thrombosis. For most dental extractions, continuing anticoagulation with meticulous local hemostasis is preferred, coordinated with the prescribing physician when risk is high.',
-     'choice_explanations': {
-      'A': 'Abrupt anticoagulant cessation restores thrombotic risk (stroke/VTE) by removing pathway inhibition. Therapeutic anticoagulation reduces thromboembolic risk; abrupt cessation can precipitate stroke or venous thrombosis.',
-      'B': 'Blanket refusal ignores that many extractions proceed safely with local hemostasis on anticoagulation. Therapeutic anticoagulation reduces thromboembolic risk; abrupt cessation can precipitate stroke or venous thrombosis.',
-      'C': 'Vitamin K repletes cofactors II/VII/IX/X and reverses warfarin only when clinically indicated. Therapeutic anticoagulation reduces thromboembolic risk; abrupt cessation can precipitate stroke or venous thrombosis.',
-      'D': 'Therapeutic anticoagulation reduces thromboembolic risk; abrupt cessation can precipitate stroke or venous thrombosis. For most dental extractions, continuing anticoagulation with meticulous local hemostasis is preferred, coordinated with the prescribing physician when risk is high.'
-     }
+     'question': 'A 62-year-old on warfarin for a mechanical mitral valve (INR 2.8 yesterday) needs urgent extraction of a fractured mandibular molar with continuous oozing. He reports prior TIA when warfarin was stopped elsewhere. There is no expanding hematoma or airway threat. Which management plan is most appropriate?',
+     'options': ['A) Stop warfarin this morning unilaterally and restart in two weeks without physician input', 'B) Coordinate with the physician, generally continue warfarin at therapeutic INR for single extraction, and emphasize local hemostasis (sutures, packing, tranexamic rinse) rather than unilateral cessation', 'C) Refuse all dental care permanently because mechanical valves contraindicate extraction', 'D) Give high-dose vitamin K empirically in clinic without assessing thrombotic indication'],
+     'answer': 'B) Coordinate with the physician, generally continue warfarin at therapeutic INR for single extraction, and emphasize local hemostasis (sutures, packing, tranexamic rinse) rather than unilateral cessation',
+     'explanation': 'Patients with mechanical mitral valves have high thromboembolic risk if anticoagulation is interrupted. For most outpatient extractions, continuing warfarin within a therapeutic INR and using meticulous local hemostasis (sutures, collagen/oxidized cellulose, tranexamic acid mouthwash) is preferred, coordinated with the physician. Blind cessation or unsupervised vitamin K can precipitate stroke or valve thrombosis.',
+     'choice_explanations': {'A': 'Unilateral prolonged cessation in mechanical mitral valve disease risks catastrophic thromboembolism.', 'B': 'High-thrombotic-risk anticoagulation should not be stopped unilaterally; continue when INR is acceptable and control bleeding locally with physician coordination.', 'C': 'Extractions can be performed safely with planning; lifelong refusal is not evidence-based.', 'D': 'Empiric vitamin K reverses warfarin unpredictably and may cause valve thrombosis without indication.'}
     },
     {
-     'question': 'Postoperative expanding neck hematoma with stridor most urgently indicates?',
-     'options': [
-      'A) Airway emergency management first',
-      'B) Home antibiotics and routine review next week',
-      'C) Overnight observation without airway assessment',
-      'D) Ice packs alone without clinical evaluation'
-     ],
-     'answer': 'A) Airway emergency management first',
-     'explanation': 'An expanding neck hematoma after surgery can compress the airway, producing stridor, dyspnea, and rapid desaturation. Airway establishment takes absolute priority over investigating the bleeding source or prescribing outpatient measures.',
-     'choice_explanations': {
-      'A': 'An expanding neck hematoma after surgery can compress the airway, producing stridor, dyspnea, and rapid desaturation. Airway establishment takes absolute priority over investigating the bleeding source or prescribing outpatient measures.',
-      'B': 'Outpatient antibiotics do not secure an airway threatened by expanding hematoma. An expanding neck hematoma after surgery can compress the airway, producing stridor, dyspnea, and rapid desaturation.',
-      'C': 'Observation without airway assessment leaves progressive airway compression untreated. An expanding neck hematoma after surgery can compress the airway, producing stridor, dyspnea, and rapid desaturation.',
-      'D': 'Ice packs do not relieve mechanical airway obstruction from expanding hematoma. An expanding neck hematoma after surgery can compress the airway, producing stridor, dyspnea, and rapid desaturation.'
-     }
+     'question': 'A 34-year-old develops progressive bilateral submandibular and submental swelling, dysphagia, and inability to protrude the tongue 24 hours after lower molar infection. SpO2 is 94% sitting forward. Which sequenced plan best reflects complication management?',
+     'options': ['A) Prescribe oral antibiotics only and reassess in one week as an outpatient', 'B) Perform only pulp capping of the molar under rubber dam without airway planning', 'C) Emergent airway evaluation (often fiberoptic/awake strategies), IV broad-spectrum antibiotics, urgent incision and drainage of bilateral floor-of-mouth spaces, then source control', 'D) Start high-dose NSAIDs alone to reduce swelling while deferring drainage'],
+     'answer': 'C) Emergent airway evaluation (often fiberoptic/awake strategies), IV broad-spectrum antibiotics, urgent incision and drainage of bilateral floor-of-mouth spaces, then source control',
+     'explanation': 'This vignette is Ludwig angina with early airway compromise. Mortality risk is driven by asphyxia; therefore airway first, then parenteral antibiotics and wide drainage of the bilateral submandibular/sublingual/submental spaces, followed by elimination of the odontogenic source. Oral antibiotics alone, pulp therapy alone, or anti-inflammatory delay without drainage are dangerous near-misses.',
+     'choice_explanations': {'A': 'Outpatient oral antibiotics cannot reverse airway-threatening deep neck infection.', 'B': 'Pulp procedures do not secure the airway or drain fascial cellulitis.', 'C': 'Ludwig angina with desaturation requires airway-first care, IV antibiotics, and urgent bilateral space drainage before definitive dentistry.', 'D': 'NSAIDs may ease pain but do not drain infection or protect the airway.'}
     },
     {
-     'question': 'Osteoradionecrosis risk is most strongly linked to which situation?',
-     'options': [
-      'A) Natural exfoliation of primary teeth',
-      'B) Placement of pit-and-fissure sealants',
-      'C) Extractions in previously irradiated jaws',
-      'D) Use of at-home whitening trays'
-     ],
-     'answer': 'C) Extractions in previously irradiated jaws',
-     'explanation': 'High-dose radiotherapy damages bone vasculature and cellularity in the jaws, impairing healing after trauma. Extractions in irradiated bone therefore carry a recognized risk of osteoradionecrosis. Preventive dental care before radiotherapy reduces later extraction need.',
-     'choice_explanations': {
-      'A': 'Physiologic primary exfoliation is not radiotherapy-related osteoradionecrosis risk. High-dose radiotherapy damages bone vasculature and cellularity in the jaws, impairing healing after trauma.',
-      'B': 'Sealants are preventive resin coatings of pits/fissures without irradiated-bone trauma. High-dose radiotherapy damages bone vasculature and cellularity in the jaws, impairing healing after trauma.',
-      'C': 'High-dose radiotherapy damages bone vasculature and cellularity in the jaws, impairing healing after trauma. Extractions in irradiated bone therefore carry a recognized risk of osteoradionecrosis.',
-      'D': 'Whitening trays deliver peroxide to enamel and do not create ORN-level osseous injury. High-dose radiotherapy damages bone vasculature and cellularity in the jaws, impairing healing after trauma.'
-     }
-    }
-   ]
+     'question': 'After surgical removal of a deeply impacted lower third molar, the patient awakens with complete anesthesia of the ipsilateral lower lip and chin. Intraoperatively the canal was visible and a root tip was elevated adjacent to it. Six hours later there is still dense anesthesia without dysesthesia. What is the best immediate counseling and next-step concept?',
+     'options': ['A) Assure the patient that sensation always returns fully within 24 hours so no follow-up is needed', 'B) Perform immediate surgical resection of a segment of the inferior alveolar nerve', 'C) Start long-term high-dose opioids as the sole definitive nerve therapy', 'D) Document sensory mapping, explain possible neuropraxia versus more severe injury, avoid irreversible statements of permanence yet, arrange close neurosensory follow-up, and consider early specialist referral pathways used in your region'],
+     'answer': 'D) Document sensory mapping, explain possible neuropraxia versus more severe injury, avoid irreversible statements of permanence yet, arrange close neurosensory follow-up, and consider early specialist referral pathways used in your region',
+     'explanation': 'Postoperative complete lip/chin anesthesia after visible canal proximity suggests neurapraxia, axonotmesis, or neurotmesis of the IAN. Immediate priorities are honest documentation, baseline sensory testing, steroids/anti-inflammatory measures per protocol, and structured follow-up with timely referral if dense deficit persists—because timing affects microsurgical options. Guaranteeing full return, resecting nerve, or treating with opioids alone are incorrect.',
+     'choice_explanations': {'A': 'Not all IAN injuries recover in 24 hours; failing follow-up risks missing repair windows.', 'B': 'Segmental nerve resection worsens deficit and is not acute management of suspected injury.', 'C': 'Opioids treat pain symptomatically but do not restore nerve continuity or guide repair timing.', 'D': 'IAN injury needs documented sensory exam, realistic counseling, surveillance, and timely specialist referral—not false reassurance or destructive/sole opioid care.'}
+    },
+   ],
   },
   'cases': {
    'easy': [
-    {
-     'title': 'Pain Day 3 After Extraction',
-     'stem': 'A 24-year-old has severe pain 3 days after lower wisdom tooth removal. Socket looks empty; no pus or fever.',
-     'question': 'Likely diagnosis?',
-     'answer': 'Alveolar osteitis (dry socket).',
-     'discussion': 'Irrigate, medicated dressing, analgesia; antibiotics usually not first-line if no infection.',
-     'book_hint': "Peterson's Principles of Oral and Maxillofacial Surgery"
-    }
+    {'title': 'Pain Day 3 After Extraction', 'stem': 'A 24-year-old has severe pain 3 days after lower wisdom tooth removal. Socket looks empty; no pus or fever.', 'question': 'Likely diagnosis?', 'answer': 'Alveolar osteitis (dry socket).', 'discussion': 'Irrigate, medicated dressing, analgesia; antibiotics usually not first-line if no infection.', 'book_hint': "Peterson's Principles of Oral and Maxillofacial Surgery"},
    ],
    'medium': [
-    {
-     'title': 'Fever + Floor of Mouth Swelling',
-     'stem': 'A patient after dental infection has bilateral floor-of-mouth swelling, drooling, and tongue elevation.',
-     'question': 'Emergency concern?',
-     'answer': 'Ludwig angina — secure airway and urgent surgical/medical care.',
-     'discussion': 'Do not delay for routine dental clinic care.',
-     'book_hint': "Peterson's Principles of Oral and Maxillofacial Surgery"
-    }
+    {'title': 'Fever + Floor of Mouth Swelling', 'stem': 'A patient after dental infection has bilateral floor-of-mouth swelling, drooling, and tongue elevation.', 'question': 'Emergency concern?', 'answer': 'Ludwig angina — secure airway and urgent surgical/medical care.', 'discussion': 'Do not delay for routine dental clinic care.', 'book_hint': "Peterson's Principles of Oral and Maxillofacial Surgery"},
    ],
    'hard': [
-    {
-     'title': 'Root Tip Disappears Upward',
-     'stem': 'During upper 6 extraction, a root tip vanishes and the patient feels air/fluid in the nose when drinking. Choose the safest high-yield next concept before definitive results.',
-     'question': 'What happened conceptually?',
-     'answer': 'Oroantral communication ± displaced root — stop forcing, assess, arrange appropriate closure/retrieval.',
-     'discussion': 'Sinus precautions and follow-up are essential.',
-     'book_hint': "Peterson's Principles of Oral and Maxillofacial Surgery"
-    }
+    {'title': 'Root Tip Disappears Upward', 'stem': 'During upper 6 extraction, a root tip vanishes and the patient feels air/fluid in the nose when drinking. Choose the safest high-yield next concept before definitive results.', 'question': 'What happened conceptually?', 'answer': 'Oroantral communication ± displaced root — stop forcing, assess, arrange appropriate closure/retrieval.', 'discussion': 'Sinus precautions and follow-up are essential.', 'book_hint': "Peterson's Principles of Oral and Maxillofacial Surgery"},
    ],
    'extreme': [
-    {
-     'title': 'Irradiated Jaw Needs Extraction',
-     'stem': 'A head-and-neck cancer survivor with prior radiotherapy needs a painful molar extraction in the irradiated field. Avoid harmful premature treatment while catastrophic differentials remain open.',
-     'question': 'Key concept?',
-     'answer': 'High ORN risk — specialist OMFS planning, atraumatic technique, infection control, and protocolized prevention.',
-     'discussion': 'Never treat as a routine extraction.',
-     'book_hint': "Peterson's Principles of Oral and Maxillofacial Surgery"
-    }
-   ]
-  }
+    {'title': 'Irradiated Jaw Needs Extraction', 'stem': 'A head-and-neck cancer survivor with prior radiotherapy needs a painful molar extraction in the irradiated field. Avoid harmful premature treatment while catastrophic differentials remain open.', 'question': 'Key concept?', 'answer': 'High ORN risk — specialist OMFS planning, atraumatic technique, infection control, and protocolized prevention.', 'discussion': 'Never treat as a routine extraction.', 'book_hint': "Peterson's Principles of Oral and Maxillofacial Surgery"},
+   ],
+  },
  },
  'orthodontics': {
   'label': 'Orthodontics',
-  'books': [
-   "Proffit's Contemporary Orthodontics",
-   'Graber Orthodontics',
-   'Handbook of Orthodontics — Cobourne'
-  ],
-  'pdf_notes': [
-   'Angle Class I/II/III molar relationships.',
-   'Overjet = horizontal; overbite = vertical.',
-   'Space maintainers after premature primary loss.',
-   'Retention is long-term; relapse is common without retainers.',
-   'Uncontrolled periodontitis: do not move teeth aggressively.'
-  ],
+  'books': ["Proffit's Contemporary Orthodontics", 'Graber Orthodontics', 'Handbook of Orthodontics — Cobourne'],
+  'pdf_notes': ['Angle Class I/II/III molar relationships.', 'Overjet = horizontal; overbite = vertical.', 'Space maintainers after premature primary loss.', 'Retention is long-term; relapse is common without retainers.', 'Uncontrolled periodontitis: do not move teeth aggressively.'],
   'questions': {
    'easy': [
     {
-     'question': 'Angle Class II molar relation means?',
-     'options': [
-      'A) Mandibular first molar distal relative to the maxillary first molar',
-      'B) Mandibular first molar mesial relative to Class I',
-      'C) Anterior open bite without molar discrepancy',
-      'D) Bilateral posterior crossbite without anteroposterior change'
-     ],
-     'answer': 'A) Mandibular first molar distal relative to the maxillary first molar',
-     'explanation': 'In Angle’s classification, Class II molar occlusion means the mandibular first molar is positioned distal to its normal relation with the maxillary first molar. Clinically, the mesiobuccal cusp of the upper first molar occludes mesial to the buccal groove of the lower first molar.',
-     'choice_explanations': {
-      'A': 'In Angle’s classification, Class II molar occlusion means the mandibular first molar is positioned distal to its normal relation with the maxillary first molar. Clinically, the mesiobuccal cusp of the upper first molar occludes mesial to the buccal groove of the lower first molar.',
-      'B': 'Mesial mandibular molar position relative to Class I defines Angle Class III, not Class II. In Angle’s classification, Class II molar occlusion means the mandibular first molar is positioned distal to its normal relation with the maxillary first molar.',
-      'C': 'Anterior open bite is a vertical discrepancy and does not define Class II molar occlusion. In Angle’s classification, Class II molar occlusion means the mandibular first molar is positioned distal to its normal relation with the maxillary first molar.',
-      'D': 'Posterior crossbite is transverse and does not define Class II anteroposterior molar relation. In Angle’s classification, Class II molar occlusion means the mandibular first molar is positioned distal to its normal relation with the maxillary first molar.'
-     }
+     'question': 'Angle Class II division 1 occlusion is characterized by which anteroposterior molar/canine relationship with typical incisor feature?',
+     'options': ['A) Distal molar relationship with proclined maxillary incisors and increased overjet', 'B) Mesial molar relationship with reverse overjet only', 'C) Class I molars with edge-to-edge incisors only', 'D) Complete absence of all first permanent molars'],
+     'answer': 'A) Distal molar relationship with proclined maxillary incisors and increased overjet',
+     'explanation': 'In Angle Class II, the mandibular first molar is distal to the maxillary first molar. Division 1 shows proclined upper incisors and often large overjet; division 2 shows retroclined upper centrals. This anteroposterior discrepancy guides growth modification or camouflage planning.',
+     'choice_explanations': {'A': 'Class II div 1 = distal molar relation plus proclined upper incisors/increased overjet.', 'B': 'Mesial molar relation defines Class III, not Class II division 1.', 'C': 'Class I molars are not the Class II molar relationship.', 'D': 'Missing molars are not required to define Angle Class II division 1.'}
     },
     {
-     'question': 'Overjet describes which relationship?',
-     'options': [
-      'A) Vertical overlap of the incisors only',
-      'B) Horizontal overlap of the incisors',
-      'C) Torque of molar crowns only',
-      'D) Arch-length discrepancy only'
-     ],
-     'answer': 'B) Horizontal overlap of the incisors',
-     'explanation': 'Overjet is the horizontal distance between the labial surface of the mandibular incisors and the incisal edges of the maxillary incisors. Overbite, by contrast, measures vertical overlap of the incisors.',
-     'choice_explanations': {
-      'A': 'Vertical incisor overlap is overbite, a different dimension from horizontal overjet. Overjet is the horizontal distance between the labial surface of the mandibular incisors and the incisal edges of the maxillary incisors.',
-      'B': 'Overjet is the horizontal distance between the labial surface of the mandibular incisors and the incisal edges of the maxillary incisors. Overbite, by contrast, measures vertical overlap of the incisors.',
-      'C': 'Molar torque is buccolingual crown inclination, not horizontal incisor overlap. Overjet is the horizontal distance between the labial surface of the mandibular incisors and the incisal edges of the maxillary incisors.',
-      'D': 'Arch-length discrepancy compares total tooth size with available arch perimeter. Overjet is the horizontal distance between the labial surface of the mandibular incisors and the incisal edges of the maxillary incisors.'
-     }
+     'question': 'Which tissue remodeling concept primarily allows orthodontic tooth movement through alveolar bone?',
+     'options': ['A) Enamel hyperplasia on the pressure side only', 'B) Pressure-side resorption and tension-side apposition of alveolar bone', 'C) Pulp stone formation as the main relocation mechanism', 'D) Cementum thickening that pushes the crown through mucosa'],
+     'answer': 'B) Pressure-side resorption and tension-side apposition of alveolar bone',
+     'explanation': 'Sustained force creates a pressure side where osteoclasts resorb alveolar bone and a tension side where osteoblasts deposit bone, allowing the tooth–PDL unit to relocate. Excess force can cause hyalinization and root resorption. Enamel, pulp stones, and cementum hyperplasia are not the primary relocation mechanism.',
+     'choice_explanations': {'A': 'Enamel does not remodel to move teeth through bone.', 'B': 'Orthodontic movement depends on coupled pressure-side bone resorption and tension-side bone formation via the PDL.', 'C': 'Pulp stones are calcifications within pulp; they do not translate the tooth.', 'D': 'Cementum changes may accompany movement but do not drive alveolar relocation.'}
     },
     {
-     'question': 'A space maintainer is indicated when?',
-     'options': [
-      'A) Adult chronic periodontitis needs temporary splinting only',
-      'B) Vital bleaching requires tray retention',
-      'C) Premature loss of a primary tooth risks space loss for the successor',
-      'D) Direct pulp capping is planned on a permanent molar'
-     ],
-     'answer': 'C) Premature loss of a primary tooth risks space loss for the successor',
-     'explanation': 'Early loss of a primary tooth allows adjacent teeth to drift into the edentulous space, shortening arch length and risking impaction or crowding of the successor. A space maintainer holds the mesiodistal dimension until the permanent tooth erupts.',
-     'choice_explanations': {
-      'A': 'Periodontal splinting stabilizes mobile adult teeth; it does not preserve successor space. Early loss of a primary tooth allows adjacent teeth to drift into the edentulous space, shortening arch length and risking impaction or crowding of the successor.',
-      'B': 'Bleaching trays hold peroxide gel and do not maintain mesiodistal arch length. Early loss of a primary tooth allows adjacent teeth to drift into the edentulous space, shortening arch length and risking impaction or crowding of the successor.',
-      'C': 'Early loss of a primary tooth allows adjacent teeth to drift into the edentulous space, shortening arch length and risking impaction or crowding of the successor. A space maintainer holds the mesiodistal dimension until the permanent tooth erupts.',
-      'D': 'Direct pulp capping treats pulp exposure with a biocompatible dressing; it is not space maintenance. Early loss of a primary tooth allows adjacent teeth to drift into the edentulous space, shortening arch length and risking impaction or crowding of the successor.'
-     }
-    }
+     'question': 'Anchorage in orthodontics refers primarily to which clinical concept?',
+     'options': ['A) The brand name of a particular bracket prescription only', 'B) The color of elastomeric ligatures', 'C) Resistance to unwanted tooth movement used to support desired movement', 'D) The patient’s preferred toothpaste flavor'],
+     'answer': 'C) Resistance to unwanted tooth movement used to support desired movement',
+     'explanation': 'Anchorage is the resistance to reaction forces that would move nontarget teeth undesirably. Planning absolute, maximum, moderate, or minimum anchorage determines whether molars may move mesially during space closure. Temporary anchorage devices increase anchorage by recruiting bone rather than teeth alone.',
+     'choice_explanations': {'A': 'Bracket prescription is a wire–bracket geometry system, not the definition of anchorage.', 'B': 'Ligature color is cosmetic and unrelated to anchorage biomechanics.', 'C': 'Anchorage means controlling reaction forces so supporting units resist unwanted movement while targets move.', 'D': 'Toothpaste flavor has no biomechanical anchorage meaning.'}
+    },
    ],
    'medium': [
     {
-     'question': 'A unilateral posterior crossbite with a functional mandibular shift most suggests?',
-     'options': [
-      'A) Isolated random oral habit without occlusal cause',
-      'B) Fluorosis mottling as the primary etiology',
-      'C) Interproximal caries alone without occlusal interference',
-      'D) Premature contact or occlusal interference deflecting closure'
-     ],
-     'answer': 'D) Premature contact or occlusal interference deflecting closure',
-     'explanation': 'A unilateral posterior crossbite with a mandibular functional shift often results from a premature occlusal contact that deflects the mandible on closure. The shift can produce asymmetric growth and must be distinguished from a true skeletal asymmetry.',
-     'choice_explanations': {
-      'A': 'Habits alone do not explain a unilateral crossbite with a reproducible functional mandibular shift. A unilateral posterior crossbite with a mandibular functional shift often results from a premature occlusal contact that deflects the mandible on closure.',
-      'B': 'Fluorosis is enamel hypomineralization from excess fluoride intake during formation. A unilateral posterior crossbite with a mandibular functional shift often results from a premature occlusal contact that deflects the mandible on closure.',
-      'C': 'Interproximal caries without premature contacts does not deflect mandibular closure. A unilateral posterior crossbite with a mandibular functional shift often results from a premature occlusal contact that deflects the mandible on closure.',
-      'D': 'A unilateral posterior crossbite with a mandibular functional shift often results from a premature occlusal contact that deflects the mandible on closure. The shift can produce asymmetric growth and must be distinguished from a true skeletal asymmetry.'
-     }
+     'question': 'A growing Class II patient with mandibular retrognathia and good compliance is being considered for functional appliance therapy. Which applied principle best matches indication?',
+     'options': ['A) Wait until growth cessation then only do functional appliances', 'B) Extract all third molars as the sole Class II correction', 'C) Ignore skeletal pattern and treat only with bleaching', 'D) Use growth modification while the patient is still growing to advance mandibular posture/remodeling'],
+     'answer': 'D) Use growth modification while the patient is still growing to advance mandibular posture/remodeling',
+     'explanation': 'Functional appliances for Class II mandibular deficiency are most effective in growing patients because they can influence mandibular growth expression and dentoalveolar compensation. After growth cessation, skeletal change is limited and camouflage or orthognathic surgery become the main options. Extractions or bleaching alone do not correct the skeletal Class II pattern.',
+     'choice_explanations': {'A': 'Functional appliances lose skeletal utility after growth completion.', 'B': 'Third-molar extraction does not correct Class II molar/skeletal relations by itself.', 'C': 'Bleaching changes tooth color, not occlusion or jaw relationship.', 'D': 'Growth modification for mandibular retrognathia is timed to remaining growth, not after growth ends.'}
     },
     {
-     'question': 'Anchorage in orthodontics means?',
-     'options': [
-      'A) Wire cross-section dimension alone',
-      'B) Resistance to unwanted reciprocal tooth movement',
-      'C) Bracket ceramic shade selection',
-      'D) Elastomeric ligature flavor preference'
-     ],
-     'answer': 'B) Resistance to unwanted reciprocal tooth movement',
-     'explanation': 'Anchorage is the resistance to unwanted reciprocal tooth movement that Newton’s third law would otherwise produce during orthodontic force application. Without adequate anchorage, active teeth move as intended but reactive units drift undesirably.',
-     'choice_explanations': {
-      'A': 'Wire cross-section determines stiffness and force delivery, not the definition of anchorage. Anchorage is the resistance to unwanted reciprocal tooth movement that Newton’s third law would otherwise produce during orthodontic force application.',
-      'B': 'Anchorage is the resistance to unwanted reciprocal tooth movement that Newton’s third law would otherwise produce during orthodontic force application. Without adequate anchorage, active teeth move as intended but reactive units drift undesirably.',
-      'C': 'Ceramic shade is an esthetic selection unrelated to reciprocal-force resistance. Anchorage is the resistance to unwanted reciprocal tooth movement that Newton’s third law would otherwise produce during orthodontic force application.',
-      'D': 'Ligature flavor is patient preference and has no biomechanical anchorage meaning. Anchorage is the resistance to unwanted reciprocal tooth movement that Newton’s third law would otherwise produce during orthodontic force application.'
-     }
+     'question': 'During space closure on a continuous archwire, the posterior unit drifts mesially more than planned. Which applied diagnosis fits best?',
+     'options': ['A) Anchorage loss from insufficient posterior resistance relative to anterior retraction force', 'B) Ideal absolute anchorage with zero molar movement', 'C) Only enamel fluorosis unrelated to mechanics', 'D) Successful torque without any reaction forces'],
+     'answer': 'A) Anchorage loss from insufficient posterior resistance relative to anterior retraction force',
+     'explanation': 'Newton’s third law means retracting anteriors produces equal opposite force on posteriors. If posterior anchorage is inadequate, molars mesialize (anchorage loss), consuming extraction space. Recognition prompts reinforcement (TADs, headgear, differential moments) rather than assuming forces act on one unit only.',
+     'choice_explanations': {'A': 'Unplanned molar mesialization during retraction is classic anchorage loss from reaction forces.', 'B': 'Absolute anchorage implies negligible molar mesialization, opposite of this finding.', 'C': 'Fluorosis is a developmental enamel defect, not a space-closure mechanic diagnosis.', 'D': 'Every orthodontic force has an equal opposite reaction; zero reaction is physically false.'}
     },
     {
-     'question': 'Prolonged thumb sucking in the mixed dentition most commonly contributes to?',
-     'options': [
-      'A) Bilateral mandibular tori',
-      'B) Dens invaginatus of lateral incisors',
-      'C) Enamel pearl formation at furcations',
-      'D) Anterior open bite and proclined maxillary incisors'
-     ],
-     'answer': 'D) Anterior open bite and proclined maxillary incisors',
-     'explanation': 'Prolonged non-nutritive sucking generates forward and intrusive forces on the maxillary incisors and impedes normal eruption of the anteriors. The resulting dentoalveolar changes commonly include anterior open bite and proclined upper incisors.',
-     'choice_explanations': {
-      'A': 'Mandibular tori are benign lingual bony exostoses unrelated to digit-habit vectors. Prolonged non-nutritive sucking generates forward and intrusive forces on the maxillary incisors and impedes normal eruption of the anteriors.',
-      'B': 'Dens invaginatus is an enamel-organ infolding that can channel bacteria toward the pulp. Prolonged non-nutritive sucking generates forward and intrusive forces on the maxillary incisors and impedes normal eruption of the anteriors.',
-      'C': 'Enamel pearls are ectopic enamel droplets on root surfaces, often near furcations. Prolonged non-nutritive sucking generates forward and intrusive forces on the maxillary incisors and impedes normal eruption of the anteriors.',
-      'D': 'Prolonged non-nutritive sucking generates forward and intrusive forces on the maxillary incisors and impedes normal eruption of the anteriors. The resulting dentoalveolar changes commonly include anterior open bite and proclined upper incisors.'
-     }
-    }
+     'question': 'A patient presents with anterior open bite, tongue thrust habit, and increased lower face height. Which applied treatment concept is most coherent?',
+     'options': ['A) Bond only lower lingual retainers and ignore the open bite', 'B) Address habit and vertical control; consider habit therapy, orthodontics, and possible surgical options if skeletal vertical excess persists', 'C) Prescribe antibiotics for the open bite', 'D) Extract maxillary laterals as first-line for all open bites'],
+     'answer': 'B) Address habit and vertical control; consider habit therapy, orthodontics, and possible surgical options if skeletal vertical excess persists',
+     'explanation': 'Anterior open bite often combines habit, airway/vertical skeletal factors, and dental compensations. Stable correction requires habit control, vertical mechanics or TADs, and sometimes orthognathic surgery for severe skeletal vertical excess. Antibiotics and unrelated extractions do not address etiology.',
+     'choice_explanations': {'A': 'A retainer without bite correction leaves the functional and esthetic problem untreated.', 'B': 'Open-bite care targets habit and vertical skeletal/dental factors; retainers or antibiotics alone are insufficient.', 'C': 'Open bite is not an infection requiring antibiotics.', 'D': 'Routine lateral extraction is not a universal open-bite solution and may worsen esthetics.'}
+    },
    ],
    'hard': [
     {
-     'question': 'External apical root resorption risk during orthodontics increases most with?',
-     'options': [
-      'A) Alcohol-free mouthwash use',
-      'B) Choice of toothpaste brand',
-      'C) Daily flossing technique alone',
-      'D) Heavy prolonged forces and certain root morphologies'
-     ],
-     'answer': 'D) Heavy prolonged forces and certain root morphologies',
-     'explanation': 'Orthodontic tooth movement depends on controlled periodontal ligament stress; heavy or prolonged forces can trigger sterile inflammation and clastic activity on the root surface. External apical root resorption risk also rises with pipette-shaped roots and prior trauma.',
-     'choice_explanations': {
-      'A': 'Mouthwash formulation does not generate the PDL stress that drives orthodontic root resorption. Orthodontic tooth movement depends on controlled periodontal ligament stress; heavy or prolonged forces can trigger sterile inflammation and clastic activity on the root surface.',
-      'B': 'Dentifrice brand does not determine sterile clastic activity on the root surface. Orthodontic tooth movement depends on controlled periodontal ligament stress; heavy or prolonged forces can trigger sterile inflammation and clastic activity on the root surface.',
-      'C': 'Flossing does not create the heavy prolonged orthodontic forces linked to apical resorption. Orthodontic tooth movement depends on controlled periodontal ligament stress; heavy or prolonged forces can trigger sterile inflammation and clastic activity on the root surface.',
-      'D': 'Orthodontic tooth movement depends on controlled periodontal ligament stress; heavy or prolonged forces can trigger sterile inflammation and clastic activity on the root surface. External apical root resorption risk also rises with pipette-shaped roots and prior trauma.'
-     }
+     'question': 'A 13-year-old has a unilateral posterior crossbite with functional shift of the mandible toward the crossbite side, asymmetric CO–CR, and a midline deviation that improves when the mandible is guided to CR. What is the most appropriate early management concept?',
+     'options': ['A) Delay all treatment until age 25 because shifts always self-correct', 'B) Extract the shifting-side canine immediately as sole therapy', 'C) Correct the transverse discrepancy early (e.g., expansion) to eliminate the shift and reduce asymmetric growth risk', 'D) Place a high-pull headgear only without addressing the crossbite'],
+     'answer': 'C) Correct the transverse discrepancy early (e.g., expansion) to eliminate the shift and reduce asymmetric growth risk',
+     'explanation': 'A functional shift from unilateral crossbite can drive asymmetric condylar loading and facial growth. Early transverse correction removes the occlusal interference that causes the shift, allowing more symmetric growth. Waiting until adulthood, extracting a canine alone, or ignoring the crossbite with unrelated AP mechanics are near-miss strategies.',
+     'choice_explanations': {'A': 'Functional shifts do not reliably self-correct and may worsen facial asymmetry with growth.', 'B': 'Canine extraction does not remove the transverse interference causing the shift.', 'C': 'Functional mandibular shifts from crossbite warrant early expansion/transverse correction to stop asymmetric guidance.', 'D': 'Headgear addresses AP/vertical anchorage, not the unilateral crossbite shift etiology.'}
     },
     {
-     'question': 'Serial extraction in orthodontics refers to?',
-     'options': [
-      'A) Extraction of all third molars as a sole protocol',
-      'B) A guided sequence of primary then selected permanent extractions for severe crowding',
-      'C) A series of nonsurgical root canal treatments',
-      'D) Repeated full-mouth scaling appointments only'
-     ],
-     'answer': 'B) A guided sequence of primary then selected permanent extractions for severe crowding',
-     'explanation': 'Serial extraction is a planned sequence of primary and then selected permanent tooth removals in the mixed dentition when severe crowding is inevitable. The goal is to guide eruption into a more favorable alignment and reduce later mechanotherapy complexity.',
-     'choice_explanations': {
-      'A': 'Third-molar removal alone is not the guided mixed-dentition sequence called serial extraction. Serial extraction is a planned sequence of primary and then selected permanent tooth removals in the mixed dentition when severe crowding is inevitable.',
-      'B': 'Serial extraction is a planned sequence of primary and then selected permanent tooth removals in the mixed dentition when severe crowding is inevitable. The goal is to guide eruption into a more favorable alignment and reduce later mechanotherapy complexity.',
-      'C': 'Endodontic therapy treats pulp/periapex and is not orthodontic serial extraction. Serial extraction is a planned sequence of primary and then selected permanent tooth removals in the mixed dentition when severe crowding is inevitable.',
-      'D': 'Scaling removes biofilm/calculus; it is not a guided extraction protocol for crowding. Serial extraction is a planned sequence of primary and then selected permanent tooth removals in the mixed dentition when severe crowding is inevitable.'
-     }
+     'question': 'An adult Class III patient shows edge-to-edge incisors in CR but clear reverse overjet in CO, with a large CO–CR discrepancy and dental compensations (proclined lower incisors). Which treatment-planning distinction is most critical?',
+     'options': ['A) Assume every edge-to-edge bite is only enamel hypoplasia', 'B) Treat only with nightguard without occlusal diagnosis', 'C) Ignore CR records because CO is always identical to CR', 'D) Differentiate pseudo-Class III (functional shift) from true skeletal Class III before choosing camouflage versus surgery'],
+     'answer': 'D) Differentiate pseudo-Class III (functional shift) from true skeletal Class III before choosing camouflage versus surgery',
+     'explanation': 'Pseudo-Class III features an anterior shift into reverse overjet with a more favorable CR relationship, whereas true skeletal Class III remains Class III in CR. Discriminating these guides expansion/alignment versus orthognathic surgery. Dental compensations can mask severity; CR mountings/records prevent mis-planning.',
+     'choice_explanations': {'A': 'Enamel hypoplasia is a developmental defect, not a sagittal classification tool.', 'B': 'A nightguard without diagnosing shift vs skeletal discrepancy misses definitive care.', 'C': 'CO and CR often differ in shift cases; ignoring CR risks wrong surgery/camouflage choice.', 'D': 'CO–CR analysis distinguishes functional pseudo-Class III from true skeletal Class III and changes the entire plan.'}
     },
     {
-     'question': 'Temporary anchorage devices (TADs) primarily provide?',
-     'options': [
-      'A) Sustained fluoride release into enamel',
-      'B) Chairside vital bleaching activation',
-      'C) Skeletal anchorage independent of reciprocal tooth support',
-      'D) Local anesthetic depot for soft tissue'
-     ],
-     'answer': 'C) Skeletal anchorage independent of reciprocal tooth support',
-     'explanation': 'Temporary anchorage devices (TADs) are mini-implants or plates fixed to bone to provide absolute or near-absolute anchorage. Because they do not rely on reciprocal tooth support, they allow force systems that would otherwise tip or move anchor teeth.',
-     'choice_explanations': {
-      'A': 'Fluoride-releasing materials remineralize enamel; that is not the function of TADs. Temporary anchorage devices (TADs) are mini-implants or plates fixed to bone to provide absolute or near-absolute anchorage.',
-      'B': 'Bleaching activates peroxide on enamel and is unrelated to skeletal anchorage. Temporary anchorage devices (TADs) are mini-implants or plates fixed to bone to provide absolute or near-absolute anchorage.',
-      'C': 'Temporary anchorage devices (TADs) are mini-implants or plates fixed to bone to provide absolute or near-absolute anchorage. Because they do not rely on reciprocal tooth support, they allow force systems that would otherwise tip or move anchor teeth.',
-      'D': 'Local anesthetics block nerve conduction; TADs are not soft-tissue drug depots. Temporary anchorage devices (TADs) are mini-implants or plates fixed to bone to provide absolute or near-absolute anchorage.'
-     }
-    }
+     'question': 'Mid-treatment, a patient on rectangular stainless steel wires develops increasing root resorption on maxillary incisors, short roots on start films, and heavy continuous forces historically used. Which multi-cue adjustment is most appropriate?',
+     'options': ['A) Reduce force magnitude/duration, pause aggressive torque, reassess radiographs, and reconsider treatment goals', 'B) Increase continuous heavy force to finish faster despite resorption', 'C) Ignore resorption because orthodontics never affects roots', 'D) Switch solely to bleaching trays as root therapy'],
+     'answer': 'A) Reduce force magnitude/duration, pause aggressive torque, reassess radiographs, and reconsider treatment goals',
+     'explanation': 'External apical root resorption risk rises with heavy force, long treatment, torque, and pre-existing short roots. Prudent response is force reduction, possible treatment pause, radiographic monitoring, and goal modification. Accelerating with heavier force, denying risk, or bleaching does not manage biologic damage.',
+     'choice_explanations': {'A': 'When resorption cues appear, lighten forces, limit torque/duration, monitor, and revise goals—do not escalate force.', 'B': 'Heavier continuous force worsens resorption risk and is contraindicated.', 'C': 'Orthodontic force can cause iatrogenic root resorption; denial is incorrect.', 'D': 'Bleaching does not treat or reverse root resorption.'}
+    },
    ],
    'extreme': [
     {
-     'question': 'Orthodontic treatment in a patient with severe periodontitis most appropriately requires?',
-     'options': [
-      'A) Immediate heavy rapid maxillary expansion regardless of inflammation',
-      'B) Ignoring radiographic bone levels during force application',
-      'C) Extracting all remaining teeth before any orthodontics',
-      'D) Periodontal disease control first, light forces, and perio co-management'
-     ],
-     'answer': 'D) Periodontal disease control first, light forces, and perio co-management',
-     'explanation': 'Periodontitis involves plaque-driven inflammation and progressive attachment loss; orthodontic forces applied through an inflamed periodontium can accelerate destruction. Disease control (biofilm management and inflammation resolution) must precede carefully monitored light forces with periodontal co-management.',
-     'choice_explanations': {
-      'A': 'Heavy forces through inflamed periodontium can accelerate attachment loss. Periodontitis involves plaque-driven inflammation and progressive attachment loss; orthodontic forces applied through an inflamed periodontium can accelerate destruction.',
-      'B': 'Ignoring bone levels risks loading an unsupported periodontium and worsening destruction. Periodontitis involves plaque-driven inflammation and progressive attachment loss; orthodontic forces applied through an inflamed periodontium can accelerate destruction.',
-      'C': 'Pan-extraction is not required; controlled orthodontics after perio therapy can be appropriate. Periodontitis involves plaque-driven inflammation and progressive attachment loss; orthodontic forces applied through an inflamed periodontium can accelerate destruction.',
-      'D': 'Periodontitis involves plaque-driven inflammation and progressive attachment loss; orthodontic forces applied through an inflamed periodontium can accelerate destruction. Disease control (biofilm management and inflammation resolution) must precede carefully monitored light forces with periodontal co-management.'
-     }
+     'question': 'A 16-year-old with severe Class II division 1, overjet 10 mm, incompetent lips, and a history of traumatic upper incisor fracture presents for comprehensive care. Growth charts suggest little remaining mandibular growth. Cephalometrics show marked mandibular retrognathia and upright lower incisors. Which decision pathway best balances occlusion, face, and trauma risk?',
+     'options': ['A) Promise complete skeletal correction using only Class II elastics without surgery counseling', 'B) Discuss camouflage limits versus orthognathic advancement after growth completion, protect incisors meanwhile, and avoid promising full skeletal correction with elastics alone', 'C) Extract all remaining healthy teeth to eliminate overjet without prosthetic plan', 'D) Defer any trauma protection because large overjet never increases injury risk'],
+     'answer': 'B) Discuss camouflage limits versus orthognathic advancement after growth completion, protect incisors meanwhile, and avoid promising full skeletal correction with elastics alone',
+     'explanation': 'Large overjet with incompetent lips raises dental trauma risk and reflects skeletal Class II. With minimal residual growth, functional appliances will not deliver major mandibular advancement; camouflage has facial/periodontal limits, and orthognathic surgery may be required for ideal correction. Interim protection (mouthguard) and honest shared decision-making are essential; elastics alone cannot create adult mandibular length.',
+     'choice_explanations': {'A': 'Elastics mainly move teeth; they cannot reliably create substantial adult mandibular skeletal advancement.', 'B': 'Post-growth severe skeletal Class II needs surgery-vs-camouflage counseling plus interim trauma protection—not elastics-only promises.', 'C': 'Extracting healthy dentition without reconstruction is mutilating and not a Class II solution.', 'D': 'Increased overjet is a documented trauma risk factor; protection should not be deferred.'}
     },
     {
-     'question': 'An ectopically erupting maxillary canine close to adjacent roots most threatens?',
-     'options': [
-      'A) Root resorption of adjacent incisors',
-      'B) Cutaneous freckling of the facial skin',
-      'C) Geographic tongue on the dorsum',
-      'D) Hairy tongue from papilla elongation'
-     ],
-     'answer': 'A) Root resorption of adjacent incisors',
-     'explanation': 'An ectopically erupting maxillary canine can physically resorb the roots of adjacent lateral or central incisors through direct contact and pressure. The risk rises when the canine crown overlies the incisor roots on imaging and warrants timely interceptive management.',
-     'choice_explanations': {
-      'A': 'An ectopically erupting maxillary canine can physically resorb the roots of adjacent lateral or central incisors through direct contact and pressure. The risk rises when the canine crown overlies the incisor roots on imaging and warrants timely interceptive management.',
-      'B': 'Facial freckling is melanocytic pigmentation unrelated to ectopic canine mechanics. An ectopically erupting maxillary canine can physically resorb the roots of adjacent lateral or central incisors through direct contact and pressure.',
-      'C': 'Geographic tongue is benign migratory glossitis with migrating filiform-papilla atrophy. An ectopically erupting maxillary canine can physically resorb the roots of adjacent lateral or central incisors through direct contact and pressure.',
-      'D': 'Hairy tongue is elongated filiform papillae with retained debris, unrelated to canine ectopia. An ectopically erupting maxillary canine can physically resorb the roots of adjacent lateral or central incisors through direct contact and pressure.'
-     }
+     'question': 'An adult interdisciplinary case shows pathologic migration of upper incisors, 6 mm pocketing, reduced bone height, and a diastema increasing over 2 years. The patient wants braces immediately for esthetics. Periodontal charting and radiographs confirm uncontrolled inflammation. What is the most appropriate sequenced decision?',
+     'options': ['A) Bond immediately with heavy continuous forces despite active periodontitis', 'B) Extract all periodontally involved teeth before any hygiene phase', 'C) Stabilize periodontal disease first (cause-related therapy ± surgery), then consider limited orthodontics with light forces and retention planning', 'D) Place veneers only over inflamed bleeding tissues without periodontal care'],
+     'answer': 'C) Stabilize periodontal disease first (cause-related therapy ± surgery), then consider limited orthodontics with light forces and retention planning',
+     'explanation': 'Orthodontic forces in uncontrolled periodontitis can accelerate attachment loss. Pathologic migration requires infection control, oral hygiene, and often regenerative/ resective periodontal therapy before tooth movement. Light forces and long-term retention follow once inflammation is controlled. Immediate heavy orthodontics or restorative cover-up without perio stability is a dangerous near-miss.',
+     'choice_explanations': {'A': 'Moving teeth through inflamed periodontium risks rapid attachment destruction.', 'B': 'Extractions before hygiene assessment skip reversible disease control and informed planning.', 'C': 'Active periodontitis must be stabilized before orthodontics; then light-force movement and retention are considered.', 'D': 'Veneering inflamed tissues traps plaque and ignores biologic foundation.'}
     },
     {
-     'question': 'Choosing surgical orthodontics versus camouflage for skeletal Class III most weighs?',
-     'options': [
-      'A) Bracket brand and prescription alone',
-      'B) Archwire alloy metallurgy alone',
-      'C) Growth status, severity, facial profile, and occlusal discrepancy',
-      'D) Length of each appointment slot alone'
-     ],
-     'answer': 'C) Growth status, severity, facial profile, and occlusal discrepancy',
-     'explanation': 'Class III malocclusion may be dental, skeletal, or combined; treatment choice depends on remaining growth, skeletal severity, soft-tissue profile, and occlusal discrepancy. Mild dental Class III may be camouflaged, whereas severe skeletal discrepancies often need orthognathic surgery after growth assessment.',
-     'choice_explanations': {
-      'A': 'Bracket prescription affects mechanics but does not decide surgical vs camouflage Class III. Class III malocclusion may be dental, skeletal, or combined; treatment choice depends on remaining growth, skeletal severity, soft-tissue profile, and occlusal discrepancy.',
-      'B': 'Wire alloy affects force delivery, not skeletal severity/profile criteria for Class III surgery. Class III malocclusion may be dental, skeletal, or combined; treatment choice depends on remaining growth, skeletal severity, soft-tissue profile, and occlusal discrepancy.',
-      'C': 'Class III malocclusion may be dental, skeletal, or combined; treatment choice depends on remaining growth, skeletal severity, soft-tissue profile, and occlusal discrepancy. Mild dental Class III may be camouflaged, whereas severe skeletal discrepancies often need orthognathic surgery after growth assessment.',
-      'D': 'Appointment length is logistical and unrelated to skeletal Class III treatment choice. Class III malocclusion may be dental, skeletal, or combined; treatment choice depends on remaining growth, skeletal severity, soft-tissue profile, and occlusal discrepancy.'
-     }
-    }
-   ]
+     'question': 'During combined orthodontic–orthognathic planning for skeletal open bite, models show dental compensation with already proclined upper and lower incisors, narrow maxilla, and gummy smile from vertical maxillary excess. Which complication-aware plan is most coherent?',
+     'options': ['A) Extrude molars further with continuous anterior elastics as sole adult skeletal cure', 'B) Expand only with rapid palatal expansion assuming adult midpalatal suture always opens like a child', 'C) Ignore vertical excess and finish with anterior bonding alone', 'D) Plan skeletal correction (often segmental maxillary surgery ± mandibular procedures) rather than further dental proclination that would decompensate poorly and relapse vertically'],
+     'answer': 'D) Plan skeletal correction (often segmental maxillary surgery ± mandibular procedures) rather than further dental proclination that would decompensate poorly and relapse vertically',
+     'explanation': 'Adult skeletal open bite with VME and maxillary constriction typically needs surgical (or skeletally anchored) correction; further dental extrusion/proclination worsens stability and periodontium. Adult RPE may fail if the suture is fused, favoring SARPE or bone-borne expansion. Bonding alone cannot correct VME or open bite skeletal pattern.',
+     'choice_explanations': {'A': 'Molar extrusion increases vertical dimension and can worsen open bite; it is not an adult skeletal cure.', 'B': 'Adult midpalatal suture often resists classic RPE; assuming pediatric response risks failure/relapse.', 'C': 'Anterior bonding without vertical skeletal correction leaves gummy smile and open bite uncorrected.', 'D': 'True skeletal open bite/VME requires skeletal surgery or skeletal anchorage strategies—not more dental compensation.'}
+    },
+   ],
   },
   'cases': {
    'easy': [
-    {
-     'title': 'Crowding in Teen',
-     'stem': 'A 14-year-old has moderate crowding and Class I molars. Oral hygiene is good.',
-     'question': 'First planning idea?',
-     'answer': 'Comprehensive orthodontic assessment (records, growth, hygiene).',
-     'discussion': 'Treatment options depend on space analysis.',
-     'book_hint': "Proffit's Contemporary Orthodontics"
-    }
+    {'title': 'Crowding in Teen', 'stem': 'A 14-year-old has moderate crowding and Class I molars. Oral hygiene is good.', 'question': 'First planning idea?', 'answer': 'Comprehensive orthodontic assessment (records, growth, hygiene).', 'discussion': 'Treatment options depend on space analysis.', 'book_hint': "Proffit's Contemporary Orthodontics"},
    ],
    'medium': [
-    {
-     'title': 'Anterior Crossbite Child',
-     'stem': 'An 8-year-old has one upper incisor in crossbite with a shift on closing.',
-     'question': 'Concern?',
-     'answer': 'Functional shift from interference — early correction often indicated.',
-     'discussion': 'Prevent asymmetric growth habits.',
-     'book_hint': "Proffit's Contemporary Orthodontics"
-    }
+    {'title': 'Anterior Crossbite Child', 'stem': 'An 8-year-old has one upper incisor in crossbite with a shift on closing.', 'question': 'Concern?', 'answer': 'Functional shift from interference — early correction often indicated.', 'discussion': 'Prevent asymmetric growth habits.', 'book_hint': "Proffit's Contemporary Orthodontics"},
    ],
    'hard': [
-    {
-     'title': 'Adult Relapse After Retainers Lost',
-     'stem': 'A 28-year-old stopped wearing retainers and crowding returned. Choose the safest high-yield next concept before definitive results.',
-     'question': 'Teaching point?',
-     'answer': 'Relapse risk is lifelong for many; retention is part of treatment.',
-     'discussion': 'Discuss retreatment vs limited alignment.',
-     'book_hint': "Proffit's Contemporary Orthodontics"
-    }
+    {'title': 'Adult Relapse After Retainers Lost', 'stem': 'A 28-year-old stopped wearing retainers and crowding returned. Choose the safest high-yield next concept before definitive results.', 'question': 'Teaching point?', 'answer': 'Relapse risk is lifelong for many; retention is part of treatment.', 'discussion': 'Discuss retreatment vs limited alignment.', 'book_hint': "Proffit's Contemporary Orthodontics"},
    ],
    'extreme': [
-    {
-     'title': 'Growing Class III with Functional Shift',
-     'stem': 'A child with developing Class III has an edge-to-edge bite and a shift. Parents want braces immediately. Avoid harmful premature treatment while catastrophic differentials remain open.',
-     'question': 'Concept?',
-     'answer': 'Distinguish pseudo-Class III / shift from true skeletal Class III; growth modification timing and differential diagnosis matter before irreversible camouflage.',
-     'discussion': 'Wrong early extraction plans can harm.',
-     'book_hint': "Proffit's Contemporary Orthodontics"
-    }
-   ]
-  }
+    {'title': 'Growing Class III with Functional Shift', 'stem': 'A child with developing Class III has an edge-to-edge bite and a shift. Parents want braces immediately. Avoid harmful premature treatment while catastrophic differentials remain open.', 'question': 'Concept?', 'answer': 'Distinguish pseudo-Class III / shift from true skeletal Class III; growth modification timing and differential diagnosis matter before irreversible camouflage.', 'discussion': 'Wrong early extraction plans can harm.', 'book_hint': "Proffit's Contemporary Orthodontics"},
+   ],
+  },
  },
  'periodontics': {
   'label': 'Periodontics',
-  'books': [
-   "Carranza's Clinical Periodontology",
-   "Lindhe's Clinical Periodontology",
-   'Periodontology at a Glance'
-  ],
-  'pdf_notes': [
-   'Gingivitis reversible; periodontitis has attachment loss.',
-   'Biofilm disruption is the foundation of care.',
-   'Smoking increases severity and masks bleeding.',
-   'Re-evaluate after nonsurgical therapy.',
-   'NUG: pain, bleeding, necrosis of papillae.'
-  ],
+  'books': ["Carranza's Clinical Periodontology", "Lindhe's Clinical Periodontology", 'Periodontology at a Glance'],
+  'pdf_notes': ['Gingivitis reversible; periodontitis has attachment loss.', 'Biofilm disruption is the foundation of care.', 'Smoking increases severity and masks bleeding.', 'Re-evaluate after nonsurgical therapy.', 'NUG: pain, bleeding, necrosis of papillae.'],
   'questions': {
    'easy': [
     {
-     'question': 'Main cause of plaque-induced gingivitis?',
-     'options': [
-      'A) Dental biofilm at the gingival margin',
-      'B) Angle Class II malocclusion alone',
-      'C) Dens evaginatus of premolars',
-      'D) Torus palatinus presence'
-     ],
-     'answer': 'A) Dental biofilm at the gingival margin',
-     'explanation': 'Plaque-induced gingivitis is an inflammatory response of the gingiva to accumulation of dental biofilm at the gingival margin. Microbial products trigger vascular dilation, leukocyte infiltration, and clinical erythema and bleeding that reverse with effective plaque control.',
-     'choice_explanations': {
-      'A': 'Plaque-induced gingivitis is an inflammatory response of the gingiva to accumulation of dental biofilm at the gingival margin. Microbial products trigger vascular dilation, leukocyte infiltration, and clinical erythema and bleeding that reverse with effective plaque control.',
-      'B': 'Class II molar relation is occlusal discrepancy and does not by itself cause plaque gingivitis. Plaque-induced gingivitis is an inflammatory response of the gingiva to accumulation of dental biofilm at the gingival margin.',
-      'C': 'Dens evaginatus is an occlusal enamel tubercle that can pulp-expose with wear/fracture. Plaque-induced gingivitis is an inflammatory response of the gingiva to accumulation of dental biofilm at the gingival margin.',
-      'D': 'Torus palatinus is a benign midline palatal exostosis unrelated to plaque gingivitis. Plaque-induced gingivitis is an inflammatory response of the gingiva to accumulation of dental biofilm at the gingival margin.'
-     }
+     'question': 'The primary microbial niche associated with initiation and progression of periodontitis is which biofilm location?',
+     'options': ['A) Subgingival biofilm within the periodontal pocket', 'B) Sterile pulp tissue of intact virgin teeth only', 'C) Supragingival stain without living microorganisms', 'D) Keratinized palate remote from the gingival margin'],
+     'answer': 'A) Subgingival biofilm within the periodontal pocket',
+     'explanation': 'Periodontitis is a dysbiotic inflammatory disease driven largely by subgingival biofilm interacting with a susceptible host. Pocket microbiota sit against root cementum and ulcerated pocket epithelium, sustaining connective tissue and bone destruction. Supragingival stain alone or distant mucosa is not the primary pathogenic niche.',
+     'choice_explanations': {'A': 'Subgingival biofilm in pockets is the key microbial driver of periodontitis alongside host response.', 'B': 'Intact pulp is not the periodontitis biofilm habitat.', 'C': 'Stain can be esthetic; living subgingival biofilm drives disease.', 'D': 'Palatal keratinized tissue away from the sulcus is not the pocket niche.'}
     },
     {
-     'question': 'Clinical hallmark distinguishing periodontitis from gingivitis?',
-     'options': [
-      'A) Reversible marginal redness without attachment loss',
-      'B) Clinical attachment loss and alveolar bone loss',
-      'C) Extrinsic stain without inflammation',
-      'D) Calculus deposits without any inflammatory response'
-     ],
-     'answer': 'B) Clinical attachment loss and alveolar bone loss',
-     'explanation': 'Gingivitis is inflammation confined to the soft tissue, whereas periodontitis is defined by destruction of the periodontal ligament and alveolar bone, measured as clinical attachment loss. Pocketing and radiographic bone loss corroborate the diagnosis.',
-     'choice_explanations': {
-      'A': 'Marginal redness without attachment loss defines gingivitis, not periodontitis. Gingivitis is inflammation confined to the soft tissue, whereas periodontitis is defined by destruction of the periodontal ligament and alveolar bone, measured as clinical attachment loss.',
-      'B': 'Gingivitis is inflammation confined to the soft tissue, whereas periodontitis is defined by destruction of the periodontal ligament and alveolar bone, measured as clinical attachment loss. Pocketing and radiographic bone loss corroborate the diagnosis.',
-      'C': 'Extrinsic stain is surface pigment and does not define periodontitis. Gingivitis is inflammation confined to the soft tissue, whereas periodontitis is defined by destruction of the periodontal ligament and alveolar bone, measured as clinical attachment loss.',
-      'D': 'Calculus harbors biofilm but periodontitis requires inflammatory attachment/bone loss. Gingivitis is inflammation confined to the soft tissue, whereas periodontitis is defined by destruction of the periodontal ligament and alveolar bone, measured as clinical attachment loss.'
-     }
+     'question': 'Clinical attachment loss is measured as which combination?',
+     'options': ['A) Crown height alone without probing', 'B) Probing depth plus gingival recession relative to the cementoenamel junction (or equivalent landmark)', 'C) Only pulp vitality test scores', 'D) Only salivary flow rate in mL/min'],
+     'answer': 'B) Probing depth plus gingival recession relative to the cementoenamel junction (or equivalent landmark)',
+     'explanation': 'Clinical attachment level/loss references the CEJ: when recession is present, CAL ≈ probing depth + recession; when the gingival margin is coronal to the CEJ, the coronal tissue height is subtracted. CAL quantifies cumulative destruction better than probing depth alone. Vitality and saliva tests assess other domains.',
+     'choice_explanations': {'A': 'Crown height does not measure periodontal attachment.', 'B': 'CAL integrates pocket depth and gingival margin position relative to the CEJ.', 'C': 'Pulp tests assess endodontic status, not attachment level.', 'D': 'Salivary flow assesses dry mouth risk, not CAL.'}
     },
     {
-     'question': 'Best foundation for daily plaque control?',
-     'options': [
-      'A) Whitening strips as the sole hygiene method',
-      'B) Chewing ice to abrade plaque',
-      'C) Toothbrushing with interdental cleaning',
-      'D) Charcoal powder alone without brushing technique'
-     ],
-     'answer': 'C) Toothbrushing with interdental cleaning',
-     'explanation': 'Dental biofilm must be disrupted mechanically because saliva and rinses alone do not remove adherent plaque from tooth surfaces. Toothbrushing cleans facial and lingual surfaces; interdental aids clean proximal niches where periodontitis often begins.',
-     'choice_explanations': {
-      'A': 'Whitening strips deliver peroxide for stain and do not adequately disrupt interdental biofilm. Dental biofilm must be disrupted mechanically because saliva and rinses alone do not remove adherent plaque from tooth surfaces.',
-      'B': 'Chewing ice risks dental injury and is not an effective plaque-control method. Dental biofilm must be disrupted mechanically because saliva and rinses alone do not remove adherent plaque from tooth surfaces.',
-      'C': 'Dental biofilm must be disrupted mechanically because saliva and rinses alone do not remove adherent plaque from tooth surfaces. Toothbrushing cleans facial and lingual surfaces; interdental aids clean proximal niches where periodontitis often begins.',
-      'D': 'Charcoal powder lacks proven mechanical biofilm control and may abrade tissues/restorations. Dental biofilm must be disrupted mechanically because saliva and rinses alone do not remove adherent plaque from tooth surfaces.'
-     }
-    }
+     'question': 'What is the principal goal of nonsurgical periodontal therapy (scaling and root planing)?',
+     'options': ['A) Place porcelain veneers on inflamed anterior teeth first', 'B) Obliterate the entire alveolar process prophylactically', 'C) Disrupt and reduce subgingival biofilm and calculus to allow inflammation resolution', 'D) Replace all amalgams regardless of periodontal status'],
+     'answer': 'C) Disrupt and reduce subgingival biofilm and calculus to allow inflammation resolution',
+     'explanation': 'Cause-related nonsurgical therapy removes/disrupts biofilm and calculus, reduces pocket bacterial load, and enables healing with pocket reduction and attachment gain in many sites. Restorative cosmetics or unnecessary bone removal are not first-line periodontal goals.',
+     'choice_explanations': {'A': 'Veneers on inflamed gingiva violate biologic and plaque-control principles.', 'B': 'Removing alveolar bone prophylactically is destructive, not therapeutic SRP.', 'C': 'SRP aims to control the subgingival biofilm/calculus load so inflammation can resolve.', 'D': 'Blanket amalgam replacement does not treat periodontitis etiology.'}
+    },
    ],
    'medium': [
     {
-     'question': 'Furcation involvement is assessed on which teeth?',
-     'options': [
-      'A) Maxillary central incisors',
-      'B) Mandibular canines',
-      'C) Primary lateral incisors',
-      'D) Multirooted teeth such as molars'
-     ],
-     'answer': 'D) Multirooted teeth such as molars',
-     'explanation': 'Furcation involvement is pathologic bone loss between the roots of multirooted teeth, exposing the furcation entrance. Single-rooted teeth lack furcations, so this assessment applies to molars and some premolars with bifurcated roots.',
-     'choice_explanations': {
-      'A': 'Maxillary central incisors are single-rooted and have no furcation to probe. Furcation involvement is pathologic bone loss between the roots of multirooted teeth, exposing the furcation entrance.',
-      'B': 'Mandibular canine roots occupy the anterior mandible and do not abut the maxillary antrum. Furcation involvement is pathologic bone loss between the roots of multirooted teeth, exposing the furcation entrance.',
-      'C': 'Primary lateral incisors are single-rooted and lack furcations. Furcation involvement is pathologic bone loss between the roots of multirooted teeth, exposing the furcation entrance.',
-      'D': 'Furcation involvement is pathologic bone loss between the roots of multirooted teeth, exposing the furcation entrance. Single-rooted teeth lack furcations, so this assessment applies to molars and some premolars with bifurcated roots.'
-     }
+     'question': 'A patient has bleeding on probing, 5–6 mm pockets, radiographic horizontal bone loss, and poor interdental cleaning. After oral hygiene instruction, what is the most appropriate next applied therapy?',
+     'options': ['A) Immediate free gingival graft at every bleeding site before hygiene', 'B) Systemic antifungals as sole periodontitis therapy', 'C) Orthognathic surgery as first-line pocket therapy', 'D) Quadrant or full-mouth scaling and root planing with risk-factor counseling'],
+     'answer': 'D) Quadrant or full-mouth scaling and root planing with risk-factor counseling',
+     'explanation': 'After hygiene motivation, nonsurgical debridement remains first-line for periodontitis with residual pockets and calculus. Surgery (including grafts) is considered after cause-related therapy; antifungals treat Candida, not bacterial periodontitis; orthognathic surgery is unrelated to primary pocket therapy.',
+     'choice_explanations': {'A': 'Soft-tissue grafting is not first-line for untreated plaque-induced pocketing.', 'B': 'Antifungals do not address bacterial dysbiosis of periodontitis.', 'C': 'Jaw surgery does not replace periodontal cause-related therapy.', 'D': 'Applied periodontitis care: OHI then SRP and risk-factor control before resective/regenerative surgery.'}
     },
     {
-     'question': 'How does smoking typically affect periodontitis?',
-     'options': [
-      'A) Protects clinical attachment indefinitely',
-      'B) Increases risk and severity while masking bleeding',
-      'C) Naturally whitens roots without tissue effect',
-      'D) Has no measurable effect on periodontal disease'
-     ],
-     'answer': 'B) Increases risk and severity while masking bleeding',
-     'explanation': 'Tobacco smoking impairs neutrophil function, reduces gingival blood flow, and alters cytokine responses, increasing periodontitis risk and severity. Reduced vascularity also masks gingival bleeding, so disease may look less inflamed than it is.',
-     'choice_explanations': {
-      'A': 'Smoking does not protect attachment; it impairs host response and worsens periodontitis. Tobacco smoking impairs neutrophil function, reduces gingival blood flow, and alters cytokine responses, increasing periodontitis risk and severity.',
-      'B': 'Tobacco smoking impairs neutrophil function, reduces gingival blood flow, and alters cytokine responses, increasing periodontitis risk and severity. Reduced vascularity also masks gingival bleeding, so disease may look less inflamed than it is.',
-      'C': 'Smoking does not therapeutically whiten roots or spare periodontal tissues. Tobacco smoking impairs neutrophil function, reduces gingival blood flow, and alters cytokine responses, increasing periodontitis risk and severity.',
-      'D': 'Smoking has a documented adverse effect on periodontitis risk and healing. Tobacco smoking impairs neutrophil function, reduces gingival blood flow, and alters cytokine responses, increasing periodontitis risk and severity.'
-     }
+     'question': 'Which local anatomic factor most commonly perpetuates plaque retention and localized periodontal destruction adjacent to a restoration?',
+     'options': ['A) Overhanging restoration margin that harbors biofilm', 'B) Perfectly polished supragingival margin flush with enamel', 'C) Absence of any restoration on a smooth virgin tooth', 'D) Well-contoured open embrasure allowing cleaning access'],
+     'answer': 'A) Overhanging restoration margin that harbors biofilm',
+     'explanation': 'Overhangs and open margins create plaque-retentive niches that sustain localized inflammation and bone loss. Corrective recontouring or replacement improves cleansability. Flush polished margins and accessible embrasures favor health.',
+     'choice_explanations': {'A': 'Restorative overhangs are classic local plaque traps that worsen localized periodontitis.', 'B': 'Flush polished margins minimize retention rather than perpetuate disease.', 'C': 'Virgin smooth enamel lacks the overhang niche described.', 'D': 'Open cleansable embrasures facilitate hygiene rather than trap plaque.'}
     },
     {
-     'question': 'Rapidly progressive periodontitis in a young patient historically associated with which theme?',
-     'options': [
-      'A) Cervical abrasion from brushing alone',
-      'B) Enamel fluorosis without attachment change',
-      'C) Occlusal attrition as the sole cause of bone loss',
-      'D) Severe attachment loss out of proportion to deposits, with A. actinomycetemcomitans often discussed'
-     ],
-     'answer': 'D) Severe attachment loss out of proportion to deposits, with A. actinomycetemcomitans often discussed',
-     'explanation': 'Rapidly progressive periodontitis in young patients (historically localized aggressive periodontitis) features severe attachment loss out of proportion to local deposits. Aggregatibacter actinomycetemcomitans has been classically associated in many cases, though staging/grading frameworks now emphasize rate and risk factors.',
-     'choice_explanations': {
-      'A': 'Cervical abrasion is mechanical tooth wear, not aggressive periodontitis attachment loss. Rapidly progressive periodontitis in young patients (historically localized aggressive periodontitis) features severe attachment loss out of proportion to local deposits.',
-      'B': 'Fluorosis is enamel hypomineralization without periodontal attachment loss. Rapidly progressive periodontitis in young patients (historically localized aggressive periodontitis) features severe attachment loss out of proportion to local deposits.',
-      'C': 'Attrition alone does not produce plaque-associated rapid attachment-loss patterns. Rapidly progressive periodontitis in young patients (historically localized aggressive periodontitis) features severe attachment loss out of proportion to local deposits.',
-      'D': 'Rapidly progressive periodontitis in young patients (historically localized aggressive periodontitis) features severe attachment loss out of proportion to local deposits. Aggregatibacter actinomycetemcomitans has been classically associated in many cases, though staging/grading frameworks now emphasize rate and risk factors.'
-     }
-    }
+     'question': 'In a medically controlled diabetic patient with periodontitis, which applied counseling point is most accurate?',
+     'options': ['A) Diabetes never influences periodontal inflammation', 'B) Bidirectional link: poorly controlled diabetes worsens periodontitis; periodontitis can impair glycemic control', 'C) Periodontal therapy is contraindicated in all diabetics', 'D) Only type 1 diabetes matters; type 2 is irrelevant'],
+     'answer': 'B) Bidirectional link: poorly controlled diabetes worsens periodontitis; periodontitis can impair glycemic control',
+     'explanation': 'Hyperglycemia impairs neutrophil function and wound healing and amplifies inflammatory tissue destruction; periodontitis raises systemic inflammatory burden that can worsen glycemic control. Periodontal therapy is indicated with medical coordination; both diabetes types can affect risk.',
+     'choice_explanations': {'A': 'Diabetes clearly modifies host response and periodontitis severity.', 'B': 'Diabetes and periodontitis interact bidirectionally; therapy plus glycemic control are both important.', 'C': 'Diabetics benefit from periodontal care with appropriate precautions.', 'D': 'Type 2 diabetes is a major periodontitis risk modifier.'}
+    },
    ],
    'hard': [
     {
-     'question': 'Urgent care of a periodontal abscess most appropriately includes?',
-     'options': [
-      'A) Drainage and debridement, with antimicrobials if systemic signs',
-      'B) Home bleaching tray use alone',
-      'C) Orthodontic wax over the gingival margin',
-      'D) Lifelong nightguard wear without local therapy'
-     ],
-     'answer': 'A) Drainage and debridement, with antimicrobials if systemic signs',
-     'explanation': 'A periodontal abscess is a localized purulent infection within a periodontal pocket or furcation. Drainage of pus, debridement of the pocket, and systemic antimicrobials when there are fever or spreading infection constitute appropriate urgent care.',
-     'choice_explanations': {
-      'A': 'A periodontal abscess is a localized purulent infection within a periodontal pocket or furcation. Drainage of pus, debridement of the pocket, and systemic antimicrobials when there are fever or spreading infection constitute appropriate urgent care.',
-      'B': 'Bleaching trays do not drain pocket pus or debride a periodontal abscess. A periodontal abscess is a localized purulent infection within a periodontal pocket or furcation.',
-      'C': 'Orthodontic wax shields mucosa from brackets; it does not treat periodontal abscess. A periodontal abscess is a localized purulent infection within a periodontal pocket or furcation.',
-      'D': 'A nightguard modifies occlusal load but does not drain or debride acute abscess. A periodontal abscess is a localized purulent infection within a periodontal pocket or furcation.'
-     }
+     'question': 'A 42-year-old nonsmoker shows molar deep vertical defects, first-molar furcation grade II, thin phenotype, and plaque scores improved after SRP but 7 mm residual vertical defects remain with bleeding. Which multi-cue next step is most rational?',
+     'options': ['A) Repeat only coronal polishing indefinitely without reevaluation', 'B) Extract all molars immediately without regenerative assessment', 'C) Consider periodontal surgery, often regenerative approaches for contained vertical/furcation defects after inflammation control', 'D) Place a cantilever bridge from canine to second molar without perio stability'],
+     'answer': 'C) Consider periodontal surgery, often regenerative approaches for contained vertical/furcation defects after inflammation control',
+     'explanation': 'After adequate nonsurgical therapy, residual deep vertical defects and grade II furcations may benefit from surgical access and regenerative materials when anatomy is favorable. Indefinite polishing alone, automatic extraction, or prosthetic loading of unstable periodontium are near-misses.',
+     'choice_explanations': {'A': 'Coronal polishing does not debride deep residual defects adequately.', 'B': 'Not all such molars require extraction; regeneration may save teeth.', 'C': 'Residual deep vertical/furcation defects after SRP often warrant regenerative or resective surgical evaluation.', 'D': 'Prostheses on unstable periodontium accelerate failure.'}
     },
     {
-     'question': 'Peri-implantitis is characterized by?',
-     'options': [
-      'A) Soft-tissue inflammation without progressive bone loss (mucositis only)',
-      'B) Food impaction without any inflammatory signs',
-      'C) Inflammation plus progressive crestal bone loss around an implant',
-      'D) Crown shade mismatch without biologic change'
-     ],
-     'answer': 'C) Inflammation plus progressive crestal bone loss around an implant',
-     'explanation': 'Peri-implant mucositis is reversible soft-tissue inflammation around an implant without progressive bone loss. Peri-implantitis adds progressive crestal bone loss to inflammation and probing changes, threatening implant survival.',
-     'choice_explanations': {
-      'A': 'Peri-implant mucositis is soft-tissue inflammation without progressive crestal bone loss. Peri-implant mucositis is reversible soft-tissue inflammation around an implant without progressive bone loss.',
-      'B': 'Food impaction alone without inflammation/bone loss does not define peri-implantitis. Peri-implant mucositis is reversible soft-tissue inflammation around an implant without progressive bone loss.',
-      'C': 'Peri-implant mucositis is reversible soft-tissue inflammation around an implant without progressive bone loss. Peri-implantitis adds progressive crestal bone loss to inflammation and probing changes, threatening implant survival.',
-      'D': 'Shade mismatch is esthetic and not a biologic peri-implant disease definition. Peri-implant mucositis is reversible soft-tissue inflammation around an implant without progressive bone loss.'
-     }
+     'question': 'A pregnant patient in the second trimester has pregnancy-associated gingival enlargement, bleeding, and plaque. Radiographs (already available pre-pregnancy) show mild bone loss. Which management vignette is most appropriate?',
+     'options': ['A) Prescribe tetracycline mouthwash as first-line in pregnancy', 'B) Extract all first molars prophylactically in the first trimester', 'C) Take a full new FMX every month throughout pregnancy', 'D) Reinforce plaque control, provide gentle debridement as needed, and defer elective surgery until after delivery unless severe'],
+     'answer': 'D) Reinforce plaque control, provide gentle debridement as needed, and defer elective surgery until after delivery unless severe',
+     'explanation': 'Pregnancy gingivitis responds primarily to plaque control and careful debridement; elective periodontal surgery is usually postponed. Tetracyclines are avoided in pregnancy; unnecessary extractions and repeated monthly full-mouth radiographs violate ALARA and obstetric prudence.',
+     'choice_explanations': {'A': 'Tetracyclines risk fetal tooth discoloration and are avoided in pregnancy.', 'B': 'Prophylactic molar extractions are not indicated for pregnancy gingivitis.', 'C': 'Monthly FMX contradicts ALARA; use radiographs only when justified.', 'D': 'Pregnancy periodontal care prioritizes hygiene and gentle debridement; avoid tetracyclines, elective surgery, and excess radiation.'}
     },
     {
-     'question': 'Occlusal trauma alone, without plaque-driven inflammation, most accurately?',
-     'options': [
-      'A) Initiates periodontitis even in a plaque-free mouth',
-      'B) Resolves existing periodontal pockets without debridement',
-      'C) Substitutes for mechanical plaque control',
-      'D) Does not initiate the plaque-induced periodontitis pathway'
-     ],
-     'answer': 'D) Does not initiate the plaque-induced periodontitis pathway',
-     'explanation': 'Occlusal trauma produces adaptive or pathologic changes in the periodontium from excessive occlusal load, but it does not initiate the plaque-induced inflammatory pathway of periodontitis. When inflammation is present, trauma can worsen attachment loss patterns.',
-     'choice_explanations': {
-      'A': 'Occlusal trauma alone does not initiate the plaque-driven periodontitis pathway. Occlusal trauma produces adaptive or pathologic changes in the periodontium from excessive occlusal load, but it does not initiate the plaque-induced inflammatory pathway of periodontitis.',
-      'B': 'Occlusal therapy does not replace biofilm debridement needed for inflammatory pockets. Occlusal trauma produces adaptive or pathologic changes in the periodontium from excessive occlusal load, but it does not initiate the plaque-induced inflammatory pathway of periodontitis.',
-      'C': 'Occlusal adjustment cannot substitute for mechanical disruption of pathogenic biofilm. Occlusal trauma produces adaptive or pathologic changes in the periodontium from excessive occlusal load, but it does not initiate the plaque-induced inflammatory pathway of periodontitis.',
-      'D': 'Occlusal trauma produces adaptive or pathologic changes in the periodontium from excessive occlusal load, but it does not initiate the plaque-induced inflammatory pathway of periodontitis. When inflammation is present, trauma can worsen attachment loss patterns.'
-     }
-    }
+     'question': 'A patient on long-term calcium-channel blockers develops firm lobulated gingival overgrowth covering half the crowns, with pseudopockets and plaque. Blood pressure is stable. Which multi-cue plan fits best?',
+     'options': ['A) Intensify hygiene, consult the physician about alternative antihypertensives, then consider gingivectomy if fibrous overgrowth persists', 'B) Ignore drug history and only bleach the covered teeth', 'C) Stop the antihypertensive unilaterally in the dental chair', 'D) Place orthodontic brackets under the overgrown tissue immediately'],
+     'answer': 'A) Intensify hygiene, consult the physician about alternative antihypertensives, then consider gingivectomy if fibrous overgrowth persists',
+     'explanation': 'Drug-influenced gingival enlargement (e.g., nifedipine) is plaque-modulated. Management combines meticulous hygiene, medical consultation for drug substitution when possible, and surgical excision of residual fibrotic tissue. Dentists should not unilaterally stop antihypertensives; bleaching or bracketing under overgrowth fails to address etiology.',
+     'choice_explanations': {'A': 'Drug-related overgrowth: hygiene + physician-coordinated drug review ± gingivectomy—not unilateral drug cessation or cosmetic cover-up.', 'B': 'Bleaching ignores drug and plaque-driven soft-tissue pathology.', 'C': 'Stopping BP medication without physician coordination risks hypertensive crisis.', 'D': 'Orthodontics under uncleansable overgrowth worsens inflammation.'}
+    },
    ],
    'extreme': [
     {
-     'question': 'Classic clinical triad of necrotizing ulcerative gingivitis includes?',
-     'options': [
-      'A) Peg lateral morphology alone',
-      'B) Asymptomatic extrinsic stain alone',
-      'C) Dens in dente without soft-tissue change',
-      'D) Pain, bleeding, and interdental papillary necrosis with fetor'
-     ],
-     'answer': 'D) Pain, bleeding, and interdental papillary necrosis with fetor',
-     'explanation': 'Necrotizing ulcerative gingivitis presents with painful punched-out interdental papillae, spontaneous bleeding, and often fetor oris. Fusospirochetal overgrowth in a host compromised by stress, smoking, or immunosuppression underlies the syndrome.',
-     'choice_explanations': {
-      'A': 'Peg laterals are a crown-form anomaly, not the NUG clinical triad. Necrotizing ulcerative gingivitis presents with painful punched-out interdental papillae, spontaneous bleeding, and often fetor oris.',
-      'B': 'Extrinsic stain without necrosis/pain is not necrotizing ulcerative gingivitis. Necrotizing ulcerative gingivitis presents with painful punched-out interdental papillae, spontaneous bleeding, and often fetor oris.',
-      'C': 'Dens in dente is a developmental invagination, not NUG soft-tissue necrosis. Necrotizing ulcerative gingivitis presents with painful punched-out interdental papillae, spontaneous bleeding, and often fetor oris.',
-      'D': 'Necrotizing ulcerative gingivitis presents with painful punched-out interdental papillae, spontaneous bleeding, and often fetor oris. Fusospirochetal overgrowth in a host compromised by stress, smoking, or immunosuppression underlies the syndrome.'
-     }
+     'question': 'A 29-year-old presents with rapidly progressing attachment loss, sparse plaque relative to destruction, neutrophil dysfunction history, and angular bone defects around incisors and first molars. Family history is positive. Which differential-driven plan is most appropriate?',
+     'options': ['A) Treat as simple pregnancy gingivitis despite male sex and bone loss pattern', 'B) Suspect historically termed aggressive/molar-incisor pattern periodontitis, perform microbial/host risk assessment as indicated, deliver intensive mechanical therapy ± adjunctive antimicrobials per protocol, and screen relatives', 'C) Assume trauma from occlusion alone explains angular defects without biofilm control', 'D) Provide only whitening trays because the chief complaint is esthetics'],
+     'answer': 'B) Suspect historically termed aggressive/molar-incisor pattern periodontitis, perform microbial/host risk assessment as indicated, deliver intensive mechanical therapy ± adjunctive antimicrobials per protocol, and screen relatives',
+     'explanation': 'Molar-incisor rapid destruction with discordant plaque and familial aggregation suggests a distinct host–microbe trajectory formerly called aggressive periodontitis. Intensive mechanical debridement, risk-factor management, selective systemic/local antimicrobials when indicated, and family screening are appropriate. Mislabeling as pregnancy gingivitis, ignoring biofilm for occlusal trauma alone, or whitening-only care mismanages a destructive disease.',
+     'choice_explanations': {'A': 'Male patient with bone loss is not pregnancy gingivitis.', 'B': 'Rapid molar-incisor destruction with host clues needs intensive periodontal therapy and family risk awareness—not cosmetic-only care.', 'C': 'Occlusal trauma may cofactor but does not replace anti-infective therapy.', 'D': 'Whitening does not stop attachment loss or treat pathogenesis.'}
     },
     {
-     'question': 'A pregnancy epulis is best described as?',
-     'options': [
-      'A) Malignant melanoma until proven otherwise in every case',
-      'B) A pyogenic granuloma variant that often regresses postpartum',
-      'C) A primary osteosarcoma of the alveolar ridge',
-      'D) An odontogenic caries lesion of enamel'
-     ],
-     'answer': 'B) A pyogenic granuloma variant that often regresses postpartum',
-     'explanation': 'A pregnancy epulis is a pyogenic granuloma arising from gingiva under the influence of elevated pregnancy hormones and local irritants. It is a reactive vascular lesion, not a true neoplasm, and frequently regresses after delivery once irritants are controlled.',
-     'choice_explanations': {
-      'A': 'Pregnancy epulis is a reactive vascular lesion, not melanoma by default. A pregnancy epulis is a pyogenic granuloma arising from gingiva under the influence of elevated pregnancy hormones and local irritants.',
-      'B': 'A pregnancy epulis is a pyogenic granuloma arising from gingiva under the influence of elevated pregnancy hormones and local irritants. It is a reactive vascular lesion, not a true neoplasm, and frequently regresses after delivery once irritants are controlled.',
-      'C': 'Osteosarcoma is a malignant bone neoplasm, not a reactive gingival pregnancy epulis. A pregnancy epulis is a pyogenic granuloma arising from gingiva under the influence of elevated pregnancy hormones and local irritants.',
-      'D': 'Caries is demineralization of tooth hard tissue, not a soft-tissue epulis. A pregnancy epulis is a pyogenic granuloma arising from gingiva under the influence of elevated pregnancy hormones and local irritants.'
-     }
+     'question': 'Three years after implant placement, a patient shows bleeding, 7 mm peri-implant probing, radiographic cratering around a screw-retained molar implant, excess cement history on the prior crown, and poor oral hygiene. The implant is still immobile. What complication-management sequence is best?',
+     'options': ['A) Ignore bleeding because implants cannot develop inflammatory bone loss', 'B) Tighten the implant by further torque into infected bone as sole therapy', 'C) Diagnose peri-implantitis, remove cement/plaque retentive factors, perform nonsurgical then often surgical decontamination/regeneration or resective therapy, and intensify maintenance', 'D) Prescribe antifungals alone without debridement or prosthetic correction'],
+     'answer': 'C) Diagnose peri-implantitis, remove cement/plaque retentive factors, perform nonsurgical then often surgical decontamination/regeneration or resective therapy, and intensify maintenance',
+     'explanation': 'Peri-implantitis features peri-implant soft-tissue inflammation plus progressive bone loss. Cement remnants and plaque are common drivers. Management removes etiologic factors, debrides contaminated surfaces (often surgically), and establishes strict maintenance; mobility would imply failure. Denial, further torque into infection, or antifungals alone are incorrect.',
+     'choice_explanations': {'A': 'Implants are susceptible to peri-implant mucositis and peri-implantitis.', 'B': 'Additional torque does not resolve infection and may damage bone–implant interface.', 'C': 'Peri-implantitis needs etiologic factor removal, decontamination (often surgical), and maintenance—not denial or antifungal-only care.', 'D': 'Bacterial biofilm/cement, not Candida alone, typically drive peri-implantitis.'}
     },
     {
-     'question': 'Guided tissue regeneration aims primarily for?',
-     'options': [
-      'A) Extrinsic stain removal from enamel',
-      'B) Enamel microabrasion for white-spot lesions',
-      'C) Regeneration of a new periodontal attachment apparatus',
-      'D) Vital bleaching of the clinical crown'
-     ],
-     'answer': 'C) Regeneration of a new periodontal attachment apparatus',
-     'explanation': 'Guided tissue regeneration uses a barrier membrane to exclude gingival epithelium and connective tissue from the periodontal defect, allowing periodontal ligament and bone cells to repopulate the root surface and form new cementum, PDL, and bone.',
-     'choice_explanations': {
-      'A': 'Stain removal is prophylaxis/polishing, not regeneration of periodontal attachment. Guided tissue regeneration uses a barrier membrane to exclude gingival epithelium and connective tissue from the periodontal defect, allowing periodontal ligament and bone cells to repopulate the root surface and form new cementum, PDL, and bone.',
-      'B': 'Microabrasion removes superficial enamel defects; it does not regenerate PDL/bone/cementum. Guided tissue regeneration uses a barrier membrane to exclude gingival epithelium and connective tissue from the periodontal defect, allowing periodontal ligament and bone cells to repopulate the root surface and form new cementum, PDL, and bone.',
-      'C': 'Guided tissue regeneration uses a barrier membrane to exclude gingival epithelium and connective tissue from the periodontal defect, allowing periodontal ligament and bone cells to repopulate the root surface and form new cementum, PDL, and bone.',
-      'D': 'Bleaching oxidizes chromogens in enamel/dentin and does not regenerate attachment. Guided tissue regeneration uses a barrier membrane to exclude gingival epithelium and connective tissue from the periodontal defect, allowing periodontal ligament and bone cells to repopulate the root surface and form new cementum, PDL, and bone.'
-     }
-    }
-   ]
+     'question': 'A stage IV periodontitis patient needs replacement of failing upper molars. Residual ridges show severe vertical defects, sinus pneumatization, and uncontrolled interproximal plaque on abutments of an old bridge. The patient requests immediate full-arch fixed implants this week. Which decision is most defensible?',
+     'options': ['A) Place implants immediately through active periodontal pockets without hygiene phase', 'B) Guarantee lifelong implant success regardless of maintenance', 'C) Leave the uncleanable bridge and add cantilever pontics over inflamed abutments', 'D) Control periodontal infection first, then stage ridge/sinus evaluation and implant planning; do not place implants into uncontrolled periodontitis and uncleanable prosthetic designs'],
+     'answer': 'D) Control periodontal infection first, then stage ridge/sinus evaluation and implant planning; do not place implants into uncontrolled periodontitis and uncleanable prosthetic designs',
+     'explanation': 'Implants in patients with active periodontitis and poor hygiene have higher peri-implantitis risk. Stage IV cases need infection control, prosthetic cleansability redesign, and often staged bone augmentation/sinus assessment before reconstruction. Immediate implant placement into uncontrolled disease with success guarantees is unethical near-miss planning.',
+     'choice_explanations': {'A': 'Active periodontitis elevates peri-implant biologic complication risk.', 'B': 'No implant system guarantees lifelong success without maintenance.', 'C': 'Extending uncleanable inflamed bridgework worsens prognosis.', 'D': 'Stabilize periodontitis and plan staged reconstruction; implants require infection control and maintainable prostheses.'}
+    },
+   ],
   },
   'cases': {
    'easy': [
-    {
-     'title': 'Bleeding Gums',
-     'stem': 'A student has bleeding on brushing, soft swollen gingiva, no radiographic bone loss.',
-     'question': 'Diagnosis?',
-     'answer': 'Plaque-induced gingivitis.',
-     'discussion': 'OHI and prophylaxis; reversible.',
-     'book_hint': "Carranza's Clinical Periodontology"
-    }
+    {'title': 'Bleeding Gums', 'stem': 'A student has bleeding on brushing, soft swollen gingiva, no radiographic bone loss.', 'question': 'Diagnosis?', 'answer': 'Plaque-induced gingivitis.', 'discussion': 'OHI and prophylaxis; reversible.', 'book_hint': "Carranza's Clinical Periodontology"},
    ],
    'medium': [
-    {
-     'title': 'Deep Pockets Molars',
-     'stem': 'A 45-year-old smoker has 6–7 mm pockets on molars with horizontal bone loss.',
-     'question': 'Management pillars?',
-     'answer': 'Risk factor control, nonsurgical debridement, re-evaluation, surgery if indicated.',
-     'discussion': 'Smoking cessation counseling.',
-     'book_hint': "Carranza's Clinical Periodontology"
-    }
+    {'title': 'Deep Pockets Molars', 'stem': 'A 45-year-old smoker has 6–7 mm pockets on molars with horizontal bone loss.', 'question': 'Management pillars?', 'answer': 'Risk factor control, nonsurgical debridement, re-evaluation, surgery if indicated.', 'discussion': 'Smoking cessation counseling.', 'book_hint': "Carranza's Clinical Periodontology"},
    ],
    'hard': [
-    {
-     'title': 'Diabetic with Recurrent Abscesses',
-     'stem': 'Poorly controlled diabetes, multiple periodontal abscesses, deep pockets. Choose the safest high-yield next concept before definitive results.',
-     'question': 'Priority concept?',
-     'answer': 'Medical coordination for glycemic control + acute drainage/debridement + definitive perio plan.',
-     'discussion': 'Diabetes and perio bidirectionally interact.',
-     'book_hint': "Carranza's Clinical Periodontology"
-    }
+    {'title': 'Diabetic with Recurrent Abscesses', 'stem': 'Poorly controlled diabetes, multiple periodontal abscesses, deep pockets. Choose the safest high-yield next concept before definitive results.', 'question': 'Priority concept?', 'answer': 'Medical coordination for glycemic control + acute drainage/debridement + definitive perio plan.', 'discussion': 'Diabetes and perio bidirectionally interact.', 'book_hint': "Carranza's Clinical Periodontology"},
    ],
    'extreme': [
-    {
-     'title': 'NUG in Stressed Student',
-     'stem': 'A stressed young adult smoker has punched-out papillae, severe pain, and fetor oris. Avoid harmful premature treatment while catastrophic differentials remain open.',
-     'question': 'Diagnosis and first care?',
-     'answer': 'NUG — gentle debridement, OHI, antiseptics, address risk factors; antibiotics if systemic/immunocompromise.',
-     'discussion': 'Rule out HIV/other immunodeficiency when atypical.',
-     'book_hint': "Carranza's Clinical Periodontology"
-    }
-   ]
-  }
+    {'title': 'NUG in Stressed Student', 'stem': 'A stressed young adult smoker has punched-out papillae, severe pain, and fetor oris. Avoid harmful premature treatment while catastrophic differentials remain open.', 'question': 'Diagnosis and first care?', 'answer': 'NUG — gentle debridement, OHI, antiseptics, address risk factors; antibiotics if systemic/immunocompromise.', 'discussion': 'Rule out HIV/other immunodeficiency when atypical.', 'book_hint': "Carranza's Clinical Periodontology"},
+   ],
+  },
  },
  'endodontics': {
   'label': 'Endodontics',
-  'books': [
-   "Cohen's Pathways of the Pulp",
-   'Endodontics — Torabinejad',
-   "Ingle's Endodontics"
-  ],
-  'pdf_notes': [
-   'Rubber dam is standard isolation for RCT.',
-   'Lingering spontaneous pain suggests irreversible pulpitis.',
-   'NaOCl irrigates but extrusion is dangerous.',
-   'Missed canals (MB2) cause failure.',
-   'Follow IADT for traumatic dental injuries.'
-  ],
+  'books': ["Cohen's Pathways of the Pulp", 'Endodontics — Torabinejad', "Ingle's Endodontics"],
+  'pdf_notes': ['Rubber dam is standard isolation for RCT.', 'Lingering spontaneous pain suggests irreversible pulpitis.', 'NaOCl irrigates but extrusion is dangerous.', 'Missed canals (MB2) cause failure.', 'Follow IADT for traumatic dental injuries.'],
   'questions': {
    'easy': [
     {
-     'question': 'Symptomatic irreversible pulpitis pain is characteristically?',
-     'options': [
-      'A) Spontaneous and lingering to cold stimuli',
-      'B) Brief thermal sensitivity that resolves immediately after stimulus removal',
-      'C) Limited to mucosal itching without thermal change',
-      'D) Identical to a reciprocal TMJ click on opening'
-     ],
-     'answer': 'A) Spontaneous and lingering to cold stimuli',
-     'explanation': 'Symptomatic irreversible pulpitis reflects vital pulp tissue with inflammation severe enough that it cannot resolve even after removal of the irritant. C-fiber–mediated pain is often spontaneous and lingers after cold is removed, guiding pulp therapy decisions.',
-     'choice_explanations': {
-      'A': 'Symptomatic irreversible pulpitis reflects vital pulp tissue with inflammation severe enough that it cannot resolve even after removal of the irritant. C-fiber–mediated pain is often spontaneous and lingers after cold is removed, guiding pulp therapy decisions.',
-      'B': 'Brief non-lingering thermal pain characterizes reversible pulpitis. Symptomatic irreversible pulpitis reflects vital pulp tissue with inflammation severe enough that it cannot resolve even after removal of the irritant.',
-      'C': 'Mucosal itching is not the C-fiber thermal pain pattern of irreversible pulpitis. Symptomatic irreversible pulpitis reflects vital pulp tissue with inflammation severe enough that it cannot resolve even after removal of the irritant.',
-      'D': 'A reciprocal TMJ click indicates disc displacement with reduction, not pulpitis. Symptomatic irreversible pulpitis reflects vital pulp tissue with inflammation severe enough that it cannot resolve even after removal of the irritant.'
-     }
+     'question': 'Irreversible pulpitis is best distinguished clinically from reversible pulpitis by which symptom pattern?',
+     'options': ['A) Spontaneous or lingering pain to thermal stimuli that persists after stimulus removal', 'B) Brief nonlingering sensitivity only to cold that resolves instantly', 'C) Complete absence of response to all vitality tests with no symptoms ever', 'D) Pain only on biting that disappears with a bite stick away from the tooth'],
+     'answer': 'A) Spontaneous or lingering pain to thermal stimuli that persists after stimulus removal',
+     'explanation': 'Reversible pulpitis produces brief, nonlingering thermal sensitivity. Irreversible pulpitis typically features spontaneous pain or lingering thermal pain after stimulus removal, reflecting inflamed pulp tissue unlikely to heal without endodontic therapy. Nonresponse suggests necrosis; bite pain alone more often indicates periapical/occlusal issues or cracked tooth.',
+     'choice_explanations': {'A': 'Lingering/spontaneous thermal pain characterizes irreversible pulpitis versus brief reversible sensitivity.', 'B': 'Brief nonlingering cold sensitivity fits reversible pulpitis.', 'C': 'No response suggests necrosis/previously treated pulp, not irreversible pulpitis symptoms.', 'D': 'Isolated bite pain points more to periapical or crack phenomena than classic irreversible pulpitis.'}
     },
     {
-     'question': 'Best isolation method for root canal treatment?',
-     'options': [
-      'A) Cotton rolls alone for the entire procedure',
-      'B) Rubber dam isolation of the operating field',
-      'C) No isolation if suction is available',
-      'D) Cheek retractor alone without a dam'
-     ],
-     'answer': 'B) Rubber dam isolation of the operating field',
-     'explanation': 'A rubber dam isolates the tooth from saliva and oral microbes, preventing contamination of the root canal system during instrumentation and obturation. It also protects the airway from instruments and irrigants.',
-     'choice_explanations': {
-      'A': 'Cotton rolls reduce local moisture but cannot reliably isolate canals from saliva/microbes. A rubber dam isolates the tooth from saliva and oral microbes, preventing contamination of the root canal system during instrumentation and obturation.',
-      'B': 'A rubber dam isolates the tooth from saliva and oral microbes, preventing contamination of the root canal system during instrumentation and obturation. It also protects the airway from instruments and irrigants.',
-      'C': 'Suction alone does not prevent salivary contamination of open canals. A rubber dam isolates the tooth from saliva and oral microbes, preventing contamination of the root canal system during instrumentation and obturation.',
-      'D': 'Cheek retractors improve access but do not seal oral fluids from the canal system. A rubber dam isolates the tooth from saliva and oral microbes, preventing contamination of the root canal system during instrumentation and obturation.'
-     }
+     'question': 'The working length in root canal treatment is ideally determined to which apical reference concept?',
+     'options': ['A) Several millimeters beyond the radiographic apex into bone routinely', 'B) Near the apical constriction / cemento-dentinal junction region short of overinstrumentation', 'C) Exactly at the midroot level for all teeth', 'D) Only to the pulp chamber floor without entering canals'],
+     'answer': 'B) Near the apical constriction / cemento-dentinal junction region short of overinstrumentation',
+     'explanation': 'Instrumentation and obturation aim for the apical constriction (near CDJ), usually 0.5–1 mm short of the radiographic apex, confirmed with an apex locator and radiograph. Overinstrumentation beyond the apex damages periapical tissues; stopping at midroot or chamber floor leaves untreated canal infection.',
+     'choice_explanations': {'A': 'Routine overinstrumentation beyond the apex risks debris extrusion and periapical trauma.', 'B': 'Working length targets the apical constriction region, not beyond the apex or midroot.', 'C': 'Midroot length leaves apical canal untreated.', 'D': 'Chamber-only treatment is not root canal therapy of the canal system.'}
     },
     {
-     'question': 'Working length for canal preparation is ideally set near?',
-     'options': [
-      'A) Beyond the cortical plate into the maxillary sinus',
-      'B) The pulp horn only',
-      'C) The cementoenamel junction only',
-      'D) The apical constriction / near radiographic apex per protocol'
-     ],
-     'answer': 'D) The apical constriction / near radiographic apex per protocol',
-     'explanation': 'The apical constriction is the narrowest point of the canal near the cementoenamel or cementodentinal junction and is the usual physiologic terminus for canal preparation. Working length is set to this region using electronic apex location and radiographic confirmation.',
-     'choice_explanations': {
-      'A': 'Instrumentation beyond the apex into sinus/bone risks extrusion injury, not physiologic working length. The apical constriction is the narrowest point of the canal near the cementoenamel or cementodentinal junction and is the usual physiologic terminus for canal preparation.',
-      'B': 'Pulp horns are coronal extensions; working length is measured to the apical canal terminus. The apical constriction is the narrowest point of the canal near the cementoenamel or cementodentinal junction and is the usual physiologic terminus for canal preparation.',
-      'C': 'CEJ is a coronal landmark, not the apical constriction used for working length. The apical constriction is the narrowest point of the canal near the cementoenamel or cementodentinal junction and is the usual physiologic terminus for canal preparation.',
-      'D': 'The apical constriction is the narrowest point of the canal near the cementoenamel or cementodentinal junction and is the usual physiologic terminus for canal preparation. Working length is set to this region using electronic apex location and radiographic confirmation.'
-     }
-    }
+     'question': 'Sodium hypochlorite is used as an endodontic irrigant primarily because it provides which dual action?',
+     'options': ['A) Permanent enamel remineralization like topical fluoride', 'B) Radiopaque obturation of the canal space', 'C) Tissue dissolution and antimicrobial activity within the canal system', 'D) Selective anesthesia of the inferior alveolar nerve'],
+     'answer': 'C) Tissue dissolution and antimicrobial activity within the canal system',
+     'explanation': 'NaOCl dissolves necrotic pulp tissue and kills a broad spectrum of canal microbes, making it the primary irrigant. It is not a fluoride remineralizer, not an obturation material, and not a nerve block agent. Care avoids extrusion beyond the apex.',
+     'choice_explanations': {'A': 'Fluoride, not NaOCl, is used for enamel remineralization.', 'B': 'Gutta-percha/sealer provide obturation radiopacity, not irrigant NaOCl.', 'C': 'NaOCl’s key endodontic roles are dissolving organic tissue and disinfecting canals.', 'D': 'Local anesthetics—not irrigants—block peripheral nerves.'}
+    },
    ],
    'medium': [
     {
-     'question': 'A necrotic pulp with an apical radiolucency most strongly suggests?',
-     'options': [
-      'A) Reversible pulpitis without apical change',
-      'B) Apical periodontitis',
-      'C) Enamel hypoplasia of the crown',
-      'D) Dental fluorosis mottling'
-     ],
-     'answer': 'B) Apical periodontitis',
-     'explanation': 'Pulp necrosis allows bacteria and their toxins to exit through apical foramina into the periodontal ligament and bone. The resulting inflammatory bone resorption appears as a periapical radiolucency and defines apical periodontitis.',
-     'choice_explanations': {
-      'A': 'Reversible pulpitis lacks apical radiolucency; necrosis plus lucency indicates apical periodontitis. Pulp necrosis allows bacteria and their toxins to exit through apical foramina into the periodontal ligament and bone.',
-      'B': 'Pulp necrosis allows bacteria and their toxins to exit through apical foramina into the periodontal ligament and bone. The resulting inflammatory bone resorption appears as a periapical radiolucency and defines apical periodontitis.',
-      'C': 'Enamel hypoplasia is a developmental crown defect, not a periapical radiolucency. Pulp necrosis allows bacteria and their toxins to exit through apical foramina into the periodontal ligament and bone.',
-      'D': 'Fluorosis is enamel hypomineralization from excess fluoride intake during formation. Pulp necrosis allows bacteria and their toxins to exit through apical foramina into the periodontal ligament and bone.'
-     }
+     'question': 'A tooth with necrotic pulp, sinus tract, and periapical radiolucency is best managed by which applied endodontic approach when restorability is adequate?',
+     'options': ['A) Antibiotics alone without canal debridement', 'B) Indirect pulp cap over necrotic pulp tissue', 'C) Only occlusal adjustment without endodontic therapy', 'D) Nonsurgical root canal treatment to eliminate intracanal infection, with restoration of the tooth'],
+     'answer': 'D) Nonsurgical root canal treatment to eliminate intracanal infection, with restoration of the tooth',
+     'explanation': 'Periapical periodontitis from canal infection requires chemomechanical debridement and obturation (or extraction if unrestorable). Antibiotics alone do not sterilize canals; pulp capping is for vital pulp therapy scenarios, not necrosis; occlusal adjustment may aid comfort but does not remove infection.',
+     'choice_explanations': {'A': 'Systemic antibiotics do not substitute for intracanal disinfection.', 'B': 'Pulp capping targets vital inflamed pulp, not necrotic infected canals.', 'C': 'Occlusal adjustment alone leaves the infectious source untreated.', 'D': 'Necrotic infected canals need RCT (or extraction), not antibiotics/pulp caps alone.'}
     },
     {
-     'question': 'Sodium hypochlorite is used in endodontics primarily as?',
-     'options': [
-      'A) An obturation sealer cement',
-      'B) A temporary coronal filling material',
-      'C) An irrigant with tissue-dissolving and antimicrobial action',
-      'D) A local anesthetic solution'
-     ],
-     'answer': 'C) An irrigant with tissue-dissolving and antimicrobial action',
-     'explanation': 'Sodium hypochlorite dissolves necrotic pulp tissue and has broad antimicrobial activity against canal flora, making it the primary endodontic irrigant. Its cytotoxicity means extrusion beyond the apex must be avoided.',
-     'choice_explanations': {
-      'A': 'Sealers fill obturation interfaces; NaOCl is a tissue-dissolving canal irrigant, not a sealer. Sodium hypochlorite dissolves necrotic pulp tissue and has broad antimicrobial activity against canal flora, making it the primary endodontic irrigant.',
-      'B': 'Temporary fillings seal access cavities; NaOCl is used as irrigant during instrumentation. Sodium hypochlorite dissolves necrotic pulp tissue and has broad antimicrobial activity against canal flora, making it the primary endodontic irrigant.',
-      'C': 'Sodium hypochlorite dissolves necrotic pulp tissue and has broad antimicrobial activity against canal flora, making it the primary endodontic irrigant. Its cytotoxicity means extrusion beyond the apex must be avoided.',
-      'D': 'Local anesthetics block nerve conduction; NaOCl is a cytotoxic irrigant, not an anesthetic. Sodium hypochlorite dissolves necrotic pulp tissue and has broad antimicrobial activity against canal flora, making it the primary endodontic irrigant.'
-     }
+     'question': 'During instrumentation of a curved mesial canal, a ledge forms and the file no longer reaches prior working length. What is the most appropriate applied next concept?',
+     'options': ['A) Re-establish glide path carefully with small flexible files; avoid forcing large stiff instruments that worsen the ledge', 'B) Immediately force a large Gates Glidden past the ledge at full length', 'C) Obturate short of the ledge without attempting to regain patency if goals allow ignoring infection', 'D) Flood the canal with undiluted eugenol as the sole corrective step'],
+     'answer': 'A) Re-establish glide path carefully with small flexible files; avoid forcing large stiff instruments that worsen the ledge',
+     'explanation': 'Ledges divert instruments from the original canal path. Recovery uses precurved small files, patience, and sometimes bypass techniques; forcing large instruments increases perforation/transport risk. Eugenol is a sealer/component, not a ledge remedy. Deliberately leaving untreated apical infection is not ideal when patency can be regained safely.',
+     'choice_explanations': {'A': 'Regain the pathway with small flexible files; do not force large instruments that create perforations.', 'B': 'Forcing large instruments deepens transportation/perforation risk.', 'C': 'Leaving infected apical canal untreated is not the preferred first strategy when bypass is possible.', 'D': 'Eugenol does not correct a mechanical ledge.'}
     },
     {
-     'question': 'Cracked-tooth pain is characteristically elicited on?',
-     'options': [
-      'A) Percussion of an adjacent unrestored tooth only',
-      'B) Hot liquids alone without any bite loading',
-      'C) Supine posture alone without occlusal contact',
-      'D) Release of biting pressure on the affected cusp'
-     ],
-     'answer': 'D) Release of biting pressure on the affected cusp',
-     'explanation': 'In a cracked tooth, occlusal load briefly separates the crack walls and stimulates the pulp or periodontal ligament; pain is characteristically sharp on release of biting pressure as the segments snap back together.',
-     'choice_explanations': {
-      'A': 'Pain limited to an adjacent intact tooth does not define cracked-tooth bite-release pain. In a cracked tooth, occlusal load briefly separates the crack walls and stimulates the pulp or periodontal ligament; pain is characteristically sharp on release of biting pressure as the segments snap back together.',
-      'B': 'Thermal pulpitis pain differs from the occlusal bite-release pattern of a cracked tooth. In a cracked tooth, occlusal load briefly separates the crack walls and stimulates the pulp or periodontal ligament; pain is characteristically sharp on release of biting pressure as the segments snap back together.',
-      'C': 'Posture without occlusal loading does not elicit classic cracked-tooth pain. In a cracked tooth, occlusal load briefly separates the crack walls and stimulates the pulp or periodontal ligament; pain is characteristically sharp on release of biting pressure as the segments snap back together.',
-      'D': 'In a cracked tooth, occlusal load briefly separates the crack walls and stimulates the pulp or periodontal ligament; pain is characteristically sharp on release of biting pressure as the segments snap back together.'
-     }
-    }
+     'question': 'A previously treated tooth has persistent apical radiolucency, inadequate obturation density, and missed second mesiobuccal canal suspected on CBCT. Which applied retreatment concept fits?',
+     'options': ['A) Ignore CBCT findings because missed canals never cause failure', 'B) Nonsurgical retreatment to remove old obturation, locate missed anatomy, disinfect, and re-obturate', 'C) Place a post and crown without addressing intracanal infection', 'D) Prescribe antifungals as definitive endodontic retreatment'],
+     'answer': 'B) Nonsurgical retreatment to remove old obturation, locate missed anatomy, disinfect, and re-obturate',
+     'explanation': 'Persistent disease after RCT often relates to missed canals, inadequate cleaning, or coronal leakage. Nonsurgical retreatment addresses these factors; surgery is considered if retreatment is infeasible. Crowning over untreated infection and antifungal-only care are near-misses.',
+     'choice_explanations': {'A': 'Missed canals are a classic cause of post-treatment apical periodontitis.', 'B': 'Failed RCT with missed anatomy warrants nonsurgical retreatment to disinfect the full canal system.', 'C': 'Restoring without infection control seals in bacteria.', 'D': 'Endodontic failure is primarily bacterial, not treated by antifungals alone.'}
+    },
    ],
    'hard': [
     {
-     'question': 'A sodium hypochlorite extrusion accident typically presents with?',
-     'options': [
-      'A) Mild extrinsic enamel stain without soft-tissue change',
-      'B) Gradual low-grade pulpitis symptoms over weeks',
-      'C) Isolated taste alteration without pain or swelling',
-      'D) Sudden severe pain, swelling, and ecchymosis after irrigation'
-     ],
-     'answer': 'D) Sudden severe pain, swelling, and ecchymosis after irrigation',
-     'explanation': 'Forceful extrusion of sodium hypochlorite into periapical tissues causes immediate chemical burns of soft tissue and vessels. Patients experience sudden severe pain, rapid swelling, and often ecchymosis; management is supportive with monitoring for airway compromise.',
-     'choice_explanations': {
-      'A': 'Enamel stain is not the acute soft-tissue chemical burn of NaOCl extrusion. Forceful extrusion of sodium hypochlorite into periapical tissues causes immediate chemical burns of soft tissue and vessels.',
-      'B': 'NaOCl extrusion accidents are immediate, not gradual week-scale pulpitis. Forceful extrusion of sodium hypochlorite into periapical tissues causes immediate chemical burns of soft tissue and vessels.',
-      'C': 'Taste change alone does not describe acute pain/swelling/ecchymosis of NaOCl extrusion. Forceful extrusion of sodium hypochlorite into periapical tissues causes immediate chemical burns of soft tissue and vessels.',
-      'D': 'Forceful extrusion of sodium hypochlorite into periapical tissues causes immediate chemical burns of soft tissue and vessels. Patients experience sudden severe pain, rapid swelling, and often ecchymosis; management is supportive with monitoring for airway compromise.'
-     }
+     'question': 'A 45-year-old has severe lingering cold pain on a maxillary first molar, referred pain to the ear, hypersensitive MB cusp, and a recent deep composite near the pulp horn. Cold test lingers 20 seconds on that tooth only; percussion is mild. Which diagnosis and first definitive therapy align?',
+     'options': ['A) Reversible pulpitis—only desensitizing toothpaste without further care', 'B) Chronic apical abscess—incise the palate as sole therapy', 'C) Symptomatic irreversible pulpitis—initiate root canal treatment (or extraction if unrestorable) after profound anesthesia', 'D) Myofascial pain—occlusal splint only without pulp testing correlation'],
+     'answer': 'C) Symptomatic irreversible pulpitis—initiate root canal treatment (or extraction if unrestorable) after profound anesthesia',
+     'explanation': 'Lingering cold response localized to one tooth after deep restoration indicates symptomatic irreversible pulpitis; mild percussion can coexist early. Definitive care is RCT or extraction. Reversible pulpitis lacks lingering pain; abscess incision without canal therapy is incomplete; myofascial pain would not yield a single-tooth lingering cold test.',
+     'choice_explanations': {'A': 'Lingering pain exceeds reversible pulpitis criteria.', 'B': 'No fluctuant abscess is described; source control is endodontic, not palate incision alone.', 'C': 'Lingering localized cold pain after deep restoration = irreversible pulpitis → RCT/extraction.', 'D': 'Positive tooth-specific lingering cold test contradicts a purely myofascial diagnosis.'}
     },
     {
-     'question': 'Missing a second mesiobuccal canal (MB2) in a maxillary molar most often leads to?',
-     'options': [
-      'A) Improved long-term prognosis in all cases',
-      'B) Persistent infection and treatment failure risk',
-      'C) Cutaneous facial color change',
-      'D) Drug-induced gingival hyperplasia'
-     ],
-     'answer': 'B) Persistent infection and treatment failure risk',
-     'explanation': 'Maxillary molars frequently have a second mesiobuccal canal (MB2) that branches within the mesiobuccal root. If untreated, residual bacteria in MB2 sustain periapical inflammation and cause post-treatment disease.',
-     'choice_explanations': {
-      'A': 'Missing MB2 leaves untreated canal infection and worsens prognosis. Maxillary molars frequently have a second mesiobuccal canal (MB2) that branches within the mesiobuccal root.',
-      'B': 'Maxillary molars frequently have a second mesiobuccal canal (MB2) that branches within the mesiobuccal root. If untreated, residual bacteria in MB2 sustain periapical inflammation and cause post-treatment disease.',
-      'C': 'Facial skin color change is unrelated to missed MB2 canal infection. Maxillary molars frequently have a second mesiobuccal canal (MB2) that branches within the mesiobuccal root.',
-      'D': 'Drug-induced gingival overgrowth is a soft-tissue drug effect, not a missed-MB2 sequela. Maxillary molars frequently have a second mesiobuccal canal (MB2) that branches within the mesiobuccal root.'
-     }
+     'question': 'Mid-RCT on a mandibular molar, the patient suddenly tastes bleach, the cheek swells, and severe pain occurs after irrigant expression. Which multi-cue complication plan is correct?',
+     'options': ["A) Continue forceful irrigation to 'wash out' tissues beyond the apex", 'B) Ignore swelling because hypochlorite is harmless extracanal', 'C) Perform immediate hemimandibulectomy as first-line care', 'D) Recognize NaOCl extrusion accident: stop irrigation, aspirate, cold compresses early, analgesia, follow-up, and complete RCT later when acute phase allows'],
+     'answer': 'D) Recognize NaOCl extrusion accident: stop irrigation, aspirate, cold compresses early, analgesia, follow-up, and complete RCT later when acute phase allows',
+     'explanation': 'NaOCl accidents follow apical extrusion with sudden pain, swelling, and sometimes ecchymosis/taste of bleach. Management is supportive: halt irrigation, aspirate/canal flush with saline, pain control, cold then warm compresses per stage, antibiotics only if secondary infection, and complete endodontics carefully later. Further forceful irrigation worsens injury; resection is absurd.',
+     'choice_explanations': {'A': 'More forceful irrigation increases soft-tissue chemical injury.', 'B': 'Extracanal NaOCl causes significant tissue damage and must not be ignored.', 'C': 'Hemimandibulectomy is not treatment for an irrigant accident.', 'D': 'NaOCl extrusion is managed supportively with cessation of irrigation, symptom control, and delayed careful completion—not more extrusion.'}
     },
     {
-     'question': 'Prognosis of a complete vertical root fracture is often?',
-     'options': [
-      'A) Excellent healing with nonsurgical RCT alone',
-      'B) Observation without intervention indefinitely',
-      'C) Poor, with extraction commonly required',
-      'D) Resolved by internal bleaching alone'
-     ],
-     'answer': 'C) Poor, with extraction commonly required',
-     'explanation': 'A complete vertical root fracture separates the root along its long axis, creating a pathway for bacteria from the oral cavity into the periodontium. The resulting localized deep pocket and bone loss rarely heal with root canal therapy alone; extraction is often necessary.',
-     'choice_explanations': {
-      'A': 'Complete VRF opens a bacterial pathway that nonsurgical RCT alone rarely heals. A complete vertical root fracture separates the root along its long axis, creating a pathway for bacteria from the oral cavity into the periodontium.',
-      'B': 'Indefinite observation leaves fracture-associated periodontal destruction progressive. A complete vertical root fracture separates the root along its long axis, creating a pathway for bacteria from the oral cavity into the periodontium.',
-      'C': 'A complete vertical root fracture separates the root along its long axis, creating a pathway for bacteria from the oral cavity into the periodontium. The resulting localized deep pocket and bone loss rarely heal with root canal therapy alone; extraction is often necessary.',
-      'D': 'Internal bleaching treats intrinsic discoloration and does not repair a fractured root. A complete vertical root fracture separates the root along its long axis, creating a pathway for bacteria from the oral cavity into the periodontium.'
-     }
-    }
+     'question': 'A cracked tooth has pain on release of biting, occasional cold sensitivity, a visible fracture line staining with dye, and no deep probing defect. Radiograph is normal. Which multi-cue management direction is best?',
+     'options': ['A) Confirm crack with transillumination/bite testing, remove diseased tissue, and provide cuspal coverage if the tooth is restorable and pulp status allows', 'B) Ignore the crack and place only a small occlusal amalgam without coverage', 'C) Extract immediately every tooth with any enamel craze line', 'D) Treat with topical fluoride varnish as definitive crack therapy'],
+     'answer': 'A) Confirm crack with transillumination/bite testing, remove diseased tissue, and provide cuspal coverage if the tooth is restorable and pulp status allows',
+     'explanation': 'Cracked tooth syndrome often shows pain on release and may progress to pulp/periodontal involvement. After diagnosis, remove the crack-associated diseased structure and protect cusps (onlay/crown) when restorable; endodontics is added if pulp becomes irreversible/necrotic. Tiny amalgams without coverage, extracting all craze lines, or fluoride alone are near-misses.',
+     'choice_explanations': {'A': 'Restorable cracks need diagnosis, removal of pathology, and cuspal coverage—not inadequate fills or automatic extraction.', 'B': 'Unprotected cusps allow crack propagation under occlusal load.', 'C': 'Enamel craze lines are common and not automatic extraction criteria.', 'D': 'Fluoride does not stabilize a structural crack.'}
+    },
    ],
    'extreme': [
     {
-     'question': 'An avulsed permanent tooth with extraoral dry time greater than 60 minutes most implies?',
-     'options': [
-      'A) Excellent PDL viability and unchanged prognosis',
-      'B) That dry time is irrelevant if the tooth is replanted',
-      'C) Identical management rules as for primary teeth',
-      'D) Poor PDL viability and worsened prognosis; manage per trauma guidelines'
-     ],
-     'answer': 'D) Poor PDL viability and worsened prognosis; manage per trauma guidelines',
-     'explanation': 'Periodontal ligament cells on an avulsed tooth die progressively with extraoral dry time; beyond about 60 minutes of dry storage, PDL viability is severely compromised. Replantation may still be attempted after surface management, but ankylosis and replacement resorption risks are high.',
-     'choice_explanations': {
-      'A': 'PDL cells die with prolonged dry time; >60 min dry storage means poor viability. Periodontal ligament cells on an avulsed tooth die progressively with extraoral dry time; beyond about 60 minutes of dry storage, PDL viability is severely compromised.',
-      'B': 'Extraoral dry time critically determines PDL cell survival and avulsion prognosis. Periodontal ligament cells on an avulsed tooth die progressively with extraoral dry time; beyond about 60 minutes of dry storage, PDL viability is severely compromised.',
-      'C': 'Permanent avulsion protocols differ from primary teeth, which are generally not replanted. Periodontal ligament cells on an avulsed tooth die progressively with extraoral dry time; beyond about 60 minutes of dry storage, PDL viability is severely compromised.',
-      'D': 'Periodontal ligament cells on an avulsed tooth die progressively with extraoral dry time; beyond about 60 minutes of dry storage, PDL viability is severely compromised. Replantation may still be attempted after surface management, but ankylosis and replacement resorption risks are high.'
-     }
+     'question': 'A maxillary lateral incisor has failed twice after RCT, a persistent sinus tract, and CBCT showing a missed lateral canal and apical transportation. The tooth has a short post and adequate ferrule. The patient wants to keep the tooth. Which complex decision is most appropriate?',
+     'options': ['A) Place a longer post through the transportation into bone as primary therapy', 'B) Attempt thorough nonsurgical retreatment with magnification to address missed anatomy if feasible; if not, consider apical surgery after infection control counseling, versus extraction/implant if prognosis poor', 'C) Cure the sinus tract with topical steroids alone indefinitely', 'D) Guarantee success with antibiotics for 12 months without canal revision'],
+     'answer': 'B) Attempt thorough nonsurgical retreatment with magnification to address missed anatomy if feasible; if not, consider apical surgery after infection control counseling, versus extraction/implant if prognosis poor',
+     'explanation': 'Persistent disease with missed anatomy favors nonsurgical retreatment under magnification. Apical surgery is considered when orthograde access is limited or transportation prevents adequate cleaning. Extending posts into bone, steroid pastes on tracts, or long-term antibiotics without source control are incorrect. Shared decision-making includes extraction if the prognosis remains unfavorable.',
+     'choice_explanations': {'A': 'Posts beyond the root into bone risk damage and do not disinfect canals.', 'B': 'Failed RCT with missed anatomy: retreatment ± apical surgery after counseling—not posts into bone or antibiotics alone.', 'C': 'Sinus tracts resolve only when canal/periapical infection is controlled.', 'D': 'Antibiotics cannot replace intracanal or surgical source control.'}
     },
     {
-     'question': 'A true combined perio-endo lesion most appropriately requires?',
-     'options': [
-      'A) Addressing both endodontic and periodontal infection pathways',
-      'B) Scaling alone without pulp testing',
-      'C) Orthodontic alignment as sole therapy',
-      'D) Vital tooth whitening as definitive care'
-     ],
-     'answer': 'A) Addressing both endodontic and periodontal infection pathways',
-     'explanation': 'Combined perio-endo lesions involve communication between pulpal and periodontal infection pathways, so both niches must be disinfected for healing. When the primary source is endodontic, root canal treatment often precedes definitive periodontal therapy.',
-     'choice_explanations': {
-      'A': 'Combined perio-endo lesions involve communication between pulpal and periodontal infection pathways, so both niches must be disinfected for healing. When the primary source is endodontic, root canal treatment often precedes definitive periodontal therapy.',
-      'B': 'Scaling alone ignores a pulpal source when a true combined lesion exists. Combined perio-endo lesions involve communication between pulpal and periodontal infection pathways, so both niches must be disinfected for healing.',
-      'C': 'Alignment does not disinfect pulpal or periodontal infection pathways. Combined perio-endo lesions involve communication between pulpal and periodontal infection pathways, so both niches must be disinfected for healing.',
-      'D': 'Whitening does not treat perio-endo infection. Combined perio-endo lesions involve communication between pulpal and periodontal infection pathways, so both niches must be disinfected for healing.'
-     }
+     'question': 'An immature permanent central incisor suffered intrusion trauma 8 weeks ago. The tooth is asymptomatic, radiograph shows early periapical change, pulp tests are negative, and apex is wide open. Which regenerative/apexification decision framework fits best?',
+     'options': ['A) Perform immediate full coverage crown preparation destroying remaining thin dentin walls without endodontic plan', 'B) Assume vitality forever because the tooth is asymptomatic at one visit', 'C) Confirm pulp necrosis, then choose apexification (e.g., bioceramic barrier) or regenerative endodontic procedures based on protocols, stage of root development, and informed consent', 'D) Extract and place a malposed implant before skeletal growth completion routinely'],
+     'answer': 'C) Confirm pulp necrosis, then choose apexification (e.g., bioceramic barrier) or regenerative endodontic procedures based on protocols, stage of root development, and informed consent',
+     'explanation': 'Intrusion can sever apical vasculature in immature teeth, leading to necrosis with open apex. Options include revitalization/regenerative procedures to encourage continued root development or apexification with a bioceramic apical barrier and obturation. Premature crowns on thin walls risk fracture; asymptomatic status does not prove vitality; implants in growing patients are generally deferred.',
+     'choice_explanations': {'A': 'Aggressive crown prep on immature thin roots risks catastrophic fracture.', 'B': 'Negative tests plus radiographic change indicate necrosis despite quiet symptoms.', 'C': 'Necrotic immature incisors need apexification or regenerative endodontics—not premature crowns or pediatric implants.', 'D': 'Implants before growth completion risk infraocclusion; growth status matters.'}
     },
     {
-     'question': 'Internal versus external root resorption is distinguished clinically because?',
-     'options': [
-      'A) They share identical radiographic outlines and identical treatment',
-      'B) Both resolve spontaneously without intervention',
-      'C) Radiographic and clinical patterns differ and treatment differs',
-      'D) Extraction is required before any imaging or vitality testing'
-     ],
-     'answer': 'C) Radiographic and clinical patterns differ and treatment differs',
-     'explanation': 'Internal resorption begins within the pulp chamber or canal from inflamed pulp tissue and appears as a ballooned canal outline that moves with tube shift less than external defects. External cervical resorption begins on the root surface; diagnosis directs whether pulp therapy, repair, or extraction is indicated.',
-     'choice_explanations': {
-      'A': 'Internal and external resorption differ radiographically and require different treatment. Internal resorption begins within the pulp chamber or canal from inflamed pulp tissue and appears as a ballooned canal outline that moves with tube shift less than external defects.',
-      'B': 'Pathologic root resorption generally progresses without appropriate intervention. Internal resorption begins within the pulp chamber or canal from inflamed pulp tissue and appears as a ballooned canal outline that moves with tube shift less than external defects.',
-      'C': 'Internal resorption begins within the pulp chamber or canal from inflamed pulp tissue and appears as a ballooned canal outline that moves with tube shift less than external defects. External cervical resorption begins on the root surface; diagnosis directs whether pulp therapy, repair, or extraction is indicated.',
-      'D': 'Diagnosis requires imaging and vitality testing before deciding extraction. Internal resorption begins within the pulp chamber or canal from inflamed pulp tissue and appears as a ballooned canal outline that moves with tube shift less than external defects.'
-     }
-    }
-   ]
+     'question': 'During retreatment, a separated NiTi fragment lodges in the apical third of a curved MB canal of a strategic molar abutment. The tooth is symptomatic with apical radiolucency. Retrieval attempts begin to remove excessive dentin. What is the best complication-management judgment?',
+     'options': ['A) Continue removing dentin indefinitely until the fragment is retrieved at any structural cost', 'B) Leave symptomatic apical disease without any disinfection attempt around/bypass the fragment', 'C) Tell the patient separated instruments always require immediate extraction', 'D) Balance retrieval versus bypass versus surgical options against remaining dentin thickness; stop when further chasing risks perforation/fracture, and discuss prognosis honestly'],
+     'answer': 'D) Balance retrieval versus bypass versus surgical options against remaining dentin thickness; stop when further chasing risks perforation/fracture, and discuss prognosis honestly',
+     'explanation': 'Separated instruments are managed by retrieval, bypass, or careful obturation around a fragment when retrieval would destroy the tooth—guided by location, curvature, and symptoms. Apical disease still needs disinfection as feasible; surgery may follow. Sacrificing all dentin, ignoring infection, or mandatory extraction are poor extremes.',
+     'choice_explanations': {'A': 'Unlimited dentin removal risks vertical root fracture and tooth loss.', 'B': 'Symptomatic apical periodontitis still requires disinfection strategy around the obstacle.', 'C': 'Many separated-instrument cases remain restorable without extraction.', 'D': 'Instrument separation demands risk–benefit judgment: retrieve/bypass/surgery without destroying restorable dentin.'}
+    },
+   ],
   },
   'cases': {
    'easy': [
-    {
-     'title': 'Night Pain Lower Molar',
-     'stem': 'Spontaneous night pain, lingering cold response, no periapical radiolucency yet.',
-     'question': 'Likely pulp status?',
-     'answer': 'Symptomatic irreversible pulpitis.',
-     'discussion': 'RCT or extraction after consent.',
-     'book_hint': "Cohen's Pathways of the Pulp"
-    }
+    {'title': 'Night Pain Lower Molar', 'stem': 'Spontaneous night pain, lingering cold response, no periapical radiolucency yet.', 'question': 'Likely pulp status?', 'answer': 'Symptomatic irreversible pulpitis.', 'discussion': 'RCT or extraction after consent.', 'book_hint': "Cohen's Pathways of the Pulp"},
    ],
    'medium': [
-    {
-     'title': 'Sinus Tract on Gingiva',
-     'stem': 'Chronic draining sinus over apex of nonvital lateral; radiolucency present.',
-     'question': 'Treatment concept?',
-     'answer': 'Root canal therapy of the source tooth (+ restore).',
-     'discussion': 'Trace sinus with gutta-percha if needed.',
-     'book_hint': "Cohen's Pathways of the Pulp"
-    }
+    {'title': 'Sinus Tract on Gingiva', 'stem': 'Chronic draining sinus over apex of nonvital lateral; radiolucency present.', 'question': 'Treatment concept?', 'answer': 'Root canal therapy of the source tooth (+ restore).', 'discussion': 'Trace sinus with gutta-percha if needed.', 'book_hint': "Cohen's Pathways of the Pulp"},
    ],
    'hard': [
-    {
-     'title': 'RCT Done but Pain Persists',
-     'stem': 'Upper 6 had RCT; pain on biting persists; J-shaped lesion on root. Choose the safest high-yield next concept before definitive results.',
-     'question': 'Suspect?',
-     'answer': 'Vertical root fracture or missed canal / perio-endo complex — investigate carefully.',
-     'discussion': 'CBCT may help; avoid endless retreat without diagnosis.',
-     'book_hint': "Cohen's Pathways of the Pulp"
-    }
+    {'title': 'RCT Done but Pain Persists', 'stem': 'Upper 6 had RCT; pain on biting persists; J-shaped lesion on root. Choose the safest high-yield next concept before definitive results.', 'question': 'Suspect?', 'answer': 'Vertical root fracture or missed canal / perio-endo complex — investigate carefully.', 'discussion': 'CBCT may help; avoid endless retreat without diagnosis.', 'book_hint': "Cohen's Pathways of the Pulp"},
    ],
    'extreme': [
-    {
-     'title': 'Avulsion on Sports Field',
-     'stem': 'A 12-year-old avulses a permanent central; tooth was dry in a napkin for 90 minutes. Avoid harmful premature treatment while catastrophic differentials remain open.',
-     'question': 'Guideline concept?',
-     'answer': 'Extraoral dry time long → poor PDL prognosis; still follow IADT: clean carefully, consider replantation/splinting protocols, antibiotics/tetanus as indicated, close follow-up.',
-     'discussion': 'Do not scrub the root PDL remnant.',
-     'book_hint': "Cohen's Pathways of the Pulp"
-    }
-   ]
-  }
+    {'title': 'Avulsion on Sports Field', 'stem': 'A 12-year-old avulses a permanent central; tooth was dry in a napkin for 90 minutes. Avoid harmful premature treatment while catastrophic differentials remain open.', 'question': 'Guideline concept?', 'answer': 'Extraoral dry time long → poor PDL prognosis; still follow IADT: clean carefully, consider replantation/splinting protocols, antibiotics/tetanus as indicated, close follow-up.', 'discussion': 'Do not scrub the root PDL remnant.', 'book_hint': "Cohen's Pathways of the Pulp"},
+   ],
+  },
  },
  'prosthodontics': {
   'label': 'Prosthodontics',
-  'books': [
-   'Contemporary Fixed Prosthodontics — Rosenstiel',
-   "McCracken's Removable Partial Prosthodontics",
-   'Complete Denture Prosthodontics texts'
-  ],
-  'pdf_notes': [
-   'Ferrule improves crowned endodontically treated teeth.',
-   'Respect biologic width / supracrestal tissues.',
-   'Kennedy classification guides RPD design.',
-   'Passive fit matters for implant frameworks.',
-   'Disease control before full-mouth reconstruction.'
-  ],
+  'books': ['Contemporary Fixed Prosthodontics — Rosenstiel', "McCracken's Removable Partial Prosthodontics", 'Complete Denture Prosthodontics texts'],
+  'pdf_notes': ['Ferrule improves crowned endodontically treated teeth.', 'Respect biologic width / supracrestal tissues.', 'Kennedy classification guides RPD design.', 'Passive fit matters for implant frameworks.', 'Disease control before full-mouth reconstruction.'],
   'questions': {
    'easy': [
     {
-     'question': 'The ferrule effect primarily improves?',
-     'options': [
-      'A) Fracture resistance of crowned endodontically treated teeth',
-      'B) Shade matching of ceramic veneers alone',
-      'C) Color stability of dual-cure cement alone',
-      'D) Adhesion of impression tray adhesive alone'
-     ],
-     'answer': 'A) Fracture resistance of crowned endodontically treated teeth',
-     'explanation': 'A ferrule is a band of sound axial tooth structure of adequate height and thickness encircled by the crown margin. It braces the tooth against functional lever forces, reducing the risk of root fracture after post-and-core restoration.',
-     'choice_explanations': {
-      'A': 'A ferrule is a band of sound axial tooth structure of adequate height and thickness encircled by the crown margin. It braces the tooth against functional lever forces, reducing the risk of root fracture after post-and-core restoration.',
-      'B': 'Shade matching is optical and unrelated to ferrule biomechanics. A ferrule is a band of sound axial tooth structure of adequate height and thickness encircled by the crown margin.',
-      'C': 'Cement color stability is a material property, not the ferrule bracing mechanism. A ferrule is a band of sound axial tooth structure of adequate height and thickness encircled by the crown margin.',
-      'D': 'Tray adhesive sticks impression material to trays, unrelated to ferrule effect. A ferrule is a band of sound axial tooth structure of adequate height and thickness encircled by the crown margin.'
-     }
+     'question': 'A ferrule in crown preparation refers primarily to which structural concept?',
+     'options': ['A) A band of sound tooth structure encircling the preparation that resists fracture under crown leverage', 'B) The shade tab selected for porcelain only', 'C) The brand of temporary cement exclusively', 'D) The patient’s preferred denture adhesive flavor'],
+     'answer': 'A) A band of sound tooth structure encircling the preparation that resists fracture under crown leverage',
+     'explanation': 'Ferrule effect describes a circumferential collar of remaining axial tooth structure (often ≥1.5–2 mm) engaged by the crown, improving resistance to fracture especially in endodontically treated teeth. Shade and cement brand are separate prosthetic choices.',
+     'choice_explanations': {'A': 'Ferrule = circumferential sound tooth structure under the crown that resists fracture.', 'B': 'Shade selection is esthetic, not the ferrule definition.', 'C': 'Temporary cement brand is unrelated to ferrule anatomy.', 'D': 'Denture adhesive is irrelevant to crown ferrule.'}
     },
     {
-     'question': 'Kennedy Class I removable partial denture describes?',
-     'options': [
-      'A) A single bounded tooth-supported space only',
-      'B) Bilateral distal-extension edentulous areas',
-      'C) An anterior bounded edentulous span only',
-      'D) A complete denture opposing natural teeth'
-     ],
-     'answer': 'B) Bilateral distal-extension edentulous areas',
-     'explanation': 'Kennedy Class I describes a bilateral edentulous area posterior to the remaining natural teeth (bilateral distal extension). Because terminal abutments are absent, the denture base is supported largely by mucosa and requires careful design to control rotation.',
-     'choice_explanations': {
-      'A': 'A single bounded edentulous space is Kennedy Class III, not Class I. Kennedy Class I describes a bilateral edentulous area posterior to the remaining natural teeth (bilateral distal extension).',
-      'B': 'Kennedy Class I describes a bilateral edentulous area posterior to the remaining natural teeth (bilateral distal extension). Because terminal abutments are absent, the denture base is supported largely by mucosa and requires careful design to control rotation.',
-      'C': 'An anterior bounded span is Kennedy Class IV, not Class I. Kennedy Class I describes a bilateral edentulous area posterior to the remaining natural teeth (bilateral distal extension).',
-      'D': 'A complete denture opposing naturals is not Kennedy classification of a partial arch. Kennedy Class I describes a bilateral edentulous area posterior to the remaining natural teeth (bilateral distal extension).'
-     }
+     'question': 'What is the primary purpose of border molding when fabricating a complete denture impression?',
+     'options': ['A) Select tooth shade for the anterior denture teeth', 'B) Record the functional depth and width of the vestibule for a peripheral seal', 'C) Determine the patient’s freeway space only', 'D) Replace the need for any occlusal vertical dimension record'],
+     'answer': 'B) Record the functional depth and width of the vestibule for a peripheral seal',
+     'explanation': 'Border molding shapes the impression periphery to the physiologic vestibule so the finished denture flanges achieve retention via peripheral seal. Shade, freeway space, and OVD are related but separate prosthodontic records.',
+     'choice_explanations': {'A': 'Shade selection is not accomplished by border molding.', 'B': 'Border molding captures functional vestibular borders for denture peripheral seal/retention.', 'C': 'Freeway space is assessed with OVD/rest vertical dimension, not border molding alone.', 'D': 'OVD still must be established separately from impression border molding.'}
     },
     {
-     'question': 'A final impression for a cast crown most critically needs?',
-     'options': [
-      'A) Alginate as the only acceptable final material for PFM',
-      'B) A wax interocclusal record alone without margins',
-      'C) Accurate finish-line capture with soft-tissue management',
-      'D) A shade-tab photograph as a substitute for the impression'
-     ],
-     'answer': 'C) Accurate finish-line capture with soft-tissue management',
-     'explanation': 'Cast restorations depend on an impression that records the finish line in undistorted detail and relates soft tissues without tears or voids. Hemostasis, cord or paste retraction, and moisture control are essential for margin fidelity.',
-     'choice_explanations': {
-      'A': 'Alginate lacks accuracy/stability for most definitive cast crown impressions. Cast restorations depend on an impression that records the finish line in undistorted detail and relates soft tissues without tears or voids.',
-      'B': 'Interocclusal records relate arches but do not capture finish-line detail. Cast restorations depend on an impression that records the finish line in undistorted detail and relates soft tissues without tears or voids.',
-      'C': 'Cast restorations depend on an impression that records the finish line in undistorted detail and relates soft tissues without tears or voids. Hemostasis, cord or paste retraction, and moisture control are essential for margin fidelity.',
-      'D': 'Shade photos record color and cannot replace a dimensional margin impression. Cast restorations depend on an impression that records the finish line in undistorted detail and relates soft tissues without tears or voids.'
-     }
-    }
+     'question': 'In fixed prosthodontics, a key biologic reason to respect biologic width (supracrestal tissue attachment) is to avoid which outcome?',
+     'options': ['A) Improved gingival health from intentional deep margin violation', 'B) Automatic pulp regeneration after every crown', 'C) Chronic inflammation and bone loss from restoration margins invading the attachment apparatus', 'D) Elimination of the need for oral hygiene'],
+     'answer': 'C) Chronic inflammation and bone loss from restoration margins invading the attachment apparatus',
+     'explanation': 'Placing margins that encroach on the supracrestal tissue attachment provokes inflammation, pocketing, and bone remodeling. Crown lengthening or alternative margin placement preserves biologic width. Deep violation does not improve health; crowns do not regenerate pulp; hygiene remains essential.',
+     'choice_explanations': {'A': 'Intentional biologic width violation harms, rather than helps, gingival health.', 'B': 'Crowns do not regenerate pulp tissue.', 'C': 'Invading biologic width causes peri-restoration inflammation and bone loss.', 'D': 'Hygiene remains mandatory regardless of margin design.'}
+    },
    ],
    'medium': [
     {
-     'question': 'Violation of biologic width (supracrestal tissue attachment) by a restoration margin may cause?',
-     'options': [
-      'A) Improved papilla fill without inflammation',
-      'B) Faster orthodontic tooth movement',
-      'C) Enhanced bleaching efficacy',
-      'D) Chronic inflammation and crestal bone loss'
-     ],
-     'answer': 'D) Chronic inflammation and crestal bone loss',
-     'explanation': 'Supracrestal tissue attachment (biological width) is the combined junctional epithelium and connective tissue attachment coronal to alveolar crest. Placing a restoration margin that invades this zone commonly produces persistent inflammation and crestal bone remodeling.',
-     'choice_explanations': {
-      'A': 'Biologic-width violation causes inflammation/bone loss, not improved papilla fill. Supracrestal tissue attachment (biological width) is the combined junctional epithelium and connective tissue attachment coronal to alveolar crest.',
-      'B': 'Margin invasion of supracrestal attachment does not beneficially accelerate orthodontics. Supracrestal tissue attachment (biological width) is the combined junctional epithelium and connective tissue attachment coronal to alveolar crest.',
-      'C': 'Biologic-width violation is unrelated to bleaching chemistry. Supracrestal tissue attachment (biological width) is the combined junctional epithelium and connective tissue attachment coronal to alveolar crest.',
-      'D': 'Supracrestal tissue attachment (biological width) is the combined junctional epithelium and connective tissue attachment coronal to alveolar crest. Placing a restoration margin that invades this zone commonly produces persistent inflammation and crestal bone remodeling.'
-     }
+     'question': 'A patient will receive an RPD replacing several posterior teeth. Which applied design principle best protects abutment teeth?',
+     'options': ['A) Omit all rests so the prosthesis only clasps soft tissue', 'B) Use clasps that release during function with no reciprocal arms ever', 'C) Ignore guide planes and allow continuous abutment torque', 'D) Provide adequate rest seats so occlusal loads are directed along the long axis and bases are properly supported'],
+     'answer': 'D) Provide adequate rest seats so occlusal loads are directed along the long axis and bases are properly supported',
+     'explanation': 'Rests transmit occlusal force to abutment long axes and prevent soft-tissue-borne settling that torques clasps. Reciprocation and guide planes also control path of insertion and bracing. Omitting rests or reciprocation increases abutment trauma.',
+     'choice_explanations': {'A': 'Clasping without rests lets the denture sink and lever abutments.', 'B': 'Unreciprocated clasps can torque abutments during removal/insertion/function.', 'C': 'Guide planes and controlled path reduce harmful abutment forces.', 'D': 'Rests and supportive design direct RPD loads axially and spare abutments from torque.'}
     },
     {
-     'question': 'A key biomechanical difference between an implant abutment and a natural tooth is?',
-     'options': [
-      'A) Identical proprioception and mobility profiles',
-      'B) Absence of a PDL with different mobility and feedback',
-      'C) Greater physiologic mobility than natural teeth',
-      'D) A periodontal ligament identical to natural teeth'
-     ],
-     'answer': 'B) Absence of a PDL with different mobility and feedback',
-     'explanation': 'Natural teeth are suspended by a periodontal ligament that provides proprioception and physiologic mobility; osseointegrated implants are ankylosed to bone without a PDL. Occlusal forces are therefore transmitted more directly to bone and lack the same protective feedback.',
-     'choice_explanations': {
-      'A': 'Implants lack a PDL, so proprioception and mobility differ from natural teeth. Natural teeth are suspended by a periodontal ligament that provides proprioception and physiologic mobility; osseointegrated implants are ankylosed to bone without a PDL.',
-      'B': 'Natural teeth are suspended by a periodontal ligament that provides proprioception and physiologic mobility; osseointegrated implants are ankylosed to bone without a PDL. Occlusal forces are therefore transmitted more directly to bone and lack the same protective feedback.',
-      'C': 'Implants show less—not greater—physiologic mobility than PDL-suspended teeth. Natural teeth are suspended by a periodontal ligament that provides proprioception and physiologic mobility; osseointegrated implants are ankylosed to bone without a PDL.',
-      'D': 'Implants do not possess a true periodontal ligament. Natural teeth are suspended by a periodontal ligament that provides proprioception and physiologic mobility; osseointegrated implants are ankylosed to bone without a PDL.'
-     }
+     'question': 'When selecting occlusal vertical dimension for a complete denture wearer with worn dentition history, which applied approach is sound?',
+     'options': ['A) Combine clinical rest position, speech (sibilant), esthetics, and residual ridge comfort rather than a single arbitrary number', 'B) Always open OVD by 10 mm regardless of rest space', 'C) Set OVD solely by the shade of the pink acrylic', 'D) Ignore phonetics because speech never changes with OVD'],
+     'answer': 'A) Combine clinical rest position, speech (sibilant), esthetics, and residual ridge comfort rather than a single arbitrary number',
+     'explanation': 'OVD determination uses multiple correlates—physiologic rest with freeway space, phonetics, facial esthetics, and patient comfort—then verified with trial bases. Arbitrary large openings risk muscle fatigue and instability; acrylic shade is irrelevant; speech is a classic verification tool.',
+     'choice_explanations': {'A': 'OVD is verified by rest space, phonetics, esthetics, and comfort—not arbitrary opening or acrylic color.', 'B': 'Blind 10 mm opening often exceeds freeway space and destabilizes dentures.', 'C': 'Acrylic shade does not encode vertical dimension.', 'D': 'Sibilant sounds are commonly used to verify OVD.'}
     },
     {
-     'question': 'An immediate denture is delivered when?',
-     'options': [
-      'A) At the extraction appointment after prior fabrication',
-      'B) After complete ridge remodeling months later as a conventional complete denture',
-      'C) Before any clinical examination or records',
-      'D) As a substitute Hawley retainer during orthodontic retention'
-     ],
-     'answer': 'A) At the extraction appointment after prior fabrication',
-     'explanation': 'An immediate denture is fabricated before extractions and inserted at the same appointment the teeth are removed. It maintains appearance and limited function during healing while acting as a protective dressing for the sockets.',
-     'choice_explanations': {
-      'A': 'An immediate denture is fabricated before extractions and inserted at the same appointment the teeth are removed. It maintains appearance and limited function during healing while acting as a protective dressing for the sockets.',
-      'B': 'A conventional complete denture is delivered after healing/remodeling, not as an immediate denture. An immediate denture is fabricated before extractions and inserted at the same appointment the teeth are removed.',
-      'C': 'Immediate dentures require examination and records before fabrication. An immediate denture is fabricated before extractions and inserted at the same appointment the teeth are removed.',
-      'D': 'A Hawley retainer holds orthodontic alignment; it is not an immediate complete denture. An immediate denture is fabricated before extractions and inserted at the same appointment the teeth are removed.'
-     }
-    }
+     'question': 'A survey crown is planned for an RPD abutment. Which applied feature must be incorporated into the crown contour?',
+     'options': ['A) Random bulbous contours without a surveyed path of insertion', 'B) Surveyed guide planes, rest seats, and appropriate undercut for the chosen clasp assembly', 'C) Elimination of all axial walls to soft tissue only', 'D) Occlusal anatomy copied from a deciduous molar only'],
+     'answer': 'B) Surveyed guide planes, rest seats, and appropriate undercut for the chosen clasp assembly',
+     'explanation': 'Survey crowns are waxed/milled to provide planned guide planes, rest seats, and clasp undercuts consistent with the RPD design. Uncontrolled contours defeat the path of insertion and clasping. Soft-tissue-only abutments and deciduous anatomy are inappropriate.',
+     'choice_explanations': {'A': 'Unsurveyed bulbous crowns prevent a controlled path and proper clasp engagement.', 'B': 'Survey crowns must include designed guide planes, rests, and clasp undercuts.', 'C': 'Eliminating axial tooth structure destroys the abutment.', 'D': 'Primary molar anatomy is not the design template for adult survey crowns.'}
+    },
    ],
    'hard': [
     {
-     'question': 'A principal risk of a cantilever fixed dental prosthesis is?',
-     'options': [
-      'A) Reduced abutment stress compared with a conventional fixed-fixed bridge',
-      'B) Lower cement failure risk than any tooth-supported FDP',
-      'C) Superior long-term survival versus a single-tooth implant in all cases',
-      'D) Leverage overload and stress concentration on abutments'
-     ],
-     'answer': 'D) Leverage overload and stress concentration on abutments',
-     'explanation': 'A cantilever fixed dental prosthesis has an abutment at only one end of the pontic, creating a class I lever under occlusal load. Moments concentrate stress in the abutment tooth, cement lute, and periodontium, elevating failure risk if span and occlusion are unfavorable.',
-     'choice_explanations': {
-      'A': 'Cantilevers increase—not reduce—lever stress on abutments versus fixed-fixed designs. A cantilever fixed dental prosthesis has an abutment at only one end of the pontic, creating a class I lever under occlusal load.',
-      'B': 'Cantilever leverage raises cement and abutment stress rather than lowering failure risk. A cantilever fixed dental prosthesis has an abutment at only one end of the pontic, creating a class I lever under occlusal load.',
-      'C': 'Cantilevers are not universally superior to single-tooth implants in survival. A cantilever fixed dental prosthesis has an abutment at only one end of the pontic, creating a class I lever under occlusal load.',
-      'D': 'A cantilever fixed dental prosthesis has an abutment at only one end of the pontic, creating a class I lever under occlusal load. Moments concentrate stress in the abutment tooth, cement lute, and periodontium, elevating failure risk if span and occlusion are unfavorable.'
-     }
+     'question': 'A mandibular Kennedy Class I RPD candidate has distal extension ridges, periodontally reduced canines as abutments, and a history of prior denture sore spots. Which multi-cue design emphasis is most appropriate?',
+     'options': ['A) Make the denture entirely tooth-borne on the canines with rigid bilateral distal occlusal loading only', 'B) Eliminate all acrylic bases so clasps alone replace molars', 'C) Maximize support from the edentulous ridge (accurate base adaptation/impression technique), use flexible stress distribution concepts, and protect weakened abutments', 'D) Use a maxillary complete denture design on the mandible unchanged'],
+     'answer': 'C) Maximize support from the edentulous ridge (accurate base adaptation/impression technique), use flexible stress distribution concepts, and protect weakened abutments',
+     'explanation': 'Distal extension RPDs share load between teeth and residual ridges; altered-cast or careful selective-pressure impressions improve ridge support. Periodontally reduced abutments need stress-breaking/flexible designs and rests that avoid cantilever overload. Purely tooth-borne distal loading or clasps without bases are near-misses.',
+     'choice_explanations': {'A': 'Rigid tooth-only distal loading overloads weakened canines.', 'B': 'Clasps without bases cannot replace masticatory support of molars.', 'C': 'Class I distal extensions need ridge support and abutment-protective stress distribution.', 'D': 'Maxillary complete-denture design principles do not transplant unchanged to a mandibular RPD.'}
     },
     {
-     'question': 'Comparing cement-retained and screw-retained implant crowns, a central clinical tradeoff is?',
-     'options': [
-      'A) That no clinical differences exist between retention modes',
-      'B) Cement excess control versus screw-access esthetics and retrievability',
-      'C) That subgingival cement is easier to remove than supragingival cement',
-      'D) That screw-retained crowns eliminate all prosthetic complications'
-     ],
-     'answer': 'B) Cement excess control versus screw-access esthetics and retrievability',
-     'explanation': 'Cement-retained implant crowns can offer esthetic continuity without an occlusal screw access hole, but excess subgingival cement is difficult to remove and is strongly linked to peri-implant inflammation. Screw retention improves retrievability at the cost of an access channel.',
-     'choice_explanations': {
-      'A': 'Cement- vs screw-retained crowns differ in cement risk, esthetics, and retrievability. Cement-retained implant crowns can offer esthetic continuity without an occlusal screw access hole, but excess subgingival cement is difficult to remove and is strongly linked to peri-implant inflammation.',
-      'B': 'Cement-retained implant crowns can offer esthetic continuity without an occlusal screw access hole, but excess subgingival cement is difficult to remove and is strongly linked to peri-implant inflammation. Screw retention improves retrievability at the cost of an access channel.',
-      'C': 'Subgingival cement is harder to remove and linked to peri-implant inflammation. Cement-retained implant crowns can offer esthetic continuity without an occlusal screw access hole, but excess subgingival cement is difficult to remove and is strongly linked to peri-implant inflammation.',
-      'D': 'Screw-retained crowns still face screw loosening, fracture, and other complications. Cement-retained implant crowns can offer esthetic continuity without an occlusal screw access hole, but excess subgingival cement is difficult to remove and is strongly linked to peri-implant inflammation.'
-     }
+     'question': 'An anterior single implant crown shows screw loosening twice, occlusal contacts heavier in excursive movements than adjacent teeth, and a shallow anterior guidance scheme. Which multi-cue correction is best?',
+     'options': ["A) Increase excursive overload intentionally to 'seat' the screw", 'B) Ignore occlusion because implants have periodontal ligaments that buffer all forces', 'C) Cement a crown over a loose screw without retrieving and retorquing', 'D) Correct occlusal scheme to lighten implant excursive contacts, ensure proper torque/preload, and reassess abutment fit before repeated failure'],
+     'answer': 'D) Correct occlusal scheme to lighten implant excursive contacts, ensure proper torque/preload, and reassess abutment fit before repeated failure',
+     'explanation': 'Implants lack a PDL shock absorber; excursive overload and inadequate preload commonly loosen screws. Management recalibrates occlusion (often lighter contacts especially in excursions), verifies component fit, and applies correct torque. Cementing over a loose screw traps the problem.',
+     'choice_explanations': {'A': 'Increasing overload worsens screw joint failure.', 'B': 'Osseointegrated implants lack a PDL; they transmit force rigidly.', 'C': 'Cementing over a loose screw fails to restore preload and fit.', 'D': 'Recurrent implant screw loosening needs occlusal correction and proper torque—not added overload.'}
     },
     {
-     'question': 'Surveying a removable partial denture cast primarily determines?',
-     'options': [
-      'A) Ceramic shade prescription',
-      'B) Patient chronologic age',
-      'C) Path of insertion and usable undercuts',
-      'D) Maximum voluntary bite force'
-     ],
-     'answer': 'C) Path of insertion and usable undercuts',
-     'explanation': 'Surveying orients a diagnostic cast to a chosen path of insertion and identifies soft- and hard-tissue undercuts relative to that path. Clasp tips are then placed in measured undercut, guiding planes are planned, and interferences are eliminated.',
-     'choice_explanations': {
-      'A': 'Shade prescription is optical and not the purpose of RPD cast surveying. Surveying orients a diagnostic cast to a chosen path of insertion and identifies soft- and hard-tissue undercuts relative to that path.',
-      'B': 'Chronologic age is not determined by surveying a cast. Surveying orients a diagnostic cast to a chosen path of insertion and identifies soft- and hard-tissue undercuts relative to that path.',
-      'C': 'Surveying orients a diagnostic cast to a chosen path of insertion and identifies soft- and hard-tissue undercuts relative to that path. Clasp tips are then placed in measured undercut, guiding planes are planned, and interferences are eliminated.',
-      'D': 'Bite force is a physiologic measure, not obtained by surveying. Surveying orients a diagnostic cast to a chosen path of insertion and identifies soft- and hard-tissue undercuts relative to that path.'
-     }
-    }
+     'question': 'A patient with a high smile line needs a maxillary central crown. Preparation reveals a dark subgingival ferrule, thin biotype, and the patient refuses surgery. Which multi-cue prosthetic strategy is most coherent?',
+     'options': ['A) Use opaque/masking strategies or material layering carefully, discuss gingival display limits, and consider conservative margin placement without violating biologic width', 'B) Place the margin deep into bone to hide color without counseling biologic width risk', 'C) Promise perfect pink esthetics identical to virgin teeth without material limits', 'D) Bleach the metal post through opaque porcelain by using water alone'],
+     'answer': 'A) Use opaque/masking strategies or material layering carefully, discuss gingival display limits, and consider conservative margin placement without violating biologic width',
+     'explanation': 'Dark substrates and thin biotypes challenge esthetics, especially with high smile lines. Options include opaque zirconia/core masking, opaque cements, or accepting slight compromise when crown lengthening/soft-tissue grafting is refused. Deep biologic width invasion risks chronic inflammation; water cannot bleach a metal post through ceramics.',
+     'choice_explanations': {'A': 'Mask dark substrates within biologic width limits and set realistic high-smile-line expectations.', 'B': 'Deep bony margin placement violates attachment and invites chronic inflammation.', 'C': 'Material physics and soft tissue set limits; overpromising harms consent quality.', 'D': 'Water does not opacify metal show-through under porcelain.'}
+    },
    ],
    'extreme': [
     {
-     'question': 'Full-mouth rehabilitation sequencing most appropriately prioritizes?',
-     'options': [
-      'A) Immediate definitive zirconia without diagnosis',
-      'B) Esthetic shade selection before caries and periodontal control',
-      'C) Extraction of all teeth without informed consent',
-      'D) Disease control, VDO/occlusion planning, provisionals, then finals'
-     ],
-     'answer': 'D) Disease control, VDO/occlusion planning, provisionals, then finals',
-     'explanation': 'Full-mouth rehabilitation fails if active caries or periodontitis undermines new restorations, so disease control comes first. Vertical dimension, occlusal scheme, and esthetics are then tested in provisionals before committing to definitive restorations.',
-     'choice_explanations': {
-      'A': 'Skipping diagnosis/disease control undermines rehabilitation longevity. Full-mouth rehabilitation fails if active caries or periodontitis undermines new restorations, so disease control comes first.',
-      'B': 'Shade before disease control risks restorations on unstable foundations. Full-mouth rehabilitation fails if active caries or periodontitis undermines new restorations, so disease control comes first.',
-      'C': 'Extractions require consent and are not the default first step of full-mouth rehab. Full-mouth rehabilitation fails if active caries or periodontitis undermines new restorations, so disease control comes first.',
-      'D': 'Full-mouth rehabilitation fails if active caries or periodontitis undermines new restorations, so disease control comes first. Vertical dimension, occlusal scheme, and esthetics are then tested in provisionals before committing to definitive restorations.'
-     }
+     'question': "A completely edentulous patient with severely resorbed mandible, history of denture instability, and xerostomia from polypharmacy requests 'teeth in a day' fixed full-arch implants. CBCT shows limited anterior bone and proximity of the inferior alveolar nerves bilaterally. Which decision pathway is most responsible?",
+     'options': ['A) Place posterior implants into the mandibular canals to gain AP spread at any neurologic cost', 'B) Explain anatomic limits, discuss implant-retained overdenture versus extensive grafting/alternative tilt strategies with realistic timelines, optimize saliva/prosthetic soft-tissue health, and avoid promising immediate fixed teeth when bone and soft tissue are inadequate', 'C) Guarantee fixed same-day teeth without imaging because resin bases always suffice', 'D) Ignore xerostomia because saliva never affects denture or peri-implant comfort'],
+     'answer': 'B) Explain anatomic limits, discuss implant-retained overdenture versus extensive grafting/alternative tilt strategies with realistic timelines, optimize saliva/prosthetic soft-tissue health, and avoid promising immediate fixed teeth when bone and soft tissue are inadequate',
+     'explanation': 'Severely resorbed mandibles constrain implant length/position; nerve injury risk precludes canal penetration. Two-implant overdentures often transform stability with less morbidity than full-arch fixed when bone is limited. Xerostomia worsens comfort and candidiasis risk. Immediate fixed full-arch promises without bone are unethical near-misses.',
+     'choice_explanations': {'A': 'Implants in the IAN canal risk permanent neurosensory injury.', 'B': 'Limited mandibular bone and xerostomia favor honest alternatives (e.g., overdenture) over nerve-risking immediate fixed arches.', 'C': 'CBCT planning is mandatory; resin denture history does not prove implant bone adequacy.', 'D': 'Hyposalivation strongly affects prosthesis comfort and mucosal health.'}
     },
     {
-     'question': 'Combination syndrome classically relates to?',
-     'options': [
-      'A) An edentulous maxilla opposing mandibular anterior natural teeth',
-      'B) Skeletal Class III orthodontic camouflage alone',
-      'C) Dens invaginatus of maxillary laterals',
-      'D) A mesiodens in the midline'
-     ],
-     'answer': 'A) An edentulous maxilla opposing mandibular anterior natural teeth',
-     'explanation': 'Combination syndrome classically occurs with a complete maxillary denture opposing mandibular anterior natural teeth (often with missing posterior support). Heavy anterior occlusal forces drive flabby anterior maxillary ridge, papillary hyperplasia, and mandibular overeruption patterns.',
-     'choice_explanations': {
-      'A': 'Combination syndrome classically occurs with a complete maxillary denture opposing mandibular anterior natural teeth (often with missing posterior support). Heavy anterior occlusal forces drive flabby anterior maxillary ridge, papillary hyperplasia, and mandibular overeruption patterns.',
-      'B': 'Camouflage is orthodontic compensation, not the prosthodontic combination-syndrome scenario. Combination syndrome classically occurs with a complete maxillary denture opposing mandibular anterior natural teeth (often with missing posterior support).',
-      'C': 'The maxillary lateral incisor is a single-rooted anterior tooth; true bony impaction is uncommon versus agenesis. Combination syndrome classically occurs with a complete maxillary denture opposing mandibular anterior natural teeth (often with missing posterior support).',
-      'D': 'A mesiodens is a supernumerary tooth, not combination syndrome. Combination syndrome classically occurs with a complete maxillary denture opposing mandibular anterior natural teeth (often with missing posterior support).'
-     }
+     'question': 'An FPD from canine to second molar failed after the canine abutment split vertically. The premolars are missing; the molar has short clinical crown and short roots. The patient wants another five-unit bridge immediately. What complex prosthetic judgment is best?',
+     'options': ['A) Recement the split canine fragments under a new longer cantilever bridge without addressing structure', 'B) Use the fractured canine indefinitely as a lone abutment for a distal cantilever to the molar', 'C) Recognize long-span FPD with poor abutments as high failure risk; consider implant replacement of missing units or removable options after extracting the fractured canine and evaluating the molar’s true abutment value', 'D) Promise that any span length is equally successful if porcelain is layered thickly'],
+     'answer': 'C) Recognize long-span FPD with poor abutments as high failure risk; consider implant replacement of missing units or removable options after extracting the fractured canine and evaluating the molar’s true abutment value',
+     'explanation': 'Ante’s law and biomechanics caution against long spans on compromised abutments; a vertically fractured canine is unrestorable as an abutment. Implants to replace missing premolars (or an RPD) after removing the fractured tooth usually outperform repeating a doomed FPD. Cantilevering from a fractured root or claiming porcelain thickness overcomes span physics is incorrect.',
+     'choice_explanations': {'A': 'Split roots cannot be reliably recombined as abutments under load.', 'B': 'Cantilevers from hopeless roots accelerate failure.', 'C': 'Failed long-span FPD with fractured abutment needs redesign (implants/RPD), not another overloaded bridge.', 'D': 'Porcelain thickness does not compensate for inadequate abutment support.'}
     },
     {
-     'question': 'Passive fit of an implant framework means?',
-     'options': [
-      'A) Forced seating of a misfitting framework is acceptable',
-      'B) Cement lute compensates safely for any framework distortion',
-      'C) The framework seats without inducing strain on implants',
-      'D) Shade match alone determines clinical acceptability of fit'
-     ],
-     'answer': 'C) The framework seats without inducing strain on implants',
-     'explanation': 'Passive fit means an implant framework seats on abutments without inducing tensile or compressive strain in the screws or peri-implant bone. Casting or scanning distortion that leaves a misfit creates preload problems, screw loosening, and bone stress.',
-     'choice_explanations': {
-      'A': 'Forced seating induces strain in implants/bone and violates passive fit. Passive fit means an implant framework seats on abutments without inducing tensile or compressive strain in the screws or peri-implant bone.',
-      'B': 'Cement cannot safely compensate for framework distortion that strains implants. Passive fit means an implant framework seats on abutments without inducing tensile or compressive strain in the screws or peri-implant bone.',
-      'C': 'Passive fit means an implant framework seats on abutments without inducing tensile or compressive strain in the screws or peri-implant bone. Casting or scanning distortion that leaves a misfit creates preload problems, screw loosening, and bone stress.',
-      'D': 'Shade is esthetic; passive mechanical fit is a separate implant-prosthetic requirement. Passive fit means an implant framework seats on abutments without inducing tensile or compressive strain in the screws or peri-implant bone.'
-     }
-    }
-   ]
+     'question': 'A maxillary complete denture opposes a Kennedy Class I RPD. The patient develops combination syndrome features: flabby anterior maxilla, papillary hyperplasia, mandibular posterior ridge resorption, and overgrown tuberosities. Which complication-management plan is most coherent?',
+     'options': ["A) Add more anterior maxillary occlusal contact exclusively to 'stabilize' the denture", 'B) Ignore flabby tissue and take a single heavy pressure impression that displaces it maximally without relief', 'C) Extract the mandibular residual ridge prophylactically to match the maxilla', 'D) Correct occlusal plane/posterior support, consider surgical management of hyperplasia/flabby tissue as needed, reline or remake prostheses, and educate about leaving dentures out at night'],
+     'answer': 'D) Correct occlusal plane/posterior support, consider surgical management of hyperplasia/flabby tissue as needed, reline or remake prostheses, and educate about leaving dentures out at night',
+     'explanation': 'Combination syndrome stems from lack of mandibular posterior support and excessive anterior maxillary loading. Therapy restores posterior occlusion, manages hyperplastic/flabby tissues (often with surgery or specialized impressions), and remakes/relines prostheses. Increasing anterior contacts worsens the syndrome; amputating ridges is not therapy.',
+     'choice_explanations': {'A': 'Anterior-only contacts drive further maxillary flabby change and bone loss.', 'B': 'Unrelieved heavy displacement of flabby tissue yields unstable denture bases.', 'C': 'Resecting mandibular ridges destroys support needed for the RPD.', 'D': 'Combination syndrome needs posterior support restoration and soft-tissue/prosthesis correction—not more anterior loading.'}
+    },
+   ],
   },
   'cases': {
    'easy': [
-    {
-     'title': 'Broken Molar Crown',
-     'stem': 'A patient wants a crown on a root-filled molar with adequate ferrule.',
-     'question': 'Plan outline?',
-     'answer': 'Assess restorability, post if needed, core, crown.',
-     'discussion': 'Extract if unrestorable.',
-     'book_hint': 'Contemporary Fixed Prosthodontics — Rosenstiel'
-    }
+    {'title': 'Broken Molar Crown', 'stem': 'A patient wants a crown on a root-filled molar with adequate ferrule.', 'question': 'Plan outline?', 'answer': 'Assess restorability, post if needed, core, crown.', 'discussion': 'Extract if unrestorable.', 'book_hint': 'Contemporary Fixed Prosthodontics — Rosenstiel'},
    ],
    'medium': [
-    {
-     'title': 'Distal Extension RPD Rocks',
-     'stem': 'Kennedy I lower RPD rocks and sore spots on ridge.',
-     'question': 'Likely issue?',
-     'answer': 'Support/retention/occlusion imbalance on distal extension — adjust base, rests, occlusion.',
-     'discussion': 'Tissue-borne areas need careful loading.',
-     'book_hint': 'Contemporary Fixed Prosthodontics — Rosenstiel'
-    }
+    {'title': 'Distal Extension RPD Rocks', 'stem': 'Kennedy I lower RPD rocks and sore spots on ridge.', 'question': 'Likely issue?', 'answer': 'Support/retention/occlusion imbalance on distal extension — adjust base, rests, occlusion.', 'discussion': 'Tissue-borne areas need careful loading.', 'book_hint': 'Contemporary Fixed Prosthodontics — Rosenstiel'},
    ],
    'hard': [
-    {
-     'title': 'Deep Margin Near Bone',
-     'stem': 'Crown prep finish line violates biologic width with persistent bleeding. Choose the safest high-yield next concept before definitive results.',
-     'question': 'Options?',
-     'answer': 'Crown lengthening or orthodontic extrusion before final restoration.',
-     'discussion': 'Do not cement and hope.',
-     'book_hint': 'Contemporary Fixed Prosthodontics — Rosenstiel'
-    }
+    {'title': 'Deep Margin Near Bone', 'stem': 'Crown prep finish line violates biologic width with persistent bleeding. Choose the safest high-yield next concept before definitive results.', 'question': 'Options?', 'answer': 'Crown lengthening or orthodontic extrusion before final restoration.', 'discussion': 'Do not cement and hope.', 'book_hint': 'Contemporary Fixed Prosthodontics — Rosenstiel'},
    ],
    'extreme': [
-    {
-     'title': 'Failing Full Arch Hybrids',
-     'stem': 'Multiple implant prostheses with screw loosening, misfit, and peri-implant bone loss. Avoid harmful premature treatment while catastrophic differentials remain open.',
-     'question': 'Concept?',
-     'answer': 'Remove/replace passive fit, control occlusion, treat peri-implant disease, reassess biomechanics.',
-     'discussion': 'Do not keep tightening screws blindly.',
-     'book_hint': 'Contemporary Fixed Prosthodontics — Rosenstiel'
-    }
-   ]
-  }
+    {'title': 'Failing Full Arch Hybrids', 'stem': 'Multiple implant prostheses with screw loosening, misfit, and peri-implant bone loss. Avoid harmful premature treatment while catastrophic differentials remain open.', 'question': 'Concept?', 'answer': 'Remove/replace passive fit, control occlusion, treat peri-implant disease, reassess biomechanics.', 'discussion': 'Do not keep tightening screws blindly.', 'book_hint': 'Contemporary Fixed Prosthodontics — Rosenstiel'},
+   ],
+  },
  },
  'pediatric_dentistry': {
   'label': 'Pediatric Dentistry',
-  'books': [
-   "McDonald and Avery's Dentistry for the Child and Adolescent",
-   'Paediatric Dentistry — Welbury',
-   'Clinical Cases in Pediatric Dentistry'
-  ],
-  'pdf_notes': [
-   '20 primary teeth; first permanent molar about age 6.',
-   'ECC often affects maxillary anteriors with bottle habits.',
-   'SSC common for multi-surface primary molar caries.',
-   'Generally do not replant avulsed primary teeth.',
-   'Safeguarding: inconsistent injury histories.'
-  ],
+  'books': ["McDonald and Avery's Dentistry for the Child and Adolescent", 'Paediatric Dentistry — Welbury', 'Clinical Cases in Pediatric Dentistry'],
+  'pdf_notes': ['20 primary teeth; first permanent molar about age 6.', 'ECC often affects maxillary anteriors with bottle habits.', 'SSC common for multi-surface primary molar caries.', 'Generally do not replant avulsed primary teeth.', 'Safeguarding: inconsistent injury histories.'],
   'questions': {
    'easy': [
     {
-     'question': 'Which permanent tooth most often erupts first?',
-     'options': [
-      'A) Mandibular first molar around age 6 years',
-      'B) Third molar around age 3 years',
-      'C) Maxillary lateral incisor at age 2 years',
-      'D) Permanent canine at 4 months of age'
-     ],
-     'answer': 'A) Mandibular first molar around age 6 years',
-     'explanation': 'The mandibular first permanent molars typically erupt around age six and are often the first permanent teeth to appear, distal to the primary second molars. They establish the foundation of the permanent occlusion.',
-     'choice_explanations': {
-      'A': 'The mandibular first permanent molars typically erupt around age six and are often the first permanent teeth to appear, distal to the primary second molars. They establish the foundation of the permanent occlusion.',
-      'B': 'Third molars erupt in late adolescence/early adulthood, not at age 3. The mandibular first permanent molars typically erupt around age six and are often the first permanent teeth to appear, distal to the primary second molars.',
-      'C': 'The maxillary lateral incisor is a single-rooted anterior tooth; true bony impaction is uncommon versus agenesis. The mandibular first permanent molars typically erupt around age six and are often the first permanent teeth to appear, distal to the primary second molars.',
-      'D': 'Permanent canines erupt ~11–12 years; 4 months is primary-dentition timing. The mandibular first permanent molars typically erupt around age six and are often the first permanent teeth to appear, distal to the primary second molars.'
-     }
+     'question': 'The first permanent tooth to erupt in most children is which tooth?',
+     'options': ['A) Mandibular first permanent molar', 'B) Maxillary permanent canine', 'C) Mandibular permanent third molar', 'D) Maxillary permanent lateral incisor exclusively before all others in every child'],
+     'answer': 'A) Mandibular first permanent molar',
+     'explanation': 'The mandibular first permanent molar typically erupts around age 6 and is often the first permanent tooth, erupting distal to the primary second molar. Canines and third molars erupt much later; lateral incisors are not universally first.',
+     'choice_explanations': {'A': 'Mandibular first permanent molars usually erupt first among permanent teeth (~age 6).', 'B': 'Permanent canines erupt later in the mixed dentition sequence.', 'C': 'Third molars erupt in late adolescence/early adulthood.', 'D': 'Lateral incisors are not the first permanent teeth in the usual sequence.'}
     },
     {
-     'question': 'Professional fluoride varnish primarily helps prevent?',
-     'options': [
-      'A) Angle Class II malocclusion',
-      'B) Dental caries',
-      'C) Primary tooth ankylosis',
-      'D) Supernumerary tooth formation'
-     ],
-     'answer': 'B) Dental caries',
-     'explanation': 'Fluoride varnish delivers a high fluoride concentration that promotes remineralization of enamel and forms calcium fluoride–like reservoirs on the tooth surface. Repeated professional application reduces caries incidence in children at risk.',
-     'choice_explanations': {
-      'A': 'Angle Class II is an anteroposterior molar discrepancy, not prevented by fluoride varnish. Fluoride varnish delivers a high fluoride concentration that promotes remineralization of enamel and forms calcium fluoride–like reservoirs on the tooth surface.',
-      'B': 'Fluoride varnish delivers a high fluoride concentration that promotes remineralization of enamel and forms calcium fluoride–like reservoirs on the tooth surface. Repeated professional application reduces caries incidence in children at risk.',
-      'C': 'Ankylosis is pathologic fusion of cementum to alveolar bone interrupting eruption/exfoliation. Fluoride varnish delivers a high fluoride concentration that promotes remineralization of enamel and forms calcium fluoride–like reservoirs on the tooth surface.',
-      'D': 'Supernumerary teeth are developmental extras from dental lamina hyperactivity, not fluoride targets. Fluoride varnish delivers a high fluoride concentration that promotes remineralization of enamel and forms calcium fluoride–like reservoirs on the tooth surface.'
-     }
+     'question': 'A primary molar with a deep carious lesion is asymptomatic, has a healthy permanent successor, and more than a year before exfoliation. When pulp is exposed but vital and inflammation is limited to the coronal pulp, which therapy is most appropriate?',
+     'options': ['A) Immediate orthodontic extraction of all permanent successors', 'B) Pulpotomy with suitable medicament and a sealed restoration', 'C) Adult-length cast post and core as first-line', 'D) No restoration after leaving carious exposure open to saliva'],
+     'answer': 'B) Pulpotomy with suitable medicament and a sealed restoration',
+     'explanation': 'Vital primary molar pulpotomy removes inflamed coronal pulp, preserves radicular pulp, and maintains the tooth until exfoliation when criteria are met. Adult posts are inappropriate in primary teeth; open exposures invite infection; extracting permanent successors is harmful.',
+     'choice_explanations': {'A': 'Permanent successors should be preserved, not electively extracted.', 'B': 'Vital primary molar with coronal pulp inflammation often receives pulpotomy plus sealed restoration.', 'C': 'Cast posts are adult restorative concepts unsuitable as primary pulp therapy.', 'D': 'Leaving exposures open risks pulp necrosis and infection.'}
     },
     {
-     'question': 'Pulpotomy in pediatric dentistry is most often indicated for?',
-     'options': [
-      'A) Adult implant sites with peri-implantitis',
-      'B) Orthodontic enamel etching only',
-      'C) A restorable primary tooth with inflamed coronal pulp and healthy radicular pulp',
-      'D) Vital bleaching of permanent anteriors'
-     ],
-     'answer': 'C) A restorable primary tooth with inflamed coronal pulp and healthy radicular pulp',
-     'explanation': 'Pulpotomy removes inflamed coronal pulp while preserving radicular pulp vitality in a restorable primary tooth, usually after carious or traumatic exposure with healthy root pulp. Medicaments dress the amputated pulp to maintain the tooth until exfoliation.',
-     'choice_explanations': {
-      'A': 'Peri-implantitis is inflammatory bone loss around implants; pulpotomy is primary-tooth pulp therapy. Pulpotomy removes inflamed coronal pulp while preserving radicular pulp vitality in a restorable primary tooth, usually after carious or traumatic exposure with healthy root pulp.',
-      'B': 'Enamel etching creates microporosity for bonding; it is not an indication for pulpotomy. Pulpotomy removes inflamed coronal pulp while preserving radicular pulp vitality in a restorable primary tooth, usually after carious or traumatic exposure with healthy root pulp.',
-      'C': 'Pulpotomy removes inflamed coronal pulp while preserving radicular pulp vitality in a restorable primary tooth, usually after carious or traumatic exposure with healthy root pulp. Medicaments dress the amputated pulp to maintain the tooth until exfoliation.',
-      'D': 'Vital bleaching oxidizes enamel/dentin chromogens and does not treat inflamed primary pulp. Pulpotomy removes inflamed coronal pulp while preserving radicular pulp vitality in a restorable primary tooth, usually after carious or traumatic exposure with healthy root pulp.'
-     }
-    }
+     'question': 'Topical fluoride varnish is used in children primarily to achieve which effect?',
+     'options': ['A) Replace the need for any dietary counseling forever', 'B) Anesthetize the inferior alveolar nerve for extractions', 'C) Promote remineralization and reduce caries incidence/progression on enamel', 'D) Bleach tetracycline-stained dentin permanently in one visit'],
+     'answer': 'C) Promote remineralization and reduce caries incidence/progression on enamel',
+     'explanation': 'Fluoride varnish delivers high-concentration fluoride that favors remineralization and caries prevention, especially in high-risk children. It does not replace diet advice, produce nerve blocks, or permanently bleach tetracycline stains in one application.',
+     'choice_explanations': {'A': 'Diet and hygiene counseling remain essential alongside fluoride.', 'B': 'Local anesthetics—not fluoride—provide nerve block anesthesia.', 'C': 'Fluoride varnish aids enamel remineralization and caries prevention.', 'D': 'Tetracycline staining is not reliably erased by a single varnish visit.'}
+    },
    ],
    'medium': [
     {
-     'question': 'A classic indication for a stainless steel crown in the primary dentition is?',
-     'options': [
-      'A) Shade try-in for ceramic veneers',
-      'B) Multi-surface caries in a primary molar',
-      'C) Fabrication of bleaching trays',
-      'D) Anterior laminate veneer preparation'
-     ],
-     'answer': 'B) Multi-surface caries in a primary molar',
-     'explanation': 'Primary molars with multi-surface caries often lack sufficient tooth structure for durable intracoronal restorations and are subject to high occlusal load. Stainless steel crowns encircle and protect the remaining tooth until exfoliation.',
-     'choice_explanations': {
-      'A': 'Shade try-in verifies ceramic color optically and is not a stainless-steel-crown indication. Primary molars with multi-surface caries often lack sufficient tooth structure for durable intracoronal restorations and are subject to high occlusal load.',
-      'B': 'Primary molars with multi-surface caries often lack sufficient tooth structure for durable intracoronal restorations and are subject to high occlusal load. Stainless steel crowns encircle and protect the remaining tooth until exfoliation.',
-      'C': 'Bleaching trays hold peroxide gel; they are not full-coverage primary molar restorations. Primary molars with multi-surface caries often lack sufficient tooth structure for durable intracoronal restorations and are subject to high occlusal load.',
-      'D': 'Laminate veneer prep removes facial enamel for bonded ceramics on permanent teeth. Primary molars with multi-surface caries often lack sufficient tooth structure for durable intracoronal restorations and are subject to high occlusal load.'
-     }
+     'question': 'A 4-year-old sustains lateral luxation of a primary maxillary incisor with occlusal interference. The permanent successor bud is not apparently intruded on radiograph. Which applied management is most appropriate?',
+     'options': ['A) Perform apexification with a long post in the primary root', 'B) Always leave interfering luxated primary teeth untreated regardless of bite trauma', 'C) Place an implant immediately in the 4-year-old socket', 'D) Reposition if needed for function/esthetics or extract if the tooth poses aspiration risk or interferes severely; avoid rigid prolonged immobilization typical of some permanent-tooth protocols'],
+     'answer': 'D) Reposition if needed for function/esthetics or extract if the tooth poses aspiration risk or interferes severely; avoid rigid prolonged immobilization typical of some permanent-tooth protocols',
+     'explanation': 'Primary luxation management prioritizes the permanent successor and airway safety. Mild cases may be observed; interfering or severely displaced teeth are repositioned carefully or extracted. Prolonged rigid splinting and adult endodontic/implant approaches are inappropriate in preschoolers.',
+     'choice_explanations': {'A': 'Apexification posts are not used as routine primary luxation care.', 'B': 'Occlusal interference can traumatize tissues and needs management.', 'C': 'Implants are contraindicated in growing preschool children for such injuries.', 'D': 'Primary luxation: careful reposition or extract if interfering/unsafe—avoid adult implant/post protocols.'}
     },
     {
-     'question': 'Early childhood caries classically affects which teeth most severely?',
-     'options': [
-      'A) Maxillary primary anterior teeth',
-      'B) Permanent third molars',
-      'C) Impacted maxillary canines',
-      'D) Mandibular primary anteriors more than maxillary anteriors in the classic bottle pattern'
-     ],
-     'answer': 'A) Maxillary primary anterior teeth',
-     'explanation': 'Early childhood caries classically affects maxillary primary incisors because sweetened liquids pool around them during bottle or sippy-cup use, especially at night when salivary flow is low. Mandibular incisors are often relatively spared by tongue protection and salivary bathing.',
-     'choice_explanations': {
-      'A': 'Early childhood caries classically affects maxillary primary incisors because sweetened liquids pool around them during bottle or sippy-cup use, especially at night when salivary flow is low. Mandibular incisors are often relatively spared by tongue protection and salivary bathing.',
-      'B': 'Permanent third molars are not the classic primary teeth destroyed in early childhood caries. Early childhood caries classically affects maxillary primary incisors because sweetened liquids pool around them during bottle or sippy-cup use, especially at night when salivary flow is low.',
-      'C': 'The maxillary canine is a long-erupting anterior tooth and the second most commonly impacted tooth. Early childhood caries classically affects maxillary primary incisors because sweetened liquids pool around them during bottle or sippy-cup use, especially at night when salivary flow is low.',
-      'D': 'In classic bottle ECC, the tongue and saliva relatively protect mandibular anteriors versus maxillary ones. Early childhood caries classically affects maxillary primary incisors because sweetened liquids pool around them during bottle or sippy-cup use, especially at night when salivary flow is low.'
-     }
+     'question': 'Space maintenance after early loss of a primary second molar is most critical to prevent which applied consequence?',
+     'options': ['A) Mesial drift of the first permanent molar with loss of leeway/arch space', 'B) Immediate fusion of the maxillary tuberosities', 'C) Mandatory agenesis of the permanent successor', 'D) Spontaneous formation of a new primary tooth'],
+     'answer': 'A) Mesial drift of the first permanent molar with loss of leeway/arch space',
+     'explanation': 'Early loss of primary second molars allows first permanent molars to drift mesially, consuming space for premolars and risking crowding/impaction. Space maintainers preserve that dimension until the successor erupts. Loss does not cause tuberosity fusion, agenesis, or new primary tooth formation.',
+     'choice_explanations': {'A': 'Space maintainers prevent mesial molar drift and space loss after early primary second molar loss.', 'B': 'Tuberosity fusion is not the consequence prevented by space maintenance.', 'C': 'Successor agenesis is genetic/developmental, not caused by space loss alone.', 'D': 'Humans do not regenerate a new primary tooth after loss.'}
     },
     {
-     'question': 'First-line basic behavior guidance for a fearful but cooperative child typically begins with?',
-     'options': [
-      'A) Immediate general anesthesia for every visit',
-      'B) Protective stabilization without discussion or consent themes',
-      'C) Tell-show-do communication',
-      'D) Ignoring expressed fear to save time'
-     ],
-     'answer': 'C) Tell-show-do communication',
-     'explanation': 'Tell-show-do introduces the child to instruments and sensations in a nonthreatening sequence, reducing fear through predictable communication. It establishes trust and cooperation before more advanced pharmacologic or protective techniques are considered.',
-     'choice_explanations': {
-      'A': 'General anesthesia is reserved for selected cases, not first-line for a fearful but cooperative child. Tell-show-do introduces the child to instruments and sensations in a nonthreatening sequence, reducing fear through predictable communication.',
-      'B': 'Protective stabilization without consent discussion is not basic first-line behavior guidance. Tell-show-do introduces the child to instruments and sensations in a nonthreatening sequence, reducing fear through predictable communication.',
-      'C': 'Tell-show-do introduces the child to instruments and sensations in a nonthreatening sequence, reducing fear through predictable communication. It establishes trust and cooperation before more advanced pharmacologic or protective techniques are considered.',
-      'D': 'Ignoring fear increases anxiety and does not build cooperative coping. Tell-show-do introduces the child to instruments and sensations in a nonthreatening sequence, reducing fear through predictable communication.'
-     }
-    }
+     'question': 'A child with early childhood caries needs multiple extractions under general anesthesia. Which applied preoperative principle is essential?',
+     'options': ['A) Feed a large meal immediately before induction to keep energy up', 'B) Medical history/NPO status review, informed consent including risks, and a comprehensive restorative/extraction plan to minimize repeat anesthesia', 'C) Skip consent because the child cannot legally understand anything', 'D) Plan only one tooth per GA session intentionally for many repeats'],
+     'answer': 'B) Medical history/NPO status review, informed consent including risks, and a comprehensive restorative/extraction plan to minimize repeat anesthesia',
+     'explanation': 'Pediatric GA dentistry requires medical assessment, strict NPO, parental consent/assent as appropriate, and ideally complete treatment in one session to avoid repeated anesthetic exposures. Feeding before induction risks aspiration; skipping consent is unethical; intentionally fragmenting care increases anesthetic risk.',
+     'choice_explanations': {'A': 'Pre-induction feeding violates NPO and risks aspiration.', 'B': 'Pediatric dental GA needs NPO/medical clearance, consent, and comprehensive single-session planning.', 'C': 'Parents/guardians must consent; children are still owed age-appropriate explanation.', 'D': 'Minimizing repeat GA is a core pediatric anesthesia safety principle.'}
+    },
    ],
    'hard': [
     {
-     'question': 'Intrusion of a primary incisor raises greatest concern for?',
-     'options': [
-      'A) TMJ ankylosis as the usual outcome',
-      'B) Cutaneous freckle formation',
-      'C) Maxillary sinusitis in every case',
-      'D) Damage to the developing permanent successor'
-     ],
-     'answer': 'D) Damage to the developing permanent successor',
-     'explanation': 'The developing permanent successor lies in close proximity to the primary tooth root; intrusive luxation can drive the primary root against the permanent tooth germ. Sequelae include enamel hypoplasia, eruption disturbance, or dilaceration of the successor.',
-     'choice_explanations': {
-      'A': 'TMJ ankylosis is bony/fibrous joint fusion and is not the usual sequela of primary incisor intrusion. The developing permanent successor lies in close proximity to the primary tooth root; intrusive luxation can drive the primary root against the permanent tooth germ.',
-      'B': 'Freckles are melanocytic macules unrelated to intrusive luxation of primary teeth. The developing permanent successor lies in close proximity to the primary tooth root; intrusive luxation can drive the primary root against the permanent tooth germ.',
-      'C': 'Primary incisor intrusion does not invariably drive maxillary sinusitis. The developing permanent successor lies in close proximity to the primary tooth root; intrusive luxation can drive the primary root against the permanent tooth germ.',
-      'D': 'The developing permanent successor lies in close proximity to the primary tooth root; intrusive luxation can drive the primary root against the permanent tooth germ. Sequelae include enamel hypoplasia, eruption disturbance, or dilaceration of the successor.'
-     }
+     'question': 'An 8-year-old has an avulsed permanent central incisor with 45 minutes dry extraoral time, an open apex, and the tooth brought in milk after an initial dry period. Which multi-cue replantation decision is best?',
+     'options': ['A) Scrub the root vigorously with bleach and leave the tooth out overnight', 'B) Discard the permanent incisor because open apex teeth never reattach', 'C) Replant after gentle cleaning as indicated, flexible splint, pulp management strategy for open apex (often revascularization attempt vs endodontics timing per guidelines), and tetanus/antibiotics consideration per protocol', 'D) Replant and perform immediate complete root resection to the CEJ'],
+     'answer': 'C) Replant after gentle cleaning as indicated, flexible splint, pulp management strategy for open apex (often revascularization attempt vs endodontics timing per guidelines), and tetanus/antibiotics consideration per protocol',
+     'explanation': 'Avulsed permanent teeth should be replanted ASAP; storage medium and dry time affect PDL survival. Open-apex teeth may attempt revascularization; endodontic timing differs from closed apex. Vigorous scrubbing, delayed discard, or resecting to CEJ are incorrect. Follow IADT-aligned splinting and follow-up.',
+     'choice_explanations': {'A': 'Bleach scrubbing kills PDL cells needed for reattachment.', 'B': 'Open-apex teeth can reattach and sometimes revascularize; they should not be discarded routinely.', 'C': 'Avulsed permanent incisors: replant, flexible splint, and stage pulp care—especially considering open apex biology.', 'D': 'Resection to CEJ destroys the tooth rather than managing avulsion.'}
     },
     {
-     'question': 'Early loss of a primary second molar most commonly leads to space loss by?',
-     'options': [
-      'A) Distal drift of the first permanent molar preserving leeway space',
-      'B) Mesial drift of the first permanent molar',
-      'C) Spontaneous increase in arch length restoring premolar space',
-      'D) Automatic improvement of the dental midline'
-     ],
-     'answer': 'B) Mesial drift of the first permanent molar',
-     'explanation': 'The primary second molar holds the leeway space and guides eruption of the first permanent molar. Early loss allows the permanent molar to drift mesially, consuming space needed for the premolars and producing crowding or impaction.',
-     'choice_explanations': {
-      'A': 'After primary second-molar loss, the permanent molar drifts mesially, consuming—not preserving—leeway space. The primary second molar holds the leeway space and guides eruption of the first permanent molar.',
-      'B': 'The primary second molar holds the leeway space and guides eruption of the first permanent molar. Early loss allows the permanent molar to drift mesially, consuming space needed for the premolars and producing crowding or impaction.',
-      'C': 'Arch length does not spontaneously increase to restore premolar space after mesial molar drift. The primary second molar holds the leeway space and guides eruption of the first permanent molar.',
-      'D': 'Space loss after early primary second-molar extraction does not automatically correct midlines. The primary second molar holds the leeway space and guides eruption of the first permanent molar.'
-     }
+     'question': 'A 6-year-old with a deep carious primary second molar shows furcation radiolucency, mobility, and night pain. The permanent premolar is present. Which multi-cue therapy is most appropriate?',
+     'options': ['A) Attempt direct pulp capping of necrotic furcation disease as definitive care', 'B) Perform adult molar uprighting with heavy orthodontic forces immediately', 'C) Ignore infection because primary teeth cannot affect permanent successors', 'D) Extract the primary molar and place a space maintainer if the successor will not erupt imminently'],
+     'answer': 'D) Extract the primary molar and place a space maintainer if the successor will not erupt imminently',
+     'explanation': 'Furcation involvement and mobility with symptoms indicate infection beyond vital pulp therapy criteria for primary molars—extraction is indicated. Space maintenance prevents mesial drift of the first permanent molar. Pulp capping fails in necrotic infected primary molars; infection can damage successors.',
+     'choice_explanations': {'A': 'Pulp capping is inappropriate for necrotic infected primary molars with furcation pathosis.', 'B': 'Heavy adult ortho forces are not the acute infection treatment.', 'C': 'Primary molar infection can damage developing premolar follicles.', 'D': 'Infected nonrestorable primary molar with furcation disease → extract ± space maintainer.'}
     },
     {
-     'question': 'Molar-incisor hypomineralization (MIH) characteristically features?',
-     'options': [
-      'A) Tetracycline banding as the only cause',
-      'B) Diffuse fluorosis identical in every case',
-      'C) Demarcated opacities on first permanent molars and often incisors',
-      'D) Caries without any enamel developmental defect'
-     ],
-     'answer': 'C) Demarcated opacities on first permanent molars and often incisors',
-     'explanation': 'Molar-incisor hypomineralization is a qualitative enamel defect producing demarcated opacities on first permanent molars and often incisors. Hypomineralized enamel is porous, sensitive, and prone to posteruptive breakdown and caries.',
-     'choice_explanations': {
-      'A': 'Tetracycline causes intrinsic banding discoloration; MIH is a separate demarcated hypomineralization entity. Molar-incisor hypomineralization is a qualitative enamel defect producing demarcated opacities on first permanent molars and often incisors.',
-      'B': 'Fluorosis is typically diffuse enamel opacity; MIH shows demarcated opacities on first molars/incisors. Molar-incisor hypomineralization is a qualitative enamel defect producing demarcated opacities on first permanent molars and often incisors.',
-      'C': 'Molar-incisor hypomineralization is a qualitative enamel defect producing demarcated opacities on first permanent molars and often incisors. Hypomineralized enamel is porous, sensitive, and prone to posteruptive breakdown and caries.',
-      'D': 'MIH is a qualitative developmental enamel defect, not caries alone. Molar-incisor hypomineralization is a qualitative enamel defect producing demarcated opacities on first permanent molars and often incisors.'
-     }
-    }
+     'question': 'A child with special healthcare needs has moderate caries, limited cooperative ability, and takes medication causing xerostomia. Behavioral attempts fail for quadrant dentistry. Which multi-cue plan is most appropriate?',
+     'options': ['A) Use medical consultation as needed, consider sedation/GA pathways with caries-risk control (fluoride, diet, saliva substitutes), and prioritize infection control', 'B) Withhold all fluoride because special needs children never get caries', 'C) Force lengthy chair treatment without consent while ignoring medical meds', 'D) Assume xerostomia medications are irrelevant to caries risk'],
+     'answer': 'A) Use medical consultation as needed, consider sedation/GA pathways with caries-risk control (fluoride, diet, saliva substitutes), and prioritize infection control',
+     'explanation': 'SHCN children often need advanced behavior guidance/sedation/GA plus aggressive prevention because xerostomia and hygiene limits raise caries risk. Treatment planning integrates medical status and prevention. Withholding fluoride, forcing care without consent, or ignoring xerostomia are near-misses.',
+     'choice_explanations': {'A': 'SHCN dentistry combines prevention, medical coordination, and appropriate sedation/GA—not forced unsafe care.', 'B': 'SHCN populations often have higher caries risk; fluoride is important.', 'C': 'Consent and medical awareness are mandatory; forced care is unethical/unsafe.', 'D': 'Xerostomia markedly elevates caries risk and needs management.'}
+    },
    ],
    'extreme': [
     {
-     'question': 'Dental findings raising concern for child abuse include?',
-     'options': [
-      'A) Injuries inconsistent with the stated history and developmental age',
-      'B) A typical playground abrasion matching a coherent history',
-      'C) A single carious lesion without trauma',
-      'D) Mild orthodontic crowding alone'
-     ],
-     'answer': 'A) Injuries inconsistent with the stated history and developmental age',
-     'explanation': 'Injuries that do not match the stated mechanism, developmental stage, or alleged timing raise concern for non-accidental trauma. Dentists have a professional and legal duty to recognize patterned oral injuries and report appropriately.',
-     'choice_explanations': {
-      'A': 'Injuries that do not match the stated mechanism, developmental stage, or alleged timing raise concern for non-accidental trauma. Dentists have a professional and legal duty to recognize patterned oral injuries and report appropriately.',
-      'B': 'Age-appropriate injuries matching a coherent history are consistent with accidental trauma. Injuries that do not match the stated mechanism, developmental stage, or alleged timing raise concern for non-accidental trauma.',
-      'C': 'Isolated caries without trauma is not itself a non-accidental injury pattern. Injuries that do not match the stated mechanism, developmental stage, or alleged timing raise concern for non-accidental trauma.',
-      'D': 'Crowding is a malocclusion finding, not an abuse trauma pattern. Injuries that do not match the stated mechanism, developmental stage, or alleged timing raise concern for non-accidental trauma.'
-     }
+     'question': 'A 9-year-old with hemophilia A (moderate factor VIII deficiency) needs extraction of an abscessed primary molar. The child is otherwise stable; local swelling is mild. Which complex perioperative decision is best?',
+     'options': ['A) Extract in office without hematology contact because primary teeth never bleed', 'B) Coordinate with hematology for factor replacement/hemostatic plan, use atraumatic technique and local hemostatic measures, and avoid unsupervised NSAID overuse; do not extract without hematologic planning', 'C) Give intramuscular aspirin for pain control before surgery', 'D) Perform elective full-mouth prophylaxis surgery under no hemostatic cover for efficiency'],
+     'answer': 'B) Coordinate with hematology for factor replacement/hemostatic plan, use atraumatic technique and local hemostatic measures, and avoid unsupervised NSAID overuse; do not extract without hematologic planning',
+     'explanation': 'Hemophilia requires specialty coordination for factor coverage or other hemostatic regimens before invasive dental surgery. Local measures (sutures, oxidized cellulose, tranexamic acid) complement systemic planning. Aspirin/NSAIDs can worsen bleeding; unsupervised extraction risks prolonged hemorrhage.',
+     'choice_explanations': {'A': 'Primary tooth extractions can bleed substantially in coagulopathy.', 'B': 'Hemophilia extractions need hematology-coordinated factor/hemostasis plans plus local measures—not aspirin or blind surgery.', 'C': 'Aspirin impairs platelets and is inappropriate peri-extraction analgesia here.', 'D': 'Elective extensive surgery without hemostatic cover is dangerous.'}
     },
     {
-     'question': 'General anesthesia for pediatric dentistry is most appropriately considered when?',
-     'options': [
-      'A) A single simple restoration manageable with tell-show-do',
-      'B) Extrinsic stain is the only finding',
-      'C) Extensive disease plus inability to cooperate or medical complexity after alternatives are considered',
-      'D) Parental scheduling preference without clinical need'
-     ],
-     'answer': 'C) Extensive disease plus inability to cooperate or medical complexity after alternatives are considered',
-     'explanation': 'General anesthesia for dentistry is reserved when extensive treatment needs cannot be completed safely with behavioral guidance, local anesthesia, or sedation—especially with medical or developmental complexity—after less invasive alternatives are thoughtfully considered.',
-     'choice_explanations': {
-      'A': 'Simple cooperative care does not meet criteria for general anesthesia. General anesthesia for dentistry is reserved when extensive treatment needs cannot be completed safely with behavioral guidance, local anesthesia, or sedation—especially with medical or developmental complexity—after.',
-      'B': 'Extrinsic stain alone does not justify pediatric dental general anesthesia. General anesthesia for dentistry is reserved when extensive treatment needs cannot be completed safely with behavioral guidance, local anesthesia, or sedation—especially with medical or developmental.',
-      'C': 'General anesthesia for dentistry is reserved when extensive treatment needs cannot be completed safely with behavioral guidance, local anesthesia, or sedation—especially with medical or developmental complexity—after less invasive alternatives are thoughtfully considered.',
-      'D': 'Scheduling preference alone is not a clinical indication for dental GA. General anesthesia for dentistry is reserved when extensive treatment needs cannot be completed safely with behavioral guidance, local anesthesia, or sedation—especially with medical or developmental complexity—after.'
-     }
+     'question': 'After avulsion replantation of a permanent central with prolonged dry time, follow-up radiographs at 8 months show progressive replacement resorption (ankylosis) and infraocclusion in a growing child. Which long-term complication-management concept is most appropriate?',
+     'options': ['A) Guarantee the ankylosed tooth will erupt normally with the jaw forever', 'B) Orthodontically extrude heavily against ankylosis as if the PDL were normal', 'C) Counsel about inevitable progressive infraocclusion/replacement resorption, plan decoronation or timed extraction with space maintenance/prosthetic transition to preserve alveolar ridge for future implant after growth', 'D) Place an immediate adult-length implant and porcelain crown in the 9-year-old'],
+     'answer': 'C) Counsel about inevitable progressive infraocclusion/replacement resorption, plan decoronation or timed extraction with space maintenance/prosthetic transition to preserve alveolar ridge for future implant after growth',
+     'explanation': 'Replacement resorption after severe PDL damage ankyloses the tooth, which then infraoccludes as the alveolus grows. Decoronation can preserve ridge height until growth completion for later implant. Guaranteeing eruption, forcing ortho against ankylosis, or pediatric implants with adult crowns are incorrect.',
+     'choice_explanations': {'A': 'Ankylosed teeth do not erupt with vertical alveolar growth.', 'B': 'Orthodontic extrusion fails when PDL is replaced by bone (ankylosis).', 'C': 'Ankylosis/infraocclusion in growers needs decoronation/space planning for future implants—not forced eruption or child implants.', 'D': 'Implants before growth completion infraocclude relative to adjacent erupting teeth.'}
     },
     {
-     'question': 'An avulsed primary tooth should generally be?',
-     'options': [
-      'A) Replanted using permanent-tooth protocols',
-      'B) Treated with immediate extraoral RCT then replanted',
-      'C) Discarded without any examination of soft tissues',
-      'D) Not replanted, to protect the permanent successor'
-     ],
-     'answer': 'D) Not replanted, to protect the permanent successor',
-     'explanation': 'Replanting an avulsed primary tooth risks damage to the underlying permanent tooth germ from the primary root or from inflammatory sequelae. IADT guidelines therefore advise against replantation of primary teeth; soft tissues are assessed and the child is followed for successor eruption.',
-     'choice_explanations': {
-      'A': 'Primary avulsions are not managed with permanent-tooth replantation protocols. Replanting an avulsed primary tooth risks damage to the underlying permanent tooth germ from the primary root or from inflammatory sequelae.',
-      'B': 'Extraoral RCT plus replantation risks injury to the permanent successor and is not advised for primary teeth. Replanting an avulsed primary tooth risks damage to the underlying permanent tooth germ from the primary root or from inflammatory sequelae.',
-      'C': 'After primary avulsion, soft tissues and successor risk still require clinical examination. Replanting an avulsed primary tooth risks damage to the underlying permanent tooth germ from the primary root or from inflammatory sequelae.',
-      'D': 'Replanting an avulsed primary tooth risks damage to the underlying permanent tooth germ from the primary root or from inflammatory sequelae. IADT guidelines therefore advise against replantation of primary teeth; soft tissues are assessed and the child is followed for successor eruption.'
-     }
-    }
-   ]
+     'question': 'A 3-year-old with severe early childhood caries, failure-to-thrive concerns, facial swelling from a lower molar, and fever presents late Friday. Parents refuse hospital referral hoping for only antibiotics at home. Which decision prioritizes safety?',
+     'options': ['A) Agree that antibiotics alone always cure pediatric fascial infections without drainage', 'B) Discharge without safety-net advice because fever is protective', 'C) Extract teeth in an uncooperative septic toddler in a non-airway-ready setting against best judgment', 'D) Explain odontogenic infection with systemic signs needs urgent source control and possible hospital IV care; do not rely on oral antibiotics alone, and document informed refusal if they decline after clear risk discussion'],
+     'answer': 'D) Explain odontogenic infection with systemic signs needs urgent source control and possible hospital IV care; do not rely on oral antibiotics alone, and document informed refusal if they decline after clear risk discussion',
+     'explanation': 'Pediatric odontogenic infections with fever/swelling can progress rapidly; antibiotics without source control are insufficient, and airway-capable settings may be required. Clear counseling and urgent referral are mandatory; unsafe office extraction under sepsis without airway support risks catastrophe. Document refusal if parents decline recommended care.',
+     'choice_explanations': {'A': 'Antibiotics without drainage/extraction often fail in established abscesses.', 'B': 'Fever with facial swelling warrants safety-netting and often escalation, not casual discharge.', 'C': 'Septic uncooperative children need controlled settings, not heroic unsafe extractions.', 'D': 'Systemically ill children with dental abscesses need urgent source control/hospital pathways—not home antibiotics alone.'}
+    },
+   ],
   },
   'cases': {
    'easy': [
-    {
-     'title': 'Carious Primary Molar',
-     'stem': 'A 5-year-old has a deep cavity in a primary molar, no mobility, restorable.',
-     'question': 'Options concept?',
-     'answer': 'Restore ± pulp therapy if indicated; space importance.',
-     'discussion': 'Extraction needs space management plan.',
-     'book_hint': "McDonald and Avery's Dentistry for the Child and Adolescent"
-    }
+    {'title': 'Carious Primary Molar', 'stem': 'A 5-year-old has a deep cavity in a primary molar, no mobility, restorable.', 'question': 'Options concept?', 'answer': 'Restore ± pulp therapy if indicated; space importance.', 'discussion': 'Extraction needs space management plan.', 'book_hint': "McDonald and Avery's Dentistry for the Child and Adolescent"},
    ],
    'medium': [
-    {
-     'title': 'Bottle Caries',
-     'stem': 'A 3-year-old sleeps with a juice bottle; upper incisors carious.',
-     'question': 'Diagnosis theme?',
-     'answer': 'Early childhood caries — stop habit, restore/prevent, fluoride, diet counseling.',
-     'discussion': 'Lower incisors often relatively spared.',
-     'book_hint': "McDonald and Avery's Dentistry for the Child and Adolescent"
-    }
+    {'title': 'Bottle Caries', 'stem': 'A 3-year-old sleeps with a juice bottle; upper incisors carious.', 'question': 'Diagnosis theme?', 'answer': 'Early childhood caries — stop habit, restore/prevent, fluoride, diet counseling.', 'discussion': 'Lower incisors often relatively spared.', 'book_hint': "McDonald and Avery's Dentistry for the Child and Adolescent"},
    ],
    'hard': [
-    {
-     'title': 'Intruded Primary Incisor',
-     'stem': 'A 4-year-old intrudes a primary central after a fall; tooth appears missing clinically. Choose the safest high-yield next concept before definitive results.',
-     'question': 'Concern?',
-     'answer': 'Possible displacement toward permanent bud — radiograph, careful monitoring, avoid aggressive replantation of primary.',
-     'discussion': 'Watch permanent successor.',
-     'book_hint': "McDonald and Avery's Dentistry for the Child and Adolescent"
-    }
+    {'title': 'Intruded Primary Incisor', 'stem': 'A 4-year-old intrudes a primary central after a fall; tooth appears missing clinically. Choose the safest high-yield next concept before definitive results.', 'question': 'Concern?', 'answer': 'Possible displacement toward permanent bud — radiograph, careful monitoring, avoid aggressive replantation of primary.', 'discussion': 'Watch permanent successor.', 'book_hint': "McDonald and Avery's Dentistry for the Child and Adolescent"},
    ],
    'extreme': [
-    {
-     'title': 'Unexplained Torn Frenum Toddler',
-     'stem': 'A toddler has a torn labial frenum and bruises of different ages; story keeps changing. Avoid harmful premature treatment while catastrophic differentials remain open.',
-     'question': 'Action concept?',
-     'answer': 'Consider non-accidental injury — document, treat dental needs, follow safeguarding protocols.',
-     'discussion': 'Do not discharge without appropriate pathway.',
-     'book_hint': "McDonald and Avery's Dentistry for the Child and Adolescent"
-    }
-   ]
-  }
+    {'title': 'Unexplained Torn Frenum Toddler', 'stem': 'A toddler has a torn labial frenum and bruises of different ages; story keeps changing. Avoid harmful premature treatment while catastrophic differentials remain open.', 'question': 'Action concept?', 'answer': 'Consider non-accidental injury — document, treat dental needs, follow safeguarding protocols.', 'discussion': 'Do not discharge without appropriate pathway.', 'book_hint': "McDonald and Avery's Dentistry for the Child and Adolescent"},
+   ],
+  },
  },
  'oral_medicine': {
   'label': 'Oral Medicine & Pathology',
-  'books': [
-   'Oral and Maxillofacial Pathology — Neville',
-   "Cawson's Essentials of Oral Pathology",
-   'Oral Medicine — Odell'
-  ],
-  'pdf_notes': [
-   'Aphthae on non-keratinized mucosa; HSV often keratinized.',
-   'Leukoplakia: non-wipeable white patch — risk stratify/biopsy.',
-   'Tobacco + alcohol raise SCC risk.',
-   'Nonhealing ulcer >2 weeks needs biopsy.',
-   'Candida: look for risk factors and wipeable plaques.'
-  ],
+  'books': ['Oral and Maxillofacial Pathology — Neville', "Cawson's Essentials of Oral Pathology", 'Oral Medicine — Odell'],
+  'pdf_notes': ['Aphthae on non-keratinized mucosa; HSV often keratinized.', 'Leukoplakia: non-wipeable white patch — risk stratify/biopsy.', 'Tobacco + alcohol raise SCC risk.', 'Nonhealing ulcer >2 weeks needs biopsy.', 'Candida: look for risk factors and wipeable plaques.'],
   'questions': {
    'easy': [
     {
-     'question': 'Recurrent aphthous ulcers usually occur on?',
-     'options': [
-      'A) Non-keratinized movable mucosa',
-      'B) Attached gingiva as the usual primary site',
-      'C) Hard palate as the usual primary site',
-      'D) Vermilion border exclusively'
-     ],
-     'answer': 'A) Non-keratinized movable mucosa',
-     'explanation': 'Recurrent aphthous ulcers arise on non-keratinized mucosa such as the buccal mucosa, floor of mouth, and ventral tongue, where the epithelium is thinner and more mobile. They do not typically begin on heavily keratinized masticatory mucosa.',
-     'choice_explanations': {
-      'A': 'Recurrent aphthous ulcers arise on non-keratinized mucosa such as the buccal mucosa, floor of mouth, and ventral tongue, where the epithelium is thinner and more mobile. They do not typically begin on heavily keratinized masticatory mucosa.',
-      'B': 'Attached gingiva is keratinized mucosa and is not the usual primary site of recurrent aphthae. Recurrent aphthous ulcers arise on non-keratinized mucosa such as the buccal mucosa, floor of mouth, and ventral tongue, where the epithelium is thinner and more mobile.',
-      'C': 'Hard palate is keratinized mucosa and not the classic recurrent aphthous site. Recurrent aphthous ulcers arise on non-keratinized mucosa such as the buccal mucosa, floor of mouth, and ventral tongue, where the epithelium is thinner and more mobile.',
-      'D': 'Aphthae arise on non-keratinized intraoral mucosa; exclusive vermilion lesions suggest herpes labialis instead. Recurrent aphthous ulcers arise on non-keratinized mucosa such as the buccal mucosa, floor of mouth, and ventral tongue, where the epithelium is thinner and more mobile.'
-     }
+     'question': 'Oral candidiasis (thrush) is most often associated with overgrowth of which organism in predisposed hosts?',
+     'options': ['A) Candida albicans', 'B) Streptococcus mutans exclusively as a fungal pathogen', 'C) Herpes simplex virus type 1 as a yeast', 'D) Porphyromonas gingivalis as the cause of white scrapable plaques only'],
+     'answer': 'A) Candida albicans',
+     'explanation': 'Candida albicans is the predominant yeast causing oral candidiasis, especially with xerostomia, antibiotics, steroids, dentures, or immunosuppression. S. mutans is cariogenic bacteria; HSV is viral; P. gingivalis is periodontal, not the classic thrush organism.',
+     'choice_explanations': {'A': 'Oral thrush is most often Candida albicans overgrowth in a predisposed host.', 'B': 'S. mutans is a bacterium linked to caries, not a fungus causing thrush.', 'C': 'HSV causes viral ulcerations, not yeast plaques.', 'D': 'P. gingivalis is associated with periodontitis, not classic scrapable candidal plaques.'}
     },
     {
-     'question': 'Oral leukoplakia is defined clinically as?',
-     'options': [
-      'A) A wipeable white film consistent with pseudomembranous candidiasis',
-      'B) Bilateral reticular striae diagnostic of lichen planus without exclusion',
-      'C) A normal linea alba along the occlusal plane',
-      'D) A white patch that cannot be wiped away or attributed to another defined disease'
-     ],
-     'answer': 'D) A white patch that cannot be wiped away or attributed to another defined disease',
-     'explanation': 'Oral leukoplakia is a clinical diagnosis of exclusion: a white plaque that cannot be wiped away and cannot be attributed to another defined disease such as candidiasis or lichen planus. A subset harbors dysplasia or carcinoma, so biopsy is often indicated.',
-     'choice_explanations': {
-      'A': 'Wipeable white films are candidal pseudomembranes; leukoplakia cannot be wiped away. a white plaque that cannot be wiped away and cannot be attributed to another defined disease such as candidiasis or lichen planus.',
-      'B': 'Reticular Wickham striae indicate lichen planus, a defined disease excluded before diagnosing leukoplakia. a white plaque that cannot be wiped away and cannot be attributed to another defined disease such as candidiasis or lichen planus.',
-      'C': 'Linea alba is a normal frictional white line along the occlusal plane, not leukoplakia. a white plaque that cannot be wiped away and cannot be attributed to another defined disease such as candidiasis or lichen planus.',
-      'D': 'Oral leukoplakia is a clinical diagnosis of exclusion: a white plaque that cannot be wiped away and cannot be attributed to another defined disease such as candidiasis or lichen planus. A subset harbors dysplasia or carcinoma, so biopsy is often indicated.'
-     }
+     'question': 'Recurrent herpes labialis lesions are driven by reactivation of which virus typically latent in which ganglion?',
+     'options': ['A) HIV latent only in salivary duct epithelium as the sole mechanism', 'B) HSV-1 latent in the trigeminal ganglion', 'C) HPV-16 latent in the geniculate ganglion causing cold sores', 'D) Epstein–Barr virus latent in the dorsal root ganglion causing lip vesicles'],
+     'answer': 'B) HSV-1 latent in the trigeminal ganglion',
+     'explanation': 'HSV-1 establishes latency in trigeminal sensory ganglia and reactivates along nerve distributions to produce herpes labialis. HIV, oncogenic HPV, and EBV have different clinical oral patterns and latency sites.',
+     'choice_explanations': {'A': 'HIV does not explain classic recurrent herpes labialis latency biology.', 'B': 'Herpes labialis: HSV-1 reactivation from trigeminal ganglion latency.', 'C': 'HPV-16 is linked to oropharyngeal cancer risk, not typical cold-sore vesicles from geniculate latency.', 'D': 'EBV is linked to hairy leukoplakia/other disease, not classic herpes labialis from DRG.'}
     },
     {
-     'question': 'Geographic tongue is best classified as?',
-     'options': [
-      'A) Oral squamous cell carcinoma until proven otherwise',
-      'B) Secondary syphilis mucous patches',
-      'C) Benign migratory glossitis',
-      'D) Chronic traumatic ulcer only'
-     ],
-     'answer': 'C) Benign migratory glossitis',
-     'explanation': 'Geographic tongue (benign migratory glossitis) shows migrating areas of filiform papilla atrophy surrounded by slightly raised white borders. It is an inflammatory but benign condition of unknown precise cause and does not require oncologic treatment.',
-     'choice_explanations': {
-      'A': 'Geographic tongue is benign migratory glossitis and is not carcinoma by default. Geographic tongue (benign migratory glossitis) shows migrating areas of filiform papilla atrophy surrounded by slightly raised white borders.',
-      'B': 'Syphilitic mucous patches are infectious mucosal lesions distinct from migratory glossitis. Geographic tongue (benign migratory glossitis) shows migrating areas of filiform papilla atrophy surrounded by slightly raised white borders.',
-      'C': 'Geographic tongue (benign migratory glossitis) shows migrating areas of filiform papilla atrophy surrounded by slightly raised white borders. It is an inflammatory but benign condition of unknown precise cause and does not require oncologic treatment.',
-      'D': 'Traumatic ulcers are focal injury lesions, not the migrating papillary pattern of geographic tongue. Geographic tongue (benign migratory glossitis) shows migrating areas of filiform papilla atrophy surrounded by slightly raised white borders.'
-     }
-    }
+     'question': 'A white patch that cannot be wiped off and is not clinically diagnostic as another disease is termed which clinical lesion pending diagnosis?',
+     'options': ['A) Geographic tongue with migrating red patches only', 'B) Linea alba as an obligatory carcinoma', 'C) Leukoplakia (a clinical term requiring risk assessment and often biopsy)', 'D) Scrapable candidal pseudomembrane that wipes clean leaving normal mucosa'],
+     'answer': 'C) Leukoplakia (a clinical term requiring risk assessment and often biopsy)',
+     'explanation': 'Leukoplakia is a clinical diagnosis of exclusion for a persistent white patch that cannot be scraped off; histopathology determines dysplasia/risk. Geographic tongue, linea alba, and wipeable thrush are different entities.',
+     'choice_explanations': {'A': 'Geographic tongue features migrating depapillated areas, not fixed nonwipeable leukoplakia.', 'B': 'Linea alba is a benign frictional line, not obligatory cancer.', 'C': 'Nonwipeable undiagnosed white patch = clinical leukoplakia until proven otherwise by assessment/biopsy.', 'D': 'Wipeable white plaques suggest pseudomembranous candidiasis, not leukoplakia.'}
+    },
    ],
    'medium': [
     {
-     'question': 'Which set most accurately lists risk factors for oral candidiasis?',
-     'options': [
-      'A) Antibiotics, steroids, dentures, xerostomia, immunosuppression',
-      'B) Orthodontic wax use alone',
-      'C) Daily flossing alone',
-      'D) Pit-and-fissure sealants alone'
-     ],
-     'answer': 'A) Antibiotics, steroids, dentures, xerostomia, immunosuppression',
-     'explanation': 'Candida albicans is an oral commensal that overgrows when local or systemic defenses fall—broad-spectrum antibiotics, corticosteroids, denture bases, xerostomia, or immunosuppression. Pseudomembranous plaques wipe off leaving erythematous mucosa.',
-     'choice_explanations': {
-      'A': 'Candida albicans is an oral commensal that overgrows when local or systemic defenses fall—broad-spectrum antibiotics, corticosteroids, denture bases, xerostomia, or immunosuppression. Pseudomembranous plaques wipe off leaving erythematous mucosa.',
-      'B': 'Orthodontic wax shields mucosa from brackets and is not a major candidiasis risk cluster. Candida albicans is an oral commensal that overgrows when local or systemic defenses fall—broad-spectrum antibiotics, corticosteroids, denture bases, xerostomia, or immunosuppression.',
-      'C': 'Flossing is mechanical hygiene and not a risk-factor set for oral candidiasis. Candida albicans is an oral commensal that overgrows when local or systemic defenses fall—broad-spectrum antibiotics, corticosteroids, denture bases, xerostomia, or immunosuppression.',
-      'D': 'Sealants are preventive resin coatings of pits/fissures without irradiated-bone trauma. Candida albicans is an oral commensal that overgrows when local or systemic defenses fall—broad-spectrum antibiotics, corticosteroids, denture bases, xerostomia, or immunosuppression.'
-     }
+     'question': 'A patient with Sjögren syndrome reports dry mouth and rampant caries at cervical margins. Which applied dental management emphasis is most appropriate?',
+     'options': ['A) Discourage fluoride because enamel is unaffected by hyposalivation', 'B) Prescribe anticholinergics to further reduce saliva', 'C) Ignore caries risk because autoimmune disease protects enamel', 'D) Salivary substitutes/stimulants as indicated, meticulous hygiene, high-fluoride regimens, and frequent recall'],
+     'answer': 'D) Salivary substitutes/stimulants as indicated, meticulous hygiene, high-fluoride regimens, and frequent recall',
+     'explanation': 'Hyposalivation from Sjögren markedly elevates caries risk. Management includes saliva support, dietary counseling, topical fluorides, and close surveillance. Anticholinergics worsen dryness; fluoride is essential, not contraindicated.',
+     'choice_explanations': {'A': 'Hyposalivation increases—not decreases—need for fluoride protection.', 'B': 'Anticholinergics exacerbate xerostomia and caries risk.', 'C': 'Autoimmune hyposalivation increases caries risk rather than protecting enamel.', 'D': 'Sjögren xerostomia needs saliva support, fluoride, hygiene, and frequent recall.'}
     },
     {
-     'question': 'Classic oral lichen planus presents with?',
-     'options': [
-      'A) Punched-out necrotic papillae of necrotizing gingivitis',
-      'B) Reticular white striae (Wickham striae)',
-      'C) Koplik spots of measles on the buccal mucosa',
-      'D) Fordyce granules as ectopic sebaceous glands'
-     ],
-     'answer': 'B) Reticular white striae (Wickham striae)',
-     'explanation': 'Oral lichen planus is a T-cell–mediated mucocutaneous disease; the reticular form shows lace-like white striae (Wickham striae), often bilaterally on the buccal mucosa. Erosive forms may cause pain and require biopsy and topical corticosteroid management.',
-     'choice_explanations': {
-      'A': 'Punched-out necrotic papillae define NUG, not reticular oral lichen planus. Oral lichen planus is a T-cell–mediated mucocutaneous disease; the reticular form shows lace-like white striae (Wickham striae), often bilaterally on the buccal mucosa.',
-      'B': 'Oral lichen planus is a T-cell–mediated mucocutaneous disease; the reticular form shows lace-like white striae (Wickham striae), often bilaterally on the buccal mucosa. Erosive forms may cause pain and require biopsy and topical corticosteroid management.',
-      'C': 'Koplik spots are measles enanthem opposite the molars, not lichen planus striae. Oral lichen planus is a T-cell–mediated mucocutaneous disease; the reticular form shows lace-like white striae (Wickham striae), often bilaterally on the buccal mucosa.',
-      'D': 'Fordyce granules are normal ectopic sebaceous glands, not lichen planus. Oral lichen planus is a T-cell–mediated mucocutaneous disease; the reticular form shows lace-like white striae (Wickham striae), often bilaterally on the buccal mucosa.'
-     }
+     'question': 'A middle-aged patient presents with bilateral white reticular buccal striae without ulceration and is otherwise comfortable. Which applied working diagnosis is most likely?',
+     'options': ['A) Oral lichen planus (reticular form)', 'B) Acute necrotizing ulcerative gingivitis as the first diagnosis', 'C) Traumatic fibroma of the buccal mucosa exclusively', 'D) Periapical abscess of a molar without dental findings'],
+     'answer': 'A) Oral lichen planus (reticular form)',
+     'explanation': 'Reticular oral lichen planus classically shows bilateral Wickham-like striae on buccal mucosa and may be asymptomatic. ANUG features painful necrotic interdental papillae; fibromas are focal nodules; periapical abscess is odontogenic and localized.',
+     'choice_explanations': {'A': 'Bilateral reticular buccal striae are classic for reticular oral lichen planus.', 'B': 'ANUG presents with painful punched-out papillae and fetor, not bilateral reticular striae.', 'C': 'Fibroma is a localized reactive nodule, not bilateral striae.', 'D': 'Periapical abscess requires an odontogenic source and focal signs.'}
     },
     {
-     'question': 'Major risk factors for oral squamous cell carcinoma include?',
-     'options': [
-      'A) Xylitol gum chewing',
-      'B) Electric toothbrush use',
-      'C) Tobacco and alcohol use',
-      'D) Clear aligner therapy'
-     ],
-     'answer': 'C) Tobacco and alcohol use',
-     'explanation': 'Tobacco and alcohol are synergistic carcinogens for oral squamous cell carcinoma, causing cumulative DNA damage in keratinocytes of the oral epithelium. Chronic exposure drives dysplasia and invasive carcinoma, especially on the floor of mouth and lateral tongue.',
-     'choice_explanations': {
-      'A': 'Xylitol reduces caries risk via bacterial metabolism effects and is not an OSCC carcinogen. Tobacco and alcohol are synergistic carcinogens for oral squamous cell carcinoma, causing cumulative DNA damage in keratinocytes of the oral epithelium.',
-      'B': 'Toothbrush modality is unrelated to oral squamous carcinoma carcinogenesis. Tobacco and alcohol are synergistic carcinogens for oral squamous cell carcinoma, causing cumulative DNA damage in keratinocytes of the oral epithelium.',
-      'C': 'Tobacco and alcohol are synergistic carcinogens for oral squamous cell carcinoma, causing cumulative DNA damage in keratinocytes of the oral epithelium. Chronic exposure drives dysplasia and invasive carcinoma, especially on the floor of mouth and lateral tongue.',
-      'D': 'Clear aligners apply orthodontic force and are not oral carcinogens. Tobacco and alcohol are synergistic carcinogens for oral squamous cell carcinoma, causing cumulative DNA damage in keratinocytes of the oral epithelium.'
-     }
-    }
+     'question': 'Before prescribing systemic ketoconazole for suspected oral Candida in an older patient on multiple drugs, which applied precaution is most relevant?',
+     'options': ['A) Assume no azole interacts with any hepatic cytochrome pathways', 'B) Review drug interactions and consider topical antifungals first when disease is limited', 'C) Give triple the dose if the patient takes warfarin without monitoring', 'D) Ignore liver disease history for oral systemic azoles'],
+     'answer': 'B) Review drug interactions and consider topical antifungals first when disease is limited',
+     'explanation': 'Systemic azoles have significant CYP-mediated interactions (including with warfarin) and hepatic risks. Limited oral candidiasis often responds to topical nystatin/clotrimazole, which is safer first-line in many cases. Dose escalation without monitoring is dangerous.',
+     'choice_explanations': {'A': 'Azoles have well-known CYP interactions.', 'B': 'Prefer topical antifungals for limited disease and screen azole interactions/liver risk before systemic use.', 'C': 'Warfarin–azole interactions can potentiate anticoagulation dangerously.', 'D': 'Liver disease is a key caution for systemic azoles.'}
+    },
    ],
    'hard': [
     {
-     'question': 'Oral clues suggesting pemphigus vulgaris include?',
-     'options': [
-      'A) Flaccid bullae, positive Nikolsky sign, and desquamative gingivitis themes',
-      'B) Fordyce granules on the buccal mucosa',
-      'C) Torus palatinus midline bony growth',
-      'D) Amalgam tattoo pigmentation'
-     ],
-     'answer': 'A) Flaccid bullae, positive Nikolsky sign, and desquamative gingivitis themes',
-     'explanation': 'Pemphigus vulgaris is an autoimmune acantholysis caused by autoantibodies against desmogleins, producing flaccid intraepithelial bullae that rupture easily (Nikolsky sign positive) and painful erosions, often with desquamative gingivitis. Biopsy with immunofluorescence confirms the diagnosis.',
-     'choice_explanations': {
-      'A': 'Pemphigus vulgaris is an autoimmune acantholysis caused by autoantibodies against desmogleins, producing flaccid intraepithelial bullae that rupture easily (Nikolsky sign positive) and painful erosions, often with desquamative gingivitis. Biopsy with immunofluorescence confirms the diagnosis.',
-      'B': 'Fordyce granules are normal ectopic sebaceous glands, not pemphigus vulgaris. Pemphigus vulgaris is an autoimmune acantholysis caused by autoantibodies against desmogleins, producing flaccid intraepithelial bullae that rupture easily (Nikolsky sign positive) and painful erosions, often with desquamative gingivitis.',
-      'C': 'Torus palatinus is a benign midline palatal exostosis unrelated to plaque gingivitis. Pemphigus vulgaris is an autoimmune acantholysis caused by autoantibodies against desmogleins, producing flaccid intraepithelial bullae that rupture easily (Nikolsky sign positive) and painful erosions, often with desquamative gingivitis.',
-      'D': 'Amalgam tattoo is iatrogenic metal pigment in mucosa, not autoimmune acantholysis. Pemphigus vulgaris is an autoimmune acantholysis caused by autoantibodies against desmogleins, producing flaccid intraepithelial bullae that rupture easily (Nikolsky sign positive) and painful erosions, often with desquamative gingivitis.'
-     }
+     'question': 'A 58-year-old smoker has a speckled red-white patch on the lateral tongue that persists 4 weeks after removing a sharp cusp and treating Candida. The area is firm and nonwipeable. Which multi-cue next step is most appropriate?',
+     'options': ['A) Reassure that all tongue patches are geographic tongue without exam correlation', 'B) Cauterize empirically with phenol indefinitely without diagnosis', 'C) Biopsy to rule out epithelial dysplasia or carcinoma; persistent speculative lesions need histopathology', 'D) Treat with systemic antibiotics for 6 months as definitive care'],
+     'answer': 'C) Biopsy to rule out epithelial dysplasia or carcinoma; persistent speculative lesions need histopathology',
+     'explanation': 'Speckled leukoplakia/erythroleukoplakia on the lateral tongue in a smoker is high-risk. Failure to resolve after removing local irritants and candidiasis mandates biopsy. Geographic tongue has a different migrating pattern; empiric caustics or long antibiotics without diagnosis are unsafe near-misses.',
+     'choice_explanations': {'A': 'Geographic tongue migrates and is not a firm fixed speckled high-risk patch.', 'B': 'Empiric caustic destruction without diagnosis can mask carcinoma.', 'C': 'Persistent high-risk red-white tongue lesions require biopsy after reversible causes are addressed.', 'D': 'Antibiotics do not treat dysplasia/neoplasia.'}
     },
     {
-     'question': 'Sjögren syndrome–related hyposalivation is associated with?',
-     'options': [
-      'A) Marked hypersalivation and reduced caries',
-      'B) Autoimmune exocrinopathy with elevated caries risk',
-      'C) Dens evaginatus of premolars',
-      'D) Mesiodens formation in the midline'
-     ],
-     'answer': 'B) Autoimmune exocrinopathy with elevated caries risk',
-     'explanation': 'Sjögren syndrome is an autoimmune destruction of exocrine glands that markedly reduces salivary flow. Hyposalivation impairs buffering and clearance of dietary sugars, sharply elevating caries risk and candidiasis susceptibility.',
-     'choice_explanations': {
-      'A': 'Sjögren syndrome causes hyposalivation and increased—not reduced—caries risk. Sjögren syndrome is an autoimmune destruction of exocrine glands that markedly reduces salivary flow.',
-      'B': 'Sjögren syndrome is an autoimmune destruction of exocrine glands that markedly reduces salivary flow. Hyposalivation impairs buffering and clearance of dietary sugars, sharply elevating caries risk and candidiasis susceptibility.',
-      'C': 'Dens evaginatus is an occlusal enamel tubercle that can pulp-expose with wear/fracture. Sjögren syndrome is an autoimmune destruction of exocrine glands that markedly reduces salivary flow.',
-      'D': 'A mesiodens is a supernumerary midline tooth unrelated to autoimmune exocrinopathy. Sjögren syndrome is an autoimmune destruction of exocrine glands that markedly reduces salivary flow.'
-     }
+     'question': 'A patient develops acute onset unilateral facial vesicles on an erythematous base along a dermatome with severe burning pain, including intraoral ulcers on the same side. Which multi-cue diagnosis and care concept fit?',
+     'options': ['A) Bilateral angular cheilitis from Candida only', 'B) Aphthous stomatitis confined to nonkeratinized mucosa as the full explanation of dermatomal skin vesicles', 'C) Allergic contact dermatitis from toothpaste affecting only the contralateral face', 'D) Herpes zoster (varicella-zoster reactivation)—early antiviral therapy and pain control; watch ocular involvement if V1'],
+     'answer': 'D) Herpes zoster (varicella-zoster reactivation)—early antiviral therapy and pain control; watch ocular involvement if V1',
+     'explanation': 'Zoster produces unilateral dermatomal vesicles and pain from VZV reactivation; oral mucosa can be involved in the same distribution. Early antivirals reduce complications; V1 disease needs eye evaluation. Aphthae lack cutaneous dermatomal vesicles; angular cheilitis is commissural; contralateral allergic patterns do not match.',
+     'choice_explanations': {'A': 'Angular cheilitis is localized to commissures, not a dermatomal vesicular eruption.', 'B': 'Aphthae do not produce cutaneous dermatomal vesicles.', 'C': 'Contralateral toothpaste allergy does not explain ipsilateral dermatomal zoster.', 'D': 'Unilateral dermatomal vesicles ± oral ulcers = zoster; treat early with antivirals and protect the eye if V1.'}
     },
     {
-     'question': 'Odontogenic keratocyst (OKC) behavior is notable for?',
-     'options': [
-      'A) Low recurrence after simple enucleation in most series',
-      'B) Self-limiting behavior managed by observation alone',
-      'C) High recurrence potential requiring careful surgical management',
-      'D) Presentation as irreversible pulpitis of a vital tooth'
-     ],
-     'answer': 'C) High recurrence potential requiring careful surgical management',
-     'explanation': 'The odontogenic keratocyst arises from dental lamina rests and is lined by parakeratinized stratified squamous epithelium with high proliferative activity. It tends to recur after incomplete removal, so careful enucleation, adjunctive measures, and follow-up imaging are emphasized.',
-     'choice_explanations': {
-      'A': 'OKCs are notable for high—not low—recurrence after incomplete removal. The odontogenic keratocyst arises from dental lamina rests and is lined by parakeratinized stratified squamous epithelium with high proliferative activity.',
-      'B': 'OKCs are locally aggressive cystic lesions generally requiring surgical management. The odontogenic keratocyst arises from dental lamina rests and is lined by parakeratinized stratified squamous epithelium with high proliferative activity.',
-      'C': 'The odontogenic keratocyst arises from dental lamina rests and is lined by parakeratinized stratified squamous epithelium with high proliferative activity. It tends to recur after incomplete removal, so careful enucleation, adjunctive measures, and follow-up imaging are emphasized.',
-      'D': 'OKC is a cystic jaw lesion of dental lamina rests, not a pulpitis diagnosis. The odontogenic keratocyst arises from dental lamina rests and is lined by parakeratinized stratified squamous epithelium with high proliferative activity.'
-     }
-    }
+     'question': 'A patient on methotrexate for rheumatoid arthritis develops painful oral ulcers, pancytopenia on recent labs, and fever. Which multi-cue oral medicine action is most urgent?',
+     'options': ['A) Urgent medical/rheumatology coordination for possible methotrexate toxicity/infection risk; do not attribute ulcers to simple aphthae alone', 'B) Increase methotrexate dose empirically to treat mouth ulcers', 'C) Start ototoxic high-dose aspirin only and discharge', 'D) Perform elective soft-tissue grafts under pancytopenia'],
+     'answer': 'A) Urgent medical/rheumatology coordination for possible methotrexate toxicity/infection risk; do not attribute ulcers to simple aphthae alone',
+     'explanation': 'Methotrexate toxicity can cause severe mucositis with bone marrow suppression and infection risk. Dental clinicians should recognize red flags and coordinate urgent medical care/folinic acid rescue as physicians direct. Increasing MTX, elective surgery under pancytopenia, or ignoring systemic toxicity is dangerous.',
+     'choice_explanations': {'A': 'Oral ulcers with pancytopenia on MTX suggest toxicity—urgent medical coordination, not more MTX or elective surgery.', 'B': 'Increasing MTX worsens toxicity.', 'C': 'Aspirin alone does not manage MTX marrow toxicity.', 'D': 'Elective surgery under pancytopenia risks hemorrhage/infection.'}
+    },
    ],
    'extreme': [
     {
-     'question': 'A non-healing oral ulcer lasting more than two weeks in a smoker should be managed as?',
-     'options': [
-      'A) Cancer until proven otherwise — biopsy',
-      'B) Chronic aphthous ulceration forever without investigation',
-      'C) A finding that can safely be ignored',
-      'D) Vitamin deficiency alone without tissue diagnosis'
-     ],
-     'answer': 'A) Cancer until proven otherwise — biopsy',
-     'explanation': 'A solitary oral ulcer lasting longer than two weeks—especially in a smoker or heavy drinker—must be regarded as squamous cell carcinoma until histologically excluded. Malignant ulcers do not heal with conservative care; timely biopsy is mandatory.',
-     'choice_explanations': {
-      'A': 'A solitary oral ulcer lasting longer than two weeks—especially in a smoker or heavy drinker—must be regarded as squamous cell carcinoma until histologically excluded. Malignant ulcers do not heal with conservative care; timely biopsy is mandatory.',
-      'B': 'Persistent solitary high-risk ulcers require tissue diagnosis, not indefinite aphthous labeling. A solitary oral ulcer lasting longer than two weeks—especially in a smoker or heavy drinker—must be regarded as squamous cell carcinoma until histologically excluded.',
-      'C': 'Ignoring a chronic ulcer in a smoker delays potential carcinoma diagnosis. A solitary oral ulcer lasting longer than two weeks—especially in a smoker or heavy drinker—must be regarded as squamous cell carcinoma until histologically excluded.',
-      'D': 'Nutritional deficiency may ulcerate mucosa but cannot exclude carcinoma without histology when risk is high. A solitary oral ulcer lasting longer than two weeks—especially in a smoker or heavy drinker—must be regarded as squamous cell carcinoma until histologically excluded.'
-     }
+     'question': 'A 65-year-old with recent weight loss has a nonhealing indurated ulcer on the lateral tongue for 3 months, ipsilateral ear pain, tobacco/alcohol history, and a firm upper cervical node. Which differential-driven management pathway is correct?',
+     'options': ['A) Treat with topical antifungals for 6 months before any consideration of cancer', 'B) Urgent referral for oncology workup of suspected oral squamous cell carcinoma (biopsy/imaging/neck evaluation); do not trial months of empiric mouthwash alone', 'C) Assume traumatic ulcer forever despite induration and lymphadenopathy', 'D) Extract all contralateral teeth as definitive therapy for the tongue ulcer'],
+     'answer': 'B) Urgent referral for oncology workup of suspected oral squamous cell carcinoma (biopsy/imaging/neck evaluation); do not trial months of empiric mouthwash alone',
+     'explanation': 'Chronic indurated tongue ulcer with referred otalgia and cervical lymphadenopathy in a patient with tobacco/alcohol exposure is carcinoma until proven otherwise. Delay with prolonged empiric therapy worsens stage. Traumatic ulcers lack progressive firm nodes; extracting unrelated teeth does not treat cancer.',
+     'choice_explanations': {'A': 'Prolonged antifungal trials delay cancer diagnosis when features are neoplastic.', 'B': 'High-risk nonhealing indurated tongue ulcer ± nodes needs urgent cancer referral/biopsy—not months of empiric rinses.', 'C': 'Induration plus lymphadenopathy contradicts simple chronic trauma.', 'D': 'Contralateral extractions do not address tongue malignancy.'}
     },
     {
-     'question': 'Medication-related osteonecrosis of the jaw typically presents as?',
-     'options': [
-      'A) Geographic tongue migratory patches',
-      'B) Exposed necrotic jawbone with antiresorptive drug history',
-      'C) Recurrent aphthous ulcers only',
-      'D) Occlusal caries alone'
-     ],
-     'answer': 'B) Exposed necrotic jawbone with antiresorptive drug history',
-     'explanation': 'MRONJ presents as exposed necrotic jawbone persisting in a patient treated with antiresorptive or antiangiogenic medications, without radiotherapy to the jaws. Impaired osteoclast function and mucosal healing underpin the pathophysiology.',
-     'choice_explanations': {
-      'A': 'Geographic tongue is benign migratory glossitis with migrating filiform-papilla atrophy. MRONJ presents as exposed necrotic jawbone persisting in a patient treated with antiresorptive or antiangiogenic medications, without radiotherapy to the jaws.',
-      'B': 'MRONJ presents as exposed necrotic jawbone persisting in a patient treated with antiresorptive or antiangiogenic medications, without radiotherapy to the jaws. Impaired osteoclast function and mucosal healing underpin the pathophysiology.',
-      'C': 'Aphthae are painful mucosal ulcers, not exposed necrotic jawbone of MRONJ. MRONJ presents as exposed necrotic jawbone persisting in a patient treated with antiresorptive or antiangiogenic medications, without radiotherapy to the jaws.',
-      'D': 'Occlusal caries is bacterial demineralization of tooth structure, not MRONJ. MRONJ presents as exposed necrotic jawbone persisting in a patient treated with antiresorptive or antiangiogenic medications, without radiotherapy to the jaws.'
-     }
+     'question': 'A patient with mucocutaneous blistering, desquamative gingivitis, and a positive Nikolsky sign has oral lesions that heal with scarring. Direct immunofluorescence is pending. Which complex differential management stance is best while awaiting results?',
+     'options': ['A) Scale aggressively under loose epithelium without soft-tissue precautions', 'B) Guarantee that all blistering diseases are recurrent aphthae', 'C) Differentiate pemphigus vulgaris vs mucous membrane pemphigoid (and others), avoid high-trauma dental care, coordinate dermatology/oral medicine immunosuppression planning, and protect the eyes if MMP suspected', 'D) Start random systemic chemotherapy in the dental chair without diagnosis'],
+     'answer': 'C) Differentiate pemphigus vulgaris vs mucous membrane pemphigoid (and others), avoid high-trauma dental care, coordinate dermatology/oral medicine immunosuppression planning, and protect the eyes if MMP suspected',
+     'explanation': 'Pemphigus and mucous membrane pemphigoid both blister but differ in immunofluorescence targets and scarring/ocular risk (especially MMP). Management is multidisciplinary immunosuppression after diagnosis; interim care minimizes trauma. Aggressive scaling under fragile epithelium and empiric chemo are incorrect.',
+     'choice_explanations': {'A': 'Trauma to loose epithelium extends erosions.', 'B': 'Aphthae are not scarring autoimmune blistering diseases with Nikolsky sign.', 'C': 'Desquamative blistering disease needs DIF-guided diagnosis, gentle dental care, and specialty immunosuppression—plus eye vigilance for MMP.', 'D': 'Chemotherapy without diagnosis is inappropriate dental-chair practice.'}
     },
     {
-     'question': 'HPV-related oropharyngeal carcinoma characteristically involves?',
-     'options': [
-      'A) A pattern identical in every case to classic floor-of-mouth smoker SCC only',
-      'B) Cutaneous melanoma of facial skin',
-      'C) Dental caries of primary molars',
-      'D) Tonsillar crypts and base of tongue, sometimes in younger patients with less tobacco history'
-     ],
-     'answer': 'D) Tonsillar crypts and base of tongue, sometimes in younger patients with less tobacco history',
-     'explanation': 'High-risk HPV (notably HPV-16) drives a rising subset of oropharyngeal squamous carcinomas of the tonsillar crypts and base of tongue, often in patients without traditional heavy tobacco exposure. Viral oncogenes E6/E7 drive carcinogenesis with distinct clinical epidemiology.',
-     'choice_explanations': {
-      'A': 'HPV+ oropharyngeal carcinoma has distinct tonsil/base-of-tongue epidemiology versus classic smoker floor-of-mouth SCC. High-risk HPV (notably HPV-16) drives a rising subset of oropharyngeal squamous carcinomas of the tonsillar crypts and base of tongue, often in patients without traditional heavy.',
-      'B': 'Cutaneous melanoma is a skin melanocyte malignancy, not HPV-driven oropharyngeal carcinoma. High-risk HPV (notably HPV-16) drives a rising subset of oropharyngeal squamous carcinomas of the tonsillar crypts and base of tongue, often in patients without traditional heavy tobacco exposure.',
-      'C': 'Primary molar caries is unrelated to HPV-related oropharyngeal carcinogenesis. High-risk HPV (notably HPV-16) drives a rising subset of oropharyngeal squamous carcinomas of the tonsillar crypts and base of tongue, often in patients without traditional heavy tobacco exposure.',
-      'D': 'High-risk HPV (notably HPV-16) drives a rising subset of oropharyngeal squamous carcinomas of the tonsillar crypts and base of tongue, often in patients without traditional heavy tobacco exposure. Viral oncogenes E6/E7 drive carcinogenesis with distinct clinical epidemiology.'
-     }
-    }
-   ]
+     'question': 'An HIV-positive patient with low CD4 count presents with extensive oral candidiasis, hairy leukoplakia, and a purple palatal nodule suggestive of Kaposi sarcoma. He has stopped antiretroviral therapy. Which integrated decision is most appropriate?',
+     'options': ['A) Treat only with bleaching trays because purple lesions are always hematomas', 'B) Advise permanent cessation of all medical care to let immunity rest', 'C) Excise the entire hard palate in office under LA as first-line KS cure without medical staging', 'D) Coordinate urgent medical restart/optimization of ART, manage opportunistic oral infections, and refer the palatal lesion for definitive KS evaluation/treatment'],
+     'answer': 'D) Coordinate urgent medical restart/optimization of ART, manage opportunistic oral infections, and refer the palatal lesion for definitive KS evaluation/treatment',
+     'explanation': 'Oral opportunistic diseases reflect systemic immunosuppression; ART optimization is foundational. Candidiasis and hairy leukoplakia are managed locally/systemically as indicated, while suspected KS needs medical oncology/infectious disease staging—not office palatectomy or denial. Bleaching is irrelevant.',
+     'choice_explanations': {'A': 'Purple palatal nodules in advanced HIV raise KS concern, not routine hematoma/bleaching care.', 'B': 'Stopping medical care worsens opportunistic disease.', 'C': 'KS needs staging/systemic planning; blind total palatectomy under LA is not first-line.', 'D': 'HIV-related oral opportunistic disease requires ART coordination plus targeted local therapy and KS referral—not denial or mutilating office surgery.'}
+    },
+   ],
   },
   'cases': {
    'easy': [
-    {
-     'title': 'Recurrent Mouth Ulcers',
-     'stem': 'Healthy teen gets painful ulcers on buccal mucosa lasting a week, then heal.',
-     'question': 'Likely?',
-     'answer': 'Recurrent aphthous stomatitis.',
-     'discussion': 'Symptomatic care; investigate if complex.',
-     'book_hint': 'Oral and Maxillofacial Pathology — Neville'
-    }
+    {'title': 'Recurrent Mouth Ulcers', 'stem': 'Healthy teen gets painful ulcers on buccal mucosa lasting a week, then heal.', 'question': 'Likely?', 'answer': 'Recurrent aphthous stomatitis.', 'discussion': 'Symptomatic care; investigate if complex.', 'book_hint': 'Oral and Maxillofacial Pathology — Neville'},
    ],
    'medium': [
-    {
-     'title': 'White Patch Floor of Mouth',
-     'stem': 'A 60-year-old smoker has a non-wipeable white patch on floor of mouth.',
-     'question': 'Next concept?',
-     'answer': 'Treat as leukoplakia — specialist referral/biopsy risk stratification.',
-     'discussion': 'Floor of mouth is high-risk site.',
-     'book_hint': 'Oral and Maxillofacial Pathology — Neville'
-    }
+    {'title': 'White Patch Floor of Mouth', 'stem': 'A 60-year-old smoker has a non-wipeable white patch on floor of mouth.', 'question': 'Next concept?', 'answer': 'Treat as leukoplakia — specialist referral/biopsy risk stratification.', 'discussion': 'Floor of mouth is high-risk site.', 'book_hint': 'Oral and Maxillofacial Pathology — Neville'},
    ],
    'hard': [
-    {
-     'title': 'Desquamative Gingivitis',
-     'stem': 'Painful peeling gingiva, nikolsky-positive areas, no response to cleaning alone. Choose the safest high-yield next concept before definitive results.',
-     'question': 'Workup?',
-     'answer': 'Consider vesiculobullous disease — biopsy for histopathology + DIF.',
-     'discussion': 'Do not keep scaling without diagnosis.',
-     'book_hint': 'Oral and Maxillofacial Pathology — Neville'
-    }
+    {'title': 'Desquamative Gingivitis', 'stem': 'Painful peeling gingiva, nikolsky-positive areas, no response to cleaning alone. Choose the safest high-yield next concept before definitive results.', 'question': 'Workup?', 'answer': 'Consider vesiculobullous disease — biopsy for histopathology + DIF.', 'discussion': 'Do not keep scaling without diagnosis.', 'book_hint': 'Oral and Maxillofacial Pathology — Neville'},
    ],
    'extreme': [
-    {
-     'title': 'Nonhealing Lateral Tongue Ulcer',
-     'stem': 'A 55-year-old heavy smoker/drinker has a firm nonhealing ulcer on lateral tongue for 6 weeks with lymphadenopathy. Avoid harmful premature treatment while catastrophic differentials remain open.',
-     'question': 'Action?',
-     'answer': 'Urgent biopsy/OMFS-oncology referral for suspected SCC.',
-     'discussion': 'Do not treat empirically for months.',
-     'book_hint': 'Oral and Maxillofacial Pathology — Neville'
-    }
-   ]
-  }
+    {'title': 'Nonhealing Lateral Tongue Ulcer', 'stem': 'A 55-year-old heavy smoker/drinker has a firm nonhealing ulcer on lateral tongue for 6 weeks with lymphadenopathy. Avoid harmful premature treatment while catastrophic differentials remain open.', 'question': 'Action?', 'answer': 'Urgent biopsy/OMFS-oncology referral for suspected SCC.', 'discussion': 'Do not treat empirically for months.', 'book_hint': 'Oral and Maxillofacial Pathology — Neville'},
+   ],
+  },
  },
  'restorative': {
   'label': 'Restorative Dentistry',
-  'books': [
-   "Sturdevant's Art and Science of Operative Dentistry",
-   "Summitt's Fundamentals of Operative Dentistry",
-   "Pickard's Guide to Minimally Invasive Operative Dentistry"
-  ],
-  'pdf_notes': [
-   'Black classification still useful for cavity location.',
-   'Adhesion needs etch/bond protocol and isolation.',
-   'High C-factor increases polymerization stress.',
-   'Selective caries removal can avoid pulp exposure.',
-   'Prevention first in rampant caries.'
-  ],
+  'books': ["Sturdevant's Art and Science of Operative Dentistry", "Summitt's Fundamentals of Operative Dentistry", "Pickard's Guide to Minimally Invasive Operative Dentistry"],
+  'pdf_notes': ['Black classification still useful for cavity location.', 'Adhesion needs etch/bond protocol and isolation.', 'High C-factor increases polymerization stress.', 'Selective caries removal can avoid pulp exposure.', 'Prevention first in rampant caries.'],
   'questions': {
    'easy': [
     {
-     'question': 'G.V. Black Class II cavity involves?',
-     'options': [
-      'A) Proximal surfaces of posterior teeth',
-      'B) Pits and fissures of anterior teeth only',
-      'C) Cervical third smooth surfaces (Class V) only',
-      'D) Cusp tip enamel only'
-     ],
-     'answer': 'A) Proximal surfaces of posterior teeth',
-     'explanation': 'G.V. Black Class II cavities involve the proximal surfaces of posterior teeth, typically initiating just below the contact point where biofilm stagnates. The classification organizes cavity location for preparation design and restoration choice.',
-     'choice_explanations': {
-      'A': 'G.V. Black Class II cavities involve the proximal surfaces of posterior teeth, typically initiating just below the contact point where biofilm stagnates.',
-      'B': 'Anterior pit/fissure lesions are not G.V. Black Class II; Class II is proximal posterior surfaces. G.V.',
-      'C': 'Class V lesions occupy gingival-third smooth surfaces, not proximal posterior Class II sites. G.V.',
-      'D': 'Isolated cusp-tip enamel involvement is not the Class II proximal posterior definition. G.V.'
-     }
+     'question': 'The smear layer on instrumented dentin is best described as which layer?',
+     'options': ['A) A layer of cutting debris that can occlude dentinal tubules and affect bonding/sealing', 'B) A pure hydroxyapatite crystal growth identical to enamel rods', 'C) A sterile rubber dam sheet bonded to enamel', 'D) The pulp chamber roof exclusively'],
+     'answer': 'A) A layer of cutting debris that can occlude dentinal tubules and affect bonding/sealing',
+     'explanation': 'Rotary/hand instrumentation creates a smear layer of debris that plugs tubules. Etching or conditioners modify/remove it depending on the adhesive strategy. It is not enamel rod architecture, rubber dam, or anatomic pulp roof.',
+     'choice_explanations': {'A': 'Smear layer = instrumentation debris affecting tubule patency and adhesive behavior.', 'B': 'Smear layer is debris, not organized enamel rod structure.', 'C': 'Rubber dam is isolation equipment, not a tooth surface layer.', 'D': 'Pulp chamber roof is anatomy, not smear debris.'}
     },
     {
-     'question': 'Composite resin bonding primarily relies on?',
-     'options': [
-      'A) Zinc phosphate cement lute alone',
-      'B) Soft-tissue sutures for retention',
-      'C) Mechanical screws into dentin',
-      'D) Micromechanical adhesion after etch and adhesive protocols'
-     ],
-     'answer': 'D) Micromechanical adhesion after etch and adhesive protocols',
-     'explanation': 'Etching enamel (and appropriately conditioning dentin) creates microporosity that adhesive resins infiltrate to form resin tags and a hybrid layer. Retention of composite is therefore primarily micromechanical rather than chemical cementation alone.',
-     'choice_explanations': {
-      'A': 'Zinc phosphate lutes by mechanical interlocking as a cement, not etch-adhesive micromechanical bonding of composite. Etching enamel (and appropriately conditioning dentin) creates microporosity that adhesive resins infiltrate to form resin tags and a hybrid layer.',
-      'B': 'Sutures approximate soft tissue and do not retain composite to etched tooth structure. Etching enamel (and appropriately conditioning dentin) creates microporosity that adhesive resins infiltrate to form resin tags and a hybrid layer.',
-      'C': 'Composite is retained by adhesive micromechanical interlocking, not dentin screws. Etching enamel (and appropriately conditioning dentin) creates microporosity that adhesive resins infiltrate to form resin tags and a hybrid layer.',
-      'D': 'Etching enamel (and appropriately conditioning dentin) creates microporosity that adhesive resins infiltrate to form resin tags and a hybrid layer. Retention of composite is therefore primarily micromechanical rather than chemical cementation alone.'
-     }
+     'question': 'Which property most directly explains why enamel etchant (phosphoric acid) improves micromechanical retention for resin bonding?',
+     'options': ['A) Complete obliteration of all enamel organic matrix permanently without resin', 'B) Selective demineralization creating microporosities for resin tag formation', 'C) Conversion of enamel into gutta-percha', 'D) Anesthetizing odontoblasts chemically'],
+     'answer': 'B) Selective demineralization creating microporosities for resin tag formation',
+     'explanation': 'Acid etching demineralizes enamel prismatically/interprismatically, creating a high-energy microporous surface that allows resin penetration and micromechanical interlocking. It does not turn enamel into GP or anesthetize pulp.',
+     'choice_explanations': {'A': 'Bonding requires resin infiltration into etched porosities, not acid alone as the restoration.', 'B': 'Etching creates enamel microporosities for micromechanical resin bonding.', 'C': 'Gutta-percha is an endodontic obturant, not etched enamel.', 'D': 'Etchant is not a local anesthetic for odontoblasts.'}
     },
     {
-     'question': 'Caries detector dyes are used to?',
-     'options': [
-      'A) Replace bitewing radiographs entirely',
-      'B) Diagnose pulp vitality definitively',
-      'C) Help visualize infected dentin, interpreted cautiously',
-      'D) Whiten extrinsic stain'
-     ],
-     'answer': 'C) Help visualize infected dentin, interpreted cautiously',
-     'explanation': 'Caries detector dyes bind preferentially to denatured collagen in infected dentin, helping visualize tissue that may harbor high bacterial load. They can also stain caries-affected or sound dentin nonspecifically, so clinical judgment remains essential.',
-     'choice_explanations': {
-      'A': 'Caries detector dyes aid excavation visualization and cannot replace radiographic diagnosis. Caries detector dyes bind preferentially to denatured collagen in infected dentin, helping visualize tissue that may harbor high bacterial load.',
-      'B': 'Pulp vitality requires thermal/electric testing; dyes do not diagnose pulp status. Caries detector dyes bind preferentially to denatured collagen in infected dentin, helping visualize tissue that may harbor high bacterial load.',
-      'C': 'Caries detector dyes bind preferentially to denatured collagen in infected dentin, helping visualize tissue that may harbor high bacterial load. They can also stain caries-affected or sound dentin nonspecifically, so clinical judgment remains essential.',
-      'D': 'Whitening oxidizes chromogens; caries detector dyes are diagnostic stains, not bleaches. Caries detector dyes bind preferentially to denatured collagen in infected dentin, helping visualize tissue that may harbor high bacterial load.'
-     }
-    }
+     'question': 'Caries excavation ideally aims to remove which tissue while preserving maximally reparable dentin near the pulp when doing selective removal in deep lesions?',
+     'options': ['A) All dentin until pulp exposure is mandatory in every deep lesion', 'B) Only extrinsic stain on intact enamel without assessing hardness', 'C) Soft, highly infected dentin while retaining firm, remineralizable dentin when indicated', 'D) Healthy enamel rods far from the lesion as first priority'],
+     'answer': 'C) Soft, highly infected dentin while retaining firm, remineralizable dentin when indicated',
+     'explanation': 'Modern deep-caries protocols often selectively remove soft infected dentin and leave firm affected dentin to avoid pulp exposure, then seal. Mandatory exposure of every pulp, ignoring hardness, or removing healthy distant enamel first are incorrect.',
+     'choice_explanations': {'A': 'Pulp exposure is not mandatory if sealed selective removal can avoid it.', 'B': 'Stain alone is not the excavation criterion; hardness/texture matter.', 'C': 'Selective caries removal targets soft infected dentin and preserves reparable firm dentin when appropriate.', 'D': 'Healthy distant enamel is not the primary tissue to excavate.'}
+    },
    ],
    'medium': [
     {
-     'question': 'Liners and bases under deep restorations aim to?',
-     'options': [
-      'A) Change restoration shade only',
-      'B) Increase enamel etch aggressiveness only',
-      'C) Replace the need for rubber dam isolation',
-      'D) Protect the pulp, provide insulation, and aid sealing'
-     ],
-     'answer': 'D) Protect the pulp, provide insulation, and aid sealing',
-     'explanation': 'Liners and bases under deep restorations provide thermal insulation, chemical protection, and sometimes a sealing or bioactive interface over remaining dentin near the pulp. Material choice depends on remaining dentin thickness and definitive restorative material.',
-     'choice_explanations': {
-      'A': 'Liners/bases protect deep dentin/pulp; they are not primarily shade modifiers. Liners and bases under deep restorations provide thermal insulation, chemical protection, and sometimes a sealing or bioactive interface over remaining dentin near the pulp.',
-      'B': 'Liners/bases do not increase enamel etch aggressiveness; they protect remaining dentin. Liners and bases under deep restorations provide thermal insulation, chemical protection, and sometimes a sealing or bioactive interface over remaining dentin near the pulp.',
-      'C': 'Rubber dam isolates the tooth from saliva/microbes and protects the airway during RCT. Liners and bases under deep restorations provide thermal insulation, chemical protection, and sometimes a sealing or bioactive interface over remaining dentin near the pulp.',
-      'D': 'Liners and bases under deep restorations provide thermal insulation, chemical protection, and sometimes a sealing or bioactive interface over remaining dentin near the pulp. Material choice depends on remaining dentin thickness and definitive restorative material.'
-     }
+     'question': 'A Class II composite keeps failing with proximal contact loss and food impaction. Which applied corrective principle is most important?',
+     'options': ['A) Cure without a matrix because composites expand to form contacts', 'B) Always leave a large open gingival embrasure for self-cleaning with packing food', 'C) Ignore wedge adaptation because gingival overhangs prevent failure', 'D) Use proper matrix/wedge technique to establish tight anatomic contact before curing'],
+     'answer': 'D) Use proper matrix/wedge technique to establish tight anatomic contact before curing',
+     'explanation': 'Composite does not push the matrix like amalgam; sectional matrices and wedges are required to create contact and seal the gingival margin. Curing without a matrix or accepting open contacts invites impaction and periodontal harm.',
+     'choice_explanations': {'A': 'Composite polymerization does not create contacts without a contoured matrix.', 'B': 'Open contacts cause food impaction, not beneficial self-cleaning.', 'C': 'Overhangs trap plaque and worsen gingival outcomes.', 'D': 'Reliable Class II contacts require matrix and wedge systems before light-curing.'}
     },
     {
-     'question': 'A recognized clinical advantage of dental amalgam includes?',
-     'options': [
-      'A) Wear resistance and lower moisture sensitivity than composite',
-      'B) Superior esthetics compared with all ceramics',
-      'C) Micromechanical bonding identical to etch-and-rinse composite',
-      'D) Complete absence of corrosion in the oral environment'
-     ],
-     'answer': 'A) Wear resistance and lower moisture sensitivity than composite',
-     'explanation': 'Dental amalgam’s metallic microstructure confers high compressive strength and wear resistance under posterior occlusal load. Unlike resin composites, amalgam does not rely on adhesive bonding that fails in moisture-contaminated fields to the same degree.',
-     'choice_explanations': {
-      'A': 'Dental amalgam’s metallic microstructure confers high compressive strength and wear resistance under posterior occlusal load. Unlike resin composites, amalgam does not rely on adhesive bonding that fails in moisture-contaminated fields to the same degree.',
-      'B': 'Amalgam is metallic and esthetically inferior to ceramic restorations. Dental amalgam’s metallic microstructure confers high compressive strength and wear resistance under posterior occlusal load.',
-      'C': 'Amalgam is retained mainly by preparation form, not etch-and-rinse micromechanical bonding. Dental amalgam’s metallic microstructure confers high compressive strength and wear resistance under posterior occlusal load.',
-      'D': 'Amalgam undergoes oral corrosion; corrosion products can help seal margins. Dental amalgam’s metallic microstructure confers high compressive strength and wear resistance under posterior occlusal load.'
-     }
+     'question': 'Postoperative sensitivity after a posterior composite is most often linked clinically to which applied factors?',
+     'options': ['A) Occlusal prematurities, polymerization stress, or incomplete sealing of dentin', 'B) Excessive fluoride varnish placed on the tongue only', 'C) Choosing a shade that is slightly too light esthetically', 'D) Using rubber dam isolation during placement'],
+     'answer': 'A) Occlusal prematurities, polymerization stress, or incomplete sealing of dentin',
+     'explanation': 'Common causes of post-composite sensitivity include hyperocclusion, C-factor stress/gaps, and imperfect dentin seal. Rubber dam usually improves outcomes; shade and tongue varnish are unrelated primary causes.',
+     'choice_explanations': {'A': 'Check occlusion, bonding/seal, and stress management when composites cause sensitivity.', 'B': 'Tongue varnish does not explain tooth-specific postoperative bite sensitivity.', 'C': 'Shade mismatch is esthetic, not a sensitivity mechanism.', 'D': 'Rubber dam reduces contamination and typically helps bonding success.'}
     },
     {
-     'question': 'Secondary (recurrent) caries most often develops at?',
-     'options': [
-      'A) The center of an intact pulp horn remote from margins',
-      'B) Restoration margins with microleakage or plaque stagnation',
-      'C) The root apex in vital teeth without coronal restorations',
-      'D) Cementum far from any restorative margin'
-     ],
-     'answer': 'B) Restoration margins with microleakage or plaque stagnation',
-     'explanation': 'Secondary (recurrent) caries develops at restoration margins where microleakage or plaque stagnation allows demineralization of adjacent enamel and dentin. Open margins, overhangs, and poor oral hygiene elevate risk.',
-     'choice_explanations': {
-      'A': 'Secondary caries occurs at restoration margins, not remote intact pulp horns. Secondary (recurrent) caries develops at restoration margins where microleakage or plaque stagnation allows demineralization of adjacent enamel and dentin.',
-      'B': 'Secondary (recurrent) caries develops at restoration margins where microleakage or plaque stagnation allows demineralization of adjacent enamel and dentin. Open margins, overhangs, and poor oral hygiene elevate risk.',
-      'C': 'Apical rarefaction relates to pulp disease pathways, not secondary coronal-margin caries. Secondary (recurrent) caries develops at restoration margins where microleakage or plaque stagnation allows demineralization of adjacent enamel and dentin.',
-      'D': 'Cementum distant from margins is not the typical secondary caries site. Secondary (recurrent) caries develops at restoration margins where microleakage or plaque stagnation allows demineralization of adjacent enamel and dentin.'
-     }
-    }
+     'question': 'When restoring a deep proximal box near the pulp with composite, which applied liner/base concept is most coherent with modern adhesive dentistry?',
+     'options': ['A) Place a thick unsealed cotton pellet permanently under composite', 'B) Consider a thin bioactive/glass-ionomer or calcium silicate liner on the deepest dentin when indicated, then adhesive composite', 'C) Never seal dentin because tubules must remain widely open to saliva', 'D) Use zinc oxide–eugenol directly under all resins as the preferred bonding primer'],
+     'answer': 'B) Consider a thin bioactive/glass-ionomer or calcium silicate liner on the deepest dentin when indicated, then adhesive composite',
+     'explanation': 'Deep areas may receive a selective liner (GI/calcium silicate) for sealing/biocompatibility, then adhesive restoration. Permanent cotton under composite fails; open salivary contamination of tubules harms pulp; eugenol can inhibit resin polymerization.',
+     'choice_explanations': {'A': 'Cotton pellets are temporary coverage, not permanent bases under composite.', 'B': 'Deep dentin may get a compatible liner then adhesive composite—not cotton, open tubules, or eugenol under resin.', 'C': 'Dentin should be sealed from bacterial/salivary contamination.', 'D': 'Eugenol can interfere with resin polymerization.'}
+    },
    ],
    'hard': [
     {
-     'question': 'Configuration factor (C-factor) is typically highest in?',
-     'options': [
-      'A) Class I deep boxy preparations',
-      'B) Free cusp rebuilds with many unbonded surfaces',
-      'C) Single-surface veneers with low bonded-wall ratios',
-      'D) Preventive resin sealants on fissures alone'
-     ],
-     'answer': 'A) Class I deep boxy preparations',
-     'explanation': 'The C-factor is the ratio of bonded to unbonded surfaces in a cavity; Class I boxy preparations have many bonded walls and few free surfaces for stress relief. As composite polymerizes and shrinks, high C-factor cavities concentrate interfacial stress and risk gap formation.',
-     'choice_explanations': {
-      'A': 'The C-factor is the ratio of bonded to unbonded surfaces in a cavity; Class I boxy preparations have many bonded walls and few free surfaces for stress relief. As composite polymerizes and shrinks, high C-factor cavities concentrate interfacial stress and risk gap formation.',
-      'B': 'Many unbonded surfaces lower C-factor and allow polymerization-shrinkage stress relief. The C-factor is the ratio of bonded to unbonded surfaces in a cavity; Class I boxy preparations have many bonded walls and few free surfaces for stress relief.',
-      'C': 'Veneers have low bonded-to-unbonded ratios and thus lower C-factor than boxy Class I cavities. The C-factor is the ratio of bonded to unbonded surfaces in a cavity; Class I boxy preparations have many bonded walls and few free surfaces for stress relief.',
-      'D': 'Sealants bond limited fissure enamel with low C-factor relative to deep Class I boxes. The C-factor is the ratio of bonded to unbonded surfaces in a cavity; Class I boxy preparations have many bonded walls and few free surfaces for stress relief.'
-     }
+     'question': 'A premolar has an old MOD amalgam with a cracked marginal ridge, bite pain on release, and a hairline crack staining toward the pulp on removal of the restoration. Pulp tests are normal lingering-free. Which multi-cue restorative plan fits?',
+     'options': ['A) Place a small occlusal preventive resin only and ignore the crack line', 'B) Proceed straight to extraction without assessing restorable structure', 'C) Protect cusps with an onlay/crown after confirming restorable crack extent and vitality; do not place another large amalgam without cuspal coverage', 'D) Apply bleaching gel into the crack as definitive structural therapy'],
+     'answer': 'C) Protect cusps with an onlay/crown after confirming restorable crack extent and vitality; do not place another large amalgam without cuspal coverage',
+     'explanation': 'Cracks through marginal ridges under large restorations often need cuspal coverage to prevent propagation. Vital teeth without irreversible pulpitis may avoid RCT initially. Tiny unbonded resins, automatic extraction, or bleach do not stabilize structure.',
+     'choice_explanations': {'A': 'Small occlusal resins do not brace cusps against crack propagation.', 'B': 'Many cracked teeth are restorable with coverage; extraction is not automatic.', 'C': 'Restorable cracked premolars after large MOD failure typically need cuspal coverage restorations.', 'D': 'Bleach does not provide structural reinforcement.'}
     },
     {
-     'question': 'Selective caries removal in a deep lesion aims to?',
-     'options': [
-      'A) Intentionally expose the pulp in every deep case',
-      'B) Avoid pulp exposure while sealing remaining soft dentin under protocol',
-      'C) Leave all enamel caries untouched indefinitely',
-      'D) Defer restoration forever after excavation'
-     ],
-     'answer': 'B) Avoid pulp exposure while sealing remaining soft dentin under protocol',
-     'explanation': 'In deep carious lesions, selective (partial) caries removal leaves soft, caries-affected dentin over the pulp to avoid exposure while excavating peripheral infected dentin to a hard, sealable margin. A well-sealed restoration deprives remaining bacteria of substrate.',
-     'choice_explanations': {
-      'A': 'Selective caries removal aims to avoid pulp exposure, not create it. In deep carious lesions, selective (partial) caries removal leaves soft, caries-affected dentin over the pulp to avoid exposure while excavating peripheral infected dentin to a hard, sealable margin.',
-      'B': 'In deep carious lesions, selective (partial) caries removal leaves soft, caries-affected dentin over the pulp to avoid exposure while excavating peripheral infected dentin to a hard, sealable margin. A well-sealed restoration deprives remaining bacteria of substrate.',
-      'C': 'Peripheral enamel/dentin at the DEJ must still be cleared to a hard, sealable margin. In deep carious lesions, selective (partial) caries removal leaves soft, caries-affected dentin over the pulp to avoid exposure while excavating peripheral infected dentin to a hard, sealable margin.',
-      'D': 'After selective excavation, a sealed restoration is placed; definitive sealing is not deferred forever. In deep carious lesions, selective (partial) caries removal leaves soft, caries-affected dentin over the pulp to avoid exposure while excavating peripheral infected dentin to a hard, sealable margin.'
-     }
+     'question': 'A cervical noncarious lesion on a canine shows abfraction-type morphology, heavy occlusal interferences, and gingival recession with sensitivity. Which multi-cue approach is most rational?',
+     'options': ['A) Ignore occlusion and place a rigid thick porcelain inlay into the cervical defect routinely', 'B) Prescribe antibiotics for abfraction', 'C) Extract the canine as first-line for sensitivity', 'D) Adjust occlusal prematurities as indicated, counsel on brushing technique, and restore with an appropriate flexible adhesive material if indicated for sensitivity/esthetics/plaque control'],
+     'answer': 'D) Adjust occlusal prematurities as indicated, counsel on brushing technique, and restore with an appropriate flexible adhesive material if indicated for sensitivity/esthetics/plaque control',
+     'explanation': 'Cervical lesions often combine stress, abrasion, and erosion. Managing occlusal load and hygiene technique plus adhesive restoration (often GI/composite) addresses etiology and symptoms. Antibiotics and extraction are near-misses; bulky rigid ceramics are rarely first-line cervically.',
+     'choice_explanations': {'A': 'Rigid cervical porcelains without occlusal management often fail mechanically.', 'B': 'Abfraction/abrasion lesions are not treated with antibiotics.', 'C': 'Extraction is not first-line for cervical sensitivity.', 'D': 'Manage occlusal and habit factors and restore cervically with suitable adhesive materials when needed.'}
     },
     {
-     'question': 'Abfraction as a proposed mechanism relates to?',
-     'options': [
-      'A) Dietary acid erosion from citrus alone as the exclusive cause',
-      'B) Toothbrush abrasion as the only proven etiology forever',
-      'C) Occlusal stress contributing to cervical non-carious lesions (debated)',
-      'D) Primary bacterial caries of enamel pits'
-     ],
-     'answer': 'C) Occlusal stress contributing to cervical non-carious lesions (debated)',
-     'explanation': 'Abfraction proposes that occlusal stress concentrates tensile strain at the cervical region, disrupting enamel and dentin and contributing to non-carious cervical lesions. Many lesions are multifactorial with abrasion and erosion also involved; the theory remains debated.',
-     'choice_explanations': {
-      'A': 'Erosion is chemical dissolution by acids; abfraction specifically hypothesizes occlusal cervical stress. Abfraction proposes that occlusal stress concentrates tensile strain at the cervical region, disrupting enamel and dentin and contributing to non-carious cervical lesions.',
-      'B': 'Abrasion is mechanical wear; abfraction is the debated occlusal-stress contribution to NCCLs. Abfraction proposes that occlusal stress concentrates tensile strain at the cervical region, disrupting enamel and dentin and contributing to non-carious cervical lesions.',
-      'C': 'Abfraction proposes that occlusal stress concentrates tensile strain at the cervical region, disrupting enamel and dentin and contributing to non-carious cervical lesions. Many lesions are multifactorial with abrasion and erosion also involved; the theory remains debated.',
-      'D': 'Pit caries is bacterial demineralization, not the abfraction stress hypothesis. Abfraction proposes that occlusal stress concentrates tensile strain at the cervical region, disrupting enamel and dentin and contributing to non-carious cervical lesions.'
-     }
-    }
+     'question': 'During deep caries removal on a vital molar, a pinpoint pulp exposure occurs with bright red hemorrhage that stops within 1–2 minutes. The tooth had no lingering spontaneous pain. Which multi-cue vital pulp therapy choice is most appropriate?',
+     'options': ['A) Direct pulp cap or partial pulpotomy with hydraulic calcium silicate cement and immediate well-sealed restoration', 'B) Leave the exposure open to saliva for two weeks before sealing', 'C) Extract immediately without discussing vital pulp therapy options', 'D) Apply arsenical paste to mummify the entire pulp as modern standard care'],
+     'answer': 'A) Direct pulp cap or partial pulpotomy with hydraulic calcium silicate cement and immediate well-sealed restoration',
+     'explanation': 'Traumatic/mechanical pinpoint exposures in teeth without irreversible pulpitis symptoms can succeed with direct pulp capping or partial pulpotomy using MTA/bioceramics and an excellent seal. Salivary contamination, automatic extraction, or archaic arsenicals are incorrect.',
+     'choice_explanations': {'A': 'Controlled vital exposures without irreversible symptoms warrant bioceramic pulp capping/partial pulpotomy plus seal.', 'B': 'Salivary contamination of exposures drastically reduces vital pulp therapy success.', 'C': 'Many exposures are manageable with vital pulp therapy; extraction is not automatic.', 'D': 'Arsenical pulp mummification is obsolete and unsafe by modern standards.'}
+    },
    ],
    'extreme': [
     {
-     'question': 'Minimally invasive dentistry prioritizes?',
-     'options': [
-      'A) Prevention, early detection, and maximal tissue preservation',
-      'B) Full-coverage crowns for every enamel stain',
-      'C) Extraction as first-line for early lesions',
-      'D) Ignoring caries risk factors after restoration'
-     ],
-     'answer': 'A) Prevention, early detection, and maximal tissue preservation',
-     'explanation': 'Minimally invasive dentistry aims to prevent disease, detect lesions early, and restore only what is irreversibly lost while preserving sound tooth structure. Risk-based recall, fluoride, and sealants support this philosophy.',
-     'choice_explanations': {
-      'A': 'Minimally invasive dentistry aims to prevent disease, detect lesions early, and restore only what is irreversibly lost while preserving sound tooth structure. Risk-based recall, fluoride, and sealants support this philosophy.',
-      'B': 'Crowns for mere stain violate tissue-preserving minimally invasive principles. Minimally invasive dentistry aims to prevent disease, detect lesions early, and restore only what is irreversibly lost while preserving sound tooth structure.',
-      'C': 'Extraction is not first-line for early, restorable lesions in minimally invasive dentistry. Minimally invasive dentistry aims to prevent disease, detect lesions early, and restore only what is irreversibly lost while preserving sound tooth structure.',
-      'D': 'Minimally invasive care continues risk-factor management after restoration to prevent recurrence. Minimally invasive dentistry aims to prevent disease, detect lesions early, and restore only what is irreversibly lost while preserving sound tooth structure.'
-     }
+     'question': 'A strategic maxillary canine abutment for an RPD has deep distal caries under an old crown, questionable remaining ferrule after excavation, lingering cold pain, and a patient who refuses implants. Which complex restorative–endodontic decision is best?',
+     'options': ['A) Recement the old crown over soft caries and irreversible pulpitis symptoms', 'B) Assess restorability after caries control; if inadequate ferrule, discuss crown-lengthening/orthodontic extrusion versus extraction; if irreversible pulpitis and restorable, RCT plus core/crown with planned surveyed contours', 'C) Promise a veneer alone will replace missing ferrule and endodontic need', 'D) Ignore RPD survey requirements when rebuilding the abutment contour'],
+     'answer': 'B) Assess restorability after caries control; if inadequate ferrule, discuss crown-lengthening/orthodontic extrusion versus extraction; if irreversible pulpitis and restorable, RCT plus core/crown with planned surveyed contours',
+     'explanation': 'Restorability (ferrule, ferrule-effect, remaining walls) gates whether RCT/crown can succeed for a strategic abutment. Irreversible pulpitis needs endodontics if saving the tooth. Crown lengthening/extrusion may create ferrule; otherwise extraction/RPD redesign is wiser. Recementing over caries/pulpitis or veneers without structure fails.',
+     'choice_explanations': {'A': 'Cementing over caries and pulpitis fails biologically and mechanically.', 'B': 'Strategic abutments need honest ferrule/restorability assessment, then RCT/crown or extraction pathways—not recementing over disease.', 'C': 'Veneers do not create ferrule or treat irreversible pulpitis.', 'D': 'Surveyed contours are essential if the tooth remains an RPD abutment.'}
     },
     {
-     'question': 'A biomimetic restorative concept emphasizes?',
-     'options': [
-      'A) Selecting the cheapest cement regardless of properties',
-      'B) Using a single shade A2 for all restorations',
-      'C) Replacing lost tissue with materials that mimic properties and stress distribution',
-      'D) Ignoring ferrule and remaining tooth structure'
-     ],
-     'answer': 'C) Replacing lost tissue with materials that mimic properties and stress distribution',
-     'explanation': 'Biomimetic restorative dentistry seeks to replace enamel and dentin with materials and adhesive techniques that approximate the stiffness, bonding, and stress distribution of natural tooth tissues. By rebuilding rather than aggressively reducing, longevity and pulp vitality are favored.',
-     'choice_explanations': {
-      'A': 'Biomimetic concepts select materials by mechanical compatibility with tooth tissues, not lowest cost alone. Biomimetic restorative dentistry seeks to replace enamel and dentin with materials and adhesive techniques that approximate the stiffness, bonding, and stress distribution of natural tooth tissues.',
-      'B': 'Single-shade convenience is not the biomimetic principle of matching stiffness and stress distribution. Biomimetic restorative dentistry seeks to replace enamel and dentin with materials and adhesive techniques that approximate the stiffness, bonding, and stress distribution of natural tooth tissues.',
-      'C': 'Biomimetic restorative dentistry seeks to replace enamel and dentin with materials and adhesive techniques that approximate the stiffness, bonding, and stress distribution of natural tooth tissues. By rebuilding rather than aggressively reducing, longevity and pulp vitality are favored.',
-      'D': 'Ignoring remaining tooth structure contradicts biomimetic preservation of natural biomechanics. Biomimetic restorative dentistry seeks to replace enamel and dentin with materials and adhesive techniques that approximate the stiffness, bonding, and stress distribution of natural tooth tissues.'
-     }
+     'question': 'A patient develops severe biting pain one week after a large MOD composite on a molar. The restoration has a high centric stop, a hairline crack is now visible under magnification, and cold lingers mildly. Which complication-management sequence is most appropriate?',
+     'options': ['A) Add more composite bulk on the occlusal to strengthen without adjusting the high spot', 'B) Prescribe long-term opioids as the only intervention', 'C) Immediately adjust occlusion, reassess pulp status, consider cuspal coverage or endodontics if pulp becomes irreversible, and replace the structurally inadequate restoration design', 'D) Assume symptoms are normal for 12 months without reevaluation'],
+     'answer': 'C) Immediately adjust occlusion, reassess pulp status, consider cuspal coverage or endodontics if pulp becomes irreversible, and replace the structurally inadequate restoration design',
+     'explanation': 'Hyperocclusion can crack teeth and inflame pulp. Prompt occlusal correction is mandatory; structural redesign (onlay/crown) may be required; endodontics follows if irreversible pulpitis develops. Adding bulk to a high restoration, opioids alone, or year-long neglect worsen outcomes.',
+     'choice_explanations': {'A': 'Adding composite to a high restoration increases load and crack risk.', 'B': 'Opioids mask pain without correcting occlusion or structure.', 'C': 'Post-restoration bite pain with crack signs: adjust occlusion, reassess pulp, and redesign for cuspal protection as needed.', 'D': 'Progressive crack/pulp symptoms need timely reevaluation.'}
     },
     {
-     'question': 'Management order for rampant caries most appropriately begins with?',
-     'options': [
-      'A) Esthetic veneers before disease control',
-      'B) Vital bleaching before excavation',
-      'C) Ignoring diet and salivary risk factors',
-      'D) Urgencies and disease control, then temporaries, then definitive care when stable'
-     ],
-     'answer': 'D) Urgencies and disease control, then temporaries, then definitive care when stable',
-     'explanation': 'Rampant caries reflects high caries activity; placing definitive complex restorations before disease control invites rapid failure at new margins. Urgent pain and infection are managed first, then biofilm and dietary control with provisional stabilization, then definitive restorations.',
-     'choice_explanations': {
-      'A': 'Placing veneers before caries control invites rapid failure at new margins under high disease activity. Rampant caries reflects high caries activity; placing definitive complex restorations before disease control invites rapid failure at new margins.',
-      'B': 'Bleaching before excavating rampant caries does not control disease activity. Rampant caries reflects high caries activity; placing definitive complex restorations before disease control invites rapid failure at new margins.',
-      'C': 'Ignoring diet and saliva leaves the etiologic drivers of rampant caries unchecked. Rampant caries reflects high caries activity; placing definitive complex restorations before disease control invites rapid failure at new margins.',
-      'D': 'Rampant caries reflects high caries activity; placing definitive complex restorations before disease control invites rapid failure at new margins. Urgent pain and infection are managed first, then biofilm and dietary control with provisional stabilization, then definitive restorations.'
-     }
-    }
-   ]
+     'question': 'An extensive posterior composite shows recurrent caries at the gingival margin, open contact, and radiographic crestal bone loss localized to that interproximal. The patient wants just polish and bleach. Which decision is ethically and clinically correct?',
+     'options': ['A) Polish and bleach only as requested without discussing disease findings', 'B) Ignore localized bone loss because composites cannot affect periodontium', 'C) Place a permanent post into the pulp chamber empirically without diagnosis', 'D) Explain that recurrent caries and periodontal harm require replacing the restoration with proper contact/contour and addressing hygiene; bleaching/polishing alone is insufficient'],
+     'answer': 'D) Explain that recurrent caries and periodontal harm require replacing the restoration with proper contact/contour and addressing hygiene; bleaching/polishing alone is insufficient',
+     'explanation': 'Open contacts and overhanging/open gingival margins drive caries and localized periodontitis. Standard of care is replacement with correct matrix contact and periodontal co-therapy as needed. Cosmetic-only care without disclosing disease violates informed consent; posts without endodontic indication are harmful.',
+     'choice_explanations': {'A': 'Withholding diagnosis to satisfy a cosmetic request is unethical and leaves disease active.', 'B': 'Defective restorations commonly cause localized periodontal destruction.', 'C': 'Empiric posts without endodontic need violate tooth structure without benefit.', 'D': 'Recurrent caries + open contact + local bone loss require restorative replacement and perio attention—not bleach-only care.'}
+    },
+   ],
   },
   'cases': {
    'easy': [
-    {
-     'title': 'Occlusal Caries Molar',
-     'stem': 'A deep fissure stains; bitewing shows enamel-dentin caries; tooth vital asymptomatic.',
-     'question': 'Plan?',
-     'answer': 'Restore with appropriate material after caries removal.',
-     'discussion': 'Consider sealant for non-cavitated elsewhere.',
-     'book_hint': 'Art and Science of Operative Dentistry — Sturdevant'
-    }
+    {'title': 'Occlusal Caries Molar', 'stem': 'A deep fissure stains; bitewing shows enamel-dentin caries; tooth vital asymptomatic.', 'question': 'Plan?', 'answer': 'Restore with appropriate material after caries removal.', 'discussion': 'Consider sealant for non-cavitated elsewhere.', 'book_hint': 'Art and Science of Operative Dentistry — Sturdevant'},
    ],
    'medium': [
-    {
-     'title': 'Failed Composite Margin',
-     'stem': 'Staining and catch at cervical margin of Class V composite; sensitivity to cold brief.',
-     'question': 'Likely?',
-     'answer': 'Marginal leakage/secondary caries or bond failure — replace after diagnosis.',
-     'discussion': 'Isolate well on redo.',
-     'book_hint': 'Art and Science of Operative Dentistry — Sturdevant'
-    }
+    {'title': 'Failed Composite Margin', 'stem': 'Staining and catch at cervical margin of Class V composite; sensitivity to cold brief.', 'question': 'Likely?', 'answer': 'Marginal leakage/secondary caries or bond failure — replace after diagnosis.', 'discussion': 'Isolate well on redo.', 'book_hint': 'Art and Science of Operative Dentistry — Sturdevant'},
    ],
    'hard': [
-    {
-     'title': 'Deep Caries Near Pulp',
-     'stem': 'Young adult molar, deep caries, asymptomatic, remaining dentin thin on radiograph. Choose the safest high-yield next concept before definitive results.',
-     'question': 'Strategy concept?',
-     'answer': 'Consider stepwise/selective excavation, pulp protection, well-sealed restoration; monitor vitality.',
-     'discussion': 'Avoid unnecessary exposure.',
-     'book_hint': 'Art and Science of Operative Dentistry — Sturdevant'
-    }
+    {'title': 'Deep Caries Near Pulp', 'stem': 'Young adult molar, deep caries, asymptomatic, remaining dentin thin on radiograph. Choose the safest high-yield next concept before definitive results.', 'question': 'Strategy concept?', 'answer': 'Consider stepwise/selective excavation, pulp protection, well-sealed restoration; monitor vitality.', 'discussion': 'Avoid unnecessary exposure.', 'book_hint': 'Art and Science of Operative Dentistry — Sturdevant'},
    ],
    'extreme': [
-    {
-     'title': 'Rampant Caries Head-Neck Radiation',
-     'stem': 'Patient post-radiotherapy has rampant caries and xerostomia. Avoid harmful premature treatment while catastrophic differentials remain open.',
-     'question': 'Plan pillars?',
-     'answer': 'Aggressive prevention (fluoride, saliva management), restore strategically, avoid extractions in irradiated bone when possible via specialist pathways.',
-     'discussion': 'ORN risk changes extraction decisions.',
-     'book_hint': 'Art and Science of Operative Dentistry — Sturdevant'
-    }
-   ]
-  }
+    {'title': 'Rampant Caries Head-Neck Radiation', 'stem': 'Patient post-radiotherapy has rampant caries and xerostomia. Avoid harmful premature treatment while catastrophic differentials remain open.', 'question': 'Plan pillars?', 'answer': 'Aggressive prevention (fluoride, saliva management), restore strategically, avoid extractions in irradiated bone when possible via specialist pathways.', 'discussion': 'ORN risk changes extraction decisions.', 'book_hint': 'Art and Science of Operative Dentistry — Sturdevant'},
+   ],
+  },
  },
  'oral_radiology': {
   'label': 'Oral Radiology',
-  'books': [
-   "White and Pharoah's Oral Radiology",
-   'Essentials of Dental Radiography',
-   'Oral Radiology principles texts'
-  ],
-  'pdf_notes': [
-   'ALARA: justify and optimize every exposure.',
-   'Bitewings for interproximal caries.',
-   'Periapicals for full root/periapex.',
-   'CBCT only when 2D is insufficient.',
-   'Ill-defined destructive lesions need urgent workup.'
-  ],
+  'books': ["White and Pharoah's Oral Radiology", 'Essentials of Dental Radiography', 'Oral Radiology principles texts'],
+  'pdf_notes': ['ALARA: justify and optimize every exposure.', 'Bitewings for interproximal caries.', 'Periapicals for full root/periapex.', 'CBCT only when 2D is insufficient.', 'Ill-defined destructive lesions need urgent workup.'],
   'questions': {
    'easy': [
     {
-     'question': 'Bitewing radiographs best demonstrate?',
-     'options': [
-      'A) Interproximal caries and crestal alveolar bone',
-      'B) TMJ articular disc position in detail',
-      'C) Maxillary sinus polyps as the primary indication',
-      'D) Soft-tissue cancer staging of the neck'
-     ],
-     'answer': 'A) Interproximal caries and crestal alveolar bone',
-     'explanation': 'Bitewing radiographs project the crowns of opposing maxillary and mandibular teeth and the crestal alveolar bone with minimal overlap when angulation is correct. They are the most sensitive routine view for early interproximal caries detection.',
-     'choice_explanations': {
-      'A': 'Bitewing radiographs project the crowns of opposing maxillary and mandibular teeth and the crestal alveolar bone with minimal overlap when angulation is correct. They are the most sensitive routine view for early interproximal caries detection.',
-      'B': 'Articular disc position requires soft-tissue imaging such as MRI, not bitewing radiography. Bitewing radiographs project the crowns of opposing maxillary and mandibular teeth and the crestal alveolar bone with minimal overlap when angulation is correct.',
-      'C': 'Sinus polyps are not the primary indication for dental bitewing radiographs. Bitewing radiographs project the crowns of opposing maxillary and mandibular teeth and the crestal alveolar bone with minimal overlap when angulation is correct.',
-      'D': 'Neck cancer staging requires advanced medical imaging, not dental bitewings. Bitewing radiographs project the crowns of opposing maxillary and mandibular teeth and the crestal alveolar bone with minimal overlap when angulation is correct.'
-     }
+     'question': 'The ALARA principle in dental radiology means which practice philosophy?',
+     'options': ['A) Keep radiation exposure as low as reasonably achievable while obtaining necessary diagnostic information', 'B) Always take the maximum number of films possible for every visit', 'C) Avoid radiographs even when they would change urgent treatment', 'D) Use radiation for tooth bleaching activation routinely'],
+     'answer': 'A) Keep radiation exposure as low as reasonably achievable while obtaining necessary diagnostic information',
+     'explanation': 'ALARA balances diagnostic yield with dose minimization via selection criteria, collimation, sensors, and shielding. It does not mean infinite films, refusing indicated imaging, or using x-rays to bleach teeth.',
+     'choice_explanations': {'A': 'ALARA = necessary diagnostic images at the lowest reasonable dose.', 'B': 'Unnecessary maximal film counts violate ALARA.', 'C': 'Indicated radiographs that alter care should not be withheld out of misunderstanding ALARA.', 'D': 'Ionizing dental x-rays are not a bleaching modality.'}
     },
     {
-     'question': 'ALARA in dental radiography means?',
-     'options': [
-      'A) Avoiding all radiographs regardless of diagnostic need',
-      'B) As Low As Reasonably Achievable radiation dose',
-      'C) Analog films only; digital is excluded',
-      'D) CBCT for every routine examination'
-     ],
-     'answer': 'B) As Low As Reasonably Achievable radiation dose',
-     'explanation': 'ALARA (As Low As Reasonably Achievable) is the radiation-protection principle that every exposure must be justified by diagnostic benefit and then optimized to the lowest dose that still yields adequate image quality.',
-     'choice_explanations': {
-      'A': 'ALARA still permits justified radiographs; it does not ban all imaging. ALARA (As Low As Reasonably Achievable) is the radiation-protection principle that every exposure must be justified by diagnostic benefit and then optimized to the lowest dose that still yields adequate image quality.',
-      'B': 'ALARA (As Low As Reasonably Achievable) is the radiation-protection principle that every exposure must be justified by diagnostic benefit and then optimized to the lowest dose that still yields adequate image quality.',
-      'C': 'ALARA applies to all receptors, including digital sensors. ALARA (As Low As Reasonably Achievable) is the radiation-protection principle that every exposure must be justified by diagnostic benefit and then optimized to the lowest dose that still yields adequate image quality.',
-      'D': 'Routine CBCT violates dose optimization when two-dimensional imaging suffices. ALARA (As Low As Reasonably Achievable) is the radiation-protection principle that every exposure must be justified by diagnostic benefit and then optimized to the lowest dose that still yields adequate image quality.'
-     }
+     'question': 'A periapical radiograph primarily images which structures?',
+     'options': ['A) Only the soft tissue of the cheek in profile', 'B) The full tooth length including crown, root, and surrounding periapical bone', 'C) Only the mandibular condyle in motion', 'D) Only the skin surface without teeth'],
+     'answer': 'B) The full tooth length including crown, root, and surrounding periapical bone',
+     'explanation': 'Periapical radiographs are designed to show the entire tooth and adjacent bone for caries depth, root morphology, and periapical pathosis. Soft-tissue profile, condylar motion, and skin imaging use other modalities.',
+     'choice_explanations': {'A': 'Cheek soft tissue is not the PA target.', 'B': 'Periapicals capture whole-tooth and periapical bone detail.', 'C': 'Condylar dynamics need TMJ-specific imaging, not standard PA.', 'D': 'Skin surface is not imaged for dental diagnosis on PA films.'}
     },
     {
-     'question': 'A periapical radiograph is intended to show?',
-     'options': [
-      'A) Bilateral molar intercuspation in a single bitewing-style view',
-      'B) Cephalometric skeletal landmarks for orthodontic analysis',
-      'C) Thoracic chest structures',
-      'D) The full tooth length and periapical bone'
-     ],
-     'answer': 'D) The full tooth length and periapical bone',
-     'explanation': 'A periapical radiograph images the entire tooth from crown to apex plus the surrounding periapical bone. It is used to assess apical periodontitis, root morphology, and periodontal bone along the root surface.',
-     'choice_explanations': {
-      'A': 'Bitewings show crown contacts; periapicals are intended for full tooth length and periapical bone. A periapical radiograph images the entire tooth from crown to apex plus the surrounding periapical bone.',
-      'B': 'Cephalometric films provide skeletal landmarks; periapicals image individual teeth/apices. A periapical radiograph images the entire tooth from crown to apex plus the surrounding periapical bone.',
-      'C': 'Dental periapical films image teeth and jaws, not thoracic chest structures. A periapical radiograph images the entire tooth from crown to apex plus the surrounding periapical bone.',
-      'D': 'A periapical radiograph images the entire tooth from crown to apex plus the surrounding periapical bone. It is used to assess apical periodontitis, root morphology, and periodontal bone along the root surface.'
-     }
-    }
+     'question': 'Increasing the source-to-object distance while using proper collimation generally has which effect on image sharpness, all else equal?',
+     'options': ['A) Always eliminates the need for any receptor', 'B) Guarantees twice the patient dose automatically without exposure compensation', 'C) Improves sharpness by reducing geometric penumbra (magnification of the focal spot blur)', 'D) Converts the image into a CT volumetric dataset'],
+     'answer': 'C) Improves sharpness by reducing geometric penumbra (magnification of the focal spot blur)',
+     'explanation': 'Geometric unsharpness decreases as source-to-object distance increases (and object-to-receptor decreases). Dose and exposure factors must be managed separately; a 2D receptor still acquires a projection, not a CT volume.',
+     'choice_explanations': {'A': 'A receptor is still required to capture the image.', 'B': 'Dose depends on exposure settings; distance changes require technique compensation.', 'C': 'Greater source-to-object distance reduces penumbra and can sharpen projection images.', 'D': 'CT requires specialized rotational/volumetric acquisition, not merely moving the tube farther.'}
+    },
    ],
    'medium': [
     {
-     'question': 'A principal advantage of a panoramic radiograph is?',
-     'options': [
-      'A) Higher spatial resolution than bitewings for early enamel caries',
-      'B) A broad overview of jaws, TMJs, and dentition',
-      'C) Absence of geometric distortion under all conditions',
-      'D) Elimination of any need for periapical images'
-     ],
-     'answer': 'B) A broad overview of jaws, TMJs, and dentition',
-     'explanation': 'A panoramic radiograph captures both jaws, dentition, TMJs, and contiguous structures in a single tomographic image. It is useful for screening, orthodontic assessment, and surgical planning when a broad overview is needed, despite lower spatial resolution than intraoral films.',
-     'choice_explanations': {
-      'A': 'Panoramics have lower spatial resolution than bitewings for early interproximal enamel caries. A panoramic radiograph captures both jaws, dentition, TMJs, and contiguous structures in a single tomographic image.',
-      'B': 'A panoramic radiograph captures both jaws, dentition, TMJs, and contiguous structures in a single tomographic image. It is useful for screening, orthodontic assessment, and surgical planning when a broad overview is needed, despite lower spatial resolution than intraoral films.',
-      'C': 'Panoramic geometry produces inherent distortion and ghosting; distortion is not absent. A panoramic radiograph captures both jaws, dentition, TMJs, and contiguous structures in a single tomographic image.',
-      'D': 'Panoramics complement but do not eliminate indicated high-detail periapical radiographs. A panoramic radiograph captures both jaws, dentition, TMJs, and contiguous structures in a single tomographic image.'
-     }
+     'question': 'A bitewing radiograph is most appropriately selected for which applied diagnostic task?',
+     'options': ['A) Diagnosing fracture of the mandibular condylar neck exclusively', 'B) Mapping the full extent of a large odontogenic sinus cyst alone', 'C) Replacing all need for clinical probing of periodontal pockets', 'D) Detecting interproximal caries and evaluating crestal bone height between posterior teeth'],
+     'answer': 'D) Detecting interproximal caries and evaluating crestal bone height between posterior teeth',
+     'explanation': 'Bitewings excel for posterior interproximal caries and crestal bone assessment. Condylar fractures and large sinus lesions need panoramic/CBCT/other views; radiographs complement but do not replace periodontal probing.',
+     'choice_explanations': {'A': 'Condylar neck fractures need dedicated mandibular/TMJ imaging.', 'B': 'Large antral lesions need wider field imaging than bitewings.', 'C': 'Probing depths remain a clinical measurement; radiographs assist bone assessment.', 'D': 'Bitewings are for interproximal caries and posterior crestal bone evaluation.'}
     },
     {
-     'question': 'A radiolucency at the apex of a nonvital tooth most likely represents?',
-     'options': [
-      'A) Osteosarcoma in every case',
-      'B) A torus mandibularis',
-      'C) Periapical rarefying osteitis (granuloma/cyst/abscess spectrum)',
-      'D) An enamel pearl on the root surface'
-     ],
-     'answer': 'C) Periapical rarefying osteitis (granuloma/cyst/abscess spectrum)',
-     'explanation': 'Bacterial toxins from a necrotic pulp trigger inflammatory resorption of periapical bone, producing a radiolucency (rarefying osteitis) that may represent granuloma, cyst, or abscess histologically. Vitality testing links the lesion to pulpal disease.',
-     'choice_explanations': {
-      'A': 'Not every apical radiolucency is osteosarcoma; most are inflammatory rarefying osteitis from necrosis. Bacterial toxins from a necrotic pulp trigger inflammatory resorption of periapical bone, producing a radiolucency (rarefying osteitis) that may represent granuloma, cyst, or abscess histologically.',
-      'B': 'Mandibular tori are radiopaque bony exostoses, not apical radiolucencies. Bacterial toxins from a necrotic pulp trigger inflammatory resorption of periapical bone, producing a radiolucency (rarefying osteitis) that may represent granuloma, cyst, or abscess histologically.',
-      'C': 'Bacterial toxins from a necrotic pulp trigger inflammatory resorption of periapical bone, producing a radiolucency (rarefying osteitis) that may represent granuloma, cyst, or abscess histologically. Vitality testing links the lesion to pulpal disease.',
-      'D': 'Enamel pearls are ectopic enamel droplets on root surfaces, often near furcations. Bacterial toxins from a necrotic pulp trigger inflammatory resorption of periapical bone, producing a radiolucency (rarefying osteitis) that may represent granuloma, cyst, or abscess histologically.'
-     }
+     'question': 'Cervical burnout on a periapical radiograph is an applied optical/anatomic phenomenon that can mimic which disease?',
+     'options': ['A) Root caries or radiolucent cervical lesions near the CEJ', 'B) Pulp stones exclusively', 'C) Condensing osteitis only', 'D) Impacted third molar follicle exclusively'],
+     'answer': 'A) Root caries or radiolucent cervical lesions near the CEJ',
+     'explanation': 'Cervical burnout is a radiolucent artifact at the cervical tooth region from x-ray geometry and anatomic thinness, potentially mimicking caries. Clinical examination distinguishes true cavitation. Pulp stones and condensing osteitis are radiopaque phenomena; follicles relate to unerupted teeth.',
+     'choice_explanations': {'A': 'Cervical burnout can mimic cervical/root caries; confirm clinically.', 'B': 'Pulp stones are intracoronal radiopacities, not cervical burnout mimics.', 'C': 'Condensing osteitis is a periapical radiopacity, not a cervical radiolucent artifact.', 'D': 'Follicular spaces surround crowns of unerupted teeth, a different entity.'}
     },
     {
-     'question': 'Lead apron and thyroid shield use should follow?',
-     'options': [
-      'A) Current guidelines with justification of exposure first',
-      'B) Omitting all patient shielding as outdated practice',
-      'C) Restricting shields to CBCT while excluding intraoral exams',
-      'D) Protecting operators while leaving patients unshielded'
-     ],
-     'answer': 'A) Current guidelines with justification of exposure first',
-     'explanation': 'Lead aprons and thyroid shields reduce exposure of radiosensitive tissues when they do not obscure anatomy, but justification of the radiograph and optimized technique remain primary. Contemporary guidelines refine when thyroid shielding is practical.',
-     'choice_explanations': {
-      'A': 'Lead aprons and thyroid shields reduce exposure of radiosensitive tissues when they do not obscure anatomy, but justification of the radiograph and optimized technique remain primary. Contemporary guidelines refine when thyroid shielding is practical.',
-      'B': 'Blanket omission of all shielding is not the guideline approach; use follows current recommendations. Lead aprons and thyroid shields reduce exposure of radiosensitive tissues when they do not obscure anatomy, but justification of the radiograph and optimized technique remain primary.',
-      'C': 'Shielding decisions apply across modalities per guidelines, not CBCT-only. Lead aprons and thyroid shields reduce exposure of radiosensitive tissues when they do not obscure anatomy, but justification of the radiograph and optimized technique remain primary.',
-      'D': 'Patient dose protection is central; protecting only operators is incomplete. Lead aprons and thyroid shields reduce exposure of radiosensitive tissues when they do not obscure anatomy, but justification of the radiograph and optimized technique remain primary.'
-     }
-    }
+     'question': 'Compared with film, a well-exposed digital sensor system typically allows which applied dose advantage when used correctly?',
+     'options': ['A) Unlimited retakes without any dose concern', 'B) Lower dose per image with comparable diagnostic task performance for many indications', 'C) Complete immunity of digital images to positioning errors', 'D) Elimination of the need for clinical indications'],
+     'answer': 'B) Lower dose per image with comparable diagnostic task performance for many indications',
+     'explanation': 'Digital receptors are more dose-efficient than film for many tasks, supporting ALARA—but retakes still add dose, positioning still matters, and selection criteria remain mandatory.',
+     'choice_explanations': {'A': 'Each retake adds patient dose despite digital capture.', 'B': 'Digital radiography often reduces dose per image but does not excuse retakes or unjustified imaging.', 'C': 'Geometry/positioning errors still degrade digital images.', 'D': 'Clinical indications still govern when to expose.'}
+    },
    ],
    'hard': [
     {
-     'question': 'CBCT is most appropriately indicated when?',
-     'options': [
-      'A) Complex implant, impacted tooth, or endodontic anatomy needs 3D detail beyond 2D',
-      'B) Routine recall screening in place of bitewings',
-      'C) First-line detection of early interproximal enamel caries',
-      'D) Shade selection for ceramic restorations'
-     ],
-     'answer': 'A) Complex implant, impacted tooth, or endodontic anatomy needs 3D detail beyond 2D',
-     'explanation': 'Cone-beam CT provides three-dimensional detail of teeth, bone, and anatomic relationships when two-dimensional images cannot answer the clinical question—for example complex implant sites, impacted teeth near nerves, or intricate endodontic anatomy—balanced against higher dose.',
-     'choice_explanations': {
-      'A': 'Cone-beam CT provides three-dimensional detail of teeth, bone, and anatomic relationships when two-dimensional images cannot answer the clinical question—for example complex implant sites, impacted teeth near nerves, or intricate endodontic anatomy—balanced against higher dose.',
-      'B': 'CBCT is not a routine recall substitute for bitewings because of higher effective dose. Cone-beam CT provides three-dimensional detail of teeth, bone, and anatomic relationships when two-dimensional images cannot answer the clinical question—for example complex implant sites, impacted teeth near nerves, or.',
-      'C': 'Early interproximal enamel caries is better detected with bitewings than CBCT screening. Cone-beam CT provides three-dimensional detail of teeth, bone, and anatomic relationships when two-dimensional images cannot answer the clinical question—for example complex implant sites, impacted teeth near nerves, or.',
-      'D': 'Shade selection is clinical/optical and is not a CBCT indication. Cone-beam CT provides three-dimensional detail of teeth, bone, and anatomic relationships when two-dimensional images cannot answer the clinical question—for example complex implant sites, impacted teeth near nerves, or intricate endodontic.'
-     }
+     'question': 'A panoramic radiograph shows a well-defined radiolucency at the mandibular angle with a radiopaque impacted third molar crown and a corticated follicular space greater than 5 mm. The patient has no caries in the tooth. Which multi-cue interpretation is most likely?',
+     'options': ['A) Normal follicular space of 1 mm without pathology', 'B) Periapical cemento-osseous dysplasia of a vital central incisor', 'C) Dentigerous (follicular) cyst associated with the unerupted third molar until proven otherwise', 'D) Sialolith in the submandibular duct exclusively'],
+     'answer': 'C) Dentigerous (follicular) cyst associated with the unerupted third molar until proven otherwise',
+     'explanation': 'Follicular spaces greater than about 5 mm around an unerupted crown suggest dentigerous cyst. Normal follicles are a few millimeters. PCOD relates to vital mandibular anteriors’ periapices; sialoliths are ductal radiopacities, not pericoronal lucencies.',
+     'choice_explanations': {'A': 'A greater-than-5 mm corticated pericoronal lucency exceeds normal follicle size.', 'B': 'PCOD is a periapical radiopaque/mixed lesion of anterior vital teeth, not third-molar follicles.', 'C': 'Enlarged pericoronal radiolucency on an impacted molar suggests dentigerous cyst.', 'D': 'Sialoliths are calcifications in salivary ducts, not pericoronal cysts.'}
     },
     {
-     'question': 'A ghost image on a panoramic radiograph is?',
-     'options': [
-      'A) A true pathologic lesion requiring biopsy',
-      'B) A blurred contralateral projection of a dense object',
-      'C) A chemical processing artifact unique to film developers',
-      'D) The printed patient-name label on the film mount'
-     ],
-     'answer': 'B) A blurred contralateral projection of a dense object',
-     'explanation': 'On panoramic imaging, dense objects on one side of the jaw can cast a blurred, magnified “ghost” image on the contralateral side, projected higher and more posteriorly because of the rotational geometry. Recognizing ghosts prevents false pathology diagnosis.',
-     'choice_explanations': {
-      'A': 'A panoramic ghost image is a geometric artifact, not a biopsy-requiring lesion. On panoramic imaging, dense objects on one side of the jaw can cast a blurred, magnified “ghost” image on the contralateral side, projected higher and more posteriorly because of the rotational geometry.',
-      'B': 'On panoramic imaging, dense objects on one side of the jaw can cast a blurred, magnified “ghost” image on the contralateral side, projected higher and more posteriorly because of the rotational geometry. Recognizing ghosts prevents false pathology diagnosis.',
-      'C': 'Ghost images are geometric projections from rotational panoramic geometry, including digital systems. On panoramic imaging, dense objects on one side of the jaw can cast a blurred, magnified “ghost” image on the contralateral side, projected higher and more posteriorly because of the rotational geometry.',
-      'D': 'Mount labels are external identifiers, not radiographic ghost projections. On panoramic imaging, dense objects on one side of the jaw can cast a blurred, magnified “ghost” image on the contralateral side, projected higher and more posteriorly because of the rotational geometry.'
-     }
+     'question': 'A patient has a suspected vertical root fracture in an endodontically treated premolar with a narrow deep probing defect and a J-shaped radiolucency, but the 2D image is equivocal. Which multi-cue imaging decision is best?',
+     'options': ['A) Take weekly full-head medical CT for six months routinely', 'B) Never use any further imaging even if extraction vs save decisions hinge on it', 'C) Diagnose fracture solely from bitewing caries depth without clinical signs', 'D) Consider limited-field CBCT when it may change management, accepting higher dose only if justified after clinical correlation'],
+     'answer': 'D) Consider limited-field CBCT when it may change management, accepting higher dose only if justified after clinical correlation',
+     'explanation': 'Vertical root fracture diagnosis combines clinical signs (deep narrow pocket, sinus tract) with imaging; CBCT can help when justified. Routine repeated medical CT is excessive; refusing any imaging when decisions depend on it is unhelpful; bitewings alone do not diagnose VRF.',
+     'choice_explanations': {'A': 'Weekly full-head CT violates ALARA dramatically.', 'B': 'Indicated adjunctive imaging can be appropriate when treatment hinges on it.', 'C': 'Bitewings assess caries/bone, not definitive VRF diagnosis alone.', 'D': 'Justify limited CBCT for suspected VRF when 2D is equivocal and management would change.'}
     },
     {
-     'question': 'The SLOB rule helps the clinician determine?',
-     'options': [
-      'A) Exposure time selection only',
-      'B) kVp chart values only',
-      'C) Buccolingual localization using tube-shift radiographs',
-      'D) Processing chemical replenishment schedules'
-     ],
-     'answer': 'C) Buccolingual localization using tube-shift radiographs',
-     'explanation': 'The SLOB rule (Same Lingual, Opposite Buccal) uses a horizontal tube shift between two periapical radiographs to localize an object buccolingually. If the object moves in the same direction as the tube head, it is lingual; opposite movement indicates buccal position.',
-     'choice_explanations': {
-      'A': 'The SLOB rule localizes objects buccolingually; it is not an exposure-time chart. The SLOB rule (Same Lingual, Opposite Buccal) uses a horizontal tube shift between two periapical radiographs to localize an object buccolingually.',
-      'B': 'kVp selection is exposure technique, not the SLOB tube-shift localization rule. The SLOB rule (Same Lingual, Opposite Buccal) uses a horizontal tube shift between two periapical radiographs to localize an object buccolingually.',
-      'C': 'The SLOB rule (Same Lingual, Opposite Buccal) uses a horizontal tube shift between two periapical radiographs to localize an object buccolingually. If the object moves in the same direction as the tube head, it is lingual; opposite movement indicates buccal position.',
-      'D': 'Processing schedules are darkroom maintenance, unrelated to SLOB localization. The SLOB rule (Same Lingual, Opposite Buccal) uses a horizontal tube shift between two periapical radiographs to localize an object buccolingually.'
-     }
-    }
+     'question': 'On a periapical image, the zygomatic process of the maxilla obscures the roots of upper molars. Which multi-cue technique adjustment often helps?',
+     'options': ['A) Change receptor placement/angulation (e.g., more distal/vertical adjustments) or use a different projection to move the zygoma shadow off the roots', 'B) Increase patient dose arbitrarily without changing geometry', 'C) Ask for a mandibular occlusal film as the only view of maxillary molar roots', 'D) Interpret obscured roots as always missing without trying another angle'],
+     'answer': 'A) Change receptor placement/angulation (e.g., more distal/vertical adjustments) or use a different projection to move the zygoma shadow off the roots',
+     'explanation': 'Superimposition of the zygomatic process is a common maxillary molar PA problem corrected by angulation/placement changes or alternate views. Dose escalation alone without geometry change fails; mandibular occlusals do not depict maxillary roots; assuming agenesis from one obscured image is incorrect.',
+     'choice_explanations': {'A': 'Reangle/reposition to move zygomatic superimposition off maxillary molar roots.', 'B': 'Dose increases without geometric change still leave the zygoma superimposed.', 'C': 'Mandibular occlusal projections do not image maxillary molar roots.', 'D': 'One obscured projection is insufficient to diagnose missing roots.'}
+    },
    ],
    'extreme': [
     {
-     'question': 'Radiographic clues favoring a malignant jaw lesion include?',
-     'options': [
-      'A) Ill-defined borders, cortical destruction, and rapid change',
-      'B) Well-corticated unilocular slow expansion',
-      'C) Uniform radiopaque torus morphology',
-      'D) Completely normal trabecular pattern'
-     ],
-     'answer': 'A) Ill-defined borders, cortical destruction, and rapid change',
-     'explanation': 'Malignant jaw lesions often destroy bone with ill-defined, non-corticated borders and cortical perforation because neoplastic growth outpaces host bone remodeling. Rapid radiographic change and tooth mobility with widened PDL spaces heighten concern.',
-     'choice_explanations': {
-      'A': 'Malignant jaw lesions often destroy bone with ill-defined, non-corticated borders and cortical perforation because neoplastic growth outpaces host bone remodeling. Rapid radiographic change and tooth mobility with widened PDL spaces heighten concern.',
-      'B': 'Well-corticated slow expansion suggests benign cysts/tumors more than malignancy. Malignant jaw lesions often destroy bone with ill-defined, non-corticated borders and cortical perforation because neoplastic growth outpaces host bone remodeling.',
-      'C': 'Tori are benign radiopaque exostoses, not malignant destructive bone patterns. Malignant jaw lesions often destroy bone with ill-defined, non-corticated borders and cortical perforation because neoplastic growth outpaces host bone remodeling.',
-      'D': 'Normal trabeculae argue against an aggressive malignant jaw lesion. Malignant jaw lesions often destroy bone with ill-defined, non-corticated borders and cortical perforation because neoplastic growth outpaces host bone remodeling.'
-     }
+     'question': 'A 55-year-old with prior head/neck radiation for cancer needs extractions of periodontally hopeless teeth in the irradiated mandible field. Orthopantomogram shows mixed sclerosis. He asks for simple forceps removal today. Which complex risk-management decision is correct?',
+     'options': ['A) Extract immediately with maximal flap reflection and bone removal without counseling ORN risk', 'B) Recognize osteoradionecrosis risk; coordinate oncology/OMFS, consider hyperbaric protocols where used, prefer atraumatic/surgical planning, and avoid casual extractions without risk counseling', 'C) Assure that radiated bone never develops healing complications', 'D) Order monthly whole-body PET-CT solely to plan a simple extraction'],
+     'answer': 'B) Recognize osteoradionecrosis risk; coordinate oncology/OMFS, consider hyperbaric protocols where used, prefer atraumatic/surgical planning, and avoid casual extractions without risk counseling',
+     'explanation': 'Irradiated jaws have lifelong osteoradionecrosis risk after trauma/extraction. Management may include antibiotic coverage, atraumatic technique, HBO in selected protocols, and specialist coordination. Denying risk or ordering irrelevant monthly PET for simple dental planning are near-misses.',
+     'choice_explanations': {'A': 'Aggressive surgery without ORN counseling increases harm risk.', 'B': 'Post-radiation extractions need ORN risk counseling and specialist-coordinated atraumatic planning—not casual surgery.', 'C': 'Radiation-damaged bone has impaired healing and ORN risk.', 'D': 'Monthly whole-body PET is not the ALARA-appropriate planner for routine extraction geometry.'}
     },
     {
-     'question': 'Typical effective-dose ranking among common dental imaging modalities is?',
-     'options': [
-      'A) Bitewing effective dose exceeding typical CBCT fields',
-      'B) Equal effective dose across intraoral, panoramic, and CBCT',
-      'C) CBCT generally greater than panoramic, which is generally greater than intraoral',
-      'D) Clinical photography higher dose than CBCT'
-     ],
-     'answer': 'C) CBCT generally greater than panoramic, which is generally greater than intraoral',
-     'explanation': 'Effective dose generally increases from well-collimated intraoral radiographs to panoramic imaging to CBCT examinations of larger fields of view, though exact values depend on exposure parameters. Selection criteria must match the diagnostic task to the lowest adequate dose.',
-     'choice_explanations': {
-      'A': 'Well-collimated bitewings generally have lower—not higher—effective dose than typical CBCT fields. Effective dose generally increases from well-collimated intraoral radiographs to panoramic imaging to CBCT examinations of larger fields of view, though exact values depend on exposure parameters.',
-      'B': 'Effective doses are not equal across intraoral, panoramic, and CBCT modalities. Effective dose generally increases from well-collimated intraoral radiographs to panoramic imaging to CBCT examinations of larger fields of view, though exact values depend on exposure parameters.',
-      'C': 'Effective dose generally increases from well-collimated intraoral radiographs to panoramic imaging to CBCT examinations of larger fields of view, though exact values depend on exposure parameters. Selection criteria must match the diagnostic task to the lowest adequate dose.',
-      'D': 'Clinical photography uses visible light with no ionizing dose, unlike CBCT. Effective dose generally increases from well-collimated intraoral radiographs to panoramic imaging to CBCT examinations of larger fields of view, though exact values depend on exposure parameters.'
-     }
+     'question': 'CBCT ordered for implant planning incidentally shows a well-circumscribed radiopaque mass in the mandibular canal region with expansion, and the patient has lip paresthesia. Which differential-driven next step is most appropriate?',
+     'options': ['A) Proceed with freehand implant drilling through the radiopaque canal mass', 'B) Ignore paresthesia because CBCT artifacts always cause numbness', 'C) Stop routine implant drilling plans; refer for specialist evaluation of a possible benign neural tumor/other canal lesion before any implant osteotomy', 'D) Diagnose the finding as cervical burnout of a molar crown'],
+     'answer': 'C) Stop routine implant drilling plans; refer for specialist evaluation of a possible benign neural tumor/other canal lesion before any implant osteotomy',
+     'explanation': 'Canal-centered radiopaque expanding lesions with paresthesia raise concern for benign neural tumors (e.g., schwannoma/neurofibroma) or other pathology. Implant osteotomy through such lesions risks catastrophic nerve injury. Cervical burnout is a tooth-cervix artifact, unrelated.',
+     'choice_explanations': {'A': 'Drilling through a canal mass can transect the IAN and worsen deficit.', 'B': 'True paresthesia is a clinical neurologic finding, not a CBCT software illusion.', 'C': 'Incidental canal lesion + paresthesia mandates specialist workup before any implant osteotomy.', 'D': 'Cervical burnout occurs at tooth necks, not as expanding canal masses.'}
     },
     {
-     'question': 'Idiopathic osteosclerosis is distinguished from condensing osteitis chiefly by?',
-     'options': [
-      'A) Tooth vitality testing and clinical inflammatory context',
-      'B) Treating every focal radiopacity with root canal therapy',
-      'C) Assuming both represent malignancy until resected',
-      'D) Extracting the associated tooth for every radiopacity'
-     ],
-     'answer': 'A) Tooth vitality testing and clinical inflammatory context',
-     'explanation': 'Idiopathic osteosclerosis is a focal radiopacity in bone associated with a vital tooth and no inflammatory cause. Condensing osteitis is a reactive bony sclerosis at the apex of a tooth with pulpitis or necrosis; vitality and symptoms separate the two.',
-     'choice_explanations': {
-      'A': 'Idiopathic osteosclerosis is a focal radiopacity in bone associated with a vital tooth and no inflammatory cause. Condensing osteitis is a reactive bony sclerosis at the apex of a tooth with pulpitis or necrosis; vitality and symptoms separate the two.',
-      'B': 'RCT treats pulp/periapical disease; idiopathic osteosclerosis by a vital tooth needs no endodontics. Idiopathic osteosclerosis is a focal radiopacity in bone associated with a vital tooth and no inflammatory cause.',
-      'C': 'Neither idiopathic osteosclerosis nor condensing osteitis is managed as malignancy by default. Idiopathic osteosclerosis is a focal radiopacity in bone associated with a vital tooth and no inflammatory cause.',
-      'D': 'Extraction is not indicated for every focal radiopacity without diagnosis. Idiopathic osteosclerosis is a focal radiopacity in bone associated with a vital tooth and no inflammatory cause.'
-     }
-    }
-   ]
+     'question': 'A pregnant patient in the first trimester has acute pulpal pain and suspected periapical pathology on a lower molar. She fears any radiographs. Which decision balances fetal concerns with dental diagnosis?',
+     'options': ['A) Refuse all imaging forever and also refuse emergency dental treatment', 'B) Take a full-mouth series plus CBCT of both jaws just in case without indications', 'C) Use medical abdominal CT instead of a dental periapical for the tooth', 'D) Explain that with proper shielding and modern receptors, a necessary periapical has very low fetal dose and is justified when it changes urgent care; do not withhold indicated imaging that prevents infection progression'],
+     'answer': 'D) Explain that with proper shielding and modern receptors, a necessary periapical has very low fetal dose and is justified when it changes urgent care; do not withhold indicated imaging that prevents infection progression',
+     'explanation': 'Indicated dental radiographs with thyroid/abdominal shielding and digital sensors pose minimal fetal risk and are acceptable when needed for emergency care. Blanket refusal can allow infection to worsen; unjustified FMX/CBCT and abdominal CT violate ALARA far more than a single PA.',
+     'choice_explanations': {'A': 'Denying both diagnosis and emergency care risks maternal infection harm.', 'B': 'Unindicated full-mouth + CBCT contradicts ALARA in pregnancy.', 'C': 'Abdominal CT delivers far higher dose and does not image teeth usefully.', 'D': 'Necessary shielded dental radiographs for acute care are appropriate in pregnancy; avoid both neglect and over-imaging.'}
+    },
+   ],
   },
   'cases': {
    'easy': [
-    {
-     'title': 'Suspected Interproximal Caries',
-     'stem': 'Tight contacts, clinical doubt on upper premolars.',
-     'question': 'Image of choice first?',
-     'answer': 'Bitewings.',
-     'discussion': 'Then restore if confirmed.',
-     'book_hint': "White and Pharoah's Oral Radiology"
-    }
+    {'title': 'Suspected Interproximal Caries', 'stem': 'Tight contacts, clinical doubt on upper premolars.', 'question': 'Image of choice first?', 'answer': 'Bitewings.', 'discussion': 'Then restore if confirmed.', 'book_hint': "White and Pharoah's Oral Radiology"},
    ],
    'medium': [
-    {
-     'title': 'Impacted Canine Localization',
-     'stem': 'Need to know buccal/palatal position of impacted canine.',
-     'question': 'Options?',
-     'answer': 'Parallax technique or CBCT when justified.',
-     'discussion': 'Avoid unnecessary high-dose imaging.',
-     'book_hint': "White and Pharoah's Oral Radiology"
-    }
+    {'title': 'Impacted Canine Localization', 'stem': 'Need to know buccal/palatal position of impacted canine.', 'question': 'Options?', 'answer': 'Parallax technique or CBCT when justified.', 'discussion': 'Avoid unnecessary high-dose imaging.', 'book_hint': "White and Pharoah's Oral Radiology"},
    ],
    'hard': [
-    {
-     'title': 'Unilocular Radiolucency Angle of Mandible',
-     'stem': 'Impacted wisdom tooth with radiolucency around crown in a young adult. Choose the safest high-yield next concept before definitive results.',
-     'question': 'Differential includes?',
-     'answer': 'Dentigerous cyst among others — remove/investigate histologically as indicated.',
-     'discussion': 'Do not ignore enlarging lesions.',
-     'book_hint': "White and Pharoah's Oral Radiology"
-    }
+    {'title': 'Unilocular Radiolucency Angle of Mandible', 'stem': 'Impacted wisdom tooth with radiolucency around crown in a young adult. Choose the safest high-yield next concept before definitive results.', 'question': 'Differential includes?', 'answer': 'Dentigerous cyst among others — remove/investigate histologically as indicated.', 'discussion': 'Do not ignore enlarging lesions.', 'book_hint': "White and Pharoah's Oral Radiology"},
    ],
    'extreme': [
-    {
-     'title': 'Ill-defined Mandibular Destruction',
-     'stem': 'A rapidly enlarging numb chin, loose teeth, and moth-eaten bone on radiograph. Avoid harmful premature treatment while catastrophic differentials remain open.',
-     'question': 'Action?',
-     'answer': 'Urgent biopsy/OMFS-oncology workup for possible malignancy.',
-     'discussion': 'Do not schedule elective cleaning only.',
-     'book_hint': "White and Pharoah's Oral Radiology"
-    }
-   ]
-  }
+    {'title': 'Ill-defined Mandibular Destruction', 'stem': 'A rapidly enlarging numb chin, loose teeth, and moth-eaten bone on radiograph. Avoid harmful premature treatment while catastrophic differentials remain open.', 'question': 'Action?', 'answer': 'Urgent biopsy/OMFS-oncology workup for possible malignancy.', 'discussion': 'Do not schedule elective cleaning only.', 'book_hint': "White and Pharoah's Oral Radiology"},
+   ],
+  },
  },
  'dental_anatomy': {
   'label': 'Dental Anatomy',
-  'books': [
-   "Wheeler's Dental Anatomy, Physiology and Occlusion",
-   "Ash & Nelson's Dental Anatomy",
-   'Dental Anatomy review guides'
-  ],
-  'pdf_notes': [
-   '32 permanent teeth; 20 primary.',
-   'Know root/canal morphology for endo success.',
-   'Carabelli trait on maxillary first molar.',
-   'High pulp horns in young teeth.',
-   'Anomalies (dens invaginatus, dilaceration) change plans.'
-  ],
+  'books': ["Wheeler's Dental Anatomy, Physiology and Occlusion", "Ash & Nelson's Dental Anatomy", 'Dental Anatomy review guides'],
+  'pdf_notes': ['32 permanent teeth; 20 primary.', 'Know root/canal morphology for endo success.', 'Carabelli trait on maxillary first molar.', 'High pulp horns in young teeth.', 'Anomalies (dens invaginatus, dilaceration) change plans.'],
   'questions': {
    'easy': [
     {
-     'question': 'How many teeth are in the complete permanent dentition normally?',
-     'options': [
-      'A) 32',
-      'B) 20',
-      'C) 28 as the anatomic total including third molars',
-      'D) 16'
-     ],
-     'answer': 'A) 32',
-     'explanation': 'The permanent dentition normally comprises 8 incisors, 4 canines, 8 premolars, and 12 molars, totaling 32 teeth including third molars. Congenitally missing third molars reduce the clinical count but do not change the anatomic norm of 32.',
-     'choice_explanations': {
-      'A': 'The permanent dentition normally comprises 8 incisors, 4 canines, 8 premolars, and 12 molars, totaling 32 teeth including third molars. Congenitally missing third molars reduce the clinical count but do not change the anatomic norm of 32.',
-      'B': 'Twenty is the normal primary dentition total, not the complete permanent dentition including third molars. The permanent dentition normally comprises 8 incisors, 4 canines, 8 premolars, and 12 molars, totaling 32 teeth including third molars.',
-      'C': 'Counting 28 while including third molars is inconsistent; with thirds the normal permanent total is 32. The permanent dentition normally comprises 8 incisors, 4 canines, 8 premolars, and 12 molars, totaling 32 teeth including third molars.',
-      'D': 'Sixteen teeth would represent only one arch or severe hypodontia, not the normal permanent total. The permanent dentition normally comprises 8 incisors, 4 canines, 8 premolars, and 12 molars, totaling 32 teeth including third molars.'
-     }
+     'question': 'Which permanent tooth typically has the longest root?',
+     'options': ['A) Maxillary canine', 'B) Mandibular central incisor', 'C) Maxillary third molar', 'D) Mandibular lateral incisor'],
+     'answer': 'A) Maxillary canine',
+     'explanation': 'The maxillary canine usually possesses the longest root of the permanent dentition, providing strong anchorage. Mandibular incisors have shorter single roots; third molars are variable and often shorter/fused.',
+     'choice_explanations': {'A': 'Maxillary canines characteristically have the longest roots among permanent teeth.', 'B': 'Mandibular central roots are comparatively short and narrow.', 'C': 'Third molar roots are often short, fused, or variable—not the longest on average.', 'D': 'Mandibular lateral roots are shorter than maxillary canine roots.'}
     },
     {
-     'question': 'How many teeth are in the complete primary dentition?',
-     'options': [
-      'A) 32',
-      'B) 20',
-      'C) 12',
-      'D) 36'
-     ],
-     'answer': 'B) 20',
-     'explanation': 'The primary dentition consists of 8 incisors, 4 canines, and 8 molars—20 teeth total—with no premolars. Premolars succeed the primary molars in the mixed and permanent dentitions.',
-     'choice_explanations': {
-      'A': 'Thirty-two is the normal permanent dentition total including third molars, not the primary dentition. The primary dentition consists of 8 incisors, 4 canines, and 8 molars—20 teeth total—with no premolars.',
-      'B': 'The primary dentition consists of 8 incisors, 4 canines, and 8 molars—20 teeth total—with no premolars. Premolars succeed the primary molars in the mixed and permanent dentitions.',
-      'C': 'Twelve is not the complete primary dentition count of 20. The primary dentition consists of 8 incisors, 4 canines, and 8 molars—20 teeth total—with no premolars.',
-      'D': 'Thirty-six exceeds the normal primary complement of 20 teeth. The primary dentition consists of 8 incisors, 4 canines, and 8 molars—20 teeth total—with no premolars.'
-     }
+     'question': 'The cusp of Carabelli is most frequently associated with which tooth surface?',
+     'options': ['A) Distobuccal cusp of the mandibular first premolar', 'B) Mesiolingual cusp region of the maxillary first molar', 'C) Incisal edge of the mandibular central incisor', 'D) Buccal pit of the mandibular canine'],
+     'answer': 'B) Mesiolingual cusp region of the maxillary first molar',
+     'explanation': 'An accessory cusp of Carabelli (when present) arises on the mesiolingual aspect of maxillary first molars (sometimes seconds). It is not an incisor or canine feature and is not the mandibular first premolar’s main identifying cusp anatomy.',
+     'choice_explanations': {'A': 'Mandibular first premolars are identified by a large buccal cusp, not Carabelli.', 'B': 'Cusp of Carabelli appears on the mesiolingual of maxillary first molars when present.', 'C': 'Incisors lack Carabelli cusps.', 'D': 'Canines do not bear a Carabelli cusp on a buccal pit.'}
     },
     {
-     'question': 'The cusp of Carabelli is characteristically found on?',
-     'options': [
-      'A) Mandibular central incisor',
-      'B) Maxillary lateral incisor only',
-      'C) Mandibular canine',
-      'D) Maxillary first molar'
-     ],
-     'answer': 'D) Maxillary first molar',
-     'explanation': 'The cusp of Carabelli is an accessory cusp or tubercle on the mesiolingual surface of the maxillary first permanent molar (and sometimes the primary second molar). It is a common morphologic variation with clinical relevance for restoration contours.',
-     'choice_explanations': {
-      'A': 'Mandibular central incisors lack a cusp of Carabelli, which is a maxillary first-molar trait. The cusp of Carabelli is an accessory cusp or tubercle on the mesiolingual surface of the maxillary first permanent molar (and sometimes the primary second molar).',
-      'B': 'The maxillary lateral incisor is a single-rooted anterior tooth; true bony impaction is uncommon versus agenesis. The cusp of Carabelli is an accessory cusp or tubercle on the mesiolingual surface of the maxillary first permanent molar (and sometimes the primary second molar).',
-      'C': 'Mandibular canines do not bear a cusp of Carabelli. The cusp of Carabelli is an accessory cusp or tubercle on the mesiolingual surface of the maxillary first permanent molar (and sometimes the primary second molar).',
-      'D': 'The cusp of Carabelli is an accessory cusp or tubercle on the mesiolingual surface of the maxillary first permanent molar (and sometimes the primary second molar). It is a common morphologic variation with clinical relevance for restoration contours.'
-     }
-    }
+     'question': 'Which primary tooth is most likely to exhibit a prominent mesial cervical crown bulge and a unique occlusal anatomy among primary molars commonly tested?',
+     'options': ['A) Permanent mandibular third molar exclusively', 'B) Permanent maxillary central incisor exclusively', 'C) Primary maxillary first molar (distinct from permanent premolar form)', 'D) Primary mandibular central incisor exclusively as a molar form'],
+     'answer': 'C) Primary maxillary first molar (distinct from permanent premolar form)',
+     'explanation': 'Primary maxillary first molars have unique morphology (often compared loosely to premolars yet distinct), with a prominent buccal cervical ridge. Permanent third molars and permanent centrals are not primary molars; primary mandibular centrals are incisors.',
+     'choice_explanations': {'A': 'Permanent third molars are not primary teeth.', 'B': 'Permanent central incisors are not primary molars.', 'C': 'Primary maxillary first molars have distinctive molar form with marked cervical bulge features emphasized in anatomy courses.', 'D': 'Primary mandibular centrals are incisors, not molars.'}
+    },
    ],
    'medium': [
     {
-     'question': 'The maxillary first premolar most commonly has?',
-     'options': [
-      'A) A single canal in every specimen',
-      'B) Three roots identical to a maxillary molar',
-      'C) No cusps on the occlusal surface',
-      'D) Two roots and commonly two canals'
-     ],
-     'answer': 'D) Two roots and commonly two canals',
-     'explanation': 'The maxillary first premolar most often has two roots—one buccal and one palatal—and correspondingly two root canals. This bifurcation has direct endodontic and extraction significance because both canals must be located and instrumented.',
-     'choice_explanations': {
-      'A': 'Maxillary first premolars commonly have two canals, not a single canal in every specimen. The maxillary first premolar most often has two roots—one buccal and one palatal—and correspondingly two root canals.',
-      'B': 'Maxillary first premolars are not typically three-rooted like maxillary molars. The maxillary first premolar most often has two roots—one buccal and one palatal—and correspondingly two root canals.',
-      'C': 'Premolars are bicuspids with occlusal cusps. The maxillary first premolar most often has two roots—one buccal and one palatal—and correspondingly two root canals.',
-      'D': 'The maxillary first premolar most often has two roots—one buccal and one palatal—and correspondingly two root canals. This bifurcation has direct endodontic and extraction significance because both canals must be located and instrumented.'
-     }
+     'question': 'Which applied anatomic feature of mandibular first molars most influences periodontal instrument adaptation buccally?',
+     'options': ['A) Presence of a cusp of Carabelli on the buccal surface', 'B) A single conical root like a primary incisor always', 'C) Complete absence of a buccal groove in all individuals', 'D) The cervical enamel contour and root trunk with possible buccal furcation involvement'],
+     'answer': 'D) The cervical enamel contour and root trunk with possible buccal furcation involvement',
+     'explanation': 'Mandibular first molars have two roots and a buccal groove/furcation anatomy that guides scaling adaptation. Carabelli is a maxillary trait; these molars are not single-rooted like primary incisors; buccal grooves are typical.',
+     'choice_explanations': {'A': 'Cusp of Carabelli is maxillary first molar mesiolingual, not mandibular buccal.', 'B': 'Mandibular first molars normally have two roots, not a single conical root.', 'C': 'A buccal groove is a standard landmark of mandibular first molars.', 'D': 'Mandibular first molar cervical/furcation anatomy guides buccal periodontal instrumentation.'}
     },
     {
-     'question': 'Proximal contact areas of anterior teeth are usually located?',
-     'options': [
-      'A) At the cervical third only',
-      'B) Near the junction of the incisal and middle thirds',
-      'C) At the root apex',
-      'D) Absent in a normal healthy arch'
-     ],
-     'answer': 'B) Near the junction of the incisal and middle thirds',
-     'explanation': 'Proximal contact areas of anterior teeth are typically located in the incisal third, near the junction with the middle third, creating a contact that stabilizes the arch and protects the interdental papilla from food impaction.',
-     'choice_explanations': {
-      'A': 'Anterior proximal contacts are not normally confined to the cervical third. Proximal contact areas of anterior teeth are typically located in the incisal third, near the junction with the middle third, creating a contact that stabilizes the arch and protects the interdental papilla from food impaction.',
-      'B': 'Proximal contact areas of anterior teeth are typically located in the incisal third, near the junction with the middle third, creating a contact that stabilizes the arch and protects the interdental papilla from food impaction.',
-      'C': 'Proximal contacts are coronal crown features, not located at the root apex. Proximal contact areas of anterior teeth are typically located in the incisal third, near the junction with the middle third, creating a contact that stabilizes the arch and protects the interdental papilla from food impaction.',
-      'D': 'Healthy arches have proximal contacts that stabilize teeth and protect papillae. Proximal contact areas of anterior teeth are typically located in the incisal third, near the junction with the middle third, creating a contact that stabilizes the arch and protects the interdental papilla from food impaction.'
-     }
+     'question': 'For endodontic access, which applied pulp-chamber landmark relationship is most reliable in mature maxillary first molars?',
+     'options': ['A) Pulp chamber floor is at the level of the CEJ region with canal orifices arranged accordingly (often MB, DB, P; MB2 common)', 'B) All canal orifices always exit through the incisal edge', 'C) There is never more than one canal in any maxillary molar', 'D) Pulp horns are absent in all maxillary first molars'],
+     'answer': 'A) Pulp chamber floor is at the level of the CEJ region with canal orifices arranged accordingly (often MB, DB, P; MB2 common)',
+     'explanation': 'In mature molars the chamber floor approximates CEJ level, and maxillary first molars commonly have three roots with four canals (MB2 frequent). Incisal access applies to anteriors; pulp horns exist especially in young teeth.',
+     'choice_explanations': {'A': 'Maxillary first molar access uses CEJ-level chamber floor landmarks and anticipates MB2.', 'B': 'Molar orifices are on the chamber floor, not the incisal edge.', 'C': 'MB2 is common; assuming only one canal is a frequent cause of failure.', 'D': 'Pulp horns are present, notably in younger teeth.'}
     },
     {
-     'question': 'The curve of Spee is?',
-     'options': [
-      'A) The mediolateral occlusal curve of Wilson',
-      'B) Bonwill’s equilateral triangle alone',
-      'C) The anteroposterior occlusal curvature in the sagittal plane',
-      'D) Freeway space between rest and occlusion'
-     ],
-     'answer': 'C) The anteroposterior occlusal curvature in the sagittal plane',
-     'explanation': 'The curve of Spee is the anteroposterior occlusal curvature seen in the sagittal plane, concave superiorly in the mandibular arch from canine through posterior teeth. It contributes to balanced occlusal contacts in mandibular excursions.',
-     'choice_explanations': {
-      'A': 'The curve of Wilson is mediolateral; the curve of Spee is anteroposterior in the sagittal plane. The curve of Spee is the anteroposterior occlusal curvature seen in the sagittal plane, concave superiorly in the mandibular arch from canine through posterior teeth.',
-      'B': 'Bonwill’s triangle relates intercondylar and incisal distances, not the curve of Spee itself. The curve of Spee is the anteroposterior occlusal curvature seen in the sagittal plane, concave superiorly in the mandibular arch from canine through posterior teeth.',
-      'C': 'The curve of Spee is the anteroposterior occlusal curvature seen in the sagittal plane, concave superiorly in the mandibular arch from canine through posterior teeth. It contributes to balanced occlusal contacts in mandibular excursions.',
-      'D': 'Freeway space is the interocclusal rest gap, not the anteroposterior curve of Spee. The curve of Spee is the anteroposterior occlusal curvature seen in the sagittal plane, concave superiorly in the mandibular arch from canine through posterior teeth.'
-     }
-    }
+     'question': 'Occlusal contact on a maxillary premolar is applied clinically when adjusting a crown. Which anatomic feature primarily guides buccal cusp placement in the fossae of the antagonist?',
+     'options': ['A) The pulp chamber height alone without occlusal anatomy', 'B) The supporting cusp relationship into opposing fossae/marginal ridge areas within the occlusal scheme', 'C) The color of the shade tab under metamerism only', 'D) The length of the patient’s hair'],
+     'answer': 'B) The supporting cusp relationship into opposing fossae/marginal ridge areas within the occlusal scheme',
+     'explanation': 'In occlusal schemes, supporting cusps contact opposing fossae or marginal ridges. Crown adjustment references these contacts, not pulp chamber height, shade metamerism, or irrelevant patient features.',
+     'choice_explanations': {'A': 'Pulp chamber height does not set occlusal contact points.', 'B': 'Supporting cusp–fossa/marginal ridge relations guide premolar occlusal adjustment.', 'C': 'Shade selection is esthetic, not cusp–fossa anatomy.', 'D': 'Hair length is unrelated to occlusion.'}
+    },
    ],
    'hard': [
     {
-     'question': 'Mandibular first molars most typically have which canal configuration?',
-     'options': [
-      'A) Often three canals (MB, ML, and distal) with anatomic variations',
-      'B) A single canal in both roots in virtually all teeth',
-      'C) Five separate canals named after Carabelli',
-      'D) Absence of a pulp chamber in mature teeth'
-     ],
-     'answer': 'A) Often three canals (MB, ML, and distal) with anatomic variations',
-     'explanation': 'Mandibular first molars most commonly have two roots with three principal canals: mesiobuccal, mesiolingual, and a distal canal (which may split into two). Anatomic variations include a middle mesial canal; missing canals cause endodontic failure.',
-     'choice_explanations': {
-      'A': 'Mandibular first molars most commonly have two roots with three principal canals: mesiobuccal, mesiolingual, and a distal canal (which may split into two). Anatomic variations include a middle mesial canal; missing canals cause endodontic failure.',
-      'B': 'Mandibular first molars rarely have only one canal per root in virtually all teeth. mesiobuccal, mesiolingual, and a distal canal (which may split into two).',
-      'C': 'Carabelli refers to a molar cusp accessory, not a five-canal naming system. mesiobuccal, mesiolingual, and a distal canal (which may split into two).',
-      'D': 'Mature mandibular molars retain a pulp chamber, though reduced by secondary dentin. mesiobuccal, mesiolingual, and a distal canal (which may split into two).'
-     }
+     'question': 'A radiograph of a mandibular second premolar suggests a single root, but the patient has persistent symptoms after apparent one-canal RCT. Clinically the crown has a large lingual cusp almost equal to the buccal. Which multi-cue anatomic suspicion is strongest?',
+     'options': ['A) Assume mandibular second premolars never have anatomic variation', 'B) Diagnose only sinus disease without rechecking the tooth', 'C) Possible second canal/root variation—reassess anatomy with angled radiographs or CBCT and revise treatment', 'D) Conclude the equal lingual cusp proves enamel hypoplasia as the pain source'],
+     'answer': 'C) Possible second canal/root variation—reassess anatomy with angled radiographs or CBCT and revise treatment',
+     'explanation': 'Mandibular premolars may have canal bifurcations despite a seemingly single root. A well-developed lingual cusp can correlate with more complex pulp anatomy. Persistent symptoms warrant anatomic re-evaluation rather than assuming zero variation or unrelated sinus disease alone.',
+     'choice_explanations': {'A': 'Anatomic variation in mandibular premolars is well documented.', 'B': 'Tooth-driven symptoms require dental re-evaluation before attributing solely to sinus disease.', 'C': 'Symptomatic premolars after one-canal RCT need search for missed canal anatomy, especially with suggestive crown form.', 'D': 'Cusp size relates to morphologic type, not enamel hypoplasia as the pain explanation.'}
     },
     {
-     'question': 'Enamel thickness is greatest at?',
-     'options': [
-      'A) The cementoenamel junction',
-      'B) Occlusal and incisal contact areas (cusp tips/incisal edges)',
-      'C) The root apex',
-      'D) Furcation entrances'
-     ],
-     'answer': 'B) Occlusal and incisal contact areas (cusp tips/incisal edges)',
-     'explanation': 'Enamel reaches its greatest thickness over cusp tips and incisal edges—the functional contact areas that sustain heavy occlusal load—while thinning toward the cervix. This distribution resists wear where forces are highest.',
-     'choice_explanations': {
-      'A': 'Enamel is thinnest toward the CEJ, not thickest there. Enamel reaches its greatest thickness over cusp tips and incisal edges—the functional contact areas that sustain heavy occlusal load—while thinning toward the cervix.',
-      'B': 'Enamel reaches its greatest thickness over cusp tips and incisal edges—the functional contact areas that sustain heavy occlusal load—while thinning toward the cervix. This distribution resists wear where forces are highest.',
-      'C': 'The root apex is covered by cementum, not by maximal enamel thickness. Enamel reaches its greatest thickness over cusp tips and incisal edges—the functional contact areas that sustain heavy occlusal load—while thinning toward the cervix.',
-      'D': 'Furcation entrances are root surfaces without thick enamel caps. Enamel reaches its greatest thickness over cusp tips and incisal edges—the functional contact areas that sustain heavy occlusal load—while thinning toward the cervix.'
-     }
+     'question': 'During extraction planning, a maxillary first molar shows three divergent roots on CBCT with the palatal root into the sinus floor and closely approximated MB/DB roots. Which multi-cue anatomic implication is most important?',
+     'options': ['A) Use uncontrolled force assuming all maxillary molars are fused single cones', 'B) Ignore sinus proximity because molars never communicate with the antrum', 'C) Extract via the nasal cavity as the standard first approach', 'D) Plan sectioning to reduce oroantral and root-fracture risk given divergence and sinus proximity'],
+     'answer': 'D) Plan sectioning to reduce oroantral and root-fracture risk given divergence and sinus proximity',
+     'explanation': 'Divergent maxillary molar roots and sinus approximation raise fracture and oroantral communication risk; sectioning reduces force. Fused-cone assumptions, denying sinus risk, or transnasal extraction are incorrect.',
+     'choice_explanations': {'A': 'Uncontrolled force on divergent roots fractures tips and tears sinus membrane.', 'B': 'Maxillary molar roots commonly approximate the sinus.', 'C': 'Transnasal extraction is not a dental standard approach for molars.', 'D': 'Divergent sinus-approximating maxillary molar roots favor controlled sectioning to prevent OAC/fracture.'}
     },
     {
-     'question': 'High pulp horns in young permanent teeth relate most directly to?',
-     'options': [
-      'A) Increased risk of pulp exposure during cavity preparation',
-      'B) Selection of ceramic shade tabs',
-      'C) Equal crown and root lengths in all permanent teeth',
-      'D) Volume of supragingival calculus deposits'
-     ],
-     'answer': 'A) Increased risk of pulp exposure during cavity preparation',
-     'explanation': 'Pulp horns extend occlusally under cusps and are relatively high in young teeth before secondary dentin accumulates. Cavity or crown preparation that ignores horn height risks mechanical pulp exposure.',
-     'choice_explanations': {
-      'A': 'Pulp horns extend occlusally under cusps and are relatively high in young teeth before secondary dentin accumulates. Cavity or crown preparation that ignores horn height risks mechanical pulp exposure.',
-      'B': 'Shade tabs are optical color references unrelated to pulp-horn height risk. Pulp horns extend occlusally under cusps and are relatively high in young teeth before secondary dentin accumulates.',
-      'C': 'Crown/root ratios vary by tooth type; pulp-horn height is a separate anatomic risk. Pulp horns extend occlusally under cusps and are relatively high in young teeth before secondary dentin accumulates.',
-      'D': 'Calculus volume is not determined by pulp-horn height. Pulp horns extend occlusally under cusps and are relatively high in young teeth before secondary dentin accumulates.'
-     }
-    }
+     'question': 'A student identifies a tooth with two roots (buccal and lingual), a mesial marginal ridge more cervical than distal, and a large buccal cusp with a nonfunctioning lingual cusp. Which multi-cue identification is most accurate?',
+     'options': ['A) Maxillary first premolar', 'B) Mandibular canine', 'C) Maxillary central incisor', 'D) Mandibular second molar with five cusps'],
+     'answer': 'A) Maxillary first premolar',
+     'explanation': 'Maxillary first premolars commonly have two roots (buccal/lingual) and characteristic mesial anatomy with a dominant buccal cusp. Mandibular canines are typically single-rooted; centrals are incisors; mandibular second molars are multi-cusped molars, not this premolar pattern.',
+     'choice_explanations': {'A': 'Two-rooted premolar with dominant buccal cusp and characteristic mesial anatomy = maxillary first premolar.', 'B': 'Mandibular canines are usually single-rooted anterior teeth.', 'C': 'Maxillary centrals are single-rooted incisors without buccal/lingual premolar cusps.', 'D': 'Mandibular second molars have molar occlusal schemes, not this premolar root/cusp pattern.'}
+    },
    ],
    'extreme': [
     {
-     'question': 'Dens invaginatus elevates risk of?',
-     'options': [
-      'A) Improved enamel quality without infection risk',
-      'B) Cutaneous freckling',
-      'C) Pulp infection via the invagination channel',
-      'D) Torus mandibularis formation'
-     ],
-     'answer': 'C) Pulp infection via the invagination channel',
-     'explanation': 'Dens invaginatus is an infolding of the enamel organ into the dental papilla, creating a deep palatal pit continuous with a blind or open channel toward the pulp. Oral bacteria can rapidly infect the pulp through this pathway, often before deep caries is clinically obvious.',
-     'choice_explanations': {
-      'A': 'Dens invaginatus creates a bacterial pathway toward the pulp, raising—not lowering—infection risk. Dens invaginatus is an infolding of the enamel organ into the dental papilla, creating a deep palatal pit continuous with a blind or open channel toward the pulp.',
-      'B': 'Facial freckling is melanocytic pigmentation unrelated to ectopic canine mechanics. Dens invaginatus is an infolding of the enamel organ into the dental papilla, creating a deep palatal pit continuous with a blind or open channel toward the pulp.',
-      'C': 'Dens invaginatus is an infolding of the enamel organ into the dental papilla, creating a deep palatal pit continuous with a blind or open channel toward the pulp. Oral bacteria can rapidly infect the pulp through this pathway, often before deep caries is clinically obvious.',
-      'D': 'Mandibular tori are bony exostoses unrelated to dens invaginatus. Dens invaginatus is an infolding of the enamel organ into the dental papilla, creating a deep palatal pit continuous with a blind or open channel toward the pulp.'
-     }
+     'question': 'An extracted maxillary molar teaching specimen shows three roots, but the MB root has two canal orifices and a fin connecting to a second MB canal that joins near midroot. Clinically this pattern most informs which complex endodontic decision concept on a vital inflamed maxillary first molar?',
+     'options': ['A) Assume MB roots never contain more than one canal in first molars', 'B) Access and instrumentation must actively negotiate MB2 anatomy; missing the second mesiobuccal canal is a common cause of persistent disease despite three canals filled', 'C) Obturate only the palatal canal because MB anatomy is irrelevant to symptoms', 'D) Treat the tooth as a mandibular canine based on root count alone'],
+     'answer': 'B) Access and instrumentation must actively negotiate MB2 anatomy; missing the second mesiobuccal canal is a common cause of persistent disease despite three canals filled',
+     'explanation': 'Maxillary first molars frequently have MB2 canals that may join or remain separate. Failure to locate MB2 leaves infected tissue and explains post-treatment disease. Root count alone does not reclassify the tooth as a canine; all canals need disinfection.',
+     'choice_explanations': {'A': 'MB2 prevalence is high; assuming a single MB canal is a classic error.', 'B': 'MB2 is a critical anatomic complexity in maxillary first molars; missing it risks failure.', 'C': 'MB canal infection can maintain symptoms even if the palatal canal is filled.', 'D': 'Three molar roots do not make the tooth a mandibular canine.'}
     },
     {
-     'question': 'Taurodontism is characterized by?',
-     'options': [
-      'A) Short roots with dilacerated crowns only',
-      'B) An enlarged pulp chamber with apically displaced furcation',
-      'C) Dens evaginatus occlusal tubercles',
-      'D) Enamel pearls at furcation entrances only'
-     ],
-     'answer': 'B) An enlarged pulp chamber with apically displaced furcation',
-     'explanation': 'Taurodontism features an enlarged pulp chamber with apical displacement of the root furcation, producing short roots relative to crown–body height. The altered chamber morphology complicates canal location and increases risk of perforation during endodontic access.',
-     'choice_explanations': {
-      'A': 'Taurodontism is defined by enlarged chamber and apical furcation shift, not simply dilacerated crowns. Taurodontism features an enlarged pulp chamber with apical displacement of the root furcation, producing short roots relative to crown–body height.',
-      'B': 'Taurodontism features an enlarged pulp chamber with apical displacement of the root furcation, producing short roots relative to crown–body height. The altered chamber morphology complicates canal location and increases risk of perforation during endodontic access.',
-      'C': 'Dens evaginatus is an occlusal enamel tubercle that can pulp-expose with wear/fracture. Taurodontism features an enlarged pulp chamber with apical displacement of the root furcation, producing short roots relative to crown–body height.',
-      'D': 'Enamel pearls are ectopic enamel droplets on root surfaces, often near furcations. Taurodontism features an enlarged pulp chamber with apical displacement of the root furcation, producing short roots relative to crown–body height.'
-     }
+     'question': 'A trauma case shows a horizontal root fracture in the apical third of a maxillary central with displaced coronal fragment. Anatomy of the pulp and periodontal ligament attachment informs which complex management differential?',
+     'options': ['A) Always perform immediate RCT of both apical and coronal segments through the fracture without repositioning', 'B) Extract immediately every apical-third root fracture without reposition attempt', 'C) Reposition and flexible splint; pulp may survive especially with apical fractures; monitor vitality and consider endodontics of the coronal segment only if necrosis develops', 'D) Ignore PDL anatomy and rigidly fixate for six months without follow-up vitality tests'],
+     'answer': 'C) Reposition and flexible splint; pulp may survive especially with apical fractures; monitor vitality and consider endodontics of the coronal segment only if necrosis develops',
+     'explanation': 'Apical-third root fractures often have better pulp survival prognosis after repositioning and short-term flexible splinting. Endodontics, if needed, usually addresses the coronal segment when pulp necroses. Immediate RCT of both segments, automatic extraction, or prolonged rigid fixation without monitoring are near-misses.',
+     'choice_explanations': {'A': 'Routine immediate RCT of apical and coronal segments is not first-line when pulp may recover.', 'B': 'Many apical-third fractures can be saved with repositioning/splinting.', 'C': 'Apical root fractures: reposition, flexible splint, monitor; RCT coronal segment only if necrosis occurs.', 'D': 'Rigid prolonged fixation and neglected vitality follow-up worsen outcomes.'}
     },
     {
-     'question': 'Root dilaceration most complicates?',
-     'options': [
-      'A) Shade selection for composite only',
-      'B) Routine flossing effectiveness',
-      'C) Rubber dam clamp color coding',
-      'D) Extraction path and endodontic access'
-     ],
-     'answer': 'D) Extraction path and endodontic access',
-     'explanation': 'Dilaceration is a sharp bend in the root or crown, usually from trauma to the developing tooth germ. The angulation impedes straight-line endodontic access and increases risk of root fracture or incomplete removal during extraction.',
-     'choice_explanations': {
-      'A': 'Root dilaceration complicates extraction path and endodontic access, not shade selection. Dilaceration is a sharp bend in the root or crown, usually from trauma to the developing tooth germ.',
-      'B': 'Flossing efficacy is unrelated to the surgical/endodontic complications of root dilaceration. Dilaceration is a sharp bend in the root or crown, usually from trauma to the developing tooth germ.',
-      'C': 'Clamp color coding is inventory convenience, not affected by dilaceration biomechanics. Dilaceration is a sharp bend in the root or crown, usually from trauma to the developing tooth germ.',
-      'D': 'Dilaceration is a sharp bend in the root or crown, usually from trauma to the developing tooth germ. The angulation impedes straight-line endodontic access and increases risk of root fracture or incomplete removal during extraction.'
-     }
-    }
-   ]
+     'question': 'In planning a surgical endodontic approach to a palatal root of a maxillary first molar, the surgeon notes on CBCT that the root apex is enveloped by sinus membrane and a large greater palatine vessel canal is nearby. Which anatomy-driven complication plan is most appropriate?',
+     'options': ['A) Curette aggressively through the sinus and greater palatine canal without planning', 'B) Assume palatal roots never relate to the maxillary sinus', 'C) Use a standard buccal-only approach and guarantee easy access to every palatal apex', 'D) Modify flap design and apex location strategy to avoid sinus perforation and vascular injury; consider intentional replantation or orthograde options if surgical risk outweighs benefit'],
+     'answer': 'D) Modify flap design and apex location strategy to avoid sinus perforation and vascular injury; consider intentional replantation or orthograde options if surgical risk outweighs benefit',
+     'explanation': 'Palatal apices may project into the sinus, and palatal surgery risks greater palatine neurovascular injury. CBCT guides whether surgery, orthograde revision, or intentional replantation is safer. Aggressive curettage through sinus/vessels and denying sinus relationships are dangerous; buccal approaches often cannot reach palatal apices easily.',
+     'choice_explanations': {'A': 'Aggressive sinus/vessel violation risks hemorrhage and oroantral complications.', 'B': 'Palatal roots commonly approximate or enter the sinus.', 'C': 'Buccal surgery frequently provides poor direct access to palatal apices.', 'D': 'Sinus- and vessel-aware planning may lead to altered surgery or alternative treatment for palatal apices.'}
+    },
+   ],
   },
   'cases': {
    'easy': [
-    {
-     'title': 'Identify Tooth',
-     'stem': 'A tooth has 3 roots and a Carabelli cusp trait.',
-     'question': 'Most likely?',
-     'answer': 'Maxillary first molar.',
-     'discussion': 'Know morphology for endo/restorative.',
-     'book_hint': "Wheeler's Dental Anatomy, Physiology and Occlusion"
-    }
+    {'title': 'Identify Tooth', 'stem': 'A tooth has 3 roots and a Carabelli cusp trait.', 'question': 'Most likely?', 'answer': 'Maxillary first molar.', 'discussion': 'Know morphology for endo/restorative.', 'book_hint': "Wheeler's Dental Anatomy, Physiology and Occlusion"},
    ],
    'medium': [
-    {
-     'title': 'Endo Access Planning',
-     'stem': 'Upper first premolar needs RCT.',
-     'question': 'Anatomy alert?',
-     'answer': 'Often two canals — search carefully.',
-     'discussion': 'Missed canal → failure.',
-     'book_hint': "Wheeler's Dental Anatomy, Physiology and Occlusion"
-    }
+    {'title': 'Endo Access Planning', 'stem': 'Upper first premolar needs RCT.', 'question': 'Anatomy alert?', 'answer': 'Often two canals — search carefully.', 'discussion': 'Missed canal → failure.', 'book_hint': "Wheeler's Dental Anatomy, Physiology and Occlusion"},
    ],
    'hard': [
-    {
-     'title': 'Young Tooth Prep Exposure Risk',
-     'stem': 'A teenager needs a deep occlusal restoration on a newly erupted molar. Choose the safest high-yield next concept before definitive results.',
-     'question': 'Anatomy concern?',
-     'answer': 'High pulp horns — careful depth, consider indirect pulp strategies.',
-     'discussion': 'Avoid iatrogenic exposure.',
-     'book_hint': "Wheeler's Dental Anatomy, Physiology and Occlusion"
-    }
+    {'title': 'Young Tooth Prep Exposure Risk', 'stem': 'A teenager needs a deep occlusal restoration on a newly erupted molar. Choose the safest high-yield next concept before definitive results.', 'question': 'Anatomy concern?', 'answer': 'High pulp horns — careful depth, consider indirect pulp strategies.', 'discussion': 'Avoid iatrogenic exposure.', 'book_hint': "Wheeler's Dental Anatomy, Physiology and Occlusion"},
    ],
    'extreme': [
-    {
-     'title': 'Bizarre Root Morphology Pre-Extract',
-     'stem': 'A curved dilacerated premolar needs extraction under LA. Avoid harmful premature treatment while catastrophic differentials remain open.',
-     'question': 'Plan?',
-     'answer': 'Radiograph assessment, surgical sectioning readiness, avoid blind force.',
-     'discussion': 'Prevent root fracture/displacement.',
-     'book_hint': "Wheeler's Dental Anatomy, Physiology and Occlusion"
-    }
-   ]
-  }
- }
+    {'title': 'Bizarre Root Morphology Pre-Extract', 'stem': 'A curved dilacerated premolar needs extraction under LA. Avoid harmful premature treatment while catastrophic differentials remain open.', 'question': 'Plan?', 'answer': 'Radiograph assessment, surgical sectioning readiness, avoid blind force.', 'discussion': 'Prevent root fracture/displacement.', 'book_hint': "Wheeler's Dental Anatomy, Physiology and Occlusion"},
+   ],
+  },
+ },
 }
 
 def specialty_label(key: str) -> str:
