@@ -18,118 +18,224 @@ SPECIALTIES: dict[str, dict] = {'hematology': {'label': 'Hematology',
                               'Preanalytic errors (clotted/hemolyzed) invalidate many results.'],
                 'questions': {'easy': [{'question': 'Normal adult male hemoglobin roughly?',
                                         'options': ['A) About 13–17 g/dL (lab-dependent)',
-                                                    'B) 3 g/dL',
-                                                    'C) 30 g/dL always',
-                                                    'D) 0.5 g/dL'],
+                                                    'B) About 8–10 g/dL (lab-dependent)',
+                                                    'C) About 18–22 g/dL (lab-dependent)',
+                                                    'D) About 5–7 g/dL (lab-dependent)'],
                                         'answer': 'A) About 13–17 g/dL (lab-dependent)',
-                                        'explanation': 'Adult male hemoglobin reference intervals are typically about 13–17 g/dL, though exact cutoffs vary by laboratory, altitude, and method. Hemoglobin concentration reflects circulating oxygen-carrying capacity and is interpreted with hematocrit and red-cell indices. Sex- and age-specific intervals from the reporting laboratory define the interpretive reference.'},
+                                        'explanation': 'Adult male hemoglobin reference intervals '
+                                                       'are typically about 13–17 g/dL, though '
+                                                       'exact cutoffs vary by laboratory, '
+                                                       'altitude, and method. Hemoglobin '
+                                                       'concentration reflects circulating '
+                                                       'oxygen-carrying capacity and is '
+                                                       'interpreted with hematocrit and red-cell '
+                                                       'indices. Sex- and age-specific intervals '
+                                                       'from the reporting laboratory define the '
+                                                       'interpretive reference.'},
                                        {'question': 'CBC primarily measures?',
-                                        'options': ['A) Blood cell counts and indices',
-                                                    'B) Only electrolytes',
-                                                    'C) Only liver enzymes',
-                                                    'D) Only blood gases'],
-                                        'answer': 'A) Blood cell counts and indices',
-                                        'explanation': 'A complete blood count (CBC) quantifies leukocytes, erythrocytes, and platelets and reports red-cell indices such as MCV, MCH, and MCHC. Automated analyzers also provide leukocyte differentials and flags that prompt smear review. The CBC is the foundational screening test in hematology for anemia, infection, and cytopenias.'},
+                                        'options': ['A) Plasma electrolyte concentrations',
+                                                    'B) Blood cell counts and indices',
+                                                    'C) Coagulation factor activities',
+                                                    'D) Arterial blood gas tensions'],
+                                        'answer': 'B) Blood cell counts and indices',
+                                        'explanation': 'A complete blood count (CBC) quantifies '
+                                                       'leukocytes, erythrocytes, and platelets '
+                                                       'and reports red-cell indices such as MCV, '
+                                                       'MCH, and MCHC. Automated analyzers also '
+                                                       'provide leukocyte differentials and flags '
+                                                       'that prompt smear review. The CBC is the '
+                                                       'foundational screening test in hematology '
+                                                       'for anemia, infection, and cytopenias.'},
                                        {'question': 'Anemia means?',
-                                        'options': ['A) Low hemoglobin/RBC mass for age/sex',
-                                                    'B) Always high WBC',
-                                                    'C) Always high platelets',
-                                                    'D) Always normal oxygen forever'],
-                                        'answer': 'A) Low hemoglobin/RBC mass for age/sex',
-                                        'explanation': 'Anemia is a reduction in hemoglobin concentration or red-cell mass below the reference interval for age and sex. It may result from decreased production, increased destruction, or blood loss. Morphologic (MCV-based) and kinetic approaches guide the subsequent laboratory workup.'}],
+                                        'options': ['A) Elevated leukocyte count for age/sex',
+                                                    'B) Elevated platelet count for age/sex',
+                                                    'C) Low hemoglobin/RBC mass for age/sex',
+                                                    'D) Elevated hematocrit with normal '
+                                                    'hemoglobin'],
+                                        'answer': 'C) Low hemoglobin/RBC mass for age/sex',
+                                        'explanation': 'Anemia is a reduction in hemoglobin '
+                                                       'concentration or red-cell mass below the '
+                                                       'reference interval for age and sex. It may '
+                                                       'result from decreased production, '
+                                                       'increased destruction, or blood loss. '
+                                                       'Morphologic (MCV-based) and kinetic '
+                                                       'approaches guide the subsequent laboratory '
+                                                       'workup.'}],
                               'medium': [{'question': 'Schistocytes suggest?',
-                                          'options': ['A) Microangiopathic hemolysis',
-                                                      'B) Only iron deficiency always',
-                                                      'C) Only B12 deficiency only',
-                                                      'D) Only artifact never pathology'],
-                                          'answer': 'A) Microangiopathic hemolysis',
-                                          'explanation': 'Schistocytes are fragmented red cells formed when erythrocytes are sheared by fibrin strands or abnormal vasculature. Their presence supports microangiopathic hemolytic anemia (MAHA), as seen in TTP, HUS, DIC, and mechanical valve injury. Correlation with LDH, haptoglobin, bilirubin, and platelet count refines the differential.'},
+                                          'options': ['A) Iron-deficiency anemia with pencil cells',
+                                                      'B) Megaloblastic anemia with '
+                                                      'macro-ovalocytes',
+                                                      'C) Hereditary spherocytosis with dense '
+                                                      'spherocytes',
+                                                      'D) Microangiopathic hemolysis'],
+                                          'answer': 'D) Microangiopathic hemolysis',
+                                          'explanation': 'Schistocytes are fragmented red cells '
+                                                         'formed when erythrocytes are sheared by '
+                                                         'fibrin strands or abnormal vasculature. '
+                                                         'Their presence supports microangiopathic '
+                                                         'hemolytic anemia (MAHA), as seen in TTP, '
+                                                         'HUS, DIC, and mechanical valve injury. '
+                                                         'Correlation with LDH, haptoglobin, '
+                                                         'bilirubin, and platelet count refines '
+                                                         'the differential.'},
                                          {'question': 'Left shift means?',
                                           'options': ['A) Increased immature neutrophils',
-                                                      'B) Only low lymphocytes always',
-                                                      'C) Only eosinophilia only',
-                                                      'D) Only basophilia only'],
+                                                      'B) Increased absolute lymphocytosis',
+                                                      'C) Increased absolute eosinophilia',
+                                                      'D) Increased absolute basophilia'],
                                           'answer': 'A) Increased immature neutrophils',
-                                          'explanation': 'A left shift denotes increased circulating immature neutrophils such as bands and earlier myeloid forms. It commonly accompanies acute bacterial infection, inflammation, or physiologic stress with accelerated marrow release. Marked left shift with dysplasia or blasts requires morphologic review to exclude myeloid malignancy.'},
+                                          'explanation': 'A left shift denotes increased '
+                                                         'circulating immature neutrophils such as '
+                                                         'bands and earlier myeloid forms. It '
+                                                         'commonly accompanies acute bacterial '
+                                                         'infection, inflammation, or physiologic '
+                                                         'stress with accelerated marrow release. '
+                                                         'Marked left shift with dysplasia or '
+                                                         'blasts requires morphologic review to '
+                                                         'exclude myeloid malignancy.'},
                                          {'question': 'INR monitors?',
-                                          'options': ['A) Warfarin / extrinsic pathway themes',
-                                                      'B) Only heparin anti-Xa always exclusively',
-                                                      'C) Only bleeding time only',
-                                                      'D) Only D-dimer only'],
-                                          'answer': 'A) Warfarin / extrinsic pathway themes',
-                                          'explanation': 'The international normalized ratio (INR) standardizes the prothrombin time (PT) across thromboplastin reagents. PT/INR primarily assesses the extrinsic and common coagulation pathways and is used to monitor vitamin K antagonist (warfarin) therapy. Results are interpreted with the therapeutic target appropriate to the clinical indication.'}],
-                              'hard': [{'question': 'A junior colleague asks for the single best '
-                                                    'answer. PNH relates to? Beware of near-miss '
-                                                    'distractors.',
-                                        'options': ['A) Complement-mediated hemolysis due to '
+                                          'options': ['A) Unfractionated heparin via anti-Xa assay',
+                                                      'B) Warfarin therapy (extrinsic/common '
+                                                      'pathway)',
+                                                      'C) Primary hemostasis via bleeding time',
+                                                      'D) Fibrinolysis via D-dimer alone'],
+                                          'answer': 'B) Warfarin therapy (extrinsic/common '
+                                                    'pathway)',
+                                          'explanation': 'The international normalized ratio (INR) '
+                                                         'standardizes the prothrombin time (PT) '
+                                                         'across thromboplastin reagents. PT/INR '
+                                                         'primarily assesses the extrinsic and '
+                                                         'common coagulation pathways and is used '
+                                                         'to monitor vitamin K antagonist '
+                                                         '(warfarin) therapy. Results are '
+                                                         'interpreted with the therapeutic target '
+                                                         'appropriate to the clinical '
+                                                         'indication.'}],
+                              'hard': [{'question': 'PNH relates to?',
+                                        'options': ['A) Extrinsic hemolysis from warm IgG '
+                                                    'autoimmune antibody',
+                                                    'B) Intrinsic hemolysis from spectrin '
+                                                    'cytoskeleton defect',
+                                                    'C) Complement-mediated hemolysis due to '
                                                     'GPI-anchor defect',
-                                                    'B) Only iron overload diet',
-                                                    'C) Only folate excess',
-                                                    'D) Only splenic sequestration only forever'],
-                                        'answer': 'A) Complement-mediated hemolysis due to '
+                                                    'D) Sequestration hemolysis from hypersplenism '
+                                                    'alone'],
+                                        'answer': 'C) Complement-mediated hemolysis due to '
                                                   'GPI-anchor defect',
-                                        'explanation': 'Paroxysmal nocturnal hemoglobinuria (PNH) arises from acquired PIGA mutations that impair GPI-anchor synthesis, depleting complement-regulatory proteins CD55 and CD59 on blood cells. Unopposed complement activity produces intravascular hemolysis and contributes to thrombosis risk. High-sensitivity flow cytometry for GPI-deficient clones is the diagnostic method of choice.'},
-                                       {'question': 'A junior colleague asks for the single best '
-                                                    'answer. AML vs ALL distinction uses? Beware '
-                                                    'of near-miss distractors.',
-                                        'options': ['A) Morphology + '
-                                                    'cytochemistry/immunophenotype/genetics',
-                                                    'B) Only patient age forever alone',
-                                                    'C) Only Hb value alone',
-                                                    'D) Only platelet count alone'],
-                                        'answer': 'A) Morphology + '
+                                        'explanation': 'Paroxysmal nocturnal hemoglobinuria (PNH) '
+                                                       'arises from acquired PIGA mutations that '
+                                                       'impair GPI-anchor synthesis, depleting '
+                                                       'complement-regulatory proteins CD55 and '
+                                                       'CD59 on blood cells. Unopposed complement '
+                                                       'activity produces intravascular hemolysis '
+                                                       'and contributes to thrombosis risk. '
+                                                       'High-sensitivity flow cytometry for '
+                                                       'GPI-deficient clones is the diagnostic '
+                                                       'method of choice.'},
+                                       {'question': 'AML vs ALL distinction uses?',
+                                        'options': ['A) Patient age alone without lineage studies',
+                                                    'B) Hemoglobin value alone without blast '
+                                                    'markers',
+                                                    'C) Platelet count alone without '
+                                                    'immunophenotype',
+                                                    'D) Morphology + '
+                                                    'cytochemistry/immunophenotype/genetics'],
+                                        'answer': 'D) Morphology + '
                                                   'cytochemistry/immunophenotype/genetics',
-                                        'explanation': 'Acute myeloid leukemia (AML) and acute lymphoblastic leukemia (ALL) cannot be reliably separated by age or blood counts alone. Distinction relies on blast morphology, cytochemistry when used, multiparameter immunophenotyping, and genetic/cytogenetic findings under WHO/ICC frameworks. Accurate lineage assignment directs induction therapy and risk stratification.'},
-                                       {'question': 'A junior colleague asks for the single best '
-                                                    'answer. HIT is? Beware of near-miss '
-                                                    'distractors.',
+                                        'explanation': 'Acute myeloid leukemia (AML) and acute '
+                                                       'lymphoblastic leukemia (ALL) cannot be '
+                                                       'reliably separated by age or blood counts '
+                                                       'alone. Distinction relies on blast '
+                                                       'morphology, cytochemistry when used, '
+                                                       'multiparameter immunophenotyping, and '
+                                                       'genetic/cytogenetic findings under WHO/ICC '
+                                                       'frameworks. Accurate lineage assignment '
+                                                       'directs induction therapy and risk '
+                                                       'stratification.'},
+                                       {'question': 'HIT is?',
                                         'options': ['A) Heparin-induced thrombocytopenia — immune, '
                                                     'thrombosis risk',
-                                                    'B) Always benign platelet clumping only',
-                                                    'C) Only iron deficiency',
-                                                    'D) Only B12 deficiency'],
+                                                    'B) EDTA-dependent platelet clumping '
+                                                    'pseudothrombocytopenia',
+                                                    'C) Heparin-associated nonimmune platelet '
+                                                    'sequestration',
+                                                    'D) Drug-induced marrow suppression without '
+                                                    'thrombosis risk'],
                                         'answer': 'A) Heparin-induced thrombocytopenia — immune, '
                                                   'thrombosis risk',
-                                        'explanation': 'Heparin-induced thrombocytopenia (HIT) is an immune-mediated disorder in which antibodies against platelet factor 4–heparin complexes activate platelets. Paradoxically, patients develop thrombocytopenia with a high risk of arterial and venous thrombosis. Laboratory evaluation may include immunoassay and functional assays, and heparin must be discontinued with alternative anticoagulation.'}],
-                              'extreme': [{'question': 'In a high-stakes laboratory scenario with '
-                                                       'incomplete data, which statement is MOST '
-                                                       'correct? APML emergency risk? Avoid '
-                                                       'actions that could harm if a critical risk '
-                                                       'remains open.',
-                                           'options': ['A) DIC / bleeding — urgent ATRA pathway '
-                                                       'themes',
-                                                       'B) Only mild iron deficiency',
-                                                       'C) Only allergic rhinitis',
-                                                       'D) Only dehydration'],
-                                           'answer': 'A) DIC / bleeding — urgent ATRA pathway '
-                                                     'themes',
-                                           'explanation': 'Acute promyelocytic leukemia (APML/APL) is driven by PML::RARA and characteristically presents with coagulopathy and DIC-related bleeding. Early recognition of abnormal promyelocytes, often with Auer rods, warrants urgent initiation of all-trans retinoic acid (ATRA)–based therapy. Delayed treatment markedly increases early hemorrhagic mortality.'},
-                                          {'question': 'In a high-stakes laboratory scenario with '
-                                                       'incomplete data, which statement is MOST '
-                                                       'correct? TTP pentad classic teaching '
-                                                       'includes? Avoid actions that could harm if '
-                                                       'a critical risk remains open.',
-                                           'options': ['A) MAHA, thrombocytopenia, neurologic '
+                                        'explanation': 'Heparin-induced thrombocytopenia (HIT) is '
+                                                       'an immune-mediated disorder in which '
+                                                       'antibodies against platelet factor '
+                                                       '4–heparin complexes activate platelets. '
+                                                       'Paradoxically, patients develop '
+                                                       'thrombocytopenia with a high risk of '
+                                                       'arterial and venous thrombosis. Laboratory '
+                                                       'evaluation may include immunoassay and '
+                                                       'functional assays, and heparin must be '
+                                                       'discontinued with alternative '
+                                                       'anticoagulation.'}],
+                              'extreme': [{'question': 'APML emergency risk?',
+                                           'options': ['A) Isolated iron deficiency without '
+                                                       'coagulopathy',
+                                                       'B) DIC/bleeding — urgent ATRA pathway',
+                                                       'C) Hyperviscosity from extreme '
+                                                       'leukocytosis alone',
+                                                       'D) Tumor lysis without coagulopathy '
+                                                       'concern'],
+                                           'answer': 'B) DIC/bleeding — urgent ATRA pathway',
+                                           'explanation': 'Acute promyelocytic leukemia (APML/APL) '
+                                                          'is driven by PML::RARA and '
+                                                          'characteristically presents with '
+                                                          'coagulopathy and DIC-related bleeding. '
+                                                          'Early recognition of abnormal '
+                                                          'promyelocytes, often with Auer rods, '
+                                                          'warrants urgent initiation of all-trans '
+                                                          'retinoic acid (ATRA)–based therapy. '
+                                                          'Delayed treatment markedly increases '
+                                                          'early hemorrhagic mortality.'},
+                                          {'question': 'TTP pentad classic teaching includes?',
+                                           'options': ['A) Isolated neutropenia with normal smear '
+                                                       'and platelets',
+                                                       'B) Polycythemia with thrombocytosis and '
+                                                       'leukocytosis',
+                                                       'C) MAHA, thrombocytopenia, neurologic '
                                                        'change (± renal/fever)',
-                                                       'B) Only isolated neutropenia',
-                                                       'C) Only polycythemia alone',
-                                                       'D) Only eosinophilia'],
-                                           'answer': 'A) MAHA, thrombocytopenia, neurologic change '
+                                                       'D) Eosinophilia with pulmonary infiltrates '
+                                                       'alone'],
+                                           'answer': 'C) MAHA, thrombocytopenia, neurologic change '
                                                      '(± renal/fever)',
-                                           'explanation': 'Thrombotic thrombocytopenic purpura (TTP) classically features microangiopathic hemolytic anemia and thrombocytopenia, often with neurologic findings; fever and renal involvement may occur. Severe ADAMTS13 deficiency allows uncleaved ultra-large von Willebrand multimers to drive platelet microthrombi. Prompt plasma exchange is disease-modifying therapy.'},
-                                          {'question': 'In a high-stakes laboratory scenario with '
-                                                       'incomplete data, which statement is MOST '
-                                                       'correct? Flow cytometry MRD aims to? Avoid '
-                                                       'actions that could harm if a critical risk '
-                                                       'remains open.',
-                                           'options': ['A) Detect residual disease below '
-                                                       'morphology threshold',
-                                                       'B) Replace all coagulation tests',
-                                                       'C) Measure only glucose',
-                                                       'D) Only blood type'],
-                                           'answer': 'A) Detect residual disease below morphology '
+                                           'explanation': 'Thrombotic thrombocytopenic purpura '
+                                                          '(TTP) classically features '
+                                                          'microangiopathic hemolytic anemia and '
+                                                          'thrombocytopenia, often with neurologic '
+                                                          'findings; fever and renal involvement '
+                                                          'may occur. Severe ADAMTS13 deficiency '
+                                                          'allows uncleaved ultra-large von '
+                                                          'Willebrand multimers to drive platelet '
+                                                          'microthrombi. Prompt plasma exchange is '
+                                                          'disease-modifying therapy.'},
+                                          {'question': 'Flow cytometry MRD aims to?',
+                                           'options': ['A) Replace coagulation monitoring after '
+                                                       'induction',
+                                                       'B) Quantify plasma glucose during steroid '
+                                                       'therapy',
+                                                       'C) Determine ABO/Rh type before '
+                                                       'transfusion',
+                                                       'D) Detect residual disease below '
+                                                       'morphology threshold'],
+                                           'answer': 'D) Detect residual disease below morphology '
                                                      'threshold',
-                                           'explanation': 'Minimal residual disease (MRD) assessment by multiparameter flow cytometry detects leukemic cells below the threshold of morphologic remission. Sensitive MRD monitoring informs treatment response, risk stratification, and need for therapy intensification. Assay design requires disease-specific antigen aberrant phenotypes and validated sensitivity limits.'}]},
+                                           'explanation': 'Minimal residual disease (MRD) '
+                                                          'assessment by multiparameter flow '
+                                                          'cytometry detects leukemic cells below '
+                                                          'the threshold of morphologic remission. '
+                                                          'Sensitive MRD monitoring informs '
+                                                          'treatment response, risk '
+                                                          'stratification, and need for therapy '
+                                                          'intensification. Assay design requires '
+                                                          'disease-specific antigen aberrant '
+                                                          'phenotypes and validated sensitivity '
+                                                          'limits.'}]},
                 'cases': {'easy': [{'title': 'Fatigue + Low Hb',
                                     'stem': 'A young woman has fatigue; Hb 9.5 g/dL, MCV low.',
                                     'question': 'Likely anemia type theme?',
@@ -175,131 +281,271 @@ SPECIALTIES: dict[str, dict] = {'hematology': {'label': 'Hematology',
                                       'Preanalytic → analytic → postanalytic thinking prevents '
                                       'errors.'],
                         'questions': {'easy': [{'question': 'Electrolyte panel commonly includes?',
-                                                'options': ['A) Na, K, Cl, bicarbonate themes',
-                                                            'B) Only HbA1c',
-                                                            'C) Only blood film',
-                                                            'D) Only PT only'],
-                                                'answer': 'A) Na, K, Cl, bicarbonate themes',
-                                                'explanation': 'A routine electrolyte panel typically measures sodium, potassium, chloride, and bicarbonate (total CO2), reflecting extracellular fluid composition and acid–base balance. These analytes are central to evaluating dehydration, renal disorders, and metabolic disturbances. Interpretation requires awareness of preanalytic factors such as hemolysis affecting potassium.'},
+                                                'options': ['A) Na, K, Cl, and bicarbonate (total '
+                                                            'CO2)',
+                                                            'B) HbA1c and fructosamine only',
+                                                            'C) CBC indices without chemistry '
+                                                            'analytes',
+                                                            'D) PT/INR without electrolyte '
+                                                            'measurement'],
+                                                'answer': 'A) Na, K, Cl, and bicarbonate (total '
+                                                          'CO2)',
+                                                'explanation': 'A routine electrolyte panel '
+                                                               'typically measures sodium, '
+                                                               'potassium, chloride, and '
+                                                               'bicarbonate (total CO2), '
+                                                               'reflecting extracellular fluid '
+                                                               'composition and acid–base balance. '
+                                                               'These analytes are central to '
+                                                               'evaluating dehydration, renal '
+                                                               'disorders, and metabolic '
+                                                               'disturbances. Interpretation '
+                                                               'requires awareness of preanalytic '
+                                                               'factors such as hemolysis '
+                                                               'affecting potassium.'},
                                                {'question': 'Creatinine mainly reflects?',
-                                                'options': ['A) Kidney filtration function roughly',
-                                                            'B) Only liver synthetic function '
-                                                            'alone',
-                                                            'C) Only muscle enzymes only forever',
-                                                            'D) Only amylase only'],
-                                                'answer': 'A) Kidney filtration function roughly',
-                                                'explanation': 'Serum creatinine is produced from muscle creatine metabolism and is cleared primarily by glomerular filtration. Rising creatinine generally indicates reduced glomerular filtration rate, though levels also depend on muscle mass, age, sex, and some drugs. Estimated GFR equations convert creatinine into a more physiologically interpretable filtration index.'},
+                                                'options': ['A) Hepatic synthetic function '
+                                                            '(albumin/INR)',
+                                                            'B) Glomerular filtration (with '
+                                                            'muscle-mass caveats)',
+                                                            'C) Skeletal muscle enzyme leakage '
+                                                            '(CK)',
+                                                            'D) Pancreatic amylase secretory '
+                                                            'capacity'],
+                                                'answer': 'B) Glomerular filtration (with '
+                                                          'muscle-mass caveats)',
+                                                'explanation': 'Serum creatinine is produced from '
+                                                               'muscle creatine metabolism and is '
+                                                               'cleared primarily by glomerular '
+                                                               'filtration. Rising creatinine '
+                                                               'generally indicates reduced '
+                                                               'glomerular filtration rate, though '
+                                                               'levels also depend on muscle mass, '
+                                                               'age, sex, and some drugs. '
+                                                               'Estimated GFR equations convert '
+                                                               'creatinine into a more '
+                                                               'physiologically interpretable '
+                                                               'filtration index.'},
                                                {'question': 'Hypoglycemia means?',
-                                                'options': ['A) Low blood glucose',
-                                                            'B) Always high glucose',
-                                                            'C) Only high ketones without glucose '
-                                                            'context',
-                                                            'D) Only high Hb'],
-                                                'answer': 'A) Low blood glucose',
-                                                'explanation': 'Hypoglycemia denotes abnormally low plasma glucose and can cause neuroglycopenic and autonomic symptoms. Critical hypoglycemia is a medical emergency requiring rapid confirmation and treatment. Laboratory practice includes critical-value notification and investigation of causes ranging from insulin excess to hepatic failure and adrenal insufficiency.'}],
+                                                'options': ['A) Abnormally high blood glucose',
+                                                            'B) Isolated ketonemia with normal '
+                                                            'glucose',
+                                                            'C) Abnormally low blood glucose',
+                                                            'D) Elevated hemoglobin without '
+                                                            'glucose change'],
+                                                'answer': 'C) Abnormally low blood glucose',
+                                                'explanation': 'Hypoglycemia denotes abnormally '
+                                                               'low plasma glucose and can cause '
+                                                               'neuroglycopenic and autonomic '
+                                                               'symptoms. Critical hypoglycemia is '
+                                                               'a medical emergency requiring '
+                                                               'rapid confirmation and treatment. '
+                                                               'Laboratory practice includes '
+                                                               'critical-value notification and '
+                                                               'investigation of causes ranging '
+                                                               'from insulin excess to hepatic '
+                                                               'failure and adrenal '
+                                                               'insufficiency.'}],
                                       'medium': [{'question': 'AST/ALT pattern helps assess?',
-                                                  'options': ['A) Hepatocellular injury',
-                                                              'B) Only bone disease exclusively',
-                                                              'C) Only hemolysis exclusively '
-                                                              'forever',
-                                                              'D) Only thyroid only'],
-                                                  'answer': 'A) Hepatocellular injury',
-                                                  'explanation': 'Aspartate and alanine aminotransferases (AST and ALT) are cytosolic enzymes released with hepatocyte injury. Elevations with an hepatocellular pattern support hepatitis, ischemic injury, or toxin-mediated damage. In contrast, ALP and GGT elevations more often reflect cholestasis or biliary obstruction.'},
+                                                  'options': ['A) Osteoblastic bone turnover alone',
+                                                              'B) Intravascular hemolysis alone',
+                                                              'C) Primary thyroid dysfunction '
+                                                              'alone',
+                                                              'D) Hepatocellular injury'],
+                                                  'answer': 'D) Hepatocellular injury',
+                                                  'explanation': 'Aspartate and alanine '
+                                                                 'aminotransferases (AST and ALT) '
+                                                                 'are cytosolic enzymes released '
+                                                                 'with hepatocyte injury. '
+                                                                 'Elevations with an '
+                                                                 'hepatocellular pattern support '
+                                                                 'hepatitis, ischemic injury, or '
+                                                                 'toxin-mediated damage. In '
+                                                                 'contrast, ALP and GGT elevations '
+                                                                 'more often reflect cholestasis '
+                                                                 'or biliary obstruction.'},
                                                  {'question': 'Troponin rise suggests?',
                                                   'options': ['A) Myocardial injury',
-                                                              'B) Only UTI',
-                                                              'C) Only anemia',
-                                                              'D) Only caries'],
+                                                              'B) Uncomplicated lower UTI',
+                                                              'C) Iron-deficiency anemia alone',
+                                                              'D) Stable chronic kidney disease '
+                                                              'without injury'],
                                                   'answer': 'A) Myocardial injury',
-                                                  'explanation': 'Cardiac troponins I and T are regulatory proteins released into blood after cardiomyocyte necrosis or injury. Serial rises and/or falls above the assay-specific 99th percentile support myocardial injury and, with clinical criteria, acute myocardial infarction. High-sensitivity assays detect earlier and smaller elevations but require clinical correlation.'},
+                                                  'explanation': 'Cardiac troponins I and T are '
+                                                                 'regulatory proteins released '
+                                                                 'into blood after cardiomyocyte '
+                                                                 'necrosis or injury. Serial rises '
+                                                                 'and/or falls above the '
+                                                                 'assay-specific 99th percentile '
+                                                                 'support myocardial injury and, '
+                                                                 'with clinical criteria, acute '
+                                                                 'myocardial infarction. '
+                                                                 'High-sensitivity assays detect '
+                                                                 'earlier and smaller elevations '
+                                                                 'but require clinical '
+                                                                 'correlation.'},
                                                  {'question': 'HbA1c reflects?',
-                                                  'options': ['A) Average glycemia over ~2–3 '
+                                                  'options': ['A) A single fasting glucose '
+                                                              'measurement',
+                                                              'B) Average glycemia over ~2–3 '
                                                               'months',
-                                                              "B) Only today's glucose",
-                                                              'C) Only urine glucose',
-                                                              'D) Only insulin dose brand'],
-                                                  'answer': 'A) Average glycemia over ~2–3 months',
-                                                  'explanation': 'Hemoglobin A1c forms by nonenzymatic glycation of hemoglobin and reflects average glycemia over approximately the preceding 2–3 months, corresponding to erythrocyte lifespan. It is used for diabetes diagnosis and long-term glycemic monitoring when conditions affecting red-cell turnover are absent. Method-specific NGSP/IFCC standardization underpins comparability.'}],
-                                      'hard': [{'question': 'A junior colleague asks for the '
-                                                            'single best answer. Osmolal gap '
-                                                            'increases with? Beware of near-miss '
-                                                            'distractors.',
-                                                'options': ['A) Osmotically active toxins (e.g., '
-                                                            'alcohols) among causes',
-                                                            'B) Only normal saline always',
-                                                            'C) Only oxygen therapy',
-                                                            'D) Only vitamins'],
-                                                'answer': 'A) Osmotically active toxins (e.g., '
-                                                          'alcohols) among causes',
-                                                'explanation': 'The osmolal gap is the difference between measured serum osmolality and osmolality calculated from sodium, glucose, and urea. An elevated gap suggests unmeasured osmotically active solutes such as methanol, ethylene glycol, or isopropanol. Toxic-alcohol evaluation pairs the gap with anion gap, blood gases, and specific analyte assays.'},
-                                               {'question': 'A junior colleague asks for the '
-                                                            'single best answer. Hook effect can '
-                                                            'cause? Beware of near-miss '
-                                                            'distractors.',
-                                                'options': ['A) Falsely low immunoassay results at '
-                                                            'very high analyte',
-                                                            'B) Always accurate highs',
-                                                            'C) Only color change of tubes',
-                                                            'D) Only barcode errors'],
-                                                'answer': 'A) Falsely low immunoassay results at '
+                                                              'C) Urine glucose excretion at '
+                                                              'collection',
+                                                              'D) Immediate postprandial insulin '
+                                                              'dose'],
+                                                  'answer': 'B) Average glycemia over ~2–3 months',
+                                                  'explanation': 'Hemoglobin A1c forms by '
+                                                                 'nonenzymatic glycation of '
+                                                                 'hemoglobin and reflects average '
+                                                                 'glycemia over approximately the '
+                                                                 'preceding 2–3 months, '
+                                                                 'corresponding to erythrocyte '
+                                                                 'lifespan. It is used for '
+                                                                 'diabetes diagnosis and long-term '
+                                                                 'glycemic monitoring when '
+                                                                 'conditions affecting red-cell '
+                                                                 'turnover are absent. '
+                                                                 'Method-specific NGSP/IFCC '
+                                                                 'standardization underpins '
+                                                                 'comparability.'}],
+                                      'hard': [{'question': 'Osmolal gap increases with?',
+                                                'options': ['A) Isotonic saline infusion without '
+                                                            'osmoles added',
+                                                            'B) Supplemental oxygen without solute '
+                                                            'change',
+                                                            'C) Unmeasured osmotically active '
+                                                            'solutes (e.g., toxic alcohols)',
+                                                            'D) Water-soluble vitamin intake '
+                                                            'alone'],
+                                                'answer': 'C) Unmeasured osmotically active '
+                                                          'solutes (e.g., toxic alcohols)',
+                                                'explanation': 'The osmolal gap is the difference '
+                                                               'between measured serum osmolality '
+                                                               'and osmolality calculated from '
+                                                               'sodium, glucose, and urea. An '
+                                                               'elevated gap suggests unmeasured '
+                                                               'osmotically active solutes such as '
+                                                               'methanol, ethylene glycol, or '
+                                                               'isopropanol. Toxic-alcohol '
+                                                               'evaluation pairs the gap with '
+                                                               'anion gap, blood gases, and '
+                                                               'specific analyte assays.'},
+                                               {'question': 'Hook effect can cause?',
+                                                'options': ['A) Falsely high results from reagent '
+                                                            'underloading',
+                                                            'B) Specimen hemolysis altering tube '
+                                                            'color only',
+                                                            'C) Barcode misreads without '
+                                                            'concentration error',
+                                                            'D) Falsely low immunoassay results at '
+                                                            'very high analyte'],
+                                                'answer': 'D) Falsely low immunoassay results at '
                                                           'very high analyte',
-                                                'explanation': 'The high-dose hook (prozone-like) effect in sandwich immunoassays occurs when extremely high antigen concentrations saturate capture and detection antibodies, preventing sandwich formation. The reported result can be falsely low or normal despite massive analyte excess. Dilution of the specimen restores linearity and reveals the true high concentration.'},
-                                               {'question': 'A junior colleague asks for the '
-                                                            'single best answer. '
-                                                            'Pseudohyponatremia classic with? '
-                                                            'Beware of near-miss distractors.',
+                                                'explanation': 'The high-dose hook (prozone-like) '
+                                                               'effect in sandwich immunoassays '
+                                                               'occurs when extremely high antigen '
+                                                               'concentrations saturate capture '
+                                                               'and detection antibodies, '
+                                                               'preventing sandwich formation. The '
+                                                               'reported result can be falsely low '
+                                                               'or normal despite massive analyte '
+                                                               'excess. Dilution of the specimen '
+                                                               'restores linearity and reveals the '
+                                                               'true high concentration.'},
+                                               {'question': 'Pseudohyponatremia classic with?',
                                                 'options': ['A) Severe '
                                                             'hyperlipidemia/hyperproteinemia '
-                                                            '(older methods)',
-                                                            'B) Always true low Na only',
-                                                            'C) Only dehydration forever',
-                                                            'D) Only SIADH always'],
+                                                            '(indirect ISE)',
+                                                            'B) True hypotonic hyponatremia from '
+                                                            'SIADH alone',
+                                                            'C) Hypertonic hyponatremia from '
+                                                            'hyperglycemia alone',
+                                                            'D) Hypovolemic hyponatremia from GI '
+                                                            'losses alone'],
                                                 'answer': 'A) Severe '
-                                                          'hyperlipidemia/hyperproteinemia (older '
-                                                          'methods)',
-                                                'explanation': 'Pseudohyponatremia is an artifactual low sodium reported by indirect potentiometry when marked hyperlipidemia or hyperproteinemia expands the non-aqueous plasma fraction. Direct ion-selective electrode methods that measure activity in the undiluted aqueous phase are largely unaffected. Recognizing method dependence prevents inappropriate hypotonic fluid therapy.'}],
-                                      'extreme': [{'question': 'In a high-stakes laboratory '
-                                                               'scenario with incomplete data, '
-                                                               'which statement is MOST correct? '
-                                                               'Critical value policy requires? '
-                                                               'Avoid actions that could harm if a '
-                                                               'critical risk remains open.',
-                                                   'options': ['A) Rapid clinician notification '
+                                                          'hyperlipidemia/hyperproteinemia '
+                                                          '(indirect ISE)',
+                                                'explanation': 'Pseudohyponatremia is an '
+                                                               'artifactual low sodium reported by '
+                                                               'indirect potentiometry when marked '
+                                                               'hyperlipidemia or hyperproteinemia '
+                                                               'expands the non-aqueous plasma '
+                                                               'fraction. Direct ion-selective '
+                                                               'electrode methods that measure '
+                                                               'activity in the undiluted aqueous '
+                                                               'phase are largely unaffected. '
+                                                               'Recognizing method dependence '
+                                                               'prevents inappropriate hypotonic '
+                                                               'fluid therapy.'}],
+                                      'extreme': [{'question': 'Critical value policy requires?',
+                                                   'options': ['A) Batch filing of alerts at '
+                                                               'weekly review',
+                                                               'B) Rapid clinician notification '
                                                                'and documentation',
-                                                               'B) Filing only next week',
-                                                               'C) Ignoring repeats',
-                                                               'D) Only emailing patient directly '
-                                                               'always'],
-                                                   'answer': 'A) Rapid clinician notification and '
+                                                               'C) Release without repeat or '
+                                                               'verification steps',
+                                                               'D) Direct patient email without '
+                                                               'clinician contact'],
+                                                   'answer': 'B) Rapid clinician notification and '
                                                              'documentation',
-                                                   'explanation': 'Critical laboratory values identify results that may indicate life-threatening conditions requiring immediate clinical action. Laboratory policy mandates rapid clinician notification, read-back verification, and documentation of the communication. Timely reporting is a core patient-safety and accreditation requirement.'},
-                                                  {'question': 'In a high-stakes laboratory '
-                                                               'scenario with incomplete data, '
-                                                               'which statement is MOST correct? '
-                                                               'Delta check flags? Avoid actions '
-                                                               'that could harm if a critical risk '
-                                                               'remains open.',
-                                                   'options': ['A) Implausible change vs prior '
-                                                               'results',
-                                                               'B) Only new patient names',
-                                                               'C) Only tube color preferences',
-                                                               'D) Only printer jams'],
-                                                   'answer': 'A) Implausible change vs prior '
-                                                             'results',
-                                                   'explanation': 'Delta checks compare a current result with a patient’s recent prior values to detect implausible analytic or identity errors. Large unexpected changes may indicate specimen mix-up, IV contamination, or instrument malfunction rather than true physiology. Investigation before release protects against reporting erroneous results.'},
-                                                  {'question': 'In a high-stakes laboratory '
-                                                               'scenario with incomplete data, '
-                                                               'which statement is MOST correct? '
-                                                               'Blood gas preanalytics: air '
-                                                               'bubbles cause? Avoid actions that '
-                                                               'could harm if a critical risk '
-                                                               'remains open.',
-                                                   'options': ['A) Distorted pO2/pCO2',
-                                                               'B) Better accuracy always',
-                                                               'C) No effect ever',
-                                                               'D) Only higher glucose'],
-                                                   'answer': 'A) Distorted pO2/pCO2',
-                                                   'explanation': 'Air bubbles in arterial blood-gas syringes allow gas exchange that can falsely raise pO2 toward ambient air and alter pCO2. Delayed analysis permits ongoing cellular metabolism that consumes oxygen and generates CO2. Specimens should be carefully debubbled, mixed, and analyzed promptly under anaerobic conditions.'}]},
+                                                   'explanation': 'Critical laboratory values '
+                                                                  'identify results that may '
+                                                                  'indicate life-threatening '
+                                                                  'conditions requiring immediate '
+                                                                  'clinical action. Laboratory '
+                                                                  'policy mandates rapid clinician '
+                                                                  'notification, read-back '
+                                                                  'verification, and documentation '
+                                                                  'of the communication. Timely '
+                                                                  'reporting is a core '
+                                                                  'patient-safety and '
+                                                                  'accreditation requirement.'},
+                                                  {'question': 'Delta check flags?',
+                                                   'options': ['A) New patient registration '
+                                                               'without prior values',
+                                                               'B) Preferred collection-tube color '
+                                                               'mismatch',
+                                                               'C) Implausible change versus prior '
+                                                               'patient results',
+                                                               'D) Printer or label-stock hardware '
+                                                               'faults'],
+                                                   'answer': 'C) Implausible change versus prior '
+                                                             'patient results',
+                                                   'explanation': 'Delta checks compare a current '
+                                                                  'result with a patient’s recent '
+                                                                  'prior values to detect '
+                                                                  'implausible analytic or '
+                                                                  'identity errors. Large '
+                                                                  'unexpected changes may indicate '
+                                                                  'specimen mix-up, IV '
+                                                                  'contamination, or instrument '
+                                                                  'malfunction rather than true '
+                                                                  'physiology. Investigation '
+                                                                  'before release protects against '
+                                                                  'reporting erroneous results.'},
+                                                  {'question': 'Blood gas preanalytics: air '
+                                                               'bubbles cause?',
+                                                   'options': ['A) Improved accuracy by ambient '
+                                                               'equilibration',
+                                                               'B) No measurable effect on '
+                                                               'blood-gas values',
+                                                               'C) Isolated glucose elevation '
+                                                               'without gas change',
+                                                               'D) Distorted pO2/pCO2 from gas '
+                                                               'exchange'],
+                                                   'answer': 'D) Distorted pO2/pCO2 from gas '
+                                                             'exchange',
+                                                   'explanation': 'Air bubbles in arterial '
+                                                                  'blood-gas syringes allow gas '
+                                                                  'exchange that can falsely raise '
+                                                                  'pO2 toward ambient air and '
+                                                                  'alter pCO2. Delayed analysis '
+                                                                  'permits ongoing cellular '
+                                                                  'metabolism that consumes oxygen '
+                                                                  'and generates CO2. Specimens '
+                                                                  'should be carefully debubbled, '
+                                                                  'mixed, and analyzed promptly '
+                                                                  'under anaerobic conditions.'}]},
                         'cases': {'easy': [{'title': 'High K on Lab Call',
                                             'stem': 'Lab flags K 6.8 mmol/L.',
                                             'question': 'First lab/clinical check?',
@@ -346,130 +592,277 @@ SPECIALTIES: dict[str, dict] = {'hematology': {'label': 'Hematology',
                                         'Stewardship: report actionable MICs and resistance '
                                         'alerts.'],
                           'questions': {'easy': [{'question': 'Gram-positive organisms stain?',
-                                                  'options': ['A) Purple/blue',
-                                                              'B) Always pink only',
-                                                              'C) Always colorless forever',
-                                                              'D) Always acid-fast only'],
-                                                  'answer': 'A) Purple/blue',
-                                                  'explanation': 'Gram-positive bacteria retain crystal violet–iodine complex within a thick peptidoglycan cell wall and appear purple/blue after decolorization and safranin counterstain. Gram-negative organisms lose the primary stain and take up the pink/red counterstain because of their thinner peptidoglycan and outer membrane. Gram morphology guides initial empiric interpretation and workup.'},
+                                                  'options': ['A) Purple/blue (retain crystal '
+                                                              'violet)',
+                                                              'B) Pink/red (take safranin '
+                                                              'counterstain)',
+                                                              'C) Colorless after decolorization '
+                                                              'step',
+                                                              'D) Acid-fast red without Gram '
+                                                              'reagents'],
+                                                  'answer': 'A) Purple/blue (retain crystal '
+                                                            'violet)',
+                                                  'explanation': 'Gram-positive bacteria retain '
+                                                                 'crystal violet–iodine complex '
+                                                                 'within a thick peptidoglycan '
+                                                                 'cell wall and appear '
+                                                                 'purple/blue. Gram-negative '
+                                                                 'organisms lose the complex '
+                                                                 'during decolorization and take '
+                                                                 'up the pink/red counterstain. '
+                                                                 'Correct interpretation requires '
+                                                                 'properly made smears and '
+                                                                 'controlled decolorization.'},
                                                  {'question': 'Blood culture indication theme?',
-                                                  'options': ['A) Suspected bacteremia/sepsis',
-                                                              'B) Only routine wellness',
-                                                              'C) Only anemia workup alone',
-                                                              'D) Only lipid panel'],
-                                                  'answer': 'A) Suspected bacteremia/sepsis',
-                                                  'explanation': 'Blood cultures are indicated when bacteremia or sepsis is suspected clinically. Adequate blood volume per bottle and collection of multiple sets before antibiotics maximize sensitivity and help distinguish true pathogens from contaminants. Timing relative to fever spikes is less critical than volume and aseptic technique.'},
+                                                  'options': ['A) Routine wellness screening '
+                                                              'without fever',
+                                                              'B) Suspected bacteremia/sepsis',
+                                                              'C) Isolated asymptomatic '
+                                                              'bacteriuria workup',
+                                                              'D) Surveillance of environmental '
+                                                              'surfaces'],
+                                                  'answer': 'B) Suspected bacteremia/sepsis',
+                                                  'explanation': 'Blood cultures are indicated '
+                                                                 'when bacteremia or sepsis is '
+                                                                 'suspected clinically. Adequate '
+                                                                 'blood volume per bottle and '
+                                                                 'collection of multiple sets '
+                                                                 'before antibiotics maximize '
+                                                                 'recovery. Timing, skin '
+                                                                 'antisepsis, and bottle fill '
+                                                                 'volume critically affect '
+                                                                 'sensitivity and contamination '
+                                                                 'rates.'},
                                                  {'question': 'Antibiotic susceptibility testing '
                                                               'guides?',
-                                                  'options': ['A) Therapy choice',
-                                                              'B) Only hospital food menus',
-                                                              'C) Only bed assignment',
-                                                              'D) Only billing codes alone'],
-                                                  'answer': 'A) Therapy choice',
-                                                  'explanation': 'Antimicrobial susceptibility testing determines whether an isolate is inhibited by achievable drug concentrations. Interpretive breakpoints from standards organizations convert MICs or zone sizes into susceptible, intermediate, or resistant categories. Results guide targeted therapy and antimicrobial stewardship.'}],
+                                                  'options': ['A) Species identification without '
+                                                              'MIC data',
+                                                              'B) Only infection-control isolation '
+                                                              'decisions',
+                                                              'C) Antimicrobial therapy selection',
+                                                              'D) Only vaccine schedule '
+                                                              'recommendations'],
+                                                  'answer': 'C) Antimicrobial therapy selection',
+                                                  'explanation': 'Antimicrobial susceptibility '
+                                                                 'testing determines whether an '
+                                                                 'isolate is inhibited by '
+                                                                 'achievable drug concentrations. '
+                                                                 'Interpreted breakpoints '
+                                                                 '(CLSI/EUCAST) categorize '
+                                                                 'isolates as susceptible, '
+                                                                 'intermediate, or resistant to '
+                                                                 'guide therapy. Results must be '
+                                                                 'linked to correct organism '
+                                                                 'identification and clinical site '
+                                                                 'of infection.'}],
                                         'medium': [{'question': 'Acid-fast stain used for?',
-                                                    'options': ['A) Mycobacteria',
-                                                                'B) Only streptococci',
-                                                                'C) Only Candida always only',
-                                                                'D) Only viruses'],
-                                                    'answer': 'A) Mycobacteria',
-                                                    'explanation': 'Acid-fast stains such as Ziehl–Neelsen or fluorochrome auramine exploit mycolic acid–rich cell walls that resist acid-alcohol decolorization. Mycobacteria, including Mycobacterium tuberculosis complex, appear acid-fast and are central targets of this method. Positive smears accelerate airborne precautions and confirmatory culture or molecular testing.'},
+                                                    'options': ['A) Routine Enterobacterales Gram '
+                                                                'morphology',
+                                                                'B) Fungal hyphae on KOH '
+                                                                'preparation',
+                                                                'C) Parasitic ova on saline wet '
+                                                                'mount',
+                                                                'D) Mycobacteria (mycolic '
+                                                                'acid–rich walls)'],
+                                                    'answer': 'D) Mycobacteria (mycolic acid–rich '
+                                                              'walls)',
+                                                    'explanation': 'Acid-fast stains such as '
+                                                                   'Ziehl–Neelsen or fluorochrome '
+                                                                   'auramine exploit mycolic '
+                                                                   'acid–rich cell walls that '
+                                                                   'resist acid-alcohol '
+                                                                   'decolorization, highlighting '
+                                                                   'mycobacteria. Partial '
+                                                                   'acid-fastness also aids '
+                                                                   'detection of Nocardia and some '
+                                                                   'coccidia. Results are '
+                                                                   'correlated with culture and '
+                                                                   'molecular assays.'},
                                                    {'question': 'Catalase-positive gram-positive '
                                                                 'cocci suggest?',
                                                     'options': ['A) Staphylococci',
-                                                                'B) Streptococci typically',
-                                                                'C) Enterococci always catalase+++ '
-                                                                'classic teaching opposite',
-                                                                'D) Only Neisseria'],
+                                                                'B) Streptococci '
+                                                                '(catalase-negative)',
+                                                                'C) Enterococci '
+                                                                '(catalase-negative)',
+                                                                'D) Lactobacilli '
+                                                                '(catalase-negative rods)'],
                                                     'answer': 'A) Staphylococci',
-                                                    'explanation': 'Catalase decomposes hydrogen peroxide to water and oxygen; bubbling indicates a positive reaction. Among gram-positive cocci, staphylococci are typically catalase-positive, whereas streptococci and enterococci are catalase-negative. This rapid test is an early branch point in the identification algorithm.'},
+                                                    'explanation': 'Catalase decomposes hydrogen '
+                                                                   'peroxide to water and oxygen; '
+                                                                   'bubbling indicates a positive '
+                                                                   'reaction. Among gram-positive '
+                                                                   'cocci, staphylococci are '
+                                                                   'catalase-positive whereas '
+                                                                   'streptococci and enterococci '
+                                                                   'are catalase-negative. Further '
+                                                                   'tests (coagulase, MALDI-TOF) '
+                                                                   'refine species '
+                                                                   'identification.'},
                                                    {'question': 'CSF Gram stain urgency?',
-                                                    'options': ['A) Critical for meningitis',
-                                                                'B) Can wait days always',
-                                                                'C) Only research interest',
-                                                                'D) Never report'],
-                                                    'answer': 'A) Critical for meningitis',
-                                                    'explanation': 'CSF Gram stain is a time-critical test in suspected bacterial meningitis because early morphologic clues can guide empiric therapy. Detection of organisms or marked neutrophilic pleocytosis warrants immediate clinician notification. Culture, antigen, and molecular assays complement but do not replace urgent smear review.'}],
-                                        'hard': [{'question': 'A junior colleague asks for the '
-                                                              'single best answer. MRSA detected '
-                                                              'by? Beware of near-miss '
-                                                              'distractors.',
-                                                  'options': ['A) Oxacillin/cefoxitin testing / '
-                                                              'mecA themes',
-                                                              'B) Only optochin',
-                                                              'C) Only bile esculin',
-                                                              'D) Only coagulase negative always'],
-                                                  'answer': 'A) Oxacillin/cefoxitin testing / mecA '
-                                                            'themes',
-                                                  'explanation': 'Methicillin-resistant Staphylococcus aureus (MRSA) harbors mecA (or mecC), encoding altered penicillin-binding protein PBP2a with reduced β-lactam affinity. Phenotypic detection uses cefoxitin or oxacillin testing, and molecular assays may target mecA directly. MRSA identification triggers infection-control measures and guides antibiotic selection away from standard β-lactams.'},
-                                                 {'question': 'A junior colleague asks for the '
-                                                              'single best answer. Anaerobic '
-                                                              'culture needs? Beware of near-miss '
-                                                              'distractors.',
-                                                  'options': ['A) Proper anaerobic '
-                                                              'transport/conditions',
-                                                              'B) Open air plates only',
-                                                              'C) Fridge only forever',
-                                                              'D) No media'],
-                                                  'answer': 'A) Proper anaerobic '
-                                                            'transport/conditions',
-                                                  'explanation': 'Obligate anaerobes are killed or inhibited by oxygen exposure during collection and transport. Successful anaerobic culture requires oxygen-free transport systems, prompt plating onto prereduced media, and incubation in anaerobic atmospheres. Poor preanalytics are a common cause of false-negative anaerobic cultures.'},
-                                                 {'question': 'A junior colleague asks for the '
-                                                              'single best answer. Blood culture '
-                                                              'contamination clues? Beware of '
-                                                              'near-miss distractors.',
-                                                  'options': ['A) Skin flora in 1 of multiple sets',
-                                                              'B) Same pathogen in all sets always '
-                                                              'contamination',
-                                                              'C) Never happens',
-                                                              'D) Only fungal always true'],
-                                                  'answer': 'A) Skin flora in 1 of multiple sets',
-                                                  'explanation': 'Blood-culture contaminants are often skin flora recovered from only one bottle or one set when multiple sets are drawn. True bacteremia more often appears in multiple sets with recognized pathogens and compatible clinical findings. Distinguishing contamination from infection prevents unnecessary antibiotics and repeat procedures.'}],
-                                        'extreme': [{'question': 'In a high-stakes laboratory '
-                                                                 'scenario with incomplete data, '
-                                                                 'which statement is MOST correct? '
-                                                                 'Carbapenemase-producing '
-                                                                 'Enterobacterales require? Avoid '
-                                                                 'actions that could harm if a '
-                                                                 'critical risk remains open.',
-                                                     'options': ['A) Infection control + '
-                                                                 'specialized testing/therapy '
-                                                                 'stewardship',
-                                                                 'B) Ignore resistance',
-                                                                 'C) Always only amoxicillin',
-                                                                 'D) No reporting'],
-                                                     'answer': 'A) Infection control + specialized '
-                                                               'testing/therapy stewardship',
-                                                     'explanation': 'Carbapenemase-producing Enterobacterales hydrolyze carbapenems and many other β-lactams, severely limiting therapeutic options. Specialized phenotypic and molecular tests detect carbapenemase production to guide therapy and infection control. These organisms are high-priority multidrug-resistant pathogens with substantial public-health impact.'},
-                                                    {'question': 'In a high-stakes laboratory '
-                                                                 'scenario with incomplete data, '
-                                                                 'which statement is MOST correct? '
-                                                                 'Biosafety for Neisseria '
-                                                                 'meningitidis work? Avoid actions '
-                                                                 'that could harm if a critical '
-                                                                 'risk remains open.',
-                                                     'options': ['A) Appropriate BSL practices; '
+                                                    'options': ['A) Low priority elective '
+                                                                'outpatient screen',
+                                                                'B) Critical for suspected '
+                                                                'bacterial meningitis',
+                                                                'C) Useful only after 72-hour '
+                                                                'culture growth',
+                                                                'D) Replaced entirely by chemistry '
+                                                                'panels'],
+                                                    'answer': 'B) Critical for suspected bacterial '
+                                                              'meningitis',
+                                                    'explanation': 'CSF Gram stain is a '
+                                                                   'time-critical test in '
+                                                                   'suspected bacterial meningitis '
+                                                                   'because early morphologic '
+                                                                   'clues can guide empiric '
+                                                                   'therapy. Rapid reporting of '
+                                                                   'organisms and leukocytes '
+                                                                   'supports antimicrobial and '
+                                                                   'infection-control decisions. '
+                                                                   'Negative stains do not exclude '
+                                                                   'infection when clinical '
+                                                                   'suspicion remains high.'}],
+                                        'hard': [{'question': 'MRSA detected by?',
+                                                  'options': ['A) Penicillin disk testing alone '
+                                                              'without cefoxitin',
+                                                              'B) Macrolike D-test alone without '
+                                                              'oxacillin screen',
+                                                              'C) Oxacillin/cefoxitin testing '
+                                                              'and/or mecA detection',
+                                                              'D) Aminoglycoside synergy screen '
+                                                              'alone'],
+                                                  'answer': 'C) Oxacillin/cefoxitin testing and/or '
+                                                            'mecA detection',
+                                                  'explanation': 'Methicillin-resistant '
+                                                                 'Staphylococcus aureus (MRSA) '
+                                                                 'harbors mecA (or mecC), encoding '
+                                                                 'altered penicillin-binding '
+                                                                 'protein PBP2a. Cefoxitin disk or '
+                                                                 'MIC testing and molecular mecA '
+                                                                 'assays are preferred '
+                                                                 'phenotypic/genotypic detectors. '
+                                                                 'Accurate MRSA recognition drives '
+                                                                 'therapy and infection-control '
+                                                                 'precautions.'},
+                                                 {'question': 'Anaerobic culture needs?',
+                                                  'options': ['A) Ambient-air swabs held overnight '
+                                                              'unsealed',
+                                                              'B) CO2 jar without anaerobic '
+                                                              'indicator systems',
+                                                              'C) Refrigeration of all anaerobe '
+                                                              'specimens only',
+                                                              'D) Oxygen-free transport and '
+                                                              'incubation conditions'],
+                                                  'answer': 'D) Oxygen-free transport and '
+                                                            'incubation conditions',
+                                                  'explanation': 'Obligate anaerobes are killed or '
+                                                                 'inhibited by oxygen exposure '
+                                                                 'during collection and transport. '
+                                                                 'Successful anaerobic culture '
+                                                                 'requires appropriate oxygen-free '
+                                                                 'transport devices, prompt '
+                                                                 'plating, and incubation in '
+                                                                 'validated anaerobic atmospheres. '
+                                                                 'Specimen quality and site '
+                                                                 'selection are as important as '
+                                                                 'media choice.'},
+                                                 {'question': 'Blood culture contamination clues?',
+                                                  'options': ['A) Common skin flora in only 1 of '
+                                                              'multiple sets',
+                                                              'B) Same pathogen in multiple sets '
+                                                              'drawn apart',
+                                                              'C) Growth of Enterobacterales in '
+                                                              'all bottles rapidly',
+                                                              'D) Candida in multiple sets from '
+                                                              'central lines'],
+                                                  'answer': 'A) Common skin flora in only 1 of '
+                                                            'multiple sets',
+                                                  'explanation': 'Blood-culture contaminants are '
+                                                                 'often skin flora recovered from '
+                                                                 'only one bottle or one set when '
+                                                                 'multiple sets are drawn. True '
+                                                                 'bacteremia more often yields the '
+                                                                 'same organism in multiple sets '
+                                                                 'with a compatible clinical '
+                                                                 'picture. Distinguishing '
+                                                                 'contamination prevents '
+                                                                 'unnecessary antibiotics and '
+                                                                 'workups.'}],
+                                        'extreme': [{'question': 'Carbapenemase-producing '
+                                                                 'Enterobacterales require?',
+                                                     'options': ['A) Routine community AST without '
+                                                                 'confirmatory assays',
+                                                                 'B) Infection control plus '
+                                                                 'specialized testing/stewardship',
+                                                                 'C) Outpatient observation '
+                                                                 'without isolation review',
+                                                                 'D) Standard ampicillin therapy '
+                                                                 'without resistance workup'],
+                                                     'answer': 'B) Infection control plus '
+                                                               'specialized testing/stewardship',
+                                                     'explanation': 'Carbapenemase-producing '
+                                                                    'Enterobacterales hydrolyze '
+                                                                    'carbapenems and many other '
+                                                                    'β-lactams, severely limiting '
+                                                                    'therapeutic options. '
+                                                                    'Detection triggers '
+                                                                    'infection-control precautions '
+                                                                    'and often specialized '
+                                                                    'confirmatory tests and '
+                                                                    'stewardship consultation. '
+                                                                    'Misclassification risks both '
+                                                                    'treatment failure and '
+                                                                    'institutional spread.'},
+                                                    {'question': 'Biosafety for Neisseria '
+                                                                 'meningitidis work?',
+                                                     'options': ['A) Open-bench sniffing of plate '
+                                                                 'odors for ID',
+                                                                 'B) BSL-1 practices without '
+                                                                 'aerosol controls',
+                                                                 'C) Appropriate BSL practices to '
                                                                  'protect staff',
-                                                                 'B) Open bench sniffing cultures',
-                                                                 'C) No PPE ever',
-                                                                 'D) Mouth pipetting'],
-                                                     'answer': 'A) Appropriate BSL practices; '
+                                                                 'D) No risk once colonies appear '
+                                                                 'on solid media'],
+                                                     'answer': 'C) Appropriate BSL practices to '
                                                                'protect staff',
-                                                     'explanation': 'Neisseria meningitidis can cause severe laboratory-acquired infection through aerosol exposure during manipulation of cultures. Work requiring aerosol-generating procedures is performed with appropriate biosafety level practices, PPE, and often vaccination policies. Strict handling protects laboratory personnel.'},
-                                                    {'question': 'In a high-stakes laboratory '
-                                                                 'scenario with incomplete data, '
-                                                                 'which statement is MOST correct? '
-                                                                 'MALDI-TOF identifies? Avoid '
-                                                                 'actions that could harm if a '
-                                                                 'critical risk remains open.',
-                                                     'options': ['A) Organisms by protein mass '
-                                                                 'spectra',
-                                                                 'B) Only electrolytes',
-                                                                 'C) Only Hb',
-                                                                 'D) Only PT'],
-                                                     'answer': 'A) Organisms by protein mass '
-                                                               'spectra',
-                                                     'explanation': 'Matrix-assisted laser desorption/ionization time-of-flight (MALDI-TOF) mass spectrometry identifies microorganisms from characteristic ribosomal protein spectra. Spectra are matched to validated databases for genus/species-level identification within minutes after colony growth. Rapid ID shortens time to targeted therapy compared with biochemical panels alone.'}]},
+                                                     'explanation': 'Neisseria meningitidis can '
+                                                                    'cause severe '
+                                                                    'laboratory-acquired infection '
+                                                                    'through aerosol exposure '
+                                                                    'during manipulation of '
+                                                                    'cultures. Work with '
+                                                                    'potentially infectious '
+                                                                    'material requires appropriate '
+                                                                    'biosafety level practices, '
+                                                                    'PPE, and vaccination policies '
+                                                                    'where indicated. Suspect '
+                                                                    'isolates should be handled '
+                                                                    'with heightened precautions.'},
+                                                    {'question': 'MALDI-TOF identifies?',
+                                                     'options': ['A) Antimicrobial MICs by '
+                                                                 'spectral peak height',
+                                                                 'B) Only viral loads from plasma '
+                                                                 'protein spectra',
+                                                                 'C) Only toxin genes without '
+                                                                 'culture isolate',
+                                                                 'D) Organisms by protein mass '
+                                                                 'spectral fingerprints'],
+                                                     'answer': 'D) Organisms by protein mass '
+                                                               'spectral fingerprints',
+                                                     'explanation': 'Matrix-assisted laser '
+                                                                    'desorption/ionization '
+                                                                    'time-of-flight (MALDI-TOF) '
+                                                                    'mass spectrometry identifies '
+                                                                    'microorganisms from '
+                                                                    'characteristic protein mass '
+                                                                    'spectra compared with '
+                                                                    'reference libraries. It '
+                                                                    'rapidly IDs many bacteria and '
+                                                                    'yeasts from culture but does '
+                                                                    'not replace susceptibility '
+                                                                    'testing. Library coverage and '
+                                                                    'extraction methods affect '
+                                                                    'performance for some taxa.'}]},
                           'cases': {'easy': [{'title': 'UTI Culture',
                                               'stem': 'Dysuria; midstream urine culture growing E. '
                                                       'coli >10^5 CFU/mL.',
@@ -527,115 +920,206 @@ SPECIALTIES: dict[str, dict] = {'hematology': {'label': 'Hematology',
                 'questions': {'easy': [{'question': 'ELISA detects?',
                                         'options': ['A) Antigen or antibody via enzyme-linked '
                                                     'assay',
-                                                    'B) Only blood films',
-                                                    'C) Only electrolytes',
-                                                    'D) Only urine crystals'],
+                                                    'B) Blood-film morphologic differentials',
+                                                    'C) Serum electrolyte concentrations',
+                                                    'D) Urine crystal identification'],
                                         'answer': 'A) Antigen or antibody via enzyme-linked assay',
-                                        'explanation': 'Enzyme-linked immunosorbent assay (ELISA) immobilizes antigen or antibody on a solid phase and uses an enzyme-conjugated detection reagent to generate a measurable signal. Depending on design, ELISA can quantify antigen or specific antibody. It remains a workhorse platform for infectious-disease and autoimmune serology.'},
+                                        'explanation': 'Enzyme-linked immunosorbent assay (ELISA) '
+                                                       'immobilizes antigen or antibody on a solid '
+                                                       'phase and uses an enzyme-conjugated '
+                                                       'detector to generate a measurable signal. '
+                                                       'Formats can detect antigen or antibody '
+                                                       'depending on assay design. Controls and '
+                                                       'cutoff verification are essential for '
+                                                       'valid qualitative or quantitative '
+                                                       'results.'},
                                        {'question': 'IgM generally indicates?',
-                                        'options': ['A) Acute/recent response themes',
-                                                    'B) Only lifelong remote immunity always',
-                                                    'C) Only allergy only forever',
-                                                    'D) Only transfusion reaction only'],
-                                        'answer': 'A) Acute/recent response themes',
-                                        'explanation': 'IgM is the isotype produced earliest in a primary humoral response and therefore often marks acute or recent antigen exposure. IgM may also persist or reappear with reactivation in some infections, so clinical and assay context matter. Paired IgG testing and symptom timing refine serologic interpretation.'},
+                                        'options': ['A) Long-term immune memory only (IgG pattern)',
+                                                    'B) Acute/recent humoral response',
+                                                    'C) Mucosal secretory immunity only (IgA)',
+                                                    'D) Mast-cell bound allergy only (IgE)'],
+                                        'answer': 'B) Acute/recent humoral response',
+                                        'explanation': 'IgM is the isotype produced earliest in a '
+                                                       'primary humoral response and therefore '
+                                                       'often marks acute or recent antigen '
+                                                       'exposure. IgG typically rises later and '
+                                                       'persists in memory responses. '
+                                                       'Interpretation must consider rheumatoid '
+                                                       'factor, class switching, and '
+                                                       'assay-specific cutoffs.'},
                                        {'question': 'Blood type ABO based on?',
-                                        'options': ['A) RBC antigens / plasma isoagglutinins',
-                                                    'B) Only RhD alone',
-                                                    'C) Only HLA only',
-                                                    'D) Only platelet antigens only'],
-                                        'answer': 'A) RBC antigens / plasma isoagglutinins',
-                                        'explanation': 'ABO blood group is defined by carbohydrate antigens on the red-cell surface and by reciprocal isoagglutinins (anti-A/anti-B) in plasma. Forward typing detects RBC antigens; reverse typing confirms expected plasma antibodies. This antigen–antibody relationship is foundational to transfusion compatibility.'}],
+                                        'options': ['A) HLA class I typing of lymphocytes alone',
+                                                    'B) Serum immunoglobulin subclass levels alone',
+                                                    'C) RBC antigens and reciprocal plasma '
+                                                    'isoagglutinins',
+                                                    'D) Platelet glycoprotein antigen typing '
+                                                    'alone'],
+                                        'answer': 'C) RBC antigens and reciprocal plasma '
+                                                  'isoagglutinins',
+                                        'explanation': 'ABO blood group is defined by carbohydrate '
+                                                       'antigens on the red-cell surface and by '
+                                                       'reciprocal isoagglutinins (anti-A/anti-B) '
+                                                       'in plasma. Forward and reverse typing must '
+                                                       'agree for valid ABO assignment. '
+                                                       'Discrepancies require resolution before '
+                                                       'transfusion.'}],
                               'medium': [{'question': 'ANA testing used in?',
-                                          'options': ['A) Autoimmune disease workups',
-                                                      'B) Only UTI',
-                                                      'C) Only fracture healing',
-                                                      'D) Only caries'],
-                                          'answer': 'A) Autoimmune disease workups',
-                                          'explanation': 'Antinuclear antibody (ANA) testing screens for autoantibodies directed against nuclear antigens and is used in the workup of systemic autoimmune diseases such as SLE. Indirect immunofluorescence reports titer and pattern, which help prioritize antigen-specific follow-up assays. Low-titer ANA can occur in healthy individuals, so clinical correlation is essential.'},
+                                          'options': ['A) Acute bacterial culture identification',
+                                                      'B) Routine newborn metabolic screening',
+                                                      'C) Therapeutic drug monitoring of digoxin',
+                                                      'D) Autoimmune disease workups (e.g., SLE '
+                                                      'themes)'],
+                                          'answer': 'D) Autoimmune disease workups (e.g., SLE '
+                                                    'themes)',
+                                          'explanation': 'Antinuclear antibody (ANA) testing '
+                                                         'screens for autoantibodies directed '
+                                                         'against nuclear antigens and is used in '
+                                                         'the workup of systemic autoimmune '
+                                                         'diseases such as SLE. Pattern and titer '
+                                                         'information guide reflex '
+                                                         'antigen-specific assays. Low-titer '
+                                                         'positives can occur in healthy '
+                                                         'individuals and require clinical '
+                                                         'correlation.'},
                                          {'question': 'Window period means?',
                                           'options': ['A) Infection present but markers not yet '
                                                       'detectable',
-                                                      'B) Always lifelong immunity',
-                                                      'C) Assay never works',
-                                                      'D) Only sample clotting'],
+                                                      'B) Infection cleared with lifelong '
+                                                      'seronegativity',
+                                                      'C) Vaccine response mistaken for acute '
+                                                      'infection',
+                                                      'D) Assay interference from heterophile '
+                                                      'antibodies only'],
                                           'answer': 'A) Infection present but markers not yet '
                                                     'detectable',
-                                          'explanation': 'The serologic window period is the interval after infection when the pathogen is present but diagnostic markers remain below detection limits. Antibody assays have longer windows than many nucleic acid tests for the same agent. Understanding window periods is critical for donor screening and early-infection diagnosis.'},
+                                          'explanation': 'The serologic window period is the '
+                                                         'interval after infection when the '
+                                                         'pathogen is present but diagnostic '
+                                                         'markers remain below assay detection '
+                                                         'limits. During this time, antibody or '
+                                                         'even some antigen/NAAT assays may be '
+                                                         'negative despite transmissibility. '
+                                                         'Understanding window periods informs '
+                                                         'retesting strategy and counseling.'},
                                          {'question': 'Complement C3/C4 low in?',
-                                          'options': ['A) Some immune complex diseases (e.g., '
-                                                      'lupus nephritis themes)',
-                                                      'B) Always healthy states only',
-                                                      'C) Only dehydration',
-                                                      'D) Only iron deficiency'],
-                                          'answer': 'A) Some immune complex diseases (e.g., lupus '
-                                                    'nephritis themes)',
-                                          'explanation': 'Complement components C3 and C4 are consumed in classical-pathway activation by immune complexes. Low C3/C4 levels are characteristic of active systemic lupus erythematosus with nephritis and some other immune-complex diseases. Serial complement measurement helps monitor disease activity alongside clinical findings.'}],
-                              'hard': [{'question': 'A junior colleague asks for the single best '
-                                                    'answer. Prozone/hook in serology causes? '
-                                                    'Beware of near-miss distractors.',
-                                        'options': ['A) False negative at antibody excess',
-                                                    'B) Always true positive stronger',
-                                                    'C) Only hemolysis',
-                                                    'D) Only icterus'],
-                                        'answer': 'A) False negative at antibody excess',
-                                        'explanation': 'Prozone (antibody excess) in agglutination or precipitation serology can prevent lattice formation, yielding a false-negative result despite high specific antibody. Diluting the specimen reduces antibody concentration into the zone of equivalence and unmasks reactivity. Hook effects in immunoassays are related phenomena at extreme analyte excess.'},
-                                       {'question': 'A junior colleague asks for the single best '
-                                                    'answer. Flow cytometry immunophenotyping used '
-                                                    'for? Beware of near-miss distractors.',
-                                        'options': ['A) Leukemia/lymphoma characterization among '
-                                                    'uses',
-                                                    'B) Only Na measurement',
-                                                    'C) Only culture',
-                                                    'D) Only ESR only'],
-                                        'answer': 'A) Leukemia/lymphoma characterization among '
-                                                  'uses',
-                                        'explanation': 'Flow cytometric immunophenotyping uses fluorochrome-labeled antibodies to quantify lineage and maturation antigens on intact cells. In hematopathology, CD marker panels distinguish lymphoid from myeloid neoplasms and subclassify leukemias and lymphomas. Multiparameter analysis is essential for diagnosis and MRD monitoring.'},
-                                       {'question': 'A junior colleague asks for the single best '
-                                                    'answer. Rheumatoid factor can interfere with? '
-                                                    'Beware of near-miss distractors.',
-                                        'options': ['A) Some immunoassays',
-                                                    'B) Never any assay',
-                                                    'C) Only gram stains',
-                                                    'D) Only microhematocrit'],
-                                        'answer': 'A) Some immunoassays',
-                                        'explanation': 'Rheumatoid factor is an autoantibody, usually IgM, that binds the Fc portion of IgG. In immunoassays, RF can bridge capture and detection antibodies or otherwise distort antigen–antibody reactions, producing false-positive or false-negative results. Awareness of RF interference guides method selection and confirmatory testing.'}],
-                              'extreme': [{'question': 'In a high-stakes laboratory scenario with '
-                                                       'incomplete data, which statement is MOST '
-                                                       'correct? Heterophile antibodies may cause? '
-                                                       'Avoid actions that could harm if a '
-                                                       'critical risk remains open.',
-                                           'options': ['A) False immunoassay results',
-                                                       'B) Perfect accuracy always',
-                                                       'C) Only better cultures',
-                                                       'D) Only higher Hb'],
-                                           'answer': 'A) False immunoassay results',
-                                           'explanation': 'Heterophile antibodies are human antibodies that recognize animal immunoglobulin reagents used in sandwich immunoassays. They can create false bridges between capture and detection antibodies, generating spuriously high or low analyte values. Discordance with the clinical picture prompts heterophile-blocking reagents, alternative methods, or dilutions.'},
-                                          {'question': 'In a high-stakes laboratory scenario with '
-                                                       'incomplete data, which statement is MOST '
-                                                       'correct? Quantiferon/IGRA interprets? '
-                                                       'Avoid actions that could harm if a '
-                                                       'critical risk remains open.',
-                                           'options': ['A) TB infection immune response (not '
-                                                       'active vs latent alone fully)',
-                                                       'B) Active TB location always',
-                                                       'C) Only BCG forever identical certainty',
-                                                       'D) Only bacterial culture replacement '
-                                                       'always'],
-                                           'answer': 'A) TB infection immune response (not active '
-                                                     'vs latent alone fully)',
-                                           'explanation': 'Interferon-γ release assays (IGRAs) such as QuantiFERON measure T-cell IFN-γ responses to Mycobacterium tuberculosis–specific antigens. A positive result indicates immune sensitization consistent with TB infection but does not by itself distinguish latent from active disease. Interpretation requires clinical, radiographic, and microbiologic correlation.'},
-                                          {'question': 'In a high-stakes laboratory scenario with '
-                                                       'incomplete data, which statement is MOST '
-                                                       'correct? Cryoglobulin handling requires? '
-                                                       'Avoid actions that could harm if a '
-                                                       'critical risk remains open.',
-                                           'options': ['A) Warm collection/transport protocols',
-                                                       'B) Ice immediately always for all tests',
-                                                       'C) Freeze-thaw repeatedly',
-                                                       'D) No special handling'],
-                                           'answer': 'A) Warm collection/transport protocols',
-                                           'explanation': 'Cryoglobulins precipitate at temperatures below body temperature and redissolve on warming. For accurate detection, blood must be collected and transported warm (approximately 37 °C) until serum is separated. Cold exposure before separation can falsely lower measured cryoglobulin by premature precipitation.'}]},
+                                          'options': ['A) Most IgE-mediated allergic rhinitis '
+                                                      'episodes',
+                                                      'B) Some immune-complex diseases (e.g., '
+                                                      'lupus nephritis)',
+                                                      'C) Uncomplicated iron-deficiency anemia',
+                                                      'D) Isolated osteoarthritis without '
+                                                      'inflammation'],
+                                          'answer': 'B) Some immune-complex diseases (e.g., lupus '
+                                                    'nephritis)',
+                                          'explanation': 'Complement components C3 and C4 are '
+                                                         'consumed in classical-pathway activation '
+                                                         'by immune complexes. Low C3/C4 levels '
+                                                         'are classically seen in active SLE, '
+                                                         'especially lupus nephritis, and some '
+                                                         'other immune-complex disorders. Serial '
+                                                         'levels help monitor disease activity '
+                                                         'alongside clinical findings.'}],
+                              'hard': [{'question': 'Prozone/hook in serology causes?',
+                                        'options': ['A) False-positive results at antigen deficit '
+                                                    'only',
+                                                    'B) Correct titers without need for dilution',
+                                                    'C) False-negative results at antibody excess',
+                                                    'D) Only hemolysis without titer effects'],
+                                        'answer': 'C) False-negative results at antibody excess',
+                                        'explanation': 'Prozone (antibody excess) in agglutination '
+                                                       'or precipitation serology can prevent '
+                                                       'lattice formation and yield a '
+                                                       'false-negative result. Diluting the '
+                                                       'specimen restores the zone of equivalence '
+                                                       'and reveals true reactivity. Recognizing '
+                                                       'prozone prevents missed diagnoses in '
+                                                       'high-titer sera.'},
+                                       {'question': 'Flow cytometry immunophenotyping used for?',
+                                        'options': ['A) Measuring serum electrolyte panels only',
+                                                    'B) Quantifying urine specific gravity only',
+                                                    'C) Determining PT/INR therapeutic ranges only',
+                                                    'D) Lineage/marker characterization of cell '
+                                                    'populations'],
+                                        'answer': 'D) Lineage/marker characterization of cell '
+                                                  'populations',
+                                        'explanation': 'Flow cytometry immunophenotyping uses '
+                                                       'fluorescent antibodies to characterize '
+                                                       'cell-surface and intracellular markers. It '
+                                                       'is central to diagnosing and classifying '
+                                                       'leukemias/lymphomas and assessing immune '
+                                                       'subsets. Gating strategy, controls, and '
+                                                       'panel design determine interpretive '
+                                                       'accuracy.'},
+                                       {'question': 'Rheumatoid factor can interfere with?',
+                                        'options': ['A) Some immunoassays (false-positive/negative '
+                                                    'themes)',
+                                                    'B) Blood gas pH electrode calibration only',
+                                                    'C) Gram-stain decolorization timing only',
+                                                    'D) Urine dipstick leukocyte esterase only'],
+                                        'answer': 'A) Some immunoassays (false-positive/negative '
+                                                  'themes)',
+                                        'explanation': 'Rheumatoid factor (typically IgM anti-IgG) '
+                                                       'can bridge capture and detection '
+                                                       'antibodies in sandwich immunoassays, '
+                                                       'causing false-positive signals, or '
+                                                       'otherwise perturb assay architecture. '
+                                                       'Blocking reagents and alternative assay '
+                                                       'designs mitigate interference. Unexpected '
+                                                       'serology results may prompt RF '
+                                                       'investigation.'}],
+                              'extreme': [{'question': 'Heterophile antibodies may cause?',
+                                           'options': ['A) Only true pathogen-specific '
+                                                       'neutralizing titers',
+                                                       'B) False-positive or false-negative '
+                                                       'immunoassay results',
+                                                       'C) Only elevated ESR without immunoassay '
+                                                       'effect',
+                                                       'D) Only ABO discrepancies without serology '
+                                                       'effect'],
+                                           'answer': 'B) False-positive or false-negative '
+                                                     'immunoassay results',
+                                           'explanation': 'Heterophile antibodies are polyspecific '
+                                                          'human antibodies that can bind assay '
+                                                          'immunoglobulins and distort immunoassay '
+                                                          'signals. They may produce falsely high '
+                                                          'or low analyte results depending on '
+                                                          'assay format. Heterophile blockers and '
+                                                          'alternative methods help confirm '
+                                                          'suspected interference.'},
+                                          {'question': 'QuantiFERON-TB (IGRA) interprets?',
+                                           'options': ['A) Direct acid-fast smear of sputum alone',
+                                                       'B) Serum IgM to mycobacterial cell wall '
+                                                       'alone',
+                                                       'C) T-cell IFN-γ response to TB antigens',
+                                                       'D) TST induration millimeters without '
+                                                       'antigens'],
+                                           'answer': 'C) T-cell IFN-γ response to TB antigens',
+                                           'explanation': 'Interferon-gamma release assays such as '
+                                                          'QuantiFERON measure T-cell IFN-γ '
+                                                          'release after stimulation with M. '
+                                                          'tuberculosis–specific antigens. Results '
+                                                          'aid diagnosis of latent or active TB '
+                                                          'infection in conjunction with clinical '
+                                                          'and radiographic data. Indeterminate '
+                                                          'results often reflect immunosuppression '
+                                                          'or technical failure of controls.'},
+                                          {'question': 'Cryoglobulin specimens require?',
+                                           'options': ['A) Immediate refrigeration before clotting',
+                                                       'B) Frozen transport on dry ice before '
+                                                       'clotting',
+                                                       'C) Room-temperature delay of several days',
+                                                       'D) Collection/transport at 37°C before '
+                                                       'separation'],
+                                           'answer': 'D) Collection/transport at 37°C before '
+                                                     'separation',
+                                           'explanation': 'Cryoglobulins precipitate at cold '
+                                                          'temperatures, so specimens must be '
+                                                          'collected and maintained at 37°C until '
+                                                          'serum is separated. Premature cooling '
+                                                          'can falsely lower measured cryoglobulin '
+                                                          'by precipitating it into the clot. '
+                                                          'Proper preanalytics are essential for '
+                                                          'detecting cryoglobulinemic disease.'}]},
                 'cases': {'easy': [{'title': 'HBsAg Positive Screen',
                                     'stem': 'Donor/patient HBsAg reactive.',
                                     'question': 'Next?',
@@ -686,127 +1170,229 @@ SPECIALTIES: dict[str, dict] = {'hematology': {'label': 'Hematology',
                               'Antibody ID panels before issuing antigen-negative units when '
                               'needed.'],
                 'questions': {'easy': [{'question': 'Forward typing detects?',
-                                        'options': ['A) RBC antigens',
-                                                    'B) Only plasma antibodies forever only',
-                                                    'C) Only Hb',
-                                                    'D) Only WBC'],
-                                        'answer': 'A) RBC antigens',
-                                        'explanation': 'ABO forward typing uses reagent anti-A and anti-B to detect A and B antigens on the patient’s red cells. Reverse typing tests patient plasma against A1 and B reagent cells to detect isoagglutinins. Concordant forward and reverse results establish the ABO type used for transfusion.'},
+                                        'options': ['A) RBC antigens (using reagent antisera)',
+                                                    'B) Plasma antibodies only (reverse typing)',
+                                                    'C) Hemoglobin concentration by '
+                                                    'spectrophotometry',
+                                                    'D) Leukocyte antigen HLA-A/B typing'],
+                                        'answer': 'A) RBC antigens (using reagent antisera)',
+                                        'explanation': 'Forward (cell) typing mixes patient red '
+                                                       'cells with reagent anti-A, anti-B, and '
+                                                       'often anti-D to detect A, B, and D '
+                                                       'antigens. Reverse typing separately '
+                                                       'detects expected isoagglutinins in plasma. '
+                                                       'Concordant forward and reverse results '
+                                                       'establish the ABO group.'},
                                        {'question': 'Crossmatch checks?',
-                                        'options': ['A) Compatibility between donor RBC and '
-                                                    'recipient plasma',
-                                                    'B) Only donor HIV only',
-                                                    'C) Only platelet count',
-                                                    'D) Only ESR'],
-                                        'answer': 'A) Compatibility between donor RBC and '
-                                                  'recipient plasma',
-                                        'explanation': 'A serologic crossmatch combines donor red cells with recipient plasma to detect incompatibility from ABO mismatch or unexpected alloantibodies. Compatibility testing is a final pretransfusion check after type and antibody screen. Electronic crossmatch may substitute when validated conditions are met.'},
+                                        'options': ['A) Donor hemoglobin adequacy alone',
+                                                    'B) Serologic compatibility between donor RBC '
+                                                    'and recipient',
+                                                    'C) Recipient platelet count alone',
+                                                    'D) Donor infectious-disease NAT alone'],
+                                        'answer': 'B) Serologic compatibility between donor RBC '
+                                                  'and recipient',
+                                        'explanation': 'A crossmatch tests donor red cells against '
+                                                       'recipient plasma/serum to detect '
+                                                       'incompatibility from ABO or unexpected '
+                                                       'antibodies. Immediate-spin, antiglobulin, '
+                                                       'or electronic crossmatch pathways are '
+                                                       'selected per antibody-screen status and '
+                                                       'policy. Compatible crossmatch reduces risk '
+                                                       'of acute hemolytic transfusion reaction.'},
                                        {'question': 'O negative often used as?',
-                                        'options': ['A) Emergency uncrossmatched RBC in selected '
-                                                    'protocols',
-                                                    'B) Universal plasma always',
-                                                    'C) Only platelet product',
-                                                    'D) Only cryoprecipitate'],
-                                        'answer': 'A) Emergency uncrossmatched RBC in selected '
-                                                  'protocols',
-                                        'explanation': 'Group O RhD-negative red cells lack A, B, and RhD antigens and are therefore preferred for emergency transfusion when the recipient’s blood type is unknown. Institutional massive-transfusion protocols define when uncrossmatched O-negative (or O-positive in selected males) units may be issued. Switch to type-specific blood as soon as typing is complete.'}],
+                                        'options': ['A) Universal plasma donor of first choice '
+                                                    'always',
+                                                    'B) Preferred platelets for all alloimmunized '
+                                                    'patients',
+                                                    'C) Emergency uncrossmatched RBC when type '
+                                                    'unknown',
+                                                    'D) Only autologous donation product type'],
+                                        'answer': 'C) Emergency uncrossmatched RBC when type '
+                                                  'unknown',
+                                        'explanation': 'Group O RhD-negative red cells lack A/B '
+                                                       'antigens and D antigen, making them the '
+                                                       'usual emergency uncrossmatched RBC choice '
+                                                       'when the recipient’s type is unknown. '
+                                                       'Switch to type-specific blood as soon as '
+                                                       'typing is complete to conserve O-negative '
+                                                       'inventory. RhD-negative preference is '
+                                                       'especially important for females of '
+                                                       'childbearing potential.'}],
                               'medium': [{'question': 'RhIg indicated for?',
-                                          'options': ['A) RhD-negative mother at risk for anti-D '
-                                                      'sensitization themes',
-                                                      'B) All mothers always regardless of Rh',
-                                                      'C) Only fathers',
-                                                      'D) Only platelet donors always'],
-                                          'answer': 'A) RhD-negative mother at risk for anti-D '
-                                                    'sensitization themes',
-                                          'explanation': 'Rh immune globulin (RhIg) provides passive anti-D that prevents RhD-negative individuals from forming alloanti-D after exposure to RhD-positive red cells. It is indicated in obstetrics for RhD-negative pregnant patients at risk of fetomaternal hemorrhage and after certain sensitizing events. Correct dosing is based on estimated volume of RhD-positive RBCs.'},
+                                          'options': ['A) RhD-positive mothers after every '
+                                                      'delivery',
+                                                      'B) ABO-incompatible platelet transfusion '
+                                                      'only',
+                                                      'C) All RhD-negative males after trauma only',
+                                                      'D) RhD-negative pregnancy at risk for D '
+                                                      'alloimmunization'],
+                                          'answer': 'D) RhD-negative pregnancy at risk for D '
+                                                    'alloimmunization',
+                                          'explanation': 'Rh immune globulin (RhIg) prevents '
+                                                         'anti-D formation in RhD-negative '
+                                                         'individuals exposed to RhD-positive red '
+                                                         'cells, classically in pregnancy. '
+                                                         'Antenatal and postpartum dosing follow '
+                                                         'gestational timing and fetomaternal '
+                                                         'hemorrhage assessment. Failure to give '
+                                                         'indicated RhIg risks hemolytic disease '
+                                                         'of the fetus/newborn in future '
+                                                         'pregnancies.'},
                                          {'question': 'Acute hemolytic reaction classic cause?',
-                                          'options': ['A) ABO incompatibility',
-                                                      'B) Only mild allergic always',
-                                                      'C) Only citrate only',
-                                                      'D) Only TACO only'],
-                                          'answer': 'A) ABO incompatibility',
-                                          'explanation': 'Acute hemolytic transfusion reactions are most often caused by ABO-incompatible red-cell transfusion due to clerical or identification error. Preformed isoagglutinins fix complement and produce intravascular hemolysis with fever, hypotension, and hemoglobinuria. Immediate cessation of transfusion and clerical recheck are mandatory first steps.'},
+                                          'options': ['A) ABO-incompatible RBC transfusion '
+                                                      '(clerical error themes)',
+                                                      'B) Febrile nonhemolytic reaction from '
+                                                      'cytokines alone',
+                                                      'C) Allergic urticaria from plasma proteins '
+                                                      'alone',
+                                                      'D) TRALI from donor leukocyte antibodies '
+                                                      'alone'],
+                                          'answer': 'A) ABO-incompatible RBC transfusion (clerical '
+                                                    'error themes)',
+                                          'explanation': 'Acute hemolytic transfusion reactions '
+                                                         'classically result from ABO-incompatible '
+                                                         'red-cell transfusion, often due to '
+                                                         'clerical identification errors. '
+                                                         'Preformed isohemagglutinins fix '
+                                                         'complement and cause intravascular '
+                                                         'hemolysis. Immediate stop of '
+                                                         'transfusion, clerical check, and '
+                                                         'laboratory workup are mandatory.'},
                                          {'question': 'DAT detects?',
-                                          'options': ['A) In vivo coated RBCs',
-                                                      'B) Only free plasma antibody always only',
-                                                      'C) Only bacteria',
-                                                      'D) Only glucose'],
-                                          'answer': 'A) In vivo coated RBCs',
-                                          'explanation': 'The direct antiglobulin test (DAT) detects IgG and/or complement already bound to red cells in vivo using anti-human globulin reagent. A positive DAT supports immune hemolysis in autoimmune hemolytic anemia, hemolytic disease of the fetus/newborn, or drug- and transfusion-related processes. Elution and antibody identification characterize the coating antibody.'}],
-                              'hard': [{'question': 'A junior colleague asks for the single best '
-                                                    'answer. Antibody screen positive next? Beware '
-                                                    'of near-miss distractors.',
-                                        'options': ['A) Antibody identification panel',
-                                                    'B) Ignore and issue anything',
-                                                    'C) Only give platelets',
-                                                    'D) Cancel blood bank forever'],
-                                        'answer': 'A) Antibody identification panel',
-                                        'explanation': 'A positive antibody screen indicates unexpected red-cell alloantibody (or autoantibody) in the plasma and requires an identification panel against typed reagent cells. Once specificity is known, donor units lacking the corresponding antigen are selected and crossmatched. Incomplete identification risks hemolytic transfusion reactions.'},
-                                       {'question': 'A junior colleague asks for the single best '
-                                                    'answer. TRALI vs TACO? Beware of near-miss '
-                                                    'distractors.',
-                                        'options': ['A) TRALI: permeability edema/immune; TACO: '
-                                                    'hydrostatic overload',
-                                                    'B) Identical always',
-                                                    'C) Neither related to transfusion',
-                                                    'D) Only allergic rash defines both'],
-                                        'answer': 'A) TRALI: permeability edema/immune; TACO: '
-                                                  'hydrostatic overload',
-                                        'explanation': 'TRALI is non-cardiogenic permeability pulmonary edema related to donor antibodies or biologic response modifiers, whereas TACO is hydrostatic pulmonary edema from volume overload. Both present with post-transfusion respiratory distress but differ in blood pressure, BNP, and cardiac findings. Distinguishing them guides diuretics, ventilatory support, and donor-center reporting.'},
-                                       {'question': 'A junior colleague asks for the single best '
-                                                    'answer. Massive transfusion issues include? '
-                                                    'Beware of near-miss distractors.',
-                                        'options': ['A) Coagulopathy, hypothermia, hypocalcemia, '
-                                                    'citrate',
-                                                    'B) Only better clotting always',
-                                                    'C) Only hyperglycemia only forever',
-                                                    'D) No lab monitoring needed'],
-                                        'answer': 'A) Coagulopathy, hypothermia, hypocalcemia, '
-                                                  'citrate',
-                                        'explanation': 'Massive transfusion dilutes coagulation factors and platelets and can cause hypothermia and citrate-related hypocalcemia. Balanced ratios of RBC, plasma, and platelets, plus calcium repletion and warming, mitigate trauma-induced coagulopathy. Viscoelastic testing may refine component therapy in real time.'}],
-                              'extreme': [{'question': 'In a high-stakes laboratory scenario with '
-                                                       'incomplete data, which statement is MOST '
-                                                       'correct? Emergency release documentation '
-                                                       'must? Avoid actions that could harm if a '
-                                                       'critical risk remains open.',
-                                           'options': ['A) Capture physician urgency '
-                                                       'acknowledgment and follow-up testing',
-                                                       'B) Skip all records',
-                                                       'C) Change blood type quietly',
-                                                       'D) Discard segments'],
-                                           'answer': 'A) Capture physician urgency acknowledgment '
-                                                     'and follow-up testing',
-                                           'explanation': 'Emergency release of uncrossmatched blood requires documented physician acknowledgment of urgency and acceptance of residual incompatibility risk. The transfusion service continues ABO/Rh typing, antibody screen, and compatibility testing as specimens become available. Traceability and follow-up documentation satisfy safety and regulatory standards.'},
-                                          {'question': 'In a high-stakes laboratory scenario with '
-                                                       'incomplete data, which statement is MOST '
-                                                       'correct? Warm AIHA crossmatch difficulty? '
-                                                       'Avoid actions that could harm if a '
-                                                       'critical risk remains open.',
-                                           'options': ['A) Panagglutination; need special '
-                                                       'techniques/least incompatible strategies '
-                                                       'with clinical team',
-                                                       'B) Always easy identical to normal',
-                                                       'C) Never transfuse ever regardless of life '
-                                                       'threat without discussion',
-                                                       'D) Ignore antibody'],
-                                           'answer': 'A) Panagglutination; need special '
-                                                     'techniques/least incompatible strategies '
-                                                     'with clinical team',
-                                           'explanation': 'Warm autoimmune hemolytic anemia coats autologous and allogeneic red cells with IgG, often causing panagglutination that obscures alloantibody detection and crossmatch. Special techniques such as adsorptions help reveal underlying alloantibodies. Transfusion decisions use least-incompatible units coordinated with the clinical team.'},
-                                          {'question': 'In a high-stakes laboratory scenario with '
-                                                       'incomplete data, which statement is MOST '
-                                                       'correct? Bacterial contamination highest '
-                                                       'risk historically with? Avoid actions that '
-                                                       'could harm if a critical risk remains '
-                                                       'open.',
-                                           'options': ['A) Platelets (room temp storage)',
-                                                       'B) Frozen plasma always higher than '
-                                                       'platelets historically classic teaching '
-                                                       'opposite',
-                                                       'C) Washed RBCs only',
-                                                       'D) Crystalloid'],
-                                           'answer': 'A) Platelets (room temp storage)',
-                                           'explanation': 'Platelet components are stored at room temperature with agitation to preserve function, which also favors bacterial proliferation if contamination occurs. Bacterial sepsis from platelets has historically been a leading infectious transfusion risk. Visual inspection, culture or rapid bacterial detection, and pathogen-reduction strategies mitigate this hazard.'}]},
+                                          'options': ['A) In vitro antibody screen panel '
+                                                      'reactivity only',
+                                                      'B) In vivo coating of RBCs with IgG and/or '
+                                                      'complement',
+                                                      'C) Free plasma hemoglobin after '
+                                                      'centrifugation only',
+                                                      'D) Donor unit culture contamination only'],
+                                          'answer': 'B) In vivo coating of RBCs with IgG and/or '
+                                                    'complement',
+                                          'explanation': 'The direct antiglobulin test (DAT) '
+                                                         'detects IgG and/or complement already '
+                                                         'bound to circulating red cells in vivo. '
+                                                         'It is used in evaluating autoimmune '
+                                                         'hemolysis, hemolytic disease of the '
+                                                         'newborn, and suspected hemolytic '
+                                                         'transfusion reactions. Reagent '
+                                                         'specificity (anti-IgG vs anti-C3) '
+                                                         'refines interpretation.'}],
+                              'hard': [{'question': 'Antibody screen positive next?',
+                                        'options': ['A) Issue any ABO-identical unit without '
+                                                    'further work',
+                                                    'B) Discontinue all future transfusion '
+                                                    'permanently',
+                                                    'C) Antibody identification panel (± '
+                                                    'phenotyping/crossmatch)',
+                                                    'D) Repeat forward typing only and release '
+                                                    'units'],
+                                        'answer': 'C) Antibody identification panel (± '
+                                                  'phenotyping/crossmatch)',
+                                        'explanation': 'A positive antibody screen indicates '
+                                                       'unexpected red-cell alloantibody (or '
+                                                       'autoantibody) needing identification '
+                                                       'before transfusion when possible. Antibody '
+                                                       'panels, selected-cell panels, and antigen '
+                                                       'typing guide compatible unit selection. '
+                                                       'Delayed workup risks hemolytic transfusion '
+                                                       'reactions.'},
+                                       {'question': 'TRALI vs TACO?',
+                                        'options': ['A) TRALI: volume overload; TACO: permeability '
+                                                    'edema only',
+                                                    'B) Both are identical IgE-mediated '
+                                                    'anaphylaxis only',
+                                                    'C) Both are delayed serologic hemolysis only',
+                                                    'D) TRALI: permeability edema/inflammation; '
+                                                    'TACO: hydrostatic overload'],
+                                        'answer': 'D) TRALI: permeability edema/inflammation; '
+                                                  'TACO: hydrostatic overload',
+                                        'explanation': 'TRALI presents as acute noncardiogenic '
+                                                       'permeability pulmonary edema related to '
+                                                       'donor antibodies or bioactive lipids, '
+                                                       'whereas TACO is hydrostatic cardiogenic '
+                                                       'overload from volume. Distinguishing '
+                                                       'features include blood pressure, BNP/echo '
+                                                       'findings, and response to diuretics. '
+                                                       'Product imputation and donor management '
+                                                       'differ by diagnosis.'},
+                                       {'question': 'Massive transfusion issues include?',
+                                        'options': ['A) Coagulopathy, citrate effects, electrolyte '
+                                                    'shifts, hypothermia themes',
+                                                    'B) Only iron overload within the first hour',
+                                                    'C) Only delayed serologic reactions in '
+                                                    'minutes',
+                                                    'D) Only graft-versus-host disease within '
+                                                    'minutes'],
+                                        'answer': 'A) Coagulopathy, citrate effects, electrolyte '
+                                                  'shifts, hypothermia themes',
+                                        'explanation': 'Massive transfusion can cause dilutional '
+                                                       'coagulopathy, citrate-related '
+                                                       'hypocalcemia, hyperkalemia or hypokalemia, '
+                                                       'and hypothermia that worsen bleeding. '
+                                                       'Ratio-based resuscitation and monitoring '
+                                                       'of coag, ionized calcium, and temperature '
+                                                       'mitigate complications. Laboratory support '
+                                                       'is integral to damage-control '
+                                                       'transfusion.'}],
+                              'extreme': [{'question': 'Emergency release RBC when?',
+                                           'options': ['A) Elective surgery with completed type '
+                                                       'and screen',
+                                                       'B) Life-threatening bleed before '
+                                                       'compatibility testing completes',
+                                                       'C) Stable anemia awaiting antibody '
+                                                       'identification',
+                                                       'D) Outpatient hemoglobin optimization over '
+                                                       'weeks'],
+                                           'answer': 'B) Life-threatening bleed before '
+                                                     'compatibility testing completes',
+                                           'explanation': 'Emergency-release (uncrossmatched) RBCs '
+                                                          'are issued when delay for full '
+                                                          'compatibility testing would endanger a '
+                                                          'bleeding patient. O-negative or '
+                                                          'type-specific units are released with '
+                                                          'documentation of physician acceptance '
+                                                          'of risk. Concurrent specimens for type, '
+                                                          'screen, and crossmatch are obtained as '
+                                                          'soon as possible.'},
+                                          {'question': 'Warm AIHA transfusion approach?',
+                                           'options': ['A) Refuse all RBC transfusion regardless '
+                                                       'of hypoxia',
+                                                       'B) Require only cold-agglutinin-compatible '
+                                                       'units',
+                                                       'C) Transfuse least-incompatible '
+                                                       'crossmatch; treat underlying AIHA',
+                                                       'D) Ignore alloantibodies if auto control '
+                                                       'is positive'],
+                                           'answer': 'C) Transfuse least-incompatible crossmatch; '
+                                                     'treat underlying AIHA',
+                                           'explanation': 'In warm autoimmune hemolytic anemia, '
+                                                          'panagglutination often precludes '
+                                                          'finding fully compatible units. '
+                                                          'Transfusion, when necessary, uses the '
+                                                          'least-incompatible crossmatched units '
+                                                          'while treating the underlying process '
+                                                          'and excluding underlying '
+                                                          'alloantibodies. Communication between '
+                                                          'blood bank and clinicians is '
+                                                          'essential.'},
+                                          {'question': 'Bacterial contamination risk highest with?',
+                                           'options': ['A) Frozen plasma stored at ≤−18°C',
+                                                       'B) Frozen cryoprecipitate in freezer '
+                                                       'storage',
+                                                       'C) Frozen RBC glycerolized units in '
+                                                       'freezer',
+                                                       'D) Platelets (room-temperature storage)'],
+                                           'answer': 'D) Platelets (room-temperature storage)',
+                                           'explanation': 'Platelets are stored at room '
+                                                          'temperature with agitation, creating '
+                                                          'conditions permissive for bacterial '
+                                                          'growth if contaminated. Culture or '
+                                                          'pathogen-reduction strategies and '
+                                                          'visual inspection reduce septic '
+                                                          'transfusion risk. Recipients with '
+                                                          'fever/rigors during or after platelet '
+                                                          'transfusion need prompt evaluation for '
+                                                          'sepsis.'}]},
                 'cases': {'easy': [{'title': 'Pre-op Type and Screen',
                                     'stem': 'Patient needs elective surgery; type and screen '
                                             'ordered.',
@@ -852,120 +1438,239 @@ SPECIALTIES: dict[str, dict] = {'hematology': {'label': 'Hematology',
                                   'Orientation, margins, and labeling prevent catastrophic '
                                   'mix-ups.'],
                     'questions': {'easy': [{'question': 'Formalin mainly used to?',
-                                            'options': ['A) Fix tissues',
-                                                        'B) Stain nuclei only',
-                                                        'C) Culture bacteria',
-                                                        'D) Measure glucose'],
-                                            'answer': 'A) Fix tissues',
-                                            'explanation': 'Neutral buffered formalin cross-links proteins and stabilizes tissue architecture for histologic processing. Adequate fixation time and volume prevent autolysis and preserve morphologic detail for H&E and many ancillary studies. Over- or under-fixation can compromise both morphology and antigenicity.'},
+                                            'options': ['A) Fix tissues (preserve morphology)',
+                                                        'B) Stain nuclei as a primary dye',
+                                                        'C) Culture bacteria from tissue',
+                                                        'D) Measure tissue glucose content'],
+                                            'answer': 'A) Fix tissues (preserve morphology)',
+                                            'explanation': 'Formalin (formaldehyde solution) '
+                                                           'cross-links proteins to fix tissues, '
+                                                           'preserving morphologic detail for '
+                                                           'histologic processing. Adequate '
+                                                           'fixation time and volume ratio prevent '
+                                                           'autolysis and artifact. Overfixation '
+                                                           'or underfixation can impair morphology '
+                                                           'and some ancillary tests.'},
                                            {'question': 'H&E stain shows?',
-                                            'options': ['A) General tissue morphology',
-                                                        'B) Only fat exclusively',
-                                                        'C) Only organisms always only',
-                                                        'D) Only iron only'],
-                                            'answer': 'A) General tissue morphology',
-                                            'explanation': 'Hematoxylin and eosin (H&E) is the routine histologic stain: hematoxylin colors nucleic acids blue-purple and eosin stains proteins pink. H&E provides the primary morphologic assessment of tissue architecture and cytologic features. Most diagnoses begin with H&E before special stains or immunohistochemistry.'},
+                                            'options': ['A) Only mycobacteria by acid-fast '
+                                                        'chemistry',
+                                                        'B) General tissue morphology '
+                                                        '(nuclei/cytoplasm)',
+                                                        'C) Only amyloid by Congo red dichroism',
+                                                        'D) Only iron by Prussian blue reaction'],
+                                            'answer': 'B) General tissue morphology '
+                                                      '(nuclei/cytoplasm)',
+                                            'explanation': 'Hematoxylin and eosin (H&E) is the '
+                                                           'routine histologic stain: hematoxylin '
+                                                           'colors nuclei blue/purple and eosin '
+                                                           'colors cytoplasm and extracellular '
+                                                           'matrix pink. It provides the primary '
+                                                           'morphologic assessment of tissue '
+                                                           'architecture. Special stains and IHC '
+                                                           'are added when H&E raises specific '
+                                                           'questions.'},
                                            {'question': 'Pap smear is a?',
-                                            'options': ['A) Cytology screening test',
-                                                        'B) Only blood culture',
-                                                        'C) Only CBC',
-                                                        'D) Only PT'],
-                                            'answer': 'A) Cytology screening test',
-                                            'explanation': 'The Papanicolaou (Pap) smear is a cytologic screening test that samples cervical epithelial cells to detect squamous intraepithelial lesions and carcinoma. Liquid-based cytology improves adequacy and permits HPV co-testing in many algorithms. Abnormal cytology triggers colposcopic evaluation and biopsy as indicated.'}],
+                                            'options': ['A) Histologic full-thickness cervical '
+                                                        'biopsy only',
+                                                        'B) Microbiology culture plate for STI '
+                                                        'only',
+                                                        'C) Cytologic screening specimen for '
+                                                        'cervical neoplasia',
+                                                        'D) Serum HPV antibody titer assay only'],
+                                            'answer': 'C) Cytologic screening specimen for '
+                                                      'cervical neoplasia',
+                                            'explanation': 'The Papanicolaou (Pap) smear/cytology '
+                                                           'samples exfoliated cervical cells to '
+                                                           'screen for squamous intraepithelial '
+                                                           'lesions and carcinoma. Liquid-based '
+                                                           'cytology and HPV cotesting improve '
+                                                           'detection pathways. Abnormal cytology '
+                                                           'triggers colposcopic biopsy for '
+                                                           'histologic confirmation.'}],
                                   'medium': [{'question': 'Immunohistochemistry detects?',
-                                              'options': ['A) Antigens in tissue with antibodies',
-                                                          'B) Only electrolytes in serum',
-                                                          'C) Only urine SG',
-                                                          'D) Only ESR'],
-                                              'answer': 'A) Antigens in tissue with antibodies',
-                                              'explanation': 'Immunohistochemistry (IHC) uses antibodies to localize specific antigens in tissue sections, visualized by chromogenic or fluorescent detection. IHC supports tumor classification, predicts therapy targets, and detects infectious organisms in situ. Antibody validation, controls, and fixation conditions determine result reliability.'},
+                                              'options': ['A) Only nucleic acid sequences by PCR '
+                                                          'on slides',
+                                                          'B) Only inorganic ions by '
+                                                          'histochemistry alone',
+                                                          'C) Only live organisms by culture from '
+                                                          'blocks',
+                                                          'D) Antigens in tissue using antibody '
+                                                          'labeling'],
+                                              'answer': 'D) Antigens in tissue using antibody '
+                                                        'labeling',
+                                              'explanation': 'Immunohistochemistry (IHC) uses '
+                                                             'antibodies to localize specific '
+                                                             'antigens in tissue sections via '
+                                                             'chromogenic or fluorescent '
+                                                             'detection. It supports tumor '
+                                                             'classification, predictive marker '
+                                                             'testing, and infectious-agent '
+                                                             'detection. Controls and fixation '
+                                                             'quality critically affect staining '
+                                                             'validity.'},
                                              {'question': 'Frozen section purpose?',
-                                              'options': ['A) Intraoperative rapid diagnosis',
-                                                          'B) Permanent best morphology always '
-                                                          'superior to paraffin forever for '
-                                                          'everything',
-                                                          'C) Only research posters',
-                                                          'D) Only teaching without clinical use'],
-                                              'answer': 'A) Intraoperative rapid diagnosis',
-                                              'explanation': 'Frozen section provides rapid intraoperative histologic diagnosis on freshly frozen tissue to guide immediate surgical decisions such as margin status or tumor confirmation. Freezing artifact and limited sampling reduce morphologic quality compared with formalin-fixed paraffin-embedded sections. Permanent sections remain the definitive diagnostic standard.'},
+                                              'options': ['A) Rapid intraoperative '
+                                                          'diagnosis/margin assessment',
+                                                          'B) Permanent archival staining without '
+                                                          'urgency',
+                                                          'C) Long-term nucleic acid banking only',
+                                                          'D) Decalcification of dense bone '
+                                                          'overnight'],
+                                              'answer': 'A) Rapid intraoperative diagnosis/margin '
+                                                        'assessment',
+                                              'explanation': 'Frozen section provides rapid '
+                                                             'intraoperative histologic assessment '
+                                                             'for diagnosis, margins, or tissue '
+                                                             'triage. Cryostat sections are '
+                                                             'stained (often H&E) and interpreted '
+                                                             'within minutes. Limitations include '
+                                                             'freezing artifact and reduced '
+                                                             'suitability for some ancillary '
+                                                             'tests.'},
                                              {'question': 'Cytopathology adequacy matters because?',
-                                              'options': ['A) Insufficient cells → unsatisfactory '
-                                                          'interpretation',
-                                                          'B) Always diagnostic regardless',
-                                                          'C) Volume never matters',
-                                                          'D) Labels optional'],
-                                              'answer': 'A) Insufficient cells → unsatisfactory '
-                                                        'interpretation',
-                                              'explanation': 'Cytopathology adequacy criteria ensure that sufficient well-preserved cells are present for a reliable interpretation. Unsatisfactory specimens risk false-negative reports and usually require recollection. Reporting systems such as Bethesda for thyroid or cervical cytology standardize adequacy and diagnostic categories.'}],
-                                  'hard': [{'question': 'A junior colleague asks for the single '
-                                                        'best answer. Poor fixation artifact can? '
-                                                        'Beware of near-miss distractors.',
-                                            'options': ['A) Mimic/ obscure pathology',
-                                                        'B) Improve IHC always',
-                                                        'C) Never affect diagnosis',
-                                                        'D) Only change barcode'],
-                                            'answer': 'A) Mimic/ obscure pathology',
-                                            'explanation': 'Inadequate fixation allows autolysis and poor nuclear detail that can mimic or obscure neoplasia and inflammation. Delayed immersion, thick specimens, or insufficient formalin volume are common causes. Controlled preanalytic handling is essential for accurate anatomic pathology interpretation.'},
-                                           {'question': 'A junior colleague asks for the single '
-                                                        'best answer. Special stain AFB used for? '
-                                                        'Beware of near-miss distractors.',
-                                            'options': ['A) Mycobacteria in tissue',
-                                                        'B) Only glycogen only',
-                                                        'C) Only collagen only',
-                                                        'D) Only amyloid only'],
-                                            'answer': 'A) Mycobacteria in tissue',
-                                            'explanation': 'Acid-fast bacillus (AFB) special stains on tissue highlight mycobacteria that may be sparse in granulomatous inflammation. Findings should be correlated with microbiology culture and molecular assays for speciation and susceptibility. A negative tissue stain does not exclude mycobacterial infection because of limited sensitivity.'},
-                                           {'question': 'A junior colleague asks for the single '
-                                                        'best answer. Molecular tests on FFPE '
-                                                        'need? Beware of near-miss distractors.',
-                                            'options': ['A) Adequate tumor content/quality nucleic '
-                                                        'acid',
-                                                        'B) No pathologist input ever',
-                                                        'C) Only wet tissue never fixed ever '
-                                                        'exclusively',
-                                                        'D) Random blocks without review'],
-                                            'answer': 'A) Adequate tumor content/quality nucleic '
-                                                      'acid',
-                                            'explanation': 'Molecular assays on formalin-fixed paraffin-embedded (FFPE) tissue require adequate tumor cellularity and nucleic acid quality after fixation and processing. Macrodissection or microdissection enriches neoplastic DNA/RNA for mutation, fusion, or MSI testing. Poor quality or low tumor content yields false-negative or uninterpretable genomic results.'}],
-                                  'extreme': [{'question': 'In a high-stakes laboratory scenario '
-                                                           'with incomplete data, which statement '
-                                                           'is MOST correct? Critical unexpected '
-                                                           'malignancy in frozen? Avoid actions '
-                                                           'that could harm if a critical risk '
-                                                           'remains open.',
-                                               'options': ['A) Immediate clear communication to '
-                                                           'surgeon',
-                                                           'B) Leave note tomorrow only',
-                                                           'C) Change diagnosis silently later '
-                                                           'without call',
-                                                           'D) Discard slide'],
-                                               'answer': 'A) Immediate clear communication to '
-                                                         'surgeon',
-                                               'explanation': 'An unexpected malignant diagnosis on frozen section can immediately alter the surgical plan. The pathologist must communicate findings clearly, directly, and promptly to the operating surgeon, documenting the intraoperative consultation. Ambiguous wording risks inappropriate resection or missed intervention.'},
-                                              {'question': 'In a high-stakes laboratory scenario '
-                                                           'with incomplete data, which statement '
-                                                           'is MOST correct? Cytotech–pathologist '
-                                                           'hierarchy ensures? Avoid actions that '
-                                                           'could harm if a critical risk remains '
-                                                           'open.',
-                                               'options': ['A) Qualified review of abnormal '
-                                                           'findings',
-                                                           'B) No QA',
-                                                           'C) Screening without standards',
-                                                           'D) Ignoring ASCUS algorithms'],
-                                               'answer': 'A) Qualified review of abnormal findings',
-                                               'explanation': 'Cytotechnologists perform primary screening of cytology slides, but abnormal or difficult cases require pathologist review per laboratory hierarchy and regulations. This layered review improves diagnostic accuracy and compliance with quality standards. Clear escalation pathways protect patients from missed high-grade lesions.'},
-                                              {'question': 'In a high-stakes laboratory scenario '
-                                                           'with incomplete data, which statement '
-                                                           'is MOST correct? Decalcification '
-                                                           'overdone may? Avoid actions that could '
-                                                           'harm if a critical risk remains open.',
-                                               'options': ['A) Damage antigenicity/morphology',
-                                                           'B) Always improve IHC',
-                                                           'C) Never matter',
-                                                           'D) Only help cultures'],
-                                               'answer': 'A) Damage antigenicity/morphology',
-                                               'explanation': 'Decalcification softens mineralized bone so it can be sectioned, but prolonged or harsh acid decalcification degrades morphology and can destroy antigens and nucleic acids. Laboratories balance the minimum decalcification needed for cutting against preservation for IHC and molecular testing. Gentle or EDTA-based methods better preserve biomolecules.'}]},
+                                              'options': ['A) Adequacy never affects interpretive '
+                                                          'confidence',
+                                                          'B) Inadequate samples risk false '
+                                                          'negatives/repeat procedures',
+                                                          'C) Only stains matter; cellularity is '
+                                                          'irrelevant',
+                                                          'D) Adequacy applies only to '
+                                                          'microbiology cultures'],
+                                              'answer': 'B) Inadequate samples risk false '
+                                                        'negatives/repeat procedures',
+                                              'explanation': 'Specimen adequacy criteria ensure '
+                                                             'sufficient well-preserved '
+                                                             'cells/material for reliable '
+                                                             'cytologic interpretation. Inadequate '
+                                                             'samples can miss neoplasia and '
+                                                             'necessitate repeats, delaying care. '
+                                                             'Rapid on-site evaluation (ROSE) '
+                                                             'helps improve adequacy for many FNA '
+                                                             'procedures.'}],
+                                  'hard': [{'question': 'Poor fixation artifact can?',
+                                            'options': ['A) Improve nuclear detail beyond '
+                                                        'well-fixed tissue',
+                                                        'B) Eliminate need for gross examination '
+                                                        'entirely',
+                                                        'C) Distort morphology and impair '
+                                                        'IHC/molecular tests',
+                                                        'D) Convert all specimens to microbiology '
+                                                        'culture'],
+                                            'answer': 'C) Distort morphology and impair '
+                                                      'IHC/molecular tests',
+                                            'explanation': 'Inadequate or delayed fixation allows '
+                                                           'autolysis and poor nuclear/cytoplasmic '
+                                                           'preservation that mimic or obscure '
+                                                           'pathology. Antigenicity and nucleic '
+                                                           'acid quality for IHC and molecular '
+                                                           'assays may also degrade. Prompt '
+                                                           'adequate formalin fixation (or '
+                                                           'validated alternatives) is '
+                                                           'foundational QA.'},
+                                           {'question': 'Special stain AFB used for?',
+                                            'options': ['A) Highlighting collagen only (trichrome '
+                                                        'role)',
+                                                        'B) Demonstrating fungi only (GMS/PAS '
+                                                        'role)',
+                                                        'C) Staining mucin only (mucicarmine role)',
+                                                        'D) Detecting acid-fast organisms (e.g., '
+                                                        'mycobacteria)'],
+                                            'answer': 'D) Detecting acid-fast organisms (e.g., '
+                                                      'mycobacteria)',
+                                            'explanation': 'Acid-fast bacillus (AFB) special '
+                                                           'stains detect organisms with mycolic '
+                                                           'acid–rich walls, notably mycobacteria, '
+                                                           'in tissue sections. Fluorochrome '
+                                                           'methods increase screening '
+                                                           'sensitivity; culture and PCR provide '
+                                                           'complementary confirmation. Negative '
+                                                           'stains do not fully exclude infection '
+                                                           'when suspicion is high.'},
+                                           {'question': 'Molecular tests on FFPE need?',
+                                            'options': ['A) Adequate tumor content and nucleic '
+                                                        'acid quality',
+                                                        'B) Only H&E morphology without DNA/RNA QC',
+                                                        'C) Decalcification in strong acid for all '
+                                                        'blocks',
+                                                        'D) Room-temperature paraffin without '
+                                                        'fixation history'],
+                                            'answer': 'A) Adequate tumor content and nucleic acid '
+                                                      'quality',
+                                            'explanation': 'Molecular assays on formalin-fixed '
+                                                           'paraffin-embedded (FFPE) tissue '
+                                                           'require sufficient neoplastic '
+                                                           'cellularity and extractable nucleic '
+                                                           'acid of acceptable quality/quantity. '
+                                                           'Acid decalcification and prolonged '
+                                                           'ischemia can damage DNA/RNA. '
+                                                           'Pathologist enrichment and QC metrics '
+                                                           'prevent false-negative or '
+                                                           'uninterpretable results.'}],
+                                  'extreme': [{'question': 'Critical specimen mislabeling '
+                                                           'requires?',
+                                               'options': ['A) Continue embedding and report under '
+                                                           'either name',
+                                                           'B) Stop processing; resolve identity '
+                                                           'before reporting',
+                                                           'C) Relabel to the more common clinic '
+                                                           'name',
+                                                           'D) Discard without documenting the '
+                                                           'discrepancy'],
+                                               'answer': 'B) Stop processing; resolve identity '
+                                                         'before reporting',
+                                               'explanation': 'Specimen mislabeling is a critical '
+                                                              'patient-safety event because '
+                                                              'wrong-patient diagnosis can lead to '
+                                                              'catastrophic treatment errors. '
+                                                              'Processing should halt while '
+                                                              'identity is investigated using '
+                                                              'available paperwork, tissue '
+                                                              'comparison, and institutional '
+                                                              'protocol. Documentation and '
+                                                              'disclosure follow risk-management '
+                                                              'policy.'},
+                                              {'question': 'Cytotech finds malignant cells '
+                                                           'unexpectedly?',
+                                               'options': ['A) Release as negative without '
+                                                           'pathologist review',
+                                                           'B) Discard the slide as likely '
+                                                           'contaminant silently',
+                                                           'C) Escalate for pathologist review and '
+                                                           'clinical notification pathways',
+                                                           'D) Repeat only if the clinician calls '
+                                                           'later'],
+                                               'answer': 'C) Escalate for pathologist review and '
+                                                         'clinical notification pathways',
+                                               'explanation': 'Unexpected malignant cells in '
+                                                              'cytology or fluids require '
+                                                              'pathologist confirmation and '
+                                                              'appropriate clinical communication '
+                                                              'per policy. Premature release as '
+                                                              '“negative” can delay cancer care. '
+                                                              'Correlation with history and '
+                                                              'ancillary studies supports accurate '
+                                                              'classification.'},
+                                              {'question': 'Decalcification of bone for histology?',
+                                               'options': ['A) Adds mineral to harden soft tissues '
+                                                           'for cutting',
+                                                           'B) Replaces formalin fixation entirely '
+                                                           'for soft tissue',
+                                                           'C) Is required for all cytology '
+                                                           'liquid-based specimens',
+                                                           'D) Removes mineral to allow '
+                                                           'sectioning; may affect some tests'],
+                                               'answer': 'D) Removes mineral to allow sectioning; '
+                                                         'may affect some tests',
+                                               'explanation': 'Decalcification removes calcium '
+                                                              'from bone/mineralized tissue so '
+                                                              'microtomes can cut sections. Acid '
+                                                              'methods are faster but can impair '
+                                                              'DNA and some antigens more than '
+                                                              'gentler chelating methods. Test '
+                                                              'menus should consider '
+                                                              'decalcification effects when '
+                                                              'ordering molecular or IHC '
+                                                              'studies.'}]},
                     'cases': {'easy': [{'title': 'Biopsy in Formalin',
                                         'stem': 'Surgeon sends breast lump in formalin.',
                                         'question': 'Lab first steps?',
@@ -1014,119 +1719,204 @@ SPECIALTIES: dict[str, dict] = {'hematology': {'label': 'Hematology',
                                 'indicated.'],
                   'questions': {'easy': [{'question': 'Stool O&P looks for?',
                                           'options': ['A) Ova and parasites',
-                                                      'B) Only bacteria always only',
-                                                      'C) Only viruses',
-                                                      'D) Only occult blood only'],
+                                                      'B) Only aerobic bacterial colony counts',
+                                                      'C) Only viral antigen panels',
+                                                      'D) Only fecal occult blood chemistry'],
                                           'answer': 'A) Ova and parasites',
-                                          'explanation': 'Stool ova-and-parasite (O&P) examination detects helminth eggs and protozoan cysts or trophozoites using concentration techniques and permanent stained smears. Multiple specimens improve sensitivity because shedding can be intermittent. Clinical history including travel and immune status guides which parasites are sought.'},
+                                          'explanation': 'Ova and parasite (O&P) examination '
+                                                         'evaluates stool for helminth eggs, '
+                                                         'larvae, and protozoan cysts/trophozoites '
+                                                         'using microscopy with concentration and '
+                                                         'stained smears. Multiple specimens may '
+                                                         'be needed because shedding can be '
+                                                         'intermittent. Findings guide '
+                                                         'antiparasitic therapy and public-health '
+                                                         'follow-up.'},
                                          {'question': 'Malaria diagnosed commonly by?',
-                                          'options': ['A) Blood films (thick/thin)',
-                                                      'B) Only urine dipstick',
-                                                      'C) Only chest x-ray',
-                                                      'D) Only ECG'],
-                                          'answer': 'A) Blood films (thick/thin)',
-                                          'explanation': 'Malaria diagnosis classically relies on Giemsa-stained thick and thin blood films. Thick films maximize sensitivity; thin films preserve morphology for Plasmodium species identification and parasitemia estimation. Rapid antigen tests and PCR complement microscopy but speciation still guides therapy.'},
+                                          'options': ['A) Stool wet mount for trophozoites only',
+                                                      'B) Blood film microscopy (thick/thin '
+                                                      'smears)',
+                                                      'C) Urine dipstick leukocyte esterase only',
+                                                      'D) CSF cryptococcal antigen only'],
+                                          'answer': 'B) Blood film microscopy (thick/thin smears)',
+                                          'explanation': 'Malaria diagnosis classically relies on '
+                                                         'Giemsa-stained thick and thin blood '
+                                                         'films to detect and speciate Plasmodium. '
+                                                         'Rapid antigen tests and molecular assays '
+                                                         'are adjuncts depending on setting. '
+                                                         'Parasite density and species '
+                                                         'identification guide urgency and drug '
+                                                         'selection.'},
                                          {'question': 'Enterobius best sampled by?',
-                                          'options': ['A) Perianal tape test',
-                                                      'B) Only blood culture',
-                                                      'C) Only throat swab',
-                                                      'D) Only CSF'],
-                                          'answer': 'A) Perianal tape test',
-                                          'explanation': 'Enterobius vermicularis (pinworm) females deposit eggs on perianal skin, usually at night. The cellulose-tape (paddle) test samples that area and is more sensitive than routine stool O&P for this nematode. Eggs are flattened on one side and are diagnostic when identified microscopically.'}],
+                                          'options': ['A) Midstream clean-catch urine culture',
+                                                      'B) Sputum acid-fast smear for eggs',
+                                                      'C) Perianal cellulose tape test',
+                                                      'D) Peripheral blood thin film for adults'],
+                                          'answer': 'C) Perianal cellulose tape test',
+                                          'explanation': 'Enterobius vermicularis (pinworm) '
+                                                         'females deposit eggs on perianal skin, '
+                                                         'so the cellulose tape or paddle test '
+                                                         'collects eggs more reliably than stool '
+                                                         'O&P. Specimens are best obtained in the '
+                                                         'morning before bathing. Identification '
+                                                         'of eggs confirms infection and guides '
+                                                         'household treatment.'}],
                                 'medium': [{'question': 'Giardia trophozoites seen in?',
-                                            'options': ['A) Stool (or duodenal) specimens',
-                                                        'B) Only blood',
-                                                        'C) Only sputum always',
-                                                        'D) Only CSF always'],
-                                            'answer': 'A) Stool (or duodenal) specimens',
-                                            'explanation': 'Giardia duodenalis trophozoites and cysts are identified in stool by microscopy, and antigen or NAAT assays increase detection sensitivity. Trophozoites may also be recovered from duodenal fluid in difficult cases. Infection causes small-bowel malabsorption with greasy, foul-smelling diarrhea.'},
+                                            'options': ['A) Peripheral blood erythrocytes as ring '
+                                                        'forms',
+                                                        'B) Sputum as operculated eggs',
+                                                        'C) Skin scrapings as burrowing mites',
+                                                        'D) Duodenal fluid/stool (pear-shaped, '
+                                                        'falling-leaf motility)'],
+                                            'answer': 'D) Duodenal fluid/stool (pear-shaped, '
+                                                      'falling-leaf motility)',
+                                            'explanation': 'Giardia duodenalis trophozoites are '
+                                                           'pear-shaped flagellates with '
+                                                           'distinctive motility, found in stool '
+                                                           'or duodenal specimens; cysts are the '
+                                                           'environmentally resistant form. '
+                                                           'Antigen and molecular assays '
+                                                           'complement microscopy. Infection '
+                                                           'causes small-bowel malabsorption and '
+                                                           'diarrhea.'},
                                            {'question': 'E. histolytica concern?',
-                                            'options': ['A) Invasive amebiasis; distinguish from '
-                                                        'nonpathogenic amebae',
-                                                        'B) Always harmless commensals identical',
-                                                        'C) Only skin flora',
-                                                        'D) Only contaminants never pathogenic'],
-                                            'answer': 'A) Invasive amebiasis; distinguish from '
-                                                      'nonpathogenic amebae',
-                                            'explanation': 'Entamoeba histolytica can invade intestinal mucosa and disseminate to form liver abscesses, whereas morphologically similar nonpathogenic amebae do not. Differentiation uses antigen detection, molecular assays, or careful morphologic criteria with ingested erythrocytes as a clue. Correct identification prevents both undertreatment and unnecessary therapy.'},
+                                            'options': ['A) Invasive amebiasis (colitis/liver '
+                                                        'abscess themes)',
+                                                        'B) Only noninvasive luminal colonization '
+                                                        'forever',
+                                                        'C) Only bloodstream microfilariae without '
+                                                        'colitis',
+                                                        'D) Only muscle cysts of Trichinella'],
+                                            'answer': 'A) Invasive amebiasis (colitis/liver '
+                                                      'abscess themes)',
+                                            'explanation': 'Entamoeba histolytica can invade '
+                                                           'intestinal mucosa causing dysentery '
+                                                           'and may spread to form liver '
+                                                           'abscesses. Differentiation from '
+                                                           'nonpathogenic Entamoeba dispar '
+                                                           'requires antigen/molecular methods '
+                                                           'when morphology overlaps. '
+                                                           'Extraintestinal disease may lack '
+                                                           'concurrent stool organisms.'},
                                            {'question': 'Ziehl-Neelsen modified may help detect?',
-                                            'options': ['A) Cryptosporidium oocysts among uses',
-                                                        'B) Only staphylococci',
-                                                        'C) Only yeast always better gram',
-                                                        'D) Only mycobacteria exclusively never '
-                                                        'crypto'],
-                                            'answer': 'A) Cryptosporidium oocysts among uses',
-                                            'explanation': 'Cryptosporidium oocysts retain modified acid-fast stains and appear as small (about 4–6 µm) red spheres against a blue-green background. Modified Ziehl–Neelsen or safranin methods improve detection compared with routine trichrome alone. Immunocompromised patients are at particular risk for prolonged watery diarrhea.'}],
-                                'hard': [{'question': 'A junior colleague asks for the single best '
-                                                      'answer. Babesia vs malaria on film? Beware '
-                                                      'of near-miss distractors.',
-                                          'options': ['A) Babesia may show Maltese cross; no '
-                                                      'travel sometimes; different Rx',
-                                                      'B) Identical always',
-                                                      'C) Babesia only in stool',
-                                                      'D) Malaria only in urine'],
-                                          'answer': 'A) Babesia may show Maltese cross; no travel '
-                                                    'sometimes; different Rx',
-                                          'explanation': 'Babesia intraerythrocytic parasites may form pathognomonic tetrad “Maltese cross” arrangements and can mimic Plasmodium on blood films. Unlike malaria, babesiosis is tick-borne, has no travel requirement, and does not produce hemozoin pigment. Accurate differentiation directs antiparasitic therapy and transfusion precautions.'},
-                                         {'question': 'A junior colleague asks for the single best '
-                                                      'answer. Hydatid disease caution in lab? '
-                                                      'Beware of near-miss distractors.',
-                                          'options': ['A) Avoid spilling cystic fluid; anaphylaxis '
-                                                      'risk themes',
-                                                      'B) Open on bench casually',
-                                                      'C) No PPE',
-                                                      'D) Culture anaerobically only concern'],
-                                          'answer': 'A) Avoid spilling cystic fluid; anaphylaxis '
-                                                    'risk themes',
-                                          'explanation': 'Echinococcal (hydatid) cysts contain highly antigenic fluid; spillage during surgery or grossing can trigger anaphylaxis and secondary cyst dissemination. Laboratory and surgical teams handle intact cysts with controlled aspiration protocols and avoid unnecessary puncture. Coordination between pathology and surgery minimizes rupture risk.'},
-                                         {'question': 'A junior colleague asks for the single best '
-                                                      'answer. Concentration methods increase? '
-                                                      'Beware of near-miss distractors.',
-                                          'options': ['A) Sensitivity for ova/cysts',
-                                                      'B) Specificity to 100% always',
-                                                      'C) Only turnaround slower without benefit',
-                                                      'D) No use'],
-                                          'answer': 'A) Sensitivity for ova/cysts',
-                                          'explanation': 'Parasitology concentration methods such as formalin–ethyl acetate sedimentation increase recovery of eggs, cysts, and larvae by separating them from fecal debris. Concentrates improve analytic sensitivity compared with direct wet mounts alone. Permanent stains of fixed stool remain necessary for many protozoan identifications.'}],
-                                'extreme': [{'question': 'In a high-stakes laboratory scenario '
-                                                         'with incomplete data, which statement is '
-                                                         'MOST correct? Leishmania amastigotes '
-                                                         'found in? Avoid actions that could harm '
-                                                         'if a critical risk remains open.',
-                                             'options': ['A) Macrophages in tissue/bone marrow '
-                                                         'themes',
-                                                         'B) Only peripheral thin film always easy '
-                                                         'like malaria exclusively',
-                                                         'C) Only urine crystals',
-                                                         'D) Only gram stain of throat'],
-                                             'answer': 'A) Macrophages in tissue/bone marrow '
-                                                       'themes',
-                                             'explanation': 'Leishmania amastigotes parasitize macrophages and are demonstrated in bone marrow, splenic, or tissue aspirates/biopsies as intracellular organisms with a nucleus and kinetoplast. Species identification and clinical syndrome (visceral vs cutaneous) guide therapy. Diagnosis is often performed in specialized reference settings with culture or PCR support.'},
-                                            {'question': 'In a high-stakes laboratory scenario '
-                                                         'with incomplete data, which statement is '
-                                                         'MOST correct? Automated malaria '
-                                                         'analyzers still need? Avoid actions that '
-                                                         'could harm if a critical risk remains '
-                                                         'open.',
-                                             'options': ['A) Expert smear review for '
-                                                         'speciation/confirmation pathways',
-                                                         'B) No human review ever',
-                                                         'C) Only app selfie',
-                                                         'D) Discard films'],
-                                             'answer': 'A) Expert smear review for '
-                                                       'speciation/confirmation pathways',
-                                             'explanation': 'Automated hematology analyzers may flag malaria-related abnormalities but lack sufficient specificity and speciation capability for definitive diagnosis. Expert thick-and-thin smear review remains required to confirm infection, identify Plasmodium species, and quantify parasitemia. Mis-speciation can lead to inappropriate antimalarial regimens.'},
-                                            {'question': 'In a high-stakes laboratory scenario '
-                                                         'with incomplete data, which statement is '
-                                                         'MOST correct? Formalin stool vials '
-                                                         'hazard? Avoid actions that could harm if '
-                                                         'a critical risk remains open.',
-                                             'options': ['A) Chemical exposure; handle per SDS',
-                                                         'B) Drinkable preservative',
-                                                         'C) No labeling needed',
-                                                         'D) Store with food'],
-                                             'answer': 'A) Chemical exposure; handle per SDS',
-                                             'explanation': 'Formalin used in stool fixative vials is a hazardous chemical with toxic and sensitizing properties defined in the safety data sheet (SDS). Laboratories handle, store, and dispose of formalin-containing specimens under chemical hygiene controls and appropriate PPE. Minimizing exposure protects technologists during O&P processing.'}]},
+                                            'options': ['A) Helminth adults in blood films',
+                                                        'B) Coccidian oocysts (e.g., '
+                                                        'Cryptosporidium)',
+                                                        'C) Only Giardia cysts without '
+                                                        'acid-fastness',
+                                                        'D) Only Enterobius eggs on tape tests'],
+                                            'answer': 'B) Coccidian oocysts (e.g., '
+                                                      'Cryptosporidium)',
+                                            'explanation': 'Modified Ziehl–Neelsen (acid-fast) '
+                                                           'staining highlights coccidian oocysts '
+                                                           'such as Cryptosporidium, Cyclospora, '
+                                                           'and Cystoisospora in stool. Standard '
+                                                           'O&P stains may miss these organisms. '
+                                                           'Antigen/NAAT methods further improve '
+                                                           'Cryptosporidium detection.'}],
+                                'hard': [{'question': 'Babesia vs malaria on film?',
+                                          'options': ['A) Babesia always has schizonts with '
+                                                      'hemozoin pigment',
+                                                      'B) Malaria never shows ring forms in RBCs',
+                                                      'C) Babesia may show Maltese cross; often no '
+                                                      'travel; different therapy',
+                                                      'D) Both are identical and treated the same '
+                                                      'always'],
+                                          'answer': 'C) Babesia may show Maltese cross; often no '
+                                                    'travel; different therapy',
+                                          'explanation': 'Babesia intraerythrocytic parasites may '
+                                                         'form pathognomonic tetrad “Maltese '
+                                                         'cross” arrangements and can mimic '
+                                                         'Plasmodium rings. Epidemiology (tick '
+                                                         'exposure, no travel), absent hemozoin, '
+                                                         'and extracellular forms help '
+                                                         'differentiation. Therapy and '
+                                                         'blood-product implications differ from '
+                                                         'malaria.'},
+                                         {'question': 'Hydatid disease caution in lab?',
+                                          'options': ['A) Routine open-bench culture of cyst fluid '
+                                                      'for ID',
+                                                      'B) Freeze-thaw only without containment '
+                                                      'concerns',
+                                                      'C) Ignore PPE if the cyst appears inactive',
+                                                      'D) Avoid spilling cystic fluid '
+                                                      '(anaphylaxis/dissemination risk)'],
+                                          'answer': 'D) Avoid spilling cystic fluid '
+                                                    '(anaphylaxis/dissemination risk)',
+                                          'explanation': 'Echinococcal (hydatid) cysts contain '
+                                                         'highly antigenic fluid; spillage during '
+                                                         'surgery or grossing can trigger '
+                                                         'anaphylaxis and secondary dissemination '
+                                                         'of protoscolices. Laboratories and OR '
+                                                         'teams use careful containment and PPE. '
+                                                         'Serology and imaging complement '
+                                                         'parasitologic confirmation.'},
+                                         {'question': 'Concentration methods increase?',
+                                          'options': ['A) Sensitivity for recovering ova/cysts',
+                                                      'B) Specificity by destroying all cysts',
+                                                      'C) Only bacterial colony counts on '
+                                                      'MacConkey',
+                                                      'D) Only viral culture yield from stool'],
+                                          'answer': 'A) Sensitivity for recovering ova/cysts',
+                                          'explanation': 'Parasitology concentration methods such '
+                                                         'as formalin–ethyl acetate sedimentation '
+                                                         'increase recovery of eggs, cysts, and '
+                                                         'larvae from stool. Concentrates are '
+                                                         'examined wet and with permanent stains '
+                                                         'as indicated. Improved sensitivity '
+                                                         'reduces false-negative O&P exams.'}],
+                                'extreme': [{'question': 'Leishmania amastigotes found in?',
+                                             'options': ['A) Circulating erythrocytes as banana '
+                                                         'gametocytes',
+                                                         'B) Macrophages in tissue/bone marrow',
+                                                         'C) Stool as operculated trematode eggs',
+                                                         'D) Urine as schistosome eggs only'],
+                                             'answer': 'B) Macrophages in tissue/bone marrow',
+                                             'explanation': 'Leishmania amastigotes parasitize '
+                                                            'macrophages and are demonstrated in '
+                                                            'bone marrow, splenic, or tissue '
+                                                            'aspirates/biopsies. Morphology shows '
+                                                            'kinetoplasts alongside nuclei. '
+                                                            'Culture, serology, and PCR support '
+                                                            'species-level diagnosis and '
+                                                            'management.'},
+                                            {'question': 'Automated malaria analyzers still need?',
+                                             'options': ['A) No microscopic review if any flag '
+                                                         'appears',
+                                                         'B) Only stool O&P to confirm blood flags',
+                                                         'C) Expert smear review for '
+                                                         'confirmation/speciation',
+                                                         'D) Only serology without blood-film '
+                                                         'correlation'],
+                                             'answer': 'C) Expert smear review for '
+                                                       'confirmation/speciation',
+                                             'explanation': 'Automated hematology analyzers may '
+                                                            'flag malaria-related abnormalities '
+                                                            'but lack sufficient specificity and '
+                                                            'speciation capability for definitive '
+                                                            'diagnosis. Expert thick/thin smear '
+                                                            'review (or validated rapid/molecular '
+                                                            'testing) remains required. Species '
+                                                            'and density determine therapy.'},
+                                            {'question': 'Formalin stool vials hazard?',
+                                             'options': ['A) Completely nonhazardous household '
+                                                         'saline',
+                                                         'B) Radioactive waste requiring lead '
+                                                         'shielding',
+                                                         'C) Biohazard only with no chemical '
+                                                         'toxicity',
+                                                         'D) Chemical exposure risk — handle per '
+                                                         'SDS/PPE'],
+                                             'answer': 'D) Chemical exposure risk — handle per '
+                                                       'SDS/PPE',
+                                             'explanation': 'Formalin used in stool fixative vials '
+                                                            'is a hazardous chemical with toxic '
+                                                            'and sensitizing properties defined in '
+                                                            'the safety data sheet. Staff should '
+                                                            'use PPE, ventilation, and spill '
+                                                            'procedures per laboratory policy. '
+                                                            'Proper labeling and disposal protect '
+                                                            'personnel.'}]},
                   'cases': {'easy': [{'title': 'Travel Fever',
                                       'stem': 'Fever after travel to endemic area; order malaria '
                                               'smears.',
@@ -1172,141 +1962,279 @@ SPECIALTIES: dict[str, dict] = {'hematology': {'label': 'Hematology',
                                          'limitations.'],
                            'questions': {'easy': [{'question': 'PCR amplifies?',
                                                    'options': ['A) Target nucleic acid',
-                                                               'B) Only proteins always',
-                                                               'C) Only lipids',
-                                                               'D) Only glucose'],
+                                                               'B) Target proteins without nucleic '
+                                                               'acid',
+                                                               'C) Target lipids in membrane '
+                                                               'extracts',
+                                                               'D) Target glucose in plasma '
+                                                               'filtrates'],
                                                    'answer': 'A) Target nucleic acid',
-                                                   'explanation': 'Polymerase chain reaction (PCR) enzymatically amplifies a defined nucleic acid target through repeated cycles of denaturation, annealing, and extension. Exponential amplification enables detection of low-abundance DNA or RNA (after reverse transcription). PCR underpins much of clinical molecular infectious-disease and genetic testing.'},
+                                                   'explanation': 'Polymerase chain reaction (PCR) '
+                                                                  'enzymatically amplifies a '
+                                                                  'defined nucleic acid target '
+                                                                  'through repeated cycles of '
+                                                                  'denaturation, annealing, and '
+                                                                  'extension. Exponential '
+                                                                  'amplification enables sensitive '
+                                                                  'detection of pathogens and '
+                                                                  'genetic variants. Primer/probe '
+                                                                  'design determines specificity.'},
                                                   {'question': 'Contamination control in PCR '
                                                                'includes?',
-                                                   'options': ['A) Separate areas/ unidirectional '
-                                                               'workflow / controls',
-                                                               'B) Open amplicons everywhere',
-                                                               'C) No negative controls',
-                                                               'D) Reuse tips with amplicon '
-                                                               'freely'],
-                                                   'answer': 'A) Separate areas/ unidirectional '
-                                                             'workflow / controls',
-                                                   'explanation': 'PCR is highly susceptible to false positives from amplicon or specimen contamination. Laboratories use unidirectional workflow, physically separated pre- and post-PCR areas, aerosol-resistant tips, and no-template controls to detect contamination events. Strict contamination control preserves analytic specificity.'},
+                                                   'options': ['A) Shared pipettes across pre- and '
+                                                               'post-PCR benches',
+                                                               'B) Separate areas, unidirectional '
+                                                               'workflow, and controls',
+                                                               'C) Open amplicon handling beside '
+                                                               'extraction',
+                                                               'D) Skipping no-template controls '
+                                                               'to save wells'],
+                                                   'answer': 'B) Separate areas, unidirectional '
+                                                             'workflow, and controls',
+                                                   'explanation': 'PCR is highly susceptible to '
+                                                                  'false positives from amplicon '
+                                                                  'or specimen contamination. '
+                                                                  'Laboratories use unidirectional '
+                                                                  'workflow, physical separation '
+                                                                  'of pre- and post-PCR areas, '
+                                                                  'dedicated reagents, and '
+                                                                  'negative controls. '
+                                                                  'Environmental wipe testing '
+                                                                  'helps detect covert '
+                                                                  'contamination.'},
                                                   {'question': 'Viral load assays monitor?',
-                                                   'options': ['A) Quantity of virus nucleic acid',
-                                                               'B) Only bacterial colonies on '
-                                                               'plate only',
-                                                               'C) Only HbA1c',
-                                                               'D) Only urine color'],
-                                                   'answer': 'A) Quantity of virus nucleic acid',
-                                                   'explanation': 'Viral load assays quantify pathogen nucleic acid, typically as IU/mL or copies/mL, using calibrated real-time PCR or related methods. Serial HIV and HCV viral loads monitor treatment efficacy and detect virologic failure. Standardization and assay dynamics determine how results are compared over time.'}],
+                                                   'options': ['A) Only qualitative serology IgG '
+                                                               'presence',
+                                                               'B) Only plaque morphology on '
+                                                               'culture plates',
+                                                               'C) Quantity of viral nucleic acid',
+                                                               'D) Only CD4 percentage without '
+                                                               'nucleic acid'],
+                                                   'answer': 'C) Quantity of viral nucleic acid',
+                                                   'explanation': 'Viral load assays quantify '
+                                                                  'pathogen nucleic acid, '
+                                                                  'typically as IU/mL or '
+                                                                  'copies/mL, using calibrated '
+                                                                  'real-time PCR or related '
+                                                                  'methods. Serial results monitor '
+                                                                  'treatment response in '
+                                                                  'infections such as HIV, HBV, '
+                                                                  'and HCV. Standardization and '
+                                                                  'log-change interpretation guide '
+                                                                  'clinical decisions.'}],
                                          'medium': [{'question': 'Ct value roughly relates to?',
-                                                     'options': ['A) Inverse of target amount '
-                                                                 '(method-dependent)',
-                                                                 'B) Always exact organism count '
-                                                                 'identical across platforms',
-                                                                 'C) Only cycle of moon',
-                                                                 'D) Only reagent lot letter'],
-                                                     'answer': 'A) Inverse of target amount '
+                                                     'options': ['A) Directly proportional to '
+                                                                 'target amount always',
+                                                                 'B) Independent of template '
+                                                                 'concentration always',
+                                                                 'C) Only to extraction volume, '
+                                                                 'never template',
+                                                                 'D) Inversely to target amount '
+                                                                 '(method-dependent)'],
+                                                     'answer': 'D) Inversely to target amount '
                                                                '(method-dependent)',
-                                                     'explanation': 'In real-time PCR, the cycle threshold (Ct) is the cycle at which fluorescence exceeds a defined threshold. Lower Ct values generally indicate higher starting target concentration, though the relationship is assay- and matrix-dependent. Ct values are interpretive aids, not universal quantitative units across platforms.'},
+                                                     'explanation': 'In real-time PCR, the cycle '
+                                                                    'threshold (Ct) is the cycle '
+                                                                    'at which fluorescence exceeds '
+                                                                    'a defined threshold. Lower Ct '
+                                                                    'values generally indicate '
+                                                                    'more starting target nucleic '
+                                                                    'acid, though exact '
+                                                                    'quantification requires a '
+                                                                    'calibration curve. Assay '
+                                                                    'design and efficiency affect '
+                                                                    'the Ct–quantity '
+                                                                    'relationship.'},
                                                     {'question': 'Internal control failure '
                                                                  'suggests?',
-                                                     'options': ['A) Inhibition/extraction problem',
-                                                                 'B) Perfect run',
-                                                                 'C) Always true negative',
-                                                                 'D) Ignore'],
-                                                     'answer': 'A) Inhibition/extraction problem',
-                                                     'explanation': 'An internal control co-extracted and co-amplified with the patient specimen monitors extraction efficiency and PCR inhibition. Internal-control failure with a negative target result renders the test invalid because true target could be masked. Repeat testing after re-extraction or recollection is required.'},
+                                                     'options': ['A) Inhibition or extraction '
+                                                                 'problem',
+                                                                 'B) Confirmed true-negative '
+                                                                 'without caveats',
+                                                                 'C) Instrument optical failure '
+                                                                 'only, never inhibition',
+                                                                 'D) Primer redesign is always '
+                                                                 'required immediately'],
+                                                     'answer': 'A) Inhibition or extraction '
+                                                               'problem',
+                                                     'explanation': 'An internal control '
+                                                                    'co-extracted and co-amplified '
+                                                                    'with the patient specimen '
+                                                                    'monitors extraction '
+                                                                    'efficiency and PCR '
+                                                                    'inhibition. Failure of the '
+                                                                    'internal control invalidates '
+                                                                    'a negative target result and '
+                                                                    'prompts re-extraction or '
+                                                                    'dilution studies. Valid '
+                                                                    'controls are required before '
+                                                                    'clinical reporting.'},
                                                     {'question': 'Genotyping may guide?',
-                                                     'options': ['A) Therapy (e.g., '
-                                                                 'resistance/pharmacogenetics)',
-                                                                 'B) Only room assignment',
-                                                                 'C) Only meal choice',
-                                                                 'D) Only parking'],
-                                                     'answer': 'A) Therapy (e.g., '
-                                                               'resistance/pharmacogenetics)',
-                                                     'explanation': 'Genotyping identifies sequence variants that predict drug resistance or alter drug metabolism, as in HIV resistance testing or pharmacogenetic loci such as CYP2C19. Results support selection or avoidance of specific therapies. Clinical utility depends on validated variant interpretation guidelines.'}],
-                                         'hard': [{'question': 'A junior colleague asks for the '
-                                                               'single best answer. NGS panels '
-                                                               'need? Beware of near-miss '
-                                                               'distractors.',
-                                                   'options': ['A) Bioinformatic pipelines + '
-                                                               'quality metrics + interpretation',
-                                                               'B) Only naked eye bands forever',
-                                                               'C) No controls',
-                                                               'D) Random variant calling without '
-                                                               'QA'],
-                                                   'answer': 'A) Bioinformatic pipelines + quality '
-                                                             'metrics + interpretation',
-                                                   'explanation': 'Next-generation sequencing (NGS) panels generate massive parallel reads that require bioinformatic pipelines for alignment, variant calling, filtering, and annotation. Quality metrics such as coverage depth, uniformity, and contamination estimates determine whether a result is reportable. Clinical interpretation integrates technical findings with disease-specific knowledge bases.'},
-                                                  {'question': 'A junior colleague asks for the '
-                                                               'single best answer. Minimal '
-                                                               'residual disease PCR detects? '
-                                                               'Beware of near-miss distractors.',
-                                                   'options': ['A) Very low level residual target',
-                                                               'B) Only gross disease visible on '
-                                                               'smear always same sensitivity',
-                                                               'C) Only chemistry panels',
-                                                               'D) Only cultures'],
-                                                   'answer': 'A) Very low level residual target',
-                                                   'explanation': 'MRD PCR assays amplify leukemia-specific targets such as fusion transcripts or clonal immunoglobulin/T-cell receptor rearrangements at very low levels. Sensitivities often reach 10⁻⁴ to 10⁻⁶, far below morphologic detection. Quantitative MRD kinetics guide consolidation intensity and transplant decisions in hematologic malignancies.'},
-                                                  {'question': 'A junior colleague asks for the '
-                                                               'single best answer. Sample swap '
-                                                               'detection uses? Beware of '
-                                                               'near-miss distractors.',
-                                                   'options': ['A) Identity checks / barcodes / '
-                                                               'sometimes genetic ID strategies',
-                                                               'B) Guessing',
-                                                               'C) Ignoring names',
-                                                               'D) Mixing tubes to save time'],
-                                                   'answer': 'A) Identity checks / barcodes / '
-                                                             'sometimes genetic ID strategies',
-                                                   'explanation': 'Specimen identity errors can cause catastrophic molecular misdiagnosis. Laboratories use barcodes, chain-of-custody checks, and sometimes polymorphic genetic markers to verify that the nucleic acid matches the intended patient. Detecting sample swaps prevents incorrect genotype-directed therapy.'}],
-                                         'extreme': [{'question': 'In a high-stakes laboratory '
-                                                                  'scenario with incomplete data, '
-                                                                  'which statement is MOST '
-                                                                  'correct? Laboratory-developed '
-                                                                  'tests require? Avoid actions '
-                                                                  'that could harm if a critical '
-                                                                  'risk remains open.',
-                                                      'options': ['A) Validation/verification per '
+                                                     'options': ['A) Only specimen transport '
+                                                                 'temperature logs',
+                                                                 'B) Therapy '
+                                                                 '(resistance/pharmacogenetics '
+                                                                 'themes)',
+                                                                 'C) Only centrifuge RPM '
+                                                                 'validation schedules',
+                                                                 'D) Only pipette calibration '
+                                                                 'intervals'],
+                                                     'answer': 'B) Therapy '
+                                                               '(resistance/pharmacogenetics '
+                                                               'themes)',
+                                                     'explanation': 'Genotyping identifies '
+                                                                    'sequence variants that '
+                                                                    'predict drug resistance or '
+                                                                    'alter drug metabolism, as in '
+                                                                    'HIV resistance testing or '
+                                                                    'pharmacogenetic panels. '
+                                                                    'Results help select effective '
+                                                                    'therapy and dosing. Analytic '
+                                                                    'validity and clinical '
+                                                                    'annotation databases support '
+                                                                    'interpretation.'}],
+                                         'hard': [{'question': 'NGS panels need?',
+                                                   'options': ['A) Wet-lab sequencing alone '
+                                                               'without analysis',
+                                                               'B) Sanger confirmation of every '
+                                                               'wild-type base',
+                                                               'C) Bioinformatic pipelines, QC '
+                                                               'metrics, and interpretation',
+                                                               'D) No coverage thresholds for '
+                                                               'clinical reporting'],
+                                                   'answer': 'C) Bioinformatic pipelines, QC '
+                                                             'metrics, and interpretation',
+                                                   'explanation': 'Next-generation sequencing '
+                                                                  '(NGS) panels generate massive '
+                                                                  'parallel reads that require '
+                                                                  'bioinformatic pipelines for '
+                                                                  'alignment, variant calling, and '
+                                                                  'annotation. Quality metrics '
+                                                                  '(coverage, uniformity, '
+                                                                  'contamination checks) gate '
+                                                                  'reportability. '
+                                                                  'Multidisciplinary '
+                                                                  'interpretation links variants '
+                                                                  'to clinical actionability.'},
+                                                  {'question': 'Minimal residual disease PCR '
+                                                               'detects?',
+                                                   'options': ['A) Only morphologic blast '
+                                                               'percentage above 5%',
+                                                               'B) Only cytogenetic metaphases '
+                                                               'without DNA target',
+                                                               'C) Only serum protein '
+                                                               'electrophoresis clones',
+                                                               'D) Very low-level residual disease '
+                                                               'target'],
+                                                   'answer': 'D) Very low-level residual disease '
+                                                             'target',
+                                                   'explanation': 'MRD PCR assays amplify '
+                                                                  'leukemia-specific targets such '
+                                                                  'as fusion transcripts or clonal '
+                                                                  'immunoglobulin/T-cell receptor '
+                                                                  'rearrangements at high '
+                                                                  'sensitivity. Detectable MRD '
+                                                                  'after therapy informs relapse '
+                                                                  'risk and consolidation '
+                                                                  'decisions. Assay limit of '
+                                                                  'detection must be validated and '
+                                                                  'reported.'},
+                                                  {'question': 'Sample swap detection uses?',
+                                                   'options': ['A) Identity checks/barcodes (± '
+                                                               'genetic ID strategies)',
+                                                               'B) Ignoring identifiers if Ct '
+                                                               'values look expected',
+                                                               'C) Relying only on handwritten '
+                                                               'first names',
+                                                               'D) Skipping accession checks for '
+                                                               'add-on tests'],
+                                                   'answer': 'A) Identity checks/barcodes (± '
+                                                             'genetic ID strategies)',
+                                                   'explanation': 'Specimen identity errors can '
+                                                                  'cause catastrophic molecular '
+                                                                  'misdiagnosis. Laboratories use '
+                                                                  'barcodes, chain-of-custody '
+                                                                  'checks, and sometimes genetic '
+                                                                  'identity markers to detect '
+                                                                  'swaps. Discrepancies halt '
+                                                                  'reporting until identity is '
+                                                                  'resolved.'}],
+                                         'extreme': [{'question': 'Laboratory-developed tests '
+                                                                  'require?',
+                                                      'options': ['A) Immediate patient reporting '
+                                                                  'without performance data',
+                                                                  'B) Validation/verification per '
                                                                   'regulations before clinical use',
-                                                                  'B) No documentation',
-                                                                  'C) Launch without performance '
-                                                                  'characteristics',
-                                                                  'D) Only vendor brochure'],
-                                                      'answer': 'A) Validation/verification per '
+                                                                  'C) Research-use-only reagents '
+                                                                  'without local validation',
+                                                                  'D) Vendor marketing claims as '
+                                                                  'sole acceptance criteria'],
+                                                      'answer': 'B) Validation/verification per '
                                                                 'regulations before clinical use',
-                                                      'explanation': 'Laboratory-developed tests (LDTs) must be validated or verified for accuracy, precision, reportable range, and other performance characteristics before clinical use under CLIA and accreditation standards. Documentation of analytic and clinical performance supports patient-care reporting. Unvalidated research assays are not acceptable for clinical decisions.'},
-                                                     {'question': 'In a high-stakes laboratory '
-                                                                  'scenario with incomplete data, '
-                                                                  'which statement is MOST '
-                                                                  'correct? Amplicon contamination '
-                                                                  'outbreak presents as? Avoid '
-                                                                  'actions that could harm if a '
-                                                                  'critical risk remains open.',
-                                                      'options': ['A) Unexpected positives '
-                                                                  'clustering',
-                                                                  'B) Perfect specificity always',
-                                                                  'C) Only reagent shortages',
-                                                                  'D) Only slower TAT'],
-                                                      'answer': 'A) Unexpected positives '
-                                                                'clustering',
-                                                      'explanation': 'Amplicon contamination outbreaks produce clusters of unexpected positive PCR results, often with late Ct values or positivity in negative controls. Immediate cessation of testing, environmental cleaning, reagent discard, and root-cause analysis are required. Resumption occurs only after contamination is eradicated and controls perform as expected.'},
-                                                     {'question': 'In a high-stakes laboratory '
-                                                                  'scenario with incomplete data, '
-                                                                  'which statement is MOST '
-                                                                  'correct? Cell-free DNA assays '
-                                                                  'challenges include? Avoid '
-                                                                  'actions that could harm if a '
-                                                                  'critical risk remains open.',
-                                                      'options': ['A) Low analyte, fragmentation, '
-                                                                  'preanalytics',
-                                                                  'B) Always trivial easy like '
-                                                                  'glucose',
-                                                                  'C) No need for controls',
-                                                                  'D) Room temperature months '
-                                                                  'always fine'],
-                                                      'answer': 'A) Low analyte, fragmentation, '
-                                                                'preanalytics',
-                                                      'explanation': 'Circulating cell-free DNA assays measure fragmented extracellular DNA present at low concentrations in plasma. Preanalytic variables—tube type, time to spin, and double centrifugation—strongly affect yield and contaminating genomic DNA. Analytic sensitivity must account for low mutant allele fractions and fragment size distributions.'}]},
+                                                      'explanation': 'Laboratory-developed tests '
+                                                                     '(LDTs) must be validated or '
+                                                                     'verified for accuracy, '
+                                                                     'precision, reportable range, '
+                                                                     'and other performance '
+                                                                     'characteristics before '
+                                                                     'clinical use per applicable '
+                                                                     'regulations and '
+                                                                     'accreditation standards. '
+                                                                     'Documentation of acceptance '
+                                                                     'criteria and limitations is '
+                                                                     'mandatory. Ongoing QC '
+                                                                     'sustains performance after '
+                                                                     'go-live.'},
+                                                     {'question': 'Amplicon contamination outbreak '
+                                                                  'presents as?',
+                                                      'options': ['A) Isolated true positives with '
+                                                                  'epidemiologic links only',
+                                                                  'B) Only internal-control '
+                                                                  'failures without positives',
+                                                                  'C) Clusters of unexpected '
+                                                                  'positive PCR results',
+                                                                  'D) Only reagent lot shortages '
+                                                                  'without result patterns'],
+                                                      'answer': 'C) Clusters of unexpected '
+                                                                'positive PCR results',
+                                                      'explanation': 'Amplicon contamination '
+                                                                     'outbreaks produce clusters '
+                                                                     'of unexpected positive PCR '
+                                                                     'results, often with late Ct '
+                                                                     'values or positives in '
+                                                                     'negative controls. Immediate '
+                                                                     'containment includes '
+                                                                     'stopping testing, '
+                                                                     'environmental cleaning, and '
+                                                                     'root-cause investigation. '
+                                                                     'Retesting from primary '
+                                                                     'specimens after remediation '
+                                                                     'confirms integrity.'},
+                                                     {'question': 'Cell-free DNA assays challenges '
+                                                                  'include?',
+                                                      'options': ['A) Abundant intact genomic DNA '
+                                                                  'identical to tissue',
+                                                                  'B) No need for specialized '
+                                                                  'blood-collection tubes',
+                                                                  'C) Stability for weeks at '
+                                                                  'ambient temperature always',
+                                                                  'D) Low analyte levels, '
+                                                                  'fragmentation, and '
+                                                                  'preanalytics'],
+                                                      'answer': 'D) Low analyte levels, '
+                                                                'fragmentation, and preanalytics',
+                                                      'explanation': 'Circulating cell-free DNA '
+                                                                     'assays measure fragmented '
+                                                                     'extracellular DNA present at '
+                                                                     'low concentrations in '
+                                                                     'plasma. Preanalytic '
+                                                                     'variables (tube type, time '
+                                                                     'to spin, hemolysis) strongly '
+                                                                     'affect yield and fragment '
+                                                                     'profiles. Sensitive methods '
+                                                                     'and careful controls are '
+                                                                     'required for reliable '
+                                                                     'detection.'}]},
                            'cases': {'easy': [{'title': 'COVID/Flu NAAT Order',
                                                'stem': 'Respiratory NAAT requested.',
                                                'question': 'Preanalytic key?',
@@ -1357,112 +2285,190 @@ SPECIALTIES: dict[str, dict] = {'hematology': {'label': 'Hematology',
                           'Document corrective actions and verify before resuming testing.',
                           'Quality is a system: people, methods, reagents, equipment, IT.'],
             'questions': {'easy': [{'question': 'QA means?',
-                                    'options': ['A) Quality assurance — systems to ensure reliable '
+                                    'options': ['A) Quality assurance — systems ensuring reliable '
                                                 'results',
-                                                'B) Quick assay only',
-                                                'C) Quiet area only',
-                                                'D) Quarterly absence'],
-                                    'answer': 'A) Quality assurance — systems to ensure reliable '
+                                                'B) Quick assay — fastest method regardless of QC',
+                                                'C) Quiet area — noise limits for analyzers only',
+                                                'D) Quarterly absence — staffing vacation '
+                                                'tracking'],
+                                    'answer': 'A) Quality assurance — systems ensuring reliable '
                                               'results',
-                                    'explanation': 'Quality assurance (QA) encompasses the organized systems, policies, and monitoring activities that ensure laboratory results are accurate, reliable, and clinically useful. QA spans preanalytic, analytic, and postanalytic phases rather than a single control material. Continuous improvement and documentation are integral to accreditation.'},
+                                    'explanation': 'Quality assurance (QA) encompasses the '
+                                                   'organized systems, policies, and monitoring '
+                                                   'activities that ensure laboratory results are '
+                                                   'reliable and fit for clinical use. QA spans '
+                                                   'preanalytic, analytic, and postanalytic '
+                                                   'phases. It is broader than daily QC and '
+                                                   'includes PT, document control, and continual '
+                                                   'improvement.'},
                                    {'question': 'QC monitors?',
-                                    'options': ['A) Method performance over time',
-                                                'B) Only staff birthdays',
-                                                'C) Only paint color',
-                                                'D) Only lunch breaks'],
-                                    'answer': 'A) Method performance over time',
-                                    'explanation': 'Quality control (QC) uses materials of known target values to monitor analytic method stability over time. Results are plotted on Levey–Jennings charts and evaluated against means and standard deviations. Shifts and trends signal systematic error before patient results are compromised.'},
+                                    'options': ['A) Only clinician satisfaction survey scores',
+                                                'B) Analytic method performance over time',
+                                                'C) Only purchasing contract renewal dates',
+                                                'D) Only building temperature for HVAC billing'],
+                                    'answer': 'B) Analytic method performance over time',
+                                    'explanation': 'Quality control (QC) uses materials of known '
+                                                   'target values to monitor analytic method '
+                                                   'stability over time. Results are plotted and '
+                                                   'evaluated with rules to detect shifts, trends, '
+                                                   'and imprecision. QC failures trigger '
+                                                   'investigation before patient results are '
+                                                   'released.'},
                                    {'question': 'SOP stands for?',
-                                    'options': ['A) Standard operating procedure',
-                                                'B) Special optional print',
-                                                'C) Serum only processing',
-                                                'D) Shift overtime pay'],
-                                    'answer': 'A) Standard operating procedure',
-                                    'explanation': 'A standard operating procedure (SOP) is the controlled written instruction detailing how a method or process is performed. Staff must follow the current approved SOP to ensure consistency, safety, and regulatory compliance. Unauthorized deviations undermine result quality and traceability.'}],
+                                    'options': ['A) Selective optional protocol',
+                                                'B) Specimen overflow process',
+                                                'C) Standard operating procedure',
+                                                'D) Supervisor oral permission'],
+                                    'answer': 'C) Standard operating procedure',
+                                    'explanation': 'A standard operating procedure (SOP) is the '
+                                                   'controlled written instruction detailing how a '
+                                                   'method or process is performed. Staff must '
+                                                   'follow the current approved SOP version. '
+                                                   'Document control ensures obsolete instructions '
+                                                   'are removed from use.'}],
                           'medium': [{'question': 'Westgard rules help detect?',
-                                      'options': ['A) Random/systematic error patterns',
-                                                  'B) Only staffing needs',
-                                                  'C) Only inventory of gloves',
-                                                  'D) Only temperature of break room'],
-                                      'answer': 'A) Random/systematic error patterns',
-                                      'explanation': 'Westgard multirule QC applies combinations of control rules (for example 1₃ₛ, 2₂ₛ, R₄ₛ) to distinguish random from systematic error. Rule violations trigger investigation, corrective action, and assessment of whether patient results were affected. Multirule strategies improve error detection while limiting false rejections.'},
+                                      'options': ['A) Only patient delta-check identity mismatches',
+                                                  'B) Only proficiency shipping delays',
+                                                  'C) Only critical-value phone read-back failures',
+                                                  'D) Random and systematic error patterns in QC'],
+                                      'answer': 'D) Random and systematic error patterns in QC',
+                                      'explanation': 'Westgard multirule QC applies combinations '
+                                                     'of control rules (for example 1₃ₛ, 2₂ₛ, R₄ₛ) '
+                                                     'to distinguish random from systematic error. '
+                                                     'Rule violations prompt troubleshooting of '
+                                                     'reagents, calibration, and instrumentation. '
+                                                     'Appropriate rule selection balances error '
+                                                     'detection with false rejection.'},
                                      {'question': 'Proficiency testing evaluates?',
-                                      'options': ['A) Laboratory accuracy vs external unknowns',
-                                                  'B) Only typing speed',
-                                                  'C) Only parking skills',
-                                                  'D) Only phone etiquette'],
-                                      'answer': 'A) Laboratory accuracy vs external unknowns',
-                                      'explanation': 'Proficiency testing (PT) submits blinded external specimens for analysis and compares laboratory results with peer or reference targets. Successful PT demonstrates ongoing accuracy and is required for accreditation and licensure of tested analytes. Failures mandate investigation and corrective action.'},
+                                      'options': ['A) Laboratory accuracy on external unknown '
+                                                  'specimens',
+                                                  'B) Only internal QC means without peer '
+                                                  'comparison',
+                                                  'C) Only employee continuing-education '
+                                                  'attendance',
+                                                  'D) Only analyzer uptime percentage metrics'],
+                                      'answer': 'A) Laboratory accuracy on external unknown '
+                                                'specimens',
+                                      'explanation': 'Proficiency testing (PT) submits blinded '
+                                                     'external specimens for analysis and compares '
+                                                     'laboratory results with peer or reference '
+                                                     'targets. Successful PT is an accreditation '
+                                                     'requirement demonstrating analytic accuracy. '
+                                                     'Failures require investigation and '
+                                                     'corrective action.'},
                                      {'question': 'Critical results require?',
-                                      'options': ['A) Timely notification and '
-                                                  'read-back/documentation',
-                                                  'B) Batching next month',
-                                                  'C) No records',
-                                                  'D) Texting only the patient'],
-                                      'answer': 'A) Timely notification and '
-                                                'read-back/documentation',
-                                      'explanation': 'Critical results are laboratory values that indicate potentially life-threatening conditions and require immediate clinician notification. Policies specify time frames, acceptable recipients, read-back confirmation, and documentation. Reliable critical reporting is a fundamental patient-safety practice.'}],
-                          'hard': [{'question': 'A junior colleague asks for the single best '
-                                                'answer. Root cause analysis after error aims to? '
-                                                'Beware of near-miss distractors.',
-                                    'options': ['A) Fix system causes not only blame individuals',
-                                                'B) Punish only and stop',
-                                                'C) Hide the event',
-                                                'D) Change result without review'],
-                                    'answer': 'A) Fix system causes not only blame individuals',
-                                    'explanation': 'Root cause analysis after a laboratory error investigates underlying system failures such as process design, training gaps, or interface problems rather than stopping at individual blame. Corrective and preventive actions address those systemic causes to reduce recurrence. Just culture balances accountability with learning.'},
-                                   {'question': 'A junior colleague asks for the single best '
-                                                'answer. Document control ensures? Beware of '
-                                                'near-miss distractors.',
-                                    'options': ['A) Only current approved SOPs in use',
-                                                'B) Mixed obsolete versions everywhere',
-                                                'C) No version numbers',
-                                                'D) Sticky notes replace SOPs'],
-                                    'answer': 'A) Only current approved SOPs in use',
-                                    'explanation': 'Document control ensures that only the current, approved version of each SOP, form, and policy is available at the point of use. Obsolete documents are removed or marked to prevent unintended use. Controlled documentation is a requirement of ISO 15189 and CAP laboratory standards.'},
-                                   {'question': 'A junior colleague asks for the single best '
-                                                'answer. Risk management in labs includes? Beware '
-                                                'of near-miss distractors.',
-                                    'options': ['A) Identifying failure modes and mitigations',
-                                                'B) Ignoring near misses',
-                                                'C) No incident reports',
-                                                'D) Skipping training'],
-                                    'answer': 'A) Identifying failure modes and mitigations',
-                                    'explanation': 'Laboratory risk management systematically identifies potential failure modes across testing pathways and implements mitigations proportional to severity and likelihood. Tools may include process mapping and failure mode and effects analysis (FMEA). Proactive risk reduction complements reactive incident review.'}],
-                          'extreme': [{'question': 'In a high-stakes laboratory scenario with '
-                                                   'incomplete data, which statement is MOST '
-                                                   'correct? Accreditation nonconformance demands? '
-                                                   'Avoid actions that could harm if a critical '
-                                                   'risk remains open.',
-                                       'options': ['A) Corrective/preventive action with evidence',
-                                                   'B) Ignore surveyor',
-                                                   'C) Verbal promise only forever',
-                                                   'D) Delete records'],
-                                       'answer': 'A) Corrective/preventive action with evidence',
-                                       'explanation': 'Accreditation nonconformances require documented corrective and preventive action (CAPA) with evidence that the fix is effective. Simply acknowledging a citation without follow-through leaves patients at continued risk. Closing the loop with verification completes the quality-management response.'},
-                                      {'question': 'In a high-stakes laboratory scenario with '
-                                                   'incomplete data, which statement is MOST '
-                                                   'correct? LIS downtime procedure must? Avoid '
-                                                   'actions that could harm if a critical risk '
-                                                   'remains open.',
-                                       'options': ['A) Maintain safe manual '
-                                                   'reporting/identification',
-                                                   'B) Stop all care without backup',
-                                                   'C) Invent results',
-                                                   'D) Skip identifiers'],
-                                       'answer': 'A) Maintain safe manual reporting/identification',
-                                       'explanation': 'Laboratory information system (LIS) downtime procedures provide validated manual workflows for order entry, specimen identification, result recording, and reporting. Maintaining positive patient identification during downtime prevents mislabeled results. Business continuity plans are tested so care continues safely when electronic systems fail.'},
-                                      {'question': 'In a high-stakes laboratory scenario with '
-                                                   'incomplete data, which statement is MOST '
-                                                   'correct? Ethical reflex: altered QC to pass? '
-                                                   'Avoid actions that could harm if a critical '
-                                                   'risk remains open.',
-                                       'options': ['A) Fraud — never; report integrity concerns',
-                                                   'B) Acceptable shortcut',
-                                                   'C) Expected nightly',
-                                                   'D) Manager bonus method'],
-                                       'answer': 'A) Fraud — never; report integrity concerns',
-                                       'explanation': 'Altering quality-control data to force a method to “pass” is scientific misconduct and endangers patients by concealing analytic failure. Ethical practice requires honest QC review, stopping testing when controls fail, and reporting integrity concerns through proper channels. Professional codes of conduct prohibit falsification of laboratory records.'}]},
+                                      'options': ['A) Release into the chart without clinician '
+                                                  'contact',
+                                                  'B) Timely notification with read-back and '
+                                                  'documentation',
+                                                  'C) Notification only at the next shift change',
+                                                  'D) Patient self-notification via portal only'],
+                                      'answer': 'B) Timely notification with read-back and '
+                                                'documentation',
+                                      'explanation': 'Critical results are laboratory values that '
+                                                     'indicate potentially life-threatening '
+                                                     'conditions and require immediate clinical '
+                                                     'notification. Read-back verification and '
+                                                     'documentation complete the communication '
+                                                     'loop. Policies define analyte lists, '
+                                                     'timeframes, and escalation paths.'}],
+                          'hard': [{'question': 'Root cause analysis after error aims to?',
+                                    'options': ['A) Punish the last person who touched the '
+                                                'specimen',
+                                                'B) Hide the event from accreditation surveyors',
+                                                'C) Correct system causes, not only blame '
+                                                'individuals',
+                                                'D) Rewrite QC data to erase the incident trail'],
+                                    'answer': 'C) Correct system causes, not only blame '
+                                              'individuals',
+                                    'explanation': 'Root cause analysis after a laboratory error '
+                                                   'investigates underlying system failures such '
+                                                   'as process design, training gaps, and '
+                                                   'interface issues rather than stopping at '
+                                                   'individual blame. Effective CAPA addresses '
+                                                   'latent conditions that allowed the error. '
+                                                   'Sharing lessons learned prevents recurrence.'},
+                                   {'question': 'Document control ensures?',
+                                    'options': ['A) Staff may keep personal unofficial binders',
+                                                'B) Obsolete SOPs remain at benches for reference',
+                                                'C) Draft procedures are used before approval',
+                                                'D) Only current approved SOPs are in use'],
+                                    'answer': 'D) Only current approved SOPs are in use',
+                                    'explanation': 'Document control ensures that only the '
+                                                   'current, approved version of each SOP, form, '
+                                                   'and policy is available at the point of use. '
+                                                   'Obsolete documents are removed or clearly '
+                                                   'archived. Version history and approval '
+                                                   'signatures support accreditation compliance.'},
+                                   {'question': 'Risk management in labs includes?',
+                                    'options': ['A) Identifying failure modes and implementing '
+                                                'mitigations',
+                                                'B) Waiting for patient harm before any review',
+                                                'C) Eliminating all QC to reduce false rejects',
+                                                'D) Outsourcing all critical-value calls '
+                                                'permanently'],
+                                    'answer': 'A) Identifying failure modes and implementing '
+                                              'mitigations',
+                                    'explanation': 'Laboratory risk management systematically '
+                                                   'identifies potential failure modes across '
+                                                   'testing pathways and implements mitigations '
+                                                   'proportional to severity and likelihood. Tools '
+                                                   'may include process mapping and failure mode '
+                                                   'effects analysis. Residual risk is monitored '
+                                                   'through QC, audits, and incident review.'}],
+                          'extreme': [{'question': 'Accreditation nonconformance demands?',
+                                       'options': ['A) Verbal promise without documented CAPA',
+                                                   'B) Corrective/preventive action with '
+                                                   'effectiveness evidence',
+                                                   'C) Ignoring findings until the next survey '
+                                                   'cycle',
+                                                   'D) Rewording the SOP title without process '
+                                                   'change'],
+                                       'answer': 'B) Corrective/preventive action with '
+                                                 'effectiveness evidence',
+                                       'explanation': 'Accreditation nonconformances require '
+                                                      'documented corrective and preventive action '
+                                                      '(CAPA) with evidence that the fix is '
+                                                      'effective. Root cause, implementation, and '
+                                                      'follow-up monitoring are assessed by '
+                                                      'surveyors. Timely closure protects patient '
+                                                      'safety and accreditation status.'},
+                                      {'question': 'LIS downtime procedure must?',
+                                       'options': ['A) Stop all testing until IT returns next week',
+                                                   'B) Release results without patient identifiers',
+                                                   'C) Maintain safe manual identification and '
+                                                   'reporting',
+                                                   'D) Use informal texts as the permanent record '
+                                                   'only'],
+                                       'answer': 'C) Maintain safe manual identification and '
+                                                 'reporting',
+                                       'explanation': 'Laboratory information system (LIS) '
+                                                      'downtime procedures provide validated '
+                                                      'manual workflows for order entry, specimen '
+                                                      'identification, result recording, and '
+                                                      'reporting. Patient ID integrity and '
+                                                      'critical-value communication must continue. '
+                                                      'After recovery, data are entered and '
+                                                      'reconciled per protocol.'},
+                                      {'question': 'Ethical reflex: altered QC to pass?',
+                                       'options': ['A) Acceptable if patient results look '
+                                                   'plausible',
+                                                   'B) Allowed when reagent costs are high that '
+                                                   'week',
+                                                   'C) Required to keep turnaround time statistics '
+                                                   'green',
+                                                   'D) Fraud — never alter QC; report integrity '
+                                                   'concerns'],
+                                       'answer': 'D) Fraud — never alter QC; report integrity '
+                                                 'concerns',
+                                       'explanation': 'Altering quality-control data to force a '
+                                                      'method to “pass” is scientific misconduct '
+                                                      'and endangers patients by concealing '
+                                                      'analytic failure. Staff must refuse '
+                                                      'falsification and escalate integrity '
+                                                      'concerns through proper channels. A culture '
+                                                      'of safety supports transparent '
+                                                      'troubleshooting.'}]},
             'cases': {'easy': [{'title': 'QC Out of Range',
                                 'stem': 'Daily QC fails.',
                                 'question': 'Action?',
@@ -1508,123 +2514,208 @@ SPECIALTIES: dict[str, dict] = {'hematology': {'label': 'Hematology',
                               'Crystal ID: polarization distinguishes MSU vs CPPD themes.',
                               'Proper collection (midstream, timed) reduces false positives.'],
                 'questions': {'easy': [{'question': 'Urine dipstick blood may detect?',
-                                        'options': ['A) Hematuria/hemoglobinuria/myoglobinuria '
-                                                    'themes',
-                                                    'B) Only glucose always',
-                                                    'C) Only ketones only',
-                                                    'D) Only bacteria species always'],
-                                        'answer': 'A) Hematuria/hemoglobinuria/myoglobinuria '
-                                                  'themes',
-                                        'explanation': 'Urine dipstick “blood” reagents detect heme’s peroxidase-like activity and therefore react with intact red cells, free hemoglobin, and myoglobin. Microscopic examination distinguishes hematuria (RBCs present) from hemoglobinuria or myoglobinuria (few or no RBCs). Clinical context and plasma appearance further refine the interpretation.'},
+                                        'options': ['A) Intact RBCs, free hemoglobin, or myoglobin',
+                                                    'B) Glucose via glucose oxidase only',
+                                                    'C) Ketones via nitroprusside only',
+                                                    'D) Leukocyte esterase from WBC enzymes only'],
+                                        'answer': 'A) Intact RBCs, free hemoglobin, or myoglobin',
+                                        'explanation': 'Urine dipstick “blood” reagents detect '
+                                                       'heme’s peroxidase-like activity and '
+                                                       'therefore react with intact red cells, '
+                                                       'free hemoglobin, and myoglobin. Microscopy '
+                                                       'distinguishes hematuria from heme-positive '
+                                                       'pigmenturia. Clinical context separates '
+                                                       'hemoglobinuria from myoglobinuria.'},
                                        {'question': 'Specific gravity estimates?',
-                                        'options': ['A) Urine concentration',
-                                                    'B) Only color preference',
-                                                    'C) Only odor',
-                                                    'D) Only volume alone without concentration'],
-                                        'answer': 'A) Urine concentration',
-                                        'explanation': 'Urine specific gravity estimates the density of urine relative to water and reflects renal concentrating and diluting ability. Values rise with dehydration or glycosuria and fall with water diuresis or concentrating defects. It is a routine urinalysis parameter alongside chemical and microscopic findings.'},
+                                        'options': ['A) Exact 24-hour protein excretion grams',
+                                                    'B) Urine concentrating ability (relative '
+                                                    'density)',
+                                                    'C) Bacterial species identification',
+                                                    'D) Urine pH buffering capacity alone'],
+                                        'answer': 'B) Urine concentrating ability (relative '
+                                                  'density)',
+                                        'explanation': 'Urine specific gravity estimates the '
+                                                       'density of urine relative to water and '
+                                                       'reflects renal concentrating and diluting '
+                                                       'ability. Refractometer or reagent-strip '
+                                                       'methods are commonly used; osmolality is a '
+                                                       'related but distinct measure. '
+                                                       'Interpretation considers hydration status '
+                                                       'and interfering large molecules.'},
                                        {'question': 'CSF tube order typically?',
-                                        'options': ['A) Chemistry/micro/heme allocations per '
-                                                    'protocol',
-                                                    'B) Random any order always fine',
-                                                    'C) Only one tube ever allowed worldwide',
-                                                    'D) No labeling'],
-                                        'answer': 'A) Chemistry/micro/heme allocations per '
-                                                  'protocol',
-                                        'explanation': 'CSF is typically collected into sequentially numbered tubes allocated to chemistry, microbiology, and hematology per institutional protocol. Splitting specimens this way reduces contamination of culture tubes and preserves appropriate aliquots for each test. Local SOPs define exact tube order and volumes.'}],
+                                        'options': ['A) All tubes pooled into one chemistry cup',
+                                                    'B) Only the first tube used for all testing',
+                                                    'C) Allocated to chemistry, microbiology, and '
+                                                    'hematology per protocol',
+                                                    'D) Random tube assignment without labeling'],
+                                        'answer': 'C) Allocated to chemistry, microbiology, and '
+                                                  'hematology per protocol',
+                                        'explanation': 'CSF is typically collected into '
+                                                       'sequentially numbered tubes allocated to '
+                                                       'chemistry, microbiology, and hematology '
+                                                       'per institutional protocol. Tube order '
+                                                       'reduces blood-contamination effects on '
+                                                       'selected tests. Clear labeling and prompt '
+                                                       'delivery preserve analytic integrity.'}],
                               'medium': [{'question': 'RBC casts suggest?',
-                                          'options': ['A) Glomerular disease',
-                                                      'B) Always contamination only',
-                                                      'C) Only lower UTI exclusively',
-                                                      'D) Only crystals only'],
-                                          'answer': 'A) Glomerular disease',
-                                          'explanation': 'Red blood cell casts form when RBCs are embedded in Tamm–Horsfall protein within renal tubules and indicate glomerular bleeding. Their presence supports glomerulonephritis rather than lower-urinary-tract hematuria. Careful bright-field or phase-contrast microscopy is required for reliable cast identification.'},
+                                          'options': ['A) Lower-tract contamination without renal '
+                                                      'disease',
+                                                      'B) Only pyelonephritis with WBC casts '
+                                                      'exclusively',
+                                                      'C) Only nephrotic syndrome with fatty casts '
+                                                      'exclusively',
+                                                      'D) Glomerular bleeding/disease'],
+                                          'answer': 'D) Glomerular bleeding/disease',
+                                          'explanation': 'Red blood cell casts form when RBCs are '
+                                                         'embedded in Tamm–Horsfall protein within '
+                                                         'renal tubules and indicate glomerular '
+                                                         'bleeding. They support diagnoses such as '
+                                                         'glomerulonephritis. Careful microscopy '
+                                                         'distinguishes true casts from look-alike '
+                                                         'artifacts.'},
                                          {'question': 'Oval fat bodies associate with?',
-                                          'options': ['A) Nephrotic syndrome themes',
-                                                      'B) Only diabetes insipidus only',
-                                                      'C) Only dehydration only',
-                                                      'D) Only contamination ink'],
-                                          'answer': 'A) Nephrotic syndrome themes',
-                                          'explanation': 'Oval fat bodies are renal tubular epithelial cells or macrophages laden with lipid, classically associated with heavy proteinuria of nephrotic syndrome. Under polarized light, cholesterol droplets may show Maltese-cross birefringence. Lipiduria complements hypoalbuminemia and edema in the nephrotic presentation.'},
-                                         {'question': 'Synovial fluid crystals: needle strongly '
-                                                      'birefringent negative?',
-                                          'options': ['A) Monosodium urate (gout) themes',
-                                                      'B) Always CPPD exclusively',
-                                                      'C) Always cholesterol only',
-                                                      'D) Always starch'],
-                                          'answer': 'A) Monosodium urate (gout) themes',
-                                          'explanation': 'Monosodium urate crystals of gout are needle-shaped and show strong negative birefringence under compensated polarized light (yellow when aligned with the compensator axis). Calcium pyrophosphate crystals of pseudogout are rhomboid or rod-shaped with weak positive birefringence. Crystal identification in synovial fluid confirms crystal arthropathy.'}],
-                              'hard': [{'question': 'A junior colleague asks for the single best '
-                                                    'answer. Xanthochromia in CSF suggests? Beware '
-                                                    'of near-miss distractors.',
-                                        'options': ['A) Subarachnoid hemorrhage (after excluding '
-                                                    'artifact)',
-                                                    'B) Always traumatic tap only forever',
-                                                    'C) Always bacterial meningitis only',
-                                                    'D) Always normal'],
-                                        'answer': 'A) Subarachnoid hemorrhage (after excluding '
-                                                  'artifact)',
-                                        'explanation': 'Xanthochromia is yellowish CSF discoloration from bilirubin formed in situ after subarachnoid hemorrhage, appearing hours after bleeding. Visual inspection can be subjective; spectrophotometry for bilirubin improves detection and helps exclude oxyhemoglobin from traumatic tap artifact. Timing of lumbar puncture relative to symptom onset affects sensitivity.'},
-                                       {'question': 'A junior colleague asks for the single best '
-                                                    'answer. Myoglobin vs hemoglobin on dipstick? '
-                                                    'Beware of near-miss distractors.',
-                                        'options': ['A) Both may read blood positive; '
-                                                    'clinical/plasma clues differ',
-                                                    'B) Dipstick distinguishes perfectly always',
-                                                    'C) Neither ever positive',
-                                                    'D) Only WBC detected'],
-                                        'answer': 'A) Both may read blood positive; '
-                                                  'clinical/plasma clues differ',
-                                        'explanation': 'Dipstick blood pads cannot distinguish myoglobin from hemoglobin because both possess heme groups that catalyze the indicator reaction. Myoglobinuria typically accompanies clear plasma and marked muscle injury with elevated CK, whereas hemolysis often shows pink plasma and reduced haptoglobin. Microscopy and clinical chemistry resolve the differential.'},
-                                       {'question': 'A junior colleague asks for the single best '
-                                                    'answer. Transudate vs exudate uses? Beware of '
-                                                    'near-miss distractors.',
-                                        'options': ["A) Light's criteria themes for pleural fluid",
-                                                    'B) Only color forever',
-                                                    'C) Only patient age',
-                                                    'D) Only tube number'],
-                                        'answer': "A) Light's criteria themes for pleural fluid",
-                                        'explanation': 'Light’s criteria compare pleural fluid and serum protein and LDH to classify effusions as exudates or transudates. Exudates meet thresholds suggesting inflammation, infection, or malignancy; transudates reflect hydrostatic or oncotic imbalances such as heart failure. Accurate classification requires paired fluid and serum chemistry measured by validated methods.'}],
-                              'extreme': [{'question': 'In a high-stakes laboratory scenario with '
-                                                       'incomplete data, which statement is MOST '
-                                                       'correct? Body fluid cell counts on '
-                                                       'automated analyzers need? Avoid actions '
-                                                       'that could harm if a critical risk remains '
-                                                       'open.',
-                                           'options': ['A) Validation and smear review for '
+                                          'options': ['A) Nephrotic-range proteinuria/lipiduria '
+                                                      'themes',
+                                                      'B) Isolated lower UTI without proteinuria',
+                                                      'C) Acute cystitis with squamous cells only',
+                                                      'D) Diabetes insipidus with dilute urine '
+                                                      'only'],
+                                          'answer': 'A) Nephrotic-range proteinuria/lipiduria '
+                                                    'themes',
+                                          'explanation': 'Oval fat bodies are renal tubular '
+                                                         'epithelial cells or macrophages laden '
+                                                         'with lipid, classically associated with '
+                                                         'heavy proteinuria of nephrotic syndrome. '
+                                                         'Polarized microscopy may show '
+                                                         'Maltese-cross fat droplets. Correlation '
+                                                         'with urine protein quantitation and '
+                                                         'serum albumin supports the diagnosis.'},
+                                         {'question': 'Synovial fluid crystals: needle, strong '
+                                                      'negative birefringence?',
+                                          'options': ['A) Calcium pyrophosphate (pseudogout) '
+                                                      'rhomboids',
+                                                      'B) Monosodium urate (gout)',
+                                                      'C) Cholesterol plates from chronic '
+                                                      'effusions only',
+                                                      'D) Hydroxyapatite clumps without '
+                                                      'birefringence only'],
+                                          'answer': 'B) Monosodium urate (gout)',
+                                          'explanation': 'Monosodium urate crystals of gout are '
+                                                         'needle-shaped and show strong negative '
+                                                         'birefringence under compensated '
+                                                         'polarized light. Calcium pyrophosphate '
+                                                         'crystals of pseudogout are typically '
+                                                         'rhomboid/rod-shaped with weak positive '
+                                                         'birefringence. Correct crystal ID '
+                                                         'directs acute arthritis therapy.'}],
+                              'hard': [{'question': 'Xanthochromia in CSF suggests?',
+                                        'options': ['A) Only traumatic tap without pigment '
+                                                    'evaluation',
+                                                    'B) Only bacterial meningitis without '
+                                                    'hemorrhage',
+                                                    'C) Subarachnoid hemorrhage after excluding '
+                                                    'artifact',
+                                                    'D) Only viral PCR positivity without color '
+                                                    'change'],
+                                        'answer': 'C) Subarachnoid hemorrhage after excluding '
+                                                  'artifact',
+                                        'explanation': 'Xanthochromia is yellowish CSF '
+                                                       'discoloration from bilirubin formed in '
+                                                       'situ after subarachnoid hemorrhage, '
+                                                       'appearing hours after onset. '
+                                                       'Spectrophotometry and timing help '
+                                                       'distinguish SAH from traumatic tap '
+                                                       'artifact. Immediate clinical notification '
+                                                       'is required when SAH is suspected.'},
+                                       {'question': 'Myoglobin vs hemoglobin on dipstick?',
+                                        'options': ['A) Dipstick distinguishes them by two '
+                                                    'separate pads',
+                                                    'B) Myoglobin never reacts with the blood pad',
+                                                    'C) Hemoglobinuria always shows clear plasma '
+                                                    'always',
+                                                    'D) Both can read blood-positive; '
+                                                    'plasma/clinical clues differ'],
+                                        'answer': 'D) Both can read blood-positive; '
+                                                  'plasma/clinical clues differ',
+                                        'explanation': 'Dipstick blood pads cannot distinguish '
+                                                       'myoglobin from hemoglobin because both '
+                                                       'possess heme groups that catalyze the '
+                                                       'indicator reaction. Clear plasma with '
+                                                       'heme-positive urine suggests '
+                                                       'myoglobinuria; pink/red plasma supports '
+                                                       'hemoglobinuria. CK, clinical context, and '
+                                                       'microscopy refine the distinction.'},
+                                       {'question': 'Transudate vs exudate uses?',
+                                        'options': ['A) Light’s criteria themes for pleural fluid',
+                                                    'B) Only fluid color without chemistry '
+                                                    'comparison',
+                                                    'C) Only Gram stain without protein/LDH ratios',
+                                                    'D) Only cell count without serum correlation'],
+                                        'answer': 'A) Light’s criteria themes for pleural fluid',
+                                        'explanation': 'Light’s criteria compare pleural fluid and '
+                                                       'serum protein and LDH to classify '
+                                                       'effusions as exudates or transudates. '
+                                                       'Exudates suggest local pleural pathology; '
+                                                       'transudates suggest systemic '
+                                                       'hydrostatic/oncotic imbalance. Correct '
+                                                       'classification focuses subsequent '
+                                                       'workup.'}],
+                              'extreme': [{'question': 'Body fluid cell counts on automated '
+                                                       'analyzers need?',
+                                           'options': ['A) No validation because blood modes '
+                                                       'always transfer',
+                                                       'B) Validation plus smear review for '
                                                        'atypical cells',
-                                                       'B) Blind trust without flags',
-                                                       'C) No clot checks',
-                                                       'D) Sharing syringes'],
-                                           'answer': 'A) Validation and smear review for atypical '
+                                                       'C) Autorelease of blasts without '
+                                                       'morphologic review',
+                                                       'D) Replacement of all microbiology Gram '
+                                                       'stains'],
+                                           'answer': 'B) Validation plus smear review for atypical '
                                                      'cells',
-                                           'explanation': 'Automated body-fluid cell counts require method validation for each fluid type because matrices differ from blood. Smear review remains necessary to detect malignant cells, crystals, or misclassified debris that analyzers may miss or miscount. Morphology complements numeric counts for clinically critical fluids.'},
-                                          {'question': 'In a high-stakes laboratory scenario with '
-                                                       'incomplete data, which statement is MOST '
-                                                       'correct? Critical CSF findings require? '
-                                                       'Avoid actions that could harm if a '
-                                                       'critical risk remains open.',
-                                           'options': ['A) Immediate clinician notification',
-                                                       'B) Batch next week',
-                                                       'C) Only mailed letter',
-                                                       'D) No documentation'],
-                                           'answer': 'A) Immediate clinician notification',
-                                           'explanation': 'Critical CSF findings—such as organisms on Gram stain, marked neutrophilic pleocytosis, or xanthochromia suggestive of SAH—require immediate clinician notification. Delays can worsen outcomes in bacterial meningitis and intracranial hemorrhage. Laboratories maintain defined critical lists and escalation pathways for CSF.'},
-                                          {'question': 'In a high-stakes laboratory scenario with '
-                                                       'incomplete data, which statement is MOST '
-                                                       'correct? Contaminated clean-catch clues? '
-                                                       'Avoid actions that could harm if a '
-                                                       'critical risk remains open.',
-                                           'options': ['A) Squamous epithelial cells many + mixed '
-                                                       'flora',
-                                                       'B) Pure single uropathogen always '
-                                                       'contamination',
-                                                       'C) No epithelials ever means always '
-                                                       'contamination',
-                                                       'D) Labels optional'],
-                                           'answer': 'A) Squamous epithelial cells many + mixed '
+                                           'explanation': 'Automated body-fluid cell counts '
+                                                          'require method validation for each '
+                                                          'fluid type because matrices differ from '
+                                                          'blood. Smear review detects malignant '
+                                                          'or atypical cells that counters alone '
+                                                          'may misclassify. Flags and laboratory '
+                                                          'policy define when manual counts and '
+                                                          'pathologist review are required.'},
+                                          {'question': 'Critical CSF findings require?',
+                                           'options': ['A) Batch reporting with next morning '
+                                                       'results',
+                                                       'B) Chart release without verbal/read-back '
+                                                       'alert',
+                                                       'C) Immediate clinician notification',
+                                                       'D) Notification only if culture later '
+                                                       'turns positive'],
+                                           'answer': 'C) Immediate clinician notification',
+                                           'explanation': 'Critical CSF findings—such as organisms '
+                                                          'on Gram stain, marked neutrophilic '
+                                                          'pleocytosis, or xanthochromia '
+                                                          'suggestive of SAH—require immediate '
+                                                          'clinician notification. Delays can '
+                                                          'worsen meningitis or neurosurgical '
+                                                          'outcomes. Documentation of notification '
+                                                          'is mandatory.'},
+                                          {'question': 'Contaminated clean-catch clues?',
+                                           'options': ['A) Pure single uropathogen ≥10^5 CFU/mL '
+                                                       'without squamous cells',
+                                                       'B) WBC casts with hematuria indicating '
+                                                       'glomerulonephritis',
+                                                       'C) Positive nitrite with few epithelial '
+                                                       'cells only',
+                                                       'D) Many squamous epithelial cells with '
+                                                       'mixed flora'],
+                                           'answer': 'D) Many squamous epithelial cells with mixed '
                                                      'flora',
-                                           'explanation': 'Clean-catch midstream urine contaminated by periurethral flora often shows abundant squamous epithelial cells and mixed bacterial morphologies without a dominant uropathogen. Such findings suggest poor collection technique rather than true UTI. Patient recollection with proper instructions improves culture interpretability.'}]},
+                                           'explanation': 'Clean-catch midstream urine '
+                                                          'contaminated by periurethral flora '
+                                                          'often shows abundant squamous '
+                                                          'epithelial cells and mixed organisms. '
+                                                          'True UTI more often shows pyuria with a '
+                                                          'predominant uropathogen. Recollection '
+                                                          'with better technique may be needed '
+                                                          'before treating mixed cultures.'}]},
                 'cases': {'easy': [{'title': 'Dipstick Nitrite Positive',
                                     'stem': 'Dysuria; nitrite+/LE+.',
                                     'question': 'Suggests?',
@@ -1655,7 +2746,6 @@ SPECIALTIES: dict[str, dict] = {'hematology': {'label': 'Hematology',
                                                  'notify clinical team per policy.',
                                        'discussion': "Do not release as 'normal count' only.",
                                        'book_hint': 'Urinalysis and Body Fluids — Strasinger'}]}}}
-
 
 def specialty_label(key: str) -> str:
     return SPECIALTIES[key]["label"]
