@@ -42,7 +42,31 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                        'time. It does not directly '
                                                        'measure contractility, '
                                                        'coronary flow, or filling '
-                                                       'pressures.'},
+                                                       'pressures.',
+                                        'choice_explanations': {
+                                            'A': 'Surface ECG electrodes record summed '
+                                                  'atrial and ventricular myocyte '
+                                                  'depolarization and repolarization '
+                                                  'voltages, displayed as P, QRS, and T '
+                                                  'waves over time.',
+                                            'B': 'Ventricular mechanical contractility '
+                                                  'is the force of myocardial fiber '
+                                                  'shortening that generates stroke '
+                                                  'volume; it is assessed by '
+                                                  'echocardiography or hemodynamics, '
+                                                  'not by the ECG voltage tracing.',
+                                            'C': 'Coronary blood-flow velocity is a '
+                                                  'hemodynamic measure of blood moving '
+                                                  'through epicardial arteries (Doppler '
+                                                  'or angiography), whereas ECG records '
+                                                  'only electrical potentials.',
+                                            'D': 'Central venous pressure waveforms '
+                                                  'reflect right-atrial filling '
+                                                  'pressure from venous catheters and '
+                                                  'are unrelated to the surface '
+                                                  'electrical signals that constitute '
+                                                  'an ECG.'
+                                        }},
                                        {'question': 'Typical symptom of angina is?',
                                         'options': ['A) Pleuritic pain worse when '
                                                     'lying flat only',
@@ -66,7 +90,29 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                        'Musculoskeletal, purely '
                                                        'pleuritic, or isolated reflux '
                                                        'pain patterns point away from '
-                                                       'classic ischemic angina.'},
+                                                       'classic ischemic angina.',
+                                        'choice_explanations': {
+                                            'A': 'Pleuritic pain worse when supine is '
+                                                  'typical of pericarditis, which '
+                                                  'inflames the pericardium and worsens '
+                                                  'with inspiration or recumbency, not '
+                                                  'supply–demand myocardial ischemia.',
+                                            'B': 'Angina is transient myocardial '
+                                                  'ischemia when coronary oxygen supply '
+                                                  'cannot meet demand; it classically '
+                                                  'causes retrosternal pressure or '
+                                                  'tightness provoked by exertion and '
+                                                  'relieved by rest or nitrates.',
+                                            'C': 'Sharp pain reproduced by chest-wall '
+                                                  'palpation indicates musculoskeletal '
+                                                  'chest-wall pain, not ischemic '
+                                                  'myocardial demand mismatch.',
+                                            'D': 'Burning epigastric pain relieved only '
+                                                  'by antacids points to acid-related '
+                                                  'dyspepsia or reflux, a '
+                                                  'gastrointestinal mechanism distinct '
+                                                  'from coronary ischemia.'
+                                        }},
                                        {'question': 'Aspirin in ACS is given mainly '
                                                     'to?',
                                         'options': ['A) Acute coronary vasodilation '
@@ -89,7 +135,28 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                        'Vasodilation, beta-blockade, '
                                                        'and fibrinolysis are separate '
                                                        'therapeutic mechanisms used in '
-                                                       'other contexts.'}],
+                                                       'other contexts.',
+                                        'choice_explanations': {
+                                            'A': 'Nitric oxide–mediated coronary '
+                                                  'vasodilation is the mechanism of '
+                                                  'nitrates, not aspirin, which acts on '
+                                                  'platelet cyclooxygenase rather than '
+                                                  'vascular smooth-muscle NO signaling.',
+                                            'B': 'Beta-blockers reduce myocardial '
+                                                  'oxygen demand by lowering heart rate '
+                                                  'and contractility; aspirin does not '
+                                                  'provide beta-adrenergic blockade.',
+                                            'C': 'Aspirin irreversibly acetylates '
+                                                  'platelet COX-1, blocking thromboxane '
+                                                  'A2 synthesis and thereby reducing '
+                                                  'further platelet aggregation on a '
+                                                  'ruptured plaque in ACS.',
+                                            'D': 'Fibrinolysis dissolves fibrin within '
+                                                  'established thrombus and is the '
+                                                  'action of plasminogen activators, '
+                                                  'not of aspirin’s antiplatelet '
+                                                  'effect.'
+                                        }}],
                               'medium': [{'question': 'ST elevation in leads II, III, '
                                                       'and aVF most suggests occlusion '
                                                       'in which territory?',
@@ -114,7 +181,32 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                          'STEMI involves precordial '
                                                          'leads; isolated lateral '
                                                          'changes map to LCx '
-                                                         'territory.'},
+                                                         'territory.',
+                                          'choice_explanations': {
+                                              'A': 'Anterior-wall STEMI typically shows '
+                                                    'ST elevation in precordial leads '
+                                                    '(V1–V4) from LAD territory '
+                                                    'ischemia, not in the inferior '
+                                                    'leads II, III, and aVF.',
+                                              'B': 'Lateral-wall ischemia (often LCx) '
+                                                    'localizes to leads I, aVL, and/or '
+                                                    'V5–V6 rather than the inferior '
+                                                    'lead group II, III, and aVF.',
+                                              'C': 'Isolated right-ventricular '
+                                                    'infarction may accompany inferior '
+                                                    'STEMI but is diagnosed with '
+                                                    'right-sided leads (e.g., V4R); ST '
+                                                    'elevation confined to II, III, and '
+                                                    'aVF indicates inferior LV wall '
+                                                    'involvement.',
+                                              'D': 'Leads II, III, and aVF view the '
+                                                    'inferior left-ventricular wall, '
+                                                    'usually supplied by the RCA (or a '
+                                                    'dominant circumflex), so ST '
+                                                    'elevation there localizes '
+                                                    'transmural ischemia to the '
+                                                    'inferior territory.'
+                                          }},
                                          {'question': 'Which murmur is holosystolic '
                                                       'and radiates to the axilla?',
                                           'options': ['A) Mitral regurgitation',
@@ -135,7 +227,31 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                          'diastolic; aortic '
                                                          'regurgitation is an early '
                                                          'diastolic decrescendo '
-                                                         'murmur.'},
+                                                         'murmur.',
+                                          'choice_explanations': {
+                                              'A': 'Mitral regurgitation produces a '
+                                                    'high-velocity LV-to-LA systolic '
+                                                    'jet throughout systole, yielding a '
+                                                    'holosystolic murmur that radiates '
+                                                    'to the axilla along the '
+                                                    'regurgitant jet.',
+                                              'B': 'Aortic stenosis generates a '
+                                                    'crescendo–decrescendo systolic '
+                                                    'ejection murmur that radiates to '
+                                                    'the carotids, not a holosystolic '
+                                                    'apical-to-axilla murmur.',
+                                              'C': 'Mitral stenosis produces a '
+                                                    'low-pitched diastolic rumble after '
+                                                    'an opening snap as blood flows '
+                                                    'across a narrowed mitral orifice '
+                                                    'in diastole, not a holosystolic '
+                                                    'murmur.',
+                                              'D': 'Aortic regurgitation is an early '
+                                                    'diastolic decrescendo murmur from '
+                                                    'aortic-to-LV runoff after aortic '
+                                                    'valve closure, not a holosystolic '
+                                                    'murmur.'
+                                          }},
                                          {'question': 'First-line symptom relief for '
                                                       'an acute angina episode is '
                                                       'often?',
@@ -158,7 +274,31 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                          'minutes. Digoxin, '
                                                          'amiodarone, and steroids are '
                                                          'not first-line acute '
-                                                         'anti-anginal relief.'}],
+                                                         'anti-anginal relief.',
+                                          'choice_explanations': {
+                                              'A': 'Digoxin increases inotropy and can '
+                                                    'control ventricular rate in AF, '
+                                                    'but it is not rapid first-line '
+                                                    'therapy for an acute anginal '
+                                                    'episode driven by supply–demand '
+                                                    'mismatch.',
+                                              'B': 'Sublingual nitroglycerin is rapidly '
+                                                    'absorbed and releases nitric '
+                                                    'oxide, dilating veins (reducing '
+                                                    'preload) and coronaries, which '
+                                                    'lowers wall tension and often '
+                                                    'relieves acute angina within '
+                                                    'minutes.',
+                                              'C': 'IV amiodarone is an antiarrhythmic '
+                                                    'used for ventricular or atrial '
+                                                    'tachyarrhythmias, not first-line '
+                                                    'acute anti-anginal symptom relief.',
+                                              'D': 'Systemic corticosteroids treat '
+                                                    'inflammatory or adrenal conditions '
+                                                    'and have no role as acute coronary '
+                                                    'vasodilator or anti-ischemic '
+                                                    'relief in angina.'
+                                          }}],
                               'hard': [{'question': 'A patient with inferior STEMI '
                                                     'becomes hypotensive after '
                                                     'nitrates and has elevated JVP '
@@ -185,7 +325,33 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                        'should prompt RV infarction '
                                                        'recognition and cautious fluid '
                                                        'resuscitation rather than '
-                                                       'further preload reduction.'},
+                                                       'further preload reduction.',
+                                        'choice_explanations': {
+                                            'A': 'An apical LV aneurysm complicates '
+                                                  'some anterior infarcts and may cause '
+                                                  'heart failure or thrombus, but it '
+                                                  'does not produce nitrate-triggered '
+                                                  'hypotension with clear lungs and '
+                                                  'elevated JVP.',
+                                            'B': 'Acute severe mitral stenosis causes '
+                                                  'diastolic obstruction to LV filling '
+                                                  'with pulmonary congestion, not the '
+                                                  'clear-lung, high-JVP, '
+                                                  'preload-sensitive hypotension of RV '
+                                                  'infarction.',
+                                            'C': 'Inferior STEMI often co-infarcts the '
+                                                  'RV (RCA territory); RV stroke volume '
+                                                  'is preload-dependent, so nitrates '
+                                                  'abruptly cut preload and cause '
+                                                  'hypotension with elevated JVP and '
+                                                  'clear lungs.',
+                                            'D': 'Hypertensive pulmonary edema is '
+                                                  'left-sided failure with wet lungs '
+                                                  'and high afterload; it does not '
+                                                  'match clear lungs plus '
+                                                  'nitrate-induced hypotension from RV '
+                                                  'preload dependence.'
+                                        }},
                                        {'question': 'Which heart-failure therapy class '
                                                     'has strong mortality benefit in '
                                                     'HFrEF among the listed options?',
@@ -213,7 +379,32 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                        'mortality therapy; '
                                                        'short-acting nifedipine and '
                                                        'routine class Ic agents can '
-                                                       'harm HFrEF patients.'},
+                                                       'harm HFrEF patients.',
+                                        'choice_explanations': {
+                                            'A': 'Digoxin may improve symptoms or rate '
+                                                  'control in selected HFrEF/AF '
+                                                  'patients but is not sole '
+                                                  'disease-modifying mortality therapy '
+                                                  'compared with evidence-based '
+                                                  'beta-blockers.',
+                                            'B': 'Short-acting dihydropyridine '
+                                                  'calcium-channel blockers can cause '
+                                                  'reflex sympathetic activation and '
+                                                  'are not mortality-reducing therapy '
+                                                  'in HFrEF.',
+                                            'C': 'Class Ic antiarrhythmics are '
+                                                  'generally avoided in structural '
+                                                  'heart disease/HFrEF because of '
+                                                  'proarrhythmia and adverse outcomes, '
+                                                  'not used routinely for mortality '
+                                                  'benefit.',
+                                            'D': 'Evidence-based beta-blockers '
+                                                  '(carvedilol, bisoprolol, metoprolol '
+                                                  'succinate) blunt sustained '
+                                                  'sympathetic drive that worsens '
+                                                  'remodeling and arrhythmias, reducing '
+                                                  'mortality in HFrEF.'
+                                        }},
                                        {'question': 'New LBBB with ischemic symptoms '
                                                     'can be treated as?',
                                         'options': ['A) STEMI equivalent in the '
@@ -240,7 +431,31 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                        'warranting urgent reperfusion '
                                                        'assessment. It is not proof of '
                                                        'PE and does not by itself '
-                                                       'mandate atropine.'}],
+                                                       'mandate atropine.',
+                                        'choice_explanations': {
+                                            'A': 'New LBBB can accompany extensive '
+                                                  'ischemic injury and obscures '
+                                                  'ST-segment interpretation; with '
+                                                  'ongoing ischemic symptoms it is '
+                                                  'treated as a STEMI equivalent '
+                                                  'warranting urgent reperfusion '
+                                                  'assessment.',
+                                            'B': 'Age-related conduction disease may be '
+                                                  'chronic and incidental, but new LBBB '
+                                                  'plus ischemic symptoms is an acute '
+                                                  'coronary emergency pathway, not a '
+                                                  'benign finding.',
+                                            'C': 'Pulmonary embolism may cause '
+                                                  'right-heart strain ECG changes, but '
+                                                  'new LBBB with ischemic symptoms is '
+                                                  'not definitive electrocardiographic '
+                                                  'proof of PE.',
+                                            'D': 'Atropine treats bradycardia from '
+                                                  'excess vagal tone or AV block; new '
+                                                  'ischemic LBBB requires reperfusion '
+                                                  'consideration rather than atropine '
+                                                  'alone.'
+                                        }}],
                               'extreme': [{'question': 'A 72-year-old with prior CABG '
                                                        'presents with flash pulmonary '
                                                        'edema, unequal arm BPs, and a '
@@ -275,7 +490,36 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'surgery. Unequal arm BPs '
                                                           'and tearing pain mandate '
                                                           'exclusion of aortic '
-                                                          'syndrome first.'},
+                                                          'syndrome first.',
+                                           'choice_explanations': {
+                                               'A': 'Uncomplicated NSTE-ACS can cause '
+                                                     'troponin rise and ST changes, but '
+                                                     'unequal arm BPs with tearing back '
+                                                     'pain and flash edema mandate '
+                                                     'excluding dissection before '
+                                                     'antiplatelet/anticoagulant '
+                                                     'loading.',
+                                               'B': 'Acute aortic dissection can mimic '
+                                                     'NSTE-ACS with pain, secondary '
+                                                     'troponin rise, and flash edema; '
+                                                     'dual antiplatelet therapy and '
+                                                     'anticoagulation can extend the '
+                                                     'flap, so unequal BPs and tearing '
+                                                     'pain require exclusion first.',
+                                               'C': 'Takotsubo cardiomyopathy causes '
+                                                     'stress-related apical ballooning '
+                                                     'and troponin rise without '
+                                                     'coronary occlusion, but it does '
+                                                     'not produce pulse/BP asymmetry '
+                                                     'and tearing back pain of aortic '
+                                                     'syndrome.',
+                                               'D': 'Type 2 myocardial injury from '
+                                                     'sepsis reflects supply–demand '
+                                                     'mismatch without plaque rupture; '
+                                                     'it lacks the vascular asymmetry '
+                                                     'and tearing pain that define '
+                                                     'suspected aortic dissection.'
+                                           }},
                                           {'question': 'In suspected tamponade after '
                                                        'cardiac surgery, which '
                                                        'constellation is most '
@@ -309,7 +553,33 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'suggests the opposite '
                                                           'physiology; isolated wheeze '
                                                           'or fever alone do not '
-                                                          'define tamponade.'},
+                                                          'define tamponade.',
+                                           'choice_explanations': {
+                                               'A': 'Hypertension with bounding pulses '
+                                                     'and wide pulse pressure suggests '
+                                                     'high-output or '
+                                                     'aortic-regurgitation physiology, '
+                                                     'the opposite of obstructive '
+                                                     'filling failure in tamponade.',
+                                               'B': 'Isolated wheeze with normal blood '
+                                                     'pressure points to airway '
+                                                     'disease; tamponade is obstructive '
+                                                     'shock from impaired diastolic '
+                                                     'filling, not bronchospasm.',
+                                               'C': 'Tamponade is obstructive shock: '
+                                                     'pericardial fluid impairs '
+                                                     'diastolic filling so stroke '
+                                                     'volume falls, producing '
+                                                     'hypotension, raised venous '
+                                                     'pressures, muffled sounds, low '
+                                                     'voltage, and electrical '
+                                                     'alternans.',
+                                               'D': 'Fever alone without hemodynamic '
+                                                     'compromise or ECG '
+                                                     'voltage/alternans changes does '
+                                                     'not indicate pericardial '
+                                                     'constraint of filling.'
+                                           }},
                                           {'question': 'A patient in AF with WPW '
                                                        'presents with very fast '
                                                        'irregular wide-complex '
@@ -344,7 +614,34 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'immediate synchronized '
                                                           'cardioversion; AV-nodal '
                                                           'blockers are inappropriate '
-                                                          'first-line therapy.'}]},
+                                                          'first-line therapy.',
+                                           'choice_explanations': {
+                                               'A': 'In unstable AF with WPW and very '
+                                                     'fast irregular wide-complex '
+                                                     'tachycardia, synchronized '
+                                                     'cardioversion restores sinus '
+                                                     'rhythm without preferentially '
+                                                     'blocking the AV node relative to '
+                                                     'the accessory pathway.',
+                                               'B': 'Expert-guided management of '
+                                                     'accessory-pathway–mediated AF '
+                                                     'appropriately prioritizes '
+                                                     'pathway-safe drugs or '
+                                                     'cardioversion rather than '
+                                                     'AV-nodal blockade.',
+                                               'C': 'Procainamide (or shock) slows '
+                                                     'accessory-pathway conduction when '
+                                                     'the patient is stable enough for '
+                                                     'medical therapy, avoiding '
+                                                     'preferential AV-nodal block.',
+                                               'D': 'IV verapamil, digoxin, or '
+                                                     'adenosine block the AV node and '
+                                                     'may paradoxically increase '
+                                                     'conduction over the accessory '
+                                                     'pathway in AF-WPW, risking '
+                                                     'degeneration to VF—so they are '
+                                                     'inappropriate first-line therapy.'
+                                           }}]},
                 'cases': {'easy': [{'title': 'Mild Exertional Chest Tightness',
                                     'stem': 'A 55-year-old man gets central chest '
                                             'tightness when climbing stairs. It eases '
@@ -448,7 +745,31 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'dilation. Cover testing, '
                                                           'Schirmer, and Amsler assess '
                                                           'alignment, tears, and '
-                                                          'macula—not RAPD.'},
+                                                          'macula—not RAPD.',
+                                           'choice_explanations': {
+                                               'A': 'The swinging flashlight test '
+                                                     'compares consensual and direct '
+                                                     'pupillary responses; paradoxical '
+                                                     'dilation when light swings to the '
+                                                     'affected eye demonstrates a '
+                                                     'relative afferent pupillary '
+                                                     'defect.',
+                                               'B': 'The cover–uncover test detects '
+                                                     'tropias by observing refixation '
+                                                     'when one eye is covered, '
+                                                     'assessing ocular alignment rather '
+                                                     'than afferent pupillary input.',
+                                               'C': 'Schirmer testing measures aqueous '
+                                                     'tear production with filter-paper '
+                                                     'wetting and does not evaluate the '
+                                                     'afferent limb of the pupillary '
+                                                     'light reflex.',
+                                               'D': 'An Amsler grid screens central '
+                                                     'macular distortion '
+                                                     '(metamorphopsia) and scotomas, '
+                                                     'not asymmetry of the pupillary '
+                                                     'light reflex.'
+                                           }},
                                           {'question': 'Painful red eye with '
                                                        'mid-dilated pupil suggests?',
                                            'options': ['A) Viral conjunctivitis',
@@ -469,7 +790,33 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'a normal pupil; uveitis '
                                                           'often has a small pupil; '
                                                           'keratitis features a focal '
-                                                          'corneal infiltrate.'},
+                                                          'corneal infiltrate.',
+                                           'choice_explanations': {
+                                               'A': 'Viral conjunctivitis causes '
+                                                     'injected conjunctiva with '
+                                                     'discharge but a normal pupil and '
+                                                     'usually without the severe pain '
+                                                     'and corneal edema of acute angle '
+                                                     'closure.',
+                                               'B': 'Acute angle-closure occurs when '
+                                                     'the peripheral iris blocks the '
+                                                     'trabecular meshwork, abruptly '
+                                                     'raising IOP and producing a '
+                                                     'painful red eye with corneal '
+                                                     'edema and a mid-dilated, poorly '
+                                                     'reactive pupil.',
+                                               'C': 'Anterior uveitis typically '
+                                                     'features ciliary flush and a '
+                                                     'small, sometimes irregular pupil '
+                                                     'from spasm or synechiae, not a '
+                                                     'mid-dilated fixed pupil from '
+                                                     'acutely high IOP.',
+                                               'D': 'Bacterial keratitis presents with '
+                                                     'a focal corneal infiltrate and '
+                                                     'epithelial defect; the pupil is '
+                                                     'not characteristically '
+                                                     'mid-dilated from angle closure.'
+                                           }},
                                           {'question': 'CN VI palsy mainly impairs?',
                                            'options': ['A) Adduction of the eye',
                                                        'B) Elevation in abduction '
@@ -491,7 +838,27 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'medial rectus (CN III); '
                                                           'vertical actions map to '
                                                           'other extraocular '
-                                                          'muscles.'}],
+                                                          'muscles.',
+                                           'choice_explanations': {
+                                               'A': 'Adduction is performed by the '
+                                                     'medial rectus, innervated by CN '
+                                                     'III; CN VI palsy does not '
+                                                     'primarily impair adduction.',
+                                               'B': 'Elevation in abduction is the '
+                                                     'primary action of superior rectus '
+                                                     '(CN III), not of the '
+                                                     'abducens-innervated lateral '
+                                                     'rectus.',
+                                               'C': 'CN VI (abducens) innervates only '
+                                                     'the lateral rectus, whose primary '
+                                                     'action is abduction; palsy '
+                                                     'therefore impairs abduction and '
+                                                     'causes horizontal diplopia toward '
+                                                     'the affected side.',
+                                               'D': 'Depression in adduction is the '
+                                                     'primary action of the superior '
+                                                     'oblique (CN IV), not CN VI.'
+                                           }}],
                                  'medium': [{'question': 'Diabetic retinopathy '
                                                          'microaneurysms are seen on?',
                                              'options': ['A) Slit-lamp exam of the '
@@ -517,7 +884,29 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                             'measurement, and color '
                                                             'testing do not '
                                                             'demonstrate '
-                                                            'microaneurysms.'},
+                                                            'microaneurysms.',
+                                             'choice_explanations': {
+                                                 'A': 'Slit-lamp examination of the '
+                                                       'anterior chamber assesses '
+                                                       'cornea, iris, and aqueous; '
+                                                       'diabetic microaneurysms lie in '
+                                                       'the retinal microvasculature '
+                                                       'and are not seen there.',
+                                                 'B': 'Tonometry measures intraocular '
+                                                       'pressure and does not visualize '
+                                                       'retinal microaneurysms of '
+                                                       'diabetic retinopathy.',
+                                                 'C': 'Color vision testing assesses '
+                                                       'cone function and optic-nerve '
+                                                       'pathways but cannot display '
+                                                       'retinal microaneurysms.',
+                                                 'D': 'Diabetic microaneurysms arise '
+                                                       'from retinal capillary wall '
+                                                       'damage and are visualized on '
+                                                       'dilated fundoscopy or retinal '
+                                                       'imaging of the posterior '
+                                                       'segment.'
+                                             }},
                                             {'question': 'Sudden curtain-like field '
                                                          'loss suggests?',
                                              'options': ['A) Rhegmatogenous retinal '
@@ -548,7 +937,34 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                             'hemorrhage causes sudden '
                                                             'floaters/haze without a '
                                                             'progressive curtain of '
-                                                            'detached retina.'},
+                                                            'detached retina.',
+                                             'choice_explanations': {
+                                                 'A': 'Rhegmatogenous detachment '
+                                                       'separates neurosensory retina '
+                                                       'from RPE after a tear; patients '
+                                                       'often note photopsias and '
+                                                       'floaters followed by '
+                                                       'progressive curtain-like field '
+                                                       'loss.',
+                                                 'B': 'Central retinal vein occlusion '
+                                                       'causes sudden blurred vision '
+                                                       'with retinal hemorrhages and '
+                                                       'venous dilation, not a '
+                                                       'progressive curtain of detached '
+                                                       'retina.',
+                                                 'C': 'Non-arteritic ischemic optic '
+                                                       'neuropathy typically produces '
+                                                       'altitudinal field loss with '
+                                                       'disc edema, a different '
+                                                       'mechanism from retinal '
+                                                       'detachment.',
+                                                 'D': 'Vitreous hemorrhage causes '
+                                                       'sudden floaters or haze from '
+                                                       'blood in the vitreous cavity '
+                                                       'without the progressive '
+                                                       'peripheral curtain of a '
+                                                       'detaching retina.'
+                                             }},
                                             {'question': 'Orbital cellulitis vs '
                                                          'preseptal key worrying '
                                                          'features include?',
@@ -578,7 +994,30 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                             'compromise. Preseptal '
                                                             'cellulitis is limited to '
                                                             'the lid without orbital '
-                                                            'signs.'}],
+                                                            'signs.',
+                                             'choice_explanations': {
+                                                 'A': 'Isolated eyelid erythema without '
+                                                       'motility or vision change is '
+                                                       'consistent with preseptal '
+                                                       'cellulitis limited to tissues '
+                                                       'anterior to the orbital septum.',
+                                                 'B': 'Orbital cellulitis involves '
+                                                       'post-septal tissues; painful '
+                                                       'ophthalmoplegia, proptosis, and '
+                                                       'vision change indicate orbital '
+                                                       'involvement with risk to the '
+                                                       'optic nerve and cavernous '
+                                                       'sinus.',
+                                                 'C': 'Mild conjunctival injection with '
+                                                       'clear cornea and full motility '
+                                                       'reflects surface inflammation '
+                                                       'without orbital soft-tissue '
+                                                       'infection.',
+                                                 'D': 'Painless non-tender unilateral '
+                                                       'lid swelling lacks the '
+                                                       'inflammatory orbital signs that '
+                                                       'define orbital cellulitis.'
+                                             }}],
                                  'hard': [{'question': 'A relative afferent pupillary '
                                                        'defect with normal fundoscopy '
                                                        'early on most suggests?',
@@ -606,7 +1045,30 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'neuropathy). Cataract, '
                                                           'refractive error, and dry '
                                                           'eye do not produce a true '
-                                                          'RAPD.'},
+                                                          'RAPD.',
+                                           'choice_explanations': {
+                                               'A': 'Early nuclear cataract reduces '
+                                                     'acuity by lens opacity but does '
+                                                     'not asymmetrically impair the '
+                                                     'afferent pupillary light reflex, '
+                                                     'so it does not produce a true '
+                                                     'RAPD.',
+                                               'B': 'Uncorrected refractive error blurs '
+                                                     'vision without damaging the optic '
+                                                     'nerve or retina enough to create '
+                                                     'an RAPD.',
+                                               'C': 'An RAPD with a still-normal fundus '
+                                                     'indicates weakened afferent '
+                                                     'pupillary input, most often from '
+                                                     'optic neuropathy such as optic '
+                                                     'neuritis or ischemic optic '
+                                                     'neuropathy.',
+                                               'D': 'Mild dry-eye disease affects the '
+                                                     'ocular surface tear film and does '
+                                                     'not interrupt optic-nerve '
+                                                     'afferent signaling to produce an '
+                                                     'RAPD.'
+                                           }},
                                           {'question': 'Painful third-nerve palsy '
                                                        'involving the pupil is '
                                                        'concerning for?',
@@ -638,7 +1100,34 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'palsy, myasthenia, and '
                                                           'Horner syndrome have '
                                                           'different mechanisms and '
-                                                          'pupil patterns.'},
+                                                          'pupil patterns.',
+                                           'choice_explanations': {
+                                               'A': 'Isolated microvascular ischemic CN '
+                                                     'III palsy typically spares the '
+                                                     'pupil because the superficial '
+                                                     'parasympathetic fibers are less '
+                                                     'affected; pupil involvement '
+                                                     'argues against this benign '
+                                                     'pattern.',
+                                               'B': 'Myasthenia gravis causes fatigable '
+                                                     'neuromuscular weakness with '
+                                                     'pupils that remain reactive; it '
+                                                     'does not compress CN III '
+                                                     'parasympathetic fibers.',
+                                               'C': 'Horner syndrome is '
+                                                     'oculosympathetic interruption '
+                                                     'causing miosis, ptosis, and '
+                                                     'anhidrosis, not a dilated pupil '
+                                                     'from CN III parasympathetic '
+                                                     'failure.',
+                                               'D': 'Parasympathetic pupilloconstrictor '
+                                                     'fibers travel superficially on CN '
+                                                     'III and are compressed early by a '
+                                                     'posterior communicating artery '
+                                                     'aneurysm, so painful '
+                                                     'pupil-involving third-nerve palsy '
+                                                     'requires aneurysm exclusion.'
+                                           }},
                                           {'question': 'Central retinal artery '
                                                        'occlusion typically presents '
                                                        'as?',
@@ -665,7 +1154,31 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'uveitis/keratitis/glaucoma; '
                                                           'binocular diplopia '
                                                           'localizes to motility, not '
-                                                          'CRAO.'}],
+                                                          'CRAO.',
+                                           'choice_explanations': {
+                                               'A': 'CRAO abruptly stops arterial '
+                                                     'perfusion to the inner retina, '
+                                                     'causing sudden, profound, '
+                                                     'painless monocular vision '
+                                                     'loss—effectively a retinal '
+                                                     'arterial stroke.',
+                                               'B': 'Gradual bilateral central blur '
+                                                     'over months suggests progressive '
+                                                     'media opacity (cataract) or '
+                                                     'macular disease, not acute '
+                                                     'arterial occlusion of one eye.',
+                                               'C': 'Painful vision loss with '
+                                                     'photophobia and ciliary flush '
+                                                     'indicates inflammatory '
+                                                     'anterior-segment disease '
+                                                     '(uveitis/keratitis) or acute '
+                                                     'glaucoma, not CRAO.',
+                                               'D': 'Transient binocular diplopia '
+                                                     'without acuity loss localizes to '
+                                                     'ocular motility or brainstem '
+                                                     'pathways, not monocular retinal '
+                                                     'arterial occlusion.'
+                                           }}],
                                  'extreme': [{'question': 'A patient with giant cell '
                                                           'arteritis risk (age >50, '
                                                           'jaw claudication, high ESR) '
@@ -703,7 +1216,32 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                              'immediately to protect '
                                                              'the fellow eye; biopsy '
                                                              'should not delay '
-                                                             'treatment.'},
+                                                             'treatment.',
+                                              'choice_explanations': {
+                                                  'A': 'Delaying steroids until biopsy '
+                                                        'returns risks irreversible '
+                                                        'fellow-eye arteritic AION '
+                                                        'while GCA continues to occlude '
+                                                        'posterior ciliary arteries.',
+                                                  'B': 'When GCA/AION is strongly '
+                                                        'suspected (age >50, jaw '
+                                                        'claudication, elevated '
+                                                        'ESR/CRP, sudden vision loss), '
+                                                        'high-dose corticosteroids are '
+                                                        'started immediately to protect '
+                                                        'the fellow eye; biopsy must '
+                                                        'not delay treatment.',
+                                                  'C': 'Topical lubricants treat '
+                                                        'surface dryness and do nothing '
+                                                        'to halt vasculitic occlusion '
+                                                        'of posterior ciliary arteries '
+                                                        'in arteritic AION.',
+                                                  'D': 'Refraction corrects optical '
+                                                        'blur and is irrelevant to '
+                                                        'emergency management of '
+                                                        'arteritic ischemic optic '
+                                                        'neuropathy.'
+                                              }},
                                              {'question': 'In chemical eye injury, the '
                                                           'first action is?',
                                               'options': ['A) Complete visual-field '
@@ -732,7 +1270,30 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                              'the chemical; oral '
                                                              'antibiotics do not '
                                                              'neutralize alkali/acid '
-                                                             'injury.'},
+                                                             'injury.',
+                                              'choice_explanations': {
+                                                  'A': 'Visual-field testing can wait; '
+                                                        'chemical injury continues '
+                                                        'tissue damage until the agent '
+                                                        'is diluted, so irrigation '
+                                                        'takes absolute priority.',
+                                                  'B': 'Tight patching without '
+                                                        'irrigation traps the chemical '
+                                                        'against the ocular surface and '
+                                                        'prolongs alkali or acid '
+                                                        'injury.',
+                                                  'C': 'Chemical injury keeps damaging '
+                                                        'ocular surface and deeper '
+                                                        'tissues until the agent is '
+                                                        'diluted and removed, so '
+                                                        'immediate copious irrigation '
+                                                        'is the first action.',
+                                                  'D': 'Oral antibiotics do not '
+                                                        'neutralize or remove chemical '
+                                                        'agents and are not the initial '
+                                                        'measure in chemical eye '
+                                                        'injury.'
+                                              }},
                                              {'question': 'An immunosuppressed patient '
                                                           'with painful red eye, '
                                                           'hypopyon, and severe vision '
@@ -761,7 +1322,31 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                              'management. Mild surface '
                                                              'disease does not cause '
                                                              'hypopyon with profound '
-                                                             'vision loss.'}]},
+                                                             'vision loss.',
+                                              'choice_explanations': {
+                                                  'A': 'Allergic conjunctivitis causes '
+                                                        'itchy injection and chemosis '
+                                                        'without hypopyon or severe '
+                                                        'vision-threatening intraocular '
+                                                        'infection.',
+                                                  'B': 'Blepharitis is eyelid-margin '
+                                                        'inflammation and does not '
+                                                        'produce hypopyon with profound '
+                                                        'vision loss from intraocular '
+                                                        'infection.',
+                                                  'C': 'Episcleritis is usually '
+                                                        'sectoral redness with '
+                                                        'preserved vision and without '
+                                                        'hypopyon or severe intraocular '
+                                                        'inflammation.',
+                                                  'D': 'Endophthalmitis infects the '
+                                                        'vitreous and aqueous, '
+                                                        'producing severe pain, marked '
+                                                        'vision loss, injection, and '
+                                                        'often hypopyon—especially '
+                                                        'concerning in immunosuppressed '
+                                                        'or post-surgical patients.'
+                                              }}]},
                    'cases': {'easy': [{'title': 'Red Eye After Dark Room',
                                        'stem': 'A 54-year-old hyperopic woman develops '
                                                'severe eye pain, halos, and nausea '
@@ -849,7 +1434,28 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                     'oxalate promotes crystal growth. '
                                                     'Uric acid, struvite, and cystine '
                                                     'stones are important but less '
-                                                    'common overall.'},
+                                                    'common overall.',
+                                     'choice_explanations': {
+                                         'A': 'Calcium oxalate is the predominant '
+                                               'composition of most urinary calculi '
+                                               'worldwide because supersaturation of '
+                                               'calcium and oxalate promotes crystal '
+                                               'nucleation and growth.',
+                                         'B': 'Uric acid stones form in acidic urine '
+                                               'with hyperuricosuria and are '
+                                               'radiolucent on plain film, but they are '
+                                               'less common overall than calcium '
+                                               'oxalate stones.',
+                                         'C': 'Struvite (magnesium ammonium phosphate) '
+                                               'stones form in alkaline urine infected '
+                                               'with urease-producing organisms and are '
+                                               'less common than calcium oxalate '
+                                               'calculi.',
+                                         'D': 'Cystine stones arise from inherited '
+                                               'cystinuria with defective dibasic '
+                                               'amino-acid reabsorption and are rare '
+                                               'compared with calcium oxalate stones.'
+                                     }},
                                     {'question': 'Loin-to-groin pain classically '
                                                  'suggests?',
                                      'options': ['A) Acute pyelonephritis without '
@@ -868,7 +1474,28 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                     'tenderness; prostatitis is '
                                                     'pelvic/perineal; renal vein '
                                                     'thrombosis has a different risk '
-                                                    'context.'},
+                                                    'context.',
+                                     'choice_explanations': {
+                                         'A': 'Acute pyelonephritis without obstruction '
+                                               'features fever and costovertebral-angle '
+                                               'tenderness but not the migrating '
+                                               'loin-to-groin colic of a moving '
+                                               'ureteric stone.',
+                                         'B': 'A stone in the ureter triggers visceral '
+                                               'pain from spasm and obstruction; pain '
+                                               'begins in the flank and radiates to the '
+                                               'ipsilateral groin as the calculus '
+                                               'migrates.',
+                                         'C': 'Acute prostatitis causes pelvic, '
+                                               'perineal, or low-back pain with voiding '
+                                               'symptoms, not classic loin-to-groin '
+                                               'ureteric radiation.',
+                                         'D': 'Renal vein thrombosis presents with '
+                                               'flank pain and hematuria in '
+                                               'hypercoagulable or nephrotic contexts, '
+                                               'not the migrating colic pattern of '
+                                               'ureteric stone passage.'
+                                     }},
                                     {'question': 'First imaging often used for stones '
                                                  'in non-pregnant adults?',
                                      'options': ['A) Contrast-enhanced CT abdomen as '
@@ -888,7 +1515,25 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                     'urolithiasis in most non-pregnant '
                                                     'adults. Contrast CT, MRI, and '
                                                     'angiography are not first-line '
-                                                    'stone protocols.'}],
+                                                    'stone protocols.',
+                                     'choice_explanations': {
+                                         'A': 'Contrast-enhanced CT is useful for many '
+                                               'abdominal diagnoses but is not the '
+                                               'first-line dedicated stone protocol; '
+                                               'contrast can obscure some calculi.',
+                                         'B': 'MRI is not first-line for detecting '
+                                               'urinary calculi because stones are '
+                                               'poorly visualized compared with CT '
+                                               'density mapping.',
+                                         'C': 'Non-contrast CT of the kidneys, ureters, '
+                                               'and bladder detects nearly all stone '
+                                               'types by density and shows size, '
+                                               'location, and secondary obstruction in '
+                                               'non-pregnant adults.',
+                                         'D': 'Renal angiography images arterial '
+                                               'anatomy and has no role as first-line '
+                                               'imaging for suspected urolithiasis.'
+                                     }}],
                            'medium': [{'question': 'Painless gross hematuria in an '
                                                    'older smoker is concerning for?',
                                        'options': ['A) Benign prostatic hyperplasia '
@@ -907,7 +1552,29 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                       'cystoscopic evaluation. BPH may '
                                                       'cause LUTS or microhematuria '
                                                       'but painless gross hematuria '
-                                                      'still needs cancer exclusion.'},
+                                                      'still needs cancer exclusion.',
+                                       'choice_explanations': {
+                                           'A': 'BPH causes lower urinary tract '
+                                                 'symptoms and may be associated with '
+                                                 'microscopic hematuria, but painless '
+                                                 'gross hematuria in an older smoker '
+                                                 'still requires exclusion of '
+                                                 'urothelial cancer.',
+                                           'B': 'Stress urinary incontinence is leakage '
+                                                 'with increased abdominal pressure '
+                                                 'from sphincter/support weakness and '
+                                                 'does not explain painless gross '
+                                                 'hematuria.',
+                                           'C': 'Varicocele is dilated pampiniform '
+                                                 'plexus veins and is unrelated to '
+                                                 'painless gross hematuria concerning '
+                                                 'for bladder cancer.',
+                                           'D': 'Painless gross hematuria in older '
+                                                 'adults, especially smokers, raises '
+                                                 'concern for urothelial (bladder) '
+                                                 'carcinoma and warrants cystoscopic '
+                                                 'evaluation.'
+                                       }},
                                       {'question': 'Fever + flank pain + UTI signs '
                                                    'suggest?',
                                        'options': ['A) Acute pyelonephritis',
@@ -927,7 +1594,26 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                       'prompt antibiotics and risk '
                                                       'assessment for obstruction. '
                                                       'Cystitis lacks fever/flank '
-                                                      'findings of pyelonephritis.'},
+                                                      'findings of pyelonephritis.',
+                                       'choice_explanations': {
+                                           'A': 'Acute pyelonephritis is bacterial '
+                                                 'infection of the renal parenchyma and '
+                                                 'pelvis; fever with flank pain and UTI '
+                                                 'symptoms indicates upper-tract '
+                                                 'infection requiring prompt '
+                                                 'antibiotics.',
+                                           'B': 'Uncomplicated cystitis is lower-tract '
+                                                 'infection with dysuria and frequency '
+                                                 'but without fever and flank pain of '
+                                                 'pyelonephritis.',
+                                           'C': 'Asymptomatic bacteriuria is '
+                                                 'bacteriuria without symptoms and does '
+                                                 'not present as fever with flank pain.',
+                                           'D': 'Chronic orchialgia is persistent '
+                                                 'testicular pain without infection and '
+                                                 'lacks systemic UTI and flank findings '
+                                                 'of pyelonephritis.'
+                                       }},
                                       {'question': 'Testicular torsion key management '
                                                    'theme is?',
                                        'options': ['A) Elective outpatient ultrasound '
@@ -949,7 +1635,25 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                       'on rapid surgical detorsion and '
                                                       'orchidopexy; imaging must not '
                                                       'delay exploration when clinical '
-                                                      'suspicion is high.'}],
+                                                      'suspicion is high.',
+                                       'choice_explanations': {
+                                           'A': 'Elective outpatient ultrasound weeks '
+                                                 'later allows irreversible ischemic '
+                                                 'necrosis; torsion salvage is measured '
+                                                 'in hours.',
+                                           'B': 'Torsion twists the spermatic cord, '
+                                                 'occluding venous then arterial flow '
+                                                 'so the gonad becomes ischemic within '
+                                                 'hours; salvage requires urgent '
+                                                 'surgical detorsion and orchidopexy.',
+                                           'C': 'Antibiotics treat epididymo-orchitis '
+                                                 'infection but do not restore blood '
+                                                 'flow in spermatic-cord torsion.',
+                                           'D': 'Waiting for cremasteric reflex return '
+                                                 'delays reperfusion; absent reflex '
+                                                 'with high clinical suspicion mandates '
+                                                 'exploration, not observation.'
+                                       }}],
                            'hard': [{'question': 'Stone with obstructed infected '
                                                  'kidney requires?',
                                      'options': ['A) Oral antibiotics alone with '
@@ -971,7 +1675,27 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                     'alone cannot reliably sterilize '
                                                     'an obstructed system—urgent '
                                                     'drainage (stent or nephrostomy) '
-                                                    'plus antibiotics is required.'},
+                                                    'plus antibiotics is required.',
+                                     'choice_explanations': {
+                                         'A': 'Oral antibiotics alone cannot reliably '
+                                               'sterilize an obstructed infected '
+                                               'collecting system, where bacteria '
+                                               'proliferate under pressure and seed the '
+                                               'bloodstream.',
+                                         'B': 'Elective lithotripsy after hoping '
+                                               'infection resolves without drainage '
+                                               'leaves closed-space pyohydronephrosis '
+                                               'untreated and risks septic shock.',
+                                         'C': 'An obstructing stone with infection '
+                                               'creates closed-space infection under '
+                                               'pressure; urgent decompression (stent '
+                                               'or nephrostomy) plus antibiotics is '
+                                               'required.',
+                                         'D': 'Alpha-blocker medical expulsive therapy '
+                                               'and outpatient observation are for '
+                                               'selected uncomplicated ureteric stones, '
+                                               'not infected obstructed kidneys.'
+                                     }},
                                     {'question': 'Post-obstructive diuresis occurs '
                                                  'after?',
                                      'options': ['A) Initiation of alpha-blocker '
@@ -994,7 +1718,29 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                     'electrolyte monitoring is '
                                                     'required. Beta-blockers, '
                                                     'orthopedic surgery, and vaccines '
-                                                    'are unrelated triggers.'},
+                                                    'are unrelated triggers.',
+                                     'choice_explanations': {
+                                         'A': 'Alpha-blocker therapy relaxes prostatic '
+                                               'and ureteric smooth muscle for LUTS or '
+                                               'stone passage and does not trigger '
+                                               'post-obstructive diuresis.',
+                                         'B': 'Elective ureteroscopy for a '
+                                               'non-obstructing asymptomatic stone does '
+                                               'not unload chronically compressed '
+                                               'tubules that drive post-obstructive '
+                                               'diuresis.',
+                                         'C': 'Treating uncomplicated cystitis '
+                                               'addresses mucosal infection without '
+                                               'prior chronic retention or obstruction '
+                                               'that produces post-obstructive '
+                                               'diuresis.',
+                                         'D': 'After relief of prolonged urinary '
+                                               'obstruction, previously compressed '
+                                               'tubules may transiently fail to '
+                                               'concentrate urine and reabsorb Na and '
+                                               'water, producing post-obstructive '
+                                               'diuresis.'
+                                     }},
                                     {'question': 'High-riding testis and absent '
                                                  'cremasteric reflex suggest?',
                                      'options': ['A) Testicular torsion until proven '
@@ -1014,7 +1760,28 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                     'this constellation is torsion '
                                                     'until proven otherwise and '
                                                     'warrants urgent surgical '
-                                                    'exploration.'}],
+                                                    'exploration.',
+                                     'choice_explanations': {
+                                         'A': 'Intravaginal torsion shortens the '
+                                               'spermatic cord, elevating the testis '
+                                               'and interrupting the cremasteric '
+                                               'reflex; with acute scrotal pain this '
+                                               'constellation is torsion until proven '
+                                               'otherwise.',
+                                         'B': 'Hydrocele is fluid in the tunica '
+                                               'vaginalis and does not by itself cause '
+                                               'a high-riding testis with absent '
+                                               'cremasteric reflex from cord ischemia.',
+                                         'C': 'Epididymo-orchitis can cause a painful '
+                                               'swollen testis but usually preserves a '
+                                               'lower-lying position and cremasteric '
+                                               'reflex early; the classic torsion signs '
+                                               'still mandate ruling out torsion.',
+                                         'D': 'A reducible inguinal hernia is bowel or '
+                                               'fat in the inguinal canal and does not '
+                                               'produce the ischemic high-riding testis '
+                                               'and lost cremasteric reflex of torsion.'
+                                     }}],
                            'extreme': [{'question': 'Fournier gangrene is?',
                                         'options': ['A) Uncomplicated candidal '
                                                     'balanitis',
@@ -1038,7 +1805,27 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                        'debridement plus broad '
                                                        'antibiotics—not topical '
                                                        'therapy for simple surface '
-                                                       'infections.'},
+                                                       'infections.',
+                                        'choice_explanations': {
+                                            'A': 'Candidal balanitis is superficial '
+                                                  'mucosal yeast infection treated '
+                                                  'topically and is not necrotizing '
+                                                  'fascial infection of the perineum.',
+                                            'B': 'Fournier gangrene is synergistic '
+                                                  'necrotizing soft-tissue infection of '
+                                                  'the perineum and genitalia spreading '
+                                                  'along fascial planes, requiring '
+                                                  'immediate surgical debridement plus '
+                                                  'broad antibiotics.',
+                                            'C': 'Localized cellulitis without fascial '
+                                                  'necrosis lacks the rapid deep '
+                                                  'necrosis and systemic toxicity that '
+                                                  'define Fournier gangrene.',
+                                            'D': 'Simple scrotal edema from '
+                                                  'hypoalbuminemia is noninfectious '
+                                                  'fluid accumulation without '
+                                                  'necrotizing infection.'
+                                        }},
                                        {'question': 'Autonomic dysreflexia in spinal '
                                                     'cord injury with bladder '
                                                     'distension can cause?',
@@ -1064,7 +1851,30 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                        'Management centers on sitting '
                                                        'upright and relieving the '
                                                        'precipitant (empty the '
-                                                       'bladder).'},
+                                                       'bladder).',
+                                        'choice_explanations': {
+                                            'A': 'Orthostatic hypotension is a fall in '
+                                                  'BP on standing from autonomic '
+                                                  'failure or volume depletion, '
+                                                  'opposite to the hypertensive crisis '
+                                                  'of autonomic dysreflexia.',
+                                            'B': 'Primary bradycardia without BP change '
+                                                  'does not describe autonomic '
+                                                  'dysreflexia, in which below-lesion '
+                                                  'stimuli drive massive sympathetic '
+                                                  'vasoconstriction and hypertension.',
+                                            'C': 'In SCI above splanchnic outflow, '
+                                                  'bladder distension triggers '
+                                                  'unchecked sympathetic '
+                                                  'vasoconstriction below the lesion, '
+                                                  'producing dangerous hypertensive '
+                                                  'crisis (autonomic dysreflexia).',
+                                            'D': 'Mild thirst without autonomic '
+                                                  'instability is not the '
+                                                  'pathophysiology of autonomic '
+                                                  'dysreflexia from a noxious '
+                                                  'below-lesion stimulus.'
+                                        }},
                                        {'question': 'A trauma patient with pelvic '
                                                     'fracture and blood at the meatus '
                                                     'should avoid?',
@@ -1092,7 +1902,27 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                        'assessment) should precede '
                                                        'catheter attempts; binder, '
                                                        'ABCs, and crossmatch remain '
-                                                       'appropriate trauma care.'}]},
+                                                       'appropriate trauma care.',
+                                        'choice_explanations': {
+                                            'A': 'A pelvic binder reduces pelvic volume '
+                                                  'and can tamponade bleeding in '
+                                                  'unstable pelvic fractures and '
+                                                  'remains appropriate when indicated.',
+                                            'B': 'The trauma primary survey (ABCs) is '
+                                                  'mandatory initial care and is not '
+                                                  'contraindicated by suspected '
+                                                  'urethral injury.',
+                                            'C': 'Early blood typing and crossmatch '
+                                                  'prepare for hemorrhage resuscitation '
+                                                  'and should proceed in pelvic trauma.',
+                                            'D': 'Blood at the meatus with pelvic '
+                                                  'fracture suggests urethral '
+                                                  'disruption; blind catheterization '
+                                                  'can complete a partial tear or '
+                                                  'create a false passage, so '
+                                                  'urethrography or specialist '
+                                                  'assessment should come first.'
+                                        }}]},
              'cases': {'easy': [{'title': 'Sudden Flank Pain',
                                  'stem': 'A 30-year-old man has sudden severe left '
                                          'flank pain radiating to the groin and cannot '
@@ -1174,7 +2004,29 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                       'time-dependent, this '
                                                       'presentation is stroke until '
                                                       'proven otherwise and triggers '
-                                                      'urgent stroke pathways.'},
+                                                      'urgent stroke pathways.',
+                                       'choice_explanations': {
+                                           'A': 'Sudden face and arm weakness with '
+                                                 'speech difficulty reflects acute '
+                                                 'ischemia or hemorrhage in a '
+                                                 'corresponding brain region and is '
+                                                 'treated as stroke until proven '
+                                                 'otherwise because neuronal injury is '
+                                                 'time-dependent.',
+                                           'B': 'Bell palsy is idiopathic peripheral '
+                                                 'facial-nerve weakness without arm '
+                                                 'weakness or cortical speech deficits '
+                                                 'that define central stroke syndromes.',
+                                           'C': 'Migraine aura causes transient fully '
+                                                 'reversible neurologic symptoms, '
+                                                 'usually visual, without the '
+                                                 'persistent sudden motor and speech '
+                                                 'deficits of acute stroke.',
+                                           'D': 'Peripheral vestibular neuritis causes '
+                                                 'acute vertigo from vestibular-nerve '
+                                                 'inflammation without face/arm '
+                                                 'weakness or aphasia.'
+                                       }},
                                       {'question': 'Meningism features include?',
                                        'options': ['A) Isolated tension-type headache '
                                                    'without fever or meningism',
@@ -1196,7 +2048,26 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                       'blood and warrant urgent '
                                                       'evaluation. Isolated primary '
                                                       'headache syndromes lack true '
-                                                      'meningism with fever.'},
+                                                      'meningism with fever.',
+                                       'choice_explanations': {
+                                           'A': 'Isolated tension-type headache lacks '
+                                                 'fever and true neck stiffness from '
+                                                 'meningeal irritation.',
+                                           'B': 'Meningeal inflammation sensitizes pain '
+                                                 'fibers, producing headache with neck '
+                                                 'stiffness (meningism), often with '
+                                                 'fever and photophobia, raising '
+                                                 'concern for meningitis or '
+                                                 'subarachnoid blood.',
+                                           'C': 'Benign positional vertigo is '
+                                                 'canalithiasis causing brief '
+                                                 'position-triggered vertigo without '
+                                                 'systemic meningism.',
+                                           'D': 'Cluster headache features unilateral '
+                                                 'orbital pain with autonomic '
+                                                 'tearing/rhinorrhea but not fever with '
+                                                 'meningism of meningeal inflammation.'
+                                       }},
                                       {'question': 'UMN signs include?',
                                        'options': ['A) Fasciculations with '
                                                    'hyporeflexia and atrophy',
@@ -1217,7 +2088,26 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                       'hyporeflexia, and flaccid '
                                                       'areflexic weakness indicate '
                                                       'lower motor neuron or '
-                                                      'peripheral pathology.'}],
+                                                      'peripheral pathology.',
+                                       'choice_explanations': {
+                                           'A': 'Fasciculations with hyporeflexia and '
+                                                 'atrophy indicate lower motor neuron '
+                                                 'or peripheral nerve disease, not '
+                                                 'upper motor neuron pathology.',
+                                           'B': 'Flaccid paralysis with areflexia is '
+                                                 'the acute lower motor neuron pattern, '
+                                                 'opposite to chronic UMN spastic '
+                                                 'hyperreflexic weakness.',
+                                           'C': 'Upper motor neuron lesions remove '
+                                                 'descending inhibition of spinal '
+                                                 'reflex arcs, yielding spasticity, '
+                                                 'hyperreflexia, and an extensor '
+                                                 'plantar (Babinski) response.',
+                                           'D': 'Pure sensory loss without pyramidal '
+                                                 'signs localizes to sensory pathways '
+                                                 'rather than the corticospinal UMN '
+                                                 'system.'
+                                       }}],
                              'medium': [{'question': 'Thunderclap headache first '
                                                      'exclude?',
                                          'options': ['A) Typical migraine without '
@@ -1239,7 +2129,28 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                         'requires urgent CT and, if '
                                                         'needed, LP—not attribution to '
                                                         'primary headache until SAH is '
-                                                        'excluded.'},
+                                                        'excluded.',
+                                         'choice_explanations': {
+                                             'A': 'Typical migraine builds over minutes '
+                                                   'to hours and is not a thunderclap '
+                                                   'reaching maximal intensity within '
+                                                   'seconds that mandates SAH '
+                                                   'exclusion.',
+                                             'B': 'Acute bacterial sinusitis causes '
+                                                   'facial pain and congestion, not the '
+                                                   'instantaneous maximal headache of '
+                                                   'aneurysmal SAH.',
+                                             'C': 'Tension-type headache is '
+                                                   'mild–moderate band-like pain '
+                                                   'without thunderclap onset or '
+                                                   'meningeal warning of SAH.',
+                                             'D': 'Thunderclap headache reaches peak '
+                                                   'intensity within seconds and is the '
+                                                   'classic presentation of aneurysmal '
+                                                   'subarachnoid hemorrhage, requiring '
+                                                   'urgent CT ± LP before attributing '
+                                                   'it to primary headache.'
+                                         }},
                                         {'question': 'Absence seizures are most '
                                                      'typical in?',
                                          'options': ['A) School-age children with '
@@ -1263,7 +2174,28 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                         'not the typical seizure type '
                                                         'of AF-related stroke, '
                                                         'neonatal jaundice, or '
-                                                        'migraine aura.'},
+                                                        'migraine aura.',
+                                         'choice_explanations': {
+                                             'A': 'Absence seizures are generalized '
+                                                   'childhood seizures from oscillatory '
+                                                   'thalamocortical 3-Hz spike-and-wave '
+                                                   'discharges, appearing as brief '
+                                                   'staring spells lasting seconds with '
+                                                   'immediate recovery.',
+                                             'B': 'Elderly patients with new AF are at '
+                                                   'risk for embolic stroke, not the '
+                                                   'typical demographic or mechanism of '
+                                                   'childhood absence epilepsy.',
+                                             'C': 'Neonatal physiologic jaundice is '
+                                                   'bilirubin accumulation from '
+                                                   'immature conjugation and is '
+                                                   'unrelated to absence seizure '
+                                                   'pathophysiology.',
+                                             'D': 'Migraine with visual aura is '
+                                                   'cortical spreading depression, not '
+                                                   'thalamocortical 3-Hz spike-and-wave '
+                                                   'absence seizures.'
+                                         }},
                                         {'question': 'Parkinsonism core motor feature '
                                                      'is?',
                                          'options': ['A) Hyperreflexia as the defining '
@@ -1284,7 +2216,27 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                         'suggests UMN disease; flaccid '
                                                         'paralysis and isolated '
                                                         'intention tremor suggest '
-                                                        'other localizations.'}],
+                                                        'other localizations.',
+                                         'choice_explanations': {
+                                             'A': 'Hyperreflexia is an upper motor '
+                                                   'neuron sign and is not the defining '
+                                                   'core motor feature required to '
+                                                   'diagnose Parkinsonism.',
+                                             'B': 'Parkinsonism reflects nigrostriatal '
+                                                   'dopamine deficiency that slows '
+                                                   'movement initiation and execution; '
+                                                   'bradykinesia is the required core '
+                                                   'motor feature.',
+                                             'C': 'Flaccid paralysis indicates acute '
+                                                   'lower motor neuron or peripheral '
+                                                   'nerve failure, not extrapyramidal '
+                                                   'bradykinesia of Parkinsonism.',
+                                             'D': 'Pure intention tremor worsens toward '
+                                                   'a target and localizes to '
+                                                   'cerebellar circuits; without '
+                                                   'bradykinesia it does not fulfill '
+                                                   'Parkinsonism criteria.'
+                                         }}],
                              'hard': [{'question': 'Status epilepticus initial '
                                                    'management concept?',
                                        'options': ['A) Observation for several hours '
@@ -1312,7 +2264,30 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                       'benzodiazepine step or jumping '
                                                       'first to surgery is '
                                                       'inappropriate for initial SE '
-                                                      'care.'},
+                                                      'care.',
+                                       'choice_explanations': {
+                                           'A': 'Observing untreated status epilepticus '
+                                                 'for hours allows progressive neuronal '
+                                                 'injury and systemic complications; '
+                                                 'early benzodiazepines are required.',
+                                           'B': 'Initial therapy for active convulsive '
+                                                 'status epilepticus is a '
+                                                 'benzodiazepine; levetiracetam is a '
+                                                 'second-line agent after or with that '
+                                                 'step, not a replacement for it at '
+                                                 'onset.',
+                                           'C': 'Status epilepticus causes progressive '
+                                                 'neuronal injury; after airway '
+                                                 'support, a benzodiazepine is given '
+                                                 'promptly, then second-line '
+                                                 'antiseizure drugs if seizures '
+                                                 'continue.',
+                                           'D': 'Neurosurgical resection is not the '
+                                                 'first step in initial status '
+                                                 'epilepticus care, which is medical '
+                                                 'stabilization and antiseizure '
+                                                 'medication escalation.'
+                                       }},
                                       {'question': 'Crossed cranial-nerve plus '
                                                    'contralateral body signs localize '
                                                    'to?',
@@ -1331,7 +2306,29 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                       'tracts are closely packed. '
                                                       'Cortex, peripheral nerve, and '
                                                       'NMJ disorders do not produce '
-                                                      'this crossed pattern.'},
+                                                      'this crossed pattern.',
+                                       'choice_explanations': {
+                                           'A': 'Pure cortical convexity lesions '
+                                                 'produce ipsilateral face/arm findings '
+                                                 'without the crossed cranial-nerve '
+                                                 'versus contralateral body pattern of '
+                                                 'brainstem disease.',
+                                           'B': 'Distal peripheral nerve lesions cause '
+                                                 'deficits in a single nerve territory '
+                                                 'without contralateral long-tract '
+                                                 'findings.',
+                                           'C': 'Muscle end-plate disorders (e.g., '
+                                                 'myasthenia) cause fatigable weakness '
+                                                 'without crossed brainstem '
+                                                 'cranial-nerve and long-tract signs.',
+                                           'D': 'Crossed findings—ipsilateral '
+                                                 'cranial-nerve signs with '
+                                                 'contralateral body weakness or '
+                                                 'sensory loss—are the hallmark of '
+                                                 'brainstem localization where '
+                                                 'cranial-nerve nuclei and long tracts '
+                                                 'are closely packed.'
+                                       }},
                                       {'question': 'Myasthenia gravis fatigable '
                                                    'weakness often involves?',
                                        'options': ['A) Ocular and bulbar muscles '
@@ -1355,7 +2352,28 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                       'muscles. Sensory loss, pure UMN '
                                                       'spasticity, and cerebellar '
                                                       'ataxia indicate other disease '
-                                                      'categories.'}],
+                                                      'categories.',
+                                       'choice_explanations': {
+                                           'A': 'Myasthenia gravis is autoimmune attack '
+                                                 'on postsynaptic acetylcholine '
+                                                 'receptors, causing fatigable weakness '
+                                                 'that preferentially affects ocular '
+                                                 'and bulbar muscles (ptosis, diplopia, '
+                                                 'dysarthria).',
+                                           'B': 'Distal sensory neuropathy is '
+                                                 'peripheral sensory axon/myelin '
+                                                 'disease and is not the primary '
+                                                 'feature of a postsynaptic NMJ '
+                                                 'disorder.',
+                                           'C': 'Upper motor neuron spastic paraparesis '
+                                                 'reflects corticospinal tract disease, '
+                                                 'not fatigable NMJ transmission '
+                                                 'failure.',
+                                           'D': 'Cerebellar ataxia is disordered '
+                                                 'coordination from cerebellar circuits '
+                                                 'and occurs without the fatigable '
+                                                 'weakness of myasthenia.'
+                                       }}],
                              'extreme': [{'question': 'Spinal cord compression with '
                                                       'saddle anesthesia and retention '
                                                       'needs?',
@@ -1380,7 +2398,26 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                          'can preserve sphincter and '
                                                          'motor function. Delayed '
                                                          'conservative care risks '
-                                                         'permanent deficit.'},
+                                                         'permanent deficit.',
+                                          'choice_explanations': {
+                                              'A': 'Elective physiotherapy weeks later '
+                                                    'allows permanent sphincter and '
+                                                    'motor damage once cauda equina or '
+                                                    'cord compression is established.',
+                                              'B': 'Saddle anesthesia with urinary '
+                                                    'retention suggests cauda equina or '
+                                                    'cord compression; urgent MRI and '
+                                                    'decompression can preserve '
+                                                    'sphincter and motor function.',
+                                              'C': 'Oral analgesia alone without '
+                                                    'imaging leaves compressive cauda '
+                                                    'equina pathology untreated while '
+                                                    'neurologic injury progresses.',
+                                              'D': 'Ignoring incomplete bladder '
+                                                    'emptying delays diagnosis of '
+                                                    'compressive cauda equina syndrome '
+                                                    'and risks irreversible deficits.'
+                                          }},
                                          {'question': 'Locked-in syndrome typically '
                                                       'localizes to?',
                                           'options': ['A) Bilateral occipital lobes',
@@ -1402,7 +2439,31 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                          'Occipital, parietal, and '
                                                          'dorsal-column lesions '
                                                          'produce different '
-                                                         'syndromes.'},
+                                                         'syndromes.',
+                                          'choice_explanations': {
+                                              'A': 'Bilateral occipital lesions cause '
+                                                    'cortical blindness (Anton’s '
+                                                    'syndrome possible) but preserve '
+                                                    'motor pathways, unlike locked-in '
+                                                    'syndrome.',
+                                              'B': 'Dominant parietal cortex lesions '
+                                                    'cause aphasia, neglect, or '
+                                                    'Gerstmann features without the '
+                                                    'anarthric quadriplegia of ventral '
+                                                    'pontine disruption.',
+                                              'C': 'Locked-in syndrome reflects '
+                                                    'bilateral ventral pontine injury '
+                                                    '(often basilar occlusion) '
+                                                    'disrupting corticospinal and '
+                                                    'corticobulbar fibers while sparing '
+                                                    'consciousness and vertical eye '
+                                                    'movements more dorsally.',
+                                              'D': 'Cervical dorsal-column injury '
+                                                    'impairs proprioception and '
+                                                    'vibration without producing the '
+                                                    'de-efferented locked-in state from '
+                                                    'ventral pons damage.'
+                                          }},
                                          {'question': 'NMDA-receptor encephalitis is '
                                                       'often discussed in association '
                                                       'with?',
@@ -1426,7 +2487,30 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                          'ovarian teratoma. Thymoma '
                                                          'links to myasthenia; SCLC to '
                                                          'Lambert-Eaton and other '
-                                                         'paraneoplastic syndromes.'}]},
+                                                         'paraneoplastic syndromes.',
+                                          'choice_explanations': {
+                                              'A': 'Thymoma is the classic tumor '
+                                                    'association of myasthenia gravis, '
+                                                    'not anti-NMDA-receptor '
+                                                    'encephalitis.',
+                                              'B': 'Small-cell lung cancer associates '
+                                                    'with Lambert–Eaton myasthenic '
+                                                    'syndrome and several other '
+                                                    'paraneoplastic syndromes, not the '
+                                                    'classic ovarian teratoma link of '
+                                                    'NMDA encephalitis.',
+                                              'C': 'Pheochromocytoma is a '
+                                                    'catecholamine-secreting adrenal '
+                                                    'tumor and is not the usual trigger '
+                                                    'of anti-NMDA-receptor '
+                                                    'encephalitis.',
+                                              'D': 'Anti-NMDA-receptor encephalitis '
+                                                    'often presents with psychiatric '
+                                                    'features, seizures, and '
+                                                    'dyskinesias; in young women it is '
+                                                    'classically associated with '
+                                                    'ovarian teratoma.'
+                                          }}]},
                'cases': {'easy': [{'title': 'Sudden Weakness',
                                    'stem': 'A 70-year-old develops sudden right '
                                            'arm/leg weakness and aphasia 40 minutes '
@@ -1509,7 +2593,28 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                         'contexts but are not the '
                                                         'typical CAP organism in '
                                                         'otherwise healthy community '
-                                                        'patients.'},
+                                                        'patients.',
+                                         'choice_explanations': {
+                                             'A': 'Streptococcus pneumoniae remains the '
+                                                   'most common identified bacterial '
+                                                   'cause of community-acquired '
+                                                   'pneumonia in adults.',
+                                             'B': 'Mycobacterium tuberculosis causes '
+                                                   'tuberculosis with different '
+                                                   'epidemiology and chronicity and is '
+                                                   'not the usual CAP pathogen in '
+                                                   'otherwise healthy community adults.',
+                                             'C': 'Pneumocystis jirovecii pneumonia '
+                                                   'occurs mainly in immunocompromised '
+                                                   'hosts, not as typical CAP in '
+                                                   'immunocompetent patients.',
+                                             'D': 'Pseudomonas aeruginosa is an '
+                                                   'opportunistic pathogen in '
+                                                   'structural lung disease, hospital, '
+                                                   'or immunocompromised settings, not '
+                                                   'the usual CAP organism in '
+                                                   'previously healthy adults.'
+                                         }},
                                         {'question': 'Asthma is characterized by?',
                                          'options': ['A) Fixed irreversible '
                                                      'obstruction from birth without '
@@ -1536,7 +2641,28 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                         'patterns better; alveolar '
                                                         'infection and pure vascular '
                                                         'disease are different '
-                                                        'entities.'},
+                                                        'entities.',
+                                         'choice_explanations': {
+                                             'A': 'Fixed irreversible obstruction from '
+                                                   'birth without variability describes '
+                                                   'developmental or severe COPD-like '
+                                                   'fixed airflow limitation, not the '
+                                                   'defining variable reversibility of '
+                                                   'asthma.',
+                                             'B': 'Asthma is characterized by variable, '
+                                                   'reversible airway obstruction and '
+                                                   'bronchial hyperresponsiveness '
+                                                   'driven by airway inflammation.',
+                                             'C': 'Alveolar filling with bacteria '
+                                                   'defines pneumonia’s consolidative '
+                                                   'infection, a different mechanism '
+                                                   'from asthmatic bronchoconstriction '
+                                                   'and inflammation.',
+                                             'D': 'Pulmonary vascular obliteration is '
+                                                   'the pathology of pulmonary vascular '
+                                                   'disease/PH, not the airway-centric '
+                                                   'physiology of asthma.'
+                                         }},
                                         {'question': 'SpO2 measures?',
                                          'options': ['A) Partial pressure of arterial '
                                                      'carbon dioxide',
@@ -1555,7 +2681,27 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                         'amount, or ventilation '
                                                         'directly—ABG and other tests '
                                                         'are needed for those '
-                                                        'parameters.'}],
+                                                        'parameters.',
+                                         'choice_explanations': {
+                                             'A': 'PaCO2 is the partial pressure of '
+                                                   'arterial carbon dioxide measured on '
+                                                   'arterial blood gas, not by pulse '
+                                                   'oximetry light absorption.',
+                                             'B': 'Hemoglobin concentration is the '
+                                                   'amount of hemoglobin in blood (lab '
+                                                   'CBC), whereas SpO2 estimates the '
+                                                   'fraction of that hemoglobin that is '
+                                                   'oxygen-saturated.',
+                                             'C': 'Pulse oximetry (SpO2) estimates the '
+                                                   'percentage of hemoglobin saturated '
+                                                   'with oxygen using differential '
+                                                   'light absorption at two '
+                                                   'wavelengths.',
+                                             'D': 'Alveolar minute ventilation is the '
+                                                   'volume of fresh air reaching '
+                                                   'alveoli per minute and is not '
+                                                   'measured by a pulse oximeter.'
+                                         }}],
                                'medium': [{'question': 'CURB-65 assesses?',
                                            'options': ['A) Pulmonary embolism pretest '
                                                        'probability',
@@ -1576,7 +2722,26 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'addresses PE probability; '
                                                           'asthma control and cancer '
                                                           'staging use different '
-                                                          'tools.'},
+                                                          'tools.',
+                                           'choice_explanations': {
+                                               'A': 'Pulmonary embolism pretest '
+                                                     'probability is estimated with '
+                                                     'tools such as Wells or Geneva '
+                                                     'scores, not CURB-65.',
+                                               'B': 'Asthma control over weeks is '
+                                                     'assessed with symptom/control '
+                                                     'questionnaires and spirometry, '
+                                                     'not CURB-65.',
+                                               'C': 'Lung-cancer staging uses TNM '
+                                                     'imaging and pathology systems, '
+                                                     'not the CURB-65 pneumonia score.',
+                                               'D': 'CURB-65 (Confusion, Urea, '
+                                                     'Respiratory rate, Blood pressure, '
+                                                     'age ≥65) stratifies '
+                                                     'community-acquired pneumonia '
+                                                     'severity and helps guide '
+                                                     'site-of-care decisions.'
+                                           }},
                                           {'question': 'Wells score helps for?',
                                            'options': ['A) Pulmonary embolism pretest '
                                                        'probability',
@@ -1595,7 +2760,25 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'D-dimer versus imaging '
                                                           'pathways. It is not a COPD, '
                                                           'CAP, or PH classification '
-                                                          'instrument.'},
+                                                          'instrument.',
+                                           'choice_explanations': {
+                                               'A': 'The Wells score combines clinical '
+                                                     'features to estimate pretest '
+                                                     'probability of pulmonary embolism '
+                                                     'and guide D-dimer versus imaging '
+                                                     'pathways.',
+                                               'B': 'COPD exacerbation severity uses '
+                                                     'clinical and blood-gas criteria '
+                                                     'separate from the Wells PE score.',
+                                               'C': 'Community-acquired pneumonia '
+                                                     'mortality risk uses scores such '
+                                                     'as CURB-65 or PSI, not Wells.',
+                                               'D': 'Pulmonary hypertension WHO group '
+                                                     'classification is based on '
+                                                     'pathophysiology (precapillary vs '
+                                                     'postcapillary, etc.), not the '
+                                                     'Wells PE score.'
+                                           }},
                                           {'question': 'COPD oxygen target in many '
                                                        'retainers is often?',
                                            'options': ['A) Unrestricted high-flow '
@@ -1620,7 +2803,28 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           '(often 88–92%) balances '
                                                           'hypoxemia treatment against '
                                                           'CO2 retention risk, guided '
-                                                          'by protocol and ABG.'}],
+                                                          'by protocol and ABG.',
+                                           'choice_explanations': {
+                                               'A': 'Unrestricted high-flow oxygen to '
+                                                     'SpO2 100% can worsen hypercapnia '
+                                                     'in chronic CO2 retainers via V/Q '
+                                                     'change and reduced hypoxic drive.',
+                                               'B': 'In chronic CO2 retainers, '
+                                                     'controlled oxygen targeting '
+                                                     '(often SpO2 88–92% per protocol) '
+                                                     'treats hypoxemia while limiting '
+                                                     'further CO2 retention, guided by '
+                                                     'ABG.',
+                                               'C': 'Withholding oxygen when SpO2 is '
+                                                     '70% leaves dangerous hypoxemia '
+                                                     'untreated; controlled titration '
+                                                     'is required, not absolute refusal '
+                                                     'of oxygen.',
+                                               'D': 'Titrating only to dyspnea without '
+                                                     'SpO2 targets ignores objective '
+                                                     'hypoxemia and hypercapnia risk '
+                                                     'monitoring in retainers.'
+                                           }}],
                                'hard': [{'question': 'Tension pneumothorax treatment '
                                                      'concept?',
                                          'options': ['A) Urgent CT confirmation before '
@@ -1644,7 +2848,29 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                         'immediate decompression '
                                                         'followed by chest-tube '
                                                         'drainage; imaging must not '
-                                                        'delay treatment.'},
+                                                        'delay treatment.',
+                                         'choice_explanations': {
+                                             'A': 'Urgent CT before decompression '
+                                                   'delays relief of obstructive shock '
+                                                   'in an unstable tension pneumothorax '
+                                                   'and is inappropriate when the '
+                                                   'patient is crashing.',
+                                             'B': 'High-dose IV steroids treat '
+                                                   'inflammatory airway or adrenal '
+                                                   'disease and do not decompress '
+                                                   'pressurized intrapleural air.',
+                                             'C': 'Tension pneumothorax raises '
+                                                   'intrapleural pressure, collapses '
+                                                   'the lung, and impairs venous '
+                                                   'return; unstable patients need '
+                                                   'immediate needle/finger '
+                                                   'thoracostomy then definitive chest '
+                                                   'drain.',
+                                             'D': 'Noninvasive ventilation without '
+                                                   'decompression can worsen tension '
+                                                   'physiology by forcing more air into '
+                                                   'the pleural space through a leak.'
+                                         }},
                                         {'question': "Light's criteria relate to?",
                                          'options': ['A) Staging primary lung cancer',
                                                      'B) Calculating A-a oxygen '
@@ -1663,7 +2889,27 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                         'transudates (heart failure, '
                                                         'cirrhosis). They do not stage '
                                                         'cancer, compute A-a gradient, '
-                                                        'or diagnose PH.'},
+                                                        'or diagnose PH.',
+                                         'choice_explanations': {
+                                             'A': 'Primary lung-cancer staging uses TNM '
+                                                   'systems based on tumor extent, '
+                                                   'nodes, and metastases—not Light’s '
+                                                   'pleural fluid criteria.',
+                                             'B': 'The A-a oxygen gradient compares '
+                                                   'alveolar and arterial PO2 to assess '
+                                                   'gas-exchange efficiency and is '
+                                                   'unrelated to Light’s criteria.',
+                                             'C': 'Pulmonary hypertension echo criteria '
+                                                   'estimate pulmonary pressures and '
+                                                   'right-heart effects, not pleural '
+                                                   'fluid exudate versus transudate.',
+                                             'D': 'Light’s criteria compare pleural and '
+                                                   'serum protein/LDH ratios to '
+                                                   'separate exudates (infection, '
+                                                   'malignancy, inflammation) from '
+                                                   'transudates (heart failure, '
+                                                   'cirrhosis).'
+                                         }},
                                         {'question': 'Massive hemoptysis priority is?',
                                          'options': ['A) Airway protection with '
                                                      'bleeding lung dependent (down)',
@@ -1684,7 +2930,27 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                         'down so blood does not flood '
                                                         'the good lung—then urgent '
                                                         'specialist control of '
-                                                        'bleeding.'}],
+                                                        'bleeding.',
+                                         'choice_explanations': {
+                                             'A': 'Massive hemoptysis threatens '
+                                                   'asphyxiation; positioning the '
+                                                   'bleeding lung dependent (down) '
+                                                   'protects the contralateral lung '
+                                                   'while urgent airway and bleeding '
+                                                   'control proceed.',
+                                             'B': 'Encouraging vigorous unsupervised '
+                                                   'coughing as sole therapy does not '
+                                                   'protect the good lung or control '
+                                                   'life-threatening airway blood.',
+                                             'C': 'Immediate full anticoagulation '
+                                                   'worsens hemorrhage and is '
+                                                   'contraindicated before airway '
+                                                   'control in massive hemoptysis.',
+                                             'D': 'Routine outpatient follow-up without '
+                                                   'emergency assessment ignores the '
+                                                   'immediate risk of asphyxiation from '
+                                                   'massive bleeding into the airway.'
+                                         }}],
                                'extreme': [{'question': 'ARDS Berlin concept includes?',
                                             'options': ['A) Chronic stable hypoxemia '
                                                         'from COPD without acute '
@@ -1713,7 +2979,31 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                            'alveolar damage. Chronic '
                                                            'COPD hypoxemia and simple '
                                                            'lobar CAP do not meet this '
-                                                           'construct.'},
+                                                           'construct.',
+                                            'choice_explanations': {
+                                                'A': 'Chronic stable COPD hypoxemia '
+                                                      'lacks the acute bilateral '
+                                                      'opacities and noncardiogenic '
+                                                      'hypoxemic failure required by '
+                                                      'the Berlin ARDS definition.',
+                                                'B': 'The Berlin definition of ARDS '
+                                                      'requires acute onset, bilateral '
+                                                      'opacities, and hypoxemia not '
+                                                      'fully explained by cardiac '
+                                                      'failure or fluid overload, '
+                                                      'reflecting diffuse alveolar '
+                                                      'damage.',
+                                                'C': 'Isolated lobar pneumonia fully '
+                                                      'explained by typical CAP does '
+                                                      'not meet the diffuse bilateral '
+                                                      'noncardiogenic criteria of ARDS.',
+                                                'D': 'Cardiogenic edema as the sole '
+                                                      'explanation for bilateral '
+                                                      'opacities excludes ARDS; Berlin '
+                                                      'criteria require hypoxemia not '
+                                                      'fully explained by heart '
+                                                      'failure.'
+                                            }},
                                            {'question': 'Fat embolism triad after '
                                                         'fracture?',
                                             'options': ['A) Isolated deep-vein '
@@ -1742,7 +3032,27 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                            'axillary/conjunctival). '
                                                            'Isolated DVT or simple '
                                                            'pneumonia lacks this '
-                                                           'triad.'},
+                                                           'triad.',
+                                            'choice_explanations': {
+                                                'A': 'Isolated DVT is lower-extremity '
+                                                      'venous thrombosis without the '
+                                                      'respiratory, neurologic, and '
+                                                      'petechial triad of fat embolism '
+                                                      'syndrome.',
+                                                'B': 'Fever and productive cough alone '
+                                                      'suggest pneumonia and lack the '
+                                                      'neurologic change and petechiae '
+                                                      'of fat embolism after fracture.',
+                                                'C': 'Fat embolism syndrome classically '
+                                                      'follows long-bone or pelvic '
+                                                      'fracture and presents with acute '
+                                                      'respiratory distress, neurologic '
+                                                      'dysfunction, and petechial rash.',
+                                                'D': 'Chronic exertional dyspnea '
+                                                      'without acute fracture context '
+                                                      'is not the acute post-fracture '
+                                                      'triad of fat embolism syndrome.'
+                                            }},
                                            {'question': 'Bronchial carcinoid can cause '
                                                         'which syndrome theme?',
                                             'options': ['A) Cushing syndrome from '
@@ -1778,7 +3088,33 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                            'SIADH, and insulinoma '
                                                            'physiology are different '
                                                            'neuroendocrine '
-                                                           'syndromes.'}]},
+                                                           'syndromes.',
+                                            'choice_explanations': {
+                                                'A': 'Ectopic ACTH secretion causing '
+                                                      'Cushing syndrome can occur with '
+                                                      'some neuroendocrine tumors but '
+                                                      'is not the usual presentation of '
+                                                      'all bronchial carcinoids nor the '
+                                                      'definition of carcinoid '
+                                                      'syndrome.',
+                                                'B': 'SIADH causes hyponatremia from '
+                                                      'inappropriate ADH and is a '
+                                                      'different paraneoplastic theme '
+                                                      'than classic carcinoid mediator '
+                                                      'syndrome.',
+                                                'C': 'Hypoglycemia from insulin '
+                                                      'secretion defines insulinoma '
+                                                      'physiology, not the '
+                                                      'vasoactive-mediator flushing and '
+                                                      'diarrhea of carcinoid syndrome.',
+                                                'D': 'Carcinoid syndrome (flushing, '
+                                                      'diarrhea, bronchospasm) occurs '
+                                                      'when vasoactive mediators from '
+                                                      'carcinoid reach the systemic '
+                                                      'circulation, often with '
+                                                      'metastases that bypass hepatic '
+                                                      'metabolism.'
+                                            }}]},
                  'cases': {'easy': [{'title': 'Fever + Productive Cough',
                                      'stem': 'A 60-year-old has fever, rusty sputum, '
                                              'and focal crackles. CXR shows lobar '
@@ -1860,7 +3196,30 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                              'viral hepatitis, and '
                                                              'peptic ulcer lack this '
                                                              'infected-obstruction '
-                                                             'pattern.'},
+                                                             'pattern.',
+                                              'choice_explanations': {
+                                                  'A': 'Charcot '
+                                                        'triad—right-upper-quadrant '
+                                                        'pain, fever, and '
+                                                        'jaundice—indicates ascending '
+                                                        'cholangitis from infected '
+                                                        'biliary obstruction.',
+                                                  'B': 'Uncomplicated cholelithiasis '
+                                                        'causes biliary colic without '
+                                                        'fever and jaundice of infected '
+                                                        'obstructed ducts.',
+                                                  'C': 'Acute hepatitis A is '
+                                                        'hepatocellular viral infection '
+                                                        'with jaundice and hepatitis '
+                                                        'labs but not the infected '
+                                                        'biliary obstruction pattern of '
+                                                        'Charcot triad.',
+                                                  'D': 'Peptic ulcer disease is mucosal '
+                                                        'ulceration from acid and H. '
+                                                        'pylori/NSAIDs and does not '
+                                                        'produce Charcot’s infected '
+                                                        'biliary obstruction triad.'
+                                              }},
                                              {'question': 'H. pylori is linked to?',
                                               'options': ['A) Celiac disease as the '
                                                           'primary H. pylori '
@@ -1884,7 +3243,32 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                              'celiac disease, '
                                                              'pancreatic '
                                                              'adenocarcinoma, or '
-                                                             'Gilbert syndrome.'},
+                                                             'Gilbert syndrome.',
+                                              'choice_explanations': {
+                                                  'A': 'Celiac disease is '
+                                                        'gluten-triggered small-bowel '
+                                                        'autoimmune enteropathy '
+                                                        '(HLA-DQ2/8), not primarily an '
+                                                        'H. pylori gastric infection '
+                                                        'manifestation.',
+                                                  'B': 'Helicobacter pylori colonizes '
+                                                        'gastric mucosa, driving '
+                                                        'chronic gastritis and '
+                                                        'substantially increasing risk '
+                                                        'of duodenal and gastric peptic '
+                                                        'ulcers.',
+                                                  'C': 'Pancreatic adenocarcinoma '
+                                                        'arises from pancreatic ductal '
+                                                        'epithelium and is not the main '
+                                                        'disease link of gastric H. '
+                                                        'pylori colonization.',
+                                                  'D': 'Gilbert syndrome is inherited '
+                                                        'reduced hepatic bilirubin '
+                                                        'conjugation causing mild '
+                                                        'unconjugated '
+                                                        'hyperbilirubinemia, unrelated '
+                                                        'to H. pylori.'
+                                              }},
                                              {'question': "McBurney's point relates "
                                                           'to?',
                                               'options': ['A) Acute cholecystitis',
@@ -1904,7 +3288,30 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                              'Cholecystitis, '
                                                              'diverticulitis, and left '
                                                              'ureteric colic localize '
-                                                             'elsewhere.'}],
+                                                             'elsewhere.',
+                                              'choice_explanations': {
+                                                  'A': 'Acute cholecystitis localizes '
+                                                        'to the right upper quadrant '
+                                                        'and Murphy’s sign, not '
+                                                        'McBurney’s point in the right '
+                                                        'lower quadrant.',
+                                                  'B': 'Sigmoid diverticulitis '
+                                                        'typically causes '
+                                                        'left-lower-quadrant pain, '
+                                                        'opposite the right iliac fossa '
+                                                        'tenderness of McBurney’s '
+                                                        'point.',
+                                                  'C': 'McBurney’s point lies one-third '
+                                                        'of the way from the right ASIS '
+                                                        'to the umbilicus and is the '
+                                                        'classic site of maximal '
+                                                        'tenderness in acute '
+                                                        'appendicitis.',
+                                                  'D': 'Left-sided ureteric colic '
+                                                        'radiates to the left groin and '
+                                                        'does not map to McBurney’s '
+                                                        'right iliac fossa landmark.'
+                                              }}],
                                     'medium': [{'question': 'Pancreatitis pain often '
                                                             'radiates to?',
                                                 'options': ['A) The right shoulder tip '
@@ -1929,7 +3336,31 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                                'irritation (e.g., '
                                                                'biliary), and groin '
                                                                'pain suggests urologic '
-                                                               'referred pain.'},
+                                                               'referred pain.',
+                                                'choice_explanations': {
+                                                    'A': 'Right shoulder-tip pain often '
+                                                          'reflects diaphragmatic '
+                                                          'irritation (e.g., biliary '
+                                                          'disease) rather than the '
+                                                          'typical through-to-back '
+                                                          'radiation of pancreatitis.',
+                                                    'B': 'Left groin radiation suggests '
+                                                          'urologic referred pain '
+                                                          '(ureteric colic), not '
+                                                          'retroperitoneal pancreatic '
+                                                          'inflammation.',
+                                                    'C': 'Occipital pain is cranial and '
+                                                          'unrelated to the '
+                                                          'epigastric-to-back pattern '
+                                                          'of acute pancreatitis.',
+                                                    'D': 'Acute pancreatitis typically '
+                                                          'causes severe epigastric '
+                                                          'pain radiating through to '
+                                                          'the back because the '
+                                                          'inflamed retroperitoneal '
+                                                          'pancreas lies against '
+                                                          'posterior structures.'
+                                                }},
                                                {'question': 'Variceal bleed risk is '
                                                             'highest in?',
                                                 'options': ['A) Portal hypertension '
@@ -1957,7 +3388,33 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                                'diverticular bleeding '
                                                                'are important but '
                                                                'mechanistically '
-                                                               'distinct.'},
+                                                               'distinct.',
+                                                'choice_explanations': {
+                                                    'A': 'Esophageal varices form when '
+                                                          'portal hypertension opens '
+                                                          'portosystemic collaterals; '
+                                                          'rupture causes '
+                                                          'life-threatening upper GI '
+                                                          'bleeding, most often in '
+                                                          'cirrhosis.',
+                                                    'B': 'Uncomplicated peptic ulcer '
+                                                          'bleeds from mucosal erosion '
+                                                          'into vessels without the '
+                                                          'portal-hypertensive '
+                                                          'collateral mechanism of '
+                                                          'varices.',
+                                                    'C': 'Mild GERD is reflux of '
+                                                          'gastric contents causing '
+                                                          'heartburn without portal '
+                                                          'hypertension or variceal '
+                                                          'hemorrhage risk.',
+                                                    'D': 'Diverticular bleeding is '
+                                                          'arterial bleeding from '
+                                                          'colonic diverticula, a '
+                                                          'lower-GI mechanism distinct '
+                                                          'from esophageal varices of '
+                                                          'portal hypertension.'
+                                                }},
                                                {'question': 'IBD alarm features '
                                                             'include?',
                                                 'options': ['A) Occasional '
@@ -1985,7 +3442,30 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                                'urgent investigation '
                                                                'rather than assuming '
                                                                'functional bowel '
-                                                               'disease.'}],
+                                                               'disease.',
+                                                'choice_explanations': {
+                                                    'A': 'Occasional postprandial '
+                                                          'bloating alone is a common '
+                                                          'functional symptom and is '
+                                                          'not an IBD alarm feature.',
+                                                    'B': 'Rectal bleeding, '
+                                                          'unintentional weight loss, '
+                                                          'and nocturnal diarrhea '
+                                                          'increase likelihood of '
+                                                          'inflammatory or serious '
+                                                          'organic bowel disease and '
+                                                          'warrant urgent '
+                                                          'investigation.',
+                                                    'C': 'Infrequent soft stools '
+                                                          'without systemic features '
+                                                          'lack the alarm signs that '
+                                                          'raise concern for IBD.',
+                                                    'D': 'Mild intermittent abdominal '
+                                                          'discomfort without bleeding, '
+                                                          'weight loss, or nocturnal '
+                                                          'diarrhea does not constitute '
+                                                          'IBD alarm features.'
+                                                }}],
                                     'hard': [{'question': 'Reynolds pentad adds what '
                                                           'to Charcot triad?',
                                               'options': ['A) Isolated pruritus '
@@ -2009,7 +3489,28 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                              'emergency beyond '
                                                              'uncomplicated biliary '
                                                              'colic or isolated '
-                                                             'jaundice.'},
+                                                             'jaundice.',
+                                              'choice_explanations': {
+                                                  'A': 'Isolated pruritus from '
+                                                        'cholestasis reflects bile-salt '
+                                                        'deposition in skin without the '
+                                                        'septic shock features of '
+                                                        'Reynolds pentad.',
+                                                  'B': 'Mild steatorrhea indicates fat '
+                                                        'malabsorption and is not what '
+                                                        'Reynolds pentad adds to '
+                                                        'Charcot triad.',
+                                                  'C': 'Reynolds pentad adds '
+                                                        'hypotension and mental-status '
+                                                        'change (confusion) to Charcot '
+                                                        'triad, indicating cholangitis '
+                                                        'with septic shock and organ '
+                                                        'dysfunction.',
+                                                  'D': 'Asymptomatic hyperbilirubinemia '
+                                                        'alone lacks fever, pain, and '
+                                                        'the septic features that '
+                                                        'define Reynolds pentad.'
+                                              }},
                                              {'question': 'SBP in ascites is diagnosed '
                                                           'by?',
                                               'options': ['A) Serum-ascites albumin '
@@ -2038,7 +3539,30 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                              'bottles. SAAG classifies '
                                                              'portal hypertension; it '
                                                              'does not replace the '
-                                                             'cell count for SBP.'},
+                                                             'cell count for SBP.',
+                                              'choice_explanations': {
+                                                  'A': 'The serum-ascites albumin '
+                                                        'gradient classifies portal '
+                                                        'hypertension versus other '
+                                                        'ascites causes but does not '
+                                                        'replace ascitic PMN count for '
+                                                        'diagnosing SBP.',
+                                                  'B': 'Stool culture evaluates '
+                                                        'intestinal pathogens and is '
+                                                        'not the primary test for '
+                                                        'spontaneous bacterial '
+                                                        'peritonitis in ascitic fluid.',
+                                                  'C': 'Abdominal wall ultrasound '
+                                                        'without paracentesis cannot '
+                                                        'measure ascitic neutrophil '
+                                                        'counts needed to diagnose SBP.',
+                                                  'D': 'Spontaneous bacterial '
+                                                        'peritonitis is diagnosed by '
+                                                        'ascitic fluid analysis, '
+                                                        'typically an absolute PMN '
+                                                        'count ≥250 cells/µL in the '
+                                                        'appropriate clinical setting.'
+                                              }},
                                              {'question': 'Boerhaave syndrome is?',
                                               'options': ['A) Full-thickness '
                                                           'esophageal perforation '
@@ -2063,7 +3587,30 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                              'bleeding; peptic '
                                                              'perforation and primary '
                                                              'pneumothorax are '
-                                                             'different diagnoses.'}],
+                                                             'different diagnoses.',
+                                              'choice_explanations': {
+                                                  'A': 'Boerhaave syndrome is '
+                                                        'transmural esophageal rupture, '
+                                                        'classically after forceful '
+                                                        'vomiting, causing '
+                                                        'mediastinitis and septic '
+                                                        'shock.',
+                                                  'B': 'Mallory–Weiss syndrome is a '
+                                                        'partial mucosal tear at the '
+                                                        'gastroesophageal junction that '
+                                                        'causes bleeding without '
+                                                        'full-thickness perforation.',
+                                                  'C': 'Spontaneous pneumothorax is air '
+                                                        'in the pleural space from '
+                                                        'visceral pleural rupture and '
+                                                        'is not esophageal perforation.',
+                                                  'D': 'Perforated peptic ulcer is '
+                                                        'full-thickness gastroduodenal '
+                                                        'perforation into the '
+                                                        'peritoneum, a different '
+                                                        'anatomic entity from '
+                                                        'esophageal Boerhaave rupture.'
+                                              }}],
                                     'extreme': [{'question': 'Mesenteric ischemia '
                                                              'classic risk pattern?',
                                                  'options': ['A) Young patient with '
@@ -2098,7 +3645,34 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                                 'angiography and '
                                                                 'revascularization '
                                                                 'pathways are '
-                                                                'critical.'},
+                                                                'critical.',
+                                                 'choice_explanations': {
+                                                     'A': 'Young patients with chronic '
+                                                           'epigastric burning relieved '
+                                                           'by food fit peptic ulcer '
+                                                           'patterns, not embolic '
+                                                           'mesenteric ischemia.',
+                                                     'B': 'Acute mesenteric ischemia '
+                                                           'from embolus often occurs '
+                                                           'in atrial fibrillation: '
+                                                           'sudden severe pain out of '
+                                                           'proportion to early '
+                                                           'physical findings as bowel '
+                                                           'becomes ischemic before '
+                                                           'peritonitis develops.',
+                                                     'C': 'Gradual left-lower-quadrant '
+                                                           'pain with diverticulosis '
+                                                           'risk describes '
+                                                           'diverticulitis, not sudden '
+                                                           'embolic mesenteric '
+                                                           'ischemia.',
+                                                     'D': 'Biliary colic after fatty '
+                                                           'meals is transient '
+                                                           'cystic-duct obstruction by '
+                                                           'gallstones without acute '
+                                                           'mesenteric arterial '
+                                                           'occlusion.'
+                                                 }},
                                                 {'question': 'Toxic megacolon is a '
                                                              'complication of?',
                                                  'options': ['A) Uncomplicated peptic '
@@ -2126,7 +3700,34 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                                 'medical/surgical '
                                                                 'management, unlike '
                                                                 'ulcer, Gilbert, or '
-                                                                'reflux disease.'},
+                                                                'reflux disease.',
+                                                 'choice_explanations': {
+                                                     'A': 'Uncomplicated peptic ulcer '
+                                                           'is gastroduodenal mucosal '
+                                                           'ulceration and does not '
+                                                           'dilate the colon with '
+                                                           'systemic toxicity of toxic '
+                                                           'megacolon.',
+                                                     'B': 'Gilbert syndrome is mild '
+                                                           'unconjugated '
+                                                           'hyperbilirubinemia from '
+                                                           'reduced '
+                                                           'glucuronyltransferase '
+                                                           'activity, unrelated to '
+                                                           'colonic dilation.',
+                                                     'C': 'Toxic megacolon is acute '
+                                                           'colonic dilation with '
+                                                           'systemic toxicity '
+                                                           'complicating severe '
+                                                           'colitis—classically IBD '
+                                                           'flare or Clostridioides '
+                                                           'difficile—and risks '
+                                                           'perforation.',
+                                                     'D': 'Mild GERD is reflux '
+                                                           'symptomology without '
+                                                           'colitis or toxic colonic '
+                                                           'dilation.'
+                                                 }},
                                                 {'question': 'Budd-Chiari involves?',
                                                  'options': ['A) Portal vein '
                                                              'thrombosis alone as the '
@@ -2157,7 +3758,33 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                                 'vascular disorder; '
                                                                 'biliary stones are '
                                                                 'not venous outflow '
-                                                                'disease.'}]},
+                                                                'disease.',
+                                                 'choice_explanations': {
+                                                     'A': 'Portal vein thrombosis '
+                                                           'occludes portal inflow and '
+                                                           'is a related but distinct '
+                                                           'hepatic vascular disorder '
+                                                           'from hepatic venous outflow '
+                                                           'obstruction.',
+                                                     'B': 'Extrahepatic bile-duct stone '
+                                                           'causes '
+                                                           'cholestasis/cholangitis and '
+                                                           'is not hepatic venous '
+                                                           'outflow occlusion.',
+                                                     'C': 'Hepatic artery stenosis '
+                                                           'after transplant is '
+                                                           'arterial inflow disease, '
+                                                           'not the classic definition '
+                                                           'of Budd–Chiari hepatic '
+                                                           'venous outflow obstruction.',
+                                                     'D': 'Budd–Chiari syndrome is '
+                                                           'hepatic venous outflow '
+                                                           'obstruction (hepatic veins '
+                                                           'or IVC), causing '
+                                                           'congestion, hepatomegaly, '
+                                                           'ascites, and liver '
+                                                           'dysfunction.'
+                                                 }}]},
                       'cases': {'easy': [{'title': 'RUQ Pain + Jaundice + Fever',
                                           'stem': 'A 50-year-old woman has RUQ pain, '
                                                   'fever, and jaundice.',
@@ -2250,7 +3877,32 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'hyperglycemia or HHS '
                                                           'without significant '
                                                           'ketoacidosis are different '
-                                                          'entities.'},
+                                                          'entities.',
+                                           'choice_explanations': {
+                                               'A': 'Diabetic ketoacidosis combines '
+                                                     'absolute/relative insulin '
+                                                     'deficiency with '
+                                                     'counter-regulatory hormone '
+                                                     'excess, producing hyperglycemia, '
+                                                     'ketone generation, and '
+                                                     'high-anion-gap metabolic '
+                                                     'acidosis.',
+                                               'B': 'Isolated hyperglycemia without '
+                                                     'ketones or acidosis may be '
+                                                     'uncontrolled diabetes or stress '
+                                                     'hyperglycemia but does not '
+                                                     'fulfill the DKA triad.',
+                                               'C': 'Hypoglycemia with elevated insulin '
+                                                     'suggests hyperinsulinemic '
+                                                     'hypoglycemia (e.g., insulinoma or '
+                                                     'exogenous insulin), the opposite '
+                                                     'metabolic state from DKA.',
+                                               'D': 'Hyperosmolar state without '
+                                                     'significant acidosis or ketones '
+                                                     'defines HHS, which is distinct '
+                                                     'from DKA’s prominent '
+                                                     'ketoacidosis.'
+                                           }},
                                           {'question': 'First-line drug often for '
                                                        'T2DM?',
                                            'options': ['A) Immediate insulin pump '
@@ -2274,7 +3926,29 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'Insulin pumps, steroids, '
                                                           'and somatostatin analogues '
                                                           'are not standard first-line '
-                                                          'T2DM drugs.'},
+                                                          'T2DM drugs.',
+                                           'choice_explanations': {
+                                               'A': 'Immediate insulin pump therapy is '
+                                                     'intensive insulin delivery used '
+                                                     'in selected type 1 or advanced '
+                                                     'diabetes care, not routine '
+                                                     'first-line pharmacotherapy for '
+                                                     'new T2DM.',
+                                               'B': 'Metformin is guideline first-line '
+                                                     'pharmacotherapy for many adults '
+                                                     'with type 2 diabetes when eGFR '
+                                                     'and tolerability allow, improving '
+                                                     'insulin sensitivity and lowering '
+                                                     'hepatic glucose output.',
+                                               'C': 'High-dose glucocorticoids raise '
+                                                     'glucose via gluconeogenesis and '
+                                                     'insulin resistance and are not '
+                                                     'glucose-lowering therapy.',
+                                               'D': 'Somatostatin analogues suppress '
+                                                     'hormone secretion in '
+                                                     'neuroendocrine tumors and are not '
+                                                     'first-line oral agents for T2DM.'
+                                           }},
                                           {'question': 'Primary hypothyroidism labs '
                                                        'usually show?',
                                            'options': ['A) Suppressed TSH with high '
@@ -2295,7 +3969,29 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'hyperthyroidism; low TSH '
                                                           'with low T4 suggests '
                                                           'central (secondary) '
-                                                          'hypothyroidism.'}],
+                                                          'hypothyroidism.',
+                                           'choice_explanations': {
+                                               'A': 'Suppressed TSH with high free T4 '
+                                                     'indicates primary hyperthyroidism '
+                                                     'with negative feedback on the '
+                                                     'pituitary, not primary '
+                                                     'hypothyroidism.',
+                                               'B': 'Normal TSH with high free T4 is '
+                                                     'inconsistent with typical primary '
+                                                     'hypothyroidism and may suggest '
+                                                     'assay artifact or rare thyroid '
+                                                     'hormone resistance patterns.',
+                                               'C': 'Primary hypothyroidism is thyroid '
+                                                     'gland failure; pituitary TSH '
+                                                     'rises while free T4 falls, '
+                                                     'yielding elevated TSH with low '
+                                                     'free T4.',
+                                               'D': 'Low TSH with low free T4 suggests '
+                                                     'central (secondary) '
+                                                     'hypothyroidism from '
+                                                     'pituitary/hypothalamic failure, '
+                                                     'not the high-TSH primary pattern.'
+                                           }}],
                                  'medium': [{'question': 'Chvostek/Trousseau suggest?',
                                              'options': ['A) Hypercalcemia of '
                                                          'malignancy',
@@ -2315,7 +4011,33 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                             'potassium and sodium '
                                                             'disorders have different '
                                                             'neuromuscular '
-                                                            'signatures.'},
+                                                            'signatures.',
+                                             'choice_explanations': {
+                                                 'A': 'Hypercalcemia of malignancy '
+                                                       'tends to cause lethargy, '
+                                                       'polyuria, and reduced '
+                                                       'neuromuscular excitability—the '
+                                                       'opposite of Chvostek/Trousseau '
+                                                       'irritability.',
+                                                 'B': 'Isolated hyperkalemia affects '
+                                                       'cardiac conduction and muscle '
+                                                       'membrane potential but does not '
+                                                       'produce the classic Chvostek '
+                                                       'and Trousseau signs of low '
+                                                       'ionized calcium.',
+                                                 'C': 'Hyponatremia from SIADH causes '
+                                                       'neurologic symptoms from '
+                                                       'hypo-osmolality, not the '
+                                                       'peripheral neuromuscular '
+                                                       'irritability signs of '
+                                                       'hypocalcemia.',
+                                                 'D': 'Chvostek and Trousseau signs '
+                                                       'reflect neuromuscular '
+                                                       'irritability from low ionized '
+                                                       'calcium, with facial twitching '
+                                                       'and carpal spasm on occlusive '
+                                                       'ischemia.'
+                                             }},
                                             {'question': 'Graves disease is a cause '
                                                          'of?',
                                              'options': ['A) Hyperthyroidism '
@@ -2340,7 +4062,30 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                             'causing primary '
                                                             'hypothyroidism, DI, or '
                                                             'Addison disease as its '
-                                                            'core lesion.'},
+                                                            'core lesion.',
+                                             'choice_explanations': {
+                                                 'A': 'Graves disease is '
+                                                       'TSH-receptor–stimulating '
+                                                       'antibody–mediated '
+                                                       'hyperthyroidism with goiter and '
+                                                       'often orbitopathy, raising '
+                                                       'thyroid hormone production.',
+                                                 'B': 'Primary hypothyroidism from '
+                                                       'gland failure is the opposite '
+                                                       'thyroid state; Graves causes '
+                                                       'thyrotoxicosis, not primary '
+                                                       'gland failure.',
+                                                 'C': 'Central diabetes insipidus is '
+                                                       'ADH deficiency causing dilute '
+                                                       'polyuria and is unrelated to '
+                                                       'Graves TSH-receptor '
+                                                       'stimulation.',
+                                                 'D': 'Primary adrenal insufficiency is '
+                                                       'cortisol/aldosterone deficiency '
+                                                       'from adrenal destruction and is '
+                                                       'not the main effect of Graves '
+                                                       'disease.'
+                                             }},
                                             {'question': 'Adrenal crisis needs?',
                                              'options': ['A) Fluid restriction as the '
                                                          'primary intervention',
@@ -2364,7 +4109,30 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                             'required; delay for '
                                                             'confirmatory testing is '
                                                             'dangerous once the '
-                                                            'diagnosis is suspected.'}],
+                                                            'diagnosis is suspected.',
+                                             'choice_explanations': {
+                                                 'A': 'Fluid restriction worsens '
+                                                       'hypovolemic shock of adrenal '
+                                                       'crisis; volume expansion with '
+                                                       'saline is required alongside '
+                                                       'steroids.',
+                                                 'B': 'Adrenal crisis is '
+                                                       'life-threatening cortisol '
+                                                       'deficiency with shock and '
+                                                       'electrolyte disturbance; '
+                                                       'immediate IV hydrocortisone and '
+                                                       'aggressive saline resuscitation '
+                                                       'are required.',
+                                                 'C': 'High-dose insulin treats '
+                                                       'hyperglycemia/hyperkalemia '
+                                                       'contexts and does not replace '
+                                                       'missing glucocorticoids in '
+                                                       'adrenal crisis.',
+                                                 'D': 'Radioiodine ablates thyroid '
+                                                       'tissue in hyperthyroidism and '
+                                                       'has no role during adrenal '
+                                                       'shock.'
+                                             }}],
                                  'hard': [{'question': 'HHS differs from DKA by?',
                                            'options': ['A) Prominent high-anion-gap '
                                                        'ketoacidosis as the defining '
@@ -2388,7 +4156,27 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'ketoacidosis. Management '
                                                           'emphasizes careful fluid '
                                                           'and electrolyte correction '
-                                                          'plus insulin.'},
+                                                          'plus insulin.',
+                                           'choice_explanations': {
+                                               'A': 'Prominent high-anion-gap '
+                                                     'ketoacidosis defines DKA, whereas '
+                                                     'HHS is characterized by little or '
+                                                     'no ketoacidosis.',
+                                               'B': 'Severe hypoglycemia is low glucose '
+                                                     'and is not the presenting lab '
+                                                     'pattern of HHS, which features '
+                                                     'extreme hyperglycemia.',
+                                               'C': 'Hyperosmolar hyperglycemic state '
+                                                     'features extreme hyperglycemia '
+                                                     'and hyperosmolarity with profound '
+                                                     'dehydration and typically absent '
+                                                     'or minimal ketosis.',
+                                               'D': 'Isolated hyponatremia without '
+                                                     'hyperglycemia does not define '
+                                                     'HHS, which is driven by marked '
+                                                     'hyperglycemia and effective '
+                                                     'hyperosmolarity.'
+                                           }},
                                           {'question': 'Sick euthyroid pattern often '
                                                        'shows?',
                                            'options': ['A) High free T4 with '
@@ -2418,7 +4206,31 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'primary thyroid failure. '
                                                           'Interpretation requires '
                                                           'clinical context once the '
-                                                          'acute illness resolves.'},
+                                                          'acute illness resolves.',
+                                           'choice_explanations': {
+                                               'A': 'High free T4 with suppressed TSH '
+                                                     'is the hallmark of '
+                                                     'thyrotoxicosis, not the typical '
+                                                     'nonthyroidal illness (sick '
+                                                     'euthyroid) pattern.',
+                                               'B': 'Very high TSH with rock-bottom '
+                                                     'free T4 indicates primary '
+                                                     'hypothyroidism rather than the '
+                                                     'usual sick-euthyroid '
+                                                     'constellation during systemic '
+                                                     'illness.',
+                                               'C': 'Isolated elevated thyroglobulin '
+                                                     'reflects thyroid tissue mass or '
+                                                     'injury and is not the defining '
+                                                     'finding of sick euthyroid '
+                                                     'syndrome.',
+                                               'D': 'Nonthyroidal illness commonly '
+                                                     'lowers T3 via reduced peripheral '
+                                                     'T4-to-T3 conversion during '
+                                                     'critical illness without '
+                                                     'necessarily indicating primary '
+                                                     'thyroid disease.'
+                                           }},
                                           {'question': 'Pheochromocytoma classic '
                                                        'spells?',
                                            'options': ['A) Paroxysmal headache, '
@@ -2443,7 +4255,27 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'habitus, hypothyroid '
                                                           'features, and osmotic '
                                                           'polyuria point to other '
-                                                          'endocrine disorders.'}],
+                                                          'endocrine disorders.',
+                                           'choice_explanations': {
+                                               'A': 'Pheochromocytoma episodically '
+                                                     'releases catecholamines, '
+                                                     'producing classic spells of '
+                                                     'headache, palpitations, and '
+                                                     'diaphoresis with hypertension.',
+                                               'B': 'Painless progressive weight gain '
+                                                     'with moon facies describes '
+                                                     'Cushing syndrome from '
+                                                     'glucocorticoid excess, not '
+                                                     'catecholamine spells.',
+                                               'C': 'Cold intolerance and delayed '
+                                                     'reflexes are hypothyroid features '
+                                                     'from low thyroid hormone, not '
+                                                     'paroxysmal catecholamine release.',
+                                               'D': 'Polyuria and polydipsia from '
+                                                     'osmotic diuresis reflect '
+                                                     'hyperglycemia, not the adrenergic '
+                                                     'spell triad of pheochromocytoma.'
+                                           }}],
                                  'extreme': [{'question': 'Myxedema coma treatment '
                                                           'concept?',
                                               'options': ['A) Outpatient oral '
@@ -2481,7 +4313,32 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                              'excluded because '
                                                              'concurrent AI can '
                                                              'coexist (e.g., '
-                                                             'hypopituitarism).'},
+                                                             'hypopituitarism).',
+                                              'choice_explanations': {
+                                                  'A': 'Outpatient oral levothyroxine '
+                                                        'alone without ICU support is '
+                                                        'inadequate for myxedema coma '
+                                                        'with hypothermia, '
+                                                        'hypoventilation, and organ '
+                                                        'dysfunction.',
+                                                  'B': 'Myxedema coma is decompensated '
+                                                        'hypothyroidism requiring ICU '
+                                                        'supportive care plus thyroid '
+                                                        'hormone; empiric '
+                                                        'glucocorticoids are given '
+                                                        'until adrenal insufficiency is '
+                                                        'excluded.',
+                                                  'C': 'Passive warming alone does not '
+                                                        'replace missing thyroid '
+                                                        'hormone or treat '
+                                                        'respiratory/circulatory '
+                                                        'failure of myxedema coma.',
+                                                  'D': 'Iodine loading without hormone '
+                                                        'replacement does not reverse '
+                                                        'decompensated hypothyroidism '
+                                                        'and is not appropriate primary '
+                                                        'therapy.'
+                                              }},
                                              {'question': 'Thyroid storm clinical '
                                                           'diagnosis needs?',
                                               'options': ['A) Mild TSH suppression '
@@ -2513,7 +4370,32 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                              'but treatment must not '
                                                              'await a single lab '
                                                              'threshold once the '
-                                                             'syndrome is evident.'},
+                                                             'syndrome is evident.',
+                                              'choice_explanations': {
+                                                  'A': 'Mild TSH suppression without '
+                                                        'clinical thyrotoxicosis may be '
+                                                        'subclinical hyperthyroidism '
+                                                        'and lacks the multiorgan '
+                                                        'decompensation of thyroid '
+                                                        'storm.',
+                                                  'B': 'Isolated anxiety without fever, '
+                                                        'tachycardia, or organ '
+                                                        'dysfunction is not thyroid '
+                                                        'storm, which is '
+                                                        'life-threatening thyrotoxic '
+                                                        'decompensation.',
+                                                  'C': 'Thyroid storm is a clinical '
+                                                        'diagnosis of severe '
+                                                        'thyrotoxicosis with systemic '
+                                                        'decompensation affecting '
+                                                        'thermoregulation, '
+                                                        'cardiovascular, and CNS '
+                                                        'systems.',
+                                                  'D': 'Subclinical hypothyroidism is '
+                                                        'elevated TSH with normal free '
+                                                        'T4 and is the opposite thyroid '
+                                                        'state from storm.'
+                                              }},
                                              {'question': 'Insulinoma Whipple triad?',
                                               'options': ['A) Hyperglycemia with '
                                                           'ketones as the diagnostic '
@@ -2541,7 +4423,29 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                              'hyperinsulinemic cause '
                                                              'once factitious and '
                                                              'other etiologies are '
-                                                             'considered.'}]},
+                                                             'considered.',
+                                              'choice_explanations': {
+                                                  'A': 'Hyperglycemia with ketones '
+                                                        'describes uncontrolled '
+                                                        'diabetes/DKA physiology, not '
+                                                        'Whipple’s triad of '
+                                                        'hypoglycemia.',
+                                                  'B': 'Hypertension spells with '
+                                                        'catecholamine excess describe '
+                                                        'pheochromocytoma, not the '
+                                                        'hypoglycemic Whipple triad.',
+                                                  'C': 'Weight loss with free T4 '
+                                                        'elevation indicates '
+                                                        'thyrotoxicosis, not documented '
+                                                        'hypoglycemia relieved by '
+                                                        'glucose.',
+                                                  'D': 'Whipple’s triad supports true '
+                                                        'hypoglycemia: symptoms '
+                                                        'consistent with low glucose, a '
+                                                        'documented low glucose, and '
+                                                        'resolution when glucose is '
+                                                        'raised.'
+                                              }}]},
                    'cases': {'easy': [{'title': 'Polyuria + Kussmaul',
                                        'stem': 'A teen has polyuria, weight loss, '
                                                'Kussmaul breathing, glucose 430, pH '
@@ -2621,7 +4525,28 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                        'primarily concentrating '
                                                        'ability, renal-artery Doppler '
                                                        'stenosis grading, or bladder '
-                                                       'function.'},
+                                                       'function.',
+                                        'choice_explanations': {
+                                            'A': 'eGFR estimates glomerular filtration '
+                                                  'rate from creatinine (and sometimes '
+                                                  'cystatin C) using demographic '
+                                                  'variables, reflecting kidney '
+                                                  'filtration function.',
+                                            'B': 'Tubular concentrating ability is '
+                                                  'assessed by urine '
+                                                  'osmolality/specific gravity '
+                                                  'responses, not by the '
+                                                  'creatinine-based eGFR filtration '
+                                                  'estimate.',
+                                            'C': 'Renal artery stenosis severity by '
+                                                  'velocity is a Doppler ultrasound '
+                                                  'hemodynamic assessment, not an eGFR '
+                                                  'filtration estimate.',
+                                            'D': 'Bladder detrusor contractility is a '
+                                                  'urodynamic property of the bladder '
+                                                  'muscle and is unrelated to '
+                                                  'glomerular filtration estimation.'
+                                        }},
                                        {'question': 'Nephrotic syndrome features '
                                                     'heavy?',
                                         'options': ['A) Isolated microscopic hematuria '
@@ -2643,7 +4568,27 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                        'Isolated hematuria or pyuria '
                                                        'without heavy protein loss '
                                                        'indicates other glomerular or '
-                                                       'interstitial patterns.'},
+                                                       'interstitial patterns.',
+                                        'choice_explanations': {
+                                            'A': 'Isolated microscopic hematuria '
+                                                  'without heavy protein loss indicates '
+                                                  'glomerular or lower-tract bleeding '
+                                                  'patterns other than nephrotic '
+                                                  'syndrome.',
+                                            'B': 'Nephrotic syndrome is defined by '
+                                                  'heavy proteinuria (typically ≥3.5 '
+                                                  'g/day), hypoalbuminemia, and edema '
+                                                  'from glomerular barrier failure, '
+                                                  'often with hyperlipidemia.',
+                                            'C': 'Sterile pyuria suggests interstitial '
+                                                  'inflammation or partially treated '
+                                                  'infection, not the heavy protein '
+                                                  'leak of nephrotic syndrome.',
+                                            'D': 'Mild eGFR reduction without protein '
+                                                  'leak is reduced filtration alone and '
+                                                  'does not fulfill nephrotic-range '
+                                                  'proteinuria with hypoalbuminemia.'
+                                        }},
                                        {'question': 'ACEI/ARB are preferred in?',
                                         'options': ['A) Bilateral renal artery '
                                                     'stenosis as first-line ACEI '
@@ -2664,7 +4609,28 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                        'They are contraindicated or '
                                                        'used with extreme caution in '
                                                        'bilateral RAS, advanced '
-                                                       'hyperkalemia, and pregnancy.'}],
+                                                       'hyperkalemia, and pregnancy.',
+                                        'choice_explanations': {
+                                            'A': 'Bilateral renal artery stenosis is a '
+                                                  'setting of caution or '
+                                                  'contraindication for ACEI/ARB '
+                                                  'because efferent dilation can '
+                                                  'critically drop filtration pressure.',
+                                            'B': 'Acute hyperkalemia with anuria is a '
+                                                  'reason to avoid starting ACEI/ARB, '
+                                                  'which can worsen potassium '
+                                                  'retention, not a preferred '
+                                                  'initiation setting.',
+                                            'C': 'ACE inhibitors and ARBs reduce '
+                                                  'intraglomerular pressure and '
+                                                  'albuminuria and slow diabetic CKD '
+                                                  'progression when creatinine and '
+                                                  'potassium are monitored.',
+                                            'D': 'ACEI/ARB are teratogenic and '
+                                                  'contraindicated in pregnancy, so '
+                                                  'pregnancy is not a routine '
+                                                  'initiation setting.'
+                                        }}],
                               'medium': [{'question': 'RBC casts suggest?',
                                           'options': ['A) Acute tubular necrosis',
                                                       'B) Postrenal obstruction alone',
@@ -2682,7 +4648,27 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                          'shows muddy-brown granular '
                                                          'casts; obstruction lacks '
                                                          'active urinary sediment of '
-                                                         'that type.'},
+                                                         'that type.',
+                                          'choice_explanations': {
+                                              'A': 'Acute tubular necrosis classically '
+                                                    'shows muddy-brown granular casts '
+                                                    'from tubular epithelial debris, '
+                                                    'not RBC casts of glomerular '
+                                                    'bleeding.',
+                                              'B': 'Postrenal obstruction alone '
+                                                    'typically lacks an active '
+                                                    'glomerular sediment with RBC '
+                                                    'casts.',
+                                              'C': 'Simple orthostatic proteinuria is '
+                                                    'benign positional protein leak '
+                                                    'without RBC cast formation from '
+                                                    'glomerulonephritis.',
+                                              'D': 'RBC casts form when erythrocytes '
+                                                    'leak through damaged glomeruli and '
+                                                    'embed in Tamm–Horsfall protein in '
+                                                    'tubules, highly suggestive of '
+                                                    'glomerulonephritis.'
+                                          }},
                                          {'question': 'Post-renal AKI first check?',
                                           'options': ['A) Urinary tract obstruction '
                                                       '(bladder scan / renal '
@@ -2707,7 +4693,28 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                          'Missing obstruction while '
                                                          'pursuing biopsy or diuresis '
                                                          'delays salvage of renal '
-                                                         'function.'},
+                                                         'function.',
+                                          'choice_explanations': {
+                                              'A': 'Postrenal AKI is reversible if '
+                                                    'obstruction is relieved promptly; '
+                                                    'bladder scan/catheterization and '
+                                                    'renal ultrasound look for '
+                                                    'retention or hydronephrosis first.',
+                                              'B': 'Immediate kidney biopsy before '
+                                                    'excluding obstruction risks '
+                                                    'missing a rapidly reversible '
+                                                    'postrenal cause and delays '
+                                                    'decompression.',
+                                              'C': 'Empiric high-dose loop diuretic '
+                                                    'without assessing retention may '
+                                                    'worsen volume status if the '
+                                                    'problem is obstruction rather than '
+                                                    'fluid overload.',
+                                              'D': 'Assuming prerenal azotemia without '
+                                                    'imaging when retention is possible '
+                                                    'can miss obstructive uropathy that '
+                                                    'needs drainage.'
+                                          }},
                                          {'question': 'Hyperkalemia with peaked T '
                                                       'waves needs?',
                                           'options': ['A) Oral sodium polystyrene as '
@@ -2734,7 +4741,29 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                          '(selected cases), and '
                                                          'removal therapies address '
                                                          'potassium shift and '
-                                                         'elimination.'}],
+                                                         'elimination.',
+                                          'choice_explanations': {
+                                              'A': 'Oral sodium polystyrene exchanges '
+                                                    'potassium in the gut slowly and '
+                                                    'does not immediately stabilize '
+                                                    'cardiac membranes when ECG changes '
+                                                    'are present.',
+                                              'B': 'Peaked T waves signal cardiac '
+                                                    'membrane instability from '
+                                                    'hyperkalemia; IV calcium '
+                                                    'antagonizes cardiac effects within '
+                                                    'minutes while other measures shift '
+                                                    'and remove potassium.',
+                                              'C': 'Hemodialysis removes potassium '
+                                                    'effectively but is not the sole '
+                                                    'immediate step before temporizing '
+                                                    'membrane stabilization and '
+                                                    'intracellular shift therapies.',
+                                              'D': 'Fluid restriction alone does not '
+                                                    'protect the myocardium from '
+                                                    'hyperkalemic conduction '
+                                                    'abnormalities.'
+                                          }}],
                               'hard': [{'question': 'ATN muddy brown casts follow?',
                                         'options': ['A) Glomerular basement-membrane '
                                                     'rupture as the primary ATN lesion',
@@ -2754,7 +4783,27 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                        'aggressive GN; stones and '
                                                        'minimal-change disease have '
                                                        'different sediment and '
-                                                       'clinical pictures.'},
+                                                       'clinical pictures.',
+                                        'choice_explanations': {
+                                            'A': 'Glomerular basement-membrane rupture '
+                                                  'underlies aggressive '
+                                                  'glomerulonephritides with RBC casts, '
+                                                  'not the tubular epithelial injury of '
+                                                  'ATN.',
+                                            'B': 'An isolated collecting-system stone '
+                                                  'causes obstruction without '
+                                                  'necessarily producing muddy-brown '
+                                                  'casts of tubular necrosis.',
+                                            'C': 'Acute tubular necrosis follows '
+                                                  'ischemic or nephrotoxic insult to '
+                                                  'tubular epithelium; muddy-brown '
+                                                  'granular casts are the classic '
+                                                  'urinary finding.',
+                                            'D': 'Minimal-change disease is '
+                                                  'podocytopathy causing nephrotic '
+                                                  'syndrome with usually bland '
+                                                  'sediment, not ATN muddy-brown casts.'
+                                        }},
                                        {'question': 'AIN often linked to?',
                                         'options': ['A) Ischemic ATN from prolonged '
                                                     'hypotension as the identical '
@@ -2780,7 +4829,28 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                        'rash/fever/eosinophiluria. It '
                                                        'is distinct from ischemic ATN, '
                                                        'anti-GBM crescentic disease, '
-                                                       'and pure prerenal physiology.'},
+                                                       'and pure prerenal physiology.',
+                                        'choice_explanations': {
+                                            'A': 'Ischemic ATN from prolonged '
+                                                  'hypotension is tubular epithelial '
+                                                  'ischemic injury, a different '
+                                                  'mechanism from drug-induced '
+                                                  'interstitial hypersensitivity of '
+                                                  'AIN.',
+                                            'B': 'Anti-GBM disease is autoimmune attack '
+                                                  'on glomerular basement membrane '
+                                                  'causing crescentic GN, not the usual '
+                                                  'cause of AIN.',
+                                            'C': 'Simple prerenal azotemia is reduced '
+                                                  'perfusion without intrinsic '
+                                                  'interstitial inflammation and WBC '
+                                                  'casts of AIN.',
+                                            'D': 'Acute interstitial nephritis is often '
+                                                  'a drug-induced T-cell–mediated '
+                                                  'reaction (antibiotics, NSAIDs, PPIs) '
+                                                  'with interstitial inflammation ± WBC '
+                                                  'casts/eosinophiluria.'
+                                        }},
                                        {'question': 'Indications for urgent dialysis '
                                                     'include?',
                                         'options': ['A) Severe refractory '
@@ -2804,7 +4874,24 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                        'encephalopathy). Mild lab '
                                                        'changes without these '
                                                        'complications do not mandate '
-                                                       'emergency dialysis.'}],
+                                                       'emergency dialysis.',
+                                        'choice_explanations': {
+                                            'A': 'Urgent dialysis indications include '
+                                                  'severe refractory hyperkalemia, '
+                                                  'acidosis, volume overload, and '
+                                                  'uremic emergencies (pericarditis, '
+                                                  'encephalopathy)—the AEIOU framework.',
+                                            'B': 'Mild creatinine rise without '
+                                                  'complications does not mandate '
+                                                  'emergency dialysis.',
+                                            'C': 'Asymptomatic microscopic hematuria '
+                                                  'alone is a diagnostic clue, not an '
+                                                  'indication for urgent dialysis.',
+                                            'D': 'Stable CKD stage 3 without acute '
+                                                  'AEIOU indications is managed '
+                                                  'medically and does not require '
+                                                  'emergency dialysis.'
+                                        }}],
                               'extreme': [{'question': 'Tumor lysis electrolyte '
                                                        'pattern?',
                                            'options': ['A) Hypokalemia, '
@@ -2834,7 +4921,32 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'guides prevention with '
                                                           'hydration, uric-acid '
                                                           'lowering, and electrolyte '
-                                                          'management.'},
+                                                          'management.',
+                                           'choice_explanations': {
+                                               'A': 'Hypokalemia, hypophosphatemia, '
+                                                     'hypercalcemia, and hypouricemia '
+                                                     'is the opposite electrolyte '
+                                                     'pattern from tumor lysis release '
+                                                     'of intracellular contents.',
+                                               'B': 'Tumor lysis releases intracellular '
+                                                     'potassium, phosphate, and nucleic '
+                                                     'acids; uric acid rises and '
+                                                     'phosphate binds calcium, '
+                                                     'producing hyperkalemia, '
+                                                     'hyperphosphatemia, hypocalcemia, '
+                                                     'and hyperuricemia.',
+                                               'C': 'Isolated hyponatremia without '
+                                                     'phosphate or urate change does '
+                                                     'not capture the classic '
+                                                     'multi-electrolyte signature of '
+                                                     'tumor lysis syndrome.',
+                                               'D': 'Hypercalcemia with '
+                                                     'hypophosphatemia suggests '
+                                                     'PTH-related or other '
+                                                     'hypercalcemic states, not the '
+                                                     'hyperphosphatemic hypocalcemia of '
+                                                     'TLS.'
+                                           }},
                                           {'question': 'Hepatorenal syndrome concept?',
                                            'options': ['A) Intrinsic ATN as the '
                                                        'required first diagnosis in '
@@ -2864,7 +4976,32 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'HRS from ATN guides '
                                                           'vasoconstrictor and '
                                                           'transplant-oriented '
-                                                          'therapy.'},
+                                                          'therapy.',
+                                           'choice_explanations': {
+                                               'A': 'Intrinsic ATN can complicate '
+                                                     'cirrhosis with shock or toxins '
+                                                     'but is not the required first '
+                                                     'diagnosis for all cirrhotic AKI; '
+                                                     'HRS is functional after '
+                                                     'exclusions.',
+                                               'B': 'Postrenal obstruction is '
+                                                     'mechanical blockage and must be '
+                                                     'excluded before diagnosing '
+                                                     'hepatorenal syndrome, but it is '
+                                                     'not the defining HRS mechanism.',
+                                               'C': 'Hepatorenal syndrome is functional '
+                                                     'renal vasoconstriction in '
+                                                     'advanced cirrhosis with portal '
+                                                     'hypertension after volume '
+                                                     'resuscitation and exclusion of '
+                                                     'shock, nephrotoxins, and '
+                                                     'obstruction.',
+                                               'D': 'Primary glomerular nephrotic '
+                                                     'syndrome is glomerular barrier '
+                                                     'disease unrelated to the '
+                                                     'functional renal failure of '
+                                                     'hepatorenal syndrome.'
+                                           }},
                                           {'question': 'Contrast nephropathy '
                                                        'prevention theme?',
                                            'options': ['A) Mandate high-osmolar '
@@ -2888,7 +5025,30 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'contrast dose, and '
                                                           'optimizing hydration—not '
                                                           'dehydrating patients or '
-                                                          'adding nephrotoxins.'}]},
+                                                          'adding nephrotoxins.',
+                                           'choice_explanations': {
+                                               'A': 'High-osmolar contrast increases '
+                                                     'nephrotoxicity risk and should be '
+                                                     'avoided in favor of '
+                                                     'lower-osmolar/iso-osmolar agents '
+                                                     'when contrast is necessary.',
+                                               'B': 'Routine NSAID loading adds '
+                                                     'afferent arteriolar constriction '
+                                                     'and nephrotoxicity around '
+                                                     'contrast exposure rather than '
+                                                     'protecting the kidney.',
+                                               'C': 'Withholding IV fluids in '
+                                                     'dehydrated high-risk patients '
+                                                     'worsens contrast-associated AKI '
+                                                     'risk; hydration is a key '
+                                                     'preventive measure.',
+                                               'D': 'Contrast-associated AKI risk rises '
+                                                     'with CKD, diabetes, and '
+                                                     'hypovolemia; prevention '
+                                                     'emphasizes necessity assessment, '
+                                                     'lowest adequate dose, and '
+                                                     'optimizing volume status.'
+                                           }}]},
                 'cases': {'easy': [{'title': 'Oliguria after Diarrhea',
                                     'stem': 'Elderly man with gastroenteritis has dry '
                                             'mucosa and creatinine rise that improves '
@@ -2965,7 +5125,27 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                         'after sprain, reducing '
                                                         'unnecessary films while '
                                                         'catching clinically important '
-                                                        'fractures.'},
+                                                        'fractures.',
+                                         'choice_explanations': {
+                                             'A': 'Ottawa ankle rules use bony '
+                                                   'tenderness and weight-bearing '
+                                                   'ability to decide when ankle/foot '
+                                                   'radiographs are needed after '
+                                                   'sprain, reducing unnecessary films '
+                                                   'while detecting important '
+                                                   'fractures.',
+                                             'B': 'Immediate MRI for every ankle sprain '
+                                                   'is unnecessary; clinical decision '
+                                                   'rules triage who needs plain '
+                                                   'radiographs first.',
+                                             'C': 'Bone scan detects metabolic bone '
+                                                   'activity and is not first-line '
+                                                   'acute imaging after ankle sprain.',
+                                             'D': 'Inability to bear weight is an '
+                                                   'Ottawa indication for radiographs; '
+                                                   'a no-imaging pathway regardless of '
+                                                   'that finding would miss fractures.'
+                                         }},
                                         {'question': 'Colles fracture typically '
                                                      'follows?',
                                          'options': ['A) Direct blow causing isolated '
@@ -2989,7 +5169,28 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                         'the distal fragment. Smith '
                                                         'fractures angulate volarly; '
                                                         'scaphoid and ankle fractures '
-                                                        'are different injuries.'},
+                                                        'are different injuries.',
+                                         'choice_explanations': {
+                                             'A': 'A direct blow causing isolated '
+                                                   'scaphoid waist fracture is a '
+                                                   'different carpal injury pattern '
+                                                   'from the classic distal radius '
+                                                   'Colles fracture.',
+                                             'B': 'A Colles fracture is a distal radius '
+                                                   'fracture from fall on an '
+                                                   'outstretched hand, classically with '
+                                                   'dorsal displacement/angulation of '
+                                                   'the distal fragment.',
+                                             'C': 'Fall on a flexed wrist with volar '
+                                                   'angulation describes a Smith '
+                                                   'fracture, the volar-angulated '
+                                                   'counterpart rather than the same '
+                                                   'Colles lesion.',
+                                             'D': 'Twisting injury producing isolated '
+                                                   'medial malleolus fracture is an '
+                                                   'ankle injury, not a distal radius '
+                                                   'Colles fracture.'
+                                         }},
                                         {'question': 'Open fracture needs?',
                                          'options': ['A) Delayed antibiotics until '
                                                      'after multiple days of '
@@ -3010,7 +5211,29 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                         'and urgent surgical '
                                                         'debridement/fixation pathways '
                                                         'reduce infection and improve '
-                                                        'outcomes.'}],
+                                                        'outcomes.',
+                                         'choice_explanations': {
+                                             'A': 'Delaying antibiotics for days after '
+                                                   'open fracture allows bacterial '
+                                                   'colonization of exposed bone and '
+                                                   'soft tissue, raising osteomyelitis '
+                                                   'risk.',
+                                             'B': 'Closed casting alone without '
+                                                   'antibiotic coverage does not '
+                                                   'address contamination of an open '
+                                                   'fracture communicating with the '
+                                                   'environment.',
+                                             'C': 'Open fractures communicate with the '
+                                                   'environment and risk deep '
+                                                   'infection; early IV antibiotics '
+                                                   'plus urgent orthopedic '
+                                                   'debridement/fixation pathways '
+                                                   'reduce infection.',
+                                             'D': 'Outpatient follow-up without wound '
+                                                   'and fracture care leaves '
+                                                   'contamination and instability '
+                                                   'untreated in open fractures.'
+                                         }}],
                                'medium': [{'question': 'Compartment syndrome key early '
                                                        'feature?',
                                            'options': ['A) Absent distal pulses as the '
@@ -3034,7 +5257,28 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'pulselessness is a late '
                                                           'finding. Urgent fasciotomy '
                                                           'is required once '
-                                                          'diagnosed.'},
+                                                          'diagnosed.',
+                                           'choice_explanations': {
+                                               'A': 'Absent distal pulses are a late '
+                                                     'finding after prolonged '
+                                                     'compartment ischemia; relying on '
+                                                     'pulselessness misses early '
+                                                     'compartment syndrome.',
+                                               'B': 'Painless swelling without '
+                                                     'tenderness is inconsistent with '
+                                                     'the severe ischemic muscle pain '
+                                                     'of rising compartment pressure.',
+                                               'C': 'Isolated fever without limb '
+                                                     'findings suggests systemic '
+                                                     'infection, not acute compartment '
+                                                     'hypertension.',
+                                               'D': 'Compartment syndrome elevates '
+                                                     'intracompartmental pressure, '
+                                                     'ischemicizing muscle and nerve; '
+                                                     'early clues are pain out of '
+                                                     'proportion and pain on passive '
+                                                     'stretch.'
+                                           }},
                                           {'question': 'Fat embolism classic setting?',
                                            'options': ['A) After long-bone (or pelvic) '
                                                        'fracture',
@@ -3053,7 +5297,27 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'procedures), presenting '
                                                           '24–72 hours later with '
                                                           'respiratory and neurologic '
-                                                          'features ± petechiae.'},
+                                                          'features ± petechiae.',
+                                           'choice_explanations': {
+                                               'A': 'Fat emboli classically follow '
+                                                     'femoral or other long-bone (or '
+                                                     'pelvic) fractures, presenting '
+                                                     '24–72 hours later with '
+                                                     'respiratory and neurologic '
+                                                     'features ± petechiae.',
+                                               'B': 'Uncomplicated distal phalanx tuft '
+                                                     'fracture is a small distal injury '
+                                                     'that is not the classic setting '
+                                                     'for fat embolism syndrome.',
+                                               'C': 'Simple ankle sprain without '
+                                                     'fracture lacks the marrow fat '
+                                                     'embolization associated with '
+                                                     'major long-bone fractures.',
+                                               'D': 'Elective soft-tissue laceration '
+                                                     'repair alone does not release '
+                                                     'marrow fat into the circulation '
+                                                     'as in long-bone fracture.'
+                                           }},
                                           {'question': 'Septic arthritis urgency?',
                                            'options': ['A) Empiric oral antibiotics '
                                                        'for weeks without aspiration',
@@ -3075,7 +5339,29 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'antibiotics and often '
                                                           'surgical drainage—steroids '
                                                           'and delay worsen joint '
-                                                          'outcomes.'}],
+                                                          'outcomes.',
+                                           'choice_explanations': {
+                                               'A': 'Empiric oral antibiotics for weeks '
+                                                     'without aspiration delays '
+                                                     'organism identification and '
+                                                     'adequate source control while '
+                                                     'cartilage is destroyed.',
+                                               'B': 'Septic arthritis rapidly destroys '
+                                                     'cartilage; urgent aspiration for '
+                                                     'Gram stain/culture should precede '
+                                                     'antibiotics when feasible, then '
+                                                     'prompt IV antibiotics and often '
+                                                     'drainage.',
+                                               'C': 'Watchful waiting until cartilage '
+                                                     'is destroyed allows irreversible '
+                                                     'joint damage from enzymatic and '
+                                                     'pressure injury of untreated '
+                                                     'septic arthritis.',
+                                               'D': 'Steroid injection before excluding '
+                                                     'infection suppresses local '
+                                                     'immunity and can worsen septic '
+                                                     'arthritis.'
+                                           }}],
                                'hard': [{'question': 'Salter-Harris injuries involve?',
                                          'options': ['A) Only the adult articular '
                                                      'cartilage surface without physis',
@@ -3092,7 +5378,25 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                         'management. Adult articular '
                                                         'injuries and soft-tissue '
                                                         'sprains are classified '
-                                                        'differently.'},
+                                                        'differently.',
+                                         'choice_explanations': {
+                                             'A': 'Adult articular cartilage surface '
+                                                   'injury without physis is classified '
+                                                   'differently from pediatric '
+                                                   'Salter–Harris physeal fractures.',
+                                             'B': 'Isolated muscle belly strain is '
+                                                   'myofiber injury without involvement '
+                                                   'of the growth plate.',
+                                             'C': 'Salter–Harris classification '
+                                                   'describes fractures involving the '
+                                                   'pediatric physis (growth plate), '
+                                                   'with pattern determining growth '
+                                                   'disturbance risk.',
+                                             'D': 'Pure ligament sprain without bony '
+                                                   'growth-plate involvement is '
+                                                   'soft-tissue injury, not a '
+                                                   'Salter–Harris physeal fracture.'
+                                         }},
                                         {'question': 'Cauda equina red flags include?',
                                          'options': ['A) Isolated mechanical low-back '
                                                      'pain without neurologic change',
@@ -3112,7 +5416,29 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                         'These red flags demand urgent '
                                                         'MRI and decompression to '
                                                         'preserve continence and '
-                                                        'sexual function.'},
+                                                        'sexual function.',
+                                         'choice_explanations': {
+                                             'A': 'Isolated mechanical low-back pain '
+                                                   'without neurologic change lacks the '
+                                                   'saddle anesthesia and sphincter '
+                                                   'dysfunction of cauda equina '
+                                                   'compression.',
+                                             'B': 'Unilateral ankle jerk asymmetry '
+                                                   'alone without sphincter signs may '
+                                                   'reflect radiculopathy but is not '
+                                                   'the full cauda equina red-flag '
+                                                   'constellation.',
+                                             'C': 'Chronic intermittent sciatica '
+                                                   'without red flags is usually '
+                                                   'compressive radiculopathy managed '
+                                                   'electively, not emergency cauda '
+                                                   'equina syndrome.',
+                                             'D': 'Cauda equina compression produces '
+                                                   'saddle anesthesia with bowel or '
+                                                   'bladder dysfunction, demanding '
+                                                   'urgent MRI and decompression to '
+                                                   'preserve continence.'
+                                         }},
                                         {'question': 'Pathologic fracture suggests?',
                                          'options': ['A) Underlying bone weakness from '
                                                      'tumor, osteoporosis, or '
@@ -3135,7 +5461,29 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                         'disease, often after minimal '
                                                         'trauma. Recognizing it '
                                                         'prompts evaluation for the '
-                                                        'underlying bone pathology.'}],
+                                                        'underlying bone pathology.',
+                                         'choice_explanations': {
+                                             'A': 'A pathologic fracture occurs through '
+                                                   'bone weakened by tumor, '
+                                                   'osteoporosis, infection, or '
+                                                   'metabolic disease, often after '
+                                                   'minimal trauma, prompting '
+                                                   'evaluation of the underlying bone '
+                                                   'pathology.',
+                                             'B': 'Normal bone subjected only to '
+                                                   'high-energy trauma defines a '
+                                                   'traumatic fracture through healthy '
+                                                   'bone, not a pathologic fracture.',
+                                             'C': 'Isolated soft-tissue contusion '
+                                                   'without fracture is bruise of '
+                                                   'muscle/fat without cortical '
+                                                   'failure.',
+                                             'D': 'Greenstick injury in a healthy child '
+                                                   'is an incomplete pediatric fracture '
+                                                   'of relatively normal bone, not the '
+                                                   'definition of pathologic fracture '
+                                                   'through diseased bone.'
+                                         }}],
                                'extreme': [{'question': 'Necrotizing fasciitis clue?',
                                             'options': ['A) Mild localized cellulitis '
                                                         'improving on oral antibiotics',
@@ -3158,7 +5506,27 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                            'emergency requiring '
                                                            'immediate debridement—not '
                                                            'observation as simple '
-                                                           'cellulitis.'},
+                                                           'cellulitis.',
+                                            'choice_explanations': {
+                                                'A': 'Mild localized cellulitis '
+                                                      'improving on oral antibiotics '
+                                                      'lacks the rapid deep necrosis '
+                                                      'and systemic toxicity of '
+                                                      'necrotizing fasciitis.',
+                                                'B': 'Necrotizing fasciitis features '
+                                                      'severe pain out of proportion, '
+                                                      'rapid progression, and systemic '
+                                                      'toxicity, sometimes with '
+                                                      'crepitus, and requires immediate '
+                                                      'surgical debridement.',
+                                                'C': 'Chronic venous stasis dermatitis '
+                                                      'is inflammatory skin change from '
+                                                      'venous hypertension without '
+                                                      'necrotizing fascial infection.',
+                                                'D': 'Uncomplicated superficial '
+                                                      'abrasion is epidermal injury '
+                                                      'without deep fascial necrosis.'
+                                            }},
                                            {'question': 'Pelvic binder indication '
                                                         'theme?',
                                             'options': ['A) Stable isolated pubic '
@@ -3182,7 +5550,28 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                            'injuries during '
                                                            'resuscitation. It is not '
                                                            'needed for every minor '
-                                                           'stable pelvic fracture.'},
+                                                           'stable pelvic fracture.',
+                                            'choice_explanations': {
+                                                'A': 'Stable isolated pubic ramus '
+                                                      'fracture without hemodynamic '
+                                                      'concern usually does not need a '
+                                                      'binder for life-threatening '
+                                                      'pelvic hemorrhage.',
+                                                'B': 'An acetabular fracture already '
+                                                      'fully fixed in the OR no longer '
+                                                      'needs temporary binder tamponade '
+                                                      'for acute unstable ring '
+                                                      'bleeding.',
+                                                'C': 'A pelvic binder temporarily '
+                                                      'reduces pelvic volume and can '
+                                                      'tamponade venous/cancellous '
+                                                      'bleeding in unstable pelvic ring '
+                                                      'injuries during resuscitation.',
+                                                'D': 'Chronic pelvic deformity without '
+                                                      'acute bleeding is not an '
+                                                      'indication for emergency binder '
+                                                      'placement.'
+                                            }},
                                            {'question': 'Rhabdomyolysis AKI risk from?',
                                             'options': ['A) Isolated hypercalcemia '
                                                         'without muscle necrosis',
@@ -3203,7 +5592,28 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                            'extreme exertion. '
                                                            'Aggressive IV fluids are '
                                                            'the mainstay of kidney '
-                                                           'protection.'}]},
+                                                           'protection.',
+                                            'choice_explanations': {
+                                                'A': 'Isolated hypercalcemia without '
+                                                      'muscle necrosis does not release '
+                                                      'myoglobin that causes pigment '
+                                                      'nephropathy.',
+                                                'B': 'Simple dehydration without '
+                                                      'rhabdomyolysis can cause '
+                                                      'prerenal AKI but is not '
+                                                      'myoglobinuric kidney injury from '
+                                                      'muscle breakdown.',
+                                                'C': 'Postrenal obstruction from '
+                                                      'prostate enlargement is '
+                                                      'mechanical blockage, a different '
+                                                      'AKI mechanism from myoglobin '
+                                                      'toxicity.',
+                                                'D': 'Rhabdomyolysis releases myoglobin '
+                                                      'and potassium from necrotic '
+                                                      'muscle after crush injury or '
+                                                      'extreme exertion; myoglobin is '
+                                                      'nephrotoxic and can cause AKI.'
+                                            }}]},
                  'cases': {'easy': [{'title': 'Elderly Fall + Shortened Leg',
                                      'stem': 'An 83-year-old falls; leg is shortened '
                                              'and externally rotated; cannot bear '
@@ -3279,7 +5689,30 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                         'Autoimmune blistering '
                                                         'diseases and discoid lupus '
                                                         'have different morphologies '
-                                                        'and demographics.'},
+                                                        'and demographics.',
+                                         'choice_explanations': {
+                                             'A': 'Honey-colored crusts on erosions, '
+                                                   'especially on children’s faces, are '
+                                                   'classic for nonbullous impetigo '
+                                                   'from Staphylococcus aureus or '
+                                                   'Streptococcus pyogenes.',
+                                             'B': 'Pemphigus vulgaris is autoimmune '
+                                                   'acantholysis with flaccid bullae '
+                                                   'and erosions, typically in '
+                                                   'middle-aged adults, not '
+                                                   'honey-crusted pediatric impetigo.',
+                                             'C': 'Bullous pemphigoid is autoimmune '
+                                                   'subepidermal tense bullae in '
+                                                   'elderly patients, morphologically '
+                                                   'distinct from honey-colored '
+                                                   'impetigo crusts.',
+                                             'D': 'Discoid lupus erythematosus produces '
+                                                   'scarring erythematous plaques with '
+                                                   'follicular plugging, not '
+                                                   'honey-colored '
+                                                   'staphylococcal/streptococcal '
+                                                   'crusts.'
+                                         }},
                                         {'question': 'ABCDE screens for?',
                                          'options': ['A) Seborrheic keratosis alone',
                                                      'B) Melanoma',
@@ -3295,7 +5728,26 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                         'Seborrheic keratoses, '
                                                         'dermatofibromas, and lipomas '
                                                         'have different clinical '
-                                                        'signatures.'},
+                                                        'signatures.',
+                                         'choice_explanations': {
+                                             'A': 'Seborrheic keratosis is a benign '
+                                                   'stuck-on epidermal proliferation '
+                                                   'and is not what ABCDE melanoma '
+                                                   'screening targets.',
+                                             'B': 'ABCDE (Asymmetry, Border '
+                                                   'irregularity, Color variegation, '
+                                                   'Diameter, Evolution) screens '
+                                                   'pigmented lesions for melanoma risk '
+                                                   'and guides biopsy decisions.',
+                                             'C': 'Dermatofibroma is a benign dermal '
+                                                   'fibrous nodule, usually after '
+                                                   'trauma, and is not the target of '
+                                                   'ABCDE melanoma screening.',
+                                             'D': 'Lipoma is a benign subcutaneous fat '
+                                                   'tumor without the pigmented ABCDE '
+                                                   'features used for melanoma '
+                                                   'detection.'
+                                         }},
                                         {'question': 'Auspitz sign relates to?',
                                          'options': ['A) Atopic dermatitis',
                                                      'B) Lichen planus',
@@ -3311,7 +5763,25 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                         'dermatitis, lichen planus, '
                                                         'and nummular eczema are '
                                                         'diagnosed by other '
-                                                        'morphologic clues.'}],
+                                                        'morphologic clues.',
+                                         'choice_explanations': {
+                                             'A': 'Atopic dermatitis is eczematous '
+                                                   'barrier dysfunction with itch and '
+                                                   'flexure involvement, diagnosed '
+                                                   'without Auspitz pinpoint bleeding.',
+                                             'B': 'Lichen planus shows pruritic purple '
+                                                   'polygonal papules with Wickham '
+                                                   'striae, not Auspitz bleeding of '
+                                                   'psoriasis.',
+                                             'C': 'Auspitz sign is pinpoint bleeding '
+                                                   'when psoriatic scale is removed, '
+                                                   'reflecting dilated dermal papillae '
+                                                   'under thinned epidermis.',
+                                             'D': 'Nummular eczema forms coin-shaped '
+                                                   'eczematous plaques without the '
+                                                   'classic Auspitz phenomenon of '
+                                                   'psoriasis.'
+                                         }}],
                                'medium': [{'question': 'Scabies itch is worse?',
                                            'options': ['A) Facial pruritus triggered '
                                                        'by ultraviolet exposure '
@@ -3338,7 +5808,28 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'other diagnoses; '
                                                           'hypopigmented patches '
                                                           'suggest pityriasis '
-                                                          'versicolor or vitiligo.'},
+                                                          'versicolor or vitiligo.',
+                                           'choice_explanations': {
+                                               'A': 'Facial pruritus triggered by '
+                                                     'ultraviolet exposure fits '
+                                                     'polymorphous light eruption, not '
+                                                     'nocturnal burrow-site itch of '
+                                                     'scabies.',
+                                               'B': 'Cold-induced wheals of cold '
+                                                     'urticaria are mast-cell–mediated '
+                                                     'physical urticaria, unrelated to '
+                                                     'Sarcoptes burrows.',
+                                               'C': 'Painless hypopigmented macules of '
+                                                     'pityriasis versicolor are '
+                                                     'Malassezia-related pigment change '
+                                                     'without the intense nocturnal '
+                                                     'itch of scabies.',
+                                               'D': 'Sarcoptes scabiei burrows in '
+                                                     'stratum corneum; intense '
+                                                     'nocturnal pruritus in finger '
+                                                     'webs, wrists, and genitals is '
+                                                     'characteristic.'
+                                           }},
                                           {'question': 'Cellulitis features?',
                                            'options': ['A) Spreading erythema, warmth, '
                                                        'and tenderness of the skin and '
@@ -3361,7 +5852,27 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'and tenderness. Psoriasis '
                                                           'plaques, granuloma '
                                                           'annulare, and lipomas are '
-                                                          'morphologically distinct.'},
+                                                          'morphologically distinct.',
+                                           'choice_explanations': {
+                                               'A': 'Cellulitis is bacterial infection '
+                                                     'of dermis and subcutaneous tissue '
+                                                     'producing expanding erythema, '
+                                                     'warmth, swelling, and tenderness.',
+                                               'B': 'Well-demarcated silvery plaques on '
+                                                     'extensor surfaces describe plaque '
+                                                     'psoriasis, an immune-mediated '
+                                                     'epidermal hyperplasia, not '
+                                                     'soft-tissue infection.',
+                                               'C': 'Annular plaque of granuloma '
+                                                     'annulare is a granulomatous '
+                                                     'dermal disorder without the '
+                                                     'warmth and spreading erythema of '
+                                                     'cellulitis.',
+                                               'D': 'Noninflammatory subcutaneous '
+                                                     'lipoma is a soft fat tumor '
+                                                     'without infectious inflammatory '
+                                                     'skin signs.'
+                                           }},
                                           {'question': 'SJS/TEN are?',
                                            'options': ['A) Mild irritant contact '
                                                        'dermatitis only',
@@ -3385,7 +5896,26 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'morbidity. Mild drug '
                                                           'exanthems and psoriasis '
                                                           'lack this necrolytic '
-                                                          'mucocutaneous pattern.'}],
+                                                          'mucocutaneous pattern.',
+                                           'choice_explanations': {
+                                               'A': 'Mild irritant contact dermatitis '
+                                                     'is barrier injury from irritants '
+                                                     'without widespread epidermal '
+                                                     'necrosis of SJS/TEN.',
+                                               'B': 'Stevens–Johnson syndrome and toxic '
+                                                     'epidermal necrolysis are severe '
+                                                     'drug-induced reactions with '
+                                                     'widespread epidermal necrosis and '
+                                                     'mucosal involvement.',
+                                               'C': 'Simple morbilliform drug rash is a '
+                                                     'common exanthem without '
+                                                     'sheet-like necrolysis and severe '
+                                                     'mucosal disease of SJS/TEN.',
+                                               'D': 'Chronic plaque psoriasis '
+                                                     'exacerbation is immune-mediated '
+                                                     'epidermal hyperplasia, not acute '
+                                                     'drug-induced necrolysis.'
+                                           }}],
                                'hard': [{'question': 'Nikolsky sign can be positive '
                                                      'in?',
                                          'options': ['A) Uncomplicated urticaria '
@@ -3406,7 +5936,26 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                         'keratinocyte adhesion. '
                                                         'Urticaria, acne, and vitiligo '
                                                         'do not show true Nikolsky '
-                                                        'positivity.'},
+                                                        'positivity.',
+                                         'choice_explanations': {
+                                             'A': 'Uncomplicated urticaria is dermal '
+                                                   'edema from mast-cell mediators '
+                                                   'without sheet-like epidermal '
+                                                   'detachment of a positive Nikolsky '
+                                                   'sign.',
+                                             'B': 'Acne vulgaris is follicular '
+                                                   'inflammation with comedones and '
+                                                   'papules and does not show Nikolsky '
+                                                   'epidermal shearing.',
+                                             'C': 'Nikolsky sign—lateral pressure '
+                                                   'causing sheet-like epidermal '
+                                                   'separation—is positive in TEN/SJS '
+                                                   'and in pemphigus from loss of '
+                                                   'keratinocyte adhesion.',
+                                             'D': 'Vitiligo is autoimmune melanocyte '
+                                                   'loss causing depigmentation without '
+                                                   'epidermal detachment.'
+                                         }},
                                         {'question': 'Erythema migrans suggests?',
                                          'options': ['A) Secondary syphilis as the '
                                                      'identical lesion name',
@@ -3426,7 +5975,25 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                         'lesions often post-herpes; '
                                                         'syphilis and fixed drug '
                                                         'eruptions are different '
-                                                        'morphologies and etiologies.'},
+                                                        'morphologies and etiologies.',
+                                         'choice_explanations': {
+                                             'A': 'Secondary syphilis produces '
+                                                   'disseminated mucocutaneous lesions '
+                                                   'including palms/soles but is not '
+                                                   'identically named erythema migrans '
+                                                   'of Lyme disease.',
+                                             'B': 'Fixed drug eruption is a recurrent '
+                                                   'drug-induced plaque at the same '
+                                                   'site and is not the expanding '
+                                                   'annular Lyme rash.',
+                                             'C': 'Erythema multiforme shows targetoid '
+                                                   'lesions often post-herpes and is a '
+                                                   'different entity from erythema '
+                                                   'migrans of early Lyme.',
+                                             'D': 'Erythema migrans is the expanding '
+                                                   'annular rash of early Lyme '
+                                                   'borreliosis after Ixodes tick bite.'
+                                         }},
                                         {'question': 'Necrotizing infection vs simple '
                                                      'cellulitis clue?',
                                          'options': ['A) Extreme pain, crepitus, and '
@@ -3447,7 +6014,26 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                         'sepsis. Suspicion mandates '
                                                         'urgent surgical exploration '
                                                         'rather than observation on '
-                                                        'oral antibiotics alone.'}],
+                                                        'oral antibiotics alone.',
+                                         'choice_explanations': {
+                                             'A': 'Extreme pain, crepitus, and rapid '
+                                                   'clinical deterioration distinguish '
+                                                   'necrotizing soft-tissue infection '
+                                                   'from simple cellulitis and mandate '
+                                                   'urgent surgical exploration.',
+                                             'B': 'Mild warmth responding quickly to '
+                                                   'oral antibiotics is the expected '
+                                                   'course of uncomplicated cellulitis, '
+                                                   'not necrotizing infection.',
+                                             'C': 'Chronic bilateral venous stasis '
+                                                   'changes reflect venous hypertension '
+                                                   'without acute necrotizing fascial '
+                                                   'infection.',
+                                             'D': 'Localized folliculitis is '
+                                                   'superficial follicular infection '
+                                                   'without systemic toxicity and deep '
+                                                   'necrosis.'
+                                         }}],
                                'extreme': [{'question': 'Purpura fulminans '
                                                         'association?',
                                             'options': ['A) Uncomplicated atopic '
@@ -3470,7 +6056,27 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                            'It is a medical emergency '
                                                            'distinct from benign '
                                                            'eczematous or contact '
-                                                           'eruptions.'},
+                                                           'eruptions.',
+                                            'choice_explanations': {
+                                                'A': 'Uncomplicated atopic eczema flare '
+                                                      'is barrier-related inflammation '
+                                                      'without DIC-driven purpuric skin '
+                                                      'necrosis of purpura fulminans.',
+                                                'B': 'Purpura fulminans is acute '
+                                                      'purpuric skin necrosis from '
+                                                      'disseminated intravascular '
+                                                      'coagulation and dermal vascular '
+                                                      'thrombosis, classically with '
+                                                      'meningococcal sepsis.',
+                                                'C': 'Mild viral exanthem without shock '
+                                                      'lacks the retiform purpura and '
+                                                      'necrotic skin of purpura '
+                                                      'fulminans.',
+                                                'D': 'Localized contact dermatitis is '
+                                                      'type IV or irritant epidermal '
+                                                      'inflammation without septic DIC '
+                                                      'skin necrosis.'
+                                            }},
                                            {'question': 'Calciphylaxis occurs mainly '
                                                         'in?',
                                             'options': ['A) Healthy adolescents '
@@ -3495,7 +6101,29 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                            'calcium–phosphate '
                                                            'metabolism. It is rare '
                                                            'outside advanced '
-                                                           'CKD/dialysis contexts.'},
+                                                           'CKD/dialysis contexts.',
+                                            'choice_explanations': {
+                                                'A': 'Healthy adolescents without '
+                                                      'metabolic disease rarely develop '
+                                                      'calciphylaxis, which is tied to '
+                                                      'disordered mineral metabolism in '
+                                                      'advanced CKD.',
+                                                'B': 'Isolated mild fatty liver alone '
+                                                      'is not the usual setting of '
+                                                      'calcific uremic arteriolopathy.',
+                                                'C': 'Calciphylaxis (calcific uremic '
+                                                      'arteriolopathy) causes painful '
+                                                      'ischemic skin necrosis mainly in '
+                                                      'end-stage kidney disease, often '
+                                                      'dialysis-dependent, with '
+                                                      'disordered calcium–phosphate '
+                                                      'metabolism.',
+                                                'D': 'Children with uncomplicated '
+                                                      'atopic dermatitis have '
+                                                      'eczematous barrier disease, not '
+                                                      'calcific arteriolar occlusion of '
+                                                      'calciphylaxis.'
+                                            }},
                                            {'question': 'Toxic shock associations '
                                                         'include?',
                                             'options': ['A) Primary herpes simplex '
@@ -3520,7 +6148,30 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                            'antifungal, and '
                                                            'photosensitivity disorders '
                                                            'are different '
-                                                           'mechanisms.'}]},
+                                                           'mechanisms.',
+                                            'choice_explanations': {
+                                                'A': 'Primary herpes simplex '
+                                                      'gingivostomatitis is viral '
+                                                      'mucosal infection and is not '
+                                                      'superantigen toxin–mediated '
+                                                      'toxic shock.',
+                                                'B': 'Uncomplicated dermatophyte '
+                                                      'infection is keratinophilic '
+                                                      'fungal disease of skin/nails '
+                                                      'without '
+                                                      'staphylococcal/streptococcal '
+                                                      'toxin shock.',
+                                                'C': 'Drug-induced photosensitivity is '
+                                                      'phototoxic or photoallergic skin '
+                                                      'injury from drugs plus UV light, '
+                                                      'a different mechanism from toxic '
+                                                      'shock.',
+                                                'D': 'Toxic shock syndromes are '
+                                                      'mediated by superantigen toxins '
+                                                      'from S. aureus or S. pyogenes, '
+                                                      'causing fever, shock, multiorgan '
+                                                      'failure, and diffuse erythema.'
+                                            }}]},
                  'cases': {'easy': [{'title': 'Child with Facial Crusts',
                                      'stem': 'A 5-year-old has honey-colored crusts '
                                              'around the mouth after a scratch.',
@@ -3595,7 +6246,25 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                   'trauma, inversion, and coagulopathy '
                                                   'are important but less frequent '
                                                   "primary causes; the '4 Ts' "
-                                                  'framework still starts with tone.'},
+                                                  'framework still starts with tone.',
+                                   'choice_explanations': {
+                                       'A': 'Uterine atony—failure of myometrial '
+                                             'contraction after delivery—is the most '
+                                             'common cause of postpartum hemorrhage; '
+                                             'without contraction, spiral arteries '
+                                             'continue to bleed.',
+                                       'B': 'Retained products of conception cause '
+                                             'bleeding by preventing full uterine '
+                                             'contraction and leaving vascular tissue '
+                                             'in situ, but they are less common than '
+                                             'atony as the primary cause.',
+                                       'C': 'Uterine inversion is rare catastrophic '
+                                             'invagination of the fundus and is not the '
+                                             'most frequent PPH cause.',
+                                       'D': 'Coagulopathy impairs clot formation and '
+                                             'can worsen PPH but is not the single most '
+                                             'common primary cause compared with atony.'
+                                   }},
                                   {'question': 'Ectopic risk rises with?',
                                    'options': ['A) Prior uncomplicated term vaginal '
                                                'birth alone',
@@ -3610,7 +6279,22 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                   'ectopic—impairing blastocyst '
                                                   'transport. Uncomplicated prior '
                                                   'birth, folate, and blood group are '
-                                                  'not major ectopic risk drivers.'},
+                                                  'not major ectopic risk drivers.',
+                                   'choice_explanations': {
+                                       'A': 'Prior uncomplicated term vaginal birth '
+                                             'alone does not damage tubal architecture '
+                                             'and is not a major ectopic risk factor.',
+                                       'B': 'Ectopic pregnancy risk rises when tubal '
+                                             'architecture is damaged—prior PID, tubal '
+                                             'surgery, or prior ectopic—impairing '
+                                             'blastocyst transport to the uterus.',
+                                       'C': 'Folic acid supplementation supports '
+                                             'neural-tube prevention and does not '
+                                             'increase ectopic implantation risk.',
+                                       'D': 'Blood group O is not an independent major '
+                                             'risk driver for ectopic pregnancy '
+                                             'compared with tubal damage.'
+                                   }},
                                   {'question': 'Fetal heart by Doppler often from?',
                                    'options': ['A) At 4 weeks by Doppler in all '
                                                'pregnancies',
@@ -3627,7 +6311,26 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                   'usually requires transvaginal '
                                                   'ultrasound; waiting until the third '
                                                   'trimester is unnecessary for '
-                                                  'routine dating/viability checks.'}],
+                                                  'routine dating/viability checks.',
+                                   'choice_explanations': {
+                                       'A': 'At 4 weeks, embryonic cardiac activity is '
+                                             'generally too early for reliable handheld '
+                                             'Doppler detection in all pregnancies; '
+                                             'ultrasound is needed earlier.',
+                                       'B': 'Waiting only until after 28 weeks is '
+                                             'unnecessarily late; Doppler commonly '
+                                             'detects fetal heart tones much earlier in '
+                                             'the second month of the second trimester '
+                                             'window.',
+                                       'C': 'Handheld Doppler commonly detects fetal '
+                                             'heart tones around 10–12 weeks’ '
+                                             'gestation, depending on habitus and '
+                                             'equipment.',
+                                       'D': 'Quickening at ~20 weeks is maternal '
+                                             'perception of movement; fetal heart tones '
+                                             'are detectable by Doppler well before '
+                                             'that.'
+                                   }}],
                          'medium': [{'question': 'Pre-eclampsia is HTN after 20 weeks '
                                                  'plus?',
                                      'options': ['A) Isolated edema without '
@@ -3646,7 +6349,24 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                     'hematologic) or uteroplacental '
                                                     'dysfunction. Edema alone is '
                                                     'nonspecific; GDM and early nausea '
-                                                    'are separate conditions.'},
+                                                    'are separate conditions.',
+                                     'choice_explanations': {
+                                         'A': 'Isolated edema without hypertension is '
+                                               'nonspecific in pregnancy and does not '
+                                               'define pre-eclampsia.',
+                                         'B': 'Gestational diabetes is '
+                                               'pregnancy-related glucose intolerance '
+                                               'and is a separate diagnosis from '
+                                               'pre-eclampsia.',
+                                         'C': 'Physiologic first-trimester nausea '
+                                               'occurs before 20 weeks and is unrelated '
+                                               'to pre-eclampsia’s diagnostic criteria.',
+                                         'D': 'Pre-eclampsia is new hypertension after '
+                                               '20 weeks plus proteinuria or maternal '
+                                               'end-organ dysfunction (renal, hepatic, '
+                                               'neurologic, hematologic) or '
+                                               'uteroplacental dysfunction.'
+                                     }},
                                     {'question': 'Ectopic classic combo?',
                                      'options': ['A) Positive pregnancy test, empty '
                                                  'uterus on ultrasound, and pain or '
@@ -3667,7 +6387,25 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                     'gestation makes ectopic unlikely '
                                                     '(except rare heterotopic '
                                                     'pregnancy). Early diagnosis '
-                                                    'prevents rupture.'},
+                                                    'prevents rupture.',
+                                     'choice_explanations': {
+                                         'A': 'Ectopic pregnancy classically combines a '
+                                               'positive pregnancy test, an empty '
+                                               'uterine cavity on ultrasound, and '
+                                               'unilateral pain or bleeding.',
+                                         'B': 'Negative hCG with an intrauterine '
+                                               'pregnancy is physiologically '
+                                               'inconsistent and does not describe '
+                                               'ectopic pregnancy.',
+                                         'C': 'An intrauterine gestational sac with '
+                                               'fetal pole indicates intrauterine '
+                                               'pregnancy and makes ectopic unlikely '
+                                               'except rare heterotopic pregnancy.',
+                                         'D': 'Missed menses alone without hCG and '
+                                               'ultrasound evaluation is insufficient '
+                                               'to diagnose or exclude ectopic '
+                                               'pregnancy.'
+                                     }},
                                     {'question': 'Shoulder dystocia is?',
                                      'options': ['A) A normal second-stage variant '
                                                  'needing no maneuvers',
@@ -3688,7 +6426,26 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                     'injury. It requires immediate '
                                                     'help and maneuvers (McRoberts, '
                                                     'suprapubic pressure)—not '
-                                                    'expectant delay.'}],
+                                                    'expectant delay.',
+                                     'choice_explanations': {
+                                         'A': 'Shoulder dystocia is not a normal '
+                                               'second-stage variant; delayed delivery '
+                                               'of the shoulders risks hypoxia and '
+                                               'brachial plexus injury.',
+                                         'B': 'Shoulder dystocia is an obstetric '
+                                               'emergency when the fetal shoulders fail '
+                                               'to deliver after the head, requiring '
+                                               'immediate help and maneuvers such as '
+                                               'McRoberts and suprapubic pressure.',
+                                         'C': 'Failure of placental separation after 30 '
+                                               'minutes defines retained placenta, a '
+                                               'third-stage problem distinct from '
+                                               'shoulder dystocia.',
+                                         'D': 'Cord prolapse is umbilical cord descent '
+                                               'after membrane rupture with risk of '
+                                               'cord compression, a different emergency '
+                                               'from shoulder impaction.'
+                                     }}],
                          'hard': [{'question': 'Magnesium sulfate in obstetrics is '
                                                'used for?',
                                    'options': ['A) First-line tocolysis for all '
@@ -3708,7 +6465,23 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                   'also offers fetal neuroprotection '
                                                   'in selected preterm births. It is '
                                                   'not a routine induction agent or '
-                                                  'GBS antibiotic.'},
+                                                  'GBS antibiotic.',
+                                   'choice_explanations': {
+                                       'A': 'Magnesium sulfate is not first-line '
+                                             'tocolysis for all preterm labor; other '
+                                             'agents are used for tocolysis when '
+                                             'indicated.',
+                                       'B': 'Routine induction at term uses oxytocin or '
+                                             'prostaglandins, not magnesium sulfate as '
+                                             'an induction agent for all women.',
+                                       'C': 'Magnesium sulfate prevents and treats '
+                                             'eclamptic seizures in pre-eclampsia with '
+                                             'severe features and eclampsia by raising '
+                                             'the seizure threshold.',
+                                       'D': 'Group B streptococcus prophylaxis uses '
+                                             'antibiotics such as penicillin, not '
+                                             'magnesium sulfate.'
+                                   }},
                                   {'question': 'Placenta previa bleeding is typically?',
                                    'options': ['A) Painful bleeding with a hypertonic '
                                                'tender uterus (abruption pattern)',
@@ -3722,7 +6495,24 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                   'painless as the placenta shears '
                                                   'with lower-segment change. Painful '
                                                   'bleeding with uterine hypertonus '
-                                                  'suggests abruption instead.'},
+                                                  'suggests abruption instead.',
+                                   'choice_explanations': {
+                                       'A': 'Painful bleeding with a hypertonic tender '
+                                             'uterus is the classic abruption pattern '
+                                             'from premature placental separation, not '
+                                             'previa.',
+                                       'B': 'Passage of tissue with cramping at 8 weeks '
+                                             'describes early pregnancy loss, not '
+                                             'placenta previa bleeding later in '
+                                             'pregnancy.',
+                                       'C': 'Amenorrhea without bleeding is absence of '
+                                             'menses and does not describe previa '
+                                             'hemorrhage.',
+                                       'D': 'Placenta previa overlies the cervical os; '
+                                             'bleeding is typically painless as the '
+                                             'placenta shears with lower-segment change '
+                                             'and cervical effacement.'
+                                   }},
                                   {'question': 'HELLP relates to?',
                                    'options': ['A) Hemolysis, elevated liver enzymes, '
                                                'and low platelets',
@@ -3742,7 +6532,24 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                   'management. Hyperemesis, isolated '
                                                   'gestational thrombocytopenia, and '
                                                   'cholestasis are distinct '
-                                                  'entities.'}],
+                                                  'entities.',
+                                   'choice_explanations': {
+                                       'A': 'HELLP syndrome denotes Hemolysis, Elevated '
+                                             'Liver enzymes, and Low Platelets—a severe '
+                                             'pre-eclampsia spectrum disorder requiring '
+                                             'urgent obstetric management.',
+                                       'B': 'Hyperemesis with normal liver enzymes and '
+                                             'platelets is intractable early pregnancy '
+                                             'vomiting without the HELLP laboratory '
+                                             'triad.',
+                                       'C': 'Isolated gestational thrombocytopenia is '
+                                             'mild platelet reduction without hemolysis '
+                                             'or liver injury of HELLP.',
+                                       'D': 'Cholestasis of pregnancy features pruritus '
+                                             'and elevated bile acids with usually '
+                                             'preserved synthetic function, distinct '
+                                             'from HELLP.'
+                                   }}],
                          'extreme': [{'question': 'Amniotic fluid embolism theme?',
                                       'options': ['A) Gradual postpartum blues over '
                                                   'days without shock',
@@ -3764,7 +6571,26 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                      'labor or immediately postpartum. '
                                                      'It is a clinical diagnosis '
                                                      'requiring immediate '
-                                                     'resuscitation.'},
+                                                     'resuscitation.',
+                                      'choice_explanations': {
+                                          'A': 'Gradual postpartum blues over days is '
+                                                'mood lability without sudden '
+                                                'cardiorespiratory collapse and DIC of '
+                                                'amniotic fluid embolism.',
+                                          'B': 'Amniotic fluid embolism presents with '
+                                                'abrupt hypoxia, '
+                                                'hypotension/cardiovascular collapse, '
+                                                'and often DIC during labor or '
+                                                'immediately postpartum.',
+                                          'C': 'Isolated retained placenta without '
+                                                'hemodynamic change is a third-stage '
+                                                'delivery problem without the '
+                                                'catastrophic AFE triad.',
+                                          'D': 'Mild transient hypotension after '
+                                                'epidural without hypoxia or DIC is '
+                                                'usually sympathectomy-related and '
+                                                'lacks the AFE clinical picture.'
+                                      }},
                                      {'question': 'Acute fatty liver of pregnancy '
                                                   'overlaps with?',
                                       'options': ['A) First-trimester hyperemesis '
@@ -3787,7 +6613,30 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                      'clinically with HELLP/severe '
                                                      'pre-eclampsia and requires '
                                                      'urgent delivery and supportive '
-                                                     'care.'},
+                                                     'care.',
+                                      'choice_explanations': {
+                                          'A': 'First-trimester hyperemesis without '
+                                                'liver synthetic failure is early '
+                                                'intractable vomiting, not the '
+                                                'late-pregnancy liver-failure phenotype '
+                                                'of AFLP.',
+                                          'B': 'Uncomplicated gestational '
+                                                'thrombocytopenia alone lacks the '
+                                                'coagulopathy, hypoglycemia, and liver '
+                                                'failure of acute fatty liver of '
+                                                'pregnancy.',
+                                          'C': 'Acute fatty liver of pregnancy is a '
+                                                'third-trimester mitochondrial '
+                                                'hepatopathy presenting with a '
+                                                'late-pregnancy acute liver-failure '
+                                                'phenotype (coagulopathy, hypoglycemia, '
+                                                'encephalopathy).',
+                                          'D': 'Intrahepatic cholestasis with pruritus '
+                                                'but preserved synthetic function is '
+                                                'bile-acid–related itching, not '
+                                                'identical to AFLP’s synthetic liver '
+                                                'failure.'
+                                      }},
                                      {'question': 'Uterine rupture risk rises with?',
                                       'options': ['A) Primiparous spontaneous labor '
                                                   'with no uterine surgery',
@@ -3808,7 +6657,27 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                      'labor has much lower risk; '
                                                      'rupture presents with fetal '
                                                      'distress, loss of station, and '
-                                                     'maternal shock.'}]},
+                                                     'maternal shock.',
+                                      'choice_explanations': {
+                                          'A': 'Primiparous spontaneous labor with no '
+                                                'uterine surgery has a low baseline '
+                                                'rupture risk compared with labor in a '
+                                                'scarred uterus.',
+                                          'B': 'Elective repeat cesarean before labor '
+                                                'avoids labor stress on a scar and is '
+                                                'not the highest rupture-risk setting '
+                                                'compared with trial of labor after '
+                                                'cesarean.',
+                                          'C': 'Uncomplicated vacuum extraction without '
+                                                'scar is instrumental vaginal delivery '
+                                                'risk, not the main uterine rupture '
+                                                'risk driver of a prior cesarean scar '
+                                                'in labor.',
+                                          'D': 'Uterine rupture risk rises most with '
+                                                'labor in a scarred uterus after prior '
+                                                'cesarean, especially with induction or '
+                                                'dysfunctional labor.'
+                                      }}]},
            'cases': {'easy': [{'title': 'Boggy Uterus Bleeding',
                                'stem': 'After vaginal delivery, heavy bleeding with a '
                                        'soft boggy uterus.',
@@ -3887,7 +6756,28 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                        'diarrhea who can drink. IV '
                                                        'fluids are needed for severe '
                                                        'shock or inability to tolerate '
-                                                       'oral intake.'},
+                                                       'oral intake.',
+                                        'choice_explanations': {
+                                            'A': 'Oral rehydration solution replaces '
+                                                  'water and electrolytes via '
+                                                  'glucose–sodium cotransport and is '
+                                                  'first-line for most children with '
+                                                  'dehydrating diarrhea who can still '
+                                                  'drink.',
+                                            'B': 'Children with severe shock need IV '
+                                                  '(or IO) resuscitation; ORS alone is '
+                                                  'not the only initial fluid strategy '
+                                                  'when perfusion is critically '
+                                                  'impaired.',
+                                            'C': 'Isolated constipation is hard stool '
+                                                  'without diarrheal fluid and '
+                                                  'electrolyte losses that ORS is '
+                                                  'designed to replace.',
+                                            'D': 'Surgical abdomen with peritonitis '
+                                                  'requires surgical evaluation and IV '
+                                                  'therapy, not ORS as preferred sole '
+                                                  'therapy.'
+                                        }},
                                        {'question': 'MMR vaccine type?',
                                         'options': ['A) Inactivated whole-virus only',
                                                     'B) Live attenuated',
@@ -3903,7 +6793,26 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                        'toxoid, and polysaccharide '
                                                        'vaccines are different '
                                                        'platforms used for other '
-                                                       'pathogens.'},
+                                                       'pathogens.',
+                                        'choice_explanations': {
+                                            'A': 'Inactivated whole-virus vaccines '
+                                                  '(e.g., some influenza/polio '
+                                                  'formulations) use killed virus; MMR '
+                                                  'is live attenuated instead.',
+                                            'B': 'MMR is a live attenuated vaccine that '
+                                                  'replicates limitedly to induce '
+                                                  'immunity and is generally '
+                                                  'contraindicated in significant '
+                                                  'immunocompromise and pregnancy.',
+                                            'C': 'Toxoid vaccines (tetanus, diphtheria) '
+                                                  'use inactivated toxins, a different '
+                                                  'platform from live attenuated MMR.',
+                                            'D': 'Pure polysaccharide or conjugate '
+                                                  'vaccines target bacterial capsules '
+                                                  'and are not the live attenuated '
+                                                  'viral platform of MMR, nor identical '
+                                                  'to tetanus toxoid.'
+                                        }},
                                        {'question': 'APGAR is done at?',
                                         'options': ['A) Only at 30 minutes after birth',
                                                     'B) Only at hospital discharge',
@@ -3923,7 +6832,25 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                        'scores are recorded if the '
                                                        '5-minute score remains low. It '
                                                        'is not a discharge readiness '
-                                                       'tool.'}],
+                                                       'tool.',
+                                        'choice_explanations': {
+                                            'A': 'Apgar scoring at only 30 minutes '
+                                                  'misses the standard early transition '
+                                                  'assessments at 1 and 5 minutes.',
+                                            'B': 'Hospital discharge assessment is '
+                                                  'separate from the Apgar score '
+                                                  'summarizing immediate postnatal '
+                                                  'transition.',
+                                            'C': 'The Apgar score assesses appearance, '
+                                                  'pulse, grimace, activity, and '
+                                                  'respiration at 1 and 5 minutes of '
+                                                  'life, with further scores if the '
+                                                  '5-minute score remains low.',
+                                            'D': 'Conception dating ultrasound '
+                                                  'estimates gestational age and is '
+                                                  'unrelated to postnatal Apgar '
+                                                  'transition scoring.'
+                                        }}],
                               'medium': [{'question': 'Kawasaki complication?',
                                           'options': ['A) Isolated mitral stenosis as '
                                                       'the classic sequela',
@@ -3945,7 +6872,27 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                          'stenosis, pulmonary '
                                                          'fibrosis, or femoral '
                                                          'AVN—drives follow-up '
-                                                         'echocardiography.'},
+                                                         'echocardiography.',
+                                          'choice_explanations': {
+                                              'A': 'Isolated mitral stenosis is '
+                                                    'rheumatic or congenital valve '
+                                                    'narrowing and is not the classic '
+                                                    'sequela of Kawasaki vasculitis.',
+                                              'B': 'Chronic interstitial lung fibrosis '
+                                                    'is a pulmonary parenchymal '
+                                                    'process, not the main Kawasaki '
+                                                    'complication.',
+                                              'C': 'Avascular necrosis of the femoral '
+                                                    'head is ischemic bone necrosis '
+                                                    '(e.g., steroid-related or Perthes) '
+                                                    'and is not the defining Kawasaki '
+                                                    'feature.',
+                                              'D': 'Kawasaki disease is medium-vessel '
+                                                    'vasculitis of childhood; coronary '
+                                                    'artery aneurysms are the major '
+                                                    'complication prevented by timely '
+                                                    'IVIG.'
+                                          }},
                                          {'question': 'Fever in a neonate is?',
                                           'options': ['A) A serious infection until '
                                                       'proven otherwise',
@@ -3964,7 +6911,28 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                          'this age group mandates '
                                                          'urgent full evaluation and '
                                                          'empiric therapy pathways—not '
-                                                         'attribution to teething.'},
+                                                         'attribution to teething.',
+                                          'choice_explanations': {
+                                              'A': 'Neonates have immature immunity and '
+                                                    'can deteriorate rapidly from '
+                                                    'bacterial sepsis/meningitis, so '
+                                                    'fever is a serious infection until '
+                                                    'proven otherwise and mandates '
+                                                    'urgent evaluation.',
+                                              'B': 'Assuming always benign viral '
+                                                    'illness without evaluation is '
+                                                    'unsafe in neonates, who may lack '
+                                                    'focal signs despite invasive '
+                                                    'bacterial disease.',
+                                              'C': 'Teething does not cause true fever '
+                                                    'requiring dismissal of workup in '
+                                                    'neonates; fever still needs '
+                                                    'infection evaluation.',
+                                              'D': 'Occasional feeding is not '
+                                                    'reassurance against neonatal '
+                                                    'sepsis; fever in this age still '
+                                                    'requires urgent pathways.'
+                                          }},
                                          {'question': 'Croup hallmark?',
                                           'options': ['A) Expiratory wheeze as the '
                                                       'sole hallmark without '
@@ -3987,7 +6955,28 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                          'suggests epiglottitis; '
                                                          'expiratory wheeze suggests '
                                                          'lower-airway disease such as '
-                                                         'bronchiolitis or asthma.'}],
+                                                         'bronchiolitis or asthma.',
+                                          'choice_explanations': {
+                                              'A': 'Expiratory wheeze as the sole '
+                                                    'hallmark without upper-airway '
+                                                    'signs points to lower-airway '
+                                                    'disease (bronchiolitis/asthma), '
+                                                    'not subglottic croup.',
+                                              'B': 'Viral croup '
+                                                    '(laryngotracheobronchitis) '
+                                                    'produces subglottic edema with a '
+                                                    'barking cough and inspiratory '
+                                                    'stridor, often after a viral '
+                                                    'prodrome.',
+                                              'C': 'Drooling and tripoding suggest '
+                                                    'epiglottitis with supraglottic '
+                                                    'swelling, a different emergency '
+                                                    'from typical croup.',
+                                              'D': 'Productive lobar consolidation '
+                                                    'defines pneumonia’s alveolar '
+                                                    'infection, not the barking '
+                                                    'cough/stridor of croup.'
+                                          }}],
                               'hard': [{'question': 'Pyloric stenosis classic?',
                                         'options': ['A) Bilious vomiting from day one '
                                                     'of life',
@@ -4008,7 +6997,27 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                        '2–8, visible peristalsis, and '
                                                        'a palpable olive. Bilious '
                                                        'emesis suggests more distal '
-                                                       'obstruction.'},
+                                                       'obstruction.',
+                                        'choice_explanations': {
+                                            'A': 'Bilious vomiting from day one of life '
+                                                  'suggests distal intestinal '
+                                                  'obstruction (malrotation/atresia), '
+                                                  'not pyloric stenosis’s non-bilious '
+                                                  'gastric outlet obstruction.',
+                                            'B': 'Chronic constipation starting in '
+                                                  'adolescence is a later childhood '
+                                                  'bowel issue, not infantile '
+                                                  'hypertrophic pyloric stenosis.',
+                                            'C': 'Infantile hypertrophic pyloric '
+                                                  'stenosis causes progressive gastric '
+                                                  'outlet obstruction with projectile '
+                                                  'non-bilious vomiting at about 2–8 '
+                                                  'weeks of age.',
+                                            'D': 'Painless rectal bleeding at 2 years '
+                                                  'without vomiting suggests entities '
+                                                  'such as Meckel diverticulum polyp, '
+                                                  'not pyloric stenosis.'
+                                        }},
                                        {'question': 'Intussusception stool?',
                                         'options': ['A) Acholic pale stools from '
                                                     'biliary atresia as the same '
@@ -4030,7 +7039,27 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                        'lethargy with a possible '
                                                        'sausage mass. Pale stools, '
                                                        'melena, and steatorrhea '
-                                                       'indicate other diseases.'},
+                                                       'indicate other diseases.',
+                                        'choice_explanations': {
+                                            'A': 'Acholic pale stools from biliary '
+                                                  'atresia reflect absent bile pigment '
+                                                  'delivery to the intestine, not '
+                                                  'ischemic currant-jelly stool of '
+                                                  'intussusception.',
+                                            'B': 'Melena from duodenal ulcer is '
+                                                  'upper-GI digested blood and is not '
+                                                  'the typical toddler intussusception '
+                                                  'stool pattern.',
+                                            'C': 'Steatorrhea from pancreatic '
+                                                  'insufficiency is fat-laden stool '
+                                                  'from maldigestion, not ischemic '
+                                                  'mucus-bloody currant-jelly stool.',
+                                            'D': 'Intussusception may produce '
+                                                  'redcurrant-jelly stool from ischemia '
+                                                  'and mucus as a late sign; earlier '
+                                                  'clues include intermittent colic and '
+                                                  'lethargy.'
+                                        }},
                                        {'question': 'Congenital adrenal hyperplasia '
                                                     'crisis in boys may show?',
                                         'options': ['A) Salt-wasting adrenal crisis '
@@ -4054,7 +7083,29 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                        'from aldosterone deficiency—an '
                                                        'endocrine emergency treated '
                                                        'with fluids, glucose, and '
-                                                       'steroids.'}],
+                                                       'steroids.',
+                                        'choice_explanations': {
+                                            'A': 'In salt-wasting 21-hydroxylase '
+                                                  'deficiency, boys may present in the '
+                                                  'first weeks with shock, '
+                                                  'hyponatremia, and hyperkalemia from '
+                                                  'aldosterone deficiency—an adrenal '
+                                                  'crisis emergency.',
+                                            'B': 'Isolated hypertension without '
+                                                  'electrolyte change is more '
+                                                  'consistent with other CAH enzyme '
+                                                  'blocks (e.g., 11-beta) than classic '
+                                                  'salt-wasting crisis.',
+                                            'C': 'Cushingoid obesity from birth '
+                                                  'reflects glucocorticoid excess '
+                                                  'phenotypes, not salt-wasting '
+                                                  'mineralocorticoid deficiency crisis.',
+                                            'D': 'Hypoglycemia only without '
+                                                  'mineralocorticoid features '
+                                                  'incompletely describes salt-wasting '
+                                                  'CAH, which prominently includes '
+                                                  'hyponatremia and hyperkalemia.'
+                                        }}],
                               'extreme': [{'question': 'Ductal-dependent congenital '
                                                        'heart lesion presenting in '
                                                        'shock when the duct closes '
@@ -4085,7 +7136,31 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'Indomethacin would close '
                                                           'the duct and worsen '
                                                           'systemic or pulmonary '
-                                                          'flow.'},
+                                                          'flow.',
+                                           'choice_explanations': {
+                                               'A': 'Indomethacin closes the ductus '
+                                                     'arteriosus and would worsen '
+                                                     'ductal-dependent systemic or '
+                                                     'pulmonary blood flow in '
+                                                     'ductal-dependent congenital heart '
+                                                     'disease presenting in shock.',
+                                               'B': 'Ductal-dependent congenital heart '
+                                                     'lesions present with shock or '
+                                                     'cyanosis as the duct closes; '
+                                                     'prostaglandin E1 '
+                                                     'reopens/maintains ductal flow '
+                                                     'during resuscitation under '
+                                                     'specialty guidance.',
+                                               'C': 'Fluid restriction alone without '
+                                                     'maintaining ductal patency fails '
+                                                     'to restore duct-dependent '
+                                                     'systemic or pulmonary perfusion.',
+                                               'D': 'Outpatient cardiology review in '
+                                                     'weeks without prostaglandin '
+                                                     'leaves critical ductal-dependent '
+                                                     'lesions untreated during ductal '
+                                                     'closure.'
+                                           }},
                                           {'question': 'Non-accidental injury clue?',
                                            'options': ['A) Age-appropriate bruising on '
                                                        'shins in a cruising toddler '
@@ -4112,7 +7187,27 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'Age-appropriate shin '
                                                           'bruises and consistent '
                                                           'accidental mechanisms are '
-                                                          'less concerning.'},
+                                                          'less concerning.',
+                                           'choice_explanations': {
+                                               'A': 'Age-appropriate bruising on shins '
+                                                     'in a cruising toddler is a common '
+                                                     'accidental pattern and alone is '
+                                                     'not a non-accidental injury clue.',
+                                               'B': 'A documented witnessed accidental '
+                                                     'fall matching exam findings '
+                                                     'supports an accidental mechanism '
+                                                     'rather than abuse.',
+                                               'C': 'Non-accidental injury is suggested '
+                                                     'when trauma is inconsistent with '
+                                                     'the history or developmental '
+                                                     'stage (e.g., femur fracture in a '
+                                                     'nonambulatory infant).',
+                                               'D': 'Isolated viral petechiae with '
+                                                     'known enteroviral illness and '
+                                                     'reassuring workup reflect '
+                                                     'infection-related petechiae, not '
+                                                     'inflicted trauma.'
+                                           }},
                                           {'question': 'Acute epiglottitis classic '
                                                        'presentation (less common with '
                                                        'Hib vaccine)?',
@@ -4145,7 +7240,28 @@ SPECIALTIES: dict[str, dict] = {'cardiology': {'label': 'Cardiology',
                                                           'vaccination has made '
                                                           'classic epiglottitis '
                                                           'uncommon but not '
-                                                          'extinct.'}]},
+                                                          'extinct.',
+                                           'choice_explanations': {
+                                               'A': 'Barking cough with mild stridor '
+                                                     'managed as routine croup at home '
+                                                     'describes '
+                                                     'laryngotracheobronchitis, not the '
+                                                     'toxic drooling tripoding child of '
+                                                     'epiglottitis.',
+                                               'B': 'Bilateral expiratory wheeze '
+                                                     'treated only with bronchodilator '
+                                                     'suggests lower-airway reactive '
+                                                     'disease, not supraglottic '
+                                                     'epiglottitis.',
+                                               'C': 'Simple viral rhinitis without '
+                                                     'toxicity lacks airway obstruction '
+                                                     'signs of epiglottitis.',
+                                               'D': 'Epiglottitis presents with a toxic '
+                                                     'child, drooling, and tripoding '
+                                                     'from supraglottic swelling; avoid '
+                                                     'agitating the airway and obtain '
+                                                     'experienced airway expertise.'
+                                           }}]},
                 'cases': {'easy': [{'title': 'Diarrhea + Sunken Eyes',
                                     'stem': 'An 18-month-old with watery diarrhea has '
                                             'sunken eyes but still drinks.',
