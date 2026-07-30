@@ -1,4 +1,4 @@
-"""Textbook-style scientific explanations for each MCQ choice."""
+"""Precise scientific per-choice explanations for MCQ answers."""
 
 from __future__ import annotations
 
@@ -7,10 +7,24 @@ from typing import Any
 
 
 def _clean(text: Any) -> str:
-    return " ".join(str(text or "").split())
+    text = " ".join(str(text or "").split())
+    # Strip awkward template tails left by some generated banks.
+    text = re.split(
+        r"\s*It fails this stem,? which requires[^:]*:\s*",
+        text,
+        maxsplit=1,
+        flags=re.I,
+    )[0].strip()
+    text = re.split(
+        r"\s*This fails the stem.*?$",
+        text,
+        maxsplit=1,
+        flags=re.I,
+    )[0].strip()
+    return text
 
 
-def _trim(text: str, limit: int = 360) -> str:
+def _trim(text: str, limit: int = 420) -> str:
     text = _clean(text)
     if len(text) <= limit:
         return text
@@ -61,159 +75,47 @@ def correct_letter(item: dict[str, Any], options: dict[str, str] | None = None) 
     return ""
 
 
-# Lightweight concept notes used to make distractor explanations precise.
-# Matched against option text (and sometimes the stem).
-_CONCEPT_NOTES: list[tuple[tuple[str, ...], str]] = [
-    (
-        ("blood pressure", "bp "),
-        "Blood pressure is the force of blood on artery walls, measured with a "
-        "sphygmomanometer; it is hemodynamics, not an electrical recording.",
-    ),
-    (
-        ("electrical activity", "ecg", "ekg", "depolar"),
-        "The ECG records extracellular voltage changes produced by myocardial "
-        "depolarization and repolarization over time.",
-    ),
-    (
-        ("coronary calcium", "calcium score"),
-        "Coronary calcium is assessed by CT calcium scoring, an anatomic/imaging "
-        "marker of atherosclerosis, not by surface ECG.",
-    ),
-    (
-        ("lung sound", "auscult"),
-        "Lung sounds are acoustic findings from chest auscultation (airflow in airways), "
-        "not cardiac electrical signals.",
-    ),
-    (
-        ("leg swelling", "edema"),
-        "Leg swelling suggests fluid retention or venous/lymphatic problems; it is not "
-        "the classic symptom pattern of myocardial ischemia.",
-    ),
-    (
-        ("chest discomfort", "chest pain", "angina", "exertion"),
-        "Angina is myocardial ischemia causing retrosternal discomfort typically provoked "
-        "by exertion and relieved by rest or nitrates.",
-    ),
-    (
-        ("itchy rash", "rash"),
-        "An itchy rash is a dermatologic finding and does not represent ischemic cardiac pain.",
-    ),
-    (
-        ("double vision", "diplopia"),
-        "Diplopia is a neuro-ophthalmic symptom and is not a feature of typical angina.",
-    ),
-    (
-        ("dilate bronchi", "bronchodil"),
-        "Bronchodilation acts on airway smooth muscle (e.g. β2-agonists); it is not "
-        "aspirin’s main role in ACS.",
-    ),
-    (
-        ("inhibit platelet", "antiplatelet", "aspirin"),
-        "Aspirin irreversibly acetylates platelet COX-1, reducing thromboxane A2 and "
-        "platelet aggregation — foundational in ACS antithrombotic care.",
-    ),
-    (
-        ("kill bacteria", "antibiotic", "antibacterial"),
-        "Antibacterial action treats infection; aspirin is not used as an antibiotic in ACS.",
-    ),
-    (
-        ("lower potassium", "hypokal"),
-        "Lowering potassium is unrelated to aspirin’s antiplatelet mechanism in coronary thrombosis.",
-    ),
-    (
-        ("anterior", " lad"),
-        "Anterior wall ischemia/infarction is typically from LAD occlusion and is reflected "
-        "in precordial leads (e.g. V2–V4), not inferior leads II/III/aVF.",
-    ),
-    (
-        ("inferior", " rca"),
-        "Inferior wall infarction localizes to leads II, III, and aVF and is commonly due "
-        "to RCA occlusion (less often a dominant LCx).",
-    ),
-    (
-        ("posterior",),
-        "Posterior infarction is suggested by posterior-lead changes or anterior reciprocal "
-        "depression, not by ST elevation confined to II/III/aVF.",
-    ),
-    (
-        ("right bundle", "rbbb"),
-        "Right bundle branch block is a conduction abnormality; it is not the coronary "
-        "territory implied by ST elevation in II/III/aVF.",
-    ),
-    (
-        ("aortic stenosis",),
-        "Aortic stenosis is typically a crescendo–decrescendo systolic ejection murmur "
-        "radiating to the carotids, not a holosystolic apical murmur to the axilla.",
-    ),
-    (
-        ("mitral regurgitation", " mr"),
-        "Mitral regurgitation produces a high-pitched holosystolic murmur at the apex "
-        "that radiates to the axilla.",
-    ),
-    (
-        ("mitral stenosis",),
-        "Mitral stenosis is a diastolic rumble (often with opening snap), not a holosystolic "
-        "murmur to the axilla.",
-    ),
-    (
-        ("pulmonic stenosis", "pulmonary stenosis"),
-        "Pulmonic stenosis is a systolic ejection murmur at the left upper sternal border, "
-        "not an apical holosystolic murmur radiating to the axilla.",
-    ),
-    (
-        ("nitroglycerin", "nitrate"),
-        "Nitroglycerin dilates veins (↓preload) and coronaries, reducing myocardial oxygen "
-        "demand and often relieving ischemic pain when not contraindicated.",
-    ),
-    (
-        ("digoxin",),
-        "Digoxin increases contractility and increases vagal tone; it is not first-line "
-        "acute anti-anginal relief.",
-    ),
-    (
-        ("amiodarone",),
-        "Amiodarone is an antiarrhythmic; it does not provide immediate angina symptom relief "
-        "like a nitrate.",
-    ),
-    (
-        ("steroid", "corticosteroid"),
-        "Corticosteroids are anti-inflammatory/immunosuppressive drugs and are not acute "
-        "anti-ischemic therapy for angina.",
-    ),
-    (
-        ("right ventricular", "rv infarction"),
-        "RV infarction (often with inferior MI) causes preload-dependent hypotension, raised "
-        "JVP, and clear lungs; nitrates can drop preload dangerously.",
-    ),
-    (
-        ("apical thrombus", "lv thrombus"),
-        "LV apical thrombus is a complication of anterior infarct/akinesis, not the "
-        "hemodynamic picture of nitrate-related hypotension with clear lungs and raised JVP.",
-    ),
-    (
-        ("epinephrine", "adrenaline"),
-        "Epinephrine treats anaphylaxis by α1 vasoconstriction, β1 cardiac support, and β2 "
-        "bronchodilation, and it stabilizes mast cells.",
-    ),
-    (
-        ("antihistamine",),
-        "Antihistamines block histamine receptors and help itch/urticaria, but they do not "
-        "rapidly reverse anaphylactic shock or airway obstruction.",
-    ),
-]
+def _first_sentences(text: str, n: int = 2) -> str:
+    text = _clean(text)
+    if not text:
+        return ""
+    parts = re.split(r"(?<=[.!?])\s+", text)
+    return " ".join(parts[:n]).strip()
 
 
-def _concept_note(text: str) -> str:
-    low = f" {_clean(text).lower()} "
-    for keys, note in _CONCEPT_NOTES:
-        if any(k in low for k in keys):
-            return note
-    return ""
+def _authored_map(item: dict[str, Any]) -> dict[str, str]:
+    raw = item.get("choice_explanations") or item.get("option_explanations") or {}
+    if not isinstance(raw, dict):
+        return {}
+    out: dict[str, str] = {}
+    for k, v in raw.items():
+        letter = str(k).strip().upper()[:1]
+        if letter not in "ABCD":
+            continue
+        if isinstance(v, dict):
+            text = _clean(
+                v.get("why_not")
+                or v.get("why_wrong")
+                or v.get("why")
+                or v.get("reason")
+                or v.get("meaning")
+                or ""
+            )
+        else:
+            text = _clean(v)
+        if text:
+            out[letter] = text
+    return out
 
 
 def _scientific_correct(choice: str, explanation: str, question: str) -> str:
-    # Do not restate the bank scientific explanation here — it is already shown above.
-    return "This is the correct answer."
+    core = _first_sentences(explanation, 2)
+    if core:
+        return core
+    return (
+        f"{choice} is the scientifically correct answer to the stem because it matches "
+        f"the accepted definition or mechanism being tested."
+    )
 
 
 def _scientific_wrong(
@@ -222,17 +124,45 @@ def _scientific_wrong(
     explanation: str,
     question: str,
 ) -> str:
-    note = _concept_note(choice)
-    if note:
-        return f"{note} So this option is incorrect; the correct answer is {correct_choice}."
+    """
+    Build a precise contrast: what this option refers to vs what the stem actually requires.
+    Prefers mechanism language from the bank explanation.
+    """
+    core = _first_sentences(explanation, 1)
+    qlow = question.lower()
+    clow = choice.lower()
+
+    # Diagnosis-style stems
+    if any(w in qlow for w in ("diagnosis", "suggests", "most likely", "suspect", "presents")):
+        lead = (
+            f"{choice} names a different clinical entity/mechanism than the one produced "
+            f"by the findings in the stem."
+        )
+    elif any(w in qlow for w in ("treatment", "management", "next", "therapy", "drug", "given")):
+        lead = (
+            f"{choice} is not the intervention that correctly targets the pathophysiology "
+            f"asked here."
+        )
+    elif any(w in qlow for w in ("record", "means", "definition", "refers", "primarily", "is?")):
+        lead = (
+            f"{choice} refers to a different physiologic signal, structure, or definition "
+            f"than the one asked."
+        )
+    else:
+        lead = f"{choice} does not correctly state the mechanism or definition required by the stem."
+
+    if core:
+        return (
+            f"{lead} Scientifically, {correct_choice} fits because {core} "
+            f"That does not describe {choice}."
+        )
     return (
-        f"“{choice}” describes a different structure, function, diagnosis, or treatment "
-        f"than the one required. The correct answer is {correct_choice}."
+        f"{lead} The correct concept is {correct_choice}, which matches the stem’s "
+        f"physiology/pathology; {choice} does not."
     )
 
 
 def generate_choice_explanations(item: dict[str, Any]) -> dict[str, str]:
-    """Return letter -> one scientific paragraph (right or wrong)."""
     options = options_as_dict(item)
     if not options:
         return {}
@@ -240,16 +170,40 @@ def generate_choice_explanations(item: dict[str, Any]) -> dict[str, str]:
     explanation = _clean(item.get("explanation"))
     question = _clean(item.get("question"))
     correct_choice = options.get(correct, "the correct answer")
+    authored = _authored_map(item)
 
     out: dict[str, str] = {}
     for letter, choice in options.items():
-        if letter == correct:
+        if letter in authored:
+            out[letter] = authored[letter]
+        elif letter == correct:
             out[letter] = _scientific_correct(choice, explanation, question)
         else:
             out[letter] = _scientific_wrong(
                 choice, correct_choice, explanation, question
             )
     return out
+
+
+def _trim_wrong_restatement(text: str, correct_choice: str, correct_expl: str) -> str:
+    """Keep the scientific contrast for a distractor; drop a trailing restatement of the right answer."""
+    text = _clean(text)
+    if not text:
+        return text
+    sentences = re.split(r"(?<=[.!?])\s+", text)
+    if len(sentences) <= 1:
+        return text
+    correct_tokens = {
+        w for w in re.findall(r"[a-zA-Z]{5,}", (correct_choice + " " + correct_expl).lower())
+    }
+    kept = [sentences[0]]
+    for sent in sentences[1:]:
+        words = set(re.findall(r"[a-zA-Z]{5,}", sent.lower()))
+        if correct_tokens and len(words & correct_tokens) >= 4:
+            # Later sentence is mostly restating the correct concept — stop.
+            break
+        kept.append(sent)
+    return " ".join(kept).strip()
 
 
 def format_all_choice_explanations(item: dict[str, Any]) -> str:
@@ -259,11 +213,12 @@ def format_all_choice_explanations(item: dict[str, Any]) -> str:
         return ""
 
     correct = correct_letter(item, options)
-    authored = item.get("choice_explanations") or item.get("option_explanations") or {}
     generated = generate_choice_explanations(item)
+    correct_choice = options.get(correct, "")
+    correct_expl = generated.get(correct, _clean(item.get("explanation")))
 
     lines = [
-        "Why each choice is right or wrong",
+        "Scientific reason for each choice",
         "",
     ]
 
@@ -273,24 +228,10 @@ def format_all_choice_explanations(item: dict[str, Any]) -> str:
         choice = options[letter]
         is_correct = letter == correct
         tag = "Correct" if is_correct else "Incorrect"
-
-        text = ""
-        if isinstance(authored, dict) and letter in authored and _clean(authored[letter]):
-            raw = authored[letter]
-            if isinstance(raw, dict):
-                text = _clean(
-                    raw.get("why_not")
-                    or raw.get("why_wrong")
-                    or raw.get("why")
-                    or raw.get("reason")
-                    or raw.get("meaning")
-                    or ""
-                )
-            else:
-                text = _clean(raw)
-        if not text:
-            text = generated.get(letter, "")
-
+        text = generated.get(letter, "")
+        if not is_correct:
+            text = _trim_wrong_restatement(text, correct_choice, correct_expl)
+        text = _trim(text, 450)
         lines.append(f"{letter}) {choice}")
         lines.append(f"→ {tag}: {text}")
         lines.append("")

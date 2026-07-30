@@ -2776,27 +2776,63 @@ def _option_body(option: str) -> str:
 
 
 def present_question(item: dict) -> dict:
-    """Shuffle A–D so the correct letter is not predictable from position."""
+    """Shuffle A–D so the correct letter is not predictable from position.
+
+    Remaps choice_explanations to the new letters so scientific reasons stay
+    attached to the same option text after shuffling.
+    """
     options = list(item.get("options") or [])
     if len(options) < 2:
         return dict(item)
     bodies = [_option_body(o) for o in options]
     correct_body = _option_body(item.get("answer", ""))
+
+    # Map old letter -> explanation text
+    old_expl = item.get("choice_explanations") or item.get("option_explanations") or {}
+    body_to_expl: dict[str, str] = {}
+    if isinstance(old_expl, dict):
+        for opt in options:
+            letter = str(opt).strip()[:1].upper()
+            body = _option_body(opt)
+            raw = old_expl.get(letter) or old_expl.get(letter.lower())
+            if isinstance(raw, dict):
+                text = " ".join(
+                    str(
+                        raw.get("why_not")
+                        or raw.get("why_wrong")
+                        or raw.get("why")
+                        or raw.get("reason")
+                        or raw.get("meaning")
+                        or ""
+                    ).split()
+                )
+            else:
+                text = " ".join(str(raw or "").split())
+            if text:
+                body_to_expl[body] = text
+
     order = list(range(len(bodies)))
     random.shuffle(order)
     letters = "ABCD"
     new_options = []
     new_answer = item.get("answer")
+    new_expl: dict[str, str] = {}
     for i, idx in enumerate(order):
         letter = letters[i]
-        text = f"{letter}) {bodies[idx]}"
+        body = bodies[idx]
+        text = f"{letter}) {body}"
         new_options.append(text)
-        if bodies[idx] == correct_body:
+        if body == correct_body:
             new_answer = text
+        if body in body_to_expl:
+            new_expl[letter] = body_to_expl[body]
     out = dict(item)
     out["options"] = new_options
     out["answer"] = new_answer
+    if new_expl:
+        out["choice_explanations"] = new_expl
     return out
+
 
 def format_question_prompt(item: dict, specialty_label_text: str, difficulty: str) -> str:
     diff = DIFFICULTY_LABELS[difficulty]
