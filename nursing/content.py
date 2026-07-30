@@ -17,130 +17,271 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                 'Reassess after interventions (pain, vitals, response).',
                                 'Document factually; report near misses.'],
                   'questions': {'easy': [{'question': 'Vital signs typically include?',
-                                          'options': ['A) Temperature, pulse, respiration, blood '
+                                          'options': ['A) Daily weight, intake/output, and bowel '
+                                                      'pattern only',
+                                                      'B) Temperature, pulse, respiration, blood '
                                                       'pressure (± SpO2/pain)',
-                                                      'B) Only urine output forever',
-                                                      'C) Only weight only',
-                                                      'D) Only ECG always'],
-                                          'answer': 'A) Temperature, pulse, respiration, blood '
+                                                      'C) Only continuous ECG monitoring without '
+                                                      'other measures',
+                                                      'D) Pupil size and Glasgow Coma Scale alone'],
+                                          'answer': 'B) Temperature, pulse, respiration, blood '
                                                     'pressure (± SpO2/pain)',
-                                          'explanation': 'Vital signs reflect core physiologic functions of thermoregulation, cardiac output, ventilatory status, and vascular tone. Temperature, pulse, respiration, and blood pressure—often with SpO2 and pain—form the baseline data nurses use to detect early deterioration. Trends over time are more informative than isolated values because compensatory mechanisms can temporarily mask illness.'},
+                                          'explanation': 'Vital signs reflect core physiologic '
+                                                         'functions of thermoregulation, cardiac '
+                                                         'output, ventilatory status, and vascular '
+                                                         'tone. Temperature, pulse, respiration, '
+                                                         'and blood pressure—often with SpO2 and '
+                                                         'pain—form the baseline data nurses use '
+                                                         'to detect early deterioration. Trends '
+                                                         'over time are more informative than '
+                                                         'isolated values because compensatory '
+                                                         'mechanisms can temporarily mask '
+                                                         'illness.'},
                                          {'question': 'Hand hygiene is primarily to?',
-                                          'options': ['A) Reduce pathogen transmission',
-                                                      'B) Replace sterile technique always',
-                                                      'C) Only clean gloves forever',
-                                                      'D) Only after discharge'],
-                                          'answer': 'A) Reduce pathogen transmission',
-                                          'explanation': 'Transient microorganisms on the hands are a major vehicle for healthcare-associated infection. Hand hygiene mechanically and chemically reduces microbial load before and after patient contact, interrupting cross-transmission. Gloves do not replace hand hygiene because contamination of hands and glove surfaces still occurs during care.'},
+                                          'options': ['A) Replace sterile technique for all '
+                                                      'invasive procedures',
+                                                      'B) Eliminate the need for gloves during '
+                                                      'wound care',
+                                                      'C) Reduce pathogen transmission',
+                                                      'D) Be performed only at discharge teaching'],
+                                          'answer': 'C) Reduce pathogen transmission',
+                                          'explanation': 'Transient microorganisms on the hands '
+                                                         'are a major vehicle for '
+                                                         'healthcare-associated infection. Hand '
+                                                         'hygiene mechanically and chemically '
+                                                         'reduces microbial load before and after '
+                                                         'patient contact, interrupting '
+                                                         'cross-transmission. Gloves do not '
+                                                         'replace hand hygiene because '
+                                                         'contamination of hands and glove '
+                                                         'surfaces still occurs during care.'},
                                          {'question': 'Informed consent requires?',
-                                          'options': ['A) Understanding of procedure, risks, '
-                                                      'alternatives, voluntary agreement',
-                                                      'B) Nurse signature only without explanation',
-                                                      'C) Family coercion always',
-                                                      'D) No documentation'],
-                                          'answer': 'A) Understanding of procedure, risks, '
+                                          'options': ['A) Nurse signature alone without patient '
+                                                      'explanation',
+                                                      'B) Family agreement even if the patient '
+                                                      'refuses',
+                                                      'C) Verbal assent without documenting the '
+                                                      'discussion',
+                                                      'D) Understanding of procedure, risks, '
+                                                      'alternatives, voluntary agreement'],
+                                          'answer': 'D) Understanding of procedure, risks, '
                                                     'alternatives, voluntary agreement',
-                                          'explanation': 'Informed consent is valid only when the patient understands the nature of the procedure, its material risks and benefits, and reasonable alternatives, and then agrees voluntarily without coercion. The provider performing the procedure retains responsibility for disclosure; the nurse commonly witnesses the signature and advocates if comprehension appears incomplete. Documentation preserves the ethical and legal record of that process.'}],
+                                          'explanation': 'Informed consent is valid only when the '
+                                                         'patient understands the nature of the '
+                                                         'procedure, its material risks and '
+                                                         'benefits, and reasonable alternatives, '
+                                                         'and then agrees voluntarily without '
+                                                         'coercion. The provider performing the '
+                                                         'procedure retains responsibility for '
+                                                         'disclosure; the nurse commonly witnesses '
+                                                         'the signature and advocates if '
+                                                         'comprehension appears incomplete. '
+                                                         'Documentation preserves the ethical and '
+                                                         'legal record of that process.'}],
                                 'medium': [{'question': 'Best time to assess pain after IV opioid '
                                                         'roughly?',
                                             'options': ['A) At expected peak effect (often ~15–30 '
                                                         'min; follow policy/drug)',
-                                                        'B) Only after 12 hours always',
-                                                        'C) Never reassess',
-                                                        'D) Only at discharge'],
+                                                        'B) Only after 4–6 hours for all IV '
+                                                        'opioids',
+                                                        'C) Immediately before the next scheduled '
+                                                        'oral dose only',
+                                                        'D) Once at discharge when completing the '
+                                                        'pain summary'],
                                             'answer': 'A) At expected peak effect (often ~15–30 '
                                                       'min; follow policy/drug)',
-                                            'explanation': 'Intravenous opioids reach peak plasma and central nervous system effect relatively quickly, often within about 15–30 minutes depending on the agent and patient factors. Reassessment at that interval evaluates analgesic efficacy and detects adverse effects such as respiratory depression, sedation, and hypotension. Ongoing titration depends on both subjective pain report and objective vital-sign changes.'},
+                                            'explanation': 'Intravenous opioids reach peak plasma '
+                                                           'and central nervous system effect '
+                                                           'relatively quickly, often within about '
+                                                           '15–30 minutes depending on the agent '
+                                                           'and patient factors. Reassessment at '
+                                                           'that interval evaluates analgesic '
+                                                           'efficacy and detects adverse effects '
+                                                           'such as respiratory depression, '
+                                                           'sedation, and hypotension. Ongoing '
+                                                           'titration depends on both subjective '
+                                                           'pain report and objective vital-sign '
+                                                           'changes.'},
                                            {'question': 'Fall risk interventions include?',
-                                            'options': ['A) Call light in reach, non-slip '
+                                            'options': ['A) Keep the bed in the highest position '
+                                                        'for easier transfers',
+                                                        'B) Call light in reach, non-slip '
                                                         'footwear, bed low, assist as needed',
-                                                        'B) Keep bed highest always',
-                                                        'C) Remove call light',
-                                                        'D) Encourage rushing alone'],
-                                            'answer': 'A) Call light in reach, non-slip footwear, '
+                                                        'C) Remove assistive devices so the '
+                                                        'patient walks independently sooner',
+                                                        'D) Encourage unassisted toileting at '
+                                                        'night to build confidence'],
+                                            'answer': 'B) Call light in reach, non-slip footwear, '
                                                       'bed low, assist as needed',
-                                            'explanation': 'Falls result from interacting intrinsic factors (gait instability, orthostasis, cognition, medications) and extrinsic hazards (bed height, footwear, unreachable call light). Multifactorial prevention lowers fall energy and frequency by keeping the bed low, ensuring non-slip footwear, placing the call light within reach, and matching assistance to mobility status. These measures reduce injury risk without unnecessarily restricting autonomy.'},
+                                            'explanation': 'Falls result from interacting '
+                                                           'intrinsic factors (gait instability, '
+                                                           'orthostasis, cognition, medications) '
+                                                           'and extrinsic hazards (bed height, '
+                                                           'footwear, unreachable call light). '
+                                                           'Multifactorial prevention lowers fall '
+                                                           'energy and frequency by keeping the '
+                                                           'bed low, ensuring non-slip footwear, '
+                                                           'placing the call light within reach, '
+                                                           'and matching assistance to mobility '
+                                                           'status. These measures reduce injury '
+                                                           'risk without unnecessarily restricting '
+                                                           'autonomy.'},
                                            {'question': 'Standard precautions apply to?',
-                                            'options': ['A) All patients',
-                                                        'B) Only isolation rooms',
-                                                        'C) Only surgical patients',
-                                                        'D) Only febrile patients'],
-                                            'answer': 'A) All patients',
-                                            'explanation': 'Standard precautions assume that blood and body fluids from every patient may contain bloodborne pathogens, regardless of known diagnosis. Consistent use of hand hygiene, appropriate PPE, safe sharps handling, and environmental cleaning protects both patients and staff. Transmission-based precautions are added when a specific pathogen’s route requires additional barriers.'}],
-                                'hard': [{'question': 'A junior colleague asks for the single best '
-                                                      'answer. Priority framework when multiple '
-                                                      'needs compete? Beware of near-miss '
-                                                      'distractors.',
-                                          'options': ['A) Airway/breathing/circulation and safety '
-                                                      'before routine tasks',
-                                                      'B) Complete charting before airway',
-                                                      'C) Only psychosocial first always',
-                                                      'D) Ignore ABCs'],
-                                          'answer': 'A) Airway/breathing/circulation and safety '
+                                            'options': ['A) Only patients in isolation rooms',
+                                                        'B) Only surgical or immunocompromised '
+                                                        'patients',
+                                                        'C) All patients',
+                                                        'D) Only patients with documented fever or '
+                                                        'known infection'],
+                                            'answer': 'C) All patients',
+                                            'explanation': 'Standard precautions assume that blood '
+                                                           'and body fluids from every patient may '
+                                                           'contain bloodborne pathogens, '
+                                                           'regardless of known diagnosis. '
+                                                           'Consistent use of hand hygiene, '
+                                                           'appropriate PPE, safe sharps handling, '
+                                                           'and environmental cleaning protects '
+                                                           'both patients and staff. '
+                                                           'Transmission-based precautions are '
+                                                           'added when a specific pathogen’s route '
+                                                           'requires additional barriers.'}],
+                                'hard': [{'question': 'Priority framework when multiple needs '
+                                                      'compete?',
+                                          'options': ['A) Complete all documentation before '
+                                                      'addressing airway concerns',
+                                                      'B) Address psychosocial needs before '
+                                                      'physiologic threats',
+                                                      'C) Finish routine hygiene tasks before '
+                                                      'safety hazards',
+                                                      'D) Airway/breathing/circulation and safety '
+                                                      'before routine tasks'],
+                                          'answer': 'D) Airway/breathing/circulation and safety '
                                                     'before routine tasks',
-                                          'explanation': 'When multiple needs compete, threats to airway patency, oxygenation, and circulation produce the most immediate risk of hypoxic brain injury and cardiac arrest. Safety hazards that can cause sudden harm (e.g., active bleeding, falls from instability) likewise outrank routine comfort or documentation tasks. This physiologic hierarchy mirrors ABC triage and Maslow’s prioritization of survival needs.'},
-                                         {'question': 'A junior colleague asks for the single best '
-                                                      'answer. Restraint use requires? Beware of '
-                                                      'near-miss distractors.',
+                                          'explanation': 'When multiple needs compete, threats to '
+                                                         'airway patency, oxygenation, and '
+                                                         'circulation produce the most immediate '
+                                                         'risk of hypoxic brain injury and cardiac '
+                                                         'arrest. Safety hazards that can cause '
+                                                         'sudden harm (e.g., active bleeding, '
+                                                         'falls from instability) likewise outrank '
+                                                         'routine comfort or documentation tasks. '
+                                                         'This physiologic hierarchy mirrors ABC '
+                                                         'triage and Maslow’s prioritization of '
+                                                         'survival needs.'},
+                                         {'question': 'Restraint use requires?',
                                           'options': ['A) Least restrictive alternative, order, '
                                                       'monitoring, documentation',
-                                                      'B) Convenience alone without assessment',
-                                                      'C) Family demand only',
-                                                      'D) No reassessment'],
+                                                      'B) Application based on staff convenience '
+                                                      'during busy shifts',
+                                                      'C) Family request alone without clinical '
+                                                      'assessment',
+                                                      'D) Continuous use without scheduled '
+                                                      'reassessment'],
                                           'answer': 'A) Least restrictive alternative, order, '
                                                     'monitoring, documentation',
-                                          'explanation': 'Physical restraints can cause pressure injury, circulatory compromise, aspiration, psychological trauma, and even death if misused. Ethical and regulatory standards therefore require the least restrictive effective alternative, a time-limited order, frequent monitoring, and clear documentation of indication and reassessment. Restraint is a controlled safety intervention, not a convenience measure.'},
-                                         {'question': 'A junior colleague asks for the single best '
-                                                      'answer. Medication right that prevents '
-                                                      'wrong patient? Beware of near-miss '
-                                                      'distractors.',
-                                          'options': ['A) Right patient (two identifiers)',
-                                                      'B) Right room number alone always',
-                                                      'C) Right bed color',
-                                                      'D) Right roommate name'],
-                                          'answer': 'A) Right patient (two identifiers)',
-                                          'explanation': 'Wrong-patient medication errors occur when identity verification fails at the point of administration. Using two unique identifiers (such as name and date of birth or medical record number) links the ordered drug to the correct person before the dose is given. This right-patient check is foundational because subsequent rights cannot correct an identity mismatch.'}],
-                                'extreme': [{'question': 'In a high-stakes nursing scenario with '
-                                                         'incomplete data, which statement is MOST '
-                                                         'correct? Unresponsive patient, no pulse '
-                                                         '— first action? Avoid actions that could '
-                                                         'harm if a critical risk remains open.',
-                                             'options': ['A) Start CPR / call emergency response '
+                                          'explanation': 'Physical restraints can cause pressure '
+                                                         'injury, circulatory compromise, '
+                                                         'aspiration, psychological trauma, and '
+                                                         'even death if misused. Ethical and '
+                                                         'regulatory standards therefore require '
+                                                         'the least restrictive effective '
+                                                         'alternative, a time-limited order, '
+                                                         'frequent monitoring, and clear '
+                                                         'documentation of indication and '
+                                                         'reassessment. Restraint is a controlled '
+                                                         'safety intervention, not a convenience '
+                                                         'measure.'},
+                                         {'question': 'Medication right that prevents wrong '
+                                                      'patient?',
+                                          'options': ['A) Right room number as the sole identifier',
+                                                      'B) Right patient (two identifiers)',
+                                                      'C) Right bed location confirmed by staff '
+                                                      'memory',
+                                                      'D) Right roommate name verified verbally'],
+                                          'answer': 'B) Right patient (two identifiers)',
+                                          'explanation': 'Wrong-patient medication errors occur '
+                                                         'when identity verification fails at the '
+                                                         'point of administration. Using two '
+                                                         'unique identifiers (such as name and '
+                                                         'date of birth or medical record number) '
+                                                         'links the ordered drug to the correct '
+                                                         'person before the dose is given. This '
+                                                         'right-patient check is foundational '
+                                                         'because subsequent rights cannot correct '
+                                                         'an identity mismatch.'}],
+                                'extreme': [{'question': 'Unresponsive patient, no pulse — first '
+                                                         'action?',
+                                             'options': ['A) Obtain family consent before starting '
+                                                         'compressions',
+                                                         'B) Document a full note, then return to '
+                                                         'start CPR',
+                                                         'C) Start CPR / call emergency response '
                                                          'per protocol',
-                                                         'B) Wait for family consent only',
-                                                         'C) Only document first',
-                                                         'D) Leave to find chart'],
-                                             'answer': 'A) Start CPR / call emergency response per '
+                                                         'D) Leave the room briefly to retrieve '
+                                                         'the paper chart'],
+                                             'answer': 'C) Start CPR / call emergency response per '
                                                        'protocol',
-                                             'explanation': 'Pulseless unresponsiveness indicates abrupt cessation of effective cardiac output and cerebral perfusion. Immediate high-quality CPR and activation of the emergency response restore circulation while advanced interventions are prepared. Delaying compressions for nonessential tasks prolongs ischemic time and worsens neurologic outcome.'},
-                                            {'question': 'In a high-stakes nursing scenario with '
-                                                         'incomplete data, which statement is MOST '
-                                                         'correct? Suspected transfusion reaction '
-                                                         'mid-transfusion? Avoid actions that '
-                                                         'could harm if a critical risk remains '
-                                                         'open.',
-                                             'options': ['A) Stop transfusion, keep IV line with '
-                                                         'NS, assess, notify provider/blood bank',
-                                                         'B) Increase rate to finish',
-                                                         'C) Ignore fever',
-                                                         'D) Discard bag without notification'],
-                                             'answer': 'A) Stop transfusion, keep IV line with NS, '
+                                             'explanation': 'Pulseless unresponsiveness indicates '
+                                                            'abrupt cessation of effective cardiac '
+                                                            'output and cerebral perfusion. '
+                                                            'Immediate high-quality CPR and '
+                                                            'activation of the emergency response '
+                                                            'restore circulation while advanced '
+                                                            'interventions are prepared. Delaying '
+                                                            'compressions for nonessential tasks '
+                                                            'prolongs ischemic time and worsens '
+                                                            'neurologic outcome.'},
+                                            {'question': 'Suspected transfusion reaction '
+                                                         'mid-transfusion?',
+                                             'options': ['A) Increase the infusion rate to finish '
+                                                         'the unit faster',
+                                                         'B) Continue the transfusion and recheck '
+                                                         'vitals in one hour',
+                                                         'C) Discard the bag immediately without '
+                                                         'notifying blood bank',
+                                                         'D) Stop transfusion, keep IV line with '
+                                                         'NS, assess, notify provider/blood bank'],
+                                             'answer': 'D) Stop transfusion, keep IV line with NS, '
                                                        'assess, notify provider/blood bank',
-                                             'explanation': 'Acute transfusion reactions may involve hemolysis, anaphylaxis, TRALI, or bacterial contamination, all of which can progress rapidly once antigen–antibody or inflammatory cascades are underway. Stopping the transfusion immediately limits further exposure to the implicated unit while maintaining IV access with normal saline for resuscitation and medication delivery. Concurrent assessment and notification of the provider and blood bank enable laboratory workup and definitive treatment.'},
-                                            {'question': 'In a high-stakes nursing scenario with '
-                                                         'incomplete data, which statement is MOST '
-                                                         'correct? Fire on unit — RACE theme '
-                                                         'starts with? Avoid actions that could '
-                                                         'harm if a critical risk remains open.',
+                                             'explanation': 'Acute transfusion reactions may '
+                                                            'involve hemolysis, anaphylaxis, '
+                                                            'TRALI, or bacterial contamination, '
+                                                            'all of which can progress rapidly '
+                                                            'once antigen–antibody or inflammatory '
+                                                            'cascades are underway. Stopping the '
+                                                            'transfusion immediately limits '
+                                                            'further exposure to the implicated '
+                                                            'unit while maintaining IV access with '
+                                                            'normal saline for resuscitation and '
+                                                            'medication delivery. Concurrent '
+                                                            'assessment and notification of the '
+                                                            'provider and blood bank enable '
+                                                            'laboratory workup and definitive '
+                                                            'treatment.'},
+                                            {'question': 'Fire on unit — RACE theme starts with?',
                                              'options': ['A) Rescue patients in immediate danger '
                                                          '(then alarm/contain/extinguish as '
                                                          'trained)',
-                                                         'B) Hide charts first',
-                                                         'C) Finish meal trays',
-                                                         'D) Ignore alarms'],
+                                                         'B) Secure charts and computers before '
+                                                         'moving anyone',
+                                                         'C) Finish distributing meal trays, then '
+                                                         'investigate the alarm',
+                                                         'D) Silence alarms first to reduce panic '
+                                                         'on the unit'],
                                              'answer': 'A) Rescue patients in immediate danger '
                                                        '(then alarm/contain/extinguish as trained)',
-                                             'explanation': 'In a unit fire, patients in the immediate zone of danger face smoke inhalation, thermal injury, and hypoxia within minutes. The RACE sequence begins with Rescue of those at imminent risk, then Alarm, Contain, and Extinguish/Evacuate as trained, because human life takes precedence over property. Facility-specific fire plans operationalize this sequence for local exits and equipment.'}]},
+                                             'explanation': 'In a unit fire, patients in the '
+                                                            'immediate zone of danger face smoke '
+                                                            'inhalation, thermal injury, and '
+                                                            'hypoxia within minutes. The RACE '
+                                                            'sequence begins with Rescue of those '
+                                                            'at imminent risk, then Alarm, '
+                                                            'Contain, and Extinguish/Evacuate as '
+                                                            'trained, because human life takes '
+                                                            'precedence over property. '
+                                                            'Facility-specific fire plans '
+                                                            'operationalize this sequence for '
+                                                            'local exits and equipment.'}]},
                   'cases': {'easy': [{'title': 'New Admission Baseline',
                                       'stem': 'A newly admitted adult is alert; nurse prepares '
                                               'first assessment.',
@@ -187,130 +328,260 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                             'Patient teaching prevents readmissions.'],
               'questions': {'easy': [{'question': 'Chest pain suggesting ACS — first nursing '
                                                   'themes?',
-                                      'options': ['A) ABC, ECG access, oxygen if indicated, notify '
+                                      'options': ['A) Encourage ambulation on a treadmill to test '
+                                                  'exertional pain',
+                                                  'B) ABC, ECG access, oxygen if indicated, notify '
                                                   'promptly',
-                                                  'B) Encourage treadmill first',
-                                                  'C) Only give antacid forever',
-                                                  'D) Ignore radiating pain'],
-                                      'answer': 'A) ABC, ECG access, oxygen if indicated, notify '
+                                                  'C) Give an antacid first and observe for one '
+                                                  'hour',
+                                                  'D) Defer evaluation if pain radiates to the arm '
+                                                  'or jaw'],
+                                      'answer': 'B) ABC, ECG access, oxygen if indicated, notify '
                                                 'promptly',
-                                      'explanation': 'Acute coronary syndromes reflect myocardial ischemia from plaque rupture, thrombosis, or supply–demand mismatch, with rapidly progressive myocyte necrosis. Early ECG acquisition, ABC support, oxygen when hypoxemic, and prompt team notification shorten ischemic time and guide reperfusion decisions. Nursing actions focus on continuous monitoring for arrhythmias and hemodynamic instability while preparing for urgent therapy.'},
+                                      'explanation': 'Acute coronary syndromes reflect myocardial '
+                                                     'ischemia from plaque rupture, thrombosis, or '
+                                                     'supply–demand mismatch, with rapidly '
+                                                     'progressive myocyte necrosis. Early ECG '
+                                                     'acquisition, ABC support, oxygen when '
+                                                     'hypoxemic, and prompt team notification '
+                                                     'shorten ischemic time and guide reperfusion '
+                                                     'decisions. Nursing actions focus on '
+                                                     'continuous monitoring for arrhythmias and '
+                                                     'hemodynamic instability while preparing for '
+                                                     'urgent therapy.'},
                                      {'question': 'Post-op incentive spirometry aims to?',
-                                      'options': ['A) Prevent atelectasis / promote lung expansion',
-                                                  'B) Replace ambulation always',
-                                                  'C) Only treat constipation',
-                                                  'D) Only lower BP'],
-                                      'answer': 'A) Prevent atelectasis / promote lung expansion',
-                                      'explanation': 'Postoperative shallow breathing and diaphragmatic splinting promote alveolar collapse (atelectasis), impairing gas exchange and predisposing to pneumonia. Incentive spirometry encourages sustained maximal inspiration that re-expands alveoli and mobilizes secretions. Combined with early mobilization and coughing, it is a core pulmonary hygiene strategy after surgery.'},
+                                      'options': ['A) Replace the need for early ambulation after '
+                                                  'surgery',
+                                                  'B) Primarily relieve postoperative constipation',
+                                                  'C) Prevent atelectasis / promote lung expansion',
+                                                  'D) Lower blood pressure through vagal '
+                                                  'stimulation'],
+                                      'answer': 'C) Prevent atelectasis / promote lung expansion',
+                                      'explanation': 'Postoperative shallow breathing and '
+                                                     'diaphragmatic splinting promote alveolar '
+                                                     'collapse (atelectasis), impairing gas '
+                                                     'exchange and predisposing to pneumonia. '
+                                                     'Incentive spirometry encourages sustained '
+                                                     'maximal inspiration that re-expands alveoli '
+                                                     'and mobilizes secretions. Combined with '
+                                                     'early mobilization and coughing, it is a '
+                                                     'core pulmonary hygiene strategy after '
+                                                     'surgery.'},
                                      {'question': 'Hypoglycemia classic early signs?',
-                                      'options': ['A) Sweating, tremor, confusion/hunger (vary)',
-                                                  'B) Only hypertension always',
-                                                  'C) Only bradycardia only',
-                                                  'D) Only rash'],
-                                      'answer': 'A) Sweating, tremor, confusion/hunger (vary)',
-                                      'explanation': 'Neuroglycopenia and autonomic counter-regulation produce the classic early hypoglycemia cluster of diaphoresis, tremor, hunger, and confusion as glucose delivery to the brain falls. Prompt carbohydrate replacement per protocol restores plasma glucose before seizures or loss of consciousness occur. Nurses also reassess after treatment because rebound hyperglycemia or recurrent hypoglycemia may follow.'}],
+                                      'options': ['A) Hypertension and bradycardia as the earliest '
+                                                  'cluster',
+                                                  'B) Isolated pruritic rash without autonomic '
+                                                  'signs',
+                                                  'C) Polyuria and polydipsia as acute warning '
+                                                  'signs',
+                                                  'D) Sweating, tremor, confusion/hunger (vary)'],
+                                      'answer': 'D) Sweating, tremor, confusion/hunger (vary)',
+                                      'explanation': 'Neuroglycopenia and autonomic '
+                                                     'counter-regulation produce the classic early '
+                                                     'hypoglycemia cluster of diaphoresis, tremor, '
+                                                     'hunger, and confusion as glucose delivery to '
+                                                     'the brain falls. Prompt carbohydrate '
+                                                     'replacement per protocol restores plasma '
+                                                     'glucose before seizures or loss of '
+                                                     'consciousness occur. Nurses also reassess '
+                                                     'after treatment because rebound '
+                                                     'hyperglycemia or recurrent hypoglycemia may '
+                                                     'follow.'}],
                             'medium': [{'question': 'Heart failure weight gain overnight suggests?',
                                         'options': ['A) Fluid retention — assess and report',
-                                                    'B) Always muscle only',
-                                                    'C) Always irrelevant',
-                                                    'D) Always improved nutrition only'],
+                                                    'B) Expected muscle gain from bedrest recovery',
+                                                    'C) Improved nutrition without fluid status '
+                                                    'change',
+                                                    'D) Measurement error that never requires '
+                                                    'reporting'],
                                         'answer': 'A) Fluid retention — assess and report',
-                                        'explanation': 'In heart failure, elevated venous pressures and reduced renal perfusion activate neurohormonal pathways that promote sodium and water retention. Overnight weight gain is therefore a sensitive bedside marker of accumulating intravascular and interstitial fluid before frank pulmonary edema appears. Reporting significant gains allows earlier diuretic adjustment and congestion assessment.'},
+                                        'explanation': 'In heart failure, elevated venous '
+                                                       'pressures and reduced renal perfusion '
+                                                       'activate neurohormonal pathways that '
+                                                       'promote sodium and water retention. '
+                                                       'Overnight weight gain is therefore a '
+                                                       'sensitive bedside marker of accumulating '
+                                                       'intravascular and interstitial fluid '
+                                                       'before frank pulmonary edema appears. '
+                                                       'Reporting significant gains allows earlier '
+                                                       'diuretic adjustment and congestion '
+                                                       'assessment.'},
                                        {'question': 'NG tube placement confirmation gold standard?',
-                                        'options': ['A) X-ray confirmation per policy before first '
+                                        'options': ['A) Air insufflation with auscultation alone '
+                                                    'before first use',
+                                                    'B) X-ray confirmation per policy before first '
                                                     'use',
-                                                    'B) Air insufflation alone always adequate',
-                                                    'C) Patient saying it feels fine only',
-                                                    'D) No check needed'],
-                                        'answer': 'A) X-ray confirmation per policy before first '
+                                                    "C) Patient report that the tube 'feels fine' "
+                                                    'in the nose',
+                                                    'D) Immediate feeding if gastric aspirate '
+                                                    'looks clear'],
+                                        'answer': 'B) X-ray confirmation per policy before first '
                                                   'use',
-                                        'explanation': 'Blind nasogastric tube placement can inadvertently enter the airway; feeding or medication into a misplaced tube causes chemical pneumonitis and aspiration pneumonia. Radiographic confirmation per policy before first use is the gold standard because bedside cues alone are insufficiently reliable. Correct placement protects the airway–GI barrier during enteral therapy.'},
+                                        'explanation': 'Blind nasogastric tube placement can '
+                                                       'inadvertently enter the airway; feeding or '
+                                                       'medication into a misplaced tube causes '
+                                                       'chemical pneumonitis and aspiration '
+                                                       'pneumonia. Radiographic confirmation per '
+                                                       'policy before first use is the gold '
+                                                       'standard because bedside cues alone are '
+                                                       'insufficiently reliable. Correct placement '
+                                                       'protects the airway–GI barrier during '
+                                                       'enteral therapy.'},
                                        {'question': 'DVT prevention includes?',
-                                        'options': ['A) Early ambulation, prophylaxis as ordered, '
+                                        'options': ['A) Prolonged bedrest to protect surgical '
+                                                    'incisions',
+                                                    'B) Crossing legs tightly to improve venous '
+                                                    'return',
+                                                    'C) Early ambulation, prophylaxis as ordered, '
                                                     'leg exercises',
-                                                    'B) Prolonged immobility encouragement',
-                                                    'C) Crossing legs tightly always',
-                                                    'D) Ignoring calf pain'],
-                                        'answer': 'A) Early ambulation, prophylaxis as ordered, '
+                                                    'D) Deferring calf pain assessment until '
+                                                    'discharge'],
+                                        'answer': 'C) Early ambulation, prophylaxis as ordered, '
                                                   'leg exercises',
-                                        'explanation': 'Venous stasis, endothelial injury, and hypercoagulability (Virchow’s triad) intensify after surgery, raising deep-vein thrombosis and pulmonary embolism risk. Early ambulation, prescribed pharmacologic prophylaxis, and leg exercises augment venous return and blunt clot formation. Nursing surveillance for calf pain, swelling, and sudden dyspnea supports timely escalation.'}],
-                            'hard': [{'question': 'A junior colleague asks for the single best '
-                                                  'answer. Sepsis early nursing recognition uses? '
-                                                  'Beware of near-miss distractors.',
-                                      'options': ['A) Infection + organ dysfunction signs '
+                                        'explanation': 'Venous stasis, endothelial injury, and '
+                                                       'hypercoagulability (Virchow’s triad) '
+                                                       'intensify after surgery, raising deep-vein '
+                                                       'thrombosis and pulmonary embolism risk. '
+                                                       'Early ambulation, prescribed pharmacologic '
+                                                       'prophylaxis, and leg exercises augment '
+                                                       'venous return and blunt clot formation. '
+                                                       'Nursing surveillance for calf pain, '
+                                                       'swelling, and sudden dyspnea supports '
+                                                       'timely escalation.'}],
+                            'hard': [{'question': 'Sepsis early nursing recognition uses?',
+                                      'options': ['A) Waiting for hypotension before considering '
+                                                  'sepsis',
+                                                  'B) Presence of a rash as the required '
+                                                  'diagnostic clue',
+                                                  'C) Normal mentation ruling out organ '
+                                                  'dysfunction',
+                                                  'D) Infection + organ dysfunction signs '
                                                   '(fever/hypothermia, tachypnea, altered '
-                                                  'mentation, etc.)',
-                                                  'B) Waiting for hypotension only always',
-                                                  'C) Only rash required',
-                                                  'D) Ignoring lactate'],
-                                      'answer': 'A) Infection + organ dysfunction signs '
+                                                  'mentation, etc.)'],
+                                      'answer': 'D) Infection + organ dysfunction signs '
                                                 '(fever/hypothermia, tachypnea, altered mentation, '
                                                 'etc.)',
-                                      'explanation': 'Sepsis is life-threatening organ dysfunction driven by a dysregulated host response to infection, with microvascular leak, vasodilation, and impaired tissue oxygen use. Early clues include fever or hypothermia, tachypnea, altered mentation, and other signs of organ stress alongside a suspected infectious source. Recognition at this stage enables rapid fluids, cultures, antimicrobials, and source control that reduce mortality.'},
-                                     {'question': 'A junior colleague asks for the single best '
-                                                  'answer. COPD patient on high O2 becomes drowsy '
-                                                  '— concern? Beware of near-miss distractors.',
+                                      'explanation': 'Sepsis is life-threatening organ dysfunction '
+                                                     'driven by a dysregulated host response to '
+                                                     'infection, with microvascular leak, '
+                                                     'vasodilation, and impaired tissue oxygen '
+                                                     'use. Early clues include fever or '
+                                                     'hypothermia, tachypnea, altered mentation, '
+                                                     'and other signs of organ stress alongside a '
+                                                     'suspected infectious source. Recognition at '
+                                                     'this stage enables rapid fluids, cultures, '
+                                                     'antimicrobials, and source control that '
+                                                     'reduce mortality.'},
+                                     {'question': 'COPD patient on high O2 becomes drowsy — '
+                                                  'concern?',
                                       'options': ['A) CO2 retention / ventilatory failure risk — '
                                                   'assess ABG/notify',
-                                                  'B) Always give more O2 blindly',
-                                                  'C) Ignore SpO2',
-                                                  'D) Force oral fluids only'],
+                                                  'B) Need for still higher FiO2 without further '
+                                                  'assessment',
+                                                  'C) Expected sedation from oxygen that needs no '
+                                                  'follow-up',
+                                                  'D) Dehydration only — push oral fluids '
+                                                  'aggressively'],
                                       'answer': 'A) CO2 retention / ventilatory failure risk — '
                                                 'assess ABG/notify',
-                                      'explanation': 'In some patients with advanced COPD, chronic hypercapnia shifts ventilatory drive and high uncontrolled oxygen can worsen V/Q mismatch and CO2 retention, producing progressive drowsiness and respiratory acidosis. Nursing concern centers on assessing ventilation, obtaining ABGs as indicated, and notifying the provider rather than assuming oxygen is always benign. Oxygen is titrated to ordered saturation targets while supporting work of breathing.'},
-                                     {'question': 'A junior colleague asks for the single best '
-                                                  'answer. Post-thyroidectomy emergency concern? '
-                                                  'Beware of near-miss distractors.',
-                                      'options': ['A) Airway compromise / hematoma / hypocalcemia '
+                                      'explanation': 'In some patients with advanced COPD, chronic '
+                                                     'hypercapnia shifts ventilatory drive and '
+                                                     'high uncontrolled oxygen can worsen V/Q '
+                                                     'mismatch and CO2 retention, producing '
+                                                     'progressive drowsiness and respiratory '
+                                                     'acidosis. Nursing concern centers on '
+                                                     'assessing ventilation, obtaining ABGs as '
+                                                     'indicated, and notifying the provider rather '
+                                                     'than assuming oxygen is always benign. '
+                                                     'Oxygen is titrated to ordered saturation '
+                                                     'targets while supporting work of breathing.'},
+                                     {'question': 'Post-thyroidectomy emergency concern?',
+                                      'options': ['A) Constipation from opioid analgesia as the '
+                                                  'main emergency',
+                                                  'B) Airway compromise / hematoma / hypocalcemia '
                                                   'themes',
-                                                  'B) Only constipation',
-                                                  'C) Only acne',
-                                                  'D) Only myopia'],
-                                      'answer': 'A) Airway compromise / hematoma / hypocalcemia '
+                                                  'C) Delayed acneiform rash as the urgent airway '
+                                                  'threat',
+                                                  'D) Refractive vision change without airway '
+                                                  'concern'],
+                                      'answer': 'B) Airway compromise / hematoma / hypocalcemia '
                                                 'themes',
-                                      'explanation': 'After thyroidectomy, hematoma in a closed neck space can rapidly compress the trachea, and inadvertent parathyroid injury may cause acute hypocalcemia with laryngospasm. Both pathways threaten airway patency within hours of surgery. Emergency airway equipment readiness and vigilant monitoring for stridor, neck swelling, and tetany reflect this anatomy-driven risk.'}],
-                            'extreme': [{'question': 'In a high-stakes nursing scenario with '
-                                                     'incomplete data, which statement is MOST '
-                                                     'correct? Anaphylaxis after IV antibiotic — '
-                                                     'first drug theme? Avoid actions that could '
-                                                     'harm if a critical risk remains open.',
-                                         'options': ['A) Epinephrine IM per protocol + airway '
+                                      'explanation': 'After thyroidectomy, hematoma in a closed '
+                                                     'neck space can rapidly compress the trachea, '
+                                                     'and inadvertent parathyroid injury may cause '
+                                                     'acute hypocalcemia with laryngospasm. Both '
+                                                     'pathways threaten airway patency within '
+                                                     'hours of surgery. Emergency airway equipment '
+                                                     'readiness and vigilant monitoring for '
+                                                     'stridor, neck swelling, and tetany reflect '
+                                                     'this anatomy-driven risk.'}],
+                            'extreme': [{'question': 'Anaphylaxis after IV antibiotic — first drug '
+                                                     'theme?',
+                                         'options': ['A) Oral antihistamine alone while continuing '
+                                                     'the infusion',
+                                                     'B) Increase the antibiotic rate after a '
+                                                     'brief pause',
+                                                     'C) Epinephrine IM per protocol + airway '
                                                      'support / stop infusion',
-                                                     'B) Only oral antihistamine forever',
-                                                     'C) Increase infusion rate',
-                                                     'D) Wait and see 2 hours'],
-                                         'answer': 'A) Epinephrine IM per protocol + airway '
+                                                     'D) Observe for two hours before giving any '
+                                                     'medication'],
+                                         'answer': 'C) Epinephrine IM per protocol + airway '
                                                    'support / stop infusion',
-                                         'explanation': 'Anaphylaxis is an acute systemic hypersensitivity reaction with mast-cell mediator release causing bronchospasm, laryngeal edema, and distributive shock. Intramuscular epinephrine is first-line because it reverses vasodilation, reduces mucosal edema, and supports cardiac output while the offending infusion is stopped. Airway support and emergency activation proceed in parallel because progression can be minutes.'},
-                                        {'question': 'In a high-stakes nursing scenario with '
-                                                     'incomplete data, which statement is MOST '
-                                                     'correct? Massive hemoptysis priority? Avoid '
-                                                     'actions that could harm if a critical risk '
-                                                     'remains open.',
-                                         'options': ['A) Airway protection / position bleeding '
-                                                     'side down if known, emergency help',
-                                                     'B) Encourage coughing forcefully '
-                                                     'unsupervised only',
-                                                     'C) Only chart color',
-                                                     'D) Leave for lunch'],
-                                         'answer': 'A) Airway protection / position bleeding side '
+                                         'explanation': 'Anaphylaxis is an acute systemic '
+                                                        'hypersensitivity reaction with mast-cell '
+                                                        'mediator release causing bronchospasm, '
+                                                        'laryngeal edema, and distributive shock. '
+                                                        'Intramuscular epinephrine is first-line '
+                                                        'because it reverses vasodilation, reduces '
+                                                        'mucosal edema, and supports cardiac '
+                                                        'output while the offending infusion is '
+                                                        'stopped. Airway support and emergency '
+                                                        'activation proceed in parallel because '
+                                                        'progression can be minutes.'},
+                                        {'question': 'Massive hemoptysis priority?',
+                                         'options': ['A) Encourage forceful coughing without '
+                                                     'supervision',
+                                                     'B) Document sputum color and continue '
+                                                     'routine care',
+                                                     'C) Position the bleeding lung up to improve '
+                                                     'drainage',
+                                                     'D) Airway protection / position bleeding '
+                                                     'side down if known, emergency help'],
+                                         'answer': 'D) Airway protection / position bleeding side '
                                                    'down if known, emergency help',
-                                         'explanation': 'Massive hemoptysis threatens asphyxiation more immediately than exsanguination because blood in the airways obstructs alveolar ventilation. Priority nursing actions protect the airway and, when the bleeding side is known, position that lung dependent to spare the contralateral lung. Emergency help is summoned while oxygenation and suction readiness are maintained.'},
-                                        {'question': 'In a high-stakes nursing scenario with '
-                                                     'incomplete data, which statement is MOST '
-                                                     'correct? Suspect compartment syndrome after '
-                                                     'cast? Avoid actions that could harm if a '
-                                                     'critical risk remains open.',
+                                         'explanation': 'Massive hemoptysis threatens asphyxiation '
+                                                        'more immediately than exsanguination '
+                                                        'because blood in the airways obstructs '
+                                                        'alveolar ventilation. Priority nursing '
+                                                        'actions protect the airway and, when the '
+                                                        'bleeding side is known, position that '
+                                                        'lung dependent to spare the contralateral '
+                                                        'lung. Emergency help is summoned while '
+                                                        'oxygenation and suction readiness are '
+                                                        'maintained.'},
+                                        {'question': 'Suspect compartment syndrome after cast?',
                                          'options': ['A) Pain out of proportion, pallor, '
                                                      'paresthesia — urgent notify; do not elevate '
                                                      'blindly alone as only action',
-                                                     'B) Ignore escalating pain',
-                                                     'C) Tighten cast more',
-                                                     'D) Give only PRN sleep aid'],
+                                                     'B) Ignore escalating pain if distal pulses '
+                                                     'are still palpable',
+                                                     'C) Tighten the cast to reduce swelling '
+                                                     'sensation',
+                                                     'D) Treat with a sleep aid and reassess in '
+                                                     'the morning'],
                                          'answer': 'A) Pain out of proportion, pallor, paresthesia '
                                                    '— urgent notify; do not elevate blindly alone '
                                                    'as only action',
-                                         'explanation': 'Compartment syndrome occurs when rising pressure within a fascial compartment occludes capillary perfusion, producing ischemic muscle and nerve injury. Pain out of proportion, paresthesia, and pallor are early ischemic warnings that demand urgent surgical evaluation. Casting or elevation alone without escalation can delay fasciotomy and result in irreversible limb loss.'}]},
+                                         'explanation': 'Compartment syndrome occurs when rising '
+                                                        'pressure within a fascial compartment '
+                                                        'occludes capillary perfusion, producing '
+                                                        'ischemic muscle and nerve injury. Pain '
+                                                        'out of proportion, paresthesia, and '
+                                                        'pallor are early ischemic warnings that '
+                                                        'demand urgent surgical evaluation. '
+                                                        'Casting or elevation alone without '
+                                                        'escalation can delay fasciotomy and '
+                                                        'result in irreversible limb loss.'}]},
               'cases': {'easy': [{'title': 'New Chest Pain',
                                   'stem': 'Ward patient reports crushing chest pain radiating to '
                                           'arm.',
@@ -356,128 +627,252 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                               'Airway differences: do not agitate suspected epiglottitis.',
                               'Family-centered care and mandated reporting duties.'],
                 'questions': {'easy': [{'question': 'Best IM site for young infants often?',
-                                        'options': ['A) Vastus lateralis',
-                                                    'B) Dorsogluteal always preferred in neonates',
-                                                    'C) Deltoid only in newborns always',
-                                                    'D) Foot pad'],
-                                        'answer': 'A) Vastus lateralis',
-                                        'explanation': 'In young infants the vastus lateralis provides a sufficiently large, well-perfused muscle mass away from major nerves and vessels used for ambulation later in development. The dorsogluteal site is avoided because of sciatic nerve proximity and immature muscle bulk. Age-appropriate site selection therefore balances absorption with injury prevention.'},
+                                        'options': ['A) Dorsogluteal site as first choice in '
+                                                    'neonates',
+                                                    'B) Vastus lateralis',
+                                                    'C) Deltoid muscle for all newborns',
+                                                    'D) Plantar foot pad for routine vaccines'],
+                                        'answer': 'B) Vastus lateralis',
+                                        'explanation': 'In young infants the vastus lateralis '
+                                                       'provides a sufficiently large, '
+                                                       'well-perfused muscle mass away from major '
+                                                       'nerves and vessels used for ambulation '
+                                                       'later in development. The dorsogluteal '
+                                                       'site is avoided because of sciatic nerve '
+                                                       'proximity and immature muscle bulk. '
+                                                       'Age-appropriate site selection therefore '
+                                                       'balances absorption with injury '
+                                                       'prevention.'},
                                        {'question': 'Pediatric med dosing commonly based on?',
-                                        'options': ['A) Weight (mg/kg) with safe range checks',
-                                                    'B) Adult dose always',
-                                                    'C) Hair color',
-                                                    'D) Room number'],
-                                        'answer': 'A) Weight (mg/kg) with safe range checks',
-                                        'explanation': 'Children’s body composition and immature organ clearance make milligram-per-kilogram dosing the standard for most pediatric medications. Weight-based calculation with safe-range verification reduces both underdosing and toxic overdose. Independent double-checks are especially important for high-alert agents such as insulin and opioids.'},
+                                        'options': ['A) Matching the standard adult tablet dose',
+                                                    'B) Patient hair color and estimated age only',
+                                                    'C) Weight (mg/kg) with safe range checks',
+                                                    'D) Room number–based unit stock vials'],
+                                        'answer': 'C) Weight (mg/kg) with safe range checks',
+                                        'explanation': 'Children’s body composition and immature '
+                                                       'organ clearance make '
+                                                       'milligram-per-kilogram dosing the standard '
+                                                       'for most pediatric medications. '
+                                                       'Weight-based calculation with safe-range '
+                                                       'verification reduces both underdosing and '
+                                                       'toxic overdose. Independent double-checks '
+                                                       'are especially important for high-alert '
+                                                       'agents such as insulin and opioids.'},
                                        {'question': 'Fontanelle assessment is relevant in?',
-                                        'options': ['A) Infants',
-                                                    'B) Only elderly always',
-                                                    'C) Only adolescents only',
-                                                    'D) Only pregnancy'],
-                                        'answer': 'A) Infants',
-                                        'explanation': 'The anterior fontanelle remains patent in infancy and transmits changes in intracranial volume and hydration status to the examiner’s fingertips. A sunken fontanelle suggests volume depletion, whereas tense bulging may indicate elevated intracranial pressure or meningitis-related inflammation. Fontanelle assessment is therefore clinically relevant primarily while these sutures remain open.'}],
+                                        'options': ['A) Only older adults with dementia',
+                                                    'B) Only adolescents during growth spurts',
+                                                    'C) Only pregnant patients in third trimester',
+                                                    'D) Infants'],
+                                        'answer': 'D) Infants',
+                                        'explanation': 'The anterior fontanelle remains patent in '
+                                                       'infancy and transmits changes in '
+                                                       'intracranial volume and hydration status '
+                                                       'to the examiner’s fingertips. A sunken '
+                                                       'fontanelle suggests volume depletion, '
+                                                       'whereas tense bulging may indicate '
+                                                       'elevated intracranial pressure or '
+                                                       'meningitis-related inflammation. '
+                                                       'Fontanelle assessment is therefore '
+                                                       'clinically relevant primarily while these '
+                                                       'sutures remain open.'}],
                               'medium': [{'question': 'Dehydration signs in children include?',
                                           'options': ['A) Sunken eyes/fontanelle, dry mucosa, '
                                                       'decreased tears/urine, lethargy',
-                                                      'B) Only hyperactivity always',
-                                                      'C) Always moist mucosa only',
-                                                      'D) Only adult BP cutoffs'],
+                                                      'B) Persistent hyperactivity with moist '
+                                                      'mucous membranes',
+                                                      'C) Adult blood-pressure cutoffs applied '
+                                                      'unchanged',
+                                                      'D) Increased tears and frequent large wet '
+                                                      'diapers'],
                                           'answer': 'A) Sunken eyes/fontanelle, dry mucosa, '
                                                     'decreased tears/urine, lethargy',
-                                          'explanation': 'Children have higher proportional water content and faster turnover, so gastrointestinal or febrile losses quickly shrink intravascular volume. Sunken eyes or fontanelle, dry mucosa, decreased tears and urine, and lethargy reflect progressive dehydration and impaired perfusion. Comparing these findings with the child’s baseline distinguishes acute deterioration from chronic habitus.'},
+                                          'explanation': 'Children have higher proportional water '
+                                                         'content and faster turnover, so '
+                                                         'gastrointestinal or febrile losses '
+                                                         'quickly shrink intravascular volume. '
+                                                         'Sunken eyes or fontanelle, dry mucosa, '
+                                                         'decreased tears and urine, and lethargy '
+                                                         'reflect progressive dehydration and '
+                                                         'impaired perfusion. Comparing these '
+                                                         'findings with the child’s baseline '
+                                                         'distinguishes acute deterioration from '
+                                                         'chronic habitus.'},
                                          {'question': 'FLACC scale is used for?',
-                                          'options': ['A) Pain assessment in nonverbal/young '
+                                          'options': ['A) Developmental milestone scoring in '
+                                                      'toddlers',
+                                                      'B) Pain assessment in nonverbal/young '
                                                       'children',
-                                                      'B) Only adult IQ',
-                                                      'C) Only adult BMI',
-                                                      'D) Only vision'],
-                                          'answer': 'A) Pain assessment in nonverbal/young '
+                                                      'C) Respiratory distress grading in '
+                                                      'bronchiolitis only',
+                                                      'D) Nutritional status screening in '
+                                                      'adolescents'],
+                                          'answer': 'B) Pain assessment in nonverbal/young '
                                                     'children',
-                                          'explanation': 'Young and nonverbal children cannot reliably self-report pain intensity, so validated observational tools are required. The FLACC scale scores Face, Legs, Activity, Cry, and Consolability as behavioral correlates of nociception. Structured scoring guides analgesic titration when self-report scales are developmentally inappropriate.'},
+                                          'explanation': 'Young and nonverbal children cannot '
+                                                         'reliably self-report pain intensity, so '
+                                                         'validated observational tools are '
+                                                         'required. The FLACC scale scores Face, '
+                                                         'Legs, Activity, Cry, and Consolability '
+                                                         'as behavioral correlates of nociception. '
+                                                         'Structured scoring guides analgesic '
+                                                         'titration when self-report scales are '
+                                                         'developmentally inappropriate.'},
                                          {'question': 'RSV bronchiolitis nursing focus?',
-                                          'options': ['A) Supportive airway/oxygen/hydration; '
+                                          'options': ['A) Immediate antibiotics for all suspected '
+                                                      'viral cases',
+                                                      'B) Chest physiotherapy as the sole required '
+                                                      'intervention',
+                                                      'C) Supportive airway/oxygen/hydration; '
                                                       'isolation precautions as indicated',
-                                                      'B) Routine antibiotics always cure RSV',
-                                                      'C) Force feed solids only',
-                                                      'D) Ignore SpO2'],
-                                          'answer': 'A) Supportive airway/oxygen/hydration; '
+                                                      'D) Fluid restriction even with poor oral '
+                                                      'intake'],
+                                          'answer': 'C) Supportive airway/oxygen/hydration; '
                                                     'isolation precautions as indicated',
-                                          'explanation': 'RSV bronchiolitis inflames small airways, producing edema, mucus plugging, and air trapping that increase work of breathing and impair feeding. Nursing care is primarily supportive—oxygenation, airway clearance as indicated, and hydration—while droplet/contact precautions limit nosocomial spread. Most infants improve with time as inflammation resolves; antivirals are not routine for typical disease.'}],
-                              'hard': [{'question': 'A junior colleague asks for the single best '
-                                                    'answer. Suspected child abuse reporting? '
-                                                    'Beware of near-miss distractors.',
-                                        'options': ['A) Nurses are mandated reporters — follow '
-                                                    'law/policy',
-                                                    'B) Only tell parents privately forever and '
-                                                    'stop',
-                                                    'C) Ignore bruises',
-                                                    'D) Wait until discharge always'],
-                                        'answer': 'A) Nurses are mandated reporters — follow '
+                                          'explanation': 'RSV bronchiolitis inflames small '
+                                                         'airways, producing edema, mucus '
+                                                         'plugging, and air trapping that increase '
+                                                         'work of breathing and impair feeding. '
+                                                         'Nursing care is primarily '
+                                                         'supportive—oxygenation, airway clearance '
+                                                         'as indicated, and hydration—while '
+                                                         'droplet/contact precautions limit '
+                                                         'nosocomial spread. Most infants improve '
+                                                         'with time as inflammation resolves; '
+                                                         'antivirals are not routine for typical '
+                                                         'disease.'}],
+                              'hard': [{'question': 'Suspected child abuse reporting?',
+                                        'options': ['A) Confirm abuse in court before any report '
+                                                    'is filed',
+                                                    'B) Notify only the attending if parents '
+                                                    'request privacy',
+                                                    'C) Document suspicions but delay reporting '
+                                                    'pending proof',
+                                                    'D) Nurses are mandated reporters — follow '
+                                                    'law/policy'],
+                                        'answer': 'D) Nurses are mandated reporters — follow '
                                                   'law/policy',
-                                        'explanation': 'Child maltreatment produces preventable injury and developmental harm; statutes designate nurses as mandated reporters so protection does not depend on certainty of guilt. Reporting suspected abuse per law and policy initiates investigation and safety planning by appropriate authorities. The nurse’s clinical duty is to document objectively and secure the child’s immediate safety.'},
-                                       {'question': 'A junior colleague asks for the single best '
-                                                    'answer. Epiglottitis classic caution? Beware '
-                                                    'of near-miss distractors.',
+                                        'explanation': 'Child maltreatment produces preventable '
+                                                       'injury and developmental harm; statutes '
+                                                       'designate nurses as mandated reporters so '
+                                                       'protection does not depend on certainty of '
+                                                       'guilt. Reporting suspected abuse per law '
+                                                       'and policy initiates investigation and '
+                                                       'safety planning by appropriate '
+                                                       'authorities. The nurse’s clinical duty is '
+                                                       'to document objectively and secure the '
+                                                       'child’s immediate safety.'},
+                                       {'question': 'Epiglottitis classic caution?',
                                         'options': ['A) Do not agitate / avoid throat exam that '
                                                     'precipitates obstruction; airway readiness',
-                                                    'B) Force tongue blade exam first always',
-                                                    'C) Give oral fluids freely while distressed',
-                                                    'D) Ignore drooling'],
+                                                    'B) Force a thorough throat exam to visualize '
+                                                    'the epiglottis',
+                                                    'C) Place supine and stimulate crying for a '
+                                                    'better airway view',
+                                                    'D) Give oral fluids first to assess '
+                                                    'swallowing safely'],
                                         'answer': 'A) Do not agitate / avoid throat exam that '
                                                   'precipitates obstruction; airway readiness',
-                                        'explanation': 'Epiglottitis causes rapidly progressive inflammation of the supraglottic structures that can culminate in complete airway obstruction. Agitation, forced throat examination, or supine positioning may precipitate sudden occlusion. Nursing priorities are calm airway readiness, avoidance of invasive oral inspection, and emergent advanced-airway support in a controlled setting.'},
-                                       {'question': 'A junior colleague asks for the single best '
-                                                    'answer. Kawasaki concern includes? Beware of '
-                                                    'near-miss distractors.',
-                                        'options': ['A) Coronary artery complications — follow '
+                                        'explanation': 'Epiglottitis causes rapidly progressive '
+                                                       'inflammation of the supraglottic '
+                                                       'structures that can culminate in complete '
+                                                       'airway obstruction. Agitation, forced '
+                                                       'throat examination, or supine positioning '
+                                                       'may precipitate sudden occlusion. Nursing '
+                                                       'priorities are calm airway readiness, '
+                                                       'avoidance of invasive oral inspection, and '
+                                                       'emergent advanced-airway support in a '
+                                                       'controlled setting.'},
+                                       {'question': 'Kawasaki concern includes?',
+                                        'options': ['A) Isolated otitis media as the primary '
+                                                    'long-term risk',
+                                                    'B) Coronary artery complications — follow '
                                                     'treatment protocols',
-                                                    'B) Only dental caries',
-                                                    'C) Only myopia',
-                                                    'D) Only acne alone'],
-                                        'answer': 'A) Coronary artery complications — follow '
+                                                    'C) Simple viral exanthem requiring '
+                                                    'observation only',
+                                                    'D) Transient limp that never needs cardiac '
+                                                    'follow-up'],
+                                        'answer': 'B) Coronary artery complications — follow '
                                                   'treatment protocols',
-                                        'explanation': 'Kawasaki disease is a medium-vessel vasculitis; coronary artery inflammation can lead to aneurysms, thrombosis, and myocardial ischemia if untreated. Fever with mucocutaneous signs prompts protocolized therapy (commonly IVIG and aspirin as ordered) to blunt vasculitis. Cardiac surveillance is integral because coronary complications drive long-term morbidity.'}],
-                              'extreme': [{'question': 'In a high-stakes nursing scenario with '
-                                                       'incomplete data, which statement is MOST '
-                                                       'correct? Pediatric cardiac arrest '
-                                                       'compression depth theme? Avoid actions '
-                                                       'that could harm if a critical risk remains '
-                                                       'open.',
-                                           'options': ['A) About 1/3 AP chest diameter; '
+                                        'explanation': 'Kawasaki disease is a medium-vessel '
+                                                       'vasculitis; coronary artery inflammation '
+                                                       'can lead to aneurysms, thrombosis, and '
+                                                       'myocardial ischemia if untreated. Fever '
+                                                       'with mucocutaneous signs prompts '
+                                                       'protocolized therapy (commonly IVIG and '
+                                                       'aspirin as ordered) to blunt vasculitis. '
+                                                       'Cardiac surveillance is integral because '
+                                                       'coronary complications drive long-term '
+                                                       'morbidity.'}],
+                              'extreme': [{'question': 'Pediatric cardiac arrest compression depth '
+                                                       'theme?',
+                                           'options': ['A) Full adult 5 cm depth regardless of '
+                                                       'child size',
+                                                       'B) Shallow compressions to avoid rib '
+                                                       'injury exclusively',
+                                                       'C) About 1/3 AP chest diameter; '
                                                        'high-quality CPR',
-                                                       'B) Only 1 cm always',
-                                                       'C) No compressions if parent present',
-                                                       'D) Only abdominal thrusts forever'],
-                                           'answer': 'A) About 1/3 AP chest diameter; high-quality '
+                                                       'D) Compressions only after advanced airway '
+                                                       'placement'],
+                                           'answer': 'C) About 1/3 AP chest diameter; high-quality '
                                                      'CPR',
-                                           'explanation': 'Pediatric cardiac arrest is usually hypoxic–ischemic; coronary and cerebral perfusion during CPR depend on adequate compression depth and full recoil. Compressing about one-third of the anteroposterior chest diameter generates the stroke volume needed without excessive trauma. High-quality CPR per PALS principles is the physiologic bridge to return of spontaneous circulation.'},
-                                          {'question': 'In a high-stakes nursing scenario with '
-                                                       'incomplete data, which statement is MOST '
-                                                       'correct? Anaphylaxis in child after '
-                                                       'peanut? Avoid actions that could harm if a '
-                                                       'critical risk remains open.',
-                                           'options': ['A) IM epinephrine promptly + emergency '
-                                                       'activation',
-                                                       'B) Wait for rash to spread fully',
-                                                       'C) Only oral water',
-                                                       'D) Induce vomiting'],
-                                           'answer': 'A) IM epinephrine promptly + emergency '
+                                           'explanation': 'Pediatric cardiac arrest is usually '
+                                                          'hypoxic–ischemic; coronary and cerebral '
+                                                          'perfusion during CPR depend on adequate '
+                                                          'compression depth and full recoil. '
+                                                          'Compressing about one-third of the '
+                                                          'anteroposterior chest diameter '
+                                                          'generates the stroke volume needed '
+                                                          'without excessive trauma. High-quality '
+                                                          'CPR per PALS principles is the '
+                                                          'physiologic bridge to return of '
+                                                          'spontaneous circulation.'},
+                                          {'question': 'Anaphylaxis in child after peanut?',
+                                           'options': ['A) Oral antihistamine and observe at home '
+                                                       'first',
+                                                       'B) Nebulized albuterol as the initial '
+                                                       'priority drug',
+                                                       'C) IV epinephrine only after loss of '
+                                                       'pulses',
+                                                       'D) IM epinephrine promptly + emergency '
+                                                       'activation'],
+                                           'answer': 'D) IM epinephrine promptly + emergency '
                                                      'activation',
-                                           'explanation': 'Food-triggered anaphylaxis in children can progress from urticaria to bronchospasm and distributive shock within minutes via IgE-mediated mediator release. Intramuscular epinephrine promptly stabilizes mast-cell effects on airway and vasculature and must not be delayed for antihistamines alone. Emergency activation ensures airway expertise and monitoring for biphasic recurrence.'},
-                                          {'question': 'In a high-stakes nursing scenario with '
-                                                       'incomplete data, which statement is MOST '
-                                                       'correct? Suspected increased ICP in child '
-                                                       'after trauma? Avoid actions that could '
-                                                       'harm if a critical risk remains open.',
+                                           'explanation': 'Food-triggered anaphylaxis in children '
+                                                          'can progress from urticaria to '
+                                                          'bronchospasm and distributive shock '
+                                                          'within minutes via IgE-mediated '
+                                                          'mediator release. Intramuscular '
+                                                          'epinephrine promptly stabilizes '
+                                                          'mast-cell effects on airway and '
+                                                          'vasculature and must not be delayed for '
+                                                          'antihistamines alone. Emergency '
+                                                          'activation ensures airway expertise and '
+                                                          'monitoring for biphasic recurrence.'},
+                                          {'question': 'Suspected increased ICP in child after '
+                                                       'trauma?',
                                            'options': ['A) ABC, head midline, avoid hypotonic '
                                                        'fluids blindly, urgent notify/neurosurg '
                                                        'path',
-                                                       'B) Trendelenburg always',
-                                                       'C) Force oral hydration race',
-                                                       'D) Ignore unequal pupils'],
+                                                       'B) Trendelenburg positioning to improve '
+                                                       'cerebral perfusion',
+                                                       'C) Rapid free-water boluses to lower serum '
+                                                       'sodium quickly',
+                                                       'D) Cluster all nursing care to minimize '
+                                                       'monitoring interruptions'],
                                            'answer': 'A) ABC, head midline, avoid hypotonic fluids '
                                                      'blindly, urgent notify/neurosurg path',
-                                           'explanation': 'After trauma, rising intracranial pressure reduces cerebral perfusion pressure (CPP = MAP − ICP) and risks herniation. Keeping the head midline, supporting ABCs, and avoiding hypotonic fluids that worsen cerebral edema are nursing measures that protect autoregulation while neurosurgical pathways are activated. Urgent notification matches the narrow window before irreversible secondary brain injury.'}]},
+                                           'explanation': 'After trauma, rising intracranial '
+                                                          'pressure reduces cerebral perfusion '
+                                                          'pressure (CPP = MAP − ICP) and risks '
+                                                          'herniation. Keeping the head midline, '
+                                                          'supporting ABCs, and avoiding hypotonic '
+                                                          'fluids that worsen cerebral edema are '
+                                                          'nursing measures that protect '
+                                                          'autoregulation while neurosurgical '
+                                                          'pathways are activated. Urgent '
+                                                          'notification matches the narrow window '
+                                                          'before irreversible secondary brain '
+                                                          'injury.'}]},
                 'cases': {'easy': [{'title': 'Febrile Infant',
                                     'stem': '6-week-old with fever 38.5°C; parents anxious.',
                                     'question': 'Nursing priority theme?',
@@ -517,134 +912,254 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                              'Cord prolapse: relieve pressure, emergent birth path.',
                              'Support bonding and newborn transition (APGAR, warmth).'],
                'questions': {'easy': [{'question': 'APGAR assesses newborn?',
-                                       'options': ['A) Appearance, Pulse, Grimace, Activity, '
+                                       'options': ['A) Airway, perfusion, glucose, activity, '
+                                                   'reflexes only',
+                                                   'B) Appearance, Pulse, Grimace, Activity, '
                                                    'Respiration',
-                                                   'B) Only weight',
-                                                   'C) Only maternal BP',
-                                                   'D) Only cord length'],
-                                       'answer': 'A) Appearance, Pulse, Grimace, Activity, '
+                                                   'C) Apnea episodes, posture, grasp, alertness, '
+                                                   'rooting',
+                                                   'D) Albumin, platelets, glucose, acid–base, '
+                                                   'respirations'],
+                                       'answer': 'B) Appearance, Pulse, Grimace, Activity, '
                                                  'Respiration',
-                                       'explanation': 'The APGAR score quantifies newborn cardiopulmonary adaptation by scoring Appearance, Pulse, Grimace, Activity, and Respiration. Assessments at 1 and 5 minutes capture immediate transition and response to resuscitation, guiding whether ongoing support is needed. It is a physiologic snapshot, not a long-term developmental predictor.'},
+                                       'explanation': 'The APGAR score quantifies newborn '
+                                                      'cardiopulmonary adaptation by scoring '
+                                                      'Appearance, Pulse, Grimace, Activity, and '
+                                                      'Respiration. Assessments at 1 and 5 minutes '
+                                                      'capture immediate transition and response '
+                                                      'to resuscitation, guiding whether ongoing '
+                                                      'support is needed. It is a physiologic '
+                                                      'snapshot, not a long-term developmental '
+                                                      'predictor.'},
                                       {'question': 'Fundal massage after birth primarily for?',
-                                       'options': ['A) Uterine atony / postpartum hemorrhage '
+                                       'options': ['A) Stimulate newborn breathing exclusively',
+                                                   'B) Reduce afterpains without affecting '
+                                                   'bleeding',
+                                                   'C) Uterine atony / postpartum hemorrhage '
                                                    'control',
-                                                   'B) Only breastfeeding latch forever',
-                                                   'C) Only newborn bath',
-                                                   'D) Only episiotomy stitch'],
-                                       'answer': 'A) Uterine atony / postpartum hemorrhage control',
-                                       'explanation': 'After placental delivery, uterine atony leaves spiral arteries unconstricted, producing potentially massive postpartum hemorrhage. Fundal massage stimulates myometrial contraction that mechanically tamponades these vessels. It is first-line nursing management for a boggy uterus while uterotonic medications and escalation proceed.'},
+                                                   'D) Promote lactation by emptying milk ducts'],
+                                       'answer': 'C) Uterine atony / postpartum hemorrhage control',
+                                       'explanation': 'After placental delivery, uterine atony '
+                                                      'leaves spiral arteries unconstricted, '
+                                                      'producing potentially massive postpartum '
+                                                      'hemorrhage. Fundal massage stimulates '
+                                                      'myometrial contraction that mechanically '
+                                                      'tamponades these vessels. It is first-line '
+                                                      'nursing management for a boggy uterus while '
+                                                      'uterotonic medications and escalation '
+                                                      'proceed.'},
                                       {'question': 'Rh-negative mother may need?',
-                                       'options': ['A) Rh immune globulin when indicated',
-                                                   'B) Always iron only',
-                                                   'C) Always no blood product ever',
-                                                   'D) Vitamin C only'],
-                                       'answer': 'A) Rh immune globulin when indicated',
-                                       'explanation': 'RhD-negative mothers can form alloantibodies if exposed to RhD-positive fetal red cells, risking hemolytic disease in subsequent pregnancies. Rh immune globulin provides passive antibody that clears fetal antigen before maternal sensitization occurs. Administration when indicated interrupts this immunologic cascade.'}],
+                                       'options': ['A) Oxytocin infusion for every Rh-negative '
+                                                   'mother',
+                                                   'B) Magnesium sulfate solely based on Rh status',
+                                                   'C) Broad-spectrum antibiotics for Rh '
+                                                   'incompatibility',
+                                                   'D) Rh immune globulin when indicated'],
+                                       'answer': 'D) Rh immune globulin when indicated',
+                                       'explanation': 'RhD-negative mothers can form '
+                                                      'alloantibodies if exposed to RhD-positive '
+                                                      'fetal red cells, risking hemolytic disease '
+                                                      'in subsequent pregnancies. Rh immune '
+                                                      'globulin provides passive antibody that '
+                                                      'clears fetal antigen before maternal '
+                                                      'sensitization occurs. Administration when '
+                                                      'indicated interrupts this immunologic '
+                                                      'cascade.'}],
                              'medium': [{'question': 'Preeclampsia danger signs include?',
                                          'options': ['A) Severe headache, visual changes, RUQ '
                                                      'pain, rising BP, proteinuria themes',
-                                                     'B) Only mild ankle edema alone always benign '
-                                                     'forever',
-                                                     'C) Only heartburn always',
-                                                     'D) Only stretch marks'],
+                                                     'B) Painless bright-red bleeding with a soft '
+                                                     'nontender uterus only',
+                                                     'C) Isolated dependent edema without BP or '
+                                                     'symptom changes',
+                                                     'D) Early satiety and heartburn without '
+                                                     'neurologic symptoms'],
                                          'answer': 'A) Severe headache, visual changes, RUQ pain, '
                                                    'rising BP, proteinuria themes',
-                                         'explanation': 'Preeclampsia features systemic endothelial dysfunction with hypertension and organ ischemia affecting brain, liver, and kidneys. Severe headache, visual changes, right-upper-quadrant pain, rising blood pressure, and proteinuria signal worsening vasospasm and impending eclampsia or HELLP progression. Prompt escalation enables magnesium sulfate seizure prophylaxis and delivery planning.'},
+                                         'explanation': 'Preeclampsia features systemic '
+                                                        'endothelial dysfunction with hypertension '
+                                                        'and organ ischemia affecting brain, '
+                                                        'liver, and kidneys. Severe headache, '
+                                                        'visual changes, right-upper-quadrant '
+                                                        'pain, rising blood pressure, and '
+                                                        'proteinuria signal worsening vasospasm '
+                                                        'and impending eclampsia or HELLP '
+                                                        'progression. Prompt escalation enables '
+                                                        'magnesium sulfate seizure prophylaxis and '
+                                                        'delivery planning.'},
                                         {'question': 'Nonstress test reactive means roughly?',
-                                         'options': ['A) Adequate fetal heart accelerations with '
+                                         'options': ['A) Absent accelerations with a flat tracing '
+                                                     'for hours',
+                                                     'B) Adequate fetal heart accelerations with '
                                                      'movement (criteria gestational-age '
                                                      'dependent)',
-                                                     'B) Always decelerations only',
-                                                     'C) Always flat line preferred',
-                                                     'D) Maternal sleep only'],
-                                         'answer': 'A) Adequate fetal heart accelerations with '
+                                                     'C) Late decelerations after every '
+                                                     'contraction as reassurance',
+                                                     'D) Maternal tachycardia alone confirming '
+                                                     'fetal well-being'],
+                                         'answer': 'B) Adequate fetal heart accelerations with '
                                                    'movement (criteria gestational-age dependent)',
-                                         'explanation': 'A reactive nonstress test demonstrates fetal heart-rate accelerations coupled with movement, reflecting an intact autonomic and myocardial oxygen supply. Gestational-age–dependent criteria define adequacy of that acceleratory pattern. Reactivity is therefore used as a bedside screen of current fetal well-being.'},
+                                         'explanation': 'A reactive nonstress test demonstrates '
+                                                        'fetal heart-rate accelerations coupled '
+                                                        'with movement, reflecting an intact '
+                                                        'autonomic and myocardial oxygen supply. '
+                                                        'Gestational-age–dependent criteria define '
+                                                        'adequacy of that acceleratory pattern. '
+                                                        'Reactivity is therefore used as a bedside '
+                                                        'screen of current fetal well-being.'},
                                         {'question': 'Mastitis teaching includes?',
-                                         'options': ['A) Continue breastfeeding/pumping as '
+                                         'options': ['A) Stop breastfeeding until antibiotics are '
+                                                     'finished',
+                                                     'B) Apply ice only and avoid emptying the '
+                                                     'breast',
+                                                     'C) Continue breastfeeding/pumping as '
                                                      'advised, antibiotics if prescribed, '
                                                      'supportive care',
-                                                     'B) Abrupt weaning always required first',
-                                                     'C) Ignore fever',
-                                                     'D) Tight binding only'],
-                                         'answer': 'A) Continue breastfeeding/pumping as advised, '
+                                                     'D) Wean abruptly to prevent milk stasis '
+                                                     'permanently'],
+                                         'answer': 'C) Continue breastfeeding/pumping as advised, '
                                                    'antibiotics if prescribed, supportive care',
-                                         'explanation': 'Lactational mastitis usually arises when milk stasis and nipple trauma allow bacterial entry into engorged ducts and parenchyma. Continued breastfeeding or pumping empties the breast, reduces intraductal pressure, and aids antibiotic delivery into infected tissue when prescribed. Supportive care addresses pain and inflammation while maintaining milk flow.'}],
-                             'hard': [{'question': 'A junior colleague asks for the single best '
-                                                   'answer. Shoulder dystocia nursing help? Beware '
-                                                   'of near-miss distractors.',
-                                       'options': ['A) McRoberts, suprapubic pressure (not '
-                                                   'fundal), call for help',
-                                                   'B) Fundal pressure first always',
-                                                   'C) Leave room',
-                                                   'D) Only chart'],
-                                       'answer': 'A) McRoberts, suprapubic pressure (not fundal), '
+                                         'explanation': 'Lactational mastitis usually arises when '
+                                                        'milk stasis and nipple trauma allow '
+                                                        'bacterial entry into engorged ducts and '
+                                                        'parenchyma. Continued breastfeeding or '
+                                                        'pumping empties the breast, reduces '
+                                                        'intraductal pressure, and aids antibiotic '
+                                                        'delivery into infected tissue when '
+                                                        'prescribed. Supportive care addresses '
+                                                        'pain and inflammation while maintaining '
+                                                        'milk flow.'}],
+                             'hard': [{'question': 'Shoulder dystocia nursing help?',
+                                       'options': ['A) Apply strong fundal pressure as the first '
+                                                   'maneuver',
+                                                   'B) Pull the fetal head firmly to free the '
+                                                   'shoulder',
+                                                   'C) Have the mother stand and push without '
+                                                   'assistance',
+                                                   'D) McRoberts, suprapubic pressure (not '
+                                                   'fundal), call for help'],
+                                       'answer': 'D) McRoberts, suprapubic pressure (not fundal), '
                                                  'call for help',
-                                       'explanation': 'Shoulder dystocia traps the anterior shoulder behind the pubic symphysis after the head delivers, compressing the fetal neck and delaying chest expansion. McRoberts maneuver straightens the sacrum and flattens the lumbar lordosis, while directed suprapubic pressure adducts the fetal shoulder; fundal pressure is avoided because it worsens impaction. Immediate help mobilization shortens the hypoxic interval.'},
-                                      {'question': 'A junior colleague asks for the single best '
-                                                   'answer. Abruptio placentae classic? Beware of '
-                                                   'near-miss distractors.',
+                                       'explanation': 'Shoulder dystocia traps the anterior '
+                                                      'shoulder behind the pubic symphysis after '
+                                                      'the head delivers, compressing the fetal '
+                                                      'neck and delaying chest expansion. '
+                                                      'McRoberts maneuver straightens the sacrum '
+                                                      'and flattens the lumbar lordosis, while '
+                                                      'directed suprapubic pressure adducts the '
+                                                      'fetal shoulder; fundal pressure is avoided '
+                                                      'because it worsens impaction. Immediate '
+                                                      'help mobilization shortens the hypoxic '
+                                                      'interval.'},
+                                      {'question': 'Abruptio placentae classic?',
                                        'options': ['A) Painful bleeding, uterine '
                                                    'tenderness/hypertonus, fetal distress risk',
-                                                   'B) Painless bright bleeding always placenta '
-                                                   'previa only',
-                                                   'C) Always normal labor forever',
-                                                   'D) Only UTI'],
+                                                   'B) Painless bleeding with a soft relaxed '
+                                                   'uterus and reassuring FHTs',
+                                                   'C) Clear fluid leak without pain or uterine '
+                                                   'tone change',
+                                                   'D) Low backache only after epidural placement'],
                                        'answer': 'A) Painful bleeding, uterine '
                                                  'tenderness/hypertonus, fetal distress risk',
-                                       'explanation': 'Placental abruption is premature separation of the placenta with maternal hemorrhage into the decidual interface, producing painful bleeding, uterine hypertonus, and acute fetal hypoxia. Compromised uteroplacental perfusion can rapidly cause fetal distress and maternal coagulopathy. Recognition as an obstetric emergency drives continuous monitoring and expedited delivery readiness.'},
-                                      {'question': 'A junior colleague asks for the single best '
-                                                   'answer. Postpartum blues vs depression? Beware '
-                                                   'of near-miss distractors.',
-                                       'options': ['A) Blues brief/self-limited; depression '
+                                       'explanation': 'Placental abruption is premature separation '
+                                                      'of the placenta with maternal hemorrhage '
+                                                      'into the decidual interface, producing '
+                                                      'painful bleeding, uterine hypertonus, and '
+                                                      'acute fetal hypoxia. Compromised '
+                                                      'uteroplacental perfusion can rapidly cause '
+                                                      'fetal distress and maternal coagulopathy. '
+                                                      'Recognition as an obstetric emergency '
+                                                      'drives continuous monitoring and expedited '
+                                                      'delivery readiness.'},
+                                      {'question': 'Postpartum blues vs depression?',
+                                       'options': ['A) Blues lasting months with inability to care '
+                                                   'for the infant',
+                                                   'B) Blues brief/self-limited; depression '
                                                    'persistent and impairs function — screen/refer',
-                                                   'B) Depression never occurs',
-                                                   'C) Blues always psychosis',
-                                                   'D) Ignore tearfulness always'],
-                                       'answer': 'A) Blues brief/self-limited; depression '
+                                                   'C) Depression that always resolves by '
+                                                   'postpartum day three',
+                                                   'D) Blues requiring immediate involuntary '
+                                                   'psychiatric hold'],
+                                       'answer': 'B) Blues brief/self-limited; depression '
                                                  'persistent and impairs function — screen/refer',
-                                       'explanation': 'Postpartum blues are transient mood lability linked to hormonal shifts and sleep loss, typically peaking within two weeks without major functional collapse. Postpartum depression persists, impairs bonding and self-care, and carries suicide risk, requiring screening and referral. Differentiating duration and functional impact guides whether reassurance or active mental-health intervention is appropriate.'}],
-                             'extreme': [{'question': 'In a high-stakes nursing scenario with '
-                                                      'incomplete data, which statement is MOST '
-                                                      'correct? Eclampsia priority after seizure? '
-                                                      'Avoid actions that could harm if a critical '
-                                                      'risk remains open.',
-                                          'options': ['A) Airway/breathing, lateral position, '
+                                       'explanation': 'Postpartum blues are transient mood '
+                                                      'lability linked to hormonal shifts and '
+                                                      'sleep loss, typically peaking within two '
+                                                      'weeks without major functional collapse. '
+                                                      'Postpartum depression persists, impairs '
+                                                      'bonding and self-care, and carries suicide '
+                                                      'risk, requiring screening and referral. '
+                                                      'Differentiating duration and functional '
+                                                      'impact guides whether reassurance or active '
+                                                      'mental-health intervention is '
+                                                      'appropriate.'}],
+                             'extreme': [{'question': 'Eclampsia priority after seizure?',
+                                          'options': ['A) Oral fluids and ambulation immediately '
+                                                      'after the seizure',
+                                                      'B) High-dose oxytocin as the first '
+                                                      'antiseizure priority',
+                                                      'C) Airway/breathing, lateral position, '
                                                       'MgSO4 per protocol, protect from injury',
-                                                      'B) Oral fluids immediately during seizure',
-                                                      'C) Leave alone',
-                                                      'D) Only document after hours'],
-                                          'answer': 'A) Airway/breathing, lateral position, MgSO4 '
+                                                      'D) Trendelenburg and fundal massage during '
+                                                      'the convulsion'],
+                                          'answer': 'C) Airway/breathing, lateral position, MgSO4 '
                                                     'per protocol, protect from injury',
-                                          'explanation': 'Eclamptic seizures threaten maternal aspiration, hypoxemia, and trauma while uteroplacental perfusion falls during convulsive apnea. Lateral positioning protects the airway, injury precautions limit secondary trauma, and magnesium sulfate per protocol raises the seizure threshold by stabilizing neuronal membranes. Maternal ABC stabilization is the immediate prerequisite to fetal resuscitation planning.'},
-                                         {'question': 'In a high-stakes nursing scenario with '
-                                                      'incomplete data, which statement is MOST '
-                                                      'correct? Amniotic fluid embolism suspicion? '
-                                                      'Avoid actions that could harm if a critical '
-                                                      'risk remains open.',
-                                          'options': ['A) Sudden hypoxia/hypotension/coagulopathy '
-                                                      'in labor — emergency response',
-                                                      'B) Routine ambulation first',
-                                                      'C) Ignore dyspnea',
-                                                      'D) Only antacid'],
-                                          'answer': 'A) Sudden hypoxia/hypotension/coagulopathy in '
+                                          'explanation': 'Eclamptic seizures threaten maternal '
+                                                         'aspiration, hypoxemia, and trauma while '
+                                                         'uteroplacental perfusion falls during '
+                                                         'convulsive apnea. Lateral positioning '
+                                                         'protects the airway, injury precautions '
+                                                         'limit secondary trauma, and magnesium '
+                                                         'sulfate per protocol raises the seizure '
+                                                         'threshold by stabilizing neuronal '
+                                                         'membranes. Maternal ABC stabilization is '
+                                                         'the immediate prerequisite to fetal '
+                                                         'resuscitation planning.'},
+                                         {'question': 'Amniotic fluid embolism suspicion?',
+                                          'options': ['A) Expected epidural side effect managed '
+                                                      'with fluids only',
+                                                      'B) Mild anxiety attack treated with '
+                                                      'reassurance alone',
+                                                      'C) Routine postpartum hemorrhage without '
+                                                      'respiratory change',
+                                                      'D) Sudden hypoxia/hypotension/coagulopathy '
+                                                      'in labor — emergency response'],
+                                          'answer': 'D) Sudden hypoxia/hypotension/coagulopathy in '
                                                     'labor — emergency response',
-                                          'explanation': 'Amniotic fluid embolism is a rare anaphylactoid response to amniotic antigens entering the maternal circulation, triggering sudden hypoxia, cardiovascular collapse, and consumptive coagulopathy during labor or immediately postpartum. The syndrome behaves like combined distributive/cardiogenic shock plus DIC. Immediate emergency response focuses on oxygenation, circulatory support, and correction of hemorrhage.'},
-                                         {'question': 'In a high-stakes nursing scenario with '
-                                                      'incomplete data, which statement is MOST '
-                                                      'correct? Uterine inversion recognition? '
-                                                      'Avoid actions that could harm if a critical '
-                                                      'risk remains open.',
+                                          'explanation': 'Amniotic fluid embolism is a rare '
+                                                         'anaphylactoid response to amniotic '
+                                                         'antigens entering the maternal '
+                                                         'circulation, triggering sudden hypoxia, '
+                                                         'cardiovascular collapse, and consumptive '
+                                                         'coagulopathy during labor or immediately '
+                                                         'postpartum. The syndrome behaves like '
+                                                         'combined distributive/cardiogenic shock '
+                                                         'plus DIC. Immediate emergency response '
+                                                         'focuses on oxygenation, circulatory '
+                                                         'support, and correction of hemorrhage.'},
+                                         {'question': 'Uterine inversion recognition?',
                                           'options': ['A) Fundus prolapses; hemorrhage/shock — do '
                                                       'not remove placenta aggressively; emergency '
                                                       'help',
-                                                      'B) Push fundal pressure harder blindly',
-                                                      'C) Ignore',
-                                                      'D) Oral oxytocin only'],
+                                                      'B) Continue vigorous cord traction to '
+                                                      'deliver the placenta faster',
+                                                      'C) Give methylergonovine before recognizing '
+                                                      'uterine position',
+                                                      'D) Encourage maternal pushing to reduce the '
+                                                      'inverted fundus'],
                                           'answer': 'A) Fundus prolapses; hemorrhage/shock — do '
                                                     'not remove placenta aggressively; emergency '
                                                     'help',
-                                          'explanation': 'Uterine inversion is prolapse of the fundus through the cervix, often associated with excessive cord traction or fundal pressure, producing profound hemorrhage and vasovagal shock. Aggressive attempts to remove an attached placenta can worsen inversion and bleeding. Emergency obstetric help is required for prompt uterine replacement and resuscitation.'}]},
+                                          'explanation': 'Uterine inversion is prolapse of the '
+                                                         'fundus through the cervix, often '
+                                                         'associated with excessive cord traction '
+                                                         'or fundal pressure, producing profound '
+                                                         'hemorrhage and vasovagal shock. '
+                                                         'Aggressive attempts to remove an '
+                                                         'attached placenta can worsen inversion '
+                                                         'and bleeding. Emergency obstetric help '
+                                                         'is required for prompt uterine '
+                                                         'replacement and resuscitation.'}]},
                'cases': {'easy': [{'title': 'Boggy Uterus',
                                    'stem': '1 hour PP: heavy lochia, fundus soft/boggy.',
                                    'question': 'First action?',
@@ -690,138 +1205,266 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                'De-escalate early; restraints are last resort.',
                                'NMS and serotonin syndrome are emergencies.'],
                  'questions': {'easy': [{'question': 'Therapeutic communication emphasizes?',
-                                         'options': ['A) Open-ended questions, empathy, '
+                                         'options': ['A) Closed yes/no questions and rapid '
+                                                     'advice-giving',
+                                                     'B) Open-ended questions, empathy, '
                                                      'clarifying, nonjudgmental stance',
-                                                     'B) Giving false reassurance always',
-                                                     'C) Changing subject to nurse problems',
-                                                     'D) Arguing delusions as debate sport'],
-                                         'answer': 'A) Open-ended questions, empathy, clarifying, '
+                                                     'C) Confronting delusions until the patient '
+                                                     'agrees',
+                                                     'D) Sharing personal opinions to build '
+                                                     'rapport quickly'],
+                                         'answer': 'B) Open-ended questions, empathy, clarifying, '
                                                    'nonjudgmental stance',
-                                         'explanation': 'Therapeutic communication uses open-ended questions, clarification, and empathic, nonjudgmental presence to elicit the patient’s internal experience without imposing the nurse’s agenda. This stance lowers defensive arousal and builds the trust needed for accurate assessment and collaborative care. Technique serves relationship, which in turn enables safety planning and treatment adherence.'},
+                                         'explanation': 'Therapeutic communication uses open-ended '
+                                                        'questions, clarification, and empathic, '
+                                                        'nonjudgmental presence to elicit the '
+                                                        'patient’s internal experience without '
+                                                        'imposing the nurse’s agenda. This stance '
+                                                        'lowers defensive arousal and builds the '
+                                                        'trust needed for accurate assessment and '
+                                                        'collaborative care. Technique serves '
+                                                        'relationship, which in turn enables '
+                                                        'safety planning and treatment adherence.'},
                                         {'question': 'Suicide risk assessment asks about?',
-                                         'options': ['A) Ideation, plan, intent, means, protective '
+                                         'options': ['A) Only family history without current '
+                                                     'ideation',
+                                                     'B) Sleep pattern alone as a sufficient '
+                                                     'screen',
+                                                     'C) Ideation, plan, intent, means, protective '
                                                      'factors',
-                                                     'B) Only favorite color',
-                                                     'C) Only BMI',
-                                                     'D) Avoiding the topic forever'],
-                                         'answer': 'A) Ideation, plan, intent, means, protective '
+                                                     'D) Appetite changes without safety '
+                                                     'assessment'],
+                                         'answer': 'C) Ideation, plan, intent, means, protective '
                                                    'factors',
-                                         'explanation': 'Suicide risk is a dynamic clinical state defined by ideation, planning, intent, access to means, and the balance of protective factors. Direct questioning does not implant the idea; it clarifies imminent danger so observation level and means restriction can be matched to risk. Incomplete assessment leaves lethal plans unrecognized.'},
+                                         'explanation': 'Suicide risk is a dynamic clinical state '
+                                                        'defined by ideation, planning, intent, '
+                                                        'access to means, and the balance of '
+                                                        'protective factors. Direct questioning '
+                                                        'does not implant the idea; it clarifies '
+                                                        'imminent danger so observation level and '
+                                                        'means restriction can be matched to risk. '
+                                                        'Incomplete assessment leaves lethal plans '
+                                                        'unrecognized.'},
                                         {'question': 'SSRIs common early side effect theme?',
-                                         'options': ['A) GI upset, headache, sleep changes; watch '
-                                                     'activation/suicidality especially early',
-                                                     'B) Immediate permanent cure day 1 always',
-                                                     'C) Only purple urine always',
-                                                     'D) No monitoring ever'],
-                                         'answer': 'A) GI upset, headache, sleep changes; watch '
+                                         'options': ['A) Immediate agranulocytosis in the first 24 '
+                                                     'hours for all SSRIs',
+                                                     'B) Severe hypertension as the most common '
+                                                     'early effect',
+                                                     'C) Complete absence of side effects after '
+                                                     'the first dose',
+                                                     'D) GI upset, headache, sleep changes; watch '
+                                                     'activation/suicidality especially early'],
+                                         'answer': 'D) GI upset, headache, sleep changes; watch '
                                                    'activation/suicidality especially early',
-                                         'explanation': 'SSRIs increase serotonergic tone and commonly cause early gastrointestinal upset, headache, and sleep disturbance as receptors adapt. A subset of patients, especially early in treatment or after dose changes, may experience activation or heightened suicidal ideation requiring close follow-up. Education prepares patients to report these effects rather than abruptly stopping therapy without guidance.'}],
+                                         'explanation': 'SSRIs increase serotonergic tone and '
+                                                        'commonly cause early gastrointestinal '
+                                                        'upset, headache, and sleep disturbance as '
+                                                        'receptors adapt. A subset of patients, '
+                                                        'especially early in treatment or after '
+                                                        'dose changes, may experience activation '
+                                                        'or heightened suicidal ideation requiring '
+                                                        'close follow-up. Education prepares '
+                                                        'patients to report these effects rather '
+                                                        'than abruptly stopping therapy without '
+                                                        'guidance.'}],
                                'medium': [{'question': 'Lithium toxicity early signs?',
                                            'options': ['A) Nausea, tremor, ataxia, confusion — '
                                                        'hold and notify; check level',
-                                                       'B) Ignore coarse tremor',
-                                                       'C) Double next dose',
-                                                       'D) Only give caffeine'],
+                                                       'B) Isolated dry mouth that never warrants '
+                                                       'holding the dose',
+                                                       'C) Improved mood confirming a therapeutic '
+                                                       'level always',
+                                                       'D) Mild thirst only, continue dose and '
+                                                       'recheck in one month'],
                                            'answer': 'A) Nausea, tremor, ataxia, confusion — hold '
                                                      'and notify; check level',
-                                           'explanation': 'Lithium has a narrow therapeutic index; rising levels impair cerebellar and cortical function, producing nausea, coarse tremor, ataxia, and confusion as early toxicity. Holding the dose and obtaining a serum level prevent progression to seizures and renal injury. Volume depletion and drug interactions that reduce clearance amplify this risk.'},
+                                           'explanation': 'Lithium has a narrow therapeutic index; '
+                                                          'rising levels impair cerebellar and '
+                                                          'cortical function, producing nausea, '
+                                                          'coarse tremor, ataxia, and confusion as '
+                                                          'early toxicity. Holding the dose and '
+                                                          'obtaining a serum level prevent '
+                                                          'progression to seizures and renal '
+                                                          'injury. Volume depletion and drug '
+                                                          'interactions that reduce clearance '
+                                                          'amplify this risk.'},
                                           {'question': 'Alcohol withdrawal risk includes?',
-                                           'options': ['A) Seizures / DTs — use CIWA and protocols',
-                                                       'B) Always harmless forever',
-                                                       'C) Only treats itself with coffee',
-                                                       'D) Ignore tachycardia'],
-                                           'answer': 'A) Seizures / DTs — use CIWA and protocols',
-                                           'explanation': 'Abrupt cessation of chronic alcohol intake removes GABA facilitation and unmasks glutamate excess, producing autonomic hyperactivity, seizures, and potentially delirium tremens. CIWA-guided benzodiazepine protocols treat this hyperexcitable state and reduce mortality. Withdrawal is therefore managed as a medical emergency risk, not solely a behavioral issue.'},
+                                           'options': ['A) Guaranteed safe outpatient detox '
+                                                       'without monitoring',
+                                                       'B) Seizures / DTs — use CIWA and protocols',
+                                                       'C) Hypoglycemia exclusively without '
+                                                       'autonomic signs',
+                                                       'D) Only mild insomnia that never '
+                                                       'progresses'],
+                                           'answer': 'B) Seizures / DTs — use CIWA and protocols',
+                                           'explanation': 'Abrupt cessation of chronic alcohol '
+                                                          'intake removes GABA facilitation and '
+                                                          'unmasks glutamate excess, producing '
+                                                          'autonomic hyperactivity, seizures, and '
+                                                          'potentially delirium tremens. '
+                                                          'CIWA-guided benzodiazepine protocols '
+                                                          'treat this hyperexcitable state and '
+                                                          'reduce mortality. Withdrawal is '
+                                                          'therefore managed as a medical '
+                                                          'emergency risk, not solely a behavioral '
+                                                          'issue.'},
                                           {'question': 'Hallucination nursing response?',
-                                           'options': ['A) Acknowledge experience without '
+                                           'options': ['A) Argue until the patient admits the '
+                                                       'voice is imaginary',
+                                                       'B) Agree that the hallucination is '
+                                                       'objectively real',
+                                                       'C) Acknowledge experience without '
                                                        'reinforcing delusion; redirect to '
                                                        'reality/safety',
-                                                       'B) Argue for hours to prove wrong',
-                                                       'C) Agree the voices are real entities '
-                                                       'always',
-                                                       'D) Ignore safety cues'],
-                                           'answer': 'A) Acknowledge experience without '
+                                                       'D) Ignore the report and change the '
+                                                       'subject abruptly'],
+                                           'answer': 'C) Acknowledge experience without '
                                                      'reinforcing delusion; redirect to '
                                                      'reality/safety',
-                                           'explanation': 'Hallucinations are percepts without external stimuli generated by disordered sensory processing; arguing that they are “not real” often increases distress without extinguishing the experience. Acknowledging the patient’s experience while gently redirecting to shared reality and safety maintains alliance and reduces escalation. The nursing goal is containment and orientation, not debate.'}],
-                               'hard': [{'question': 'A junior colleague asks for the single best '
-                                                     'answer. NMS vs serotonin syndrome clue '
-                                                     'themes? Beware of near-miss distractors.',
-                                         'options': ['A) NMS: rigidity/fever on antipsychotics; '
+                                           'explanation': 'Hallucinations are percepts without '
+                                                          'external stimuli generated by '
+                                                          'disordered sensory processing; arguing '
+                                                          'that they are “not real” often '
+                                                          'increases distress without '
+                                                          'extinguishing the experience. '
+                                                          'Acknowledging the patient’s experience '
+                                                          'while gently redirecting to shared '
+                                                          'reality and safety maintains alliance '
+                                                          'and reduces escalation. The nursing '
+                                                          'goal is containment and orientation, '
+                                                          'not debate.'}],
+                               'hard': [{'question': 'NMS vs serotonin syndrome clue themes?',
+                                         'options': ['A) Both are mild and observed outpatient '
+                                                     'without holding meds',
+                                                     'B) Serotonin syndrome always presents with '
+                                                     'lead-pipe rigidity only',
+                                                     'C) NMS is treated by increasing the '
+                                                     'antipsychotic dose',
+                                                     'D) NMS: rigidity/fever on antipsychotics; '
                                                      'SS: hyperreflexia/clonus on serotonergic '
-                                                     'combos — both emergencies',
-                                                     'B) Both always benign',
-                                                     'C) Only dental issue',
-                                                     'D) Ignore fever on antipsychotics'],
-                                         'answer': 'A) NMS: rigidity/fever on antipsychotics; SS: '
+                                                     'combos — both emergencies'],
+                                         'answer': 'D) NMS: rigidity/fever on antipsychotics; SS: '
                                                    'hyperreflexia/clonus on serotonergic combos — '
                                                    'both emergencies',
-                                         'explanation': 'Neuroleptic malignant syndrome is a hypodopaminergic crisis with lead-pipe rigidity, hyperthermia, and autonomic instability after antipsychotics, whereas serotonin syndrome features neuromuscular hyperreflexia and clonus from excess serotonergic activity. Both produce life-threatening hyperthermia and organ failure if unrecognized. Immediate discontinuation of the offending agents and intensive supportive care are required in either case.'},
-                                        {'question': 'A junior colleague asks for the single best '
-                                                     'answer. Involuntary hold criteria themes? '
-                                                     'Beware of near-miss distractors.',
+                                         'explanation': 'Neuroleptic malignant syndrome is a '
+                                                        'hypodopaminergic crisis with lead-pipe '
+                                                        'rigidity, hyperthermia, and autonomic '
+                                                        'instability after antipsychotics, whereas '
+                                                        'serotonin syndrome features neuromuscular '
+                                                        'hyperreflexia and clonus from excess '
+                                                        'serotonergic activity. Both produce '
+                                                        'life-threatening hyperthermia and organ '
+                                                        'failure if unrecognized. Immediate '
+                                                        'discontinuation of the offending agents '
+                                                        'and intensive supportive care are '
+                                                        'required in either case.'},
+                                        {'question': 'Involuntary hold criteria themes?',
                                          'options': ['A) Danger to self/others or grave disability '
                                                      'per law',
-                                                     'B) Nurse dislike of patient',
-                                                     'C) Family convenience only',
-                                                     'D) Missed appointment alone'],
+                                                     'B) Patient disagreement with the treatment '
+                                                     'plan alone',
+                                                     'C) Family preference without clinical risk '
+                                                     'criteria',
+                                                     'D) Missed outpatient appointment without '
+                                                     'safety concerns'],
                                          'answer': 'A) Danger to self/others or grave disability '
                                                    'per law',
-                                         'explanation': 'Involuntary psychiatric holds exist when mental illness creates imminent danger to self or others, or grave disability that prevents meeting basic needs, as defined by statute. The criterion balances liberty against the state’s interest in preventing foreseeable harm. Nurses must apply local legal standards when initiating or supporting emergency detention.'},
-                                        {'question': 'A junior colleague asks for the single best '
-                                                     'answer. Clozapine unique monitoring? Beware '
-                                                     'of near-miss distractors.',
-                                         'options': ['A) Agranulocytosis risk — CBC monitoring '
+                                         'explanation': 'Involuntary psychiatric holds exist when '
+                                                        'mental illness creates imminent danger to '
+                                                        'self or others, or grave disability that '
+                                                        'prevents meeting basic needs, as defined '
+                                                        'by statute. The criterion balances '
+                                                        'liberty against the state’s interest in '
+                                                        'preventing foreseeable harm. Nurses must '
+                                                        'apply local legal standards when '
+                                                        'initiating or supporting emergency '
+                                                        'detention.'},
+                                        {'question': 'Clozapine unique monitoring?',
+                                         'options': ['A) Only liver enzymes every five years',
+                                                     'B) Agranulocytosis risk — CBC monitoring '
                                                      'mandatory',
-                                                     'B) No labs ever',
-                                                     'C) Only dental x-rays',
-                                                     'D) Ignore sore throat/fever'],
-                                         'answer': 'A) Agranulocytosis risk — CBC monitoring '
+                                                     'C) No laboratory monitoring once therapy '
+                                                     'starts',
+                                                     'D) Serum lithium levels as the primary '
+                                                     'clozapine check'],
+                                         'answer': 'B) Agranulocytosis risk — CBC monitoring '
                                                    'mandatory',
-                                         'explanation': 'Clozapine can cause idiosyncratic agranulocytosis, abruptly collapsing neutrophil defenses and permitting overwhelming infection. Mandatory CBC monitoring detects neutropenia before sepsis develops. Fever or sore throat in a clozapine-treated patient is treated as a hematologic emergency until counts are known.'}],
-                               'extreme': [{'question': 'In a high-stakes nursing scenario with '
-                                                        'incomplete data, which statement is MOST '
-                                                        'correct? Active suicide attempt on unit? '
-                                                        'Avoid actions that could harm if a '
-                                                        'critical risk remains open.',
-                                            'options': ['A) Ensure scene safety, call emergency '
+                                         'explanation': 'Clozapine can cause idiosyncratic '
+                                                        'agranulocytosis, abruptly collapsing '
+                                                        'neutrophil defenses and permitting '
+                                                        'overwhelming infection. Mandatory CBC '
+                                                        'monitoring detects neutropenia before '
+                                                        'sepsis develops. Fever or sore throat in '
+                                                        'a clozapine-treated patient is treated as '
+                                                        'a hematologic emergency until counts are '
+                                                        'known.'}],
+                               'extreme': [{'question': 'Active suicide attempt on unit?',
+                                            'options': ['A) Leave the patient alone to preserve '
+                                                        'privacy first',
+                                                        'B) Negotiate for 30 minutes before '
+                                                        'calling for help',
+                                                        'C) Ensure scene safety, call emergency '
                                                         'response, first aid/ABC, continuous '
                                                         'observation',
-                                                        'B) Leave to finish charting first',
-                                                        'C) Debate motives for 30 min before help',
-                                                        'D) Remove observation'],
-                                            'answer': 'A) Ensure scene safety, call emergency '
+                                                        'D) Document only and wait for the next '
+                                                        'shift handoff'],
+                                            'answer': 'C) Ensure scene safety, call emergency '
                                                       'response, first aid/ABC, continuous '
                                                       'observation',
-                                            'explanation': 'An active suicide attempt on the unit produces ongoing tissue injury, airway compromise, or hemorrhage that outranks administrative tasks. Scene safety, emergency activation, and ABC/first aid address immediate physiologic threat while continuous observation prevents a second attempt. Rapid medical stabilization is the prerequisite to psychiatric containment.'},
-                                           {'question': 'In a high-stakes nursing scenario with '
-                                                        'incomplete data, which statement is MOST '
-                                                        'correct? Violent patient with weapon? '
-                                                        'Avoid actions that could harm if a '
-                                                        'critical risk remains open.',
-                                            'options': ['A) Do not approach alone; secure '
+                                            'explanation': 'An active suicide attempt on the unit '
+                                                           'produces ongoing tissue injury, airway '
+                                                           'compromise, or hemorrhage that '
+                                                           'outranks administrative tasks. Scene '
+                                                           'safety, emergency activation, and '
+                                                           'ABC/first aid address immediate '
+                                                           'physiologic threat while continuous '
+                                                           'observation prevents a second attempt. '
+                                                           'Rapid medical stabilization is the '
+                                                           'prerequisite to psychiatric '
+                                                           'containment.'},
+                                           {'question': 'Violent patient with weapon?',
+                                            'options': ['A) Approach alone to remove the weapon '
+                                                        'quickly',
+                                                        'B) Attempt physical takedown without '
+                                                        'calling security',
+                                                        'C) Corner the patient to prevent escape '
+                                                        'routes',
+                                                        'D) Do not approach alone; secure '
                                                         'self/others, call security/emergency per '
-                                                        'policy',
-                                                        'B) Grab weapon barehanded always',
-                                                        'C) Corner alone',
-                                                        'D) Ignore'],
-                                            'answer': 'A) Do not approach alone; secure '
+                                                        'policy'],
+                                            'answer': 'D) Do not approach alone; secure '
                                                       'self/others, call security/emergency per '
                                                       'policy',
-                                            'explanation': 'A weaponized violent patient can injure staff and other patients before therapeutic engagement is possible. Not approaching alone and summoning security per policy preserve the responders who must later provide care. Environmental control and distance reduce assault risk while de-escalation resources assemble.'},
-                                           {'question': 'In a high-stakes nursing scenario with '
-                                                        'incomplete data, which statement is MOST '
-                                                        'correct? Neuroleptic malignant syndrome '
-                                                        'priority? Avoid actions that could harm '
-                                                        'if a critical risk remains open.',
+                                            'explanation': 'A weaponized violent patient can '
+                                                           'injure staff and other patients before '
+                                                           'therapeutic engagement is possible. '
+                                                           'Not approaching alone and summoning '
+                                                           'security per policy preserve the '
+                                                           'responders who must later provide '
+                                                           'care. Environmental control and '
+                                                           'distance reduce assault risk while '
+                                                           'de-escalation resources assemble.'},
+                                           {'question': 'Neuroleptic malignant syndrome priority?',
                                             'options': ['A) Stop antipsychotic, supportive care, '
                                                         'escalate urgently',
-                                                        'B) Give another dose of same drug',
-                                                        'C) Only oral fluids race',
-                                                        'D) Ignore rigidity/fever'],
+                                                        'B) Give another antipsychotic dose to '
+                                                        'treat rigidity',
+                                                        'C) Apply heating blankets as the first '
+                                                        'intervention',
+                                                        'D) Discharge home with oral antipyretics '
+                                                        'only'],
                                             'answer': 'A) Stop antipsychotic, supportive care, '
                                                       'escalate urgently',
-                                            'explanation': 'Neuroleptic malignant syndrome drives rigid hypermetabolism, rhabdomyolysis, and autonomic collapse with high untreated mortality. Stopping the antipsychotic removes the dopaminergic blockade precipitant while cooling, hydration, and urgent medical escalation treat the systemic crisis. Early recognition is decisive because progression can be fulminant.'}]},
+                                            'explanation': 'Neuroleptic malignant syndrome drives '
+                                                           'rigid hypermetabolism, rhabdomyolysis, '
+                                                           'and autonomic collapse with high '
+                                                           'untreated mortality. Stopping the '
+                                                           'antipsychotic removes the dopaminergic '
+                                                           'blockade precipitant while cooling, '
+                                                           'hydration, and urgent medical '
+                                                           'escalation treat the systemic crisis. '
+                                                           'Early recognition is decisive because '
+                                                           'progression can be fulminant.'}]},
                  'cases': {'easy': [{'title': 'New Suicidal Ideation',
                                      'stem': 'Patient says life is not worth living; has a plan.',
                                      'question': 'Priority?',
@@ -867,132 +1510,249 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                              'Home-visit safety planning matters.',
                              'Disaster triage: greatest good for greatest number.'],
                'questions': {'easy': [{'question': 'Primary prevention example?',
-                                       'options': ['A) Immunization / health education before '
+                                       'options': ['A) Cardiac rehabilitation after myocardial '
+                                                   'infarction',
+                                                   'B) Immunization / health education before '
                                                    'disease',
-                                                   'B) Rehab after stroke only',
-                                                   'C) Only ICU care',
-                                                   'D) Only chemotherapy'],
-                                       'answer': 'A) Immunization / health education before '
+                                                   'C) Chemotherapy for diagnosed cancer',
+                                                   'D) Stroke rehab to restore lost function'],
+                                       'answer': 'B) Immunization / health education before '
                                                  'disease',
-                                       'explanation': 'Primary prevention interrupts disease before pathophysiology begins by reducing exposure or enhancing host resistance. Immunization primes adaptive immunity, and health education modifies risk behaviors prior to clinical illness. These strategies lower incidence at the population level rather than treating established disease.'},
+                                       'explanation': 'Primary prevention interrupts disease '
+                                                      'before pathophysiology begins by reducing '
+                                                      'exposure or enhancing host resistance. '
+                                                      'Immunization primes adaptive immunity, and '
+                                                      'health education modifies risk behaviors '
+                                                      'prior to clinical illness. These strategies '
+                                                      'lower incidence at the population level '
+                                                      'rather than treating established disease.'},
                                       {'question': 'Secondary prevention example?',
-                                       'options': ['A) Screening (e.g., BP, mammogram) for early '
+                                       'options': ['A) Seat-belt education before any injury '
+                                                   'occurs',
+                                                   'B) Building codes that prevent lead exposure',
+                                                   'C) Screening (e.g., BP, mammogram) for early '
                                                    'detection',
-                                                   'B) Building wheelchair ramps only',
-                                                   'C) Only hospice',
-                                                   'D) Only surgery forever'],
-                                       'answer': 'A) Screening (e.g., BP, mammogram) for early '
+                                                   'D) Hospice care for end-stage illness'],
+                                       'answer': 'C) Screening (e.g., BP, mammogram) for early '
                                                  'detection',
-                                       'explanation': 'Secondary prevention identifies pathologic processes in a preclinical or early clinical stage when intervention can alter natural history. Screening tests such as blood-pressure measurement and mammography detect hypertension or malignancy before advanced organ damage. Early detection improves the likelihood that treatment will be less invasive and more effective.'},
+                                       'explanation': 'Secondary prevention identifies pathologic '
+                                                      'processes in a preclinical or early '
+                                                      'clinical stage when intervention can alter '
+                                                      'natural history. Screening tests such as '
+                                                      'blood-pressure measurement and mammography '
+                                                      'detect hypertension or malignancy before '
+                                                      'advanced organ damage. Early detection '
+                                                      'improves the likelihood that treatment will '
+                                                      'be less invasive and more effective.'},
                                       {'question': 'Herd immunity relates to?',
-                                       'options': ['A) Enough immunized people protecting '
-                                                   'vulnerable',
-                                                   'B) Only one person vaccinated ever',
-                                                   'C) Avoiding all vaccines always',
-                                                   'D) Only hand gel'],
-                                       'answer': 'A) Enough immunized people protecting vulnerable',
-                                       'explanation': 'Herd immunity arises when a sufficient proportion of a population is immune, shrinking chains of transmission so that susceptible individuals—including those who cannot be vaccinated—are indirectly protected. Community-level immune coverage therefore functions as a barrier around vulnerable hosts. Outbreak risk rises when that coverage falls below pathogen-specific thresholds.'}],
+                                       'options': ['A) Natural immunity from one recovered person '
+                                                   'only',
+                                                   'B) Antibiotic prophylaxis for an entire city',
+                                                   'C) Quarantine of all healthy vaccinated people',
+                                                   'D) Enough immunized people protecting '
+                                                   'vulnerable'],
+                                       'answer': 'D) Enough immunized people protecting vulnerable',
+                                       'explanation': 'Herd immunity arises when a sufficient '
+                                                      'proportion of a population is immune, '
+                                                      'shrinking chains of transmission so that '
+                                                      'susceptible individuals—including those who '
+                                                      'cannot be vaccinated—are indirectly '
+                                                      'protected. Community-level immune coverage '
+                                                      'therefore functions as a barrier around '
+                                                      'vulnerable hosts. Outbreak risk rises when '
+                                                      'that coverage falls below pathogen-specific '
+                                                      'thresholds.'}],
                              'medium': [{'question': 'Social determinants of health include?',
                                          'options': ['A) Housing, income, education, food access, '
                                                      'environment',
-                                                     'B) Only genetics forever alone',
-                                                     'C) Only shoe size',
-                                                     'D) Only favorite color'],
+                                                     'B) Only genetic polymorphisms unrelated to '
+                                                     'living conditions',
+                                                     'C) Hospital bed count as the sole community '
+                                                     'factor',
+                                                     'D) Nurse staffing ratios inside one ICU '
+                                                     'exclusively'],
                                          'answer': 'A) Housing, income, education, food access, '
                                                    'environment',
-                                         'explanation': 'Health outcomes are shaped not only by individual biology but by upstream conditions—housing, income, education, food access, and environment—that structure exposure, stress, and access to care. These social determinants influence inflammation, nutrition, infection risk, and chronic disease trajectories across the life course. Community nursing assessment therefore includes the conditions in which people live and work.'},
+                                         'explanation': 'Health outcomes are shaped not only by '
+                                                        'individual biology but by upstream '
+                                                        'conditions—housing, income, education, '
+                                                        'food access, and environment—that '
+                                                        'structure exposure, stress, and access to '
+                                                        'care. These social determinants influence '
+                                                        'inflammation, nutrition, infection risk, '
+                                                        'and chronic disease trajectories across '
+                                                        'the life course. Community nursing '
+                                                        'assessment therefore includes the '
+                                                        'conditions in which people live and '
+                                                        'work.'},
                                         {'question': 'TB airborne precautions need?',
-                                         'options': ['A) N95/respirator + airborne room as '
+                                         'options': ['A) Surgical mask and standard room only',
+                                                     'B) N95/respirator + airborne room as '
                                                      'indicated',
-                                                     'B) Surgical mask only always enough for '
-                                                     'nurse entering airborne room',
-                                                     'C) No mask',
-                                                     'D) Only gloves forever'],
-                                         'answer': 'A) N95/respirator + airborne room as indicated',
-                                         'explanation': 'Mycobacterium tuberculosis is transmitted by airborne droplet nuclei that remain suspended and can be inhaled into alveoli. Airborne precautions—N95 or higher respirator and an airborne-infection isolation room—reduce inhalation dose for healthcare workers and other patients. Transmission-based precautions are matched to this aerosol route rather than to contact alone.'},
+                                                     'C) Contact gown without respiratory '
+                                                     'protection',
+                                                     'D) No PPE if the patient is afebrile'],
+                                         'answer': 'B) N95/respirator + airborne room as indicated',
+                                         'explanation': 'Mycobacterium tuberculosis is transmitted '
+                                                        'by airborne droplet nuclei that remain '
+                                                        'suspended and can be inhaled into '
+                                                        'alveoli. Airborne precautions—N95 or '
+                                                        'higher respirator and an '
+                                                        'airborne-infection isolation room—reduce '
+                                                        'inhalation dose for healthcare workers '
+                                                        'and other patients. Transmission-based '
+                                                        'precautions are matched to this aerosol '
+                                                        'route rather than to contact alone.'},
                                         {'question': 'Home visit safety includes?',
-                                         'options': ['A) Situational awareness, share itinerary, '
+                                         'options': ['A) Arrive unannounced without sharing '
+                                                     'location',
+                                                     'B) Ignore exit routes to appear culturally '
+                                                     'humble',
+                                                     'C) Situational awareness, share itinerary, '
                                                      'exit plan, respect culture',
-                                                     'B) Ignore neighborhood risk',
-                                                     'C) Enter dark unknown spaces alone always',
-                                                     'D) Leave meds unlabeled'],
-                                         'answer': 'A) Situational awareness, share itinerary, '
+                                                     'D) Enter any dwelling alone after dark '
+                                                     'without check-in'],
+                                         'answer': 'C) Situational awareness, share itinerary, '
                                                    'exit plan, respect culture',
-                                         'explanation': 'Home visiting places the nurse in uncontrolled environments where aggression, animals, structural hazards, or isolation can impede escape. Situational awareness, shared itineraries, and an exit plan mitigate those risks while culturally respectful engagement sustains therapeutic access. Clinician safety is a precondition for safe patient care in the community.'}],
-                             'hard': [{'question': 'A junior colleague asks for the single best '
-                                                   'answer. Upstream thinking in public health '
-                                                   'means? Beware of near-miss distractors.',
-                                       'options': ['A) Address root causes/policies, not only '
-                                                   'individual downstream care',
-                                                   'B) Only treat end-stage disease',
-                                                   'C) Ignore housing',
-                                                   'D) Only ICU metrics'],
-                                       'answer': 'A) Address root causes/policies, not only '
+                                         'explanation': 'Home visiting places the nurse in '
+                                                        'uncontrolled environments where '
+                                                        'aggression, animals, structural hazards, '
+                                                        'or isolation can impede escape. '
+                                                        'Situational awareness, shared '
+                                                        'itineraries, and an exit plan mitigate '
+                                                        'those risks while culturally respectful '
+                                                        'engagement sustains therapeutic access. '
+                                                        'Clinician safety is a precondition for '
+                                                        'safe patient care in the community.'}],
+                             'hard': [{'question': 'Upstream thinking in public health means?',
+                                       'options': ['A) Focus only on individual downstream clinic '
+                                                   'visits',
+                                                   'B) Treat complications after disease is '
+                                                   'established only',
+                                                   'C) Avoid policy work and stay solely at the '
+                                                   'bedside',
+                                                   'D) Address root causes/policies, not only '
+                                                   'individual downstream care'],
+                                       'answer': 'D) Address root causes/policies, not only '
                                                  'individual downstream care',
-                                       'explanation': 'Upstream public-health thinking targets the policies, environments, and economic structures that generate disease, rather than only treating individuals after illness appears. Addressing root causes—such as housing, sanitation, or tobacco regulation—prevents larger numbers of cases than downstream clinical care alone. Systems-level prevention is therefore a core community-nursing orientation.'},
-                                      {'question': 'A junior colleague asks for the single best '
-                                                   'answer. Disaster triage START theme? Beware of '
-                                                   'near-miss distractors.',
+                                       'explanation': 'Upstream public-health thinking targets the '
+                                                      'policies, environments, and economic '
+                                                      'structures that generate disease, rather '
+                                                      'than only treating individuals after '
+                                                      'illness appears. Addressing root '
+                                                      'causes—such as housing, sanitation, or '
+                                                      'tobacco regulation—prevents larger numbers '
+                                                      'of cases than downstream clinical care '
+                                                      'alone. Systems-level prevention is '
+                                                      'therefore a core community-nursing '
+                                                      'orientation.'},
+                                      {'question': 'Disaster triage START theme?',
                                        'options': ['A) Do the most good for most people with '
                                                    'limited resources',
-                                                   'B) Treat least injured first always',
-                                                   'C) Ignore airway',
-                                                   'D) One patient only forever'],
+                                                   'B) Provide unlimited care to every victim '
+                                                   'equally regardless of resources',
+                                                   'C) Treat the least injured first to clear the '
+                                                   'scene faster',
+                                                   'D) Delay triage until specialists arrive for '
+                                                   'every patient'],
                                        'answer': 'A) Do the most good for most people with limited '
                                                  'resources',
-                                       'explanation': 'In mass-casualty disasters, immediate needs exceed available personnel and supplies, so triage allocates scarce resources to maximize lives saved. START-type systems rapidly categorize casualties by survivability with timely intervention. This utilitarian frame differs from everyday intensive care of each individual regardless of opportunity cost.'},
-                                      {'question': 'A junior colleague asks for the single best '
-                                                   'answer. Vaccine hesitancy best nursing '
-                                                   'approach? Beware of near-miss distractors.',
-                                       'options': ['A) Motivational interviewing, listen, correct '
+                                       'explanation': 'In mass-casualty disasters, immediate needs '
+                                                      'exceed available personnel and supplies, so '
+                                                      'triage allocates scarce resources to '
+                                                      'maximize lives saved. START-type systems '
+                                                      'rapidly categorize casualties by '
+                                                      'survivability with timely intervention. '
+                                                      'This utilitarian frame differs from '
+                                                      'everyday intensive care of each individual '
+                                                      'regardless of opportunity cost.'},
+                                      {'question': 'Vaccine hesitancy best nursing approach?',
+                                       'options': ['A) Dismiss concerns and mandate vaccination '
+                                                   'without dialogue',
+                                                   'B) Motivational interviewing, listen, correct '
                                                    'myths respectfully with evidence',
-                                                   'B) Shame and argue only',
-                                                   'C) Refuse all discussion',
-                                                   'D) Fake data'],
-                                       'answer': 'A) Motivational interviewing, listen, correct '
+                                                   'C) Provide only printed material and end the '
+                                                   'visit',
+                                                   'D) Shame hesitant parents to force compliance'],
+                                       'answer': 'B) Motivational interviewing, listen, correct '
                                                  'myths respectfully with evidence',
-                                       'explanation': 'Vaccine hesitancy often reflects mistrust, prior experience, and misinformation rather than simple knowledge deficits. Motivational interviewing elicits concerns, affirms autonomy, and offers evidence without confrontation, which is more effective than coercive correction alone. Trusting dialogue increases the likelihood of informed acceptance over time.'}],
-                             'extreme': [{'question': 'In a high-stakes nursing scenario with '
-                                                      'incomplete data, which statement is MOST '
-                                                      'correct? Suspected bioterror inhalation '
-                                                      'anthrax cluster? Avoid actions that could '
-                                                      'harm if a critical risk remains open.',
-                                          'options': ['A) Recognize, protect self, notify public '
+                                       'explanation': 'Vaccine hesitancy often reflects mistrust, '
+                                                      'prior experience, and misinformation rather '
+                                                      'than simple knowledge deficits. '
+                                                      'Motivational interviewing elicits concerns, '
+                                                      'affirms autonomy, and offers evidence '
+                                                      'without confrontation, which is more '
+                                                      'effective than coercive correction alone. '
+                                                      'Trusting dialogue increases the likelihood '
+                                                      'of informed acceptance over time.'}],
+                             'extreme': [{'question': 'Suspected bioterror inhalation anthrax '
+                                                      'cluster?',
+                                          'options': ['A) Wait for culture confirmation before any '
+                                                      'notification',
+                                                      'B) Post details on social media to warn '
+                                                      'neighbors first',
+                                                      'C) Recognize, protect self, notify public '
                                                       'health/emergency immediately',
-                                                      'B) Wait weeks to report',
-                                                      'C) Tell patients to travel widely',
-                                                      'D) Ignore'],
-                                          'answer': 'A) Recognize, protect self, notify public '
+                                                      'D) Send exposed staff home without '
+                                                      'reporting channels'],
+                                          'answer': 'C) Recognize, protect self, notify public '
                                                     'health/emergency immediately',
-                                          'explanation': 'Inhalation anthrax presents with severe febrile respiratory illness and widened mediastinum after aerosol exposure and may signal intentional release when clustered. Self-protection, rapid clinical recognition, and immediate public-health notification enable antibiotic prophylaxis for exposed cohorts and environmental control. Delay allows continued exposure and missed outbreak containment.'},
-                                         {'question': 'In a high-stakes nursing scenario with '
-                                                      'incomplete data, which statement is MOST '
-                                                      'correct? Needle stick after unknown source? '
-                                                      'Avoid actions that could harm if a critical '
-                                                      'risk remains open.',
-                                          'options': ['A) Wash, report, evaluate source, follow '
-                                                      'PEP policy ASAP',
-                                                      'B) Ignore and finish shift only',
-                                                      'C) Suck wound',
-                                                      'D) Delay weeks'],
-                                          'answer': 'A) Wash, report, evaluate source, follow PEP '
+                                          'explanation': 'Inhalation anthrax presents with severe '
+                                                         'febrile respiratory illness and widened '
+                                                         'mediastinum after aerosol exposure and '
+                                                         'may signal intentional release when '
+                                                         'clustered. Self-protection, rapid '
+                                                         'clinical recognition, and immediate '
+                                                         'public-health notification enable '
+                                                         'antibiotic prophylaxis for exposed '
+                                                         'cohorts and environmental control. Delay '
+                                                         'allows continued exposure and missed '
+                                                         'outbreak containment.'},
+                                         {'question': 'Needle stick after unknown source?',
+                                          'options': ['A) Squeeze the wound and delay reporting '
+                                                      'until next shift',
+                                                      'B) Ignore if the source patient looks '
+                                                      'healthy',
+                                                      'C) Apply lotion only and continue the '
+                                                      'workday',
+                                                      'D) Wash, report, evaluate source, follow '
+                                                      'PEP policy ASAP'],
+                                          'answer': 'D) Wash, report, evaluate source, follow PEP '
                                                     'policy ASAP',
-                                          'explanation': 'Percutaneous exposure to blood can transmit HIV, hepatitis B, and hepatitis C; viral inoculum begins replication quickly after inoculation. Immediate washing, exposure reporting, source evaluation, and post-exposure prophylaxis per policy reduce infection probability in a time-sensitive window. Occupational health pathways exist specifically for this biologic urgency.'},
-                                         {'question': 'In a high-stakes nursing scenario with '
-                                                      'incomplete data, which statement is MOST '
-                                                      'correct? Quarantine vs isolation? Avoid '
-                                                      'actions that could harm if a critical risk '
-                                                      'remains open.',
+                                          'explanation': 'Percutaneous exposure to blood can '
+                                                         'transmit HIV, hepatitis B, and hepatitis '
+                                                         'C; viral inoculum begins replication '
+                                                         'quickly after inoculation. Immediate '
+                                                         'washing, exposure reporting, source '
+                                                         'evaluation, and post-exposure '
+                                                         'prophylaxis per policy reduce infection '
+                                                         'probability in a time-sensitive window. '
+                                                         'Occupational health pathways exist '
+                                                         'specifically for this biologic urgency.'},
+                                         {'question': 'Quarantine vs isolation?',
                                           'options': ['A) Isolation: ill contagious; quarantine: '
                                                       'exposed potentially incubating — follow '
                                                       'public health orders',
-                                                      'B) Same always meaning forever',
-                                                      'C) Only for pets',
-                                                      'D) Never used'],
+                                                      'B) Isolation and quarantine are identical '
+                                                      'terms in public health',
+                                                      'C) Quarantine applies only to confirmed ill '
+                                                      'contagious patients',
+                                                      'D) Isolation is used solely for '
+                                                      'noninfectious mental-health holds'],
                                           'answer': 'A) Isolation: ill contagious; quarantine: '
                                                     'exposed potentially incubating — follow '
                                                     'public health orders',
-                                          'explanation': 'Isolation separates persons who are already ill and contagious to stop ongoing shedding to others, whereas quarantine restricts movement of asymptomatic exposed persons who may be incubating infection. Public-health orders operationalize these definitions based on transmissibility and incubation period. Accurate use of terms ensures the correct population receives the correct restriction.'}]},
+                                          'explanation': 'Isolation separates persons who are '
+                                                         'already ill and contagious to stop '
+                                                         'ongoing shedding to others, whereas '
+                                                         'quarantine restricts movement of '
+                                                         'asymptomatic exposed persons who may be '
+                                                         'incubating infection. Public-health '
+                                                         'orders operationalize these definitions '
+                                                         'based on transmissibility and incubation '
+                                                         'period. Accurate use of terms ensures '
+                                                         'the correct population receives the '
+                                                         'correct restriction.'}]},
                'cases': {'easy': [{'title': 'School Outbreak',
                                    'stem': 'Several students with measles-like rash; some '
                                            'unvaccinated.',
@@ -1038,137 +1798,283 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                  'Neuro: ICP precautions and clustering care wisely.',
                                  'High-alert drips need careful titration and double-checks.'],
                    'questions': {'easy': [{'question': 'Normal adult SpO2 target often roughly?',
-                                           'options': ['A) Generally ≥94% unless COPD/target '
+                                           'options': ['A) Always keep SpO2 at 100% for every '
+                                                       'adult',
+                                                       'B) Generally ≥94% unless COPD/target '
                                                        'ordered differently',
-                                                       'B) Always 70%',
-                                                       'C) Always 40%',
-                                                       'D) Ignore SpO2'],
-                                           'answer': 'A) Generally ≥94% unless COPD/target ordered '
+                                                       'C) Accept SpO2 of 80% as normal in all '
+                                                       'adults',
+                                                       'D) Oxygen targets are irrelevant if the '
+                                                       'patient is talking'],
+                                           'answer': 'B) Generally ≥94% unless COPD/target ordered '
                                                      'differently',
-                                           'explanation': 'Arterial oxygen saturation reflects hemoglobin oxygen binding and, in most adults without chronic hypercapnia, targets of roughly ≥94% balance tissue oxygen delivery against oxygen toxicity. Patients with COPD or specific orders may require lower targets to avoid worsening hypercapnia. SpO2 goals are therefore individualized to pathophysiology and written parameters.'},
+                                           'explanation': 'Arterial oxygen saturation reflects '
+                                                          'hemoglobin oxygen binding and, in most '
+                                                          'adults without chronic hypercapnia, '
+                                                          'targets of roughly ≥94% balance tissue '
+                                                          'oxygen delivery against oxygen '
+                                                          'toxicity. Patients with COPD or '
+                                                          'specific orders may require lower '
+                                                          'targets to avoid worsening hypercapnia. '
+                                                          'SpO2 goals are therefore individualized '
+                                                          'to pathophysiology and written '
+                                                          'parameters.'},
                                           {'question': 'Arterial line zeroing is done at?',
-                                           'options': ['A) Phlebostatic axis (approx 4th ICS '
+                                           'options': ['A) At the top of the IV pole for '
+                                                       'convenience',
+                                                       "B) At the patient's wrist regardless of "
+                                                       'position',
+                                                       'C) Phlebostatic axis (approx 4th ICS '
                                                        'midaxillary)',
-                                                       'B) Top of head',
-                                                       'C) Foot',
-                                                       'D) IV pole random height'],
-                                           'answer': 'A) Phlebostatic axis (approx 4th ICS '
+                                                       'D) At the ear lobe to approximate arterial '
+                                                       'pressure'],
+                                           'answer': 'C) Phlebostatic axis (approx 4th ICS '
                                                      'midaxillary)',
-                                           'explanation': 'Arterial pressure transduction measures hydrostatic pressure relative to a reference level; the phlebostatic axis (approximately the 4th intercostal space at the midaxillary line) approximates the right atrium. Zeroing and leveling at this point remove atmospheric and hydrostatic error so displayed values reflect true intravascular pressure. Incorrect leveling systematically falsely elevates or lowers readings.'},
+                                           'explanation': 'Arterial pressure transduction measures '
+                                                          'hydrostatic pressure relative to a '
+                                                          'reference level; the phlebostatic axis '
+                                                          '(approximately the 4th intercostal '
+                                                          'space at the midaxillary line) '
+                                                          'approximates the right atrium. Zeroing '
+                                                          'and leveling at this point remove '
+                                                          'atmospheric and hydrostatic error so '
+                                                          'displayed values reflect true '
+                                                          'intravascular pressure. Incorrect '
+                                                          'leveling systematically falsely '
+                                                          'elevates or lowers readings.'},
                                           {'question': 'VAP prevention bundle includes?',
-                                           'options': ['A) HOB elevation, oral care, sedation '
-                                                       'vacation themes as protocol',
-                                                       'B) Keep flat always',
-                                                       'C) Skip oral care',
-                                                       'D) Never assess readiness to wean'],
-                                           'answer': 'A) HOB elevation, oral care, sedation '
+                                           'options': ['A) Keep the head of bed flat at all times',
+                                                       'B) Avoid oral care to reduce gagging risk',
+                                                       'C) Deep continuous sedation without '
+                                                       'interruption forever',
+                                                       'D) HOB elevation, oral care, sedation '
+                                                       'vacation themes as protocol'],
+                                           'answer': 'D) HOB elevation, oral care, sedation '
                                                      'vacation themes as protocol',
-                                           'explanation': 'Ventilator-associated pneumonia follows microaspiration of oropharyngeal pathogens around the endotracheal tube into dependent lung segments. Bundle elements—head-of-bed elevation, oral care, and sedation interruption as protocolized—reduce aspiration risk and facilitate liberation assessment. Consistent bundle adherence lowers VAP incidence in ventilated patients.'}],
+                                           'explanation': 'Ventilator-associated pneumonia follows '
+                                                          'microaspiration of oropharyngeal '
+                                                          'pathogens around the endotracheal tube '
+                                                          'into dependent lung segments. Bundle '
+                                                          'elements—head-of-bed elevation, oral '
+                                                          'care, and sedation interruption as '
+                                                          'protocolized—reduce aspiration risk and '
+                                                          'facilitate liberation assessment. '
+                                                          'Consistent bundle adherence lowers VAP '
+                                                          'incidence in ventilated patients.'}],
                                  'medium': [{'question': 'CVP roughly reflects?',
                                              'options': ['A) Right atrial pressure / preload '
                                                          'estimate',
-                                                         'B) Only left ventricular EF always exact',
-                                                         'C) Only urine color',
-                                                         'D) Only temperature'],
+                                                         'B) Left ventricular ejection fraction '
+                                                         'directly',
+                                                         'C) Coronary artery stenosis severity',
+                                                         'D) Systemic vascular resistance alone'],
                                              'answer': 'A) Right atrial pressure / preload '
                                                        'estimate',
-                                             'explanation': 'Central venous pressure approximates right atrial pressure and thus estimates right-ventricular preload under many clinical conditions. Interpretation requires trends and clinical context because positive pressure ventilation, tricuspid disease, and abdominal hypertension alter the absolute number. Nurses use CVP as one component of hemodynamic assessment, not a standalone volume verdict.'},
+                                             'explanation': 'Central venous pressure approximates '
+                                                            'right atrial pressure and thus '
+                                                            'estimates right-ventricular preload '
+                                                            'under many clinical conditions. '
+                                                            'Interpretation requires trends and '
+                                                            'clinical context because positive '
+                                                            'pressure ventilation, tricuspid '
+                                                            'disease, and abdominal hypertension '
+                                                            'alter the absolute number. Nurses use '
+                                                            'CVP as one component of hemodynamic '
+                                                            'assessment, not a standalone volume '
+                                                            'verdict.'},
                                             {'question': 'Increased ICP nursing measures include?',
-                                             'options': ['A) HOB elevation as ordered, head '
+                                             'options': ['A) Cluster all care and keep the head '
+                                                         'flexed sharply',
+                                                         'B) HOB elevation as ordered, head '
                                                          'midline, avoid clustering care, treat '
                                                          'pain/fever',
-                                                         'B) Trendelenburg always',
-                                                         'C) Force cough frequently',
-                                                         'D) Hypotonic free water boluses blindly'],
-                                             'answer': 'A) HOB elevation as ordered, head midline, '
+                                                         'C) Trendelenburg and frequent coughing '
+                                                         'exercises',
+                                                         'D) Hypotonic free-water boluses to lower '
+                                                         'ICP quickly'],
+                                             'answer': 'B) HOB elevation as ordered, head midline, '
                                                        'avoid clustering care, treat pain/fever',
-                                             'explanation': 'Intracranial pressure rises when intracranial volume exceeds compensatory CSF and venous shifts, reducing cerebral perfusion. Head-of-bed elevation as ordered, head midline alignment, avoidance of clustered noxious care, and control of pain and fever limit venous congestion and metabolic demand that further elevate ICP. These nursing measures are neuroprotective adjuncts while definitive therapy proceeds.'},
+                                             'explanation': 'Intracranial pressure rises when '
+                                                            'intracranial volume exceeds '
+                                                            'compensatory CSF and venous shifts, '
+                                                            'reducing cerebral perfusion. '
+                                                            'Head-of-bed elevation as ordered, '
+                                                            'head midline alignment, avoidance of '
+                                                            'clustered noxious care, and control '
+                                                            'of pain and fever limit venous '
+                                                            'congestion and metabolic demand that '
+                                                            'further elevate ICP. These nursing '
+                                                            'measures are neuroprotective adjuncts '
+                                                            'while definitive therapy proceeds.'},
                                             {'question': 'Shock first nursing priorities?',
-                                             'options': ['A) ABC, IV access, oxygen, identify '
+                                             'options': ['A) Oral fluids only until the cause is '
+                                                         'proven',
+                                                         'B) Delay oxygen until laboratory results '
+                                                         'return',
+                                                         'C) ABC, IV access, oxygen, identify '
                                                          'type, follow protocols',
-                                                         'B) Oral diet first',
-                                                         'C) Ambulate immediately',
-                                                         'D) Ignore lactate'],
-                                             'answer': 'A) ABC, IV access, oxygen, identify type, '
+                                                         'D) Vasopressors before any airway or '
+                                                         'breathing support'],
+                                             'answer': 'C) ABC, IV access, oxygen, identify type, '
                                                        'follow protocols',
-                                             'explanation': 'Shock is acute circulatory failure with inadequate cellular oxygen delivery or utilization, progressing within minutes to lactic acidosis and organ failure. Immediate priorities—airway/breathing, oxygen, vascular access, and syndrome-specific protocols—restore DO2 while the shock phenotype (hypovolemic, distributive, cardiogenic, obstructive) is identified. Time to resuscitation correlates with survival.'}],
-                                 'hard': [{'question': 'A junior colleague asks for the single '
-                                                       'best answer. ARDS ventilation theme? '
-                                                       'Beware of near-miss distractors.',
-                                           'options': ['A) Lung-protective low tidal volume '
-                                                       'strategies',
-                                                       'B) Very high TV always best',
-                                                       'C) Ignore plateau pressures',
-                                                       'D) No PEEP ever'],
-                                           'answer': 'A) Lung-protective low tidal volume '
+                                             'explanation': 'Shock is acute circulatory failure '
+                                                            'with inadequate cellular oxygen '
+                                                            'delivery or utilization, progressing '
+                                                            'within minutes to lactic acidosis and '
+                                                            'organ failure. Immediate '
+                                                            'priorities—airway/breathing, oxygen, '
+                                                            'vascular access, and '
+                                                            'syndrome-specific protocols—restore '
+                                                            'DO2 while the shock phenotype '
+                                                            '(hypovolemic, distributive, '
+                                                            'cardiogenic, obstructive) is '
+                                                            'identified. Time to resuscitation '
+                                                            'correlates with survival.'}],
+                                 'hard': [{'question': 'ARDS ventilation theme?',
+                                           'options': ['A) High tidal volumes to maximize minute '
+                                                       'ventilation always',
+                                                       'B) Zero PEEP for all ARDS patients',
+                                                       'C) Unrestricted plateau pressures without '
+                                                       'monitoring',
+                                                       'D) Lung-protective low tidal volume '
+                                                       'strategies'],
+                                           'answer': 'D) Lung-protective low tidal volume '
                                                      'strategies',
-                                           'explanation': 'ARDS features diffuse alveolar-capillary injury with noncardiogenic edema and stiff lungs prone to overdistension injury. Lung-protective ventilation with low tidal volumes reduces volutrauma and biotrauma that perpetuate cytokine release and multiorgan failure. The strategy accepts permissive hypercapnia when needed to limit ventilator-induced lung injury.'},
-                                          {'question': 'A junior colleague asks for the single '
-                                                       'best answer. Cardiac tamponade classic? '
-                                                       'Beware of near-miss distractors.',
+                                           'explanation': 'ARDS features diffuse '
+                                                          'alveolar-capillary injury with '
+                                                          'noncardiogenic edema and stiff lungs '
+                                                          'prone to overdistension injury. '
+                                                          'Lung-protective ventilation with low '
+                                                          'tidal volumes reduces volutrauma and '
+                                                          'biotrauma that perpetuate cytokine '
+                                                          'release and multiorgan failure. The '
+                                                          'strategy accepts permissive hypercapnia '
+                                                          'when needed to limit ventilator-induced '
+                                                          'lung injury.'},
+                                          {'question': 'Cardiac tamponade classic?',
                                            'options': ['A) Hypotension, JVD, muffled sounds / '
                                                        'pulsus — emergency',
-                                                       'B) Only mild cough',
-                                                       'C) Always benign',
-                                                       'D) Only ankle edema'],
+                                                       'B) Hypertension with bounding pulses as '
+                                                       'the classic triad',
+                                                       'C) Isolated fever without hemodynamic '
+                                                       'change',
+                                                       'D) Clear lung sounds ruling out '
+                                                       'pericardial disease'],
                                            'answer': 'A) Hypotension, JVD, muffled sounds / pulsus '
                                                      '— emergency',
-                                           'explanation': 'Cardiac tamponade occurs when pericardial fluid under pressure equalizes diastolic filling pressures, collapsing right-heart chambers and cutting stroke volume. Classic findings—hypotension, jugular venous distention, muffled heart sounds, and pulsus paradoxus—reflect obstructive shock physiology. Emergent pericardial decompression is required to restore venous return.'},
-                                          {'question': 'A junior colleague asks for the single '
-                                                       'best answer. DKA nursing priorities? '
-                                                       'Beware of near-miss distractors.',
-                                           'options': ['A) Fluids, insulin protocol, electrolyte '
+                                           'explanation': 'Cardiac tamponade occurs when '
+                                                          'pericardial fluid under pressure '
+                                                          'equalizes diastolic filling pressures, '
+                                                          'collapsing right-heart chambers and '
+                                                          'cutting stroke volume. Classic '
+                                                          'findings—hypotension, jugular venous '
+                                                          'distention, muffled heart sounds, and '
+                                                          'pulsus paradoxus—reflect obstructive '
+                                                          'shock physiology. Emergent pericardial '
+                                                          'decompression is required to restore '
+                                                          'venous return.'},
+                                          {'question': 'DKA nursing priorities?',
+                                           'options': ['A) Fluid restriction and no insulin until '
+                                                       'acidosis resolves',
+                                                       'B) Fluids, insulin protocol, electrolyte '
                                                        '(K+) monitoring',
-                                                       'B) Stop all fluids forever',
-                                                       'C) Only SQ insulin home dose blindly',
-                                                       'D) Ignore K'],
-                                           'answer': 'A) Fluids, insulin protocol, electrolyte '
+                                                       'C) Oral sulfonylurea as first-line ICU '
+                                                       'therapy',
+                                                       'D) Sodium bicarbonate push before any '
+                                                       'fluid resuscitation always'],
+                                           'answer': 'B) Fluids, insulin protocol, electrolyte '
                                                      '(K+) monitoring',
-                                           'explanation': 'Diabetic ketoacidosis combines insulin deficiency with counter-regulatory hormone excess, driving hyperglycemia, osmotic diuresis, and ketoacidosis with total-body potassium depletion despite variable serum K+. Fluid resuscitation, protocolized insulin, and close electrolyte monitoring correct the metabolic spiral. Potassium must be watched carefully because insulin shifts K+ intracellularly and can precipitate dangerous hypokalemia.'}],
-                                 'extreme': [{'question': 'In a high-stakes nursing scenario with '
-                                                          'incomplete data, which statement is '
-                                                          'MOST correct? Pulseless VT/VF? Avoid '
-                                                          'actions that could harm if a critical '
-                                                          'risk remains open.',
-                                              'options': ['A) Defibrillate + high-quality CPR per '
+                                           'explanation': 'Diabetic ketoacidosis combines insulin '
+                                                          'deficiency with counter-regulatory '
+                                                          'hormone excess, driving hyperglycemia, '
+                                                          'osmotic diuresis, and ketoacidosis with '
+                                                          'total-body potassium depletion despite '
+                                                          'variable serum K+. Fluid resuscitation, '
+                                                          'protocolized insulin, and close '
+                                                          'electrolyte monitoring correct the '
+                                                          'metabolic spiral. Potassium must be '
+                                                          'watched carefully because insulin '
+                                                          'shifts K+ intracellularly and can '
+                                                          'precipitate dangerous hypokalemia.'}],
+                                 'extreme': [{'question': 'Pulseless VT/VF?',
+                                              'options': ['A) Synchronized cardioversion at low '
+                                                          'energy only without CPR',
+                                                          'B) Antiarrhythmic infusion before any '
+                                                          'defibrillation attempt',
+                                                          'C) Defibrillate + high-quality CPR per '
                                                           'ACLS',
-                                                          'B) Only atropine forever first',
-                                                          'C) Wait for family meeting first',
-                                                          'D) No CPR if intubated'],
-                                              'answer': 'A) Defibrillate + high-quality CPR per '
+                                                          'D) Observe for spontaneous conversion '
+                                                          'without intervention'],
+                                              'answer': 'C) Defibrillate + high-quality CPR per '
                                                         'ACLS',
-                                              'explanation': 'Pulseless ventricular tachycardia and ventricular fibrillation produce no effective stroke volume because organized ventricular ejection ceases. Defibrillation stuns the myocardium to allow organized pacemakers to resume, while high-quality CPR maintains coronary and cerebral perfusion between shocks. ACLS pairs these interventions because neither alone reliably restores circulation.'},
-                                             {'question': 'In a high-stakes nursing scenario with '
-                                                          'incomplete data, which statement is '
-                                                          'MOST correct? Massive transfusion '
-                                                          'nursing priorities? Avoid actions that '
-                                                          'could harm if a critical risk remains '
-                                                          'open.',
-                                              'options': ['A) ABC, large-bore access, warmer, '
+                                              'explanation': 'Pulseless ventricular tachycardia '
+                                                             'and ventricular fibrillation produce '
+                                                             'no effective stroke volume because '
+                                                             'organized ventricular ejection '
+                                                             'ceases. Defibrillation stuns the '
+                                                             'myocardium to allow organized '
+                                                             'pacemakers to resume, while '
+                                                             'high-quality CPR maintains coronary '
+                                                             'and cerebral perfusion between '
+                                                             'shocks. ACLS pairs these '
+                                                             'interventions because neither alone '
+                                                             'reliably restores circulation.'},
+                                             {'question': 'Massive transfusion nursing priorities?',
+                                              'options': ['A) Single small-bore IV and '
+                                                          'ambient-temperature products only',
+                                                          'B) Delay access until type and cross '
+                                                          'are fully complete in hemorrhage',
+                                                          'C) Ignore electrolyte shifts during '
+                                                          'rapid transfusion',
+                                                          'D) ABC, large-bore access, warmer, '
                                                           'protocol ratios, watch '
-                                                          'citrate/hypocalcemia/hyperK themes',
-                                                          'B) Tiny 22G only forever',
-                                                          'C) Cold blood rapid without monitoring',
-                                                          'D) Ignore coagulopathy'],
-                                              'answer': 'A) ABC, large-bore access, warmer, '
+                                                          'citrate/hypocalcemia/hyperK themes'],
+                                              'answer': 'D) ABC, large-bore access, warmer, '
                                                         'protocol ratios, watch '
                                                         'citrate/hypocalcemia/hyperK themes',
-                                              'explanation': 'Massive hemorrhage depletes oxygen-carrying capacity and clotting factors; resuscitation with large-bore access, blood warmers, and balanced product ratios addresses hypovolemic shock and trauma-induced coagulopathy. Citrate in stored blood can bind calcium, and cell lysis plus tissue injury can raise potassium—both requiring surveillance. Nursing priorities integrate ABC support with protocolized transfusion physiology.'},
-                                             {'question': 'In a high-stakes nursing scenario with '
-                                                          'incomplete data, which statement is '
-                                                          'MOST correct? Brain death testing '
-                                                          'nursing role? Avoid actions that could '
-                                                          'harm if a critical risk remains open.',
+                                              'explanation': 'Massive hemorrhage depletes '
+                                                             'oxygen-carrying capacity and '
+                                                             'clotting factors; resuscitation with '
+                                                             'large-bore access, blood warmers, '
+                                                             'and balanced product ratios '
+                                                             'addresses hypovolemic shock and '
+                                                             'trauma-induced coagulopathy. Citrate '
+                                                             'in stored blood can bind calcium, '
+                                                             'and cell lysis plus tissue injury '
+                                                             'can raise potassium—both requiring '
+                                                             'surveillance. Nursing priorities '
+                                                             'integrate ABC support with '
+                                                             'protocolized transfusion '
+                                                             'physiology.'},
+                                             {'question': 'Brain death testing nursing role?',
                                               'options': ['A) Support protocol, family '
                                                           'communication with team, maintain donor '
                                                           'care if applicable',
-                                                          'B) Declare alone without criteria',
-                                                          'C) Stop all documentation',
-                                                          'D) Argue with family alone'],
+                                                          'B) Declare death independently without '
+                                                          'institutional protocol',
+                                                          'C) Stop all communication with family '
+                                                          'during testing',
+                                                          'D) Withhold ordered supportive care '
+                                                          'that maintains organ perfusion for '
+                                                          'donation pathways'],
                                               'answer': 'A) Support protocol, family communication '
                                                         'with team, maintain donor care if '
                                                         'applicable',
-                                              'explanation': 'Brain-death determination follows strict neurologic protocols demonstrating irreversible cessation of brain function, including brainstem reflexes, under conditions that exclude confounders. Nursing roles include supporting testing logistics, maintaining physiologic stability for potential donation, and facilitating transparent family communication with the team. Practice is policy-governed because the diagnosis carries immediate end-of-life and transplant implications.'}]},
+                                              'explanation': 'Brain-death determination follows '
+                                                             'strict neurologic protocols '
+                                                             'demonstrating irreversible cessation '
+                                                             'of brain function, including '
+                                                             'brainstem reflexes, under conditions '
+                                                             'that exclude confounders. Nursing '
+                                                             'roles include supporting testing '
+                                                             'logistics, maintaining physiologic '
+                                                             'stability for potential donation, '
+                                                             'and facilitating transparent family '
+                                                             'communication with the team. '
+                                                             'Practice is policy-governed because '
+                                                             'the diagnosis carries immediate '
+                                                             'end-of-life and transplant '
+                                                             'implications.'}]},
                    'cases': {'easy': [{'title': 'Desaturation on Vent',
                                        'stem': 'Vent alarms; SpO2 falling.',
                                        'question': 'First actions?',
@@ -1213,136 +2119,270 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                  'Know hold parameters (digoxin, antihypertensives, insulin).',
                                  'Teach anticoagulants, opioids, and insulin safety.'],
                    'questions': {'easy': [{'question': 'Five (plus) rights of medication include?',
-                                           'options': ['A) Patient, drug, dose, route, time (+ '
+                                           'options': ['A) Patient preference, favorite color, '
+                                                       'meal time only',
+                                                       'B) Patient, drug, dose, route, time (+ '
                                                        'documentation/reason/response)',
-                                                       'B) Right roommate guess',
-                                                       'C) Right color of pill only',
-                                                       'D) Right bed number alone'],
-                                           'answer': 'A) Patient, drug, dose, route, time (+ '
+                                                       'C) Room number, nurse name, shift, and '
+                                                       'unit stock only',
+                                                       'D) Manufacturer, lot number, and pharmacy '
+                                                       'courier only'],
+                                           'answer': 'B) Patient, drug, dose, route, time (+ '
                                                      'documentation/reason/response)',
-                                           'explanation': 'Medication errors arise when any link between the ordered therapy and the administered product fails—wrong patient, drug, dose, route, or time. The rights framework operationalizes independent verification at the bedside before the patient is exposed to pharmacologic effect. Documentation, indication, and response complete the safety loop after administration.'},
+                                           'explanation': 'Medication errors arise when any link '
+                                                          'between the ordered therapy and the '
+                                                          'administered product fails—wrong '
+                                                          'patient, drug, dose, route, or time. '
+                                                          'The rights framework operationalizes '
+                                                          'independent verification at the bedside '
+                                                          'before the patient is exposed to '
+                                                          'pharmacologic effect. Documentation, '
+                                                          'indication, and response complete the '
+                                                          'safety loop after administration.'},
                                           {'question': 'Before giving digoxin, nurse often checks?',
-                                           'options': ['A) Apical pulse / hold parameters per '
+                                           'options': ['A) Capillary blood glucose exclusively '
+                                                       'before every dose',
+                                                       'B) Serum potassium only, ignoring heart '
+                                                       'rate',
+                                                       'C) Apical pulse / hold parameters per '
                                                        'order',
-                                                       'B) Only hair color',
-                                                       'C) Only shoe size',
-                                                       'D) Never pulse'],
-                                           'answer': 'A) Apical pulse / hold parameters per order',
-                                           'explanation': 'Digoxin increases vagal tone and slows atrioventricular conduction while augmenting contractility; excess effect produces symptomatic bradycardia and arrhythmias. Checking the apical pulse against hold parameters identifies patients already at conduction risk before an additional dose. Renal impairment and electrolyte shifts further narrow its therapeutic margin.'},
+                                                       'D) Orthostatic BP without assessing heart '
+                                                       'rate'],
+                                           'answer': 'C) Apical pulse / hold parameters per order',
+                                           'explanation': 'Digoxin increases vagal tone and slows '
+                                                          'atrioventricular conduction while '
+                                                          'augmenting contractility; excess effect '
+                                                          'produces symptomatic bradycardia and '
+                                                          'arrhythmias. Checking the apical pulse '
+                                                          'against hold parameters identifies '
+                                                          'patients already at conduction risk '
+                                                          'before an additional dose. Renal '
+                                                          'impairment and electrolyte shifts '
+                                                          'further narrow its therapeutic margin.'},
                                           {'question': 'IM injection angle typically?',
-                                           'options': ['A) 90 degrees',
-                                                       'B) 10 degrees always only',
-                                                       'C) 180 degrees into bone',
-                                                       'D) Parallel to skin forever'],
-                                           'answer': 'A) 90 degrees',
-                                           'explanation': 'Intramuscular injection deposits medication into highly vascular skeletal muscle for relatively rapid absorption. A 90-degree angle ensures the needle traverses subcutaneous tissue into muscle rather than lingering in fat, where absorption is slower and irritation may increase. Correct angle is therefore a determinant of intended pharmacokinetics.'}],
+                                           'options': ['A) 15 degrees for all intramuscular '
+                                                       'injections',
+                                                       'B) 45 degrees as the standard IM angle',
+                                                       'C) 5 degrees intradermal technique for IM '
+                                                       'drugs',
+                                                       'D) 90 degrees'],
+                                           'answer': 'D) 90 degrees',
+                                           'explanation': 'Intramuscular injection deposits '
+                                                          'medication into highly vascular '
+                                                          'skeletal muscle for relatively rapid '
+                                                          'absorption. A 90-degree angle ensures '
+                                                          'the needle traverses subcutaneous '
+                                                          'tissue into muscle rather than '
+                                                          'lingering in fat, where absorption is '
+                                                          'slower and irritation may increase. '
+                                                          'Correct angle is therefore a '
+                                                          'determinant of intended '
+                                                          'pharmacokinetics.'}],
                                  'medium': [{'question': 'Warfarin teaching includes?',
                                              'options': ['A) Consistent vitamin K intake, INR '
                                                          'monitoring, bleed precautions',
-                                                         'B) Double dose if missed yesterday '
-                                                         'always without advice',
-                                                         'C) Ignore black stools',
-                                                         'D) Take with mega vitamin K swings '
-                                                         'daily'],
+                                                         'B) Double vitamin K foods on days INR is '
+                                                         'checked only',
+                                                         'C) Stop INR checks once the dose feels '
+                                                         'stable',
+                                                         'D) Use razors freely and ignore unusual '
+                                                         'bruising'],
                                              'answer': 'A) Consistent vitamin K intake, INR '
                                                        'monitoring, bleed precautions',
-                                             'explanation': 'Warfarin inhibits vitamin K–dependent clotting-factor synthesis, so dietary vitamin K fluctuations alter INR and bleeding or thrombosis risk. Consistent intake, scheduled INR monitoring, and bleed precautions align everyday behavior with this narrow therapeutic anticoagulation. Patients need to recognize that antibiotics, illness, and drug interactions can abruptly change warfarin effect.'},
+                                             'explanation': 'Warfarin inhibits vitamin K–dependent '
+                                                            'clotting-factor synthesis, so dietary '
+                                                            'vitamin K fluctuations alter INR and '
+                                                            'bleeding or thrombosis risk. '
+                                                            'Consistent intake, scheduled INR '
+                                                            'monitoring, and bleed precautions '
+                                                            'align everyday behavior with this '
+                                                            'narrow therapeutic anticoagulation. '
+                                                            'Patients need to recognize that '
+                                                            'antibiotics, illness, and drug '
+                                                            'interactions can abruptly change '
+                                                            'warfarin effect.'},
                                             {'question': 'IV push opioids require?',
-                                             'options': ['A) Slow administration per policy, '
+                                             'options': ['A) Rapid bolus without respiratory '
+                                                         'monitoring',
+                                                         'B) Slow administration per policy, '
                                                          'monitor RR/sedation, naloxone readiness',
-                                                         'B) Push as fast as possible always',
-                                                         'C) No monitoring',
-                                                         'D) Leave room immediately forever'],
-                                             'answer': 'A) Slow administration per policy, monitor '
+                                                         'C) No need for sedation or RR checks '
+                                                         'after IV opioids',
+                                                         'D) Give with other CNS depressants to '
+                                                         'enhance effect freely'],
+                                             'answer': 'B) Slow administration per policy, monitor '
                                                        'RR/sedation, naloxone readiness',
-                                             'explanation': 'Opioids agonize μ-receptors in the brainstem respiratory centers, depressing minute ventilation and bluntng hypoxic drive in a dose-dependent manner. Slow IV push per policy and monitoring of respiratory rate and sedation detect early narcosis, while naloxone readiness provides competitive reversal if apnea develops. Concurrent CNS depressants amplify this risk.'},
+                                             'explanation': 'Opioids agonize μ-receptors in the '
+                                                            'brainstem respiratory centers, '
+                                                            'depressing minute ventilation and '
+                                                            'bluntng hypoxic drive in a '
+                                                            'dose-dependent manner. Slow IV push '
+                                                            'per policy and monitoring of '
+                                                            'respiratory rate and sedation detect '
+                                                            'early narcosis, while naloxone '
+                                                            'readiness provides competitive '
+                                                            'reversal if apnea develops. '
+                                                            'Concurrent CNS depressants amplify '
+                                                            'this risk.'},
                                             {'question': 'Insulin mixing clear-to-cloudy theme?',
-                                             'options': ['A) Draw clear (regular) before cloudy '
+                                             'options': ['A) Draw cloudy (NPH) before clear '
+                                                         '(regular) always',
+                                                         'B) Shake both vials vigorously until '
+                                                         'foamy',
+                                                         'C) Draw clear (regular) before cloudy '
                                                          '(NPH) if mixing allowed',
-                                                         'B) Shake NPH violently always preferred '
-                                                         'over roll',
-                                                         'C) Share pens between patients',
-                                                         'D) Skip site rotation'],
-                                             'answer': 'A) Draw clear (regular) before cloudy '
+                                                         'D) Mix long-acting glargine with NPH in '
+                                                         'one syringe routinely'],
+                                             'answer': 'C) Draw clear (regular) before cloudy '
                                                        '(NPH) if mixing allowed',
-                                             'explanation': 'When regular (clear) insulin is mixed with NPH (cloudy), drawing the clear insulin first prevents contamination of the short-acting vial with intermediate-acting suspension that would alter future doses. The sequence preserves the integrity of each formulation when mixing is allowed. Institutional policy still governs whether mixing is permitted for a given product.'}],
-                                 'hard': [{'question': 'A junior colleague asks for the single '
-                                                       'best answer. High-alert meds include '
-                                                       'examples like? Beware of near-miss '
-                                                       'distractors.',
-                                           'options': ['A) Insulin, anticoagulants, opioids, '
-                                                       'concentrated electrolytes',
-                                                       'B) Only multivitamins',
-                                                       'C) Only topical lotion',
-                                                       'D) Only normal saline bags always'],
-                                           'answer': 'A) Insulin, anticoagulants, opioids, '
+                                             'explanation': 'When regular (clear) insulin is mixed '
+                                                            'with NPH (cloudy), drawing the clear '
+                                                            'insulin first prevents contamination '
+                                                            'of the short-acting vial with '
+                                                            'intermediate-acting suspension that '
+                                                            'would alter future doses. The '
+                                                            'sequence preserves the integrity of '
+                                                            'each formulation when mixing is '
+                                                            'allowed. Institutional policy still '
+                                                            'governs whether mixing is permitted '
+                                                            'for a given product.'}],
+                                 'hard': [{'question': 'High-alert meds include examples like?',
+                                           'options': ['A) Multivitamins and topical emollients '
+                                                       'only',
+                                                       'B) Normal saline flushes exclusively',
+                                                       'C) Oral stool softeners as highest alert '
+                                                       'class',
+                                                       'D) Insulin, anticoagulants, opioids, '
+                                                       'concentrated electrolytes'],
+                                           'answer': 'D) Insulin, anticoagulants, opioids, '
                                                      'concentrated electrolytes',
-                                           'explanation': 'High-alert medications—including insulin, anticoagulants, opioids, and concentrated electrolytes—have a heightened risk of causing significant patient harm when used in error because of steep dose–response curves or irreversible effects. Independent double-checks add a second cognitive verification before administration. Layered safeguards acknowledge that these agents leave little margin for recovery from mistakes.'},
-                                          {'question': 'A junior colleague asks for the single '
-                                                       'best answer. Vancomycin red man syndrome '
-                                                       'related to? Beware of near-miss '
-                                                       'distractors.',
+                                           'explanation': 'High-alert medications—including '
+                                                          'insulin, anticoagulants, opioids, and '
+                                                          'concentrated electrolytes—have a '
+                                                          'heightened risk of causing significant '
+                                                          'patient harm when used in error because '
+                                                          'of steep dose–response curves or '
+                                                          'irreversible effects. Independent '
+                                                          'double-checks add a second cognitive '
+                                                          'verification before administration. '
+                                                          'Layered safeguards acknowledge that '
+                                                          'these agents leave little margin for '
+                                                          'recovery from mistakes.'},
+                                          {'question': 'Vancomycin red man syndrome related to?',
                                            'options': ['A) Rapid infusion — slow rate; not true '
                                                        'IgE allergy always',
-                                                       'B) Always anaphylaxis only forever',
-                                                       'C) Ignore flushing',
-                                                       'D) Speed up infusion'],
+                                                       'B) Mandatory lifelong ban on vancomycin '
+                                                       'after any flush',
+                                                       'C) Need to increase the infusion rate when '
+                                                       'flushing appears',
+                                                       'D) Proof of IgE allergy in every red-man '
+                                                       'presentation'],
                                            'answer': 'A) Rapid infusion — slow rate; not true IgE '
                                                      'allergy always',
-                                           'explanation': 'Vancomycin can trigger rate-related mast-cell degranulation (red man syndrome) with flushing, rash, and hypotension that is distinct from IgE-mediated allergy in many cases. Slowing the infusion reduces histamine release without necessarily requiring permanent drug abandonment. Recognizing the mechanism guides rate adjustment versus true hypersensitivity workup.'},
-                                          {'question': 'A junior colleague asks for the single '
-                                                       'best answer. Potassium IV concentrated '
-                                                       'must? Beware of near-miss distractors.',
-                                           'options': ['A) Never IV push; dilute/infuse per policy '
+                                           'explanation': 'Vancomycin can trigger rate-related '
+                                                          'mast-cell degranulation (red man '
+                                                          'syndrome) with flushing, rash, and '
+                                                          'hypotension that is distinct from '
+                                                          'IgE-mediated allergy in many cases. '
+                                                          'Slowing the infusion reduces histamine '
+                                                          'release without necessarily requiring '
+                                                          'permanent drug abandonment. Recognizing '
+                                                          'the mechanism guides rate adjustment '
+                                                          'versus true hypersensitivity workup.'},
+                                          {'question': 'Potassium IV concentrated must?',
+                                           'options': ['A) Give undiluted as a rapid IV push for '
+                                                       'convenience',
+                                                       'B) Never IV push; dilute/infuse per policy '
                                                        'with monitoring',
-                                                       'B) IV push undiluted always OK',
-                                                       'C) Give IM potassium',
-                                                       'D) Ignore rate'],
-                                           'answer': 'A) Never IV push; dilute/infuse per policy '
+                                                       'C) Mix with undiluted calcium in the same '
+                                                       'syringe',
+                                                       'D) Infuse without cardiac monitoring '
+                                                       'regardless of rate'],
+                                           'answer': 'B) Never IV push; dilute/infuse per policy '
                                                      'with monitoring',
-                                           'explanation': 'Intravenous potassium directly elevates extracellular K+, which can abolish the myocardial resting membrane gradient and precipitate asystole or ventricular fibrillation if delivered as a concentrated push. Policy-mandated dilution and controlled infusion with cardiac monitoring limit the rate of serum rise. Concentrated potassium is therefore never given IV push.'}],
-                                 'extreme': [{'question': 'In a high-stakes nursing scenario with '
-                                                          'incomplete data, which statement is '
-                                                          'MOST correct? Suspect malignant '
-                                                          'hyperthermia after anesthesia trigger? '
-                                                          'Avoid actions that could harm if a '
-                                                          'critical risk remains open.',
-                                              'options': ['A) Call MH protocol, dantrolene '
+                                           'explanation': 'Intravenous potassium directly elevates '
+                                                          'extracellular K+, which can abolish the '
+                                                          'myocardial resting membrane gradient '
+                                                          'and precipitate asystole or ventricular '
+                                                          'fibrillation if delivered as a '
+                                                          'concentrated push. Policy-mandated '
+                                                          'dilution and controlled infusion with '
+                                                          'cardiac monitoring limit the rate of '
+                                                          'serum rise. Concentrated potassium is '
+                                                          'therefore never given IV push.'}],
+                                 'extreme': [{'question': 'Suspect malignant hyperthermia after '
+                                                          'anesthesia trigger?',
+                                              'options': ['A) Continue triggering agents while '
+                                                          'giving antipyretics only',
+                                                          'B) Apply warming blankets as the '
+                                                          'primary treatment',
+                                                          'C) Call MH protocol, dantrolene '
                                                           'readiness, stop triggers, cool/support',
-                                                          'B) Give more succinylcholine',
-                                                          'C) Ignore rising ETCO2/fever',
-                                                          'D) Only oral fluids'],
-                                              'answer': 'A) Call MH protocol, dantrolene '
+                                                          'D) Discharge to PACU without notifying '
+                                                          'anesthesia'],
+                                              'answer': 'C) Call MH protocol, dantrolene '
                                                         'readiness, stop triggers, cool/support',
-                                              'explanation': 'Malignant hyperthermia is a pharmacogenetic ryanodine-receptor crisis in skeletal muscle triggered by certain anesthetics and succinylcholine, causing uncontrolled calcium release, rigidity, hypercarbia, and hyperthermia. Stopping triggers, giving dantrolene to inhibit calcium release, and active cooling interrupt the hypermetabolic cascade. MH protocol activation is time-critical because rhabdomyolysis and hyperkalemia progress rapidly.'},
-                                             {'question': 'In a high-stakes nursing scenario with '
-                                                          'incomplete data, which statement is '
-                                                          'MOST correct? Opioid overdose with RR '
-                                                          '4? Avoid actions that could harm if a '
-                                                          'critical risk remains open.',
-                                              'options': ['A) Stimulate, support ventilation, '
-                                                          'naloxone per protocol',
-                                                          'B) More opioid',
-                                                          'C) Leave alone to sleep it off',
-                                                          'D) Only document later'],
-                                              'answer': 'A) Stimulate, support ventilation, '
+                                              'explanation': 'Malignant hyperthermia is a '
+                                                             'pharmacogenetic ryanodine-receptor '
+                                                             'crisis in skeletal muscle triggered '
+                                                             'by certain anesthetics and '
+                                                             'succinylcholine, causing '
+                                                             'uncontrolled calcium release, '
+                                                             'rigidity, hypercarbia, and '
+                                                             'hyperthermia. Stopping triggers, '
+                                                             'giving dantrolene to inhibit calcium '
+                                                             'release, and active cooling '
+                                                             'interrupt the hypermetabolic '
+                                                             'cascade. MH protocol activation is '
+                                                             'time-critical because rhabdomyolysis '
+                                                             'and hyperkalemia progress rapidly.'},
+                                             {'question': 'Opioid overdose with RR 4?',
+                                              'options': ['A) Give additional opioid to reverse '
+                                                          'paradoxical breathing',
+                                                          'B) Wait for spontaneous improvement '
+                                                          'without airway support',
+                                                          'C) Oral naloxone only while leaving the '
+                                                          'patient unmonitored',
+                                                          'D) Stimulate, support ventilation, '
+                                                          'naloxone per protocol'],
+                                              'answer': 'D) Stimulate, support ventilation, '
                                                         'naloxone per protocol',
-                                              'explanation': 'Severe opioid overdose produces μ-receptor–mediated respiratory arrest with hypoxemia and hypercapnia; a respiratory rate of 4 signals imminent hypoxic injury. Stimulation and assisted ventilation restore gas exchange while naloxone competitively displaces opioid from receptors. ABC support and antidote are paired because naloxone onset is not instantaneous and renarcotization may occur.'},
-                                             {'question': 'In a high-stakes nursing scenario with '
-                                                          'incomplete data, which statement is '
-                                                          'MOST correct? Chemotherapy '
-                                                          'extravasation? Avoid actions that could '
-                                                          'harm if a critical risk remains open.',
+                                              'explanation': 'Severe opioid overdose produces '
+                                                             'μ-receptor–mediated respiratory '
+                                                             'arrest with hypoxemia and '
+                                                             'hypercapnia; a respiratory rate of 4 '
+                                                             'signals imminent hypoxic injury. '
+                                                             'Stimulation and assisted ventilation '
+                                                             'restore gas exchange while naloxone '
+                                                             'competitively displaces opioid from '
+                                                             'receptors. ABC support and antidote '
+                                                             'are paired because naloxone onset is '
+                                                             'not instantaneous and '
+                                                             'renarcotization may occur.'},
+                                             {'question': 'Chemotherapy extravasation?',
                                               'options': ['A) Stop infusion, follow vesicant '
                                                           'protocol, do not ignore pain/swelling '
                                                           'at site',
-                                                          'B) Increase rate',
-                                                          'C) Ignore',
-                                                          'D) Hot pack blindly for all agents'],
+                                                          'B) Increase the rate to clear the line '
+                                                          'faster',
+                                                          'C) Apply heat and continue the vesicant '
+                                                          'infusion',
+                                                          'D) Document later without interrupting '
+                                                          'the infusion'],
                                               'answer': 'A) Stop infusion, follow vesicant '
                                                         'protocol, do not ignore pain/swelling at '
                                                         'site',
-                                              'explanation': 'Vesicant chemotherapy extravasated into subcutaneous tissue causes prolonged local DNA damage, necrosis, and ulceration. Stopping the infusion limits further extravasation volume; agent-specific antidotes, aspiration, and cold or heat per protocol then modify tissue injury. Pain or swelling at the site is an early warning that must not be dismissed.'}]},
+                                              'explanation': 'Vesicant chemotherapy extravasated '
+                                                             'into subcutaneous tissue causes '
+                                                             'prolonged local DNA damage, '
+                                                             'necrosis, and ulceration. Stopping '
+                                                             'the infusion limits further '
+                                                             'extravasation volume; agent-specific '
+                                                             'antidotes, aspiration, and cold or '
+                                                             'heat per protocol then modify tissue '
+                                                             'injury. Pain or swelling at the site '
+                                                             'is an early warning that must not be '
+                                                             'dismissed.'}]},
                    'cases': {'easy': [{'title': 'Allergy Bracelet',
                                        'stem': 'Patient allergic to penicillin; order for '
                                                'amoxicillin arrives.',
@@ -1387,141 +2427,285 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                      'Refuse falsified documentation; report impaired practice.',
                                      'Incident reports improve systems.'],
                        'questions': {'easy': [{'question': 'Autonomy means?',
-                                               'options': ["A) Respect patient's right to make "
+                                               'options': ['A) Doing whatever the care team '
+                                                           'prefers without discussion',
+                                                           "B) Respect patient's right to make "
                                                            'informed decisions',
-                                                           'B) Nurse decides everything always',
-                                                           'C) Hide all information',
-                                                           'D) Force treatment always'],
-                                               'answer': "A) Respect patient's right to make "
+                                                           'C) Withholding information to avoid '
+                                                           'patient worry always',
+                                                           'D) Family decisions overriding a '
+                                                           "capacitated patient's refusal"],
+                                               'answer': "B) Respect patient's right to make "
                                                          'informed decisions',
-                                               'explanation': 'Autonomy is the ethical principle that competent persons have moral authority over decisions affecting their own bodies and lives. Respecting informed choices—even when clinicians disagree—affirms the patient as the primary decision-maker. Nursing practice operationalizes autonomy through informed consent, refusal support, and avoidance of coercion.'},
+                                               'explanation': 'Autonomy is the ethical principle '
+                                                              'that competent persons have moral '
+                                                              'authority over decisions affecting '
+                                                              'their own bodies and lives. '
+                                                              'Respecting informed choices—even '
+                                                              'when clinicians disagree—affirms '
+                                                              'the patient as the primary '
+                                                              'decision-maker. Nursing practice '
+                                                              'operationalizes autonomy through '
+                                                              'informed consent, refusal support, '
+                                                              'and avoidance of coercion.'},
                                               {'question': 'Beneficence means?',
-                                               'options': ['A) Act to benefit the patient',
-                                                           'B) Do harm for convenience',
-                                                           'C) Ignore needs',
-                                                           'D) Only protect institution always'],
-                                               'answer': 'A) Act to benefit the patient',
-                                               'explanation': 'Beneficence obligates clinicians to act in ways that promote the patient’s health interests and well-being, weighing benefits of interventions against burdens. It underpins proactive care such as pain relief, fall prevention, and timely escalation of deterioration. Beneficent action is guided by the patient’s values, not solely by technical possibility.'},
+                                               'options': ['A) Avoiding all interventions that '
+                                                           'carry any risk',
+                                                           'B) Distributing scarce resources by '
+                                                           'ability to pay only',
+                                                           'C) Act to benefit the patient',
+                                                           'D) Keeping secrets that harm the care '
+                                                           'plan'],
+                                               'answer': 'C) Act to benefit the patient',
+                                               'explanation': 'Beneficence obligates clinicians to '
+                                                              'act in ways that promote the '
+                                                              'patient’s health interests and '
+                                                              'well-being, weighing benefits of '
+                                                              'interventions against burdens. It '
+                                                              'underpins proactive care such as '
+                                                              'pain relief, fall prevention, and '
+                                                              'timely escalation of deterioration. '
+                                                              'Beneficent action is guided by the '
+                                                              'patient’s values, not solely by '
+                                                              'technical possibility.'},
                                               {'question': 'Confidentiality breach example?',
-                                               'options': ['A) Discussing patient details in '
-                                                           'elevator with strangers',
-                                                           'B) Hand-off in private with care team',
-                                                           'C) Charting accurately',
-                                                           'D) Encrypted official communication'],
-                                               'answer': 'A) Discussing patient details in '
+                                               'options': ['A) Hand-off report in a private '
+                                                           'conference room',
+                                                           'B) Encrypted EHR messaging among the '
+                                                           'care team',
+                                                           'C) Teaching with de-identified case '
+                                                           'details in class',
+                                                           'D) Discussing patient details in '
+                                                           'elevator with strangers'],
+                                               'answer': 'D) Discussing patient details in '
                                                          'elevator with strangers',
-                                               'explanation': 'Confidentiality protects private health information so patients can disclose sensitive data needed for accurate diagnosis without social harm. Discussing identifiable details in public spaces such as elevators exposes protected health information to bystanders and erodes trust. Professional privacy duties exist to preserve that therapeutic disclosure relationship.'}],
+                                               'explanation': 'Confidentiality protects private '
+                                                              'health information so patients can '
+                                                              'disclose sensitive data needed for '
+                                                              'accurate diagnosis without social '
+                                                              'harm. Discussing identifiable '
+                                                              'details in public spaces such as '
+                                                              'elevators exposes protected health '
+                                                              'information to bystanders and '
+                                                              'erodes trust. Professional privacy '
+                                                              'duties exist to preserve that '
+                                                              'therapeutic disclosure '
+                                                              'relationship.'}],
                                      'medium': [{'question': 'Nonmaleficence means?',
                                                  'options': ['A) Do no harm',
-                                                             'B) Always maximize billing',
-                                                             'C) Hide errors',
-                                                             'D) Ignore safety'],
+                                                             'B) Maximize billing for the '
+                                                             'institution',
+                                                             'C) Prioritize staff convenience over '
+                                                             'safety',
+                                                             'D) Guarantee cure regardless of '
+                                                             'risk'],
                                                  'answer': 'A) Do no harm',
-                                                 'explanation': 'Nonmaleficence requires that caregivers avoid causing unnecessary harm and minimize the harms inherent in necessary interventions. It constrains risky procedures, inappropriate restraints, and negligent omissions that foreseeably injure patients. Balancing nonmaleficence with beneficence is central to proportional clinical judgment.'},
+                                                 'explanation': 'Nonmaleficence requires that '
+                                                                'caregivers avoid causing '
+                                                                'unnecessary harm and minimize the '
+                                                                'harms inherent in necessary '
+                                                                'interventions. It constrains '
+                                                                'risky procedures, inappropriate '
+                                                                'restraints, and negligent '
+                                                                'omissions that foreseeably injure '
+                                                                'patients. Balancing '
+                                                                'nonmaleficence with beneficence '
+                                                                'is central to proportional '
+                                                                'clinical judgment.'},
                                                 {'question': 'Justice in nursing relates to?',
-                                                 'options': ['A) Fair allocation of care/resources',
-                                                             'B) Prefer friends only',
-                                                             'C) Skip poor patients',
-                                                             'D) Only VIP care'],
-                                                 'answer': 'A) Fair allocation of care/resources',
-                                                 'explanation': 'Justice in healthcare ethics concerns fairness in the distribution of nursing attention, scarce resources, and respect across patients without arbitrary discrimination. Equitable allocation means clinically comparable needs receive comparable priority. Structural bias and preferential treatment violate this distributive obligation.'},
+                                                 'options': ['A) Giving identical interventions to '
+                                                             'every patient always',
+                                                             'B) Fair allocation of care/resources',
+                                                             'C) Favoring patients who are easiest '
+                                                             'to care for',
+                                                             'D) Ignoring disparities in access to '
+                                                             'services'],
+                                                 'answer': 'B) Fair allocation of care/resources',
+                                                 'explanation': 'Justice in healthcare ethics '
+                                                                'concerns fairness in the '
+                                                                'distribution of nursing '
+                                                                'attention, scarce resources, and '
+                                                                'respect across patients without '
+                                                                'arbitrary discrimination. '
+                                                                'Equitable allocation means '
+                                                                'clinically comparable needs '
+                                                                'receive comparable priority. '
+                                                                'Structural bias and preferential '
+                                                                'treatment violate this '
+                                                                'distributive obligation.'},
                                                 {'question': 'Incident report purpose?',
-                                                 'options': ['A) Quality improvement / risk '
+                                                 'options': ['A) A punitive essay blaming the '
+                                                             'individual nurse in the chart',
+                                                             'B) A substitute for notifying the '
+                                                             'provider of harm',
+                                                             'C) Quality improvement / risk '
                                                              'reduction — factual, not punitive '
                                                              'chart blame essay',
-                                                             'B) Punish only',
-                                                             'C) Copy into public social media',
-                                                             'D) Skip facts'],
-                                                 'answer': 'A) Quality improvement / risk '
+                                                             'D) A public social-media summary of '
+                                                             'the event'],
+                                                 'answer': 'C) Quality improvement / risk '
                                                            'reduction — factual, not punitive '
                                                            'chart blame essay',
-                                                 'explanation': 'Incident reports capture adverse events and near misses as data for system learning—process redesign, equipment fixes, and training—rather than as vehicles for personal blame essays in the medical record. Including near misses reveals latent failures before harm reaches the patient. Just-culture reporting strengthens prevention science at the unit and organizational level.'}],
-                                     'hard': [{'question': 'A junior colleague asks for the single '
-                                                           'best answer. Advocacy means? Beware of '
-                                                           'near-miss distractors.',
-                                               'options': ['A) Speak/act to protect patient rights '
-                                                           'and best interests',
-                                                           'B) Silence when unsafe orders given',
-                                                           'C) Prioritize convenience over safety',
-                                                           'D) Hide information patient needs'],
-                                               'answer': 'A) Speak/act to protect patient rights '
+                                                 'explanation': 'Incident reports capture adverse '
+                                                                'events and near misses as data '
+                                                                'for system learning—process '
+                                                                'redesign, equipment fixes, and '
+                                                                'training—rather than as vehicles '
+                                                                'for personal blame essays in the '
+                                                                'medical record. Including near '
+                                                                'misses reveals latent failures '
+                                                                'before harm reaches the patient. '
+                                                                'Just-culture reporting '
+                                                                'strengthens prevention science at '
+                                                                'the unit and organizational '
+                                                                'level.'}],
+                                     'hard': [{'question': 'Advocacy means?',
+                                               'options': ["A) Protect the institution's "
+                                                           'reputation over patient rights',
+                                                           'B) Remain silent when unsafe practices '
+                                                           'continue',
+                                                           'C) Follow orders that clearly violate '
+                                                           'patient safety without question',
+                                                           'D) Speak/act to protect patient rights '
+                                                           'and best interests'],
+                                               'answer': 'D) Speak/act to protect patient rights '
                                                          'and best interests',
-                                               'explanation': 'Advocacy is the professional obligation to amplify the patient’s rights, preferences, and best interests when illness, hierarchy, or systems create vulnerability. Speaking up about unsafe conditions or unanswered questions protects those who cannot effectively protect themselves. It is a core nursing duty grounded in both ethics and standards of practice.'},
-                                              {'question': 'A junior colleague asks for the single '
-                                                           'best answer. Informed consent nurse '
-                                                           'role often? Beware of near-miss '
-                                                           'distractors.',
+                                               'explanation': 'Advocacy is the professional '
+                                                              'obligation to amplify the patient’s '
+                                                              'rights, preferences, and best '
+                                                              'interests when illness, hierarchy, '
+                                                              'or systems create vulnerability. '
+                                                              'Speaking up about unsafe conditions '
+                                                              'or unanswered questions protects '
+                                                              'those who cannot effectively '
+                                                              'protect themselves. It is a core '
+                                                              'nursing duty grounded in both '
+                                                              'ethics and standards of practice.'},
+                                              {'question': 'Informed consent nurse role often?',
                                                'options': ['A) Witness signature, verify '
                                                            'understanding, notify provider if '
                                                            'questions remain',
-                                                           'B) Explain surgical risks instead of '
-                                                           'surgeon always alone as only explainer',
-                                                           'C) Force signing',
-                                                           'D) Skip interpreter when needed'],
+                                                           'B) Independently explain surgical '
+                                                           'risks in place of the surgeon always',
+                                                           'C) Obtain consent even when the '
+                                                           'patient clearly does not understand',
+                                                           'D) Skip witnessing if the family says '
+                                                           'the patient agrees'],
                                                'answer': 'A) Witness signature, verify '
                                                          'understanding, notify provider if '
                                                          'questions remain',
-                                               'explanation': 'Informed consent requires comprehension; the nurse who witnesses a signature also verifies that the patient understands and that lingering questions reach the responsible provider. Language access, sensory supports, and unhurried clarification are part of that communicative duty. Without understanding, a signature does not constitute meaningful consent.'},
-                                              {'question': 'A junior colleague asks for the single '
-                                                           'best answer. Moral distress occurs '
-                                                           'when? Beware of near-miss distractors.',
-                                               'options': ['A) Nurse knows right action but '
+                                               'explanation': 'Informed consent requires '
+                                                              'comprehension; the nurse who '
+                                                              'witnesses a signature also verifies '
+                                                              'that the patient understands and '
+                                                              'that lingering questions reach the '
+                                                              'responsible provider. Language '
+                                                              'access, sensory supports, and '
+                                                              'unhurried clarification are part of '
+                                                              'that communicative duty. Without '
+                                                              'understanding, a signature does not '
+                                                              'constitute meaningful consent.'},
+                                              {'question': 'Moral distress occurs when?',
+                                               'options': ['A) Feeling sad after a long shift '
+                                                           'without ethical conflict',
+                                                           'B) Nurse knows right action but '
                                                            'constrained from taking it',
-                                                           'B) Always vacation joy',
-                                                           'C) Only overtime pay issues',
-                                                           'D) Never in nursing'],
-                                               'answer': 'A) Nurse knows right action but '
+                                                           'C) Simple disagreement about '
+                                                           'lunch-break timing',
+                                                           'D) Confidence that all institutional '
+                                                           'policies are perfect'],
+                                               'answer': 'B) Nurse knows right action but '
                                                          'constrained from taking it',
-                                               'explanation': 'Moral distress arises when the nurse can identify the ethically appropriate action yet institutional constraints, conflicting orders, or power structures block that action. The resulting cognitive–emotional conflict is associated with burnout and silence about safety concerns. Ethics consultation and organizational support are appropriate responses to relieve the constraint, not merely to advise endurance.'}],
-                                     'extreme': [{'question': 'In a high-stakes nursing scenario '
-                                                              'with incomplete data, which '
-                                                              'statement is MOST correct? '
-                                                              'Whistleblowing about ongoing '
-                                                              'patient harm? Avoid actions that '
-                                                              'could harm if a critical risk '
-                                                              'remains open.',
-                                                  'options': ['A) Report through required '
+                                               'explanation': 'Moral distress arises when the '
+                                                              'nurse can identify the ethically '
+                                                              'appropriate action yet '
+                                                              'institutional constraints, '
+                                                              'conflicting orders, or power '
+                                                              'structures block that action. The '
+                                                              'resulting cognitive–emotional '
+                                                              'conflict is associated with burnout '
+                                                              'and silence about safety concerns. '
+                                                              'Ethics consultation and '
+                                                              'organizational support are '
+                                                              'appropriate responses to relieve '
+                                                              'the constraint, not merely to '
+                                                              'advise endurance.'}],
+                                     'extreme': [{'question': 'Whistleblowing about ongoing '
+                                                              'patient harm?',
+                                                  'options': ['A) Stay silent to protect '
+                                                              'colleagues from scrutiny',
+                                                              'B) Alter records to hide ongoing '
+                                                              'unsafe practice',
+                                                              'C) Report through required '
                                                               'channels; patient safety overrides '
                                                               'loyalty to cover-ups',
-                                                              'B) Destroy evidence',
-                                                              'C) Post PHI publicly',
-                                                              'D) Ignore deaths'],
-                                                  'answer': 'A) Report through required channels; '
+                                                              'D) Post accusations publicly before '
+                                                              'using internal channels'],
+                                                  'answer': 'C) Report through required channels; '
                                                             'patient safety overrides loyalty to '
                                                             'cover-ups',
-                                                  'explanation': 'When ongoing practices cause patient harm, loyalty to colleagues or institutions cannot ethically outweigh the duty to protect those patients. Whistleblowing through required channels activates oversight mechanisms designed to stop preventable injury. Patient safety is the overriding professional interest in such conflicts.'},
-                                                 {'question': 'In a high-stakes nursing scenario '
-                                                              'with incomplete data, which '
-                                                              'statement is MOST correct? DNR '
-                                                              'order conflict at bedside? Avoid '
-                                                              'actions that could harm if a '
-                                                              'critical risk remains open.',
-                                                  'options': ['A) Clarify current valid order with '
+                                                  'explanation': 'When ongoing practices cause '
+                                                                 'patient harm, loyalty to '
+                                                                 'colleagues or institutions '
+                                                                 'cannot ethically outweigh the '
+                                                                 'duty to protect those patients. '
+                                                                 'Whistleblowing through required '
+                                                                 'channels activates oversight '
+                                                                 'mechanisms designed to stop '
+                                                                 'preventable injury. Patient '
+                                                                 'safety is the overriding '
+                                                                 'professional interest in such '
+                                                                 'conflicts.'},
+                                                 {'question': 'DNR order conflict at bedside?',
+                                                  'options': ['A) Start full CPR despite a '
+                                                              'verified valid DNR',
+                                                              'B) Ignore the order and ask only '
+                                                              'the newest nurse',
+                                                              'C) Hide the DNR document from the '
+                                                              'responding team',
+                                                              'D) Clarify current valid order with '
                                                               'team; do not perform unwanted '
-                                                              'resuscitation if valid DNR',
-                                                              'B) Ignore DNR always',
-                                                              'C) Hide order',
-                                                              'D) Argue alone without chain of '
-                                                              'command'],
-                                                  'answer': 'A) Clarify current valid order with '
+                                                              'resuscitation if valid DNR'],
+                                                  'answer': 'D) Clarify current valid order with '
                                                             'team; do not perform unwanted '
                                                             'resuscitation if valid DNR',
-                                                  'explanation': 'A valid do-not-resuscitate order documents a decision to forgo CPR based on patient (or surrogate) values and medical judgment; performing unwanted resuscitation violates both autonomy and nonmaleficence. Bedside conflict is resolved by clarifying the current valid order with the care team and chain of command. Policy existence does not replace verifying which order is active.'},
-                                                 {'question': 'In a high-stakes nursing scenario '
-                                                              'with incomplete data, which '
-                                                              'statement is MOST correct? Social '
-                                                              'media photo of patient? Avoid '
-                                                              'actions that could harm if a '
-                                                              'critical risk remains open.',
+                                                  'explanation': 'A valid do-not-resuscitate order '
+                                                                 'documents a decision to forgo '
+                                                                 'CPR based on patient (or '
+                                                                 'surrogate) values and medical '
+                                                                 'judgment; performing unwanted '
+                                                                 'resuscitation violates both '
+                                                                 'autonomy and nonmaleficence. '
+                                                                 'Bedside conflict is resolved by '
+                                                                 'clarifying the current valid '
+                                                                 'order with the care team and '
+                                                                 'chain of command. Policy '
+                                                                 'existence does not replace '
+                                                                 'verifying which order is '
+                                                                 'active.'},
+                                                 {'question': 'Social media photo of patient?',
                                                   'options': ['A) Never — confidentiality/privacy '
                                                               'violation',
-                                                              'B) OK if face blurred sometimes '
-                                                              'without consent always',
-                                                              'C) OK in stories',
-                                                              'D) OK if funny'],
+                                                              "B) Allowed if the patient's face is "
+                                                              'only partially visible',
+                                                              'C) Acceptable with friends-only '
+                                                              'social media settings',
+                                                              'D) Fine if posted after discharge '
+                                                              'without consent'],
                                                   'answer': 'A) Never — confidentiality/privacy '
                                                             'violation',
-                                                  'explanation': 'Photographs of patients shared on social media disclose identifiable health encounters outside the care relationship and authorized channels. Even partial identifiers or clinical context can violate privacy regulations and professional boundaries. Such posting is prohibited because confidentiality does not end at the hospital door.'}]},
+                                                  'explanation': 'Photographs of patients shared '
+                                                                 'on social media disclose '
+                                                                 'identifiable health encounters '
+                                                                 'outside the care relationship '
+                                                                 'and authorized channels. Even '
+                                                                 'partial identifiers or clinical '
+                                                                 'context can violate privacy '
+                                                                 'regulations and professional '
+                                                                 'boundaries. Such posting is '
+                                                                 'prohibited because '
+                                                                 'confidentiality does not end at '
+                                                                 'the hospital door.'}]},
                        'cases': {'easy': [{'title': 'Refusing Treatment',
                                            'stem': 'Alert competent adult refuses transfusion for '
                                                    'religious reasons.',
@@ -1569,131 +2753,258 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                               'Fall and pressure-injury prevention bundles.',
                               'Report suspected elder abuse.'],
                 'questions': {'easy': [{'question': 'Common atypical infection sign in elderly?',
-                                        'options': ['A) Confusion / falls / functional decline '
+                                        'options': ['A) High spiking fever as the only reliable '
+                                                    'early clue',
+                                                    'B) Confusion / falls / functional decline '
                                                     '(fever may be absent)',
-                                                    'B) Only classic high fever always',
-                                                    'C) Only sore throat always',
-                                                    'D) Never changes mentation'],
-                                        'answer': 'A) Confusion / falls / functional decline '
+                                                    'C) Classic localized pain identical to '
+                                                    'younger adults always',
+                                                    'D) Leukocytosis required before any concern '
+                                                    'for infection'],
+                                        'answer': 'B) Confusion / falls / functional decline '
                                                   '(fever may be absent)',
-                                        'explanation': 'Older adults often mount blunted febrile and local inflammatory responses because of immunosenescence and altered thermoregulation, so infection may present as new confusion, falls, or functional decline instead of high fever. Recognizing atypical syndromes prevents delayed antibiotics and sepsis progression. Mental-status change is therefore treated as a potential medical red flag.'},
+                                        'explanation': 'Older adults often mount blunted febrile '
+                                                       'and local inflammatory responses because '
+                                                       'of immunosenescence and altered '
+                                                       'thermoregulation, so infection may present '
+                                                       'as new confusion, falls, or functional '
+                                                       'decline instead of high fever. Recognizing '
+                                                       'atypical syndromes prevents delayed '
+                                                       'antibiotics and sepsis progression. '
+                                                       'Mental-status change is therefore treated '
+                                                       'as a potential medical red flag.'},
                                        {'question': 'Polypharmacy risk includes?',
-                                        'options': ['A) Interactions, falls, ADRs',
-                                                    'B) Only benefits forever',
-                                                    'C) No need for med review',
-                                                    'D) Always safe if OTC'],
-                                        'answer': 'A) Interactions, falls, ADRs',
-                                        'explanation': 'Polypharmacy increases pharmacokinetic and pharmacodynamic interactions, anticholinergic burden, sedation, and orthostasis, elevating falls and adverse drug reaction rates. Age-related declines in renal and hepatic clearance amplify exposure to many agents. Medication reconciliation and review reduce cumulative toxicity while preserving necessary therapy.'},
+                                        'options': ['A) Improved adherence without adverse-effect '
+                                                    'risk',
+                                                    'B) Guaranteed better outcomes with more '
+                                                    'medications',
+                                                    'C) Interactions, falls, ADRs',
+                                                    'D) Elimination of the need for medication '
+                                                    'review'],
+                                        'answer': 'C) Interactions, falls, ADRs',
+                                        'explanation': 'Polypharmacy increases pharmacokinetic and '
+                                                       'pharmacodynamic interactions, '
+                                                       'anticholinergic burden, sedation, and '
+                                                       'orthostasis, elevating falls and adverse '
+                                                       'drug reaction rates. Age-related declines '
+                                                       'in renal and hepatic clearance amplify '
+                                                       'exposure to many agents. Medication '
+                                                       'reconciliation and review reduce '
+                                                       'cumulative toxicity while preserving '
+                                                       'necessary therapy.'},
                                        {'question': 'Pressure injury prevention includes?',
-                                        'options': ['A) Repositioning, skin care, nutrition, '
-                                                    'pressure-relieving surfaces',
-                                                    'B) Keep wet linen',
-                                                    'C) Massage reddened bony areas hard always',
-                                                    'D) Ignore mobility'],
-                                        'answer': 'A) Repositioning, skin care, nutrition, '
+                                        'options': ['A) Keep patients in one position to protect '
+                                                    'surgical sites',
+                                                    'B) Massage reddened bony areas vigorously '
+                                                    'each hour',
+                                                    'C) Restrict protein to reduce metabolic '
+                                                    'demand',
+                                                    'D) Repositioning, skin care, nutrition, '
+                                                    'pressure-relieving surfaces'],
+                                        'answer': 'D) Repositioning, skin care, nutrition, '
                                                   'pressure-relieving surfaces',
-                                        'explanation': 'Pressure injuries develop when sustained interface pressure and shear occlude capillary flow over bony prominences, producing ischemia and tissue necrosis. Repositioning, moisture management, nutrition adequate for repair, and pressure-relieving surfaces restore perfusion and tissue tolerance. Prevention targets the mechanical and metabolic drivers of skin breakdown.'}],
+                                        'explanation': 'Pressure injuries develop when sustained '
+                                                       'interface pressure and shear occlude '
+                                                       'capillary flow over bony prominences, '
+                                                       'producing ischemia and tissue necrosis. '
+                                                       'Repositioning, moisture management, '
+                                                       'nutrition adequate for repair, and '
+                                                       'pressure-relieving surfaces restore '
+                                                       'perfusion and tissue tolerance. Prevention '
+                                                       'targets the mechanical and metabolic '
+                                                       'drivers of skin breakdown.'}],
                               'medium': [{'question': 'Beers Criteria relate to?',
                                           'options': ['A) Potentially inappropriate medications in '
                                                       'older adults',
-                                                      'B) Only pediatric dosing',
-                                                      'C) Only veterinary meds',
-                                                      'D) Only IV fluids'],
+                                                      'B) Preferred antibiotics for pediatric '
+                                                      'otitis only',
+                                                      'C) Surgical antibiotic prophylaxis timing '
+                                                      'exclusively',
+                                                      'D) IV fluid selection in trauma '
+                                                      'resuscitation only'],
                                           'answer': 'A) Potentially inappropriate medications in '
                                                     'older adults',
-                                          'explanation': 'Beers Criteria catalog medications whose risks—falls, delirium, bleeding, anticholinergic effects—often outweigh benefits in older adults given altered physiology. Awareness of these potentially inappropriate medications supports safer prescribing and deprescribing conversations. The list is a clinical risk tool, not a pediatric or veterinary dosing reference.'},
+                                          'explanation': 'Beers Criteria catalog medications whose '
+                                                         'risks—falls, delirium, bleeding, '
+                                                         'anticholinergic effects—often outweigh '
+                                                         'benefits in older adults given altered '
+                                                         'physiology. Awareness of these '
+                                                         'potentially inappropriate medications '
+                                                         'supports safer prescribing and '
+                                                         'deprescribing conversations. The list is '
+                                                         'a clinical risk tool, not a pediatric or '
+                                                         'veterinary dosing reference.'},
                                          {'question': 'Orthostatic hypotension nursing tip?',
-                                          'options': ['A) Dangle, rise slowly, monitor BP '
+                                          'options': ['A) Stand quickly and walk immediately after '
+                                                      'lying flat',
+                                                      'B) Dangle, rise slowly, monitor BP '
                                                       'lying/standing',
-                                                      'B) Jump out of bed fast always',
-                                                      'C) Ignore dizziness',
-                                                      'D) Fluid restrict always'],
-                                          'answer': 'A) Dangle, rise slowly, monitor BP '
+                                                      'C) Ignore dizziness if systolic BP is over '
+                                                      '100',
+                                                      'D) Hold all antihypertensives permanently '
+                                                      'without review'],
+                                          'answer': 'B) Dangle, rise slowly, monitor BP '
                                                     'lying/standing',
-                                          'explanation': 'Orthostatic hypotension reflects impaired baroreflex and vascular tone with pooling of blood in the lower extremities on standing, transiently cutting cerebral perfusion. Dangling, slow position changes, and lying-to-standing blood-pressure measurement detect and mitigate syncope risk. Fall prevention follows directly from this postural circulatory physiology.'},
+                                          'explanation': 'Orthostatic hypotension reflects '
+                                                         'impaired baroreflex and vascular tone '
+                                                         'with pooling of blood in the lower '
+                                                         'extremities on standing, transiently '
+                                                         'cutting cerebral perfusion. Dangling, '
+                                                         'slow position changes, and '
+                                                         'lying-to-standing blood-pressure '
+                                                         'measurement detect and mitigate syncope '
+                                                         'risk. Fall prevention follows directly '
+                                                         'from this postural circulatory '
+                                                         'physiology.'},
                                          {'question': 'Delirium vs dementia key?',
-                                          'options': ['A) Delirium acute/fluctuating often '
+                                          'options': ['A) Delirium is always chronic and '
+                                                      'irreversible',
+                                                      'B) Dementia fluctuates hourly with acute '
+                                                      'illness only',
+                                                      'C) Delirium acute/fluctuating often '
                                                       'reversible cause; dementia chronic '
                                                       'progressive',
-                                                      'B) Delirium always permanent',
-                                                      'C) Dementia always starts in minutes',
-                                                      'D) No difference'],
-                                          'answer': 'A) Delirium acute/fluctuating often '
+                                                      'D) Both conditions are identical in onset '
+                                                      'and course'],
+                                          'answer': 'C) Delirium acute/fluctuating often '
                                                     'reversible cause; dementia chronic '
                                                     'progressive',
-                                          'explanation': 'Delirium is an acute, fluctuating disturbance of attention and awareness usually driven by a reversible medical precipitant, whereas dementia is a chronic progressive neurocognitive decline. Distinguishing them matters because delirium demands urgent search for infection, hypoxia, medications, and metabolic causes. Treating precipitants can restore baseline cognition.'}],
-                              'hard': [{'question': 'A junior colleague asks for the single best '
-                                                    'answer. Elder abuse nurse duty? Beware of '
-                                                    'near-miss distractors.',
-                                        'options': ['A) Report suspected abuse per law/policy',
-                                                    'B) Ignore bruises',
-                                                    'C) Confront abuser alone unsafely always as '
-                                                    'only step',
-                                                    'D) Hide evidence'],
-                                        'answer': 'A) Report suspected abuse per law/policy',
-                                        'explanation': 'Elder abuse—physical, emotional, financial, or neglect—exploits dependency and produces preventable morbidity and mortality. Nurses are typically mandated reporters so that adult protective and legal systems can intervene when suspicion arises. Objective documentation and reporting per law protect the older adult when self-advocacy is compromised.'},
-                                       {'question': 'A junior colleague asks for the single best '
-                                                    'answer. Restraint alternative for wander '
-                                                    'risk? Beware of near-miss distractors.',
+                                          'explanation': 'Delirium is an acute, fluctuating '
+                                                         'disturbance of attention and awareness '
+                                                         'usually driven by a reversible medical '
+                                                         'precipitant, whereas dementia is a '
+                                                         'chronic progressive neurocognitive '
+                                                         'decline. Distinguishing them matters '
+                                                         'because delirium demands urgent search '
+                                                         'for infection, hypoxia, medications, and '
+                                                         'metabolic causes. Treating precipitants '
+                                                         'can restore baseline cognition.'}],
+                              'hard': [{'question': 'Elder abuse nurse duty?',
+                                        'options': ['A) Confront the caregiver publicly before any '
+                                                    'report',
+                                                    'B) Wait for definitive proof before any '
+                                                    'notification',
+                                                    'C) Document only and never escalate outside '
+                                                    'the unit',
+                                                    'D) Report suspected abuse per law/policy'],
+                                        'answer': 'D) Report suspected abuse per law/policy',
+                                        'explanation': 'Elder abuse—physical, emotional, '
+                                                       'financial, or neglect—exploits dependency '
+                                                       'and produces preventable morbidity and '
+                                                       'mortality. Nurses are typically mandated '
+                                                       'reporters so that adult protective and '
+                                                       'legal systems can intervene when suspicion '
+                                                       'arises. Objective documentation and '
+                                                       'reporting per law protect the older adult '
+                                                       'when self-advocacy is compromised.'},
+                                       {'question': 'Restraint alternative for wander risk?',
                                         'options': ['A) Supervision, alarms, toileting schedule, '
                                                     'meaningful activity — least restrictive',
-                                                    'B) Tie to chair for convenience',
-                                                    'C) Ignore elopement risk',
-                                                    'D) Lock without assessment'],
+                                                    'B) Immediate four-point restraints for any '
+                                                    'wandering risk',
+                                                    'C) Sedation to keep the patient in bed all '
+                                                    'day',
+                                                    'D) Locked seclusion without attempting '
+                                                    'alternatives'],
                                         'answer': 'A) Supervision, alarms, toileting schedule, '
                                                   'meaningful activity — least restrictive',
-                                        'explanation': 'Wandering risk often reflects unmet needs, disorientation, or akathisia rather than willful noncompliance; restraints add injury, deconditioning, and dignity loss. Least-restrictive alternatives—supervision, alarms, scheduled toileting, and meaningful activity—address causes while preserving mobility. Safety planning should escalate restrictiveness only as clinical necessity demands.'},
-                                       {'question': 'A junior colleague asks for the single best '
-                                                    'answer. Heart failure in elderly nursing '
-                                                    'weight tip? Beware of near-miss distractors.',
-                                        'options': ['A) Same scale, same time, report gain per '
+                                        'explanation': 'Wandering risk often reflects unmet needs, '
+                                                       'disorientation, or akathisia rather than '
+                                                       'willful noncompliance; restraints add '
+                                                       'injury, deconditioning, and dignity loss. '
+                                                       'Least-restrictive '
+                                                       'alternatives—supervision, alarms, '
+                                                       'scheduled toileting, and meaningful '
+                                                       'activity—address causes while preserving '
+                                                       'mobility. Safety planning should escalate '
+                                                       'restrictiveness only as clinical necessity '
+                                                       'demands.'},
+                                       {'question': 'Heart failure in elderly nursing weight tip?',
+                                        'options': ['A) Weigh at random times on different scales '
+                                                    'without reporting',
+                                                    'B) Same scale, same time, report gain per '
                                                     'parameters',
-                                                    'B) Weigh weekly randomly clothed differently '
-                                                    'always',
-                                                    'C) Ignore 2 kg gain',
-                                                    'D) Only estimate'],
-                                        'answer': 'A) Same scale, same time, report gain per '
+                                                    'C) Ignore a 3-pound overnight gain if the '
+                                                    'patient feels fine',
+                                                    'D) Restrict weighing to monthly clinic visits '
+                                                    'only'],
+                                        'answer': 'B) Same scale, same time, report gain per '
                                                   'parameters',
-                                        'explanation': 'In elderly patients with heart failure, daily weights on the same scale at the same time detect early sodium and water retention before pulmonary edema is obvious. Reporting gains that exceed parameters allows timely diuretic adjustment. Consistent technique reduces noise so true preload changes are visible.'}],
-                              'extreme': [{'question': 'In a high-stakes nursing scenario with '
-                                                       'incomplete data, which statement is MOST '
-                                                       'correct? Hip fracture post-fall priority? '
-                                                       'Avoid actions that could harm if a '
-                                                       'critical risk remains open.',
-                                           'options': ['A) ABC, pain, immobilize as trained, '
+                                        'explanation': 'In elderly patients with heart failure, '
+                                                       'daily weights on the same scale at the '
+                                                       'same time detect early sodium and water '
+                                                       'retention before pulmonary edema is '
+                                                       'obvious. Reporting gains that exceed '
+                                                       'parameters allows timely diuretic '
+                                                       'adjustment. Consistent technique reduces '
+                                                       'noise so true preload changes are '
+                                                       'visible.'}],
+                              'extreme': [{'question': 'Hip fracture post-fall priority?',
+                                           'options': ['A) Ambulate immediately to prevent '
+                                                       'pneumonia before imaging',
+                                                       'B) Give a full meal before pain control '
+                                                       'and immobilization',
+                                                       'C) ABC, pain, immobilize as trained, '
                                                        'neurovascular checks, urgent ortho path',
-                                                       'B) Force walk immediately',
-                                                       'C) Ignore shortened rotated leg',
-                                                       'D) Only give laxative'],
-                                           'answer': 'A) ABC, pain, immobilize as trained, '
+                                                       'D) Remove the cervical collar early to '
+                                                       'improve comfort first'],
+                                           'answer': 'C) ABC, pain, immobilize as trained, '
                                                      'neurovascular checks, urgent ortho path',
-                                           'explanation': 'Hip fracture after a fall commonly produces occult blood loss, severe pain-related hypoventilation, and neurovascular compromise of the limb, with high subsequent morbidity in frail elders. ABC assessment, analgesia, proper immobilization, and neurovascular checks stabilize the patient while urgent orthopedic care is arranged. Early physiologic support influences both survival and functional recovery.'},
-                                          {'question': 'In a high-stakes nursing scenario with '
-                                                       'incomplete data, which statement is MOST '
-                                                       'correct? Sepsis in frail elder may present '
-                                                       'as? Avoid actions that could harm if a '
-                                                       'critical risk remains open.',
-                                           'options': ['A) Subtle confusion/weakness without high '
-                                                       'fever — still urgent',
-                                                       'B) Always classic fever only',
-                                                       'C) Always well appearance',
-                                                       'D) Never sepsis'],
-                                           'answer': 'A) Subtle confusion/weakness without high '
+                                           'explanation': 'Hip fracture after a fall commonly '
+                                                          'produces occult blood loss, severe '
+                                                          'pain-related hypoventilation, and '
+                                                          'neurovascular compromise of the limb, '
+                                                          'with high subsequent morbidity in frail '
+                                                          'elders. ABC assessment, analgesia, '
+                                                          'proper immobilization, and '
+                                                          'neurovascular checks stabilize the '
+                                                          'patient while urgent orthopedic care is '
+                                                          'arranged. Early physiologic support '
+                                                          'influences both survival and functional '
+                                                          'recovery.'},
+                                          {'question': 'Sepsis in frail elder may present as?',
+                                           'options': ['A) High fever must be present before '
+                                                       'sepsis is considered',
+                                                       'B) Confusion can be dismissed as normal '
+                                                       'aging',
+                                                       'C) Weakness without fever never warrants '
+                                                       'urgent workup',
+                                                       'D) Subtle confusion/weakness without high '
+                                                       'fever — still urgent'],
+                                           'answer': 'D) Subtle confusion/weakness without high '
                                                      'fever — still urgent',
-                                           'explanation': 'Frailty and immunosenescence blunt classic febrile responses, so sepsis in older adults may appear only as subtle confusion, weakness, or functional collapse without high fever. The same dysregulated infection physiology still progresses to shock and organ failure. A low threshold for urgent evaluation prevents under-triage of life-threatening infection.'},
-                                          {'question': 'In a high-stakes nursing scenario with '
-                                                       'incomplete data, which statement is MOST '
-                                                       'correct? Advance directive conflict at '
-                                                       'EOL? Avoid actions that could harm if a '
-                                                       'critical risk remains open.',
+                                           'explanation': 'Frailty and immunosenescence blunt '
+                                                          'classic febrile responses, so sepsis in '
+                                                          'older adults may appear only as subtle '
+                                                          'confusion, weakness, or functional '
+                                                          'collapse without high fever. The same '
+                                                          'dysregulated infection physiology still '
+                                                          'progresses to shock and organ failure. '
+                                                          'A low threshold for urgent evaluation '
+                                                          'prevents under-triage of '
+                                                          'life-threatening infection.'},
+                                          {'question': 'Advance directive conflict at EOL?',
                                            'options': ['A) Follow valid patient wishes/legal '
                                                        'documents with ethics/team support',
-                                                       'B) Nurse overrides alone always',
-                                                       'C) Ignore proxy',
-                                                       'D) Hide documents'],
+                                                       'B) Let the loudest family member override '
+                                                       'valid directives',
+                                                       'C) Ignore advance directives if staff '
+                                                       'disagree personally',
+                                                       'D) Start all aggressive interventions '
+                                                       'despite a clear refusal document'],
                                            'answer': 'A) Follow valid patient wishes/legal '
                                                      'documents with ethics/team support',
-                                           'explanation': 'Valid advance directives and legally designated proxies express the patient’s autonomous goals when the patient can no longer speak. When conflict arises at end of life, ethics and interdisciplinary support help interpret documents and reconcile family distress with those known wishes. Care then follows the patient’s values rather than clinician or family preference alone.'}]},
+                                           'explanation': 'Valid advance directives and legally '
+                                                          'designated proxies express the '
+                                                          'patient’s autonomous goals when the '
+                                                          'patient can no longer speak. When '
+                                                          'conflict arises at end of life, ethics '
+                                                          'and interdisciplinary support help '
+                                                          'interpret documents and reconcile '
+                                                          'family distress with those known '
+                                                          'wishes. Care then follows the patient’s '
+                                                          'values rather than clinician or family '
+                                                          'preference alone.'}]},
                 'cases': {'easy': [{'title': 'New Confusion',
                                     'stem': '85-year-old newly confused; no fever noted.',
                                     'question': 'Priority differentials theme?',
