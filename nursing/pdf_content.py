@@ -312,7 +312,7 @@ def _section(label: str, figure_name: str, books: str) -> list[dict]:
             "title": "5. Checklist and book anchors",
             "paras": [
                 "Checklist: ABC/safety → focused assessment → intervene → reassess → communicate.",
-                "After reading, practice with bot MCQs and cases for active recall.",
+                "After reading, practice with the MCQs and cases for active recall.",
                 f"Primary references: {books}.",
             ],
         },

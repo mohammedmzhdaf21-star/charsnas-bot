@@ -121,7 +121,7 @@ def build_story(specialty_key: str) -> list:
     story.append(Spacer(1, 2.5 * cm))
     story.append(Paragraph(f"Undergraduate Medicine", styles["subtitle"]))
     story.append(Paragraph(f"{data['label']} Study Pack", styles["cover"]))
-    story.append(Paragraph("CharaNas Medicine Bot — Specialty Notes", styles["subtitle"]))
+    story.append(Paragraph("CharaNas Medicine — Specialty Notes", styles["subtitle"]))
     story.append(
         Paragraph(
             "Expanded notes with original schematic figures for revision. "
@@ -135,7 +135,7 @@ def build_story(specialty_key: str) -> list:
     rows = [["Section", "Focus"]]
     for i, section in enumerate(sections, start=1):
         rows.append([str(i), section["title"].split(". ", 1)[-1]])
-    rows.append([str(len(sections) + 1), "Quick pearls from the bot notes"])
+    rows.append([str(len(sections) + 1), "Quick pearls from these notes"])
     rows.append([str(len(sections) + 2), "Recommended book sources"])
     table = Table(rows, colWidths=[2.2 * cm, 13 * cm])
     table.setStyle(
@@ -186,7 +186,7 @@ def build_story(specialty_key: str) -> list:
     story.append(Paragraph(f"{len(sections) + 1}. Quick pearls", styles["h1"]))
     story.append(
         Paragraph(
-            "High-yield reminders packaged with this specialty in the CharaNas bot:",
+            "High-yield reminders packaged with this specialty in CharaNas:",
             styles["body"],
         )
     )
@@ -195,7 +195,7 @@ def build_story(specialty_key: str) -> list:
     for extra in [
         "Link symptoms → anatomy/physiology → investigation → first management step.",
         "Write one OSCE-style explanation for a common presentation in this specialty.",
-        "After reading, do the bot Short MCQ and Case-based Question for active recall.",
+        "After reading, do the Short MCQ and Case-based Question for active recall.",
     ]:
         story.append(Paragraph(f"• {extra}", styles["bullet"]))
     story.append(PageBreak())
@@ -231,7 +231,7 @@ def build_story(specialty_key: str) -> list:
     story.append(
         Paragraph(
             "How to study with this PDF: read one section → sketch the figure from memory → "
-            "answer bot MCQs/cases → review mistakes → revisit the matching section.",
+            "answer the MCQs/cases → review mistakes → revisit the matching section.",
             styles["body"],
         )
     )
@@ -255,7 +255,7 @@ def write_specialty_pdf(path: Path, specialty_key: str) -> None:
         topMargin=1.8 * cm,
         bottomMargin=2 * cm,
         title=f"UG Medicine — {SPECIALTIES[specialty_key]['label']}",
-        author="CharaNas Medicine Bot",
+        author="CharaNas Medicine",
     )
     doc.build(build_story(specialty_key), onFirstPage=_header_footer, onLaterPages=_header_footer)
 

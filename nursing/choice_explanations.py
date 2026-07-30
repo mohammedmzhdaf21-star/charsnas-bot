@@ -212,15 +212,8 @@ def _concept_note(text: str) -> str:
 
 
 def _scientific_correct(choice: str, explanation: str, question: str) -> str:
-    exp = _trim(explanation, 420)
-    if exp:
-        return exp
-    note = _concept_note(choice) or _concept_note(question)
-    if note:
-        return note
-    return (
-        f"“{choice}” matches the accepted definition/mechanism of the concept asked in the stem."
-    )
+    # Do not restate the bank scientific explanation here — it is already shown above.
+    return "This is the correct answer."
 
 
 def _scientific_wrong(
@@ -230,31 +223,11 @@ def _scientific_wrong(
     question: str,
 ) -> str:
     note = _concept_note(choice)
-    correct_note = _concept_note(correct_choice) or _concept_note(question)
-    exp = _trim(explanation, 200)
-
-    if note and correct_note:
-        return (
-            f"{note} That is why it is incorrect here. "
-            f"The right answer is {correct_choice}: {correct_note}"
-        )
-    if note and exp:
-        return (
-            f"{note} Therefore it does not answer this stem. "
-            f"{correct_choice} is correct because {exp}"
-        )
     if note:
-        return (
-            f"{note} The stem instead requires {correct_choice}."
-        )
-    if exp:
-        return (
-            f"“{choice}” does not match the mechanism/definition being tested. "
-            f"{correct_choice} is correct because {exp}"
-        )
+        return f"{note} So this option is incorrect; the correct answer is {correct_choice}."
     return (
         f"“{choice}” describes a different structure, function, diagnosis, or treatment "
-        f"than the one required. The scientifically correct answer is {correct_choice}."
+        f"than the one required. The correct answer is {correct_choice}."
     )
 
 

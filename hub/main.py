@@ -204,7 +204,7 @@ def link_keyboard(dept: dict) -> InlineKeyboardMarkup:
     rows = [
         [
             InlineKeyboardButton(
-                f"کردنەوەی بۆتی {dept['label']}",
+                f"کردنەوەی {dept['label']}",
                 url=bot_url(dept["username"]),
             )
         ]
@@ -216,7 +216,7 @@ def link_keyboard(dept: dict) -> InlineKeyboardMarkup:
         rows.append([InlineKeyboardButton(f"زیادکردنی فۆڵدەری {FOLDER_NAME}", url=furl)])
     if camp:
         rows.append(
-            [InlineKeyboardButton("کردنەوەی گرووپی کەمپەس (بۆتەکان تێیدان)", url=camp)]
+            [InlineKeyboardButton("کردنەوەی گرووپی کەمپەس (بەرنامەکانی خوێندن تێیدان)", url=camp)]
         )
     if curl and not furl:
         rows.append([InlineKeyboardButton("بەشداری لە کەناڵی چاراناس", url=curl)])
@@ -237,7 +237,7 @@ def start_extra_keyboard() -> InlineKeyboardMarkup | None:
     if furl:
         rows.append([InlineKeyboardButton(f"زیادکردنی فۆڵدەری {FOLDER_NAME}", url=furl)])
     if camp:
-        rows.append([InlineKeyboardButton("گرووپی کەمپەس (بۆتەکان لێرەن)", url=camp)])
+        rows.append([InlineKeyboardButton("گرووپی کەمپەس (بەرنامەکانی خوێندن لێرەن)", url=camp)])
     if curl:
         label = "بەشداری لە کەناڵ" if furl or camp else "بەشداری لە کەناڵی چاراناس"
         rows.append([InlineKeyboardButton(label, url=curl)])
@@ -268,16 +268,16 @@ def welcome_text() -> str:
         lines.append(f"  {d['blurb']}")
         lines.append("")
     if folder_url() or campus_url():
-        lines.append("ڕێکخستنی فۆڵدەر: کەناڵ + گرووپی کەمپەس (بۆتەکان ئەندامی گرووپەکەن).")
+        lines.append("ڕێکخستنی فۆڵدەر: کەناڵ + گرووپی کەمپەس (بەرنامەکانی خوێندن ئەندامی گرووپەکەن).")
         lines.append(
-            f"دوگمەی «{BTN_FOLDER}» لێدە بۆ بەستەری زیادکردن و شێوازی هێشتنی بۆتەکان لە فۆڵدەر."
+            f"دوگمەی «{BTN_FOLDER}» لێدە بۆ بەستەری زیادکردن و شێوازی هێشتنی بەرنامەکانی خوێندن لە فۆڵدەر."
         )
         lines.append("")
     elif REQUIRE_CHANNEL and channel_url():
-        lines.append("🔒 بەشداری کەناڵ (@chara_nas) واجبە — بەبێ ئەوە بۆت ناکرێتەوە.")
+        lines.append("🔒 بەشداری کەناڵ (@chara_nas) واجبە — بەبێ ئەوە بەرنامە ناکرێتەوە.")
         lines.append("")
     if REQUIRE_CHANNEL and not (folder_url() or campus_url() or channel_url()):
-        lines.append("⚠️ بەشداری کەناڵ پێویستە پێش کردنەوەی هەر بۆتێک.")
+        lines.append("⚠️ بەشداری کەناڵ پێویستە پێش کردنەوەی هەر بەرنامەیەک.")
         lines.append("")
     lines.append("دوگمەی بوارێک لە خوارەوە لێدە.")
     return "\n".join(lines)
@@ -287,15 +287,15 @@ def folder_howto_text() -> str:
     lines = [
         f"فۆڵدەری {FOLDER_NAME} چۆن کاردەکات",
         "",
-        "تێلێگرام ڕێگە نادات گفتوگۆی بۆت لەناو بانگەوازی فۆڵدەری هاوبەش دابنرێت.",
+        "تێلێگرام ڕێگە نادات گفتوگۆی بەرنامەکە لەناو بانگەوازی فۆڵدەری هاوبەش دابنرێت.",
         "بۆیە ئەم ڕێگەکارە بەکاردەهێنین:",
         "",
         "١) فۆڵدەری هاوبەش = کەناڵ + گرووپی کەمپەس",
-        "٢) هەموو بۆتەکانی خوێندن ئەندام/بەڕێوەبەری گرووپی کەمپەسن",
-        "   ← کردنەوەی فۆڵدەر گرووپەکە پیشان دەدات ← بۆتەکان تێیدان",
-        "٣) دوای کردنەوەی بۆتی بەشێک جارێک، ئەو بۆتە زیاد بکە بۆ",
+        "٢) هەموو بەرنامەکانی خوێندن ئەندام/بەڕێوەبەری گرووپی کەمپەسن",
+        "   ← کردنەوەی فۆڵدەر گرووپەکە پیشان دەدات ← بەرنامەکانی خوێندن تێیدان",
+        "٣) دوای کردنەوەی بەرنامەی بەشێک جارێک، ئەو بەرنامەیە زیاد بکە بۆ",
         f"   فۆڵدەری {FOLDER_NAME} لە مۆبایلەکەت (دەستکاری فۆڵدەر ← چاتەکان)",
-        "   ← ئەوکات بۆتەکە وەک گفتوگۆیەکی سەربەخۆش لە تابەکە دەردەکەوێت",
+        "   ← ئەوکات بەرنامەکە وەک گفتوگۆیەکی سەربەخۆش لە تابەکە دەردەکەوێت",
         "",
     ]
     if folder_url():
@@ -306,7 +306,7 @@ def folder_howto_text() -> str:
         lines.append(f"گرووپی کەمپەس: {campus_url()}")
     else:
         lines.append(
-            "گرووپی کەمپەس: هێشتا دانەنراوە (بەڕێوەبەر: گرووپ دروست بکە، بۆتەکان زیاد بکە، CAMPUS_GROUP_INVITE دابنێ)."
+            "گرووپی کەمپەس: هێشتا دانەنراوە (بەڕێوەبەر: گرووپ دروست بکە، بەرنامەکانی خوێندن زیاد بکە، CAMPUS_GROUP_INVITE دابنێ)."
         )
     if channel_url():
         lines.append(f"کەناڵ: {channel_url()}")
@@ -315,10 +315,10 @@ def folder_howto_text() -> str:
             "",
             "پێڕستی ڕێکخستن بۆ بەڕێوەبەر:",
             "١. گرووپ دروست بکە: کەمپەسی چاراناس",
-            "٢. وەک بەڕێوەبەر زیاد بکە: بۆتی ناوەند + پزیشکی + پزیشکی ددان + دەرمانسازی + تاقیگە + پەرستاری",
+            "٢. وەک بەڕێوەبەر زیاد بکە: بەرنامەی ناوەند + پزیشکی + پزیشکی ددان + دەرمانسازی + تاقیگە + پەرستاری",
             "٣. ڕێکخستنەکان ← فۆڵدەری چات ← فۆڵدەری نوێ ← کەناڵ + گرووپی کەمپەس زیاد بکە",
             "٤. فۆڵدەر هاوبەش بکە ← بەستەری https://t.me/addlist/... کۆپی بکە",
-            "٥. FOLDER_INVITE_LINK و CAMPUS_GROUP_INVITE لە hub/.env دابنێ و بۆتەکە دەستپێبکەرەوە",
+            "٥. FOLDER_INVITE_LINK و CAMPUS_GROUP_INVITE لە hub/.env دابنێ و بەرنامەکە دەستپێبکەرەوە",
         ]
     )
     return "\n".join(lines)
@@ -326,12 +326,12 @@ def folder_howto_text() -> str:
 
 def bot_in_folder_tip(dept: dict) -> str:
     return (
-        f"بۆتی @{dept['username']} لە فۆڵدەری {FOLDER_NAME} بهێڵەرەوە:\n"
-        f"١) بۆتەکە بکەرەوە (دوگمەی سەرەوە)\n"
+        f"بەرنامەی @{dept['username']} لە فۆڵدەری {FOLDER_NAME} بهێڵەرەوە:\n"
+        f"١) بەرنامەکە بکەرەوە (دوگمەی سەرەوە)\n"
         f"٢) تێلێگرام ← ڕێکخستنەکان ← فۆڵدەری چات ← {FOLDER_NAME}\n"
         f"٣) چاتەکان ← @{dept['username']} زیاد بکە\n\n"
-        "ئەمە شێوازی دەرکەوتنی گفتوگۆی بۆتە لە تابەکەی فۆڵدەر "
-        "(بانگەوازی فۆڵدەری هاوبەش ڕاستەوخۆ بۆت وەرناگرێت)."
+        "ئەمە شێوازی دەرکەوتنی گفتوگۆی بەرنامەکە لە تابەکەی فۆڵدەر "
+        "(بانگەوازی فۆڵدەری هاوبەش ڕاستەوخۆ بەرنامە وەرناگرێت)."
     )
 
 
@@ -369,10 +369,10 @@ def extract_forwarded_channel(message) -> object | None:
 
 def gate_blocked_text(dept_label: str) -> str:
     return (
-        f"🔒 بۆ کردنەوەی بۆتی «{dept_label}» دەبێت بەشداری کەناڵ بکەیت.\n\n"
+        f"🔒 بۆ کردنەوەی بەرنامەی «{dept_label}» دەبێت بەشداری کەناڵ بکەیت.\n\n"
         "١) دوگمەی خوارەوە لێدە و بەشداری @chara_nas بکە\n"
         "٢) بگەڕێرەوە و «بەشداریم کرد ✅» لێدە\n\n"
-        "بەبێ بەشداری، بۆتەکە ناکرێتەوە."
+        "بەبێ بەشداری، بەرنامەکە ناکرێتەوە."
     )
 
 
@@ -455,7 +455,7 @@ async def user_may_open_bots(context: ContextTypes.DEFAULT_TYPE, user_id: int) -
 async def send_department_link(update: Update, dept: dict) -> None:
     await safe_reply(
         update,
-        f"بۆتی {dept['label']}\n@{dept['username']}\n\n{dept['blurb']}\n\n"
+        f"بەرنامەی {dept['label']}\n@{dept['username']}\n\n{dept['blurb']}\n\n"
         "بۆ کردنەوەی، دوگمەی خوارەوە لێدە:",
         reply_markup=link_keyboard(dept),
     )
@@ -517,7 +517,7 @@ async def folder_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None
 async def ping(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await safe_reply(
         update,
-        "بۆتی ناوەندی پەروەردەی چاراناس کاراە. /start بنێرە بۆ هەڵبژاردنی بوار.",
+        "ناوەندی پەروەردەی چاراناس کارایە. /start بنێرە بۆ هەڵبژاردنی بوار.",
     )
 
 
@@ -552,7 +552,7 @@ async def set_channel_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
             "⚠️ بۆ کارکردنی دەروازە، ناسنامەی کەناڵ پێویستە.\n\n"
             "ڕێگای ئاسان:\n"
             "١) @Charanaseducenter_bot بکە بەڕێوەبەری کەناڵ\n"
-            "٢) پەیامێک لە ناو کەناڵ فۆروارد بکە بۆ ئەم بۆتە\n"
+            "٢) پەیامێک لە ناو کەناڵ فۆروارد بکە بۆ ئەم بەرنامەیە\n"
             "٣) وەڵامی بدەرەوە: /set_channel\n\n"
             "یان:\n"
             "پەیامێکی کەناڵ فۆروارد بکە بۆ @userinfobot و ژمارەی -100... لێرە بنێرە:\n"
@@ -567,7 +567,7 @@ async def set_channel_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
         f"✅ کەناڵ تۆمارکرا.\n"
         f"ناو: {title}\n"
         f"ناسنامە: {channel.id}\n\n"
-        "ئێستا خوێندکار دوای بەشداری دەتوانێت بۆتی بوار بکاتەوە.",
+        "ئێستا خوێندکار دوای بەشداری دەتوانێت بەرنامەی بوار بکاتەوە.",
     )
 
 
@@ -590,8 +590,8 @@ async def post_campus_menu(update: Update, context: ContextTypes.DEFAULT_TYPE) -
         rows.append([InlineKeyboardButton(f"زیادکردنی فۆڵدەری {FOLDER_NAME}", url=folder_url())])
     text = (
         f"مێنیوی کەمپەسی {FOLDER_NAME}\n\n"
-        "بۆتەکانی ئەم گرووپە بەشی فۆڵدەری هاوبەشن.\n"
-        "بوارێک لێدە بۆ کردنەوەی بۆتی خوێندن لە چاتی تایبەت:"
+        "بەرنامەکانی خوێندن ئەم گرووپە بەشی فۆڵدەری هاوبەشن.\n"
+        "بوارێک لێدە بۆ کردنەوەی بەرنامەی خوێندن لە چاتی تایبەت:"
     )
     try:
         await context.bot.send_message(
@@ -606,7 +606,7 @@ async def post_campus_menu(update: Update, context: ContextTypes.DEFAULT_TYPE) -
         await safe_reply(
             update,
             f"نەتوانرا بۆ گرووپی کەمپەس بنێردرێت: {exc}\n"
-            "دڵنیابە بۆتی ناوەند بەڕێوەبەری گرووپەکەیە.",
+            "دڵنیابە بەرنامەی ناوەند بەڕێوەبەری گرووپەکەیە.",
         )
 
 
@@ -662,9 +662,9 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         return
 
     async def open_dept(dept: dict, thanks: bool = False) -> None:
-        prefix = "سوپاس! ئێستا دەتوانیت بۆتەکە بکەیتەوە.\n\n" if thanks else ""
+        prefix = "سوپاس! ئێستا دەتوانیت بەرنامەکە بکەیتەوە.\n\n" if thanks else ""
         await query.edit_message_text(
-            f"{prefix}بۆتی {dept['label']}\n@{dept['username']}\n\n{dept['blurb']}\n\n"
+            f"{prefix}بەرنامەی {dept['label']}\n@{dept['username']}\n\n{dept['blurb']}\n\n"
             "دوگمەی خوارەوە لێدە:"
         )
         await query.message.reply_text(

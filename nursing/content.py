@@ -1853,7 +1853,7 @@ def format_book_sources(specialty_key: str) -> str:
 
 def specialty_menu_text() -> str:
     return (
-        "🔬 *CharaNas Nursing Bot*\n"
+        "🔬 *CharaNas Nursing*\n"
         "Undergraduate Nursing\n\n"
         "Choose a *specialty* first.\n"
         "Then open Short MCQ or Case-based Question and pick a difficulty:\n"

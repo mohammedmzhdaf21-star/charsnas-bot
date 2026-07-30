@@ -313,7 +313,7 @@ def _section(title_prefix: str, label: str, figure_name: str, books: str) -> lis
             "title": "5. Checklist and book anchors",
             "paras": [
                 "Checklist: ID → specimen integrity → method/QC → interpret → report/escalate.",
-                "After reading, practice with bot MCQs and cases for active recall.",
+                "After reading, practice with the MCQs and cases for active recall.",
                 f"Primary references: {books}.",
             ],
         },

@@ -1854,7 +1854,7 @@ def format_book_sources(specialty_key: str) -> str:
 
 def specialty_menu_text() -> str:
     return (
-        "🩺 *CharaNas Dentistry Bot*\n"
+        "🩺 *CharaNas Dentistry*\n"
         "Undergraduate Dentistry Department\n\n"
         "Choose a *specialty* first.\n"
         "Then open Short MCQ or Case-based Question and pick a difficulty:\n"

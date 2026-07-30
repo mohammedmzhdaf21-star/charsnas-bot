@@ -443,19 +443,6 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         label = specialty_label(specialty_key)
         result = format_question_result(item, choice, label, difficulty)
         await safe_edit(query, result)
-        # Follow-up message guarantees the full answer is visible
-        import sys
-        from pathlib import Path as _P
-        _root = _P(__file__).resolve().parent
-        if (_root.parent / "telegram_text.py").exists():
-            sys.path.insert(0, str(_root.parent))
-        elif (_root / "telegram_text.py").exists():
-            sys.path.insert(0, str(_root))
-        from telegram_text import send_full_text, strip_markdown_markers
-        await send_full_text(
-            query.message,
-            "📄 Full answer:\n\n" + strip_markdown_markers(result),
-        )
         return
 
     if data.startswith("c:"):
@@ -474,23 +461,11 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         label = specialty_label(specialty_key)
         result = format_case_result(item, label, difficulty)
         await safe_edit(query, result)
-        import sys
-        from pathlib import Path as _P
-        _root = _P(__file__).resolve().parent
-        if (_root.parent / "telegram_text.py").exists():
-            sys.path.insert(0, str(_root.parent))
-        elif (_root / "telegram_text.py").exists():
-            sys.path.insert(0, str(_root))
-        from telegram_text import send_full_text, strip_markdown_markers
-        await send_full_text(
-            query.message,
-            "📄 Full answer:\n\n" + strip_markdown_markers(result),
-        )
         return
 
 
 async def ping(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await safe_reply(update, "✅ MLS bot is online. Send /start to open the specialty menu.")
+    await safe_reply(update, "✅ CharaNas MLS is online. Send /start to open the specialty menu.")
 
 
 async def on_error(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
