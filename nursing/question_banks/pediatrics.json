@@ -5,12 +5,12 @@
       "question": "Which of the following best defines pediatric med weight dose?",
       "options": [
         "A) Give the full adult tablet dose to a toddler if the indication matches",
-        "B) Calculate pediatric doses by weight (mg/kg) with safe range checks",
-        "C) Spray MDI across the room toward a crying toddler without spacer as adequate dosing",
+        "B) Calculate pediatric doses by weight (milligrams/kilograms) with safe range checks",
+        "C) Spray metered-dose inhaler across the room toward a crying toddler without spacer as adequate dosing",
         "D) Cover sites heavily and ignore checks because children cry anyway"
       ],
-      "answer": "B) Calculate pediatric doses by weight (mg/kg) with safe range checks",
-      "explanation": "Children’s volumes of distribution and clearance require weight-based dosing. Therefore, the most accurate choice is: Calculate pediatric doses by weight (mg/kg) with safe range checks. Adult doses in toddlers cause toxicity—classic .",
+      "answer": "B) Calculate pediatric doses by weight (milligrams/kilograms) with safe range checks",
+      "explanation": "Children’s volumes of distribution and clearance require weight-based dosing. Therefore, the most accurate choice is: Calculate pediatric doses by weight (milligrams/kilograms) with safe range checks. Adult doses in toddlers cause toxicity—classic .",
       "choice_explanations": {
         "A": "Adult doses in toddlers cause toxicity—classic near-miss. It is less consistent than the correct choice.",
         "B": "Children’s volumes of distribution and clearance require weight-based dosing. This matches the correct interpretation.",
@@ -20,15 +20,15 @@
     },
     {
       "id": "pediatrics:easy:1",
-      "question": "Which finding is expected in FLACC pain scale?",
+      "question": "Which finding is expected in Face Legs Activity Cry Consolability pain scale pain scale?",
       "options": [
         "A) Use Faces scale as the only tool for deeply sedated ventilated infants without behavior scales",
-        "B) Use FLACC for nonverbal young children to score Face/Legs/Activity/Cry/Consolability",
+        "B) Use Face Legs Activity Cry Consolability pain scale for nonverbal young children to score Face/Legs/Activity/Cry/Consolability",
         "C) Rely only on a 0–10 numeric self-report from a preverbal infant",
         "D) Perform Heimlich abdominal thrusts on a young infant as first-line"
       ],
-      "answer": "B) Use FLACC for nonverbal young children to score Face/Legs/Activity/Cry/Consolability",
-      "explanation": "Behavioral scales estimate pain when self-report is impossible. Therefore, the most accurate choice is: Use FLACC for nonverbal young children to score Face/Legs/Activity/Cry/Consolability. Numeric self-report is invalid in preverbal infants—.",
+      "answer": "B) Use Face Legs Activity Cry Consolability pain scale for nonverbal young children to score Face/Legs/Activity/Cry/Consolability",
+      "explanation": "Behavioral scales estimate pain when self-report is impossible. Therefore, the most accurate choice is: Use Face Legs Activity Cry Consolability pain scale for nonverbal young children to score Face/Legs/Activity/Cry/Consolability. Numeric self-report is invalid in preverbal infants—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Behavioral scales estimate pain when self-report is impossible. This matches the correct interpretation.",
@@ -59,7 +59,7 @@
       "question": "In pediatric airway anatomy, which of the following is correct?",
       "options": [
         "A) Apply adult rule of nines unchanged for infants without modification awareness",
-        "B) Use two-hand adult CPR depth on a neonate as first technique",
+        "B) Use two-hand adult cardiopulmonary resuscitation depth on a neonate as first technique",
         "C) Infants have large occiputs/tongues—neutral sniffing alignment and careful positioning",
         "D) Hyperextend an infant’s neck maximally like an adult intubation position as default"
       ],
@@ -74,15 +74,15 @@
     },
     {
       "id": "pediatrics:easy:4",
-      "question": "Which of the following best describes infant CPR compression?",
+      "question": "Which of the following best describes infant cardiopulmonary resuscitation compression?",
       "options": [
-        "A) Use two-hand adult CPR depth on a neonate as first technique",
+        "A) Use two-hand adult cardiopulmonary resuscitation depth on a neonate as first technique",
         "B) Hold children down without explanation or comfort measures as first approach always",
-        "C) Use two-finger or two-thumb encircling techniques per BLS guidelines for infants",
+        "C) Use two-finger or two-thumb encircling techniques per basic life support guidelines for infants",
         "D) Apply adult rule of nines unchanged for infants without modification awareness"
       ],
-      "answer": "C) Use two-finger or two-thumb encircling techniques per BLS guidelines for infants",
-      "explanation": "Age-appropriate compression technique optimizes coronary perfusion without trauma. Therefore, the most accurate choice is: Use two-finger or two-thumb encircling techniques per BLS guidelines for infants. Adult force on neonates risks injury—.",
+      "answer": "C) Use two-finger or two-thumb encircling techniques per basic life support guidelines for infants",
+      "explanation": "Age-appropriate compression technique optimizes coronary perfusion without trauma. Therefore, the most accurate choice is: Use two-finger or two-thumb encircling techniques per basic life support guidelines for infants. Adult force on neonates risks injury—.",
       "choice_explanations": {
         "A": "Adult force on neonates risks injury—near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -94,13 +94,13 @@
       "id": "pediatrics:easy:5",
       "question": "Select the correct statement about choking infant.",
       "options": [
-        "A) Use two-hand adult CPR depth on a neonate as first technique",
-        "B) Back blows and chest thrusts for severe infant FBAO—no abdominal thrusts",
+        "A) Use two-hand adult cardiopulmonary resuscitation depth on a neonate as first technique",
+        "B) Back blows and chest thrusts for severe infant foreign-body airway obstruction—no abdominal thrusts",
         "C) Rely only on a 0–10 numeric self-report from a preverbal infant",
         "D) Perform Heimlich abdominal thrusts on a young infant as first-line"
       ],
-      "answer": "B) Back blows and chest thrusts for severe infant FBAO—no abdominal thrusts",
-      "explanation": "Infant abdominal thrusts risk organ injury; back blows/chest thrusts are indicated. Therefore, the most accurate choice is: Back blows and chest thrusts for severe infant FBAO—no abdominal thrusts. Adult Heimlich on infants is a technique .",
+      "answer": "B) Back blows and chest thrusts for severe infant foreign-body airway obstruction—no abdominal thrusts",
+      "explanation": "Infant abdominal thrusts risk organ injury; back blows/chest thrusts are indicated. Therefore, the most accurate choice is: Back blows and chest thrusts for severe infant foreign-body airway obstruction—no abdominal thrusts. Adult Heimlich on infants is a technique .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Infant abdominal thrusts risk organ injury; back blows/chest thrusts are indicated. This matches the correct interpretation.",
@@ -114,11 +114,11 @@
       "options": [
         "A) A bulging fontanel with fever/irritability is always ignored as normal crying",
         "B) Assume playful behavior always excludes significant dehydration",
-        "C) Sunken fontanel may suggest dehydration; bulging with illness can suggest ↑ICP/infection",
+        "C) Sunken fontanel may suggest dehydration; bulging with illness can suggest ↑intracranial pressure/infection",
         "D) Force acidic juices on open oral ulcers and skip hydration assessment"
       ],
-      "answer": "C) Sunken fontanel may suggest dehydration; bulging with illness can suggest ↑ICP/infection",
-      "explanation": "Fontanel tension reflects hydration and intracranial pressure trends. Therefore, the most accurate choice is: Sunken fontanel may suggest dehydration; bulging with illness can suggest ↑ICP/infection. Dismissing a bulging fontanel with fever misses meningitis urgency—.",
+      "answer": "C) Sunken fontanel may suggest dehydration; bulging with illness can suggest ↑intracranial pressure/infection",
+      "explanation": "Fontanel tension reflects hydration and intracranial pressure trends. Therefore, the most accurate choice is: Sunken fontanel may suggest dehydration; bulging with illness can suggest ↑intracranial pressure/infection. Dismissing a bulging fontanel with fever misses meningitis urgency—.",
       "choice_explanations": {
         "A": "Dismissing a bulging fontanel with fever misses meningitis urgency—near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -149,15 +149,15 @@
       "question": "Which of the following is true of oral rehydration therapy?",
       "options": [
         "A) Allow small wheat exposures as ‘desensitization’ without medical plan",
-        "B) Use ORS for mild–moderate dehydration; small frequent amounts",
-        "C) Replace ORS with only soda and fruit juice for moderate dehydration teaching",
+        "B) Use oral rehydration solution for mild–moderate dehydration; small frequent amounts",
+        "C) Replace oral rehydration solution with only soda and fruit juice for moderate dehydration teaching",
         "D) Use only abstract statistics without demonstration for a 7-year-old’s procedure teaching"
       ],
-      "answer": "B) Use ORS for mild–moderate dehydration; small frequent amounts",
-      "explanation": "ORS replaces water and electrolytes in physiologic ratios. Therefore, the most accurate choice is: Use ORS for mild–moderate dehydration; small frequent amounts. Hypotonic sugary drinks worsen diarrhea electrolyte issues—.",
+      "answer": "B) Use oral rehydration solution for mild–moderate dehydration; small frequent amounts",
+      "explanation": "oral rehydration solution replaces water and electrolytes in physiologic ratios. Therefore, the most accurate choice is: Use oral rehydration solution for mild–moderate dehydration; small frequent amounts. Hypotonic sugary drinks worsen diarrhea electrolyte issues—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "ORS replaces water and electrolytes in physiologic ratios. This matches the correct interpretation.",
+        "B": "oral rehydration solution replaces water and electrolytes in physiologic ratios. This matches the correct interpretation.",
         "C": "Hypotonic sugary drinks worsen diarrhea electrolyte issues—near-miss. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -169,7 +169,7 @@
         "A) Use hypotonic D5W boluses for hypovolemic shock as first fluid",
         "B) Isotonic crystalloid boluses as ordered for shock; reassess perfusion",
         "C) Perform Heimlich abdominal thrusts on a young infant as first-line",
-        "D) Use two-hand adult CPR depth on a neonate as first technique"
+        "D) Use two-hand adult cardiopulmonary resuscitation depth on a neonate as first technique"
       ],
       "answer": "B) Isotonic crystalloid boluses as ordered for shock; reassess perfusion",
       "explanation": "Isotonic volume expands intravascular space; hypotonic fluid leaves the vessel. Therefore, the most accurate choice is: Isotonic crystalloid boluses as ordered for shock; reassess perfusion. D5W bolus for shock is a dangerous .",
@@ -238,13 +238,13 @@
       "id": "pediatrics:easy:13",
       "question": "Select the correct statement about pediatric asthma spacer.",
       "options": [
-        "A) Use spacer/mask with MDI for young children; assess technique and action plan",
-        "B) Spray MDI across the room toward a crying toddler without spacer as adequate dosing",
+        "A) Use spacer/mask with metered-dose inhaler for young children; assess technique and action plan",
+        "B) Spray metered-dose inhaler across the room toward a crying toddler without spacer as adequate dosing",
         "C) Force noisy crowded waiting rooms without coping plan for sensory-sensitive children",
         "D) Apply adult rule of nines unchanged for infants without modification awareness"
       ],
-      "answer": "A) Use spacer/mask with MDI for young children; assess technique and action plan",
-      "explanation": "Spacers improve lung deposition when coordination is poor. Therefore, the most accurate choice is: Use spacer/mask with MDI for young children; assess technique and action plan. Open-air spraying wastes medication—.",
+      "answer": "A) Use spacer/mask with metered-dose inhaler for young children; assess technique and action plan",
+      "explanation": "Spacers improve lung deposition when coordination is poor. Therefore, the most accurate choice is: Use spacer/mask with metered-dose inhaler for young children; assess technique and action plan. Open-air spraying wastes medication—.",
       "choice_explanations": {
         "A": "Spacers improve lung deposition when coordination is poor. This matches the correct interpretation.",
         "B": "Open-air spraying wastes medication—near-miss. It is less consistent than the correct choice.",
@@ -254,19 +254,19 @@
     },
     {
       "id": "pediatrics:easy:14",
-      "question": "Which mechanism accounts for RSV isolation?",
+      "question": "Which mechanism accounts for respiratory syncytial virus isolation?",
       "options": [
-        "A) No precautions needed for RSV because it is ‘only a cold’",
-        "B) Urgent antibiotics/workup; droplet precautions as indicated; neuro/ICP watch; hearing follow-up awareness",
+        "A) No precautions needed for respiratory syncytial virus because it is ‘only a cold’",
+        "B) Urgent antibiotics/workup; droplet precautions as indicated; neuro/intracranial pressure watch; hearing follow-up awareness",
         "C) Contact (± droplet) precautions per policy; hand hygiene; cohorting rules",
         "D) Droplet precautions; treat/prophylaxis per guidelines; cough precautions teaching"
       ],
       "answer": "C) Contact (± droplet) precautions per policy; hand hygiene; cohorting rules",
-      "explanation": "RSV spreads readily on hands/fomites in pediatric units. Therefore, the most accurate choice is: Contact (± droplet) precautions per policy; hand hygiene; cohorting rules. Calling RSV harmless for infection control is a .",
+      "explanation": "respiratory syncytial virus spreads readily on hands/fomites in pediatric units. Therefore, the most accurate choice is: Contact (± droplet) precautions per policy; hand hygiene; cohorting rules. Calling respiratory syncytial virus harmless for infection control is a .",
       "choice_explanations": {
-        "A": "Calling RSV harmless for infection control is a near-miss. It is less consistent than the correct choice.",
+        "A": "Calling respiratory syncytial virus harmless for infection control is a near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "RSV spreads readily on hands/fomites in pediatric units. This matches the correct interpretation.",
+        "C": "respiratory syncytial virus spreads readily on hands/fomites in pediatric units. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -275,7 +275,7 @@
       "question": "Which of the following applies to pertussis droplet?",
       "options": [
         "A) Droplet precautions; treat/prophylaxis per guidelines; cough precautions teaching",
-        "B) No precautions needed for RSV because it is ‘only a cold’",
+        "B) No precautions needed for respiratory syncytial virus because it is ‘only a cold’",
         "C) Treat only one family member and continue bed-sharing untreated siblings",
         "D) Allow unmasked close face exposure of neonates to untreated coughing household contacts"
       ],
@@ -292,18 +292,18 @@
       "id": "pediatrics:easy:16",
       "question": "Which of the following is true about kawasaki cardiac watch?",
       "options": [
-        "A) Give MMR within days after high-dose IVIG without timing adjustment",
-        "B) Stop aspirin abruptly after IVIG day 1 without plan when still indicated",
-        "C) Aspirin/IVIG as ordered; monitor for coronary aneurysm risk; defer live vaccines per timing rules",
-        "D) Give live measles vaccine the day after IVIG without timing consideration"
+        "A) Give mismatch repair within days after high-dose intravenous immunoglobulin without timing adjustment",
+        "B) Stop aspirin abruptly after intravenous immunoglobulin day 1 without plan when still indicated",
+        "C) Aspirin/intravenous immunoglobulin as ordered; monitor for coronary aneurysm risk; defer live vaccines per timing rules",
+        "D) Give live measles vaccine the day after intravenous immunoglobulin without timing consideration"
       ],
-      "answer": "C) Aspirin/IVIG as ordered; monitor for coronary aneurysm risk; defer live vaccines per timing rules",
-      "explanation": "Coronary involvement drives follow-up; IVIG can interfere with live vaccine response. Therefore, the most accurate choice is: Aspirin/IVIG as ordered; monitor for coronary aneurysm risk; defer live vaccines per timing rules. Immediate live vaccines post-IVIG may fail—.",
+      "answer": "C) Aspirin/intravenous immunoglobulin as ordered; monitor for coronary aneurysm risk; defer live vaccines per timing rules",
+      "explanation": "Coronary involvement drives follow-up; intravenous immunoglobulin can interfere with live vaccine response. Therefore, the most accurate choice is: Aspirin/intravenous immunoglobulin as ordered; monitor for coronary aneurysm risk; defer live vaccines per timing rules. Immediate live vaccines post-intravenous immunoglobulin may fail—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Coronary involvement drives follow-up; IVIG can interfere with live vaccine response. This matches the correct interpretation.",
-        "D": "Immediate live vaccines post-IVIG may fail—near-miss. It is less consistent than the correct choice."
+        "C": "Coronary involvement drives follow-up; intravenous immunoglobulin can interfere with live vaccine response. This matches the correct interpretation.",
+        "D": "Immediate live vaccines post-intravenous immunoglobulin may fail—near-miss. It is less consistent than the correct choice."
       }
     },
     {
@@ -328,13 +328,13 @@
       "id": "pediatrics:easy:18",
       "question": "Which of the following statements about pediatric meningitis is correct?",
       "options": [
-        "A) Urgent antibiotics/workup; droplet precautions as indicated; neuro/ICP watch; hearing follow-up awareness",
+        "A) Urgent antibiotics/workup; droplet precautions as indicated; neuro/intracranial pressure watch; hearing follow-up awareness",
         "B) Allow unmasked close face exposure of neonates to untreated coughing household contacts",
         "C) Apply adult rule of nines unchanged for infants without modification awareness",
         "D) Delay antibiotics for hours awaiting perfect outpatient follow-up in febrile neonate lethargy"
       ],
-      "answer": "A) Urgent antibiotics/workup; droplet precautions as indicated; neuro/ICP watch; hearing follow-up awareness",
-      "explanation": "Neonates/infants decompensate rapidly; early therapy saves brain/life. Therefore, the most accurate choice is: Urgent antibiotics/workup; droplet precautions as indicated; neuro/ICP watch; hearing follow-up awareness. Delayed antibiotics in possible meningitis is a .",
+      "answer": "A) Urgent antibiotics/workup; droplet precautions as indicated; neuro/intracranial pressure watch; hearing follow-up awareness",
+      "explanation": "Neonates/infants decompensate rapidly; early therapy saves brain/life. Therefore, the most accurate choice is: Urgent antibiotics/workup; droplet precautions as indicated; neuro/intracranial pressure watch; hearing follow-up awareness. Delayed antibiotics in possible meningitis is a .",
       "choice_explanations": {
         "A": "Neonates/infants decompensate rapidly; early therapy saves brain/life. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -366,7 +366,7 @@
       "options": [
         "A) Give aspirin for influenza-like illness in a school-age child as routine antipyretic",
         "B) Avoid aspirin in children/teens with viral illness unless specifically indicated (e.g., Kawasaki)",
-        "C) Stop aspirin abruptly after IVIG day 1 without plan when still indicated",
+        "C) Stop aspirin abruptly after intravenous immunoglobulin day 1 without plan when still indicated",
         "D) Punish toddlers harshly for not cooperatively sharing like school-age children"
       ],
       "answer": "B) Avoid aspirin in children/teens with viral illness unless specifically indicated (e.g., Kawasaki)",
@@ -437,12 +437,12 @@
       "question": "Which of the following is true of pyloric stenosis?",
       "options": [
         "A) Force the infant upright screaming and withhold oxygen during a hypercyanotic spell",
-        "B) Projectile nonbilious vomiting, olive mass, dehydration/alkalosis—NPO, IV fluids, surgical pathway",
+        "B) Projectile nonbilious vomiting, olive mass, dehydration/alkalosis—nothing by mouth, intravenous fluids, surgical pathway",
         "C) Give hot red fluids and straws immediately then ignore continuous swallowing",
         "D) Force large feeds after each projectile vomit to ‘keep up’"
       ],
-      "answer": "B) Projectile nonbilious vomiting, olive mass, dehydration/alkalosis—NPO, IV fluids, surgical pathway",
-      "explanation": "Gastric outlet obstruction needs fluid/electrolyte correction before pyloromyotomy. Therefore, the most accurate choice is: Projectile nonbilious vomiting, olive mass, dehydration/alkalosis—NPO, IV fluids, surgical pathway. Forced feeding worsens losses—.",
+      "answer": "B) Projectile nonbilious vomiting, olive mass, dehydration/alkalosis—nothing by mouth, intravenous fluids, surgical pathway",
+      "explanation": "Gastric outlet obstruction needs fluid/electrolyte correction before pyloromyotomy. Therefore, the most accurate choice is: Projectile nonbilious vomiting, olive mass, dehydration/alkalosis—nothing by mouth, intravenous fluids, surgical pathway. Forced feeding worsens losses—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Gastric outlet obstruction needs fluid/electrolyte correction before pyloromyotomy. This matches the correct interpretation.",
@@ -474,11 +474,11 @@
       "options": [
         "A) Treat fever at home for 3 days before seeking care in asplenic sickle cell disease",
         "B) Withhold opioids from a dying child in severe pain fearing legal myths",
-        "C) Give enemas and heating pads for RLQ pain with fever in a child",
-        "D) Pain migration, fever, anorexia—NPO, no enemas; atypical locations common"
+        "C) Give enemas and heating pads for right lower quadrant pain with fever in a child",
+        "D) Pain migration, fever, anorexia—nothing by mouth, no enemas; atypical locations common"
       ],
-      "answer": "D) Pain migration, fever, anorexia—NPO, no enemas; atypical locations common",
-      "explanation": "Perforation risk rises with delayed care; enemas contraindicated. Therefore, the most accurate choice is: Pain migration, fever, anorexia—NPO, no enemas; atypical locations common. Enemas/heat are dangerous es.",
+      "answer": "D) Pain migration, fever, anorexia—nothing by mouth, no enemas; atypical locations common",
+      "explanation": "Perforation risk rises with delayed care; enemas contraindicated. Therefore, the most accurate choice is: Pain migration, fever, anorexia—nothing by mouth, no enemas; atypical locations common. Enemas/heat are dangerous es.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -506,7 +506,7 @@
     },
     {
       "id": "pediatrics:easy:28",
-      "question": "Which of the following best describes GER infant teaching?",
+      "question": "Which of the following best describes gastroesophageal reflux infant teaching?",
       "options": [
         "A) Recommend prone sleep on soft pillows to reduce spit-up",
         "B) Upright after feeds, smaller volumes, thickened feeds if ordered—not forced seated sleep against safe-sleep rules",
@@ -514,9 +514,9 @@
         "D) Allow a full meal 30 minutes before induction against guidelines"
       ],
       "answer": "B) Upright after feeds, smaller volumes, thickened feeds if ordered—not forced seated sleep against safe-sleep rules",
-      "explanation": "Reflux precautions must not violate safe sleep (back to sleep, firm surface). Therefore, the most accurate choice is: Upright after feeds, smaller volumes, thickened feeds if ordered—not forced seated sleep against safe-sleep rules. Prone/pillow sleep raises SIDS risk—.",
+      "explanation": "Reflux precautions must not violate safe sleep (back to sleep, firm surface). Therefore, the most accurate choice is: Upright after feeds, smaller volumes, thickened feeds if ordered—not forced seated sleep against safe-sleep rules. Prone/pillow sleep raises sudden infant death syndrome risk—.",
       "choice_explanations": {
-        "A": "Prone/pillow sleep raises SIDS risk—near-miss. It is less consistent than the correct choice.",
+        "A": "Prone/pillow sleep raises sudden infant death syndrome risk—near-miss. It is less consistent than the correct choice.",
         "B": "Reflux precautions must not violate safe sleep (back to sleep, firm surface). This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -524,7 +524,7 @@
     },
     {
       "id": "pediatrics:easy:29",
-      "question": "Select the correct statement about safe sleep SIDS.",
+      "question": "Select the correct statement about safe sleep sudden infant death syndrome.",
       "options": [
         "A) Back to sleep, firm flat surface, no soft bedding/shared bed hazards; room-share without bed-share per guidance",
         "B) Recommend prone sleep on soft pillows to reduce spit-up",
@@ -532,9 +532,9 @@
         "D) Force separation from caregivers for all minor procedures without need"
       ],
       "answer": "A) Back to sleep, firm flat surface, no soft bedding/shared bed hazards; room-share without bed-share per guidance",
-      "explanation": "Supine firm sleep environment reduces SIDS risk. Therefore, the most accurate choice is: Back to sleep, firm flat surface, no soft bedding/shared bed hazards; room-share without bed-share per guidance. Prone soft bedding is a deadly .",
+      "explanation": "Supine firm sleep environment reduces sudden infant death syndrome risk. Therefore, the most accurate choice is: Back to sleep, firm flat surface, no soft bedding/shared bed hazards; room-share without bed-share per guidance. Prone soft bedding is a deadly .",
       "choice_explanations": {
-        "A": "Supine firm sleep environment reduces SIDS risk. This matches the correct interpretation.",
+        "A": "Supine firm sleep environment reduces sudden infant death syndrome risk. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Prone soft bedding is a deadly near-miss. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -546,13 +546,13 @@
       "id": "pediatrics:medium:0",
       "question": "Which of the following correctly describes pediatric med weight dose in clinical use?",
       "options": [
-        "A) Spray MDI across the room toward a crying toddler without spacer as adequate dosing",
-        "B) Calculate pediatric doses by weight (mg/kg) with safe range checks",
+        "A) Spray metered-dose inhaler across the room toward a crying toddler without spacer as adequate dosing",
+        "B) Calculate pediatric doses by weight (milligrams/kilograms) with safe range checks",
         "C) Give the full adult tablet dose to a toddler if the indication matches",
         "D) Cover sites heavily and ignore checks because children cry anyway"
       ],
-      "answer": "B) Calculate pediatric doses by weight (mg/kg) with safe range checks",
-      "explanation": "Children’s volumes of distribution and clearance require weight-based dosing. Therefore, the most accurate choice is: Calculate pediatric doses by weight (mg/kg) with safe range checks. Adult doses in toddlers cause toxicity—classic .",
+      "answer": "B) Calculate pediatric doses by weight (milligrams/kilograms) with safe range checks",
+      "explanation": "Children’s volumes of distribution and clearance require weight-based dosing. Therefore, the most accurate choice is: Calculate pediatric doses by weight (milligrams/kilograms) with safe range checks. Adult doses in toddlers cause toxicity—classic .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Children’s volumes of distribution and clearance require weight-based dosing. This matches the correct interpretation.",
@@ -562,15 +562,15 @@
     },
     {
       "id": "pediatrics:medium:1",
-      "question": "A 2-month-old infant is evaluated for possible FLACC pain scale. Which of the following is most accurate?",
+      "question": "A 9-month-old infant is evaluated for possible Face Legs Activity Cry Consolability pain scale pain scale. Which of the following is most accurate?",
       "options": [
         "A) Perform Heimlich abdominal thrusts on a young infant as first-line",
         "B) Use Faces scale as the only tool for deeply sedated ventilated infants without behavior scales",
-        "C) Use FLACC for nonverbal young children to score Face/Legs/Activity/Cry/Consolability",
+        "C) Use Face Legs Activity Cry Consolability pain scale for nonverbal young children to score Face/Legs/Activity/Cry/Consolability",
         "D) Rely only on a 0–10 numeric self-report from a preverbal infant"
       ],
-      "answer": "C) Use FLACC for nonverbal young children to score Face/Legs/Activity/Cry/Consolability",
-      "explanation": "Behavioral scales estimate pain when self-report is impossible. Therefore, the most accurate choice is: Use FLACC for nonverbal young children to score Face/Legs/Activity/Cry/Consolability. Numeric self-report is invalid in preverbal infants—.",
+      "answer": "C) Use Face Legs Activity Cry Consolability pain scale for nonverbal young children to score Face/Legs/Activity/Cry/Consolability",
+      "explanation": "Behavioral scales estimate pain when self-report is impossible. Therefore, the most accurate choice is: Use Face Legs Activity Cry Consolability pain scale for nonverbal young children to score Face/Legs/Activity/Cry/Consolability. Numeric self-report is invalid in preverbal infants—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -580,7 +580,7 @@
     },
     {
       "id": "pediatrics:medium:2",
-      "question": "A 3-month-old infant presents with signs of wong-Baker faces. Which of the following is correct?",
+      "question": "A 10-month-old infant presents with signs of wong-Baker faces. Which of the following is correct?",
       "options": [
         "A) Use Faces pain scale for children who can point to facial depictions of pain intensity",
         "B) Apply adult rule of nines unchanged for infants without modification awareness",
@@ -598,11 +598,11 @@
     },
     {
       "id": "pediatrics:medium:3",
-      "question": "A 12-month-old infant is admitted with suspected pediatric airway anatomy. Which of the following statements is correct?",
+      "question": "A 3-month-old infant is admitted with suspected pediatric airway anatomy. Which of the following statements is correct?",
       "options": [
         "A) Apply adult rule of nines unchanged for infants without modification awareness",
         "B) Hyperextend an infant’s neck maximally like an adult intubation position as default",
-        "C) Use two-hand adult CPR depth on a neonate as first technique",
+        "C) Use two-hand adult cardiopulmonary resuscitation depth on a neonate as first technique",
         "D) Infants have large occiputs/tongues—neutral sniffing alignment and careful positioning"
       ],
       "answer": "D) Infants have large occiputs/tongues—neutral sniffing alignment and careful positioning",
@@ -616,15 +616,15 @@
     },
     {
       "id": "pediatrics:medium:4",
-      "question": "During evaluation of a 4-day-old newborn, infant CPR compression is considered. Which of the following is most accurate?",
+      "question": "During evaluation of a 7-day-old newborn, infant cardiopulmonary resuscitation compression is considered. Which of the following is most accurate?",
       "options": [
         "A) Apply adult rule of nines unchanged for infants without modification awareness",
-        "B) Use two-finger or two-thumb encircling techniques per BLS guidelines for infants",
+        "B) Use two-finger or two-thumb encircling techniques per basic life support guidelines for infants",
         "C) Hold children down without explanation or comfort measures as first approach always",
-        "D) Use two-hand adult CPR depth on a neonate as first technique"
+        "D) Use two-hand adult cardiopulmonary resuscitation depth on a neonate as first technique"
       ],
-      "answer": "B) Use two-finger or two-thumb encircling techniques per BLS guidelines for infants",
-      "explanation": "Age-appropriate compression technique optimizes coronary perfusion without trauma. Therefore, the most accurate choice is: Use two-finger or two-thumb encircling techniques per BLS guidelines for infants. Adult force on neonates risks injury—.",
+      "answer": "B) Use two-finger or two-thumb encircling techniques per basic life support guidelines for infants",
+      "explanation": "Age-appropriate compression technique optimizes coronary perfusion without trauma. Therefore, the most accurate choice is: Use two-finger or two-thumb encircling techniques per basic life support guidelines for infants. Adult force on neonates risks injury—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Age-appropriate compression technique optimizes coronary perfusion without trauma. This matches the correct interpretation.",
@@ -634,15 +634,15 @@
     },
     {
       "id": "pediatrics:medium:5",
-      "question": "A 16-month-old infant has findings that raise concern for choking infant. Which of the following is correct?",
+      "question": "A 7-month-old infant has findings that raise concern for choking infant. Which of the following is correct?",
       "options": [
-        "A) Back blows and chest thrusts for severe infant FBAO—no abdominal thrusts",
+        "A) Back blows and chest thrusts for severe infant foreign-body airway obstruction—no abdominal thrusts",
         "B) Perform Heimlich abdominal thrusts on a young infant as first-line",
-        "C) Use two-hand adult CPR depth on a neonate as first technique",
+        "C) Use two-hand adult cardiopulmonary resuscitation depth on a neonate as first technique",
         "D) Rely only on a 0–10 numeric self-report from a preverbal infant"
       ],
-      "answer": "A) Back blows and chest thrusts for severe infant FBAO—no abdominal thrusts",
-      "explanation": "Infant abdominal thrusts risk organ injury; back blows/chest thrusts are indicated. Therefore, the most accurate choice is: Back blows and chest thrusts for severe infant FBAO—no abdominal thrusts. Adult Heimlich on infants is a technique .",
+      "answer": "A) Back blows and chest thrusts for severe infant foreign-body airway obstruction—no abdominal thrusts",
+      "explanation": "Infant abdominal thrusts risk organ injury; back blows/chest thrusts are indicated. Therefore, the most accurate choice is: Back blows and chest thrusts for severe infant foreign-body airway obstruction—no abdominal thrusts. Adult Heimlich on infants is a technique .",
       "choice_explanations": {
         "A": "Infant abdominal thrusts risk organ injury; back blows/chest thrusts are indicated. This matches the correct interpretation.",
         "B": "Adult Heimlich on infants is a technique near-miss. It is less consistent than the correct choice.",
@@ -652,15 +652,15 @@
     },
     {
       "id": "pediatrics:medium:6",
-      "question": "A 2-year-old child arrives in the emergency department with features of fontanel assessment. Which of the following is most accurate?",
+      "question": "A 9-year-old child arrives in the emergency department with features of fontanel assessment. Which of the following is most accurate?",
       "options": [
         "A) Place supine pressure on an intact myelomeningocele sac preop",
         "B) Assume playful behavior always excludes significant dehydration",
         "C) A bulging fontanel with fever/irritability is always ignored as normal crying",
-        "D) Sunken fontanel may suggest dehydration; bulging with illness can suggest ↑ICP/infection"
+        "D) Sunken fontanel may suggest dehydration; bulging with illness can suggest ↑intracranial pressure/infection"
       ],
-      "answer": "D) Sunken fontanel may suggest dehydration; bulging with illness can suggest ↑ICP/infection",
-      "explanation": "Fontanel tension reflects hydration and intracranial pressure trends. Therefore, the most accurate choice is: Sunken fontanel may suggest dehydration; bulging with illness can suggest ↑ICP/infection. Dismissing a bulging fontanel with fever misses meningitis urgency—.",
+      "answer": "D) Sunken fontanel may suggest dehydration; bulging with illness can suggest ↑intracranial pressure/infection",
+      "explanation": "Fontanel tension reflects hydration and intracranial pressure trends. Therefore, the most accurate choice is: Sunken fontanel may suggest dehydration; bulging with illness can suggest ↑intracranial pressure/infection. Dismissing a bulging fontanel with fever misses meningitis urgency—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -688,17 +688,17 @@
     },
     {
       "id": "pediatrics:medium:8",
-      "question": "A 9-year-old child is brought to clinic because of concerns related to oral rehydration therapy. Which of the following is correct?",
+      "question": "A 2-year-old child is brought to clinic because of concerns related to oral rehydration therapy. Which of the following is correct?",
       "options": [
-        "A) Use ORS for mild–moderate dehydration; small frequent amounts",
-        "B) Replace ORS with only soda and fruit juice for moderate dehydration teaching",
+        "A) Use oral rehydration solution for mild–moderate dehydration; small frequent amounts",
+        "B) Replace oral rehydration solution with only soda and fruit juice for moderate dehydration teaching",
         "C) Perform deep frequent abdominal palpation for teaching rounds on suspected Wilms tumor",
         "D) Allow small wheat exposures as ‘desensitization’ without medical plan"
       ],
-      "answer": "A) Use ORS for mild–moderate dehydration; small frequent amounts",
-      "explanation": "ORS replaces water and electrolytes in physiologic ratios. Therefore, the most accurate choice is: Use ORS for mild–moderate dehydration; small frequent amounts. Hypotonic sugary drinks worsen diarrhea electrolyte issues—.",
+      "answer": "A) Use oral rehydration solution for mild–moderate dehydration; small frequent amounts",
+      "explanation": "oral rehydration solution replaces water and electrolytes in physiologic ratios. Therefore, the most accurate choice is: Use oral rehydration solution for mild–moderate dehydration; small frequent amounts. Hypotonic sugary drinks worsen diarrhea electrolyte issues—.",
       "choice_explanations": {
-        "A": "ORS replaces water and electrolytes in physiologic ratios. This matches the correct interpretation.",
+        "A": "oral rehydration solution replaces water and electrolytes in physiologic ratios. This matches the correct interpretation.",
         "B": "Hypotonic sugary drinks worsen diarrhea electrolyte issues—near-miss. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -706,12 +706,12 @@
     },
     {
       "id": "pediatrics:medium:9",
-      "question": "A 2-year-old child is evaluated for possible pediatrics bolus fluid. Which of the following is most accurate?",
+      "question": "A 9-year-old child is evaluated for possible pediatrics bolus fluid. Which of the following is most accurate?",
       "options": [
         "A) Use hypotonic D5W boluses for hypovolemic shock as first fluid",
         "B) Isotonic crystalloid boluses as ordered for shock; reassess perfusion",
         "C) Perform Heimlich abdominal thrusts on a young infant as first-line",
-        "D) Use two-hand adult CPR depth on a neonate as first technique"
+        "D) Use two-hand adult cardiopulmonary resuscitation depth on a neonate as first technique"
       ],
       "answer": "B) Isotonic crystalloid boluses as ordered for shock; reassess perfusion",
       "explanation": "Isotonic volume expands intravascular space; hypotonic fluid leaves the vessel. Therefore, the most accurate choice is: Isotonic crystalloid boluses as ordered for shock; reassess perfusion. D5W bolus for shock is a dangerous .",
@@ -724,7 +724,7 @@
     },
     {
       "id": "pediatrics:medium:10",
-      "question": "A 2-year-old child has findings requiring interpretation of epiglottitis airway. Which of the following is correct?",
+      "question": "A 9-year-old child has findings requiring interpretation of epiglottitis airway. Which of the following is correct?",
       "options": [
         "A) Keep child calm, upright; do not inspect throat with tongue blade; airway team readiness",
         "B) Force the infant upright screaming and withhold oxygen during a hypercyanotic spell",
@@ -742,7 +742,7 @@
     },
     {
       "id": "pediatrics:medium:11",
-      "question": "A 4-year-old toddler is admitted with suspected croup supportive care. Which of the following statements is correct?",
+      "question": "A 1-year-old toddler is admitted with suspected croup supportive care. Which of the following statements is correct?",
       "options": [
         "A) Cool air/mist as appropriate, keep calm, steroids/racemic epi as ordered, watch for distress",
         "B) Force supine throat exam with a tongue depressor in suspected epiglottitis",
@@ -760,7 +760,7 @@
     },
     {
       "id": "pediatrics:medium:12",
-      "question": "During evaluation of a 4-month-old infant, bronchiolitis suction caution is considered. Which of the following is most accurate?",
+      "question": "During evaluation of a 11-month-old infant, bronchiolitis suction caution is considered. Which of the following is most accurate?",
       "options": [
         "A) Perform aggressive neck manipulation exercises without caution in symptomatic atlantoaxial instability",
         "B) Deep aggressive nasal suction every 15 minutes without indication in stable infants",
@@ -778,15 +778,15 @@
     },
     {
       "id": "pediatrics:medium:13",
-      "question": "A 4-year-old toddler has findings that raise concern for pediatric asthma spacer. Which of the following is correct?",
+      "question": "A 1-year-old toddler has findings that raise concern for pediatric asthma spacer. Which of the following is correct?",
       "options": [
         "A) Use Faces scale as the only tool for deeply sedated ventilated infants without behavior scales",
-        "B) Use spacer/mask with MDI for young children; assess technique and action plan",
-        "C) Spray MDI across the room toward a crying toddler without spacer as adequate dosing",
+        "B) Use spacer/mask with metered-dose inhaler for young children; assess technique and action plan",
+        "C) Spray metered-dose inhaler across the room toward a crying toddler without spacer as adequate dosing",
         "D) Force noisy crowded waiting rooms without coping plan for sensory-sensitive children"
       ],
-      "answer": "B) Use spacer/mask with MDI for young children; assess technique and action plan",
-      "explanation": "Spacers improve lung deposition when coordination is poor. Therefore, the most accurate choice is: Use spacer/mask with MDI for young children; assess technique and action plan. Open-air spraying wastes medication—.",
+      "answer": "B) Use spacer/mask with metered-dose inhaler for young children; assess technique and action plan",
+      "explanation": "Spacers improve lung deposition when coordination is poor. Therefore, the most accurate choice is: Use spacer/mask with metered-dose inhaler for young children; assess technique and action plan. Open-air spraying wastes medication—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Spacers improve lung deposition when coordination is poor. This matches the correct interpretation.",
@@ -796,29 +796,29 @@
     },
     {
       "id": "pediatrics:medium:14",
-      "question": "A 2-year-old child arrives in the emergency department with features of RSV isolation. Which of the following is most accurate?",
+      "question": "A 9-year-old child arrives in the emergency department with features of respiratory syncytial virus isolation. Which of the following is most accurate?",
       "options": [
-        "A) No precautions needed for RSV because it is ‘only a cold’",
-        "B) Urgent antibiotics/workup; droplet precautions as indicated; neuro/ICP watch; hearing follow-up awareness",
+        "A) No precautions needed for respiratory syncytial virus because it is ‘only a cold’",
+        "B) Urgent antibiotics/workup; droplet precautions as indicated; neuro/intracranial pressure watch; hearing follow-up awareness",
         "C) Droplet precautions; treat/prophylaxis per guidelines; cough precautions teaching",
         "D) Contact (± droplet) precautions per policy; hand hygiene; cohorting rules"
       ],
       "answer": "D) Contact (± droplet) precautions per policy; hand hygiene; cohorting rules",
-      "explanation": "RSV spreads readily on hands/fomites in pediatric units. Therefore, the most accurate choice is: Contact (± droplet) precautions per policy; hand hygiene; cohorting rules. Calling RSV harmless for infection control is a .",
+      "explanation": "respiratory syncytial virus spreads readily on hands/fomites in pediatric units. Therefore, the most accurate choice is: Contact (± droplet) precautions per policy; hand hygiene; cohorting rules. Calling respiratory syncytial virus harmless for infection control is a .",
       "choice_explanations": {
-        "A": "Calling RSV harmless for infection control is a near-miss. It is less consistent than the correct choice.",
+        "A": "Calling respiratory syncytial virus harmless for infection control is a near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "RSV spreads readily on hands/fomites in pediatric units. This matches the correct interpretation."
+        "D": "respiratory syncytial virus spreads readily on hands/fomites in pediatric units. This matches the correct interpretation."
       }
     },
     {
       "id": "pediatrics:medium:15",
-      "question": "In a 14-day-old newborn, which statement about pertussis droplet is correct?",
+      "question": "In a 3-day-old newborn, which statement about pertussis droplet is correct?",
       "options": [
         "A) Treat only one family member and continue bed-sharing untreated siblings",
         "B) Allow unmasked close face exposure of neonates to untreated coughing household contacts",
-        "C) No precautions needed for RSV because it is ‘only a cold’",
+        "C) No precautions needed for respiratory syncytial virus because it is ‘only a cold’",
         "D) Droplet precautions; treat/prophylaxis per guidelines; cough precautions teaching"
       ],
       "answer": "D) Droplet precautions; treat/prophylaxis per guidelines; cough precautions teaching",
@@ -832,25 +832,25 @@
     },
     {
       "id": "pediatrics:medium:16",
-      "question": "A 9-year-old child is examined, and kawasaki cardiac watch is reviewed. Which of the following is correct?",
+      "question": "A 2-year-old child is examined, and kawasaki cardiac watch is reviewed. Which of the following is correct?",
       "options": [
-        "A) Aspirin/IVIG as ordered; monitor for coronary aneurysm risk; defer live vaccines per timing rules",
-        "B) Give live measles vaccine the day after IVIG without timing consideration",
-        "C) Give MMR within days after high-dose IVIG without timing adjustment",
-        "D) Stop aspirin abruptly after IVIG day 1 without plan when still indicated"
+        "A) Aspirin/intravenous immunoglobulin as ordered; monitor for coronary aneurysm risk; defer live vaccines per timing rules",
+        "B) Give live measles vaccine the day after intravenous immunoglobulin without timing consideration",
+        "C) Give mismatch repair within days after high-dose intravenous immunoglobulin without timing adjustment",
+        "D) Stop aspirin abruptly after intravenous immunoglobulin day 1 without plan when still indicated"
       ],
-      "answer": "A) Aspirin/IVIG as ordered; monitor for coronary aneurysm risk; defer live vaccines per timing rules",
-      "explanation": "Coronary involvement drives follow-up; IVIG can interfere with live vaccine response. Therefore, the most accurate choice is: Aspirin/IVIG as ordered; monitor for coronary aneurysm risk; defer live vaccines per timing rules. Immediate live vaccines post-IVIG may fail—.",
+      "answer": "A) Aspirin/intravenous immunoglobulin as ordered; monitor for coronary aneurysm risk; defer live vaccines per timing rules",
+      "explanation": "Coronary involvement drives follow-up; intravenous immunoglobulin can interfere with live vaccine response. Therefore, the most accurate choice is: Aspirin/intravenous immunoglobulin as ordered; monitor for coronary aneurysm risk; defer live vaccines per timing rules. Immediate live vaccines post-intravenous immunoglobulin may fail—.",
       "choice_explanations": {
-        "A": "Coronary involvement drives follow-up; IVIG can interfere with live vaccine response. This matches the correct interpretation.",
-        "B": "Immediate live vaccines post-IVIG may fail—near-miss. It is less consistent than the correct choice.",
+        "A": "Coronary involvement drives follow-up; intravenous immunoglobulin can interfere with live vaccine response. This matches the correct interpretation.",
+        "B": "Immediate live vaccines post-intravenous immunoglobulin may fail—near-miss. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pediatrics:medium:17",
-      "question": "A 2-year-old child is evaluated for possible rheumatic fever prevention. Which of the following is most accurate?",
+      "question": "A 9-year-old child is evaluated for possible rheumatic fever prevention. Which of the following is most accurate?",
       "options": [
         "A) Treat fever at home for 3 days before seeking care in asplenic sickle cell disease",
         "B) Treat presumed Kawasaki with only short antipyretics and no follow-up if fever lasts 6 days with mucocutaneous signs",
@@ -868,15 +868,15 @@
     },
     {
       "id": "pediatrics:medium:18",
-      "question": "A 12-day-old newborn presents with signs of pediatric meningitis. Which of the following is correct?",
+      "question": "A 1-day-old newborn presents with signs of pediatric meningitis. Which of the following is correct?",
       "options": [
-        "A) Urgent antibiotics/workup; droplet precautions as indicated; neuro/ICP watch; hearing follow-up awareness",
+        "A) Urgent antibiotics/workup; droplet precautions as indicated; neuro/intracranial pressure watch; hearing follow-up awareness",
         "B) Allow unmasked close face exposure of neonates to untreated coughing household contacts",
         "C) Delay antibiotics for hours awaiting perfect outpatient follow-up in febrile neonate lethargy",
         "D) Apply adult rule of nines unchanged for infants without modification awareness"
       ],
-      "answer": "A) Urgent antibiotics/workup; droplet precautions as indicated; neuro/ICP watch; hearing follow-up awareness",
-      "explanation": "Neonates/infants decompensate rapidly; early therapy saves brain/life. Therefore, the most accurate choice is: Urgent antibiotics/workup; droplet precautions as indicated; neuro/ICP watch; hearing follow-up awareness. Delayed antibiotics in possible meningitis is a .",
+      "answer": "A) Urgent antibiotics/workup; droplet precautions as indicated; neuro/intracranial pressure watch; hearing follow-up awareness",
+      "explanation": "Neonates/infants decompensate rapidly; early therapy saves brain/life. Therefore, the most accurate choice is: Urgent antibiotics/workup; droplet precautions as indicated; neuro/intracranial pressure watch; hearing follow-up awareness. Delayed antibiotics in possible meningitis is a .",
       "choice_explanations": {
         "A": "Neonates/infants decompensate rapidly; early therapy saves brain/life. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -886,7 +886,7 @@
     },
     {
       "id": "pediatrics:medium:19",
-      "question": "A 2-year-old child is admitted with suspected febrile seizure teaching. Which of the following statements is correct?",
+      "question": "A 9-year-old child is admitted with suspected febrile seizure teaching. Which of the following statements is correct?",
       "options": [
         "A) Protect airway/side-lying; most simple febrile seizures are brief; teach when to seek emergency care",
         "B) Tell parents acetaminophen timing myths that undermine antibody response without current guidance nuance",
@@ -904,10 +904,10 @@
     },
     {
       "id": "pediatrics:medium:20",
-      "question": "During evaluation of a 2-year-old child, reye syndrome caution is considered. Which of the following is most accurate?",
+      "question": "During evaluation of a 9-year-old child, reye syndrome caution is considered. Which of the following is most accurate?",
       "options": [
         "A) Punish toddlers harshly for not cooperatively sharing like school-age children",
-        "B) Stop aspirin abruptly after IVIG day 1 without plan when still indicated",
+        "B) Stop aspirin abruptly after intravenous immunoglobulin day 1 without plan when still indicated",
         "C) Give aspirin for influenza-like illness in a school-age child as routine antipyretic",
         "D) Avoid aspirin in children/teens with viral illness unless specifically indicated (e.g., Kawasaki)"
       ],
@@ -922,7 +922,7 @@
     },
     {
       "id": "pediatrics:medium:21",
-      "question": "A 9-year-old child has findings that raise concern for otitis media pain. Which of the following is correct?",
+      "question": "A 2-year-old child has findings that raise concern for otitis media pain. Which of the following is correct?",
       "options": [
         "A) Force acidic juices on open oral ulcers and skip hydration assessment",
         "B) Withhold pain medicine and give leftover antibiotics from a prior ear infection without assessment",
@@ -940,7 +940,7 @@
     },
     {
       "id": "pediatrics:medium:22",
-      "question": "A 2-year-old child arrives in the emergency department with features of tonsillectomy bleed. Which of the following is most accurate?",
+      "question": "A 9-year-old child arrives in the emergency department with features of tonsillectomy bleed. Which of the following is most accurate?",
       "options": [
         "A) Allow running immediately after femoral access and ignore expanding groin hematoma",
         "B) Give tortilla chips and straws day of surgery then encourage running",
@@ -958,7 +958,7 @@
     },
     {
       "id": "pediatrics:medium:23",
-      "question": "In a 2-year-old child, which statement about cleft palate feeding is correct?",
+      "question": "In a 9-year-old child, which statement about cleft palate feeding is correct?",
       "options": [
         "A) Force supine throat exam with a tongue depressor in suspected epiglottitis",
         "B) Upright feeding, special nipples/bottles, frequent burping, aspiration watch",
@@ -976,15 +976,15 @@
     },
     {
       "id": "pediatrics:medium:24",
-      "question": "A 9-month-old infant is brought to clinic because of concerns related to pyloric stenosis. Which of the following is correct?",
+      "question": "A 16-month-old infant is brought to clinic because of concerns related to pyloric stenosis. Which of the following is correct?",
       "options": [
         "A) Give hot red fluids and straws immediately then ignore continuous swallowing",
         "B) Force large feeds after each projectile vomit to ‘keep up’",
-        "C) Force overly rapid fluid swings and ignore new headache/confusion during DKA therapy",
-        "D) Projectile nonbilious vomiting, olive mass, dehydration/alkalosis—NPO, IV fluids, surgical pathway"
+        "C) Force overly rapid fluid swings and ignore new headache/confusion during diabetic ketoacidosis therapy",
+        "D) Projectile nonbilious vomiting, olive mass, dehydration/alkalosis—nothing by mouth, intravenous fluids, surgical pathway"
       ],
-      "answer": "D) Projectile nonbilious vomiting, olive mass, dehydration/alkalosis—NPO, IV fluids, surgical pathway",
-      "explanation": "Gastric outlet obstruction needs fluid/electrolyte correction before pyloromyotomy. Therefore, the most accurate choice is: Projectile nonbilious vomiting, olive mass, dehydration/alkalosis—NPO, IV fluids, surgical pathway. Forced feeding worsens losses—.",
+      "answer": "D) Projectile nonbilious vomiting, olive mass, dehydration/alkalosis—nothing by mouth, intravenous fluids, surgical pathway",
+      "explanation": "Gastric outlet obstruction needs fluid/electrolyte correction before pyloromyotomy. Therefore, the most accurate choice is: Projectile nonbilious vomiting, olive mass, dehydration/alkalosis—nothing by mouth, intravenous fluids, surgical pathway. Forced feeding worsens losses—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Forced feeding worsens losses—near-miss. It is less consistent than the correct choice.",
@@ -994,7 +994,7 @@
     },
     {
       "id": "pediatrics:medium:25",
-      "question": "While evaluating a 9-year-old child, attention turns to intussusception clues. Which of the following is most accurate?",
+      "question": "While evaluating a 2-year-old child, attention turns to intussusception clues. Which of the following is most accurate?",
       "options": [
         "A) Send home without evaluation when episodes of severe pain alternate with lethargy",
         "B) Treat fever at home for 3 days before seeking care in asplenic sickle cell disease",
@@ -1012,15 +1012,15 @@
     },
     {
       "id": "pediatrics:medium:26",
-      "question": "A 9-year-old child presents with signs of appendicitis pediatric. Which of the following is correct?",
+      "question": "A 2-year-old child presents with signs of appendicitis pediatric. Which of the following is correct?",
       "options": [
         "A) Treat fever at home for 3 days before seeking care in asplenic sickle cell disease",
         "B) Withhold opioids from a dying child in severe pain fearing legal myths",
-        "C) Pain migration, fever, anorexia—NPO, no enemas; atypical locations common",
-        "D) Give enemas and heating pads for RLQ pain with fever in a child"
+        "C) Pain migration, fever, anorexia—nothing by mouth, no enemas; atypical locations common",
+        "D) Give enemas and heating pads for right lower quadrant pain with fever in a child"
       ],
-      "answer": "C) Pain migration, fever, anorexia—NPO, no enemas; atypical locations common",
-      "explanation": "Perforation risk rises with delayed care; enemas contraindicated. Therefore, the most accurate choice is: Pain migration, fever, anorexia—NPO, no enemas; atypical locations common. Enemas/heat are dangerous es.",
+      "answer": "C) Pain migration, fever, anorexia—nothing by mouth, no enemas; atypical locations common",
+      "explanation": "Perforation risk rises with delayed care; enemas contraindicated. Therefore, the most accurate choice is: Pain migration, fever, anorexia—nothing by mouth, no enemas; atypical locations common. Enemas/heat are dangerous es.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1030,7 +1030,7 @@
     },
     {
       "id": "pediatrics:medium:27",
-      "question": "A 13-day-old newborn is admitted with suspected hirschsprung megacolon. Which of the following statements is correct?",
+      "question": "A 2-day-old newborn is admitted with suspected hirschsprung megacolon. Which of the following statements is correct?",
       "options": [
         "A) Shame caregivers publicly without assessment of medical causes",
         "B) Failure to pass meconium, ribbon stools, enterocolitis risk—report explosive diarrhea/fever urgently",
@@ -1048,7 +1048,7 @@
     },
     {
       "id": "pediatrics:medium:28",
-      "question": "During evaluation of a 6-month-old infant, GER infant teaching is considered. Which of the following is most accurate?",
+      "question": "During evaluation of a 13-month-old infant, gastroesophageal reflux infant teaching is considered. Which of the following is most accurate?",
       "options": [
         "A) Place infants prone with quilts and stuffed animals to ‘prevent flat head’ overnight",
         "B) Recommend prone sleep on soft pillows to reduce spit-up",
@@ -1056,17 +1056,17 @@
         "D) Upright after feeds, smaller volumes, thickened feeds if ordered—not forced seated sleep against safe-sleep rules"
       ],
       "answer": "D) Upright after feeds, smaller volumes, thickened feeds if ordered—not forced seated sleep against safe-sleep rules",
-      "explanation": "Reflux precautions must not violate safe sleep (back to sleep, firm surface). Therefore, the most accurate choice is: Upright after feeds, smaller volumes, thickened feeds if ordered—not forced seated sleep against safe-sleep rules. Prone/pillow sleep raises SIDS risk—.",
+      "explanation": "Reflux precautions must not violate safe sleep (back to sleep, firm surface). Therefore, the most accurate choice is: Upright after feeds, smaller volumes, thickened feeds if ordered—not forced seated sleep against safe-sleep rules. Prone/pillow sleep raises sudden infant death syndrome risk—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Prone/pillow sleep raises SIDS risk—near-miss. It is less consistent than the correct choice.",
+        "B": "Prone/pillow sleep raises sudden infant death syndrome risk—near-miss. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Reflux precautions must not violate safe sleep (back to sleep, firm surface). This matches the correct interpretation."
       }
     },
     {
       "id": "pediatrics:medium:29",
-      "question": "A 8-day-old newborn has findings that raise concern for safe sleep SIDS. Which of the following is correct?",
+      "question": "A 11-day-old newborn has findings that raise concern for safe sleep sudden infant death syndrome. Which of the following is correct?",
       "options": [
         "A) Recommend prone sleep on soft pillows to reduce spit-up",
         "B) Back to sleep, firm flat surface, no soft bedding/shared bed hazards; room-share without bed-share per guidance",
@@ -1074,10 +1074,10 @@
         "D) Force separation from caregivers for all minor procedures without need"
       ],
       "answer": "B) Back to sleep, firm flat surface, no soft bedding/shared bed hazards; room-share without bed-share per guidance",
-      "explanation": "Supine firm sleep environment reduces SIDS risk. Therefore, the most accurate choice is: Back to sleep, firm flat surface, no soft bedding/shared bed hazards; room-share without bed-share per guidance. Prone soft bedding is a deadly .",
+      "explanation": "Supine firm sleep environment reduces sudden infant death syndrome risk. Therefore, the most accurate choice is: Back to sleep, firm flat surface, no soft bedding/shared bed hazards; room-share without bed-share per guidance. Prone soft bedding is a deadly .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Supine firm sleep environment reduces SIDS risk. This matches the correct interpretation.",
+        "B": "Supine firm sleep environment reduces sudden infant death syndrome risk. This matches the correct interpretation.",
         "C": "Prone soft bedding is a deadly near-miss. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -1088,13 +1088,13 @@
       "id": "pediatrics:hard:0",
       "question": "Careful review of pediatric med weight dose is required. Which of the following is most accurate?",
       "options": [
-        "A) Spray MDI across the room toward a crying toddler without spacer as adequate dosing",
-        "B) Calculate pediatric doses by weight (mg/kg) with safe range checks",
+        "A) Spray metered-dose inhaler across the room toward a crying toddler without spacer as adequate dosing",
+        "B) Calculate pediatric doses by weight (milligrams/kilograms) with safe range checks",
         "C) Give the full adult tablet dose to a toddler if the indication matches",
         "D) Cover sites heavily and ignore checks because children cry anyway"
       ],
-      "answer": "B) Calculate pediatric doses by weight (mg/kg) with safe range checks",
-      "explanation": "Children’s volumes of distribution and clearance require weight-based dosing. Therefore, the most accurate choice is: Calculate pediatric doses by weight (mg/kg) with safe range checks. Adult doses in toddlers cause toxicity—classic .",
+      "answer": "B) Calculate pediatric doses by weight (milligrams/kilograms) with safe range checks",
+      "explanation": "Children’s volumes of distribution and clearance require weight-based dosing. Therefore, the most accurate choice is: Calculate pediatric doses by weight (milligrams/kilograms) with safe range checks. Adult doses in toddlers cause toxicity—classic .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Children’s volumes of distribution and clearance require weight-based dosing. This matches the correct interpretation.",
@@ -1104,15 +1104,15 @@
     },
     {
       "id": "pediatrics:hard:1",
-      "question": "A 2-month-old infant has findings suggestive of FLACC pain scale. Which of the following is the best interpretation?",
+      "question": "A 9-month-old infant has findings suggestive of Face Legs Activity Cry Consolability pain scale pain scale. Which of the following is the best interpretation?",
       "options": [
         "A) Perform Heimlich abdominal thrusts on a young infant as first-line",
         "B) Rely only on a 0–10 numeric self-report from a preverbal infant",
         "C) Use Faces scale as the only tool for deeply sedated ventilated infants without behavior scales",
-        "D) Use FLACC for nonverbal young children to score Face/Legs/Activity/Cry/Consolability"
+        "D) Use Face Legs Activity Cry Consolability pain scale for nonverbal young children to score Face/Legs/Activity/Cry/Consolability"
       ],
-      "answer": "D) Use FLACC for nonverbal young children to score Face/Legs/Activity/Cry/Consolability",
-      "explanation": "Behavioral scales estimate pain when self-report is impossible. Therefore, the most accurate choice is: Use FLACC for nonverbal young children to score Face/Legs/Activity/Cry/Consolability. Numeric self-report is invalid in preverbal infants—.",
+      "answer": "D) Use Face Legs Activity Cry Consolability pain scale for nonverbal young children to score Face/Legs/Activity/Cry/Consolability",
+      "explanation": "Behavioral scales estimate pain when self-report is impossible. Therefore, the most accurate choice is: Use Face Legs Activity Cry Consolability pain scale for nonverbal young children to score Face/Legs/Activity/Cry/Consolability. Numeric self-report is invalid in preverbal infants—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Numeric self-report is invalid in preverbal infants—near-miss. It is less consistent than the correct choice.",
@@ -1122,9 +1122,9 @@
     },
     {
       "id": "pediatrics:hard:2",
-      "question": "In a 3-month-old infant, wong-Baker faces must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 10-month-old infant, wong-Baker faces must be separated from similar conditions. Which of the following is correct?",
       "options": [
-        "A) Spray MDI across the room toward a crying toddler without spacer as adequate dosing",
+        "A) Spray metered-dose inhaler across the room toward a crying toddler without spacer as adequate dosing",
         "B) Use Faces scale as the only tool for deeply sedated ventilated infants without behavior scales",
         "C) Use Faces pain scale for children who can point to facial depictions of pain intensity",
         "D) Apply adult rule of nines unchanged for infants without modification awareness"
@@ -1140,9 +1140,9 @@
     },
     {
       "id": "pediatrics:hard:3",
-      "question": "A 12-month-old infant returns for review of suspected pediatric airway anatomy. Which of the following is most accurate?",
+      "question": "A 3-month-old infant returns for review of suspected pediatric airway anatomy. Which of the following is most accurate?",
       "options": [
-        "A) Use two-hand adult CPR depth on a neonate as first technique",
+        "A) Use two-hand adult cardiopulmonary resuscitation depth on a neonate as first technique",
         "B) Hyperextend an infant’s neck maximally like an adult intubation position as default",
         "C) Apply adult rule of nines unchanged for infants without modification awareness",
         "D) Infants have large occiputs/tongues—neutral sniffing alignment and careful positioning"
@@ -1158,15 +1158,15 @@
     },
     {
       "id": "pediatrics:hard:4",
-      "question": "A clinic case of infant CPR compression is discussed. Which of the following is correct?",
+      "question": "A clinic case of infant cardiopulmonary resuscitation compression is discussed. Which of the following is correct?",
       "options": [
-        "A) Use two-finger or two-thumb encircling techniques per BLS guidelines for infants",
-        "B) Use two-hand adult CPR depth on a neonate as first technique",
+        "A) Use two-finger or two-thumb encircling techniques per basic life support guidelines for infants",
+        "B) Use two-hand adult cardiopulmonary resuscitation depth on a neonate as first technique",
         "C) Hold children down without explanation or comfort measures as first approach always",
         "D) Apply adult rule of nines unchanged for infants without modification awareness"
       ],
-      "answer": "A) Use two-finger or two-thumb encircling techniques per BLS guidelines for infants",
-      "explanation": "Age-appropriate compression technique optimizes coronary perfusion without trauma. Therefore, the most accurate choice is: Use two-finger or two-thumb encircling techniques per BLS guidelines for infants. Adult force on neonates risks injury—.",
+      "answer": "A) Use two-finger or two-thumb encircling techniques per basic life support guidelines for infants",
+      "explanation": "Age-appropriate compression technique optimizes coronary perfusion without trauma. Therefore, the most accurate choice is: Use two-finger or two-thumb encircling techniques per basic life support guidelines for infants. Adult force on neonates risks injury—.",
       "choice_explanations": {
         "A": "Age-appropriate compression technique optimizes coronary perfusion without trauma. This matches the correct interpretation.",
         "B": "Adult force on neonates risks injury—near-miss. It is less consistent than the correct choice.",
@@ -1176,15 +1176,15 @@
     },
     {
       "id": "pediatrics:hard:5",
-      "question": "A 16-month-old infant presents with features compatible with choking infant. Which of the following is most accurate?",
+      "question": "A 7-month-old infant presents with features compatible with choking infant. Which of the following is most accurate?",
       "options": [
         "A) Rely only on a 0–10 numeric self-report from a preverbal infant",
-        "B) Use two-hand adult CPR depth on a neonate as first technique",
-        "C) Back blows and chest thrusts for severe infant FBAO—no abdominal thrusts",
+        "B) Use two-hand adult cardiopulmonary resuscitation depth on a neonate as first technique",
+        "C) Back blows and chest thrusts for severe infant foreign-body airway obstruction—no abdominal thrusts",
         "D) Perform Heimlich abdominal thrusts on a young infant as first-line"
       ],
-      "answer": "C) Back blows and chest thrusts for severe infant FBAO—no abdominal thrusts",
-      "explanation": "Infant abdominal thrusts risk organ injury; back blows/chest thrusts are indicated. Therefore, the most accurate choice is: Back blows and chest thrusts for severe infant FBAO—no abdominal thrusts. Adult Heimlich on infants is a technique .",
+      "answer": "C) Back blows and chest thrusts for severe infant foreign-body airway obstruction—no abdominal thrusts",
+      "explanation": "Infant abdominal thrusts risk organ injury; back blows/chest thrusts are indicated. Therefore, the most accurate choice is: Back blows and chest thrusts for severe infant foreign-body airway obstruction—no abdominal thrusts. Adult Heimlich on infants is a technique .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1194,15 +1194,15 @@
     },
     {
       "id": "pediatrics:hard:6",
-      "question": "Which statement about fontanel assessment in a 2-year-old child is most accurate?",
+      "question": "Which statement about fontanel assessment in a 9-year-old child is most accurate?",
       "options": [
         "A) Assume playful behavior always excludes significant dehydration",
-        "B) Sunken fontanel may suggest dehydration; bulging with illness can suggest ↑ICP/infection",
+        "B) Sunken fontanel may suggest dehydration; bulging with illness can suggest ↑intracranial pressure/infection",
         "C) Place supine pressure on an intact myelomeningocele sac preop",
         "D) A bulging fontanel with fever/irritability is always ignored as normal crying"
       ],
-      "answer": "B) Sunken fontanel may suggest dehydration; bulging with illness can suggest ↑ICP/infection",
-      "explanation": "Fontanel tension reflects hydration and intracranial pressure trends. Therefore, the most accurate choice is: Sunken fontanel may suggest dehydration; bulging with illness can suggest ↑ICP/infection. Dismissing a bulging fontanel with fever misses meningitis urgency—.",
+      "answer": "B) Sunken fontanel may suggest dehydration; bulging with illness can suggest ↑intracranial pressure/infection",
+      "explanation": "Fontanel tension reflects hydration and intracranial pressure trends. Therefore, the most accurate choice is: Sunken fontanel may suggest dehydration; bulging with illness can suggest ↑intracranial pressure/infection. Dismissing a bulging fontanel with fever misses meningitis urgency—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Fontanel tension reflects hydration and intracranial pressure trends. This matches the correct interpretation.",
@@ -1232,25 +1232,25 @@
       "id": "pediatrics:hard:8",
       "question": "Careful review of oral rehydration therapy is required. Which of the following is most accurate?",
       "options": [
-        "A) Replace ORS with only soda and fruit juice for moderate dehydration teaching",
-        "B) Use ORS for mild–moderate dehydration; small frequent amounts",
+        "A) Replace oral rehydration solution with only soda and fruit juice for moderate dehydration teaching",
+        "B) Use oral rehydration solution for mild–moderate dehydration; small frequent amounts",
         "C) Use only abstract statistics without demonstration for a 7-year-old’s procedure teaching",
         "D) Swim in lake water with open central line sites and skip hub scrubbing"
       ],
-      "answer": "B) Use ORS for mild–moderate dehydration; small frequent amounts",
-      "explanation": "ORS replaces water and electrolytes in physiologic ratios. Therefore, the most accurate choice is: Use ORS for mild–moderate dehydration; small frequent amounts. Hypotonic sugary drinks worsen diarrhea electrolyte issues—.",
+      "answer": "B) Use oral rehydration solution for mild–moderate dehydration; small frequent amounts",
+      "explanation": "oral rehydration solution replaces water and electrolytes in physiologic ratios. Therefore, the most accurate choice is: Use oral rehydration solution for mild–moderate dehydration; small frequent amounts. Hypotonic sugary drinks worsen diarrhea electrolyte issues—.",
       "choice_explanations": {
         "A": "Hypotonic sugary drinks worsen diarrhea electrolyte issues—near-miss. It is less consistent than the correct choice.",
-        "B": "ORS replaces water and electrolytes in physiologic ratios. This matches the correct interpretation.",
+        "B": "oral rehydration solution replaces water and electrolytes in physiologic ratios. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pediatrics:hard:9",
-      "question": "A 2-year-old child has findings suggestive of pediatrics bolus fluid. Which of the following is the best interpretation?",
+      "question": "A 9-year-old child has findings suggestive of pediatrics bolus fluid. Which of the following is the best interpretation?",
       "options": [
-        "A) Use two-hand adult CPR depth on a neonate as first technique",
+        "A) Use two-hand adult cardiopulmonary resuscitation depth on a neonate as first technique",
         "B) Use hypotonic D5W boluses for hypovolemic shock as first fluid",
         "C) Perform Heimlich abdominal thrusts on a young infant as first-line",
         "D) Isotonic crystalloid boluses as ordered for shock; reassess perfusion"
@@ -1284,7 +1284,7 @@
     },
     {
       "id": "pediatrics:hard:11",
-      "question": "A 4-year-old toddler returns for review of suspected croup supportive care. Which of the following is most accurate?",
+      "question": "A 1-year-old toddler returns for review of suspected croup supportive care. Which of the following is most accurate?",
       "options": [
         "A) Cool air/mist as appropriate, keep calm, steroids/racemic epi as ordered, watch for distress",
         "B) Force supine throat exam with a tongue depressor in suspected epiglottitis",
@@ -1320,15 +1320,15 @@
     },
     {
       "id": "pediatrics:hard:13",
-      "question": "A 4-year-old toddler presents with features compatible with pediatric asthma spacer. Which of the following is most accurate?",
+      "question": "A 1-year-old toddler presents with features compatible with pediatric asthma spacer. Which of the following is most accurate?",
       "options": [
         "A) Force noisy crowded waiting rooms without coping plan for sensory-sensitive children",
         "B) Treat toddler prenatal-iron ingestion with only observation at home without poison control guidance",
-        "C) Spray MDI across the room toward a crying toddler without spacer as adequate dosing",
-        "D) Use spacer/mask with MDI for young children; assess technique and action plan"
+        "C) Spray metered-dose inhaler across the room toward a crying toddler without spacer as adequate dosing",
+        "D) Use spacer/mask with metered-dose inhaler for young children; assess technique and action plan"
       ],
-      "answer": "D) Use spacer/mask with MDI for young children; assess technique and action plan",
-      "explanation": "Spacers improve lung deposition when coordination is poor. Therefore, the most accurate choice is: Use spacer/mask with MDI for young children; assess technique and action plan. Open-air spraying wastes medication—.",
+      "answer": "D) Use spacer/mask with metered-dose inhaler for young children; assess technique and action plan",
+      "explanation": "Spacers improve lung deposition when coordination is poor. Therefore, the most accurate choice is: Use spacer/mask with metered-dose inhaler for young children; assess technique and action plan. Open-air spraying wastes medication—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1338,27 +1338,27 @@
     },
     {
       "id": "pediatrics:hard:14",
-      "question": "Which statement about RSV isolation in a 2-year-old child is most accurate?",
+      "question": "Which statement about respiratory syncytial virus isolation in a 9-year-old child is most accurate?",
       "options": [
-        "A) No precautions needed for RSV because it is ‘only a cold’",
+        "A) No precautions needed for respiratory syncytial virus because it is ‘only a cold’",
         "B) Droplet precautions; treat/prophylaxis per guidelines; cough precautions teaching",
-        "C) Urgent antibiotics/workup; droplet precautions as indicated; neuro/ICP watch; hearing follow-up awareness",
+        "C) Urgent antibiotics/workup; droplet precautions as indicated; neuro/intracranial pressure watch; hearing follow-up awareness",
         "D) Contact (± droplet) precautions per policy; hand hygiene; cohorting rules"
       ],
       "answer": "D) Contact (± droplet) precautions per policy; hand hygiene; cohorting rules",
-      "explanation": "RSV spreads readily on hands/fomites in pediatric units. Therefore, the most accurate choice is: Contact (± droplet) precautions per policy; hand hygiene; cohorting rules. Calling RSV harmless for infection control is a .",
+      "explanation": "respiratory syncytial virus spreads readily on hands/fomites in pediatric units. Therefore, the most accurate choice is: Contact (± droplet) precautions per policy; hand hygiene; cohorting rules. Calling respiratory syncytial virus harmless for infection control is a .",
       "choice_explanations": {
-        "A": "Calling RSV harmless for infection control is a near-miss. It is less consistent than the correct choice.",
+        "A": "Calling respiratory syncytial virus harmless for infection control is a near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "RSV spreads readily on hands/fomites in pediatric units. This matches the correct interpretation."
+        "D": "respiratory syncytial virus spreads readily on hands/fomites in pediatric units. This matches the correct interpretation."
       }
     },
     {
       "id": "pediatrics:hard:15",
-      "question": "After examining a 14-day-old newborn, which statement about pertussis droplet is correct?",
+      "question": "After examining a 3-day-old newborn, which statement about pertussis droplet is correct?",
       "options": [
-        "A) No precautions needed for RSV because it is ‘only a cold’",
+        "A) No precautions needed for respiratory syncytial virus because it is ‘only a cold’",
         "B) Treat only one family member and continue bed-sharing untreated siblings",
         "C) Droplet precautions; treat/prophylaxis per guidelines; cough precautions teaching",
         "D) Allow unmasked close face exposure of neonates to untreated coughing household contacts"
@@ -1376,23 +1376,23 @@
       "id": "pediatrics:hard:16",
       "question": "Careful review of kawasaki cardiac watch is required. Which of the following is most accurate?",
       "options": [
-        "A) Give live measles vaccine the day after IVIG without timing consideration",
-        "B) Aspirin/IVIG as ordered; monitor for coronary aneurysm risk; defer live vaccines per timing rules",
-        "C) Give MMR within days after high-dose IVIG without timing adjustment",
-        "D) Stop aspirin abruptly after IVIG day 1 without plan when still indicated"
+        "A) Give live measles vaccine the day after intravenous immunoglobulin without timing consideration",
+        "B) Aspirin/intravenous immunoglobulin as ordered; monitor for coronary aneurysm risk; defer live vaccines per timing rules",
+        "C) Give mismatch repair within days after high-dose intravenous immunoglobulin without timing adjustment",
+        "D) Stop aspirin abruptly after intravenous immunoglobulin day 1 without plan when still indicated"
       ],
-      "answer": "B) Aspirin/IVIG as ordered; monitor for coronary aneurysm risk; defer live vaccines per timing rules",
-      "explanation": "Coronary involvement drives follow-up; IVIG can interfere with live vaccine response. Therefore, the most accurate choice is: Aspirin/IVIG as ordered; monitor for coronary aneurysm risk; defer live vaccines per timing rules. Immediate live vaccines post-IVIG may fail—.",
+      "answer": "B) Aspirin/intravenous immunoglobulin as ordered; monitor for coronary aneurysm risk; defer live vaccines per timing rules",
+      "explanation": "Coronary involvement drives follow-up; intravenous immunoglobulin can interfere with live vaccine response. Therefore, the most accurate choice is: Aspirin/intravenous immunoglobulin as ordered; monitor for coronary aneurysm risk; defer live vaccines per timing rules. Immediate live vaccines post-intravenous immunoglobulin may fail—.",
       "choice_explanations": {
-        "A": "Immediate live vaccines post-IVIG may fail—near-miss. It is less consistent than the correct choice.",
-        "B": "Coronary involvement drives follow-up; IVIG can interfere with live vaccine response. This matches the correct interpretation.",
+        "A": "Immediate live vaccines post-intravenous immunoglobulin may fail—near-miss. It is less consistent than the correct choice.",
+        "B": "Coronary involvement drives follow-up; intravenous immunoglobulin can interfere with live vaccine response. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pediatrics:hard:17",
-      "question": "A 2-year-old child has findings suggestive of rheumatic fever prevention. Which of the following is the best interpretation?",
+      "question": "A 9-year-old child has findings suggestive of rheumatic fever prevention. Which of the following is the best interpretation?",
       "options": [
         "A) Treat fever at home for 3 days before seeking care in asplenic sickle cell disease",
         "B) Complete streptococcal pharyngitis antibiotics to prevent rheumatic heart disease",
@@ -1412,13 +1412,13 @@
       "id": "pediatrics:hard:18",
       "question": "In a detailed discussion of pediatric meningitis, which of the following is most accurate?",
       "options": [
-        "A) Urgent antibiotics/workup; droplet precautions as indicated; neuro/ICP watch; hearing follow-up awareness",
+        "A) Urgent antibiotics/workup; droplet precautions as indicated; neuro/intracranial pressure watch; hearing follow-up awareness",
         "B) Allow unmasked close face exposure of neonates to untreated coughing household contacts",
         "C) Delay antibiotics for hours awaiting perfect outpatient follow-up in febrile neonate lethargy",
         "D) Apply adult rule of nines unchanged for infants without modification awareness"
       ],
-      "answer": "A) Urgent antibiotics/workup; droplet precautions as indicated; neuro/ICP watch; hearing follow-up awareness",
-      "explanation": "Neonates/infants decompensate rapidly; early therapy saves brain/life. Therefore, the most accurate choice is: Urgent antibiotics/workup; droplet precautions as indicated; neuro/ICP watch; hearing follow-up awareness. Delayed antibiotics in possible meningitis is a .",
+      "answer": "A) Urgent antibiotics/workup; droplet precautions as indicated; neuro/intracranial pressure watch; hearing follow-up awareness",
+      "explanation": "Neonates/infants decompensate rapidly; early therapy saves brain/life. Therefore, the most accurate choice is: Urgent antibiotics/workup; droplet precautions as indicated; neuro/intracranial pressure watch; hearing follow-up awareness. Delayed antibiotics in possible meningitis is a .",
       "choice_explanations": {
         "A": "Neonates/infants decompensate rapidly; early therapy saves brain/life. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1428,7 +1428,7 @@
     },
     {
       "id": "pediatrics:hard:19",
-      "question": "A 2-year-old child returns for review of suspected febrile seizure teaching. Which of the following is most accurate?",
+      "question": "A 9-year-old child returns for review of suspected febrile seizure teaching. Which of the following is most accurate?",
       "options": [
         "A) Encourage live-virus exposure and high-salt chips during active nephrotic relapse",
         "B) Feed rapidly while semi-reclined during uncontrolled seizures risk periods",
@@ -1451,7 +1451,7 @@
         "A) Avoid aspirin in children/teens with viral illness unless specifically indicated (e.g., Kawasaki)",
         "B) Punish toddlers harshly for not cooperatively sharing like school-age children",
         "C) Give aspirin for influenza-like illness in a school-age child as routine antipyretic",
-        "D) Stop aspirin abruptly after IVIG day 1 without plan when still indicated"
+        "D) Stop aspirin abruptly after intravenous immunoglobulin day 1 without plan when still indicated"
       ],
       "answer": "A) Avoid aspirin in children/teens with viral illness unless specifically indicated (e.g., Kawasaki)",
       "explanation": "Aspirin plus viral illness associates with Reye syndrome. Therefore, the most accurate choice is: Avoid aspirin in children/teens with viral illness unless specifically indicated (e.g., Kawasaki). Routine aspirin for viral fever is a classic .",
@@ -1464,7 +1464,7 @@
     },
     {
       "id": "pediatrics:hard:21",
-      "question": "A 9-year-old child presents with features compatible with otitis media pain. Which of the following is most accurate?",
+      "question": "A 2-year-old child presents with features compatible with otitis media pain. Which of the following is most accurate?",
       "options": [
         "A) Force acidic juices on open oral ulcers and skip hydration assessment",
         "B) Withhold pain medicine and give leftover antibiotics from a prior ear infection without assessment",
@@ -1482,7 +1482,7 @@
     },
     {
       "id": "pediatrics:hard:22",
-      "question": "Which statement about tonsillectomy bleed in a 2-year-old child is most accurate?",
+      "question": "Which statement about tonsillectomy bleed in a 9-year-old child is most accurate?",
       "options": [
         "A) Frequent swallowing, vomiting blood, tachycardia—post-tonsillectomy hemorrhage emergency",
         "B) Give tortilla chips and straws day of surgery then encourage running",
@@ -1518,15 +1518,15 @@
     },
     {
       "id": "pediatrics:hard:24",
-      "question": "A 9-month-old infant is evaluated for possible pyloric stenosis. Which of the following is most accurate?",
+      "question": "A 16-month-old infant is evaluated for possible pyloric stenosis. Which of the following is most accurate?",
       "options": [
-        "A) Projectile nonbilious vomiting, olive mass, dehydration/alkalosis—NPO, IV fluids, surgical pathway",
+        "A) Projectile nonbilious vomiting, olive mass, dehydration/alkalosis—nothing by mouth, intravenous fluids, surgical pathway",
         "B) Give hot red fluids and straws immediately then ignore continuous swallowing",
         "C) Force supine throat exam with a tongue depressor in suspected epiglottitis",
         "D) Force large feeds after each projectile vomit to ‘keep up’"
       ],
-      "answer": "A) Projectile nonbilious vomiting, olive mass, dehydration/alkalosis—NPO, IV fluids, surgical pathway",
-      "explanation": "Gastric outlet obstruction needs fluid/electrolyte correction before pyloromyotomy. Therefore, the most accurate choice is: Projectile nonbilious vomiting, olive mass, dehydration/alkalosis—NPO, IV fluids, surgical pathway. Forced feeding worsens losses—.",
+      "answer": "A) Projectile nonbilious vomiting, olive mass, dehydration/alkalosis—nothing by mouth, intravenous fluids, surgical pathway",
+      "explanation": "Gastric outlet obstruction needs fluid/electrolyte correction before pyloromyotomy. Therefore, the most accurate choice is: Projectile nonbilious vomiting, olive mass, dehydration/alkalosis—nothing by mouth, intravenous fluids, surgical pathway. Forced feeding worsens losses—.",
       "choice_explanations": {
         "A": "Gastric outlet obstruction needs fluid/electrolyte correction before pyloromyotomy. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1554,15 +1554,15 @@
     },
     {
       "id": "pediatrics:hard:26",
-      "question": "In a 9-year-old child, appendicitis pediatric must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 2-year-old child, appendicitis pediatric must be separated from similar conditions. Which of the following is correct?",
       "options": [
-        "A) Give enemas and heating pads for RLQ pain with fever in a child",
+        "A) Give enemas and heating pads for right lower quadrant pain with fever in a child",
         "B) Treat fever at home for 3 days before seeking care in asplenic sickle cell disease",
         "C) Withhold opioids from a dying child in severe pain fearing legal myths",
-        "D) Pain migration, fever, anorexia—NPO, no enemas; atypical locations common"
+        "D) Pain migration, fever, anorexia—nothing by mouth, no enemas; atypical locations common"
       ],
-      "answer": "D) Pain migration, fever, anorexia—NPO, no enemas; atypical locations common",
-      "explanation": "Perforation risk rises with delayed care; enemas contraindicated. Therefore, the most accurate choice is: Pain migration, fever, anorexia—NPO, no enemas; atypical locations common. Enemas/heat are dangerous es.",
+      "answer": "D) Pain migration, fever, anorexia—nothing by mouth, no enemas; atypical locations common",
+      "explanation": "Perforation risk rises with delayed care; enemas contraindicated. Therefore, the most accurate choice is: Pain migration, fever, anorexia—nothing by mouth, no enemas; atypical locations common. Enemas/heat are dangerous es.",
       "choice_explanations": {
         "A": "Enemas/heat are dangerous near-misses. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1572,7 +1572,7 @@
     },
     {
       "id": "pediatrics:hard:27",
-      "question": "A 13-day-old newborn returns for review of suspected hirschsprung megacolon. Which of the following is most accurate?",
+      "question": "A 2-day-old newborn returns for review of suspected hirschsprung megacolon. Which of the following is most accurate?",
       "options": [
         "A) Treat fever at home for 3 days before seeking care in asplenic sickle cell disease",
         "B) A bulging fontanel with fever/irritability is always ignored as normal crying",
@@ -1590,7 +1590,7 @@
     },
     {
       "id": "pediatrics:hard:28",
-      "question": "A clinic case of GER infant teaching is discussed. Which of the following is correct?",
+      "question": "A clinic case of gastroesophageal reflux infant teaching is discussed. Which of the following is correct?",
       "options": [
         "A) Recommend prone sleep on soft pillows to reduce spit-up",
         "B) Upright after feeds, smaller volumes, thickened feeds if ordered—not forced seated sleep against safe-sleep rules",
@@ -1598,9 +1598,9 @@
         "D) Force the infant upright screaming and withhold oxygen during a hypercyanotic spell"
       ],
       "answer": "B) Upright after feeds, smaller volumes, thickened feeds if ordered—not forced seated sleep against safe-sleep rules",
-      "explanation": "Reflux precautions must not violate safe sleep (back to sleep, firm surface). Therefore, the most accurate choice is: Upright after feeds, smaller volumes, thickened feeds if ordered—not forced seated sleep against safe-sleep rules. Prone/pillow sleep raises SIDS risk—.",
+      "explanation": "Reflux precautions must not violate safe sleep (back to sleep, firm surface). Therefore, the most accurate choice is: Upright after feeds, smaller volumes, thickened feeds if ordered—not forced seated sleep against safe-sleep rules. Prone/pillow sleep raises sudden infant death syndrome risk—.",
       "choice_explanations": {
-        "A": "Prone/pillow sleep raises SIDS risk—near-miss. It is less consistent than the correct choice.",
+        "A": "Prone/pillow sleep raises sudden infant death syndrome risk—near-miss. It is less consistent than the correct choice.",
         "B": "Reflux precautions must not violate safe sleep (back to sleep, firm surface). This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1608,7 +1608,7 @@
     },
     {
       "id": "pediatrics:hard:29",
-      "question": "A 8-day-old newborn presents with features compatible with safe sleep SIDS. Which of the following is most accurate?",
+      "question": "A 11-day-old newborn presents with features compatible with safe sleep sudden infant death syndrome. Which of the following is most accurate?",
       "options": [
         "A) Recommend prone sleep on soft pillows to reduce spit-up",
         "B) Place infants prone with quilts and stuffed animals to ‘prevent flat head’ overnight",
@@ -1616,11 +1616,11 @@
         "D) Force separation from caregivers for all minor procedures without need"
       ],
       "answer": "C) Back to sleep, firm flat surface, no soft bedding/shared bed hazards; room-share without bed-share per guidance",
-      "explanation": "Supine firm sleep environment reduces SIDS risk. Therefore, the most accurate choice is: Back to sleep, firm flat surface, no soft bedding/shared bed hazards; room-share without bed-share per guidance. Prone soft bedding is a deadly .",
+      "explanation": "Supine firm sleep environment reduces sudden infant death syndrome risk. Therefore, the most accurate choice is: Back to sleep, firm flat surface, no soft bedding/shared bed hazards; room-share without bed-share per guidance. Prone soft bedding is a deadly .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Prone soft bedding is a deadly near-miss. It is less consistent than the correct choice.",
-        "C": "Supine firm sleep environment reduces SIDS risk. This matches the correct interpretation.",
+        "C": "Supine firm sleep environment reduces sudden infant death syndrome risk. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     }
@@ -1630,13 +1630,13 @@
       "id": "pediatrics:extreme:0",
       "question": "Careful reasoning about pediatric med weight dose is required. Which of the following is most accurate?",
       "options": [
-        "A) Spray MDI across the room toward a crying toddler without spacer as adequate dosing",
-        "B) Calculate pediatric doses by weight (mg/kg) with safe range checks",
+        "A) Spray metered-dose inhaler across the room toward a crying toddler without spacer as adequate dosing",
+        "B) Calculate pediatric doses by weight (milligrams/kilograms) with safe range checks",
         "C) Cover sites heavily and ignore checks because children cry anyway",
         "D) Give the full adult tablet dose to a toddler if the indication matches"
       ],
-      "answer": "B) Calculate pediatric doses by weight (mg/kg) with safe range checks",
-      "explanation": "Children’s volumes of distribution and clearance require weight-based dosing. Therefore, the most accurate choice is: Calculate pediatric doses by weight (mg/kg) with safe range checks. Adult doses in toddlers cause toxicity—classic .",
+      "answer": "B) Calculate pediatric doses by weight (milligrams/kilograms) with safe range checks",
+      "explanation": "Children’s volumes of distribution and clearance require weight-based dosing. Therefore, the most accurate choice is: Calculate pediatric doses by weight (milligrams/kilograms) with safe range checks. Adult doses in toddlers cause toxicity—classic .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Children’s volumes of distribution and clearance require weight-based dosing. This matches the correct interpretation.",
@@ -1646,15 +1646,15 @@
     },
     {
       "id": "pediatrics:extreme:1",
-      "question": "A 2-month-old infant is reassessed after incomplete response related to FLACC pain scale. Which of the following is most accurate?",
+      "question": "A 9-month-old infant is reassessed after incomplete response related to Face Legs Activity Cry Consolability pain scale pain scale. Which of the following is most accurate?",
       "options": [
-        "A) Use FLACC for nonverbal young children to score Face/Legs/Activity/Cry/Consolability",
+        "A) Use Face Legs Activity Cry Consolability pain scale for nonverbal young children to score Face/Legs/Activity/Cry/Consolability",
         "B) Use Faces scale as the only tool for deeply sedated ventilated infants without behavior scales",
         "C) Rely only on a 0–10 numeric self-report from a preverbal infant",
         "D) Perform Heimlich abdominal thrusts on a young infant as first-line"
       ],
-      "answer": "A) Use FLACC for nonverbal young children to score Face/Legs/Activity/Cry/Consolability",
-      "explanation": "Behavioral scales estimate pain when self-report is impossible. Therefore, the most accurate choice is: Use FLACC for nonverbal young children to score Face/Legs/Activity/Cry/Consolability. Numeric self-report is invalid in preverbal infants—.",
+      "answer": "A) Use Face Legs Activity Cry Consolability pain scale for nonverbal young children to score Face/Legs/Activity/Cry/Consolability",
+      "explanation": "Behavioral scales estimate pain when self-report is impossible. Therefore, the most accurate choice is: Use Face Legs Activity Cry Consolability pain scale for nonverbal young children to score Face/Legs/Activity/Cry/Consolability. Numeric self-report is invalid in preverbal infants—.",
       "choice_explanations": {
         "A": "Behavioral scales estimate pain when self-report is impossible. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1667,7 +1667,7 @@
       "question": "A detailed pediatric evaluation for wong-Baker faces is underway. Which of the following is correct?",
       "options": [
         "A) Use Faces pain scale for children who can point to facial depictions of pain intensity",
-        "B) Spray MDI across the room toward a crying toddler without spacer as adequate dosing",
+        "B) Spray metered-dose inhaler across the room toward a crying toddler without spacer as adequate dosing",
         "C) Use Faces scale as the only tool for deeply sedated ventilated infants without behavior scales",
         "D) Apply adult rule of nines unchanged for infants without modification awareness"
       ],
@@ -1682,9 +1682,9 @@
     },
     {
       "id": "pediatrics:extreme:3",
-      "question": "A 12-month-old infant has findings that make pediatric airway anatomy hard to confirm. Which of the following is most accurate?",
+      "question": "A 3-month-old infant has findings that make pediatric airway anatomy hard to confirm. Which of the following is most accurate?",
       "options": [
-        "A) Use two-hand adult CPR depth on a neonate as first technique",
+        "A) Use two-hand adult cardiopulmonary resuscitation depth on a neonate as first technique",
         "B) Hyperextend an infant’s neck maximally like an adult intubation position as default",
         "C) Infants have large occiputs/tongues—neutral sniffing alignment and careful positioning",
         "D) Apply adult rule of nines unchanged for infants without modification awareness"
@@ -1700,15 +1700,15 @@
     },
     {
       "id": "pediatrics:extreme:4",
-      "question": "In a 4-day-old newborn, distinguishing infant CPR compression from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 7-day-old newborn, distinguishing infant cardiopulmonary resuscitation compression from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Apply adult rule of nines unchanged for infants without modification awareness",
         "B) Hold children down without explanation or comfort measures as first approach always",
-        "C) Use two-hand adult CPR depth on a neonate as first technique",
-        "D) Use two-finger or two-thumb encircling techniques per BLS guidelines for infants"
+        "C) Use two-hand adult cardiopulmonary resuscitation depth on a neonate as first technique",
+        "D) Use two-finger or two-thumb encircling techniques per basic life support guidelines for infants"
       ],
-      "answer": "D) Use two-finger or two-thumb encircling techniques per BLS guidelines for infants",
-      "explanation": "Age-appropriate compression technique optimizes coronary perfusion without trauma. Therefore, the most accurate choice is: Use two-finger or two-thumb encircling techniques per BLS guidelines for infants. Adult force on neonates risks injury—.",
+      "answer": "D) Use two-finger or two-thumb encircling techniques per basic life support guidelines for infants",
+      "explanation": "Age-appropriate compression technique optimizes coronary perfusion without trauma. Therefore, the most accurate choice is: Use two-finger or two-thumb encircling techniques per basic life support guidelines for infants. Adult force on neonates risks injury—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1718,15 +1718,15 @@
     },
     {
       "id": "pediatrics:extreme:5",
-      "question": "A 16-month-old infant returns with ongoing problems attributed to choking infant. Which of the following is most accurate?",
+      "question": "A 7-month-old infant returns with ongoing problems attributed to choking infant. Which of the following is most accurate?",
       "options": [
-        "A) Use two-hand adult CPR depth on a neonate as first technique",
+        "A) Use two-hand adult cardiopulmonary resuscitation depth on a neonate as first technique",
         "B) Perform Heimlich abdominal thrusts on a young infant as first-line",
         "C) Rely only on a 0–10 numeric self-report from a preverbal infant",
-        "D) Back blows and chest thrusts for severe infant FBAO—no abdominal thrusts"
+        "D) Back blows and chest thrusts for severe infant foreign-body airway obstruction—no abdominal thrusts"
       ],
-      "answer": "D) Back blows and chest thrusts for severe infant FBAO—no abdominal thrusts",
-      "explanation": "Infant abdominal thrusts risk organ injury; back blows/chest thrusts are indicated. Therefore, the most accurate choice is: Back blows and chest thrusts for severe infant FBAO—no abdominal thrusts. Adult Heimlich on infants is a technique .",
+      "answer": "D) Back blows and chest thrusts for severe infant foreign-body airway obstruction—no abdominal thrusts",
+      "explanation": "Infant abdominal thrusts risk organ injury; back blows/chest thrusts are indicated. Therefore, the most accurate choice is: Back blows and chest thrusts for severe infant foreign-body airway obstruction—no abdominal thrusts. Adult Heimlich on infants is a technique .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Adult Heimlich on infants is a technique near-miss. It is less consistent than the correct choice.",
@@ -1736,15 +1736,15 @@
     },
     {
       "id": "pediatrics:extreme:6",
-      "question": "Senior review is requested for fontanel assessment in a 2-year-old child. Which of the following is correct?",
+      "question": "Senior review is requested for fontanel assessment in a 9-year-old child. Which of the following is correct?",
       "options": [
         "A) A bulging fontanel with fever/irritability is always ignored as normal crying",
         "B) Force acidic juices on open oral ulcers and skip hydration assessment",
         "C) Assume playful behavior always excludes significant dehydration",
-        "D) Sunken fontanel may suggest dehydration; bulging with illness can suggest ↑ICP/infection"
+        "D) Sunken fontanel may suggest dehydration; bulging with illness can suggest ↑intracranial pressure/infection"
       ],
-      "answer": "D) Sunken fontanel may suggest dehydration; bulging with illness can suggest ↑ICP/infection",
-      "explanation": "Fontanel tension reflects hydration and intracranial pressure trends. Therefore, the most accurate choice is: Sunken fontanel may suggest dehydration; bulging with illness can suggest ↑ICP/infection. Dismissing a bulging fontanel with fever misses meningitis urgency—.",
+      "answer": "D) Sunken fontanel may suggest dehydration; bulging with illness can suggest ↑intracranial pressure/infection",
+      "explanation": "Fontanel tension reflects hydration and intracranial pressure trends. Therefore, the most accurate choice is: Sunken fontanel may suggest dehydration; bulging with illness can suggest ↑intracranial pressure/infection. Dismissing a bulging fontanel with fever misses meningitis urgency—.",
       "choice_explanations": {
         "A": "Dismissing a bulging fontanel with fever misses meningitis urgency—near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1772,30 +1772,30 @@
     },
     {
       "id": "pediatrics:extreme:8",
-      "question": "A 9-year-old child requires careful decisions about oral rehydration therapy. Which of the following is most accurate?",
+      "question": "A 2-year-old child requires careful decisions about oral rehydration therapy. Which of the following is most accurate?",
       "options": [
         "A) Perform deep frequent abdominal palpation for teaching rounds on suspected Wilms tumor",
         "B) Use only abstract statistics without demonstration for a 7-year-old’s procedure teaching",
-        "C) Replace ORS with only soda and fruit juice for moderate dehydration teaching",
-        "D) Use ORS for mild–moderate dehydration; small frequent amounts"
+        "C) Replace oral rehydration solution with only soda and fruit juice for moderate dehydration teaching",
+        "D) Use oral rehydration solution for mild–moderate dehydration; small frequent amounts"
       ],
-      "answer": "D) Use ORS for mild–moderate dehydration; small frequent amounts",
-      "explanation": "ORS replaces water and electrolytes in physiologic ratios. Therefore, the most accurate choice is: Use ORS for mild–moderate dehydration; small frequent amounts. Hypotonic sugary drinks worsen diarrhea electrolyte issues—.",
+      "answer": "D) Use oral rehydration solution for mild–moderate dehydration; small frequent amounts",
+      "explanation": "oral rehydration solution replaces water and electrolytes in physiologic ratios. Therefore, the most accurate choice is: Use oral rehydration solution for mild–moderate dehydration; small frequent amounts. Hypotonic sugary drinks worsen diarrhea electrolyte issues—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Hypotonic sugary drinks worsen diarrhea electrolyte issues—near-miss. It is less consistent than the correct choice.",
-        "D": "ORS replaces water and electrolytes in physiologic ratios. This matches the correct interpretation."
+        "D": "oral rehydration solution replaces water and electrolytes in physiologic ratios. This matches the correct interpretation."
       }
     },
     {
       "id": "pediatrics:extreme:9",
-      "question": "A 2-year-old child is reassessed after incomplete response related to pediatrics bolus fluid. Which of the following is most accurate?",
+      "question": "A 9-year-old child is reassessed after incomplete response related to pediatrics bolus fluid. Which of the following is most accurate?",
       "options": [
         "A) Perform Heimlich abdominal thrusts on a young infant as first-line",
         "B) Use hypotonic D5W boluses for hypovolemic shock as first fluid",
         "C) Isotonic crystalloid boluses as ordered for shock; reassess perfusion",
-        "D) Use two-hand adult CPR depth on a neonate as first technique"
+        "D) Use two-hand adult cardiopulmonary resuscitation depth on a neonate as first technique"
       ],
       "answer": "C) Isotonic crystalloid boluses as ordered for shock; reassess perfusion",
       "explanation": "Isotonic volume expands intravascular space; hypotonic fluid leaves the vessel. Therefore, the most accurate choice is: Isotonic crystalloid boluses as ordered for shock; reassess perfusion. D5W bolus for shock is a dangerous .",
@@ -1826,7 +1826,7 @@
     },
     {
       "id": "pediatrics:extreme:11",
-      "question": "A 4-year-old toddler has findings that make croup supportive care hard to confirm. Which of the following is most accurate?",
+      "question": "A 1-year-old toddler has findings that make croup supportive care hard to confirm. Which of the following is most accurate?",
       "options": [
         "A) Hold children down without explanation or comfort measures as first approach always",
         "B) Examine the throat aggressively like epiglottitis workup when barky cough is classic croup without red flags",
@@ -1844,7 +1844,7 @@
     },
     {
       "id": "pediatrics:extreme:12",
-      "question": "In a 4-month-old infant, distinguishing bronchiolitis suction caution from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 11-month-old infant, distinguishing bronchiolitis suction caution from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Examine the throat aggressively like epiglottitis workup when barky cough is classic croup without red flags",
         "B) Perform aggressive neck manipulation exercises without caution in symptomatic atlantoaxial instability",
@@ -1862,15 +1862,15 @@
     },
     {
       "id": "pediatrics:extreme:13",
-      "question": "A 4-year-old toddler returns with ongoing problems attributed to pediatric asthma spacer. Which of the following is most accurate?",
+      "question": "A 1-year-old toddler returns with ongoing problems attributed to pediatric asthma spacer. Which of the following is most accurate?",
       "options": [
         "A) Force noisy crowded waiting rooms without coping plan for sensory-sensitive children",
-        "B) Spray MDI across the room toward a crying toddler without spacer as adequate dosing",
-        "C) Use spacer/mask with MDI for young children; assess technique and action plan",
+        "B) Spray metered-dose inhaler across the room toward a crying toddler without spacer as adequate dosing",
+        "C) Use spacer/mask with metered-dose inhaler for young children; assess technique and action plan",
         "D) Use Faces scale as the only tool for deeply sedated ventilated infants without behavior scales"
       ],
-      "answer": "C) Use spacer/mask with MDI for young children; assess technique and action plan",
-      "explanation": "Spacers improve lung deposition when coordination is poor. Therefore, the most accurate choice is: Use spacer/mask with MDI for young children; assess technique and action plan. Open-air spraying wastes medication—.",
+      "answer": "C) Use spacer/mask with metered-dose inhaler for young children; assess technique and action plan",
+      "explanation": "Spacers improve lung deposition when coordination is poor. Therefore, the most accurate choice is: Use spacer/mask with metered-dose inhaler for young children; assess technique and action plan. Open-air spraying wastes medication—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Open-air spraying wastes medication—near-miss. It is less consistent than the correct choice.",
@@ -1880,30 +1880,30 @@
     },
     {
       "id": "pediatrics:extreme:14",
-      "question": "Senior review is requested for RSV isolation in a 2-year-old child. Which of the following is correct?",
+      "question": "Senior review is requested for respiratory syncytial virus isolation in a 9-year-old child. Which of the following is correct?",
       "options": [
         "A) Droplet precautions; treat/prophylaxis per guidelines; cough precautions teaching",
-        "B) No precautions needed for RSV because it is ‘only a cold’",
+        "B) No precautions needed for respiratory syncytial virus because it is ‘only a cold’",
         "C) Contact (± droplet) precautions per policy; hand hygiene; cohorting rules",
-        "D) Urgent antibiotics/workup; droplet precautions as indicated; neuro/ICP watch; hearing follow-up awareness"
+        "D) Urgent antibiotics/workup; droplet precautions as indicated; neuro/intracranial pressure watch; hearing follow-up awareness"
       ],
       "answer": "C) Contact (± droplet) precautions per policy; hand hygiene; cohorting rules",
-      "explanation": "RSV spreads readily on hands/fomites in pediatric units. Therefore, the most accurate choice is: Contact (± droplet) precautions per policy; hand hygiene; cohorting rules. Calling RSV harmless for infection control is a .",
+      "explanation": "respiratory syncytial virus spreads readily on hands/fomites in pediatric units. Therefore, the most accurate choice is: Contact (± droplet) precautions per policy; hand hygiene; cohorting rules. Calling respiratory syncytial virus harmless for infection control is a .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Calling RSV harmless for infection control is a near-miss. It is less consistent than the correct choice.",
-        "C": "RSV spreads readily on hands/fomites in pediatric units. This matches the correct interpretation.",
+        "B": "Calling respiratory syncytial virus harmless for infection control is a near-miss. It is less consistent than the correct choice.",
+        "C": "respiratory syncytial virus spreads readily on hands/fomites in pediatric units. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pediatrics:extreme:15",
-      "question": "Which statement about pertussis droplet in a 14-day-old newborn is most accurate?",
+      "question": "Which statement about pertussis droplet in a 3-day-old newborn is most accurate?",
       "options": [
         "A) Allow unmasked close face exposure of neonates to untreated coughing household contacts",
         "B) Treat only one family member and continue bed-sharing untreated siblings",
         "C) Droplet precautions; treat/prophylaxis per guidelines; cough precautions teaching",
-        "D) No precautions needed for RSV because it is ‘only a cold’"
+        "D) No precautions needed for respiratory syncytial virus because it is ‘only a cold’"
       ],
       "answer": "C) Droplet precautions; treat/prophylaxis per guidelines; cough precautions teaching",
       "explanation": "Household transmission to infants can be fatal; prophylaxis protects. Therefore, the most accurate choice is: Droplet precautions; treat/prophylaxis per guidelines; cough precautions teaching. Exposing neonates is a preventable tragedy .",
@@ -1918,23 +1918,23 @@
       "id": "pediatrics:extreme:16",
       "question": "Careful reasoning about kawasaki cardiac watch is required. Which of the following is most accurate?",
       "options": [
-        "A) Stop aspirin abruptly after IVIG day 1 without plan when still indicated",
-        "B) Aspirin/IVIG as ordered; monitor for coronary aneurysm risk; defer live vaccines per timing rules",
-        "C) Give live measles vaccine the day after IVIG without timing consideration",
-        "D) Give MMR within days after high-dose IVIG without timing adjustment"
+        "A) Stop aspirin abruptly after intravenous immunoglobulin day 1 without plan when still indicated",
+        "B) Aspirin/intravenous immunoglobulin as ordered; monitor for coronary aneurysm risk; defer live vaccines per timing rules",
+        "C) Give live measles vaccine the day after intravenous immunoglobulin without timing consideration",
+        "D) Give mismatch repair within days after high-dose intravenous immunoglobulin without timing adjustment"
       ],
-      "answer": "B) Aspirin/IVIG as ordered; monitor for coronary aneurysm risk; defer live vaccines per timing rules",
-      "explanation": "Coronary involvement drives follow-up; IVIG can interfere with live vaccine response. Therefore, the most accurate choice is: Aspirin/IVIG as ordered; monitor for coronary aneurysm risk; defer live vaccines per timing rules. Immediate live vaccines post-IVIG may fail—.",
+      "answer": "B) Aspirin/intravenous immunoglobulin as ordered; monitor for coronary aneurysm risk; defer live vaccines per timing rules",
+      "explanation": "Coronary involvement drives follow-up; intravenous immunoglobulin can interfere with live vaccine response. Therefore, the most accurate choice is: Aspirin/intravenous immunoglobulin as ordered; monitor for coronary aneurysm risk; defer live vaccines per timing rules. Immediate live vaccines post-intravenous immunoglobulin may fail—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Coronary involvement drives follow-up; IVIG can interfere with live vaccine response. This matches the correct interpretation.",
-        "C": "Immediate live vaccines post-IVIG may fail—near-miss. It is less consistent than the correct choice.",
+        "B": "Coronary involvement drives follow-up; intravenous immunoglobulin can interfere with live vaccine response. This matches the correct interpretation.",
+        "C": "Immediate live vaccines post-intravenous immunoglobulin may fail—near-miss. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pediatrics:extreme:17",
-      "question": "A 2-year-old child is reassessed after incomplete response related to rheumatic fever prevention. Which of the following is most accurate?",
+      "question": "A 9-year-old child is reassessed after incomplete response related to rheumatic fever prevention. Which of the following is most accurate?",
       "options": [
         "A) Stop strep antibiotics after 1 day of fever relief and save the rest",
         "B) Treat fever at home for 3 days before seeking care in asplenic sickle cell disease",
@@ -1952,15 +1952,15 @@
     },
     {
       "id": "pediatrics:extreme:18",
-      "question": "A 12-day-old newborn needs action related to pediatric meningitis. Which of the following is correct?",
+      "question": "A 1-day-old newborn needs action related to pediatric meningitis. Which of the following is correct?",
       "options": [
-        "A) Urgent antibiotics/workup; droplet precautions as indicated; neuro/ICP watch; hearing follow-up awareness",
+        "A) Urgent antibiotics/workup; droplet precautions as indicated; neuro/intracranial pressure watch; hearing follow-up awareness",
         "B) Allow unmasked close face exposure of neonates to untreated coughing household contacts",
         "C) Apply adult rule of nines unchanged for infants without modification awareness",
         "D) Delay antibiotics for hours awaiting perfect outpatient follow-up in febrile neonate lethargy"
       ],
-      "answer": "A) Urgent antibiotics/workup; droplet precautions as indicated; neuro/ICP watch; hearing follow-up awareness",
-      "explanation": "Neonates/infants decompensate rapidly; early therapy saves brain/life. Therefore, the most accurate choice is: Urgent antibiotics/workup; droplet precautions as indicated; neuro/ICP watch; hearing follow-up awareness. Delayed antibiotics in possible meningitis is a .",
+      "answer": "A) Urgent antibiotics/workup; droplet precautions as indicated; neuro/intracranial pressure watch; hearing follow-up awareness",
+      "explanation": "Neonates/infants decompensate rapidly; early therapy saves brain/life. Therefore, the most accurate choice is: Urgent antibiotics/workup; droplet precautions as indicated; neuro/intracranial pressure watch; hearing follow-up awareness. Delayed antibiotics in possible meningitis is a .",
       "choice_explanations": {
         "A": "Neonates/infants decompensate rapidly; early therapy saves brain/life. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1970,7 +1970,7 @@
     },
     {
       "id": "pediatrics:extreme:19",
-      "question": "A 2-year-old child has findings that make febrile seizure teaching hard to confirm. Which of the following is most accurate?",
+      "question": "A 9-year-old child has findings that make febrile seizure teaching hard to confirm. Which of the following is most accurate?",
       "options": [
         "A) Feed rapidly while semi-reclined during uncontrolled seizures risk periods",
         "B) Insert objects in the mouth and restrain forcefully during a febrile seizure",
@@ -1988,12 +1988,12 @@
     },
     {
       "id": "pediatrics:extreme:20",
-      "question": "In a 2-year-old child, distinguishing reye syndrome caution from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 9-year-old child, distinguishing reye syndrome caution from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Avoid aspirin in children/teens with viral illness unless specifically indicated (e.g., Kawasaki)",
         "B) Punish toddlers harshly for not cooperatively sharing like school-age children",
         "C) Give aspirin for influenza-like illness in a school-age child as routine antipyretic",
-        "D) Stop aspirin abruptly after IVIG day 1 without plan when still indicated"
+        "D) Stop aspirin abruptly after intravenous immunoglobulin day 1 without plan when still indicated"
       ],
       "answer": "A) Avoid aspirin in children/teens with viral illness unless specifically indicated (e.g., Kawasaki)",
       "explanation": "Aspirin plus viral illness associates with Reye syndrome. Therefore, the most accurate choice is: Avoid aspirin in children/teens with viral illness unless specifically indicated (e.g., Kawasaki). Routine aspirin for viral fever is a classic .",
@@ -2006,7 +2006,7 @@
     },
     {
       "id": "pediatrics:extreme:21",
-      "question": "A 9-year-old child returns with ongoing problems attributed to otitis media pain. Which of the following is most accurate?",
+      "question": "A 2-year-old child returns with ongoing problems attributed to otitis media pain. Which of the following is most accurate?",
       "options": [
         "A) Withhold pain medicine and give leftover antibiotics from a prior ear infection without assessment",
         "B) Force acidic juices on open oral ulcers and skip hydration assessment",
@@ -2024,7 +2024,7 @@
     },
     {
       "id": "pediatrics:extreme:22",
-      "question": "Senior review is requested for tonsillectomy bleed in a 2-year-old child. Which of the following is correct?",
+      "question": "Senior review is requested for tonsillectomy bleed in a 9-year-old child. Which of the following is correct?",
       "options": [
         "A) Allow running immediately after femoral access and ignore expanding groin hematoma",
         "B) Give tortilla chips and straws day of surgery then encourage running",
@@ -2042,7 +2042,7 @@
     },
     {
       "id": "pediatrics:extreme:23",
-      "question": "Which statement about managing cleft palate feeding in a 2-year-old child is most accurate?",
+      "question": "Which statement about managing cleft palate feeding in a 9-year-old child is most accurate?",
       "options": [
         "A) Upright feeding, special nipples/bottles, frequent burping, aspiration watch",
         "B) Force supine throat exam with a tongue depressor in suspected epiglottitis",
@@ -2060,15 +2060,15 @@
     },
     {
       "id": "pediatrics:extreme:24",
-      "question": "A 9-month-old infant has a complex presentation of pyloric stenosis. Which of the following is most accurate?",
+      "question": "A 16-month-old infant has a complex presentation of pyloric stenosis. Which of the following is most accurate?",
       "options": [
-        "A) Projectile nonbilious vomiting, olive mass, dehydration/alkalosis—NPO, IV fluids, surgical pathway",
+        "A) Projectile nonbilious vomiting, olive mass, dehydration/alkalosis—nothing by mouth, intravenous fluids, surgical pathway",
         "B) Force supine throat exam with a tongue depressor in suspected epiglottitis",
         "C) Force large feeds after each projectile vomit to ‘keep up’",
         "D) Give hot red fluids and straws immediately then ignore continuous swallowing"
       ],
-      "answer": "A) Projectile nonbilious vomiting, olive mass, dehydration/alkalosis—NPO, IV fluids, surgical pathway",
-      "explanation": "Gastric outlet obstruction needs fluid/electrolyte correction before pyloromyotomy. Therefore, the most accurate choice is: Projectile nonbilious vomiting, olive mass, dehydration/alkalosis—NPO, IV fluids, surgical pathway. Forced feeding worsens losses—.",
+      "answer": "A) Projectile nonbilious vomiting, olive mass, dehydration/alkalosis—nothing by mouth, intravenous fluids, surgical pathway",
+      "explanation": "Gastric outlet obstruction needs fluid/electrolyte correction before pyloromyotomy. Therefore, the most accurate choice is: Projectile nonbilious vomiting, olive mass, dehydration/alkalosis—nothing by mouth, intravenous fluids, surgical pathway. Forced feeding worsens losses—.",
       "choice_explanations": {
         "A": "Gastric outlet obstruction needs fluid/electrolyte correction before pyloromyotomy. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -2082,7 +2082,7 @@
       "options": [
         "A) Send home without evaluation when episodes of severe pain alternate with lethargy",
         "B) Reassure that multiple magnets always pass harmlessly without evaluation",
-        "C) Treat sudden hemiparesis in SCD with only oral opioids at home",
+        "C) Treat sudden hemiparesis in sequential compression device with only oral opioids at home",
         "D) Currant-jelly stool, intermittent colicky pain, lethargy—urgent evaluation"
       ],
       "answer": "D) Currant-jelly stool, intermittent colicky pain, lethargy—urgent evaluation",
@@ -2099,12 +2099,12 @@
       "question": "A detailed pediatric evaluation for appendicitis pediatric is underway. Which of the following is correct?",
       "options": [
         "A) Withhold opioids from a dying child in severe pain fearing legal myths",
-        "B) Pain migration, fever, anorexia—NPO, no enemas; atypical locations common",
-        "C) Give enemas and heating pads for RLQ pain with fever in a child",
+        "B) Pain migration, fever, anorexia—nothing by mouth, no enemas; atypical locations common",
+        "C) Give enemas and heating pads for right lower quadrant pain with fever in a child",
         "D) Treat fever at home for 3 days before seeking care in asplenic sickle cell disease"
       ],
-      "answer": "B) Pain migration, fever, anorexia—NPO, no enemas; atypical locations common",
-      "explanation": "Perforation risk rises with delayed care; enemas contraindicated. Therefore, the most accurate choice is: Pain migration, fever, anorexia—NPO, no enemas; atypical locations common. Enemas/heat are dangerous es.",
+      "answer": "B) Pain migration, fever, anorexia—nothing by mouth, no enemas; atypical locations common",
+      "explanation": "Perforation risk rises with delayed care; enemas contraindicated. Therefore, the most accurate choice is: Pain migration, fever, anorexia—nothing by mouth, no enemas; atypical locations common. Enemas/heat are dangerous es.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Perforation risk rises with delayed care; enemas contraindicated. This matches the correct interpretation.",
@@ -2114,7 +2114,7 @@
     },
     {
       "id": "pediatrics:extreme:27",
-      "question": "A 13-day-old newborn has findings that make hirschsprung megacolon hard to confirm. Which of the following is most accurate?",
+      "question": "A 2-day-old newborn has findings that make hirschsprung megacolon hard to confirm. Which of the following is most accurate?",
       "options": [
         "A) Reassure that multiple magnets always pass harmlessly without evaluation",
         "B) Shame caregivers publicly without assessment of medical causes",
@@ -2132,25 +2132,25 @@
     },
     {
       "id": "pediatrics:extreme:28",
-      "question": "In a 6-month-old infant, distinguishing GER infant teaching from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 13-month-old infant, distinguishing gastroesophageal reflux infant teaching from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Place infants prone with quilts and stuffed animals to ‘prevent flat head’ overnight",
         "B) Upright after feeds, smaller volumes, thickened feeds if ordered—not forced seated sleep against safe-sleep rules",
         "C) Recommend prone sleep on soft pillows to reduce spit-up",
-        "D) Allow 60-minute exhausting feeds without breaks in CHF infants"
+        "D) Allow 60-minute exhausting feeds without breaks in congestive heart failure infants"
       ],
       "answer": "B) Upright after feeds, smaller volumes, thickened feeds if ordered—not forced seated sleep against safe-sleep rules",
-      "explanation": "Reflux precautions must not violate safe sleep (back to sleep, firm surface). Therefore, the most accurate choice is: Upright after feeds, smaller volumes, thickened feeds if ordered—not forced seated sleep against safe-sleep rules. Prone/pillow sleep raises SIDS risk—.",
+      "explanation": "Reflux precautions must not violate safe sleep (back to sleep, firm surface). Therefore, the most accurate choice is: Upright after feeds, smaller volumes, thickened feeds if ordered—not forced seated sleep against safe-sleep rules. Prone/pillow sleep raises sudden infant death syndrome risk—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Reflux precautions must not violate safe sleep (back to sleep, firm surface). This matches the correct interpretation.",
-        "C": "Prone/pillow sleep raises SIDS risk—near-miss. It is less consistent than the correct choice.",
+        "C": "Prone/pillow sleep raises sudden infant death syndrome risk—near-miss. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pediatrics:extreme:29",
-      "question": "A 8-day-old newborn returns with ongoing problems attributed to safe sleep SIDS. Which of the following is most accurate?",
+      "question": "A 11-day-old newborn returns with ongoing problems attributed to safe sleep sudden infant death syndrome. Which of the following is most accurate?",
       "options": [
         "A) Place infants prone with quilts and stuffed animals to ‘prevent flat head’ overnight",
         "B) Place supine pressure on an intact myelomeningocele sac preop",
@@ -2158,11 +2158,11 @@
         "D) Recommend prone sleep on soft pillows to reduce spit-up"
       ],
       "answer": "C) Back to sleep, firm flat surface, no soft bedding/shared bed hazards; room-share without bed-share per guidance",
-      "explanation": "Supine firm sleep environment reduces SIDS risk. Therefore, the most accurate choice is: Back to sleep, firm flat surface, no soft bedding/shared bed hazards; room-share without bed-share per guidance. Prone soft bedding is a deadly .",
+      "explanation": "Supine firm sleep environment reduces sudden infant death syndrome risk. Therefore, the most accurate choice is: Back to sleep, firm flat surface, no soft bedding/shared bed hazards; room-share without bed-share per guidance. Prone soft bedding is a deadly .",
       "choice_explanations": {
         "A": "Prone soft bedding is a deadly near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Supine firm sleep environment reduces SIDS risk. This matches the correct interpretation.",
+        "C": "Supine firm sleep environment reduces sudden infant death syndrome risk. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     }

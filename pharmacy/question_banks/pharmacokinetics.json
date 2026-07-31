@@ -4,17 +4,17 @@
       "id": "pharmacokinetics:easy:0",
       "question": "Which of the following best defines bioavailability F?",
       "options": [
-        "A) Requires an IV arm by definition for relative bioavailability",
-        "B) Compares two oral products without any IV reference",
+        "A) Requires an intravenous arm by definition for relative bioavailability",
+        "B) Compares two oral products without any intravenous reference",
         "C) Fraction of administered dose reaching systemic circulation unchanged",
-        "D) Always equal to clearance in mL/min"
+        "D) Always equal to clearance in milliliters/min"
       ],
       "answer": "C) Fraction of administered dose reaching systemic circulation unchanged",
-      "explanation": "F compares systemic exposure from extravascular versus IV reference dosing. Therefore, the most accurate choice is: Fraction of administered dose reaching systemic circulation unchanged. Clearance is an elimination parameter, not F.",
+      "explanation": "F compares systemic exposure from extravascular versus intravenous reference dosing. Therefore, the most accurate choice is: Fraction of administered dose reaching systemic circulation unchanged. Clearance is an elimination parameter, not F.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "F compares systemic exposure from extravascular versus IV reference dosing. This matches the correct interpretation.",
+        "C": "F compares systemic exposure from extravascular versus intravenous reference dosing. This matches the correct interpretation.",
         "D": "Clearance is an elimination parameter, not F. It is less consistent than the correct choice."
       }
     },
@@ -22,18 +22,18 @@
       "id": "pharmacokinetics:easy:1",
       "question": "Which statement about absolute bioavailability is correct?",
       "options": [
-        "A) Dosage form never affects oral bioavailability if API milligrams match",
-        "B) Requires an IV arm by definition for relative bioavailability",
-        "C) Compares two oral products without any IV reference",
-        "D) Compares AUC after extravascular dose to AUC after IV dose normalized by dose"
+        "A) Dosage form never affects oral bioavailability if active pharmaceutical ingredient milligrams match",
+        "B) Requires an intravenous arm by definition for relative bioavailability",
+        "C) Compares two oral products without any intravenous reference",
+        "D) Compares area under the curve after extravascular dose to area under the curve after intravenous dose normalized by dose"
       ],
-      "answer": "D) Compares AUC after extravascular dose to AUC after IV dose normalized by dose",
-      "explanation": "IV dose defines 100% systemic delivery for the absolute F calculation. Therefore, the most accurate choice is: Compares AUC after extravascular dose to AUC after IV dose normalized by dose. Oral-versus-oral comparison without IV is relative bioavailability/BE territory.",
+      "answer": "D) Compares area under the curve after extravascular dose to area under the curve after intravenous dose normalized by dose",
+      "explanation": "intravenous dose defines 100% systemic delivery for the absolute F calculation. Therefore, the most accurate choice is: Compares area under the curve after extravascular dose to area under the curve after intravenous dose normalized by dose. Oral-versus-oral comparison without intravenous is relative bioavailability/bioequivalence territory.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Oral-versus-oral comparison without IV is relative bioavailability/BE territory. It is less consistent than the correct choice.",
-        "D": "IV dose defines 100% systemic delivery for the absolute F calculation. This matches the correct interpretation."
+        "C": "Oral-versus-oral comparison without intravenous is relative bioavailability/bioequivalence territory. It is less consistent than the correct choice.",
+        "D": "intravenous dose defines 100% systemic delivery for the absolute F calculation. This matches the correct interpretation."
       }
     },
     {
@@ -41,33 +41,33 @@
       "question": "In basic pharmacology, which of the following is true of relative bioavailability?",
       "options": [
         "A) Compares systemic exposure of two extravascular formulations",
-        "B) Compares two oral products without any IV reference",
-        "C) Requires an IV arm by definition for relative bioavailability",
-        "D) BE requires arithmetic mean ratios of exactly 100% with zero variance"
+        "B) Compares two oral products without any intravenous reference",
+        "C) Requires an intravenous arm by definition for relative bioavailability",
+        "D) bioequivalence requires arithmetic mean ratios of exactly 100% with zero variance"
       ],
       "answer": "A) Compares systemic exposure of two extravascular formulations",
-      "explanation": "Test/reference AUC ratios assess formulation performance. Therefore, the most accurate choice is: Compares systemic exposure of two extravascular formulations. Relative F does not require IV dosing.",
+      "explanation": "Test/reference area under the curve ratios assess formulation performance. Therefore, the most accurate choice is: Compares systemic exposure of two extravascular formulations. Relative F does not require intravenous dosing.",
       "choice_explanations": {
-        "A": "Test/reference AUC ratios assess formulation performance. This matches the correct interpretation.",
+        "A": "Test/reference area under the curve ratios assess formulation performance. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Relative F does not require IV dosing. It is less consistent than the correct choice.",
+        "C": "Relative F does not require intravenous dosing. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmacokinetics:easy:3",
-      "question": "Which of the following correctly describes AUC meaning?",
+      "question": "Which of the following correctly describes area under the curve meaning?",
       "options": [
-        "A) AUC equals only the peak concentration Cmax",
+        "A) area under the curve equals only the peak concentration Cmax",
         "B) Area under concentration–time curve indexes extent of systemic exposure",
-        "C) MRT equals only Tmax",
+        "C) mean residence time equals only Tmax",
         "D) Tmax exclusively measures renal clearance"
       ],
       "answer": "B) Area under concentration–time curve indexes extent of systemic exposure",
-      "explanation": "AUC relates to dose and clearance for linear kinetics (AUC = F·Dose/CL). Therefore, the most accurate choice is: Area under concentration–time curve indexes extent of systemic exposure. Cmax is a single-point metric, not the full exposure integral.",
+      "explanation": "area under the curve relates to dose and clearance for linear kinetics (area under the curve = F·Dose/contact lens). Therefore, the most accurate choice is: Area under concentration–time curve indexes extent of systemic exposure. Cmax is a single-point metric, not the full exposure integral.",
       "choice_explanations": {
         "A": "Cmax is a single-point metric, not the full exposure integral. It is less consistent than the correct choice.",
-        "B": "AUC relates to dose and clearance for linear kinetics (AUC = F·Dose/CL). This matches the correct interpretation.",
+        "B": "area under the curve relates to dose and clearance for linear kinetics (area under the curve = F·Dose/contact lens). This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -79,7 +79,7 @@
         "A) Kel is read from the absorption peak only",
         "B) Cmax is peak concentration; Tmax is time of peak reflecting absorption rate themes",
         "C) Tmax exclusively measures renal clearance",
-        "D) AUC equals only the peak concentration Cmax"
+        "D) area under the curve equals only the peak concentration Cmax"
       ],
       "answer": "B) Cmax is peak concentration; Tmax is time of peak reflecting absorption rate themes",
       "explanation": "Faster absorption generally raises Cmax and shortens Tmax for similar extent. Therefore, the most accurate choice is: Cmax is peak concentration; Tmax is time of peak reflecting absorption rate themes. Tmax is an absorption-timing metric, not clearance.",
@@ -94,18 +94,18 @@
       "id": "pharmacokinetics:easy:5",
       "question": "Which of the following applies to clearance primary?",
       "options": [
-        "A) CL equals Vd by definition in all drugs",
+        "A) contact lens equals Vd by definition in all drugs",
         "B) Tmax exclusively measures renal clearance",
         "C) Low-extraction clearance always equals liver blood flow",
-        "D) CL is the proportionality factor between elimination rate and plasma concentration"
+        "D) contact lens is the proportionality factor between elimination rate and plasma concentration"
       ],
-      "answer": "D) CL is the proportionality factor between elimination rate and plasma concentration",
-      "explanation": "Maintenance dosing rate ≈ CL × Css / F. Therefore, the most accurate choice is: CL is the proportionality factor between elimination rate and plasma concentration. CL and Vd are independent primary parameters.",
+      "answer": "D) contact lens is the proportionality factor between elimination rate and plasma concentration",
+      "explanation": "Maintenance dosing rate ≈ contact lens × Css / F. Therefore, the most accurate choice is: contact lens is the proportionality factor between elimination rate and plasma concentration. contact lens and Vd are independent primary parameters.",
       "choice_explanations": {
-        "A": "CL and Vd are independent primary parameters. It is less consistent than the correct choice.",
+        "A": "contact lens and Vd are independent primary parameters. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Maintenance dosing rate ≈ CL × Css / F. This matches the correct interpretation."
+        "D": "Maintenance dosing rate ≈ contact lens × Css / F. This matches the correct interpretation."
       }
     },
     {
@@ -113,16 +113,16 @@
       "question": "Which explanation of hepatic clearance is correct?",
       "options": [
         "A) CLint equals liver blood flow by definition",
-        "B) Hepatic CL depends on liver blood flow, fraction unbound, and intrinsic clearance",
-        "C) Hepatic CL depends only on tablet color",
+        "B) Hepatic contact lens depends on liver blood flow, fraction unbound, and intrinsic clearance",
+        "C) Hepatic contact lens depends only on tablet color",
         "D) Well-stirred model assumes no blood flow through liver"
       ],
-      "answer": "B) Hepatic CL depends on liver blood flow, fraction unbound, and intrinsic clearance",
-      "explanation": "Well-stirred model: CLh ≈ Q·fu·CLint / (Q + fu·CLint). Therefore, the most accurate choice is: Hepatic CL depends on liver blood flow, fraction unbound, and intrinsic clearance. Blood flow, binding, and enzyme activity jointly govern hepatic CL.",
+      "answer": "B) Hepatic contact lens depends on liver blood flow, fraction unbound, and intrinsic clearance",
+      "explanation": "Well-stirred model: CLh ≈ Q·fu·CLint / (Q + fu·CLint). Therefore, the most accurate choice is: Hepatic contact lens depends on liver blood flow, fraction unbound, and intrinsic clearance. Blood flow, binding, and enzyme activity jointly govern hepatic contact lens.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Well-stirred model: CLh ≈ Q·fu·CLint / (Q + fu·CLint). This matches the correct interpretation.",
-        "C": "Blood flow, binding, and enzyme activity jointly govern hepatic CL. It is less consistent than the correct choice.",
+        "C": "Blood flow, binding, and enzyme activity jointly govern hepatic contact lens. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -168,11 +168,11 @@
       "options": [
         "A) Bound drug is cleared preferentially while free drug is ignored",
         "B) Total and free concentrations always move identically with binding changes",
-        "C) Only unbound drug is cleared; changes in binding can affect total CL interpretations",
+        "C) Only unbound drug is cleared; changes in binding can affect total contact lens interpretations",
         "D) Nonrestrictive means nothing is cleared ever"
       ],
-      "answer": "C) Only unbound drug is cleared; changes in binding can affect total CL interpretations",
-      "explanation": "fu multiplies intrinsic clearance terms for many restrictive eliminations. Therefore, the most accurate choice is: Only unbound drug is cleared; changes in binding can affect total CL interpretations. Free drug is the form available for clearance/effect.",
+      "answer": "C) Only unbound drug is cleared; changes in binding can affect total contact lens interpretations",
+      "explanation": "fu multiplies intrinsic clearance terms for many restrictive eliminations. Therefore, the most accurate choice is: Only unbound drug is cleared; changes in binding can affect total contact lens interpretations. Free drug is the form available for clearance/effect.",
       "choice_explanations": {
         "A": "Free drug is the form available for clearance/effect. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -203,15 +203,15 @@
       "question": "Which of the following correctly describes renal clearance components?",
       "options": [
         "A) Renal clearance equals only urine flow rate always",
-        "B) GFR filtration of free drug ± secretion − reabsorption determines CLr",
-        "C) Serum creatinine alone ignoring age/weight/sex always equals true GFR exactly",
+        "B) glomerular filtration rate filtration of free drug ± secretion − reabsorption determines CLr",
+        "C) Serum creatinine alone ignoring age/weight/sex always equals true glomerular filtration rate exactly",
         "D) Protein-bound drug is freely filtered at the same rate as unbound always"
       ],
-      "answer": "B) GFR filtration of free drug ± secretion − reabsorption determines CLr",
-      "explanation": "Active secretion can make CLr exceed fu·GFR; reabsorption can lower it. Therefore, the most accurate choice is: GFR filtration of free drug ± secretion − reabsorption determines CLr. Tubular processes modify filtered load substantially.",
+      "answer": "B) glomerular filtration rate filtration of free drug ± secretion − reabsorption determines CLr",
+      "explanation": "Active secretion can make CLr exceed fu·glomerular filtration rate; reabsorption can lower it. Therefore, the most accurate choice is: glomerular filtration rate filtration of free drug ± secretion − reabsorption determines CLr. Tubular processes modify filtered load substantially.",
       "choice_explanations": {
         "A": "Tubular processes modify filtered load substantially. It is less consistent than the correct choice.",
-        "B": "Active secretion can make CLr exceed fu·GFR; reabsorption can lower it. This matches the correct interpretation.",
+        "B": "Active secretion can make CLr exceed fu·glomerular filtration rate; reabsorption can lower it. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -223,10 +223,10 @@
         "A) Renal clearance equals only urine flow rate always",
         "B) Bound drug is cleared preferentially while free drug is ignored",
         "C) Protein-bound drug is freely filtered at the same rate as unbound always",
-        "D) Filtered load ≈ fu × GFR for drugs freely filtered at glomerulus"
+        "D) Filtered load ≈ fu × glomerular filtration rate for drugs freely filtered at glomerulus"
       ],
-      "answer": "D) Filtered load ≈ fu × GFR for drugs freely filtered at glomerulus",
-      "explanation": "Size and binding restrict glomerular filtration of drug. Therefore, the most accurate choice is: Filtered load ≈ fu × GFR for drugs freely filtered at glomerulus. Bound drug is generally not freely filtered.",
+      "answer": "D) Filtered load ≈ fu × glomerular filtration rate for drugs freely filtered at glomerulus",
+      "explanation": "Size and binding restrict glomerular filtration of drug. Therefore, the most accurate choice is: Filtered load ≈ fu × glomerular filtration rate for drugs freely filtered at glomerulus. Bound drug is generally not freely filtered.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -236,19 +236,19 @@
     },
     {
       "id": "pharmacokinetics:easy:13",
-      "question": "Which of the following applies to secretion OAT OCT?",
+      "question": "Which of the following applies to secretion organic anion transporter organic cation transporter?",
       "options": [
-        "A) Tubular secretion never exceeds GFR contribution",
+        "A) Tubular secretion never exceeds glomerular filtration rate contribution",
         "B) Urine pH never affects renal excretion of weak acids/bases",
         "C) Proximal tubule transporters secrete many acids/bases, raising renal clearance",
         "D) Renal clearance equals only urine flow rate always"
       ],
       "answer": "C) Proximal tubule transporters secrete many acids/bases, raising renal clearance",
-      "explanation": "OAT/OCT and efflux transporters mediate active tubular secretion. Therefore, the most accurate choice is: Proximal tubule transporters secrete many acids/bases, raising renal clearance. Secretion can make CLr >> fu·GFR.",
+      "explanation": "organic anion transporter/organic cation transporter and efflux transporters mediate active tubular secretion. Therefore, the most accurate choice is: Proximal tubule transporters secrete many acids/bases, raising renal clearance. Secretion can make CLr >> fu·glomerular filtration rate.",
       "choice_explanations": {
-        "A": "Secretion can make CLr >> fu·GFR. It is less consistent than the correct choice.",
+        "A": "Secretion can make CLr >> fu·glomerular filtration rate. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "OAT/OCT and efflux transporters mediate active tubular secretion. This matches the correct interpretation.",
+        "C": "organic anion transporter/organic cation transporter and efflux transporters mediate active tubular secretion. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -259,7 +259,7 @@
         "A) Urine pH never affects renal excretion of weak acids/bases",
         "B) Renal clearance equals only urine flow rate always",
         "C) Passive reabsorption of unionized drug can be manipulated by urine pH (ion trapping)",
-        "D) Tubular secretion never exceeds GFR contribution"
+        "D) Tubular secretion never exceeds glomerular filtration rate contribution"
       ],
       "answer": "C) Passive reabsorption of unionized drug can be manipulated by urine pH (ion trapping)",
       "explanation": "Alkaline urine ionizes weak acids reducing reabsorption. Therefore, the most accurate choice is: Passive reabsorption of unionized drug can be manipulated by urine pH (ion trapping). pH trapping is a classic renal excretion modifier.",
@@ -274,7 +274,7 @@
       "id": "pharmacokinetics:easy:15",
       "question": "Which of the following is true for creatinine clearance estimate?",
       "options": [
-        "A) Serum creatinine alone ignoring age/weight/sex always equals true GFR exactly",
+        "A) Serum creatinine alone ignoring age/weight/sex always equals true glomerular filtration rate exactly",
         "B) Renal clearance equals only urine flow rate always",
         "C) eCrCl/eGFR estimates guide renally cleared drug dosing adjustments",
         "D) Protein-bound drug is freely filtered at the same rate as unbound always"
@@ -290,15 +290,15 @@
     },
     {
       "id": "pharmacokinetics:easy:16",
-      "question": "Which of the following best defines nonlinear PK Michaelis?",
+      "question": "Which of the following best defines nonlinear pharmacokinetics Michaelis?",
       "options": [
-        "A) CL = AUC/Dose",
-        "B) Saturable metabolism yields dose-dependent clearance and disproportionate AUC increases",
-        "C) Phenytoin always shows strict dose-proportional linear PK at all doses",
-        "D) Saturable metabolism keeps AUC perfectly proportional to dose forever"
+        "A) contact lens = area under the curve/Dose",
+        "B) Saturable metabolism yields dose-dependent clearance and disproportionate area under the curve increases",
+        "C) Phenytoin always shows strict dose-proportional linear pharmacokinetics at all doses",
+        "D) Saturable metabolism keeps area under the curve perfectly proportional to dose forever"
       ],
-      "answer": "B) Saturable metabolism yields dose-dependent clearance and disproportionate AUC increases",
-      "explanation": "When concentrations near Km, clearance falls as dose rises. Therefore, the most accurate choice is: Saturable metabolism yields dose-dependent clearance and disproportionate AUC increases. Proportionality breaks down under saturation.",
+      "answer": "B) Saturable metabolism yields dose-dependent clearance and disproportionate area under the curve increases",
+      "explanation": "When concentrations near Km, clearance falls as dose rises. Therefore, the most accurate choice is: Saturable metabolism yields dose-dependent clearance and disproportionate area under the curve increases. Proportionality breaks down under saturation.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "When concentrations near Km, clearance falls as dose rises. This matches the correct interpretation.",
@@ -310,16 +310,16 @@
       "id": "pharmacokinetics:easy:17",
       "question": "Which finding is expected in phenytoin nonlinear?",
       "options": [
-        "A) Saturable metabolism keeps AUC perfectly proportional to dose forever",
+        "A) Saturable metabolism keeps area under the curve perfectly proportional to dose forever",
         "B) Small dose increases can cause large phenytoin level jumps near saturation",
-        "C) TMDD means monoclonal antibodies always show linear PK at all doses",
-        "D) Phenytoin always shows strict dose-proportional linear PK at all doses"
+        "C) target-mediated drug disposition means monoclonal antibodies always show linear pharmacokinetics at all doses",
+        "D) Phenytoin always shows strict dose-proportional linear pharmacokinetics at all doses"
       ],
       "answer": "B) Small dose increases can cause large phenytoin level jumps near saturation",
-      "explanation": "Vmax/Km behavior demands cautious titration and TDM. Therefore, the most accurate choice is: Small dose increases can cause large phenytoin level jumps near saturation. Linearity does not hold across the therapeutic range.",
+      "explanation": "Vmax/Km behavior demands cautious titration and therapeutic drug monitoring. Therefore, the most accurate choice is: Small dose increases can cause large phenytoin level jumps near saturation. Linearity does not hold across the therapeutic range.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Vmax/Km behavior demands cautious titration and TDM. This matches the correct interpretation.",
+        "B": "Vmax/Km behavior demands cautious titration and therapeutic drug monitoring. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Linearity does not hold across the therapeutic range. It is less consistent than the correct choice."
       }
@@ -344,11 +344,11 @@
     },
     {
       "id": "pharmacokinetics:easy:19",
-      "question": "In one-compartment IV bolus, which of the following is correct?",
+      "question": "In one-compartment intravenous bolus, which of the following is correct?",
       "options": [
-        "A) Oral absorption is always zero-order with constant mg/h for every immediate-release tablet",
+        "A) Oral absorption is always zero-order with constant milligrams/h for every immediate-release tablet",
         "B) Two-compartment means zero distribution time and single exponential only",
-        "C) IV bolus always shows multi-exponential tissue distribution with no simple V",
+        "C) intravenous bolus always shows multi-exponential tissue distribution with no simple V",
         "D) Cp declines monoexponentially; V = Dose/C0; t½ = 0.693/k"
       ],
       "answer": "D) Cp declines monoexponentially; V = Dose/C0; t½ = 0.693/k",
@@ -364,13 +364,13 @@
       "id": "pharmacokinetics:easy:20",
       "question": "Which of the following best describes two-compartment model?",
       "options": [
-        "A) IV bolus always shows multi-exponential tissue distribution with no simple V",
+        "A) intravenous bolus always shows multi-exponential tissue distribution with no simple V",
         "B) Two-compartment means zero distribution time and single exponential only",
-        "C) Oral absorption is always zero-order with constant mg/h for every immediate-release tablet",
-        "D) Distribution phase (α) then elimination phase (β) after IV bolus"
+        "C) Oral absorption is always zero-order with constant milligrams/h for every immediate-release tablet",
+        "D) Distribution phase (α) then elimination phase (β) after intravenous bolus"
       ],
-      "answer": "D) Distribution phase (α) then elimination phase (β) after IV bolus",
-      "explanation": "Drug equilibrates between central and peripheral compartments. Therefore, the most accurate choice is: Distribution phase (α) then elimination phase (β) after IV bolus. Biexponential decline is expected, not monoexponential only.",
+      "answer": "D) Distribution phase (α) then elimination phase (β) after intravenous bolus",
+      "explanation": "Drug equilibrates between central and peripheral compartments. Therefore, the most accurate choice is: Distribution phase (α) then elimination phase (β) after intravenous bolus. Biexponential decline is expected, not monoexponential only.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Biexponential decline is expected, not monoexponential only. It is less consistent than the correct choice.",
@@ -400,17 +400,17 @@
       "id": "pharmacokinetics:easy:22",
       "question": "Which mechanism accounts for steady-state infusion?",
       "options": [
-        "A) Css equals infusion rate × CL",
+        "A) Css equals infusion rate × contact lens",
         "B) Vss always equals Vz for every multicompartment drug",
-        "C) Css = infusion rate / CL for continuous IV infusion at steady state",
-        "D) t½ alone determines maintenance dose rate without CL"
+        "C) Css = infusion rate / contact lens for continuous intravenous infusion at steady state",
+        "D) t½ alone determines maintenance dose rate without contact lens"
       ],
-      "answer": "C) Css = infusion rate / CL for continuous IV infusion at steady state",
-      "explanation": "Input equals elimination at steady state: R0 = CL × Css. Therefore, the most accurate choice is: Css = infusion rate / CL for continuous IV infusion at steady state. Css is rate divided by CL, not multiplied.",
+      "answer": "C) Css = infusion rate / contact lens for continuous intravenous infusion at steady state",
+      "explanation": "Input equals elimination at steady state: R0 = contact lens × Css. Therefore, the most accurate choice is: Css = infusion rate / contact lens for continuous intravenous infusion at steady state. Css is rate divided by contact lens, not multiplied.",
       "choice_explanations": {
-        "A": "Css is rate divided by CL, not multiplied. It is less consistent than the correct choice.",
+        "A": "Css is rate divided by contact lens, not multiplied. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Input equals elimination at steady state: R0 = CL × Css. This matches the correct interpretation.",
+        "C": "Input equals elimination at steady state: R0 = contact lens × Css. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -438,13 +438,13 @@
       "options": [
         "A) Accumulation factor rises when dosing interval is short relative to t½",
         "B) No accumulation ever occurs with repeated dosing regardless of interval",
-        "C) t½ alone determines maintenance dose rate without CL",
+        "C) t½ alone determines maintenance dose rate without contact lens",
         "D) Superposition forbids predicting multiple-dose levels from single-dose data ever"
       ],
       "answer": "A) Accumulation factor rises when dosing interval is short relative to t½",
-      "explanation": "AUC_tau at steady state equals AUC_inf of a single dose (linear PK). Therefore, the most accurate choice is: Accumulation factor rises when dosing interval is short relative to t½. Accumulation is expected when doses are given more often than elimination completes.",
+      "explanation": "AUC_tau at steady state equals AUC_inf of a single dose (linear pharmacokinetics). Therefore, the most accurate choice is: Accumulation factor rises when dosing interval is short relative to t½. Accumulation is expected when doses are given more often than elimination completes.",
       "choice_explanations": {
-        "A": "AUC_tau at steady state equals AUC_inf of a single dose (linear PK). This matches the correct interpretation.",
+        "A": "AUC_tau at steady state equals AUC_inf of a single dose (linear pharmacokinetics). This matches the correct interpretation.",
         "B": "Accumulation is expected when doses are given more often than elimination completes. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -455,8 +455,8 @@
       "question": "Which statement about fluctuation Css is correct?",
       "options": [
         "A) Fluctuation is independent of dosing interval and half-life",
-        "B) t½ alone determines maintenance dose rate without CL",
-        "C) Trough targeting ignores pathogen MIC and protein binding always without consequence",
+        "B) t½ alone determines maintenance dose rate without contact lens",
+        "C) Trough targeting ignores pathogen minimum inhibitory concentration and protein binding always without consequence",
         "D) Peak–trough swing widens with long intervals relative to half-life or rapid absorption"
       ],
       "answer": "D) Peak–trough swing widens with long intervals relative to half-life or rapid absorption",
@@ -470,25 +470,25 @@
     },
     {
       "id": "pharmacokinetics:easy:26",
-      "question": "Which of the following statements about linear PK superposition is correct?",
+      "question": "Which of the following statements about linear pharmacokinetics superposition is correct?",
       "options": [
         "A) Autoinduction raises levels of the inducer over weeks automatically",
         "B) Superposition forbids predicting multiple-dose levels from single-dose data ever",
-        "C) Phenytoin always shows strict dose-proportional linear PK at all doses",
+        "C) Phenytoin always shows strict dose-proportional linear pharmacokinetics at all doses",
         "D) Concentration–time profiles scale with dose and add with multiple doses when linear"
       ],
       "answer": "D) Concentration–time profiles scale with dose and add with multiple doses when linear",
-      "explanation": "Linearity enables proportional scaling and superposition principles. Therefore, the most accurate choice is: Concentration–time profiles scale with dose and add with multiple doses when linear. Superposition is a core linear PK tool.",
+      "explanation": "Linearity enables proportional scaling and superposition principles. Therefore, the most accurate choice is: Concentration–time profiles scale with dose and add with multiple doses when linear. Superposition is a core linear pharmacokinetics tool.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Superposition is a core linear PK tool. It is less consistent than the correct choice.",
+        "B": "Superposition is a core linear pharmacokinetics tool. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Linearity enables proportional scaling and superposition principles. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmacokinetics:easy:27",
-      "question": "In first-pass ER, which of the following is correct?",
+      "question": "In first-pass emergency room, which of the following is correct?",
       "options": [
         "A) Sublingual delivery always undergoes complete portal first-pass identically to swallowed drug",
         "B) Cirrhosis never changes oral bioavailability of high-extraction drugs",
@@ -496,12 +496,12 @@
         "D) High extraction always means oral F near 100%"
       ],
       "answer": "C) Hepatic extraction ratio relates to first-pass loss for orally absorbed drugs",
-      "explanation": "Oral F ≈ 1 − ER for complete absorption assumptions (simplified). Therefore, the most accurate choice is: Hepatic extraction ratio relates to first-pass loss for orally absorbed drugs. High ER implies low oral F if absorption is complete.",
+      "explanation": "Oral F ≈ 1 − emergency room for complete absorption assumptions (simplified). Therefore, the most accurate choice is: Hepatic extraction ratio relates to first-pass loss for orally absorbed drugs. High emergency room implies low oral F if absorption is complete.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Oral F ≈ 1 − ER for complete absorption assumptions (simplified). This matches the correct interpretation.",
-        "D": "High ER implies low oral F if absorption is complete. It is less consistent than the correct choice."
+        "C": "Oral F ≈ 1 − emergency room for complete absorption assumptions (simplified). This matches the correct interpretation.",
+        "D": "High emergency room implies low oral F if absorption is complete. It is less consistent than the correct choice."
       }
     },
     {
@@ -527,9 +527,9 @@
       "question": "Select the correct statement about p-gp absorption.",
       "options": [
         "A) P-gp only increases oral absorption of all substrates",
-        "B) MDAC increases absorption of recycled drugs",
+        "B) multiple-dose activated charcoal increases absorption of recycled drugs",
         "C) Intestinal P-gp efflux can limit absorption of substrates and interact with inhibitors",
-        "D) BBB transporters always maximize CNS levels of all drugs"
+        "D) bundle branch block transporters always maximize central nervous system levels of all drugs"
       ],
       "answer": "C) Intestinal P-gp efflux can limit absorption of substrates and interact with inhibitors",
       "explanation": "Efflux back to lumen reduces net absorption for some drugs. Therefore, the most accurate choice is: Intestinal P-gp efflux can limit absorption of substrates and interact with inhibitors. P-gp decreases, not increases, net absorption of substrates.",
@@ -546,17 +546,17 @@
       "id": "pharmacokinetics:medium:0",
       "question": "Which of the following correctly describes bioavailability F in clinical use?",
       "options": [
-        "A) Always equal to clearance in mL/min",
-        "B) Requires an IV arm by definition for relative bioavailability",
+        "A) Always equal to clearance in milliliters/min",
+        "B) Requires an intravenous arm by definition for relative bioavailability",
         "C) Fraction of administered dose reaching systemic circulation unchanged",
-        "D) Compares two oral products without any IV reference"
+        "D) Compares two oral products without any intravenous reference"
       ],
       "answer": "C) Fraction of administered dose reaching systemic circulation unchanged",
-      "explanation": "F compares systemic exposure from extravascular versus IV reference dosing. Therefore, the most accurate choice is: Fraction of administered dose reaching systemic circulation unchanged. Clearance is an elimination parameter, not F.",
+      "explanation": "F compares systemic exposure from extravascular versus intravenous reference dosing. Therefore, the most accurate choice is: Fraction of administered dose reaching systemic circulation unchanged. Clearance is an elimination parameter, not F.",
       "choice_explanations": {
         "A": "Clearance is an elimination parameter, not F. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "F compares systemic exposure from extravascular versus IV reference dosing. This matches the correct interpretation.",
+        "C": "F compares systemic exposure from extravascular versus intravenous reference dosing. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -564,51 +564,51 @@
       "id": "pharmacokinetics:medium:1",
       "question": "During a pharmacology discussion of absolute bioavailability, which statement is correct?",
       "options": [
-        "A) Requires an IV arm by definition for relative bioavailability",
-        "B) Compares two oral products without any IV reference",
-        "C) Dosage form never affects oral bioavailability if API milligrams match",
-        "D) Compares AUC after extravascular dose to AUC after IV dose normalized by dose"
+        "A) Requires an intravenous arm by definition for relative bioavailability",
+        "B) Compares two oral products without any intravenous reference",
+        "C) Dosage form never affects oral bioavailability if active pharmaceutical ingredient milligrams match",
+        "D) Compares area under the curve after extravascular dose to area under the curve after intravenous dose normalized by dose"
       ],
-      "answer": "D) Compares AUC after extravascular dose to AUC after IV dose normalized by dose",
-      "explanation": "IV dose defines 100% systemic delivery for the absolute F calculation. Therefore, the most accurate choice is: Compares AUC after extravascular dose to AUC after IV dose normalized by dose. Oral-versus-oral comparison without IV is relative bioavailability/BE territory.",
+      "answer": "D) Compares area under the curve after extravascular dose to area under the curve after intravenous dose normalized by dose",
+      "explanation": "intravenous dose defines 100% systemic delivery for the absolute F calculation. Therefore, the most accurate choice is: Compares area under the curve after extravascular dose to area under the curve after intravenous dose normalized by dose. Oral-versus-oral comparison without intravenous is relative bioavailability/bioequivalence territory.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Oral-versus-oral comparison without IV is relative bioavailability/BE territory. It is less consistent than the correct choice.",
+        "B": "Oral-versus-oral comparison without intravenous is relative bioavailability/bioequivalence territory. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "IV dose defines 100% systemic delivery for the absolute F calculation. This matches the correct interpretation."
+        "D": "intravenous dose defines 100% systemic delivery for the absolute F calculation. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmacokinetics:medium:2",
       "question": "Which of the following correctly describes relative bioavailability?",
       "options": [
-        "A) Compares two oral products without any IV reference",
-        "B) BE requires arithmetic mean ratios of exactly 100% with zero variance",
+        "A) Compares two oral products without any intravenous reference",
+        "B) bioequivalence requires arithmetic mean ratios of exactly 100% with zero variance",
         "C) Compares systemic exposure of two extravascular formulations",
-        "D) Requires an IV arm by definition for relative bioavailability"
+        "D) Requires an intravenous arm by definition for relative bioavailability"
       ],
       "answer": "C) Compares systemic exposure of two extravascular formulations",
-      "explanation": "Test/reference AUC ratios assess formulation performance. Therefore, the most accurate choice is: Compares systemic exposure of two extravascular formulations. Relative F does not require IV dosing.",
+      "explanation": "Test/reference area under the curve ratios assess formulation performance. Therefore, the most accurate choice is: Compares systemic exposure of two extravascular formulations. Relative F does not require intravenous dosing.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Test/reference AUC ratios assess formulation performance. This matches the correct interpretation.",
-        "D": "Relative F does not require IV dosing. It is less consistent than the correct choice."
+        "C": "Test/reference area under the curve ratios assess formulation performance. This matches the correct interpretation.",
+        "D": "Relative F does not require intravenous dosing. It is less consistent than the correct choice."
       }
     },
     {
       "id": "pharmacokinetics:medium:3",
-      "question": "In comparing drug properties, which statement about AUC meaning is correct?",
+      "question": "In comparing drug properties, which statement about area under the curve meaning is correct?",
       "options": [
         "A) Area under concentration–time curve indexes extent of systemic exposure",
-        "B) AUC equals only the peak concentration Cmax",
+        "B) area under the curve equals only the peak concentration Cmax",
         "C) Tmax exclusively measures renal clearance",
-        "D) MRT equals only Tmax"
+        "D) mean residence time equals only Tmax"
       ],
       "answer": "A) Area under concentration–time curve indexes extent of systemic exposure",
-      "explanation": "AUC relates to dose and clearance for linear kinetics (AUC = F·Dose/CL). Therefore, the most accurate choice is: Area under concentration–time curve indexes extent of systemic exposure. Cmax is a single-point metric, not the full exposure integral.",
+      "explanation": "area under the curve relates to dose and clearance for linear kinetics (area under the curve = F·Dose/contact lens). Therefore, the most accurate choice is: Area under concentration–time curve indexes extent of systemic exposure. Cmax is a single-point metric, not the full exposure integral.",
       "choice_explanations": {
-        "A": "AUC relates to dose and clearance for linear kinetics (AUC = F·Dose/CL). This matches the correct interpretation.",
+        "A": "area under the curve relates to dose and clearance for linear kinetics (area under the curve = F·Dose/contact lens). This matches the correct interpretation.",
         "B": "Cmax is a single-point metric, not the full exposure integral. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -618,7 +618,7 @@
       "id": "pharmacokinetics:medium:4",
       "question": "Regarding cmax Tmax, which of the following is correct?",
       "options": [
-        "A) AUC equals only the peak concentration Cmax",
+        "A) area under the curve equals only the peak concentration Cmax",
         "B) Cmax is peak concentration; Tmax is time of peak reflecting absorption rate themes",
         "C) Kel is read from the absorption peak only",
         "D) Tmax exclusively measures renal clearance"
@@ -636,17 +636,17 @@
       "id": "pharmacokinetics:medium:5",
       "question": "Which explanation of clearance primary is most accurate?",
       "options": [
-        "A) CL equals Vd by definition in all drugs",
+        "A) contact lens equals Vd by definition in all drugs",
         "B) Tmax exclusively measures renal clearance",
-        "C) CL is the proportionality factor between elimination rate and plasma concentration",
+        "C) contact lens is the proportionality factor between elimination rate and plasma concentration",
         "D) Low-extraction clearance always equals liver blood flow"
       ],
-      "answer": "C) CL is the proportionality factor between elimination rate and plasma concentration",
-      "explanation": "Maintenance dosing rate ≈ CL × Css / F. Therefore, the most accurate choice is: CL is the proportionality factor between elimination rate and plasma concentration. CL and Vd are independent primary parameters.",
+      "answer": "C) contact lens is the proportionality factor between elimination rate and plasma concentration",
+      "explanation": "Maintenance dosing rate ≈ contact lens × Css / F. Therefore, the most accurate choice is: contact lens is the proportionality factor between elimination rate and plasma concentration. contact lens and Vd are independent primary parameters.",
       "choice_explanations": {
-        "A": "CL and Vd are independent primary parameters. It is less consistent than the correct choice.",
+        "A": "contact lens and Vd are independent primary parameters. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Maintenance dosing rate ≈ CL × Css / F. This matches the correct interpretation.",
+        "C": "Maintenance dosing rate ≈ contact lens × Css / F. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -654,15 +654,15 @@
       "id": "pharmacokinetics:medium:6",
       "question": "Which of the following applies to hepatic clearance in standard therapeutics?",
       "options": [
-        "A) Hepatic CL depends only on tablet color",
+        "A) Hepatic contact lens depends only on tablet color",
         "B) CLint equals liver blood flow by definition",
         "C) Well-stirred model assumes no blood flow through liver",
-        "D) Hepatic CL depends on liver blood flow, fraction unbound, and intrinsic clearance"
+        "D) Hepatic contact lens depends on liver blood flow, fraction unbound, and intrinsic clearance"
       ],
-      "answer": "D) Hepatic CL depends on liver blood flow, fraction unbound, and intrinsic clearance",
-      "explanation": "Well-stirred model: CLh ≈ Q·fu·CLint / (Q + fu·CLint). Therefore, the most accurate choice is: Hepatic CL depends on liver blood flow, fraction unbound, and intrinsic clearance. Blood flow, binding, and enzyme activity jointly govern hepatic CL.",
+      "answer": "D) Hepatic contact lens depends on liver blood flow, fraction unbound, and intrinsic clearance",
+      "explanation": "Well-stirred model: CLh ≈ Q·fu·CLint / (Q + fu·CLint). Therefore, the most accurate choice is: Hepatic contact lens depends on liver blood flow, fraction unbound, and intrinsic clearance. Blood flow, binding, and enzyme activity jointly govern hepatic contact lens.",
       "choice_explanations": {
-        "A": "Blood flow, binding, and enzyme activity jointly govern hepatic CL. It is less consistent than the correct choice.",
+        "A": "Blood flow, binding, and enzyme activity jointly govern hepatic contact lens. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Well-stirred model: CLh ≈ Q·fu·CLint / (Q + fu·CLint). This matches the correct interpretation."
@@ -691,7 +691,7 @@
       "question": "Which of the following correctly describes low extraction drugs in clinical use?",
       "options": [
         "A) Clearance depends mainly on fu and intrinsic metabolizing capacity",
-        "B) Hepatic CL depends only on tablet color",
+        "B) Hepatic contact lens depends only on tablet color",
         "C) Low-extraction clearance always equals liver blood flow",
         "D) CLint equals liver blood flow by definition"
       ],
@@ -710,11 +710,11 @@
       "options": [
         "A) Bound drug is cleared preferentially while free drug is ignored",
         "B) Total and free concentrations always move identically with binding changes",
-        "C) Only unbound drug is cleared; changes in binding can affect total CL interpretations",
+        "C) Only unbound drug is cleared; changes in binding can affect total contact lens interpretations",
         "D) Nonrestrictive means nothing is cleared ever"
       ],
-      "answer": "C) Only unbound drug is cleared; changes in binding can affect total CL interpretations",
-      "explanation": "fu multiplies intrinsic clearance terms for many restrictive eliminations. Therefore, the most accurate choice is: Only unbound drug is cleared; changes in binding can affect total CL interpretations. Free drug is the form available for clearance/effect.",
+      "answer": "C) Only unbound drug is cleared; changes in binding can affect total contact lens interpretations",
+      "explanation": "fu multiplies intrinsic clearance terms for many restrictive eliminations. Therefore, the most accurate choice is: Only unbound drug is cleared; changes in binding can affect total contact lens interpretations. Free drug is the form available for clearance/effect.",
       "choice_explanations": {
         "A": "Free drug is the form available for clearance/effect. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -746,16 +746,16 @@
       "options": [
         "A) Renal clearance equals only urine flow rate always",
         "B) Protein-bound drug is freely filtered at the same rate as unbound always",
-        "C) Serum creatinine alone ignoring age/weight/sex always equals true GFR exactly",
-        "D) GFR filtration of free drug ± secretion − reabsorption determines CLr"
+        "C) Serum creatinine alone ignoring age/weight/sex always equals true glomerular filtration rate exactly",
+        "D) glomerular filtration rate filtration of free drug ± secretion − reabsorption determines CLr"
       ],
-      "answer": "D) GFR filtration of free drug ± secretion − reabsorption determines CLr",
-      "explanation": "Active secretion can make CLr exceed fu·GFR; reabsorption can lower it. Therefore, the most accurate choice is: GFR filtration of free drug ± secretion − reabsorption determines CLr. Tubular processes modify filtered load substantially.",
+      "answer": "D) glomerular filtration rate filtration of free drug ± secretion − reabsorption determines CLr",
+      "explanation": "Active secretion can make CLr exceed fu·glomerular filtration rate; reabsorption can lower it. Therefore, the most accurate choice is: glomerular filtration rate filtration of free drug ± secretion − reabsorption determines CLr. Tubular processes modify filtered load substantially.",
       "choice_explanations": {
         "A": "Tubular processes modify filtered load substantially. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Active secretion can make CLr exceed fu·GFR; reabsorption can lower it. This matches the correct interpretation."
+        "D": "Active secretion can make CLr exceed fu·glomerular filtration rate; reabsorption can lower it. This matches the correct interpretation."
       }
     },
     {
@@ -763,12 +763,12 @@
       "question": "Regarding filtration clearance, which of the following is correct?",
       "options": [
         "A) Renal clearance equals only urine flow rate always",
-        "B) Filtered load ≈ fu × GFR for drugs freely filtered at glomerulus",
+        "B) Filtered load ≈ fu × glomerular filtration rate for drugs freely filtered at glomerulus",
         "C) Protein-bound drug is freely filtered at the same rate as unbound always",
         "D) Bound drug is cleared preferentially while free drug is ignored"
       ],
-      "answer": "B) Filtered load ≈ fu × GFR for drugs freely filtered at glomerulus",
-      "explanation": "Size and binding restrict glomerular filtration of drug. Therefore, the most accurate choice is: Filtered load ≈ fu × GFR for drugs freely filtered at glomerulus. Bound drug is generally not freely filtered.",
+      "answer": "B) Filtered load ≈ fu × glomerular filtration rate for drugs freely filtered at glomerulus",
+      "explanation": "Size and binding restrict glomerular filtration of drug. Therefore, the most accurate choice is: Filtered load ≈ fu × glomerular filtration rate for drugs freely filtered at glomerulus. Bound drug is generally not freely filtered.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Size and binding restrict glomerular filtration of drug. This matches the correct interpretation.",
@@ -778,30 +778,30 @@
     },
     {
       "id": "pharmacokinetics:medium:13",
-      "question": "Which explanation of secretion OAT OCT is most accurate?",
+      "question": "Which explanation of secretion organic anion transporter organic cation transporter is most accurate?",
       "options": [
-        "A) Tubular secretion never exceeds GFR contribution",
+        "A) Tubular secretion never exceeds glomerular filtration rate contribution",
         "B) Proximal tubule transporters secrete many acids/bases, raising renal clearance",
         "C) Urine pH never affects renal excretion of weak acids/bases",
         "D) Renal clearance equals only urine flow rate always"
       ],
       "answer": "B) Proximal tubule transporters secrete many acids/bases, raising renal clearance",
-      "explanation": "OAT/OCT and efflux transporters mediate active tubular secretion. Therefore, the most accurate choice is: Proximal tubule transporters secrete many acids/bases, raising renal clearance. Secretion can make CLr >> fu·GFR.",
+      "explanation": "organic anion transporter/organic cation transporter and efflux transporters mediate active tubular secretion. Therefore, the most accurate choice is: Proximal tubule transporters secrete many acids/bases, raising renal clearance. Secretion can make CLr >> fu·glomerular filtration rate.",
       "choice_explanations": {
-        "A": "Secretion can make CLr >> fu·GFR. It is less consistent than the correct choice.",
-        "B": "OAT/OCT and efflux transporters mediate active tubular secretion. This matches the correct interpretation.",
+        "A": "Secretion can make CLr >> fu·glomerular filtration rate. It is less consistent than the correct choice.",
+        "B": "organic anion transporter/organic cation transporter and efflux transporters mediate active tubular secretion. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmacokinetics:medium:14",
-      "question": "A 65-year-old woman needs dose adjustment related to reabsorption p H. Which of the following is most accurate?",
+      "question": "A 38-year-old woman needs dose adjustment related to reabsorption p H. Which of the following is most accurate?",
       "options": [
         "A) Renal clearance equals only urine flow rate always",
         "B) Urine pH never affects renal excretion of weak acids/bases",
         "C) Passive reabsorption of unionized drug can be manipulated by urine pH (ion trapping)",
-        "D) Tubular secretion never exceeds GFR contribution"
+        "D) Tubular secretion never exceeds glomerular filtration rate contribution"
       ],
       "answer": "C) Passive reabsorption of unionized drug can be manipulated by urine pH (ion trapping)",
       "explanation": "Alkaline urine ionizes weak acids reducing reabsorption. Therefore, the most accurate choice is: Passive reabsorption of unionized drug can be manipulated by urine pH (ion trapping). pH trapping is a classic renal excretion modifier.",
@@ -816,7 +816,7 @@
       "id": "pharmacokinetics:medium:15",
       "question": "Which statement best defines creatinine clearance estimate?",
       "options": [
-        "A) Serum creatinine alone ignoring age/weight/sex always equals true GFR exactly",
+        "A) Serum creatinine alone ignoring age/weight/sex always equals true glomerular filtration rate exactly",
         "B) Protein-bound drug is freely filtered at the same rate as unbound always",
         "C) Renal clearance equals only urine flow rate always",
         "D) eCrCl/eGFR estimates guide renally cleared drug dosing adjustments"
@@ -832,15 +832,15 @@
     },
     {
       "id": "pharmacokinetics:medium:16",
-      "question": "Which of the following correctly describes nonlinear PK Michaelis in clinical use?",
+      "question": "Which of the following correctly describes nonlinear pharmacokinetics Michaelis in clinical use?",
       "options": [
         "A) fu is always constant at all concentrations for every drug",
-        "B) Phenytoin always shows strict dose-proportional linear PK at all doses",
-        "C) Saturable metabolism keeps AUC perfectly proportional to dose forever",
-        "D) Saturable metabolism yields dose-dependent clearance and disproportionate AUC increases"
+        "B) Phenytoin always shows strict dose-proportional linear pharmacokinetics at all doses",
+        "C) Saturable metabolism keeps area under the curve perfectly proportional to dose forever",
+        "D) Saturable metabolism yields dose-dependent clearance and disproportionate area under the curve increases"
       ],
-      "answer": "D) Saturable metabolism yields dose-dependent clearance and disproportionate AUC increases",
-      "explanation": "When concentrations near Km, clearance falls as dose rises. Therefore, the most accurate choice is: Saturable metabolism yields dose-dependent clearance and disproportionate AUC increases. Proportionality breaks down under saturation.",
+      "answer": "D) Saturable metabolism yields dose-dependent clearance and disproportionate area under the curve increases",
+      "explanation": "When concentrations near Km, clearance falls as dose rises. Therefore, the most accurate choice is: Saturable metabolism yields dose-dependent clearance and disproportionate area under the curve increases. Proportionality breaks down under saturation.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -850,19 +850,19 @@
     },
     {
       "id": "pharmacokinetics:medium:17",
-      "question": "A 67-year-old woman takes several medicines and is assessed regarding phenytoin nonlinear. Which of the following is most appropriate?",
+      "question": "A 40-year-old woman takes several medicines and is assessed regarding phenytoin nonlinear. Which of the following is most appropriate?",
       "options": [
-        "A) Phenytoin always shows strict dose-proportional linear PK at all doses",
-        "B) Saturable metabolism keeps AUC perfectly proportional to dose forever",
+        "A) Phenytoin always shows strict dose-proportional linear pharmacokinetics at all doses",
+        "B) Saturable metabolism keeps area under the curve perfectly proportional to dose forever",
         "C) Small dose increases can cause large phenytoin level jumps near saturation",
-        "D) TMDD means monoclonal antibodies always show linear PK at all doses"
+        "D) target-mediated drug disposition means monoclonal antibodies always show linear pharmacokinetics at all doses"
       ],
       "answer": "C) Small dose increases can cause large phenytoin level jumps near saturation",
-      "explanation": "Vmax/Km behavior demands cautious titration and TDM. Therefore, the most accurate choice is: Small dose increases can cause large phenytoin level jumps near saturation. Linearity does not hold across the therapeutic range.",
+      "explanation": "Vmax/Km behavior demands cautious titration and therapeutic drug monitoring. Therefore, the most accurate choice is: Small dose increases can cause large phenytoin level jumps near saturation. Linearity does not hold across the therapeutic range.",
       "choice_explanations": {
         "A": "Linearity does not hold across the therapeutic range. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Vmax/Km behavior demands cautious titration and TDM. This matches the correct interpretation.",
+        "C": "Vmax/Km behavior demands cautious titration and therapeutic drug monitoring. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -886,10 +886,10 @@
     },
     {
       "id": "pharmacokinetics:medium:19",
-      "question": "A 63-year-old man develops an adverse effect related to one-compartment IV bolus. Which of the following best explains it?",
+      "question": "A 36-year-old man develops an adverse effect related to one-compartment intravenous bolus. Which of the following best explains it?",
       "options": [
-        "A) IV bolus always shows multi-exponential tissue distribution with no simple V",
-        "B) Oral absorption is always zero-order with constant mg/h for every immediate-release tablet",
+        "A) intravenous bolus always shows multi-exponential tissue distribution with no simple V",
+        "B) Oral absorption is always zero-order with constant milligrams/h for every immediate-release tablet",
         "C) Two-compartment means zero distribution time and single exponential only",
         "D) Cp declines monoexponentially; V = Dose/C0; t½ = 0.693/k"
       ],
@@ -904,15 +904,15 @@
     },
     {
       "id": "pharmacokinetics:medium:20",
-      "question": "A 48-year-old man needs counseling about two-compartment model. Which of the following is most appropriate?",
+      "question": "A 62-year-old man needs counseling about two-compartment model. Which of the following is most appropriate?",
       "options": [
-        "A) Distribution phase (α) then elimination phase (β) after IV bolus",
-        "B) IV bolus always shows multi-exponential tissue distribution with no simple V",
-        "C) Oral absorption is always zero-order with constant mg/h for every immediate-release tablet",
+        "A) Distribution phase (α) then elimination phase (β) after intravenous bolus",
+        "B) intravenous bolus always shows multi-exponential tissue distribution with no simple V",
+        "C) Oral absorption is always zero-order with constant milligrams/h for every immediate-release tablet",
         "D) Two-compartment means zero distribution time and single exponential only"
       ],
-      "answer": "A) Distribution phase (α) then elimination phase (β) after IV bolus",
-      "explanation": "Drug equilibrates between central and peripheral compartments. Therefore, the most accurate choice is: Distribution phase (α) then elimination phase (β) after IV bolus. Biexponential decline is expected, not monoexponential only.",
+      "answer": "A) Distribution phase (α) then elimination phase (β) after intravenous bolus",
+      "explanation": "Drug equilibrates between central and peripheral compartments. Therefore, the most accurate choice is: Distribution phase (α) then elimination phase (β) after intravenous bolus. Biexponential decline is expected, not monoexponential only.",
       "choice_explanations": {
         "A": "Drug equilibrates between central and peripheral compartments. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -922,7 +922,7 @@
     },
     {
       "id": "pharmacokinetics:medium:21",
-      "question": "A 33-year-old man undergoes assessment involving distribution phase. Which of the following is most accurate?",
+      "question": "A 47-year-old man undergoes assessment involving distribution phase. Which of the following is most accurate?",
       "options": [
         "A) Early α phase is caused only by assay error never distribution",
         "B) Pregnancy never alters drug clearance or distribution",
@@ -940,18 +940,18 @@
     },
     {
       "id": "pharmacokinetics:medium:22",
-      "question": "A 62-year-old man needs dose adjustment related to steady-state infusion. Which of the following is most accurate?",
+      "question": "A 35-year-old man needs dose adjustment related to steady-state infusion. Which of the following is most accurate?",
       "options": [
-        "A) Css equals infusion rate × CL",
-        "B) Css = infusion rate / CL for continuous IV infusion at steady state",
+        "A) Css equals infusion rate × contact lens",
+        "B) Css = infusion rate / contact lens for continuous intravenous infusion at steady state",
         "C) Vss always equals Vz for every multicompartment drug",
-        "D) CL equals Vd by definition in all drugs"
+        "D) contact lens equals Vd by definition in all drugs"
       ],
-      "answer": "B) Css = infusion rate / CL for continuous IV infusion at steady state",
-      "explanation": "Input equals elimination at steady state: R0 = CL × Css. Therefore, the most accurate choice is: Css = infusion rate / CL for continuous IV infusion at steady state. Css is rate divided by CL, not multiplied.",
+      "answer": "B) Css = infusion rate / contact lens for continuous intravenous infusion at steady state",
+      "explanation": "Input equals elimination at steady state: R0 = contact lens × Css. Therefore, the most accurate choice is: Css = infusion rate / contact lens for continuous intravenous infusion at steady state. Css is rate divided by contact lens, not multiplied.",
       "choice_explanations": {
-        "A": "Css is rate divided by CL, not multiplied. It is less consistent than the correct choice.",
-        "B": "Input equals elimination at steady state: R0 = CL × Css. This matches the correct interpretation.",
+        "A": "Css is rate divided by contact lens, not multiplied. It is less consistent than the correct choice.",
+        "B": "Input equals elimination at steady state: R0 = contact lens × Css. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -961,7 +961,7 @@
       "question": "Which interpretation of loading plus infusion is correct?",
       "options": [
         "A) Infusion alone always reaches Css in one minute regardless of t½",
-        "B) t½ alone determines maintenance dose rate without CL",
+        "B) t½ alone determines maintenance dose rate without contact lens",
         "C) Context-sensitive half-time always equals terminal t½ regardless of infusion length",
         "D) Loading dose quickly approaches Css while infusion maintains it"
       ],
@@ -976,18 +976,18 @@
     },
     {
       "id": "pharmacokinetics:medium:24",
-      "question": "A 59-year-old woman is started on treatment related to multiple dosing accumulation. Which of the following is correct?",
+      "question": "A 32-year-old woman is started on treatment related to multiple dosing accumulation. Which of the following is correct?",
       "options": [
-        "A) t½ alone determines maintenance dose rate without CL",
+        "A) t½ alone determines maintenance dose rate without contact lens",
         "B) Accumulation factor rises when dosing interval is short relative to t½",
         "C) Superposition forbids predicting multiple-dose levels from single-dose data ever",
         "D) No accumulation ever occurs with repeated dosing regardless of interval"
       ],
       "answer": "B) Accumulation factor rises when dosing interval is short relative to t½",
-      "explanation": "AUC_tau at steady state equals AUC_inf of a single dose (linear PK). Therefore, the most accurate choice is: Accumulation factor rises when dosing interval is short relative to t½. Accumulation is expected when doses are given more often than elimination completes.",
+      "explanation": "AUC_tau at steady state equals AUC_inf of a single dose (linear pharmacokinetics). Therefore, the most accurate choice is: Accumulation factor rises when dosing interval is short relative to t½. Accumulation is expected when doses are given more often than elimination completes.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "AUC_tau at steady state equals AUC_inf of a single dose (linear PK). This matches the correct interpretation.",
+        "B": "AUC_tau at steady state equals AUC_inf of a single dose (linear pharmacokinetics). This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Accumulation is expected when doses are given more often than elimination completes. It is less consistent than the correct choice."
       }
@@ -996,9 +996,9 @@
       "id": "pharmacokinetics:medium:25",
       "question": "During a pharmacology discussion of fluctuation Css, which statement is correct?",
       "options": [
-        "A) Trough targeting ignores pathogen MIC and protein binding always without consequence",
+        "A) Trough targeting ignores pathogen minimum inhibitory concentration and protein binding always without consequence",
         "B) Peak–trough swing widens with long intervals relative to half-life or rapid absorption",
-        "C) t½ alone determines maintenance dose rate without CL",
+        "C) t½ alone determines maintenance dose rate without contact lens",
         "D) Fluctuation is independent of dosing interval and half-life"
       ],
       "answer": "B) Peak–trough swing widens with long intervals relative to half-life or rapid absorption",
@@ -1012,17 +1012,17 @@
     },
     {
       "id": "pharmacokinetics:medium:26",
-      "question": "Medication review raises a question about linear PK superposition. Which of the following is correct?",
+      "question": "Medication review raises a question about linear pharmacokinetics superposition. Which of the following is correct?",
       "options": [
         "A) Superposition forbids predicting multiple-dose levels from single-dose data ever",
-        "B) Phenytoin always shows strict dose-proportional linear PK at all doses",
+        "B) Phenytoin always shows strict dose-proportional linear pharmacokinetics at all doses",
         "C) Autoinduction raises levels of the inducer over weeks automatically",
         "D) Concentration–time profiles scale with dose and add with multiple doses when linear"
       ],
       "answer": "D) Concentration–time profiles scale with dose and add with multiple doses when linear",
-      "explanation": "Linearity enables proportional scaling and superposition principles. Therefore, the most accurate choice is: Concentration–time profiles scale with dose and add with multiple doses when linear. Superposition is a core linear PK tool.",
+      "explanation": "Linearity enables proportional scaling and superposition principles. Therefore, the most accurate choice is: Concentration–time profiles scale with dose and add with multiple doses when linear. Superposition is a core linear pharmacokinetics tool.",
       "choice_explanations": {
-        "A": "Superposition is a core linear PK tool. It is less consistent than the correct choice.",
+        "A": "Superposition is a core linear pharmacokinetics tool. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Linearity enables proportional scaling and superposition principles. This matches the correct interpretation."
@@ -1030,7 +1030,7 @@
     },
     {
       "id": "pharmacokinetics:medium:27",
-      "question": "A 52-year-old woman develops an adverse effect related to first-pass ER. Which of the following best explains it?",
+      "question": "A 66-year-old woman develops an adverse effect related to first-pass emergency room. Which of the following best explains it?",
       "options": [
         "A) Sublingual delivery always undergoes complete portal first-pass identically to swallowed drug",
         "B) Cirrhosis never changes oral bioavailability of high-extraction drugs",
@@ -1038,12 +1038,12 @@
         "D) High extraction always means oral F near 100%"
       ],
       "answer": "C) Hepatic extraction ratio relates to first-pass loss for orally absorbed drugs",
-      "explanation": "Oral F ≈ 1 − ER for complete absorption assumptions (simplified). Therefore, the most accurate choice is: Hepatic extraction ratio relates to first-pass loss for orally absorbed drugs. High ER implies low oral F if absorption is complete.",
+      "explanation": "Oral F ≈ 1 − emergency room for complete absorption assumptions (simplified). Therefore, the most accurate choice is: Hepatic extraction ratio relates to first-pass loss for orally absorbed drugs. High emergency room implies low oral F if absorption is complete.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Oral F ≈ 1 − ER for complete absorption assumptions (simplified). This matches the correct interpretation.",
-        "D": "High ER implies low oral F if absorption is complete. It is less consistent than the correct choice."
+        "C": "Oral F ≈ 1 − emergency room for complete absorption assumptions (simplified). This matches the correct interpretation.",
+        "D": "High emergency room implies low oral F if absorption is complete. It is less consistent than the correct choice."
       }
     },
     {
@@ -1070,8 +1070,8 @@
       "options": [
         "A) Intestinal P-gp efflux can limit absorption of substrates and interact with inhibitors",
         "B) P-gp only increases oral absorption of all substrates",
-        "C) BBB transporters always maximize CNS levels of all drugs",
-        "D) MDAC increases absorption of recycled drugs"
+        "C) bundle branch block transporters always maximize central nervous system levels of all drugs",
+        "D) multiple-dose activated charcoal increases absorption of recycled drugs"
       ],
       "answer": "A) Intestinal P-gp efflux can limit absorption of substrates and interact with inhibitors",
       "explanation": "Efflux back to lumen reduces net absorption for some drugs. Therefore, the most accurate choice is: Intestinal P-gp efflux can limit absorption of substrates and interact with inhibitors. P-gp decreases, not increases, net absorption of substrates.",
@@ -1088,34 +1088,34 @@
       "id": "pharmacokinetics:hard:0",
       "question": "Careful review of bioavailability F is required. Which of the following is most accurate?",
       "options": [
-        "A) Requires an IV arm by definition for relative bioavailability",
-        "B) Always equal to clearance in mL/min",
-        "C) Compares two oral products without any IV reference",
+        "A) Requires an intravenous arm by definition for relative bioavailability",
+        "B) Always equal to clearance in milliliters/min",
+        "C) Compares two oral products without any intravenous reference",
         "D) Fraction of administered dose reaching systemic circulation unchanged"
       ],
       "answer": "D) Fraction of administered dose reaching systemic circulation unchanged",
-      "explanation": "F compares systemic exposure from extravascular versus IV reference dosing. Therefore, the most accurate choice is: Fraction of administered dose reaching systemic circulation unchanged. Clearance is an elimination parameter, not F.",
+      "explanation": "F compares systemic exposure from extravascular versus intravenous reference dosing. Therefore, the most accurate choice is: Fraction of administered dose reaching systemic circulation unchanged. Clearance is an elimination parameter, not F.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Clearance is an elimination parameter, not F. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "F compares systemic exposure from extravascular versus IV reference dosing. This matches the correct interpretation."
+        "D": "F compares systemic exposure from extravascular versus intravenous reference dosing. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmacokinetics:hard:1",
       "question": "Two similar explanations for absolute bioavailability are compared. Which of the following is correct?",
       "options": [
-        "A) Compares AUC after extravascular dose to AUC after IV dose normalized by dose",
-        "B) Compares two oral products without any IV reference",
-        "C) Dosage form never affects oral bioavailability if API milligrams match",
-        "D) Requires an IV arm by definition for relative bioavailability"
+        "A) Compares area under the curve after extravascular dose to area under the curve after intravenous dose normalized by dose",
+        "B) Compares two oral products without any intravenous reference",
+        "C) Dosage form never affects oral bioavailability if active pharmaceutical ingredient milligrams match",
+        "D) Requires an intravenous arm by definition for relative bioavailability"
       ],
-      "answer": "A) Compares AUC after extravascular dose to AUC after IV dose normalized by dose",
-      "explanation": "IV dose defines 100% systemic delivery for the absolute F calculation. Therefore, the most accurate choice is: Compares AUC after extravascular dose to AUC after IV dose normalized by dose. Oral-versus-oral comparison without IV is relative bioavailability/BE territory.",
+      "answer": "A) Compares area under the curve after extravascular dose to area under the curve after intravenous dose normalized by dose",
+      "explanation": "intravenous dose defines 100% systemic delivery for the absolute F calculation. Therefore, the most accurate choice is: Compares area under the curve after extravascular dose to area under the curve after intravenous dose normalized by dose. Oral-versus-oral comparison without intravenous is relative bioavailability/bioequivalence territory.",
       "choice_explanations": {
-        "A": "IV dose defines 100% systemic delivery for the absolute F calculation. This matches the correct interpretation.",
-        "B": "Oral-versus-oral comparison without IV is relative bioavailability/BE territory. It is less consistent than the correct choice.",
+        "A": "intravenous dose defines 100% systemic delivery for the absolute F calculation. This matches the correct interpretation.",
+        "B": "Oral-versus-oral comparison without intravenous is relative bioavailability/bioequivalence territory. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -1125,34 +1125,34 @@
       "question": "In a detailed discussion of relative bioavailability, which of the following is most accurate?",
       "options": [
         "A) Compares systemic exposure of two extravascular formulations",
-        "B) BE requires arithmetic mean ratios of exactly 100% with zero variance",
-        "C) Compares two oral products without any IV reference",
-        "D) Requires an IV arm by definition for relative bioavailability"
+        "B) bioequivalence requires arithmetic mean ratios of exactly 100% with zero variance",
+        "C) Compares two oral products without any intravenous reference",
+        "D) Requires an intravenous arm by definition for relative bioavailability"
       ],
       "answer": "A) Compares systemic exposure of two extravascular formulations",
-      "explanation": "Test/reference AUC ratios assess formulation performance. Therefore, the most accurate choice is: Compares systemic exposure of two extravascular formulations. Relative F does not require IV dosing.",
+      "explanation": "Test/reference area under the curve ratios assess formulation performance. Therefore, the most accurate choice is: Compares systemic exposure of two extravascular formulations. Relative F does not require intravenous dosing.",
       "choice_explanations": {
-        "A": "Test/reference AUC ratios assess formulation performance. This matches the correct interpretation.",
+        "A": "Test/reference area under the curve ratios assess formulation performance. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Relative F does not require IV dosing. It is less consistent than the correct choice."
+        "D": "Relative F does not require intravenous dosing. It is less consistent than the correct choice."
       }
     },
     {
       "id": "pharmacokinetics:hard:3",
-      "question": "Which of the following correctly distinguishes key points about AUC meaning?",
+      "question": "Which of the following correctly distinguishes key points about area under the curve meaning?",
       "options": [
-        "A) MRT equals only Tmax",
+        "A) mean residence time equals only Tmax",
         "B) Tmax exclusively measures renal clearance",
         "C) Area under concentration–time curve indexes extent of systemic exposure",
-        "D) AUC equals only the peak concentration Cmax"
+        "D) area under the curve equals only the peak concentration Cmax"
       ],
       "answer": "C) Area under concentration–time curve indexes extent of systemic exposure",
-      "explanation": "AUC relates to dose and clearance for linear kinetics (AUC = F·Dose/CL). Therefore, the most accurate choice is: Area under concentration–time curve indexes extent of systemic exposure. Cmax is a single-point metric, not the full exposure integral.",
+      "explanation": "area under the curve relates to dose and clearance for linear kinetics (area under the curve = F·Dose/contact lens). Therefore, the most accurate choice is: Area under concentration–time curve indexes extent of systemic exposure. Cmax is a single-point metric, not the full exposure integral.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "AUC relates to dose and clearance for linear kinetics (AUC = F·Dose/CL). This matches the correct interpretation.",
+        "C": "area under the curve relates to dose and clearance for linear kinetics (area under the curve = F·Dose/contact lens). This matches the correct interpretation.",
         "D": "Cmax is a single-point metric, not the full exposure integral. It is less consistent than the correct choice."
       }
     },
@@ -1163,7 +1163,7 @@
         "A) Tmax exclusively measures renal clearance",
         "B) Kel is read from the absorption peak only",
         "C) Cmax is peak concentration; Tmax is time of peak reflecting absorption rate themes",
-        "D) AUC equals only the peak concentration Cmax"
+        "D) area under the curve equals only the peak concentration Cmax"
       ],
       "answer": "C) Cmax is peak concentration; Tmax is time of peak reflecting absorption rate themes",
       "explanation": "Faster absorption generally raises Cmax and shortens Tmax for similar extent. Therefore, the most accurate choice is: Cmax is peak concentration; Tmax is time of peak reflecting absorption rate themes. Tmax is an absorption-timing metric, not clearance.",
@@ -1180,16 +1180,16 @@
       "options": [
         "A) Tmax exclusively measures renal clearance",
         "B) Low-extraction clearance always equals liver blood flow",
-        "C) CL equals Vd by definition in all drugs",
-        "D) CL is the proportionality factor between elimination rate and plasma concentration"
+        "C) contact lens equals Vd by definition in all drugs",
+        "D) contact lens is the proportionality factor between elimination rate and plasma concentration"
       ],
-      "answer": "D) CL is the proportionality factor between elimination rate and plasma concentration",
-      "explanation": "Maintenance dosing rate ≈ CL × Css / F. Therefore, the most accurate choice is: CL is the proportionality factor between elimination rate and plasma concentration. CL and Vd are independent primary parameters.",
+      "answer": "D) contact lens is the proportionality factor between elimination rate and plasma concentration",
+      "explanation": "Maintenance dosing rate ≈ contact lens × Css / F. Therefore, the most accurate choice is: contact lens is the proportionality factor between elimination rate and plasma concentration. contact lens and Vd are independent primary parameters.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "CL and Vd are independent primary parameters. It is less consistent than the correct choice.",
-        "D": "Maintenance dosing rate ≈ CL × Css / F. This matches the correct interpretation."
+        "C": "contact lens and Vd are independent primary parameters. It is less consistent than the correct choice.",
+        "D": "Maintenance dosing rate ≈ contact lens × Css / F. This matches the correct interpretation."
       }
     },
     {
@@ -1235,10 +1235,10 @@
         "A) Total and free concentrations always move identically with binding changes",
         "B) Bound drug is cleared preferentially while free drug is ignored",
         "C) Nonrestrictive means nothing is cleared ever",
-        "D) Only unbound drug is cleared; changes in binding can affect total CL interpretations"
+        "D) Only unbound drug is cleared; changes in binding can affect total contact lens interpretations"
       ],
-      "answer": "D) Only unbound drug is cleared; changes in binding can affect total CL interpretations",
-      "explanation": "fu multiplies intrinsic clearance terms for many restrictive eliminations. Therefore, the most accurate choice is: Only unbound drug is cleared; changes in binding can affect total CL interpretations. Free drug is the form available for clearance/effect.",
+      "answer": "D) Only unbound drug is cleared; changes in binding can affect total contact lens interpretations",
+      "explanation": "fu multiplies intrinsic clearance terms for many restrictive eliminations. Therefore, the most accurate choice is: Only unbound drug is cleared; changes in binding can affect total contact lens interpretations. Free drug is the form available for clearance/effect.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Free drug is the form available for clearance/effect. It is less consistent than the correct choice.",
@@ -1268,18 +1268,18 @@
       "id": "pharmacokinetics:hard:10",
       "question": "Which of the following correctly distinguishes key points about renal clearance components?",
       "options": [
-        "A) Serum creatinine alone ignoring age/weight/sex always equals true GFR exactly",
+        "A) Serum creatinine alone ignoring age/weight/sex always equals true glomerular filtration rate exactly",
         "B) Renal clearance equals only urine flow rate always",
         "C) Protein-bound drug is freely filtered at the same rate as unbound always",
-        "D) GFR filtration of free drug ± secretion − reabsorption determines CLr"
+        "D) glomerular filtration rate filtration of free drug ± secretion − reabsorption determines CLr"
       ],
-      "answer": "D) GFR filtration of free drug ± secretion − reabsorption determines CLr",
-      "explanation": "Active secretion can make CLr exceed fu·GFR; reabsorption can lower it. Therefore, the most accurate choice is: GFR filtration of free drug ± secretion − reabsorption determines CLr. Tubular processes modify filtered load substantially.",
+      "answer": "D) glomerular filtration rate filtration of free drug ± secretion − reabsorption determines CLr",
+      "explanation": "Active secretion can make CLr exceed fu·glomerular filtration rate; reabsorption can lower it. Therefore, the most accurate choice is: glomerular filtration rate filtration of free drug ± secretion − reabsorption determines CLr. Tubular processes modify filtered load substantially.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Tubular processes modify filtered load substantially. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Active secretion can make CLr exceed fu·GFR; reabsorption can lower it. This matches the correct interpretation."
+        "D": "Active secretion can make CLr exceed fu·glomerular filtration rate; reabsorption can lower it. This matches the correct interpretation."
       }
     },
     {
@@ -1288,11 +1288,11 @@
       "options": [
         "A) Renal clearance equals only urine flow rate always",
         "B) Bound drug is cleared preferentially while free drug is ignored",
-        "C) Filtered load ≈ fu × GFR for drugs freely filtered at glomerulus",
+        "C) Filtered load ≈ fu × glomerular filtration rate for drugs freely filtered at glomerulus",
         "D) Protein-bound drug is freely filtered at the same rate as unbound always"
       ],
-      "answer": "C) Filtered load ≈ fu × GFR for drugs freely filtered at glomerulus",
-      "explanation": "Size and binding restrict glomerular filtration of drug. Therefore, the most accurate choice is: Filtered load ≈ fu × GFR for drugs freely filtered at glomerulus. Bound drug is generally not freely filtered.",
+      "answer": "C) Filtered load ≈ fu × glomerular filtration rate for drugs freely filtered at glomerulus",
+      "explanation": "Size and binding restrict glomerular filtration of drug. Therefore, the most accurate choice is: Filtered load ≈ fu × glomerular filtration rate for drugs freely filtered at glomerulus. Bound drug is generally not freely filtered.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1302,29 +1302,29 @@
     },
     {
       "id": "pharmacokinetics:hard:12",
-      "question": "Which statement about secretion OAT OCT is most accurate?",
+      "question": "Which statement about secretion organic anion transporter organic cation transporter is most accurate?",
       "options": [
         "A) Urine pH never affects renal excretion of weak acids/bases",
-        "B) Tubular secretion never exceeds GFR contribution",
+        "B) Tubular secretion never exceeds glomerular filtration rate contribution",
         "C) Renal clearance equals only urine flow rate always",
         "D) Proximal tubule transporters secrete many acids/bases, raising renal clearance"
       ],
       "answer": "D) Proximal tubule transporters secrete many acids/bases, raising renal clearance",
-      "explanation": "OAT/OCT and efflux transporters mediate active tubular secretion. Therefore, the most accurate choice is: Proximal tubule transporters secrete many acids/bases, raising renal clearance. Secretion can make CLr >> fu·GFR.",
+      "explanation": "organic anion transporter/organic cation transporter and efflux transporters mediate active tubular secretion. Therefore, the most accurate choice is: Proximal tubule transporters secrete many acids/bases, raising renal clearance. Secretion can make CLr >> fu·glomerular filtration rate.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Secretion can make CLr >> fu·GFR. It is less consistent than the correct choice.",
+        "B": "Secretion can make CLr >> fu·glomerular filtration rate. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "OAT/OCT and efflux transporters mediate active tubular secretion. This matches the correct interpretation."
+        "D": "organic anion transporter/organic cation transporter and efflux transporters mediate active tubular secretion. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmacokinetics:hard:13",
-      "question": "Which statement about reabsorption p H in a 65-year-old woman is most accurate?",
+      "question": "Which statement about reabsorption p H in a 38-year-old woman is most accurate?",
       "options": [
         "A) Passive reabsorption of unionized drug can be manipulated by urine pH (ion trapping)",
         "B) Urine pH never affects renal excretion of weak acids/bases",
-        "C) Tubular secretion never exceeds GFR contribution",
+        "C) Tubular secretion never exceeds glomerular filtration rate contribution",
         "D) Renal clearance equals only urine flow rate always"
       ],
       "answer": "A) Passive reabsorption of unionized drug can be manipulated by urine pH (ion trapping)",
@@ -1343,7 +1343,7 @@
         "A) eCrCl/eGFR estimates guide renally cleared drug dosing adjustments",
         "B) Protein-bound drug is freely filtered at the same rate as unbound always",
         "C) Renal clearance equals only urine flow rate always",
-        "D) Serum creatinine alone ignoring age/weight/sex always equals true GFR exactly"
+        "D) Serum creatinine alone ignoring age/weight/sex always equals true glomerular filtration rate exactly"
       ],
       "answer": "A) eCrCl/eGFR estimates guide renally cleared drug dosing adjustments",
       "explanation": "Cockcroft–Gault and eGFR equations approximate kidney function for dosing. Therefore, the most accurate choice is: eCrCl/eGFR estimates guide renally cleared drug dosing adjustments. Raw creatinine without context misestimates function.",
@@ -1356,15 +1356,15 @@
     },
     {
       "id": "pharmacokinetics:hard:15",
-      "question": "Careful review of nonlinear PK Michaelis is required. Which of the following is most accurate?",
+      "question": "Careful review of nonlinear pharmacokinetics Michaelis is required. Which of the following is most accurate?",
       "options": [
-        "A) Phenytoin always shows strict dose-proportional linear PK at all doses",
-        "B) Saturable metabolism yields dose-dependent clearance and disproportionate AUC increases",
-        "C) CL = AUC/Dose",
-        "D) Saturable metabolism keeps AUC perfectly proportional to dose forever"
+        "A) Phenytoin always shows strict dose-proportional linear pharmacokinetics at all doses",
+        "B) Saturable metabolism yields dose-dependent clearance and disproportionate area under the curve increases",
+        "C) contact lens = area under the curve/Dose",
+        "D) Saturable metabolism keeps area under the curve perfectly proportional to dose forever"
       ],
-      "answer": "B) Saturable metabolism yields dose-dependent clearance and disproportionate AUC increases",
-      "explanation": "When concentrations near Km, clearance falls as dose rises. Therefore, the most accurate choice is: Saturable metabolism yields dose-dependent clearance and disproportionate AUC increases. Proportionality breaks down under saturation.",
+      "answer": "B) Saturable metabolism yields dose-dependent clearance and disproportionate area under the curve increases",
+      "explanation": "When concentrations near Km, clearance falls as dose rises. Therefore, the most accurate choice is: Saturable metabolism yields dose-dependent clearance and disproportionate area under the curve increases. Proportionality breaks down under saturation.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "When concentrations near Km, clearance falls as dose rises. This matches the correct interpretation.",
@@ -1376,28 +1376,28 @@
       "id": "pharmacokinetics:hard:16",
       "question": "Two similar explanations for phenytoin nonlinear are compared. Which of the following is correct?",
       "options": [
-        "A) Saturable metabolism keeps AUC perfectly proportional to dose forever",
-        "B) TMDD means monoclonal antibodies always show linear PK at all doses",
-        "C) Phenytoin always shows strict dose-proportional linear PK at all doses",
+        "A) Saturable metabolism keeps area under the curve perfectly proportional to dose forever",
+        "B) target-mediated drug disposition means monoclonal antibodies always show linear pharmacokinetics at all doses",
+        "C) Phenytoin always shows strict dose-proportional linear pharmacokinetics at all doses",
         "D) Small dose increases can cause large phenytoin level jumps near saturation"
       ],
       "answer": "D) Small dose increases can cause large phenytoin level jumps near saturation",
-      "explanation": "Vmax/Km behavior demands cautious titration and TDM. Therefore, the most accurate choice is: Small dose increases can cause large phenytoin level jumps near saturation. Linearity does not hold across the therapeutic range.",
+      "explanation": "Vmax/Km behavior demands cautious titration and therapeutic drug monitoring. Therefore, the most accurate choice is: Small dose increases can cause large phenytoin level jumps near saturation. Linearity does not hold across the therapeutic range.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Linearity does not hold across the therapeutic range. It is less consistent than the correct choice.",
-        "D": "Vmax/Km behavior demands cautious titration and TDM. This matches the correct interpretation."
+        "D": "Vmax/Km behavior demands cautious titration and therapeutic drug monitoring. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmacokinetics:hard:17",
-      "question": "In a 53-year-old woman, protein binding Vd must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 67-year-old woman, protein binding Vd must be separated from similar conditions. Which of the following is correct?",
       "options": [
         "A) Plasma protein binding always increases Vd above total body water automatically",
         "B) Extensive tissue binding increases Vd; extensive plasma binding can decrease apparent Vd",
         "C) All tissues always equilibrate instantly with plasma for every drug",
-        "D) Trough targeting ignores pathogen MIC and protein binding always without consequence"
+        "D) Trough targeting ignores pathogen minimum inhibitory concentration and protein binding always without consequence"
       ],
       "answer": "B) Extensive tissue binding increases Vd; extensive plasma binding can decrease apparent Vd",
       "explanation": "Vd depends on relative binding in plasma versus tissues. Therefore, the most accurate choice is: Extensive tissue binding increases Vd; extensive plasma binding can decrease apparent Vd. High plasma binding alone tends to keep drug in plasma (lower Vd).",
@@ -1410,11 +1410,11 @@
     },
     {
       "id": "pharmacokinetics:hard:18",
-      "question": "Which of the following correctly distinguishes key points about one-compartment IV bolus?",
+      "question": "Which of the following correctly distinguishes key points about one-compartment intravenous bolus?",
       "options": [
         "A) Cp declines monoexponentially; V = Dose/C0; t½ = 0.693/k",
-        "B) Oral absorption is always zero-order with constant mg/h for every immediate-release tablet",
-        "C) IV bolus always shows multi-exponential tissue distribution with no simple V",
+        "B) Oral absorption is always zero-order with constant milligrams/h for every immediate-release tablet",
+        "C) intravenous bolus always shows multi-exponential tissue distribution with no simple V",
         "D) Two-compartment means zero distribution time and single exponential only"
       ],
       "answer": "A) Cp declines monoexponentially; V = Dose/C0; t½ = 0.693/k",
@@ -1431,12 +1431,12 @@
       "question": "A clinic case of two-compartment model is discussed. Which of the following is correct?",
       "options": [
         "A) Two-compartment means zero distribution time and single exponential only",
-        "B) IV bolus always shows multi-exponential tissue distribution with no simple V",
-        "C) Oral absorption is always zero-order with constant mg/h for every immediate-release tablet",
-        "D) Distribution phase (α) then elimination phase (β) after IV bolus"
+        "B) intravenous bolus always shows multi-exponential tissue distribution with no simple V",
+        "C) Oral absorption is always zero-order with constant milligrams/h for every immediate-release tablet",
+        "D) Distribution phase (α) then elimination phase (β) after intravenous bolus"
       ],
-      "answer": "D) Distribution phase (α) then elimination phase (β) after IV bolus",
-      "explanation": "Drug equilibrates between central and peripheral compartments. Therefore, the most accurate choice is: Distribution phase (α) then elimination phase (β) after IV bolus. Biexponential decline is expected, not monoexponential only.",
+      "answer": "D) Distribution phase (α) then elimination phase (β) after intravenous bolus",
+      "explanation": "Drug equilibrates between central and peripheral compartments. Therefore, the most accurate choice is: Distribution phase (α) then elimination phase (β) after intravenous bolus. Biexponential decline is expected, not monoexponential only.",
       "choice_explanations": {
         "A": "Biexponential decline is expected, not monoexponential only. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1464,19 +1464,19 @@
     },
     {
       "id": "pharmacokinetics:hard:21",
-      "question": "Which statement about steady-state infusion in a 62-year-old man is most accurate?",
+      "question": "Which statement about steady-state infusion in a 35-year-old man is most accurate?",
       "options": [
-        "A) Css equals infusion rate × CL",
-        "B) t½ alone determines maintenance dose rate without CL",
-        "C) Css = infusion rate / CL for continuous IV infusion at steady state",
-        "D) CL equals Vd by definition in all drugs"
+        "A) Css equals infusion rate × contact lens",
+        "B) t½ alone determines maintenance dose rate without contact lens",
+        "C) Css = infusion rate / contact lens for continuous intravenous infusion at steady state",
+        "D) contact lens equals Vd by definition in all drugs"
       ],
-      "answer": "C) Css = infusion rate / CL for continuous IV infusion at steady state",
-      "explanation": "Input equals elimination at steady state: R0 = CL × Css. Therefore, the most accurate choice is: Css = infusion rate / CL for continuous IV infusion at steady state. Css is rate divided by CL, not multiplied.",
+      "answer": "C) Css = infusion rate / contact lens for continuous intravenous infusion at steady state",
+      "explanation": "Input equals elimination at steady state: R0 = contact lens × Css. Therefore, the most accurate choice is: Css = infusion rate / contact lens for continuous intravenous infusion at steady state. Css is rate divided by contact lens, not multiplied.",
       "choice_explanations": {
-        "A": "Css is rate divided by CL, not multiplied. It is less consistent than the correct choice.",
+        "A": "Css is rate divided by contact lens, not multiplied. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Input equals elimination at steady state: R0 = CL × Css. This matches the correct interpretation.",
+        "C": "Input equals elimination at steady state: R0 = contact lens × Css. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -1485,7 +1485,7 @@
       "question": "Which of the following is the best statement about loading plus infusion?",
       "options": [
         "A) Full induction always occurs within one minute of the first inducer dose",
-        "B) t½ alone determines maintenance dose rate without CL",
+        "B) t½ alone determines maintenance dose rate without contact lens",
         "C) Loading dose quickly approaches Css while infusion maintains it",
         "D) Infusion alone always reaches Css in one minute regardless of t½"
       ],
@@ -1504,13 +1504,13 @@
       "options": [
         "A) Accumulation factor rises when dosing interval is short relative to t½",
         "B) No accumulation ever occurs with repeated dosing regardless of interval",
-        "C) t½ alone determines maintenance dose rate without CL",
+        "C) t½ alone determines maintenance dose rate without contact lens",
         "D) Superposition forbids predicting multiple-dose levels from single-dose data ever"
       ],
       "answer": "A) Accumulation factor rises when dosing interval is short relative to t½",
-      "explanation": "AUC_tau at steady state equals AUC_inf of a single dose (linear PK). Therefore, the most accurate choice is: Accumulation factor rises when dosing interval is short relative to t½. Accumulation is expected when doses are given more often than elimination completes.",
+      "explanation": "AUC_tau at steady state equals AUC_inf of a single dose (linear pharmacokinetics). Therefore, the most accurate choice is: Accumulation factor rises when dosing interval is short relative to t½. Accumulation is expected when doses are given more often than elimination completes.",
       "choice_explanations": {
-        "A": "AUC_tau at steady state equals AUC_inf of a single dose (linear PK). This matches the correct interpretation.",
+        "A": "AUC_tau at steady state equals AUC_inf of a single dose (linear pharmacokinetics). This matches the correct interpretation.",
         "B": "Accumulation is expected when doses are given more often than elimination completes. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1520,8 +1520,8 @@
       "id": "pharmacokinetics:hard:24",
       "question": "Two similar explanations for fluctuation Css are compared. Which of the following is correct?",
       "options": [
-        "A) t½ alone determines maintenance dose rate without CL",
-        "B) Trough targeting ignores pathogen MIC and protein binding always without consequence",
+        "A) t½ alone determines maintenance dose rate without contact lens",
+        "B) Trough targeting ignores pathogen minimum inhibitory concentration and protein binding always without consequence",
         "C) Peak–trough swing widens with long intervals relative to half-life or rapid absorption",
         "D) Fluctuation is independent of dosing interval and half-life"
       ],
@@ -1536,25 +1536,25 @@
     },
     {
       "id": "pharmacokinetics:hard:25",
-      "question": "In a detailed discussion of linear PK superposition, which of the following is most accurate?",
+      "question": "In a detailed discussion of linear pharmacokinetics superposition, which of the following is most accurate?",
       "options": [
         "A) Concentration–time profiles scale with dose and add with multiple doses when linear",
-        "B) Phenytoin always shows strict dose-proportional linear PK at all doses",
+        "B) Phenytoin always shows strict dose-proportional linear pharmacokinetics at all doses",
         "C) Superposition forbids predicting multiple-dose levels from single-dose data ever",
-        "D) TMDD means monoclonal antibodies always show linear PK at all doses"
+        "D) target-mediated drug disposition means monoclonal antibodies always show linear pharmacokinetics at all doses"
       ],
       "answer": "A) Concentration–time profiles scale with dose and add with multiple doses when linear",
-      "explanation": "Linearity enables proportional scaling and superposition principles. Therefore, the most accurate choice is: Concentration–time profiles scale with dose and add with multiple doses when linear. Superposition is a core linear PK tool.",
+      "explanation": "Linearity enables proportional scaling and superposition principles. Therefore, the most accurate choice is: Concentration–time profiles scale with dose and add with multiple doses when linear. Superposition is a core linear pharmacokinetics tool.",
       "choice_explanations": {
         "A": "Linearity enables proportional scaling and superposition principles. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Superposition is a core linear PK tool. It is less consistent than the correct choice.",
+        "C": "Superposition is a core linear pharmacokinetics tool. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmacokinetics:hard:26",
-      "question": "A 52-year-old woman returns for review of suspected first-pass ER. Which of the following is most accurate?",
+      "question": "A 66-year-old woman returns for review of suspected first-pass emergency room. Which of the following is most accurate?",
       "options": [
         "A) Sublingual delivery always undergoes complete portal first-pass identically to swallowed drug",
         "B) High extraction always means oral F near 100%",
@@ -1562,12 +1562,12 @@
         "D) Hepatic extraction ratio relates to first-pass loss for orally absorbed drugs"
       ],
       "answer": "D) Hepatic extraction ratio relates to first-pass loss for orally absorbed drugs",
-      "explanation": "Oral F ≈ 1 − ER for complete absorption assumptions (simplified). Therefore, the most accurate choice is: Hepatic extraction ratio relates to first-pass loss for orally absorbed drugs. High ER implies low oral F if absorption is complete.",
+      "explanation": "Oral F ≈ 1 − emergency room for complete absorption assumptions (simplified). Therefore, the most accurate choice is: Hepatic extraction ratio relates to first-pass loss for orally absorbed drugs. High emergency room implies low oral F if absorption is complete.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "High ER implies low oral F if absorption is complete. It is less consistent than the correct choice.",
+        "B": "High emergency room implies low oral F if absorption is complete. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Oral F ≈ 1 − ER for complete absorption assumptions (simplified). This matches the correct interpretation."
+        "D": "Oral F ≈ 1 − emergency room for complete absorption assumptions (simplified). This matches the correct interpretation."
       }
     },
     {
@@ -1590,11 +1590,11 @@
     },
     {
       "id": "pharmacokinetics:hard:28",
-      "question": "A 67-year-old woman presents with features compatible with p-gp absorption. Which of the following is most accurate?",
+      "question": "A 40-year-old woman presents with features compatible with p-gp absorption. Which of the following is most accurate?",
       "options": [
         "A) P-gp only increases oral absorption of all substrates",
-        "B) BBB transporters always maximize CNS levels of all drugs",
-        "C) MDAC increases absorption of recycled drugs",
+        "B) bundle branch block transporters always maximize central nervous system levels of all drugs",
+        "C) multiple-dose activated charcoal increases absorption of recycled drugs",
         "D) Intestinal P-gp efflux can limit absorption of substrates and interact with inhibitors"
       ],
       "answer": "D) Intestinal P-gp efflux can limit absorption of substrates and interact with inhibitors",
@@ -1608,20 +1608,20 @@
     },
     {
       "id": "pharmacokinetics:hard:29",
-      "question": "Which statement about BBB efflux in a 51-year-old woman is most accurate?",
+      "question": "Which statement about bundle branch block efflux in a 65-year-old woman is most accurate?",
       "options": [
-        "A) Random untimed levels are always equally interpretable for all TDM drugs",
-        "B) A single random CSF level always fully defines CNS PK for all drugs",
-        "C) BBB transporters always maximize CNS levels of all drugs",
-        "D) P-gp and other BBB transporters limit CNS entry of many drugs"
+        "A) Random untimed levels are always equally interpretable for all therapeutic drug monitoring drugs",
+        "B) A single random cerebrospinal fluid level always fully defines central nervous system pharmacokinetics for all drugs",
+        "C) bundle branch block transporters always maximize central nervous system levels of all drugs",
+        "D) P-gp and other bundle branch block transporters limit central nervous system entry of many drugs"
       ],
-      "answer": "D) P-gp and other BBB transporters limit CNS entry of many drugs",
-      "explanation": "Efflux at brain endothelium reduces CNS exposure of substrates. Therefore, the most accurate choice is: P-gp and other BBB transporters limit CNS entry of many drugs. They restrict, rather than maximize, CNS entry.",
+      "answer": "D) P-gp and other bundle branch block transporters limit central nervous system entry of many drugs",
+      "explanation": "Efflux at brain endothelium reduces central nervous system exposure of substrates. Therefore, the most accurate choice is: P-gp and other bundle branch block transporters limit central nervous system entry of many drugs. They restrict, rather than maximize, central nervous system entry.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "They restrict, rather than maximize, CNS entry. It is less consistent than the correct choice.",
-        "D": "Efflux at brain endothelium reduces CNS exposure of substrates. This matches the correct interpretation."
+        "C": "They restrict, rather than maximize, central nervous system entry. It is less consistent than the correct choice.",
+        "D": "Efflux at brain endothelium reduces central nervous system exposure of substrates. This matches the correct interpretation."
       }
     }
   ],
@@ -1630,17 +1630,17 @@
       "id": "pharmacokinetics:extreme:0",
       "question": "Careful reasoning about bioavailability F is required. Which of the following is most accurate?",
       "options": [
-        "A) Always equal to clearance in mL/min",
-        "B) Requires an IV arm by definition for relative bioavailability",
+        "A) Always equal to clearance in milliliters/min",
+        "B) Requires an intravenous arm by definition for relative bioavailability",
         "C) Fraction of administered dose reaching systemic circulation unchanged",
-        "D) Compares two oral products without any IV reference"
+        "D) Compares two oral products without any intravenous reference"
       ],
       "answer": "C) Fraction of administered dose reaching systemic circulation unchanged",
-      "explanation": "F compares systemic exposure from extravascular versus IV reference dosing. Therefore, the most accurate choice is: Fraction of administered dose reaching systemic circulation unchanged. Clearance is an elimination parameter, not F.",
+      "explanation": "F compares systemic exposure from extravascular versus intravenous reference dosing. Therefore, the most accurate choice is: Fraction of administered dose reaching systemic circulation unchanged. Clearance is an elimination parameter, not F.",
       "choice_explanations": {
         "A": "Clearance is an elimination parameter, not F. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "F compares systemic exposure from extravascular versus IV reference dosing. This matches the correct interpretation.",
+        "C": "F compares systemic exposure from extravascular versus intravenous reference dosing. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -1648,51 +1648,51 @@
       "id": "pharmacokinetics:extreme:1",
       "question": "Small differences in wording about absolute bioavailability matter. Which of the following is correct?",
       "options": [
-        "A) Compares AUC after extravascular dose to AUC after IV dose normalized by dose",
-        "B) Requires an IV arm by definition for relative bioavailability",
-        "C) CL = AUC/Dose",
-        "D) Compares two oral products without any IV reference"
+        "A) Compares area under the curve after extravascular dose to area under the curve after intravenous dose normalized by dose",
+        "B) Requires an intravenous arm by definition for relative bioavailability",
+        "C) contact lens = area under the curve/Dose",
+        "D) Compares two oral products without any intravenous reference"
       ],
-      "answer": "A) Compares AUC after extravascular dose to AUC after IV dose normalized by dose",
-      "explanation": "IV dose defines 100% systemic delivery for the absolute F calculation. Therefore, the most accurate choice is: Compares AUC after extravascular dose to AUC after IV dose normalized by dose. Oral-versus-oral comparison without IV is relative bioavailability/BE territory.",
+      "answer": "A) Compares area under the curve after extravascular dose to area under the curve after intravenous dose normalized by dose",
+      "explanation": "intravenous dose defines 100% systemic delivery for the absolute F calculation. Therefore, the most accurate choice is: Compares area under the curve after extravascular dose to area under the curve after intravenous dose normalized by dose. Oral-versus-oral comparison without intravenous is relative bioavailability/bioequivalence territory.",
       "choice_explanations": {
-        "A": "IV dose defines 100% systemic delivery for the absolute F calculation. This matches the correct interpretation.",
+        "A": "intravenous dose defines 100% systemic delivery for the absolute F calculation. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Oral-versus-oral comparison without IV is relative bioavailability/BE territory. It is less consistent than the correct choice."
+        "D": "Oral-versus-oral comparison without intravenous is relative bioavailability/bioequivalence territory. It is less consistent than the correct choice."
       }
     },
     {
       "id": "pharmacokinetics:extreme:2",
       "question": "Which of the following is the most precise statement about relative bioavailability?",
       "options": [
-        "A) Compares two oral products without any IV reference",
-        "B) BE requires arithmetic mean ratios of exactly 100% with zero variance",
+        "A) Compares two oral products without any intravenous reference",
+        "B) bioequivalence requires arithmetic mean ratios of exactly 100% with zero variance",
         "C) Compares systemic exposure of two extravascular formulations",
-        "D) Requires an IV arm by definition for relative bioavailability"
+        "D) Requires an intravenous arm by definition for relative bioavailability"
       ],
       "answer": "C) Compares systemic exposure of two extravascular formulations",
-      "explanation": "Test/reference AUC ratios assess formulation performance. Therefore, the most accurate choice is: Compares systemic exposure of two extravascular formulations. Relative F does not require IV dosing.",
+      "explanation": "Test/reference area under the curve ratios assess formulation performance. Therefore, the most accurate choice is: Compares systemic exposure of two extravascular formulations. Relative F does not require intravenous dosing.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Test/reference AUC ratios assess formulation performance. This matches the correct interpretation.",
-        "D": "Relative F does not require IV dosing. It is less consistent than the correct choice."
+        "C": "Test/reference area under the curve ratios assess formulation performance. This matches the correct interpretation.",
+        "D": "Relative F does not require intravenous dosing. It is less consistent than the correct choice."
       }
     },
     {
       "id": "pharmacokinetics:extreme:3",
-      "question": "In advanced review of AUC meaning, which of the following is most accurate?",
+      "question": "In advanced review of area under the curve meaning, which of the following is most accurate?",
       "options": [
         "A) Area under concentration–time curve indexes extent of systemic exposure",
-        "B) MRT equals only Tmax",
+        "B) mean residence time equals only Tmax",
         "C) Tmax exclusively measures renal clearance",
-        "D) AUC equals only the peak concentration Cmax"
+        "D) area under the curve equals only the peak concentration Cmax"
       ],
       "answer": "A) Area under concentration–time curve indexes extent of systemic exposure",
-      "explanation": "AUC relates to dose and clearance for linear kinetics (AUC = F·Dose/CL). Therefore, the most accurate choice is: Area under concentration–time curve indexes extent of systemic exposure. Cmax is a single-point metric, not the full exposure integral.",
+      "explanation": "area under the curve relates to dose and clearance for linear kinetics (area under the curve = F·Dose/contact lens). Therefore, the most accurate choice is: Area under concentration–time curve indexes extent of systemic exposure. Cmax is a single-point metric, not the full exposure integral.",
       "choice_explanations": {
-        "A": "AUC relates to dose and clearance for linear kinetics (AUC = F·Dose/CL). This matches the correct interpretation.",
+        "A": "area under the curve relates to dose and clearance for linear kinetics (area under the curve = F·Dose/contact lens). This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Cmax is a single-point metric, not the full exposure integral. It is less consistent than the correct choice."
@@ -1705,7 +1705,7 @@
         "A) Kel is read from the absorption peak only",
         "B) Tmax exclusively measures renal clearance",
         "C) Cmax is peak concentration; Tmax is time of peak reflecting absorption rate themes",
-        "D) AUC equals only the peak concentration Cmax"
+        "D) area under the curve equals only the peak concentration Cmax"
       ],
       "answer": "C) Cmax is peak concentration; Tmax is time of peak reflecting absorption rate themes",
       "explanation": "Faster absorption generally raises Cmax and shortens Tmax for similar extent. Therefore, the most accurate choice is: Cmax is peak concentration; Tmax is time of peak reflecting absorption rate themes. Tmax is an absorption-timing metric, not clearance.",
@@ -1722,16 +1722,16 @@
       "options": [
         "A) Low-extraction clearance always equals liver blood flow",
         "B) Tmax exclusively measures renal clearance",
-        "C) CL is the proportionality factor between elimination rate and plasma concentration",
-        "D) CL equals Vd by definition in all drugs"
+        "C) contact lens is the proportionality factor between elimination rate and plasma concentration",
+        "D) contact lens equals Vd by definition in all drugs"
       ],
-      "answer": "C) CL is the proportionality factor between elimination rate and plasma concentration",
-      "explanation": "Maintenance dosing rate ≈ CL × Css / F. Therefore, the most accurate choice is: CL is the proportionality factor between elimination rate and plasma concentration. CL and Vd are independent primary parameters.",
+      "answer": "C) contact lens is the proportionality factor between elimination rate and plasma concentration",
+      "explanation": "Maintenance dosing rate ≈ contact lens × Css / F. Therefore, the most accurate choice is: contact lens is the proportionality factor between elimination rate and plasma concentration. contact lens and Vd are independent primary parameters.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Maintenance dosing rate ≈ CL × Css / F. This matches the correct interpretation.",
-        "D": "CL and Vd are independent primary parameters. It is less consistent than the correct choice."
+        "C": "Maintenance dosing rate ≈ contact lens × Css / F. This matches the correct interpretation.",
+        "D": "contact lens and Vd are independent primary parameters. It is less consistent than the correct choice."
       }
     },
     {
@@ -1739,15 +1739,15 @@
       "question": "Which of the following is the central point about hepatic clearance?",
       "options": [
         "A) Well-stirred model assumes no blood flow through liver",
-        "B) Hepatic CL depends only on tablet color",
+        "B) Hepatic contact lens depends only on tablet color",
         "C) CLint equals liver blood flow by definition",
-        "D) Hepatic CL depends on liver blood flow, fraction unbound, and intrinsic clearance"
+        "D) Hepatic contact lens depends on liver blood flow, fraction unbound, and intrinsic clearance"
       ],
-      "answer": "D) Hepatic CL depends on liver blood flow, fraction unbound, and intrinsic clearance",
-      "explanation": "Well-stirred model: CLh ≈ Q·fu·CLint / (Q + fu·CLint). Therefore, the most accurate choice is: Hepatic CL depends on liver blood flow, fraction unbound, and intrinsic clearance. Blood flow, binding, and enzyme activity jointly govern hepatic CL.",
+      "answer": "D) Hepatic contact lens depends on liver blood flow, fraction unbound, and intrinsic clearance",
+      "explanation": "Well-stirred model: CLh ≈ Q·fu·CLint / (Q + fu·CLint). Therefore, the most accurate choice is: Hepatic contact lens depends on liver blood flow, fraction unbound, and intrinsic clearance. Blood flow, binding, and enzyme activity jointly govern hepatic contact lens.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Blood flow, binding, and enzyme activity jointly govern hepatic CL. It is less consistent than the correct choice.",
+        "B": "Blood flow, binding, and enzyme activity jointly govern hepatic contact lens. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Well-stirred model: CLh ≈ Q·fu·CLint / (Q + fu·CLint). This matches the correct interpretation."
       }
@@ -1792,13 +1792,13 @@
       "id": "pharmacokinetics:extreme:9",
       "question": "Small differences in wording about restrictive clearance matter. Which of the following is correct?",
       "options": [
-        "A) Only unbound drug is cleared; changes in binding can affect total CL interpretations",
+        "A) Only unbound drug is cleared; changes in binding can affect total contact lens interpretations",
         "B) Nonrestrictive means nothing is cleared ever",
         "C) Bound drug is cleared preferentially while free drug is ignored",
         "D) Total and free concentrations always move identically with binding changes"
       ],
-      "answer": "A) Only unbound drug is cleared; changes in binding can affect total CL interpretations",
-      "explanation": "fu multiplies intrinsic clearance terms for many restrictive eliminations. Therefore, the most accurate choice is: Only unbound drug is cleared; changes in binding can affect total CL interpretations. Free drug is the form available for clearance/effect.",
+      "answer": "A) Only unbound drug is cleared; changes in binding can affect total contact lens interpretations",
+      "explanation": "fu multiplies intrinsic clearance terms for many restrictive eliminations. Therefore, the most accurate choice is: Only unbound drug is cleared; changes in binding can affect total contact lens interpretations. Free drug is the form available for clearance/effect.",
       "choice_explanations": {
         "A": "fu multiplies intrinsic clearance terms for many restrictive eliminations. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1830,15 +1830,15 @@
       "options": [
         "A) Renal clearance equals only urine flow rate always",
         "B) Protein-bound drug is freely filtered at the same rate as unbound always",
-        "C) GFR filtration of free drug ± secretion − reabsorption determines CLr",
-        "D) Serum creatinine alone ignoring age/weight/sex always equals true GFR exactly"
+        "C) glomerular filtration rate filtration of free drug ± secretion − reabsorption determines CLr",
+        "D) Serum creatinine alone ignoring age/weight/sex always equals true glomerular filtration rate exactly"
       ],
-      "answer": "C) GFR filtration of free drug ± secretion − reabsorption determines CLr",
-      "explanation": "Active secretion can make CLr exceed fu·GFR; reabsorption can lower it. Therefore, the most accurate choice is: GFR filtration of free drug ± secretion − reabsorption determines CLr. Tubular processes modify filtered load substantially.",
+      "answer": "C) glomerular filtration rate filtration of free drug ± secretion − reabsorption determines CLr",
+      "explanation": "Active secretion can make CLr exceed fu·glomerular filtration rate; reabsorption can lower it. Therefore, the most accurate choice is: glomerular filtration rate filtration of free drug ± secretion − reabsorption determines CLr. Tubular processes modify filtered load substantially.",
       "choice_explanations": {
         "A": "Tubular processes modify filtered load substantially. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Active secretion can make CLr exceed fu·GFR; reabsorption can lower it. This matches the correct interpretation.",
+        "C": "Active secretion can make CLr exceed fu·glomerular filtration rate; reabsorption can lower it. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -1847,12 +1847,12 @@
       "question": "Which interpretation of filtration clearance is most accurate?",
       "options": [
         "A) Bound drug is cleared preferentially while free drug is ignored",
-        "B) Filtered load ≈ fu × GFR for drugs freely filtered at glomerulus",
+        "B) Filtered load ≈ fu × glomerular filtration rate for drugs freely filtered at glomerulus",
         "C) Renal clearance equals only urine flow rate always",
         "D) Protein-bound drug is freely filtered at the same rate as unbound always"
       ],
-      "answer": "B) Filtered load ≈ fu × GFR for drugs freely filtered at glomerulus",
-      "explanation": "Size and binding restrict glomerular filtration of drug. Therefore, the most accurate choice is: Filtered load ≈ fu × GFR for drugs freely filtered at glomerulus. Bound drug is generally not freely filtered.",
+      "answer": "B) Filtered load ≈ fu × glomerular filtration rate for drugs freely filtered at glomerulus",
+      "explanation": "Size and binding restrict glomerular filtration of drug. Therefore, the most accurate choice is: Filtered load ≈ fu × glomerular filtration rate for drugs freely filtered at glomerulus. Bound drug is generally not freely filtered.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Size and binding restrict glomerular filtration of drug. This matches the correct interpretation.",
@@ -1862,27 +1862,27 @@
     },
     {
       "id": "pharmacokinetics:extreme:13",
-      "question": "Which closely related statement about secretion OAT OCT is correct?",
+      "question": "Which closely related statement about secretion organic anion transporter organic cation transporter is correct?",
       "options": [
-        "A) Tubular secretion never exceeds GFR contribution",
+        "A) Tubular secretion never exceeds glomerular filtration rate contribution",
         "B) Renal clearance equals only urine flow rate always",
         "C) Urine pH never affects renal excretion of weak acids/bases",
         "D) Proximal tubule transporters secrete many acids/bases, raising renal clearance"
       ],
       "answer": "D) Proximal tubule transporters secrete many acids/bases, raising renal clearance",
-      "explanation": "OAT/OCT and efflux transporters mediate active tubular secretion. Therefore, the most accurate choice is: Proximal tubule transporters secrete many acids/bases, raising renal clearance. Secretion can make CLr >> fu·GFR.",
+      "explanation": "organic anion transporter/organic cation transporter and efflux transporters mediate active tubular secretion. Therefore, the most accurate choice is: Proximal tubule transporters secrete many acids/bases, raising renal clearance. Secretion can make CLr >> fu·glomerular filtration rate.",
       "choice_explanations": {
-        "A": "Secretion can make CLr >> fu·GFR. It is less consistent than the correct choice.",
+        "A": "Secretion can make CLr >> fu·glomerular filtration rate. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "OAT/OCT and efflux transporters mediate active tubular secretion. This matches the correct interpretation."
+        "D": "organic anion transporter/organic cation transporter and efflux transporters mediate active tubular secretion. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmacokinetics:extreme:14",
-      "question": "Senior review is requested for reabsorption p H in a 65-year-old woman. Which of the following is correct?",
+      "question": "Senior review is requested for reabsorption p H in a 38-year-old woman. Which of the following is correct?",
       "options": [
-        "A) Tubular secretion never exceeds GFR contribution",
+        "A) Tubular secretion never exceeds glomerular filtration rate contribution",
         "B) Renal clearance equals only urine flow rate always",
         "C) Passive reabsorption of unionized drug can be manipulated by urine pH (ion trapping)",
         "D) Urine pH never affects renal excretion of weak acids/bases"
@@ -1901,7 +1901,7 @@
       "question": "Which statement about creatinine clearance estimate is most accurate?",
       "options": [
         "A) eCrCl/eGFR estimates guide renally cleared drug dosing adjustments",
-        "B) Serum creatinine alone ignoring age/weight/sex always equals true GFR exactly",
+        "B) Serum creatinine alone ignoring age/weight/sex always equals true glomerular filtration rate exactly",
         "C) Renal clearance equals only urine flow rate always",
         "D) Protein-bound drug is freely filtered at the same rate as unbound always"
       ],
@@ -1916,15 +1916,15 @@
     },
     {
       "id": "pharmacokinetics:extreme:16",
-      "question": "Careful reasoning about nonlinear PK Michaelis is required. Which of the following is most accurate?",
+      "question": "Careful reasoning about nonlinear pharmacokinetics Michaelis is required. Which of the following is most accurate?",
       "options": [
-        "A) CL = AUC/Dose",
-        "B) Phenytoin always shows strict dose-proportional linear PK at all doses",
-        "C) Saturable metabolism keeps AUC perfectly proportional to dose forever",
-        "D) Saturable metabolism yields dose-dependent clearance and disproportionate AUC increases"
+        "A) contact lens = area under the curve/Dose",
+        "B) Phenytoin always shows strict dose-proportional linear pharmacokinetics at all doses",
+        "C) Saturable metabolism keeps area under the curve perfectly proportional to dose forever",
+        "D) Saturable metabolism yields dose-dependent clearance and disproportionate area under the curve increases"
       ],
-      "answer": "D) Saturable metabolism yields dose-dependent clearance and disproportionate AUC increases",
-      "explanation": "When concentrations near Km, clearance falls as dose rises. Therefore, the most accurate choice is: Saturable metabolism yields dose-dependent clearance and disproportionate AUC increases. Proportionality breaks down under saturation.",
+      "answer": "D) Saturable metabolism yields dose-dependent clearance and disproportionate area under the curve increases",
+      "explanation": "When concentrations near Km, clearance falls as dose rises. Therefore, the most accurate choice is: Saturable metabolism yields dose-dependent clearance and disproportionate area under the curve increases. Proportionality breaks down under saturation.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1934,17 +1934,17 @@
     },
     {
       "id": "pharmacokinetics:extreme:17",
-      "question": "Management of phenytoin nonlinear is reviewed for a 67-year-old woman. Which of the following is most accurate?",
+      "question": "Management of phenytoin nonlinear is reviewed for a 40-year-old woman. Which of the following is most accurate?",
       "options": [
         "A) Small dose increases can cause large phenytoin level jumps near saturation",
-        "B) TMDD means monoclonal antibodies always show linear PK at all doses",
-        "C) Saturable metabolism keeps AUC perfectly proportional to dose forever",
-        "D) Phenytoin always shows strict dose-proportional linear PK at all doses"
+        "B) target-mediated drug disposition means monoclonal antibodies always show linear pharmacokinetics at all doses",
+        "C) Saturable metabolism keeps area under the curve perfectly proportional to dose forever",
+        "D) Phenytoin always shows strict dose-proportional linear pharmacokinetics at all doses"
       ],
       "answer": "A) Small dose increases can cause large phenytoin level jumps near saturation",
-      "explanation": "Vmax/Km behavior demands cautious titration and TDM. Therefore, the most accurate choice is: Small dose increases can cause large phenytoin level jumps near saturation. Linearity does not hold across the therapeutic range.",
+      "explanation": "Vmax/Km behavior demands cautious titration and therapeutic drug monitoring. Therefore, the most accurate choice is: Small dose increases can cause large phenytoin level jumps near saturation. Linearity does not hold across the therapeutic range.",
       "choice_explanations": {
-        "A": "Vmax/Km behavior demands cautious titration and TDM. This matches the correct interpretation.",
+        "A": "Vmax/Km behavior demands cautious titration and therapeutic drug monitoring. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Linearity does not hold across the therapeutic range. It is less consistent than the correct choice."
@@ -1952,9 +1952,9 @@
     },
     {
       "id": "pharmacokinetics:extreme:18",
-      "question": "A detailed evaluation for protein binding Vd is underway in a 53-year-old woman. Which of the following is correct?",
+      "question": "A detailed evaluation for protein binding Vd is underway in a 67-year-old woman. Which of the following is correct?",
       "options": [
-        "A) Trough targeting ignores pathogen MIC and protein binding always without consequence",
+        "A) Trough targeting ignores pathogen minimum inhibitory concentration and protein binding always without consequence",
         "B) Plasma protein binding always increases Vd above total body water automatically",
         "C) All tissues always equilibrate instantly with plasma for every drug",
         "D) Extensive tissue binding increases Vd; extensive plasma binding can decrease apparent Vd"
@@ -1970,12 +1970,12 @@
     },
     {
       "id": "pharmacokinetics:extreme:19",
-      "question": "In a 63-year-old man, treatment choices for one-compartment IV bolus are compared. Which of the following is most accurate?",
+      "question": "In a 36-year-old man, treatment choices for one-compartment intravenous bolus are compared. Which of the following is most accurate?",
       "options": [
-        "A) IV bolus always shows multi-exponential tissue distribution with no simple V",
+        "A) intravenous bolus always shows multi-exponential tissue distribution with no simple V",
         "B) Cp declines monoexponentially; V = Dose/C0; t½ = 0.693/k",
         "C) Two-compartment means zero distribution time and single exponential only",
-        "D) Oral absorption is always zero-order with constant mg/h for every immediate-release tablet"
+        "D) Oral absorption is always zero-order with constant milligrams/h for every immediate-release tablet"
       ],
       "answer": "B) Cp declines monoexponentially; V = Dose/C0; t½ = 0.693/k",
       "explanation": "Instant mixing assumption yields monoexponential decline for 1-compartment models. Therefore, the most accurate choice is: Cp declines monoexponentially; V = Dose/C0; t½ = 0.693/k. One-compartment is the simplest mixing assumption.",
@@ -1988,15 +1988,15 @@
     },
     {
       "id": "pharmacokinetics:extreme:20",
-      "question": "In a 48-year-old man, distinguishing two-compartment model from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 62-year-old man, distinguishing two-compartment model from similar conditions is difficult. Which of the following is correct?",
       "options": [
-        "A) IV bolus always shows multi-exponential tissue distribution with no simple V",
-        "B) Distribution phase (α) then elimination phase (β) after IV bolus",
+        "A) intravenous bolus always shows multi-exponential tissue distribution with no simple V",
+        "B) Distribution phase (α) then elimination phase (β) after intravenous bolus",
         "C) Two-compartment means zero distribution time and single exponential only",
-        "D) Oral absorption is always zero-order with constant mg/h for every immediate-release tablet"
+        "D) Oral absorption is always zero-order with constant milligrams/h for every immediate-release tablet"
       ],
-      "answer": "B) Distribution phase (α) then elimination phase (β) after IV bolus",
-      "explanation": "Drug equilibrates between central and peripheral compartments. Therefore, the most accurate choice is: Distribution phase (α) then elimination phase (β) after IV bolus. Biexponential decline is expected, not monoexponential only.",
+      "answer": "B) Distribution phase (α) then elimination phase (β) after intravenous bolus",
+      "explanation": "Drug equilibrates between central and peripheral compartments. Therefore, the most accurate choice is: Distribution phase (α) then elimination phase (β) after intravenous bolus. Biexponential decline is expected, not monoexponential only.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Drug equilibrates between central and peripheral compartments. This matches the correct interpretation.",
@@ -2024,19 +2024,19 @@
     },
     {
       "id": "pharmacokinetics:extreme:22",
-      "question": "Senior review is requested for steady-state infusion in a 62-year-old man. Which of the following is correct?",
+      "question": "Senior review is requested for steady-state infusion in a 35-year-old man. Which of the following is correct?",
       "options": [
-        "A) Css = infusion rate / CL for continuous IV infusion at steady state",
-        "B) CL equals Vd by definition in all drugs",
-        "C) Css equals infusion rate × CL",
-        "D) t½ alone determines maintenance dose rate without CL"
+        "A) Css = infusion rate / contact lens for continuous intravenous infusion at steady state",
+        "B) contact lens equals Vd by definition in all drugs",
+        "C) Css equals infusion rate × contact lens",
+        "D) t½ alone determines maintenance dose rate without contact lens"
       ],
-      "answer": "A) Css = infusion rate / CL for continuous IV infusion at steady state",
-      "explanation": "Input equals elimination at steady state: R0 = CL × Css. Therefore, the most accurate choice is: Css = infusion rate / CL for continuous IV infusion at steady state. Css is rate divided by CL, not multiplied.",
+      "answer": "A) Css = infusion rate / contact lens for continuous intravenous infusion at steady state",
+      "explanation": "Input equals elimination at steady state: R0 = contact lens × Css. Therefore, the most accurate choice is: Css = infusion rate / contact lens for continuous intravenous infusion at steady state. Css is rate divided by contact lens, not multiplied.",
       "choice_explanations": {
-        "A": "Input equals elimination at steady state: R0 = CL × Css. This matches the correct interpretation.",
+        "A": "Input equals elimination at steady state: R0 = contact lens × Css. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Css is rate divided by CL, not multiplied. It is less consistent than the correct choice.",
+        "C": "Css is rate divided by contact lens, not multiplied. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -2060,19 +2060,19 @@
     },
     {
       "id": "pharmacokinetics:extreme:24",
-      "question": "A 59-year-old woman with reduced renal function requires careful decisions about multiple dosing accumulation. Which of the following is most accurate?",
+      "question": "A 32-year-old woman requires careful decisions about multiple dosing accumulation. Which of the following is most accurate?",
       "options": [
         "A) Superposition forbids predicting multiple-dose levels from single-dose data ever",
         "B) No accumulation ever occurs with repeated dosing regardless of interval",
         "C) Accumulation factor rises when dosing interval is short relative to t½",
-        "D) t½ alone determines maintenance dose rate without CL"
+        "D) t½ alone determines maintenance dose rate without contact lens"
       ],
       "answer": "C) Accumulation factor rises when dosing interval is short relative to t½",
-      "explanation": "AUC_tau at steady state equals AUC_inf of a single dose (linear PK). Therefore, the most accurate choice is: Accumulation factor rises when dosing interval is short relative to t½. Accumulation is expected when doses are given more often than elimination completes.",
+      "explanation": "AUC_tau at steady state equals AUC_inf of a single dose (linear pharmacokinetics). Therefore, the most accurate choice is: Accumulation factor rises when dosing interval is short relative to t½. Accumulation is expected when doses are given more often than elimination completes.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Accumulation is expected when doses are given more often than elimination completes. It is less consistent than the correct choice.",
-        "C": "AUC_tau at steady state equals AUC_inf of a single dose (linear PK). This matches the correct interpretation.",
+        "C": "AUC_tau at steady state equals AUC_inf of a single dose (linear pharmacokinetics). This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -2081,9 +2081,9 @@
       "question": "Small differences in wording about fluctuation Css matter. Which of the following is correct?",
       "options": [
         "A) Peak–trough swing widens with long intervals relative to half-life or rapid absorption",
-        "B) t½ alone determines maintenance dose rate without CL",
+        "B) t½ alone determines maintenance dose rate without contact lens",
         "C) Fluctuation is independent of dosing interval and half-life",
-        "D) Trough targeting ignores pathogen MIC and protein binding always without consequence"
+        "D) Trough targeting ignores pathogen minimum inhibitory concentration and protein binding always without consequence"
       ],
       "answer": "A) Peak–trough swing widens with long intervals relative to half-life or rapid absorption",
       "explanation": "More frequent dosing smooths peaks and troughs for the same daily dose. Therefore, the most accurate choice is: Peak–trough swing widens with long intervals relative to half-life or rapid absorption. Interval and t½ strongly shape fluctuation.",
@@ -2096,17 +2096,17 @@
     },
     {
       "id": "pharmacokinetics:extreme:26",
-      "question": "A 50-year-old man needs action related to linear PK superposition. Which of the following is correct?",
+      "question": "A 64-year-old man needs action related to linear pharmacokinetics superposition. Which of the following is correct?",
       "options": [
         "A) Superposition forbids predicting multiple-dose levels from single-dose data ever",
-        "B) Phenytoin always shows strict dose-proportional linear PK at all doses",
+        "B) Phenytoin always shows strict dose-proportional linear pharmacokinetics at all doses",
         "C) Autoinduction raises levels of the inducer over weeks automatically",
         "D) Concentration–time profiles scale with dose and add with multiple doses when linear"
       ],
       "answer": "D) Concentration–time profiles scale with dose and add with multiple doses when linear",
-      "explanation": "Linearity enables proportional scaling and superposition principles. Therefore, the most accurate choice is: Concentration–time profiles scale with dose and add with multiple doses when linear. Superposition is a core linear PK tool.",
+      "explanation": "Linearity enables proportional scaling and superposition principles. Therefore, the most accurate choice is: Concentration–time profiles scale with dose and add with multiple doses when linear. Superposition is a core linear pharmacokinetics tool.",
       "choice_explanations": {
-        "A": "Superposition is a core linear PK tool. It is less consistent than the correct choice.",
+        "A": "Superposition is a core linear pharmacokinetics tool. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Linearity enables proportional scaling and superposition principles. This matches the correct interpretation."
@@ -2114,7 +2114,7 @@
     },
     {
       "id": "pharmacokinetics:extreme:27",
-      "question": "A 52-year-old woman has findings that make first-pass ER hard to confirm. Which of the following is most accurate?",
+      "question": "A 66-year-old woman has findings that make first-pass emergency room hard to confirm. Which of the following is most accurate?",
       "options": [
         "A) Sublingual delivery always undergoes complete portal first-pass identically to swallowed drug",
         "B) Hepatic extraction ratio relates to first-pass loss for orally absorbed drugs",
@@ -2122,12 +2122,12 @@
         "D) High extraction always means oral F near 100%"
       ],
       "answer": "B) Hepatic extraction ratio relates to first-pass loss for orally absorbed drugs",
-      "explanation": "Oral F ≈ 1 − ER for complete absorption assumptions (simplified). Therefore, the most accurate choice is: Hepatic extraction ratio relates to first-pass loss for orally absorbed drugs. High ER implies low oral F if absorption is complete.",
+      "explanation": "Oral F ≈ 1 − emergency room for complete absorption assumptions (simplified). Therefore, the most accurate choice is: Hepatic extraction ratio relates to first-pass loss for orally absorbed drugs. High emergency room implies low oral F if absorption is complete.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Oral F ≈ 1 − ER for complete absorption assumptions (simplified). This matches the correct interpretation.",
+        "B": "Oral F ≈ 1 − emergency room for complete absorption assumptions (simplified). This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "High ER implies low oral F if absorption is complete. It is less consistent than the correct choice."
+        "D": "High emergency room implies low oral F if absorption is complete. It is less consistent than the correct choice."
       }
     },
     {
@@ -2150,12 +2150,12 @@
     },
     {
       "id": "pharmacokinetics:extreme:29",
-      "question": "A 67-year-old woman returns with ongoing problems related to p-gp absorption. Which of the following is most accurate?",
+      "question": "A 40-year-old woman returns with ongoing problems related to p-gp absorption. Which of the following is most accurate?",
       "options": [
-        "A) BBB transporters always maximize CNS levels of all drugs",
+        "A) bundle branch block transporters always maximize central nervous system levels of all drugs",
         "B) Intestinal P-gp efflux can limit absorption of substrates and interact with inhibitors",
         "C) P-gp only increases oral absorption of all substrates",
-        "D) MDAC increases absorption of recycled drugs"
+        "D) multiple-dose activated charcoal increases absorption of recycled drugs"
       ],
       "answer": "B) Intestinal P-gp efflux can limit absorption of substrates and interact with inhibitors",
       "explanation": "Efflux back to lumen reduces net absorption for some drugs. Therefore, the most accurate choice is: Intestinal P-gp efflux can limit absorption of substrates and interact with inhibitors. P-gp decreases, not increases, net absorption of substrates.",

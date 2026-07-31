@@ -24,6 +24,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from question_catalogs import CATALOGS  # noqa: E402
+from abbreviations import expand_abbreviations, expand_question_dict  # noqa: E402
 
 DIFFICULTIES = ("easy", "medium", "hard", "extreme")
 PER_DIFF = 30
@@ -132,11 +133,14 @@ def phrase_topic(topic: str) -> str:
     return t or raw.lower()
 
 
-def condition_name(topic: str) -> str:
+def condition_name(topic: str, *, expand: bool = True) -> str:
     label = phrase_topic(topic)
     label = re.sub(r"\binterpretation\b", "", label, flags=re.I)
     label = re.sub(r"\s+", " ", label).strip(" -")
-    return label or phrase_topic(topic)
+    label = label or phrase_topic(topic)
+    if expand:
+        label = expand_abbreviations(label)
+    return label
 
 def _tokens(s: str) -> set[str]:
     stop = {
@@ -640,7 +644,7 @@ def _with_comorbidities(who: str, comorbidities: str) -> str:
 
 def topic_kind(topic: dict) -> str:
     blob = _blob(topic)
-    label = condition_name(topic.get("topic", "")).lower()
+    label = condition_name(topic.get("topic", ""), expand=False).lower()
     if any(
         k in blob or k in label
         for k in (
@@ -683,7 +687,7 @@ def is_acute_critical(topic: dict) -> bool:
     Match on the topic title (and correct answer), never on near-miss text —
     differentials often name acute lookalikes (e.g. cholangitis next to cholecystitis).
     """
-    label = condition_name(topic.get("topic", "")).lower()
+    label = condition_name(topic.get("topic", ""), expand=False).lower()
     correct = str(topic.get("correct", "")).lower()
 
     # Hard exclusions on the topic title itself
@@ -1140,7 +1144,7 @@ def build_specialty(field: str, specialty: str, topics: list[dict], out_path: Pa
             if BANNED.search(overall):
                 overall = BANNED.sub("", overall).strip()
             qid = f"{specialty}:{difficulty}:{len(bank[difficulty])}"
-            bank[difficulty].append(
+            item = expand_question_dict(
                 {
                     "id": qid,
                     "question": stem,
@@ -1148,9 +1152,16 @@ def build_specialty(field: str, specialty: str, topics: list[dict], out_path: Pa
                     "answer": answer,
                     "explanation": overall,
                     "choice_explanations": ce,
-                }
+                },
+                specialty=specialty,
+                field=field,
             )
-            used.add(stem.lower())
+            # Re-check uniqueness on expanded stem
+            if item["question"].lower() in used:
+                i += 1
+                continue
+            bank[difficulty].append(item)
+            used.add(item["question"].lower())
             letter_counts[answer_letter] += 1
             i += 1
         if len(bank[difficulty]) < PER_DIFF:

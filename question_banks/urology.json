@@ -2,15 +2,15 @@
   "easy": [
     {
       "id": "urology:easy:0",
-      "question": "Which of the following is true of BPH storage vs voiding?",
+      "question": "Which of the following is true of benign prostatic hyperplasia storage versus voiding?",
       "options": [
-        "A) BPH equals acute bacterial prostatitis fever/rigors always",
+        "A) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always",
         "B) Vigorous prostatic massage first diagnostic step always",
-        "C) BPH causes storage and voiding LUTS from bladder outlet obstruction",
+        "C) benign prostatic hyperplasia causes storage and voiding lower urinary tract symptoms from bladder outlet obstruction",
         "D) Nocturia always equals only prostate cancer"
       ],
-      "answer": "C) BPH causes storage and voiding LUTS from bladder outlet obstruction",
-      "explanation": "Prostate enlargement increases outlet resistance and bladder work. Therefore, the most accurate choice is: BPH causes storage and voiding LUTS from bladder outlet obstruction. Acute prostatitis is infection with systemic signs.",
+      "answer": "C) benign prostatic hyperplasia causes storage and voiding lower urinary tract symptoms from bladder outlet obstruction",
+      "explanation": "Prostate enlargement increases outlet resistance and bladder work. Therefore, the most accurate choice is: benign prostatic hyperplasia causes storage and voiding lower urinary tract symptoms from bladder outlet obstruction. Acute prostatitis is infection with systemic signs.",
       "choice_explanations": {
         "A": "Acute prostatitis is infection with systemic signs. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -20,12 +20,12 @@
     },
     {
       "id": "urology:easy:1",
-      "question": "Which finding is expected in BPH alpha-blocker?",
+      "question": "Which finding is expected in benign prostatic hyperplasia alpha-blocker?",
       "options": [
-        "A) Alpha-blockers shrink prostate volume like 5-ARI immediately",
-        "B) BPH equals acute bacterial prostatitis fever/rigors always",
+        "A) Alpha-blockers shrink prostate volume like 5-alpha reductase inhibitor immediately",
+        "B) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always",
         "C) Alpha-1 blockers relax prostate/bladder neck smooth muscle to ease voiding",
-        "D) 5-ARI gives immediate relief like alpha-blockers within hours"
+        "D) 5-alpha reductase inhibitor gives immediate relief like alpha-blockers within hours"
       ],
       "answer": "C) Alpha-1 blockers relax prostate/bladder neck smooth muscle to ease voiding",
       "explanation": "α1 blockade reduces dynamic outlet resistance. Therefore, the most accurate choice is: Alpha-1 blockers relax prostate/bladder neck smooth muscle to ease voiding. 5-ARIs shrink volume over months, different mechanism.",
@@ -38,19 +38,19 @@
     },
     {
       "id": "urology:easy:2",
-      "question": "Which of the following statements about 5-ARI BPH is correct?",
+      "question": "Which of the following statements about 5-alpha reductase inhibitor benign prostatic hyperplasia is correct?",
       "options": [
         "A) All prostate cancers need immediate radical therapy without risk stratification",
-        "B) 5-ARI gives immediate relief like alpha-blockers within hours",
-        "C) 5α-reductase inhibitors shrink prostate by lowering DHT over months",
-        "D) Alpha-blockers shrink prostate volume like 5-ARI immediately"
+        "B) 5-alpha reductase inhibitor gives immediate relief like alpha-blockers within hours",
+        "C) 5α-reductase inhibitors shrink prostate by lowering dihydrotestosterone over months",
+        "D) Alpha-blockers shrink prostate volume like 5-alpha reductase inhibitor immediately"
       ],
-      "answer": "C) 5α-reductase inhibitors shrink prostate by lowering DHT over months",
-      "explanation": "Reduced DHT decreases epithelial volume gradually. Therefore, the most accurate choice is: 5α-reductase inhibitors shrink prostate by lowering DHT over months. Alpha-blockers act on tone quickly, not volume.",
+      "answer": "C) 5α-reductase inhibitors shrink prostate by lowering dihydrotestosterone over months",
+      "explanation": "Reduced dihydrotestosterone decreases epithelial volume gradually. Therefore, the most accurate choice is: 5α-reductase inhibitors shrink prostate by lowering dihydrotestosterone over months. Alpha-blockers act on tone quickly, not volume.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Alpha-blockers act on tone quickly, not volume. It is less consistent than the correct choice.",
-        "C": "Reduced DHT decreases epithelial volume gradually. This matches the correct interpretation.",
+        "C": "Reduced dihydrotestosterone decreases epithelial volume gradually. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -60,8 +60,8 @@
       "options": [
         "A) Painful inability to void with palpable bladder needs catheterization",
         "B) Always managed by fluid restriction without decompression",
-        "C) PVR zero always proves severe BOO",
-        "D) BPH equals acute bacterial prostatitis fever/rigors always"
+        "C) pulmonary vascular resistance zero always proves severe bladder outlet obstruction",
+        "D) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always"
       ],
       "answer": "A) Painful inability to void with palpable bladder needs catheterization",
       "explanation": "Outlet obstruction/detrusor failure causes retention and pain. Therefore, the most accurate choice is: Painful inability to void with palpable bladder needs catheterization. Bladder decompression is urgent relief.",
@@ -74,11 +74,11 @@
     },
     {
       "id": "urology:easy:4",
-      "question": "Which of the following best describes UTI cystitis women?",
+      "question": "Which of the following best describes urinary tract infection cystitis women?",
       "options": [
         "A) Always managed by fluid restriction without decompression",
-        "B) All dysuria in healthy young women is complicated UTI always",
-        "C) BPH equals acute bacterial prostatitis fever/rigors always",
+        "B) All dysuria in healthy young women is complicated urinary tract infection always",
+        "C) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always",
         "D) Dysuria, frequency, urgency without vaginitis suggests acute cystitis"
       ],
       "answer": "D) Dysuria, frequency, urgency without vaginitis suggests acute cystitis",
@@ -96,11 +96,11 @@
       "options": [
         "A) Dysuria, frequency, urgency without vaginitis suggests acute cystitis",
         "B) Severe colicky flank pain radiating to groin ± hematuria",
-        "C) Fever, flank pain, CVA tenderness with UTI symptoms suggests pyelo",
-        "D) Bilateral kidney cysts, HTN, flank pain; berry aneurysm association"
+        "C) Fever, flank pain, cerebrovascular accident tenderness with urinary tract infection symptoms suggests pyelo",
+        "D) Bilateral kidney cysts, hypertension, flank pain; berry aneurysm association"
       ],
-      "answer": "C) Fever, flank pain, CVA tenderness with UTI symptoms suggests pyelo",
-      "explanation": "Ascending infection involves renal parenchyma. Therefore, the most accurate choice is: Fever, flank pain, CVA tenderness with UTI symptoms suggests pyelo. Cystitis lacks high fever/flank typically.",
+      "answer": "C) Fever, flank pain, cerebrovascular accident tenderness with urinary tract infection symptoms suggests pyelo",
+      "explanation": "Ascending infection involves renal parenchyma. Therefore, the most accurate choice is: Fever, flank pain, cerebrovascular accident tenderness with urinary tract infection symptoms suggests pyelo. Cystitis lacks high fever/flank typically.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -110,15 +110,15 @@
     },
     {
       "id": "urology:easy:6",
-      "question": "Which mechanism accounts for complicated UTI?",
+      "question": "Which mechanism accounts for complicated urinary tract infection?",
       "options": [
-        "A) PVR zero always proves severe BOO",
-        "B) Male sex, obstruction, stones, catheters, pregnancy complicate UTI",
-        "C) All dysuria in healthy young women is complicated UTI always",
+        "A) pulmonary vascular resistance zero always proves severe bladder outlet obstruction",
+        "B) Male sex, obstruction, stones, catheters, pregnancy complicate urinary tract infection",
+        "C) All dysuria in healthy young women is complicated urinary tract infection always",
         "D) Treat all positive cultures in asymptomatic elderly always"
       ],
-      "answer": "B) Male sex, obstruction, stones, catheters, pregnancy complicate UTI",
-      "explanation": "Host/anatomic factors raise failure/complication risk. Therefore, the most accurate choice is: Male sex, obstruction, stones, catheters, pregnancy complicate UTI. Uncomplicated cystitis is common in healthy women.",
+      "answer": "B) Male sex, obstruction, stones, catheters, pregnancy complicate urinary tract infection",
+      "explanation": "Host/anatomic factors raise failure/complication risk. Therefore, the most accurate choice is: Male sex, obstruction, stones, catheters, pregnancy complicate urinary tract infection. Uncomplicated cystitis is common in healthy women.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Host/anatomic factors raise failure/complication risk. This matches the correct interpretation.",
@@ -131,25 +131,25 @@
       "question": "Which of the following applies to asymptomatic bacteriuria?",
       "options": [
         "A) Treat all positive cultures in asymptomatic elderly always",
-        "B) Treat ASB in pregnancy; usually not in nonpregnant asymptomatic adults",
+        "B) Treat asymptomatic bacteriuria in pregnancy; usually not in nonpregnant asymptomatic adults",
         "C) Always presents as acute prostatitis with fever",
-        "D) All dysuria in healthy young women is complicated UTI always"
+        "D) All dysuria in healthy young women is complicated urinary tract infection always"
       ],
-      "answer": "B) Treat ASB in pregnancy; usually not in nonpregnant asymptomatic adults",
-      "explanation": "Pregnancy ASB risks pyelo; otherwise often colonization. Therefore, the most accurate choice is: Treat ASB in pregnancy; usually not in nonpregnant asymptomatic adults. Treating all asymptomatic elderly fosters resistance/harm.",
+      "answer": "B) Treat asymptomatic bacteriuria in pregnancy; usually not in nonpregnant asymptomatic adults",
+      "explanation": "Pregnancy asymptomatic bacteriuria risks pyelo; otherwise often colonization. Therefore, the most accurate choice is: Treat asymptomatic bacteriuria in pregnancy; usually not in nonpregnant asymptomatic adults. Treating all asymptomatic elderly fosters resistance/harm.",
       "choice_explanations": {
         "A": "Treating all asymptomatic elderly fosters resistance/harm. It is less consistent than the correct choice.",
-        "B": "Pregnancy ASB risks pyelo; otherwise often colonization. This matches the correct interpretation.",
+        "B": "Pregnancy asymptomatic bacteriuria risks pyelo; otherwise often colonization. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "urology:easy:8",
-      "question": "Which of the following is true of urethritis STI?",
+      "question": "Which of the following is true of urethritis sexually transmitted infection?",
       "options": [
-        "A) TURP syndrome equals simple UTI after catheter only",
-        "B) Fat-containing renal AML; bleed risk if large; TSC association",
+        "A) transurethral resection of the prostate syndrome equals simple urinary tract infection after catheter only",
+        "B) Fat-containing renal acute myeloid leukemia; bleed risk if large; tuberous sclerosis complex association",
         "C) Gonococcal/nongonococcal urethritis: discharge/dysuria; test and treat partners",
         "D) Dysuria, frequency, urgency without vaginitis suggests acute cystitis"
       ],
@@ -164,7 +164,7 @@
     },
     {
       "id": "urology:easy:9",
-      "question": "Which finding is expected in epididymitis vs torsion?",
+      "question": "Which finding is expected in epididymitis versus torsion?",
       "options": [
         "A) Blue dot proves spermatic cord torsion needing orchiectomy always",
         "B) Epididymitis: gradual pain, +Prehn/cremasteric often; torsion: sudden, surgical",
@@ -172,10 +172,10 @@
         "D) Torsion equals always epididymal cyst rupture"
       ],
       "answer": "B) Epididymitis: gradual pain, +Prehn/cremasteric often; torsion: sudden, surgical",
-      "explanation": "Infection/inflammation of epididymis vs spermatic cord twist ischemia. Therefore, the most accurate choice is: Epididymitis: gradual pain, +Prehn/cremasteric often; torsion: sudden, surgical. Torsion is time-critical ischemia.",
+      "explanation": "Infection/inflammation of epididymis versus spermatic cord twist ischemia. Therefore, the most accurate choice is: Epididymitis: gradual pain, +Prehn/cremasteric often; torsion: sudden, surgical. Torsion is time-critical ischemia.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Infection/inflammation of epididymis vs spermatic cord twist ischemia. This matches the correct interpretation.",
+        "B": "Infection/inflammation of epididymis versus spermatic cord twist ischemia. This matches the correct interpretation.",
         "C": "Torsion is time-critical ischemia. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -222,7 +222,7 @@
       "options": [
         "A) Silent retention equals acute painful retention identically always",
         "B) Torsion equals always epididymal cyst rupture",
-        "C) Painless firm testicular mass—urgent urology; AFP/hCG/LDH context",
+        "C) Painless firm testicular mass—urgent urology; alpha-fetoprotein/human chorionic gonadotropin/lactate dehydrogenase context",
         "D) Transilluminating scrotal fluid sac; usually painless"
       ],
       "answer": "D) Transilluminating scrotal fluid sac; usually painless",
@@ -238,13 +238,13 @@
       "id": "urology:easy:13",
       "question": "Select the correct statement about testicular cancer.",
       "options": [
-        "A) US replaces immediate urology in clear torsion without delay always",
-        "B) Painless firm testicular mass—urgent urology; AFP/hCG/LDH context",
-        "C) ADT treats testicular germ cell tumors as primary always",
+        "A) ultrasound replaces immediate urology in clear torsion without delay always",
+        "B) Painless firm testicular mass—urgent urology; alpha-fetoprotein/human chorionic gonadotropin/lactate dehydrogenase context",
+        "C) androgen deprivation therapy treats testicular germ cell tumors as primary always",
         "D) Observe 24h before any urology contact always"
       ],
-      "answer": "B) Painless firm testicular mass—urgent urology; AFP/hCG/LDH context",
-      "explanation": "Germ cell tumors present as solid mass. Therefore, the most accurate choice is: Painless firm testicular mass—urgent urology; AFP/hCG/LDH context. Hydrocele is fluid; mass needs oncology pathway.",
+      "answer": "B) Painless firm testicular mass—urgent urology; alpha-fetoprotein/human chorionic gonadotropin/lactate dehydrogenase context",
+      "explanation": "Germ cell tumors present as solid mass. Therefore, the most accurate choice is: Painless firm testicular mass—urgent urology; alpha-fetoprotein/human chorionic gonadotropin/lactate dehydrogenase context. Hydrocele is fluid; mass needs oncology pathway.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Germ cell tumors present as solid mass. This matches the correct interpretation.",
@@ -254,17 +254,17 @@
     },
     {
       "id": "urology:easy:14",
-      "question": "Which mechanism accounts for RCC triad?",
+      "question": "Which mechanism accounts for renal cell carcinoma triad?",
       "options": [
-        "A) RCC always presents with only LUTS of BPH",
-        "B) All renal cysts equal ADPKD genetically",
-        "C) Imaging always uniquely diagnoses oncocytoma vs RCC with certainty",
-        "D) Flank pain, hematuria, palpable mass classic but uncommon RCC triad"
+        "A) renal cell carcinoma always presents with only lower urinary tract symptoms of benign prostatic hyperplasia",
+        "B) All renal cysts equal autosomal dominant polycystic kidney disease genetically",
+        "C) Imaging always uniquely diagnoses oncocytoma versus renal cell carcinoma with certainty",
+        "D) Flank pain, hematuria, palpable mass classic but uncommon renal cell carcinoma triad"
       ],
-      "answer": "D) Flank pain, hematuria, palpable mass classic but uncommon RCC triad",
-      "explanation": "Renal cortical malignancy can invade and bleed. Therefore, the most accurate choice is: Flank pain, hematuria, palpable mass classic but uncommon RCC triad. BPH is prostate outlet symptoms.",
+      "answer": "D) Flank pain, hematuria, palpable mass classic but uncommon renal cell carcinoma triad",
+      "explanation": "Renal cortical malignancy can invade and bleed. Therefore, the most accurate choice is: Flank pain, hematuria, palpable mass classic but uncommon renal cell carcinoma triad. benign prostatic hyperplasia is prostate outlet symptoms.",
       "choice_explanations": {
-        "A": "BPH is prostate outlet symptoms. It is less consistent than the correct choice.",
+        "A": "benign prostatic hyperplasia is prostate outlet symptoms. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Renal cortical malignancy can invade and bleed. This matches the correct interpretation."
@@ -276,8 +276,8 @@
       "options": [
         "A) Painless gross hematuria needs cystoscopy workup for bladder cancer",
         "B) Always presents as acute prostatitis with fever",
-        "C) Synpharyngitic gross hematuria classic for IgA nephropathy",
-        "D) RCC always presents with only LUTS of BPH"
+        "C) Synpharyngitic gross hematuria classic for immunoglobulin A nephropathy",
+        "D) renal cell carcinoma always presents with only lower urinary tract symptoms of benign prostatic hyperplasia"
       ],
       "answer": "A) Painless gross hematuria needs cystoscopy workup for bladder cancer",
       "explanation": "Urothelial carcinoma commonly presents with hematuria. Therefore, the most accurate choice is: Painless gross hematuria needs cystoscopy workup for bladder cancer. Hematuria evaluation should not be dismissed casually.",
@@ -290,19 +290,19 @@
     },
     {
       "id": "urology:easy:16",
-      "question": "Which of the following is true of PSA screening nuance?",
+      "question": "Which of the following is true of prostate-specific antigen screening nuance?",
       "options": [
         "A) Nocturia always equals only prostate cancer",
         "B) Always presents as acute prostatitis with fever",
-        "C) PSA is not perfect; shared decision-making for screening discussions",
-        "D) PSA ≥ any value always equals metastatic prostate cancer"
+        "C) prostate-specific antigen is not perfect; shared decision-making for screening discussions",
+        "D) prostate-specific antigen ≥ any value always equals metastatic prostate cancer"
       ],
-      "answer": "C) PSA is not perfect; shared decision-making for screening discussions",
-      "explanation": "PSA can rise from BPH/prostatitis/cancer. Therefore, the most accurate choice is: PSA is not perfect; shared decision-making for screening discussions. Elevation is not diagnostic of metastasis alone.",
+      "answer": "C) prostate-specific antigen is not perfect; shared decision-making for screening discussions",
+      "explanation": "prostate-specific antigen can rise from benign prostatic hyperplasia/prostatitis/cancer. Therefore, the most accurate choice is: prostate-specific antigen is not perfect; shared decision-making for screening discussions. Elevation is not diagnostic of metastasis alone.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "PSA can rise from BPH/prostatitis/cancer. This matches the correct interpretation.",
+        "C": "prostate-specific antigen can rise from benign prostatic hyperplasia/prostatitis/cancer. This matches the correct interpretation.",
         "D": "Elevation is not diagnostic of metastasis alone. It is less consistent than the correct choice."
       }
     },
@@ -310,13 +310,13 @@
       "id": "urology:easy:17",
       "question": "Which finding is expected in prostate cancer local?",
       "options": [
-        "A) Often asymptomatic early; detected by PSA/DRE/biopsy pathway",
+        "A) Often asymptomatic early; detected by prostate-specific antigen/digital rectal examination/biopsy pathway",
         "B) Vigorous prostatic massage first diagnostic step always",
         "C) Always presents as acute prostatitis with fever",
-        "D) PSA ≥ any value always equals metastatic prostate cancer"
+        "D) prostate-specific antigen ≥ any value always equals metastatic prostate cancer"
       ],
-      "answer": "A) Often asymptomatic early; detected by PSA/DRE/biopsy pathway",
-      "explanation": "Adenocarcinoma may be silent until advanced/local signs. Therefore, the most accurate choice is: Often asymptomatic early; detected by PSA/DRE/biopsy pathway. Acute infection differs from neoplastic presentation.",
+      "answer": "A) Often asymptomatic early; detected by prostate-specific antigen/digital rectal examination/biopsy pathway",
+      "explanation": "Adenocarcinoma may be silent until advanced/local signs. Therefore, the most accurate choice is: Often asymptomatic early; detected by prostate-specific antigen/digital rectal examination/biopsy pathway. Acute infection differs from neoplastic presentation.",
       "choice_explanations": {
         "A": "Adenocarcinoma may be silent until advanced/local signs. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -331,7 +331,7 @@
         "A) Vigorous prostatic massage first diagnostic step always",
         "B) Always presents as acute prostatitis with fever",
         "C) Fever, perineal pain, tender prostate—avoid vigorous massage; antibiotics",
-        "D) BPH equals acute bacterial prostatitis fever/rigors always"
+        "D) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always"
       ],
       "answer": "C) Fever, perineal pain, tender prostate—avoid vigorous massage; antibiotics",
       "explanation": "Bacterial infection of prostate with systemic illness. Therefore, the most accurate choice is: Fever, perineal pain, tender prostate—avoid vigorous massage; antibiotics. Massage can seed bacteremia.",
@@ -344,9 +344,9 @@
     },
     {
       "id": "urology:easy:19",
-      "question": "In chronic prostatitis/CPPS, which of the following is correct?",
+      "question": "In chronic prostatitis/chronic pelvic pain syndrome, which of the following is correct?",
       "options": [
-        "A) BPH equals acute bacterial prostatitis fever/rigors always",
+        "A) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always",
         "B) Vigorous prostatic massage first diagnostic step always",
         "C) Silent retention equals acute painful retention identically always",
         "D) Chronic pelvic pain syndromes may lack active infection"
@@ -365,8 +365,8 @@
       "question": "Which of the following best describes nephrolithiasis colic?",
       "options": [
         "A) Severe colicky flank pain radiating to groin ± hematuria",
-        "B) RCC always presents with only LUTS of BPH",
-        "C) Fever, flank pain, CVA tenderness with UTI symptoms suggests pyelo",
+        "B) renal cell carcinoma always presents with only lower urinary tract symptoms of benign prostatic hyperplasia",
+        "C) Fever, flank pain, cerebrovascular accident tenderness with urinary tract infection symptoms suggests pyelo",
         "D) Hematuria ± flank pain; filling defect on imaging"
       ],
       "answer": "A) Severe colicky flank pain radiating to groin ± hematuria",
@@ -383,12 +383,12 @@
       "question": "Select the correct statement about uric acid stones.",
       "options": [
         "A) Always struvite infection stones",
-        "B) Radiolucent on plain XR; dissolve with urine alkalinization possible",
+        "B) Radiolucent on plain radiograph; dissolve with urine alkalinization possible",
         "C) Alpha-blockers dissolve calcium stones chemically",
-        "D) Uric acid stones always radiopaque like calcium oxalate on KUB"
+        "D) Uric acid stones always radiopaque like calcium oxalate on kidneys, ureters, bladder radiograph"
       ],
-      "answer": "B) Radiolucent on plain XR; dissolve with urine alkalinization possible",
-      "explanation": "Uric acid crystals form in acidic urine; alkalinization helps. Therefore, the most accurate choice is: Radiolucent on plain XR; dissolve with urine alkalinization possible. Calcium stones are typically radiopaque.",
+      "answer": "B) Radiolucent on plain radiograph; dissolve with urine alkalinization possible",
+      "explanation": "Uric acid crystals form in acidic urine; alkalinization helps. Therefore, the most accurate choice is: Radiolucent on plain radiograph; dissolve with urine alkalinization possible. Calcium stones are typically radiopaque.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Uric acid crystals form in acidic urine; alkalinization helps. This matches the correct interpretation.",
@@ -401,7 +401,7 @@
       "question": "Which mechanism accounts for struvite stones?",
       "options": [
         "A) Struvite equals pure uric acid from gout only",
-        "B) Uric acid stones always radiopaque like calcium oxalate on KUB",
+        "B) Uric acid stones always radiopaque like calcium oxalate on kidneys, ureters, bladder radiograph",
         "C) Magnesium ammonium phosphate stones from urease-positive organisms",
         "D) Always struvite infection stones"
       ],
@@ -419,7 +419,7 @@
       "question": "Which of the following applies to calcium oxalate stones?",
       "options": [
         "A) Alpha-blockers dissolve calcium stones chemically",
-        "B) Uric acid stones always radiopaque like calcium oxalate on KUB",
+        "B) Uric acid stones always radiopaque like calcium oxalate on kidneys, ureters, bladder radiograph",
         "C) Always struvite infection stones",
         "D) Most common stone; hypercalciuria/hyperoxaluria/hypocitraturia risks"
       ],
@@ -434,17 +434,17 @@
     },
     {
       "id": "urology:easy:24",
-      "question": "Which of the following is true of stone CT imaging?",
+      "question": "Which of the following is true of stone computed tomography imaging?",
       "options": [
-        "A) Noncontrast CT is most sensitive for ureteric stones",
+        "A) Noncontrast computed tomography is most sensitive for ureteric stones",
         "B) Always struvite infection stones",
-        "C) KUB alone always excludes all stones",
-        "D) Uric acid stones always radiopaque like calcium oxalate on KUB"
+        "C) kidneys, ureters, bladder radiograph alone always excludes all stones",
+        "D) Uric acid stones always radiopaque like calcium oxalate on kidneys, ureters, bladder radiograph"
       ],
-      "answer": "A) Noncontrast CT is most sensitive for ureteric stones",
-      "explanation": "CT detects density/location of most calculi. Therefore, the most accurate choice is: Noncontrast CT is most sensitive for ureteric stones. Lucent stones may miss on plain film.",
+      "answer": "A) Noncontrast computed tomography is most sensitive for ureteric stones",
+      "explanation": "computed tomography detects density/location of most calculi. Therefore, the most accurate choice is: Noncontrast computed tomography is most sensitive for ureteric stones. Lucent stones may miss on plain film.",
       "choice_explanations": {
-        "A": "CT detects density/location of most calculi. This matches the correct interpretation.",
+        "A": "computed tomography detects density/location of most calculi. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Lucent stones may miss on plain film. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -455,8 +455,8 @@
       "question": "Which finding is expected in alpha-blocker medical expulsive?",
       "options": [
         "A) Alpha-blockers dissolve calcium stones chemically",
-        "B) Uric acid stones always radiopaque like calcium oxalate on KUB",
-        "C) Alpha-blockers shrink prostate volume like 5-ARI immediately",
+        "B) Uric acid stones always radiopaque like calcium oxalate on kidneys, ureters, bladder radiograph",
+        "C) Alpha-blockers shrink prostate volume like 5-alpha reductase inhibitor immediately",
         "D) Alpha-blockers may aid distal ureteric stone passage in selected cases"
       ],
       "answer": "D) Alpha-blockers may aid distal ureteric stone passage in selected cases",
@@ -490,7 +490,7 @@
       "id": "urology:easy:27",
       "question": "In hydronephrosis, which of the following is correct?",
       "options": [
-        "A) BPH equals acute bacterial prostatitis fever/rigors always",
+        "A) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always",
         "B) Always means only high fluid intake",
         "C) Urodynamics replaces cystoscopy for visible tumor always",
         "D) Dilation of collecting system from obstruction or reflux among causes"
@@ -508,13 +508,13 @@
       "id": "urology:easy:28",
       "question": "Which of the following best describes urethral stricture?",
       "options": [
-        "A) Weak stream, spraying, retention history after trauma/STI/instrumentation",
-        "B) BPH equals acute bacterial prostatitis fever/rigors always",
+        "A) Weak stream, spraying, retention history after trauma/sexually transmitted infection/instrumentation",
+        "B) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always",
         "C) Intraperitoneal rupture from full bladder trauma; urinary ascites",
         "D) Glomerular bleeding equals distal urethral trauma identically"
       ],
-      "answer": "A) Weak stream, spraying, retention history after trauma/STI/instrumentation",
-      "explanation": "Scar narrows urethra increasing resistance. Therefore, the most accurate choice is: Weak stream, spraying, retention history after trauma/STI/instrumentation. BPH is prostate enlargement in aging men.",
+      "answer": "A) Weak stream, spraying, retention history after trauma/sexually transmitted infection/instrumentation",
+      "explanation": "Scar narrows urethra increasing resistance. Therefore, the most accurate choice is: Weak stream, spraying, retention history after trauma/sexually transmitted infection/instrumentation. benign prostatic hyperplasia is prostate enlargement in aging men.",
       "choice_explanations": {
         "A": "Scar narrows urethra increasing resistance. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -528,11 +528,11 @@
       "options": [
         "A) Leak from retention with high residuals (obstruction/neurogenic)",
         "B) Urgency ± leak from detrusor overactivity",
-        "C) Leak with cough/sneeze from urethral hypermobility/ISD",
+        "C) Leak with cough/sneeze from urethral hypermobility/intrinsic sphincter deficiency",
         "D) Glomerular bleeding equals distal urethral trauma identically"
       ],
-      "answer": "C) Leak with cough/sneeze from urethral hypermobility/ISD",
-      "explanation": "↑ abdominal pressure overcomes outlet. Therefore, the most accurate choice is: Leak with cough/sneeze from urethral hypermobility/ISD. Urge is urgency/leak from detrusor contractions.",
+      "answer": "C) Leak with cough/sneeze from urethral hypermobility/intrinsic sphincter deficiency",
+      "explanation": "↑ abdominal pressure overcomes outlet. Therefore, the most accurate choice is: Leak with cough/sneeze from urethral hypermobility/intrinsic sphincter deficiency. Urge is urgency/leak from detrusor contractions.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -544,15 +544,15 @@
   "medium": [
     {
       "id": "urology:medium:0",
-      "question": "A 59-year-old man presents with a clinical picture of BPH storage vs voiding. Which of the following is most accurate?",
+      "question": "A 72-year-old man presents with a clinical picture of benign prostatic hyperplasia storage versus voiding. Which of the following is most accurate?",
       "options": [
         "A) Vigorous prostatic massage first diagnostic step always",
-        "B) BPH causes storage and voiding LUTS from bladder outlet obstruction",
-        "C) BPH equals acute bacterial prostatitis fever/rigors always",
+        "B) benign prostatic hyperplasia causes storage and voiding lower urinary tract symptoms from bladder outlet obstruction",
+        "C) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always",
         "D) Nocturia always equals only prostate cancer"
       ],
-      "answer": "B) BPH causes storage and voiding LUTS from bladder outlet obstruction",
-      "explanation": "Prostate enlargement increases outlet resistance and bladder work. Therefore, the most accurate choice is: BPH causes storage and voiding LUTS from bladder outlet obstruction. Acute prostatitis is infection with systemic signs.",
+      "answer": "B) benign prostatic hyperplasia causes storage and voiding lower urinary tract symptoms from bladder outlet obstruction",
+      "explanation": "Prostate enlargement increases outlet resistance and bladder work. Therefore, the most accurate choice is: benign prostatic hyperplasia causes storage and voiding lower urinary tract symptoms from bladder outlet obstruction. Acute prostatitis is infection with systemic signs.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Prostate enlargement increases outlet resistance and bladder work. This matches the correct interpretation.",
@@ -562,12 +562,12 @@
     },
     {
       "id": "urology:medium:1",
-      "question": "A 57-year-old man is seen in clinic for suspected BPH alpha-blocker. Which of the following is correct?",
+      "question": "A 70-year-old man is seen in clinic for suspected benign prostatic hyperplasia alpha-blocker. Which of the following is correct?",
       "options": [
-        "A) 5-ARI gives immediate relief like alpha-blockers within hours",
-        "B) Alpha-blockers shrink prostate volume like 5-ARI immediately",
+        "A) 5-alpha reductase inhibitor gives immediate relief like alpha-blockers within hours",
+        "B) Alpha-blockers shrink prostate volume like 5-alpha reductase inhibitor immediately",
         "C) Alpha-1 blockers relax prostate/bladder neck smooth muscle to ease voiding",
-        "D) BPH equals acute bacterial prostatitis fever/rigors always"
+        "D) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always"
       ],
       "answer": "C) Alpha-1 blockers relax prostate/bladder neck smooth muscle to ease voiding",
       "explanation": "α1 blockade reduces dynamic outlet resistance. Therefore, the most accurate choice is: Alpha-1 blockers relax prostate/bladder neck smooth muscle to ease voiding. 5-ARIs shrink volume over months, different mechanism.",
@@ -580,30 +580,30 @@
     },
     {
       "id": "urology:medium:2",
-      "question": "A 64-year-old man develops symptoms of 5-ARI BPH. Which of the following is most accurate?",
+      "question": "A 77-year-old man develops symptoms of 5-alpha reductase inhibitor benign prostatic hyperplasia. Which of the following is most accurate?",
       "options": [
-        "A) Alpha-blockers shrink prostate volume like 5-ARI immediately",
+        "A) Alpha-blockers shrink prostate volume like 5-alpha reductase inhibitor immediately",
         "B) Mets always osteolytic only like pure myeloma pattern exclusively",
-        "C) 5α-reductase inhibitors shrink prostate by lowering DHT over months",
-        "D) 5-ARI gives immediate relief like alpha-blockers within hours"
+        "C) 5α-reductase inhibitors shrink prostate by lowering dihydrotestosterone over months",
+        "D) 5-alpha reductase inhibitor gives immediate relief like alpha-blockers within hours"
       ],
-      "answer": "C) 5α-reductase inhibitors shrink prostate by lowering DHT over months",
-      "explanation": "Reduced DHT decreases epithelial volume gradually. Therefore, the most accurate choice is: 5α-reductase inhibitors shrink prostate by lowering DHT over months. Alpha-blockers act on tone quickly, not volume.",
+      "answer": "C) 5α-reductase inhibitors shrink prostate by lowering dihydrotestosterone over months",
+      "explanation": "Reduced dihydrotestosterone decreases epithelial volume gradually. Therefore, the most accurate choice is: 5α-reductase inhibitors shrink prostate by lowering dihydrotestosterone over months. Alpha-blockers act on tone quickly, not volume.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Reduced DHT decreases epithelial volume gradually. This matches the correct interpretation.",
+        "C": "Reduced dihydrotestosterone decreases epithelial volume gradually. This matches the correct interpretation.",
         "D": "Alpha-blockers act on tone quickly, not volume. It is less consistent than the correct choice."
       }
     },
     {
       "id": "urology:medium:3",
-      "question": "A 45-year-old woman is admitted with suspected acute urinary retention. Which statement is correct?",
+      "question": "A 26-year-old man is admitted with suspected acute urinary retention. Which statement is correct?",
       "options": [
-        "A) PVR zero always proves severe BOO",
+        "A) pulmonary vascular resistance zero always proves severe bladder outlet obstruction",
         "B) Painful inability to void with palpable bladder needs catheterization",
         "C) Always managed by fluid restriction without decompression",
-        "D) BPH equals acute bacterial prostatitis fever/rigors always"
+        "D) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always"
       ],
       "answer": "B) Painful inability to void with palpable bladder needs catheterization",
       "explanation": "Outlet obstruction/detrusor failure causes retention and pain. Therefore, the most accurate choice is: Painful inability to void with palpable bladder needs catheterization. Bladder decompression is urgent relief.",
@@ -616,12 +616,12 @@
     },
     {
       "id": "urology:medium:4",
-      "question": "A 39-year-old woman has examination findings of UTI cystitis women. Which of the following is most accurate?",
+      "question": "A 66-year-old man has examination findings of urinary tract infection cystitis women. Which of the following is most accurate?",
       "options": [
-        "A) All dysuria in healthy young women is complicated UTI always",
+        "A) All dysuria in healthy young women is complicated urinary tract infection always",
         "B) Always managed by fluid restriction without decompression",
         "C) Dysuria, frequency, urgency without vaginitis suggests acute cystitis",
-        "D) BPH equals acute bacterial prostatitis fever/rigors always"
+        "D) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always"
       ],
       "answer": "C) Dysuria, frequency, urgency without vaginitis suggests acute cystitis",
       "explanation": "Coliform ascent inflames bladder mucosa. Therefore, the most accurate choice is: Dysuria, frequency, urgency without vaginitis suggests acute cystitis. Upper tract infection has systemic/flank features.",
@@ -634,15 +634,15 @@
     },
     {
       "id": "urology:medium:5",
-      "question": "A 54-year-old man reports symptoms typical of pyelonephritis. Which of the following is correct?",
+      "question": "A 35-year-old woman reports symptoms typical of pyelonephritis. Which of the following is correct?",
       "options": [
         "A) Dysuria, frequency, urgency without vaginitis suggests acute cystitis",
         "B) Severe colicky flank pain radiating to groin ± hematuria",
-        "C) Fever, flank pain, CVA tenderness with UTI symptoms suggests pyelo",
+        "C) Fever, flank pain, cerebrovascular accident tenderness with urinary tract infection symptoms suggests pyelo",
         "D) Gas-forming renal infection in diabetics—emergency"
       ],
-      "answer": "C) Fever, flank pain, CVA tenderness with UTI symptoms suggests pyelo",
-      "explanation": "Ascending infection involves renal parenchyma. Therefore, the most accurate choice is: Fever, flank pain, CVA tenderness with UTI symptoms suggests pyelo. Cystitis lacks high fever/flank typically.",
+      "answer": "C) Fever, flank pain, cerebrovascular accident tenderness with urinary tract infection symptoms suggests pyelo",
+      "explanation": "Ascending infection involves renal parenchyma. Therefore, the most accurate choice is: Fever, flank pain, cerebrovascular accident tenderness with urinary tract infection symptoms suggests pyelo. Cystitis lacks high fever/flank typically.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -652,15 +652,15 @@
     },
     {
       "id": "urology:medium:6",
-      "question": "A 36-year-old man is evaluated in the emergency department for complicated UTI. Which of the following is most accurate?",
+      "question": "A 63-year-old woman is evaluated in the emergency department for complicated urinary tract infection. Which of the following is most accurate?",
       "options": [
-        "A) Male sex, obstruction, stones, catheters, pregnancy complicate UTI",
-        "B) PVR zero always proves severe BOO",
+        "A) Male sex, obstruction, stones, catheters, pregnancy complicate urinary tract infection",
+        "B) pulmonary vascular resistance zero always proves severe bladder outlet obstruction",
         "C) Treat all positive cultures in asymptomatic elderly always",
-        "D) All dysuria in healthy young women is complicated UTI always"
+        "D) All dysuria in healthy young women is complicated urinary tract infection always"
       ],
-      "answer": "A) Male sex, obstruction, stones, catheters, pregnancy complicate UTI",
-      "explanation": "Host/anatomic factors raise failure/complication risk. Therefore, the most accurate choice is: Male sex, obstruction, stones, catheters, pregnancy complicate UTI. Uncomplicated cystitis is common in healthy women.",
+      "answer": "A) Male sex, obstruction, stones, catheters, pregnancy complicate urinary tract infection",
+      "explanation": "Host/anatomic factors raise failure/complication risk. Therefore, the most accurate choice is: Male sex, obstruction, stones, catheters, pregnancy complicate urinary tract infection. Uncomplicated cystitis is common in healthy women.",
       "choice_explanations": {
         "A": "Host/anatomic factors raise failure/complication risk. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -670,29 +670,29 @@
     },
     {
       "id": "urology:medium:7",
-      "question": "A 48-year-old man is assessed for asymptomatic bacteriuria. Which of the following statements is correct?",
+      "question": "A 29-year-old woman is assessed for asymptomatic bacteriuria. Which of the following statements is correct?",
       "options": [
         "A) Treat all positive cultures in asymptomatic elderly always",
-        "B) Treat ASB in pregnancy; usually not in nonpregnant asymptomatic adults",
-        "C) All dysuria in healthy young women is complicated UTI always",
+        "B) Treat asymptomatic bacteriuria in pregnancy; usually not in nonpregnant asymptomatic adults",
+        "C) All dysuria in healthy young women is complicated urinary tract infection always",
         "D) Always presents as acute prostatitis with fever"
       ],
-      "answer": "B) Treat ASB in pregnancy; usually not in nonpregnant asymptomatic adults",
-      "explanation": "Pregnancy ASB risks pyelo; otherwise often colonization. Therefore, the most accurate choice is: Treat ASB in pregnancy; usually not in nonpregnant asymptomatic adults. Treating all asymptomatic elderly fosters resistance/harm.",
+      "answer": "B) Treat asymptomatic bacteriuria in pregnancy; usually not in nonpregnant asymptomatic adults",
+      "explanation": "Pregnancy asymptomatic bacteriuria risks pyelo; otherwise often colonization. Therefore, the most accurate choice is: Treat asymptomatic bacteriuria in pregnancy; usually not in nonpregnant asymptomatic adults. Treating all asymptomatic elderly fosters resistance/harm.",
       "choice_explanations": {
         "A": "Treating all asymptomatic elderly fosters resistance/harm. It is less consistent than the correct choice.",
-        "B": "Pregnancy ASB risks pyelo; otherwise often colonization. This matches the correct interpretation.",
+        "B": "Pregnancy asymptomatic bacteriuria risks pyelo; otherwise often colonization. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "urology:medium:8",
-      "question": "A 29-year-old woman presents with a clinical picture of urethritis STI. Which of the following is most accurate?",
+      "question": "A 56-year-old man presents with a clinical picture of urethritis sexually transmitted infection. Which of the following is most accurate?",
       "options": [
-        "A) TURP syndrome equals simple UTI after catheter only",
+        "A) transurethral resection of the prostate syndrome equals simple urinary tract infection after catheter only",
         "B) Dysuria, frequency, urgency without vaginitis suggests acute cystitis",
-        "C) Fat-containing renal AML; bleed risk if large; TSC association",
+        "C) Fat-containing renal acute myeloid leukemia; bleed risk if large; tuberous sclerosis complex association",
         "D) Gonococcal/nongonococcal urethritis: discharge/dysuria; test and treat partners"
       ],
       "answer": "D) Gonococcal/nongonococcal urethritis: discharge/dysuria; test and treat partners",
@@ -706,7 +706,7 @@
     },
     {
       "id": "urology:medium:9",
-      "question": "A 16-year-old man is seen in clinic for suspected epididymitis vs torsion. Which of the following is correct?",
+      "question": "A 33-year-old man is seen in clinic for suspected epididymitis versus torsion. Which of the following is correct?",
       "options": [
         "A) Blue dot proves spermatic cord torsion needing orchiectomy always",
         "B) Epididymitis: gradual pain, +Prehn/cremasteric often; torsion: sudden, surgical",
@@ -714,17 +714,17 @@
         "D) Epididymitis equals torsion needing no distinction"
       ],
       "answer": "B) Epididymitis: gradual pain, +Prehn/cremasteric often; torsion: sudden, surgical",
-      "explanation": "Infection/inflammation of epididymis vs spermatic cord twist ischemia. Therefore, the most accurate choice is: Epididymitis: gradual pain, +Prehn/cremasteric often; torsion: sudden, surgical. Torsion is time-critical ischemia.",
+      "explanation": "Infection/inflammation of epididymis versus spermatic cord twist ischemia. Therefore, the most accurate choice is: Epididymitis: gradual pain, +Prehn/cremasteric often; torsion: sudden, surgical. Torsion is time-critical ischemia.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Infection/inflammation of epididymis vs spermatic cord twist ischemia. This matches the correct interpretation.",
+        "B": "Infection/inflammation of epididymis versus spermatic cord twist ischemia. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Torsion is time-critical ischemia. It is less consistent than the correct choice."
       }
     },
     {
       "id": "urology:medium:10",
-      "question": "A 18-year-old man develops symptoms of testicular torsion. Which of the following is most accurate?",
+      "question": "A 35-year-old man develops symptoms of testicular torsion. Which of the following is most accurate?",
       "options": [
         "A) Torsion equals always epididymal cyst rupture",
         "B) Sudden severe testicular pain ± high lie/absent cremasteric = emergency",
@@ -742,12 +742,12 @@
     },
     {
       "id": "urology:medium:11",
-      "question": "A 17-year-old man is admitted with suspected varicocele. Which statement is correct?",
+      "question": "A 34-year-old man is admitted with suspected varicocele. Which statement is correct?",
       "options": [
         "A) Chronic bladder pain with filling; diagnosis of exclusion patterns",
-        "B) Painless firm testicular mass—urgent urology; AFP/hCG/LDH context",
+        "B) Painless firm testicular mass—urgent urology; alpha-fetoprotein/human chorionic gonadotropin/lactate dehydrogenase context",
         "C) Bag of worms left scrotum; may associate infertility; decompresses supine",
-        "D) PSA ≥ any value always equals metastatic prostate cancer"
+        "D) prostate-specific antigen ≥ any value always equals metastatic prostate cancer"
       ],
       "answer": "C) Bag of worms left scrotum; may associate infertility; decompresses supine",
       "explanation": "Dilated pampiniform plexus from venous drainage patterns. Therefore, the most accurate choice is: Bag of worms left scrotum; may associate infertility; decompresses supine. Hernia is bowel/fat in canal, different exam.",
@@ -760,10 +760,10 @@
     },
     {
       "id": "urology:medium:12",
-      "question": "A 23-year-old man has examination findings of hydrocele. Which of the following is most accurate?",
+      "question": "A 20-year-old man has examination findings of hydrocele. Which of the following is most accurate?",
       "options": [
         "A) Transilluminating scrotal fluid sac; usually painless",
-        "B) US replaces immediate urology in clear torsion without delay always",
+        "B) ultrasound replaces immediate urology in clear torsion without delay always",
         "C) Torsion equals always epididymal cyst rupture",
         "D) Silent retention equals acute painful retention identically always"
       ],
@@ -778,15 +778,15 @@
     },
     {
       "id": "urology:medium:13",
-      "question": "A 18-year-old man reports symptoms typical of testicular cancer. Which of the following is correct?",
+      "question": "A 35-year-old man reports symptoms typical of testicular cancer. Which of the following is correct?",
       "options": [
-        "A) US replaces immediate urology in clear torsion without delay always",
-        "B) Painless firm testicular mass—urgent urology; AFP/hCG/LDH context",
-        "C) ADT treats testicular germ cell tumors as primary always",
-        "D) PSA ≥ any value always equals metastatic prostate cancer"
+        "A) ultrasound replaces immediate urology in clear torsion without delay always",
+        "B) Painless firm testicular mass—urgent urology; alpha-fetoprotein/human chorionic gonadotropin/lactate dehydrogenase context",
+        "C) androgen deprivation therapy treats testicular germ cell tumors as primary always",
+        "D) prostate-specific antigen ≥ any value always equals metastatic prostate cancer"
       ],
-      "answer": "B) Painless firm testicular mass—urgent urology; AFP/hCG/LDH context",
-      "explanation": "Germ cell tumors present as solid mass. Therefore, the most accurate choice is: Painless firm testicular mass—urgent urology; AFP/hCG/LDH context. Hydrocele is fluid; mass needs oncology pathway.",
+      "answer": "B) Painless firm testicular mass—urgent urology; alpha-fetoprotein/human chorionic gonadotropin/lactate dehydrogenase context",
+      "explanation": "Germ cell tumors present as solid mass. Therefore, the most accurate choice is: Painless firm testicular mass—urgent urology; alpha-fetoprotein/human chorionic gonadotropin/lactate dehydrogenase context. Hydrocele is fluid; mass needs oncology pathway.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Germ cell tumors present as solid mass. This matches the correct interpretation.",
@@ -796,17 +796,17 @@
     },
     {
       "id": "urology:medium:14",
-      "question": "A 76-year-old man is evaluated in the emergency department for RCC triad. Which of the following is most accurate?",
+      "question": "A 65-year-old man is evaluated in the emergency department for renal cell carcinoma triad. Which of the following is most accurate?",
       "options": [
-        "A) RCC always presents with only LUTS of BPH",
-        "B) Flank pain, hematuria, palpable mass classic but uncommon RCC triad",
-        "C) Imaging always uniquely diagnoses oncocytoma vs RCC with certainty",
-        "D) BPH equals acute bacterial prostatitis fever/rigors always"
+        "A) renal cell carcinoma always presents with only lower urinary tract symptoms of benign prostatic hyperplasia",
+        "B) Flank pain, hematuria, palpable mass classic but uncommon renal cell carcinoma triad",
+        "C) Imaging always uniquely diagnoses oncocytoma versus renal cell carcinoma with certainty",
+        "D) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always"
       ],
-      "answer": "B) Flank pain, hematuria, palpable mass classic but uncommon RCC triad",
-      "explanation": "Renal cortical malignancy can invade and bleed. Therefore, the most accurate choice is: Flank pain, hematuria, palpable mass classic but uncommon RCC triad. BPH is prostate outlet symptoms.",
+      "answer": "B) Flank pain, hematuria, palpable mass classic but uncommon renal cell carcinoma triad",
+      "explanation": "Renal cortical malignancy can invade and bleed. Therefore, the most accurate choice is: Flank pain, hematuria, palpable mass classic but uncommon renal cell carcinoma triad. benign prostatic hyperplasia is prostate outlet symptoms.",
       "choice_explanations": {
-        "A": "BPH is prostate outlet symptoms. It is less consistent than the correct choice.",
+        "A": "benign prostatic hyperplasia is prostate outlet symptoms. It is less consistent than the correct choice.",
         "B": "Renal cortical malignancy can invade and bleed. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -814,12 +814,12 @@
     },
     {
       "id": "urology:medium:15",
-      "question": "A 58-year-old man is assessed for bladder cancer hematuria. Which of the following statements is correct?",
+      "question": "A 39-year-old woman is assessed for bladder cancer hematuria. Which of the following statements is correct?",
       "options": [
         "A) Always presents as acute prostatitis with fever",
-        "B) Synpharyngitic gross hematuria classic for IgA nephropathy",
+        "B) Synpharyngitic gross hematuria classic for immunoglobulin A nephropathy",
         "C) Painless gross hematuria needs cystoscopy workup for bladder cancer",
-        "D) RCC always presents with only LUTS of BPH"
+        "D) renal cell carcinoma always presents with only lower urinary tract symptoms of benign prostatic hyperplasia"
       ],
       "answer": "C) Painless gross hematuria needs cystoscopy workup for bladder cancer",
       "explanation": "Urothelial carcinoma commonly presents with hematuria. Therefore, the most accurate choice is: Painless gross hematuria needs cystoscopy workup for bladder cancer. Hematuria evaluation should not be dismissed casually.",
@@ -832,17 +832,17 @@
     },
     {
       "id": "urology:medium:16",
-      "question": "A 57-year-old man presents with a clinical picture of PSA screening nuance. Which of the following is most accurate?",
+      "question": "A 70-year-old man presents with a clinical picture of prostate-specific antigen screening nuance. Which of the following is most accurate?",
       "options": [
-        "A) PSA is not perfect; shared decision-making for screening discussions",
+        "A) prostate-specific antigen is not perfect; shared decision-making for screening discussions",
         "B) Always presents as acute prostatitis with fever",
         "C) Nocturia always equals only prostate cancer",
-        "D) PSA ≥ any value always equals metastatic prostate cancer"
+        "D) prostate-specific antigen ≥ any value always equals metastatic prostate cancer"
       ],
-      "answer": "A) PSA is not perfect; shared decision-making for screening discussions",
-      "explanation": "PSA can rise from BPH/prostatitis/cancer. Therefore, the most accurate choice is: PSA is not perfect; shared decision-making for screening discussions. Elevation is not diagnostic of metastasis alone.",
+      "answer": "A) prostate-specific antigen is not perfect; shared decision-making for screening discussions",
+      "explanation": "prostate-specific antigen can rise from benign prostatic hyperplasia/prostatitis/cancer. Therefore, the most accurate choice is: prostate-specific antigen is not perfect; shared decision-making for screening discussions. Elevation is not diagnostic of metastasis alone.",
       "choice_explanations": {
-        "A": "PSA can rise from BPH/prostatitis/cancer. This matches the correct interpretation.",
+        "A": "prostate-specific antigen can rise from benign prostatic hyperplasia/prostatitis/cancer. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Elevation is not diagnostic of metastasis alone. It is less consistent than the correct choice."
@@ -850,15 +850,15 @@
     },
     {
       "id": "urology:medium:17",
-      "question": "A 61-year-old man is seen in clinic for suspected prostate cancer local. Which of the following is correct?",
+      "question": "A 74-year-old man is seen in clinic for suspected prostate cancer local. Which of the following is correct?",
       "options": [
-        "A) Often asymptomatic early; detected by PSA/DRE/biopsy pathway",
+        "A) Often asymptomatic early; detected by prostate-specific antigen/digital rectal examination/biopsy pathway",
         "B) Always presents as acute prostatitis with fever",
-        "C) PSA ≥ any value always equals metastatic prostate cancer",
+        "C) prostate-specific antigen ≥ any value always equals metastatic prostate cancer",
         "D) Vigorous prostatic massage first diagnostic step always"
       ],
-      "answer": "A) Often asymptomatic early; detected by PSA/DRE/biopsy pathway",
-      "explanation": "Adenocarcinoma may be silent until advanced/local signs. Therefore, the most accurate choice is: Often asymptomatic early; detected by PSA/DRE/biopsy pathway. Acute infection differs from neoplastic presentation.",
+      "answer": "A) Often asymptomatic early; detected by prostate-specific antigen/digital rectal examination/biopsy pathway",
+      "explanation": "Adenocarcinoma may be silent until advanced/local signs. Therefore, the most accurate choice is: Often asymptomatic early; detected by prostate-specific antigen/digital rectal examination/biopsy pathway. Acute infection differs from neoplastic presentation.",
       "choice_explanations": {
         "A": "Adenocarcinoma may be silent until advanced/local signs. This matches the correct interpretation.",
         "B": "Acute infection differs from neoplastic presentation. It is less consistent than the correct choice.",
@@ -868,10 +868,10 @@
     },
     {
       "id": "urology:medium:18",
-      "question": "A 74-year-old man develops symptoms of acute bacterial prostatitis. Which of the following is most accurate?",
+      "question": "A 63-year-old man develops symptoms of acute bacterial prostatitis. Which of the following is most accurate?",
       "options": [
         "A) Fever, perineal pain, tender prostate—avoid vigorous massage; antibiotics",
-        "B) BPH equals acute bacterial prostatitis fever/rigors always",
+        "B) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always",
         "C) Always presents as acute prostatitis with fever",
         "D) Vigorous prostatic massage first diagnostic step always"
       ],
@@ -886,10 +886,10 @@
     },
     {
       "id": "urology:medium:19",
-      "question": "A 66-year-old man is admitted with suspected chronic prostatitis/CPPS. Which statement is correct?",
+      "question": "A 55-year-old man is admitted with suspected chronic prostatitis/chronic pelvic pain syndrome. Which statement is correct?",
       "options": [
         "A) Silent retention equals acute painful retention identically always",
-        "B) BPH equals acute bacterial prostatitis fever/rigors always",
+        "B) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always",
         "C) Vigorous prostatic massage first diagnostic step always",
         "D) Chronic pelvic pain syndromes may lack active infection"
       ],
@@ -904,12 +904,12 @@
     },
     {
       "id": "urology:medium:20",
-      "question": "A 30-year-old man has examination findings of nephrolithiasis colic. Which of the following is most accurate?",
+      "question": "A 57-year-old woman has examination findings of nephrolithiasis colic. Which of the following is most accurate?",
       "options": [
         "A) Hematuria ± flank pain; filling defect on imaging",
         "B) Severe colicky flank pain radiating to groin ± hematuria",
-        "C) Fever, flank pain, CVA tenderness with UTI symptoms suggests pyelo",
-        "D) RCC always presents with only LUTS of BPH"
+        "C) Fever, flank pain, cerebrovascular accident tenderness with urinary tract infection symptoms suggests pyelo",
+        "D) renal cell carcinoma always presents with only lower urinary tract symptoms of benign prostatic hyperplasia"
       ],
       "answer": "B) Severe colicky flank pain radiating to groin ± hematuria",
       "explanation": "Ureteral spasm from stone causes visceral colic. Therefore, the most accurate choice is: Severe colicky flank pain radiating to groin ± hematuria. Infection stone syndromes need different urgency cues.",
@@ -922,15 +922,15 @@
     },
     {
       "id": "urology:medium:21",
-      "question": "A 70-year-old man reports symptoms typical of uric acid stones. Which of the following is correct?",
+      "question": "A 51-year-old woman reports symptoms typical of uric acid stones. Which of the following is correct?",
       "options": [
         "A) Always struvite infection stones",
-        "B) Uric acid stones always radiopaque like calcium oxalate on KUB",
-        "C) Radiolucent on plain XR; dissolve with urine alkalinization possible",
+        "B) Uric acid stones always radiopaque like calcium oxalate on kidneys, ureters, bladder radiograph",
+        "C) Radiolucent on plain radiograph; dissolve with urine alkalinization possible",
         "D) Struvite equals pure uric acid from gout only"
       ],
-      "answer": "C) Radiolucent on plain XR; dissolve with urine alkalinization possible",
-      "explanation": "Uric acid crystals form in acidic urine; alkalinization helps. Therefore, the most accurate choice is: Radiolucent on plain XR; dissolve with urine alkalinization possible. Calcium stones are typically radiopaque.",
+      "answer": "C) Radiolucent on plain radiograph; dissolve with urine alkalinization possible",
+      "explanation": "Uric acid crystals form in acidic urine; alkalinization helps. Therefore, the most accurate choice is: Radiolucent on plain radiograph; dissolve with urine alkalinization possible. Calcium stones are typically radiopaque.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Calcium stones are typically radiopaque. It is less consistent than the correct choice.",
@@ -940,9 +940,9 @@
     },
     {
       "id": "urology:medium:22",
-      "question": "A 56-year-old man is evaluated in the emergency department for struvite stones. Which of the following is most accurate?",
+      "question": "A 37-year-old woman is evaluated in the emergency department for struvite stones. Which of the following is most accurate?",
       "options": [
-        "A) Uric acid stones always radiopaque like calcium oxalate on KUB",
+        "A) Uric acid stones always radiopaque like calcium oxalate on kidneys, ureters, bladder radiograph",
         "B) Struvite equals pure uric acid from gout only",
         "C) Magnesium ammonium phosphate stones from urease-positive organisms",
         "D) Always struvite infection stones"
@@ -958,12 +958,12 @@
     },
     {
       "id": "urology:medium:23",
-      "question": "A 26-year-old man is assessed for calcium oxalate stones. Which of the following statements is correct?",
+      "question": "A 53-year-old woman is assessed for calcium oxalate stones. Which of the following statements is correct?",
       "options": [
         "A) Most common stone; hypercalciuria/hyperoxaluria/hypocitraturia risks",
         "B) Alpha-blockers dissolve calcium stones chemically",
         "C) Always struvite infection stones",
-        "D) Uric acid stones always radiopaque like calcium oxalate on KUB"
+        "D) Uric acid stones always radiopaque like calcium oxalate on kidneys, ureters, bladder radiograph"
       ],
       "answer": "A) Most common stone; hypercalciuria/hyperoxaluria/hypocitraturia risks",
       "explanation": "Calcium oxalate crystallizes with metabolic risks. Therefore, the most accurate choice is: Most common stone; hypercalciuria/hyperoxaluria/hypocitraturia risks. Struvite needs infection/urease.",
@@ -976,29 +976,29 @@
     },
     {
       "id": "urology:medium:24",
-      "question": "A 45-year-old woman presents with a clinical picture of stone CT imaging. Which of the following is most accurate?",
+      "question": "A 26-year-old man presents with a clinical picture of stone computed tomography imaging. Which of the following is most accurate?",
       "options": [
         "A) Always struvite infection stones",
-        "B) Noncontrast CT is most sensitive for ureteric stones",
-        "C) KUB alone always excludes all stones",
+        "B) Noncontrast computed tomography is most sensitive for ureteric stones",
+        "C) kidneys, ureters, bladder radiograph alone always excludes all stones",
         "D) Alpha-blockers dissolve calcium stones chemically"
       ],
-      "answer": "B) Noncontrast CT is most sensitive for ureteric stones",
-      "explanation": "CT detects density/location of most calculi. Therefore, the most accurate choice is: Noncontrast CT is most sensitive for ureteric stones. Lucent stones may miss on plain film.",
+      "answer": "B) Noncontrast computed tomography is most sensitive for ureteric stones",
+      "explanation": "computed tomography detects density/location of most calculi. Therefore, the most accurate choice is: Noncontrast computed tomography is most sensitive for ureteric stones. Lucent stones may miss on plain film.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "CT detects density/location of most calculi. This matches the correct interpretation.",
+        "B": "computed tomography detects density/location of most calculi. This matches the correct interpretation.",
         "C": "Lucent stones may miss on plain film. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "urology:medium:25",
-      "question": "A 45-year-old woman is seen in clinic for suspected alpha-blocker medical expulsive. Which of the following is correct?",
+      "question": "A 26-year-old man is seen in clinic for suspected alpha-blocker medical expulsive. Which of the following is correct?",
       "options": [
         "A) Alpha-blockers may aid distal ureteric stone passage in selected cases",
-        "B) KUB alone always excludes all stones",
-        "C) Alpha-blockers shrink prostate volume like 5-ARI immediately",
+        "B) kidneys, ureters, bladder radiograph alone always excludes all stones",
+        "C) Alpha-blockers shrink prostate volume like 5-alpha reductase inhibitor immediately",
         "D) Alpha-blockers dissolve calcium stones chemically"
       ],
       "answer": "A) Alpha-blockers may aid distal ureteric stone passage in selected cases",
@@ -1012,9 +1012,9 @@
     },
     {
       "id": "urology:medium:26",
-      "question": "A 39-year-old woman develops symptoms of infected obstructed kidney. Which of the following is most accurate?",
+      "question": "A 66-year-old man develops symptoms of infected obstructed kidney. Which of the following is most accurate?",
       "options": [
-        "A) Flank pain after fluids/diuresis; hydronephrosis at UPJ",
+        "A) Flank pain after fluids/diuresis; hydronephrosis at ureteropelvic junction",
         "B) Fever + obstructing stone = urologic emergency decompression",
         "C) Always managed by fluid restriction without decompression",
         "D) Oral fluids only without drainage if septic from obstructed stone"
@@ -1030,12 +1030,12 @@
     },
     {
       "id": "urology:medium:27",
-      "question": "A 70-year-old man is admitted with suspected hydronephrosis. Which statement is correct?",
+      "question": "A 51-year-old woman is admitted with suspected hydronephrosis. Which statement is correct?",
       "options": [
         "A) Urodynamics replaces cystoscopy for visible tumor always",
         "B) Dilation of collecting system from obstruction or reflux among causes",
         "C) Always means only high fluid intake",
-        "D) PVR zero always proves severe BOO"
+        "D) pulmonary vascular resistance zero always proves severe bladder outlet obstruction"
       ],
       "answer": "B) Dilation of collecting system from obstruction or reflux among causes",
       "explanation": "Pressure upstream from blocked urine flow dilates system. Therefore, the most accurate choice is: Dilation of collecting system from obstruction or reflux among causes. Polyuria alone is not hydronephrosis definition.",
@@ -1048,15 +1048,15 @@
     },
     {
       "id": "urology:medium:28",
-      "question": "A 75-year-old man has examination findings of urethral stricture. Which of the following is most accurate?",
+      "question": "A 64-year-old man has examination findings of urethral stricture. Which of the following is most accurate?",
       "options": [
-        "A) Weak stream, spraying, retention history after trauma/STI/instrumentation",
+        "A) Weak stream, spraying, retention history after trauma/sexually transmitted infection/instrumentation",
         "B) Silent retention equals acute painful retention identically always",
         "C) Intraperitoneal rupture from full bladder trauma; urinary ascites",
         "D) Glomerular bleeding equals distal urethral trauma identically"
       ],
-      "answer": "A) Weak stream, spraying, retention history after trauma/STI/instrumentation",
-      "explanation": "Scar narrows urethra increasing resistance. Therefore, the most accurate choice is: Weak stream, spraying, retention history after trauma/STI/instrumentation. BPH is prostate enlargement in aging men.",
+      "answer": "A) Weak stream, spraying, retention history after trauma/sexually transmitted infection/instrumentation",
+      "explanation": "Scar narrows urethra increasing resistance. Therefore, the most accurate choice is: Weak stream, spraying, retention history after trauma/sexually transmitted infection/instrumentation. benign prostatic hyperplasia is prostate enlargement in aging men.",
       "choice_explanations": {
         "A": "Scar narrows urethra increasing resistance. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1066,15 +1066,15 @@
     },
     {
       "id": "urology:medium:29",
-      "question": "A 51-year-old woman reports symptoms typical of stress incontinence. Which of the following is correct?",
+      "question": "A 32-year-old man reports symptoms typical of stress incontinence. Which of the following is correct?",
       "options": [
         "A) Urgency ± leak from detrusor overactivity",
         "B) Silent retention equals acute painful retention identically always",
         "C) Glomerular bleeding equals distal urethral trauma identically",
-        "D) Leak with cough/sneeze from urethral hypermobility/ISD"
+        "D) Leak with cough/sneeze from urethral hypermobility/intrinsic sphincter deficiency"
       ],
-      "answer": "D) Leak with cough/sneeze from urethral hypermobility/ISD",
-      "explanation": "↑ abdominal pressure overcomes outlet. Therefore, the most accurate choice is: Leak with cough/sneeze from urethral hypermobility/ISD. Urge is urgency/leak from detrusor contractions.",
+      "answer": "D) Leak with cough/sneeze from urethral hypermobility/intrinsic sphincter deficiency",
+      "explanation": "↑ abdominal pressure overcomes outlet. Therefore, the most accurate choice is: Leak with cough/sneeze from urethral hypermobility/intrinsic sphincter deficiency. Urge is urgency/leak from detrusor contractions.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1086,15 +1086,15 @@
   "hard": [
     {
       "id": "urology:hard:0",
-      "question": "A 59-year-old man is evaluated for possible BPH storage vs voiding. Which of the following is most accurate?",
+      "question": "A 72-year-old man is evaluated for possible benign prostatic hyperplasia storage versus voiding. Which of the following is most accurate?",
       "options": [
         "A) Vigorous prostatic massage first diagnostic step always",
         "B) Nocturia always equals only prostate cancer",
-        "C) BPH equals acute bacterial prostatitis fever/rigors always",
-        "D) BPH causes storage and voiding LUTS from bladder outlet obstruction"
+        "C) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always",
+        "D) benign prostatic hyperplasia causes storage and voiding lower urinary tract symptoms from bladder outlet obstruction"
       ],
-      "answer": "D) BPH causes storage and voiding LUTS from bladder outlet obstruction",
-      "explanation": "Prostate enlargement increases outlet resistance and bladder work. Therefore, the most accurate choice is: BPH causes storage and voiding LUTS from bladder outlet obstruction. Acute prostatitis is infection with systemic signs.",
+      "answer": "D) benign prostatic hyperplasia causes storage and voiding lower urinary tract symptoms from bladder outlet obstruction",
+      "explanation": "Prostate enlargement increases outlet resistance and bladder work. Therefore, the most accurate choice is: benign prostatic hyperplasia causes storage and voiding lower urinary tract symptoms from bladder outlet obstruction. Acute prostatitis is infection with systemic signs.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1104,12 +1104,12 @@
     },
     {
       "id": "urology:hard:1",
-      "question": "A 57-year-old man has findings suggestive of BPH alpha-blocker. Which of the following is the best interpretation?",
+      "question": "A 70-year-old man has findings suggestive of benign prostatic hyperplasia alpha-blocker. Which of the following is the best interpretation?",
       "options": [
         "A) Alpha-1 blockers relax prostate/bladder neck smooth muscle to ease voiding",
-        "B) BPH equals acute bacterial prostatitis fever/rigors always",
-        "C) 5-ARI gives immediate relief like alpha-blockers within hours",
-        "D) Alpha-blockers shrink prostate volume like 5-ARI immediately"
+        "B) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always",
+        "C) 5-alpha reductase inhibitor gives immediate relief like alpha-blockers within hours",
+        "D) Alpha-blockers shrink prostate volume like 5-alpha reductase inhibitor immediately"
       ],
       "answer": "A) Alpha-1 blockers relax prostate/bladder neck smooth muscle to ease voiding",
       "explanation": "α1 blockade reduces dynamic outlet resistance. Therefore, the most accurate choice is: Alpha-1 blockers relax prostate/bladder neck smooth muscle to ease voiding. 5-ARIs shrink volume over months, different mechanism.",
@@ -1122,28 +1122,28 @@
     },
     {
       "id": "urology:hard:2",
-      "question": "In a 64-year-old man, 5-ARI BPH must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 77-year-old man, 5-alpha reductase inhibitor benign prostatic hyperplasia must be separated from similar conditions. Which of the following is correct?",
       "options": [
         "A) Mets always osteolytic only like pure myeloma pattern exclusively",
-        "B) Alpha-blockers shrink prostate volume like 5-ARI immediately",
-        "C) 5-ARI gives immediate relief like alpha-blockers within hours",
-        "D) 5α-reductase inhibitors shrink prostate by lowering DHT over months"
+        "B) Alpha-blockers shrink prostate volume like 5-alpha reductase inhibitor immediately",
+        "C) 5-alpha reductase inhibitor gives immediate relief like alpha-blockers within hours",
+        "D) 5α-reductase inhibitors shrink prostate by lowering dihydrotestosterone over months"
       ],
-      "answer": "D) 5α-reductase inhibitors shrink prostate by lowering DHT over months",
-      "explanation": "Reduced DHT decreases epithelial volume gradually. Therefore, the most accurate choice is: 5α-reductase inhibitors shrink prostate by lowering DHT over months. Alpha-blockers act on tone quickly, not volume.",
+      "answer": "D) 5α-reductase inhibitors shrink prostate by lowering dihydrotestosterone over months",
+      "explanation": "Reduced dihydrotestosterone decreases epithelial volume gradually. Therefore, the most accurate choice is: 5α-reductase inhibitors shrink prostate by lowering dihydrotestosterone over months. Alpha-blockers act on tone quickly, not volume.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Alpha-blockers act on tone quickly, not volume. It is less consistent than the correct choice.",
-        "D": "Reduced DHT decreases epithelial volume gradually. This matches the correct interpretation."
+        "D": "Reduced dihydrotestosterone decreases epithelial volume gradually. This matches the correct interpretation."
       }
     },
     {
       "id": "urology:hard:3",
-      "question": "A 45-year-old woman returns for review of suspected acute urinary retention. Which of the following is most accurate?",
+      "question": "A 26-year-old man returns for review of suspected acute urinary retention. Which of the following is most accurate?",
       "options": [
-        "A) PVR zero always proves severe BOO",
-        "B) BPH equals acute bacterial prostatitis fever/rigors always",
+        "A) pulmonary vascular resistance zero always proves severe bladder outlet obstruction",
+        "B) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always",
         "C) Painful inability to void with palpable bladder needs catheterization",
         "D) Always managed by fluid restriction without decompression"
       ],
@@ -1158,11 +1158,11 @@
     },
     {
       "id": "urology:hard:4",
-      "question": "A clinic case of UTI cystitis women is discussed. Which of the following is correct?",
+      "question": "A clinic case of urinary tract infection cystitis women is discussed. Which of the following is correct?",
       "options": [
         "A) Always managed by fluid restriction without decompression",
-        "B) All dysuria in healthy young women is complicated UTI always",
-        "C) BPH equals acute bacterial prostatitis fever/rigors always",
+        "B) All dysuria in healthy young women is complicated urinary tract infection always",
+        "C) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always",
         "D) Dysuria, frequency, urgency without vaginitis suggests acute cystitis"
       ],
       "answer": "D) Dysuria, frequency, urgency without vaginitis suggests acute cystitis",
@@ -1176,15 +1176,15 @@
     },
     {
       "id": "urology:hard:5",
-      "question": "A 54-year-old man presents with features compatible with pyelonephritis. Which of the following is most accurate?",
+      "question": "A 35-year-old woman presents with features compatible with pyelonephritis. Which of the following is most accurate?",
       "options": [
-        "A) Fever, flank pain, CVA tenderness with UTI symptoms suggests pyelo",
+        "A) Fever, flank pain, cerebrovascular accident tenderness with urinary tract infection symptoms suggests pyelo",
         "B) Dysuria, frequency, urgency without vaginitis suggests acute cystitis",
         "C) Severe colicky flank pain radiating to groin ± hematuria",
-        "D) Bilateral kidney cysts, HTN, flank pain; berry aneurysm association"
+        "D) Bilateral kidney cysts, hypertension, flank pain; berry aneurysm association"
       ],
-      "answer": "A) Fever, flank pain, CVA tenderness with UTI symptoms suggests pyelo",
-      "explanation": "Ascending infection involves renal parenchyma. Therefore, the most accurate choice is: Fever, flank pain, CVA tenderness with UTI symptoms suggests pyelo. Cystitis lacks high fever/flank typically.",
+      "answer": "A) Fever, flank pain, cerebrovascular accident tenderness with urinary tract infection symptoms suggests pyelo",
+      "explanation": "Ascending infection involves renal parenchyma. Therefore, the most accurate choice is: Fever, flank pain, cerebrovascular accident tenderness with urinary tract infection symptoms suggests pyelo. Cystitis lacks high fever/flank typically.",
       "choice_explanations": {
         "A": "Ascending infection involves renal parenchyma. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1194,15 +1194,15 @@
     },
     {
       "id": "urology:hard:6",
-      "question": "Which statement about complicated UTI in a 36-year-old man is most accurate?",
+      "question": "Which statement about complicated urinary tract infection in a 63-year-old woman is most accurate?",
       "options": [
-        "A) All dysuria in healthy young women is complicated UTI always",
-        "B) Male sex, obstruction, stones, catheters, pregnancy complicate UTI",
+        "A) All dysuria in healthy young women is complicated urinary tract infection always",
+        "B) Male sex, obstruction, stones, catheters, pregnancy complicate urinary tract infection",
         "C) Treat all positive cultures in asymptomatic elderly always",
-        "D) PVR zero always proves severe BOO"
+        "D) pulmonary vascular resistance zero always proves severe bladder outlet obstruction"
       ],
-      "answer": "B) Male sex, obstruction, stones, catheters, pregnancy complicate UTI",
-      "explanation": "Host/anatomic factors raise failure/complication risk. Therefore, the most accurate choice is: Male sex, obstruction, stones, catheters, pregnancy complicate UTI. Uncomplicated cystitis is common in healthy women.",
+      "answer": "B) Male sex, obstruction, stones, catheters, pregnancy complicate urinary tract infection",
+      "explanation": "Host/anatomic factors raise failure/complication risk. Therefore, the most accurate choice is: Male sex, obstruction, stones, catheters, pregnancy complicate urinary tract infection. Uncomplicated cystitis is common in healthy women.",
       "choice_explanations": {
         "A": "Uncomplicated cystitis is common in healthy women. It is less consistent than the correct choice.",
         "B": "Host/anatomic factors raise failure/complication risk. This matches the correct interpretation.",
@@ -1212,30 +1212,30 @@
     },
     {
       "id": "urology:hard:7",
-      "question": "After examining a 48-year-old man, which statement about asymptomatic bacteriuria is correct?",
+      "question": "After examining a 29-year-old woman, which statement about asymptomatic bacteriuria is correct?",
       "options": [
         "A) Treat all positive cultures in asymptomatic elderly always",
         "B) Always presents as acute prostatitis with fever",
-        "C) All dysuria in healthy young women is complicated UTI always",
-        "D) Treat ASB in pregnancy; usually not in nonpregnant asymptomatic adults"
+        "C) All dysuria in healthy young women is complicated urinary tract infection always",
+        "D) Treat asymptomatic bacteriuria in pregnancy; usually not in nonpregnant asymptomatic adults"
       ],
-      "answer": "D) Treat ASB in pregnancy; usually not in nonpregnant asymptomatic adults",
-      "explanation": "Pregnancy ASB risks pyelo; otherwise often colonization. Therefore, the most accurate choice is: Treat ASB in pregnancy; usually not in nonpregnant asymptomatic adults. Treating all asymptomatic elderly fosters resistance/harm.",
+      "answer": "D) Treat asymptomatic bacteriuria in pregnancy; usually not in nonpregnant asymptomatic adults",
+      "explanation": "Pregnancy asymptomatic bacteriuria risks pyelo; otherwise often colonization. Therefore, the most accurate choice is: Treat asymptomatic bacteriuria in pregnancy; usually not in nonpregnant asymptomatic adults. Treating all asymptomatic elderly fosters resistance/harm.",
       "choice_explanations": {
         "A": "Treating all asymptomatic elderly fosters resistance/harm. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Pregnancy ASB risks pyelo; otherwise often colonization. This matches the correct interpretation."
+        "D": "Pregnancy asymptomatic bacteriuria risks pyelo; otherwise often colonization. This matches the correct interpretation."
       }
     },
     {
       "id": "urology:hard:8",
-      "question": "A 29-year-old woman is evaluated for possible urethritis STI. Which of the following is most accurate?",
+      "question": "A 56-year-old man is evaluated for possible urethritis sexually transmitted infection. Which of the following is most accurate?",
       "options": [
-        "A) TURP syndrome equals simple UTI after catheter only",
+        "A) transurethral resection of the prostate syndrome equals simple urinary tract infection after catheter only",
         "B) Gonococcal/nongonococcal urethritis: discharge/dysuria; test and treat partners",
         "C) Dysuria, frequency, urgency without vaginitis suggests acute cystitis",
-        "D) Fat-containing renal AML; bleed risk if large; TSC association"
+        "D) Fat-containing renal acute myeloid leukemia; bleed risk if large; tuberous sclerosis complex association"
       ],
       "answer": "B) Gonococcal/nongonococcal urethritis: discharge/dysuria; test and treat partners",
       "explanation": "N. gonorrhoeae/C. trachomatis inflame urethra. Therefore, the most accurate choice is: Gonococcal/nongonococcal urethritis: discharge/dysuria; test and treat partners. Dehydration lacks purulent urethritis pattern.",
@@ -1248,7 +1248,7 @@
     },
     {
       "id": "urology:hard:9",
-      "question": "A 16-year-old man has findings suggestive of epididymitis vs torsion. Which of the following is the best interpretation?",
+      "question": "A 33-year-old man has findings suggestive of epididymitis versus torsion. Which of the following is the best interpretation?",
       "options": [
         "A) Epididymitis: gradual pain, +Prehn/cremasteric often; torsion: sudden, surgical",
         "B) Torsion equals always epididymal cyst rupture",
@@ -1256,9 +1256,9 @@
         "D) Blue dot proves spermatic cord torsion needing orchiectomy always"
       ],
       "answer": "A) Epididymitis: gradual pain, +Prehn/cremasteric often; torsion: sudden, surgical",
-      "explanation": "Infection/inflammation of epididymis vs spermatic cord twist ischemia. Therefore, the most accurate choice is: Epididymitis: gradual pain, +Prehn/cremasteric often; torsion: sudden, surgical. Torsion is time-critical ischemia.",
+      "explanation": "Infection/inflammation of epididymis versus spermatic cord twist ischemia. Therefore, the most accurate choice is: Epididymitis: gradual pain, +Prehn/cremasteric often; torsion: sudden, surgical. Torsion is time-critical ischemia.",
       "choice_explanations": {
-        "A": "Infection/inflammation of epididymis vs spermatic cord twist ischemia. This matches the correct interpretation.",
+        "A": "Infection/inflammation of epididymis versus spermatic cord twist ischemia. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Torsion is time-critical ischemia. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1266,7 +1266,7 @@
     },
     {
       "id": "urology:hard:10",
-      "question": "In a 18-year-old man, testicular torsion must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 35-year-old man, testicular torsion must be separated from similar conditions. Which of the following is correct?",
       "options": [
         "A) Epididymitis equals torsion needing no distinction",
         "B) Blue dot proves spermatic cord torsion needing orchiectomy always",
@@ -1284,11 +1284,11 @@
     },
     {
       "id": "urology:hard:11",
-      "question": "A 17-year-old man returns for review of suspected varicocele. Which of the following is most accurate?",
+      "question": "A 34-year-old man returns for review of suspected varicocele. Which of the following is most accurate?",
       "options": [
         "A) Bag of worms left scrotum; may associate infertility; decompresses supine",
         "B) Transilluminating scrotal fluid sac; usually painless",
-        "C) Painless firm testicular mass—urgent urology; AFP/hCG/LDH context",
+        "C) Painless firm testicular mass—urgent urology; alpha-fetoprotein/human chorionic gonadotropin/lactate dehydrogenase context",
         "D) Chronic bladder pain with filling; diagnosis of exclusion patterns"
       ],
       "answer": "A) Bag of worms left scrotum; may associate infertility; decompresses supine",
@@ -1307,7 +1307,7 @@
         "A) Transilluminating scrotal fluid sac; usually painless",
         "B) Torsion equals always epididymal cyst rupture",
         "C) Silent retention equals acute painful retention identically always",
-        "D) US replaces immediate urology in clear torsion without delay always"
+        "D) ultrasound replaces immediate urology in clear torsion without delay always"
       ],
       "answer": "A) Transilluminating scrotal fluid sac; usually painless",
       "explanation": "Tunica vaginalis fluid collection. Therefore, the most accurate choice is: Transilluminating scrotal fluid sac; usually painless. Tumors are solid and need different workup.",
@@ -1320,15 +1320,15 @@
     },
     {
       "id": "urology:hard:13",
-      "question": "A 18-year-old man presents with features compatible with testicular cancer. Which of the following is most accurate?",
+      "question": "A 35-year-old man presents with features compatible with testicular cancer. Which of the following is most accurate?",
       "options": [
-        "A) US replaces immediate urology in clear torsion without delay always",
-        "B) Painless firm testicular mass—urgent urology; AFP/hCG/LDH context",
-        "C) ADT treats testicular germ cell tumors as primary always",
-        "D) PSA ≥ any value always equals metastatic prostate cancer"
+        "A) ultrasound replaces immediate urology in clear torsion without delay always",
+        "B) Painless firm testicular mass—urgent urology; alpha-fetoprotein/human chorionic gonadotropin/lactate dehydrogenase context",
+        "C) androgen deprivation therapy treats testicular germ cell tumors as primary always",
+        "D) prostate-specific antigen ≥ any value always equals metastatic prostate cancer"
       ],
-      "answer": "B) Painless firm testicular mass—urgent urology; AFP/hCG/LDH context",
-      "explanation": "Germ cell tumors present as solid mass. Therefore, the most accurate choice is: Painless firm testicular mass—urgent urology; AFP/hCG/LDH context. Hydrocele is fluid; mass needs oncology pathway.",
+      "answer": "B) Painless firm testicular mass—urgent urology; alpha-fetoprotein/human chorionic gonadotropin/lactate dehydrogenase context",
+      "explanation": "Germ cell tumors present as solid mass. Therefore, the most accurate choice is: Painless firm testicular mass—urgent urology; alpha-fetoprotein/human chorionic gonadotropin/lactate dehydrogenase context. Hydrocele is fluid; mass needs oncology pathway.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Germ cell tumors present as solid mass. This matches the correct interpretation.",
@@ -1338,17 +1338,17 @@
     },
     {
       "id": "urology:hard:14",
-      "question": "Which statement about RCC triad in a 76-year-old man is most accurate?",
+      "question": "Which statement about renal cell carcinoma triad in a 65-year-old man is most accurate?",
       "options": [
-        "A) RCC always presents with only LUTS of BPH",
-        "B) Flank pain, hematuria, palpable mass classic but uncommon RCC triad",
-        "C) BPH equals acute bacterial prostatitis fever/rigors always",
-        "D) All renal cysts equal ADPKD genetically"
+        "A) renal cell carcinoma always presents with only lower urinary tract symptoms of benign prostatic hyperplasia",
+        "B) Flank pain, hematuria, palpable mass classic but uncommon renal cell carcinoma triad",
+        "C) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always",
+        "D) All renal cysts equal autosomal dominant polycystic kidney disease genetically"
       ],
-      "answer": "B) Flank pain, hematuria, palpable mass classic but uncommon RCC triad",
-      "explanation": "Renal cortical malignancy can invade and bleed. Therefore, the most accurate choice is: Flank pain, hematuria, palpable mass classic but uncommon RCC triad. BPH is prostate outlet symptoms.",
+      "answer": "B) Flank pain, hematuria, palpable mass classic but uncommon renal cell carcinoma triad",
+      "explanation": "Renal cortical malignancy can invade and bleed. Therefore, the most accurate choice is: Flank pain, hematuria, palpable mass classic but uncommon renal cell carcinoma triad. benign prostatic hyperplasia is prostate outlet symptoms.",
       "choice_explanations": {
-        "A": "BPH is prostate outlet symptoms. It is less consistent than the correct choice.",
+        "A": "benign prostatic hyperplasia is prostate outlet symptoms. It is less consistent than the correct choice.",
         "B": "Renal cortical malignancy can invade and bleed. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1356,10 +1356,10 @@
     },
     {
       "id": "urology:hard:15",
-      "question": "After examining a 58-year-old man, which statement about bladder cancer hematuria is correct?",
+      "question": "After examining a 39-year-old woman, which statement about bladder cancer hematuria is correct?",
       "options": [
         "A) Always presents as acute prostatitis with fever",
-        "B) RCC always presents with only LUTS of BPH",
+        "B) renal cell carcinoma always presents with only lower urinary tract symptoms of benign prostatic hyperplasia",
         "C) Gross/microscopic hematuria needs systematic upper and lower tract evaluation as indicated",
         "D) Painless gross hematuria needs cystoscopy workup for bladder cancer"
       ],
@@ -1374,33 +1374,33 @@
     },
     {
       "id": "urology:hard:16",
-      "question": "A 57-year-old man is evaluated for possible PSA screening nuance. Which of the following is most accurate?",
+      "question": "A 70-year-old man is evaluated for possible prostate-specific antigen screening nuance. Which of the following is most accurate?",
       "options": [
         "A) Always presents as acute prostatitis with fever",
-        "B) PSA is not perfect; shared decision-making for screening discussions",
+        "B) prostate-specific antigen is not perfect; shared decision-making for screening discussions",
         "C) Nocturia always equals only prostate cancer",
-        "D) PSA ≥ any value always equals metastatic prostate cancer"
+        "D) prostate-specific antigen ≥ any value always equals metastatic prostate cancer"
       ],
-      "answer": "B) PSA is not perfect; shared decision-making for screening discussions",
-      "explanation": "PSA can rise from BPH/prostatitis/cancer. Therefore, the most accurate choice is: PSA is not perfect; shared decision-making for screening discussions. Elevation is not diagnostic of metastasis alone.",
+      "answer": "B) prostate-specific antigen is not perfect; shared decision-making for screening discussions",
+      "explanation": "prostate-specific antigen can rise from benign prostatic hyperplasia/prostatitis/cancer. Therefore, the most accurate choice is: prostate-specific antigen is not perfect; shared decision-making for screening discussions. Elevation is not diagnostic of metastasis alone.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "PSA can rise from BPH/prostatitis/cancer. This matches the correct interpretation.",
+        "B": "prostate-specific antigen can rise from benign prostatic hyperplasia/prostatitis/cancer. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Elevation is not diagnostic of metastasis alone. It is less consistent than the correct choice."
       }
     },
     {
       "id": "urology:hard:17",
-      "question": "A 61-year-old man has findings suggestive of prostate cancer local. Which of the following is the best interpretation?",
+      "question": "A 74-year-old man has findings suggestive of prostate cancer local. Which of the following is the best interpretation?",
       "options": [
-        "A) Often asymptomatic early; detected by PSA/DRE/biopsy pathway",
+        "A) Often asymptomatic early; detected by prostate-specific antigen/digital rectal examination/biopsy pathway",
         "B) Vigorous prostatic massage first diagnostic step always",
         "C) Always presents as acute prostatitis with fever",
-        "D) PSA ≥ any value always equals metastatic prostate cancer"
+        "D) prostate-specific antigen ≥ any value always equals metastatic prostate cancer"
       ],
-      "answer": "A) Often asymptomatic early; detected by PSA/DRE/biopsy pathway",
-      "explanation": "Adenocarcinoma may be silent until advanced/local signs. Therefore, the most accurate choice is: Often asymptomatic early; detected by PSA/DRE/biopsy pathway. Acute infection differs from neoplastic presentation.",
+      "answer": "A) Often asymptomatic early; detected by prostate-specific antigen/digital rectal examination/biopsy pathway",
+      "explanation": "Adenocarcinoma may be silent until advanced/local signs. Therefore, the most accurate choice is: Often asymptomatic early; detected by prostate-specific antigen/digital rectal examination/biopsy pathway. Acute infection differs from neoplastic presentation.",
       "choice_explanations": {
         "A": "Adenocarcinoma may be silent until advanced/local signs. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1410,12 +1410,12 @@
     },
     {
       "id": "urology:hard:18",
-      "question": "In a 74-year-old man, acute bacterial prostatitis must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 63-year-old man, acute bacterial prostatitis must be separated from similar conditions. Which of the following is correct?",
       "options": [
         "A) Vigorous prostatic massage first diagnostic step always",
         "B) Always presents as acute prostatitis with fever",
         "C) Fever, perineal pain, tender prostate—avoid vigorous massage; antibiotics",
-        "D) BPH equals acute bacterial prostatitis fever/rigors always"
+        "D) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always"
       ],
       "answer": "C) Fever, perineal pain, tender prostate—avoid vigorous massage; antibiotics",
       "explanation": "Bacterial infection of prostate with systemic illness. Therefore, the most accurate choice is: Fever, perineal pain, tender prostate—avoid vigorous massage; antibiotics. Massage can seed bacteremia.",
@@ -1428,10 +1428,10 @@
     },
     {
       "id": "urology:hard:19",
-      "question": "A 66-year-old man returns for review of suspected chronic prostatitis/CPPS. Which of the following is most accurate?",
+      "question": "A 55-year-old man returns for review of suspected chronic prostatitis/chronic pelvic pain syndrome. Which of the following is most accurate?",
       "options": [
         "A) Silent retention equals acute painful retention identically always",
-        "B) BPH equals acute bacterial prostatitis fever/rigors always",
+        "B) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always",
         "C) Chronic pelvic pain syndromes may lack active infection",
         "D) Vigorous prostatic massage first diagnostic step always"
       ],
@@ -1448,8 +1448,8 @@
       "id": "urology:hard:20",
       "question": "A clinic case of nephrolithiasis colic is discussed. Which of the following is correct?",
       "options": [
-        "A) Fever, flank pain, CVA tenderness with UTI symptoms suggests pyelo",
-        "B) RCC always presents with only LUTS of BPH",
+        "A) Fever, flank pain, cerebrovascular accident tenderness with urinary tract infection symptoms suggests pyelo",
+        "B) renal cell carcinoma always presents with only lower urinary tract symptoms of benign prostatic hyperplasia",
         "C) Hematuria ± flank pain; filling defect on imaging",
         "D) Severe colicky flank pain radiating to groin ± hematuria"
       ],
@@ -1464,15 +1464,15 @@
     },
     {
       "id": "urology:hard:21",
-      "question": "A 70-year-old man presents with features compatible with uric acid stones. Which of the following is most accurate?",
+      "question": "A 51-year-old woman presents with features compatible with uric acid stones. Which of the following is most accurate?",
       "options": [
         "A) Always struvite infection stones",
-        "B) Uric acid stones always radiopaque like calcium oxalate on KUB",
-        "C) Radiolucent on plain XR; dissolve with urine alkalinization possible",
+        "B) Uric acid stones always radiopaque like calcium oxalate on kidneys, ureters, bladder radiograph",
+        "C) Radiolucent on plain radiograph; dissolve with urine alkalinization possible",
         "D) Alpha-blockers dissolve calcium stones chemically"
       ],
-      "answer": "C) Radiolucent on plain XR; dissolve with urine alkalinization possible",
-      "explanation": "Uric acid crystals form in acidic urine; alkalinization helps. Therefore, the most accurate choice is: Radiolucent on plain XR; dissolve with urine alkalinization possible. Calcium stones are typically radiopaque.",
+      "answer": "C) Radiolucent on plain radiograph; dissolve with urine alkalinization possible",
+      "explanation": "Uric acid crystals form in acidic urine; alkalinization helps. Therefore, the most accurate choice is: Radiolucent on plain radiograph; dissolve with urine alkalinization possible. Calcium stones are typically radiopaque.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Calcium stones are typically radiopaque. It is less consistent than the correct choice.",
@@ -1482,12 +1482,12 @@
     },
     {
       "id": "urology:hard:22",
-      "question": "Which statement about struvite stones in a 56-year-old man is most accurate?",
+      "question": "Which statement about struvite stones in a 37-year-old woman is most accurate?",
       "options": [
         "A) Struvite equals pure uric acid from gout only",
         "B) Magnesium ammonium phosphate stones from urease-positive organisms",
         "C) Always struvite infection stones",
-        "D) Uric acid stones always radiopaque like calcium oxalate on KUB"
+        "D) Uric acid stones always radiopaque like calcium oxalate on kidneys, ureters, bladder radiograph"
       ],
       "answer": "B) Magnesium ammonium phosphate stones from urease-positive organisms",
       "explanation": "Alkaline infected urine precipitates struvite staghorns. Therefore, the most accurate choice is: Magnesium ammonium phosphate stones from urease-positive organisms. Uric acid relates to low pH/purines.",
@@ -1500,12 +1500,12 @@
     },
     {
       "id": "urology:hard:23",
-      "question": "After examining a 26-year-old man, which statement about calcium oxalate stones is correct?",
+      "question": "After examining a 53-year-old woman, which statement about calcium oxalate stones is correct?",
       "options": [
         "A) Most common stone; hypercalciuria/hyperoxaluria/hypocitraturia risks",
-        "B) KUB alone always excludes all stones",
+        "B) kidneys, ureters, bladder radiograph alone always excludes all stones",
         "C) Always struvite infection stones",
-        "D) Uric acid stones always radiopaque like calcium oxalate on KUB"
+        "D) Uric acid stones always radiopaque like calcium oxalate on kidneys, ureters, bladder radiograph"
       ],
       "answer": "A) Most common stone; hypercalciuria/hyperoxaluria/hypocitraturia risks",
       "explanation": "Calcium oxalate crystallizes with metabolic risks. Therefore, the most accurate choice is: Most common stone; hypercalciuria/hyperoxaluria/hypocitraturia risks. Struvite needs infection/urease.",
@@ -1518,17 +1518,17 @@
     },
     {
       "id": "urology:hard:24",
-      "question": "A 45-year-old woman is evaluated for possible stone CT imaging. Which of the following is most accurate?",
+      "question": "A 26-year-old man is evaluated for possible stone computed tomography imaging. Which of the following is most accurate?",
       "options": [
-        "A) Noncontrast CT is most sensitive for ureteric stones",
+        "A) Noncontrast computed tomography is most sensitive for ureteric stones",
         "B) Alpha-blockers dissolve calcium stones chemically",
         "C) Always struvite infection stones",
-        "D) KUB alone always excludes all stones"
+        "D) kidneys, ureters, bladder radiograph alone always excludes all stones"
       ],
-      "answer": "A) Noncontrast CT is most sensitive for ureteric stones",
-      "explanation": "CT detects density/location of most calculi. Therefore, the most accurate choice is: Noncontrast CT is most sensitive for ureteric stones. Lucent stones may miss on plain film.",
+      "answer": "A) Noncontrast computed tomography is most sensitive for ureteric stones",
+      "explanation": "computed tomography detects density/location of most calculi. Therefore, the most accurate choice is: Noncontrast computed tomography is most sensitive for ureteric stones. Lucent stones may miss on plain film.",
       "choice_explanations": {
-        "A": "CT detects density/location of most calculi. This matches the correct interpretation.",
+        "A": "computed tomography detects density/location of most calculi. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Lucent stones may miss on plain film. It is less consistent than the correct choice."
@@ -1536,11 +1536,11 @@
     },
     {
       "id": "urology:hard:25",
-      "question": "A 45-year-old woman has findings suggestive of alpha-blocker medical expulsive. Which of the following is the best interpretation?",
+      "question": "A 26-year-old man has findings suggestive of alpha-blocker medical expulsive. Which of the following is the best interpretation?",
       "options": [
-        "A) Alpha-blockers shrink prostate volume like 5-ARI immediately",
+        "A) Alpha-blockers shrink prostate volume like 5-alpha reductase inhibitor immediately",
         "B) Alpha-blockers dissolve calcium stones chemically",
-        "C) KUB alone always excludes all stones",
+        "C) kidneys, ureters, bladder radiograph alone always excludes all stones",
         "D) Alpha-blockers may aid distal ureteric stone passage in selected cases"
       ],
       "answer": "D) Alpha-blockers may aid distal ureteric stone passage in selected cases",
@@ -1554,7 +1554,7 @@
     },
     {
       "id": "urology:hard:26",
-      "question": "In a 39-year-old woman, infected obstructed kidney must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 66-year-old man, infected obstructed kidney must be separated from similar conditions. Which of the following is correct?",
       "options": [
         "A) Observe ischemic priapism overnight without therapy always",
         "B) Oral fluids only without drainage if septic from obstructed stone",
@@ -1572,11 +1572,11 @@
     },
     {
       "id": "urology:hard:27",
-      "question": "A 70-year-old man returns for review of suspected hydronephrosis. Which of the following is most accurate?",
+      "question": "A 51-year-old woman returns for review of suspected hydronephrosis. Which of the following is most accurate?",
       "options": [
         "A) Urodynamics replaces cystoscopy for visible tumor always",
         "B) Dilation of collecting system from obstruction or reflux among causes",
-        "C) PVR zero always proves severe BOO",
+        "C) pulmonary vascular resistance zero always proves severe bladder outlet obstruction",
         "D) Always means only high fluid intake"
       ],
       "answer": "B) Dilation of collecting system from obstruction or reflux among causes",
@@ -1592,13 +1592,13 @@
       "id": "urology:hard:28",
       "question": "A clinic case of urethral stricture is discussed. Which of the following is correct?",
       "options": [
-        "A) Weak stream, spraying, retention history after trauma/STI/instrumentation",
+        "A) Weak stream, spraying, retention history after trauma/sexually transmitted infection/instrumentation",
         "B) Used when urethral route unsafe/impossible (stricture/trauma)",
         "C) Glomerular bleeding equals distal urethral trauma identically",
-        "D) All dysuria in healthy young women is complicated UTI always"
+        "D) All dysuria in healthy young women is complicated urinary tract infection always"
       ],
-      "answer": "A) Weak stream, spraying, retention history after trauma/STI/instrumentation",
-      "explanation": "Scar narrows urethra increasing resistance. Therefore, the most accurate choice is: Weak stream, spraying, retention history after trauma/STI/instrumentation. BPH is prostate enlargement in aging men.",
+      "answer": "A) Weak stream, spraying, retention history after trauma/sexually transmitted infection/instrumentation",
+      "explanation": "Scar narrows urethra increasing resistance. Therefore, the most accurate choice is: Weak stream, spraying, retention history after trauma/sexually transmitted infection/instrumentation. benign prostatic hyperplasia is prostate enlargement in aging men.",
       "choice_explanations": {
         "A": "Scar narrows urethra increasing resistance. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1608,15 +1608,15 @@
     },
     {
       "id": "urology:hard:29",
-      "question": "A 51-year-old woman presents with features compatible with stress incontinence. Which of the following is most accurate?",
+      "question": "A 32-year-old man presents with features compatible with stress incontinence. Which of the following is most accurate?",
       "options": [
         "A) Urgency ± leak from detrusor overactivity",
-        "B) Leak with cough/sneeze from urethral hypermobility/ISD",
+        "B) Leak with cough/sneeze from urethral hypermobility/intrinsic sphincter deficiency",
         "C) Glomerular bleeding equals distal urethral trauma identically",
         "D) Leak from retention with high residuals (obstruction/neurogenic)"
       ],
-      "answer": "B) Leak with cough/sneeze from urethral hypermobility/ISD",
-      "explanation": "↑ abdominal pressure overcomes outlet. Therefore, the most accurate choice is: Leak with cough/sneeze from urethral hypermobility/ISD. Urge is urgency/leak from detrusor contractions.",
+      "answer": "B) Leak with cough/sneeze from urethral hypermobility/intrinsic sphincter deficiency",
+      "explanation": "↑ abdominal pressure overcomes outlet. Therefore, the most accurate choice is: Leak with cough/sneeze from urethral hypermobility/intrinsic sphincter deficiency. Urge is urgency/leak from detrusor contractions.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "↑ abdominal pressure overcomes outlet. This matches the correct interpretation.",
@@ -1628,15 +1628,15 @@
   "extreme": [
     {
       "id": "urology:extreme:0",
-      "question": "A 59-year-old man has a complex presentation of BPH storage vs voiding. Which of the following is most accurate?",
+      "question": "A 72-year-old man has a complex presentation of benign prostatic hyperplasia storage versus voiding. Which of the following is most accurate?",
       "options": [
-        "A) BPH equals acute bacterial prostatitis fever/rigors always",
-        "B) BPH causes storage and voiding LUTS from bladder outlet obstruction",
+        "A) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always",
+        "B) benign prostatic hyperplasia causes storage and voiding lower urinary tract symptoms from bladder outlet obstruction",
         "C) Always presents as acute prostatitis with fever",
         "D) Vigorous prostatic massage first diagnostic step always"
       ],
-      "answer": "B) BPH causes storage and voiding LUTS from bladder outlet obstruction",
-      "explanation": "Prostate enlargement increases outlet resistance and bladder work. Therefore, the most accurate choice is: BPH causes storage and voiding LUTS from bladder outlet obstruction. Acute prostatitis is infection with systemic signs.",
+      "answer": "B) benign prostatic hyperplasia causes storage and voiding lower urinary tract symptoms from bladder outlet obstruction",
+      "explanation": "Prostate enlargement increases outlet resistance and bladder work. Therefore, the most accurate choice is: benign prostatic hyperplasia causes storage and voiding lower urinary tract symptoms from bladder outlet obstruction. Acute prostatitis is infection with systemic signs.",
       "choice_explanations": {
         "A": "Acute prostatitis is infection with systemic signs. It is less consistent than the correct choice.",
         "B": "Prostate enlargement increases outlet resistance and bladder work. This matches the correct interpretation.",
@@ -1646,11 +1646,11 @@
     },
     {
       "id": "urology:extreme:1",
-      "question": "A 57-year-old man with hypertension and type 2 diabetes is reassessed after incomplete response related to BPH alpha-blocker. Which of the following is most accurate?",
+      "question": "A 70-year-old man with hypertension and type 2 diabetes is reassessed after incomplete response related to benign prostatic hyperplasia alpha-blocker. Which of the following is most accurate?",
       "options": [
-        "A) 5-ARI gives immediate relief like alpha-blockers within hours",
-        "B) BPH equals acute bacterial prostatitis fever/rigors always",
-        "C) Alpha-blockers shrink prostate volume like 5-ARI immediately",
+        "A) 5-alpha reductase inhibitor gives immediate relief like alpha-blockers within hours",
+        "B) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always",
+        "C) Alpha-blockers shrink prostate volume like 5-alpha reductase inhibitor immediately",
         "D) Alpha-1 blockers relax prostate/bladder neck smooth muscle to ease voiding"
       ],
       "answer": "D) Alpha-1 blockers relax prostate/bladder neck smooth muscle to ease voiding",
@@ -1664,30 +1664,30 @@
     },
     {
       "id": "urology:extreme:2",
-      "question": "A detailed evaluation for 5-ARI BPH is underway in a 64-year-old man. Which of the following is correct?",
+      "question": "A detailed evaluation for 5-alpha reductase inhibitor benign prostatic hyperplasia is underway in a 77-year-old man. Which of the following is correct?",
       "options": [
-        "A) 5-ARI gives immediate relief like alpha-blockers within hours",
-        "B) Alpha-blockers shrink prostate volume like 5-ARI immediately",
+        "A) 5-alpha reductase inhibitor gives immediate relief like alpha-blockers within hours",
+        "B) Alpha-blockers shrink prostate volume like 5-alpha reductase inhibitor immediately",
         "C) Nocturia always equals only prostate cancer",
-        "D) 5α-reductase inhibitors shrink prostate by lowering DHT over months"
+        "D) 5α-reductase inhibitors shrink prostate by lowering dihydrotestosterone over months"
       ],
-      "answer": "D) 5α-reductase inhibitors shrink prostate by lowering DHT over months",
-      "explanation": "Reduced DHT decreases epithelial volume gradually. Therefore, the most accurate choice is: 5α-reductase inhibitors shrink prostate by lowering DHT over months. Alpha-blockers act on tone quickly, not volume.",
+      "answer": "D) 5α-reductase inhibitors shrink prostate by lowering dihydrotestosterone over months",
+      "explanation": "Reduced dihydrotestosterone decreases epithelial volume gradually. Therefore, the most accurate choice is: 5α-reductase inhibitors shrink prostate by lowering dihydrotestosterone over months. Alpha-blockers act on tone quickly, not volume.",
       "choice_explanations": {
         "A": "Alpha-blockers act on tone quickly, not volume. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Reduced DHT decreases epithelial volume gradually. This matches the correct interpretation."
+        "D": "Reduced dihydrotestosterone decreases epithelial volume gradually. This matches the correct interpretation."
       }
     },
     {
       "id": "urology:extreme:3",
-      "question": "A 45-year-old woman has findings that make acute urinary retention hard to confirm. Which of the following is most accurate?",
+      "question": "A 26-year-old man has findings that make acute urinary retention hard to confirm. Which of the following is most accurate?",
       "options": [
         "A) Painful inability to void with palpable bladder needs catheterization",
-        "B) PVR zero always proves severe BOO",
+        "B) pulmonary vascular resistance zero always proves severe bladder outlet obstruction",
         "C) Always managed by fluid restriction without decompression",
-        "D) BPH equals acute bacterial prostatitis fever/rigors always"
+        "D) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always"
       ],
       "answer": "A) Painful inability to void with palpable bladder needs catheterization",
       "explanation": "Outlet obstruction/detrusor failure causes retention and pain. Therefore, the most accurate choice is: Painful inability to void with palpable bladder needs catheterization. Bladder decompression is urgent relief.",
@@ -1700,12 +1700,12 @@
     },
     {
       "id": "urology:extreme:4",
-      "question": "In a 39-year-old woman, distinguishing UTI cystitis women from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 66-year-old man, distinguishing urinary tract infection cystitis women from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Always managed by fluid restriction without decompression",
-        "B) BPH equals acute bacterial prostatitis fever/rigors always",
+        "B) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always",
         "C) Dysuria, frequency, urgency without vaginitis suggests acute cystitis",
-        "D) All dysuria in healthy young women is complicated UTI always"
+        "D) All dysuria in healthy young women is complicated urinary tract infection always"
       ],
       "answer": "C) Dysuria, frequency, urgency without vaginitis suggests acute cystitis",
       "explanation": "Coliform ascent inflames bladder mucosa. Therefore, the most accurate choice is: Dysuria, frequency, urgency without vaginitis suggests acute cystitis. Upper tract infection has systemic/flank features.",
@@ -1718,15 +1718,15 @@
     },
     {
       "id": "urology:extreme:5",
-      "question": "A 54-year-old man returns with ongoing problems related to pyelonephritis. Which of the following is most accurate?",
+      "question": "A 35-year-old woman returns with ongoing problems related to pyelonephritis. Which of the following is most accurate?",
       "options": [
         "A) Severe colicky flank pain radiating to groin ± hematuria",
-        "B) Fever, flank pain, CVA tenderness with UTI symptoms suggests pyelo",
+        "B) Fever, flank pain, cerebrovascular accident tenderness with urinary tract infection symptoms suggests pyelo",
         "C) Gas-forming renal infection in diabetics—emergency",
         "D) Dysuria, frequency, urgency without vaginitis suggests acute cystitis"
       ],
-      "answer": "B) Fever, flank pain, CVA tenderness with UTI symptoms suggests pyelo",
-      "explanation": "Ascending infection involves renal parenchyma. Therefore, the most accurate choice is: Fever, flank pain, CVA tenderness with UTI symptoms suggests pyelo. Cystitis lacks high fever/flank typically.",
+      "answer": "B) Fever, flank pain, cerebrovascular accident tenderness with urinary tract infection symptoms suggests pyelo",
+      "explanation": "Ascending infection involves renal parenchyma. Therefore, the most accurate choice is: Fever, flank pain, cerebrovascular accident tenderness with urinary tract infection symptoms suggests pyelo. Cystitis lacks high fever/flank typically.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Ascending infection involves renal parenchyma. This matches the correct interpretation.",
@@ -1736,15 +1736,15 @@
     },
     {
       "id": "urology:extreme:6",
-      "question": "Senior review is requested for complicated UTI in a 36-year-old man. Which of the following is correct?",
+      "question": "Senior review is requested for complicated urinary tract infection in a 63-year-old woman. Which of the following is correct?",
       "options": [
         "A) Treat all positive cultures in asymptomatic elderly always",
-        "B) PVR zero always proves severe BOO",
-        "C) All dysuria in healthy young women is complicated UTI always",
-        "D) Male sex, obstruction, stones, catheters, pregnancy complicate UTI"
+        "B) pulmonary vascular resistance zero always proves severe bladder outlet obstruction",
+        "C) All dysuria in healthy young women is complicated urinary tract infection always",
+        "D) Male sex, obstruction, stones, catheters, pregnancy complicate urinary tract infection"
       ],
-      "answer": "D) Male sex, obstruction, stones, catheters, pregnancy complicate UTI",
-      "explanation": "Host/anatomic factors raise failure/complication risk. Therefore, the most accurate choice is: Male sex, obstruction, stones, catheters, pregnancy complicate UTI. Uncomplicated cystitis is common in healthy women.",
+      "answer": "D) Male sex, obstruction, stones, catheters, pregnancy complicate urinary tract infection",
+      "explanation": "Host/anatomic factors raise failure/complication risk. Therefore, the most accurate choice is: Male sex, obstruction, stones, catheters, pregnancy complicate urinary tract infection. Uncomplicated cystitis is common in healthy women.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1754,30 +1754,30 @@
     },
     {
       "id": "urology:extreme:7",
-      "question": "Which statement about asymptomatic bacteriuria in a 48-year-old man is most accurate?",
+      "question": "Which statement about asymptomatic bacteriuria in a 29-year-old woman is most accurate?",
       "options": [
-        "A) All dysuria in healthy young women is complicated UTI always",
+        "A) All dysuria in healthy young women is complicated urinary tract infection always",
         "B) Always presents as acute prostatitis with fever",
         "C) Treat all positive cultures in asymptomatic elderly always",
-        "D) Treat ASB in pregnancy; usually not in nonpregnant asymptomatic adults"
+        "D) Treat asymptomatic bacteriuria in pregnancy; usually not in nonpregnant asymptomatic adults"
       ],
-      "answer": "D) Treat ASB in pregnancy; usually not in nonpregnant asymptomatic adults",
-      "explanation": "Pregnancy ASB risks pyelo; otherwise often colonization. Therefore, the most accurate choice is: Treat ASB in pregnancy; usually not in nonpregnant asymptomatic adults. Treating all asymptomatic elderly fosters resistance/harm.",
+      "answer": "D) Treat asymptomatic bacteriuria in pregnancy; usually not in nonpregnant asymptomatic adults",
+      "explanation": "Pregnancy asymptomatic bacteriuria risks pyelo; otherwise often colonization. Therefore, the most accurate choice is: Treat asymptomatic bacteriuria in pregnancy; usually not in nonpregnant asymptomatic adults. Treating all asymptomatic elderly fosters resistance/harm.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Treating all asymptomatic elderly fosters resistance/harm. It is less consistent than the correct choice.",
-        "D": "Pregnancy ASB risks pyelo; otherwise often colonization. This matches the correct interpretation."
+        "D": "Pregnancy asymptomatic bacteriuria risks pyelo; otherwise often colonization. This matches the correct interpretation."
       }
     },
     {
       "id": "urology:extreme:8",
-      "question": "A 29-year-old woman has a complex presentation of urethritis STI. Which of the following is most accurate?",
+      "question": "A 56-year-old man has a complex presentation of urethritis sexually transmitted infection. Which of the following is most accurate?",
       "options": [
         "A) Gonococcal/nongonococcal urethritis: discharge/dysuria; test and treat partners",
         "B) Dysuria, frequency, urgency without vaginitis suggests acute cystitis",
-        "C) Spinal/neurologic disease alters storage/voiding; risk retention/UTI/stones",
-        "D) TURP syndrome equals simple UTI after catheter only"
+        "C) Spinal/neurologic disease alters storage/voiding; risk retention/urinary tract infection/stones",
+        "D) transurethral resection of the prostate syndrome equals simple urinary tract infection after catheter only"
       ],
       "answer": "A) Gonococcal/nongonococcal urethritis: discharge/dysuria; test and treat partners",
       "explanation": "N. gonorrhoeae/C. trachomatis inflame urethra. Therefore, the most accurate choice is: Gonococcal/nongonococcal urethritis: discharge/dysuria; test and treat partners. Dehydration lacks purulent urethritis pattern.",
@@ -1790,7 +1790,7 @@
     },
     {
       "id": "urology:extreme:9",
-      "question": "A 16-year-old man with hypertension and type 2 diabetes is reassessed after incomplete response related to epididymitis vs torsion. Which of the following is most accurate?",
+      "question": "A 33-year-old man with hypertension and type 2 diabetes is reassessed after incomplete response related to epididymitis versus torsion. Which of the following is most accurate?",
       "options": [
         "A) Epididymitis equals torsion needing no distinction",
         "B) Epididymitis: gradual pain, +Prehn/cremasteric often; torsion: sudden, surgical",
@@ -1798,17 +1798,17 @@
         "D) Blue dot proves spermatic cord torsion needing orchiectomy always"
       ],
       "answer": "B) Epididymitis: gradual pain, +Prehn/cremasteric often; torsion: sudden, surgical",
-      "explanation": "Infection/inflammation of epididymis vs spermatic cord twist ischemia. Therefore, the most accurate choice is: Epididymitis: gradual pain, +Prehn/cremasteric often; torsion: sudden, surgical. Torsion is time-critical ischemia.",
+      "explanation": "Infection/inflammation of epididymis versus spermatic cord twist ischemia. Therefore, the most accurate choice is: Epididymitis: gradual pain, +Prehn/cremasteric often; torsion: sudden, surgical. Torsion is time-critical ischemia.",
       "choice_explanations": {
         "A": "Torsion is time-critical ischemia. It is less consistent than the correct choice.",
-        "B": "Infection/inflammation of epididymis vs spermatic cord twist ischemia. This matches the correct interpretation.",
+        "B": "Infection/inflammation of epididymis versus spermatic cord twist ischemia. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "urology:extreme:10",
-      "question": "A detailed evaluation for testicular torsion is underway in a 18-year-old man. Which of the following is correct?",
+      "question": "A detailed evaluation for testicular torsion is underway in a 35-year-old man. Which of the following is correct?",
       "options": [
         "A) Sudden severe testicular pain ± high lie/absent cremasteric = emergency",
         "B) Epididymitis equals torsion needing no distinction",
@@ -1826,10 +1826,10 @@
     },
     {
       "id": "urology:extreme:11",
-      "question": "A 17-year-old man has findings that make varicocele hard to confirm. Which of the following is most accurate?",
+      "question": "A 34-year-old man has findings that make varicocele hard to confirm. Which of the following is most accurate?",
       "options": [
         "A) Chronic bladder pain with filling; diagnosis of exclusion patterns",
-        "B) Painless firm testicular mass—urgent urology; AFP/hCG/LDH context",
+        "B) Painless firm testicular mass—urgent urology; alpha-fetoprotein/human chorionic gonadotropin/lactate dehydrogenase context",
         "C) Transilluminating scrotal fluid sac; usually painless",
         "D) Bag of worms left scrotum; may associate infertility; decompresses supine"
       ],
@@ -1844,12 +1844,12 @@
     },
     {
       "id": "urology:extreme:12",
-      "question": "In a 23-year-old man, distinguishing hydrocele from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 20-year-old man, distinguishing hydrocele from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Transilluminating scrotal fluid sac; usually painless",
-        "B) US replaces immediate urology in clear torsion without delay always",
+        "B) ultrasound replaces immediate urology in clear torsion without delay always",
         "C) Torsion equals always epididymal cyst rupture",
-        "D) Painless firm testicular mass—urgent urology; AFP/hCG/LDH context"
+        "D) Painless firm testicular mass—urgent urology; alpha-fetoprotein/human chorionic gonadotropin/lactate dehydrogenase context"
       ],
       "answer": "A) Transilluminating scrotal fluid sac; usually painless",
       "explanation": "Tunica vaginalis fluid collection. Therefore, the most accurate choice is: Transilluminating scrotal fluid sac; usually painless. Tumors are solid and need different workup.",
@@ -1862,15 +1862,15 @@
     },
     {
       "id": "urology:extreme:13",
-      "question": "A 18-year-old man returns with ongoing problems related to testicular cancer. Which of the following is most accurate?",
+      "question": "A 35-year-old man returns with ongoing problems related to testicular cancer. Which of the following is most accurate?",
       "options": [
-        "A) Painless firm testicular mass—urgent urology; AFP/hCG/LDH context",
-        "B) PSA ≥ any value always equals metastatic prostate cancer",
-        "C) ADT treats testicular germ cell tumors as primary always",
-        "D) US replaces immediate urology in clear torsion without delay always"
+        "A) Painless firm testicular mass—urgent urology; alpha-fetoprotein/human chorionic gonadotropin/lactate dehydrogenase context",
+        "B) prostate-specific antigen ≥ any value always equals metastatic prostate cancer",
+        "C) androgen deprivation therapy treats testicular germ cell tumors as primary always",
+        "D) ultrasound replaces immediate urology in clear torsion without delay always"
       ],
-      "answer": "A) Painless firm testicular mass—urgent urology; AFP/hCG/LDH context",
-      "explanation": "Germ cell tumors present as solid mass. Therefore, the most accurate choice is: Painless firm testicular mass—urgent urology; AFP/hCG/LDH context. Hydrocele is fluid; mass needs oncology pathway.",
+      "answer": "A) Painless firm testicular mass—urgent urology; alpha-fetoprotein/human chorionic gonadotropin/lactate dehydrogenase context",
+      "explanation": "Germ cell tumors present as solid mass. Therefore, the most accurate choice is: Painless firm testicular mass—urgent urology; alpha-fetoprotein/human chorionic gonadotropin/lactate dehydrogenase context. Hydrocele is fluid; mass needs oncology pathway.",
       "choice_explanations": {
         "A": "Germ cell tumors present as solid mass. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1880,28 +1880,28 @@
     },
     {
       "id": "urology:extreme:14",
-      "question": "Senior review is requested for RCC triad in a 76-year-old man. Which of the following is correct?",
+      "question": "Senior review is requested for renal cell carcinoma triad in a 65-year-old man. Which of the following is correct?",
       "options": [
-        "A) All renal cysts equal ADPKD genetically",
+        "A) All renal cysts equal autosomal dominant polycystic kidney disease genetically",
         "B) Radical nephrectomy mandatory for every 2 cm mass always",
-        "C) RCC always presents with only LUTS of BPH",
-        "D) Flank pain, hematuria, palpable mass classic but uncommon RCC triad"
+        "C) renal cell carcinoma always presents with only lower urinary tract symptoms of benign prostatic hyperplasia",
+        "D) Flank pain, hematuria, palpable mass classic but uncommon renal cell carcinoma triad"
       ],
-      "answer": "D) Flank pain, hematuria, palpable mass classic but uncommon RCC triad",
-      "explanation": "Renal cortical malignancy can invade and bleed. Therefore, the most accurate choice is: Flank pain, hematuria, palpable mass classic but uncommon RCC triad. BPH is prostate outlet symptoms.",
+      "answer": "D) Flank pain, hematuria, palpable mass classic but uncommon renal cell carcinoma triad",
+      "explanation": "Renal cortical malignancy can invade and bleed. Therefore, the most accurate choice is: Flank pain, hematuria, palpable mass classic but uncommon renal cell carcinoma triad. benign prostatic hyperplasia is prostate outlet symptoms.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "BPH is prostate outlet symptoms. It is less consistent than the correct choice.",
+        "C": "benign prostatic hyperplasia is prostate outlet symptoms. It is less consistent than the correct choice.",
         "D": "Renal cortical malignancy can invade and bleed. This matches the correct interpretation."
       }
     },
     {
       "id": "urology:extreme:15",
-      "question": "Which statement about bladder cancer hematuria in a 58-year-old man is most accurate?",
+      "question": "Which statement about bladder cancer hematuria in a 39-year-old woman is most accurate?",
       "options": [
-        "A) RCC always presents with only LUTS of BPH",
-        "B) TURBT alone always curative for muscle-invasive disease",
+        "A) renal cell carcinoma always presents with only lower urinary tract symptoms of benign prostatic hyperplasia",
+        "B) transurethral resection of bladder tumor alone always curative for muscle-invasive disease",
         "C) Painless gross hematuria needs cystoscopy workup for bladder cancer",
         "D) Always presents as acute prostatitis with fever"
       ],
@@ -1916,33 +1916,33 @@
     },
     {
       "id": "urology:extreme:16",
-      "question": "A 57-year-old man has a complex presentation of PSA screening nuance. Which of the following is most accurate?",
+      "question": "A 70-year-old man has a complex presentation of prostate-specific antigen screening nuance. Which of the following is most accurate?",
       "options": [
         "A) Always presents as acute prostatitis with fever",
         "B) Nocturia always equals only prostate cancer",
-        "C) PSA is not perfect; shared decision-making for screening discussions",
-        "D) PSA ≥ any value always equals metastatic prostate cancer"
+        "C) prostate-specific antigen is not perfect; shared decision-making for screening discussions",
+        "D) prostate-specific antigen ≥ any value always equals metastatic prostate cancer"
       ],
-      "answer": "C) PSA is not perfect; shared decision-making for screening discussions",
-      "explanation": "PSA can rise from BPH/prostatitis/cancer. Therefore, the most accurate choice is: PSA is not perfect; shared decision-making for screening discussions. Elevation is not diagnostic of metastasis alone.",
+      "answer": "C) prostate-specific antigen is not perfect; shared decision-making for screening discussions",
+      "explanation": "prostate-specific antigen can rise from benign prostatic hyperplasia/prostatitis/cancer. Therefore, the most accurate choice is: prostate-specific antigen is not perfect; shared decision-making for screening discussions. Elevation is not diagnostic of metastasis alone.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "PSA can rise from BPH/prostatitis/cancer. This matches the correct interpretation.",
+        "C": "prostate-specific antigen can rise from benign prostatic hyperplasia/prostatitis/cancer. This matches the correct interpretation.",
         "D": "Elevation is not diagnostic of metastasis alone. It is less consistent than the correct choice."
       }
     },
     {
       "id": "urology:extreme:17",
-      "question": "A 61-year-old man with hypertension and type 2 diabetes is reassessed after incomplete response related to prostate cancer local. Which of the following is most accurate?",
+      "question": "A 74-year-old man with hypertension and type 2 diabetes is reassessed after incomplete response related to prostate cancer local. Which of the following is most accurate?",
       "options": [
-        "A) Often asymptomatic early; detected by PSA/DRE/biopsy pathway",
-        "B) PSA ≥ any value always equals metastatic prostate cancer",
+        "A) Often asymptomatic early; detected by prostate-specific antigen/digital rectal examination/biopsy pathway",
+        "B) prostate-specific antigen ≥ any value always equals metastatic prostate cancer",
         "C) Always presents as acute prostatitis with fever",
         "D) Vigorous prostatic massage first diagnostic step always"
       ],
-      "answer": "A) Often asymptomatic early; detected by PSA/DRE/biopsy pathway",
-      "explanation": "Adenocarcinoma may be silent until advanced/local signs. Therefore, the most accurate choice is: Often asymptomatic early; detected by PSA/DRE/biopsy pathway. Acute infection differs from neoplastic presentation.",
+      "answer": "A) Often asymptomatic early; detected by prostate-specific antigen/digital rectal examination/biopsy pathway",
+      "explanation": "Adenocarcinoma may be silent until advanced/local signs. Therefore, the most accurate choice is: Often asymptomatic early; detected by prostate-specific antigen/digital rectal examination/biopsy pathway. Acute infection differs from neoplastic presentation.",
       "choice_explanations": {
         "A": "Adenocarcinoma may be silent until advanced/local signs. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1952,9 +1952,9 @@
     },
     {
       "id": "urology:extreme:18",
-      "question": "A detailed evaluation for acute bacterial prostatitis is underway in a 74-year-old man. Which of the following is correct?",
+      "question": "A detailed evaluation for acute bacterial prostatitis is underway in a 63-year-old man. Which of the following is correct?",
       "options": [
-        "A) BPH equals acute bacterial prostatitis fever/rigors always",
+        "A) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always",
         "B) Vigorous prostatic massage first diagnostic step always",
         "C) Fever, perineal pain, tender prostate—avoid vigorous massage; antibiotics",
         "D) Always presents as acute prostatitis with fever"
@@ -1970,11 +1970,11 @@
     },
     {
       "id": "urology:extreme:19",
-      "question": "A 66-year-old man has findings that make chronic prostatitis/CPPS hard to confirm. Which of the following is most accurate?",
+      "question": "A 55-year-old man has findings that make chronic prostatitis/chronic pelvic pain syndrome hard to confirm. Which of the following is most accurate?",
       "options": [
         "A) Vigorous prostatic massage first diagnostic step always",
         "B) Silent retention equals acute painful retention identically always",
-        "C) BPH equals acute bacterial prostatitis fever/rigors always",
+        "C) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always",
         "D) Chronic pelvic pain syndromes may lack active infection"
       ],
       "answer": "D) Chronic pelvic pain syndromes may lack active infection",
@@ -1988,12 +1988,12 @@
     },
     {
       "id": "urology:extreme:20",
-      "question": "In a 30-year-old man, distinguishing nephrolithiasis colic from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 57-year-old woman, distinguishing nephrolithiasis colic from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Hematuria ± flank pain; filling defect on imaging",
-        "B) Fever, flank pain, CVA tenderness with UTI symptoms suggests pyelo",
+        "B) Fever, flank pain, cerebrovascular accident tenderness with urinary tract infection symptoms suggests pyelo",
         "C) Severe colicky flank pain radiating to groin ± hematuria",
-        "D) RCC always presents with only LUTS of BPH"
+        "D) renal cell carcinoma always presents with only lower urinary tract symptoms of benign prostatic hyperplasia"
       ],
       "answer": "C) Severe colicky flank pain radiating to groin ± hematuria",
       "explanation": "Ureteral spasm from stone causes visceral colic. Therefore, the most accurate choice is: Severe colicky flank pain radiating to groin ± hematuria. Infection stone syndromes need different urgency cues.",
@@ -2006,15 +2006,15 @@
     },
     {
       "id": "urology:extreme:21",
-      "question": "A 70-year-old man returns with ongoing problems related to uric acid stones. Which of the following is most accurate?",
+      "question": "A 51-year-old woman returns with ongoing problems related to uric acid stones. Which of the following is most accurate?",
       "options": [
-        "A) Uric acid stones always radiopaque like calcium oxalate on KUB",
+        "A) Uric acid stones always radiopaque like calcium oxalate on kidneys, ureters, bladder radiograph",
         "B) Struvite equals pure uric acid from gout only",
         "C) Always struvite infection stones",
-        "D) Radiolucent on plain XR; dissolve with urine alkalinization possible"
+        "D) Radiolucent on plain radiograph; dissolve with urine alkalinization possible"
       ],
-      "answer": "D) Radiolucent on plain XR; dissolve with urine alkalinization possible",
-      "explanation": "Uric acid crystals form in acidic urine; alkalinization helps. Therefore, the most accurate choice is: Radiolucent on plain XR; dissolve with urine alkalinization possible. Calcium stones are typically radiopaque.",
+      "answer": "D) Radiolucent on plain radiograph; dissolve with urine alkalinization possible",
+      "explanation": "Uric acid crystals form in acidic urine; alkalinization helps. Therefore, the most accurate choice is: Radiolucent on plain radiograph; dissolve with urine alkalinization possible. Calcium stones are typically radiopaque.",
       "choice_explanations": {
         "A": "Calcium stones are typically radiopaque. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -2024,10 +2024,10 @@
     },
     {
       "id": "urology:extreme:22",
-      "question": "Senior review is requested for struvite stones in a 56-year-old man. Which of the following is correct?",
+      "question": "Senior review is requested for struvite stones in a 37-year-old woman. Which of the following is correct?",
       "options": [
         "A) Magnesium ammonium phosphate stones from urease-positive organisms",
-        "B) Uric acid stones always radiopaque like calcium oxalate on KUB",
+        "B) Uric acid stones always radiopaque like calcium oxalate on kidneys, ureters, bladder radiograph",
         "C) Always struvite infection stones",
         "D) Struvite equals pure uric acid from gout only"
       ],
@@ -2042,11 +2042,11 @@
     },
     {
       "id": "urology:extreme:23",
-      "question": "Which statement about calcium oxalate stones in a 26-year-old man is most accurate?",
+      "question": "Which statement about calcium oxalate stones in a 53-year-old woman is most accurate?",
       "options": [
         "A) Always struvite infection stones",
-        "B) KUB alone always excludes all stones",
-        "C) Uric acid stones always radiopaque like calcium oxalate on KUB",
+        "B) kidneys, ureters, bladder radiograph alone always excludes all stones",
+        "C) Uric acid stones always radiopaque like calcium oxalate on kidneys, ureters, bladder radiograph",
         "D) Most common stone; hypercalciuria/hyperoxaluria/hypocitraturia risks"
       ],
       "answer": "D) Most common stone; hypercalciuria/hyperoxaluria/hypocitraturia risks",
@@ -2060,27 +2060,27 @@
     },
     {
       "id": "urology:extreme:24",
-      "question": "A 45-year-old woman has a complex presentation of stone CT imaging. Which of the following is most accurate?",
+      "question": "A 26-year-old man has a complex presentation of stone computed tomography imaging. Which of the following is most accurate?",
       "options": [
-        "A) KUB alone always excludes all stones",
-        "B) Uric acid stones always radiopaque like calcium oxalate on KUB",
-        "C) Noncontrast CT is most sensitive for ureteric stones",
+        "A) kidneys, ureters, bladder radiograph alone always excludes all stones",
+        "B) Uric acid stones always radiopaque like calcium oxalate on kidneys, ureters, bladder radiograph",
+        "C) Noncontrast computed tomography is most sensitive for ureteric stones",
         "D) Always struvite infection stones"
       ],
-      "answer": "C) Noncontrast CT is most sensitive for ureteric stones",
-      "explanation": "CT detects density/location of most calculi. Therefore, the most accurate choice is: Noncontrast CT is most sensitive for ureteric stones. Lucent stones may miss on plain film.",
+      "answer": "C) Noncontrast computed tomography is most sensitive for ureteric stones",
+      "explanation": "computed tomography detects density/location of most calculi. Therefore, the most accurate choice is: Noncontrast computed tomography is most sensitive for ureteric stones. Lucent stones may miss on plain film.",
       "choice_explanations": {
         "A": "Lucent stones may miss on plain film. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "CT detects density/location of most calculi. This matches the correct interpretation.",
+        "C": "computed tomography detects density/location of most calculi. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "urology:extreme:25",
-      "question": "A 45-year-old woman is reassessed after incomplete response related to alpha-blocker medical expulsive. Which of the following is most accurate?",
+      "question": "A 26-year-old man is reassessed after incomplete response related to alpha-blocker medical expulsive. Which of the following is most accurate?",
       "options": [
-        "A) Alpha-blockers shrink prostate volume like 5-ARI immediately",
+        "A) Alpha-blockers shrink prostate volume like 5-alpha reductase inhibitor immediately",
         "B) Always struvite infection stones",
         "C) Alpha-blockers may aid distal ureteric stone passage in selected cases",
         "D) Alpha-blockers dissolve calcium stones chemically"
@@ -2096,7 +2096,7 @@
     },
     {
       "id": "urology:extreme:26",
-      "question": "A detailed evaluation for infected obstructed kidney is underway in a 39-year-old woman. Which of the following is correct?",
+      "question": "A detailed evaluation for infected obstructed kidney is underway in a 66-year-old man. Which of the following is correct?",
       "options": [
         "A) Always managed by fluid restriction without decompression",
         "B) Oral fluids only without drainage if septic from obstructed stone",
@@ -2114,7 +2114,7 @@
     },
     {
       "id": "urology:extreme:27",
-      "question": "A 70-year-old man has findings that make hydronephrosis hard to confirm. Which of the following is most accurate?",
+      "question": "A 51-year-old woman has findings that make hydronephrosis hard to confirm. Which of the following is most accurate?",
       "options": [
         "A) Urodynamics replaces cystoscopy for visible tumor always",
         "B) Always means only high fluid intake",
@@ -2132,15 +2132,15 @@
     },
     {
       "id": "urology:extreme:28",
-      "question": "In a 75-year-old man, distinguishing urethral stricture from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 64-year-old man, distinguishing urethral stricture from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Glomerular bleeding equals distal urethral trauma identically",
         "B) Used when urethral route unsafe/impossible (stricture/trauma)",
-        "C) Weak stream, spraying, retention history after trauma/STI/instrumentation",
+        "C) Weak stream, spraying, retention history after trauma/sexually transmitted infection/instrumentation",
         "D) Intraperitoneal rupture from full bladder trauma; urinary ascites"
       ],
-      "answer": "C) Weak stream, spraying, retention history after trauma/STI/instrumentation",
-      "explanation": "Scar narrows urethra increasing resistance. Therefore, the most accurate choice is: Weak stream, spraying, retention history after trauma/STI/instrumentation. BPH is prostate enlargement in aging men.",
+      "answer": "C) Weak stream, spraying, retention history after trauma/sexually transmitted infection/instrumentation",
+      "explanation": "Scar narrows urethra increasing resistance. Therefore, the most accurate choice is: Weak stream, spraying, retention history after trauma/sexually transmitted infection/instrumentation. benign prostatic hyperplasia is prostate enlargement in aging men.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -2150,15 +2150,15 @@
     },
     {
       "id": "urology:extreme:29",
-      "question": "A 51-year-old woman returns with ongoing problems related to stress incontinence. Which of the following is most accurate?",
+      "question": "A 32-year-old man returns with ongoing problems related to stress incontinence. Which of the following is most accurate?",
       "options": [
-        "A) Leak with cough/sneeze from urethral hypermobility/ISD",
-        "B) BPH equals acute bacterial prostatitis fever/rigors always",
+        "A) Leak with cough/sneeze from urethral hypermobility/intrinsic sphincter deficiency",
+        "B) benign prostatic hyperplasia equals acute bacterial prostatitis fever/rigors always",
         "C) Glomerular bleeding equals distal urethral trauma identically",
         "D) Urgency ± leak from detrusor overactivity"
       ],
-      "answer": "A) Leak with cough/sneeze from urethral hypermobility/ISD",
-      "explanation": "↑ abdominal pressure overcomes outlet. Therefore, the most accurate choice is: Leak with cough/sneeze from urethral hypermobility/ISD. Urge is urgency/leak from detrusor contractions.",
+      "answer": "A) Leak with cough/sneeze from urethral hypermobility/intrinsic sphincter deficiency",
+      "explanation": "↑ abdominal pressure overcomes outlet. Therefore, the most accurate choice is: Leak with cough/sneeze from urethral hypermobility/intrinsic sphincter deficiency. Urge is urgency/leak from detrusor contractions.",
       "choice_explanations": {
         "A": "↑ abdominal pressure overcomes outlet. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",

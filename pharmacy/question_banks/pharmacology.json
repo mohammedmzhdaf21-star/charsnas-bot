@@ -22,7 +22,7 @@
       "id": "pharmacology:easy:1",
       "question": "Which statement about competitive antagonist is correct?",
       "options": [
-        "A) Always flatten Emax without changing EC50",
+        "A) Always flatten Emax without changing half-maximal effective concentration",
         "B) Surmountable orthosteric block: right-shift agonist curve with Emax preservable",
         "C) Noncompetitive block that always flattens Emax without potency shift",
         "D) Occupies the orthosteric site without activation (competitive antagonist pattern)"
@@ -114,15 +114,15 @@
       "options": [
         "A) Identical to intrinsic efficacy producing tissue Emax",
         "B) Always produces higher Emax than any full agonist at the same system",
-        "C) Concentration or dose needed for a defined effect (e.g., EC50); lower EC50 = more potent",
+        "C) Concentration or dose needed for a defined effect (e.g., half-maximal effective concentration); lower half-maximal effective concentration = more potent",
         "D) Synonym of maximal efficacy (Emax) in all contexts"
       ],
-      "answer": "C) Concentration or dose needed for a defined effect (e.g., EC50); lower EC50 = more potent",
-      "explanation": "Potency indexes position along the concentration axis of the DR curve. Therefore, the most accurate choice is: Concentration or dose needed for a defined effect (e.g., EC50); lower EC50 = more potent. A drug can be potent with low Emax or less potent with high Emax.",
+      "answer": "C) Concentration or dose needed for a defined effect (e.g., half-maximal effective concentration); lower half-maximal effective concentration = more potent",
+      "explanation": "Potency indexes position along the concentration axis of the diabetic retinopathy curve. Therefore, the most accurate choice is: Concentration or dose needed for a defined effect (e.g., half-maximal effective concentration); lower half-maximal effective concentration = more potent. A drug can be potent with low Emax or less potent with high Emax.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Potency indexes position along the concentration axis of the DR curve. This matches the correct interpretation.",
+        "C": "Potency indexes position along the concentration axis of the diabetic retinopathy curve. This matches the correct interpretation.",
         "D": "A drug can be potent with low Emax or less potent with high Emax. It is less consistent than the correct choice."
       }
     },
@@ -136,9 +136,9 @@
         "D) Identical to intrinsic efficacy producing tissue Emax"
       ],
       "answer": "B) Ability of a drug–receptor complex to produce a maximal system response (Emax)",
-      "explanation": "Emax reflects stimulus generation and tissue amplification downstream of binding. Therefore, the most accurate choice is: Ability of a drug–receptor complex to produce a maximal system response (Emax). Half-life is a PK parameter, not efficacy.",
+      "explanation": "Emax reflects stimulus generation and tissue amplification downstream of binding. Therefore, the most accurate choice is: Ability of a drug–receptor complex to produce a maximal system response (Emax). Half-life is a pharmacokinetics parameter, not efficacy.",
       "choice_explanations": {
-        "A": "Half-life is a PK parameter, not efficacy. It is less consistent than the correct choice.",
+        "A": "Half-life is a pharmacokinetics parameter, not efficacy. It is less consistent than the correct choice.",
         "B": "Emax reflects stimulus generation and tissue amplification downstream of binding. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -151,10 +151,10 @@
         "A) Synonym of maximal efficacy (Emax) in all contexts",
         "B) Equal to oral bioavailability percentage F",
         "C) Kidney clears the entire oral dose before absorption as classic first-pass",
-        "D) Ratio relating toxic-dose to effective-dose metrics (e.g., TD50/ED50)"
+        "D) Ratio relating toxic-dose to effective-dose metrics (e.g., median toxic dose/median effective dose)"
       ],
-      "answer": "D) Ratio relating toxic-dose to effective-dose metrics (e.g., TD50/ED50)",
-      "explanation": "TI estimates margin between efficacy and toxicity dose levels. Therefore, the most accurate choice is: Ratio relating toxic-dose to effective-dose metrics (e.g., TD50/ED50). Bioavailability F is an absorption metric, not TI.",
+      "answer": "D) Ratio relating toxic-dose to effective-dose metrics (e.g., median toxic dose/median effective dose)",
+      "explanation": "TI estimates margin between efficacy and toxicity dose levels. Therefore, the most accurate choice is: Ratio relating toxic-dose to effective-dose metrics (e.g., median toxic dose/median effective dose). Bioavailability F is an absorption metric, not TI.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Bioavailability F is an absorption metric, not TI. It is less consistent than the correct choice.",
@@ -164,82 +164,82 @@
     },
     {
       "id": "pharmacology:easy:9",
-      "question": "Which finding is expected in graded DR curve?",
+      "question": "Which finding is expected in graded diabetic retinopathy curve?",
       "options": [
         "A) Synonym of maximal efficacy (Emax) in all contexts",
         "B) Plots only the percent of a population showing an all-or-none response",
-        "C) Plots continuous mmHg change within one isolated tissue only",
+        "C) Plots continuous millimeters of mercury change within one isolated tissue only",
         "D) Plots intensity of effect versus dose/concentration in a system or individual"
       ],
       "answer": "D) Plots intensity of effect versus dose/concentration in a system or individual",
-      "explanation": "Graded curves yield EC50 and Emax for continuous endpoints. Therefore, the most accurate choice is: Plots intensity of effect versus dose/concentration in a system or individual. Population all-or-none fractions define quantal curves.",
+      "explanation": "Graded curves yield half-maximal effective concentration and Emax for continuous endpoints. Therefore, the most accurate choice is: Plots intensity of effect versus dose/concentration in a system or individual. Population all-or-none fractions define quantal curves.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Population all-or-none fractions define quantal curves. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Graded curves yield EC50 and Emax for continuous endpoints. This matches the correct interpretation."
+        "D": "Graded curves yield half-maximal effective concentration and Emax for continuous endpoints. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmacology:easy:10",
-      "question": "Which of the following statements about quantal DR curve is correct?",
+      "question": "Which of the following statements about quantal diabetic retinopathy curve is correct?",
       "options": [
-        "A) Plots continuous mmHg change within one isolated tissue only",
+        "A) Plots continuous millimeters of mercury change within one isolated tissue only",
         "B) Plots only the percent of a population showing an all-or-none response",
         "C) Dose that cures 50% of infections in routine care",
         "D) Plots fraction of population achieving a defined all-or-none effect versus dose"
       ],
       "answer": "D) Plots fraction of population achieving a defined all-or-none effect versus dose",
-      "explanation": "ED50 from quantal data is the dose effective in 50% of subjects. Therefore, the most accurate choice is: Plots fraction of population achieving a defined all-or-none effect versus dose. Continuous intensity in one preparation is graded, not quantal.",
+      "explanation": "median effective dose from quantal data is the dose effective in 50% of subjects. Therefore, the most accurate choice is: Plots fraction of population achieving a defined all-or-none effect versus dose. Continuous intensity in one preparation is graded, not quantal.",
       "choice_explanations": {
         "A": "Continuous intensity in one preparation is graded, not quantal. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "ED50 from quantal data is the dose effective in 50% of subjects. This matches the correct interpretation."
+        "D": "median effective dose from quantal data is the dose effective in 50% of subjects. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmacology:easy:11",
-      "question": "In ED50, which of the following is correct?",
+      "question": "In median effective dose, which of the following is correct?",
       "options": [
         "A) Median effective dose for a specified endpoint (population or 50% Emax context)",
         "B) Plots only the percent of a population showing an all-or-none response",
-        "C) Always identical to LD50",
+        "C) Always identical to median lethal dose",
         "D) Dose that cures 50% of infections in routine care"
       ],
       "answer": "A) Median effective dose for a specified endpoint (population or 50% Emax context)",
-      "explanation": "ED50 indexes effectiveness, not lethality. Therefore, the most accurate choice is: Median effective dose for a specified endpoint (population or 50% Emax context). LD50 is a lethality benchmark.",
+      "explanation": "median effective dose indexes effectiveness, not lethality. Therefore, the most accurate choice is: Median effective dose for a specified endpoint (population or 50% Emax context). median lethal dose is a lethality benchmark.",
       "choice_explanations": {
-        "A": "ED50 indexes effectiveness, not lethality. This matches the correct interpretation.",
+        "A": "median effective dose indexes effectiveness, not lethality. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "LD50 is a lethality benchmark. It is less consistent than the correct choice.",
+        "C": "median lethal dose is a lethality benchmark. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmacology:easy:12",
-      "question": "Which of the following best describes LD50?",
+      "question": "Which of the following best describes median lethal dose?",
       "options": [
         "A) Plots only the percent of a population showing an all-or-none response",
-        "B) Always identical to LD50",
+        "B) Always identical to median lethal dose",
         "C) Dose lethal to 50% of a defined test population under stated conditions",
         "D) Dose that cures 50% of infections in routine care"
       ],
       "answer": "C) Dose lethal to 50% of a defined test population under stated conditions",
-      "explanation": "LD50 is an acute toxicity reference point. Therefore, the most accurate choice is: Dose lethal to 50% of a defined test population under stated conditions. Cure rates are efficacy endpoints, not LD50.",
+      "explanation": "median lethal dose is an acute toxicity reference point. Therefore, the most accurate choice is: Dose lethal to 50% of a defined test population under stated conditions. Cure rates are efficacy endpoints, not median lethal dose.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "LD50 is an acute toxicity reference point. This matches the correct interpretation.",
-        "D": "Cure rates are efficacy endpoints, not LD50. It is less consistent than the correct choice."
+        "C": "median lethal dose is an acute toxicity reference point. This matches the correct interpretation.",
+        "D": "Cure rates are efficacy endpoints, not median lethal dose. It is less consistent than the correct choice."
       }
     },
     {
       "id": "pharmacology:easy:13",
-      "question": "Which of the following applies to PD tolerance?",
+      "question": "Which of the following applies to peritoneal dialysis tolerance?",
       "options": [
         "A) Reduced response at the same concentration from receptor/pathway adaptation",
-        "B) Receptor downregulation with unchanged plasma levels as the definition of PK tolerance",
+        "B) Receptor downregulation with unchanged plasma levels as the definition of pharmacokinetics tolerance",
         "C) Reduced levels from faster hepatic metabolism only",
         "D) Opposite efficacy at the same receptor without changing levels"
       ],
@@ -254,18 +254,18 @@
     },
     {
       "id": "pharmacology:easy:14",
-      "question": "Which explanation of PK tolerance is correct?",
+      "question": "Which explanation of pharmacokinetics tolerance is correct?",
       "options": [
         "A) Reduced effect because exposure falls (e.g., autoinduction increasing clearance)",
-        "B) Receptor downregulation with unchanged plasma levels as the definition of PK tolerance",
+        "B) Receptor downregulation with unchanged plasma levels as the definition of pharmacokinetics tolerance",
         "C) Reduced levels from faster hepatic metabolism only",
         "D) Opposite efficacy at the same receptor without changing levels"
       ],
       "answer": "A) Reduced effect because exposure falls (e.g., autoinduction increasing clearance)",
-      "explanation": "Induction or other ADME changes lower concentration at the target. Therefore, the most accurate choice is: Reduced effect because exposure falls (e.g., autoinduction increasing clearance). Receptor adaptation with stable levels is PD tolerance.",
+      "explanation": "Induction or other absorption, distribution, metabolism, and excretion changes lower concentration at the target. Therefore, the most accurate choice is: Reduced effect because exposure falls (e.g., autoinduction increasing clearance). Receptor adaptation with stable levels is pharmacodynamics tolerance.",
       "choice_explanations": {
-        "A": "Induction or other ADME changes lower concentration at the target. This matches the correct interpretation.",
-        "B": "Receptor adaptation with stable levels is PD tolerance. It is less consistent than the correct choice.",
+        "A": "Induction or other absorption, distribution, metabolism, and excretion changes lower concentration at the target. This matches the correct interpretation.",
+        "B": "Receptor adaptation with stable levels is pharmacodynamics tolerance. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -274,7 +274,7 @@
       "id": "pharmacology:easy:15",
       "question": "Which of the following applies to tachyphylaxis?",
       "options": [
-        "A) Means only CYP3A4 induction altering concentrations",
+        "A) Means only cytochrome P450 3A4 induction altering concentrations",
         "B) Gradual loss of effect over months from enzyme induction alone",
         "C) All dopamine doses produce identical pure α1 constriction only",
         "D) Rapid diminution of response after closely spaced repeated doses"
@@ -292,7 +292,7 @@
       "id": "pharmacology:easy:16",
       "question": "Which of the following best defines downregulation?",
       "options": [
-        "A) Receptor downregulation with unchanged plasma levels as the definition of PK tolerance",
+        "A) Receptor downregulation with unchanged plasma levels as the definition of pharmacokinetics tolerance",
         "B) Chronic agonists always increase receptor density without limit",
         "C) Chronic antagonists never alter receptor expression",
         "D) Chronic agonist exposure decreases receptor number or responsiveness"
@@ -328,35 +328,35 @@
       "id": "pharmacology:easy:18",
       "question": "Which statement regarding gs signaling is correct?",
       "options": [
-        "A) Gi always stimulates adenylyl cyclase like Gs",
-        "B) Gs stimulates adenylyl cyclase, raising cAMP and activating PKA",
-        "C) Gq primarily inhibits adenylyl cyclase to lower cAMP",
-        "D) Gs inhibits adenylyl cyclase and lowers cAMP as its defining cascade"
+        "A) inhibitory G protein always stimulates adenylyl cyclase like stimulatory G protein",
+        "B) stimulatory G protein stimulates adenylyl cyclase, raising cAMP and activating protein kinase A",
+        "C) Gq protein protein primarily inhibits adenylyl cyclase to lower cAMP",
+        "D) stimulatory G protein inhibits adenylyl cyclase and lowers cAMP as its defining cascade"
       ],
-      "answer": "B) Gs stimulates adenylyl cyclase, raising cAMP and activating PKA",
-      "explanation": "Gs–AC–cAMP–PKA is the canonical stimulatory GPCR path. Therefore, the most accurate choice is: Gs stimulates adenylyl cyclase, raising cAMP and activating PKA. Gi lowers cAMP; Gs raises it.",
+      "answer": "B) stimulatory G protein stimulates adenylyl cyclase, raising cAMP and activating protein kinase A",
+      "explanation": "stimulatory G protein–anterior chamber–cAMP–protein kinase A is the canonical stimulatory G protein-coupled receptor path. Therefore, the most accurate choice is: stimulatory G protein stimulates adenylyl cyclase, raising cAMP and activating protein kinase A. inhibitory G protein lowers cAMP; stimulatory G protein raises it.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Gs–AC–cAMP–PKA is the canonical stimulatory GPCR path. This matches the correct interpretation.",
+        "B": "stimulatory G protein–anterior chamber–cAMP–protein kinase A is the canonical stimulatory G protein-coupled receptor path. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Gi lowers cAMP; Gs raises it. It is less consistent than the correct choice."
+        "D": "inhibitory G protein lowers cAMP; stimulatory G protein raises it. It is less consistent than the correct choice."
       }
     },
     {
       "id": "pharmacology:easy:19",
       "question": "In clinical examination related to gi signaling, which of the following is correct?",
       "options": [
-        "A) Gq primarily inhibits adenylyl cyclase to lower cAMP",
-        "B) Gi inhibits adenylyl cyclase, decreasing cAMP-dependent signaling",
-        "C) Gi always stimulates adenylyl cyclase like Gs",
-        "D) Gs inhibits adenylyl cyclase and lowers cAMP as its defining cascade"
+        "A) Gq protein protein primarily inhibits adenylyl cyclase to lower cAMP",
+        "B) inhibitory G protein inhibits adenylyl cyclase, decreasing cAMP-dependent signaling",
+        "C) inhibitory G protein always stimulates adenylyl cyclase like stimulatory G protein",
+        "D) stimulatory G protein inhibits adenylyl cyclase and lowers cAMP as its defining cascade"
       ],
-      "answer": "B) Gi inhibits adenylyl cyclase, decreasing cAMP-dependent signaling",
-      "explanation": "Inhibitory GPCRs dampen cAMP via Gi/o. Therefore, the most accurate choice is: Gi inhibits adenylyl cyclase, decreasing cAMP-dependent signaling. AC stimulation is Gs, not Gi.",
+      "answer": "B) inhibitory G protein inhibits adenylyl cyclase, decreasing cAMP-dependent signaling",
+      "explanation": "Inhibitory G protein-coupled receptors dampen cAMP via inhibitory G protein/o. Therefore, the most accurate choice is: inhibitory G protein inhibits adenylyl cyclase, decreasing cAMP-dependent signaling. anterior chamber stimulation is stimulatory G protein, not inhibitory G protein.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Inhibitory GPCRs dampen cAMP via Gi/o. This matches the correct interpretation.",
-        "C": "AC stimulation is Gs, not Gi. It is less consistent than the correct choice.",
+        "B": "Inhibitory G protein-coupled receptors dampen cAMP via inhibitory G protein/o. This matches the correct interpretation.",
+        "C": "anterior chamber stimulation is stimulatory G protein, not inhibitory G protein. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -364,17 +364,17 @@
       "id": "pharmacology:easy:20",
       "question": "Which of the following best describes gq signaling?",
       "options": [
-        "A) Gs inhibits adenylyl cyclase and lowers cAMP as its defining cascade",
-        "B) Gq primarily inhibits adenylyl cyclase to lower cAMP",
-        "C) Gq activates PLC generating IP3/DAG, raising Ca2+ and activating PKC",
-        "D) Gi always stimulates adenylyl cyclase like Gs"
+        "A) stimulatory G protein inhibits adenylyl cyclase and lowers cAMP as its defining cascade",
+        "B) Gq protein protein primarily inhibits adenylyl cyclase to lower cAMP",
+        "C) Gq protein protein activates phospholipase C generating inositol trisphosphate/diacylglycerol, raising Ca2+ and activating protein kinase C",
+        "D) inhibitory G protein always stimulates adenylyl cyclase like stimulatory G protein"
       ],
-      "answer": "C) Gq activates PLC generating IP3/DAG, raising Ca2+ and activating PKC",
-      "explanation": "PLC cleavage of PIP2 is the Gq hallmark cascade. Therefore, the most accurate choice is: Gq activates PLC generating IP3/DAG, raising Ca2+ and activating PKC. AC inhibition is the Gi cascade, not Gq.",
+      "answer": "C) Gq protein protein activates phospholipase C generating inositol trisphosphate/diacylglycerol, raising Ca2+ and activating protein kinase C",
+      "explanation": "phospholipase C cleavage of PIP2 is the Gq protein protein hallmark cascade. Therefore, the most accurate choice is: Gq protein protein activates phospholipase C generating inositol trisphosphate/diacylglycerol, raising Ca2+ and activating protein kinase C. anterior chamber inhibition is the inhibitory G protein cascade, not Gq protein protein.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "AC inhibition is the Gi cascade, not Gq. It is less consistent than the correct choice.",
-        "C": "PLC cleavage of PIP2 is the Gq hallmark cascade. This matches the correct interpretation.",
+        "B": "anterior chamber inhibition is the inhibitory G protein cascade, not Gq protein protein. It is less consistent than the correct choice.",
+        "C": "phospholipase C cleavage of PIP2 is the Gq protein protein hallmark cascade. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -384,11 +384,11 @@
       "options": [
         "A) Nuclear steroid receptor that activates transcription",
         "B) Glucocorticoid receptor is a neuromuscular ligand-gated sodium channel",
-        "C) Nicotinic ACh receptor is exclusively a nuclear transcription factor",
-        "D) Nicotinic ACh receptor is a ligand-gated ion channel for fast synaptic transmission"
+        "C) Nicotinic acetylcholine receptor is exclusively a nuclear transcription factor",
+        "D) Nicotinic acetylcholine receptor is a ligand-gated ion channel for fast synaptic transmission"
       ],
-      "answer": "D) Nicotinic ACh receptor is a ligand-gated ion channel for fast synaptic transmission",
-      "explanation": "nAChRs are pentameric cation channels opened by agonist binding. Therefore, the most accurate choice is: Nicotinic ACh receptor is a ligand-gated ion channel for fast synaptic transmission. Nuclear receptors regulate transcription; nAChR does not.",
+      "answer": "D) Nicotinic acetylcholine receptor is a ligand-gated ion channel for fast synaptic transmission",
+      "explanation": "nAChRs are pentameric cation channels opened by agonist binding. Therefore, the most accurate choice is: Nicotinic acetylcholine receptor is a ligand-gated ion channel for fast synaptic transmission. Nuclear receptors regulate transcription; nAChR does not.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -400,7 +400,7 @@
       "id": "pharmacology:easy:22",
       "question": "Which explanation of nuclear receptor example is correct?",
       "options": [
-        "A) Nicotinic ACh receptor is exclusively a nuclear transcription factor",
+        "A) Nicotinic acetylcholine receptor is exclusively a nuclear transcription factor",
         "B) Glucocorticoid receptor is a neuromuscular ligand-gated sodium channel",
         "C) Glucocorticoid receptor acts as a ligand-activated transcription factor",
         "D) Nuclear steroid receptor that activates transcription"
@@ -416,19 +416,19 @@
     },
     {
       "id": "pharmacology:easy:23",
-      "question": "Which of the following is true for RTK example?",
+      "question": "Which of the following is true for receptor tyrosine kinase example?",
       "options": [
-        "A) Nicotinic ACh receptor is exclusively a nuclear transcription factor",
-        "B) Insulin receptor autophosphorylates on tyrosine and engages IRS/PI3K and MAPK paths",
-        "C) Insulin receptor is only a Gi-coupled seven-transmembrane GPCR",
+        "A) Nicotinic acetylcholine receptor is exclusively a nuclear transcription factor",
+        "B) Insulin receptor autophosphorylates on tyrosine and engages insulin receptor substrate/PI3K and mitogen-activated protein kinase paths",
+        "C) Insulin receptor is only a Gi-coupled seven-transmembrane G protein-coupled receptor",
         "D) Glucocorticoid receptor is a neuromuscular ligand-gated sodium channel"
       ],
-      "answer": "B) Insulin receptor autophosphorylates on tyrosine and engages IRS/PI3K and MAPK paths",
-      "explanation": "RTK dimerization and autophosphorylation initiate insulin signaling. Therefore, the most accurate choice is: Insulin receptor autophosphorylates on tyrosine and engages IRS/PI3K and MAPK paths. Insulin signaling is RTK-based, not classic Gi GPCR signaling.",
+      "answer": "B) Insulin receptor autophosphorylates on tyrosine and engages insulin receptor substrate/PI3K and mitogen-activated protein kinase paths",
+      "explanation": "receptor tyrosine kinase dimerization and autophosphorylation initiate insulin signaling. Therefore, the most accurate choice is: Insulin receptor autophosphorylates on tyrosine and engages insulin receptor substrate/PI3K and mitogen-activated protein kinase paths. Insulin signaling is RTK-based, not classic inhibitory G protein G protein-coupled receptor signaling.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "RTK dimerization and autophosphorylation initiate insulin signaling. This matches the correct interpretation.",
-        "C": "Insulin signaling is RTK-based, not classic Gi GPCR signaling. It is less consistent than the correct choice.",
+        "B": "receptor tyrosine kinase dimerization and autophosphorylation initiate insulin signaling. This matches the correct interpretation.",
+        "C": "Insulin signaling is RTK-based, not classic inhibitory G protein G protein-coupled receptor signaling. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -439,7 +439,7 @@
         "A) Opposite efficacy at the same receptor without changing levels",
         "B) Means the ligand never binds any receptor",
         "C) Ligand preferentially activates one downstream pathway over another at the same receptor",
-        "D) Nicotinic ACh receptor is exclusively a nuclear transcription factor"
+        "D) Nicotinic acetylcholine receptor is exclusively a nuclear transcription factor"
       ],
       "answer": "C) Ligand preferentially activates one downstream pathway over another at the same receptor",
       "explanation": "Functional selectivity can favor G-protein versus β-arrestin pathways differently. Therefore, the most accurate choice is: Ligand preferentially activates one downstream pathway over another at the same receptor. Bias is a signaling property of a bound ligand–receptor complex.",
@@ -452,20 +452,20 @@
     },
     {
       "id": "pharmacology:easy:25",
-      "question": "Which statement about GPCR desensitization is correct?",
+      "question": "Which statement about G protein-coupled receptor desensitization is correct?",
       "options": [
         "A) Drug never leaves the stomach lumen",
-        "B) GRK phosphorylation and β-arrestin recruitment uncouple and internalize GPCRs",
+        "B) G protein-coupled receptor kinase phosphorylation and β-arrestin recruitment uncouple and internalize G protein-coupled receptors",
         "C) Tolerance never develops with continuous patch exposure",
-        "D) GPCRs never desensitize after agonist exposure"
+        "D) G protein-coupled receptors never desensitize after agonist exposure"
       ],
-      "answer": "B) GRK phosphorylation and β-arrestin recruitment uncouple and internalize GPCRs",
-      "explanation": "Acute regulation uses phosphorylation and arrestin-mediated uncoupling. Therefore, the most accurate choice is: GRK phosphorylation and β-arrestin recruitment uncouple and internalize GPCRs. GPCR desensitization is a core physiologic control process.",
+      "answer": "B) G protein-coupled receptor kinase phosphorylation and β-arrestin recruitment uncouple and internalize G protein-coupled receptors",
+      "explanation": "Acute regulation uses phosphorylation and arrestin-mediated uncoupling. Therefore, the most accurate choice is: G protein-coupled receptor kinase phosphorylation and β-arrestin recruitment uncouple and internalize G protein-coupled receptors. G protein-coupled receptor desensitization is a core physiologic control process.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Acute regulation uses phosphorylation and arrestin-mediated uncoupling. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "GPCR desensitization is a core physiologic control process. It is less consistent than the correct choice."
+        "D": "G protein-coupled receptor desensitization is a core physiologic control process. It is less consistent than the correct choice."
       }
     },
     {
@@ -493,10 +493,10 @@
         "A) Means the drug cannot cause adverse effects",
         "B) Direct chemical neutralization of a drug in a syringe before injection",
         "C) Direct ENaC pore blocker without receptor antagonism like amiloride",
-        "D) Opposing physiologic systems counteract effects (e.g., epinephrine vs histamine on bronchi)"
+        "D) Opposing physiologic systems counteract effects (e.g., epinephrine versus histamine on bronchi)"
       ],
-      "answer": "D) Opposing physiologic systems counteract effects (e.g., epinephrine vs histamine on bronchi)",
-      "explanation": "Functional opposition uses different pathways/receptors. Therefore, the most accurate choice is: Opposing physiologic systems counteract effects (e.g., epinephrine vs histamine on bronchi). In-vitro chemical inactivation is chemical antagonism.",
+      "answer": "D) Opposing physiologic systems counteract effects (e.g., epinephrine versus histamine on bronchi)",
+      "explanation": "Functional opposition uses different pathways/receptors. Therefore, the most accurate choice is: Opposing physiologic systems counteract effects (e.g., epinephrine versus histamine on bronchi). In-vitro chemical inactivation is chemical antagonism.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "In-vitro chemical inactivation is chemical antagonism. It is less consistent than the correct choice.",
@@ -524,19 +524,19 @@
     },
     {
       "id": "pharmacology:easy:29",
-      "question": "Which of the following applies to PK antagonism?",
+      "question": "Which of the following applies to pharmacokinetics antagonism?",
       "options": [
-        "A) One drug reduces another’s concentration via ADME changes",
+        "A) One drug reduces another’s concentration via absorption, distribution, metabolism, and excretion changes",
         "B) Competitive occupancy of the same orthosteric receptor site",
         "C) Opposite efficacy at the same receptor without changing levels",
         "D) Reduced levels from faster hepatic metabolism only"
       ],
-      "answer": "A) One drug reduces another’s concentration via ADME changes",
-      "explanation": "Induction or absorption impairment can lower substrate exposure. Therefore, the most accurate choice is: One drug reduces another’s concentration via ADME changes. Opposite receptor efficacy without level change is PD antagonism.",
+      "answer": "A) One drug reduces another’s concentration via absorption, distribution, metabolism, and excretion changes",
+      "explanation": "Induction or absorption impairment can lower substrate exposure. Therefore, the most accurate choice is: One drug reduces another’s concentration via absorption, distribution, metabolism, and excretion changes. Opposite receptor efficacy without level change is pharmacodynamics antagonism.",
       "choice_explanations": {
         "A": "Induction or absorption impairment can lower substrate exposure. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Opposite receptor efficacy without level change is PD antagonism. It is less consistent than the correct choice.",
+        "C": "Opposite receptor efficacy without level change is pharmacodynamics antagonism. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     }
@@ -566,7 +566,7 @@
       "options": [
         "A) Surmountable orthosteric block: right-shift agonist curve with Emax preservable",
         "B) Occupies the orthosteric site without activation (competitive antagonist pattern)",
-        "C) Always flatten Emax without changing EC50",
+        "C) Always flatten Emax without changing half-maximal effective concentration",
         "D) Noncompetitive block that always flattens Emax without potency shift"
       ],
       "answer": "A) Surmountable orthosteric block: right-shift agonist curve with Emax preservable",
@@ -657,15 +657,15 @@
         "A) Synonym of maximal efficacy (Emax) in all contexts",
         "B) Always produces higher Emax than any full agonist at the same system",
         "C) Identical to intrinsic efficacy producing tissue Emax",
-        "D) Concentration or dose needed for a defined effect (e.g., EC50); lower EC50 = more potent"
+        "D) Concentration or dose needed for a defined effect (e.g., half-maximal effective concentration); lower half-maximal effective concentration = more potent"
       ],
-      "answer": "D) Concentration or dose needed for a defined effect (e.g., EC50); lower EC50 = more potent",
-      "explanation": "Potency indexes position along the concentration axis of the DR curve. Therefore, the most accurate choice is: Concentration or dose needed for a defined effect (e.g., EC50); lower EC50 = more potent. A drug can be potent with low Emax or less potent with high Emax.",
+      "answer": "D) Concentration or dose needed for a defined effect (e.g., half-maximal effective concentration); lower half-maximal effective concentration = more potent",
+      "explanation": "Potency indexes position along the concentration axis of the diabetic retinopathy curve. Therefore, the most accurate choice is: Concentration or dose needed for a defined effect (e.g., half-maximal effective concentration); lower half-maximal effective concentration = more potent. A drug can be potent with low Emax or less potent with high Emax.",
       "choice_explanations": {
         "A": "A drug can be potent with low Emax or less potent with high Emax. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Potency indexes position along the concentration axis of the DR curve. This matches the correct interpretation."
+        "D": "Potency indexes position along the concentration axis of the diabetic retinopathy curve. This matches the correct interpretation."
       }
     },
     {
@@ -678,11 +678,11 @@
         "D) All receptors must be occupied to achieve any tissue response"
       ],
       "answer": "A) Ability of a drug–receptor complex to produce a maximal system response (Emax)",
-      "explanation": "Emax reflects stimulus generation and tissue amplification downstream of binding. Therefore, the most accurate choice is: Ability of a drug–receptor complex to produce a maximal system response (Emax). Half-life is a PK parameter, not efficacy.",
+      "explanation": "Emax reflects stimulus generation and tissue amplification downstream of binding. Therefore, the most accurate choice is: Ability of a drug–receptor complex to produce a maximal system response (Emax). Half-life is a pharmacokinetics parameter, not efficacy.",
       "choice_explanations": {
         "A": "Emax reflects stimulus generation and tissue amplification downstream of binding. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Half-life is a PK parameter, not efficacy. It is less consistent than the correct choice.",
+        "C": "Half-life is a pharmacokinetics parameter, not efficacy. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -692,11 +692,11 @@
       "options": [
         "A) Synonym of maximal efficacy (Emax) in all contexts",
         "B) Kidney clears the entire oral dose before absorption as classic first-pass",
-        "C) Ratio relating toxic-dose to effective-dose metrics (e.g., TD50/ED50)",
+        "C) Ratio relating toxic-dose to effective-dose metrics (e.g., median toxic dose/median effective dose)",
         "D) Equal to oral bioavailability percentage F"
       ],
-      "answer": "C) Ratio relating toxic-dose to effective-dose metrics (e.g., TD50/ED50)",
-      "explanation": "TI estimates margin between efficacy and toxicity dose levels. Therefore, the most accurate choice is: Ratio relating toxic-dose to effective-dose metrics (e.g., TD50/ED50). Bioavailability F is an absorption metric, not TI.",
+      "answer": "C) Ratio relating toxic-dose to effective-dose metrics (e.g., median toxic dose/median effective dose)",
+      "explanation": "TI estimates margin between efficacy and toxicity dose levels. Therefore, the most accurate choice is: Ratio relating toxic-dose to effective-dose metrics (e.g., median toxic dose/median effective dose). Bioavailability F is an absorption metric, not TI.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -706,84 +706,84 @@
     },
     {
       "id": "pharmacology:medium:9",
-      "question": "A 46-year-old man takes several medicines and is assessed regarding graded DR curve. Which of the following is most appropriate?",
+      "question": "A 62-year-old man takes several medicines and is assessed regarding graded diabetic retinopathy curve. Which of the following is most appropriate?",
       "options": [
         "A) Plots only the percent of a population showing an all-or-none response",
         "B) Plots intensity of effect versus dose/concentration in a system or individual",
-        "C) Plots continuous mmHg change within one isolated tissue only",
+        "C) Plots continuous millimeters of mercury change within one isolated tissue only",
         "D) Synonym of maximal efficacy (Emax) in all contexts"
       ],
       "answer": "B) Plots intensity of effect versus dose/concentration in a system or individual",
-      "explanation": "Graded curves yield EC50 and Emax for continuous endpoints. Therefore, the most accurate choice is: Plots intensity of effect versus dose/concentration in a system or individual. Population all-or-none fractions define quantal curves.",
+      "explanation": "Graded curves yield half-maximal effective concentration and Emax for continuous endpoints. Therefore, the most accurate choice is: Plots intensity of effect versus dose/concentration in a system or individual. Population all-or-none fractions define quantal curves.",
       "choice_explanations": {
         "A": "Population all-or-none fractions define quantal curves. It is less consistent than the correct choice.",
-        "B": "Graded curves yield EC50 and Emax for continuous endpoints. This matches the correct interpretation.",
+        "B": "Graded curves yield half-maximal effective concentration and Emax for continuous endpoints. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmacology:medium:10",
-      "question": "Medication review raises a question about quantal DR curve. Which of the following is correct?",
+      "question": "Medication review raises a question about quantal diabetic retinopathy curve. Which of the following is correct?",
       "options": [
         "A) Plots only the percent of a population showing an all-or-none response",
         "B) Dose that cures 50% of infections in routine care",
-        "C) Plots continuous mmHg change within one isolated tissue only",
+        "C) Plots continuous millimeters of mercury change within one isolated tissue only",
         "D) Plots fraction of population achieving a defined all-or-none effect versus dose"
       ],
       "answer": "D) Plots fraction of population achieving a defined all-or-none effect versus dose",
-      "explanation": "ED50 from quantal data is the dose effective in 50% of subjects. Therefore, the most accurate choice is: Plots fraction of population achieving a defined all-or-none effect versus dose. Continuous intensity in one preparation is graded, not quantal.",
+      "explanation": "median effective dose from quantal data is the dose effective in 50% of subjects. Therefore, the most accurate choice is: Plots fraction of population achieving a defined all-or-none effect versus dose. Continuous intensity in one preparation is graded, not quantal.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Continuous intensity in one preparation is graded, not quantal. It is less consistent than the correct choice.",
-        "D": "ED50 from quantal data is the dose effective in 50% of subjects. This matches the correct interpretation."
+        "D": "median effective dose from quantal data is the dose effective in 50% of subjects. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmacology:medium:11",
-      "question": "A 34-year-old woman develops an adverse effect related to ED50. Which of the following best explains it?",
+      "question": "A 50-year-old woman develops an adverse effect related to median effective dose. Which of the following best explains it?",
       "options": [
         "A) Median effective dose for a specified endpoint (population or 50% Emax context)",
         "B) Identical to plasma half-life",
         "C) Dose that cures 50% of infections in routine care",
-        "D) Always identical to LD50"
+        "D) Always identical to median lethal dose"
       ],
       "answer": "A) Median effective dose for a specified endpoint (population or 50% Emax context)",
-      "explanation": "ED50 indexes effectiveness, not lethality. Therefore, the most accurate choice is: Median effective dose for a specified endpoint (population or 50% Emax context). LD50 is a lethality benchmark.",
+      "explanation": "median effective dose indexes effectiveness, not lethality. Therefore, the most accurate choice is: Median effective dose for a specified endpoint (population or 50% Emax context). median lethal dose is a lethality benchmark.",
       "choice_explanations": {
-        "A": "ED50 indexes effectiveness, not lethality. This matches the correct interpretation.",
+        "A": "median effective dose indexes effectiveness, not lethality. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "LD50 is a lethality benchmark. It is less consistent than the correct choice."
+        "D": "median lethal dose is a lethality benchmark. It is less consistent than the correct choice."
       }
     },
     {
       "id": "pharmacology:medium:12",
-      "question": "A 41-year-old man needs counseling about LD50. Which of the following is most appropriate?",
+      "question": "A 57-year-old man needs counseling about median lethal dose. Which of the following is most appropriate?",
       "options": [
         "A) Dose lethal to 50% of a defined test population under stated conditions",
-        "B) Always identical to LD50",
+        "B) Always identical to median lethal dose",
         "C) Dose that cures 50% of infections in routine care",
         "D) Plots only the percent of a population showing an all-or-none response"
       ],
       "answer": "A) Dose lethal to 50% of a defined test population under stated conditions",
-      "explanation": "LD50 is an acute toxicity reference point. Therefore, the most accurate choice is: Dose lethal to 50% of a defined test population under stated conditions. Cure rates are efficacy endpoints, not LD50.",
+      "explanation": "median lethal dose is an acute toxicity reference point. Therefore, the most accurate choice is: Dose lethal to 50% of a defined test population under stated conditions. Cure rates are efficacy endpoints, not median lethal dose.",
       "choice_explanations": {
-        "A": "LD50 is an acute toxicity reference point. This matches the correct interpretation.",
+        "A": "median lethal dose is an acute toxicity reference point. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Cure rates are efficacy endpoints, not LD50. It is less consistent than the correct choice.",
+        "C": "Cure rates are efficacy endpoints, not median lethal dose. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmacology:medium:13",
-      "question": "Which explanation of PD tolerance is most accurate?",
+      "question": "Which explanation of peritoneal dialysis tolerance is most accurate?",
       "options": [
         "A) Opposite efficacy at the same receptor without changing levels",
         "B) Reduced response at the same concentration from receptor/pathway adaptation",
         "C) Reduced levels from faster hepatic metabolism only",
-        "D) Receptor downregulation with unchanged plasma levels as the definition of PK tolerance"
+        "D) Receptor downregulation with unchanged plasma levels as the definition of pharmacokinetics tolerance"
       ],
       "answer": "B) Reduced response at the same concentration from receptor/pathway adaptation",
       "explanation": "Desensitization/downregulation/adaptation lower effect despite stable exposure. Therefore, the most accurate choice is: Reduced response at the same concentration from receptor/pathway adaptation. Faster metabolism is pharmacokinetic tolerance.",
@@ -796,30 +796,30 @@
     },
     {
       "id": "pharmacology:medium:14",
-      "question": "Which of the following applies to PK tolerance in standard therapeutics?",
+      "question": "Which of the following applies to pharmacokinetics tolerance in standard therapeutics?",
       "options": [
-        "A) Receptor downregulation with unchanged plasma levels as the definition of PK tolerance",
+        "A) Receptor downregulation with unchanged plasma levels as the definition of pharmacokinetics tolerance",
         "B) Reduced levels from faster hepatic metabolism only",
         "C) Opposite efficacy at the same receptor without changing levels",
         "D) Reduced effect because exposure falls (e.g., autoinduction increasing clearance)"
       ],
       "answer": "D) Reduced effect because exposure falls (e.g., autoinduction increasing clearance)",
-      "explanation": "Induction or other ADME changes lower concentration at the target. Therefore, the most accurate choice is: Reduced effect because exposure falls (e.g., autoinduction increasing clearance). Receptor adaptation with stable levels is PD tolerance.",
+      "explanation": "Induction or other absorption, distribution, metabolism, and excretion changes lower concentration at the target. Therefore, the most accurate choice is: Reduced effect because exposure falls (e.g., autoinduction increasing clearance). Receptor adaptation with stable levels is pharmacodynamics tolerance.",
       "choice_explanations": {
-        "A": "Receptor adaptation with stable levels is PD tolerance. It is less consistent than the correct choice.",
+        "A": "Receptor adaptation with stable levels is pharmacodynamics tolerance. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Induction or other ADME changes lower concentration at the target. This matches the correct interpretation."
+        "D": "Induction or other absorption, distribution, metabolism, and excretion changes lower concentration at the target. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmacology:medium:15",
-      "question": "A 46-year-old man has lab changes linked to tachyphylaxis. Which of the following is correct?",
+      "question": "A 62-year-old man has lab changes linked to tachyphylaxis. Which of the following is correct?",
       "options": [
         "A) Plots only the percent of a population showing an all-or-none response",
         "B) Gradual loss of effect over months from enzyme induction alone",
         "C) Rapid diminution of response after closely spaced repeated doses",
-        "D) Inhibits cell-wall PBPs without enzyme induction"
+        "D) Inhibits cell-wall penicillin-binding proteins without enzyme induction"
       ],
       "answer": "C) Rapid diminution of response after closely spaced repeated doses",
       "explanation": "Acute desensitization occurs over minutes to hours in classic tachyphylaxis. Therefore, the most accurate choice is: Rapid diminution of response after closely spaced repeated doses. Chronic metabolic tolerance is a longer timescale phenomenon.",
@@ -835,7 +835,7 @@
       "question": "Which of the following correctly describes downregulation in clinical use?",
       "options": [
         "A) Chronic antagonists never alter receptor expression",
-        "B) Receptor downregulation with unchanged plasma levels as the definition of PK tolerance",
+        "B) Receptor downregulation with unchanged plasma levels as the definition of pharmacokinetics tolerance",
         "C) Chronic agonists always increase receptor density without limit",
         "D) Chronic agonist exposure decreases receptor number or responsiveness"
       ],
@@ -868,37 +868,37 @@
     },
     {
       "id": "pharmacology:medium:18",
-      "question": "A 46-year-old man has findings requiring interpretation of gs signaling. Which of the following is correct?",
+      "question": "A 62-year-old man has findings requiring interpretation of gs signaling. Which of the following is correct?",
       "options": [
-        "A) Gi always stimulates adenylyl cyclase like Gs",
-        "B) Gs inhibits adenylyl cyclase and lowers cAMP as its defining cascade",
-        "C) Gq primarily inhibits adenylyl cyclase to lower cAMP",
-        "D) Gs stimulates adenylyl cyclase, raising cAMP and activating PKA"
+        "A) inhibitory G protein always stimulates adenylyl cyclase like stimulatory G protein",
+        "B) stimulatory G protein inhibits adenylyl cyclase and lowers cAMP as its defining cascade",
+        "C) Gq protein protein primarily inhibits adenylyl cyclase to lower cAMP",
+        "D) stimulatory G protein stimulates adenylyl cyclase, raising cAMP and activating protein kinase A"
       ],
-      "answer": "D) Gs stimulates adenylyl cyclase, raising cAMP and activating PKA",
-      "explanation": "Gs–AC–cAMP–PKA is the canonical stimulatory GPCR path. Therefore, the most accurate choice is: Gs stimulates adenylyl cyclase, raising cAMP and activating PKA. Gi lowers cAMP; Gs raises it.",
+      "answer": "D) stimulatory G protein stimulates adenylyl cyclase, raising cAMP and activating protein kinase A",
+      "explanation": "stimulatory G protein–anterior chamber–cAMP–protein kinase A is the canonical stimulatory G protein-coupled receptor path. Therefore, the most accurate choice is: stimulatory G protein stimulates adenylyl cyclase, raising cAMP and activating protein kinase A. inhibitory G protein lowers cAMP; stimulatory G protein raises it.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Gi lowers cAMP; Gs raises it. It is less consistent than the correct choice.",
+        "B": "inhibitory G protein lowers cAMP; stimulatory G protein raises it. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Gs–AC–cAMP–PKA is the canonical stimulatory GPCR path. This matches the correct interpretation."
+        "D": "stimulatory G protein–anterior chamber–cAMP–protein kinase A is the canonical stimulatory G protein-coupled receptor path. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmacology:medium:19",
-      "question": "In a 53-year-old woman, which statement about gi signaling is correct?",
+      "question": "In a 69-year-old woman, which statement about gi signaling is correct?",
       "options": [
-        "A) Gq primarily inhibits adenylyl cyclase to lower cAMP",
-        "B) Gi always stimulates adenylyl cyclase like Gs",
-        "C) Gi inhibits adenylyl cyclase, decreasing cAMP-dependent signaling",
-        "D) Gs inhibits adenylyl cyclase and lowers cAMP as its defining cascade"
+        "A) Gq protein protein primarily inhibits adenylyl cyclase to lower cAMP",
+        "B) inhibitory G protein always stimulates adenylyl cyclase like stimulatory G protein",
+        "C) inhibitory G protein inhibits adenylyl cyclase, decreasing cAMP-dependent signaling",
+        "D) stimulatory G protein inhibits adenylyl cyclase and lowers cAMP as its defining cascade"
       ],
-      "answer": "C) Gi inhibits adenylyl cyclase, decreasing cAMP-dependent signaling",
-      "explanation": "Inhibitory GPCRs dampen cAMP via Gi/o. Therefore, the most accurate choice is: Gi inhibits adenylyl cyclase, decreasing cAMP-dependent signaling. AC stimulation is Gs, not Gi.",
+      "answer": "C) inhibitory G protein inhibits adenylyl cyclase, decreasing cAMP-dependent signaling",
+      "explanation": "Inhibitory G protein-coupled receptors dampen cAMP via inhibitory G protein/o. Therefore, the most accurate choice is: inhibitory G protein inhibits adenylyl cyclase, decreasing cAMP-dependent signaling. anterior chamber stimulation is stimulatory G protein, not inhibitory G protein.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "AC stimulation is Gs, not Gi. It is less consistent than the correct choice.",
-        "C": "Inhibitory GPCRs dampen cAMP via Gi/o. This matches the correct interpretation.",
+        "B": "anterior chamber stimulation is stimulatory G protein, not inhibitory G protein. It is less consistent than the correct choice.",
+        "C": "Inhibitory G protein-coupled receptors dampen cAMP via inhibitory G protein/o. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -906,16 +906,16 @@
       "id": "pharmacology:medium:20",
       "question": "Clinical testing related to gq signaling is performed. Which of the following is correct?",
       "options": [
-        "A) Gq primarily inhibits adenylyl cyclase to lower cAMP",
-        "B) Gq activates PLC generating IP3/DAG, raising Ca2+ and activating PKC",
-        "C) Gi always stimulates adenylyl cyclase like Gs",
-        "D) Gs inhibits adenylyl cyclase and lowers cAMP as its defining cascade"
+        "A) Gq protein protein primarily inhibits adenylyl cyclase to lower cAMP",
+        "B) Gq protein protein activates phospholipase C generating inositol trisphosphate/diacylglycerol, raising Ca2+ and activating protein kinase C",
+        "C) inhibitory G protein always stimulates adenylyl cyclase like stimulatory G protein",
+        "D) stimulatory G protein inhibits adenylyl cyclase and lowers cAMP as its defining cascade"
       ],
-      "answer": "B) Gq activates PLC generating IP3/DAG, raising Ca2+ and activating PKC",
-      "explanation": "PLC cleavage of PIP2 is the Gq hallmark cascade. Therefore, the most accurate choice is: Gq activates PLC generating IP3/DAG, raising Ca2+ and activating PKC. AC inhibition is the Gi cascade, not Gq.",
+      "answer": "B) Gq protein protein activates phospholipase C generating inositol trisphosphate/diacylglycerol, raising Ca2+ and activating protein kinase C",
+      "explanation": "phospholipase C cleavage of PIP2 is the Gq protein protein hallmark cascade. Therefore, the most accurate choice is: Gq protein protein activates phospholipase C generating inositol trisphosphate/diacylglycerol, raising Ca2+ and activating protein kinase C. anterior chamber inhibition is the inhibitory G protein cascade, not Gq protein protein.",
       "choice_explanations": {
-        "A": "AC inhibition is the Gi cascade, not Gq. It is less consistent than the correct choice.",
-        "B": "PLC cleavage of PIP2 is the Gq hallmark cascade. This matches the correct interpretation.",
+        "A": "anterior chamber inhibition is the inhibitory G protein cascade, not Gq protein protein. It is less consistent than the correct choice.",
+        "B": "phospholipase C cleavage of PIP2 is the Gq protein protein hallmark cascade. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -925,12 +925,12 @@
       "question": "Which explanation of ligand-gated example is most accurate?",
       "options": [
         "A) Nuclear steroid receptor that activates transcription",
-        "B) Nicotinic ACh receptor is a ligand-gated ion channel for fast synaptic transmission",
-        "C) Nicotinic ACh receptor is exclusively a nuclear transcription factor",
+        "B) Nicotinic acetylcholine receptor is a ligand-gated ion channel for fast synaptic transmission",
+        "C) Nicotinic acetylcholine receptor is exclusively a nuclear transcription factor",
         "D) Glucocorticoid receptor is a neuromuscular ligand-gated sodium channel"
       ],
-      "answer": "B) Nicotinic ACh receptor is a ligand-gated ion channel for fast synaptic transmission",
-      "explanation": "nAChRs are pentameric cation channels opened by agonist binding. Therefore, the most accurate choice is: Nicotinic ACh receptor is a ligand-gated ion channel for fast synaptic transmission. Nuclear receptors regulate transcription; nAChR does not.",
+      "answer": "B) Nicotinic acetylcholine receptor is a ligand-gated ion channel for fast synaptic transmission",
+      "explanation": "nAChRs are pentameric cation channels opened by agonist binding. Therefore, the most accurate choice is: Nicotinic acetylcholine receptor is a ligand-gated ion channel for fast synaptic transmission. Nuclear receptors regulate transcription; nAChR does not.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "nAChRs are pentameric cation channels opened by agonist binding. This matches the correct interpretation.",
@@ -942,7 +942,7 @@
       "id": "pharmacology:medium:22",
       "question": "Which of the following applies to nuclear receptor example in standard therapeutics?",
       "options": [
-        "A) Nicotinic ACh receptor is exclusively a nuclear transcription factor",
+        "A) Nicotinic acetylcholine receptor is exclusively a nuclear transcription factor",
         "B) Nuclear steroid receptor that activates transcription",
         "C) Glucocorticoid receptor acts as a ligand-activated transcription factor",
         "D) Glucocorticoid receptor is a neuromuscular ligand-gated sodium channel"
@@ -958,19 +958,19 @@
     },
     {
       "id": "pharmacology:medium:23",
-      "question": "Which statement best defines RTK example?",
+      "question": "Which statement best defines receptor tyrosine kinase example?",
       "options": [
         "A) Glucocorticoid receptor is a neuromuscular ligand-gated sodium channel",
-        "B) Insulin receptor is only a Gi-coupled seven-transmembrane GPCR",
-        "C) Insulin receptor autophosphorylates on tyrosine and engages IRS/PI3K and MAPK paths",
-        "D) Nicotinic ACh receptor is exclusively a nuclear transcription factor"
+        "B) Insulin receptor is only a Gi-coupled seven-transmembrane G protein-coupled receptor",
+        "C) Insulin receptor autophosphorylates on tyrosine and engages insulin receptor substrate/PI3K and mitogen-activated protein kinase paths",
+        "D) Nicotinic acetylcholine receptor is exclusively a nuclear transcription factor"
       ],
-      "answer": "C) Insulin receptor autophosphorylates on tyrosine and engages IRS/PI3K and MAPK paths",
-      "explanation": "RTK dimerization and autophosphorylation initiate insulin signaling. Therefore, the most accurate choice is: Insulin receptor autophosphorylates on tyrosine and engages IRS/PI3K and MAPK paths. Insulin signaling is RTK-based, not classic Gi GPCR signaling.",
+      "answer": "C) Insulin receptor autophosphorylates on tyrosine and engages insulin receptor substrate/PI3K and mitogen-activated protein kinase paths",
+      "explanation": "receptor tyrosine kinase dimerization and autophosphorylation initiate insulin signaling. Therefore, the most accurate choice is: Insulin receptor autophosphorylates on tyrosine and engages insulin receptor substrate/PI3K and mitogen-activated protein kinase paths. Insulin signaling is RTK-based, not classic inhibitory G protein G protein-coupled receptor signaling.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Insulin signaling is RTK-based, not classic Gi GPCR signaling. It is less consistent than the correct choice.",
-        "C": "RTK dimerization and autophosphorylation initiate insulin signaling. This matches the correct interpretation.",
+        "B": "Insulin signaling is RTK-based, not classic inhibitory G protein G protein-coupled receptor signaling. It is less consistent than the correct choice.",
+        "C": "receptor tyrosine kinase dimerization and autophosphorylation initiate insulin signaling. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -994,19 +994,19 @@
     },
     {
       "id": "pharmacology:medium:25",
-      "question": "During a pharmacology discussion of GPCR desensitization, which statement is correct?",
+      "question": "During a pharmacology discussion of G protein-coupled receptor desensitization, which statement is correct?",
       "options": [
         "A) Drug never leaves the stomach lumen",
-        "B) GRK phosphorylation and β-arrestin recruitment uncouple and internalize GPCRs",
-        "C) GPCRs never desensitize after agonist exposure",
+        "B) G protein-coupled receptor kinase phosphorylation and β-arrestin recruitment uncouple and internalize G protein-coupled receptors",
+        "C) G protein-coupled receptors never desensitize after agonist exposure",
         "D) Tolerance never develops with continuous patch exposure"
       ],
-      "answer": "B) GRK phosphorylation and β-arrestin recruitment uncouple and internalize GPCRs",
-      "explanation": "Acute regulation uses phosphorylation and arrestin-mediated uncoupling. Therefore, the most accurate choice is: GRK phosphorylation and β-arrestin recruitment uncouple and internalize GPCRs. GPCR desensitization is a core physiologic control process.",
+      "answer": "B) G protein-coupled receptor kinase phosphorylation and β-arrestin recruitment uncouple and internalize G protein-coupled receptors",
+      "explanation": "Acute regulation uses phosphorylation and arrestin-mediated uncoupling. Therefore, the most accurate choice is: G protein-coupled receptor kinase phosphorylation and β-arrestin recruitment uncouple and internalize G protein-coupled receptors. G protein-coupled receptor desensitization is a core physiologic control process.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Acute regulation uses phosphorylation and arrestin-mediated uncoupling. This matches the correct interpretation.",
-        "C": "GPCR desensitization is a core physiologic control process. It is less consistent than the correct choice.",
+        "C": "G protein-coupled receptor desensitization is a core physiologic control process. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -1034,11 +1034,11 @@
       "options": [
         "A) Ignores clearance and uses only taste of the medicine",
         "B) Direct chemical neutralization of a drug in a syringe before injection",
-        "C) Opposing physiologic systems counteract effects (e.g., epinephrine vs histamine on bronchi)",
+        "C) Opposing physiologic systems counteract effects (e.g., epinephrine versus histamine on bronchi)",
         "D) Means the drug cannot cause adverse effects"
       ],
-      "answer": "C) Opposing physiologic systems counteract effects (e.g., epinephrine vs histamine on bronchi)",
-      "explanation": "Functional opposition uses different pathways/receptors. Therefore, the most accurate choice is: Opposing physiologic systems counteract effects (e.g., epinephrine vs histamine on bronchi). In-vitro chemical inactivation is chemical antagonism.",
+      "answer": "C) Opposing physiologic systems counteract effects (e.g., epinephrine versus histamine on bronchi)",
+      "explanation": "Functional opposition uses different pathways/receptors. Therefore, the most accurate choice is: Opposing physiologic systems counteract effects (e.g., epinephrine versus histamine on bronchi). In-vitro chemical inactivation is chemical antagonism.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "In-vitro chemical inactivation is chemical antagonism. It is less consistent than the correct choice.",
@@ -1066,20 +1066,20 @@
     },
     {
       "id": "pharmacology:medium:29",
-      "question": "Which explanation of PK antagonism is most accurate?",
+      "question": "Which explanation of pharmacokinetics antagonism is most accurate?",
       "options": [
         "A) Competitive occupancy of the same orthosteric receptor site",
         "B) Always raises substrate levels by blocking metabolism",
-        "C) One drug reduces another’s concentration via ADME changes",
+        "C) One drug reduces another’s concentration via absorption, distribution, metabolism, and excretion changes",
         "D) Opposite efficacy at the same receptor without changing levels"
       ],
-      "answer": "C) One drug reduces another’s concentration via ADME changes",
-      "explanation": "Induction or absorption impairment can lower substrate exposure. Therefore, the most accurate choice is: One drug reduces another’s concentration via ADME changes. Opposite receptor efficacy without level change is PD antagonism.",
+      "answer": "C) One drug reduces another’s concentration via absorption, distribution, metabolism, and excretion changes",
+      "explanation": "Induction or absorption impairment can lower substrate exposure. Therefore, the most accurate choice is: One drug reduces another’s concentration via absorption, distribution, metabolism, and excretion changes. Opposite receptor efficacy without level change is pharmacodynamics antagonism.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Induction or absorption impairment can lower substrate exposure. This matches the correct interpretation.",
-        "D": "Opposite receptor efficacy without level change is PD antagonism. It is less consistent than the correct choice."
+        "D": "Opposite receptor efficacy without level change is pharmacodynamics antagonism. It is less consistent than the correct choice."
       }
     }
   ],
@@ -1107,7 +1107,7 @@
       "question": "Two similar explanations for competitive antagonist are compared. Which of the following is correct?",
       "options": [
         "A) Noncompetitive block that always flattens Emax without potency shift",
-        "B) Always flatten Emax without changing EC50",
+        "B) Always flatten Emax without changing half-maximal effective concentration",
         "C) Surmountable orthosteric block: right-shift agonist curve with Emax preservable",
         "D) Occupies the orthosteric site without activation (competitive antagonist pattern)"
       ],
@@ -1202,9 +1202,9 @@
         "D) Ability of a drug–receptor complex to produce a maximal system response (Emax)"
       ],
       "answer": "D) Ability of a drug–receptor complex to produce a maximal system response (Emax)",
-      "explanation": "Emax reflects stimulus generation and tissue amplification downstream of binding. Therefore, the most accurate choice is: Ability of a drug–receptor complex to produce a maximal system response (Emax). Half-life is a PK parameter, not efficacy.",
+      "explanation": "Emax reflects stimulus generation and tissue amplification downstream of binding. Therefore, the most accurate choice is: Ability of a drug–receptor complex to produce a maximal system response (Emax). Half-life is a pharmacokinetics parameter, not efficacy.",
       "choice_explanations": {
-        "A": "Half-life is a PK parameter, not efficacy. It is less consistent than the correct choice.",
+        "A": "Half-life is a pharmacokinetics parameter, not efficacy. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Emax reflects stimulus generation and tissue amplification downstream of binding. This matches the correct interpretation."
@@ -1214,13 +1214,13 @@
       "id": "pharmacology:hard:7",
       "question": "Careful review of therapeutic index is required. Which of the following is most accurate?",
       "options": [
-        "A) Ratio relating toxic-dose to effective-dose metrics (e.g., TD50/ED50)",
+        "A) Ratio relating toxic-dose to effective-dose metrics (e.g., median toxic dose/median effective dose)",
         "B) Equal to oral bioavailability percentage F",
         "C) Kidney clears the entire oral dose before absorption as classic first-pass",
         "D) Synonym of maximal efficacy (Emax) in all contexts"
       ],
-      "answer": "A) Ratio relating toxic-dose to effective-dose metrics (e.g., TD50/ED50)",
-      "explanation": "TI estimates margin between efficacy and toxicity dose levels. Therefore, the most accurate choice is: Ratio relating toxic-dose to effective-dose metrics (e.g., TD50/ED50). Bioavailability F is an absorption metric, not TI.",
+      "answer": "A) Ratio relating toxic-dose to effective-dose metrics (e.g., median toxic dose/median effective dose)",
+      "explanation": "TI estimates margin between efficacy and toxicity dose levels. Therefore, the most accurate choice is: Ratio relating toxic-dose to effective-dose metrics (e.g., median toxic dose/median effective dose). Bioavailability F is an absorption metric, not TI.",
       "choice_explanations": {
         "A": "TI estimates margin between efficacy and toxicity dose levels. This matches the correct interpretation.",
         "B": "Bioavailability F is an absorption metric, not TI. It is less consistent than the correct choice.",
@@ -1230,17 +1230,17 @@
     },
     {
       "id": "pharmacology:hard:8",
-      "question": "Two similar explanations for graded DR curve are compared. Which of the following is correct?",
+      "question": "Two similar explanations for graded diabetic retinopathy curve are compared. Which of the following is correct?",
       "options": [
         "A) Plots intensity of effect versus dose/concentration in a system or individual",
         "B) Synonym of maximal efficacy (Emax) in all contexts",
         "C) Plots only the percent of a population showing an all-or-none response",
-        "D) Plots continuous mmHg change within one isolated tissue only"
+        "D) Plots continuous millimeters of mercury change within one isolated tissue only"
       ],
       "answer": "A) Plots intensity of effect versus dose/concentration in a system or individual",
-      "explanation": "Graded curves yield EC50 and Emax for continuous endpoints. Therefore, the most accurate choice is: Plots intensity of effect versus dose/concentration in a system or individual. Population all-or-none fractions define quantal curves.",
+      "explanation": "Graded curves yield half-maximal effective concentration and Emax for continuous endpoints. Therefore, the most accurate choice is: Plots intensity of effect versus dose/concentration in a system or individual. Population all-or-none fractions define quantal curves.",
       "choice_explanations": {
-        "A": "Graded curves yield EC50 and Emax for continuous endpoints. This matches the correct interpretation.",
+        "A": "Graded curves yield half-maximal effective concentration and Emax for continuous endpoints. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Population all-or-none fractions define quantal curves. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1248,65 +1248,65 @@
     },
     {
       "id": "pharmacology:hard:9",
-      "question": "In a detailed discussion of quantal DR curve, which of the following is most accurate?",
+      "question": "In a detailed discussion of quantal diabetic retinopathy curve, which of the following is most accurate?",
       "options": [
         "A) Dose that cures 50% of infections in routine care",
-        "B) Plots continuous mmHg change within one isolated tissue only",
+        "B) Plots continuous millimeters of mercury change within one isolated tissue only",
         "C) Plots fraction of population achieving a defined all-or-none effect versus dose",
         "D) Plots only the percent of a population showing an all-or-none response"
       ],
       "answer": "C) Plots fraction of population achieving a defined all-or-none effect versus dose",
-      "explanation": "ED50 from quantal data is the dose effective in 50% of subjects. Therefore, the most accurate choice is: Plots fraction of population achieving a defined all-or-none effect versus dose. Continuous intensity in one preparation is graded, not quantal.",
+      "explanation": "median effective dose from quantal data is the dose effective in 50% of subjects. Therefore, the most accurate choice is: Plots fraction of population achieving a defined all-or-none effect versus dose. Continuous intensity in one preparation is graded, not quantal.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Continuous intensity in one preparation is graded, not quantal. It is less consistent than the correct choice.",
-        "C": "ED50 from quantal data is the dose effective in 50% of subjects. This matches the correct interpretation.",
+        "C": "median effective dose from quantal data is the dose effective in 50% of subjects. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmacology:hard:10",
-      "question": "Which of the following correctly distinguishes key points about ED50?",
+      "question": "Which of the following correctly distinguishes key points about median effective dose?",
       "options": [
-        "A) Always identical to LD50",
+        "A) Always identical to median lethal dose",
         "B) Plots only the percent of a population showing an all-or-none response",
         "C) Median effective dose for a specified endpoint (population or 50% Emax context)",
         "D) Dose that cures 50% of infections in routine care"
       ],
       "answer": "C) Median effective dose for a specified endpoint (population or 50% Emax context)",
-      "explanation": "ED50 indexes effectiveness, not lethality. Therefore, the most accurate choice is: Median effective dose for a specified endpoint (population or 50% Emax context). LD50 is a lethality benchmark.",
+      "explanation": "median effective dose indexes effectiveness, not lethality. Therefore, the most accurate choice is: Median effective dose for a specified endpoint (population or 50% Emax context). median lethal dose is a lethality benchmark.",
       "choice_explanations": {
-        "A": "LD50 is a lethality benchmark. It is less consistent than the correct choice.",
+        "A": "median lethal dose is a lethality benchmark. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "ED50 indexes effectiveness, not lethality. This matches the correct interpretation.",
+        "C": "median effective dose indexes effectiveness, not lethality. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmacology:hard:11",
-      "question": "Careful interpretation of LD50 is required. Which of the following is correct?",
+      "question": "Careful interpretation of median lethal dose is required. Which of the following is correct?",
       "options": [
         "A) Dose that cures 50% of infections in routine care",
-        "B) Always identical to LD50",
+        "B) Always identical to median lethal dose",
         "C) Plots only the percent of a population showing an all-or-none response",
         "D) Dose lethal to 50% of a defined test population under stated conditions"
       ],
       "answer": "D) Dose lethal to 50% of a defined test population under stated conditions",
-      "explanation": "LD50 is an acute toxicity reference point. Therefore, the most accurate choice is: Dose lethal to 50% of a defined test population under stated conditions. Cure rates are efficacy endpoints, not LD50.",
+      "explanation": "median lethal dose is an acute toxicity reference point. Therefore, the most accurate choice is: Dose lethal to 50% of a defined test population under stated conditions. Cure rates are efficacy endpoints, not median lethal dose.",
       "choice_explanations": {
-        "A": "Cure rates are efficacy endpoints, not LD50. It is less consistent than the correct choice.",
+        "A": "Cure rates are efficacy endpoints, not median lethal dose. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "LD50 is an acute toxicity reference point. This matches the correct interpretation."
+        "D": "median lethal dose is an acute toxicity reference point. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmacology:hard:12",
-      "question": "Which statement about PD tolerance is most accurate?",
+      "question": "Which statement about peritoneal dialysis tolerance is most accurate?",
       "options": [
         "A) Opposite efficacy at the same receptor without changing levels",
         "B) Reduced levels from faster hepatic metabolism only",
-        "C) Receptor downregulation with unchanged plasma levels as the definition of PK tolerance",
+        "C) Receptor downregulation with unchanged plasma levels as the definition of pharmacokinetics tolerance",
         "D) Reduced response at the same concentration from receptor/pathway adaptation"
       ],
       "answer": "D) Reduced response at the same concentration from receptor/pathway adaptation",
@@ -1322,10 +1322,10 @@
       "id": "pharmacology:hard:13",
       "question": "Which of the following is the best statement about tachyphylaxis?",
       "options": [
-        "A) Means only CYP3A4 induction altering concentrations",
+        "A) Means only cytochrome P450 3A4 induction altering concentrations",
         "B) Rapid diminution of response after closely spaced repeated doses",
         "C) Gradual loss of effect over months from enzyme induction alone",
-        "D) Inhibits cell-wall PBPs without enzyme induction"
+        "D) Inhibits cell-wall penicillin-binding proteins without enzyme induction"
       ],
       "answer": "B) Rapid diminution of response after closely spaced repeated doses",
       "explanation": "Acute desensitization occurs over minutes to hours in classic tachyphylaxis. Therefore, the most accurate choice is: Rapid diminution of response after closely spaced repeated doses. Chronic metabolic tolerance is a longer timescale phenomenon.",
@@ -1342,7 +1342,7 @@
       "options": [
         "A) Chronic agonist exposure decreases receptor number or responsiveness",
         "B) Chronic agonists always increase receptor density without limit",
-        "C) Receptor downregulation with unchanged plasma levels as the definition of PK tolerance",
+        "C) Receptor downregulation with unchanged plasma levels as the definition of pharmacokinetics tolerance",
         "D) Chronic antagonists never alter receptor expression"
       ],
       "answer": "A) Chronic agonist exposure decreases receptor number or responsiveness",
@@ -1376,67 +1376,67 @@
       "id": "pharmacology:hard:16",
       "question": "In a detailed discussion of gs signaling, which of the following is most accurate?",
       "options": [
-        "A) Gs inhibits adenylyl cyclase and lowers cAMP as its defining cascade",
-        "B) Gi always stimulates adenylyl cyclase like Gs",
-        "C) Gq primarily inhibits adenylyl cyclase to lower cAMP",
-        "D) Gs stimulates adenylyl cyclase, raising cAMP and activating PKA"
+        "A) stimulatory G protein inhibits adenylyl cyclase and lowers cAMP as its defining cascade",
+        "B) inhibitory G protein always stimulates adenylyl cyclase like stimulatory G protein",
+        "C) Gq protein protein primarily inhibits adenylyl cyclase to lower cAMP",
+        "D) stimulatory G protein stimulates adenylyl cyclase, raising cAMP and activating protein kinase A"
       ],
-      "answer": "D) Gs stimulates adenylyl cyclase, raising cAMP and activating PKA",
-      "explanation": "Gs–AC–cAMP–PKA is the canonical stimulatory GPCR path. Therefore, the most accurate choice is: Gs stimulates adenylyl cyclase, raising cAMP and activating PKA. Gi lowers cAMP; Gs raises it.",
+      "answer": "D) stimulatory G protein stimulates adenylyl cyclase, raising cAMP and activating protein kinase A",
+      "explanation": "stimulatory G protein–anterior chamber–cAMP–protein kinase A is the canonical stimulatory G protein-coupled receptor path. Therefore, the most accurate choice is: stimulatory G protein stimulates adenylyl cyclase, raising cAMP and activating protein kinase A. inhibitory G protein lowers cAMP; stimulatory G protein raises it.",
       "choice_explanations": {
-        "A": "Gi lowers cAMP; Gs raises it. It is less consistent than the correct choice.",
+        "A": "inhibitory G protein lowers cAMP; stimulatory G protein raises it. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Gs–AC–cAMP–PKA is the canonical stimulatory GPCR path. This matches the correct interpretation."
+        "D": "stimulatory G protein–anterior chamber–cAMP–protein kinase A is the canonical stimulatory G protein-coupled receptor path. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmacology:hard:17",
       "question": "Which of the following correctly distinguishes key points about gi signaling?",
       "options": [
-        "A) Gi inhibits adenylyl cyclase, decreasing cAMP-dependent signaling",
-        "B) Gq primarily inhibits adenylyl cyclase to lower cAMP",
-        "C) Gs inhibits adenylyl cyclase and lowers cAMP as its defining cascade",
-        "D) Gi always stimulates adenylyl cyclase like Gs"
+        "A) inhibitory G protein inhibits adenylyl cyclase, decreasing cAMP-dependent signaling",
+        "B) Gq protein protein primarily inhibits adenylyl cyclase to lower cAMP",
+        "C) stimulatory G protein inhibits adenylyl cyclase and lowers cAMP as its defining cascade",
+        "D) inhibitory G protein always stimulates adenylyl cyclase like stimulatory G protein"
       ],
-      "answer": "A) Gi inhibits adenylyl cyclase, decreasing cAMP-dependent signaling",
-      "explanation": "Inhibitory GPCRs dampen cAMP via Gi/o. Therefore, the most accurate choice is: Gi inhibits adenylyl cyclase, decreasing cAMP-dependent signaling. AC stimulation is Gs, not Gi.",
+      "answer": "A) inhibitory G protein inhibits adenylyl cyclase, decreasing cAMP-dependent signaling",
+      "explanation": "Inhibitory G protein-coupled receptors dampen cAMP via inhibitory G protein/o. Therefore, the most accurate choice is: inhibitory G protein inhibits adenylyl cyclase, decreasing cAMP-dependent signaling. anterior chamber stimulation is stimulatory G protein, not inhibitory G protein.",
       "choice_explanations": {
-        "A": "Inhibitory GPCRs dampen cAMP via Gi/o. This matches the correct interpretation.",
+        "A": "Inhibitory G protein-coupled receptors dampen cAMP via inhibitory G protein/o. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "AC stimulation is Gs, not Gi. It is less consistent than the correct choice."
+        "D": "anterior chamber stimulation is stimulatory G protein, not inhibitory G protein. It is less consistent than the correct choice."
       }
     },
     {
       "id": "pharmacology:hard:18",
       "question": "Careful interpretation of gq signaling is required. Which of the following is correct?",
       "options": [
-        "A) Gi always stimulates adenylyl cyclase like Gs",
-        "B) Gs inhibits adenylyl cyclase and lowers cAMP as its defining cascade",
-        "C) Gq activates PLC generating IP3/DAG, raising Ca2+ and activating PKC",
-        "D) Gq primarily inhibits adenylyl cyclase to lower cAMP"
+        "A) inhibitory G protein always stimulates adenylyl cyclase like stimulatory G protein",
+        "B) stimulatory G protein inhibits adenylyl cyclase and lowers cAMP as its defining cascade",
+        "C) Gq protein protein activates phospholipase C generating inositol trisphosphate/diacylglycerol, raising Ca2+ and activating protein kinase C",
+        "D) Gq protein protein primarily inhibits adenylyl cyclase to lower cAMP"
       ],
-      "answer": "C) Gq activates PLC generating IP3/DAG, raising Ca2+ and activating PKC",
-      "explanation": "PLC cleavage of PIP2 is the Gq hallmark cascade. Therefore, the most accurate choice is: Gq activates PLC generating IP3/DAG, raising Ca2+ and activating PKC. AC inhibition is the Gi cascade, not Gq.",
+      "answer": "C) Gq protein protein activates phospholipase C generating inositol trisphosphate/diacylglycerol, raising Ca2+ and activating protein kinase C",
+      "explanation": "phospholipase C cleavage of PIP2 is the Gq protein protein hallmark cascade. Therefore, the most accurate choice is: Gq protein protein activates phospholipase C generating inositol trisphosphate/diacylglycerol, raising Ca2+ and activating protein kinase C. anterior chamber inhibition is the inhibitory G protein cascade, not Gq protein protein.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "PLC cleavage of PIP2 is the Gq hallmark cascade. This matches the correct interpretation.",
-        "D": "AC inhibition is the Gi cascade, not Gq. It is less consistent than the correct choice."
+        "C": "phospholipase C cleavage of PIP2 is the Gq protein protein hallmark cascade. This matches the correct interpretation.",
+        "D": "anterior chamber inhibition is the inhibitory G protein cascade, not Gq protein protein. It is less consistent than the correct choice."
       }
     },
     {
       "id": "pharmacology:hard:19",
       "question": "Which statement about ligand-gated example is most accurate?",
       "options": [
-        "A) Nicotinic ACh receptor is exclusively a nuclear transcription factor",
+        "A) Nicotinic acetylcholine receptor is exclusively a nuclear transcription factor",
         "B) Glucocorticoid receptor is a neuromuscular ligand-gated sodium channel",
-        "C) Nicotinic ACh receptor is a ligand-gated ion channel for fast synaptic transmission",
+        "C) Nicotinic acetylcholine receptor is a ligand-gated ion channel for fast synaptic transmission",
         "D) Nuclear steroid receptor that activates transcription"
       ],
-      "answer": "C) Nicotinic ACh receptor is a ligand-gated ion channel for fast synaptic transmission",
-      "explanation": "nAChRs are pentameric cation channels opened by agonist binding. Therefore, the most accurate choice is: Nicotinic ACh receptor is a ligand-gated ion channel for fast synaptic transmission. Nuclear receptors regulate transcription; nAChR does not.",
+      "answer": "C) Nicotinic acetylcholine receptor is a ligand-gated ion channel for fast synaptic transmission",
+      "explanation": "nAChRs are pentameric cation channels opened by agonist binding. Therefore, the most accurate choice is: Nicotinic acetylcholine receptor is a ligand-gated ion channel for fast synaptic transmission. Nuclear receptors regulate transcription; nAChR does not.",
       "choice_explanations": {
         "A": "Nuclear receptors regulate transcription; nAChR does not. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1446,19 +1446,19 @@
     },
     {
       "id": "pharmacology:hard:20",
-      "question": "Which of the following is the best statement about RTK example?",
+      "question": "Which of the following is the best statement about receptor tyrosine kinase example?",
       "options": [
-        "A) Insulin receptor is only a Gi-coupled seven-transmembrane GPCR",
+        "A) Insulin receptor is only a Gi-coupled seven-transmembrane G protein-coupled receptor",
         "B) Glucocorticoid receptor is a neuromuscular ligand-gated sodium channel",
-        "C) Insulin receptor autophosphorylates on tyrosine and engages IRS/PI3K and MAPK paths",
-        "D) Nicotinic ACh receptor is exclusively a nuclear transcription factor"
+        "C) Insulin receptor autophosphorylates on tyrosine and engages insulin receptor substrate/PI3K and mitogen-activated protein kinase paths",
+        "D) Nicotinic acetylcholine receptor is exclusively a nuclear transcription factor"
       ],
-      "answer": "C) Insulin receptor autophosphorylates on tyrosine and engages IRS/PI3K and MAPK paths",
-      "explanation": "RTK dimerization and autophosphorylation initiate insulin signaling. Therefore, the most accurate choice is: Insulin receptor autophosphorylates on tyrosine and engages IRS/PI3K and MAPK paths. Insulin signaling is RTK-based, not classic Gi GPCR signaling.",
+      "answer": "C) Insulin receptor autophosphorylates on tyrosine and engages insulin receptor substrate/PI3K and mitogen-activated protein kinase paths",
+      "explanation": "receptor tyrosine kinase dimerization and autophosphorylation initiate insulin signaling. Therefore, the most accurate choice is: Insulin receptor autophosphorylates on tyrosine and engages insulin receptor substrate/PI3K and mitogen-activated protein kinase paths. Insulin signaling is RTK-based, not classic inhibitory G protein G protein-coupled receptor signaling.",
       "choice_explanations": {
-        "A": "Insulin signaling is RTK-based, not classic Gi GPCR signaling. It is less consistent than the correct choice.",
+        "A": "Insulin signaling is RTK-based, not classic inhibitory G protein G protein-coupled receptor signaling. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "RTK dimerization and autophosphorylation initiate insulin signaling. This matches the correct interpretation.",
+        "C": "receptor tyrosine kinase dimerization and autophosphorylation initiate insulin signaling. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -1482,25 +1482,25 @@
     },
     {
       "id": "pharmacology:hard:22",
-      "question": "Two similar explanations for GPCR desensitization are compared. Which of the following is correct?",
+      "question": "Two similar explanations for G protein-coupled receptor desensitization are compared. Which of the following is correct?",
       "options": [
         "A) Drug never leaves the stomach lumen",
-        "B) GPCRs never desensitize after agonist exposure",
-        "C) GRK phosphorylation and β-arrestin recruitment uncouple and internalize GPCRs",
+        "B) G protein-coupled receptors never desensitize after agonist exposure",
+        "C) G protein-coupled receptor kinase phosphorylation and β-arrestin recruitment uncouple and internalize G protein-coupled receptors",
         "D) Tolerance never develops with continuous patch exposure"
       ],
-      "answer": "C) GRK phosphorylation and β-arrestin recruitment uncouple and internalize GPCRs",
-      "explanation": "Acute regulation uses phosphorylation and arrestin-mediated uncoupling. Therefore, the most accurate choice is: GRK phosphorylation and β-arrestin recruitment uncouple and internalize GPCRs. GPCR desensitization is a core physiologic control process.",
+      "answer": "C) G protein-coupled receptor kinase phosphorylation and β-arrestin recruitment uncouple and internalize G protein-coupled receptors",
+      "explanation": "Acute regulation uses phosphorylation and arrestin-mediated uncoupling. Therefore, the most accurate choice is: G protein-coupled receptor kinase phosphorylation and β-arrestin recruitment uncouple and internalize G protein-coupled receptors. G protein-coupled receptor desensitization is a core physiologic control process.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "GPCR desensitization is a core physiologic control process. It is less consistent than the correct choice.",
+        "B": "G protein-coupled receptor desensitization is a core physiologic control process. It is less consistent than the correct choice.",
         "C": "Acute regulation uses phosphorylation and arrestin-mediated uncoupling. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmacology:hard:23",
-      "question": "In a 39-year-old woman, synergism must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 55-year-old woman, synergism must be separated from similar conditions. Which of the following is correct?",
       "options": [
         "A) Combined effect greater than expected from simple addition of individual effects",
         "B) Caused by naloxone reversing opioid effects",
@@ -1521,12 +1521,12 @@
       "question": "Which of the following correctly distinguishes key points about physiological antagonism?",
       "options": [
         "A) Direct chemical neutralization of a drug in a syringe before injection",
-        "B) Opposing physiologic systems counteract effects (e.g., epinephrine vs histamine on bronchi)",
+        "B) Opposing physiologic systems counteract effects (e.g., epinephrine versus histamine on bronchi)",
         "C) Direct ENaC pore blocker without receptor antagonism like amiloride",
         "D) Ignores clearance and uses only taste of the medicine"
       ],
-      "answer": "B) Opposing physiologic systems counteract effects (e.g., epinephrine vs histamine on bronchi)",
-      "explanation": "Functional opposition uses different pathways/receptors. Therefore, the most accurate choice is: Opposing physiologic systems counteract effects (e.g., epinephrine vs histamine on bronchi). In-vitro chemical inactivation is chemical antagonism.",
+      "answer": "B) Opposing physiologic systems counteract effects (e.g., epinephrine versus histamine on bronchi)",
+      "explanation": "Functional opposition uses different pathways/receptors. Therefore, the most accurate choice is: Opposing physiologic systems counteract effects (e.g., epinephrine versus histamine on bronchi). In-vitro chemical inactivation is chemical antagonism.",
       "choice_explanations": {
         "A": "In-vitro chemical inactivation is chemical antagonism. It is less consistent than the correct choice.",
         "B": "Functional opposition uses different pathways/receptors. This matches the correct interpretation.",
@@ -1554,18 +1554,18 @@
     },
     {
       "id": "pharmacology:hard:26",
-      "question": "Which statement about PK antagonism is most accurate?",
+      "question": "Which statement about pharmacokinetics antagonism is most accurate?",
       "options": [
-        "A) One drug reduces another’s concentration via ADME changes",
+        "A) One drug reduces another’s concentration via absorption, distribution, metabolism, and excretion changes",
         "B) Opposite efficacy at the same receptor without changing levels",
         "C) Reduced levels from faster hepatic metabolism only",
         "D) Competitive occupancy of the same orthosteric receptor site"
       ],
-      "answer": "A) One drug reduces another’s concentration via ADME changes",
-      "explanation": "Induction or absorption impairment can lower substrate exposure. Therefore, the most accurate choice is: One drug reduces another’s concentration via ADME changes. Opposite receptor efficacy without level change is PD antagonism.",
+      "answer": "A) One drug reduces another’s concentration via absorption, distribution, metabolism, and excretion changes",
+      "explanation": "Induction or absorption impairment can lower substrate exposure. Therefore, the most accurate choice is: One drug reduces another’s concentration via absorption, distribution, metabolism, and excretion changes. Opposite receptor efficacy without level change is pharmacodynamics antagonism.",
       "choice_explanations": {
         "A": "Induction or absorption impairment can lower substrate exposure. This matches the correct interpretation.",
-        "B": "Opposite receptor efficacy without level change is PD antagonism. It is less consistent than the correct choice.",
+        "B": "Opposite receptor efficacy without level change is pharmacodynamics antagonism. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -1580,17 +1580,17 @@
         "D) Inactive precursor converted in vivo to active drug to improve delivery properties"
       ],
       "answer": "D) Inactive precursor converted in vivo to active drug to improve delivery properties",
-      "explanation": "Bioactivation yields the active moiety after ADME optimization. Therefore, the most accurate choice is: Inactive precursor converted in vivo to active drug to improve delivery properties. Toxicity is not inherent to prodrug status.",
+      "explanation": "Bioactivation yields the active moiety after absorption, distribution, metabolism, and excretion optimization. Therefore, the most accurate choice is: Inactive precursor converted in vivo to active drug to improve delivery properties. Toxicity is not inherent to prodrug status.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Toxicity is not inherent to prodrug status. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Bioactivation yields the active moiety after ADME optimization. This matches the correct interpretation."
+        "D": "Bioactivation yields the active moiety after absorption, distribution, metabolism, and excretion optimization. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmacology:hard:28",
-      "question": "A 44-year-old woman is evaluated for possible active metabolite. Which of the following is most accurate?",
+      "question": "A 60-year-old woman is evaluated for possible active metabolite. Which of the following is most accurate?",
       "options": [
         "A) Kidney clears the entire oral dose before absorption as classic first-pass",
         "B) Metabolites may contribute substantially to clinical effect or toxicity",
@@ -1608,18 +1608,18 @@
     },
     {
       "id": "pharmacology:hard:29",
-      "question": "A 66-year-old woman has findings suggestive of CYP3A4. Which of the following is the best interpretation?",
+      "question": "A 41-year-old woman has findings suggestive of cytochrome P450 3A4. Which of the following is the best interpretation?",
       "options": [
-        "A) Major oxidative CYP metabolizing a large fraction of drugs in liver and gut",
+        "A) Major oxidative cytochrome P450 metabolizing a large fraction of drugs in liver and gut",
         "B) Primary enzyme for glucuronide conjugation like UGTs",
         "C) Always raises substrate levels by blocking metabolism",
         "D) Inhibit hepatic gluconeogenesis like metformin as primary action"
       ],
-      "answer": "A) Major oxidative CYP metabolizing a large fraction of drugs in liver and gut",
-      "explanation": "CYP3A4 dominates oxidative metabolism for many substrates. Therefore, the most accurate choice is: Major oxidative CYP metabolizing a large fraction of drugs in liver and gut. Glucuronidation is UGT chemistry, not CYP3A4’s primary reaction.",
+      "answer": "A) Major oxidative cytochrome P450 metabolizing a large fraction of drugs in liver and gut",
+      "explanation": "cytochrome P450 3A4 dominates oxidative metabolism for many substrates. Therefore, the most accurate choice is: Major oxidative cytochrome P450 metabolizing a large fraction of drugs in liver and gut. Glucuronidation is UGT chemistry, not cytochrome P450 3A4’s primary reaction.",
       "choice_explanations": {
-        "A": "CYP3A4 dominates oxidative metabolism for many substrates. This matches the correct interpretation.",
-        "B": "Glucuronidation is UGT chemistry, not CYP3A4’s primary reaction. It is less consistent than the correct choice.",
+        "A": "cytochrome P450 3A4 dominates oxidative metabolism for many substrates. This matches the correct interpretation.",
+        "B": "Glucuronidation is UGT chemistry, not cytochrome P450 3A4’s primary reaction. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -1651,7 +1651,7 @@
         "A) Noncompetitive block that always flattens Emax without potency shift",
         "B) Surmountable orthosteric block: right-shift agonist curve with Emax preservable",
         "C) Occupies the orthosteric site without activation (competitive antagonist pattern)",
-        "D) Always flatten Emax without changing EC50"
+        "D) Always flatten Emax without changing half-maximal effective concentration"
       ],
       "answer": "B) Surmountable orthosteric block: right-shift agonist curve with Emax preservable",
       "explanation": "Shared-site competition can be overcome by more agonist if receptor reserve allows. Therefore, the most accurate choice is: Surmountable orthosteric block: right-shift agonist curve with Emax preservable. Emax depression without simple surmountable shift suggests noncompetitive antagonism.",
@@ -1740,15 +1740,15 @@
       "options": [
         "A) Identical to intrinsic efficacy producing tissue Emax",
         "B) Always produces higher Emax than any full agonist at the same system",
-        "C) Concentration or dose needed for a defined effect (e.g., EC50); lower EC50 = more potent",
+        "C) Concentration or dose needed for a defined effect (e.g., half-maximal effective concentration); lower half-maximal effective concentration = more potent",
         "D) Synonym of maximal efficacy (Emax) in all contexts"
       ],
-      "answer": "C) Concentration or dose needed for a defined effect (e.g., EC50); lower EC50 = more potent",
-      "explanation": "Potency indexes position along the concentration axis of the DR curve. Therefore, the most accurate choice is: Concentration or dose needed for a defined effect (e.g., EC50); lower EC50 = more potent. A drug can be potent with low Emax or less potent with high Emax.",
+      "answer": "C) Concentration or dose needed for a defined effect (e.g., half-maximal effective concentration); lower half-maximal effective concentration = more potent",
+      "explanation": "Potency indexes position along the concentration axis of the diabetic retinopathy curve. Therefore, the most accurate choice is: Concentration or dose needed for a defined effect (e.g., half-maximal effective concentration); lower half-maximal effective concentration = more potent. A drug can be potent with low Emax or less potent with high Emax.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Potency indexes position along the concentration axis of the DR curve. This matches the correct interpretation.",
+        "C": "Potency indexes position along the concentration axis of the diabetic retinopathy curve. This matches the correct interpretation.",
         "D": "A drug can be potent with low Emax or less potent with high Emax. It is less consistent than the correct choice."
       }
     },
@@ -1762,9 +1762,9 @@
         "D) Ability of a drug–receptor complex to produce a maximal system response (Emax)"
       ],
       "answer": "D) Ability of a drug–receptor complex to produce a maximal system response (Emax)",
-      "explanation": "Emax reflects stimulus generation and tissue amplification downstream of binding. Therefore, the most accurate choice is: Ability of a drug–receptor complex to produce a maximal system response (Emax). Half-life is a PK parameter, not efficacy.",
+      "explanation": "Emax reflects stimulus generation and tissue amplification downstream of binding. Therefore, the most accurate choice is: Ability of a drug–receptor complex to produce a maximal system response (Emax). Half-life is a pharmacokinetics parameter, not efficacy.",
       "choice_explanations": {
-        "A": "Half-life is a PK parameter, not efficacy. It is less consistent than the correct choice.",
+        "A": "Half-life is a pharmacokinetics parameter, not efficacy. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Emax reflects stimulus generation and tissue amplification downstream of binding. This matches the correct interpretation."
@@ -1775,12 +1775,12 @@
       "question": "Careful reasoning about therapeutic index is required. Which of the following is most accurate?",
       "options": [
         "A) Synonym of maximal efficacy (Emax) in all contexts",
-        "B) Ratio relating toxic-dose to effective-dose metrics (e.g., TD50/ED50)",
+        "B) Ratio relating toxic-dose to effective-dose metrics (e.g., median toxic dose/median effective dose)",
         "C) Kidney clears the entire oral dose before absorption as classic first-pass",
         "D) Equal to oral bioavailability percentage F"
       ],
-      "answer": "B) Ratio relating toxic-dose to effective-dose metrics (e.g., TD50/ED50)",
-      "explanation": "TI estimates margin between efficacy and toxicity dose levels. Therefore, the most accurate choice is: Ratio relating toxic-dose to effective-dose metrics (e.g., TD50/ED50). Bioavailability F is an absorption metric, not TI.",
+      "answer": "B) Ratio relating toxic-dose to effective-dose metrics (e.g., median toxic dose/median effective dose)",
+      "explanation": "TI estimates margin between efficacy and toxicity dose levels. Therefore, the most accurate choice is: Ratio relating toxic-dose to effective-dose metrics (e.g., median toxic dose/median effective dose). Bioavailability F is an absorption metric, not TI.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "TI estimates margin between efficacy and toxicity dose levels. This matches the correct interpretation.",
@@ -1790,35 +1790,35 @@
     },
     {
       "id": "pharmacology:extreme:9",
-      "question": "Management of graded DR curve is reviewed for a 46-year-old man. Which of the following is most accurate?",
+      "question": "Management of graded diabetic retinopathy curve is reviewed for a 62-year-old man. Which of the following is most accurate?",
       "options": [
-        "A) Plots continuous mmHg change within one isolated tissue only",
+        "A) Plots continuous millimeters of mercury change within one isolated tissue only",
         "B) Synonym of maximal efficacy (Emax) in all contexts",
         "C) Plots only the percent of a population showing an all-or-none response",
         "D) Plots intensity of effect versus dose/concentration in a system or individual"
       ],
       "answer": "D) Plots intensity of effect versus dose/concentration in a system or individual",
-      "explanation": "Graded curves yield EC50 and Emax for continuous endpoints. Therefore, the most accurate choice is: Plots intensity of effect versus dose/concentration in a system or individual. Population all-or-none fractions define quantal curves.",
+      "explanation": "Graded curves yield half-maximal effective concentration and Emax for continuous endpoints. Therefore, the most accurate choice is: Plots intensity of effect versus dose/concentration in a system or individual. Population all-or-none fractions define quantal curves.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Population all-or-none fractions define quantal curves. It is less consistent than the correct choice.",
-        "D": "Graded curves yield EC50 and Emax for continuous endpoints. This matches the correct interpretation."
+        "D": "Graded curves yield half-maximal effective concentration and Emax for continuous endpoints. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmacology:extreme:10",
-      "question": "A 33-year-old man needs action related to quantal DR curve. Which of the following is correct?",
+      "question": "A 49-year-old man needs action related to quantal diabetic retinopathy curve. Which of the following is correct?",
       "options": [
         "A) Plots fraction of population achieving a defined all-or-none effect versus dose",
-        "B) Plots continuous mmHg change within one isolated tissue only",
+        "B) Plots continuous millimeters of mercury change within one isolated tissue only",
         "C) Plots only the percent of a population showing an all-or-none response",
         "D) Dose that cures 50% of infections in routine care"
       ],
       "answer": "A) Plots fraction of population achieving a defined all-or-none effect versus dose",
-      "explanation": "ED50 from quantal data is the dose effective in 50% of subjects. Therefore, the most accurate choice is: Plots fraction of population achieving a defined all-or-none effect versus dose. Continuous intensity in one preparation is graded, not quantal.",
+      "explanation": "median effective dose from quantal data is the dose effective in 50% of subjects. Therefore, the most accurate choice is: Plots fraction of population achieving a defined all-or-none effect versus dose. Continuous intensity in one preparation is graded, not quantal.",
       "choice_explanations": {
-        "A": "ED50 from quantal data is the dose effective in 50% of subjects. This matches the correct interpretation.",
+        "A": "median effective dose from quantal data is the dose effective in 50% of subjects. This matches the correct interpretation.",
         "B": "Continuous intensity in one preparation is graded, not quantal. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1826,48 +1826,48 @@
     },
     {
       "id": "pharmacology:extreme:11",
-      "question": "In a 34-year-old woman, treatment choices for ED50 are compared. Which of the following is most accurate?",
+      "question": "In a 50-year-old woman, treatment choices for median effective dose are compared. Which of the following is most accurate?",
       "options": [
-        "A) Always identical to LD50",
+        "A) Always identical to median lethal dose",
         "B) Dose that cures 50% of infections in routine care",
         "C) Plots only the percent of a population showing an all-or-none response",
         "D) Median effective dose for a specified endpoint (population or 50% Emax context)"
       ],
       "answer": "D) Median effective dose for a specified endpoint (population or 50% Emax context)",
-      "explanation": "ED50 indexes effectiveness, not lethality. Therefore, the most accurate choice is: Median effective dose for a specified endpoint (population or 50% Emax context). LD50 is a lethality benchmark.",
+      "explanation": "median effective dose indexes effectiveness, not lethality. Therefore, the most accurate choice is: Median effective dose for a specified endpoint (population or 50% Emax context). median lethal dose is a lethality benchmark.",
       "choice_explanations": {
-        "A": "LD50 is a lethality benchmark. It is less consistent than the correct choice.",
+        "A": "median lethal dose is a lethality benchmark. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "ED50 indexes effectiveness, not lethality. This matches the correct interpretation."
+        "D": "median effective dose indexes effectiveness, not lethality. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmacology:extreme:12",
-      "question": "A 41-year-old man is managed for problems related to LD50. Which of the following is correct?",
+      "question": "A 57-year-old man with reduced renal function is managed for problems related to median lethal dose. Which of the following is correct?",
       "options": [
         "A) Dose lethal to 50% of a defined test population under stated conditions",
         "B) Plots only the percent of a population showing an all-or-none response",
-        "C) Always identical to LD50",
+        "C) Always identical to median lethal dose",
         "D) Dose that cures 50% of infections in routine care"
       ],
       "answer": "A) Dose lethal to 50% of a defined test population under stated conditions",
-      "explanation": "LD50 is an acute toxicity reference point. Therefore, the most accurate choice is: Dose lethal to 50% of a defined test population under stated conditions. Cure rates are efficacy endpoints, not LD50.",
+      "explanation": "median lethal dose is an acute toxicity reference point. Therefore, the most accurate choice is: Dose lethal to 50% of a defined test population under stated conditions. Cure rates are efficacy endpoints, not median lethal dose.",
       "choice_explanations": {
-        "A": "LD50 is an acute toxicity reference point. This matches the correct interpretation.",
+        "A": "median lethal dose is an acute toxicity reference point. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Cure rates are efficacy endpoints, not LD50. It is less consistent than the correct choice."
+        "D": "Cure rates are efficacy endpoints, not median lethal dose. It is less consistent than the correct choice."
       }
     },
     {
       "id": "pharmacology:extreme:13",
-      "question": "Which closely related statement about PD tolerance is correct?",
+      "question": "Which closely related statement about peritoneal dialysis tolerance is correct?",
       "options": [
         "A) Reduced levels from faster hepatic metabolism only",
         "B) Opposite efficacy at the same receptor without changing levels",
         "C) Reduced response at the same concentration from receptor/pathway adaptation",
-        "D) Receptor downregulation with unchanged plasma levels as the definition of PK tolerance"
+        "D) Receptor downregulation with unchanged plasma levels as the definition of pharmacokinetics tolerance"
       ],
       "answer": "C) Reduced response at the same concentration from receptor/pathway adaptation",
       "explanation": "Desensitization/downregulation/adaptation lower effect despite stable exposure. Therefore, the most accurate choice is: Reduced response at the same concentration from receptor/pathway adaptation. Faster metabolism is pharmacokinetic tolerance.",
@@ -1880,28 +1880,28 @@
     },
     {
       "id": "pharmacology:extreme:14",
-      "question": "Which of the following is the central point about PK tolerance?",
+      "question": "Which of the following is the central point about pharmacokinetics tolerance?",
       "options": [
         "A) Reduced effect because exposure falls (e.g., autoinduction increasing clearance)",
-        "B) Receptor downregulation with unchanged plasma levels as the definition of PK tolerance",
+        "B) Receptor downregulation with unchanged plasma levels as the definition of pharmacokinetics tolerance",
         "C) Reduced levels from faster hepatic metabolism only",
         "D) Opposite efficacy at the same receptor without changing levels"
       ],
       "answer": "A) Reduced effect because exposure falls (e.g., autoinduction increasing clearance)",
-      "explanation": "Induction or other ADME changes lower concentration at the target. Therefore, the most accurate choice is: Reduced effect because exposure falls (e.g., autoinduction increasing clearance). Receptor adaptation with stable levels is PD tolerance.",
+      "explanation": "Induction or other absorption, distribution, metabolism, and excretion changes lower concentration at the target. Therefore, the most accurate choice is: Reduced effect because exposure falls (e.g., autoinduction increasing clearance). Receptor adaptation with stable levels is pharmacodynamics tolerance.",
       "choice_explanations": {
-        "A": "Induction or other ADME changes lower concentration at the target. This matches the correct interpretation.",
-        "B": "Receptor adaptation with stable levels is PD tolerance. It is less consistent than the correct choice.",
+        "A": "Induction or other absorption, distribution, metabolism, and excretion changes lower concentration at the target. This matches the correct interpretation.",
+        "B": "Receptor adaptation with stable levels is pharmacodynamics tolerance. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmacology:extreme:15",
-      "question": "Which statement about managing tachyphylaxis in a 46-year-old man is most accurate?",
+      "question": "Which statement about managing tachyphylaxis in a 62-year-old man is most accurate?",
       "options": [
         "A) Gradual loss of effect over months from enzyme induction alone",
-        "B) Means only CYP3A4 induction altering concentrations",
+        "B) Means only cytochrome P450 3A4 induction altering concentrations",
         "C) Rapid diminution of response after closely spaced repeated doses",
         "D) Kidney clears the entire oral dose before absorption as classic first-pass"
       ],
@@ -1920,7 +1920,7 @@
       "options": [
         "A) Chronic antagonists never alter receptor expression",
         "B) Chronic agonists always increase receptor density without limit",
-        "C) Receptor downregulation with unchanged plasma levels as the definition of PK tolerance",
+        "C) Receptor downregulation with unchanged plasma levels as the definition of pharmacokinetics tolerance",
         "D) Chronic agonist exposure decreases receptor number or responsiveness"
       ],
       "answer": "D) Chronic agonist exposure decreases receptor number or responsiveness",
@@ -1954,16 +1954,16 @@
       "id": "pharmacology:extreme:18",
       "question": "Which of the following is the most precise statement about gs signaling?",
       "options": [
-        "A) Gs inhibits adenylyl cyclase and lowers cAMP as its defining cascade",
-        "B) Gs stimulates adenylyl cyclase, raising cAMP and activating PKA",
-        "C) Gi always stimulates adenylyl cyclase like Gs",
-        "D) Gq primarily inhibits adenylyl cyclase to lower cAMP"
+        "A) stimulatory G protein inhibits adenylyl cyclase and lowers cAMP as its defining cascade",
+        "B) stimulatory G protein stimulates adenylyl cyclase, raising cAMP and activating protein kinase A",
+        "C) inhibitory G protein always stimulates adenylyl cyclase like stimulatory G protein",
+        "D) Gq protein protein primarily inhibits adenylyl cyclase to lower cAMP"
       ],
-      "answer": "B) Gs stimulates adenylyl cyclase, raising cAMP and activating PKA",
-      "explanation": "Gs–AC–cAMP–PKA is the canonical stimulatory GPCR path. Therefore, the most accurate choice is: Gs stimulates adenylyl cyclase, raising cAMP and activating PKA. Gi lowers cAMP; Gs raises it.",
+      "answer": "B) stimulatory G protein stimulates adenylyl cyclase, raising cAMP and activating protein kinase A",
+      "explanation": "stimulatory G protein–anterior chamber–cAMP–protein kinase A is the canonical stimulatory G protein-coupled receptor path. Therefore, the most accurate choice is: stimulatory G protein stimulates adenylyl cyclase, raising cAMP and activating protein kinase A. inhibitory G protein lowers cAMP; stimulatory G protein raises it.",
       "choice_explanations": {
-        "A": "Gi lowers cAMP; Gs raises it. It is less consistent than the correct choice.",
-        "B": "Gs–AC–cAMP–PKA is the canonical stimulatory GPCR path. This matches the correct interpretation.",
+        "A": "inhibitory G protein lowers cAMP; stimulatory G protein raises it. It is less consistent than the correct choice.",
+        "B": "stimulatory G protein–anterior chamber–cAMP–protein kinase A is the canonical stimulatory G protein-coupled receptor path. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -1972,34 +1972,34 @@
       "id": "pharmacology:extreme:19",
       "question": "In advanced review of gi signaling, which of the following is most accurate?",
       "options": [
-        "A) Gq primarily inhibits adenylyl cyclase to lower cAMP",
-        "B) Gs inhibits adenylyl cyclase and lowers cAMP as its defining cascade",
-        "C) Gi always stimulates adenylyl cyclase like Gs",
-        "D) Gi inhibits adenylyl cyclase, decreasing cAMP-dependent signaling"
+        "A) Gq protein protein primarily inhibits adenylyl cyclase to lower cAMP",
+        "B) stimulatory G protein inhibits adenylyl cyclase and lowers cAMP as its defining cascade",
+        "C) inhibitory G protein always stimulates adenylyl cyclase like stimulatory G protein",
+        "D) inhibitory G protein inhibits adenylyl cyclase, decreasing cAMP-dependent signaling"
       ],
-      "answer": "D) Gi inhibits adenylyl cyclase, decreasing cAMP-dependent signaling",
-      "explanation": "Inhibitory GPCRs dampen cAMP via Gi/o. Therefore, the most accurate choice is: Gi inhibits adenylyl cyclase, decreasing cAMP-dependent signaling. AC stimulation is Gs, not Gi.",
+      "answer": "D) inhibitory G protein inhibits adenylyl cyclase, decreasing cAMP-dependent signaling",
+      "explanation": "Inhibitory G protein-coupled receptors dampen cAMP via inhibitory G protein/o. Therefore, the most accurate choice is: inhibitory G protein inhibits adenylyl cyclase, decreasing cAMP-dependent signaling. anterior chamber stimulation is stimulatory G protein, not inhibitory G protein.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "AC stimulation is Gs, not Gi. It is less consistent than the correct choice.",
-        "D": "Inhibitory GPCRs dampen cAMP via Gi/o. This matches the correct interpretation."
+        "C": "anterior chamber stimulation is stimulatory G protein, not inhibitory G protein. It is less consistent than the correct choice.",
+        "D": "Inhibitory G protein-coupled receptors dampen cAMP via inhibitory G protein/o. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmacology:extreme:20",
       "question": "Which interpretation of gq signaling is most accurate?",
       "options": [
-        "A) Gq activates PLC generating IP3/DAG, raising Ca2+ and activating PKC",
-        "B) Gq primarily inhibits adenylyl cyclase to lower cAMP",
-        "C) Gi always stimulates adenylyl cyclase like Gs",
-        "D) Gs inhibits adenylyl cyclase and lowers cAMP as its defining cascade"
+        "A) Gq protein protein activates phospholipase C generating inositol trisphosphate/diacylglycerol, raising Ca2+ and activating protein kinase C",
+        "B) Gq protein protein primarily inhibits adenylyl cyclase to lower cAMP",
+        "C) inhibitory G protein always stimulates adenylyl cyclase like stimulatory G protein",
+        "D) stimulatory G protein inhibits adenylyl cyclase and lowers cAMP as its defining cascade"
       ],
-      "answer": "A) Gq activates PLC generating IP3/DAG, raising Ca2+ and activating PKC",
-      "explanation": "PLC cleavage of PIP2 is the Gq hallmark cascade. Therefore, the most accurate choice is: Gq activates PLC generating IP3/DAG, raising Ca2+ and activating PKC. AC inhibition is the Gi cascade, not Gq.",
+      "answer": "A) Gq protein protein activates phospholipase C generating inositol trisphosphate/diacylglycerol, raising Ca2+ and activating protein kinase C",
+      "explanation": "phospholipase C cleavage of PIP2 is the Gq protein protein hallmark cascade. Therefore, the most accurate choice is: Gq protein protein activates phospholipase C generating inositol trisphosphate/diacylglycerol, raising Ca2+ and activating protein kinase C. anterior chamber inhibition is the inhibitory G protein cascade, not Gq protein protein.",
       "choice_explanations": {
-        "A": "PLC cleavage of PIP2 is the Gq hallmark cascade. This matches the correct interpretation.",
-        "B": "AC inhibition is the Gi cascade, not Gq. It is less consistent than the correct choice.",
+        "A": "phospholipase C cleavage of PIP2 is the Gq protein protein hallmark cascade. This matches the correct interpretation.",
+        "B": "anterior chamber inhibition is the inhibitory G protein cascade, not Gq protein protein. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -2008,13 +2008,13 @@
       "id": "pharmacology:extreme:21",
       "question": "Which closely related statement about ligand-gated example is correct?",
       "options": [
-        "A) Nicotinic ACh receptor is a ligand-gated ion channel for fast synaptic transmission",
-        "B) Nicotinic ACh receptor is exclusively a nuclear transcription factor",
+        "A) Nicotinic acetylcholine receptor is a ligand-gated ion channel for fast synaptic transmission",
+        "B) Nicotinic acetylcholine receptor is exclusively a nuclear transcription factor",
         "C) Nuclear steroid receptor that activates transcription",
         "D) Glucocorticoid receptor is a neuromuscular ligand-gated sodium channel"
       ],
-      "answer": "A) Nicotinic ACh receptor is a ligand-gated ion channel for fast synaptic transmission",
-      "explanation": "nAChRs are pentameric cation channels opened by agonist binding. Therefore, the most accurate choice is: Nicotinic ACh receptor is a ligand-gated ion channel for fast synaptic transmission. Nuclear receptors regulate transcription; nAChR does not.",
+      "answer": "A) Nicotinic acetylcholine receptor is a ligand-gated ion channel for fast synaptic transmission",
+      "explanation": "nAChRs are pentameric cation channels opened by agonist binding. Therefore, the most accurate choice is: Nicotinic acetylcholine receptor is a ligand-gated ion channel for fast synaptic transmission. Nuclear receptors regulate transcription; nAChR does not.",
       "choice_explanations": {
         "A": "nAChRs are pentameric cation channels opened by agonist binding. This matches the correct interpretation.",
         "B": "Nuclear receptors regulate transcription; nAChR does not. It is less consistent than the correct choice.",
@@ -2026,7 +2026,7 @@
       "id": "pharmacology:extreme:22",
       "question": "Which of the following is the central point about nuclear receptor example?",
       "options": [
-        "A) Nicotinic ACh receptor is exclusively a nuclear transcription factor",
+        "A) Nicotinic acetylcholine receptor is exclusively a nuclear transcription factor",
         "B) Glucocorticoid receptor acts as a ligand-activated transcription factor",
         "C) Glucocorticoid receptor is a neuromuscular ligand-gated sodium channel",
         "D) Nuclear steroid receptor that activates transcription"
@@ -2042,20 +2042,20 @@
     },
     {
       "id": "pharmacology:extreme:23",
-      "question": "Which statement about RTK example is most accurate?",
+      "question": "Which statement about receptor tyrosine kinase example is most accurate?",
       "options": [
-        "A) Insulin receptor autophosphorylates on tyrosine and engages IRS/PI3K and MAPK paths",
+        "A) Insulin receptor autophosphorylates on tyrosine and engages insulin receptor substrate/PI3K and mitogen-activated protein kinase paths",
         "B) Glucocorticoid receptor is a neuromuscular ligand-gated sodium channel",
-        "C) Nicotinic ACh receptor is exclusively a nuclear transcription factor",
-        "D) Insulin receptor is only a Gi-coupled seven-transmembrane GPCR"
+        "C) Nicotinic acetylcholine receptor is exclusively a nuclear transcription factor",
+        "D) Insulin receptor is only a Gi-coupled seven-transmembrane G protein-coupled receptor"
       ],
-      "answer": "A) Insulin receptor autophosphorylates on tyrosine and engages IRS/PI3K and MAPK paths",
-      "explanation": "RTK dimerization and autophosphorylation initiate insulin signaling. Therefore, the most accurate choice is: Insulin receptor autophosphorylates on tyrosine and engages IRS/PI3K and MAPK paths. Insulin signaling is RTK-based, not classic Gi GPCR signaling.",
+      "answer": "A) Insulin receptor autophosphorylates on tyrosine and engages insulin receptor substrate/PI3K and mitogen-activated protein kinase paths",
+      "explanation": "receptor tyrosine kinase dimerization and autophosphorylation initiate insulin signaling. Therefore, the most accurate choice is: Insulin receptor autophosphorylates on tyrosine and engages insulin receptor substrate/PI3K and mitogen-activated protein kinase paths. Insulin signaling is RTK-based, not classic inhibitory G protein G protein-coupled receptor signaling.",
       "choice_explanations": {
-        "A": "RTK dimerization and autophosphorylation initiate insulin signaling. This matches the correct interpretation.",
+        "A": "receptor tyrosine kinase dimerization and autophosphorylation initiate insulin signaling. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Insulin signaling is RTK-based, not classic Gi GPCR signaling. It is less consistent than the correct choice."
+        "D": "Insulin signaling is RTK-based, not classic inhibitory G protein G protein-coupled receptor signaling. It is less consistent than the correct choice."
       }
     },
     {
@@ -2078,25 +2078,25 @@
     },
     {
       "id": "pharmacology:extreme:25",
-      "question": "Small differences in wording about GPCR desensitization matter. Which of the following is correct?",
+      "question": "Small differences in wording about G protein-coupled receptor desensitization matter. Which of the following is correct?",
       "options": [
         "A) Tolerance never develops with continuous patch exposure",
-        "B) GRK phosphorylation and β-arrestin recruitment uncouple and internalize GPCRs",
-        "C) GPCRs never desensitize after agonist exposure",
+        "B) G protein-coupled receptor kinase phosphorylation and β-arrestin recruitment uncouple and internalize G protein-coupled receptors",
+        "C) G protein-coupled receptors never desensitize after agonist exposure",
         "D) Drug never leaves the stomach lumen"
       ],
-      "answer": "B) GRK phosphorylation and β-arrestin recruitment uncouple and internalize GPCRs",
-      "explanation": "Acute regulation uses phosphorylation and arrestin-mediated uncoupling. Therefore, the most accurate choice is: GRK phosphorylation and β-arrestin recruitment uncouple and internalize GPCRs. GPCR desensitization is a core physiologic control process.",
+      "answer": "B) G protein-coupled receptor kinase phosphorylation and β-arrestin recruitment uncouple and internalize G protein-coupled receptors",
+      "explanation": "Acute regulation uses phosphorylation and arrestin-mediated uncoupling. Therefore, the most accurate choice is: G protein-coupled receptor kinase phosphorylation and β-arrestin recruitment uncouple and internalize G protein-coupled receptors. G protein-coupled receptor desensitization is a core physiologic control process.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Acute regulation uses phosphorylation and arrestin-mediated uncoupling. This matches the correct interpretation.",
-        "C": "GPCR desensitization is a core physiologic control process. It is less consistent than the correct choice.",
+        "C": "G protein-coupled receptor desensitization is a core physiologic control process. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmacology:extreme:26",
-      "question": "A detailed evaluation for synergism is underway in a 39-year-old woman. Which of the following is correct?",
+      "question": "A detailed evaluation for synergism is underway in a 55-year-old woman. Which of the following is correct?",
       "options": [
         "A) Caused by naloxone reversing opioid effects",
         "B) Oral drugs never form active metabolites",
@@ -2117,12 +2117,12 @@
       "question": "In advanced review of physiological antagonism, which of the following is most accurate?",
       "options": [
         "A) Indirect agents only bind receptors without affecting transmitter release",
-        "B) Opposing physiologic systems counteract effects (e.g., epinephrine vs histamine on bronchi)",
+        "B) Opposing physiologic systems counteract effects (e.g., epinephrine versus histamine on bronchi)",
         "C) Direct chemical neutralization of a drug in a syringe before injection",
         "D) Pure muscarinic antagonism without nicotinic receptor engagement"
       ],
-      "answer": "B) Opposing physiologic systems counteract effects (e.g., epinephrine vs histamine on bronchi)",
-      "explanation": "Functional opposition uses different pathways/receptors. Therefore, the most accurate choice is: Opposing physiologic systems counteract effects (e.g., epinephrine vs histamine on bronchi). In-vitro chemical inactivation is chemical antagonism.",
+      "answer": "B) Opposing physiologic systems counteract effects (e.g., epinephrine versus histamine on bronchi)",
+      "explanation": "Functional opposition uses different pathways/receptors. Therefore, the most accurate choice is: Opposing physiologic systems counteract effects (e.g., epinephrine versus histamine on bronchi). In-vitro chemical inactivation is chemical antagonism.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Functional opposition uses different pathways/receptors. This matches the correct interpretation.",
@@ -2150,19 +2150,19 @@
     },
     {
       "id": "pharmacology:extreme:29",
-      "question": "Which closely related statement about PK antagonism is correct?",
+      "question": "Which closely related statement about pharmacokinetics antagonism is correct?",
       "options": [
-        "A) One drug reduces another’s concentration via ADME changes",
+        "A) One drug reduces another’s concentration via absorption, distribution, metabolism, and excretion changes",
         "B) Always raises substrate levels by blocking metabolism",
         "C) Opposite efficacy at the same receptor without changing levels",
         "D) Competitive occupancy of the same orthosteric receptor site"
       ],
-      "answer": "A) One drug reduces another’s concentration via ADME changes",
-      "explanation": "Induction or absorption impairment can lower substrate exposure. Therefore, the most accurate choice is: One drug reduces another’s concentration via ADME changes. Opposite receptor efficacy without level change is PD antagonism.",
+      "answer": "A) One drug reduces another’s concentration via absorption, distribution, metabolism, and excretion changes",
+      "explanation": "Induction or absorption impairment can lower substrate exposure. Therefore, the most accurate choice is: One drug reduces another’s concentration via absorption, distribution, metabolism, and excretion changes. Opposite receptor efficacy without level change is pharmacodynamics antagonism.",
       "choice_explanations": {
         "A": "Induction or absorption impairment can lower substrate exposure. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Opposite receptor efficacy without level change is PD antagonism. It is less consistent than the correct choice.",
+        "C": "Opposite receptor efficacy without level change is pharmacodynamics antagonism. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     }

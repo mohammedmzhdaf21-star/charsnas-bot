@@ -5,12 +5,12 @@
       "question": "Which of the following is true of periodontium components?",
       "options": [
         "A) Periodontium is only enamel and dentin",
-        "B) Periodontium includes gingiva, PDL, cementum, and alveolar bone",
-        "C) Peri-implant tissues are histologically identical to PDL insertion into cementum",
+        "B) Periodontium includes gingiva, periodontal ligament, cementum, and alveolar bone",
+        "C) Peri-implant tissues are histologically identical to periodontal ligament insertion into cementum",
         "D) Repair regenerates full pristine periodontium by definition always"
       ],
-      "answer": "B) Periodontium includes gingiva, PDL, cementum, and alveolar bone",
-      "explanation": "Supporting apparatus of the tooth comprises those four tissues. Therefore, the most accurate choice is: Periodontium includes gingiva, PDL, cementum, and alveolar bone. Enamel and pulp are not periodontium components.",
+      "answer": "B) Periodontium includes gingiva, periodontal ligament, cementum, and alveolar bone",
+      "explanation": "Supporting apparatus of the tooth comprises those four tissues. Therefore, the most accurate choice is: Periodontium includes gingiva, periodontal ligament, cementum, and alveolar bone. Enamel and pulp are not periodontium components.",
       "choice_explanations": {
         "A": "Enamel and pulp are not periodontium components. It is less consistent than the correct choice.",
         "B": "Supporting apparatus of the tooth comprises those four tissues. This matches the correct interpretation.",
@@ -20,7 +20,7 @@
     },
     {
       "id": "periodontics:easy:1",
-      "question": "Which finding matches gingivitis vs periodontitis?",
+      "question": "Which finding matches gingivitis versus periodontitis?",
       "options": [
         "A) Gingivitis always includes irreversible bone loss by definition",
         "B) This pattern is identical to simple plaque-only gingivitis without loss",
@@ -60,7 +60,7 @@
       "options": [
         "A) Calculus is mineralized plaque that harbors biofilm and perpetuates inflammation",
         "B) Calculus alone without biofilm is the primary pathogen in germ-free models always",
-        "C) SRP means intentional removal of all cementum to dentin always as the only goal",
+        "C) scaling and root planing means intentional removal of all cementum to dentin always as the only goal",
         "D) Mucositis always includes progressive cratering bone loss by definition"
       ],
       "answer": "A) Calculus is mineralized plaque that harbors biofilm and perpetuates inflammation",
@@ -74,9 +74,9 @@
     },
     {
       "id": "periodontics:easy:4",
-      "question": "Which of the following best describes supragingival vs subgingival calculus?",
+      "question": "Which of the following best describes supragingival versus subgingival calculus?",
       "options": [
-        "A) LGE is identical to healthy stippled pink gingiva",
+        "A) local gingival erythema is identical to healthy stippled pink gingiva",
         "B) Both types exist only on the tongue dorsum",
         "C) Supragingival calculus is coronal to the gingiva; subgingival lies in the pocket",
         "D) All graft types are identical living autogenous bone always"
@@ -94,16 +94,16 @@
       "id": "periodontics:easy:5",
       "question": "Select the correct statement about attachment loss.",
       "options": [
-        "A) CAL equals probing depth alone always without CEJ reference",
-        "B) CAL is measured from CEJ to base of pocket, reflecting cumulative attachment loss",
-        "C) Probing depth is CEJ to apex length",
+        "A) clinical attachment level equals probing depth alone always without cementoenamel junction reference",
+        "B) clinical attachment level is measured from cementoenamel junction to base of pocket, reflecting cumulative attachment loss",
+        "C) Probing depth is cementoenamel junction to apex length",
         "D) Pseudopockets always show radiographic bone loss to apex"
       ],
-      "answer": "B) CAL is measured from CEJ to base of pocket, reflecting cumulative attachment loss",
-      "explanation": "Subtracting gingival margin position relative to CEJ yields attachment level. Therefore, the most accurate choice is: CAL is measured from CEJ to base of pocket, reflecting cumulative attachment loss. Probing depth alone ignores recession or hyperplasia effects.",
+      "answer": "B) clinical attachment level is measured from cementoenamel junction to base of pocket, reflecting cumulative attachment loss",
+      "explanation": "Subtracting gingival margin position relative to cementoenamel junction yields attachment level. Therefore, the most accurate choice is: clinical attachment level is measured from cementoenamel junction to base of pocket, reflecting cumulative attachment loss. Probing depth alone ignores recession or hyperplasia effects.",
       "choice_explanations": {
         "A": "Probing depth alone ignores recession or hyperplasia effects. It is less consistent than the correct choice.",
-        "B": "Subtracting gingival margin position relative to CEJ yields attachment level. This matches the correct interpretation.",
+        "B": "Subtracting gingival margin position relative to cementoenamel junction yields attachment level. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -113,9 +113,9 @@
       "question": "Which mechanism accounts for probing depth?",
       "options": [
         "A) Probing depth is gingival margin to probe tip at sulcus or pocket base",
-        "B) APF coronally advances tissue to cover recession as its definition",
-        "C) Probing depth is CEJ to apex length",
-        "D) CAL equals probing depth alone always without CEJ reference"
+        "B) acidulated phosphate fluoride coronally advances tissue to cover recession as its definition",
+        "C) Probing depth is cementoenamel junction to apex length",
+        "D) clinical attachment level equals probing depth alone always without cementoenamel junction reference"
       ],
       "answer": "A) Probing depth is gingival margin to probe tip at sulcus or pocket base",
       "explanation": "Periodontal probe records soft-tissue pocket depth clinically. Therefore, the most accurate choice is: Probing depth is gingival margin to probe tip at sulcus or pocket base. Radiographs and tooth length are different measures.",
@@ -130,13 +130,13 @@
       "id": "periodontics:easy:7",
       "question": "Which of the following applies to bleeding on probing?",
       "options": [
-        "A) BOP proves the tooth needs immediate extraction always",
-        "B) BOP indicates inflammation of the pocket wall and ongoing disease activity risk",
+        "A) bleeding on probing proves the tooth needs immediate extraction always",
+        "B) bleeding on probing indicates inflammation of the pocket wall and ongoing disease activity risk",
         "C) Pseudopockets always show radiographic bone loss to apex",
-        "D) CAL equals probing depth alone always without CEJ reference"
+        "D) clinical attachment level equals probing depth alone always without cementoenamel junction reference"
       ],
-      "answer": "B) BOP indicates inflammation of the pocket wall and ongoing disease activity risk",
-      "explanation": "Ulcerated pocket epithelium bleeds when probed. Therefore, the most accurate choice is: BOP indicates inflammation of the pocket wall and ongoing disease activity risk. Bleeding guides inflammation assessment, not automatic extraction.",
+      "answer": "B) bleeding on probing indicates inflammation of the pocket wall and ongoing disease activity risk",
+      "explanation": "Ulcerated pocket epithelium bleeds when probed. Therefore, the most accurate choice is: bleeding on probing indicates inflammation of the pocket wall and ongoing disease activity risk. Bleeding guides inflammation assessment, not automatic extraction.",
       "choice_explanations": {
         "A": "Bleeding guides inflammation assessment, not automatic extraction. It is less consistent than the correct choice.",
         "B": "Ulcerated pocket epithelium bleeds when probed. This matches the correct interpretation.",
@@ -151,7 +151,7 @@
         "A) Recession means increased bone height always",
         "B) Sensitivity from recession is treated by intentional further root planing only always",
         "C) Recession is apical shift of gingival margin exposing root surface",
-        "D) SRP means intentional removal of all cementum to dentin always as the only goal"
+        "D) scaling and root planing means intentional removal of all cementum to dentin always as the only goal"
       ],
       "answer": "C) Recession is apical shift of gingival margin exposing root surface",
       "explanation": "Loss of marginal gingiva height exposes cementum and can cause sensitivity. Therefore, the most accurate choice is: Recession is apical shift of gingival margin exposing root surface. It is soft-tissue margin position, not a synonym for pocket depth.",
@@ -166,52 +166,52 @@
       "id": "periodontics:easy:9",
       "question": "Which finding is expected in furcation Class I?",
       "options": [
-        "A) Class III means only a catch at the entrance without horizontal loss",
-        "B) Class II means no furcation involvement detectable",
+        "A) Class 3 means only a catch at the entrance without horizontal loss",
+        "B) Class 2 means no furcation involvement detectable",
         "C) Class I furcation: detectable horizontal involvement into the flute without through-and-through",
         "D) Class I means probe passes completely through furcation to the other side"
       ],
       "answer": "C) Class I furcation: detectable horizontal involvement into the flute without through-and-through",
-      "explanation": "Early horizontal loss into furcation entrance is Class I (Glickman). Therefore, the most accurate choice is: Class I furcation: detectable horizontal involvement into the flute without through-and-through. Through-and-through involvement is Class III.",
+      "explanation": "Early horizontal loss into furcation entrance is Class I (Glickman). Therefore, the most accurate choice is: Class I furcation: detectable horizontal involvement into the flute without through-and-through. Through-and-through involvement is Class 3.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Early horizontal loss into furcation entrance is Class I (Glickman). This matches the correct interpretation.",
-        "D": "Through-and-through involvement is Class III. It is less consistent than the correct choice."
+        "D": "Through-and-through involvement is Class 3. It is less consistent than the correct choice."
       }
     },
     {
       "id": "periodontics:easy:10",
-      "question": "Which of the following statements about furcation Class II is correct?",
+      "question": "Which of the following statements about furcation Class 2 is correct?",
       "options": [
-        "A) Class II means no furcation involvement detectable",
+        "A) Class 2 means no furcation involvement detectable",
         "B) Class I means probe passes completely through furcation to the other side",
-        "C) Class III means only a catch at the entrance without horizontal loss",
-        "D) Class II furcation: horizontal loss into furcation that does not go through-and-through"
+        "C) Class 3 means only a catch at the entrance without horizontal loss",
+        "D) Class 2 furcation: horizontal loss into furcation that does not go through-and-through"
       ],
-      "answer": "D) Class II furcation: horizontal loss into furcation that does not go through-and-through",
-      "explanation": "Partial horizontal penetration short of complete pass-through is Class II. Therefore, the most accurate choice is: Class II furcation: horizontal loss into furcation that does not go through-and-through. No involvement is Class 0/none; complete through is Class III.",
+      "answer": "D) Class 2 furcation: horizontal loss into furcation that does not go through-and-through",
+      "explanation": "Partial horizontal penetration short of complete pass-through is Class 2. Therefore, the most accurate choice is: Class 2 furcation: horizontal loss into furcation that does not go through-and-through. No involvement is Class 0/none; complete through is Class 3.",
       "choice_explanations": {
-        "A": "No involvement is Class 0/none; complete through is Class III. It is less consistent than the correct choice.",
+        "A": "No involvement is Class 0/none; complete through is Class 3. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Partial horizontal penetration short of complete pass-through is Class II. This matches the correct interpretation."
+        "D": "Partial horizontal penetration short of complete pass-through is Class 2. This matches the correct interpretation."
       }
     },
     {
       "id": "periodontics:easy:11",
-      "question": "In furcation Class III, which of the following is correct?",
+      "question": "In furcation Class 3, which of the following is correct?",
       "options": [
-        "A) Class II means no furcation involvement detectable",
-        "B) Class III furcation: through-and-through involvement under the roof of the furcation",
+        "A) Class 2 means no furcation involvement detectable",
+        "B) Class 3 furcation: through-and-through involvement under the roof of the furcation",
         "C) Class I means probe passes completely through furcation to the other side",
-        "D) Class III means only a catch at the entrance without horizontal loss"
+        "D) Class 3 means only a catch at the entrance without horizontal loss"
       ],
-      "answer": "B) Class III furcation: through-and-through involvement under the roof of the furcation",
-      "explanation": "Probe passes between roots through the furcation in Class III. Therefore, the most accurate choice is: Class III furcation: through-and-through involvement under the roof of the furcation. Entrance catch only is earlier class involvement.",
+      "answer": "B) Class 3 furcation: through-and-through involvement under the roof of the furcation",
+      "explanation": "Probe passes between roots through the furcation in Class 3. Therefore, the most accurate choice is: Class 3 furcation: through-and-through involvement under the roof of the furcation. Entrance catch only is earlier class involvement.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Probe passes between roots through the furcation in Class III. This matches the correct interpretation.",
+        "B": "Probe passes between roots through the furcation in Class 3. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Entrance catch only is earlier class involvement. It is less consistent than the correct choice."
       }
@@ -222,62 +222,62 @@
       "options": [
         "A) Miller Class I mobility: first distinguishable sign of movement greater than normal",
         "B) Class I mobility means vertical depression into the socket freely",
-        "C) Class III mobility means physiologic mobility only",
-        "D) Class II means no detectable movement"
+        "C) Class 3 mobility means physiologic mobility only",
+        "D) Class 2 means no detectable movement"
       ],
       "answer": "A) Miller Class I mobility: first distinguishable sign of movement greater than normal",
-      "explanation": "Horizontal movement just beyond physiologic is Class I. Therefore, the most accurate choice is: Miller Class I mobility: first distinguishable sign of movement greater than normal. Vertical mobility indicates more severe Class III patterns.",
+      "explanation": "Horizontal movement just beyond physiologic is Class I. Therefore, the most accurate choice is: Miller Class I mobility: first distinguishable sign of movement greater than normal. Vertical mobility indicates more severe Class 3 patterns.",
       "choice_explanations": {
         "A": "Horizontal movement just beyond physiologic is Class I. This matches the correct interpretation.",
-        "B": "Vertical mobility indicates more severe Class III patterns. It is less consistent than the correct choice.",
+        "B": "Vertical mobility indicates more severe Class 3 patterns. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "periodontics:easy:13",
-      "question": "Select the correct statement about mobility Miller Class II.",
+      "question": "Select the correct statement about mobility Miller Class 2.",
       "options": [
-        "A) Class II means no detectable movement",
-        "B) Class II mobility: movement up to 1 mm horizontally without vertical depression",
-        "C) Class III mobility means physiologic mobility only",
+        "A) Class 2 means no detectable movement",
+        "B) Class 2 mobility: movement up to 1 mm horizontally without vertical depression",
+        "C) Class 3 mobility means physiologic mobility only",
         "D) Class I mobility means vertical depression into the socket freely"
       ],
-      "answer": "B) Class II mobility: movement up to 1 mm horizontally without vertical depression",
-      "explanation": "Moderate horizontal mobility short of vertical defines Class II. Therefore, the most accurate choice is: Class II mobility: movement up to 1 mm horizontally without vertical depression. Absence of movement is physiologic/normal, not Class II.",
+      "answer": "B) Class 2 mobility: movement up to 1 mm horizontally without vertical depression",
+      "explanation": "Moderate horizontal mobility short of vertical defines Class 2. Therefore, the most accurate choice is: Class 2 mobility: movement up to 1 mm horizontally without vertical depression. Absence of movement is physiologic/normal, not Class 2.",
       "choice_explanations": {
-        "A": "Absence of movement is physiologic/normal, not Class II. It is less consistent than the correct choice.",
-        "B": "Moderate horizontal mobility short of vertical defines Class II. This matches the correct interpretation.",
+        "A": "Absence of movement is physiologic/normal, not Class 2. It is less consistent than the correct choice.",
+        "B": "Moderate horizontal mobility short of vertical defines Class 2. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "periodontics:easy:14",
-      "question": "Which mechanism accounts for mobility Miller Class III?",
+      "question": "Which mechanism accounts for mobility Miller Class 3?",
       "options": [
-        "A) Class II means no detectable movement",
+        "A) Class 2 means no detectable movement",
         "B) Class I mobility means vertical depression into the socket freely",
-        "C) Class III mobility means physiologic mobility only",
-        "D) Class III mobility: >1 mm horizontal movement or vertical depressibility"
+        "C) Class 3 mobility means physiologic mobility only",
+        "D) Class 3 mobility: >1 mm horizontal movement or vertical depressibility"
       ],
-      "answer": "D) Class III mobility: >1 mm horizontal movement or vertical depressibility",
-      "explanation": "Severe horizontal or any vertical mobility is Class III. Therefore, the most accurate choice is: Class III mobility: >1 mm horizontal movement or vertical depressibility. Physiologic mobility is far less.",
+      "answer": "D) Class 3 mobility: >1 mm horizontal movement or vertical depressibility",
+      "explanation": "Severe horizontal or any vertical mobility is Class 3. Therefore, the most accurate choice is: Class 3 mobility: >1 mm horizontal movement or vertical depressibility. Physiologic mobility is far less.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Physiologic mobility is far less. It is less consistent than the correct choice.",
-        "D": "Severe horizontal or any vertical mobility is Class III. This matches the correct interpretation."
+        "D": "Severe horizontal or any vertical mobility is Class 3. This matches the correct interpretation."
       }
     },
     {
       "id": "periodontics:easy:15",
-      "question": "Which of the following applies to primary vs secondary occlusal trauma?",
+      "question": "Which of the following applies to primary versus secondary occlusal trauma?",
       "options": [
         "A) Primary occlusal trauma means periodontitis has already destroyed support first always",
         "B) Primary occlusal trauma: injury from excessive force on a tooth with normal support",
-        "C) Extract every Class II mobile tooth the same day without therapy trial",
-        "D) Occlusal adjustment replaces SRP for plaque-induced periodontitis"
+        "C) Extract every Class 2 mobile tooth the same day without therapy trial",
+        "D) Occlusal adjustment replaces scaling and root planing for plaque-induced periodontitis"
       ],
       "answer": "B) Primary occlusal trauma: injury from excessive force on a tooth with normal support",
       "explanation": "Secondary trauma is excessive force on reduced support; primary is on intact support. Therefore, the most accurate choice is: Primary occlusal trauma: injury from excessive force on a tooth with normal support. Periodontitis causes attachment loss; trauma alone does not create pocket infections.",
@@ -294,7 +294,7 @@
       "options": [
         "A) Fremitus is palpable vibration of a tooth under occlusal load",
         "B) Fremitus is a type of composite resin",
-        "C) Occlusal adjustment replaces SRP for plaque-induced periodontitis",
+        "C) Occlusal adjustment replaces scaling and root planing for plaque-induced periodontitis",
         "D) Primary occlusal trauma means periodontitis has already destroyed support first always"
       ],
       "answer": "A) Fremitus is palpable vibration of a tooth under occlusal load",
@@ -311,12 +311,12 @@
       "question": "Which finding is expected in nonsurgical scaling root planing?",
       "options": [
         "A) Calculus alone without biofilm is the primary pathogen in germ-free models always",
-        "B) SRP means intentional removal of all cementum to dentin always as the only goal",
-        "C) SRP removes biofilm and calculus from crown and root to reduce inflammation",
+        "B) scaling and root planing means intentional removal of all cementum to dentin always as the only goal",
+        "C) scaling and root planing removes biofilm and calculus from crown and root to reduce inflammation",
         "D) Sensitivity from recession is treated by intentional further root planing only always"
       ],
-      "answer": "C) SRP removes biofilm and calculus from crown and root to reduce inflammation",
-      "explanation": "Instrumentation disrupts subgingival biofilm and deposits for healing. Therefore, the most accurate choice is: SRP removes biofilm and calculus from crown and root to reduce inflammation. Cementum conservation with deposit removal is modern emphasis; hygiene remains essential.",
+      "answer": "C) scaling and root planing removes biofilm and calculus from crown and root to reduce inflammation",
+      "explanation": "Instrumentation disrupts subgingival biofilm and deposits for healing. Therefore, the most accurate choice is: scaling and root planing removes biofilm and calculus from crown and root to reduce inflammation. Cementum conservation with deposit removal is modern emphasis; hygiene remains essential.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Cementum conservation with deposit removal is modern emphasis; hygiene remains essential. It is less consistent than the correct choice.",
@@ -346,9 +346,9 @@
       "id": "periodontics:easy:19",
       "question": "In chlorhexidine role, which of the following is correct?",
       "options": [
-        "A) Occlusal adjustment replaces SRP for plaque-induced periodontitis",
+        "A) Occlusal adjustment replaces scaling and root planing for plaque-induced periodontitis",
         "B) Host modulation replaces plaque control entirely",
-        "C) CHX rinse replaces all brushing and SRP forever",
+        "C) chlorhexidine rinse replaces all brushing and scaling and root planing forever",
         "D) Chlorhexidine is an adjunctive antiplaque antiseptic, not a standalone periodontitis cure"
       ],
       "answer": "D) Chlorhexidine is an adjunctive antiplaque antiseptic, not a standalone periodontitis cure",
@@ -385,7 +385,7 @@
         "A) Combined endodontic-periodontal lesions need both pulp and periodontal cause management",
         "B) All buccal swellings are periodontal without vitality testing",
         "C) Treating only the gingiva cures a necrotic tooth's combined lesion always",
-        "D) JE is keratinized like palatal masticatory epithelium always"
+        "D) junctional epithelium is keratinized like palatal masticatory epithelium always"
       ],
       "answer": "A) Combined endodontic-periodontal lesions need both pulp and periodontal cause management",
       "explanation": "Necrotic pulp and periodontal destruction can communicate via apex and canals. Therefore, the most accurate choice is: Combined endodontic-periodontal lesions need both pulp and periodontal cause management. Both etiologies may require therapy.",
@@ -442,12 +442,12 @@
         "D) Smoking improves periodontal regeneration outcomes"
       ],
       "answer": "B) Smoking increases periodontitis severity and masks bleeding while impairing healing",
-      "explanation": "Vascular and immune changes worsen destruction and response to therapy. Therefore, the most accurate choice is: Smoking increases periodontitis severity and masks bleeding while impairing healing. BOP may be reduced despite disease in smokers.",
+      "explanation": "Vascular and immune changes worsen destruction and response to therapy. Therefore, the most accurate choice is: Smoking increases periodontitis severity and masks bleeding while impairing healing. bleeding on probing may be reduced despite disease in smokers.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Vascular and immune changes worsen destruction and response to therapy. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "BOP may be reduced despite disease in smokers. It is less consistent than the correct choice."
+        "D": "bleeding on probing may be reduced despite disease in smokers. It is less consistent than the correct choice."
       }
     },
     {
@@ -475,13 +475,13 @@
         "A) Phenytoin, cyclosporine, and calcium channel blockers can cause gingival overgrowth",
         "B) Only acetaminophen causes severe gingival hyperplasia characteristically",
         "C) Plaque is sterile food debris only",
-        "D) NUG is painless chronic gingival hyperplasia only"
+        "D) necrotizing ulcerative gingivitis is painless chronic gingival hyperplasia only"
       ],
       "answer": "A) Phenytoin, cyclosporine, and calcium channel blockers can cause gingival overgrowth",
-      "explanation": "Drug-influenced fibroblasts overproduce matrix especially with plaque inflammation. Therefore, the most accurate choice is: Phenytoin, cyclosporine, and calcium channel blockers can cause gingival overgrowth. Classic culprits are those anticonvulsant, immunosuppressant, and CCB drugs.",
+      "explanation": "Drug-influenced fibroblasts overproduce matrix especially with plaque inflammation. Therefore, the most accurate choice is: Phenytoin, cyclosporine, and calcium channel blockers can cause gingival overgrowth. Classic culprits are those anticonvulsant, immunosuppressant, and calcium channel blocker drugs.",
       "choice_explanations": {
         "A": "Drug-influenced fibroblasts overproduce matrix especially with plaque inflammation. This matches the correct interpretation.",
-        "B": "Classic culprits are those anticonvulsant, immunosuppressant, and CCB drugs. It is less consistent than the correct choice.",
+        "B": "Classic culprits are those anticonvulsant, immunosuppressant, and calcium channel blocker drugs. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -491,12 +491,12 @@
       "question": "In necrotizing ulcerative gingivitis, which of the following is correct?",
       "options": [
         "A) Necrotizing periodontitis never involves bone",
-        "B) NUG: painful punched-out interdental papillae, necrosis, fetor, often in stress/smoking",
+        "B) necrotizing ulcerative gingivitis: painful punched-out interdental papillae, necrosis, fetor, often in stress/smoking",
         "C) Only acetaminophen causes severe gingival hyperplasia characteristically",
-        "D) NUG is painless chronic gingival hyperplasia only"
+        "D) necrotizing ulcerative gingivitis is painless chronic gingival hyperplasia only"
       ],
-      "answer": "B) NUG: painful punched-out interdental papillae, necrosis, fetor, often in stress/smoking",
-      "explanation": "Fusospirochetal overgrowth with host compromise causes papillary necrosis. Therefore, the most accurate choice is: NUG: painful punched-out interdental papillae, necrosis, fetor, often in stress/smoking. Painful necrosis differs from chronic fibrotic enlargement.",
+      "answer": "B) necrotizing ulcerative gingivitis: painful punched-out interdental papillae, necrosis, fetor, often in stress/smoking",
+      "explanation": "Fusospirochetal overgrowth with host compromise causes papillary necrosis. Therefore, the most accurate choice is: necrotizing ulcerative gingivitis: painful punched-out interdental papillae, necrosis, fetor, often in stress/smoking. Painful necrosis differs from chronic fibrotic enlargement.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Fusospirochetal overgrowth with host compromise causes papillary necrosis. This matches the correct interpretation.",
@@ -514,12 +514,12 @@
         "D) Necrotizing periodontitis never involves bone"
       ],
       "answer": "C) Necrotizing periodontitis includes attachment and bone loss with necrotic ulcerative features",
-      "explanation": "Extension of necrotizing disease beyond gingiva destroys attachment. Therefore, the most accurate choice is: Necrotizing periodontitis includes attachment and bone loss with necrotic ulcerative features. Bone involvement distinguishes it from NUG alone.",
+      "explanation": "Extension of necrotizing disease beyond gingiva destroys attachment. Therefore, the most accurate choice is: Necrotizing periodontitis includes attachment and bone loss with necrotic ulcerative features. Bone involvement distinguishes it from necrotizing ulcerative gingivitis alone.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Extension of necrotizing disease beyond gingiva destroys attachment. This matches the correct interpretation.",
-        "D": "Bone involvement distinguishes it from NUG alone. It is less consistent than the correct choice."
+        "D": "Bone involvement distinguishes it from necrotizing ulcerative gingivitis alone. It is less consistent than the correct choice."
       }
     },
     {
@@ -529,7 +529,7 @@
         "A) Staging describes severity/complexity; grading describes progression risk in modern classification",
         "B) All patients have identical risk regardless of smoking or diabetes",
         "C) Staging and grading refer only to composite hardness",
-        "D) Extract every Class II mobile tooth the same day without therapy trial"
+        "D) Extract every Class 2 mobile tooth the same day without therapy trial"
       ],
       "answer": "A) Staging describes severity/complexity; grading describes progression risk in modern classification",
       "explanation": "Framework guides prognosis and intensity of therapy. Therefore, the most accurate choice is: Staging describes severity/complexity; grading describes progression risk in modern classification. Clinical attachment, bone loss, and risk factors feed stage/grade.",
@@ -544,15 +544,15 @@
   "medium": [
     {
       "id": "periodontics:medium:0",
-      "question": "A 74-year-old woman presents for dental care with findings of periodontium components. Which of the following is correct?",
+      "question": "A 42-year-old woman presents for dental care with findings of periodontium components. Which of the following is correct?",
       "options": [
-        "A) Periodontium includes gingiva, PDL, cementum, and alveolar bone",
-        "B) Peri-implant tissues are histologically identical to PDL insertion into cementum",
+        "A) Periodontium includes gingiva, periodontal ligament, cementum, and alveolar bone",
+        "B) Peri-implant tissues are histologically identical to periodontal ligament insertion into cementum",
         "C) Repair regenerates full pristine periodontium by definition always",
         "D) Periodontium is only enamel and dentin"
       ],
-      "answer": "A) Periodontium includes gingiva, PDL, cementum, and alveolar bone",
-      "explanation": "Supporting apparatus of the tooth comprises those four tissues. Therefore, the most accurate choice is: Periodontium includes gingiva, PDL, cementum, and alveolar bone. Enamel and pulp are not periodontium components.",
+      "answer": "A) Periodontium includes gingiva, periodontal ligament, cementum, and alveolar bone",
+      "explanation": "Supporting apparatus of the tooth comprises those four tissues. Therefore, the most accurate choice is: Periodontium includes gingiva, periodontal ligament, cementum, and alveolar bone. Enamel and pulp are not periodontium components.",
       "choice_explanations": {
         "A": "Supporting apparatus of the tooth comprises those four tissues. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -562,7 +562,7 @@
     },
     {
       "id": "periodontics:medium:1",
-      "question": "While evaluating a 57-year-old man, attention turns to gingivitis vs periodontitis. Which of the following is most accurate?",
+      "question": "While evaluating a 61-year-old man, attention turns to gingivitis versus periodontitis. Which of the following is most accurate?",
       "options": [
         "A) Mucositis always includes progressive cratering bone loss by definition",
         "B) Gingivitis always includes irreversible bone loss by definition",
@@ -598,12 +598,12 @@
     },
     {
       "id": "periodontics:medium:3",
-      "question": "A 65-year-old man is examined for calculus role. Which of the following is most likely?",
+      "question": "A 69-year-old man is examined for calculus role. Which of the following is most likely?",
       "options": [
         "A) Mucositis always includes progressive cratering bone loss by definition",
         "B) Calculus is mineralized plaque that harbors biofilm and perpetuates inflammation",
         "C) Calculus alone without biofilm is the primary pathogen in germ-free models always",
-        "D) SRP means intentional removal of all cementum to dentin always as the only goal"
+        "D) scaling and root planing means intentional removal of all cementum to dentin always as the only goal"
       ],
       "answer": "B) Calculus is mineralized plaque that harbors biofilm and perpetuates inflammation",
       "explanation": "Rough mineralized deposits retain living biofilm against the tissue. Therefore, the most accurate choice is: Calculus is mineralized plaque that harbors biofilm and perpetuates inflammation. Pathogenicity relates to the biofilm on calculus.",
@@ -616,12 +616,12 @@
     },
     {
       "id": "periodontics:medium:4",
-      "question": "Clinical testing related to supragingival vs subgingival calculus is performed. Which of the following is correct?",
+      "question": "Clinical testing related to supragingival versus subgingival calculus is performed. Which of the following is correct?",
       "options": [
         "A) Supragingival calculus is coronal to the gingiva; subgingival lies in the pocket",
         "B) Both types exist only on the tongue dorsum",
         "C) All graft types are identical living autogenous bone always",
-        "D) LGE is identical to healthy stippled pink gingiva"
+        "D) local gingival erythema is identical to healthy stippled pink gingiva"
       ],
       "answer": "A) Supragingival calculus is coronal to the gingiva; subgingival lies in the pocket",
       "explanation": "Location relative to gingival margin defines the categories and detection methods. Therefore, the most accurate choice is: Supragingival calculus is coronal to the gingiva; subgingival lies in the pocket. Subgingival deposits are often darker and detected by exploring.",
@@ -634,30 +634,30 @@
     },
     {
       "id": "periodontics:medium:5",
-      "question": "A 49-year-old man is assessed for attachment loss. Which of the following is most accurate?",
+      "question": "A 53-year-old man is assessed for attachment loss. Which of the following is most accurate?",
       "options": [
-        "A) Probing depth is CEJ to apex length",
-        "B) CAL equals probing depth alone always without CEJ reference",
+        "A) Probing depth is cementoenamel junction to apex length",
+        "B) clinical attachment level equals probing depth alone always without cementoenamel junction reference",
         "C) Pseudopockets always show radiographic bone loss to apex",
-        "D) CAL is measured from CEJ to base of pocket, reflecting cumulative attachment loss"
+        "D) clinical attachment level is measured from cementoenamel junction to base of pocket, reflecting cumulative attachment loss"
       ],
-      "answer": "D) CAL is measured from CEJ to base of pocket, reflecting cumulative attachment loss",
-      "explanation": "Subtracting gingival margin position relative to CEJ yields attachment level. Therefore, the most accurate choice is: CAL is measured from CEJ to base of pocket, reflecting cumulative attachment loss. Probing depth alone ignores recession or hyperplasia effects.",
+      "answer": "D) clinical attachment level is measured from cementoenamel junction to base of pocket, reflecting cumulative attachment loss",
+      "explanation": "Subtracting gingival margin position relative to cementoenamel junction yields attachment level. Therefore, the most accurate choice is: clinical attachment level is measured from cementoenamel junction to base of pocket, reflecting cumulative attachment loss. Probing depth alone ignores recession or hyperplasia effects.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Probing depth alone ignores recession or hyperplasia effects. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Subtracting gingival margin position relative to CEJ yields attachment level. This matches the correct interpretation."
+        "D": "Subtracting gingival margin position relative to cementoenamel junction yields attachment level. This matches the correct interpretation."
       }
     },
     {
       "id": "periodontics:medium:6",
       "question": "In the dental clinic, probing depth is suspected. Which of the following is correct?",
       "options": [
-        "A) CAL equals probing depth alone always without CEJ reference",
+        "A) clinical attachment level equals probing depth alone always without cementoenamel junction reference",
         "B) Probing depth is gingival margin to probe tip at sulcus or pocket base",
-        "C) APF coronally advances tissue to cover recession as its definition",
-        "D) Probing depth is CEJ to apex length"
+        "C) acidulated phosphate fluoride coronally advances tissue to cover recession as its definition",
+        "D) Probing depth is cementoenamel junction to apex length"
       ],
       "answer": "B) Probing depth is gingival margin to probe tip at sulcus or pocket base",
       "explanation": "Periodontal probe records soft-tissue pocket depth clinically. Therefore, the most accurate choice is: Probing depth is gingival margin to probe tip at sulcus or pocket base. Radiographs and tooth length are different measures.",
@@ -670,15 +670,15 @@
     },
     {
       "id": "periodontics:medium:7",
-      "question": "A 75-year-old man has oral findings of bleeding on probing. Which of the following is most accurate?",
+      "question": "A 43-year-old man has oral findings of bleeding on probing. Which of the following is most accurate?",
       "options": [
-        "A) BOP indicates inflammation of the pocket wall and ongoing disease activity risk",
-        "B) CAL equals probing depth alone always without CEJ reference",
-        "C) BOP proves the tooth needs immediate extraction always",
+        "A) bleeding on probing indicates inflammation of the pocket wall and ongoing disease activity risk",
+        "B) clinical attachment level equals probing depth alone always without cementoenamel junction reference",
+        "C) bleeding on probing proves the tooth needs immediate extraction always",
         "D) Pseudopockets always show radiographic bone loss to apex"
       ],
-      "answer": "A) BOP indicates inflammation of the pocket wall and ongoing disease activity risk",
-      "explanation": "Ulcerated pocket epithelium bleeds when probed. Therefore, the most accurate choice is: BOP indicates inflammation of the pocket wall and ongoing disease activity risk. Bleeding guides inflammation assessment, not automatic extraction.",
+      "answer": "A) bleeding on probing indicates inflammation of the pocket wall and ongoing disease activity risk",
+      "explanation": "Ulcerated pocket epithelium bleeds when probed. Therefore, the most accurate choice is: bleeding on probing indicates inflammation of the pocket wall and ongoing disease activity risk. Bleeding guides inflammation assessment, not automatic extraction.",
       "choice_explanations": {
         "A": "Ulcerated pocket epithelium bleeds when probed. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -688,7 +688,7 @@
     },
     {
       "id": "periodontics:medium:8",
-      "question": "A 61-year-old man presents for dental care with findings of gingival recession. Which of the following is correct?",
+      "question": "A 65-year-old man presents for dental care with findings of gingival recession. Which of the following is correct?",
       "options": [
         "A) Sensitivity from recession is treated by intentional further root planing only always",
         "B) Recession means increased bone height always",
@@ -706,53 +706,53 @@
     },
     {
       "id": "periodontics:medium:9",
-      "question": "A 47-year-old man reports dental pain. Exam suggests furcation Class I. Which of the following is most accurate?",
+      "question": "A 51-year-old man reports dental pain. Exam suggests furcation Class I. Which of the following is most accurate?",
       "options": [
-        "A) Class III means only a catch at the entrance without horizontal loss",
+        "A) Class 3 means only a catch at the entrance without horizontal loss",
         "B) Class I furcation: detectable horizontal involvement into the flute without through-and-through",
-        "C) Class II means no furcation involvement detectable",
+        "C) Class 2 means no furcation involvement detectable",
         "D) Class I means probe passes completely through furcation to the other side"
       ],
       "answer": "B) Class I furcation: detectable horizontal involvement into the flute without through-and-through",
-      "explanation": "Early horizontal loss into furcation entrance is Class I (Glickman). Therefore, the most accurate choice is: Class I furcation: detectable horizontal involvement into the flute without through-and-through. Through-and-through involvement is Class III.",
+      "explanation": "Early horizontal loss into furcation entrance is Class I (Glickman). Therefore, the most accurate choice is: Class I furcation: detectable horizontal involvement into the flute without through-and-through. Through-and-through involvement is Class 3.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Early horizontal loss into furcation entrance is Class I (Glickman). This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Through-and-through involvement is Class III. It is less consistent than the correct choice."
+        "D": "Through-and-through involvement is Class 3. It is less consistent than the correct choice."
       }
     },
     {
       "id": "periodontics:medium:10",
-      "question": "Clinical and radiographic findings suggest furcation Class II. Which interpretation is correct?",
+      "question": "Clinical and radiographic findings suggest furcation Class 2. Which interpretation is correct?",
       "options": [
         "A) Class I means probe passes completely through furcation to the other side",
-        "B) Class II furcation: horizontal loss into furcation that does not go through-and-through",
-        "C) Class III means only a catch at the entrance without horizontal loss",
-        "D) Class II means no furcation involvement detectable"
+        "B) Class 2 furcation: horizontal loss into furcation that does not go through-and-through",
+        "C) Class 3 means only a catch at the entrance without horizontal loss",
+        "D) Class 2 means no furcation involvement detectable"
       ],
-      "answer": "B) Class II furcation: horizontal loss into furcation that does not go through-and-through",
-      "explanation": "Partial horizontal penetration short of complete pass-through is Class II. Therefore, the most accurate choice is: Class II furcation: horizontal loss into furcation that does not go through-and-through. No involvement is Class 0/none; complete through is Class III.",
+      "answer": "B) Class 2 furcation: horizontal loss into furcation that does not go through-and-through",
+      "explanation": "Partial horizontal penetration short of complete pass-through is Class 2. Therefore, the most accurate choice is: Class 2 furcation: horizontal loss into furcation that does not go through-and-through. No involvement is Class 0/none; complete through is Class 3.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Partial horizontal penetration short of complete pass-through is Class II. This matches the correct interpretation.",
+        "B": "Partial horizontal penetration short of complete pass-through is Class 2. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "No involvement is Class 0/none; complete through is Class III. It is less consistent than the correct choice."
+        "D": "No involvement is Class 0/none; complete through is Class 3. It is less consistent than the correct choice."
       }
     },
     {
       "id": "periodontics:medium:11",
-      "question": "A 67-year-old man is examined for furcation Class III. Which of the following is most likely?",
+      "question": "A 71-year-old man is examined for furcation Class 3. Which of the following is most likely?",
       "options": [
-        "A) Class III furcation: through-and-through involvement under the roof of the furcation",
+        "A) Class 3 furcation: through-and-through involvement under the roof of the furcation",
         "B) Class I means probe passes completely through furcation to the other side",
-        "C) Class III means only a catch at the entrance without horizontal loss",
-        "D) Class II means no furcation involvement detectable"
+        "C) Class 3 means only a catch at the entrance without horizontal loss",
+        "D) Class 2 means no furcation involvement detectable"
       ],
-      "answer": "A) Class III furcation: through-and-through involvement under the roof of the furcation",
-      "explanation": "Probe passes between roots through the furcation in Class III. Therefore, the most accurate choice is: Class III furcation: through-and-through involvement under the roof of the furcation. Entrance catch only is earlier class involvement.",
+      "answer": "A) Class 3 furcation: through-and-through involvement under the roof of the furcation",
+      "explanation": "Probe passes between roots through the furcation in Class 3. Therefore, the most accurate choice is: Class 3 furcation: through-and-through involvement under the roof of the furcation. Entrance catch only is earlier class involvement.",
       "choice_explanations": {
-        "A": "Probe passes between roots through the furcation in Class III. This matches the correct interpretation.",
+        "A": "Probe passes between roots through the furcation in Class 3. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Entrance catch only is earlier class involvement. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -762,63 +762,63 @@
       "id": "periodontics:medium:12",
       "question": "A dental exam raises concern for mobility Miller Class I. Which of the following is correct?",
       "options": [
-        "A) Class II means no detectable movement",
+        "A) Class 2 means no detectable movement",
         "B) Class I mobility means vertical depression into the socket freely",
         "C) Miller Class I mobility: first distinguishable sign of movement greater than normal",
-        "D) Class III mobility means physiologic mobility only"
+        "D) Class 3 mobility means physiologic mobility only"
       ],
       "answer": "C) Miller Class I mobility: first distinguishable sign of movement greater than normal",
-      "explanation": "Horizontal movement just beyond physiologic is Class I. Therefore, the most accurate choice is: Miller Class I mobility: first distinguishable sign of movement greater than normal. Vertical mobility indicates more severe Class III patterns.",
+      "explanation": "Horizontal movement just beyond physiologic is Class I. Therefore, the most accurate choice is: Miller Class I mobility: first distinguishable sign of movement greater than normal. Vertical mobility indicates more severe Class 3 patterns.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Vertical mobility indicates more severe Class III patterns. It is less consistent than the correct choice.",
+        "B": "Vertical mobility indicates more severe Class 3 patterns. It is less consistent than the correct choice.",
         "C": "Horizontal movement just beyond physiologic is Class I. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "periodontics:medium:13",
-      "question": "A 42-year-old woman is assessed for mobility Miller Class II. Which of the following is most accurate?",
+      "question": "A 46-year-old woman is assessed for mobility Miller Class 2. Which of the following is most accurate?",
       "options": [
-        "A) Class II means no detectable movement",
-        "B) Class II mobility: movement up to 1 mm horizontally without vertical depression",
+        "A) Class 2 means no detectable movement",
+        "B) Class 2 mobility: movement up to 1 mm horizontally without vertical depression",
         "C) Class I mobility means vertical depression into the socket freely",
-        "D) Class III mobility means physiologic mobility only"
+        "D) Class 3 mobility means physiologic mobility only"
       ],
-      "answer": "B) Class II mobility: movement up to 1 mm horizontally without vertical depression",
-      "explanation": "Moderate horizontal mobility short of vertical defines Class II. Therefore, the most accurate choice is: Class II mobility: movement up to 1 mm horizontally without vertical depression. Absence of movement is physiologic/normal, not Class II.",
+      "answer": "B) Class 2 mobility: movement up to 1 mm horizontally without vertical depression",
+      "explanation": "Moderate horizontal mobility short of vertical defines Class 2. Therefore, the most accurate choice is: Class 2 mobility: movement up to 1 mm horizontally without vertical depression. Absence of movement is physiologic/normal, not Class 2.",
       "choice_explanations": {
-        "A": "Absence of movement is physiologic/normal, not Class II. It is less consistent than the correct choice.",
-        "B": "Moderate horizontal mobility short of vertical defines Class II. This matches the correct interpretation.",
+        "A": "Absence of movement is physiologic/normal, not Class 2. It is less consistent than the correct choice.",
+        "B": "Moderate horizontal mobility short of vertical defines Class 2. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "periodontics:medium:14",
-      "question": "In the dental clinic, mobility Miller Class III is suspected. Which of the following is correct?",
+      "question": "In the dental clinic, mobility Miller Class 3 is suspected. Which of the following is correct?",
       "options": [
-        "A) Class II means no detectable movement",
-        "B) Class III mobility means physiologic mobility only",
-        "C) Class III mobility: >1 mm horizontal movement or vertical depressibility",
+        "A) Class 2 means no detectable movement",
+        "B) Class 3 mobility means physiologic mobility only",
+        "C) Class 3 mobility: >1 mm horizontal movement or vertical depressibility",
         "D) Class I mobility means vertical depression into the socket freely"
       ],
-      "answer": "C) Class III mobility: >1 mm horizontal movement or vertical depressibility",
-      "explanation": "Severe horizontal or any vertical mobility is Class III. Therefore, the most accurate choice is: Class III mobility: >1 mm horizontal movement or vertical depressibility. Physiologic mobility is far less.",
+      "answer": "C) Class 3 mobility: >1 mm horizontal movement or vertical depressibility",
+      "explanation": "Severe horizontal or any vertical mobility is Class 3. Therefore, the most accurate choice is: Class 3 mobility: >1 mm horizontal movement or vertical depressibility. Physiologic mobility is far less.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Physiologic mobility is far less. It is less consistent than the correct choice.",
-        "C": "Severe horizontal or any vertical mobility is Class III. This matches the correct interpretation.",
+        "C": "Severe horizontal or any vertical mobility is Class 3. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "periodontics:medium:15",
-      "question": "A 56-year-old woman has oral findings of primary vs secondary occlusal trauma. Which of the following is most accurate?",
+      "question": "A 60-year-old woman has oral findings of primary versus secondary occlusal trauma. Which of the following is most accurate?",
       "options": [
-        "A) Extract every Class II mobile tooth the same day without therapy trial",
+        "A) Extract every Class 2 mobile tooth the same day without therapy trial",
         "B) Primary occlusal trauma means periodontitis has already destroyed support first always",
-        "C) Occlusal adjustment replaces SRP for plaque-induced periodontitis",
+        "C) Occlusal adjustment replaces scaling and root planing for plaque-induced periodontitis",
         "D) Primary occlusal trauma: injury from excessive force on a tooth with normal support"
       ],
       "answer": "D) Primary occlusal trauma: injury from excessive force on a tooth with normal support",
@@ -832,11 +832,11 @@
     },
     {
       "id": "periodontics:medium:16",
-      "question": "A 51-year-old man presents for dental care with findings of fremitus. Which of the following is correct?",
+      "question": "A 55-year-old man presents for dental care with findings of fremitus. Which of the following is correct?",
       "options": [
         "A) Primary occlusal trauma means periodontitis has already destroyed support first always",
         "B) Fremitus is a type of composite resin",
-        "C) Occlusal adjustment replaces SRP for plaque-induced periodontitis",
+        "C) Occlusal adjustment replaces scaling and root planing for plaque-induced periodontitis",
         "D) Fremitus is palpable vibration of a tooth under occlusal load"
       ],
       "answer": "D) Fremitus is palpable vibration of a tooth under occlusal load",
@@ -850,15 +850,15 @@
     },
     {
       "id": "periodontics:medium:17",
-      "question": "A 58-year-old woman reports dental pain. Exam suggests nonsurgical scaling root planing. Which of the following is most accurate?",
+      "question": "A 62-year-old woman reports dental pain. Exam suggests nonsurgical scaling root planing. Which of the following is most accurate?",
       "options": [
-        "A) SRP means intentional removal of all cementum to dentin always as the only goal",
+        "A) scaling and root planing means intentional removal of all cementum to dentin always as the only goal",
         "B) Root resection means extracting the entire tooth always",
-        "C) SRP removes biofilm and calculus from crown and root to reduce inflammation",
+        "C) scaling and root planing removes biofilm and calculus from crown and root to reduce inflammation",
         "D) Sensitivity from recession is treated by intentional further root planing only always"
       ],
-      "answer": "C) SRP removes biofilm and calculus from crown and root to reduce inflammation",
-      "explanation": "Instrumentation disrupts subgingival biofilm and deposits for healing. Therefore, the most accurate choice is: SRP removes biofilm and calculus from crown and root to reduce inflammation. Cementum conservation with deposit removal is modern emphasis; hygiene remains essential.",
+      "answer": "C) scaling and root planing removes biofilm and calculus from crown and root to reduce inflammation",
+      "explanation": "Instrumentation disrupts subgingival biofilm and deposits for healing. Therefore, the most accurate choice is: scaling and root planing removes biofilm and calculus from crown and root to reduce inflammation. Cementum conservation with deposit removal is modern emphasis; hygiene remains essential.",
       "choice_explanations": {
         "A": "Cementum conservation with deposit removal is modern emphasis; hygiene remains essential. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -886,10 +886,10 @@
     },
     {
       "id": "periodontics:medium:19",
-      "question": "A 66-year-old woman is examined for chlorhexidine role. Which of the following is most likely?",
+      "question": "A 70-year-old woman is examined for chlorhexidine role. Which of the following is most likely?",
       "options": [
-        "A) Occlusal adjustment replaces SRP for plaque-induced periodontitis",
-        "B) CHX rinse replaces all brushing and SRP forever",
+        "A) Occlusal adjustment replaces scaling and root planing for plaque-induced periodontitis",
+        "B) chlorhexidine rinse replaces all brushing and scaling and root planing forever",
         "C) Host modulation replaces plaque control entirely",
         "D) Chlorhexidine is an adjunctive antiplaque antiseptic, not a standalone periodontitis cure"
       ],
@@ -909,7 +909,7 @@
         "A) Periodontal abscess is acute pus collection in a periodontal pocket with pain and swelling",
         "B) Treating only the gingiva cures a necrotic tooth's combined lesion always",
         "C) Periodontal abscess is identical to reversible pulpitis always",
-        "D) CAL equals probing depth alone always without CEJ reference"
+        "D) clinical attachment level equals probing depth alone always without cementoenamel junction reference"
       ],
       "answer": "A) Periodontal abscess is acute pus collection in a periodontal pocket with pain and swelling",
       "explanation": "Blocked pocket drainage produces acute exacerbation. Therefore, the most accurate choice is: Periodontal abscess is acute pus collection in a periodontal pocket with pain and swelling. Endodontic and periodontal abscesses must be distinguished.",
@@ -922,11 +922,11 @@
     },
     {
       "id": "periodontics:medium:21",
-      "question": "A 56-year-old woman is assessed for endo-perio lesion idea. Which of the following is most accurate?",
+      "question": "A 60-year-old woman is assessed for endo-perio lesion idea. Which of the following is most accurate?",
       "options": [
         "A) Sensitivity from recession is treated by intentional further root planing only always",
         "B) Treating only the gingiva cures a necrotic tooth's combined lesion always",
-        "C) JE is keratinized like palatal masticatory epithelium always",
+        "C) junctional epithelium is keratinized like palatal masticatory epithelium always",
         "D) Combined endodontic-periodontal lesions need both pulp and periodontal cause management"
       ],
       "answer": "D) Combined endodontic-periodontal lesions need both pulp and periodontal cause management",
@@ -958,7 +958,7 @@
     },
     {
       "id": "periodontics:medium:23",
-      "question": "A 70-year-old woman has oral findings of systemic risk diabetes. Which of the following is most accurate?",
+      "question": "A 74-year-old woman has oral findings of systemic risk diabetes. Which of the following is most accurate?",
       "options": [
         "A) Diabetes protects against all periodontal disease",
         "B) Poorly controlled diabetes increases periodontitis risk and impairs healing",
@@ -976,7 +976,7 @@
     },
     {
       "id": "periodontics:medium:24",
-      "question": "A 47-year-old man presents for dental care with findings of smoking periodontal risk. Which of the following is correct?",
+      "question": "A 51-year-old man presents for dental care with findings of smoking periodontal risk. Which of the following is correct?",
       "options": [
         "A) Smoking increases periodontitis severity and masks bleeding while impairing healing",
         "B) Diabetes protects against all periodontal disease",
@@ -984,17 +984,17 @@
         "D) Smoking improves periodontal regeneration outcomes"
       ],
       "answer": "A) Smoking increases periodontitis severity and masks bleeding while impairing healing",
-      "explanation": "Vascular and immune changes worsen destruction and response to therapy. Therefore, the most accurate choice is: Smoking increases periodontitis severity and masks bleeding while impairing healing. BOP may be reduced despite disease in smokers.",
+      "explanation": "Vascular and immune changes worsen destruction and response to therapy. Therefore, the most accurate choice is: Smoking increases periodontitis severity and masks bleeding while impairing healing. bleeding on probing may be reduced despite disease in smokers.",
       "choice_explanations": {
         "A": "Vascular and immune changes worsen destruction and response to therapy. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "BOP may be reduced despite disease in smokers. It is less consistent than the correct choice."
+        "D": "bleeding on probing may be reduced despite disease in smokers. It is less consistent than the correct choice."
       }
     },
     {
       "id": "periodontics:medium:25",
-      "question": "A 33-year-old woman reports dental pain. Exam suggests pregnancy gingivitis. Which of the following is most accurate?",
+      "question": "A 19-year-old woman reports dental pain. Exam suggests pregnancy gingivitis. Which of the following is most accurate?",
       "options": [
         "A) Pregnancy creates periodontitis without any plaque ever",
         "B) This pattern is identical to simple plaque-only gingivitis without loss",
@@ -1014,31 +1014,31 @@
       "id": "periodontics:medium:26",
       "question": "Clinical and radiographic findings suggest drug-influenced gingival enlargement. Which interpretation is correct?",
       "options": [
-        "A) Occlusal adjustment replaces SRP for plaque-induced periodontitis",
-        "B) NUG is painless chronic gingival hyperplasia only",
+        "A) Occlusal adjustment replaces scaling and root planing for plaque-induced periodontitis",
+        "B) necrotizing ulcerative gingivitis is painless chronic gingival hyperplasia only",
         "C) Only acetaminophen causes severe gingival hyperplasia characteristically",
         "D) Phenytoin, cyclosporine, and calcium channel blockers can cause gingival overgrowth"
       ],
       "answer": "D) Phenytoin, cyclosporine, and calcium channel blockers can cause gingival overgrowth",
-      "explanation": "Drug-influenced fibroblasts overproduce matrix especially with plaque inflammation. Therefore, the most accurate choice is: Phenytoin, cyclosporine, and calcium channel blockers can cause gingival overgrowth. Classic culprits are those anticonvulsant, immunosuppressant, and CCB drugs.",
+      "explanation": "Drug-influenced fibroblasts overproduce matrix especially with plaque inflammation. Therefore, the most accurate choice is: Phenytoin, cyclosporine, and calcium channel blockers can cause gingival overgrowth. Classic culprits are those anticonvulsant, immunosuppressant, and calcium channel blocker drugs.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Classic culprits are those anticonvulsant, immunosuppressant, and CCB drugs. It is less consistent than the correct choice.",
+        "C": "Classic culprits are those anticonvulsant, immunosuppressant, and calcium channel blocker drugs. It is less consistent than the correct choice.",
         "D": "Drug-influenced fibroblasts overproduce matrix especially with plaque inflammation. This matches the correct interpretation."
       }
     },
     {
       "id": "periodontics:medium:27",
-      "question": "A 41-year-old man is examined for necrotizing ulcerative gingivitis. Which of the following is most likely?",
+      "question": "A 45-year-old man is examined for necrotizing ulcerative gingivitis. Which of the following is most likely?",
       "options": [
         "A) Necrotizing periodontitis never involves bone",
-        "B) NUG: painful punched-out interdental papillae, necrosis, fetor, often in stress/smoking",
-        "C) NUG is painless chronic gingival hyperplasia only",
+        "B) necrotizing ulcerative gingivitis: painful punched-out interdental papillae, necrosis, fetor, often in stress/smoking",
+        "C) necrotizing ulcerative gingivitis is painless chronic gingival hyperplasia only",
         "D) Only acetaminophen causes severe gingival hyperplasia characteristically"
       ],
-      "answer": "B) NUG: painful punched-out interdental papillae, necrosis, fetor, often in stress/smoking",
-      "explanation": "Fusospirochetal overgrowth with host compromise causes papillary necrosis. Therefore, the most accurate choice is: NUG: painful punched-out interdental papillae, necrosis, fetor, often in stress/smoking. Painful necrosis differs from chronic fibrotic enlargement.",
+      "answer": "B) necrotizing ulcerative gingivitis: painful punched-out interdental papillae, necrosis, fetor, often in stress/smoking",
+      "explanation": "Fusospirochetal overgrowth with host compromise causes papillary necrosis. Therefore, the most accurate choice is: necrotizing ulcerative gingivitis: painful punched-out interdental papillae, necrosis, fetor, often in stress/smoking. Painful necrosis differs from chronic fibrotic enlargement.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Fusospirochetal overgrowth with host compromise causes papillary necrosis. This matches the correct interpretation.",
@@ -1056,9 +1056,9 @@
         "D) Pseudopockets always show radiographic bone loss to apex"
       ],
       "answer": "C) Necrotizing periodontitis includes attachment and bone loss with necrotic ulcerative features",
-      "explanation": "Extension of necrotizing disease beyond gingiva destroys attachment. Therefore, the most accurate choice is: Necrotizing periodontitis includes attachment and bone loss with necrotic ulcerative features. Bone involvement distinguishes it from NUG alone.",
+      "explanation": "Extension of necrotizing disease beyond gingiva destroys attachment. Therefore, the most accurate choice is: Necrotizing periodontitis includes attachment and bone loss with necrotic ulcerative features. Bone involvement distinguishes it from necrotizing ulcerative gingivitis alone.",
       "choice_explanations": {
-        "A": "Bone involvement distinguishes it from NUG alone. It is less consistent than the correct choice.",
+        "A": "Bone involvement distinguishes it from necrotizing ulcerative gingivitis alone. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Extension of necrotizing disease beyond gingiva destroys attachment. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1066,11 +1066,11 @@
     },
     {
       "id": "periodontics:medium:29",
-      "question": "A 52-year-old woman is assessed for stage and grade idea perio. Which of the following is most accurate?",
+      "question": "A 56-year-old woman is assessed for stage and grade idea perio. Which of the following is most accurate?",
       "options": [
         "A) Staging describes severity/complexity; grading describes progression risk in modern classification",
         "B) Staging and grading refer only to composite hardness",
-        "C) Extract every Class II mobile tooth the same day without therapy trial",
+        "C) Extract every Class 2 mobile tooth the same day without therapy trial",
         "D) All patients have identical risk regardless of smoking or diabetes"
       ],
       "answer": "A) Staging describes severity/complexity; grading describes progression risk in modern classification",
@@ -1086,15 +1086,15 @@
   "hard": [
     {
       "id": "periodontics:hard:0",
-      "question": "A 74-year-old woman is evaluated for possible periodontium components. Which of the following is most accurate?",
+      "question": "A 42-year-old woman is evaluated for possible periodontium components. Which of the following is most accurate?",
       "options": [
         "A) Repair regenerates full pristine periodontium by definition always",
         "B) Periodontium is only enamel and dentin",
-        "C) Peri-implant tissues are histologically identical to PDL insertion into cementum",
-        "D) Periodontium includes gingiva, PDL, cementum, and alveolar bone"
+        "C) Peri-implant tissues are histologically identical to periodontal ligament insertion into cementum",
+        "D) Periodontium includes gingiva, periodontal ligament, cementum, and alveolar bone"
       ],
-      "answer": "D) Periodontium includes gingiva, PDL, cementum, and alveolar bone",
-      "explanation": "Supporting apparatus of the tooth comprises those four tissues. Therefore, the most accurate choice is: Periodontium includes gingiva, PDL, cementum, and alveolar bone. Enamel and pulp are not periodontium components.",
+      "answer": "D) Periodontium includes gingiva, periodontal ligament, cementum, and alveolar bone",
+      "explanation": "Supporting apparatus of the tooth comprises those four tissues. Therefore, the most accurate choice is: Periodontium includes gingiva, periodontal ligament, cementum, and alveolar bone. Enamel and pulp are not periodontium components.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Enamel and pulp are not periodontium components. It is less consistent than the correct choice.",
@@ -1104,7 +1104,7 @@
     },
     {
       "id": "periodontics:hard:1",
-      "question": "Two similar explanations for gingivitis vs periodontitis are compared. Which of the following is correct?",
+      "question": "Two similar explanations for gingivitis versus periodontitis are compared. Which of the following is correct?",
       "options": [
         "A) Gingivitis is reversible inflammation without attachment loss; periodontitis has attachment loss",
         "B) This pattern is identical to simple plaque-only gingivitis without loss",
@@ -1122,7 +1122,7 @@
     },
     {
       "id": "periodontics:hard:2",
-      "question": "In a 46-year-old woman, dental plaque biofilm must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 50-year-old woman, dental plaque biofilm must be separated from similar conditions. Which of the following is correct?",
       "options": [
         "A) Neutrophils are irrelevant to periodontal host defense",
         "B) Plaque is a structured bacterial biofilm that initiates periodontal inflammation",
@@ -1140,10 +1140,10 @@
     },
     {
       "id": "periodontics:hard:3",
-      "question": "A 65-year-old man returns for review of suspected calculus role. Which of the following is most accurate?",
+      "question": "A 69-year-old man returns for review of suspected calculus role. Which of the following is most accurate?",
       "options": [
         "A) Calculus alone without biofilm is the primary pathogen in germ-free models always",
-        "B) SRP means intentional removal of all cementum to dentin always as the only goal",
+        "B) scaling and root planing means intentional removal of all cementum to dentin always as the only goal",
         "C) Mucositis always includes progressive cratering bone loss by definition",
         "D) Calculus is mineralized plaque that harbors biofilm and perpetuates inflammation"
       ],
@@ -1158,7 +1158,7 @@
     },
     {
       "id": "periodontics:hard:4",
-      "question": "Careful interpretation of supragingival vs subgingival calculus is required. Which of the following is correct?",
+      "question": "Careful interpretation of supragingival versus subgingival calculus is required. Which of the following is correct?",
       "options": [
         "A) Both types exist only on the tongue dorsum",
         "B) Treating only the gingiva cures a necrotic tooth's combined lesion always",
@@ -1176,30 +1176,30 @@
     },
     {
       "id": "periodontics:hard:5",
-      "question": "A 49-year-old man presents with features compatible with attachment loss. Which of the following is most accurate?",
+      "question": "A 53-year-old man presents with features compatible with attachment loss. Which of the following is most accurate?",
       "options": [
-        "A) CAL equals probing depth alone always without CEJ reference",
-        "B) CAL is measured from CEJ to base of pocket, reflecting cumulative attachment loss",
-        "C) Probing depth is CEJ to apex length",
+        "A) clinical attachment level equals probing depth alone always without cementoenamel junction reference",
+        "B) clinical attachment level is measured from cementoenamel junction to base of pocket, reflecting cumulative attachment loss",
+        "C) Probing depth is cementoenamel junction to apex length",
         "D) Pseudopockets always show radiographic bone loss to apex"
       ],
-      "answer": "B) CAL is measured from CEJ to base of pocket, reflecting cumulative attachment loss",
-      "explanation": "Subtracting gingival margin position relative to CEJ yields attachment level. Therefore, the most accurate choice is: CAL is measured from CEJ to base of pocket, reflecting cumulative attachment loss. Probing depth alone ignores recession or hyperplasia effects.",
+      "answer": "B) clinical attachment level is measured from cementoenamel junction to base of pocket, reflecting cumulative attachment loss",
+      "explanation": "Subtracting gingival margin position relative to cementoenamel junction yields attachment level. Therefore, the most accurate choice is: clinical attachment level is measured from cementoenamel junction to base of pocket, reflecting cumulative attachment loss. Probing depth alone ignores recession or hyperplasia effects.",
       "choice_explanations": {
         "A": "Probing depth alone ignores recession or hyperplasia effects. It is less consistent than the correct choice.",
-        "B": "Subtracting gingival margin position relative to CEJ yields attachment level. This matches the correct interpretation.",
+        "B": "Subtracting gingival margin position relative to cementoenamel junction yields attachment level. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "periodontics:hard:6",
-      "question": "Which statement about probing depth in a 50-year-old woman is most accurate?",
+      "question": "Which statement about probing depth in a 54-year-old woman is most accurate?",
       "options": [
-        "A) Probing depth is CEJ to apex length",
+        "A) Probing depth is cementoenamel junction to apex length",
         "B) Probing depth is gingival margin to probe tip at sulcus or pocket base",
-        "C) CAL equals probing depth alone always without CEJ reference",
-        "D) APF coronally advances tissue to cover recession as its definition"
+        "C) clinical attachment level equals probing depth alone always without cementoenamel junction reference",
+        "D) acidulated phosphate fluoride coronally advances tissue to cover recession as its definition"
       ],
       "answer": "B) Probing depth is gingival margin to probe tip at sulcus or pocket base",
       "explanation": "Periodontal probe records soft-tissue pocket depth clinically. Therefore, the most accurate choice is: Probing depth is gingival margin to probe tip at sulcus or pocket base. Radiographs and tooth length are different measures.",
@@ -1212,15 +1212,15 @@
     },
     {
       "id": "periodontics:hard:7",
-      "question": "After examining a 75-year-old man, which statement about bleeding on probing is correct?",
+      "question": "After examining a 43-year-old man, which statement about bleeding on probing is correct?",
       "options": [
-        "A) CAL equals probing depth alone always without CEJ reference",
-        "B) JE is keratinized like palatal masticatory epithelium always",
-        "C) BOP proves the tooth needs immediate extraction always",
-        "D) BOP indicates inflammation of the pocket wall and ongoing disease activity risk"
+        "A) clinical attachment level equals probing depth alone always without cementoenamel junction reference",
+        "B) junctional epithelium is keratinized like palatal masticatory epithelium always",
+        "C) bleeding on probing proves the tooth needs immediate extraction always",
+        "D) bleeding on probing indicates inflammation of the pocket wall and ongoing disease activity risk"
       ],
-      "answer": "D) BOP indicates inflammation of the pocket wall and ongoing disease activity risk",
-      "explanation": "Ulcerated pocket epithelium bleeds when probed. Therefore, the most accurate choice is: BOP indicates inflammation of the pocket wall and ongoing disease activity risk. Bleeding guides inflammation assessment, not automatic extraction.",
+      "answer": "D) bleeding on probing indicates inflammation of the pocket wall and ongoing disease activity risk",
+      "explanation": "Ulcerated pocket epithelium bleeds when probed. Therefore, the most accurate choice is: bleeding on probing indicates inflammation of the pocket wall and ongoing disease activity risk. Bleeding guides inflammation assessment, not automatic extraction.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1230,9 +1230,9 @@
     },
     {
       "id": "periodontics:hard:8",
-      "question": "A 61-year-old man is evaluated for possible gingival recession. Which of the following is most accurate?",
+      "question": "A 65-year-old man is evaluated for possible gingival recession. Which of the following is most accurate?",
       "options": [
-        "A) SRP means intentional removal of all cementum to dentin always as the only goal",
+        "A) scaling and root planing means intentional removal of all cementum to dentin always as the only goal",
         "B) Recession means increased bone height always",
         "C) Sensitivity from recession is treated by intentional further root planing only always",
         "D) Recession is apical shift of gingival margin exposing root surface"
@@ -1248,56 +1248,56 @@
     },
     {
       "id": "periodontics:hard:9",
-      "question": "A 47-year-old man has findings suggestive of furcation Class I. Which of the following is the best interpretation?",
+      "question": "A 51-year-old man has findings suggestive of furcation Class I. Which of the following is the best interpretation?",
       "options": [
-        "A) Class II means no furcation involvement detectable",
+        "A) Class 2 means no furcation involvement detectable",
         "B) Class I means probe passes completely through furcation to the other side",
         "C) Class I furcation: detectable horizontal involvement into the flute without through-and-through",
-        "D) Class III means only a catch at the entrance without horizontal loss"
+        "D) Class 3 means only a catch at the entrance without horizontal loss"
       ],
       "answer": "C) Class I furcation: detectable horizontal involvement into the flute without through-and-through",
-      "explanation": "Early horizontal loss into furcation entrance is Class I (Glickman). Therefore, the most accurate choice is: Class I furcation: detectable horizontal involvement into the flute without through-and-through. Through-and-through involvement is Class III.",
+      "explanation": "Early horizontal loss into furcation entrance is Class I (Glickman). Therefore, the most accurate choice is: Class I furcation: detectable horizontal involvement into the flute without through-and-through. Through-and-through involvement is Class 3.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Through-and-through involvement is Class III. It is less consistent than the correct choice.",
+        "B": "Through-and-through involvement is Class 3. It is less consistent than the correct choice.",
         "C": "Early horizontal loss into furcation entrance is Class I (Glickman). This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "periodontics:hard:10",
-      "question": "In a 75-year-old man, furcation Class II must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 43-year-old man, furcation Class 2 must be separated from similar conditions. Which of the following is correct?",
       "options": [
-        "A) Class III means only a catch at the entrance without horizontal loss",
-        "B) Class II furcation: horizontal loss into furcation that does not go through-and-through",
+        "A) Class 3 means only a catch at the entrance without horizontal loss",
+        "B) Class 2 furcation: horizontal loss into furcation that does not go through-and-through",
         "C) Class I means probe passes completely through furcation to the other side",
-        "D) Class II means no furcation involvement detectable"
+        "D) Class 2 means no furcation involvement detectable"
       ],
-      "answer": "B) Class II furcation: horizontal loss into furcation that does not go through-and-through",
-      "explanation": "Partial horizontal penetration short of complete pass-through is Class II. Therefore, the most accurate choice is: Class II furcation: horizontal loss into furcation that does not go through-and-through. No involvement is Class 0/none; complete through is Class III.",
+      "answer": "B) Class 2 furcation: horizontal loss into furcation that does not go through-and-through",
+      "explanation": "Partial horizontal penetration short of complete pass-through is Class 2. Therefore, the most accurate choice is: Class 2 furcation: horizontal loss into furcation that does not go through-and-through. No involvement is Class 0/none; complete through is Class 3.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Partial horizontal penetration short of complete pass-through is Class II. This matches the correct interpretation.",
+        "B": "Partial horizontal penetration short of complete pass-through is Class 2. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "No involvement is Class 0/none; complete through is Class III. It is less consistent than the correct choice."
+        "D": "No involvement is Class 0/none; complete through is Class 3. It is less consistent than the correct choice."
       }
     },
     {
       "id": "periodontics:hard:11",
-      "question": "A 67-year-old man returns for review of suspected furcation Class III. Which of the following is most accurate?",
+      "question": "A 71-year-old man returns for review of suspected furcation Class 3. Which of the following is most accurate?",
       "options": [
         "A) Class I means probe passes completely through furcation to the other side",
-        "B) Class II means no furcation involvement detectable",
-        "C) Class III means only a catch at the entrance without horizontal loss",
-        "D) Class III furcation: through-and-through involvement under the roof of the furcation"
+        "B) Class 2 means no furcation involvement detectable",
+        "C) Class 3 means only a catch at the entrance without horizontal loss",
+        "D) Class 3 furcation: through-and-through involvement under the roof of the furcation"
       ],
-      "answer": "D) Class III furcation: through-and-through involvement under the roof of the furcation",
-      "explanation": "Probe passes between roots through the furcation in Class III. Therefore, the most accurate choice is: Class III furcation: through-and-through involvement under the roof of the furcation. Entrance catch only is earlier class involvement.",
+      "answer": "D) Class 3 furcation: through-and-through involvement under the roof of the furcation",
+      "explanation": "Probe passes between roots through the furcation in Class 3. Therefore, the most accurate choice is: Class 3 furcation: through-and-through involvement under the roof of the furcation. Entrance catch only is earlier class involvement.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Entrance catch only is earlier class involvement. It is less consistent than the correct choice.",
-        "D": "Probe passes between roots through the furcation in Class III. This matches the correct interpretation."
+        "D": "Probe passes between roots through the furcation in Class 3. This matches the correct interpretation."
       }
     },
     {
@@ -1306,13 +1306,13 @@
       "options": [
         "A) Class I mobility means vertical depression into the socket freely",
         "B) Miller Class I mobility: first distinguishable sign of movement greater than normal",
-        "C) Class III mobility means physiologic mobility only",
-        "D) Class II means no detectable movement"
+        "C) Class 3 mobility means physiologic mobility only",
+        "D) Class 2 means no detectable movement"
       ],
       "answer": "B) Miller Class I mobility: first distinguishable sign of movement greater than normal",
-      "explanation": "Horizontal movement just beyond physiologic is Class I. Therefore, the most accurate choice is: Miller Class I mobility: first distinguishable sign of movement greater than normal. Vertical mobility indicates more severe Class III patterns.",
+      "explanation": "Horizontal movement just beyond physiologic is Class I. Therefore, the most accurate choice is: Miller Class I mobility: first distinguishable sign of movement greater than normal. Vertical mobility indicates more severe Class 3 patterns.",
       "choice_explanations": {
-        "A": "Vertical mobility indicates more severe Class III patterns. It is less consistent than the correct choice.",
+        "A": "Vertical mobility indicates more severe Class 3 patterns. It is less consistent than the correct choice.",
         "B": "Horizontal movement just beyond physiologic is Class I. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1320,35 +1320,35 @@
     },
     {
       "id": "periodontics:hard:13",
-      "question": "A 42-year-old woman presents with features compatible with mobility Miller Class II. Which of the following is most accurate?",
+      "question": "A 46-year-old woman presents with features compatible with mobility Miller Class 2. Which of the following is most accurate?",
       "options": [
         "A) Class I mobility means vertical depression into the socket freely",
-        "B) Class II mobility: movement up to 1 mm horizontally without vertical depression",
-        "C) Class II means no detectable movement",
-        "D) Class III mobility means physiologic mobility only"
+        "B) Class 2 mobility: movement up to 1 mm horizontally without vertical depression",
+        "C) Class 2 means no detectable movement",
+        "D) Class 3 mobility means physiologic mobility only"
       ],
-      "answer": "B) Class II mobility: movement up to 1 mm horizontally without vertical depression",
-      "explanation": "Moderate horizontal mobility short of vertical defines Class II. Therefore, the most accurate choice is: Class II mobility: movement up to 1 mm horizontally without vertical depression. Absence of movement is physiologic/normal, not Class II.",
+      "answer": "B) Class 2 mobility: movement up to 1 mm horizontally without vertical depression",
+      "explanation": "Moderate horizontal mobility short of vertical defines Class 2. Therefore, the most accurate choice is: Class 2 mobility: movement up to 1 mm horizontally without vertical depression. Absence of movement is physiologic/normal, not Class 2.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Moderate horizontal mobility short of vertical defines Class II. This matches the correct interpretation.",
-        "C": "Absence of movement is physiologic/normal, not Class II. It is less consistent than the correct choice.",
+        "B": "Moderate horizontal mobility short of vertical defines Class 2. This matches the correct interpretation.",
+        "C": "Absence of movement is physiologic/normal, not Class 2. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "periodontics:hard:14",
-      "question": "Which statement about mobility Miller Class III in a 70-year-old woman is most accurate?",
+      "question": "Which statement about mobility Miller Class 3 in a 74-year-old woman is most accurate?",
       "options": [
-        "A) Class III mobility: >1 mm horizontal movement or vertical depressibility",
+        "A) Class 3 mobility: >1 mm horizontal movement or vertical depressibility",
         "B) Class I mobility means vertical depression into the socket freely",
-        "C) Class III mobility means physiologic mobility only",
-        "D) Class II means no detectable movement"
+        "C) Class 3 mobility means physiologic mobility only",
+        "D) Class 2 means no detectable movement"
       ],
-      "answer": "A) Class III mobility: >1 mm horizontal movement or vertical depressibility",
-      "explanation": "Severe horizontal or any vertical mobility is Class III. Therefore, the most accurate choice is: Class III mobility: >1 mm horizontal movement or vertical depressibility. Physiologic mobility is far less.",
+      "answer": "A) Class 3 mobility: >1 mm horizontal movement or vertical depressibility",
+      "explanation": "Severe horizontal or any vertical mobility is Class 3. Therefore, the most accurate choice is: Class 3 mobility: >1 mm horizontal movement or vertical depressibility. Physiologic mobility is far less.",
       "choice_explanations": {
-        "A": "Severe horizontal or any vertical mobility is Class III. This matches the correct interpretation.",
+        "A": "Severe horizontal or any vertical mobility is Class 3. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Physiologic mobility is far less. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1356,10 +1356,10 @@
     },
     {
       "id": "periodontics:hard:15",
-      "question": "After examining a 56-year-old woman, which statement about primary vs secondary occlusal trauma is correct?",
+      "question": "After examining a 60-year-old woman, which statement about primary versus secondary occlusal trauma is correct?",
       "options": [
-        "A) Occlusal adjustment replaces SRP for plaque-induced periodontitis",
-        "B) Extract every Class II mobile tooth the same day without therapy trial",
+        "A) Occlusal adjustment replaces scaling and root planing for plaque-induced periodontitis",
+        "B) Extract every Class 2 mobile tooth the same day without therapy trial",
         "C) Primary occlusal trauma: injury from excessive force on a tooth with normal support",
         "D) Primary occlusal trauma means periodontitis has already destroyed support first always"
       ],
@@ -1374,10 +1374,10 @@
     },
     {
       "id": "periodontics:hard:16",
-      "question": "A 51-year-old man is evaluated for possible fremitus. Which of the following is most accurate?",
+      "question": "A 55-year-old man is evaluated for possible fremitus. Which of the following is most accurate?",
       "options": [
         "A) Fremitus is palpable vibration of a tooth under occlusal load",
-        "B) Occlusal adjustment replaces SRP for plaque-induced periodontitis",
+        "B) Occlusal adjustment replaces scaling and root planing for plaque-induced periodontitis",
         "C) Primary occlusal trauma means periodontitis has already destroyed support first always",
         "D) Fremitus is a type of composite resin"
       ],
@@ -1392,15 +1392,15 @@
     },
     {
       "id": "periodontics:hard:17",
-      "question": "A 58-year-old woman has findings suggestive of nonsurgical scaling root planing. Which of the following is the best interpretation?",
+      "question": "A 62-year-old woman has findings suggestive of nonsurgical scaling root planing. Which of the following is the best interpretation?",
       "options": [
         "A) Sensitivity from recession is treated by intentional further root planing only always",
-        "B) SRP means intentional removal of all cementum to dentin always as the only goal",
-        "C) SRP removes biofilm and calculus from crown and root to reduce inflammation",
+        "B) scaling and root planing means intentional removal of all cementum to dentin always as the only goal",
+        "C) scaling and root planing removes biofilm and calculus from crown and root to reduce inflammation",
         "D) Calculus alone without biofilm is the primary pathogen in germ-free models always"
       ],
-      "answer": "C) SRP removes biofilm and calculus from crown and root to reduce inflammation",
-      "explanation": "Instrumentation disrupts subgingival biofilm and deposits for healing. Therefore, the most accurate choice is: SRP removes biofilm and calculus from crown and root to reduce inflammation. Cementum conservation with deposit removal is modern emphasis; hygiene remains essential.",
+      "answer": "C) scaling and root planing removes biofilm and calculus from crown and root to reduce inflammation",
+      "explanation": "Instrumentation disrupts subgingival biofilm and deposits for healing. Therefore, the most accurate choice is: scaling and root planing removes biofilm and calculus from crown and root to reduce inflammation. Cementum conservation with deposit removal is modern emphasis; hygiene remains essential.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Cementum conservation with deposit removal is modern emphasis; hygiene remains essential. It is less consistent than the correct choice.",
@@ -1428,12 +1428,12 @@
     },
     {
       "id": "periodontics:hard:19",
-      "question": "A 66-year-old woman returns for review of suspected chlorhexidine role. Which of the following is most accurate?",
+      "question": "A 70-year-old woman returns for review of suspected chlorhexidine role. Which of the following is most accurate?",
       "options": [
         "A) Chlorhexidine is an adjunctive antiplaque antiseptic, not a standalone periodontitis cure",
         "B) Host modulation replaces plaque control entirely",
-        "C) CHX rinse replaces all brushing and SRP forever",
-        "D) Occlusal adjustment replaces SRP for plaque-induced periodontitis"
+        "C) chlorhexidine rinse replaces all brushing and scaling and root planing forever",
+        "D) Occlusal adjustment replaces scaling and root planing for plaque-induced periodontitis"
       ],
       "answer": "A) Chlorhexidine is an adjunctive antiplaque antiseptic, not a standalone periodontitis cure",
       "explanation": "Bisbiguanide antiseptic reduces plaque temporarily as adjunct. Therefore, the most accurate choice is: Chlorhexidine is an adjunctive antiplaque antiseptic, not a standalone periodontitis cure. It cannot replace mechanical debridement and hygiene.",
@@ -1449,7 +1449,7 @@
       "question": "A clinic case of periodontal abscess is discussed. Which of the following is correct?",
       "options": [
         "A) Treating only the gingiva cures a necrotic tooth's combined lesion always",
-        "B) BOP proves the tooth needs immediate extraction always",
+        "B) bleeding on probing proves the tooth needs immediate extraction always",
         "C) Periodontal abscess is acute pus collection in a periodontal pocket with pain and swelling",
         "D) Periodontal abscess is identical to reversible pulpitis always"
       ],
@@ -1468,7 +1468,7 @@
       "options": [
         "A) Treating only the gingiva cures a necrotic tooth's combined lesion always",
         "B) Grooves only occur on lower third molars and are harmless always",
-        "C) JE is keratinized like palatal masticatory epithelium always",
+        "C) junctional epithelium is keratinized like palatal masticatory epithelium always",
         "D) Combined endodontic-periodontal lesions need both pulp and periodontal cause management"
       ],
       "answer": "D) Combined endodontic-periodontal lesions need both pulp and periodontal cause management",
@@ -1482,7 +1482,7 @@
     },
     {
       "id": "periodontics:hard:22",
-      "question": "Which statement about aggressive / molar-incisor idea in a 72-year-old woman is most accurate?",
+      "question": "Which statement about aggressive / molar-incisor idea in a 40-year-old woman is most accurate?",
       "options": [
         "A) Desquamative gingivitis is simple plaque gingivitis always without other disease",
         "B) Gingivitis always includes irreversible bone loss by definition",
@@ -1500,7 +1500,7 @@
     },
     {
       "id": "periodontics:hard:23",
-      "question": "After examining a 70-year-old woman, which statement about systemic risk diabetes is correct?",
+      "question": "After examining a 74-year-old woman, which statement about systemic risk diabetes is correct?",
       "options": [
         "A) Diabetes protects against all periodontal disease",
         "B) Neutrophils are irrelevant to periodontal host defense",
@@ -1526,17 +1526,17 @@
         "D) Diabetes protects against all periodontal disease"
       ],
       "answer": "B) Smoking increases periodontitis severity and masks bleeding while impairing healing",
-      "explanation": "Vascular and immune changes worsen destruction and response to therapy. Therefore, the most accurate choice is: Smoking increases periodontitis severity and masks bleeding while impairing healing. BOP may be reduced despite disease in smokers.",
+      "explanation": "Vascular and immune changes worsen destruction and response to therapy. Therefore, the most accurate choice is: Smoking increases periodontitis severity and masks bleeding while impairing healing. bleeding on probing may be reduced despite disease in smokers.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Vascular and immune changes worsen destruction and response to therapy. This matches the correct interpretation.",
-        "C": "BOP may be reduced despite disease in smokers. It is less consistent than the correct choice.",
+        "C": "bleeding on probing may be reduced despite disease in smokers. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "periodontics:hard:25",
-      "question": "A 33-year-old woman has findings suggestive of pregnancy gingivitis. Which of the following is the best interpretation?",
+      "question": "A 19-year-old woman has findings suggestive of pregnancy gingivitis. Which of the following is the best interpretation?",
       "options": [
         "A) Pregnancy creates periodontitis without any plaque ever",
         "B) This pattern is identical to simple plaque-only gingivitis without loss",
@@ -1554,33 +1554,33 @@
     },
     {
       "id": "periodontics:hard:26",
-      "question": "In a 61-year-old man, drug-influenced gingival enlargement must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 65-year-old man, drug-influenced gingival enlargement must be separated from similar conditions. Which of the following is correct?",
       "options": [
         "A) Splinting cures periodontitis without plaque removal",
-        "B) NUG is painless chronic gingival hyperplasia only",
+        "B) necrotizing ulcerative gingivitis is painless chronic gingival hyperplasia only",
         "C) Only acetaminophen causes severe gingival hyperplasia characteristically",
         "D) Phenytoin, cyclosporine, and calcium channel blockers can cause gingival overgrowth"
       ],
       "answer": "D) Phenytoin, cyclosporine, and calcium channel blockers can cause gingival overgrowth",
-      "explanation": "Drug-influenced fibroblasts overproduce matrix especially with plaque inflammation. Therefore, the most accurate choice is: Phenytoin, cyclosporine, and calcium channel blockers can cause gingival overgrowth. Classic culprits are those anticonvulsant, immunosuppressant, and CCB drugs.",
+      "explanation": "Drug-influenced fibroblasts overproduce matrix especially with plaque inflammation. Therefore, the most accurate choice is: Phenytoin, cyclosporine, and calcium channel blockers can cause gingival overgrowth. Classic culprits are those anticonvulsant, immunosuppressant, and calcium channel blocker drugs.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Classic culprits are those anticonvulsant, immunosuppressant, and CCB drugs. It is less consistent than the correct choice.",
+        "C": "Classic culprits are those anticonvulsant, immunosuppressant, and calcium channel blocker drugs. It is less consistent than the correct choice.",
         "D": "Drug-influenced fibroblasts overproduce matrix especially with plaque inflammation. This matches the correct interpretation."
       }
     },
     {
       "id": "periodontics:hard:27",
-      "question": "A 41-year-old man returns for review of suspected necrotizing ulcerative gingivitis. Which of the following is most accurate?",
+      "question": "A 45-year-old man returns for review of suspected necrotizing ulcerative gingivitis. Which of the following is most accurate?",
       "options": [
-        "A) NUG: painful punched-out interdental papillae, necrosis, fetor, often in stress/smoking",
-        "B) NUG is painless chronic gingival hyperplasia only",
+        "A) necrotizing ulcerative gingivitis: painful punched-out interdental papillae, necrosis, fetor, often in stress/smoking",
+        "B) necrotizing ulcerative gingivitis is painless chronic gingival hyperplasia only",
         "C) Necrotizing periodontitis never involves bone",
         "D) Only acetaminophen causes severe gingival hyperplasia characteristically"
       ],
-      "answer": "A) NUG: painful punched-out interdental papillae, necrosis, fetor, often in stress/smoking",
-      "explanation": "Fusospirochetal overgrowth with host compromise causes papillary necrosis. Therefore, the most accurate choice is: NUG: painful punched-out interdental papillae, necrosis, fetor, often in stress/smoking. Painful necrosis differs from chronic fibrotic enlargement.",
+      "answer": "A) necrotizing ulcerative gingivitis: painful punched-out interdental papillae, necrosis, fetor, often in stress/smoking",
+      "explanation": "Fusospirochetal overgrowth with host compromise causes papillary necrosis. Therefore, the most accurate choice is: necrotizing ulcerative gingivitis: painful punched-out interdental papillae, necrosis, fetor, often in stress/smoking. Painful necrosis differs from chronic fibrotic enlargement.",
       "choice_explanations": {
         "A": "Fusospirochetal overgrowth with host compromise causes papillary necrosis. This matches the correct interpretation.",
         "B": "Painful necrosis differs from chronic fibrotic enlargement. It is less consistent than the correct choice.",
@@ -1593,17 +1593,17 @@
       "question": "A clinic case of necrotizing periodontitis is discussed. Which of the following is correct?",
       "options": [
         "A) Necrotizing periodontitis includes attachment and bone loss with necrotic ulcerative features",
-        "B) True pockets never show apical JE migration",
+        "B) True pockets never show apical junctional epithelium migration",
         "C) Gingivitis always includes irreversible bone loss by definition",
         "D) Necrotizing periodontitis never involves bone"
       ],
       "answer": "A) Necrotizing periodontitis includes attachment and bone loss with necrotic ulcerative features",
-      "explanation": "Extension of necrotizing disease beyond gingiva destroys attachment. Therefore, the most accurate choice is: Necrotizing periodontitis includes attachment and bone loss with necrotic ulcerative features. Bone involvement distinguishes it from NUG alone.",
+      "explanation": "Extension of necrotizing disease beyond gingiva destroys attachment. Therefore, the most accurate choice is: Necrotizing periodontitis includes attachment and bone loss with necrotic ulcerative features. Bone involvement distinguishes it from necrotizing ulcerative gingivitis alone.",
       "choice_explanations": {
         "A": "Extension of necrotizing disease beyond gingiva destroys attachment. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Bone involvement distinguishes it from NUG alone. It is less consistent than the correct choice."
+        "D": "Bone involvement distinguishes it from necrotizing ulcerative gingivitis alone. It is less consistent than the correct choice."
       }
     },
     {
@@ -1611,7 +1611,7 @@
       "question": "Which statement about stage and grade idea perio is most accurate?",
       "options": [
         "A) Staging and grading refer only to composite hardness",
-        "B) Extract every Class II mobile tooth the same day without therapy trial",
+        "B) Extract every Class 2 mobile tooth the same day without therapy trial",
         "C) Staging describes severity/complexity; grading describes progression risk in modern classification",
         "D) All patients have identical risk regardless of smoking or diabetes"
       ],
@@ -1628,15 +1628,15 @@
   "extreme": [
     {
       "id": "periodontics:extreme:0",
-      "question": "A 74-year-old woman has a complex presentation of periodontium components. Which of the following is most accurate?",
+      "question": "A 42-year-old woman has a complex presentation of periodontium components. Which of the following is most accurate?",
       "options": [
         "A) Periodontium is only enamel and dentin",
-        "B) Peri-implant tissues are histologically identical to PDL insertion into cementum",
-        "C) Periodontium includes gingiva, PDL, cementum, and alveolar bone",
+        "B) Peri-implant tissues are histologically identical to periodontal ligament insertion into cementum",
+        "C) Periodontium includes gingiva, periodontal ligament, cementum, and alveolar bone",
         "D) Repair regenerates full pristine periodontium by definition always"
       ],
-      "answer": "C) Periodontium includes gingiva, PDL, cementum, and alveolar bone",
-      "explanation": "Supporting apparatus of the tooth comprises those four tissues. Therefore, the most accurate choice is: Periodontium includes gingiva, PDL, cementum, and alveolar bone. Enamel and pulp are not periodontium components.",
+      "answer": "C) Periodontium includes gingiva, periodontal ligament, cementum, and alveolar bone",
+      "explanation": "Supporting apparatus of the tooth comprises those four tissues. Therefore, the most accurate choice is: Periodontium includes gingiva, periodontal ligament, cementum, and alveolar bone. Enamel and pulp are not periodontium components.",
       "choice_explanations": {
         "A": "Enamel and pulp are not periodontium components. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1646,7 +1646,7 @@
     },
     {
       "id": "periodontics:extreme:1",
-      "question": "Small differences in wording about gingivitis vs periodontitis matter. Which of the following is correct?",
+      "question": "Small differences in wording about gingivitis versus periodontitis matter. Which of the following is correct?",
       "options": [
         "A) Gingivitis always includes irreversible bone loss by definition",
         "B) Gingivitis is reversible inflammation without attachment loss; periodontitis has attachment loss",
@@ -1664,7 +1664,7 @@
     },
     {
       "id": "periodontics:extreme:2",
-      "question": "A detailed evaluation for dental plaque biofilm is underway in a 46-year-old woman. Which of the following is correct?",
+      "question": "A detailed evaluation for dental plaque biofilm is underway in a 50-year-old woman. Which of the following is correct?",
       "options": [
         "A) Plaque is sterile food debris only",
         "B) Neutrophils are irrelevant to periodontal host defense",
@@ -1682,11 +1682,11 @@
     },
     {
       "id": "periodontics:extreme:3",
-      "question": "A 65-year-old man has findings that make calculus role hard to confirm. Which of the following is most accurate?",
+      "question": "A 69-year-old man has findings that make calculus role hard to confirm. Which of the following is most accurate?",
       "options": [
         "A) Calculus alone without biofilm is the primary pathogen in germ-free models always",
         "B) Mucositis always includes progressive cratering bone loss by definition",
-        "C) SRP means intentional removal of all cementum to dentin always as the only goal",
+        "C) scaling and root planing means intentional removal of all cementum to dentin always as the only goal",
         "D) Calculus is mineralized plaque that harbors biofilm and perpetuates inflammation"
       ],
       "answer": "D) Calculus is mineralized plaque that harbors biofilm and perpetuates inflammation",
@@ -1700,12 +1700,12 @@
     },
     {
       "id": "periodontics:extreme:4",
-      "question": "Which interpretation of supragingival vs subgingival calculus is most accurate?",
+      "question": "Which interpretation of supragingival versus subgingival calculus is most accurate?",
       "options": [
         "A) Treating only the gingiva cures a necrotic tooth's combined lesion always",
         "B) Supragingival calculus is coronal to the gingiva; subgingival lies in the pocket",
         "C) Both types exist only on the tongue dorsum",
-        "D) LGE is identical to healthy stippled pink gingiva"
+        "D) local gingival erythema is identical to healthy stippled pink gingiva"
       ],
       "answer": "B) Supragingival calculus is coronal to the gingiva; subgingival lies in the pocket",
       "explanation": "Location relative to gingival margin defines the categories and detection methods. Therefore, the most accurate choice is: Supragingival calculus is coronal to the gingiva; subgingival lies in the pocket. Subgingival deposits are often darker and detected by exploring.",
@@ -1718,30 +1718,30 @@
     },
     {
       "id": "periodontics:extreme:5",
-      "question": "A 49-year-old man returns with ongoing problems related to attachment loss. Which of the following is most accurate?",
+      "question": "A 53-year-old man returns with ongoing problems related to attachment loss. Which of the following is most accurate?",
       "options": [
-        "A) Probing depth is CEJ to apex length",
+        "A) Probing depth is cementoenamel junction to apex length",
         "B) Pseudopockets always show radiographic bone loss to apex",
-        "C) CAL is measured from CEJ to base of pocket, reflecting cumulative attachment loss",
-        "D) CAL equals probing depth alone always without CEJ reference"
+        "C) clinical attachment level is measured from cementoenamel junction to base of pocket, reflecting cumulative attachment loss",
+        "D) clinical attachment level equals probing depth alone always without cementoenamel junction reference"
       ],
-      "answer": "C) CAL is measured from CEJ to base of pocket, reflecting cumulative attachment loss",
-      "explanation": "Subtracting gingival margin position relative to CEJ yields attachment level. Therefore, the most accurate choice is: CAL is measured from CEJ to base of pocket, reflecting cumulative attachment loss. Probing depth alone ignores recession or hyperplasia effects.",
+      "answer": "C) clinical attachment level is measured from cementoenamel junction to base of pocket, reflecting cumulative attachment loss",
+      "explanation": "Subtracting gingival margin position relative to cementoenamel junction yields attachment level. Therefore, the most accurate choice is: clinical attachment level is measured from cementoenamel junction to base of pocket, reflecting cumulative attachment loss. Probing depth alone ignores recession or hyperplasia effects.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Subtracting gingival margin position relative to CEJ yields attachment level. This matches the correct interpretation.",
+        "C": "Subtracting gingival margin position relative to cementoenamel junction yields attachment level. This matches the correct interpretation.",
         "D": "Probing depth alone ignores recession or hyperplasia effects. It is less consistent than the correct choice."
       }
     },
     {
       "id": "periodontics:extreme:6",
-      "question": "Senior review is requested for probing depth in a 50-year-old woman. Which of the following is correct?",
+      "question": "Senior review is requested for probing depth in a 54-year-old woman. Which of the following is correct?",
       "options": [
         "A) Probing depth is gingival margin to probe tip at sulcus or pocket base",
-        "B) APF coronally advances tissue to cover recession as its definition",
-        "C) Probing depth is CEJ to apex length",
-        "D) CAL equals probing depth alone always without CEJ reference"
+        "B) acidulated phosphate fluoride coronally advances tissue to cover recession as its definition",
+        "C) Probing depth is cementoenamel junction to apex length",
+        "D) clinical attachment level equals probing depth alone always without cementoenamel junction reference"
       ],
       "answer": "A) Probing depth is gingival margin to probe tip at sulcus or pocket base",
       "explanation": "Periodontal probe records soft-tissue pocket depth clinically. Therefore, the most accurate choice is: Probing depth is gingival margin to probe tip at sulcus or pocket base. Radiographs and tooth length are different measures.",
@@ -1754,15 +1754,15 @@
     },
     {
       "id": "periodontics:extreme:7",
-      "question": "Which statement about bleeding on probing in a 75-year-old man is most accurate?",
+      "question": "Which statement about bleeding on probing in a 43-year-old man is most accurate?",
       "options": [
-        "A) BOP indicates inflammation of the pocket wall and ongoing disease activity risk",
-        "B) BOP proves the tooth needs immediate extraction always",
-        "C) CAL equals probing depth alone always without CEJ reference",
-        "D) JE is keratinized like palatal masticatory epithelium always"
+        "A) bleeding on probing indicates inflammation of the pocket wall and ongoing disease activity risk",
+        "B) bleeding on probing proves the tooth needs immediate extraction always",
+        "C) clinical attachment level equals probing depth alone always without cementoenamel junction reference",
+        "D) junctional epithelium is keratinized like palatal masticatory epithelium always"
       ],
-      "answer": "A) BOP indicates inflammation of the pocket wall and ongoing disease activity risk",
-      "explanation": "Ulcerated pocket epithelium bleeds when probed. Therefore, the most accurate choice is: BOP indicates inflammation of the pocket wall and ongoing disease activity risk. Bleeding guides inflammation assessment, not automatic extraction.",
+      "answer": "A) bleeding on probing indicates inflammation of the pocket wall and ongoing disease activity risk",
+      "explanation": "Ulcerated pocket epithelium bleeds when probed. Therefore, the most accurate choice is: bleeding on probing indicates inflammation of the pocket wall and ongoing disease activity risk. Bleeding guides inflammation assessment, not automatic extraction.",
       "choice_explanations": {
         "A": "Ulcerated pocket epithelium bleeds when probed. This matches the correct interpretation.",
         "B": "Bleeding guides inflammation assessment, not automatic extraction. It is less consistent than the correct choice.",
@@ -1772,11 +1772,11 @@
     },
     {
       "id": "periodontics:extreme:8",
-      "question": "A 61-year-old man has a complex presentation of gingival recession. Which of the following is most accurate?",
+      "question": "A 65-year-old man has a complex presentation of gingival recession. Which of the following is most accurate?",
       "options": [
         "A) Recession means increased bone height always",
         "B) Sensitivity from recession is treated by intentional further root planing only always",
-        "C) SRP means intentional removal of all cementum to dentin always as the only goal",
+        "C) scaling and root planing means intentional removal of all cementum to dentin always as the only goal",
         "D) Recession is apical shift of gingival margin exposing root surface"
       ],
       "answer": "D) Recession is apical shift of gingival margin exposing root surface",
@@ -1790,53 +1790,53 @@
     },
     {
       "id": "periodontics:extreme:9",
-      "question": "A 47-year-old man with poorly controlled diabetes is reassessed after incomplete response related to furcation Class I. Which of the following is most accurate?",
+      "question": "A 51-year-old man with poorly controlled diabetes is reassessed after incomplete response related to furcation Class I. Which of the following is most accurate?",
       "options": [
-        "A) Class II means no furcation involvement detectable",
+        "A) Class 2 means no furcation involvement detectable",
         "B) Class I means probe passes completely through furcation to the other side",
-        "C) Class III means only a catch at the entrance without horizontal loss",
+        "C) Class 3 means only a catch at the entrance without horizontal loss",
         "D) Class I furcation: detectable horizontal involvement into the flute without through-and-through"
       ],
       "answer": "D) Class I furcation: detectable horizontal involvement into the flute without through-and-through",
-      "explanation": "Early horizontal loss into furcation entrance is Class I (Glickman). Therefore, the most accurate choice is: Class I furcation: detectable horizontal involvement into the flute without through-and-through. Through-and-through involvement is Class III.",
+      "explanation": "Early horizontal loss into furcation entrance is Class I (Glickman). Therefore, the most accurate choice is: Class I furcation: detectable horizontal involvement into the flute without through-and-through. Through-and-through involvement is Class 3.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Through-and-through involvement is Class III. It is less consistent than the correct choice.",
+        "B": "Through-and-through involvement is Class 3. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Early horizontal loss into furcation entrance is Class I (Glickman). This matches the correct interpretation."
       }
     },
     {
       "id": "periodontics:extreme:10",
-      "question": "A detailed evaluation for furcation Class II is underway in a 75-year-old man. Which of the following is correct?",
+      "question": "A detailed evaluation for furcation Class 2 is underway in a 43-year-old man. Which of the following is correct?",
       "options": [
-        "A) Class II means no furcation involvement detectable",
+        "A) Class 2 means no furcation involvement detectable",
         "B) Class I means probe passes completely through furcation to the other side",
-        "C) Class III means only a catch at the entrance without horizontal loss",
-        "D) Class II furcation: horizontal loss into furcation that does not go through-and-through"
+        "C) Class 3 means only a catch at the entrance without horizontal loss",
+        "D) Class 2 furcation: horizontal loss into furcation that does not go through-and-through"
       ],
-      "answer": "D) Class II furcation: horizontal loss into furcation that does not go through-and-through",
-      "explanation": "Partial horizontal penetration short of complete pass-through is Class II. Therefore, the most accurate choice is: Class II furcation: horizontal loss into furcation that does not go through-and-through. No involvement is Class 0/none; complete through is Class III.",
+      "answer": "D) Class 2 furcation: horizontal loss into furcation that does not go through-and-through",
+      "explanation": "Partial horizontal penetration short of complete pass-through is Class 2. Therefore, the most accurate choice is: Class 2 furcation: horizontal loss into furcation that does not go through-and-through. No involvement is Class 0/none; complete through is Class 3.",
       "choice_explanations": {
-        "A": "No involvement is Class 0/none; complete through is Class III. It is less consistent than the correct choice.",
+        "A": "No involvement is Class 0/none; complete through is Class 3. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Partial horizontal penetration short of complete pass-through is Class II. This matches the correct interpretation."
+        "D": "Partial horizontal penetration short of complete pass-through is Class 2. This matches the correct interpretation."
       }
     },
     {
       "id": "periodontics:extreme:11",
-      "question": "A 67-year-old man has findings that make furcation Class III hard to confirm. Which of the following is most accurate?",
+      "question": "A 71-year-old man has findings that make furcation Class 3 hard to confirm. Which of the following is most accurate?",
       "options": [
-        "A) Class III furcation: through-and-through involvement under the roof of the furcation",
+        "A) Class 3 furcation: through-and-through involvement under the roof of the furcation",
         "B) Class I means probe passes completely through furcation to the other side",
-        "C) Class II means no furcation involvement detectable",
-        "D) Class III means only a catch at the entrance without horizontal loss"
+        "C) Class 2 means no furcation involvement detectable",
+        "D) Class 3 means only a catch at the entrance without horizontal loss"
       ],
-      "answer": "A) Class III furcation: through-and-through involvement under the roof of the furcation",
-      "explanation": "Probe passes between roots through the furcation in Class III. Therefore, the most accurate choice is: Class III furcation: through-and-through involvement under the roof of the furcation. Entrance catch only is earlier class involvement.",
+      "answer": "A) Class 3 furcation: through-and-through involvement under the roof of the furcation",
+      "explanation": "Probe passes between roots through the furcation in Class 3. Therefore, the most accurate choice is: Class 3 furcation: through-and-through involvement under the roof of the furcation. Entrance catch only is earlier class involvement.",
       "choice_explanations": {
-        "A": "Probe passes between roots through the furcation in Class III. This matches the correct interpretation.",
+        "A": "Probe passes between roots through the furcation in Class 3. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Entrance catch only is earlier class involvement. It is less consistent than the correct choice."
@@ -1844,64 +1844,64 @@
     },
     {
       "id": "periodontics:extreme:12",
-      "question": "In a 50-year-old woman, distinguishing mobility Miller Class I from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 54-year-old woman, distinguishing mobility Miller Class I from similar conditions is difficult. Which of the following is correct?",
       "options": [
-        "A) Class III mobility means physiologic mobility only",
+        "A) Class 3 mobility means physiologic mobility only",
         "B) Class I mobility means vertical depression into the socket freely",
-        "C) Class II means no detectable movement",
+        "C) Class 2 means no detectable movement",
         "D) Miller Class I mobility: first distinguishable sign of movement greater than normal"
       ],
       "answer": "D) Miller Class I mobility: first distinguishable sign of movement greater than normal",
-      "explanation": "Horizontal movement just beyond physiologic is Class I. Therefore, the most accurate choice is: Miller Class I mobility: first distinguishable sign of movement greater than normal. Vertical mobility indicates more severe Class III patterns.",
+      "explanation": "Horizontal movement just beyond physiologic is Class I. Therefore, the most accurate choice is: Miller Class I mobility: first distinguishable sign of movement greater than normal. Vertical mobility indicates more severe Class 3 patterns.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Vertical mobility indicates more severe Class III patterns. It is less consistent than the correct choice.",
+        "B": "Vertical mobility indicates more severe Class 3 patterns. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Horizontal movement just beyond physiologic is Class I. This matches the correct interpretation."
       }
     },
     {
       "id": "periodontics:extreme:13",
-      "question": "A 42-year-old woman returns with ongoing problems related to mobility Miller Class II. Which of the following is most accurate?",
+      "question": "A 46-year-old woman returns with ongoing problems related to mobility Miller Class 2. Which of the following is most accurate?",
       "options": [
         "A) Class I mobility means vertical depression into the socket freely",
-        "B) Class II means no detectable movement",
-        "C) Class III mobility means physiologic mobility only",
-        "D) Class II mobility: movement up to 1 mm horizontally without vertical depression"
+        "B) Class 2 means no detectable movement",
+        "C) Class 3 mobility means physiologic mobility only",
+        "D) Class 2 mobility: movement up to 1 mm horizontally without vertical depression"
       ],
-      "answer": "D) Class II mobility: movement up to 1 mm horizontally without vertical depression",
-      "explanation": "Moderate horizontal mobility short of vertical defines Class II. Therefore, the most accurate choice is: Class II mobility: movement up to 1 mm horizontally without vertical depression. Absence of movement is physiologic/normal, not Class II.",
+      "answer": "D) Class 2 mobility: movement up to 1 mm horizontally without vertical depression",
+      "explanation": "Moderate horizontal mobility short of vertical defines Class 2. Therefore, the most accurate choice is: Class 2 mobility: movement up to 1 mm horizontally without vertical depression. Absence of movement is physiologic/normal, not Class 2.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Absence of movement is physiologic/normal, not Class II. It is less consistent than the correct choice.",
+        "B": "Absence of movement is physiologic/normal, not Class 2. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Moderate horizontal mobility short of vertical defines Class II. This matches the correct interpretation."
+        "D": "Moderate horizontal mobility short of vertical defines Class 2. This matches the correct interpretation."
       }
     },
     {
       "id": "periodontics:extreme:14",
-      "question": "Senior review is requested for mobility Miller Class III in a 70-year-old woman. Which of the following is correct?",
+      "question": "Senior review is requested for mobility Miller Class 3 in a 74-year-old woman. Which of the following is correct?",
       "options": [
         "A) Class I mobility means vertical depression into the socket freely",
-        "B) Class II means no detectable movement",
-        "C) Class III mobility means physiologic mobility only",
-        "D) Class III mobility: >1 mm horizontal movement or vertical depressibility"
+        "B) Class 2 means no detectable movement",
+        "C) Class 3 mobility means physiologic mobility only",
+        "D) Class 3 mobility: >1 mm horizontal movement or vertical depressibility"
       ],
-      "answer": "D) Class III mobility: >1 mm horizontal movement or vertical depressibility",
-      "explanation": "Severe horizontal or any vertical mobility is Class III. Therefore, the most accurate choice is: Class III mobility: >1 mm horizontal movement or vertical depressibility. Physiologic mobility is far less.",
+      "answer": "D) Class 3 mobility: >1 mm horizontal movement or vertical depressibility",
+      "explanation": "Severe horizontal or any vertical mobility is Class 3. Therefore, the most accurate choice is: Class 3 mobility: >1 mm horizontal movement or vertical depressibility. Physiologic mobility is far less.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Physiologic mobility is far less. It is less consistent than the correct choice.",
-        "D": "Severe horizontal or any vertical mobility is Class III. This matches the correct interpretation."
+        "D": "Severe horizontal or any vertical mobility is Class 3. This matches the correct interpretation."
       }
     },
     {
       "id": "periodontics:extreme:15",
-      "question": "Which statement about primary vs secondary occlusal trauma in a 56-year-old woman is most accurate?",
+      "question": "Which statement about primary versus secondary occlusal trauma in a 60-year-old woman is most accurate?",
       "options": [
-        "A) Extract every Class II mobile tooth the same day without therapy trial",
-        "B) Occlusal adjustment replaces SRP for plaque-induced periodontitis",
+        "A) Extract every Class 2 mobile tooth the same day without therapy trial",
+        "B) Occlusal adjustment replaces scaling and root planing for plaque-induced periodontitis",
         "C) Primary occlusal trauma: injury from excessive force on a tooth with normal support",
         "D) Primary occlusal trauma means periodontitis has already destroyed support first always"
       ],
@@ -1916,10 +1916,10 @@
     },
     {
       "id": "periodontics:extreme:16",
-      "question": "A 51-year-old man has a complex presentation of fremitus. Which of the following is most accurate?",
+      "question": "A 55-year-old man has a complex presentation of fremitus. Which of the following is most accurate?",
       "options": [
         "A) Fremitus is palpable vibration of a tooth under occlusal load",
-        "B) Occlusal adjustment replaces SRP for plaque-induced periodontitis",
+        "B) Occlusal adjustment replaces scaling and root planing for plaque-induced periodontitis",
         "C) Primary occlusal trauma means periodontitis has already destroyed support first always",
         "D) Fremitus is a type of composite resin"
       ],
@@ -1934,15 +1934,15 @@
     },
     {
       "id": "periodontics:extreme:17",
-      "question": "A 58-year-old woman with poorly controlled diabetes is reassessed after incomplete response related to nonsurgical scaling root planing. Which of the following is most accurate?",
+      "question": "A 62-year-old woman with poorly controlled diabetes is reassessed after incomplete response related to nonsurgical scaling root planing. Which of the following is most accurate?",
       "options": [
-        "A) SRP means intentional removal of all cementum to dentin always as the only goal",
+        "A) scaling and root planing means intentional removal of all cementum to dentin always as the only goal",
         "B) Root resection means extracting the entire tooth always",
         "C) Sensitivity from recession is treated by intentional further root planing only always",
-        "D) SRP removes biofilm and calculus from crown and root to reduce inflammation"
+        "D) scaling and root planing removes biofilm and calculus from crown and root to reduce inflammation"
       ],
-      "answer": "D) SRP removes biofilm and calculus from crown and root to reduce inflammation",
-      "explanation": "Instrumentation disrupts subgingival biofilm and deposits for healing. Therefore, the most accurate choice is: SRP removes biofilm and calculus from crown and root to reduce inflammation. Cementum conservation with deposit removal is modern emphasis; hygiene remains essential.",
+      "answer": "D) scaling and root planing removes biofilm and calculus from crown and root to reduce inflammation",
+      "explanation": "Instrumentation disrupts subgingival biofilm and deposits for healing. Therefore, the most accurate choice is: scaling and root planing removes biofilm and calculus from crown and root to reduce inflammation. Cementum conservation with deposit removal is modern emphasis; hygiene remains essential.",
       "choice_explanations": {
         "A": "Cementum conservation with deposit removal is modern emphasis; hygiene remains essential. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1952,7 +1952,7 @@
     },
     {
       "id": "periodontics:extreme:18",
-      "question": "A 68-year-old woman needs action related to oral hygiene plaque control. Which of the following is correct?",
+      "question": "A 72-year-old woman needs action related to oral hygiene plaque control. Which of the following is correct?",
       "options": [
         "A) Mechanical plaque control is foundational therapy for gingivitis and periodontitis",
         "B) Jump to resective osseous surgery before plaque control as ideal sequence always",
@@ -1970,12 +1970,12 @@
     },
     {
       "id": "periodontics:extreme:19",
-      "question": "A 66-year-old woman has findings that make chlorhexidine role hard to confirm. Which of the following is most accurate?",
+      "question": "A 70-year-old woman has findings that make chlorhexidine role hard to confirm. Which of the following is most accurate?",
       "options": [
         "A) Chlorhexidine is an adjunctive antiplaque antiseptic, not a standalone periodontitis cure",
-        "B) CHX rinse replaces all brushing and SRP forever",
+        "B) chlorhexidine rinse replaces all brushing and scaling and root planing forever",
         "C) Host modulation replaces plaque control entirely",
-        "D) Occlusal adjustment replaces SRP for plaque-induced periodontitis"
+        "D) Occlusal adjustment replaces scaling and root planing for plaque-induced periodontitis"
       ],
       "answer": "A) Chlorhexidine is an adjunctive antiplaque antiseptic, not a standalone periodontitis cure",
       "explanation": "Bisbiguanide antiseptic reduces plaque temporarily as adjunct. Therefore, the most accurate choice is: Chlorhexidine is an adjunctive antiplaque antiseptic, not a standalone periodontitis cure. It cannot replace mechanical debridement and hygiene.",
@@ -1988,7 +1988,7 @@
     },
     {
       "id": "periodontics:extreme:20",
-      "question": "In a 58-year-old woman, distinguishing periodontal abscess from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 62-year-old woman, distinguishing periodontal abscess from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Treating only the gingiva cures a necrotic tooth's combined lesion always",
         "B) Periodontal abscess is identical to reversible pulpitis always",
@@ -2006,9 +2006,9 @@
     },
     {
       "id": "periodontics:extreme:21",
-      "question": "Safety concerns around endo-perio lesion idea arise in a 56-year-old woman. Which of the following is most accurate?",
+      "question": "Safety concerns around endo-perio lesion idea arise in a 60-year-old woman. Which of the following is most accurate?",
       "options": [
-        "A) JE is keratinized like palatal masticatory epithelium always",
+        "A) junctional epithelium is keratinized like palatal masticatory epithelium always",
         "B) Combined endodontic-periodontal lesions need both pulp and periodontal cause management",
         "C) Treating only the gingiva cures a necrotic tooth's combined lesion always",
         "D) Sensitivity from recession is treated by intentional further root planing only always"
@@ -2024,7 +2024,7 @@
     },
     {
       "id": "periodontics:extreme:22",
-      "question": "Senior review is requested for aggressive / molar-incisor idea in a 72-year-old woman. Which of the following is correct?",
+      "question": "Senior review is requested for aggressive / molar-incisor idea in a 40-year-old woman. Which of the following is correct?",
       "options": [
         "A) Desquamative gingivitis is simple plaque gingivitis always without other disease",
         "B) Molar-incisor pattern periodontitis shows rapid attachment loss around first molars and incisors",
@@ -2042,7 +2042,7 @@
     },
     {
       "id": "periodontics:extreme:23",
-      "question": "Which statement about systemic risk diabetes in a 70-year-old woman is most accurate?",
+      "question": "Which statement about systemic risk diabetes in a 74-year-old woman is most accurate?",
       "options": [
         "A) Smoking improves periodontal regeneration outcomes",
         "B) Diabetes protects against all periodontal disease",
@@ -2060,7 +2060,7 @@
     },
     {
       "id": "periodontics:extreme:24",
-      "question": "A 47-year-old man with poorly controlled diabetes requires careful decisions about smoking periodontal risk. Which of the following is most accurate?",
+      "question": "A 51-year-old man with poorly controlled diabetes requires careful decisions about smoking periodontal risk. Which of the following is most accurate?",
       "options": [
         "A) Diabetes protects against all periodontal disease",
         "B) Smoking improves periodontal regeneration outcomes",
@@ -2068,17 +2068,17 @@
         "D) Pregnancy creates periodontitis without any plaque ever"
       ],
       "answer": "C) Smoking increases periodontitis severity and masks bleeding while impairing healing",
-      "explanation": "Vascular and immune changes worsen destruction and response to therapy. Therefore, the most accurate choice is: Smoking increases periodontitis severity and masks bleeding while impairing healing. BOP may be reduced despite disease in smokers.",
+      "explanation": "Vascular and immune changes worsen destruction and response to therapy. Therefore, the most accurate choice is: Smoking increases periodontitis severity and masks bleeding while impairing healing. bleeding on probing may be reduced despite disease in smokers.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "BOP may be reduced despite disease in smokers. It is less consistent than the correct choice.",
+        "B": "bleeding on probing may be reduced despite disease in smokers. It is less consistent than the correct choice.",
         "C": "Vascular and immune changes worsen destruction and response to therapy. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "periodontics:extreme:25",
-      "question": "A 33-year-old woman is reassessed after incomplete response related to pregnancy gingivitis. Which of the following is most accurate?",
+      "question": "A 19-year-old woman is reassessed after incomplete response related to pregnancy gingivitis. Which of the following is most accurate?",
       "options": [
         "A) Pregnancy-associated gingivitis reflects hormone-enhanced response to plaque",
         "B) Pregnancy creates periodontitis without any plaque ever",
@@ -2096,17 +2096,17 @@
     },
     {
       "id": "periodontics:extreme:26",
-      "question": "A detailed evaluation for drug-influenced gingival enlargement is underway in a 61-year-old man. Which of the following is correct?",
+      "question": "A detailed evaluation for drug-influenced gingival enlargement is underway in a 65-year-old man. Which of the following is correct?",
       "options": [
         "A) Only acetaminophen causes severe gingival hyperplasia characteristically",
         "B) Phenytoin, cyclosporine, and calcium channel blockers can cause gingival overgrowth",
-        "C) Occlusal adjustment replaces SRP for plaque-induced periodontitis",
-        "D) NUG is painless chronic gingival hyperplasia only"
+        "C) Occlusal adjustment replaces scaling and root planing for plaque-induced periodontitis",
+        "D) necrotizing ulcerative gingivitis is painless chronic gingival hyperplasia only"
       ],
       "answer": "B) Phenytoin, cyclosporine, and calcium channel blockers can cause gingival overgrowth",
-      "explanation": "Drug-influenced fibroblasts overproduce matrix especially with plaque inflammation. Therefore, the most accurate choice is: Phenytoin, cyclosporine, and calcium channel blockers can cause gingival overgrowth. Classic culprits are those anticonvulsant, immunosuppressant, and CCB drugs.",
+      "explanation": "Drug-influenced fibroblasts overproduce matrix especially with plaque inflammation. Therefore, the most accurate choice is: Phenytoin, cyclosporine, and calcium channel blockers can cause gingival overgrowth. Classic culprits are those anticonvulsant, immunosuppressant, and calcium channel blocker drugs.",
       "choice_explanations": {
-        "A": "Classic culprits are those anticonvulsant, immunosuppressant, and CCB drugs. It is less consistent than the correct choice.",
+        "A": "Classic culprits are those anticonvulsant, immunosuppressant, and calcium channel blocker drugs. It is less consistent than the correct choice.",
         "B": "Drug-influenced fibroblasts overproduce matrix especially with plaque inflammation. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -2114,15 +2114,15 @@
     },
     {
       "id": "periodontics:extreme:27",
-      "question": "A 41-year-old man has findings that make necrotizing ulcerative gingivitis hard to confirm. Which of the following is most accurate?",
+      "question": "A 45-year-old man has findings that make necrotizing ulcerative gingivitis hard to confirm. Which of the following is most accurate?",
       "options": [
-        "A) NUG: painful punched-out interdental papillae, necrosis, fetor, often in stress/smoking",
-        "B) NUG is painless chronic gingival hyperplasia only",
+        "A) necrotizing ulcerative gingivitis: painful punched-out interdental papillae, necrosis, fetor, often in stress/smoking",
+        "B) necrotizing ulcerative gingivitis is painless chronic gingival hyperplasia only",
         "C) Only acetaminophen causes severe gingival hyperplasia characteristically",
         "D) Necrotizing periodontitis never involves bone"
       ],
-      "answer": "A) NUG: painful punched-out interdental papillae, necrosis, fetor, often in stress/smoking",
-      "explanation": "Fusospirochetal overgrowth with host compromise causes papillary necrosis. Therefore, the most accurate choice is: NUG: painful punched-out interdental papillae, necrosis, fetor, often in stress/smoking. Painful necrosis differs from chronic fibrotic enlargement.",
+      "answer": "A) necrotizing ulcerative gingivitis: painful punched-out interdental papillae, necrosis, fetor, often in stress/smoking",
+      "explanation": "Fusospirochetal overgrowth with host compromise causes papillary necrosis. Therefore, the most accurate choice is: necrotizing ulcerative gingivitis: painful punched-out interdental papillae, necrosis, fetor, often in stress/smoking. Painful necrosis differs from chronic fibrotic enlargement.",
       "choice_explanations": {
         "A": "Fusospirochetal overgrowth with host compromise causes papillary necrosis. This matches the correct interpretation.",
         "B": "Painful necrosis differs from chronic fibrotic enlargement. It is less consistent than the correct choice.",
@@ -2132,7 +2132,7 @@
     },
     {
       "id": "periodontics:extreme:28",
-      "question": "In a 60-year-old woman, distinguishing necrotizing periodontitis from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 64-year-old woman, distinguishing necrotizing periodontitis from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Necrotizing periodontitis includes attachment and bone loss with necrotic ulcerative features",
         "B) Gingivitis always includes irreversible bone loss by definition",
@@ -2140,22 +2140,22 @@
         "D) Necrotizing periodontitis never involves bone"
       ],
       "answer": "A) Necrotizing periodontitis includes attachment and bone loss with necrotic ulcerative features",
-      "explanation": "Extension of necrotizing disease beyond gingiva destroys attachment. Therefore, the most accurate choice is: Necrotizing periodontitis includes attachment and bone loss with necrotic ulcerative features. Bone involvement distinguishes it from NUG alone.",
+      "explanation": "Extension of necrotizing disease beyond gingiva destroys attachment. Therefore, the most accurate choice is: Necrotizing periodontitis includes attachment and bone loss with necrotic ulcerative features. Bone involvement distinguishes it from necrotizing ulcerative gingivitis alone.",
       "choice_explanations": {
         "A": "Extension of necrotizing disease beyond gingiva destroys attachment. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Bone involvement distinguishes it from NUG alone. It is less consistent than the correct choice."
+        "D": "Bone involvement distinguishes it from necrotizing ulcerative gingivitis alone. It is less consistent than the correct choice."
       }
     },
     {
       "id": "periodontics:extreme:29",
-      "question": "Safety concerns around stage and grade idea perio arise in a 52-year-old woman. Which of the following is most accurate?",
+      "question": "Safety concerns around stage and grade idea perio arise in a 56-year-old woman. Which of the following is most accurate?",
       "options": [
         "A) Staging and grading refer only to composite hardness",
         "B) All patients have identical risk regardless of smoking or diabetes",
         "C) Staging describes severity/complexity; grading describes progression risk in modern classification",
-        "D) Extract every Class II mobile tooth the same day without therapy trial"
+        "D) Extract every Class 2 mobile tooth the same day without therapy trial"
       ],
       "answer": "C) Staging describes severity/complexity; grading describes progression risk in modern classification",
       "explanation": "Framework guides prognosis and intensity of therapy. Therefore, the most accurate choice is: Staging describes severity/complexity; grading describes progression risk in modern classification. Clinical attachment, bone loss, and risk factors feed stage/grade.",

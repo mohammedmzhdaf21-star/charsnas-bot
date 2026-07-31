@@ -166,7 +166,7 @@
       "id": "psychiatric:easy:9",
       "question": "Which finding is expected in safety plan components?",
       "options": [
-        "A) Conduct high-risk SI session without knowing location",
+        "A) Conduct high-risk suicidal ideation session without knowing location",
         "B) Rely only on no-suicide contract without means restriction",
         "C) Discharge post-ideation without any crisis contacts",
         "D) Warning signs, coping, contacts, means restriction"
@@ -202,7 +202,7 @@
       "id": "psychiatric:easy:11",
       "question": "In self-harm nonshame care, which of the following is correct?",
       "options": [
-        "A) Treat NMS fever with acetaminophen only and continue depot injection",
+        "A) Treat neuroleptic malignant syndrome fever with acetaminophen only and continue depot injection",
         "B) Treat wounds clinically without shaming",
         "C) Withhold wound care as punishment for cutting",
         "D) Use unnecessary forced disrobing without privacy trauma sensitivity"
@@ -256,8 +256,8 @@
       "id": "psychiatric:easy:14",
       "question": "Which mechanism accounts for command hallucinations?",
       "options": [
-        "A) SSRIs raise bleeding risk especially with NSAIDs/anticoagulants",
-        "B) Conduct high-risk SI session without knowing location",
+        "A) SSRIs raise bleeding risk especially with nonsteroidal anti-inflammatory drugs/anticoagulants",
+        "B) Conduct high-risk suicidal ideation session without knowing location",
         "C) Assess content; increase safety if harm commands",
         "D) Force paper-bag hyperventilation for all panic without assessing hypoxia risk"
       ],
@@ -274,13 +274,13 @@
       "id": "psychiatric:easy:15",
       "question": "Which of the following applies to acute dystonia rescue?",
       "options": [
-        "A) Recognize dystonia; give ordered anticholinergic rescue ASAP",
+        "A) Recognize dystonia; give ordered anticholinergic rescue as soon as possible",
         "B) Restrain and treat dystonia as bad behavior only",
         "C) Treat all movement effects as identical with one approach only",
         "D) Give high-potency typicals first for catatonic stupor without assessment"
       ],
-      "answer": "A) Recognize dystonia; give ordered anticholinergic rescue ASAP",
-      "explanation": "Dystonia can threaten airway. Therefore, the most accurate choice is: Recognize dystonia; give ordered anticholinergic rescue ASAP. Behavioral mislabel delays treatment—.",
+      "answer": "A) Recognize dystonia; give ordered anticholinergic rescue as soon as possible",
+      "explanation": "Dystonia can threaten airway. Therefore, the most accurate choice is: Recognize dystonia; give ordered anticholinergic rescue as soon as possible. Behavioral mislabel delays treatment—.",
       "choice_explanations": {
         "A": "Dystonia can threaten airway. This matches the correct interpretation.",
         "B": "Behavioral mislabel delays treatment—near-miss. It is less consistent than the correct choice.",
@@ -292,7 +292,7 @@
       "id": "psychiatric:easy:16",
       "question": "Which of the following is true of akathisia not agitation?",
       "options": [
-        "A) Give another antipsychotic dose during NMS",
+        "A) Give another antipsychotic dose during neuroleptic malignant syndrome",
         "B) Restrain and treat dystonia as bad behavior only",
         "C) Recognize antipsychotic akathisia—adjust regimen; don’t only restrain",
         "D) Tighten restraints and raise antipsychotic dose for akathisia"
@@ -308,18 +308,18 @@
     },
     {
       "id": "psychiatric:easy:17",
-      "question": "Which finding is expected in NMS emergency?",
+      "question": "Which finding is expected in neuroleptic malignant syndrome emergency?",
       "options": [
-        "A) Give another antipsychotic dose during NMS",
-        "B) Rigidity, fever, dysautonomia, ↑CK—stop antipsychotic; support",
-        "C) Treat NMS fever with acetaminophen only and continue depot injection",
-        "D) Add another SSRI/MAOI when serotonin syndrome suspected"
+        "A) Give another antipsychotic dose during neuroleptic malignant syndrome",
+        "B) Rigidity, fever, dysautonomia, ↑creatine kinase—stop antipsychotic; support",
+        "C) Treat neuroleptic malignant syndrome fever with acetaminophen only and continue depot injection",
+        "D) Add another selective serotonin reuptake inhibitor/monoamine oxidase inhibitor when serotonin syndrome suspected"
       ],
-      "answer": "B) Rigidity, fever, dysautonomia, ↑CK—stop antipsychotic; support",
-      "explanation": "NMS is life-threatening reaction. Therefore, the most accurate choice is: Rigidity, fever, dysautonomia, ↑CK—stop antipsychotic; support. Continuing antipsychotic fuels NMS—.",
+      "answer": "B) Rigidity, fever, dysautonomia, ↑creatine kinase—stop antipsychotic; support",
+      "explanation": "neuroleptic malignant syndrome is life-threatening reaction. Therefore, the most accurate choice is: Rigidity, fever, dysautonomia, ↑creatine kinase—stop antipsychotic; support. Continuing antipsychotic fuels neuroleptic malignant syndrome—.",
       "choice_explanations": {
-        "A": "Continuing antipsychotic fuels NMS—near-miss. It is less consistent than the correct choice.",
-        "B": "NMS is life-threatening reaction. This matches the correct interpretation.",
+        "A": "Continuing antipsychotic fuels neuroleptic malignant syndrome—near-miss. It is less consistent than the correct choice.",
+        "B": "neuroleptic malignant syndrome is life-threatening reaction. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -330,8 +330,8 @@
       "options": [
         "A) Treat by adding more serotonergic and antipsychotic agents to either",
         "B) Clonus/hyperreflexia/fever from serotonergic stacks—stop agents",
-        "C) Add another SSRI/MAOI when serotonin syndrome suspected",
-        "D) Give another antipsychotic dose during NMS"
+        "C) Add another selective serotonin reuptake inhibitor/monoamine oxidase inhibitor when serotonin syndrome suspected",
+        "D) Give another antipsychotic dose during neuroleptic malignant syndrome"
       ],
       "answer": "B) Clonus/hyperreflexia/fever from serotonergic stacks—stop agents",
       "explanation": "Excess 5-HT causes neuromuscular hyperactivity. Therefore, the most accurate choice is: Clonus/hyperreflexia/fever from serotonergic stacks—stop agents. Adding serotonergic drugs worsens—.",
@@ -346,31 +346,31 @@
       "id": "psychiatric:easy:19",
       "question": "In tardive dyskinesia, which of the following is correct?",
       "options": [
-        "A) Athetoid oral-facial movements; early detection; anticholinergics not TD cure",
-        "B) Treat TD with high-dose anticholinergics as definitive cure",
+        "A) Athetoid oral-facial movements; early detection; anticholinergics not tardive dyskinesia cure",
+        "B) Treat tardive dyskinesia with high-dose anticholinergics as definitive cure",
         "C) Treat all movement effects as identical with one approach only",
         "D) Stop high-dose benzos cold turkey after months"
       ],
-      "answer": "A) Athetoid oral-facial movements; early detection; anticholinergics not TD cure",
-      "explanation": "TD may persist; specialty changes needed. Therefore, the most accurate choice is: Athetoid oral-facial movements; early detection; anticholinergics not TD cure. Anticholinergics can worsen TD—.",
+      "answer": "A) Athetoid oral-facial movements; early detection; anticholinergics not tardive dyskinesia cure",
+      "explanation": "tardive dyskinesia may persist; specialty changes needed. Therefore, the most accurate choice is: Athetoid oral-facial movements; early detection; anticholinergics not tardive dyskinesia cure. Anticholinergics can worsen tardive dyskinesia—.",
       "choice_explanations": {
-        "A": "TD may persist; specialty changes needed. This matches the correct interpretation.",
-        "B": "Anticholinergics can worsen TD—near-miss. It is less consistent than the correct choice.",
+        "A": "tardive dyskinesia may persist; specialty changes needed. This matches the correct interpretation.",
+        "B": "Anticholinergics can worsen tardive dyskinesia—near-miss. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "psychiatric:easy:20",
-      "question": "Which of the following best describes clozapine ANC monitoring?",
+      "question": "Which of the following best describes clozapine absolute neutrophil count monitoring?",
       "options": [
-        "A) Monitor ANC per REMS; fever/sore throat urgent",
+        "A) Monitor absolute neutrophil count per Risk Evaluation and Mitigation Strategy; fever/sore throat urgent",
         "B) Skip suicide screening because patient is ‘too tired to act’",
-        "C) Skip ANC labs because patient feels fine on clozapine",
-        "D) Start clozapine without discussing ANC monitoring needs"
+        "C) Skip absolute neutrophil count labs because patient feels fine on clozapine",
+        "D) Start clozapine without discussing absolute neutrophil count monitoring needs"
       ],
-      "answer": "A) Monitor ANC per REMS; fever/sore throat urgent",
-      "explanation": "Agranulocytosis can kill. Therefore, the most accurate choice is: Monitor ANC per REMS; fever/sore throat urgent. Skipped labs deadly—.",
+      "answer": "A) Monitor absolute neutrophil count per Risk Evaluation and Mitigation Strategy; fever/sore throat urgent",
+      "explanation": "Agranulocytosis can kill. Therefore, the most accurate choice is: Monitor absolute neutrophil count per Risk Evaluation and Mitigation Strategy; fever/sore throat urgent. Skipped labs deadly—.",
       "choice_explanations": {
         "A": "Agranulocytosis can kill. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -382,10 +382,10 @@
       "id": "psychiatric:easy:21",
       "question": "Select the correct statement about lithium toxicity.",
       "options": [
-        "A) Give another antipsychotic dose during NMS",
+        "A) Give another antipsychotic dose during neuroleptic malignant syndrome",
         "B) Increase lithium during gastroenteritis dehydration",
         "C) Coarse tremor, vomiting, ataxia, confusion—hold and check level",
-        "D) Start crash low-salt diet and NSAIDs freely on lithium"
+        "D) Start crash low-salt diet and nonsteroidal anti-inflammatory drugs freely on lithium"
       ],
       "answer": "C) Coarse tremor, vomiting, ataxia, confusion—hold and check level",
       "explanation": "Dehydration raises lithium into toxicity. Therefore, the most accurate choice is: Coarse tremor, vomiting, ataxia, confusion—hold and check level. Extra doses when dry worsen—.",
@@ -400,15 +400,15 @@
       "id": "psychiatric:easy:22",
       "question": "Which mechanism accounts for lithium salt consistency?",
       "options": [
-        "A) Start crash low-salt diet and NSAIDs freely on lithium",
+        "A) Start crash low-salt diet and nonsteroidal anti-inflammatory drugs freely on lithium",
         "B) Recommend ibuprofen freely for lithium patients without advice",
-        "C) Keep salt/fluid steady; caution NSAIDs/diuretics",
+        "C) Keep salt/fluid steady; caution nonsteroidal anti-inflammatory drugs/diuretics",
         "D) Increase lithium during gastroenteritis dehydration"
       ],
-      "answer": "C) Keep salt/fluid steady; caution NSAIDs/diuretics",
-      "explanation": "Sodium depletion increases lithium reabsorption. Therefore, the most accurate choice is: Keep salt/fluid steady; caution NSAIDs/diuretics. Salt crash + NSAIDs .",
+      "answer": "C) Keep salt/fluid steady; caution nonsteroidal anti-inflammatory drugs/diuretics",
+      "explanation": "Sodium depletion increases lithium reabsorption. Therefore, the most accurate choice is: Keep salt/fluid steady; caution nonsteroidal anti-inflammatory drugs/diuretics. Salt crash + nonsteroidal anti-inflammatory drugs .",
       "choice_explanations": {
-        "A": "Salt crash + NSAIDs near-miss. It is less consistent than the correct choice.",
+        "A": "Salt crash + nonsteroidal anti-inflammatory drugs near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Sodium depletion increases lithium reabsorption. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -436,23 +436,23 @@
       "id": "psychiatric:easy:24",
       "question": "Which of the following is true of lamotrigine titration?",
       "options": [
-        "A) Escalate PRN antipsychotics for boredom without reassessment",
+        "A) Escalate as needed antipsychotics for boredom without reassessment",
         "B) Rapidly escalate lamotrigine over a few days",
-        "C) Titrate slowly; report rash—SJS risk",
+        "C) Titrate slowly; report rash—Stevens-Johnson syndrome risk",
         "D) Report blistering rash urgently; stop per protocol"
       ],
-      "answer": "C) Titrate slowly; report rash—SJS risk",
-      "explanation": "Slow titration lowers serious rash risk. Therefore, the most accurate choice is: Titrate slowly; report rash—SJS risk. Rapid titration SJS .",
+      "answer": "C) Titrate slowly; report rash—Stevens-Johnson syndrome risk",
+      "explanation": "Slow titration lowers serious rash risk. Therefore, the most accurate choice is: Titrate slowly; report rash—Stevens-Johnson syndrome risk. Rapid titration Stevens-Johnson syndrome .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Rapid titration SJS near-miss. It is less consistent than the correct choice.",
+        "B": "Rapid titration Stevens-Johnson syndrome near-miss. It is less consistent than the correct choice.",
         "C": "Slow titration lowers serious rash risk. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "psychiatric:easy:25",
-      "question": "Which finding is expected in MAOI tyramine diet?",
+      "question": "Which finding is expected in monoamine oxidase inhibitor tyramine diet?",
       "options": [
         "A) Stop high-dose benzos cold turkey after months",
         "B) Encourage aged cheese/cured meats on phenelzine",
@@ -470,15 +470,15 @@
     },
     {
       "id": "psychiatric:easy:26",
-      "question": "Which of the following statements about MAOI SSRI washout is correct?",
+      "question": "Which of the following statements about monoamine oxidase inhibitor selective serotonin reuptake inhibitor washout is correct?",
       "options": [
-        "A) Respect washout when switching MAOI↔SSRI",
-        "B) Start fluoxetine same day MAOI stops",
-        "C) Add another SSRI/MAOI when serotonin syndrome suspected",
-        "D) Start crash low-salt diet and NSAIDs freely on lithium"
+        "A) Respect washout when switching monoamine oxidase inhibitor↔selective serotonin reuptake inhibitor",
+        "B) Start fluoxetine same day monoamine oxidase inhibitor stops",
+        "C) Add another selective serotonin reuptake inhibitor/monoamine oxidase inhibitor when serotonin syndrome suspected",
+        "D) Start crash low-salt diet and nonsteroidal anti-inflammatory drugs freely on lithium"
       ],
-      "answer": "A) Respect washout when switching MAOI↔SSRI",
-      "explanation": "Stacked serotonin toxicity can kill. Therefore, the most accurate choice is: Respect washout when switching MAOI↔SSRI. No washout .",
+      "answer": "A) Respect washout when switching monoamine oxidase inhibitor↔selective serotonin reuptake inhibitor",
+      "explanation": "Stacked serotonin toxicity can kill. Therefore, the most accurate choice is: Respect washout when switching monoamine oxidase inhibitor↔selective serotonin reuptake inhibitor. No washout .",
       "choice_explanations": {
         "A": "Stacked serotonin toxicity can kill. This matches the correct interpretation.",
         "B": "No washout near-miss. It is less consistent than the correct choice.",
@@ -490,7 +490,7 @@
       "id": "psychiatric:easy:27",
       "question": "In benzo taper, which of the following is correct?",
       "options": [
-        "A) Withhold benzos for rising CIWA with seizure history",
+        "A) Withhold benzos for rising Clinical Institute Withdrawal Assessment with seizure history",
         "B) Start long-acting benzos first for frail elder insomnia",
         "C) Taper slowly after prolonged use; avoid alcohol combo",
         "D) Stop high-dose benzos cold turkey after months"
@@ -506,15 +506,15 @@
     },
     {
       "id": "psychiatric:easy:28",
-      "question": "Which of the following best describes CIWA alcohol withdrawal?",
+      "question": "Which of the following best describes Clinical Institute Withdrawal Assessment alcohol withdrawal?",
       "options": [
         "A) Push D50 and forget thiamine in confused alcoholic",
         "B) Stop high-dose benzos cold turkey after months",
-        "C) Withhold benzos for rising CIWA with seizure history",
-        "D) CIWA-guided benzos, thiamine, seize/DT surveillance"
+        "C) Withhold benzos for rising Clinical Institute Withdrawal Assessment with seizure history",
+        "D) CIWA-guided benzos, thiamine, seize/delirium tremens surveillance"
       ],
-      "answer": "D) CIWA-guided benzos, thiamine, seize/DT surveillance",
-      "explanation": "GABA rebound causes seizures/DTs. Therefore, the most accurate choice is: CIWA-guided benzos, thiamine, seize/DT surveillance. Undertreatment .",
+      "answer": "D) CIWA-guided benzos, thiamine, seize/delirium tremens surveillance",
+      "explanation": "GABA rebound causes seizures/DTs. Therefore, the most accurate choice is: CIWA-guided benzos, thiamine, seize/delirium tremens surveillance. Undertreatment .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -528,11 +528,11 @@
       "options": [
         "A) Pile prone restraint prolonged without airway checks",
         "B) Manage DTs on unmonitored couch without medical support",
-        "C) DTs need medical/ICU-capable management",
+        "C) DTs need medical/intensive care unit-capable management",
         "D) Encourage unplanned pregnancy on valproate without counseling"
       ],
-      "answer": "C) DTs need medical/ICU-capable management",
-      "explanation": "DTs have high mortality without medical care. Therefore, the most accurate choice is: DTs need medical/ICU-capable management. Wrong setting .",
+      "answer": "C) DTs need medical/intensive care unit-capable management",
+      "explanation": "DTs have high mortality without medical care. Therefore, the most accurate choice is: DTs need medical/intensive care unit-capable management. Wrong setting .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Wrong setting near-miss. It is less consistent than the correct choice.",
@@ -544,7 +544,7 @@
   "medium": [
     {
       "id": "psychiatric:medium:0",
-      "question": "A 33-year-old woman is admitted with therapeutic use of self. Which nursing action is most appropriate?",
+      "question": "A 28-year-old man is admitted with therapeutic use of self. Which nursing action is most appropriate?",
       "options": [
         "A) Deadname and mock identity as confrontation therapy",
         "B) Use purposeful authentic nurse–patient relationship as therapy tool",
@@ -562,7 +562,7 @@
     },
     {
       "id": "psychiatric:medium:1",
-      "question": "While evaluating a 69-year-old woman, attention turns to empathy not sympathy. Which of the following is most accurate?",
+      "question": "While evaluating a 64-year-old man, attention turns to empathy not sympathy. Which of the following is most accurate?",
       "options": [
         "A) Recommend untimed bright light for undiagnosed bipolar without risk counseling",
         "B) Lead with pitying ‘you poor thing’ sympathy",
@@ -580,7 +580,7 @@
     },
     {
       "id": "psychiatric:medium:2",
-      "question": "A 47-year-old woman shows signs of avoid false reassurance on the unit. Which of the following is correct?",
+      "question": "A 42-year-old man shows signs of avoid false reassurance on the unit. Which of the following is correct?",
       "options": [
         "A) Argue repeatedly to talk patient out of fixed delusions",
         "B) Tell patient symptoms are fake and withhold empathy",
@@ -598,7 +598,7 @@
     },
     {
       "id": "psychiatric:medium:3",
-      "question": "A 58-year-old man needs a care plan for open-ended assessment. Which of the following is most appropriate?",
+      "question": "A 53-year-old woman needs a care plan for open-ended assessment. Which of the following is most appropriate?",
       "options": [
         "A) Use open questions before rapid closed interrogation",
         "B) Use only yes/no questions for all psychosocial assessment",
@@ -634,7 +634,7 @@
     },
     {
       "id": "psychiatric:medium:5",
-      "question": "A 30-year-old man has vital-sign changes due to therapeutic silence. Which of the following is most accurate?",
+      "question": "A 25-year-old woman has vital-sign changes due to therapeutic silence. Which of the following is most accurate?",
       "options": [
         "A) Allow processing silence while staying present",
         "B) Fill every pause with subject changes from pain",
@@ -652,7 +652,7 @@
     },
     {
       "id": "psychiatric:medium:6",
-      "question": "While caring for a 49-year-old woman, limit setting is suspected. Which of the following is correct?",
+      "question": "While caring for a 44-year-old man, limit setting is suspected. Which of the following is correct?",
       "options": [
         "A) Threaten inconsistent punishments when angry",
         "B) Set clear consistent enforceable limits calmly",
@@ -670,7 +670,7 @@
     },
     {
       "id": "psychiatric:medium:7",
-      "question": "A 48-year-old man is monitored for complications of milieu management. Which of the following is most appropriate?",
+      "question": "A 43-year-old woman is monitored for complications of milieu management. Which of the following is most appropriate?",
       "options": [
         "A) Rely only on personal advice/friendship as therapy",
         "B) Force eye contact in noisy rooms as therapy requirement",
@@ -688,7 +688,7 @@
     },
     {
       "id": "psychiatric:medium:8",
-      "question": "A 30-year-old man is admitted with direct suicide ask. Which nursing action is most appropriate?",
+      "question": "A 25-year-old woman is admitted with direct suicide ask. Which nursing action is most appropriate?",
       "options": [
         "A) Preach conversion as the nursing care plan",
         "B) Avoid asking to prevent ‘planting ideas’",
@@ -706,12 +706,12 @@
     },
     {
       "id": "psychiatric:medium:9",
-      "question": "A 29-year-old woman develops findings of safety plan components. What is the priority assessment?",
+      "question": "A 70-year-old man develops findings of safety plan components. What is the priority assessment?",
       "options": [
         "A) Warning signs, coping, contacts, means restriction",
         "B) Rely only on no-suicide contract without means restriction",
         "C) Discharge post-ideation without any crisis contacts",
-        "D) Conduct high-risk SI session without knowing location"
+        "D) Conduct high-risk suicidal ideation session without knowing location"
       ],
       "answer": "A) Warning signs, coping, contacts, means restriction",
       "explanation": "Concrete plans reduce risk. Therefore, the most accurate choice is: Warning signs, coping, contacts, means restriction. Contracts alone insufficient—.",
@@ -724,7 +724,7 @@
     },
     {
       "id": "psychiatric:medium:10",
-      "question": "A 36-year-old man shows signs of continuous observation on the unit. Which of the following is correct?",
+      "question": "A 31-year-old woman shows signs of continuous observation on the unit. Which of the following is correct?",
       "options": [
         "A) Chart only ‘agitated’ for hours of seclusion without details",
         "B) Shame and refuse comfort while pregnant patient withdraws without specialist plan",
@@ -742,11 +742,11 @@
     },
     {
       "id": "psychiatric:medium:11",
-      "question": "A 64-year-old man needs a care plan for self-harm nonshame care. Which of the following is most appropriate?",
+      "question": "A 59-year-old woman needs a care plan for self-harm nonshame care. Which of the following is most appropriate?",
       "options": [
         "A) Treat wounds clinically without shaming",
         "B) Use unnecessary forced disrobing without privacy trauma sensitivity",
-        "C) Treat NMS fever with acetaminophen only and continue depot injection",
+        "C) Treat neuroleptic malignant syndrome fever with acetaminophen only and continue depot injection",
         "D) Withhold wound care as punishment for cutting"
       ],
       "answer": "A) Treat wounds clinically without shaming",
@@ -778,7 +778,7 @@
     },
     {
       "id": "psychiatric:medium:13",
-      "question": "A 44-year-old man has vital-sign changes due to delusion response. Which of the following is most accurate?",
+      "question": "A 39-year-old woman has vital-sign changes due to delusion response. Which of the following is most accurate?",
       "options": [
         "A) Mock patient words sarcastically as ‘reflection’",
         "B) Argue repeatedly to talk patient out of fixed delusions",
@@ -796,10 +796,10 @@
     },
     {
       "id": "psychiatric:medium:14",
-      "question": "While caring for a 64-year-old man, command hallucinations is suspected. Which of the following is correct?",
+      "question": "While caring for a 59-year-old woman, command hallucinations is suspected. Which of the following is correct?",
       "options": [
-        "A) Conduct high-risk SI session without knowing location",
-        "B) Diagnose MDD instantly for normal acute grief without features",
+        "A) Conduct high-risk suicidal ideation session without knowing location",
+        "B) Diagnose major depressive disorder instantly for normal acute grief without features",
         "C) Assess content; increase safety if harm commands",
         "D) Force paper-bag hyperventilation for all panic without assessing hypoxia risk"
       ],
@@ -814,15 +814,15 @@
     },
     {
       "id": "psychiatric:medium:15",
-      "question": "A 50-year-old man is monitored for complications of acute dystonia rescue. Which of the following is most appropriate?",
+      "question": "A 45-year-old woman is monitored for complications of acute dystonia rescue. Which of the following is most appropriate?",
       "options": [
         "A) Give high-potency typicals first for catatonic stupor without assessment",
         "B) Treat all movement effects as identical with one approach only",
         "C) Restrain and treat dystonia as bad behavior only",
-        "D) Recognize dystonia; give ordered anticholinergic rescue ASAP"
+        "D) Recognize dystonia; give ordered anticholinergic rescue as soon as possible"
       ],
-      "answer": "D) Recognize dystonia; give ordered anticholinergic rescue ASAP",
-      "explanation": "Dystonia can threaten airway. Therefore, the most accurate choice is: Recognize dystonia; give ordered anticholinergic rescue ASAP. Behavioral mislabel delays treatment—.",
+      "answer": "D) Recognize dystonia; give ordered anticholinergic rescue as soon as possible",
+      "explanation": "Dystonia can threaten airway. Therefore, the most accurate choice is: Recognize dystonia; give ordered anticholinergic rescue as soon as possible. Behavioral mislabel delays treatment—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -832,12 +832,12 @@
     },
     {
       "id": "psychiatric:medium:16",
-      "question": "A 53-year-old woman is admitted with akathisia not agitation. Which nursing action is most appropriate?",
+      "question": "A 48-year-old man is admitted with akathisia not agitation. Which nursing action is most appropriate?",
       "options": [
         "A) Restrain and treat dystonia as bad behavior only",
         "B) Recognize antipsychotic akathisia—adjust regimen; don’t only restrain",
         "C) Tighten restraints and raise antipsychotic dose for akathisia",
-        "D) Give another antipsychotic dose during NMS"
+        "D) Give another antipsychotic dose during neuroleptic malignant syndrome"
       ],
       "answer": "B) Recognize antipsychotic akathisia—adjust regimen; don’t only restrain",
       "explanation": "More dopamine blockade worsens akathisia. Therefore, the most accurate choice is: Recognize antipsychotic akathisia—adjust regimen; don’t only restrain. Restraint/more drug worsens—.",
@@ -850,28 +850,28 @@
     },
     {
       "id": "psychiatric:medium:17",
-      "question": "A 34-year-old man develops findings of NMS emergency. What is the priority assessment?",
+      "question": "A 29-year-old woman develops findings of neuroleptic malignant syndrome emergency. What is the priority assessment?",
       "options": [
-        "A) Rigidity, fever, dysautonomia, ↑CK—stop antipsychotic; support",
-        "B) Give another antipsychotic dose during NMS",
-        "C) Treat NMS fever with acetaminophen only and continue depot injection",
-        "D) Add another SSRI/MAOI when serotonin syndrome suspected"
+        "A) Rigidity, fever, dysautonomia, ↑creatine kinase—stop antipsychotic; support",
+        "B) Give another antipsychotic dose during neuroleptic malignant syndrome",
+        "C) Treat neuroleptic malignant syndrome fever with acetaminophen only and continue depot injection",
+        "D) Add another selective serotonin reuptake inhibitor/monoamine oxidase inhibitor when serotonin syndrome suspected"
       ],
-      "answer": "A) Rigidity, fever, dysautonomia, ↑CK—stop antipsychotic; support",
-      "explanation": "NMS is life-threatening reaction. Therefore, the most accurate choice is: Rigidity, fever, dysautonomia, ↑CK—stop antipsychotic; support. Continuing antipsychotic fuels NMS—.",
+      "answer": "A) Rigidity, fever, dysautonomia, ↑creatine kinase—stop antipsychotic; support",
+      "explanation": "neuroleptic malignant syndrome is life-threatening reaction. Therefore, the most accurate choice is: Rigidity, fever, dysautonomia, ↑creatine kinase—stop antipsychotic; support. Continuing antipsychotic fuels neuroleptic malignant syndrome—.",
       "choice_explanations": {
-        "A": "NMS is life-threatening reaction. This matches the correct interpretation.",
-        "B": "Continuing antipsychotic fuels NMS—near-miss. It is less consistent than the correct choice.",
+        "A": "neuroleptic malignant syndrome is life-threatening reaction. This matches the correct interpretation.",
+        "B": "Continuing antipsychotic fuels neuroleptic malignant syndrome—near-miss. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "psychiatric:medium:18",
-      "question": "A 54-year-old man shows signs of serotonin syndrome on the unit. Which of the following is correct?",
+      "question": "A 49-year-old woman shows signs of serotonin syndrome on the unit. Which of the following is correct?",
       "options": [
-        "A) Give another antipsychotic dose during NMS",
-        "B) Add another SSRI/MAOI when serotonin syndrome suspected",
+        "A) Give another antipsychotic dose during neuroleptic malignant syndrome",
+        "B) Add another selective serotonin reuptake inhibitor/monoamine oxidase inhibitor when serotonin syndrome suspected",
         "C) Clonus/hyperreflexia/fever from serotonergic stacks—stop agents",
         "D) Treat by adding more serotonergic and antipsychotic agents to either"
       ],
@@ -886,33 +886,33 @@
     },
     {
       "id": "psychiatric:medium:19",
-      "question": "A 61-year-old woman needs a care plan for tardive dyskinesia. Which of the following is most appropriate?",
+      "question": "A 56-year-old man needs a care plan for tardive dyskinesia. Which of the following is most appropriate?",
       "options": [
-        "A) Treat TD with high-dose anticholinergics as definitive cure",
+        "A) Treat tardive dyskinesia with high-dose anticholinergics as definitive cure",
         "B) Treat all movement effects as identical with one approach only",
         "C) Stop high-dose benzos cold turkey after months",
-        "D) Athetoid oral-facial movements; early detection; anticholinergics not TD cure"
+        "D) Athetoid oral-facial movements; early detection; anticholinergics not tardive dyskinesia cure"
       ],
-      "answer": "D) Athetoid oral-facial movements; early detection; anticholinergics not TD cure",
-      "explanation": "TD may persist; specialty changes needed. Therefore, the most accurate choice is: Athetoid oral-facial movements; early detection; anticholinergics not TD cure. Anticholinergics can worsen TD—.",
+      "answer": "D) Athetoid oral-facial movements; early detection; anticholinergics not tardive dyskinesia cure",
+      "explanation": "tardive dyskinesia may persist; specialty changes needed. Therefore, the most accurate choice is: Athetoid oral-facial movements; early detection; anticholinergics not tardive dyskinesia cure. Anticholinergics can worsen tardive dyskinesia—.",
       "choice_explanations": {
-        "A": "Anticholinergics can worsen TD—near-miss. It is less consistent than the correct choice.",
+        "A": "Anticholinergics can worsen tardive dyskinesia—near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "TD may persist; specialty changes needed. This matches the correct interpretation."
+        "D": "tardive dyskinesia may persist; specialty changes needed. This matches the correct interpretation."
       }
     },
     {
       "id": "psychiatric:medium:20",
-      "question": "Bedside assessment suggests clozapine ANC monitoring. Which of the following is correct?",
+      "question": "Bedside assessment suggests clozapine absolute neutrophil count monitoring. Which of the following is correct?",
       "options": [
-        "A) Monitor ANC per REMS; fever/sore throat urgent",
+        "A) Monitor absolute neutrophil count per Risk Evaluation and Mitigation Strategy; fever/sore throat urgent",
         "B) Skip suicide screening because patient is ‘too tired to act’",
-        "C) Skip ANC labs because patient feels fine on clozapine",
-        "D) Start clozapine without discussing ANC monitoring needs"
+        "C) Skip absolute neutrophil count labs because patient feels fine on clozapine",
+        "D) Start clozapine without discussing absolute neutrophil count monitoring needs"
       ],
-      "answer": "A) Monitor ANC per REMS; fever/sore throat urgent",
-      "explanation": "Agranulocytosis can kill. Therefore, the most accurate choice is: Monitor ANC per REMS; fever/sore throat urgent. Skipped labs deadly—.",
+      "answer": "A) Monitor absolute neutrophil count per Risk Evaluation and Mitigation Strategy; fever/sore throat urgent",
+      "explanation": "Agranulocytosis can kill. Therefore, the most accurate choice is: Monitor absolute neutrophil count per Risk Evaluation and Mitigation Strategy; fever/sore throat urgent. Skipped labs deadly—.",
       "choice_explanations": {
         "A": "Agranulocytosis can kill. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -922,12 +922,12 @@
     },
     {
       "id": "psychiatric:medium:21",
-      "question": "A 33-year-old woman has vital-sign changes due to lithium toxicity. Which of the following is most accurate?",
+      "question": "A 28-year-old man has vital-sign changes due to lithium toxicity. Which of the following is most accurate?",
       "options": [
         "A) Coarse tremor, vomiting, ataxia, confusion—hold and check level",
         "B) Increase lithium during gastroenteritis dehydration",
-        "C) Start crash low-salt diet and NSAIDs freely on lithium",
-        "D) Give another antipsychotic dose during NMS"
+        "C) Start crash low-salt diet and nonsteroidal anti-inflammatory drugs freely on lithium",
+        "D) Give another antipsychotic dose during neuroleptic malignant syndrome"
       ],
       "answer": "A) Coarse tremor, vomiting, ataxia, confusion—hold and check level",
       "explanation": "Dehydration raises lithium into toxicity. Therefore, the most accurate choice is: Coarse tremor, vomiting, ataxia, confusion—hold and check level. Extra doses when dry worsen—.",
@@ -940,17 +940,17 @@
     },
     {
       "id": "psychiatric:medium:22",
-      "question": "While caring for a 70-year-old man, lithium salt consistency is suspected. Which of the following is correct?",
+      "question": "While caring for a 65-year-old woman, lithium salt consistency is suspected. Which of the following is correct?",
       "options": [
-        "A) Start crash low-salt diet and NSAIDs freely on lithium",
+        "A) Start crash low-salt diet and nonsteroidal anti-inflammatory drugs freely on lithium",
         "B) Recommend ibuprofen freely for lithium patients without advice",
         "C) Increase lithium during gastroenteritis dehydration",
-        "D) Keep salt/fluid steady; caution NSAIDs/diuretics"
+        "D) Keep salt/fluid steady; caution nonsteroidal anti-inflammatory drugs/diuretics"
       ],
-      "answer": "D) Keep salt/fluid steady; caution NSAIDs/diuretics",
-      "explanation": "Sodium depletion increases lithium reabsorption. Therefore, the most accurate choice is: Keep salt/fluid steady; caution NSAIDs/diuretics. Salt crash + NSAIDs .",
+      "answer": "D) Keep salt/fluid steady; caution nonsteroidal anti-inflammatory drugs/diuretics",
+      "explanation": "Sodium depletion increases lithium reabsorption. Therefore, the most accurate choice is: Keep salt/fluid steady; caution nonsteroidal anti-inflammatory drugs/diuretics. Salt crash + nonsteroidal anti-inflammatory drugs .",
       "choice_explanations": {
-        "A": "Salt crash + NSAIDs near-miss. It is less consistent than the correct choice.",
+        "A": "Salt crash + nonsteroidal anti-inflammatory drugs near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Sodium depletion increases lithium reabsorption. This matches the correct interpretation."
@@ -958,7 +958,7 @@
     },
     {
       "id": "psychiatric:medium:23",
-      "question": "A 26-year-old woman is monitored for complications of valproate teratogen. Which of the following is most appropriate?",
+      "question": "A 33-year-old woman is monitored for complications of valproate teratogen. Which of the following is most appropriate?",
       "options": [
         "A) Recommend untimed bright light for undiagnosed bipolar without risk counseling",
         "B) Counsel contraception/pregnancy risks; neural tube defect risk high",
@@ -976,17 +976,17 @@
     },
     {
       "id": "psychiatric:medium:24",
-      "question": "A 67-year-old woman is admitted with lamotrigine titration. Which nursing action is most appropriate?",
+      "question": "A 62-year-old man is admitted with lamotrigine titration. Which nursing action is most appropriate?",
       "options": [
         "A) Rapidly escalate lamotrigine over a few days",
-        "B) Titrate slowly; report rash—SJS risk",
-        "C) Conduct high-risk SI session without knowing location",
+        "B) Titrate slowly; report rash—Stevens-Johnson syndrome risk",
+        "C) Conduct high-risk suicidal ideation session without knowing location",
         "D) Prop locked doors for convenience with elopement risk"
       ],
-      "answer": "B) Titrate slowly; report rash—SJS risk",
-      "explanation": "Slow titration lowers serious rash risk. Therefore, the most accurate choice is: Titrate slowly; report rash—SJS risk. Rapid titration SJS .",
+      "answer": "B) Titrate slowly; report rash—Stevens-Johnson syndrome risk",
+      "explanation": "Slow titration lowers serious rash risk. Therefore, the most accurate choice is: Titrate slowly; report rash—Stevens-Johnson syndrome risk. Rapid titration Stevens-Johnson syndrome .",
       "choice_explanations": {
-        "A": "Rapid titration SJS near-miss. It is less consistent than the correct choice.",
+        "A": "Rapid titration Stevens-Johnson syndrome near-miss. It is less consistent than the correct choice.",
         "B": "Slow titration lowers serious rash risk. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -994,7 +994,7 @@
     },
     {
       "id": "psychiatric:medium:25",
-      "question": "A 57-year-old woman develops findings of MAOI tyramine diet. What is the priority assessment?",
+      "question": "A 52-year-old man develops findings of monoamine oxidase inhibitor tyramine diet. What is the priority assessment?",
       "options": [
         "A) Encourage aged cheese/cured meats on phenelzine",
         "B) Encourage unplanned pregnancy on valproate without counseling",
@@ -1012,15 +1012,15 @@
     },
     {
       "id": "psychiatric:medium:26",
-      "question": "A 43-year-old woman shows signs of MAOI SSRI washout on the unit. Which of the following is correct?",
+      "question": "A 38-year-old man shows signs of monoamine oxidase inhibitor selective serotonin reuptake inhibitor washout on the unit. Which of the following is correct?",
       "options": [
-        "A) Start crash low-salt diet and NSAIDs freely on lithium",
-        "B) Add another SSRI/MAOI when serotonin syndrome suspected",
-        "C) Respect washout when switching MAOI↔SSRI",
-        "D) Start fluoxetine same day MAOI stops"
+        "A) Start crash low-salt diet and nonsteroidal anti-inflammatory drugs freely on lithium",
+        "B) Add another selective serotonin reuptake inhibitor/monoamine oxidase inhibitor when serotonin syndrome suspected",
+        "C) Respect washout when switching monoamine oxidase inhibitor↔selective serotonin reuptake inhibitor",
+        "D) Start fluoxetine same day monoamine oxidase inhibitor stops"
       ],
-      "answer": "C) Respect washout when switching MAOI↔SSRI",
-      "explanation": "Stacked serotonin toxicity can kill. Therefore, the most accurate choice is: Respect washout when switching MAOI↔SSRI. No washout .",
+      "answer": "C) Respect washout when switching monoamine oxidase inhibitor↔selective serotonin reuptake inhibitor",
+      "explanation": "Stacked serotonin toxicity can kill. Therefore, the most accurate choice is: Respect washout when switching monoamine oxidase inhibitor↔selective serotonin reuptake inhibitor. No washout .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1030,12 +1030,12 @@
     },
     {
       "id": "psychiatric:medium:27",
-      "question": "A 62-year-old man needs a care plan for benzo taper. Which of the following is most appropriate?",
+      "question": "A 57-year-old woman needs a care plan for benzo taper. Which of the following is most appropriate?",
       "options": [
         "A) Start long-acting benzos first for frail elder insomnia",
         "B) Taper slowly after prolonged use; avoid alcohol combo",
         "C) Stop high-dose benzos cold turkey after months",
-        "D) Withhold benzos for rising CIWA with seizure history"
+        "D) Withhold benzos for rising Clinical Institute Withdrawal Assessment with seizure history"
       ],
       "answer": "B) Taper slowly after prolonged use; avoid alcohol combo",
       "explanation": "Abrupt withdrawal risks seizures. Therefore, the most accurate choice is: Taper slowly after prolonged use; avoid alcohol combo. Cold turkey .",
@@ -1048,15 +1048,15 @@
     },
     {
       "id": "psychiatric:medium:28",
-      "question": "Bedside assessment suggests CIWA alcohol withdrawal. Which of the following is correct?",
+      "question": "Bedside assessment suggests Clinical Institute Withdrawal Assessment alcohol withdrawal. Which of the following is correct?",
       "options": [
-        "A) CIWA-guided benzos, thiamine, seize/DT surveillance",
+        "A) CIWA-guided benzos, thiamine, seize/delirium tremens surveillance",
         "B) Push D50 and forget thiamine in confused alcoholic",
-        "C) Withhold benzos for rising CIWA with seizure history",
+        "C) Withhold benzos for rising Clinical Institute Withdrawal Assessment with seizure history",
         "D) Stop high-dose benzos cold turkey after months"
       ],
-      "answer": "A) CIWA-guided benzos, thiamine, seize/DT surveillance",
-      "explanation": "GABA rebound causes seizures/DTs. Therefore, the most accurate choice is: CIWA-guided benzos, thiamine, seize/DT surveillance. Undertreatment .",
+      "answer": "A) CIWA-guided benzos, thiamine, seize/delirium tremens surveillance",
+      "explanation": "GABA rebound causes seizures/DTs. Therefore, the most accurate choice is: CIWA-guided benzos, thiamine, seize/delirium tremens surveillance. Undertreatment .",
       "choice_explanations": {
         "A": "GABA rebound causes seizures/DTs. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1066,15 +1066,15 @@
     },
     {
       "id": "psychiatric:medium:29",
-      "question": "A 75-year-old man has vital-sign changes due to delirium tremens care. Which of the following is most accurate?",
+      "question": "A 82-year-old woman has vital-sign changes due to delirium tremens care. Which of the following is most accurate?",
       "options": [
         "A) Pile prone restraint prolonged without airway checks",
         "B) Manage DTs on unmonitored couch without medical support",
         "C) Confiscate all coping tools without replacement plan",
-        "D) DTs need medical/ICU-capable management"
+        "D) DTs need medical/intensive care unit-capable management"
       ],
-      "answer": "D) DTs need medical/ICU-capable management",
-      "explanation": "DTs have high mortality without medical care. Therefore, the most accurate choice is: DTs need medical/ICU-capable management. Wrong setting .",
+      "answer": "D) DTs need medical/intensive care unit-capable management",
+      "explanation": "DTs have high mortality without medical care. Therefore, the most accurate choice is: DTs need medical/intensive care unit-capable management. Wrong setting .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Wrong setting near-miss. It is less consistent than the correct choice.",
@@ -1122,7 +1122,7 @@
     },
     {
       "id": "psychiatric:hard:2",
-      "question": "In a 47-year-old woman, avoid false reassurance must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 42-year-old man, avoid false reassurance must be separated from similar conditions. Which of the following is correct?",
       "options": [
         "A) Tell impaired grievers to move on without assessment",
         "B) Tell every anxious patient ‘don’t worry’ immediately",
@@ -1140,7 +1140,7 @@
     },
     {
       "id": "psychiatric:hard:3",
-      "question": "A 58-year-old man returns for review of suspected open-ended assessment. Which of the following is most accurate?",
+      "question": "A 53-year-old woman returns for review of suspected open-ended assessment. Which of the following is most accurate?",
       "options": [
         "A) Use open questions before rapid closed interrogation",
         "B) Use only yes/no questions for all psychosocial assessment",
@@ -1176,7 +1176,7 @@
     },
     {
       "id": "psychiatric:hard:5",
-      "question": "A 30-year-old man presents with features compatible with therapeutic silence. Which of the following is most accurate?",
+      "question": "A 25-year-old woman presents with features compatible with therapeutic silence. Which of the following is most accurate?",
       "options": [
         "A) Tell every anxious patient ‘don’t worry’ immediately",
         "B) Allow processing silence while staying present",
@@ -1194,7 +1194,7 @@
     },
     {
       "id": "psychiatric:hard:6",
-      "question": "Which statement about limit setting in a 49-year-old woman is most accurate?",
+      "question": "Which statement about limit setting in a 44-year-old man is most accurate?",
       "options": [
         "A) Threaten inconsistent punishments when angry",
         "B) Make secret special exceptions that contradict team limits",
@@ -1230,7 +1230,7 @@
     },
     {
       "id": "psychiatric:hard:8",
-      "question": "A 30-year-old man is evaluated for possible direct suicide ask. Which of the following is most accurate?",
+      "question": "A 25-year-old woman is evaluated for possible direct suicide ask. Which of the following is most accurate?",
       "options": [
         "A) Rely only on no-suicide contract without means restriction",
         "B) Preach conversion as the nursing care plan",
@@ -1248,9 +1248,9 @@
     },
     {
       "id": "psychiatric:hard:9",
-      "question": "A 29-year-old woman has findings suggestive of safety plan components. Which of the following is the best interpretation?",
+      "question": "A 70-year-old man has findings suggestive of safety plan components. Which of the following is the best interpretation?",
       "options": [
-        "A) Conduct high-risk SI session without knowing location",
+        "A) Conduct high-risk suicidal ideation session without knowing location",
         "B) Rely only on no-suicide contract without means restriction",
         "C) Discharge post-ideation without any crisis contacts",
         "D) Warning signs, coping, contacts, means restriction"
@@ -1266,7 +1266,7 @@
     },
     {
       "id": "psychiatric:hard:10",
-      "question": "In a 36-year-old man, continuous observation must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 31-year-old woman, continuous observation must be separated from similar conditions. Which of the following is correct?",
       "options": [
         "A) Maintain true continuous visual 1:1 when ordered",
         "B) Allow untrained peers full chart access casually",
@@ -1284,7 +1284,7 @@
     },
     {
       "id": "psychiatric:hard:11",
-      "question": "A 64-year-old man returns for review of suspected self-harm nonshame care. Which of the following is most accurate?",
+      "question": "A 59-year-old woman returns for review of suspected self-harm nonshame care. Which of the following is most accurate?",
       "options": [
         "A) Manage DTs on unmonitored couch without medical support",
         "B) Withhold wound care as punishment for cutting",
@@ -1320,7 +1320,7 @@
     },
     {
       "id": "psychiatric:hard:13",
-      "question": "A 44-year-old man presents with features compatible with delusion response. Which of the following is most accurate?",
+      "question": "A 39-year-old woman presents with features compatible with delusion response. Which of the following is most accurate?",
       "options": [
         "A) Argue staff conflicts in front of the patient",
         "B) Corner, touch, and argue alone with escalating patient",
@@ -1338,10 +1338,10 @@
     },
     {
       "id": "psychiatric:hard:14",
-      "question": "Which statement about command hallucinations in a 64-year-old man is most accurate?",
+      "question": "Which statement about command hallucinations in a 59-year-old woman is most accurate?",
       "options": [
-        "A) Conduct high-risk SI session without knowing location",
-        "B) Diagnose MDD instantly for normal acute grief without features",
+        "A) Conduct high-risk suicidal ideation session without knowing location",
+        "B) Diagnose major depressive disorder instantly for normal acute grief without features",
         "C) Label sudden new hallucinations as ‘just dementia’ without workup",
         "D) Assess content; increase safety if harm commands"
       ],
@@ -1356,15 +1356,15 @@
     },
     {
       "id": "psychiatric:hard:15",
-      "question": "After examining a 50-year-old man, which statement about acute dystonia rescue is correct?",
+      "question": "After examining a 45-year-old woman, which statement about acute dystonia rescue is correct?",
       "options": [
-        "A) Recognize dystonia; give ordered anticholinergic rescue ASAP",
+        "A) Recognize dystonia; give ordered anticholinergic rescue as soon as possible",
         "B) Treat all movement effects as identical with one approach only",
         "C) Give high-potency typicals first for catatonic stupor without assessment",
         "D) Restrain and treat dystonia as bad behavior only"
       ],
-      "answer": "A) Recognize dystonia; give ordered anticholinergic rescue ASAP",
-      "explanation": "Dystonia can threaten airway. Therefore, the most accurate choice is: Recognize dystonia; give ordered anticholinergic rescue ASAP. Behavioral mislabel delays treatment—.",
+      "answer": "A) Recognize dystonia; give ordered anticholinergic rescue as soon as possible",
+      "explanation": "Dystonia can threaten airway. Therefore, the most accurate choice is: Recognize dystonia; give ordered anticholinergic rescue as soon as possible. Behavioral mislabel delays treatment—.",
       "choice_explanations": {
         "A": "Dystonia can threaten airway. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1376,7 +1376,7 @@
       "id": "psychiatric:hard:16",
       "question": "Careful review of akathisia not agitation is required. Which of the following is most accurate?",
       "options": [
-        "A) Give another antipsychotic dose during NMS",
+        "A) Give another antipsychotic dose during neuroleptic malignant syndrome",
         "B) Restrain and treat dystonia as bad behavior only",
         "C) Tighten restraints and raise antipsychotic dose for akathisia",
         "D) Recognize antipsychotic akathisia—adjust regimen; don’t only restrain"
@@ -1392,29 +1392,29 @@
     },
     {
       "id": "psychiatric:hard:17",
-      "question": "Two similar explanations for NMS emergency are compared. Which of the following is correct?",
+      "question": "Two similar explanations for neuroleptic malignant syndrome emergency are compared. Which of the following is correct?",
       "options": [
-        "A) Treat NMS fever with acetaminophen only and continue depot injection",
-        "B) Give another antipsychotic dose during NMS",
-        "C) Rigidity, fever, dysautonomia, ↑CK—stop antipsychotic; support",
-        "D) Add another SSRI/MAOI when serotonin syndrome suspected"
+        "A) Treat neuroleptic malignant syndrome fever with acetaminophen only and continue depot injection",
+        "B) Give another antipsychotic dose during neuroleptic malignant syndrome",
+        "C) Rigidity, fever, dysautonomia, ↑creatine kinase—stop antipsychotic; support",
+        "D) Add another selective serotonin reuptake inhibitor/monoamine oxidase inhibitor when serotonin syndrome suspected"
       ],
-      "answer": "C) Rigidity, fever, dysautonomia, ↑CK—stop antipsychotic; support",
-      "explanation": "NMS is life-threatening reaction. Therefore, the most accurate choice is: Rigidity, fever, dysautonomia, ↑CK—stop antipsychotic; support. Continuing antipsychotic fuels NMS—.",
+      "answer": "C) Rigidity, fever, dysautonomia, ↑creatine kinase—stop antipsychotic; support",
+      "explanation": "neuroleptic malignant syndrome is life-threatening reaction. Therefore, the most accurate choice is: Rigidity, fever, dysautonomia, ↑creatine kinase—stop antipsychotic; support. Continuing antipsychotic fuels neuroleptic malignant syndrome—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Continuing antipsychotic fuels NMS—near-miss. It is less consistent than the correct choice.",
-        "C": "NMS is life-threatening reaction. This matches the correct interpretation.",
+        "B": "Continuing antipsychotic fuels neuroleptic malignant syndrome—near-miss. It is less consistent than the correct choice.",
+        "C": "neuroleptic malignant syndrome is life-threatening reaction. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "psychiatric:hard:18",
-      "question": "In a 54-year-old man, serotonin syndrome must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 49-year-old woman, serotonin syndrome must be separated from similar conditions. Which of the following is correct?",
       "options": [
-        "A) Add another SSRI/MAOI when serotonin syndrome suspected",
+        "A) Add another selective serotonin reuptake inhibitor/monoamine oxidase inhibitor when serotonin syndrome suspected",
         "B) Treat by adding more serotonergic and antipsychotic agents to either",
-        "C) Give another antipsychotic dose during NMS",
+        "C) Give another antipsychotic dose during neuroleptic malignant syndrome",
         "D) Clonus/hyperreflexia/fever from serotonergic stacks—stop agents"
       ],
       "answer": "D) Clonus/hyperreflexia/fever from serotonergic stacks—stop agents",
@@ -1430,31 +1430,31 @@
       "id": "psychiatric:hard:19",
       "question": "Which of the following correctly distinguishes key points about tardive dyskinesia?",
       "options": [
-        "A) Treat TD with high-dose anticholinergics as definitive cure",
+        "A) Treat tardive dyskinesia with high-dose anticholinergics as definitive cure",
         "B) Treat all movement effects as identical with one approach only",
         "C) Stop high-dose benzos cold turkey after months",
-        "D) Athetoid oral-facial movements; early detection; anticholinergics not TD cure"
+        "D) Athetoid oral-facial movements; early detection; anticholinergics not tardive dyskinesia cure"
       ],
-      "answer": "D) Athetoid oral-facial movements; early detection; anticholinergics not TD cure",
-      "explanation": "TD may persist; specialty changes needed. Therefore, the most accurate choice is: Athetoid oral-facial movements; early detection; anticholinergics not TD cure. Anticholinergics can worsen TD—.",
+      "answer": "D) Athetoid oral-facial movements; early detection; anticholinergics not tardive dyskinesia cure",
+      "explanation": "tardive dyskinesia may persist; specialty changes needed. Therefore, the most accurate choice is: Athetoid oral-facial movements; early detection; anticholinergics not tardive dyskinesia cure. Anticholinergics can worsen tardive dyskinesia—.",
       "choice_explanations": {
-        "A": "Anticholinergics can worsen TD—near-miss. It is less consistent than the correct choice.",
+        "A": "Anticholinergics can worsen tardive dyskinesia—near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "TD may persist; specialty changes needed. This matches the correct interpretation."
+        "D": "tardive dyskinesia may persist; specialty changes needed. This matches the correct interpretation."
       }
     },
     {
       "id": "psychiatric:hard:20",
-      "question": "A clinic case of clozapine ANC monitoring is discussed. Which of the following is correct?",
+      "question": "A clinic case of clozapine absolute neutrophil count monitoring is discussed. Which of the following is correct?",
       "options": [
-        "A) Monitor ANC per REMS; fever/sore throat urgent",
+        "A) Monitor absolute neutrophil count per Risk Evaluation and Mitigation Strategy; fever/sore throat urgent",
         "B) Skip suicide screening because patient is ‘too tired to act’",
-        "C) Skip ANC labs because patient feels fine on clozapine",
-        "D) Start clozapine without discussing ANC monitoring needs"
+        "C) Skip absolute neutrophil count labs because patient feels fine on clozapine",
+        "D) Start clozapine without discussing absolute neutrophil count monitoring needs"
       ],
-      "answer": "A) Monitor ANC per REMS; fever/sore throat urgent",
-      "explanation": "Agranulocytosis can kill. Therefore, the most accurate choice is: Monitor ANC per REMS; fever/sore throat urgent. Skipped labs deadly—.",
+      "answer": "A) Monitor absolute neutrophil count per Risk Evaluation and Mitigation Strategy; fever/sore throat urgent",
+      "explanation": "Agranulocytosis can kill. Therefore, the most accurate choice is: Monitor absolute neutrophil count per Risk Evaluation and Mitigation Strategy; fever/sore throat urgent. Skipped labs deadly—.",
       "choice_explanations": {
         "A": "Agranulocytosis can kill. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1464,11 +1464,11 @@
     },
     {
       "id": "psychiatric:hard:21",
-      "question": "A 33-year-old woman presents with features compatible with lithium toxicity. Which of the following is most accurate?",
+      "question": "A 28-year-old man presents with features compatible with lithium toxicity. Which of the following is most accurate?",
       "options": [
-        "A) Give another antipsychotic dose during NMS",
+        "A) Give another antipsychotic dose during neuroleptic malignant syndrome",
         "B) Coarse tremor, vomiting, ataxia, confusion—hold and check level",
-        "C) Start crash low-salt diet and NSAIDs freely on lithium",
+        "C) Start crash low-salt diet and nonsteroidal anti-inflammatory drugs freely on lithium",
         "D) Increase lithium during gastroenteritis dehydration"
       ],
       "answer": "B) Coarse tremor, vomiting, ataxia, confusion—hold and check level",
@@ -1482,19 +1482,19 @@
     },
     {
       "id": "psychiatric:hard:22",
-      "question": "Which statement about lithium salt consistency in a 70-year-old man is most accurate?",
+      "question": "Which statement about lithium salt consistency in a 65-year-old woman is most accurate?",
       "options": [
-        "A) Keep salt/fluid steady; caution NSAIDs/diuretics",
-        "B) Start fluoxetine same day MAOI stops",
-        "C) Start crash low-salt diet and NSAIDs freely on lithium",
+        "A) Keep salt/fluid steady; caution nonsteroidal anti-inflammatory drugs/diuretics",
+        "B) Start fluoxetine same day monoamine oxidase inhibitor stops",
+        "C) Start crash low-salt diet and nonsteroidal anti-inflammatory drugs freely on lithium",
         "D) Recommend ibuprofen freely for lithium patients without advice"
       ],
-      "answer": "A) Keep salt/fluid steady; caution NSAIDs/diuretics",
-      "explanation": "Sodium depletion increases lithium reabsorption. Therefore, the most accurate choice is: Keep salt/fluid steady; caution NSAIDs/diuretics. Salt crash + NSAIDs .",
+      "answer": "A) Keep salt/fluid steady; caution nonsteroidal anti-inflammatory drugs/diuretics",
+      "explanation": "Sodium depletion increases lithium reabsorption. Therefore, the most accurate choice is: Keep salt/fluid steady; caution nonsteroidal anti-inflammatory drugs/diuretics. Salt crash + nonsteroidal anti-inflammatory drugs .",
       "choice_explanations": {
         "A": "Sodium depletion increases lithium reabsorption. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Salt crash + NSAIDs near-miss. It is less consistent than the correct choice.",
+        "C": "Salt crash + nonsteroidal anti-inflammatory drugs near-miss. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -1518,25 +1518,25 @@
     },
     {
       "id": "psychiatric:hard:24",
-      "question": "A 67-year-old woman is evaluated for possible lamotrigine titration. Which of the following is most accurate?",
+      "question": "A 62-year-old man is evaluated for possible lamotrigine titration. Which of the following is most accurate?",
       "options": [
-        "A) Escalate PRN antipsychotics for boredom without reassessment",
+        "A) Escalate as needed antipsychotics for boredom without reassessment",
         "B) Leave lighters with high-risk fire-setting patients",
         "C) Rapidly escalate lamotrigine over a few days",
-        "D) Titrate slowly; report rash—SJS risk"
+        "D) Titrate slowly; report rash—Stevens-Johnson syndrome risk"
       ],
-      "answer": "D) Titrate slowly; report rash—SJS risk",
-      "explanation": "Slow titration lowers serious rash risk. Therefore, the most accurate choice is: Titrate slowly; report rash—SJS risk. Rapid titration SJS .",
+      "answer": "D) Titrate slowly; report rash—Stevens-Johnson syndrome risk",
+      "explanation": "Slow titration lowers serious rash risk. Therefore, the most accurate choice is: Titrate slowly; report rash—Stevens-Johnson syndrome risk. Rapid titration Stevens-Johnson syndrome .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Rapid titration SJS near-miss. It is less consistent than the correct choice.",
+        "C": "Rapid titration Stevens-Johnson syndrome near-miss. It is less consistent than the correct choice.",
         "D": "Slow titration lowers serious rash risk. This matches the correct interpretation."
       }
     },
     {
       "id": "psychiatric:hard:25",
-      "question": "A 57-year-old woman has findings suggestive of MAOI tyramine diet. Which of the following is the best interpretation?",
+      "question": "A 52-year-old man has findings suggestive of monoamine oxidase inhibitor tyramine diet. Which of the following is the best interpretation?",
       "options": [
         "A) Encourage unplanned pregnancy on valproate without counseling",
         "B) Stop high-dose benzos cold turkey after months",
@@ -1554,15 +1554,15 @@
     },
     {
       "id": "psychiatric:hard:26",
-      "question": "In a 43-year-old woman, MAOI SSRI washout must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 38-year-old man, monoamine oxidase inhibitor selective serotonin reuptake inhibitor washout must be separated from similar conditions. Which of the following is correct?",
       "options": [
-        "A) Start fluoxetine same day MAOI stops",
-        "B) Add another SSRI/MAOI when serotonin syndrome suspected",
-        "C) Start crash low-salt diet and NSAIDs freely on lithium",
-        "D) Respect washout when switching MAOI↔SSRI"
+        "A) Start fluoxetine same day monoamine oxidase inhibitor stops",
+        "B) Add another selective serotonin reuptake inhibitor/monoamine oxidase inhibitor when serotonin syndrome suspected",
+        "C) Start crash low-salt diet and nonsteroidal anti-inflammatory drugs freely on lithium",
+        "D) Respect washout when switching monoamine oxidase inhibitor↔selective serotonin reuptake inhibitor"
       ],
-      "answer": "D) Respect washout when switching MAOI↔SSRI",
-      "explanation": "Stacked serotonin toxicity can kill. Therefore, the most accurate choice is: Respect washout when switching MAOI↔SSRI. No washout .",
+      "answer": "D) Respect washout when switching monoamine oxidase inhibitor↔selective serotonin reuptake inhibitor",
+      "explanation": "Stacked serotonin toxicity can kill. Therefore, the most accurate choice is: Respect washout when switching monoamine oxidase inhibitor↔selective serotonin reuptake inhibitor. No washout .",
       "choice_explanations": {
         "A": "No washout near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1577,7 +1577,7 @@
         "A) Start long-acting benzos first for frail elder insomnia",
         "B) Stop high-dose benzos cold turkey after months",
         "C) Taper slowly after prolonged use; avoid alcohol combo",
-        "D) Withhold benzos for rising CIWA with seizure history"
+        "D) Withhold benzos for rising Clinical Institute Withdrawal Assessment with seizure history"
       ],
       "answer": "C) Taper slowly after prolonged use; avoid alcohol combo",
       "explanation": "Abrupt withdrawal risks seizures. Therefore, the most accurate choice is: Taper slowly after prolonged use; avoid alcohol combo. Cold turkey .",
@@ -1590,15 +1590,15 @@
     },
     {
       "id": "psychiatric:hard:28",
-      "question": "A clinic case of CIWA alcohol withdrawal is discussed. Which of the following is correct?",
+      "question": "A clinic case of Clinical Institute Withdrawal Assessment alcohol withdrawal is discussed. Which of the following is correct?",
       "options": [
         "A) Stop high-dose benzos cold turkey after months",
         "B) Push D50 and forget thiamine in confused alcoholic",
-        "C) Withhold benzos for rising CIWA with seizure history",
-        "D) CIWA-guided benzos, thiamine, seize/DT surveillance"
+        "C) Withhold benzos for rising Clinical Institute Withdrawal Assessment with seizure history",
+        "D) CIWA-guided benzos, thiamine, seize/delirium tremens surveillance"
       ],
-      "answer": "D) CIWA-guided benzos, thiamine, seize/DT surveillance",
-      "explanation": "GABA rebound causes seizures/DTs. Therefore, the most accurate choice is: CIWA-guided benzos, thiamine, seize/DT surveillance. Undertreatment .",
+      "answer": "D) CIWA-guided benzos, thiamine, seize/delirium tremens surveillance",
+      "explanation": "GABA rebound causes seizures/DTs. Therefore, the most accurate choice is: CIWA-guided benzos, thiamine, seize/delirium tremens surveillance. Undertreatment .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1612,11 +1612,11 @@
       "options": [
         "A) Manage DTs on unmonitored couch without medical support",
         "B) Pile prone restraint prolonged without airway checks",
-        "C) DTs need medical/ICU-capable management",
+        "C) DTs need medical/intensive care unit-capable management",
         "D) Use unnecessary forced disrobing without privacy trauma sensitivity"
       ],
-      "answer": "C) DTs need medical/ICU-capable management",
-      "explanation": "DTs have high mortality without medical care. Therefore, the most accurate choice is: DTs need medical/ICU-capable management. Wrong setting .",
+      "answer": "C) DTs need medical/intensive care unit-capable management",
+      "explanation": "DTs have high mortality without medical care. Therefore, the most accurate choice is: DTs need medical/intensive care unit-capable management. Wrong setting .",
       "choice_explanations": {
         "A": "Wrong setting near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1628,7 +1628,7 @@
   "extreme": [
     {
       "id": "psychiatric:extreme:0",
-      "question": "A 33-year-old woman requires careful decisions about therapeutic use of self. Which of the following is most accurate?",
+      "question": "A 28-year-old man requires careful decisions about therapeutic use of self. Which of the following is most accurate?",
       "options": [
         "A) Use purposeful authentic nurse–patient relationship as therapy tool",
         "B) Punish patient who triggers personal history without insight",
@@ -1664,7 +1664,7 @@
     },
     {
       "id": "psychiatric:extreme:2",
-      "question": "A detailed evaluation for avoid false reassurance is underway in a 47-year-old woman. Which of the following is correct?",
+      "question": "A detailed evaluation for avoid false reassurance is underway in a 42-year-old man. Which of the following is correct?",
       "options": [
         "A) Tell every anxious patient ‘don’t worry’ immediately",
         "B) Tell impaired grievers to move on without assessment",
@@ -1682,7 +1682,7 @@
     },
     {
       "id": "psychiatric:extreme:3",
-      "question": "A 58-year-old man has findings that make open-ended assessment hard to confirm. Which of the following is most accurate?",
+      "question": "A 53-year-old woman has findings that make open-ended assessment hard to confirm. Which of the following is most accurate?",
       "options": [
         "A) Use only yes/no questions for all psychosocial assessment",
         "B) Force meds without capacity assessment or legal process when refusing",
@@ -1700,7 +1700,7 @@
     },
     {
       "id": "psychiatric:extreme:4",
-      "question": "In a 27-year-old woman, distinguishing reflection skills from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 68-year-old man, distinguishing reflection skills from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Reflect feeling/content to deepen understanding",
         "B) Argue repeatedly to talk patient out of fixed delusions",
@@ -1718,7 +1718,7 @@
     },
     {
       "id": "psychiatric:extreme:5",
-      "question": "A 30-year-old man returns with ongoing problems related to therapeutic silence. Which of the following is most accurate?",
+      "question": "A 25-year-old woman returns with ongoing problems related to therapeutic silence. Which of the following is most accurate?",
       "options": [
         "A) Fill every pause with subject changes from pain",
         "B) Allow processing silence while staying present",
@@ -1736,7 +1736,7 @@
     },
     {
       "id": "psychiatric:extreme:6",
-      "question": "Senior review is requested for limit setting in a 49-year-old woman. Which of the following is correct?",
+      "question": "Senior review is requested for limit setting in a 44-year-old man. Which of the following is correct?",
       "options": [
         "A) Make secret special exceptions that contradict team limits",
         "B) Set clear consistent enforceable limits calmly",
@@ -1754,7 +1754,7 @@
     },
     {
       "id": "psychiatric:extreme:7",
-      "question": "Which statement about managing milieu management in a 48-year-old man is most accurate?",
+      "question": "Which statement about managing milieu management in a 43-year-old woman is most accurate?",
       "options": [
         "A) Encourage punching people/walls as therapy",
         "B) Tolerate peer bullying as ‘their community’",
@@ -1772,7 +1772,7 @@
     },
     {
       "id": "psychiatric:extreme:8",
-      "question": "A 30-year-old man has a complex presentation of direct suicide ask. Which of the following is most accurate?",
+      "question": "A 25-year-old woman has a complex presentation of direct suicide ask. Which of the following is most accurate?",
       "options": [
         "A) Avoid asking to prevent ‘planting ideas’",
         "B) Rely only on no-suicide contract without means restriction",
@@ -1790,11 +1790,11 @@
     },
     {
       "id": "psychiatric:extreme:9",
-      "question": "A 29-year-old woman is reassessed after incomplete response related to safety plan components. Which of the following is most accurate?",
+      "question": "A 70-year-old man with diabetes and hypertension is reassessed after incomplete response related to safety plan components. Which of the following is most accurate?",
       "options": [
         "A) Discharge post-ideation without any crisis contacts",
         "B) Rely only on no-suicide contract without means restriction",
-        "C) Conduct high-risk SI session without knowing location",
+        "C) Conduct high-risk suicidal ideation session without knowing location",
         "D) Warning signs, coping, contacts, means restriction"
       ],
       "answer": "D) Warning signs, coping, contacts, means restriction",
@@ -1808,7 +1808,7 @@
     },
     {
       "id": "psychiatric:extreme:10",
-      "question": "A detailed evaluation for continuous observation is underway in a 36-year-old man. Which of the following is correct?",
+      "question": "A detailed evaluation for continuous observation is underway in a 31-year-old woman. Which of the following is correct?",
       "options": [
         "A) Maintain true continuous visual 1:1 when ordered",
         "B) Induce buprenorphine while still agonist-intoxicated",
@@ -1826,7 +1826,7 @@
     },
     {
       "id": "psychiatric:extreme:11",
-      "question": "A 64-year-old man has findings that make self-harm nonshame care hard to confirm. Which of the following is most accurate?",
+      "question": "A 59-year-old woman has findings that make self-harm nonshame care hard to confirm. Which of the following is most accurate?",
       "options": [
         "A) Refuse care for real fracture because malingering suspected",
         "B) Prolonged pile-on restraint without cooling for hyperthermic stimulant agitation",
@@ -1844,7 +1844,7 @@
     },
     {
       "id": "psychiatric:extreme:12",
-      "question": "In a 25-year-old woman, distinguishing duty to protect threats from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 66-year-old man, distinguishing duty to protect threats from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Keep specific credible homicidal threats fully secret",
         "B) Act on credible identifiable homicidal threats per law/policy",
@@ -1862,7 +1862,7 @@
     },
     {
       "id": "psychiatric:extreme:13",
-      "question": "A 44-year-old man returns with ongoing problems related to delusion response. Which of the following is most accurate?",
+      "question": "A 39-year-old woman returns with ongoing problems related to delusion response. Which of the following is most accurate?",
       "options": [
         "A) Mock patient words sarcastically as ‘reflection’",
         "B) Argue repeatedly to talk patient out of fixed delusions",
@@ -1880,12 +1880,12 @@
     },
     {
       "id": "psychiatric:extreme:14",
-      "question": "Senior review is requested for command hallucinations in a 64-year-old man. Which of the following is correct?",
+      "question": "Senior review is requested for command hallucinations in a 59-year-old woman. Which of the following is correct?",
       "options": [
         "A) Assess content; increase safety if harm commands",
-        "B) Diagnose MDD instantly for normal acute grief without features",
+        "B) Diagnose major depressive disorder instantly for normal acute grief without features",
         "C) Label sudden new hallucinations as ‘just dementia’ without workup",
-        "D) Conduct high-risk SI session without knowing location"
+        "D) Conduct high-risk suicidal ideation session without knowing location"
       ],
       "answer": "A) Assess content; increase safety if harm commands",
       "explanation": "Commands raise acute risk. Therefore, the most accurate choice is: Assess content; increase safety if harm commands. Baseline normalization without assessment is .",
@@ -1898,15 +1898,15 @@
     },
     {
       "id": "psychiatric:extreme:15",
-      "question": "Which statement about acute dystonia rescue in a 50-year-old man is most accurate?",
+      "question": "Which statement about acute dystonia rescue in a 45-year-old woman is most accurate?",
       "options": [
         "A) Give high-potency typicals first for catatonic stupor without assessment",
-        "B) Recognize dystonia; give ordered anticholinergic rescue ASAP",
+        "B) Recognize dystonia; give ordered anticholinergic rescue as soon as possible",
         "C) Restrain and treat dystonia as bad behavior only",
         "D) Treat all movement effects as identical with one approach only"
       ],
-      "answer": "B) Recognize dystonia; give ordered anticholinergic rescue ASAP",
-      "explanation": "Dystonia can threaten airway. Therefore, the most accurate choice is: Recognize dystonia; give ordered anticholinergic rescue ASAP. Behavioral mislabel delays treatment—.",
+      "answer": "B) Recognize dystonia; give ordered anticholinergic rescue as soon as possible",
+      "explanation": "Dystonia can threaten airway. Therefore, the most accurate choice is: Recognize dystonia; give ordered anticholinergic rescue as soon as possible. Behavioral mislabel delays treatment—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Dystonia can threaten airway. This matches the correct interpretation.",
@@ -1916,9 +1916,9 @@
     },
     {
       "id": "psychiatric:extreme:16",
-      "question": "A 53-year-old woman with diabetes and hypertension requires careful decisions about akathisia not agitation. Which of the following is most accurate?",
+      "question": "A 48-year-old man requires careful decisions about akathisia not agitation. Which of the following is most accurate?",
       "options": [
-        "A) Give another antipsychotic dose during NMS",
+        "A) Give another antipsychotic dose during neuroleptic malignant syndrome",
         "B) Tighten restraints and raise antipsychotic dose for akathisia",
         "C) Recognize antipsychotic akathisia—adjust regimen; don’t only restrain",
         "D) Restrain and treat dystonia as bad behavior only"
@@ -1934,28 +1934,28 @@
     },
     {
       "id": "psychiatric:extreme:17",
-      "question": "Management of NMS emergency is reviewed for a 34-year-old man. Which of the following is most accurate?",
+      "question": "Management of neuroleptic malignant syndrome emergency is reviewed for a 29-year-old woman. Which of the following is most accurate?",
       "options": [
-        "A) Treat NMS fever with acetaminophen only and continue depot injection",
-        "B) Add another SSRI/MAOI when serotonin syndrome suspected",
-        "C) Rigidity, fever, dysautonomia, ↑CK—stop antipsychotic; support",
-        "D) Give another antipsychotic dose during NMS"
+        "A) Treat neuroleptic malignant syndrome fever with acetaminophen only and continue depot injection",
+        "B) Add another selective serotonin reuptake inhibitor/monoamine oxidase inhibitor when serotonin syndrome suspected",
+        "C) Rigidity, fever, dysautonomia, ↑creatine kinase—stop antipsychotic; support",
+        "D) Give another antipsychotic dose during neuroleptic malignant syndrome"
       ],
-      "answer": "C) Rigidity, fever, dysautonomia, ↑CK—stop antipsychotic; support",
-      "explanation": "NMS is life-threatening reaction. Therefore, the most accurate choice is: Rigidity, fever, dysautonomia, ↑CK—stop antipsychotic; support. Continuing antipsychotic fuels NMS—.",
+      "answer": "C) Rigidity, fever, dysautonomia, ↑creatine kinase—stop antipsychotic; support",
+      "explanation": "neuroleptic malignant syndrome is life-threatening reaction. Therefore, the most accurate choice is: Rigidity, fever, dysautonomia, ↑creatine kinase—stop antipsychotic; support. Continuing antipsychotic fuels neuroleptic malignant syndrome—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "NMS is life-threatening reaction. This matches the correct interpretation.",
-        "D": "Continuing antipsychotic fuels NMS—near-miss. It is less consistent than the correct choice."
+        "C": "neuroleptic malignant syndrome is life-threatening reaction. This matches the correct interpretation.",
+        "D": "Continuing antipsychotic fuels neuroleptic malignant syndrome—near-miss. It is less consistent than the correct choice."
       }
     },
     {
       "id": "psychiatric:extreme:18",
-      "question": "A detailed evaluation for serotonin syndrome is underway in a 54-year-old man. Which of the following is correct?",
+      "question": "A detailed evaluation for serotonin syndrome is underway in a 49-year-old woman. Which of the following is correct?",
       "options": [
-        "A) Give another antipsychotic dose during NMS",
-        "B) Add another SSRI/MAOI when serotonin syndrome suspected",
+        "A) Give another antipsychotic dose during neuroleptic malignant syndrome",
+        "B) Add another selective serotonin reuptake inhibitor/monoamine oxidase inhibitor when serotonin syndrome suspected",
         "C) Clonus/hyperreflexia/fever from serotonergic stacks—stop agents",
         "D) Treat by adding more serotonergic and antipsychotic agents to either"
       ],
@@ -1970,33 +1970,33 @@
     },
     {
       "id": "psychiatric:extreme:19",
-      "question": "In a 61-year-old woman, treatment choices for tardive dyskinesia are compared. Which of the following is most accurate?",
+      "question": "In a 56-year-old man, treatment choices for tardive dyskinesia are compared. Which of the following is most accurate?",
       "options": [
-        "A) Athetoid oral-facial movements; early detection; anticholinergics not TD cure",
-        "B) Treat TD with high-dose anticholinergics as definitive cure",
+        "A) Athetoid oral-facial movements; early detection; anticholinergics not tardive dyskinesia cure",
+        "B) Treat tardive dyskinesia with high-dose anticholinergics as definitive cure",
         "C) Stop high-dose benzos cold turkey after months",
         "D) Treat all movement effects as identical with one approach only"
       ],
-      "answer": "A) Athetoid oral-facial movements; early detection; anticholinergics not TD cure",
-      "explanation": "TD may persist; specialty changes needed. Therefore, the most accurate choice is: Athetoid oral-facial movements; early detection; anticholinergics not TD cure. Anticholinergics can worsen TD—.",
+      "answer": "A) Athetoid oral-facial movements; early detection; anticholinergics not tardive dyskinesia cure",
+      "explanation": "tardive dyskinesia may persist; specialty changes needed. Therefore, the most accurate choice is: Athetoid oral-facial movements; early detection; anticholinergics not tardive dyskinesia cure. Anticholinergics can worsen tardive dyskinesia—.",
       "choice_explanations": {
-        "A": "TD may persist; specialty changes needed. This matches the correct interpretation.",
-        "B": "Anticholinergics can worsen TD—near-miss. It is less consistent than the correct choice.",
+        "A": "tardive dyskinesia may persist; specialty changes needed. This matches the correct interpretation.",
+        "B": "Anticholinergics can worsen tardive dyskinesia—near-miss. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "psychiatric:extreme:20",
-      "question": "In a 56-year-old man, distinguishing clozapine ANC monitoring from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 51-year-old woman, distinguishing clozapine absolute neutrophil count monitoring from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Skip suicide screening because patient is ‘too tired to act’",
-        "B) Monitor ANC per REMS; fever/sore throat urgent",
-        "C) Start clozapine without discussing ANC monitoring needs",
-        "D) Skip ANC labs because patient feels fine on clozapine"
+        "B) Monitor absolute neutrophil count per Risk Evaluation and Mitigation Strategy; fever/sore throat urgent",
+        "C) Start clozapine without discussing absolute neutrophil count monitoring needs",
+        "D) Skip absolute neutrophil count labs because patient feels fine on clozapine"
       ],
-      "answer": "B) Monitor ANC per REMS; fever/sore throat urgent",
-      "explanation": "Agranulocytosis can kill. Therefore, the most accurate choice is: Monitor ANC per REMS; fever/sore throat urgent. Skipped labs deadly—.",
+      "answer": "B) Monitor absolute neutrophil count per Risk Evaluation and Mitigation Strategy; fever/sore throat urgent",
+      "explanation": "Agranulocytosis can kill. Therefore, the most accurate choice is: Monitor absolute neutrophil count per Risk Evaluation and Mitigation Strategy; fever/sore throat urgent. Skipped labs deadly—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Agranulocytosis can kill. This matches the correct interpretation.",
@@ -2006,10 +2006,10 @@
     },
     {
       "id": "psychiatric:extreme:21",
-      "question": "A 33-year-old woman returns with ongoing problems related to lithium toxicity. Which of the following is most accurate?",
+      "question": "A 28-year-old man returns with ongoing problems related to lithium toxicity. Which of the following is most accurate?",
       "options": [
-        "A) Give another antipsychotic dose during NMS",
-        "B) Start crash low-salt diet and NSAIDs freely on lithium",
+        "A) Give another antipsychotic dose during neuroleptic malignant syndrome",
+        "B) Start crash low-salt diet and nonsteroidal anti-inflammatory drugs freely on lithium",
         "C) Increase lithium during gastroenteritis dehydration",
         "D) Coarse tremor, vomiting, ataxia, confusion—hold and check level"
       ],
@@ -2024,17 +2024,17 @@
     },
     {
       "id": "psychiatric:extreme:22",
-      "question": "Senior review is requested for lithium salt consistency in a 70-year-old man. Which of the following is correct?",
+      "question": "Senior review is requested for lithium salt consistency in a 65-year-old woman. Which of the following is correct?",
       "options": [
-        "A) Start crash low-salt diet and NSAIDs freely on lithium",
+        "A) Start crash low-salt diet and nonsteroidal anti-inflammatory drugs freely on lithium",
         "B) Increase lithium during gastroenteritis dehydration",
-        "C) Keep salt/fluid steady; caution NSAIDs/diuretics",
+        "C) Keep salt/fluid steady; caution nonsteroidal anti-inflammatory drugs/diuretics",
         "D) Recommend ibuprofen freely for lithium patients without advice"
       ],
-      "answer": "C) Keep salt/fluid steady; caution NSAIDs/diuretics",
-      "explanation": "Sodium depletion increases lithium reabsorption. Therefore, the most accurate choice is: Keep salt/fluid steady; caution NSAIDs/diuretics. Salt crash + NSAIDs .",
+      "answer": "C) Keep salt/fluid steady; caution nonsteroidal anti-inflammatory drugs/diuretics",
+      "explanation": "Sodium depletion increases lithium reabsorption. Therefore, the most accurate choice is: Keep salt/fluid steady; caution nonsteroidal anti-inflammatory drugs/diuretics. Salt crash + nonsteroidal anti-inflammatory drugs .",
       "choice_explanations": {
-        "A": "Salt crash + NSAIDs near-miss. It is less consistent than the correct choice.",
+        "A": "Salt crash + nonsteroidal anti-inflammatory drugs near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Sodium depletion increases lithium reabsorption. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -2042,11 +2042,11 @@
     },
     {
       "id": "psychiatric:extreme:23",
-      "question": "Which statement about managing valproate teratogen in a 26-year-old woman is most accurate?",
+      "question": "Which statement about managing valproate teratogen in a 33-year-old woman is most accurate?",
       "options": [
         "A) Counsel contraception/pregnancy risks; neural tube defect risk high",
         "B) Give untimed bright light in undiagnosed bipolar without counseling",
-        "C) Start clozapine without discussing ANC monitoring needs",
+        "C) Start clozapine without discussing absolute neutrophil count monitoring needs",
         "D) Encourage unplanned pregnancy on valproate without counseling"
       ],
       "answer": "A) Counsel contraception/pregnancy risks; neural tube defect risk high",
@@ -2060,25 +2060,25 @@
     },
     {
       "id": "psychiatric:extreme:24",
-      "question": "A 67-year-old woman has a complex presentation of lamotrigine titration. Which of the following is most accurate?",
+      "question": "A 62-year-old man has a complex presentation of lamotrigine titration. Which of the following is most accurate?",
       "options": [
         "A) Prop locked doors for convenience with elopement risk",
         "B) Force paper-bag hyperventilation for all panic without assessing hypoxia risk",
-        "C) Titrate slowly; report rash—SJS risk",
+        "C) Titrate slowly; report rash—Stevens-Johnson syndrome risk",
         "D) Rapidly escalate lamotrigine over a few days"
       ],
-      "answer": "C) Titrate slowly; report rash—SJS risk",
-      "explanation": "Slow titration lowers serious rash risk. Therefore, the most accurate choice is: Titrate slowly; report rash—SJS risk. Rapid titration SJS .",
+      "answer": "C) Titrate slowly; report rash—Stevens-Johnson syndrome risk",
+      "explanation": "Slow titration lowers serious rash risk. Therefore, the most accurate choice is: Titrate slowly; report rash—Stevens-Johnson syndrome risk. Rapid titration Stevens-Johnson syndrome .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Slow titration lowers serious rash risk. This matches the correct interpretation.",
-        "D": "Rapid titration SJS near-miss. It is less consistent than the correct choice."
+        "D": "Rapid titration Stevens-Johnson syndrome near-miss. It is less consistent than the correct choice."
       }
     },
     {
       "id": "psychiatric:extreme:25",
-      "question": "A 57-year-old woman with diabetes and hypertension is reassessed after incomplete response related to MAOI tyramine diet. Which of the following is most accurate?",
+      "question": "A 52-year-old man with diabetes and hypertension is reassessed after incomplete response related to monoamine oxidase inhibitor tyramine diet. Which of the following is most accurate?",
       "options": [
         "A) Avoid high-tyramine foods to prevent hypertensive crisis",
         "B) Stop high-dose benzos cold turkey after months",
@@ -2096,15 +2096,15 @@
     },
     {
       "id": "psychiatric:extreme:26",
-      "question": "A detailed evaluation for MAOI SSRI washout is underway in a 43-year-old woman. Which of the following is correct?",
+      "question": "A detailed evaluation for monoamine oxidase inhibitor selective serotonin reuptake inhibitor washout is underway in a 38-year-old man. Which of the following is correct?",
       "options": [
-        "A) Start crash low-salt diet and NSAIDs freely on lithium",
-        "B) Respect washout when switching MAOI↔SSRI",
-        "C) Start fluoxetine same day MAOI stops",
-        "D) Add another SSRI/MAOI when serotonin syndrome suspected"
+        "A) Start crash low-salt diet and nonsteroidal anti-inflammatory drugs freely on lithium",
+        "B) Respect washout when switching monoamine oxidase inhibitor↔selective serotonin reuptake inhibitor",
+        "C) Start fluoxetine same day monoamine oxidase inhibitor stops",
+        "D) Add another selective serotonin reuptake inhibitor/monoamine oxidase inhibitor when serotonin syndrome suspected"
       ],
-      "answer": "B) Respect washout when switching MAOI↔SSRI",
-      "explanation": "Stacked serotonin toxicity can kill. Therefore, the most accurate choice is: Respect washout when switching MAOI↔SSRI. No washout .",
+      "answer": "B) Respect washout when switching monoamine oxidase inhibitor↔selective serotonin reuptake inhibitor",
+      "explanation": "Stacked serotonin toxicity can kill. Therefore, the most accurate choice is: Respect washout when switching monoamine oxidase inhibitor↔selective serotonin reuptake inhibitor. No washout .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Stacked serotonin toxicity can kill. This matches the correct interpretation.",
@@ -2114,11 +2114,11 @@
     },
     {
       "id": "psychiatric:extreme:27",
-      "question": "In a 62-year-old man, treatment choices for benzo taper are compared. Which of the following is most accurate?",
+      "question": "In a 57-year-old woman, treatment choices for benzo taper are compared. Which of the following is most accurate?",
       "options": [
         "A) Taper slowly after prolonged use; avoid alcohol combo",
         "B) Start long-acting benzos first for frail elder insomnia",
-        "C) Withhold benzos for rising CIWA with seizure history",
+        "C) Withhold benzos for rising Clinical Institute Withdrawal Assessment with seizure history",
         "D) Stop high-dose benzos cold turkey after months"
       ],
       "answer": "A) Taper slowly after prolonged use; avoid alcohol combo",
@@ -2132,15 +2132,15 @@
     },
     {
       "id": "psychiatric:extreme:28",
-      "question": "In a 45-year-old woman, distinguishing CIWA alcohol withdrawal from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 40-year-old man, distinguishing Clinical Institute Withdrawal Assessment alcohol withdrawal from similar conditions is difficult. Which of the following is correct?",
       "options": [
-        "A) CIWA-guided benzos, thiamine, seize/DT surveillance",
-        "B) Withhold benzos for rising CIWA with seizure history",
+        "A) CIWA-guided benzos, thiamine, seize/delirium tremens surveillance",
+        "B) Withhold benzos for rising Clinical Institute Withdrawal Assessment with seizure history",
         "C) Stop high-dose benzos cold turkey after months",
         "D) Push D50 and forget thiamine in confused alcoholic"
       ],
-      "answer": "A) CIWA-guided benzos, thiamine, seize/DT surveillance",
-      "explanation": "GABA rebound causes seizures/DTs. Therefore, the most accurate choice is: CIWA-guided benzos, thiamine, seize/DT surveillance. Undertreatment .",
+      "answer": "A) CIWA-guided benzos, thiamine, seize/delirium tremens surveillance",
+      "explanation": "GABA rebound causes seizures/DTs. Therefore, the most accurate choice is: CIWA-guided benzos, thiamine, seize/delirium tremens surveillance. Undertreatment .",
       "choice_explanations": {
         "A": "GABA rebound causes seizures/DTs. This matches the correct interpretation.",
         "B": "Undertreatment near-miss. It is less consistent than the correct choice.",
@@ -2150,15 +2150,15 @@
     },
     {
       "id": "psychiatric:extreme:29",
-      "question": "Safety concerns around delirium tremens care arise in a 75-year-old man. Which of the following is most accurate?",
+      "question": "Safety concerns around delirium tremens care arise in a 82-year-old woman. Which of the following is most accurate?",
       "options": [
         "A) Pile prone restraint prolonged without airway checks",
         "B) Assume returned elopers need no reassessment",
-        "C) DTs need medical/ICU-capable management",
+        "C) DTs need medical/intensive care unit-capable management",
         "D) Manage DTs on unmonitored couch without medical support"
       ],
-      "answer": "C) DTs need medical/ICU-capable management",
-      "explanation": "DTs have high mortality without medical care. Therefore, the most accurate choice is: DTs need medical/ICU-capable management. Wrong setting .",
+      "answer": "C) DTs need medical/intensive care unit-capable management",
+      "explanation": "DTs have high mortality without medical care. Therefore, the most accurate choice is: DTs need medical/intensive care unit-capable management. Wrong setting .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",

@@ -5,7 +5,7 @@
       "question": "Which of the following is true of reversible pulpitis hallmark?",
       "options": [
         "A) Acute apical abscess occurs on vital pulp with reversible pulpitis only",
-        "B) Brief nonlingering sensitivity only always means irreversible pulpitis needing RCT",
+        "B) Brief nonlingering sensitivity only always means irreversible pulpitis needing randomized controlled trial",
         "C) Lingering severe spontaneous pain to cold defines reversible pulpitis",
         "D) Sharp pain to cold that resolves quickly without spontaneous lingering pain suggests reversible pulpitis"
       ],
@@ -24,7 +24,7 @@
       "options": [
         "A) Lingering pain to thermal stimuli and/or spontaneous pain suggests symptomatic irreversible pulpitis",
         "B) Lingering severe spontaneous pain to cold defines reversible pulpitis",
-        "C) Brief nonlingering sensitivity only always means irreversible pulpitis needing RCT",
+        "C) Brief nonlingering sensitivity only always means irreversible pulpitis needing randomized controlled trial",
         "D) Multiple visits are mandatory for every vital irreversible pulpitis always"
       ],
       "answer": "A) Lingering pain to thermal stimuli and/or spontaneous pain suggests symptomatic irreversible pulpitis",
@@ -41,8 +41,8 @@
       "question": "Which of the following statements about pulp necrosis is correct?",
       "options": [
         "A) Necrotic pulp often lacks response to cold and may develop apical disease",
-        "B) Cracked tooth and VRF have identical always-hopeless prognosis without nuance",
-        "C) Remove all GP to the apex for every post always",
+        "B) Cracked tooth and vertical root fracture have identical always-hopeless prognosis without nuance",
+        "C) Remove all gutta-percha to the apex for every post always",
         "D) Necrotic teeth always respond vividly to cold like hypersensitive dentin"
       ],
       "answer": "A) Necrotic pulp often lacks response to cold and may develop apical disease",
@@ -58,16 +58,16 @@
       "id": "endodontics:easy:3",
       "question": "In clinical examination related to symptomatic apical periodontitis, which of the following is correct?",
       "options": [
-        "A) Pain on biting/percussion with inflamed apical PDL suggests symptomatic apical periodontitis",
-        "B) Apical periodontitis pain is only enamel hypersensitivity without PDL involvement",
+        "A) Pain on biting/percussion with inflamed apical periodontal ligament suggests symptomatic apical periodontitis",
+        "B) Apical periodontitis pain is only enamel hypersensitivity without periodontal ligament involvement",
         "C) All apical radiolucencies are painful always",
         "D) Lingering severe spontaneous pain to cold defines reversible pulpitis"
       ],
-      "answer": "A) Pain on biting/percussion with inflamed apical PDL suggests symptomatic apical periodontitis",
-      "explanation": "Inflamed apical periodontal ligament is percussion-sensitive. Therefore, the most accurate choice is: Pain on biting/percussion with inflamed apical PDL suggests symptomatic apical periodontitis. Enamel sensitivity is coronal dentin, not apical PDL.",
+      "answer": "A) Pain on biting/percussion with inflamed apical periodontal ligament suggests symptomatic apical periodontitis",
+      "explanation": "Inflamed apical periodontal ligament is percussion-sensitive. Therefore, the most accurate choice is: Pain on biting/percussion with inflamed apical periodontal ligament suggests symptomatic apical periodontitis. Enamel sensitivity is coronal dentin, not apical periodontal ligament.",
       "choice_explanations": {
         "A": "Inflamed apical periodontal ligament is percussion-sensitive. This matches the correct interpretation.",
-        "B": "Enamel sensitivity is coronal dentin, not apical PDL. It is less consistent than the correct choice.",
+        "B": "Enamel sensitivity is coronal dentin, not apical periodontal ligament. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -78,7 +78,7 @@
       "options": [
         "A) Phoenix abscess is reversible pulpitis without radiolucency",
         "B) Apical radiolucency without symptoms on a nonvital tooth suggests asymptomatic apical periodontitis",
-        "C) Apical periodontitis pain is only enamel hypersensitivity without PDL involvement",
+        "C) Apical periodontitis pain is only enamel hypersensitivity without periodontal ligament involvement",
         "D) All apical radiolucencies are painful always"
       ],
       "answer": "B) Apical radiolucency without symptoms on a nonvital tooth suggests asymptomatic apical periodontitis",
@@ -133,7 +133,7 @@
         "A) Necrotic teeth always respond vividly to cold like hypersensitive dentin",
         "B) Cold testing compares teeth; lingering response suggests irreversible pulpitis; no response suggests necrosis",
         "C) Cold testing measures pocket depths",
-        "D) Brief nonlingering sensitivity only always means irreversible pulpitis needing RCT"
+        "D) Brief nonlingering sensitivity only always means irreversible pulpitis needing randomized controlled trial"
       ],
       "answer": "B) Cold testing compares teeth; lingering response suggests irreversible pulpitis; no response suggests necrosis",
       "explanation": "Thermal fluid movement in tubules stimulates vital pulp afferents. Therefore, the most accurate choice is: Cold testing compares teeth; lingering response suggests irreversible pulpitis; no response suggests necrosis. Comparative lingering versus absent responses guide pulp status.",
@@ -146,12 +146,12 @@
     },
     {
       "id": "endodontics:easy:8",
-      "question": "Which of the following is true about EPT limitations?",
+      "question": "Which of the following is true about electric pulp testing limitations?",
       "options": [
         "A) Cold testing measures pocket depths",
         "B) Electric pulp testing suggests vitality of sensory nerves but not vascular health perfectly",
-        "C) EPT proves exact histologic pulp status always",
-        "D) EPT always beats blood-flow tests after trauma for true vitality"
+        "C) electric pulp testing proves exact histologic pulp status always",
+        "D) electric pulp testing always beats blood-flow tests after trauma for true vitality"
       ],
       "answer": "B) Electric pulp testing suggests vitality of sensory nerves but not vascular health perfectly",
       "explanation": "Neural response can lag true vascular necrosis or give false readings with restorations. Therefore, the most accurate choice is: Electric pulp testing suggests vitality of sensory nerves but not vascular health perfectly. It is an adjunct, not absolute histology.",
@@ -168,14 +168,14 @@
       "options": [
         "A) Pulp chamber is always in the apical third enamel",
         "B) Percussion tells whether pulp is histologically healthy always",
-        "C) IANB alone always guarantees profound pulp anesthesia for hot molars",
-        "D) Percussion assesses apical PDL inflammation, not pulp vitality itself"
+        "C) inferior alveolar nerve block alone always guarantees profound pulp anesthesia for hot molars",
+        "D) Percussion assesses apical periodontal ligament inflammation, not pulp vitality itself"
       ],
-      "answer": "D) Percussion assesses apical PDL inflammation, not pulp vitality itself",
-      "explanation": "Inflamed apical ligament hurts when the tooth is tapped. Therefore, the most accurate choice is: Percussion assesses apical PDL inflammation, not pulp vitality itself. Vitality needs thermal/EPT; percussion is periapical.",
+      "answer": "D) Percussion assesses apical periodontal ligament inflammation, not pulp vitality itself",
+      "explanation": "Inflamed apical ligament hurts when the tooth is tapped. Therefore, the most accurate choice is: Percussion assesses apical periodontal ligament inflammation, not pulp vitality itself. Vitality needs thermal/electric pulp testing; percussion is periapical.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Vitality needs thermal/EPT; percussion is periapical. It is less consistent than the correct choice.",
+        "B": "Vitality needs thermal/electric pulp testing; percussion is periapical. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Inflamed apical ligament hurts when the tooth is tapped. This matches the correct interpretation."
       }
@@ -186,7 +186,7 @@
       "options": [
         "A) Palpation of mucosa diagnoses enamel caries",
         "B) Apical palpation detects periradicular inflammation or swelling over roots",
-        "C) Apical periodontitis pain is only enamel hypersensitivity without PDL involvement",
+        "C) Apical periodontitis pain is only enamel hypersensitivity without periodontal ligament involvement",
         "D) Pulp chamber is always in the apical third enamel"
       ],
       "answer": "B) Apical palpation detects periradicular inflammation or swelling over roots",
@@ -202,10 +202,10 @@
       "id": "endodontics:easy:11",
       "question": "In rubber dam isolation endo, which of the following is correct?",
       "options": [
-        "A) Rubber dam is optional decoration during RCT",
+        "A) Rubber dam is optional decoration during randomized controlled trial",
         "B) Rubber dam is standard of care for root canal treatment to protect airway and asepsis",
-        "C) Always start RCT on nonrestorable root fragments without discussion",
-        "D) Smear layer is healthy cementum deposited during RCT"
+        "C) Always start randomized controlled trial on nonrestorable root fragments without discussion",
+        "D) Smear layer is healthy cementum deposited during randomized controlled trial"
       ],
       "answer": "B) Rubber dam is standard of care for root canal treatment to protect airway and asepsis",
       "explanation": "Isolation prevents aspiration and salivary contamination of canals. Therefore, the most accurate choice is: Rubber dam is standard of care for root canal treatment to protect airway and asepsis. Endodontic standard demands dam isolation.",
@@ -222,7 +222,7 @@
       "options": [
         "A) Pulp chamber is always in the apical third enamel",
         "B) Access should unroof pulp chamber completely and achieve straight-line path to canals",
-        "C) ECR starts inside the pulp chamber as primary origin always",
+        "C) edge cracked residual starts inside the pulp chamber as primary origin always",
         "D) Access should leave the entire roof to keep strength always as the goal of entry"
       ],
       "answer": "B) Access should unroof pulp chamber completely and achieve straight-line path to canals",
@@ -239,12 +239,12 @@
       "question": "Select the correct statement about law of centrality pulp.",
       "options": [
         "A) Pulp chamber is always in the apical third enamel",
-        "B) Pulp chamber is centered at the CEJ level in the tooth cross-section commonly",
+        "B) Pulp chamber is centered at the cementoenamel junction level in the tooth cross-section commonly",
         "C) Pulp stones always improve canal negotiation",
         "D) Access should leave the entire roof to keep strength always as the goal of entry"
       ],
-      "answer": "B) Pulp chamber is centered at the CEJ level in the tooth cross-section commonly",
-      "explanation": "CEJ-level centering guides deep access before searching orifices. Therefore, the most accurate choice is: Pulp chamber is centered at the CEJ level in the tooth cross-section commonly. Anatomic laws help prevent gouging.",
+      "answer": "B) Pulp chamber is centered at the cementoenamel junction level in the tooth cross-section commonly",
+      "explanation": "CEJ-level centering guides deep access before searching orifices. Therefore, the most accurate choice is: Pulp chamber is centered at the cementoenamel junction level in the tooth cross-section commonly. Anatomic laws help prevent gouging.",
       "choice_explanations": {
         "A": "Anatomic laws help prevent gouging. It is less consistent than the correct choice.",
         "B": "CEJ-level centering guides deep access before searching orifices. This matches the correct interpretation.",
@@ -258,16 +258,16 @@
       "options": [
         "A) Pulp chamber is always in the apical third enamel",
         "B) Orifices are randomly mid-enamel without floor map relation",
-        "C) Apical periodontitis pain is only enamel hypersensitivity without PDL involvement",
+        "C) Apical periodontitis pain is only enamel hypersensitivity without periodontal ligament involvement",
         "D) Orifices lie at the junction of walls and floor and at angles of the floor map"
       ],
       "answer": "D) Orifices lie at the junction of walls and floor and at angles of the floor map",
-      "explanation": "Dark floor-light wall contrast and angles guide MB/ML/DB locations. Therefore, the most accurate choice is: Orifices lie at the junction of walls and floor and at angles of the floor map. Anatomic mapping reduces missed canals.",
+      "explanation": "Dark floor-light wall contrast and angles guide mesiobuccal/ML/distobuccal locations. Therefore, the most accurate choice is: Orifices lie at the junction of walls and floor and at angles of the floor map. Anatomic mapping reduces missed canals.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Anatomic mapping reduces missed canals. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Dark floor-light wall contrast and angles guide MB/ML/DB locations. This matches the correct interpretation."
+        "D": "Dark floor-light wall contrast and angles guide mesiobuccal/ML/distobuccal locations. This matches the correct interpretation."
       }
     },
     {
@@ -311,7 +311,7 @@
       "question": "Which finding is expected in apex locator use?",
       "options": [
         "A) Electronic apex locators help determine working length using impedance principles",
-        "B) Regen endo is identical to traditional GP obturation to a closed apex in mature teeth",
+        "B) Regen endo is identical to traditional gutta-percha obturation to a closed apex in mature teeth",
         "C) Working length is the crown width mesiodistally",
         "D) Apex locators measure bleeding time"
       ],
@@ -329,14 +329,14 @@
       "question": "Which of the following statements about sodium hypochlorite role is correct?",
       "options": [
         "A) NaOCl is only a chelating agent for smear layer inorganic part",
-        "B) EDTA dissolves necrotic pulp tissue better than NaOCl as primary tissue solvent",
-        "C) CHX dissolves pulp better than NaOCl",
+        "B) ethylenediaminetetraacetic acid dissolves necrotic pulp tissue better than NaOCl as primary tissue solvent",
+        "C) chlorhexidine dissolves pulp better than NaOCl",
         "D) NaOCl dissolves organic tissue and disinfects canals as primary irrigant"
       ],
       "answer": "D) NaOCl dissolves organic tissue and disinfects canals as primary irrigant",
-      "explanation": "Oxidative chlorination kills microbes and dissolves pulp remnants. Therefore, the most accurate choice is: NaOCl dissolves organic tissue and disinfects canals as primary irrigant. EDTA chelates inorganic smear; NaOCl is tissue solvent/disinfectant.",
+      "explanation": "Oxidative chlorination kills microbes and dissolves pulp remnants. Therefore, the most accurate choice is: NaOCl dissolves organic tissue and disinfects canals as primary irrigant. ethylenediaminetetraacetic acid chelates inorganic smear; NaOCl is tissue solvent/disinfectant.",
       "choice_explanations": {
-        "A": "EDTA chelates inorganic smear; NaOCl is tissue solvent/disinfectant. It is less consistent than the correct choice.",
+        "A": "ethylenediaminetetraacetic acid chelates inorganic smear; NaOCl is tissue solvent/disinfectant. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Oxidative chlorination kills microbes and dissolves pulp remnants. This matches the correct interpretation."
@@ -344,17 +344,17 @@
     },
     {
       "id": "endodontics:easy:19",
-      "question": "Which of the following correctly describes EDTA role endo?",
+      "question": "Which of the following correctly describes ethylenediaminetetraacetic acid role endo?",
       "options": [
-        "A) EDTA dissolves necrotic pulp tissue better than NaOCl as primary tissue solvent",
+        "A) ethylenediaminetetraacetic acid dissolves necrotic pulp tissue better than NaOCl as primary tissue solvent",
         "B) NaOCl is only a chelating agent for smear layer inorganic part",
-        "C) EDTA chelates calcium and helps remove the inorganic smear layer",
-        "D) CHX dissolves pulp better than NaOCl"
+        "C) ethylenediaminetetraacetic acid chelates calcium and helps remove the inorganic smear layer",
+        "D) chlorhexidine dissolves pulp better than NaOCl"
       ],
-      "answer": "C) EDTA chelates calcium and helps remove the inorganic smear layer",
-      "explanation": "Chelation opens dentinal tubules after instrumentation smear. Therefore, the most accurate choice is: EDTA chelates calcium and helps remove the inorganic smear layer. Tissue dissolution is NaOCl's strength; EDTA targets mineral smear.",
+      "answer": "C) ethylenediaminetetraacetic acid chelates calcium and helps remove the inorganic smear layer",
+      "explanation": "Chelation opens dentinal tubules after instrumentation smear. Therefore, the most accurate choice is: ethylenediaminetetraacetic acid chelates calcium and helps remove the inorganic smear layer. Tissue dissolution is NaOCl's strength; ethylenediaminetetraacetic acid targets mineral smear.",
       "choice_explanations": {
-        "A": "Tissue dissolution is NaOCl's strength; EDTA targets mineral smear. It is less consistent than the correct choice.",
+        "A": "Tissue dissolution is NaOCl's strength; ethylenediaminetetraacetic acid targets mineral smear. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Chelation opens dentinal tubules after instrumentation smear. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -364,9 +364,9 @@
       "id": "endodontics:easy:20",
       "question": "Which of the following best describes smear layer endo?",
       "options": [
-        "A) Rubber dam is optional decoration during RCT",
+        "A) Rubber dam is optional decoration during randomized controlled trial",
         "B) NaOCl is only a chelating agent for smear layer inorganic part",
-        "C) Smear layer is healthy cementum deposited during RCT",
+        "C) Smear layer is healthy cementum deposited during randomized controlled trial",
         "D) Instrumentation creates smear layer of debris on canal walls that irrigants address"
       ],
       "answer": "D) Instrumentation creates smear layer of debris on canal walls that irrigants address",
@@ -383,12 +383,12 @@
       "question": "Select the correct statement about calcium hydroxide intracanal.",
       "options": [
         "A) Sealer replaces gutta-percha core entirely in all techniques as only fill",
-        "B) Ca(OH)2 is a common intracanal medicament with high pH antimicrobial effect",
+        "B) Ca(orthostatic hypotension)2 is a common intracanal medicament with high pH antimicrobial effect",
         "C) Calcium hydroxide is the final gutta-percha core substitute always",
         "D) Gutta-percha alone chemically bonds and seals without sealer ideally always"
       ],
-      "answer": "B) Ca(OH)2 is a common intracanal medicament with high pH antimicrobial effect",
-      "explanation": "Alkaline environment kills microbes and may aid hard-tissue barriers in apexification contexts. Therefore, the most accurate choice is: Ca(OH)2 is a common intracanal medicament with high pH antimicrobial effect. Obturation cores are typically gutta-percha with sealer.",
+      "answer": "B) Ca(orthostatic hypotension)2 is a common intracanal medicament with high pH antimicrobial effect",
+      "explanation": "Alkaline environment kills microbes and may aid hard-tissue barriers in apexification contexts. Therefore, the most accurate choice is: Ca(orthostatic hypotension)2 is a common intracanal medicament with high pH antimicrobial effect. Obturation cores are typically gutta-percha with sealer.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Alkaline environment kills microbes and may aid hard-tissue barriers in apexification contexts. This matches the correct interpretation.",
@@ -400,7 +400,7 @@
       "id": "endodontics:easy:22",
       "question": "Which mechanism accounts for ledging cause?",
       "options": [
-        "A) Rubber dam is optional decoration during RCT",
+        "A) Rubber dam is optional decoration during randomized controlled trial",
         "B) Glide path means jumping straight to large rotary in calcified canals",
         "C) Ledging occurs from skipping sizes or forcing stiff files short of curvature negotiation",
         "D) Ledging is caused only by rubber dam clamps"
@@ -473,7 +473,7 @@
       "question": "Which of the following statements about glide is correct?",
       "options": [
         "A) Hybrid means using only broaches for shaping to length",
-        "B) NiTi instruments never fracture and need no glide path",
+        "B) nickel-titanium instruments never fracture and need no glide path",
         "C) Glide path means jumping straight to large rotary in calcified canals",
         "D) A reproducible glide path with small files precedes rotary shaping for safety"
       ],
@@ -488,15 +488,15 @@
     },
     {
       "id": "endodontics:easy:27",
-      "question": "In rotary Ni Ti advantage, which of the following is correct?",
+      "question": "In rotary nickel-titanium advantage, which of the following is correct?",
       "options": [
         "A) Glide path means jumping straight to large rotary in calcified canals",
-        "B) NiTi instruments never fracture and need no glide path",
-        "C) NiTi rotary instruments improve centering and efficiency in curved canals versus stiff SS hand only",
-        "D) Broaches are ideal shaping instruments to MAF size"
+        "B) nickel-titanium instruments never fracture and need no glide path",
+        "C) nickel-titanium rotary instruments improve centering and efficiency in curved canals versus stiff stainless steel hand only",
+        "D) Broaches are ideal shaping instruments to mutual adaptive file size"
       ],
-      "answer": "C) NiTi rotary instruments improve centering and efficiency in curved canals versus stiff SS hand only",
-      "explanation": "Superelastic alloys follow curves with less transportation when used properly. Therefore, the most accurate choice is: NiTi rotary instruments improve centering and efficiency in curved canals versus stiff SS hand only. Fracture risk remains; technique matters.",
+      "answer": "C) nickel-titanium rotary instruments improve centering and efficiency in curved canals versus stiff stainless steel hand only",
+      "explanation": "Superelastic alloys follow curves with less transportation when used properly. Therefore, the most accurate choice is: nickel-titanium rotary instruments improve centering and efficiency in curved canals versus stiff stainless steel hand only. Fracture risk remains; technique matters.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Fracture risk remains; technique matters. It is less consistent than the correct choice.",
@@ -528,11 +528,11 @@
       "options": [
         "A) Open apices make apical stops easier than closed apices always",
         "B) Working length is the crown width mesiodistally",
-        "C) MAF is the first 06 file used to locate orifices",
-        "D) MAF is the largest file that binds at corrected working length after apical preparation"
+        "C) mutual adaptive file is the first 06 file used to locate orifices",
+        "D) mutual adaptive file is the largest file that binds at corrected working length after apical preparation"
       ],
-      "answer": "D) MAF is the largest file that binds at corrected working length after apical preparation",
-      "explanation": "Apical preparation size influences cleanliness and obturation fit. Therefore, the most accurate choice is: MAF is the largest file that binds at corrected working length after apical preparation. It defines the apical enlargement endpoint.",
+      "answer": "D) mutual adaptive file is the largest file that binds at corrected working length after apical preparation",
+      "explanation": "Apical preparation size influences cleanliness and obturation fit. Therefore, the most accurate choice is: mutual adaptive file is the largest file that binds at corrected working length after apical preparation. It defines the apical enlargement endpoint.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -544,10 +544,10 @@
   "medium": [
     {
       "id": "endodontics:medium:0",
-      "question": "A 55-year-old man presents for dental care with findings of reversible pulpitis hallmark. Which of the following is correct?",
+      "question": "A 39-year-old man presents for dental care with findings of reversible pulpitis hallmark. Which of the following is correct?",
       "options": [
         "A) Cold testing measures pocket depths",
-        "B) Brief nonlingering sensitivity only always means irreversible pulpitis needing RCT",
+        "B) Brief nonlingering sensitivity only always means irreversible pulpitis needing randomized controlled trial",
         "C) Lingering severe spontaneous pain to cold defines reversible pulpitis",
         "D) Sharp pain to cold that resolves quickly without spontaneous lingering pain suggests reversible pulpitis"
       ],
@@ -562,9 +562,9 @@
     },
     {
       "id": "endodontics:medium:1",
-      "question": "A 58-year-old woman reports dental pain. Exam suggests irreversible pulpitis hallmark. Which of the following is most accurate?",
+      "question": "A 42-year-old woman reports dental pain. Exam suggests irreversible pulpitis hallmark. Which of the following is most accurate?",
       "options": [
-        "A) Brief nonlingering sensitivity only always means irreversible pulpitis needing RCT",
+        "A) Brief nonlingering sensitivity only always means irreversible pulpitis needing randomized controlled trial",
         "B) Lingering severe spontaneous pain to cold defines reversible pulpitis",
         "C) Lingering pain to thermal stimuli and/or spontaneous pain suggests symptomatic irreversible pulpitis",
         "D) Multiple visits are mandatory for every vital irreversible pulpitis always"
@@ -582,7 +582,7 @@
       "id": "endodontics:medium:2",
       "question": "Clinical and radiographic findings suggest pulp necrosis. Which interpretation is correct?",
       "options": [
-        "A) Remove all GP to the apex for every post always",
+        "A) Remove all gutta-percha to the apex for every post always",
         "B) Apexification keeps full vital pulp for continued physiologic root growth by definition",
         "C) Necrotic teeth always respond vividly to cold like hypersensitive dentin",
         "D) Necrotic pulp often lacks response to cold and may develop apical disease"
@@ -598,17 +598,17 @@
     },
     {
       "id": "endodontics:medium:3",
-      "question": "In a 22-year-old woman, which statement about symptomatic apical periodontitis is correct?",
+      "question": "In a 52-year-old woman, which statement about symptomatic apical periodontitis is correct?",
       "options": [
-        "A) Apical periodontitis pain is only enamel hypersensitivity without PDL involvement",
+        "A) Apical periodontitis pain is only enamel hypersensitivity without periodontal ligament involvement",
         "B) All apical radiolucencies are painful always",
-        "C) Pain on biting/percussion with inflamed apical PDL suggests symptomatic apical periodontitis",
+        "C) Pain on biting/percussion with inflamed apical periodontal ligament suggests symptomatic apical periodontitis",
         "D) Lingering severe spontaneous pain to cold defines reversible pulpitis"
       ],
-      "answer": "C) Pain on biting/percussion with inflamed apical PDL suggests symptomatic apical periodontitis",
-      "explanation": "Inflamed apical periodontal ligament is percussion-sensitive. Therefore, the most accurate choice is: Pain on biting/percussion with inflamed apical PDL suggests symptomatic apical periodontitis. Enamel sensitivity is coronal dentin, not apical PDL.",
+      "answer": "C) Pain on biting/percussion with inflamed apical periodontal ligament suggests symptomatic apical periodontitis",
+      "explanation": "Inflamed apical periodontal ligament is percussion-sensitive. Therefore, the most accurate choice is: Pain on biting/percussion with inflamed apical periodontal ligament suggests symptomatic apical periodontitis. Enamel sensitivity is coronal dentin, not apical periodontal ligament.",
       "choice_explanations": {
-        "A": "Enamel sensitivity is coronal dentin, not apical PDL. It is less consistent than the correct choice.",
+        "A": "Enamel sensitivity is coronal dentin, not apical periodontal ligament. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Inflamed apical periodontal ligament is percussion-sensitive. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -618,7 +618,7 @@
       "id": "endodontics:medium:4",
       "question": "Clinical testing related to asymptomatic apical periodontitis is performed. Which of the following is correct?",
       "options": [
-        "A) Apical periodontitis pain is only enamel hypersensitivity without PDL involvement",
+        "A) Apical periodontitis pain is only enamel hypersensitivity without periodontal ligament involvement",
         "B) All apical radiolucencies are painful always",
         "C) Apical radiolucency without symptoms on a nonvital tooth suggests asymptomatic apical periodontitis",
         "D) Phoenix abscess is reversible pulpitis without radiolucency"
@@ -634,7 +634,7 @@
     },
     {
       "id": "endodontics:medium:5",
-      "question": "A 60-year-old woman is assessed for acute apical abscess. Which of the following is most accurate?",
+      "question": "A 44-year-old woman is assessed for acute apical abscess. Which of the following is most accurate?",
       "options": [
         "A) Acute apical abscess occurs on vital pulp with reversible pulpitis only",
         "B) Sinus tracts prove vital pulp with reversible pulpitis",
@@ -675,7 +675,7 @@
         "A) Cold testing measures pocket depths",
         "B) Necrotic teeth always respond vividly to cold like hypersensitive dentin",
         "C) Cold testing compares teeth; lingering response suggests irreversible pulpitis; no response suggests necrosis",
-        "D) Brief nonlingering sensitivity only always means irreversible pulpitis needing RCT"
+        "D) Brief nonlingering sensitivity only always means irreversible pulpitis needing randomized controlled trial"
       ],
       "answer": "C) Cold testing compares teeth; lingering response suggests irreversible pulpitis; no response suggests necrosis",
       "explanation": "Thermal fluid movement in tubules stimulates vital pulp afferents. Therefore, the most accurate choice is: Cold testing compares teeth; lingering response suggests irreversible pulpitis; no response suggests necrosis. Comparative lingering versus absent responses guide pulp status.",
@@ -688,12 +688,12 @@
     },
     {
       "id": "endodontics:medium:8",
-      "question": "A 22-year-old woman is examined, and EPT limitations is reviewed. Which of the following is correct?",
+      "question": "A 52-year-old woman is examined, and electric pulp testing limitations is reviewed. Which of the following is correct?",
       "options": [
         "A) Cold testing measures pocket depths",
-        "B) EPT proves exact histologic pulp status always",
+        "B) electric pulp testing proves exact histologic pulp status always",
         "C) Electric pulp testing suggests vitality of sensory nerves but not vascular health perfectly",
-        "D) EPT always beats blood-flow tests after trauma for true vitality"
+        "D) electric pulp testing always beats blood-flow tests after trauma for true vitality"
       ],
       "answer": "C) Electric pulp testing suggests vitality of sensory nerves but not vascular health perfectly",
       "explanation": "Neural response can lag true vascular necrosis or give false readings with restorations. Therefore, the most accurate choice is: Electric pulp testing suggests vitality of sensory nerves but not vascular health perfectly. It is an adjunct, not absolute histology.",
@@ -706,19 +706,19 @@
     },
     {
       "id": "endodontics:medium:9",
-      "question": "While evaluating a 59-year-old man, attention turns to percussion test meaning. Which of the following is most accurate?",
+      "question": "While evaluating a 43-year-old man, attention turns to percussion test meaning. Which of the following is most accurate?",
       "options": [
         "A) Pulp chamber is always in the apical third enamel",
-        "B) IANB alone always guarantees profound pulp anesthesia for hot molars",
+        "B) inferior alveolar nerve block alone always guarantees profound pulp anesthesia for hot molars",
         "C) Percussion tells whether pulp is histologically healthy always",
-        "D) Percussion assesses apical PDL inflammation, not pulp vitality itself"
+        "D) Percussion assesses apical periodontal ligament inflammation, not pulp vitality itself"
       ],
-      "answer": "D) Percussion assesses apical PDL inflammation, not pulp vitality itself",
-      "explanation": "Inflamed apical ligament hurts when the tooth is tapped. Therefore, the most accurate choice is: Percussion assesses apical PDL inflammation, not pulp vitality itself. Vitality needs thermal/EPT; percussion is periapical.",
+      "answer": "D) Percussion assesses apical periodontal ligament inflammation, not pulp vitality itself",
+      "explanation": "Inflamed apical ligament hurts when the tooth is tapped. Therefore, the most accurate choice is: Percussion assesses apical periodontal ligament inflammation, not pulp vitality itself. Vitality needs thermal/electric pulp testing; percussion is periapical.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Vitality needs thermal/EPT; percussion is periapical. It is less consistent than the correct choice.",
+        "C": "Vitality needs thermal/electric pulp testing; percussion is periapical. It is less consistent than the correct choice.",
         "D": "Inflamed apical ligament hurts when the tooth is tapped. This matches the correct interpretation."
       }
     },
@@ -728,7 +728,7 @@
       "options": [
         "A) Palpation of mucosa diagnoses enamel caries",
         "B) Pulp chamber is always in the apical third enamel",
-        "C) Apical periodontitis pain is only enamel hypersensitivity without PDL involvement",
+        "C) Apical periodontitis pain is only enamel hypersensitivity without periodontal ligament involvement",
         "D) Apical palpation detects periradicular inflammation or swelling over roots"
       ],
       "answer": "D) Apical palpation detects periradicular inflammation or swelling over roots",
@@ -742,12 +742,12 @@
     },
     {
       "id": "endodontics:medium:11",
-      "question": "A 23-year-old man is examined for rubber dam isolation endo. Which of the following is most likely?",
+      "question": "A 53-year-old man is examined for rubber dam isolation endo. Which of the following is most likely?",
       "options": [
-        "A) All root fractures require immediate RCT of both segments always",
-        "B) Rubber dam is optional decoration during RCT",
+        "A) All root fractures require immediate randomized controlled trial of both segments always",
+        "B) Rubber dam is optional decoration during randomized controlled trial",
         "C) Rubber dam is standard of care for root canal treatment to protect airway and asepsis",
-        "D) Smear layer is healthy cementum deposited during RCT"
+        "D) Smear layer is healthy cementum deposited during randomized controlled trial"
       ],
       "answer": "C) Rubber dam is standard of care for root canal treatment to protect airway and asepsis",
       "explanation": "Isolation prevents aspiration and salivary contamination of canals. Therefore, the most accurate choice is: Rubber dam is standard of care for root canal treatment to protect airway and asepsis. Endodontic standard demands dam isolation.",
@@ -778,15 +778,15 @@
     },
     {
       "id": "endodontics:medium:13",
-      "question": "A 20-year-old woman is assessed for law of centrality pulp. Which of the following is most accurate?",
+      "question": "A 50-year-old woman is assessed for law of centrality pulp. Which of the following is most accurate?",
       "options": [
-        "A) Pulp chamber is centered at the CEJ level in the tooth cross-section commonly",
+        "A) Pulp chamber is centered at the cementoenamel junction level in the tooth cross-section commonly",
         "B) Pulp chamber is always in the apical third enamel",
         "C) Access should leave the entire roof to keep strength always as the goal of entry",
         "D) Pulp stones always improve canal negotiation"
       ],
-      "answer": "A) Pulp chamber is centered at the CEJ level in the tooth cross-section commonly",
-      "explanation": "CEJ-level centering guides deep access before searching orifices. Therefore, the most accurate choice is: Pulp chamber is centered at the CEJ level in the tooth cross-section commonly. Anatomic laws help prevent gouging.",
+      "answer": "A) Pulp chamber is centered at the cementoenamel junction level in the tooth cross-section commonly",
+      "explanation": "CEJ-level centering guides deep access before searching orifices. Therefore, the most accurate choice is: Pulp chamber is centered at the cementoenamel junction level in the tooth cross-section commonly. Anatomic laws help prevent gouging.",
       "choice_explanations": {
         "A": "CEJ-level centering guides deep access before searching orifices. This matches the correct interpretation.",
         "B": "Anatomic laws help prevent gouging. It is less consistent than the correct choice.",
@@ -801,12 +801,12 @@
         "A) Orifices lie at the junction of walls and floor and at angles of the floor map",
         "B) Pulp chamber is always in the apical third enamel",
         "C) Orifices are randomly mid-enamel without floor map relation",
-        "D) Apical periodontitis pain is only enamel hypersensitivity without PDL involvement"
+        "D) Apical periodontitis pain is only enamel hypersensitivity without periodontal ligament involvement"
       ],
       "answer": "A) Orifices lie at the junction of walls and floor and at angles of the floor map",
-      "explanation": "Dark floor-light wall contrast and angles guide MB/ML/DB locations. Therefore, the most accurate choice is: Orifices lie at the junction of walls and floor and at angles of the floor map. Anatomic mapping reduces missed canals.",
+      "explanation": "Dark floor-light wall contrast and angles guide mesiobuccal/ML/distobuccal locations. Therefore, the most accurate choice is: Orifices lie at the junction of walls and floor and at angles of the floor map. Anatomic mapping reduces missed canals.",
       "choice_explanations": {
-        "A": "Dark floor-light wall contrast and angles guide MB/ML/DB locations. This matches the correct interpretation.",
+        "A": "Dark floor-light wall contrast and angles guide mesiobuccal/ML/distobuccal locations. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Anatomic mapping reduces missed canals. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -814,7 +814,7 @@
     },
     {
       "id": "endodontics:medium:15",
-      "question": "A 34-year-old woman has oral findings of working length concept. Which of the following is most accurate?",
+      "question": "A 64-year-old woman has oral findings of working length concept. Which of the following is most accurate?",
       "options": [
         "A) Working length is the crown width mesiodistally",
         "B) Step-back means stepping instruments beyond the apex farther each time",
@@ -832,7 +832,7 @@
     },
     {
       "id": "endodontics:medium:16",
-      "question": "A 24-year-old woman is examined, and apical constriction is reviewed. Which of the following is correct?",
+      "question": "A 54-year-old woman is examined, and apical constriction is reviewed. Which of the following is correct?",
       "options": [
         "A) Always instrument 3 mm beyond radiographic apex intentionally as ideal",
         "B) Any length of fill is equally ideal",
@@ -850,9 +850,9 @@
     },
     {
       "id": "endodontics:medium:17",
-      "question": "A 60-year-old woman reports dental pain. Exam suggests apex locator use. Which of the following is most accurate?",
+      "question": "A 44-year-old woman reports dental pain. Exam suggests apex locator use. Which of the following is most accurate?",
       "options": [
-        "A) Regen endo is identical to traditional GP obturation to a closed apex in mature teeth",
+        "A) Regen endo is identical to traditional gutta-percha obturation to a closed apex in mature teeth",
         "B) Apex locators measure bleeding time",
         "C) Always instrument 3 mm beyond radiographic apex intentionally as ideal",
         "D) Electronic apex locators help determine working length using impedance principles"
@@ -870,34 +870,34 @@
       "id": "endodontics:medium:18",
       "question": "Clinical and radiographic findings suggest sodium hypochlorite role. Which interpretation is correct?",
       "options": [
-        "A) CHX dissolves pulp better than NaOCl",
+        "A) chlorhexidine dissolves pulp better than NaOCl",
         "B) NaOCl dissolves organic tissue and disinfects canals as primary irrigant",
         "C) NaOCl is only a chelating agent for smear layer inorganic part",
-        "D) EDTA dissolves necrotic pulp tissue better than NaOCl as primary tissue solvent"
+        "D) ethylenediaminetetraacetic acid dissolves necrotic pulp tissue better than NaOCl as primary tissue solvent"
       ],
       "answer": "B) NaOCl dissolves organic tissue and disinfects canals as primary irrigant",
-      "explanation": "Oxidative chlorination kills microbes and dissolves pulp remnants. Therefore, the most accurate choice is: NaOCl dissolves organic tissue and disinfects canals as primary irrigant. EDTA chelates inorganic smear; NaOCl is tissue solvent/disinfectant.",
+      "explanation": "Oxidative chlorination kills microbes and dissolves pulp remnants. Therefore, the most accurate choice is: NaOCl dissolves organic tissue and disinfects canals as primary irrigant. ethylenediaminetetraacetic acid chelates inorganic smear; NaOCl is tissue solvent/disinfectant.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Oxidative chlorination kills microbes and dissolves pulp remnants. This matches the correct interpretation.",
-        "C": "EDTA chelates inorganic smear; NaOCl is tissue solvent/disinfectant. It is less consistent than the correct choice.",
+        "C": "ethylenediaminetetraacetic acid chelates inorganic smear; NaOCl is tissue solvent/disinfectant. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "endodontics:medium:19",
-      "question": "In comparing drug properties, which statement about EDTA role endo is correct?",
+      "question": "In comparing drug properties, which statement about ethylenediaminetetraacetic acid role endo is correct?",
       "options": [
-        "A) EDTA chelates calcium and helps remove the inorganic smear layer",
-        "B) EDTA dissolves necrotic pulp tissue better than NaOCl as primary tissue solvent",
-        "C) CHX dissolves pulp better than NaOCl",
+        "A) ethylenediaminetetraacetic acid chelates calcium and helps remove the inorganic smear layer",
+        "B) ethylenediaminetetraacetic acid dissolves necrotic pulp tissue better than NaOCl as primary tissue solvent",
+        "C) chlorhexidine dissolves pulp better than NaOCl",
         "D) NaOCl is only a chelating agent for smear layer inorganic part"
       ],
-      "answer": "A) EDTA chelates calcium and helps remove the inorganic smear layer",
-      "explanation": "Chelation opens dentinal tubules after instrumentation smear. Therefore, the most accurate choice is: EDTA chelates calcium and helps remove the inorganic smear layer. Tissue dissolution is NaOCl's strength; EDTA targets mineral smear.",
+      "answer": "A) ethylenediaminetetraacetic acid chelates calcium and helps remove the inorganic smear layer",
+      "explanation": "Chelation opens dentinal tubules after instrumentation smear. Therefore, the most accurate choice is: ethylenediaminetetraacetic acid chelates calcium and helps remove the inorganic smear layer. Tissue dissolution is NaOCl's strength; ethylenediaminetetraacetic acid targets mineral smear.",
       "choice_explanations": {
         "A": "Chelation opens dentinal tubules after instrumentation smear. This matches the correct interpretation.",
-        "B": "Tissue dissolution is NaOCl's strength; EDTA targets mineral smear. It is less consistent than the correct choice.",
+        "B": "Tissue dissolution is NaOCl's strength; ethylenediaminetetraacetic acid targets mineral smear. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -906,9 +906,9 @@
       "id": "endodontics:medium:20",
       "question": "A dental exam raises concern for smear layer endo. Which of the following is correct?",
       "options": [
-        "A) Rubber dam is optional decoration during RCT",
+        "A) Rubber dam is optional decoration during randomized controlled trial",
         "B) NaOCl is only a chelating agent for smear layer inorganic part",
-        "C) Smear layer is healthy cementum deposited during RCT",
+        "C) Smear layer is healthy cementum deposited during randomized controlled trial",
         "D) Instrumentation creates smear layer of debris on canal walls that irrigants address"
       ],
       "answer": "D) Instrumentation creates smear layer of debris on canal walls that irrigants address",
@@ -922,15 +922,15 @@
     },
     {
       "id": "endodontics:medium:21",
-      "question": "A 64-year-old woman is assessed for calcium hydroxide intracanal. Which of the following is most accurate?",
+      "question": "A 48-year-old woman is assessed for calcium hydroxide intracanal. Which of the following is most accurate?",
       "options": [
         "A) Calcium hydroxide is the final gutta-percha core substitute always",
         "B) Gutta-percha alone chemically bonds and seals without sealer ideally always",
         "C) Sealer replaces gutta-percha core entirely in all techniques as only fill",
-        "D) Ca(OH)2 is a common intracanal medicament with high pH antimicrobial effect"
+        "D) Ca(orthostatic hypotension)2 is a common intracanal medicament with high pH antimicrobial effect"
       ],
-      "answer": "D) Ca(OH)2 is a common intracanal medicament with high pH antimicrobial effect",
-      "explanation": "Alkaline environment kills microbes and may aid hard-tissue barriers in apexification contexts. Therefore, the most accurate choice is: Ca(OH)2 is a common intracanal medicament with high pH antimicrobial effect. Obturation cores are typically gutta-percha with sealer.",
+      "answer": "D) Ca(orthostatic hypotension)2 is a common intracanal medicament with high pH antimicrobial effect",
+      "explanation": "Alkaline environment kills microbes and may aid hard-tissue barriers in apexification contexts. Therefore, the most accurate choice is: Ca(orthostatic hypotension)2 is a common intracanal medicament with high pH antimicrobial effect. Obturation cores are typically gutta-percha with sealer.",
       "choice_explanations": {
         "A": "Obturation cores are typically gutta-percha with sealer. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -943,7 +943,7 @@
       "question": "In the dental clinic, ledging cause is suspected. Which of the following is correct?",
       "options": [
         "A) Ledging is caused only by rubber dam clamps",
-        "B) Rubber dam is optional decoration during RCT",
+        "B) Rubber dam is optional decoration during randomized controlled trial",
         "C) Glide path means jumping straight to large rotary in calcified canals",
         "D) Ledging occurs from skipping sizes or forcing stiff files short of curvature negotiation"
       ],
@@ -958,7 +958,7 @@
     },
     {
       "id": "endodontics:medium:23",
-      "question": "A 39-year-old man has oral findings of zip and elbow. Which of the following is most accurate?",
+      "question": "A 23-year-old man has oral findings of zip and elbow. Which of the following is most accurate?",
       "options": [
         "A) Crown-down means preparing apex fully before any coronal flaring always",
         "B) Zipping means ideal centering of apical preparation always",
@@ -976,7 +976,7 @@
     },
     {
       "id": "endodontics:medium:24",
-      "question": "A 51-year-old man presents for dental care with findings of strip perforation risk. Which of the following is correct?",
+      "question": "A 35-year-old man presents for dental care with findings of strip perforation risk. Which of the following is correct?",
       "options": [
         "A) Strip perforation risk is high on the inner concavity of curved roots, especially mandibular molars distal of mesial roots",
         "B) Strip perforations occur only on cusp tips of enamel",
@@ -994,7 +994,7 @@
     },
     {
       "id": "endodontics:medium:25",
-      "question": "A 37-year-old man reports dental pain. Exam suggests apical transportation. Which of the following is most accurate?",
+      "question": "A 21-year-old man reports dental pain. Exam suggests apical transportation. Which of the following is most accurate?",
       "options": [
         "A) Transportation means moving the tooth orthodontically",
         "B) Balanced force means pushing straight files hard past ledges",
@@ -1017,7 +1017,7 @@
         "A) Hybrid means using only broaches for shaping to length",
         "B) A reproducible glide path with small files precedes rotary shaping for safety",
         "C) Glide path means jumping straight to large rotary in calcified canals",
-        "D) NiTi instruments never fracture and need no glide path"
+        "D) nickel-titanium instruments never fracture and need no glide path"
       ],
       "answer": "B) A reproducible glide path with small files precedes rotary shaping for safety",
       "explanation": "Small hand files establish a smooth path reducing rotary fracture/ledge risk. Therefore, the most accurate choice is: A reproducible glide path with small files precedes rotary shaping for safety. Skipping glide path raises mishap risk.",
@@ -1030,15 +1030,15 @@
     },
     {
       "id": "endodontics:medium:27",
-      "question": "A 26-year-old woman is examined for rotary Ni Ti advantage. Which of the following is most likely?",
+      "question": "A 56-year-old woman is examined for rotary nickel-titanium advantage. Which of the following is most likely?",
       "options": [
         "A) Glide path means jumping straight to large rotary in calcified canals",
-        "B) Broaches are ideal shaping instruments to MAF size",
-        "C) NiTi rotary instruments improve centering and efficiency in curved canals versus stiff SS hand only",
-        "D) NiTi instruments never fracture and need no glide path"
+        "B) Broaches are ideal shaping instruments to mutual adaptive file size",
+        "C) nickel-titanium rotary instruments improve centering and efficiency in curved canals versus stiff stainless steel hand only",
+        "D) nickel-titanium instruments never fracture and need no glide path"
       ],
-      "answer": "C) NiTi rotary instruments improve centering and efficiency in curved canals versus stiff SS hand only",
-      "explanation": "Superelastic alloys follow curves with less transportation when used properly. Therefore, the most accurate choice is: NiTi rotary instruments improve centering and efficiency in curved canals versus stiff SS hand only. Fracture risk remains; technique matters.",
+      "answer": "C) nickel-titanium rotary instruments improve centering and efficiency in curved canals versus stiff stainless steel hand only",
+      "explanation": "Superelastic alloys follow curves with less transportation when used properly. Therefore, the most accurate choice is: nickel-titanium rotary instruments improve centering and efficiency in curved canals versus stiff stainless steel hand only. Fracture risk remains; technique matters.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1066,15 +1066,15 @@
     },
     {
       "id": "endodontics:medium:29",
-      "question": "A 48-year-old woman is assessed for master apical file. Which of the following is most accurate?",
+      "question": "A 32-year-old woman is assessed for master apical file. Which of the following is most accurate?",
       "options": [
-        "A) MAF is the largest file that binds at corrected working length after apical preparation",
+        "A) mutual adaptive file is the largest file that binds at corrected working length after apical preparation",
         "B) Open apices make apical stops easier than closed apices always",
         "C) Working length is the crown width mesiodistally",
-        "D) MAF is the first 06 file used to locate orifices"
+        "D) mutual adaptive file is the first 06 file used to locate orifices"
       ],
-      "answer": "A) MAF is the largest file that binds at corrected working length after apical preparation",
-      "explanation": "Apical preparation size influences cleanliness and obturation fit. Therefore, the most accurate choice is: MAF is the largest file that binds at corrected working length after apical preparation. It defines the apical enlargement endpoint.",
+      "answer": "A) mutual adaptive file is the largest file that binds at corrected working length after apical preparation",
+      "explanation": "Apical preparation size influences cleanliness and obturation fit. Therefore, the most accurate choice is: mutual adaptive file is the largest file that binds at corrected working length after apical preparation. It defines the apical enlargement endpoint.",
       "choice_explanations": {
         "A": "Apical preparation size influences cleanliness and obturation fit. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1086,11 +1086,11 @@
   "hard": [
     {
       "id": "endodontics:hard:0",
-      "question": "A 55-year-old man is evaluated for possible reversible pulpitis hallmark. Which of the following is most accurate?",
+      "question": "A 39-year-old man is evaluated for possible reversible pulpitis hallmark. Which of the following is most accurate?",
       "options": [
         "A) Cold testing measures pocket depths",
         "B) Sharp pain to cold that resolves quickly without spontaneous lingering pain suggests reversible pulpitis",
-        "C) Brief nonlingering sensitivity only always means irreversible pulpitis needing RCT",
+        "C) Brief nonlingering sensitivity only always means irreversible pulpitis needing randomized controlled trial",
         "D) Lingering severe spontaneous pain to cold defines reversible pulpitis"
       ],
       "answer": "B) Sharp pain to cold that resolves quickly without spontaneous lingering pain suggests reversible pulpitis",
@@ -1104,9 +1104,9 @@
     },
     {
       "id": "endodontics:hard:1",
-      "question": "A 58-year-old woman has findings suggestive of irreversible pulpitis hallmark. Which of the following is the best interpretation?",
+      "question": "A 42-year-old woman has findings suggestive of irreversible pulpitis hallmark. Which of the following is the best interpretation?",
       "options": [
-        "A) Brief nonlingering sensitivity only always means irreversible pulpitis needing RCT",
+        "A) Brief nonlingering sensitivity only always means irreversible pulpitis needing randomized controlled trial",
         "B) Lingering pain to thermal stimuli and/or spontaneous pain suggests symptomatic irreversible pulpitis",
         "C) Lingering severe spontaneous pain to cold defines reversible pulpitis",
         "D) Multiple visits are mandatory for every vital irreversible pulpitis always"
@@ -1122,10 +1122,10 @@
     },
     {
       "id": "endodontics:hard:2",
-      "question": "In a 30-year-old woman, pulp necrosis must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 60-year-old woman, pulp necrosis must be separated from similar conditions. Which of the following is correct?",
       "options": [
         "A) Necrotic pulp often lacks response to cold and may develop apical disease",
-        "B) Cracked tooth and VRF have identical always-hopeless prognosis without nuance",
+        "B) Cracked tooth and vertical root fracture have identical always-hopeless prognosis without nuance",
         "C) Necrotic teeth always respond vividly to cold like hypersensitive dentin",
         "D) Cold testing measures pocket depths"
       ],
@@ -1142,15 +1142,15 @@
       "id": "endodontics:hard:3",
       "question": "Which of the following correctly distinguishes key points about symptomatic apical periodontitis?",
       "options": [
-        "A) Apical periodontitis pain is only enamel hypersensitivity without PDL involvement",
+        "A) Apical periodontitis pain is only enamel hypersensitivity without periodontal ligament involvement",
         "B) All apical radiolucencies are painful always",
-        "C) Pain on biting/percussion with inflamed apical PDL suggests symptomatic apical periodontitis",
+        "C) Pain on biting/percussion with inflamed apical periodontal ligament suggests symptomatic apical periodontitis",
         "D) Lingering severe spontaneous pain to cold defines reversible pulpitis"
       ],
-      "answer": "C) Pain on biting/percussion with inflamed apical PDL suggests symptomatic apical periodontitis",
-      "explanation": "Inflamed apical periodontal ligament is percussion-sensitive. Therefore, the most accurate choice is: Pain on biting/percussion with inflamed apical PDL suggests symptomatic apical periodontitis. Enamel sensitivity is coronal dentin, not apical PDL.",
+      "answer": "C) Pain on biting/percussion with inflamed apical periodontal ligament suggests symptomatic apical periodontitis",
+      "explanation": "Inflamed apical periodontal ligament is percussion-sensitive. Therefore, the most accurate choice is: Pain on biting/percussion with inflamed apical periodontal ligament suggests symptomatic apical periodontitis. Enamel sensitivity is coronal dentin, not apical periodontal ligament.",
       "choice_explanations": {
-        "A": "Enamel sensitivity is coronal dentin, not apical PDL. It is less consistent than the correct choice.",
+        "A": "Enamel sensitivity is coronal dentin, not apical periodontal ligament. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Inflamed apical periodontal ligament is percussion-sensitive. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1161,7 +1161,7 @@
       "question": "Careful interpretation of asymptomatic apical periodontitis is required. Which of the following is correct?",
       "options": [
         "A) Phoenix abscess is reversible pulpitis without radiolucency",
-        "B) Apical periodontitis pain is only enamel hypersensitivity without PDL involvement",
+        "B) Apical periodontitis pain is only enamel hypersensitivity without periodontal ligament involvement",
         "C) Apical radiolucency without symptoms on a nonvital tooth suggests asymptomatic apical periodontitis",
         "D) All apical radiolucencies are painful always"
       ],
@@ -1176,7 +1176,7 @@
     },
     {
       "id": "endodontics:hard:5",
-      "question": "A 60-year-old woman presents with features compatible with acute apical abscess. Which of the following is most accurate?",
+      "question": "A 44-year-old woman presents with features compatible with acute apical abscess. Which of the following is most accurate?",
       "options": [
         "A) Hyperemia means necrotic pulp with abscess",
         "B) Acute apical abscess occurs on vital pulp with reversible pulpitis only",
@@ -1194,7 +1194,7 @@
     },
     {
       "id": "endodontics:hard:6",
-      "question": "Which statement about chronic apical abscess in a 63-year-old man is most accurate?",
+      "question": "Which statement about chronic apical abscess in a 47-year-old man is most accurate?",
       "options": [
         "A) Acute apical abscess occurs on vital pulp with reversible pulpitis only",
         "B) Sinus tracts prove vital pulp with reversible pulpitis",
@@ -1215,7 +1215,7 @@
       "question": "Which of the following is the best statement about cold testing?",
       "options": [
         "A) Cold testing measures pocket depths",
-        "B) Brief nonlingering sensitivity only always means irreversible pulpitis needing RCT",
+        "B) Brief nonlingering sensitivity only always means irreversible pulpitis needing randomized controlled trial",
         "C) Necrotic teeth always respond vividly to cold like hypersensitive dentin",
         "D) Cold testing compares teeth; lingering response suggests irreversible pulpitis; no response suggests necrosis"
       ],
@@ -1230,12 +1230,12 @@
     },
     {
       "id": "endodontics:hard:8",
-      "question": "Careful review of EPT limitations is required. Which of the following is most accurate?",
+      "question": "Careful review of electric pulp testing limitations is required. Which of the following is most accurate?",
       "options": [
         "A) Cold testing measures pocket depths",
         "B) Electric pulp testing suggests vitality of sensory nerves but not vascular health perfectly",
-        "C) EPT proves exact histologic pulp status always",
-        "D) EPT always beats blood-flow tests after trauma for true vitality"
+        "C) electric pulp testing proves exact histologic pulp status always",
+        "D) electric pulp testing always beats blood-flow tests after trauma for true vitality"
       ],
       "answer": "B) Electric pulp testing suggests vitality of sensory nerves but not vascular health perfectly",
       "explanation": "Neural response can lag true vascular necrosis or give false readings with restorations. Therefore, the most accurate choice is: Electric pulp testing suggests vitality of sensory nerves but not vascular health perfectly. It is an adjunct, not absolute histology.",
@@ -1251,25 +1251,25 @@
       "question": "Two similar explanations for percussion test meaning are compared. Which of the following is correct?",
       "options": [
         "A) Pulp chamber is always in the apical third enamel",
-        "B) Percussion assesses apical PDL inflammation, not pulp vitality itself",
+        "B) Percussion assesses apical periodontal ligament inflammation, not pulp vitality itself",
         "C) Percussion tells whether pulp is histologically healthy always",
-        "D) IANB alone always guarantees profound pulp anesthesia for hot molars"
+        "D) inferior alveolar nerve block alone always guarantees profound pulp anesthesia for hot molars"
       ],
-      "answer": "B) Percussion assesses apical PDL inflammation, not pulp vitality itself",
-      "explanation": "Inflamed apical ligament hurts when the tooth is tapped. Therefore, the most accurate choice is: Percussion assesses apical PDL inflammation, not pulp vitality itself. Vitality needs thermal/EPT; percussion is periapical.",
+      "answer": "B) Percussion assesses apical periodontal ligament inflammation, not pulp vitality itself",
+      "explanation": "Inflamed apical ligament hurts when the tooth is tapped. Therefore, the most accurate choice is: Percussion assesses apical periodontal ligament inflammation, not pulp vitality itself. Vitality needs thermal/electric pulp testing; percussion is periapical.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Inflamed apical ligament hurts when the tooth is tapped. This matches the correct interpretation.",
-        "C": "Vitality needs thermal/EPT; percussion is periapical. It is less consistent than the correct choice.",
+        "C": "Vitality needs thermal/electric pulp testing; percussion is periapical. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "endodontics:hard:10",
-      "question": "In a 57-year-old man, palpation apical must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 41-year-old man, palpation apical must be separated from similar conditions. Which of the following is correct?",
       "options": [
         "A) Palpation of mucosa diagnoses enamel caries",
-        "B) Apical periodontitis pain is only enamel hypersensitivity without PDL involvement",
+        "B) Apical periodontitis pain is only enamel hypersensitivity without periodontal ligament involvement",
         "C) Apical palpation detects periradicular inflammation or swelling over roots",
         "D) Pulp chamber is always in the apical third enamel"
       ],
@@ -1286,10 +1286,10 @@
       "id": "endodontics:hard:11",
       "question": "Which of the following correctly distinguishes key points about rubber dam isolation endo?",
       "options": [
-        "A) Rubber dam is optional decoration during RCT",
+        "A) Rubber dam is optional decoration during randomized controlled trial",
         "B) Rubber dam is standard of care for root canal treatment to protect airway and asepsis",
-        "C) Smear layer is healthy cementum deposited during RCT",
-        "D) Internal bleach on necrotic unrestored canals without RCT is ideal"
+        "C) Smear layer is healthy cementum deposited during randomized controlled trial",
+        "D) Internal bleach on necrotic unrestored canals without randomized controlled trial is ideal"
       ],
       "answer": "B) Rubber dam is standard of care for root canal treatment to protect airway and asepsis",
       "explanation": "Isolation prevents aspiration and salivary contamination of canals. Therefore, the most accurate choice is: Rubber dam is standard of care for root canal treatment to protect airway and asepsis. Endodontic standard demands dam isolation.",
@@ -1307,7 +1307,7 @@
         "A) Pulp chamber is always in the apical third enamel",
         "B) Access should leave the entire roof to keep strength always as the goal of entry",
         "C) Access should unroof pulp chamber completely and achieve straight-line path to canals",
-        "D) Calcification always makes RCT easier"
+        "D) Calcification always makes randomized controlled trial easier"
       ],
       "answer": "C) Access should unroof pulp chamber completely and achieve straight-line path to canals",
       "explanation": "Removing roof and triangles prevents missed canals and file ledging. Therefore, the most accurate choice is: Access should unroof pulp chamber completely and achieve straight-line path to canals. Incomplete unroofing hides orifices.",
@@ -1320,15 +1320,15 @@
     },
     {
       "id": "endodontics:hard:13",
-      "question": "A 20-year-old woman presents with features compatible with law of centrality pulp. Which of the following is most accurate?",
+      "question": "A 50-year-old woman presents with features compatible with law of centrality pulp. Which of the following is most accurate?",
       "options": [
         "A) Pulp chamber is always in the apical third enamel",
         "B) Pulp stones always improve canal negotiation",
         "C) Access should leave the entire roof to keep strength always as the goal of entry",
-        "D) Pulp chamber is centered at the CEJ level in the tooth cross-section commonly"
+        "D) Pulp chamber is centered at the cementoenamel junction level in the tooth cross-section commonly"
       ],
-      "answer": "D) Pulp chamber is centered at the CEJ level in the tooth cross-section commonly",
-      "explanation": "CEJ-level centering guides deep access before searching orifices. Therefore, the most accurate choice is: Pulp chamber is centered at the CEJ level in the tooth cross-section commonly. Anatomic laws help prevent gouging.",
+      "answer": "D) Pulp chamber is centered at the cementoenamel junction level in the tooth cross-section commonly",
+      "explanation": "CEJ-level centering guides deep access before searching orifices. Therefore, the most accurate choice is: Pulp chamber is centered at the cementoenamel junction level in the tooth cross-section commonly. Anatomic laws help prevent gouging.",
       "choice_explanations": {
         "A": "Anatomic laws help prevent gouging. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1338,17 +1338,17 @@
     },
     {
       "id": "endodontics:hard:14",
-      "question": "Which statement about orifice location law in a 31-year-old man is most accurate?",
+      "question": "Which statement about orifice location law in a 61-year-old man is most accurate?",
       "options": [
         "A) Orifices lie at the junction of walls and floor and at angles of the floor map",
-        "B) Apical periodontitis pain is only enamel hypersensitivity without PDL involvement",
+        "B) Apical periodontitis pain is only enamel hypersensitivity without periodontal ligament involvement",
         "C) Orifices are randomly mid-enamel without floor map relation",
         "D) Pulp chamber is always in the apical third enamel"
       ],
       "answer": "A) Orifices lie at the junction of walls and floor and at angles of the floor map",
-      "explanation": "Dark floor-light wall contrast and angles guide MB/ML/DB locations. Therefore, the most accurate choice is: Orifices lie at the junction of walls and floor and at angles of the floor map. Anatomic mapping reduces missed canals.",
+      "explanation": "Dark floor-light wall contrast and angles guide mesiobuccal/ML/distobuccal locations. Therefore, the most accurate choice is: Orifices lie at the junction of walls and floor and at angles of the floor map. Anatomic mapping reduces missed canals.",
       "choice_explanations": {
-        "A": "Dark floor-light wall contrast and angles guide MB/ML/DB locations. This matches the correct interpretation.",
+        "A": "Dark floor-light wall contrast and angles guide mesiobuccal/ML/distobuccal locations. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Anatomic mapping reduces missed canals. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1356,7 +1356,7 @@
     },
     {
       "id": "endodontics:hard:15",
-      "question": "After examining a 34-year-old woman, which statement about working length concept is correct?",
+      "question": "After examining a 64-year-old woman, which statement about working length concept is correct?",
       "options": [
         "A) Working length is the distance from a coronal reference to the apical end-point of preparation",
         "B) Step-back means stepping instruments beyond the apex farther each time",
@@ -1392,11 +1392,11 @@
     },
     {
       "id": "endodontics:hard:17",
-      "question": "A 60-year-old woman has findings suggestive of apex locator use. Which of the following is the best interpretation?",
+      "question": "A 44-year-old woman has findings suggestive of apex locator use. Which of the following is the best interpretation?",
       "options": [
         "A) Electronic apex locators help determine working length using impedance principles",
         "B) Working length is the crown width mesiodistally",
-        "C) Regen endo is identical to traditional GP obturation to a closed apex in mature teeth",
+        "C) Regen endo is identical to traditional gutta-percha obturation to a closed apex in mature teeth",
         "D) Apex locators measure bleeding time"
       ],
       "answer": "A) Electronic apex locators help determine working length using impedance principles",
@@ -1410,37 +1410,37 @@
     },
     {
       "id": "endodontics:hard:18",
-      "question": "In a 51-year-old man, sodium hypochlorite role must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 35-year-old man, sodium hypochlorite role must be separated from similar conditions. Which of the following is correct?",
       "options": [
         "A) NaOCl dissolves organic tissue and disinfects canals as primary irrigant",
         "B) NaOCl is only a chelating agent for smear layer inorganic part",
-        "C) EDTA dissolves necrotic pulp tissue better than NaOCl as primary tissue solvent",
-        "D) CHX dissolves pulp better than NaOCl"
+        "C) ethylenediaminetetraacetic acid dissolves necrotic pulp tissue better than NaOCl as primary tissue solvent",
+        "D) chlorhexidine dissolves pulp better than NaOCl"
       ],
       "answer": "A) NaOCl dissolves organic tissue and disinfects canals as primary irrigant",
-      "explanation": "Oxidative chlorination kills microbes and dissolves pulp remnants. Therefore, the most accurate choice is: NaOCl dissolves organic tissue and disinfects canals as primary irrigant. EDTA chelates inorganic smear; NaOCl is tissue solvent/disinfectant.",
+      "explanation": "Oxidative chlorination kills microbes and dissolves pulp remnants. Therefore, the most accurate choice is: NaOCl dissolves organic tissue and disinfects canals as primary irrigant. ethylenediaminetetraacetic acid chelates inorganic smear; NaOCl is tissue solvent/disinfectant.",
       "choice_explanations": {
         "A": "Oxidative chlorination kills microbes and dissolves pulp remnants. This matches the correct interpretation.",
-        "B": "EDTA chelates inorganic smear; NaOCl is tissue solvent/disinfectant. It is less consistent than the correct choice.",
+        "B": "ethylenediaminetetraacetic acid chelates inorganic smear; NaOCl is tissue solvent/disinfectant. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "endodontics:hard:19",
-      "question": "Which of the following correctly distinguishes key points about EDTA role endo?",
+      "question": "Which of the following correctly distinguishes key points about ethylenediaminetetraacetic acid role endo?",
       "options": [
         "A) NaOCl is only a chelating agent for smear layer inorganic part",
-        "B) CHX dissolves pulp better than NaOCl",
-        "C) EDTA dissolves necrotic pulp tissue better than NaOCl as primary tissue solvent",
-        "D) EDTA chelates calcium and helps remove the inorganic smear layer"
+        "B) chlorhexidine dissolves pulp better than NaOCl",
+        "C) ethylenediaminetetraacetic acid dissolves necrotic pulp tissue better than NaOCl as primary tissue solvent",
+        "D) ethylenediaminetetraacetic acid chelates calcium and helps remove the inorganic smear layer"
       ],
-      "answer": "D) EDTA chelates calcium and helps remove the inorganic smear layer",
-      "explanation": "Chelation opens dentinal tubules after instrumentation smear. Therefore, the most accurate choice is: EDTA chelates calcium and helps remove the inorganic smear layer. Tissue dissolution is NaOCl's strength; EDTA targets mineral smear.",
+      "answer": "D) ethylenediaminetetraacetic acid chelates calcium and helps remove the inorganic smear layer",
+      "explanation": "Chelation opens dentinal tubules after instrumentation smear. Therefore, the most accurate choice is: ethylenediaminetetraacetic acid chelates calcium and helps remove the inorganic smear layer. Tissue dissolution is NaOCl's strength; ethylenediaminetetraacetic acid targets mineral smear.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Tissue dissolution is NaOCl's strength; EDTA targets mineral smear. It is less consistent than the correct choice.",
+        "C": "Tissue dissolution is NaOCl's strength; ethylenediaminetetraacetic acid targets mineral smear. It is less consistent than the correct choice.",
         "D": "Chelation opens dentinal tubules after instrumentation smear. This matches the correct interpretation."
       }
     },
@@ -1448,9 +1448,9 @@
       "id": "endodontics:hard:20",
       "question": "A clinic case of smear layer endo is discussed. Which of the following is correct?",
       "options": [
-        "A) Smear layer is healthy cementum deposited during RCT",
+        "A) Smear layer is healthy cementum deposited during randomized controlled trial",
         "B) NaOCl is only a chelating agent for smear layer inorganic part",
-        "C) Rubber dam is optional decoration during RCT",
+        "C) Rubber dam is optional decoration during randomized controlled trial",
         "D) Instrumentation creates smear layer of debris on canal walls that irrigants address"
       ],
       "answer": "D) Instrumentation creates smear layer of debris on canal walls that irrigants address",
@@ -1464,15 +1464,15 @@
     },
     {
       "id": "endodontics:hard:21",
-      "question": "A 64-year-old woman presents with features compatible with calcium hydroxide intracanal. Which of the following is most accurate?",
+      "question": "A 48-year-old woman presents with features compatible with calcium hydroxide intracanal. Which of the following is most accurate?",
       "options": [
         "A) Sealer replaces gutta-percha core entirely in all techniques as only fill",
         "B) Gutta-percha alone chemically bonds and seals without sealer ideally always",
-        "C) Ca(OH)2 is a common intracanal medicament with high pH antimicrobial effect",
+        "C) Ca(orthostatic hypotension)2 is a common intracanal medicament with high pH antimicrobial effect",
         "D) Calcium hydroxide is the final gutta-percha core substitute always"
       ],
-      "answer": "C) Ca(OH)2 is a common intracanal medicament with high pH antimicrobial effect",
-      "explanation": "Alkaline environment kills microbes and may aid hard-tissue barriers in apexification contexts. Therefore, the most accurate choice is: Ca(OH)2 is a common intracanal medicament with high pH antimicrobial effect. Obturation cores are typically gutta-percha with sealer.",
+      "answer": "C) Ca(orthostatic hypotension)2 is a common intracanal medicament with high pH antimicrobial effect",
+      "explanation": "Alkaline environment kills microbes and may aid hard-tissue barriers in apexification contexts. Therefore, the most accurate choice is: Ca(orthostatic hypotension)2 is a common intracanal medicament with high pH antimicrobial effect. Obturation cores are typically gutta-percha with sealer.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1482,9 +1482,9 @@
     },
     {
       "id": "endodontics:hard:22",
-      "question": "Which statement about ledging cause in a 32-year-old woman is most accurate?",
+      "question": "Which statement about ledging cause in a 62-year-old woman is most accurate?",
       "options": [
-        "A) Rubber dam is optional decoration during RCT",
+        "A) Rubber dam is optional decoration during randomized controlled trial",
         "B) Glide path means jumping straight to large rotary in calcified canals",
         "C) Ledging occurs from skipping sizes or forcing stiff files short of curvature negotiation",
         "D) Ledging is caused only by rubber dam clamps"
@@ -1500,7 +1500,7 @@
     },
     {
       "id": "endodontics:hard:23",
-      "question": "After examining a 39-year-old man, which statement about zip and elbow is correct?",
+      "question": "After examining a 23-year-old man, which statement about zip and elbow is correct?",
       "options": [
         "A) Crown-down means preparing apex fully before any coronal flaring always",
         "B) Always instrument 3 mm beyond radiographic apex intentionally as ideal",
@@ -1518,7 +1518,7 @@
     },
     {
       "id": "endodontics:hard:24",
-      "question": "A 51-year-old man is evaluated for possible strip perforation risk. Which of the following is most accurate?",
+      "question": "A 35-year-old man is evaluated for possible strip perforation risk. Which of the following is most accurate?",
       "options": [
         "A) Mandibular molars never have extra roots",
         "B) Gates Gliddens should cut extensively on thin furcal walls of mesial roots",
@@ -1536,7 +1536,7 @@
     },
     {
       "id": "endodontics:hard:25",
-      "question": "A 37-year-old man has findings suggestive of apical transportation. Which of the following is the best interpretation?",
+      "question": "A 21-year-old man has findings suggestive of apical transportation. Which of the following is the best interpretation?",
       "options": [
         "A) Glide path means jumping straight to large rotary in calcified canals",
         "B) Step-back means stepping instruments beyond the apex farther each time",
@@ -1554,10 +1554,10 @@
     },
     {
       "id": "endodontics:hard:26",
-      "question": "In a 30-year-old woman, glide must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 60-year-old woman, glide must be separated from similar conditions. Which of the following is correct?",
       "options": [
         "A) A reproducible glide path with small files precedes rotary shaping for safety",
-        "B) NiTi instruments never fracture and need no glide path",
+        "B) nickel-titanium instruments never fracture and need no glide path",
         "C) Glide path means jumping straight to large rotary in calcified canals",
         "D) Hybrid means using only broaches for shaping to length"
       ],
@@ -1572,15 +1572,15 @@
     },
     {
       "id": "endodontics:hard:27",
-      "question": "A 26-year-old woman returns for review of suspected rotary Ni Ti advantage. Which of the following is most accurate?",
+      "question": "A 56-year-old woman returns for review of suspected rotary nickel-titanium advantage. Which of the following is most accurate?",
       "options": [
-        "A) Broaches are ideal shaping instruments to MAF size",
-        "B) NiTi rotary instruments improve centering and efficiency in curved canals versus stiff SS hand only",
+        "A) Broaches are ideal shaping instruments to mutual adaptive file size",
+        "B) nickel-titanium rotary instruments improve centering and efficiency in curved canals versus stiff stainless steel hand only",
         "C) Glide path means jumping straight to large rotary in calcified canals",
-        "D) NiTi instruments never fracture and need no glide path"
+        "D) nickel-titanium instruments never fracture and need no glide path"
       ],
-      "answer": "B) NiTi rotary instruments improve centering and efficiency in curved canals versus stiff SS hand only",
-      "explanation": "Superelastic alloys follow curves with less transportation when used properly. Therefore, the most accurate choice is: NiTi rotary instruments improve centering and efficiency in curved canals versus stiff SS hand only. Fracture risk remains; technique matters.",
+      "answer": "B) nickel-titanium rotary instruments improve centering and efficiency in curved canals versus stiff stainless steel hand only",
+      "explanation": "Superelastic alloys follow curves with less transportation when used properly. Therefore, the most accurate choice is: nickel-titanium rotary instruments improve centering and efficiency in curved canals versus stiff stainless steel hand only. Fracture risk remains; technique matters.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Superelastic alloys follow curves with less transportation when used properly. This matches the correct interpretation.",
@@ -1608,15 +1608,15 @@
     },
     {
       "id": "endodontics:hard:29",
-      "question": "A 48-year-old woman presents with features compatible with master apical file. Which of the following is most accurate?",
+      "question": "A 32-year-old woman presents with features compatible with master apical file. Which of the following is most accurate?",
       "options": [
-        "A) MAF is the first 06 file used to locate orifices",
-        "B) MAF is the largest file that binds at corrected working length after apical preparation",
+        "A) mutual adaptive file is the first 06 file used to locate orifices",
+        "B) mutual adaptive file is the largest file that binds at corrected working length after apical preparation",
         "C) Open apices make apical stops easier than closed apices always",
         "D) Working length is the crown width mesiodistally"
       ],
-      "answer": "B) MAF is the largest file that binds at corrected working length after apical preparation",
-      "explanation": "Apical preparation size influences cleanliness and obturation fit. Therefore, the most accurate choice is: MAF is the largest file that binds at corrected working length after apical preparation. It defines the apical enlargement endpoint.",
+      "answer": "B) mutual adaptive file is the largest file that binds at corrected working length after apical preparation",
+      "explanation": "Apical preparation size influences cleanliness and obturation fit. Therefore, the most accurate choice is: mutual adaptive file is the largest file that binds at corrected working length after apical preparation. It defines the apical enlargement endpoint.",
       "choice_explanations": {
         "A": "It defines the apical enlargement endpoint. It is less consistent than the correct choice.",
         "B": "Apical preparation size influences cleanliness and obturation fit. This matches the correct interpretation.",
@@ -1628,11 +1628,11 @@
   "extreme": [
     {
       "id": "endodontics:extreme:0",
-      "question": "A 55-year-old man has a complex presentation of reversible pulpitis hallmark. Which of the following is most accurate?",
+      "question": "A 39-year-old man has a complex presentation of reversible pulpitis hallmark. Which of the following is most accurate?",
       "options": [
         "A) Sharp pain to cold that resolves quickly without spontaneous lingering pain suggests reversible pulpitis",
         "B) Lingering severe spontaneous pain to cold defines reversible pulpitis",
-        "C) Brief nonlingering sensitivity only always means irreversible pulpitis needing RCT",
+        "C) Brief nonlingering sensitivity only always means irreversible pulpitis needing randomized controlled trial",
         "D) Cold testing measures pocket depths"
       ],
       "answer": "A) Sharp pain to cold that resolves quickly without spontaneous lingering pain suggests reversible pulpitis",
@@ -1646,9 +1646,9 @@
     },
     {
       "id": "endodontics:extreme:1",
-      "question": "A 58-year-old woman is reassessed after incomplete response related to irreversible pulpitis hallmark. Which of the following is most accurate?",
+      "question": "A 42-year-old woman is reassessed after incomplete response related to irreversible pulpitis hallmark. Which of the following is most accurate?",
       "options": [
-        "A) Brief nonlingering sensitivity only always means irreversible pulpitis needing RCT",
+        "A) Brief nonlingering sensitivity only always means irreversible pulpitis needing randomized controlled trial",
         "B) Lingering severe spontaneous pain to cold defines reversible pulpitis",
         "C) Lingering pain to thermal stimuli and/or spontaneous pain suggests symptomatic irreversible pulpitis",
         "D) Multiple visits are mandatory for every vital irreversible pulpitis always"
@@ -1664,9 +1664,9 @@
     },
     {
       "id": "endodontics:extreme:2",
-      "question": "A detailed evaluation for pulp necrosis is underway in a 30-year-old woman. Which of the following is correct?",
+      "question": "A detailed evaluation for pulp necrosis is underway in a 60-year-old woman. Which of the following is correct?",
       "options": [
-        "A) Cracked tooth and VRF have identical always-hopeless prognosis without nuance",
+        "A) Cracked tooth and vertical root fracture have identical always-hopeless prognosis without nuance",
         "B) Necrotic pulp often lacks response to cold and may develop apical disease",
         "C) Necrotic teeth always respond vividly to cold like hypersensitive dentin",
         "D) Cold testing measures pocket depths"
@@ -1686,16 +1686,16 @@
       "options": [
         "A) Lingering severe spontaneous pain to cold defines reversible pulpitis",
         "B) All apical radiolucencies are painful always",
-        "C) Pain on biting/percussion with inflamed apical PDL suggests symptomatic apical periodontitis",
-        "D) Apical periodontitis pain is only enamel hypersensitivity without PDL involvement"
+        "C) Pain on biting/percussion with inflamed apical periodontal ligament suggests symptomatic apical periodontitis",
+        "D) Apical periodontitis pain is only enamel hypersensitivity without periodontal ligament involvement"
       ],
-      "answer": "C) Pain on biting/percussion with inflamed apical PDL suggests symptomatic apical periodontitis",
-      "explanation": "Inflamed apical periodontal ligament is percussion-sensitive. Therefore, the most accurate choice is: Pain on biting/percussion with inflamed apical PDL suggests symptomatic apical periodontitis. Enamel sensitivity is coronal dentin, not apical PDL.",
+      "answer": "C) Pain on biting/percussion with inflamed apical periodontal ligament suggests symptomatic apical periodontitis",
+      "explanation": "Inflamed apical periodontal ligament is percussion-sensitive. Therefore, the most accurate choice is: Pain on biting/percussion with inflamed apical periodontal ligament suggests symptomatic apical periodontitis. Enamel sensitivity is coronal dentin, not apical periodontal ligament.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Inflamed apical periodontal ligament is percussion-sensitive. This matches the correct interpretation.",
-        "D": "Enamel sensitivity is coronal dentin, not apical PDL. It is less consistent than the correct choice."
+        "D": "Enamel sensitivity is coronal dentin, not apical periodontal ligament. It is less consistent than the correct choice."
       }
     },
     {
@@ -1705,7 +1705,7 @@
         "A) Apical radiolucency without symptoms on a nonvital tooth suggests asymptomatic apical periodontitis",
         "B) All apical radiolucencies are painful always",
         "C) Phoenix abscess is reversible pulpitis without radiolucency",
-        "D) Apical periodontitis pain is only enamel hypersensitivity without PDL involvement"
+        "D) Apical periodontitis pain is only enamel hypersensitivity without periodontal ligament involvement"
       ],
       "answer": "A) Apical radiolucency without symptoms on a nonvital tooth suggests asymptomatic apical periodontitis",
       "explanation": "Chronic apical inflammation can be silent yet radiographically evident. Therefore, the most accurate choice is: Apical radiolucency without symptoms on a nonvital tooth suggests asymptomatic apical periodontitis. Vital responses argue against classic apical periodontitis of necrosis.",
@@ -1718,7 +1718,7 @@
     },
     {
       "id": "endodontics:extreme:5",
-      "question": "A 60-year-old woman returns with ongoing problems related to acute apical abscess. Which of the following is most accurate?",
+      "question": "A 44-year-old woman returns with ongoing problems related to acute apical abscess. Which of the following is most accurate?",
       "options": [
         "A) Sinus tracts prove vital pulp with reversible pulpitis",
         "B) Rapid swelling, pain, and pus from necrotic tooth drainage defines acute apical abscess",
@@ -1736,7 +1736,7 @@
     },
     {
       "id": "endodontics:extreme:6",
-      "question": "Senior review is requested for chronic apical abscess in a 63-year-old man. Which of the following is correct?",
+      "question": "Senior review is requested for chronic apical abscess in a 47-year-old man. Which of the following is correct?",
       "options": [
         "A) Sinus tracts prove vital pulp with reversible pulpitis",
         "B) Acute apical abscess occurs on vital pulp with reversible pulpitis only",
@@ -1757,7 +1757,7 @@
       "question": "Which statement about cold testing is most accurate?",
       "options": [
         "A) Cold testing measures pocket depths",
-        "B) Brief nonlingering sensitivity only always means irreversible pulpitis needing RCT",
+        "B) Brief nonlingering sensitivity only always means irreversible pulpitis needing randomized controlled trial",
         "C) Necrotic teeth always respond vividly to cold like hypersensitive dentin",
         "D) Cold testing compares teeth; lingering response suggests irreversible pulpitis; no response suggests necrosis"
       ],
@@ -1772,12 +1772,12 @@
     },
     {
       "id": "endodontics:extreme:8",
-      "question": "Careful reasoning about EPT limitations is required. Which of the following is most accurate?",
+      "question": "Careful reasoning about electric pulp testing limitations is required. Which of the following is most accurate?",
       "options": [
         "A) Electric pulp testing suggests vitality of sensory nerves but not vascular health perfectly",
-        "B) EPT always beats blood-flow tests after trauma for true vitality",
+        "B) electric pulp testing always beats blood-flow tests after trauma for true vitality",
         "C) Cold testing measures pocket depths",
-        "D) EPT proves exact histologic pulp status always"
+        "D) electric pulp testing proves exact histologic pulp status always"
       ],
       "answer": "A) Electric pulp testing suggests vitality of sensory nerves but not vascular health perfectly",
       "explanation": "Neural response can lag true vascular necrosis or give false readings with restorations. Therefore, the most accurate choice is: Electric pulp testing suggests vitality of sensory nerves but not vascular health perfectly. It is an adjunct, not absolute histology.",
@@ -1792,25 +1792,25 @@
       "id": "endodontics:extreme:9",
       "question": "Small differences in wording about percussion test meaning matter. Which of the following is correct?",
       "options": [
-        "A) Percussion assesses apical PDL inflammation, not pulp vitality itself",
+        "A) Percussion assesses apical periodontal ligament inflammation, not pulp vitality itself",
         "B) Percussion tells whether pulp is histologically healthy always",
-        "C) Apical periodontitis pain is only enamel hypersensitivity without PDL involvement",
+        "C) Apical periodontitis pain is only enamel hypersensitivity without periodontal ligament involvement",
         "D) Pulp chamber is always in the apical third enamel"
       ],
-      "answer": "A) Percussion assesses apical PDL inflammation, not pulp vitality itself",
-      "explanation": "Inflamed apical ligament hurts when the tooth is tapped. Therefore, the most accurate choice is: Percussion assesses apical PDL inflammation, not pulp vitality itself. Vitality needs thermal/EPT; percussion is periapical.",
+      "answer": "A) Percussion assesses apical periodontal ligament inflammation, not pulp vitality itself",
+      "explanation": "Inflamed apical ligament hurts when the tooth is tapped. Therefore, the most accurate choice is: Percussion assesses apical periodontal ligament inflammation, not pulp vitality itself. Vitality needs thermal/electric pulp testing; percussion is periapical.",
       "choice_explanations": {
         "A": "Inflamed apical ligament hurts when the tooth is tapped. This matches the correct interpretation.",
-        "B": "Vitality needs thermal/EPT; percussion is periapical. It is less consistent than the correct choice.",
+        "B": "Vitality needs thermal/electric pulp testing; percussion is periapical. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "endodontics:extreme:10",
-      "question": "A detailed evaluation for palpation apical is underway in a 57-year-old man. Which of the following is correct?",
+      "question": "A detailed evaluation for palpation apical is underway in a 41-year-old man. Which of the following is correct?",
       "options": [
-        "A) Apical periodontitis pain is only enamel hypersensitivity without PDL involvement",
+        "A) Apical periodontitis pain is only enamel hypersensitivity without periodontal ligament involvement",
         "B) Pulp chamber is always in the apical third enamel",
         "C) Apical palpation detects periradicular inflammation or swelling over roots",
         "D) Palpation of mucosa diagnoses enamel caries"
@@ -1826,12 +1826,12 @@
     },
     {
       "id": "endodontics:extreme:11",
-      "question": "In a 23-year-old man, treatment choices for rubber dam isolation endo are compared. Which of the following is most accurate?",
+      "question": "In a 53-year-old man, treatment choices for rubber dam isolation endo are compared. Which of the following is most accurate?",
       "options": [
         "A) Rubber dam is standard of care for root canal treatment to protect airway and asepsis",
-        "B) Internal bleach on necrotic unrestored canals without RCT is ideal",
-        "C) Smear layer is healthy cementum deposited during RCT",
-        "D) Rubber dam is optional decoration during RCT"
+        "B) Internal bleach on necrotic unrestored canals without randomized controlled trial is ideal",
+        "C) Smear layer is healthy cementum deposited during randomized controlled trial",
+        "D) Rubber dam is optional decoration during randomized controlled trial"
       ],
       "answer": "A) Rubber dam is standard of care for root canal treatment to protect airway and asepsis",
       "explanation": "Isolation prevents aspiration and salivary contamination of canals. Therefore, the most accurate choice is: Rubber dam is standard of care for root canal treatment to protect airway and asepsis. Endodontic standard demands dam isolation.",
@@ -1844,10 +1844,10 @@
     },
     {
       "id": "endodontics:extreme:12",
-      "question": "In a 42-year-old woman, distinguishing access opening goal from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 26-year-old woman, distinguishing access opening goal from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Pulp chamber is always in the apical third enamel",
-        "B) Primary canals should be filled with nonresorbable GP identical to permanent adult standards always",
+        "B) Primary canals should be filled with nonresorbable gutta-percha identical to permanent adult standards always",
         "C) Access should leave the entire roof to keep strength always as the goal of entry",
         "D) Access should unroof pulp chamber completely and achieve straight-line path to canals"
       ],
@@ -1862,15 +1862,15 @@
     },
     {
       "id": "endodontics:extreme:13",
-      "question": "A 20-year-old woman returns with ongoing problems related to law of centrality pulp. Which of the following is most accurate?",
+      "question": "A 50-year-old woman returns with ongoing problems related to law of centrality pulp. Which of the following is most accurate?",
       "options": [
         "A) Pulp chamber is always in the apical third enamel",
-        "B) Pulp chamber is centered at the CEJ level in the tooth cross-section commonly",
+        "B) Pulp chamber is centered at the cementoenamel junction level in the tooth cross-section commonly",
         "C) Pulp stones always improve canal negotiation",
         "D) Access should leave the entire roof to keep strength always as the goal of entry"
       ],
-      "answer": "B) Pulp chamber is centered at the CEJ level in the tooth cross-section commonly",
-      "explanation": "CEJ-level centering guides deep access before searching orifices. Therefore, the most accurate choice is: Pulp chamber is centered at the CEJ level in the tooth cross-section commonly. Anatomic laws help prevent gouging.",
+      "answer": "B) Pulp chamber is centered at the cementoenamel junction level in the tooth cross-section commonly",
+      "explanation": "CEJ-level centering guides deep access before searching orifices. Therefore, the most accurate choice is: Pulp chamber is centered at the cementoenamel junction level in the tooth cross-section commonly. Anatomic laws help prevent gouging.",
       "choice_explanations": {
         "A": "Anatomic laws help prevent gouging. It is less consistent than the correct choice.",
         "B": "CEJ-level centering guides deep access before searching orifices. This matches the correct interpretation.",
@@ -1880,7 +1880,7 @@
     },
     {
       "id": "endodontics:extreme:14",
-      "question": "Senior review is requested for orifice location law in a 31-year-old man. Which of the following is correct?",
+      "question": "Senior review is requested for orifice location law in a 61-year-old man. Which of the following is correct?",
       "options": [
         "A) Pulp chamber is always in the apical third enamel",
         "B) Orifices are randomly mid-enamel without floor map relation",
@@ -1888,17 +1888,17 @@
         "D) Orifices lie at the junction of walls and floor and at angles of the floor map"
       ],
       "answer": "D) Orifices lie at the junction of walls and floor and at angles of the floor map",
-      "explanation": "Dark floor-light wall contrast and angles guide MB/ML/DB locations. Therefore, the most accurate choice is: Orifices lie at the junction of walls and floor and at angles of the floor map. Anatomic mapping reduces missed canals.",
+      "explanation": "Dark floor-light wall contrast and angles guide mesiobuccal/ML/distobuccal locations. Therefore, the most accurate choice is: Orifices lie at the junction of walls and floor and at angles of the floor map. Anatomic mapping reduces missed canals.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Anatomic mapping reduces missed canals. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Dark floor-light wall contrast and angles guide MB/ML/DB locations. This matches the correct interpretation."
+        "D": "Dark floor-light wall contrast and angles guide mesiobuccal/ML/distobuccal locations. This matches the correct interpretation."
       }
     },
     {
       "id": "endodontics:extreme:15",
-      "question": "Which statement about working length concept in a 34-year-old woman is most accurate?",
+      "question": "Which statement about working length concept in a 64-year-old woman is most accurate?",
       "options": [
         "A) Step-back means stepping instruments beyond the apex farther each time",
         "B) Working length is the crown width mesiodistally",
@@ -1934,11 +1934,11 @@
     },
     {
       "id": "endodontics:extreme:17",
-      "question": "A 60-year-old woman is reassessed after incomplete response related to apex locator use. Which of the following is most accurate?",
+      "question": "A 44-year-old woman is reassessed after incomplete response related to apex locator use. Which of the following is most accurate?",
       "options": [
         "A) Electronic apex locators help determine working length using impedance principles",
         "B) Working length is the crown width mesiodistally",
-        "C) Regen endo is identical to traditional GP obturation to a closed apex in mature teeth",
+        "C) Regen endo is identical to traditional gutta-percha obturation to a closed apex in mature teeth",
         "D) Apex locators measure bleeding time"
       ],
       "answer": "A) Electronic apex locators help determine working length using impedance principles",
@@ -1952,48 +1952,48 @@
     },
     {
       "id": "endodontics:extreme:18",
-      "question": "A detailed evaluation for sodium hypochlorite role is underway in a 51-year-old man. Which of the following is correct?",
+      "question": "A detailed evaluation for sodium hypochlorite role is underway in a 35-year-old man. Which of the following is correct?",
       "options": [
         "A) NaOCl dissolves organic tissue and disinfects canals as primary irrigant",
-        "B) EDTA dissolves necrotic pulp tissue better than NaOCl as primary tissue solvent",
+        "B) ethylenediaminetetraacetic acid dissolves necrotic pulp tissue better than NaOCl as primary tissue solvent",
         "C) NaOCl is only a chelating agent for smear layer inorganic part",
-        "D) CHX dissolves pulp better than NaOCl"
+        "D) chlorhexidine dissolves pulp better than NaOCl"
       ],
       "answer": "A) NaOCl dissolves organic tissue and disinfects canals as primary irrigant",
-      "explanation": "Oxidative chlorination kills microbes and dissolves pulp remnants. Therefore, the most accurate choice is: NaOCl dissolves organic tissue and disinfects canals as primary irrigant. EDTA chelates inorganic smear; NaOCl is tissue solvent/disinfectant.",
+      "explanation": "Oxidative chlorination kills microbes and dissolves pulp remnants. Therefore, the most accurate choice is: NaOCl dissolves organic tissue and disinfects canals as primary irrigant. ethylenediaminetetraacetic acid chelates inorganic smear; NaOCl is tissue solvent/disinfectant.",
       "choice_explanations": {
         "A": "Oxidative chlorination kills microbes and dissolves pulp remnants. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "EDTA chelates inorganic smear; NaOCl is tissue solvent/disinfectant. It is less consistent than the correct choice.",
+        "C": "ethylenediaminetetraacetic acid chelates inorganic smear; NaOCl is tissue solvent/disinfectant. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "endodontics:extreme:19",
-      "question": "In advanced review of EDTA role endo, which of the following is most accurate?",
+      "question": "In advanced review of ethylenediaminetetraacetic acid role endo, which of the following is most accurate?",
       "options": [
-        "A) EDTA chelates calcium and helps remove the inorganic smear layer",
+        "A) ethylenediaminetetraacetic acid chelates calcium and helps remove the inorganic smear layer",
         "B) NaOCl is only a chelating agent for smear layer inorganic part",
-        "C) EDTA dissolves necrotic pulp tissue better than NaOCl as primary tissue solvent",
-        "D) CHX dissolves pulp better than NaOCl"
+        "C) ethylenediaminetetraacetic acid dissolves necrotic pulp tissue better than NaOCl as primary tissue solvent",
+        "D) chlorhexidine dissolves pulp better than NaOCl"
       ],
-      "answer": "A) EDTA chelates calcium and helps remove the inorganic smear layer",
-      "explanation": "Chelation opens dentinal tubules after instrumentation smear. Therefore, the most accurate choice is: EDTA chelates calcium and helps remove the inorganic smear layer. Tissue dissolution is NaOCl's strength; EDTA targets mineral smear.",
+      "answer": "A) ethylenediaminetetraacetic acid chelates calcium and helps remove the inorganic smear layer",
+      "explanation": "Chelation opens dentinal tubules after instrumentation smear. Therefore, the most accurate choice is: ethylenediaminetetraacetic acid chelates calcium and helps remove the inorganic smear layer. Tissue dissolution is NaOCl's strength; ethylenediaminetetraacetic acid targets mineral smear.",
       "choice_explanations": {
         "A": "Chelation opens dentinal tubules after instrumentation smear. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Tissue dissolution is NaOCl's strength; EDTA targets mineral smear. It is less consistent than the correct choice.",
+        "C": "Tissue dissolution is NaOCl's strength; ethylenediaminetetraacetic acid targets mineral smear. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "endodontics:extreme:20",
-      "question": "In a 35-year-old man, distinguishing smear layer endo from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 65-year-old man, distinguishing smear layer endo from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Instrumentation creates smear layer of debris on canal walls that irrigants address",
         "B) NaOCl is only a chelating agent for smear layer inorganic part",
-        "C) Rubber dam is optional decoration during RCT",
-        "D) Smear layer is healthy cementum deposited during RCT"
+        "C) Rubber dam is optional decoration during randomized controlled trial",
+        "D) Smear layer is healthy cementum deposited during randomized controlled trial"
       ],
       "answer": "A) Instrumentation creates smear layer of debris on canal walls that irrigants address",
       "explanation": "Cutting debris occludes tubules and can harbor microbes. Therefore, the most accurate choice is: Instrumentation creates smear layer of debris on canal walls that irrigants address. Irrigant protocols aim to remove smear for cleanliness/seal.",
@@ -2006,15 +2006,15 @@
     },
     {
       "id": "endodontics:extreme:21",
-      "question": "A 64-year-old woman returns with ongoing problems related to calcium hydroxide intracanal. Which of the following is most accurate?",
+      "question": "A 48-year-old woman returns with ongoing problems related to calcium hydroxide intracanal. Which of the following is most accurate?",
       "options": [
-        "A) Ca(OH)2 is a common intracanal medicament with high pH antimicrobial effect",
+        "A) Ca(orthostatic hypotension)2 is a common intracanal medicament with high pH antimicrobial effect",
         "B) Sealer replaces gutta-percha core entirely in all techniques as only fill",
         "C) Calcium hydroxide is the final gutta-percha core substitute always",
         "D) Gutta-percha alone chemically bonds and seals without sealer ideally always"
       ],
-      "answer": "A) Ca(OH)2 is a common intracanal medicament with high pH antimicrobial effect",
-      "explanation": "Alkaline environment kills microbes and may aid hard-tissue barriers in apexification contexts. Therefore, the most accurate choice is: Ca(OH)2 is a common intracanal medicament with high pH antimicrobial effect. Obturation cores are typically gutta-percha with sealer.",
+      "answer": "A) Ca(orthostatic hypotension)2 is a common intracanal medicament with high pH antimicrobial effect",
+      "explanation": "Alkaline environment kills microbes and may aid hard-tissue barriers in apexification contexts. Therefore, the most accurate choice is: Ca(orthostatic hypotension)2 is a common intracanal medicament with high pH antimicrobial effect. Obturation cores are typically gutta-percha with sealer.",
       "choice_explanations": {
         "A": "Alkaline environment kills microbes and may aid hard-tissue barriers in apexification contexts. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -2024,7 +2024,7 @@
     },
     {
       "id": "endodontics:extreme:22",
-      "question": "Senior review is requested for ledging cause in a 32-year-old woman. Which of the following is correct?",
+      "question": "Senior review is requested for ledging cause in a 62-year-old woman. Which of the following is correct?",
       "options": [
         "A) Ledging occurs from skipping sizes or forcing stiff files short of curvature negotiation",
         "B) Ledging is caused only by rubber dam clamps",
@@ -2042,7 +2042,7 @@
     },
     {
       "id": "endodontics:extreme:23",
-      "question": "Which statement about zip and elbow in a 39-year-old man is most accurate?",
+      "question": "Which statement about zip and elbow in a 23-year-old man is most accurate?",
       "options": [
         "A) Apical zipping transports the foramen; elbow is the narrow region coronal to a zip",
         "B) Always instrument 3 mm beyond radiographic apex intentionally as ideal",
@@ -2060,7 +2060,7 @@
     },
     {
       "id": "endodontics:extreme:24",
-      "question": "A 51-year-old man has a complex presentation of strip perforation risk. Which of the following is most accurate?",
+      "question": "A 35-year-old man has a complex presentation of strip perforation risk. Which of the following is most accurate?",
       "options": [
         "A) Strip perforations occur only on cusp tips of enamel",
         "B) Strip perforation risk is high on the inner concavity of curved roots, especially mandibular molars distal of mesial roots",
@@ -2078,7 +2078,7 @@
     },
     {
       "id": "endodontics:extreme:25",
-      "question": "A 37-year-old man is reassessed after incomplete response related to apical transportation. Which of the following is most accurate?",
+      "question": "A 21-year-old man is reassessed after incomplete response related to apical transportation. Which of the following is most accurate?",
       "options": [
         "A) Recapitulation means summarizing the medical history only",
         "B) Transportation is unwanted shifting of canal axis from original path during prep",
@@ -2096,12 +2096,12 @@
     },
     {
       "id": "endodontics:extreme:26",
-      "question": "A detailed evaluation for glide is underway in a 30-year-old woman. Which of the following is correct?",
+      "question": "A detailed evaluation for glide is underway in a 60-year-old woman. Which of the following is correct?",
       "options": [
         "A) Glide path means jumping straight to large rotary in calcified canals",
         "B) Hybrid means using only broaches for shaping to length",
         "C) A reproducible glide path with small files precedes rotary shaping for safety",
-        "D) NiTi instruments never fracture and need no glide path"
+        "D) nickel-titanium instruments never fracture and need no glide path"
       ],
       "answer": "C) A reproducible glide path with small files precedes rotary shaping for safety",
       "explanation": "Small hand files establish a smooth path reducing rotary fracture/ledge risk. Therefore, the most accurate choice is: A reproducible glide path with small files precedes rotary shaping for safety. Skipping glide path raises mishap risk.",
@@ -2114,15 +2114,15 @@
     },
     {
       "id": "endodontics:extreme:27",
-      "question": "A 26-year-old woman has findings that make rotary Ni Ti advantage hard to confirm. Which of the following is most accurate?",
+      "question": "A 56-year-old woman has findings that make rotary nickel-titanium advantage hard to confirm. Which of the following is most accurate?",
       "options": [
         "A) Glide path means jumping straight to large rotary in calcified canals",
-        "B) NiTi rotary instruments improve centering and efficiency in curved canals versus stiff SS hand only",
-        "C) NiTi instruments never fracture and need no glide path",
-        "D) Broaches are ideal shaping instruments to MAF size"
+        "B) nickel-titanium rotary instruments improve centering and efficiency in curved canals versus stiff stainless steel hand only",
+        "C) nickel-titanium instruments never fracture and need no glide path",
+        "D) Broaches are ideal shaping instruments to mutual adaptive file size"
       ],
-      "answer": "B) NiTi rotary instruments improve centering and efficiency in curved canals versus stiff SS hand only",
-      "explanation": "Superelastic alloys follow curves with less transportation when used properly. Therefore, the most accurate choice is: NiTi rotary instruments improve centering and efficiency in curved canals versus stiff SS hand only. Fracture risk remains; technique matters.",
+      "answer": "B) nickel-titanium rotary instruments improve centering and efficiency in curved canals versus stiff stainless steel hand only",
+      "explanation": "Superelastic alloys follow curves with less transportation when used properly. Therefore, the most accurate choice is: nickel-titanium rotary instruments improve centering and efficiency in curved canals versus stiff stainless steel hand only. Fracture risk remains; technique matters.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Superelastic alloys follow curves with less transportation when used properly. This matches the correct interpretation.",
@@ -2132,7 +2132,7 @@
     },
     {
       "id": "endodontics:extreme:28",
-      "question": "In a 49-year-old man, distinguishing patency filing from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 33-year-old man, distinguishing patency filing from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Recapitulation means summarizing the medical history only",
         "B) Glide path means jumping straight to large rotary in calcified canals",
@@ -2150,15 +2150,15 @@
     },
     {
       "id": "endodontics:extreme:29",
-      "question": "A 48-year-old woman returns with ongoing problems related to master apical file. Which of the following is most accurate?",
+      "question": "A 32-year-old woman returns with ongoing problems related to master apical file. Which of the following is most accurate?",
       "options": [
         "A) Working length is the crown width mesiodistally",
         "B) Open apices make apical stops easier than closed apices always",
-        "C) MAF is the first 06 file used to locate orifices",
-        "D) MAF is the largest file that binds at corrected working length after apical preparation"
+        "C) mutual adaptive file is the first 06 file used to locate orifices",
+        "D) mutual adaptive file is the largest file that binds at corrected working length after apical preparation"
       ],
-      "answer": "D) MAF is the largest file that binds at corrected working length after apical preparation",
-      "explanation": "Apical preparation size influences cleanliness and obturation fit. Therefore, the most accurate choice is: MAF is the largest file that binds at corrected working length after apical preparation. It defines the apical enlargement endpoint.",
+      "answer": "D) mutual adaptive file is the largest file that binds at corrected working length after apical preparation",
+      "explanation": "Apical preparation size influences cleanliness and obturation fit. Therefore, the most accurate choice is: mutual adaptive file is the largest file that binds at corrected working length after apical preparation. It defines the apical enlargement endpoint.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",

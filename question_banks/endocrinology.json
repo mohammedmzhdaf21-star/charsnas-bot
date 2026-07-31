@@ -4,49 +4,49 @@
       "id": "endocrinology:easy:0",
       "question": "Which of the following is true of t1DM autoimmune?",
       "options": [
-        "A) T1DM absolute ketosis-prone autoimmune always",
-        "B) T2DM insulin resistance primary in obese adult without Abs",
+        "A) type 1 diabetes mellitus absolute ketosis-prone autoimmune always",
+        "B) type 2 diabetes mellitus insulin resistance primary in obese adult without Abs",
         "C) Classic obese T2 without Abs always",
         "D) Autoimmune β-cell destruction requiring insulin"
       ],
       "answer": "D) Autoimmune β-cell destruction requiring insulin",
-      "explanation": "T-cell mediated islet loss causes absolute insulin deficiency. Therefore, the most accurate choice is: Autoimmune β-cell destruction requiring insulin. T2DM is relative deficiency with resistance.",
+      "explanation": "T-cell mediated islet loss causes absolute insulin deficiency. Therefore, the most accurate choice is: Autoimmune β-cell destruction requiring insulin. type 2 diabetes mellitus is relative deficiency with resistance.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "T2DM is relative deficiency with resistance. It is less consistent than the correct choice.",
+        "B": "type 2 diabetes mellitus is relative deficiency with resistance. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "T-cell mediated islet loss causes absolute insulin deficiency. This matches the correct interpretation."
       }
     },
     {
       "id": "endocrinology:easy:1",
-      "question": "Which finding matches T2DM IR?",
+      "question": "Which finding matches type 2 diabetes mellitus insulin resistance?",
       "options": [
-        "A) Hold K entirely throughout DKA always",
+        "A) Hold K entirely throughout diabetic ketoacidosis always",
         "B) Insulin resistance with relative insulin deficiency",
-        "C) T2DM insulin resistance primary in obese adult without Abs",
-        "D) T1DM absolute ketosis-prone autoimmune always"
+        "C) type 2 diabetes mellitus insulin resistance primary in obese adult without Abs",
+        "D) type 1 diabetes mellitus absolute ketosis-prone autoimmune always"
       ],
       "answer": "B) Insulin resistance with relative insulin deficiency",
-      "explanation": "Adiposity/genetics impair insulin signaling. Therefore, the most accurate choice is: Insulin resistance with relative insulin deficiency. T1DM is autoimmune absolute deficiency.",
+      "explanation": "Adiposity/genetics impair insulin signaling. Therefore, the most accurate choice is: Insulin resistance with relative insulin deficiency. type 1 diabetes mellitus is autoimmune absolute deficiency.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Adiposity/genetics impair insulin signaling. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "T1DM is autoimmune absolute deficiency. It is less consistent than the correct choice."
+        "D": "type 1 diabetes mellitus is autoimmune absolute deficiency. It is less consistent than the correct choice."
       }
     },
     {
       "id": "endocrinology:easy:2",
-      "question": "Which of the following statements about DKA triad is correct?",
+      "question": "Which of the following statements about diabetic ketoacidosis triad is correct?",
       "options": [
-        "A) DKA with large ketones always",
-        "B) T1DM absolute ketosis-prone autoimmune always",
-        "C) Hold K entirely throughout DKA always",
-        "D) Hyperglycemia + ketosis + HAGMA; insulin fluids K"
+        "A) diabetic ketoacidosis with large ketones always",
+        "B) type 1 diabetes mellitus absolute ketosis-prone autoimmune always",
+        "C) Hold K entirely throughout diabetic ketoacidosis always",
+        "D) Hyperglycemia + ketosis + high anion-gap metabolic acidosis; insulin fluids K"
       ],
-      "answer": "D) Hyperglycemia + ketosis + HAGMA; insulin fluids K",
-      "explanation": "Insulin lack drives ketogenesis; total-body K depleted. Therefore, the most accurate choice is: Hyperglycemia + ketosis + HAGMA; insulin fluids K. Insulin shifts K intracellularly—replace carefully.",
+      "answer": "D) Hyperglycemia + ketosis + high anion-gap metabolic acidosis; insulin fluids K",
+      "explanation": "Insulin lack drives ketogenesis; total-body K depleted. Therefore, the most accurate choice is: Hyperglycemia + ketosis + high anion-gap metabolic acidosis; insulin fluids K. Insulin shifts K intracellularly—replace carefully.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -56,19 +56,19 @@
     },
     {
       "id": "endocrinology:easy:3",
-      "question": "In HHS, which of the following is correct?",
+      "question": "In hyperosmolar hyperglycemic state, which of the following is correct?",
       "options": [
-        "A) Hold K entirely throughout DKA always",
+        "A) Hold K entirely throughout diabetic ketoacidosis always",
         "B) Marked hyperglycemia/hyperosmolarity without major ketosis; fluids first",
-        "C) DKA with large ketones always",
-        "D) T1DM absolute ketosis-prone autoimmune always"
+        "C) diabetic ketoacidosis with large ketones always",
+        "D) type 1 diabetes mellitus absolute ketosis-prone autoimmune always"
       ],
       "answer": "B) Marked hyperglycemia/hyperosmolarity without major ketosis; fluids first",
-      "explanation": "Enough insulin to block ketosis but not hyperglycemia. Therefore, the most accurate choice is: Marked hyperglycemia/hyperosmolarity without major ketosis; fluids first. DKA features prominent ketosis/acidosis.",
+      "explanation": "Enough insulin to block ketosis but not hyperglycemia. Therefore, the most accurate choice is: Marked hyperglycemia/hyperosmolarity without major ketosis; fluids first. diabetic ketoacidosis features prominent ketosis/acidosis.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Enough insulin to block ketosis but not hyperglycemia. This matches the correct interpretation.",
-        "C": "DKA features prominent ketosis/acidosis. It is less consistent than the correct choice.",
+        "C": "diabetic ketoacidosis features prominent ketosis/acidosis. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -77,7 +77,7 @@
       "question": "Which of the following best describes metformin?",
       "options": [
         "A) Exogenous insulin low C-peptide identically",
-        "B) SU secretagogue high hypo risk identically",
+        "B) sulfonylurea secretagogue high hypo risk identically",
         "C) Metformin secretagogue identically",
         "D) Decreases hepatic gluconeogenesis; low hypo risk alone"
       ],
@@ -95,12 +95,12 @@
       "question": "Select the correct statement about sulfonylurea.",
       "options": [
         "A) Metformin secretagogue identically",
-        "B) SU secretagogue high hypo risk identically",
-        "C) Closes β-cell KATP channels stimulating insulin",
-        "D) SU common hypoglycemia identically"
+        "B) sulfonylurea secretagogue high hypo risk identically",
+        "C) Closes β-cell ATP-sensitive potassium channel channels stimulating insulin",
+        "D) sulfonylurea common hypoglycemia identically"
       ],
-      "answer": "C) Closes β-cell KATP channels stimulating insulin",
-      "explanation": "Glucose-independent insulin release risk hypoglycemia. Therefore, the most accurate choice is: Closes β-cell KATP channels stimulating insulin. Metformin not a secretagogue.",
+      "answer": "C) Closes β-cell ATP-sensitive potassium channel channels stimulating insulin",
+      "explanation": "Glucose-independent insulin release risk hypoglycemia. Therefore, the most accurate choice is: Closes β-cell ATP-sensitive potassium channel channels stimulating insulin. Metformin not a secretagogue.",
       "choice_explanations": {
         "A": "Metformin not a secretagogue. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -112,13 +112,13 @@
       "id": "endocrinology:easy:6",
       "question": "Which mechanism accounts for sGLT2i?",
       "options": [
-        "A) SU secretagogue high hypo risk identically",
-        "B) SGLT2 volume loss identically",
-        "C) SU common hypoglycemia identically",
-        "D) Block PCT glucose reabsorption; HF/CKD benefit; euglycemic DKA risk"
+        "A) sulfonylurea secretagogue high hypo risk identically",
+        "B) sodium-glucose cotransporter 2 volume loss identically",
+        "C) sulfonylurea common hypoglycemia identically",
+        "D) Block procalcitonin glucose reabsorption; heart failure/chronic kidney disease benefit; euglycemic diabetic ketoacidosis risk"
       ],
-      "answer": "D) Block PCT glucose reabsorption; HF/CKD benefit; euglycemic DKA risk",
-      "explanation": "Glycosuria/natriuresis mechanisms. Therefore, the most accurate choice is: Block PCT glucose reabsorption; HF/CKD benefit; euglycemic DKA risk. Not insulin secretagogues.",
+      "answer": "D) Block procalcitonin glucose reabsorption; heart failure/chronic kidney disease benefit; euglycemic diabetic ketoacidosis risk",
+      "explanation": "Glycosuria/natriuresis mechanisms. Therefore, the most accurate choice is: Block procalcitonin glucose reabsorption; heart failure/chronic kidney disease benefit; euglycemic diabetic ketoacidosis risk. Not insulin secretagogues.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -128,18 +128,18 @@
     },
     {
       "id": "endocrinology:easy:7",
-      "question": "Which of the following is true for GLP1 RA?",
+      "question": "Which of the following is true for glucagon-like peptide-1 rheumatoid arthritis?",
       "options": [
-        "A) GLP1 RA identical potency/weight",
-        "B) DPP4 same weight loss always",
-        "C) Glucose-dependent insulin, weight loss, some MACE benefit",
-        "D) Increase night insulin blindly for all AM highs without data"
+        "A) glucagon-like peptide-1 rheumatoid arthritis identical potency/weight",
+        "B) dipeptidyl peptidase-4 same weight loss always",
+        "C) Glucose-dependent insulin, weight loss, some major adverse cardiovascular events benefit",
+        "D) Increase night insulin blindly for all morning highs without data"
       ],
-      "answer": "C) Glucose-dependent insulin, weight loss, some MACE benefit",
-      "explanation": "Pharmacologic incretin receptor agonism. Therefore, the most accurate choice is: Glucose-dependent insulin, weight loss, some MACE benefit. DPP4 only modestly raises endogenous GLP1.",
+      "answer": "C) Glucose-dependent insulin, weight loss, some major adverse cardiovascular events benefit",
+      "explanation": "Pharmacologic incretin receptor agonism. Therefore, the most accurate choice is: Glucose-dependent insulin, weight loss, some major adverse cardiovascular events benefit. dipeptidyl peptidase-4 only modestly raises endogenous glucagon-like peptide-1.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "DPP4 only modestly raises endogenous GLP1. It is less consistent than the correct choice.",
+        "B": "dipeptidyl peptidase-4 only modestly raises endogenous glucagon-like peptide-1. It is less consistent than the correct choice.",
         "C": "Pharmacologic incretin receptor agonism. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -149,35 +149,35 @@
       "question": "Which of the following best defines dPP4i?",
       "options": [
         "A) Prolong incretins; weight-neutral; low hypo alone",
-        "B) SU secretagogue high hypo risk identically",
-        "C) GLP1 RA identical potency/weight",
-        "D) DPP4 same weight loss always"
+        "B) sulfonylurea secretagogue high hypo risk identically",
+        "C) glucagon-like peptide-1 rheumatoid arthritis identical potency/weight",
+        "D) dipeptidyl peptidase-4 same weight loss always"
       ],
       "answer": "A) Prolong incretins; weight-neutral; low hypo alone",
-      "explanation": "Inhibit degradation of endogenous GLP1/GIP. Therefore, the most accurate choice is: Prolong incretins; weight-neutral; low hypo alone. GLP1 RA stronger.",
+      "explanation": "Inhibit degradation of endogenous glucagon-like peptide-1/GIP. Therefore, the most accurate choice is: Prolong incretins; weight-neutral; low hypo alone. glucagon-like peptide-1 rheumatoid arthritis stronger.",
       "choice_explanations": {
-        "A": "Inhibit degradation of endogenous GLP1/GIP. This matches the correct interpretation.",
+        "A": "Inhibit degradation of endogenous glucagon-like peptide-1/GIP. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "GLP1 RA stronger. It is less consistent than the correct choice.",
+        "C": "glucagon-like peptide-1 rheumatoid arthritis stronger. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "endocrinology:easy:9",
-      "question": "Which finding is expected in TZD?",
+      "question": "Which finding is expected in thiazolidinedione?",
       "options": [
-        "A) PPARγ sensitizer; edema/HF risk",
+        "A) PPARγ sensitizer; edema/heart failure risk",
         "B) Metformin secretagogue identically",
-        "C) SU common hypoglycemia identically",
-        "D) SGLT2 volume loss identically"
+        "C) sulfonylurea common hypoglycemia identically",
+        "D) sodium-glucose cotransporter 2 volume loss identically"
       ],
-      "answer": "A) PPARγ sensitizer; edema/HF risk",
-      "explanation": "Improves adipose insulin sensitivity. Therefore, the most accurate choice is: PPARγ sensitizer; edema/HF risk. SGLT2 causes volume loss.",
+      "answer": "A) PPARγ sensitizer; edema/heart failure risk",
+      "explanation": "Improves adipose insulin sensitivity. Therefore, the most accurate choice is: PPARγ sensitizer; edema/heart failure risk. sodium-glucose cotransporter 2 causes volume loss.",
       "choice_explanations": {
         "A": "Improves adipose insulin sensitivity. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "SGLT2 causes volume loss. It is less consistent than the correct choice."
+        "D": "sodium-glucose cotransporter 2 causes volume loss. It is less consistent than the correct choice."
       }
     },
     {
@@ -185,9 +185,9 @@
       "question": "Which of the following statements about basal-bolus is correct?",
       "options": [
         "A) Basal alone covers all meals in T1 always",
-        "B) Hold K entirely throughout DKA always",
+        "B) Hold K entirely throughout diabetic ketoacidosis always",
         "C) Basal covers hepatic output; bolus covers meals",
-        "D) DPP4 same weight loss always"
+        "D) dipeptidyl peptidase-4 same weight loss always"
       ],
       "answer": "C) Basal covers hepatic output; bolus covers meals",
       "explanation": "Mimics physiologic insulin pattern. Therefore, the most accurate choice is: Basal covers hepatic output; bolus covers meals. Prandial needs remain in T1.",
@@ -205,10 +205,10 @@
         "A) Force oral glucose in unconscious patient",
         "B) Give more insulin for hypo",
         "C) Exogenous insulin low C-peptide identically",
-        "D) Fast carbs if able; glucagon if severe/NPO"
+        "D) Fast carbs if able; glucagon if severe/nothing by mouth"
       ],
-      "answer": "D) Fast carbs if able; glucagon if severe/NPO",
-      "explanation": "Restore glucose delivery to brain. Therefore, the most accurate choice is: Fast carbs if able; glucagon if severe/NPO. Insulin worsens hypoglycemia.",
+      "answer": "D) Fast carbs if able; glucagon if severe/nothing by mouth",
+      "explanation": "Restore glucose delivery to brain. Therefore, the most accurate choice is: Fast carbs if able; glucagon if severe/nothing by mouth. Insulin worsens hypoglycemia.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Insulin worsens hypoglycemia. It is less consistent than the correct choice.",
@@ -222,7 +222,7 @@
       "options": [
         "A) Screen only after vision loss",
         "B) Osteomalacia Looser zones identical disease",
-        "C) SGLT2 volume loss identically",
+        "C) sodium-glucose cotransporter 2 volume loss identically",
         "D) Regular dilated exams even if asymptomatic"
       ],
       "answer": "D) Regular dilated exams even if asymptomatic",
@@ -238,13 +238,13 @@
       "id": "endocrinology:easy:13",
       "question": "Select the correct statement about diabetic nephropathy.",
       "options": [
-        "A) Albuminuria then GFR loss; RAS block + SGLT2i",
+        "A) Albuminuria then glomerular filtration rate loss; renal artery stenosis block + SGLT2i",
         "B) Screen only after vision loss",
-        "C) SGLT2 volume loss identically",
-        "D) Block PCT glucose reabsorption; HF/CKD benefit; euglycemic DKA risk"
+        "C) sodium-glucose cotransporter 2 volume loss identically",
+        "D) Block procalcitonin glucose reabsorption; heart failure/chronic kidney disease benefit; euglycemic diabetic ketoacidosis risk"
       ],
-      "answer": "A) Albuminuria then GFR loss; RAS block + SGLT2i",
-      "explanation": "Glomerular injury leaks albumin early. Therefore, the most accurate choice is: Albuminuria then GFR loss; RAS block + SGLT2i. Albuminuria often precedes Cr rise.",
+      "answer": "A) Albuminuria then glomerular filtration rate loss; renal artery stenosis block + SGLT2i",
+      "explanation": "Glomerular injury leaks albumin early. Therefore, the most accurate choice is: Albuminuria then glomerular filtration rate loss; renal artery stenosis block + SGLT2i. Albuminuria often precedes Cr rise.",
       "choice_explanations": {
         "A": "Glomerular injury leaks albumin early. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -254,30 +254,30 @@
     },
     {
       "id": "endocrinology:easy:14",
-      "question": "Which mechanism accounts for neuropathy DM?",
+      "question": "Which mechanism accounts for neuropathy diabetes mellitus?",
       "options": [
         "A) Length-dependent sensory polyneuropathy; foot care",
-        "B) CIDP first-line always",
-        "C) Prolactinoma DA first identically always",
-        "D) Screen first with 1,25-OH always"
+        "B) chronic inflammatory demyelinating polyneuropathy first-line always",
+        "C) Prolactinoma dopamine first identically always",
+        "D) Screen first with 1,25-orthostatic hypotension always"
       ],
       "answer": "A) Length-dependent sensory polyneuropathy; foot care",
-      "explanation": "Metabolic axonal injury distal first. Therefore, the most accurate choice is: Length-dependent sensory polyneuropathy; foot care. CIDP is autoimmune demyelinating.",
+      "explanation": "Metabolic axonal injury distal first. Therefore, the most accurate choice is: Length-dependent sensory polyneuropathy; foot care. chronic inflammatory demyelinating polyneuropathy is autoimmune demyelinating.",
       "choice_explanations": {
         "A": "Metabolic axonal injury distal first. This matches the correct interpretation.",
-        "B": "CIDP is autoimmune demyelinating. It is less consistent than the correct choice.",
+        "B": "chronic inflammatory demyelinating polyneuropathy is autoimmune demyelinating. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "endocrinology:easy:15",
-      "question": "Which of the following applies to hb A1c?",
+      "question": "Which of the following applies to hemoglobin A1c?",
       "options": [
-        "A) Thyroiditis low uptake leak identically Rx long ATD",
-        "B) SU common hypoglycemia identically",
+        "A) Thyroiditis low uptake leak identically treatment long antithyroid drug",
+        "B) sulfonylurea common hypoglycemia identically",
         "C) Reflects ~3-month mean glucose",
-        "D) SU secretagogue high hypo risk identically"
+        "D) sulfonylurea secretagogue high hypo risk identically"
       ],
       "answer": "C) Reflects ~3-month mean glucose",
       "explanation": "Hb glycation integrates exposure. Therefore, the most accurate choice is: Reflects ~3-month mean glucose. FPG is a single snapshot.",
@@ -290,33 +290,33 @@
     },
     {
       "id": "endocrinology:easy:16",
-      "question": "Which of the following is true of GDM?",
+      "question": "Which of the following is true of gestational diabetes mellitus?",
       "options": [
         "A) Pregestational T1 same malformation counseling always",
-        "B) Pregnancy IR unmasks hyperglycemia; fetal risks",
-        "C) DKA with large ketones always",
-        "D) Hold K entirely throughout DKA always"
+        "B) Pregnancy insulin resistance unmasks hyperglycemia; fetal risks",
+        "C) diabetic ketoacidosis with large ketones always",
+        "D) Hold K entirely throughout diabetic ketoacidosis always"
       ],
-      "answer": "B) Pregnancy IR unmasks hyperglycemia; fetal risks",
-      "explanation": "Placental hormones increase IR. Therefore, the most accurate choice is: Pregnancy IR unmasks hyperglycemia; fetal risks. Pregestational diabetes has different early risks.",
+      "answer": "B) Pregnancy insulin resistance unmasks hyperglycemia; fetal risks",
+      "explanation": "Placental hormones increase insulin resistance. Therefore, the most accurate choice is: Pregnancy insulin resistance unmasks hyperglycemia; fetal risks. Pregestational diabetes has different early risks.",
       "choice_explanations": {
         "A": "Pregestational diabetes has different early risks. It is less consistent than the correct choice.",
-        "B": "Placental hormones increase IR. This matches the correct interpretation.",
+        "B": "Placental hormones increase insulin resistance. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "endocrinology:easy:17",
-      "question": "Which finding is expected in MODY?",
+      "question": "Which finding is expected in maturity-onset diabetes of the young?",
       "options": [
         "A) T1 Abs always",
-        "B) Monogenic young nonimmune diabetes; selected Rx",
+        "B) Monogenic young nonimmune diabetes; selected treatment",
         "C) Classic obese T2 without Abs always",
         "D) Papillary young excellent always same"
       ],
-      "answer": "B) Monogenic young nonimmune diabetes; selected Rx",
-      "explanation": "Transcription factor/glucokinase mutations. Therefore, the most accurate choice is: Monogenic young nonimmune diabetes; selected Rx. T1 autoimmune markers.",
+      "answer": "B) Monogenic young nonimmune diabetes; selected treatment",
+      "explanation": "Transcription factor/glucokinase mutations. Therefore, the most accurate choice is: Monogenic young nonimmune diabetes; selected treatment. T1 autoimmune markers.",
       "choice_explanations": {
         "A": "T1 autoimmune markers. It is less consistent than the correct choice.",
         "B": "Transcription factor/glucokinase mutations. This matches the correct interpretation.",
@@ -326,11 +326,11 @@
     },
     {
       "id": "endocrinology:easy:18",
-      "question": "Which of the following statements about LADA is correct?",
+      "question": "Which of the following statements about latent autoimmune diabetes in adults is correct?",
       "options": [
         "A) Adult autoimmune diabetes with Abs; progresses to insulin",
         "B) T1 Abs always",
-        "C) T2DM insulin resistance primary in obese adult without Abs",
+        "C) type 2 diabetes mellitus insulin resistance primary in obese adult without Abs",
         "D) Classic obese T2 without Abs always"
       ],
       "answer": "A) Adult autoimmune diabetes with Abs; progresses to insulin",
@@ -346,13 +346,13 @@
       "id": "endocrinology:easy:19",
       "question": "In graves disease, which of the following is correct?",
       "options": [
-        "A) Thyroiditis low uptake leak identically Rx long ATD",
-        "B) Graves high uptake chronic ATD identically",
+        "A) Thyroiditis low uptake leak identically treatment long antithyroid drug",
+        "B) Graves high uptake chronic antithyroid drug identically",
         "C) Graves diffuse uptake identically",
-        "D) TSH-R stimulating Abs; high uptake; ATD/RAI/surgery"
+        "D) TSH-R stimulating Abs; high uptake; antithyroid drug/radioactive iodine/surgery"
       ],
-      "answer": "D) TSH-R stimulating Abs; high uptake; ATD/RAI/surgery",
-      "explanation": "TsAbs increase hormone synthesis. Therefore, the most accurate choice is: TSH-R stimulating Abs; high uptake; ATD/RAI/surgery. Thyroiditis releases stored hormone; uptake low.",
+      "answer": "D) TSH-R stimulating Abs; high uptake; antithyroid drug/radioactive iodine/surgery",
+      "explanation": "TsAbs increase hormone synthesis. Therefore, the most accurate choice is: TSH-R stimulating Abs; high uptake; antithyroid drug/radioactive iodine/surgery. Thyroiditis releases stored hormone; uptake low.",
       "choice_explanations": {
         "A": "Thyroiditis releases stored hormone; uptake low. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -364,13 +364,13 @@
       "id": "endocrinology:easy:20",
       "question": "Which of the following best describes toxic adenoma?",
       "options": [
-        "A) Autonomous hot nodule; RAI/surgery",
+        "A) Autonomous hot nodule; radioactive iodine/surgery",
         "B) Graves diffuse uptake identically",
-        "C) Thyroiditis low uptake leak identically Rx long ATD",
-        "D) Graves high uptake chronic ATD identically"
+        "C) Thyroiditis low uptake leak identically treatment long antithyroid drug",
+        "D) Graves high uptake chronic antithyroid drug identically"
       ],
-      "answer": "A) Autonomous hot nodule; RAI/surgery",
-      "explanation": "Somatic activating mutation in one nodule. Therefore, the most accurate choice is: Autonomous hot nodule; RAI/surgery. Graves stimulates entire gland.",
+      "answer": "A) Autonomous hot nodule; radioactive iodine/surgery",
+      "explanation": "Somatic activating mutation in one nodule. Therefore, the most accurate choice is: Autonomous hot nodule; radioactive iodine/surgery. Graves stimulates entire gland.",
       "choice_explanations": {
         "A": "Somatic activating mutation in one nodule. This matches the correct interpretation.",
         "B": "Graves stimulates entire gland. It is less consistent than the correct choice.",
@@ -384,8 +384,8 @@
       "options": [
         "A) Low uptake transient thyrotoxicosis; β-block",
         "B) Graves diffuse uptake identically",
-        "C) Graves high uptake chronic ATD identically",
-        "D) Thyroiditis low uptake leak identically Rx long ATD"
+        "C) Graves high uptake chronic antithyroid drug identically",
+        "D) Thyroiditis low uptake leak identically treatment long antithyroid drug"
       ],
       "answer": "A) Low uptake transient thyrotoxicosis; β-block",
       "explanation": "Inflammatory leak of preformed hormone. Therefore, the most accurate choice is: Low uptake transient thyrotoxicosis; β-block. Graves has increased synthesis/uptake.",
@@ -400,18 +400,18 @@
       "id": "endocrinology:easy:22",
       "question": "Which mechanism accounts for hashimoto?",
       "options": [
-        "A) High total T4 on OCP equals hyperthyroidism always",
-        "B) Anti-TPO hypothyroidism; levothyroxine",
-        "C) High TSH defines central hypoT",
-        "D) Central hypo high TSH always"
+        "A) High total T4 on oral contraceptive pill equals hyperthyroidism always",
+        "B) Anti-thyroid peroxidase hypothyroidism; levothyroxine",
+        "C) High thyroid-stimulating hormone defines central hypoT",
+        "D) Central hypo high thyroid-stimulating hormone always"
       ],
-      "answer": "B) Anti-TPO hypothyroidism; levothyroxine",
-      "explanation": "Autoimmune destruction raises TSH. Therefore, the most accurate choice is: Anti-TPO hypothyroidism; levothyroxine. Central TSH low/inappropriately normal.",
+      "answer": "B) Anti-thyroid peroxidase hypothyroidism; levothyroxine",
+      "explanation": "Autoimmune destruction raises thyroid-stimulating hormone. Therefore, the most accurate choice is: Anti-thyroid peroxidase hypothyroidism; levothyroxine. Central thyroid-stimulating hormone low/inappropriately normal.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Autoimmune destruction raises TSH. This matches the correct interpretation.",
+        "B": "Autoimmune destruction raises thyroid-stimulating hormone. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Central TSH low/inappropriately normal. It is less consistent than the correct choice."
+        "D": "Central thyroid-stimulating hormone low/inappropriately normal. It is less consistent than the correct choice."
       }
     },
     {
@@ -420,13 +420,13 @@
       "options": [
         "A) Oral outpatient T4 for myxedema coma",
         "B) Mild outpatient thyrotoxicosis identical urgency",
-        "C) Decompensated hypoT crisis; IV thyroid hormone + support",
+        "C) Decompensated hypoT crisis; intravenous thyroid hormone + support",
         "D) Force oral glucose in unconscious patient"
       ],
-      "answer": "C) Decompensated hypoT crisis; IV thyroid hormone + support",
-      "explanation": "Precipitated severe hypothyroidism. Therefore, the most accurate choice is: Decompensated hypoT crisis; IV thyroid hormone + support. Needs urgent IV/ICU care.",
+      "answer": "C) Decompensated hypoT crisis; intravenous thyroid hormone + support",
+      "explanation": "Precipitated severe hypothyroidism. Therefore, the most accurate choice is: Decompensated hypoT crisis; intravenous thyroid hormone + support. Needs urgent intravenous/intensive care unit care.",
       "choice_explanations": {
-        "A": "Needs urgent IV/ICU care. It is less consistent than the correct choice.",
+        "A": "Needs urgent intravenous/intensive care unit care. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Precipitated severe hypothyroidism. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -436,15 +436,15 @@
       "id": "endocrinology:easy:24",
       "question": "Which of the following is true of thyroid storm?",
       "options": [
-        "A) RAI during uncontrolled storm first",
-        "B) Thyroiditis low uptake leak identically Rx long ATD",
-        "C) Decompensated hyperT crisis; ATD then iodine, βB, steroids",
-        "D) Papillary RAI ablation identically useful"
+        "A) radioactive iodine during uncontrolled storm first",
+        "B) Thyroiditis low uptake leak identically treatment long antithyroid drug",
+        "C) Decompensated hyperT crisis; antithyroid drug then iodine, βB, steroids",
+        "D) Papillary radioactive iodine ablation identically useful"
       ],
-      "answer": "C) Decompensated hyperT crisis; ATD then iodine, βB, steroids",
-      "explanation": "Extreme hypermetabolic/adrenergic state. Therefore, the most accurate choice is: Decompensated hyperT crisis; ATD then iodine, βB, steroids. Stabilize medically before RAI.",
+      "answer": "C) Decompensated hyperT crisis; antithyroid drug then iodine, βB, steroids",
+      "explanation": "Extreme hypermetabolic/adrenergic state. Therefore, the most accurate choice is: Decompensated hyperT crisis; antithyroid drug then iodine, βB, steroids. Stabilize medically before radioactive iodine.",
       "choice_explanations": {
-        "A": "Stabilize medically before RAI. It is less consistent than the correct choice.",
+        "A": "Stabilize medically before radioactive iodine. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Extreme hypermetabolic/adrenergic state. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -454,13 +454,13 @@
       "id": "endocrinology:easy:25",
       "question": "Which finding is expected in levothyroxine use?",
       "options": [
-        "A) Central hypo high TSH always",
+        "A) Central hypo high thyroid-stimulating hormone always",
         "B) Take with iron for better absorption",
-        "C) Treat every TSH 4.5 with high-dose T4 always",
-        "D) Empty stomach; titrate TSH in primary; avoid Ca/Fe co-ingestion"
+        "C) Treat every thyroid-stimulating hormone 4.5 with high-dose T4 always",
+        "D) Empty stomach; titrate thyroid-stimulating hormone in primary; avoid Ca/Fe co-ingestion"
       ],
-      "answer": "D) Empty stomach; titrate TSH in primary; avoid Ca/Fe co-ingestion",
-      "explanation": "T4→T3 peripheral; absorption interactions matter. Therefore, the most accurate choice is: Empty stomach; titrate TSH in primary; avoid Ca/Fe co-ingestion. Ca/Fe reduce absorption.",
+      "answer": "D) Empty stomach; titrate thyroid-stimulating hormone in primary; avoid Ca/Fe co-ingestion",
+      "explanation": "T4→T3 peripheral; absorption interactions matter. Therefore, the most accurate choice is: Empty stomach; titrate thyroid-stimulating hormone in primary; avoid Ca/Fe co-ingestion. Ca/Fe reduce absorption.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Ca/Fe reduce absorption. It is less consistent than the correct choice.",
@@ -472,15 +472,15 @@
       "id": "endocrinology:easy:26",
       "question": "Which of the following statements about central hypo T is correct?",
       "options": [
-        "A) High TSH defines central hypoT",
-        "B) Low FT4 with low/normal TSH; replace after adrenal assessment",
-        "C) Treat every TSH 4.5 with high-dose T4 always",
-        "D) Pituitary Cushing high ACTH identically"
+        "A) High thyroid-stimulating hormone defines central hypoT",
+        "B) Low free thyroxine with low/normal thyroid-stimulating hormone; replace after adrenal assessment",
+        "C) Treat every thyroid-stimulating hormone 4.5 with high-dose T4 always",
+        "D) Pituitary Cushing high adrenocorticotropic hormone identically"
       ],
-      "answer": "B) Low FT4 with low/normal TSH; replace after adrenal assessment",
-      "explanation": "Pituitary/hypothalamic failure. Therefore, the most accurate choice is: Low FT4 with low/normal TSH; replace after adrenal assessment. Primary hypoT has elevated TSH.",
+      "answer": "B) Low free thyroxine with low/normal thyroid-stimulating hormone; replace after adrenal assessment",
+      "explanation": "Pituitary/hypothalamic failure. Therefore, the most accurate choice is: Low free thyroxine with low/normal thyroid-stimulating hormone; replace after adrenal assessment. Primary hypoT has elevated thyroid-stimulating hormone.",
       "choice_explanations": {
-        "A": "Primary hypoT has elevated TSH. It is less consistent than the correct choice.",
+        "A": "Primary hypoT has elevated thyroid-stimulating hormone. It is less consistent than the correct choice.",
         "B": "Pituitary/hypothalamic failure. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -490,13 +490,13 @@
       "id": "endocrinology:easy:27",
       "question": "In subclinical hypo T, which of the following is correct?",
       "options": [
-        "A) High TSH defines central hypoT",
+        "A) High thyroid-stimulating hormone defines central hypoT",
         "B) Stop long-term high-dose steroids abruptly always safe",
-        "C) Treat every TSH 4.5 with high-dose T4 always",
-        "D) ↑TSH normal FT4; treat selectively"
+        "C) Treat every thyroid-stimulating hormone 4.5 with high-dose T4 always",
+        "D) ↑thyroid-stimulating hormone normal free thyroxine; treat selectively"
       ],
-      "answer": "D) ↑TSH normal FT4; treat selectively",
-      "explanation": "Early thyroid failure spectrum. Therefore, the most accurate choice is: ↑TSH normal FT4; treat selectively. Benefit not universal at mild elevations.",
+      "answer": "D) ↑thyroid-stimulating hormone normal free thyroxine; treat selectively",
+      "explanation": "Early thyroid failure spectrum. Therefore, the most accurate choice is: ↑thyroid-stimulating hormone normal free thyroxine; treat selectively. Benefit not universal at mild elevations.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -508,13 +508,13 @@
       "id": "endocrinology:easy:28",
       "question": "Which of the following best describes subclinical hyper T?",
       "options": [
-        "A) High TSH defines central hypoT",
-        "B) Treat every TSH 4.5 with high-dose T4 always",
-        "C) FNA every 3–4 mm nodule always",
-        "D) ↓TSH normal FT4/T3; AF/osteoporosis risk"
+        "A) High thyroid-stimulating hormone defines central hypoT",
+        "B) Treat every thyroid-stimulating hormone 4.5 with high-dose T4 always",
+        "C) fine-needle aspiration every 3–4 mm nodule always",
+        "D) ↓thyroid-stimulating hormone normal free thyroxine/T3; atrial fibrillation/osteoporosis risk"
       ],
-      "answer": "D) ↓TSH normal FT4/T3; AF/osteoporosis risk",
-      "explanation": "Mild hormone excess affects heart/bone. Therefore, the most accurate choice is: ↓TSH normal FT4/T3; AF/osteoporosis risk. Elderly arrhythmogenic risk matters.",
+      "answer": "D) ↓thyroid-stimulating hormone normal free thyroxine/T3; atrial fibrillation/osteoporosis risk",
+      "explanation": "Mild hormone excess affects heart/bone. Therefore, the most accurate choice is: ↓thyroid-stimulating hormone normal free thyroxine/T3; atrial fibrillation/osteoporosis risk. Elderly arrhythmogenic risk matters.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -524,15 +524,15 @@
     },
     {
       "id": "endocrinology:easy:29",
-      "question": "Select the correct statement about nodule FNA.",
+      "question": "Select the correct statement about nodule fine-needle aspiration.",
       "options": [
-        "A) Start T without Hct/PSA risk discussion always",
-        "B) FNA by sonographic risk/size systems",
-        "C) Treat every TSH 4.5 with high-dose T4 always",
-        "D) FNA every 3–4 mm nodule always"
+        "A) Start T without hematocrit/prostate-specific antigen risk discussion always",
+        "B) fine-needle aspiration by sonographic risk/size systems",
+        "C) Treat every thyroid-stimulating hormone 4.5 with high-dose T4 always",
+        "D) fine-needle aspiration every 3–4 mm nodule always"
       ],
-      "answer": "B) FNA by sonographic risk/size systems",
-      "explanation": "Cytology risk-stratifies. Therefore, the most accurate choice is: FNA by sonographic risk/size systems. Tiny low-risk nodules often observed.",
+      "answer": "B) fine-needle aspiration by sonographic risk/size systems",
+      "explanation": "Cytology risk-stratifies. Therefore, the most accurate choice is: fine-needle aspiration by sonographic risk/size systems. Tiny low-risk nodules often observed.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Cytology risk-stratifies. This matches the correct interpretation.",
@@ -544,51 +544,51 @@
   "medium": [
     {
       "id": "endocrinology:medium:0",
-      "question": "A 50-year-old man presents with a clinical picture of t1DM autoimmune. Which of the following is most accurate?",
+      "question": "A 59-year-old man presents with a clinical picture of t1DM autoimmune. Which of the following is most accurate?",
       "options": [
         "A) Classic obese T2 without Abs always",
-        "B) T2DM insulin resistance primary in obese adult without Abs",
-        "C) T1DM absolute ketosis-prone autoimmune always",
+        "B) type 2 diabetes mellitus insulin resistance primary in obese adult without Abs",
+        "C) type 1 diabetes mellitus absolute ketosis-prone autoimmune always",
         "D) Autoimmune β-cell destruction requiring insulin"
       ],
       "answer": "D) Autoimmune β-cell destruction requiring insulin",
-      "explanation": "T-cell mediated islet loss causes absolute insulin deficiency. Therefore, the most accurate choice is: Autoimmune β-cell destruction requiring insulin. T2DM is relative deficiency with resistance.",
+      "explanation": "T-cell mediated islet loss causes absolute insulin deficiency. Therefore, the most accurate choice is: Autoimmune β-cell destruction requiring insulin. type 2 diabetes mellitus is relative deficiency with resistance.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "T2DM is relative deficiency with resistance. It is less consistent than the correct choice.",
+        "B": "type 2 diabetes mellitus is relative deficiency with resistance. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "T-cell mediated islet loss causes absolute insulin deficiency. This matches the correct interpretation."
       }
     },
     {
       "id": "endocrinology:medium:1",
-      "question": "While evaluating a 69-year-old woman, attention turns to T2DM IR. Which of the following is most accurate?",
+      "question": "While evaluating a 33-year-old woman, attention turns to type 2 diabetes mellitus insulin resistance. Which of the following is most accurate?",
       "options": [
-        "A) T2DM insulin resistance primary in obese adult without Abs",
-        "B) Hold K entirely throughout DKA always",
+        "A) type 2 diabetes mellitus insulin resistance primary in obese adult without Abs",
+        "B) Hold K entirely throughout diabetic ketoacidosis always",
         "C) Insulin resistance with relative insulin deficiency",
-        "D) T1DM absolute ketosis-prone autoimmune always"
+        "D) type 1 diabetes mellitus absolute ketosis-prone autoimmune always"
       ],
       "answer": "C) Insulin resistance with relative insulin deficiency",
-      "explanation": "Adiposity/genetics impair insulin signaling. Therefore, the most accurate choice is: Insulin resistance with relative insulin deficiency. T1DM is autoimmune absolute deficiency.",
+      "explanation": "Adiposity/genetics impair insulin signaling. Therefore, the most accurate choice is: Insulin resistance with relative insulin deficiency. type 1 diabetes mellitus is autoimmune absolute deficiency.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Adiposity/genetics impair insulin signaling. This matches the correct interpretation.",
-        "D": "T1DM is autoimmune absolute deficiency. It is less consistent than the correct choice."
+        "D": "type 1 diabetes mellitus is autoimmune absolute deficiency. It is less consistent than the correct choice."
       }
     },
     {
       "id": "endocrinology:medium:2",
-      "question": "A 17-year-old man develops symptoms of DKA triad. Which of the following is most accurate?",
+      "question": "A 11-year-old man develops symptoms of diabetic ketoacidosis triad. Which of the following is most accurate?",
       "options": [
-        "A) Hold K entirely throughout DKA always",
-        "B) DKA with large ketones always",
-        "C) T1DM absolute ketosis-prone autoimmune always",
-        "D) Hyperglycemia + ketosis + HAGMA; insulin fluids K"
+        "A) Hold K entirely throughout diabetic ketoacidosis always",
+        "B) diabetic ketoacidosis with large ketones always",
+        "C) type 1 diabetes mellitus absolute ketosis-prone autoimmune always",
+        "D) Hyperglycemia + ketosis + high anion-gap metabolic acidosis; insulin fluids K"
       ],
-      "answer": "D) Hyperglycemia + ketosis + HAGMA; insulin fluids K",
-      "explanation": "Insulin lack drives ketogenesis; total-body K depleted. Therefore, the most accurate choice is: Hyperglycemia + ketosis + HAGMA; insulin fluids K. Insulin shifts K intracellularly—replace carefully.",
+      "answer": "D) Hyperglycemia + ketosis + high anion-gap metabolic acidosis; insulin fluids K",
+      "explanation": "Insulin lack drives ketogenesis; total-body K depleted. Therefore, the most accurate choice is: Hyperglycemia + ketosis + high anion-gap metabolic acidosis; insulin fluids K. Insulin shifts K intracellularly—replace carefully.",
       "choice_explanations": {
         "A": "Insulin shifts K intracellularly—replace carefully. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -598,17 +598,17 @@
     },
     {
       "id": "endocrinology:medium:3",
-      "question": "A 17-year-old woman is admitted with suspected HHS. Which statement is correct?",
+      "question": "A 11-year-old woman is admitted with suspected hyperosmolar hyperglycemic state. Which statement is correct?",
       "options": [
-        "A) DKA with large ketones always",
-        "B) T1DM absolute ketosis-prone autoimmune always",
-        "C) Hold K entirely throughout DKA always",
+        "A) diabetic ketoacidosis with large ketones always",
+        "B) type 1 diabetes mellitus absolute ketosis-prone autoimmune always",
+        "C) Hold K entirely throughout diabetic ketoacidosis always",
         "D) Marked hyperglycemia/hyperosmolarity without major ketosis; fluids first"
       ],
       "answer": "D) Marked hyperglycemia/hyperosmolarity without major ketosis; fluids first",
-      "explanation": "Enough insulin to block ketosis but not hyperglycemia. Therefore, the most accurate choice is: Marked hyperglycemia/hyperosmolarity without major ketosis; fluids first. DKA features prominent ketosis/acidosis.",
+      "explanation": "Enough insulin to block ketosis but not hyperglycemia. Therefore, the most accurate choice is: Marked hyperglycemia/hyperosmolarity without major ketosis; fluids first. diabetic ketoacidosis features prominent ketosis/acidosis.",
       "choice_explanations": {
-        "A": "DKA features prominent ketosis/acidosis. It is less consistent than the correct choice.",
+        "A": "diabetic ketoacidosis features prominent ketosis/acidosis. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Enough insulin to block ketosis but not hyperglycemia. This matches the correct interpretation."
@@ -616,10 +616,10 @@
     },
     {
       "id": "endocrinology:medium:4",
-      "question": "A 42-year-old man has examination findings of metformin. Which of the following is most accurate?",
+      "question": "A 51-year-old man has examination findings of metformin. Which of the following is most accurate?",
       "options": [
         "A) Decreases hepatic gluconeogenesis; low hypo risk alone",
-        "B) SU secretagogue high hypo risk identically",
+        "B) sulfonylurea secretagogue high hypo risk identically",
         "C) Metformin secretagogue identically",
         "D) Exogenous insulin low C-peptide identically"
       ],
@@ -634,15 +634,15 @@
     },
     {
       "id": "endocrinology:medium:5",
-      "question": "A 67-year-old man reports symptoms typical of sulfonylurea. Which of the following is correct?",
+      "question": "A 31-year-old man reports symptoms typical of sulfonylurea. Which of the following is correct?",
       "options": [
-        "A) Closes β-cell KATP channels stimulating insulin",
-        "B) SU common hypoglycemia identically",
-        "C) SU secretagogue high hypo risk identically",
+        "A) Closes β-cell ATP-sensitive potassium channel channels stimulating insulin",
+        "B) sulfonylurea common hypoglycemia identically",
+        "C) sulfonylurea secretagogue high hypo risk identically",
         "D) Metformin secretagogue identically"
       ],
-      "answer": "A) Closes β-cell KATP channels stimulating insulin",
-      "explanation": "Glucose-independent insulin release risk hypoglycemia. Therefore, the most accurate choice is: Closes β-cell KATP channels stimulating insulin. Metformin not a secretagogue.",
+      "answer": "A) Closes β-cell ATP-sensitive potassium channel channels stimulating insulin",
+      "explanation": "Glucose-independent insulin release risk hypoglycemia. Therefore, the most accurate choice is: Closes β-cell ATP-sensitive potassium channel channels stimulating insulin. Metformin not a secretagogue.",
       "choice_explanations": {
         "A": "Glucose-independent insulin release risk hypoglycemia. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -652,15 +652,15 @@
     },
     {
       "id": "endocrinology:medium:6",
-      "question": "A 16-year-old woman is evaluated in the emergency department for sGLT2i. Which of the following is most accurate?",
+      "question": "A 10-year-old woman is evaluated in the emergency department for sGLT2i. Which of the following is most accurate?",
       "options": [
-        "A) SU common hypoglycemia identically",
-        "B) SGLT2 volume loss identically",
-        "C) SU secretagogue high hypo risk identically",
-        "D) Block PCT glucose reabsorption; HF/CKD benefit; euglycemic DKA risk"
+        "A) sulfonylurea common hypoglycemia identically",
+        "B) sodium-glucose cotransporter 2 volume loss identically",
+        "C) sulfonylurea secretagogue high hypo risk identically",
+        "D) Block procalcitonin glucose reabsorption; heart failure/chronic kidney disease benefit; euglycemic diabetic ketoacidosis risk"
       ],
-      "answer": "D) Block PCT glucose reabsorption; HF/CKD benefit; euglycemic DKA risk",
-      "explanation": "Glycosuria/natriuresis mechanisms. Therefore, the most accurate choice is: Block PCT glucose reabsorption; HF/CKD benefit; euglycemic DKA risk. Not insulin secretagogues.",
+      "answer": "D) Block procalcitonin glucose reabsorption; heart failure/chronic kidney disease benefit; euglycemic diabetic ketoacidosis risk",
+      "explanation": "Glycosuria/natriuresis mechanisms. Therefore, the most accurate choice is: Block procalcitonin glucose reabsorption; heart failure/chronic kidney disease benefit; euglycemic diabetic ketoacidosis risk. Not insulin secretagogues.",
       "choice_explanations": {
         "A": "Not insulin secretagogues. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -670,64 +670,64 @@
     },
     {
       "id": "endocrinology:medium:7",
-      "question": "Which statement best defines GLP1 RA?",
+      "question": "Which statement best defines glucagon-like peptide-1 rheumatoid arthritis?",
       "options": [
         "A) Classic obese T2 without Abs always",
-        "B) Glucose-dependent insulin, weight loss, some MACE benefit",
-        "C) GLP1 RA identical potency/weight",
-        "D) DPP4 same weight loss always"
+        "B) Glucose-dependent insulin, weight loss, some major adverse cardiovascular events benefit",
+        "C) glucagon-like peptide-1 rheumatoid arthritis identical potency/weight",
+        "D) dipeptidyl peptidase-4 same weight loss always"
       ],
-      "answer": "B) Glucose-dependent insulin, weight loss, some MACE benefit",
-      "explanation": "Pharmacologic incretin receptor agonism. Therefore, the most accurate choice is: Glucose-dependent insulin, weight loss, some MACE benefit. DPP4 only modestly raises endogenous GLP1.",
+      "answer": "B) Glucose-dependent insulin, weight loss, some major adverse cardiovascular events benefit",
+      "explanation": "Pharmacologic incretin receptor agonism. Therefore, the most accurate choice is: Glucose-dependent insulin, weight loss, some major adverse cardiovascular events benefit. dipeptidyl peptidase-4 only modestly raises endogenous glucagon-like peptide-1.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Pharmacologic incretin receptor agonism. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "DPP4 only modestly raises endogenous GLP1. It is less consistent than the correct choice."
+        "D": "dipeptidyl peptidase-4 only modestly raises endogenous glucagon-like peptide-1. It is less consistent than the correct choice."
       }
     },
     {
       "id": "endocrinology:medium:8",
       "question": "Which of the following correctly describes dPP4i in clinical use?",
       "options": [
-        "A) SU secretagogue high hypo risk identically",
-        "B) GLP1 RA identical potency/weight",
+        "A) sulfonylurea secretagogue high hypo risk identically",
+        "B) glucagon-like peptide-1 rheumatoid arthritis identical potency/weight",
         "C) Prolong incretins; weight-neutral; low hypo alone",
-        "D) DPP4 same weight loss always"
+        "D) dipeptidyl peptidase-4 same weight loss always"
       ],
       "answer": "C) Prolong incretins; weight-neutral; low hypo alone",
-      "explanation": "Inhibit degradation of endogenous GLP1/GIP. Therefore, the most accurate choice is: Prolong incretins; weight-neutral; low hypo alone. GLP1 RA stronger.",
+      "explanation": "Inhibit degradation of endogenous glucagon-like peptide-1/GIP. Therefore, the most accurate choice is: Prolong incretins; weight-neutral; low hypo alone. glucagon-like peptide-1 rheumatoid arthritis stronger.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "GLP1 RA stronger. It is less consistent than the correct choice.",
-        "C": "Inhibit degradation of endogenous GLP1/GIP. This matches the correct interpretation.",
+        "B": "glucagon-like peptide-1 rheumatoid arthritis stronger. It is less consistent than the correct choice.",
+        "C": "Inhibit degradation of endogenous glucagon-like peptide-1/GIP. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "endocrinology:medium:9",
-      "question": "A 41-year-old woman is seen in clinic for suspected TZD. Which of the following is correct?",
+      "question": "A 50-year-old woman is seen in clinic for suspected thiazolidinedione. Which of the following is correct?",
       "options": [
-        "A) PPARγ sensitizer; edema/HF risk",
-        "B) DPP4 same weight loss always",
-        "C) SGLT2 volume loss identically",
+        "A) PPARγ sensitizer; edema/heart failure risk",
+        "B) dipeptidyl peptidase-4 same weight loss always",
+        "C) sodium-glucose cotransporter 2 volume loss identically",
         "D) Metformin secretagogue identically"
       ],
-      "answer": "A) PPARγ sensitizer; edema/HF risk",
-      "explanation": "Improves adipose insulin sensitivity. Therefore, the most accurate choice is: PPARγ sensitizer; edema/HF risk. SGLT2 causes volume loss.",
+      "answer": "A) PPARγ sensitizer; edema/heart failure risk",
+      "explanation": "Improves adipose insulin sensitivity. Therefore, the most accurate choice is: PPARγ sensitizer; edema/heart failure risk. sodium-glucose cotransporter 2 causes volume loss.",
       "choice_explanations": {
         "A": "Improves adipose insulin sensitivity. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "SGLT2 causes volume loss. It is less consistent than the correct choice.",
+        "C": "sodium-glucose cotransporter 2 causes volume loss. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "endocrinology:medium:10",
-      "question": "A 36-year-old man develops symptoms of basal-bolus. Which of the following is most accurate?",
+      "question": "A 45-year-old man develops symptoms of basal-bolus. Which of the following is most accurate?",
       "options": [
         "A) Basal alone covers all meals in T1 always",
-        "B) DPP4 same weight loss always",
+        "B) dipeptidyl peptidase-4 same weight loss always",
         "C) Classic obese T2 without Abs always",
         "D) Basal covers hepatic output; bolus covers meals"
       ],
@@ -742,15 +742,15 @@
     },
     {
       "id": "endocrinology:medium:11",
-      "question": "A 64-year-old man is admitted with suspected hypoglycemia. Which statement is correct?",
+      "question": "A 28-year-old man is admitted with suspected hypoglycemia. Which statement is correct?",
       "options": [
         "A) Force oral glucose in unconscious patient",
-        "B) Fast carbs if able; glucagon if severe/NPO",
+        "B) Fast carbs if able; glucagon if severe/nothing by mouth",
         "C) Give more insulin for hypo",
-        "D) SU common hypoglycemia identically"
+        "D) sulfonylurea common hypoglycemia identically"
       ],
-      "answer": "B) Fast carbs if able; glucagon if severe/NPO",
-      "explanation": "Restore glucose delivery to brain. Therefore, the most accurate choice is: Fast carbs if able; glucagon if severe/NPO. Insulin worsens hypoglycemia.",
+      "answer": "B) Fast carbs if able; glucagon if severe/nothing by mouth",
+      "explanation": "Restore glucose delivery to brain. Therefore, the most accurate choice is: Fast carbs if able; glucagon if severe/nothing by mouth. Insulin worsens hypoglycemia.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Restore glucose delivery to brain. This matches the correct interpretation.",
@@ -760,12 +760,12 @@
     },
     {
       "id": "endocrinology:medium:12",
-      "question": "A 62-year-old woman has examination findings of retinopathy screen. Which of the following is most accurate?",
+      "question": "A 71-year-old woman has examination findings of retinopathy screen. Which of the following is most accurate?",
       "options": [
         "A) Screen only after vision loss",
-        "B) Screen first with 1,25-OH always",
+        "B) Screen first with 1,25-orthostatic hypotension always",
         "C) Regular dilated exams even if asymptomatic",
-        "D) SGLT2 volume loss identically"
+        "D) sodium-glucose cotransporter 2 volume loss identically"
       ],
       "answer": "C) Regular dilated exams even if asymptomatic",
       "explanation": "Microvascular disease silent early. Therefore, the most accurate choice is: Regular dilated exams even if asymptomatic. Waiting for symptoms risks irreversible damage.",
@@ -778,15 +778,15 @@
     },
     {
       "id": "endocrinology:medium:13",
-      "question": "A 66-year-old man reports symptoms typical of diabetic nephropathy. Which of the following is correct?",
+      "question": "A 30-year-old man reports symptoms typical of diabetic nephropathy. Which of the following is correct?",
       "options": [
-        "A) Albuminuria then GFR loss; RAS block + SGLT2i",
-        "B) SGLT2 volume loss identically",
-        "C) DPP4 same weight loss always",
+        "A) Albuminuria then glomerular filtration rate loss; renal artery stenosis block + SGLT2i",
+        "B) sodium-glucose cotransporter 2 volume loss identically",
+        "C) dipeptidyl peptidase-4 same weight loss always",
         "D) Screen only after vision loss"
       ],
-      "answer": "A) Albuminuria then GFR loss; RAS block + SGLT2i",
-      "explanation": "Glomerular injury leaks albumin early. Therefore, the most accurate choice is: Albuminuria then GFR loss; RAS block + SGLT2i. Albuminuria often precedes Cr rise.",
+      "answer": "A) Albuminuria then glomerular filtration rate loss; renal artery stenosis block + SGLT2i",
+      "explanation": "Glomerular injury leaks albumin early. Therefore, the most accurate choice is: Albuminuria then glomerular filtration rate loss; renal artery stenosis block + SGLT2i. Albuminuria often precedes Cr rise.",
       "choice_explanations": {
         "A": "Glomerular injury leaks albumin early. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -796,30 +796,30 @@
     },
     {
       "id": "endocrinology:medium:14",
-      "question": "A 61-year-old man is evaluated in the emergency department for neuropathy DM. Which of the following is most accurate?",
+      "question": "A 70-year-old man is evaluated in the emergency department for neuropathy diabetes mellitus. Which of the following is most accurate?",
       "options": [
         "A) Length-dependent sensory polyneuropathy; foot care",
-        "B) Prolactinoma DA first identically always",
-        "C) CIDP first-line always",
-        "D) CGM permanently replaces A1c always"
+        "B) Prolactinoma dopamine first identically always",
+        "C) chronic inflammatory demyelinating polyneuropathy first-line always",
+        "D) continuous glucose monitoring permanently replaces A1c always"
       ],
       "answer": "A) Length-dependent sensory polyneuropathy; foot care",
-      "explanation": "Metabolic axonal injury distal first. Therefore, the most accurate choice is: Length-dependent sensory polyneuropathy; foot care. CIDP is autoimmune demyelinating.",
+      "explanation": "Metabolic axonal injury distal first. Therefore, the most accurate choice is: Length-dependent sensory polyneuropathy; foot care. chronic inflammatory demyelinating polyneuropathy is autoimmune demyelinating.",
       "choice_explanations": {
         "A": "Metabolic axonal injury distal first. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "CIDP is autoimmune demyelinating. It is less consistent than the correct choice.",
+        "C": "chronic inflammatory demyelinating polyneuropathy is autoimmune demyelinating. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "endocrinology:medium:15",
-      "question": "A 56-year-old man is assessed for hb A1c. Which of the following statements is correct?",
+      "question": "A 65-year-old man is assessed for hemoglobin A1c. Which of the following statements is correct?",
       "options": [
-        "A) Secondary AI hyperpigment hyperK identically",
+        "A) Secondary aortic insufficiency hyperpigment hyperK identically",
         "B) Reflects ~3-month mean glucose",
-        "C) SU common hypoglycemia identically",
-        "D) Thyroiditis low uptake leak identically Rx long ATD"
+        "C) sulfonylurea common hypoglycemia identically",
+        "D) Thyroiditis low uptake leak identically treatment long antithyroid drug"
       ],
       "answer": "B) Reflects ~3-month mean glucose",
       "explanation": "Hb glycation integrates exposure. Therefore, the most accurate choice is: Reflects ~3-month mean glucose. FPG is a single snapshot.",
@@ -832,33 +832,33 @@
     },
     {
       "id": "endocrinology:medium:16",
-      "question": "A 33-year-old woman presents with a clinical picture of GDM. Which of the following is most accurate?",
+      "question": "A 33-year-old woman presents with a clinical picture of gestational diabetes mellitus. Which of the following is most accurate?",
       "options": [
-        "A) DKA with large ketones always",
+        "A) diabetic ketoacidosis with large ketones always",
         "B) Papillary young excellent always same",
-        "C) Pregnancy IR unmasks hyperglycemia; fetal risks",
+        "C) Pregnancy insulin resistance unmasks hyperglycemia; fetal risks",
         "D) Pregestational T1 same malformation counseling always"
       ],
-      "answer": "C) Pregnancy IR unmasks hyperglycemia; fetal risks",
-      "explanation": "Placental hormones increase IR. Therefore, the most accurate choice is: Pregnancy IR unmasks hyperglycemia; fetal risks. Pregestational diabetes has different early risks.",
+      "answer": "C) Pregnancy insulin resistance unmasks hyperglycemia; fetal risks",
+      "explanation": "Placental hormones increase insulin resistance. Therefore, the most accurate choice is: Pregnancy insulin resistance unmasks hyperglycemia; fetal risks. Pregestational diabetes has different early risks.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Placental hormones increase IR. This matches the correct interpretation.",
+        "C": "Placental hormones increase insulin resistance. This matches the correct interpretation.",
         "D": "Pregestational diabetes has different early risks. It is less consistent than the correct choice."
       }
     },
     {
       "id": "endocrinology:medium:17",
-      "question": "A 28-year-old man is seen in clinic for suspected MODY. Which of the following is correct?",
+      "question": "A 37-year-old man is seen in clinic for suspected maturity-onset diabetes of the young. Which of the following is correct?",
       "options": [
-        "A) Monogenic young nonimmune diabetes; selected Rx",
+        "A) Monogenic young nonimmune diabetes; selected treatment",
         "B) Papillary young excellent always same",
         "C) T1 Abs always",
         "D) Classic obese T2 without Abs always"
       ],
-      "answer": "A) Monogenic young nonimmune diabetes; selected Rx",
-      "explanation": "Transcription factor/glucokinase mutations. Therefore, the most accurate choice is: Monogenic young nonimmune diabetes; selected Rx. T1 autoimmune markers.",
+      "answer": "A) Monogenic young nonimmune diabetes; selected treatment",
+      "explanation": "Transcription factor/glucokinase mutations. Therefore, the most accurate choice is: Monogenic young nonimmune diabetes; selected treatment. T1 autoimmune markers.",
       "choice_explanations": {
         "A": "Transcription factor/glucokinase mutations. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -868,12 +868,12 @@
     },
     {
       "id": "endocrinology:medium:18",
-      "question": "A 35-year-old woman develops symptoms of LADA. Which of the following is most accurate?",
+      "question": "A 44-year-old woman develops symptoms of latent autoimmune diabetes in adults. Which of the following is most accurate?",
       "options": [
         "A) Classic obese T2 without Abs always",
         "B) T1 Abs always",
         "C) Adult autoimmune diabetes with Abs; progresses to insulin",
-        "D) T2DM insulin resistance primary in obese adult without Abs"
+        "D) type 2 diabetes mellitus insulin resistance primary in obese adult without Abs"
       ],
       "answer": "C) Adult autoimmune diabetes with Abs; progresses to insulin",
       "explanation": "Latent autoimmune β-cell loss. Therefore, the most accurate choice is: Adult autoimmune diabetes with Abs; progresses to insulin. T2 typically autoantibody-negative.",
@@ -886,15 +886,15 @@
     },
     {
       "id": "endocrinology:medium:19",
-      "question": "A 72-year-old man is admitted with suspected graves disease. Which statement is correct?",
+      "question": "A 36-year-old man is admitted with suspected graves disease. Which statement is correct?",
       "options": [
-        "A) TSH-R stimulating Abs; high uptake; ATD/RAI/surgery",
-        "B) Thyroiditis low uptake leak identically Rx long ATD",
+        "A) TSH-R stimulating Abs; high uptake; antithyroid drug/radioactive iodine/surgery",
+        "B) Thyroiditis low uptake leak identically treatment long antithyroid drug",
         "C) Graves diffuse uptake identically",
-        "D) Graves high uptake chronic ATD identically"
+        "D) Graves high uptake chronic antithyroid drug identically"
       ],
-      "answer": "A) TSH-R stimulating Abs; high uptake; ATD/RAI/surgery",
-      "explanation": "TsAbs increase hormone synthesis. Therefore, the most accurate choice is: TSH-R stimulating Abs; high uptake; ATD/RAI/surgery. Thyroiditis releases stored hormone; uptake low.",
+      "answer": "A) TSH-R stimulating Abs; high uptake; antithyroid drug/radioactive iodine/surgery",
+      "explanation": "TsAbs increase hormone synthesis. Therefore, the most accurate choice is: TSH-R stimulating Abs; high uptake; antithyroid drug/radioactive iodine/surgery. Thyroiditis releases stored hormone; uptake low.",
       "choice_explanations": {
         "A": "TsAbs increase hormone synthesis. This matches the correct interpretation.",
         "B": "Thyroiditis releases stored hormone; uptake low. It is less consistent than the correct choice.",
@@ -904,15 +904,15 @@
     },
     {
       "id": "endocrinology:medium:20",
-      "question": "A 58-year-old man has examination findings of toxic adenoma. Which of the following is most accurate?",
+      "question": "A 67-year-old man has examination findings of toxic adenoma. Which of the following is most accurate?",
       "options": [
-        "A) Autonomous hot nodule; RAI/surgery",
-        "B) Thyroiditis low uptake leak identically Rx long ATD",
-        "C) Graves high uptake chronic ATD identically",
+        "A) Autonomous hot nodule; radioactive iodine/surgery",
+        "B) Thyroiditis low uptake leak identically treatment long antithyroid drug",
+        "C) Graves high uptake chronic antithyroid drug identically",
         "D) Graves diffuse uptake identically"
       ],
-      "answer": "A) Autonomous hot nodule; RAI/surgery",
-      "explanation": "Somatic activating mutation in one nodule. Therefore, the most accurate choice is: Autonomous hot nodule; RAI/surgery. Graves stimulates entire gland.",
+      "answer": "A) Autonomous hot nodule; radioactive iodine/surgery",
+      "explanation": "Somatic activating mutation in one nodule. Therefore, the most accurate choice is: Autonomous hot nodule; radioactive iodine/surgery. Graves stimulates entire gland.",
       "choice_explanations": {
         "A": "Somatic activating mutation in one nodule. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -922,10 +922,10 @@
     },
     {
       "id": "endocrinology:medium:21",
-      "question": "A 29-year-old man reports symptoms typical of thyroiditis thyrotoxic. Which of the following is correct?",
+      "question": "A 38-year-old man reports symptoms typical of thyroiditis thyrotoxic. Which of the following is correct?",
       "options": [
-        "A) Thyroiditis low uptake leak identically Rx long ATD",
-        "B) Graves high uptake chronic ATD identically",
+        "A) Thyroiditis low uptake leak identically treatment long antithyroid drug",
+        "B) Graves high uptake chronic antithyroid drug identically",
         "C) Low uptake transient thyrotoxicosis; β-block",
         "D) Graves diffuse uptake identically"
       ],
@@ -940,35 +940,35 @@
     },
     {
       "id": "endocrinology:medium:22",
-      "question": "A 33-year-old man is evaluated in the emergency department for hashimoto. Which of the following is most accurate?",
+      "question": "A 42-year-old man is evaluated in the emergency department for hashimoto. Which of the following is most accurate?",
       "options": [
-        "A) High total T4 on OCP equals hyperthyroidism always",
-        "B) High TSH defines central hypoT",
-        "C) Central hypo high TSH always",
-        "D) Anti-TPO hypothyroidism; levothyroxine"
+        "A) High total T4 on oral contraceptive pill equals hyperthyroidism always",
+        "B) High thyroid-stimulating hormone defines central hypoT",
+        "C) Central hypo high thyroid-stimulating hormone always",
+        "D) Anti-thyroid peroxidase hypothyroidism; levothyroxine"
       ],
-      "answer": "D) Anti-TPO hypothyroidism; levothyroxine",
-      "explanation": "Autoimmune destruction raises TSH. Therefore, the most accurate choice is: Anti-TPO hypothyroidism; levothyroxine. Central TSH low/inappropriately normal.",
+      "answer": "D) Anti-thyroid peroxidase hypothyroidism; levothyroxine",
+      "explanation": "Autoimmune destruction raises thyroid-stimulating hormone. Therefore, the most accurate choice is: Anti-thyroid peroxidase hypothyroidism; levothyroxine. Central thyroid-stimulating hormone low/inappropriately normal.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Central TSH low/inappropriately normal. It is less consistent than the correct choice.",
-        "D": "Autoimmune destruction raises TSH. This matches the correct interpretation."
+        "C": "Central thyroid-stimulating hormone low/inappropriately normal. It is less consistent than the correct choice.",
+        "D": "Autoimmune destruction raises thyroid-stimulating hormone. This matches the correct interpretation."
       }
     },
     {
       "id": "endocrinology:medium:23",
-      "question": "A 34-year-old woman is assessed for myxedema coma. Which of the following statements is correct?",
+      "question": "A 43-year-old woman is assessed for myxedema coma. Which of the following statements is correct?",
       "options": [
         "A) Oral outpatient T4 for myxedema coma",
-        "B) Decompensated hypoT crisis; IV thyroid hormone + support",
+        "B) Decompensated hypoT crisis; intravenous thyroid hormone + support",
         "C) Force oral glucose in unconscious patient",
         "D) Mild outpatient thyrotoxicosis identical urgency"
       ],
-      "answer": "B) Decompensated hypoT crisis; IV thyroid hormone + support",
-      "explanation": "Precipitated severe hypothyroidism. Therefore, the most accurate choice is: Decompensated hypoT crisis; IV thyroid hormone + support. Needs urgent IV/ICU care.",
+      "answer": "B) Decompensated hypoT crisis; intravenous thyroid hormone + support",
+      "explanation": "Precipitated severe hypothyroidism. Therefore, the most accurate choice is: Decompensated hypoT crisis; intravenous thyroid hormone + support. Needs urgent intravenous/intensive care unit care.",
       "choice_explanations": {
-        "A": "Needs urgent IV/ICU care. It is less consistent than the correct choice.",
+        "A": "Needs urgent intravenous/intensive care unit care. It is less consistent than the correct choice.",
         "B": "Precipitated severe hypothyroidism. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -976,33 +976,33 @@
     },
     {
       "id": "endocrinology:medium:24",
-      "question": "A 41-year-old man presents with a clinical picture of thyroid storm. Which of the following is most accurate?",
+      "question": "A 50-year-old man presents with a clinical picture of thyroid storm. Which of the following is most accurate?",
       "options": [
         "A) Delay steroids for prolonged testing if unstable",
-        "B) Papillary RAI ablation identically useful",
-        "C) RAI during uncontrolled storm first",
-        "D) Decompensated hyperT crisis; ATD then iodine, βB, steroids"
+        "B) Papillary radioactive iodine ablation identically useful",
+        "C) radioactive iodine during uncontrolled storm first",
+        "D) Decompensated hyperT crisis; antithyroid drug then iodine, βB, steroids"
       ],
-      "answer": "D) Decompensated hyperT crisis; ATD then iodine, βB, steroids",
-      "explanation": "Extreme hypermetabolic/adrenergic state. Therefore, the most accurate choice is: Decompensated hyperT crisis; ATD then iodine, βB, steroids. Stabilize medically before RAI.",
+      "answer": "D) Decompensated hyperT crisis; antithyroid drug then iodine, βB, steroids",
+      "explanation": "Extreme hypermetabolic/adrenergic state. Therefore, the most accurate choice is: Decompensated hyperT crisis; antithyroid drug then iodine, βB, steroids. Stabilize medically before radioactive iodine.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Stabilize medically before RAI. It is less consistent than the correct choice.",
+        "C": "Stabilize medically before radioactive iodine. It is less consistent than the correct choice.",
         "D": "Extreme hypermetabolic/adrenergic state. This matches the correct interpretation."
       }
     },
     {
       "id": "endocrinology:medium:25",
-      "question": "A 42-year-old woman is seen in clinic for suspected levothyroxine use. Which of the following is correct?",
+      "question": "A 51-year-old woman is seen in clinic for suspected levothyroxine use. Which of the following is correct?",
       "options": [
-        "A) Empty stomach; titrate TSH in primary; avoid Ca/Fe co-ingestion",
-        "B) Treat every TSH 4.5 with high-dose T4 always",
-        "C) Central hypo high TSH always",
+        "A) Empty stomach; titrate thyroid-stimulating hormone in primary; avoid Ca/Fe co-ingestion",
+        "B) Treat every thyroid-stimulating hormone 4.5 with high-dose T4 always",
+        "C) Central hypo high thyroid-stimulating hormone always",
         "D) Take with iron for better absorption"
       ],
-      "answer": "A) Empty stomach; titrate TSH in primary; avoid Ca/Fe co-ingestion",
-      "explanation": "T4→T3 peripheral; absorption interactions matter. Therefore, the most accurate choice is: Empty stomach; titrate TSH in primary; avoid Ca/Fe co-ingestion. Ca/Fe reduce absorption.",
+      "answer": "A) Empty stomach; titrate thyroid-stimulating hormone in primary; avoid Ca/Fe co-ingestion",
+      "explanation": "T4→T3 peripheral; absorption interactions matter. Therefore, the most accurate choice is: Empty stomach; titrate thyroid-stimulating hormone in primary; avoid Ca/Fe co-ingestion. Ca/Fe reduce absorption.",
       "choice_explanations": {
         "A": "T4→T3 peripheral; absorption interactions matter. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1012,33 +1012,33 @@
     },
     {
       "id": "endocrinology:medium:26",
-      "question": "A 31-year-old woman develops symptoms of central hypo T. Which of the following is most accurate?",
+      "question": "A 40-year-old woman develops symptoms of central hypo T. Which of the following is most accurate?",
       "options": [
-        "A) Low FT4 with low/normal TSH; replace after adrenal assessment",
-        "B) High TSH defines central hypoT",
-        "C) Treat every TSH 4.5 with high-dose T4 always",
-        "D) POI high FSH"
+        "A) Low free thyroxine with low/normal thyroid-stimulating hormone; replace after adrenal assessment",
+        "B) High thyroid-stimulating hormone defines central hypoT",
+        "C) Treat every thyroid-stimulating hormone 4.5 with high-dose T4 always",
+        "D) premature ovarian insufficiency high follicle-stimulating hormone"
       ],
-      "answer": "A) Low FT4 with low/normal TSH; replace after adrenal assessment",
-      "explanation": "Pituitary/hypothalamic failure. Therefore, the most accurate choice is: Low FT4 with low/normal TSH; replace after adrenal assessment. Primary hypoT has elevated TSH.",
+      "answer": "A) Low free thyroxine with low/normal thyroid-stimulating hormone; replace after adrenal assessment",
+      "explanation": "Pituitary/hypothalamic failure. Therefore, the most accurate choice is: Low free thyroxine with low/normal thyroid-stimulating hormone; replace after adrenal assessment. Primary hypoT has elevated thyroid-stimulating hormone.",
       "choice_explanations": {
         "A": "Pituitary/hypothalamic failure. This matches the correct interpretation.",
-        "B": "Primary hypoT has elevated TSH. It is less consistent than the correct choice.",
+        "B": "Primary hypoT has elevated thyroid-stimulating hormone. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "endocrinology:medium:27",
-      "question": "A 32-year-old man is admitted with suspected subclinical hypo T. Which statement is correct?",
+      "question": "A 41-year-old man is admitted with suspected subclinical hypo T. Which statement is correct?",
       "options": [
         "A) Stop long-term high-dose steroids abruptly always safe",
-        "B) High TSH defines central hypoT",
-        "C) ↑TSH normal FT4; treat selectively",
-        "D) Treat every TSH 4.5 with high-dose T4 always"
+        "B) High thyroid-stimulating hormone defines central hypoT",
+        "C) ↑thyroid-stimulating hormone normal free thyroxine; treat selectively",
+        "D) Treat every thyroid-stimulating hormone 4.5 with high-dose T4 always"
       ],
-      "answer": "C) ↑TSH normal FT4; treat selectively",
-      "explanation": "Early thyroid failure spectrum. Therefore, the most accurate choice is: ↑TSH normal FT4; treat selectively. Benefit not universal at mild elevations.",
+      "answer": "C) ↑thyroid-stimulating hormone normal free thyroxine; treat selectively",
+      "explanation": "Early thyroid failure spectrum. Therefore, the most accurate choice is: ↑thyroid-stimulating hormone normal free thyroxine; treat selectively. Benefit not universal at mild elevations.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1048,15 +1048,15 @@
     },
     {
       "id": "endocrinology:medium:28",
-      "question": "A 60-year-old man has examination findings of subclinical hyper T. Which of the following is most accurate?",
+      "question": "A 69-year-old man has examination findings of subclinical hyper T. Which of the following is most accurate?",
       "options": [
-        "A) ↓TSH normal FT4/T3; AF/osteoporosis risk",
-        "B) Treat every TSH 4.5 with high-dose T4 always",
-        "C) High TSH defines central hypoT",
-        "D) FNA every 3–4 mm nodule always"
+        "A) ↓thyroid-stimulating hormone normal free thyroxine/T3; atrial fibrillation/osteoporosis risk",
+        "B) Treat every thyroid-stimulating hormone 4.5 with high-dose T4 always",
+        "C) High thyroid-stimulating hormone defines central hypoT",
+        "D) fine-needle aspiration every 3–4 mm nodule always"
       ],
-      "answer": "A) ↓TSH normal FT4/T3; AF/osteoporosis risk",
-      "explanation": "Mild hormone excess affects heart/bone. Therefore, the most accurate choice is: ↓TSH normal FT4/T3; AF/osteoporosis risk. Elderly arrhythmogenic risk matters.",
+      "answer": "A) ↓thyroid-stimulating hormone normal free thyroxine/T3; atrial fibrillation/osteoporosis risk",
+      "explanation": "Mild hormone excess affects heart/bone. Therefore, the most accurate choice is: ↓thyroid-stimulating hormone normal free thyroxine/T3; atrial fibrillation/osteoporosis risk. Elderly arrhythmogenic risk matters.",
       "choice_explanations": {
         "A": "Mild hormone excess affects heart/bone. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1066,15 +1066,15 @@
     },
     {
       "id": "endocrinology:medium:29",
-      "question": "A 58-year-old man reports symptoms typical of nodule FNA. Which of the following is correct?",
+      "question": "A 67-year-old man reports symptoms typical of nodule fine-needle aspiration. Which of the following is correct?",
       "options": [
-        "A) Treat every TSH 4.5 with high-dose T4 always",
-        "B) FNA by sonographic risk/size systems",
-        "C) FNA every 3–4 mm nodule always",
-        "D) Start T without Hct/PSA risk discussion always"
+        "A) Treat every thyroid-stimulating hormone 4.5 with high-dose T4 always",
+        "B) fine-needle aspiration by sonographic risk/size systems",
+        "C) fine-needle aspiration every 3–4 mm nodule always",
+        "D) Start T without hematocrit/prostate-specific antigen risk discussion always"
       ],
-      "answer": "B) FNA by sonographic risk/size systems",
-      "explanation": "Cytology risk-stratifies. Therefore, the most accurate choice is: FNA by sonographic risk/size systems. Tiny low-risk nodules often observed.",
+      "answer": "B) fine-needle aspiration by sonographic risk/size systems",
+      "explanation": "Cytology risk-stratifies. Therefore, the most accurate choice is: fine-needle aspiration by sonographic risk/size systems. Tiny low-risk nodules often observed.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Cytology risk-stratifies. This matches the correct interpretation.",
@@ -1086,51 +1086,51 @@
   "hard": [
     {
       "id": "endocrinology:hard:0",
-      "question": "A 50-year-old man is evaluated for possible t1DM autoimmune. Which of the following is most accurate?",
+      "question": "A 59-year-old man is evaluated for possible t1DM autoimmune. Which of the following is most accurate?",
       "options": [
         "A) Autoimmune β-cell destruction requiring insulin",
-        "B) T2DM insulin resistance primary in obese adult without Abs",
+        "B) type 2 diabetes mellitus insulin resistance primary in obese adult without Abs",
         "C) Classic obese T2 without Abs always",
-        "D) T1DM absolute ketosis-prone autoimmune always"
+        "D) type 1 diabetes mellitus absolute ketosis-prone autoimmune always"
       ],
       "answer": "A) Autoimmune β-cell destruction requiring insulin",
-      "explanation": "T-cell mediated islet loss causes absolute insulin deficiency. Therefore, the most accurate choice is: Autoimmune β-cell destruction requiring insulin. T2DM is relative deficiency with resistance.",
+      "explanation": "T-cell mediated islet loss causes absolute insulin deficiency. Therefore, the most accurate choice is: Autoimmune β-cell destruction requiring insulin. type 2 diabetes mellitus is relative deficiency with resistance.",
       "choice_explanations": {
         "A": "T-cell mediated islet loss causes absolute insulin deficiency. This matches the correct interpretation.",
-        "B": "T2DM is relative deficiency with resistance. It is less consistent than the correct choice.",
+        "B": "type 2 diabetes mellitus is relative deficiency with resistance. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "endocrinology:hard:1",
-      "question": "Two similar explanations for T2DM IR are compared. Which of the following is correct?",
+      "question": "Two similar explanations for type 2 diabetes mellitus insulin resistance are compared. Which of the following is correct?",
       "options": [
-        "A) Hold K entirely throughout DKA always",
-        "B) T2DM insulin resistance primary in obese adult without Abs",
+        "A) Hold K entirely throughout diabetic ketoacidosis always",
+        "B) type 2 diabetes mellitus insulin resistance primary in obese adult without Abs",
         "C) Insulin resistance with relative insulin deficiency",
-        "D) T1DM absolute ketosis-prone autoimmune always"
+        "D) type 1 diabetes mellitus absolute ketosis-prone autoimmune always"
       ],
       "answer": "C) Insulin resistance with relative insulin deficiency",
-      "explanation": "Adiposity/genetics impair insulin signaling. Therefore, the most accurate choice is: Insulin resistance with relative insulin deficiency. T1DM is autoimmune absolute deficiency.",
+      "explanation": "Adiposity/genetics impair insulin signaling. Therefore, the most accurate choice is: Insulin resistance with relative insulin deficiency. type 1 diabetes mellitus is autoimmune absolute deficiency.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Adiposity/genetics impair insulin signaling. This matches the correct interpretation.",
-        "D": "T1DM is autoimmune absolute deficiency. It is less consistent than the correct choice."
+        "D": "type 1 diabetes mellitus is autoimmune absolute deficiency. It is less consistent than the correct choice."
       }
     },
     {
       "id": "endocrinology:hard:2",
-      "question": "A 17-year-old man is evaluated for DKA triad. Which of the following is the best interpretation?",
+      "question": "A 11-year-old man is evaluated for diabetic ketoacidosis triad. Which of the following is the best interpretation?",
       "options": [
-        "A) DKA with large ketones always",
-        "B) T1DM absolute ketosis-prone autoimmune always",
-        "C) Hold K entirely throughout DKA always",
-        "D) Hyperglycemia + ketosis + HAGMA; insulin fluids K"
+        "A) diabetic ketoacidosis with large ketones always",
+        "B) type 1 diabetes mellitus absolute ketosis-prone autoimmune always",
+        "C) Hold K entirely throughout diabetic ketoacidosis always",
+        "D) Hyperglycemia + ketosis + high anion-gap metabolic acidosis; insulin fluids K"
       ],
-      "answer": "D) Hyperglycemia + ketosis + HAGMA; insulin fluids K",
-      "explanation": "Insulin lack drives ketogenesis; total-body K depleted. Therefore, the most accurate choice is: Hyperglycemia + ketosis + HAGMA; insulin fluids K. Insulin shifts K intracellularly—replace carefully.",
+      "answer": "D) Hyperglycemia + ketosis + high anion-gap metabolic acidosis; insulin fluids K",
+      "explanation": "Insulin lack drives ketogenesis; total-body K depleted. Therefore, the most accurate choice is: Hyperglycemia + ketosis + high anion-gap metabolic acidosis; insulin fluids K. Insulin shifts K intracellularly—replace carefully.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1140,20 +1140,20 @@
     },
     {
       "id": "endocrinology:hard:3",
-      "question": "A 17-year-old woman has suspected HHS, and similar diagnoses remain possible. Which of the following is most accurate?",
+      "question": "A 11-year-old woman has suspected hyperosmolar hyperglycemic state, and similar diagnoses remain possible. Which of the following is most accurate?",
       "options": [
-        "A) T1DM absolute ketosis-prone autoimmune always",
+        "A) type 1 diabetes mellitus absolute ketosis-prone autoimmune always",
         "B) Marked hyperglycemia/hyperosmolarity without major ketosis; fluids first",
-        "C) Hold K entirely throughout DKA always",
-        "D) DKA with large ketones always"
+        "C) Hold K entirely throughout diabetic ketoacidosis always",
+        "D) diabetic ketoacidosis with large ketones always"
       ],
       "answer": "B) Marked hyperglycemia/hyperosmolarity without major ketosis; fluids first",
-      "explanation": "Enough insulin to block ketosis but not hyperglycemia. Therefore, the most accurate choice is: Marked hyperglycemia/hyperosmolarity without major ketosis; fluids first. DKA features prominent ketosis/acidosis.",
+      "explanation": "Enough insulin to block ketosis but not hyperglycemia. Therefore, the most accurate choice is: Marked hyperglycemia/hyperosmolarity without major ketosis; fluids first. diabetic ketoacidosis features prominent ketosis/acidosis.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Enough insulin to block ketosis but not hyperglycemia. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "DKA features prominent ketosis/acidosis. It is less consistent than the correct choice."
+        "D": "diabetic ketoacidosis features prominent ketosis/acidosis. It is less consistent than the correct choice."
       }
     },
     {
@@ -1162,7 +1162,7 @@
       "options": [
         "A) Metformin secretagogue identically",
         "B) Decreases hepatic gluconeogenesis; low hypo risk alone",
-        "C) SU secretagogue high hypo risk identically",
+        "C) sulfonylurea secretagogue high hypo risk identically",
         "D) Exogenous insulin low C-peptide identically"
       ],
       "answer": "B) Decreases hepatic gluconeogenesis; low hypo risk alone",
@@ -1176,15 +1176,15 @@
     },
     {
       "id": "endocrinology:hard:5",
-      "question": "A 67-year-old man presents with features compatible with sulfonylurea. Which of the following is most accurate?",
+      "question": "A 31-year-old man presents with features compatible with sulfonylurea. Which of the following is most accurate?",
       "options": [
-        "A) SU common hypoglycemia identically",
+        "A) sulfonylurea common hypoglycemia identically",
         "B) Metformin secretagogue identically",
-        "C) Closes β-cell KATP channels stimulating insulin",
-        "D) SU secretagogue high hypo risk identically"
+        "C) Closes β-cell ATP-sensitive potassium channel channels stimulating insulin",
+        "D) sulfonylurea secretagogue high hypo risk identically"
       ],
-      "answer": "C) Closes β-cell KATP channels stimulating insulin",
-      "explanation": "Glucose-independent insulin release risk hypoglycemia. Therefore, the most accurate choice is: Closes β-cell KATP channels stimulating insulin. Metformin not a secretagogue.",
+      "answer": "C) Closes β-cell ATP-sensitive potassium channel channels stimulating insulin",
+      "explanation": "Glucose-independent insulin release risk hypoglycemia. Therefore, the most accurate choice is: Closes β-cell ATP-sensitive potassium channel channels stimulating insulin. Metformin not a secretagogue.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Metformin not a secretagogue. It is less consistent than the correct choice.",
@@ -1194,15 +1194,15 @@
     },
     {
       "id": "endocrinology:hard:6",
-      "question": "Which statement about sGLT2i in a 16-year-old woman is most accurate?",
+      "question": "Which statement about sGLT2i in a 10-year-old woman is most accurate?",
       "options": [
-        "A) SU common hypoglycemia identically",
-        "B) Block PCT glucose reabsorption; HF/CKD benefit; euglycemic DKA risk",
-        "C) SU secretagogue high hypo risk identically",
-        "D) SGLT2 volume loss identically"
+        "A) sulfonylurea common hypoglycemia identically",
+        "B) Block procalcitonin glucose reabsorption; heart failure/chronic kidney disease benefit; euglycemic diabetic ketoacidosis risk",
+        "C) sulfonylurea secretagogue high hypo risk identically",
+        "D) sodium-glucose cotransporter 2 volume loss identically"
       ],
-      "answer": "B) Block PCT glucose reabsorption; HF/CKD benefit; euglycemic DKA risk",
-      "explanation": "Glycosuria/natriuresis mechanisms. Therefore, the most accurate choice is: Block PCT glucose reabsorption; HF/CKD benefit; euglycemic DKA risk. Not insulin secretagogues.",
+      "answer": "B) Block procalcitonin glucose reabsorption; heart failure/chronic kidney disease benefit; euglycemic diabetic ketoacidosis risk",
+      "explanation": "Glycosuria/natriuresis mechanisms. Therefore, the most accurate choice is: Block procalcitonin glucose reabsorption; heart failure/chronic kidney disease benefit; euglycemic diabetic ketoacidosis risk. Not insulin secretagogues.",
       "choice_explanations": {
         "A": "Not insulin secretagogues. It is less consistent than the correct choice.",
         "B": "Glycosuria/natriuresis mechanisms. This matches the correct interpretation.",
@@ -1212,19 +1212,19 @@
     },
     {
       "id": "endocrinology:hard:7",
-      "question": "Which of the following is the best statement about GLP1 RA?",
+      "question": "Which of the following is the best statement about glucagon-like peptide-1 rheumatoid arthritis?",
       "options": [
         "A) Primary hyperPTH high Ca surgery always same",
-        "B) Glucose-dependent insulin, weight loss, some MACE benefit",
-        "C) DPP4 same weight loss always",
-        "D) GLP1 RA identical potency/weight"
+        "B) Glucose-dependent insulin, weight loss, some major adverse cardiovascular events benefit",
+        "C) dipeptidyl peptidase-4 same weight loss always",
+        "D) glucagon-like peptide-1 rheumatoid arthritis identical potency/weight"
       ],
-      "answer": "B) Glucose-dependent insulin, weight loss, some MACE benefit",
-      "explanation": "Pharmacologic incretin receptor agonism. Therefore, the most accurate choice is: Glucose-dependent insulin, weight loss, some MACE benefit. DPP4 only modestly raises endogenous GLP1.",
+      "answer": "B) Glucose-dependent insulin, weight loss, some major adverse cardiovascular events benefit",
+      "explanation": "Pharmacologic incretin receptor agonism. Therefore, the most accurate choice is: Glucose-dependent insulin, weight loss, some major adverse cardiovascular events benefit. dipeptidyl peptidase-4 only modestly raises endogenous glucagon-like peptide-1.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Pharmacologic incretin receptor agonism. This matches the correct interpretation.",
-        "C": "DPP4 only modestly raises endogenous GLP1. It is less consistent than the correct choice.",
+        "C": "dipeptidyl peptidase-4 only modestly raises endogenous glucagon-like peptide-1. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -1232,33 +1232,33 @@
       "id": "endocrinology:hard:8",
       "question": "Careful review of dPP4i is required. Which of the following is most accurate?",
       "options": [
-        "A) SU secretagogue high hypo risk identically",
-        "B) DPP4 same weight loss always",
-        "C) GLP1 RA identical potency/weight",
+        "A) sulfonylurea secretagogue high hypo risk identically",
+        "B) dipeptidyl peptidase-4 same weight loss always",
+        "C) glucagon-like peptide-1 rheumatoid arthritis identical potency/weight",
         "D) Prolong incretins; weight-neutral; low hypo alone"
       ],
       "answer": "D) Prolong incretins; weight-neutral; low hypo alone",
-      "explanation": "Inhibit degradation of endogenous GLP1/GIP. Therefore, the most accurate choice is: Prolong incretins; weight-neutral; low hypo alone. GLP1 RA stronger.",
+      "explanation": "Inhibit degradation of endogenous glucagon-like peptide-1/GIP. Therefore, the most accurate choice is: Prolong incretins; weight-neutral; low hypo alone. glucagon-like peptide-1 rheumatoid arthritis stronger.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "GLP1 RA stronger. It is less consistent than the correct choice.",
-        "D": "Inhibit degradation of endogenous GLP1/GIP. This matches the correct interpretation."
+        "C": "glucagon-like peptide-1 rheumatoid arthritis stronger. It is less consistent than the correct choice.",
+        "D": "Inhibit degradation of endogenous glucagon-like peptide-1/GIP. This matches the correct interpretation."
       }
     },
     {
       "id": "endocrinology:hard:9",
-      "question": "A 41-year-old woman has findings suggestive of TZD. Which of the following is the best interpretation?",
+      "question": "A 50-year-old woman has findings suggestive of thiazolidinedione. Which of the following is the best interpretation?",
       "options": [
-        "A) SGLT2 volume loss identically",
-        "B) DPP4 same weight loss always",
-        "C) SU common hypoglycemia identically",
-        "D) PPARγ sensitizer; edema/HF risk"
+        "A) sodium-glucose cotransporter 2 volume loss identically",
+        "B) dipeptidyl peptidase-4 same weight loss always",
+        "C) sulfonylurea common hypoglycemia identically",
+        "D) PPARγ sensitizer; edema/heart failure risk"
       ],
-      "answer": "D) PPARγ sensitizer; edema/HF risk",
-      "explanation": "Improves adipose insulin sensitivity. Therefore, the most accurate choice is: PPARγ sensitizer; edema/HF risk. SGLT2 causes volume loss.",
+      "answer": "D) PPARγ sensitizer; edema/heart failure risk",
+      "explanation": "Improves adipose insulin sensitivity. Therefore, the most accurate choice is: PPARγ sensitizer; edema/heart failure risk. sodium-glucose cotransporter 2 causes volume loss.",
       "choice_explanations": {
-        "A": "SGLT2 causes volume loss. It is less consistent than the correct choice.",
+        "A": "sodium-glucose cotransporter 2 causes volume loss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Improves adipose insulin sensitivity. This matches the correct interpretation."
@@ -1266,12 +1266,12 @@
     },
     {
       "id": "endocrinology:hard:10",
-      "question": "In a 36-year-old man, basal-bolus must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 45-year-old man, basal-bolus must be separated from similar conditions. Which of the following is correct?",
       "options": [
         "A) Basal covers hepatic output; bolus covers meals",
-        "B) DPP4 same weight loss always",
+        "B) dipeptidyl peptidase-4 same weight loss always",
         "C) Basal alone covers all meals in T1 always",
-        "D) Hold K entirely throughout DKA always"
+        "D) Hold K entirely throughout diabetic ketoacidosis always"
       ],
       "answer": "A) Basal covers hepatic output; bolus covers meals",
       "explanation": "Mimics physiologic insulin pattern. Therefore, the most accurate choice is: Basal covers hepatic output; bolus covers meals. Prandial needs remain in T1.",
@@ -1284,15 +1284,15 @@
     },
     {
       "id": "endocrinology:hard:11",
-      "question": "A 64-year-old man returns for review of suspected hypoglycemia. Which of the following is most accurate?",
+      "question": "A 28-year-old man returns for review of suspected hypoglycemia. Which of the following is most accurate?",
       "options": [
-        "A) Fast carbs if able; glucagon if severe/NPO",
+        "A) Fast carbs if able; glucagon if severe/nothing by mouth",
         "B) Give more insulin for hypo",
-        "C) Increase night insulin blindly for all AM highs without data",
+        "C) Increase night insulin blindly for all morning highs without data",
         "D) Force oral glucose in unconscious patient"
       ],
-      "answer": "A) Fast carbs if able; glucagon if severe/NPO",
-      "explanation": "Restore glucose delivery to brain. Therefore, the most accurate choice is: Fast carbs if able; glucagon if severe/NPO. Insulin worsens hypoglycemia.",
+      "answer": "A) Fast carbs if able; glucagon if severe/nothing by mouth",
+      "explanation": "Restore glucose delivery to brain. Therefore, the most accurate choice is: Fast carbs if able; glucagon if severe/nothing by mouth. Insulin worsens hypoglycemia.",
       "choice_explanations": {
         "A": "Restore glucose delivery to brain. This matches the correct interpretation.",
         "B": "Insulin worsens hypoglycemia. It is less consistent than the correct choice.",
@@ -1304,9 +1304,9 @@
       "id": "endocrinology:hard:12",
       "question": "A clinic case of retinopathy screen is discussed. Which of the following is correct?",
       "options": [
-        "A) SGLT2 volume loss identically",
+        "A) sodium-glucose cotransporter 2 volume loss identically",
         "B) Regular dilated exams even if asymptomatic",
-        "C) Screen first with 1,25-OH always",
+        "C) Screen first with 1,25-orthostatic hypotension always",
         "D) Screen only after vision loss"
       ],
       "answer": "B) Regular dilated exams even if asymptomatic",
@@ -1320,15 +1320,15 @@
     },
     {
       "id": "endocrinology:hard:13",
-      "question": "A 66-year-old man presents with features compatible with diabetic nephropathy. Which of the following is most accurate?",
+      "question": "A 30-year-old man presents with features compatible with diabetic nephropathy. Which of the following is most accurate?",
       "options": [
         "A) Screen only after vision loss",
-        "B) Albuminuria then GFR loss; RAS block + SGLT2i",
-        "C) SGLT2 volume loss identically",
-        "D) DPP4 same weight loss always"
+        "B) Albuminuria then glomerular filtration rate loss; renal artery stenosis block + SGLT2i",
+        "C) sodium-glucose cotransporter 2 volume loss identically",
+        "D) dipeptidyl peptidase-4 same weight loss always"
       ],
-      "answer": "B) Albuminuria then GFR loss; RAS block + SGLT2i",
-      "explanation": "Glomerular injury leaks albumin early. Therefore, the most accurate choice is: Albuminuria then GFR loss; RAS block + SGLT2i. Albuminuria often precedes Cr rise.",
+      "answer": "B) Albuminuria then glomerular filtration rate loss; renal artery stenosis block + SGLT2i",
+      "explanation": "Glomerular injury leaks albumin early. Therefore, the most accurate choice is: Albuminuria then glomerular filtration rate loss; renal artery stenosis block + SGLT2i. Albuminuria often precedes Cr rise.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Glomerular injury leaks albumin early. This matches the correct interpretation.",
@@ -1338,30 +1338,30 @@
     },
     {
       "id": "endocrinology:hard:14",
-      "question": "Which statement about neuropathy DM in a 61-year-old man is most accurate?",
+      "question": "Which statement about neuropathy diabetes mellitus in a 70-year-old man is most accurate?",
       "options": [
-        "A) Prolactinoma DA first identically always",
-        "B) DKA with large ketones always",
-        "C) CIDP first-line always",
+        "A) Prolactinoma dopamine first identically always",
+        "B) diabetic ketoacidosis with large ketones always",
+        "C) chronic inflammatory demyelinating polyneuropathy first-line always",
         "D) Length-dependent sensory polyneuropathy; foot care"
       ],
       "answer": "D) Length-dependent sensory polyneuropathy; foot care",
-      "explanation": "Metabolic axonal injury distal first. Therefore, the most accurate choice is: Length-dependent sensory polyneuropathy; foot care. CIDP is autoimmune demyelinating.",
+      "explanation": "Metabolic axonal injury distal first. Therefore, the most accurate choice is: Length-dependent sensory polyneuropathy; foot care. chronic inflammatory demyelinating polyneuropathy is autoimmune demyelinating.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "CIDP is autoimmune demyelinating. It is less consistent than the correct choice.",
+        "C": "chronic inflammatory demyelinating polyneuropathy is autoimmune demyelinating. It is less consistent than the correct choice.",
         "D": "Metabolic axonal injury distal first. This matches the correct interpretation."
       }
     },
     {
       "id": "endocrinology:hard:15",
-      "question": "After examining a 56-year-old man, which statement about hb A1c is correct?",
+      "question": "After examining a 65-year-old man, which statement about hemoglobin A1c is correct?",
       "options": [
         "A) Reflects ~3-month mean glucose",
-        "B) Pituitary Cushing high ACTH identically",
-        "C) Thyroiditis low uptake leak identically Rx long ATD",
-        "D) SU common hypoglycemia identically"
+        "B) Pituitary Cushing high adrenocorticotropic hormone identically",
+        "C) Thyroiditis low uptake leak identically treatment long antithyroid drug",
+        "D) sulfonylurea common hypoglycemia identically"
       ],
       "answer": "A) Reflects ~3-month mean glucose",
       "explanation": "Hb glycation integrates exposure. Therefore, the most accurate choice is: Reflects ~3-month mean glucose. FPG is a single snapshot.",
@@ -1374,33 +1374,33 @@
     },
     {
       "id": "endocrinology:hard:16",
-      "question": "Careful review of GDM is required. Which of the following is most accurate?",
+      "question": "Careful review of gestational diabetes mellitus is required. Which of the following is most accurate?",
       "options": [
         "A) Primary hyperPTH high Ca surgery always same",
-        "B) Pregnancy IR unmasks hyperglycemia; fetal risks",
-        "C) Hold K entirely throughout DKA always",
+        "B) Pregnancy insulin resistance unmasks hyperglycemia; fetal risks",
+        "C) Hold K entirely throughout diabetic ketoacidosis always",
         "D) Pregestational T1 same malformation counseling always"
       ],
-      "answer": "B) Pregnancy IR unmasks hyperglycemia; fetal risks",
-      "explanation": "Placental hormones increase IR. Therefore, the most accurate choice is: Pregnancy IR unmasks hyperglycemia; fetal risks. Pregestational diabetes has different early risks.",
+      "answer": "B) Pregnancy insulin resistance unmasks hyperglycemia; fetal risks",
+      "explanation": "Placental hormones increase insulin resistance. Therefore, the most accurate choice is: Pregnancy insulin resistance unmasks hyperglycemia; fetal risks. Pregestational diabetes has different early risks.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Placental hormones increase IR. This matches the correct interpretation.",
+        "B": "Placental hormones increase insulin resistance. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Pregestational diabetes has different early risks. It is less consistent than the correct choice."
       }
     },
     {
       "id": "endocrinology:hard:17",
-      "question": "A 28-year-old man has findings suggestive of MODY. Which of the following is the best interpretation?",
+      "question": "A 37-year-old man has findings suggestive of maturity-onset diabetes of the young. Which of the following is the best interpretation?",
       "options": [
         "A) Classic obese T2 without Abs always",
         "B) Papillary young excellent always same",
         "C) T1 Abs always",
-        "D) Monogenic young nonimmune diabetes; selected Rx"
+        "D) Monogenic young nonimmune diabetes; selected treatment"
       ],
-      "answer": "D) Monogenic young nonimmune diabetes; selected Rx",
-      "explanation": "Transcription factor/glucokinase mutations. Therefore, the most accurate choice is: Monogenic young nonimmune diabetes; selected Rx. T1 autoimmune markers.",
+      "answer": "D) Monogenic young nonimmune diabetes; selected treatment",
+      "explanation": "Transcription factor/glucokinase mutations. Therefore, the most accurate choice is: Monogenic young nonimmune diabetes; selected treatment. T1 autoimmune markers.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1410,10 +1410,10 @@
     },
     {
       "id": "endocrinology:hard:18",
-      "question": "In a 35-year-old woman, LADA must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 44-year-old woman, latent autoimmune diabetes in adults must be separated from similar conditions. Which of the following is correct?",
       "options": [
         "A) T1 Abs always",
-        "B) T2DM insulin resistance primary in obese adult without Abs",
+        "B) type 2 diabetes mellitus insulin resistance primary in obese adult without Abs",
         "C) Classic obese T2 without Abs always",
         "D) Adult autoimmune diabetes with Abs; progresses to insulin"
       ],
@@ -1428,15 +1428,15 @@
     },
     {
       "id": "endocrinology:hard:19",
-      "question": "A 72-year-old man returns for review of suspected graves disease. Which of the following is most accurate?",
+      "question": "A 36-year-old man returns for review of suspected graves disease. Which of the following is most accurate?",
       "options": [
         "A) Graves diffuse uptake identically",
-        "B) TSH-R stimulating Abs; high uptake; ATD/RAI/surgery",
-        "C) Thyroiditis low uptake leak identically Rx long ATD",
-        "D) Graves high uptake chronic ATD identically"
+        "B) TSH-R stimulating Abs; high uptake; antithyroid drug/radioactive iodine/surgery",
+        "C) Thyroiditis low uptake leak identically treatment long antithyroid drug",
+        "D) Graves high uptake chronic antithyroid drug identically"
       ],
-      "answer": "B) TSH-R stimulating Abs; high uptake; ATD/RAI/surgery",
-      "explanation": "TsAbs increase hormone synthesis. Therefore, the most accurate choice is: TSH-R stimulating Abs; high uptake; ATD/RAI/surgery. Thyroiditis releases stored hormone; uptake low.",
+      "answer": "B) TSH-R stimulating Abs; high uptake; antithyroid drug/radioactive iodine/surgery",
+      "explanation": "TsAbs increase hormone synthesis. Therefore, the most accurate choice is: TSH-R stimulating Abs; high uptake; antithyroid drug/radioactive iodine/surgery. Thyroiditis releases stored hormone; uptake low.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "TsAbs increase hormone synthesis. This matches the correct interpretation.",
@@ -1448,13 +1448,13 @@
       "id": "endocrinology:hard:20",
       "question": "A clinic case of toxic adenoma is discussed. Which of the following is correct?",
       "options": [
-        "A) Graves high uptake chronic ATD identically",
-        "B) Thyroiditis low uptake leak identically Rx long ATD",
-        "C) Autonomous hot nodule; RAI/surgery",
+        "A) Graves high uptake chronic antithyroid drug identically",
+        "B) Thyroiditis low uptake leak identically treatment long antithyroid drug",
+        "C) Autonomous hot nodule; radioactive iodine/surgery",
         "D) Graves diffuse uptake identically"
       ],
-      "answer": "C) Autonomous hot nodule; RAI/surgery",
-      "explanation": "Somatic activating mutation in one nodule. Therefore, the most accurate choice is: Autonomous hot nodule; RAI/surgery. Graves stimulates entire gland.",
+      "answer": "C) Autonomous hot nodule; radioactive iodine/surgery",
+      "explanation": "Somatic activating mutation in one nodule. Therefore, the most accurate choice is: Autonomous hot nodule; radioactive iodine/surgery. Graves stimulates entire gland.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1464,11 +1464,11 @@
     },
     {
       "id": "endocrinology:hard:21",
-      "question": "A 29-year-old man presents with features compatible with thyroiditis thyrotoxic. Which of the following is most accurate?",
+      "question": "A 38-year-old man presents with features compatible with thyroiditis thyrotoxic. Which of the following is most accurate?",
       "options": [
-        "A) Thyroiditis low uptake leak identically Rx long ATD",
+        "A) Thyroiditis low uptake leak identically treatment long antithyroid drug",
         "B) Low uptake transient thyrotoxicosis; β-block",
-        "C) Graves high uptake chronic ATD identically",
+        "C) Graves high uptake chronic antithyroid drug identically",
         "D) Graves diffuse uptake identically"
       ],
       "answer": "B) Low uptake transient thyrotoxicosis; β-block",
@@ -1482,69 +1482,69 @@
     },
     {
       "id": "endocrinology:hard:22",
-      "question": "Which statement about hashimoto in a 33-year-old man is most accurate?",
+      "question": "Which statement about hashimoto in a 42-year-old man is most accurate?",
       "options": [
-        "A) Anti-TPO hypothyroidism; levothyroxine",
-        "B) Central hypo high TSH always",
-        "C) High TSH defines central hypoT",
-        "D) High total T4 on OCP equals hyperthyroidism always"
+        "A) Anti-thyroid peroxidase hypothyroidism; levothyroxine",
+        "B) Central hypo high thyroid-stimulating hormone always",
+        "C) High thyroid-stimulating hormone defines central hypoT",
+        "D) High total T4 on oral contraceptive pill equals hyperthyroidism always"
       ],
-      "answer": "A) Anti-TPO hypothyroidism; levothyroxine",
-      "explanation": "Autoimmune destruction raises TSH. Therefore, the most accurate choice is: Anti-TPO hypothyroidism; levothyroxine. Central TSH low/inappropriately normal.",
+      "answer": "A) Anti-thyroid peroxidase hypothyroidism; levothyroxine",
+      "explanation": "Autoimmune destruction raises thyroid-stimulating hormone. Therefore, the most accurate choice is: Anti-thyroid peroxidase hypothyroidism; levothyroxine. Central thyroid-stimulating hormone low/inappropriately normal.",
       "choice_explanations": {
-        "A": "Autoimmune destruction raises TSH. This matches the correct interpretation.",
-        "B": "Central TSH low/inappropriately normal. It is less consistent than the correct choice.",
+        "A": "Autoimmune destruction raises thyroid-stimulating hormone. This matches the correct interpretation.",
+        "B": "Central thyroid-stimulating hormone low/inappropriately normal. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "endocrinology:hard:23",
-      "question": "A 34-year-old woman has progressive findings of myxedema coma. Which of the following is most accurate?",
+      "question": "A 43-year-old woman has progressive findings of myxedema coma. Which of the following is most accurate?",
       "options": [
         "A) Force oral glucose in unconscious patient",
         "B) Mild outpatient thyrotoxicosis identical urgency",
         "C) Oral outpatient T4 for myxedema coma",
-        "D) Decompensated hypoT crisis; IV thyroid hormone + support"
+        "D) Decompensated hypoT crisis; intravenous thyroid hormone + support"
       ],
-      "answer": "D) Decompensated hypoT crisis; IV thyroid hormone + support",
-      "explanation": "Precipitated severe hypothyroidism. Therefore, the most accurate choice is: Decompensated hypoT crisis; IV thyroid hormone + support. Needs urgent IV/ICU care.",
+      "answer": "D) Decompensated hypoT crisis; intravenous thyroid hormone + support",
+      "explanation": "Precipitated severe hypothyroidism. Therefore, the most accurate choice is: Decompensated hypoT crisis; intravenous thyroid hormone + support. Needs urgent intravenous/intensive care unit care.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Needs urgent IV/ICU care. It is less consistent than the correct choice.",
+        "C": "Needs urgent intravenous/intensive care unit care. It is less consistent than the correct choice.",
         "D": "Precipitated severe hypothyroidism. This matches the correct interpretation."
       }
     },
     {
       "id": "endocrinology:hard:24",
-      "question": "A 41-year-old man presents with findings that overlap several diagnoses, including thyroid storm. Which of the following is most accurate?",
+      "question": "A 50-year-old man presents with findings that overlap several diagnoses, including thyroid storm. Which of the following is most accurate?",
       "options": [
-        "A) Decompensated hyperT crisis; ATD then iodine, βB, steroids",
+        "A) Decompensated hyperT crisis; antithyroid drug then iodine, βB, steroids",
         "B) Delay steroids for prolonged testing if unstable",
-        "C) RAI during uncontrolled storm first",
-        "D) Papillary RAI ablation identically useful"
+        "C) radioactive iodine during uncontrolled storm first",
+        "D) Papillary radioactive iodine ablation identically useful"
       ],
-      "answer": "A) Decompensated hyperT crisis; ATD then iodine, βB, steroids",
-      "explanation": "Extreme hypermetabolic/adrenergic state. Therefore, the most accurate choice is: Decompensated hyperT crisis; ATD then iodine, βB, steroids. Stabilize medically before RAI.",
+      "answer": "A) Decompensated hyperT crisis; antithyroid drug then iodine, βB, steroids",
+      "explanation": "Extreme hypermetabolic/adrenergic state. Therefore, the most accurate choice is: Decompensated hyperT crisis; antithyroid drug then iodine, βB, steroids. Stabilize medically before radioactive iodine.",
       "choice_explanations": {
         "A": "Extreme hypermetabolic/adrenergic state. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Stabilize medically before RAI. It is less consistent than the correct choice.",
+        "C": "Stabilize medically before radioactive iodine. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "endocrinology:hard:25",
-      "question": "A 42-year-old woman has findings suggestive of levothyroxine use. Which of the following is the best interpretation?",
+      "question": "A 51-year-old woman has findings suggestive of levothyroxine use. Which of the following is the best interpretation?",
       "options": [
         "A) Take with iron for better absorption",
-        "B) Empty stomach; titrate TSH in primary; avoid Ca/Fe co-ingestion",
-        "C) Central hypo high TSH always",
-        "D) High TSH defines central hypoT"
+        "B) Empty stomach; titrate thyroid-stimulating hormone in primary; avoid Ca/Fe co-ingestion",
+        "C) Central hypo high thyroid-stimulating hormone always",
+        "D) High thyroid-stimulating hormone defines central hypoT"
       ],
-      "answer": "B) Empty stomach; titrate TSH in primary; avoid Ca/Fe co-ingestion",
-      "explanation": "T4→T3 peripheral; absorption interactions matter. Therefore, the most accurate choice is: Empty stomach; titrate TSH in primary; avoid Ca/Fe co-ingestion. Ca/Fe reduce absorption.",
+      "answer": "B) Empty stomach; titrate thyroid-stimulating hormone in primary; avoid Ca/Fe co-ingestion",
+      "explanation": "T4→T3 peripheral; absorption interactions matter. Therefore, the most accurate choice is: Empty stomach; titrate thyroid-stimulating hormone in primary; avoid Ca/Fe co-ingestion. Ca/Fe reduce absorption.",
       "choice_explanations": {
         "A": "Ca/Fe reduce absorption. It is less consistent than the correct choice.",
         "B": "T4→T3 peripheral; absorption interactions matter. This matches the correct interpretation.",
@@ -1554,18 +1554,18 @@
     },
     {
       "id": "endocrinology:hard:26",
-      "question": "In a 31-year-old woman, central hypo T must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 40-year-old woman, central hypo T must be separated from similar conditions. Which of the following is correct?",
       "options": [
-        "A) Low FT4 with low/normal TSH; replace after adrenal assessment",
-        "B) High TSH defines central hypoT",
-        "C) Treat every TSH 4.5 with high-dose T4 always",
-        "D) Pituitary Cushing high ACTH identically"
+        "A) Low free thyroxine with low/normal thyroid-stimulating hormone; replace after adrenal assessment",
+        "B) High thyroid-stimulating hormone defines central hypoT",
+        "C) Treat every thyroid-stimulating hormone 4.5 with high-dose T4 always",
+        "D) Pituitary Cushing high adrenocorticotropic hormone identically"
       ],
-      "answer": "A) Low FT4 with low/normal TSH; replace after adrenal assessment",
-      "explanation": "Pituitary/hypothalamic failure. Therefore, the most accurate choice is: Low FT4 with low/normal TSH; replace after adrenal assessment. Primary hypoT has elevated TSH.",
+      "answer": "A) Low free thyroxine with low/normal thyroid-stimulating hormone; replace after adrenal assessment",
+      "explanation": "Pituitary/hypothalamic failure. Therefore, the most accurate choice is: Low free thyroxine with low/normal thyroid-stimulating hormone; replace after adrenal assessment. Primary hypoT has elevated thyroid-stimulating hormone.",
       "choice_explanations": {
         "A": "Pituitary/hypothalamic failure. This matches the correct interpretation.",
-        "B": "Primary hypoT has elevated TSH. It is less consistent than the correct choice.",
+        "B": "Primary hypoT has elevated thyroid-stimulating hormone. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -1574,13 +1574,13 @@
       "id": "endocrinology:hard:27",
       "question": "Which of the following correctly distinguishes key points about subclinical hypo T?",
       "options": [
-        "A) ↑TSH normal FT4; treat selectively",
-        "B) Treat every TSH 4.5 with high-dose T4 always",
-        "C) Central hypoT lifelong T4 for all ICU low T3",
-        "D) High TSH defines central hypoT"
+        "A) ↑thyroid-stimulating hormone normal free thyroxine; treat selectively",
+        "B) Treat every thyroid-stimulating hormone 4.5 with high-dose T4 always",
+        "C) Central hypoT lifelong T4 for all intensive care unit low T3",
+        "D) High thyroid-stimulating hormone defines central hypoT"
       ],
-      "answer": "A) ↑TSH normal FT4; treat selectively",
-      "explanation": "Early thyroid failure spectrum. Therefore, the most accurate choice is: ↑TSH normal FT4; treat selectively. Benefit not universal at mild elevations.",
+      "answer": "A) ↑thyroid-stimulating hormone normal free thyroxine; treat selectively",
+      "explanation": "Early thyroid failure spectrum. Therefore, the most accurate choice is: ↑thyroid-stimulating hormone normal free thyroxine; treat selectively. Benefit not universal at mild elevations.",
       "choice_explanations": {
         "A": "Early thyroid failure spectrum. This matches the correct interpretation.",
         "B": "Benefit not universal at mild elevations. It is less consistent than the correct choice.",
@@ -1592,13 +1592,13 @@
       "id": "endocrinology:hard:28",
       "question": "A clinic case of subclinical hyper T is discussed. Which of the following is correct?",
       "options": [
-        "A) High TSH defines central hypoT",
-        "B) FNA every 3–4 mm nodule always",
-        "C) ↓TSH normal FT4/T3; AF/osteoporosis risk",
-        "D) Treat every TSH 4.5 with high-dose T4 always"
+        "A) High thyroid-stimulating hormone defines central hypoT",
+        "B) fine-needle aspiration every 3–4 mm nodule always",
+        "C) ↓thyroid-stimulating hormone normal free thyroxine/T3; atrial fibrillation/osteoporosis risk",
+        "D) Treat every thyroid-stimulating hormone 4.5 with high-dose T4 always"
       ],
-      "answer": "C) ↓TSH normal FT4/T3; AF/osteoporosis risk",
-      "explanation": "Mild hormone excess affects heart/bone. Therefore, the most accurate choice is: ↓TSH normal FT4/T3; AF/osteoporosis risk. Elderly arrhythmogenic risk matters.",
+      "answer": "C) ↓thyroid-stimulating hormone normal free thyroxine/T3; atrial fibrillation/osteoporosis risk",
+      "explanation": "Mild hormone excess affects heart/bone. Therefore, the most accurate choice is: ↓thyroid-stimulating hormone normal free thyroxine/T3; atrial fibrillation/osteoporosis risk. Elderly arrhythmogenic risk matters.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1608,15 +1608,15 @@
     },
     {
       "id": "endocrinology:hard:29",
-      "question": "A 58-year-old man presents with features compatible with nodule FNA. Which of the following is most accurate?",
+      "question": "A 67-year-old man presents with features compatible with nodule fine-needle aspiration. Which of the following is most accurate?",
       "options": [
-        "A) FNA every 3–4 mm nodule always",
-        "B) Start T without Hct/PSA risk discussion always",
-        "C) FNA by sonographic risk/size systems",
-        "D) Treat every TSH 4.5 with high-dose T4 always"
+        "A) fine-needle aspiration every 3–4 mm nodule always",
+        "B) Start T without hematocrit/prostate-specific antigen risk discussion always",
+        "C) fine-needle aspiration by sonographic risk/size systems",
+        "D) Treat every thyroid-stimulating hormone 4.5 with high-dose T4 always"
       ],
-      "answer": "C) FNA by sonographic risk/size systems",
-      "explanation": "Cytology risk-stratifies. Therefore, the most accurate choice is: FNA by sonographic risk/size systems. Tiny low-risk nodules often observed.",
+      "answer": "C) fine-needle aspiration by sonographic risk/size systems",
+      "explanation": "Cytology risk-stratifies. Therefore, the most accurate choice is: fine-needle aspiration by sonographic risk/size systems. Tiny low-risk nodules often observed.",
       "choice_explanations": {
         "A": "Tiny low-risk nodules often observed. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1628,17 +1628,17 @@
   "extreme": [
     {
       "id": "endocrinology:extreme:0",
-      "question": "A 50-year-old man has a complex presentation of t1DM autoimmune. Which of the following is most accurate?",
+      "question": "A 59-year-old man has a complex presentation of t1DM autoimmune. Which of the following is most accurate?",
       "options": [
-        "A) T2DM insulin resistance primary in obese adult without Abs",
+        "A) type 2 diabetes mellitus insulin resistance primary in obese adult without Abs",
         "B) Autoimmune β-cell destruction requiring insulin",
         "C) Classic obese T2 without Abs always",
-        "D) T1DM absolute ketosis-prone autoimmune always"
+        "D) type 1 diabetes mellitus absolute ketosis-prone autoimmune always"
       ],
       "answer": "B) Autoimmune β-cell destruction requiring insulin",
-      "explanation": "T-cell mediated islet loss causes absolute insulin deficiency. Therefore, the most accurate choice is: Autoimmune β-cell destruction requiring insulin. T2DM is relative deficiency with resistance.",
+      "explanation": "T-cell mediated islet loss causes absolute insulin deficiency. Therefore, the most accurate choice is: Autoimmune β-cell destruction requiring insulin. type 2 diabetes mellitus is relative deficiency with resistance.",
       "choice_explanations": {
-        "A": "T2DM is relative deficiency with resistance. It is less consistent than the correct choice.",
+        "A": "type 2 diabetes mellitus is relative deficiency with resistance. It is less consistent than the correct choice.",
         "B": "T-cell mediated islet loss causes absolute insulin deficiency. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1646,33 +1646,33 @@
     },
     {
       "id": "endocrinology:extreme:1",
-      "question": "Small differences in wording about T2DM IR matter. Which of the following is correct?",
+      "question": "Small differences in wording about type 2 diabetes mellitus insulin resistance matter. Which of the following is correct?",
       "options": [
-        "A) Hold K entirely throughout DKA always",
-        "B) T1DM absolute ketosis-prone autoimmune always",
-        "C) T2DM insulin resistance primary in obese adult without Abs",
+        "A) Hold K entirely throughout diabetic ketoacidosis always",
+        "B) type 1 diabetes mellitus absolute ketosis-prone autoimmune always",
+        "C) type 2 diabetes mellitus insulin resistance primary in obese adult without Abs",
         "D) Insulin resistance with relative insulin deficiency"
       ],
       "answer": "D) Insulin resistance with relative insulin deficiency",
-      "explanation": "Adiposity/genetics impair insulin signaling. Therefore, the most accurate choice is: Insulin resistance with relative insulin deficiency. T1DM is autoimmune absolute deficiency.",
+      "explanation": "Adiposity/genetics impair insulin signaling. Therefore, the most accurate choice is: Insulin resistance with relative insulin deficiency. type 1 diabetes mellitus is autoimmune absolute deficiency.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "T1DM is autoimmune absolute deficiency. It is less consistent than the correct choice.",
+        "B": "type 1 diabetes mellitus is autoimmune absolute deficiency. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Adiposity/genetics impair insulin signaling. This matches the correct interpretation."
       }
     },
     {
       "id": "endocrinology:extreme:2",
-      "question": "A 17-year-old man worsens overnight with DKA triad. Which of the following is most accurate?",
+      "question": "A 11-year-old man worsens overnight with diabetic ketoacidosis triad. Which of the following is most accurate?",
       "options": [
-        "A) Hold K entirely throughout DKA always",
-        "B) DKA with large ketones always",
-        "C) Hyperglycemia + ketosis + HAGMA; insulin fluids K",
-        "D) T1DM absolute ketosis-prone autoimmune always"
+        "A) Hold K entirely throughout diabetic ketoacidosis always",
+        "B) diabetic ketoacidosis with large ketones always",
+        "C) Hyperglycemia + ketosis + high anion-gap metabolic acidosis; insulin fluids K",
+        "D) type 1 diabetes mellitus absolute ketosis-prone autoimmune always"
       ],
-      "answer": "C) Hyperglycemia + ketosis + HAGMA; insulin fluids K",
-      "explanation": "Insulin lack drives ketogenesis; total-body K depleted. Therefore, the most accurate choice is: Hyperglycemia + ketosis + HAGMA; insulin fluids K. Insulin shifts K intracellularly—replace carefully.",
+      "answer": "C) Hyperglycemia + ketosis + high anion-gap metabolic acidosis; insulin fluids K",
+      "explanation": "Insulin lack drives ketogenesis; total-body K depleted. Therefore, the most accurate choice is: Hyperglycemia + ketosis + high anion-gap metabolic acidosis; insulin fluids K. Insulin shifts K intracellularly—replace carefully.",
       "choice_explanations": {
         "A": "Insulin shifts K intracellularly—replace carefully. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1682,30 +1682,30 @@
     },
     {
       "id": "endocrinology:extreme:3",
-      "question": "A 17-year-old woman develops dangerous complications of HHS. Which of the following is correct?",
+      "question": "A 11-year-old woman develops dangerous complications of hyperosmolar hyperglycemic state. Which of the following is correct?",
       "options": [
-        "A) T1DM absolute ketosis-prone autoimmune always",
-        "B) DKA with large ketones always",
-        "C) Hold K entirely throughout DKA always",
+        "A) type 1 diabetes mellitus absolute ketosis-prone autoimmune always",
+        "B) diabetic ketoacidosis with large ketones always",
+        "C) Hold K entirely throughout diabetic ketoacidosis always",
         "D) Marked hyperglycemia/hyperosmolarity without major ketosis; fluids first"
       ],
       "answer": "D) Marked hyperglycemia/hyperosmolarity without major ketosis; fluids first",
-      "explanation": "Enough insulin to block ketosis but not hyperglycemia. Therefore, the most accurate choice is: Marked hyperglycemia/hyperosmolarity without major ketosis; fluids first. DKA features prominent ketosis/acidosis.",
+      "explanation": "Enough insulin to block ketosis but not hyperglycemia. Therefore, the most accurate choice is: Marked hyperglycemia/hyperosmolarity without major ketosis; fluids first. diabetic ketoacidosis features prominent ketosis/acidosis.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "DKA features prominent ketosis/acidosis. It is less consistent than the correct choice.",
+        "B": "diabetic ketoacidosis features prominent ketosis/acidosis. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Enough insulin to block ketosis but not hyperglycemia. This matches the correct interpretation."
       }
     },
     {
       "id": "endocrinology:extreme:4",
-      "question": "In a 42-year-old man, distinguishing metformin from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 51-year-old man, distinguishing metformin from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Decreases hepatic gluconeogenesis; low hypo risk alone",
         "B) Exogenous insulin low C-peptide identically",
         "C) Metformin secretagogue identically",
-        "D) SU secretagogue high hypo risk identically"
+        "D) sulfonylurea secretagogue high hypo risk identically"
       ],
       "answer": "A) Decreases hepatic gluconeogenesis; low hypo risk alone",
       "explanation": "AMPK-related hepatic glucose output reduction. Therefore, the most accurate choice is: Decreases hepatic gluconeogenesis; low hypo risk alone. SUs stimulate insulin release.",
@@ -1718,15 +1718,15 @@
     },
     {
       "id": "endocrinology:extreme:5",
-      "question": "A 67-year-old man returns with ongoing problems related to sulfonylurea. Which of the following is most accurate?",
+      "question": "A 31-year-old man returns with ongoing problems related to sulfonylurea. Which of the following is most accurate?",
       "options": [
-        "A) SU secretagogue high hypo risk identically",
-        "B) Closes β-cell KATP channels stimulating insulin",
-        "C) SU common hypoglycemia identically",
+        "A) sulfonylurea secretagogue high hypo risk identically",
+        "B) Closes β-cell ATP-sensitive potassium channel channels stimulating insulin",
+        "C) sulfonylurea common hypoglycemia identically",
         "D) Metformin secretagogue identically"
       ],
-      "answer": "B) Closes β-cell KATP channels stimulating insulin",
-      "explanation": "Glucose-independent insulin release risk hypoglycemia. Therefore, the most accurate choice is: Closes β-cell KATP channels stimulating insulin. Metformin not a secretagogue.",
+      "answer": "B) Closes β-cell ATP-sensitive potassium channel channels stimulating insulin",
+      "explanation": "Glucose-independent insulin release risk hypoglycemia. Therefore, the most accurate choice is: Closes β-cell ATP-sensitive potassium channel channels stimulating insulin. Metformin not a secretagogue.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Glucose-independent insulin release risk hypoglycemia. This matches the correct interpretation.",
@@ -1736,15 +1736,15 @@
     },
     {
       "id": "endocrinology:extreme:6",
-      "question": "Senior review is requested for sGLT2i in a 16-year-old woman. Which of the following is correct?",
+      "question": "Senior review is requested for sGLT2i in a 10-year-old woman. Which of the following is correct?",
       "options": [
-        "A) SU common hypoglycemia identically",
-        "B) SGLT2 volume loss identically",
-        "C) SU secretagogue high hypo risk identically",
-        "D) Block PCT glucose reabsorption; HF/CKD benefit; euglycemic DKA risk"
+        "A) sulfonylurea common hypoglycemia identically",
+        "B) sodium-glucose cotransporter 2 volume loss identically",
+        "C) sulfonylurea secretagogue high hypo risk identically",
+        "D) Block procalcitonin glucose reabsorption; heart failure/chronic kidney disease benefit; euglycemic diabetic ketoacidosis risk"
       ],
-      "answer": "D) Block PCT glucose reabsorption; HF/CKD benefit; euglycemic DKA risk",
-      "explanation": "Glycosuria/natriuresis mechanisms. Therefore, the most accurate choice is: Block PCT glucose reabsorption; HF/CKD benefit; euglycemic DKA risk. Not insulin secretagogues.",
+      "answer": "D) Block procalcitonin glucose reabsorption; heart failure/chronic kidney disease benefit; euglycemic diabetic ketoacidosis risk",
+      "explanation": "Glycosuria/natriuresis mechanisms. Therefore, the most accurate choice is: Block procalcitonin glucose reabsorption; heart failure/chronic kidney disease benefit; euglycemic diabetic ketoacidosis risk. Not insulin secretagogues.",
       "choice_explanations": {
         "A": "Not insulin secretagogues. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1754,19 +1754,19 @@
     },
     {
       "id": "endocrinology:extreme:7",
-      "question": "Which statement about GLP1 RA is most accurate?",
+      "question": "Which statement about glucagon-like peptide-1 rheumatoid arthritis is most accurate?",
       "options": [
-        "A) GLP1 RA identical potency/weight",
-        "B) Glucose-dependent insulin, weight loss, some MACE benefit",
-        "C) DPP4 same weight loss always",
+        "A) glucagon-like peptide-1 rheumatoid arthritis identical potency/weight",
+        "B) Glucose-dependent insulin, weight loss, some major adverse cardiovascular events benefit",
+        "C) dipeptidyl peptidase-4 same weight loss always",
         "D) Primary hyperPTH high Ca surgery always same"
       ],
-      "answer": "B) Glucose-dependent insulin, weight loss, some MACE benefit",
-      "explanation": "Pharmacologic incretin receptor agonism. Therefore, the most accurate choice is: Glucose-dependent insulin, weight loss, some MACE benefit. DPP4 only modestly raises endogenous GLP1.",
+      "answer": "B) Glucose-dependent insulin, weight loss, some major adverse cardiovascular events benefit",
+      "explanation": "Pharmacologic incretin receptor agonism. Therefore, the most accurate choice is: Glucose-dependent insulin, weight loss, some major adverse cardiovascular events benefit. dipeptidyl peptidase-4 only modestly raises endogenous glucagon-like peptide-1.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Pharmacologic incretin receptor agonism. This matches the correct interpretation.",
-        "C": "DPP4 only modestly raises endogenous GLP1. It is less consistent than the correct choice.",
+        "C": "dipeptidyl peptidase-4 only modestly raises endogenous glucagon-like peptide-1. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -1774,44 +1774,44 @@
       "id": "endocrinology:extreme:8",
       "question": "Careful reasoning about dPP4i is required. Which of the following is most accurate?",
       "options": [
-        "A) GLP1 RA identical potency/weight",
-        "B) DPP4 same weight loss always",
+        "A) glucagon-like peptide-1 rheumatoid arthritis identical potency/weight",
+        "B) dipeptidyl peptidase-4 same weight loss always",
         "C) Prolong incretins; weight-neutral; low hypo alone",
-        "D) SU secretagogue high hypo risk identically"
+        "D) sulfonylurea secretagogue high hypo risk identically"
       ],
       "answer": "C) Prolong incretins; weight-neutral; low hypo alone",
-      "explanation": "Inhibit degradation of endogenous GLP1/GIP. Therefore, the most accurate choice is: Prolong incretins; weight-neutral; low hypo alone. GLP1 RA stronger.",
+      "explanation": "Inhibit degradation of endogenous glucagon-like peptide-1/GIP. Therefore, the most accurate choice is: Prolong incretins; weight-neutral; low hypo alone. glucagon-like peptide-1 rheumatoid arthritis stronger.",
       "choice_explanations": {
-        "A": "GLP1 RA stronger. It is less consistent than the correct choice.",
+        "A": "glucagon-like peptide-1 rheumatoid arthritis stronger. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Inhibit degradation of endogenous GLP1/GIP. This matches the correct interpretation.",
+        "C": "Inhibit degradation of endogenous glucagon-like peptide-1/GIP. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "endocrinology:extreme:9",
-      "question": "A 41-year-old woman with diabetes, hypertension, and chronic kidney disease is reassessed after incomplete response related to TZD. Which of the following is most accurate?",
+      "question": "A 50-year-old woman with diabetes, hypertension, and chronic kidney disease is reassessed after incomplete response related to thiazolidinedione. Which of the following is most accurate?",
       "options": [
         "A) Metformin secretagogue identically",
-        "B) SGLT2 volume loss identically",
-        "C) DPP4 same weight loss always",
-        "D) PPARγ sensitizer; edema/HF risk"
+        "B) sodium-glucose cotransporter 2 volume loss identically",
+        "C) dipeptidyl peptidase-4 same weight loss always",
+        "D) PPARγ sensitizer; edema/heart failure risk"
       ],
-      "answer": "D) PPARγ sensitizer; edema/HF risk",
-      "explanation": "Improves adipose insulin sensitivity. Therefore, the most accurate choice is: PPARγ sensitizer; edema/HF risk. SGLT2 causes volume loss.",
+      "answer": "D) PPARγ sensitizer; edema/heart failure risk",
+      "explanation": "Improves adipose insulin sensitivity. Therefore, the most accurate choice is: PPARγ sensitizer; edema/heart failure risk. sodium-glucose cotransporter 2 causes volume loss.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "SGLT2 causes volume loss. It is less consistent than the correct choice.",
+        "B": "sodium-glucose cotransporter 2 causes volume loss. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Improves adipose insulin sensitivity. This matches the correct interpretation."
       }
     },
     {
       "id": "endocrinology:extreme:10",
-      "question": "A detailed evaluation for basal-bolus is underway in a 36-year-old man. Which of the following is correct?",
+      "question": "A detailed evaluation for basal-bolus is underway in a 45-year-old man. Which of the following is correct?",
       "options": [
         "A) Insulinoma without toxicology always",
-        "B) DPP4 same weight loss always",
+        "B) dipeptidyl peptidase-4 same weight loss always",
         "C) Basal alone covers all meals in T1 always",
         "D) Basal covers hepatic output; bolus covers meals"
       ],
@@ -1826,15 +1826,15 @@
     },
     {
       "id": "endocrinology:extreme:11",
-      "question": "A 64-year-old man has findings that make hypoglycemia hard to confirm. Which of the following is most accurate?",
+      "question": "A 28-year-old man has findings that make hypoglycemia hard to confirm. Which of the following is most accurate?",
       "options": [
         "A) Force oral glucose in unconscious patient",
-        "B) SU common hypoglycemia identically",
+        "B) sulfonylurea common hypoglycemia identically",
         "C) Give more insulin for hypo",
-        "D) Fast carbs if able; glucagon if severe/NPO"
+        "D) Fast carbs if able; glucagon if severe/nothing by mouth"
       ],
-      "answer": "D) Fast carbs if able; glucagon if severe/NPO",
-      "explanation": "Restore glucose delivery to brain. Therefore, the most accurate choice is: Fast carbs if able; glucagon if severe/NPO. Insulin worsens hypoglycemia.",
+      "answer": "D) Fast carbs if able; glucagon if severe/nothing by mouth",
+      "explanation": "Restore glucose delivery to brain. Therefore, the most accurate choice is: Fast carbs if able; glucagon if severe/nothing by mouth. Insulin worsens hypoglycemia.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1844,12 +1844,12 @@
     },
     {
       "id": "endocrinology:extreme:12",
-      "question": "In a 62-year-old woman, distinguishing retinopathy screen from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 71-year-old woman, distinguishing retinopathy screen from similar conditions is difficult. Which of the following is correct?",
       "options": [
-        "A) SGLT2 volume loss identically",
+        "A) sodium-glucose cotransporter 2 volume loss identically",
         "B) Regular dilated exams even if asymptomatic",
         "C) Screen only after vision loss",
-        "D) Screen first with 1,25-OH always"
+        "D) Screen first with 1,25-orthostatic hypotension always"
       ],
       "answer": "B) Regular dilated exams even if asymptomatic",
       "explanation": "Microvascular disease silent early. Therefore, the most accurate choice is: Regular dilated exams even if asymptomatic. Waiting for symptoms risks irreversible damage.",
@@ -1862,15 +1862,15 @@
     },
     {
       "id": "endocrinology:extreme:13",
-      "question": "A 66-year-old man returns with ongoing problems related to diabetic nephropathy. Which of the following is most accurate?",
+      "question": "A 30-year-old man returns with ongoing problems related to diabetic nephropathy. Which of the following is most accurate?",
       "options": [
-        "A) Albuminuria then GFR loss; RAS block + SGLT2i",
-        "B) SGLT2 volume loss identically",
+        "A) Albuminuria then glomerular filtration rate loss; renal artery stenosis block + SGLT2i",
+        "B) sodium-glucose cotransporter 2 volume loss identically",
         "C) Screen only after vision loss",
-        "D) DPP4 same weight loss always"
+        "D) dipeptidyl peptidase-4 same weight loss always"
       ],
-      "answer": "A) Albuminuria then GFR loss; RAS block + SGLT2i",
-      "explanation": "Glomerular injury leaks albumin early. Therefore, the most accurate choice is: Albuminuria then GFR loss; RAS block + SGLT2i. Albuminuria often precedes Cr rise.",
+      "answer": "A) Albuminuria then glomerular filtration rate loss; renal artery stenosis block + SGLT2i",
+      "explanation": "Glomerular injury leaks albumin early. Therefore, the most accurate choice is: Albuminuria then glomerular filtration rate loss; renal artery stenosis block + SGLT2i. Albuminuria often precedes Cr rise.",
       "choice_explanations": {
         "A": "Glomerular injury leaks albumin early. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1880,30 +1880,30 @@
     },
     {
       "id": "endocrinology:extreme:14",
-      "question": "Senior review is requested for neuropathy DM in a 61-year-old man. Which of the following is correct?",
+      "question": "Senior review is requested for neuropathy diabetes mellitus in a 70-year-old man. Which of the following is correct?",
       "options": [
-        "A) CGM permanently replaces A1c always",
+        "A) continuous glucose monitoring permanently replaces A1c always",
         "B) Length-dependent sensory polyneuropathy; foot care",
-        "C) Prolactinoma DA first identically always",
-        "D) CIDP first-line always"
+        "C) Prolactinoma dopamine first identically always",
+        "D) chronic inflammatory demyelinating polyneuropathy first-line always"
       ],
       "answer": "B) Length-dependent sensory polyneuropathy; foot care",
-      "explanation": "Metabolic axonal injury distal first. Therefore, the most accurate choice is: Length-dependent sensory polyneuropathy; foot care. CIDP is autoimmune demyelinating.",
+      "explanation": "Metabolic axonal injury distal first. Therefore, the most accurate choice is: Length-dependent sensory polyneuropathy; foot care. chronic inflammatory demyelinating polyneuropathy is autoimmune demyelinating.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Metabolic axonal injury distal first. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "CIDP is autoimmune demyelinating. It is less consistent than the correct choice."
+        "D": "chronic inflammatory demyelinating polyneuropathy is autoimmune demyelinating. It is less consistent than the correct choice."
       }
     },
     {
       "id": "endocrinology:extreme:15",
-      "question": "Which statement about hb A1c in a 56-year-old man is most accurate?",
+      "question": "Which statement about hemoglobin A1c in a 65-year-old man is most accurate?",
       "options": [
-        "A) Secondary AI hyperpigment hyperK identically",
+        "A) Secondary aortic insufficiency hyperpigment hyperK identically",
         "B) Reflects ~3-month mean glucose",
-        "C) Thyroiditis low uptake leak identically Rx long ATD",
-        "D) SU common hypoglycemia identically"
+        "C) Thyroiditis low uptake leak identically treatment long antithyroid drug",
+        "D) sulfonylurea common hypoglycemia identically"
       ],
       "answer": "B) Reflects ~3-month mean glucose",
       "explanation": "Hb glycation integrates exposure. Therefore, the most accurate choice is: Reflects ~3-month mean glucose. FPG is a single snapshot.",
@@ -1916,33 +1916,33 @@
     },
     {
       "id": "endocrinology:extreme:16",
-      "question": "A 33-year-old woman requires careful decisions about GDM. Which of the following is most accurate?",
+      "question": "A 33-year-old woman requires careful decisions about gestational diabetes mellitus. Which of the following is most accurate?",
       "options": [
-        "A) DPP4 same weight loss always",
-        "B) Hold K entirely throughout DKA always",
-        "C) Pregnancy IR unmasks hyperglycemia; fetal risks",
+        "A) dipeptidyl peptidase-4 same weight loss always",
+        "B) Hold K entirely throughout diabetic ketoacidosis always",
+        "C) Pregnancy insulin resistance unmasks hyperglycemia; fetal risks",
         "D) Pregestational T1 same malformation counseling always"
       ],
-      "answer": "C) Pregnancy IR unmasks hyperglycemia; fetal risks",
-      "explanation": "Placental hormones increase IR. Therefore, the most accurate choice is: Pregnancy IR unmasks hyperglycemia; fetal risks. Pregestational diabetes has different early risks.",
+      "answer": "C) Pregnancy insulin resistance unmasks hyperglycemia; fetal risks",
+      "explanation": "Placental hormones increase insulin resistance. Therefore, the most accurate choice is: Pregnancy insulin resistance unmasks hyperglycemia; fetal risks. Pregestational diabetes has different early risks.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Placental hormones increase IR. This matches the correct interpretation.",
+        "C": "Placental hormones increase insulin resistance. This matches the correct interpretation.",
         "D": "Pregestational diabetes has different early risks. It is less consistent than the correct choice."
       }
     },
     {
       "id": "endocrinology:extreme:17",
-      "question": "A 28-year-old man is reassessed after incomplete response related to MODY. Which of the following is most accurate?",
+      "question": "A 37-year-old man is reassessed after incomplete response related to maturity-onset diabetes of the young. Which of the following is most accurate?",
       "options": [
         "A) Papillary young excellent always same",
         "B) T1 Abs always",
         "C) Classic obese T2 without Abs always",
-        "D) Monogenic young nonimmune diabetes; selected Rx"
+        "D) Monogenic young nonimmune diabetes; selected treatment"
       ],
-      "answer": "D) Monogenic young nonimmune diabetes; selected Rx",
-      "explanation": "Transcription factor/glucokinase mutations. Therefore, the most accurate choice is: Monogenic young nonimmune diabetes; selected Rx. T1 autoimmune markers.",
+      "answer": "D) Monogenic young nonimmune diabetes; selected treatment",
+      "explanation": "Transcription factor/glucokinase mutations. Therefore, the most accurate choice is: Monogenic young nonimmune diabetes; selected treatment. T1 autoimmune markers.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "T1 autoimmune markers. It is less consistent than the correct choice.",
@@ -1952,9 +1952,9 @@
     },
     {
       "id": "endocrinology:extreme:18",
-      "question": "A detailed evaluation for LADA is underway in a 35-year-old woman. Which of the following is correct?",
+      "question": "A detailed evaluation for latent autoimmune diabetes in adults is underway in a 44-year-old woman. Which of the following is correct?",
       "options": [
-        "A) T2DM insulin resistance primary in obese adult without Abs",
+        "A) type 2 diabetes mellitus insulin resistance primary in obese adult without Abs",
         "B) Adult autoimmune diabetes with Abs; progresses to insulin",
         "C) Classic obese T2 without Abs always",
         "D) T1 Abs always"
@@ -1970,15 +1970,15 @@
     },
     {
       "id": "endocrinology:extreme:19",
-      "question": "A 72-year-old man has findings that make graves disease hard to confirm. Which of the following is most accurate?",
+      "question": "A 36-year-old man has findings that make graves disease hard to confirm. Which of the following is most accurate?",
       "options": [
         "A) Graves diffuse uptake identically",
-        "B) TSH-R stimulating Abs; high uptake; ATD/RAI/surgery",
-        "C) Graves high uptake chronic ATD identically",
-        "D) Thyroiditis low uptake leak identically Rx long ATD"
+        "B) TSH-R stimulating Abs; high uptake; antithyroid drug/radioactive iodine/surgery",
+        "C) Graves high uptake chronic antithyroid drug identically",
+        "D) Thyroiditis low uptake leak identically treatment long antithyroid drug"
       ],
-      "answer": "B) TSH-R stimulating Abs; high uptake; ATD/RAI/surgery",
-      "explanation": "TsAbs increase hormone synthesis. Therefore, the most accurate choice is: TSH-R stimulating Abs; high uptake; ATD/RAI/surgery. Thyroiditis releases stored hormone; uptake low.",
+      "answer": "B) TSH-R stimulating Abs; high uptake; antithyroid drug/radioactive iodine/surgery",
+      "explanation": "TsAbs increase hormone synthesis. Therefore, the most accurate choice is: TSH-R stimulating Abs; high uptake; antithyroid drug/radioactive iodine/surgery. Thyroiditis releases stored hormone; uptake low.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "TsAbs increase hormone synthesis. This matches the correct interpretation.",
@@ -1988,15 +1988,15 @@
     },
     {
       "id": "endocrinology:extreme:20",
-      "question": "In a 58-year-old man, distinguishing toxic adenoma from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 67-year-old man, distinguishing toxic adenoma from similar conditions is difficult. Which of the following is correct?",
       "options": [
-        "A) Autonomous hot nodule; RAI/surgery",
+        "A) Autonomous hot nodule; radioactive iodine/surgery",
         "B) Graves diffuse uptake identically",
-        "C) Thyroiditis low uptake leak identically Rx long ATD",
-        "D) Graves high uptake chronic ATD identically"
+        "C) Thyroiditis low uptake leak identically treatment long antithyroid drug",
+        "D) Graves high uptake chronic antithyroid drug identically"
       ],
-      "answer": "A) Autonomous hot nodule; RAI/surgery",
-      "explanation": "Somatic activating mutation in one nodule. Therefore, the most accurate choice is: Autonomous hot nodule; RAI/surgery. Graves stimulates entire gland.",
+      "answer": "A) Autonomous hot nodule; radioactive iodine/surgery",
+      "explanation": "Somatic activating mutation in one nodule. Therefore, the most accurate choice is: Autonomous hot nodule; radioactive iodine/surgery. Graves stimulates entire gland.",
       "choice_explanations": {
         "A": "Somatic activating mutation in one nodule. This matches the correct interpretation.",
         "B": "Graves stimulates entire gland. It is less consistent than the correct choice.",
@@ -2006,10 +2006,10 @@
     },
     {
       "id": "endocrinology:extreme:21",
-      "question": "A 29-year-old man returns with ongoing problems related to thyroiditis thyrotoxic. Which of the following is most accurate?",
+      "question": "A 38-year-old man returns with ongoing problems related to thyroiditis thyrotoxic. Which of the following is most accurate?",
       "options": [
-        "A) Thyroiditis low uptake leak identically Rx long ATD",
-        "B) Graves high uptake chronic ATD identically",
+        "A) Thyroiditis low uptake leak identically treatment long antithyroid drug",
+        "B) Graves high uptake chronic antithyroid drug identically",
         "C) Graves diffuse uptake identically",
         "D) Low uptake transient thyrotoxicosis; β-block"
       ],
@@ -2024,69 +2024,69 @@
     },
     {
       "id": "endocrinology:extreme:22",
-      "question": "Senior review is requested for hashimoto in a 33-year-old man. Which of the following is correct?",
+      "question": "Senior review is requested for hashimoto in a 42-year-old man. Which of the following is correct?",
       "options": [
-        "A) Anti-TPO hypothyroidism; levothyroxine",
-        "B) Treat every TSH 4.5 with high-dose T4 always",
-        "C) Central hypo high TSH always",
-        "D) High TSH defines central hypoT"
+        "A) Anti-thyroid peroxidase hypothyroidism; levothyroxine",
+        "B) Treat every thyroid-stimulating hormone 4.5 with high-dose T4 always",
+        "C) Central hypo high thyroid-stimulating hormone always",
+        "D) High thyroid-stimulating hormone defines central hypoT"
       ],
-      "answer": "A) Anti-TPO hypothyroidism; levothyroxine",
-      "explanation": "Autoimmune destruction raises TSH. Therefore, the most accurate choice is: Anti-TPO hypothyroidism; levothyroxine. Central TSH low/inappropriately normal.",
+      "answer": "A) Anti-thyroid peroxidase hypothyroidism; levothyroxine",
+      "explanation": "Autoimmune destruction raises thyroid-stimulating hormone. Therefore, the most accurate choice is: Anti-thyroid peroxidase hypothyroidism; levothyroxine. Central thyroid-stimulating hormone low/inappropriately normal.",
       "choice_explanations": {
-        "A": "Autoimmune destruction raises TSH. This matches the correct interpretation.",
+        "A": "Autoimmune destruction raises thyroid-stimulating hormone. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Central TSH low/inappropriately normal. It is less consistent than the correct choice.",
+        "C": "Central thyroid-stimulating hormone low/inappropriately normal. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "endocrinology:extreme:23",
-      "question": "In intensive care, a 34-year-old woman is treated for complications of myxedema coma. Which of the following is most accurate?",
+      "question": "In intensive care, a 43-year-old woman is treated for complications of myxedema coma. Which of the following is most accurate?",
       "options": [
         "A) Mild outpatient thyrotoxicosis identical urgency",
-        "B) Decompensated hypoT crisis; IV thyroid hormone + support",
+        "B) Decompensated hypoT crisis; intravenous thyroid hormone + support",
         "C) Oral outpatient T4 for myxedema coma",
         "D) Force oral glucose in unconscious patient"
       ],
-      "answer": "B) Decompensated hypoT crisis; IV thyroid hormone + support",
-      "explanation": "Precipitated severe hypothyroidism. Therefore, the most accurate choice is: Decompensated hypoT crisis; IV thyroid hormone + support. Needs urgent IV/ICU care.",
+      "answer": "B) Decompensated hypoT crisis; intravenous thyroid hormone + support",
+      "explanation": "Precipitated severe hypothyroidism. Therefore, the most accurate choice is: Decompensated hypoT crisis; intravenous thyroid hormone + support. Needs urgent intravenous/intensive care unit care.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Precipitated severe hypothyroidism. This matches the correct interpretation.",
-        "C": "Needs urgent IV/ICU care. It is less consistent than the correct choice.",
+        "C": "Needs urgent intravenous/intensive care unit care. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "endocrinology:extreme:24",
-      "question": "A 41-year-old man with diabetes, hypertension, and chronic kidney disease becomes acutely unstable with thyroid storm. Which of the following is most accurate?",
+      "question": "A 50-year-old man with diabetes, hypertension, and chronic kidney disease becomes acutely unstable with thyroid storm. Which of the following is most accurate?",
       "options": [
-        "A) Papillary RAI ablation identically useful",
-        "B) RAI during uncontrolled storm first",
-        "C) Decompensated hyperT crisis; ATD then iodine, βB, steroids",
-        "D) Thyroiditis low uptake leak identically Rx long ATD"
+        "A) Papillary radioactive iodine ablation identically useful",
+        "B) radioactive iodine during uncontrolled storm first",
+        "C) Decompensated hyperT crisis; antithyroid drug then iodine, βB, steroids",
+        "D) Thyroiditis low uptake leak identically treatment long antithyroid drug"
       ],
-      "answer": "C) Decompensated hyperT crisis; ATD then iodine, βB, steroids",
-      "explanation": "Extreme hypermetabolic/adrenergic state. Therefore, the most accurate choice is: Decompensated hyperT crisis; ATD then iodine, βB, steroids. Stabilize medically before RAI.",
+      "answer": "C) Decompensated hyperT crisis; antithyroid drug then iodine, βB, steroids",
+      "explanation": "Extreme hypermetabolic/adrenergic state. Therefore, the most accurate choice is: Decompensated hyperT crisis; antithyroid drug then iodine, βB, steroids. Stabilize medically before radioactive iodine.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Stabilize medically before RAI. It is less consistent than the correct choice.",
+        "B": "Stabilize medically before radioactive iodine. It is less consistent than the correct choice.",
         "C": "Extreme hypermetabolic/adrenergic state. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "endocrinology:extreme:25",
-      "question": "A 42-year-old woman with diabetes, hypertension, and chronic kidney disease is reassessed after incomplete response related to levothyroxine use. Which of the following is most accurate?",
+      "question": "A 51-year-old woman with diabetes, hypertension, and chronic kidney disease is reassessed after incomplete response related to levothyroxine use. Which of the following is most accurate?",
       "options": [
-        "A) Central hypo high TSH always",
-        "B) Treat every TSH 4.5 with high-dose T4 always",
-        "C) Empty stomach; titrate TSH in primary; avoid Ca/Fe co-ingestion",
+        "A) Central hypo high thyroid-stimulating hormone always",
+        "B) Treat every thyroid-stimulating hormone 4.5 with high-dose T4 always",
+        "C) Empty stomach; titrate thyroid-stimulating hormone in primary; avoid Ca/Fe co-ingestion",
         "D) Take with iron for better absorption"
       ],
-      "answer": "C) Empty stomach; titrate TSH in primary; avoid Ca/Fe co-ingestion",
-      "explanation": "T4→T3 peripheral; absorption interactions matter. Therefore, the most accurate choice is: Empty stomach; titrate TSH in primary; avoid Ca/Fe co-ingestion. Ca/Fe reduce absorption.",
+      "answer": "C) Empty stomach; titrate thyroid-stimulating hormone in primary; avoid Ca/Fe co-ingestion",
+      "explanation": "T4→T3 peripheral; absorption interactions matter. Therefore, the most accurate choice is: Empty stomach; titrate thyroid-stimulating hormone in primary; avoid Ca/Fe co-ingestion. Ca/Fe reduce absorption.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -2096,33 +2096,33 @@
     },
     {
       "id": "endocrinology:extreme:26",
-      "question": "A detailed evaluation for central hypo T is underway in a 31-year-old woman. Which of the following is correct?",
+      "question": "A detailed evaluation for central hypo T is underway in a 40-year-old woman. Which of the following is correct?",
       "options": [
-        "A) Central hypoT lifelong T4 for all ICU low T3",
-        "B) Low FT4 with low/normal TSH; replace after adrenal assessment",
-        "C) High TSH defines central hypoT",
-        "D) Treat every TSH 4.5 with high-dose T4 always"
+        "A) Central hypoT lifelong T4 for all intensive care unit low T3",
+        "B) Low free thyroxine with low/normal thyroid-stimulating hormone; replace after adrenal assessment",
+        "C) High thyroid-stimulating hormone defines central hypoT",
+        "D) Treat every thyroid-stimulating hormone 4.5 with high-dose T4 always"
       ],
-      "answer": "B) Low FT4 with low/normal TSH; replace after adrenal assessment",
-      "explanation": "Pituitary/hypothalamic failure. Therefore, the most accurate choice is: Low FT4 with low/normal TSH; replace after adrenal assessment. Primary hypoT has elevated TSH.",
+      "answer": "B) Low free thyroxine with low/normal thyroid-stimulating hormone; replace after adrenal assessment",
+      "explanation": "Pituitary/hypothalamic failure. Therefore, the most accurate choice is: Low free thyroxine with low/normal thyroid-stimulating hormone; replace after adrenal assessment. Primary hypoT has elevated thyroid-stimulating hormone.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Pituitary/hypothalamic failure. This matches the correct interpretation.",
-        "C": "Primary hypoT has elevated TSH. It is less consistent than the correct choice.",
+        "C": "Primary hypoT has elevated thyroid-stimulating hormone. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "endocrinology:extreme:27",
-      "question": "In a 32-year-old man, treatment choices for subclinical hypo T are compared. Which of the following is most accurate?",
+      "question": "In a 41-year-old man, treatment choices for subclinical hypo T are compared. Which of the following is most accurate?",
       "options": [
-        "A) High TSH defines central hypoT",
-        "B) Treat every TSH 4.5 with high-dose T4 always",
-        "C) Central hypo high TSH always",
-        "D) ↑TSH normal FT4; treat selectively"
+        "A) High thyroid-stimulating hormone defines central hypoT",
+        "B) Treat every thyroid-stimulating hormone 4.5 with high-dose T4 always",
+        "C) Central hypo high thyroid-stimulating hormone always",
+        "D) ↑thyroid-stimulating hormone normal free thyroxine; treat selectively"
       ],
-      "answer": "D) ↑TSH normal FT4; treat selectively",
-      "explanation": "Early thyroid failure spectrum. Therefore, the most accurate choice is: ↑TSH normal FT4; treat selectively. Benefit not universal at mild elevations.",
+      "answer": "D) ↑thyroid-stimulating hormone normal free thyroxine; treat selectively",
+      "explanation": "Early thyroid failure spectrum. Therefore, the most accurate choice is: ↑thyroid-stimulating hormone normal free thyroxine; treat selectively. Benefit not universal at mild elevations.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Benefit not universal at mild elevations. It is less consistent than the correct choice.",
@@ -2132,15 +2132,15 @@
     },
     {
       "id": "endocrinology:extreme:28",
-      "question": "In a 60-year-old man, distinguishing subclinical hyper T from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 69-year-old man, distinguishing subclinical hyper T from similar conditions is difficult. Which of the following is correct?",
       "options": [
-        "A) Treat every TSH 4.5 with high-dose T4 always",
-        "B) ↓TSH normal FT4/T3; AF/osteoporosis risk",
-        "C) FNA every 3–4 mm nodule always",
-        "D) High TSH defines central hypoT"
+        "A) Treat every thyroid-stimulating hormone 4.5 with high-dose T4 always",
+        "B) ↓thyroid-stimulating hormone normal free thyroxine/T3; atrial fibrillation/osteoporosis risk",
+        "C) fine-needle aspiration every 3–4 mm nodule always",
+        "D) High thyroid-stimulating hormone defines central hypoT"
       ],
-      "answer": "B) ↓TSH normal FT4/T3; AF/osteoporosis risk",
-      "explanation": "Mild hormone excess affects heart/bone. Therefore, the most accurate choice is: ↓TSH normal FT4/T3; AF/osteoporosis risk. Elderly arrhythmogenic risk matters.",
+      "answer": "B) ↓thyroid-stimulating hormone normal free thyroxine/T3; atrial fibrillation/osteoporosis risk",
+      "explanation": "Mild hormone excess affects heart/bone. Therefore, the most accurate choice is: ↓thyroid-stimulating hormone normal free thyroxine/T3; atrial fibrillation/osteoporosis risk. Elderly arrhythmogenic risk matters.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Mild hormone excess affects heart/bone. This matches the correct interpretation.",
@@ -2150,15 +2150,15 @@
     },
     {
       "id": "endocrinology:extreme:29",
-      "question": "A 58-year-old man returns with ongoing problems related to nodule FNA. Which of the following is most accurate?",
+      "question": "A 67-year-old man returns with ongoing problems related to nodule fine-needle aspiration. Which of the following is most accurate?",
       "options": [
-        "A) FNA every 3–4 mm nodule always",
-        "B) Treat every TSH 4.5 with high-dose T4 always",
-        "C) Start T without Hct/PSA risk discussion always",
-        "D) FNA by sonographic risk/size systems"
+        "A) fine-needle aspiration every 3–4 mm nodule always",
+        "B) Treat every thyroid-stimulating hormone 4.5 with high-dose T4 always",
+        "C) Start T without hematocrit/prostate-specific antigen risk discussion always",
+        "D) fine-needle aspiration by sonographic risk/size systems"
       ],
-      "answer": "D) FNA by sonographic risk/size systems",
-      "explanation": "Cytology risk-stratifies. Therefore, the most accurate choice is: FNA by sonographic risk/size systems. Tiny low-risk nodules often observed.",
+      "answer": "D) fine-needle aspiration by sonographic risk/size systems",
+      "explanation": "Cytology risk-stratifies. Therefore, the most accurate choice is: fine-needle aspiration by sonographic risk/size systems. Tiny low-risk nodules often observed.",
       "choice_explanations": {
         "A": "Tiny low-risk nodules often observed. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",

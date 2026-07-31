@@ -23,7 +23,7 @@
       "question": "Which finding is expected in erythroplakia concern?",
       "options": [
         "A) Erythroplakia is a red patch with higher malignant transformation risk than leukoplakia generally",
-        "B) MRG is squamous carcinoma always until proven otherwise without pattern recognition",
+        "B) mixed red-and-white lesion concern is squamous carcinoma always until proven otherwise without pattern recognition",
         "C) Linea alba is leukoplakia with high malignant transformation always by definition",
         "D) Erythroplakia is always benign geographic tongue"
       ],
@@ -40,13 +40,13 @@
       "id": "oral_medicine:easy:2",
       "question": "Which of the following statements about oral lichen planus is correct?",
       "options": [
-        "A) OLP often shows lace-like Wickham striae; forms include reticular and erosive",
+        "A) oral lichen planus often shows lace-like Wickham striae; forms include reticular and erosive",
         "B) Erythematous candida always shows wipeable thick white curds",
-        "C) OLP is identical to acute pseudomembranous candidiasis curds",
-        "D) EM is chronic identical to reticular lichen planus lasting years unchanged"
+        "C) oral lichen planus is identical to acute pseudomembranous candidiasis curds",
+        "D) electron microscopy is chronic identical to reticular lichen planus lasting years unchanged"
       ],
-      "answer": "A) OLP often shows lace-like Wickham striae; forms include reticular and erosive",
-      "explanation": "T-cell-mediated mucocutaneous disease creates striae and erosions. Therefore, the most accurate choice is: OLP often shows lace-like Wickham striae; forms include reticular and erosive. Candidiasis wipes off; striae do not.",
+      "answer": "A) oral lichen planus often shows lace-like Wickham striae; forms include reticular and erosive",
+      "explanation": "T-cell-mediated mucocutaneous disease creates striae and erosions. Therefore, the most accurate choice is: oral lichen planus often shows lace-like Wickham striae; forms include reticular and erosive. Candidiasis wipes off; striae do not.",
       "choice_explanations": {
         "A": "T-cell-mediated mucocutaneous disease creates striae and erosions. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -58,15 +58,15 @@
       "id": "oral_medicine:easy:3",
       "question": "In lichenoid drug reaction, which of the following is correct?",
       "options": [
-        "A) Medications can induce lichenoid mucositis resembling OLP",
+        "A) Medications can induce lichenoid mucositis resembling oral lichen planus",
         "B) Drugs never affect saliva",
-        "C) OLP is identical to acute pseudomembranous candidiasis curds",
+        "C) oral lichen planus is identical to acute pseudomembranous candidiasis curds",
         "D) Drug lichenoid reactions never relate to medications"
       ],
-      "answer": "A) Medications can induce lichenoid mucositis resembling OLP",
-      "explanation": "Antihypertensives and NSAIDs are among associated agents. Therefore, the most accurate choice is: Medications can induce lichenoid mucositis resembling OLP. Drug onset history matters.",
+      "answer": "A) Medications can induce lichenoid mucositis resembling oral lichen planus",
+      "explanation": "Antihypertensives and nonsteroidal anti-inflammatory drugs are among associated agents. Therefore, the most accurate choice is: Medications can induce lichenoid mucositis resembling oral lichen planus. Drug onset history matters.",
       "choice_explanations": {
-        "A": "Antihypertensives and NSAIDs are among associated agents. This matches the correct interpretation.",
+        "A": "Antihypertensives and nonsteroidal anti-inflammatory drugs are among associated agents. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Drug onset history matters. It is less consistent than the correct choice."
@@ -77,7 +77,7 @@
       "question": "Which of the following best describes pemphigus vulgaris oral?",
       "options": [
         "A) Pemphigus causes flaccid blisters and erosions with positive Nikolsky; oral often first",
-        "B) HPV only causes herpes labialis",
+        "B) human papillomavirus only causes herpes labialis",
         "C) Ramsay Hunt is reversible pulpitis only",
         "D) Pemphigus is mild reversible pulpitis"
       ],
@@ -95,12 +95,12 @@
       "question": "Select the correct statement about mucous membrane pemphigoid.",
       "options": [
         "A) B12 deficiency only causes enamel hypoplasia",
-        "B) TB ulcers are always traumatic fibromas",
-        "C) MMP is identical to aphthous ulcers exclusively",
-        "D) MMP causes subepithelial blisters; eyes and genitals may be involved with scarring risk"
+        "B) tuberculosis ulcers are always traumatic fibromas",
+        "C) matrix metalloproteinase is identical to aphthous ulcers exclusively",
+        "D) matrix metalloproteinase causes subepithelial blisters; eyes and genitals may be involved with scarring risk"
       ],
-      "answer": "D) MMP causes subepithelial blisters; eyes and genitals may be involved with scarring risk",
-      "explanation": "Autoimmune attack on basement membrane antigens. Therefore, the most accurate choice is: MMP causes subepithelial blisters; eyes and genitals may be involved with scarring risk. Desquamative gingivitis pattern is common.",
+      "answer": "D) matrix metalloproteinase causes subepithelial blisters; eyes and genitals may be involved with scarring risk",
+      "explanation": "Autoimmune attack on basement membrane antigens. Therefore, the most accurate choice is: matrix metalloproteinase causes subepithelial blisters; eyes and genitals may be involved with scarring risk. Desquamative gingivitis pattern is common.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -114,7 +114,7 @@
       "options": [
         "A) Nikolsky sign diagnoses caries",
         "B) Nikolsky sign: lateral pressure extends blister or sheets of epithelium in some vesiculobullous diseases",
-        "C) DIF is useless in vesiculobullous diagnosis",
+        "C) direct immunofluorescence is useless in vesiculobullous diagnosis",
         "D) Hairy leukoplakia wipes off completely like pseudomembranous candida always"
       ],
       "answer": "B) Nikolsky sign: lateral pressure extends blister or sheets of epithelium in some vesiculobullous diseases",
@@ -130,16 +130,16 @@
       "id": "oral_medicine:easy:7",
       "question": "Which of the following applies to minor aphthous ulcer?",
       "options": [
-        "A) Minor RAS: small painful ulcers on nonkeratinized mucosa healing without scar in about 7–14 days",
+        "A) Minor renal artery stenosis: small painful ulcers on nonkeratinized mucosa healing without scar in about 7–14 days",
         "B) Minor aphthae typically scar like major aphthae always",
-        "C) Recurrent intraoral HSV prefers buccal mucosa and floor like minor aphthae always",
+        "C) Recurrent intraoral herpes simplex virus prefers buccal mucosa and floor like minor aphthae always",
         "D) Major aphthae are always under 3 mm and heal in 3 days without scar"
       ],
-      "answer": "A) Minor RAS: small painful ulcers on nonkeratinized mucosa healing without scar in about 7–14 days",
-      "explanation": "Idiopathic immune-mediated ulcers on movable mucosa. Therefore, the most accurate choice is: Minor RAS: small painful ulcers on nonkeratinized mucosa healing without scar in about 7–14 days. HSV favors keratinized bound mucosa in recurrent intraoral herpes.",
+      "answer": "A) Minor renal artery stenosis: small painful ulcers on nonkeratinized mucosa healing without scar in about 7–14 days",
+      "explanation": "Idiopathic immune-mediated ulcers on movable mucosa. Therefore, the most accurate choice is: Minor renal artery stenosis: small painful ulcers on nonkeratinized mucosa healing without scar in about 7–14 days. herpes simplex virus favors keratinized bound mucosa in recurrent intraoral herpes.",
       "choice_explanations": {
         "A": "Idiopathic immune-mediated ulcers on movable mucosa. This matches the correct interpretation.",
-        "B": "HSV favors keratinized bound mucosa in recurrent intraoral herpes. It is less consistent than the correct choice.",
+        "B": "herpes simplex virus favors keratinized bound mucosa in recurrent intraoral herpes. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -149,15 +149,15 @@
       "question": "Which of the following is true of major aphthous ulcer?",
       "options": [
         "A) Traumatic ulcers never heal and are always cancer without exception",
-        "B) Major RAS: larger, deeper ulcers that may scar and last longer",
+        "B) Major renal artery stenosis: larger, deeper ulcers that may scar and last longer",
         "C) Major aphthae are always under 3 mm and heal in 3 days without scar",
         "D) Minor aphthae typically scar like major aphthae always"
       ],
-      "answer": "B) Major RAS: larger, deeper ulcers that may scar and last longer",
-      "explanation": "More severe RAS phenotype with scarring potential. Therefore, the most accurate choice is: Major RAS: larger, deeper ulcers that may scar and last longer. Size, duration, and scarring distinguish from minor.",
+      "answer": "B) Major renal artery stenosis: larger, deeper ulcers that may scar and last longer",
+      "explanation": "More severe renal artery stenosis phenotype with scarring potential. Therefore, the most accurate choice is: Major renal artery stenosis: larger, deeper ulcers that may scar and last longer. Size, duration, and scarring distinguish from minor.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "More severe RAS phenotype with scarring potential. This matches the correct interpretation.",
+        "B": "More severe renal artery stenosis phenotype with scarring potential. This matches the correct interpretation.",
         "C": "Size, duration, and scarring distinguish from minor. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -168,11 +168,11 @@
       "options": [
         "A) Minor aphthae typically scar like major aphthae always",
         "B) Major aphthae are always under 3 mm and heal in 3 days without scar",
-        "C) Herpetiform RAS: crops of tiny ulcers that may coalesce; not caused by HSV despite the name",
-        "D) Herpetiform aphthae are proven HSV culture-positive always by definition"
+        "C) Herpetiform renal artery stenosis: crops of tiny ulcers that may coalesce; not caused by herpes simplex virus despite the name",
+        "D) Herpetiform aphthae are proven herpes simplex virus culture-positive always by definition"
       ],
-      "answer": "C) Herpetiform RAS: crops of tiny ulcers that may coalesce; not caused by HSV despite the name",
-      "explanation": "Clinical resemblance to herpes without herpetic etiology. Therefore, the most accurate choice is: Herpetiform RAS: crops of tiny ulcers that may coalesce; not caused by HSV despite the name. Terminology is descriptive, not viral proof.",
+      "answer": "C) Herpetiform renal artery stenosis: crops of tiny ulcers that may coalesce; not caused by herpes simplex virus despite the name",
+      "explanation": "Clinical resemblance to herpes without herpetic etiology. Therefore, the most accurate choice is: Herpetiform renal artery stenosis: crops of tiny ulcers that may coalesce; not caused by herpes simplex virus despite the name. Terminology is descriptive, not viral proof.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -184,13 +184,13 @@
       "id": "oral_medicine:easy:10",
       "question": "Which of the following statements about primary herpetic gingivostomatitis is correct?",
       "options": [
-        "A) Primary HSV is only a single lip cold sore without systemic signs always",
-        "B) Angular cheilitis is always only HSV vesicles",
-        "C) HFMD is primary HSV gingivostomatitis identical always without extremity lesions",
-        "D) Primary HSV often features fever, nodes, diffuse gingivitis, and oral vesicles in children"
+        "A) Primary herpes simplex virus is only a single lip cold sore without systemic signs always",
+        "B) Angular cheilitis is always only herpes simplex virus vesicles",
+        "C) hand-foot-and-mouth disease is primary herpes simplex virus gingivostomatitis identical always without extremity lesions",
+        "D) Primary herpes simplex virus often features fever, nodes, diffuse gingivitis, and oral vesicles in children"
       ],
-      "answer": "D) Primary HSV often features fever, nodes, diffuse gingivitis, and oral vesicles in children",
-      "explanation": "First exposure to HSV-1 causes widespread oral involvement. Therefore, the most accurate choice is: Primary HSV often features fever, nodes, diffuse gingivitis, and oral vesicles in children. Differs from recurrent herpes labialis.",
+      "answer": "D) Primary herpes simplex virus often features fever, nodes, diffuse gingivitis, and oral vesicles in children",
+      "explanation": "First exposure to HSV-1 causes widespread oral involvement. Therefore, the most accurate choice is: Primary herpes simplex virus often features fever, nodes, diffuse gingivitis, and oral vesicles in children. Differs from recurrent herpes labialis.",
       "choice_explanations": {
         "A": "Differs from recurrent herpes labialis. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -202,17 +202,17 @@
       "id": "oral_medicine:easy:11",
       "question": "In recurrent herpes labialis, which of the following is correct?",
       "options": [
-        "A) Primary HSV is only a single lip cold sore without systemic signs always",
-        "B) Recurrent intraoral HSV prefers buccal mucosa and floor like minor aphthae always",
+        "A) Primary herpes simplex virus is only a single lip cold sore without systemic signs always",
+        "B) Recurrent intraoral herpes simplex virus prefers buccal mucosa and floor like minor aphthae always",
         "C) Recurrent herpes labialis: vermilion or perioral vesicles triggered by sun, stress, or illness",
         "D) Recurrent herpes labialis begins as nonkeratinized movable mucosa aphthae exclusively"
       ],
       "answer": "C) Recurrent herpes labialis: vermilion or perioral vesicles triggered by sun, stress, or illness",
-      "explanation": "Latent HSV reactivates via trigeminal pathways to lip skin and vermilion. Therefore, the most accurate choice is: Recurrent herpes labialis: vermilion or perioral vesicles triggered by sun, stress, or illness. Site and vesicles distinguish from aphthae.",
+      "explanation": "Latent herpes simplex virus reactivates via trigeminal pathways to lip skin and vermilion. Therefore, the most accurate choice is: Recurrent herpes labialis: vermilion or perioral vesicles triggered by sun, stress, or illness. Site and vesicles distinguish from aphthae.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Latent HSV reactivates via trigeminal pathways to lip skin and vermilion. This matches the correct interpretation.",
+        "C": "Latent herpes simplex virus reactivates via trigeminal pathways to lip skin and vermilion. This matches the correct interpretation.",
         "D": "Site and vesicles distinguish from aphthae. It is less consistent than the correct choice."
       }
     },
@@ -220,13 +220,13 @@
       "id": "oral_medicine:easy:12",
       "question": "Which of the following best describes recurrent intraoral herpes?",
       "options": [
-        "A) Recurrent intraoral HSV prefers buccal mucosa and floor like minor aphthae always",
-        "B) Recurrent intraoral HSV typically affects keratinized bound mucosa as small vesicles or ulcers",
-        "C) Herpangina prefers attached gingiva like recurrent intraoral HSV always",
+        "A) Recurrent intraoral herpes simplex virus prefers buccal mucosa and floor like minor aphthae always",
+        "B) Recurrent intraoral herpes simplex virus typically affects keratinized bound mucosa as small vesicles or ulcers",
+        "C) Herpangina prefers attached gingiva like recurrent intraoral herpes simplex virus always",
         "D) Minor aphthae typically scar like major aphthae always"
       ],
-      "answer": "B) Recurrent intraoral HSV typically affects keratinized bound mucosa as small vesicles or ulcers",
-      "explanation": "Reactivation localizes to keratinized mucosa. Therefore, the most accurate choice is: Recurrent intraoral HSV typically affects keratinized bound mucosa as small vesicles or ulcers. Site helps differentiate from aphthae.",
+      "answer": "B) Recurrent intraoral herpes simplex virus typically affects keratinized bound mucosa as small vesicles or ulcers",
+      "explanation": "Reactivation localizes to keratinized mucosa. Therefore, the most accurate choice is: Recurrent intraoral herpes simplex virus typically affects keratinized bound mucosa as small vesicles or ulcers. Site helps differentiate from aphthae.",
       "choice_explanations": {
         "A": "Site helps differentiate from aphthae. It is less consistent than the correct choice.",
         "B": "Reactivation localizes to keratinized mucosa. This matches the correct interpretation.",
@@ -239,15 +239,15 @@
       "question": "Select the correct statement about hairy leukoplakia.",
       "options": [
         "A) Thrush plaques never wipe off like leukoplakia",
-        "B) Oral hairy leukoplakia: white lateral tongue plaques associated with EBV in immunocompromised patients",
+        "B) Oral hairy leukoplakia: white lateral tongue plaques associated with Epstein-Barr virus in immunocompromised patients",
         "C) Hairy leukoplakia wipes off completely like pseudomembranous candida always",
-        "D) KS is a traumatic fibroma color-matched always"
+        "D) Kaposi sarcoma is a traumatic fibroma color-matched always"
       ],
-      "answer": "B) Oral hairy leukoplakia: white lateral tongue plaques associated with EBV in immunocompromised patients",
-      "explanation": "EBV-driven epithelial hyperplasia in immunosuppression such as HIV. Therefore, the most accurate choice is: Oral hairy leukoplakia: white lateral tongue plaques associated with EBV in immunocompromised patients. Does not wipe away like candida.",
+      "answer": "B) Oral hairy leukoplakia: white lateral tongue plaques associated with Epstein-Barr virus in immunocompromised patients",
+      "explanation": "EBV-driven epithelial hyperplasia in immunosuppression such as human immunodeficiency virus. Therefore, the most accurate choice is: Oral hairy leukoplakia: white lateral tongue plaques associated with Epstein-Barr virus in immunocompromised patients. Does not wipe away like candida.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "EBV-driven epithelial hyperplasia in immunosuppression such as HIV. This matches the correct interpretation.",
+        "B": "EBV-driven epithelial hyperplasia in immunosuppression such as human immunodeficiency virus. This matches the correct interpretation.",
         "C": "Does not wipe away like candida. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -274,9 +274,9 @@
       "id": "oral_medicine:easy:15",
       "question": "Which of the following applies to erythematous candidiasis?",
       "options": [
-        "A) MRG is squamous carcinoma always until proven otherwise without pattern recognition",
+        "A) mixed red-and-white lesion concern is squamous carcinoma always until proven otherwise without pattern recognition",
         "B) Red painful mucosa, often under dentures or after antibiotics or steroids, may be candidal",
-        "C) BMS always shows thick white plaques",
+        "C) burning mouth syndrome always shows thick white plaques",
         "D) Erythematous candida always shows wipeable thick white curds"
       ],
       "answer": "B) Red painful mucosa, often under dentures or after antibiotics or steroids, may be candidal",
@@ -292,17 +292,17 @@
       "id": "oral_medicine:easy:16",
       "question": "Which of the following is true of angular cheilitis?",
       "options": [
-        "A) Angular cheilitis is always only HSV vesicles",
-        "B) HFMD is primary HSV gingivostomatitis identical always without extremity lesions",
+        "A) Angular cheilitis is always only herpes simplex virus vesicles",
+        "B) hand-foot-and-mouth disease is primary herpes simplex virus gingivostomatitis identical always without extremity lesions",
         "C) Angular cheilitis often involves Candida with or without bacteria plus moisture and crease factors",
-        "D) Primary HSV is only a single lip cold sore without systemic signs always"
+        "D) Primary herpes simplex virus is only a single lip cold sore without systemic signs always"
       ],
       "answer": "C) Angular cheilitis often involves Candida with or without bacteria plus moisture and crease factors",
-      "explanation": "Macerated corners are colonized by microbes; low VDO contributes. Therefore, the most accurate choice is: Angular cheilitis often involves Candida with or without bacteria plus moisture and crease factors. Address cause plus topical antimicrobials.",
+      "explanation": "Macerated corners are colonized by microbes; low vertical dimension of occlusion contributes. Therefore, the most accurate choice is: Angular cheilitis often involves Candida with or without bacteria plus moisture and crease factors. Address cause plus topical antimicrobials.",
       "choice_explanations": {
         "A": "Address cause plus topical antimicrobials. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Macerated corners are colonized by microbes; low VDO contributes. This matches the correct interpretation.",
+        "C": "Macerated corners are colonized by microbes; low vertical dimension of occlusion contributes. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -311,12 +311,12 @@
       "question": "Which finding is expected in median rhomboid glossitis?",
       "options": [
         "A) Erythematous candida always shows wipeable thick white curds",
-        "B) MRG: midline dorsal tongue red atrophic area often candidal-related",
+        "B) mixed red-and-white lesion concern: midline dorsal tongue red atrophic area often candidal-related",
         "C) Papilloma is identical to verrucous carcinoma always without histology",
-        "D) MRG is squamous carcinoma always until proven otherwise without pattern recognition"
+        "D) mixed red-and-white lesion concern is squamous carcinoma always until proven otherwise without pattern recognition"
       ],
-      "answer": "B) MRG: midline dorsal tongue red atrophic area often candidal-related",
-      "explanation": "Atrophic papillary loss in midline dorsum associated with Candida. Therefore, the most accurate choice is: MRG: midline dorsal tongue red atrophic area often candidal-related. Recognize classic location and shape.",
+      "answer": "B) mixed red-and-white lesion concern: midline dorsal tongue red atrophic area often candidal-related",
+      "explanation": "Atrophic papillary loss in midline dorsum associated with Candida. Therefore, the most accurate choice is: mixed red-and-white lesion concern: midline dorsal tongue red atrophic area often candidal-related. Recognize classic location and shape.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Atrophic papillary loss in midline dorsum associated with Candida. This matches the correct interpretation.",
@@ -346,8 +346,8 @@
       "id": "oral_medicine:easy:19",
       "question": "In hairy tongue, which of the following is correct?",
       "options": [
-        "A) Chemical burns are hairy leukoplakia from EBV",
-        "B) Hairy tongue is hairy leukoplakia from EBV always",
+        "A) Chemical burns are hairy leukoplakia from Epstein-Barr virus",
+        "B) Hairy tongue is hairy leukoplakia from Epstein-Barr virus always",
         "C) Hairy leukoplakia wipes off completely like pseudomembranous candida always",
         "D) Hairy tongue: elongated filiform papillae with discoloration from pigments, bacteria, smoking, or coffee"
       ],
@@ -365,7 +365,7 @@
       "question": "Which of the following best describes fissured tongue?",
       "options": [
         "A) Fissured tongue has grooves; may coexist with geographic tongue; clean debris from fissures",
-        "B) MRG is squamous carcinoma always until proven otherwise without pattern recognition",
+        "B) mixed red-and-white lesion concern is squamous carcinoma always until proven otherwise without pattern recognition",
         "C) Fissured tongue equals squamous carcinoma always",
         "D) Papilloma is identical to verrucous carcinoma always without histology"
       ],
@@ -398,15 +398,15 @@
     },
     {
       "id": "oral_medicine:easy:22",
-      "question": "Which mechanism accounts for oral SCC risk factors?",
+      "question": "Which mechanism accounts for oral squamous cell carcinoma risk factors?",
       "options": [
-        "A) Negative cytology always excludes SCC completely",
-        "B) Alcohol is protective against oral SCC always",
-        "C) Tobacco, alcohol, betel nut, and HPV for oropharynx are major cancer risk factors",
+        "A) Negative cytology always excludes squamous cell carcinoma completely",
+        "B) Alcohol is protective against oral squamous cell carcinoma always",
+        "C) Tobacco, alcohol, betel nut, and human papillomavirus for oropharynx are major cancer risk factors",
         "D) Young age fully excludes oral cancer possibility always"
       ],
-      "answer": "C) Tobacco, alcohol, betel nut, and HPV for oropharynx are major cancer risk factors",
-      "explanation": "Carcinogens and oncogenic viruses drive epithelial malignancy. Therefore, the most accurate choice is: Tobacco, alcohol, betel nut, and HPV for oropharynx are major cancer risk factors. Risk factors guide suspicion, not exclusion by age alone.",
+      "answer": "C) Tobacco, alcohol, betel nut, and human papillomavirus for oropharynx are major cancer risk factors",
+      "explanation": "Carcinogens and oncogenic viruses drive epithelial malignancy. Therefore, the most accurate choice is: Tobacco, alcohol, betel nut, and human papillomavirus for oropharynx are major cancer risk factors. Risk factors guide suspicion, not exclusion by age alone.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -416,15 +416,15 @@
     },
     {
       "id": "oral_medicine:easy:23",
-      "question": "Which of the following applies to oral SCC?",
+      "question": "Which of the following applies to oral squamous cell carcinoma?",
       "options": [
-        "A) All tongue ulcers under 2 weeks are SCC requiring same-day hemiglossectomy without assessment",
+        "A) All tongue ulcers under 2 weeks are squamous cell carcinoma requiring same-day hemiglossectomy without assessment",
         "B) Any ulcer under 48 hours needs immediate jaw resection",
-        "C) MRG is squamous carcinoma always until proven otherwise without pattern recognition",
-        "D) Nonhealing ulcer with indurated borders, especially on lateral tongue or floor, suggests SCC until proven otherwise"
+        "C) mixed red-and-white lesion concern is squamous carcinoma always until proven otherwise without pattern recognition",
+        "D) Nonhealing ulcer with indurated borders, especially on lateral tongue or floor, suggests squamous cell carcinoma until proven otherwise"
       ],
-      "answer": "D) Nonhealing ulcer with indurated borders, especially on lateral tongue or floor, suggests SCC until proven otherwise",
-      "explanation": "Invasive squamous malignancy creates persistent indurated ulcers. Therefore, the most accurate choice is: Nonhealing ulcer with indurated borders, especially on lateral tongue or floor, suggests SCC until proven otherwise. Biopsy persistent suspicious lesions.",
+      "answer": "D) Nonhealing ulcer with indurated borders, especially on lateral tongue or floor, suggests squamous cell carcinoma until proven otherwise",
+      "explanation": "Invasive squamous malignancy creates persistent indurated ulcers. Therefore, the most accurate choice is: Nonhealing ulcer with indurated borders, especially on lateral tongue or floor, suggests squamous cell carcinoma until proven otherwise. Biopsy persistent suspicious lesions.",
       "choice_explanations": {
         "A": "Biopsy persistent suspicious lesions. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -434,20 +434,20 @@
     },
     {
       "id": "oral_medicine:easy:24",
-      "question": "Which of the following is true of HPV oropharyngeal SCC?",
+      "question": "Which of the following is true of human papillomavirus oropharyngeal squamous cell carcinoma?",
       "options": [
-        "A) Verruca is always SCC",
-        "B) HPV-related oropharyngeal SCC often presents with neck nodes; tonsil and base of tongue primaries",
+        "A) Verruca is always squamous cell carcinoma",
+        "B) HPV-related oropharyngeal squamous cell carcinoma often presents with neck nodes; tonsil and base of tongue primaries",
         "C) Actinic cheilitis is only chapped lips from cold without dysplasia risk discussion",
-        "D) HPV only causes herpes labialis"
+        "D) human papillomavirus only causes herpes labialis"
       ],
-      "answer": "B) HPV-related oropharyngeal SCC often presents with neck nodes; tonsil and base of tongue primaries",
-      "explanation": "High-risk HPV oncogenesis in oropharynx is a major modern theme. Therefore, the most accurate choice is: HPV-related oropharyngeal SCC often presents with neck nodes; tonsil and base of tongue primaries. Distinct patterns versus traditional oral cavity SCC.",
+      "answer": "B) HPV-related oropharyngeal squamous cell carcinoma often presents with neck nodes; tonsil and base of tongue primaries",
+      "explanation": "High-risk human papillomavirus oncogenesis in oropharynx is a major modern theme. Therefore, the most accurate choice is: HPV-related oropharyngeal squamous cell carcinoma often presents with neck nodes; tonsil and base of tongue primaries. Distinct patterns versus traditional oral cavity squamous cell carcinoma.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "High-risk HPV oncogenesis in oropharynx is a major modern theme. This matches the correct interpretation.",
+        "B": "High-risk human papillomavirus oncogenesis in oropharynx is a major modern theme. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Distinct patterns versus traditional oral cavity SCC. It is less consistent than the correct choice."
+        "D": "Distinct patterns versus traditional oral cavity squamous cell carcinoma. It is less consistent than the correct choice."
       }
     },
     {
@@ -455,7 +455,7 @@
       "question": "Which finding is expected in smokeless tobacco keratosis?",
       "options": [
         "A) Snuff lesions are wipeable thrush",
-        "B) Chemical burns are hairy leukoplakia from EBV",
+        "B) Chemical burns are hairy leukoplakia from Epstein-Barr virus",
         "C) Erythematous candida always shows wipeable thick white curds",
         "D) Snuff dipper's keratosis appears where tobacco is held; counsel cessation and monitor"
       ],
@@ -492,14 +492,14 @@
       "options": [
         "A) After one lesion is removed, remaining mucosa is risk-free forever always",
         "B) Actinic cheilitis is UV-related lower lip vermilion premalignant change",
-        "C) Primary HSV is only a single lip cold sore without systemic signs always",
+        "C) Primary herpes simplex virus is only a single lip cold sore without systemic signs always",
         "D) Actinic cheilitis is only chapped lips from cold without dysplasia risk discussion"
       ],
       "answer": "B) Actinic cheilitis is UV-related lower lip vermilion premalignant change",
-      "explanation": "Chronic UV damages lip epithelium toward dysplasia. Therefore, the most accurate choice is: Actinic cheilitis is UV-related lower lip vermilion premalignant change. Monitor or biopsy persistent changes; sun protection.",
+      "explanation": "Chronic ultraviolet damages lip epithelium toward dysplasia. Therefore, the most accurate choice is: Actinic cheilitis is UV-related lower lip vermilion premalignant change. Monitor or biopsy persistent changes; sun protection.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Chronic UV damages lip epithelium toward dysplasia. This matches the correct interpretation.",
+        "B": "Chronic ultraviolet damages lip epithelium toward dysplasia. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Monitor or biopsy persistent changes; sun protection. It is less consistent than the correct choice."
       }
@@ -508,7 +508,7 @@
       "id": "oral_medicine:easy:28",
       "question": "Which of the following best describes mucocele?",
       "options": [
-        "A) Primary HSV is only a single lip cold sore without systemic signs always",
+        "A) Primary herpes simplex virus is only a single lip cold sore without systemic signs always",
         "B) Nicotine stomatitis is denture stomatitis from Candida under acrylic always by definition",
         "C) Mucoceles are malignant minor salivary carcinomas always",
         "D) Mucocele from ruptured minor salivary duct spilling mucin, often lower lip; bluish dome"
@@ -544,7 +544,7 @@
   "medium": [
     {
       "id": "oral_medicine:medium:0",
-      "question": "A 35-year-old man is examined, and leukoplakia is reviewed. Which of the following is correct?",
+      "question": "A 48-year-old woman is examined, and leukoplakia is reviewed. Which of the following is correct?",
       "options": [
         "A) Desquamative gingivitis is simple plaque gingivitis always without other disease",
         "B) Leukoplakia is any wipeable white curd that is candidiasis by definition",
@@ -562,9 +562,9 @@
     },
     {
       "id": "oral_medicine:medium:1",
-      "question": "A 22-year-old woman reports dental pain. Exam suggests erythroplakia concern. Which of the following is most accurate?",
+      "question": "A 35-year-old man reports dental pain. Exam suggests erythroplakia concern. Which of the following is most accurate?",
       "options": [
-        "A) MRG is squamous carcinoma always until proven otherwise without pattern recognition",
+        "A) mixed red-and-white lesion concern is squamous carcinoma always until proven otherwise without pattern recognition",
         "B) Erythroplakia is a red patch with higher malignant transformation risk than leukoplakia generally",
         "C) Fissured tongue equals squamous carcinoma always",
         "D) Erythroplakia is always benign geographic tongue"
@@ -582,13 +582,13 @@
       "id": "oral_medicine:medium:2",
       "question": "Clinical and radiographic findings suggest oral lichen planus. Which interpretation is correct?",
       "options": [
-        "A) EM is chronic identical to reticular lichen planus lasting years unchanged",
-        "B) OLP often shows lace-like Wickham striae; forms include reticular and erosive",
-        "C) OLP is identical to acute pseudomembranous candidiasis curds",
+        "A) electron microscopy is chronic identical to reticular lichen planus lasting years unchanged",
+        "B) oral lichen planus often shows lace-like Wickham striae; forms include reticular and erosive",
+        "C) oral lichen planus is identical to acute pseudomembranous candidiasis curds",
         "D) Erythematous candida always shows wipeable thick white curds"
       ],
-      "answer": "B) OLP often shows lace-like Wickham striae; forms include reticular and erosive",
-      "explanation": "T-cell-mediated mucocutaneous disease creates striae and erosions. Therefore, the most accurate choice is: OLP often shows lace-like Wickham striae; forms include reticular and erosive. Candidiasis wipes off; striae do not.",
+      "answer": "B) oral lichen planus often shows lace-like Wickham striae; forms include reticular and erosive",
+      "explanation": "T-cell-mediated mucocutaneous disease creates striae and erosions. Therefore, the most accurate choice is: oral lichen planus often shows lace-like Wickham striae; forms include reticular and erosive. Candidiasis wipes off; striae do not.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "T-cell-mediated mucocutaneous disease creates striae and erosions. This matches the correct interpretation.",
@@ -598,18 +598,18 @@
     },
     {
       "id": "oral_medicine:medium:3",
-      "question": "A 32-year-old woman is examined for lichenoid drug reaction. Which of the following is most likely?",
+      "question": "A 45-year-old man is examined for lichenoid drug reaction. Which of the following is most likely?",
       "options": [
-        "A) OLP is identical to acute pseudomembranous candidiasis curds",
-        "B) Medications can induce lichenoid mucositis resembling OLP",
+        "A) oral lichen planus is identical to acute pseudomembranous candidiasis curds",
+        "B) Medications can induce lichenoid mucositis resembling oral lichen planus",
         "C) Drug lichenoid reactions never relate to medications",
         "D) Drugs never affect saliva"
       ],
-      "answer": "B) Medications can induce lichenoid mucositis resembling OLP",
-      "explanation": "Antihypertensives and NSAIDs are among associated agents. Therefore, the most accurate choice is: Medications can induce lichenoid mucositis resembling OLP. Drug onset history matters.",
+      "answer": "B) Medications can induce lichenoid mucositis resembling oral lichen planus",
+      "explanation": "Antihypertensives and nonsteroidal anti-inflammatory drugs are among associated agents. Therefore, the most accurate choice is: Medications can induce lichenoid mucositis resembling oral lichen planus. Drug onset history matters.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Antihypertensives and NSAIDs are among associated agents. This matches the correct interpretation.",
+        "B": "Antihypertensives and nonsteroidal anti-inflammatory drugs are among associated agents. This matches the correct interpretation.",
         "C": "Drug onset history matters. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -634,15 +634,15 @@
     },
     {
       "id": "oral_medicine:medium:5",
-      "question": "A 63-year-old man is assessed for mucous membrane pemphigoid. Which of the following is most accurate?",
+      "question": "A 30-year-old woman is assessed for mucous membrane pemphigoid. Which of the following is most accurate?",
       "options": [
-        "A) MMP causes subepithelial blisters; eyes and genitals may be involved with scarring risk",
-        "B) EM is chronic identical to reticular lichen planus lasting years unchanged",
+        "A) matrix metalloproteinase causes subepithelial blisters; eyes and genitals may be involved with scarring risk",
+        "B) electron microscopy is chronic identical to reticular lichen planus lasting years unchanged",
         "C) Behcet is identical to a single traumatic cheek bite once",
-        "D) MMP is identical to aphthous ulcers exclusively"
+        "D) matrix metalloproteinase is identical to aphthous ulcers exclusively"
       ],
-      "answer": "A) MMP causes subepithelial blisters; eyes and genitals may be involved with scarring risk",
-      "explanation": "Autoimmune attack on basement membrane antigens. Therefore, the most accurate choice is: MMP causes subepithelial blisters; eyes and genitals may be involved with scarring risk. Desquamative gingivitis pattern is common.",
+      "answer": "A) matrix metalloproteinase causes subepithelial blisters; eyes and genitals may be involved with scarring risk",
+      "explanation": "Autoimmune attack on basement membrane antigens. Therefore, the most accurate choice is: matrix metalloproteinase causes subepithelial blisters; eyes and genitals may be involved with scarring risk. Desquamative gingivitis pattern is common.",
       "choice_explanations": {
         "A": "Autoimmune attack on basement membrane antigens. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -654,7 +654,7 @@
       "id": "oral_medicine:medium:6",
       "question": "In the dental clinic, nikolsky is suspected. Which of the following is correct?",
       "options": [
-        "A) DIF is useless in vesiculobullous diagnosis",
+        "A) direct immunofluorescence is useless in vesiculobullous diagnosis",
         "B) Hairy leukoplakia wipes off completely like pseudomembranous candida always",
         "C) Nikolsky sign diagnoses caries",
         "D) Nikolsky sign: lateral pressure extends blister or sheets of epithelium in some vesiculobullous diseases"
@@ -670,51 +670,51 @@
     },
     {
       "id": "oral_medicine:medium:7",
-      "question": "A 43-year-old man has oral findings of minor aphthous ulcer. Which of the following is most accurate?",
+      "question": "A 56-year-old woman has oral findings of minor aphthous ulcer. Which of the following is most accurate?",
       "options": [
         "A) Major aphthae are always under 3 mm and heal in 3 days without scar",
         "B) Minor aphthae typically scar like major aphthae always",
-        "C) Recurrent intraoral HSV prefers buccal mucosa and floor like minor aphthae always",
-        "D) Minor RAS: small painful ulcers on nonkeratinized mucosa healing without scar in about 7–14 days"
+        "C) Recurrent intraoral herpes simplex virus prefers buccal mucosa and floor like minor aphthae always",
+        "D) Minor renal artery stenosis: small painful ulcers on nonkeratinized mucosa healing without scar in about 7–14 days"
       ],
-      "answer": "D) Minor RAS: small painful ulcers on nonkeratinized mucosa healing without scar in about 7–14 days",
-      "explanation": "Idiopathic immune-mediated ulcers on movable mucosa. Therefore, the most accurate choice is: Minor RAS: small painful ulcers on nonkeratinized mucosa healing without scar in about 7–14 days. HSV favors keratinized bound mucosa in recurrent intraoral herpes.",
+      "answer": "D) Minor renal artery stenosis: small painful ulcers on nonkeratinized mucosa healing without scar in about 7–14 days",
+      "explanation": "Idiopathic immune-mediated ulcers on movable mucosa. Therefore, the most accurate choice is: Minor renal artery stenosis: small painful ulcers on nonkeratinized mucosa healing without scar in about 7–14 days. herpes simplex virus favors keratinized bound mucosa in recurrent intraoral herpes.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "HSV favors keratinized bound mucosa in recurrent intraoral herpes. It is less consistent than the correct choice.",
+        "B": "herpes simplex virus favors keratinized bound mucosa in recurrent intraoral herpes. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Idiopathic immune-mediated ulcers on movable mucosa. This matches the correct interpretation."
       }
     },
     {
       "id": "oral_medicine:medium:8",
-      "question": "A 50-year-old woman presents for dental care with findings of major aphthous ulcer. Which of the following is correct?",
+      "question": "A 63-year-old man presents for dental care with findings of major aphthous ulcer. Which of the following is correct?",
       "options": [
         "A) Major aphthae are always under 3 mm and heal in 3 days without scar",
         "B) Traumatic ulcers never heal and are always cancer without exception",
         "C) Minor aphthae typically scar like major aphthae always",
-        "D) Major RAS: larger, deeper ulcers that may scar and last longer"
+        "D) Major renal artery stenosis: larger, deeper ulcers that may scar and last longer"
       ],
-      "answer": "D) Major RAS: larger, deeper ulcers that may scar and last longer",
-      "explanation": "More severe RAS phenotype with scarring potential. Therefore, the most accurate choice is: Major RAS: larger, deeper ulcers that may scar and last longer. Size, duration, and scarring distinguish from minor.",
+      "answer": "D) Major renal artery stenosis: larger, deeper ulcers that may scar and last longer",
+      "explanation": "More severe renal artery stenosis phenotype with scarring potential. Therefore, the most accurate choice is: Major renal artery stenosis: larger, deeper ulcers that may scar and last longer. Size, duration, and scarring distinguish from minor.",
       "choice_explanations": {
         "A": "Size, duration, and scarring distinguish from minor. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "More severe RAS phenotype with scarring potential. This matches the correct interpretation."
+        "D": "More severe renal artery stenosis phenotype with scarring potential. This matches the correct interpretation."
       }
     },
     {
       "id": "oral_medicine:medium:9",
-      "question": "While evaluating a 36-year-old woman, attention turns to herpetiform aphthae. Which of the following is most accurate?",
+      "question": "While evaluating a 49-year-old man, attention turns to herpetiform aphthae. Which of the following is most accurate?",
       "options": [
-        "A) Herpetiform aphthae are proven HSV culture-positive always by definition",
+        "A) Herpetiform aphthae are proven herpes simplex virus culture-positive always by definition",
         "B) Major aphthae are always under 3 mm and heal in 3 days without scar",
-        "C) Herpetiform RAS: crops of tiny ulcers that may coalesce; not caused by HSV despite the name",
-        "D) Recurrent intraoral HSV prefers buccal mucosa and floor like minor aphthae always"
+        "C) Herpetiform renal artery stenosis: crops of tiny ulcers that may coalesce; not caused by herpes simplex virus despite the name",
+        "D) Recurrent intraoral herpes simplex virus prefers buccal mucosa and floor like minor aphthae always"
       ],
-      "answer": "C) Herpetiform RAS: crops of tiny ulcers that may coalesce; not caused by HSV despite the name",
-      "explanation": "Clinical resemblance to herpes without herpetic etiology. Therefore, the most accurate choice is: Herpetiform RAS: crops of tiny ulcers that may coalesce; not caused by HSV despite the name. Terminology is descriptive, not viral proof.",
+      "answer": "C) Herpetiform renal artery stenosis: crops of tiny ulcers that may coalesce; not caused by herpes simplex virus despite the name",
+      "explanation": "Clinical resemblance to herpes without herpetic etiology. Therefore, the most accurate choice is: Herpetiform renal artery stenosis: crops of tiny ulcers that may coalesce; not caused by herpes simplex virus despite the name. Terminology is descriptive, not viral proof.",
       "choice_explanations": {
         "A": "Terminology is descriptive, not viral proof. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -726,13 +726,13 @@
       "id": "oral_medicine:medium:10",
       "question": "Clinical and radiographic findings suggest primary herpetic gingivostomatitis. Which interpretation is correct?",
       "options": [
-        "A) HFMD is primary HSV gingivostomatitis identical always without extremity lesions",
-        "B) Primary HSV often features fever, nodes, diffuse gingivitis, and oral vesicles in children",
-        "C) Primary HSV is only a single lip cold sore without systemic signs always",
-        "D) Angular cheilitis is always only HSV vesicles"
+        "A) hand-foot-and-mouth disease is primary herpes simplex virus gingivostomatitis identical always without extremity lesions",
+        "B) Primary herpes simplex virus often features fever, nodes, diffuse gingivitis, and oral vesicles in children",
+        "C) Primary herpes simplex virus is only a single lip cold sore without systemic signs always",
+        "D) Angular cheilitis is always only herpes simplex virus vesicles"
       ],
-      "answer": "B) Primary HSV often features fever, nodes, diffuse gingivitis, and oral vesicles in children",
-      "explanation": "First exposure to HSV-1 causes widespread oral involvement. Therefore, the most accurate choice is: Primary HSV often features fever, nodes, diffuse gingivitis, and oral vesicles in children. Differs from recurrent herpes labialis.",
+      "answer": "B) Primary herpes simplex virus often features fever, nodes, diffuse gingivitis, and oral vesicles in children",
+      "explanation": "First exposure to HSV-1 causes widespread oral involvement. Therefore, the most accurate choice is: Primary herpes simplex virus often features fever, nodes, diffuse gingivitis, and oral vesicles in children. Differs from recurrent herpes labialis.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "First exposure to HSV-1 causes widespread oral involvement. This matches the correct interpretation.",
@@ -742,19 +742,19 @@
     },
     {
       "id": "oral_medicine:medium:11",
-      "question": "A 38-year-old woman is examined for recurrent herpes labialis. Which of the following is most likely?",
+      "question": "A 51-year-old man is examined for recurrent herpes labialis. Which of the following is most likely?",
       "options": [
         "A) Recurrent herpes labialis begins as nonkeratinized movable mucosa aphthae exclusively",
-        "B) Recurrent intraoral HSV prefers buccal mucosa and floor like minor aphthae always",
+        "B) Recurrent intraoral herpes simplex virus prefers buccal mucosa and floor like minor aphthae always",
         "C) Recurrent herpes labialis: vermilion or perioral vesicles triggered by sun, stress, or illness",
         "D) Minor aphthae typically scar like major aphthae always"
       ],
       "answer": "C) Recurrent herpes labialis: vermilion or perioral vesicles triggered by sun, stress, or illness",
-      "explanation": "Latent HSV reactivates via trigeminal pathways to lip skin and vermilion. Therefore, the most accurate choice is: Recurrent herpes labialis: vermilion or perioral vesicles triggered by sun, stress, or illness. Site and vesicles distinguish from aphthae.",
+      "explanation": "Latent herpes simplex virus reactivates via trigeminal pathways to lip skin and vermilion. Therefore, the most accurate choice is: Recurrent herpes labialis: vermilion or perioral vesicles triggered by sun, stress, or illness. Site and vesicles distinguish from aphthae.",
       "choice_explanations": {
         "A": "Site and vesicles distinguish from aphthae. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Latent HSV reactivates via trigeminal pathways to lip skin and vermilion. This matches the correct interpretation.",
+        "C": "Latent herpes simplex virus reactivates via trigeminal pathways to lip skin and vermilion. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -762,13 +762,13 @@
       "id": "oral_medicine:medium:12",
       "question": "A dental exam raises concern for recurrent intraoral herpes. Which of the following is correct?",
       "options": [
-        "A) Recurrent intraoral HSV typically affects keratinized bound mucosa as small vesicles or ulcers",
-        "B) Herpangina prefers attached gingiva like recurrent intraoral HSV always",
+        "A) Recurrent intraoral herpes simplex virus typically affects keratinized bound mucosa as small vesicles or ulcers",
+        "B) Herpangina prefers attached gingiva like recurrent intraoral herpes simplex virus always",
         "C) Minor aphthae typically scar like major aphthae always",
-        "D) Recurrent intraoral HSV prefers buccal mucosa and floor like minor aphthae always"
+        "D) Recurrent intraoral herpes simplex virus prefers buccal mucosa and floor like minor aphthae always"
       ],
-      "answer": "A) Recurrent intraoral HSV typically affects keratinized bound mucosa as small vesicles or ulcers",
-      "explanation": "Reactivation localizes to keratinized mucosa. Therefore, the most accurate choice is: Recurrent intraoral HSV typically affects keratinized bound mucosa as small vesicles or ulcers. Site helps differentiate from aphthae.",
+      "answer": "A) Recurrent intraoral herpes simplex virus typically affects keratinized bound mucosa as small vesicles or ulcers",
+      "explanation": "Reactivation localizes to keratinized mucosa. Therefore, the most accurate choice is: Recurrent intraoral herpes simplex virus typically affects keratinized bound mucosa as small vesicles or ulcers. Site helps differentiate from aphthae.",
       "choice_explanations": {
         "A": "Reactivation localizes to keratinized mucosa. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -778,20 +778,20 @@
     },
     {
       "id": "oral_medicine:medium:13",
-      "question": "A 22-year-old woman is assessed for hairy leukoplakia. Which of the following is most accurate?",
+      "question": "A 35-year-old man is assessed for hairy leukoplakia. Which of the following is most accurate?",
       "options": [
-        "A) KS is a traumatic fibroma color-matched always",
+        "A) Kaposi sarcoma is a traumatic fibroma color-matched always",
         "B) Hairy leukoplakia wipes off completely like pseudomembranous candida always",
         "C) Thrush plaques never wipe off like leukoplakia",
-        "D) Oral hairy leukoplakia: white lateral tongue plaques associated with EBV in immunocompromised patients"
+        "D) Oral hairy leukoplakia: white lateral tongue plaques associated with Epstein-Barr virus in immunocompromised patients"
       ],
-      "answer": "D) Oral hairy leukoplakia: white lateral tongue plaques associated with EBV in immunocompromised patients",
-      "explanation": "EBV-driven epithelial hyperplasia in immunosuppression such as HIV. Therefore, the most accurate choice is: Oral hairy leukoplakia: white lateral tongue plaques associated with EBV in immunocompromised patients. Does not wipe away like candida.",
+      "answer": "D) Oral hairy leukoplakia: white lateral tongue plaques associated with Epstein-Barr virus in immunocompromised patients",
+      "explanation": "EBV-driven epithelial hyperplasia in immunosuppression such as human immunodeficiency virus. Therefore, the most accurate choice is: Oral hairy leukoplakia: white lateral tongue plaques associated with Epstein-Barr virus in immunocompromised patients. Does not wipe away like candida.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Does not wipe away like candida. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "EBV-driven epithelial hyperplasia in immunosuppression such as HIV. This matches the correct interpretation."
+        "D": "EBV-driven epithelial hyperplasia in immunosuppression such as human immunodeficiency virus. This matches the correct interpretation."
       }
     },
     {
@@ -814,11 +814,11 @@
     },
     {
       "id": "oral_medicine:medium:15",
-      "question": "A 45-year-old man has oral findings of erythematous candidiasis. Which of the following is most accurate?",
+      "question": "A 58-year-old woman has oral findings of erythematous candidiasis. Which of the following is most accurate?",
       "options": [
         "A) Red painful mucosa, often under dentures or after antibiotics or steroids, may be candidal",
-        "B) BMS always shows thick white plaques",
-        "C) MRG is squamous carcinoma always until proven otherwise without pattern recognition",
+        "B) burning mouth syndrome always shows thick white plaques",
+        "C) mixed red-and-white lesion concern is squamous carcinoma always until proven otherwise without pattern recognition",
         "D) Erythematous candida always shows wipeable thick white curds"
       ],
       "answer": "A) Red painful mucosa, often under dentures or after antibiotics or steroids, may be candidal",
@@ -832,33 +832,33 @@
     },
     {
       "id": "oral_medicine:medium:16",
-      "question": "A 43-year-old man presents for dental care with findings of angular cheilitis. Which of the following is correct?",
+      "question": "A 56-year-old woman presents for dental care with findings of angular cheilitis. Which of the following is correct?",
       "options": [
-        "A) Primary HSV is only a single lip cold sore without systemic signs always",
+        "A) Primary herpes simplex virus is only a single lip cold sore without systemic signs always",
         "B) Angular cheilitis often involves Candida with or without bacteria plus moisture and crease factors",
-        "C) HFMD is primary HSV gingivostomatitis identical always without extremity lesions",
-        "D) Angular cheilitis is always only HSV vesicles"
+        "C) hand-foot-and-mouth disease is primary herpes simplex virus gingivostomatitis identical always without extremity lesions",
+        "D) Angular cheilitis is always only herpes simplex virus vesicles"
       ],
       "answer": "B) Angular cheilitis often involves Candida with or without bacteria plus moisture and crease factors",
-      "explanation": "Macerated corners are colonized by microbes; low VDO contributes. Therefore, the most accurate choice is: Angular cheilitis often involves Candida with or without bacteria plus moisture and crease factors. Address cause plus topical antimicrobials.",
+      "explanation": "Macerated corners are colonized by microbes; low vertical dimension of occlusion contributes. Therefore, the most accurate choice is: Angular cheilitis often involves Candida with or without bacteria plus moisture and crease factors. Address cause plus topical antimicrobials.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Macerated corners are colonized by microbes; low VDO contributes. This matches the correct interpretation.",
+        "B": "Macerated corners are colonized by microbes; low vertical dimension of occlusion contributes. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Address cause plus topical antimicrobials. It is less consistent than the correct choice."
       }
     },
     {
       "id": "oral_medicine:medium:17",
-      "question": "A 34-year-old woman reports dental pain. Exam suggests median rhomboid glossitis. Which of the following is most accurate?",
+      "question": "A 47-year-old man reports dental pain. Exam suggests median rhomboid glossitis. Which of the following is most accurate?",
       "options": [
-        "A) MRG: midline dorsal tongue red atrophic area often candidal-related",
+        "A) mixed red-and-white lesion concern: midline dorsal tongue red atrophic area often candidal-related",
         "B) Papilloma is identical to verrucous carcinoma always without histology",
-        "C) MRG is squamous carcinoma always until proven otherwise without pattern recognition",
+        "C) mixed red-and-white lesion concern is squamous carcinoma always until proven otherwise without pattern recognition",
         "D) Erythematous candida always shows wipeable thick white curds"
       ],
-      "answer": "A) MRG: midline dorsal tongue red atrophic area often candidal-related",
-      "explanation": "Atrophic papillary loss in midline dorsum associated with Candida. Therefore, the most accurate choice is: MRG: midline dorsal tongue red atrophic area often candidal-related. Recognize classic location and shape.",
+      "answer": "A) mixed red-and-white lesion concern: midline dorsal tongue red atrophic area often candidal-related",
+      "explanation": "Atrophic papillary loss in midline dorsum associated with Candida. Therefore, the most accurate choice is: mixed red-and-white lesion concern: midline dorsal tongue red atrophic area often candidal-related. Recognize classic location and shape.",
       "choice_explanations": {
         "A": "Atrophic papillary loss in midline dorsum associated with Candida. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -873,7 +873,7 @@
         "A) Benign migratory glossitis: moving red patches with white borders on the dorsal tongue",
         "B) Erythroplakia is always benign geographic tongue",
         "C) Geographic tongue is pathognomonic oral cancer",
-        "D) All tongue ulcers under 2 weeks are SCC requiring same-day hemiglossectomy without assessment"
+        "D) All tongue ulcers under 2 weeks are squamous cell carcinoma requiring same-day hemiglossectomy without assessment"
       ],
       "answer": "A) Benign migratory glossitis: moving red patches with white borders on the dorsal tongue",
       "explanation": "Transient filiform papillary atrophy patterns migrate over days. Therefore, the most accurate choice is: Benign migratory glossitis: moving red patches with white borders on the dorsal tongue. Benign; reassure often.",
@@ -886,11 +886,11 @@
     },
     {
       "id": "oral_medicine:medium:19",
-      "question": "A 51-year-old man is examined for hairy tongue. Which of the following is most likely?",
+      "question": "A 64-year-old woman is examined for hairy tongue. Which of the following is most likely?",
       "options": [
         "A) Erythroplakia is always benign geographic tongue",
         "B) Hairy tongue: elongated filiform papillae with discoloration from pigments, bacteria, smoking, or coffee",
-        "C) Hairy tongue is hairy leukoplakia from EBV always",
+        "C) Hairy tongue is hairy leukoplakia from Epstein-Barr virus always",
         "D) Hairy leukoplakia wipes off completely like pseudomembranous candida always"
       ],
       "answer": "B) Hairy tongue: elongated filiform papillae with discoloration from pigments, bacteria, smoking, or coffee",
@@ -908,7 +908,7 @@
       "options": [
         "A) Fissured tongue has grooves; may coexist with geographic tongue; clean debris from fissures",
         "B) Erythroplakia is always benign geographic tongue",
-        "C) MRG is squamous carcinoma always until proven otherwise without pattern recognition",
+        "C) mixed red-and-white lesion concern is squamous carcinoma always until proven otherwise without pattern recognition",
         "D) Fissured tongue equals squamous carcinoma always"
       ],
       "answer": "A) Fissured tongue has grooves; may coexist with geographic tongue; clean debris from fissures",
@@ -922,7 +922,7 @@
     },
     {
       "id": "oral_medicine:medium:21",
-      "question": "A 20-year-old woman is assessed for traumatic ulcer healing. Which of the following is most accurate?",
+      "question": "A 33-year-old man is assessed for traumatic ulcer healing. Which of the following is most accurate?",
       "options": [
         "A) Traumatic ulcers have an identifiable cause and heal after removing the irritant",
         "B) Major aphthae are always under 3 mm and heal in 3 days without scar",
@@ -940,15 +940,15 @@
     },
     {
       "id": "oral_medicine:medium:22",
-      "question": "In the dental clinic, oral SCC risk factors is suspected. Which of the following is correct?",
+      "question": "In the dental clinic, oral squamous cell carcinoma risk factors is suspected. Which of the following is correct?",
       "options": [
         "A) Young age fully excludes oral cancer possibility always",
-        "B) Tobacco, alcohol, betel nut, and HPV for oropharynx are major cancer risk factors",
-        "C) Alcohol is protective against oral SCC always",
-        "D) Negative cytology always excludes SCC completely"
+        "B) Tobacco, alcohol, betel nut, and human papillomavirus for oropharynx are major cancer risk factors",
+        "C) Alcohol is protective against oral squamous cell carcinoma always",
+        "D) Negative cytology always excludes squamous cell carcinoma completely"
       ],
-      "answer": "B) Tobacco, alcohol, betel nut, and HPV for oropharynx are major cancer risk factors",
-      "explanation": "Carcinogens and oncogenic viruses drive epithelial malignancy. Therefore, the most accurate choice is: Tobacco, alcohol, betel nut, and HPV for oropharynx are major cancer risk factors. Risk factors guide suspicion, not exclusion by age alone.",
+      "answer": "B) Tobacco, alcohol, betel nut, and human papillomavirus for oropharynx are major cancer risk factors",
+      "explanation": "Carcinogens and oncogenic viruses drive epithelial malignancy. Therefore, the most accurate choice is: Tobacco, alcohol, betel nut, and human papillomavirus for oropharynx are major cancer risk factors. Risk factors guide suspicion, not exclusion by age alone.",
       "choice_explanations": {
         "A": "Risk factors guide suspicion, not exclusion by age alone. It is less consistent than the correct choice.",
         "B": "Carcinogens and oncogenic viruses drive epithelial malignancy. This matches the correct interpretation.",
@@ -958,15 +958,15 @@
     },
     {
       "id": "oral_medicine:medium:23",
-      "question": "A 41-year-old man has oral findings of oral SCC. Which of the following is most accurate?",
+      "question": "A 54-year-old woman has oral findings of oral squamous cell carcinoma. Which of the following is most accurate?",
       "options": [
         "A) Any ulcer under 48 hours needs immediate jaw resection",
-        "B) MRG is squamous carcinoma always until proven otherwise without pattern recognition",
-        "C) All tongue ulcers under 2 weeks are SCC requiring same-day hemiglossectomy without assessment",
-        "D) Nonhealing ulcer with indurated borders, especially on lateral tongue or floor, suggests SCC until proven otherwise"
+        "B) mixed red-and-white lesion concern is squamous carcinoma always until proven otherwise without pattern recognition",
+        "C) All tongue ulcers under 2 weeks are squamous cell carcinoma requiring same-day hemiglossectomy without assessment",
+        "D) Nonhealing ulcer with indurated borders, especially on lateral tongue or floor, suggests squamous cell carcinoma until proven otherwise"
       ],
-      "answer": "D) Nonhealing ulcer with indurated borders, especially on lateral tongue or floor, suggests SCC until proven otherwise",
-      "explanation": "Invasive squamous malignancy creates persistent indurated ulcers. Therefore, the most accurate choice is: Nonhealing ulcer with indurated borders, especially on lateral tongue or floor, suggests SCC until proven otherwise. Biopsy persistent suspicious lesions.",
+      "answer": "D) Nonhealing ulcer with indurated borders, especially on lateral tongue or floor, suggests squamous cell carcinoma until proven otherwise",
+      "explanation": "Invasive squamous malignancy creates persistent indurated ulcers. Therefore, the most accurate choice is: Nonhealing ulcer with indurated borders, especially on lateral tongue or floor, suggests squamous cell carcinoma until proven otherwise. Biopsy persistent suspicious lesions.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -976,29 +976,29 @@
     },
     {
       "id": "oral_medicine:medium:24",
-      "question": "A 45-year-old man presents for dental care with findings of HPV oropharyngeal SCC. Which of the following is correct?",
+      "question": "A 58-year-old woman presents for dental care with findings of human papillomavirus oropharyngeal squamous cell carcinoma. Which of the following is correct?",
       "options": [
-        "A) HPV only causes herpes labialis",
+        "A) human papillomavirus only causes herpes labialis",
         "B) Actinic cheilitis is only chapped lips from cold without dysplasia risk discussion",
-        "C) HPV-related oropharyngeal SCC often presents with neck nodes; tonsil and base of tongue primaries",
-        "D) Verruca is always SCC"
+        "C) HPV-related oropharyngeal squamous cell carcinoma often presents with neck nodes; tonsil and base of tongue primaries",
+        "D) Verruca is always squamous cell carcinoma"
       ],
-      "answer": "C) HPV-related oropharyngeal SCC often presents with neck nodes; tonsil and base of tongue primaries",
-      "explanation": "High-risk HPV oncogenesis in oropharynx is a major modern theme. Therefore, the most accurate choice is: HPV-related oropharyngeal SCC often presents with neck nodes; tonsil and base of tongue primaries. Distinct patterns versus traditional oral cavity SCC.",
+      "answer": "C) HPV-related oropharyngeal squamous cell carcinoma often presents with neck nodes; tonsil and base of tongue primaries",
+      "explanation": "High-risk human papillomavirus oncogenesis in oropharynx is a major modern theme. Therefore, the most accurate choice is: HPV-related oropharyngeal squamous cell carcinoma often presents with neck nodes; tonsil and base of tongue primaries. Distinct patterns versus traditional oral cavity squamous cell carcinoma.",
       "choice_explanations": {
-        "A": "Distinct patterns versus traditional oral cavity SCC. It is less consistent than the correct choice.",
+        "A": "Distinct patterns versus traditional oral cavity squamous cell carcinoma. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "High-risk HPV oncogenesis in oropharynx is a major modern theme. This matches the correct interpretation.",
+        "C": "High-risk human papillomavirus oncogenesis in oropharynx is a major modern theme. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "oral_medicine:medium:25",
-      "question": "A 40-year-old woman reports dental pain. Exam suggests smokeless tobacco keratosis. Which of the following is most accurate?",
+      "question": "A 53-year-old man reports dental pain. Exam suggests smokeless tobacco keratosis. Which of the following is most accurate?",
       "options": [
         "A) Erythematous candida always shows wipeable thick white curds",
         "B) Snuff dipper's keratosis appears where tobacco is held; counsel cessation and monitor",
-        "C) Chemical burns are hairy leukoplakia from EBV",
+        "C) Chemical burns are hairy leukoplakia from Epstein-Barr virus",
         "D) Snuff lesions are wipeable thrush"
       ],
       "answer": "B) Snuff dipper's keratosis appears where tobacco is held; counsel cessation and monitor",
@@ -1012,7 +1012,7 @@
     },
     {
       "id": "oral_medicine:medium:26",
-      "question": "A 63-year-old man has findings requiring interpretation of nicotine stomatitis. Which of the following is correct?",
+      "question": "A 30-year-old woman has findings requiring interpretation of nicotine stomatitis. Which of the following is correct?",
       "options": [
         "A) Denture stomatitis is never related to overnight wear",
         "B) Mucoceles are malignant minor salivary carcinomas always",
@@ -1030,19 +1030,19 @@
     },
     {
       "id": "oral_medicine:medium:27",
-      "question": "A 28-year-old woman is examined for actinic cheilitis. Which of the following is most likely?",
+      "question": "A 41-year-old man is examined for actinic cheilitis. Which of the following is most likely?",
       "options": [
-        "A) Primary HSV is only a single lip cold sore without systemic signs always",
+        "A) Primary herpes simplex virus is only a single lip cold sore without systemic signs always",
         "B) After one lesion is removed, remaining mucosa is risk-free forever always",
         "C) Actinic cheilitis is UV-related lower lip vermilion premalignant change",
         "D) Actinic cheilitis is only chapped lips from cold without dysplasia risk discussion"
       ],
       "answer": "C) Actinic cheilitis is UV-related lower lip vermilion premalignant change",
-      "explanation": "Chronic UV damages lip epithelium toward dysplasia. Therefore, the most accurate choice is: Actinic cheilitis is UV-related lower lip vermilion premalignant change. Monitor or biopsy persistent changes; sun protection.",
+      "explanation": "Chronic ultraviolet damages lip epithelium toward dysplasia. Therefore, the most accurate choice is: Actinic cheilitis is UV-related lower lip vermilion premalignant change. Monitor or biopsy persistent changes; sun protection.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Chronic UV damages lip epithelium toward dysplasia. This matches the correct interpretation.",
+        "C": "Chronic ultraviolet damages lip epithelium toward dysplasia. This matches the correct interpretation.",
         "D": "Monitor or biopsy persistent changes; sun protection. It is less consistent than the correct choice."
       }
     },
@@ -1066,7 +1066,7 @@
     },
     {
       "id": "oral_medicine:medium:29",
-      "question": "A 41-year-old man is assessed for ranula. Which of the following is most accurate?",
+      "question": "A 54-year-old woman is assessed for ranula. Which of the following is most accurate?",
       "options": [
         "A) Dry mouth lowers caries risk because less saliva sugar",
         "B) Ranula is a floor-of-mouth mucocele usually from sublingual gland extravasation",
@@ -1104,9 +1104,9 @@
     },
     {
       "id": "oral_medicine:hard:1",
-      "question": "A 22-year-old woman has findings suggestive of erythroplakia concern. Which of the following is the best interpretation?",
+      "question": "A 35-year-old man has findings suggestive of erythroplakia concern. Which of the following is the best interpretation?",
       "options": [
-        "A) MRG is squamous carcinoma always until proven otherwise without pattern recognition",
+        "A) mixed red-and-white lesion concern is squamous carcinoma always until proven otherwise without pattern recognition",
         "B) Erythroplakia is always benign geographic tongue",
         "C) Fissured tongue equals squamous carcinoma always",
         "D) Erythroplakia is a red patch with higher malignant transformation risk than leukoplakia generally"
@@ -1122,15 +1122,15 @@
     },
     {
       "id": "oral_medicine:hard:2",
-      "question": "In a 58-year-old woman, oral lichen planus must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 25-year-old man, oral lichen planus must be separated from similar conditions. Which of the following is correct?",
       "options": [
-        "A) EM is chronic identical to reticular lichen planus lasting years unchanged",
-        "B) OLP often shows lace-like Wickham striae; forms include reticular and erosive",
-        "C) OLP is identical to acute pseudomembranous candidiasis curds",
+        "A) electron microscopy is chronic identical to reticular lichen planus lasting years unchanged",
+        "B) oral lichen planus often shows lace-like Wickham striae; forms include reticular and erosive",
+        "C) oral lichen planus is identical to acute pseudomembranous candidiasis curds",
         "D) Erythematous candida always shows wipeable thick white curds"
       ],
-      "answer": "B) OLP often shows lace-like Wickham striae; forms include reticular and erosive",
-      "explanation": "T-cell-mediated mucocutaneous disease creates striae and erosions. Therefore, the most accurate choice is: OLP often shows lace-like Wickham striae; forms include reticular and erosive. Candidiasis wipes off; striae do not.",
+      "answer": "B) oral lichen planus often shows lace-like Wickham striae; forms include reticular and erosive",
+      "explanation": "T-cell-mediated mucocutaneous disease creates striae and erosions. Therefore, the most accurate choice is: oral lichen planus often shows lace-like Wickham striae; forms include reticular and erosive. Candidiasis wipes off; striae do not.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "T-cell-mediated mucocutaneous disease creates striae and erosions. This matches the correct interpretation.",
@@ -1140,20 +1140,20 @@
     },
     {
       "id": "oral_medicine:hard:3",
-      "question": "A 32-year-old woman returns for review of suspected lichenoid drug reaction. Which of the following is most accurate?",
+      "question": "A 45-year-old man returns for review of suspected lichenoid drug reaction. Which of the following is most accurate?",
       "options": [
-        "A) OLP is identical to acute pseudomembranous candidiasis curds",
+        "A) oral lichen planus is identical to acute pseudomembranous candidiasis curds",
         "B) Drugs never affect saliva",
         "C) Drug lichenoid reactions never relate to medications",
-        "D) Medications can induce lichenoid mucositis resembling OLP"
+        "D) Medications can induce lichenoid mucositis resembling oral lichen planus"
       ],
-      "answer": "D) Medications can induce lichenoid mucositis resembling OLP",
-      "explanation": "Antihypertensives and NSAIDs are among associated agents. Therefore, the most accurate choice is: Medications can induce lichenoid mucositis resembling OLP. Drug onset history matters.",
+      "answer": "D) Medications can induce lichenoid mucositis resembling oral lichen planus",
+      "explanation": "Antihypertensives and nonsteroidal anti-inflammatory drugs are among associated agents. Therefore, the most accurate choice is: Medications can induce lichenoid mucositis resembling oral lichen planus. Drug onset history matters.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Drug onset history matters. It is less consistent than the correct choice.",
-        "D": "Antihypertensives and NSAIDs are among associated agents. This matches the correct interpretation."
+        "D": "Antihypertensives and nonsteroidal anti-inflammatory drugs are among associated agents. This matches the correct interpretation."
       }
     },
     {
@@ -1176,15 +1176,15 @@
     },
     {
       "id": "oral_medicine:hard:5",
-      "question": "A 63-year-old man presents with features compatible with mucous membrane pemphigoid. Which of the following is most accurate?",
+      "question": "A 30-year-old woman presents with features compatible with mucous membrane pemphigoid. Which of the following is most accurate?",
       "options": [
-        "A) MMP causes subepithelial blisters; eyes and genitals may be involved with scarring risk",
-        "B) EM is chronic identical to reticular lichen planus lasting years unchanged",
-        "C) MMP is identical to aphthous ulcers exclusively",
-        "D) TB ulcers are always traumatic fibromas"
+        "A) matrix metalloproteinase causes subepithelial blisters; eyes and genitals may be involved with scarring risk",
+        "B) electron microscopy is chronic identical to reticular lichen planus lasting years unchanged",
+        "C) matrix metalloproteinase is identical to aphthous ulcers exclusively",
+        "D) tuberculosis ulcers are always traumatic fibromas"
       ],
-      "answer": "A) MMP causes subepithelial blisters; eyes and genitals may be involved with scarring risk",
-      "explanation": "Autoimmune attack on basement membrane antigens. Therefore, the most accurate choice is: MMP causes subepithelial blisters; eyes and genitals may be involved with scarring risk. Desquamative gingivitis pattern is common.",
+      "answer": "A) matrix metalloproteinase causes subepithelial blisters; eyes and genitals may be involved with scarring risk",
+      "explanation": "Autoimmune attack on basement membrane antigens. Therefore, the most accurate choice is: matrix metalloproteinase causes subepithelial blisters; eyes and genitals may be involved with scarring risk. Desquamative gingivitis pattern is common.",
       "choice_explanations": {
         "A": "Autoimmune attack on basement membrane antigens. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1194,12 +1194,12 @@
     },
     {
       "id": "oral_medicine:hard:6",
-      "question": "Which statement about nikolsky in a 60-year-old woman is most accurate?",
+      "question": "Which statement about nikolsky in a 27-year-old man is most accurate?",
       "options": [
         "A) Nikolsky sign: lateral pressure extends blister or sheets of epithelium in some vesiculobullous diseases",
         "B) Hairy leukoplakia wipes off completely like pseudomembranous candida always",
         "C) Nikolsky sign diagnoses caries",
-        "D) DIF is useless in vesiculobullous diagnosis"
+        "D) direct immunofluorescence is useless in vesiculobullous diagnosis"
       ],
       "answer": "A) Nikolsky sign: lateral pressure extends blister or sheets of epithelium in some vesiculobullous diseases",
       "explanation": "Weak adhesion allows sheet-like separation. Therefore, the most accurate choice is: Nikolsky sign: lateral pressure extends blister or sheets of epithelium in some vesiculobullous diseases. Seen in pemphigus and some other disorders.",
@@ -1212,36 +1212,36 @@
     },
     {
       "id": "oral_medicine:hard:7",
-      "question": "After examining a 43-year-old man, which statement about minor aphthous ulcer is correct?",
+      "question": "After examining a 56-year-old woman, which statement about minor aphthous ulcer is correct?",
       "options": [
         "A) Major aphthae are always under 3 mm and heal in 3 days without scar",
-        "B) Minor RAS: small painful ulcers on nonkeratinized mucosa healing without scar in about 7–14 days",
-        "C) Recurrent intraoral HSV prefers buccal mucosa and floor like minor aphthae always",
+        "B) Minor renal artery stenosis: small painful ulcers on nonkeratinized mucosa healing without scar in about 7–14 days",
+        "C) Recurrent intraoral herpes simplex virus prefers buccal mucosa and floor like minor aphthae always",
         "D) Minor aphthae typically scar like major aphthae always"
       ],
-      "answer": "B) Minor RAS: small painful ulcers on nonkeratinized mucosa healing without scar in about 7–14 days",
-      "explanation": "Idiopathic immune-mediated ulcers on movable mucosa. Therefore, the most accurate choice is: Minor RAS: small painful ulcers on nonkeratinized mucosa healing without scar in about 7–14 days. HSV favors keratinized bound mucosa in recurrent intraoral herpes.",
+      "answer": "B) Minor renal artery stenosis: small painful ulcers on nonkeratinized mucosa healing without scar in about 7–14 days",
+      "explanation": "Idiopathic immune-mediated ulcers on movable mucosa. Therefore, the most accurate choice is: Minor renal artery stenosis: small painful ulcers on nonkeratinized mucosa healing without scar in about 7–14 days. herpes simplex virus favors keratinized bound mucosa in recurrent intraoral herpes.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Idiopathic immune-mediated ulcers on movable mucosa. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "HSV favors keratinized bound mucosa in recurrent intraoral herpes. It is less consistent than the correct choice."
+        "D": "herpes simplex virus favors keratinized bound mucosa in recurrent intraoral herpes. It is less consistent than the correct choice."
       }
     },
     {
       "id": "oral_medicine:hard:8",
-      "question": "A 50-year-old woman is evaluated for possible major aphthous ulcer. Which of the following is most accurate?",
+      "question": "A 63-year-old man is evaluated for possible major aphthous ulcer. Which of the following is most accurate?",
       "options": [
         "A) Traumatic ulcers never heal and are always cancer without exception",
-        "B) Major RAS: larger, deeper ulcers that may scar and last longer",
+        "B) Major renal artery stenosis: larger, deeper ulcers that may scar and last longer",
         "C) Major aphthae are always under 3 mm and heal in 3 days without scar",
         "D) Minor aphthae typically scar like major aphthae always"
       ],
-      "answer": "B) Major RAS: larger, deeper ulcers that may scar and last longer",
-      "explanation": "More severe RAS phenotype with scarring potential. Therefore, the most accurate choice is: Major RAS: larger, deeper ulcers that may scar and last longer. Size, duration, and scarring distinguish from minor.",
+      "answer": "B) Major renal artery stenosis: larger, deeper ulcers that may scar and last longer",
+      "explanation": "More severe renal artery stenosis phenotype with scarring potential. Therefore, the most accurate choice is: Major renal artery stenosis: larger, deeper ulcers that may scar and last longer. Size, duration, and scarring distinguish from minor.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "More severe RAS phenotype with scarring potential. This matches the correct interpretation.",
+        "B": "More severe renal artery stenosis phenotype with scarring potential. This matches the correct interpretation.",
         "C": "Size, duration, and scarring distinguish from minor. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -1252,11 +1252,11 @@
       "options": [
         "A) Major aphthae are always under 3 mm and heal in 3 days without scar",
         "B) Minor aphthae typically scar like major aphthae always",
-        "C) Herpetiform aphthae are proven HSV culture-positive always by definition",
-        "D) Herpetiform RAS: crops of tiny ulcers that may coalesce; not caused by HSV despite the name"
+        "C) Herpetiform aphthae are proven herpes simplex virus culture-positive always by definition",
+        "D) Herpetiform renal artery stenosis: crops of tiny ulcers that may coalesce; not caused by herpes simplex virus despite the name"
       ],
-      "answer": "D) Herpetiform RAS: crops of tiny ulcers that may coalesce; not caused by HSV despite the name",
-      "explanation": "Clinical resemblance to herpes without herpetic etiology. Therefore, the most accurate choice is: Herpetiform RAS: crops of tiny ulcers that may coalesce; not caused by HSV despite the name. Terminology is descriptive, not viral proof.",
+      "answer": "D) Herpetiform renal artery stenosis: crops of tiny ulcers that may coalesce; not caused by herpes simplex virus despite the name",
+      "explanation": "Clinical resemblance to herpes without herpetic etiology. Therefore, the most accurate choice is: Herpetiform renal artery stenosis: crops of tiny ulcers that may coalesce; not caused by herpes simplex virus despite the name. Terminology is descriptive, not viral proof.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1266,15 +1266,15 @@
     },
     {
       "id": "oral_medicine:hard:10",
-      "question": "In a 36-year-old woman, primary herpetic gingivostomatitis must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 49-year-old man, primary herpetic gingivostomatitis must be separated from similar conditions. Which of the following is correct?",
       "options": [
-        "A) Primary HSV often features fever, nodes, diffuse gingivitis, and oral vesicles in children",
-        "B) Angular cheilitis is always only HSV vesicles",
-        "C) HFMD is primary HSV gingivostomatitis identical always without extremity lesions",
-        "D) Primary HSV is only a single lip cold sore without systemic signs always"
+        "A) Primary herpes simplex virus often features fever, nodes, diffuse gingivitis, and oral vesicles in children",
+        "B) Angular cheilitis is always only herpes simplex virus vesicles",
+        "C) hand-foot-and-mouth disease is primary herpes simplex virus gingivostomatitis identical always without extremity lesions",
+        "D) Primary herpes simplex virus is only a single lip cold sore without systemic signs always"
       ],
-      "answer": "A) Primary HSV often features fever, nodes, diffuse gingivitis, and oral vesicles in children",
-      "explanation": "First exposure to HSV-1 causes widespread oral involvement. Therefore, the most accurate choice is: Primary HSV often features fever, nodes, diffuse gingivitis, and oral vesicles in children. Differs from recurrent herpes labialis.",
+      "answer": "A) Primary herpes simplex virus often features fever, nodes, diffuse gingivitis, and oral vesicles in children",
+      "explanation": "First exposure to HSV-1 causes widespread oral involvement. Therefore, the most accurate choice is: Primary herpes simplex virus often features fever, nodes, diffuse gingivitis, and oral vesicles in children. Differs from recurrent herpes labialis.",
       "choice_explanations": {
         "A": "First exposure to HSV-1 causes widespread oral involvement. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1284,17 +1284,17 @@
     },
     {
       "id": "oral_medicine:hard:11",
-      "question": "A 38-year-old woman returns for review of suspected recurrent herpes labialis. Which of the following is most accurate?",
+      "question": "A 51-year-old man returns for review of suspected recurrent herpes labialis. Which of the following is most accurate?",
       "options": [
         "A) Recurrent herpes labialis: vermilion or perioral vesicles triggered by sun, stress, or illness",
         "B) Minor aphthae typically scar like major aphthae always",
         "C) Recurrent herpes labialis begins as nonkeratinized movable mucosa aphthae exclusively",
-        "D) Recurrent intraoral HSV prefers buccal mucosa and floor like minor aphthae always"
+        "D) Recurrent intraoral herpes simplex virus prefers buccal mucosa and floor like minor aphthae always"
       ],
       "answer": "A) Recurrent herpes labialis: vermilion or perioral vesicles triggered by sun, stress, or illness",
-      "explanation": "Latent HSV reactivates via trigeminal pathways to lip skin and vermilion. Therefore, the most accurate choice is: Recurrent herpes labialis: vermilion or perioral vesicles triggered by sun, stress, or illness. Site and vesicles distinguish from aphthae.",
+      "explanation": "Latent herpes simplex virus reactivates via trigeminal pathways to lip skin and vermilion. Therefore, the most accurate choice is: Recurrent herpes labialis: vermilion or perioral vesicles triggered by sun, stress, or illness. Site and vesicles distinguish from aphthae.",
       "choice_explanations": {
-        "A": "Latent HSV reactivates via trigeminal pathways to lip skin and vermilion. This matches the correct interpretation.",
+        "A": "Latent herpes simplex virus reactivates via trigeminal pathways to lip skin and vermilion. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Site and vesicles distinguish from aphthae. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1304,13 +1304,13 @@
       "id": "oral_medicine:hard:12",
       "question": "A clinic case of recurrent intraoral herpes is discussed. Which of the following is correct?",
       "options": [
-        "A) Recurrent intraoral HSV prefers buccal mucosa and floor like minor aphthae always",
-        "B) Herpangina prefers attached gingiva like recurrent intraoral HSV always",
+        "A) Recurrent intraoral herpes simplex virus prefers buccal mucosa and floor like minor aphthae always",
+        "B) Herpangina prefers attached gingiva like recurrent intraoral herpes simplex virus always",
         "C) Minor aphthae typically scar like major aphthae always",
-        "D) Recurrent intraoral HSV typically affects keratinized bound mucosa as small vesicles or ulcers"
+        "D) Recurrent intraoral herpes simplex virus typically affects keratinized bound mucosa as small vesicles or ulcers"
       ],
-      "answer": "D) Recurrent intraoral HSV typically affects keratinized bound mucosa as small vesicles or ulcers",
-      "explanation": "Reactivation localizes to keratinized mucosa. Therefore, the most accurate choice is: Recurrent intraoral HSV typically affects keratinized bound mucosa as small vesicles or ulcers. Site helps differentiate from aphthae.",
+      "answer": "D) Recurrent intraoral herpes simplex virus typically affects keratinized bound mucosa as small vesicles or ulcers",
+      "explanation": "Reactivation localizes to keratinized mucosa. Therefore, the most accurate choice is: Recurrent intraoral herpes simplex virus typically affects keratinized bound mucosa as small vesicles or ulcers. Site helps differentiate from aphthae.",
       "choice_explanations": {
         "A": "Site helps differentiate from aphthae. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1320,17 +1320,17 @@
     },
     {
       "id": "oral_medicine:hard:13",
-      "question": "A 22-year-old woman presents with features compatible with hairy leukoplakia. Which of the following is most accurate?",
+      "question": "A 35-year-old man presents with features compatible with hairy leukoplakia. Which of the following is most accurate?",
       "options": [
-        "A) Oral hairy leukoplakia: white lateral tongue plaques associated with EBV in immunocompromised patients",
+        "A) Oral hairy leukoplakia: white lateral tongue plaques associated with Epstein-Barr virus in immunocompromised patients",
         "B) Hairy leukoplakia wipes off completely like pseudomembranous candida always",
         "C) Thrush plaques never wipe off like leukoplakia",
-        "D) Hairy tongue is hairy leukoplakia from EBV always"
+        "D) Hairy tongue is hairy leukoplakia from Epstein-Barr virus always"
       ],
-      "answer": "A) Oral hairy leukoplakia: white lateral tongue plaques associated with EBV in immunocompromised patients",
-      "explanation": "EBV-driven epithelial hyperplasia in immunosuppression such as HIV. Therefore, the most accurate choice is: Oral hairy leukoplakia: white lateral tongue plaques associated with EBV in immunocompromised patients. Does not wipe away like candida.",
+      "answer": "A) Oral hairy leukoplakia: white lateral tongue plaques associated with Epstein-Barr virus in immunocompromised patients",
+      "explanation": "EBV-driven epithelial hyperplasia in immunosuppression such as human immunodeficiency virus. Therefore, the most accurate choice is: Oral hairy leukoplakia: white lateral tongue plaques associated with Epstein-Barr virus in immunocompromised patients. Does not wipe away like candida.",
       "choice_explanations": {
-        "A": "EBV-driven epithelial hyperplasia in immunosuppression such as HIV. This matches the correct interpretation.",
+        "A": "EBV-driven epithelial hyperplasia in immunosuppression such as human immunodeficiency virus. This matches the correct interpretation.",
         "B": "Does not wipe away like candida. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1338,7 +1338,7 @@
     },
     {
       "id": "oral_medicine:hard:14",
-      "question": "Which statement about pseudomembranous candidiasis in a 30-year-old woman is most accurate?",
+      "question": "Which statement about pseudomembranous candidiasis in a 43-year-old man is most accurate?",
       "options": [
         "A) Thrush plaques never wipe off like leukoplakia",
         "B) Leukoplakia is any wipeable white curd that is candidiasis by definition",
@@ -1356,11 +1356,11 @@
     },
     {
       "id": "oral_medicine:hard:15",
-      "question": "After examining a 45-year-old man, which statement about erythematous candidiasis is correct?",
+      "question": "After examining a 58-year-old woman, which statement about erythematous candidiasis is correct?",
       "options": [
-        "A) MRG is squamous carcinoma always until proven otherwise without pattern recognition",
+        "A) mixed red-and-white lesion concern is squamous carcinoma always until proven otherwise without pattern recognition",
         "B) Red painful mucosa, often under dentures or after antibiotics or steroids, may be candidal",
-        "C) BMS always shows thick white plaques",
+        "C) burning mouth syndrome always shows thick white plaques",
         "D) Erythematous candida always shows wipeable thick white curds"
       ],
       "answer": "B) Red painful mucosa, often under dentures or after antibiotics or steroids, may be candidal",
@@ -1374,33 +1374,33 @@
     },
     {
       "id": "oral_medicine:hard:16",
-      "question": "A 43-year-old man is evaluated for possible angular cheilitis. Which of the following is most accurate?",
+      "question": "A 56-year-old woman is evaluated for possible angular cheilitis. Which of the following is most accurate?",
       "options": [
-        "A) Angular cheilitis is always only HSV vesicles",
-        "B) HFMD is primary HSV gingivostomatitis identical always without extremity lesions",
+        "A) Angular cheilitis is always only herpes simplex virus vesicles",
+        "B) hand-foot-and-mouth disease is primary herpes simplex virus gingivostomatitis identical always without extremity lesions",
         "C) Angular cheilitis often involves Candida with or without bacteria plus moisture and crease factors",
-        "D) Primary HSV is only a single lip cold sore without systemic signs always"
+        "D) Primary herpes simplex virus is only a single lip cold sore without systemic signs always"
       ],
       "answer": "C) Angular cheilitis often involves Candida with or without bacteria plus moisture and crease factors",
-      "explanation": "Macerated corners are colonized by microbes; low VDO contributes. Therefore, the most accurate choice is: Angular cheilitis often involves Candida with or without bacteria plus moisture and crease factors. Address cause plus topical antimicrobials.",
+      "explanation": "Macerated corners are colonized by microbes; low vertical dimension of occlusion contributes. Therefore, the most accurate choice is: Angular cheilitis often involves Candida with or without bacteria plus moisture and crease factors. Address cause plus topical antimicrobials.",
       "choice_explanations": {
         "A": "Address cause plus topical antimicrobials. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Macerated corners are colonized by microbes; low VDO contributes. This matches the correct interpretation.",
+        "C": "Macerated corners are colonized by microbes; low vertical dimension of occlusion contributes. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "oral_medicine:hard:17",
-      "question": "A 34-year-old woman has findings suggestive of median rhomboid glossitis. Which of the following is the best interpretation?",
+      "question": "A 47-year-old man has findings suggestive of median rhomboid glossitis. Which of the following is the best interpretation?",
       "options": [
-        "A) MRG is squamous carcinoma always until proven otherwise without pattern recognition",
+        "A) mixed red-and-white lesion concern is squamous carcinoma always until proven otherwise without pattern recognition",
         "B) Papilloma is identical to verrucous carcinoma always without histology",
         "C) Erythematous candida always shows wipeable thick white curds",
-        "D) MRG: midline dorsal tongue red atrophic area often candidal-related"
+        "D) mixed red-and-white lesion concern: midline dorsal tongue red atrophic area often candidal-related"
       ],
-      "answer": "D) MRG: midline dorsal tongue red atrophic area often candidal-related",
-      "explanation": "Atrophic papillary loss in midline dorsum associated with Candida. Therefore, the most accurate choice is: MRG: midline dorsal tongue red atrophic area often candidal-related. Recognize classic location and shape.",
+      "answer": "D) mixed red-and-white lesion concern: midline dorsal tongue red atrophic area often candidal-related",
+      "explanation": "Atrophic papillary loss in midline dorsum associated with Candida. Therefore, the most accurate choice is: mixed red-and-white lesion concern: midline dorsal tongue red atrophic area often candidal-related. Recognize classic location and shape.",
       "choice_explanations": {
         "A": "Recognize classic location and shape. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1410,7 +1410,7 @@
     },
     {
       "id": "oral_medicine:hard:18",
-      "question": "In a 57-year-old man, geographic tongue must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 24-year-old woman, geographic tongue must be separated from similar conditions. Which of the following is correct?",
       "options": [
         "A) Geographic tongue is pathognomonic oral cancer",
         "B) Benign migratory glossitis: moving red patches with white borders on the dorsal tongue",
@@ -1428,11 +1428,11 @@
     },
     {
       "id": "oral_medicine:hard:19",
-      "question": "A 51-year-old man returns for review of suspected hairy tongue. Which of the following is most accurate?",
+      "question": "A 64-year-old woman returns for review of suspected hairy tongue. Which of the following is most accurate?",
       "options": [
         "A) Hairy leukoplakia wipes off completely like pseudomembranous candida always",
-        "B) Chemical burns are hairy leukoplakia from EBV",
-        "C) Hairy tongue is hairy leukoplakia from EBV always",
+        "B) Chemical burns are hairy leukoplakia from Epstein-Barr virus",
+        "C) Hairy tongue is hairy leukoplakia from Epstein-Barr virus always",
         "D) Hairy tongue: elongated filiform papillae with discoloration from pigments, bacteria, smoking, or coffee"
       ],
       "answer": "D) Hairy tongue: elongated filiform papillae with discoloration from pigments, bacteria, smoking, or coffee",
@@ -1448,7 +1448,7 @@
       "id": "oral_medicine:hard:20",
       "question": "A clinic case of fissured tongue is discussed. Which of the following is correct?",
       "options": [
-        "A) MRG is squamous carcinoma always until proven otherwise without pattern recognition",
+        "A) mixed red-and-white lesion concern is squamous carcinoma always until proven otherwise without pattern recognition",
         "B) Fissured tongue has grooves; may coexist with geographic tongue; clean debris from fissures",
         "C) Erythroplakia is always benign geographic tongue",
         "D) Fissured tongue equals squamous carcinoma always"
@@ -1464,7 +1464,7 @@
     },
     {
       "id": "oral_medicine:hard:21",
-      "question": "A 20-year-old woman presents with features compatible with traumatic ulcer healing. Which of the following is most accurate?",
+      "question": "A 33-year-old man presents with features compatible with traumatic ulcer healing. Which of the following is most accurate?",
       "options": [
         "A) Traumatic ulcers never heal and are always cancer without exception",
         "B) Minor aphthae typically scar like major aphthae always",
@@ -1482,15 +1482,15 @@
     },
     {
       "id": "oral_medicine:hard:22",
-      "question": "Which statement about oral SCC risk factors in a 31-year-old man is most accurate?",
+      "question": "Which statement about oral squamous cell carcinoma risk factors in a 44-year-old woman is most accurate?",
       "options": [
-        "A) Negative cytology always excludes SCC completely",
-        "B) Alcohol is protective against oral SCC always",
+        "A) Negative cytology always excludes squamous cell carcinoma completely",
+        "B) Alcohol is protective against oral squamous cell carcinoma always",
         "C) Young age fully excludes oral cancer possibility always",
-        "D) Tobacco, alcohol, betel nut, and HPV for oropharynx are major cancer risk factors"
+        "D) Tobacco, alcohol, betel nut, and human papillomavirus for oropharynx are major cancer risk factors"
       ],
-      "answer": "D) Tobacco, alcohol, betel nut, and HPV for oropharynx are major cancer risk factors",
-      "explanation": "Carcinogens and oncogenic viruses drive epithelial malignancy. Therefore, the most accurate choice is: Tobacco, alcohol, betel nut, and HPV for oropharynx are major cancer risk factors. Risk factors guide suspicion, not exclusion by age alone.",
+      "answer": "D) Tobacco, alcohol, betel nut, and human papillomavirus for oropharynx are major cancer risk factors",
+      "explanation": "Carcinogens and oncogenic viruses drive epithelial malignancy. Therefore, the most accurate choice is: Tobacco, alcohol, betel nut, and human papillomavirus for oropharynx are major cancer risk factors. Risk factors guide suspicion, not exclusion by age alone.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1500,15 +1500,15 @@
     },
     {
       "id": "oral_medicine:hard:23",
-      "question": "After examining a 41-year-old man, which statement about oral SCC is correct?",
+      "question": "After examining a 54-year-old woman, which statement about oral squamous cell carcinoma is correct?",
       "options": [
-        "A) Nonhealing ulcer with indurated borders, especially on lateral tongue or floor, suggests SCC until proven otherwise",
-        "B) All tongue ulcers under 2 weeks are SCC requiring same-day hemiglossectomy without assessment",
-        "C) MRG is squamous carcinoma always until proven otherwise without pattern recognition",
+        "A) Nonhealing ulcer with indurated borders, especially on lateral tongue or floor, suggests squamous cell carcinoma until proven otherwise",
+        "B) All tongue ulcers under 2 weeks are squamous cell carcinoma requiring same-day hemiglossectomy without assessment",
+        "C) mixed red-and-white lesion concern is squamous carcinoma always until proven otherwise without pattern recognition",
         "D) Any ulcer under 48 hours needs immediate jaw resection"
       ],
-      "answer": "A) Nonhealing ulcer with indurated borders, especially on lateral tongue or floor, suggests SCC until proven otherwise",
-      "explanation": "Invasive squamous malignancy creates persistent indurated ulcers. Therefore, the most accurate choice is: Nonhealing ulcer with indurated borders, especially on lateral tongue or floor, suggests SCC until proven otherwise. Biopsy persistent suspicious lesions.",
+      "answer": "A) Nonhealing ulcer with indurated borders, especially on lateral tongue or floor, suggests squamous cell carcinoma until proven otherwise",
+      "explanation": "Invasive squamous malignancy creates persistent indurated ulcers. Therefore, the most accurate choice is: Nonhealing ulcer with indurated borders, especially on lateral tongue or floor, suggests squamous cell carcinoma until proven otherwise. Biopsy persistent suspicious lesions.",
       "choice_explanations": {
         "A": "Invasive squamous malignancy creates persistent indurated ulcers. This matches the correct interpretation.",
         "B": "Biopsy persistent suspicious lesions. It is less consistent than the correct choice.",
@@ -1518,29 +1518,29 @@
     },
     {
       "id": "oral_medicine:hard:24",
-      "question": "A 45-year-old man is evaluated for possible HPV oropharyngeal SCC. Which of the following is most accurate?",
+      "question": "A 58-year-old woman is evaluated for possible human papillomavirus oropharyngeal squamous cell carcinoma. Which of the following is most accurate?",
       "options": [
-        "A) Verruca is always SCC",
+        "A) Verruca is always squamous cell carcinoma",
         "B) Actinic cheilitis is only chapped lips from cold without dysplasia risk discussion",
-        "C) HPV-related oropharyngeal SCC often presents with neck nodes; tonsil and base of tongue primaries",
-        "D) HPV only causes herpes labialis"
+        "C) HPV-related oropharyngeal squamous cell carcinoma often presents with neck nodes; tonsil and base of tongue primaries",
+        "D) human papillomavirus only causes herpes labialis"
       ],
-      "answer": "C) HPV-related oropharyngeal SCC often presents with neck nodes; tonsil and base of tongue primaries",
-      "explanation": "High-risk HPV oncogenesis in oropharynx is a major modern theme. Therefore, the most accurate choice is: HPV-related oropharyngeal SCC often presents with neck nodes; tonsil and base of tongue primaries. Distinct patterns versus traditional oral cavity SCC.",
+      "answer": "C) HPV-related oropharyngeal squamous cell carcinoma often presents with neck nodes; tonsil and base of tongue primaries",
+      "explanation": "High-risk human papillomavirus oncogenesis in oropharynx is a major modern theme. Therefore, the most accurate choice is: HPV-related oropharyngeal squamous cell carcinoma often presents with neck nodes; tonsil and base of tongue primaries. Distinct patterns versus traditional oral cavity squamous cell carcinoma.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "High-risk HPV oncogenesis in oropharynx is a major modern theme. This matches the correct interpretation.",
-        "D": "Distinct patterns versus traditional oral cavity SCC. It is less consistent than the correct choice."
+        "C": "High-risk human papillomavirus oncogenesis in oropharynx is a major modern theme. This matches the correct interpretation.",
+        "D": "Distinct patterns versus traditional oral cavity squamous cell carcinoma. It is less consistent than the correct choice."
       }
     },
     {
       "id": "oral_medicine:hard:25",
-      "question": "A 40-year-old woman has findings suggestive of smokeless tobacco keratosis. Which of the following is the best interpretation?",
+      "question": "A 53-year-old man has findings suggestive of smokeless tobacco keratosis. Which of the following is the best interpretation?",
       "options": [
         "A) Erythematous candida always shows wipeable thick white curds",
         "B) Snuff dipper's keratosis appears where tobacco is held; counsel cessation and monitor",
-        "C) Chemical burns are hairy leukoplakia from EBV",
+        "C) Chemical burns are hairy leukoplakia from Epstein-Barr virus",
         "D) Snuff lesions are wipeable thrush"
       ],
       "answer": "B) Snuff dipper's keratosis appears where tobacco is held; counsel cessation and monitor",
@@ -1572,17 +1572,17 @@
     },
     {
       "id": "oral_medicine:hard:27",
-      "question": "A 28-year-old woman returns for review of suspected actinic cheilitis. Which of the following is most accurate?",
+      "question": "A 41-year-old man returns for review of suspected actinic cheilitis. Which of the following is most accurate?",
       "options": [
         "A) Actinic cheilitis is UV-related lower lip vermilion premalignant change",
         "B) After one lesion is removed, remaining mucosa is risk-free forever always",
         "C) Actinic cheilitis is only chapped lips from cold without dysplasia risk discussion",
-        "D) Primary HSV is only a single lip cold sore without systemic signs always"
+        "D) Primary herpes simplex virus is only a single lip cold sore without systemic signs always"
       ],
       "answer": "A) Actinic cheilitis is UV-related lower lip vermilion premalignant change",
-      "explanation": "Chronic UV damages lip epithelium toward dysplasia. Therefore, the most accurate choice is: Actinic cheilitis is UV-related lower lip vermilion premalignant change. Monitor or biopsy persistent changes; sun protection.",
+      "explanation": "Chronic ultraviolet damages lip epithelium toward dysplasia. Therefore, the most accurate choice is: Actinic cheilitis is UV-related lower lip vermilion premalignant change. Monitor or biopsy persistent changes; sun protection.",
       "choice_explanations": {
-        "A": "Chronic UV damages lip epithelium toward dysplasia. This matches the correct interpretation.",
+        "A": "Chronic ultraviolet damages lip epithelium toward dysplasia. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Monitor or biopsy persistent changes; sun protection. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1608,9 +1608,9 @@
     },
     {
       "id": "oral_medicine:hard:29",
-      "question": "A 41-year-old man presents with features compatible with ranula. Which of the following is most accurate?",
+      "question": "A 54-year-old woman presents with features compatible with ranula. Which of the following is most accurate?",
       "options": [
-        "A) Coxsackie-related HFMD: oral ulcers plus hand and foot vesicles, usually in children",
+        "A) Coxsackie-related hand-foot-and-mouth disease: oral ulcers plus hand and foot vesicles, usually in children",
         "B) Mucocele from ruptured minor salivary duct spilling mucin, often lower lip; bluish dome",
         "C) Ranula is a floor-of-mouth mucocele usually from sublingual gland extravasation",
         "D) Ranula is torus mandibularis"
@@ -1646,9 +1646,9 @@
     },
     {
       "id": "oral_medicine:extreme:1",
-      "question": "A 22-year-old woman is reassessed after incomplete response related to erythroplakia concern. Which of the following is most accurate?",
+      "question": "A 35-year-old man is reassessed after incomplete response related to erythroplakia concern. Which of the following is most accurate?",
       "options": [
-        "A) MRG is squamous carcinoma always until proven otherwise without pattern recognition",
+        "A) mixed red-and-white lesion concern is squamous carcinoma always until proven otherwise without pattern recognition",
         "B) Fissured tongue equals squamous carcinoma always",
         "C) Erythroplakia is always benign geographic tongue",
         "D) Erythroplakia is a red patch with higher malignant transformation risk than leukoplakia generally"
@@ -1664,15 +1664,15 @@
     },
     {
       "id": "oral_medicine:extreme:2",
-      "question": "A detailed evaluation for oral lichen planus is underway in a 58-year-old woman. Which of the following is correct?",
+      "question": "A detailed evaluation for oral lichen planus is underway in a 25-year-old man. Which of the following is correct?",
       "options": [
-        "A) OLP often shows lace-like Wickham striae; forms include reticular and erosive",
-        "B) OLP is identical to acute pseudomembranous candidiasis curds",
+        "A) oral lichen planus often shows lace-like Wickham striae; forms include reticular and erosive",
+        "B) oral lichen planus is identical to acute pseudomembranous candidiasis curds",
         "C) Erythematous candida always shows wipeable thick white curds",
-        "D) EM is chronic identical to reticular lichen planus lasting years unchanged"
+        "D) electron microscopy is chronic identical to reticular lichen planus lasting years unchanged"
       ],
-      "answer": "A) OLP often shows lace-like Wickham striae; forms include reticular and erosive",
-      "explanation": "T-cell-mediated mucocutaneous disease creates striae and erosions. Therefore, the most accurate choice is: OLP often shows lace-like Wickham striae; forms include reticular and erosive. Candidiasis wipes off; striae do not.",
+      "answer": "A) oral lichen planus often shows lace-like Wickham striae; forms include reticular and erosive",
+      "explanation": "T-cell-mediated mucocutaneous disease creates striae and erosions. Therefore, the most accurate choice is: oral lichen planus often shows lace-like Wickham striae; forms include reticular and erosive. Candidiasis wipes off; striae do not.",
       "choice_explanations": {
         "A": "T-cell-mediated mucocutaneous disease creates striae and erosions. This matches the correct interpretation.",
         "B": "Candidiasis wipes off; striae do not. It is less consistent than the correct choice.",
@@ -1682,17 +1682,17 @@
     },
     {
       "id": "oral_medicine:extreme:3",
-      "question": "A 32-year-old woman has findings that make lichenoid drug reaction hard to confirm. Which of the following is most accurate?",
+      "question": "A 45-year-old man has findings that make lichenoid drug reaction hard to confirm. Which of the following is most accurate?",
       "options": [
-        "A) Medications can induce lichenoid mucositis resembling OLP",
-        "B) OLP is identical to acute pseudomembranous candidiasis curds",
+        "A) Medications can induce lichenoid mucositis resembling oral lichen planus",
+        "B) oral lichen planus is identical to acute pseudomembranous candidiasis curds",
         "C) Drug lichenoid reactions never relate to medications",
         "D) Drugs never affect saliva"
       ],
-      "answer": "A) Medications can induce lichenoid mucositis resembling OLP",
-      "explanation": "Antihypertensives and NSAIDs are among associated agents. Therefore, the most accurate choice is: Medications can induce lichenoid mucositis resembling OLP. Drug onset history matters.",
+      "answer": "A) Medications can induce lichenoid mucositis resembling oral lichen planus",
+      "explanation": "Antihypertensives and nonsteroidal anti-inflammatory drugs are among associated agents. Therefore, the most accurate choice is: Medications can induce lichenoid mucositis resembling oral lichen planus. Drug onset history matters.",
       "choice_explanations": {
-        "A": "Antihypertensives and NSAIDs are among associated agents. This matches the correct interpretation.",
+        "A": "Antihypertensives and nonsteroidal anti-inflammatory drugs are among associated agents. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Drug onset history matters. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1700,11 +1700,11 @@
     },
     {
       "id": "oral_medicine:extreme:4",
-      "question": "In a 39-year-old man, distinguishing pemphigus vulgaris oral from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 52-year-old woman, distinguishing pemphigus vulgaris oral from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Pemphigus causes flaccid blisters and erosions with positive Nikolsky; oral often first",
         "B) Pemphigus is mild reversible pulpitis",
-        "C) HPV only causes herpes labialis",
+        "C) human papillomavirus only causes herpes labialis",
         "D) Ramsay Hunt is reversible pulpitis only"
       ],
       "answer": "A) Pemphigus causes flaccid blisters and erosions with positive Nikolsky; oral often first",
@@ -1718,15 +1718,15 @@
     },
     {
       "id": "oral_medicine:extreme:5",
-      "question": "A 63-year-old man returns with ongoing problems related to mucous membrane pemphigoid. Which of the following is most accurate?",
+      "question": "A 30-year-old woman returns with ongoing problems related to mucous membrane pemphigoid. Which of the following is most accurate?",
       "options": [
-        "A) MMP is identical to aphthous ulcers exclusively",
+        "A) matrix metalloproteinase is identical to aphthous ulcers exclusively",
         "B) B12 deficiency only causes enamel hypoplasia",
-        "C) TB ulcers are always traumatic fibromas",
-        "D) MMP causes subepithelial blisters; eyes and genitals may be involved with scarring risk"
+        "C) tuberculosis ulcers are always traumatic fibromas",
+        "D) matrix metalloproteinase causes subepithelial blisters; eyes and genitals may be involved with scarring risk"
       ],
-      "answer": "D) MMP causes subepithelial blisters; eyes and genitals may be involved with scarring risk",
-      "explanation": "Autoimmune attack on basement membrane antigens. Therefore, the most accurate choice is: MMP causes subepithelial blisters; eyes and genitals may be involved with scarring risk. Desquamative gingivitis pattern is common.",
+      "answer": "D) matrix metalloproteinase causes subepithelial blisters; eyes and genitals may be involved with scarring risk",
+      "explanation": "Autoimmune attack on basement membrane antigens. Therefore, the most accurate choice is: matrix metalloproteinase causes subepithelial blisters; eyes and genitals may be involved with scarring risk. Desquamative gingivitis pattern is common.",
       "choice_explanations": {
         "A": "Desquamative gingivitis pattern is common. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1736,12 +1736,12 @@
     },
     {
       "id": "oral_medicine:extreme:6",
-      "question": "Senior review is requested for nikolsky in a 60-year-old woman. Which of the following is correct?",
+      "question": "Senior review is requested for nikolsky in a 27-year-old man. Which of the following is correct?",
       "options": [
         "A) Nikolsky sign diagnoses caries",
         "B) Nikolsky sign: lateral pressure extends blister or sheets of epithelium in some vesiculobullous diseases",
         "C) Hairy leukoplakia wipes off completely like pseudomembranous candida always",
-        "D) DIF is useless in vesiculobullous diagnosis"
+        "D) direct immunofluorescence is useless in vesiculobullous diagnosis"
       ],
       "answer": "B) Nikolsky sign: lateral pressure extends blister or sheets of epithelium in some vesiculobullous diseases",
       "explanation": "Weak adhesion allows sheet-like separation. Therefore, the most accurate choice is: Nikolsky sign: lateral pressure extends blister or sheets of epithelium in some vesiculobullous diseases. Seen in pemphigus and some other disorders.",
@@ -1754,36 +1754,36 @@
     },
     {
       "id": "oral_medicine:extreme:7",
-      "question": "Which statement about minor aphthous ulcer in a 43-year-old man is most accurate?",
+      "question": "Which statement about minor aphthous ulcer in a 56-year-old woman is most accurate?",
       "options": [
-        "A) Minor RAS: small painful ulcers on nonkeratinized mucosa healing without scar in about 7–14 days",
-        "B) Recurrent intraoral HSV prefers buccal mucosa and floor like minor aphthae always",
+        "A) Minor renal artery stenosis: small painful ulcers on nonkeratinized mucosa healing without scar in about 7–14 days",
+        "B) Recurrent intraoral herpes simplex virus prefers buccal mucosa and floor like minor aphthae always",
         "C) Minor aphthae typically scar like major aphthae always",
         "D) Major aphthae are always under 3 mm and heal in 3 days without scar"
       ],
-      "answer": "A) Minor RAS: small painful ulcers on nonkeratinized mucosa healing without scar in about 7–14 days",
-      "explanation": "Idiopathic immune-mediated ulcers on movable mucosa. Therefore, the most accurate choice is: Minor RAS: small painful ulcers on nonkeratinized mucosa healing without scar in about 7–14 days. HSV favors keratinized bound mucosa in recurrent intraoral herpes.",
+      "answer": "A) Minor renal artery stenosis: small painful ulcers on nonkeratinized mucosa healing without scar in about 7–14 days",
+      "explanation": "Idiopathic immune-mediated ulcers on movable mucosa. Therefore, the most accurate choice is: Minor renal artery stenosis: small painful ulcers on nonkeratinized mucosa healing without scar in about 7–14 days. herpes simplex virus favors keratinized bound mucosa in recurrent intraoral herpes.",
       "choice_explanations": {
         "A": "Idiopathic immune-mediated ulcers on movable mucosa. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "HSV favors keratinized bound mucosa in recurrent intraoral herpes. It is less consistent than the correct choice.",
+        "C": "herpes simplex virus favors keratinized bound mucosa in recurrent intraoral herpes. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "oral_medicine:extreme:8",
-      "question": "A 50-year-old woman has a complex presentation of major aphthous ulcer. Which of the following is most accurate?",
+      "question": "A 63-year-old man has a complex presentation of major aphthous ulcer. Which of the following is most accurate?",
       "options": [
         "A) Traumatic ulcers never heal and are always cancer without exception",
-        "B) Major RAS: larger, deeper ulcers that may scar and last longer",
+        "B) Major renal artery stenosis: larger, deeper ulcers that may scar and last longer",
         "C) Minor aphthae typically scar like major aphthae always",
         "D) Major aphthae are always under 3 mm and heal in 3 days without scar"
       ],
-      "answer": "B) Major RAS: larger, deeper ulcers that may scar and last longer",
-      "explanation": "More severe RAS phenotype with scarring potential. Therefore, the most accurate choice is: Major RAS: larger, deeper ulcers that may scar and last longer. Size, duration, and scarring distinguish from minor.",
+      "answer": "B) Major renal artery stenosis: larger, deeper ulcers that may scar and last longer",
+      "explanation": "More severe renal artery stenosis phenotype with scarring potential. Therefore, the most accurate choice is: Major renal artery stenosis: larger, deeper ulcers that may scar and last longer. Size, duration, and scarring distinguish from minor.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "More severe RAS phenotype with scarring potential. This matches the correct interpretation.",
+        "B": "More severe renal artery stenosis phenotype with scarring potential. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Size, duration, and scarring distinguish from minor. It is less consistent than the correct choice."
       }
@@ -1794,11 +1794,11 @@
       "options": [
         "A) Minor aphthae typically scar like major aphthae always",
         "B) Major aphthae are always under 3 mm and heal in 3 days without scar",
-        "C) Herpetiform aphthae are proven HSV culture-positive always by definition",
-        "D) Herpetiform RAS: crops of tiny ulcers that may coalesce; not caused by HSV despite the name"
+        "C) Herpetiform aphthae are proven herpes simplex virus culture-positive always by definition",
+        "D) Herpetiform renal artery stenosis: crops of tiny ulcers that may coalesce; not caused by herpes simplex virus despite the name"
       ],
-      "answer": "D) Herpetiform RAS: crops of tiny ulcers that may coalesce; not caused by HSV despite the name",
-      "explanation": "Clinical resemblance to herpes without herpetic etiology. Therefore, the most accurate choice is: Herpetiform RAS: crops of tiny ulcers that may coalesce; not caused by HSV despite the name. Terminology is descriptive, not viral proof.",
+      "answer": "D) Herpetiform renal artery stenosis: crops of tiny ulcers that may coalesce; not caused by herpes simplex virus despite the name",
+      "explanation": "Clinical resemblance to herpes without herpetic etiology. Therefore, the most accurate choice is: Herpetiform renal artery stenosis: crops of tiny ulcers that may coalesce; not caused by herpes simplex virus despite the name. Terminology is descriptive, not viral proof.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1808,15 +1808,15 @@
     },
     {
       "id": "oral_medicine:extreme:10",
-      "question": "A detailed evaluation for primary herpetic gingivostomatitis is underway in a 36-year-old woman. Which of the following is correct?",
+      "question": "A detailed evaluation for primary herpetic gingivostomatitis is underway in a 49-year-old man. Which of the following is correct?",
       "options": [
-        "A) HFMD is primary HSV gingivostomatitis identical always without extremity lesions",
+        "A) hand-foot-and-mouth disease is primary herpes simplex virus gingivostomatitis identical always without extremity lesions",
         "B) Zoster always crosses the midline symmetrically like primary herpetic gingivostomatitis",
-        "C) Primary HSV often features fever, nodes, diffuse gingivitis, and oral vesicles in children",
-        "D) Primary HSV is only a single lip cold sore without systemic signs always"
+        "C) Primary herpes simplex virus often features fever, nodes, diffuse gingivitis, and oral vesicles in children",
+        "D) Primary herpes simplex virus is only a single lip cold sore without systemic signs always"
       ],
-      "answer": "C) Primary HSV often features fever, nodes, diffuse gingivitis, and oral vesicles in children",
-      "explanation": "First exposure to HSV-1 causes widespread oral involvement. Therefore, the most accurate choice is: Primary HSV often features fever, nodes, diffuse gingivitis, and oral vesicles in children. Differs from recurrent herpes labialis.",
+      "answer": "C) Primary herpes simplex virus often features fever, nodes, diffuse gingivitis, and oral vesicles in children",
+      "explanation": "First exposure to HSV-1 causes widespread oral involvement. Therefore, the most accurate choice is: Primary herpes simplex virus often features fever, nodes, diffuse gingivitis, and oral vesicles in children. Differs from recurrent herpes labialis.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1826,33 +1826,33 @@
     },
     {
       "id": "oral_medicine:extreme:11",
-      "question": "A 38-year-old woman has findings that make recurrent herpes labialis hard to confirm. Which of the following is most accurate?",
+      "question": "A 51-year-old man has findings that make recurrent herpes labialis hard to confirm. Which of the following is most accurate?",
       "options": [
-        "A) Recurrent intraoral HSV prefers buccal mucosa and floor like minor aphthae always",
+        "A) Recurrent intraoral herpes simplex virus prefers buccal mucosa and floor like minor aphthae always",
         "B) Recurrent herpes labialis begins as nonkeratinized movable mucosa aphthae exclusively",
         "C) Recurrent herpes labialis: vermilion or perioral vesicles triggered by sun, stress, or illness",
-        "D) Primary HSV is only a single lip cold sore without systemic signs always"
+        "D) Primary herpes simplex virus is only a single lip cold sore without systemic signs always"
       ],
       "answer": "C) Recurrent herpes labialis: vermilion or perioral vesicles triggered by sun, stress, or illness",
-      "explanation": "Latent HSV reactivates via trigeminal pathways to lip skin and vermilion. Therefore, the most accurate choice is: Recurrent herpes labialis: vermilion or perioral vesicles triggered by sun, stress, or illness. Site and vesicles distinguish from aphthae.",
+      "explanation": "Latent herpes simplex virus reactivates via trigeminal pathways to lip skin and vermilion. Therefore, the most accurate choice is: Recurrent herpes labialis: vermilion or perioral vesicles triggered by sun, stress, or illness. Site and vesicles distinguish from aphthae.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Site and vesicles distinguish from aphthae. It is less consistent than the correct choice.",
-        "C": "Latent HSV reactivates via trigeminal pathways to lip skin and vermilion. This matches the correct interpretation.",
+        "C": "Latent herpes simplex virus reactivates via trigeminal pathways to lip skin and vermilion. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "oral_medicine:extreme:12",
-      "question": "In a 20-year-old woman, distinguishing recurrent intraoral herpes from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 33-year-old man, distinguishing recurrent intraoral herpes from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Minor aphthae typically scar like major aphthae always",
-        "B) Recurrent intraoral HSV typically affects keratinized bound mucosa as small vesicles or ulcers",
-        "C) Herpangina prefers attached gingiva like recurrent intraoral HSV always",
-        "D) Recurrent intraoral HSV prefers buccal mucosa and floor like minor aphthae always"
+        "B) Recurrent intraoral herpes simplex virus typically affects keratinized bound mucosa as small vesicles or ulcers",
+        "C) Herpangina prefers attached gingiva like recurrent intraoral herpes simplex virus always",
+        "D) Recurrent intraoral herpes simplex virus prefers buccal mucosa and floor like minor aphthae always"
       ],
-      "answer": "B) Recurrent intraoral HSV typically affects keratinized bound mucosa as small vesicles or ulcers",
-      "explanation": "Reactivation localizes to keratinized mucosa. Therefore, the most accurate choice is: Recurrent intraoral HSV typically affects keratinized bound mucosa as small vesicles or ulcers. Site helps differentiate from aphthae.",
+      "answer": "B) Recurrent intraoral herpes simplex virus typically affects keratinized bound mucosa as small vesicles or ulcers",
+      "explanation": "Reactivation localizes to keratinized mucosa. Therefore, the most accurate choice is: Recurrent intraoral herpes simplex virus typically affects keratinized bound mucosa as small vesicles or ulcers. Site helps differentiate from aphthae.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Reactivation localizes to keratinized mucosa. This matches the correct interpretation.",
@@ -1862,17 +1862,17 @@
     },
     {
       "id": "oral_medicine:extreme:13",
-      "question": "A 22-year-old woman returns with ongoing problems related to hairy leukoplakia. Which of the following is most accurate?",
+      "question": "A 35-year-old man returns with ongoing problems related to hairy leukoplakia. Which of the following is most accurate?",
       "options": [
-        "A) Oral hairy leukoplakia: white lateral tongue plaques associated with EBV in immunocompromised patients",
+        "A) Oral hairy leukoplakia: white lateral tongue plaques associated with Epstein-Barr virus in immunocompromised patients",
         "B) Hairy leukoplakia wipes off completely like pseudomembranous candida always",
         "C) Thrush plaques never wipe off like leukoplakia",
-        "D) KS is a traumatic fibroma color-matched always"
+        "D) Kaposi sarcoma is a traumatic fibroma color-matched always"
       ],
-      "answer": "A) Oral hairy leukoplakia: white lateral tongue plaques associated with EBV in immunocompromised patients",
-      "explanation": "EBV-driven epithelial hyperplasia in immunosuppression such as HIV. Therefore, the most accurate choice is: Oral hairy leukoplakia: white lateral tongue plaques associated with EBV in immunocompromised patients. Does not wipe away like candida.",
+      "answer": "A) Oral hairy leukoplakia: white lateral tongue plaques associated with Epstein-Barr virus in immunocompromised patients",
+      "explanation": "EBV-driven epithelial hyperplasia in immunosuppression such as human immunodeficiency virus. Therefore, the most accurate choice is: Oral hairy leukoplakia: white lateral tongue plaques associated with Epstein-Barr virus in immunocompromised patients. Does not wipe away like candida.",
       "choice_explanations": {
-        "A": "EBV-driven epithelial hyperplasia in immunosuppression such as HIV. This matches the correct interpretation.",
+        "A": "EBV-driven epithelial hyperplasia in immunosuppression such as human immunodeficiency virus. This matches the correct interpretation.",
         "B": "Does not wipe away like candida. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1880,7 +1880,7 @@
     },
     {
       "id": "oral_medicine:extreme:14",
-      "question": "Senior review is requested for pseudomembranous candidiasis in a 30-year-old woman. Which of the following is correct?",
+      "question": "Senior review is requested for pseudomembranous candidiasis in a 43-year-old man. Which of the following is correct?",
       "options": [
         "A) Hairy leukoplakia wipes off completely like pseudomembranous candida always",
         "B) Thrush plaques never wipe off like leukoplakia",
@@ -1898,11 +1898,11 @@
     },
     {
       "id": "oral_medicine:extreme:15",
-      "question": "Which statement about erythematous candidiasis in a 45-year-old man is most accurate?",
+      "question": "Which statement about erythematous candidiasis in a 58-year-old woman is most accurate?",
       "options": [
-        "A) MRG is squamous carcinoma always until proven otherwise without pattern recognition",
+        "A) mixed red-and-white lesion concern is squamous carcinoma always until proven otherwise without pattern recognition",
         "B) Erythematous candida always shows wipeable thick white curds",
-        "C) BMS always shows thick white plaques",
+        "C) burning mouth syndrome always shows thick white plaques",
         "D) Red painful mucosa, often under dentures or after antibiotics or steroids, may be candidal"
       ],
       "answer": "D) Red painful mucosa, often under dentures or after antibiotics or steroids, may be candidal",
@@ -1916,33 +1916,33 @@
     },
     {
       "id": "oral_medicine:extreme:16",
-      "question": "A 43-year-old man has a complex presentation of angular cheilitis. Which of the following is most accurate?",
+      "question": "A 56-year-old woman has a complex presentation of angular cheilitis. Which of the following is most accurate?",
       "options": [
-        "A) Primary HSV is only a single lip cold sore without systemic signs always",
+        "A) Primary herpes simplex virus is only a single lip cold sore without systemic signs always",
         "B) Angular cheilitis often involves Candida with or without bacteria plus moisture and crease factors",
-        "C) Angular cheilitis is always only HSV vesicles",
-        "D) HFMD is primary HSV gingivostomatitis identical always without extremity lesions"
+        "C) Angular cheilitis is always only herpes simplex virus vesicles",
+        "D) hand-foot-and-mouth disease is primary herpes simplex virus gingivostomatitis identical always without extremity lesions"
       ],
       "answer": "B) Angular cheilitis often involves Candida with or without bacteria plus moisture and crease factors",
-      "explanation": "Macerated corners are colonized by microbes; low VDO contributes. Therefore, the most accurate choice is: Angular cheilitis often involves Candida with or without bacteria plus moisture and crease factors. Address cause plus topical antimicrobials.",
+      "explanation": "Macerated corners are colonized by microbes; low vertical dimension of occlusion contributes. Therefore, the most accurate choice is: Angular cheilitis often involves Candida with or without bacteria plus moisture and crease factors. Address cause plus topical antimicrobials.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Macerated corners are colonized by microbes; low VDO contributes. This matches the correct interpretation.",
+        "B": "Macerated corners are colonized by microbes; low vertical dimension of occlusion contributes. This matches the correct interpretation.",
         "C": "Address cause plus topical antimicrobials. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "oral_medicine:extreme:17",
-      "question": "A 34-year-old woman is reassessed after incomplete response related to median rhomboid glossitis. Which of the following is most accurate?",
+      "question": "A 47-year-old man is reassessed after incomplete response related to median rhomboid glossitis. Which of the following is most accurate?",
       "options": [
         "A) Erythematous candida always shows wipeable thick white curds",
-        "B) MRG: midline dorsal tongue red atrophic area often candidal-related",
-        "C) MRG is squamous carcinoma always until proven otherwise without pattern recognition",
+        "B) mixed red-and-white lesion concern: midline dorsal tongue red atrophic area often candidal-related",
+        "C) mixed red-and-white lesion concern is squamous carcinoma always until proven otherwise without pattern recognition",
         "D) Papilloma is identical to verrucous carcinoma always without histology"
       ],
-      "answer": "B) MRG: midline dorsal tongue red atrophic area often candidal-related",
-      "explanation": "Atrophic papillary loss in midline dorsum associated with Candida. Therefore, the most accurate choice is: MRG: midline dorsal tongue red atrophic area often candidal-related. Recognize classic location and shape.",
+      "answer": "B) mixed red-and-white lesion concern: midline dorsal tongue red atrophic area often candidal-related",
+      "explanation": "Atrophic papillary loss in midline dorsum associated with Candida. Therefore, the most accurate choice is: mixed red-and-white lesion concern: midline dorsal tongue red atrophic area often candidal-related. Recognize classic location and shape.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Atrophic papillary loss in midline dorsum associated with Candida. This matches the correct interpretation.",
@@ -1952,10 +1952,10 @@
     },
     {
       "id": "oral_medicine:extreme:18",
-      "question": "A detailed evaluation for geographic tongue is underway in a 57-year-old man. Which of the following is correct?",
+      "question": "A detailed evaluation for geographic tongue is underway in a 24-year-old woman. Which of the following is correct?",
       "options": [
         "A) Erythroplakia is always benign geographic tongue",
-        "B) All tongue ulcers under 2 weeks are SCC requiring same-day hemiglossectomy without assessment",
+        "B) All tongue ulcers under 2 weeks are squamous cell carcinoma requiring same-day hemiglossectomy without assessment",
         "C) Geographic tongue is pathognomonic oral cancer",
         "D) Benign migratory glossitis: moving red patches with white borders on the dorsal tongue"
       ],
@@ -1970,10 +1970,10 @@
     },
     {
       "id": "oral_medicine:extreme:19",
-      "question": "A 51-year-old man has findings that make hairy tongue hard to confirm. Which of the following is most accurate?",
+      "question": "A 64-year-old woman has findings that make hairy tongue hard to confirm. Which of the following is most accurate?",
       "options": [
-        "A) Hairy tongue is hairy leukoplakia from EBV always",
-        "B) Chemical burns are hairy leukoplakia from EBV",
+        "A) Hairy tongue is hairy leukoplakia from Epstein-Barr virus always",
+        "B) Chemical burns are hairy leukoplakia from Epstein-Barr virus",
         "C) Hairy tongue: elongated filiform papillae with discoloration from pigments, bacteria, smoking, or coffee",
         "D) Hairy leukoplakia wipes off completely like pseudomembranous candida always"
       ],
@@ -1988,11 +1988,11 @@
     },
     {
       "id": "oral_medicine:extreme:20",
-      "question": "In a 29-year-old man, distinguishing fissured tongue from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 42-year-old woman, distinguishing fissured tongue from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Fissured tongue equals squamous carcinoma always",
         "B) Erythroplakia is always benign geographic tongue",
-        "C) MRG is squamous carcinoma always until proven otherwise without pattern recognition",
+        "C) mixed red-and-white lesion concern is squamous carcinoma always until proven otherwise without pattern recognition",
         "D) Fissured tongue has grooves; may coexist with geographic tongue; clean debris from fissures"
       ],
       "answer": "D) Fissured tongue has grooves; may coexist with geographic tongue; clean debris from fissures",
@@ -2006,7 +2006,7 @@
     },
     {
       "id": "oral_medicine:extreme:21",
-      "question": "A 20-year-old woman returns with ongoing problems related to traumatic ulcer healing. Which of the following is most accurate?",
+      "question": "A 33-year-old man returns with ongoing problems related to traumatic ulcer healing. Which of the following is most accurate?",
       "options": [
         "A) Minor aphthae typically scar like major aphthae always",
         "B) Traumatic ulcers never heal and are always cancer without exception",
@@ -2024,15 +2024,15 @@
     },
     {
       "id": "oral_medicine:extreme:22",
-      "question": "Senior review is requested for oral SCC risk factors in a 31-year-old man. Which of the following is correct?",
+      "question": "Senior review is requested for oral squamous cell carcinoma risk factors in a 44-year-old woman. Which of the following is correct?",
       "options": [
-        "A) Tobacco, alcohol, betel nut, and HPV for oropharynx are major cancer risk factors",
-        "B) Alcohol is protective against oral SCC always",
-        "C) Negative cytology always excludes SCC completely",
+        "A) Tobacco, alcohol, betel nut, and human papillomavirus for oropharynx are major cancer risk factors",
+        "B) Alcohol is protective against oral squamous cell carcinoma always",
+        "C) Negative cytology always excludes squamous cell carcinoma completely",
         "D) Young age fully excludes oral cancer possibility always"
       ],
-      "answer": "A) Tobacco, alcohol, betel nut, and HPV for oropharynx are major cancer risk factors",
-      "explanation": "Carcinogens and oncogenic viruses drive epithelial malignancy. Therefore, the most accurate choice is: Tobacco, alcohol, betel nut, and HPV for oropharynx are major cancer risk factors. Risk factors guide suspicion, not exclusion by age alone.",
+      "answer": "A) Tobacco, alcohol, betel nut, and human papillomavirus for oropharynx are major cancer risk factors",
+      "explanation": "Carcinogens and oncogenic viruses drive epithelial malignancy. Therefore, the most accurate choice is: Tobacco, alcohol, betel nut, and human papillomavirus for oropharynx are major cancer risk factors. Risk factors guide suspicion, not exclusion by age alone.",
       "choice_explanations": {
         "A": "Carcinogens and oncogenic viruses drive epithelial malignancy. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -2042,15 +2042,15 @@
     },
     {
       "id": "oral_medicine:extreme:23",
-      "question": "Which statement about oral SCC in a 41-year-old man is most accurate?",
+      "question": "Which statement about oral squamous cell carcinoma in a 54-year-old woman is most accurate?",
       "options": [
-        "A) MRG is squamous carcinoma always until proven otherwise without pattern recognition",
-        "B) Nonhealing ulcer with indurated borders, especially on lateral tongue or floor, suggests SCC until proven otherwise",
-        "C) All tongue ulcers under 2 weeks are SCC requiring same-day hemiglossectomy without assessment",
+        "A) mixed red-and-white lesion concern is squamous carcinoma always until proven otherwise without pattern recognition",
+        "B) Nonhealing ulcer with indurated borders, especially on lateral tongue or floor, suggests squamous cell carcinoma until proven otherwise",
+        "C) All tongue ulcers under 2 weeks are squamous cell carcinoma requiring same-day hemiglossectomy without assessment",
         "D) Any ulcer under 48 hours needs immediate jaw resection"
       ],
-      "answer": "B) Nonhealing ulcer with indurated borders, especially on lateral tongue or floor, suggests SCC until proven otherwise",
-      "explanation": "Invasive squamous malignancy creates persistent indurated ulcers. Therefore, the most accurate choice is: Nonhealing ulcer with indurated borders, especially on lateral tongue or floor, suggests SCC until proven otherwise. Biopsy persistent suspicious lesions.",
+      "answer": "B) Nonhealing ulcer with indurated borders, especially on lateral tongue or floor, suggests squamous cell carcinoma until proven otherwise",
+      "explanation": "Invasive squamous malignancy creates persistent indurated ulcers. Therefore, the most accurate choice is: Nonhealing ulcer with indurated borders, especially on lateral tongue or floor, suggests squamous cell carcinoma until proven otherwise. Biopsy persistent suspicious lesions.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Invasive squamous malignancy creates persistent indurated ulcers. This matches the correct interpretation.",
@@ -2060,28 +2060,28 @@
     },
     {
       "id": "oral_medicine:extreme:24",
-      "question": "A 45-year-old man has a complex presentation of HPV oropharyngeal SCC. Which of the following is most accurate?",
+      "question": "A 58-year-old woman has a complex presentation of human papillomavirus oropharyngeal squamous cell carcinoma. Which of the following is most accurate?",
       "options": [
-        "A) HPV-related oropharyngeal SCC often presents with neck nodes; tonsil and base of tongue primaries",
-        "B) HPV only causes herpes labialis",
-        "C) Verruca is always SCC",
+        "A) HPV-related oropharyngeal squamous cell carcinoma often presents with neck nodes; tonsil and base of tongue primaries",
+        "B) human papillomavirus only causes herpes labialis",
+        "C) Verruca is always squamous cell carcinoma",
         "D) Actinic cheilitis is only chapped lips from cold without dysplasia risk discussion"
       ],
-      "answer": "A) HPV-related oropharyngeal SCC often presents with neck nodes; tonsil and base of tongue primaries",
-      "explanation": "High-risk HPV oncogenesis in oropharynx is a major modern theme. Therefore, the most accurate choice is: HPV-related oropharyngeal SCC often presents with neck nodes; tonsil and base of tongue primaries. Distinct patterns versus traditional oral cavity SCC.",
+      "answer": "A) HPV-related oropharyngeal squamous cell carcinoma often presents with neck nodes; tonsil and base of tongue primaries",
+      "explanation": "High-risk human papillomavirus oncogenesis in oropharynx is a major modern theme. Therefore, the most accurate choice is: HPV-related oropharyngeal squamous cell carcinoma often presents with neck nodes; tonsil and base of tongue primaries. Distinct patterns versus traditional oral cavity squamous cell carcinoma.",
       "choice_explanations": {
-        "A": "High-risk HPV oncogenesis in oropharynx is a major modern theme. This matches the correct interpretation.",
-        "B": "Distinct patterns versus traditional oral cavity SCC. It is less consistent than the correct choice.",
+        "A": "High-risk human papillomavirus oncogenesis in oropharynx is a major modern theme. This matches the correct interpretation.",
+        "B": "Distinct patterns versus traditional oral cavity squamous cell carcinoma. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "oral_medicine:extreme:25",
-      "question": "A 40-year-old woman is reassessed after incomplete response related to smokeless tobacco keratosis. Which of the following is most accurate?",
+      "question": "A 53-year-old man is reassessed after incomplete response related to smokeless tobacco keratosis. Which of the following is most accurate?",
       "options": [
         "A) Erythematous candida always shows wipeable thick white curds",
-        "B) Chemical burns are hairy leukoplakia from EBV",
+        "B) Chemical burns are hairy leukoplakia from Epstein-Barr virus",
         "C) Snuff dipper's keratosis appears where tobacco is held; counsel cessation and monitor",
         "D) Snuff lesions are wipeable thrush"
       ],
@@ -2114,25 +2114,25 @@
     },
     {
       "id": "oral_medicine:extreme:27",
-      "question": "A 28-year-old woman has findings that make actinic cheilitis hard to confirm. Which of the following is most accurate?",
+      "question": "A 41-year-old man has findings that make actinic cheilitis hard to confirm. Which of the following is most accurate?",
       "options": [
         "A) Actinic cheilitis is only chapped lips from cold without dysplasia risk discussion",
-        "B) Primary HSV is only a single lip cold sore without systemic signs always",
+        "B) Primary herpes simplex virus is only a single lip cold sore without systemic signs always",
         "C) Actinic cheilitis is UV-related lower lip vermilion premalignant change",
         "D) After one lesion is removed, remaining mucosa is risk-free forever always"
       ],
       "answer": "C) Actinic cheilitis is UV-related lower lip vermilion premalignant change",
-      "explanation": "Chronic UV damages lip epithelium toward dysplasia. Therefore, the most accurate choice is: Actinic cheilitis is UV-related lower lip vermilion premalignant change. Monitor or biopsy persistent changes; sun protection.",
+      "explanation": "Chronic ultraviolet damages lip epithelium toward dysplasia. Therefore, the most accurate choice is: Actinic cheilitis is UV-related lower lip vermilion premalignant change. Monitor or biopsy persistent changes; sun protection.",
       "choice_explanations": {
         "A": "Monitor or biopsy persistent changes; sun protection. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Chronic UV damages lip epithelium toward dysplasia. This matches the correct interpretation.",
+        "C": "Chronic ultraviolet damages lip epithelium toward dysplasia. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "oral_medicine:extreme:28",
-      "question": "In a 30-year-old woman, distinguishing mucocele from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 43-year-old man, distinguishing mucocele from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Mucoceles are malignant minor salivary carcinomas always",
         "B) Fibroma is a malignant sarcoma always",
@@ -2150,7 +2150,7 @@
     },
     {
       "id": "oral_medicine:extreme:29",
-      "question": "A 41-year-old man returns with ongoing problems related to ranula. Which of the following is most accurate?",
+      "question": "A 54-year-old woman returns with ongoing problems related to ranula. Which of the following is most accurate?",
       "options": [
         "A) Ranula is torus mandibularis",
         "B) Dry mouth lowers caries risk because less saliva sugar",

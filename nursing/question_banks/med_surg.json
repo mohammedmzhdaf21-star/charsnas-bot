@@ -4,13 +4,13 @@
       "id": "med_surg:easy:0",
       "question": "Which of the following is true of heart failure daily weight?",
       "options": [
-        "A) Resume competitive sprinting on postop day 1 after STEMI without clearance",
-        "B) Report rapid weight gain (e.g., ≥2–3 lb in a day) as fluid retention clue in HF",
+        "A) Resume competitive sprinting on postop day 1 after ST-segment elevation myocardial infarction without clearance",
+        "B) Report rapid weight gain (e.g., ≥2–3 lb in a day) as fluid retention clue in heart failure",
         "C) Teach unlimited processed soup and canned foods as heart-healthy defaults",
-        "D) Fluid-restrict central DI patients with 10 L/day urine without replacement plan"
+        "D) Fluid-restrict central diabetes insipidus patients with 10 L/day urine without replacement plan"
       ],
-      "answer": "B) Report rapid weight gain (e.g., ≥2–3 lb in a day) as fluid retention clue in HF",
-      "explanation": "Acute weight gain often reflects fluid retention before overt dyspnea worsens. Therefore, the most accurate choice is: Report rapid weight gain (e.g., ≥2–3 lb in a day) as fluid retention clue in HF. Ankle appearance can lag; weight is a sensitive congestion signal— to ignore.",
+      "answer": "B) Report rapid weight gain (e.g., ≥2–3 lb in a day) as fluid retention clue in heart failure",
+      "explanation": "Acute weight gain often reflects fluid retention before overt dyspnea worsens. Therefore, the most accurate choice is: Report rapid weight gain (e.g., ≥2–3 lb in a day) as fluid retention clue in heart failure. Ankle appearance can lag; weight is a sensitive congestion signal— to ignore.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Acute weight gain often reflects fluid retention before overt dyspnea worsens. This matches the correct interpretation.",
@@ -20,10 +20,10 @@
     },
     {
       "id": "med_surg:easy:1",
-      "question": "Which finding is expected in HF low sodium diet?",
+      "question": "Which finding is expected in heart failure low sodium diet?",
       "options": [
         "A) Recommend fried foods to ‘flush bile’ during acute cholecystitis",
-        "B) Massive peripheral edema without pulmonary findings is the hallmark of isolated left HF alone",
+        "B) Massive peripheral edema without pulmonary findings is the hallmark of isolated left heart failure alone",
         "C) Teach sodium restriction and fluid guidance per plan to reduce congestion",
         "D) Teach unlimited processed soup and canned foods as heart-healthy defaults"
       ],
@@ -38,15 +38,15 @@
     },
     {
       "id": "med_surg:easy:2",
-      "question": "Which statement regarding left-sided HF clues is correct?",
+      "question": "Which statement regarding left-sided heart failure clues is correct?",
       "options": [
-        "A) Dyspnea, orthopnea, crackles, and low SpO2 suggest pulmonary congestion from left HF",
-        "B) Pink frothy sputum is the classic isolated right-HF hallmark",
+        "A) Dyspnea, orthopnea, crackles, and low oxygen saturation suggest pulmonary congestion from left heart failure",
+        "B) Pink frothy sputum is the classic isolated right-heart failure hallmark",
         "C) Treat flash pulmonary edema only with oral antibiotics at home without assessment",
-        "D) Massive peripheral edema without pulmonary findings is the hallmark of isolated left HF alone"
+        "D) Massive peripheral edema without pulmonary findings is the hallmark of isolated left heart failure alone"
       ],
-      "answer": "A) Dyspnea, orthopnea, crackles, and low SpO2 suggest pulmonary congestion from left HF",
-      "explanation": "Elevated left-sided pressures flood alveoli causing respiratory symptoms. Therefore, the most accurate choice is: Dyspnea, orthopnea, crackles, and low SpO2 suggest pulmonary congestion from left HF. Predominant dependent edema points more to right-sided congestion—close cousin .",
+      "answer": "A) Dyspnea, orthopnea, crackles, and low oxygen saturation suggest pulmonary congestion from left heart failure",
+      "explanation": "Elevated left-sided pressures flood alveoli causing respiratory symptoms. Therefore, the most accurate choice is: Dyspnea, orthopnea, crackles, and low oxygen saturation suggest pulmonary congestion from left heart failure. Predominant dependent edema points more to right-sided congestion—close cousin .",
       "choice_explanations": {
         "A": "Elevated left-sided pressures flood alveoli causing respiratory symptoms. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -56,15 +56,15 @@
     },
     {
       "id": "med_surg:easy:3",
-      "question": "In clinical examination related to right-sided HF clues, which of the following is correct?",
+      "question": "In clinical examination related to right-sided heart failure clues, which of the following is correct?",
       "options": [
-        "A) JVD, dependent edema, and hepatomegaly suggest right-sided venous congestion",
-        "B) Massive peripheral edema without pulmonary findings is the hallmark of isolated left HF alone",
-        "C) Pink frothy sputum is the classic isolated right-HF hallmark",
+        "A) jugular venous distention, dependent edema, and hepatomegaly suggest right-sided venous congestion",
+        "B) Massive peripheral edema without pulmonary findings is the hallmark of isolated left heart failure alone",
+        "C) Pink frothy sputum is the classic isolated right-heart failure hallmark",
         "D) Treat flash pulmonary edema only with oral antibiotics at home without assessment"
       ],
-      "answer": "A) JVD, dependent edema, and hepatomegaly suggest right-sided venous congestion",
-      "explanation": "Right heart failure backs blood into the systemic venous system. Therefore, the most accurate choice is: JVD, dependent edema, and hepatomegaly suggest right-sided venous congestion. Pink frothy sputum is pulmonary edema/left-sided picture—classic laterality .",
+      "answer": "A) jugular venous distention, dependent edema, and hepatomegaly suggest right-sided venous congestion",
+      "explanation": "Right heart failure backs blood into the systemic venous system. Therefore, the most accurate choice is: jugular venous distention, dependent edema, and hepatomegaly suggest right-sided venous congestion. Pink frothy sputum is pulmonary edema/left-sided picture—classic laterality .",
       "choice_explanations": {
         "A": "Right heart failure backs blood into the systemic venous system. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -76,44 +76,44 @@
       "id": "med_surg:easy:4",
       "question": "Which of the following best describes nitroglycerin angina teaching?",
       "options": [
-        "A) Sit/lie down for SL NTG; take as directed; seek help if pain persists per protocol",
+        "A) Sit/lie down for sublingual nitroglycerin; take as directed; seek help if pain persists per protocol",
         "B) Tell patients to lie down is unnecessary after oral bisphosphonate with full water",
-        "C) Swallow all SL tablets whole with a full glass of water for angina",
+        "C) Swallow all sublingual tablets whole with a full glass of water for angina",
         "D) Lie flat immediately after large spicy meals as reflux therapy"
       ],
-      "answer": "A) Sit/lie down for SL NTG; take as directed; seek help if pain persists per protocol",
-      "explanation": "SL absorption needs mucosal contact; hypotension risk means seated/lying administration. Therefore, the most accurate choice is: Sit/lie down for SL NTG; take as directed; seek help if pain persists per protocol. Swallowing SL NTG bypasses intended rapid mucosal absorption—.",
+      "answer": "A) Sit/lie down for sublingual nitroglycerin; take as directed; seek help if pain persists per protocol",
+      "explanation": "sublingual absorption needs mucosal contact; hypotension risk means seated/lying administration. Therefore, the most accurate choice is: Sit/lie down for sublingual nitroglycerin; take as directed; seek help if pain persists per protocol. Swallowing sublingual nitroglycerin bypasses intended rapid mucosal absorption—.",
       "choice_explanations": {
-        "A": "SL absorption needs mucosal contact; hypotension risk means seated/lying administration. This matches the correct interpretation.",
+        "A": "sublingual absorption needs mucosal contact; hypotension risk means seated/lying administration. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Swallowing SL NTG bypasses intended rapid mucosal absorption—near-miss. It is less consistent than the correct choice.",
+        "C": "Swallowing sublingual nitroglycerin bypasses intended rapid mucosal absorption—near-miss. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "med_surg:easy:5",
-      "question": "Select the correct interpretation for MI immediate nursing.",
+      "question": "Select the correct interpretation for myocardial infarction immediate nursing.",
       "options": [
-        "A) Wait for cardiac enzymes before any aspirin or ECG in crushing chest pain",
+        "A) Wait for cardiac enzymes before any aspirin or electrocardiogram in crushing chest pain",
         "B) Wait 30 minutes without treatment for continuous generalized seizing",
         "C) Push a contaminated tube back into the chest at the bedside",
-        "D) ABCs, ECG, oxygen if hypoxic, IV access, aspirin per protocol, notify provider"
+        "D) ABCs, electrocardiogram, oxygen if hypoxic, intravenous access, aspirin per protocol, notify provider"
       ],
-      "answer": "D) ABCs, ECG, oxygen if hypoxic, IV access, aspirin per protocol, notify provider",
-      "explanation": "Time-sensitive ECG and anti-ischemic/antiplatelet steps improve MI outcomes. Therefore, the most accurate choice is: ABCs, ECG, oxygen if hypoxic, IV access, aspirin per protocol, notify provider. Delaying ECG/aspirin for labs loses critical minutes—.",
+      "answer": "D) ABCs, electrocardiogram, oxygen if hypoxic, intravenous access, aspirin per protocol, notify provider",
+      "explanation": "Time-sensitive electrocardiogram and anti-ischemic/antiplatelet steps improve myocardial infarction outcomes. Therefore, the most accurate choice is: ABCs, electrocardiogram, oxygen if hypoxic, intravenous access, aspirin per protocol, notify provider. Delaying electrocardiogram/aspirin for labs loses critical minutes—.",
       "choice_explanations": {
-        "A": "Delaying ECG/aspirin for labs loses critical minutes—near-miss. It is less consistent than the correct choice.",
+        "A": "Delaying electrocardiogram/aspirin for labs loses critical minutes—near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Time-sensitive ECG and anti-ischemic/antiplatelet steps improve MI outcomes. This matches the correct interpretation."
+        "D": "Time-sensitive electrocardiogram and anti-ischemic/antiplatelet steps improve myocardial infarction outcomes. This matches the correct interpretation."
       }
     },
     {
       "id": "med_surg:easy:6",
-      "question": "Which explanation of post-MI activity is correct?",
+      "question": "Which explanation of post-myocardial infarction activity is correct?",
       "options": [
-        "A) Resume competitive sprinting on postop day 1 after STEMI without clearance",
-        "B) Combine high-dose acetaminophen with heavy alcohol during TB therapy without caution",
+        "A) Resume competitive sprinting on postop day 1 after ST-segment elevation myocardial infarction without clearance",
+        "B) Combine high-dose acetaminophen with heavy alcohol during tuberculosis therapy without caution",
         "C) Gradual activity progression; report chest pain, dyspnea, or undue fatigue",
         "D) Encourage large solid steaks and straws on day 1 after gastric bypass"
       ],
@@ -130,15 +130,15 @@
       "id": "med_surg:easy:7",
       "question": "Which of the following applies to hypertension teaching?",
       "options": [
-        "A) Lifestyle plus adherence to antihypertensives; home BP technique; report severe symptoms",
-        "B) Stop RIPE therapy after 3 days if cough improves",
-        "C) Stop warfarin for AF after one week without clinician guidance because rhythm ‘feels better’",
-        "D) Stop antihypertensives whenever BP reads normal once at home"
+        "A) Lifestyle plus adherence to antihypertensives; home blood pressure technique; report severe symptoms",
+        "B) Stop rifampin, isoniazid, pyrazinamide, ethambutol therapy after 3 days if cough improves",
+        "C) Stop warfarin for atrial fibrillation after one week without clinician guidance because rhythm ‘feels better’",
+        "D) Stop antihypertensives whenever blood pressure reads normal once at home"
       ],
-      "answer": "A) Lifestyle plus adherence to antihypertensives; home BP technique; report severe symptoms",
-      "explanation": "Chronic HTN needs ongoing therapy; abrupt stops risk rebound and events. Therefore, the most accurate choice is: Lifestyle plus adherence to antihypertensives; home BP technique; report severe symptoms. Stopping meds after one normal reading is a common adherence .",
+      "answer": "A) Lifestyle plus adherence to antihypertensives; home blood pressure technique; report severe symptoms",
+      "explanation": "Chronic hypertension needs ongoing therapy; abrupt stops risk rebound and events. Therefore, the most accurate choice is: Lifestyle plus adherence to antihypertensives; home blood pressure technique; report severe symptoms. Stopping meds after one normal reading is a common adherence .",
       "choice_explanations": {
-        "A": "Chronic HTN needs ongoing therapy; abrupt stops risk rebound and events. This matches the correct interpretation.",
+        "A": "Chronic hypertension needs ongoing therapy; abrupt stops risk rebound and events. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Stopping meds after one normal reading is a common adherence near-miss. It is less consistent than the correct choice."
@@ -146,7 +146,7 @@
     },
     {
       "id": "med_surg:easy:8",
-      "question": "Which of the following is true of stroke FAST action?",
+      "question": "Which of the following is true of stroke Face Arm Speech Time stroke screen action?",
       "options": [
         "A) Have the patient sleep off facial droop and arm weakness overnight before calling",
         "B) Give alteplase for stroke symptoms without imaging to exclude hemorrhage",
@@ -167,12 +167,12 @@
       "question": "Which finding is expected in stroke aspiration risk?",
       "options": [
         "A) Feed a newly aphasic hemiparetic patient flat immediately to maintain calories",
-        "B) NPO until swallow screen; upright feeding only if cleared; oral care",
-        "C) Leave HOB flat during continuous tube feeds",
+        "B) nothing by mouth until swallow screen; upright feeding only if cleared; oral care",
+        "C) Leave head of bed flat during continuous tube feeds",
         "D) Overinflate cuff routinely until pressure necroses trachea without manometer checks"
       ],
-      "answer": "B) NPO until swallow screen; upright feeding only if cleared; oral care",
-      "explanation": "Acute stroke often impairs airway protection; screening prevents aspiration pneumonia. Therefore, the most accurate choice is: NPO until swallow screen; upright feeding only if cleared; oral care. Early unscreened feeding is a classic stroke nursing .",
+      "answer": "B) nothing by mouth until swallow screen; upright feeding only if cleared; oral care",
+      "explanation": "Acute stroke often impairs airway protection; screening prevents aspiration pneumonia. Therefore, the most accurate choice is: nothing by mouth until swallow screen; upright feeding only if cleared; oral care. Early unscreened feeding is a classic stroke nursing .",
       "choice_explanations": {
         "A": "Early unscreened feeding is a classic stroke nursing near-miss. It is less consistent than the correct choice.",
         "B": "Acute stroke often impairs airway protection; screening prevents aspiration pneumonia. This matches the correct interpretation.",
@@ -182,18 +182,18 @@
     },
     {
       "id": "med_surg:easy:10",
-      "question": "Which statement regarding TIA urgency is correct?",
+      "question": "Which statement regarding transient ischemic attack urgency is correct?",
       "options": [
         "A) Elevate high above heart and apply ice constriction for suspected compartment syndrome without escalation",
-        "B) Treat TIA as an emergency warning for impending stroke—urgent evaluation",
+        "B) Treat transient ischemic attack as an emergency warning for impending stroke—urgent evaluation",
         "C) Reassure that resolved deficits mean no further workup is needed",
-        "D) Treat new bilateral leg weakness in metastatic spine disease with only PRN acetaminophen at home"
+        "D) Treat new bilateral leg weakness in metastatic spine disease with only as needed acetaminophen at home"
       ],
-      "answer": "B) Treat TIA as an emergency warning for impending stroke—urgent evaluation",
-      "explanation": "TIA signals high short-term stroke risk needing rapid secondary prevention. Therefore, the most accurate choice is: Treat TIA as an emergency warning for impending stroke—urgent evaluation. ‘Resolved equals safe’ delays prevention—.",
+      "answer": "B) Treat transient ischemic attack as an emergency warning for impending stroke—urgent evaluation",
+      "explanation": "transient ischemic attack signals high short-term stroke risk needing rapid secondary prevention. Therefore, the most accurate choice is: Treat transient ischemic attack as an emergency warning for impending stroke—urgent evaluation. ‘Resolved equals safe’ delays prevention—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "TIA signals high short-term stroke risk needing rapid secondary prevention. This matches the correct interpretation.",
+        "B": "transient ischemic attack signals high short-term stroke risk needing rapid secondary prevention. This matches the correct interpretation.",
         "C": "‘Resolved equals safe’ delays prevention—near-miss. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -202,7 +202,7 @@
       "id": "med_surg:easy:11",
       "question": "In seizure postictal care, which of the following is correct?",
       "options": [
-        "A) Defibrillate a pulse-present stable VT in unsynchronized mode as first routine teaching",
+        "A) Defibrillate a pulse-present stable ventricular tachycardia in unsynchronized mode as first routine teaching",
         "B) Lay flat and force oral fluids as first response to pounding headache/hypertension in T6 injury",
         "C) Put a hard object between teeth as the first postictal action",
         "D) Protect airway, lateral position, timed seizure, vital signs, reorient; never force objects in mouth"
@@ -238,13 +238,13 @@
       "id": "med_surg:easy:13",
       "question": "Select the correct statement about myasthenia crisis watch.",
       "options": [
-        "A) Monitor respiratory effort/VC; infection and meds can precipitate crisis; timely airway support",
+        "A) Monitor respiratory effort/vital capacity; infection and meds can precipitate crisis; timely airway support",
         "B) Give antidiarrheals freely in severe colitis without assessment for toxic megacolon risk",
         "C) Give aminoglycosides freely in myasthenia without concern",
-        "D) Give anticholinergic cold meds freely for BPH with overflow dribbling"
+        "D) Give anticholinergic cold meds freely for benign prostatic hyperplasia with overflow dribbling"
       ],
-      "answer": "A) Monitor respiratory effort/VC; infection and meds can precipitate crisis; timely airway support",
-      "explanation": "Neuromuscular respiratory failure can escalate quickly in myasthenic crisis. Therefore, the most accurate choice is: Monitor respiratory effort/VC; infection and meds can precipitate crisis; timely airway support. Certain antibiotics worsen neuromuscular blockade—medication .",
+      "answer": "A) Monitor respiratory effort/vital capacity; infection and meds can precipitate crisis; timely airway support",
+      "explanation": "Neuromuscular respiratory failure can escalate quickly in myasthenic crisis. Therefore, the most accurate choice is: Monitor respiratory effort/vital capacity; infection and meds can precipitate crisis; timely airway support. Certain antibiotics worsen neuromuscular blockade—medication .",
       "choice_explanations": {
         "A": "Neuromuscular respiratory failure can escalate quickly in myasthenic crisis. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -254,7 +254,7 @@
     },
     {
       "id": "med_surg:easy:14",
-      "question": "Which mechanism accounts for MS fatigue teaching?",
+      "question": "Which mechanism accounts for multiple sclerosis fatigue teaching?",
       "options": [
         "A) Recommend fried foods to ‘flush bile’ during acute cholecystitis",
         "B) Recommend overheating in hot tubs to ‘loosen’ spasticity as routine advice",
@@ -262,10 +262,10 @@
         "D) Recommend tanning beds to improve lupus rash"
       ],
       "answer": "C) Energy conservation, cooling strategies, med adherence; report new neurologic deficits",
-      "explanation": "Uhthoff-like heat sensitivity and fatigue are common; cooling/conservation help function. Therefore, the most accurate choice is: Energy conservation, cooling strategies, med adherence; report new neurologic deficits. Heat often worsens MS symptoms—hot-tub advice is a .",
+      "explanation": "Uhthoff-like heat sensitivity and fatigue are common; cooling/conservation help function. Therefore, the most accurate choice is: Energy conservation, cooling strategies, med adherence; report new neurologic deficits. Heat often worsens multiple sclerosis symptoms—hot-tub advice is a .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Heat often worsens MS symptoms—hot-tub advice is a near-miss. It is less consistent than the correct choice.",
+        "B": "Heat often worsens multiple sclerosis symptoms—hot-tub advice is a near-miss. It is less consistent than the correct choice.",
         "C": "Uhthoff-like heat sensitivity and fatigue are common; cooling/conservation help function. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -274,15 +274,15 @@
       "id": "med_surg:easy:15",
       "question": "Which of the following applies to spinal cord autonomic dysreflexia?",
       "options": [
-        "A) Sit up, loosen clothing, check bladder/bowel triggers; treat BP emergency per protocol",
-        "B) Give large IV insulin bolus at home without electrolyte monitoring as first teaching",
+        "A) Sit up, loosen clothing, check bladder/bowel triggers; treat blood pressure emergency per protocol",
+        "B) Give large intravenous insulin bolus at home without electrolyte monitoring as first teaching",
         "C) Feed a newly aphasic hemiparetic patient flat immediately to maintain calories",
         "D) Lay flat and force oral fluids as first response to pounding headache/hypertension in T6 injury"
       ],
-      "answer": "A) Sit up, loosen clothing, check bladder/bowel triggers; treat BP emergency per protocol",
-      "explanation": "Noxious stimuli below injury cause massive sympathetic surge—remove trigger and lower BP risk. Therefore, the most accurate choice is: Sit up, loosen clothing, check bladder/bowel triggers; treat BP emergency per protocol. Lying flat worsens hypertensive emergency physiology—critical .",
+      "answer": "A) Sit up, loosen clothing, check bladder/bowel triggers; treat blood pressure emergency per protocol",
+      "explanation": "Noxious stimuli below injury cause massive sympathetic surge—remove trigger and lower blood pressure risk. Therefore, the most accurate choice is: Sit up, loosen clothing, check bladder/bowel triggers; treat blood pressure emergency per protocol. Lying flat worsens hypertensive emergency physiology—critical .",
       "choice_explanations": {
-        "A": "Noxious stimuli below injury cause massive sympathetic surge—remove trigger and lower BP risk. This matches the correct interpretation.",
+        "A": "Noxious stimuli below injury cause massive sympathetic surge—remove trigger and lower blood pressure risk. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Lying flat worsens hypertensive emergency physiology—critical near-miss. It is less consistent than the correct choice."
@@ -290,11 +290,11 @@
     },
     {
       "id": "med_surg:easy:16",
-      "question": "Which of the following is true of COPD pursed-lip breathing?",
+      "question": "Which of the following is true of chronic obstructive pulmonary disease pursed-lip breathing?",
       "options": [
-        "A) Combine high-dose acetaminophen with heavy alcohol during TB therapy without caution",
+        "A) Combine high-dose acetaminophen with heavy alcohol during tuberculosis therapy without caution",
         "B) Force rapid external rewarming alone without airway/glucose/thyroid treatment planning",
-        "C) Teach breath-holding after rapid shallow panting as the primary COPD technique",
+        "C) Teach breath-holding after rapid shallow panting as the primary chronic obstructive pulmonary disease technique",
         "D) Teach pursed-lip breathing to prevent airway collapse and ease dyspnea"
       ],
       "answer": "D) Teach pursed-lip breathing to prevent airway collapse and ease dyspnea",
@@ -308,20 +308,20 @@
     },
     {
       "id": "med_surg:easy:17",
-      "question": "Which finding matches COPD oxygen caution?",
+      "question": "Which finding matches chronic obstructive pulmonary disease oxygen caution?",
       "options": [
         "A) Give antidiarrheals freely in severe colitis without assessment for toxic megacolon risk",
         "B) Force rapid external rewarming alone without airway/glucose/thyroid treatment planning",
-        "C) Apply non-rebreather at 15 L for every COPD patient with SpO2 91% without assessment",
-        "D) Titrate oxygen to ordered SpO2 targets; monitor mentation/ABG clues for CO2 retention"
+        "C) Apply non-rebreather at 15 L for every chronic obstructive pulmonary disease patient with oxygen saturation 91% without assessment",
+        "D) Titrate oxygen to ordered oxygen saturation targets; monitor mentation/arterial blood gas clues for carbon dioxide retention"
       ],
-      "answer": "D) Titrate oxygen to ordered SpO2 targets; monitor mentation/ABG clues for CO2 retention",
-      "explanation": "Some COPD patients hypoventilate with excessive O2; targeted saturation is safer. Therefore, the most accurate choice is: Titrate oxygen to ordered SpO2 targets; monitor mentation/ABG clues for CO2 retention. Maximal O2 without targets can worsen hypercapnia—close-pair .",
+      "answer": "D) Titrate oxygen to ordered oxygen saturation targets; monitor mentation/arterial blood gas clues for carbon dioxide retention",
+      "explanation": "Some chronic obstructive pulmonary disease patients hypoventilate with excessive oxygen; targeted saturation is safer. Therefore, the most accurate choice is: Titrate oxygen to ordered oxygen saturation targets; monitor mentation/arterial blood gas clues for carbon dioxide retention. Maximal oxygen without targets can worsen hypercapnia—close-pair .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Maximal O2 without targets can worsen hypercapnia—close-pair near-miss. It is less consistent than the correct choice.",
-        "D": "Some COPD patients hypoventilate with excessive O2; targeted saturation is safer. This matches the correct interpretation."
+        "C": "Maximal oxygen without targets can worsen hypercapnia—close-pair near-miss. It is less consistent than the correct choice.",
+        "D": "Some chronic obstructive pulmonary disease patients hypoventilate with excessive oxygen; targeted saturation is safer. This matches the correct interpretation."
       }
     },
     {
@@ -330,7 +330,7 @@
       "options": [
         "A) Spray inhaler into the air near the face without inhalation coordination",
         "B) Teach shake, exhale, seal, actuate while slow deep inhale, hold breath; spacer if needed",
-        "C) Teach breath-holding after rapid shallow panting as the primary COPD technique",
+        "C) Teach breath-holding after rapid shallow panting as the primary chronic obstructive pulmonary disease technique",
         "D) Clamp a chest tube routinely for first transport without protocol reason"
       ],
       "answer": "B) Teach shake, exhale, seal, actuate while slow deep inhale, hold breath; spacer if needed",
@@ -349,12 +349,12 @@
         "A) Use personal best zones (green/yellow/red) to guide action plan steps",
         "B) Force maximal exertion testing daily in severe symptomatic anemia",
         "C) Apply tight ice circumferential wraps until cyanosis for cellulitis",
-        "D) Schedule peak-prone insulin then leave patient NPO without glucose plan"
+        "D) Schedule peak-prone insulin then leave patient nothing by mouth without glucose plan"
       ],
       "answer": "A) Use personal best zones (green/yellow/red) to guide action plan steps",
-      "explanation": "Falling peak flow signals narrowing before severe distress—early action prevents ED visits. Therefore, the most accurate choice is: Use personal best zones (green/yellow/red) to guide action plan steps. Waiting for cyanosis in yellow/red zones is a dangerous delay .",
+      "explanation": "Falling peak flow signals narrowing before severe distress—early action prevents emergency department visits. Therefore, the most accurate choice is: Use personal best zones (green/yellow/red) to guide action plan steps. Waiting for cyanosis in yellow/red zones is a dangerous delay .",
       "choice_explanations": {
-        "A": "Falling peak flow signals narrowing before severe distress—early action prevents ED visits. This matches the correct interpretation.",
+        "A": "Falling peak flow signals narrowing before severe distress—early action prevents emergency department visits. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -380,12 +380,12 @@
     },
     {
       "id": "med_surg:easy:21",
-      "question": "Select the correct statement about TB med adherence.",
+      "question": "Select the correct statement about tuberculosis med adherence.",
       "options": [
         "A) Pack sugar into enterocutaneous fistula tracts as sole therapy without care plan",
         "B) Emphasize long-course adherence, infection control, and hepatotoxicity symptom reporting",
-        "C) Stop RIPE therapy after 3 days if cough improves",
-        "D) Stop IV antibiotics after 48 hours if pain improves regardless of plan"
+        "C) Stop rifampin, isoniazid, pyrazinamide, ethambutol therapy after 3 days if cough improves",
+        "D) Stop intravenous antibiotics after 48 hours if pain improves regardless of plan"
       ],
       "answer": "B) Emphasize long-course adherence, infection control, and hepatotoxicity symptom reporting",
       "explanation": "Incomplete therapy drives resistance and relapse; monitoring detects toxicity. Therefore, the most accurate choice is: Emphasize long-course adherence, infection control, and hepatotoxicity symptom reporting. Early self-discontinuation is a public-health .",
@@ -400,13 +400,13 @@
       "id": "med_surg:easy:22",
       "question": "Which of the following applies to pulmonary embolism clues?",
       "options": [
-        "A) Massive peripheral edema without pulmonary findings is the hallmark of isolated left HF alone",
-        "B) Sudden dyspnea, pleuritic pain, tachycardia, hypoxemia—urgent evaluation for PE",
+        "A) Massive peripheral edema without pulmonary findings is the hallmark of isolated left heart failure alone",
+        "B) Sudden dyspnea, pleuritic pain, tachycardia, hypoxemia—urgent evaluation for pulmonary embolism",
         "C) Encourage early aggressive bone manipulation teaching that petechiae/dyspnea are unrelated always",
         "D) Assume calf pain with sudden dyspnea is always only anxiety without assessment"
       ],
-      "answer": "B) Sudden dyspnea, pleuritic pain, tachycardia, hypoxemia—urgent evaluation for PE",
-      "explanation": "Veno-thrombotic emboli obstruct pulmonary arteries causing V/Q mismatch. Therefore, the most accurate choice is: Sudden dyspnea, pleuritic pain, tachycardia, hypoxemia—urgent evaluation for PE. Dismissing dyspnea as anxiety delays life-saving therapy—.",
+      "answer": "B) Sudden dyspnea, pleuritic pain, tachycardia, hypoxemia—urgent evaluation for pulmonary embolism",
+      "explanation": "Veno-thrombotic emboli obstruct pulmonary arteries causing V/Q mismatch. Therefore, the most accurate choice is: Sudden dyspnea, pleuritic pain, tachycardia, hypoxemia—urgent evaluation for pulmonary embolism. Dismissing dyspnea as anxiety delays life-saving therapy—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Veno-thrombotic emboli obstruct pulmonary arteries causing V/Q mismatch. This matches the correct interpretation.",
@@ -418,7 +418,7 @@
       "id": "med_surg:easy:23",
       "question": "Which of the following applies to chest tube tidaling?",
       "options": [
-        "A) Give large IV insulin bolus at home without electrolyte monitoring as first teaching",
+        "A) Give large intravenous insulin bolus at home without electrolyte monitoring as first teaching",
         "B) Push a contaminated tube back into the chest at the bedside",
         "C) Expect tidaling with respiration in water-seal; continuous bubbling suggests air leak assessment",
         "D) Clamp a chest tube routinely for first transport without protocol reason"
@@ -456,7 +456,7 @@
       "options": [
         "A) Use compression stockings on ankle-brachial index critically ischemic legs without assessment",
         "B) Assume calf pain with sudden dyspnea is always only anxiety without assessment",
-        "C) Teach breath-holding after rapid shallow panting as the primary COPD technique",
+        "C) Teach breath-holding after rapid shallow panting as the primary chronic obstructive pulmonary disease technique",
         "D) Unequal breath sounds, dyspnea, tracheal deviation (tension)—emergency escalation"
       ],
       "answer": "D) Unequal breath sounds, dyspnea, tracheal deviation (tension)—emergency escalation",
@@ -474,7 +474,7 @@
       "options": [
         "A) Plan rest/activity balance, monitor bleeding, iron/B12 teaching as indicated",
         "B) Encourage contact sports when platelets are critically low",
-        "C) Force free-water boluses for SIADH hyponatremia",
+        "C) Force free-water boluses for syndrome of inappropriate antidiuretic hormone hyponatremia",
         "D) Force maximal exertion testing daily in severe symptomatic anemia"
       ],
       "answer": "A) Plan rest/activity balance, monitor bleeding, iron/B12 teaching as indicated",
@@ -491,7 +491,7 @@
       "question": "In sickle cell vaso-occlusive, which of the following is correct?",
       "options": [
         "A) Withhold analgesia until stone is passed and imaged for days",
-        "B) Wait for cardiac enzymes before any aspirin or ECG in crushing chest pain",
+        "B) Wait for cardiac enzymes before any aspirin or electrocardiogram in crushing chest pain",
         "C) Withhold opioids in sickle crisis because patients ‘always exaggerate’",
         "D) Hydration, oxygen if hypoxic, aggressive analgesia, infection/trigger search"
       ],
@@ -509,7 +509,7 @@
       "question": "Which of the following best describes neutropenic fever urgency?",
       "options": [
         "A) Treat fever in neutropenia as emergency—cultures and prompt antibiotics per protocol",
-        "B) Wait for cardiac enzymes before any aspirin or ECG in crushing chest pain",
+        "B) Wait for cardiac enzymes before any aspirin or electrocardiogram in crushing chest pain",
         "C) Wait 24 hours to see if fever spontaneous resolves in severe neutropenia",
         "D) Wait for culture results for 48 hours before any antibiotics in septic shock"
       ],
@@ -528,13 +528,13 @@
       "options": [
         "A) Encourage contact sports when platelets are critically low",
         "B) Give antidiarrheals freely in severe colitis without assessment for toxic megacolon risk",
-        "C) Avoid IM injections/trauma, use soft toothbrush, monitor CNS/bleeding signs",
+        "C) Avoid intramuscular injections/trauma, use soft toothbrush, monitor central nervous system/bleeding signs",
         "D) Continue heparin infusions when platelets crash and new clots form without escalation"
       ],
-      "answer": "C) Avoid IM injections/trauma, use soft toothbrush, monitor CNS/bleeding signs",
-      "explanation": "Low platelets impair hemostasis; bleeding precautions reduce hemorrhage risk. Therefore, the most accurate choice is: Avoid IM injections/trauma, use soft toothbrush, monitor CNS/bleeding signs. IM injections and trauma risk hematoma—.",
+      "answer": "C) Avoid intramuscular injections/trauma, use soft toothbrush, monitor central nervous system/bleeding signs",
+      "explanation": "Low platelets impair hemostasis; bleeding precautions reduce hemorrhage risk. Therefore, the most accurate choice is: Avoid intramuscular injections/trauma, use soft toothbrush, monitor central nervous system/bleeding signs. intramuscular injections and trauma risk hematoma—.",
       "choice_explanations": {
-        "A": "IM injections and trauma risk hematoma—near-miss. It is less consistent than the correct choice.",
+        "A": "intramuscular injections and trauma risk hematoma—near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Low platelets impair hemostasis; bleeding precautions reduce hemorrhage risk. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -544,15 +544,15 @@
   "medium": [
     {
       "id": "med_surg:medium:0",
-      "question": "A 36-year-old man is admitted with heart failure daily weight. Which nursing action is most appropriate?",
+      "question": "A 37-year-old woman is admitted with heart failure daily weight. Which nursing action is most appropriate?",
       "options": [
-        "A) Report rapid weight gain (e.g., ≥2–3 lb in a day) as fluid retention clue in HF",
+        "A) Report rapid weight gain (e.g., ≥2–3 lb in a day) as fluid retention clue in heart failure",
         "B) Teach unlimited processed soup and canned foods as heart-healthy defaults",
-        "C) Resume competitive sprinting on postop day 1 after STEMI without clearance",
-        "D) Fluid-restrict central DI patients with 10 L/day urine without replacement plan"
+        "C) Resume competitive sprinting on postop day 1 after ST-segment elevation myocardial infarction without clearance",
+        "D) Fluid-restrict central diabetes insipidus patients with 10 L/day urine without replacement plan"
       ],
-      "answer": "A) Report rapid weight gain (e.g., ≥2–3 lb in a day) as fluid retention clue in HF",
-      "explanation": "Acute weight gain often reflects fluid retention before overt dyspnea worsens. Therefore, the most accurate choice is: Report rapid weight gain (e.g., ≥2–3 lb in a day) as fluid retention clue in HF. Ankle appearance can lag; weight is a sensitive congestion signal— to ignore.",
+      "answer": "A) Report rapid weight gain (e.g., ≥2–3 lb in a day) as fluid retention clue in heart failure",
+      "explanation": "Acute weight gain often reflects fluid retention before overt dyspnea worsens. Therefore, the most accurate choice is: Report rapid weight gain (e.g., ≥2–3 lb in a day) as fluid retention clue in heart failure. Ankle appearance can lag; weight is a sensitive congestion signal— to ignore.",
       "choice_explanations": {
         "A": "Acute weight gain often reflects fluid retention before overt dyspnea worsens. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -562,10 +562,10 @@
     },
     {
       "id": "med_surg:medium:1",
-      "question": "A 59-year-old woman develops findings of HF low sodium diet. What is the priority assessment?",
+      "question": "A 60-year-old man develops findings of heart failure low sodium diet. What is the priority assessment?",
       "options": [
         "A) Recommend fried foods to ‘flush bile’ during acute cholecystitis",
-        "B) Massive peripheral edema without pulmonary findings is the hallmark of isolated left HF alone",
+        "B) Massive peripheral edema without pulmonary findings is the hallmark of isolated left heart failure alone",
         "C) Teach sodium restriction and fluid guidance per plan to reduce congestion",
         "D) Teach unlimited processed soup and canned foods as heart-healthy defaults"
       ],
@@ -580,15 +580,15 @@
     },
     {
       "id": "med_surg:medium:2",
-      "question": "A 41-year-old woman has findings requiring interpretation of left-sided HF clues. Which of the following is correct?",
+      "question": "A 42-year-old man has findings requiring interpretation of left-sided heart failure clues. Which of the following is correct?",
       "options": [
         "A) Treat flash pulmonary edema only with oral antibiotics at home without assessment",
-        "B) Pink frothy sputum is the classic isolated right-HF hallmark",
-        "C) Massive peripheral edema without pulmonary findings is the hallmark of isolated left HF alone",
-        "D) Dyspnea, orthopnea, crackles, and low SpO2 suggest pulmonary congestion from left HF"
+        "B) Pink frothy sputum is the classic isolated right-heart failure hallmark",
+        "C) Massive peripheral edema without pulmonary findings is the hallmark of isolated left heart failure alone",
+        "D) Dyspnea, orthopnea, crackles, and low oxygen saturation suggest pulmonary congestion from left heart failure"
       ],
-      "answer": "D) Dyspnea, orthopnea, crackles, and low SpO2 suggest pulmonary congestion from left HF",
-      "explanation": "Elevated left-sided pressures flood alveoli causing respiratory symptoms. Therefore, the most accurate choice is: Dyspnea, orthopnea, crackles, and low SpO2 suggest pulmonary congestion from left HF. Predominant dependent edema points more to right-sided congestion—close cousin .",
+      "answer": "D) Dyspnea, orthopnea, crackles, and low oxygen saturation suggest pulmonary congestion from left heart failure",
+      "explanation": "Elevated left-sided pressures flood alveoli causing respiratory symptoms. Therefore, the most accurate choice is: Dyspnea, orthopnea, crackles, and low oxygen saturation suggest pulmonary congestion from left heart failure. Predominant dependent edema points more to right-sided congestion—close cousin .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -598,15 +598,15 @@
     },
     {
       "id": "med_surg:medium:3",
-      "question": "In a 69-year-old woman, which statement about right-sided HF clues is correct?",
+      "question": "In a 70-year-old man, which statement about right-sided heart failure clues is correct?",
       "options": [
         "A) Treat flash pulmonary edema only with oral antibiotics at home without assessment",
-        "B) Massive peripheral edema without pulmonary findings is the hallmark of isolated left HF alone",
-        "C) JVD, dependent edema, and hepatomegaly suggest right-sided venous congestion",
-        "D) Pink frothy sputum is the classic isolated right-HF hallmark"
+        "B) Massive peripheral edema without pulmonary findings is the hallmark of isolated left heart failure alone",
+        "C) jugular venous distention, dependent edema, and hepatomegaly suggest right-sided venous congestion",
+        "D) Pink frothy sputum is the classic isolated right-heart failure hallmark"
       ],
-      "answer": "C) JVD, dependent edema, and hepatomegaly suggest right-sided venous congestion",
-      "explanation": "Right heart failure backs blood into the systemic venous system. Therefore, the most accurate choice is: JVD, dependent edema, and hepatomegaly suggest right-sided venous congestion. Pink frothy sputum is pulmonary edema/left-sided picture—classic laterality .",
+      "answer": "C) jugular venous distention, dependent edema, and hepatomegaly suggest right-sided venous congestion",
+      "explanation": "Right heart failure backs blood into the systemic venous system. Therefore, the most accurate choice is: jugular venous distention, dependent edema, and hepatomegaly suggest right-sided venous congestion. Pink frothy sputum is pulmonary edema/left-sided picture—classic laterality .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -618,45 +618,45 @@
       "id": "med_surg:medium:4",
       "question": "Bedside assessment suggests nitroglycerin angina teaching. Which of the following is correct?",
       "options": [
-        "A) Swallow all SL tablets whole with a full glass of water for angina",
+        "A) Swallow all sublingual tablets whole with a full glass of water for angina",
         "B) Lie flat immediately after large spicy meals as reflux therapy",
         "C) Tell patients to lie down is unnecessary after oral bisphosphonate with full water",
-        "D) Sit/lie down for SL NTG; take as directed; seek help if pain persists per protocol"
+        "D) Sit/lie down for sublingual nitroglycerin; take as directed; seek help if pain persists per protocol"
       ],
-      "answer": "D) Sit/lie down for SL NTG; take as directed; seek help if pain persists per protocol",
-      "explanation": "SL absorption needs mucosal contact; hypotension risk means seated/lying administration. Therefore, the most accurate choice is: Sit/lie down for SL NTG; take as directed; seek help if pain persists per protocol. Swallowing SL NTG bypasses intended rapid mucosal absorption—.",
+      "answer": "D) Sit/lie down for sublingual nitroglycerin; take as directed; seek help if pain persists per protocol",
+      "explanation": "sublingual absorption needs mucosal contact; hypotension risk means seated/lying administration. Therefore, the most accurate choice is: Sit/lie down for sublingual nitroglycerin; take as directed; seek help if pain persists per protocol. Swallowing sublingual nitroglycerin bypasses intended rapid mucosal absorption—.",
       "choice_explanations": {
-        "A": "Swallowing SL NTG bypasses intended rapid mucosal absorption—near-miss. It is less consistent than the correct choice.",
+        "A": "Swallowing sublingual nitroglycerin bypasses intended rapid mucosal absorption—near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "SL absorption needs mucosal contact; hypotension risk means seated/lying administration. This matches the correct interpretation."
+        "D": "sublingual absorption needs mucosal contact; hypotension risk means seated/lying administration. This matches the correct interpretation."
       }
     },
     {
       "id": "med_surg:medium:5",
-      "question": "A 37-year-old woman undergoes assessment involving MI immediate nursing. Which of the following is most accurate?",
+      "question": "A 38-year-old man undergoes assessment involving myocardial infarction immediate nursing. Which of the following is most accurate?",
       "options": [
-        "A) Wait for cardiac enzymes before any aspirin or ECG in crushing chest pain",
+        "A) Wait for cardiac enzymes before any aspirin or electrocardiogram in crushing chest pain",
         "B) Wait 30 minutes without treatment for continuous generalized seizing",
-        "C) ABCs, ECG, oxygen if hypoxic, IV access, aspirin per protocol, notify provider",
+        "C) ABCs, electrocardiogram, oxygen if hypoxic, intravenous access, aspirin per protocol, notify provider",
         "D) Push a contaminated tube back into the chest at the bedside"
       ],
-      "answer": "C) ABCs, ECG, oxygen if hypoxic, IV access, aspirin per protocol, notify provider",
-      "explanation": "Time-sensitive ECG and anti-ischemic/antiplatelet steps improve MI outcomes. Therefore, the most accurate choice is: ABCs, ECG, oxygen if hypoxic, IV access, aspirin per protocol, notify provider. Delaying ECG/aspirin for labs loses critical minutes—.",
+      "answer": "C) ABCs, electrocardiogram, oxygen if hypoxic, intravenous access, aspirin per protocol, notify provider",
+      "explanation": "Time-sensitive electrocardiogram and anti-ischemic/antiplatelet steps improve myocardial infarction outcomes. Therefore, the most accurate choice is: ABCs, electrocardiogram, oxygen if hypoxic, intravenous access, aspirin per protocol, notify provider. Delaying electrocardiogram/aspirin for labs loses critical minutes—.",
       "choice_explanations": {
-        "A": "Delaying ECG/aspirin for labs loses critical minutes—near-miss. It is less consistent than the correct choice.",
+        "A": "Delaying electrocardiogram/aspirin for labs loses critical minutes—near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Time-sensitive ECG and anti-ischemic/antiplatelet steps improve MI outcomes. This matches the correct interpretation.",
+        "C": "Time-sensitive electrocardiogram and anti-ischemic/antiplatelet steps improve myocardial infarction outcomes. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "med_surg:medium:6",
-      "question": "Which of the following applies to post-MI activity in standard therapeutics?",
+      "question": "Which of the following applies to post-myocardial infarction activity in standard therapeutics?",
       "options": [
         "A) Assume calf pain with sudden dyspnea is always only anxiety without assessment",
         "B) Encourage large solid steaks and straws on day 1 after gastric bypass",
-        "C) Resume competitive sprinting on postop day 1 after STEMI without clearance",
+        "C) Resume competitive sprinting on postop day 1 after ST-segment elevation myocardial infarction without clearance",
         "D) Gradual activity progression; report chest pain, dyspnea, or undue fatigue"
       ],
       "answer": "D) Gradual activity progression; report chest pain, dyspnea, or undue fatigue",
@@ -670,17 +670,17 @@
     },
     {
       "id": "med_surg:medium:7",
-      "question": "A 26-year-old man is monitored for complications of hypertension teaching. Which of the following is most appropriate?",
+      "question": "A 27-year-old woman is monitored for complications of hypertension teaching. Which of the following is most appropriate?",
       "options": [
-        "A) Lifestyle plus adherence to antihypertensives; home BP technique; report severe symptoms",
-        "B) Stop antihypertensives whenever BP reads normal once at home",
-        "C) Stop RIPE therapy after 3 days if cough improves",
-        "D) Stop warfarin for AF after one week without clinician guidance because rhythm ‘feels better’"
+        "A) Lifestyle plus adherence to antihypertensives; home blood pressure technique; report severe symptoms",
+        "B) Stop antihypertensives whenever blood pressure reads normal once at home",
+        "C) Stop rifampin, isoniazid, pyrazinamide, ethambutol therapy after 3 days if cough improves",
+        "D) Stop warfarin for atrial fibrillation after one week without clinician guidance because rhythm ‘feels better’"
       ],
-      "answer": "A) Lifestyle plus adherence to antihypertensives; home BP technique; report severe symptoms",
-      "explanation": "Chronic HTN needs ongoing therapy; abrupt stops risk rebound and events. Therefore, the most accurate choice is: Lifestyle plus adherence to antihypertensives; home BP technique; report severe symptoms. Stopping meds after one normal reading is a common adherence .",
+      "answer": "A) Lifestyle plus adherence to antihypertensives; home blood pressure technique; report severe symptoms",
+      "explanation": "Chronic hypertension needs ongoing therapy; abrupt stops risk rebound and events. Therefore, the most accurate choice is: Lifestyle plus adherence to antihypertensives; home blood pressure technique; report severe symptoms. Stopping meds after one normal reading is a common adherence .",
       "choice_explanations": {
-        "A": "Chronic HTN needs ongoing therapy; abrupt stops risk rebound and events. This matches the correct interpretation.",
+        "A": "Chronic hypertension needs ongoing therapy; abrupt stops risk rebound and events. This matches the correct interpretation.",
         "B": "Stopping meds after one normal reading is a common adherence near-miss. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -688,7 +688,7 @@
     },
     {
       "id": "med_surg:medium:8",
-      "question": "A 62-year-old man is admitted with stroke FAST action. Which nursing action is most appropriate?",
+      "question": "A 63-year-old woman is admitted with stroke Face Arm Speech Time stroke screen action. Which nursing action is most appropriate?",
       "options": [
         "A) Give alteplase for stroke symptoms without imaging to exclude hemorrhage",
         "B) Feed a newly aphasic hemiparetic patient flat immediately to maintain calories",
@@ -706,15 +706,15 @@
     },
     {
       "id": "med_surg:medium:9",
-      "question": "A 61-year-old woman develops findings of stroke aspiration risk. What is the priority assessment?",
+      "question": "A 62-year-old man develops findings of stroke aspiration risk. What is the priority assessment?",
       "options": [
         "A) Feed a newly aphasic hemiparetic patient flat immediately to maintain calories",
-        "B) NPO until swallow screen; upright feeding only if cleared; oral care",
-        "C) Leave HOB flat during continuous tube feeds",
+        "B) nothing by mouth until swallow screen; upright feeding only if cleared; oral care",
+        "C) Leave head of bed flat during continuous tube feeds",
         "D) Irrigate with cola routinely without order and ignore placement checks before feeding"
       ],
-      "answer": "B) NPO until swallow screen; upright feeding only if cleared; oral care",
-      "explanation": "Acute stroke often impairs airway protection; screening prevents aspiration pneumonia. Therefore, the most accurate choice is: NPO until swallow screen; upright feeding only if cleared; oral care. Early unscreened feeding is a classic stroke nursing .",
+      "answer": "B) nothing by mouth until swallow screen; upright feeding only if cleared; oral care",
+      "explanation": "Acute stroke often impairs airway protection; screening prevents aspiration pneumonia. Therefore, the most accurate choice is: nothing by mouth until swallow screen; upright feeding only if cleared; oral care. Early unscreened feeding is a classic stroke nursing .",
       "choice_explanations": {
         "A": "Early unscreened feeding is a classic stroke nursing near-miss. It is less consistent than the correct choice.",
         "B": "Acute stroke often impairs airway protection; screening prevents aspiration pneumonia. This matches the correct interpretation.",
@@ -724,27 +724,27 @@
     },
     {
       "id": "med_surg:medium:10",
-      "question": "A 67-year-old woman has findings requiring interpretation of TIA urgency. Which of the following is correct?",
+      "question": "A 68-year-old man has findings requiring interpretation of transient ischemic attack urgency. Which of the following is correct?",
       "options": [
         "A) Reassure that resolved deficits mean no further workup is needed",
         "B) Treat flash pulmonary edema only with oral antibiotics at home without assessment",
-        "C) Treat TIA as an emergency warning for impending stroke—urgent evaluation",
+        "C) Treat transient ischemic attack as an emergency warning for impending stroke—urgent evaluation",
         "D) Elevate high above heart and apply ice constriction for suspected compartment syndrome without escalation"
       ],
-      "answer": "C) Treat TIA as an emergency warning for impending stroke—urgent evaluation",
-      "explanation": "TIA signals high short-term stroke risk needing rapid secondary prevention. Therefore, the most accurate choice is: Treat TIA as an emergency warning for impending stroke—urgent evaluation. ‘Resolved equals safe’ delays prevention—.",
+      "answer": "C) Treat transient ischemic attack as an emergency warning for impending stroke—urgent evaluation",
+      "explanation": "transient ischemic attack signals high short-term stroke risk needing rapid secondary prevention. Therefore, the most accurate choice is: Treat transient ischemic attack as an emergency warning for impending stroke—urgent evaluation. ‘Resolved equals safe’ delays prevention—.",
       "choice_explanations": {
         "A": "‘Resolved equals safe’ delays prevention—near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "TIA signals high short-term stroke risk needing rapid secondary prevention. This matches the correct interpretation.",
+        "C": "transient ischemic attack signals high short-term stroke risk needing rapid secondary prevention. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "med_surg:medium:11",
-      "question": "A 29-year-old woman needs a care plan for seizure postictal care. Which of the following is most appropriate?",
+      "question": "A 30-year-old man needs a care plan for seizure postictal care. Which of the following is most appropriate?",
       "options": [
-        "A) Defibrillate a pulse-present stable VT in unsynchronized mode as first routine teaching",
+        "A) Defibrillate a pulse-present stable ventricular tachycardia in unsynchronized mode as first routine teaching",
         "B) Put a hard object between teeth as the first postictal action",
         "C) Lay flat and force oral fluids as first response to pounding headache/hypertension in T6 injury",
         "D) Protect airway, lateral position, timed seizure, vital signs, reorient; never force objects in mouth"
@@ -778,15 +778,15 @@
     },
     {
       "id": "med_surg:medium:13",
-      "question": "A 64-year-old man has vital-sign changes due to myasthenia crisis watch. Which of the following is most accurate?",
+      "question": "A 65-year-old woman has vital-sign changes due to myasthenia crisis watch. Which of the following is most accurate?",
       "options": [
         "A) Give antidiarrheals freely in severe colitis without assessment for toxic megacolon risk",
-        "B) Give anticholinergic cold meds freely for BPH with overflow dribbling",
+        "B) Give anticholinergic cold meds freely for benign prostatic hyperplasia with overflow dribbling",
         "C) Give aminoglycosides freely in myasthenia without concern",
-        "D) Monitor respiratory effort/VC; infection and meds can precipitate crisis; timely airway support"
+        "D) Monitor respiratory effort/vital capacity; infection and meds can precipitate crisis; timely airway support"
       ],
-      "answer": "D) Monitor respiratory effort/VC; infection and meds can precipitate crisis; timely airway support",
-      "explanation": "Neuromuscular respiratory failure can escalate quickly in myasthenic crisis. Therefore, the most accurate choice is: Monitor respiratory effort/VC; infection and meds can precipitate crisis; timely airway support. Certain antibiotics worsen neuromuscular blockade—medication .",
+      "answer": "D) Monitor respiratory effort/vital capacity; infection and meds can precipitate crisis; timely airway support",
+      "explanation": "Neuromuscular respiratory failure can escalate quickly in myasthenic crisis. Therefore, the most accurate choice is: Monitor respiratory effort/vital capacity; infection and meds can precipitate crisis; timely airway support. Certain antibiotics worsen neuromuscular blockade—medication .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -796,7 +796,7 @@
     },
     {
       "id": "med_surg:medium:14",
-      "question": "While caring for a 33-year-old woman, MS fatigue teaching is suspected. Which of the following is correct?",
+      "question": "While caring for a 34-year-old man, multiple sclerosis fatigue teaching is suspected. Which of the following is correct?",
       "options": [
         "A) Recommend tanning beds to improve lupus rash",
         "B) Energy conservation, cooling strategies, med adherence; report new neurologic deficits",
@@ -804,39 +804,39 @@
         "D) Recommend fried foods to ‘flush bile’ during acute cholecystitis"
       ],
       "answer": "B) Energy conservation, cooling strategies, med adherence; report new neurologic deficits",
-      "explanation": "Uhthoff-like heat sensitivity and fatigue are common; cooling/conservation help function. Therefore, the most accurate choice is: Energy conservation, cooling strategies, med adherence; report new neurologic deficits. Heat often worsens MS symptoms—hot-tub advice is a .",
+      "explanation": "Uhthoff-like heat sensitivity and fatigue are common; cooling/conservation help function. Therefore, the most accurate choice is: Energy conservation, cooling strategies, med adherence; report new neurologic deficits. Heat often worsens multiple sclerosis symptoms—hot-tub advice is a .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Uhthoff-like heat sensitivity and fatigue are common; cooling/conservation help function. This matches the correct interpretation.",
-        "C": "Heat often worsens MS symptoms—hot-tub advice is a near-miss. It is less consistent than the correct choice.",
+        "C": "Heat often worsens multiple sclerosis symptoms—hot-tub advice is a near-miss. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "med_surg:medium:15",
-      "question": "A 58-year-old man is monitored for complications of spinal cord autonomic dysreflexia. Which of the following is most appropriate?",
+      "question": "A 59-year-old woman is monitored for complications of spinal cord autonomic dysreflexia. Which of the following is most appropriate?",
       "options": [
-        "A) Treat new bilateral leg weakness in metastatic spine disease with only PRN acetaminophen at home",
-        "B) Give large IV insulin bolus at home without electrolyte monitoring as first teaching",
+        "A) Treat new bilateral leg weakness in metastatic spine disease with only as needed acetaminophen at home",
+        "B) Give large intravenous insulin bolus at home without electrolyte monitoring as first teaching",
         "C) Lay flat and force oral fluids as first response to pounding headache/hypertension in T6 injury",
-        "D) Sit up, loosen clothing, check bladder/bowel triggers; treat BP emergency per protocol"
+        "D) Sit up, loosen clothing, check bladder/bowel triggers; treat blood pressure emergency per protocol"
       ],
-      "answer": "D) Sit up, loosen clothing, check bladder/bowel triggers; treat BP emergency per protocol",
-      "explanation": "Noxious stimuli below injury cause massive sympathetic surge—remove trigger and lower BP risk. Therefore, the most accurate choice is: Sit up, loosen clothing, check bladder/bowel triggers; treat BP emergency per protocol. Lying flat worsens hypertensive emergency physiology—critical .",
+      "answer": "D) Sit up, loosen clothing, check bladder/bowel triggers; treat blood pressure emergency per protocol",
+      "explanation": "Noxious stimuli below injury cause massive sympathetic surge—remove trigger and lower blood pressure risk. Therefore, the most accurate choice is: Sit up, loosen clothing, check bladder/bowel triggers; treat blood pressure emergency per protocol. Lying flat worsens hypertensive emergency physiology—critical .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Lying flat worsens hypertensive emergency physiology—critical near-miss. It is less consistent than the correct choice.",
-        "D": "Noxious stimuli below injury cause massive sympathetic surge—remove trigger and lower BP risk. This matches the correct interpretation."
+        "D": "Noxious stimuli below injury cause massive sympathetic surge—remove trigger and lower blood pressure risk. This matches the correct interpretation."
       }
     },
     {
       "id": "med_surg:medium:16",
-      "question": "A 35-year-old woman is admitted with COPD pursed-lip breathing. Which nursing action is most appropriate?",
+      "question": "A 36-year-old man is admitted with chronic obstructive pulmonary disease pursed-lip breathing. Which nursing action is most appropriate?",
       "options": [
         "A) Teach pursed-lip breathing to prevent airway collapse and ease dyspnea",
-        "B) Combine high-dose acetaminophen with heavy alcohol during TB therapy without caution",
-        "C) Teach breath-holding after rapid shallow panting as the primary COPD technique",
+        "B) Combine high-dose acetaminophen with heavy alcohol during tuberculosis therapy without caution",
+        "C) Teach breath-holding after rapid shallow panting as the primary chronic obstructive pulmonary disease technique",
         "D) Force rapid external rewarming alone without airway/glucose/thyroid treatment planning"
       ],
       "answer": "A) Teach pursed-lip breathing to prevent airway collapse and ease dyspnea",
@@ -850,28 +850,28 @@
     },
     {
       "id": "med_surg:medium:17",
-      "question": "While evaluating a 54-year-old man, attention turns to COPD oxygen caution. Which of the following is most accurate?",
+      "question": "While evaluating a 55-year-old woman, attention turns to chronic obstructive pulmonary disease oxygen caution. Which of the following is most accurate?",
       "options": [
-        "A) Titrate oxygen to ordered SpO2 targets; monitor mentation/ABG clues for CO2 retention",
+        "A) Titrate oxygen to ordered oxygen saturation targets; monitor mentation/arterial blood gas clues for carbon dioxide retention",
         "B) Force rapid external rewarming alone without airway/glucose/thyroid treatment planning",
-        "C) Fluid-restrict central DI patients with 10 L/day urine without replacement plan",
-        "D) Apply non-rebreather at 15 L for every COPD patient with SpO2 91% without assessment"
+        "C) Fluid-restrict central diabetes insipidus patients with 10 L/day urine without replacement plan",
+        "D) Apply non-rebreather at 15 L for every chronic obstructive pulmonary disease patient with oxygen saturation 91% without assessment"
       ],
-      "answer": "A) Titrate oxygen to ordered SpO2 targets; monitor mentation/ABG clues for CO2 retention",
-      "explanation": "Some COPD patients hypoventilate with excessive O2; targeted saturation is safer. Therefore, the most accurate choice is: Titrate oxygen to ordered SpO2 targets; monitor mentation/ABG clues for CO2 retention. Maximal O2 without targets can worsen hypercapnia—close-pair .",
+      "answer": "A) Titrate oxygen to ordered oxygen saturation targets; monitor mentation/arterial blood gas clues for carbon dioxide retention",
+      "explanation": "Some chronic obstructive pulmonary disease patients hypoventilate with excessive oxygen; targeted saturation is safer. Therefore, the most accurate choice is: Titrate oxygen to ordered oxygen saturation targets; monitor mentation/arterial blood gas clues for carbon dioxide retention. Maximal oxygen without targets can worsen hypercapnia—close-pair .",
       "choice_explanations": {
-        "A": "Some COPD patients hypoventilate with excessive O2; targeted saturation is safer. This matches the correct interpretation.",
+        "A": "Some chronic obstructive pulmonary disease patients hypoventilate with excessive oxygen; targeted saturation is safer. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Maximal O2 without targets can worsen hypercapnia—close-pair near-miss. It is less consistent than the correct choice."
+        "D": "Maximal oxygen without targets can worsen hypercapnia—close-pair near-miss. It is less consistent than the correct choice."
       }
     },
     {
       "id": "med_surg:medium:18",
-      "question": "A 28-year-old man shows signs of asthma inhaler technique on the unit. Which of the following is correct?",
+      "question": "A 29-year-old woman shows signs of asthma inhaler technique on the unit. Which of the following is correct?",
       "options": [
-        "A) Combine high-dose acetaminophen with heavy alcohol during TB therapy without caution",
-        "B) Teach breath-holding after rapid shallow panting as the primary COPD technique",
+        "A) Combine high-dose acetaminophen with heavy alcohol during tuberculosis therapy without caution",
+        "B) Teach breath-holding after rapid shallow panting as the primary chronic obstructive pulmonary disease technique",
         "C) Teach shake, exhale, seal, actuate while slow deep inhale, hold breath; spacer if needed",
         "D) Spray inhaler into the air near the face without inhalation coordination"
       ],
@@ -886,20 +886,20 @@
     },
     {
       "id": "med_surg:medium:19",
-      "question": "In a 39-year-old woman, which statement about asthma peak flow zones is correct?",
+      "question": "In a 40-year-old man, which statement about asthma peak flow zones is correct?",
       "options": [
         "A) Force maximal exertion testing daily in severe symptomatic anemia",
-        "B) Schedule peak-prone insulin then leave patient NPO without glucose plan",
+        "B) Schedule peak-prone insulin then leave patient nothing by mouth without glucose plan",
         "C) Apply tight ice circumferential wraps until cyanosis for cellulitis",
         "D) Use personal best zones (green/yellow/red) to guide action plan steps"
       ],
       "answer": "D) Use personal best zones (green/yellow/red) to guide action plan steps",
-      "explanation": "Falling peak flow signals narrowing before severe distress—early action prevents ED visits. Therefore, the most accurate choice is: Use personal best zones (green/yellow/red) to guide action plan steps. Waiting for cyanosis in yellow/red zones is a dangerous delay .",
+      "explanation": "Falling peak flow signals narrowing before severe distress—early action prevents emergency department visits. Therefore, the most accurate choice is: Use personal best zones (green/yellow/red) to guide action plan steps. Waiting for cyanosis in yellow/red zones is a dangerous delay .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Falling peak flow signals narrowing before severe distress—early action prevents ED visits. This matches the correct interpretation."
+        "D": "Falling peak flow signals narrowing before severe distress—early action prevents emergency department visits. This matches the correct interpretation."
       }
     },
     {
@@ -922,12 +922,12 @@
     },
     {
       "id": "med_surg:medium:21",
-      "question": "A 65-year-old woman has vital-sign changes due to TB med adherence. Which of the following is most accurate?",
+      "question": "A 66-year-old man has vital-sign changes due to tuberculosis med adherence. Which of the following is most accurate?",
       "options": [
-        "A) Stop RIPE therapy after 3 days if cough improves",
+        "A) Stop rifampin, isoniazid, pyrazinamide, ethambutol therapy after 3 days if cough improves",
         "B) Emphasize long-course adherence, infection control, and hepatotoxicity symptom reporting",
         "C) Pack sugar into enterocutaneous fistula tracts as sole therapy without care plan",
-        "D) Stop IV antibiotics after 48 hours if pain improves regardless of plan"
+        "D) Stop intravenous antibiotics after 48 hours if pain improves regardless of plan"
       ],
       "answer": "B) Emphasize long-course adherence, infection control, and hepatotoxicity symptom reporting",
       "explanation": "Incomplete therapy drives resistance and relapse; monitoring detects toxicity. Therefore, the most accurate choice is: Emphasize long-course adherence, infection control, and hepatotoxicity symptom reporting. Early self-discontinuation is a public-health .",
@@ -944,11 +944,11 @@
       "options": [
         "A) Encourage early aggressive bone manipulation teaching that petechiae/dyspnea are unrelated always",
         "B) Assume calf pain with sudden dyspnea is always only anxiety without assessment",
-        "C) Massive peripheral edema without pulmonary findings is the hallmark of isolated left HF alone",
-        "D) Sudden dyspnea, pleuritic pain, tachycardia, hypoxemia—urgent evaluation for PE"
+        "C) Massive peripheral edema without pulmonary findings is the hallmark of isolated left heart failure alone",
+        "D) Sudden dyspnea, pleuritic pain, tachycardia, hypoxemia—urgent evaluation for pulmonary embolism"
       ],
-      "answer": "D) Sudden dyspnea, pleuritic pain, tachycardia, hypoxemia—urgent evaluation for PE",
-      "explanation": "Veno-thrombotic emboli obstruct pulmonary arteries causing V/Q mismatch. Therefore, the most accurate choice is: Sudden dyspnea, pleuritic pain, tachycardia, hypoxemia—urgent evaluation for PE. Dismissing dyspnea as anxiety delays life-saving therapy—.",
+      "answer": "D) Sudden dyspnea, pleuritic pain, tachycardia, hypoxemia—urgent evaluation for pulmonary embolism",
+      "explanation": "Veno-thrombotic emboli obstruct pulmonary arteries causing V/Q mismatch. Therefore, the most accurate choice is: Sudden dyspnea, pleuritic pain, tachycardia, hypoxemia—urgent evaluation for pulmonary embolism. Dismissing dyspnea as anxiety delays life-saving therapy—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Dismissing dyspnea as anxiety delays life-saving therapy—near-miss. It is less consistent than the correct choice.",
@@ -958,7 +958,7 @@
     },
     {
       "id": "med_surg:medium:23",
-      "question": "A 50-year-old man is monitored for complications of chest tube tidaling. Which of the following is most appropriate?",
+      "question": "A 51-year-old woman is monitored for complications of chest tube tidaling. Which of the following is most appropriate?",
       "options": [
         "A) Clamp a chest tube routinely for first transport without protocol reason",
         "B) Overinflate cuff routinely until pressure necroses trachea without manometer checks",
@@ -976,7 +976,7 @@
     },
     {
       "id": "med_surg:medium:24",
-      "question": "A 49-year-old woman is admitted with chest tube dislodgement. Which nursing action is most appropriate?",
+      "question": "A 50-year-old man is admitted with chest tube dislodgement. Which nursing action is most appropriate?",
       "options": [
         "A) Push eviscerated bowel back into the abdomen at the bedside",
         "B) Cover site per protocol (often occlusive dressing strategy), oxygenate, call for help urgently",
@@ -994,7 +994,7 @@
     },
     {
       "id": "med_surg:medium:25",
-      "question": "A 56-year-old man develops findings of pneumothorax assessment. What is the priority assessment?",
+      "question": "A 57-year-old woman develops findings of pneumothorax assessment. What is the priority assessment?",
       "options": [
         "A) Assume calf pain with sudden dyspnea is always only anxiety without assessment",
         "B) Unequal breath sounds, dyspnea, tracheal deviation (tension)—emergency escalation",
@@ -1012,9 +1012,9 @@
     },
     {
       "id": "med_surg:medium:26",
-      "question": "A 67-year-old woman has findings requiring interpretation of anemia fatigue pacing. Which of the following is correct?",
+      "question": "A 68-year-old man has findings requiring interpretation of anemia fatigue pacing. Which of the following is correct?",
       "options": [
-        "A) Force free-water boluses for SIADH hyponatremia",
+        "A) Force free-water boluses for syndrome of inappropriate antidiuretic hormone hyponatremia",
         "B) Force maximal exertion testing daily in severe symptomatic anemia",
         "C) Plan rest/activity balance, monitor bleeding, iron/B12 teaching as indicated",
         "D) Encourage contact sports when platelets are critically low"
@@ -1030,7 +1030,7 @@
     },
     {
       "id": "med_surg:medium:27",
-      "question": "A 41-year-old woman needs a care plan for sickle cell vaso-occlusive. Which of the following is most appropriate?",
+      "question": "A 42-year-old man needs a care plan for sickle cell vaso-occlusive. Which of the following is most appropriate?",
       "options": [
         "A) Withhold fluids in large burns because swelling ‘looks edematous enough’",
         "B) Withhold analgesia until stone is passed and imaged for days",
@@ -1052,7 +1052,7 @@
       "options": [
         "A) Wait 24 hours to see if fever spontaneous resolves in severe neutropenia",
         "B) Treat fever in neutropenia as emergency—cultures and prompt antibiotics per protocol",
-        "C) Wait for cardiac enzymes before any aspirin or ECG in crushing chest pain",
+        "C) Wait for cardiac enzymes before any aspirin or electrocardiogram in crushing chest pain",
         "D) Wait for culture results for 48 hours before any antibiotics in septic shock"
       ],
       "answer": "B) Treat fever in neutropenia as emergency—cultures and prompt antibiotics per protocol",
@@ -1066,35 +1066,35 @@
     },
     {
       "id": "med_surg:medium:29",
-      "question": "A 34-year-old man has vital-sign changes due to thrombocytopenia bleeding. Which of the following is most accurate?",
+      "question": "A 35-year-old woman has vital-sign changes due to thrombocytopenia bleeding. Which of the following is most accurate?",
       "options": [
         "A) Continue heparin infusions when platelets crash and new clots form without escalation",
         "B) Give antidiarrheals freely in severe colitis without assessment for toxic megacolon risk",
-        "C) Avoid IM injections/trauma, use soft toothbrush, monitor CNS/bleeding signs",
+        "C) Avoid intramuscular injections/trauma, use soft toothbrush, monitor central nervous system/bleeding signs",
         "D) Encourage contact sports when platelets are critically low"
       ],
-      "answer": "C) Avoid IM injections/trauma, use soft toothbrush, monitor CNS/bleeding signs",
-      "explanation": "Low platelets impair hemostasis; bleeding precautions reduce hemorrhage risk. Therefore, the most accurate choice is: Avoid IM injections/trauma, use soft toothbrush, monitor CNS/bleeding signs. IM injections and trauma risk hematoma—.",
+      "answer": "C) Avoid intramuscular injections/trauma, use soft toothbrush, monitor central nervous system/bleeding signs",
+      "explanation": "Low platelets impair hemostasis; bleeding precautions reduce hemorrhage risk. Therefore, the most accurate choice is: Avoid intramuscular injections/trauma, use soft toothbrush, monitor central nervous system/bleeding signs. intramuscular injections and trauma risk hematoma—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Low platelets impair hemostasis; bleeding precautions reduce hemorrhage risk. This matches the correct interpretation.",
-        "D": "IM injections and trauma risk hematoma—near-miss. It is less consistent than the correct choice."
+        "D": "intramuscular injections and trauma risk hematoma—near-miss. It is less consistent than the correct choice."
       }
     }
   ],
   "hard": [
     {
       "id": "med_surg:hard:0",
-      "question": "A 36-year-old man is evaluated for possible heart failure daily weight. Which of the following is most accurate?",
+      "question": "A 37-year-old woman is evaluated for possible heart failure daily weight. Which of the following is most accurate?",
       "options": [
-        "A) Resume competitive sprinting on postop day 1 after STEMI without clearance",
-        "B) Teach breath-holding after rapid shallow panting as the primary COPD technique",
-        "C) Report rapid weight gain (e.g., ≥2–3 lb in a day) as fluid retention clue in HF",
+        "A) Resume competitive sprinting on postop day 1 after ST-segment elevation myocardial infarction without clearance",
+        "B) Teach breath-holding after rapid shallow panting as the primary chronic obstructive pulmonary disease technique",
+        "C) Report rapid weight gain (e.g., ≥2–3 lb in a day) as fluid retention clue in heart failure",
         "D) Teach unlimited processed soup and canned foods as heart-healthy defaults"
       ],
-      "answer": "C) Report rapid weight gain (e.g., ≥2–3 lb in a day) as fluid retention clue in HF",
-      "explanation": "Acute weight gain often reflects fluid retention before overt dyspnea worsens. Therefore, the most accurate choice is: Report rapid weight gain (e.g., ≥2–3 lb in a day) as fluid retention clue in HF. Ankle appearance can lag; weight is a sensitive congestion signal— to ignore.",
+      "answer": "C) Report rapid weight gain (e.g., ≥2–3 lb in a day) as fluid retention clue in heart failure",
+      "explanation": "Acute weight gain often reflects fluid retention before overt dyspnea worsens. Therefore, the most accurate choice is: Report rapid weight gain (e.g., ≥2–3 lb in a day) as fluid retention clue in heart failure. Ankle appearance can lag; weight is a sensitive congestion signal— to ignore.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1104,12 +1104,12 @@
     },
     {
       "id": "med_surg:hard:1",
-      "question": "A 59-year-old woman has findings suggestive of HF low sodium diet. Which of the following is the best interpretation?",
+      "question": "A 60-year-old man has findings suggestive of heart failure low sodium diet. Which of the following is the best interpretation?",
       "options": [
-        "A) Force free-water boluses for SIADH hyponatremia",
+        "A) Force free-water boluses for syndrome of inappropriate antidiuretic hormone hyponatremia",
         "B) Teach sodium restriction and fluid guidance per plan to reduce congestion",
         "C) Teach unlimited processed soup and canned foods as heart-healthy defaults",
-        "D) Massive peripheral edema without pulmonary findings is the hallmark of isolated left HF alone"
+        "D) Massive peripheral edema without pulmonary findings is the hallmark of isolated left heart failure alone"
       ],
       "answer": "B) Teach sodium restriction and fluid guidance per plan to reduce congestion",
       "explanation": "Sodium promotes water retention worsening pulmonary/systemic congestion. Therefore, the most accurate choice is: Teach sodium restriction and fluid guidance per plan to reduce congestion. Processed foods are high-sodium—calling them heart-healthy is a teaching .",
@@ -1122,15 +1122,15 @@
     },
     {
       "id": "med_surg:hard:2",
-      "question": "In a detailed discussion of left-sided HF clues, which of the following is most accurate?",
+      "question": "In a detailed discussion of left-sided heart failure clues, which of the following is most accurate?",
       "options": [
-        "A) Massive peripheral edema without pulmonary findings is the hallmark of isolated left HF alone",
-        "B) Pink frothy sputum is the classic isolated right-HF hallmark",
-        "C) Dyspnea, orthopnea, crackles, and low SpO2 suggest pulmonary congestion from left HF",
+        "A) Massive peripheral edema without pulmonary findings is the hallmark of isolated left heart failure alone",
+        "B) Pink frothy sputum is the classic isolated right-heart failure hallmark",
+        "C) Dyspnea, orthopnea, crackles, and low oxygen saturation suggest pulmonary congestion from left heart failure",
         "D) Treat flash pulmonary edema only with oral antibiotics at home without assessment"
       ],
-      "answer": "C) Dyspnea, orthopnea, crackles, and low SpO2 suggest pulmonary congestion from left HF",
-      "explanation": "Elevated left-sided pressures flood alveoli causing respiratory symptoms. Therefore, the most accurate choice is: Dyspnea, orthopnea, crackles, and low SpO2 suggest pulmonary congestion from left HF. Predominant dependent edema points more to right-sided congestion—close cousin .",
+      "answer": "C) Dyspnea, orthopnea, crackles, and low oxygen saturation suggest pulmonary congestion from left heart failure",
+      "explanation": "Elevated left-sided pressures flood alveoli causing respiratory symptoms. Therefore, the most accurate choice is: Dyspnea, orthopnea, crackles, and low oxygen saturation suggest pulmonary congestion from left heart failure. Predominant dependent edema points more to right-sided congestion—close cousin .",
       "choice_explanations": {
         "A": "Predominant dependent edema points more to right-sided congestion—close cousin near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1140,15 +1140,15 @@
     },
     {
       "id": "med_surg:hard:3",
-      "question": "Which of the following correctly distinguishes key points about right-sided HF clues?",
+      "question": "Which of the following correctly distinguishes key points about right-sided heart failure clues?",
       "options": [
-        "A) Pink frothy sputum is the classic isolated right-HF hallmark",
-        "B) JVD, dependent edema, and hepatomegaly suggest right-sided venous congestion",
+        "A) Pink frothy sputum is the classic isolated right-heart failure hallmark",
+        "B) jugular venous distention, dependent edema, and hepatomegaly suggest right-sided venous congestion",
         "C) Treat flash pulmonary edema only with oral antibiotics at home without assessment",
-        "D) Massive peripheral edema without pulmonary findings is the hallmark of isolated left HF alone"
+        "D) Massive peripheral edema without pulmonary findings is the hallmark of isolated left heart failure alone"
       ],
-      "answer": "B) JVD, dependent edema, and hepatomegaly suggest right-sided venous congestion",
-      "explanation": "Right heart failure backs blood into the systemic venous system. Therefore, the most accurate choice is: JVD, dependent edema, and hepatomegaly suggest right-sided venous congestion. Pink frothy sputum is pulmonary edema/left-sided picture—classic laterality .",
+      "answer": "B) jugular venous distention, dependent edema, and hepatomegaly suggest right-sided venous congestion",
+      "explanation": "Right heart failure backs blood into the systemic venous system. Therefore, the most accurate choice is: jugular venous distention, dependent edema, and hepatomegaly suggest right-sided venous congestion. Pink frothy sputum is pulmonary edema/left-sided picture—classic laterality .",
       "choice_explanations": {
         "A": "Pink frothy sputum is pulmonary edema/left-sided picture—classic laterality near-miss. It is less consistent than the correct choice.",
         "B": "Right heart failure backs blood into the systemic venous system. This matches the correct interpretation.",
@@ -1160,59 +1160,59 @@
       "id": "med_surg:hard:4",
       "question": "A clinic case of nitroglycerin angina teaching is discussed. Which of the following is correct?",
       "options": [
-        "A) Sit/lie down for SL NTG; take as directed; seek help if pain persists per protocol",
-        "B) Swallow all SL tablets whole with a full glass of water for angina",
+        "A) Sit/lie down for sublingual nitroglycerin; take as directed; seek help if pain persists per protocol",
+        "B) Swallow all sublingual tablets whole with a full glass of water for angina",
         "C) Tell patients to lie down is unnecessary after oral bisphosphonate with full water",
         "D) Lie flat immediately after large spicy meals as reflux therapy"
       ],
-      "answer": "A) Sit/lie down for SL NTG; take as directed; seek help if pain persists per protocol",
-      "explanation": "SL absorption needs mucosal contact; hypotension risk means seated/lying administration. Therefore, the most accurate choice is: Sit/lie down for SL NTG; take as directed; seek help if pain persists per protocol. Swallowing SL NTG bypasses intended rapid mucosal absorption—.",
+      "answer": "A) Sit/lie down for sublingual nitroglycerin; take as directed; seek help if pain persists per protocol",
+      "explanation": "sublingual absorption needs mucosal contact; hypotension risk means seated/lying administration. Therefore, the most accurate choice is: Sit/lie down for sublingual nitroglycerin; take as directed; seek help if pain persists per protocol. Swallowing sublingual nitroglycerin bypasses intended rapid mucosal absorption—.",
       "choice_explanations": {
-        "A": "SL absorption needs mucosal contact; hypotension risk means seated/lying administration. This matches the correct interpretation.",
-        "B": "Swallowing SL NTG bypasses intended rapid mucosal absorption—near-miss. It is less consistent than the correct choice.",
+        "A": "sublingual absorption needs mucosal contact; hypotension risk means seated/lying administration. This matches the correct interpretation.",
+        "B": "Swallowing sublingual nitroglycerin bypasses intended rapid mucosal absorption—near-miss. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "med_surg:hard:5",
-      "question": "Which statement about MI immediate nursing is most accurate?",
+      "question": "Which statement about myocardial infarction immediate nursing is most accurate?",
       "options": [
-        "A) Wait for cardiac enzymes before any aspirin or ECG in crushing chest pain",
+        "A) Wait for cardiac enzymes before any aspirin or electrocardiogram in crushing chest pain",
         "B) Wait 30 minutes without treatment for continuous generalized seizing",
         "C) Push a contaminated tube back into the chest at the bedside",
-        "D) ABCs, ECG, oxygen if hypoxic, IV access, aspirin per protocol, notify provider"
+        "D) ABCs, electrocardiogram, oxygen if hypoxic, intravenous access, aspirin per protocol, notify provider"
       ],
-      "answer": "D) ABCs, ECG, oxygen if hypoxic, IV access, aspirin per protocol, notify provider",
-      "explanation": "Time-sensitive ECG and anti-ischemic/antiplatelet steps improve MI outcomes. Therefore, the most accurate choice is: ABCs, ECG, oxygen if hypoxic, IV access, aspirin per protocol, notify provider. Delaying ECG/aspirin for labs loses critical minutes—.",
+      "answer": "D) ABCs, electrocardiogram, oxygen if hypoxic, intravenous access, aspirin per protocol, notify provider",
+      "explanation": "Time-sensitive electrocardiogram and anti-ischemic/antiplatelet steps improve myocardial infarction outcomes. Therefore, the most accurate choice is: ABCs, electrocardiogram, oxygen if hypoxic, intravenous access, aspirin per protocol, notify provider. Delaying electrocardiogram/aspirin for labs loses critical minutes—.",
       "choice_explanations": {
-        "A": "Delaying ECG/aspirin for labs loses critical minutes—near-miss. It is less consistent than the correct choice.",
+        "A": "Delaying electrocardiogram/aspirin for labs loses critical minutes—near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Time-sensitive ECG and anti-ischemic/antiplatelet steps improve MI outcomes. This matches the correct interpretation."
+        "D": "Time-sensitive electrocardiogram and anti-ischemic/antiplatelet steps improve myocardial infarction outcomes. This matches the correct interpretation."
       }
     },
     {
       "id": "med_surg:hard:6",
       "question": "Which of the following is the best statement about hypertension teaching?",
       "options": [
-        "A) Stop RIPE therapy after 3 days if cough improves",
+        "A) Stop rifampin, isoniazid, pyrazinamide, ethambutol therapy after 3 days if cough improves",
         "B) Give antidiarrheals freely in severe colitis without assessment for toxic megacolon risk",
-        "C) Stop antihypertensives whenever BP reads normal once at home",
-        "D) Lifestyle plus adherence to antihypertensives; home BP technique; report severe symptoms"
+        "C) Stop antihypertensives whenever blood pressure reads normal once at home",
+        "D) Lifestyle plus adherence to antihypertensives; home blood pressure technique; report severe symptoms"
       ],
-      "answer": "D) Lifestyle plus adherence to antihypertensives; home BP technique; report severe symptoms",
-      "explanation": "Chronic HTN needs ongoing therapy; abrupt stops risk rebound and events. Therefore, the most accurate choice is: Lifestyle plus adherence to antihypertensives; home BP technique; report severe symptoms. Stopping meds after one normal reading is a common adherence .",
+      "answer": "D) Lifestyle plus adherence to antihypertensives; home blood pressure technique; report severe symptoms",
+      "explanation": "Chronic hypertension needs ongoing therapy; abrupt stops risk rebound and events. Therefore, the most accurate choice is: Lifestyle plus adherence to antihypertensives; home blood pressure technique; report severe symptoms. Stopping meds after one normal reading is a common adherence .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Stopping meds after one normal reading is a common adherence near-miss. It is less consistent than the correct choice.",
-        "D": "Chronic HTN needs ongoing therapy; abrupt stops risk rebound and events. This matches the correct interpretation."
+        "D": "Chronic hypertension needs ongoing therapy; abrupt stops risk rebound and events. This matches the correct interpretation."
       }
     },
     {
       "id": "med_surg:hard:7",
-      "question": "Careful review of stroke FAST action is required. Which of the following is most accurate?",
+      "question": "Careful review of stroke Face Arm Speech Time stroke screen action is required. Which of the following is most accurate?",
       "options": [
         "A) Have the patient sleep off facial droop and arm weakness overnight before calling",
         "B) Feed a newly aphasic hemiparetic patient flat immediately to maintain calories",
@@ -1230,15 +1230,15 @@
     },
     {
       "id": "med_surg:hard:8",
-      "question": "A 61-year-old woman has findings suggestive of stroke aspiration risk. Which of the following is the best interpretation?",
+      "question": "A 62-year-old man has findings suggestive of stroke aspiration risk. Which of the following is the best interpretation?",
       "options": [
         "A) Irrigate with cola routinely without order and ignore placement checks before feeding",
         "B) Feed a newly aphasic hemiparetic patient flat immediately to maintain calories",
-        "C) Leave HOB flat during continuous tube feeds",
-        "D) NPO until swallow screen; upright feeding only if cleared; oral care"
+        "C) Leave head of bed flat during continuous tube feeds",
+        "D) nothing by mouth until swallow screen; upright feeding only if cleared; oral care"
       ],
-      "answer": "D) NPO until swallow screen; upright feeding only if cleared; oral care",
-      "explanation": "Acute stroke often impairs airway protection; screening prevents aspiration pneumonia. Therefore, the most accurate choice is: NPO until swallow screen; upright feeding only if cleared; oral care. Early unscreened feeding is a classic stroke nursing .",
+      "answer": "D) nothing by mouth until swallow screen; upright feeding only if cleared; oral care",
+      "explanation": "Acute stroke often impairs airway protection; screening prevents aspiration pneumonia. Therefore, the most accurate choice is: nothing by mouth until swallow screen; upright feeding only if cleared; oral care. Early unscreened feeding is a classic stroke nursing .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Early unscreened feeding is a classic stroke nursing near-miss. It is less consistent than the correct choice.",
@@ -1248,25 +1248,25 @@
     },
     {
       "id": "med_surg:hard:9",
-      "question": "In a detailed discussion of TIA urgency, which of the following is most accurate?",
+      "question": "In a detailed discussion of transient ischemic attack urgency, which of the following is most accurate?",
       "options": [
         "A) Elevate high above heart and apply ice constriction for suspected compartment syndrome without escalation",
-        "B) Treat TIA as an emergency warning for impending stroke—urgent evaluation",
+        "B) Treat transient ischemic attack as an emergency warning for impending stroke—urgent evaluation",
         "C) Reassure that resolved deficits mean no further workup is needed",
-        "D) Teach anticoagulation adherence and bleeding signs when indicated for AF stroke risk"
+        "D) Teach anticoagulation adherence and bleeding signs when indicated for atrial fibrillation stroke risk"
       ],
-      "answer": "B) Treat TIA as an emergency warning for impending stroke—urgent evaluation",
-      "explanation": "TIA signals high short-term stroke risk needing rapid secondary prevention. Therefore, the most accurate choice is: Treat TIA as an emergency warning for impending stroke—urgent evaluation. ‘Resolved equals safe’ delays prevention—.",
+      "answer": "B) Treat transient ischemic attack as an emergency warning for impending stroke—urgent evaluation",
+      "explanation": "transient ischemic attack signals high short-term stroke risk needing rapid secondary prevention. Therefore, the most accurate choice is: Treat transient ischemic attack as an emergency warning for impending stroke—urgent evaluation. ‘Resolved equals safe’ delays prevention—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "TIA signals high short-term stroke risk needing rapid secondary prevention. This matches the correct interpretation.",
+        "B": "transient ischemic attack signals high short-term stroke risk needing rapid secondary prevention. This matches the correct interpretation.",
         "C": "‘Resolved equals safe’ delays prevention—near-miss. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "med_surg:hard:10",
-      "question": "A 29-year-old woman returns for review of suspected seizure postictal care. Which of the following is most accurate?",
+      "question": "A 30-year-old man returns for review of suspected seizure postictal care. Which of the following is most accurate?",
       "options": [
         "A) Lay flat and force oral fluids as first response to pounding headache/hypertension in T6 injury",
         "B) Pack sugar into enterocutaneous fistula tracts as sole therapy without care plan",
@@ -1302,15 +1302,15 @@
     },
     {
       "id": "med_surg:hard:12",
-      "question": "A 64-year-old man presents with features compatible with myasthenia crisis watch. Which of the following is most accurate?",
+      "question": "A 65-year-old woman presents with features compatible with myasthenia crisis watch. Which of the following is most accurate?",
       "options": [
-        "A) Give anticholinergic cold meds freely for BPH with overflow dribbling",
-        "B) Monitor respiratory effort/VC; infection and meds can precipitate crisis; timely airway support",
+        "A) Give anticholinergic cold meds freely for benign prostatic hyperplasia with overflow dribbling",
+        "B) Monitor respiratory effort/vital capacity; infection and meds can precipitate crisis; timely airway support",
         "C) Give aminoglycosides freely in myasthenia without concern",
         "D) Give antidiarrheals freely in severe colitis without assessment for toxic megacolon risk"
       ],
-      "answer": "B) Monitor respiratory effort/VC; infection and meds can precipitate crisis; timely airway support",
-      "explanation": "Neuromuscular respiratory failure can escalate quickly in myasthenic crisis. Therefore, the most accurate choice is: Monitor respiratory effort/VC; infection and meds can precipitate crisis; timely airway support. Certain antibiotics worsen neuromuscular blockade—medication .",
+      "answer": "B) Monitor respiratory effort/vital capacity; infection and meds can precipitate crisis; timely airway support",
+      "explanation": "Neuromuscular respiratory failure can escalate quickly in myasthenic crisis. Therefore, the most accurate choice is: Monitor respiratory effort/vital capacity; infection and meds can precipitate crisis; timely airway support. Certain antibiotics worsen neuromuscular blockade—medication .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Neuromuscular respiratory failure can escalate quickly in myasthenic crisis. This matches the correct interpretation.",
@@ -1320,7 +1320,7 @@
     },
     {
       "id": "med_surg:hard:13",
-      "question": "Which statement about MS fatigue teaching in a 33-year-old woman is most accurate?",
+      "question": "Which statement about multiple sclerosis fatigue teaching in a 34-year-old man is most accurate?",
       "options": [
         "A) Recommend tanning beds to improve lupus rash",
         "B) Energy conservation, cooling strategies, med adherence; report new neurologic deficits",
@@ -1328,39 +1328,39 @@
         "D) Recommend fried foods to ‘flush bile’ during acute cholecystitis"
       ],
       "answer": "B) Energy conservation, cooling strategies, med adherence; report new neurologic deficits",
-      "explanation": "Uhthoff-like heat sensitivity and fatigue are common; cooling/conservation help function. Therefore, the most accurate choice is: Energy conservation, cooling strategies, med adherence; report new neurologic deficits. Heat often worsens MS symptoms—hot-tub advice is a .",
+      "explanation": "Uhthoff-like heat sensitivity and fatigue are common; cooling/conservation help function. Therefore, the most accurate choice is: Energy conservation, cooling strategies, med adherence; report new neurologic deficits. Heat often worsens multiple sclerosis symptoms—hot-tub advice is a .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Uhthoff-like heat sensitivity and fatigue are common; cooling/conservation help function. This matches the correct interpretation.",
-        "C": "Heat often worsens MS symptoms—hot-tub advice is a near-miss. It is less consistent than the correct choice.",
+        "C": "Heat often worsens multiple sclerosis symptoms—hot-tub advice is a near-miss. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "med_surg:hard:14",
-      "question": "After examining a 58-year-old man, which statement about spinal cord autonomic dysreflexia is correct?",
+      "question": "After examining a 59-year-old woman, which statement about spinal cord autonomic dysreflexia is correct?",
       "options": [
         "A) Feed a newly aphasic hemiparetic patient flat immediately to maintain calories",
         "B) Lay flat and force oral fluids as first response to pounding headache/hypertension in T6 injury",
-        "C) Sit up, loosen clothing, check bladder/bowel triggers; treat BP emergency per protocol",
-        "D) Give large IV insulin bolus at home without electrolyte monitoring as first teaching"
+        "C) Sit up, loosen clothing, check bladder/bowel triggers; treat blood pressure emergency per protocol",
+        "D) Give large intravenous insulin bolus at home without electrolyte monitoring as first teaching"
       ],
-      "answer": "C) Sit up, loosen clothing, check bladder/bowel triggers; treat BP emergency per protocol",
-      "explanation": "Noxious stimuli below injury cause massive sympathetic surge—remove trigger and lower BP risk. Therefore, the most accurate choice is: Sit up, loosen clothing, check bladder/bowel triggers; treat BP emergency per protocol. Lying flat worsens hypertensive emergency physiology—critical .",
+      "answer": "C) Sit up, loosen clothing, check bladder/bowel triggers; treat blood pressure emergency per protocol",
+      "explanation": "Noxious stimuli below injury cause massive sympathetic surge—remove trigger and lower blood pressure risk. Therefore, the most accurate choice is: Sit up, loosen clothing, check bladder/bowel triggers; treat blood pressure emergency per protocol. Lying flat worsens hypertensive emergency physiology—critical .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Lying flat worsens hypertensive emergency physiology—critical near-miss. It is less consistent than the correct choice.",
-        "C": "Noxious stimuli below injury cause massive sympathetic surge—remove trigger and lower BP risk. This matches the correct interpretation.",
+        "C": "Noxious stimuli below injury cause massive sympathetic surge—remove trigger and lower blood pressure risk. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "med_surg:hard:15",
-      "question": "A 35-year-old woman is evaluated for possible COPD pursed-lip breathing. Which of the following is most accurate?",
+      "question": "A 36-year-old man is evaluated for possible chronic obstructive pulmonary disease pursed-lip breathing. Which of the following is most accurate?",
       "options": [
         "A) Force rapid external rewarming alone without airway/glucose/thyroid treatment planning",
-        "B) Combine high-dose acetaminophen with heavy alcohol during TB therapy without caution",
-        "C) Teach breath-holding after rapid shallow panting as the primary COPD technique",
+        "B) Combine high-dose acetaminophen with heavy alcohol during tuberculosis therapy without caution",
+        "C) Teach breath-holding after rapid shallow panting as the primary chronic obstructive pulmonary disease technique",
         "D) Teach pursed-lip breathing to prevent airway collapse and ease dyspnea"
       ],
       "answer": "D) Teach pursed-lip breathing to prevent airway collapse and ease dyspnea",
@@ -1374,20 +1374,20 @@
     },
     {
       "id": "med_surg:hard:16",
-      "question": "Two similar explanations for COPD oxygen caution are compared. Which of the following is correct?",
+      "question": "Two similar explanations for chronic obstructive pulmonary disease oxygen caution are compared. Which of the following is correct?",
       "options": [
-        "A) Fluid-restrict central DI patients with 10 L/day urine without replacement plan",
-        "B) Apply non-rebreather at 15 L for every COPD patient with SpO2 91% without assessment",
+        "A) Fluid-restrict central diabetes insipidus patients with 10 L/day urine without replacement plan",
+        "B) Apply non-rebreather at 15 L for every chronic obstructive pulmonary disease patient with oxygen saturation 91% without assessment",
         "C) Give antidiarrheals freely in severe colitis without assessment for toxic megacolon risk",
-        "D) Titrate oxygen to ordered SpO2 targets; monitor mentation/ABG clues for CO2 retention"
+        "D) Titrate oxygen to ordered oxygen saturation targets; monitor mentation/arterial blood gas clues for carbon dioxide retention"
       ],
-      "answer": "D) Titrate oxygen to ordered SpO2 targets; monitor mentation/ABG clues for CO2 retention",
-      "explanation": "Some COPD patients hypoventilate with excessive O2; targeted saturation is safer. Therefore, the most accurate choice is: Titrate oxygen to ordered SpO2 targets; monitor mentation/ABG clues for CO2 retention. Maximal O2 without targets can worsen hypercapnia—close-pair .",
+      "answer": "D) Titrate oxygen to ordered oxygen saturation targets; monitor mentation/arterial blood gas clues for carbon dioxide retention",
+      "explanation": "Some chronic obstructive pulmonary disease patients hypoventilate with excessive oxygen; targeted saturation is safer. Therefore, the most accurate choice is: Titrate oxygen to ordered oxygen saturation targets; monitor mentation/arterial blood gas clues for carbon dioxide retention. Maximal oxygen without targets can worsen hypercapnia—close-pair .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Maximal O2 without targets can worsen hypercapnia—close-pair near-miss. It is less consistent than the correct choice.",
+        "B": "Maximal oxygen without targets can worsen hypercapnia—close-pair near-miss. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Some COPD patients hypoventilate with excessive O2; targeted saturation is safer. This matches the correct interpretation."
+        "D": "Some chronic obstructive pulmonary disease patients hypoventilate with excessive oxygen; targeted saturation is safer. This matches the correct interpretation."
       }
     },
     {
@@ -1397,7 +1397,7 @@
         "A) Spray inhaler into the air near the face without inhalation coordination",
         "B) Clamp a chest tube routinely for first transport without protocol reason",
         "C) Teach shake, exhale, seal, actuate while slow deep inhale, hold breath; spacer if needed",
-        "D) Teach breath-holding after rapid shallow panting as the primary COPD technique"
+        "D) Teach breath-holding after rapid shallow panting as the primary chronic obstructive pulmonary disease technique"
       ],
       "answer": "C) Teach shake, exhale, seal, actuate while slow deep inhale, hold breath; spacer if needed",
       "explanation": "Drug deposition requires coordinated inhalation; poor technique wastes therapy. Therefore, the most accurate choice is: Teach shake, exhale, seal, actuate while slow deep inhale, hold breath; spacer if needed. Actuating without inhaling is a common effectiveness .",
@@ -1415,13 +1415,13 @@
         "A) Force maximal exertion testing daily in severe symptomatic anemia",
         "B) Use personal best zones (green/yellow/red) to guide action plan steps",
         "C) Apply tight ice circumferential wraps until cyanosis for cellulitis",
-        "D) Schedule peak-prone insulin then leave patient NPO without glucose plan"
+        "D) Schedule peak-prone insulin then leave patient nothing by mouth without glucose plan"
       ],
       "answer": "B) Use personal best zones (green/yellow/red) to guide action plan steps",
-      "explanation": "Falling peak flow signals narrowing before severe distress—early action prevents ED visits. Therefore, the most accurate choice is: Use personal best zones (green/yellow/red) to guide action plan steps. Waiting for cyanosis in yellow/red zones is a dangerous delay .",
+      "explanation": "Falling peak flow signals narrowing before severe distress—early action prevents emergency department visits. Therefore, the most accurate choice is: Use personal best zones (green/yellow/red) to guide action plan steps. Waiting for cyanosis in yellow/red zones is a dangerous delay .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Falling peak flow signals narrowing before severe distress—early action prevents ED visits. This matches the correct interpretation.",
+        "B": "Falling peak flow signals narrowing before severe distress—early action prevents emergency department visits. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -1446,11 +1446,11 @@
     },
     {
       "id": "med_surg:hard:20",
-      "question": "Which statement about TB med adherence is most accurate?",
+      "question": "Which statement about tuberculosis med adherence is most accurate?",
       "options": [
-        "A) Stop IV antibiotics after 48 hours if pain improves regardless of plan",
+        "A) Stop intravenous antibiotics after 48 hours if pain improves regardless of plan",
         "B) Emphasize long-course adherence, infection control, and hepatotoxicity symptom reporting",
-        "C) Stop RIPE therapy after 3 days if cough improves",
+        "C) Stop rifampin, isoniazid, pyrazinamide, ethambutol therapy after 3 days if cough improves",
         "D) Pack sugar into enterocutaneous fistula tracts as sole therapy without care plan"
       ],
       "answer": "B) Emphasize long-course adherence, infection control, and hepatotoxicity symptom reporting",
@@ -1464,7 +1464,7 @@
     },
     {
       "id": "med_surg:hard:21",
-      "question": "After examining a 50-year-old man, which statement about chest tube tidaling is correct?",
+      "question": "After examining a 51-year-old woman, which statement about chest tube tidaling is correct?",
       "options": [
         "A) Clamp a chest tube routinely for first transport without protocol reason",
         "B) Spray inhaler into the air near the face without inhalation coordination",
@@ -1500,9 +1500,9 @@
     },
     {
       "id": "med_surg:hard:23",
-      "question": "A 56-year-old man has findings suggestive of pneumothorax assessment. Which of the following is the best interpretation?",
+      "question": "A 57-year-old woman has findings suggestive of pneumothorax assessment. Which of the following is the best interpretation?",
       "options": [
-        "A) Teach breath-holding after rapid shallow panting as the primary COPD technique",
+        "A) Teach breath-holding after rapid shallow panting as the primary chronic obstructive pulmonary disease technique",
         "B) Unequal breath sounds, dyspnea, tracheal deviation (tension)—emergency escalation",
         "C) Assume calf pain with sudden dyspnea is always only anxiety without assessment",
         "D) Spray inhaler into the air near the face without inhalation coordination"
@@ -1536,7 +1536,7 @@
     },
     {
       "id": "med_surg:hard:25",
-      "question": "A 41-year-old woman returns for review of suspected sickle cell vaso-occlusive. Which of the following is most accurate?",
+      "question": "A 42-year-old man returns for review of suspected sickle cell vaso-occlusive. Which of the following is most accurate?",
       "options": [
         "A) Withhold analgesia until stone is passed and imaged for days",
         "B) Withhold fluids in large burns because swelling ‘looks edematous enough’",
@@ -1559,7 +1559,7 @@
         "A) Treat fever in neutropenia as emergency—cultures and prompt antibiotics per protocol",
         "B) Wait 24 hours to see if fever spontaneous resolves in severe neutropenia",
         "C) Wait for culture results for 48 hours before any antibiotics in septic shock",
-        "D) Drop BP to lowest possible within minutes using any PRN meds stacked for asymptomatic severe HTN"
+        "D) Drop blood pressure to lowest possible within minutes using any as needed meds stacked for asymptomatic severe hypertension"
       ],
       "answer": "A) Treat fever in neutropenia as emergency—cultures and prompt antibiotics per protocol",
       "explanation": "Host defenses are inadequate; delays in antibiotics raise mortality. Therefore, the most accurate choice is: Treat fever in neutropenia as emergency—cultures and prompt antibiotics per protocol. Expectant waiting on neutropenic fever is a deadly .",
@@ -1572,17 +1572,17 @@
     },
     {
       "id": "med_surg:hard:27",
-      "question": "A 34-year-old man presents with features compatible with thrombocytopenia bleeding. Which of the following is most accurate?",
+      "question": "A 35-year-old woman presents with features compatible with thrombocytopenia bleeding. Which of the following is most accurate?",
       "options": [
         "A) Encourage contact sports when platelets are critically low",
-        "B) Avoid IM injections/trauma, use soft toothbrush, monitor CNS/bleeding signs",
+        "B) Avoid intramuscular injections/trauma, use soft toothbrush, monitor central nervous system/bleeding signs",
         "C) Continue heparin infusions when platelets crash and new clots form without escalation",
         "D) Give antidiarrheals freely in severe colitis without assessment for toxic megacolon risk"
       ],
-      "answer": "B) Avoid IM injections/trauma, use soft toothbrush, monitor CNS/bleeding signs",
-      "explanation": "Low platelets impair hemostasis; bleeding precautions reduce hemorrhage risk. Therefore, the most accurate choice is: Avoid IM injections/trauma, use soft toothbrush, monitor CNS/bleeding signs. IM injections and trauma risk hematoma—.",
+      "answer": "B) Avoid intramuscular injections/trauma, use soft toothbrush, monitor central nervous system/bleeding signs",
+      "explanation": "Low platelets impair hemostasis; bleeding precautions reduce hemorrhage risk. Therefore, the most accurate choice is: Avoid intramuscular injections/trauma, use soft toothbrush, monitor central nervous system/bleeding signs. intramuscular injections and trauma risk hematoma—.",
       "choice_explanations": {
-        "A": "IM injections and trauma risk hematoma—near-miss. It is less consistent than the correct choice.",
+        "A": "intramuscular injections and trauma risk hematoma—near-miss. It is less consistent than the correct choice.",
         "B": "Low platelets impair hemostasis; bleeding precautions reduce hemorrhage risk. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1590,37 +1590,37 @@
     },
     {
       "id": "med_surg:hard:28",
-      "question": "Which statement about blood transfusion monitoring in a 58-year-old man is most accurate?",
+      "question": "Which statement about blood transfusion monitoring in a 59-year-old woman is most accurate?",
       "options": [
         "A) Cross legs and bend >90° early after posterior hip precautions without guidance",
         "B) Leave for 45 minutes immediately after start without initial monitoring",
         "C) Stay with patient initially, vitals per protocol, stop if reaction signs appear",
-        "D) Give large IV insulin bolus at home without electrolyte monitoring as first teaching"
+        "D) Give large intravenous insulin bolus at home without electrolyte monitoring as first teaching"
       ],
       "answer": "C) Stay with patient initially, vitals per protocol, stop if reaction signs appear",
-      "explanation": "Acute hemolytic/allergic/TRALI reactions often declare early; vigilance enables stop/treat. Therefore, the most accurate choice is: Stay with patient initially, vitals per protocol, stop if reaction signs appear. Leaving unmonitored at start misses the highest-risk window—.",
+      "explanation": "Acute hemolytic/allergic/transfusion-related acute lung injury reactions often declare early; vigilance enables stop/treat. Therefore, the most accurate choice is: Stay with patient initially, vitals per protocol, stop if reaction signs appear. Leaving unmonitored at start misses the highest-risk window—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Leaving unmonitored at start misses the highest-risk window—near-miss. It is less consistent than the correct choice.",
-        "C": "Acute hemolytic/allergic/TRALI reactions often declare early; vigilance enables stop/treat. This matches the correct interpretation.",
+        "C": "Acute hemolytic/allergic/transfusion-related acute lung injury reactions often declare early; vigilance enables stop/treat. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "med_surg:hard:29",
-      "question": "After examining a 52-year-old man, which statement about diabetes sick-day rules is correct?",
+      "question": "After examining a 53-year-old woman, which statement about diabetes sick-day rules is correct?",
       "options": [
         "A) Hold steroids during acute illness in known adrenal insufficiency",
         "B) Continue basal insulin guidance, check glucose/ketones, hydrate, know when to seek care",
         "C) Stop all insulin when not eating during illness",
-        "D) Abruptly stop TPN and hang nothing when bag ends, ignoring hypoglycemia risk"
+        "D) Abruptly stop total parenteral nutrition and hang nothing when bag ends, ignoring hypoglycemia risk"
       ],
       "answer": "B) Continue basal insulin guidance, check glucose/ketones, hydrate, know when to seek care",
-      "explanation": "Counterregulatory stress raises glucose; stopping insulin risks DKA. Therefore, the most accurate choice is: Continue basal insulin guidance, check glucose/ketones, hydrate, know when to seek care. Holding all insulin when NPO is a classic DKA .",
+      "explanation": "Counterregulatory stress raises glucose; stopping insulin risks diabetic ketoacidosis. Therefore, the most accurate choice is: Continue basal insulin guidance, check glucose/ketones, hydrate, know when to seek care. Holding all insulin when nothing by mouth is a classic diabetic ketoacidosis .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Counterregulatory stress raises glucose; stopping insulin risks DKA. This matches the correct interpretation.",
-        "C": "Holding all insulin when NPO is a classic DKA near-miss. It is less consistent than the correct choice.",
+        "B": "Counterregulatory stress raises glucose; stopping insulin risks diabetic ketoacidosis. This matches the correct interpretation.",
+        "C": "Holding all insulin when nothing by mouth is a classic diabetic ketoacidosis near-miss. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     }
@@ -1628,15 +1628,15 @@
   "extreme": [
     {
       "id": "med_surg:extreme:0",
-      "question": "A 36-year-old man has a complex presentation of heart failure daily weight. Which of the following is most accurate?",
+      "question": "A 37-year-old woman has a complex presentation of heart failure daily weight. Which of the following is most accurate?",
       "options": [
-        "A) Resume competitive sprinting on postop day 1 after STEMI without clearance",
+        "A) Resume competitive sprinting on postop day 1 after ST-segment elevation myocardial infarction without clearance",
         "B) Teach unlimited processed soup and canned foods as heart-healthy defaults",
         "C) Recommend fried foods to ‘flush bile’ during acute cholecystitis",
-        "D) Report rapid weight gain (e.g., ≥2–3 lb in a day) as fluid retention clue in HF"
+        "D) Report rapid weight gain (e.g., ≥2–3 lb in a day) as fluid retention clue in heart failure"
       ],
-      "answer": "D) Report rapid weight gain (e.g., ≥2–3 lb in a day) as fluid retention clue in HF",
-      "explanation": "Acute weight gain often reflects fluid retention before overt dyspnea worsens. Therefore, the most accurate choice is: Report rapid weight gain (e.g., ≥2–3 lb in a day) as fluid retention clue in HF. Ankle appearance can lag; weight is a sensitive congestion signal— to ignore.",
+      "answer": "D) Report rapid weight gain (e.g., ≥2–3 lb in a day) as fluid retention clue in heart failure",
+      "explanation": "Acute weight gain often reflects fluid retention before overt dyspnea worsens. Therefore, the most accurate choice is: Report rapid weight gain (e.g., ≥2–3 lb in a day) as fluid retention clue in heart failure. Ankle appearance can lag; weight is a sensitive congestion signal— to ignore.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1646,12 +1646,12 @@
     },
     {
       "id": "med_surg:extreme:1",
-      "question": "A 59-year-old woman with diabetes and hypertension is reassessed after incomplete response related to HF low sodium diet. Which of the following is most accurate?",
+      "question": "A 60-year-old man with diabetes and hypertension is reassessed after incomplete response related to heart failure low sodium diet. Which of the following is most accurate?",
       "options": [
         "A) Recommend fried foods to ‘flush bile’ during acute cholecystitis",
         "B) Teach sodium restriction and fluid guidance per plan to reduce congestion",
         "C) Teach unlimited processed soup and canned foods as heart-healthy defaults",
-        "D) Massive peripheral edema without pulmonary findings is the hallmark of isolated left HF alone"
+        "D) Massive peripheral edema without pulmonary findings is the hallmark of isolated left heart failure alone"
       ],
       "answer": "B) Teach sodium restriction and fluid guidance per plan to reduce congestion",
       "explanation": "Sodium promotes water retention worsening pulmonary/systemic congestion. Therefore, the most accurate choice is: Teach sodium restriction and fluid guidance per plan to reduce congestion. Processed foods are high-sodium—calling them heart-healthy is a teaching .",
@@ -1664,15 +1664,15 @@
     },
     {
       "id": "med_surg:extreme:2",
-      "question": "Which of the following is the most precise statement about left-sided HF clues?",
+      "question": "Which of the following is the most precise statement about left-sided heart failure clues?",
       "options": [
-        "A) Massive peripheral edema without pulmonary findings is the hallmark of isolated left HF alone",
+        "A) Massive peripheral edema without pulmonary findings is the hallmark of isolated left heart failure alone",
         "B) Treat flash pulmonary edema only with oral antibiotics at home without assessment",
-        "C) Pink frothy sputum is the classic isolated right-HF hallmark",
-        "D) Dyspnea, orthopnea, crackles, and low SpO2 suggest pulmonary congestion from left HF"
+        "C) Pink frothy sputum is the classic isolated right-heart failure hallmark",
+        "D) Dyspnea, orthopnea, crackles, and low oxygen saturation suggest pulmonary congestion from left heart failure"
       ],
-      "answer": "D) Dyspnea, orthopnea, crackles, and low SpO2 suggest pulmonary congestion from left HF",
-      "explanation": "Elevated left-sided pressures flood alveoli causing respiratory symptoms. Therefore, the most accurate choice is: Dyspnea, orthopnea, crackles, and low SpO2 suggest pulmonary congestion from left HF. Predominant dependent edema points more to right-sided congestion—close cousin .",
+      "answer": "D) Dyspnea, orthopnea, crackles, and low oxygen saturation suggest pulmonary congestion from left heart failure",
+      "explanation": "Elevated left-sided pressures flood alveoli causing respiratory symptoms. Therefore, the most accurate choice is: Dyspnea, orthopnea, crackles, and low oxygen saturation suggest pulmonary congestion from left heart failure. Predominant dependent edema points more to right-sided congestion—close cousin .",
       "choice_explanations": {
         "A": "Predominant dependent edema points more to right-sided congestion—close cousin near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1682,15 +1682,15 @@
     },
     {
       "id": "med_surg:extreme:3",
-      "question": "In advanced review of right-sided HF clues, which of the following is most accurate?",
+      "question": "In advanced review of right-sided heart failure clues, which of the following is most accurate?",
       "options": [
-        "A) Massive peripheral edema without pulmonary findings is the hallmark of isolated left HF alone",
-        "B) JVD, dependent edema, and hepatomegaly suggest right-sided venous congestion",
-        "C) Pink frothy sputum is the classic isolated right-HF hallmark",
+        "A) Massive peripheral edema without pulmonary findings is the hallmark of isolated left heart failure alone",
+        "B) jugular venous distention, dependent edema, and hepatomegaly suggest right-sided venous congestion",
+        "C) Pink frothy sputum is the classic isolated right-heart failure hallmark",
         "D) Treat flash pulmonary edema only with oral antibiotics at home without assessment"
       ],
-      "answer": "B) JVD, dependent edema, and hepatomegaly suggest right-sided venous congestion",
-      "explanation": "Right heart failure backs blood into the systemic venous system. Therefore, the most accurate choice is: JVD, dependent edema, and hepatomegaly suggest right-sided venous congestion. Pink frothy sputum is pulmonary edema/left-sided picture—classic laterality .",
+      "answer": "B) jugular venous distention, dependent edema, and hepatomegaly suggest right-sided venous congestion",
+      "explanation": "Right heart failure backs blood into the systemic venous system. Therefore, the most accurate choice is: jugular venous distention, dependent edema, and hepatomegaly suggest right-sided venous congestion. Pink frothy sputum is pulmonary edema/left-sided picture—classic laterality .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Right heart failure backs blood into the systemic venous system. This matches the correct interpretation.",
@@ -1700,47 +1700,47 @@
     },
     {
       "id": "med_surg:extreme:4",
-      "question": "In a 35-year-old woman, distinguishing nitroglycerin angina teaching from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 36-year-old man, distinguishing nitroglycerin angina teaching from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Tell patients to lie down is unnecessary after oral bisphosphonate with full water",
-        "B) Sit/lie down for SL NTG; take as directed; seek help if pain persists per protocol",
-        "C) Swallow all SL tablets whole with a full glass of water for angina",
+        "B) Sit/lie down for sublingual nitroglycerin; take as directed; seek help if pain persists per protocol",
+        "C) Swallow all sublingual tablets whole with a full glass of water for angina",
         "D) Lie flat immediately after large spicy meals as reflux therapy"
       ],
-      "answer": "B) Sit/lie down for SL NTG; take as directed; seek help if pain persists per protocol",
-      "explanation": "SL absorption needs mucosal contact; hypotension risk means seated/lying administration. Therefore, the most accurate choice is: Sit/lie down for SL NTG; take as directed; seek help if pain persists per protocol. Swallowing SL NTG bypasses intended rapid mucosal absorption—.",
+      "answer": "B) Sit/lie down for sublingual nitroglycerin; take as directed; seek help if pain persists per protocol",
+      "explanation": "sublingual absorption needs mucosal contact; hypotension risk means seated/lying administration. Therefore, the most accurate choice is: Sit/lie down for sublingual nitroglycerin; take as directed; seek help if pain persists per protocol. Swallowing sublingual nitroglycerin bypasses intended rapid mucosal absorption—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "SL absorption needs mucosal contact; hypotension risk means seated/lying administration. This matches the correct interpretation.",
-        "C": "Swallowing SL NTG bypasses intended rapid mucosal absorption—near-miss. It is less consistent than the correct choice.",
+        "B": "sublingual absorption needs mucosal contact; hypotension risk means seated/lying administration. This matches the correct interpretation.",
+        "C": "Swallowing sublingual nitroglycerin bypasses intended rapid mucosal absorption—near-miss. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "med_surg:extreme:5",
-      "question": "Which closely related statement about MI immediate nursing is correct?",
+      "question": "Which closely related statement about myocardial infarction immediate nursing is correct?",
       "options": [
         "A) Wait 30 minutes without treatment for continuous generalized seizing",
-        "B) ABCs, ECG, oxygen if hypoxic, IV access, aspirin per protocol, notify provider",
+        "B) ABCs, electrocardiogram, oxygen if hypoxic, intravenous access, aspirin per protocol, notify provider",
         "C) Wait 24 hours to see if fever spontaneous resolves in severe neutropenia",
-        "D) Wait for cardiac enzymes before any aspirin or ECG in crushing chest pain"
+        "D) Wait for cardiac enzymes before any aspirin or electrocardiogram in crushing chest pain"
       ],
-      "answer": "B) ABCs, ECG, oxygen if hypoxic, IV access, aspirin per protocol, notify provider",
-      "explanation": "Time-sensitive ECG and anti-ischemic/antiplatelet steps improve MI outcomes. Therefore, the most accurate choice is: ABCs, ECG, oxygen if hypoxic, IV access, aspirin per protocol, notify provider. Delaying ECG/aspirin for labs loses critical minutes—.",
+      "answer": "B) ABCs, electrocardiogram, oxygen if hypoxic, intravenous access, aspirin per protocol, notify provider",
+      "explanation": "Time-sensitive electrocardiogram and anti-ischemic/antiplatelet steps improve myocardial infarction outcomes. Therefore, the most accurate choice is: ABCs, electrocardiogram, oxygen if hypoxic, intravenous access, aspirin per protocol, notify provider. Delaying electrocardiogram/aspirin for labs loses critical minutes—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Time-sensitive ECG and anti-ischemic/antiplatelet steps improve MI outcomes. This matches the correct interpretation.",
+        "B": "Time-sensitive electrocardiogram and anti-ischemic/antiplatelet steps improve myocardial infarction outcomes. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Delaying ECG/aspirin for labs loses critical minutes—near-miss. It is less consistent than the correct choice."
+        "D": "Delaying electrocardiogram/aspirin for labs loses critical minutes—near-miss. It is less consistent than the correct choice."
       }
     },
     {
       "id": "med_surg:extreme:6",
-      "question": "Which of the following is the central point about post-MI activity?",
+      "question": "Which of the following is the central point about post-myocardial infarction activity?",
       "options": [
         "A) Encourage large solid steaks and straws on day 1 after gastric bypass",
-        "B) Resume competitive sprinting on postop day 1 after STEMI without clearance",
-        "C) Combine high-dose acetaminophen with heavy alcohol during TB therapy without caution",
+        "B) Resume competitive sprinting on postop day 1 after ST-segment elevation myocardial infarction without clearance",
+        "C) Combine high-dose acetaminophen with heavy alcohol during tuberculosis therapy without caution",
         "D) Gradual activity progression; report chest pain, dyspnea, or undue fatigue"
       ],
       "answer": "D) Gradual activity progression; report chest pain, dyspnea, or undue fatigue",
@@ -1754,25 +1754,25 @@
     },
     {
       "id": "med_surg:extreme:7",
-      "question": "Which statement about managing hypertension teaching in a 26-year-old man is most accurate?",
+      "question": "Which statement about managing hypertension teaching in a 27-year-old woman is most accurate?",
       "options": [
-        "A) Stop antihypertensives whenever BP reads normal once at home",
+        "A) Stop antihypertensives whenever blood pressure reads normal once at home",
         "B) Give antidiarrheals freely in severe colitis without assessment for toxic megacolon risk",
-        "C) Lifestyle plus adherence to antihypertensives; home BP technique; report severe symptoms",
+        "C) Lifestyle plus adherence to antihypertensives; home blood pressure technique; report severe symptoms",
         "D) Stop lactulose when diarrhea begins without assessing goal stools"
       ],
-      "answer": "C) Lifestyle plus adherence to antihypertensives; home BP technique; report severe symptoms",
-      "explanation": "Chronic HTN needs ongoing therapy; abrupt stops risk rebound and events. Therefore, the most accurate choice is: Lifestyle plus adherence to antihypertensives; home BP technique; report severe symptoms. Stopping meds after one normal reading is a common adherence .",
+      "answer": "C) Lifestyle plus adherence to antihypertensives; home blood pressure technique; report severe symptoms",
+      "explanation": "Chronic hypertension needs ongoing therapy; abrupt stops risk rebound and events. Therefore, the most accurate choice is: Lifestyle plus adherence to antihypertensives; home blood pressure technique; report severe symptoms. Stopping meds after one normal reading is a common adherence .",
       "choice_explanations": {
         "A": "Stopping meds after one normal reading is a common adherence near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Chronic HTN needs ongoing therapy; abrupt stops risk rebound and events. This matches the correct interpretation.",
+        "C": "Chronic hypertension needs ongoing therapy; abrupt stops risk rebound and events. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "med_surg:extreme:8",
-      "question": "A 62-year-old man with diabetes and hypertension requires careful decisions about stroke FAST action. Which of the following is most accurate?",
+      "question": "A 63-year-old woman with diabetes and hypertension requires careful decisions about stroke Face Arm Speech Time stroke screen action. Which of the following is most accurate?",
       "options": [
         "A) Give alteplase for stroke symptoms without imaging to exclude hemorrhage",
         "B) Recognize Face/Arm/Speech changes and activate emergency stroke pathway immediately",
@@ -1790,15 +1790,15 @@
     },
     {
       "id": "med_surg:extreme:9",
-      "question": "A 61-year-old woman with diabetes and hypertension is reassessed after incomplete response related to stroke aspiration risk. Which of the following is most accurate?",
+      "question": "A 62-year-old man with diabetes and hypertension is reassessed after incomplete response related to stroke aspiration risk. Which of the following is most accurate?",
       "options": [
-        "A) NPO until swallow screen; upright feeding only if cleared; oral care",
-        "B) Leave HOB flat during continuous tube feeds",
+        "A) nothing by mouth until swallow screen; upright feeding only if cleared; oral care",
+        "B) Leave head of bed flat during continuous tube feeds",
         "C) Overinflate cuff routinely until pressure necroses trachea without manometer checks",
         "D) Feed a newly aphasic hemiparetic patient flat immediately to maintain calories"
       ],
-      "answer": "A) NPO until swallow screen; upright feeding only if cleared; oral care",
-      "explanation": "Acute stroke often impairs airway protection; screening prevents aspiration pneumonia. Therefore, the most accurate choice is: NPO until swallow screen; upright feeding only if cleared; oral care. Early unscreened feeding is a classic stroke nursing .",
+      "answer": "A) nothing by mouth until swallow screen; upright feeding only if cleared; oral care",
+      "explanation": "Acute stroke often impairs airway protection; screening prevents aspiration pneumonia. Therefore, the most accurate choice is: nothing by mouth until swallow screen; upright feeding only if cleared; oral care. Early unscreened feeding is a classic stroke nursing .",
       "choice_explanations": {
         "A": "Acute stroke often impairs airway protection; screening prevents aspiration pneumonia. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1808,25 +1808,25 @@
     },
     {
       "id": "med_surg:extreme:10",
-      "question": "Which of the following is the most precise statement about TIA urgency?",
+      "question": "Which of the following is the most precise statement about transient ischemic attack urgency?",
       "options": [
         "A) Elevate high above heart and apply ice constriction for suspected compartment syndrome without escalation",
         "B) Reassure that resolved deficits mean no further workup is needed",
-        "C) Treat new bilateral leg weakness in metastatic spine disease with only PRN acetaminophen at home",
-        "D) Treat TIA as an emergency warning for impending stroke—urgent evaluation"
+        "C) Treat new bilateral leg weakness in metastatic spine disease with only as needed acetaminophen at home",
+        "D) Treat transient ischemic attack as an emergency warning for impending stroke—urgent evaluation"
       ],
-      "answer": "D) Treat TIA as an emergency warning for impending stroke—urgent evaluation",
-      "explanation": "TIA signals high short-term stroke risk needing rapid secondary prevention. Therefore, the most accurate choice is: Treat TIA as an emergency warning for impending stroke—urgent evaluation. ‘Resolved equals safe’ delays prevention—.",
+      "answer": "D) Treat transient ischemic attack as an emergency warning for impending stroke—urgent evaluation",
+      "explanation": "transient ischemic attack signals high short-term stroke risk needing rapid secondary prevention. Therefore, the most accurate choice is: Treat transient ischemic attack as an emergency warning for impending stroke—urgent evaluation. ‘Resolved equals safe’ delays prevention—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "‘Resolved equals safe’ delays prevention—near-miss. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "TIA signals high short-term stroke risk needing rapid secondary prevention. This matches the correct interpretation."
+        "D": "transient ischemic attack signals high short-term stroke risk needing rapid secondary prevention. This matches the correct interpretation."
       }
     },
     {
       "id": "med_surg:extreme:11",
-      "question": "A 29-year-old woman has findings that make seizure postictal care hard to confirm. Which of the following is most accurate?",
+      "question": "A 30-year-old man has findings that make seizure postictal care hard to confirm. Which of the following is most accurate?",
       "options": [
         "A) Put a hard object between teeth as the first postictal action",
         "B) Protect airway, lateral position, timed seizure, vital signs, reorient; never force objects in mouth",
@@ -1862,15 +1862,15 @@
     },
     {
       "id": "med_surg:extreme:13",
-      "question": "A 64-year-old man returns with ongoing problems related to myasthenia crisis watch. Which of the following is most accurate?",
+      "question": "A 65-year-old woman returns with ongoing problems related to myasthenia crisis watch. Which of the following is most accurate?",
       "options": [
-        "A) Monitor respiratory effort/VC; infection and meds can precipitate crisis; timely airway support",
-        "B) Give anticholinergic cold meds freely for BPH with overflow dribbling",
+        "A) Monitor respiratory effort/vital capacity; infection and meds can precipitate crisis; timely airway support",
+        "B) Give anticholinergic cold meds freely for benign prostatic hyperplasia with overflow dribbling",
         "C) Give aminoglycosides freely in myasthenia without concern",
         "D) Give antidiarrheals freely in severe colitis without assessment for toxic megacolon risk"
       ],
-      "answer": "A) Monitor respiratory effort/VC; infection and meds can precipitate crisis; timely airway support",
-      "explanation": "Neuromuscular respiratory failure can escalate quickly in myasthenic crisis. Therefore, the most accurate choice is: Monitor respiratory effort/VC; infection and meds can precipitate crisis; timely airway support. Certain antibiotics worsen neuromuscular blockade—medication .",
+      "answer": "A) Monitor respiratory effort/vital capacity; infection and meds can precipitate crisis; timely airway support",
+      "explanation": "Neuromuscular respiratory failure can escalate quickly in myasthenic crisis. Therefore, the most accurate choice is: Monitor respiratory effort/vital capacity; infection and meds can precipitate crisis; timely airway support. Certain antibiotics worsen neuromuscular blockade—medication .",
       "choice_explanations": {
         "A": "Neuromuscular respiratory failure can escalate quickly in myasthenic crisis. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1880,7 +1880,7 @@
     },
     {
       "id": "med_surg:extreme:14",
-      "question": "Senior review is requested for MS fatigue teaching in a 33-year-old woman. Which of the following is correct?",
+      "question": "Senior review is requested for multiple sclerosis fatigue teaching in a 34-year-old man. Which of the following is correct?",
       "options": [
         "A) Recommend tanning beds to improve lupus rash",
         "B) Recommend fried foods to ‘flush bile’ during acute cholecystitis",
@@ -1888,40 +1888,40 @@
         "D) Recommend overheating in hot tubs to ‘loosen’ spasticity as routine advice"
       ],
       "answer": "C) Energy conservation, cooling strategies, med adherence; report new neurologic deficits",
-      "explanation": "Uhthoff-like heat sensitivity and fatigue are common; cooling/conservation help function. Therefore, the most accurate choice is: Energy conservation, cooling strategies, med adherence; report new neurologic deficits. Heat often worsens MS symptoms—hot-tub advice is a .",
+      "explanation": "Uhthoff-like heat sensitivity and fatigue are common; cooling/conservation help function. Therefore, the most accurate choice is: Energy conservation, cooling strategies, med adherence; report new neurologic deficits. Heat often worsens multiple sclerosis symptoms—hot-tub advice is a .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Uhthoff-like heat sensitivity and fatigue are common; cooling/conservation help function. This matches the correct interpretation.",
-        "D": "Heat often worsens MS symptoms—hot-tub advice is a near-miss. It is less consistent than the correct choice."
+        "D": "Heat often worsens multiple sclerosis symptoms—hot-tub advice is a near-miss. It is less consistent than the correct choice."
       }
     },
     {
       "id": "med_surg:extreme:15",
-      "question": "Which statement about spinal cord autonomic dysreflexia in a 58-year-old man is most accurate?",
+      "question": "Which statement about spinal cord autonomic dysreflexia in a 59-year-old woman is most accurate?",
       "options": [
         "A) Feed a newly aphasic hemiparetic patient flat immediately to maintain calories",
-        "B) Give large IV insulin bolus at home without electrolyte monitoring as first teaching",
+        "B) Give large intravenous insulin bolus at home without electrolyte monitoring as first teaching",
         "C) Lay flat and force oral fluids as first response to pounding headache/hypertension in T6 injury",
-        "D) Sit up, loosen clothing, check bladder/bowel triggers; treat BP emergency per protocol"
+        "D) Sit up, loosen clothing, check bladder/bowel triggers; treat blood pressure emergency per protocol"
       ],
-      "answer": "D) Sit up, loosen clothing, check bladder/bowel triggers; treat BP emergency per protocol",
-      "explanation": "Noxious stimuli below injury cause massive sympathetic surge—remove trigger and lower BP risk. Therefore, the most accurate choice is: Sit up, loosen clothing, check bladder/bowel triggers; treat BP emergency per protocol. Lying flat worsens hypertensive emergency physiology—critical .",
+      "answer": "D) Sit up, loosen clothing, check bladder/bowel triggers; treat blood pressure emergency per protocol",
+      "explanation": "Noxious stimuli below injury cause massive sympathetic surge—remove trigger and lower blood pressure risk. Therefore, the most accurate choice is: Sit up, loosen clothing, check bladder/bowel triggers; treat blood pressure emergency per protocol. Lying flat worsens hypertensive emergency physiology—critical .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Lying flat worsens hypertensive emergency physiology—critical near-miss. It is less consistent than the correct choice.",
-        "D": "Noxious stimuli below injury cause massive sympathetic surge—remove trigger and lower BP risk. This matches the correct interpretation."
+        "D": "Noxious stimuli below injury cause massive sympathetic surge—remove trigger and lower blood pressure risk. This matches the correct interpretation."
       }
     },
     {
       "id": "med_surg:extreme:16",
-      "question": "A 35-year-old woman has a complex presentation of COPD pursed-lip breathing. Which of the following is most accurate?",
+      "question": "A 36-year-old man has a complex presentation of chronic obstructive pulmonary disease pursed-lip breathing. Which of the following is most accurate?",
       "options": [
         "A) Force rapid external rewarming alone without airway/glucose/thyroid treatment planning",
         "B) Teach pursed-lip breathing to prevent airway collapse and ease dyspnea",
-        "C) Teach breath-holding after rapid shallow panting as the primary COPD technique",
-        "D) Combine high-dose acetaminophen with heavy alcohol during TB therapy without caution"
+        "C) Teach breath-holding after rapid shallow panting as the primary chronic obstructive pulmonary disease technique",
+        "D) Combine high-dose acetaminophen with heavy alcohol during tuberculosis therapy without caution"
       ],
       "answer": "B) Teach pursed-lip breathing to prevent airway collapse and ease dyspnea",
       "explanation": "Pursed lips create back-pressure stenting small airways during expiration. Therefore, the most accurate choice is: Teach pursed-lip breathing to prevent airway collapse and ease dyspnea. Rapid shallow panting increases air trapping—technique .",
@@ -1934,30 +1934,30 @@
     },
     {
       "id": "med_surg:extreme:17",
-      "question": "Small differences in wording about COPD oxygen caution matter. Which of the following is correct?",
+      "question": "Small differences in wording about chronic obstructive pulmonary disease oxygen caution matter. Which of the following is correct?",
       "options": [
-        "A) Titrate oxygen to ordered SpO2 targets; monitor mentation/ABG clues for CO2 retention",
+        "A) Titrate oxygen to ordered oxygen saturation targets; monitor mentation/arterial blood gas clues for carbon dioxide retention",
         "B) Force rapid external rewarming alone without airway/glucose/thyroid treatment planning",
-        "C) Apply non-rebreather at 15 L for every COPD patient with SpO2 91% without assessment",
+        "C) Apply non-rebreather at 15 L for every chronic obstructive pulmonary disease patient with oxygen saturation 91% without assessment",
         "D) Give antidiarrheals freely in severe colitis without assessment for toxic megacolon risk"
       ],
-      "answer": "A) Titrate oxygen to ordered SpO2 targets; monitor mentation/ABG clues for CO2 retention",
-      "explanation": "Some COPD patients hypoventilate with excessive O2; targeted saturation is safer. Therefore, the most accurate choice is: Titrate oxygen to ordered SpO2 targets; monitor mentation/ABG clues for CO2 retention. Maximal O2 without targets can worsen hypercapnia—close-pair .",
+      "answer": "A) Titrate oxygen to ordered oxygen saturation targets; monitor mentation/arterial blood gas clues for carbon dioxide retention",
+      "explanation": "Some chronic obstructive pulmonary disease patients hypoventilate with excessive oxygen; targeted saturation is safer. Therefore, the most accurate choice is: Titrate oxygen to ordered oxygen saturation targets; monitor mentation/arterial blood gas clues for carbon dioxide retention. Maximal oxygen without targets can worsen hypercapnia—close-pair .",
       "choice_explanations": {
-        "A": "Some COPD patients hypoventilate with excessive O2; targeted saturation is safer. This matches the correct interpretation.",
+        "A": "Some chronic obstructive pulmonary disease patients hypoventilate with excessive oxygen; targeted saturation is safer. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Maximal O2 without targets can worsen hypercapnia—close-pair near-miss. It is less consistent than the correct choice.",
+        "C": "Maximal oxygen without targets can worsen hypercapnia—close-pair near-miss. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "med_surg:extreme:18",
-      "question": "A 28-year-old man needs action related to asthma inhaler technique. Which of the following is correct?",
+      "question": "A 29-year-old woman needs action related to asthma inhaler technique. Which of the following is correct?",
       "options": [
         "A) Teach shake, exhale, seal, actuate while slow deep inhale, hold breath; spacer if needed",
-        "B) Combine high-dose acetaminophen with heavy alcohol during TB therapy without caution",
+        "B) Combine high-dose acetaminophen with heavy alcohol during tuberculosis therapy without caution",
         "C) Spray inhaler into the air near the face without inhalation coordination",
-        "D) Teach breath-holding after rapid shallow panting as the primary COPD technique"
+        "D) Teach breath-holding after rapid shallow panting as the primary chronic obstructive pulmonary disease technique"
       ],
       "answer": "A) Teach shake, exhale, seal, actuate while slow deep inhale, hold breath; spacer if needed",
       "explanation": "Drug deposition requires coordinated inhalation; poor technique wastes therapy. Therefore, the most accurate choice is: Teach shake, exhale, seal, actuate while slow deep inhale, hold breath; spacer if needed. Actuating without inhaling is a common effectiveness .",
@@ -1972,16 +1972,16 @@
       "id": "med_surg:extreme:19",
       "question": "In advanced review of asthma peak flow zones, which of the following is most accurate?",
       "options": [
-        "A) Schedule peak-prone insulin then leave patient NPO without glucose plan",
+        "A) Schedule peak-prone insulin then leave patient nothing by mouth without glucose plan",
         "B) Use personal best zones (green/yellow/red) to guide action plan steps",
         "C) Force maximal exertion testing daily in severe symptomatic anemia",
         "D) Apply tight ice circumferential wraps until cyanosis for cellulitis"
       ],
       "answer": "B) Use personal best zones (green/yellow/red) to guide action plan steps",
-      "explanation": "Falling peak flow signals narrowing before severe distress—early action prevents ED visits. Therefore, the most accurate choice is: Use personal best zones (green/yellow/red) to guide action plan steps. Waiting for cyanosis in yellow/red zones is a dangerous delay .",
+      "explanation": "Falling peak flow signals narrowing before severe distress—early action prevents emergency department visits. Therefore, the most accurate choice is: Use personal best zones (green/yellow/red) to guide action plan steps. Waiting for cyanosis in yellow/red zones is a dangerous delay .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Falling peak flow signals narrowing before severe distress—early action prevents ED visits. This matches the correct interpretation.",
+        "B": "Falling peak flow signals narrowing before severe distress—early action prevents emergency department visits. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -2006,11 +2006,11 @@
     },
     {
       "id": "med_surg:extreme:21",
-      "question": "Safety concerns around TB med adherence arise in a 65-year-old woman. Which of the following is most accurate?",
+      "question": "Safety concerns around tuberculosis med adherence arise in a 66-year-old man. Which of the following is most accurate?",
       "options": [
-        "A) Stop RIPE therapy after 3 days if cough improves",
+        "A) Stop rifampin, isoniazid, pyrazinamide, ethambutol therapy after 3 days if cough improves",
         "B) Pack sugar into enterocutaneous fistula tracts as sole therapy without care plan",
-        "C) Stop IV antibiotics after 48 hours if pain improves regardless of plan",
+        "C) Stop intravenous antibiotics after 48 hours if pain improves regardless of plan",
         "D) Emphasize long-course adherence, infection control, and hepatotoxicity symptom reporting"
       ],
       "answer": "D) Emphasize long-course adherence, infection control, and hepatotoxicity symptom reporting",
@@ -2027,12 +2027,12 @@
       "question": "Which of the following is the central point about pulmonary embolism clues?",
       "options": [
         "A) Encourage early aggressive bone manipulation teaching that petechiae/dyspnea are unrelated always",
-        "B) Sudden dyspnea, pleuritic pain, tachycardia, hypoxemia—urgent evaluation for PE",
+        "B) Sudden dyspnea, pleuritic pain, tachycardia, hypoxemia—urgent evaluation for pulmonary embolism",
         "C) Assume calf pain with sudden dyspnea is always only anxiety without assessment",
-        "D) Massive peripheral edema without pulmonary findings is the hallmark of isolated left HF alone"
+        "D) Massive peripheral edema without pulmonary findings is the hallmark of isolated left heart failure alone"
       ],
-      "answer": "B) Sudden dyspnea, pleuritic pain, tachycardia, hypoxemia—urgent evaluation for PE",
-      "explanation": "Veno-thrombotic emboli obstruct pulmonary arteries causing V/Q mismatch. Therefore, the most accurate choice is: Sudden dyspnea, pleuritic pain, tachycardia, hypoxemia—urgent evaluation for PE. Dismissing dyspnea as anxiety delays life-saving therapy—.",
+      "answer": "B) Sudden dyspnea, pleuritic pain, tachycardia, hypoxemia—urgent evaluation for pulmonary embolism",
+      "explanation": "Veno-thrombotic emboli obstruct pulmonary arteries causing V/Q mismatch. Therefore, the most accurate choice is: Sudden dyspnea, pleuritic pain, tachycardia, hypoxemia—urgent evaluation for pulmonary embolism. Dismissing dyspnea as anxiety delays life-saving therapy—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Veno-thrombotic emboli obstruct pulmonary arteries causing V/Q mismatch. This matches the correct interpretation.",
@@ -2042,7 +2042,7 @@
     },
     {
       "id": "med_surg:extreme:23",
-      "question": "Which statement about chest tube tidaling in a 50-year-old man is most accurate?",
+      "question": "Which statement about chest tube tidaling in a 51-year-old woman is most accurate?",
       "options": [
         "A) Expect tidaling with respiration in water-seal; continuous bubbling suggests air leak assessment",
         "B) Overinflate cuff routinely until pressure necroses trachea without manometer checks",
@@ -2060,7 +2060,7 @@
     },
     {
       "id": "med_surg:extreme:24",
-      "question": "A 49-year-old woman requires careful decisions about chest tube dislodgement. Which of the following is most accurate?",
+      "question": "A 50-year-old man with diabetes and hypertension requires careful decisions about chest tube dislodgement. Which of the following is most accurate?",
       "options": [
         "A) Cover site per protocol (often occlusive dressing strategy), oxygenate, call for help urgently",
         "B) Clamp a chest tube routinely for first transport without protocol reason",
@@ -2078,9 +2078,9 @@
     },
     {
       "id": "med_surg:extreme:25",
-      "question": "A 56-year-old man with diabetes and hypertension is reassessed after incomplete response related to pneumothorax assessment. Which of the following is most accurate?",
+      "question": "A 57-year-old woman with diabetes and hypertension is reassessed after incomplete response related to pneumothorax assessment. Which of the following is most accurate?",
       "options": [
-        "A) Teach breath-holding after rapid shallow panting as the primary COPD technique",
+        "A) Teach breath-holding after rapid shallow panting as the primary chronic obstructive pulmonary disease technique",
         "B) Assume calf pain with sudden dyspnea is always only anxiety without assessment",
         "C) Use compression stockings on ankle-brachial index critically ischemic legs without assessment",
         "D) Unequal breath sounds, dyspnea, tracheal deviation (tension)—emergency escalation"
@@ -2114,9 +2114,9 @@
     },
     {
       "id": "med_surg:extreme:27",
-      "question": "A 41-year-old woman has findings that make sickle cell vaso-occlusive hard to confirm. Which of the following is most accurate?",
+      "question": "A 42-year-old man has findings that make sickle cell vaso-occlusive hard to confirm. Which of the following is most accurate?",
       "options": [
-        "A) Wait for cardiac enzymes before any aspirin or ECG in crushing chest pain",
+        "A) Wait for cardiac enzymes before any aspirin or electrocardiogram in crushing chest pain",
         "B) Withhold analgesia until stone is passed and imaged for days",
         "C) Withhold opioids in sickle crisis because patients ‘always exaggerate’",
         "D) Hydration, oxygen if hypoxic, aggressive analgesia, infection/trigger search"
@@ -2132,11 +2132,11 @@
     },
     {
       "id": "med_surg:extreme:28",
-      "question": "A 27-year-old woman has a rapidly worsening course of neutropenic fever urgency. Which of the following is most accurate?",
+      "question": "A 28-year-old man has a rapidly worsening course of neutropenic fever urgency. Which of the following is most accurate?",
       "options": [
         "A) Wait 24 hours to see if fever spontaneous resolves in severe neutropenia",
         "B) Treat fever in neutropenia as emergency—cultures and prompt antibiotics per protocol",
-        "C) Wait for cardiac enzymes before any aspirin or ECG in crushing chest pain",
+        "C) Wait for cardiac enzymes before any aspirin or electrocardiogram in crushing chest pain",
         "D) Wait for culture results for 48 hours before any antibiotics in septic shock"
       ],
       "answer": "B) Treat fever in neutropenia as emergency—cultures and prompt antibiotics per protocol",
@@ -2150,20 +2150,20 @@
     },
     {
       "id": "med_surg:extreme:29",
-      "question": "A 34-year-old man returns with ongoing problems related to thrombocytopenia bleeding. Which of the following is most accurate?",
+      "question": "A 35-year-old woman returns with ongoing problems related to thrombocytopenia bleeding. Which of the following is most accurate?",
       "options": [
         "A) Give antidiarrheals freely in severe colitis without assessment for toxic megacolon risk",
-        "B) Avoid IM injections/trauma, use soft toothbrush, monitor CNS/bleeding signs",
+        "B) Avoid intramuscular injections/trauma, use soft toothbrush, monitor central nervous system/bleeding signs",
         "C) Continue heparin infusions when platelets crash and new clots form without escalation",
         "D) Encourage contact sports when platelets are critically low"
       ],
-      "answer": "B) Avoid IM injections/trauma, use soft toothbrush, monitor CNS/bleeding signs",
-      "explanation": "Low platelets impair hemostasis; bleeding precautions reduce hemorrhage risk. Therefore, the most accurate choice is: Avoid IM injections/trauma, use soft toothbrush, monitor CNS/bleeding signs. IM injections and trauma risk hematoma—.",
+      "answer": "B) Avoid intramuscular injections/trauma, use soft toothbrush, monitor central nervous system/bleeding signs",
+      "explanation": "Low platelets impair hemostasis; bleeding precautions reduce hemorrhage risk. Therefore, the most accurate choice is: Avoid intramuscular injections/trauma, use soft toothbrush, monitor central nervous system/bleeding signs. intramuscular injections and trauma risk hematoma—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Low platelets impair hemostasis; bleeding precautions reduce hemorrhage risk. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "IM injections and trauma risk hematoma—near-miss. It is less consistent than the correct choice."
+        "D": "intramuscular injections and trauma risk hematoma—near-miss. It is less consistent than the correct choice."
       }
     }
   ]

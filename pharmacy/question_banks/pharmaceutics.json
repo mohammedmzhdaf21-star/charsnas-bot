@@ -4,7 +4,7 @@
       "id": "pharmaceutics:easy:0",
       "question": "Which of the following is true of noyes-Whitney dissolution?",
       "options": [
-        "A) High solubility and low permeability as the Class II definition",
+        "A) High solubility and low permeability as the Class 2 definition",
         "B) Micronization always decreases dissolution by lowering surface area",
         "C) Dissolution rate depends on surface area, diffusivity, and concentration gradient to saturation solubility",
         "D) Dissolution rate is independent of surface area and solubility"
@@ -20,72 +20,72 @@
     },
     {
       "id": "pharmaceutics:easy:1",
-      "question": "Which finding matches BCS Class I?",
+      "question": "Which finding matches Biopharmaceutics Classification System Class I?",
       "options": [
-        "A) Low solubility and high permeability as Class III",
+        "A) Low solubility and high permeability as Class 3",
         "B) Low solubility and low permeability by definition",
         "C) High solubility and high permeability; absorption usually not limited by dissolution if formulation adequate",
-        "D) High solubility and low permeability as the Class II definition"
+        "D) High solubility and low permeability as the Class 2 definition"
       ],
       "answer": "C) High solubility and high permeability; absorption usually not limited by dissolution if formulation adequate",
-      "explanation": "BCS I drugs often good oral candidates with fewer formulation barriers. Therefore, the most accurate choice is: High solubility and high permeability; absorption usually not limited by dissolution if formulation adequate. Class I is high/high, not low/low.",
+      "explanation": "Biopharmaceutics Classification System I drugs often good oral candidates with fewer formulation barriers. Therefore, the most accurate choice is: High solubility and high permeability; absorption usually not limited by dissolution if formulation adequate. Class I is high/high, not low/low.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Class I is high/high, not low/low. It is less consistent than the correct choice.",
-        "C": "BCS I drugs often good oral candidates with fewer formulation barriers. This matches the correct interpretation.",
+        "C": "Biopharmaceutics Classification System I drugs often good oral candidates with fewer formulation barriers. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmaceutics:easy:2",
-      "question": "Which statement regarding BCS Class II is correct?",
+      "question": "Which statement regarding Biopharmaceutics Classification System Class 2 is correct?",
       "options": [
-        "A) High solubility and low permeability as the Class II definition",
+        "A) High solubility and low permeability as the Class 2 definition",
         "B) Low solubility, high permeability; dissolution often rate-limiting for absorption",
         "C) Low solubility and low permeability by definition",
-        "D) High solubility and high permeability as Class IV"
+        "D) High solubility and high permeability as Class intravenous"
       ],
       "answer": "B) Low solubility, high permeability; dissolution often rate-limiting for absorption",
-      "explanation": "Enabling formulations aim to improve dissolution of BCS II drugs. Therefore, the most accurate choice is: Low solubility, high permeability; dissolution often rate-limiting for absorption. Class II is low solubility/high permeability.",
+      "explanation": "Enabling formulations aim to improve dissolution of Biopharmaceutics Classification System 2 drugs. Therefore, the most accurate choice is: Low solubility, high permeability; dissolution often rate-limiting for absorption. Class 2 is low solubility/high permeability.",
       "choice_explanations": {
-        "A": "Class II is low solubility/high permeability. It is less consistent than the correct choice.",
-        "B": "Enabling formulations aim to improve dissolution of BCS II drugs. This matches the correct interpretation.",
+        "A": "Class 2 is low solubility/high permeability. It is less consistent than the correct choice.",
+        "B": "Enabling formulations aim to improve dissolution of Biopharmaceutics Classification System 2 drugs. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmaceutics:easy:3",
-      "question": "In BCS Class III, which of the following is correct?",
+      "question": "In Biopharmaceutics Classification System Class 3, which of the following is correct?",
       "options": [
-        "A) Low solubility and high permeability as Class III",
+        "A) Low solubility and high permeability as Class 3",
         "B) Low solubility and low permeability by definition",
-        "C) High solubility and high permeability as Class IV",
+        "C) High solubility and high permeability as Class intravenous",
         "D) High solubility, low permeability; absorption limited by membrane permeation"
       ],
       "answer": "D) High solubility, low permeability; absorption limited by membrane permeation",
-      "explanation": "Permeability enhancers or alternative routes may be considered for Class III challenges. Therefore, the most accurate choice is: High solubility, low permeability; absorption limited by membrane permeation. Class III is high solubility/low permeability.",
+      "explanation": "Permeability enhancers or alternative routes may be considered for Class 3 challenges. Therefore, the most accurate choice is: High solubility, low permeability; absorption limited by membrane permeation. Class 3 is high solubility/low permeability.",
       "choice_explanations": {
-        "A": "Class III is high solubility/low permeability. It is less consistent than the correct choice.",
+        "A": "Class 3 is high solubility/low permeability. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Permeability enhancers or alternative routes may be considered for Class III challenges. This matches the correct interpretation."
+        "D": "Permeability enhancers or alternative routes may be considered for Class 3 challenges. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmaceutics:easy:4",
-      "question": "Which of the following best describes BCS Class IV?",
+      "question": "Which of the following best describes Biopharmaceutics Classification System Class intravenous?",
       "options": [
         "A) Low solubility and low permeability; most challenging oral absorption profile",
-        "B) High solubility and high permeability as Class IV",
-        "C) Low solubility and high permeability as Class III",
-        "D) High solubility and low permeability as the Class II definition"
+        "B) High solubility and high permeability as Class intravenous",
+        "C) Low solubility and high permeability as Class 3",
+        "D) High solubility and low permeability as the Class 2 definition"
       ],
       "answer": "A) Low solubility and low permeability; most challenging oral absorption profile",
-      "explanation": "Class IV drugs often need enabling technologies or nonoral routes. Therefore, the most accurate choice is: Low solubility and low permeability; most challenging oral absorption profile. Class IV is low/low, not high/high.",
+      "explanation": "Class intravenous drugs often need enabling technologies or nonoral routes. Therefore, the most accurate choice is: Low solubility and low permeability; most challenging oral absorption profile. Class intravenous is low/low, not high/high.",
       "choice_explanations": {
-        "A": "Class IV drugs often need enabling technologies or nonoral routes. This matches the correct interpretation.",
-        "B": "Class IV is low/low, not high/high. It is less consistent than the correct choice.",
+        "A": "Class intravenous drugs often need enabling technologies or nonoral routes. This matches the correct interpretation.",
+        "B": "Class intravenous is low/low, not high/high. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -118,11 +118,11 @@
         "D) pKa is unrelated to pH-dependent solubility of weak acids/bases"
       ],
       "answer": "C) Salt forms can modify solubility, dissolution, stability, and manufacturability of ionizable drugs",
-      "explanation": "Counterion choice is a core preformulation strategy for BCS II weak acids/bases. Therefore, the most accurate choice is: Salt forms can modify solubility, dissolution, stability, and manufacturability of ionizable drugs. Salt form commonly alters solubility and dissolution.",
+      "explanation": "Counterion choice is a core preformulation strategy for Biopharmaceutics Classification System 2 weak acids/bases. Therefore, the most accurate choice is: Salt forms can modify solubility, dissolution, stability, and manufacturability of ionizable drugs. Salt form commonly alters solubility and dissolution.",
       "choice_explanations": {
         "A": "Salt form commonly alters solubility and dissolution. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Counterion choice is a core preformulation strategy for BCS II weak acids/bases. This matches the correct interpretation.",
+        "C": "Counterion choice is a core preformulation strategy for Biopharmaceutics Classification System 2 weak acids/bases. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -169,7 +169,7 @@
         "A) Hygroscopicity only improves chemical stability of hydrolyzable drugs",
         "B) Moisture uptake can alter stability, flow, and hardness of solid dosage forms",
         "C) Freeze-thaw always improves emulsion and protein stability",
-        "D) Identical to assay of chemical purity by HPLC"
+        "D) Identical to assay of chemical purity by high-performance liquid chromatography"
       ],
       "answer": "B) Moisture uptake can alter stability, flow, and hardness of solid dosage forms",
       "explanation": "Water sorption can plasticize polymers and accelerate degradation pathways. Therefore, the most accurate choice is: Moisture uptake can alter stability, flow, and hardness of solid dosage forms. Moisture often harms, rather than helps, stability of sensitive drugs.",
@@ -331,7 +331,7 @@
         "A) Assures each dosage unit contains the labeled drug amount within pharmacopeial limits",
         "B) Only total bottle weight matters, not unit-to-unit drug content",
         "C) Wet granulation always destroys content uniformity intentionally",
-        "D) Vehicle never influences topical drug delivery if API amount is fixed"
+        "D) Vehicle never influences topical drug delivery if active pharmaceutical ingredient amount is fixed"
       ],
       "answer": "A) Assures each dosage unit contains the labeled drug amount within pharmacopeial limits",
       "explanation": "Critical for low-dose potent APIs prone to segregation. Therefore, the most accurate choice is: Assures each dosage unit contains the labeled drug amount within pharmacopeial limits. Unit potency uniformity is a core quality attribute.",
@@ -346,13 +346,13 @@
       "id": "pharmaceutics:easy:19",
       "question": "In clinical examination related to dissolution testing, which of the following is correct?",
       "options": [
-        "A) In vitro release test supporting quality and sometimes IVIVC for oral products",
+        "A) In vitro release test supporting quality and sometimes in vitro-in vivo correlation for oral products",
         "B) Dissolution tests measure only tablet color uniformity",
-        "C) IVIVC means dissolution tests replace all clinical studies forever for every IR product automatically",
+        "C) in vitro-in vivo correlation means dissolution tests replace all clinical studies forever for every insulin resistance product automatically",
         "D) Compaction force never affects granule quality attributes"
       ],
-      "answer": "A) In vitro release test supporting quality and sometimes IVIVC for oral products",
-      "explanation": "Apparatus, medium, and hydrodynamics must be specified and controlled. Therefore, the most accurate choice is: In vitro release test supporting quality and sometimes IVIVC for oral products. Dissolution assesses drug release, not color.",
+      "answer": "A) In vitro release test supporting quality and sometimes in vitro-in vivo correlation for oral products",
+      "explanation": "Apparatus, medium, and hydrodynamics must be specified and controlled. Therefore, the most accurate choice is: In vitro release test supporting quality and sometimes in vitro-in vivo correlation for oral products. Dissolution assesses drug release, not color.",
       "choice_explanations": {
         "A": "Apparatus, medium, and hydrodynamics must be specified and controlled. This matches the correct interpretation.",
         "B": "Dissolution assesses drug release, not color. It is less consistent than the correct choice.",
@@ -365,8 +365,8 @@
       "question": "Which of the following best describes disintegration test?",
       "options": [
         "A) Measures time for dosage unit to break into particles under specified conditions",
-        "B) Identical to assay of chemical purity by HPLC",
-        "C) Bioequivalence means identical inactive ingredients only, ignoring PK",
+        "B) Identical to assay of chemical purity by high-performance liquid chromatography",
+        "C) Bioequivalence means identical inactive ingredients only, ignoring pharmacokinetics",
         "D) Must have identical excipients in every case to be pharmaceutical equivalents"
       ],
       "answer": "A) Measures time for dosage unit to break into particles under specified conditions",
@@ -437,7 +437,7 @@
       "question": "Which of the following is true of sustained release matrix?",
       "options": [
         "A) Drug diffuses through or erodes from a matrix controlling release over time",
-        "B) Matrix SR systems always release the entire dose in under one minute by design",
+        "B) Matrix sustained release systems always release the entire dose in under one minute by design",
         "C) Membrane failure never changes release rate",
         "D) Implants always provide only minute-by-minute on/off control without depot effect"
       ],
@@ -452,12 +452,12 @@
     },
     {
       "id": "pharmaceutics:easy:25",
-      "question": "Which finding is expected in reservoir MR beads?",
+      "question": "Which finding is expected in reservoir mitral regurgitation beads?",
       "options": [
         "A) Release depends only on stomach grinding forces without osmosis",
         "B) Rate-controlling membrane around drug core modulates release; dose-dumping risk if coat fails",
         "C) Membrane failure never changes release rate",
-        "D) Matrix SR systems always release the entire dose in under one minute by design"
+        "D) Matrix sustained release systems always release the entire dose in under one minute by design"
       ],
       "answer": "B) Rate-controlling membrane around drug core modulates release; dose-dumping risk if coat fails",
       "explanation": "Alcohol or coat damage can cause dangerous rapid release of some products. Therefore, the most accurate choice is: Rate-controlling membrane around drug core modulates release; dose-dumping risk if coat fails. Compromised membranes can dose-dump.",
@@ -488,19 +488,19 @@
     },
     {
       "id": "pharmaceutics:easy:27",
-      "question": "In IVIVC, which of the following is correct?",
+      "question": "In in vitro-in vivo correlation, which of the following is correct?",
       "options": [
         "A) Dissolution tests measure only tablet color uniformity",
-        "B) Bioequivalence means identical inactive ingredients only, ignoring PK",
-        "C) IVIVC means dissolution tests replace all clinical studies forever for every IR product automatically",
+        "B) Bioequivalence means identical inactive ingredients only, ignoring pharmacokinetics",
+        "C) in vitro-in vivo correlation means dissolution tests replace all clinical studies forever for every insulin resistance product automatically",
         "D) In vitro dissolution correlates with in vivo absorption for some extended-release products"
       ],
       "answer": "D) In vitro dissolution correlates with in vivo absorption for some extended-release products",
-      "explanation": "Meaningful correlations support biowaivers/specifications in suitable cases. Therefore, the most accurate choice is: In vitro dissolution correlates with in vivo absorption for some extended-release products. IVIVC is not a universal substitute for all clinical data on all products.",
+      "explanation": "Meaningful correlations support biowaivers/specifications in suitable cases. Therefore, the most accurate choice is: In vitro dissolution correlates with in vivo absorption for some extended-release products. in vitro-in vivo correlation is not a universal substitute for all clinical data on all products.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "IVIVC is not a universal substitute for all clinical data on all products. It is less consistent than the correct choice.",
+        "C": "in vitro-in vivo correlation is not a universal substitute for all clinical data on all products. It is less consistent than the correct choice.",
         "D": "Meaningful correlations support biowaivers/specifications in suitable cases. This matches the correct interpretation."
       }
     },
@@ -510,15 +510,15 @@
       "options": [
         "A) Test product matches reference in rate and extent of absorption within regulatory limits",
         "B) Membrane failure never changes release rate",
-        "C) Bioequivalence means identical inactive ingredients only, ignoring PK",
-        "D) IVIVC means dissolution tests replace all clinical studies forever for every IR product automatically"
+        "C) Bioequivalence means identical inactive ingredients only, ignoring pharmacokinetics",
+        "D) in vitro-in vivo correlation means dissolution tests replace all clinical studies forever for every insulin resistance product automatically"
       ],
       "answer": "A) Test product matches reference in rate and extent of absorption within regulatory limits",
-      "explanation": "AUC and Cmax comparisons are core BE metrics for many products. Therefore, the most accurate choice is: Test product matches reference in rate and extent of absorption within regulatory limits. BE is a pharmacokinetic performance comparison, not just formula match.",
+      "explanation": "area under the curve and Cmax comparisons are core bioequivalence metrics for many products. Therefore, the most accurate choice is: Test product matches reference in rate and extent of absorption within regulatory limits. bioequivalence is a pharmacokinetic performance comparison, not just formula match.",
       "choice_explanations": {
-        "A": "AUC and Cmax comparisons are core BE metrics for many products. This matches the correct interpretation.",
+        "A": "area under the curve and Cmax comparisons are core bioequivalence metrics for many products. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "BE is a pharmacokinetic performance comparison, not just formula match. It is less consistent than the correct choice.",
+        "C": "bioequivalence is a pharmacokinetic performance comparison, not just formula match. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -529,25 +529,25 @@
         "A) All polymorphs always have identical solubility and dissolution",
         "B) Must have identical excipients in every case to be pharmaceutical equivalents",
         "C) All drugs achieve identical transdermal bioavailability regardless of properties",
-        "D) Same API, strength, dosage form, route, and standards but possibly different excipients"
+        "D) Same active pharmaceutical ingredient, strength, dosage form, route, and standards but possibly different excipients"
       ],
-      "answer": "D) Same API, strength, dosage form, route, and standards but possibly different excipients",
-      "explanation": "Therapeutic equivalence additionally requires BE and other codes (e.g., Orange Book). Therefore, the most accurate choice is: Same API, strength, dosage form, route, and standards but possibly different excipients. Excipients may differ among pharmaceutical equivalents.",
+      "answer": "D) Same active pharmaceutical ingredient, strength, dosage form, route, and standards but possibly different excipients",
+      "explanation": "Therapeutic equivalence additionally requires bioequivalence and other codes (e.g., Orange Book). Therefore, the most accurate choice is: Same active pharmaceutical ingredient, strength, dosage form, route, and standards but possibly different excipients. Excipients may differ among pharmaceutical equivalents.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Excipients may differ among pharmaceutical equivalents. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Therapeutic equivalence additionally requires BE and other codes (e.g., Orange Book). This matches the correct interpretation."
+        "D": "Therapeutic equivalence additionally requires bioequivalence and other codes (e.g., Orange Book). This matches the correct interpretation."
       }
     }
   ],
   "medium": [
     {
       "id": "pharmaceutics:medium:0",
-      "question": "A 55-year-old woman is started on treatment related to noyes-Whitney dissolution. Which of the following is correct?",
+      "question": "A 69-year-old man is started on treatment related to noyes-Whitney dissolution. Which of the following is correct?",
       "options": [
         "A) Dissolution rate depends on surface area, diffusivity, and concentration gradient to saturation solubility",
-        "B) High solubility and low permeability as the Class II definition",
+        "B) High solubility and low permeability as the Class 2 definition",
         "C) Micronization always decreases dissolution by lowering surface area",
         "D) Dissolution rate is independent of surface area and solubility"
       ],
@@ -562,73 +562,73 @@
     },
     {
       "id": "pharmaceutics:medium:1",
-      "question": "While evaluating a 55-year-old man, attention turns to BCS Class I. Which of the following is most accurate?",
+      "question": "While evaluating a 69-year-old woman, attention turns to Biopharmaceutics Classification System Class I. Which of the following is most accurate?",
       "options": [
-        "A) High solubility and high permeability as Class IV",
+        "A) High solubility and high permeability as Class intravenous",
         "B) High solubility and high permeability; absorption usually not limited by dissolution if formulation adequate",
         "C) Low solubility and low permeability by definition",
-        "D) High solubility and low permeability as the Class II definition"
+        "D) High solubility and low permeability as the Class 2 definition"
       ],
       "answer": "B) High solubility and high permeability; absorption usually not limited by dissolution if formulation adequate",
-      "explanation": "BCS I drugs often good oral candidates with fewer formulation barriers. Therefore, the most accurate choice is: High solubility and high permeability; absorption usually not limited by dissolution if formulation adequate. Class I is high/high, not low/low.",
+      "explanation": "Biopharmaceutics Classification System I drugs often good oral candidates with fewer formulation barriers. Therefore, the most accurate choice is: High solubility and high permeability; absorption usually not limited by dissolution if formulation adequate. Class I is high/high, not low/low.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "BCS I drugs often good oral candidates with fewer formulation barriers. This matches the correct interpretation.",
+        "B": "Biopharmaceutics Classification System I drugs often good oral candidates with fewer formulation barriers. This matches the correct interpretation.",
         "C": "Class I is high/high, not low/low. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmaceutics:medium:2",
-      "question": "A 42-year-old man has findings requiring interpretation of BCS Class II. Which of the following is correct?",
+      "question": "A 56-year-old woman has findings requiring interpretation of Biopharmaceutics Classification System Class 2. Which of the following is correct?",
       "options": [
         "A) Low solubility, high permeability; dissolution often rate-limiting for absorption",
-        "B) High solubility and high permeability as Class IV",
+        "B) High solubility and high permeability as Class intravenous",
         "C) Low solubility and low permeability by definition",
-        "D) High solubility and low permeability as the Class II definition"
+        "D) High solubility and low permeability as the Class 2 definition"
       ],
       "answer": "A) Low solubility, high permeability; dissolution often rate-limiting for absorption",
-      "explanation": "Enabling formulations aim to improve dissolution of BCS II drugs. Therefore, the most accurate choice is: Low solubility, high permeability; dissolution often rate-limiting for absorption. Class II is low solubility/high permeability.",
+      "explanation": "Enabling formulations aim to improve dissolution of Biopharmaceutics Classification System 2 drugs. Therefore, the most accurate choice is: Low solubility, high permeability; dissolution often rate-limiting for absorption. Class 2 is low solubility/high permeability.",
       "choice_explanations": {
-        "A": "Enabling formulations aim to improve dissolution of BCS II drugs. This matches the correct interpretation.",
+        "A": "Enabling formulations aim to improve dissolution of Biopharmaceutics Classification System 2 drugs. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Class II is low solubility/high permeability. It is less consistent than the correct choice."
+        "D": "Class 2 is low solubility/high permeability. It is less consistent than the correct choice."
       }
     },
     {
       "id": "pharmaceutics:medium:3",
-      "question": "A 70-year-old man develops an adverse effect related to BCS Class III. Which of the following best explains it?",
+      "question": "A 43-year-old woman develops an adverse effect related to Biopharmaceutics Classification System Class 3. Which of the following best explains it?",
       "options": [
-        "A) Low solubility and high permeability as Class III",
+        "A) Low solubility and high permeability as Class 3",
         "B) Low solubility and low permeability by definition",
-        "C) High solubility and low permeability as the Class II definition",
+        "C) High solubility and low permeability as the Class 2 definition",
         "D) High solubility, low permeability; absorption limited by membrane permeation"
       ],
       "answer": "D) High solubility, low permeability; absorption limited by membrane permeation",
-      "explanation": "Permeability enhancers or alternative routes may be considered for Class III challenges. Therefore, the most accurate choice is: High solubility, low permeability; absorption limited by membrane permeation. Class III is high solubility/low permeability.",
+      "explanation": "Permeability enhancers or alternative routes may be considered for Class 3 challenges. Therefore, the most accurate choice is: High solubility, low permeability; absorption limited by membrane permeation. Class 3 is high solubility/low permeability.",
       "choice_explanations": {
-        "A": "Class III is high solubility/low permeability. It is less consistent than the correct choice.",
+        "A": "Class 3 is high solubility/low permeability. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Permeability enhancers or alternative routes may be considered for Class III challenges. This matches the correct interpretation."
+        "D": "Permeability enhancers or alternative routes may be considered for Class 3 challenges. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmaceutics:medium:4",
-      "question": "A 56-year-old man needs counseling about BCS Class IV. Which of the following is most appropriate?",
+      "question": "A 70-year-old woman needs counseling about Biopharmaceutics Classification System Class intravenous. Which of the following is most appropriate?",
       "options": [
-        "A) High solubility and high permeability as Class IV",
-        "B) High solubility and low permeability as the Class II definition",
+        "A) High solubility and high permeability as Class intravenous",
+        "B) High solubility and low permeability as the Class 2 definition",
         "C) Low solubility and low permeability; most challenging oral absorption profile",
         "D) Low solubility and low permeability by definition"
       ],
       "answer": "C) Low solubility and low permeability; most challenging oral absorption profile",
-      "explanation": "Class IV drugs often need enabling technologies or nonoral routes. Therefore, the most accurate choice is: Low solubility and low permeability; most challenging oral absorption profile. Class IV is low/low, not high/high.",
+      "explanation": "Class intravenous drugs often need enabling technologies or nonoral routes. Therefore, the most accurate choice is: Low solubility and low permeability; most challenging oral absorption profile. Class intravenous is low/low, not high/high.",
       "choice_explanations": {
-        "A": "Class IV is low/low, not high/high. It is less consistent than the correct choice.",
+        "A": "Class intravenous is low/low, not high/high. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Class IV drugs often need enabling technologies or nonoral routes. This matches the correct interpretation.",
+        "C": "Class intravenous drugs often need enabling technologies or nonoral routes. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -652,7 +652,7 @@
     },
     {
       "id": "pharmaceutics:medium:6",
-      "question": "A 30-year-old man needs dose adjustment related to salt selection. Which of the following is most accurate?",
+      "question": "A 44-year-old woman needs dose adjustment related to salt selection. Which of the following is most accurate?",
       "options": [
         "A) pKa is unrelated to pH-dependent solubility of weak acids/bases",
         "B) Salt form never affects solubility of an ionizable drug",
@@ -660,17 +660,17 @@
         "D) Salt forms can modify solubility, dissolution, stability, and manufacturability of ionizable drugs"
       ],
       "answer": "D) Salt forms can modify solubility, dissolution, stability, and manufacturability of ionizable drugs",
-      "explanation": "Counterion choice is a core preformulation strategy for BCS II weak acids/bases. Therefore, the most accurate choice is: Salt forms can modify solubility, dissolution, stability, and manufacturability of ionizable drugs. Salt form commonly alters solubility and dissolution.",
+      "explanation": "Counterion choice is a core preformulation strategy for Biopharmaceutics Classification System 2 weak acids/bases. Therefore, the most accurate choice is: Salt forms can modify solubility, dissolution, stability, and manufacturability of ionizable drugs. Salt form commonly alters solubility and dissolution.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Salt form commonly alters solubility and dissolution. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Counterion choice is a core preformulation strategy for BCS II weak acids/bases. This matches the correct interpretation."
+        "D": "Counterion choice is a core preformulation strategy for Biopharmaceutics Classification System 2 weak acids/bases. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmaceutics:medium:7",
-      "question": "A 35-year-old woman has lab changes linked to polymorphs. Which of the following is correct?",
+      "question": "A 49-year-old man has lab changes linked to polymorphs. Which of the following is correct?",
       "options": [
         "A) Different crystal forms of the same drug can differ in solubility, melting point, and stability",
         "B) Salt form never affects solubility of an ionizable drug",
@@ -688,7 +688,7 @@
     },
     {
       "id": "pharmaceutics:medium:8",
-      "question": "A 30-year-old woman is started on treatment related to amorphous solid dispersions. Which of the following is correct?",
+      "question": "A 44-year-old man is started on treatment related to amorphous solid dispersions. Which of the following is correct?",
       "options": [
         "A) Amorphous dispersions always decrease dissolution versus crystalline drug",
         "B) Salt form never affects solubility of an ionizable drug",
@@ -706,12 +706,12 @@
     },
     {
       "id": "pharmaceutics:medium:9",
-      "question": "A 51-year-old woman takes several medicines and is assessed regarding hygroscopicity. Which of the following is most appropriate?",
+      "question": "A 65-year-old man takes several medicines and is assessed regarding hygroscopicity. Which of the following is most appropriate?",
       "options": [
         "A) Antioxidants always catalyze oxidation of drugs",
         "B) Hygroscopicity only improves chemical stability of hydrolyzable drugs",
         "C) Moisture uptake can alter stability, flow, and hardness of solid dosage forms",
-        "D) Identical to assay of chemical purity by HPLC"
+        "D) Identical to assay of chemical purity by high-performance liquid chromatography"
       ],
       "answer": "C) Moisture uptake can alter stability, flow, and hardness of solid dosage forms",
       "explanation": "Water sorption can plasticize polymers and accelerate degradation pathways. Therefore, the most accurate choice is: Moisture uptake can alter stability, flow, and hardness of solid dosage forms. Moisture often harms, rather than helps, stability of sensitive drugs.",
@@ -742,7 +742,7 @@
     },
     {
       "id": "pharmaceutics:medium:11",
-      "question": "A 44-year-old man develops an adverse effect related to disintegrants. Which of the following best explains it?",
+      "question": "A 58-year-old woman develops an adverse effect related to disintegrants. Which of the following best explains it?",
       "options": [
         "A) Promote breakup of tablets by swelling, wicking, or deformation in aqueous media",
         "B) Dissolution rate is independent of surface area and solubility",
@@ -760,7 +760,7 @@
     },
     {
       "id": "pharmaceutics:medium:12",
-      "question": "A 70-year-old man needs counseling about lubricants. Which of the following is most appropriate?",
+      "question": "A 43-year-old woman needs counseling about lubricants. Which of the following is most appropriate?",
       "options": [
         "A) Plasticizers always make films more brittle and crack-prone by design",
         "B) Lubricants are always added in high amounts to speed dissolution",
@@ -796,7 +796,7 @@
     },
     {
       "id": "pharmaceutics:medium:14",
-      "question": "A 42-year-old man needs dose adjustment related to glidants. Which of the following is most accurate?",
+      "question": "A 56-year-old woman needs dose adjustment related to glidants. Which of the following is most accurate?",
       "options": [
         "A) Wet granulation always destroys content uniformity intentionally",
         "B) Improve powder flow by reducing interparticle friction (e.g., colloidal silica)",
@@ -814,7 +814,7 @@
     },
     {
       "id": "pharmaceutics:medium:15",
-      "question": "A 54-year-old woman has lab changes linked to direct compression. Which of the following is correct?",
+      "question": "A 68-year-old man has lab changes linked to direct compression. Which of the following is correct?",
       "options": [
         "A) Hygroscopicity only improves chemical stability of hydrolyzable drugs",
         "B) Compresses powder blends without wet granulation when flow and compressibility allow",
@@ -832,7 +832,7 @@
     },
     {
       "id": "pharmaceutics:medium:16",
-      "question": "A 39-year-old woman is started on treatment related to wet granulation. Which of the following is correct?",
+      "question": "A 53-year-old man is started on treatment related to wet granulation. Which of the following is correct?",
       "options": [
         "A) Wet granulation always destroys content uniformity intentionally",
         "B) Once blended, powders never segregate during transfer",
@@ -850,7 +850,7 @@
     },
     {
       "id": "pharmaceutics:medium:17",
-      "question": "A 46-year-old man takes several medicines and is assessed regarding dry granulation. Which of the following is most appropriate?",
+      "question": "A 60-year-old woman takes several medicines and is assessed regarding dry granulation. Which of the following is most appropriate?",
       "options": [
         "A) Wet granulation always destroys content uniformity intentionally",
         "B) Softgels can only contain compressed dry powder plugs identical to tablets",
@@ -871,7 +871,7 @@
       "question": "Medication review raises a question about content uniformity. Which of the following is correct?",
       "options": [
         "A) Assures each dosage unit contains the labeled drug amount within pharmacopeial limits",
-        "B) Matrix SR systems always release the entire dose in under one minute by design",
+        "B) Matrix sustained release systems always release the entire dose in under one minute by design",
         "C) Wet granulation always destroys content uniformity intentionally",
         "D) Only total bottle weight matters, not unit-to-unit drug content"
       ],
@@ -886,15 +886,15 @@
     },
     {
       "id": "pharmaceutics:medium:19",
-      "question": "In a 62-year-old man, which statement about dissolution testing is correct?",
+      "question": "In a 35-year-old woman, which statement about dissolution testing is correct?",
       "options": [
         "A) Dissolution tests measure only tablet color uniformity",
-        "B) IVIVC means dissolution tests replace all clinical studies forever for every IR product automatically",
+        "B) in vitro-in vivo correlation means dissolution tests replace all clinical studies forever for every insulin resistance product automatically",
         "C) Release testing is irrelevant for depot injections",
-        "D) In vitro release test supporting quality and sometimes IVIVC for oral products"
+        "D) In vitro release test supporting quality and sometimes in vitro-in vivo correlation for oral products"
       ],
-      "answer": "D) In vitro release test supporting quality and sometimes IVIVC for oral products",
-      "explanation": "Apparatus, medium, and hydrodynamics must be specified and controlled. Therefore, the most accurate choice is: In vitro release test supporting quality and sometimes IVIVC for oral products. Dissolution assesses drug release, not color.",
+      "answer": "D) In vitro release test supporting quality and sometimes in vitro-in vivo correlation for oral products",
+      "explanation": "Apparatus, medium, and hydrodynamics must be specified and controlled. Therefore, the most accurate choice is: In vitro release test supporting quality and sometimes in vitro-in vivo correlation for oral products. Dissolution assesses drug release, not color.",
       "choice_explanations": {
         "A": "Dissolution assesses drug release, not color. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -908,8 +908,8 @@
       "options": [
         "A) Must have identical excipients in every case to be pharmaceutical equivalents",
         "B) Measures time for dosage unit to break into particles under specified conditions",
-        "C) Bioequivalence means identical inactive ingredients only, ignoring PK",
-        "D) Identical to assay of chemical purity by HPLC"
+        "C) Bioequivalence means identical inactive ingredients only, ignoring pharmacokinetics",
+        "D) Identical to assay of chemical purity by high-performance liquid chromatography"
       ],
       "answer": "B) Measures time for dosage unit to break into particles under specified conditions",
       "explanation": "Disintegration is necessary but not sufficient for dissolution/absorption. Therefore, the most accurate choice is: Measures time for dosage unit to break into particles under specified conditions. It is a physical breakup test, not a purity assay.",
@@ -940,7 +940,7 @@
     },
     {
       "id": "pharmaceutics:medium:22",
-      "question": "A 57-year-old man needs dose adjustment related to softgels. Which of the following is most accurate?",
+      "question": "A 30-year-old woman needs dose adjustment related to softgels. Which of the following is most accurate?",
       "options": [
         "A) Softgels can only contain compressed dry powder plugs identical to tablets",
         "B) Cosolvents always decrease solubility of lipophilic drugs in water mixtures",
@@ -958,7 +958,7 @@
     },
     {
       "id": "pharmaceutics:medium:23",
-      "question": "A 47-year-old man has lab changes linked to enteric coating. Which of the following is correct?",
+      "question": "A 61-year-old woman has lab changes linked to enteric coating. Which of the following is correct?",
       "options": [
         "A) Enteric coats are designed to dissolve instantly in stomach acid",
         "B) Effervescence is designed to prevent tablet dispersion in water",
@@ -976,10 +976,10 @@
     },
     {
       "id": "pharmaceutics:medium:24",
-      "question": "A 38-year-old man is started on treatment related to sustained release matrix. Which of the following is correct?",
+      "question": "A 52-year-old woman is started on treatment related to sustained release matrix. Which of the following is correct?",
       "options": [
         "A) Implants always provide only minute-by-minute on/off control without depot effect",
-        "B) Matrix SR systems always release the entire dose in under one minute by design",
+        "B) Matrix sustained release systems always release the entire dose in under one minute by design",
         "C) Membrane failure never changes release rate",
         "D) Drug diffuses through or erodes from a matrix controlling release over time"
       ],
@@ -994,11 +994,11 @@
     },
     {
       "id": "pharmaceutics:medium:25",
-      "question": "A 42-year-old woman takes several medicines and is assessed regarding reservoir MR beads. Which of the following is most appropriate?",
+      "question": "A 56-year-old man takes several medicines and is assessed regarding reservoir mitral regurgitation beads. Which of the following is most appropriate?",
       "options": [
         "A) Membrane failure never changes release rate",
         "B) Release depends only on stomach grinding forces without osmosis",
-        "C) Matrix SR systems always release the entire dose in under one minute by design",
+        "C) Matrix sustained release systems always release the entire dose in under one minute by design",
         "D) Rate-controlling membrane around drug core modulates release; dose-dumping risk if coat fails"
       ],
       "answer": "D) Rate-controlling membrane around drug core modulates release; dose-dumping risk if coat fails",
@@ -1030,38 +1030,38 @@
     },
     {
       "id": "pharmaceutics:medium:27",
-      "question": "A 70-year-old man develops an adverse effect related to IVIVC. Which of the following best explains it?",
+      "question": "A 43-year-old woman develops an adverse effect related to in vitro-in vivo correlation. Which of the following best explains it?",
       "options": [
         "A) In vitro dissolution correlates with in vivo absorption for some extended-release products",
         "B) Dissolution tests measure only tablet color uniformity",
-        "C) IVIVC means dissolution tests replace all clinical studies forever for every IR product automatically",
-        "D) Bioequivalence means identical inactive ingredients only, ignoring PK"
+        "C) in vitro-in vivo correlation means dissolution tests replace all clinical studies forever for every insulin resistance product automatically",
+        "D) Bioequivalence means identical inactive ingredients only, ignoring pharmacokinetics"
       ],
       "answer": "A) In vitro dissolution correlates with in vivo absorption for some extended-release products",
-      "explanation": "Meaningful correlations support biowaivers/specifications in suitable cases. Therefore, the most accurate choice is: In vitro dissolution correlates with in vivo absorption for some extended-release products. IVIVC is not a universal substitute for all clinical data on all products.",
+      "explanation": "Meaningful correlations support biowaivers/specifications in suitable cases. Therefore, the most accurate choice is: In vitro dissolution correlates with in vivo absorption for some extended-release products. in vitro-in vivo correlation is not a universal substitute for all clinical data on all products.",
       "choice_explanations": {
         "A": "Meaningful correlations support biowaivers/specifications in suitable cases. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "IVIVC is not a universal substitute for all clinical data on all products. It is less consistent than the correct choice.",
+        "C": "in vitro-in vivo correlation is not a universal substitute for all clinical data on all products. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmaceutics:medium:28",
-      "question": "A 61-year-old man needs counseling about bioequivalence. Which of the following is most appropriate?",
+      "question": "A 34-year-old woman needs counseling about bioequivalence. Which of the following is most appropriate?",
       "options": [
         "A) Test product matches reference in rate and extent of absorption within regulatory limits",
         "B) Membrane failure never changes release rate",
-        "C) IVIVC means dissolution tests replace all clinical studies forever for every IR product automatically",
-        "D) Bioequivalence means identical inactive ingredients only, ignoring PK"
+        "C) in vitro-in vivo correlation means dissolution tests replace all clinical studies forever for every insulin resistance product automatically",
+        "D) Bioequivalence means identical inactive ingredients only, ignoring pharmacokinetics"
       ],
       "answer": "A) Test product matches reference in rate and extent of absorption within regulatory limits",
-      "explanation": "AUC and Cmax comparisons are core BE metrics for many products. Therefore, the most accurate choice is: Test product matches reference in rate and extent of absorption within regulatory limits. BE is a pharmacokinetic performance comparison, not just formula match.",
+      "explanation": "area under the curve and Cmax comparisons are core bioequivalence metrics for many products. Therefore, the most accurate choice is: Test product matches reference in rate and extent of absorption within regulatory limits. bioequivalence is a pharmacokinetic performance comparison, not just formula match.",
       "choice_explanations": {
-        "A": "AUC and Cmax comparisons are core BE metrics for many products. This matches the correct interpretation.",
+        "A": "area under the curve and Cmax comparisons are core bioequivalence metrics for many products. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "BE is a pharmacokinetic performance comparison, not just formula match. It is less consistent than the correct choice."
+        "D": "bioequivalence is a pharmacokinetic performance comparison, not just formula match. It is less consistent than the correct choice."
       }
     },
     {
@@ -1070,15 +1070,15 @@
       "options": [
         "A) All polymorphs always have identical solubility and dissolution",
         "B) Must have identical excipients in every case to be pharmaceutical equivalents",
-        "C) Same API, strength, dosage form, route, and standards but possibly different excipients",
+        "C) Same active pharmaceutical ingredient, strength, dosage form, route, and standards but possibly different excipients",
         "D) Excipients never chemically interact with APIs"
       ],
-      "answer": "C) Same API, strength, dosage form, route, and standards but possibly different excipients",
-      "explanation": "Therapeutic equivalence additionally requires BE and other codes (e.g., Orange Book). Therefore, the most accurate choice is: Same API, strength, dosage form, route, and standards but possibly different excipients. Excipients may differ among pharmaceutical equivalents.",
+      "answer": "C) Same active pharmaceutical ingredient, strength, dosage form, route, and standards but possibly different excipients",
+      "explanation": "Therapeutic equivalence additionally requires bioequivalence and other codes (e.g., Orange Book). Therefore, the most accurate choice is: Same active pharmaceutical ingredient, strength, dosage form, route, and standards but possibly different excipients. Excipients may differ among pharmaceutical equivalents.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Excipients may differ among pharmaceutical equivalents. It is less consistent than the correct choice.",
-        "C": "Therapeutic equivalence additionally requires BE and other codes (e.g., Orange Book). This matches the correct interpretation.",
+        "C": "Therapeutic equivalence additionally requires bioequivalence and other codes (e.g., Orange Book). This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     }
@@ -1086,9 +1086,9 @@
   "hard": [
     {
       "id": "pharmaceutics:hard:0",
-      "question": "A 55-year-old woman is evaluated for possible noyes-Whitney dissolution. Which of the following is most accurate?",
+      "question": "A 69-year-old man is evaluated for possible noyes-Whitney dissolution. Which of the following is most accurate?",
       "options": [
-        "A) High solubility and low permeability as the Class II definition",
+        "A) High solubility and low permeability as the Class 2 definition",
         "B) Micronization always decreases dissolution by lowering surface area",
         "C) Dissolution rate depends on surface area, diffusivity, and concentration gradient to saturation solubility",
         "D) Dissolution rate is independent of surface area and solubility"
@@ -1104,79 +1104,79 @@
     },
     {
       "id": "pharmaceutics:hard:1",
-      "question": "Two similar explanations for BCS Class I are compared. Which of the following is correct?",
+      "question": "Two similar explanations for Biopharmaceutics Classification System Class I are compared. Which of the following is correct?",
       "options": [
         "A) Low solubility and low permeability by definition",
-        "B) Low solubility and high permeability as Class III",
-        "C) High solubility and low permeability as the Class II definition",
+        "B) Low solubility and high permeability as Class 3",
+        "C) High solubility and low permeability as the Class 2 definition",
         "D) High solubility and high permeability; absorption usually not limited by dissolution if formulation adequate"
       ],
       "answer": "D) High solubility and high permeability; absorption usually not limited by dissolution if formulation adequate",
-      "explanation": "BCS I drugs often good oral candidates with fewer formulation barriers. Therefore, the most accurate choice is: High solubility and high permeability; absorption usually not limited by dissolution if formulation adequate. Class I is high/high, not low/low.",
+      "explanation": "Biopharmaceutics Classification System I drugs often good oral candidates with fewer formulation barriers. Therefore, the most accurate choice is: High solubility and high permeability; absorption usually not limited by dissolution if formulation adequate. Class I is high/high, not low/low.",
       "choice_explanations": {
         "A": "Class I is high/high, not low/low. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "BCS I drugs often good oral candidates with fewer formulation barriers. This matches the correct interpretation."
+        "D": "Biopharmaceutics Classification System I drugs often good oral candidates with fewer formulation barriers. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmaceutics:hard:2",
-      "question": "In a detailed discussion of BCS Class II, which of the following is most accurate?",
+      "question": "In a detailed discussion of Biopharmaceutics Classification System Class 2, which of the following is most accurate?",
       "options": [
-        "A) High solubility and low permeability as the Class II definition",
+        "A) High solubility and low permeability as the Class 2 definition",
         "B) Low solubility and low permeability by definition",
         "C) Low solubility, high permeability; dissolution often rate-limiting for absorption",
-        "D) High solubility and high permeability as Class IV"
+        "D) High solubility and high permeability as Class intravenous"
       ],
       "answer": "C) Low solubility, high permeability; dissolution often rate-limiting for absorption",
-      "explanation": "Enabling formulations aim to improve dissolution of BCS II drugs. Therefore, the most accurate choice is: Low solubility, high permeability; dissolution often rate-limiting for absorption. Class II is low solubility/high permeability.",
+      "explanation": "Enabling formulations aim to improve dissolution of Biopharmaceutics Classification System 2 drugs. Therefore, the most accurate choice is: Low solubility, high permeability; dissolution often rate-limiting for absorption. Class 2 is low solubility/high permeability.",
       "choice_explanations": {
-        "A": "Class II is low solubility/high permeability. It is less consistent than the correct choice.",
+        "A": "Class 2 is low solubility/high permeability. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Enabling formulations aim to improve dissolution of BCS II drugs. This matches the correct interpretation.",
+        "C": "Enabling formulations aim to improve dissolution of Biopharmaceutics Classification System 2 drugs. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmaceutics:hard:3",
-      "question": "A 70-year-old man returns for review of suspected BCS Class III. Which of the following is most accurate?",
+      "question": "A 43-year-old woman returns for review of suspected Biopharmaceutics Classification System Class 3. Which of the following is most accurate?",
       "options": [
         "A) High solubility, low permeability; absorption limited by membrane permeation",
-        "B) High solubility and high permeability as Class IV",
-        "C) Low solubility and high permeability as Class III",
+        "B) High solubility and high permeability as Class intravenous",
+        "C) Low solubility and high permeability as Class 3",
         "D) Low solubility and low permeability by definition"
       ],
       "answer": "A) High solubility, low permeability; absorption limited by membrane permeation",
-      "explanation": "Permeability enhancers or alternative routes may be considered for Class III challenges. Therefore, the most accurate choice is: High solubility, low permeability; absorption limited by membrane permeation. Class III is high solubility/low permeability.",
+      "explanation": "Permeability enhancers or alternative routes may be considered for Class 3 challenges. Therefore, the most accurate choice is: High solubility, low permeability; absorption limited by membrane permeation. Class 3 is high solubility/low permeability.",
       "choice_explanations": {
-        "A": "Permeability enhancers or alternative routes may be considered for Class III challenges. This matches the correct interpretation.",
+        "A": "Permeability enhancers or alternative routes may be considered for Class 3 challenges. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Class III is high solubility/low permeability. It is less consistent than the correct choice.",
+        "C": "Class 3 is high solubility/low permeability. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmaceutics:hard:4",
-      "question": "A clinic case of BCS Class IV is discussed. Which of the following is correct?",
+      "question": "A clinic case of Biopharmaceutics Classification System Class intravenous is discussed. Which of the following is correct?",
       "options": [
         "A) Low solubility and low permeability; most challenging oral absorption profile",
-        "B) High solubility and high permeability as Class IV",
+        "B) High solubility and high permeability as Class intravenous",
         "C) Low solubility and low permeability by definition",
-        "D) High solubility and low permeability as the Class II definition"
+        "D) High solubility and low permeability as the Class 2 definition"
       ],
       "answer": "A) Low solubility and low permeability; most challenging oral absorption profile",
-      "explanation": "Class IV drugs often need enabling technologies or nonoral routes. Therefore, the most accurate choice is: Low solubility and low permeability; most challenging oral absorption profile. Class IV is low/low, not high/high.",
+      "explanation": "Class intravenous drugs often need enabling technologies or nonoral routes. Therefore, the most accurate choice is: Low solubility and low permeability; most challenging oral absorption profile. Class intravenous is low/low, not high/high.",
       "choice_explanations": {
-        "A": "Class IV drugs often need enabling technologies or nonoral routes. This matches the correct interpretation.",
-        "B": "Class IV is low/low, not high/high. It is less consistent than the correct choice.",
+        "A": "Class intravenous drugs often need enabling technologies or nonoral routes. This matches the correct interpretation.",
+        "B": "Class intravenous is low/low, not high/high. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmaceutics:hard:5",
-      "question": "A 43-year-old man presents with features compatible with micronization. Which of the following is most accurate?",
+      "question": "A 57-year-old woman presents with features compatible with micronization. Which of the following is most accurate?",
       "options": [
         "A) Cosolvents always decrease solubility of lipophilic drugs in water mixtures",
         "B) Increasing surface area by particle size reduction can accelerate dissolution of poorly soluble drugs",
@@ -1194,7 +1194,7 @@
     },
     {
       "id": "pharmaceutics:hard:6",
-      "question": "Which statement about salt selection in a 30-year-old man is most accurate?",
+      "question": "Which statement about salt selection in a 44-year-old woman is most accurate?",
       "options": [
         "A) Salt forms can modify solubility, dissolution, stability, and manufacturability of ionizable drugs",
         "B) Salt form never affects solubility of an ionizable drug",
@@ -1202,9 +1202,9 @@
         "D) All polymorphs always have identical solubility and dissolution"
       ],
       "answer": "A) Salt forms can modify solubility, dissolution, stability, and manufacturability of ionizable drugs",
-      "explanation": "Counterion choice is a core preformulation strategy for BCS II weak acids/bases. Therefore, the most accurate choice is: Salt forms can modify solubility, dissolution, stability, and manufacturability of ionizable drugs. Salt form commonly alters solubility and dissolution.",
+      "explanation": "Counterion choice is a core preformulation strategy for Biopharmaceutics Classification System 2 weak acids/bases. Therefore, the most accurate choice is: Salt forms can modify solubility, dissolution, stability, and manufacturability of ionizable drugs. Salt form commonly alters solubility and dissolution.",
       "choice_explanations": {
-        "A": "Counterion choice is a core preformulation strategy for BCS II weak acids/bases. This matches the correct interpretation.",
+        "A": "Counterion choice is a core preformulation strategy for Biopharmaceutics Classification System 2 weak acids/bases. This matches the correct interpretation.",
         "B": "Salt form commonly alters solubility and dissolution. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1212,7 +1212,7 @@
     },
     {
       "id": "pharmaceutics:hard:7",
-      "question": "After examining a 35-year-old woman, which statement about polymorphs is correct?",
+      "question": "After examining a 49-year-old man, which statement about polymorphs is correct?",
       "options": [
         "A) Salt form never affects solubility of an ionizable drug",
         "B) Must have identical excipients in every case to be pharmaceutical equivalents",
@@ -1230,7 +1230,7 @@
     },
     {
       "id": "pharmaceutics:hard:8",
-      "question": "A 30-year-old woman is evaluated for possible amorphous solid dispersions. Which of the following is most accurate?",
+      "question": "A 44-year-old man is evaluated for possible amorphous solid dispersions. Which of the following is most accurate?",
       "options": [
         "A) Amorphous dispersions always decrease dissolution versus crystalline drug",
         "B) Salt form never affects solubility of an ionizable drug",
@@ -1248,12 +1248,12 @@
     },
     {
       "id": "pharmaceutics:hard:9",
-      "question": "A 51-year-old woman has findings suggestive of hygroscopicity. Which of the following is the best interpretation?",
+      "question": "A 65-year-old man has findings suggestive of hygroscopicity. Which of the following is the best interpretation?",
       "options": [
         "A) Hygroscopicity only improves chemical stability of hydrolyzable drugs",
         "B) Freeze-thaw always improves emulsion and protein stability",
         "C) Moisture uptake can alter stability, flow, and hardness of solid dosage forms",
-        "D) Tap water is equivalent to WFI for parenteral manufacture"
+        "D) Tap water is equivalent to water for injection for parenteral manufacture"
       ],
       "answer": "C) Moisture uptake can alter stability, flow, and hardness of solid dosage forms",
       "explanation": "Water sorption can plasticize polymers and accelerate degradation pathways. Therefore, the most accurate choice is: Moisture uptake can alter stability, flow, and hardness of solid dosage forms. Moisture often harms, rather than helps, stability of sensitive drugs.",
@@ -1266,7 +1266,7 @@
     },
     {
       "id": "pharmaceutics:hard:10",
-      "question": "In a 64-year-old man, tablet hardness friability must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 37-year-old woman, tablet hardness friability must be separated from similar conditions. Which of the following is correct?",
       "options": [
         "A) Dissolution tests measure only tablet color uniformity",
         "B) Adequate mechanical strength resists friability while still allowing disintegration/dissolution",
@@ -1284,7 +1284,7 @@
     },
     {
       "id": "pharmaceutics:hard:11",
-      "question": "A 44-year-old man returns for review of suspected disintegrants. Which of the following is most accurate?",
+      "question": "A 58-year-old woman returns for review of suspected disintegrants. Which of the following is most accurate?",
       "options": [
         "A) Disintegrants are lubricants that reduce ejection friction only",
         "B) Micronization always decreases dissolution by lowering surface area",
@@ -1320,7 +1320,7 @@
     },
     {
       "id": "pharmaceutics:hard:13",
-      "question": "A 55-year-old man presents with features compatible with binders. Which of the following is most accurate?",
+      "question": "A 69-year-old woman presents with features compatible with binders. Which of the following is most accurate?",
       "options": [
         "A) Provide cohesiveness to granules/tablets enabling compact formation",
         "B) Gels are compressed solid tablets without polymer networks",
@@ -1338,7 +1338,7 @@
     },
     {
       "id": "pharmaceutics:hard:14",
-      "question": "Which statement about glidants in a 42-year-old man is most accurate?",
+      "question": "Which statement about glidants in a 56-year-old woman is most accurate?",
       "options": [
         "A) Only total bottle weight matters, not unit-to-unit drug content",
         "B) Glidants are film-coating plasticizers only",
@@ -1356,7 +1356,7 @@
     },
     {
       "id": "pharmaceutics:hard:15",
-      "question": "After examining a 54-year-old woman, which statement about direct compression is correct?",
+      "question": "After examining a 68-year-old man, which statement about direct compression is correct?",
       "options": [
         "A) Hygroscopicity only improves chemical stability of hydrolyzable drugs",
         "B) Wet granulation always destroys content uniformity intentionally",
@@ -1374,7 +1374,7 @@
     },
     {
       "id": "pharmaceutics:hard:16",
-      "question": "A 39-year-old woman is evaluated for possible wet granulation. Which of the following is most accurate?",
+      "question": "A 53-year-old man is evaluated for possible wet granulation. Which of the following is most accurate?",
       "options": [
         "A) Always requires organic solvent wet granulation first",
         "B) Wet granulation always destroys content uniformity intentionally",
@@ -1392,7 +1392,7 @@
     },
     {
       "id": "pharmaceutics:hard:17",
-      "question": "A 46-year-old man has findings suggestive of dry granulation. Which of the following is the best interpretation?",
+      "question": "A 60-year-old woman has findings suggestive of dry granulation. Which of the following is the best interpretation?",
       "options": [
         "A) Nebulizers only deliver solid dry powders without liquid",
         "B) Slugging or roller compaction densifies powders without liquid binder",
@@ -1415,7 +1415,7 @@
         "A) Only total bottle weight matters, not unit-to-unit drug content",
         "B) Wet granulation always destroys content uniformity intentionally",
         "C) Assures each dosage unit contains the labeled drug amount within pharmacopeial limits",
-        "D) Vehicle never influences topical drug delivery if API amount is fixed"
+        "D) Vehicle never influences topical drug delivery if active pharmaceutical ingredient amount is fixed"
       ],
       "answer": "C) Assures each dosage unit contains the labeled drug amount within pharmacopeial limits",
       "explanation": "Critical for low-dose potent APIs prone to segregation. Therefore, the most accurate choice is: Assures each dosage unit contains the labeled drug amount within pharmacopeial limits. Unit potency uniformity is a core quality attribute.",
@@ -1431,12 +1431,12 @@
       "question": "Which of the following correctly distinguishes key points about dissolution testing?",
       "options": [
         "A) Dissolution tests measure only tablet color uniformity",
-        "B) IVIVC means dissolution tests replace all clinical studies forever for every IR product automatically",
-        "C) In vitro release test supporting quality and sometimes IVIVC for oral products",
+        "B) in vitro-in vivo correlation means dissolution tests replace all clinical studies forever for every insulin resistance product automatically",
+        "C) In vitro release test supporting quality and sometimes in vitro-in vivo correlation for oral products",
         "D) Compaction force never affects granule quality attributes"
       ],
-      "answer": "C) In vitro release test supporting quality and sometimes IVIVC for oral products",
-      "explanation": "Apparatus, medium, and hydrodynamics must be specified and controlled. Therefore, the most accurate choice is: In vitro release test supporting quality and sometimes IVIVC for oral products. Dissolution assesses drug release, not color.",
+      "answer": "C) In vitro release test supporting quality and sometimes in vitro-in vivo correlation for oral products",
+      "explanation": "Apparatus, medium, and hydrodynamics must be specified and controlled. Therefore, the most accurate choice is: In vitro release test supporting quality and sometimes in vitro-in vivo correlation for oral products. Dissolution assesses drug release, not color.",
       "choice_explanations": {
         "A": "Dissolution assesses drug release, not color. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1449,9 +1449,9 @@
       "question": "Careful interpretation of disintegration test is required. Which of the following is correct?",
       "options": [
         "A) Measures time for dosage unit to break into particles under specified conditions",
-        "B) Identical to assay of chemical purity by HPLC",
+        "B) Identical to assay of chemical purity by high-performance liquid chromatography",
         "C) Must have identical excipients in every case to be pharmaceutical equivalents",
-        "D) Bioequivalence means identical inactive ingredients only, ignoring PK"
+        "D) Bioequivalence means identical inactive ingredients only, ignoring pharmacokinetics"
       ],
       "answer": "A) Measures time for dosage unit to break into particles under specified conditions",
       "explanation": "Disintegration is necessary but not sufficient for dissolution/absorption. Therefore, the most accurate choice is: Measures time for dosage unit to break into particles under specified conditions. It is a physical breakup test, not a purity assay.",
@@ -1464,12 +1464,12 @@
     },
     {
       "id": "pharmaceutics:hard:21",
-      "question": "A 36-year-old man presents with features compatible with hard gelatin capsules. Which of the following is most accurate?",
+      "question": "A 50-year-old woman presents with features compatible with hard gelatin capsules. Which of the following is most accurate?",
       "options": [
         "A) Aseptic processing allows high bioburden without environmental controls",
         "B) Shells dissolve to release fill; sensitive to humidity extremes affecting brittleness/stickiness",
         "C) Hard gelatin shells are unaffected by environmental humidity",
-        "D) Matrix SR systems always release the entire dose in under one minute by design"
+        "D) Matrix sustained release systems always release the entire dose in under one minute by design"
       ],
       "answer": "B) Shells dissolve to release fill; sensitive to humidity extremes affecting brittleness/stickiness",
       "explanation": "Moisture content controls mechanical shell properties. Therefore, the most accurate choice is: Shells dissolve to release fill; sensitive to humidity extremes affecting brittleness/stickiness. Humidity extremes commonly harm capsule performance.",
@@ -1482,7 +1482,7 @@
     },
     {
       "id": "pharmaceutics:hard:22",
-      "question": "Which statement about softgels in a 57-year-old man is most accurate?",
+      "question": "Which statement about softgels in a 30-year-old woman is most accurate?",
       "options": [
         "A) Liquid or semisolid fills in soft gelatin; useful for poorly water-soluble oils/solutions",
         "B) Cosolvents always decrease solubility of lipophilic drugs in water mixtures",
@@ -1500,7 +1500,7 @@
     },
     {
       "id": "pharmaceutics:hard:23",
-      "question": "After examining a 47-year-old man, which statement about enteric coating is correct?",
+      "question": "After examining a 61-year-old woman, which statement about enteric coating is correct?",
       "options": [
         "A) Enteric coats are designed to dissolve instantly in stomach acid",
         "B) Film coats exist only to make tablets heavier without functional roles",
@@ -1520,7 +1520,7 @@
       "id": "pharmaceutics:hard:24",
       "question": "Careful review of sustained release matrix is required. Which of the following is most accurate?",
       "options": [
-        "A) Matrix SR systems always release the entire dose in under one minute by design",
+        "A) Matrix sustained release systems always release the entire dose in under one minute by design",
         "B) Membrane failure never changes release rate",
         "C) Drug diffuses through or erodes from a matrix controlling release over time",
         "D) Implants always provide only minute-by-minute on/off control without depot effect"
@@ -1536,12 +1536,12 @@
     },
     {
       "id": "pharmaceutics:hard:25",
-      "question": "Two similar explanations for reservoir MR beads are compared. Which of the following is correct?",
+      "question": "Two similar explanations for reservoir mitral regurgitation beads are compared. Which of the following is correct?",
       "options": [
         "A) Rate-controlling membrane around drug core modulates release; dose-dumping risk if coat fails",
         "B) Release depends only on stomach grinding forces without osmosis",
         "C) Membrane failure never changes release rate",
-        "D) Matrix SR systems always release the entire dose in under one minute by design"
+        "D) Matrix sustained release systems always release the entire dose in under one minute by design"
       ],
       "answer": "A) Rate-controlling membrane around drug core modulates release; dose-dumping risk if coat fails",
       "explanation": "Alcohol or coat damage can cause dangerous rapid release of some products. Therefore, the most accurate choice is: Rate-controlling membrane around drug core modulates release; dose-dumping risk if coat fails. Compromised membranes can dose-dump.",
@@ -1554,7 +1554,7 @@
     },
     {
       "id": "pharmaceutics:hard:26",
-      "question": "In a 50-year-old man, osmotic pump tablets must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 64-year-old woman, osmotic pump tablets must be separated from similar conditions. Which of the following is correct?",
       "options": [
         "A) Release depends only on stomach grinding forces without osmosis",
         "B) Osmotic water influx pumps drug out a laser-drilled orifice at controlled rate",
@@ -1572,17 +1572,17 @@
     },
     {
       "id": "pharmaceutics:hard:27",
-      "question": "A 70-year-old man returns for review of suspected IVIVC. Which of the following is most accurate?",
+      "question": "A 43-year-old woman returns for review of suspected in vitro-in vivo correlation. Which of the following is most accurate?",
       "options": [
-        "A) IVIVC means dissolution tests replace all clinical studies forever for every IR product automatically",
+        "A) in vitro-in vivo correlation means dissolution tests replace all clinical studies forever for every insulin resistance product automatically",
         "B) In vitro dissolution correlates with in vivo absorption for some extended-release products",
         "C) Dissolution tests measure only tablet color uniformity",
-        "D) Bioequivalence means identical inactive ingredients only, ignoring PK"
+        "D) Bioequivalence means identical inactive ingredients only, ignoring pharmacokinetics"
       ],
       "answer": "B) In vitro dissolution correlates with in vivo absorption for some extended-release products",
-      "explanation": "Meaningful correlations support biowaivers/specifications in suitable cases. Therefore, the most accurate choice is: In vitro dissolution correlates with in vivo absorption for some extended-release products. IVIVC is not a universal substitute for all clinical data on all products.",
+      "explanation": "Meaningful correlations support biowaivers/specifications in suitable cases. Therefore, the most accurate choice is: In vitro dissolution correlates with in vivo absorption for some extended-release products. in vitro-in vivo correlation is not a universal substitute for all clinical data on all products.",
       "choice_explanations": {
-        "A": "IVIVC is not a universal substitute for all clinical data on all products. It is less consistent than the correct choice.",
+        "A": "in vitro-in vivo correlation is not a universal substitute for all clinical data on all products. It is less consistent than the correct choice.",
         "B": "Meaningful correlations support biowaivers/specifications in suitable cases. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1592,33 +1592,33 @@
       "id": "pharmaceutics:hard:28",
       "question": "A clinic case of bioequivalence is discussed. Which of the following is correct?",
       "options": [
-        "A) IVIVC means dissolution tests replace all clinical studies forever for every IR product automatically",
+        "A) in vitro-in vivo correlation means dissolution tests replace all clinical studies forever for every insulin resistance product automatically",
         "B) Test product matches reference in rate and extent of absorption within regulatory limits",
-        "C) Bioequivalence means identical inactive ingredients only, ignoring PK",
+        "C) Bioequivalence means identical inactive ingredients only, ignoring pharmacokinetics",
         "D) Membrane failure never changes release rate"
       ],
       "answer": "B) Test product matches reference in rate and extent of absorption within regulatory limits",
-      "explanation": "AUC and Cmax comparisons are core BE metrics for many products. Therefore, the most accurate choice is: Test product matches reference in rate and extent of absorption within regulatory limits. BE is a pharmacokinetic performance comparison, not just formula match.",
+      "explanation": "area under the curve and Cmax comparisons are core bioequivalence metrics for many products. Therefore, the most accurate choice is: Test product matches reference in rate and extent of absorption within regulatory limits. bioequivalence is a pharmacokinetic performance comparison, not just formula match.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "AUC and Cmax comparisons are core BE metrics for many products. This matches the correct interpretation.",
-        "C": "BE is a pharmacokinetic performance comparison, not just formula match. It is less consistent than the correct choice.",
+        "B": "area under the curve and Cmax comparisons are core bioequivalence metrics for many products. This matches the correct interpretation.",
+        "C": "bioequivalence is a pharmacokinetic performance comparison, not just formula match. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmaceutics:hard:29",
-      "question": "A 33-year-old woman presents with features compatible with pharmaceutical equivalents. Which of the following is most accurate?",
+      "question": "A 47-year-old man presents with features compatible with pharmaceutical equivalents. Which of the following is most accurate?",
       "options": [
-        "A) Same API, strength, dosage form, route, and standards but possibly different excipients",
+        "A) Same active pharmaceutical ingredient, strength, dosage form, route, and standards but possibly different excipients",
         "B) Must have identical excipients in every case to be pharmaceutical equivalents",
-        "C) MDIs and DPIs are identical devices with the same technique requirements",
+        "C) metered-dose inhalers and DPIs are identical devices with the same technique requirements",
         "D) All polymorphs always have identical solubility and dissolution"
       ],
-      "answer": "A) Same API, strength, dosage form, route, and standards but possibly different excipients",
-      "explanation": "Therapeutic equivalence additionally requires BE and other codes (e.g., Orange Book). Therefore, the most accurate choice is: Same API, strength, dosage form, route, and standards but possibly different excipients. Excipients may differ among pharmaceutical equivalents.",
+      "answer": "A) Same active pharmaceutical ingredient, strength, dosage form, route, and standards but possibly different excipients",
+      "explanation": "Therapeutic equivalence additionally requires bioequivalence and other codes (e.g., Orange Book). Therefore, the most accurate choice is: Same active pharmaceutical ingredient, strength, dosage form, route, and standards but possibly different excipients. Excipients may differ among pharmaceutical equivalents.",
       "choice_explanations": {
-        "A": "Therapeutic equivalence additionally requires BE and other codes (e.g., Orange Book). This matches the correct interpretation.",
+        "A": "Therapeutic equivalence additionally requires bioequivalence and other codes (e.g., Orange Book). This matches the correct interpretation.",
         "B": "Excipients may differ among pharmaceutical equivalents. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1628,12 +1628,12 @@
   "extreme": [
     {
       "id": "pharmaceutics:extreme:0",
-      "question": "A 55-year-old woman has a complex presentation of noyes-Whitney dissolution. Which of the following is most accurate?",
+      "question": "A 69-year-old man has a complex presentation of noyes-Whitney dissolution. Which of the following is most accurate?",
       "options": [
         "A) Dissolution rate is independent of surface area and solubility",
         "B) Dissolution rate depends on surface area, diffusivity, and concentration gradient to saturation solubility",
         "C) Micronization always decreases dissolution by lowering surface area",
-        "D) High solubility and low permeability as the Class II definition"
+        "D) High solubility and low permeability as the Class 2 definition"
       ],
       "answer": "B) Dissolution rate depends on surface area, diffusivity, and concentration gradient to saturation solubility",
       "explanation": "dC/dt relates to (D·A/h)·(Cs−C); micronization can speed dissolution. Therefore, the most accurate choice is: Dissolution rate depends on surface area, diffusivity, and concentration gradient to saturation solubility. Surface area and solubility strongly influence dissolution rate.",
@@ -1646,79 +1646,79 @@
     },
     {
       "id": "pharmaceutics:extreme:1",
-      "question": "Small differences in wording about BCS Class I matter. Which of the following is correct?",
+      "question": "Small differences in wording about Biopharmaceutics Classification System Class I matter. Which of the following is correct?",
       "options": [
-        "A) High solubility and low permeability as the Class II definition",
-        "B) Low solubility and high permeability as Class III",
+        "A) High solubility and low permeability as the Class 2 definition",
+        "B) Low solubility and high permeability as Class 3",
         "C) High solubility and high permeability; absorption usually not limited by dissolution if formulation adequate",
         "D) Low solubility and low permeability by definition"
       ],
       "answer": "C) High solubility and high permeability; absorption usually not limited by dissolution if formulation adequate",
-      "explanation": "BCS I drugs often good oral candidates with fewer formulation barriers. Therefore, the most accurate choice is: High solubility and high permeability; absorption usually not limited by dissolution if formulation adequate. Class I is high/high, not low/low.",
+      "explanation": "Biopharmaceutics Classification System I drugs often good oral candidates with fewer formulation barriers. Therefore, the most accurate choice is: High solubility and high permeability; absorption usually not limited by dissolution if formulation adequate. Class I is high/high, not low/low.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "BCS I drugs often good oral candidates with fewer formulation barriers. This matches the correct interpretation.",
+        "C": "Biopharmaceutics Classification System I drugs often good oral candidates with fewer formulation barriers. This matches the correct interpretation.",
         "D": "Class I is high/high, not low/low. It is less consistent than the correct choice."
       }
     },
     {
       "id": "pharmaceutics:extreme:2",
-      "question": "Which of the following is the most precise statement about BCS Class II?",
+      "question": "Which of the following is the most precise statement about Biopharmaceutics Classification System Class 2?",
       "options": [
         "A) Low solubility, high permeability; dissolution often rate-limiting for absorption",
-        "B) High solubility and low permeability as the Class II definition",
+        "B) High solubility and low permeability as the Class 2 definition",
         "C) Low solubility and low permeability by definition",
-        "D) High solubility and high permeability as Class IV"
+        "D) High solubility and high permeability as Class intravenous"
       ],
       "answer": "A) Low solubility, high permeability; dissolution often rate-limiting for absorption",
-      "explanation": "Enabling formulations aim to improve dissolution of BCS II drugs. Therefore, the most accurate choice is: Low solubility, high permeability; dissolution often rate-limiting for absorption. Class II is low solubility/high permeability.",
+      "explanation": "Enabling formulations aim to improve dissolution of Biopharmaceutics Classification System 2 drugs. Therefore, the most accurate choice is: Low solubility, high permeability; dissolution often rate-limiting for absorption. Class 2 is low solubility/high permeability.",
       "choice_explanations": {
-        "A": "Enabling formulations aim to improve dissolution of BCS II drugs. This matches the correct interpretation.",
-        "B": "Class II is low solubility/high permeability. It is less consistent than the correct choice.",
+        "A": "Enabling formulations aim to improve dissolution of Biopharmaceutics Classification System 2 drugs. This matches the correct interpretation.",
+        "B": "Class 2 is low solubility/high permeability. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmaceutics:extreme:3",
-      "question": "A 70-year-old man has findings that make BCS Class III hard to confirm. Which of the following is most accurate?",
+      "question": "A 43-year-old woman has findings that make Biopharmaceutics Classification System Class 3 hard to confirm. Which of the following is most accurate?",
       "options": [
         "A) Low solubility and low permeability by definition",
         "B) High solubility, low permeability; absorption limited by membrane permeation",
-        "C) Low solubility and high permeability as Class III",
-        "D) High solubility and low permeability as the Class II definition"
+        "C) Low solubility and high permeability as Class 3",
+        "D) High solubility and low permeability as the Class 2 definition"
       ],
       "answer": "B) High solubility, low permeability; absorption limited by membrane permeation",
-      "explanation": "Permeability enhancers or alternative routes may be considered for Class III challenges. Therefore, the most accurate choice is: High solubility, low permeability; absorption limited by membrane permeation. Class III is high solubility/low permeability.",
+      "explanation": "Permeability enhancers or alternative routes may be considered for Class 3 challenges. Therefore, the most accurate choice is: High solubility, low permeability; absorption limited by membrane permeation. Class 3 is high solubility/low permeability.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Permeability enhancers or alternative routes may be considered for Class III challenges. This matches the correct interpretation.",
-        "C": "Class III is high solubility/low permeability. It is less consistent than the correct choice.",
+        "B": "Permeability enhancers or alternative routes may be considered for Class 3 challenges. This matches the correct interpretation.",
+        "C": "Class 3 is high solubility/low permeability. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmaceutics:extreme:4",
-      "question": "In a 56-year-old man, distinguishing BCS Class IV from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 70-year-old woman, distinguishing Biopharmaceutics Classification System Class intravenous from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Low solubility and low permeability; most challenging oral absorption profile",
-        "B) High solubility and low permeability as the Class II definition",
-        "C) High solubility and high permeability as Class IV",
+        "B) High solubility and low permeability as the Class 2 definition",
+        "C) High solubility and high permeability as Class intravenous",
         "D) Low solubility and low permeability by definition"
       ],
       "answer": "A) Low solubility and low permeability; most challenging oral absorption profile",
-      "explanation": "Class IV drugs often need enabling technologies or nonoral routes. Therefore, the most accurate choice is: Low solubility and low permeability; most challenging oral absorption profile. Class IV is low/low, not high/high.",
+      "explanation": "Class intravenous drugs often need enabling technologies or nonoral routes. Therefore, the most accurate choice is: Low solubility and low permeability; most challenging oral absorption profile. Class intravenous is low/low, not high/high.",
       "choice_explanations": {
-        "A": "Class IV drugs often need enabling technologies or nonoral routes. This matches the correct interpretation.",
+        "A": "Class intravenous drugs often need enabling technologies or nonoral routes. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Class IV is low/low, not high/high. It is less consistent than the correct choice.",
+        "C": "Class intravenous is low/low, not high/high. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmaceutics:extreme:5",
-      "question": "A 43-year-old man returns with ongoing problems related to micronization. Which of the following is most accurate?",
+      "question": "A 57-year-old woman returns with ongoing problems related to micronization. Which of the following is most accurate?",
       "options": [
         "A) Micronization always decreases dissolution by lowering surface area",
         "B) Cosolvents always decrease solubility of lipophilic drugs in water mixtures",
@@ -1736,7 +1736,7 @@
     },
     {
       "id": "pharmaceutics:extreme:6",
-      "question": "Senior review is requested for salt selection in a 30-year-old man. Which of the following is correct?",
+      "question": "Senior review is requested for salt selection in a 44-year-old woman. Which of the following is correct?",
       "options": [
         "A) Salt forms can modify solubility, dissolution, stability, and manufacturability of ionizable drugs",
         "B) Salt form never affects solubility of an ionizable drug",
@@ -1744,9 +1744,9 @@
         "D) pKa is unrelated to pH-dependent solubility of weak acids/bases"
       ],
       "answer": "A) Salt forms can modify solubility, dissolution, stability, and manufacturability of ionizable drugs",
-      "explanation": "Counterion choice is a core preformulation strategy for BCS II weak acids/bases. Therefore, the most accurate choice is: Salt forms can modify solubility, dissolution, stability, and manufacturability of ionizable drugs. Salt form commonly alters solubility and dissolution.",
+      "explanation": "Counterion choice is a core preformulation strategy for Biopharmaceutics Classification System 2 weak acids/bases. Therefore, the most accurate choice is: Salt forms can modify solubility, dissolution, stability, and manufacturability of ionizable drugs. Salt form commonly alters solubility and dissolution.",
       "choice_explanations": {
-        "A": "Counterion choice is a core preformulation strategy for BCS II weak acids/bases. This matches the correct interpretation.",
+        "A": "Counterion choice is a core preformulation strategy for Biopharmaceutics Classification System 2 weak acids/bases. This matches the correct interpretation.",
         "B": "Salt form commonly alters solubility and dissolution. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1754,7 +1754,7 @@
     },
     {
       "id": "pharmaceutics:extreme:7",
-      "question": "Which statement about polymorphs in a 35-year-old woman is most accurate?",
+      "question": "Which statement about polymorphs in a 49-year-old man is most accurate?",
       "options": [
         "A) Must have identical excipients in every case to be pharmaceutical equivalents",
         "B) All polymorphs always have identical solubility and dissolution",
@@ -1772,7 +1772,7 @@
     },
     {
       "id": "pharmaceutics:extreme:8",
-      "question": "A 30-year-old woman has a complex presentation of amorphous solid dispersions. Which of the following is most accurate?",
+      "question": "A 44-year-old man has a complex presentation of amorphous solid dispersions. Which of the following is most accurate?",
       "options": [
         "A) Amorphous dispersions always decrease dissolution versus crystalline drug",
         "B) Salt form never affects solubility of an ionizable drug",
@@ -1790,7 +1790,7 @@
     },
     {
       "id": "pharmaceutics:extreme:9",
-      "question": "A 51-year-old woman with reduced renal function is reassessed after incomplete response related to hygroscopicity. Which of the following is most accurate?",
+      "question": "A 65-year-old man with reduced renal function is reassessed after incomplete response related to hygroscopicity. Which of the following is most accurate?",
       "options": [
         "A) Hygroscopicity only improves chemical stability of hydrolyzable drugs",
         "B) Moisture uptake can alter stability, flow, and hardness of solid dosage forms",
@@ -1808,7 +1808,7 @@
     },
     {
       "id": "pharmaceutics:extreme:10",
-      "question": "A detailed evaluation for tablet hardness friability is underway in a 64-year-old man. Which of the following is correct?",
+      "question": "A detailed evaluation for tablet hardness friability is underway in a 37-year-old woman. Which of the following is correct?",
       "options": [
         "A) Adequate mechanical strength resists friability while still allowing disintegration/dissolution",
         "B) Harder is always better even if the tablet never disintegrates",
@@ -1826,7 +1826,7 @@
     },
     {
       "id": "pharmaceutics:extreme:11",
-      "question": "A 44-year-old man has findings that make disintegrants hard to confirm. Which of the following is most accurate?",
+      "question": "A 58-year-old woman has findings that make disintegrants hard to confirm. Which of the following is most accurate?",
       "options": [
         "A) Promote breakup of tablets by swelling, wicking, or deformation in aqueous media",
         "B) Disintegrants are lubricants that reduce ejection friction only",
@@ -1844,7 +1844,7 @@
     },
     {
       "id": "pharmaceutics:extreme:12",
-      "question": "In a 70-year-old man, distinguishing lubricants from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 43-year-old woman, distinguishing lubricants from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Lubricants are always added in high amounts to speed dissolution",
         "B) Plasticizers always make films more brittle and crack-prone by design",
@@ -1862,7 +1862,7 @@
     },
     {
       "id": "pharmaceutics:extreme:13",
-      "question": "A 55-year-old man returns with ongoing problems related to binders. Which of the following is most accurate?",
+      "question": "A 69-year-old woman returns with ongoing problems related to binders. Which of the following is most accurate?",
       "options": [
         "A) Harder is always better even if the tablet never disintegrates",
         "B) Provide cohesiveness to granules/tablets enabling compact formation",
@@ -1880,7 +1880,7 @@
     },
     {
       "id": "pharmaceutics:extreme:14",
-      "question": "Senior review is requested for glidants in a 42-year-old man. Which of the following is correct?",
+      "question": "Senior review is requested for glidants in a 56-year-old woman. Which of the following is correct?",
       "options": [
         "A) Improve powder flow by reducing interparticle friction (e.g., colloidal silica)",
         "B) Glidants are film-coating plasticizers only",
@@ -1898,7 +1898,7 @@
     },
     {
       "id": "pharmaceutics:extreme:15",
-      "question": "Which statement about direct compression in a 54-year-old woman is most accurate?",
+      "question": "Which statement about direct compression in a 68-year-old man is most accurate?",
       "options": [
         "A) Always requires organic solvent wet granulation first",
         "B) Hygroscopicity only improves chemical stability of hydrolyzable drugs",
@@ -1916,7 +1916,7 @@
     },
     {
       "id": "pharmaceutics:extreme:16",
-      "question": "A 39-year-old woman has a complex presentation of wet granulation. Which of the following is most accurate?",
+      "question": "A 53-year-old man has a complex presentation of wet granulation. Which of the following is most accurate?",
       "options": [
         "A) Once blended, powders never segregate during transfer",
         "B) Wet granulation always destroys content uniformity intentionally",
@@ -1934,7 +1934,7 @@
     },
     {
       "id": "pharmaceutics:extreme:17",
-      "question": "A 46-year-old man is reassessed after incomplete response related to dry granulation. Which of the following is most accurate?",
+      "question": "A 60-year-old woman with reduced renal function is reassessed after incomplete response related to dry granulation. Which of the following is most accurate?",
       "options": [
         "A) Slugging or roller compaction densifies powders without liquid binder",
         "B) Wet granulation always destroys content uniformity intentionally",
@@ -1952,10 +1952,10 @@
     },
     {
       "id": "pharmaceutics:extreme:18",
-      "question": "A 34-year-old man needs action related to content uniformity. Which of the following is correct?",
+      "question": "A 48-year-old woman needs action related to content uniformity. Which of the following is correct?",
       "options": [
         "A) Wet granulation always destroys content uniformity intentionally",
-        "B) Vehicle never influences topical drug delivery if API amount is fixed",
+        "B) Vehicle never influences topical drug delivery if active pharmaceutical ingredient amount is fixed",
         "C) Assures each dosage unit contains the labeled drug amount within pharmacopeial limits",
         "D) Only total bottle weight matters, not unit-to-unit drug content"
       ],
@@ -1972,13 +1972,13 @@
       "id": "pharmaceutics:extreme:19",
       "question": "In advanced review of dissolution testing, which of the following is most accurate?",
       "options": [
-        "A) IVIVC means dissolution tests replace all clinical studies forever for every IR product automatically",
-        "B) In vitro release test supporting quality and sometimes IVIVC for oral products",
+        "A) in vitro-in vivo correlation means dissolution tests replace all clinical studies forever for every insulin resistance product automatically",
+        "B) In vitro release test supporting quality and sometimes in vitro-in vivo correlation for oral products",
         "C) Release testing is irrelevant for depot injections",
         "D) Dissolution tests measure only tablet color uniformity"
       ],
-      "answer": "B) In vitro release test supporting quality and sometimes IVIVC for oral products",
-      "explanation": "Apparatus, medium, and hydrodynamics must be specified and controlled. Therefore, the most accurate choice is: In vitro release test supporting quality and sometimes IVIVC for oral products. Dissolution assesses drug release, not color.",
+      "answer": "B) In vitro release test supporting quality and sometimes in vitro-in vivo correlation for oral products",
+      "explanation": "Apparatus, medium, and hydrodynamics must be specified and controlled. Therefore, the most accurate choice is: In vitro release test supporting quality and sometimes in vitro-in vivo correlation for oral products. Dissolution assesses drug release, not color.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Apparatus, medium, and hydrodynamics must be specified and controlled. This matches the correct interpretation.",
@@ -1990,8 +1990,8 @@
       "id": "pharmaceutics:extreme:20",
       "question": "Which interpretation of disintegration test is most accurate?",
       "options": [
-        "A) Bioequivalence means identical inactive ingredients only, ignoring PK",
-        "B) Identical to assay of chemical purity by HPLC",
+        "A) Bioequivalence means identical inactive ingredients only, ignoring pharmacokinetics",
+        "B) Identical to assay of chemical purity by high-performance liquid chromatography",
         "C) Measures time for dosage unit to break into particles under specified conditions",
         "D) Must have identical excipients in every case to be pharmaceutical equivalents"
       ],
@@ -2006,7 +2006,7 @@
     },
     {
       "id": "pharmaceutics:extreme:21",
-      "question": "A 36-year-old man returns with ongoing problems related to hard gelatin capsules. Which of the following is most accurate?",
+      "question": "A 50-year-old woman returns with ongoing problems related to hard gelatin capsules. Which of the following is most accurate?",
       "options": [
         "A) Aseptic processing allows high bioburden without environmental controls",
         "B) Only total bottle weight matters, not unit-to-unit drug content",
@@ -2024,7 +2024,7 @@
     },
     {
       "id": "pharmaceutics:extreme:22",
-      "question": "Senior review is requested for softgels in a 57-year-old man. Which of the following is correct?",
+      "question": "Senior review is requested for softgels in a 30-year-old woman. Which of the following is correct?",
       "options": [
         "A) Liquid or semisolid fills in soft gelatin; useful for poorly water-soluble oils/solutions",
         "B) Emulsions are true molecular solutions without interfaces",
@@ -2042,7 +2042,7 @@
     },
     {
       "id": "pharmaceutics:extreme:23",
-      "question": "Which statement about enteric coating in a 47-year-old man is most accurate?",
+      "question": "Which statement about enteric coating in a 61-year-old woman is most accurate?",
       "options": [
         "A) Polymer coat resists gastric fluid and releases in intestine for acid-labile drugs or gastric protection",
         "B) Hot-melt extrusion always requires large volumes of water granulating fluid",
@@ -2060,12 +2060,12 @@
     },
     {
       "id": "pharmaceutics:extreme:24",
-      "question": "A 38-year-old man requires careful decisions about sustained release matrix. Which of the following is most accurate?",
+      "question": "A 52-year-old woman with reduced renal function requires careful decisions about sustained release matrix. Which of the following is most accurate?",
       "options": [
         "A) Membrane failure never changes release rate",
         "B) Drug diffuses through or erodes from a matrix controlling release over time",
         "C) Implants always provide only minute-by-minute on/off control without depot effect",
-        "D) Matrix SR systems always release the entire dose in under one minute by design"
+        "D) Matrix sustained release systems always release the entire dose in under one minute by design"
       ],
       "answer": "B) Drug diffuses through or erodes from a matrix controlling release over time",
       "explanation": "Polymer properties and geometry govern release kinetics. Therefore, the most accurate choice is: Drug diffuses through or erodes from a matrix controlling release over time. Sustained-release intent is prolonged, not instantaneous, release.",
@@ -2078,12 +2078,12 @@
     },
     {
       "id": "pharmaceutics:extreme:25",
-      "question": "Management of reservoir MR beads is reviewed for a 42-year-old woman. Which of the following is most accurate?",
+      "question": "Management of reservoir mitral regurgitation beads is reviewed for a 56-year-old man. Which of the following is most accurate?",
       "options": [
         "A) Membrane failure never changes release rate",
         "B) Release depends only on stomach grinding forces without osmosis",
         "C) Rate-controlling membrane around drug core modulates release; dose-dumping risk if coat fails",
-        "D) Matrix SR systems always release the entire dose in under one minute by design"
+        "D) Matrix sustained release systems always release the entire dose in under one minute by design"
       ],
       "answer": "C) Rate-controlling membrane around drug core modulates release; dose-dumping risk if coat fails",
       "explanation": "Alcohol or coat damage can cause dangerous rapid release of some products. Therefore, the most accurate choice is: Rate-controlling membrane around drug core modulates release; dose-dumping risk if coat fails. Compromised membranes can dose-dump.",
@@ -2096,7 +2096,7 @@
     },
     {
       "id": "pharmaceutics:extreme:26",
-      "question": "A detailed evaluation for osmotic pump tablets is underway in a 50-year-old man. Which of the following is correct?",
+      "question": "A detailed evaluation for osmotic pump tablets is underway in a 64-year-old woman. Which of the following is correct?",
       "options": [
         "A) Osmotic water influx pumps drug out a laser-drilled orifice at controlled rate",
         "B) Release depends only on stomach grinding forces without osmosis",
@@ -2114,17 +2114,17 @@
     },
     {
       "id": "pharmaceutics:extreme:27",
-      "question": "A 70-year-old man has findings that make IVIVC hard to confirm. Which of the following is most accurate?",
+      "question": "A 43-year-old woman has findings that make in vitro-in vivo correlation hard to confirm. Which of the following is most accurate?",
       "options": [
-        "A) IVIVC means dissolution tests replace all clinical studies forever for every IR product automatically",
+        "A) in vitro-in vivo correlation means dissolution tests replace all clinical studies forever for every insulin resistance product automatically",
         "B) In vitro dissolution correlates with in vivo absorption for some extended-release products",
-        "C) Bioequivalence means identical inactive ingredients only, ignoring PK",
+        "C) Bioequivalence means identical inactive ingredients only, ignoring pharmacokinetics",
         "D) Dissolution tests measure only tablet color uniformity"
       ],
       "answer": "B) In vitro dissolution correlates with in vivo absorption for some extended-release products",
-      "explanation": "Meaningful correlations support biowaivers/specifications in suitable cases. Therefore, the most accurate choice is: In vitro dissolution correlates with in vivo absorption for some extended-release products. IVIVC is not a universal substitute for all clinical data on all products.",
+      "explanation": "Meaningful correlations support biowaivers/specifications in suitable cases. Therefore, the most accurate choice is: In vitro dissolution correlates with in vivo absorption for some extended-release products. in vitro-in vivo correlation is not a universal substitute for all clinical data on all products.",
       "choice_explanations": {
-        "A": "IVIVC is not a universal substitute for all clinical data on all products. It is less consistent than the correct choice.",
+        "A": "in vitro-in vivo correlation is not a universal substitute for all clinical data on all products. It is less consistent than the correct choice.",
         "B": "Meaningful correlations support biowaivers/specifications in suitable cases. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -2132,35 +2132,35 @@
     },
     {
       "id": "pharmaceutics:extreme:28",
-      "question": "In a 61-year-old man, distinguishing bioequivalence from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 34-year-old woman, distinguishing bioequivalence from similar conditions is difficult. Which of the following is correct?",
       "options": [
-        "A) IVIVC means dissolution tests replace all clinical studies forever for every IR product automatically",
+        "A) in vitro-in vivo correlation means dissolution tests replace all clinical studies forever for every insulin resistance product automatically",
         "B) Membrane failure never changes release rate",
-        "C) Bioequivalence means identical inactive ingredients only, ignoring PK",
+        "C) Bioequivalence means identical inactive ingredients only, ignoring pharmacokinetics",
         "D) Test product matches reference in rate and extent of absorption within regulatory limits"
       ],
       "answer": "D) Test product matches reference in rate and extent of absorption within regulatory limits",
-      "explanation": "AUC and Cmax comparisons are core BE metrics for many products. Therefore, the most accurate choice is: Test product matches reference in rate and extent of absorption within regulatory limits. BE is a pharmacokinetic performance comparison, not just formula match.",
+      "explanation": "area under the curve and Cmax comparisons are core bioequivalence metrics for many products. Therefore, the most accurate choice is: Test product matches reference in rate and extent of absorption within regulatory limits. bioequivalence is a pharmacokinetic performance comparison, not just formula match.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "BE is a pharmacokinetic performance comparison, not just formula match. It is less consistent than the correct choice.",
-        "D": "AUC and Cmax comparisons are core BE metrics for many products. This matches the correct interpretation."
+        "C": "bioequivalence is a pharmacokinetic performance comparison, not just formula match. It is less consistent than the correct choice.",
+        "D": "area under the curve and Cmax comparisons are core bioequivalence metrics for many products. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmaceutics:extreme:29",
-      "question": "A 33-year-old woman returns with ongoing problems related to pharmaceutical equivalents. Which of the following is most accurate?",
+      "question": "A 47-year-old man returns with ongoing problems related to pharmaceutical equivalents. Which of the following is most accurate?",
       "options": [
-        "A) Same API, strength, dosage form, route, and standards but possibly different excipients",
+        "A) Same active pharmaceutical ingredient, strength, dosage form, route, and standards but possibly different excipients",
         "B) All polymorphs always have identical solubility and dissolution",
         "C) Must have identical excipients in every case to be pharmaceutical equivalents",
-        "D) MDIs and DPIs are identical devices with the same technique requirements"
+        "D) metered-dose inhalers and DPIs are identical devices with the same technique requirements"
       ],
-      "answer": "A) Same API, strength, dosage form, route, and standards but possibly different excipients",
-      "explanation": "Therapeutic equivalence additionally requires BE and other codes (e.g., Orange Book). Therefore, the most accurate choice is: Same API, strength, dosage form, route, and standards but possibly different excipients. Excipients may differ among pharmaceutical equivalents.",
+      "answer": "A) Same active pharmaceutical ingredient, strength, dosage form, route, and standards but possibly different excipients",
+      "explanation": "Therapeutic equivalence additionally requires bioequivalence and other codes (e.g., Orange Book). Therefore, the most accurate choice is: Same active pharmaceutical ingredient, strength, dosage form, route, and standards but possibly different excipients. Excipients may differ among pharmaceutical equivalents.",
       "choice_explanations": {
-        "A": "Therapeutic equivalence additionally requires BE and other codes (e.g., Orange Book). This matches the correct interpretation.",
+        "A": "Therapeutic equivalence additionally requires bioequivalence and other codes (e.g., Orange Book). This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Excipients may differ among pharmaceutical equivalents. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."

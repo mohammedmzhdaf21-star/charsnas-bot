@@ -2,33 +2,33 @@
   "easy": [
     {
       "id": "maternity:easy:0",
-      "question": "Which of the following is true of naegele EDD calculation?",
+      "question": "Which of the following is true of naegele estimated due date calculation?",
       "options": [
         "A) Start combined OCPs day 1 postpartum while exclusively breastfeeding without guidance",
-        "B) Date pregnancy solely from home-test day without LMP/US context",
-        "C) EDD ≈ LMP − 3 months + 7 days (+1 year) with ultrasound refinement when needed",
+        "B) Date pregnancy solely from home-test day without last menstrual period/ultrasound context",
+        "C) estimated due date ≈ last menstrual period − 3 months + 7 days (+1 year) with ultrasound refinement when needed",
         "D) Diagnose pregnancy from amenorrhea without testing"
       ],
-      "answer": "C) EDD ≈ LMP − 3 months + 7 days (+1 year) with ultrasound refinement when needed",
-      "explanation": "Naegele estimates gestational age from LMP; ultrasound corrects uncertain dates. Therefore, the most accurate choice is: EDD ≈ LMP − 3 months + 7 days (+1 year) with ultrasound refinement when needed. Home-test dating alone is inaccurate—.",
+      "answer": "C) estimated due date ≈ last menstrual period − 3 months + 7 days (+1 year) with ultrasound refinement when needed",
+      "explanation": "Naegele estimates gestational age from last menstrual period; ultrasound corrects uncertain dates. Therefore, the most accurate choice is: estimated due date ≈ last menstrual period − 3 months + 7 days (+1 year) with ultrasound refinement when needed. Home-test dating alone is inaccurate—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Home-test dating alone is inaccurate—near-miss. It is less consistent than the correct choice.",
-        "C": "Naegele estimates gestational age from LMP; ultrasound corrects uncertain dates. This matches the correct interpretation.",
+        "C": "Naegele estimates gestational age from last menstrual period; ultrasound corrects uncertain dates. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "maternity:easy:1",
-      "question": "Which finding is expected in GTPAL history?",
+      "question": "Which finding is expected in gravida, term, preterm, abortion, living history?",
       "options": [
         "A) Use amnioinfusion for late decelerations from uteroplacental insufficiency as if identical",
         "B) Treat gravida and para as identical numbers always",
-        "C) Use GTPAL/gravida-para conventions to capture obstetric history precisely",
-        "D) Omit rupture risk discussion to improve TOLAC uptake numbers"
+        "C) Use gravida, term, preterm, abortion, living/gravida-para conventions to capture obstetric history precisely",
+        "D) Omit rupture risk discussion to improve trial of labor after cesarean uptake numbers"
       ],
-      "answer": "C) Use GTPAL/gravida-para conventions to capture obstetric history precisely",
-      "explanation": "Detailed obstetric history stratifies risk. Therefore, the most accurate choice is: Use GTPAL/gravida-para conventions to capture obstetric history precisely. Equating G and P loses abortions/preterms—.",
+      "answer": "C) Use gravida, term, preterm, abortion, living/gravida-para conventions to capture obstetric history precisely",
+      "explanation": "Detailed obstetric history stratifies risk. Therefore, the most accurate choice is: Use gravida, term, preterm, abortion, living/gravida-para conventions to capture obstetric history precisely. Equating G and P loses abortions/preterms—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Equating G and P loses abortions/preterms—near-miss. It is less consistent than the correct choice.",
@@ -43,7 +43,7 @@
         "A) Call Chadwick sign a positive diagnostic sign equal to FHTs",
         "B) Amenorrhea/nausea/breast changes are presumptive, not diagnostic alone",
         "C) Diagnose pregnancy from amenorrhea without testing",
-        "D) Date pregnancy solely from home-test day without LMP/US context"
+        "D) Date pregnancy solely from home-test day without last menstrual period/ultrasound context"
       ],
       "answer": "B) Amenorrhea/nausea/breast changes are presumptive, not diagnostic alone",
       "explanation": "Symptoms overlap other conditions; testing confirms. Therefore, the most accurate choice is: Amenorrhea/nausea/breast changes are presumptive, not diagnostic alone. Symptom-only diagnosis is a .",
@@ -78,8 +78,8 @@
       "options": [
         "A) Fundus near umbilicus ≈20 weeks; cm≈weeks in mid-pregnancy if congruent",
         "B) Expect fundus at xiphoid at 12 weeks",
-        "C) Date pregnancy solely from home-test day without LMP/US context",
-        "D) Perform prolonged supine CPR at 32 weeks without displacement"
+        "C) Date pregnancy solely from home-test day without last menstrual period/ultrasound context",
+        "D) Perform prolonged supine cardiopulmonary resuscitation at 32 weeks without displacement"
       ],
       "answer": "A) Fundus near umbilicus ≈20 weeks; cm≈weeks in mid-pregnancy if congruent",
       "explanation": "Landmarks detect growth/fluid/date problems. Therefore, the most accurate choice is: Fundus near umbilicus ≈20 weeks; cm≈weeks in mid-pregnancy if congruent. Wrong landmark timing misdates—.",
@@ -95,7 +95,7 @@
       "question": "Select the correct interpretation for quickening timing.",
       "options": [
         "A) Expect fundus at xiphoid at 12 weeks",
-        "B) Perform prolonged supine CPR at 32 weeks without displacement",
+        "B) Perform prolonged supine cardiopulmonary resuscitation at 32 weeks without displacement",
         "C) Expect definite quickening at 8 weeks in all pregnancies",
         "D) First movements often 16–20 weeks (earlier if multipara)"
       ],
@@ -113,12 +113,12 @@
       "question": "Which mechanism accounts for rhogam 28 weeks?",
       "options": [
         "A) Skip antepartum Tdap because childhood dose ‘lasts forever’",
-        "B) Rh-negative unsensitized patients receive Rho(D) IG ≈28 weeks and after events",
+        "B) Rh-negative unsensitized patients receive Rho(D) immune globulin ≈28 weeks and after events",
         "C) Withhold antepartum Rhogam until newborn type is known when otherwise indicated",
-        "D) Skip Rh status assessment during early pregnancy bleeding"
+        "D) Skip Rhesus status assessment during early pregnancy bleeding"
       ],
-      "answer": "B) Rh-negative unsensitized patients receive Rho(D) IG ≈28 weeks and after events",
-      "explanation": "Antepartum dose prevents sensitization during pregnancy. Therefore, the most accurate choice is: Rh-negative unsensitized patients receive Rho(D) IG ≈28 weeks and after events. Waiting for newborn type antepartum is a .",
+      "answer": "B) Rh-negative unsensitized patients receive Rho(D) immune globulin ≈28 weeks and after events",
+      "explanation": "Antepartum dose prevents sensitization during pregnancy. Therefore, the most accurate choice is: Rh-negative unsensitized patients receive Rho(D) immune globulin ≈28 weeks and after events. Waiting for newborn type antepartum is a .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Antepartum dose prevents sensitization during pregnancy. This matches the correct interpretation.",
@@ -132,11 +132,11 @@
       "options": [
         "A) Withhold antepartum Rhogam until newborn type is known when otherwise indicated",
         "B) Give Rhogam to the newborn instead of the mother",
-        "C) Give Rho(D) IG within 72 h if infant Rh-positive and mother eligible",
+        "C) Give Rho(D) immune globulin within 72 h if infant Rh-positive and mother eligible",
         "D) Leave mother alone with infant after harm delusions"
       ],
-      "answer": "C) Give Rho(D) IG within 72 h if infant Rh-positive and mother eligible",
-      "explanation": "Postpartum dose prevents sensitization from birth fetomaternal bleed. Therefore, the most accurate choice is: Give Rho(D) IG within 72 h if infant Rh-positive and mother eligible. Neonatal dosing misses maternal immunization prevention—.",
+      "answer": "C) Give Rho(D) immune globulin within 72 h if infant Rh-positive and mother eligible",
+      "explanation": "Postpartum dose prevents sensitization from birth fetomaternal bleed. Therefore, the most accurate choice is: Give Rho(D) immune globulin within 72 h if infant Rh-positive and mother eligible. Neonatal dosing misses maternal immunization prevention—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Neonatal dosing misses maternal immunization prevention—near-miss. It is less consistent than the correct choice.",
@@ -146,17 +146,17 @@
     },
     {
       "id": "maternity:easy:8",
-      "question": "Which of the following is true of GDM screening?",
+      "question": "Which of the following is true of gestational diabetes mellitus screening?",
       "options": [
-        "A) Screen with glucose challenge/GTT per guidelines; teach monitoring if GDM",
+        "A) Screen with glucose challenge/glucose tolerance test per guidelines; teach monitoring if gestational diabetes mellitus",
         "B) Skip glucose screening despite risk factors and glycosuria",
         "C) Push D5W before thiamine in prolonged hyperemesis with neuro signs risk",
-        "D) Withhold mandated prophylaxis without process when GC risk unknown"
+        "D) Withhold mandated prophylaxis without process when Neisseria gonorrhoeae risk unknown"
       ],
-      "answer": "A) Screen with glucose challenge/GTT per guidelines; teach monitoring if GDM",
-      "explanation": "GDM raises macrosomia and neonatal hypoglycemia risk. Therefore, the most accurate choice is: Screen with glucose challenge/GTT per guidelines; teach monitoring if GDM. Skipped screening misses preventable harm—.",
+      "answer": "A) Screen with glucose challenge/glucose tolerance test per guidelines; teach monitoring if gestational diabetes mellitus",
+      "explanation": "gestational diabetes mellitus raises macrosomia and neonatal hypoglycemia risk. Therefore, the most accurate choice is: Screen with glucose challenge/glucose tolerance test per guidelines; teach monitoring if gestational diabetes mellitus. Skipped screening misses preventable harm—.",
       "choice_explanations": {
-        "A": "GDM raises macrosomia and neonatal hypoglycemia risk. This matches the correct interpretation.",
+        "A": "gestational diabetes mellitus raises macrosomia and neonatal hypoglycemia risk. This matches the correct interpretation.",
         "B": "Skipped screening misses preventable harm—near-miss. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -166,13 +166,13 @@
       "id": "maternity:easy:9",
       "question": "Which finding is expected in preeclampsia features?",
       "options": [
-        "A) New HTN ≥20 weeks plus proteinuria/end-organ severe features needs urgent pathway",
+        "A) New hypertension ≥20 weeks plus proteinuria/end-organ severe features needs urgent pathway",
         "B) Dismiss severe obstetric cholestasis pruritus as dry skin",
-        "C) Give methergine preferentially for PPH in severe preeclampsia",
-        "D) Send home severe headache/visual changes with BP 170s as ‘stress’"
+        "C) Give methergine preferentially for postpartum hemorrhage in severe preeclampsia",
+        "D) Send home severe headache/visual changes with blood pressure 170s as ‘stress’"
       ],
-      "answer": "A) New HTN ≥20 weeks plus proteinuria/end-organ severe features needs urgent pathway",
-      "explanation": "Endothelial disease threatens seizure/stroke/placental abruption. Therefore, the most accurate choice is: New HTN ≥20 weeks plus proteinuria/end-organ severe features needs urgent pathway. Dismissing severe features is a .",
+      "answer": "A) New hypertension ≥20 weeks plus proteinuria/end-organ severe features needs urgent pathway",
+      "explanation": "Endothelial disease threatens seizure/stroke/placental abruption. Therefore, the most accurate choice is: New hypertension ≥20 weeks plus proteinuria/end-organ severe features needs urgent pathway. Dismissing severe features is a .",
       "choice_explanations": {
         "A": "Endothelial disease threatens seizure/stroke/placental abruption. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -184,8 +184,8 @@
       "id": "maternity:easy:10",
       "question": "Which of the following statements about magnesium seizure prophylaxis is correct?",
       "options": [
-        "A) Rely on a single outpatient oral dose at 36 weeks instead of intrapartum IV when indicated",
-        "B) Skip vitamin K claiming breastfeeding alone prevents all VKDB",
+        "A) Rely on a single outpatient oral dose at 36 weeks instead of intrapartum intravenous when indicated",
+        "B) Skip vitamin K claiming breastfeeding alone prevents all vitamin K deficiency bleeding",
         "C) MgSO4 prevents eclamptic seizures in severe disease; monitor for toxicity",
         "D) Skip MgSO4 when indicated and rely on phenytoin alone against standard protocols"
       ],
@@ -202,13 +202,13 @@
       "id": "maternity:easy:11",
       "question": "In magnesium toxicity care, which of the following is correct?",
       "options": [
-        "A) Increase Mg infusion when reflexes disappear and RR is 8",
-        "B) Absent reflexes, RR↓, low UOP—stop Mg, calcium gluconate per protocol",
+        "A) Increase Mg infusion when reflexes disappear and respiratory rate is 8",
+        "B) Absent reflexes, respiratory rate↓, low urine output—stop Mg, calcium gluconate per protocol",
         "C) Increase oxytocin to overcome late decelerations",
         "D) Keep supine and increase oxytocin during fetal bradycardia"
       ],
-      "answer": "B) Absent reflexes, RR↓, low UOP—stop Mg, calcium gluconate per protocol",
-      "explanation": "Hypermagnesemia causes neuromuscular blockade. Therefore, the most accurate choice is: Absent reflexes, RR↓, low UOP—stop Mg, calcium gluconate per protocol. More Mg during toxicity is lethal—.",
+      "answer": "B) Absent reflexes, respiratory rate↓, low urine output—stop Mg, calcium gluconate per protocol",
+      "explanation": "Hypermagnesemia causes neuromuscular blockade. Therefore, the most accurate choice is: Absent reflexes, respiratory rate↓, low urine output—stop Mg, calcium gluconate per protocol. More Mg during toxicity is lethal—.",
       "choice_explanations": {
         "A": "More Mg during toxicity is lethal—near-miss. It is less consistent than the correct choice.",
         "B": "Hypermagnesemia causes neuromuscular blockade. This matches the correct interpretation.",
@@ -218,18 +218,18 @@
     },
     {
       "id": "maternity:easy:12",
-      "question": "Which of the following best describes HELLP syndrome?",
+      "question": "Which of the following best describes hemolysis, elevated liver enzymes, and low platelets syndrome syndrome?",
       "options": [
-        "A) RUQ pain + hemolysis/elevated LFTs/low platelets—emergency OB care",
-        "B) Treat RUQ pain in hypertensive pregnancy as heartburn without labs",
+        "A) right upper quadrant pain + hemolysis/elevated liver function tests/low platelets—emergency obstetrics care",
+        "B) Treat right upper quadrant pain in hypertensive pregnancy as heartburn without labs",
         "C) Discharge unstable adnexal pain with empty uterus without protocol follow-up",
         "D) Ambulate and reassure board-like abdomen after cocaine use without evaluation"
       ],
-      "answer": "A) RUQ pain + hemolysis/elevated LFTs/low platelets—emergency OB care",
-      "explanation": "Microangiopathy can outpace classic proteinuria presentation. Therefore, the most accurate choice is: RUQ pain + hemolysis/elevated LFTs/low platelets—emergency OB care. Heartburn assumption misses HELLP—.",
+      "answer": "A) right upper quadrant pain + hemolysis/elevated liver function tests/low platelets—emergency obstetrics care",
+      "explanation": "Microangiopathy can outpace classic proteinuria presentation. Therefore, the most accurate choice is: right upper quadrant pain + hemolysis/elevated liver function tests/low platelets—emergency obstetrics care. Heartburn assumption misses hemolysis, elevated liver enzymes, and low platelets syndrome—.",
       "choice_explanations": {
         "A": "Microangiopathy can outpace classic proteinuria presentation. This matches the correct interpretation.",
-        "B": "Heartburn assumption misses HELLP—near-miss. It is less consistent than the correct choice.",
+        "B": "Heartburn assumption misses hemolysis, elevated liver enzymes, and low platelets syndrome—near-miss. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -238,8 +238,8 @@
       "id": "maternity:easy:13",
       "question": "Select the correct statement about placenta previa exam.",
       "options": [
-        "A) Perform frequent unnecessary digital exams after PROM",
-        "B) Delay blood until cardiac arrest from PPH",
+        "A) Perform frequent unnecessary digital exams after prelabor rupture of membranes",
+        "B) Delay blood until cardiac arrest from postpartum hemorrhage",
         "C) Perform digital exam for painless bleeding before ultrasound localization",
         "D) Painless third-trimester bleeding—no digital vaginal exam until placenta localized"
       ],
@@ -276,7 +276,7 @@
       "options": [
         "A) Elevate presenting part, knee-chest/Trendelenburg, emergent delivery—do not leave",
         "B) Leave mother alone with infant after harm delusions",
-        "C) Push cord back and send patient to walk to OR alone",
+        "C) Push cord back and send patient to walk to operating room alone",
         "D) Wipe cord dry and wait hours for next clinic appointment"
       ],
       "answer": "A) Elevate presenting part, knee-chest/Trendelenburg, emergent delivery—do not leave",
@@ -308,7 +308,7 @@
     },
     {
       "id": "maternity:easy:17",
-      "question": "Which finding matches uterine atony PPH?",
+      "question": "Which finding matches uterine atony postpartum hemorrhage?",
       "options": [
         "A) Start with carboprost before oxytocin without reason in routine atony",
         "B) Fundal massage, empty bladder, uterotonics, escalate hemorrhage bundle",
@@ -316,28 +316,28 @@
         "D) Go search for a chart before touching a boggy hemorrhaging fundus"
       ],
       "answer": "B) Fundal massage, empty bladder, uterotonics, escalate hemorrhage bundle",
-      "explanation": "Tone failure is the leading PPH cause. Therefore, the most accurate choice is: Fundal massage, empty bladder, uterotonics, escalate hemorrhage bundle. Withholding first-line tone measures is a .",
+      "explanation": "Tone failure is the leading postpartum hemorrhage cause. Therefore, the most accurate choice is: Fundal massage, empty bladder, uterotonics, escalate hemorrhage bundle. Withholding first-line tone measures is a .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Tone failure is the leading PPH cause. This matches the correct interpretation.",
+        "B": "Tone failure is the leading postpartum hemorrhage cause. This matches the correct interpretation.",
         "C": "Withholding first-line tone measures is a near-miss. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "maternity:easy:18",
-      "question": "Which of the following statements about methergine HTN caution is correct?",
+      "question": "Which of the following statements about methergine hypertension caution is correct?",
       "options": [
         "A) Avoid methylergonovine in hypertension/preeclampsia",
-        "B) Give methergine preferentially for PPH in severe preeclampsia",
-        "C) Send home severe headache/visual changes with BP 170s as ‘stress’",
-        "D) Choose carboprost first for asthmatic PPH without caution"
+        "B) Give methergine preferentially for postpartum hemorrhage in severe preeclampsia",
+        "C) Send home severe headache/visual changes with blood pressure 170s as ‘stress’",
+        "D) Choose carboprost first for asthmatic postpartum hemorrhage without caution"
       ],
       "answer": "A) Avoid methylergonovine in hypertension/preeclampsia",
-      "explanation": "Ergot vasoconstriction dangerously elevates BP. Therefore, the most accurate choice is: Avoid methylergonovine in hypertension/preeclampsia. Methergine in HTN is a classic .",
+      "explanation": "Ergot vasoconstriction dangerously elevates blood pressure. Therefore, the most accurate choice is: Avoid methylergonovine in hypertension/preeclampsia. Methergine in hypertension is a classic .",
       "choice_explanations": {
-        "A": "Ergot vasoconstriction dangerously elevates BP. This matches the correct interpretation.",
-        "B": "Methergine in HTN is a classic near-miss. It is less consistent than the correct choice.",
+        "A": "Ergot vasoconstriction dangerously elevates blood pressure. This matches the correct interpretation.",
+        "B": "Methergine in hypertension is a classic near-miss. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -346,15 +346,15 @@
       "id": "maternity:easy:19",
       "question": "In hemabate asthma caution, which of the following is correct?",
       "options": [
-        "A) Choose carboprost first for asthmatic PPH without caution",
-        "B) Give methergine preferentially for PPH in severe preeclampsia",
+        "A) Choose carboprost first for asthmatic postpartum hemorrhage without caution",
+        "B) Give methergine preferentially for postpartum hemorrhage in severe preeclampsia",
         "C) Caution/avoid carboprost in asthma due to bronchospasm risk",
         "D) Start with carboprost before oxytocin without reason in routine atony"
       ],
       "answer": "C) Caution/avoid carboprost in asthma due to bronchospasm risk",
-      "explanation": "PGF2α analogs may trigger bronchospasm. Therefore, the most accurate choice is: Caution/avoid carboprost in asthma due to bronchospasm risk. Asthma + carboprost without caution is a .",
+      "explanation": "PGF2α analogs may trigger bronchospasm. Therefore, the most accurate choice is: Caution/avoid carboprost in asthma due to bronchospasm risk. asthma + carboprost without caution is a .",
       "choice_explanations": {
-        "A": "Asthma + carboprost without caution is a near-miss. It is less consistent than the correct choice.",
+        "A": "asthma + carboprost without caution is a near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "PGF2α analogs may trigger bronchospasm. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -367,10 +367,10 @@
         "A) Increase oxytocin during tachysystole with decelerations",
         "B) Keep supine and increase oxytocin during fetal bradycardia",
         "C) Increase oxytocin to overcome late decelerations",
-        "D) Stop oxytocin, left lateral, fluids/O2 per protocol, notify—uteroplacental insufficiency pattern"
+        "D) Stop oxytocin, left lateral, fluids/oxygen per protocol, notify—uteroplacental insufficiency pattern"
       ],
-      "answer": "D) Stop oxytocin, left lateral, fluids/O2 per protocol, notify—uteroplacental insufficiency pattern",
-      "explanation": "Lates reflect impaired placental reserve during contractions. Therefore, the most accurate choice is: Stop oxytocin, left lateral, fluids/O2 per protocol, notify—uteroplacental insufficiency pattern. More oxytocin worsens insufficiency—.",
+      "answer": "D) Stop oxytocin, left lateral, fluids/oxygen per protocol, notify—uteroplacental insufficiency pattern",
+      "explanation": "Lates reflect impaired placental reserve during contractions. Therefore, the most accurate choice is: Stop oxytocin, left lateral, fluids/oxygen per protocol, notify—uteroplacental insufficiency pattern. More oxytocin worsens insufficiency—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -398,19 +398,19 @@
     },
     {
       "id": "maternity:easy:22",
-      "question": "Which mechanism accounts for category III tracing?",
+      "question": "Which mechanism accounts for category 3 tracing?",
       "options": [
         "A) Continue oxytocin despite scar pain and prolonged decelerations",
-        "B) Continue Pitocin unchanged without notification for Category III",
+        "B) Continue Pitocin unchanged without notification for Category 3",
         "C) Absent variability with recurrent lates/variables or bradycardia—resuscitate and expedite",
-        "D) Choose carboprost first for asthmatic PPH without caution"
+        "D) Choose carboprost first for asthmatic postpartum hemorrhage without caution"
       ],
       "answer": "C) Absent variability with recurrent lates/variables or bradycardia—resuscitate and expedite",
-      "explanation": "Category III associates with acidemia risk needing action. Therefore, the most accurate choice is: Absent variability with recurrent lates/variables or bradycardia—resuscitate and expedite. Inaction is a .",
+      "explanation": "Category 3 associates with acidemia risk needing action. Therefore, the most accurate choice is: Absent variability with recurrent lates/variables or bradycardia—resuscitate and expedite. Inaction is a .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Inaction is a near-miss. It is less consistent than the correct choice.",
-        "C": "Category III associates with acidemia risk needing action. This matches the correct interpretation.",
+        "C": "Category 3 associates with acidemia risk needing action. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -421,10 +421,10 @@
         "A) Keep supine and increase oxytocin during fetal bradycardia",
         "B) Increase oxytocin to overcome late decelerations",
         "C) Increase oxytocin during tachysystole with decelerations",
-        "D) Left lateral, stop uterotonics, bolus as ordered, O2 per protocol"
+        "D) Left lateral, stop uterotonics, bolus as ordered, oxygen per protocol"
       ],
-      "answer": "D) Left lateral, stop uterotonics, bolus as ordered, O2 per protocol",
-      "explanation": "Steps maximize perfusion and reduce tachysystole. Therefore, the most accurate choice is: Left lateral, stop uterotonics, bolus as ordered, O2 per protocol. Supine + more oxytocin worsens insult—.",
+      "answer": "D) Left lateral, stop uterotonics, bolus as ordered, oxygen per protocol",
+      "explanation": "Steps maximize perfusion and reduce tachysystole. Therefore, the most accurate choice is: Left lateral, stop uterotonics, bolus as ordered, oxygen per protocol. Supine + more oxytocin worsens insult—.",
       "choice_explanations": {
         "A": "Supine + more oxytocin worsens insult—near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -436,23 +436,23 @@
       "id": "maternity:easy:24",
       "question": "Which of the following is true of epidural hypotension?",
       "options": [
-        "A) Delay obstetric involvement for 30 minutes of futile ALS without uterine emptying consideration",
+        "A) Delay obstetric involvement for 30 minutes of futile amyotrophic lateral sclerosis without uterine emptying consideration",
         "B) Leave newly hypotensive post-epidural mother fully supine without displacement",
-        "C) IV co-load per protocol, BP monitoring, uterine displacement, vasopressors as ordered",
+        "C) intravenous co-load per protocol, blood pressure monitoring, uterine displacement, vasopressors as ordered",
         "D) Keep supine and increase oxytocin during fetal bradycardia"
       ],
-      "answer": "C) IV co-load per protocol, BP monitoring, uterine displacement, vasopressors as ordered",
-      "explanation": "Sympathetic block + aortocaval compression drop BP/uteroplacental flow. Therefore, the most accurate choice is: IV co-load per protocol, BP monitoring, uterine displacement, vasopressors as ordered. No displacement is a .",
+      "answer": "C) intravenous co-load per protocol, blood pressure monitoring, uterine displacement, vasopressors as ordered",
+      "explanation": "Sympathetic block + aortocaval compression drop blood pressure/uteroplacental flow. Therefore, the most accurate choice is: intravenous co-load per protocol, blood pressure monitoring, uterine displacement, vasopressors as ordered. No displacement is a .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "No displacement is a near-miss. It is less consistent than the correct choice.",
-        "C": "Sympathetic block + aortocaval compression drop BP/uteroplacental flow. This matches the correct interpretation.",
+        "C": "Sympathetic block + aortocaval compression drop blood pressure/uteroplacental flow. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "maternity:easy:25",
-      "question": "Which finding is expected in VBAC rupture?",
+      "question": "Which finding is expected in vaginal birth after cesarean rupture?",
       "options": [
         "A) Continue oxytocin despite scar pain and prolonged decelerations",
         "B) Discharge unstable adnexal pain with empty uterus without protocol follow-up",
@@ -470,20 +470,20 @@
     },
     {
       "id": "maternity:easy:26",
-      "question": "Which of the following statements about classical scar TOLAC is correct?",
+      "question": "Which of the following statements about classical scar trial of labor after cesarean is correct?",
       "options": [
         "A) Continue oxytocin despite scar pain and prolonged decelerations",
-        "B) Prior classical/vertical incision generally contraindicates TOLAC",
-        "C) Omit rupture risk discussion to improve TOLAC uptake numbers",
-        "D) Offer routine TOLAC for classical scar without specialist counseling"
+        "B) Prior classical/vertical incision generally contraindicates trial of labor after cesarean",
+        "C) Omit rupture risk discussion to improve trial of labor after cesarean uptake numbers",
+        "D) Offer routine trial of labor after cesarean for classical scar without specialist counseling"
       ],
-      "answer": "B) Prior classical/vertical incision generally contraindicates TOLAC",
-      "explanation": "Vertical scars have high rupture risk in labor. Therefore, the most accurate choice is: Prior classical/vertical incision generally contraindicates TOLAC. Uncounseled TOLAC offer is a .",
+      "answer": "B) Prior classical/vertical incision generally contraindicates trial of labor after cesarean",
+      "explanation": "Vertical scars have high rupture risk in labor. Therefore, the most accurate choice is: Prior classical/vertical incision generally contraindicates trial of labor after cesarean. Uncounseled trial of labor after cesarean offer is a .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Vertical scars have high rupture risk in labor. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Uncounseled TOLAC offer is a near-miss. It is less consistent than the correct choice."
+        "D": "Uncounseled trial of labor after cesarean offer is a near-miss. It is less consistent than the correct choice."
       }
     },
     {
@@ -496,11 +496,11 @@
         "D) Go search for a chart before touching a boggy hemorrhaging fundus"
       ],
       "answer": "C) Firm midline fundus; massage boggy uterus; assess lochia/bladder",
-      "explanation": "Tone + empty bladder prevent PPH. Therefore, the most accurate choice is: Firm midline fundus; massage boggy uterus; assess lochia/bladder. Full bladder displaces and bogifies— if ignored.",
+      "explanation": "Tone + empty bladder prevent postpartum hemorrhage. Therefore, the most accurate choice is: Firm midline fundus; massage boggy uterus; assess lochia/bladder. Full bladder displaces and bogifies— if ignored.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Tone + empty bladder prevent PPH. This matches the correct interpretation.",
+        "C": "Tone + empty bladder prevent postpartum hemorrhage. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
@@ -524,53 +524,53 @@
     },
     {
       "id": "maternity:easy:29",
-      "question": "Select the correct statement about postpartum blues vs PPD.",
+      "question": "Select the correct statement about postpartum blues versus purified protein derivative.",
       "options": [
         "A) Dismiss severe obstetric cholestasis pruritus as dry skin",
         "B) Give cefazolin alternatives incorrectly or skip all prophylaxis due to remote mild rash without allergy assessment",
-        "C) Blues mild/transient; PPD persistent impairment—screen and escalate",
+        "C) Blues mild/transient; purified protein derivative persistent impairment—screen and escalate",
         "D) Dismiss suicidal ideation at week 3 as blues"
       ],
-      "answer": "C) Blues mild/transient; PPD persistent impairment—screen and escalate",
-      "explanation": "Safety features never equal blues. Therefore, the most accurate choice is: Blues mild/transient; PPD persistent impairment—screen and escalate. SI is not blues—.",
+      "answer": "C) Blues mild/transient; purified protein derivative persistent impairment—screen and escalate",
+      "explanation": "Safety features never equal blues. Therefore, the most accurate choice is: Blues mild/transient; purified protein derivative persistent impairment—screen and escalate. suicidal ideation is not blues—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Safety features never equal blues. This matches the correct interpretation.",
-        "D": "SI is not blues—near-miss. It is less consistent than the correct choice."
+        "D": "suicidal ideation is not blues—near-miss. It is less consistent than the correct choice."
       }
     }
   ],
   "medium": [
     {
       "id": "maternity:medium:0",
-      "question": "A 33-year-old woman is admitted with naegele EDD calculation. Which nursing action is most appropriate?",
+      "question": "A 19-year-old woman is admitted with naegele estimated due date calculation. Which nursing action is most appropriate?",
       "options": [
         "A) Start combined OCPs day 1 postpartum while exclusively breastfeeding without guidance",
         "B) Diagnose pregnancy from amenorrhea without testing",
-        "C) EDD ≈ LMP − 3 months + 7 days (+1 year) with ultrasound refinement when needed",
-        "D) Date pregnancy solely from home-test day without LMP/US context"
+        "C) estimated due date ≈ last menstrual period − 3 months + 7 days (+1 year) with ultrasound refinement when needed",
+        "D) Date pregnancy solely from home-test day without last menstrual period/ultrasound context"
       ],
-      "answer": "C) EDD ≈ LMP − 3 months + 7 days (+1 year) with ultrasound refinement when needed",
-      "explanation": "Naegele estimates gestational age from LMP; ultrasound corrects uncertain dates. Therefore, the most accurate choice is: EDD ≈ LMP − 3 months + 7 days (+1 year) with ultrasound refinement when needed. Home-test dating alone is inaccurate—.",
+      "answer": "C) estimated due date ≈ last menstrual period − 3 months + 7 days (+1 year) with ultrasound refinement when needed",
+      "explanation": "Naegele estimates gestational age from last menstrual period; ultrasound corrects uncertain dates. Therefore, the most accurate choice is: estimated due date ≈ last menstrual period − 3 months + 7 days (+1 year) with ultrasound refinement when needed. Home-test dating alone is inaccurate—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Naegele estimates gestational age from LMP; ultrasound corrects uncertain dates. This matches the correct interpretation.",
+        "C": "Naegele estimates gestational age from last menstrual period; ultrasound corrects uncertain dates. This matches the correct interpretation.",
         "D": "Home-test dating alone is inaccurate—near-miss. It is less consistent than the correct choice."
       }
     },
     {
       "id": "maternity:medium:1",
-      "question": "A 19-year-old woman develops findings of GTPAL history. What is the priority assessment?",
+      "question": "A 26-year-old woman develops findings of gravida, term, preterm, abortion, living history. What is the priority assessment?",
       "options": [
-        "A) Omit rupture risk discussion to improve TOLAC uptake numbers",
-        "B) Use GTPAL/gravida-para conventions to capture obstetric history precisely",
+        "A) Omit rupture risk discussion to improve trial of labor after cesarean uptake numbers",
+        "B) Use gravida, term, preterm, abortion, living/gravida-para conventions to capture obstetric history precisely",
         "C) Treat day-1 jaundice as always physiologic",
         "D) Treat gravida and para as identical numbers always"
       ],
-      "answer": "B) Use GTPAL/gravida-para conventions to capture obstetric history precisely",
-      "explanation": "Detailed obstetric history stratifies risk. Therefore, the most accurate choice is: Use GTPAL/gravida-para conventions to capture obstetric history precisely. Equating G and P loses abortions/preterms—.",
+      "answer": "B) Use gravida, term, preterm, abortion, living/gravida-para conventions to capture obstetric history precisely",
+      "explanation": "Detailed obstetric history stratifies risk. Therefore, the most accurate choice is: Use gravida, term, preterm, abortion, living/gravida-para conventions to capture obstetric history precisely. Equating G and P loses abortions/preterms—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Detailed obstetric history stratifies risk. This matches the correct interpretation.",
@@ -580,11 +580,11 @@
     },
     {
       "id": "maternity:medium:2",
-      "question": "A 26-year-old woman has findings requiring interpretation of presumptive. Which of the following is correct?",
+      "question": "A 33-year-old woman has findings requiring interpretation of presumptive. Which of the following is correct?",
       "options": [
         "A) Diagnose pregnancy from amenorrhea without testing",
         "B) Call Chadwick sign a positive diagnostic sign equal to FHTs",
-        "C) Date pregnancy solely from home-test day without LMP/US context",
+        "C) Date pregnancy solely from home-test day without last menstrual period/ultrasound context",
         "D) Amenorrhea/nausea/breast changes are presumptive, not diagnostic alone"
       ],
       "answer": "D) Amenorrhea/nausea/breast changes are presumptive, not diagnostic alone",
@@ -598,7 +598,7 @@
     },
     {
       "id": "maternity:medium:3",
-      "question": "A 33-year-old woman needs a care plan for positive pregnancy. Which of the following is most appropriate?",
+      "question": "A 19-year-old woman needs a care plan for positive pregnancy. Which of the following is most appropriate?",
       "options": [
         "A) Pull harder on the head without calling help when turtle sign appears",
         "B) Call Chadwick sign a positive diagnostic sign equal to FHTs",
@@ -618,10 +618,10 @@
       "id": "maternity:medium:4",
       "question": "Bedside assessment suggests fundal height 20 weeks. Which of the following is correct?",
       "options": [
-        "A) Perform prolonged supine CPR at 32 weeks without displacement",
+        "A) Perform prolonged supine cardiopulmonary resuscitation at 32 weeks without displacement",
         "B) Fundus near umbilicus ≈20 weeks; cm≈weeks in mid-pregnancy if congruent",
         "C) Expect fundus at xiphoid at 12 weeks",
-        "D) Date pregnancy solely from home-test day without LMP/US context"
+        "D) Date pregnancy solely from home-test day without last menstrual period/ultrasound context"
       ],
       "answer": "B) Fundus near umbilicus ≈20 weeks; cm≈weeks in mid-pregnancy if congruent",
       "explanation": "Landmarks detect growth/fluid/date problems. Therefore, the most accurate choice is: Fundus near umbilicus ≈20 weeks; cm≈weeks in mid-pregnancy if congruent. Wrong landmark timing misdates—.",
@@ -634,12 +634,12 @@
     },
     {
       "id": "maternity:medium:5",
-      "question": "A 26-year-old woman undergoes assessment involving quickening timing. Which of the following is most accurate?",
+      "question": "A 33-year-old woman undergoes assessment involving quickening timing. Which of the following is most accurate?",
       "options": [
         "A) Expect definite quickening at 8 weeks in all pregnancies",
         "B) Expect fundus at xiphoid at 12 weeks",
         "C) First movements often 16–20 weeks (earlier if multipara)",
-        "D) Perform prolonged supine CPR at 32 weeks without displacement"
+        "D) Perform prolonged supine cardiopulmonary resuscitation at 32 weeks without displacement"
       ],
       "answer": "C) First movements often 16–20 weeks (earlier if multipara)",
       "explanation": "Perception timing varies; later kick counts matter more for surveillance. Therefore, the most accurate choice is: First movements often 16–20 weeks (earlier if multipara). 8-week expectation causes false alarm—.",
@@ -652,15 +652,15 @@
     },
     {
       "id": "maternity:medium:6",
-      "question": "While caring for a 33-year-old woman, rhogam 28 weeks is suspected. Which of the following is correct?",
+      "question": "While caring for a 19-year-old woman, rhogam 28 weeks is suspected. Which of the following is correct?",
       "options": [
-        "A) Skip Rh status assessment during early pregnancy bleeding",
+        "A) Skip Rhesus status assessment during early pregnancy bleeding",
         "B) Withhold antepartum Rhogam until newborn type is known when otherwise indicated",
         "C) Skip antepartum Tdap because childhood dose ‘lasts forever’",
-        "D) Rh-negative unsensitized patients receive Rho(D) IG ≈28 weeks and after events"
+        "D) Rh-negative unsensitized patients receive Rho(D) immune globulin ≈28 weeks and after events"
       ],
-      "answer": "D) Rh-negative unsensitized patients receive Rho(D) IG ≈28 weeks and after events",
-      "explanation": "Antepartum dose prevents sensitization during pregnancy. Therefore, the most accurate choice is: Rh-negative unsensitized patients receive Rho(D) IG ≈28 weeks and after events. Waiting for newborn type antepartum is a .",
+      "answer": "D) Rh-negative unsensitized patients receive Rho(D) immune globulin ≈28 weeks and after events",
+      "explanation": "Antepartum dose prevents sensitization during pregnancy. Therefore, the most accurate choice is: Rh-negative unsensitized patients receive Rho(D) immune globulin ≈28 weeks and after events. Waiting for newborn type antepartum is a .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Waiting for newborn type antepartum is a near-miss. It is less consistent than the correct choice.",
@@ -670,15 +670,15 @@
     },
     {
       "id": "maternity:medium:7",
-      "question": "A 19-year-old woman is monitored for complications of rhogam postpartum window. Which of the following is most appropriate?",
+      "question": "A 26-year-old woman is monitored for complications of rhogam postpartum window. Which of the following is most appropriate?",
       "options": [
         "A) Give Rhogam to the newborn instead of the mother",
-        "B) Give Rho(D) IG within 72 h if infant Rh-positive and mother eligible",
+        "B) Give Rho(D) immune globulin within 72 h if infant Rh-positive and mother eligible",
         "C) Leave mother alone with infant after harm delusions",
         "D) Withhold antepartum Rhogam until newborn type is known when otherwise indicated"
       ],
-      "answer": "B) Give Rho(D) IG within 72 h if infant Rh-positive and mother eligible",
-      "explanation": "Postpartum dose prevents sensitization from birth fetomaternal bleed. Therefore, the most accurate choice is: Give Rho(D) IG within 72 h if infant Rh-positive and mother eligible. Neonatal dosing misses maternal immunization prevention—.",
+      "answer": "B) Give Rho(D) immune globulin within 72 h if infant Rh-positive and mother eligible",
+      "explanation": "Postpartum dose prevents sensitization from birth fetomaternal bleed. Therefore, the most accurate choice is: Give Rho(D) immune globulin within 72 h if infant Rh-positive and mother eligible. Neonatal dosing misses maternal immunization prevention—.",
       "choice_explanations": {
         "A": "Neonatal dosing misses maternal immunization prevention—near-miss. It is less consistent than the correct choice.",
         "B": "Postpartum dose prevents sensitization from birth fetomaternal bleed. This matches the correct interpretation.",
@@ -688,33 +688,33 @@
     },
     {
       "id": "maternity:medium:8",
-      "question": "A 26-year-old woman is admitted with GDM screening. Which nursing action is most appropriate?",
+      "question": "A 33-year-old woman is admitted with gestational diabetes mellitus screening. Which nursing action is most appropriate?",
       "options": [
         "A) Skip glucose screening despite risk factors and glycosuria",
-        "B) Withhold mandated prophylaxis without process when GC risk unknown",
-        "C) Screen with glucose challenge/GTT per guidelines; teach monitoring if GDM",
+        "B) Withhold mandated prophylaxis without process when Neisseria gonorrhoeae risk unknown",
+        "C) Screen with glucose challenge/glucose tolerance test per guidelines; teach monitoring if gestational diabetes mellitus",
         "D) Skip neonatal exam after difficult shoulder delivery"
       ],
-      "answer": "C) Screen with glucose challenge/GTT per guidelines; teach monitoring if GDM",
-      "explanation": "GDM raises macrosomia and neonatal hypoglycemia risk. Therefore, the most accurate choice is: Screen with glucose challenge/GTT per guidelines; teach monitoring if GDM. Skipped screening misses preventable harm—.",
+      "answer": "C) Screen with glucose challenge/glucose tolerance test per guidelines; teach monitoring if gestational diabetes mellitus",
+      "explanation": "gestational diabetes mellitus raises macrosomia and neonatal hypoglycemia risk. Therefore, the most accurate choice is: Screen with glucose challenge/glucose tolerance test per guidelines; teach monitoring if gestational diabetes mellitus. Skipped screening misses preventable harm—.",
       "choice_explanations": {
         "A": "Skipped screening misses preventable harm—near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "GDM raises macrosomia and neonatal hypoglycemia risk. This matches the correct interpretation.",
+        "C": "gestational diabetes mellitus raises macrosomia and neonatal hypoglycemia risk. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "maternity:medium:9",
-      "question": "A 33-year-old woman develops findings of preeclampsia features. What is the priority assessment?",
+      "question": "A 19-year-old woman develops findings of preeclampsia features. What is the priority assessment?",
       "options": [
-        "A) Give methergine preferentially for PPH in severe preeclampsia",
+        "A) Give methergine preferentially for postpartum hemorrhage in severe preeclampsia",
         "B) Dismiss severe obstetric cholestasis pruritus as dry skin",
-        "C) New HTN ≥20 weeks plus proteinuria/end-organ severe features needs urgent pathway",
-        "D) Send home severe headache/visual changes with BP 170s as ‘stress’"
+        "C) New hypertension ≥20 weeks plus proteinuria/end-organ severe features needs urgent pathway",
+        "D) Send home severe headache/visual changes with blood pressure 170s as ‘stress’"
       ],
-      "answer": "C) New HTN ≥20 weeks plus proteinuria/end-organ severe features needs urgent pathway",
-      "explanation": "Endothelial disease threatens seizure/stroke/placental abruption. Therefore, the most accurate choice is: New HTN ≥20 weeks plus proteinuria/end-organ severe features needs urgent pathway. Dismissing severe features is a .",
+      "answer": "C) New hypertension ≥20 weeks plus proteinuria/end-organ severe features needs urgent pathway",
+      "explanation": "Endothelial disease threatens seizure/stroke/placental abruption. Therefore, the most accurate choice is: New hypertension ≥20 weeks plus proteinuria/end-organ severe features needs urgent pathway. Dismissing severe features is a .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -724,12 +724,12 @@
     },
     {
       "id": "maternity:medium:10",
-      "question": "A 19-year-old woman shows signs of magnesium seizure prophylaxis on the unit. Which of the following is correct?",
+      "question": "A 26-year-old woman shows signs of magnesium seizure prophylaxis on the unit. Which of the following is correct?",
       "options": [
         "A) Skip MgSO4 when indicated and rely on phenytoin alone against standard protocols",
-        "B) Skip vitamin K claiming breastfeeding alone prevents all VKDB",
+        "B) Skip vitamin K claiming breastfeeding alone prevents all vitamin K deficiency bleeding",
         "C) MgSO4 prevents eclamptic seizures in severe disease; monitor for toxicity",
-        "D) Rely on a single outpatient oral dose at 36 weeks instead of intrapartum IV when indicated"
+        "D) Rely on a single outpatient oral dose at 36 weeks instead of intrapartum intravenous when indicated"
       ],
       "answer": "C) MgSO4 prevents eclamptic seizures in severe disease; monitor for toxicity",
       "explanation": "Magnesium is first-line seizure prophylaxis in preeclampsia protocols. Therefore, the most accurate choice is: MgSO4 prevents eclamptic seizures in severe disease; monitor for toxicity. Skipping Mg when indicated is a .",
@@ -742,15 +742,15 @@
     },
     {
       "id": "maternity:medium:11",
-      "question": "A 26-year-old woman needs a care plan for magnesium toxicity care. Which of the following is most appropriate?",
+      "question": "A 33-year-old woman needs a care plan for magnesium toxicity care. Which of the following is most appropriate?",
       "options": [
-        "A) Absent reflexes, RR↓, low UOP—stop Mg, calcium gluconate per protocol",
+        "A) Absent reflexes, respiratory rate↓, low urine output—stop Mg, calcium gluconate per protocol",
         "B) Increase oxytocin to overcome late decelerations",
-        "C) Increase Mg infusion when reflexes disappear and RR is 8",
+        "C) Increase Mg infusion when reflexes disappear and respiratory rate is 8",
         "D) Keep supine and increase oxytocin during fetal bradycardia"
       ],
-      "answer": "A) Absent reflexes, RR↓, low UOP—stop Mg, calcium gluconate per protocol",
-      "explanation": "Hypermagnesemia causes neuromuscular blockade. Therefore, the most accurate choice is: Absent reflexes, RR↓, low UOP—stop Mg, calcium gluconate per protocol. More Mg during toxicity is lethal—.",
+      "answer": "A) Absent reflexes, respiratory rate↓, low urine output—stop Mg, calcium gluconate per protocol",
+      "explanation": "Hypermagnesemia causes neuromuscular blockade. Therefore, the most accurate choice is: Absent reflexes, respiratory rate↓, low urine output—stop Mg, calcium gluconate per protocol. More Mg during toxicity is lethal—.",
       "choice_explanations": {
         "A": "Hypermagnesemia causes neuromuscular blockade. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -760,29 +760,29 @@
     },
     {
       "id": "maternity:medium:12",
-      "question": "Bedside assessment suggests HELLP syndrome. Which of the following is correct?",
+      "question": "Bedside assessment suggests hemolysis, elevated liver enzymes, and low platelets syndrome syndrome. Which of the following is correct?",
       "options": [
-        "A) RUQ pain + hemolysis/elevated LFTs/low platelets—emergency OB care",
+        "A) right upper quadrant pain + hemolysis/elevated liver function tests/low platelets—emergency obstetrics care",
         "B) Ambulate and reassure board-like abdomen after cocaine use without evaluation",
-        "C) Treat RUQ pain in hypertensive pregnancy as heartburn without labs",
+        "C) Treat right upper quadrant pain in hypertensive pregnancy as heartburn without labs",
         "D) Discharge unstable adnexal pain with empty uterus without protocol follow-up"
       ],
-      "answer": "A) RUQ pain + hemolysis/elevated LFTs/low platelets—emergency OB care",
-      "explanation": "Microangiopathy can outpace classic proteinuria presentation. Therefore, the most accurate choice is: RUQ pain + hemolysis/elevated LFTs/low platelets—emergency OB care. Heartburn assumption misses HELLP—.",
+      "answer": "A) right upper quadrant pain + hemolysis/elevated liver function tests/low platelets—emergency obstetrics care",
+      "explanation": "Microangiopathy can outpace classic proteinuria presentation. Therefore, the most accurate choice is: right upper quadrant pain + hemolysis/elevated liver function tests/low platelets—emergency obstetrics care. Heartburn assumption misses hemolysis, elevated liver enzymes, and low platelets syndrome—.",
       "choice_explanations": {
         "A": "Microangiopathy can outpace classic proteinuria presentation. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Heartburn assumption misses HELLP—near-miss. It is less consistent than the correct choice.",
+        "C": "Heartburn assumption misses hemolysis, elevated liver enzymes, and low platelets syndrome—near-miss. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "maternity:medium:13",
-      "question": "A 19-year-old woman has vital-sign changes due to placenta previa exam. Which of the following is most accurate?",
+      "question": "A 26-year-old woman has vital-sign changes due to placenta previa exam. Which of the following is most accurate?",
       "options": [
         "A) Perform digital exam for painless bleeding before ultrasound localization",
-        "B) Perform frequent unnecessary digital exams after PROM",
-        "C) Delay blood until cardiac arrest from PPH",
+        "B) Perform frequent unnecessary digital exams after prelabor rupture of membranes",
+        "C) Delay blood until cardiac arrest from postpartum hemorrhage",
         "D) Painless third-trimester bleeding—no digital vaginal exam until placenta localized"
       ],
       "answer": "D) Painless third-trimester bleeding—no digital vaginal exam until placenta localized",
@@ -796,7 +796,7 @@
     },
     {
       "id": "maternity:medium:14",
-      "question": "While caring for a 26-year-old woman, placental abruption is suspected. Which of the following is correct?",
+      "question": "While caring for a 33-year-old woman, placental abruption is suspected. Which of the following is correct?",
       "options": [
         "A) Advise stopping breastfeeding immediately for any jaundice without evaluation",
         "B) Ambulate and reassure board-like abdomen after cocaine use without evaluation",
@@ -814,11 +814,11 @@
     },
     {
       "id": "maternity:medium:15",
-      "question": "A 33-year-old woman is monitored for complications of cord prolapse response. Which of the following is most appropriate?",
+      "question": "A 19-year-old woman is monitored for complications of cord prolapse response. Which of the following is most appropriate?",
       "options": [
         "A) Leave mother alone with infant after harm delusions",
         "B) Elevate presenting part, knee-chest/Trendelenburg, emergent delivery—do not leave",
-        "C) Push cord back and send patient to walk to OR alone",
+        "C) Push cord back and send patient to walk to operating room alone",
         "D) Wipe cord dry and wait hours for next clinic appointment"
       ],
       "answer": "B) Elevate presenting part, knee-chest/Trendelenburg, emergent delivery—do not leave",
@@ -832,7 +832,7 @@
     },
     {
       "id": "maternity:medium:16",
-      "question": "A 19-year-old woman is admitted with shoulder dystocia maneuvers. Which nursing action is most appropriate?",
+      "question": "A 26-year-old woman is admitted with shoulder dystocia maneuvers. Which nursing action is most appropriate?",
       "options": [
         "A) Chart vaguely after dystocia without maneuvers/times",
         "B) Pull harder on the head without calling help when turtle sign appears",
@@ -850,7 +850,7 @@
     },
     {
       "id": "maternity:medium:17",
-      "question": "While evaluating a 26-year-old woman, attention turns to uterine atony PPH. Which of the following is most accurate?",
+      "question": "While evaluating a 33-year-old woman, attention turns to uterine atony postpartum hemorrhage. Which of the following is most accurate?",
       "options": [
         "A) Go search for a chart before touching a boggy hemorrhaging fundus",
         "B) Stop massage and withhold oxytocin while boggy fundus hemorrhages",
@@ -858,46 +858,46 @@
         "D) Fundal massage, empty bladder, uterotonics, escalate hemorrhage bundle"
       ],
       "answer": "D) Fundal massage, empty bladder, uterotonics, escalate hemorrhage bundle",
-      "explanation": "Tone failure is the leading PPH cause. Therefore, the most accurate choice is: Fundal massage, empty bladder, uterotonics, escalate hemorrhage bundle. Withholding first-line tone measures is a .",
+      "explanation": "Tone failure is the leading postpartum hemorrhage cause. Therefore, the most accurate choice is: Fundal massage, empty bladder, uterotonics, escalate hemorrhage bundle. Withholding first-line tone measures is a .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Withholding first-line tone measures is a near-miss. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Tone failure is the leading PPH cause. This matches the correct interpretation."
+        "D": "Tone failure is the leading postpartum hemorrhage cause. This matches the correct interpretation."
       }
     },
     {
       "id": "maternity:medium:18",
-      "question": "A 33-year-old woman shows signs of methergine HTN caution on the unit. Which of the following is correct?",
+      "question": "A 19-year-old woman shows signs of methergine hypertension caution on the unit. Which of the following is correct?",
       "options": [
         "A) Avoid methylergonovine in hypertension/preeclampsia",
-        "B) Choose carboprost first for asthmatic PPH without caution",
-        "C) Send home severe headache/visual changes with BP 170s as ‘stress’",
-        "D) Give methergine preferentially for PPH in severe preeclampsia"
+        "B) Choose carboprost first for asthmatic postpartum hemorrhage without caution",
+        "C) Send home severe headache/visual changes with blood pressure 170s as ‘stress’",
+        "D) Give methergine preferentially for postpartum hemorrhage in severe preeclampsia"
       ],
       "answer": "A) Avoid methylergonovine in hypertension/preeclampsia",
-      "explanation": "Ergot vasoconstriction dangerously elevates BP. Therefore, the most accurate choice is: Avoid methylergonovine in hypertension/preeclampsia. Methergine in HTN is a classic .",
+      "explanation": "Ergot vasoconstriction dangerously elevates blood pressure. Therefore, the most accurate choice is: Avoid methylergonovine in hypertension/preeclampsia. Methergine in hypertension is a classic .",
       "choice_explanations": {
-        "A": "Ergot vasoconstriction dangerously elevates BP. This matches the correct interpretation.",
+        "A": "Ergot vasoconstriction dangerously elevates blood pressure. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Methergine in HTN is a classic near-miss. It is less consistent than the correct choice."
+        "D": "Methergine in hypertension is a classic near-miss. It is less consistent than the correct choice."
       }
     },
     {
       "id": "maternity:medium:19",
-      "question": "A 19-year-old woman needs a care plan for hemabate asthma caution. Which of the following is most appropriate?",
+      "question": "A 26-year-old woman needs a care plan for hemabate asthma caution. Which of the following is most appropriate?",
       "options": [
-        "A) Give methergine preferentially for PPH in severe preeclampsia",
-        "B) Choose carboprost first for asthmatic PPH without caution",
+        "A) Give methergine preferentially for postpartum hemorrhage in severe preeclampsia",
+        "B) Choose carboprost first for asthmatic postpartum hemorrhage without caution",
         "C) Caution/avoid carboprost in asthma due to bronchospasm risk",
         "D) Start with carboprost before oxytocin without reason in routine atony"
       ],
       "answer": "C) Caution/avoid carboprost in asthma due to bronchospasm risk",
-      "explanation": "PGF2α analogs may trigger bronchospasm. Therefore, the most accurate choice is: Caution/avoid carboprost in asthma due to bronchospasm risk. Asthma + carboprost without caution is a .",
+      "explanation": "PGF2α analogs may trigger bronchospasm. Therefore, the most accurate choice is: Caution/avoid carboprost in asthma due to bronchospasm risk. asthma + carboprost without caution is a .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Asthma + carboprost without caution is a near-miss. It is less consistent than the correct choice.",
+        "B": "asthma + carboprost without caution is a near-miss. It is less consistent than the correct choice.",
         "C": "PGF2α analogs may trigger bronchospasm. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -909,10 +909,10 @@
         "A) Increase oxytocin during tachysystole with decelerations",
         "B) Increase oxytocin to overcome late decelerations",
         "C) Keep supine and increase oxytocin during fetal bradycardia",
-        "D) Stop oxytocin, left lateral, fluids/O2 per protocol, notify—uteroplacental insufficiency pattern"
+        "D) Stop oxytocin, left lateral, fluids/oxygen per protocol, notify—uteroplacental insufficiency pattern"
       ],
-      "answer": "D) Stop oxytocin, left lateral, fluids/O2 per protocol, notify—uteroplacental insufficiency pattern",
-      "explanation": "Lates reflect impaired placental reserve during contractions. Therefore, the most accurate choice is: Stop oxytocin, left lateral, fluids/O2 per protocol, notify—uteroplacental insufficiency pattern. More oxytocin worsens insufficiency—.",
+      "answer": "D) Stop oxytocin, left lateral, fluids/oxygen per protocol, notify—uteroplacental insufficiency pattern",
+      "explanation": "Lates reflect impaired placental reserve during contractions. Therefore, the most accurate choice is: Stop oxytocin, left lateral, fluids/oxygen per protocol, notify—uteroplacental insufficiency pattern. More oxytocin worsens insufficiency—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "More oxytocin worsens insufficiency—near-miss. It is less consistent than the correct choice.",
@@ -922,7 +922,7 @@
     },
     {
       "id": "maternity:medium:21",
-      "question": "A 33-year-old woman undergoes assessment involving variable decelerations. Which of the following is most accurate?",
+      "question": "A 19-year-old woman undergoes assessment involving variable decelerations. Which of the following is most accurate?",
       "options": [
         "A) Often cord compression—reposition, consider amnioinfusion as ordered",
         "B) Treat only with more fundal pressure when uterus cannot be palpated abdominally after cord traction",
@@ -940,17 +940,17 @@
     },
     {
       "id": "maternity:medium:22",
-      "question": "While caring for a 19-year-old woman, category III tracing is suspected. Which of the following is correct?",
+      "question": "While caring for a 26-year-old woman, category 3 tracing is suspected. Which of the following is correct?",
       "options": [
         "A) Absent variability with recurrent lates/variables or bradycardia—resuscitate and expedite",
         "B) Continue oxytocin despite scar pain and prolonged decelerations",
-        "C) Choose carboprost first for asthmatic PPH without caution",
-        "D) Continue Pitocin unchanged without notification for Category III"
+        "C) Choose carboprost first for asthmatic postpartum hemorrhage without caution",
+        "D) Continue Pitocin unchanged without notification for Category 3"
       ],
       "answer": "A) Absent variability with recurrent lates/variables or bradycardia—resuscitate and expedite",
-      "explanation": "Category III associates with acidemia risk needing action. Therefore, the most accurate choice is: Absent variability with recurrent lates/variables or bradycardia—resuscitate and expedite. Inaction is a .",
+      "explanation": "Category 3 associates with acidemia risk needing action. Therefore, the most accurate choice is: Absent variability with recurrent lates/variables or bradycardia—resuscitate and expedite. Inaction is a .",
       "choice_explanations": {
-        "A": "Category III associates with acidemia risk needing action. This matches the correct interpretation.",
+        "A": "Category 3 associates with acidemia risk needing action. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Inaction is a near-miss. It is less consistent than the correct choice."
@@ -958,15 +958,15 @@
     },
     {
       "id": "maternity:medium:23",
-      "question": "A 26-year-old woman is monitored for complications of intrauterine resuscitation. Which of the following is most appropriate?",
+      "question": "A 33-year-old woman is monitored for complications of intrauterine resuscitation. Which of the following is most appropriate?",
       "options": [
         "A) Keep supine and increase oxytocin during fetal bradycardia",
         "B) Increase oxytocin to overcome late decelerations",
         "C) Increase oxytocin during tachysystole with decelerations",
-        "D) Left lateral, stop uterotonics, bolus as ordered, O2 per protocol"
+        "D) Left lateral, stop uterotonics, bolus as ordered, oxygen per protocol"
       ],
-      "answer": "D) Left lateral, stop uterotonics, bolus as ordered, O2 per protocol",
-      "explanation": "Steps maximize perfusion and reduce tachysystole. Therefore, the most accurate choice is: Left lateral, stop uterotonics, bolus as ordered, O2 per protocol. Supine + more oxytocin worsens insult—.",
+      "answer": "D) Left lateral, stop uterotonics, bolus as ordered, oxygen per protocol",
+      "explanation": "Steps maximize perfusion and reduce tachysystole. Therefore, the most accurate choice is: Left lateral, stop uterotonics, bolus as ordered, oxygen per protocol. Supine + more oxytocin worsens insult—.",
       "choice_explanations": {
         "A": "Supine + more oxytocin worsens insult—near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -976,27 +976,27 @@
     },
     {
       "id": "maternity:medium:24",
-      "question": "A 33-year-old woman is admitted with epidural hypotension. Which nursing action is most appropriate?",
+      "question": "A 19-year-old woman is admitted with epidural hypotension. Which nursing action is most appropriate?",
       "options": [
         "A) Keep supine and increase oxytocin during fetal bradycardia",
-        "B) Perform prolonged supine CPR at 32 weeks without displacement",
-        "C) IV co-load per protocol, BP monitoring, uterine displacement, vasopressors as ordered",
+        "B) Perform prolonged supine cardiopulmonary resuscitation at 32 weeks without displacement",
+        "C) intravenous co-load per protocol, blood pressure monitoring, uterine displacement, vasopressors as ordered",
         "D) Leave newly hypotensive post-epidural mother fully supine without displacement"
       ],
-      "answer": "C) IV co-load per protocol, BP monitoring, uterine displacement, vasopressors as ordered",
-      "explanation": "Sympathetic block + aortocaval compression drop BP/uteroplacental flow. Therefore, the most accurate choice is: IV co-load per protocol, BP monitoring, uterine displacement, vasopressors as ordered. No displacement is a .",
+      "answer": "C) intravenous co-load per protocol, blood pressure monitoring, uterine displacement, vasopressors as ordered",
+      "explanation": "Sympathetic block + aortocaval compression drop blood pressure/uteroplacental flow. Therefore, the most accurate choice is: intravenous co-load per protocol, blood pressure monitoring, uterine displacement, vasopressors as ordered. No displacement is a .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Sympathetic block + aortocaval compression drop BP/uteroplacental flow. This matches the correct interpretation.",
+        "C": "Sympathetic block + aortocaval compression drop blood pressure/uteroplacental flow. This matches the correct interpretation.",
         "D": "No displacement is a near-miss. It is less consistent than the correct choice."
       }
     },
     {
       "id": "maternity:medium:25",
-      "question": "A 19-year-old woman develops findings of VBAC rupture. What is the priority assessment?",
+      "question": "A 26-year-old woman develops findings of vaginal birth after cesarean rupture. What is the priority assessment?",
       "options": [
-        "A) Continue Pitocin unchanged without notification for Category III",
+        "A) Continue Pitocin unchanged without notification for Category 3",
         "B) Tearing pain, contraction cessation, bradycardia, loss of station—emergency",
         "C) Continue oxytocin despite scar pain and prolonged decelerations",
         "D) Discharge unstable adnexal pain with empty uterus without protocol follow-up"
@@ -1012,17 +1012,17 @@
     },
     {
       "id": "maternity:medium:26",
-      "question": "A 26-year-old woman shows signs of classical scar TOLAC on the unit. Which of the following is correct?",
+      "question": "A 33-year-old woman shows signs of classical scar trial of labor after cesarean on the unit. Which of the following is correct?",
       "options": [
-        "A) Offer routine TOLAC for classical scar without specialist counseling",
-        "B) Omit rupture risk discussion to improve TOLAC uptake numbers",
+        "A) Offer routine trial of labor after cesarean for classical scar without specialist counseling",
+        "B) Omit rupture risk discussion to improve trial of labor after cesarean uptake numbers",
         "C) Continue oxytocin despite scar pain and prolonged decelerations",
-        "D) Prior classical/vertical incision generally contraindicates TOLAC"
+        "D) Prior classical/vertical incision generally contraindicates trial of labor after cesarean"
       ],
-      "answer": "D) Prior classical/vertical incision generally contraindicates TOLAC",
-      "explanation": "Vertical scars have high rupture risk in labor. Therefore, the most accurate choice is: Prior classical/vertical incision generally contraindicates TOLAC. Uncounseled TOLAC offer is a .",
+      "answer": "D) Prior classical/vertical incision generally contraindicates trial of labor after cesarean",
+      "explanation": "Vertical scars have high rupture risk in labor. Therefore, the most accurate choice is: Prior classical/vertical incision generally contraindicates trial of labor after cesarean. Uncounseled trial of labor after cesarean offer is a .",
       "choice_explanations": {
-        "A": "Uncounseled TOLAC offer is a near-miss. It is less consistent than the correct choice.",
+        "A": "Uncounseled trial of labor after cesarean offer is a near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Vertical scars have high rupture risk in labor. This matches the correct interpretation."
@@ -1030,7 +1030,7 @@
     },
     {
       "id": "maternity:medium:27",
-      "question": "A 33-year-old woman needs a care plan for postpartum fundus. Which of the following is most appropriate?",
+      "question": "A 19-year-old woman needs a care plan for postpartum fundus. Which of the following is most appropriate?",
       "options": [
         "A) Firm midline fundus; massage boggy uterus; assess lochia/bladder",
         "B) Stop massage and withhold oxytocin while boggy fundus hemorrhages",
@@ -1038,9 +1038,9 @@
         "D) Discharge unstable adnexal pain with empty uterus without protocol follow-up"
       ],
       "answer": "A) Firm midline fundus; massage boggy uterus; assess lochia/bladder",
-      "explanation": "Tone + empty bladder prevent PPH. Therefore, the most accurate choice is: Firm midline fundus; massage boggy uterus; assess lochia/bladder. Full bladder displaces and bogifies— if ignored.",
+      "explanation": "Tone + empty bladder prevent postpartum hemorrhage. Therefore, the most accurate choice is: Firm midline fundus; massage boggy uterus; assess lochia/bladder. Full bladder displaces and bogifies— if ignored.",
       "choice_explanations": {
-        "A": "Tone + empty bladder prevent PPH. This matches the correct interpretation.",
+        "A": "Tone + empty bladder prevent postpartum hemorrhage. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1066,18 +1066,18 @@
     },
     {
       "id": "maternity:medium:29",
-      "question": "A 26-year-old woman has vital-sign changes due to postpartum blues vs PPD. Which of the following is most accurate?",
+      "question": "A 33-year-old woman has vital-sign changes due to postpartum blues versus purified protein derivative. Which of the following is most accurate?",
       "options": [
         "A) Start combined OCPs day 1 postpartum while exclusively breastfeeding without guidance",
         "B) Dismiss suicidal ideation at week 3 as blues",
         "C) Have early postpartum patients do aggressive sit-ups with heavy lifting immediately after cesarean",
-        "D) Blues mild/transient; PPD persistent impairment—screen and escalate"
+        "D) Blues mild/transient; purified protein derivative persistent impairment—screen and escalate"
       ],
-      "answer": "D) Blues mild/transient; PPD persistent impairment—screen and escalate",
-      "explanation": "Safety features never equal blues. Therefore, the most accurate choice is: Blues mild/transient; PPD persistent impairment—screen and escalate. SI is not blues—.",
+      "answer": "D) Blues mild/transient; purified protein derivative persistent impairment—screen and escalate",
+      "explanation": "Safety features never equal blues. Therefore, the most accurate choice is: Blues mild/transient; purified protein derivative persistent impairment—screen and escalate. suicidal ideation is not blues—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "SI is not blues—near-miss. It is less consistent than the correct choice.",
+        "B": "suicidal ideation is not blues—near-miss. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Safety features never equal blues. This matches the correct interpretation."
       }
@@ -1086,33 +1086,33 @@
   "hard": [
     {
       "id": "maternity:hard:0",
-      "question": "A 33-year-old woman is evaluated for possible naegele EDD calculation. Which of the following is most accurate?",
+      "question": "A 19-year-old woman is evaluated for possible naegele estimated due date calculation. Which of the following is most accurate?",
       "options": [
         "A) Take iron only with milk and skip therapy when Hgb is 7 without plan",
-        "B) Date pregnancy solely from home-test day without LMP/US context",
-        "C) EDD ≈ LMP − 3 months + 7 days (+1 year) with ultrasound refinement when needed",
+        "B) Date pregnancy solely from home-test day without last menstrual period/ultrasound context",
+        "C) estimated due date ≈ last menstrual period − 3 months + 7 days (+1 year) with ultrasound refinement when needed",
         "D) Diagnose pregnancy from amenorrhea without testing"
       ],
-      "answer": "C) EDD ≈ LMP − 3 months + 7 days (+1 year) with ultrasound refinement when needed",
-      "explanation": "Naegele estimates gestational age from LMP; ultrasound corrects uncertain dates. Therefore, the most accurate choice is: EDD ≈ LMP − 3 months + 7 days (+1 year) with ultrasound refinement when needed. Home-test dating alone is inaccurate—.",
+      "answer": "C) estimated due date ≈ last menstrual period − 3 months + 7 days (+1 year) with ultrasound refinement when needed",
+      "explanation": "Naegele estimates gestational age from last menstrual period; ultrasound corrects uncertain dates. Therefore, the most accurate choice is: estimated due date ≈ last menstrual period − 3 months + 7 days (+1 year) with ultrasound refinement when needed. Home-test dating alone is inaccurate—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Home-test dating alone is inaccurate—near-miss. It is less consistent than the correct choice.",
-        "C": "Naegele estimates gestational age from LMP; ultrasound corrects uncertain dates. This matches the correct interpretation.",
+        "C": "Naegele estimates gestational age from last menstrual period; ultrasound corrects uncertain dates. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "maternity:hard:1",
-      "question": "A 19-year-old woman has findings suggestive of GTPAL history. Which of the following is the best interpretation?",
+      "question": "A 26-year-old woman has findings suggestive of gravida, term, preterm, abortion, living history. Which of the following is the best interpretation?",
       "options": [
         "A) Treat variables as identical to early decelerations and ignore recurrent depth",
-        "B) Omit rupture risk discussion to improve TOLAC uptake numbers",
+        "B) Omit rupture risk discussion to improve trial of labor after cesarean uptake numbers",
         "C) Treat gravida and para as identical numbers always",
-        "D) Use GTPAL/gravida-para conventions to capture obstetric history precisely"
+        "D) Use gravida, term, preterm, abortion, living/gravida-para conventions to capture obstetric history precisely"
       ],
-      "answer": "D) Use GTPAL/gravida-para conventions to capture obstetric history precisely",
-      "explanation": "Detailed obstetric history stratifies risk. Therefore, the most accurate choice is: Use GTPAL/gravida-para conventions to capture obstetric history precisely. Equating G and P loses abortions/preterms—.",
+      "answer": "D) Use gravida, term, preterm, abortion, living/gravida-para conventions to capture obstetric history precisely",
+      "explanation": "Detailed obstetric history stratifies risk. Therefore, the most accurate choice is: Use gravida, term, preterm, abortion, living/gravida-para conventions to capture obstetric history precisely. Equating G and P loses abortions/preterms—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1126,7 +1126,7 @@
       "options": [
         "A) Call Chadwick sign a positive diagnostic sign equal to FHTs",
         "B) Amenorrhea/nausea/breast changes are presumptive, not diagnostic alone",
-        "C) Date pregnancy solely from home-test day without LMP/US context",
+        "C) Date pregnancy solely from home-test day without last menstrual period/ultrasound context",
         "D) Diagnose pregnancy from amenorrhea without testing"
       ],
       "answer": "B) Amenorrhea/nausea/breast changes are presumptive, not diagnostic alone",
@@ -1140,7 +1140,7 @@
     },
     {
       "id": "maternity:hard:3",
-      "question": "A 33-year-old woman returns for review of suspected positive pregnancy. Which of the following is most accurate?",
+      "question": "A 19-year-old woman returns for review of suspected positive pregnancy. Which of the following is most accurate?",
       "options": [
         "A) Diagnose pregnancy from amenorrhea without testing",
         "B) Call Chadwick sign a positive diagnostic sign equal to FHTs",
@@ -1162,7 +1162,7 @@
       "options": [
         "A) Fundus near umbilicus ≈20 weeks; cm≈weeks in mid-pregnancy if congruent",
         "B) Expect fundus at xiphoid at 12 weeks",
-        "C) Perform prolonged supine CPR at 32 weeks without displacement",
+        "C) Perform prolonged supine cardiopulmonary resuscitation at 32 weeks without displacement",
         "D) Expect definite quickening at 8 weeks in all pregnancies"
       ],
       "answer": "A) Fundus near umbilicus ≈20 weeks; cm≈weeks in mid-pregnancy if congruent",
@@ -1179,7 +1179,7 @@
       "question": "Which statement about quickening timing is most accurate?",
       "options": [
         "A) Expect definite quickening at 8 weeks in all pregnancies",
-        "B) Perform prolonged supine CPR at 32 weeks without displacement",
+        "B) Perform prolonged supine cardiopulmonary resuscitation at 32 weeks without displacement",
         "C) Expect fundus at xiphoid at 12 weeks",
         "D) First movements often 16–20 weeks (earlier if multipara)"
       ],
@@ -1198,11 +1198,11 @@
       "options": [
         "A) Withhold antepartum Rhogam until newborn type is known when otherwise indicated",
         "B) Give Rhogam to the newborn instead of the mother",
-        "C) Give Rho(D) IG within 72 h if infant Rh-positive and mother eligible",
+        "C) Give Rho(D) immune globulin within 72 h if infant Rh-positive and mother eligible",
         "D) Leave mother alone with infant after harm delusions"
       ],
-      "answer": "C) Give Rho(D) IG within 72 h if infant Rh-positive and mother eligible",
-      "explanation": "Postpartum dose prevents sensitization from birth fetomaternal bleed. Therefore, the most accurate choice is: Give Rho(D) IG within 72 h if infant Rh-positive and mother eligible. Neonatal dosing misses maternal immunization prevention—.",
+      "answer": "C) Give Rho(D) immune globulin within 72 h if infant Rh-positive and mother eligible",
+      "explanation": "Postpartum dose prevents sensitization from birth fetomaternal bleed. Therefore, the most accurate choice is: Give Rho(D) immune globulin within 72 h if infant Rh-positive and mother eligible. Neonatal dosing misses maternal immunization prevention—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Neonatal dosing misses maternal immunization prevention—near-miss. It is less consistent than the correct choice.",
@@ -1212,17 +1212,17 @@
     },
     {
       "id": "maternity:hard:7",
-      "question": "A 26-year-old woman is evaluated for possible GDM screening. Which of the following is most accurate?",
+      "question": "A 33-year-old woman is evaluated for possible gestational diabetes mellitus screening. Which of the following is most accurate?",
       "options": [
-        "A) Screen with glucose challenge/GTT per guidelines; teach monitoring if GDM",
-        "B) Withhold mandated prophylaxis without process when GC risk unknown",
+        "A) Screen with glucose challenge/glucose tolerance test per guidelines; teach monitoring if gestational diabetes mellitus",
+        "B) Withhold mandated prophylaxis without process when Neisseria gonorrhoeae risk unknown",
         "C) Push D5W before thiamine in prolonged hyperemesis with neuro signs risk",
         "D) Skip glucose screening despite risk factors and glycosuria"
       ],
-      "answer": "A) Screen with glucose challenge/GTT per guidelines; teach monitoring if GDM",
-      "explanation": "GDM raises macrosomia and neonatal hypoglycemia risk. Therefore, the most accurate choice is: Screen with glucose challenge/GTT per guidelines; teach monitoring if GDM. Skipped screening misses preventable harm—.",
+      "answer": "A) Screen with glucose challenge/glucose tolerance test per guidelines; teach monitoring if gestational diabetes mellitus",
+      "explanation": "gestational diabetes mellitus raises macrosomia and neonatal hypoglycemia risk. Therefore, the most accurate choice is: Screen with glucose challenge/glucose tolerance test per guidelines; teach monitoring if gestational diabetes mellitus. Skipped screening misses preventable harm—.",
       "choice_explanations": {
-        "A": "GDM raises macrosomia and neonatal hypoglycemia risk. This matches the correct interpretation.",
+        "A": "gestational diabetes mellitus raises macrosomia and neonatal hypoglycemia risk. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Skipped screening misses preventable harm—near-miss. It is less consistent than the correct choice."
@@ -1230,15 +1230,15 @@
     },
     {
       "id": "maternity:hard:8",
-      "question": "A 33-year-old woman has findings suggestive of preeclampsia features. Which of the following is the best interpretation?",
+      "question": "A 19-year-old woman has findings suggestive of preeclampsia features. Which of the following is the best interpretation?",
       "options": [
-        "A) Send home severe headache/visual changes with BP 170s as ‘stress’",
-        "B) New HTN ≥20 weeks plus proteinuria/end-organ severe features needs urgent pathway",
-        "C) Give methergine preferentially for PPH in severe preeclampsia",
+        "A) Send home severe headache/visual changes with blood pressure 170s as ‘stress’",
+        "B) New hypertension ≥20 weeks plus proteinuria/end-organ severe features needs urgent pathway",
+        "C) Give methergine preferentially for postpartum hemorrhage in severe preeclampsia",
         "D) Dismiss severe obstetric cholestasis pruritus as dry skin"
       ],
-      "answer": "B) New HTN ≥20 weeks plus proteinuria/end-organ severe features needs urgent pathway",
-      "explanation": "Endothelial disease threatens seizure/stroke/placental abruption. Therefore, the most accurate choice is: New HTN ≥20 weeks plus proteinuria/end-organ severe features needs urgent pathway. Dismissing severe features is a .",
+      "answer": "B) New hypertension ≥20 weeks plus proteinuria/end-organ severe features needs urgent pathway",
+      "explanation": "Endothelial disease threatens seizure/stroke/placental abruption. Therefore, the most accurate choice is: New hypertension ≥20 weeks plus proteinuria/end-organ severe features needs urgent pathway. Dismissing severe features is a .",
       "choice_explanations": {
         "A": "Dismissing severe features is a near-miss. It is less consistent than the correct choice.",
         "B": "Endothelial disease threatens seizure/stroke/placental abruption. This matches the correct interpretation.",
@@ -1248,12 +1248,12 @@
     },
     {
       "id": "maternity:hard:9",
-      "question": "In a 19-year-old woman, magnesium seizure prophylaxis must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 26-year-old woman, magnesium seizure prophylaxis must be separated from similar conditions. Which of the following is correct?",
       "options": [
         "A) MgSO4 prevents eclamptic seizures in severe disease; monitor for toxicity",
         "B) Skip MgSO4 when indicated and rely on phenytoin alone against standard protocols",
-        "C) Skip vitamin K claiming breastfeeding alone prevents all VKDB",
-        "D) Rely on a single outpatient oral dose at 36 weeks instead of intrapartum IV when indicated"
+        "C) Skip vitamin K claiming breastfeeding alone prevents all vitamin K deficiency bleeding",
+        "D) Rely on a single outpatient oral dose at 36 weeks instead of intrapartum intravenous when indicated"
       ],
       "answer": "A) MgSO4 prevents eclamptic seizures in severe disease; monitor for toxicity",
       "explanation": "Magnesium is first-line seizure prophylaxis in preeclampsia protocols. Therefore, the most accurate choice is: MgSO4 prevents eclamptic seizures in severe disease; monitor for toxicity. Skipping Mg when indicated is a .",
@@ -1266,15 +1266,15 @@
     },
     {
       "id": "maternity:hard:10",
-      "question": "A 26-year-old woman returns for review of suspected magnesium toxicity care. Which of the following is most accurate?",
+      "question": "A 33-year-old woman returns for review of suspected magnesium toxicity care. Which of the following is most accurate?",
       "options": [
         "A) Increase oxytocin to overcome late decelerations",
         "B) Keep supine and increase oxytocin during fetal bradycardia",
-        "C) Absent reflexes, RR↓, low UOP—stop Mg, calcium gluconate per protocol",
-        "D) Increase Mg infusion when reflexes disappear and RR is 8"
+        "C) Absent reflexes, respiratory rate↓, low urine output—stop Mg, calcium gluconate per protocol",
+        "D) Increase Mg infusion when reflexes disappear and respiratory rate is 8"
       ],
-      "answer": "C) Absent reflexes, RR↓, low UOP—stop Mg, calcium gluconate per protocol",
-      "explanation": "Hypermagnesemia causes neuromuscular blockade. Therefore, the most accurate choice is: Absent reflexes, RR↓, low UOP—stop Mg, calcium gluconate per protocol. More Mg during toxicity is lethal—.",
+      "answer": "C) Absent reflexes, respiratory rate↓, low urine output—stop Mg, calcium gluconate per protocol",
+      "explanation": "Hypermagnesemia causes neuromuscular blockade. Therefore, the most accurate choice is: Absent reflexes, respiratory rate↓, low urine output—stop Mg, calcium gluconate per protocol. More Mg during toxicity is lethal—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1284,28 +1284,28 @@
     },
     {
       "id": "maternity:hard:11",
-      "question": "Initial reading of the case suggested HELLP syndrome. Which of the following is correct?",
+      "question": "Initial reading of the case suggested hemolysis, elevated liver enzymes, and low platelets syndrome syndrome. Which of the following is correct?",
       "options": [
-        "A) RUQ pain + hemolysis/elevated LFTs/low platelets—emergency OB care",
+        "A) right upper quadrant pain + hemolysis/elevated liver function tests/low platelets—emergency obstetrics care",
         "B) Ambulate and reassure board-like abdomen after cocaine use without evaluation",
-        "C) Treat RUQ pain in hypertensive pregnancy as heartburn without labs",
+        "C) Treat right upper quadrant pain in hypertensive pregnancy as heartburn without labs",
         "D) Discharge unstable adnexal pain with empty uterus without protocol follow-up"
       ],
-      "answer": "A) RUQ pain + hemolysis/elevated LFTs/low platelets—emergency OB care",
-      "explanation": "Microangiopathy can outpace classic proteinuria presentation. Therefore, the most accurate choice is: RUQ pain + hemolysis/elevated LFTs/low platelets—emergency OB care. Heartburn assumption misses HELLP—.",
+      "answer": "A) right upper quadrant pain + hemolysis/elevated liver function tests/low platelets—emergency obstetrics care",
+      "explanation": "Microangiopathy can outpace classic proteinuria presentation. Therefore, the most accurate choice is: right upper quadrant pain + hemolysis/elevated liver function tests/low platelets—emergency obstetrics care. Heartburn assumption misses hemolysis, elevated liver enzymes, and low platelets syndrome—.",
       "choice_explanations": {
         "A": "Microangiopathy can outpace classic proteinuria presentation. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Heartburn assumption misses HELLP—near-miss. It is less consistent than the correct choice.",
+        "C": "Heartburn assumption misses hemolysis, elevated liver enzymes, and low platelets syndrome—near-miss. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "maternity:hard:12",
-      "question": "A 19-year-old woman presents with features compatible with placenta previa exam. Which of the following is most accurate?",
+      "question": "A 26-year-old woman presents with features compatible with placenta previa exam. Which of the following is most accurate?",
       "options": [
-        "A) Delay blood until cardiac arrest from PPH",
-        "B) Perform frequent unnecessary digital exams after PROM",
+        "A) Delay blood until cardiac arrest from postpartum hemorrhage",
+        "B) Perform frequent unnecessary digital exams after prelabor rupture of membranes",
         "C) Perform digital exam for painless bleeding before ultrasound localization",
         "D) Painless third-trimester bleeding—no digital vaginal exam until placenta localized"
       ],
@@ -1320,7 +1320,7 @@
     },
     {
       "id": "maternity:hard:13",
-      "question": "A difficult case of placental abruption in a 26-year-old woman is reviewed. Which of the following is correct?",
+      "question": "A difficult case of placental abruption in a 33-year-old woman is reviewed. Which of the following is correct?",
       "options": [
         "A) Treat only with more fundal pressure when uterus cannot be palpated abdominally after cord traction",
         "B) Painful bleeding/hypertonic uterus/shock—maternal-fetal emergency",
@@ -1338,10 +1338,10 @@
     },
     {
       "id": "maternity:hard:14",
-      "question": "After examining a 33-year-old woman, which statement about cord prolapse response is correct?",
+      "question": "After examining a 19-year-old woman, which statement about cord prolapse response is correct?",
       "options": [
         "A) Leave mother alone with infant after harm delusions",
-        "B) Push cord back and send patient to walk to OR alone",
+        "B) Push cord back and send patient to walk to operating room alone",
         "C) Wipe cord dry and wait hours for next clinic appointment",
         "D) Elevate presenting part, knee-chest/Trendelenburg, emergent delivery—do not leave"
       ],
@@ -1356,7 +1356,7 @@
     },
     {
       "id": "maternity:hard:15",
-      "question": "A 19-year-old woman presents with findings that overlap several diagnoses, including shoulder dystocia maneuvers. Which of the following is most accurate?",
+      "question": "A 26-year-old woman presents with findings that overlap several diagnoses, including shoulder dystocia maneuvers. Which of the following is most accurate?",
       "options": [
         "A) Pull harder on the head without calling help when turtle sign appears",
         "B) Chart vaguely after dystocia without maneuvers/times",
@@ -1374,7 +1374,7 @@
     },
     {
       "id": "maternity:hard:16",
-      "question": "Two similar explanations for uterine atony PPH are compared. Which of the following is correct?",
+      "question": "Two similar explanations for uterine atony postpartum hemorrhage are compared. Which of the following is correct?",
       "options": [
         "A) Start with carboprost before oxytocin without reason in routine atony",
         "B) Stop massage and withhold oxytocin while boggy fundus hemorrhages",
@@ -1382,45 +1382,45 @@
         "D) Go search for a chart before touching a boggy hemorrhaging fundus"
       ],
       "answer": "C) Fundal massage, empty bladder, uterotonics, escalate hemorrhage bundle",
-      "explanation": "Tone failure is the leading PPH cause. Therefore, the most accurate choice is: Fundal massage, empty bladder, uterotonics, escalate hemorrhage bundle. Withholding first-line tone measures is a .",
+      "explanation": "Tone failure is the leading postpartum hemorrhage cause. Therefore, the most accurate choice is: Fundal massage, empty bladder, uterotonics, escalate hemorrhage bundle. Withholding first-line tone measures is a .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Withholding first-line tone measures is a near-miss. It is less consistent than the correct choice.",
-        "C": "Tone failure is the leading PPH cause. This matches the correct interpretation.",
+        "C": "Tone failure is the leading postpartum hemorrhage cause. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "maternity:hard:17",
-      "question": "In a 33-year-old woman, methergine HTN caution must be separated from similar conditions. Which of the following is correct?",
+      "question": "In a 19-year-old woman, methergine hypertension caution must be separated from similar conditions. Which of the following is correct?",
       "options": [
-        "A) Choose carboprost first for asthmatic PPH without caution",
-        "B) Send home severe headache/visual changes with BP 170s as ‘stress’",
-        "C) Give methergine preferentially for PPH in severe preeclampsia",
+        "A) Choose carboprost first for asthmatic postpartum hemorrhage without caution",
+        "B) Send home severe headache/visual changes with blood pressure 170s as ‘stress’",
+        "C) Give methergine preferentially for postpartum hemorrhage in severe preeclampsia",
         "D) Avoid methylergonovine in hypertension/preeclampsia"
       ],
       "answer": "D) Avoid methylergonovine in hypertension/preeclampsia",
-      "explanation": "Ergot vasoconstriction dangerously elevates BP. Therefore, the most accurate choice is: Avoid methylergonovine in hypertension/preeclampsia. Methergine in HTN is a classic .",
+      "explanation": "Ergot vasoconstriction dangerously elevates blood pressure. Therefore, the most accurate choice is: Avoid methylergonovine in hypertension/preeclampsia. Methergine in hypertension is a classic .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Methergine in HTN is a classic near-miss. It is less consistent than the correct choice.",
-        "D": "Ergot vasoconstriction dangerously elevates BP. This matches the correct interpretation."
+        "C": "Methergine in hypertension is a classic near-miss. It is less consistent than the correct choice.",
+        "D": "Ergot vasoconstriction dangerously elevates blood pressure. This matches the correct interpretation."
       }
     },
     {
       "id": "maternity:hard:18",
-      "question": "A 19-year-old woman returns for review of suspected hemabate asthma caution. Which of the following is most accurate?",
+      "question": "A 26-year-old woman returns for review of suspected hemabate asthma caution. Which of the following is most accurate?",
       "options": [
-        "A) Choose carboprost first for asthmatic PPH without caution",
+        "A) Choose carboprost first for asthmatic postpartum hemorrhage without caution",
         "B) Start with carboprost before oxytocin without reason in routine atony",
-        "C) Give methergine preferentially for PPH in severe preeclampsia",
+        "C) Give methergine preferentially for postpartum hemorrhage in severe preeclampsia",
         "D) Caution/avoid carboprost in asthma due to bronchospasm risk"
       ],
       "answer": "D) Caution/avoid carboprost in asthma due to bronchospasm risk",
-      "explanation": "PGF2α analogs may trigger bronchospasm. Therefore, the most accurate choice is: Caution/avoid carboprost in asthma due to bronchospasm risk. Asthma + carboprost without caution is a .",
+      "explanation": "PGF2α analogs may trigger bronchospasm. Therefore, the most accurate choice is: Caution/avoid carboprost in asthma due to bronchospasm risk. asthma + carboprost without caution is a .",
       "choice_explanations": {
-        "A": "Asthma + carboprost without caution is a near-miss. It is less consistent than the correct choice.",
+        "A": "asthma + carboprost without caution is a near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "PGF2α analogs may trigger bronchospasm. This matches the correct interpretation."
@@ -1432,11 +1432,11 @@
       "options": [
         "A) Keep supine and increase oxytocin during fetal bradycardia",
         "B) Increase oxytocin to overcome late decelerations",
-        "C) Stop oxytocin, left lateral, fluids/O2 per protocol, notify—uteroplacental insufficiency pattern",
+        "C) Stop oxytocin, left lateral, fluids/oxygen per protocol, notify—uteroplacental insufficiency pattern",
         "D) Increase oxytocin during tachysystole with decelerations"
       ],
-      "answer": "C) Stop oxytocin, left lateral, fluids/O2 per protocol, notify—uteroplacental insufficiency pattern",
-      "explanation": "Lates reflect impaired placental reserve during contractions. Therefore, the most accurate choice is: Stop oxytocin, left lateral, fluids/O2 per protocol, notify—uteroplacental insufficiency pattern. More oxytocin worsens insufficiency—.",
+      "answer": "C) Stop oxytocin, left lateral, fluids/oxygen per protocol, notify—uteroplacental insufficiency pattern",
+      "explanation": "Lates reflect impaired placental reserve during contractions. Therefore, the most accurate choice is: Stop oxytocin, left lateral, fluids/oxygen per protocol, notify—uteroplacental insufficiency pattern. More oxytocin worsens insufficiency—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "More oxytocin worsens insufficiency—near-miss. It is less consistent than the correct choice.",
@@ -1464,17 +1464,17 @@
     },
     {
       "id": "maternity:hard:21",
-      "question": "Which statement about category III tracing in a 19-year-old woman is most accurate?",
+      "question": "Which statement about category 3 tracing in a 26-year-old woman is most accurate?",
       "options": [
         "A) Absent variability with recurrent lates/variables or bradycardia—resuscitate and expedite",
-        "B) Continue Pitocin unchanged without notification for Category III",
+        "B) Continue Pitocin unchanged without notification for Category 3",
         "C) Treat variables as identical to early decelerations and ignore recurrent depth",
-        "D) Choose carboprost first for asthmatic PPH without caution"
+        "D) Choose carboprost first for asthmatic postpartum hemorrhage without caution"
       ],
       "answer": "A) Absent variability with recurrent lates/variables or bradycardia—resuscitate and expedite",
-      "explanation": "Category III associates with acidemia risk needing action. Therefore, the most accurate choice is: Absent variability with recurrent lates/variables or bradycardia—resuscitate and expedite. Inaction is a .",
+      "explanation": "Category 3 associates with acidemia risk needing action. Therefore, the most accurate choice is: Absent variability with recurrent lates/variables or bradycardia—resuscitate and expedite. Inaction is a .",
       "choice_explanations": {
-        "A": "Category III associates with acidemia risk needing action. This matches the correct interpretation.",
+        "A": "Category 3 associates with acidemia risk needing action. This matches the correct interpretation.",
         "B": "Inaction is a near-miss. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1482,15 +1482,15 @@
     },
     {
       "id": "maternity:hard:22",
-      "question": "After examining a 26-year-old woman, which statement about intrauterine resuscitation is correct?",
+      "question": "After examining a 33-year-old woman, which statement about intrauterine resuscitation is correct?",
       "options": [
-        "A) Left lateral, stop uterotonics, bolus as ordered, O2 per protocol",
+        "A) Left lateral, stop uterotonics, bolus as ordered, oxygen per protocol",
         "B) Increase oxytocin to overcome late decelerations",
         "C) Keep supine and increase oxytocin during fetal bradycardia",
         "D) Increase oxytocin during tachysystole with decelerations"
       ],
-      "answer": "A) Left lateral, stop uterotonics, bolus as ordered, O2 per protocol",
-      "explanation": "Steps maximize perfusion and reduce tachysystole. Therefore, the most accurate choice is: Left lateral, stop uterotonics, bolus as ordered, O2 per protocol. Supine + more oxytocin worsens insult—.",
+      "answer": "A) Left lateral, stop uterotonics, bolus as ordered, oxygen per protocol",
+      "explanation": "Steps maximize perfusion and reduce tachysystole. Therefore, the most accurate choice is: Left lateral, stop uterotonics, bolus as ordered, oxygen per protocol. Supine + more oxytocin worsens insult—.",
       "choice_explanations": {
         "A": "Steps maximize perfusion and reduce tachysystole. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1500,25 +1500,25 @@
     },
     {
       "id": "maternity:hard:23",
-      "question": "A 33-year-old woman is evaluated for possible epidural hypotension. Which of the following is most accurate?",
+      "question": "A 19-year-old woman is evaluated for possible epidural hypotension. Which of the following is most accurate?",
       "options": [
         "A) Leave newly hypotensive post-epidural mother fully supine without displacement",
-        "B) Perform prolonged supine CPR at 32 weeks without displacement",
-        "C) IV co-load per protocol, BP monitoring, uterine displacement, vasopressors as ordered",
+        "B) Perform prolonged supine cardiopulmonary resuscitation at 32 weeks without displacement",
+        "C) intravenous co-load per protocol, blood pressure monitoring, uterine displacement, vasopressors as ordered",
         "D) Keep supine and increase oxytocin during fetal bradycardia"
       ],
-      "answer": "C) IV co-load per protocol, BP monitoring, uterine displacement, vasopressors as ordered",
-      "explanation": "Sympathetic block + aortocaval compression drop BP/uteroplacental flow. Therefore, the most accurate choice is: IV co-load per protocol, BP monitoring, uterine displacement, vasopressors as ordered. No displacement is a .",
+      "answer": "C) intravenous co-load per protocol, blood pressure monitoring, uterine displacement, vasopressors as ordered",
+      "explanation": "Sympathetic block + aortocaval compression drop blood pressure/uteroplacental flow. Therefore, the most accurate choice is: intravenous co-load per protocol, blood pressure monitoring, uterine displacement, vasopressors as ordered. No displacement is a .",
       "choice_explanations": {
         "A": "No displacement is a near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Sympathetic block + aortocaval compression drop BP/uteroplacental flow. This matches the correct interpretation.",
+        "C": "Sympathetic block + aortocaval compression drop blood pressure/uteroplacental flow. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "maternity:hard:24",
-      "question": "A 19-year-old woman has findings suggestive of VBAC rupture. Which of the following is the best interpretation?",
+      "question": "A 26-year-old woman has findings suggestive of vaginal birth after cesarean rupture. Which of the following is the best interpretation?",
       "options": [
         "A) Keep supine and increase oxytocin during fetal bradycardia",
         "B) Tearing pain, contraction cessation, bradycardia, loss of station—emergency",
@@ -1536,25 +1536,25 @@
     },
     {
       "id": "maternity:hard:25",
-      "question": "In a detailed discussion of classical scar TOLAC, which of the following is most accurate?",
+      "question": "In a detailed discussion of classical scar trial of labor after cesarean, which of the following is most accurate?",
       "options": [
-        "A) Omit rupture risk discussion to improve TOLAC uptake numbers",
-        "B) Prior classical/vertical incision generally contraindicates TOLAC",
+        "A) Omit rupture risk discussion to improve trial of labor after cesarean uptake numbers",
+        "B) Prior classical/vertical incision generally contraindicates trial of labor after cesarean",
         "C) Continue oxytocin despite scar pain and prolonged decelerations",
-        "D) Offer routine TOLAC for classical scar without specialist counseling"
+        "D) Offer routine trial of labor after cesarean for classical scar without specialist counseling"
       ],
-      "answer": "B) Prior classical/vertical incision generally contraindicates TOLAC",
-      "explanation": "Vertical scars have high rupture risk in labor. Therefore, the most accurate choice is: Prior classical/vertical incision generally contraindicates TOLAC. Uncounseled TOLAC offer is a .",
+      "answer": "B) Prior classical/vertical incision generally contraindicates trial of labor after cesarean",
+      "explanation": "Vertical scars have high rupture risk in labor. Therefore, the most accurate choice is: Prior classical/vertical incision generally contraindicates trial of labor after cesarean. Uncounseled trial of labor after cesarean offer is a .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Vertical scars have high rupture risk in labor. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Uncounseled TOLAC offer is a near-miss. It is less consistent than the correct choice."
+        "D": "Uncounseled trial of labor after cesarean offer is a near-miss. It is less consistent than the correct choice."
       }
     },
     {
       "id": "maternity:hard:26",
-      "question": "A 33-year-old woman returns for review of suspected postpartum fundus. Which of the following is most accurate?",
+      "question": "A 19-year-old woman returns for review of suspected postpartum fundus. Which of the following is most accurate?",
       "options": [
         "A) Firm midline fundus; massage boggy uterus; assess lochia/bladder",
         "B) Stop massage and withhold oxytocin while boggy fundus hemorrhages",
@@ -1562,9 +1562,9 @@
         "D) Discharge unstable adnexal pain with empty uterus without protocol follow-up"
       ],
       "answer": "A) Firm midline fundus; massage boggy uterus; assess lochia/bladder",
-      "explanation": "Tone + empty bladder prevent PPH. Therefore, the most accurate choice is: Firm midline fundus; massage boggy uterus; assess lochia/bladder. Full bladder displaces and bogifies— if ignored.",
+      "explanation": "Tone + empty bladder prevent postpartum hemorrhage. Therefore, the most accurate choice is: Firm midline fundus; massage boggy uterus; assess lochia/bladder. Full bladder displaces and bogifies— if ignored.",
       "choice_explanations": {
-        "A": "Tone + empty bladder prevent PPH. This matches the correct interpretation.",
+        "A": "Tone + empty bladder prevent postpartum hemorrhage. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1590,17 +1590,17 @@
     },
     {
       "id": "maternity:hard:28",
-      "question": "A 26-year-old woman presents with features compatible with postpartum blues vs PPD. Which of the following is most accurate?",
+      "question": "A 33-year-old woman presents with features compatible with postpartum blues versus purified protein derivative. Which of the following is most accurate?",
       "options": [
         "A) Dismiss suicidal ideation at week 3 as blues",
-        "B) Blues mild/transient; PPD persistent impairment—screen and escalate",
+        "B) Blues mild/transient; purified protein derivative persistent impairment—screen and escalate",
         "C) Tell patients to wait a week of absent movement before calling",
         "D) Give cefazolin alternatives incorrectly or skip all prophylaxis due to remote mild rash without allergy assessment"
       ],
-      "answer": "B) Blues mild/transient; PPD persistent impairment—screen and escalate",
-      "explanation": "Safety features never equal blues. Therefore, the most accurate choice is: Blues mild/transient; PPD persistent impairment—screen and escalate. SI is not blues—.",
+      "answer": "B) Blues mild/transient; purified protein derivative persistent impairment—screen and escalate",
+      "explanation": "Safety features never equal blues. Therefore, the most accurate choice is: Blues mild/transient; purified protein derivative persistent impairment—screen and escalate. suicidal ideation is not blues—.",
       "choice_explanations": {
-        "A": "SI is not blues—near-miss. It is less consistent than the correct choice.",
+        "A": "suicidal ideation is not blues—near-miss. It is less consistent than the correct choice.",
         "B": "Safety features never equal blues. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1608,10 +1608,10 @@
     },
     {
       "id": "maternity:hard:29",
-      "question": "Which statement about postpartum psychosis in a 33-year-old woman is most accurate?",
+      "question": "Which statement about postpartum psychosis in a 19-year-old woman is most accurate?",
       "options": [
         "A) Leave mother alone with infant after harm delusions",
-        "B) Push cord back and send patient to walk to OR alone",
+        "B) Push cord back and send patient to walk to operating room alone",
         "C) Give Rhogam to the newborn instead of the mother",
         "D) Acute delusions/mania postpartum—psychiatric emergency; protect infant"
       ],
@@ -1628,17 +1628,17 @@
   "extreme": [
     {
       "id": "maternity:extreme:0",
-      "question": "A 24-year-old woman has a complex presentation of naegele EDD calculation. Which of the following is most accurate?",
+      "question": "A 28-year-old woman has a complex presentation of naegele estimated due date calculation. Which of the following is most accurate?",
       "options": [
-        "A) EDD ≈ LMP − 3 months + 7 days (+1 year) with ultrasound refinement when needed",
-        "B) Treat RUQ pain in hypertensive pregnancy as heartburn without labs",
-        "C) Date pregnancy solely from home-test day without LMP/US context",
+        "A) estimated due date ≈ last menstrual period − 3 months + 7 days (+1 year) with ultrasound refinement when needed",
+        "B) Treat right upper quadrant pain in hypertensive pregnancy as heartburn without labs",
+        "C) Date pregnancy solely from home-test day without last menstrual period/ultrasound context",
         "D) Diagnose pregnancy from amenorrhea without testing"
       ],
-      "answer": "A) EDD ≈ LMP − 3 months + 7 days (+1 year) with ultrasound refinement when needed",
-      "explanation": "Naegele estimates gestational age from LMP; ultrasound corrects uncertain dates. Therefore, the most accurate choice is: EDD ≈ LMP − 3 months + 7 days (+1 year) with ultrasound refinement when needed. Home-test dating alone is inaccurate—.",
+      "answer": "A) estimated due date ≈ last menstrual period − 3 months + 7 days (+1 year) with ultrasound refinement when needed",
+      "explanation": "Naegele estimates gestational age from last menstrual period; ultrasound corrects uncertain dates. Therefore, the most accurate choice is: estimated due date ≈ last menstrual period − 3 months + 7 days (+1 year) with ultrasound refinement when needed. Home-test dating alone is inaccurate—.",
       "choice_explanations": {
-        "A": "Naegele estimates gestational age from LMP; ultrasound corrects uncertain dates. This matches the correct interpretation.",
+        "A": "Naegele estimates gestational age from last menstrual period; ultrasound corrects uncertain dates. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Home-test dating alone is inaccurate—near-miss. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1646,15 +1646,15 @@
     },
     {
       "id": "maternity:extreme:1",
-      "question": "A 25-year-old woman with gestational diabetes and chronic hypertension is reassessed after incomplete response related to GTPAL history. Which of the following is most accurate?",
+      "question": "A 29-year-old woman with gestational diabetes and chronic hypertension is reassessed after incomplete response related to gravida, term, preterm, abortion, living history. Which of the following is most accurate?",
       "options": [
         "A) Use amnioinfusion for late decelerations from uteroplacental insufficiency as if identical",
         "B) Treat gravida and para as identical numbers always",
         "C) Treat day-1 jaundice as always physiologic",
-        "D) Use GTPAL/gravida-para conventions to capture obstetric history precisely"
+        "D) Use gravida, term, preterm, abortion, living/gravida-para conventions to capture obstetric history precisely"
       ],
-      "answer": "D) Use GTPAL/gravida-para conventions to capture obstetric history precisely",
-      "explanation": "Detailed obstetric history stratifies risk. Therefore, the most accurate choice is: Use GTPAL/gravida-para conventions to capture obstetric history precisely. Equating G and P loses abortions/preterms—.",
+      "answer": "D) Use gravida, term, preterm, abortion, living/gravida-para conventions to capture obstetric history precisely",
+      "explanation": "Detailed obstetric history stratifies risk. Therefore, the most accurate choice is: Use gravida, term, preterm, abortion, living/gravida-para conventions to capture obstetric history precisely. Equating G and P loses abortions/preterms—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Equating G and P loses abortions/preterms—near-miss. It is less consistent than the correct choice.",
@@ -1667,7 +1667,7 @@
       "question": "Which of the following is the most precise statement about presumptive?",
       "options": [
         "A) Diagnose pregnancy from amenorrhea without testing",
-        "B) Date pregnancy solely from home-test day without LMP/US context",
+        "B) Date pregnancy solely from home-test day without last menstrual period/ultrasound context",
         "C) Call Chadwick sign a positive diagnostic sign equal to FHTs",
         "D) Amenorrhea/nausea/breast changes are presumptive, not diagnostic alone"
       ],
@@ -1682,7 +1682,7 @@
     },
     {
       "id": "maternity:extreme:3",
-      "question": "A 25-year-old woman has findings that make positive pregnancy hard to confirm. Which of the following is most accurate?",
+      "question": "A 29-year-old woman has findings that make positive pregnancy hard to confirm. Which of the following is most accurate?",
       "options": [
         "A) Call Chadwick sign a positive diagnostic sign equal to FHTs",
         "B) FHTs, sonographic fetus, examiner-felt movement are positive signs",
@@ -1700,12 +1700,12 @@
     },
     {
       "id": "maternity:extreme:4",
-      "question": "In a 31-year-old woman, distinguishing fundal height 20 weeks from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 35-year-old woman, distinguishing fundal height 20 weeks from similar conditions is difficult. Which of the following is correct?",
       "options": [
-        "A) Date pregnancy solely from home-test day without LMP/US context",
+        "A) Date pregnancy solely from home-test day without last menstrual period/ultrasound context",
         "B) Fundus near umbilicus ≈20 weeks; cm≈weeks in mid-pregnancy if congruent",
         "C) Expect fundus at xiphoid at 12 weeks",
-        "D) Perform prolonged supine CPR at 32 weeks without displacement"
+        "D) Perform prolonged supine cardiopulmonary resuscitation at 32 weeks without displacement"
       ],
       "answer": "B) Fundus near umbilicus ≈20 weeks; cm≈weeks in mid-pregnancy if congruent",
       "explanation": "Landmarks detect growth/fluid/date problems. Therefore, the most accurate choice is: Fundus near umbilicus ≈20 weeks; cm≈weeks in mid-pregnancy if congruent. Wrong landmark timing misdates—.",
@@ -1736,15 +1736,15 @@
     },
     {
       "id": "maternity:extreme:6",
-      "question": "A 34-year-old woman has a complicated course involving rhogam 28 weeks. Which of the following is correct?",
+      "question": "A 38-year-old woman has a complicated course involving rhogam 28 weeks. Which of the following is correct?",
       "options": [
-        "A) Skip Rh status assessment during early pregnancy bleeding",
+        "A) Skip Rhesus status assessment during early pregnancy bleeding",
         "B) Withhold antepartum Rhogam until newborn type is known when otherwise indicated",
         "C) Skip antepartum Tdap because childhood dose ‘lasts forever’",
-        "D) Rh-negative unsensitized patients receive Rho(D) IG ≈28 weeks and after events"
+        "D) Rh-negative unsensitized patients receive Rho(D) immune globulin ≈28 weeks and after events"
       ],
-      "answer": "D) Rh-negative unsensitized patients receive Rho(D) IG ≈28 weeks and after events",
-      "explanation": "Antepartum dose prevents sensitization during pregnancy. Therefore, the most accurate choice is: Rh-negative unsensitized patients receive Rho(D) IG ≈28 weeks and after events. Waiting for newborn type antepartum is a .",
+      "answer": "D) Rh-negative unsensitized patients receive Rho(D) immune globulin ≈28 weeks and after events",
+      "explanation": "Antepartum dose prevents sensitization during pregnancy. Therefore, the most accurate choice is: Rh-negative unsensitized patients receive Rho(D) immune globulin ≈28 weeks and after events. Waiting for newborn type antepartum is a .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Waiting for newborn type antepartum is a near-miss. It is less consistent than the correct choice.",
@@ -1754,15 +1754,15 @@
     },
     {
       "id": "maternity:extreme:7",
-      "question": "Which statement about managing rhogam postpartum window in a 26-year-old woman is most accurate?",
+      "question": "Which statement about managing rhogam postpartum window in a 30-year-old woman is most accurate?",
       "options": [
-        "A) Give Rho(D) IG within 72 h if infant Rh-positive and mother eligible",
+        "A) Give Rho(D) immune globulin within 72 h if infant Rh-positive and mother eligible",
         "B) Give Rhogam to the newborn instead of the mother",
         "C) Leave mother alone with infant after harm delusions",
         "D) Withhold antepartum Rhogam until newborn type is known when otherwise indicated"
       ],
-      "answer": "A) Give Rho(D) IG within 72 h if infant Rh-positive and mother eligible",
-      "explanation": "Postpartum dose prevents sensitization from birth fetomaternal bleed. Therefore, the most accurate choice is: Give Rho(D) IG within 72 h if infant Rh-positive and mother eligible. Neonatal dosing misses maternal immunization prevention—.",
+      "answer": "A) Give Rho(D) immune globulin within 72 h if infant Rh-positive and mother eligible",
+      "explanation": "Postpartum dose prevents sensitization from birth fetomaternal bleed. Therefore, the most accurate choice is: Give Rho(D) immune globulin within 72 h if infant Rh-positive and mother eligible. Neonatal dosing misses maternal immunization prevention—.",
       "choice_explanations": {
         "A": "Postpartum dose prevents sensitization from birth fetomaternal bleed. This matches the correct interpretation.",
         "B": "Neonatal dosing misses maternal immunization prevention—near-miss. It is less consistent than the correct choice.",
@@ -1772,33 +1772,33 @@
     },
     {
       "id": "maternity:extreme:8",
-      "question": "A 23-year-old woman has a complex presentation of GDM screening. Which of the following is most accurate?",
+      "question": "A 27-year-old woman has a complex presentation of gestational diabetes mellitus screening. Which of the following is most accurate?",
       "options": [
         "A) Skip glucose screening despite risk factors and glycosuria",
-        "B) Screen with glucose challenge/GTT per guidelines; teach monitoring if GDM",
-        "C) Withhold mandated prophylaxis without process when GC risk unknown",
+        "B) Screen with glucose challenge/glucose tolerance test per guidelines; teach monitoring if gestational diabetes mellitus",
+        "C) Withhold mandated prophylaxis without process when Neisseria gonorrhoeae risk unknown",
         "D) Skip neonatal exam after difficult shoulder delivery"
       ],
-      "answer": "B) Screen with glucose challenge/GTT per guidelines; teach monitoring if GDM",
-      "explanation": "GDM raises macrosomia and neonatal hypoglycemia risk. Therefore, the most accurate choice is: Screen with glucose challenge/GTT per guidelines; teach monitoring if GDM. Skipped screening misses preventable harm—.",
+      "answer": "B) Screen with glucose challenge/glucose tolerance test per guidelines; teach monitoring if gestational diabetes mellitus",
+      "explanation": "gestational diabetes mellitus raises macrosomia and neonatal hypoglycemia risk. Therefore, the most accurate choice is: Screen with glucose challenge/glucose tolerance test per guidelines; teach monitoring if gestational diabetes mellitus. Skipped screening misses preventable harm—.",
       "choice_explanations": {
         "A": "Skipped screening misses preventable harm—near-miss. It is less consistent than the correct choice.",
-        "B": "GDM raises macrosomia and neonatal hypoglycemia risk. This matches the correct interpretation.",
+        "B": "gestational diabetes mellitus raises macrosomia and neonatal hypoglycemia risk. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "maternity:extreme:9",
-      "question": "A 28-year-old woman with gestational diabetes and chronic hypertension is reassessed after incomplete response related to preeclampsia features. Which of the following is most accurate?",
+      "question": "A 32-year-old woman with gestational diabetes and chronic hypertension is reassessed after incomplete response related to preeclampsia features. Which of the following is most accurate?",
       "options": [
-        "A) Send home severe headache/visual changes with BP 170s as ‘stress’",
+        "A) Send home severe headache/visual changes with blood pressure 170s as ‘stress’",
         "B) Dismiss severe obstetric cholestasis pruritus as dry skin",
-        "C) New HTN ≥20 weeks plus proteinuria/end-organ severe features needs urgent pathway",
-        "D) Give methergine preferentially for PPH in severe preeclampsia"
+        "C) New hypertension ≥20 weeks plus proteinuria/end-organ severe features needs urgent pathway",
+        "D) Give methergine preferentially for postpartum hemorrhage in severe preeclampsia"
       ],
-      "answer": "C) New HTN ≥20 weeks plus proteinuria/end-organ severe features needs urgent pathway",
-      "explanation": "Endothelial disease threatens seizure/stroke/placental abruption. Therefore, the most accurate choice is: New HTN ≥20 weeks plus proteinuria/end-organ severe features needs urgent pathway. Dismissing severe features is a .",
+      "answer": "C) New hypertension ≥20 weeks plus proteinuria/end-organ severe features needs urgent pathway",
+      "explanation": "Endothelial disease threatens seizure/stroke/placental abruption. Therefore, the most accurate choice is: New hypertension ≥20 weeks plus proteinuria/end-organ severe features needs urgent pathway. Dismissing severe features is a .",
       "choice_explanations": {
         "A": "Dismissing severe features is a near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1808,12 +1808,12 @@
     },
     {
       "id": "maternity:extreme:10",
-      "question": "A detailed evaluation for magnesium seizure prophylaxis is underway in a 33-year-old woman. Which of the following is correct?",
+      "question": "A detailed evaluation for magnesium seizure prophylaxis is underway in a 37-year-old woman. Which of the following is correct?",
       "options": [
         "A) MgSO4 prevents eclamptic seizures in severe disease; monitor for toxicity",
-        "B) Rely on a single outpatient oral dose at 36 weeks instead of intrapartum IV when indicated",
+        "B) Rely on a single outpatient oral dose at 36 weeks instead of intrapartum intravenous when indicated",
         "C) Skip MgSO4 when indicated and rely on phenytoin alone against standard protocols",
-        "D) Skip vitamin K claiming breastfeeding alone prevents all VKDB"
+        "D) Skip vitamin K claiming breastfeeding alone prevents all vitamin K deficiency bleeding"
       ],
       "answer": "A) MgSO4 prevents eclamptic seizures in severe disease; monitor for toxicity",
       "explanation": "Magnesium is first-line seizure prophylaxis in preeclampsia protocols. Therefore, the most accurate choice is: MgSO4 prevents eclamptic seizures in severe disease; monitor for toxicity. Skipping Mg when indicated is a .",
@@ -1826,15 +1826,15 @@
     },
     {
       "id": "maternity:extreme:11",
-      "question": "A 33-year-old woman has findings that make magnesium toxicity care hard to confirm. Which of the following is most accurate?",
+      "question": "A 37-year-old woman has findings that make magnesium toxicity care hard to confirm. Which of the following is most accurate?",
       "options": [
-        "A) Increase Mg infusion when reflexes disappear and RR is 8",
+        "A) Increase Mg infusion when reflexes disappear and respiratory rate is 8",
         "B) Increase oxytocin to overcome late decelerations",
         "C) Keep supine and increase oxytocin during fetal bradycardia",
-        "D) Absent reflexes, RR↓, low UOP—stop Mg, calcium gluconate per protocol"
+        "D) Absent reflexes, respiratory rate↓, low urine output—stop Mg, calcium gluconate per protocol"
       ],
-      "answer": "D) Absent reflexes, RR↓, low UOP—stop Mg, calcium gluconate per protocol",
-      "explanation": "Hypermagnesemia causes neuromuscular blockade. Therefore, the most accurate choice is: Absent reflexes, RR↓, low UOP—stop Mg, calcium gluconate per protocol. More Mg during toxicity is lethal—.",
+      "answer": "D) Absent reflexes, respiratory rate↓, low urine output—stop Mg, calcium gluconate per protocol",
+      "explanation": "Hypermagnesemia causes neuromuscular blockade. Therefore, the most accurate choice is: Absent reflexes, respiratory rate↓, low urine output—stop Mg, calcium gluconate per protocol. More Mg during toxicity is lethal—.",
       "choice_explanations": {
         "A": "More Mg during toxicity is lethal—near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -1844,30 +1844,30 @@
     },
     {
       "id": "maternity:extreme:12",
-      "question": "A 38-year-old woman has a rapidly worsening course of HELLP syndrome. Which of the following is most accurate?",
+      "question": "A 25-year-old woman has a rapidly worsening course of hemolysis, elevated liver enzymes, and low platelets syndrome syndrome. Which of the following is most accurate?",
       "options": [
         "A) Discharge unstable adnexal pain with empty uterus without protocol follow-up",
-        "B) RUQ pain + hemolysis/elevated LFTs/low platelets—emergency OB care",
+        "B) right upper quadrant pain + hemolysis/elevated liver function tests/low platelets—emergency obstetrics care",
         "C) Ambulate and reassure board-like abdomen after cocaine use without evaluation",
-        "D) Treat RUQ pain in hypertensive pregnancy as heartburn without labs"
+        "D) Treat right upper quadrant pain in hypertensive pregnancy as heartburn without labs"
       ],
-      "answer": "B) RUQ pain + hemolysis/elevated LFTs/low platelets—emergency OB care",
-      "explanation": "Microangiopathy can outpace classic proteinuria presentation. Therefore, the most accurate choice is: RUQ pain + hemolysis/elevated LFTs/low platelets—emergency OB care. Heartburn assumption misses HELLP—.",
+      "answer": "B) right upper quadrant pain + hemolysis/elevated liver function tests/low platelets—emergency obstetrics care",
+      "explanation": "Microangiopathy can outpace classic proteinuria presentation. Therefore, the most accurate choice is: right upper quadrant pain + hemolysis/elevated liver function tests/low platelets—emergency obstetrics care. Heartburn assumption misses hemolysis, elevated liver enzymes, and low platelets syndrome—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Microangiopathy can outpace classic proteinuria presentation. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Heartburn assumption misses HELLP—near-miss. It is less consistent than the correct choice."
+        "D": "Heartburn assumption misses hemolysis, elevated liver enzymes, and low platelets syndrome—near-miss. It is less consistent than the correct choice."
       }
     },
     {
       "id": "maternity:extreme:13",
-      "question": "A 35-year-old woman returns with ongoing problems related to placenta previa exam. Which of the following is most accurate?",
+      "question": "A 22-year-old woman returns with ongoing problems related to placenta previa exam. Which of the following is most accurate?",
       "options": [
-        "A) Perform frequent unnecessary digital exams after PROM",
+        "A) Perform frequent unnecessary digital exams after prelabor rupture of membranes",
         "B) Painless third-trimester bleeding—no digital vaginal exam until placenta localized",
         "C) Perform digital exam for painless bleeding before ultrasound localization",
-        "D) Delay blood until cardiac arrest from PPH"
+        "D) Delay blood until cardiac arrest from postpartum hemorrhage"
       ],
       "answer": "B) Painless third-trimester bleeding—no digital vaginal exam until placenta localized",
       "explanation": "Palpating a previa can cause massive hemorrhage. Therefore, the most accurate choice is: Painless third-trimester bleeding—no digital vaginal exam until placenta localized. Blind digital exam is a classic .",
@@ -1880,7 +1880,7 @@
     },
     {
       "id": "maternity:extreme:14",
-      "question": "A 38-year-old woman has refractory placental abruption. Which of the following is correct?",
+      "question": "A 25-year-old woman has refractory placental abruption. Which of the following is correct?",
       "options": [
         "A) Painful bleeding/hypertonic uterus/shock—maternal-fetal emergency",
         "B) Discharge unstable adnexal pain with empty uterus without protocol follow-up",
@@ -1898,12 +1898,12 @@
     },
     {
       "id": "maternity:extreme:15",
-      "question": "Which statement about cord prolapse response in a 23-year-old woman is most accurate?",
+      "question": "Which statement about cord prolapse response in a 27-year-old woman is most accurate?",
       "options": [
         "A) Leave mother alone with infant after harm delusions",
         "B) Wipe cord dry and wait hours for next clinic appointment",
         "C) Elevate presenting part, knee-chest/Trendelenburg, emergent delivery—do not leave",
-        "D) Push cord back and send patient to walk to OR alone"
+        "D) Push cord back and send patient to walk to operating room alone"
       ],
       "answer": "C) Elevate presenting part, knee-chest/Trendelenburg, emergent delivery—do not leave",
       "explanation": "Manual elevation relieves compression until cesarean. Therefore, the most accurate choice is: Elevate presenting part, knee-chest/Trendelenburg, emergent delivery—do not leave. Leaving without elevation loses fetal oxygenation—.",
@@ -1916,7 +1916,7 @@
     },
     {
       "id": "maternity:extreme:16",
-      "question": "A 33-year-old woman with gestational diabetes and chronic hypertension becomes acutely unstable with shoulder dystocia maneuvers. Which of the following is most accurate?",
+      "question": "A 37-year-old woman with gestational diabetes and chronic hypertension becomes acutely unstable with shoulder dystocia maneuvers. Which of the following is most accurate?",
       "options": [
         "A) Pull harder on the head without calling help when turtle sign appears",
         "B) Help, McRoberts, suprapubic pressure—avoid fundal pressure",
@@ -1934,7 +1934,7 @@
     },
     {
       "id": "maternity:extreme:17",
-      "question": "Small differences in wording about uterine atony PPH matter. Which of the following is correct?",
+      "question": "Small differences in wording about uterine atony postpartum hemorrhage matter. Which of the following is correct?",
       "options": [
         "A) Fundal massage, empty bladder, uterotonics, escalate hemorrhage bundle",
         "B) Go search for a chart before touching a boggy hemorrhaging fundus",
@@ -1942,9 +1942,9 @@
         "D) Start with carboprost before oxytocin without reason in routine atony"
       ],
       "answer": "A) Fundal massage, empty bladder, uterotonics, escalate hemorrhage bundle",
-      "explanation": "Tone failure is the leading PPH cause. Therefore, the most accurate choice is: Fundal massage, empty bladder, uterotonics, escalate hemorrhage bundle. Withholding first-line tone measures is a .",
+      "explanation": "Tone failure is the leading postpartum hemorrhage cause. Therefore, the most accurate choice is: Fundal massage, empty bladder, uterotonics, escalate hemorrhage bundle. Withholding first-line tone measures is a .",
       "choice_explanations": {
-        "A": "Tone failure is the leading PPH cause. This matches the correct interpretation.",
+        "A": "Tone failure is the leading postpartum hemorrhage cause. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Withholding first-line tone measures is a near-miss. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
@@ -1952,51 +1952,51 @@
     },
     {
       "id": "maternity:extreme:18",
-      "question": "A detailed evaluation for methergine HTN caution is underway in a 27-year-old woman. Which of the following is correct?",
+      "question": "A detailed evaluation for methergine hypertension caution is underway in a 31-year-old woman. Which of the following is correct?",
       "options": [
-        "A) Give methergine preferentially for PPH in severe preeclampsia",
-        "B) Send home severe headache/visual changes with BP 170s as ‘stress’",
+        "A) Give methergine preferentially for postpartum hemorrhage in severe preeclampsia",
+        "B) Send home severe headache/visual changes with blood pressure 170s as ‘stress’",
         "C) Avoid methylergonovine in hypertension/preeclampsia",
-        "D) Choose carboprost first for asthmatic PPH without caution"
+        "D) Choose carboprost first for asthmatic postpartum hemorrhage without caution"
       ],
       "answer": "C) Avoid methylergonovine in hypertension/preeclampsia",
-      "explanation": "Ergot vasoconstriction dangerously elevates BP. Therefore, the most accurate choice is: Avoid methylergonovine in hypertension/preeclampsia. Methergine in HTN is a classic .",
+      "explanation": "Ergot vasoconstriction dangerously elevates blood pressure. Therefore, the most accurate choice is: Avoid methylergonovine in hypertension/preeclampsia. Methergine in hypertension is a classic .",
       "choice_explanations": {
-        "A": "Methergine in HTN is a classic near-miss. It is less consistent than the correct choice.",
+        "A": "Methergine in hypertension is a classic near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Ergot vasoconstriction dangerously elevates BP. This matches the correct interpretation.",
+        "C": "Ergot vasoconstriction dangerously elevates blood pressure. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "maternity:extreme:19",
-      "question": "A 38-year-old woman has findings that make hemabate asthma caution hard to confirm. Which of the following is most accurate?",
+      "question": "A 25-year-old woman has findings that make hemabate asthma caution hard to confirm. Which of the following is most accurate?",
       "options": [
-        "A) Give methergine preferentially for PPH in severe preeclampsia",
-        "B) Choose carboprost first for asthmatic PPH without caution",
+        "A) Give methergine preferentially for postpartum hemorrhage in severe preeclampsia",
+        "B) Choose carboprost first for asthmatic postpartum hemorrhage without caution",
         "C) Caution/avoid carboprost in asthma due to bronchospasm risk",
         "D) Start with carboprost before oxytocin without reason in routine atony"
       ],
       "answer": "C) Caution/avoid carboprost in asthma due to bronchospasm risk",
-      "explanation": "PGF2α analogs may trigger bronchospasm. Therefore, the most accurate choice is: Caution/avoid carboprost in asthma due to bronchospasm risk. Asthma + carboprost without caution is a .",
+      "explanation": "PGF2α analogs may trigger bronchospasm. Therefore, the most accurate choice is: Caution/avoid carboprost in asthma due to bronchospasm risk. asthma + carboprost without caution is a .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Asthma + carboprost without caution is a near-miss. It is less consistent than the correct choice.",
+        "B": "asthma + carboprost without caution is a near-miss. It is less consistent than the correct choice.",
         "C": "PGF2α analogs may trigger bronchospasm. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "maternity:extreme:20",
-      "question": "In a 36-year-old woman, distinguishing late decelerations action from similar conditions is difficult. Which of the following is correct?",
+      "question": "In a 23-year-old woman, distinguishing late decelerations action from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) Increase oxytocin to overcome late decelerations",
         "B) Keep supine and increase oxytocin during fetal bradycardia",
         "C) Increase oxytocin during tachysystole with decelerations",
-        "D) Stop oxytocin, left lateral, fluids/O2 per protocol, notify—uteroplacental insufficiency pattern"
+        "D) Stop oxytocin, left lateral, fluids/oxygen per protocol, notify—uteroplacental insufficiency pattern"
       ],
-      "answer": "D) Stop oxytocin, left lateral, fluids/O2 per protocol, notify—uteroplacental insufficiency pattern",
-      "explanation": "Lates reflect impaired placental reserve during contractions. Therefore, the most accurate choice is: Stop oxytocin, left lateral, fluids/O2 per protocol, notify—uteroplacental insufficiency pattern. More oxytocin worsens insufficiency—.",
+      "answer": "D) Stop oxytocin, left lateral, fluids/oxygen per protocol, notify—uteroplacental insufficiency pattern",
+      "explanation": "Lates reflect impaired placental reserve during contractions. Therefore, the most accurate choice is: Stop oxytocin, left lateral, fluids/oxygen per protocol, notify—uteroplacental insufficiency pattern. More oxytocin worsens insufficiency—.",
       "choice_explanations": {
         "A": "More oxytocin worsens insufficiency—near-miss. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -2024,17 +2024,17 @@
     },
     {
       "id": "maternity:extreme:22",
-      "question": "Senior review is requested for category III tracing in a 30-year-old woman. Which of the following is correct?",
+      "question": "Senior review is requested for category 3 tracing in a 34-year-old woman. Which of the following is correct?",
       "options": [
         "A) Absent variability with recurrent lates/variables or bradycardia—resuscitate and expedite",
-        "B) Choose carboprost first for asthmatic PPH without caution",
+        "B) Choose carboprost first for asthmatic postpartum hemorrhage without caution",
         "C) Treat variables as identical to early decelerations and ignore recurrent depth",
-        "D) Continue Pitocin unchanged without notification for Category III"
+        "D) Continue Pitocin unchanged without notification for Category 3"
       ],
       "answer": "A) Absent variability with recurrent lates/variables or bradycardia—resuscitate and expedite",
-      "explanation": "Category III associates with acidemia risk needing action. Therefore, the most accurate choice is: Absent variability with recurrent lates/variables or bradycardia—resuscitate and expedite. Inaction is a .",
+      "explanation": "Category 3 associates with acidemia risk needing action. Therefore, the most accurate choice is: Absent variability with recurrent lates/variables or bradycardia—resuscitate and expedite. Inaction is a .",
       "choice_explanations": {
-        "A": "Category III associates with acidemia risk needing action. This matches the correct interpretation.",
+        "A": "Category 3 associates with acidemia risk needing action. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Inaction is a near-miss. It is less consistent than the correct choice."
@@ -2042,15 +2042,15 @@
     },
     {
       "id": "maternity:extreme:23",
-      "question": "Which statement about intrauterine resuscitation in a 27-year-old woman is most accurate?",
+      "question": "Which statement about intrauterine resuscitation in a 31-year-old woman is most accurate?",
       "options": [
         "A) Increase oxytocin to overcome late decelerations",
         "B) Increase oxytocin during tachysystole with decelerations",
         "C) Keep supine and increase oxytocin during fetal bradycardia",
-        "D) Left lateral, stop uterotonics, bolus as ordered, O2 per protocol"
+        "D) Left lateral, stop uterotonics, bolus as ordered, oxygen per protocol"
       ],
-      "answer": "D) Left lateral, stop uterotonics, bolus as ordered, O2 per protocol",
-      "explanation": "Steps maximize perfusion and reduce tachysystole. Therefore, the most accurate choice is: Left lateral, stop uterotonics, bolus as ordered, O2 per protocol. Supine + more oxytocin worsens insult—.",
+      "answer": "D) Left lateral, stop uterotonics, bolus as ordered, oxygen per protocol",
+      "explanation": "Steps maximize perfusion and reduce tachysystole. Therefore, the most accurate choice is: Left lateral, stop uterotonics, bolus as ordered, oxygen per protocol. Supine + more oxytocin worsens insult—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
@@ -2060,25 +2060,25 @@
     },
     {
       "id": "maternity:extreme:24",
-      "question": "A 27-year-old woman has a complex presentation of epidural hypotension. Which of the following is most accurate?",
+      "question": "A 31-year-old woman has a complex presentation of epidural hypotension. Which of the following is most accurate?",
       "options": [
         "A) Leave newly hypotensive post-epidural mother fully supine without displacement",
-        "B) IV co-load per protocol, BP monitoring, uterine displacement, vasopressors as ordered",
+        "B) intravenous co-load per protocol, blood pressure monitoring, uterine displacement, vasopressors as ordered",
         "C) Keep supine and increase oxytocin during fetal bradycardia",
-        "D) Delay obstetric involvement for 30 minutes of futile ALS without uterine emptying consideration"
+        "D) Delay obstetric involvement for 30 minutes of futile amyotrophic lateral sclerosis without uterine emptying consideration"
       ],
-      "answer": "B) IV co-load per protocol, BP monitoring, uterine displacement, vasopressors as ordered",
-      "explanation": "Sympathetic block + aortocaval compression drop BP/uteroplacental flow. Therefore, the most accurate choice is: IV co-load per protocol, BP monitoring, uterine displacement, vasopressors as ordered. No displacement is a .",
+      "answer": "B) intravenous co-load per protocol, blood pressure monitoring, uterine displacement, vasopressors as ordered",
+      "explanation": "Sympathetic block + aortocaval compression drop blood pressure/uteroplacental flow. Therefore, the most accurate choice is: intravenous co-load per protocol, blood pressure monitoring, uterine displacement, vasopressors as ordered. No displacement is a .",
       "choice_explanations": {
         "A": "No displacement is a near-miss. It is less consistent than the correct choice.",
-        "B": "Sympathetic block + aortocaval compression drop BP/uteroplacental flow. This matches the correct interpretation.",
+        "B": "Sympathetic block + aortocaval compression drop blood pressure/uteroplacental flow. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "maternity:extreme:25",
-      "question": "A 36-year-old woman with gestational diabetes and chronic hypertension is reassessed after incomplete response related to VBAC rupture. Which of the following is most accurate?",
+      "question": "A 23-year-old woman with gestational diabetes and chronic hypertension is reassessed after incomplete response related to vaginal birth after cesarean rupture. Which of the following is most accurate?",
       "options": [
         "A) Discharge unstable adnexal pain with empty uterus without protocol follow-up",
         "B) Continue oxytocin despite scar pain and prolonged decelerations",
@@ -2096,25 +2096,25 @@
     },
     {
       "id": "maternity:extreme:26",
-      "question": "A 24-year-old woman needs action related to classical scar TOLAC. Which of the following is correct?",
+      "question": "A 28-year-old woman needs action related to classical scar trial of labor after cesarean. Which of the following is correct?",
       "options": [
-        "A) Omit rupture risk discussion to improve TOLAC uptake numbers",
-        "B) Offer routine TOLAC for classical scar without specialist counseling",
+        "A) Omit rupture risk discussion to improve trial of labor after cesarean uptake numbers",
+        "B) Offer routine trial of labor after cesarean for classical scar without specialist counseling",
         "C) Continue oxytocin despite scar pain and prolonged decelerations",
-        "D) Prior classical/vertical incision generally contraindicates TOLAC"
+        "D) Prior classical/vertical incision generally contraindicates trial of labor after cesarean"
       ],
-      "answer": "D) Prior classical/vertical incision generally contraindicates TOLAC",
-      "explanation": "Vertical scars have high rupture risk in labor. Therefore, the most accurate choice is: Prior classical/vertical incision generally contraindicates TOLAC. Uncounseled TOLAC offer is a .",
+      "answer": "D) Prior classical/vertical incision generally contraindicates trial of labor after cesarean",
+      "explanation": "Vertical scars have high rupture risk in labor. Therefore, the most accurate choice is: Prior classical/vertical incision generally contraindicates trial of labor after cesarean. Uncounseled trial of labor after cesarean offer is a .",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Uncounseled TOLAC offer is a near-miss. It is less consistent than the correct choice.",
+        "B": "Uncounseled trial of labor after cesarean offer is a near-miss. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Vertical scars have high rupture risk in labor. This matches the correct interpretation."
       }
     },
     {
       "id": "maternity:extreme:27",
-      "question": "A 36-year-old woman has findings that make postpartum fundus hard to confirm. Which of the following is most accurate?",
+      "question": "A 23-year-old woman has findings that make postpartum fundus hard to confirm. Which of the following is most accurate?",
       "options": [
         "A) Go search for a chart before touching a boggy hemorrhaging fundus",
         "B) Stop massage and withhold oxytocin while boggy fundus hemorrhages",
@@ -2122,12 +2122,12 @@
         "D) Firm midline fundus; massage boggy uterus; assess lochia/bladder"
       ],
       "answer": "D) Firm midline fundus; massage boggy uterus; assess lochia/bladder",
-      "explanation": "Tone + empty bladder prevent PPH. Therefore, the most accurate choice is: Firm midline fundus; massage boggy uterus; assess lochia/bladder. Full bladder displaces and bogifies— if ignored.",
+      "explanation": "Tone + empty bladder prevent postpartum hemorrhage. Therefore, the most accurate choice is: Firm midline fundus; massage boggy uterus; assess lochia/bladder. Full bladder displaces and bogifies— if ignored.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Tone + empty bladder prevent PPH. This matches the correct interpretation."
+        "D": "Tone + empty bladder prevent postpartum hemorrhage. This matches the correct interpretation."
       }
     },
     {
@@ -2150,19 +2150,19 @@
     },
     {
       "id": "maternity:extreme:29",
-      "question": "A 23-year-old woman returns with ongoing problems related to postpartum blues vs PPD. Which of the following is most accurate?",
+      "question": "A 27-year-old woman returns with ongoing problems related to postpartum blues versus purified protein derivative. Which of the following is most accurate?",
       "options": [
         "A) Call Chadwick sign a positive diagnostic sign equal to FHTs",
-        "B) Blues mild/transient; PPD persistent impairment—screen and escalate",
+        "B) Blues mild/transient; purified protein derivative persistent impairment—screen and escalate",
         "C) Dismiss suicidal ideation at week 3 as blues",
         "D) Tell patients to wait a week of absent movement before calling"
       ],
-      "answer": "B) Blues mild/transient; PPD persistent impairment—screen and escalate",
-      "explanation": "Safety features never equal blues. Therefore, the most accurate choice is: Blues mild/transient; PPD persistent impairment—screen and escalate. SI is not blues—.",
+      "answer": "B) Blues mild/transient; purified protein derivative persistent impairment—screen and escalate",
+      "explanation": "Safety features never equal blues. Therefore, the most accurate choice is: Blues mild/transient; purified protein derivative persistent impairment—screen and escalate. suicidal ideation is not blues—.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Safety features never equal blues. This matches the correct interpretation.",
-        "C": "SI is not blues—near-miss. It is less consistent than the correct choice.",
+        "C": "suicidal ideation is not blues—near-miss. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     }
