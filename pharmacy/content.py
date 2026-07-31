@@ -10907,6 +10907,24 @@ def _load_apply_question_banks():
 _apply_question_banks = _load_apply_question_banks()
 _apply_question_banks(SPECIALTIES, _BankPath(__file__).resolve().parent / "question_banks")
 
+def _load_apply_custom_content():
+    import importlib.util as _ilu
+    from pathlib import Path as _P
+
+    here = _P(__file__).resolve().parent
+    for candidate in (here / "bank_loader.py", here.parent / "bank_loader.py"):
+        if candidate.exists():
+            spec = _ilu.spec_from_file_location("_bank_loader_custom", candidate)
+            mod = _ilu.module_from_spec(spec)
+            assert spec.loader is not None
+            spec.loader.exec_module(mod)
+            return mod.apply_custom_content, mod.reload_department_content
+    raise ImportError("bank_loader.py not found")
+
+_apply_custom_content, reload_department_content = _load_apply_custom_content()
+_apply_custom_content(SPECIALTIES, _BankPath(__file__).resolve().parent / "custom_content")
+
+
 
 def specialty_label(key: str) -> str:
     return SPECIALTIES[key]["label"]

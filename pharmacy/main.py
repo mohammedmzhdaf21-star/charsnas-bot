@@ -54,8 +54,10 @@ from content import (
     pick_question,
     specialty_label,
     specialty_menu_text,
+    reload_department_content,
 )
 from generate_pdfs import PDF_DIR, ensure_pdfs, pdf_for_specialty
+from bank_loader import custom_pdf_paths
 from quiz_session import (
     COUNT_OPTIONS,
     DAILY_LIMIT,
@@ -80,6 +82,12 @@ BOT_TOKEN = os.getenv("PHARMACY_BOT_TOKEN") or os.getenv("BOT_TOKEN")
 ROOT = Path(__file__).resolve().parent
 USAGE_STORE = DailyUsageStore(ROOT / "data" / "daily_mcq_usage.json")
 SEEN_STORE = SeenQuestionsStore(ROOT / "data" / "seen_questions.json")
+BANKS_DIR = ROOT / "question_banks"
+CUSTOM_CONTENT_DIR = ROOT / "custom_content"
+
+def refresh_content() -> None:
+    """Pick up Short MCQs / cases / books saved by the input bot."""
+    reload_department_content(SPECIALTIES, BANKS_DIR, CUSTOM_CONTENT_DIR)
 
 BTN_MCQ = "Short MCQ"
 BTN_CASE = "Case-based Question"
@@ -555,6 +563,7 @@ async def send_case(update: Update, context: ContextTypes.DEFAULT_TYPE, difficul
     if not specialty_key:
         return
 
+    refresh_content()
     store = remaining_map(context, "remaining_cases")
     key = pool_key(specialty_key, difficulty)
     remaining = store.get(key)
@@ -573,6 +582,7 @@ async def send_case(update: Update, context: ContextTypes.DEFAULT_TYPE, difficul
 
 
 async def send_books(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    refresh_content()
     specialty_key = await require_specialty(update, context)
     if not specialty_key:
         return
@@ -584,15 +594,18 @@ async def send_books(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None
 
 
 async def send_pdfs(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    refresh_content()
     specialty_key = await require_specialty(update, context)
     if not specialty_key:
         return
 
     path = pdf_for_specialty(specialty_key, PDF_DIR)
     label = specialty_label(specialty_key)
+    extras = custom_pdf_paths(PDF_DIR, specialty_key)
     await safe_reply(
         update,
-        f"📄 Sending *{label}* PDF study notes…",
+        f"📄 Sending *{label}* PDF study notes…"
+        + (f" (+{len(extras)} custom)" if extras else ""),
         reply_markup=feature_keyboard(),
     )
     with path.open("rb") as fh:
@@ -601,6 +614,13 @@ async def send_pdfs(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
             filename=path.name,
             caption=f"UG Medicine — {label}",
         )
+    for extra in extras:
+        with extra.open("rb") as fh:
+            await update.message.reply_document(
+                document=fh,
+                filename=extra.name,
+                caption=f"Custom PDF — {label}",
+            )
 
 
 async def dispatch_feature(

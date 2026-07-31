@@ -25,3 +25,8 @@ data/
 
 data/seen_questions.json
 **/data/seen_questions.json
+
+# Question input bot local files
+question_input/bot.log
+question_input/data/tmp/
+question_input/.env

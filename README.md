@@ -43,3 +43,17 @@ cd nursing && cp .env.example .env && python3 main.py
 ```
 
 Details: [hub/README.md](hub/README.md) · [dentistry/README.md](dentistry/README.md) · [pharmacy/README.md](pharmacy/README.md) · [mls/README.md](mls/README.md) · [nursing/README.md](nursing/README.md)
+
+## Question Input bot
+
+Admin/content bot to add Short MCQs, cases, PDFs, and book sources into a department specialty.
+
+```bash
+cd question_input
+cp .env.example .env   # set QUESTION_INPUT_BOT_TOKEN from @BotFather
+./run_bot.sh
+```
+
+Flow: content type → department → specialty → (difficulty) → count → enter each item with choices.
+Short MCQs are written into that specialty’s `question_banks/*.json` and appear in the linked department bot.
+
