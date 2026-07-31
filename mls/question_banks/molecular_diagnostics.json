@@ -544,7 +544,7 @@
   "medium": [
     {
       "id": "molecular_diagnostics:medium:0",
-      "question": "A 60-year-old man is examined, and PCR principle is reviewed. Which of the following is correct?",
+      "question": "A 50-year-old man is examined, and PCR principle is reviewed. Which of the following is correct?",
       "options": [
         "A) PCR thermally amplifies specific DNA targets using primers and polymerase",
         "B) Southern blot amplifies RNA isothermally like LAMP",
@@ -562,7 +562,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:1",
-      "question": "While evaluating a 50-year-old man, attention turns to RT-PCR RNA. Which of the following is most accurate?",
+      "question": "While evaluating a 40-year-old man, attention turns to RT-PCR RNA. Which of the following is most accurate?",
       "options": [
         "A) Isothermal methods require 95°C denaturation each cycle like PCR",
         "B) RT-PCR directly amplifies RNA without reverse transcriptase",
@@ -580,7 +580,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:2",
-      "question": "A 37-year-old woman has findings requiring interpretation of q PCR quantification. Which of the following is correct?",
+      "question": "A 27-year-old woman has findings requiring interpretation of q PCR quantification. Which of the following is correct?",
       "options": [
         "A) Isothermal methods require 95°C denaturation each cycle like PCR",
         "B) Digital PCR is less precise than subjective gel reading always",
@@ -598,7 +598,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:3",
-      "question": "In a 68-year-old man, which statement about ct value is correct?",
+      "question": "In a 58-year-old man, which statement about ct value is correct?",
       "options": [
         "A) Higher Ct always means more target than low Ct",
         "B) Multiplex PCR can amplify only one target by definition",
@@ -634,7 +634,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:5",
-      "question": "A 66-year-old man undergoes assessment involving probe hydrolysis. Which of the following is most accurate?",
+      "question": "A 56-year-old man undergoes assessment involving probe hydrolysis. Which of the following is most accurate?",
       "options": [
         "A) Hydrolysis probes detect proteins in ELISA",
         "B) TaqMan probes use 5' nuclease cleavage for sequence-specific fluorescence",
@@ -688,7 +688,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:8",
-      "question": "A 70-year-old man is examined, and multiplex PCR is reviewed. Which of the following is correct?",
+      "question": "A 60-year-old man is examined, and multiplex PCR is reviewed. Which of the following is correct?",
       "options": [
         "A) PCR separates proteins by size like SDS-PAGE",
         "B) Primer sequence is irrelevant to PCR specificity",
@@ -706,7 +706,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:9",
-      "question": "While evaluating a 61-year-old woman, attention turns to contamination control. Which of the following is most accurate?",
+      "question": "While evaluating a 51-year-old woman, attention turns to contamination control. Which of the following is most accurate?",
       "options": [
         "A) Inhibitors only cause false positives in PCR",
         "B) PCR labs separate pre- and post-amplification areas to avoid amplicon contamination",
@@ -724,7 +724,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:10",
-      "question": "A 46-year-old man has findings requiring interpretation of UNG d UTP. Which of the following is correct?",
+      "question": "A 36-year-old man has findings requiring interpretation of UNG d UTP. Which of the following is correct?",
       "options": [
         "A) UNG/dUTP systems help prevent carryover contamination of amplicons",
         "B) Multiplex PCR can amplify only one target by definition",
@@ -742,7 +742,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:11",
-      "question": "In a 58-year-old man, which statement about extraction quality is correct?",
+      "question": "In a 48-year-old man, which statement about extraction quality is correct?",
       "options": [
         "A) RNA quality is irrelevant for RT-PCR success",
         "B) Nucleic acid extraction quality critically affects molecular assay success",
@@ -778,7 +778,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:13",
-      "question": "A 30-year-old man undergoes assessment involving internal control. Which of the following is most accurate?",
+      "question": "A 66-year-old man undergoes assessment involving internal control. Which of the following is most accurate?",
       "options": [
         "A) Genotypic resistance always detects every possible mechanism including unknown ones",
         "B) Internal controls are unnecessary if the target is negative",
@@ -832,7 +832,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:16",
-      "question": "A 26-year-old man is examined, and sanger sequencing is reviewed. Which of the following is correct?",
+      "question": "A 62-year-old man is examined, and sanger sequencing is reviewed. Which of the following is correct?",
       "options": [
         "A) Tumor-only sequencing never risks germline misattribution",
         "B) Mosaicism is always detected by a single Sanger read",
@@ -850,7 +850,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:17",
-      "question": "While evaluating a 41-year-old woman, attention turns to NGS principle. Which of the following is most accurate?",
+      "question": "While evaluating a 31-year-old woman, attention turns to NGS principle. Which of the following is most accurate?",
       "options": [
         "A) NGS is identical to Gram staining colonies",
         "B) Library prep is unnecessary for all NGS workflows",
@@ -868,7 +868,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:18",
-      "question": "A 27-year-old woman has findings requiring interpretation of library prep. Which of the following is correct?",
+      "question": "A 63-year-old woman has findings requiring interpretation of library prep. Which of the following is correct?",
       "options": [
         "A) Sanger sequencing quantifies serum sodium",
         "B) Library prep is unnecessary for all NGS workflows",
@@ -886,7 +886,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:19",
-      "question": "In a 30-year-old man, which statement about coverage depth is correct?",
+      "question": "In a 66-year-old man, which statement about coverage depth is correct?",
       "options": [
         "A) Depth is irrelevant to variant detection sensitivity",
         "B) Analytical specificity equals clinical sensitivity always",
@@ -922,7 +922,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:21",
-      "question": "A 36-year-old man undergoes assessment involving limit of detection. Which of the following is most accurate?",
+      "question": "A 26-year-old man undergoes assessment involving limit of detection. Which of the following is most accurate?",
       "options": [
         "A) Depth is irrelevant to variant detection sensitivity",
         "B) LOD is the highest concentration before Hook effect only",
@@ -976,7 +976,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:24",
-      "question": "A 65-year-old woman is examined, and FISH molecular is reviewed. Which of the following is correct?",
+      "question": "A 55-year-old woman is examined, and FISH molecular is reviewed. Which of the following is correct?",
       "options": [
         "A) FISH measures glucose by hexokinase",
         "B) FISH uses fluorescent probes to detect gene rearrangements/copy number in cells",
@@ -994,7 +994,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:25",
-      "question": "While evaluating a 59-year-old woman, attention turns to karyotype. Which of the following is most accurate?",
+      "question": "While evaluating a 49-year-old woman, attention turns to karyotype. Which of the following is most accurate?",
       "options": [
         "A) Karyotyping visualizes metaphase chromosomes for large rearrangements/aneuploidy",
         "B) NGS is identical to Gram staining colonies",
@@ -1012,7 +1012,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:26",
-      "question": "A 54-year-old man has findings requiring interpretation of CML BCR-ABL PCR. Which of the following is correct?",
+      "question": "A 44-year-old man has findings requiring interpretation of CML BCR-ABL PCR. Which of the following is correct?",
       "options": [
         "A) International standards are irrelevant to quantitative molecular results",
         "B) BCR-ABL1 quantitative PCR monitors CML molecular response",
@@ -1030,7 +1030,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:27",
-      "question": "In a 44-year-old man, which statement about AML PML-RARA is correct?",
+      "question": "In a 34-year-old man, which statement about AML PML-RARA is correct?",
       "options": [
         "A) RAS wild-type status is irrelevant to anti-EGFR therapy",
         "B) PML::RARA fusion defines APL and guides ATRA/ATO therapy urgency",
@@ -1066,7 +1066,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:29",
-      "question": "A 54-year-old man undergoes assessment involving EGFR mutations. Which of the following is most accurate?",
+      "question": "A 44-year-old man undergoes assessment involving EGFR mutations. Which of the following is most accurate?",
       "options": [
         "A) EGFR mutations guide only warfarin dosing",
         "B) Target mutations only affect Gram stains",

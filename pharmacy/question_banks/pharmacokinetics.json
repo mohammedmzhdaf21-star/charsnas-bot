@@ -416,7 +416,7 @@
     },
     {
       "id": "pharmacokinetics:easy:23",
-      "question": "Which of the following applies to loading plus infusion?",
+      "question": "Which statement about loading plus infusion is accurate?",
       "options": [
         "A) Full induction always occurs within one minute of the first inducer dose",
         "B) Loading dose quickly approaches Css while infusion maintains it",
@@ -796,7 +796,7 @@
     },
     {
       "id": "pharmacokinetics:medium:14",
-      "question": "A 34-year-old man needs dose adjustment related to reabsorption p H. Which of the following is most accurate?",
+      "question": "A 65-year-old woman needs dose adjustment related to reabsorption p H. Which of the following is most accurate?",
       "options": [
         "A) Renal clearance equals only urine flow rate always",
         "B) Urine pH never affects renal excretion of weak acids/bases",
@@ -850,7 +850,7 @@
     },
     {
       "id": "pharmacokinetics:medium:17",
-      "question": "A 36-year-old man takes several medicines and is assessed regarding phenytoin nonlinear. Which of the following is most appropriate?",
+      "question": "A 67-year-old woman takes several medicines and is assessed regarding phenytoin nonlinear. Which of the following is most appropriate?",
       "options": [
         "A) Phenytoin always shows strict dose-proportional linear PK at all doses",
         "B) Saturable metabolism keeps AUC perfectly proportional to dose forever",
@@ -886,7 +886,7 @@
     },
     {
       "id": "pharmacokinetics:medium:19",
-      "question": "A 32-year-old woman develops an adverse effect related to one-compartment IV bolus. Which of the following best explains it?",
+      "question": "A 63-year-old man develops an adverse effect related to one-compartment IV bolus. Which of the following best explains it?",
       "options": [
         "A) IV bolus always shows multi-exponential tissue distribution with no simple V",
         "B) Oral absorption is always zero-order with constant mg/h for every immediate-release tablet",
@@ -904,7 +904,7 @@
     },
     {
       "id": "pharmacokinetics:medium:20",
-      "question": "A 58-year-old woman needs counseling about two-compartment model. Which of the following is most appropriate?",
+      "question": "A 48-year-old man needs counseling about two-compartment model. Which of the following is most appropriate?",
       "options": [
         "A) Distribution phase (α) then elimination phase (β) after IV bolus",
         "B) IV bolus always shows multi-exponential tissue distribution with no simple V",
@@ -922,7 +922,7 @@
     },
     {
       "id": "pharmacokinetics:medium:21",
-      "question": "A 43-year-old woman undergoes assessment involving distribution phase. Which of the following is most accurate?",
+      "question": "A 33-year-old man undergoes assessment involving distribution phase. Which of the following is most accurate?",
       "options": [
         "A) Early α phase is caused only by assay error never distribution",
         "B) Pregnancy never alters drug clearance or distribution",
@@ -940,7 +940,7 @@
     },
     {
       "id": "pharmacokinetics:medium:22",
-      "question": "A 31-year-old woman needs dose adjustment related to steady-state infusion. Which of the following is most accurate?",
+      "question": "A 62-year-old man needs dose adjustment related to steady-state infusion. Which of the following is most accurate?",
       "options": [
         "A) Css equals infusion rate × CL",
         "B) Css = infusion rate / CL for continuous IV infusion at steady state",
@@ -958,7 +958,7 @@
     },
     {
       "id": "pharmacokinetics:medium:23",
-      "question": "A 38-year-old man has lab changes linked to loading plus infusion. Which of the following is correct?",
+      "question": "Which interpretation of loading plus infusion is correct?",
       "options": [
         "A) Infusion alone always reaches Css in one minute regardless of t½",
         "B) t½ alone determines maintenance dose rate without CL",
@@ -976,7 +976,7 @@
     },
     {
       "id": "pharmacokinetics:medium:24",
-      "question": "A 69-year-old man is started on treatment related to multiple dosing accumulation. Which of the following is correct?",
+      "question": "A 59-year-old woman is started on treatment related to multiple dosing accumulation. Which of the following is correct?",
       "options": [
         "A) t½ alone determines maintenance dose rate without CL",
         "B) Accumulation factor rises when dosing interval is short relative to t½",
@@ -1030,7 +1030,7 @@
     },
     {
       "id": "pharmacokinetics:medium:27",
-      "question": "A 62-year-old man develops an adverse effect related to first-pass ER. Which of the following best explains it?",
+      "question": "A 52-year-old woman develops an adverse effect related to first-pass ER. Which of the following best explains it?",
       "options": [
         "A) Sublingual delivery always undergoes complete portal first-pass identically to swallowed drug",
         "B) Cirrhosis never changes oral bioavailability of high-extraction drugs",
@@ -1320,7 +1320,7 @@
     },
     {
       "id": "pharmacokinetics:hard:13",
-      "question": "A difficult case of reabsorption p H in a 34-year-old man is reviewed. Which of the following is correct?",
+      "question": "Which statement about reabsorption p H in a 65-year-old woman is most accurate?",
       "options": [
         "A) Passive reabsorption of unionized drug can be manipulated by urine pH (ion trapping)",
         "B) Urine pH never affects renal excretion of weak acids/bases",
@@ -1392,7 +1392,7 @@
     },
     {
       "id": "pharmacokinetics:hard:17",
-      "question": "A 63-year-old man is evaluated for protein binding Vd. Which of the following is the best interpretation?",
+      "question": "In a 53-year-old woman, protein binding Vd must be separated from similar conditions. Which of the following is correct?",
       "options": [
         "A) Plasma protein binding always increases Vd above total body water automatically",
         "B) Extensive tissue binding increases Vd; extensive plasma binding can decrease apparent Vd",
@@ -1428,7 +1428,7 @@
     },
     {
       "id": "pharmacokinetics:hard:19",
-      "question": "Initial reading of the case suggested two-compartment model. Which of the following is correct?",
+      "question": "A clinic case of two-compartment model is discussed. Which of the following is correct?",
       "options": [
         "A) Two-compartment means zero distribution time and single exponential only",
         "B) IV bolus always shows multi-exponential tissue distribution with no simple V",
@@ -1464,7 +1464,7 @@
     },
     {
       "id": "pharmacokinetics:hard:21",
-      "question": "A difficult case of steady-state infusion in a 31-year-old woman is reviewed. Which of the following is correct?",
+      "question": "Which statement about steady-state infusion in a 62-year-old man is most accurate?",
       "options": [
         "A) Css equals infusion rate × CL",
         "B) t½ alone determines maintenance dose rate without CL",
@@ -1554,7 +1554,7 @@
     },
     {
       "id": "pharmacokinetics:hard:26",
-      "question": "A 62-year-old man has suspected first-pass ER, and similar diagnoses remain possible. Which of the following is most accurate?",
+      "question": "A 52-year-old woman returns for review of suspected first-pass ER. Which of the following is most accurate?",
       "options": [
         "A) Sublingual delivery always undergoes complete portal first-pass identically to swallowed drug",
         "B) High extraction always means oral F near 100%",
@@ -1590,7 +1590,7 @@
     },
     {
       "id": "pharmacokinetics:hard:28",
-      "question": "A 36-year-old man presents with p-gp absorption. Which of the following best separates it from similar conditions?",
+      "question": "A 67-year-old woman presents with features compatible with p-gp absorption. Which of the following is most accurate?",
       "options": [
         "A) P-gp only increases oral absorption of all substrates",
         "B) BBB transporters always maximize CNS levels of all drugs",
@@ -1608,7 +1608,7 @@
     },
     {
       "id": "pharmacokinetics:hard:29",
-      "question": "A difficult case of BBB efflux in a 61-year-old man is reviewed. Which of the following is correct?",
+      "question": "Which statement about BBB efflux in a 51-year-old woman is most accurate?",
       "options": [
         "A) Random untimed levels are always equally interpretable for all TDM drugs",
         "B) A single random CSF level always fully defines CNS PK for all drugs",
@@ -1880,7 +1880,7 @@
     },
     {
       "id": "pharmacokinetics:extreme:14",
-      "question": "A 34-year-old man has refractory reabsorption p H. Which of the following is correct?",
+      "question": "Senior review is requested for reabsorption p H in a 65-year-old woman. Which of the following is correct?",
       "options": [
         "A) Tubular secretion never exceeds GFR contribution",
         "B) Renal clearance equals only urine flow rate always",
@@ -1934,7 +1934,7 @@
     },
     {
       "id": "pharmacokinetics:extreme:17",
-      "question": "Management of phenytoin nonlinear is reviewed for a 36-year-old man. Which of the following is most accurate?",
+      "question": "Management of phenytoin nonlinear is reviewed for a 67-year-old woman. Which of the following is most accurate?",
       "options": [
         "A) Small dose increases can cause large phenytoin level jumps near saturation",
         "B) TMDD means monoclonal antibodies always show linear PK at all doses",
@@ -1952,7 +1952,7 @@
     },
     {
       "id": "pharmacokinetics:extreme:18",
-      "question": "A 63-year-old man worsens overnight with protein binding Vd. Which of the following is most accurate?",
+      "question": "A detailed evaluation for protein binding Vd is underway in a 53-year-old woman. Which of the following is correct?",
       "options": [
         "A) Trough targeting ignores pathogen MIC and protein binding always without consequence",
         "B) Plasma protein binding always increases Vd above total body water automatically",
@@ -1970,7 +1970,7 @@
     },
     {
       "id": "pharmacokinetics:extreme:19",
-      "question": "In a 32-year-old woman, treatment choices for one-compartment IV bolus are debated. Which of the following is most accurate?",
+      "question": "In a 63-year-old man, treatment choices for one-compartment IV bolus are compared. Which of the following is most accurate?",
       "options": [
         "A) IV bolus always shows multi-exponential tissue distribution with no simple V",
         "B) Cp declines monoexponentially; V = Dose/C0; t½ = 0.693/k",
@@ -1988,7 +1988,7 @@
     },
     {
       "id": "pharmacokinetics:extreme:20",
-      "question": "A 58-year-old woman has a rapidly worsening course of two-compartment model. Which of the following is most accurate?",
+      "question": "In a 48-year-old man, distinguishing two-compartment model from similar conditions is difficult. Which of the following is correct?",
       "options": [
         "A) IV bolus always shows multi-exponential tissue distribution with no simple V",
         "B) Distribution phase (α) then elimination phase (β) after IV bolus",
@@ -2024,7 +2024,7 @@
     },
     {
       "id": "pharmacokinetics:extreme:22",
-      "question": "A 31-year-old woman has refractory steady-state infusion. Which of the following is correct?",
+      "question": "Senior review is requested for steady-state infusion in a 62-year-old man. Which of the following is correct?",
       "options": [
         "A) Css = infusion rate / CL for continuous IV infusion at steady state",
         "B) CL equals Vd by definition in all drugs",
@@ -2042,7 +2042,7 @@
     },
     {
       "id": "pharmacokinetics:extreme:23",
-      "question": "Which statement about managing loading plus infusion in a 38-year-old man is most accurate?",
+      "question": "Which statement about loading plus infusion is most accurate?",
       "options": [
         "A) Context-sensitive half-time always equals terminal t½ regardless of infusion length",
         "B) Infusion alone always reaches Css in one minute regardless of t½",
@@ -2060,7 +2060,7 @@
     },
     {
       "id": "pharmacokinetics:extreme:24",
-      "question": "A 69-year-old man with reduced renal function requires urgent decisions about multiple dosing accumulation. Which of the following is most accurate?",
+      "question": "A 59-year-old woman with reduced renal function requires careful decisions about multiple dosing accumulation. Which of the following is most accurate?",
       "options": [
         "A) Superposition forbids predicting multiple-dose levels from single-dose data ever",
         "B) No accumulation ever occurs with repeated dosing regardless of interval",
@@ -2096,7 +2096,7 @@
     },
     {
       "id": "pharmacokinetics:extreme:26",
-      "question": "A 60-year-old woman needs immediate action related to linear PK superposition. Which of the following is correct?",
+      "question": "A 50-year-old man needs action related to linear PK superposition. Which of the following is correct?",
       "options": [
         "A) Superposition forbids predicting multiple-dose levels from single-dose data ever",
         "B) Phenytoin always shows strict dose-proportional linear PK at all doses",
@@ -2114,7 +2114,7 @@
     },
     {
       "id": "pharmacokinetics:extreme:27",
-      "question": "A 62-year-old man with reduced renal function develops dangerous complications of first-pass ER. Which of the following is correct?",
+      "question": "A 52-year-old woman has findings that make first-pass ER hard to confirm. Which of the following is most accurate?",
       "options": [
         "A) Sublingual delivery always undergoes complete portal first-pass identically to swallowed drug",
         "B) Hepatic extraction ratio relates to first-pass loss for orally absorbed drugs",
@@ -2150,7 +2150,7 @@
     },
     {
       "id": "pharmacokinetics:extreme:29",
-      "question": "Urgent management decisions for p-gp absorption are required in a 36-year-old man. Which of the following is most accurate?",
+      "question": "A 67-year-old woman returns with ongoing problems related to p-gp absorption. Which of the following is most accurate?",
       "options": [
         "A) BBB transporters always maximize CNS levels of all drugs",
         "B) Intestinal P-gp efflux can limit absorption of substrates and interact with inhibitors",

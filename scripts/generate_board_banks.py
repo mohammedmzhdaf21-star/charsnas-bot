@@ -344,7 +344,7 @@ def patient_demo(
     if specialty in {"pediatrics", "pediatric_dentistry"} or (
         field == "nursing" and specialty == "pediatrics"
     ):
-        if any(k in blob for k in ("neonat", "newborn", "apgar", "rds", "ttn", "meconium")):
+        if any(k in blob for k in ("neonat", "newborn", "apgar", "rds", "ttn", "meconium", "gbs early", "gbs disease", "idm ")):
             days = 1 + (seed % 14)
             who = f"A {days}-day-old newborn"
             age = 0
@@ -542,7 +542,15 @@ def patient_demo(
                     "comorbidities": "",
                     "is_child": True,
                 }
-            age = pick(8, 22)
+            age = pick(6, 17)
+            return {
+                "who": f"A {age}-year-old child" if age < 13 else f"A {age}-year-old adolescent",
+                "age": age,
+                "sex": "child",
+                "comorbidities": "",
+                "is_child": True,
+            }
+            age = pick(8, 22)  # unreachable safeguard
         elif specialty == "endocrinology" and any(k in blob for k in ("type 1", "dka", "precocious")):
             age = pick(8, 24)
         elif specialty == "nephrology" and "psgn" in blob:
@@ -632,33 +640,131 @@ def _with_comorbidities(who: str, comorbidities: str) -> str:
 
 def topic_kind(topic: dict) -> str:
     blob = _blob(topic)
+    label = condition_name(topic.get("topic", "")).lower()
     if any(
-        k in blob
+        k in blob or k in label
         for k in (
             "efficacy", "potency", "agonist", "antagonist", "receptor", "pharmacokin",
             "half-life", "bioavailability", "first pass", "volume of distribution",
             "clearance", "therapeutic index", "partial agonist", "competitive",
+            "endotoxin", "lps ",
         )
     ):
         return "concept"
     if any(
-        k in blob
+        k in blob or k in label
         for k in (
             "testing", "interpretation", "murmur", "ecg", "signal", "definition",
             "lead", "auscult", "radiograph", "assay", "method", "quality",
             "cold testing", "percussion", "primary signal",
+            "tell-show-do", "frankl", "knee-to-knee", "voice control",
+            "primate spaces", "eruption", "milestones", "bishop", "quickening",
+            "timing", "clues", "readiness", "approach",
         )
     ):
         return "finding"
     if any(
-        k in blob
+        k in blob or k in label
         for k in (
             "treatment", "therapy", "dose", "management", "pci", "dapt", "anticoagul",
             "rate control", "counseling", "vaccine", "rhogam", "varnish", "sealant",
+            "three checks", "look-alike sound-alike", "protective stabilization",
+            "nitrous oxide peds", "dental home",
         )
     ):
         return "management"
     return "disease"
+
+
+
+def is_acute_critical(topic: dict) -> bool:
+    """True only when ED/ICU crisis language is clinically appropriate.
+
+    Match on the topic title (and correct answer), never on near-miss text —
+    differentials often name acute lookalikes (e.g. cholangitis next to cholecystitis).
+    """
+    label = condition_name(topic.get("topic", "")).lower()
+    correct = str(topic.get("correct", "")).lower()
+
+    # Hard exclusions on the topic title itself
+    exclude = (
+        "physiologic anemia", "quickening", "bishop", "tell-show-do", "frankl",
+        "knee-to-knee", "dental home", "sealant", "fluoride", "efficacy", "potency",
+        "agonist", "antagonist", "definition", "primary signal", "cold testing",
+        "primate spaces", "eruption", "milestones", "beers", "hot flush",
+        "bleeding on probing", "periodontal chart", "environmental monitoring",
+        "falsification", "documentation", "spurious", "bun elevation", "rh ig",
+        "osgood", "candidiasis", "three checks", "look-alike", "voice control",
+        "protective stabilization", "bronchiectasis", "sarcoidosis", "ipf",
+        "chronic bronchitis", "missed abortion", "inevitable abortion",
+        "complete abortion", "dating", "contraception", "systemic risk diabetes",
+        "warfarin surgical concern", "idm complications", "cholecystitis",
+        "hypoglycemia response", "acute dystonia", "dystonia rescue",
+        "working length", "zip and elbow", "pulp horns", "aphthous",
+        "molar pregnancy", "hydatidiform",
+        "readiness", "lp timing", "endotoxin",
+    )
+    if any(k in label for k in exclude):
+        return False
+    # Protocol / interpretation titles are hard by discrimination, not by fake crash
+    if any(k in label for k in ("timing", "clues", "readiness", "approach", "documentation")):
+        return False
+
+    def _acute_hit(text: str, keywords: tuple[str, ...]) -> bool:
+        """Match acute keywords; never treat 'preeclampsia' as 'eclampsia'."""
+        for k in keywords:
+            k = k.strip().lower()
+            if not k:
+                continue
+            if k == "eclampsia":
+                if re.search(r"(?<!pre)eclampsia", text):
+                    return True
+                continue
+            if k == "acs" or k.endswith(" ") or len(k) <= 4:
+                if re.search(rf"\b{re.escape(k.strip())}\b", text):
+                    return True
+                continue
+            if k in text:
+                return True
+        return False
+
+    # Strict acute emergencies only (topic title must itself be an emergency)
+    acute = (
+        "stemi", "nstemi", "acs", "cardiac arrest", "cardiogenic shock", "tamponade",
+        "aortic dissection", "pulseless", "septic shock", "meningitis", "status epilepticus",
+        "diabetic keto", "dka", "hhs", "myxedema coma", "adrenal crisis", "anaphylaxis",
+        "respiratory failure", "ards", "tension pneumothorax", "status asthmaticus",
+        "asthma exacerbation", "copd exacerbation", "massive pe", "pulmonary embolism",
+        "ruptured ectopic", "ectopic pregnancy", "placental abruption", "uterine rupture",
+        "eclampsia", "hellp", "postpartum hemorrhage", "shoulder dystocia", "septic abortion",
+        "neonatal sepsis", "gbs early", "persistent pulmonary hypertension",
+        "intussusception", "epiglottitis", "variceal bleed", "ascending cholangitis",
+        "cholangitis",
+        "hypertensive emergency", "subarachnoid", "sah", "ischemic stroke",
+        "intracerebral hemorrhage", "cord compression", "compartment syndrome",
+        "necrotizing fasciitis", "ludwig", "angioedema", "thyroid storm",
+        "tumor lysis", "torsades", "wide-complex tachycardia", "ventricular fibrillation",
+        "inferior mi", "anterior mi", "rv infarction", "unstable angina",
+        "gi bleed", "acute pancreatitis", "neutropenic fever", "malignant hyperthermia",
+        "isopropanol toxicity", "opioid overdose", "norepinephrine septic",
+        "c1-inh hae",
+    )
+    # Preeclampsia can be urgent, but default ICU/crash wording is reserved for eclampsia/HELLP
+    if "preeclampsia" in label and "eclampsia" not in label.replace("preeclampsia", ""):
+        return False
+    if _acute_hit(label, acute):
+        return True
+    # Correct-answer text only for unmistakable emergency phrases (not near-miss text)
+    return _acute_hit(correct, (
+        "cardiogenic shock", "septic shock", "status epilepticus", "myxedema coma",
+        "adrenal crisis", "anaphylaxis", "respiratory failure", "tension pneumothorax",
+        "status asthmaticus", "massive pe", "ruptured ectopic", "eclampsia", "hellp",
+        "postpartum hemorrhage", "shoulder dystocia", "neonatal sepsis",
+        "ascending cholangitis", "hypertensive emergency",
+        "subarachnoid", "cord compression", "thyroid storm",
+        "tumor lysis", "torsades", "wide-complex", "ventricular fibrillation",
+    ))
+
 
 
 def stem_easy(topic: dict, n: int, rng: random.Random) -> str:
@@ -812,6 +918,8 @@ def stem_hard(topic: dict, n: int, rng: random.Random, field: str, specialty: st
         if demo["comorbidities"] and not demo["is_child"]
         else demo["who"]
     )
+    acute = is_acute_critical(topic)
+
     if kind in {"concept", "finding", "management"}:
         templates = [
             f"Careful review of {label} is required. Which of the following is most accurate?",
@@ -824,29 +932,57 @@ def stem_hard(topic: dict, n: int, rng: random.Random, field: str, specialty: st
             f"Which of the following is the best statement about {label}?",
         ]
         return templates[n % len(templates)]
+
+    if acute:
+        if demo["is_child"]:
+            templates = [
+                f"{who} is brought in with overlapping findings that include {label}. Which of the following is most accurate after history and examination?",
+                f"{who} is hospitalized for evolving {label}. Which of the following is most accurate?",
+                f"{who} is evaluated for {label}. Which of the following is the best interpretation?",
+                f"{who} has suspected {label}, and similar diagnoses are also considered. Which of the following is most accurate?",
+                f"Exam findings in {who.lower()} were first read as {label}. Which of the following is correct?",
+                f"{who} presents with {label}. Which of the following best separates it from similar conditions?",
+                f"On pediatric rounds, a difficult case of {label} is reviewed. Which of the following is correct?",
+                f"{who} has progressive findings of {label}. Which of the following is most accurate?",
+            ]
+        else:
+            templates = [
+                f"{who} presents with findings that overlap several diagnoses, including {label}. Which of the following is most accurate?",
+                f"{who} is hospitalized with evolving {label}. Which of the following is most accurate?",
+                f"{who} is evaluated for {label}. Which of the following is the best interpretation?",
+                f"{who} has suspected {label}, and similar diagnoses remain possible. Which of the following is most accurate?",
+                f"Initial reading of the case suggested {label}. Which of the following is correct?",
+                f"{who} presents with {label}. Which of the following best separates it from similar conditions?",
+                f"A difficult case of {label} in {who.lower()} is reviewed. Which of the following is correct?",
+                f"{who} has progressive findings of {label}. Which of the following is most accurate?",
+            ]
+        return templates[n % len(templates)]
+
+    # Non-acute disease: hard by discrimination, not by fake crisis
     if demo["is_child"]:
         templates = [
-            f"{who} is brought in with overlapping findings that include {label}. Which of the following is most accurate after history and examination?",
-            f"{who} is hospitalized for evolving {label}. Which of the following is most accurate?",
-            f"{who} is evaluated for {label}. Which of the following is the best interpretation?",
-            f"{who} has suspected {label}, and similar diagnoses are also considered. Which of the following is most accurate?",
-            f"Exam findings in {who.lower()} were first read as {label}. Which of the following is correct?",
-            f"{who} presents with {label}. Which of the following best separates it from similar conditions?",
-            f"On pediatric rounds, a difficult case of {label} is reviewed. Which of the following is correct?",
-            f"{who} has progressive findings of {label}. Which of the following is most accurate?",
+            f"{who} is evaluated for possible {label}. Which of the following is most accurate?",
+            f"{who} has findings suggestive of {label}. Which of the following is the best interpretation?",
+            f"In {who.lower()}, {label} must be separated from similar conditions. Which of the following is correct?",
+            f"{who} returns for review of suspected {label}. Which of the following is most accurate?",
+            f"A clinic case of {label} is discussed. Which of the following is correct?",
+            f"{who} presents with features compatible with {label}. Which of the following is most accurate?",
+            f"Which statement about {label} in {who.lower()} is most accurate?",
+            f"After examining {who.lower()}, which statement about {label} is correct?",
         ]
-        return templates[n % len(templates)]
-    templates = [
-        f"{who} presents with findings that overlap several diagnoses, including {label}. Which of the following is most accurate?",
-        f"{who} is hospitalized with evolving {label}. Which of the following is most accurate?",
-        f"{who} is evaluated for {label}. Which of the following is the best interpretation?",
-        f"{who} has suspected {label}, and similar diagnoses remain possible. Which of the following is most accurate?",
-        f"Initial reading of the case suggested {label}. Which of the following is correct?",
-        f"{who} presents with {label}. Which of the following best separates it from similar conditions?",
-        f"A difficult case of {label} in {who.lower()} is reviewed. Which of the following is correct?",
-        f"{who} has progressive findings of {label}. Which of the following is most accurate?",
-    ]
+    else:
+        templates = [
+            f"{who} is evaluated for possible {label}. Which of the following is most accurate?",
+            f"{who} has findings suggestive of {label}. Which of the following is the best interpretation?",
+            f"In {who.lower()}, {label} must be separated from similar conditions. Which of the following is correct?",
+            f"{who} returns for review of suspected {label}. Which of the following is most accurate?",
+            f"A clinic case of {label} is discussed. Which of the following is correct?",
+            f"{who} presents with features compatible with {label}. Which of the following is most accurate?",
+            f"Which statement about {label} in {who.lower()} is most accurate?",
+            f"After examining {who.lower()}, which statement about {label} is correct?",
+        ]
     return templates[n % len(templates)]
+
 
 
 def stem_extreme(topic: dict, n: int, rng: random.Random, field: str, specialty: str) -> str:
@@ -857,6 +993,8 @@ def stem_extreme(topic: dict, n: int, rng: random.Random, field: str, specialty:
     who_c = who if demo["is_child"] else (
         _with_comorbidities(who, demo["comorbidities"]) if demo["comorbidities"] else who
     )
+    acute = is_acute_critical(topic)
+
     if kind in {"concept", "finding"}:
         templates = [
             f"Careful reasoning about {label} is required. Which of the following is most accurate?",
@@ -869,40 +1007,69 @@ def stem_extreme(topic: dict, n: int, rng: random.Random, field: str, specialty:
             f"Which statement about {label} is most accurate?",
         ]
         return templates[n % len(templates)]
+
     if kind == "management":
         templates = [
-            f"{who_c} requires urgent decisions about {label}. Which of the following is most accurate?",
+            f"{who_c} requires careful decisions about {label}. Which of the following is most accurate?",
             f"Management of {label} is reviewed for {who.lower()}. Which of the following is most accurate?",
-            f"{who} needs immediate action related to {label}. Which of the following is correct?",
-            f"In {who.lower()}, treatment choices for {label} are debated. Which of the following is most accurate?",
-            f"{who_c} is treated for complications related to {label}. Which of the following is correct?",
+            f"{who} needs action related to {label}. Which of the following is correct?",
+            f"In {who.lower()}, treatment choices for {label} are compared. Which of the following is most accurate?",
+            f"{who_c} is managed for problems related to {label}. Which of the following is correct?",
             f"Safety concerns around {label} arise in {who.lower()}. Which of the following is most accurate?",
             f"{who} has a complicated course involving {label}. Which of the following is correct?",
             f"Which statement about managing {label} in {who.lower()} is most accurate?",
         ]
         return templates[n % len(templates)]
+
+    # Disease stems: use ED/ICU language ONLY when acuity fits
+    if acute:
+        if demo["is_child"]:
+            templates = [
+                f"{who} becomes acutely unstable with {label}. Which of the following is most accurate?",
+                f"In the emergency department, {who.lower()} is critically ill with {label}. Which of the following is most accurate?",
+                f"{who} worsens overnight with {label}. Which of the following is most accurate?",
+                f"{who} develops dangerous complications of {label}. Which of the following is correct?",
+                f"{who} has a rapidly worsening course of {label}. Which of the following is most accurate?",
+                f"Urgent management of {label} is required in {who.lower()}. Which of the following is most accurate?",
+                f"{who} has refractory {label}. Which of the following is correct?",
+                f"In intensive care, {who.lower()} is treated for complications of {label}. Which of the following is most accurate?",
+            ]
+        else:
+            templates = [
+                f"{who_c} becomes acutely unstable with {label}. Which of the following is most accurate?",
+                f"In the emergency department, {who.lower()} is critically ill with {label}. Which of the following is most accurate?",
+                f"{who} worsens overnight with {label}. Which of the following is most accurate?",
+                f"{who_c} develops dangerous complications of {label}. Which of the following is correct?",
+                f"{who} has a rapidly worsening course of {label}. Which of the following is most accurate?",
+                f"Urgent management decisions for {label} are required in {who.lower()}. Which of the following is most accurate?",
+                f"{who} has refractory {label}. Which of the following is correct?",
+                f"In intensive care, {who.lower()} is treated for complications of {label}. Which of the following is most accurate?",
+            ]
+        return templates[n % len(templates)]
+
+    # Non-acute disease: difficult but clinically sensible (no forced ICU)
     if demo["is_child"]:
         templates = [
-            f"{who} becomes acutely unstable with {label}. Which of the following is most accurate?",
-            f"In the emergency department, {who.lower()} is critically ill with {label}. Which of the following is most accurate?",
-            f"{who} worsens overnight with {label}. Which of the following is most accurate?",
-            f"{who} develops dangerous complications of {label}. Which of the following is correct?",
-            f"{who} has a rapidly worsening course of {label}. Which of the following is most accurate?",
-            f"Urgent management of {label} is required in {who.lower()}. Which of the following is most accurate?",
-            f"{who} has refractory {label}. Which of the following is correct?",
-            f"In intensive care, {who.lower()} is treated for {label}. Which of the following is most accurate?",
+            f"{who} has a complex presentation of {label}. Which of the following is most accurate?",
+            f"{who} is reassessed after incomplete response related to {label}. Which of the following is most accurate?",
+            f"A detailed pediatric evaluation for {label} is underway. Which of the following is correct?",
+            f"{who} has findings that make {label} hard to confirm. Which of the following is most accurate?",
+            f"In {who.lower()}, distinguishing {label} from similar conditions is difficult. Which of the following is correct?",
+            f"{who} returns with ongoing problems attributed to {label}. Which of the following is most accurate?",
+            f"Senior review is requested for {label} in {who.lower()}. Which of the following is correct?",
+            f"Which statement about {label} in {who.lower()} is most accurate?",
         ]
-        return templates[n % len(templates)]
-    templates = [
-        f"{who_c} becomes acutely unstable with {label}. Which of the following is most accurate?",
-        f"In the emergency department, {who.lower()} is critically ill with {label}. Which of the following is most accurate?",
-        f"{who} worsens overnight with {label}. Which of the following is most accurate?",
-        f"{who_c} develops dangerous complications of {label}. Which of the following is correct?",
-        f"{who} has a rapidly worsening course of {label}. Which of the following is most accurate?",
-        f"Urgent management decisions for {label} are required in {who.lower()}. Which of the following is most accurate?",
-        f"{who} has refractory {label}. Which of the following is correct?",
-        f"In intensive care, {who.lower()} is treated for {label}. Which of the following is most accurate?",
-    ]
+    else:
+        templates = [
+            f"{who} has a complex presentation of {label}. Which of the following is most accurate?",
+            f"{who_c} is reassessed after incomplete response related to {label}. Which of the following is most accurate?",
+            f"A detailed evaluation for {label} is underway in {who.lower()}. Which of the following is correct?",
+            f"{who} has findings that make {label} hard to confirm. Which of the following is most accurate?",
+            f"In {who.lower()}, distinguishing {label} from similar conditions is difficult. Which of the following is correct?",
+            f"{who} returns with ongoing problems related to {label}. Which of the following is most accurate?",
+            f"Senior review is requested for {label} in {who.lower()}. Which of the following is correct?",
+            f"Which statement about {label} in {who.lower()} is most accurate?",
+        ]
     return templates[n % len(templates)]
 
 

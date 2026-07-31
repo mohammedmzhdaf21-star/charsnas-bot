@@ -544,7 +544,7 @@
   "medium": [
     {
       "id": "lab_qa:medium:0",
-      "question": "A 61-year-old woman is examined, and QA vs QC is reviewed. Which of the following is correct?",
+      "question": "A 64-year-old man is examined, and QA vs QC is reviewed. Which of the following is correct?",
       "options": [
         "A) QA and QC are identical terms always",
         "B) Quality assurance is the total system ensuring quality; QC is the control testing component",
@@ -562,7 +562,7 @@
     },
     {
       "id": "lab_qa:medium:1",
-      "question": "While evaluating a 68-year-old man, attention turns to accuracy. Which of the following is most accurate?",
+      "question": "While evaluating a 25-year-old woman, attention turns to accuracy. Which of the following is most accurate?",
       "options": [
         "A) Accuracy is closeness to the true value",
         "B) Precision guarantees accuracy always",
@@ -580,7 +580,7 @@
     },
     {
       "id": "lab_qa:medium:2",
-      "question": "A 50-year-old man has findings requiring interpretation of precision. Which of the following is correct?",
+      "question": "A 53-year-old woman has findings requiring interpretation of precision. Which of the following is correct?",
       "options": [
         "A) Precision guarantees accuracy always",
         "B) Accuracy is identical to precision scatter only",
@@ -598,7 +598,7 @@
     },
     {
       "id": "lab_qa:medium:3",
-      "question": "In a 44-year-old man, which statement about bias is correct?",
+      "question": "In a 47-year-old woman, which statement about bias is correct?",
       "options": [
         "A) Bias is systematic error shifting results away from truth",
         "B) Systematic error is identical to random imprecision",
@@ -634,7 +634,7 @@
     },
     {
       "id": "lab_qa:medium:5",
-      "question": "A 34-year-old man undergoes assessment involving systematic error. Which of the following is most accurate?",
+      "question": "A 37-year-old woman undergoes assessment involving systematic error. Which of the following is most accurate?",
       "options": [
         "A) Systematic error is identical to random imprecision",
         "B) Systematic error causes bias in a consistent direction",
@@ -688,7 +688,7 @@
     },
     {
       "id": "lab_qa:medium:8",
-      "question": "A 43-year-old woman is examined, and diagnostic sensitivity is reviewed. Which of the following is correct?",
+      "question": "A 46-year-old man is examined, and diagnostic sensitivity is reviewed. Which of the following is correct?",
       "options": [
         "A) Diagnostic sensitivity equals positive predictive value always",
         "B) Diagnostic sensitivity is true positive rate among diseased patients",
@@ -706,7 +706,7 @@
     },
     {
       "id": "lab_qa:medium:9",
-      "question": "While evaluating a 50-year-old man, attention turns to diagnostic specificity. Which of the following is most accurate?",
+      "question": "While evaluating a 53-year-old woman, attention turns to diagnostic specificity. Which of the following is most accurate?",
       "options": [
         "A) Diagnostic specificity is true negative rate among nondiseased",
         "B) Diagnostic specificity equals negative predictive value always",
@@ -724,7 +724,7 @@
     },
     {
       "id": "lab_qa:medium:10",
-      "question": "A 26-year-old man has findings requiring interpretation of PPV. Which of the following is correct?",
+      "question": "A 29-year-old woman has findings requiring interpretation of PPV. Which of the following is correct?",
       "options": [
         "A) NPV falls as prevalence falls always",
         "B) PPV is independent of prevalence always",
@@ -742,7 +742,7 @@
     },
     {
       "id": "lab_qa:medium:11",
-      "question": "In a 33-year-old woman, which statement about NPV is correct?",
+      "question": "In a 36-year-old man, which statement about NPV is correct?",
       "options": [
         "A) NPV falls as prevalence falls always",
         "B) NPV is the probability disease is absent given a negative test",
@@ -778,7 +778,7 @@
     },
     {
       "id": "lab_qa:medium:13",
-      "question": "A 40-year-old man undergoes assessment involving reference interval. Which of the following is most accurate?",
+      "question": "A 43-year-old woman undergoes assessment involving reference interval. Which of the following is most accurate?",
       "options": [
         "A) Reference intervals usually derive from central 95% of a healthy reference population",
         "B) CRR is always narrower than AMR by definition",
@@ -832,7 +832,7 @@
     },
     {
       "id": "lab_qa:medium:16",
-      "question": "A 69-year-old woman is examined, and levey-Jennings is reviewed. Which of the following is correct?",
+      "question": "A 26-year-old man is examined, and levey-Jennings is reviewed. Which of the following is correct?",
       "options": [
         "A) Levey-Jennings charts are patient histograms only",
         "B) Levey-Jennings charts plot QC values over time against mean and SDs",
@@ -850,7 +850,7 @@
     },
     {
       "id": "lab_qa:medium:17",
-      "question": "While evaluating a 55-year-old woman, attention turns to westgard 1-2s. Which of the following is most accurate?",
+      "question": "While evaluating a 58-year-old man, attention turns to westgard 1-2s. Which of the following is most accurate?",
       "options": [
         "A) 1-3s is only a warning never a reject",
         "B) 1-2s warning rule flags one control beyond 2 SD",
@@ -868,7 +868,7 @@
     },
     {
       "id": "lab_qa:medium:18",
-      "question": "A 62-year-old man has findings requiring interpretation of westgard 1-3s. Which of the following is correct?",
+      "question": "A 65-year-old woman has findings requiring interpretation of westgard 1-3s. Which of the following is correct?",
       "options": [
         "A) 1-3s is only a warning never a reject",
         "B) 1-3s rejects a run when one control exceeds 3 SD",
@@ -886,7 +886,7 @@
     },
     {
       "id": "lab_qa:medium:19",
-      "question": "In a 69-year-old woman, which statement about westgard 2-2s is correct?",
+      "question": "In a 26-year-old man, which statement about westgard 2-2s is correct?",
       "options": [
         "A) R-4s detects only systematic bias",
         "B) 2-2s detects systematic error when two consecutive controls exceed 2 SD same side",
@@ -922,7 +922,7 @@
     },
     {
       "id": "lab_qa:medium:21",
-      "question": "A 37-year-old woman undergoes assessment involving westgard 4-1s. Which of the following is most accurate?",
+      "question": "A 40-year-old man undergoes assessment involving westgard 4-1s. Which of the following is most accurate?",
       "options": [
         "A) R-4s detects only systematic bias",
         "B) CRR is always narrower than AMR by definition",
@@ -976,7 +976,7 @@
     },
     {
       "id": "lab_qa:medium:24",
-      "question": "A 45-year-old woman is examined, and trend QC is reviewed. Which of the following is correct?",
+      "question": "A 48-year-old man is examined, and trend QC is reviewed. Which of the following is correct?",
       "options": [
         "A) A trend is a gradual continuous drift in QC values",
         "B) 10x indicates perfect random precision always",
@@ -994,7 +994,7 @@
     },
     {
       "id": "lab_qa:medium:25",
-      "question": "While evaluating a 57-year-old woman, attention turns to control materials. Which of the following is most accurate?",
+      "question": "While evaluating a 60-year-old man, attention turns to control materials. Which of the following is most accurate?",
       "options": [
         "A) CRR is always narrower than AMR by definition",
         "B) QC materials should mimic patient matrix and cover clinically relevant levels",
@@ -1012,7 +1012,7 @@
     },
     {
       "id": "lab_qa:medium:26",
-      "question": "A 52-year-old man has findings requiring interpretation of assayed vs unassayed QC. Which of the following is correct?",
+      "question": "A 55-year-old woman has findings requiring interpretation of assayed vs unassayed QC. Which of the following is correct?",
       "options": [
         "A) Assayed QC means no lab verification is ever needed",
         "B) FDA clearance means no local verification is needed",
@@ -1030,7 +1030,7 @@
     },
     {
       "id": "lab_qa:medium:27",
-      "question": "In a 37-year-old woman, which statement about internal QC is correct?",
+      "question": "In a 40-year-old man, which statement about internal QC is correct?",
       "options": [
         "A) Internal QC runs with patient batches to verify ongoing method performance",
         "B) New lots can be used without checks if packaging looks fine",
@@ -1066,7 +1066,7 @@
     },
     {
       "id": "lab_qa:medium:29",
-      "question": "A 67-year-old woman undergoes assessment involving AMR. Which of the following is most accurate?",
+      "question": "A 70-year-old man undergoes assessment involving AMR. Which of the following is most accurate?",
       "options": [
         "A) CRR is always narrower than AMR by definition",
         "B) Analytical measurement range is the range reportable without dilution where method is linear",
