@@ -1,0 +1,2170 @@
+{
+  "easy": [
+    {
+      "id": "geriatrics:easy:0",
+      "question": "Which of the following is true of atypical infection elders?",
+      "options": [
+        "A) Require crushing chest pain before evaluating acute coronary syndrome in elders",
+        "B) Require high fever before evaluating infection in frail elders",
+        "C) Infection may present as falls/confusion without fever",
+        "D) Leave solitary high-fall-risk elder without any alert plan"
+      ],
+      "answer": "C) Infection may present as falls/confusion without fever",
+      "explanation": "Blunted fever response is common; functional change is a clue. Therefore, the most accurate choice is: Infection may present as falls/confusion without fever. Fever-only infection screening misses disease—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Fever-only infection screening misses disease—near-miss. It is less consistent than the correct choice.",
+        "C": "Blunted fever response is common; functional change is a clue. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:easy:1",
+      "question": "Which finding is expected in delirium versus dementia?",
+      "options": [
+        "A) Delirium is acute fluctuating often reversible; dementia progressive—still rule out delirium",
+        "B) Diagnose delirium from one nighttime ‘sundown’ comment without assessment",
+        "C) Label sudden new confusion as ‘just dementia’ without workup",
+        "D) Diagnose irreversible dementia overnight without mood/delirium workup"
+      ],
+      "answer": "A) Delirium is acute fluctuating often reversible; dementia progressive—still rule out delirium",
+      "explanation": "Acute change suggests delirium until proven otherwise. Therefore, the most accurate choice is: Delirium is acute fluctuating often reversible; dementia progressive—still rule out delirium. Missing reversible delirium is .",
+      "choice_explanations": {
+        "A": "Acute change suggests delirium until proven otherwise. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Missing reversible delirium is near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:easy:2",
+      "question": "Which of the following statements about Confusion Assessment Method assessment is correct?",
+      "options": [
+        "A) Label sudden new confusion as ‘just dementia’ without workup",
+        "B) Diagnose irreversible dementia overnight without mood/delirium workup",
+        "C) Use Confusion Assessment Method/features: acute onset, inattention, disorganized thinking, altered level of consciousness",
+        "D) Diagnose delirium from one nighttime ‘sundown’ comment without assessment"
+      ],
+      "answer": "C) Use Confusion Assessment Method/features: acute onset, inattention, disorganized thinking, altered level of consciousness",
+      "explanation": "Structured tools improve detection. Therefore, the most accurate choice is: Use Confusion Assessment Method/features: acute onset, inattention, disorganized thinking, altered level of consciousness. Casual labeling misses hypoactive delirium—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Structured tools improve detection. This matches the correct interpretation.",
+        "D": "Casual labeling misses hypoactive delirium—near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:easy:3",
+      "question": "In hypoactive delirium, which of the following is correct?",
+      "options": [
+        "A) Assume nonverbal dementia patients feel no pain",
+        "B) Treat elder delirium first-line with routine lorazepam",
+        "C) Only treat hyperactive pulling-lines patients as delirium",
+        "D) Quiet withdrawn delirium is common and dangerous—don’t miss it"
+      ],
+      "answer": "D) Quiet withdrawn delirium is common and dangerous—don’t miss it",
+      "explanation": "Hypoactive form has poor outcomes if missed. Therefore, the most accurate choice is: Quiet withdrawn delirium is common and dangerous—don’t miss it. Hyperactive-only focus is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Hyperactive-only focus is near-miss. It is less consistent than the correct choice.",
+        "D": "Hypoactive form has poor outcomes if missed. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:easy:4",
+      "question": "Which of the following best describes delirium nonpharm first?",
+      "options": [
+        "A) Treat elder delirium first-line with routine lorazepam",
+        "B) Give intravenous diphenhydramine for sleep in hospitalized elder with dementia",
+        "C) Start diphenhydramine nightly long-term for elder insomnia first-line",
+        "D) Orient, glasses/hearing aids, mobilize, sleep, review meds; avoid benzos first-line"
+      ],
+      "answer": "D) Orient, glasses/hearing aids, mobilize, sleep, review meds; avoid benzos first-line",
+      "explanation": "Benzos often worsen delirium. Therefore, the most accurate choice is: Orient, glasses/hearing aids, mobilize, sleep, review meds; avoid benzos first-line. Benzo-first is .",
+      "choice_explanations": {
+        "A": "Benzo-first is near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Benzos often worsen delirium. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:easy:5",
+      "question": "Select the correct statement about beers PIMs.",
+      "options": [
+        "A) Use long-acting benzos as chronic elder insomnia therapy",
+        "B) Start diphenhydramine nightly long-term for elder insomnia first-line",
+        "C) Avoid potentially inappropriate meds (strong anticholinergics, benzos) when possible",
+        "D) Treat elder delirium first-line with routine lorazepam"
+      ],
+      "answer": "C) Avoid potentially inappropriate meds (strong anticholinergics, benzos) when possible",
+      "explanation": "PIMs raise falls/delirium/cognitive harm. Therefore, the most accurate choice is: Avoid potentially inappropriate meds (strong anticholinergics, benzos) when possible. Beers-first insomnia care is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Beers-first insomnia care is near-miss. It is less consistent than the correct choice.",
+        "C": "PIMs raise falls/delirium/cognitive harm. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:easy:6",
+      "question": "Which mechanism accounts for anticholinergic burden?",
+      "options": [
+        "A) Minimize cumulative anticholinergic load in dementia/falls risk",
+        "B) Leave loaded firearms accessible in progressive dementia with agitation",
+        "C) Stack bladder antispasmodic + antihistamine + tricyclic antidepressant",
+        "D) Automatically deny anticoagulation solely because age >75 without risk discussion"
+      ],
+      "answer": "A) Minimize cumulative anticholinergic load in dementia/falls risk",
+      "explanation": "Burden worsens cognition/retention/constipation. Therefore, the most accurate choice is: Minimize cumulative anticholinergic load in dementia/falls risk. Stacked anticholinergics are .",
+      "choice_explanations": {
+        "A": "Burden worsens cognition/retention/constipation. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Stacked anticholinergics are near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:easy:7",
+      "question": "Which of the following applies to fall multifactorial?",
+      "options": [
+        "A) Skip orthostatics and only add sedating meds for dizziness",
+        "B) Assess meds, vision, orthostatics, strength, environment—multifactorial prevention",
+        "C) Restrain all elders prophylactically to prevent falls",
+        "D) Forbid all mobilization after mild illness solely to avoid falls paperwork"
+      ],
+      "answer": "B) Assess meds, vision, orthostatics, strength, environment—multifactorial prevention",
+      "explanation": "Restraints increase injury; multifactorial prevention works better. Therefore, the most accurate choice is: Assess meds, vision, orthostatics, strength, environment—multifactorial prevention. Prophylactic restraint is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Restraints increase injury; multifactorial prevention works better. This matches the correct interpretation.",
+        "C": "Prophylactic restraint is near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:easy:8",
+      "question": "Which of the following is true of orthostatic vitals elders?",
+      "options": [
+        "A) Skip orthostatics and only add sedating meds for dizziness",
+        "B) Restrain all elders prophylactically to prevent falls",
+        "C) Leave homebound elder without anterior chamber during heatwave without welfare check plan",
+        "D) Check orthostatic blood pressure/heart rate for dizzy fallers"
+      ],
+      "answer": "D) Check orthostatic blood pressure/heart rate for dizzy fallers",
+      "explanation": "Volume/autonomic/med causes are common. Therefore, the most accurate choice is: Check orthostatic blood pressure/heart rate for dizzy fallers. Sedating dizzy elders without orthostatics is .",
+      "choice_explanations": {
+        "A": "Sedating dizzy elders without orthostatics is near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Volume/autonomic/med causes are common. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:easy:9",
+      "question": "Which finding is expected in polypharmacy deprescribe?",
+      "options": [
+        "A) Continue forever proton pump inhibitor without indication after intensive care unit stress prophylaxis",
+        "B) Add drugs for each side effect without reviewing the cascade",
+        "C) Reconcile and deprescribe unnecessary meds with providers",
+        "D) Add anticholinergic for incontinence caused by cholinesterase inhibitor without review"
+      ],
+      "answer": "C) Reconcile and deprescribe unnecessary meds with providers",
+      "explanation": "Prescribing cascades amplify harm. Therefore, the most accurate choice is: Reconcile and deprescribe unnecessary meds with providers. Cascade prescribing is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Cascade prescribing is near-miss. It is less consistent than the correct choice.",
+        "C": "Prescribing cascades amplify harm. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:easy:10",
+      "question": "Which of the following statements about prescribing cascade example is correct?",
+      "options": [
+        "A) Leave homebound elder without anterior chamber during heatwave without welfare check plan",
+        "B) Recognize drug side effect treated as new disease with more drugs",
+        "C) Add drugs for each side effect without reviewing the cascade",
+        "D) Add anticholinergic for incontinence caused by cholinesterase inhibitor without review"
+      ],
+      "answer": "B) Recognize drug side effect treated as new disease with more drugs",
+      "explanation": "Cascades are preventable with med review. Therefore, the most accurate choice is: Recognize drug side effect treated as new disease with more drugs. Unreviewed cascade is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Cascades are preventable with med review. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Unreviewed cascade is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:easy:11",
+      "question": "In renal dosing elders, which of the following is correct?",
+      "options": [
+        "A) Give full young adult renally cleared dose when CrCl is 20",
+        "B) Give full direct oral anticoagulant dose in CrCl below labeled thresholds",
+        "C) Give full memantine dose in severe chronic kidney disease without adjustment",
+        "D) Dose-adjust renally cleared drugs for reduced CrCl"
+      ],
+      "answer": "D) Dose-adjust renally cleared drugs for reduced CrCl",
+      "explanation": "glomerular filtration rate declines with age even if creatinine ‘normalish’. Therefore, the most accurate choice is: Dose-adjust renally cleared drugs for reduced CrCl. Unadjusted renal dosing is .",
+      "choice_explanations": {
+        "A": "Unadjusted renal dosing is near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "glomerular filtration rate declines with age even if creatinine ‘normalish’. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:easy:12",
+      "question": "Which of the following best describes normal creatinine trap?",
+      "options": [
+        "A) Assume creatinine 1.0 always means great kidneys in frail 90-year-old",
+        "B) Low muscle mass can hide low glomerular filtration rate behind ‘normal’ creatinine",
+        "C) Assume Z-drugs are fully safe benzo alternatives in frail elders",
+        "D) Assume no sweating means glucose cannot be low in elder on insulin"
+      ],
+      "answer": "B) Low muscle mass can hide low glomerular filtration rate behind ‘normal’ creatinine",
+      "explanation": "Creatinine underestimates impairment in sarcopenia. Therefore, the most accurate choice is: Low muscle mass can hide low glomerular filtration rate behind ‘normal’ creatinine. Normal Cr reassurance is .",
+      "choice_explanations": {
+        "A": "Normal Cr reassurance is near-miss. It is less consistent than the correct choice.",
+        "B": "Creatinine underestimates impairment in sarcopenia. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:easy:13",
+      "question": "Select the correct statement about start low go slow.",
+      "options": [
+        "A) Assume no sweating means glucose cannot be low in elder on insulin",
+        "B) Withhold all opioids for hip fracture pain from opiophobia",
+        "C) Withhold morphine for severe air hunger in dying elder from myth",
+        "D) Start low and titrate slow for many elder drugs—but don’t undertreat pain indefinitely"
+      ],
+      "answer": "D) Start low and titrate slow for many elder drugs—but don’t undertreat pain indefinitely",
+      "explanation": "Cautious titration ≠ therapeutic neglect. Therefore, the most accurate choice is: Start low and titrate slow for many elder drugs—but don’t undertreat pain indefinitely. Undertreatment from misapplied caution is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Cautious titration ≠ therapeutic neglect. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:easy:14",
+      "question": "Which mechanism accounts for pain atypical dementia?",
+      "options": [
+        "A) Assume no sweating means glucose cannot be low in elder on insulin",
+        "B) Withhold all opioids for hip fracture pain from opiophobia",
+        "C) Use observational pain scales in dementia; treat suspected pain",
+        "D) Assume nonverbal dementia patients feel no pain"
+      ],
+      "answer": "C) Use observational pain scales in dementia; treat suspected pain",
+      "explanation": "Pain presents as behavior change. Therefore, the most accurate choice is: Use observational pain scales in dementia; treat suspected pain. No-pain assumption is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Pain presents as behavior change. This matches the correct interpretation.",
+        "D": "No-pain assumption is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:easy:15",
+      "question": "Which of the following applies to opioid elder caution?",
+      "options": [
+        "A) Lower starting doses, monitor sedation/constipation/falls; still treat severe pain",
+        "B) Withhold all opioids for hip fracture pain from opiophobia",
+        "C) Use long-acting benzos as chronic elder insomnia therapy",
+        "D) Withhold morphine for severe air hunger in dying elder from myth"
+      ],
+      "answer": "A) Lower starting doses, monitor sedation/constipation/falls; still treat severe pain",
+      "explanation": "Undertreated pain causes delirium/suffering. Therefore, the most accurate choice is: Lower starting doses, monitor sedation/constipation/falls; still treat severe pain. Opiophobia after fracture is .",
+      "choice_explanations": {
+        "A": "Undertreated pain causes delirium/suffering. This matches the correct interpretation.",
+        "B": "Opiophobia after fracture is near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:easy:16",
+      "question": "Which of the following is true of constipation prevention?",
+      "options": [
+        "A) Wait for obstipation/impaction before any bowel plan on opioids",
+        "B) Withhold all opioids for hip fracture pain from opiophobia",
+        "C) Anticipate constipation on opioids; schedule bowel regimen",
+        "D) Increase nighttime stimulation and benzos as first sundowning plan"
+      ],
+      "answer": "C) Anticipate constipation on opioids; schedule bowel regimen",
+      "explanation": "Prevention avoids obstruction/delirium. Therefore, the most accurate choice is: Anticipate constipation on opioids; schedule bowel regimen. Wait-for-impaction is .",
+      "choice_explanations": {
+        "A": "Wait-for-impaction is near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Prevention avoids obstruction/delirium. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:easy:17",
+      "question": "Which finding is expected in urinary tract infection asymptomatic bacteriuria?",
+      "options": [
+        "A) Treat only one resident and allow untreated roommates to share bedding",
+        "B) Do not treat asymptomatic bacteriuria in most elders",
+        "C) Keep high-dose antipsychotics forever without review for nursing home resident with dementia",
+        "D) Treat every positive urinalysis in asymptomatic nursing home resident with broad intravenous abx"
+      ],
+      "answer": "B) Do not treat asymptomatic bacteriuria in most elders",
+      "explanation": "Overtreatment drives resistance/C. diff. Therefore, the most accurate choice is: Do not treat asymptomatic bacteriuria in most elders. Treating asymptomatic bacteriuria is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Overtreatment drives resistance/C. diff. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Treating asymptomatic bacteriuria is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:easy:18",
+      "question": "Which of the following statements about urinary tract infection true symptoms is correct?",
+      "options": [
+        "A) Give megadose vitamin D without labs then ignore hypercalcemia symptoms",
+        "B) Treat when urinary symptoms/systemic signs—not cloudy urine alone",
+        "C) Give endless antibiotics for symptoms without considering genitourinary symptom management/estrogen local therapy pathways",
+        "D) Give antibiotics for cloudy urine alone without symptoms"
+      ],
+      "answer": "B) Treat when urinary symptoms/systemic signs—not cloudy urine alone",
+      "explanation": "Cloudiness ≠ infection automatically. Therefore, the most accurate choice is: Treat when urinary symptoms/systemic signs—not cloudy urine alone. Cloudy-only treatment is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Cloudiness ≠ infection automatically. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Cloudy-only treatment is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:easy:19",
+      "question": "In catheter avoid elders, which of the following is correct?",
+      "options": [
+        "A) Insert Foley for staff convenience for incontinent elder",
+        "B) Avoid asking elders about suicide to not upset them",
+        "C) Keep Foley indefinitely for convenience output in continent elder",
+        "D) Avoid Foley for convenience incontinence management"
+      ],
+      "answer": "D) Avoid Foley for convenience incontinence management",
+      "explanation": "Catheters cause CAUTI/delirium. Therefore, the most accurate choice is: Avoid Foley for convenience incontinence management. Convenience Foley is .",
+      "choice_explanations": {
+        "A": "Convenience Foley is near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Catheters cause CAUTI/delirium. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:easy:20",
+      "question": "Which of the following best describes pressure injury heels?",
+      "options": [
+        "A) Massage reddened sacral/heel areas vigorously",
+        "B) Differentiate moisture-associated skin damage from pressure injury; manage moisture",
+        "C) Offload heels; don’t massage reddened bony areas",
+        "D) Stage moisture dermatitis as pressure Stage 3 without assessment"
+      ],
+      "answer": "C) Offload heels; don’t massage reddened bony areas",
+      "explanation": "Massage can worsen deep tissue injury. Therefore, the most accurate choice is: Offload heels; don’t massage reddened bony areas. Massage of redness is classic .",
+      "choice_explanations": {
+        "A": "Massage of redness is classic near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Massage can worsen deep tissue injury. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:easy:21",
+      "question": "Select the correct statement about skin tear prevention.",
+      "options": [
+        "A) Use long-acting benzos as chronic elder insomnia therapy",
+        "B) Rip dry adhesive tapes quickly off elder skin",
+        "C) Gentle adhesives, long sleeves, careful transfers for fragile skin",
+        "D) Start aspirin for all 80-year-olds automatically for primary prevention"
+      ],
+      "answer": "C) Gentle adhesives, long sleeves, careful transfers for fragile skin",
+      "explanation": "Shear causes skin tears. Therefore, the most accurate choice is: Gentle adhesives, long sleeves, careful transfers for fragile skin. Rapid dry tape removal is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Rapid dry tape removal is near-miss. It is less consistent than the correct choice.",
+        "C": "Shear causes skin tears. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:easy:22",
+      "question": "Which mechanism accounts for moisture associated skin?",
+      "options": [
+        "A) Transfer without med list/skin report/pending culture results",
+        "B) Diagnose irreversible dementia overnight without mood/delirium workup",
+        "C) Stage moisture dermatitis as pressure Stage 3 without assessment",
+        "D) Differentiate moisture-associated skin damage from pressure injury; manage moisture"
+      ],
+      "answer": "D) Differentiate moisture-associated skin damage from pressure injury; manage moisture",
+      "explanation": "Different etiology → different treatment. Therefore, the most accurate choice is: Differentiate moisture-associated skin damage from pressure injury; manage moisture. Mis-staging moisture-associated skin damage is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Mis-staging moisture-associated skin damage is near-miss. It is less consistent than the correct choice.",
+        "D": "Different etiology → different treatment. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:easy:23",
+      "question": "Which of the following applies to nutrition sarcopenia?",
+      "options": [
+        "A) Continue forever proton pump inhibitor without indication after intensive care unit stress prophylaxis",
+        "B) Prolonged bed rest without venous thromboembolism prophylaxis after hip fracture",
+        "C) Prescribe bed rest and clear liquids long-term for deconditioning without plan",
+        "D) Protein/calorie support + resistance activity as able for sarcopenia"
+      ],
+      "answer": "D) Protein/calorie support + resistance activity as able for sarcopenia",
+      "explanation": "Inactivity accelerates muscle loss. Therefore, the most accurate choice is: Protein/calorie support + resistance activity as able for sarcopenia. Bed rest for sarcopenia worsens—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Bed rest for sarcopenia worsens—near-miss. It is less consistent than the correct choice.",
+        "D": "Inactivity accelerates muscle loss. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:easy:24",
+      "question": "Which of the following is true of dehydration elders?",
+      "options": [
+        "A) Offer fluids; watch mucosa/urine output/confusion; diuretics/heat risks",
+        "B) Assume Z-drugs are fully safe benzo alternatives in frail elders",
+        "C) Assume thirst always protects elders from dehydration",
+        "D) Require high fever before evaluating infection in frail elders"
+      ],
+      "answer": "A) Offer fluids; watch mucosa/urine output/confusion; diuretics/heat risks",
+      "explanation": "Thirst drive may decline; access barriers common. Therefore, the most accurate choice is: Offer fluids; watch mucosa/urine output/confusion; diuretics/heat risks. Thirst-only reliance is .",
+      "choice_explanations": {
+        "A": "Thirst drive may decline; access barriers common. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Thirst-only reliance is near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:easy:25",
+      "question": "Which finding is expected in heart failure salt fluid elders?",
+      "options": [
+        "A) Consider tuberculosis in elders with risk/weight loss/cough—atypical",
+        "B) Skip Clinical Institute Withdrawal Assessment because elder ‘only drinks wine with dinner’ despite escalation",
+        "C) Screen vision/cognition/meds; report per law/ethics when unsafe",
+        "D) Sodium/fluid guidance + daily weights; report gains"
+      ],
+      "answer": "D) Sodium/fluid guidance + daily weights; report gains",
+      "explanation": "Weight detects congestion early. Therefore, the most accurate choice is: Sodium/fluid guidance + daily weights; report gains. Ignoring weight gain is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Weight detects congestion early. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:easy:26",
+      "question": "Which of the following statements about heart failure angiotensin-converting enzyme inhibitor elder monitoring is correct?",
+      "options": [
+        "A) Monitor K/Cr/blood pressure after angiotensin-converting enzyme inhibitor/angiotensin receptor blocker/angiotensin receptor-neprilysin inhibitor starts",
+        "B) Start high-dose angiotensin-converting enzyme inhibitor in dehydrated elder without labs/blood pressure checks",
+        "C) Skip INRs for months because dose ‘has been stable forever’ in changing elder",
+        "D) Give full direct oral anticoagulant dose in CrCl below labeled thresholds"
+      ],
+      "answer": "A) Monitor K/Cr/blood pressure after angiotensin-converting enzyme inhibitor/angiotensin receptor blocker/angiotensin receptor-neprilysin inhibitor starts",
+      "explanation": "First-dose hypotension and renal injury risks rise. Therefore, the most accurate choice is: Monitor K/Cr/blood pressure after angiotensin-converting enzyme inhibitor/angiotensin receptor blocker/angiotensin receptor-neprilysin inhibitor starts. Unmonitored start is .",
+      "choice_explanations": {
+        "A": "First-dose hypotension and renal injury risks rise. This matches the correct interpretation.",
+        "B": "Unmonitored start is near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:easy:27",
+      "question": "In atrial fibrillation anticoagulation elder, which of the following is correct?",
+      "options": [
+        "A) Leave solitary high-fall-risk elder without any alert plan",
+        "B) Anticoagulate based on stroke risk; monitor falls plan—not automatic forever deny",
+        "C) Stop warfarin permanently after one assisted fall without stroke-risk discussion",
+        "D) Automatically deny anticoagulation solely because age >75 without risk discussion"
+      ],
+      "answer": "B) Anticoagulate based on stroke risk; monitor falls plan—not automatic forever deny",
+      "explanation": "Stroke risk often outweighs fall risk with mitigation. Therefore, the most accurate choice is: Anticoagulate based on stroke risk; monitor falls plan—not automatic forever deny. Age-only denial is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Stroke risk often outweighs fall risk with mitigation. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Age-only denial is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:easy:28",
+      "question": "Select the correct statement regarding direct oral anticoagulant renal elder.",
+      "options": [
+        "A) Give full young adult renally cleared dose when CrCl is 20",
+        "B) Give full direct oral anticoagulant dose in CrCl below labeled thresholds",
+        "C) Give full memantine dose in severe chronic kidney disease without adjustment",
+        "D) Adjust/avoid DOACs per renal function"
+      ],
+      "answer": "D) Adjust/avoid DOACs per renal function",
+      "explanation": "Renal clearance affects bleed risk. Therefore, the most accurate choice is: Adjust/avoid DOACs per renal function. Unadjusted direct oral anticoagulant is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Unadjusted direct oral anticoagulant is near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Renal clearance affects bleed risk. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:easy:29",
+      "question": "Select the correct interpretation for parkinson med timing.",
+      "options": [
+        "A) Give megadose vitamin D without labs then ignore hypercalcemia symptoms",
+        "B) Give carbidopa-levodopa on time; avoid holding without plan",
+        "C) Hold Parkinson meds nothing by mouth for hours without bridging plan then rush transfers in ‘off’",
+        "D) Give evening diuretic then leave path dark and cluttered"
+      ],
+      "answer": "B) Give carbidopa-levodopa on time; avoid holding without plan",
+      "explanation": "‘Off’ periods raise fall/aspiration risk. Therefore, the most accurate choice is: Give carbidopa-levodopa on time; avoid holding without plan. Missed timing precipitates falls—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "‘Off’ periods raise fall/aspiration risk. This matches the correct interpretation.",
+        "C": "Missed timing precipitates falls—near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ],
+  "medium": [
+    {
+      "id": "geriatrics:medium:0",
+      "question": "A 82-year-old woman is admitted with atypical infection elders. Which nursing action is most appropriate?",
+      "options": [
+        "A) Require high fever before evaluating infection in frail elders",
+        "B) Infection may present as falls/confusion without fever",
+        "C) Leave solitary high-fall-risk elder without any alert plan",
+        "D) Require crushing chest pain before evaluating acute coronary syndrome in elders"
+      ],
+      "answer": "B) Infection may present as falls/confusion without fever",
+      "explanation": "Blunted fever response is common; functional change is a clue. Therefore, the most accurate choice is: Infection may present as falls/confusion without fever. Fever-only infection screening misses disease—.",
+      "choice_explanations": {
+        "A": "Fever-only infection screening misses disease—near-miss. It is less consistent than the correct choice.",
+        "B": "Blunted fever response is common; functional change is a clue. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:medium:1",
+      "question": "A 68-year-old woman develops findings of delirium versus dementia. What is the priority assessment?",
+      "options": [
+        "A) Delirium is acute fluctuating often reversible; dementia progressive—still rule out delirium",
+        "B) Diagnose irreversible dementia overnight without mood/delirium workup",
+        "C) Label sudden new confusion as ‘just dementia’ without workup",
+        "D) Diagnose delirium from one nighttime ‘sundown’ comment without assessment"
+      ],
+      "answer": "A) Delirium is acute fluctuating often reversible; dementia progressive—still rule out delirium",
+      "explanation": "Acute change suggests delirium until proven otherwise. Therefore, the most accurate choice is: Delirium is acute fluctuating often reversible; dementia progressive—still rule out delirium. Missing reversible delirium is .",
+      "choice_explanations": {
+        "A": "Acute change suggests delirium until proven otherwise. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Missing reversible delirium is near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:medium:2",
+      "question": "A 75-year-old man shows signs of Confusion Assessment Method assessment on the unit. Which of the following is correct?",
+      "options": [
+        "A) Diagnose delirium from one nighttime ‘sundown’ comment without assessment",
+        "B) Diagnose irreversible dementia overnight without mood/delirium workup",
+        "C) Use Confusion Assessment Method/features: acute onset, inattention, disorganized thinking, altered level of consciousness",
+        "D) Label sudden new confusion as ‘just dementia’ without workup"
+      ],
+      "answer": "C) Use Confusion Assessment Method/features: acute onset, inattention, disorganized thinking, altered level of consciousness",
+      "explanation": "Structured tools improve detection. Therefore, the most accurate choice is: Use Confusion Assessment Method/features: acute onset, inattention, disorganized thinking, altered level of consciousness. Casual labeling misses hypoactive delirium—.",
+      "choice_explanations": {
+        "A": "Casual labeling misses hypoactive delirium—near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Structured tools improve detection. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:medium:3",
+      "question": "A 82-year-old man needs a care plan for hypoactive delirium. Which of the following is most appropriate?",
+      "options": [
+        "A) Only treat hyperactive pulling-lines patients as delirium",
+        "B) Treat elder delirium first-line with routine lorazepam",
+        "C) Quiet withdrawn delirium is common and dangerous—don’t miss it",
+        "D) Assume nonverbal dementia patients feel no pain"
+      ],
+      "answer": "C) Quiet withdrawn delirium is common and dangerous—don’t miss it",
+      "explanation": "Hypoactive form has poor outcomes if missed. Therefore, the most accurate choice is: Quiet withdrawn delirium is common and dangerous—don’t miss it. Hyperactive-only focus is .",
+      "choice_explanations": {
+        "A": "Hyperactive-only focus is near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Hypoactive form has poor outcomes if missed. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:medium:4",
+      "question": "Bedside assessment suggests delirium nonpharm first. Which of the following is correct?",
+      "options": [
+        "A) Start diphenhydramine nightly long-term for elder insomnia first-line",
+        "B) Treat elder delirium first-line with routine lorazepam",
+        "C) Orient, glasses/hearing aids, mobilize, sleep, review meds; avoid benzos first-line",
+        "D) Give intravenous diphenhydramine for sleep in hospitalized elder with dementia"
+      ],
+      "answer": "C) Orient, glasses/hearing aids, mobilize, sleep, review meds; avoid benzos first-line",
+      "explanation": "Benzos often worsen delirium. Therefore, the most accurate choice is: Orient, glasses/hearing aids, mobilize, sleep, review meds; avoid benzos first-line. Benzo-first is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Benzo-first is near-miss. It is less consistent than the correct choice.",
+        "C": "Benzos often worsen delirium. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:medium:5",
+      "question": "A 75-year-old woman has vital-sign changes due to beers PIMs. Which of the following is most accurate?",
+      "options": [
+        "A) Use long-acting benzos as chronic elder insomnia therapy",
+        "B) Start diphenhydramine nightly long-term for elder insomnia first-line",
+        "C) Avoid potentially inappropriate meds (strong anticholinergics, benzos) when possible",
+        "D) Treat elder delirium first-line with routine lorazepam"
+      ],
+      "answer": "C) Avoid potentially inappropriate meds (strong anticholinergics, benzos) when possible",
+      "explanation": "PIMs raise falls/delirium/cognitive harm. Therefore, the most accurate choice is: Avoid potentially inappropriate meds (strong anticholinergics, benzos) when possible. Beers-first insomnia care is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Beers-first insomnia care is near-miss. It is less consistent than the correct choice.",
+        "C": "PIMs raise falls/delirium/cognitive harm. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:medium:6",
+      "question": "While caring for a 82-year-old man, anticholinergic burden is suspected. Which of the following is correct?",
+      "options": [
+        "A) Minimize cumulative anticholinergic load in dementia/falls risk",
+        "B) Stack bladder antispasmodic + antihistamine + tricyclic antidepressant",
+        "C) Stop warfarin permanently after one assisted fall without stroke-risk discussion",
+        "D) Leave loaded firearms accessible in progressive dementia with agitation"
+      ],
+      "answer": "A) Minimize cumulative anticholinergic load in dementia/falls risk",
+      "explanation": "Burden worsens cognition/retention/constipation. Therefore, the most accurate choice is: Minimize cumulative anticholinergic load in dementia/falls risk. Stacked anticholinergics are .",
+      "choice_explanations": {
+        "A": "Burden worsens cognition/retention/constipation. This matches the correct interpretation.",
+        "B": "Stacked anticholinergics are near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:medium:7",
+      "question": "A 68-year-old man is monitored for complications of fall multifactorial. Which of the following is most appropriate?",
+      "options": [
+        "A) Restrain all elders prophylactically to prevent falls",
+        "B) Assess meds, vision, orthostatics, strength, environment—multifactorial prevention",
+        "C) Skip orthostatics and only add sedating meds for dizziness",
+        "D) Forbid all mobilization after mild illness solely to avoid falls paperwork"
+      ],
+      "answer": "B) Assess meds, vision, orthostatics, strength, environment—multifactorial prevention",
+      "explanation": "Restraints increase injury; multifactorial prevention works better. Therefore, the most accurate choice is: Assess meds, vision, orthostatics, strength, environment—multifactorial prevention. Prophylactic restraint is .",
+      "choice_explanations": {
+        "A": "Prophylactic restraint is near-miss. It is less consistent than the correct choice.",
+        "B": "Restraints increase injury; multifactorial prevention works better. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:medium:8",
+      "question": "A 75-year-old woman is admitted with orthostatic vitals elders. Which nursing action is most appropriate?",
+      "options": [
+        "A) Check orthostatic blood pressure/heart rate for dizzy fallers",
+        "B) Leave homebound elder without anterior chamber during heatwave without welfare check plan",
+        "C) Restrain all elders prophylactically to prevent falls",
+        "D) Skip orthostatics and only add sedating meds for dizziness"
+      ],
+      "answer": "A) Check orthostatic blood pressure/heart rate for dizzy fallers",
+      "explanation": "Volume/autonomic/med causes are common. Therefore, the most accurate choice is: Check orthostatic blood pressure/heart rate for dizzy fallers. Sedating dizzy elders without orthostatics is .",
+      "choice_explanations": {
+        "A": "Volume/autonomic/med causes are common. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Sedating dizzy elders without orthostatics is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:medium:9",
+      "question": "A 82-year-old woman develops findings of polypharmacy deprescribe. What is the priority assessment?",
+      "options": [
+        "A) Reconcile and deprescribe unnecessary meds with providers",
+        "B) Continue all preventive meds until last breath without goals review",
+        "C) Add drugs for each side effect without reviewing the cascade",
+        "D) Add anticholinergic for incontinence caused by cholinesterase inhibitor without review"
+      ],
+      "answer": "A) Reconcile and deprescribe unnecessary meds with providers",
+      "explanation": "Prescribing cascades amplify harm. Therefore, the most accurate choice is: Reconcile and deprescribe unnecessary meds with providers. Cascade prescribing is .",
+      "choice_explanations": {
+        "A": "Prescribing cascades amplify harm. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Cascade prescribing is near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:medium:10",
+      "question": "A 68-year-old woman shows signs of prescribing cascade example on the unit. Which of the following is correct?",
+      "options": [
+        "A) Add drugs for each side effect without reviewing the cascade",
+        "B) Add anticholinergic for incontinence caused by cholinesterase inhibitor without review",
+        "C) Leave homebound elder without anterior chamber during heatwave without welfare check plan",
+        "D) Recognize drug side effect treated as new disease with more drugs"
+      ],
+      "answer": "D) Recognize drug side effect treated as new disease with more drugs",
+      "explanation": "Cascades are preventable with med review. Therefore, the most accurate choice is: Recognize drug side effect treated as new disease with more drugs. Unreviewed cascade is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Unreviewed cascade is near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Cascades are preventable with med review. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:medium:11",
+      "question": "A 75-year-old man needs a care plan for renal dosing elders. Which of the following is most appropriate?",
+      "options": [
+        "A) Give full memantine dose in severe chronic kidney disease without adjustment",
+        "B) Give full direct oral anticoagulant dose in CrCl below labeled thresholds",
+        "C) Give full young adult renally cleared dose when CrCl is 20",
+        "D) Dose-adjust renally cleared drugs for reduced CrCl"
+      ],
+      "answer": "D) Dose-adjust renally cleared drugs for reduced CrCl",
+      "explanation": "glomerular filtration rate declines with age even if creatinine ‘normalish’. Therefore, the most accurate choice is: Dose-adjust renally cleared drugs for reduced CrCl. Unadjusted renal dosing is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Unadjusted renal dosing is near-miss. It is less consistent than the correct choice.",
+        "D": "glomerular filtration rate declines with age even if creatinine ‘normalish’. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:medium:12",
+      "question": "Bedside assessment suggests normal creatinine trap. Which of the following is correct?",
+      "options": [
+        "A) Assume no sweating means glucose cannot be low in elder on insulin",
+        "B) Assume creatinine 1.0 always means great kidneys in frail 90-year-old",
+        "C) Low muscle mass can hide low glomerular filtration rate behind ‘normal’ creatinine",
+        "D) Assume thirst always protects elders from dehydration"
+      ],
+      "answer": "C) Low muscle mass can hide low glomerular filtration rate behind ‘normal’ creatinine",
+      "explanation": "Creatinine underestimates impairment in sarcopenia. Therefore, the most accurate choice is: Low muscle mass can hide low glomerular filtration rate behind ‘normal’ creatinine. Normal Cr reassurance is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Normal Cr reassurance is near-miss. It is less consistent than the correct choice.",
+        "C": "Creatinine underestimates impairment in sarcopenia. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:medium:13",
+      "question": "A 68-year-old man has vital-sign changes due to start low go slow. Which of the following is most accurate?",
+      "options": [
+        "A) Withhold morphine for severe air hunger in dying elder from myth",
+        "B) Withhold all opioids for hip fracture pain from opiophobia",
+        "C) Start low and titrate slow for many elder drugs—but don’t undertreat pain indefinitely",
+        "D) Assume no sweating means glucose cannot be low in elder on insulin"
+      ],
+      "answer": "C) Start low and titrate slow for many elder drugs—but don’t undertreat pain indefinitely",
+      "explanation": "Cautious titration ≠ therapeutic neglect. Therefore, the most accurate choice is: Start low and titrate slow for many elder drugs—but don’t undertreat pain indefinitely. Undertreatment from misapplied caution is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Cautious titration ≠ therapeutic neglect. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:medium:14",
+      "question": "While caring for a 75-year-old man, pain atypical dementia is suspected. Which of the following is correct?",
+      "options": [
+        "A) Assume nonverbal dementia patients feel no pain",
+        "B) Use observational pain scales in dementia; treat suspected pain",
+        "C) Withhold all opioids for hip fracture pain from opiophobia",
+        "D) Require crushing chest pain before evaluating acute coronary syndrome in elders"
+      ],
+      "answer": "B) Use observational pain scales in dementia; treat suspected pain",
+      "explanation": "Pain presents as behavior change. Therefore, the most accurate choice is: Use observational pain scales in dementia; treat suspected pain. No-pain assumption is .",
+      "choice_explanations": {
+        "A": "No-pain assumption is near-miss. It is less consistent than the correct choice.",
+        "B": "Pain presents as behavior change. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:medium:15",
+      "question": "A 82-year-old woman is monitored for complications of opioid elder caution. Which of the following is most appropriate?",
+      "options": [
+        "A) Withhold all opioids for hip fracture pain from opiophobia",
+        "B) Lower starting doses, monitor sedation/constipation/falls; still treat severe pain",
+        "C) Withhold morphine for severe air hunger in dying elder from myth",
+        "D) Use long-acting benzos as chronic elder insomnia therapy"
+      ],
+      "answer": "B) Lower starting doses, monitor sedation/constipation/falls; still treat severe pain",
+      "explanation": "Undertreated pain causes delirium/suffering. Therefore, the most accurate choice is: Lower starting doses, monitor sedation/constipation/falls; still treat severe pain. Opiophobia after fracture is .",
+      "choice_explanations": {
+        "A": "Opiophobia after fracture is near-miss. It is less consistent than the correct choice.",
+        "B": "Undertreated pain causes delirium/suffering. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:medium:16",
+      "question": "A 68-year-old woman is admitted with constipation prevention. Which nursing action is most appropriate?",
+      "options": [
+        "A) Withhold all opioids for hip fracture pain from opiophobia",
+        "B) Wait for obstipation/impaction before any bowel plan on opioids",
+        "C) Anticipate constipation on opioids; schedule bowel regimen",
+        "D) Increase nighttime stimulation and benzos as first sundowning plan"
+      ],
+      "answer": "C) Anticipate constipation on opioids; schedule bowel regimen",
+      "explanation": "Prevention avoids obstruction/delirium. Therefore, the most accurate choice is: Anticipate constipation on opioids; schedule bowel regimen. Wait-for-impaction is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Wait-for-impaction is near-miss. It is less consistent than the correct choice.",
+        "C": "Prevention avoids obstruction/delirium. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:medium:17",
+      "question": "A 75-year-old woman develops findings of urinary tract infection asymptomatic bacteriuria. What is the priority assessment?",
+      "options": [
+        "A) Treat elder C. diff with antidiarrheals only and alcohol gel alone",
+        "B) Treat only one resident and allow untreated roommates to share bedding",
+        "C) Do not treat asymptomatic bacteriuria in most elders",
+        "D) Treat every positive urinalysis in asymptomatic nursing home resident with broad intravenous abx"
+      ],
+      "answer": "C) Do not treat asymptomatic bacteriuria in most elders",
+      "explanation": "Overtreatment drives resistance/C. diff. Therefore, the most accurate choice is: Do not treat asymptomatic bacteriuria in most elders. Treating asymptomatic bacteriuria is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Overtreatment drives resistance/C. diff. This matches the correct interpretation.",
+        "D": "Treating asymptomatic bacteriuria is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:medium:18",
+      "question": "A 82-year-old woman shows signs of urinary tract infection true symptoms on the unit. Which of the following is correct?",
+      "options": [
+        "A) Treat when urinary symptoms/systemic signs—not cloudy urine alone",
+        "B) Give endless antibiotics for symptoms without considering genitourinary symptom management/estrogen local therapy pathways",
+        "C) Give antibiotics for cloudy urine alone without symptoms",
+        "D) Give megadose vitamin D without labs then ignore hypercalcemia symptoms"
+      ],
+      "answer": "A) Treat when urinary symptoms/systemic signs—not cloudy urine alone",
+      "explanation": "Cloudiness ≠ infection automatically. Therefore, the most accurate choice is: Treat when urinary symptoms/systemic signs—not cloudy urine alone. Cloudy-only treatment is .",
+      "choice_explanations": {
+        "A": "Cloudiness ≠ infection automatically. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Cloudy-only treatment is near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:medium:19",
+      "question": "A 68-year-old man needs a care plan for catheter avoid elders. Which of the following is most appropriate?",
+      "options": [
+        "A) Keep Foley indefinitely for convenience output in continent elder",
+        "B) Avoid Foley for convenience incontinence management",
+        "C) Insert Foley for staff convenience for incontinent elder",
+        "D) Avoid asking elders about suicide to not upset them"
+      ],
+      "answer": "B) Avoid Foley for convenience incontinence management",
+      "explanation": "Catheters cause CAUTI/delirium. Therefore, the most accurate choice is: Avoid Foley for convenience incontinence management. Convenience Foley is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Catheters cause CAUTI/delirium. This matches the correct interpretation.",
+        "C": "Convenience Foley is near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:medium:20",
+      "question": "Bedside assessment suggests pressure injury heels. Which of the following is correct?",
+      "options": [
+        "A) Stage moisture dermatitis as pressure Stage 3 without assessment",
+        "B) Massage reddened sacral/heel areas vigorously",
+        "C) Suction aggressively deep continuously causing distress for death rattle",
+        "D) Offload heels; don’t massage reddened bony areas"
+      ],
+      "answer": "D) Offload heels; don’t massage reddened bony areas",
+      "explanation": "Massage can worsen deep tissue injury. Therefore, the most accurate choice is: Offload heels; don’t massage reddened bony areas. Massage of redness is classic .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Massage of redness is classic near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Massage can worsen deep tissue injury. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:medium:21",
+      "question": "A 82-year-old woman has vital-sign changes due to skin tear prevention. Which of the following is most accurate?",
+      "options": [
+        "A) Rip dry adhesive tapes quickly off elder skin",
+        "B) Gentle adhesives, long sleeves, careful transfers for fragile skin",
+        "C) Start aspirin for all 80-year-olds automatically for primary prevention",
+        "D) Start diphenhydramine nightly long-term for elder insomnia first-line"
+      ],
+      "answer": "B) Gentle adhesives, long sleeves, careful transfers for fragile skin",
+      "explanation": "Shear causes skin tears. Therefore, the most accurate choice is: Gentle adhesives, long sleeves, careful transfers for fragile skin. Rapid dry tape removal is .",
+      "choice_explanations": {
+        "A": "Rapid dry tape removal is near-miss. It is less consistent than the correct choice.",
+        "B": "Shear causes skin tears. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:medium:22",
+      "question": "While caring for a 68-year-old man, moisture associated skin is suspected. Which of the following is correct?",
+      "options": [
+        "A) Allow suspected exploiter sole decision control without assessment",
+        "B) Diagnose irreversible dementia overnight without mood/delirium workup",
+        "C) Stage moisture dermatitis as pressure Stage 3 without assessment",
+        "D) Differentiate moisture-associated skin damage from pressure injury; manage moisture"
+      ],
+      "answer": "D) Differentiate moisture-associated skin damage from pressure injury; manage moisture",
+      "explanation": "Different etiology → different treatment. Therefore, the most accurate choice is: Differentiate moisture-associated skin damage from pressure injury; manage moisture. Mis-staging moisture-associated skin damage is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Mis-staging moisture-associated skin damage is near-miss. It is less consistent than the correct choice.",
+        "D": "Different etiology → different treatment. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:medium:23",
+      "question": "A 75-year-old woman is monitored for complications of nutrition sarcopenia. Which of the following is most appropriate?",
+      "options": [
+        "A) Prescribe bed rest and clear liquids long-term for deconditioning without plan",
+        "B) Protein/calorie support + resistance activity as able for sarcopenia",
+        "C) Continue forever proton pump inhibitor without indication after intensive care unit stress prophylaxis",
+        "D) Schedule aggressive marathon therapy on severe frailty day 1 without pacing"
+      ],
+      "answer": "B) Protein/calorie support + resistance activity as able for sarcopenia",
+      "explanation": "Inactivity accelerates muscle loss. Therefore, the most accurate choice is: Protein/calorie support + resistance activity as able for sarcopenia. Bed rest for sarcopenia worsens—.",
+      "choice_explanations": {
+        "A": "Bed rest for sarcopenia worsens—near-miss. It is less consistent than the correct choice.",
+        "B": "Inactivity accelerates muscle loss. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:medium:24",
+      "question": "A 82-year-old man is admitted with dehydration elders. Which nursing action is most appropriate?",
+      "options": [
+        "A) Discourage all vaccines in elders as pointless",
+        "B) Offer fluids; watch mucosa/urine output/confusion; diuretics/heat risks",
+        "C) Assume Z-drugs are fully safe benzo alternatives in frail elders",
+        "D) Assume thirst always protects elders from dehydration"
+      ],
+      "answer": "B) Offer fluids; watch mucosa/urine output/confusion; diuretics/heat risks",
+      "explanation": "Thirst drive may decline; access barriers common. Therefore, the most accurate choice is: Offer fluids; watch mucosa/urine output/confusion; diuretics/heat risks. Thirst-only reliance is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Thirst drive may decline; access barriers common. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Thirst-only reliance is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:medium:25",
+      "question": "A 68-year-old woman develops findings of heart failure salt fluid elders. What is the priority assessment?",
+      "options": [
+        "A) Skip oral care in nothing by mouth frail elders because ‘not eating’",
+        "B) Sodium/fluid guidance + daily weights; report gains",
+        "C) Consider tuberculosis in elders with risk/weight loss/cough—atypical",
+        "D) Skip Clinical Institute Withdrawal Assessment because elder ‘only drinks wine with dinner’ despite escalation"
+      ],
+      "answer": "B) Sodium/fluid guidance + daily weights; report gains",
+      "explanation": "Weight detects congestion early. Therefore, the most accurate choice is: Sodium/fluid guidance + daily weights; report gains. Ignoring weight gain is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Weight detects congestion early. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:medium:26",
+      "question": "A 75-year-old man shows signs of heart failure angiotensin-converting enzyme inhibitor elder monitoring on the unit. Which of the following is correct?",
+      "options": [
+        "A) Automatically deny anticoagulation solely because age >75 without risk discussion",
+        "B) Skip INRs for months because dose ‘has been stable forever’ in changing elder",
+        "C) Start high-dose angiotensin-converting enzyme inhibitor in dehydrated elder without labs/blood pressure checks",
+        "D) Monitor K/Cr/blood pressure after angiotensin-converting enzyme inhibitor/angiotensin receptor blocker/angiotensin receptor-neprilysin inhibitor starts"
+      ],
+      "answer": "D) Monitor K/Cr/blood pressure after angiotensin-converting enzyme inhibitor/angiotensin receptor blocker/angiotensin receptor-neprilysin inhibitor starts",
+      "explanation": "First-dose hypotension and renal injury risks rise. Therefore, the most accurate choice is: Monitor K/Cr/blood pressure after angiotensin-converting enzyme inhibitor/angiotensin receptor blocker/angiotensin receptor-neprilysin inhibitor starts. Unmonitored start is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Unmonitored start is near-miss. It is less consistent than the correct choice.",
+        "D": "First-dose hypotension and renal injury risks rise. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:medium:27",
+      "question": "A 82-year-old woman needs a care plan for atrial fibrillation anticoagulation elder. Which of the following is most appropriate?",
+      "options": [
+        "A) Deny prothrombin time solely because age >85 without assessment",
+        "B) Anticoagulate based on stroke risk; monitor falls plan—not automatic forever deny",
+        "C) Automatically deny anticoagulation solely because age >75 without risk discussion",
+        "D) Stop warfarin permanently after one assisted fall without stroke-risk discussion"
+      ],
+      "answer": "B) Anticoagulate based on stroke risk; monitor falls plan—not automatic forever deny",
+      "explanation": "Stroke risk often outweighs fall risk with mitigation. Therefore, the most accurate choice is: Anticoagulate based on stroke risk; monitor falls plan—not automatic forever deny. Age-only denial is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Stroke risk often outweighs fall risk with mitigation. This matches the correct interpretation.",
+        "C": "Age-only denial is near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:medium:28",
+      "question": "Regarding direct oral anticoagulant renal elder, which of the following is correct?",
+      "options": [
+        "A) Adjust/avoid DOACs per renal function",
+        "B) Give full direct oral anticoagulant dose in CrCl below labeled thresholds",
+        "C) Give full young adult renally cleared dose when CrCl is 20",
+        "D) Give full memantine dose in severe chronic kidney disease without adjustment"
+      ],
+      "answer": "A) Adjust/avoid DOACs per renal function",
+      "explanation": "Renal clearance affects bleed risk. Therefore, the most accurate choice is: Adjust/avoid DOACs per renal function. Unadjusted direct oral anticoagulant is .",
+      "choice_explanations": {
+        "A": "Renal clearance affects bleed risk. This matches the correct interpretation.",
+        "B": "Unadjusted direct oral anticoagulant is near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:medium:29",
+      "question": "A 75-year-old woman undergoes assessment involving parkinson med timing. Which of the following is most accurate?",
+      "options": [
+        "A) Hold Parkinson meds nothing by mouth for hours without bridging plan then rush transfers in ‘off’",
+        "B) Give evening diuretic then leave path dark and cluttered",
+        "C) Give megadose vitamin D without labs then ignore hypercalcemia symptoms",
+        "D) Give carbidopa-levodopa on time; avoid holding without plan"
+      ],
+      "answer": "D) Give carbidopa-levodopa on time; avoid holding without plan",
+      "explanation": "‘Off’ periods raise fall/aspiration risk. Therefore, the most accurate choice is: Give carbidopa-levodopa on time; avoid holding without plan. Missed timing precipitates falls—.",
+      "choice_explanations": {
+        "A": "Missed timing precipitates falls—near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "‘Off’ periods raise fall/aspiration risk. This matches the correct interpretation."
+      }
+    }
+  ],
+  "hard": [
+    {
+      "id": "geriatrics:hard:0",
+      "question": "A 82-year-old woman with multiple chronic conditions is evaluated for possible atypical infection elders. Which of the following is most accurate?",
+      "options": [
+        "A) Require high fever before evaluating infection in frail elders",
+        "B) Leave solitary high-fall-risk elder without any alert plan",
+        "C) Require crushing chest pain before evaluating acute coronary syndrome in elders",
+        "D) Infection may present as falls/confusion without fever"
+      ],
+      "answer": "D) Infection may present as falls/confusion without fever",
+      "explanation": "Blunted fever response is common; functional change is a clue. Therefore, the most accurate choice is: Infection may present as falls/confusion without fever. Fever-only infection screening misses disease—.",
+      "choice_explanations": {
+        "A": "Fever-only infection screening misses disease—near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Blunted fever response is common; functional change is a clue. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:hard:1",
+      "question": "A 68-year-old woman with multiple chronic conditions has findings suggestive of delirium versus dementia. Which of the following is the best interpretation?",
+      "options": [
+        "A) Label sudden new confusion as ‘just dementia’ without workup",
+        "B) Diagnose irreversible dementia overnight without mood/delirium workup",
+        "C) Delirium is acute fluctuating often reversible; dementia progressive—still rule out delirium",
+        "D) Diagnose delirium from one nighttime ‘sundown’ comment without assessment"
+      ],
+      "answer": "C) Delirium is acute fluctuating often reversible; dementia progressive—still rule out delirium",
+      "explanation": "Acute change suggests delirium until proven otherwise. Therefore, the most accurate choice is: Delirium is acute fluctuating often reversible; dementia progressive—still rule out delirium. Missing reversible delirium is .",
+      "choice_explanations": {
+        "A": "Missing reversible delirium is near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Acute change suggests delirium until proven otherwise. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:hard:2",
+      "question": "In a 75-year-old man with multiple chronic conditions, Confusion Assessment Method assessment must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) Diagnose delirium from one nighttime ‘sundown’ comment without assessment",
+        "B) Label sudden new confusion as ‘just dementia’ without workup",
+        "C) Use Confusion Assessment Method/features: acute onset, inattention, disorganized thinking, altered level of consciousness",
+        "D) Diagnose irreversible dementia overnight without mood/delirium workup"
+      ],
+      "answer": "C) Use Confusion Assessment Method/features: acute onset, inattention, disorganized thinking, altered level of consciousness",
+      "explanation": "Structured tools improve detection. Therefore, the most accurate choice is: Use Confusion Assessment Method/features: acute onset, inattention, disorganized thinking, altered level of consciousness. Casual labeling misses hypoactive delirium—.",
+      "choice_explanations": {
+        "A": "Casual labeling misses hypoactive delirium—near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Structured tools improve detection. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:hard:3",
+      "question": "A 82-year-old man with multiple chronic conditions returns for review of suspected hypoactive delirium. Which of the following is most accurate?",
+      "options": [
+        "A) Only treat hyperactive pulling-lines patients as delirium",
+        "B) Quiet withdrawn delirium is common and dangerous—don’t miss it",
+        "C) Assume nonverbal dementia patients feel no pain",
+        "D) Treat elder delirium first-line with routine lorazepam"
+      ],
+      "answer": "B) Quiet withdrawn delirium is common and dangerous—don’t miss it",
+      "explanation": "Hypoactive form has poor outcomes if missed. Therefore, the most accurate choice is: Quiet withdrawn delirium is common and dangerous—don’t miss it. Hyperactive-only focus is .",
+      "choice_explanations": {
+        "A": "Hyperactive-only focus is near-miss. It is less consistent than the correct choice.",
+        "B": "Hypoactive form has poor outcomes if missed. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:hard:4",
+      "question": "A clinic case of delirium nonpharm first is discussed. Which of the following is correct?",
+      "options": [
+        "A) Give intravenous diphenhydramine for sleep in hospitalized elder with dementia",
+        "B) Start diphenhydramine nightly long-term for elder insomnia first-line",
+        "C) Treat elder delirium first-line with routine lorazepam",
+        "D) Orient, glasses/hearing aids, mobilize, sleep, review meds; avoid benzos first-line"
+      ],
+      "answer": "D) Orient, glasses/hearing aids, mobilize, sleep, review meds; avoid benzos first-line",
+      "explanation": "Benzos often worsen delirium. Therefore, the most accurate choice is: Orient, glasses/hearing aids, mobilize, sleep, review meds; avoid benzos first-line. Benzo-first is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Benzo-first is near-miss. It is less consistent than the correct choice.",
+        "D": "Benzos often worsen delirium. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:hard:5",
+      "question": "A 75-year-old woman with multiple chronic conditions presents with features compatible with beers PIMs. Which of the following is most accurate?",
+      "options": [
+        "A) Treat elder delirium first-line with routine lorazepam",
+        "B) Use long-acting benzos as chronic elder insomnia therapy",
+        "C) Start diphenhydramine nightly long-term for elder insomnia first-line",
+        "D) Avoid potentially inappropriate meds (strong anticholinergics, benzos) when possible"
+      ],
+      "answer": "D) Avoid potentially inappropriate meds (strong anticholinergics, benzos) when possible",
+      "explanation": "PIMs raise falls/delirium/cognitive harm. Therefore, the most accurate choice is: Avoid potentially inappropriate meds (strong anticholinergics, benzos) when possible. Beers-first insomnia care is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Beers-first insomnia care is near-miss. It is less consistent than the correct choice.",
+        "D": "PIMs raise falls/delirium/cognitive harm. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:hard:6",
+      "question": "Which statement about anticholinergic burden in a 82-year-old man with multiple chronic conditions is most accurate?",
+      "options": [
+        "A) Leave loaded firearms accessible in progressive dementia with agitation",
+        "B) Automatically deny anticoagulation solely because age >75 without risk discussion",
+        "C) Minimize cumulative anticholinergic load in dementia/falls risk",
+        "D) Stack bladder antispasmodic + antihistamine + tricyclic antidepressant"
+      ],
+      "answer": "C) Minimize cumulative anticholinergic load in dementia/falls risk",
+      "explanation": "Burden worsens cognition/retention/constipation. Therefore, the most accurate choice is: Minimize cumulative anticholinergic load in dementia/falls risk. Stacked anticholinergics are .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Burden worsens cognition/retention/constipation. This matches the correct interpretation.",
+        "D": "Stacked anticholinergics are near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:hard:7",
+      "question": "After examining a 68-year-old man with multiple chronic conditions, which statement about fall multifactorial is correct?",
+      "options": [
+        "A) Forbid all mobilization after mild illness solely to avoid falls paperwork",
+        "B) Assess meds, vision, orthostatics, strength, environment—multifactorial prevention",
+        "C) Restrain all elders prophylactically to prevent falls",
+        "D) Skip orthostatics and only add sedating meds for dizziness"
+      ],
+      "answer": "B) Assess meds, vision, orthostatics, strength, environment—multifactorial prevention",
+      "explanation": "Restraints increase injury; multifactorial prevention works better. Therefore, the most accurate choice is: Assess meds, vision, orthostatics, strength, environment—multifactorial prevention. Prophylactic restraint is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Restraints increase injury; multifactorial prevention works better. This matches the correct interpretation.",
+        "C": "Prophylactic restraint is near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:hard:8",
+      "question": "A 75-year-old woman with multiple chronic conditions is evaluated for possible orthostatic vitals elders. Which of the following is most accurate?",
+      "options": [
+        "A) Leave homebound elder without anterior chamber during heatwave without welfare check plan",
+        "B) Check orthostatic blood pressure/heart rate for dizzy fallers",
+        "C) Skip orthostatics and only add sedating meds for dizziness",
+        "D) Restrain all elders prophylactically to prevent falls"
+      ],
+      "answer": "B) Check orthostatic blood pressure/heart rate for dizzy fallers",
+      "explanation": "Volume/autonomic/med causes are common. Therefore, the most accurate choice is: Check orthostatic blood pressure/heart rate for dizzy fallers. Sedating dizzy elders without orthostatics is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Volume/autonomic/med causes are common. This matches the correct interpretation.",
+        "C": "Sedating dizzy elders without orthostatics is near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:hard:9",
+      "question": "A 82-year-old woman with multiple chronic conditions has findings suggestive of polypharmacy deprescribe. Which of the following is the best interpretation?",
+      "options": [
+        "A) Add drugs for each side effect without reviewing the cascade",
+        "B) Continue all preventive meds until last breath without goals review",
+        "C) Add anticholinergic for incontinence caused by cholinesterase inhibitor without review",
+        "D) Reconcile and deprescribe unnecessary meds with providers"
+      ],
+      "answer": "D) Reconcile and deprescribe unnecessary meds with providers",
+      "explanation": "Prescribing cascades amplify harm. Therefore, the most accurate choice is: Reconcile and deprescribe unnecessary meds with providers. Cascade prescribing is .",
+      "choice_explanations": {
+        "A": "Cascade prescribing is near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Prescribing cascades amplify harm. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:hard:10",
+      "question": "In a 68-year-old woman with multiple chronic conditions, prescribing cascade example must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) Leave homebound elder without anterior chamber during heatwave without welfare check plan",
+        "B) Recognize drug side effect treated as new disease with more drugs",
+        "C) Add drugs for each side effect without reviewing the cascade",
+        "D) Add anticholinergic for incontinence caused by cholinesterase inhibitor without review"
+      ],
+      "answer": "B) Recognize drug side effect treated as new disease with more drugs",
+      "explanation": "Cascades are preventable with med review. Therefore, the most accurate choice is: Recognize drug side effect treated as new disease with more drugs. Unreviewed cascade is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Cascades are preventable with med review. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Unreviewed cascade is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:hard:11",
+      "question": "Which of the following correctly distinguishes key points about renal dosing elders?",
+      "options": [
+        "A) Give full direct oral anticoagulant dose in CrCl below labeled thresholds",
+        "B) Dose-adjust renally cleared drugs for reduced CrCl",
+        "C) Give full memantine dose in severe chronic kidney disease without adjustment",
+        "D) Give full young adult renally cleared dose when CrCl is 20"
+      ],
+      "answer": "B) Dose-adjust renally cleared drugs for reduced CrCl",
+      "explanation": "glomerular filtration rate declines with age even if creatinine ‘normalish’. Therefore, the most accurate choice is: Dose-adjust renally cleared drugs for reduced CrCl. Unadjusted renal dosing is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "glomerular filtration rate declines with age even if creatinine ‘normalish’. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Unadjusted renal dosing is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:hard:12",
+      "question": "A clinic case of normal creatinine trap is discussed. Which of the following is correct?",
+      "options": [
+        "A) Assume creatinine 1.0 always means great kidneys in frail 90-year-old",
+        "B) Low muscle mass can hide low glomerular filtration rate behind ‘normal’ creatinine",
+        "C) Assume thirst always protects elders from dehydration",
+        "D) Assume no sweating means glucose cannot be low in elder on insulin"
+      ],
+      "answer": "B) Low muscle mass can hide low glomerular filtration rate behind ‘normal’ creatinine",
+      "explanation": "Creatinine underestimates impairment in sarcopenia. Therefore, the most accurate choice is: Low muscle mass can hide low glomerular filtration rate behind ‘normal’ creatinine. Normal Cr reassurance is .",
+      "choice_explanations": {
+        "A": "Normal Cr reassurance is near-miss. It is less consistent than the correct choice.",
+        "B": "Creatinine underestimates impairment in sarcopenia. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:hard:13",
+      "question": "Which statement about start low go slow is most accurate?",
+      "options": [
+        "A) Assume no sweating means glucose cannot be low in elder on insulin",
+        "B) Withhold morphine for severe air hunger in dying elder from myth",
+        "C) Withhold all opioids for hip fracture pain from opiophobia",
+        "D) Start low and titrate slow for many elder drugs—but don’t undertreat pain indefinitely"
+      ],
+      "answer": "D) Start low and titrate slow for many elder drugs—but don’t undertreat pain indefinitely",
+      "explanation": "Cautious titration ≠ therapeutic neglect. Therefore, the most accurate choice is: Start low and titrate slow for many elder drugs—but don’t undertreat pain indefinitely. Undertreatment from misapplied caution is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Cautious titration ≠ therapeutic neglect. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:hard:14",
+      "question": "Which statement about pain atypical dementia in a 75-year-old man with multiple chronic conditions is most accurate?",
+      "options": [
+        "A) Assume nonverbal dementia patients feel no pain",
+        "B) Give rapid jargon discharge then assume compliance",
+        "C) Use observational pain scales in dementia; treat suspected pain",
+        "D) Withhold all opioids for hip fracture pain from opiophobia"
+      ],
+      "answer": "C) Use observational pain scales in dementia; treat suspected pain",
+      "explanation": "Pain presents as behavior change. Therefore, the most accurate choice is: Use observational pain scales in dementia; treat suspected pain. No-pain assumption is .",
+      "choice_explanations": {
+        "A": "No-pain assumption is near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Pain presents as behavior change. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:hard:15",
+      "question": "Which of the following is the best statement about opioid elder caution?",
+      "options": [
+        "A) Use long-acting benzos as chronic elder insomnia therapy",
+        "B) Withhold all opioids for hip fracture pain from opiophobia",
+        "C) Withhold morphine for severe air hunger in dying elder from myth",
+        "D) Lower starting doses, monitor sedation/constipation/falls; still treat severe pain"
+      ],
+      "answer": "D) Lower starting doses, monitor sedation/constipation/falls; still treat severe pain",
+      "explanation": "Undertreated pain causes delirium/suffering. Therefore, the most accurate choice is: Lower starting doses, monitor sedation/constipation/falls; still treat severe pain. Opiophobia after fracture is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Opiophobia after fracture is near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Undertreated pain causes delirium/suffering. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:hard:16",
+      "question": "A 68-year-old woman with multiple chronic conditions is evaluated for possible constipation prevention. Which of the following is most accurate?",
+      "options": [
+        "A) Wait for obstipation/impaction before any bowel plan on opioids",
+        "B) Withhold all opioids for hip fracture pain from opiophobia",
+        "C) Increase nighttime stimulation and benzos as first sundowning plan",
+        "D) Anticipate constipation on opioids; schedule bowel regimen"
+      ],
+      "answer": "D) Anticipate constipation on opioids; schedule bowel regimen",
+      "explanation": "Prevention avoids obstruction/delirium. Therefore, the most accurate choice is: Anticipate constipation on opioids; schedule bowel regimen. Wait-for-impaction is .",
+      "choice_explanations": {
+        "A": "Wait-for-impaction is near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Prevention avoids obstruction/delirium. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:hard:17",
+      "question": "Two similar explanations for urinary tract infection asymptomatic bacteriuria are compared. Which of the following is correct?",
+      "options": [
+        "A) Keep high-dose antipsychotics forever without review for nursing home resident with dementia",
+        "B) Treat every positive urinalysis in asymptomatic nursing home resident with broad intravenous abx",
+        "C) Do not treat asymptomatic bacteriuria in most elders",
+        "D) Treat only one resident and allow untreated roommates to share bedding"
+      ],
+      "answer": "C) Do not treat asymptomatic bacteriuria in most elders",
+      "explanation": "Overtreatment drives resistance/C. diff. Therefore, the most accurate choice is: Do not treat asymptomatic bacteriuria in most elders. Treating asymptomatic bacteriuria is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Treating asymptomatic bacteriuria is near-miss. It is less consistent than the correct choice.",
+        "C": "Overtreatment drives resistance/C. diff. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:hard:18",
+      "question": "In a 82-year-old woman with multiple chronic conditions, urinary tract infection true symptoms must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) Give endless antibiotics for symptoms without considering genitourinary symptom management/estrogen local therapy pathways",
+        "B) Give antibiotics for cloudy urine alone without symptoms",
+        "C) Treat when urinary symptoms/systemic signs—not cloudy urine alone",
+        "D) Give megadose vitamin D without labs then ignore hypercalcemia symptoms"
+      ],
+      "answer": "C) Treat when urinary symptoms/systemic signs—not cloudy urine alone",
+      "explanation": "Cloudiness ≠ infection automatically. Therefore, the most accurate choice is: Treat when urinary symptoms/systemic signs—not cloudy urine alone. Cloudy-only treatment is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Cloudy-only treatment is near-miss. It is less consistent than the correct choice.",
+        "C": "Cloudiness ≠ infection automatically. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:hard:19",
+      "question": "Which of the following correctly distinguishes key points about catheter avoid elders?",
+      "options": [
+        "A) Treat elder delirium first-line with routine lorazepam",
+        "B) Keep Foley indefinitely for convenience output in continent elder",
+        "C) Avoid Foley for convenience incontinence management",
+        "D) Insert Foley for staff convenience for incontinent elder"
+      ],
+      "answer": "C) Avoid Foley for convenience incontinence management",
+      "explanation": "Catheters cause CAUTI/delirium. Therefore, the most accurate choice is: Avoid Foley for convenience incontinence management. Convenience Foley is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Catheters cause CAUTI/delirium. This matches the correct interpretation.",
+        "D": "Convenience Foley is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:hard:20",
+      "question": "A clinic case of pressure injury heels is discussed. Which of the following is correct?",
+      "options": [
+        "A) Suction aggressively deep continuously causing distress for death rattle",
+        "B) Massage reddened sacral/heel areas vigorously",
+        "C) Offload heels; don’t massage reddened bony areas",
+        "D) Stage moisture dermatitis as pressure Stage 3 without assessment"
+      ],
+      "answer": "C) Offload heels; don’t massage reddened bony areas",
+      "explanation": "Massage can worsen deep tissue injury. Therefore, the most accurate choice is: Offload heels; don’t massage reddened bony areas. Massage of redness is classic .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Massage of redness is classic near-miss. It is less consistent than the correct choice.",
+        "C": "Massage can worsen deep tissue injury. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:hard:21",
+      "question": "A 82-year-old woman with multiple chronic conditions presents with features compatible with skin tear prevention. Which of the following is most accurate?",
+      "options": [
+        "A) Rip dry adhesive tapes quickly off elder skin",
+        "B) Gentle adhesives, long sleeves, careful transfers for fragile skin",
+        "C) Start diphenhydramine nightly long-term for elder insomnia first-line",
+        "D) Start aspirin for all 80-year-olds automatically for primary prevention"
+      ],
+      "answer": "B) Gentle adhesives, long sleeves, careful transfers for fragile skin",
+      "explanation": "Shear causes skin tears. Therefore, the most accurate choice is: Gentle adhesives, long sleeves, careful transfers for fragile skin. Rapid dry tape removal is .",
+      "choice_explanations": {
+        "A": "Rapid dry tape removal is near-miss. It is less consistent than the correct choice.",
+        "B": "Shear causes skin tears. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:hard:22",
+      "question": "After examining a 75-year-old woman with multiple chronic conditions, which statement about nutrition sarcopenia is correct?",
+      "options": [
+        "A) Prescribe bed rest and clear liquids long-term for deconditioning without plan",
+        "B) Continue forever proton pump inhibitor without indication after intensive care unit stress prophylaxis",
+        "C) Prolonged bed rest without venous thromboembolism prophylaxis after hip fracture",
+        "D) Protein/calorie support + resistance activity as able for sarcopenia"
+      ],
+      "answer": "D) Protein/calorie support + resistance activity as able for sarcopenia",
+      "explanation": "Inactivity accelerates muscle loss. Therefore, the most accurate choice is: Protein/calorie support + resistance activity as able for sarcopenia. Bed rest for sarcopenia worsens—.",
+      "choice_explanations": {
+        "A": "Bed rest for sarcopenia worsens—near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Inactivity accelerates muscle loss. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:hard:23",
+      "question": "A 82-year-old man with multiple chronic conditions is evaluated for possible dehydration elders. Which of the following is most accurate?",
+      "options": [
+        "A) Offer fluids; watch mucosa/urine output/confusion; diuretics/heat risks",
+        "B) Assume creatinine 1.0 always means great kidneys in frail 90-year-old",
+        "C) Assume Z-drugs are fully safe benzo alternatives in frail elders",
+        "D) Assume thirst always protects elders from dehydration"
+      ],
+      "answer": "A) Offer fluids; watch mucosa/urine output/confusion; diuretics/heat risks",
+      "explanation": "Thirst drive may decline; access barriers common. Therefore, the most accurate choice is: Offer fluids; watch mucosa/urine output/confusion; diuretics/heat risks. Thirst-only reliance is .",
+      "choice_explanations": {
+        "A": "Thirst drive may decline; access barriers common. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Thirst-only reliance is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:hard:24",
+      "question": "A 68-year-old woman with multiple chronic conditions has findings suggestive of heart failure salt fluid elders. Which of the following is the best interpretation?",
+      "options": [
+        "A) Consider tuberculosis in elders with risk/weight loss/cough—atypical",
+        "B) Sodium/fluid guidance + daily weights; report gains",
+        "C) Bruises/pattern injuries, fear, financial changes—report suspicion",
+        "D) Screen vision/cognition/meds; report per law/ethics when unsafe"
+      ],
+      "answer": "B) Sodium/fluid guidance + daily weights; report gains",
+      "explanation": "Weight detects congestion early. Therefore, the most accurate choice is: Sodium/fluid guidance + daily weights; report gains. Ignoring weight gain is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Weight detects congestion early. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:hard:25",
+      "question": "In a detailed discussion of heart failure angiotensin-converting enzyme inhibitor elder monitoring, which of the following is most accurate?",
+      "options": [
+        "A) Skip INRs for months because dose ‘has been stable forever’ in changing elder",
+        "B) Monitor K/Cr/blood pressure after angiotensin-converting enzyme inhibitor/angiotensin receptor blocker/angiotensin receptor-neprilysin inhibitor starts",
+        "C) Automatically deny anticoagulation solely because age >75 without risk discussion",
+        "D) Start high-dose angiotensin-converting enzyme inhibitor in dehydrated elder without labs/blood pressure checks"
+      ],
+      "answer": "B) Monitor K/Cr/blood pressure after angiotensin-converting enzyme inhibitor/angiotensin receptor blocker/angiotensin receptor-neprilysin inhibitor starts",
+      "explanation": "First-dose hypotension and renal injury risks rise. Therefore, the most accurate choice is: Monitor K/Cr/blood pressure after angiotensin-converting enzyme inhibitor/angiotensin receptor blocker/angiotensin receptor-neprilysin inhibitor starts. Unmonitored start is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "First-dose hypotension and renal injury risks rise. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Unmonitored start is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:hard:26",
+      "question": "Which of the following correctly distinguishes key points about atrial fibrillation anticoagulation elder?",
+      "options": [
+        "A) Stop warfarin permanently after one assisted fall without stroke-risk discussion",
+        "B) Automatically deny anticoagulation solely because age >75 without risk discussion",
+        "C) Leave solitary high-fall-risk elder without any alert plan",
+        "D) Anticoagulate based on stroke risk; monitor falls plan—not automatic forever deny"
+      ],
+      "answer": "D) Anticoagulate based on stroke risk; monitor falls plan—not automatic forever deny",
+      "explanation": "Stroke risk often outweighs fall risk with mitigation. Therefore, the most accurate choice is: Anticoagulate based on stroke risk; monitor falls plan—not automatic forever deny. Age-only denial is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Age-only denial is near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Stroke risk often outweighs fall risk with mitigation. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:hard:27",
+      "question": "Careful interpretation of direct oral anticoagulant renal elder is required. Which of the following is correct?",
+      "options": [
+        "A) Adjust/avoid DOACs per renal function",
+        "B) Give full direct oral anticoagulant dose in CrCl below labeled thresholds",
+        "C) Give full memantine dose in severe chronic kidney disease without adjustment",
+        "D) Give full young adult renally cleared dose when CrCl is 20"
+      ],
+      "answer": "A) Adjust/avoid DOACs per renal function",
+      "explanation": "Renal clearance affects bleed risk. Therefore, the most accurate choice is: Adjust/avoid DOACs per renal function. Unadjusted direct oral anticoagulant is .",
+      "choice_explanations": {
+        "A": "Renal clearance affects bleed risk. This matches the correct interpretation.",
+        "B": "Unadjusted direct oral anticoagulant is near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:hard:28",
+      "question": "Which statement about parkinson med timing is most accurate?",
+      "options": [
+        "A) Hold Parkinson meds nothing by mouth for hours without bridging plan then rush transfers in ‘off’",
+        "B) Give evening diuretic then leave path dark and cluttered",
+        "C) Give carbidopa-levodopa on time; avoid holding without plan",
+        "D) Give megadose vitamin D without labs then ignore hypercalcemia symptoms"
+      ],
+      "answer": "C) Give carbidopa-levodopa on time; avoid holding without plan",
+      "explanation": "‘Off’ periods raise fall/aspiration risk. Therefore, the most accurate choice is: Give carbidopa-levodopa on time; avoid holding without plan. Missed timing precipitates falls—.",
+      "choice_explanations": {
+        "A": "Missed timing precipitates falls—near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "‘Off’ periods raise fall/aspiration risk. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:hard:29",
+      "question": "Which statement about parkinson avoid metoclopramide in a 82-year-old man with multiple chronic conditions is most accurate?",
+      "options": [
+        "A) Avoid dopamine blockers that worsen Parkinsonism when possible",
+        "B) Recommend naproxen freely for elder on angiotensin-converting enzyme inhibitor+furosemide+chronic kidney disease",
+        "C) Give metoclopramide/haloperidol freely for nausea/agitation in Parkinson disease",
+        "D) Hold Parkinson meds nothing by mouth for hours without bridging plan then rush transfers in ‘off’"
+      ],
+      "answer": "A) Avoid dopamine blockers that worsen Parkinsonism when possible",
+      "explanation": "D2 blockade worsens motor symptoms. Therefore, the most accurate choice is: Avoid dopamine blockers that worsen Parkinsonism when possible. Dopamine blockers are .",
+      "choice_explanations": {
+        "A": "D2 blockade worsens motor symptoms. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Dopamine blockers are near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ],
+  "extreme": [
+    {
+      "id": "geriatrics:extreme:0",
+      "question": "A 82-year-old woman has a complex presentation of atypical infection elders. Which of the following is most accurate?",
+      "options": [
+        "A) Infection may present as falls/confusion without fever",
+        "B) Require high fever before evaluating infection in frail elders",
+        "C) Leave solitary high-fall-risk elder without any alert plan",
+        "D) Require crushing chest pain before evaluating acute coronary syndrome in elders"
+      ],
+      "answer": "A) Infection may present as falls/confusion without fever",
+      "explanation": "Blunted fever response is common; functional change is a clue. Therefore, the most accurate choice is: Infection may present as falls/confusion without fever. Fever-only infection screening misses disease—.",
+      "choice_explanations": {
+        "A": "Blunted fever response is common; functional change is a clue. This matches the correct interpretation.",
+        "B": "Fever-only infection screening misses disease—near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:1",
+      "question": "A 68-year-old woman with frailty, polypharmacy, and prior falls is reassessed after incomplete response related to delirium versus dementia. Which of the following is most accurate?",
+      "options": [
+        "A) Delirium is acute fluctuating often reversible; dementia progressive—still rule out delirium",
+        "B) Label sudden new confusion as ‘just dementia’ without workup",
+        "C) Diagnose delirium from one nighttime ‘sundown’ comment without assessment",
+        "D) Diagnose irreversible dementia overnight without mood/delirium workup"
+      ],
+      "answer": "A) Delirium is acute fluctuating often reversible; dementia progressive—still rule out delirium",
+      "explanation": "Acute change suggests delirium until proven otherwise. Therefore, the most accurate choice is: Delirium is acute fluctuating often reversible; dementia progressive—still rule out delirium. Missing reversible delirium is .",
+      "choice_explanations": {
+        "A": "Acute change suggests delirium until proven otherwise. This matches the correct interpretation.",
+        "B": "Missing reversible delirium is near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:2",
+      "question": "A detailed evaluation for Confusion Assessment Method assessment is underway in a 75-year-old man. Which of the following is correct?",
+      "options": [
+        "A) Label sudden new confusion as ‘just dementia’ without workup",
+        "B) Diagnose delirium from one nighttime ‘sundown’ comment without assessment",
+        "C) Use Confusion Assessment Method/features: acute onset, inattention, disorganized thinking, altered level of consciousness",
+        "D) Diagnose irreversible dementia overnight without mood/delirium workup"
+      ],
+      "answer": "C) Use Confusion Assessment Method/features: acute onset, inattention, disorganized thinking, altered level of consciousness",
+      "explanation": "Structured tools improve detection. Therefore, the most accurate choice is: Use Confusion Assessment Method/features: acute onset, inattention, disorganized thinking, altered level of consciousness. Casual labeling misses hypoactive delirium—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Casual labeling misses hypoactive delirium—near-miss. It is less consistent than the correct choice.",
+        "C": "Structured tools improve detection. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:3",
+      "question": "A 82-year-old man has findings that make hypoactive delirium hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Assume nonverbal dementia patients feel no pain",
+        "B) Only treat hyperactive pulling-lines patients as delirium",
+        "C) Treat elder delirium first-line with routine lorazepam",
+        "D) Quiet withdrawn delirium is common and dangerous—don’t miss it"
+      ],
+      "answer": "D) Quiet withdrawn delirium is common and dangerous—don’t miss it",
+      "explanation": "Hypoactive form has poor outcomes if missed. Therefore, the most accurate choice is: Quiet withdrawn delirium is common and dangerous—don’t miss it. Hyperactive-only focus is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Hyperactive-only focus is near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Hypoactive form has poor outcomes if missed. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:4",
+      "question": "In a 68-year-old woman, distinguishing delirium nonpharm first from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Treat elder delirium first-line with routine lorazepam",
+        "B) Orient, glasses/hearing aids, mobilize, sleep, review meds; avoid benzos first-line",
+        "C) Give intravenous diphenhydramine for sleep in hospitalized elder with dementia",
+        "D) Start diphenhydramine nightly long-term for elder insomnia first-line"
+      ],
+      "answer": "B) Orient, glasses/hearing aids, mobilize, sleep, review meds; avoid benzos first-line",
+      "explanation": "Benzos often worsen delirium. Therefore, the most accurate choice is: Orient, glasses/hearing aids, mobilize, sleep, review meds; avoid benzos first-line. Benzo-first is .",
+      "choice_explanations": {
+        "A": "Benzo-first is near-miss. It is less consistent than the correct choice.",
+        "B": "Benzos often worsen delirium. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:5",
+      "question": "A 75-year-old woman returns with ongoing problems related to beers PIMs. Which of the following is most accurate?",
+      "options": [
+        "A) Use long-acting benzos as chronic elder insomnia therapy",
+        "B) Treat elder delirium first-line with routine lorazepam",
+        "C) Start diphenhydramine nightly long-term for elder insomnia first-line",
+        "D) Avoid potentially inappropriate meds (strong anticholinergics, benzos) when possible"
+      ],
+      "answer": "D) Avoid potentially inappropriate meds (strong anticholinergics, benzos) when possible",
+      "explanation": "PIMs raise falls/delirium/cognitive harm. Therefore, the most accurate choice is: Avoid potentially inappropriate meds (strong anticholinergics, benzos) when possible. Beers-first insomnia care is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Beers-first insomnia care is near-miss. It is less consistent than the correct choice.",
+        "D": "PIMs raise falls/delirium/cognitive harm. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:6",
+      "question": "Senior review is requested for anticholinergic burden in a 82-year-old man. Which of the following is correct?",
+      "options": [
+        "A) Give intravenous diphenhydramine for sleep in hospitalized elder with dementia",
+        "B) Leave loaded firearms accessible in progressive dementia with agitation",
+        "C) Minimize cumulative anticholinergic load in dementia/falls risk",
+        "D) Stack bladder antispasmodic + antihistamine + tricyclic antidepressant"
+      ],
+      "answer": "C) Minimize cumulative anticholinergic load in dementia/falls risk",
+      "explanation": "Burden worsens cognition/retention/constipation. Therefore, the most accurate choice is: Minimize cumulative anticholinergic load in dementia/falls risk. Stacked anticholinergics are .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Burden worsens cognition/retention/constipation. This matches the correct interpretation.",
+        "D": "Stacked anticholinergics are near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:7",
+      "question": "Which statement about fall multifactorial in a 68-year-old man is most accurate?",
+      "options": [
+        "A) Assess meds, vision, orthostatics, strength, environment—multifactorial prevention",
+        "B) Skip orthostatics and only add sedating meds for dizziness",
+        "C) Forbid all mobilization after mild illness solely to avoid falls paperwork",
+        "D) Restrain all elders prophylactically to prevent falls"
+      ],
+      "answer": "A) Assess meds, vision, orthostatics, strength, environment—multifactorial prevention",
+      "explanation": "Restraints increase injury; multifactorial prevention works better. Therefore, the most accurate choice is: Assess meds, vision, orthostatics, strength, environment—multifactorial prevention. Prophylactic restraint is .",
+      "choice_explanations": {
+        "A": "Restraints increase injury; multifactorial prevention works better. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Prophylactic restraint is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:8",
+      "question": "A 75-year-old woman has a complex presentation of orthostatic vitals elders. Which of the following is most accurate?",
+      "options": [
+        "A) Restrain all elders prophylactically to prevent falls",
+        "B) Skip orthostatics and only add sedating meds for dizziness",
+        "C) Leave homebound elder without anterior chamber during heatwave without welfare check plan",
+        "D) Check orthostatic blood pressure/heart rate for dizzy fallers"
+      ],
+      "answer": "D) Check orthostatic blood pressure/heart rate for dizzy fallers",
+      "explanation": "Volume/autonomic/med causes are common. Therefore, the most accurate choice is: Check orthostatic blood pressure/heart rate for dizzy fallers. Sedating dizzy elders without orthostatics is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Sedating dizzy elders without orthostatics is near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Volume/autonomic/med causes are common. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:9",
+      "question": "A 82-year-old woman with frailty, polypharmacy, and prior falls is reassessed after incomplete response related to polypharmacy deprescribe. Which of the following is most accurate?",
+      "options": [
+        "A) Continue forever proton pump inhibitor without indication after intensive care unit stress prophylaxis",
+        "B) Add anticholinergic for incontinence caused by cholinesterase inhibitor without review",
+        "C) Add drugs for each side effect without reviewing the cascade",
+        "D) Reconcile and deprescribe unnecessary meds with providers"
+      ],
+      "answer": "D) Reconcile and deprescribe unnecessary meds with providers",
+      "explanation": "Prescribing cascades amplify harm. Therefore, the most accurate choice is: Reconcile and deprescribe unnecessary meds with providers. Cascade prescribing is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Cascade prescribing is near-miss. It is less consistent than the correct choice.",
+        "D": "Prescribing cascades amplify harm. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:10",
+      "question": "A detailed evaluation for prescribing cascade example is underway in a 68-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) Recognize drug side effect treated as new disease with more drugs",
+        "B) Leave homebound elder without anterior chamber during heatwave without welfare check plan",
+        "C) Add anticholinergic for incontinence caused by cholinesterase inhibitor without review",
+        "D) Add drugs for each side effect without reviewing the cascade"
+      ],
+      "answer": "A) Recognize drug side effect treated as new disease with more drugs",
+      "explanation": "Cascades are preventable with med review. Therefore, the most accurate choice is: Recognize drug side effect treated as new disease with more drugs. Unreviewed cascade is .",
+      "choice_explanations": {
+        "A": "Cascades are preventable with med review. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Unreviewed cascade is near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:11",
+      "question": "In a 75-year-old man, treatment choices for renal dosing elders are compared. Which of the following is most accurate?",
+      "options": [
+        "A) Give full young adult renally cleared dose when CrCl is 20",
+        "B) Give full direct oral anticoagulant dose in CrCl below labeled thresholds",
+        "C) Give full memantine dose in severe chronic kidney disease without adjustment",
+        "D) Dose-adjust renally cleared drugs for reduced CrCl"
+      ],
+      "answer": "D) Dose-adjust renally cleared drugs for reduced CrCl",
+      "explanation": "glomerular filtration rate declines with age even if creatinine ‘normalish’. Therefore, the most accurate choice is: Dose-adjust renally cleared drugs for reduced CrCl. Unadjusted renal dosing is .",
+      "choice_explanations": {
+        "A": "Unadjusted renal dosing is near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "glomerular filtration rate declines with age even if creatinine ‘normalish’. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:12",
+      "question": "In a 82-year-old man, distinguishing normal creatinine trap from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Assume no sweating means glucose cannot be low in elder on insulin",
+        "B) Low muscle mass can hide low glomerular filtration rate behind ‘normal’ creatinine",
+        "C) Assume creatinine 1.0 always means great kidneys in frail 90-year-old",
+        "D) Assume Z-drugs are fully safe benzo alternatives in frail elders"
+      ],
+      "answer": "B) Low muscle mass can hide low glomerular filtration rate behind ‘normal’ creatinine",
+      "explanation": "Creatinine underestimates impairment in sarcopenia. Therefore, the most accurate choice is: Low muscle mass can hide low glomerular filtration rate behind ‘normal’ creatinine. Normal Cr reassurance is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Creatinine underestimates impairment in sarcopenia. This matches the correct interpretation.",
+        "C": "Normal Cr reassurance is near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:13",
+      "question": "Safety concerns around start low go slow arise in a 68-year-old man. Which of the following is most accurate?",
+      "options": [
+        "A) Start low and titrate slow for many elder drugs—but don’t undertreat pain indefinitely",
+        "B) Assume no sweating means glucose cannot be low in elder on insulin",
+        "C) Withhold all opioids for hip fracture pain from opiophobia",
+        "D) Withhold morphine for severe air hunger in dying elder from myth"
+      ],
+      "answer": "A) Start low and titrate slow for many elder drugs—but don’t undertreat pain indefinitely",
+      "explanation": "Cautious titration ≠ therapeutic neglect. Therefore, the most accurate choice is: Start low and titrate slow for many elder drugs—but don’t undertreat pain indefinitely. Undertreatment from misapplied caution is .",
+      "choice_explanations": {
+        "A": "Cautious titration ≠ therapeutic neglect. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:14",
+      "question": "Senior review is requested for pain atypical dementia in a 75-year-old man. Which of the following is correct?",
+      "options": [
+        "A) Assume nonverbal dementia patients feel no pain",
+        "B) Use observational pain scales in dementia; treat suspected pain",
+        "C) Withhold all opioids for hip fracture pain from opiophobia",
+        "D) Assume no sweating means glucose cannot be low in elder on insulin"
+      ],
+      "answer": "B) Use observational pain scales in dementia; treat suspected pain",
+      "explanation": "Pain presents as behavior change. Therefore, the most accurate choice is: Use observational pain scales in dementia; treat suspected pain. No-pain assumption is .",
+      "choice_explanations": {
+        "A": "No-pain assumption is near-miss. It is less consistent than the correct choice.",
+        "B": "Pain presents as behavior change. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:15",
+      "question": "Which statement about managing opioid elder caution in a 82-year-old woman is most accurate?",
+      "options": [
+        "A) Withhold morphine for severe air hunger in dying elder from myth",
+        "B) Use long-acting benzos as chronic elder insomnia therapy",
+        "C) Lower starting doses, monitor sedation/constipation/falls; still treat severe pain",
+        "D) Withhold all opioids for hip fracture pain from opiophobia"
+      ],
+      "answer": "C) Lower starting doses, monitor sedation/constipation/falls; still treat severe pain",
+      "explanation": "Undertreated pain causes delirium/suffering. Therefore, the most accurate choice is: Lower starting doses, monitor sedation/constipation/falls; still treat severe pain. Opiophobia after fracture is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Undertreated pain causes delirium/suffering. This matches the correct interpretation.",
+        "D": "Opiophobia after fracture is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:16",
+      "question": "A 68-year-old woman has a complex presentation of constipation prevention. Which of the following is most accurate?",
+      "options": [
+        "A) Anticipate constipation on opioids; schedule bowel regimen",
+        "B) Increase nighttime stimulation and benzos as first sundowning plan",
+        "C) Wait for obstipation/impaction before any bowel plan on opioids",
+        "D) Withhold all opioids for hip fracture pain from opiophobia"
+      ],
+      "answer": "A) Anticipate constipation on opioids; schedule bowel regimen",
+      "explanation": "Prevention avoids obstruction/delirium. Therefore, the most accurate choice is: Anticipate constipation on opioids; schedule bowel regimen. Wait-for-impaction is .",
+      "choice_explanations": {
+        "A": "Prevention avoids obstruction/delirium. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Wait-for-impaction is near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:17",
+      "question": "Management of urinary tract infection asymptomatic bacteriuria is reviewed for a 75-year-old woman. Which of the following is most accurate?",
+      "options": [
+        "A) Do not treat asymptomatic bacteriuria in most elders",
+        "B) Treat every positive urinalysis in asymptomatic nursing home resident with broad intravenous abx",
+        "C) Keep high-dose antipsychotics forever without review for nursing home resident with dementia",
+        "D) Treat only one resident and allow untreated roommates to share bedding"
+      ],
+      "answer": "A) Do not treat asymptomatic bacteriuria in most elders",
+      "explanation": "Overtreatment drives resistance/C. diff. Therefore, the most accurate choice is: Do not treat asymptomatic bacteriuria in most elders. Treating asymptomatic bacteriuria is .",
+      "choice_explanations": {
+        "A": "Overtreatment drives resistance/C. diff. This matches the correct interpretation.",
+        "B": "Treating asymptomatic bacteriuria is near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:18",
+      "question": "A detailed evaluation for urinary tract infection true symptoms is underway in a 82-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) Give megadose vitamin D without labs then ignore hypercalcemia symptoms",
+        "B) Give antibiotics for cloudy urine alone without symptoms",
+        "C) Give endless antibiotics for symptoms without considering genitourinary symptom management/estrogen local therapy pathways",
+        "D) Treat when urinary symptoms/systemic signs—not cloudy urine alone"
+      ],
+      "answer": "D) Treat when urinary symptoms/systemic signs—not cloudy urine alone",
+      "explanation": "Cloudiness ≠ infection automatically. Therefore, the most accurate choice is: Treat when urinary symptoms/systemic signs—not cloudy urine alone. Cloudy-only treatment is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Cloudy-only treatment is near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Cloudiness ≠ infection automatically. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:19",
+      "question": "In a 68-year-old man, treatment choices for catheter avoid elders are compared. Which of the following is most accurate?",
+      "options": [
+        "A) Keep Foley indefinitely for convenience output in continent elder",
+        "B) Avoid Foley for convenience incontinence management",
+        "C) Insert Foley for staff convenience for incontinent elder",
+        "D) Avoid asking elders about suicide to not upset them"
+      ],
+      "answer": "B) Avoid Foley for convenience incontinence management",
+      "explanation": "Catheters cause CAUTI/delirium. Therefore, the most accurate choice is: Avoid Foley for convenience incontinence management. Convenience Foley is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Catheters cause CAUTI/delirium. This matches the correct interpretation.",
+        "C": "Convenience Foley is near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:20",
+      "question": "In a 75-year-old woman, distinguishing pressure injury heels from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Offload heels; don’t massage reddened bony areas",
+        "B) Differentiate moisture-associated skin damage from pressure injury; manage moisture",
+        "C) Stage moisture dermatitis as pressure Stage 3 without assessment",
+        "D) Massage reddened sacral/heel areas vigorously"
+      ],
+      "answer": "A) Offload heels; don’t massage reddened bony areas",
+      "explanation": "Massage can worsen deep tissue injury. Therefore, the most accurate choice is: Offload heels; don’t massage reddened bony areas. Massage of redness is classic .",
+      "choice_explanations": {
+        "A": "Massage can worsen deep tissue injury. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Massage of redness is classic near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:21",
+      "question": "A 82-year-old woman returns with ongoing problems related to skin tear prevention. Which of the following is most accurate?",
+      "options": [
+        "A) Rip dry adhesive tapes quickly off elder skin",
+        "B) Gentle adhesives, long sleeves, careful transfers for fragile skin",
+        "C) Hold Parkinson meds nothing by mouth for hours without bridging plan then rush transfers in ‘off’",
+        "D) Start aspirin for all 80-year-olds automatically for primary prevention"
+      ],
+      "answer": "B) Gentle adhesives, long sleeves, careful transfers for fragile skin",
+      "explanation": "Shear causes skin tears. Therefore, the most accurate choice is: Gentle adhesives, long sleeves, careful transfers for fragile skin. Rapid dry tape removal is .",
+      "choice_explanations": {
+        "A": "Rapid dry tape removal is near-miss. It is less consistent than the correct choice.",
+        "B": "Shear causes skin tears. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:22",
+      "question": "A 68-year-old man has a complicated course involving moisture associated skin. Which of the following is correct?",
+      "options": [
+        "A) Lock person in room alone all day without assessment/activities",
+        "B) Stage moisture dermatitis as pressure Stage 3 without assessment",
+        "C) Differentiate moisture-associated skin damage from pressure injury; manage moisture",
+        "D) Give intravenous iron repeatedly without studies for every anemia in chronic kidney disease/elder"
+      ],
+      "answer": "C) Differentiate moisture-associated skin damage from pressure injury; manage moisture",
+      "explanation": "Different etiology → different treatment. Therefore, the most accurate choice is: Differentiate moisture-associated skin damage from pressure injury; manage moisture. Mis-staging moisture-associated skin damage is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Mis-staging moisture-associated skin damage is near-miss. It is less consistent than the correct choice.",
+        "C": "Different etiology → different treatment. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:23",
+      "question": "Which statement about nutrition sarcopenia in a 75-year-old woman is most accurate?",
+      "options": [
+        "A) Prolonged bed rest without venous thromboembolism prophylaxis after hip fracture",
+        "B) Protein/calorie support + resistance activity as able for sarcopenia",
+        "C) Prescribe bed rest and clear liquids long-term for deconditioning without plan",
+        "D) Schedule aggressive marathon therapy on severe frailty day 1 without pacing"
+      ],
+      "answer": "B) Protein/calorie support + resistance activity as able for sarcopenia",
+      "explanation": "Inactivity accelerates muscle loss. Therefore, the most accurate choice is: Protein/calorie support + resistance activity as able for sarcopenia. Bed rest for sarcopenia worsens—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Inactivity accelerates muscle loss. This matches the correct interpretation.",
+        "C": "Bed rest for sarcopenia worsens—near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:24",
+      "question": "A 82-year-old man has a complex presentation of dehydration elders. Which of the following is most accurate?",
+      "options": [
+        "A) Offer fluids; watch mucosa/urine output/confusion; diuretics/heat risks",
+        "B) Discourage influenza vaccine as useless in elders always",
+        "C) Assume Z-drugs are fully safe benzo alternatives in frail elders",
+        "D) Assume thirst always protects elders from dehydration"
+      ],
+      "answer": "A) Offer fluids; watch mucosa/urine output/confusion; diuretics/heat risks",
+      "explanation": "Thirst drive may decline; access barriers common. Therefore, the most accurate choice is: Offer fluids; watch mucosa/urine output/confusion; diuretics/heat risks. Thirst-only reliance is .",
+      "choice_explanations": {
+        "A": "Thirst drive may decline; access barriers common. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Thirst-only reliance is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:25",
+      "question": "A 68-year-old woman with frailty, polypharmacy, and prior falls is reassessed after incomplete response related to heart failure salt fluid elders. Which of the following is most accurate?",
+      "options": [
+        "A) Bruises/pattern injuries, fear, financial changes—report suspicion",
+        "B) Screen vision/cognition/meds; report per law/ethics when unsafe",
+        "C) Sodium/fluid guidance + daily weights; report gains",
+        "D) Skip oral care in nothing by mouth frail elders because ‘not eating’"
+      ],
+      "answer": "C) Sodium/fluid guidance + daily weights; report gains",
+      "explanation": "Weight detects congestion early. Therefore, the most accurate choice is: Sodium/fluid guidance + daily weights; report gains. Ignoring weight gain is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Weight detects congestion early. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:26",
+      "question": "A 75-year-old man needs action related to heart failure angiotensin-converting enzyme inhibitor elder monitoring. Which of the following is correct?",
+      "options": [
+        "A) Start high-dose angiotensin-converting enzyme inhibitor in dehydrated elder without labs/blood pressure checks",
+        "B) Automatically deny anticoagulation solely because age >75 without risk discussion",
+        "C) Monitor K/Cr/blood pressure after angiotensin-converting enzyme inhibitor/angiotensin receptor blocker/angiotensin receptor-neprilysin inhibitor starts",
+        "D) Skip INRs for months because dose ‘has been stable forever’ in changing elder"
+      ],
+      "answer": "C) Monitor K/Cr/blood pressure after angiotensin-converting enzyme inhibitor/angiotensin receptor blocker/angiotensin receptor-neprilysin inhibitor starts",
+      "explanation": "First-dose hypotension and renal injury risks rise. Therefore, the most accurate choice is: Monitor K/Cr/blood pressure after angiotensin-converting enzyme inhibitor/angiotensin receptor blocker/angiotensin receptor-neprilysin inhibitor starts. Unmonitored start is .",
+      "choice_explanations": {
+        "A": "Unmonitored start is near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "First-dose hypotension and renal injury risks rise. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:27",
+      "question": "In a 82-year-old woman, treatment choices for atrial fibrillation anticoagulation elder are compared. Which of the following is most accurate?",
+      "options": [
+        "A) Automatically deny anticoagulation solely because age >75 without risk discussion",
+        "B) Anticoagulate based on stroke risk; monitor falls plan—not automatic forever deny",
+        "C) Stop warfarin permanently after one assisted fall without stroke-risk discussion",
+        "D) Leave solitary high-fall-risk elder without any alert plan"
+      ],
+      "answer": "B) Anticoagulate based on stroke risk; monitor falls plan—not automatic forever deny",
+      "explanation": "Stroke risk often outweighs fall risk with mitigation. Therefore, the most accurate choice is: Anticoagulate based on stroke risk; monitor falls plan—not automatic forever deny. Age-only denial is .",
+      "choice_explanations": {
+        "A": "Age-only denial is near-miss. It is less consistent than the correct choice.",
+        "B": "Stroke risk often outweighs fall risk with mitigation. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:28",
+      "question": "Which interpretation of direct oral anticoagulant renal elder is most accurate?",
+      "options": [
+        "A) Adjust/avoid DOACs per renal function",
+        "B) Give full young adult renally cleared dose when CrCl is 20",
+        "C) Give full direct oral anticoagulant dose in CrCl below labeled thresholds",
+        "D) Give full memantine dose in severe chronic kidney disease without adjustment"
+      ],
+      "answer": "A) Adjust/avoid DOACs per renal function",
+      "explanation": "Renal clearance affects bleed risk. Therefore, the most accurate choice is: Adjust/avoid DOACs per renal function. Unadjusted direct oral anticoagulant is .",
+      "choice_explanations": {
+        "A": "Renal clearance affects bleed risk. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Unadjusted direct oral anticoagulant is near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "geriatrics:extreme:29",
+      "question": "Which closely related statement about parkinson med timing is correct?",
+      "options": [
+        "A) Hold Parkinson meds nothing by mouth for hours without bridging plan then rush transfers in ‘off’",
+        "B) Give megadose vitamin D without labs then ignore hypercalcemia symptoms",
+        "C) Give carbidopa-levodopa on time; avoid holding without plan",
+        "D) Give evening diuretic then leave path dark and cluttered"
+      ],
+      "answer": "C) Give carbidopa-levodopa on time; avoid holding without plan",
+      "explanation": "‘Off’ periods raise fall/aspiration risk. Therefore, the most accurate choice is: Give carbidopa-levodopa on time; avoid holding without plan. Missed timing precipitates falls—.",
+      "choice_explanations": {
+        "A": "Missed timing precipitates falls—near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "‘Off’ periods raise fall/aspiration risk. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ]
+}
