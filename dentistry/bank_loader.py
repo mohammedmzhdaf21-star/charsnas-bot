@@ -1,4 +1,4 @@
-"""Load specialty MCQ banks from JSON (100 unique questions per specialty)."""
+"""Load specialty MCQ banks from JSON (120 unique questions per specialty)."""
 
 from __future__ import annotations
 
@@ -8,8 +8,8 @@ from typing import Any
 
 
 DIFFICULTIES = ("easy", "medium", "hard", "extreme")
-TARGET_PER_DIFFICULTY = 25
-TARGET_PER_SPECIALTY = 100
+TARGET_PER_DIFFICULTY = 30
+TARGET_PER_SPECIALTY = 120
 
 
 def bank_path(banks_dir: Path, specialty_key: str) -> Path:

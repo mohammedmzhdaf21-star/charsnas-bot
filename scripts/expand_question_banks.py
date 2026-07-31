@@ -1,399 +1,395 @@
 #!/usr/bin/env python3
-"""Generate 100 unique MCQs per specialty (25 per difficulty) into question_banks/."""
+"""Generate standardized-exam Short MCQ banks (USMLE/INBDE/NAPLEX/NCLEX/MLS style).
+
+30 easy + 30 medium + 30 hard + 30 extreme = 120 unique questions per specialty.
+All four options are clinical near-misses from the same specialty catalog.
+Never uses wrong1/wrong2 (easy rule-outs). No meta exam wording in stems.
+"""
 
 from __future__ import annotations
 
 import json
 import random
+import re
+import sys
 from pathlib import Path
 
-DIFFS = ("easy", "medium", "hard", "extreme")
-LETTERS = "ABCD"
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
 
-# Each specialty: list of concept dicts. Need >= 100 unique concepts.
-# Fields: topic, correct, near, wrong1, wrong2, mechanism, why_near_wrong
+from question_catalogs import CATALOGS  # noqa: E402
 
-MEDICINE: dict[str, list[dict]] = {}
-DENTISTRY: dict[str, list[dict]] = {}
-PHARMACY: dict[str, list[dict]] = {}
-MLS: dict[str, list[dict]] = {}
-NURSING: dict[str, list[dict]] = {}
+DIFFICULTIES = ("easy", "medium", "hard", "extreme")
+PER_DIFF = 30
+SEED = 20260731
+
+BANNED = re.compile(
+    r"high[- ]stakes|junior colleague|junior doctor|a student analyzes|"
+    r"item\s*#?\s*\d+|single best answer|beware of near-miss|"
+    r"core concept of|best choice answer|which statement best matches|"
+    r"in clinical practice regarding|key teaching point|teaching point|"
+    r"which choice is the single best|student (did|does|analyzes)|"
+    r"for a student|board-style|short vignette|flashcard",
+    re.I,
+)
+
+TOPIC_FIXES = {
+    "sl nitroglycerin angina": "sublingual nitroglycerin in angina",
+    "acei post-mi hf": "ACE inhibitor use after MI with heart failure",
+    "hfref beta-blocker": "evidence-based beta-blockade in HFrEF",
+    "new lbbb equivalent": "new LBBB as a STEMI equivalent",
+    "type a dissection caution": "type A aortic dissection caution in ACS pathways",
+    "unstable angina def": "unstable angina",
+    "nstemi def": "NSTEMI",
+    "wct treat as vt": "regular wide-complex tachycardia",
+    "pulseless vt/vf": "pulseless VT or VF",
+    "chb pacing": "pacing readiness in high-grade AV block",
+    "as clinical triad": "symptomatic severe aortic stenosis",
+    "ms murmur": "the murmur of mitral stenosis",
+    "hocm valsalva": "the HOCM murmur response to Valsalva",
+    "pe ecg": "ECG findings in pulmonary embolism",
+    "abi <0.9": "an ABI below 0.9",
+    "af anticoagulation": "anticoagulation decisions in atrial fibrillation",
+    "af rate control": "rate control in stable atrial fibrillation",
+    "hyperk ecg": "ECG changes of hyperkalemia",
+    "hypok ecg": "ECG changes of hypokalemia",
+    "rv infarction": "right ventricular infarction",
+    "inferior stemi leads": "inferior STEMI localization",
+    "anterior stemi": "anterior STEMI localization",
+    "lateral stemi": "lateral STEMI localization",
+    "primary pci": "primary PCI for STEMI",
+    "dapt post stent": "DAPT after coronary stenting",
+    "acute apical abscess": "acute apical abscess",
+    "pulp necrosis signs": "pulp necrosis",
+}
+
+RULEOUTISH = re.compile(
+    r"^(equals|always equals|never |only isolated|ignore |panic explains|"
+    r"skin tags prove|watchful waiting|oral digoxin bolus|routine iv steroids|"
+    r"chest physiotherapy|fluid restriction alone|antibiotics as lipid|"
+    r"nitrates lower ldl|steroids as antiplatelet)",
+    re.I,
+)
 
 
-def _c(topic, correct, near, wrong1, wrong2, mechanism, why_near):
-    return {
-        "topic": topic,
-        "correct": correct,
-        "near": near,
-        "wrong1": wrong1,
-        "wrong2": wrong2,
-        "mechanism": mechanism,
-        "why_near": why_near,
+def clean(s: str) -> str:
+    s = re.sub(r"\s+", " ", (s or "").strip())
+    s = BANNED.sub("", s)
+    return s.strip(" :,-")
+
+
+def phrase_topic(topic: str) -> str:
+    raw = clean(topic)
+    key = raw.lower().strip()
+    if key in TOPIC_FIXES:
+        return TOPIC_FIXES[key]
+    t = re.sub(r"(?<=[a-z])(?=[A-Z])", " ", raw)
+    t = t.replace("_", " ")
+    replacements = [
+        (r"\bdef\b", ""),
+        (r"\bmech(anism)?\b", "mechanism"),
+        (r"\bsigns?\b", ""),
+        (r"\bcaution\b", ""),
+        (r"\bRx\b", "treatment"),
+        (r"\bdx\b", "diagnosis"),
+        (r"\bSL\b", "sublingual"),
+    ]
+    for pat, rep in replacements:
+        t = re.sub(pat, rep, t, flags=re.I)
+    phrase = re.sub(r"\s+", " ", t).strip(" -")
+    # Prefer sentence-friendly casing
+    if phrase and not phrase.isupper():
+        phrase = phrase[0].lower() + phrase[1:]
+    return phrase or raw.lower()
+
+
+def letters_options(texts: list[str]) -> tuple[list[str], dict[str, str]]:
+    opts = []
+    mapping = {}
+    for i, t in enumerate(texts):
+        L = "ABCD"[i]
+        opts.append(f"{L}) {t}")
+        mapping[L] = t
+    return opts, mapping
+
+
+def _tokens(s: str) -> set[str]:
+    stop = {
+        "the", "and", "with", "from", "for", "that", "this", "into", "only",
+        "most", "more", "than", "when", "after", "before", "over", "under",
+        "a", "an", "of", "in", "to", "on", "or", "as", "by", "is", "are",
+        "be", "not", "no", "all", "any", "may", "can", "if", "vs",
     }
+    words = re.findall(r"[a-z0-9]+", (s or "").lower())
+    return {w for w in words if len(w) > 2 and w not in stop}
 
 
-def _expand_medicine() -> None:
-    # Cardiology — 100+ concepts
-    cardio = [
-        _c("ECG primary signal", "Surface ECG records myocardial depolarization/repolarization voltages",
-           "Surface ECG directly measures coronary blood-flow velocity",
-           "ECG measures only systemic arterial blood pressure", "ECG records breath sounds",
-           "Electrodes sense extracellular voltage changes from myocyte depolarization and repolarization.",
-           "Coronary flow is a hemodynamic/Doppler measure, not the ECG voltage tracing."),
-        _c("Stable angina pattern", "Exertional retrosternal pressure relieved by rest or nitrates",
-           "Prolonged rest pain with diaphoresis suggesting ACS",
-           "Pain reproduced by chest-wall palpation", "Pain only after antacids",
-           "Demand ischemia causes transient exertional angina that eases when demand falls.",
-           "Prolonged rest pain suggests acute coronary syndrome rather than stable angina."),
-        _c("Aspirin in ACS", "Irreversible COX-1 inhibition reducing platelet thromboxane A2",
-           "Reversible COX-2 selective anti-inflammatory effect as the ACS mechanism",
-           "Direct coronary vasodilation via nitric oxide donation", "Fibrin clot dissolution like alteplase",
-           "Aspirin acetylates platelet COX-1, lowering thromboxane and aggregation in ACS.",
-           "COX-2 selectivity is not aspirin’s ACS antithrombotic mechanism."),
-        _c("Inferior STEMI leads", "ST elevation in II, III, aVF localizes to inferior wall (often RCA)",
-           "ST elevation in II, III, aVF localizes primarily to high lateral LCx territory alone",
-           "ST elevation in V1–V4 as the inferior pattern", "Isolated T inversion in aVL only",
-           "II/III/aVF view the inferior wall, commonly RCA-supplied.",
-           "High lateral infarction maps to I/aVL ± V5–V6, not the inferior lead set."),
-        _c("MR murmur", "Holosystolic apical murmur radiating to the axilla",
-           "Crescendo-decrescendo systolic murmur to the carotids from AS",
-           "Diastolic rumble with opening snap of MS", "Continuous machinery murmur of PDA",
-           "MR jet into LA throughout systole produces a holosystolic apical-to-axilla murmur.",
-           "AS is an ejection systolic murmur to the carotids, not holosystolic to the axilla."),
-        _c("Acute angina relief", "Sublingual nitroglycerin reducing preload and ischemic pain if safe",
-           "Immediate high-dose IV beta-blocker as sole first relief in all angina",
-           "Oral digoxin bolus for acute angina pain", "Routine IV steroids for ischemic pain",
-           "Nitrates venodilate, cut preload and wall stress, often easing ischemic pain.",
-           "Beta-blockers help demand ischemia but are not the usual first acute SL relief step."),
-        _c("RV infarction", "Inferior MI + nitrate hypotension + raised JVP/clear lungs suggests RV infarct",
-           "Inferior MI + clear lungs always means isolated LV failure needing more nitrates",
-           "This pattern is pathognomonic for chronic mitral stenosis alone", "Simple vasovagal without ischemia",
-           "RV infarct is preload-dependent; nitrates drop venous return and blood pressure.",
-           "LV failure typically causes pulmonary congestion, not clear lungs with raised JVP."),
-        _c("HFrEF mortality drug", "Evidence-based beta-blocker with proven HFrEF mortality benefit",
-           "Short-acting nifedipine as HFrEF mortality-reducing therapy",
-           "Class Ic antiarrhythmic for all HFrEF patients", "Digoxin monotherapy as sole mortality therapy",
-           "GDMT beta-blockers reduce mortality in HFrEF among cornerstone therapies.",
-           "Short-acting DHPs are not mortality-reducing HFrEF therapy and may harm."),
-        _c("New LBBB ischemia", "New LBBB with ischemic symptoms can be treated as STEMI equivalent",
-           "New LBBB is always a benign chronic finding needing no reperfusion thought",
-           "New LBBB proves pulmonary embolism alone", "New LBBB indicates atropine as sole therapy",
-           "Ischemic symptoms plus new LBBB may warrant emergent reperfusion pathways.",
-           "Calling every LBBB benign misses time-critical occlusion equivalents."),
-        _c("Aortic dissection vs ACS", "Tearing pain, pulse deficit, flash edema → exclude type A dissection before full ACS Rx",
-           "Mild troponin rise with chest pain always means treat as simple NSTE-ACS only",
-           "Panic attack explains unequal arm blood pressures", "Pneumonia explains pulse deficits",
-           "Type A dissection can mimic ACS and worsen with anticoagulation/catheterization delays.",
-           "Troponin rise can occur in dissection; pulse deficit and tearing pain are red flags."),
-    ]
-    # Expand cardiology to 100+ by programmatic variations of core themes
-    themes = [
-        ("Unstable angina", "Rest or crescendo angina from plaque instability without biomarker necrosis",
-         "STEMI with persistent ST elevation requiring immediate reperfusion",
-         "Costochondritis with reproducible tenderness", "GERD without ischemic features",
-         "Unstable angina is ischemia at rest/crescendo without myocyte necrosis biomarkers.",
-         "STEMI shows ST elevation and needs immediate reperfusion pathways."),
-        ("NSTEMI definition", "Troponin-positive ACS without persistent ST elevation",
-         "Troponin-negative exertional angina only", "Pericarditis with PR depression alone",
-         "Aortic stenosis murmur without ischemia",
-         "NSTEMI is myocyte necrosis (troponin↑) without persistent STEMI pattern.",
-         "Troponin-negative pain is not NSTEMI by definition."),
-        ("Anterior STEMI", "ST elevation in V2–V4 suggests LAD/anterior territory",
-         "ST elevation in V2–V4 suggests isolated RCA inferior infarct",
-         "Isolated ST depression in aVR only", "Normal ECG excludes all anterior ischemia always",
-         "Precordial V2–V4 STE localizes anterior/septal LAD territory.",
-         "Inferior RCA infarct maps to II/III/aVF, not V2–V4 as primary."),
-        ("Lateral STEMI", "ST elevation in I, aVL ± V5–V6 suggests lateral wall (often LCx)",
-         "ST elevation in I/aVL means isolated right ventricular infarct",
-         "Only sinus bradycardia without ST change", "U waves of hypokalemia alone",
-         "I/aVL ± lateral precordials map lateral wall, often LCx.",
-         "RV infarct is suggested by right-sided leads, not I/aVL as primary."),
-        ("PCI first", "Primary PCI is preferred reperfusion for STEMI when timely",
-         "Fibrinolysis is always preferred over PCI even when PCI is immediately available",
-         "Oral aspirin alone is complete reperfusion", "Watchful waiting for 24 hours",
-         "Timely primary PCI is the preferred STEMI reperfusion strategy.",
-         "Fibrinolysis is used when PCI cannot be achieved in time, not preferentially if PCI is ready."),
-        ("Dual antiplatelet", "DAPT with aspirin plus P2Y12 inhibitor after ACS/stent",
-         "Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT",
-         "No antiplatelet after coronary stent", "Steroids as antiplatelet therapy",
-         "Aspirin + P2Y12 inhibition prevents stent thrombosis and recurrent events.",
-         "Warfarin is anticoagulant, not a standard substitute for P2Y12 in DAPT."),
-        ("Beta-blocker post MI", "Beta-blockers reduce myocardial oxygen demand after MI when indicated",
-         "Beta-blockers are contraindicated in all post-MI patients forever",
-         "Beta-blockers dissolve thrombus", "Beta-blockers replace reperfusion",
-         "β-blockade lowers HR/contractility and oxygen demand post-MI when appropriate.",
-         "They are not universally forever contraindicated post-MI."),
-        ("ACE inhibitor HF/MI", "ACEi improve remodeling/mortality in HFrEF and selected post-MI patients",
-         "ACEi are used only for cough suppression after MI",
-         "ACEi replace defibrillation in VF", "ACEi treat hyperkalemia as primary action",
-         "RAAS blockade with ACEi benefits remodeling and survival in indicated HF/MI.",
-         "Cough is an adverse effect, not the therapeutic purpose."),
-        ("Statin secondary prevention", "High-intensity statin for secondary prevention after ACS",
-         "Stop all lipid therapy permanently after one normal cholesterol",
-         "Antibiotics as lipid-lowering", "Nitrates lower LDL as primary action",
-         "Statins lower LDL and stabilize plaque after ACS.",
-         "Secondary prevention continues; one normal value does not stop indicated statin."),
-        ("Tamponade triad", "Hypotension, raised JVP, muffled sounds ± electrical alternans suggest tamponade",
-         "Hypertension with bounding pulses is the classic tamponade triad",
-         "Isolated pruritus", "Hyperresonance of pneumothorax alone without hemodynamic signs",
-         "Pericardial pressure equalizes filling and cuts cardiac output — Beck physiology.",
-         "Tamponade causes low output, not hypertensive bounding pulses."),
-        ("Electrical alternans", "Beat-to-beat QRS amplitude change suggests swinging heart in large effusion/tamponade",
-         "Electrical alternans pathognomonic for hypokalemia only",
-         "Always means ventricular tachycardia", "Normal finding in athletes only",
-         "Heart swinging in effusion alters QRS amplitude alternately.",
-         "Hypokalemia causes U waves/arrhythmia risk, not classic electrical alternans."),
-        ("AF rate vs rhythm", "Unstable AF with hypotension needs synchronized cardioversion",
-         "Unstable hypotensive AF should first get only oral digoxin and observe hours",
-         "Unstable AF is treated with fluid restriction alone", "Ignore hemodynamics if rate is 90",
-         "Instability mandates urgent electrical cardioversion.",
-         "Slow oral digoxin is not first therapy for unstable AF."),
-        ("WPW AF", "Avoid AV-nodal blockers in preexcited AF; shock if unstable or use procainamide",
-         "IV verapamil is first-line for irregular wide-complex preexcited AF",
-         "Adenosine alone is safest first drug in unstable preexcited AF", "Ignore accessory pathway",
-         "AV-nodal blockade can enhance pathway conduction and risk VF in WPW-AF.",
-         "Verapamil is contraindicated in preexcited AF."),
-        ("VT vs SVT", "Regular wide-complex tachycardia is treated as VT until proven otherwise",
-         "All wide-complex tachycardias are SVT with aberrancy and get verapamil first",
-         "Wide-complex tachycardia is always artifact", "Only carotid massage for unstable wide complex",
-         "Defaulting to VT is safer because misdiagnosing VT as SVT can be fatal.",
-         "Empiric verapamil for presumed SVT can collapse VT patients."),
-        ("Shock unstable VT", "Pulseless or unstable VT/VF needs immediate defibrillation/CPR algorithm",
-         "Unstable VT is observed for 1 hour before any therapy",
-         "Only oral amiodarone without electricity for pulseless VT", "Chest physiotherapy",
-         "Electrical defibrillation/CPR is the first response to pulseless VT/VF.",
-         "Delaying electricity for oral drugs is inappropriate."),
-        ("Bradycardia atropine", "Symptomatic sinus bradycardia may respond to atropine while preparing pacing",
-         "Atropine is first therapy for VF", "Atropine replaces PCI in STEMI",
-         "Atropine treats hyperkalemia as primary action",
-         "Atropine blocks vagal tone and can raise sinus rate in symptomatic bradycardia.",
-         "VF needs defibrillation, not atropine as primary."),
-        ("Complete heart block", "High-grade AV block with instability needs temporary pacing readiness",
-         "Complete heart block always managed with only observation and orange juice",
-         "Beta-agonist contraindicated conceptually in all blocks forever without exception",
-         "Nitrates are first therapy for CHB",
-         "Unstable AV block requires urgent pacing support.",
-         "Observation alone is unsafe when perfusion is compromised."),
-        ("AS triad", "Syncope, angina, heart failure symptoms with harsh systolic murmur radiating to carotids",
-         "AS presents as holosystolic apical murmur to axilla like MR",
-         "AS is a diastolic murmur at the apex", "AS never causes syncope",
-         "Fixed outflow obstruction causes exertional syncope/angina/HF with SEM to carotids.",
-         "MR is the holosystolic axillary murmur, not classic AS."),
-        ("MS murmur", "Diastolic rumble with opening snap in mitral stenosis",
-         "MS is a holosystolic murmur to the axilla", "MS is continuous machinery murmur",
-         "MS is only an S3 without diastolic rumble always",
-         "Narrowed mitral orifice yields diastolic rumble ± opening snap.",
-         "Holosystolic axillary radiation is MR, not MS."),
-        ("HOCM murmur", "HOCM murmur increases with Valsalva/standing (↓ preload)",
-         "HOCM murmur always decreases with Valsalva like most flow murmurs",
-         "HOCM is a diastolic decrescendo murmur of AR", "HOCM equals fixed AS response to Valsalva",
-         "Dynamic LVOT obstruction worsens when ventricle is smaller (Valsalva).",
-         "Most murmurs soften with less preload; HOCM paradoxically louder."),
-        ("Pericarditis pain", "Sharp positional pain better leaning forward with PR depression/diffuse STE",
-         "Pericarditis pain is always exertional and relieved only by nitrates like angina",
-         "Pericarditis is painless jaundice", "Pericarditis equals claudication",
-         "Inflamed pericardium causes positional pain and diffuse ECG changes.",
-         "Nitrate-responsive exertional pressure is ischemic angina patterning."),
-        ("Endocarditis Duke", "Fever + new regurgitant murmur + bacteremia raises endocarditis concern",
-         "Endocarditis is diagnosed by cough alone without blood cultures",
-         "Endocarditis equals viral URI always", "Skin tags prove endocarditis",
-         "Continuous bacteremia and valvular involvement define infective endocarditis risk.",
-         "Cough alone without microbiologic/valve evidence is insufficient."),
-        ("CHF vs pneumonia", "Orthopnea, raised JVP, edema, crackles suggest cardiogenic pulmonary edema",
-         "All crackles are pneumonia requiring only antibiotics without HF assessment",
-         "CHF never causes dyspnea", "Isolated tinnitus is CHF",
-         "Elevated filling pressures produce orthopnea/edema/crackles in decompensated HF.",
-         "Pneumonia is infectious; HF signs point to cardiogenic edema needing different Rx."),
-        ("BNP use", "Elevated natriuretic peptides support HF as cause of dyspnea when interpreted clinically",
-         "Normal BNP always excludes all cardiac disease forever",
-         "BNP diagnoses pneumonia specifically", "BNP replaces ECG",
-         "Wall stress releases BNP/NT-proBNP supporting HF diagnosis in context.",
-         "BNP can be affected by many factors; normal value does not erase all heart disease."),
-        ("Hypertensive emergency", "Severe BP elevation with acute end-organ damage needs controlled reduction",
-         "Any BP >140 always requires immediate ICU arterial line and nitroprusside",
-         "Hypertensive urgency equals stroke always", "Ignore BP if headache absent",
-         "Emergency = severe hypertension plus acute organ injury needing careful titration.",
-         "Not every elevation ≥140 is a hypertensive emergency."),
-        ("Aortic regurgitation", "AR: blowing diastolic decrescendo at left sternal border",
-         "AR is holosystolic to axilla", "AR is opening snap diastolic rumble of MS",
-         "AR is continuous machinery only",
-         "Retrograde aortic flow in diastole yields a decrescendo diastolic murmur.",
-         "Axillary holosystolic murmur is MR."),
-        ("Pulmonary embolism ECG", "Sinus tachycardia is the most common ECG finding in PE; S1Q3T3 is uncommon",
-         "Normal ECG excludes PE", "STEMI pattern is required for PE diagnosis",
-         "Only U waves diagnose PE",
-         "PE often shows sinus tachycardia; classic S1Q3T3 is insensitive.",
-         "ECG can be normal and still PE."),
-        ("Syncope cardiac red flags", "Exertional syncope, familial SCD, abnormal ECG raise cardiac syncope concern",
-         "All syncope is vasovagal and needs no history details",
-         "Syncope equals seizure always", "Hearing loss is the main syncope clue",
-         "Cardiac syncope clues include exertion, structural disease, and ECG abnormalities.",
-         "Not all syncope is benign vasovagal."),
-        ("Cardiac arrest chain", "Early CPR and defibrillation are critical for shockable arrest survival",
-         "Delay CPR until full labs return", "Only IV fluids without compressions for VF",
-         "Arrest care starts with antibiotics",
-         "Coronary perfusion during CPR and early defibrillation save myocardium/brain.",
-         "Labs must not delay compressions/defibrillation."),
-        ("Cardiogenic shock", "Cold, clammy, hypotensive with pulmonary edema suggests cardiogenic shock",
-         "Warm distributive shock features are identical to pure cardiogenic shock always",
-         "Cardiogenic shock is hypertension with bounding pulses", "Only fever defines it",
-         "Failed pump → low output, congestion, cool periphery.",
-         "Distributive shock is typically warm/vasodilated, different hemodynamics."),
-    ]
-    for t in themes:
-        cardio.append(_c(*t))
-    # Pad to >=100 with numbered unique clinical pearls derived from themes
-    base = list(cardio)
-    i = 0
-    while len(cardio) < 105:
-        b = base[i % len(base)]
-        i += 1
-        cardio.append(_c(
-            f"{b['topic']} (variant focus {i})",
-            b["correct"],
-            b["near"],
-            b["wrong1"],
-            b["wrong2"],
-            b["mechanism"],
-            b["why_near"],
-        ))
-    # Ensure unique topics by suffixing if needed — stems will still be unique via difficulty wrappers
-    MEDICINE["cardiology"] = cardio[:110]
-
-
-def _stem(diff: str, concept: dict, n: int) -> str:
-    t = concept["topic"]
-    m = concept["mechanism"]
-    if diff == "easy":
-        return f"Which statement best matches the core concept of {t}?"
-    if diff == "medium":
-        return f"In clinical practice regarding {t}, which option is most accurate?"
-    if diff == "hard":
-        return (
-            f"A student analyzes a case centered on {t}. "
-            f"Key teaching point: {m.split('.')[0]}. "
-            f"Which option best fits this pathophysiology?"
-        )
-    return (
-        f"In a high-stakes scenario involving {t} (item {n}), "
-        f"findings align with this mechanism: {m} "
-        f"Which choice is the single best interpretation or action concept?"
+def pick_related(topics: list[dict], idx: int, rng: random.Random, k: int = 8) -> list[dict]:
+    """Prefer catalog neighbors that share clinical tokens with the stem topic."""
+    base = topics[idx]
+    base_tok = _tokens(
+        " ".join([base["topic"], base["correct"], base["near"], base.get("mechanism", "")])
     )
-
-
-def _build_question(concept: dict, diff: str, n: int, rng: random.Random) -> dict:
-    correct = concept["correct"]
-    near = concept["near"]
-    w1 = concept["wrong1"]
-    w2 = concept["wrong2"]
-    bodies = [correct, near, w1, w2]
-    rng.shuffle(bodies)
-    options = [f"{LETTERS[i]}) {bodies[i]}" for i in range(4)]
-    answer = next(o for o in options if o.split(") ", 1)[1] == correct)
-    # map explanations by final letter
-    mapping = {
-        correct: concept["mechanism"],
-        near: concept["why_near"],
-        w1: f"{w1} does not match the mechanism of {concept['topic']}.",
-        w2: f"{w2} is unrelated to the key pathophysiology of {concept['topic']}.",
-    }
-    choice_explanations = {}
-    for o in options:
-        letter = o[0]
-        body = o.split(") ", 1)[1]
-        choice_explanations[letter] = mapping[body]
-    return {
-        "question": _stem(diff, concept, n),
-        "options": options,
-        "answer": answer,
-        "explanation": (
-            f"{concept['mechanism']} The best choice is: {correct}. "
-            f"A close rival is: {near}. Distinguisher: {concept['why_near']}"
-        ),
-        "choice_explanations": choice_explanations,
-    }
-
-
-def _load_catalog(field: str) -> dict[str, list[dict]]:
-    """Import large catalogs from companion module if present, else built-ins."""
-    try:
-        from question_catalogs import CATALOGS  # type: ignore
-        return CATALOGS[field]
-    except Exception:
-        if field == "medicine":
-            if not MEDICINE:
-                _expand_medicine()
-            return MEDICINE
-        return {}
-
-
-def generate_specialty(concepts: list[dict], seed: str) -> dict[str, list[dict]]:
-    rng = random.Random(seed)
-    # Need 100 unique stems — use 25 concepts per difficulty without reuse of concept index across diffs when possible
-    if len(concepts) < 100:
-        # extend uniquely
-        extra = []
-        k = 0
-        while len(concepts) + len(extra) < 100:
-            c = dict(concepts[k % len(concepts)])
-            k += 1
-            c["topic"] = f"{c['topic']} [{seed}:{k}]"
-            # slight wording tweak on correct to keep uniqueness of teaching angle
-            c["correct"] = c["correct"]
-            extra.append(c)
-        concepts = list(concepts) + extra
-    rng.shuffle(concepts)
-    out = {d: [] for d in DIFFS}
-    # allocate 25 unique concepts per difficulty
-    idx = 0
-    used_topics = set()
-    for diff in DIFFS:
-        count = 0
-        while count < 25 and idx < len(concepts):
-            c = concepts[idx]
-            idx += 1
-            topic_key = c["topic"].strip().lower()
-            if topic_key in used_topics:
-                continue
-            used_topics.add(topic_key)
-            out[diff].append(_build_question(c, diff, count + 1, rng))
-            count += 1
-        # if still short, create numbered variants from remaining
-        while count < 25:
-            c = dict(concepts[count % len(concepts)])
-            c["topic"] = f"{c['topic']} case-{diff}-{count+1}"
-            out[diff].append(_build_question(c, diff, count + 1, rng))
-            count += 1
+    scored: list[tuple[float, int, dict]] = []
+    for j, t in enumerate(topics):
+        if j == idx:
+            continue
+        tok = _tokens(" ".join([t["topic"], t["correct"], t["near"]]))
+        overlap = len(base_tok & tok)
+        # Small bonus for catalog adjacency (same organ-system cluster)
+        adj = 1.0 if min(abs(j - idx), len(topics) - abs(j - idx)) <= 4 else 0.0
+        score = overlap * 3.0 + adj + rng.random() * 0.2
+        scored.append((score, j, t))
+    scored.sort(key=lambda x: x[0], reverse=True)
+    out = []
+    seen = set()
+    for score, j, t in scored:
+        if t["topic"] in seen:
+            continue
+        # Require some overlap when possible
+        if score < 1.0 and len(out) >= 3:
+            continue
+        seen.add(t["topic"])
+        out.append(t)
+        if len(out) >= k:
+            break
     return out
 
 
-def write_bank(path: Path, bank: dict) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(bank, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+def similar_length(correct: str, candidate: str) -> bool:
+    if not candidate:
+        return False
+    if abs(len(candidate) - len(correct)) > 50 and len(candidate) > 65:
+        return False
+    return True
+
+
+def build_options(
+    topic: dict, related: list[dict], rng: random.Random
+) -> tuple[str, list[str], dict[str, str], str]:
+    correct = clean(topic["correct"])
+    near = clean(topic["near"])
+    base_tok = _tokens(" ".join([topic["topic"], correct, near, topic.get("mechanism", "")]))
+
+    # Prefer near-misses first (topic near + related nears), then related corrects
+    pool_priority: list[str] = [near]
+    for r in related:
+        pool_priority.append(clean(r["near"]))
+    for r in related:
+        pool_priority.append(clean(r["correct"]))
+
+    uniq: list[str] = []
+    seen = {correct.lower()}
+
+    def accept(p: str, require_overlap: bool, strict_len: bool) -> bool:
+        if not p or p.lower() in seen:
+            return False
+        if RULEOUTISH.search(p):
+            return False
+        if strict_len and not similar_length(correct, p):
+            return False
+        if require_overlap and base_tok and not (_tokens(p) & base_tok):
+            return False
+        return True
+
+    for require_overlap, strict_len in (
+        (True, True),
+        (True, False),
+        (False, True),
+        (False, False),
+    ):
+        for p in pool_priority:
+            if accept(p, require_overlap=require_overlap, strict_len=strict_len):
+                seen.add(p.lower())
+                uniq.append(p)
+            if len(uniq) >= 3:
+                break
+        if len(uniq) >= 3:
+            break
+
+    if len(uniq) < 3:
+        for p in pool_priority:
+            if p and p.lower() not in seen:
+                uniq.append(p)
+                seen.add(p.lower())
+            if len(uniq) >= 3:
+                break
+    while len(uniq) < 3:
+        uniq.append(
+            f"Closely related alternative interpretation involving {phrase_topic(topic['topic'])}"
+        )
+    distractors = uniq[:3]
+    texts = [correct] + distractors
+    rng.shuffle(texts)
+    opts, mapping = letters_options(texts)
+    answer = next(o for o in opts if o.split(") ", 1)[1] == correct)
+    return correct, opts, mapping, answer
+
+
+def stem_for(difficulty: str, topic: dict, n: int, rng: random.Random) -> str:
+    label = phrase_topic(topic["topic"])
+    mech = clean(topic.get("mechanism", ""))
+    age = 24 + (n * 7 + len(label) * 3) % 52
+    sex = "woman" if (n + len(label)) % 2 == 0 else "man"
+    setting = [
+        "clinic",
+        "the emergency department",
+        "the ward",
+        "urgent care",
+        "outpatient follow-up",
+    ][n % 5]
+
+    if difficulty == "easy":
+        templates = [
+            f"Which statement about {label} is most accurate?",
+            f"Which finding is most consistent with {label}?",
+            f"Which option best characterizes {label}?",
+            f"In {label}, which description is most correct?",
+            f"Which interpretation of {label} is most appropriate?",
+            f"Which option most accurately describes {label}?",
+            f"Regarding {label}, which statement is most correct?",
+            f"Which feature most reliably supports {label}?",
+        ]
+        if n % 9 == 3 and mech:
+            return f"Which physiologic or pharmacologic explanation best accounts for {label}?"
+        return templates[n % len(templates)]
+
+    if difficulty == "medium":
+        templates = [
+            f"A {age}-year-old {sex} is evaluated in {setting} for a presentation related to {label}. Which option is most likely?",
+            f"A {age}-year-old {sex} has symptoms and findings pointing toward {label}. Which option best unifies the data?",
+            f"During assessment for possible {label}, which option is the most accurate conclusion?",
+            f"A {age}-year-old {sex} with relevant risk factors develops features of {label}. Which option is most appropriate?",
+            f"Workup in {setting} for {label} is underway. Which option is most consistent with the expected process?",
+            f"A {age}-year-old {sex} reports a history suggestive of {label}. Which option is most accurate?",
+            f"In a patient with suspected {label}, which option is the most likely explanation?",
+            f"A {age}-year-old {sex} undergoes evaluation for {label}. Which option should guide clinical reasoning?",
+        ]
+        return templates[n % len(templates)]
+
+    if difficulty == "hard":
+        templates = [
+            f"A {age}-year-old {sex} presents with overlapping features of {label}. Closely related alternatives remain on the differential. After integrating history, examination, and initial tests, which option is most likely?",
+            f"A hospitalized {age}-year-old {sex} develops evolving findings related to {label}. Early data are incomplete. Which option best fits the overall picture?",
+            f"A {age}-year-old {sex} with comorbidities is evaluated for {label}. Near-miss alternatives share several features. Which option is favored?",
+            f"Diagnostic uncertainty surrounds {label}. Common textbook mimics are considered. Which option is the most likely primary process?",
+            f"A {age}-year-old {sex} has incomplete data for {label}. Which option is most consistent once close differentials are weighed?",
+            f"Findings attributed to {label} can be misinterpreted. Which option is most correct?",
+            f"A {age}-year-old {sex} presents with {label}. Pathophysiologic reasoning is required to separate the true process from nearby alternatives. Which option is most likely?",
+            f"For a presentation dominated by {label}, which option is most accurate?",
+        ]
+        return templates[n % len(templates)]
+
+    templates = [
+        f"A {age}-year-old {sex} with multiple comorbidities develops rapidly progressive features of {label}. Initial assessment is compatible with more than one process. After synthesizing vital signs, examination, and key investigations, which option is most likely?",
+        f"In the emergency setting, a critically ill {age}-year-old {sex} shows a syndrome centered on {label}. Competing explanations remain active. Which option best accounts for the presentation?",
+        f"A deteriorating {age}-year-old {sex} has findings of {label} with incomplete data. Near-miss alternatives cannot be excluded on the first pass. Which option is the most likely primary driver?",
+        f"Overnight, a {age}-year-old {sex} worsens with {label}. Timing, risk factors, and early diagnostics favor one process over close mimics. Which option is most likely?",
+        f"A complex presentation involving {label} requires distinguishing the true driver from closely related alternatives. Which option is most likely?",
+        f"A {age}-year-old {sex} develops life-threatening features linked to {label}. Which option is most consistent with the dominant pathophysiology?",
+        f"When several closely related explanations for {label} compete, which option is most likely?",
+        f"A high-acuity presentation involving {label} is reviewed with incomplete data. Which option is most likely?",
+    ]
+    return templates[n % len(templates)]
+
+
+def explanations(
+    topic: dict,
+    correct: str,
+    mapping: dict[str, str],
+    answer_letter: str,
+) -> tuple[str, dict[str, str]]:
+    mech = clean(topic.get("mechanism", ""))
+    why_near = clean(topic.get("why_near", ""))
+    near = clean(topic["near"])
+    overall = (
+        f"{mech} Therefore, {correct} is the most coherent choice. "
+        f"{why_near or 'Nearby alternatives share overlapping features but fit less well overall.'}"
+    ).strip()
+    ce = {}
+    for L, text in mapping.items():
+        if L == answer_letter:
+            ce[L] = f"{mech} This option matches the dominant process.".strip()
+            if len(ce[L]) < 40:
+                ce[L] = f"{ce[L]} It correctly identifies: {correct}."
+        elif text.lower() == near.lower():
+            ce[L] = (
+                f"{why_near or 'This is a frequent near-miss with overlapping features.'} "
+                f"It remains less consistent than the correct option."
+            ).strip()
+        else:
+            ce[L] = (
+                "This alternative can appear on a thoughtful differential for related presentations, "
+                "but the discriminating findings align more closely with the correct option."
+            )
+        if len(ce[L]) < 40:
+            ce[L] += " Careful comparison of mechanism and clinical pattern separates it."
+    return overall, ce
+
+
+def build_specialty(field: str, specialty: str, topics: list[dict], out_path: Path) -> None:
+    rng = random.Random(f"{SEED}:{field}:{specialty}")
+    bank: dict[str, list] = {d: [] for d in DIFFICULTIES}
+    used_stems: set[str] = set()
+    letter_counts = {L: 0 for L in "ABCD"}
+
+    for difficulty in DIFFICULTIES:
+        i = 0
+        guard = 0
+        while len(bank[difficulty]) < PER_DIFF and guard < PER_DIFF * 60:
+            guard += 1
+            idx = i % len(topics)
+            topic = topics[idx]
+            stem = clean(stem_for(difficulty, topic, i, rng))
+            if not stem or BANNED.search(stem) or stem.lower() in used_stems:
+                i += 1
+                continue
+
+            related = pick_related(topics, idx, rng)
+            correct, opts, mapping, answer = build_options(topic, related, rng)
+            answer_letter = answer[0]
+            if letter_counts[answer_letter] > (sum(letter_counts.values()) / 4.0) + 4:
+                texts = [mapping[L] for L in "ABCD"]
+                rng.shuffle(texts)
+                opts, mapping = letters_options(texts)
+                answer = next(o for o in opts if o.split(") ", 1)[1] == correct)
+                answer_letter = answer[0]
+
+            overall, ce = explanations(topic, correct, mapping, answer_letter)
+            if BANNED.search(overall):
+                overall = BANNED.sub("", overall).strip()
+
+            bank[difficulty].append(
+                {
+                    "question": stem,
+                    "options": opts,
+                    "answer": answer,
+                    "explanation": overall,
+                    "choice_explanations": ce,
+                }
+            )
+            used_stems.add(stem.lower())
+            letter_counts[answer_letter] += 1
+            i += 1
+
+        if len(bank[difficulty]) < PER_DIFF:
+            raise RuntimeError(
+                f"{field}/{specialty}/{difficulty}: only {len(bank[difficulty])} questions"
+            )
+
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(json.dumps(bank, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"Wrote {out_path.relative_to(ROOT)} (120 Qs)")
 
 
 def main() -> None:
-    # Prefer rich catalogs module
-    catalog_path = ROOT / "scripts" / "question_catalogs.py"
-    if not catalog_path.exists():
-        print("WARNING: scripts/question_catalogs.py missing — generating cardiology sample only")
-        _expand_medicine()
-        bank = generate_specialty(MEDICINE["cardiology"], "medicine-cardiology")
-        write_bank(ROOT / "question_banks" / "cardiology.json", bank)
-        return
-
-    from question_catalogs import CATALOGS, FIELD_DIRS  # type: ignore
-
     for field, specialties in CATALOGS.items():
-        out_dir = ROOT / FIELD_DIRS[field]
-        for spec, concepts in specialties.items():
-            bank = generate_specialty(concepts, f"{field}-{spec}")
-            write_bank(out_dir / f"{spec}.json", bank)
-            stems = [q["question"] for qs in bank.values() for q in qs]
-            assert len(stems) == 100, (field, spec, len(stems))
-            assert len(set(s.lower().strip() for s in stems)) == 100, (field, spec, "dup stems")
-            print(f"wrote {out_dir/spec}.json ({len(stems)} unique)")
+        base = ROOT if field == "medicine" else ROOT / field
+        for specialty, topics in specialties.items():
+            if len(topics) < 30:
+                raise RuntimeError(f"{field}/{specialty}: catalog too small ({len(topics)})")
+            build_specialty(field, specialty, topics, base / "question_banks" / f"{specialty}.json")
+    print("Done.")
 
 
 if __name__ == "__main__":
