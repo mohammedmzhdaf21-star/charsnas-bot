@@ -544,7 +544,7 @@
   "medium": [
     {
       "id": "lab_qa:medium:0",
-      "question": "A 48-year-old woman has laboratory findings evaluated in the context of qA vs QC. Which of the following is most accurate?",
+      "question": "A 48-year-old man has laboratory findings evaluated in the context of qA vs QC. Which of the following is most accurate?",
       "options": [
         "A) QA and QC are identical terms always",
         "B) Quality assurance is the total system ensuring quality; QC is the control testing component",
@@ -580,7 +580,7 @@
     },
     {
       "id": "lab_qa:medium:2",
-      "question": "A 65-year-old man undergoes testing relevant to precision. Which of the following results is most consistent with the diagnosis?",
+      "question": "A 37-year-old woman undergoes testing relevant to precision. Which of the following results is most consistent with the diagnosis?",
       "options": [
         "A) Precision guarantees accuracy always",
         "B) Accuracy is identical to precision scatter only",
@@ -616,7 +616,7 @@
     },
     {
       "id": "lab_qa:medium:4",
-      "question": "A 36-year-old woman has an abnormal panel suggesting random error. Which of the following is the most likely explanation?",
+      "question": "A 68-year-old man has an abnormal panel suggesting random error. Which of the following is the most likely explanation?",
       "options": [
         "A) Systematic error is identical to random imprecision",
         "B) Bias is random scatter around the mean only",
@@ -652,7 +652,7 @@
     },
     {
       "id": "lab_qa:medium:6",
-      "question": "A 28-year-old woman is being evaluated for sensitivity analytical. Which of the following laboratory conclusions is most correct?",
+      "question": "A 62-year-old man is being evaluated for sensitivity analytical. Which of the following laboratory conclusions is most correct?",
       "options": [
         "A) Analytical sensitivity is the smallest concentration reliably detected",
         "B) Analytical sensitivity equals diagnostic specificity always",
@@ -688,7 +688,7 @@
     },
     {
       "id": "lab_qa:medium:8",
-      "question": "A 42-year-old woman has laboratory findings evaluated in the context of diagnostic sensitivity. Which of the following is most accurate?",
+      "question": "A 30-year-old man has laboratory findings evaluated in the context of diagnostic sensitivity. Which of the following is most accurate?",
       "options": [
         "A) Diagnostic sensitivity equals positive predictive value always",
         "B) Diagnostic sensitivity is true positive rate among diseased patients",
@@ -724,7 +724,7 @@
     },
     {
       "id": "lab_qa:medium:10",
-      "question": "A 51-year-old man undergoes testing relevant to PPV. Which of the following results is most consistent with the diagnosis?",
+      "question": "A 59-year-old woman undergoes testing relevant to PPV. Which of the following results is most consistent with the diagnosis?",
       "options": [
         "A) NPV falls as prevalence falls always",
         "B) PPV is independent of prevalence always",
@@ -760,7 +760,7 @@
     },
     {
       "id": "lab_qa:medium:12",
-      "question": "A 55-year-old man has an abnormal panel suggesting prevalence effect. Which of the following is the most likely explanation?",
+      "question": "A 45-year-old woman has an abnormal panel suggesting prevalence effect. Which of the following is the most likely explanation?",
       "options": [
         "A) Prevalence never affects predictive values",
         "B) PPV is independent of prevalence always",
@@ -796,7 +796,7 @@
     },
     {
       "id": "lab_qa:medium:14",
-      "question": "A 63-year-old man is being evaluated for critical values. Which of the following laboratory conclusions is most correct?",
+      "question": "A 63-year-old woman is being evaluated for critical values. Which of the following laboratory conclusions is most correct?",
       "options": [
         "A) Critical values can wait until next routine rounds always",
         "B) Critical results may be emailed without read-back always",
@@ -832,7 +832,7 @@
     },
     {
       "id": "lab_qa:medium:16",
-      "question": "A 74-year-old woman has laboratory findings evaluated in the context of levey-Jennings. Which of the following is most accurate?",
+      "question": "A 56-year-old man has laboratory findings evaluated in the context of levey-Jennings. Which of the following is most accurate?",
       "options": [
         "A) Levey-Jennings charts are patient histograms only",
         "B) Levey-Jennings charts plot QC values over time against mean and SDs",
@@ -868,7 +868,7 @@
     },
     {
       "id": "lab_qa:medium:18",
-      "question": "A 33-year-old man undergoes testing relevant to westgard 1-3s. Which of the following results is most consistent with the diagnosis?",
+      "question": "A 49-year-old woman undergoes testing relevant to westgard 1-3s. Which of the following results is most consistent with the diagnosis?",
       "options": [
         "A) 1-3s is only a warning never a reject",
         "B) 1-3s rejects a run when one control exceeds 3 SD",
@@ -904,7 +904,7 @@
     },
     {
       "id": "lab_qa:medium:20",
-      "question": "A 47-year-old man has an abnormal panel suggesting westgard R-4s. Which of the following is the most likely explanation?",
+      "question": "A 63-year-old woman has an abnormal panel suggesting westgard R-4s. Which of the following is the most likely explanation?",
       "options": [
         "A) R-4s detects random error when consecutive controls differ by 4 SD",
         "B) 2-2s detects only random error",
@@ -940,7 +940,7 @@
     },
     {
       "id": "lab_qa:medium:22",
-      "question": "A 58-year-old woman is being evaluated for westgard 10x. Which of the following laboratory conclusions is most correct?",
+      "question": "A 56-year-old man is being evaluated for westgard 10x. Which of the following laboratory conclusions is most correct?",
       "options": [
         "A) 2-2s detects only random error",
         "B) 10x indicates perfect random precision always",
@@ -976,7 +976,7 @@
     },
     {
       "id": "lab_qa:medium:24",
-      "question": "A 60-year-old woman has laboratory findings evaluated in the context of trend QC. Which of the following is most accurate?",
+      "question": "A 32-year-old man has laboratory findings evaluated in the context of trend QC. Which of the following is most accurate?",
       "options": [
         "A) A trend is a gradual continuous drift in QC values",
         "B) 10x indicates perfect random precision always",
@@ -1012,7 +1012,7 @@
     },
     {
       "id": "lab_qa:medium:26",
-      "question": "A 67-year-old man undergoes testing relevant to assayed vs unassayed QC. Which of the following results is most consistent with the diagnosis?",
+      "question": "A 39-year-old woman undergoes testing relevant to assayed vs unassayed QC. Which of the following results is most consistent with the diagnosis?",
       "options": [
         "A) Assayed QC means no lab verification is ever needed",
         "B) FDA clearance means no local verification is needed",
@@ -1048,7 +1048,7 @@
     },
     {
       "id": "lab_qa:medium:28",
-      "question": "A 45-year-old man has an abnormal panel suggesting external PT. Which of the following is the most likely explanation?",
+      "question": "A 31-year-old woman has an abnormal panel suggesting external PT. Which of the following is the most likely explanation?",
       "options": [
         "A) Split samples are only for PT surveys never internal checks",
         "B) External PT replaces daily internal QC",
@@ -1086,7 +1086,7 @@
   "hard": [
     {
       "id": "lab_qa:hard:0",
-      "question": "A 43-year-old man presents with findings that could fit more than one process often confused with qA vs QC. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "A 48-year-old man presents with findings that could fit more than one process often confused with qA vs QC. Based on history, examination, and initial tests, which of the following is most likely?",
       "options": [
         "A) QA and QC are identical terms always",
         "B) Blind QC is identical to assayed QC with open charts always",
@@ -1104,7 +1104,7 @@
     },
     {
       "id": "lab_qa:hard:1",
-      "question": "A 48-year-old woman is hospitalized with evolving features of accuracy. A common mimic remains possible. Which of the following is most likely?",
+      "question": "A 55-year-old woman is hospitalized with evolving features of accuracy. A common mimic remains possible. Which of the following is most likely?",
       "options": [
         "A) Precision guarantees accuracy always",
         "B) Accuracy is closeness to the true value",
@@ -1122,7 +1122,7 @@
     },
     {
       "id": "lab_qa:hard:2",
-      "question": "A 54-year-old woman with several comorbidities is evaluated for precision. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "A 37-year-old woman is evaluated for precision. Which of the following is favored after comparison with frequent look-alikes?",
       "options": [
         "A) 10x indicates perfect random precision always",
         "B) Precision is reproducibility of repeated measurements",
@@ -1140,7 +1140,7 @@
     },
     {
       "id": "lab_qa:hard:3",
-      "question": "A 54-year-old woman is evaluated for suspected bias. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "A 31-year-old woman is evaluated for suspected bias. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
       "options": [
         "A) Systematic error is identical to random imprecision",
         "B) Bias is random scatter around the mean only",
@@ -1176,7 +1176,7 @@
     },
     {
       "id": "lab_qa:hard:5",
-      "question": "A 36-year-old woman presents with systematic error. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "A 67-year-old woman presents with systematic error. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
       "options": [
         "A) Systematic error causes bias in a consistent direction",
         "B) Random error is a constant shift in one direction only",
@@ -1194,7 +1194,7 @@
     },
     {
       "id": "lab_qa:hard:6",
-      "question": "A complex case of sensitivity analytical is reviewed on rounds. Which of the following is most accurate?",
+      "question": "A complex case of sensitivity analytical involving a 62-year-old man is reviewed on rounds. Which of the following is most accurate?",
       "options": [
         "A) Diagnostic sensitivity equals positive predictive value always",
         "B) Analytical sensitivity is the smallest concentration reliably detected",
@@ -1212,7 +1212,7 @@
     },
     {
       "id": "lab_qa:hard:7",
-      "question": "A 52-year-old woman has progressive abnormalities attributed to specificity analytical. Which of the following is most consistent with the clinical process?",
+      "question": "A 69-year-old woman has progressive abnormalities attributed to specificity analytical. Which of the following is most consistent with the clinical process?",
       "options": [
         "A) Analytical specificity is freedom from interference by other substances",
         "B) Analytical specificity equals clinical sensitivity",
@@ -1230,7 +1230,7 @@
     },
     {
       "id": "lab_qa:hard:8",
-      "question": "A 57-year-old man presents with findings that could fit more than one process often confused with diagnostic sensitivity. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "A 30-year-old man presents with findings that could fit more than one process often confused with diagnostic sensitivity. Based on history, examination, and initial tests, which of the following is most likely?",
       "options": [
         "A) Diagnostic sensitivity equals positive predictive value always",
         "B) Diagnostic specificity equals negative predictive value always",
@@ -1248,7 +1248,7 @@
     },
     {
       "id": "lab_qa:hard:9",
-      "question": "A 62-year-old woman is hospitalized with evolving features of diagnostic specificity. A common mimic remains possible. Which of the following is most likely?",
+      "question": "A 37-year-old woman is hospitalized with evolving features of diagnostic specificity. A common mimic remains possible. Which of the following is most likely?",
       "options": [
         "A) Analytical sensitivity equals diagnostic specificity always",
         "B) Diagnostic sensitivity equals positive predictive value always",
@@ -1266,7 +1266,7 @@
     },
     {
       "id": "lab_qa:hard:10",
-      "question": "A 48-year-old woman with several comorbidities is evaluated for PPV. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "A 59-year-old woman is evaluated for PPV. Which of the following is favored after comparison with frequent look-alikes?",
       "options": [
         "A) PPV is independent of prevalence always",
         "B) Diagnostic sensitivity equals positive predictive value always",
@@ -1284,7 +1284,7 @@
     },
     {
       "id": "lab_qa:hard:11",
-      "question": "A 53-year-old man is evaluated for suspected NPV. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "A 66-year-old man is evaluated for suspected NPV. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
       "options": [
         "A) NPV falls as prevalence falls always",
         "B) PPV is independent of prevalence always",
@@ -1320,7 +1320,7 @@
     },
     {
       "id": "lab_qa:hard:13",
-      "question": "A 38-year-old woman presents with reference interval. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "A 27-year-old woman presents with reference interval. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
       "options": [
         "A) AMR equals the reference interval always",
         "B) TEA is identical to the reference interval width",
@@ -1338,7 +1338,7 @@
     },
     {
       "id": "lab_qa:hard:14",
-      "question": "A complex case of critical values is reviewed on rounds. Which of the following is most accurate?",
+      "question": "A complex case of critical values involving a 63-year-old woman is reviewed on rounds. Which of the following is most accurate?",
       "options": [
         "A) Critical values require rapid clinician notification per policy",
         "B) New lots can be used without checks if packaging looks fine",
@@ -1356,7 +1356,7 @@
     },
     {
       "id": "lab_qa:hard:15",
-      "question": "A 41-year-old man has progressive abnormalities attributed to delta check. Which of the following is most consistent with the clinical process?",
+      "question": "A 32-year-old man has progressive abnormalities attributed to delta check. Which of the following is most consistent with the clinical process?",
       "options": [
         "A) Delta checks flag unexpected changes from prior patient results",
         "B) Patient averages cannot detect analytical shifts",
@@ -1374,7 +1374,7 @@
     },
     {
       "id": "lab_qa:hard:16",
-      "question": "A 49-year-old man presents with findings that could fit more than one process often confused with levey-Jennings. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "A 56-year-old man presents with findings that could fit more than one process often confused with levey-Jennings. Based on history, examination, and initial tests, which of the following is most likely?",
       "options": [
         "A) Levey-Jennings charts are patient histograms only",
         "B) Blind QC is identical to assayed QC with open charts always",
@@ -1392,7 +1392,7 @@
     },
     {
       "id": "lab_qa:hard:17",
-      "question": "A 53-year-old man is hospitalized with evolving features of westgard 1-2s. A common mimic remains possible. Which of the following is most likely?",
+      "question": "A 42-year-old man is hospitalized with evolving features of westgard 1-2s. A common mimic remains possible. Which of the following is most likely?",
       "options": [
         "A) 10x indicates perfect random precision always",
         "B) 1-2s is always a hard reject without review",
@@ -1410,7 +1410,7 @@
     },
     {
       "id": "lab_qa:hard:18",
-      "question": "A 58-year-old woman with several comorbidities is evaluated for westgard 1-3s. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "A 49-year-old woman is evaluated for westgard 1-3s. Which of the following is favored after comparison with frequent look-alikes?",
       "options": [
         "A) 1-2s is always a hard reject without review",
         "B) QC materials should never include medical decision levels",
@@ -1428,7 +1428,7 @@
     },
     {
       "id": "lab_qa:hard:19",
-      "question": "A 63-year-old man is evaluated for suspected westgard 2-2s. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "A 56-year-old man is evaluated for suspected westgard 2-2s. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
       "options": [
         "A) 2-2s detects only random error",
         "B) 2-2s detects systematic error when two consecutive controls exceed 2 SD same side",
@@ -1464,7 +1464,7 @@
     },
     {
       "id": "lab_qa:hard:21",
-      "question": "A 73-year-old man presents with westgard 4-1s. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "A 70-year-old man presents with westgard 4-1s. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
       "options": [
         "A) CRR is always narrower than AMR by definition",
         "B) 4-1s flags four consecutive controls beyond 1 SD same side suggesting drift",
@@ -1482,7 +1482,7 @@
     },
     {
       "id": "lab_qa:hard:22",
-      "question": "A complex case of westgard 10x is reviewed on rounds. Which of the following is most accurate?",
+      "question": "A complex case of westgard 10x involving a 56-year-old man is reviewed on rounds. Which of the following is most accurate?",
       "options": [
         "A) 10x indicates perfect random precision always",
         "B) 2-2s detects only random error",
@@ -1500,7 +1500,7 @@
     },
     {
       "id": "lab_qa:hard:23",
-      "question": "A 38-year-old woman has progressive abnormalities attributed to shift QC. Which of the following is most consistent with the clinical process?",
+      "question": "A 25-year-old woman has progressive abnormalities attributed to shift QC. Which of the following is most consistent with the clinical process?",
       "options": [
         "A) A shift is a sudden sustained change in QC level",
         "B) Random error is a constant shift in one direction only",
@@ -1518,7 +1518,7 @@
     },
     {
       "id": "lab_qa:hard:24",
-      "question": "A 43-year-old man presents with findings that could fit more than one process often confused with trend QC. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "A 32-year-old man presents with findings that could fit more than one process often confused with trend QC. Based on history, examination, and initial tests, which of the following is most likely?",
       "options": [
         "A) A trend is a gradual continuous drift in QC values",
         "B) A shift is identical to increased random scatter only",
@@ -1536,7 +1536,7 @@
     },
     {
       "id": "lab_qa:hard:25",
-      "question": "A 57-year-old man is hospitalized with evolving features of control materials. A common mimic remains possible. Which of the following is most likely?",
+      "question": "A 44-year-old man is hospitalized with evolving features of control materials. A common mimic remains possible. Which of the following is most likely?",
       "options": [
         "A) CRR is always narrower than AMR by definition",
         "B) QC materials should mimic patient matrix and cover clinically relevant levels",
@@ -1554,7 +1554,7 @@
     },
     {
       "id": "lab_qa:hard:26",
-      "question": "A 68-year-old woman with several comorbidities is evaluated for assayed vs unassayed QC. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "A 39-year-old woman is evaluated for assayed vs unassayed QC. Which of the following is favored after comparison with frequent look-alikes?",
       "options": [
         "A) Assayed QC has manufacturer means; labs still verify; unassayed needs in-lab assignment",
         "B) FDA clearance means no local verification is needed",
@@ -1572,7 +1572,7 @@
     },
     {
       "id": "lab_qa:hard:27",
-      "question": "A 61-year-old man is evaluated for suspected internal QC. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "A 70-year-old man is evaluated for suspected internal QC. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
       "options": [
         "A) New lots can be used without checks if packaging looks fine",
         "B) Internal QC is external proficiency testing from CAP only",
@@ -1608,7 +1608,7 @@
     },
     {
       "id": "lab_qa:hard:29",
-      "question": "A 63-year-old man presents with AMR. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "A 54-year-old man presents with AMR. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
       "options": [
         "A) Analytical measurement range is the range reportable without dilution where method is linear",
         "B) AMR equals the reference interval always",
@@ -1628,7 +1628,7 @@
   "extreme": [
     {
       "id": "lab_qa:extreme:0",
-      "question": "A 56-year-old woman with diabetes, hypertension, and chronic kidney disease develops rapidly worsening features of qA vs QC. Vital signs are unstable. Which of the following is most likely?",
+      "question": "A 48-year-old man develops rapidly worsening features of qA vs QC. Vital signs are unstable. Which of the following is most likely?",
       "options": [
         "A) Blind QC is identical to assayed QC with open charts always",
         "B) QA and QC are identical terms always",
@@ -1646,7 +1646,7 @@
     },
     {
       "id": "lab_qa:extreme:1",
-      "question": "In the emergency department, a 59-year-old man is critically ill with a syndrome centered on accuracy. Which of the following is most likely?",
+      "question": "In the emergency department, a 55-year-old woman is critically ill with a syndrome centered on accuracy. Which of the following is most likely?",
       "options": [
         "A) Accuracy is identical to precision scatter only",
         "B) Accuracy is closeness to the true value",
@@ -1664,7 +1664,7 @@
     },
     {
       "id": "lab_qa:extreme:2",
-      "question": "A 63-year-old man deteriorates overnight with precision. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "A 37-year-old woman deteriorates overnight with precision. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
       "options": [
         "A) Precision is reproducibility of repeated measurements",
         "B) Precision guarantees accuracy always",
@@ -1682,7 +1682,7 @@
     },
     {
       "id": "lab_qa:extreme:3",
-      "question": "A 61-year-old man develops life-threatening complications in the setting of bias. Which of the following is most consistent with the clinical process?",
+      "question": "A 31-year-old woman develops life-threatening complications in the setting of bias. Which of the following is most consistent with the clinical process?",
       "options": [
         "A) R-4s detects only systematic bias",
         "B) Bias is systematic error shifting results away from truth",
@@ -1700,7 +1700,7 @@
     },
     {
       "id": "lab_qa:extreme:4",
-      "question": "A rapidly progressive presentation of random error is reviewed with more than one plausible explanation. Which of the following is most likely?",
+      "question": "A rapidly progressive presentation of random error is reviewed in a 68-year-old man. Which of the following is most likely?",
       "options": [
         "A) Random error is a constant shift in one direction only",
         "B) Random error causes imprecision and unpredictable scatter",
@@ -1718,7 +1718,7 @@
     },
     {
       "id": "lab_qa:extreme:5",
-      "question": "A 49-year-old man requires urgent decision-making for systematic error. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "A 67-year-old woman requires urgent decision-making for systematic error. Incorrect attribution would change management substantially. Which of the following is most likely?",
       "options": [
         "A) Random error is a constant shift in one direction only",
         "B) Bias is random scatter around the mean only",
@@ -1736,7 +1736,7 @@
     },
     {
       "id": "lab_qa:extreme:6",
-      "question": "A 58-year-old woman has refractory abnormalities due to sensitivity analytical. Which of the following is the most accurate interpretation?",
+      "question": "A 62-year-old man has refractory abnormalities due to sensitivity analytical. Which of the following is the most accurate interpretation?",
       "options": [
         "A) Diagnostic sensitivity equals positive predictive value always",
         "B) Analytical sensitivity equals diagnostic specificity always",
@@ -1754,7 +1754,7 @@
     },
     {
       "id": "lab_qa:extreme:7",
-      "question": "A critical-care presentation involving specificity analytical is discussed. Which of the following is most likely?",
+      "question": "A critical-care presentation involving specificity analytical in a 69-year-old woman is discussed. Which of the following is most likely?",
       "options": [
         "A) Diagnostic sensitivity equals positive predictive value always",
         "B) Analytical specificity is freedom from interference by other substances",
@@ -1772,7 +1772,7 @@
     },
     {
       "id": "lab_qa:extreme:8",
-      "question": "A 64-year-old woman with diabetes, hypertension, and chronic kidney disease develops rapidly worsening features of diagnostic sensitivity. Vital signs are unstable. Which of the following is most likely?",
+      "question": "A 30-year-old man develops rapidly worsening features of diagnostic sensitivity. Vital signs are unstable. Which of the following is most likely?",
       "options": [
         "A) Analytical sensitivity equals diagnostic specificity always",
         "B) Diagnostic sensitivity equals positive predictive value always",
@@ -1790,7 +1790,7 @@
     },
     {
       "id": "lab_qa:extreme:9",
-      "question": "In the emergency department, a 67-year-old man is critically ill with a syndrome centered on diagnostic specificity. Which of the following is most likely?",
+      "question": "In the emergency department, a 37-year-old woman is critically ill with a syndrome centered on diagnostic specificity. Which of the following is most likely?",
       "options": [
         "A) Diagnostic specificity is true negative rate among nondiseased",
         "B) Diagnostic specificity equals negative predictive value always",
@@ -1808,7 +1808,7 @@
     },
     {
       "id": "lab_qa:extreme:10",
-      "question": "A 51-year-old man deteriorates overnight with PPV. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "A 59-year-old woman deteriorates overnight with PPV. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
       "options": [
         "A) NPV falls as prevalence falls always",
         "B) Prevalence never affects predictive values",
@@ -1826,7 +1826,7 @@
     },
     {
       "id": "lab_qa:extreme:11",
-      "question": "A 54-year-old woman develops life-threatening complications in the setting of NPV. Which of the following is most consistent with the clinical process?",
+      "question": "A 66-year-old man with diabetes and hypertension develops life-threatening complications in the setting of NPV. Which of the following is most consistent with the clinical process?",
       "options": [
         "A) NPV is the probability disease is absent given a negative test",
         "B) Diagnostic specificity equals negative predictive value always",
@@ -1844,7 +1844,7 @@
     },
     {
       "id": "lab_qa:extreme:12",
-      "question": "A rapidly progressive presentation of prevalence effect is reviewed with more than one plausible explanation. Which of the following is most likely?",
+      "question": "A rapidly progressive presentation of prevalence effect is reviewed in a 45-year-old woman. Which of the following is most likely?",
       "options": [
         "A) PPV is independent of prevalence always",
         "B) Prevalence strongly affects PPV and NPV",
@@ -1862,7 +1862,7 @@
     },
     {
       "id": "lab_qa:extreme:13",
-      "question": "A 75-year-old man requires urgent decision-making for reference interval. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "A 27-year-old woman requires urgent decision-making for reference interval. Incorrect attribution would change management substantially. Which of the following is most likely?",
       "options": [
         "A) AMR equals the reference interval always",
         "B) Reference intervals are always therapeutic drug ranges",
@@ -1880,7 +1880,7 @@
     },
     {
       "id": "lab_qa:extreme:14",
-      "question": "A 75-year-old man has refractory abnormalities due to critical values. Which of the following is the most accurate interpretation?",
+      "question": "A 63-year-old woman has refractory abnormalities due to critical values. Which of the following is the most accurate interpretation?",
       "options": [
         "A) Critical results may be emailed without read-back always",
         "B) Critical values require rapid clinician notification per policy",
@@ -1898,7 +1898,7 @@
     },
     {
       "id": "lab_qa:extreme:15",
-      "question": "A critical-care presentation involving delta check is discussed. Which of the following is most likely?",
+      "question": "A critical-care presentation involving delta check in a 32-year-old man is discussed. Which of the following is most likely?",
       "options": [
         "A) New lots can be used without checks if packaging looks fine",
         "B) Delta checks replace all QC materials",
@@ -1916,7 +1916,7 @@
     },
     {
       "id": "lab_qa:extreme:16",
-      "question": "A 50-year-old woman with diabetes, hypertension, and chronic kidney disease develops rapidly worsening features of levey-Jennings. Vital signs are unstable. Which of the following is most likely?",
+      "question": "A 56-year-old man with diabetes and hypertension develops rapidly worsening features of levey-Jennings. Vital signs are unstable. Which of the following is most likely?",
       "options": [
         "A) Levey-Jennings charts are patient histograms only",
         "B) New lots can be used without checks if packaging looks fine",
@@ -1934,7 +1934,7 @@
     },
     {
       "id": "lab_qa:extreme:17",
-      "question": "In the emergency department, a 52-year-old woman is critically ill with a syndrome centered on westgard 1-2s. Which of the following is most likely?",
+      "question": "In the emergency department, a 42-year-old man is critically ill with a syndrome centered on westgard 1-2s. Which of the following is most likely?",
       "options": [
         "A) 1-2s warning rule flags one control beyond 2 SD",
         "B) 1-2s is always a hard reject without review",
@@ -1952,7 +1952,7 @@
     },
     {
       "id": "lab_qa:extreme:18",
-      "question": "A 55-year-old man deteriorates overnight with westgard 1-3s. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "A 49-year-old woman deteriorates overnight with westgard 1-3s. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
       "options": [
         "A) 1-2s is always a hard reject without review",
         "B) 1-3s rejects a run when one control exceeds 3 SD",
@@ -1970,7 +1970,7 @@
     },
     {
       "id": "lab_qa:extreme:19",
-      "question": "A 58-year-old woman develops life-threatening complications in the setting of westgard 2-2s. Which of the following is most consistent with the clinical process?",
+      "question": "A 56-year-old man with diabetes and hypertension develops life-threatening complications in the setting of westgard 2-2s. Which of the following is most consistent with the clinical process?",
       "options": [
         "A) 2-2s detects only random error",
         "B) 4-1s is unrelated to systematic drift",
@@ -1988,7 +1988,7 @@
     },
     {
       "id": "lab_qa:extreme:20",
-      "question": "A rapidly progressive presentation of westgard R-4s is reviewed with more than one plausible explanation. Which of the following is most likely?",
+      "question": "A rapidly progressive presentation of westgard R-4s is reviewed in a 63-year-old woman. Which of the following is most likely?",
       "options": [
         "A) 2-2s detects only random error",
         "B) R-4s detects random error when consecutive controls differ by 4 SD",
@@ -2006,7 +2006,7 @@
     },
     {
       "id": "lab_qa:extreme:21",
-      "question": "A 64-year-old woman requires urgent decision-making for westgard 4-1s. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "A 70-year-old man requires urgent decision-making for westgard 4-1s. Incorrect attribution would change management substantially. Which of the following is most likely?",
       "options": [
         "A) 4-1s flags four consecutive controls beyond 1 SD same side suggesting drift",
         "B) CRR is always narrower than AMR by definition",
@@ -2024,7 +2024,7 @@
     },
     {
       "id": "lab_qa:extreme:22",
-      "question": "A 66-year-old woman has refractory abnormalities due to westgard 10x. Which of the following is the most accurate interpretation?",
+      "question": "A 56-year-old man has refractory abnormalities due to westgard 10x. Which of the following is the most accurate interpretation?",
       "options": [
         "A) 1-2s is always a hard reject without review",
         "B) 10x rule flags ten consecutive controls on one side of the mean",
@@ -2042,7 +2042,7 @@
     },
     {
       "id": "lab_qa:extreme:23",
-      "question": "A critical-care presentation involving shift QC is discussed. Which of the following is most likely?",
+      "question": "A critical-care presentation involving shift QC in a 25-year-old woman is discussed. Which of the following is most likely?",
       "options": [
         "A) A shift is identical to increased random scatter only",
         "B) Random error is a constant shift in one direction only",
@@ -2060,7 +2060,7 @@
     },
     {
       "id": "lab_qa:extreme:24",
-      "question": "A 68-year-old woman with diabetes, hypertension, and chronic kidney disease develops rapidly worsening features of trend QC. Vital signs are unstable. Which of the following is most likely?",
+      "question": "A 32-year-old man develops rapidly worsening features of trend QC. Vital signs are unstable. Which of the following is most likely?",
       "options": [
         "A) 10x indicates perfect random precision always",
         "B) A trend is a single random outlier only",
@@ -2078,7 +2078,7 @@
     },
     {
       "id": "lab_qa:extreme:25",
-      "question": "In the emergency department, a 50-year-old woman is critically ill with a syndrome centered on control materials. Which of the following is most likely?",
+      "question": "In the emergency department, a 44-year-old man is critically ill with a syndrome centered on control materials. Which of the following is most likely?",
       "options": [
         "A) CRR is always narrower than AMR by definition",
         "B) QC materials should mimic patient matrix and cover clinically relevant levels",
@@ -2096,7 +2096,7 @@
     },
     {
       "id": "lab_qa:extreme:26",
-      "question": "A 59-year-old man deteriorates overnight with assayed vs unassayed QC. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "A 39-year-old woman deteriorates overnight with assayed vs unassayed QC. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
       "options": [
         "A) Waived tests need no instructions or QC ever",
         "B) Assayed QC has manufacturer means; labs still verify; unassayed needs in-lab assignment",
@@ -2114,7 +2114,7 @@
     },
     {
       "id": "lab_qa:extreme:27",
-      "question": "A 50-year-old woman develops life-threatening complications in the setting of internal QC. Which of the following is most consistent with the clinical process?",
+      "question": "A 70-year-old man with diabetes and hypertension develops life-threatening complications in the setting of internal QC. Which of the following is most consistent with the clinical process?",
       "options": [
         "A) External PT replaces daily internal QC",
         "B) New lots can be used without checks if packaging looks fine",
@@ -2132,7 +2132,7 @@
     },
     {
       "id": "lab_qa:extreme:28",
-      "question": "A rapidly progressive presentation of external PT is reviewed with more than one plausible explanation. Which of the following is most likely?",
+      "question": "A rapidly progressive presentation of external PT is reviewed in a 31-year-old woman. Which of the following is most likely?",
       "options": [
         "A) External proficiency testing compares lab results to peers/reference",
         "B) External PT replaces daily internal QC",
@@ -2150,7 +2150,7 @@
     },
     {
       "id": "lab_qa:extreme:29",
-      "question": "A 48-year-old woman requires urgent decision-making for AMR. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "A 54-year-old man requires urgent decision-making for AMR. Incorrect attribution would change management substantially. Which of the following is most likely?",
       "options": [
         "A) CRR is always narrower than AMR by definition",
         "B) AMR equals the reference interval always",
