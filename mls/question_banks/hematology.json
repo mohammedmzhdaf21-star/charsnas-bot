@@ -1,0 +1,2170 @@
+{
+  "easy": [
+    {
+      "id": "hematology:easy:0",
+      "question": "Which of the following is true of adult male hemoglobin reference?",
+      "options": [
+        "A) Adult female hemoglobin is typically about 17–20 g/dL as the routine normal",
+        "B) Hemoglobin always drops maximally within minutes of acute bleeding before fluids",
+        "C) Adult male hemoglobin is typically about 13.5–17.5 g/dL",
+        "D) Adult male hemoglobin is typically about 10–12 g/dL as the normal band"
+      ],
+      "answer": "C) Adult male hemoglobin is typically about 13.5–17.5 g/dL",
+      "explanation": "Circulating RBC hemoglobin defines the g/dL CBC reference interval. Therefore, the most accurate choice is: Adult male hemoglobin is typically about 13.5–17.5 g/dL. 10–12 g/dL is anemic for most adult males, not the usual normal range.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Circulating RBC hemoglobin defines the g/dL CBC reference interval. This matches the correct interpretation.",
+        "D": "10–12 g/dL is anemic for most adult males, not the usual normal range. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:easy:1",
+      "question": "Which finding is expected in adult female hemoglobin reference?",
+      "options": [
+        "A) Adult male hemoglobin is typically about 10–12 g/dL as the normal band",
+        "B) Adult female hemoglobin is typically about 17–20 g/dL as the routine normal",
+        "C) β-thalassemia major is asymptomatic trait with normal hemoglobin always",
+        "D) Adult female hemoglobin is typically about 12.0–15.5 g/dL"
+      ],
+      "answer": "D) Adult female hemoglobin is typically about 12.0–15.5 g/dL",
+      "explanation": "Sex-specific RBC mass sets slightly lower female hemoglobin limits. Therefore, the most accurate choice is: Adult female hemoglobin is typically about 12.0–15.5 g/dL. 17–20 g/dL is high for females and suggests polycythemia.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "17–20 g/dL is high for females and suggests polycythemia. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Sex-specific RBC mass sets slightly lower female hemoglobin limits. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:easy:2",
+      "question": "Which statement regarding hematocrit is correct?",
+      "options": [
+        "A) Elevated RDW means all RBCs are identical in size by definition",
+        "B) Hematocrit is the packed red-cell volume fraction of whole blood",
+        "C) ITP is primary marrow failure of all cell lines by definition",
+        "D) Hematocrit is the absolute neutrophil count in peripheral blood"
+      ],
+      "answer": "B) Hematocrit is the packed red-cell volume fraction of whole blood",
+      "explanation": "Hct reflects RBC volume percent of blood. Therefore, the most accurate choice is: Hematocrit is the packed red-cell volume fraction of whole blood. ANC is a white-cell metric, not red-cell volume fraction.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Hct reflects RBC volume percent of blood. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "ANC is a white-cell metric, not red-cell volume fraction. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:easy:3",
+      "question": "In clinical examination related to MCV microcytosis, which of the following is correct?",
+      "options": [
+        "A) Low MCV indicates microcytic RBCs such as iron deficiency or thalassemia",
+        "B) Elevated RDW means all RBCs are identical in size by definition",
+        "C) High MCV always means iron deficiency as the defining pattern",
+        "D) Low MCV indicates macrocytic RBCs from B12 deficiency as the definition"
+      ],
+      "answer": "A) Low MCV indicates microcytic RBCs such as iron deficiency or thalassemia",
+      "explanation": "Mean corpuscular volume falls when average RBC size shrinks. Therefore, the most accurate choice is: Low MCV indicates microcytic RBCs such as iron deficiency or thalassemia. B12/folate deficiency raises MCV; it does not define low MCV.",
+      "choice_explanations": {
+        "A": "Mean corpuscular volume falls when average RBC size shrinks. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "B12/folate deficiency raises MCV; it does not define low MCV. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:easy:4",
+      "question": "Which of the following best describes MCV macrocytosis?",
+      "options": [
+        "A) High MCV always means iron deficiency as the defining pattern",
+        "B) High MCV indicates macrocytic RBCs such as B12/folate deficiency or MDS",
+        "C) Elevated RDW means all RBCs are identical in size by definition",
+        "D) Low MCV indicates macrocytic RBCs from B12 deficiency as the definition"
+      ],
+      "answer": "B) High MCV indicates macrocytic RBCs such as B12/folate deficiency or MDS",
+      "explanation": "Increased average RBC volume elevates MCV. Therefore, the most accurate choice is: High MCV indicates macrocytic RBCs such as B12/folate deficiency or MDS. Iron deficiency typically lowers MCV.",
+      "choice_explanations": {
+        "A": "Iron deficiency typically lowers MCV. It is less consistent than the correct choice.",
+        "B": "Increased average RBC volume elevates MCV. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:easy:5",
+      "question": "Select the correct statement about MCHC hypochromia.",
+      "options": [
+        "A) Low MCHC reflects decreased hemoglobin concentration within RBCs",
+        "B) HS shows target cells with low MCHC as the defining triad",
+        "C) Low MCV indicates macrocytic RBCs from B12 deficiency as the definition",
+        "D) Low MCHC defines leukocytosis by itself"
+      ],
+      "answer": "A) Low MCHC reflects decreased hemoglobin concentration within RBCs",
+      "explanation": "MCHC estimates average Hb concentration in RBCs. Therefore, the most accurate choice is: Low MCHC reflects decreased hemoglobin concentration within RBCs. Leukocytosis is a WBC finding, not low MCHC.",
+      "choice_explanations": {
+        "A": "MCHC estimates average Hb concentration in RBCs. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Leukocytosis is a WBC finding, not low MCHC. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:easy:6",
+      "question": "Which of the following applies to RDW anisocytosis?",
+      "options": [
+        "A) Low MCV indicates macrocytic RBCs from B12 deficiency as the definition",
+        "B) Elevated RDW means all RBCs are identical in size by definition",
+        "C) Elevated RDW indicates increased RBC size variation (anisocytosis)",
+        "D) High MCV always means iron deficiency as the defining pattern"
+      ],
+      "answer": "C) Elevated RDW indicates increased RBC size variation (anisocytosis)",
+      "explanation": "RDW quantifies heterogeneity of RBC volumes. Therefore, the most accurate choice is: Elevated RDW indicates increased RBC size variation (anisocytosis). Identical sizes produce low/normal RDW.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Identical sizes produce low/normal RDW. It is less consistent than the correct choice.",
+        "C": "RDW quantifies heterogeneity of RBC volumes. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:easy:7",
+      "question": "Which of the following applies to reticulocyte response?",
+      "options": [
+        "A) Aplastic anemia shows panhypercellular marrow with high blood counts",
+        "B) Hemoglobin always drops maximally within minutes of acute bleeding before fluids",
+        "C) Elevated reticulocytes always prove marrow aplasia",
+        "D) Elevated reticulocytes indicate marrow response to anemia or blood loss"
+      ],
+      "answer": "D) Elevated reticulocytes indicate marrow response to anemia or blood loss",
+      "explanation": "Young RBCs rise when erythropoiesis increases. Therefore, the most accurate choice is: Elevated reticulocytes indicate marrow response to anemia or blood loss. Aplasia reduces reticulocytes.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Aplasia reduces reticulocytes. It is less consistent than the correct choice.",
+        "D": "Young RBCs rise when erythropoiesis increases. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:easy:8",
+      "question": "Which of the following is true of iron deficiency labs?",
+      "options": [
+        "A) Iron deficiency typically shows high ferritin with low TIBC as the classic triad",
+        "B) ACD classically shows high TIBC with very low ferritin like iron deficiency",
+        "C) Hemochromatosis shows low ferritin and high TIBC like iron deficiency",
+        "D) Iron deficiency typically shows low ferritin, low serum iron, and high TIBC"
+      ],
+      "answer": "D) Iron deficiency typically shows low ferritin, low serum iron, and high TIBC",
+      "explanation": "Depleted stores lower ferritin/iron while TIBC rises. Therefore, the most accurate choice is: Iron deficiency typically shows low ferritin, low serum iron, and high TIBC. High ferritin/low TIBC fits anemia of chronic disease.",
+      "choice_explanations": {
+        "A": "High ferritin/low TIBC fits anemia of chronic disease. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Depleted stores lower ferritin/iron while TIBC rises. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:easy:9",
+      "question": "Which finding is expected in anemia of chronic disease?",
+      "options": [
+        "A) ACD classically shows high TIBC with very low ferritin like iron deficiency",
+        "B) ACD often shows low serum iron, low/normal TIBC, and normal/high ferritin",
+        "C) Hemochromatosis shows low ferritin and high TIBC like iron deficiency",
+        "D) Iron deficiency typically shows high ferritin with low TIBC as the classic triad"
+      ],
+      "answer": "B) ACD often shows low serum iron, low/normal TIBC, and normal/high ferritin",
+      "explanation": "Hepcidin-mediated sequestration conserves stores so ferritin is not low. Therefore, the most accurate choice is: ACD often shows low serum iron, low/normal TIBC, and normal/high ferritin. Very low ferritin with high TIBC points to iron deficiency.",
+      "choice_explanations": {
+        "A": "Very low ferritin with high TIBC points to iron deficiency. It is less consistent than the correct choice.",
+        "B": "Hepcidin-mediated sequestration conserves stores so ferritin is not low. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:easy:10",
+      "question": "Which of the following statements about b12 deficiency anemia is correct?",
+      "options": [
+        "A) B12 deficiency causes microcytic hypochromic anemia like iron deficiency",
+        "B) Chronic blood loss typically causes B12 megaloblastic anemia first",
+        "C) B12 deficiency causes megaloblastic macrocytic anemia with hypersegmented neutrophils",
+        "D) Low MCV indicates macrocytic RBCs from B12 deficiency as the definition"
+      ],
+      "answer": "C) B12 deficiency causes megaloblastic macrocytic anemia with hypersegmented neutrophils",
+      "explanation": "Impaired DNA synthesis yields large RBCs and neutrophil hypersegmentation. Therefore, the most accurate choice is: B12 deficiency causes megaloblastic macrocytic anemia with hypersegmented neutrophils. Microcytic hypochromic anemia is iron/thalassemia territory.",
+      "choice_explanations": {
+        "A": "Microcytic hypochromic anemia is iron/thalassemia territory. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Impaired DNA synthesis yields large RBCs and neutrophil hypersegmentation. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:easy:11",
+      "question": "In folate vs B12 neuropathy, which of the following is correct?",
+      "options": [
+        "A) B12 deficiency causes microcytic hypochromic anemia like iron deficiency",
+        "B) Chronic blood loss typically causes B12 megaloblastic anemia first",
+        "C) Folate deficiency uniquely causes subacute combined degeneration as its hallmark",
+        "D) Folate deficiency causes megaloblastic anemia without classic B12 neuropathy"
+      ],
+      "answer": "D) Folate deficiency causes megaloblastic anemia without classic B12 neuropathy",
+      "explanation": "Both cause megaloblastic anemia; SCD neuropathy is characteristically B12-related. Therefore, the most accurate choice is: Folate deficiency causes megaloblastic anemia without classic B12 neuropathy. Subacute combined degeneration is the classic B12 neurologic syndrome.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Subacute combined degeneration is the classic B12 neurologic syndrome. It is less consistent than the correct choice.",
+        "D": "Both cause megaloblastic anemia; SCD neuropathy is characteristically B12-related. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:easy:12",
+      "question": "Which of the following best describes thalassemia trait CBC?",
+      "options": [
+        "A) ACD classically shows high TIBC with very low ferritin like iron deficiency",
+        "B) Thalassemia trait often shows marked microcytosis with relatively preserved RBC count",
+        "C) Low MCV indicates macrocytic RBCs from B12 deficiency as the definition",
+        "D) Thalassemia trait shows macrocytosis with very high MCV as the usual clue"
+      ],
+      "answer": "B) Thalassemia trait often shows marked microcytosis with relatively preserved RBC count",
+      "explanation": "Globin imbalance shrinks RBCs while RBC count often stays relatively high. Therefore, the most accurate choice is: Thalassemia trait often shows marked microcytosis with relatively preserved RBC count. Macrocytosis is not the typical thalassemia-trait pattern.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Globin imbalance shrinks RBCs while RBC count often stays relatively high. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Macrocytosis is not the typical thalassemia-trait pattern. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:easy:13",
+      "question": "Select the correct statement about sickle cell Hb S.",
+      "options": [
+        "A) Sickle cell disease is caused by excess HbA2 alone without HbS",
+        "B) Sickle solubility testing alone fully subtypes all hemoglobinopathies",
+        "C) Increased osmotic fragility specifically diagnoses sickle cell disease",
+        "D) Sickle cell disease features HbS polymerization under deoxygenation"
+      ],
+      "answer": "D) Sickle cell disease features HbS polymerization under deoxygenation",
+      "explanation": "β-globin Val substitution creates HbS polymers that distort deoxygenated RBCs. Therefore, the most accurate choice is: Sickle cell disease features HbS polymerization under deoxygenation. HbA2 elevation is a β-thalassemia clue; sickle centers on HbS.",
+      "choice_explanations": {
+        "A": "HbA2 elevation is a β-thalassemia clue; sickle centers on HbS. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "β-globin Val substitution creates HbS polymers that distort deoxygenated RBCs. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:easy:14",
+      "question": "Which of the following applies to hb electrophoresis role?",
+      "options": [
+        "A) Hb electrophoresis or HPLC identifies and quantifies hemoglobin variants",
+        "B) PNH is diagnosed solely by sickle solubility testing",
+        "C) Sickle cell disease is caused by excess HbA2 alone without HbS",
+        "D) Sickle solubility testing alone fully subtypes all hemoglobinopathies"
+      ],
+      "answer": "A) Hb electrophoresis or HPLC identifies and quantifies hemoglobin variants",
+      "explanation": "Separation methods distinguish HbA, S, C, and F for characterization. Therefore, the most accurate choice is: Hb electrophoresis or HPLC identifies and quantifies hemoglobin variants. Solubility screens sickling Hb but does not fully subtype all variants.",
+      "choice_explanations": {
+        "A": "Separation methods distinguish HbA, S, C, and F for characterization. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Solubility screens sickling Hb but does not fully subtype all variants. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:easy:15",
+      "question": "Which of the following applies to g6PD hemolysis trigger?",
+      "options": [
+        "A) Low MCV indicates macrocytic RBCs from B12 deficiency as the definition",
+        "B) G6PD deficiency hemolysis is triggered only by vitamin B12 injections",
+        "C) G6PD deficiency hemolysis is often triggered by oxidant stress such as primaquine, infection, or fava beans",
+        "D) High MCV always means iron deficiency as the defining pattern"
+      ],
+      "answer": "C) G6PD deficiency hemolysis is often triggered by oxidant stress such as primaquine, infection, or fava beans",
+      "explanation": "Reduced NADPH impairs RBC antioxidant defense under oxidant stress. Therefore, the most accurate choice is: G6PD deficiency hemolysis is often triggered by oxidant stress such as primaquine, infection, or fava beans. B12 injections are not the classic oxidant trigger.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "B12 injections are not the classic oxidant trigger. It is less consistent than the correct choice.",
+        "C": "Reduced NADPH impairs RBC antioxidant defense under oxidant stress. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:easy:16",
+      "question": "Which of the following is true of hereditary spherocytosis clue?",
+      "options": [
+        "A) HS shows spherocytes, increased MCHC, and increased osmotic fragility",
+        "B) Increased osmotic fragility specifically diagnoses sickle cell disease",
+        "C) Iron deficiency typically shows high ferritin with low TIBC as the classic triad",
+        "D) HS shows target cells with low MCHC as the defining triad"
+      ],
+      "answer": "A) HS shows spherocytes, increased MCHC, and increased osmotic fragility",
+      "explanation": "Membrane defects yield spherocytes that lyse more readily in hypotonic media. Therefore, the most accurate choice is: HS shows spherocytes, increased MCHC, and increased osmotic fragility. Target cells with low MCHC are not the classic HS signature.",
+      "choice_explanations": {
+        "A": "Membrane defects yield spherocytes that lyse more readily in hypotonic media. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Target cells with low MCHC are not the classic HS signature. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:easy:17",
+      "question": "Which finding matches warm AIHA antibody?",
+      "options": [
+        "A) Warm AIHA is typically IgG-mediated and reacts best at 37°C",
+        "B) PNH is warm IgG AIHA without complement sensitivity",
+        "C) Warm AIHA is typically IgM cold agglutinin disease by definition",
+        "D) Cold agglutinin disease is IgG warm antibody disease reacting only at 37°C"
+      ],
+      "answer": "A) Warm AIHA is typically IgG-mediated and reacts best at 37°C",
+      "explanation": "IgG autoantibodies bind RBCs at body temperature causing extravascular hemolysis. Therefore, the most accurate choice is: Warm AIHA is typically IgG-mediated and reacts best at 37°C. Cold agglutinin disease is IgM/complement in the cold.",
+      "choice_explanations": {
+        "A": "IgG autoantibodies bind RBCs at body temperature causing extravascular hemolysis. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Cold agglutinin disease is IgM/complement in the cold. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:easy:18",
+      "question": "Which of the following statements about cold agglutinin disease is correct?",
+      "options": [
+        "A) DAT detects unexpected alloantibodies in plasma like an antibody screen",
+        "B) Cold agglutinin disease is IgG warm antibody disease reacting only at 37°C",
+        "C) Warm AIHA is typically IgM cold agglutinin disease by definition",
+        "D) Cold agglutinin disease involves IgM antibodies binding RBCs in the cold with complement"
+      ],
+      "answer": "D) Cold agglutinin disease involves IgM antibodies binding RBCs in the cold with complement",
+      "explanation": "Cold-reactive IgM fixes complement causing cold agglutination and hemolysis. Therefore, the most accurate choice is: Cold agglutinin disease involves IgM antibodies binding RBCs in the cold with complement. Warm AIHA is IgG at 37°C.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Warm AIHA is IgG at 37°C. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Cold-reactive IgM fixes complement causing cold agglutination and hemolysis. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:easy:19",
+      "question": "In MAHA schistocytes, which of the following is correct?",
+      "options": [
+        "A) CLL is defined by schistocytes and thrombocytopenia alone",
+        "B) Aplastic anemia shows panhypercellular marrow with high blood counts",
+        "C) Microangiopathic hemolytic anemia shows schistocytes on the blood smear",
+        "D) MAHA is defined by rouleaux formation alone without fragments"
+      ],
+      "answer": "C) Microangiopathic hemolytic anemia shows schistocytes on the blood smear",
+      "explanation": "Shearing in damaged microvasculature produces fragmented schistocytes. Therefore, the most accurate choice is: Microangiopathic hemolytic anemia shows schistocytes on the blood smear. Rouleaux suggest high protein states, not MAHA fragments.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Shearing in damaged microvasculature produces fragmented schistocytes. This matches the correct interpretation.",
+        "D": "Rouleaux suggest high protein states, not MAHA fragments. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:easy:20",
+      "question": "Which of the following best describes DIC lab?",
+      "options": [
+        "A) DIC often shows thrombocytopenia, prolonged PT/aPTT, high D-dimer, and low fibrinogen",
+        "B) TTP is vitamin K deficiency with isolated high PT",
+        "C) DIC classically shows isolated high hematocrit with normal coagulation tests",
+        "D) ACD classically shows high TIBC with very low ferritin like iron deficiency"
+      ],
+      "answer": "A) DIC often shows thrombocytopenia, prolonged PT/aPTT, high D-dimer, and low fibrinogen",
+      "explanation": "Widespread thrombin generation consumes platelets and factors and yields FDPs. Therefore, the most accurate choice is: DIC often shows thrombocytopenia, prolonged PT/aPTT, high D-dimer, and low fibrinogen. Isolated high hematocrit is not consumptive DIC.",
+      "choice_explanations": {
+        "A": "Widespread thrombin generation consumes platelets and factors and yields FDPs. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Isolated high hematocrit is not consumptive DIC. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:easy:21",
+      "question": "Which of the following applies to ITP?",
+      "options": [
+        "A) ITP is immune-mediated platelet destruction, often with isolated thrombocytopenia",
+        "B) HIT type II is a benign non-immune platelet dip without thrombosis risk",
+        "C) ITP is primary marrow failure of all cell lines by definition",
+        "D) DIC classically shows isolated high hematocrit with normal coagulation tests"
+      ],
+      "answer": "A) ITP is immune-mediated platelet destruction, often with isolated thrombocytopenia",
+      "explanation": "Autoantibodies accelerate platelet clearance, often sparing other lineages initially. Therefore, the most accurate choice is: ITP is immune-mediated platelet destruction, often with isolated thrombocytopenia. Pancytopenia from marrow failure differs from typical isolated ITP.",
+      "choice_explanations": {
+        "A": "Autoantibodies accelerate platelet clearance, often sparing other lineages initially. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Pancytopenia from marrow failure differs from typical isolated ITP. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:easy:22",
+      "question": "Which mechanism accounts for TTP ADAMTS13?",
+      "options": [
+        "A) TTP is vitamin K deficiency with isolated high PT",
+        "B) High MPV specifically diagnoses factor XIII deficiency",
+        "C) DIC classically shows isolated high hematocrit with normal coagulation tests",
+        "D) TTP features MAHA, thrombocytopenia, and organ ischemia from ADAMTS13 deficiency"
+      ],
+      "answer": "D) TTP features MAHA, thrombocytopenia, and organ ischemia from ADAMTS13 deficiency",
+      "explanation": "Uncleaved ultra-large vWF multimers cause platelet microthrombi and RBC fragments. Therefore, the most accurate choice is: TTP features MAHA, thrombocytopenia, and organ ischemia from ADAMTS13 deficiency. Vitamin K deficiency alters PT/factors, not ADAMTS13 microangiopathy.",
+      "choice_explanations": {
+        "A": "Vitamin K deficiency alters PT/factors, not ADAMTS13 microangiopathy. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Uncleaved ultra-large vWF multimers cause platelet microthrombi and RBC fragments. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:easy:23",
+      "question": "Which of the following applies to HUS vs TTP?",
+      "options": [
+        "A) Typical HUS is primarily ADAMTS13 activity under 10% without a diarrheal trigger",
+        "B) TTP is vitamin K deficiency with isolated high PT",
+        "C) Typical HUS is often Shiga-toxin–associated with prominent renal failure",
+        "D) ITP is primary marrow failure of all cell lines by definition"
+      ],
+      "answer": "C) Typical HUS is often Shiga-toxin–associated with prominent renal failure",
+      "explanation": "STEC can trigger endothelial injury and renal-predominant TMA. Therefore, the most accurate choice is: Typical HUS is often Shiga-toxin–associated with prominent renal failure. Severe ADAMTS13 deficiency defines TTP more than classic D+ HUS.",
+      "choice_explanations": {
+        "A": "Severe ADAMTS13 deficiency defines TTP more than classic D+ HUS. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "STEC can trigger endothelial injury and renal-predominant TMA. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:easy:24",
+      "question": "Which of the following is true about left shift neutrophils?",
+      "options": [
+        "A) Left shift means increased immature neutrophils such as bands in infection or stress",
+        "B) Elevated RDW means all RBCs are identical in size by definition",
+        "C) Left shift means increased mature lymphocytes only by definition",
+        "D) Right shift always means CO poisoning left-shift physiology"
+      ],
+      "answer": "A) Left shift means increased immature neutrophils such as bands in infection or stress",
+      "explanation": "Marrow releases younger granulocytes when neutrophil demand rises. Therefore, the most accurate choice is: Left shift means increased immature neutrophils such as bands in infection or stress. Lymphocytosis differs from neutrophilic left shift.",
+      "choice_explanations": {
+        "A": "Marrow releases younger granulocytes when neutrophil demand rises. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Lymphocytosis differs from neutrophilic left shift. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:easy:25",
+      "question": "Which finding is expected in neutropenia infection risk?",
+      "options": [
+        "A) Severe neutropenia markedly increases risk of bacterial and fungal infection",
+        "B) Lupus anticoagulant always causes mucocutaneous bleeding as its main effect",
+        "C) Factor V Leiden causes severe hemophilia A bleeding",
+        "D) Severe neutropenia primarily causes immediate thrombosis as its main risk"
+      ],
+      "answer": "A) Severe neutropenia markedly increases risk of bacterial and fungal infection",
+      "explanation": "Neutrophils kill bacteria and fungi; profound neutropenia leaves patients vulnerable. Therefore, the most accurate choice is: Severe neutropenia markedly increases risk of bacterial and fungal infection. Thrombosis risk relates more to platelets and coagulation.",
+      "choice_explanations": {
+        "A": "Neutrophils kill bacteria and fungi; profound neutropenia leaves patients vulnerable. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Thrombosis risk relates more to platelets and coagulation. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:easy:26",
+      "question": "Which of the following statements about eosinophilia associations is correct?",
+      "options": [
+        "A) Eosinophilia specifically proves iron deficiency anemia",
+        "B) Eosinophilia suggests allergy, parasites, drugs, or some neoplasms",
+        "C) B12 deficiency causes microcytic hypochromic anemia like iron deficiency",
+        "D) Basophilia specifically diagnoses iron deficiency"
+      ],
+      "answer": "B) Eosinophilia suggests allergy, parasites, drugs, or some neoplasms",
+      "explanation": "IL-5–driven eosinophil expansion occurs in allergic, parasitic, and clonal settings. Therefore, the most accurate choice is: Eosinophilia suggests allergy, parasites, drugs, or some neoplasms. Iron deficiency is a red-cell disorder, not what eosinophilia proves.",
+      "choice_explanations": {
+        "A": "Iron deficiency is a red-cell disorder, not what eosinophilia proves. It is less consistent than the correct choice.",
+        "B": "IL-5–driven eosinophil expansion occurs in allergic, parasitic, and clonal settings. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:easy:27",
+      "question": "In basophilia CML, which of the following is correct?",
+      "options": [
+        "A) ACD classically shows high TIBC with very low ferritin like iron deficiency",
+        "B) Basophilia can be a clue to CML among chronic myeloid disorders",
+        "C) Hypersegmentation specifically proves CML chronic phase",
+        "D) Basophilia specifically diagnoses iron deficiency"
+      ],
+      "answer": "B) Basophilia can be a clue to CML among chronic myeloid disorders",
+      "explanation": "CML often shows leukocytosis with left shift and absolute basophilia. Therefore, the most accurate choice is: Basophilia can be a clue to CML among chronic myeloid disorders. Iron deficiency does not present as diagnostic basophilia.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "CML often shows leukocytosis with left shift and absolute basophilia. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Iron deficiency does not present as diagnostic basophilia. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:easy:28",
+      "question": "Which of the following best describes CLL smudge cells?",
+      "options": [
+        "A) Myeloma is defined by isolated neutrophilia without protein findings",
+        "B) CLL often shows absolute lymphocytosis with smudge cells on the smear",
+        "C) CLL is defined by schistocytes and thrombocytopenia alone",
+        "D) MAHA is defined by rouleaux formation alone without fragments"
+      ],
+      "answer": "B) CLL often shows absolute lymphocytosis with smudge cells on the smear",
+      "explanation": "Clonal mature B lymphocytes accumulate; fragile cells smear as smudge cells. Therefore, the most accurate choice is: CLL often shows absolute lymphocytosis with smudge cells on the smear. Schistocytes point to MAHA, not CLL.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Clonal mature B lymphocytes accumulate; fragile cells smear as smudge cells. This matches the correct interpretation.",
+        "C": "Schistocytes point to MAHA, not CLL. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:easy:29",
+      "question": "Select the correct statement about AML blast concept.",
+      "options": [
+        "A) PNH is diagnosed solely by sickle solubility testing",
+        "B) AML is diagnosed solely by high reticulocyte count",
+        "C) AML diagnosis centers on significant myeloid blast burden or abnormal promyelocytes",
+        "D) Auer rods prove a pure lymphoid blast lineage"
+      ],
+      "answer": "C) AML diagnosis centers on significant myeloid blast burden or abnormal promyelocytes",
+      "explanation": "Neoplastic myeloid blasts replace normal hematopoiesis. Therefore, the most accurate choice is: AML diagnosis centers on significant myeloid blast burden or abnormal promyelocytes. Reticulocytosis reflects RBC response, not AML criteria.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Reticulocytosis reflects RBC response, not AML criteria. It is less consistent than the correct choice.",
+        "C": "Neoplastic myeloid blasts replace normal hematopoiesis. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ],
+  "medium": [
+    {
+      "id": "hematology:medium:0",
+      "question": "A 45-year-old woman has lab results reviewed for adult male hemoglobin reference. Which of the following is correct?",
+      "options": [
+        "A) Adult female hemoglobin is typically about 17–20 g/dL as the routine normal",
+        "B) Adult male hemoglobin is typically about 10–12 g/dL as the normal band",
+        "C) Hemoglobin always drops maximally within minutes of acute bleeding before fluids",
+        "D) Adult male hemoglobin is typically about 13.5–17.5 g/dL"
+      ],
+      "answer": "D) Adult male hemoglobin is typically about 13.5–17.5 g/dL",
+      "explanation": "Circulating RBC hemoglobin defines the g/dL CBC reference interval. Therefore, the most accurate choice is: Adult male hemoglobin is typically about 13.5–17.5 g/dL. 10–12 g/dL is anemic for most adult males, not the usual normal range.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "10–12 g/dL is anemic for most adult males, not the usual normal range. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Circulating RBC hemoglobin defines the g/dL CBC reference interval. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:medium:1",
+      "question": "A specimen workup for adult female hemoglobin reference is interpreted. Which of the following is most accurate?",
+      "options": [
+        "A) Adult female hemoglobin is typically about 12.0–15.5 g/dL",
+        "B) Adult female hemoglobin is typically about 17–20 g/dL as the routine normal",
+        "C) Adults normally maintain HbF as the dominant hemoglobin forever",
+        "D) Adult male hemoglobin is typically about 10–12 g/dL as the normal band"
+      ],
+      "answer": "A) Adult female hemoglobin is typically about 12.0–15.5 g/dL",
+      "explanation": "Sex-specific RBC mass sets slightly lower female hemoglobin limits. Therefore, the most accurate choice is: Adult female hemoglobin is typically about 12.0–15.5 g/dL. 17–20 g/dL is high for females and suggests polycythemia.",
+      "choice_explanations": {
+        "A": "Sex-specific RBC mass sets slightly lower female hemoglobin limits. This matches the correct interpretation.",
+        "B": "17–20 g/dL is high for females and suggests polycythemia. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:medium:2",
+      "question": "A 32-year-old man has findings requiring interpretation of hematocrit. Which of the following is correct?",
+      "options": [
+        "A) Hematocrit is the packed red-cell volume fraction of whole blood",
+        "B) Hematocrit is the absolute neutrophil count in peripheral blood",
+        "C) Hemoglobin × 3 always equals platelet count",
+        "D) Elevated RDW means all RBCs are identical in size by definition"
+      ],
+      "answer": "A) Hematocrit is the packed red-cell volume fraction of whole blood",
+      "explanation": "Hct reflects RBC volume percent of blood. Therefore, the most accurate choice is: Hematocrit is the packed red-cell volume fraction of whole blood. ANC is a white-cell metric, not red-cell volume fraction.",
+      "choice_explanations": {
+        "A": "Hct reflects RBC volume percent of blood. This matches the correct interpretation.",
+        "B": "ANC is a white-cell metric, not red-cell volume fraction. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:medium:3",
+      "question": "In a 27-year-old woman, which statement about MCV microcytosis is correct?",
+      "options": [
+        "A) Low MCV indicates macrocytic RBCs from B12 deficiency as the definition",
+        "B) Elevated RDW means all RBCs are identical in size by definition",
+        "C) High MCV always means iron deficiency as the defining pattern",
+        "D) Low MCV indicates microcytic RBCs such as iron deficiency or thalassemia"
+      ],
+      "answer": "D) Low MCV indicates microcytic RBCs such as iron deficiency or thalassemia",
+      "explanation": "Mean corpuscular volume falls when average RBC size shrinks. Therefore, the most accurate choice is: Low MCV indicates microcytic RBCs such as iron deficiency or thalassemia. B12/folate deficiency raises MCV; it does not define low MCV.",
+      "choice_explanations": {
+        "A": "B12/folate deficiency raises MCV; it does not define low MCV. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Mean corpuscular volume falls when average RBC size shrinks. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:medium:4",
+      "question": "A 34-year-old man has an abnormal panel. Which statement about MCV macrocytosis is most accurate?",
+      "options": [
+        "A) Elevated RDW means all RBCs are identical in size by definition",
+        "B) High MCV always means iron deficiency as the defining pattern",
+        "C) Low MCV indicates macrocytic RBCs from B12 deficiency as the definition",
+        "D) High MCV indicates macrocytic RBCs such as B12/folate deficiency or MDS"
+      ],
+      "answer": "D) High MCV indicates macrocytic RBCs such as B12/folate deficiency or MDS",
+      "explanation": "Increased average RBC volume elevates MCV. Therefore, the most accurate choice is: High MCV indicates macrocytic RBCs such as B12/folate deficiency or MDS. Iron deficiency typically lowers MCV.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Iron deficiency typically lowers MCV. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Increased average RBC volume elevates MCV. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:medium:5",
+      "question": "Results related to MCHC hypochromia are verified before release. Which of the following is appropriate?",
+      "options": [
+        "A) Low MCHC defines leukocytosis by itself",
+        "B) Low MCHC reflects decreased hemoglobin concentration within RBCs",
+        "C) Low MCV indicates macrocytic RBCs from B12 deficiency as the definition",
+        "D) Hemoglobin always drops maximally within minutes of acute bleeding before fluids"
+      ],
+      "answer": "B) Low MCHC reflects decreased hemoglobin concentration within RBCs",
+      "explanation": "MCHC estimates average Hb concentration in RBCs. Therefore, the most accurate choice is: Low MCHC reflects decreased hemoglobin concentration within RBCs. Leukocytosis is a WBC finding, not low MCHC.",
+      "choice_explanations": {
+        "A": "Leukocytosis is a WBC finding, not low MCHC. It is less consistent than the correct choice.",
+        "B": "MCHC estimates average Hb concentration in RBCs. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:medium:6",
+      "question": "Exam findings raise a question about RDW anisocytosis. Which of the following is correct?",
+      "options": [
+        "A) High MCV always means iron deficiency as the defining pattern",
+        "B) Elevated RDW indicates increased RBC size variation (anisocytosis)",
+        "C) Low MCV indicates macrocytic RBCs from B12 deficiency as the definition",
+        "D) Elevated RDW means all RBCs are identical in size by definition"
+      ],
+      "answer": "B) Elevated RDW indicates increased RBC size variation (anisocytosis)",
+      "explanation": "RDW quantifies heterogeneity of RBC volumes. Therefore, the most accurate choice is: Elevated RDW indicates increased RBC size variation (anisocytosis). Identical sizes produce low/normal RDW.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "RDW quantifies heterogeneity of RBC volumes. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Identical sizes produce low/normal RDW. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:medium:7",
+      "question": "In laboratory assessment of reticulocyte response, which of the following is correct?",
+      "options": [
+        "A) Hemoglobin always drops maximally within minutes of acute bleeding before fluids",
+        "B) Elevated reticulocytes always prove marrow aplasia",
+        "C) Elevated reticulocytes indicate marrow response to anemia or blood loss",
+        "D) Chronic blood loss typically causes B12 megaloblastic anemia first"
+      ],
+      "answer": "C) Elevated reticulocytes indicate marrow response to anemia or blood loss",
+      "explanation": "Young RBCs rise when erythropoiesis increases. Therefore, the most accurate choice is: Elevated reticulocytes indicate marrow response to anemia or blood loss. Aplasia reduces reticulocytes.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Aplasia reduces reticulocytes. It is less consistent than the correct choice.",
+        "C": "Young RBCs rise when erythropoiesis increases. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:medium:8",
+      "question": "A 54-year-old man has lab results reviewed for iron deficiency labs. Which of the following is correct?",
+      "options": [
+        "A) ACD classically shows high TIBC with very low ferritin like iron deficiency",
+        "B) Iron deficiency typically shows low ferritin, low serum iron, and high TIBC",
+        "C) Hemochromatosis shows low ferritin and high TIBC like iron deficiency",
+        "D) Iron deficiency typically shows high ferritin with low TIBC as the classic triad"
+      ],
+      "answer": "B) Iron deficiency typically shows low ferritin, low serum iron, and high TIBC",
+      "explanation": "Depleted stores lower ferritin/iron while TIBC rises. Therefore, the most accurate choice is: Iron deficiency typically shows low ferritin, low serum iron, and high TIBC. High ferritin/low TIBC fits anemia of chronic disease.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Depleted stores lower ferritin/iron while TIBC rises. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "High ferritin/low TIBC fits anemia of chronic disease. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:medium:9",
+      "question": "A specimen workup for anemia of chronic disease is interpreted. Which of the following is most accurate?",
+      "options": [
+        "A) ACD classically shows high TIBC with very low ferritin like iron deficiency",
+        "B) Iron deficiency typically shows high ferritin with low TIBC as the classic triad",
+        "C) ACD often shows low serum iron, low/normal TIBC, and normal/high ferritin",
+        "D) Hemochromatosis shows low ferritin and high TIBC like iron deficiency"
+      ],
+      "answer": "C) ACD often shows low serum iron, low/normal TIBC, and normal/high ferritin",
+      "explanation": "Hepcidin-mediated sequestration conserves stores so ferritin is not low. Therefore, the most accurate choice is: ACD often shows low serum iron, low/normal TIBC, and normal/high ferritin. Very low ferritin with high TIBC points to iron deficiency.",
+      "choice_explanations": {
+        "A": "Very low ferritin with high TIBC points to iron deficiency. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Hepcidin-mediated sequestration conserves stores so ferritin is not low. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:medium:10",
+      "question": "A 43-year-old woman undergoes testing for b12 deficiency anemia. Which result pattern is most consistent?",
+      "options": [
+        "A) Hypersegmentation specifically proves CML chronic phase",
+        "B) B12 deficiency causes megaloblastic macrocytic anemia with hypersegmented neutrophils",
+        "C) B12 deficiency causes microcytic hypochromic anemia like iron deficiency",
+        "D) Low MCV indicates macrocytic RBCs from B12 deficiency as the definition"
+      ],
+      "answer": "B) B12 deficiency causes megaloblastic macrocytic anemia with hypersegmented neutrophils",
+      "explanation": "Impaired DNA synthesis yields large RBCs and neutrophil hypersegmentation. Therefore, the most accurate choice is: B12 deficiency causes megaloblastic macrocytic anemia with hypersegmented neutrophils. Microcytic hypochromic anemia is iron/thalassemia territory.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Impaired DNA synthesis yields large RBCs and neutrophil hypersegmentation. This matches the correct interpretation.",
+        "C": "Microcytic hypochromic anemia is iron/thalassemia territory. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:medium:11",
+      "question": "Method selection for folate vs B12 neuropathy is discussed. Which of the following is correct?",
+      "options": [
+        "A) B12 deficiency causes microcytic hypochromic anemia like iron deficiency",
+        "B) Folate deficiency causes megaloblastic anemia without classic B12 neuropathy",
+        "C) Folate deficiency uniquely causes subacute combined degeneration as its hallmark",
+        "D) Chronic blood loss typically causes B12 megaloblastic anemia first"
+      ],
+      "answer": "B) Folate deficiency causes megaloblastic anemia without classic B12 neuropathy",
+      "explanation": "Both cause megaloblastic anemia; SCD neuropathy is characteristically B12-related. Therefore, the most accurate choice is: Folate deficiency causes megaloblastic anemia without classic B12 neuropathy. Subacute combined degeneration is the classic B12 neurologic syndrome.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Both cause megaloblastic anemia; SCD neuropathy is characteristically B12-related. This matches the correct interpretation.",
+        "C": "Subacute combined degeneration is the classic B12 neurologic syndrome. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:medium:12",
+      "question": "A 57-year-old woman has an abnormal panel. Which statement about thalassemia trait CBC is most accurate?",
+      "options": [
+        "A) High MCV always means iron deficiency as the defining pattern",
+        "B) ACD classically shows high TIBC with very low ferritin like iron deficiency",
+        "C) Thalassemia trait shows macrocytosis with very high MCV as the usual clue",
+        "D) Thalassemia trait often shows marked microcytosis with relatively preserved RBC count"
+      ],
+      "answer": "D) Thalassemia trait often shows marked microcytosis with relatively preserved RBC count",
+      "explanation": "Globin imbalance shrinks RBCs while RBC count often stays relatively high. Therefore, the most accurate choice is: Thalassemia trait often shows marked microcytosis with relatively preserved RBC count. Macrocytosis is not the typical thalassemia-trait pattern.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Macrocytosis is not the typical thalassemia-trait pattern. It is less consistent than the correct choice.",
+        "D": "Globin imbalance shrinks RBCs while RBC count often stays relatively high. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:medium:13",
+      "question": "Results related to sickle cell Hb S are verified before release. Which of the following is appropriate?",
+      "options": [
+        "A) Sickle solubility testing alone fully subtypes all hemoglobinopathies",
+        "B) Sickle cell disease is caused by excess HbA2 alone without HbS",
+        "C) Increased osmotic fragility specifically diagnoses sickle cell disease",
+        "D) Sickle cell disease features HbS polymerization under deoxygenation"
+      ],
+      "answer": "D) Sickle cell disease features HbS polymerization under deoxygenation",
+      "explanation": "β-globin Val substitution creates HbS polymers that distort deoxygenated RBCs. Therefore, the most accurate choice is: Sickle cell disease features HbS polymerization under deoxygenation. HbA2 elevation is a β-thalassemia clue; sickle centers on HbS.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "HbA2 elevation is a β-thalassemia clue; sickle centers on HbS. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "β-globin Val substitution creates HbS polymers that distort deoxygenated RBCs. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:medium:14",
+      "question": "Exam findings raise a question about hb electrophoresis role. Which of the following is correct?",
+      "options": [
+        "A) Sickle cell disease is caused by excess HbA2 alone without HbS",
+        "B) Sickle solubility testing alone fully subtypes all hemoglobinopathies",
+        "C) Hb electrophoresis or HPLC identifies and quantifies hemoglobin variants",
+        "D) PNH is diagnosed solely by sickle solubility testing"
+      ],
+      "answer": "C) Hb electrophoresis or HPLC identifies and quantifies hemoglobin variants",
+      "explanation": "Separation methods distinguish HbA, S, C, and F for characterization. Therefore, the most accurate choice is: Hb electrophoresis or HPLC identifies and quantifies hemoglobin variants. Solubility screens sickling Hb but does not fully subtype all variants.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Solubility screens sickling Hb but does not fully subtype all variants. It is less consistent than the correct choice.",
+        "C": "Separation methods distinguish HbA, S, C, and F for characterization. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:medium:15",
+      "question": "In laboratory assessment of g6PD hemolysis trigger, which of the following is correct?",
+      "options": [
+        "A) High MCV always means iron deficiency as the defining pattern",
+        "B) G6PD deficiency hemolysis is triggered only by vitamin B12 injections",
+        "C) G6PD deficiency hemolysis is often triggered by oxidant stress such as primaquine, infection, or fava beans",
+        "D) Low MCV indicates macrocytic RBCs from B12 deficiency as the definition"
+      ],
+      "answer": "C) G6PD deficiency hemolysis is often triggered by oxidant stress such as primaquine, infection, or fava beans",
+      "explanation": "Reduced NADPH impairs RBC antioxidant defense under oxidant stress. Therefore, the most accurate choice is: G6PD deficiency hemolysis is often triggered by oxidant stress such as primaquine, infection, or fava beans. B12 injections are not the classic oxidant trigger.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "B12 injections are not the classic oxidant trigger. It is less consistent than the correct choice.",
+        "C": "Reduced NADPH impairs RBC antioxidant defense under oxidant stress. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:medium:16",
+      "question": "A 69-year-old woman has lab results reviewed for hereditary spherocytosis clue. Which of the following is correct?",
+      "options": [
+        "A) Increased osmotic fragility specifically diagnoses sickle cell disease",
+        "B) HS shows spherocytes, increased MCHC, and increased osmotic fragility",
+        "C) Hemochromatosis shows low ferritin and high TIBC like iron deficiency",
+        "D) HS shows target cells with low MCHC as the defining triad"
+      ],
+      "answer": "B) HS shows spherocytes, increased MCHC, and increased osmotic fragility",
+      "explanation": "Membrane defects yield spherocytes that lyse more readily in hypotonic media. Therefore, the most accurate choice is: HS shows spherocytes, increased MCHC, and increased osmotic fragility. Target cells with low MCHC are not the classic HS signature.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Membrane defects yield spherocytes that lyse more readily in hypotonic media. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Target cells with low MCHC are not the classic HS signature. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:medium:17",
+      "question": "While evaluating a 29-year-old woman, attention turns to warm AIHA antibody. Which of the following is most accurate?",
+      "options": [
+        "A) Warm AIHA is typically IgM cold agglutinin disease by definition",
+        "B) PNH is warm IgG AIHA without complement sensitivity",
+        "C) Warm AIHA is typically IgG-mediated and reacts best at 37°C",
+        "D) Cold agglutinin disease is IgG warm antibody disease reacting only at 37°C"
+      ],
+      "answer": "C) Warm AIHA is typically IgG-mediated and reacts best at 37°C",
+      "explanation": "IgG autoantibodies bind RBCs at body temperature causing extravascular hemolysis. Therefore, the most accurate choice is: Warm AIHA is typically IgG-mediated and reacts best at 37°C. Cold agglutinin disease is IgM/complement in the cold.",
+      "choice_explanations": {
+        "A": "Cold agglutinin disease is IgM/complement in the cold. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "IgG autoantibodies bind RBCs at body temperature causing extravascular hemolysis. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:medium:18",
+      "question": "A 49-year-old woman undergoes testing for cold agglutinin disease. Which result pattern is most consistent?",
+      "options": [
+        "A) PNH is warm IgG AIHA without complement sensitivity",
+        "B) Warm AIHA is typically IgM cold agglutinin disease by definition",
+        "C) Cold agglutinin disease is IgG warm antibody disease reacting only at 37°C",
+        "D) Cold agglutinin disease involves IgM antibodies binding RBCs in the cold with complement"
+      ],
+      "answer": "D) Cold agglutinin disease involves IgM antibodies binding RBCs in the cold with complement",
+      "explanation": "Cold-reactive IgM fixes complement causing cold agglutination and hemolysis. Therefore, the most accurate choice is: Cold agglutinin disease involves IgM antibodies binding RBCs in the cold with complement. Warm AIHA is IgG at 37°C.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Warm AIHA is IgG at 37°C. It is less consistent than the correct choice.",
+        "D": "Cold-reactive IgM fixes complement causing cold agglutination and hemolysis. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:medium:19",
+      "question": "Method selection for MAHA schistocytes is discussed. Which of the following is correct?",
+      "options": [
+        "A) CLL is defined by schistocytes and thrombocytopenia alone",
+        "B) MAHA is defined by rouleaux formation alone without fragments",
+        "C) Microangiopathic hemolytic anemia shows schistocytes on the blood smear",
+        "D) Myeloma is defined by isolated neutrophilia without protein findings"
+      ],
+      "answer": "C) Microangiopathic hemolytic anemia shows schistocytes on the blood smear",
+      "explanation": "Shearing in damaged microvasculature produces fragmented schistocytes. Therefore, the most accurate choice is: Microangiopathic hemolytic anemia shows schistocytes on the blood smear. Rouleaux suggest high protein states, not MAHA fragments.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Rouleaux suggest high protein states, not MAHA fragments. It is less consistent than the correct choice.",
+        "C": "Shearing in damaged microvasculature produces fragmented schistocytes. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:medium:20",
+      "question": "A 49-year-old woman has an abnormal panel. Which statement about DIC lab is most accurate?",
+      "options": [
+        "A) TTP is vitamin K deficiency with isolated high PT",
+        "B) ACD classically shows high TIBC with very low ferritin like iron deficiency",
+        "C) DIC often shows thrombocytopenia, prolonged PT/aPTT, high D-dimer, and low fibrinogen",
+        "D) DIC classically shows isolated high hematocrit with normal coagulation tests"
+      ],
+      "answer": "C) DIC often shows thrombocytopenia, prolonged PT/aPTT, high D-dimer, and low fibrinogen",
+      "explanation": "Widespread thrombin generation consumes platelets and factors and yields FDPs. Therefore, the most accurate choice is: DIC often shows thrombocytopenia, prolonged PT/aPTT, high D-dimer, and low fibrinogen. Isolated high hematocrit is not consumptive DIC.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Widespread thrombin generation consumes platelets and factors and yields FDPs. This matches the correct interpretation.",
+        "D": "Isolated high hematocrit is not consumptive DIC. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:medium:21",
+      "question": "Which explanation of ITP is most accurate?",
+      "options": [
+        "A) HIT type II is a benign non-immune platelet dip without thrombosis risk",
+        "B) ITP is primary marrow failure of all cell lines by definition",
+        "C) DIC classically shows isolated high hematocrit with normal coagulation tests",
+        "D) ITP is immune-mediated platelet destruction, often with isolated thrombocytopenia"
+      ],
+      "answer": "D) ITP is immune-mediated platelet destruction, often with isolated thrombocytopenia",
+      "explanation": "Autoantibodies accelerate platelet clearance, often sparing other lineages initially. Therefore, the most accurate choice is: ITP is immune-mediated platelet destruction, often with isolated thrombocytopenia. Pancytopenia from marrow failure differs from typical isolated ITP.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Pancytopenia from marrow failure differs from typical isolated ITP. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Autoantibodies accelerate platelet clearance, often sparing other lineages initially. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:medium:22",
+      "question": "A 30-year-old man is evaluated with assays used in TTP ADAMTS13. Which of the following is correct?",
+      "options": [
+        "A) TTP features MAHA, thrombocytopenia, and organ ischemia from ADAMTS13 deficiency",
+        "B) DIC classically shows isolated high hematocrit with normal coagulation tests",
+        "C) TTP is vitamin K deficiency with isolated high PT",
+        "D) High MPV specifically diagnoses factor XIII deficiency"
+      ],
+      "answer": "A) TTP features MAHA, thrombocytopenia, and organ ischemia from ADAMTS13 deficiency",
+      "explanation": "Uncleaved ultra-large vWF multimers cause platelet microthrombi and RBC fragments. Therefore, the most accurate choice is: TTP features MAHA, thrombocytopenia, and organ ischemia from ADAMTS13 deficiency. Vitamin K deficiency alters PT/factors, not ADAMTS13 microangiopathy.",
+      "choice_explanations": {
+        "A": "Uncleaved ultra-large vWF multimers cause platelet microthrombi and RBC fragments. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Vitamin K deficiency alters PT/factors, not ADAMTS13 microangiopathy. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:medium:23",
+      "question": "In laboratory assessment of HUS vs TTP, which of the following is correct?",
+      "options": [
+        "A) TTP is vitamin K deficiency with isolated high PT",
+        "B) ITP is primary marrow failure of all cell lines by definition",
+        "C) Typical HUS is primarily ADAMTS13 activity under 10% without a diarrheal trigger",
+        "D) Typical HUS is often Shiga-toxin–associated with prominent renal failure"
+      ],
+      "answer": "D) Typical HUS is often Shiga-toxin–associated with prominent renal failure",
+      "explanation": "STEC can trigger endothelial injury and renal-predominant TMA. Therefore, the most accurate choice is: Typical HUS is often Shiga-toxin–associated with prominent renal failure. Severe ADAMTS13 deficiency defines TTP more than classic D+ HUS.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Severe ADAMTS13 deficiency defines TTP more than classic D+ HUS. It is less consistent than the correct choice.",
+        "D": "STEC can trigger endothelial injury and renal-predominant TMA. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:medium:24",
+      "question": "A 70-year-old man is examined, and left shift neutrophils is reviewed. Which of the following is correct?",
+      "options": [
+        "A) Right shift always means CO poisoning left-shift physiology",
+        "B) Elevated RDW means all RBCs are identical in size by definition",
+        "C) Left shift means increased mature lymphocytes only by definition",
+        "D) Left shift means increased immature neutrophils such as bands in infection or stress"
+      ],
+      "answer": "D) Left shift means increased immature neutrophils such as bands in infection or stress",
+      "explanation": "Marrow releases younger granulocytes when neutrophil demand rises. Therefore, the most accurate choice is: Left shift means increased immature neutrophils such as bands in infection or stress. Lymphocytosis differs from neutrophilic left shift.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Lymphocytosis differs from neutrophilic left shift. It is less consistent than the correct choice.",
+        "D": "Marrow releases younger granulocytes when neutrophil demand rises. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:medium:25",
+      "question": "A specimen workup for neutropenia infection risk is interpreted. Which of the following is most accurate?",
+      "options": [
+        "A) Severe neutropenia markedly increases risk of bacterial and fungal infection",
+        "B) Severe neutropenia primarily causes immediate thrombosis as its main risk",
+        "C) Lupus anticoagulant always causes mucocutaneous bleeding as its main effect",
+        "D) Antithrombin deficiency causes mucocutaneous bleeding like ITP"
+      ],
+      "answer": "A) Severe neutropenia markedly increases risk of bacterial and fungal infection",
+      "explanation": "Neutrophils kill bacteria and fungi; profound neutropenia leaves patients vulnerable. Therefore, the most accurate choice is: Severe neutropenia markedly increases risk of bacterial and fungal infection. Thrombosis risk relates more to platelets and coagulation.",
+      "choice_explanations": {
+        "A": "Neutrophils kill bacteria and fungi; profound neutropenia leaves patients vulnerable. This matches the correct interpretation.",
+        "B": "Thrombosis risk relates more to platelets and coagulation. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:medium:26",
+      "question": "A 55-year-old woman undergoes testing for eosinophilia associations. Which result pattern is most consistent?",
+      "options": [
+        "A) sTfR falls specifically in iron deficiency like ferritin",
+        "B) Eosinophilia suggests allergy, parasites, drugs, or some neoplasms",
+        "C) Eosinophilia specifically proves iron deficiency anemia",
+        "D) Basophilia specifically diagnoses iron deficiency"
+      ],
+      "answer": "B) Eosinophilia suggests allergy, parasites, drugs, or some neoplasms",
+      "explanation": "IL-5–driven eosinophil expansion occurs in allergic, parasitic, and clonal settings. Therefore, the most accurate choice is: Eosinophilia suggests allergy, parasites, drugs, or some neoplasms. Iron deficiency is a red-cell disorder, not what eosinophilia proves.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "IL-5–driven eosinophil expansion occurs in allergic, parasitic, and clonal settings. This matches the correct interpretation.",
+        "C": "Iron deficiency is a red-cell disorder, not what eosinophilia proves. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:medium:27",
+      "question": "Method selection for basophilia CML is discussed. Which of the following is correct?",
+      "options": [
+        "A) Basophilia can be a clue to CML among chronic myeloid disorders",
+        "B) Basophilia specifically diagnoses iron deficiency",
+        "C) ACD classically shows high TIBC with very low ferritin like iron deficiency",
+        "D) D-dimer specifically diagnoses iron deficiency with certainty"
+      ],
+      "answer": "A) Basophilia can be a clue to CML among chronic myeloid disorders",
+      "explanation": "CML often shows leukocytosis with left shift and absolute basophilia. Therefore, the most accurate choice is: Basophilia can be a clue to CML among chronic myeloid disorders. Iron deficiency does not present as diagnostic basophilia.",
+      "choice_explanations": {
+        "A": "CML often shows leukocytosis with left shift and absolute basophilia. This matches the correct interpretation.",
+        "B": "Iron deficiency does not present as diagnostic basophilia. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:medium:28",
+      "question": "A 64-year-old man has an abnormal panel. Which statement about CLL smudge cells is most accurate?",
+      "options": [
+        "A) Myeloma is defined by isolated neutrophilia without protein findings",
+        "B) MAHA is defined by rouleaux formation alone without fragments",
+        "C) CLL is defined by schistocytes and thrombocytopenia alone",
+        "D) CLL often shows absolute lymphocytosis with smudge cells on the smear"
+      ],
+      "answer": "D) CLL often shows absolute lymphocytosis with smudge cells on the smear",
+      "explanation": "Clonal mature B lymphocytes accumulate; fragile cells smear as smudge cells. Therefore, the most accurate choice is: CLL often shows absolute lymphocytosis with smudge cells on the smear. Schistocytes point to MAHA, not CLL.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Schistocytes point to MAHA, not CLL. It is less consistent than the correct choice.",
+        "D": "Clonal mature B lymphocytes accumulate; fragile cells smear as smudge cells. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:medium:29",
+      "question": "Results related to AML blast concept are verified before release. Which of the following is appropriate?",
+      "options": [
+        "A) PNH is diagnosed solely by sickle solubility testing",
+        "B) AML is diagnosed solely by high reticulocyte count",
+        "C) Auer rods prove a pure lymphoid blast lineage",
+        "D) AML diagnosis centers on significant myeloid blast burden or abnormal promyelocytes"
+      ],
+      "answer": "D) AML diagnosis centers on significant myeloid blast burden or abnormal promyelocytes",
+      "explanation": "Neoplastic myeloid blasts replace normal hematopoiesis. Therefore, the most accurate choice is: AML diagnosis centers on significant myeloid blast burden or abnormal promyelocytes. Reticulocytosis reflects RBC response, not AML criteria.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Reticulocytosis reflects RBC response, not AML criteria. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Neoplastic myeloid blasts replace normal hematopoiesis. This matches the correct interpretation."
+      }
+    }
+  ],
+  "hard": [
+    {
+      "id": "hematology:hard:0",
+      "question": "A 45-year-old woman is evaluated for possible adult male hemoglobin reference. Which of the following is most accurate?",
+      "options": [
+        "A) Adult male hemoglobin is typically about 13.5–17.5 g/dL",
+        "B) Adult female hemoglobin is typically about 17–20 g/dL as the routine normal",
+        "C) Adult male hemoglobin is typically about 10–12 g/dL as the normal band",
+        "D) Hemoglobin always drops maximally within minutes of acute bleeding before fluids"
+      ],
+      "answer": "A) Adult male hemoglobin is typically about 13.5–17.5 g/dL",
+      "explanation": "Circulating RBC hemoglobin defines the g/dL CBC reference interval. Therefore, the most accurate choice is: Adult male hemoglobin is typically about 13.5–17.5 g/dL. 10–12 g/dL is anemic for most adult males, not the usual normal range.",
+      "choice_explanations": {
+        "A": "Circulating RBC hemoglobin defines the g/dL CBC reference interval. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "10–12 g/dL is anemic for most adult males, not the usual normal range. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:hard:1",
+      "question": "A 48-year-old man has findings suggestive of adult female hemoglobin reference. Which of the following is the best interpretation?",
+      "options": [
+        "A) Adult male hemoglobin is typically about 10–12 g/dL as the normal band",
+        "B) β-thalassemia major is asymptomatic trait with normal hemoglobin always",
+        "C) Adult female hemoglobin is typically about 17–20 g/dL as the routine normal",
+        "D) Adult female hemoglobin is typically about 12.0–15.5 g/dL"
+      ],
+      "answer": "D) Adult female hemoglobin is typically about 12.0–15.5 g/dL",
+      "explanation": "Sex-specific RBC mass sets slightly lower female hemoglobin limits. Therefore, the most accurate choice is: Adult female hemoglobin is typically about 12.0–15.5 g/dL. 17–20 g/dL is high for females and suggests polycythemia.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "17–20 g/dL is high for females and suggests polycythemia. It is less consistent than the correct choice.",
+        "D": "Sex-specific RBC mass sets slightly lower female hemoglobin limits. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:hard:2",
+      "question": "In a detailed discussion of hematocrit, which of the following is most accurate?",
+      "options": [
+        "A) Hematocrit is the absolute neutrophil count in peripheral blood",
+        "B) Hematocrit is the packed red-cell volume fraction of whole blood",
+        "C) Elevated RDW means all RBCs are identical in size by definition",
+        "D) ITP is primary marrow failure of all cell lines by definition"
+      ],
+      "answer": "B) Hematocrit is the packed red-cell volume fraction of whole blood",
+      "explanation": "Hct reflects RBC volume percent of blood. Therefore, the most accurate choice is: Hematocrit is the packed red-cell volume fraction of whole blood. ANC is a white-cell metric, not red-cell volume fraction.",
+      "choice_explanations": {
+        "A": "ANC is a white-cell metric, not red-cell volume fraction. It is less consistent than the correct choice.",
+        "B": "Hct reflects RBC volume percent of blood. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:hard:3",
+      "question": "Which of the following correctly distinguishes key points about MCV microcytosis?",
+      "options": [
+        "A) Low MCV indicates microcytic RBCs such as iron deficiency or thalassemia",
+        "B) High MCV always means iron deficiency as the defining pattern",
+        "C) Elevated RDW means all RBCs are identical in size by definition",
+        "D) Low MCV indicates macrocytic RBCs from B12 deficiency as the definition"
+      ],
+      "answer": "A) Low MCV indicates microcytic RBCs such as iron deficiency or thalassemia",
+      "explanation": "Mean corpuscular volume falls when average RBC size shrinks. Therefore, the most accurate choice is: Low MCV indicates microcytic RBCs such as iron deficiency or thalassemia. B12/folate deficiency raises MCV; it does not define low MCV.",
+      "choice_explanations": {
+        "A": "Mean corpuscular volume falls when average RBC size shrinks. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "B12/folate deficiency raises MCV; it does not define low MCV. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:hard:4",
+      "question": "A clinic case of MCV macrocytosis is discussed. Which of the following is correct?",
+      "options": [
+        "A) Elevated RDW means all RBCs are identical in size by definition",
+        "B) High MCV always means iron deficiency as the defining pattern",
+        "C) High MCV indicates macrocytic RBCs such as B12/folate deficiency or MDS",
+        "D) Low MCV indicates macrocytic RBCs from B12 deficiency as the definition"
+      ],
+      "answer": "C) High MCV indicates macrocytic RBCs such as B12/folate deficiency or MDS",
+      "explanation": "Increased average RBC volume elevates MCV. Therefore, the most accurate choice is: High MCV indicates macrocytic RBCs such as B12/folate deficiency or MDS. Iron deficiency typically lowers MCV.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Iron deficiency typically lowers MCV. It is less consistent than the correct choice.",
+        "C": "Increased average RBC volume elevates MCV. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:hard:5",
+      "question": "A 41-year-old woman presents with features compatible with MCHC hypochromia. Which of the following is most accurate?",
+      "options": [
+        "A) Low MCHC defines leukocytosis by itself",
+        "B) Low MCV indicates macrocytic RBCs from B12 deficiency as the definition",
+        "C) Low MCHC reflects decreased hemoglobin concentration within RBCs",
+        "D) HS shows target cells with low MCHC as the defining triad"
+      ],
+      "answer": "C) Low MCHC reflects decreased hemoglobin concentration within RBCs",
+      "explanation": "MCHC estimates average Hb concentration in RBCs. Therefore, the most accurate choice is: Low MCHC reflects decreased hemoglobin concentration within RBCs. Leukocytosis is a WBC finding, not low MCHC.",
+      "choice_explanations": {
+        "A": "Leukocytosis is a WBC finding, not low MCHC. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "MCHC estimates average Hb concentration in RBCs. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:hard:6",
+      "question": "After examining a 68-year-old man, which statement about reticulocyte response is correct?",
+      "options": [
+        "A) Elevated reticulocytes indicate marrow response to anemia or blood loss",
+        "B) Elevated reticulocytes always prove marrow aplasia",
+        "C) Aplastic anemia shows panhypercellular marrow with high blood counts",
+        "D) Chronic blood loss typically causes B12 megaloblastic anemia first"
+      ],
+      "answer": "A) Elevated reticulocytes indicate marrow response to anemia or blood loss",
+      "explanation": "Young RBCs rise when erythropoiesis increases. Therefore, the most accurate choice is: Elevated reticulocytes indicate marrow response to anemia or blood loss. Aplasia reduces reticulocytes.",
+      "choice_explanations": {
+        "A": "Young RBCs rise when erythropoiesis increases. This matches the correct interpretation.",
+        "B": "Aplasia reduces reticulocytes. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:hard:7",
+      "question": "A 54-year-old man is evaluated for possible iron deficiency labs. Which of the following is most accurate?",
+      "options": [
+        "A) Iron deficiency typically shows high ferritin with low TIBC as the classic triad",
+        "B) Hemochromatosis shows low ferritin and high TIBC like iron deficiency",
+        "C) Iron deficiency typically shows low ferritin, low serum iron, and high TIBC",
+        "D) ACD classically shows high TIBC with very low ferritin like iron deficiency"
+      ],
+      "answer": "C) Iron deficiency typically shows low ferritin, low serum iron, and high TIBC",
+      "explanation": "Depleted stores lower ferritin/iron while TIBC rises. Therefore, the most accurate choice is: Iron deficiency typically shows low ferritin, low serum iron, and high TIBC. High ferritin/low TIBC fits anemia of chronic disease.",
+      "choice_explanations": {
+        "A": "High ferritin/low TIBC fits anemia of chronic disease. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Depleted stores lower ferritin/iron while TIBC rises. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:hard:8",
+      "question": "Two similar explanations for anemia of chronic disease are compared. Which of the following is correct?",
+      "options": [
+        "A) ACD classically shows high TIBC with very low ferritin like iron deficiency",
+        "B) Hemochromatosis shows low ferritin and high TIBC like iron deficiency",
+        "C) Iron deficiency typically shows high ferritin with low TIBC as the classic triad",
+        "D) ACD often shows low serum iron, low/normal TIBC, and normal/high ferritin"
+      ],
+      "answer": "D) ACD often shows low serum iron, low/normal TIBC, and normal/high ferritin",
+      "explanation": "Hepcidin-mediated sequestration conserves stores so ferritin is not low. Therefore, the most accurate choice is: ACD often shows low serum iron, low/normal TIBC, and normal/high ferritin. Very low ferritin with high TIBC points to iron deficiency.",
+      "choice_explanations": {
+        "A": "Very low ferritin with high TIBC points to iron deficiency. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Hepcidin-mediated sequestration conserves stores so ferritin is not low. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:hard:9",
+      "question": "In a 43-year-old woman, b12 deficiency anemia must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) B12 deficiency causes microcytic hypochromic anemia like iron deficiency",
+        "B) Chronic blood loss typically causes B12 megaloblastic anemia first",
+        "C) Low MCV indicates macrocytic RBCs from B12 deficiency as the definition",
+        "D) B12 deficiency causes megaloblastic macrocytic anemia with hypersegmented neutrophils"
+      ],
+      "answer": "D) B12 deficiency causes megaloblastic macrocytic anemia with hypersegmented neutrophils",
+      "explanation": "Impaired DNA synthesis yields large RBCs and neutrophil hypersegmentation. Therefore, the most accurate choice is: B12 deficiency causes megaloblastic macrocytic anemia with hypersegmented neutrophils. Microcytic hypochromic anemia is iron/thalassemia territory.",
+      "choice_explanations": {
+        "A": "Microcytic hypochromic anemia is iron/thalassemia territory. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Impaired DNA synthesis yields large RBCs and neutrophil hypersegmentation. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:hard:10",
+      "question": "A 67-year-old woman returns for review of suspected folate vs B12 neuropathy. Which of the following is most accurate?",
+      "options": [
+        "A) Folate deficiency causes megaloblastic anemia without classic B12 neuropathy",
+        "B) B12 deficiency causes microcytic hypochromic anemia like iron deficiency",
+        "C) Chronic blood loss typically causes B12 megaloblastic anemia first",
+        "D) Folate deficiency uniquely causes subacute combined degeneration as its hallmark"
+      ],
+      "answer": "A) Folate deficiency causes megaloblastic anemia without classic B12 neuropathy",
+      "explanation": "Both cause megaloblastic anemia; SCD neuropathy is characteristically B12-related. Therefore, the most accurate choice is: Folate deficiency causes megaloblastic anemia without classic B12 neuropathy. Subacute combined degeneration is the classic B12 neurologic syndrome.",
+      "choice_explanations": {
+        "A": "Both cause megaloblastic anemia; SCD neuropathy is characteristically B12-related. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Subacute combined degeneration is the classic B12 neurologic syndrome. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:hard:11",
+      "question": "A clinic case of thalassemia trait CBC is discussed. Which of the following is correct?",
+      "options": [
+        "A) Thalassemia trait shows macrocytosis with very high MCV as the usual clue",
+        "B) ACD classically shows high TIBC with very low ferritin like iron deficiency",
+        "C) Thalassemia trait often shows marked microcytosis with relatively preserved RBC count",
+        "D) High MCV always means iron deficiency as the defining pattern"
+      ],
+      "answer": "C) Thalassemia trait often shows marked microcytosis with relatively preserved RBC count",
+      "explanation": "Globin imbalance shrinks RBCs while RBC count often stays relatively high. Therefore, the most accurate choice is: Thalassemia trait often shows marked microcytosis with relatively preserved RBC count. Macrocytosis is not the typical thalassemia-trait pattern.",
+      "choice_explanations": {
+        "A": "Macrocytosis is not the typical thalassemia-trait pattern. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Globin imbalance shrinks RBCs while RBC count often stays relatively high. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:hard:12",
+      "question": "A 51-year-old woman presents with features compatible with sickle cell Hb S. Which of the following is most accurate?",
+      "options": [
+        "A) Sickle cell disease features HbS polymerization under deoxygenation",
+        "B) Sickle cell disease is caused by excess HbA2 alone without HbS",
+        "C) Increased osmotic fragility specifically diagnoses sickle cell disease",
+        "D) Sickle solubility testing alone fully subtypes all hemoglobinopathies"
+      ],
+      "answer": "A) Sickle cell disease features HbS polymerization under deoxygenation",
+      "explanation": "β-globin Val substitution creates HbS polymers that distort deoxygenated RBCs. Therefore, the most accurate choice is: Sickle cell disease features HbS polymerization under deoxygenation. HbA2 elevation is a β-thalassemia clue; sickle centers on HbS.",
+      "choice_explanations": {
+        "A": "β-globin Val substitution creates HbS polymers that distort deoxygenated RBCs. This matches the correct interpretation.",
+        "B": "HbA2 elevation is a β-thalassemia clue; sickle centers on HbS. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:hard:13",
+      "question": "After examining a 53-year-old woman, which statement about g6PD hemolysis trigger is correct?",
+      "options": [
+        "A) High MCV always means iron deficiency as the defining pattern",
+        "B) G6PD deficiency hemolysis is triggered only by vitamin B12 injections",
+        "C) G6PD deficiency hemolysis is often triggered by oxidant stress such as primaquine, infection, or fava beans",
+        "D) Low MCV indicates macrocytic RBCs from B12 deficiency as the definition"
+      ],
+      "answer": "C) G6PD deficiency hemolysis is often triggered by oxidant stress such as primaquine, infection, or fava beans",
+      "explanation": "Reduced NADPH impairs RBC antioxidant defense under oxidant stress. Therefore, the most accurate choice is: G6PD deficiency hemolysis is often triggered by oxidant stress such as primaquine, infection, or fava beans. B12 injections are not the classic oxidant trigger.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "B12 injections are not the classic oxidant trigger. It is less consistent than the correct choice.",
+        "C": "Reduced NADPH impairs RBC antioxidant defense under oxidant stress. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:hard:14",
+      "question": "A 69-year-old woman is evaluated for possible hereditary spherocytosis clue. Which of the following is most accurate?",
+      "options": [
+        "A) Increased osmotic fragility specifically diagnoses sickle cell disease",
+        "B) HS shows target cells with low MCHC as the defining triad",
+        "C) Hemochromatosis shows low ferritin and high TIBC like iron deficiency",
+        "D) HS shows spherocytes, increased MCHC, and increased osmotic fragility"
+      ],
+      "answer": "D) HS shows spherocytes, increased MCHC, and increased osmotic fragility",
+      "explanation": "Membrane defects yield spherocytes that lyse more readily in hypotonic media. Therefore, the most accurate choice is: HS shows spherocytes, increased MCHC, and increased osmotic fragility. Target cells with low MCHC are not the classic HS signature.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Target cells with low MCHC are not the classic HS signature. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Membrane defects yield spherocytes that lyse more readily in hypotonic media. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:hard:15",
+      "question": "Two similar explanations for warm AIHA antibody are compared. Which of the following is correct?",
+      "options": [
+        "A) Warm AIHA is typically IgG-mediated and reacts best at 37°C",
+        "B) Cold agglutinin disease is IgG warm antibody disease reacting only at 37°C",
+        "C) PNH is warm IgG AIHA without complement sensitivity",
+        "D) Warm AIHA is typically IgM cold agglutinin disease by definition"
+      ],
+      "answer": "A) Warm AIHA is typically IgG-mediated and reacts best at 37°C",
+      "explanation": "IgG autoantibodies bind RBCs at body temperature causing extravascular hemolysis. Therefore, the most accurate choice is: Warm AIHA is typically IgG-mediated and reacts best at 37°C. Cold agglutinin disease is IgM/complement in the cold.",
+      "choice_explanations": {
+        "A": "IgG autoantibodies bind RBCs at body temperature causing extravascular hemolysis. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Cold agglutinin disease is IgM/complement in the cold. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:hard:16",
+      "question": "In a 49-year-old woman, cold agglutinin disease must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) Cold agglutinin disease involves IgM antibodies binding RBCs in the cold with complement",
+        "B) DAT detects unexpected alloantibodies in plasma like an antibody screen",
+        "C) Warm AIHA is typically IgM cold agglutinin disease by definition",
+        "D) Cold agglutinin disease is IgG warm antibody disease reacting only at 37°C"
+      ],
+      "answer": "A) Cold agglutinin disease involves IgM antibodies binding RBCs in the cold with complement",
+      "explanation": "Cold-reactive IgM fixes complement causing cold agglutination and hemolysis. Therefore, the most accurate choice is: Cold agglutinin disease involves IgM antibodies binding RBCs in the cold with complement. Warm AIHA is IgG at 37°C.",
+      "choice_explanations": {
+        "A": "Cold-reactive IgM fixes complement causing cold agglutination and hemolysis. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Warm AIHA is IgG at 37°C. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:hard:17",
+      "question": "A 68-year-old man returns for review of suspected MAHA schistocytes. Which of the following is most accurate?",
+      "options": [
+        "A) CML is defined by JAK2 V617F alone without BCR-ABL1",
+        "B) Microangiopathic hemolytic anemia shows schistocytes on the blood smear",
+        "C) MAHA is defined by rouleaux formation alone without fragments",
+        "D) CLL is defined by schistocytes and thrombocytopenia alone"
+      ],
+      "answer": "B) Microangiopathic hemolytic anemia shows schistocytes on the blood smear",
+      "explanation": "Shearing in damaged microvasculature produces fragmented schistocytes. Therefore, the most accurate choice is: Microangiopathic hemolytic anemia shows schistocytes on the blood smear. Rouleaux suggest high protein states, not MAHA fragments.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Shearing in damaged microvasculature produces fragmented schistocytes. This matches the correct interpretation.",
+        "C": "Rouleaux suggest high protein states, not MAHA fragments. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:hard:18",
+      "question": "A clinic case of DIC lab is discussed. Which of the following is correct?",
+      "options": [
+        "A) DIC classically shows isolated high hematocrit with normal coagulation tests",
+        "B) TTP is vitamin K deficiency with isolated high PT",
+        "C) DIC often shows thrombocytopenia, prolonged PT/aPTT, high D-dimer, and low fibrinogen",
+        "D) ACD classically shows high TIBC with very low ferritin like iron deficiency"
+      ],
+      "answer": "C) DIC often shows thrombocytopenia, prolonged PT/aPTT, high D-dimer, and low fibrinogen",
+      "explanation": "Widespread thrombin generation consumes platelets and factors and yields FDPs. Therefore, the most accurate choice is: DIC often shows thrombocytopenia, prolonged PT/aPTT, high D-dimer, and low fibrinogen. Isolated high hematocrit is not consumptive DIC.",
+      "choice_explanations": {
+        "A": "Isolated high hematocrit is not consumptive DIC. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Widespread thrombin generation consumes platelets and factors and yields FDPs. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:hard:19",
+      "question": "Which statement about ITP is most accurate?",
+      "options": [
+        "A) HIT type II is a benign non-immune platelet dip without thrombosis risk",
+        "B) ITP is primary marrow failure of all cell lines by definition",
+        "C) DIC classically shows isolated high hematocrit with normal coagulation tests",
+        "D) ITP is immune-mediated platelet destruction, often with isolated thrombocytopenia"
+      ],
+      "answer": "D) ITP is immune-mediated platelet destruction, often with isolated thrombocytopenia",
+      "explanation": "Autoantibodies accelerate platelet clearance, often sparing other lineages initially. Therefore, the most accurate choice is: ITP is immune-mediated platelet destruction, often with isolated thrombocytopenia. Pancytopenia from marrow failure differs from typical isolated ITP.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Pancytopenia from marrow failure differs from typical isolated ITP. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Autoantibodies accelerate platelet clearance, often sparing other lineages initially. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:hard:20",
+      "question": "Which statement about TTP ADAMTS13 in a 30-year-old man is most accurate?",
+      "options": [
+        "A) High MPV specifically diagnoses factor XIII deficiency",
+        "B) DIC classically shows isolated high hematocrit with normal coagulation tests",
+        "C) TTP features MAHA, thrombocytopenia, and organ ischemia from ADAMTS13 deficiency",
+        "D) TTP is vitamin K deficiency with isolated high PT"
+      ],
+      "answer": "C) TTP features MAHA, thrombocytopenia, and organ ischemia from ADAMTS13 deficiency",
+      "explanation": "Uncleaved ultra-large vWF multimers cause platelet microthrombi and RBC fragments. Therefore, the most accurate choice is: TTP features MAHA, thrombocytopenia, and organ ischemia from ADAMTS13 deficiency. Vitamin K deficiency alters PT/factors, not ADAMTS13 microangiopathy.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Uncleaved ultra-large vWF multimers cause platelet microthrombi and RBC fragments. This matches the correct interpretation.",
+        "D": "Vitamin K deficiency alters PT/factors, not ADAMTS13 microangiopathy. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:hard:21",
+      "question": "After examining a 41-year-old woman, which statement about HUS vs TTP is correct?",
+      "options": [
+        "A) Typical HUS is often Shiga-toxin–associated with prominent renal failure",
+        "B) TTP is vitamin K deficiency with isolated high PT",
+        "C) ITP is primary marrow failure of all cell lines by definition",
+        "D) Typical HUS is primarily ADAMTS13 activity under 10% without a diarrheal trigger"
+      ],
+      "answer": "A) Typical HUS is often Shiga-toxin–associated with prominent renal failure",
+      "explanation": "STEC can trigger endothelial injury and renal-predominant TMA. Therefore, the most accurate choice is: Typical HUS is often Shiga-toxin–associated with prominent renal failure. Severe ADAMTS13 deficiency defines TTP more than classic D+ HUS.",
+      "choice_explanations": {
+        "A": "STEC can trigger endothelial injury and renal-predominant TMA. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Severe ADAMTS13 deficiency defines TTP more than classic D+ HUS. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:hard:22",
+      "question": "Careful review of left shift neutrophils is required. Which of the following is most accurate?",
+      "options": [
+        "A) Left shift means increased mature lymphocytes only by definition",
+        "B) Elevated RDW means all RBCs are identical in size by definition",
+        "C) Left shift means increased immature neutrophils such as bands in infection or stress",
+        "D) Right shift always means CO poisoning left-shift physiology"
+      ],
+      "answer": "C) Left shift means increased immature neutrophils such as bands in infection or stress",
+      "explanation": "Marrow releases younger granulocytes when neutrophil demand rises. Therefore, the most accurate choice is: Left shift means increased immature neutrophils such as bands in infection or stress. Lymphocytosis differs from neutrophilic left shift.",
+      "choice_explanations": {
+        "A": "Lymphocytosis differs from neutrophilic left shift. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Marrow releases younger granulocytes when neutrophil demand rises. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:hard:23",
+      "question": "A 69-year-old woman has findings suggestive of neutropenia infection risk. Which of the following is the best interpretation?",
+      "options": [
+        "A) Severe neutropenia markedly increases risk of bacterial and fungal infection",
+        "B) Antithrombin deficiency causes mucocutaneous bleeding like ITP",
+        "C) Factor V Leiden causes severe hemophilia A bleeding",
+        "D) Severe neutropenia primarily causes immediate thrombosis as its main risk"
+      ],
+      "answer": "A) Severe neutropenia markedly increases risk of bacterial and fungal infection",
+      "explanation": "Neutrophils kill bacteria and fungi; profound neutropenia leaves patients vulnerable. Therefore, the most accurate choice is: Severe neutropenia markedly increases risk of bacterial and fungal infection. Thrombosis risk relates more to platelets and coagulation.",
+      "choice_explanations": {
+        "A": "Neutrophils kill bacteria and fungi; profound neutropenia leaves patients vulnerable. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Thrombosis risk relates more to platelets and coagulation. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:hard:24",
+      "question": "In a 55-year-old woman, eosinophilia associations must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) Eosinophilia suggests allergy, parasites, drugs, or some neoplasms",
+        "B) Eosinophilia specifically proves iron deficiency anemia",
+        "C) High MPV specifically diagnoses factor XIII deficiency",
+        "D) Basophilia specifically diagnoses iron deficiency"
+      ],
+      "answer": "A) Eosinophilia suggests allergy, parasites, drugs, or some neoplasms",
+      "explanation": "IL-5–driven eosinophil expansion occurs in allergic, parasitic, and clonal settings. Therefore, the most accurate choice is: Eosinophilia suggests allergy, parasites, drugs, or some neoplasms. Iron deficiency is a red-cell disorder, not what eosinophilia proves.",
+      "choice_explanations": {
+        "A": "IL-5–driven eosinophil expansion occurs in allergic, parasitic, and clonal settings. This matches the correct interpretation.",
+        "B": "Iron deficiency is a red-cell disorder, not what eosinophilia proves. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:hard:25",
+      "question": "A 61-year-old woman returns for review of suspected basophilia CML. Which of the following is most accurate?",
+      "options": [
+        "A) ACD classically shows high TIBC with very low ferritin like iron deficiency",
+        "B) Basophilia specifically diagnoses iron deficiency",
+        "C) Basophilia can be a clue to CML among chronic myeloid disorders",
+        "D) D-dimer specifically diagnoses iron deficiency with certainty"
+      ],
+      "answer": "C) Basophilia can be a clue to CML among chronic myeloid disorders",
+      "explanation": "CML often shows leukocytosis with left shift and absolute basophilia. Therefore, the most accurate choice is: Basophilia can be a clue to CML among chronic myeloid disorders. Iron deficiency does not present as diagnostic basophilia.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Iron deficiency does not present as diagnostic basophilia. It is less consistent than the correct choice.",
+        "C": "CML often shows leukocytosis with left shift and absolute basophilia. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:hard:26",
+      "question": "A clinic case of CLL smudge cells is discussed. Which of the following is correct?",
+      "options": [
+        "A) CLL often shows absolute lymphocytosis with smudge cells on the smear",
+        "B) MAHA is defined by rouleaux formation alone without fragments",
+        "C) Myeloma is defined by isolated neutrophilia without protein findings",
+        "D) CLL is defined by schistocytes and thrombocytopenia alone"
+      ],
+      "answer": "A) CLL often shows absolute lymphocytosis with smudge cells on the smear",
+      "explanation": "Clonal mature B lymphocytes accumulate; fragile cells smear as smudge cells. Therefore, the most accurate choice is: CLL often shows absolute lymphocytosis with smudge cells on the smear. Schistocytes point to MAHA, not CLL.",
+      "choice_explanations": {
+        "A": "Clonal mature B lymphocytes accumulate; fragile cells smear as smudge cells. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Schistocytes point to MAHA, not CLL. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:hard:27",
+      "question": "A 46-year-old man presents with features compatible with AML blast concept. Which of the following is most accurate?",
+      "options": [
+        "A) AML is diagnosed solely by high reticulocyte count",
+        "B) Auer rods prove a pure lymphoid blast lineage",
+        "C) AML diagnosis centers on significant myeloid blast burden or abnormal promyelocytes",
+        "D) PNH is diagnosed solely by sickle solubility testing"
+      ],
+      "answer": "C) AML diagnosis centers on significant myeloid blast burden or abnormal promyelocytes",
+      "explanation": "Neoplastic myeloid blasts replace normal hematopoiesis. Therefore, the most accurate choice is: AML diagnosis centers on significant myeloid blast burden or abnormal promyelocytes. Reticulocytosis reflects RBC response, not AML criteria.",
+      "choice_explanations": {
+        "A": "Reticulocytosis reflects RBC response, not AML criteria. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Neoplastic myeloid blasts replace normal hematopoiesis. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:hard:28",
+      "question": "Which statement about auer rods in a 69-year-old woman is most accurate?",
+      "options": [
+        "A) Auer rods support myeloid rather than lymphoid blast lineage",
+        "B) Classic Hodgkin is defined by Auer rods in blasts",
+        "C) Auer rods prove a pure lymphoid blast lineage",
+        "D) HbC crystals are identical to Auer rods in myeloid blasts"
+      ],
+      "answer": "A) Auer rods support myeloid rather than lymphoid blast lineage",
+      "explanation": "Fused azurophilic granules form needle-like rods in myeloid blasts. Therefore, the most accurate choice is: Auer rods support myeloid rather than lymphoid blast lineage. Lymphoid blasts do not form Auer rods.",
+      "choice_explanations": {
+        "A": "Fused azurophilic granules form needle-like rods in myeloid blasts. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Lymphoid blasts do not form Auer rods. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:hard:29",
+      "question": "Which of the following is the best statement about APL coagulopathy?",
+      "options": [
+        "A) Typical HUS is primarily ADAMTS13 activity under 10% without a diarrheal trigger",
+        "B) Folate deficiency uniquely causes subacute combined degeneration as its hallmark",
+        "C) APL is associated with life-threatening DIC and fibrinolysis",
+        "D) APL uniquely causes isolated polycythemia without coagulopathy"
+      ],
+      "answer": "C) APL is associated with life-threatening DIC and fibrinolysis",
+      "explanation": "Abnormal promyelocytes trigger consumptive coagulopathy needing urgent therapy. Therefore, the most accurate choice is: APL is associated with life-threatening DIC and fibrinolysis. Polycythemia is not the APL presentation.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Abnormal promyelocytes trigger consumptive coagulopathy needing urgent therapy. This matches the correct interpretation.",
+        "D": "Polycythemia is not the APL presentation. It is less consistent than the correct choice."
+      }
+    }
+  ],
+  "extreme": [
+    {
+      "id": "hematology:extreme:0",
+      "question": "A 45-year-old woman has a complex presentation of adult male hemoglobin reference. Which of the following is most accurate?",
+      "options": [
+        "A) Adult male hemoglobin is typically about 13.5–17.5 g/dL",
+        "B) Adult female hemoglobin is typically about 17–20 g/dL as the routine normal",
+        "C) Hemoglobin always drops maximally within minutes of acute bleeding before fluids",
+        "D) Adult male hemoglobin is typically about 10–12 g/dL as the normal band"
+      ],
+      "answer": "A) Adult male hemoglobin is typically about 13.5–17.5 g/dL",
+      "explanation": "Circulating RBC hemoglobin defines the g/dL CBC reference interval. Therefore, the most accurate choice is: Adult male hemoglobin is typically about 13.5–17.5 g/dL. 10–12 g/dL is anemic for most adult males, not the usual normal range.",
+      "choice_explanations": {
+        "A": "Circulating RBC hemoglobin defines the g/dL CBC reference interval. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "10–12 g/dL is anemic for most adult males, not the usual normal range. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:extreme:1",
+      "question": "A 48-year-old man is reassessed after incomplete response related to adult female hemoglobin reference. Which of the following is most accurate?",
+      "options": [
+        "A) Hemoglobin always drops maximally within minutes of acute bleeding before fluids",
+        "B) Adult female hemoglobin is typically about 17–20 g/dL as the routine normal",
+        "C) Adult male hemoglobin is typically about 10–12 g/dL as the normal band",
+        "D) Adult female hemoglobin is typically about 12.0–15.5 g/dL"
+      ],
+      "answer": "D) Adult female hemoglobin is typically about 12.0–15.5 g/dL",
+      "explanation": "Sex-specific RBC mass sets slightly lower female hemoglobin limits. Therefore, the most accurate choice is: Adult female hemoglobin is typically about 12.0–15.5 g/dL. 17–20 g/dL is high for females and suggests polycythemia.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "17–20 g/dL is high for females and suggests polycythemia. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Sex-specific RBC mass sets slightly lower female hemoglobin limits. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:extreme:2",
+      "question": "Which of the following is the most precise statement about hematocrit?",
+      "options": [
+        "A) Elevated RDW means all RBCs are identical in size by definition",
+        "B) Hematocrit is the packed red-cell volume fraction of whole blood",
+        "C) Hematocrit is the absolute neutrophil count in peripheral blood",
+        "D) ITP is primary marrow failure of all cell lines by definition"
+      ],
+      "answer": "B) Hematocrit is the packed red-cell volume fraction of whole blood",
+      "explanation": "Hct reflects RBC volume percent of blood. Therefore, the most accurate choice is: Hematocrit is the packed red-cell volume fraction of whole blood. ANC is a white-cell metric, not red-cell volume fraction.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Hct reflects RBC volume percent of blood. This matches the correct interpretation.",
+        "C": "ANC is a white-cell metric, not red-cell volume fraction. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:extreme:3",
+      "question": "In advanced review of MCV microcytosis, which of the following is most accurate?",
+      "options": [
+        "A) Elevated RDW means all RBCs are identical in size by definition",
+        "B) High MCV always means iron deficiency as the defining pattern",
+        "C) Low MCV indicates microcytic RBCs such as iron deficiency or thalassemia",
+        "D) Low MCV indicates macrocytic RBCs from B12 deficiency as the definition"
+      ],
+      "answer": "C) Low MCV indicates microcytic RBCs such as iron deficiency or thalassemia",
+      "explanation": "Mean corpuscular volume falls when average RBC size shrinks. Therefore, the most accurate choice is: Low MCV indicates microcytic RBCs such as iron deficiency or thalassemia. B12/folate deficiency raises MCV; it does not define low MCV.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Mean corpuscular volume falls when average RBC size shrinks. This matches the correct interpretation.",
+        "D": "B12/folate deficiency raises MCV; it does not define low MCV. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:extreme:4",
+      "question": "In a 34-year-old man, distinguishing MCV macrocytosis from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Elevated RDW means all RBCs are identical in size by definition",
+        "B) High MCV indicates macrocytic RBCs such as B12/folate deficiency or MDS",
+        "C) Low MCV indicates macrocytic RBCs from B12 deficiency as the definition",
+        "D) High MCV always means iron deficiency as the defining pattern"
+      ],
+      "answer": "B) High MCV indicates macrocytic RBCs such as B12/folate deficiency or MDS",
+      "explanation": "Increased average RBC volume elevates MCV. Therefore, the most accurate choice is: High MCV indicates macrocytic RBCs such as B12/folate deficiency or MDS. Iron deficiency typically lowers MCV.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Increased average RBC volume elevates MCV. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Iron deficiency typically lowers MCV. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:extreme:5",
+      "question": "A 41-year-old woman returns with ongoing problems related to MCHC hypochromia. Which of the following is most accurate?",
+      "options": [
+        "A) Low MCHC reflects decreased hemoglobin concentration within RBCs",
+        "B) Low MCHC defines leukocytosis by itself",
+        "C) HS shows target cells with low MCHC as the defining triad",
+        "D) Low MCV indicates macrocytic RBCs from B12 deficiency as the definition"
+      ],
+      "answer": "A) Low MCHC reflects decreased hemoglobin concentration within RBCs",
+      "explanation": "MCHC estimates average Hb concentration in RBCs. Therefore, the most accurate choice is: Low MCHC reflects decreased hemoglobin concentration within RBCs. Leukocytosis is a WBC finding, not low MCHC.",
+      "choice_explanations": {
+        "A": "MCHC estimates average Hb concentration in RBCs. This matches the correct interpretation.",
+        "B": "Leukocytosis is a WBC finding, not low MCHC. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:extreme:6",
+      "question": "Which of the following is the central point about RDW anisocytosis?",
+      "options": [
+        "A) Low MCV indicates macrocytic RBCs from B12 deficiency as the definition",
+        "B) Elevated RDW indicates increased RBC size variation (anisocytosis)",
+        "C) High MCV always means iron deficiency as the defining pattern",
+        "D) Elevated RDW means all RBCs are identical in size by definition"
+      ],
+      "answer": "B) Elevated RDW indicates increased RBC size variation (anisocytosis)",
+      "explanation": "RDW quantifies heterogeneity of RBC volumes. Therefore, the most accurate choice is: Elevated RDW indicates increased RBC size variation (anisocytosis). Identical sizes produce low/normal RDW.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "RDW quantifies heterogeneity of RBC volumes. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Identical sizes produce low/normal RDW. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:extreme:7",
+      "question": "Which statement about reticulocyte response in a 68-year-old man is most accurate?",
+      "options": [
+        "A) Elevated reticulocytes indicate marrow response to anemia or blood loss",
+        "B) Aplastic anemia shows panhypercellular marrow with high blood counts",
+        "C) Chronic blood loss typically causes B12 megaloblastic anemia first",
+        "D) Elevated reticulocytes always prove marrow aplasia"
+      ],
+      "answer": "A) Elevated reticulocytes indicate marrow response to anemia or blood loss",
+      "explanation": "Young RBCs rise when erythropoiesis increases. Therefore, the most accurate choice is: Elevated reticulocytes indicate marrow response to anemia or blood loss. Aplasia reduces reticulocytes.",
+      "choice_explanations": {
+        "A": "Young RBCs rise when erythropoiesis increases. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Aplasia reduces reticulocytes. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:extreme:8",
+      "question": "A 54-year-old man has a complex presentation of iron deficiency labs. Which of the following is most accurate?",
+      "options": [
+        "A) Iron deficiency typically shows high ferritin with low TIBC as the classic triad",
+        "B) ACD classically shows high TIBC with very low ferritin like iron deficiency",
+        "C) Hemochromatosis shows low ferritin and high TIBC like iron deficiency",
+        "D) Iron deficiency typically shows low ferritin, low serum iron, and high TIBC"
+      ],
+      "answer": "D) Iron deficiency typically shows low ferritin, low serum iron, and high TIBC",
+      "explanation": "Depleted stores lower ferritin/iron while TIBC rises. Therefore, the most accurate choice is: Iron deficiency typically shows low ferritin, low serum iron, and high TIBC. High ferritin/low TIBC fits anemia of chronic disease.",
+      "choice_explanations": {
+        "A": "High ferritin/low TIBC fits anemia of chronic disease. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Depleted stores lower ferritin/iron while TIBC rises. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:extreme:9",
+      "question": "Management of anemia of chronic disease is reviewed for a 28-year-old man. Which of the following is most accurate?",
+      "options": [
+        "A) Hemochromatosis shows low ferritin and high TIBC like iron deficiency",
+        "B) ACD classically shows high TIBC with very low ferritin like iron deficiency",
+        "C) ACD often shows low serum iron, low/normal TIBC, and normal/high ferritin",
+        "D) Iron deficiency typically shows high ferritin with low TIBC as the classic triad"
+      ],
+      "answer": "C) ACD often shows low serum iron, low/normal TIBC, and normal/high ferritin",
+      "explanation": "Hepcidin-mediated sequestration conserves stores so ferritin is not low. Therefore, the most accurate choice is: ACD often shows low serum iron, low/normal TIBC, and normal/high ferritin. Very low ferritin with high TIBC points to iron deficiency.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Very low ferritin with high TIBC points to iron deficiency. It is less consistent than the correct choice.",
+        "C": "Hepcidin-mediated sequestration conserves stores so ferritin is not low. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:extreme:10",
+      "question": "A detailed evaluation for b12 deficiency anemia is underway in a 43-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) B12 deficiency causes microcytic hypochromic anemia like iron deficiency",
+        "B) Chronic blood loss typically causes B12 megaloblastic anemia first",
+        "C) Hypersegmentation specifically proves CML chronic phase",
+        "D) B12 deficiency causes megaloblastic macrocytic anemia with hypersegmented neutrophils"
+      ],
+      "answer": "D) B12 deficiency causes megaloblastic macrocytic anemia with hypersegmented neutrophils",
+      "explanation": "Impaired DNA synthesis yields large RBCs and neutrophil hypersegmentation. Therefore, the most accurate choice is: B12 deficiency causes megaloblastic macrocytic anemia with hypersegmented neutrophils. Microcytic hypochromic anemia is iron/thalassemia territory.",
+      "choice_explanations": {
+        "A": "Microcytic hypochromic anemia is iron/thalassemia territory. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Impaired DNA synthesis yields large RBCs and neutrophil hypersegmentation. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:extreme:11",
+      "question": "A 67-year-old woman has findings that make folate vs B12 neuropathy hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Folate deficiency uniquely causes subacute combined degeneration as its hallmark",
+        "B) Chronic blood loss typically causes B12 megaloblastic anemia first",
+        "C) Folate deficiency causes megaloblastic anemia without classic B12 neuropathy",
+        "D) B12 deficiency causes microcytic hypochromic anemia like iron deficiency"
+      ],
+      "answer": "C) Folate deficiency causes megaloblastic anemia without classic B12 neuropathy",
+      "explanation": "Both cause megaloblastic anemia; SCD neuropathy is characteristically B12-related. Therefore, the most accurate choice is: Folate deficiency causes megaloblastic anemia without classic B12 neuropathy. Subacute combined degeneration is the classic B12 neurologic syndrome.",
+      "choice_explanations": {
+        "A": "Subacute combined degeneration is the classic B12 neurologic syndrome. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Both cause megaloblastic anemia; SCD neuropathy is characteristically B12-related. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:extreme:12",
+      "question": "In a 57-year-old woman, distinguishing thalassemia trait CBC from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) ACD classically shows high TIBC with very low ferritin like iron deficiency",
+        "B) Thalassemia trait shows macrocytosis with very high MCV as the usual clue",
+        "C) Low MCV indicates macrocytic RBCs from B12 deficiency as the definition",
+        "D) Thalassemia trait often shows marked microcytosis with relatively preserved RBC count"
+      ],
+      "answer": "D) Thalassemia trait often shows marked microcytosis with relatively preserved RBC count",
+      "explanation": "Globin imbalance shrinks RBCs while RBC count often stays relatively high. Therefore, the most accurate choice is: Thalassemia trait often shows marked microcytosis with relatively preserved RBC count. Macrocytosis is not the typical thalassemia-trait pattern.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Macrocytosis is not the typical thalassemia-trait pattern. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Globin imbalance shrinks RBCs while RBC count often stays relatively high. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:extreme:13",
+      "question": "A 51-year-old woman returns with ongoing problems related to sickle cell Hb S. Which of the following is most accurate?",
+      "options": [
+        "A) Sickle cell disease features HbS polymerization under deoxygenation",
+        "B) Sickle solubility testing alone fully subtypes all hemoglobinopathies",
+        "C) Sickle cell disease is caused by excess HbA2 alone without HbS",
+        "D) Increased osmotic fragility specifically diagnoses sickle cell disease"
+      ],
+      "answer": "A) Sickle cell disease features HbS polymerization under deoxygenation",
+      "explanation": "β-globin Val substitution creates HbS polymers that distort deoxygenated RBCs. Therefore, the most accurate choice is: Sickle cell disease features HbS polymerization under deoxygenation. HbA2 elevation is a β-thalassemia clue; sickle centers on HbS.",
+      "choice_explanations": {
+        "A": "β-globin Val substitution creates HbS polymers that distort deoxygenated RBCs. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "HbA2 elevation is a β-thalassemia clue; sickle centers on HbS. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:extreme:14",
+      "question": "Which of the following is the central point about hb electrophoresis role?",
+      "options": [
+        "A) PNH is diagnosed solely by sickle solubility testing",
+        "B) Sickle cell disease is caused by excess HbA2 alone without HbS",
+        "C) Sickle solubility testing alone fully subtypes all hemoglobinopathies",
+        "D) Hb electrophoresis or HPLC identifies and quantifies hemoglobin variants"
+      ],
+      "answer": "D) Hb electrophoresis or HPLC identifies and quantifies hemoglobin variants",
+      "explanation": "Separation methods distinguish HbA, S, C, and F for characterization. Therefore, the most accurate choice is: Hb electrophoresis or HPLC identifies and quantifies hemoglobin variants. Solubility screens sickling Hb but does not fully subtype all variants.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Solubility screens sickling Hb but does not fully subtype all variants. It is less consistent than the correct choice.",
+        "D": "Separation methods distinguish HbA, S, C, and F for characterization. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:extreme:15",
+      "question": "Which statement about g6PD hemolysis trigger in a 53-year-old woman is most accurate?",
+      "options": [
+        "A) G6PD deficiency hemolysis is triggered only by vitamin B12 injections",
+        "B) Low MCV indicates macrocytic RBCs from B12 deficiency as the definition",
+        "C) G6PD deficiency hemolysis is often triggered by oxidant stress such as primaquine, infection, or fava beans",
+        "D) High MCV always means iron deficiency as the defining pattern"
+      ],
+      "answer": "C) G6PD deficiency hemolysis is often triggered by oxidant stress such as primaquine, infection, or fava beans",
+      "explanation": "Reduced NADPH impairs RBC antioxidant defense under oxidant stress. Therefore, the most accurate choice is: G6PD deficiency hemolysis is often triggered by oxidant stress such as primaquine, infection, or fava beans. B12 injections are not the classic oxidant trigger.",
+      "choice_explanations": {
+        "A": "B12 injections are not the classic oxidant trigger. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Reduced NADPH impairs RBC antioxidant defense under oxidant stress. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:extreme:16",
+      "question": "A 69-year-old woman has a complex presentation of hereditary spherocytosis clue. Which of the following is most accurate?",
+      "options": [
+        "A) HS shows target cells with low MCHC as the defining triad",
+        "B) Increased osmotic fragility specifically diagnoses sickle cell disease",
+        "C) Hemochromatosis shows low ferritin and high TIBC like iron deficiency",
+        "D) HS shows spherocytes, increased MCHC, and increased osmotic fragility"
+      ],
+      "answer": "D) HS shows spherocytes, increased MCHC, and increased osmotic fragility",
+      "explanation": "Membrane defects yield spherocytes that lyse more readily in hypotonic media. Therefore, the most accurate choice is: HS shows spherocytes, increased MCHC, and increased osmotic fragility. Target cells with low MCHC are not the classic HS signature.",
+      "choice_explanations": {
+        "A": "Target cells with low MCHC are not the classic HS signature. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Membrane defects yield spherocytes that lyse more readily in hypotonic media. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:extreme:17",
+      "question": "Small differences in wording about warm AIHA antibody matter. Which of the following is correct?",
+      "options": [
+        "A) Warm AIHA is typically IgM cold agglutinin disease by definition",
+        "B) Warm AIHA is typically IgG-mediated and reacts best at 37°C",
+        "C) PNH is warm IgG AIHA without complement sensitivity",
+        "D) Cold agglutinin disease is IgG warm antibody disease reacting only at 37°C"
+      ],
+      "answer": "B) Warm AIHA is typically IgG-mediated and reacts best at 37°C",
+      "explanation": "IgG autoantibodies bind RBCs at body temperature causing extravascular hemolysis. Therefore, the most accurate choice is: Warm AIHA is typically IgG-mediated and reacts best at 37°C. Cold agglutinin disease is IgM/complement in the cold.",
+      "choice_explanations": {
+        "A": "Cold agglutinin disease is IgM/complement in the cold. It is less consistent than the correct choice.",
+        "B": "IgG autoantibodies bind RBCs at body temperature causing extravascular hemolysis. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:extreme:18",
+      "question": "A detailed evaluation for cold agglutinin disease is underway in a 49-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) Warm AIHA is typically IgM cold agglutinin disease by definition",
+        "B) Cold agglutinin disease involves IgM antibodies binding RBCs in the cold with complement",
+        "C) DAT detects unexpected alloantibodies in plasma like an antibody screen",
+        "D) Cold agglutinin disease is IgG warm antibody disease reacting only at 37°C"
+      ],
+      "answer": "B) Cold agglutinin disease involves IgM antibodies binding RBCs in the cold with complement",
+      "explanation": "Cold-reactive IgM fixes complement causing cold agglutination and hemolysis. Therefore, the most accurate choice is: Cold agglutinin disease involves IgM antibodies binding RBCs in the cold with complement. Warm AIHA is IgG at 37°C.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Cold-reactive IgM fixes complement causing cold agglutination and hemolysis. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Warm AIHA is IgG at 37°C. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:extreme:19",
+      "question": "A 68-year-old man has findings that make MAHA schistocytes hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Microangiopathic hemolytic anemia shows schistocytes on the blood smear",
+        "B) Rouleaux are pathognomonic schistocytes of TTP",
+        "C) MAHA is defined by rouleaux formation alone without fragments",
+        "D) CLL is defined by schistocytes and thrombocytopenia alone"
+      ],
+      "answer": "A) Microangiopathic hemolytic anemia shows schistocytes on the blood smear",
+      "explanation": "Shearing in damaged microvasculature produces fragmented schistocytes. Therefore, the most accurate choice is: Microangiopathic hemolytic anemia shows schistocytes on the blood smear. Rouleaux suggest high protein states, not MAHA fragments.",
+      "choice_explanations": {
+        "A": "Shearing in damaged microvasculature produces fragmented schistocytes. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Rouleaux suggest high protein states, not MAHA fragments. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:extreme:20",
+      "question": "In a 49-year-old woman, distinguishing DIC lab from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) ACD classically shows high TIBC with very low ferritin like iron deficiency",
+        "B) DIC often shows thrombocytopenia, prolonged PT/aPTT, high D-dimer, and low fibrinogen",
+        "C) TTP is vitamin K deficiency with isolated high PT",
+        "D) DIC classically shows isolated high hematocrit with normal coagulation tests"
+      ],
+      "answer": "B) DIC often shows thrombocytopenia, prolonged PT/aPTT, high D-dimer, and low fibrinogen",
+      "explanation": "Widespread thrombin generation consumes platelets and factors and yields FDPs. Therefore, the most accurate choice is: DIC often shows thrombocytopenia, prolonged PT/aPTT, high D-dimer, and low fibrinogen. Isolated high hematocrit is not consumptive DIC.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Widespread thrombin generation consumes platelets and factors and yields FDPs. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Isolated high hematocrit is not consumptive DIC. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:extreme:21",
+      "question": "Which closely related statement about ITP is correct?",
+      "options": [
+        "A) ITP is primary marrow failure of all cell lines by definition",
+        "B) ITP is immune-mediated platelet destruction, often with isolated thrombocytopenia",
+        "C) DIC classically shows isolated high hematocrit with normal coagulation tests",
+        "D) HIT type II is a benign non-immune platelet dip without thrombosis risk"
+      ],
+      "answer": "B) ITP is immune-mediated platelet destruction, often with isolated thrombocytopenia",
+      "explanation": "Autoantibodies accelerate platelet clearance, often sparing other lineages initially. Therefore, the most accurate choice is: ITP is immune-mediated platelet destruction, often with isolated thrombocytopenia. Pancytopenia from marrow failure differs from typical isolated ITP.",
+      "choice_explanations": {
+        "A": "Pancytopenia from marrow failure differs from typical isolated ITP. It is less consistent than the correct choice.",
+        "B": "Autoantibodies accelerate platelet clearance, often sparing other lineages initially. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:extreme:22",
+      "question": "Senior review is requested for TTP ADAMTS13 in a 30-year-old man. Which of the following is correct?",
+      "options": [
+        "A) High MPV specifically diagnoses factor XIII deficiency",
+        "B) TTP is vitamin K deficiency with isolated high PT",
+        "C) TTP features MAHA, thrombocytopenia, and organ ischemia from ADAMTS13 deficiency",
+        "D) DIC classically shows isolated high hematocrit with normal coagulation tests"
+      ],
+      "answer": "C) TTP features MAHA, thrombocytopenia, and organ ischemia from ADAMTS13 deficiency",
+      "explanation": "Uncleaved ultra-large vWF multimers cause platelet microthrombi and RBC fragments. Therefore, the most accurate choice is: TTP features MAHA, thrombocytopenia, and organ ischemia from ADAMTS13 deficiency. Vitamin K deficiency alters PT/factors, not ADAMTS13 microangiopathy.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Vitamin K deficiency alters PT/factors, not ADAMTS13 microangiopathy. It is less consistent than the correct choice.",
+        "C": "Uncleaved ultra-large vWF multimers cause platelet microthrombi and RBC fragments. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:extreme:23",
+      "question": "Which statement about HUS vs TTP in a 41-year-old woman is most accurate?",
+      "options": [
+        "A) Typical HUS is often Shiga-toxin–associated with prominent renal failure",
+        "B) TTP is vitamin K deficiency with isolated high PT",
+        "C) Typical HUS is primarily ADAMTS13 activity under 10% without a diarrheal trigger",
+        "D) ITP is primary marrow failure of all cell lines by definition"
+      ],
+      "answer": "A) Typical HUS is often Shiga-toxin–associated with prominent renal failure",
+      "explanation": "STEC can trigger endothelial injury and renal-predominant TMA. Therefore, the most accurate choice is: Typical HUS is often Shiga-toxin–associated with prominent renal failure. Severe ADAMTS13 deficiency defines TTP more than classic D+ HUS.",
+      "choice_explanations": {
+        "A": "STEC can trigger endothelial injury and renal-predominant TMA. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Severe ADAMTS13 deficiency defines TTP more than classic D+ HUS. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:extreme:24",
+      "question": "Careful reasoning about left shift neutrophils is required. Which of the following is most accurate?",
+      "options": [
+        "A) Right shift always means CO poisoning left-shift physiology",
+        "B) Left shift means increased mature lymphocytes only by definition",
+        "C) Left shift means increased immature neutrophils such as bands in infection or stress",
+        "D) Elevated RDW means all RBCs are identical in size by definition"
+      ],
+      "answer": "C) Left shift means increased immature neutrophils such as bands in infection or stress",
+      "explanation": "Marrow releases younger granulocytes when neutrophil demand rises. Therefore, the most accurate choice is: Left shift means increased immature neutrophils such as bands in infection or stress. Lymphocytosis differs from neutrophilic left shift.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Lymphocytosis differs from neutrophilic left shift. It is less consistent than the correct choice.",
+        "C": "Marrow releases younger granulocytes when neutrophil demand rises. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:extreme:25",
+      "question": "A 69-year-old woman with diabetes and hypertension is reassessed after incomplete response related to neutropenia infection risk. Which of the following is most accurate?",
+      "options": [
+        "A) Antithrombin deficiency causes mucocutaneous bleeding like ITP",
+        "B) Severe neutropenia markedly increases risk of bacterial and fungal infection",
+        "C) Lupus anticoagulant always causes mucocutaneous bleeding as its main effect",
+        "D) Severe neutropenia primarily causes immediate thrombosis as its main risk"
+      ],
+      "answer": "B) Severe neutropenia markedly increases risk of bacterial and fungal infection",
+      "explanation": "Neutrophils kill bacteria and fungi; profound neutropenia leaves patients vulnerable. Therefore, the most accurate choice is: Severe neutropenia markedly increases risk of bacterial and fungal infection. Thrombosis risk relates more to platelets and coagulation.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Neutrophils kill bacteria and fungi; profound neutropenia leaves patients vulnerable. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Thrombosis risk relates more to platelets and coagulation. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:extreme:26",
+      "question": "A detailed evaluation for eosinophilia associations is underway in a 55-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) Basophilia specifically diagnoses iron deficiency",
+        "B) D-dimer specifically diagnoses iron deficiency with certainty",
+        "C) Eosinophilia suggests allergy, parasites, drugs, or some neoplasms",
+        "D) Eosinophilia specifically proves iron deficiency anemia"
+      ],
+      "answer": "C) Eosinophilia suggests allergy, parasites, drugs, or some neoplasms",
+      "explanation": "IL-5–driven eosinophil expansion occurs in allergic, parasitic, and clonal settings. Therefore, the most accurate choice is: Eosinophilia suggests allergy, parasites, drugs, or some neoplasms. Iron deficiency is a red-cell disorder, not what eosinophilia proves.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "IL-5–driven eosinophil expansion occurs in allergic, parasitic, and clonal settings. This matches the correct interpretation.",
+        "D": "Iron deficiency is a red-cell disorder, not what eosinophilia proves. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "hematology:extreme:27",
+      "question": "A 61-year-old woman has findings that make basophilia CML hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Basophilia can be a clue to CML among chronic myeloid disorders",
+        "B) ACD classically shows high TIBC with very low ferritin like iron deficiency",
+        "C) Basophilia specifically diagnoses iron deficiency",
+        "D) Hypersegmentation specifically proves CML chronic phase"
+      ],
+      "answer": "A) Basophilia can be a clue to CML among chronic myeloid disorders",
+      "explanation": "CML often shows leukocytosis with left shift and absolute basophilia. Therefore, the most accurate choice is: Basophilia can be a clue to CML among chronic myeloid disorders. Iron deficiency does not present as diagnostic basophilia.",
+      "choice_explanations": {
+        "A": "CML often shows leukocytosis with left shift and absolute basophilia. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Iron deficiency does not present as diagnostic basophilia. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "hematology:extreme:28",
+      "question": "In a 64-year-old man, distinguishing CLL smudge cells from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Myeloma is defined by isolated neutrophilia without protein findings",
+        "B) MAHA is defined by rouleaux formation alone without fragments",
+        "C) CLL is defined by schistocytes and thrombocytopenia alone",
+        "D) CLL often shows absolute lymphocytosis with smudge cells on the smear"
+      ],
+      "answer": "D) CLL often shows absolute lymphocytosis with smudge cells on the smear",
+      "explanation": "Clonal mature B lymphocytes accumulate; fragile cells smear as smudge cells. Therefore, the most accurate choice is: CLL often shows absolute lymphocytosis with smudge cells on the smear. Schistocytes point to MAHA, not CLL.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Schistocytes point to MAHA, not CLL. It is less consistent than the correct choice.",
+        "D": "Clonal mature B lymphocytes accumulate; fragile cells smear as smudge cells. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "hematology:extreme:29",
+      "question": "A 46-year-old man returns with ongoing problems related to AML blast concept. Which of the following is most accurate?",
+      "options": [
+        "A) PNH is diagnosed solely by sickle solubility testing",
+        "B) Auer rods prove a pure lymphoid blast lineage",
+        "C) AML diagnosis centers on significant myeloid blast burden or abnormal promyelocytes",
+        "D) AML is diagnosed solely by high reticulocyte count"
+      ],
+      "answer": "C) AML diagnosis centers on significant myeloid blast burden or abnormal promyelocytes",
+      "explanation": "Neoplastic myeloid blasts replace normal hematopoiesis. Therefore, the most accurate choice is: AML diagnosis centers on significant myeloid blast burden or abnormal promyelocytes. Reticulocytosis reflects RBC response, not AML criteria.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Neoplastic myeloid blasts replace normal hematopoiesis. This matches the correct interpretation.",
+        "D": "Reticulocytosis reflects RBC response, not AML criteria. It is less consistent than the correct choice."
+      }
+    }
+  ]
+}

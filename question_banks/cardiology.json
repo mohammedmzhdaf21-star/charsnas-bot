@@ -1,0 +1,2170 @@
+{
+  "easy": [
+    {
+      "id": "cardiology:easy:0",
+      "question": "Which of the following is true about the surface ECG?",
+      "options": [
+        "A) JVP measures LVEF directly",
+        "B) Surface ECG directly measures coronary blood-flow velocity",
+        "C) Surface ECG records myocardial depolarization/repolarization voltages",
+        "D) Angiography measures only PCWP as its purpose"
+      ],
+      "answer": "C) Surface ECG records myocardial depolarization/repolarization voltages",
+      "explanation": "Electrodes sense extracellular voltage changes from myocyte depolarization and repolarization. Therefore, the most accurate choice is: Surface ECG records myocardial depolarization/repolarization voltages. Coronary flow is a hemodynamic/Doppler measure, not the ECG voltage tracing.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Coronary flow is a hemodynamic/Doppler measure, not the ECG voltage tracing. It is less consistent than the correct choice.",
+        "C": "Electrodes sense extracellular voltage changes from myocyte depolarization and repolarization. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:easy:1",
+      "question": "Which finding is expected in stable angina?",
+      "options": [
+        "A) Pericarditis always exertional and relieved only by nitrates",
+        "B) Prolonged rest pain with diaphoresis suggesting ACS",
+        "C) Exertional retrosternal pressure relieved by rest or nitrates",
+        "D) Claudication always nocturnal rest pain of CLI"
+      ],
+      "answer": "C) Exertional retrosternal pressure relieved by rest or nitrates",
+      "explanation": "Demand ischemia causes transient exertional angina that eases when demand falls. Therefore, the most accurate choice is: Exertional retrosternal pressure relieved by rest or nitrates. Prolonged rest pain suggests ACS rather than stable angina.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Prolonged rest pain suggests ACS rather than stable angina. It is less consistent than the correct choice.",
+        "C": "Demand ischemia causes transient exertional angina that eases when demand falls. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:easy:2",
+      "question": "Which of the following statements about aspirin in ACS is correct?",
+      "options": [
+        "A) Reversible COX-2 selective anti-inflammatory effect as the ACS mechanism",
+        "B) Prolonged rest pain with diaphoresis suggesting ACS",
+        "C) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT",
+        "D) Irreversible COX-1 inhibition reducing platelet thromboxane A2"
+      ],
+      "answer": "D) Irreversible COX-1 inhibition reducing platelet thromboxane A2",
+      "explanation": "Aspirin acetylates platelet COX-1, lowering thromboxane and aggregation. Therefore, the most accurate choice is: Irreversible COX-1 inhibition reducing platelet thromboxane A2. COX-2 selectivity is not aspirin’s ACS antithrombotic mechanism.",
+      "choice_explanations": {
+        "A": "COX-2 selectivity is not aspirin’s ACS antithrombotic mechanism. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Aspirin acetylates platelet COX-1, lowering thromboxane and aggregation. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:easy:3",
+      "question": "In clinical examination related to inferior STEMI, which of the following is correct?",
+      "options": [
+        "A) ST elevation in I/aVL means isolated RV infarct",
+        "B) ST elevation in II, III, aVF localizes to inferior wall (often RCA)",
+        "C) ST elevation in II/III/aVF localizes primarily to high lateral LCx alone",
+        "D) ST elevation in V2–V4 suggests isolated RCA inferior infarct"
+      ],
+      "answer": "B) ST elevation in II, III, aVF localizes to inferior wall (often RCA)",
+      "explanation": "II/III/aVF view the inferior wall, commonly RCA-supplied. Therefore, the most accurate choice is: ST elevation in II, III, aVF localizes to inferior wall (often RCA). High lateral infarction maps to I/aVL ± V5–V6.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "II/III/aVF view the inferior wall, commonly RCA-supplied. This matches the correct interpretation.",
+        "C": "High lateral infarction maps to I/aVL ± V5–V6. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:easy:4",
+      "question": "Which of the following best describes mitral regurgitation?",
+      "options": [
+        "A) AS presents as holosystolic apical murmur to axilla like MR",
+        "B) Crescendo-decrescendo systolic murmur to the carotids from AS",
+        "C) AR is holosystolic to axilla",
+        "D) Holosystolic apical murmur radiating to the axilla"
+      ],
+      "answer": "D) Holosystolic apical murmur radiating to the axilla",
+      "explanation": "MR jet into LA throughout systole produces holosystolic apical-to-axilla murmur. Therefore, the most accurate choice is: Holosystolic apical murmur radiating to the axilla. AS is an ejection systolic murmur to the carotids.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "AS is an ejection systolic murmur to the carotids. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "MR jet into LA throughout systole produces holosystolic apical-to-axilla murmur. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:easy:5",
+      "question": "Select the correct statement about sublingual nitroglycerin in angina.",
+      "options": [
+        "A) Sublingual nitroglycerin reduces preload and ischemic pain if safe",
+        "B) Prolonged rest pain with diaphoresis suggesting ACS",
+        "C) ST elevation in II/III/aVF localizes primarily to high lateral LCx alone",
+        "D) Immediate high-dose IV beta-blocker as sole first relief in all angina"
+      ],
+      "answer": "A) Sublingual nitroglycerin reduces preload and ischemic pain if safe",
+      "explanation": "Nitrates venodilate, cut preload and wall stress, often easing ischemic pain. Therefore, the most accurate choice is: Sublingual nitroglycerin reduces preload and ischemic pain if safe. Beta-blockers are not the usual first acute SL relief step.",
+      "choice_explanations": {
+        "A": "Nitrates venodilate, cut preload and wall stress, often easing ischemic pain. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Beta-blockers are not the usual first acute SL relief step. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:easy:6",
+      "question": "Which mechanism accounts for right ventricular infarction?",
+      "options": [
+        "A) ST elevation in I/aVL means isolated RV infarct",
+        "B) Inferior MI + clear lungs always means isolated LV failure needing more nitrates",
+        "C) Inferior MI + nitrate hypotension + raised JVP/clear lungs suggests RV infarct",
+        "D) ST elevation in V2–V4 suggests isolated RCA inferior infarct"
+      ],
+      "answer": "C) Inferior MI + nitrate hypotension + raised JVP/clear lungs suggests RV infarct",
+      "explanation": "RV infarct is preload-dependent; nitrates drop venous return and BP. Therefore, the most accurate choice is: Inferior MI + nitrate hypotension + raised JVP/clear lungs suggests RV infarct. LV failure typically causes pulmonary congestion, not clear lungs with raised JVP.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "LV failure typically causes pulmonary congestion, not clear lungs with raised JVP. It is less consistent than the correct choice.",
+        "C": "RV infarct is preload-dependent; nitrates drop venous return and BP. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:easy:7",
+      "question": "Which of the following applies to beta-blocker therapy in HFrEF?",
+      "options": [
+        "A) Treats hypokalemia as intended primary HF benefit",
+        "B) Evidence-based beta-blocker with proven HFrEF mortality benefit",
+        "C) Short-acting nifedipine as HFrEF mortality-reducing therapy",
+        "D) Beta-blockers contraindicated in all post-MI patients forever"
+      ],
+      "answer": "B) Evidence-based beta-blocker with proven HFrEF mortality benefit",
+      "explanation": "GDMT beta-blockers reduce mortality in HFrEF. Therefore, the most accurate choice is: Evidence-based beta-blocker with proven HFrEF mortality benefit. Short-acting DHPs are not mortality-reducing HFrEF therapy.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "GDMT beta-blockers reduce mortality in HFrEF. This matches the correct interpretation.",
+        "C": "Short-acting DHPs are not mortality-reducing HFrEF therapy. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:easy:8",
+      "question": "Which of the following is true of new left bundle branch block with ischemic symptoms?",
+      "options": [
+        "A) Any troponin rise always equals STEMI needing fibrinolysis",
+        "B) New LBBB with ischemic symptoms can be treated as STEMI equivalent",
+        "C) Fibrinolysis always preferred over PCI even when PCI immediately available",
+        "D) New LBBB is always a benign chronic finding needing no reperfusion thought"
+      ],
+      "answer": "B) New LBBB with ischemic symptoms can be treated as STEMI equivalent",
+      "explanation": "Ischemic symptoms plus new LBBB may warrant emergent reperfusion pathways. Therefore, the most accurate choice is: New LBBB with ischemic symptoms can be treated as STEMI equivalent. Calling every LBBB benign misses occlusion equivalents.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Ischemic symptoms plus new LBBB may warrant emergent reperfusion pathways. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Calling every LBBB benign misses occlusion equivalents. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:easy:9",
+      "question": "Which finding is expected in type A dissection caution?",
+      "options": [
+        "A) Aspirin always equals full anticoagulation for AF",
+        "B) Tearing pain and pulse deficit → exclude type A dissection before full ACS Rx",
+        "C) Mild troponin rise always means treat as simple NSTE-ACS only",
+        "D) Any troponin rise always equals STEMI needing fibrinolysis"
+      ],
+      "answer": "B) Tearing pain and pulse deficit → exclude type A dissection before full ACS Rx",
+      "explanation": "Type A dissection can mimic ACS and worsen with anticoagulation delays. Therefore, the most accurate choice is: Tearing pain and pulse deficit → exclude type A dissection before full ACS Rx. Troponin rise can occur in dissection; pulse deficit is a red flag.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Type A dissection can mimic ACS and worsen with anticoagulation delays. This matches the correct interpretation.",
+        "C": "Troponin rise can occur in dissection; pulse deficit is a red flag. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:easy:10",
+      "question": "Which of the following statements about unstable angina is correct?",
+      "options": [
+        "A) Rest or crescendo angina from plaque instability without biomarker necrosis",
+        "B) Troponin-negative exertional angina only",
+        "C) New LBBB is always a benign chronic finding needing no reperfusion thought",
+        "D) STEMI with persistent ST elevation requiring immediate reperfusion"
+      ],
+      "answer": "A) Rest or crescendo angina from plaque instability without biomarker necrosis",
+      "explanation": "Unstable angina is ischemia at rest/crescendo without necrosis biomarkers. Therefore, the most accurate choice is: Rest or crescendo angina from plaque instability without biomarker necrosis. STEMI shows ST elevation and needs immediate reperfusion.",
+      "choice_explanations": {
+        "A": "Unstable angina is ischemia at rest/crescendo without necrosis biomarkers. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "STEMI shows ST elevation and needs immediate reperfusion. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:easy:11",
+      "question": "In NSTEMI, which of the following is correct?",
+      "options": [
+        "A) Troponin-negative exertional angina only",
+        "B) STEMI with persistent ST elevation requiring immediate reperfusion",
+        "C) Prolonged rest pain with diaphoresis suggesting ACS",
+        "D) Troponin-positive ACS without persistent ST elevation"
+      ],
+      "answer": "D) Troponin-positive ACS without persistent ST elevation",
+      "explanation": "NSTEMI is myocyte necrosis without persistent STEMI pattern. Therefore, the most accurate choice is: Troponin-positive ACS without persistent ST elevation. Troponin-negative pain is not NSTEMI.",
+      "choice_explanations": {
+        "A": "Troponin-negative pain is not NSTEMI. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "NSTEMI is myocyte necrosis without persistent STEMI pattern. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:easy:12",
+      "question": "Which of the following best describes anterior STEMI?",
+      "options": [
+        "A) ST elevation in V2–V4 suggests LAD/anterior territory",
+        "B) ST elevation in V2–V4 suggests isolated RCA inferior infarct",
+        "C) ST elevation in II/III/aVF localizes primarily to high lateral LCx alone",
+        "D) ST elevation in I/aVL means isolated RV infarct"
+      ],
+      "answer": "A) ST elevation in V2–V4 suggests LAD/anterior territory",
+      "explanation": "Precordial V2–V4 STE localizes anterior/septal LAD territory. Therefore, the most accurate choice is: ST elevation in V2–V4 suggests LAD/anterior territory. Inferior RCA infarct maps to II/III/aVF.",
+      "choice_explanations": {
+        "A": "Precordial V2–V4 STE localizes anterior/septal LAD territory. This matches the correct interpretation.",
+        "B": "Inferior RCA infarct maps to II/III/aVF. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:easy:13",
+      "question": "Select the correct statement about lateral STEMI.",
+      "options": [
+        "A) ST elevation in I, aVL ± V5–V6 suggests lateral wall (often LCx)",
+        "B) ST elevation in V2–V4 suggests isolated RCA inferior infarct",
+        "C) ST elevation in I/aVL means isolated RV infarct",
+        "D) ST elevation in II/III/aVF localizes primarily to high lateral LCx alone"
+      ],
+      "answer": "A) ST elevation in I, aVL ± V5–V6 suggests lateral wall (often LCx)",
+      "explanation": "I/aVL ± lateral precordials map lateral wall, often LCx. Therefore, the most accurate choice is: ST elevation in I, aVL ± V5–V6 suggests lateral wall (often LCx). RV infarct is suggested by right-sided leads.",
+      "choice_explanations": {
+        "A": "I/aVL ± lateral precordials map lateral wall, often LCx. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "RV infarct is suggested by right-sided leads. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:easy:14",
+      "question": "Which mechanism accounts for primary PCI for STEMI?",
+      "options": [
+        "A) Fibrinolysis always preferred over PCI even when PCI immediately available",
+        "B) Any troponin rise always equals STEMI needing fibrinolysis",
+        "C) Primary PCI is preferred reperfusion for STEMI when timely",
+        "D) New LBBB is always a benign chronic finding needing no reperfusion thought"
+      ],
+      "answer": "C) Primary PCI is preferred reperfusion for STEMI when timely",
+      "explanation": "Timely primary PCI is preferred STEMI reperfusion. Therefore, the most accurate choice is: Primary PCI is preferred reperfusion for STEMI when timely. Fibrinolysis is used when PCI cannot be timely.",
+      "choice_explanations": {
+        "A": "Fibrinolysis is used when PCI cannot be timely. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Timely primary PCI is preferred STEMI reperfusion. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:easy:15",
+      "question": "Which of the following applies to dual antiplatelet therapy after coronary stenting?",
+      "options": [
+        "A) Reversible COX-2 selective anti-inflammatory effect as the ACS mechanism",
+        "B) Beta-blockers contraindicated in all post-MI patients forever",
+        "C) DAPT with aspirin plus P2Y12 inhibitor after ACS/stent",
+        "D) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT"
+      ],
+      "answer": "C) DAPT with aspirin plus P2Y12 inhibitor after ACS/stent",
+      "explanation": "Aspirin + P2Y12 prevents stent thrombosis and recurrent events. Therefore, the most accurate choice is: DAPT with aspirin plus P2Y12 inhibitor after ACS/stent. Warfarin is not a standard P2Y12 substitute in DAPT.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Aspirin + P2Y12 prevents stent thrombosis and recurrent events. This matches the correct interpretation.",
+        "D": "Warfarin is not a standard P2Y12 substitute in DAPT. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:easy:16",
+      "question": "Which of the following is true of post-MI beta-blocker?",
+      "options": [
+        "A) Beta-blockers contraindicated in all post-MI patients forever",
+        "B) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT",
+        "C) Immediate high-dose IV beta-blocker as sole first relief in all angina",
+        "D) Beta-blockers reduce myocardial O2 demand after MI when indicated"
+      ],
+      "answer": "D) Beta-blockers reduce myocardial O2 demand after MI when indicated",
+      "explanation": "β-blockade lowers HR/contractility and O2 demand when appropriate. Therefore, the most accurate choice is: Beta-blockers reduce myocardial O2 demand after MI when indicated. Not universally forever contraindicated post-MI.",
+      "choice_explanations": {
+        "A": "Not universally forever contraindicated post-MI. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "β-blockade lowers HR/contractility and O2 demand when appropriate. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:easy:17",
+      "question": "Which finding is expected in ACE inhibitor therapy after MI with heart failure?",
+      "options": [
+        "A) Beta-blockers contraindicated in all post-MI patients forever",
+        "B) ACEi used only for cough suppression after MI",
+        "C) ACEi improve remodeling/mortality in HFrEF and selected post-MI patients",
+        "D) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT"
+      ],
+      "answer": "C) ACEi improve remodeling/mortality in HFrEF and selected post-MI patients",
+      "explanation": "RAAS blockade benefits remodeling and survival in indicated HF/MI. Therefore, the most accurate choice is: ACEi improve remodeling/mortality in HFrEF and selected post-MI patients. Cough is an adverse effect, not the purpose.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Cough is an adverse effect, not the purpose. It is less consistent than the correct choice.",
+        "C": "RAAS blockade benefits remodeling and survival in indicated HF/MI. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:easy:18",
+      "question": "Which of the following statements about high-intensity statin ACS is correct?",
+      "options": [
+        "A) Replaces ICD in secondary prevention VT",
+        "B) Treats hyperkalemia as primary therapy",
+        "C) High-intensity statin for secondary prevention after ACS",
+        "D) Stop all lipid therapy after one normal cholesterol"
+      ],
+      "answer": "C) High-intensity statin for secondary prevention after ACS",
+      "explanation": "Statins lower LDL and stabilize plaque after ACS. Therefore, the most accurate choice is: High-intensity statin for secondary prevention after ACS. Secondary prevention continues despite one normal value.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Statins lower LDL and stabilize plaque after ACS. This matches the correct interpretation.",
+        "D": "Secondary prevention continues despite one normal value. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:easy:19",
+      "question": "In tamponade triad, which of the following is correct?",
+      "options": [
+        "A) Hypertension with bounding pulses is the classic tamponade triad",
+        "B) Hypotension, raised JVP, muffled sounds ± electrical alternans suggest tamponade",
+        "C) Electrical alternans pathognomonic for hypokalemia only",
+        "D) JVP measures LVEF directly"
+      ],
+      "answer": "B) Hypotension, raised JVP, muffled sounds ± electrical alternans suggest tamponade",
+      "explanation": "Pericardial pressure equalizes filling and cuts cardiac output. Therefore, the most accurate choice is: Hypotension, raised JVP, muffled sounds ± electrical alternans suggest tamponade. Tamponade causes low output, not hypertensive bounding pulses.",
+      "choice_explanations": {
+        "A": "Tamponade causes low output, not hypertensive bounding pulses. It is less consistent than the correct choice.",
+        "B": "Pericardial pressure equalizes filling and cuts cardiac output. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:easy:20",
+      "question": "Which of the following best describes electrical alternans?",
+      "options": [
+        "A) PR prolongation always equals complete heart block",
+        "B) Beat-to-beat QRS amplitude change suggests swinging heart in large effusion",
+        "C) Narrow QRS excludes all conduction disease",
+        "D) Electrical alternans pathognomonic for hypokalemia only"
+      ],
+      "answer": "B) Beat-to-beat QRS amplitude change suggests swinging heart in large effusion",
+      "explanation": "Heart swinging in effusion alters QRS amplitude alternately. Therefore, the most accurate choice is: Beat-to-beat QRS amplitude change suggests swinging heart in large effusion. Hypokalemia causes U waves, not classic electrical alternans.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Heart swinging in effusion alters QRS amplitude alternately. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Hypokalemia causes U waves, not classic electrical alternans. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:easy:21",
+      "question": "Select the correct statement about unstable AF cardioversion.",
+      "options": [
+        "A) Unstable AF should first get only oral digoxin and observe hours",
+        "B) Unstable VT observed 1 hour before any therapy",
+        "C) Unstable AF with hypotension needs synchronized cardioversion",
+        "D) IV verapamil first-line for irregular wide-complex preexcited AF"
+      ],
+      "answer": "C) Unstable AF with hypotension needs synchronized cardioversion",
+      "explanation": "Instability mandates urgent electrical cardioversion. Therefore, the most accurate choice is: Unstable AF with hypotension needs synchronized cardioversion. Slow oral digoxin is not first therapy for unstable AF.",
+      "choice_explanations": {
+        "A": "Slow oral digoxin is not first therapy for unstable AF. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Instability mandates urgent electrical cardioversion. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:easy:22",
+      "question": "Which mechanism accounts for preexcited AF?",
+      "options": [
+        "A) All WCTs are SVT with aberrancy and get verapamil first",
+        "B) IV verapamil first-line for irregular wide-complex preexcited AF",
+        "C) Adenosine first-line for irregular polymorphic VT",
+        "D) Avoid AV-nodal blockers in preexcited AF; shock if unstable or use procainamide"
+      ],
+      "answer": "D) Avoid AV-nodal blockers in preexcited AF; shock if unstable or use procainamide",
+      "explanation": "AV-nodal blockade can enhance pathway conduction and risk VF. Therefore, the most accurate choice is: Avoid AV-nodal blockers in preexcited AF; shock if unstable or use procainamide. Verapamil is contraindicated in preexcited AF.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Verapamil is contraindicated in preexcited AF. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "AV-nodal blockade can enhance pathway conduction and risk VF. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:easy:23",
+      "question": "Which of the following applies to regular wide-complex tachycardia?",
+      "options": [
+        "A) All WCTs are SVT with aberrancy and get verapamil first",
+        "B) Regular wide-complex tachycardia treated as VT until proven otherwise",
+        "C) Unstable AF should first get only oral digoxin and observe hours",
+        "D) IV verapamil first-line for irregular wide-complex preexcited AF"
+      ],
+      "answer": "B) Regular wide-complex tachycardia treated as VT until proven otherwise",
+      "explanation": "Defaulting to VT is safer; misdiagnosing VT as SVT can be fatal. Therefore, the most accurate choice is: Regular wide-complex tachycardia treated as VT until proven otherwise. Empiric verapamil can collapse VT patients.",
+      "choice_explanations": {
+        "A": "Empiric verapamil can collapse VT patients. It is less consistent than the correct choice.",
+        "B": "Defaulting to VT is safer; misdiagnosing VT as SVT can be fatal. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:easy:24",
+      "question": "Which of the following is true of pulseless ventricular tachycardia or fibrillation?",
+      "options": [
+        "A) Pulseless VT/VF needs immediate defibrillation/CPR",
+        "B) Unstable VT observed 1 hour before any therapy",
+        "C) IV verapamil first-line for irregular wide-complex preexcited AF",
+        "D) Unstable AF should first get only oral digoxin and observe hours"
+      ],
+      "answer": "A) Pulseless VT/VF needs immediate defibrillation/CPR",
+      "explanation": "Electrical defibrillation/CPR is first response to pulseless VT/VF. Therefore, the most accurate choice is: Pulseless VT/VF needs immediate defibrillation/CPR. Delaying electricity for oral drugs is inappropriate.",
+      "choice_explanations": {
+        "A": "Electrical defibrillation/CPR is first response to pulseless VT/VF. This matches the correct interpretation.",
+        "B": "Delaying electricity for oral drugs is inappropriate. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:easy:25",
+      "question": "Which finding is expected in symptomatic bradycardia?",
+      "options": [
+        "A) Atropine is first therapy for VF",
+        "B) Symptomatic sinus bradycardia may respond to atropine while preparing pacing",
+        "C) Flecainide first-line rate control in decompensated HF with AF",
+        "D) Adenosine first-line for irregular polymorphic VT"
+      ],
+      "answer": "B) Symptomatic sinus bradycardia may respond to atropine while preparing pacing",
+      "explanation": "Atropine blocks vagal tone and can raise sinus rate. Therefore, the most accurate choice is: Symptomatic sinus bradycardia may respond to atropine while preparing pacing. VF needs defibrillation, not atropine as primary.",
+      "choice_explanations": {
+        "A": "VF needs defibrillation, not atropine as primary. It is less consistent than the correct choice.",
+        "B": "Atropine blocks vagal tone and can raise sinus rate. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:easy:26",
+      "question": "Which statement regarding CHB pacing is correct?",
+      "options": [
+        "A) High-grade AV block with instability needs temporary pacing readiness",
+        "B) Any BP >140 always requires immediate ICU nitroprusside",
+        "C) CHB always managed with observation only",
+        "D) Unstable VT observed 1 hour before any therapy"
+      ],
+      "answer": "A) High-grade AV block with instability needs temporary pacing readiness",
+      "explanation": "Unstable AV block requires urgent pacing support. Therefore, the most accurate choice is: High-grade AV block with instability needs temporary pacing readiness. Observation alone is unsafe when perfusion is compromised.",
+      "choice_explanations": {
+        "A": "Unstable AV block requires urgent pacing support. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Observation alone is unsafe when perfusion is compromised. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:easy:27",
+      "question": "In clinical examination related to severe symptomatic aortic stenosis, which of the following is correct?",
+      "options": [
+        "A) Syncope, angina, HF with harsh SEM to carotids",
+        "B) Only holosystolic apical to axilla like MR",
+        "C) Crescendo-decrescendo systolic murmur to the carotids from AS",
+        "D) AS presents as holosystolic apical murmur to axilla like MR"
+      ],
+      "answer": "A) Syncope, angina, HF with harsh SEM to carotids",
+      "explanation": "Fixed outflow obstruction causes exertional syncope/angina/HF. Therefore, the most accurate choice is: Syncope, angina, HF with harsh SEM to carotids. MR is the holosystolic axillary murmur.",
+      "choice_explanations": {
+        "A": "Fixed outflow obstruction causes exertional syncope/angina/HF. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "MR is the holosystolic axillary murmur. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:easy:28",
+      "question": "Which of the following best describes mitral stenosis?",
+      "options": [
+        "A) AS presents as holosystolic apical murmur to axilla like MR",
+        "B) AR is holosystolic to axilla",
+        "C) MS is holosystolic murmur to the axilla",
+        "D) Diastolic rumble with opening snap in mitral stenosis"
+      ],
+      "answer": "D) Diastolic rumble with opening snap in mitral stenosis",
+      "explanation": "Narrowed mitral orifice yields diastolic rumble ± opening snap. Therefore, the most accurate choice is: Diastolic rumble with opening snap in mitral stenosis. Holosystolic axillary radiation is MR.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Holosystolic axillary radiation is MR. It is less consistent than the correct choice.",
+        "D": "Narrowed mitral orifice yields diastolic rumble ± opening snap. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:easy:29",
+      "question": "Select the correct interpretation for hypertrophic obstructive cardiomyopathy.",
+      "options": [
+        "A) HOCM murmur increases with Valsalva/standing (↓ preload)",
+        "B) AS presents as holosystolic apical murmur to axilla like MR",
+        "C) Only holosystolic apical to axilla like MR",
+        "D) HOCM murmur always decreases with Valsalva like most flow murmurs"
+      ],
+      "answer": "A) HOCM murmur increases with Valsalva/standing (↓ preload)",
+      "explanation": "Dynamic LVOT obstruction worsens when ventricle is smaller. Therefore, the most accurate choice is: HOCM murmur increases with Valsalva/standing (↓ preload). Most murmurs soften with less preload; HOCM louder.",
+      "choice_explanations": {
+        "A": "Dynamic LVOT obstruction worsens when ventricle is smaller. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Most murmurs soften with less preload; HOCM louder. It is less consistent than the correct choice."
+      }
+    }
+  ],
+  "medium": [
+    {
+      "id": "cardiology:medium:0",
+      "question": "A 60-year-old woman is examined, and the surface ECG is reviewed. Which of the following is correct?",
+      "options": [
+        "A) Surface ECG directly measures coronary blood-flow velocity",
+        "B) Angiography measures only PCWP as its purpose",
+        "C) JVP measures LVEF directly",
+        "D) Surface ECG records myocardial depolarization/repolarization voltages"
+      ],
+      "answer": "D) Surface ECG records myocardial depolarization/repolarization voltages",
+      "explanation": "Electrodes sense extracellular voltage changes from myocyte depolarization and repolarization. Therefore, the most accurate choice is: Surface ECG records myocardial depolarization/repolarization voltages. Coronary flow is a hemodynamic/Doppler measure, not the ECG voltage tracing.",
+      "choice_explanations": {
+        "A": "Coronary flow is a hemodynamic/Doppler measure, not the ECG voltage tracing. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Electrodes sense extracellular voltage changes from myocyte depolarization and repolarization. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:medium:1",
+      "question": "A 73-year-old man is seen in clinic for suspected stable angina. Which of the following is correct?",
+      "options": [
+        "A) Claudication always nocturnal rest pain of CLI",
+        "B) Exertional retrosternal pressure relieved by rest or nitrates",
+        "C) Prolonged rest pain with diaphoresis suggesting ACS",
+        "D) Pericarditis always exertional and relieved only by nitrates"
+      ],
+      "answer": "B) Exertional retrosternal pressure relieved by rest or nitrates",
+      "explanation": "Demand ischemia causes transient exertional angina that eases when demand falls. Therefore, the most accurate choice is: Exertional retrosternal pressure relieved by rest or nitrates. Prolonged rest pain suggests ACS rather than stable angina.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Demand ischemia causes transient exertional angina that eases when demand falls. This matches the correct interpretation.",
+        "C": "Prolonged rest pain suggests ACS rather than stable angina. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:medium:2",
+      "question": "A 74-year-old man develops symptoms of aspirin in ACS. Which of the following is most accurate?",
+      "options": [
+        "A) Irreversible COX-1 inhibition reducing platelet thromboxane A2",
+        "B) Prolonged rest pain with diaphoresis suggesting ACS",
+        "C) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT",
+        "D) Reversible COX-2 selective anti-inflammatory effect as the ACS mechanism"
+      ],
+      "answer": "A) Irreversible COX-1 inhibition reducing platelet thromboxane A2",
+      "explanation": "Aspirin acetylates platelet COX-1, lowering thromboxane and aggregation. Therefore, the most accurate choice is: Irreversible COX-1 inhibition reducing platelet thromboxane A2. COX-2 selectivity is not aspirin’s ACS antithrombotic mechanism.",
+      "choice_explanations": {
+        "A": "Aspirin acetylates platelet COX-1, lowering thromboxane and aggregation. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "COX-2 selectivity is not aspirin’s ACS antithrombotic mechanism. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:medium:3",
+      "question": "In a 54-year-old woman, which statement about inferior STEMI is correct?",
+      "options": [
+        "A) ST elevation in II, III, aVF localizes to inferior wall (often RCA)",
+        "B) ST elevation in V2–V4 suggests isolated RCA inferior infarct",
+        "C) ST elevation in I/aVL means isolated RV infarct",
+        "D) ST elevation in II/III/aVF localizes primarily to high lateral LCx alone"
+      ],
+      "answer": "A) ST elevation in II, III, aVF localizes to inferior wall (often RCA)",
+      "explanation": "II/III/aVF view the inferior wall, commonly RCA-supplied. Therefore, the most accurate choice is: ST elevation in II, III, aVF localizes to inferior wall (often RCA). High lateral infarction maps to I/aVL ± V5–V6.",
+      "choice_explanations": {
+        "A": "II/III/aVF view the inferior wall, commonly RCA-supplied. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "High lateral infarction maps to I/aVL ± V5–V6. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:medium:4",
+      "question": "Clinical testing related to mitral regurgitation is performed. Which of the following is correct?",
+      "options": [
+        "A) Crescendo-decrescendo systolic murmur to the carotids from AS",
+        "B) AR is holosystolic to axilla",
+        "C) Holosystolic apical murmur radiating to the axilla",
+        "D) AS presents as holosystolic apical murmur to axilla like MR"
+      ],
+      "answer": "C) Holosystolic apical murmur radiating to the axilla",
+      "explanation": "MR jet into LA throughout systole produces holosystolic apical-to-axilla murmur. Therefore, the most accurate choice is: Holosystolic apical murmur radiating to the axilla. AS is an ejection systolic murmur to the carotids.",
+      "choice_explanations": {
+        "A": "AS is an ejection systolic murmur to the carotids. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "MR jet into LA throughout systole produces holosystolic apical-to-axilla murmur. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:medium:5",
+      "question": "A 65-year-old woman reports symptoms typical of sublingual nitroglycerin in angina. Which of the following is correct?",
+      "options": [
+        "A) ST elevation in II/III/aVF localizes primarily to high lateral LCx alone",
+        "B) Sublingual nitroglycerin reduces preload and ischemic pain if safe",
+        "C) Prolonged rest pain with diaphoresis suggesting ACS",
+        "D) Immediate high-dose IV beta-blocker as sole first relief in all angina"
+      ],
+      "answer": "B) Sublingual nitroglycerin reduces preload and ischemic pain if safe",
+      "explanation": "Nitrates venodilate, cut preload and wall stress, often easing ischemic pain. Therefore, the most accurate choice is: Sublingual nitroglycerin reduces preload and ischemic pain if safe. Beta-blockers are not the usual first acute SL relief step.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Nitrates venodilate, cut preload and wall stress, often easing ischemic pain. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Beta-blockers are not the usual first acute SL relief step. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:medium:6",
+      "question": "A 45-year-old man is evaluated in the emergency department for right ventricular infarction. Which of the following is most accurate?",
+      "options": [
+        "A) ST elevation in I/aVL means isolated RV infarct",
+        "B) ST elevation in V2–V4 suggests isolated RCA inferior infarct",
+        "C) Inferior MI + clear lungs always means isolated LV failure needing more nitrates",
+        "D) Inferior MI + nitrate hypotension + raised JVP/clear lungs suggests RV infarct"
+      ],
+      "answer": "D) Inferior MI + nitrate hypotension + raised JVP/clear lungs suggests RV infarct",
+      "explanation": "RV infarct is preload-dependent; nitrates drop venous return and BP. Therefore, the most accurate choice is: Inferior MI + nitrate hypotension + raised JVP/clear lungs suggests RV infarct. LV failure typically causes pulmonary congestion, not clear lungs with raised JVP.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "LV failure typically causes pulmonary congestion, not clear lungs with raised JVP. It is less consistent than the correct choice.",
+        "D": "RV infarct is preload-dependent; nitrates drop venous return and BP. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:medium:7",
+      "question": "A 73-year-old man is assessed for beta-blocker therapy in HFrEF. Which of the following statements is correct?",
+      "options": [
+        "A) Beta-blockers contraindicated in all post-MI patients forever",
+        "B) Evidence-based beta-blocker with proven HFrEF mortality benefit",
+        "C) Short-acting nifedipine as HFrEF mortality-reducing therapy",
+        "D) Treats hypokalemia as intended primary HF benefit"
+      ],
+      "answer": "B) Evidence-based beta-blocker with proven HFrEF mortality benefit",
+      "explanation": "GDMT beta-blockers reduce mortality in HFrEF. Therefore, the most accurate choice is: Evidence-based beta-blocker with proven HFrEF mortality benefit. Short-acting DHPs are not mortality-reducing HFrEF therapy.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "GDMT beta-blockers reduce mortality in HFrEF. This matches the correct interpretation.",
+        "C": "Short-acting DHPs are not mortality-reducing HFrEF therapy. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:medium:8",
+      "question": "A 56-year-old woman presents with a clinical picture of new left bundle branch block with ischemic symptoms. Which of the following is most accurate?",
+      "options": [
+        "A) Fibrinolysis always preferred over PCI even when PCI immediately available",
+        "B) New LBBB with ischemic symptoms can be treated as STEMI equivalent",
+        "C) New LBBB is always a benign chronic finding needing no reperfusion thought",
+        "D) Any troponin rise always equals STEMI needing fibrinolysis"
+      ],
+      "answer": "B) New LBBB with ischemic symptoms can be treated as STEMI equivalent",
+      "explanation": "Ischemic symptoms plus new LBBB may warrant emergent reperfusion pathways. Therefore, the most accurate choice is: New LBBB with ischemic symptoms can be treated as STEMI equivalent. Calling every LBBB benign misses occlusion equivalents.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Ischemic symptoms plus new LBBB may warrant emergent reperfusion pathways. This matches the correct interpretation.",
+        "C": "Calling every LBBB benign misses occlusion equivalents. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:medium:9",
+      "question": "A 57-year-old man is seen in clinic for suspected type A dissection caution. Which of the following is correct?",
+      "options": [
+        "A) Aspirin always equals full anticoagulation for AF",
+        "B) Any troponin rise always equals STEMI needing fibrinolysis",
+        "C) Mild troponin rise always means treat as simple NSTE-ACS only",
+        "D) Tearing pain and pulse deficit → exclude type A dissection before full ACS Rx"
+      ],
+      "answer": "D) Tearing pain and pulse deficit → exclude type A dissection before full ACS Rx",
+      "explanation": "Type A dissection can mimic ACS and worsen with anticoagulation delays. Therefore, the most accurate choice is: Tearing pain and pulse deficit → exclude type A dissection before full ACS Rx. Troponin rise can occur in dissection; pulse deficit is a red flag.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Troponin rise can occur in dissection; pulse deficit is a red flag. It is less consistent than the correct choice.",
+        "D": "Type A dissection can mimic ACS and worsen with anticoagulation delays. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:medium:10",
+      "question": "A 70-year-old woman develops symptoms of unstable angina. Which of the following is most accurate?",
+      "options": [
+        "A) ST elevation in V2–V4 suggests isolated RCA inferior infarct",
+        "B) STEMI with persistent ST elevation requiring immediate reperfusion",
+        "C) Rest or crescendo angina from plaque instability without biomarker necrosis",
+        "D) Troponin-negative exertional angina only"
+      ],
+      "answer": "C) Rest or crescendo angina from plaque instability without biomarker necrosis",
+      "explanation": "Unstable angina is ischemia at rest/crescendo without necrosis biomarkers. Therefore, the most accurate choice is: Rest or crescendo angina from plaque instability without biomarker necrosis. STEMI shows ST elevation and needs immediate reperfusion.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "STEMI shows ST elevation and needs immediate reperfusion. It is less consistent than the correct choice.",
+        "C": "Unstable angina is ischemia at rest/crescendo without necrosis biomarkers. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:medium:11",
+      "question": "A 77-year-old woman is admitted with suspected NSTEMI. Which statement is correct?",
+      "options": [
+        "A) Troponin-negative exertional angina only",
+        "B) STEMI with persistent ST elevation requiring immediate reperfusion",
+        "C) Prolonged rest pain with diaphoresis suggesting ACS",
+        "D) Troponin-positive ACS without persistent ST elevation"
+      ],
+      "answer": "D) Troponin-positive ACS without persistent ST elevation",
+      "explanation": "NSTEMI is myocyte necrosis without persistent STEMI pattern. Therefore, the most accurate choice is: Troponin-positive ACS without persistent ST elevation. Troponin-negative pain is not NSTEMI.",
+      "choice_explanations": {
+        "A": "Troponin-negative pain is not NSTEMI. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "NSTEMI is myocyte necrosis without persistent STEMI pattern. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:medium:12",
+      "question": "A 63-year-old man has examination findings of anterior STEMI. Which of the following is most accurate?",
+      "options": [
+        "A) ST elevation in V2–V4 suggests isolated RCA inferior infarct",
+        "B) ST elevation in I/aVL means isolated RV infarct",
+        "C) ST elevation in II/III/aVF localizes primarily to high lateral LCx alone",
+        "D) ST elevation in V2–V4 suggests LAD/anterior territory"
+      ],
+      "answer": "D) ST elevation in V2–V4 suggests LAD/anterior territory",
+      "explanation": "Precordial V2–V4 STE localizes anterior/septal LAD territory. Therefore, the most accurate choice is: ST elevation in V2–V4 suggests LAD/anterior territory. Inferior RCA infarct maps to II/III/aVF.",
+      "choice_explanations": {
+        "A": "Inferior RCA infarct maps to II/III/aVF. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Precordial V2–V4 STE localizes anterior/septal LAD territory. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:medium:13",
+      "question": "A 76-year-old man reports symptoms typical of lateral STEMI. Which of the following is correct?",
+      "options": [
+        "A) ST elevation in I, aVL ± V5–V6 suggests lateral wall (often LCx)",
+        "B) ST elevation in II/III/aVF localizes primarily to high lateral LCx alone",
+        "C) ST elevation in I/aVL means isolated RV infarct",
+        "D) ST elevation in V2–V4 suggests isolated RCA inferior infarct"
+      ],
+      "answer": "A) ST elevation in I, aVL ± V5–V6 suggests lateral wall (often LCx)",
+      "explanation": "I/aVL ± lateral precordials map lateral wall, often LCx. Therefore, the most accurate choice is: ST elevation in I, aVL ± V5–V6 suggests lateral wall (often LCx). RV infarct is suggested by right-sided leads.",
+      "choice_explanations": {
+        "A": "I/aVL ± lateral precordials map lateral wall, often LCx. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "RV infarct is suggested by right-sided leads. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:medium:14",
+      "question": "A 62-year-old woman is evaluated in the emergency department for primary PCI for STEMI. Which of the following is most accurate?",
+      "options": [
+        "A) New LBBB is always a benign chronic finding needing no reperfusion thought",
+        "B) Fibrinolysis always preferred over PCI even when PCI immediately available",
+        "C) Primary PCI is preferred reperfusion for STEMI when timely",
+        "D) Any troponin rise always equals STEMI needing fibrinolysis"
+      ],
+      "answer": "C) Primary PCI is preferred reperfusion for STEMI when timely",
+      "explanation": "Timely primary PCI is preferred STEMI reperfusion. Therefore, the most accurate choice is: Primary PCI is preferred reperfusion for STEMI when timely. Fibrinolysis is used when PCI cannot be timely.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Fibrinolysis is used when PCI cannot be timely. It is less consistent than the correct choice.",
+        "C": "Timely primary PCI is preferred STEMI reperfusion. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:medium:15",
+      "question": "A 63-year-old man is assessed for dual antiplatelet therapy after coronary stenting. Which of the following statements is correct?",
+      "options": [
+        "A) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT",
+        "B) DAPT with aspirin plus P2Y12 inhibitor after ACS/stent",
+        "C) Reversible COX-2 selective anti-inflammatory effect as the ACS mechanism",
+        "D) Beta-blockers contraindicated in all post-MI patients forever"
+      ],
+      "answer": "B) DAPT with aspirin plus P2Y12 inhibitor after ACS/stent",
+      "explanation": "Aspirin + P2Y12 prevents stent thrombosis and recurrent events. Therefore, the most accurate choice is: DAPT with aspirin plus P2Y12 inhibitor after ACS/stent. Warfarin is not a standard P2Y12 substitute in DAPT.",
+      "choice_explanations": {
+        "A": "Warfarin is not a standard P2Y12 substitute in DAPT. It is less consistent than the correct choice.",
+        "B": "Aspirin + P2Y12 prevents stent thrombosis and recurrent events. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:medium:16",
+      "question": "A 46-year-old man presents with a clinical picture of post-MI beta-blocker. Which of the following is most accurate?",
+      "options": [
+        "A) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT",
+        "B) Beta-blockers contraindicated in all post-MI patients forever",
+        "C) Beta-blockers reduce myocardial O2 demand after MI when indicated",
+        "D) Immediate high-dose IV beta-blocker as sole first relief in all angina"
+      ],
+      "answer": "C) Beta-blockers reduce myocardial O2 demand after MI when indicated",
+      "explanation": "β-blockade lowers HR/contractility and O2 demand when appropriate. Therefore, the most accurate choice is: Beta-blockers reduce myocardial O2 demand after MI when indicated. Not universally forever contraindicated post-MI.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Not universally forever contraindicated post-MI. It is less consistent than the correct choice.",
+        "C": "β-blockade lowers HR/contractility and O2 demand when appropriate. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:medium:17",
+      "question": "A 77-year-old man is seen in clinic for suspected ACE inhibitor therapy after MI with heart failure. Which of the following is correct?",
+      "options": [
+        "A) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT",
+        "B) ACEi used only for cough suppression after MI",
+        "C) Beta-blockers contraindicated in all post-MI patients forever",
+        "D) ACEi improve remodeling/mortality in HFrEF and selected post-MI patients"
+      ],
+      "answer": "D) ACEi improve remodeling/mortality in HFrEF and selected post-MI patients",
+      "explanation": "RAAS blockade benefits remodeling and survival in indicated HF/MI. Therefore, the most accurate choice is: ACEi improve remodeling/mortality in HFrEF and selected post-MI patients. Cough is an adverse effect, not the purpose.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Cough is an adverse effect, not the purpose. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "RAAS blockade benefits remodeling and survival in indicated HF/MI. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:medium:18",
+      "question": "A 66-year-old woman develops symptoms of high-intensity statin ACS. Which of the following is most accurate?",
+      "options": [
+        "A) Stop all lipid therapy after one normal cholesterol",
+        "B) High-intensity statin for secondary prevention after ACS",
+        "C) Treats hyperkalemia as primary therapy",
+        "D) Replaces ICD in secondary prevention VT"
+      ],
+      "answer": "B) High-intensity statin for secondary prevention after ACS",
+      "explanation": "Statins lower LDL and stabilize plaque after ACS. Therefore, the most accurate choice is: High-intensity statin for secondary prevention after ACS. Secondary prevention continues despite one normal value.",
+      "choice_explanations": {
+        "A": "Secondary prevention continues despite one normal value. It is less consistent than the correct choice.",
+        "B": "Statins lower LDL and stabilize plaque after ACS. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:medium:19",
+      "question": "A 61-year-old man is admitted with suspected tamponade triad. Which statement is correct?",
+      "options": [
+        "A) JVP measures LVEF directly",
+        "B) Electrical alternans pathognomonic for hypokalemia only",
+        "C) Hypertension with bounding pulses is the classic tamponade triad",
+        "D) Hypotension, raised JVP, muffled sounds ± electrical alternans suggest tamponade"
+      ],
+      "answer": "D) Hypotension, raised JVP, muffled sounds ± electrical alternans suggest tamponade",
+      "explanation": "Pericardial pressure equalizes filling and cuts cardiac output. Therefore, the most accurate choice is: Hypotension, raised JVP, muffled sounds ± electrical alternans suggest tamponade. Tamponade causes low output, not hypertensive bounding pulses.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Tamponade causes low output, not hypertensive bounding pulses. It is less consistent than the correct choice.",
+        "D": "Pericardial pressure equalizes filling and cuts cardiac output. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:medium:20",
+      "question": "A 41-year-old man has examination findings of electrical alternans. Which of the following is most accurate?",
+      "options": [
+        "A) Electrical alternans pathognomonic for hypokalemia only",
+        "B) Narrow QRS excludes all conduction disease",
+        "C) Beat-to-beat QRS amplitude change suggests swinging heart in large effusion",
+        "D) PR prolongation always equals complete heart block"
+      ],
+      "answer": "C) Beat-to-beat QRS amplitude change suggests swinging heart in large effusion",
+      "explanation": "Heart swinging in effusion alters QRS amplitude alternately. Therefore, the most accurate choice is: Beat-to-beat QRS amplitude change suggests swinging heart in large effusion. Hypokalemia causes U waves, not classic electrical alternans.",
+      "choice_explanations": {
+        "A": "Hypokalemia causes U waves, not classic electrical alternans. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Heart swinging in effusion alters QRS amplitude alternately. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:medium:21",
+      "question": "A 54-year-old man reports symptoms typical of unstable AF cardioversion. Which of the following is correct?",
+      "options": [
+        "A) IV verapamil first-line for irregular wide-complex preexcited AF",
+        "B) Unstable VT observed 1 hour before any therapy",
+        "C) Unstable AF should first get only oral digoxin and observe hours",
+        "D) Unstable AF with hypotension needs synchronized cardioversion"
+      ],
+      "answer": "D) Unstable AF with hypotension needs synchronized cardioversion",
+      "explanation": "Instability mandates urgent electrical cardioversion. Therefore, the most accurate choice is: Unstable AF with hypotension needs synchronized cardioversion. Slow oral digoxin is not first therapy for unstable AF.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Slow oral digoxin is not first therapy for unstable AF. It is less consistent than the correct choice.",
+        "D": "Instability mandates urgent electrical cardioversion. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:medium:22",
+      "question": "A 40-year-old woman is evaluated in the emergency department for preexcited AF. Which of the following is most accurate?",
+      "options": [
+        "A) Adenosine first-line for irregular polymorphic VT",
+        "B) Avoid AV-nodal blockers in preexcited AF; shock if unstable or use procainamide",
+        "C) All WCTs are SVT with aberrancy and get verapamil first",
+        "D) IV verapamil first-line for irregular wide-complex preexcited AF"
+      ],
+      "answer": "B) Avoid AV-nodal blockers in preexcited AF; shock if unstable or use procainamide",
+      "explanation": "AV-nodal blockade can enhance pathway conduction and risk VF. Therefore, the most accurate choice is: Avoid AV-nodal blockers in preexcited AF; shock if unstable or use procainamide. Verapamil is contraindicated in preexcited AF.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "AV-nodal blockade can enhance pathway conduction and risk VF. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Verapamil is contraindicated in preexcited AF. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:medium:23",
+      "question": "A 50-year-old woman is assessed for regular wide-complex tachycardia. Which of the following statements is correct?",
+      "options": [
+        "A) All WCTs are SVT with aberrancy and get verapamil first",
+        "B) Unstable AF should first get only oral digoxin and observe hours",
+        "C) Regular wide-complex tachycardia treated as VT until proven otherwise",
+        "D) IV verapamil first-line for irregular wide-complex preexcited AF"
+      ],
+      "answer": "C) Regular wide-complex tachycardia treated as VT until proven otherwise",
+      "explanation": "Defaulting to VT is safer; misdiagnosing VT as SVT can be fatal. Therefore, the most accurate choice is: Regular wide-complex tachycardia treated as VT until proven otherwise. Empiric verapamil can collapse VT patients.",
+      "choice_explanations": {
+        "A": "Empiric verapamil can collapse VT patients. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Defaulting to VT is safer; misdiagnosing VT as SVT can be fatal. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:medium:24",
+      "question": "A 51-year-old woman presents with a clinical picture of pulseless ventricular tachycardia or fibrillation. Which of the following is most accurate?",
+      "options": [
+        "A) IV verapamil first-line for irregular wide-complex preexcited AF",
+        "B) Unstable AF should first get only oral digoxin and observe hours",
+        "C) Pulseless VT/VF needs immediate defibrillation/CPR",
+        "D) Unstable VT observed 1 hour before any therapy"
+      ],
+      "answer": "C) Pulseless VT/VF needs immediate defibrillation/CPR",
+      "explanation": "Electrical defibrillation/CPR is first response to pulseless VT/VF. Therefore, the most accurate choice is: Pulseless VT/VF needs immediate defibrillation/CPR. Delaying electricity for oral drugs is inappropriate.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Electrical defibrillation/CPR is first response to pulseless VT/VF. This matches the correct interpretation.",
+        "D": "Delaying electricity for oral drugs is inappropriate. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:medium:25",
+      "question": "A 40-year-old man is seen in clinic for suspected symptomatic bradycardia. Which of the following is correct?",
+      "options": [
+        "A) Symptomatic sinus bradycardia may respond to atropine while preparing pacing",
+        "B) First therapy for cardiogenic shock without congestion assessment",
+        "C) Flecainide first-line rate control in decompensated HF with AF",
+        "D) Atropine is first therapy for VF"
+      ],
+      "answer": "A) Symptomatic sinus bradycardia may respond to atropine while preparing pacing",
+      "explanation": "Atropine blocks vagal tone and can raise sinus rate. Therefore, the most accurate choice is: Symptomatic sinus bradycardia may respond to atropine while preparing pacing. VF needs defibrillation, not atropine as primary.",
+      "choice_explanations": {
+        "A": "Atropine blocks vagal tone and can raise sinus rate. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "VF needs defibrillation, not atropine as primary. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:medium:26",
+      "question": "A 71-year-old man has findings requiring interpretation of CHB pacing. Which of the following is correct?",
+      "options": [
+        "A) Any BP >140 always requires immediate ICU nitroprusside",
+        "B) CHB always managed with observation only",
+        "C) Unstable VT observed 1 hour before any therapy",
+        "D) High-grade AV block with instability needs temporary pacing readiness"
+      ],
+      "answer": "D) High-grade AV block with instability needs temporary pacing readiness",
+      "explanation": "Unstable AV block requires urgent pacing support. Therefore, the most accurate choice is: High-grade AV block with instability needs temporary pacing readiness. Observation alone is unsafe when perfusion is compromised.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Observation alone is unsafe when perfusion is compromised. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Unstable AV block requires urgent pacing support. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:medium:27",
+      "question": "In a 75-year-old woman, which statement about severe symptomatic aortic stenosis is correct?",
+      "options": [
+        "A) Crescendo-decrescendo systolic murmur to the carotids from AS",
+        "B) AS presents as holosystolic apical murmur to axilla like MR",
+        "C) Syncope, angina, HF with harsh SEM to carotids",
+        "D) Only holosystolic apical to axilla like MR"
+      ],
+      "answer": "C) Syncope, angina, HF with harsh SEM to carotids",
+      "explanation": "Fixed outflow obstruction causes exertional syncope/angina/HF. Therefore, the most accurate choice is: Syncope, angina, HF with harsh SEM to carotids. MR is the holosystolic axillary murmur.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "MR is the holosystolic axillary murmur. It is less consistent than the correct choice.",
+        "C": "Fixed outflow obstruction causes exertional syncope/angina/HF. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:medium:28",
+      "question": "Clinical testing related to mitral stenosis is performed. Which of the following is correct?",
+      "options": [
+        "A) MS is holosystolic murmur to the axilla",
+        "B) Diastolic rumble with opening snap in mitral stenosis",
+        "C) AR is holosystolic to axilla",
+        "D) AS presents as holosystolic apical murmur to axilla like MR"
+      ],
+      "answer": "B) Diastolic rumble with opening snap in mitral stenosis",
+      "explanation": "Narrowed mitral orifice yields diastolic rumble ± opening snap. Therefore, the most accurate choice is: Diastolic rumble with opening snap in mitral stenosis. Holosystolic axillary radiation is MR.",
+      "choice_explanations": {
+        "A": "Holosystolic axillary radiation is MR. It is less consistent than the correct choice.",
+        "B": "Narrowed mitral orifice yields diastolic rumble ± opening snap. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:medium:29",
+      "question": "A 34-year-old man undergoes assessment involving hypertrophic obstructive cardiomyopathy. Which of the following is most accurate?",
+      "options": [
+        "A) HOCM murmur always decreases with Valsalva like most flow murmurs",
+        "B) Afterload equals preload identically",
+        "C) HOCM murmur increases with Valsalva/standing (↓ preload)",
+        "D) AS presents as holosystolic apical murmur to axilla like MR"
+      ],
+      "answer": "C) HOCM murmur increases with Valsalva/standing (↓ preload)",
+      "explanation": "Dynamic LVOT obstruction worsens when ventricle is smaller. Therefore, the most accurate choice is: HOCM murmur increases with Valsalva/standing (↓ preload). Most murmurs soften with less preload; HOCM louder.",
+      "choice_explanations": {
+        "A": "Most murmurs soften with less preload; HOCM louder. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Dynamic LVOT obstruction worsens when ventricle is smaller. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ],
+  "hard": [
+    {
+      "id": "cardiology:hard:0",
+      "question": "Careful review of the surface ECG is required. Which of the following is most accurate?",
+      "options": [
+        "A) Surface ECG directly measures coronary blood-flow velocity",
+        "B) JVP measures LVEF directly",
+        "C) Surface ECG records myocardial depolarization/repolarization voltages",
+        "D) Angiography measures only PCWP as its purpose"
+      ],
+      "answer": "C) Surface ECG records myocardial depolarization/repolarization voltages",
+      "explanation": "Electrodes sense extracellular voltage changes from myocyte depolarization and repolarization. Therefore, the most accurate choice is: Surface ECG records myocardial depolarization/repolarization voltages. Coronary flow is a hemodynamic/Doppler measure, not the ECG voltage tracing.",
+      "choice_explanations": {
+        "A": "Coronary flow is a hemodynamic/Doppler measure, not the ECG voltage tracing. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Electrodes sense extracellular voltage changes from myocyte depolarization and repolarization. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:hard:1",
+      "question": "A 73-year-old man with hypertension has findings suggestive of stable angina. Which of the following is the best interpretation?",
+      "options": [
+        "A) Claudication always nocturnal rest pain of CLI",
+        "B) Pericarditis always exertional and relieved only by nitrates",
+        "C) Exertional retrosternal pressure relieved by rest or nitrates",
+        "D) Prolonged rest pain with diaphoresis suggesting ACS"
+      ],
+      "answer": "C) Exertional retrosternal pressure relieved by rest or nitrates",
+      "explanation": "Demand ischemia causes transient exertional angina that eases when demand falls. Therefore, the most accurate choice is: Exertional retrosternal pressure relieved by rest or nitrates. Prolonged rest pain suggests ACS rather than stable angina.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Demand ischemia causes transient exertional angina that eases when demand falls. This matches the correct interpretation.",
+        "D": "Prolonged rest pain suggests ACS rather than stable angina. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:hard:2",
+      "question": "A 74-year-old man with hypertension is evaluated for aspirin in ACS. Which of the following is the best interpretation?",
+      "options": [
+        "A) Irreversible COX-1 inhibition reducing platelet thromboxane A2",
+        "B) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT",
+        "C) Prolonged rest pain with diaphoresis suggesting ACS",
+        "D) Reversible COX-2 selective anti-inflammatory effect as the ACS mechanism"
+      ],
+      "answer": "A) Irreversible COX-1 inhibition reducing platelet thromboxane A2",
+      "explanation": "Aspirin acetylates platelet COX-1, lowering thromboxane and aggregation. Therefore, the most accurate choice is: Irreversible COX-1 inhibition reducing platelet thromboxane A2. COX-2 selectivity is not aspirin’s ACS antithrombotic mechanism.",
+      "choice_explanations": {
+        "A": "Aspirin acetylates platelet COX-1, lowering thromboxane and aggregation. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "COX-2 selectivity is not aspirin’s ACS antithrombotic mechanism. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:hard:3",
+      "question": "Which of the following correctly distinguishes key points about inferior STEMI?",
+      "options": [
+        "A) ST elevation in II/III/aVF localizes primarily to high lateral LCx alone",
+        "B) ST elevation in I/aVL means isolated RV infarct",
+        "C) ST elevation in V2–V4 suggests isolated RCA inferior infarct",
+        "D) ST elevation in II, III, aVF localizes to inferior wall (often RCA)"
+      ],
+      "answer": "D) ST elevation in II, III, aVF localizes to inferior wall (often RCA)",
+      "explanation": "II/III/aVF view the inferior wall, commonly RCA-supplied. Therefore, the most accurate choice is: ST elevation in II, III, aVF localizes to inferior wall (often RCA). High lateral infarction maps to I/aVL ± V5–V6.",
+      "choice_explanations": {
+        "A": "High lateral infarction maps to I/aVL ± V5–V6. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "II/III/aVF view the inferior wall, commonly RCA-supplied. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:hard:4",
+      "question": "Careful interpretation of mitral regurgitation is required. Which of the following is correct?",
+      "options": [
+        "A) AS presents as holosystolic apical murmur to axilla like MR",
+        "B) Holosystolic apical murmur radiating to the axilla",
+        "C) AR is holosystolic to axilla",
+        "D) Crescendo-decrescendo systolic murmur to the carotids from AS"
+      ],
+      "answer": "B) Holosystolic apical murmur radiating to the axilla",
+      "explanation": "MR jet into LA throughout systole produces holosystolic apical-to-axilla murmur. Therefore, the most accurate choice is: Holosystolic apical murmur radiating to the axilla. AS is an ejection systolic murmur to the carotids.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "MR jet into LA throughout systole produces holosystolic apical-to-axilla murmur. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "AS is an ejection systolic murmur to the carotids. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:hard:5",
+      "question": "Which statement about sublingual nitroglycerin in angina is most accurate?",
+      "options": [
+        "A) Sublingual nitroglycerin reduces preload and ischemic pain if safe",
+        "B) Prolonged rest pain with diaphoresis suggesting ACS",
+        "C) Immediate high-dose IV beta-blocker as sole first relief in all angina",
+        "D) ST elevation in II/III/aVF localizes primarily to high lateral LCx alone"
+      ],
+      "answer": "A) Sublingual nitroglycerin reduces preload and ischemic pain if safe",
+      "explanation": "Nitrates venodilate, cut preload and wall stress, often easing ischemic pain. Therefore, the most accurate choice is: Sublingual nitroglycerin reduces preload and ischemic pain if safe. Beta-blockers are not the usual first acute SL relief step.",
+      "choice_explanations": {
+        "A": "Nitrates venodilate, cut preload and wall stress, often easing ischemic pain. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Beta-blockers are not the usual first acute SL relief step. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:hard:6",
+      "question": "Which statement about right ventricular infarction in a 45-year-old man is most accurate?",
+      "options": [
+        "A) ST elevation in V2–V4 suggests isolated RCA inferior infarct",
+        "B) Inferior MI + clear lungs always means isolated LV failure needing more nitrates",
+        "C) ST elevation in I/aVL means isolated RV infarct",
+        "D) Inferior MI + nitrate hypotension + raised JVP/clear lungs suggests RV infarct"
+      ],
+      "answer": "D) Inferior MI + nitrate hypotension + raised JVP/clear lungs suggests RV infarct",
+      "explanation": "RV infarct is preload-dependent; nitrates drop venous return and BP. Therefore, the most accurate choice is: Inferior MI + nitrate hypotension + raised JVP/clear lungs suggests RV infarct. LV failure typically causes pulmonary congestion, not clear lungs with raised JVP.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "LV failure typically causes pulmonary congestion, not clear lungs with raised JVP. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "RV infarct is preload-dependent; nitrates drop venous return and BP. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:hard:7",
+      "question": "Which of the following is the best statement about beta-blocker therapy in HFrEF?",
+      "options": [
+        "A) Evidence-based beta-blocker with proven HFrEF mortality benefit",
+        "B) Short-acting nifedipine as HFrEF mortality-reducing therapy",
+        "C) Beta-blockers contraindicated in all post-MI patients forever",
+        "D) Treats hypokalemia as intended primary HF benefit"
+      ],
+      "answer": "A) Evidence-based beta-blocker with proven HFrEF mortality benefit",
+      "explanation": "GDMT beta-blockers reduce mortality in HFrEF. Therefore, the most accurate choice is: Evidence-based beta-blocker with proven HFrEF mortality benefit. Short-acting DHPs are not mortality-reducing HFrEF therapy.",
+      "choice_explanations": {
+        "A": "GDMT beta-blockers reduce mortality in HFrEF. This matches the correct interpretation.",
+        "B": "Short-acting DHPs are not mortality-reducing HFrEF therapy. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:hard:8",
+      "question": "A 56-year-old woman with hypertension is evaluated for possible new left bundle branch block with ischemic symptoms. Which of the following is most accurate?",
+      "options": [
+        "A) Fibrinolysis always preferred over PCI even when PCI immediately available",
+        "B) Any troponin rise always equals STEMI needing fibrinolysis",
+        "C) New LBBB with ischemic symptoms can be treated as STEMI equivalent",
+        "D) New LBBB is always a benign chronic finding needing no reperfusion thought"
+      ],
+      "answer": "C) New LBBB with ischemic symptoms can be treated as STEMI equivalent",
+      "explanation": "Ischemic symptoms plus new LBBB may warrant emergent reperfusion pathways. Therefore, the most accurate choice is: New LBBB with ischemic symptoms can be treated as STEMI equivalent. Calling every LBBB benign misses occlusion equivalents.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Ischemic symptoms plus new LBBB may warrant emergent reperfusion pathways. This matches the correct interpretation.",
+        "D": "Calling every LBBB benign misses occlusion equivalents. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:hard:9",
+      "question": "Two similar explanations for type A dissection caution are compared. Which of the following is correct?",
+      "options": [
+        "A) Mild troponin rise always means treat as simple NSTE-ACS only",
+        "B) Tearing pain and pulse deficit → exclude type A dissection before full ACS Rx",
+        "C) Aspirin always equals full anticoagulation for AF",
+        "D) Any troponin rise always equals STEMI needing fibrinolysis"
+      ],
+      "answer": "B) Tearing pain and pulse deficit → exclude type A dissection before full ACS Rx",
+      "explanation": "Type A dissection can mimic ACS and worsen with anticoagulation delays. Therefore, the most accurate choice is: Tearing pain and pulse deficit → exclude type A dissection before full ACS Rx. Troponin rise can occur in dissection; pulse deficit is a red flag.",
+      "choice_explanations": {
+        "A": "Troponin rise can occur in dissection; pulse deficit is a red flag. It is less consistent than the correct choice.",
+        "B": "Type A dissection can mimic ACS and worsen with anticoagulation delays. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:hard:10",
+      "question": "A 70-year-old woman with hypertension is evaluated for unstable angina. Which of the following is the best interpretation?",
+      "options": [
+        "A) Rest or crescendo angina from plaque instability without biomarker necrosis",
+        "B) STEMI with persistent ST elevation requiring immediate reperfusion",
+        "C) Troponin-negative exertional angina only",
+        "D) ST elevation in I/aVL means isolated RV infarct"
+      ],
+      "answer": "A) Rest or crescendo angina from plaque instability without biomarker necrosis",
+      "explanation": "Unstable angina is ischemia at rest/crescendo without necrosis biomarkers. Therefore, the most accurate choice is: Rest or crescendo angina from plaque instability without biomarker necrosis. STEMI shows ST elevation and needs immediate reperfusion.",
+      "choice_explanations": {
+        "A": "Unstable angina is ischemia at rest/crescendo without necrosis biomarkers. This matches the correct interpretation.",
+        "B": "STEMI shows ST elevation and needs immediate reperfusion. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:hard:11",
+      "question": "A 77-year-old woman with hypertension has suspected NSTEMI, and similar diagnoses remain possible. Which of the following is most accurate?",
+      "options": [
+        "A) Troponin-positive ACS without persistent ST elevation",
+        "B) Prolonged rest pain with diaphoresis suggesting ACS",
+        "C) STEMI with persistent ST elevation requiring immediate reperfusion",
+        "D) Troponin-negative exertional angina only"
+      ],
+      "answer": "A) Troponin-positive ACS without persistent ST elevation",
+      "explanation": "NSTEMI is myocyte necrosis without persistent STEMI pattern. Therefore, the most accurate choice is: Troponin-positive ACS without persistent ST elevation. Troponin-negative pain is not NSTEMI.",
+      "choice_explanations": {
+        "A": "NSTEMI is myocyte necrosis without persistent STEMI pattern. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Troponin-negative pain is not NSTEMI. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:hard:12",
+      "question": "Initial reading of the case suggested anterior STEMI. Which of the following is correct?",
+      "options": [
+        "A) ST elevation in V2–V4 suggests isolated RCA inferior infarct",
+        "B) ST elevation in II/III/aVF localizes primarily to high lateral LCx alone",
+        "C) ST elevation in I/aVL means isolated RV infarct",
+        "D) ST elevation in V2–V4 suggests LAD/anterior territory"
+      ],
+      "answer": "D) ST elevation in V2–V4 suggests LAD/anterior territory",
+      "explanation": "Precordial V2–V4 STE localizes anterior/septal LAD territory. Therefore, the most accurate choice is: ST elevation in V2–V4 suggests LAD/anterior territory. Inferior RCA infarct maps to II/III/aVF.",
+      "choice_explanations": {
+        "A": "Inferior RCA infarct maps to II/III/aVF. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Precordial V2–V4 STE localizes anterior/septal LAD territory. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:hard:13",
+      "question": "A 76-year-old man with hypertension presents with lateral STEMI. Which of the following best separates it from similar conditions?",
+      "options": [
+        "A) ST elevation in I/aVL means isolated RV infarct",
+        "B) ST elevation in I, aVL ± V5–V6 suggests lateral wall (often LCx)",
+        "C) ST elevation in V2–V4 suggests isolated RCA inferior infarct",
+        "D) ST elevation in II/III/aVF localizes primarily to high lateral LCx alone"
+      ],
+      "answer": "B) ST elevation in I, aVL ± V5–V6 suggests lateral wall (often LCx)",
+      "explanation": "I/aVL ± lateral precordials map lateral wall, often LCx. Therefore, the most accurate choice is: ST elevation in I, aVL ± V5–V6 suggests lateral wall (often LCx). RV infarct is suggested by right-sided leads.",
+      "choice_explanations": {
+        "A": "RV infarct is suggested by right-sided leads. It is less consistent than the correct choice.",
+        "B": "I/aVL ± lateral precordials map lateral wall, often LCx. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:hard:14",
+      "question": "Which of the following is the best statement about dual antiplatelet therapy after coronary stenting?",
+      "options": [
+        "A) Reversible COX-2 selective anti-inflammatory effect as the ACS mechanism",
+        "B) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT",
+        "C) Beta-blockers contraindicated in all post-MI patients forever",
+        "D) DAPT with aspirin plus P2Y12 inhibitor after ACS/stent"
+      ],
+      "answer": "D) DAPT with aspirin plus P2Y12 inhibitor after ACS/stent",
+      "explanation": "Aspirin + P2Y12 prevents stent thrombosis and recurrent events. Therefore, the most accurate choice is: DAPT with aspirin plus P2Y12 inhibitor after ACS/stent. Warfarin is not a standard P2Y12 substitute in DAPT.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Warfarin is not a standard P2Y12 substitute in DAPT. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Aspirin + P2Y12 prevents stent thrombosis and recurrent events. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:hard:15",
+      "question": "A 46-year-old man is evaluated for possible post-MI beta-blocker. Which of the following is most accurate?",
+      "options": [
+        "A) Immediate high-dose IV beta-blocker as sole first relief in all angina",
+        "B) Beta-blockers reduce myocardial O2 demand after MI when indicated",
+        "C) Beta-blockers contraindicated in all post-MI patients forever",
+        "D) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT"
+      ],
+      "answer": "B) Beta-blockers reduce myocardial O2 demand after MI when indicated",
+      "explanation": "β-blockade lowers HR/contractility and O2 demand when appropriate. Therefore, the most accurate choice is: Beta-blockers reduce myocardial O2 demand after MI when indicated. Not universally forever contraindicated post-MI.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "β-blockade lowers HR/contractility and O2 demand when appropriate. This matches the correct interpretation.",
+        "C": "Not universally forever contraindicated post-MI. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:hard:16",
+      "question": "Two similar explanations for ACE inhibitor therapy after MI with heart failure are compared. Which of the following is correct?",
+      "options": [
+        "A) ACEi used only for cough suppression after MI",
+        "B) Beta-blockers contraindicated in all post-MI patients forever",
+        "C) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT",
+        "D) ACEi improve remodeling/mortality in HFrEF and selected post-MI patients"
+      ],
+      "answer": "D) ACEi improve remodeling/mortality in HFrEF and selected post-MI patients",
+      "explanation": "RAAS blockade benefits remodeling and survival in indicated HF/MI. Therefore, the most accurate choice is: ACEi improve remodeling/mortality in HFrEF and selected post-MI patients. Cough is an adverse effect, not the purpose.",
+      "choice_explanations": {
+        "A": "Cough is an adverse effect, not the purpose. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "RAAS blockade benefits remodeling and survival in indicated HF/MI. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:hard:17",
+      "question": "In a detailed discussion of high-intensity statin ACS, which of the following is most accurate?",
+      "options": [
+        "A) High-intensity statin for secondary prevention after ACS",
+        "B) Any Cr rise mandates permanent cessation of all HF therapy",
+        "C) Treats hyperkalemia as primary therapy",
+        "D) Stop all lipid therapy after one normal cholesterol"
+      ],
+      "answer": "A) High-intensity statin for secondary prevention after ACS",
+      "explanation": "Statins lower LDL and stabilize plaque after ACS. Therefore, the most accurate choice is: High-intensity statin for secondary prevention after ACS. Secondary prevention continues despite one normal value.",
+      "choice_explanations": {
+        "A": "Statins lower LDL and stabilize plaque after ACS. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Secondary prevention continues despite one normal value. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:hard:18",
+      "question": "A 61-year-old man has suspected tamponade triad, and similar diagnoses remain possible. Which of the following is most accurate?",
+      "options": [
+        "A) JVP measures LVEF directly",
+        "B) Electrical alternans pathognomonic for hypokalemia only",
+        "C) Hypertension with bounding pulses is the classic tamponade triad",
+        "D) Hypotension, raised JVP, muffled sounds ± electrical alternans suggest tamponade"
+      ],
+      "answer": "D) Hypotension, raised JVP, muffled sounds ± electrical alternans suggest tamponade",
+      "explanation": "Pericardial pressure equalizes filling and cuts cardiac output. Therefore, the most accurate choice is: Hypotension, raised JVP, muffled sounds ± electrical alternans suggest tamponade. Tamponade causes low output, not hypertensive bounding pulses.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Tamponade causes low output, not hypertensive bounding pulses. It is less consistent than the correct choice.",
+        "D": "Pericardial pressure equalizes filling and cuts cardiac output. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:hard:19",
+      "question": "A clinic case of electrical alternans is discussed. Which of the following is correct?",
+      "options": [
+        "A) Electrical alternans pathognomonic for hypokalemia only",
+        "B) Narrow QRS excludes all conduction disease",
+        "C) PR prolongation always equals complete heart block",
+        "D) Beat-to-beat QRS amplitude change suggests swinging heart in large effusion"
+      ],
+      "answer": "D) Beat-to-beat QRS amplitude change suggests swinging heart in large effusion",
+      "explanation": "Heart swinging in effusion alters QRS amplitude alternately. Therefore, the most accurate choice is: Beat-to-beat QRS amplitude change suggests swinging heart in large effusion. Hypokalemia causes U waves, not classic electrical alternans.",
+      "choice_explanations": {
+        "A": "Hypokalemia causes U waves, not classic electrical alternans. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Heart swinging in effusion alters QRS amplitude alternately. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:hard:20",
+      "question": "A 54-year-old man presents with features compatible with unstable AF cardioversion. Which of the following is most accurate?",
+      "options": [
+        "A) Unstable AF should first get only oral digoxin and observe hours",
+        "B) Unstable VT observed 1 hour before any therapy",
+        "C) All WCTs are SVT with aberrancy and get verapamil first",
+        "D) Unstable AF with hypotension needs synchronized cardioversion"
+      ],
+      "answer": "D) Unstable AF with hypotension needs synchronized cardioversion",
+      "explanation": "Instability mandates urgent electrical cardioversion. Therefore, the most accurate choice is: Unstable AF with hypotension needs synchronized cardioversion. Slow oral digoxin is not first therapy for unstable AF.",
+      "choice_explanations": {
+        "A": "Slow oral digoxin is not first therapy for unstable AF. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Instability mandates urgent electrical cardioversion. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:hard:21",
+      "question": "Which statement about preexcited AF in a 40-year-old woman is most accurate?",
+      "options": [
+        "A) All WCTs are SVT with aberrancy and get verapamil first",
+        "B) Adenosine first-line for irregular polymorphic VT",
+        "C) Avoid AV-nodal blockers in preexcited AF; shock if unstable or use procainamide",
+        "D) IV verapamil first-line for irregular wide-complex preexcited AF"
+      ],
+      "answer": "C) Avoid AV-nodal blockers in preexcited AF; shock if unstable or use procainamide",
+      "explanation": "AV-nodal blockade can enhance pathway conduction and risk VF. Therefore, the most accurate choice is: Avoid AV-nodal blockers in preexcited AF; shock if unstable or use procainamide. Verapamil is contraindicated in preexcited AF.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "AV-nodal blockade can enhance pathway conduction and risk VF. This matches the correct interpretation.",
+        "D": "Verapamil is contraindicated in preexcited AF. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:hard:22",
+      "question": "A 50-year-old woman has progressive findings of regular wide-complex tachycardia. Which of the following is most accurate?",
+      "options": [
+        "A) All WCTs are SVT with aberrancy and get verapamil first",
+        "B) Regular wide-complex tachycardia treated as VT until proven otherwise",
+        "C) Unstable AF should first get only oral digoxin and observe hours",
+        "D) IV verapamil first-line for irregular wide-complex preexcited AF"
+      ],
+      "answer": "B) Regular wide-complex tachycardia treated as VT until proven otherwise",
+      "explanation": "Defaulting to VT is safer; misdiagnosing VT as SVT can be fatal. Therefore, the most accurate choice is: Regular wide-complex tachycardia treated as VT until proven otherwise. Empiric verapamil can collapse VT patients.",
+      "choice_explanations": {
+        "A": "Empiric verapamil can collapse VT patients. It is less consistent than the correct choice.",
+        "B": "Defaulting to VT is safer; misdiagnosing VT as SVT can be fatal. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:hard:23",
+      "question": "Careful review of pulseless ventricular tachycardia or fibrillation is required. Which of the following is most accurate?",
+      "options": [
+        "A) Unstable AF should first get only oral digoxin and observe hours",
+        "B) Atropine is first therapy for VF",
+        "C) Unstable VT observed 1 hour before any therapy",
+        "D) Pulseless VT/VF needs immediate defibrillation/CPR"
+      ],
+      "answer": "D) Pulseless VT/VF needs immediate defibrillation/CPR",
+      "explanation": "Electrical defibrillation/CPR is first response to pulseless VT/VF. Therefore, the most accurate choice is: Pulseless VT/VF needs immediate defibrillation/CPR. Delaying electricity for oral drugs is inappropriate.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Delaying electricity for oral drugs is inappropriate. It is less consistent than the correct choice.",
+        "D": "Electrical defibrillation/CPR is first response to pulseless VT/VF. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:hard:24",
+      "question": "Two similar explanations for symptomatic bradycardia are compared. Which of the following is correct?",
+      "options": [
+        "A) Symptomatic sinus bradycardia may respond to atropine while preparing pacing",
+        "B) First therapy for cardiogenic shock without congestion assessment",
+        "C) Atropine is first therapy for VF",
+        "D) Flecainide first-line rate control in decompensated HF with AF"
+      ],
+      "answer": "A) Symptomatic sinus bradycardia may respond to atropine while preparing pacing",
+      "explanation": "Atropine blocks vagal tone and can raise sinus rate. Therefore, the most accurate choice is: Symptomatic sinus bradycardia may respond to atropine while preparing pacing. VF needs defibrillation, not atropine as primary.",
+      "choice_explanations": {
+        "A": "Atropine blocks vagal tone and can raise sinus rate. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "VF needs defibrillation, not atropine as primary. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:hard:25",
+      "question": "In a detailed discussion of CHB pacing, which of the following is most accurate?",
+      "options": [
+        "A) Unstable VT observed 1 hour before any therapy",
+        "B) CHB always managed with observation only",
+        "C) High-grade AV block with instability needs temporary pacing readiness",
+        "D) Any BP >140 always requires immediate ICU nitroprusside"
+      ],
+      "answer": "C) High-grade AV block with instability needs temporary pacing readiness",
+      "explanation": "Unstable AV block requires urgent pacing support. Therefore, the most accurate choice is: High-grade AV block with instability needs temporary pacing readiness. Observation alone is unsafe when perfusion is compromised.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Observation alone is unsafe when perfusion is compromised. It is less consistent than the correct choice.",
+        "C": "Unstable AV block requires urgent pacing support. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:hard:26",
+      "question": "Which of the following correctly distinguishes key points about severe symptomatic aortic stenosis?",
+      "options": [
+        "A) Crescendo-decrescendo systolic murmur to the carotids from AS",
+        "B) Syncope, angina, HF with harsh SEM to carotids",
+        "C) Only holosystolic apical to axilla like MR",
+        "D) AS presents as holosystolic apical murmur to axilla like MR"
+      ],
+      "answer": "B) Syncope, angina, HF with harsh SEM to carotids",
+      "explanation": "Fixed outflow obstruction causes exertional syncope/angina/HF. Therefore, the most accurate choice is: Syncope, angina, HF with harsh SEM to carotids. MR is the holosystolic axillary murmur.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Fixed outflow obstruction causes exertional syncope/angina/HF. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "MR is the holosystolic axillary murmur. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:hard:27",
+      "question": "Careful interpretation of mitral stenosis is required. Which of the following is correct?",
+      "options": [
+        "A) MS is holosystolic murmur to the axilla",
+        "B) Diastolic rumble with opening snap in mitral stenosis",
+        "C) AR is holosystolic to axilla",
+        "D) AS presents as holosystolic apical murmur to axilla like MR"
+      ],
+      "answer": "B) Diastolic rumble with opening snap in mitral stenosis",
+      "explanation": "Narrowed mitral orifice yields diastolic rumble ± opening snap. Therefore, the most accurate choice is: Diastolic rumble with opening snap in mitral stenosis. Holosystolic axillary radiation is MR.",
+      "choice_explanations": {
+        "A": "Holosystolic axillary radiation is MR. It is less consistent than the correct choice.",
+        "B": "Narrowed mitral orifice yields diastolic rumble ± opening snap. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:hard:28",
+      "question": "Which statement about hypertrophic obstructive cardiomyopathy is most accurate?",
+      "options": [
+        "A) HOCM murmur always decreases with Valsalva like most flow murmurs",
+        "B) HOCM murmur increases with Valsalva/standing (↓ preload)",
+        "C) AS presents as holosystolic apical murmur to axilla like MR",
+        "D) New post-MI murmur always innocent"
+      ],
+      "answer": "B) HOCM murmur increases with Valsalva/standing (↓ preload)",
+      "explanation": "Dynamic LVOT obstruction worsens when ventricle is smaller. Therefore, the most accurate choice is: HOCM murmur increases with Valsalva/standing (↓ preload). Most murmurs soften with less preload; HOCM louder.",
+      "choice_explanations": {
+        "A": "Most murmurs soften with less preload; HOCM louder. It is less consistent than the correct choice.",
+        "B": "Dynamic LVOT obstruction worsens when ventricle is smaller. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:hard:29",
+      "question": "Which of the following is the best statement about infective endocarditis?",
+      "options": [
+        "A) New post-MI murmur always innocent",
+        "B) Fever + new regurgitant murmur + bacteremia raises endocarditis concern",
+        "C) Endocarditis diagnosed by cough alone without blood cultures",
+        "D) MS is holosystolic murmur to the axilla"
+      ],
+      "answer": "B) Fever + new regurgitant murmur + bacteremia raises endocarditis concern",
+      "explanation": "Continuous bacteremia and valvular involvement define IE risk. Therefore, the most accurate choice is: Fever + new regurgitant murmur + bacteremia raises endocarditis concern. Cough alone is insufficient.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Continuous bacteremia and valvular involvement define IE risk. This matches the correct interpretation.",
+        "C": "Cough alone is insufficient. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ],
+  "extreme": [
+    {
+      "id": "cardiology:extreme:0",
+      "question": "Careful reasoning about the surface ECG is required. Which of the following is most accurate?",
+      "options": [
+        "A) Surface ECG directly measures coronary blood-flow velocity",
+        "B) Surface ECG records myocardial depolarization/repolarization voltages",
+        "C) Angiography measures only PCWP as its purpose",
+        "D) JVP measures LVEF directly"
+      ],
+      "answer": "B) Surface ECG records myocardial depolarization/repolarization voltages",
+      "explanation": "Electrodes sense extracellular voltage changes from myocyte depolarization and repolarization. Therefore, the most accurate choice is: Surface ECG records myocardial depolarization/repolarization voltages. Coronary flow is a hemodynamic/Doppler measure, not the ECG voltage tracing.",
+      "choice_explanations": {
+        "A": "Coronary flow is a hemodynamic/Doppler measure, not the ECG voltage tracing. It is less consistent than the correct choice.",
+        "B": "Electrodes sense extracellular voltage changes from myocyte depolarization and repolarization. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:extreme:1",
+      "question": "A 73-year-old man with diabetes, hypertension, and chronic kidney disease is reassessed after incomplete response related to stable angina. Which of the following is most accurate?",
+      "options": [
+        "A) Pericarditis always exertional and relieved only by nitrates",
+        "B) Exertional retrosternal pressure relieved by rest or nitrates",
+        "C) Prolonged rest pain with diaphoresis suggesting ACS",
+        "D) Claudication always nocturnal rest pain of CLI"
+      ],
+      "answer": "B) Exertional retrosternal pressure relieved by rest or nitrates",
+      "explanation": "Demand ischemia causes transient exertional angina that eases when demand falls. Therefore, the most accurate choice is: Exertional retrosternal pressure relieved by rest or nitrates. Prolonged rest pain suggests ACS rather than stable angina.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Demand ischemia causes transient exertional angina that eases when demand falls. This matches the correct interpretation.",
+        "C": "Prolonged rest pain suggests ACS rather than stable angina. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:extreme:2",
+      "question": "A 74-year-old man worsens overnight with aspirin in ACS. Which of the following is most accurate?",
+      "options": [
+        "A) Reversible COX-2 selective anti-inflammatory effect as the ACS mechanism",
+        "B) Prolonged rest pain with diaphoresis suggesting ACS",
+        "C) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT",
+        "D) Irreversible COX-1 inhibition reducing platelet thromboxane A2"
+      ],
+      "answer": "D) Irreversible COX-1 inhibition reducing platelet thromboxane A2",
+      "explanation": "Aspirin acetylates platelet COX-1, lowering thromboxane and aggregation. Therefore, the most accurate choice is: Irreversible COX-1 inhibition reducing platelet thromboxane A2. COX-2 selectivity is not aspirin’s ACS antithrombotic mechanism.",
+      "choice_explanations": {
+        "A": "COX-2 selectivity is not aspirin’s ACS antithrombotic mechanism. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Aspirin acetylates platelet COX-1, lowering thromboxane and aggregation. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:extreme:3",
+      "question": "In advanced review of inferior STEMI, which of the following is most accurate?",
+      "options": [
+        "A) ST elevation in II, III, aVF localizes to inferior wall (often RCA)",
+        "B) ST elevation in I/aVL means isolated RV infarct",
+        "C) ST elevation in II/III/aVF localizes primarily to high lateral LCx alone",
+        "D) ST elevation in V2–V4 suggests isolated RCA inferior infarct"
+      ],
+      "answer": "A) ST elevation in II, III, aVF localizes to inferior wall (often RCA)",
+      "explanation": "II/III/aVF view the inferior wall, commonly RCA-supplied. Therefore, the most accurate choice is: ST elevation in II, III, aVF localizes to inferior wall (often RCA). High lateral infarction maps to I/aVL ± V5–V6.",
+      "choice_explanations": {
+        "A": "II/III/aVF view the inferior wall, commonly RCA-supplied. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "High lateral infarction maps to I/aVL ± V5–V6. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:extreme:4",
+      "question": "Which interpretation of mitral regurgitation is most accurate?",
+      "options": [
+        "A) Crescendo-decrescendo systolic murmur to the carotids from AS",
+        "B) Only holosystolic apical to axilla like MR",
+        "C) Holosystolic apical murmur radiating to the axilla",
+        "D) AS presents as holosystolic apical murmur to axilla like MR"
+      ],
+      "answer": "C) Holosystolic apical murmur radiating to the axilla",
+      "explanation": "MR jet into LA throughout systole produces holosystolic apical-to-axilla murmur. Therefore, the most accurate choice is: Holosystolic apical murmur radiating to the axilla. AS is an ejection systolic murmur to the carotids.",
+      "choice_explanations": {
+        "A": "AS is an ejection systolic murmur to the carotids. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "MR jet into LA throughout systole produces holosystolic apical-to-axilla murmur. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:extreme:5",
+      "question": "Safety concerns around sublingual nitroglycerin in angina arise in a 65-year-old woman. Which of the following is most accurate?",
+      "options": [
+        "A) ST elevation in II/III/aVF localizes primarily to high lateral LCx alone",
+        "B) Prolonged rest pain with diaphoresis suggesting ACS",
+        "C) Immediate high-dose IV beta-blocker as sole first relief in all angina",
+        "D) Sublingual nitroglycerin reduces preload and ischemic pain if safe"
+      ],
+      "answer": "D) Sublingual nitroglycerin reduces preload and ischemic pain if safe",
+      "explanation": "Nitrates venodilate, cut preload and wall stress, often easing ischemic pain. Therefore, the most accurate choice is: Sublingual nitroglycerin reduces preload and ischemic pain if safe. Beta-blockers are not the usual first acute SL relief step.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Beta-blockers are not the usual first acute SL relief step. It is less consistent than the correct choice.",
+        "D": "Nitrates venodilate, cut preload and wall stress, often easing ischemic pain. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:extreme:6",
+      "question": "Senior review is requested for right ventricular infarction in a 45-year-old man. Which of the following is correct?",
+      "options": [
+        "A) Pulsus paradoxus always means essential hypertension",
+        "B) Inferior MI + nitrate hypotension + raised JVP/clear lungs suggests RV infarct",
+        "C) Inferior MI + clear lungs always means isolated LV failure needing more nitrates",
+        "D) ST elevation in V2–V4 suggests isolated RCA inferior infarct"
+      ],
+      "answer": "B) Inferior MI + nitrate hypotension + raised JVP/clear lungs suggests RV infarct",
+      "explanation": "RV infarct is preload-dependent; nitrates drop venous return and BP. Therefore, the most accurate choice is: Inferior MI + nitrate hypotension + raised JVP/clear lungs suggests RV infarct. LV failure typically causes pulmonary congestion, not clear lungs with raised JVP.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "RV infarct is preload-dependent; nitrates drop venous return and BP. This matches the correct interpretation.",
+        "C": "LV failure typically causes pulmonary congestion, not clear lungs with raised JVP. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:extreme:7",
+      "question": "Which statement about managing beta-blocker therapy in HFrEF in a 73-year-old man is most accurate?",
+      "options": [
+        "A) Treats hypokalemia as intended primary HF benefit",
+        "B) Evidence-based beta-blocker with proven HFrEF mortality benefit",
+        "C) Beta-blockers contraindicated in all post-MI patients forever",
+        "D) Short-acting nifedipine as HFrEF mortality-reducing therapy"
+      ],
+      "answer": "B) Evidence-based beta-blocker with proven HFrEF mortality benefit",
+      "explanation": "GDMT beta-blockers reduce mortality in HFrEF. Therefore, the most accurate choice is: Evidence-based beta-blocker with proven HFrEF mortality benefit. Short-acting DHPs are not mortality-reducing HFrEF therapy.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "GDMT beta-blockers reduce mortality in HFrEF. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Short-acting DHPs are not mortality-reducing HFrEF therapy. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:extreme:8",
+      "question": "A 56-year-old woman has a complex presentation of new left bundle branch block with ischemic symptoms. Which of the following is most accurate?",
+      "options": [
+        "A) New LBBB with ischemic symptoms can be treated as STEMI equivalent",
+        "B) Any troponin rise always equals STEMI needing fibrinolysis",
+        "C) New LBBB is always a benign chronic finding needing no reperfusion thought",
+        "D) Fibrinolysis always preferred over PCI even when PCI immediately available"
+      ],
+      "answer": "A) New LBBB with ischemic symptoms can be treated as STEMI equivalent",
+      "explanation": "Ischemic symptoms plus new LBBB may warrant emergent reperfusion pathways. Therefore, the most accurate choice is: New LBBB with ischemic symptoms can be treated as STEMI equivalent. Calling every LBBB benign misses occlusion equivalents.",
+      "choice_explanations": {
+        "A": "Ischemic symptoms plus new LBBB may warrant emergent reperfusion pathways. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Calling every LBBB benign misses occlusion equivalents. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:extreme:9",
+      "question": "Management of type A dissection caution is reviewed for a 57-year-old man. Which of the following is most accurate?",
+      "options": [
+        "A) Mild troponin rise always means treat as simple NSTE-ACS only",
+        "B) Aspirin always equals full anticoagulation for AF",
+        "C) Any troponin rise always equals STEMI needing fibrinolysis",
+        "D) Tearing pain and pulse deficit → exclude type A dissection before full ACS Rx"
+      ],
+      "answer": "D) Tearing pain and pulse deficit → exclude type A dissection before full ACS Rx",
+      "explanation": "Type A dissection can mimic ACS and worsen with anticoagulation delays. Therefore, the most accurate choice is: Tearing pain and pulse deficit → exclude type A dissection before full ACS Rx. Troponin rise can occur in dissection; pulse deficit is a red flag.",
+      "choice_explanations": {
+        "A": "Troponin rise can occur in dissection; pulse deficit is a red flag. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Type A dissection can mimic ACS and worsen with anticoagulation delays. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:extreme:10",
+      "question": "A 70-year-old woman worsens overnight with unstable angina. Which of the following is most accurate?",
+      "options": [
+        "A) Rest or crescendo angina from plaque instability without biomarker necrosis",
+        "B) STEMI with persistent ST elevation requiring immediate reperfusion",
+        "C) Troponin-negative exertional angina only",
+        "D) ST elevation in I/aVL means isolated RV infarct"
+      ],
+      "answer": "A) Rest or crescendo angina from plaque instability without biomarker necrosis",
+      "explanation": "Unstable angina is ischemia at rest/crescendo without necrosis biomarkers. Therefore, the most accurate choice is: Rest or crescendo angina from plaque instability without biomarker necrosis. STEMI shows ST elevation and needs immediate reperfusion.",
+      "choice_explanations": {
+        "A": "Unstable angina is ischemia at rest/crescendo without necrosis biomarkers. This matches the correct interpretation.",
+        "B": "STEMI shows ST elevation and needs immediate reperfusion. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:extreme:11",
+      "question": "A 77-year-old woman with diabetes, hypertension, and chronic kidney disease develops dangerous complications of NSTEMI. Which of the following is correct?",
+      "options": [
+        "A) STEMI with persistent ST elevation requiring immediate reperfusion",
+        "B) Troponin-positive ACS without persistent ST elevation",
+        "C) Prolonged rest pain with diaphoresis suggesting ACS",
+        "D) Troponin-negative exertional angina only"
+      ],
+      "answer": "B) Troponin-positive ACS without persistent ST elevation",
+      "explanation": "NSTEMI is myocyte necrosis without persistent STEMI pattern. Therefore, the most accurate choice is: Troponin-positive ACS without persistent ST elevation. Troponin-negative pain is not NSTEMI.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "NSTEMI is myocyte necrosis without persistent STEMI pattern. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Troponin-negative pain is not NSTEMI. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:extreme:12",
+      "question": "A 63-year-old man has a rapidly worsening course of anterior STEMI. Which of the following is most accurate?",
+      "options": [
+        "A) ST elevation in I/aVL means isolated RV infarct",
+        "B) ST elevation in V2–V4 suggests isolated RCA inferior infarct",
+        "C) ST elevation in II/III/aVF localizes primarily to high lateral LCx alone",
+        "D) ST elevation in V2–V4 suggests LAD/anterior territory"
+      ],
+      "answer": "D) ST elevation in V2–V4 suggests LAD/anterior territory",
+      "explanation": "Precordial V2–V4 STE localizes anterior/septal LAD territory. Therefore, the most accurate choice is: ST elevation in V2–V4 suggests LAD/anterior territory. Inferior RCA infarct maps to II/III/aVF.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Inferior RCA infarct maps to II/III/aVF. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Precordial V2–V4 STE localizes anterior/septal LAD territory. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:extreme:13",
+      "question": "Urgent management decisions for lateral STEMI are required in a 76-year-old man. Which of the following is most accurate?",
+      "options": [
+        "A) ST elevation in I, aVL ± V5–V6 suggests lateral wall (often LCx)",
+        "B) ST elevation in I/aVL means isolated RV infarct",
+        "C) ST elevation in V2–V4 suggests isolated RCA inferior infarct",
+        "D) ST elevation in II/III/aVF localizes primarily to high lateral LCx alone"
+      ],
+      "answer": "A) ST elevation in I, aVL ± V5–V6 suggests lateral wall (often LCx)",
+      "explanation": "I/aVL ± lateral precordials map lateral wall, often LCx. Therefore, the most accurate choice is: ST elevation in I, aVL ± V5–V6 suggests lateral wall (often LCx). RV infarct is suggested by right-sided leads.",
+      "choice_explanations": {
+        "A": "I/aVL ± lateral precordials map lateral wall, often LCx. This matches the correct interpretation.",
+        "B": "RV infarct is suggested by right-sided leads. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:extreme:14",
+      "question": "A 62-year-old woman has a complicated course involving primary PCI for STEMI. Which of the following is correct?",
+      "options": [
+        "A) New LBBB is always a benign chronic finding needing no reperfusion thought",
+        "B) Any troponin rise always equals STEMI needing fibrinolysis",
+        "C) Primary PCI is preferred reperfusion for STEMI when timely",
+        "D) Fibrinolysis always preferred over PCI even when PCI immediately available"
+      ],
+      "answer": "C) Primary PCI is preferred reperfusion for STEMI when timely",
+      "explanation": "Timely primary PCI is preferred STEMI reperfusion. Therefore, the most accurate choice is: Primary PCI is preferred reperfusion for STEMI when timely. Fibrinolysis is used when PCI cannot be timely.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Timely primary PCI is preferred STEMI reperfusion. This matches the correct interpretation.",
+        "D": "Fibrinolysis is used when PCI cannot be timely. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:extreme:15",
+      "question": "Which statement about managing dual antiplatelet therapy after coronary stenting in a 63-year-old man is most accurate?",
+      "options": [
+        "A) Beta-blockers contraindicated in all post-MI patients forever",
+        "B) Reversible COX-2 selective anti-inflammatory effect as the ACS mechanism",
+        "C) DAPT with aspirin plus P2Y12 inhibitor after ACS/stent",
+        "D) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT"
+      ],
+      "answer": "C) DAPT with aspirin plus P2Y12 inhibitor after ACS/stent",
+      "explanation": "Aspirin + P2Y12 prevents stent thrombosis and recurrent events. Therefore, the most accurate choice is: DAPT with aspirin plus P2Y12 inhibitor after ACS/stent. Warfarin is not a standard P2Y12 substitute in DAPT.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Aspirin + P2Y12 prevents stent thrombosis and recurrent events. This matches the correct interpretation.",
+        "D": "Warfarin is not a standard P2Y12 substitute in DAPT. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:extreme:16",
+      "question": "A 46-year-old man has a complex presentation of post-MI beta-blocker. Which of the following is most accurate?",
+      "options": [
+        "A) Beta-blockers reduce myocardial O2 demand after MI when indicated",
+        "B) Beta-blockers contraindicated in all post-MI patients forever",
+        "C) Immediate high-dose IV beta-blocker as sole first relief in all angina",
+        "D) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT"
+      ],
+      "answer": "A) Beta-blockers reduce myocardial O2 demand after MI when indicated",
+      "explanation": "β-blockade lowers HR/contractility and O2 demand when appropriate. Therefore, the most accurate choice is: Beta-blockers reduce myocardial O2 demand after MI when indicated. Not universally forever contraindicated post-MI.",
+      "choice_explanations": {
+        "A": "β-blockade lowers HR/contractility and O2 demand when appropriate. This matches the correct interpretation.",
+        "B": "Not universally forever contraindicated post-MI. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:extreme:17",
+      "question": "Management of ACE inhibitor therapy after MI with heart failure is reviewed for a 77-year-old man. Which of the following is most accurate?",
+      "options": [
+        "A) Beta-blockers contraindicated in all post-MI patients forever",
+        "B) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT",
+        "C) ACEi used only for cough suppression after MI",
+        "D) ACEi improve remodeling/mortality in HFrEF and selected post-MI patients"
+      ],
+      "answer": "D) ACEi improve remodeling/mortality in HFrEF and selected post-MI patients",
+      "explanation": "RAAS blockade benefits remodeling and survival in indicated HF/MI. Therefore, the most accurate choice is: ACEi improve remodeling/mortality in HFrEF and selected post-MI patients. Cough is an adverse effect, not the purpose.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Cough is an adverse effect, not the purpose. It is less consistent than the correct choice.",
+        "D": "RAAS blockade benefits remodeling and survival in indicated HF/MI. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:extreme:18",
+      "question": "A 66-year-old woman needs action related to high-intensity statin ACS. Which of the following is correct?",
+      "options": [
+        "A) Any Cr rise mandates permanent cessation of all HF therapy",
+        "B) High-intensity statin for secondary prevention after ACS",
+        "C) Treats hyperkalemia as primary therapy",
+        "D) Stop all lipid therapy after one normal cholesterol"
+      ],
+      "answer": "B) High-intensity statin for secondary prevention after ACS",
+      "explanation": "Statins lower LDL and stabilize plaque after ACS. Therefore, the most accurate choice is: High-intensity statin for secondary prevention after ACS. Secondary prevention continues despite one normal value.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Statins lower LDL and stabilize plaque after ACS. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Secondary prevention continues despite one normal value. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:extreme:19",
+      "question": "A 61-year-old man with hypertension develops dangerous complications of tamponade triad. Which of the following is correct?",
+      "options": [
+        "A) Hypotension, raised JVP, muffled sounds ± electrical alternans suggest tamponade",
+        "B) Hypertension with bounding pulses is the classic tamponade triad",
+        "C) JVP measures LVEF directly",
+        "D) Electrical alternans pathognomonic for hypokalemia only"
+      ],
+      "answer": "A) Hypotension, raised JVP, muffled sounds ± electrical alternans suggest tamponade",
+      "explanation": "Pericardial pressure equalizes filling and cuts cardiac output. Therefore, the most accurate choice is: Hypotension, raised JVP, muffled sounds ± electrical alternans suggest tamponade. Tamponade causes low output, not hypertensive bounding pulses.",
+      "choice_explanations": {
+        "A": "Pericardial pressure equalizes filling and cuts cardiac output. This matches the correct interpretation.",
+        "B": "Tamponade causes low output, not hypertensive bounding pulses. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:extreme:20",
+      "question": "In a 41-year-old man, distinguishing electrical alternans from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Beat-to-beat QRS amplitude change suggests swinging heart in large effusion",
+        "B) Narrow QRS excludes all conduction disease",
+        "C) Electrical alternans pathognomonic for hypokalemia only",
+        "D) PR prolongation always equals complete heart block"
+      ],
+      "answer": "A) Beat-to-beat QRS amplitude change suggests swinging heart in large effusion",
+      "explanation": "Heart swinging in effusion alters QRS amplitude alternately. Therefore, the most accurate choice is: Beat-to-beat QRS amplitude change suggests swinging heart in large effusion. Hypokalemia causes U waves, not classic electrical alternans.",
+      "choice_explanations": {
+        "A": "Heart swinging in effusion alters QRS amplitude alternately. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Hypokalemia causes U waves, not classic electrical alternans. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:extreme:21",
+      "question": "A 54-year-old man returns with ongoing problems related to unstable AF cardioversion. Which of the following is most accurate?",
+      "options": [
+        "A) Unstable VT observed 1 hour before any therapy",
+        "B) Unstable AF should first get only oral digoxin and observe hours",
+        "C) All WCTs are SVT with aberrancy and get verapamil first",
+        "D) Unstable AF with hypotension needs synchronized cardioversion"
+      ],
+      "answer": "D) Unstable AF with hypotension needs synchronized cardioversion",
+      "explanation": "Instability mandates urgent electrical cardioversion. Therefore, the most accurate choice is: Unstable AF with hypotension needs synchronized cardioversion. Slow oral digoxin is not first therapy for unstable AF.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Slow oral digoxin is not first therapy for unstable AF. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Instability mandates urgent electrical cardioversion. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:extreme:22",
+      "question": "Senior review is requested for preexcited AF in a 40-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) Adenosine first-line for irregular polymorphic VT",
+        "B) Avoid AV-nodal blockers in preexcited AF; shock if unstable or use procainamide",
+        "C) IV verapamil first-line for irregular wide-complex preexcited AF",
+        "D) All WCTs are SVT with aberrancy and get verapamil first"
+      ],
+      "answer": "B) Avoid AV-nodal blockers in preexcited AF; shock if unstable or use procainamide",
+      "explanation": "AV-nodal blockade can enhance pathway conduction and risk VF. Therefore, the most accurate choice is: Avoid AV-nodal blockers in preexcited AF; shock if unstable or use procainamide. Verapamil is contraindicated in preexcited AF.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "AV-nodal blockade can enhance pathway conduction and risk VF. This matches the correct interpretation.",
+        "C": "Verapamil is contraindicated in preexcited AF. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:extreme:23",
+      "question": "In intensive care, a 50-year-old woman is treated for complications of regular wide-complex tachycardia. Which of the following is most accurate?",
+      "options": [
+        "A) Unstable AF should first get only oral digoxin and observe hours",
+        "B) IV verapamil first-line for irregular wide-complex preexcited AF",
+        "C) Regular wide-complex tachycardia treated as VT until proven otherwise",
+        "D) All WCTs are SVT with aberrancy and get verapamil first"
+      ],
+      "answer": "C) Regular wide-complex tachycardia treated as VT until proven otherwise",
+      "explanation": "Defaulting to VT is safer; misdiagnosing VT as SVT can be fatal. Therefore, the most accurate choice is: Regular wide-complex tachycardia treated as VT until proven otherwise. Empiric verapamil can collapse VT patients.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Defaulting to VT is safer; misdiagnosing VT as SVT can be fatal. This matches the correct interpretation.",
+        "D": "Empiric verapamil can collapse VT patients. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:extreme:24",
+      "question": "A 51-year-old woman with hypertension requires careful decisions about pulseless ventricular tachycardia or fibrillation. Which of the following is most accurate?",
+      "options": [
+        "A) Pulseless VT/VF needs immediate defibrillation/CPR",
+        "B) Unstable VT observed 1 hour before any therapy",
+        "C) Unstable AF should first get only oral digoxin and observe hours",
+        "D) IV verapamil first-line for irregular wide-complex preexcited AF"
+      ],
+      "answer": "A) Pulseless VT/VF needs immediate defibrillation/CPR",
+      "explanation": "Electrical defibrillation/CPR is first response to pulseless VT/VF. Therefore, the most accurate choice is: Pulseless VT/VF needs immediate defibrillation/CPR. Delaying electricity for oral drugs is inappropriate.",
+      "choice_explanations": {
+        "A": "Electrical defibrillation/CPR is first response to pulseless VT/VF. This matches the correct interpretation.",
+        "B": "Delaying electricity for oral drugs is inappropriate. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:extreme:25",
+      "question": "Management of symptomatic bradycardia is reviewed for a 40-year-old man. Which of the following is most accurate?",
+      "options": [
+        "A) Symptomatic sinus bradycardia may respond to atropine while preparing pacing",
+        "B) First therapy for cardiogenic shock without congestion assessment",
+        "C) Adenosine first-line for irregular polymorphic VT",
+        "D) Atropine is first therapy for VF"
+      ],
+      "answer": "A) Symptomatic sinus bradycardia may respond to atropine while preparing pacing",
+      "explanation": "Atropine blocks vagal tone and can raise sinus rate. Therefore, the most accurate choice is: Symptomatic sinus bradycardia may respond to atropine while preparing pacing. VF needs defibrillation, not atropine as primary.",
+      "choice_explanations": {
+        "A": "Atropine blocks vagal tone and can raise sinus rate. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "VF needs defibrillation, not atropine as primary. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:extreme:26",
+      "question": "Which of the following is the most precise statement about CHB pacing?",
+      "options": [
+        "A) Any BP >140 always requires immediate ICU nitroprusside",
+        "B) High-grade AV block with instability needs temporary pacing readiness",
+        "C) CHB always managed with observation only",
+        "D) Unstable VT observed 1 hour before any therapy"
+      ],
+      "answer": "B) High-grade AV block with instability needs temporary pacing readiness",
+      "explanation": "Unstable AV block requires urgent pacing support. Therefore, the most accurate choice is: High-grade AV block with instability needs temporary pacing readiness. Observation alone is unsafe when perfusion is compromised.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Unstable AV block requires urgent pacing support. This matches the correct interpretation.",
+        "C": "Observation alone is unsafe when perfusion is compromised. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:extreme:27",
+      "question": "In advanced review of severe symptomatic aortic stenosis, which of the following is most accurate?",
+      "options": [
+        "A) AS presents as holosystolic apical murmur to axilla like MR",
+        "B) Syncope, angina, HF with harsh SEM to carotids",
+        "C) Only holosystolic apical to axilla like MR",
+        "D) Crescendo-decrescendo systolic murmur to the carotids from AS"
+      ],
+      "answer": "B) Syncope, angina, HF with harsh SEM to carotids",
+      "explanation": "Fixed outflow obstruction causes exertional syncope/angina/HF. Therefore, the most accurate choice is: Syncope, angina, HF with harsh SEM to carotids. MR is the holosystolic axillary murmur.",
+      "choice_explanations": {
+        "A": "MR is the holosystolic axillary murmur. It is less consistent than the correct choice.",
+        "B": "Fixed outflow obstruction causes exertional syncope/angina/HF. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:extreme:28",
+      "question": "Which interpretation of mitral stenosis is most accurate?",
+      "options": [
+        "A) Diastolic rumble with opening snap in mitral stenosis",
+        "B) MS is holosystolic murmur to the axilla",
+        "C) AS presents as holosystolic apical murmur to axilla like MR",
+        "D) AR is holosystolic to axilla"
+      ],
+      "answer": "A) Diastolic rumble with opening snap in mitral stenosis",
+      "explanation": "Narrowed mitral orifice yields diastolic rumble ± opening snap. Therefore, the most accurate choice is: Diastolic rumble with opening snap in mitral stenosis. Holosystolic axillary radiation is MR.",
+      "choice_explanations": {
+        "A": "Narrowed mitral orifice yields diastolic rumble ± opening snap. This matches the correct interpretation.",
+        "B": "Holosystolic axillary radiation is MR. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:extreme:29",
+      "question": "Which closely related statement about hypertrophic obstructive cardiomyopathy is correct?",
+      "options": [
+        "A) Only holosystolic apical to axilla like MR",
+        "B) AS presents as holosystolic apical murmur to axilla like MR",
+        "C) HOCM murmur increases with Valsalva/standing (↓ preload)",
+        "D) HOCM murmur always decreases with Valsalva like most flow murmurs"
+      ],
+      "answer": "C) HOCM murmur increases with Valsalva/standing (↓ preload)",
+      "explanation": "Dynamic LVOT obstruction worsens when ventricle is smaller. Therefore, the most accurate choice is: HOCM murmur increases with Valsalva/standing (↓ preload). Most murmurs soften with less preload; HOCM louder.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Dynamic LVOT obstruction worsens when ventricle is smaller. This matches the correct interpretation.",
+        "D": "Most murmurs soften with less preload; HOCM louder. It is less consistent than the correct choice."
+      }
+    }
+  ]
+}

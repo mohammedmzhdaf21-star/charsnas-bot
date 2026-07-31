@@ -1,0 +1,2170 @@
+{
+  "easy": [
+    {
+      "id": "clinical_chemistry:easy:0",
+      "question": "Which of the following is true of sodium water balance?",
+      "options": [
+        "A) Hypernatremia always means excess total body sodium without water issues",
+        "B) Potassium is the major extracellular cation like sodium",
+        "C) Serum sodium is the major extracellular cation reflecting water balance",
+        "D) Serum sodium primarily measures total body sodium stores independent of water"
+      ],
+      "answer": "C) Serum sodium is the major extracellular cation reflecting water balance",
+      "explanation": "Na+ concentration is a water-balance ratio, not a pure total-body sodium meter. Therefore, the most accurate choice is: Serum sodium is the major extracellular cation reflecting water balance. Hyponatremia and hypernatremia often reflect water excess or deficit more than Na stores alone.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Na+ concentration is a water-balance ratio, not a pure total-body sodium meter. This matches the correct interpretation.",
+        "D": "Hyponatremia and hypernatremia often reflect water excess or deficit more than Na stores alone. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:1",
+      "question": "Which finding is expected in hypotonic hyponatremia?",
+      "options": [
+        "A) True hypotonic hyponatremia reflects excess water relative to sodium",
+        "B) Hypernatremia always means excess total body sodium without water issues",
+        "C) Pseudohyponatremia means true low plasma tonicity always",
+        "D) All low measured Na+ values are true hypotonic hyponatremia without artifact"
+      ],
+      "answer": "A) True hypotonic hyponatremia reflects excess water relative to sodium",
+      "explanation": "Plasma tonicity and osmolality clarify whether hyponatremia is real and hypotonic. Therefore, the most accurate choice is: True hypotonic hyponatremia reflects excess water relative to sodium. Pseudohyponatremia and translocational causes are close foils.",
+      "choice_explanations": {
+        "A": "Plasma tonicity and osmolality clarify whether hyponatremia is real and hypotonic. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Pseudohyponatremia and translocational causes are close foils. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:2",
+      "question": "Which statement regarding pseudohyponatremia is correct?",
+      "options": [
+        "A) Pseudohyponatremia means true low plasma tonicity always",
+        "B) Severe hyperlipidemia or hyperproteinemia can cause pseudohyponatremia with indirect methods",
+        "C) Any low glucometer reading without symptoms always proves pathologic hypoglycemia",
+        "D) True hyperkalemia is always harmless if creatinine is normal"
+      ],
+      "answer": "B) Severe hyperlipidemia or hyperproteinemia can cause pseudohyponatremia with indirect methods",
+      "explanation": "Indirect potentiometry can underread Na+ when the non-aqueous plasma fraction is huge. Therefore, the most accurate choice is: Severe hyperlipidemia or hyperproteinemia can cause pseudohyponatremia with indirect methods. True hypotonic hyponatremia has low tonicity; pseudo does not.",
+      "choice_explanations": {
+        "A": "True hypotonic hyponatremia has low tonicity; pseudo does not. It is less consistent than the correct choice.",
+        "B": "Indirect potentiometry can underread Na+ when the non-aqueous plasma fraction is huge. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:3",
+      "question": "In hypernatremia, which of the following is correct?",
+      "options": [
+        "A) Hypernatremia indicates water deficit relative to sodium",
+        "B) Serum sodium primarily measures total body sodium stores independent of water",
+        "C) Hypernatremia always means excess total body sodium without water issues",
+        "D) All low measured Na+ values are true hypotonic hyponatremia without artifact"
+      ],
+      "answer": "A) Hypernatremia indicates water deficit relative to sodium",
+      "explanation": "High [Na+] reflects hypertonicity from net water loss or sodium gain. Therefore, the most accurate choice is: Hypernatremia indicates water deficit relative to sodium. Water deficit is central; it is not solely too much salt in every case.",
+      "choice_explanations": {
+        "A": "High [Na+] reflects hypertonicity from net water loss or sodium gain. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Water deficit is central; it is not solely too much salt in every case. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:4",
+      "question": "Which of the following best describes potassium intracellular?",
+      "options": [
+        "A) Serum sodium primarily measures total body sodium stores independent of water",
+        "B) Potassium is the major extracellular cation like sodium",
+        "C) Potassium is the major intracellular cation critical for membrane potential",
+        "D) Any high K+ on a hemolyzed sample is always true in vivo hyperkalemia"
+      ],
+      "answer": "C) Potassium is the major intracellular cation critical for membrane potential",
+      "explanation": "High intracellular K+ maintains resting membrane potential. Therefore, the most accurate choice is: Potassium is the major intracellular cation critical for membrane potential. Sodium, not potassium, dominates the extracellular compartment.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Sodium, not potassium, dominates the extracellular compartment. It is less consistent than the correct choice.",
+        "C": "High intracellular K+ maintains resting membrane potential. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:5",
+      "question": "Select the correct statement about hypokalemia causes.",
+      "options": [
+        "A) Low SaO2 by pulse oximetry always equals low PaO2 identically in CO poisoning",
+        "B) Hypokalemia is caused only by laboratory hemolysis artifact always",
+        "C) Hypokalemia may result from losses, shifts into cells, or low intake",
+        "D) Low bicarbonate always means pure respiratory acidosis"
+      ],
+      "answer": "C) Hypokalemia may result from losses, shifts into cells, or low intake",
+      "explanation": "GI or renal losses and alkalosis or insulin shifts lower serum K+. Therefore, the most accurate choice is: Hypokalemia may result from losses, shifts into cells, or low intake. Hemolysis typically raises measured K+, the opposite foil.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Hemolysis typically raises measured K+, the opposite foil. It is less consistent than the correct choice.",
+        "C": "GI or renal losses and alkalosis or insulin shifts lower serum K+. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:6",
+      "question": "Which mechanism accounts for hyperkalemia urgency?",
+      "options": [
+        "A) Pseudohyponatremia means true low plasma tonicity always",
+        "B) True hyperkalemia is always harmless if creatinine is normal",
+        "C) True hyperkalemia can cause life-threatening cardiac conduction abnormalities",
+        "D) Any high K+ on a hemolyzed sample is always true in vivo hyperkalemia"
+      ],
+      "answer": "C) True hyperkalemia can cause life-threatening cardiac conduction abnormalities",
+      "explanation": "Elevated extracellular K+ depolarizes myocytes and can produce fatal arrhythmias. Therefore, the most accurate choice is: True hyperkalemia can cause life-threatening cardiac conduction abnormalities. Even with normal creatinine, severe hyperkalemia can be dangerous.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Even with normal creatinine, severe hyperkalemia can be dangerous. It is less consistent than the correct choice.",
+        "C": "Elevated extracellular K+ depolarizes myocytes and can produce fatal arrhythmias. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:7",
+      "question": "Which of the following applies to spurious hyperkalemia chem?",
+      "options": [
+        "A) Any high K+ on a hemolyzed sample is always true in vivo hyperkalemia",
+        "B) Hemolysis, delayed separation, or thrombocytosis can spuriously elevate potassium",
+        "C) Hypokalemia is caused only by laboratory hemolysis artifact always",
+        "D) True hyperkalemia is always harmless if creatinine is normal"
+      ],
+      "answer": "B) Hemolysis, delayed separation, or thrombocytosis can spuriously elevate potassium",
+      "explanation": "K+ released from cells in vitro contaminates the measured result. Therefore, the most accurate choice is: Hemolysis, delayed separation, or thrombocytosis can spuriously elevate potassium. Artifact must be excluded before treating as true hyperkalemia.",
+      "choice_explanations": {
+        "A": "Artifact must be excluded before treating as true hyperkalemia. It is less consistent than the correct choice.",
+        "B": "K+ released from cells in vitro contaminates the measured result. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:8",
+      "question": "Which of the following is true of chloride acid-base?",
+      "options": [
+        "A) High AG acidosis is identical to hyperchloremic normal-gap acidosis",
+        "B) Chloride is irrelevant to acid-base assessment always",
+        "C) Chloride changes help interpret metabolic acid-base disorders such as hyperchloremic acidosis",
+        "D) Normal-gap acidosis is caused by lactate accumulation as the usual definition"
+      ],
+      "answer": "C) Chloride changes help interpret metabolic acid-base disorders such as hyperchloremic acidosis",
+      "explanation": "Hyperchloremia accompanies normal-anion-gap metabolic acidosis patterns. Therefore, the most accurate choice is: Chloride changes help interpret metabolic acid-base disorders such as hyperchloremic acidosis. Electrolyte panels are integral to acid-base classification.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Electrolyte panels are integral to acid-base classification. It is less consistent than the correct choice.",
+        "C": "Hyperchloremia accompanies normal-anion-gap metabolic acidosis patterns. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:9",
+      "question": "Which finding is expected in bicarbonate metabolic?",
+      "options": [
+        "A) Elevated A-a gradient always means pure hypoventilation only",
+        "B) Metabolic alkalosis is defined by low HCO3− with acidemia",
+        "C) Low bicarbonate suggests metabolic acidosis or compensation for respiratory alkalosis",
+        "D) Low bicarbonate always means pure respiratory acidosis"
+      ],
+      "answer": "C) Low bicarbonate suggests metabolic acidosis or compensation for respiratory alkalosis",
+      "explanation": "HCO3− falls in metabolic acidosis or as renal compensation for chronic hypocapnia. Therefore, the most accurate choice is: Low bicarbonate suggests metabolic acidosis or compensation for respiratory alkalosis. Respiratory acidosis raises PaCO2; HCO3− is not primarily low as the driver.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "HCO3− falls in metabolic acidosis or as renal compensation for chronic hypocapnia. This matches the correct interpretation.",
+        "D": "Respiratory acidosis raises PaCO2; HCO3− is not primarily low as the driver. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:10",
+      "question": "Which of the following statements about anion gap formula is correct?",
+      "options": [
+        "A) Anion gap approximates Na+ minus (Cl− + HCO3−) for metabolic acidosis classification",
+        "B) Anion gap approximates K+ + Cl− − Na+ as the standard teaching formula",
+        "C) Normal-gap acidosis is caused by lactate accumulation as the usual definition",
+        "D) High AG acidosis is identical to hyperchloremic normal-gap acidosis"
+      ],
+      "answer": "A) Anion gap approximates Na+ minus (Cl− + HCO3−) for metabolic acidosis classification",
+      "explanation": "Unmeasured anions widen the gap in lactic acidosis, ketoacidosis, and toxins. Therefore, the most accurate choice is: Anion gap approximates Na+ minus (Cl− + HCO3−) for metabolic acidosis classification. The common teaching formula subtracts Cl and HCO3 from Na.",
+      "choice_explanations": {
+        "A": "Unmeasured anions widen the gap in lactic acidosis, ketoacidosis, and toxins. This matches the correct interpretation.",
+        "B": "The common teaching formula subtracts Cl and HCO3 from Na. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:11",
+      "question": "In high AG acidosis, which of the following is correct?",
+      "options": [
+        "A) High AG acidosis is identical to hyperchloremic normal-gap acidosis",
+        "B) High anion-gap metabolic acidosis includes lactate, ketoacids, and some toxins",
+        "C) Normal-gap acidosis is caused by lactate accumulation as the usual definition",
+        "D) Anion gap approximates K+ + Cl− − Na+ as the standard teaching formula"
+      ],
+      "answer": "B) High anion-gap metabolic acidosis includes lactate, ketoacids, and some toxins",
+      "explanation": "Added anions replace HCO3−, widening Na − (Cl+HCO3). Therefore, the most accurate choice is: High anion-gap metabolic acidosis includes lactate, ketoacids, and some toxins. Normal-gap acidosis retains Cl− rise; it is the close foil.",
+      "choice_explanations": {
+        "A": "Normal-gap acidosis retains Cl− rise; it is the close foil. It is less consistent than the correct choice.",
+        "B": "Added anions replace HCO3−, widening Na − (Cl+HCO3). This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:12",
+      "question": "Which of the following best describes normal AG acidosis?",
+      "options": [
+        "A) Normal-gap acidosis is caused by lactate accumulation as the usual definition",
+        "B) Anion gap approximates K+ + Cl− − Na+ as the standard teaching formula",
+        "C) Normal anion-gap metabolic acidosis is often hyperchloremic from RTA or diarrhea",
+        "D) High AG acidosis is identical to hyperchloremic normal-gap acidosis"
+      ],
+      "answer": "C) Normal anion-gap metabolic acidosis is often hyperchloremic from RTA or diarrhea",
+      "explanation": "HCO3− loss or impaired acid excretion with Cl− retention keeps the gap normal. Therefore, the most accurate choice is: Normal anion-gap metabolic acidosis is often hyperchloremic from RTA or diarrhea. Lactate typically widens the anion gap.",
+      "choice_explanations": {
+        "A": "Lactate typically widens the anion gap. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "HCO3− loss or impaired acid excretion with Cl− retention keeps the gap normal. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:13",
+      "question": "Select the correct statement about ABG p H.",
+      "options": [
+        "A) pH alone always identifies the single primary process without PaCO2 and HCO3",
+        "B) Blood gas pH identifies acidemia below 7.35 or alkalemia above 7.45",
+        "C) Respiratory alkalosis is high PaCO2 with acidemia",
+        "D) Respiratory acidosis is low PaCO2 with alkalemia"
+      ],
+      "answer": "B) Blood gas pH identifies acidemia below 7.35 or alkalemia above 7.45",
+      "explanation": "pH shows net acid-base status; PaCO2 and HCO3 define respiratory versus metabolic components. Therefore, the most accurate choice is: Blood gas pH identifies acidemia below 7.35 or alkalemia above 7.45. Full interpretation needs pH plus PaCO2 and HCO3.",
+      "choice_explanations": {
+        "A": "Full interpretation needs pH plus PaCO2 and HCO3. It is less consistent than the correct choice.",
+        "B": "pH shows net acid-base status; PaCO2 and HCO3 define respiratory versus metabolic components. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:14",
+      "question": "Which mechanism accounts for respiratory acidosis?",
+      "options": [
+        "A) Metabolic alkalosis is defined by low HCO3− with acidemia",
+        "B) Respiratory acidosis is low PaCO2 with alkalemia",
+        "C) Respiratory acidosis is high PaCO2 with acidemia from hypoventilation",
+        "D) Respiratory alkalosis is high PaCO2 with acidemia"
+      ],
+      "answer": "C) Respiratory acidosis is high PaCO2 with acidemia from hypoventilation",
+      "explanation": "CO2 retention from hypoventilation raises PaCO2 and lowers pH. Therefore, the most accurate choice is: Respiratory acidosis is high PaCO2 with acidemia from hypoventilation. Low PaCO2 defines respiratory alkalosis.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Low PaCO2 defines respiratory alkalosis. It is less consistent than the correct choice.",
+        "C": "CO2 retention from hypoventilation raises PaCO2 and lowers pH. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:15",
+      "question": "Which of the following applies to respiratory alkalosis?",
+      "options": [
+        "A) Respiratory alkalosis is low PaCO2 with alkalemia from hyperventilation",
+        "B) Respiratory acidosis is low PaCO2 with alkalemia",
+        "C) Respiratory alkalosis is high PaCO2 with acidemia",
+        "D) Metabolic alkalosis is defined by low HCO3− with acidemia"
+      ],
+      "answer": "A) Respiratory alkalosis is low PaCO2 with alkalemia from hyperventilation",
+      "explanation": "Excess CO2 elimination lowers PaCO2 and raises pH. Therefore, the most accurate choice is: Respiratory alkalosis is low PaCO2 with alkalemia from hyperventilation. High PaCO2 defines respiratory acidosis.",
+      "choice_explanations": {
+        "A": "Excess CO2 elimination lowers PaCO2 and raises pH. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "High PaCO2 defines respiratory acidosis. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:16",
+      "question": "Which of the following is true of metabolic alkalosis?",
+      "options": [
+        "A) Respiratory acidosis is low PaCO2 with alkalemia",
+        "B) Respiratory alkalosis is high PaCO2 with acidemia",
+        "C) Metabolic alkalosis is defined by low HCO3− with acidemia",
+        "D) Metabolic alkalosis features high HCO3− with alkalemia from vomiting or diuretics"
+      ],
+      "answer": "D) Metabolic alkalosis features high HCO3− with alkalemia from vomiting or diuretics",
+      "explanation": "Net gain of HCO3− or loss of acid raises bicarbonate and pH. Therefore, the most accurate choice is: Metabolic alkalosis features high HCO3− with alkalemia from vomiting or diuretics. Low HCO3− is metabolic acidosis.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Low HCO3− is metabolic acidosis. It is less consistent than the correct choice.",
+        "D": "Net gain of HCO3− or loss of acid raises bicarbonate and pH. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:17",
+      "question": "Which finding is expected in plasma osmolality?",
+      "options": [
+        "A) OGTT is identical to a single fasting glucose always",
+        "B) Plasma osmolality reflects solute concentration with Na, glucose, and urea as major contributors",
+        "C) Osmolality is identical to urine specific gravity always",
+        "D) A single random glucose of 110 mg/dL alone always diagnoses diabetes"
+      ],
+      "answer": "B) Plasma osmolality reflects solute concentration with Na, glucose, and urea as major contributors",
+      "explanation": "Colligative properties measure osmoles per kg water. Therefore, the most accurate choice is: Plasma osmolality reflects solute concentration with Na, glucose, and urea as major contributors. Urine SG is a different urine concentration metric.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Colligative properties measure osmoles per kg water. This matches the correct interpretation.",
+        "C": "Urine SG is a different urine concentration metric. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:18",
+      "question": "Which of the following statements about osmolar gap is correct?",
+      "options": [
+        "A) Elevated osmolar gap specifically diagnoses hyponatremia type",
+        "B) CSF protein elevation specifically diagnoses hyperglycemia",
+        "C) Toxic alcohols never raise osmolar gap",
+        "D) Elevated osmolar gap suggests osmotically active toxins such as ethanol, methanol, or ethylene glycol"
+      ],
+      "answer": "D) Elevated osmolar gap suggests osmotically active toxins such as ethanol, methanol, or ethylene glycol",
+      "explanation": "Measured osmolality exceeds calculated when unmeasured osmoles are present. Therefore, the most accurate choice is: Elevated osmolar gap suggests osmotically active toxins such as ethanol, methanol, or ethylene glycol. Gap detects toxic alcohols, not hyponatremia classification itself.",
+      "choice_explanations": {
+        "A": "Gap detects toxic alcohols, not hyponatremia classification itself. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Measured osmolality exceeds calculated when unmeasured osmoles are present. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:19",
+      "question": "In fasting glucose diabetes, which of the following is correct?",
+      "options": [
+        "A) OGTT is identical to a single fasting glucose always",
+        "B) Osmolality is identical to urine specific gravity always",
+        "C) A single random glucose of 110 mg/dL alone always diagnoses diabetes",
+        "D) Fasting plasma glucose is used among criteria to diagnose diabetes mellitus"
+      ],
+      "answer": "D) Fasting plasma glucose is used among criteria to diagnose diabetes mellitus",
+      "explanation": "Chronic hyperglycemia criteria include fasting glucose, OGTT, and HbA1c thresholds. Therefore, the most accurate choice is: Fasting plasma glucose is used among criteria to diagnose diabetes mellitus. Modest random values need context; diabetes uses defined thresholds.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Modest random values need context; diabetes uses defined thresholds. It is less consistent than the correct choice.",
+        "D": "Chronic hyperglycemia criteria include fasting glucose, OGTT, and HbA1c thresholds. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:20",
+      "question": "Which of the following best describes hb A1c meaning?",
+      "options": [
+        "A) HbA1c reflects average glycemia over about 2–3 months via glycated hemoglobin",
+        "B) Fructosamine reflects the same 3-month window as HbA1c exactly",
+        "C) HbA1c reflects only the last 24 hours of diet",
+        "D) HbA1c is never affected by hemolysis or transfusion"
+      ],
+      "answer": "A) HbA1c reflects average glycemia over about 2–3 months via glycated hemoglobin",
+      "explanation": "Irreversible glycation of Hb accumulates over the RBC lifespan. Therefore, the most accurate choice is: HbA1c reflects average glycemia over about 2–3 months via glycated hemoglobin. Short-term diet changes are better seen with glucose or CGM.",
+      "choice_explanations": {
+        "A": "Irreversible glycation of Hb accumulates over the RBC lifespan. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Short-term diet changes are better seen with glucose or CGM. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:21",
+      "question": "Select the correct statement about hb A1c limitations.",
+      "options": [
+        "A) Conditions altering RBC lifespan can falsely change HbA1c, such as hemolysis or transfusion",
+        "B) Albumin never affects anion gap interpretation",
+        "C) HbA1c is never affected by hemolysis or transfusion",
+        "D) Fructosamine reflects the same 3-month window as HbA1c exactly"
+      ],
+      "answer": "A) Conditions altering RBC lifespan can falsely change HbA1c, such as hemolysis or transfusion",
+      "explanation": "Shorter RBC survival lowers A1c independently of mean glucose. Therefore, the most accurate choice is: Conditions altering RBC lifespan can falsely change HbA1c, such as hemolysis or transfusion. RBC turnover artifacts are important A1c interpretation foils.",
+      "choice_explanations": {
+        "A": "Shorter RBC survival lowers A1c independently of mean glucose. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "RBC turnover artifacts are important A1c interpretation foils. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:22",
+      "question": "Which mechanism accounts for whipple hypoglycemia?",
+      "options": [
+        "A) Any low glucometer reading without symptoms always proves pathologic hypoglycemia",
+        "B) True hypoglycemia needs low glucose plus symptoms that resolve with correction",
+        "C) Low albumin always proves true symptomatic hypocalcemia",
+        "D) Pseudohyponatremia means true low plasma tonicity always"
+      ],
+      "answer": "B) True hypoglycemia needs low glucose plus symptoms that resolve with correction",
+      "explanation": "Documented low glucose linked to symptoms confirms clinically meaningful hypoglycemia. Therefore, the most accurate choice is: True hypoglycemia needs low glucose plus symptoms that resolve with correction. Asymptomatic meter errors are close foils.",
+      "choice_explanations": {
+        "A": "Asymptomatic meter errors are close foils. It is less consistent than the correct choice.",
+        "B": "Documented low glucose linked to symptoms confirms clinically meaningful hypoglycemia. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:23",
+      "question": "Which of the following applies to BUN elevation?",
+      "options": [
+        "A) BUN elevation is pathognomonic only for GI bleed always",
+        "B) High ratio always proves intrinsic acute tubular necrosis",
+        "C) rT3 elevation always proves primary hyperthyroidism",
+        "D) BUN rises with reduced GFR, GI bleed, high protein intake, or catabolism"
+      ],
+      "answer": "D) BUN rises with reduced GFR, GI bleed, high protein intake, or catabolism",
+      "explanation": "Urea accumulates when filtration falls or generation rises. Therefore, the most accurate choice is: BUN rises with reduced GFR, GI bleed, high protein intake, or catabolism. Many prerenal, renal, and generation causes exist beyond GI bleed alone.",
+      "choice_explanations": {
+        "A": "Many prerenal, renal, and generation causes exist beyond GI bleed alone. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Urea accumulates when filtration falls or generation rises. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:24",
+      "question": "Which of the following is true about creatinine GFR?",
+      "options": [
+        "A) Serum iron is as stable as ferritin for stores always",
+        "B) Creatinine is a perfect linear direct measure of GFR in all patients",
+        "C) Serum K+ is always lower than plasma K+ by definition",
+        "D) Serum creatinine inversely reflects GFR but depends on muscle mass and assay"
+      ],
+      "answer": "D) Serum creatinine inversely reflects GFR but depends on muscle mass and assay",
+      "explanation": "Creatinine is filtered by glomeruli; higher levels imply lower GFR if generation is stable. Therefore, the most accurate choice is: Serum creatinine inversely reflects GFR but depends on muscle mass and assay. Muscle mass, diet, and drugs alter creatinine independent of GFR.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Muscle mass, diet, and drugs alter creatinine independent of GFR. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Creatinine is filtered by glomeruli; higher levels imply lower GFR if generation is stable. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:25",
+      "question": "Which finding is expected in BUN creatinine ratio?",
+      "options": [
+        "A) High ratio always proves intrinsic acute tubular necrosis",
+        "B) High BUN/creatinine ratio can suggest prerenal azotemia or GI bleed",
+        "C) BUN elevation is pathognomonic only for GI bleed always",
+        "D) High ceruloplasmin pathognomonically proves Wilson always"
+      ],
+      "answer": "B) High BUN/creatinine ratio can suggest prerenal azotemia or GI bleed",
+      "explanation": "Urea reabsorption rises in low flow; creatinine behaves differently. Therefore, the most accurate choice is: High BUN/creatinine ratio can suggest prerenal azotemia or GI bleed. ATN often shows a lower ratio.",
+      "choice_explanations": {
+        "A": "ATN often shows a lower ratio. It is less consistent than the correct choice.",
+        "B": "Urea reabsorption rises in low flow; creatinine behaves differently. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:26",
+      "question": "In basic pharmacology, which of the following is true of e GFR equations?",
+      "options": [
+        "A) eGFR equations estimate GFR from creatinine and sometimes cystatin C with demographics",
+        "B) Cystatin C is identical in behavior to CK-MB",
+        "C) Creatinine is a perfect linear direct measure of GFR in all patients",
+        "D) eGFR is measured directly by inulin clearance in every lab panel"
+      ],
+      "answer": "A) eGFR equations estimate GFR from creatinine and sometimes cystatin C with demographics",
+      "explanation": "Population equations approximate filtration from filtration markers. Therefore, the most accurate choice is: eGFR equations estimate GFR from creatinine and sometimes cystatin C with demographics. True measured GFR uses clearance methods; eGFR is an estimate.",
+      "choice_explanations": {
+        "A": "Population equations approximate filtration from filtration markers. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "True measured GFR uses clearance methods; eGFR is an estimate. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:27",
+      "question": "In cystatin C, which of the following is correct?",
+      "options": [
+        "A) Cystatin C is identical in behavior to CK-MB",
+        "B) Cystatin C is an alternative GFR marker less dependent on muscle mass than creatinine",
+        "C) Albuminuria is identical to hematuria always",
+        "D) Creatinine is a perfect linear direct measure of GFR in all patients"
+      ],
+      "answer": "B) Cystatin C is an alternative GFR marker less dependent on muscle mass than creatinine",
+      "explanation": "All nucleated cells produce cystatin C; levels rise as GFR falls. Therefore, the most accurate choice is: Cystatin C is an alternative GFR marker less dependent on muscle mass than creatinine. CK-MB is a cardiac injury marker, not a GFR marker.",
+      "choice_explanations": {
+        "A": "CK-MB is a cardiac injury marker, not a GFR marker. It is less consistent than the correct choice.",
+        "B": "All nucleated cells produce cystatin C; levels rise as GFR falls. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:28",
+      "question": "Which of the following best describes AKI?",
+      "options": [
+        "A) AKI is defined by abrupt rise in creatinine and/or drop in urine output criteria",
+        "B) AKI is defined only by chronic small creatinine changes over years",
+        "C) All pleural effusions are transudates by definition",
+        "D) Cholestasis is isolated ALT mega-rise without ALP change as the definition"
+      ],
+      "answer": "A) AKI is defined by abrupt rise in creatinine and/or drop in urine output criteria",
+      "explanation": "KDIGO-style criteria use short-term creatinine and urine output changes. Therefore, the most accurate choice is: AKI is defined by abrupt rise in creatinine and/or drop in urine output criteria. CKD is chronic GFR reduction.",
+      "choice_explanations": {
+        "A": "KDIGO-style criteria use short-term creatinine and urine output changes. This matches the correct interpretation.",
+        "B": "CKD is chronic GFR reduction. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:easy:29",
+      "question": "Select the correct statement about CKD staging.",
+      "options": [
+        "A) Albuminuria is identical to hematuria always",
+        "B) eGFR is measured directly by inulin clearance in every lab panel",
+        "C) CKD staging uses eGFR categories and albuminuria",
+        "D) CKD staging uses only serum sodium categories"
+      ],
+      "answer": "C) CKD staging uses eGFR categories and albuminuria",
+      "explanation": "Persistent reduced GFR and/or markers of kidney damage define and stage CKD. Therefore, the most accurate choice is: CKD staging uses eGFR categories and albuminuria. Sodium disorders are electrolyte problems, not CKD stage axes.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Persistent reduced GFR and/or markers of kidney damage define and stage CKD. This matches the correct interpretation.",
+        "D": "Sodium disorders are electrolyte problems, not CKD stage axes. It is less consistent than the correct choice."
+      }
+    }
+  ],
+  "medium": [
+    {
+      "id": "clinical_chemistry:medium:0",
+      "question": "A 53-year-old woman has lab results reviewed for sodium water balance. Which of the following is correct?",
+      "options": [
+        "A) Potassium is the major extracellular cation like sodium",
+        "B) Serum sodium primarily measures total body sodium stores independent of water",
+        "C) Serum sodium is the major extracellular cation reflecting water balance",
+        "D) Hypernatremia always means excess total body sodium without water issues"
+      ],
+      "answer": "C) Serum sodium is the major extracellular cation reflecting water balance",
+      "explanation": "Na+ concentration is a water-balance ratio, not a pure total-body sodium meter. Therefore, the most accurate choice is: Serum sodium is the major extracellular cation reflecting water balance. Hyponatremia and hypernatremia often reflect water excess or deficit more than Na stores alone.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Hyponatremia and hypernatremia often reflect water excess or deficit more than Na stores alone. It is less consistent than the correct choice.",
+        "C": "Na+ concentration is a water-balance ratio, not a pure total-body sodium meter. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:1",
+      "question": "A specimen workup for hypotonic hyponatremia is interpreted. Which of the following is most accurate?",
+      "options": [
+        "A) Pseudohyponatremia means true low plasma tonicity always",
+        "B) True hypotonic hyponatremia reflects excess water relative to sodium",
+        "C) All low measured Na+ values are true hypotonic hyponatremia without artifact",
+        "D) Hypernatremia always means excess total body sodium without water issues"
+      ],
+      "answer": "B) True hypotonic hyponatremia reflects excess water relative to sodium",
+      "explanation": "Plasma tonicity and osmolality clarify whether hyponatremia is real and hypotonic. Therefore, the most accurate choice is: True hypotonic hyponatremia reflects excess water relative to sodium. Pseudohyponatremia and translocational causes are close foils.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Plasma tonicity and osmolality clarify whether hyponatremia is real and hypotonic. This matches the correct interpretation.",
+        "C": "Pseudohyponatremia and translocational causes are close foils. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:2",
+      "question": "A 25-year-old woman has findings requiring interpretation of pseudohyponatremia. Which of the following is correct?",
+      "options": [
+        "A) True hyperkalemia is always harmless if creatinine is normal",
+        "B) Severe hyperlipidemia or hyperproteinemia can cause pseudohyponatremia with indirect methods",
+        "C) Low albumin always proves true symptomatic hypocalcemia",
+        "D) Pseudohyponatremia means true low plasma tonicity always"
+      ],
+      "answer": "B) Severe hyperlipidemia or hyperproteinemia can cause pseudohyponatremia with indirect methods",
+      "explanation": "Indirect potentiometry can underread Na+ when the non-aqueous plasma fraction is huge. Therefore, the most accurate choice is: Severe hyperlipidemia or hyperproteinemia can cause pseudohyponatremia with indirect methods. True hypotonic hyponatremia has low tonicity; pseudo does not.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Indirect potentiometry can underread Na+ when the non-aqueous plasma fraction is huge. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "True hypotonic hyponatremia has low tonicity; pseudo does not. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:3",
+      "question": "Method selection for hypernatremia is discussed. Which of the following is correct?",
+      "options": [
+        "A) All low measured Na+ values are true hypotonic hyponatremia without artifact",
+        "B) Serum sodium primarily measures total body sodium stores independent of water",
+        "C) Hypernatremia always means excess total body sodium without water issues",
+        "D) Hypernatremia indicates water deficit relative to sodium"
+      ],
+      "answer": "D) Hypernatremia indicates water deficit relative to sodium",
+      "explanation": "High [Na+] reflects hypertonicity from net water loss or sodium gain. Therefore, the most accurate choice is: Hypernatremia indicates water deficit relative to sodium. Water deficit is central; it is not solely too much salt in every case.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Water deficit is central; it is not solely too much salt in every case. It is less consistent than the correct choice.",
+        "D": "High [Na+] reflects hypertonicity from net water loss or sodium gain. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:4",
+      "question": "A 52-year-old man has an abnormal panel. Which statement about potassium intracellular is most accurate?",
+      "options": [
+        "A) Potassium is the major extracellular cation like sodium",
+        "B) Potassium is the major intracellular cation critical for membrane potential",
+        "C) Serum sodium primarily measures total body sodium stores independent of water",
+        "D) Any high K+ on a hemolyzed sample is always true in vivo hyperkalemia"
+      ],
+      "answer": "B) Potassium is the major intracellular cation critical for membrane potential",
+      "explanation": "High intracellular K+ maintains resting membrane potential. Therefore, the most accurate choice is: Potassium is the major intracellular cation critical for membrane potential. Sodium, not potassium, dominates the extracellular compartment.",
+      "choice_explanations": {
+        "A": "Sodium, not potassium, dominates the extracellular compartment. It is less consistent than the correct choice.",
+        "B": "High intracellular K+ maintains resting membrane potential. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:5",
+      "question": "Results related to hypokalemia causes are verified before release. Which of the following is appropriate?",
+      "options": [
+        "A) Hypokalemia is caused only by laboratory hemolysis artifact always",
+        "B) Hypokalemia may result from losses, shifts into cells, or low intake",
+        "C) Low SaO2 by pulse oximetry always equals low PaO2 identically in CO poisoning",
+        "D) Low bicarbonate always means pure respiratory acidosis"
+      ],
+      "answer": "B) Hypokalemia may result from losses, shifts into cells, or low intake",
+      "explanation": "GI or renal losses and alkalosis or insulin shifts lower serum K+. Therefore, the most accurate choice is: Hypokalemia may result from losses, shifts into cells, or low intake. Hemolysis typically raises measured K+, the opposite foil.",
+      "choice_explanations": {
+        "A": "Hemolysis typically raises measured K+, the opposite foil. It is less consistent than the correct choice.",
+        "B": "GI or renal losses and alkalosis or insulin shifts lower serum K+. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:6",
+      "question": "A 49-year-old woman is evaluated with assays used in hyperkalemia urgency. Which of the following is correct?",
+      "options": [
+        "A) True hyperkalemia is always harmless if creatinine is normal",
+        "B) Any high K+ on a hemolyzed sample is always true in vivo hyperkalemia",
+        "C) Pseudohyponatremia means true low plasma tonicity always",
+        "D) True hyperkalemia can cause life-threatening cardiac conduction abnormalities"
+      ],
+      "answer": "D) True hyperkalemia can cause life-threatening cardiac conduction abnormalities",
+      "explanation": "Elevated extracellular K+ depolarizes myocytes and can produce fatal arrhythmias. Therefore, the most accurate choice is: True hyperkalemia can cause life-threatening cardiac conduction abnormalities. Even with normal creatinine, severe hyperkalemia can be dangerous.",
+      "choice_explanations": {
+        "A": "Even with normal creatinine, severe hyperkalemia can be dangerous. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Elevated extracellular K+ depolarizes myocytes and can produce fatal arrhythmias. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:7",
+      "question": "In laboratory assessment of spurious hyperkalemia chem, which of the following is correct?",
+      "options": [
+        "A) Hypokalemia is caused only by laboratory hemolysis artifact always",
+        "B) True hyperkalemia is always harmless if creatinine is normal",
+        "C) Any high K+ on a hemolyzed sample is always true in vivo hyperkalemia",
+        "D) Hemolysis, delayed separation, or thrombocytosis can spuriously elevate potassium"
+      ],
+      "answer": "D) Hemolysis, delayed separation, or thrombocytosis can spuriously elevate potassium",
+      "explanation": "K+ released from cells in vitro contaminates the measured result. Therefore, the most accurate choice is: Hemolysis, delayed separation, or thrombocytosis can spuriously elevate potassium. Artifact must be excluded before treating as true hyperkalemia.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Artifact must be excluded before treating as true hyperkalemia. It is less consistent than the correct choice.",
+        "D": "K+ released from cells in vitro contaminates the measured result. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:8",
+      "question": "A 67-year-old woman has lab results reviewed for chloride acid-base. Which of the following is correct?",
+      "options": [
+        "A) High AG acidosis is identical to hyperchloremic normal-gap acidosis",
+        "B) Chloride is irrelevant to acid-base assessment always",
+        "C) Normal-gap acidosis is caused by lactate accumulation as the usual definition",
+        "D) Chloride changes help interpret metabolic acid-base disorders such as hyperchloremic acidosis"
+      ],
+      "answer": "D) Chloride changes help interpret metabolic acid-base disorders such as hyperchloremic acidosis",
+      "explanation": "Hyperchloremia accompanies normal-anion-gap metabolic acidosis patterns. Therefore, the most accurate choice is: Chloride changes help interpret metabolic acid-base disorders such as hyperchloremic acidosis. Electrolyte panels are integral to acid-base classification.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Electrolyte panels are integral to acid-base classification. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Hyperchloremia accompanies normal-anion-gap metabolic acidosis patterns. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:9",
+      "question": "A specimen workup for bicarbonate metabolic is interpreted. Which of the following is most accurate?",
+      "options": [
+        "A) Salicylate uniquely causes only metabolic alkalosis",
+        "B) Elevated A-a gradient always means pure hypoventilation only",
+        "C) Low bicarbonate suggests metabolic acidosis or compensation for respiratory alkalosis",
+        "D) Low bicarbonate always means pure respiratory acidosis"
+      ],
+      "answer": "C) Low bicarbonate suggests metabolic acidosis or compensation for respiratory alkalosis",
+      "explanation": "HCO3− falls in metabolic acidosis or as renal compensation for chronic hypocapnia. Therefore, the most accurate choice is: Low bicarbonate suggests metabolic acidosis or compensation for respiratory alkalosis. Respiratory acidosis raises PaCO2; HCO3− is not primarily low as the driver.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "HCO3− falls in metabolic acidosis or as renal compensation for chronic hypocapnia. This matches the correct interpretation.",
+        "D": "Respiratory acidosis raises PaCO2; HCO3− is not primarily low as the driver. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:10",
+      "question": "A 60-year-old man undergoes testing for anion gap formula. Which result pattern is most consistent?",
+      "options": [
+        "A) Anion gap approximates Na+ minus (Cl− + HCO3−) for metabolic acidosis classification",
+        "B) Normal-gap acidosis is caused by lactate accumulation as the usual definition",
+        "C) High AG acidosis is identical to hyperchloremic normal-gap acidosis",
+        "D) Anion gap approximates K+ + Cl− − Na+ as the standard teaching formula"
+      ],
+      "answer": "A) Anion gap approximates Na+ minus (Cl− + HCO3−) for metabolic acidosis classification",
+      "explanation": "Unmeasured anions widen the gap in lactic acidosis, ketoacidosis, and toxins. Therefore, the most accurate choice is: Anion gap approximates Na+ minus (Cl− + HCO3−) for metabolic acidosis classification. The common teaching formula subtracts Cl and HCO3 from Na.",
+      "choice_explanations": {
+        "A": "Unmeasured anions widen the gap in lactic acidosis, ketoacidosis, and toxins. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "The common teaching formula subtracts Cl and HCO3 from Na. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:11",
+      "question": "Method selection for high AG acidosis is discussed. Which of the following is correct?",
+      "options": [
+        "A) Anion gap approximates K+ + Cl− − Na+ as the standard teaching formula",
+        "B) Normal-gap acidosis is caused by lactate accumulation as the usual definition",
+        "C) High anion-gap metabolic acidosis includes lactate, ketoacids, and some toxins",
+        "D) High AG acidosis is identical to hyperchloremic normal-gap acidosis"
+      ],
+      "answer": "C) High anion-gap metabolic acidosis includes lactate, ketoacids, and some toxins",
+      "explanation": "Added anions replace HCO3−, widening Na − (Cl+HCO3). Therefore, the most accurate choice is: High anion-gap metabolic acidosis includes lactate, ketoacids, and some toxins. Normal-gap acidosis retains Cl− rise; it is the close foil.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Added anions replace HCO3−, widening Na − (Cl+HCO3). This matches the correct interpretation.",
+        "D": "Normal-gap acidosis retains Cl− rise; it is the close foil. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:12",
+      "question": "Clinical testing related to normal AG acidosis is performed. Which of the following is correct?",
+      "options": [
+        "A) Anion gap approximates K+ + Cl− − Na+ as the standard teaching formula",
+        "B) Normal-gap acidosis is caused by lactate accumulation as the usual definition",
+        "C) Normal anion-gap metabolic acidosis is often hyperchloremic from RTA or diarrhea",
+        "D) High AG acidosis is identical to hyperchloremic normal-gap acidosis"
+      ],
+      "answer": "C) Normal anion-gap metabolic acidosis is often hyperchloremic from RTA or diarrhea",
+      "explanation": "HCO3− loss or impaired acid excretion with Cl− retention keeps the gap normal. Therefore, the most accurate choice is: Normal anion-gap metabolic acidosis is often hyperchloremic from RTA or diarrhea. Lactate typically widens the anion gap.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Lactate typically widens the anion gap. It is less consistent than the correct choice.",
+        "C": "HCO3− loss or impaired acid excretion with Cl− retention keeps the gap normal. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:13",
+      "question": "Results related to ABG p H are verified before release. Which of the following is appropriate?",
+      "options": [
+        "A) pH alone always identifies the single primary process without PaCO2 and HCO3",
+        "B) Respiratory alkalosis is high PaCO2 with acidemia",
+        "C) Blood gas pH identifies acidemia below 7.35 or alkalemia above 7.45",
+        "D) Respiratory acidosis is low PaCO2 with alkalemia"
+      ],
+      "answer": "C) Blood gas pH identifies acidemia below 7.35 or alkalemia above 7.45",
+      "explanation": "pH shows net acid-base status; PaCO2 and HCO3 define respiratory versus metabolic components. Therefore, the most accurate choice is: Blood gas pH identifies acidemia below 7.35 or alkalemia above 7.45. Full interpretation needs pH plus PaCO2 and HCO3.",
+      "choice_explanations": {
+        "A": "Full interpretation needs pH plus PaCO2 and HCO3. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "pH shows net acid-base status; PaCO2 and HCO3 define respiratory versus metabolic components. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:14",
+      "question": "A 59-year-old woman is evaluated with assays used in respiratory acidosis. Which of the following is correct?",
+      "options": [
+        "A) Metabolic alkalosis is defined by low HCO3− with acidemia",
+        "B) Respiratory acidosis is low PaCO2 with alkalemia",
+        "C) Respiratory alkalosis is high PaCO2 with acidemia",
+        "D) Respiratory acidosis is high PaCO2 with acidemia from hypoventilation"
+      ],
+      "answer": "D) Respiratory acidosis is high PaCO2 with acidemia from hypoventilation",
+      "explanation": "CO2 retention from hypoventilation raises PaCO2 and lowers pH. Therefore, the most accurate choice is: Respiratory acidosis is high PaCO2 with acidemia from hypoventilation. Low PaCO2 defines respiratory alkalosis.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Low PaCO2 defines respiratory alkalosis. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "CO2 retention from hypoventilation raises PaCO2 and lowers pH. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:15",
+      "question": "In laboratory assessment of respiratory alkalosis, which of the following is correct?",
+      "options": [
+        "A) Respiratory alkalosis is high PaCO2 with acidemia",
+        "B) Respiratory alkalosis is low PaCO2 with alkalemia from hyperventilation",
+        "C) Metabolic alkalosis is defined by low HCO3− with acidemia",
+        "D) Respiratory acidosis is low PaCO2 with alkalemia"
+      ],
+      "answer": "B) Respiratory alkalosis is low PaCO2 with alkalemia from hyperventilation",
+      "explanation": "Excess CO2 elimination lowers PaCO2 and raises pH. Therefore, the most accurate choice is: Respiratory alkalosis is low PaCO2 with alkalemia from hyperventilation. High PaCO2 defines respiratory acidosis.",
+      "choice_explanations": {
+        "A": "High PaCO2 defines respiratory acidosis. It is less consistent than the correct choice.",
+        "B": "Excess CO2 elimination lowers PaCO2 and raises pH. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:16",
+      "question": "A 52-year-old man has lab results reviewed for metabolic alkalosis. Which of the following is correct?",
+      "options": [
+        "A) Metabolic alkalosis is defined by low HCO3− with acidemia",
+        "B) Respiratory acidosis is low PaCO2 with alkalemia",
+        "C) Metabolic alkalosis features high HCO3− with alkalemia from vomiting or diuretics",
+        "D) Respiratory alkalosis is high PaCO2 with acidemia"
+      ],
+      "answer": "C) Metabolic alkalosis features high HCO3− with alkalemia from vomiting or diuretics",
+      "explanation": "Net gain of HCO3− or loss of acid raises bicarbonate and pH. Therefore, the most accurate choice is: Metabolic alkalosis features high HCO3− with alkalemia from vomiting or diuretics. Low HCO3− is metabolic acidosis.",
+      "choice_explanations": {
+        "A": "Low HCO3− is metabolic acidosis. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Net gain of HCO3− or loss of acid raises bicarbonate and pH. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:17",
+      "question": "A specimen workup for plasma osmolality is interpreted. Which of the following is most accurate?",
+      "options": [
+        "A) Plasma osmolality reflects solute concentration with Na, glucose, and urea as major contributors",
+        "B) Osmolality is identical to urine specific gravity always",
+        "C) A single random glucose of 110 mg/dL alone always diagnoses diabetes",
+        "D) Random catecholamines during any stress always equal pheochromocytoma diagnosis"
+      ],
+      "answer": "A) Plasma osmolality reflects solute concentration with Na, glucose, and urea as major contributors",
+      "explanation": "Colligative properties measure osmoles per kg water. Therefore, the most accurate choice is: Plasma osmolality reflects solute concentration with Na, glucose, and urea as major contributors. Urine SG is a different urine concentration metric.",
+      "choice_explanations": {
+        "A": "Colligative properties measure osmoles per kg water. This matches the correct interpretation.",
+        "B": "Urine SG is a different urine concentration metric. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:18",
+      "question": "A 36-year-old man undergoes testing for osmolar gap. Which result pattern is most consistent?",
+      "options": [
+        "A) Toxic alcohols never raise osmolar gap",
+        "B) Elevated osmolar gap specifically diagnoses hyponatremia type",
+        "C) CSF protein elevation specifically diagnoses hyperglycemia",
+        "D) Elevated osmolar gap suggests osmotically active toxins such as ethanol, methanol, or ethylene glycol"
+      ],
+      "answer": "D) Elevated osmolar gap suggests osmotically active toxins such as ethanol, methanol, or ethylene glycol",
+      "explanation": "Measured osmolality exceeds calculated when unmeasured osmoles are present. Therefore, the most accurate choice is: Elevated osmolar gap suggests osmotically active toxins such as ethanol, methanol, or ethylene glycol. Gap detects toxic alcohols, not hyponatremia classification itself.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Gap detects toxic alcohols, not hyponatremia classification itself. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Measured osmolality exceeds calculated when unmeasured osmoles are present. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:19",
+      "question": "Method selection for fasting glucose diabetes is discussed. Which of the following is correct?",
+      "options": [
+        "A) A single random glucose of 110 mg/dL alone always diagnoses diabetes",
+        "B) Fasting plasma glucose is used among criteria to diagnose diabetes mellitus",
+        "C) Osmolality is identical to urine specific gravity always",
+        "D) OGTT is identical to a single fasting glucose always"
+      ],
+      "answer": "B) Fasting plasma glucose is used among criteria to diagnose diabetes mellitus",
+      "explanation": "Chronic hyperglycemia criteria include fasting glucose, OGTT, and HbA1c thresholds. Therefore, the most accurate choice is: Fasting plasma glucose is used among criteria to diagnose diabetes mellitus. Modest random values need context; diabetes uses defined thresholds.",
+      "choice_explanations": {
+        "A": "Modest random values need context; diabetes uses defined thresholds. It is less consistent than the correct choice.",
+        "B": "Chronic hyperglycemia criteria include fasting glucose, OGTT, and HbA1c thresholds. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:20",
+      "question": "A 67-year-old woman has an abnormal panel. Which statement about hb A1c meaning is most accurate?",
+      "options": [
+        "A) HbA1c reflects only the last 24 hours of diet",
+        "B) HbA1c is never affected by hemolysis or transfusion",
+        "C) Fructosamine reflects the same 3-month window as HbA1c exactly",
+        "D) HbA1c reflects average glycemia over about 2–3 months via glycated hemoglobin"
+      ],
+      "answer": "D) HbA1c reflects average glycemia over about 2–3 months via glycated hemoglobin",
+      "explanation": "Irreversible glycation of Hb accumulates over the RBC lifespan. Therefore, the most accurate choice is: HbA1c reflects average glycemia over about 2–3 months via glycated hemoglobin. Short-term diet changes are better seen with glucose or CGM.",
+      "choice_explanations": {
+        "A": "Short-term diet changes are better seen with glucose or CGM. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Irreversible glycation of Hb accumulates over the RBC lifespan. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:21",
+      "question": "Results related to hb A1c limitations are verified before release. Which of the following is appropriate?",
+      "options": [
+        "A) HbA1c is never affected by hemolysis or transfusion",
+        "B) Albumin never affects anion gap interpretation",
+        "C) Conditions altering RBC lifespan can falsely change HbA1c, such as hemolysis or transfusion",
+        "D) Fructosamine reflects the same 3-month window as HbA1c exactly"
+      ],
+      "answer": "C) Conditions altering RBC lifespan can falsely change HbA1c, such as hemolysis or transfusion",
+      "explanation": "Shorter RBC survival lowers A1c independently of mean glucose. Therefore, the most accurate choice is: Conditions altering RBC lifespan can falsely change HbA1c, such as hemolysis or transfusion. RBC turnover artifacts are important A1c interpretation foils.",
+      "choice_explanations": {
+        "A": "RBC turnover artifacts are important A1c interpretation foils. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Shorter RBC survival lowers A1c independently of mean glucose. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:22",
+      "question": "A 69-year-old woman is evaluated with assays used in whipple hypoglycemia. Which of the following is correct?",
+      "options": [
+        "A) Low albumin always proves true symptomatic hypocalcemia",
+        "B) Low sweat chloride pathognomonically proves CF always",
+        "C) True hypoglycemia needs low glucose plus symptoms that resolve with correction",
+        "D) Any low glucometer reading without symptoms always proves pathologic hypoglycemia"
+      ],
+      "answer": "C) True hypoglycemia needs low glucose plus symptoms that resolve with correction",
+      "explanation": "Documented low glucose linked to symptoms confirms clinically meaningful hypoglycemia. Therefore, the most accurate choice is: True hypoglycemia needs low glucose plus symptoms that resolve with correction. Asymptomatic meter errors are close foils.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Documented low glucose linked to symptoms confirms clinically meaningful hypoglycemia. This matches the correct interpretation.",
+        "D": "Asymptomatic meter errors are close foils. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:23",
+      "question": "In laboratory assessment of BUN elevation, which of the following is correct?",
+      "options": [
+        "A) Amylase elevation is 100% specific for pancreatitis always",
+        "B) BUN rises with reduced GFR, GI bleed, high protein intake, or catabolism",
+        "C) BUN elevation is pathognomonic only for GI bleed always",
+        "D) High ratio always proves intrinsic acute tubular necrosis"
+      ],
+      "answer": "B) BUN rises with reduced GFR, GI bleed, high protein intake, or catabolism",
+      "explanation": "Urea accumulates when filtration falls or generation rises. Therefore, the most accurate choice is: BUN rises with reduced GFR, GI bleed, high protein intake, or catabolism. Many prerenal, renal, and generation causes exist beyond GI bleed alone.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Urea accumulates when filtration falls or generation rises. This matches the correct interpretation.",
+        "C": "Many prerenal, renal, and generation causes exist beyond GI bleed alone. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:24",
+      "question": "A 49-year-old woman is examined, and creatinine GFR is reviewed. Which of the following is correct?",
+      "options": [
+        "A) Serum K+ is always lower than plasma K+ by definition",
+        "B) Serum iron is as stable as ferritin for stores always",
+        "C) Creatinine is a perfect linear direct measure of GFR in all patients",
+        "D) Serum creatinine inversely reflects GFR but depends on muscle mass and assay"
+      ],
+      "answer": "D) Serum creatinine inversely reflects GFR but depends on muscle mass and assay",
+      "explanation": "Creatinine is filtered by glomeruli; higher levels imply lower GFR if generation is stable. Therefore, the most accurate choice is: Serum creatinine inversely reflects GFR but depends on muscle mass and assay. Muscle mass, diet, and drugs alter creatinine independent of GFR.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Muscle mass, diet, and drugs alter creatinine independent of GFR. It is less consistent than the correct choice.",
+        "D": "Creatinine is filtered by glomeruli; higher levels imply lower GFR if generation is stable. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:25",
+      "question": "A specimen workup for BUN creatinine ratio is interpreted. Which of the following is most accurate?",
+      "options": [
+        "A) High ceruloplasmin pathognomonically proves Wilson always",
+        "B) High ratio always proves intrinsic acute tubular necrosis",
+        "C) High BUN/creatinine ratio can suggest prerenal azotemia or GI bleed",
+        "D) BUN elevation is pathognomonic only for GI bleed always"
+      ],
+      "answer": "C) High BUN/creatinine ratio can suggest prerenal azotemia or GI bleed",
+      "explanation": "Urea reabsorption rises in low flow; creatinine behaves differently. Therefore, the most accurate choice is: High BUN/creatinine ratio can suggest prerenal azotemia or GI bleed. ATN often shows a lower ratio.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "ATN often shows a lower ratio. It is less consistent than the correct choice.",
+        "C": "Urea reabsorption rises in low flow; creatinine behaves differently. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:26",
+      "question": "Which of the following correctly describes e GFR equations?",
+      "options": [
+        "A) Cystatin C is identical in behavior to CK-MB",
+        "B) Creatinine is a perfect linear direct measure of GFR in all patients",
+        "C) eGFR equations estimate GFR from creatinine and sometimes cystatin C with demographics",
+        "D) eGFR is measured directly by inulin clearance in every lab panel"
+      ],
+      "answer": "C) eGFR equations estimate GFR from creatinine and sometimes cystatin C with demographics",
+      "explanation": "Population equations approximate filtration from filtration markers. Therefore, the most accurate choice is: eGFR equations estimate GFR from creatinine and sometimes cystatin C with demographics. True measured GFR uses clearance methods; eGFR is an estimate.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Population equations approximate filtration from filtration markers. This matches the correct interpretation.",
+        "D": "True measured GFR uses clearance methods; eGFR is an estimate. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:27",
+      "question": "Method selection for cystatin C is discussed. Which of the following is correct?",
+      "options": [
+        "A) Cystatin C is identical in behavior to CK-MB",
+        "B) Cystatin C is an alternative GFR marker less dependent on muscle mass than creatinine",
+        "C) AKI is defined only by chronic small creatinine changes over years",
+        "D) Creatinine is a perfect linear direct measure of GFR in all patients"
+      ],
+      "answer": "B) Cystatin C is an alternative GFR marker less dependent on muscle mass than creatinine",
+      "explanation": "All nucleated cells produce cystatin C; levels rise as GFR falls. Therefore, the most accurate choice is: Cystatin C is an alternative GFR marker less dependent on muscle mass than creatinine. CK-MB is a cardiac injury marker, not a GFR marker.",
+      "choice_explanations": {
+        "A": "CK-MB is a cardiac injury marker, not a GFR marker. It is less consistent than the correct choice.",
+        "B": "All nucleated cells produce cystatin C; levels rise as GFR falls. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:28",
+      "question": "Clinical testing related to AKI is performed. Which of the following is correct?",
+      "options": [
+        "A) Cholestasis is isolated ALT mega-rise without ALP change as the definition",
+        "B) AKI is defined by abrupt rise in creatinine and/or drop in urine output criteria",
+        "C) AKI is defined only by chronic small creatinine changes over years",
+        "D) All pleural effusions are transudates by definition"
+      ],
+      "answer": "B) AKI is defined by abrupt rise in creatinine and/or drop in urine output criteria",
+      "explanation": "KDIGO-style criteria use short-term creatinine and urine output changes. Therefore, the most accurate choice is: AKI is defined by abrupt rise in creatinine and/or drop in urine output criteria. CKD is chronic GFR reduction.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "KDIGO-style criteria use short-term creatinine and urine output changes. This matches the correct interpretation.",
+        "C": "CKD is chronic GFR reduction. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:medium:29",
+      "question": "Results related to CKD staging are verified before release. Which of the following is appropriate?",
+      "options": [
+        "A) CKD staging uses eGFR categories and albuminuria",
+        "B) eGFR is measured directly by inulin clearance in every lab panel",
+        "C) CKD staging uses only serum sodium categories",
+        "D) Albuminuria is identical to hematuria always"
+      ],
+      "answer": "A) CKD staging uses eGFR categories and albuminuria",
+      "explanation": "Persistent reduced GFR and/or markers of kidney damage define and stage CKD. Therefore, the most accurate choice is: CKD staging uses eGFR categories and albuminuria. Sodium disorders are electrolyte problems, not CKD stage axes.",
+      "choice_explanations": {
+        "A": "Persistent reduced GFR and/or markers of kidney damage define and stage CKD. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Sodium disorders are electrolyte problems, not CKD stage axes. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ],
+  "hard": [
+    {
+      "id": "clinical_chemistry:hard:0",
+      "question": "A 53-year-old woman is evaluated for possible sodium water balance. Which of the following is most accurate?",
+      "options": [
+        "A) Hypernatremia always means excess total body sodium without water issues",
+        "B) Serum sodium is the major extracellular cation reflecting water balance",
+        "C) Serum sodium primarily measures total body sodium stores independent of water",
+        "D) Potassium is the major extracellular cation like sodium"
+      ],
+      "answer": "B) Serum sodium is the major extracellular cation reflecting water balance",
+      "explanation": "Na+ concentration is a water-balance ratio, not a pure total-body sodium meter. Therefore, the most accurate choice is: Serum sodium is the major extracellular cation reflecting water balance. Hyponatremia and hypernatremia often reflect water excess or deficit more than Na stores alone.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Na+ concentration is a water-balance ratio, not a pure total-body sodium meter. This matches the correct interpretation.",
+        "C": "Hyponatremia and hypernatremia often reflect water excess or deficit more than Na stores alone. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:1",
+      "question": "A 56-year-old man has findings suggestive of hypotonic hyponatremia. Which of the following is the best interpretation?",
+      "options": [
+        "A) True hypotonic hyponatremia reflects excess water relative to sodium",
+        "B) Hypernatremia always means excess total body sodium without water issues",
+        "C) All low measured Na+ values are true hypotonic hyponatremia without artifact",
+        "D) Pseudohyponatremia means true low plasma tonicity always"
+      ],
+      "answer": "A) True hypotonic hyponatremia reflects excess water relative to sodium",
+      "explanation": "Plasma tonicity and osmolality clarify whether hyponatremia is real and hypotonic. Therefore, the most accurate choice is: True hypotonic hyponatremia reflects excess water relative to sodium. Pseudohyponatremia and translocational causes are close foils.",
+      "choice_explanations": {
+        "A": "Plasma tonicity and osmolality clarify whether hyponatremia is real and hypotonic. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Pseudohyponatremia and translocational causes are close foils. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:2",
+      "question": "In a detailed discussion of pseudohyponatremia, which of the following is most accurate?",
+      "options": [
+        "A) Pseudohyponatremia means true low plasma tonicity always",
+        "B) True hyperkalemia is always harmless if creatinine is normal",
+        "C) Low albumin always proves true symptomatic hypocalcemia",
+        "D) Severe hyperlipidemia or hyperproteinemia can cause pseudohyponatremia with indirect methods"
+      ],
+      "answer": "D) Severe hyperlipidemia or hyperproteinemia can cause pseudohyponatremia with indirect methods",
+      "explanation": "Indirect potentiometry can underread Na+ when the non-aqueous plasma fraction is huge. Therefore, the most accurate choice is: Severe hyperlipidemia or hyperproteinemia can cause pseudohyponatremia with indirect methods. True hypotonic hyponatremia has low tonicity; pseudo does not.",
+      "choice_explanations": {
+        "A": "True hypotonic hyponatremia has low tonicity; pseudo does not. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Indirect potentiometry can underread Na+ when the non-aqueous plasma fraction is huge. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:3",
+      "question": "A 65-year-old woman returns for review of suspected hypernatremia. Which of the following is most accurate?",
+      "options": [
+        "A) Hypernatremia indicates water deficit relative to sodium",
+        "B) Hypernatremia always means excess total body sodium without water issues",
+        "C) All low measured Na+ values are true hypotonic hyponatremia without artifact",
+        "D) Serum sodium primarily measures total body sodium stores independent of water"
+      ],
+      "answer": "A) Hypernatremia indicates water deficit relative to sodium",
+      "explanation": "High [Na+] reflects hypertonicity from net water loss or sodium gain. Therefore, the most accurate choice is: Hypernatremia indicates water deficit relative to sodium. Water deficit is central; it is not solely too much salt in every case.",
+      "choice_explanations": {
+        "A": "High [Na+] reflects hypertonicity from net water loss or sodium gain. This matches the correct interpretation.",
+        "B": "Water deficit is central; it is not solely too much salt in every case. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:4",
+      "question": "A clinic case of potassium intracellular is discussed. Which of the following is correct?",
+      "options": [
+        "A) Potassium is the major extracellular cation like sodium",
+        "B) Serum sodium primarily measures total body sodium stores independent of water",
+        "C) Any high K+ on a hemolyzed sample is always true in vivo hyperkalemia",
+        "D) Potassium is the major intracellular cation critical for membrane potential"
+      ],
+      "answer": "D) Potassium is the major intracellular cation critical for membrane potential",
+      "explanation": "High intracellular K+ maintains resting membrane potential. Therefore, the most accurate choice is: Potassium is the major intracellular cation critical for membrane potential. Sodium, not potassium, dominates the extracellular compartment.",
+      "choice_explanations": {
+        "A": "Sodium, not potassium, dominates the extracellular compartment. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "High intracellular K+ maintains resting membrane potential. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:5",
+      "question": "A 46-year-old man presents with features compatible with hypokalemia causes. Which of the following is most accurate?",
+      "options": [
+        "A) Hypokalemia is caused only by laboratory hemolysis artifact always",
+        "B) Hypokalemia may result from losses, shifts into cells, or low intake",
+        "C) Serum iron is as stable as ferritin for stores always",
+        "D) Low bicarbonate always means pure respiratory acidosis"
+      ],
+      "answer": "B) Hypokalemia may result from losses, shifts into cells, or low intake",
+      "explanation": "GI or renal losses and alkalosis or insulin shifts lower serum K+. Therefore, the most accurate choice is: Hypokalemia may result from losses, shifts into cells, or low intake. Hemolysis typically raises measured K+, the opposite foil.",
+      "choice_explanations": {
+        "A": "Hemolysis typically raises measured K+, the opposite foil. It is less consistent than the correct choice.",
+        "B": "GI or renal losses and alkalosis or insulin shifts lower serum K+. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:6",
+      "question": "Which statement about hyperkalemia urgency in a 49-year-old woman is most accurate?",
+      "options": [
+        "A) True hyperkalemia can cause life-threatening cardiac conduction abnormalities",
+        "B) Any high K+ on a hemolyzed sample is always true in vivo hyperkalemia",
+        "C) True hyperkalemia is always harmless if creatinine is normal",
+        "D) Pseudohyponatremia means true low plasma tonicity always"
+      ],
+      "answer": "A) True hyperkalemia can cause life-threatening cardiac conduction abnormalities",
+      "explanation": "Elevated extracellular K+ depolarizes myocytes and can produce fatal arrhythmias. Therefore, the most accurate choice is: True hyperkalemia can cause life-threatening cardiac conduction abnormalities. Even with normal creatinine, severe hyperkalemia can be dangerous.",
+      "choice_explanations": {
+        "A": "Elevated extracellular K+ depolarizes myocytes and can produce fatal arrhythmias. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Even with normal creatinine, severe hyperkalemia can be dangerous. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:7",
+      "question": "After examining a 44-year-old man, which statement about spurious hyperkalemia chem is correct?",
+      "options": [
+        "A) Hemolysis, delayed separation, or thrombocytosis can spuriously elevate potassium",
+        "B) Hypokalemia is caused only by laboratory hemolysis artifact always",
+        "C) True hyperkalemia is always harmless if creatinine is normal",
+        "D) Any high K+ on a hemolyzed sample is always true in vivo hyperkalemia"
+      ],
+      "answer": "A) Hemolysis, delayed separation, or thrombocytosis can spuriously elevate potassium",
+      "explanation": "K+ released from cells in vitro contaminates the measured result. Therefore, the most accurate choice is: Hemolysis, delayed separation, or thrombocytosis can spuriously elevate potassium. Artifact must be excluded before treating as true hyperkalemia.",
+      "choice_explanations": {
+        "A": "K+ released from cells in vitro contaminates the measured result. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Artifact must be excluded before treating as true hyperkalemia. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:8",
+      "question": "A 67-year-old woman is evaluated for possible chloride acid-base. Which of the following is most accurate?",
+      "options": [
+        "A) High AG acidosis is identical to hyperchloremic normal-gap acidosis",
+        "B) Normal-gap acidosis is caused by lactate accumulation as the usual definition",
+        "C) Chloride changes help interpret metabolic acid-base disorders such as hyperchloremic acidosis",
+        "D) Chloride is irrelevant to acid-base assessment always"
+      ],
+      "answer": "C) Chloride changes help interpret metabolic acid-base disorders such as hyperchloremic acidosis",
+      "explanation": "Hyperchloremia accompanies normal-anion-gap metabolic acidosis patterns. Therefore, the most accurate choice is: Chloride changes help interpret metabolic acid-base disorders such as hyperchloremic acidosis. Electrolyte panels are integral to acid-base classification.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Hyperchloremia accompanies normal-anion-gap metabolic acidosis patterns. This matches the correct interpretation.",
+        "D": "Electrolyte panels are integral to acid-base classification. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:9",
+      "question": "A 45-year-old woman has findings suggestive of bicarbonate metabolic. Which of the following is the best interpretation?",
+      "options": [
+        "A) Metabolic alkalosis is defined by low HCO3− with acidemia",
+        "B) Salicylate uniquely causes only metabolic alkalosis",
+        "C) Low bicarbonate suggests metabolic acidosis or compensation for respiratory alkalosis",
+        "D) Low bicarbonate always means pure respiratory acidosis"
+      ],
+      "answer": "C) Low bicarbonate suggests metabolic acidosis or compensation for respiratory alkalosis",
+      "explanation": "HCO3− falls in metabolic acidosis or as renal compensation for chronic hypocapnia. Therefore, the most accurate choice is: Low bicarbonate suggests metabolic acidosis or compensation for respiratory alkalosis. Respiratory acidosis raises PaCO2; HCO3− is not primarily low as the driver.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "HCO3− falls in metabolic acidosis or as renal compensation for chronic hypocapnia. This matches the correct interpretation.",
+        "D": "Respiratory acidosis raises PaCO2; HCO3− is not primarily low as the driver. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:10",
+      "question": "In a 60-year-old man, anion gap formula must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) High AG acidosis is identical to hyperchloremic normal-gap acidosis",
+        "B) Anion gap approximates K+ + Cl− − Na+ as the standard teaching formula",
+        "C) Normal-gap acidosis is caused by lactate accumulation as the usual definition",
+        "D) Anion gap approximates Na+ minus (Cl− + HCO3−) for metabolic acidosis classification"
+      ],
+      "answer": "D) Anion gap approximates Na+ minus (Cl− + HCO3−) for metabolic acidosis classification",
+      "explanation": "Unmeasured anions widen the gap in lactic acidosis, ketoacidosis, and toxins. Therefore, the most accurate choice is: Anion gap approximates Na+ minus (Cl− + HCO3−) for metabolic acidosis classification. The common teaching formula subtracts Cl and HCO3 from Na.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "The common teaching formula subtracts Cl and HCO3 from Na. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Unmeasured anions widen the gap in lactic acidosis, ketoacidosis, and toxins. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:11",
+      "question": "A 46-year-old man returns for review of suspected high AG acidosis. Which of the following is most accurate?",
+      "options": [
+        "A) High AG acidosis is identical to hyperchloremic normal-gap acidosis",
+        "B) Normal-gap acidosis is caused by lactate accumulation as the usual definition",
+        "C) Anion gap approximates K+ + Cl− − Na+ as the standard teaching formula",
+        "D) High anion-gap metabolic acidosis includes lactate, ketoacids, and some toxins"
+      ],
+      "answer": "D) High anion-gap metabolic acidosis includes lactate, ketoacids, and some toxins",
+      "explanation": "Added anions replace HCO3−, widening Na − (Cl+HCO3). Therefore, the most accurate choice is: High anion-gap metabolic acidosis includes lactate, ketoacids, and some toxins. Normal-gap acidosis retains Cl− rise; it is the close foil.",
+      "choice_explanations": {
+        "A": "Normal-gap acidosis retains Cl− rise; it is the close foil. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Added anions replace HCO3−, widening Na − (Cl+HCO3). This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:12",
+      "question": "Careful interpretation of normal AG acidosis is required. Which of the following is correct?",
+      "options": [
+        "A) Normal anion-gap metabolic acidosis is often hyperchloremic from RTA or diarrhea",
+        "B) Normal-gap acidosis is caused by lactate accumulation as the usual definition",
+        "C) Anion gap approximates K+ + Cl− − Na+ as the standard teaching formula",
+        "D) High AG acidosis is identical to hyperchloremic normal-gap acidosis"
+      ],
+      "answer": "A) Normal anion-gap metabolic acidosis is often hyperchloremic from RTA or diarrhea",
+      "explanation": "HCO3− loss or impaired acid excretion with Cl− retention keeps the gap normal. Therefore, the most accurate choice is: Normal anion-gap metabolic acidosis is often hyperchloremic from RTA or diarrhea. Lactate typically widens the anion gap.",
+      "choice_explanations": {
+        "A": "HCO3− loss or impaired acid excretion with Cl− retention keeps the gap normal. This matches the correct interpretation.",
+        "B": "Lactate typically widens the anion gap. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:13",
+      "question": "A 55-year-old woman presents with features compatible with ABG p H. Which of the following is most accurate?",
+      "options": [
+        "A) pH alone always identifies the single primary process without PaCO2 and HCO3",
+        "B) Respiratory alkalosis is high PaCO2 with acidemia",
+        "C) Metabolic alkalosis is defined by low HCO3− with acidemia",
+        "D) Blood gas pH identifies acidemia below 7.35 or alkalemia above 7.45"
+      ],
+      "answer": "D) Blood gas pH identifies acidemia below 7.35 or alkalemia above 7.45",
+      "explanation": "pH shows net acid-base status; PaCO2 and HCO3 define respiratory versus metabolic components. Therefore, the most accurate choice is: Blood gas pH identifies acidemia below 7.35 or alkalemia above 7.45. Full interpretation needs pH plus PaCO2 and HCO3.",
+      "choice_explanations": {
+        "A": "Full interpretation needs pH plus PaCO2 and HCO3. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "pH shows net acid-base status; PaCO2 and HCO3 define respiratory versus metabolic components. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:14",
+      "question": "Which statement about respiratory acidosis in a 59-year-old woman is most accurate?",
+      "options": [
+        "A) Respiratory acidosis is low PaCO2 with alkalemia",
+        "B) Respiratory alkalosis is high PaCO2 with acidemia",
+        "C) Metabolic alkalosis is defined by low HCO3− with acidemia",
+        "D) Respiratory acidosis is high PaCO2 with acidemia from hypoventilation"
+      ],
+      "answer": "D) Respiratory acidosis is high PaCO2 with acidemia from hypoventilation",
+      "explanation": "CO2 retention from hypoventilation raises PaCO2 and lowers pH. Therefore, the most accurate choice is: Respiratory acidosis is high PaCO2 with acidemia from hypoventilation. Low PaCO2 defines respiratory alkalosis.",
+      "choice_explanations": {
+        "A": "Low PaCO2 defines respiratory alkalosis. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "CO2 retention from hypoventilation raises PaCO2 and lowers pH. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:15",
+      "question": "After examining a 41-year-old woman, which statement about respiratory alkalosis is correct?",
+      "options": [
+        "A) Metabolic alkalosis is defined by low HCO3− with acidemia",
+        "B) Respiratory alkalosis is high PaCO2 with acidemia",
+        "C) Respiratory alkalosis is low PaCO2 with alkalemia from hyperventilation",
+        "D) Respiratory acidosis is low PaCO2 with alkalemia"
+      ],
+      "answer": "C) Respiratory alkalosis is low PaCO2 with alkalemia from hyperventilation",
+      "explanation": "Excess CO2 elimination lowers PaCO2 and raises pH. Therefore, the most accurate choice is: Respiratory alkalosis is low PaCO2 with alkalemia from hyperventilation. High PaCO2 defines respiratory acidosis.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "High PaCO2 defines respiratory acidosis. It is less consistent than the correct choice.",
+        "C": "Excess CO2 elimination lowers PaCO2 and raises pH. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:16",
+      "question": "A 52-year-old man is evaluated for possible metabolic alkalosis. Which of the following is most accurate?",
+      "options": [
+        "A) Respiratory alkalosis is high PaCO2 with acidemia",
+        "B) Metabolic alkalosis is defined by low HCO3− with acidemia",
+        "C) Respiratory acidosis is low PaCO2 with alkalemia",
+        "D) Metabolic alkalosis features high HCO3− with alkalemia from vomiting or diuretics"
+      ],
+      "answer": "D) Metabolic alkalosis features high HCO3− with alkalemia from vomiting or diuretics",
+      "explanation": "Net gain of HCO3− or loss of acid raises bicarbonate and pH. Therefore, the most accurate choice is: Metabolic alkalosis features high HCO3− with alkalemia from vomiting or diuretics. Low HCO3− is metabolic acidosis.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Low HCO3− is metabolic acidosis. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Net gain of HCO3− or loss of acid raises bicarbonate and pH. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:17",
+      "question": "A 63-year-old woman has findings suggestive of plasma osmolality. Which of the following is the best interpretation?",
+      "options": [
+        "A) OGTT is identical to a single fasting glucose always",
+        "B) Plasma osmolality reflects solute concentration with Na, glucose, and urea as major contributors",
+        "C) Osmolality is identical to urine specific gravity always",
+        "D) A single random glucose of 110 mg/dL alone always diagnoses diabetes"
+      ],
+      "answer": "B) Plasma osmolality reflects solute concentration with Na, glucose, and urea as major contributors",
+      "explanation": "Colligative properties measure osmoles per kg water. Therefore, the most accurate choice is: Plasma osmolality reflects solute concentration with Na, glucose, and urea as major contributors. Urine SG is a different urine concentration metric.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Colligative properties measure osmoles per kg water. This matches the correct interpretation.",
+        "C": "Urine SG is a different urine concentration metric. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:18",
+      "question": "In a 36-year-old man, osmolar gap must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) Elevated osmolar gap suggests osmotically active toxins such as ethanol, methanol, or ethylene glycol",
+        "B) Protein gap specifically equals only dehydration always",
+        "C) Elevated osmolar gap specifically diagnoses hyponatremia type",
+        "D) Toxic alcohols never raise osmolar gap"
+      ],
+      "answer": "A) Elevated osmolar gap suggests osmotically active toxins such as ethanol, methanol, or ethylene glycol",
+      "explanation": "Measured osmolality exceeds calculated when unmeasured osmoles are present. Therefore, the most accurate choice is: Elevated osmolar gap suggests osmotically active toxins such as ethanol, methanol, or ethylene glycol. Gap detects toxic alcohols, not hyponatremia classification itself.",
+      "choice_explanations": {
+        "A": "Measured osmolality exceeds calculated when unmeasured osmoles are present. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Gap detects toxic alcohols, not hyponatremia classification itself. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:19",
+      "question": "A 40-year-old man returns for review of suspected fasting glucose diabetes. Which of the following is most accurate?",
+      "options": [
+        "A) OGTT is identical to a single fasting glucose always",
+        "B) Fasting plasma glucose is used among criteria to diagnose diabetes mellitus",
+        "C) Osmolality is identical to urine specific gravity always",
+        "D) A single random glucose of 110 mg/dL alone always diagnoses diabetes"
+      ],
+      "answer": "B) Fasting plasma glucose is used among criteria to diagnose diabetes mellitus",
+      "explanation": "Chronic hyperglycemia criteria include fasting glucose, OGTT, and HbA1c thresholds. Therefore, the most accurate choice is: Fasting plasma glucose is used among criteria to diagnose diabetes mellitus. Modest random values need context; diabetes uses defined thresholds.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Chronic hyperglycemia criteria include fasting glucose, OGTT, and HbA1c thresholds. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Modest random values need context; diabetes uses defined thresholds. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:20",
+      "question": "A clinic case of hb A1c meaning is discussed. Which of the following is correct?",
+      "options": [
+        "A) Fructosamine reflects the same 3-month window as HbA1c exactly",
+        "B) HbA1c is never affected by hemolysis or transfusion",
+        "C) HbA1c reflects average glycemia over about 2–3 months via glycated hemoglobin",
+        "D) HbA1c reflects only the last 24 hours of diet"
+      ],
+      "answer": "C) HbA1c reflects average glycemia over about 2–3 months via glycated hemoglobin",
+      "explanation": "Irreversible glycation of Hb accumulates over the RBC lifespan. Therefore, the most accurate choice is: HbA1c reflects average glycemia over about 2–3 months via glycated hemoglobin. Short-term diet changes are better seen with glucose or CGM.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Irreversible glycation of Hb accumulates over the RBC lifespan. This matches the correct interpretation.",
+        "D": "Short-term diet changes are better seen with glucose or CGM. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:21",
+      "question": "A 66-year-old man presents with features compatible with hb A1c limitations. Which of the following is most accurate?",
+      "options": [
+        "A) Conditions altering RBC lifespan can falsely change HbA1c, such as hemolysis or transfusion",
+        "B) Fructosamine reflects the same 3-month window as HbA1c exactly",
+        "C) HbA1c is never affected by hemolysis or transfusion",
+        "D) Hemolysis never changes potassium or LDH"
+      ],
+      "answer": "A) Conditions altering RBC lifespan can falsely change HbA1c, such as hemolysis or transfusion",
+      "explanation": "Shorter RBC survival lowers A1c independently of mean glucose. Therefore, the most accurate choice is: Conditions altering RBC lifespan can falsely change HbA1c, such as hemolysis or transfusion. RBC turnover artifacts are important A1c interpretation foils.",
+      "choice_explanations": {
+        "A": "Shorter RBC survival lowers A1c independently of mean glucose. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "RBC turnover artifacts are important A1c interpretation foils. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:22",
+      "question": "Which statement about whipple hypoglycemia in a 69-year-old woman is most accurate?",
+      "options": [
+        "A) Low albumin always proves true symptomatic hypocalcemia",
+        "B) All low measured Na+ values are true hypotonic hyponatremia without artifact",
+        "C) True hypoglycemia needs low glucose plus symptoms that resolve with correction",
+        "D) Any low glucometer reading without symptoms always proves pathologic hypoglycemia"
+      ],
+      "answer": "C) True hypoglycemia needs low glucose plus symptoms that resolve with correction",
+      "explanation": "Documented low glucose linked to symptoms confirms clinically meaningful hypoglycemia. Therefore, the most accurate choice is: True hypoglycemia needs low glucose plus symptoms that resolve with correction. Asymptomatic meter errors are close foils.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Documented low glucose linked to symptoms confirms clinically meaningful hypoglycemia. This matches the correct interpretation.",
+        "D": "Asymptomatic meter errors are close foils. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:23",
+      "question": "After examining a 67-year-old woman, which statement about BUN elevation is correct?",
+      "options": [
+        "A) BUN elevation is pathognomonic only for GI bleed always",
+        "B) Total CK elevation always equals myocardial infarction",
+        "C) High ratio always proves intrinsic acute tubular necrosis",
+        "D) BUN rises with reduced GFR, GI bleed, high protein intake, or catabolism"
+      ],
+      "answer": "D) BUN rises with reduced GFR, GI bleed, high protein intake, or catabolism",
+      "explanation": "Urea accumulates when filtration falls or generation rises. Therefore, the most accurate choice is: BUN rises with reduced GFR, GI bleed, high protein intake, or catabolism. Many prerenal, renal, and generation causes exist beyond GI bleed alone.",
+      "choice_explanations": {
+        "A": "Many prerenal, renal, and generation causes exist beyond GI bleed alone. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Urea accumulates when filtration falls or generation rises. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:24",
+      "question": "Careful review of creatinine GFR is required. Which of the following is most accurate?",
+      "options": [
+        "A) Serum iron is as stable as ferritin for stores always",
+        "B) Serum creatinine inversely reflects GFR but depends on muscle mass and assay",
+        "C) Serum K+ is always lower than plasma K+ by definition",
+        "D) Creatinine is a perfect linear direct measure of GFR in all patients"
+      ],
+      "answer": "B) Serum creatinine inversely reflects GFR but depends on muscle mass and assay",
+      "explanation": "Creatinine is filtered by glomeruli; higher levels imply lower GFR if generation is stable. Therefore, the most accurate choice is: Serum creatinine inversely reflects GFR but depends on muscle mass and assay. Muscle mass, diet, and drugs alter creatinine independent of GFR.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Creatinine is filtered by glomeruli; higher levels imply lower GFR if generation is stable. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Muscle mass, diet, and drugs alter creatinine independent of GFR. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:25",
+      "question": "A 44-year-old man has findings suggestive of BUN creatinine ratio. Which of the following is the best interpretation?",
+      "options": [
+        "A) High ratio always proves intrinsic acute tubular necrosis",
+        "B) High BUN/creatinine ratio can suggest prerenal azotemia or GI bleed",
+        "C) High ceruloplasmin pathognomonically proves Wilson always",
+        "D) BUN elevation is pathognomonic only for GI bleed always"
+      ],
+      "answer": "B) High BUN/creatinine ratio can suggest prerenal azotemia or GI bleed",
+      "explanation": "Urea reabsorption rises in low flow; creatinine behaves differently. Therefore, the most accurate choice is: High BUN/creatinine ratio can suggest prerenal azotemia or GI bleed. ATN often shows a lower ratio.",
+      "choice_explanations": {
+        "A": "ATN often shows a lower ratio. It is less consistent than the correct choice.",
+        "B": "Urea reabsorption rises in low flow; creatinine behaves differently. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:26",
+      "question": "In a detailed discussion of e GFR equations, which of the following is most accurate?",
+      "options": [
+        "A) eGFR equations estimate GFR from creatinine and sometimes cystatin C with demographics",
+        "B) eGFR is measured directly by inulin clearance in every lab panel",
+        "C) Creatinine is a perfect linear direct measure of GFR in all patients",
+        "D) Cystatin C is identical in behavior to CK-MB"
+      ],
+      "answer": "A) eGFR equations estimate GFR from creatinine and sometimes cystatin C with demographics",
+      "explanation": "Population equations approximate filtration from filtration markers. Therefore, the most accurate choice is: eGFR equations estimate GFR from creatinine and sometimes cystatin C with demographics. True measured GFR uses clearance methods; eGFR is an estimate.",
+      "choice_explanations": {
+        "A": "Population equations approximate filtration from filtration markers. This matches the correct interpretation.",
+        "B": "True measured GFR uses clearance methods; eGFR is an estimate. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:27",
+      "question": "A 32-year-old man returns for review of suspected cystatin C. Which of the following is most accurate?",
+      "options": [
+        "A) Cystatin C is an alternative GFR marker less dependent on muscle mass than creatinine",
+        "B) Creatinine is a perfect linear direct measure of GFR in all patients",
+        "C) AKI is defined only by chronic small creatinine changes over years",
+        "D) Cystatin C is identical in behavior to CK-MB"
+      ],
+      "answer": "A) Cystatin C is an alternative GFR marker less dependent on muscle mass than creatinine",
+      "explanation": "All nucleated cells produce cystatin C; levels rise as GFR falls. Therefore, the most accurate choice is: Cystatin C is an alternative GFR marker less dependent on muscle mass than creatinine. CK-MB is a cardiac injury marker, not a GFR marker.",
+      "choice_explanations": {
+        "A": "All nucleated cells produce cystatin C; levels rise as GFR falls. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "CK-MB is a cardiac injury marker, not a GFR marker. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:28",
+      "question": "Careful interpretation of AKI is required. Which of the following is correct?",
+      "options": [
+        "A) AKI is defined only by chronic small creatinine changes over years",
+        "B) Cholestasis is isolated ALT mega-rise without ALP change as the definition",
+        "C) AKI is defined by abrupt rise in creatinine and/or drop in urine output criteria",
+        "D) All pleural effusions are transudates by definition"
+      ],
+      "answer": "C) AKI is defined by abrupt rise in creatinine and/or drop in urine output criteria",
+      "explanation": "KDIGO-style criteria use short-term creatinine and urine output changes. Therefore, the most accurate choice is: AKI is defined by abrupt rise in creatinine and/or drop in urine output criteria. CKD is chronic GFR reduction.",
+      "choice_explanations": {
+        "A": "CKD is chronic GFR reduction. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "KDIGO-style criteria use short-term creatinine and urine output changes. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:hard:29",
+      "question": "A 67-year-old woman presents with features compatible with CKD staging. Which of the following is most accurate?",
+      "options": [
+        "A) eGFR is measured directly by inulin clearance in every lab panel",
+        "B) CKD staging uses only serum sodium categories",
+        "C) Albuminuria is identical to hematuria always",
+        "D) CKD staging uses eGFR categories and albuminuria"
+      ],
+      "answer": "D) CKD staging uses eGFR categories and albuminuria",
+      "explanation": "Persistent reduced GFR and/or markers of kidney damage define and stage CKD. Therefore, the most accurate choice is: CKD staging uses eGFR categories and albuminuria. Sodium disorders are electrolyte problems, not CKD stage axes.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Sodium disorders are electrolyte problems, not CKD stage axes. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Persistent reduced GFR and/or markers of kidney damage define and stage CKD. This matches the correct interpretation."
+      }
+    }
+  ],
+  "extreme": [
+    {
+      "id": "clinical_chemistry:extreme:0",
+      "question": "A 53-year-old woman has a complex presentation of sodium water balance. Which of the following is most accurate?",
+      "options": [
+        "A) Serum sodium primarily measures total body sodium stores independent of water",
+        "B) Hypernatremia always means excess total body sodium without water issues",
+        "C) Potassium is the major extracellular cation like sodium",
+        "D) Serum sodium is the major extracellular cation reflecting water balance"
+      ],
+      "answer": "D) Serum sodium is the major extracellular cation reflecting water balance",
+      "explanation": "Na+ concentration is a water-balance ratio, not a pure total-body sodium meter. Therefore, the most accurate choice is: Serum sodium is the major extracellular cation reflecting water balance. Hyponatremia and hypernatremia often reflect water excess or deficit more than Na stores alone.",
+      "choice_explanations": {
+        "A": "Hyponatremia and hypernatremia often reflect water excess or deficit more than Na stores alone. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Na+ concentration is a water-balance ratio, not a pure total-body sodium meter. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:1",
+      "question": "A 56-year-old man with diabetes and hypertension is reassessed after incomplete response related to hypotonic hyponatremia. Which of the following is most accurate?",
+      "options": [
+        "A) Hypernatremia always means excess total body sodium without water issues",
+        "B) Pseudohyponatremia means true low plasma tonicity always",
+        "C) All low measured Na+ values are true hypotonic hyponatremia without artifact",
+        "D) True hypotonic hyponatremia reflects excess water relative to sodium"
+      ],
+      "answer": "D) True hypotonic hyponatremia reflects excess water relative to sodium",
+      "explanation": "Plasma tonicity and osmolality clarify whether hyponatremia is real and hypotonic. Therefore, the most accurate choice is: True hypotonic hyponatremia reflects excess water relative to sodium. Pseudohyponatremia and translocational causes are close foils.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Pseudohyponatremia and translocational causes are close foils. It is less consistent than the correct choice.",
+        "D": "Plasma tonicity and osmolality clarify whether hyponatremia is real and hypotonic. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:2",
+      "question": "Which of the following is the most precise statement about pseudohyponatremia?",
+      "options": [
+        "A) Any low glucometer reading without symptoms always proves pathologic hypoglycemia",
+        "B) Pseudohyponatremia means true low plasma tonicity always",
+        "C) Severe hyperlipidemia or hyperproteinemia can cause pseudohyponatremia with indirect methods",
+        "D) True hyperkalemia is always harmless if creatinine is normal"
+      ],
+      "answer": "C) Severe hyperlipidemia or hyperproteinemia can cause pseudohyponatremia with indirect methods",
+      "explanation": "Indirect potentiometry can underread Na+ when the non-aqueous plasma fraction is huge. Therefore, the most accurate choice is: Severe hyperlipidemia or hyperproteinemia can cause pseudohyponatremia with indirect methods. True hypotonic hyponatremia has low tonicity; pseudo does not.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "True hypotonic hyponatremia has low tonicity; pseudo does not. It is less consistent than the correct choice.",
+        "C": "Indirect potentiometry can underread Na+ when the non-aqueous plasma fraction is huge. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:3",
+      "question": "A 65-year-old woman has findings that make hypernatremia hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Hypernatremia always means excess total body sodium without water issues",
+        "B) Hypernatremia indicates water deficit relative to sodium",
+        "C) Serum sodium primarily measures total body sodium stores independent of water",
+        "D) All low measured Na+ values are true hypotonic hyponatremia without artifact"
+      ],
+      "answer": "B) Hypernatremia indicates water deficit relative to sodium",
+      "explanation": "High [Na+] reflects hypertonicity from net water loss or sodium gain. Therefore, the most accurate choice is: Hypernatremia indicates water deficit relative to sodium. Water deficit is central; it is not solely too much salt in every case.",
+      "choice_explanations": {
+        "A": "Water deficit is central; it is not solely too much salt in every case. It is less consistent than the correct choice.",
+        "B": "High [Na+] reflects hypertonicity from net water loss or sodium gain. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:4",
+      "question": "In a 52-year-old man, distinguishing potassium intracellular from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Potassium is the major intracellular cation critical for membrane potential",
+        "B) Potassium is the major extracellular cation like sodium",
+        "C) Any high K+ on a hemolyzed sample is always true in vivo hyperkalemia",
+        "D) Serum sodium primarily measures total body sodium stores independent of water"
+      ],
+      "answer": "A) Potassium is the major intracellular cation critical for membrane potential",
+      "explanation": "High intracellular K+ maintains resting membrane potential. Therefore, the most accurate choice is: Potassium is the major intracellular cation critical for membrane potential. Sodium, not potassium, dominates the extracellular compartment.",
+      "choice_explanations": {
+        "A": "High intracellular K+ maintains resting membrane potential. This matches the correct interpretation.",
+        "B": "Sodium, not potassium, dominates the extracellular compartment. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:5",
+      "question": "A 46-year-old man returns with ongoing problems related to hypokalemia causes. Which of the following is most accurate?",
+      "options": [
+        "A) Low bicarbonate always means pure respiratory acidosis",
+        "B) Hypokalemia may result from losses, shifts into cells, or low intake",
+        "C) Hypokalemia is caused only by laboratory hemolysis artifact always",
+        "D) Lactate elevation always means only laboratory delay artifact"
+      ],
+      "answer": "B) Hypokalemia may result from losses, shifts into cells, or low intake",
+      "explanation": "GI or renal losses and alkalosis or insulin shifts lower serum K+. Therefore, the most accurate choice is: Hypokalemia may result from losses, shifts into cells, or low intake. Hemolysis typically raises measured K+, the opposite foil.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "GI or renal losses and alkalosis or insulin shifts lower serum K+. This matches the correct interpretation.",
+        "C": "Hemolysis typically raises measured K+, the opposite foil. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:6",
+      "question": "Senior review is requested for hyperkalemia urgency in a 49-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) True hyperkalemia is always harmless if creatinine is normal",
+        "B) Any high K+ on a hemolyzed sample is always true in vivo hyperkalemia",
+        "C) True hyperkalemia can cause life-threatening cardiac conduction abnormalities",
+        "D) Pseudohyponatremia means true low plasma tonicity always"
+      ],
+      "answer": "C) True hyperkalemia can cause life-threatening cardiac conduction abnormalities",
+      "explanation": "Elevated extracellular K+ depolarizes myocytes and can produce fatal arrhythmias. Therefore, the most accurate choice is: True hyperkalemia can cause life-threatening cardiac conduction abnormalities. Even with normal creatinine, severe hyperkalemia can be dangerous.",
+      "choice_explanations": {
+        "A": "Even with normal creatinine, severe hyperkalemia can be dangerous. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Elevated extracellular K+ depolarizes myocytes and can produce fatal arrhythmias. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:7",
+      "question": "Which statement about spurious hyperkalemia chem in a 44-year-old man is most accurate?",
+      "options": [
+        "A) True hyperkalemia is always harmless if creatinine is normal",
+        "B) Hypokalemia is caused only by laboratory hemolysis artifact always",
+        "C) Any high K+ on a hemolyzed sample is always true in vivo hyperkalemia",
+        "D) Hemolysis, delayed separation, or thrombocytosis can spuriously elevate potassium"
+      ],
+      "answer": "D) Hemolysis, delayed separation, or thrombocytosis can spuriously elevate potassium",
+      "explanation": "K+ released from cells in vitro contaminates the measured result. Therefore, the most accurate choice is: Hemolysis, delayed separation, or thrombocytosis can spuriously elevate potassium. Artifact must be excluded before treating as true hyperkalemia.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Artifact must be excluded before treating as true hyperkalemia. It is less consistent than the correct choice.",
+        "D": "K+ released from cells in vitro contaminates the measured result. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:8",
+      "question": "A 67-year-old woman has a complex presentation of chloride acid-base. Which of the following is most accurate?",
+      "options": [
+        "A) Normal-gap acidosis is caused by lactate accumulation as the usual definition",
+        "B) High AG acidosis is identical to hyperchloremic normal-gap acidosis",
+        "C) Chloride is irrelevant to acid-base assessment always",
+        "D) Chloride changes help interpret metabolic acid-base disorders such as hyperchloremic acidosis"
+      ],
+      "answer": "D) Chloride changes help interpret metabolic acid-base disorders such as hyperchloremic acidosis",
+      "explanation": "Hyperchloremia accompanies normal-anion-gap metabolic acidosis patterns. Therefore, the most accurate choice is: Chloride changes help interpret metabolic acid-base disorders such as hyperchloremic acidosis. Electrolyte panels are integral to acid-base classification.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Electrolyte panels are integral to acid-base classification. It is less consistent than the correct choice.",
+        "D": "Hyperchloremia accompanies normal-anion-gap metabolic acidosis patterns. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:9",
+      "question": "A 45-year-old woman is reassessed after incomplete response related to bicarbonate metabolic. Which of the following is most accurate?",
+      "options": [
+        "A) Low bicarbonate suggests metabolic acidosis or compensation for respiratory alkalosis",
+        "B) Salicylate uniquely causes only metabolic alkalosis",
+        "C) Low bicarbonate always means pure respiratory acidosis",
+        "D) Metabolic alkalosis is defined by low HCO3− with acidemia"
+      ],
+      "answer": "A) Low bicarbonate suggests metabolic acidosis or compensation for respiratory alkalosis",
+      "explanation": "HCO3− falls in metabolic acidosis or as renal compensation for chronic hypocapnia. Therefore, the most accurate choice is: Low bicarbonate suggests metabolic acidosis or compensation for respiratory alkalosis. Respiratory acidosis raises PaCO2; HCO3− is not primarily low as the driver.",
+      "choice_explanations": {
+        "A": "HCO3− falls in metabolic acidosis or as renal compensation for chronic hypocapnia. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Respiratory acidosis raises PaCO2; HCO3− is not primarily low as the driver. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:10",
+      "question": "A detailed evaluation for anion gap formula is underway in a 60-year-old man. Which of the following is correct?",
+      "options": [
+        "A) Anion gap approximates K+ + Cl− − Na+ as the standard teaching formula",
+        "B) High AG acidosis is identical to hyperchloremic normal-gap acidosis",
+        "C) Anion gap approximates Na+ minus (Cl− + HCO3−) for metabolic acidosis classification",
+        "D) Normal-gap acidosis is caused by lactate accumulation as the usual definition"
+      ],
+      "answer": "C) Anion gap approximates Na+ minus (Cl− + HCO3−) for metabolic acidosis classification",
+      "explanation": "Unmeasured anions widen the gap in lactic acidosis, ketoacidosis, and toxins. Therefore, the most accurate choice is: Anion gap approximates Na+ minus (Cl− + HCO3−) for metabolic acidosis classification. The common teaching formula subtracts Cl and HCO3 from Na.",
+      "choice_explanations": {
+        "A": "The common teaching formula subtracts Cl and HCO3 from Na. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Unmeasured anions widen the gap in lactic acidosis, ketoacidosis, and toxins. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:11",
+      "question": "A 46-year-old man has findings that make high AG acidosis hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) High anion-gap metabolic acidosis includes lactate, ketoacids, and some toxins",
+        "B) Normal-gap acidosis is caused by lactate accumulation as the usual definition",
+        "C) Anion gap approximates K+ + Cl− − Na+ as the standard teaching formula",
+        "D) High AG acidosis is identical to hyperchloremic normal-gap acidosis"
+      ],
+      "answer": "A) High anion-gap metabolic acidosis includes lactate, ketoacids, and some toxins",
+      "explanation": "Added anions replace HCO3−, widening Na − (Cl+HCO3). Therefore, the most accurate choice is: High anion-gap metabolic acidosis includes lactate, ketoacids, and some toxins. Normal-gap acidosis retains Cl− rise; it is the close foil.",
+      "choice_explanations": {
+        "A": "Added anions replace HCO3−, widening Na − (Cl+HCO3). This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Normal-gap acidosis retains Cl− rise; it is the close foil. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:12",
+      "question": "Which interpretation of normal AG acidosis is most accurate?",
+      "options": [
+        "A) High AG acidosis is identical to hyperchloremic normal-gap acidosis",
+        "B) Normal-gap acidosis is caused by lactate accumulation as the usual definition",
+        "C) Normal anion-gap metabolic acidosis is often hyperchloremic from RTA or diarrhea",
+        "D) Anion gap approximates K+ + Cl− − Na+ as the standard teaching formula"
+      ],
+      "answer": "C) Normal anion-gap metabolic acidosis is often hyperchloremic from RTA or diarrhea",
+      "explanation": "HCO3− loss or impaired acid excretion with Cl− retention keeps the gap normal. Therefore, the most accurate choice is: Normal anion-gap metabolic acidosis is often hyperchloremic from RTA or diarrhea. Lactate typically widens the anion gap.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Lactate typically widens the anion gap. It is less consistent than the correct choice.",
+        "C": "HCO3− loss or impaired acid excretion with Cl− retention keeps the gap normal. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:13",
+      "question": "A 55-year-old woman returns with ongoing problems related to ABG p H. Which of the following is most accurate?",
+      "options": [
+        "A) Blood gas pH identifies acidemia below 7.35 or alkalemia above 7.45",
+        "B) pH alone always identifies the single primary process without PaCO2 and HCO3",
+        "C) Metabolic alkalosis is defined by low HCO3− with acidemia",
+        "D) Respiratory acidosis is low PaCO2 with alkalemia"
+      ],
+      "answer": "A) Blood gas pH identifies acidemia below 7.35 or alkalemia above 7.45",
+      "explanation": "pH shows net acid-base status; PaCO2 and HCO3 define respiratory versus metabolic components. Therefore, the most accurate choice is: Blood gas pH identifies acidemia below 7.35 or alkalemia above 7.45. Full interpretation needs pH plus PaCO2 and HCO3.",
+      "choice_explanations": {
+        "A": "pH shows net acid-base status; PaCO2 and HCO3 define respiratory versus metabolic components. This matches the correct interpretation.",
+        "B": "Full interpretation needs pH plus PaCO2 and HCO3. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:14",
+      "question": "Senior review is requested for respiratory acidosis in a 59-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) Respiratory acidosis is high PaCO2 with acidemia from hypoventilation",
+        "B) Respiratory acidosis is low PaCO2 with alkalemia",
+        "C) Respiratory alkalosis is high PaCO2 with acidemia",
+        "D) Metabolic alkalosis is defined by low HCO3− with acidemia"
+      ],
+      "answer": "A) Respiratory acidosis is high PaCO2 with acidemia from hypoventilation",
+      "explanation": "CO2 retention from hypoventilation raises PaCO2 and lowers pH. Therefore, the most accurate choice is: Respiratory acidosis is high PaCO2 with acidemia from hypoventilation. Low PaCO2 defines respiratory alkalosis.",
+      "choice_explanations": {
+        "A": "CO2 retention from hypoventilation raises PaCO2 and lowers pH. This matches the correct interpretation.",
+        "B": "Low PaCO2 defines respiratory alkalosis. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:15",
+      "question": "Which statement about respiratory alkalosis in a 41-year-old woman is most accurate?",
+      "options": [
+        "A) Respiratory alkalosis is high PaCO2 with acidemia",
+        "B) Respiratory alkalosis is low PaCO2 with alkalemia from hyperventilation",
+        "C) Metabolic alkalosis is defined by low HCO3− with acidemia",
+        "D) Respiratory acidosis is low PaCO2 with alkalemia"
+      ],
+      "answer": "B) Respiratory alkalosis is low PaCO2 with alkalemia from hyperventilation",
+      "explanation": "Excess CO2 elimination lowers PaCO2 and raises pH. Therefore, the most accurate choice is: Respiratory alkalosis is low PaCO2 with alkalemia from hyperventilation. High PaCO2 defines respiratory acidosis.",
+      "choice_explanations": {
+        "A": "High PaCO2 defines respiratory acidosis. It is less consistent than the correct choice.",
+        "B": "Excess CO2 elimination lowers PaCO2 and raises pH. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:16",
+      "question": "A 52-year-old man has a complex presentation of metabolic alkalosis. Which of the following is most accurate?",
+      "options": [
+        "A) Metabolic alkalosis features high HCO3− with alkalemia from vomiting or diuretics",
+        "B) Metabolic alkalosis is defined by low HCO3− with acidemia",
+        "C) Respiratory alkalosis is high PaCO2 with acidemia",
+        "D) Respiratory acidosis is low PaCO2 with alkalemia"
+      ],
+      "answer": "A) Metabolic alkalosis features high HCO3− with alkalemia from vomiting or diuretics",
+      "explanation": "Net gain of HCO3− or loss of acid raises bicarbonate and pH. Therefore, the most accurate choice is: Metabolic alkalosis features high HCO3− with alkalemia from vomiting or diuretics. Low HCO3− is metabolic acidosis.",
+      "choice_explanations": {
+        "A": "Net gain of HCO3− or loss of acid raises bicarbonate and pH. This matches the correct interpretation.",
+        "B": "Low HCO3− is metabolic acidosis. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:17",
+      "question": "A 63-year-old woman with diabetes and hypertension is reassessed after incomplete response related to plasma osmolality. Which of the following is most accurate?",
+      "options": [
+        "A) A single random glucose of 110 mg/dL alone always diagnoses diabetes",
+        "B) Plasma osmolality reflects solute concentration with Na, glucose, and urea as major contributors",
+        "C) Osmolality is identical to urine specific gravity always",
+        "D) OGTT is identical to a single fasting glucose always"
+      ],
+      "answer": "B) Plasma osmolality reflects solute concentration with Na, glucose, and urea as major contributors",
+      "explanation": "Colligative properties measure osmoles per kg water. Therefore, the most accurate choice is: Plasma osmolality reflects solute concentration with Na, glucose, and urea as major contributors. Urine SG is a different urine concentration metric.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Colligative properties measure osmoles per kg water. This matches the correct interpretation.",
+        "C": "Urine SG is a different urine concentration metric. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:18",
+      "question": "A detailed evaluation for osmolar gap is underway in a 36-year-old man. Which of the following is correct?",
+      "options": [
+        "A) Toxic alcohols never raise osmolar gap",
+        "B) Elevated osmolar gap suggests osmotically active toxins such as ethanol, methanol, or ethylene glycol",
+        "C) Ethylene glycol uniquely causes only respiratory alkalosis without gap",
+        "D) Elevated osmolar gap specifically diagnoses hyponatremia type"
+      ],
+      "answer": "B) Elevated osmolar gap suggests osmotically active toxins such as ethanol, methanol, or ethylene glycol",
+      "explanation": "Measured osmolality exceeds calculated when unmeasured osmoles are present. Therefore, the most accurate choice is: Elevated osmolar gap suggests osmotically active toxins such as ethanol, methanol, or ethylene glycol. Gap detects toxic alcohols, not hyponatremia classification itself.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Measured osmolality exceeds calculated when unmeasured osmoles are present. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Gap detects toxic alcohols, not hyponatremia classification itself. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:19",
+      "question": "A 40-year-old man has findings that make fasting glucose diabetes hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Fasting plasma glucose is used among criteria to diagnose diabetes mellitus",
+        "B) A single random glucose of 110 mg/dL alone always diagnoses diabetes",
+        "C) OGTT is identical to a single fasting glucose always",
+        "D) Osmolality is identical to urine specific gravity always"
+      ],
+      "answer": "A) Fasting plasma glucose is used among criteria to diagnose diabetes mellitus",
+      "explanation": "Chronic hyperglycemia criteria include fasting glucose, OGTT, and HbA1c thresholds. Therefore, the most accurate choice is: Fasting plasma glucose is used among criteria to diagnose diabetes mellitus. Modest random values need context; diabetes uses defined thresholds.",
+      "choice_explanations": {
+        "A": "Chronic hyperglycemia criteria include fasting glucose, OGTT, and HbA1c thresholds. This matches the correct interpretation.",
+        "B": "Modest random values need context; diabetes uses defined thresholds. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:20",
+      "question": "In a 67-year-old woman, distinguishing hb A1c meaning from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Fructosamine reflects the same 3-month window as HbA1c exactly",
+        "B) HbA1c reflects average glycemia over about 2–3 months via glycated hemoglobin",
+        "C) HbA1c reflects only the last 24 hours of diet",
+        "D) HbA1c is never affected by hemolysis or transfusion"
+      ],
+      "answer": "B) HbA1c reflects average glycemia over about 2–3 months via glycated hemoglobin",
+      "explanation": "Irreversible glycation of Hb accumulates over the RBC lifespan. Therefore, the most accurate choice is: HbA1c reflects average glycemia over about 2–3 months via glycated hemoglobin. Short-term diet changes are better seen with glucose or CGM.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Irreversible glycation of Hb accumulates over the RBC lifespan. This matches the correct interpretation.",
+        "C": "Short-term diet changes are better seen with glucose or CGM. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:21",
+      "question": "A 66-year-old man returns with ongoing problems related to hb A1c limitations. Which of the following is most accurate?",
+      "options": [
+        "A) HbA1c is never affected by hemolysis or transfusion",
+        "B) Hemolysis never changes potassium or LDH",
+        "C) Fructosamine reflects the same 3-month window as HbA1c exactly",
+        "D) Conditions altering RBC lifespan can falsely change HbA1c, such as hemolysis or transfusion"
+      ],
+      "answer": "D) Conditions altering RBC lifespan can falsely change HbA1c, such as hemolysis or transfusion",
+      "explanation": "Shorter RBC survival lowers A1c independently of mean glucose. Therefore, the most accurate choice is: Conditions altering RBC lifespan can falsely change HbA1c, such as hemolysis or transfusion. RBC turnover artifacts are important A1c interpretation foils.",
+      "choice_explanations": {
+        "A": "RBC turnover artifacts are important A1c interpretation foils. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Shorter RBC survival lowers A1c independently of mean glucose. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:22",
+      "question": "Senior review is requested for whipple hypoglycemia in a 69-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) Pseudohyponatremia means true low plasma tonicity always",
+        "B) Low albumin always proves true symptomatic hypocalcemia",
+        "C) Any low glucometer reading without symptoms always proves pathologic hypoglycemia",
+        "D) True hypoglycemia needs low glucose plus symptoms that resolve with correction"
+      ],
+      "answer": "D) True hypoglycemia needs low glucose plus symptoms that resolve with correction",
+      "explanation": "Documented low glucose linked to symptoms confirms clinically meaningful hypoglycemia. Therefore, the most accurate choice is: True hypoglycemia needs low glucose plus symptoms that resolve with correction. Asymptomatic meter errors are close foils.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Asymptomatic meter errors are close foils. It is less consistent than the correct choice.",
+        "D": "Documented low glucose linked to symptoms confirms clinically meaningful hypoglycemia. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:23",
+      "question": "Which statement about BUN elevation in a 67-year-old woman is most accurate?",
+      "options": [
+        "A) High ratio always proves intrinsic acute tubular necrosis",
+        "B) BUN rises with reduced GFR, GI bleed, high protein intake, or catabolism",
+        "C) BUN elevation is pathognomonic only for GI bleed always",
+        "D) LDH elevation is pathognomonic for only myocardial infarction"
+      ],
+      "answer": "B) BUN rises with reduced GFR, GI bleed, high protein intake, or catabolism",
+      "explanation": "Urea accumulates when filtration falls or generation rises. Therefore, the most accurate choice is: BUN rises with reduced GFR, GI bleed, high protein intake, or catabolism. Many prerenal, renal, and generation causes exist beyond GI bleed alone.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Urea accumulates when filtration falls or generation rises. This matches the correct interpretation.",
+        "C": "Many prerenal, renal, and generation causes exist beyond GI bleed alone. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:24",
+      "question": "Careful reasoning about creatinine GFR is required. Which of the following is most accurate?",
+      "options": [
+        "A) Creatinine is a perfect linear direct measure of GFR in all patients",
+        "B) Serum iron is as stable as ferritin for stores always",
+        "C) Serum creatinine inversely reflects GFR but depends on muscle mass and assay",
+        "D) Serum K+ is always lower than plasma K+ by definition"
+      ],
+      "answer": "C) Serum creatinine inversely reflects GFR but depends on muscle mass and assay",
+      "explanation": "Creatinine is filtered by glomeruli; higher levels imply lower GFR if generation is stable. Therefore, the most accurate choice is: Serum creatinine inversely reflects GFR but depends on muscle mass and assay. Muscle mass, diet, and drugs alter creatinine independent of GFR.",
+      "choice_explanations": {
+        "A": "Muscle mass, diet, and drugs alter creatinine independent of GFR. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Creatinine is filtered by glomeruli; higher levels imply lower GFR if generation is stable. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:25",
+      "question": "A 44-year-old man is reassessed after incomplete response related to BUN creatinine ratio. Which of the following is most accurate?",
+      "options": [
+        "A) High ceruloplasmin pathognomonically proves Wilson always",
+        "B) BUN elevation is pathognomonic only for GI bleed always",
+        "C) High ratio always proves intrinsic acute tubular necrosis",
+        "D) High BUN/creatinine ratio can suggest prerenal azotemia or GI bleed"
+      ],
+      "answer": "D) High BUN/creatinine ratio can suggest prerenal azotemia or GI bleed",
+      "explanation": "Urea reabsorption rises in low flow; creatinine behaves differently. Therefore, the most accurate choice is: High BUN/creatinine ratio can suggest prerenal azotemia or GI bleed. ATN often shows a lower ratio.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "ATN often shows a lower ratio. It is less consistent than the correct choice.",
+        "D": "Urea reabsorption rises in low flow; creatinine behaves differently. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:26",
+      "question": "Which of the following is the most precise statement about e GFR equations?",
+      "options": [
+        "A) eGFR is measured directly by inulin clearance in every lab panel",
+        "B) Creatinine is a perfect linear direct measure of GFR in all patients",
+        "C) Cystatin C is identical in behavior to CK-MB",
+        "D) eGFR equations estimate GFR from creatinine and sometimes cystatin C with demographics"
+      ],
+      "answer": "D) eGFR equations estimate GFR from creatinine and sometimes cystatin C with demographics",
+      "explanation": "Population equations approximate filtration from filtration markers. Therefore, the most accurate choice is: eGFR equations estimate GFR from creatinine and sometimes cystatin C with demographics. True measured GFR uses clearance methods; eGFR is an estimate.",
+      "choice_explanations": {
+        "A": "True measured GFR uses clearance methods; eGFR is an estimate. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Population equations approximate filtration from filtration markers. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:27",
+      "question": "A 32-year-old man has findings that make cystatin C hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Cystatin C is an alternative GFR marker less dependent on muscle mass than creatinine",
+        "B) Cystatin C is identical in behavior to CK-MB",
+        "C) Albuminuria is identical to hematuria always",
+        "D) Creatinine is a perfect linear direct measure of GFR in all patients"
+      ],
+      "answer": "A) Cystatin C is an alternative GFR marker less dependent on muscle mass than creatinine",
+      "explanation": "All nucleated cells produce cystatin C; levels rise as GFR falls. Therefore, the most accurate choice is: Cystatin C is an alternative GFR marker less dependent on muscle mass than creatinine. CK-MB is a cardiac injury marker, not a GFR marker.",
+      "choice_explanations": {
+        "A": "All nucleated cells produce cystatin C; levels rise as GFR falls. This matches the correct interpretation.",
+        "B": "CK-MB is a cardiac injury marker, not a GFR marker. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:28",
+      "question": "Which interpretation of AKI is most accurate?",
+      "options": [
+        "A) All pleural effusions are transudates by definition",
+        "B) AKI is defined by abrupt rise in creatinine and/or drop in urine output criteria",
+        "C) Cholestasis is isolated ALT mega-rise without ALP change as the definition",
+        "D) AKI is defined only by chronic small creatinine changes over years"
+      ],
+      "answer": "B) AKI is defined by abrupt rise in creatinine and/or drop in urine output criteria",
+      "explanation": "KDIGO-style criteria use short-term creatinine and urine output changes. Therefore, the most accurate choice is: AKI is defined by abrupt rise in creatinine and/or drop in urine output criteria. CKD is chronic GFR reduction.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "KDIGO-style criteria use short-term creatinine and urine output changes. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "CKD is chronic GFR reduction. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_chemistry:extreme:29",
+      "question": "A 67-year-old woman returns with ongoing problems related to CKD staging. Which of the following is most accurate?",
+      "options": [
+        "A) eGFR is measured directly by inulin clearance in every lab panel",
+        "B) CKD staging uses only serum sodium categories",
+        "C) CKD staging uses eGFR categories and albuminuria",
+        "D) Albuminuria is identical to hematuria always"
+      ],
+      "answer": "C) CKD staging uses eGFR categories and albuminuria",
+      "explanation": "Persistent reduced GFR and/or markers of kidney damage define and stage CKD. Therefore, the most accurate choice is: CKD staging uses eGFR categories and albuminuria. Sodium disorders are electrolyte problems, not CKD stage axes.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Sodium disorders are electrolyte problems, not CKD stage axes. It is less consistent than the correct choice.",
+        "C": "Persistent reduced GFR and/or markers of kidney damage define and stage CKD. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ]
+}

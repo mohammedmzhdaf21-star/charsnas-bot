@@ -1,0 +1,2170 @@
+{
+  "easy": [
+    {
+      "id": "oral_radiology:easy:0",
+      "question": "Which of the following is true of ALARA principle?",
+      "options": [
+        "A) Optimization means raising dose until the image is noisy always",
+        "B) ALARA means keeping radiation dose as low as reasonably achievable for diagnostic needs",
+        "C) Take full mouth series every visit without clinical indication always",
+        "D) ALARA means using maximal dose for every simple exam always"
+      ],
+      "answer": "B) ALARA means keeping radiation dose as low as reasonably achievable for diagnostic needs",
+      "explanation": "Optimize exposure while obtaining needed diagnostic yield. Therefore, the most accurate choice is: ALARA means keeping radiation dose as low as reasonably achievable for diagnostic needs. Core radiation protection principle.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Optimize exposure while obtaining needed diagnostic yield. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Core radiation protection principle. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:1",
+      "question": "Which finding is expected in bitewing primary use?",
+      "options": [
+        "A) Bitewings are best for detecting early interproximal caries and assessing crestal bone height",
+        "B) Extreme negative vertical on bitewings always ideal for maxillary crest only without mandibular view",
+        "C) Bitewings are best for third molar IAN relationship primarily",
+        "D) Panoramic images are sharper for early proximal enamel caries than bitewings always"
+      ],
+      "answer": "A) Bitewings are best for detecting early interproximal caries and assessing crestal bone height",
+      "explanation": "Parallel projection through contacts reveals proximal lesions. Therefore, the most accurate choice is: Bitewings are best for detecting early interproximal caries and assessing crestal bone height. Not ideal for full root apices.",
+      "choice_explanations": {
+        "A": "Parallel projection through contacts reveals proximal lesions. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Not ideal for full root apices. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:2",
+      "question": "In basic pharmacology, which of the following is true of periapical primary use?",
+      "options": [
+        "A) Periapicals cannot show apices by definition",
+        "B) Cementoblastoma is identical to condensing osteitis of necrosis always without root attachment continuity",
+        "C) Periapical radiographs show the entire tooth and periapical bone for endodontic diagnosis",
+        "D) Dentigerous cysts form only around erupted root apices like periapical cysts of necrosis always"
+      ],
+      "answer": "C) Periapical radiographs show the entire tooth and periapical bone for endodontic diagnosis",
+      "explanation": "Image receptor captures crown-root-periapex continuum. Therefore, the most accurate choice is: Periapical radiographs show the entire tooth and periapical bone for endodontic diagnosis. Complement bitewings.",
+      "choice_explanations": {
+        "A": "Complement bitewings. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Image receptor captures crown-root-periapex continuum. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:3",
+      "question": "In panoramic use, which of the following is correct?",
+      "options": [
+        "A) Panoramic images survey jaws, sinuses, and TMJs broadly with less fine detail than intraorals",
+        "B) Bitewings detect all early occlusal enamel caries easily always",
+        "C) Bitewings are best for third molar IAN relationship primarily",
+        "D) Panoramic images are sharper for early proximal enamel caries than bitewings always"
+      ],
+      "answer": "A) Panoramic images survey jaws, sinuses, and TMJs broadly with less fine detail than intraorals",
+      "explanation": "Tomographic broad view trades detail for coverage. Therefore, the most accurate choice is: Panoramic images survey jaws, sinuses, and TMJs broadly with less fine detail than intraorals. Screening and surgical planning adjunct.",
+      "choice_explanations": {
+        "A": "Tomographic broad view trades detail for coverage. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Screening and surgical planning adjunct. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:4",
+      "question": "Select the correct statement regarding occlusal radiograph use.",
+      "options": [
+        "A) Extreme negative vertical on bitewings always ideal for maxillary crest only without mandibular view",
+        "B) Occlusal radiographs help localize objects or supernumeraries and view wider jaw segments",
+        "C) A single occlusal film always suffices for all implant planning without exception",
+        "D) Occlusal films are only for bitewing contacts of molars"
+      ],
+      "answer": "B) Occlusal radiographs help localize objects or supernumeraries and view wider jaw segments",
+      "explanation": "Larger intraoral receptors capture cross-sectional jaw views. Therefore, the most accurate choice is: Occlusal radiographs help localize objects or supernumeraries and view wider jaw segments. Localization and pathology mapping.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Larger intraoral receptors capture cross-sectional jaw views. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Localization and pathology mapping. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:5",
+      "question": "Which of the following applies to paralleling technique?",
+      "options": [
+        "A) Paralleling intentionally angles severely to foreshorten as the goal",
+        "B) Hold the receptor in the patient mouth during exposure as operator always",
+        "C) Paralleling places receptor parallel to tooth long axis with beam perpendicular for minimal distortion",
+        "D) Bisecting always more accurate than paralleling without exception"
+      ],
+      "answer": "C) Paralleling places receptor parallel to tooth long axis with beam perpendicular for minimal distortion",
+      "explanation": "Geometry reduces magnification and distortion. Therefore, the most accurate choice is: Paralleling places receptor parallel to tooth long axis with beam perpendicular for minimal distortion. Preferred intraoral technique when feasible.",
+      "choice_explanations": {
+        "A": "Preferred intraoral technique when feasible. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Geometry reduces magnification and distortion. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:6",
+      "question": "Which explanation of bisecting angle technique is correct?",
+      "options": [
+        "A) Bisecting aims the beam perpendicular to the angle bisector between tooth and receptor",
+        "B) Paralleling intentionally angles severely to foreshorten as the goal",
+        "C) Bisecting always more accurate than paralleling without exception",
+        "D) Holders always worsen angulation errors"
+      ],
+      "answer": "A) Bisecting aims the beam perpendicular to the angle bisector between tooth and receptor",
+      "explanation": "Compromise geometry when paralleling is difficult. Therefore, the most accurate choice is: Bisecting aims the beam perpendicular to the angle bisector between tooth and receptor. More distortion risk than paralleling.",
+      "choice_explanations": {
+        "A": "Compromise geometry when paralleling is difficult. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "More distortion risk than paralleling. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:7",
+      "question": "Which of the following applies to foreshortening cause?",
+      "options": [
+        "A) Elongation is from excessive vertical angulation",
+        "B) Overlap is caused only by vertical angulation errors",
+        "C) Foreshortening is caused only by too little vertical angulation",
+        "D) Excessive vertical angulation foreshortens the tooth image"
+      ],
+      "answer": "D) Excessive vertical angulation foreshortens the tooth image",
+      "explanation": "Steep vertical angle shrinks apparent length. Therefore, the most accurate choice is: Excessive vertical angulation foreshortens the tooth image. Elongation is from insufficient vertical angulation.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Elongation is from insufficient vertical angulation. It is less consistent than the correct choice.",
+        "D": "Steep vertical angle shrinks apparent length. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:8",
+      "question": "Which of the following is true of elongation cause?",
+      "options": [
+        "A) Extreme negative vertical on bitewings always ideal for maxillary crest only without mandibular view",
+        "B) Foreshortening is caused only by too little vertical angulation",
+        "C) Insufficient vertical angulation elongates the tooth image",
+        "D) Elongation is from excessive vertical angulation"
+      ],
+      "answer": "C) Insufficient vertical angulation elongates the tooth image",
+      "explanation": "Flat vertical angle stretches apparent length. Therefore, the most accurate choice is: Insufficient vertical angulation elongates the tooth image. Opposite of foreshortening.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Flat vertical angle stretches apparent length. This matches the correct interpretation.",
+        "D": "Opposite of foreshortening. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:9",
+      "question": "Which finding is expected in horizontal overlap?",
+      "options": [
+        "A) Extreme negative vertical on bitewings always ideal for maxillary crest only without mandibular view",
+        "B) Incorrect horizontal angulation overlaps proximal surfaces",
+        "C) Overlap is caused only by vertical angulation errors",
+        "D) Foreshortening is caused only by too little vertical angulation"
+      ],
+      "answer": "B) Incorrect horizontal angulation overlaps proximal surfaces",
+      "explanation": "X-ray beam must open contacts parallel to interproximal walls. Therefore, the most accurate choice is: Incorrect horizontal angulation overlaps proximal surfaces. Critical for bitewing caries diagnosis.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "X-ray beam must open contacts parallel to interproximal walls. This matches the correct interpretation.",
+        "C": "Critical for bitewing caries diagnosis. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:10",
+      "question": "In basic pharmacology, which of the following is true of cone cut?",
+      "options": [
+        "A) Cone cutting occurs when the beam misses part of the receptor leaving a clear unexposed area",
+        "B) Cone cut means the patient moved during panoramic only by definition",
+        "C) Hold the receptor in the patient mouth during exposure as operator always",
+        "D) XCP means panoramic focal trough only"
+      ],
+      "answer": "A) Cone cutting occurs when the beam misses part of the receptor leaving a clear unexposed area",
+      "explanation": "PID must cover the receptor fully. Therefore, the most accurate choice is: Cone cutting occurs when the beam misses part of the receptor leaving a clear unexposed area. Aiming error.",
+      "choice_explanations": {
+        "A": "PID must cover the receptor fully. This matches the correct interpretation.",
+        "B": "Aiming error. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:11",
+      "question": "In inverse square law, which of the following is correct?",
+      "options": [
+        "A) Intensity is inversely proportional to the square of distance from the source",
+        "B) Rectangular collimation increases dose versus round always",
+        "C) Intensity rises as the square of distance increases",
+        "D) Filtration adds soft photons to increase skin dose intentionally"
+      ],
+      "answer": "A) Intensity is inversely proportional to the square of distance from the source",
+      "explanation": "Spreading of photons over area reduces intensity with distance. Therefore, the most accurate choice is: Intensity is inversely proportional to the square of distance from the source. Positioning affects dose and image density.",
+      "choice_explanations": {
+        "A": "Spreading of photons over area reduces intensity with distance. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Positioning affects dose and image density. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:12",
+      "question": "Which of the following best describes k Vp effect?",
+      "options": [
+        "A) Higher kVp increases beam energy and penetrating power and affects contrast",
+        "B) Grids always lower patient dose without trade-off",
+        "C) mAs controls only beam energy kVp identically",
+        "D) kVp only changes number of electrons without energy effect"
+      ],
+      "answer": "A) Higher kVp increases beam energy and penetrating power and affects contrast",
+      "explanation": "Tube voltage sets photon energy spectrum. Therefore, the most accurate choice is: Higher kVp increases beam energy and penetrating power and affects contrast. Contrast and exposure related to kVp.",
+      "choice_explanations": {
+        "A": "Tube voltage sets photon energy spectrum. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Contrast and exposure related to kVp. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:13",
+      "question": "Which of the following applies to m A and time?",
+      "options": [
+        "A) mAs controls only beam energy kVp identically",
+        "B) Filtration adds soft photons to increase skin dose intentionally",
+        "C) kVp only changes number of electrons without energy effect",
+        "D) mA and exposure time control quantity of x-rays (mAs) affecting image density"
+      ],
+      "answer": "D) mA and exposure time control quantity of x-rays (mAs) affecting image density",
+      "explanation": "More photons increase receptor exposure. Therefore, the most accurate choice is: mA and exposure time control quantity of x-rays (mAs) affecting image density. Density control primarily via mAs.",
+      "choice_explanations": {
+        "A": "Density control primarily via mAs. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "More photons increase receptor exposure. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:14",
+      "question": "Which of the following applies to collimation benefit?",
+      "options": [
+        "A) Rectangular collimation increases dose versus round always",
+        "B) Wider uncollimated beams always reduce dose",
+        "C) Collimation restricts beam size reducing scatter and patient dose",
+        "D) Grids always lower patient dose without trade-off"
+      ],
+      "answer": "C) Collimation restricts beam size reducing scatter and patient dose",
+      "explanation": "Lead collimators shape the useful beam. Therefore, the most accurate choice is: Collimation restricts beam size reducing scatter and patient dose. Rectangular collimation preferred in dentistry often.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Rectangular collimation preferred in dentistry often. It is less consistent than the correct choice.",
+        "C": "Lead collimators shape the useful beam. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:15",
+      "question": "Which of the following applies to filtration purpose?",
+      "options": [
+        "A) Aluminum filtration removes low-energy photons that would only increase patient dose",
+        "B) Wider uncollimated beams always reduce dose",
+        "C) Filtration adds soft photons to increase skin dose intentionally",
+        "D) Scatter improves sharpness always"
+      ],
+      "answer": "A) Aluminum filtration removes low-energy photons that would only increase patient dose",
+      "explanation": "Hardening the beam improves dose efficiency. Therefore, the most accurate choice is: Aluminum filtration removes low-energy photons that would only increase patient dose. Inherent plus added filtration standards.",
+      "choice_explanations": {
+        "A": "Hardening the beam improves dose efficiency. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Inherent plus added filtration standards. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:16",
+      "question": "Which of the following best defines rectangular collimation?",
+      "options": [
+        "A) Rectangular collimation increases dose versus round always",
+        "B) Wider uncollimated beams always reduce dose",
+        "C) Children should receive adult exposure settings always",
+        "D) Rectangular collimation approximates receptor shape reducing unnecessary tissue exposure versus round cones"
+      ],
+      "answer": "D) Rectangular collimation approximates receptor shape reducing unnecessary tissue exposure versus round cones",
+      "explanation": "Less peripheral tissue irradiated. Therefore, the most accurate choice is: Rectangular collimation approximates receptor shape reducing unnecessary tissue exposure versus round cones. Dose-reduction recommendation.",
+      "choice_explanations": {
+        "A": "Dose-reduction recommendation. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Less peripheral tissue irradiated. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:17",
+      "question": "Which finding matches thyroid collar?",
+      "options": [
+        "A) Grids always lower patient dose without trade-off",
+        "B) Thyroid collars protect the thyroid during intraoral radiography when they do not interfere with the image",
+        "C) Thyroid collars are forbidden for all dental x-rays without exception in all techniques",
+        "D) Radiolucent means white or opaque on the image always"
+      ],
+      "answer": "B) Thyroid collars protect the thyroid during intraoral radiography when they do not interfere with the image",
+      "explanation": "Lead apron or collar attenuates exposure to the gland. Therefore, the most accurate choice is: Thyroid collars protect the thyroid during intraoral radiography when they do not interfere with the image. Use when feasible especially for children.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Lead apron or collar attenuates exposure to the gland. This matches the correct interpretation.",
+        "C": "Use when feasible especially for children. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:18",
+      "question": "Which statement regarding lead apron is correct?",
+      "options": [
+        "A) Rectangular collimation increases dose versus round always",
+        "B) Lead or lead-equivalent aprons reduce scatter to the trunk when used per guidelines",
+        "C) Wider uncollimated beams always reduce dose",
+        "D) Aprons replace the need for collimation and justification"
+      ],
+      "answer": "B) Lead or lead-equivalent aprons reduce scatter to the trunk when used per guidelines",
+      "explanation": "Attenuating garments protect against unnecessary exposure. Therefore, the most accurate choice is: Lead or lead-equivalent aprons reduce scatter to the trunk when used per guidelines. Technique optimization still primary.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Attenuating garments protect against unnecessary exposure. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Technique optimization still primary. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:19",
+      "question": "In digital versus film dose, which of the following is correct?",
+      "options": [
+        "A) Grids always lower patient dose without trade-off",
+        "B) Digital always uses higher dose than any film without exception",
+        "C) A single occlusal film always suffices for all implant planning without exception",
+        "D) Digital systems often allow lower dose than D-speed film when optimized"
+      ],
+      "answer": "D) Digital systems often allow lower dose than D-speed film when optimized",
+      "explanation": "Higher quantum efficiency can reduce exposure. Therefore, the most accurate choice is: Digital systems often allow lower dose than D-speed film when optimized. Still justify and optimize each exposure.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Still justify and optimize each exposure. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Higher quantum efficiency can reduce exposure. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:20",
+      "question": "Which of the following best describes PSP plates?",
+      "options": [
+        "A) Solid-state sensors are flexible like PSP always",
+        "B) Photostimulable phosphor plates store latent image read by laser scanners",
+        "C) Radiopaque means dark like air always",
+        "D) PSP plates are CMOS sensors with immediate wired display always by identity"
+      ],
+      "answer": "B) Photostimulable phosphor plates store latent image read by laser scanners",
+      "explanation": "Latent energy released as light during scanning forms the digital image. Therefore, the most accurate choice is: Photostimulable phosphor plates store latent image read by laser scanners. Indirect digital system.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Latent energy released as light during scanning forms the digital image. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Indirect digital system. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:21",
+      "question": "Select the correct interpretation for solid-state sensors.",
+      "options": [
+        "A) Digital always uses higher dose than any film without exception",
+        "B) Solid-state sensors are flexible like PSP always",
+        "C) PSP plates are CMOS sensors with immediate wired display always by identity",
+        "D) CCD or CMOS sensors provide immediate image capture with a rigid detector"
+      ],
+      "answer": "D) CCD or CMOS sensors provide immediate image capture with a rigid detector",
+      "explanation": "Direct digital conversion of x-ray energy to electronic signal. Therefore, the most accurate choice is: CCD or CMOS sensors provide immediate image capture with a rigid detector. Bulky rigidity can challenge placement.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Bulky rigidity can challenge placement. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Direct digital conversion of x-ray energy to electronic signal. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:22",
+      "question": "Which of the following applies to radiolucent?",
+      "options": [
+        "A) All histologic enamel caries are always visible on bitewings without threshold",
+        "B) Radiopaque means dark like air always",
+        "C) Radiolucent means white or opaque on the image always",
+        "D) Radiolucent structures appear dark because they attenuate fewer x-rays"
+      ],
+      "answer": "D) Radiolucent structures appear dark because they attenuate fewer x-rays",
+      "explanation": "Less attenuating materials appear darker. Therefore, the most accurate choice is: Radiolucent structures appear dark because they attenuate fewer x-rays. Dark areas equal less attenuating materials.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Dark areas equal less attenuating materials. It is less consistent than the correct choice.",
+        "D": "Less attenuating materials appear darker. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:23",
+      "question": "Which statement about radiopaque is accurate?",
+      "options": [
+        "A) Dentin is more radiopaque than enamel always",
+        "B) Radiolucent means white or opaque on the image always",
+        "C) Radiopaque structures appear light because they attenuate more x-rays",
+        "D) Radiopaque means dark like air always"
+      ],
+      "answer": "C) Radiopaque structures appear light because they attenuate more x-rays",
+      "explanation": "Dense mineral and metal block photons. Therefore, the most accurate choice is: Radiopaque structures appear light because they attenuate more x-rays. Enamel and amalgam are radiopaque.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Dense mineral and metal block photons. This matches the correct interpretation.",
+        "D": "Enamel and amalgam are radiopaque. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:24",
+      "question": "Which of the following is true of enamel vs dentin radiopacity?",
+      "options": [
+        "A) Dentin is more radiopaque than enamel always",
+        "B) Radiopaque means dark like air always",
+        "C) Enamel is more radiopaque than dentin because of higher mineral content",
+        "D) All histologic enamel caries are always visible on bitewings without threshold"
+      ],
+      "answer": "C) Enamel is more radiopaque than dentin because of higher mineral content",
+      "explanation": "Mineral density drives attenuation. Therefore, the most accurate choice is: Enamel is more radiopaque than dentin because of higher mineral content. Contrast outlines pulp chambers.",
+      "choice_explanations": {
+        "A": "Contrast outlines pulp chambers. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Mineral density drives attenuation. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:25",
+      "question": "Which finding matches caries radiographic detection?",
+      "options": [
+        "A) All histologic enamel caries are always visible on bitewings without threshold",
+        "B) Enamel pearls are radiolucent caries",
+        "C) Bitewings detect all early occlusal enamel caries easily always",
+        "D) Interproximal caries appear as radiolucent notches in enamel or dentin on bitewings when sufficiently advanced"
+      ],
+      "answer": "D) Interproximal caries appear as radiolucent notches in enamel or dentin on bitewings when sufficiently advanced",
+      "explanation": "Demineralization reduces attenuation. Therefore, the most accurate choice is: Interproximal caries appear as radiolucent notches in enamel or dentin on bitewings when sufficiently advanced. Early lesions may be missed radiographically.",
+      "choice_explanations": {
+        "A": "Early lesions may be missed radiographically. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Demineralization reduces attenuation. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:26",
+      "question": "Which of the following statements about cervical burnout is correct?",
+      "options": [
+        "A) Cervical burnout is a radiolucent optical phenomenon at the neck of the tooth that can mimic caries",
+        "B) Cementoblastoma is identical to condensing osteitis of necrosis always without root attachment continuity",
+        "C) Cervical burnout is always true root caries requiring restoration without clinical check",
+        "D) Extreme enhancement always reveals true histology without error"
+      ],
+      "answer": "A) Cervical burnout is a radiolucent optical phenomenon at the neck of the tooth that can mimic caries",
+      "explanation": "X-ray geometry and anatomy create cervical radiolucent artifacts. Therefore, the most accurate choice is: Cervical burnout is a radiolucent optical phenomenon at the neck of the tooth that can mimic caries. Differentiate clinically from true caries.",
+      "choice_explanations": {
+        "A": "X-ray geometry and anatomy create cervical radiolucent artifacts. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Differentiate clinically from true caries. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:27",
+      "question": "In mach band effect, which of the following is correct?",
+      "options": [
+        "A) Mach bands are perceptual contrast illusions at boundaries that can mimic cracks or caries",
+        "B) All histologic enamel caries are always visible on bitewings without threshold",
+        "C) Cervical burnout is always true root caries requiring restoration without clinical check",
+        "D) Mach bands are real fractures always"
+      ],
+      "answer": "A) Mach bands are perceptual contrast illusions at boundaries that can mimic cracks or caries",
+      "explanation": "Lateral inhibition in visual perception exaggerates edges. Therefore, the most accurate choice is: Mach bands are perceptual contrast illusions at boundaries that can mimic cracks or caries. Correlate with clinical findings.",
+      "choice_explanations": {
+        "A": "Lateral inhibition in visual perception exaggerates edges. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Correlate with clinical findings. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:28",
+      "question": "Which of the following best describes periapical radiolucency?",
+      "options": [
+        "A) Dentigerous cysts form only around erupted root apices like periapical cysts of necrosis always",
+        "B) All periapical radiolucencies are healthy marrow without disease",
+        "C) Any lamina discontinuity mandates extraction same day without tests",
+        "D) Periapical radiolucency may represent granuloma, cyst, or abscess related to pulp necrosis commonly"
+      ],
+      "answer": "D) Periapical radiolucency may represent granuloma, cyst, or abscess related to pulp necrosis commonly",
+      "explanation": "Bone loss at apex from inflammatory mediators of canal infection. Therefore, the most accurate choice is: Periapical radiolucency may represent granuloma, cyst, or abscess related to pulp necrosis commonly. Combine with vitality testing.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Combine with vitality testing. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Bone loss at apex from inflammatory mediators of canal infection. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:easy:29",
+      "question": "Select the correct statement about condensing osteitis.",
+      "options": [
+        "A) Condensing osteitis is air in the maxillary sinus",
+        "B) Cementoblastoma is identical to condensing osteitis of necrosis always without root attachment continuity",
+        "C) Cancellous bone is more radiopaque than cortical always",
+        "D) Condensing osteitis is a radiopaque apical response sometimes to long-standing pulpitis or necrosis"
+      ],
+      "answer": "D) Condensing osteitis is a radiopaque apical response sometimes to long-standing pulpitis or necrosis",
+      "explanation": "Chronic low-grade stimulus induces dense bone. Therefore, the most accurate choice is: Condensing osteitis is a radiopaque apical response sometimes to long-standing pulpitis or necrosis. Assess pulp status.",
+      "choice_explanations": {
+        "A": "Assess pulp status. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Chronic low-grade stimulus induces dense bone. This matches the correct interpretation."
+      }
+    }
+  ],
+  "medium": [
+    {
+      "id": "oral_radiology:medium:0",
+      "question": "A 53-year-old man presents for dental care with findings of ALARA principle. Which of the following is correct?",
+      "options": [
+        "A) Take full mouth series every visit without clinical indication always",
+        "B) Optimization means raising dose until the image is noisy always",
+        "C) ALARA means using maximal dose for every simple exam always",
+        "D) ALARA means keeping radiation dose as low as reasonably achievable for diagnostic needs"
+      ],
+      "answer": "D) ALARA means keeping radiation dose as low as reasonably achievable for diagnostic needs",
+      "explanation": "Optimize exposure while obtaining needed diagnostic yield. Therefore, the most accurate choice is: ALARA means keeping radiation dose as low as reasonably achievable for diagnostic needs. Core radiation protection principle.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Core radiation protection principle. It is less consistent than the correct choice.",
+        "D": "Optimize exposure while obtaining needed diagnostic yield. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:1",
+      "question": "A 27-year-old man reports dental pain. Exam suggests bitewing primary use. Which of the following is most accurate?",
+      "options": [
+        "A) Panoramic images are sharper for early proximal enamel caries than bitewings always",
+        "B) Bitewings are best for third molar IAN relationship primarily",
+        "C) Ultrasound is best for early interproximal enamel caries",
+        "D) Bitewings are best for detecting early interproximal caries and assessing crestal bone height"
+      ],
+      "answer": "D) Bitewings are best for detecting early interproximal caries and assessing crestal bone height",
+      "explanation": "Parallel projection through contacts reveals proximal lesions. Therefore, the most accurate choice is: Bitewings are best for detecting early interproximal caries and assessing crestal bone height. Not ideal for full root apices.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Not ideal for full root apices. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Parallel projection through contacts reveals proximal lesions. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:2",
+      "question": "Which of the following correctly describes periapical primary use?",
+      "options": [
+        "A) Periapical radiographs show the entire tooth and periapical bone for endodontic diagnosis",
+        "B) Periapicals cannot show apices by definition",
+        "C) Dentigerous cysts form only around erupted root apices like periapical cysts of necrosis always",
+        "D) Cervical burnout is always true root caries requiring restoration without clinical check"
+      ],
+      "answer": "A) Periapical radiographs show the entire tooth and periapical bone for endodontic diagnosis",
+      "explanation": "Image receptor captures crown-root-periapex continuum. Therefore, the most accurate choice is: Periapical radiographs show the entire tooth and periapical bone for endodontic diagnosis. Complement bitewings.",
+      "choice_explanations": {
+        "A": "Image receptor captures crown-root-periapex continuum. This matches the correct interpretation.",
+        "B": "Complement bitewings. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:3",
+      "question": "A 32-year-old woman is examined for panoramic use. Which of the following is most likely?",
+      "options": [
+        "A) Bitewings are best for third molar IAN relationship primarily",
+        "B) Bitewings detect all early occlusal enamel caries easily always",
+        "C) Panoramic images survey jaws, sinuses, and TMJs broadly with less fine detail than intraorals",
+        "D) Panoramic images are sharper for early proximal enamel caries than bitewings always"
+      ],
+      "answer": "C) Panoramic images survey jaws, sinuses, and TMJs broadly with less fine detail than intraorals",
+      "explanation": "Tomographic broad view trades detail for coverage. Therefore, the most accurate choice is: Panoramic images survey jaws, sinuses, and TMJs broadly with less fine detail than intraorals. Screening and surgical planning adjunct.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Tomographic broad view trades detail for coverage. This matches the correct interpretation.",
+        "D": "Screening and surgical planning adjunct. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:4",
+      "question": "Regarding occlusal radiograph use, which of the following is correct?",
+      "options": [
+        "A) Extreme negative vertical on bitewings always ideal for maxillary crest only without mandibular view",
+        "B) A single occlusal film always suffices for all implant planning without exception",
+        "C) Occlusal radiographs help localize objects or supernumeraries and view wider jaw segments",
+        "D) Occlusal films are only for bitewing contacts of molars"
+      ],
+      "answer": "C) Occlusal radiographs help localize objects or supernumeraries and view wider jaw segments",
+      "explanation": "Larger intraoral receptors capture cross-sectional jaw views. Therefore, the most accurate choice is: Occlusal radiographs help localize objects or supernumeraries and view wider jaw segments. Localization and pathology mapping.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Larger intraoral receptors capture cross-sectional jaw views. This matches the correct interpretation.",
+        "D": "Localization and pathology mapping. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:5",
+      "question": "Which explanation of paralleling technique is most accurate?",
+      "options": [
+        "A) Hold the receptor in the patient mouth during exposure as operator always",
+        "B) Paralleling intentionally angles severely to foreshorten as the goal",
+        "C) Bisecting always more accurate than paralleling without exception",
+        "D) Paralleling places receptor parallel to tooth long axis with beam perpendicular for minimal distortion"
+      ],
+      "answer": "D) Paralleling places receptor parallel to tooth long axis with beam perpendicular for minimal distortion",
+      "explanation": "Geometry reduces magnification and distortion. Therefore, the most accurate choice is: Paralleling places receptor parallel to tooth long axis with beam perpendicular for minimal distortion. Preferred intraoral technique when feasible.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Preferred intraoral technique when feasible. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Geometry reduces magnification and distortion. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:6",
+      "question": "Which of the following applies to bisecting angle technique in standard therapeutics?",
+      "options": [
+        "A) Bisecting always more accurate than paralleling without exception",
+        "B) Holders always worsen angulation errors",
+        "C) Paralleling intentionally angles severely to foreshorten as the goal",
+        "D) Bisecting aims the beam perpendicular to the angle bisector between tooth and receptor"
+      ],
+      "answer": "D) Bisecting aims the beam perpendicular to the angle bisector between tooth and receptor",
+      "explanation": "Compromise geometry when paralleling is difficult. Therefore, the most accurate choice is: Bisecting aims the beam perpendicular to the angle bisector between tooth and receptor. More distortion risk than paralleling.",
+      "choice_explanations": {
+        "A": "More distortion risk than paralleling. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Compromise geometry when paralleling is difficult. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:7",
+      "question": "A 23-year-old man has oral findings of foreshortening cause. Which of the following is most accurate?",
+      "options": [
+        "A) Foreshortening is caused only by too little vertical angulation",
+        "B) Overlap is caused only by vertical angulation errors",
+        "C) Excessive vertical angulation foreshortens the tooth image",
+        "D) Elongation is from excessive vertical angulation"
+      ],
+      "answer": "C) Excessive vertical angulation foreshortens the tooth image",
+      "explanation": "Steep vertical angle shrinks apparent length. Therefore, the most accurate choice is: Excessive vertical angulation foreshortens the tooth image. Elongation is from insufficient vertical angulation.",
+      "choice_explanations": {
+        "A": "Elongation is from insufficient vertical angulation. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Steep vertical angle shrinks apparent length. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:8",
+      "question": "A 38-year-old woman presents for dental care with findings of elongation cause. Which of the following is correct?",
+      "options": [
+        "A) Elongation is from excessive vertical angulation",
+        "B) Insufficient vertical angulation elongates the tooth image",
+        "C) Extreme negative vertical on bitewings always ideal for maxillary crest only without mandibular view",
+        "D) Foreshortening is caused only by too little vertical angulation"
+      ],
+      "answer": "B) Insufficient vertical angulation elongates the tooth image",
+      "explanation": "Flat vertical angle stretches apparent length. Therefore, the most accurate choice is: Insufficient vertical angulation elongates the tooth image. Opposite of foreshortening.",
+      "choice_explanations": {
+        "A": "Opposite of foreshortening. It is less consistent than the correct choice.",
+        "B": "Flat vertical angle stretches apparent length. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:9",
+      "question": "A 41-year-old man reports dental pain. Exam suggests horizontal overlap. Which of the following is most accurate?",
+      "options": [
+        "A) Extreme negative vertical on bitewings always ideal for maxillary crest only without mandibular view",
+        "B) Overlap is caused only by vertical angulation errors",
+        "C) Foreshortening is caused only by too little vertical angulation",
+        "D) Incorrect horizontal angulation overlaps proximal surfaces"
+      ],
+      "answer": "D) Incorrect horizontal angulation overlaps proximal surfaces",
+      "explanation": "X-ray beam must open contacts parallel to interproximal walls. Therefore, the most accurate choice is: Incorrect horizontal angulation overlaps proximal surfaces. Critical for bitewing caries diagnosis.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Critical for bitewing caries diagnosis. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "X-ray beam must open contacts parallel to interproximal walls. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:10",
+      "question": "Which of the following correctly describes cone cut?",
+      "options": [
+        "A) Hold the receptor in the patient mouth during exposure as operator always",
+        "B) XCP means panoramic focal trough only",
+        "C) Cone cut means the patient moved during panoramic only by definition",
+        "D) Cone cutting occurs when the beam misses part of the receptor leaving a clear unexposed area"
+      ],
+      "answer": "D) Cone cutting occurs when the beam misses part of the receptor leaving a clear unexposed area",
+      "explanation": "PID must cover the receptor fully. Therefore, the most accurate choice is: Cone cutting occurs when the beam misses part of the receptor leaving a clear unexposed area. Aiming error.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Aiming error. It is less consistent than the correct choice.",
+        "D": "PID must cover the receptor fully. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:11",
+      "question": "A 55-year-old man is examined for inverse square law. Which of the following is most likely?",
+      "options": [
+        "A) Rectangular collimation increases dose versus round always",
+        "B) Filtration adds soft photons to increase skin dose intentionally",
+        "C) Intensity is inversely proportional to the square of distance from the source",
+        "D) Intensity rises as the square of distance increases"
+      ],
+      "answer": "C) Intensity is inversely proportional to the square of distance from the source",
+      "explanation": "Spreading of photons over area reduces intensity with distance. Therefore, the most accurate choice is: Intensity is inversely proportional to the square of distance from the source. Positioning affects dose and image density.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Spreading of photons over area reduces intensity with distance. This matches the correct interpretation.",
+        "D": "Positioning affects dose and image density. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:12",
+      "question": "A dental exam raises concern for k Vp effect. Which of the following is correct?",
+      "options": [
+        "A) Extreme negative vertical on bitewings always ideal for maxillary crest only without mandibular view",
+        "B) kVp only changes number of electrons without energy effect",
+        "C) Higher kVp increases beam energy and penetrating power and affects contrast",
+        "D) mAs controls only beam energy kVp identically"
+      ],
+      "answer": "C) Higher kVp increases beam energy and penetrating power and affects contrast",
+      "explanation": "Tube voltage sets photon energy spectrum. Therefore, the most accurate choice is: Higher kVp increases beam energy and penetrating power and affects contrast. Contrast and exposure related to kVp.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Contrast and exposure related to kVp. It is less consistent than the correct choice.",
+        "C": "Tube voltage sets photon energy spectrum. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:13",
+      "question": "Which explanation of m A and time is most accurate?",
+      "options": [
+        "A) mA and exposure time control quantity of x-rays (mAs) affecting image density",
+        "B) Filtration adds soft photons to increase skin dose intentionally",
+        "C) kVp only changes number of electrons without energy effect",
+        "D) mAs controls only beam energy kVp identically"
+      ],
+      "answer": "A) mA and exposure time control quantity of x-rays (mAs) affecting image density",
+      "explanation": "More photons increase receptor exposure. Therefore, the most accurate choice is: mA and exposure time control quantity of x-rays (mAs) affecting image density. Density control primarily via mAs.",
+      "choice_explanations": {
+        "A": "More photons increase receptor exposure. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Density control primarily via mAs. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:14",
+      "question": "Exam findings raise a question about collimation benefit. Which of the following is correct?",
+      "options": [
+        "A) Collimation restricts beam size reducing scatter and patient dose",
+        "B) Grids always lower patient dose without trade-off",
+        "C) Wider uncollimated beams always reduce dose",
+        "D) Rectangular collimation increases dose versus round always"
+      ],
+      "answer": "A) Collimation restricts beam size reducing scatter and patient dose",
+      "explanation": "Lead collimators shape the useful beam. Therefore, the most accurate choice is: Collimation restricts beam size reducing scatter and patient dose. Rectangular collimation preferred in dentistry often.",
+      "choice_explanations": {
+        "A": "Lead collimators shape the useful beam. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Rectangular collimation preferred in dentistry often. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:15",
+      "question": "A 37-year-old man has oral findings of filtration purpose. Which of the following is most accurate?",
+      "options": [
+        "A) Wider uncollimated beams always reduce dose",
+        "B) Aluminum filtration removes low-energy photons that would only increase patient dose",
+        "C) Scatter improves sharpness always",
+        "D) Filtration adds soft photons to increase skin dose intentionally"
+      ],
+      "answer": "B) Aluminum filtration removes low-energy photons that would only increase patient dose",
+      "explanation": "Hardening the beam improves dose efficiency. Therefore, the most accurate choice is: Aluminum filtration removes low-energy photons that would only increase patient dose. Inherent plus added filtration standards.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Hardening the beam improves dose efficiency. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Inherent plus added filtration standards. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:16",
+      "question": "Which of the following correctly describes rectangular collimation in clinical use?",
+      "options": [
+        "A) Wider uncollimated beams always reduce dose",
+        "B) Rectangular collimation increases dose versus round always",
+        "C) Children should receive adult exposure settings always",
+        "D) Rectangular collimation approximates receptor shape reducing unnecessary tissue exposure versus round cones"
+      ],
+      "answer": "D) Rectangular collimation approximates receptor shape reducing unnecessary tissue exposure versus round cones",
+      "explanation": "Less peripheral tissue irradiated. Therefore, the most accurate choice is: Rectangular collimation approximates receptor shape reducing unnecessary tissue exposure versus round cones. Dose-reduction recommendation.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Dose-reduction recommendation. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Less peripheral tissue irradiated. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:17",
+      "question": "While evaluating a 59-year-old man, attention turns to thyroid collar. Which of the following is most accurate?",
+      "options": [
+        "A) Grids always lower patient dose without trade-off",
+        "B) Thyroid collars protect the thyroid during intraoral radiography when they do not interfere with the image",
+        "C) Radiolucent means white or opaque on the image always",
+        "D) Thyroid collars are forbidden for all dental x-rays without exception in all techniques"
+      ],
+      "answer": "B) Thyroid collars protect the thyroid during intraoral radiography when they do not interfere with the image",
+      "explanation": "Lead apron or collar attenuates exposure to the gland. Therefore, the most accurate choice is: Thyroid collars protect the thyroid during intraoral radiography when they do not interfere with the image. Use when feasible especially for children.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Lead apron or collar attenuates exposure to the gland. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Use when feasible especially for children. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:18",
+      "question": "A 28-year-old woman has findings requiring interpretation of lead apron. Which of the following is correct?",
+      "options": [
+        "A) Lead or lead-equivalent aprons reduce scatter to the trunk when used per guidelines",
+        "B) Rectangular collimation increases dose versus round always",
+        "C) Wider uncollimated beams always reduce dose",
+        "D) Aprons replace the need for collimation and justification"
+      ],
+      "answer": "A) Lead or lead-equivalent aprons reduce scatter to the trunk when used per guidelines",
+      "explanation": "Attenuating garments protect against unnecessary exposure. Therefore, the most accurate choice is: Lead or lead-equivalent aprons reduce scatter to the trunk when used per guidelines. Technique optimization still primary.",
+      "choice_explanations": {
+        "A": "Attenuating garments protect against unnecessary exposure. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Technique optimization still primary. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:19",
+      "question": "A 53-year-old man is examined for digital versus film dose. Which of the following is most likely?",
+      "options": [
+        "A) MRI uses x-ray dose higher than CBCT always",
+        "B) Digital always uses higher dose than any film without exception",
+        "C) Digital systems often allow lower dose than D-speed film when optimized",
+        "D) Grids always lower patient dose without trade-off"
+      ],
+      "answer": "C) Digital systems often allow lower dose than D-speed film when optimized",
+      "explanation": "Higher quantum efficiency can reduce exposure. Therefore, the most accurate choice is: Digital systems often allow lower dose than D-speed film when optimized. Still justify and optimize each exposure.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Still justify and optimize each exposure. It is less consistent than the correct choice.",
+        "C": "Higher quantum efficiency can reduce exposure. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:20",
+      "question": "A dental exam raises concern for PSP plates. Which of the following is correct?",
+      "options": [
+        "A) PSP plates are CMOS sensors with immediate wired display always by identity",
+        "B) Photostimulable phosphor plates store latent image read by laser scanners",
+        "C) Solid-state sensors are flexible like PSP always",
+        "D) Digital always uses higher dose than any film without exception"
+      ],
+      "answer": "B) Photostimulable phosphor plates store latent image read by laser scanners",
+      "explanation": "Latent energy released as light during scanning forms the digital image. Therefore, the most accurate choice is: Photostimulable phosphor plates store latent image read by laser scanners. Indirect digital system.",
+      "choice_explanations": {
+        "A": "Indirect digital system. It is less consistent than the correct choice.",
+        "B": "Latent energy released as light during scanning forms the digital image. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:21",
+      "question": "A 54-year-old woman undergoes assessment involving solid-state sensors. Which of the following is most accurate?",
+      "options": [
+        "A) Radiopaque means dark like air always",
+        "B) CCD or CMOS sensors provide immediate image capture with a rigid detector",
+        "C) Solid-state sensors are flexible like PSP always",
+        "D) PSP plates are CMOS sensors with immediate wired display always by identity"
+      ],
+      "answer": "B) CCD or CMOS sensors provide immediate image capture with a rigid detector",
+      "explanation": "Direct digital conversion of x-ray energy to electronic signal. Therefore, the most accurate choice is: CCD or CMOS sensors provide immediate image capture with a rigid detector. Bulky rigidity can challenge placement.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Direct digital conversion of x-ray energy to electronic signal. This matches the correct interpretation.",
+        "C": "Bulky rigidity can challenge placement. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:22",
+      "question": "Exam findings raise a question about radiolucent. Which of the following is correct?",
+      "options": [
+        "A) Radiolucent means white or opaque on the image always",
+        "B) All histologic enamel caries are always visible on bitewings without threshold",
+        "C) Radiopaque means dark like air always",
+        "D) Radiolucent structures appear dark because they attenuate fewer x-rays"
+      ],
+      "answer": "D) Radiolucent structures appear dark because they attenuate fewer x-rays",
+      "explanation": "Less attenuating materials appear darker. Therefore, the most accurate choice is: Radiolucent structures appear dark because they attenuate fewer x-rays. Dark areas equal less attenuating materials.",
+      "choice_explanations": {
+        "A": "Dark areas equal less attenuating materials. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Less attenuating materials appear darker. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:23",
+      "question": "Which interpretation of radiopaque is correct?",
+      "options": [
+        "A) Dentin is more radiopaque than enamel always",
+        "B) Radiolucent means white or opaque on the image always",
+        "C) Radiopaque structures appear light because they attenuate more x-rays",
+        "D) Radiopaque means dark like air always"
+      ],
+      "answer": "C) Radiopaque structures appear light because they attenuate more x-rays",
+      "explanation": "Dense mineral and metal block photons. Therefore, the most accurate choice is: Radiopaque structures appear light because they attenuate more x-rays. Enamel and amalgam are radiopaque.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Dense mineral and metal block photons. This matches the correct interpretation.",
+        "D": "Enamel and amalgam are radiopaque. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:24",
+      "question": "A 34-year-old woman presents for dental care with findings of enamel vs dentin radiopacity. Which of the following is correct?",
+      "options": [
+        "A) Enamel is more radiopaque than dentin because of higher mineral content",
+        "B) Radiopaque means dark like air always",
+        "C) All histologic enamel caries are always visible on bitewings without threshold",
+        "D) Dentin is more radiopaque than enamel always"
+      ],
+      "answer": "A) Enamel is more radiopaque than dentin because of higher mineral content",
+      "explanation": "Mineral density drives attenuation. Therefore, the most accurate choice is: Enamel is more radiopaque than dentin because of higher mineral content. Contrast outlines pulp chambers.",
+      "choice_explanations": {
+        "A": "Mineral density drives attenuation. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Contrast outlines pulp chambers. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:25",
+      "question": "While evaluating a 62-year-old woman, attention turns to caries radiographic detection. Which of the following is most accurate?",
+      "options": [
+        "A) Bitewings detect all early occlusal enamel caries easily always",
+        "B) Enamel pearls are radiolucent caries",
+        "C) Interproximal caries appear as radiolucent notches in enamel or dentin on bitewings when sufficiently advanced",
+        "D) All histologic enamel caries are always visible on bitewings without threshold"
+      ],
+      "answer": "C) Interproximal caries appear as radiolucent notches in enamel or dentin on bitewings when sufficiently advanced",
+      "explanation": "Demineralization reduces attenuation. Therefore, the most accurate choice is: Interproximal caries appear as radiolucent notches in enamel or dentin on bitewings when sufficiently advanced. Early lesions may be missed radiographically.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Demineralization reduces attenuation. This matches the correct interpretation.",
+        "D": "Early lesions may be missed radiographically. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:26",
+      "question": "Clinical and radiographic findings suggest cervical burnout. Which interpretation is correct?",
+      "options": [
+        "A) Cementoblastoma is identical to condensing osteitis of necrosis always without root attachment continuity",
+        "B) Extreme enhancement always reveals true histology without error",
+        "C) Cervical burnout is a radiolucent optical phenomenon at the neck of the tooth that can mimic caries",
+        "D) Cervical burnout is always true root caries requiring restoration without clinical check"
+      ],
+      "answer": "C) Cervical burnout is a radiolucent optical phenomenon at the neck of the tooth that can mimic caries",
+      "explanation": "X-ray geometry and anatomy create cervical radiolucent artifacts. Therefore, the most accurate choice is: Cervical burnout is a radiolucent optical phenomenon at the neck of the tooth that can mimic caries. Differentiate clinically from true caries.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "X-ray geometry and anatomy create cervical radiolucent artifacts. This matches the correct interpretation.",
+        "D": "Differentiate clinically from true caries. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:27",
+      "question": "A 33-year-old man is examined for mach band effect. Which of the following is most likely?",
+      "options": [
+        "A) Cervical burnout is always true root caries requiring restoration without clinical check",
+        "B) Mach bands are real fractures always",
+        "C) Mach bands are perceptual contrast illusions at boundaries that can mimic cracks or caries",
+        "D) All histologic enamel caries are always visible on bitewings without threshold"
+      ],
+      "answer": "C) Mach bands are perceptual contrast illusions at boundaries that can mimic cracks or caries",
+      "explanation": "Lateral inhibition in visual perception exaggerates edges. Therefore, the most accurate choice is: Mach bands are perceptual contrast illusions at boundaries that can mimic cracks or caries. Correlate with clinical findings.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Correlate with clinical findings. It is less consistent than the correct choice.",
+        "C": "Lateral inhibition in visual perception exaggerates edges. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:28",
+      "question": "A dental exam raises concern for periapical radiolucency. Which of the following is correct?",
+      "options": [
+        "A) OKC is clinically identical to mucosa fibroma without imaging role",
+        "B) Periapical radiolucency may represent granuloma, cyst, or abscess related to pulp necrosis commonly",
+        "C) Dentigerous cysts form only around erupted root apices like periapical cysts of necrosis always",
+        "D) All periapical radiolucencies are healthy marrow without disease"
+      ],
+      "answer": "B) Periapical radiolucency may represent granuloma, cyst, or abscess related to pulp necrosis commonly",
+      "explanation": "Bone loss at apex from inflammatory mediators of canal infection. Therefore, the most accurate choice is: Periapical radiolucency may represent granuloma, cyst, or abscess related to pulp necrosis commonly. Combine with vitality testing.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Bone loss at apex from inflammatory mediators of canal infection. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Combine with vitality testing. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:medium:29",
+      "question": "A 64-year-old woman is assessed for condensing osteitis. Which of the following is most accurate?",
+      "options": [
+        "A) Cementoblastoma is identical to condensing osteitis of necrosis always without root attachment continuity",
+        "B) Radiopaque means dark like air always",
+        "C) Condensing osteitis is a radiopaque apical response sometimes to long-standing pulpitis or necrosis",
+        "D) Condensing osteitis is air in the maxillary sinus"
+      ],
+      "answer": "C) Condensing osteitis is a radiopaque apical response sometimes to long-standing pulpitis or necrosis",
+      "explanation": "Chronic low-grade stimulus induces dense bone. Therefore, the most accurate choice is: Condensing osteitis is a radiopaque apical response sometimes to long-standing pulpitis or necrosis. Assess pulp status.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Chronic low-grade stimulus induces dense bone. This matches the correct interpretation.",
+        "D": "Assess pulp status. It is less consistent than the correct choice."
+      }
+    }
+  ],
+  "hard": [
+    {
+      "id": "oral_radiology:hard:0",
+      "question": "Careful review of ALARA principle is required. Which of the following is most accurate?",
+      "options": [
+        "A) Take full mouth series every visit without clinical indication always",
+        "B) ALARA means using maximal dose for every simple exam always",
+        "C) ALARA means keeping radiation dose as low as reasonably achievable for diagnostic needs",
+        "D) Optimization means raising dose until the image is noisy always"
+      ],
+      "answer": "C) ALARA means keeping radiation dose as low as reasonably achievable for diagnostic needs",
+      "explanation": "Optimize exposure while obtaining needed diagnostic yield. Therefore, the most accurate choice is: ALARA means keeping radiation dose as low as reasonably achievable for diagnostic needs. Core radiation protection principle.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Core radiation protection principle. It is less consistent than the correct choice.",
+        "C": "Optimize exposure while obtaining needed diagnostic yield. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:1",
+      "question": "A 27-year-old man has findings suggestive of bitewing primary use. Which of the following is the best interpretation?",
+      "options": [
+        "A) Bitewings are best for detecting early interproximal caries and assessing crestal bone height",
+        "B) Bitewings are best for third molar IAN relationship primarily",
+        "C) Extreme negative vertical on bitewings always ideal for maxillary crest only without mandibular view",
+        "D) Panoramic images are sharper for early proximal enamel caries than bitewings always"
+      ],
+      "answer": "A) Bitewings are best for detecting early interproximal caries and assessing crestal bone height",
+      "explanation": "Parallel projection through contacts reveals proximal lesions. Therefore, the most accurate choice is: Bitewings are best for detecting early interproximal caries and assessing crestal bone height. Not ideal for full root apices.",
+      "choice_explanations": {
+        "A": "Parallel projection through contacts reveals proximal lesions. This matches the correct interpretation.",
+        "B": "Not ideal for full root apices. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:2",
+      "question": "In a detailed discussion of periapical primary use, which of the following is most accurate?",
+      "options": [
+        "A) Periapicals cannot show apices by definition",
+        "B) Periapical radiographs show the entire tooth and periapical bone for endodontic diagnosis",
+        "C) Dentigerous cysts form only around erupted root apices like periapical cysts of necrosis always",
+        "D) Cancellous bone is more radiopaque than cortical always"
+      ],
+      "answer": "B) Periapical radiographs show the entire tooth and periapical bone for endodontic diagnosis",
+      "explanation": "Image receptor captures crown-root-periapex continuum. Therefore, the most accurate choice is: Periapical radiographs show the entire tooth and periapical bone for endodontic diagnosis. Complement bitewings.",
+      "choice_explanations": {
+        "A": "Complement bitewings. It is less consistent than the correct choice.",
+        "B": "Image receptor captures crown-root-periapex continuum. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:3",
+      "question": "A 32-year-old woman returns for review of suspected panoramic use. Which of the following is most accurate?",
+      "options": [
+        "A) Panoramic images survey jaws, sinuses, and TMJs broadly with less fine detail than intraorals",
+        "B) Bitewings are best for third molar IAN relationship primarily",
+        "C) Bitewings detect all early occlusal enamel caries easily always",
+        "D) Panoramic images are sharper for early proximal enamel caries than bitewings always"
+      ],
+      "answer": "A) Panoramic images survey jaws, sinuses, and TMJs broadly with less fine detail than intraorals",
+      "explanation": "Tomographic broad view trades detail for coverage. Therefore, the most accurate choice is: Panoramic images survey jaws, sinuses, and TMJs broadly with less fine detail than intraorals. Screening and surgical planning adjunct.",
+      "choice_explanations": {
+        "A": "Tomographic broad view trades detail for coverage. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Screening and surgical planning adjunct. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:4",
+      "question": "Careful interpretation of occlusal radiograph use is required. Which of the following is correct?",
+      "options": [
+        "A) Occlusal films are only for bitewing contacts of molars",
+        "B) Extreme negative vertical on bitewings always ideal for maxillary crest only without mandibular view",
+        "C) A single occlusal film always suffices for all implant planning without exception",
+        "D) Occlusal radiographs help localize objects or supernumeraries and view wider jaw segments"
+      ],
+      "answer": "D) Occlusal radiographs help localize objects or supernumeraries and view wider jaw segments",
+      "explanation": "Larger intraoral receptors capture cross-sectional jaw views. Therefore, the most accurate choice is: Occlusal radiographs help localize objects or supernumeraries and view wider jaw segments. Localization and pathology mapping.",
+      "choice_explanations": {
+        "A": "Localization and pathology mapping. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Larger intraoral receptors capture cross-sectional jaw views. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:5",
+      "question": "Which statement about paralleling technique is most accurate?",
+      "options": [
+        "A) Paralleling intentionally angles severely to foreshorten as the goal",
+        "B) Paralleling places receptor parallel to tooth long axis with beam perpendicular for minimal distortion",
+        "C) Hold the receptor in the patient mouth during exposure as operator always",
+        "D) Bisecting always more accurate than paralleling without exception"
+      ],
+      "answer": "B) Paralleling places receptor parallel to tooth long axis with beam perpendicular for minimal distortion",
+      "explanation": "Geometry reduces magnification and distortion. Therefore, the most accurate choice is: Paralleling places receptor parallel to tooth long axis with beam perpendicular for minimal distortion. Preferred intraoral technique when feasible.",
+      "choice_explanations": {
+        "A": "Preferred intraoral technique when feasible. It is less consistent than the correct choice.",
+        "B": "Geometry reduces magnification and distortion. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:6",
+      "question": "After examining a 23-year-old man, which statement about foreshortening cause is correct?",
+      "options": [
+        "A) Excessive vertical angulation foreshortens the tooth image",
+        "B) Foreshortening is caused only by too little vertical angulation",
+        "C) Elongation is from excessive vertical angulation",
+        "D) Overlap is caused only by vertical angulation errors"
+      ],
+      "answer": "A) Excessive vertical angulation foreshortens the tooth image",
+      "explanation": "Steep vertical angle shrinks apparent length. Therefore, the most accurate choice is: Excessive vertical angulation foreshortens the tooth image. Elongation is from insufficient vertical angulation.",
+      "choice_explanations": {
+        "A": "Steep vertical angle shrinks apparent length. This matches the correct interpretation.",
+        "B": "Elongation is from insufficient vertical angulation. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:7",
+      "question": "A 38-year-old woman is evaluated for possible elongation cause. Which of the following is most accurate?",
+      "options": [
+        "A) Insufficient vertical angulation elongates the tooth image",
+        "B) Elongation is from excessive vertical angulation",
+        "C) Foreshortening is caused only by too little vertical angulation",
+        "D) Extreme negative vertical on bitewings always ideal for maxillary crest only without mandibular view"
+      ],
+      "answer": "A) Insufficient vertical angulation elongates the tooth image",
+      "explanation": "Flat vertical angle stretches apparent length. Therefore, the most accurate choice is: Insufficient vertical angulation elongates the tooth image. Opposite of foreshortening.",
+      "choice_explanations": {
+        "A": "Flat vertical angle stretches apparent length. This matches the correct interpretation.",
+        "B": "Opposite of foreshortening. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:8",
+      "question": "A 41-year-old man has findings suggestive of horizontal overlap. Which of the following is the best interpretation?",
+      "options": [
+        "A) Extreme negative vertical on bitewings always ideal for maxillary crest only without mandibular view",
+        "B) Foreshortening is caused only by too little vertical angulation",
+        "C) Overlap is caused only by vertical angulation errors",
+        "D) Incorrect horizontal angulation overlaps proximal surfaces"
+      ],
+      "answer": "D) Incorrect horizontal angulation overlaps proximal surfaces",
+      "explanation": "X-ray beam must open contacts parallel to interproximal walls. Therefore, the most accurate choice is: Incorrect horizontal angulation overlaps proximal surfaces. Critical for bitewing caries diagnosis.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Critical for bitewing caries diagnosis. It is less consistent than the correct choice.",
+        "D": "X-ray beam must open contacts parallel to interproximal walls. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:9",
+      "question": "In a detailed discussion of cone cut, which of the following is most accurate?",
+      "options": [
+        "A) Cone cutting occurs when the beam misses part of the receptor leaving a clear unexposed area",
+        "B) Cone cut means the patient moved during panoramic only by definition",
+        "C) Hold the receptor in the patient mouth during exposure as operator always",
+        "D) XCP means panoramic focal trough only"
+      ],
+      "answer": "A) Cone cutting occurs when the beam misses part of the receptor leaving a clear unexposed area",
+      "explanation": "PID must cover the receptor fully. Therefore, the most accurate choice is: Cone cutting occurs when the beam misses part of the receptor leaving a clear unexposed area. Aiming error.",
+      "choice_explanations": {
+        "A": "PID must cover the receptor fully. This matches the correct interpretation.",
+        "B": "Aiming error. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:10",
+      "question": "A 55-year-old man returns for review of suspected inverse square law. Which of the following is most accurate?",
+      "options": [
+        "A) Rectangular collimation increases dose versus round always",
+        "B) Intensity is inversely proportional to the square of distance from the source",
+        "C) Intensity rises as the square of distance increases",
+        "D) Filtration adds soft photons to increase skin dose intentionally"
+      ],
+      "answer": "B) Intensity is inversely proportional to the square of distance from the source",
+      "explanation": "Spreading of photons over area reduces intensity with distance. Therefore, the most accurate choice is: Intensity is inversely proportional to the square of distance from the source. Positioning affects dose and image density.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Spreading of photons over area reduces intensity with distance. This matches the correct interpretation.",
+        "C": "Positioning affects dose and image density. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:11",
+      "question": "A clinic case of k Vp effect is discussed. Which of the following is correct?",
+      "options": [
+        "A) mAs controls only beam energy kVp identically",
+        "B) kVp only changes number of electrons without energy effect",
+        "C) Handhelds allow operators to stand in the beam safely without backscatter shields",
+        "D) Higher kVp increases beam energy and penetrating power and affects contrast"
+      ],
+      "answer": "D) Higher kVp increases beam energy and penetrating power and affects contrast",
+      "explanation": "Tube voltage sets photon energy spectrum. Therefore, the most accurate choice is: Higher kVp increases beam energy and penetrating power and affects contrast. Contrast and exposure related to kVp.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Contrast and exposure related to kVp. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Tube voltage sets photon energy spectrum. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:12",
+      "question": "Which statement about m A and time is most accurate?",
+      "options": [
+        "A) mAs controls only beam energy kVp identically",
+        "B) Filtration adds soft photons to increase skin dose intentionally",
+        "C) mA and exposure time control quantity of x-rays (mAs) affecting image density",
+        "D) kVp only changes number of electrons without energy effect"
+      ],
+      "answer": "C) mA and exposure time control quantity of x-rays (mAs) affecting image density",
+      "explanation": "More photons increase receptor exposure. Therefore, the most accurate choice is: mA and exposure time control quantity of x-rays (mAs) affecting image density. Density control primarily via mAs.",
+      "choice_explanations": {
+        "A": "Density control primarily via mAs. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "More photons increase receptor exposure. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:13",
+      "question": "Which of the following is the best statement about filtration purpose?",
+      "options": [
+        "A) Wider uncollimated beams always reduce dose",
+        "B) Aluminum filtration removes low-energy photons that would only increase patient dose",
+        "C) Scatter improves sharpness always",
+        "D) Filtration adds soft photons to increase skin dose intentionally"
+      ],
+      "answer": "B) Aluminum filtration removes low-energy photons that would only increase patient dose",
+      "explanation": "Hardening the beam improves dose efficiency. Therefore, the most accurate choice is: Aluminum filtration removes low-energy photons that would only increase patient dose. Inherent plus added filtration standards.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Hardening the beam improves dose efficiency. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Inherent plus added filtration standards. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:14",
+      "question": "Careful review of rectangular collimation is required. Which of the following is most accurate?",
+      "options": [
+        "A) Wider uncollimated beams always reduce dose",
+        "B) Rectangular collimation increases dose versus round always",
+        "C) Children should receive adult exposure settings always",
+        "D) Rectangular collimation approximates receptor shape reducing unnecessary tissue exposure versus round cones"
+      ],
+      "answer": "D) Rectangular collimation approximates receptor shape reducing unnecessary tissue exposure versus round cones",
+      "explanation": "Less peripheral tissue irradiated. Therefore, the most accurate choice is: Rectangular collimation approximates receptor shape reducing unnecessary tissue exposure versus round cones. Dose-reduction recommendation.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Dose-reduction recommendation. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Less peripheral tissue irradiated. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:15",
+      "question": "Two similar explanations for thyroid collar are compared. Which of the following is correct?",
+      "options": [
+        "A) Thyroid collars protect the thyroid during intraoral radiography when they do not interfere with the image",
+        "B) Radiolucent means white or opaque on the image always",
+        "C) Grids always lower patient dose without trade-off",
+        "D) Thyroid collars are forbidden for all dental x-rays without exception in all techniques"
+      ],
+      "answer": "A) Thyroid collars protect the thyroid during intraoral radiography when they do not interfere with the image",
+      "explanation": "Lead apron or collar attenuates exposure to the gland. Therefore, the most accurate choice is: Thyroid collars protect the thyroid during intraoral radiography when they do not interfere with the image. Use when feasible especially for children.",
+      "choice_explanations": {
+        "A": "Lead apron or collar attenuates exposure to the gland. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Use when feasible especially for children. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:16",
+      "question": "In a detailed discussion of lead apron, which of the following is most accurate?",
+      "options": [
+        "A) Wider uncollimated beams always reduce dose",
+        "B) Aprons replace the need for collimation and justification",
+        "C) Rectangular collimation increases dose versus round always",
+        "D) Lead or lead-equivalent aprons reduce scatter to the trunk when used per guidelines"
+      ],
+      "answer": "D) Lead or lead-equivalent aprons reduce scatter to the trunk when used per guidelines",
+      "explanation": "Attenuating garments protect against unnecessary exposure. Therefore, the most accurate choice is: Lead or lead-equivalent aprons reduce scatter to the trunk when used per guidelines. Technique optimization still primary.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Technique optimization still primary. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Attenuating garments protect against unnecessary exposure. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:17",
+      "question": "Which of the following correctly distinguishes key points about digital versus film dose?",
+      "options": [
+        "A) Digital systems often allow lower dose than D-speed film when optimized",
+        "B) Grids always lower patient dose without trade-off",
+        "C) CBCT dose is always zero",
+        "D) Digital always uses higher dose than any film without exception"
+      ],
+      "answer": "A) Digital systems often allow lower dose than D-speed film when optimized",
+      "explanation": "Higher quantum efficiency can reduce exposure. Therefore, the most accurate choice is: Digital systems often allow lower dose than D-speed film when optimized. Still justify and optimize each exposure.",
+      "choice_explanations": {
+        "A": "Higher quantum efficiency can reduce exposure. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Still justify and optimize each exposure. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:18",
+      "question": "A clinic case of PSP plates is discussed. Which of the following is correct?",
+      "options": [
+        "A) Solid-state sensors are flexible like PSP always",
+        "B) PSP plates are CMOS sensors with immediate wired display always by identity",
+        "C) Photostimulable phosphor plates store latent image read by laser scanners",
+        "D) Radiopaque means dark like air always"
+      ],
+      "answer": "C) Photostimulable phosphor plates store latent image read by laser scanners",
+      "explanation": "Latent energy released as light during scanning forms the digital image. Therefore, the most accurate choice is: Photostimulable phosphor plates store latent image read by laser scanners. Indirect digital system.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Indirect digital system. It is less consistent than the correct choice.",
+        "C": "Latent energy released as light during scanning forms the digital image. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:19",
+      "question": "Which statement about solid-state sensors is most accurate?",
+      "options": [
+        "A) CCD or CMOS sensors provide immediate image capture with a rigid detector",
+        "B) Solid-state sensors are flexible like PSP always",
+        "C) Radiopaque means dark like air always",
+        "D) PSP plates are CMOS sensors with immediate wired display always by identity"
+      ],
+      "answer": "A) CCD or CMOS sensors provide immediate image capture with a rigid detector",
+      "explanation": "Direct digital conversion of x-ray energy to electronic signal. Therefore, the most accurate choice is: CCD or CMOS sensors provide immediate image capture with a rigid detector. Bulky rigidity can challenge placement.",
+      "choice_explanations": {
+        "A": "Direct digital conversion of x-ray energy to electronic signal. This matches the correct interpretation.",
+        "B": "Bulky rigidity can challenge placement. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:20",
+      "question": "Which of the following is the best statement about radiopaque?",
+      "options": [
+        "A) Radiopaque means dark like air always",
+        "B) Radiolucent means white or opaque on the image always",
+        "C) Radiopaque structures appear light because they attenuate more x-rays",
+        "D) Dentin is more radiopaque than enamel always"
+      ],
+      "answer": "C) Radiopaque structures appear light because they attenuate more x-rays",
+      "explanation": "Dense mineral and metal block photons. Therefore, the most accurate choice is: Radiopaque structures appear light because they attenuate more x-rays. Enamel and amalgam are radiopaque.",
+      "choice_explanations": {
+        "A": "Enamel and amalgam are radiopaque. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Dense mineral and metal block photons. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:21",
+      "question": "A 34-year-old woman is evaluated for possible enamel vs dentin radiopacity. Which of the following is most accurate?",
+      "options": [
+        "A) All histologic enamel caries are always visible on bitewings without threshold",
+        "B) Dentin is more radiopaque than enamel always",
+        "C) Radiopaque means dark like air always",
+        "D) Enamel is more radiopaque than dentin because of higher mineral content"
+      ],
+      "answer": "D) Enamel is more radiopaque than dentin because of higher mineral content",
+      "explanation": "Mineral density drives attenuation. Therefore, the most accurate choice is: Enamel is more radiopaque than dentin because of higher mineral content. Contrast outlines pulp chambers.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Contrast outlines pulp chambers. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Mineral density drives attenuation. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:22",
+      "question": "Two similar explanations for caries radiographic detection are compared. Which of the following is correct?",
+      "options": [
+        "A) All histologic enamel caries are always visible on bitewings without threshold",
+        "B) Enamel pearls are radiolucent caries",
+        "C) Interproximal caries appear as radiolucent notches in enamel or dentin on bitewings when sufficiently advanced",
+        "D) Bitewings detect all early occlusal enamel caries easily always"
+      ],
+      "answer": "C) Interproximal caries appear as radiolucent notches in enamel or dentin on bitewings when sufficiently advanced",
+      "explanation": "Demineralization reduces attenuation. Therefore, the most accurate choice is: Interproximal caries appear as radiolucent notches in enamel or dentin on bitewings when sufficiently advanced. Early lesions may be missed radiographically.",
+      "choice_explanations": {
+        "A": "Early lesions may be missed radiographically. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Demineralization reduces attenuation. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:23",
+      "question": "In a 26-year-old woman, cervical burnout must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) Extreme enhancement always reveals true histology without error",
+        "B) Cervical burnout is always true root caries requiring restoration without clinical check",
+        "C) Cervical burnout is a radiolucent optical phenomenon at the neck of the tooth that can mimic caries",
+        "D) Cementoblastoma is identical to condensing osteitis of necrosis always without root attachment continuity"
+      ],
+      "answer": "C) Cervical burnout is a radiolucent optical phenomenon at the neck of the tooth that can mimic caries",
+      "explanation": "X-ray geometry and anatomy create cervical radiolucent artifacts. Therefore, the most accurate choice is: Cervical burnout is a radiolucent optical phenomenon at the neck of the tooth that can mimic caries. Differentiate clinically from true caries.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Differentiate clinically from true caries. It is less consistent than the correct choice.",
+        "C": "X-ray geometry and anatomy create cervical radiolucent artifacts. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:24",
+      "question": "A 33-year-old man returns for review of suspected mach band effect. Which of the following is most accurate?",
+      "options": [
+        "A) Cervical burnout is always true root caries requiring restoration without clinical check",
+        "B) Mach bands are perceptual contrast illusions at boundaries that can mimic cracks or caries",
+        "C) Mach bands are real fractures always",
+        "D) All histologic enamel caries are always visible on bitewings without threshold"
+      ],
+      "answer": "B) Mach bands are perceptual contrast illusions at boundaries that can mimic cracks or caries",
+      "explanation": "Lateral inhibition in visual perception exaggerates edges. Therefore, the most accurate choice is: Mach bands are perceptual contrast illusions at boundaries that can mimic cracks or caries. Correlate with clinical findings.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Lateral inhibition in visual perception exaggerates edges. This matches the correct interpretation.",
+        "C": "Correlate with clinical findings. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:25",
+      "question": "A clinic case of periapical radiolucency is discussed. Which of the following is correct?",
+      "options": [
+        "A) Any lamina discontinuity mandates extraction same day without tests",
+        "B) Periapical radiolucency may represent granuloma, cyst, or abscess related to pulp necrosis commonly",
+        "C) All periapical radiolucencies are healthy marrow without disease",
+        "D) Dentigerous cysts form only around erupted root apices like periapical cysts of necrosis always"
+      ],
+      "answer": "B) Periapical radiolucency may represent granuloma, cyst, or abscess related to pulp necrosis commonly",
+      "explanation": "Bone loss at apex from inflammatory mediators of canal infection. Therefore, the most accurate choice is: Periapical radiolucency may represent granuloma, cyst, or abscess related to pulp necrosis commonly. Combine with vitality testing.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Bone loss at apex from inflammatory mediators of canal infection. This matches the correct interpretation.",
+        "C": "Combine with vitality testing. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:26",
+      "question": "A 64-year-old woman presents with features compatible with condensing osteitis. Which of the following is most accurate?",
+      "options": [
+        "A) Cancellous bone is more radiopaque than cortical always",
+        "B) Cementoblastoma is identical to condensing osteitis of necrosis always without root attachment continuity",
+        "C) Condensing osteitis is air in the maxillary sinus",
+        "D) Condensing osteitis is a radiopaque apical response sometimes to long-standing pulpitis or necrosis"
+      ],
+      "answer": "D) Condensing osteitis is a radiopaque apical response sometimes to long-standing pulpitis or necrosis",
+      "explanation": "Chronic low-grade stimulus induces dense bone. Therefore, the most accurate choice is: Condensing osteitis is a radiopaque apical response sometimes to long-standing pulpitis or necrosis. Assess pulp status.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Assess pulp status. It is less consistent than the correct choice.",
+        "D": "Chronic low-grade stimulus induces dense bone. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:27",
+      "question": "Which statement about lamina dura in a 41-year-old man is most accurate?",
+      "options": [
+        "A) Airway is the most radiopaque neck structure",
+        "B) PDL space is radiopaque like enamel",
+        "C) Lamina dura is pulp tissue",
+        "D) Lamina dura is the radiopaque line of alveolar bone proper lining the socket"
+      ],
+      "answer": "D) Lamina dura is the radiopaque line of alveolar bone proper lining the socket",
+      "explanation": "Dense cribriform plate appears as a white line. Therefore, the most accurate choice is: Lamina dura is the radiopaque line of alveolar bone proper lining the socket. Loss may suggest pathology but is not pathognomonic alone.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Loss may suggest pathology but is not pathognomonic alone. It is less consistent than the correct choice.",
+        "D": "Dense cribriform plate appears as a white line. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:28",
+      "question": "Which of the following is the best statement about PDL space radiographic?",
+      "options": [
+        "A) Lamina dura is pulp tissue",
+        "B) All histologic enamel caries are always visible on bitewings without threshold",
+        "C) PDL space appears as a thin radiolucent line between root and lamina dura",
+        "D) PDL space is radiopaque like enamel"
+      ],
+      "answer": "C) PDL space appears as a thin radiolucent line between root and lamina dura",
+      "explanation": "Soft PDL attenuates less than bone or cementum and dentin. Therefore, the most accurate choice is: PDL space appears as a thin radiolucent line between root and lamina dura. Uniform widening or loss patterns aid diagnosis.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Soft PDL attenuates less than bone or cementum and dentin. This matches the correct interpretation.",
+        "D": "Uniform widening or loss patterns aid diagnosis. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:hard:29",
+      "question": "A 59-year-old man is evaluated for possible SLOB rule. Which of the following is most accurate?",
+      "options": [
+        "A) Buccal objects move the same as the tube under SLOB",
+        "B) ALARA means using maximal dose for every simple exam always",
+        "C) Same Lingual Opposite Buccal: object moves same direction as tube head if lingual when using tube shift",
+        "D) SLOB means objects never change position with tube shift"
+      ],
+      "answer": "C) Same Lingual Opposite Buccal: object moves same direction as tube head if lingual when using tube shift",
+      "explanation": "Clark rule uses parallax for localization. Therefore, the most accurate choice is: Same Lingual Opposite Buccal: object moves same direction as tube head if lingual when using tube shift. Lingual equals same; buccal equals opposite.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Clark rule uses parallax for localization. This matches the correct interpretation.",
+        "D": "Lingual equals same; buccal equals opposite. It is less consistent than the correct choice."
+      }
+    }
+  ],
+  "extreme": [
+    {
+      "id": "oral_radiology:extreme:0",
+      "question": "A 53-year-old man requires careful decisions about ALARA principle. Which of the following is most accurate?",
+      "options": [
+        "A) Take full mouth series every visit without clinical indication always",
+        "B) ALARA means using maximal dose for every simple exam always",
+        "C) ALARA means keeping radiation dose as low as reasonably achievable for diagnostic needs",
+        "D) Optimization means raising dose until the image is noisy always"
+      ],
+      "answer": "C) ALARA means keeping radiation dose as low as reasonably achievable for diagnostic needs",
+      "explanation": "Optimize exposure while obtaining needed diagnostic yield. Therefore, the most accurate choice is: ALARA means keeping radiation dose as low as reasonably achievable for diagnostic needs. Core radiation protection principle.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Core radiation protection principle. It is less consistent than the correct choice.",
+        "C": "Optimize exposure while obtaining needed diagnostic yield. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:1",
+      "question": "A 27-year-old man is reassessed after incomplete response related to bitewing primary use. Which of the following is most accurate?",
+      "options": [
+        "A) Bitewings are best for third molar IAN relationship primarily",
+        "B) Extreme negative vertical on bitewings always ideal for maxillary crest only without mandibular view",
+        "C) Panoramic images are sharper for early proximal enamel caries than bitewings always",
+        "D) Bitewings are best for detecting early interproximal caries and assessing crestal bone height"
+      ],
+      "answer": "D) Bitewings are best for detecting early interproximal caries and assessing crestal bone height",
+      "explanation": "Parallel projection through contacts reveals proximal lesions. Therefore, the most accurate choice is: Bitewings are best for detecting early interproximal caries and assessing crestal bone height. Not ideal for full root apices.",
+      "choice_explanations": {
+        "A": "Not ideal for full root apices. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Parallel projection through contacts reveals proximal lesions. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:2",
+      "question": "Which of the following is the most precise statement about periapical primary use?",
+      "options": [
+        "A) Periapical radiographs show the entire tooth and periapical bone for endodontic diagnosis",
+        "B) Dentigerous cysts form only around erupted root apices like periapical cysts of necrosis always",
+        "C) Nutrient canals are vertical root fractures always",
+        "D) Periapicals cannot show apices by definition"
+      ],
+      "answer": "A) Periapical radiographs show the entire tooth and periapical bone for endodontic diagnosis",
+      "explanation": "Image receptor captures crown-root-periapex continuum. Therefore, the most accurate choice is: Periapical radiographs show the entire tooth and periapical bone for endodontic diagnosis. Complement bitewings.",
+      "choice_explanations": {
+        "A": "Image receptor captures crown-root-periapex continuum. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Complement bitewings. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:3",
+      "question": "A 32-year-old woman has findings that make panoramic use hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Panoramic images are sharper for early proximal enamel caries than bitewings always",
+        "B) Bitewings detect all early occlusal enamel caries easily always",
+        "C) Panoramic images survey jaws, sinuses, and TMJs broadly with less fine detail than intraorals",
+        "D) Bitewings are best for third molar IAN relationship primarily"
+      ],
+      "answer": "C) Panoramic images survey jaws, sinuses, and TMJs broadly with less fine detail than intraorals",
+      "explanation": "Tomographic broad view trades detail for coverage. Therefore, the most accurate choice is: Panoramic images survey jaws, sinuses, and TMJs broadly with less fine detail than intraorals. Screening and surgical planning adjunct.",
+      "choice_explanations": {
+        "A": "Screening and surgical planning adjunct. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Tomographic broad view trades detail for coverage. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:4",
+      "question": "Which interpretation of occlusal radiograph use is most accurate?",
+      "options": [
+        "A) Occlusal radiographs help localize objects or supernumeraries and view wider jaw segments",
+        "B) Occlusal films are only for bitewing contacts of molars",
+        "C) A single occlusal film always suffices for all implant planning without exception",
+        "D) Extreme negative vertical on bitewings always ideal for maxillary crest only without mandibular view"
+      ],
+      "answer": "A) Occlusal radiographs help localize objects or supernumeraries and view wider jaw segments",
+      "explanation": "Larger intraoral receptors capture cross-sectional jaw views. Therefore, the most accurate choice is: Occlusal radiographs help localize objects or supernumeraries and view wider jaw segments. Localization and pathology mapping.",
+      "choice_explanations": {
+        "A": "Larger intraoral receptors capture cross-sectional jaw views. This matches the correct interpretation.",
+        "B": "Localization and pathology mapping. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:5",
+      "question": "Which closely related statement about paralleling technique is correct?",
+      "options": [
+        "A) Hold the receptor in the patient mouth during exposure as operator always",
+        "B) Paralleling places receptor parallel to tooth long axis with beam perpendicular for minimal distortion",
+        "C) Bisecting always more accurate than paralleling without exception",
+        "D) Paralleling intentionally angles severely to foreshorten as the goal"
+      ],
+      "answer": "B) Paralleling places receptor parallel to tooth long axis with beam perpendicular for minimal distortion",
+      "explanation": "Geometry reduces magnification and distortion. Therefore, the most accurate choice is: Paralleling places receptor parallel to tooth long axis with beam perpendicular for minimal distortion. Preferred intraoral technique when feasible.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Geometry reduces magnification and distortion. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Preferred intraoral technique when feasible. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:6",
+      "question": "Which of the following is the central point about bisecting angle technique?",
+      "options": [
+        "A) Holders always worsen angulation errors",
+        "B) Bisecting aims the beam perpendicular to the angle bisector between tooth and receptor",
+        "C) Paralleling intentionally angles severely to foreshorten as the goal",
+        "D) Bisecting always more accurate than paralleling without exception"
+      ],
+      "answer": "B) Bisecting aims the beam perpendicular to the angle bisector between tooth and receptor",
+      "explanation": "Compromise geometry when paralleling is difficult. Therefore, the most accurate choice is: Bisecting aims the beam perpendicular to the angle bisector between tooth and receptor. More distortion risk than paralleling.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Compromise geometry when paralleling is difficult. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "More distortion risk than paralleling. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:7",
+      "question": "Which statement about foreshortening cause in a 23-year-old man is most accurate?",
+      "options": [
+        "A) Foreshortening is caused only by too little vertical angulation",
+        "B) Overlap is caused only by vertical angulation errors",
+        "C) Excessive vertical angulation foreshortens the tooth image",
+        "D) Elongation is from excessive vertical angulation"
+      ],
+      "answer": "C) Excessive vertical angulation foreshortens the tooth image",
+      "explanation": "Steep vertical angle shrinks apparent length. Therefore, the most accurate choice is: Excessive vertical angulation foreshortens the tooth image. Elongation is from insufficient vertical angulation.",
+      "choice_explanations": {
+        "A": "Elongation is from insufficient vertical angulation. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Steep vertical angle shrinks apparent length. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:8",
+      "question": "A 38-year-old woman has a complex presentation of elongation cause. Which of the following is most accurate?",
+      "options": [
+        "A) Foreshortening is caused only by too little vertical angulation",
+        "B) Extreme negative vertical on bitewings always ideal for maxillary crest only without mandibular view",
+        "C) Elongation is from excessive vertical angulation",
+        "D) Insufficient vertical angulation elongates the tooth image"
+      ],
+      "answer": "D) Insufficient vertical angulation elongates the tooth image",
+      "explanation": "Flat vertical angle stretches apparent length. Therefore, the most accurate choice is: Insufficient vertical angulation elongates the tooth image. Opposite of foreshortening.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Opposite of foreshortening. It is less consistent than the correct choice.",
+        "D": "Flat vertical angle stretches apparent length. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:9",
+      "question": "A 41-year-old man is reassessed after incomplete response related to horizontal overlap. Which of the following is most accurate?",
+      "options": [
+        "A) Foreshortening is caused only by too little vertical angulation",
+        "B) Extreme negative vertical on bitewings always ideal for maxillary crest only without mandibular view",
+        "C) Incorrect horizontal angulation overlaps proximal surfaces",
+        "D) Overlap is caused only by vertical angulation errors"
+      ],
+      "answer": "C) Incorrect horizontal angulation overlaps proximal surfaces",
+      "explanation": "X-ray beam must open contacts parallel to interproximal walls. Therefore, the most accurate choice is: Incorrect horizontal angulation overlaps proximal surfaces. Critical for bitewing caries diagnosis.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "X-ray beam must open contacts parallel to interproximal walls. This matches the correct interpretation.",
+        "D": "Critical for bitewing caries diagnosis. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:10",
+      "question": "Which of the following is the most precise statement about cone cut?",
+      "options": [
+        "A) XCP means panoramic focal trough only",
+        "B) Hold the receptor in the patient mouth during exposure as operator always",
+        "C) Cone cut means the patient moved during panoramic only by definition",
+        "D) Cone cutting occurs when the beam misses part of the receptor leaving a clear unexposed area"
+      ],
+      "answer": "D) Cone cutting occurs when the beam misses part of the receptor leaving a clear unexposed area",
+      "explanation": "PID must cover the receptor fully. Therefore, the most accurate choice is: Cone cutting occurs when the beam misses part of the receptor leaving a clear unexposed area. Aiming error.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Aiming error. It is less consistent than the correct choice.",
+        "D": "PID must cover the receptor fully. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:11",
+      "question": "A 55-year-old man has findings that make inverse square law hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Rectangular collimation increases dose versus round always",
+        "B) Intensity rises as the square of distance increases",
+        "C) Filtration adds soft photons to increase skin dose intentionally",
+        "D) Intensity is inversely proportional to the square of distance from the source"
+      ],
+      "answer": "D) Intensity is inversely proportional to the square of distance from the source",
+      "explanation": "Spreading of photons over area reduces intensity with distance. Therefore, the most accurate choice is: Intensity is inversely proportional to the square of distance from the source. Positioning affects dose and image density.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Positioning affects dose and image density. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Spreading of photons over area reduces intensity with distance. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:12",
+      "question": "In a 53-year-old man, distinguishing k Vp effect from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) mAs controls only beam energy kVp identically",
+        "B) kVp only changes number of electrons without energy effect",
+        "C) Higher kVp increases beam energy and penetrating power and affects contrast",
+        "D) MRI uses x-ray dose higher than CBCT always"
+      ],
+      "answer": "C) Higher kVp increases beam energy and penetrating power and affects contrast",
+      "explanation": "Tube voltage sets photon energy spectrum. Therefore, the most accurate choice is: Higher kVp increases beam energy and penetrating power and affects contrast. Contrast and exposure related to kVp.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Contrast and exposure related to kVp. It is less consistent than the correct choice.",
+        "C": "Tube voltage sets photon energy spectrum. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:13",
+      "question": "Which closely related statement about m A and time is correct?",
+      "options": [
+        "A) Filtration adds soft photons to increase skin dose intentionally",
+        "B) kVp only changes number of electrons without energy effect",
+        "C) mAs controls only beam energy kVp identically",
+        "D) mA and exposure time control quantity of x-rays (mAs) affecting image density"
+      ],
+      "answer": "D) mA and exposure time control quantity of x-rays (mAs) affecting image density",
+      "explanation": "More photons increase receptor exposure. Therefore, the most accurate choice is: mA and exposure time control quantity of x-rays (mAs) affecting image density. Density control primarily via mAs.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Density control primarily via mAs. It is less consistent than the correct choice.",
+        "D": "More photons increase receptor exposure. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:14",
+      "question": "Which of the following is the central point about collimation benefit?",
+      "options": [
+        "A) Grids always lower patient dose without trade-off",
+        "B) Rectangular collimation increases dose versus round always",
+        "C) Wider uncollimated beams always reduce dose",
+        "D) Collimation restricts beam size reducing scatter and patient dose"
+      ],
+      "answer": "D) Collimation restricts beam size reducing scatter and patient dose",
+      "explanation": "Lead collimators shape the useful beam. Therefore, the most accurate choice is: Collimation restricts beam size reducing scatter and patient dose. Rectangular collimation preferred in dentistry often.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Rectangular collimation preferred in dentistry often. It is less consistent than the correct choice.",
+        "D": "Lead collimators shape the useful beam. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:15",
+      "question": "Which statement about managing filtration purpose in a 37-year-old man is most accurate?",
+      "options": [
+        "A) Screens always increase patient dose",
+        "B) Filtration adds soft photons to increase skin dose intentionally",
+        "C) Wider uncollimated beams always reduce dose",
+        "D) Aluminum filtration removes low-energy photons that would only increase patient dose"
+      ],
+      "answer": "D) Aluminum filtration removes low-energy photons that would only increase patient dose",
+      "explanation": "Hardening the beam improves dose efficiency. Therefore, the most accurate choice is: Aluminum filtration removes low-energy photons that would only increase patient dose. Inherent plus added filtration standards.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Inherent plus added filtration standards. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Hardening the beam improves dose efficiency. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:16",
+      "question": "Careful reasoning about rectangular collimation is required. Which of the following is most accurate?",
+      "options": [
+        "A) Rectangular collimation approximates receptor shape reducing unnecessary tissue exposure versus round cones",
+        "B) Children should receive adult exposure settings always",
+        "C) Wider uncollimated beams always reduce dose",
+        "D) Rectangular collimation increases dose versus round always"
+      ],
+      "answer": "A) Rectangular collimation approximates receptor shape reducing unnecessary tissue exposure versus round cones",
+      "explanation": "Less peripheral tissue irradiated. Therefore, the most accurate choice is: Rectangular collimation approximates receptor shape reducing unnecessary tissue exposure versus round cones. Dose-reduction recommendation.",
+      "choice_explanations": {
+        "A": "Less peripheral tissue irradiated. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Dose-reduction recommendation. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:17",
+      "question": "Small differences in wording about thyroid collar matter. Which of the following is correct?",
+      "options": [
+        "A) Thyroid collars protect the thyroid during intraoral radiography when they do not interfere with the image",
+        "B) Radiolucent means white or opaque on the image always",
+        "C) Thyroid collars are forbidden for all dental x-rays without exception in all techniques",
+        "D) Grids always lower patient dose without trade-off"
+      ],
+      "answer": "A) Thyroid collars protect the thyroid during intraoral radiography when they do not interfere with the image",
+      "explanation": "Lead apron or collar attenuates exposure to the gland. Therefore, the most accurate choice is: Thyroid collars protect the thyroid during intraoral radiography when they do not interfere with the image. Use when feasible especially for children.",
+      "choice_explanations": {
+        "A": "Lead apron or collar attenuates exposure to the gland. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Use when feasible especially for children. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:18",
+      "question": "Which of the following is the most precise statement about lead apron?",
+      "options": [
+        "A) Wider uncollimated beams always reduce dose",
+        "B) Aprons replace the need for collimation and justification",
+        "C) Lead or lead-equivalent aprons reduce scatter to the trunk when used per guidelines",
+        "D) Rectangular collimation increases dose versus round always"
+      ],
+      "answer": "C) Lead or lead-equivalent aprons reduce scatter to the trunk when used per guidelines",
+      "explanation": "Attenuating garments protect against unnecessary exposure. Therefore, the most accurate choice is: Lead or lead-equivalent aprons reduce scatter to the trunk when used per guidelines. Technique optimization still primary.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Technique optimization still primary. It is less consistent than the correct choice.",
+        "C": "Attenuating garments protect against unnecessary exposure. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:19",
+      "question": "In a 53-year-old man, treatment choices for digital versus film dose are compared. Which of the following is most accurate?",
+      "options": [
+        "A) MRI uses x-ray dose higher than CBCT always",
+        "B) Digital systems often allow lower dose than D-speed film when optimized",
+        "C) Digital always uses higher dose than any film without exception",
+        "D) Grids always lower patient dose without trade-off"
+      ],
+      "answer": "B) Digital systems often allow lower dose than D-speed film when optimized",
+      "explanation": "Higher quantum efficiency can reduce exposure. Therefore, the most accurate choice is: Digital systems often allow lower dose than D-speed film when optimized. Still justify and optimize each exposure.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Higher quantum efficiency can reduce exposure. This matches the correct interpretation.",
+        "C": "Still justify and optimize each exposure. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:20",
+      "question": "In a 42-year-old woman, distinguishing PSP plates from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) PSP plates are CMOS sensors with immediate wired display always by identity",
+        "B) Photostimulable phosphor plates store latent image read by laser scanners",
+        "C) Radiopaque means dark like air always",
+        "D) Solid-state sensors are flexible like PSP always"
+      ],
+      "answer": "B) Photostimulable phosphor plates store latent image read by laser scanners",
+      "explanation": "Latent energy released as light during scanning forms the digital image. Therefore, the most accurate choice is: Photostimulable phosphor plates store latent image read by laser scanners. Indirect digital system.",
+      "choice_explanations": {
+        "A": "Indirect digital system. It is less consistent than the correct choice.",
+        "B": "Latent energy released as light during scanning forms the digital image. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:21",
+      "question": "Which closely related statement about solid-state sensors is correct?",
+      "options": [
+        "A) PSP plates are CMOS sensors with immediate wired display always by identity",
+        "B) CCD or CMOS sensors provide immediate image capture with a rigid detector",
+        "C) Radiolucent means white or opaque on the image always",
+        "D) Solid-state sensors are flexible like PSP always"
+      ],
+      "answer": "B) CCD or CMOS sensors provide immediate image capture with a rigid detector",
+      "explanation": "Direct digital conversion of x-ray energy to electronic signal. Therefore, the most accurate choice is: CCD or CMOS sensors provide immediate image capture with a rigid detector. Bulky rigidity can challenge placement.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Direct digital conversion of x-ray energy to electronic signal. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Bulky rigidity can challenge placement. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:22",
+      "question": "Which of the following is the central point about radiolucent?",
+      "options": [
+        "A) Radiolucent structures appear dark because they attenuate fewer x-rays",
+        "B) All histologic enamel caries are always visible on bitewings without threshold",
+        "C) Radiopaque means dark like air always",
+        "D) Radiolucent means white or opaque on the image always"
+      ],
+      "answer": "A) Radiolucent structures appear dark because they attenuate fewer x-rays",
+      "explanation": "Less attenuating materials appear darker. Therefore, the most accurate choice is: Radiolucent structures appear dark because they attenuate fewer x-rays. Dark areas equal less attenuating materials.",
+      "choice_explanations": {
+        "A": "Less attenuating materials appear darker. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Dark areas equal less attenuating materials. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:23",
+      "question": "Which statement about radiopaque is most accurate?",
+      "options": [
+        "A) Dentin is more radiopaque than enamel always",
+        "B) Radiolucent means white or opaque on the image always",
+        "C) Radiopaque means dark like air always",
+        "D) Radiopaque structures appear light because they attenuate more x-rays"
+      ],
+      "answer": "D) Radiopaque structures appear light because they attenuate more x-rays",
+      "explanation": "Dense mineral and metal block photons. Therefore, the most accurate choice is: Radiopaque structures appear light because they attenuate more x-rays. Enamel and amalgam are radiopaque.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Enamel and amalgam are radiopaque. It is less consistent than the correct choice.",
+        "D": "Dense mineral and metal block photons. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:24",
+      "question": "A 34-year-old woman has a complex presentation of enamel vs dentin radiopacity. Which of the following is most accurate?",
+      "options": [
+        "A) Enamel is more radiopaque than dentin because of higher mineral content",
+        "B) All histologic enamel caries are always visible on bitewings without threshold",
+        "C) Radiopaque means dark like air always",
+        "D) Dentin is more radiopaque than enamel always"
+      ],
+      "answer": "A) Enamel is more radiopaque than dentin because of higher mineral content",
+      "explanation": "Mineral density drives attenuation. Therefore, the most accurate choice is: Enamel is more radiopaque than dentin because of higher mineral content. Contrast outlines pulp chambers.",
+      "choice_explanations": {
+        "A": "Mineral density drives attenuation. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Contrast outlines pulp chambers. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:25",
+      "question": "Small differences in wording about caries radiographic detection matter. Which of the following is correct?",
+      "options": [
+        "A) Bitewings detect all early occlusal enamel caries easily always",
+        "B) Enamel pearls are radiolucent caries",
+        "C) All histologic enamel caries are always visible on bitewings without threshold",
+        "D) Interproximal caries appear as radiolucent notches in enamel or dentin on bitewings when sufficiently advanced"
+      ],
+      "answer": "D) Interproximal caries appear as radiolucent notches in enamel or dentin on bitewings when sufficiently advanced",
+      "explanation": "Demineralization reduces attenuation. Therefore, the most accurate choice is: Interproximal caries appear as radiolucent notches in enamel or dentin on bitewings when sufficiently advanced. Early lesions may be missed radiographically.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Early lesions may be missed radiographically. It is less consistent than the correct choice.",
+        "D": "Demineralization reduces attenuation. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:26",
+      "question": "A detailed evaluation for cervical burnout is underway in a 26-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) Extreme enhancement always reveals true histology without error",
+        "B) Cervical burnout is a radiolucent optical phenomenon at the neck of the tooth that can mimic caries",
+        "C) Cervical burnout is always true root caries requiring restoration without clinical check",
+        "D) Cementoblastoma is identical to condensing osteitis of necrosis always without root attachment continuity"
+      ],
+      "answer": "B) Cervical burnout is a radiolucent optical phenomenon at the neck of the tooth that can mimic caries",
+      "explanation": "X-ray geometry and anatomy create cervical radiolucent artifacts. Therefore, the most accurate choice is: Cervical burnout is a radiolucent optical phenomenon at the neck of the tooth that can mimic caries. Differentiate clinically from true caries.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "X-ray geometry and anatomy create cervical radiolucent artifacts. This matches the correct interpretation.",
+        "C": "Differentiate clinically from true caries. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:27",
+      "question": "A 33-year-old man has findings that make mach band effect hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) All histologic enamel caries are always visible on bitewings without threshold",
+        "B) Mach bands are perceptual contrast illusions at boundaries that can mimic cracks or caries",
+        "C) Cervical burnout is always true root caries requiring restoration without clinical check",
+        "D) Mach bands are real fractures always"
+      ],
+      "answer": "B) Mach bands are perceptual contrast illusions at boundaries that can mimic cracks or caries",
+      "explanation": "Lateral inhibition in visual perception exaggerates edges. Therefore, the most accurate choice is: Mach bands are perceptual contrast illusions at boundaries that can mimic cracks or caries. Correlate with clinical findings.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Lateral inhibition in visual perception exaggerates edges. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Correlate with clinical findings. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:28",
+      "question": "In a 49-year-old man, distinguishing periapical radiolucency from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Periapical radiolucency may represent granuloma, cyst, or abscess related to pulp necrosis commonly",
+        "B) Internal resorption is identical to external cervical resorption without parallax ever distinguishable",
+        "C) Dentigerous cysts form only around erupted root apices like periapical cysts of necrosis always",
+        "D) All periapical radiolucencies are healthy marrow without disease"
+      ],
+      "answer": "A) Periapical radiolucency may represent granuloma, cyst, or abscess related to pulp necrosis commonly",
+      "explanation": "Bone loss at apex from inflammatory mediators of canal infection. Therefore, the most accurate choice is: Periapical radiolucency may represent granuloma, cyst, or abscess related to pulp necrosis commonly. Combine with vitality testing.",
+      "choice_explanations": {
+        "A": "Bone loss at apex from inflammatory mediators of canal infection. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Combine with vitality testing. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "oral_radiology:extreme:29",
+      "question": "A 64-year-old woman returns with ongoing problems related to condensing osteitis. Which of the following is most accurate?",
+      "options": [
+        "A) Condensing osteitis is air in the maxillary sinus",
+        "B) Cementoblastoma is identical to condensing osteitis of necrosis always without root attachment continuity",
+        "C) Condensing osteitis is a radiopaque apical response sometimes to long-standing pulpitis or necrosis",
+        "D) Radiopaque means dark like air always"
+      ],
+      "answer": "C) Condensing osteitis is a radiopaque apical response sometimes to long-standing pulpitis or necrosis",
+      "explanation": "Chronic low-grade stimulus induces dense bone. Therefore, the most accurate choice is: Condensing osteitis is a radiopaque apical response sometimes to long-standing pulpitis or necrosis. Assess pulp status.",
+      "choice_explanations": {
+        "A": "Assess pulp status. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Chronic low-grade stimulus induces dense bone. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ]
+}

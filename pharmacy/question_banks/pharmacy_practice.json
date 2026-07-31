@@ -1,0 +1,2170 @@
+{
+  "easy": [
+    {
+      "id": "pharmacy_practice:easy:0",
+      "question": "Which of the following is true of PPCP collect?",
+      "options": [
+        "A) Pharmacists Collect subjective/objective information as first PPCP step",
+        "B) Collect means dispensing without gathering any patient data",
+        "C) Plan means unilaterally changing controlled substances without documentation ever",
+        "D) Conscientious refusal means secretly discarding the Rx without telling the patient ever"
+      ],
+      "answer": "A) Pharmacists Collect subjective/objective information as first PPCP step",
+      "explanation": "Medication history, labs, and patient concerns feed the care process. Therefore, the most accurate choice is: Pharmacists Collect subjective/objective information as first PPCP step. Collecting information precedes assessment and planning.",
+      "choice_explanations": {
+        "A": "Medication history, labs, and patient concerns feed the care process. This matches the correct interpretation.",
+        "B": "Collecting information precedes assessment and planning. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:1",
+      "question": "Which finding is expected in PPCP assess?",
+      "options": [
+        "A) Collect means dispensing without gathering any patient data",
+        "B) Assess means skipping to counsel without evaluating drug therapy problems",
+        "C) Assess therapy for indication, effectiveness, safety, and adherence problems",
+        "D) Indication review is irrelevant if the label looks neat"
+      ],
+      "answer": "C) Assess therapy for indication, effectiveness, safety, and adherence problems",
+      "explanation": "Drug therapy problems are identified in the Assess step. Therefore, the most accurate choice is: Assess therapy for indication, effectiveness, safety, and adherence problems. Assessment is evaluative, not skipped.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Assessment is evaluative, not skipped. It is less consistent than the correct choice.",
+        "C": "Drug therapy problems are identified in the Assess step. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:2",
+      "question": "Which of the following statements about PPCP plan is correct?",
+      "options": [
+        "A) Collect means dispensing without gathering any patient data",
+        "B) Plan means unilaterally changing controlled substances without documentation ever",
+        "C) Plan evidence-based recommendations with patient/clinician collaboration",
+        "D) Conscientious refusal means secretly discarding the Rx without telling the patient ever"
+      ],
+      "answer": "C) Plan evidence-based recommendations with patient/clinician collaboration",
+      "explanation": "Goals, interventions, and follow-up are specified in the plan. Therefore, the most accurate choice is: Plan evidence-based recommendations with patient/clinician collaboration. Plans are collaborative and documented.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Plans are collaborative and documented. It is less consistent than the correct choice.",
+        "C": "Goals, interventions, and follow-up are specified in the plan. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:3",
+      "question": "In PPCP implement, which of the following is correct?",
+      "options": [
+        "A) Implement the care plan including education, coordination, and prescribing where authorized",
+        "B) Collect means dispensing without gathering any patient data",
+        "C) Plan means unilaterally changing controlled substances without documentation ever",
+        "D) Implement forbids patient education"
+      ],
+      "answer": "A) Implement the care plan including education, coordination, and prescribing where authorized",
+      "explanation": "Dispensing, administering vaccines, and communicating changes are implementation acts. Therefore, the most accurate choice is: Implement the care plan including education, coordination, and prescribing where authorized. Education is a core implementation activity.",
+      "choice_explanations": {
+        "A": "Dispensing, administering vaccines, and communicating changes are implementation acts. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Education is a core implementation activity. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:4",
+      "question": "Which of the following best describes PPCP follow-up?",
+      "options": [
+        "A) Follow-up evaluates effectiveness/safety and modifies the plan",
+        "B) Follow-up is unnecessary once a prescription is filled once",
+        "C) Plan means unilaterally changing controlled substances without documentation ever",
+        "D) Technique does not matter if the prescription was filled correctly"
+      ],
+      "answer": "A) Follow-up evaluates effectiveness/safety and modifies the plan",
+      "explanation": "Monitoring labs and adherence closes the care loop. Therefore, the most accurate choice is: Follow-up evaluates effectiveness/safety and modifies the plan. Follow-up is essential to PPCP.",
+      "choice_explanations": {
+        "A": "Monitoring labs and adherence closes the care loop. This matches the correct interpretation.",
+        "B": "Follow-up is essential to PPCP. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:5",
+      "question": "Select the correct statement about drug therapy indication.",
+      "options": [
+        "A) Indication review is irrelevant if the label looks neat",
+        "B) Effectiveness means only that the patient likes the tablet color",
+        "C) Assess means skipping to counsel without evaluating drug therapy problems",
+        "D) Every medication should have a clear evidence-based indication for the patient"
+      ],
+      "answer": "D) Every medication should have a clear evidence-based indication for the patient",
+      "explanation": "Unnecessary drugs add ADR and cost burden. Therefore, the most accurate choice is: Every medication should have a clear evidence-based indication for the patient. Indication assessment is a primary DTP category.",
+      "choice_explanations": {
+        "A": "Indication assessment is a primary DTP category. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Unnecessary drugs add ADR and cost burden. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:6",
+      "question": "Which mechanism accounts for effectiveness assessment?",
+      "options": [
+        "A) Nonadherence always means the patient is simply lazy with no barriers",
+        "B) Effectiveness means only that the patient likes the tablet color",
+        "C) Assess means skipping to counsel without evaluating drug therapy problems",
+        "D) Therapy should achieve disease/clinical goals at appropriate intensity"
+      ],
+      "answer": "D) Therapy should achieve disease/clinical goals at appropriate intensity",
+      "explanation": "Goal attainment and biomarker response guide intensification. Therefore, the most accurate choice is: Therapy should achieve disease/clinical goals at appropriate intensity. Clinical goals define effectiveness.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Clinical goals define effectiveness. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Goal attainment and biomarker response guide intensification. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:7",
+      "question": "Which of the following applies to safety assessment?",
+      "options": [
+        "A) Safety assessment ignores interactions if the drug is common",
+        "B) Assess means skipping to counsel without evaluating drug therapy problems",
+        "C) High-alert means the drug is risk-free and needs fewer checks",
+        "D) Screen for ADRs, interactions, contraindications, and dosing in organ impairment"
+      ],
+      "answer": "D) Screen for ADRs, interactions, contraindications, and dosing in organ impairment",
+      "explanation": "High-alert drugs warrant heightened safety checks. Therefore, the most accurate choice is: Screen for ADRs, interactions, contraindications, and dosing in organ impairment. Interaction/ADR screening is central to safety.",
+      "choice_explanations": {
+        "A": "Interaction/ADR screening is central to safety. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "High-alert drugs warrant heightened safety checks. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:8",
+      "question": "Which of the following is true of adherence assessment?",
+      "options": [
+        "A) Cost barriers should be ignored because adherence is unrelated to cost",
+        "B) Adherence packaging always increases regimen errors versus vials for everyone",
+        "C) Explore barriers: cost, regimen complexity, beliefs, adverse effects, access",
+        "D) Nonadherence always means the patient is simply lazy with no barriers"
+      ],
+      "answer": "C) Explore barriers: cost, regimen complexity, beliefs, adverse effects, access",
+      "explanation": "Motivational interviewing and simplification improve adherence. Therefore, the most accurate choice is: Explore barriers: cost, regimen complexity, beliefs, adverse effects, access. Barriers are multifactorial, not moral failure alone.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Motivational interviewing and simplification improve adherence. This matches the correct interpretation.",
+        "D": "Barriers are multifactorial, not moral failure alone. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:9",
+      "question": "Which finding is expected in MTM services?",
+      "options": [
+        "A) Medication therapy management optimizes regimens for complex patients often in Part D frameworks",
+        "B) Part D MTM is only for beneficiaries on zero medications",
+        "C) Provider status means pharmacists stop counseling patients",
+        "D) MTM forbids reviewing medication lists"
+      ],
+      "answer": "A) Medication therapy management optimizes regimens for complex patients often in Part D frameworks",
+      "explanation": "CMRs and targeted medication reviews are common MTM elements. Therefore, the most accurate choice is: Medication therapy management optimizes regimens for complex patients often in Part D frameworks. Reviewing therapy is the point of MTM.",
+      "choice_explanations": {
+        "A": "CMRs and targeted medication reviews are common MTM elements. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Reviewing therapy is the point of MTM. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:10",
+      "question": "Which of the following statements about CMR comprehensive is correct?",
+      "options": [
+        "A) SOAP notes forbid recording assessment and plan",
+        "B) CMR only counts tablets without clinical evaluation",
+        "C) Comprehensive medication review systematically evaluates all medications and generates a MAP",
+        "D) MAP is a DEA form for ordering schedule II drugs only"
+      ],
+      "answer": "C) Comprehensive medication review systematically evaluates all medications and generates a MAP",
+      "explanation": "Personal medication list and medication action plan support patients. Therefore, the most accurate choice is: Comprehensive medication review systematically evaluates all medications and generates a MAP. CMR is clinical, not mere counting.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "CMR is clinical, not mere counting. It is less consistent than the correct choice.",
+        "C": "Personal medication list and medication action plan support patients. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:11",
+      "question": "In MAP medication action plan, which of the following is correct?",
+      "options": [
+        "A) Patient-centric document listing actions to achieve medication-related goals",
+        "B) DAW codes are DEA schedule numbers",
+        "C) Effectiveness means only that the patient likes the tablet color",
+        "D) MAP is a DEA form for ordering schedule II drugs only"
+      ],
+      "answer": "A) Patient-centric document listing actions to achieve medication-related goals",
+      "explanation": "Clear action steps improve patient engagement after MTM. Therefore, the most accurate choice is: Patient-centric document listing actions to achieve medication-related goals. It is a patient care tool, not a DEA order form.",
+      "choice_explanations": {
+        "A": "Clear action steps improve patient engagement after MTM. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "It is a patient care tool, not a DEA order form. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:12",
+      "question": "Which of the following best describes PML personal med list?",
+      "options": [
+        "A) Naloxone should be withheld from high-risk opioid patients to avoid risk compensation myths",
+        "B) Accurate reconciled list of all current medications including OTCs/herbals",
+        "C) PML should exclude OTCs and supplements as irrelevant",
+        "D) Indication review is irrelevant if the label looks neat"
+      ],
+      "answer": "B) Accurate reconciled list of all current medications including OTCs/herbals",
+      "explanation": "OTC/herbal inclusion catches interactions patients forget to mention. Therefore, the most accurate choice is: Accurate reconciled list of all current medications including OTCs/herbals. OTCs/herbals belong on the complete list.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "OTC/herbal inclusion catches interactions patients forget to mention. This matches the correct interpretation.",
+        "C": "OTCs/herbals belong on the complete list. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:13",
+      "question": "Select the correct statement about SOAP note pharmacy.",
+      "options": [
+        "A) CMR only counts tablets without clinical evaluation",
+        "B) Subjective, Objective, Assessment, Plan structure documents clinical encounters",
+        "C) Plan means unilaterally changing controlled substances without documentation ever",
+        "D) SOAP notes forbid recording assessment and plan"
+      ],
+      "answer": "B) Subjective, Objective, Assessment, Plan structure documents clinical encounters",
+      "explanation": "Clear documentation supports continuity and liability protection. Therefore, the most accurate choice is: Subjective, Objective, Assessment, Plan structure documents clinical encounters. A and P are essential SOAP elements.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Clear documentation supports continuity and liability protection. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "A and P are essential SOAP elements. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:14",
+      "question": "Which mechanism accounts for SBAR communication?",
+      "options": [
+        "A) SBAR means speaking vaguely without recommendation",
+        "B) Situation-Background-Assessment-Recommendation frames concise clinician communication",
+        "C) SOAP notes forbid recording assessment and plan",
+        "D) Plan means unilaterally changing controlled substances without documentation ever"
+      ],
+      "answer": "B) Situation-Background-Assessment-Recommendation frames concise clinician communication",
+      "explanation": "Recommendation clarity improves acceptance of pharmacy interventions. Therefore, the most accurate choice is: Situation-Background-Assessment-Recommendation frames concise clinician communication. The R requires a clear recommendation.",
+      "choice_explanations": {
+        "A": "The R requires a clear recommendation. It is less consistent than the correct choice.",
+        "B": "Recommendation clarity improves acceptance of pharmacy interventions. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:15",
+      "question": "Which of the following applies to prescription legality?",
+      "options": [
+        "A) Technician self-verification without pharmacist check is ideal for all hospitals always without rules",
+        "B) Pharmacists have zero duty regarding controlled substance legitimacy",
+        "C) Any napkin scribble without date or signature is always legally valid nationwide",
+        "D) Valid Rx needs authorized prescriber, patient, drug, strength, directions, date, and signature rules per law"
+      ],
+      "answer": "D) Valid Rx needs authorized prescriber, patient, drug, strength, directions, date, and signature rules per law",
+      "explanation": "Pharmacists share corresponding responsibility for legitimacy. Therefore, the most accurate choice is: Valid Rx needs authorized prescriber, patient, drug, strength, directions, date, and signature rules per law. Legal elements are required.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Legal elements are required. It is less consistent than the correct choice.",
+        "D": "Pharmacists share corresponding responsibility for legitimacy. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:16",
+      "question": "Which of the following is true of corresponding responsibility?",
+      "options": [
+        "A) Pharmacist must ensure prescriptions are for legitimate medical purpose in usual course",
+        "B) PDMPs are illegal for pharmacists to check before dispensing opioids",
+        "C) Encourage patients to share leftover oxycodone with friends who have pain",
+        "D) Pharmacists have zero duty regarding controlled substance legitimacy"
+      ],
+      "answer": "A) Pharmacist must ensure prescriptions are for legitimate medical purpose in usual course",
+      "explanation": "Red flags for diversion must be addressed before dispensing. Therefore, the most accurate choice is: Pharmacist must ensure prescriptions are for legitimate medical purpose in usual course. Duty is shared with the prescriber.",
+      "choice_explanations": {
+        "A": "Red flags for diversion must be addressed before dispensing. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Duty is shared with the prescriber. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:17",
+      "question": "Which finding matches controlled substance schedules?",
+      "options": [
+        "A) Schedule V always has higher abuse potential than Schedule II by definition",
+        "B) Pharmacists have zero duty regarding controlled substance legitimacy",
+        "C) Schedule II highest abuse potential among medical drugs with strict ordering; III–V lesser controls",
+        "D) Schedule II prescriptions may be refilled 5 times in 6 months federally like CIII–IV"
+      ],
+      "answer": "C) Schedule II highest abuse potential among medical drugs with strict ordering; III–V lesser controls",
+      "explanation": "Federal/state schedules dictate refill and documentation rules. Therefore, the most accurate choice is: Schedule II highest abuse potential among medical drugs with strict ordering; III–V lesser controls. CII is more restricted than CV generally.",
+      "choice_explanations": {
+        "A": "CII is more restricted than CV generally. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Federal/state schedules dictate refill and documentation rules. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:18",
+      "question": "Which of the following statements about CII refills federal is correct?",
+      "options": [
+        "A) Federal rules prohibit refills of Schedule II prescriptions (new Rx required)",
+        "B) Schedule II prescriptions may be refilled 5 times in 6 months federally like CIII–IV",
+        "C) All CII prescriptions may be freely transferred unlimited times between pharmacies federally like noncontrols",
+        "D) CIII–IV may be refilled unlimited times for 3 years federally"
+      ],
+      "answer": "A) Federal rules prohibit refills of Schedule II prescriptions (new Rx required)",
+      "explanation": "Partial fill rules have specific allowances in some settings/laws. Therefore, the most accurate choice is: Federal rules prohibit refills of Schedule II prescriptions (new Rx required). CII refill prohibition differs from CIII–IV.",
+      "choice_explanations": {
+        "A": "Partial fill rules have specific allowances in some settings/laws. This matches the correct interpretation.",
+        "B": "CII refill prohibition differs from CIII–IV. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:19",
+      "question": "In CIII CIV refills, which of the following is correct?",
+      "options": [
+        "A) Schedule II prescriptions may be refilled 5 times in 6 months federally like CIII–IV",
+        "B) Up to 5 refills within 6 months federally for CIII–IV from written/electronic Rx date themes",
+        "C) All CII prescriptions may be freely transferred unlimited times between pharmacies federally like noncontrols",
+        "D) CIII–IV may be refilled unlimited times for 3 years federally"
+      ],
+      "answer": "B) Up to 5 refills within 6 months federally for CIII–IV from written/electronic Rx date themes",
+      "explanation": "State law may be stricter than federal baselines. Therefore, the most accurate choice is: Up to 5 refills within 6 months federally for CIII–IV from written/electronic Rx date themes. Federal limits exist; not unlimited for years.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "State law may be stricter than federal baselines. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Federal limits exist; not unlimited for years. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:20",
+      "question": "Which of the following best describes DEA number check?",
+      "options": [
+        "A) DEA numbers never need verification if the paper looks glossy",
+        "B) Pharmacists verify DEA format/checksum as one tool against forged controlled Rxs",
+        "C) DAW codes are DEA schedule numbers",
+        "D) Pharmacists have zero duty regarding controlled substance legitimacy"
+      ],
+      "answer": "B) Pharmacists verify DEA format/checksum as one tool against forged controlled Rxs",
+      "explanation": "Prescriber identity confirmation is part of corresponding responsibility. Therefore, the most accurate choice is: Pharmacists verify DEA format/checksum as one tool against forged controlled Rxs. Verification is a professional expectation.",
+      "choice_explanations": {
+        "A": "Verification is a professional expectation. It is less consistent than the correct choice.",
+        "B": "Prescriber identity confirmation is part of corresponding responsibility. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:21",
+      "question": "Select the correct statement about PDMP use.",
+      "options": [
+        "A) Opioid REMS teaches that addiction is impossible with ER opioids",
+        "B) CR caps are illegal for prescription solid oral opioids",
+        "C) Prescription drug monitoring programs help identify overlapping opioid/benzo therapy and diversion patterns",
+        "D) PDMPs are illegal for pharmacists to check before dispensing opioids"
+      ],
+      "answer": "C) Prescription drug monitoring programs help identify overlapping opioid/benzo therapy and diversion patterns",
+      "explanation": "Reviewing PDMP is increasingly mandated or expected before opioid dispensing. Therefore, the most accurate choice is: Prescription drug monitoring programs help identify overlapping opioid/benzo therapy and diversion patterns. PDMP checks are encouraged/required, not forbidden.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Reviewing PDMP is increasingly mandated or expected before opioid dispensing. This matches the correct interpretation.",
+        "D": "PDMP checks are encouraged/required, not forbidden. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:22",
+      "question": "Which mechanism accounts for red flags opioids?",
+      "options": [
+        "A) Cash only, early fills, long distances, inconsistent stories, and cocktail Rxs warrant scrutiny",
+        "B) Cost barriers should be ignored because adherence is unrelated to cost",
+        "C) Red flags should be ignored if the patient is impatient",
+        "D) Conscientious refusal means secretly discarding the Rx without telling the patient ever"
+      ],
+      "answer": "A) Cash only, early fills, long distances, inconsistent stories, and cocktail Rxs warrant scrutiny",
+      "explanation": "Resolve concerns via prescriber contact and clinical judgment documentation. Therefore, the most accurate choice is: Cash only, early fills, long distances, inconsistent stories, and cocktail Rxs warrant scrutiny. Red flags require action, not ignore-and-fill.",
+      "choice_explanations": {
+        "A": "Resolve concerns via prescriber contact and clinical judgment documentation. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Red flags require action, not ignore-and-fill. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:23",
+      "question": "Which of the following applies to partial fill opioids?",
+      "options": [
+        "A) Flush all expired chemo and opioids into public water as first choice always",
+        "B) Partial fills of CII are always forbidden in all US contexts without exception",
+        "C) Technician self-verification without pharmacist check is ideal for all hospitals always without rules",
+        "D) Laws/policies may allow partial fills; remaining quantity rules and timelines must be followed"
+      ],
+      "answer": "D) Laws/policies may allow partial fills; remaining quantity rules and timelines must be followed",
+      "explanation": "Document quantity dispensed and remaining carefully. Therefore, the most accurate choice is: Laws/policies may allow partial fills; remaining quantity rules and timelines must be followed. Partial fills can be permissible under specified rules.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Partial fills can be permissible under specified rules. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Document quantity dispensed and remaining carefully. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:24",
+      "question": "Which of the following is true of transfer controlled?",
+      "options": [
+        "A) Pharmacies should refuse all legitimate buprenorphine OUD prescriptions as policy",
+        "B) All CII prescriptions may be freely transferred unlimited times between pharmacies federally like noncontrols",
+        "C) Schedule II prescriptions may be refilled 5 times in 6 months federally like CIII–IV",
+        "D) Transfer rules differ by schedule and state; CII transfers generally highly restricted"
+      ],
+      "answer": "D) Transfer rules differ by schedule and state; CII transfers generally highly restricted",
+      "explanation": "Know state/federal nuances before transferring. Therefore, the most accurate choice is: Transfer rules differ by schedule and state; CII transfers generally highly restricted. CII transfer is not freely unlimited.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "CII transfer is not freely unlimited. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Know state/federal nuances before transferring. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:25",
+      "question": "Which finding is expected in OBRA 90 counseling?",
+      "options": [
+        "A) Prospective DUR occurs only five years after dispensing",
+        "B) Offer to counsel Medicaid patients on new Rxs; many states expand offer/counseling duties",
+        "C) OBRA ’90 forbids any counseling offers",
+        "D) Retrospective DUR replaces the need for any prospective checks at fill"
+      ],
+      "answer": "B) Offer to counsel Medicaid patients on new Rxs; many states expand offer/counseling duties",
+      "explanation": "Prospective DUR is also an OBRA ’90 expectation theme. Therefore, the most accurate choice is: Offer to counsel Medicaid patients on new Rxs; many states expand offer/counseling duties. Counseling offers are required, not forbidden.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Prospective DUR is also an OBRA ’90 expectation theme. This matches the correct interpretation.",
+        "C": "Counseling offers are required, not forbidden. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:26",
+      "question": "Which of the following statements about prospective DUR is correct?",
+      "options": [
+        "A) Prospective DUR occurs only five years after dispensing",
+        "B) CMR only counts tablets without clinical evaluation",
+        "C) Review indications, interactions, duplicates, allergies, and dosing before dispensing",
+        "D) Retrospective DUR replaces the need for any prospective checks at fill"
+      ],
+      "answer": "C) Review indications, interactions, duplicates, allergies, and dosing before dispensing",
+      "explanation": "Hard clinical stops require pharmacist judgment, not blind override without reason. Therefore, the most accurate choice is: Review indications, interactions, duplicates, allergies, and dosing before dispensing. Prospective means before dispensing.",
+      "choice_explanations": {
+        "A": "Prospective means before dispensing. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Hard clinical stops require pharmacist judgment, not blind override without reason. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:27",
+      "question": "In clinical examination related to retrospective DUR, which of the following is correct?",
+      "options": [
+        "A) Patterns reviewed after dispensing to improve population prescribing quality",
+        "B) Retrospective DUR replaces the need for any prospective checks at fill",
+        "C) PDMPs are illegal for pharmacists to check before dispensing opioids",
+        "D) Prospective DUR occurs only five years after dispensing"
+      ],
+      "answer": "A) Patterns reviewed after dispensing to improve population prescribing quality",
+      "explanation": "Payer and quality programs use retrospective analyses. Therefore, the most accurate choice is: Patterns reviewed after dispensing to improve population prescribing quality. It complements, not replaces, prospective DUR.",
+      "choice_explanations": {
+        "A": "Payer and quality programs use retrospective analyses. This matches the correct interpretation.",
+        "B": "It complements, not replaces, prospective DUR. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:28",
+      "question": "Which of the following best describes allergy documentation?",
+      "options": [
+        "A) Documenting allergy details is unnecessary if the drug name is listed",
+        "B) Tall-man lettering makes similar names harder to distinguish intentionally",
+        "C) Record reaction type/severity; distinguish intolerance from true allergy when possible",
+        "D) PDSA means permanently implementing huge changes without measurement"
+      ],
+      "answer": "C) Record reaction type/severity; distinguish intolerance from true allergy when possible",
+      "explanation": "Reaction quality changes future antibiotic selection dramatically. Therefore, the most accurate choice is: Record reaction type/severity; distinguish intolerance from true allergy when possible. Details matter beyond a bare drug name.",
+      "choice_explanations": {
+        "A": "Details matter beyond a bare drug name. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Reaction quality changes future antibiotic selection dramatically. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:easy:29",
+      "question": "Select the correct statement about high alert medications.",
+      "options": [
+        "A) High-alert means the drug is risk-free and needs fewer checks",
+        "B) ISMP high-alert list drugs cause heightened harm when used in error — need safeguards",
+        "C) Prior authorization means the drug is free without clinical criteria",
+        "D) Incidental disclosure means intentional sale of patient lists without consequence framing"
+      ],
+      "answer": "B) ISMP high-alert list drugs cause heightened harm when used in error — need safeguards",
+      "explanation": "Independent double checks and standardized concentrations reduce harm. Therefore, the most accurate choice is: ISMP high-alert list drugs cause heightened harm when used in error — need safeguards. High-alert implies more, not fewer, safeguards.",
+      "choice_explanations": {
+        "A": "High-alert implies more, not fewer, safeguards. It is less consistent than the correct choice.",
+        "B": "Independent double checks and standardized concentrations reduce harm. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ],
+  "medium": [
+    {
+      "id": "pharmacy_practice:medium:0",
+      "question": "A 68-year-old man is started on treatment related to PPCP collect. Which of the following is correct?",
+      "options": [
+        "A) Conscientious refusal means secretly discarding the Rx without telling the patient ever",
+        "B) Pharmacists Collect subjective/objective information as first PPCP step",
+        "C) Collect means dispensing without gathering any patient data",
+        "D) Plan means unilaterally changing controlled substances without documentation ever"
+      ],
+      "answer": "B) Pharmacists Collect subjective/objective information as first PPCP step",
+      "explanation": "Medication history, labs, and patient concerns feed the care process. Therefore, the most accurate choice is: Pharmacists Collect subjective/objective information as first PPCP step. Collecting information precedes assessment and planning.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Medication history, labs, and patient concerns feed the care process. This matches the correct interpretation.",
+        "C": "Collecting information precedes assessment and planning. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:1",
+      "question": "A 54-year-old man takes several medicines and is assessed regarding PPCP assess. Which of the following is most appropriate?",
+      "options": [
+        "A) Collect means dispensing without gathering any patient data",
+        "B) Plan means unilaterally changing controlled substances without documentation ever",
+        "C) Assess therapy for indication, effectiveness, safety, and adherence problems",
+        "D) Assess means skipping to counsel without evaluating drug therapy problems"
+      ],
+      "answer": "C) Assess therapy for indication, effectiveness, safety, and adherence problems",
+      "explanation": "Drug therapy problems are identified in the Assess step. Therefore, the most accurate choice is: Assess therapy for indication, effectiveness, safety, and adherence problems. Assessment is evaluative, not skipped.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Drug therapy problems are identified in the Assess step. This matches the correct interpretation.",
+        "D": "Assessment is evaluative, not skipped. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:2",
+      "question": "Medication review raises a question about PPCP plan. Which of the following is correct?",
+      "options": [
+        "A) Plan evidence-based recommendations with patient/clinician collaboration",
+        "B) Collect means dispensing without gathering any patient data",
+        "C) Conscientious refusal means secretly discarding the Rx without telling the patient ever",
+        "D) Plan means unilaterally changing controlled substances without documentation ever"
+      ],
+      "answer": "A) Plan evidence-based recommendations with patient/clinician collaboration",
+      "explanation": "Goals, interventions, and follow-up are specified in the plan. Therefore, the most accurate choice is: Plan evidence-based recommendations with patient/clinician collaboration. Plans are collaborative and documented.",
+      "choice_explanations": {
+        "A": "Goals, interventions, and follow-up are specified in the plan. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Plans are collaborative and documented. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:3",
+      "question": "A 49-year-old woman develops an adverse effect related to PPCP implement. Which of the following best explains it?",
+      "options": [
+        "A) Collect means dispensing without gathering any patient data",
+        "B) Implement forbids patient education",
+        "C) Implement the care plan including education, coordination, and prescribing where authorized",
+        "D) Plan means unilaterally changing controlled substances without documentation ever"
+      ],
+      "answer": "C) Implement the care plan including education, coordination, and prescribing where authorized",
+      "explanation": "Dispensing, administering vaccines, and communicating changes are implementation acts. Therefore, the most accurate choice is: Implement the care plan including education, coordination, and prescribing where authorized. Education is a core implementation activity.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Education is a core implementation activity. It is less consistent than the correct choice.",
+        "C": "Dispensing, administering vaccines, and communicating changes are implementation acts. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:4",
+      "question": "A 56-year-old man needs counseling about PPCP follow-up. Which of the following is most appropriate?",
+      "options": [
+        "A) Follow-up is unnecessary once a prescription is filled once",
+        "B) Plan means unilaterally changing controlled substances without documentation ever",
+        "C) Technique does not matter if the prescription was filled correctly",
+        "D) Follow-up evaluates effectiveness/safety and modifies the plan"
+      ],
+      "answer": "D) Follow-up evaluates effectiveness/safety and modifies the plan",
+      "explanation": "Monitoring labs and adherence closes the care loop. Therefore, the most accurate choice is: Follow-up evaluates effectiveness/safety and modifies the plan. Follow-up is essential to PPCP.",
+      "choice_explanations": {
+        "A": "Follow-up is essential to PPCP. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Monitoring labs and adherence closes the care loop. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:5",
+      "question": "During medication reconciliation, drug therapy indication is discussed. Which of the following is correct?",
+      "options": [
+        "A) Every medication should have a clear evidence-based indication for the patient",
+        "B) Indication review is irrelevant if the label looks neat",
+        "C) Effectiveness means only that the patient likes the tablet color",
+        "D) Assess means skipping to counsel without evaluating drug therapy problems"
+      ],
+      "answer": "A) Every medication should have a clear evidence-based indication for the patient",
+      "explanation": "Unnecessary drugs add ADR and cost burden. Therefore, the most accurate choice is: Every medication should have a clear evidence-based indication for the patient. Indication assessment is a primary DTP category.",
+      "choice_explanations": {
+        "A": "Unnecessary drugs add ADR and cost burden. This matches the correct interpretation.",
+        "B": "Indication assessment is a primary DTP category. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:6",
+      "question": "A 34-year-old man needs dose adjustment related to effectiveness assessment. Which of the following is most accurate?",
+      "options": [
+        "A) Assess means skipping to counsel without evaluating drug therapy problems",
+        "B) Therapy should achieve disease/clinical goals at appropriate intensity",
+        "C) Effectiveness means only that the patient likes the tablet color",
+        "D) Nonadherence always means the patient is simply lazy with no barriers"
+      ],
+      "answer": "B) Therapy should achieve disease/clinical goals at appropriate intensity",
+      "explanation": "Goal attainment and biomarker response guide intensification. Therefore, the most accurate choice is: Therapy should achieve disease/clinical goals at appropriate intensity. Clinical goals define effectiveness.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Goal attainment and biomarker response guide intensification. This matches the correct interpretation.",
+        "C": "Clinical goals define effectiveness. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:7",
+      "question": "A 58-year-old man has lab changes linked to safety assessment. Which of the following is correct?",
+      "options": [
+        "A) Safety assessment ignores interactions if the drug is common",
+        "B) Assess means skipping to counsel without evaluating drug therapy problems",
+        "C) High-alert means the drug is risk-free and needs fewer checks",
+        "D) Screen for ADRs, interactions, contraindications, and dosing in organ impairment"
+      ],
+      "answer": "D) Screen for ADRs, interactions, contraindications, and dosing in organ impairment",
+      "explanation": "High-alert drugs warrant heightened safety checks. Therefore, the most accurate choice is: Screen for ADRs, interactions, contraindications, and dosing in organ impairment. Interaction/ADR screening is central to safety.",
+      "choice_explanations": {
+        "A": "Interaction/ADR screening is central to safety. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "High-alert drugs warrant heightened safety checks. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:8",
+      "question": "A 46-year-old man is started on treatment related to adherence assessment. Which of the following is correct?",
+      "options": [
+        "A) Explore barriers: cost, regimen complexity, beliefs, adverse effects, access",
+        "B) Nonadherence always means the patient is simply lazy with no barriers",
+        "C) MI means arguing until the patient submits to advice",
+        "D) Cost barriers should be ignored because adherence is unrelated to cost"
+      ],
+      "answer": "A) Explore barriers: cost, regimen complexity, beliefs, adverse effects, access",
+      "explanation": "Motivational interviewing and simplification improve adherence. Therefore, the most accurate choice is: Explore barriers: cost, regimen complexity, beliefs, adverse effects, access. Barriers are multifactorial, not moral failure alone.",
+      "choice_explanations": {
+        "A": "Motivational interviewing and simplification improve adherence. This matches the correct interpretation.",
+        "B": "Barriers are multifactorial, not moral failure alone. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:9",
+      "question": "A 49-year-old woman takes several medicines and is assessed regarding MTM services. Which of the following is most appropriate?",
+      "options": [
+        "A) Part D MTM is only for beneficiaries on zero medications",
+        "B) Medication therapy management optimizes regimens for complex patients often in Part D frameworks",
+        "C) Beers-listed drugs must never be discussed because lists are meaningless",
+        "D) MTM forbids reviewing medication lists"
+      ],
+      "answer": "B) Medication therapy management optimizes regimens for complex patients often in Part D frameworks",
+      "explanation": "CMRs and targeted medication reviews are common MTM elements. Therefore, the most accurate choice is: Medication therapy management optimizes regimens for complex patients often in Part D frameworks. Reviewing therapy is the point of MTM.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "CMRs and targeted medication reviews are common MTM elements. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Reviewing therapy is the point of MTM. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:10",
+      "question": "Medication review raises a question about CMR comprehensive. Which of the following is correct?",
+      "options": [
+        "A) CMR only counts tablets without clinical evaluation",
+        "B) MAP is a DEA form for ordering schedule II drugs only",
+        "C) MTM forbids reviewing medication lists",
+        "D) Comprehensive medication review systematically evaluates all medications and generates a MAP"
+      ],
+      "answer": "D) Comprehensive medication review systematically evaluates all medications and generates a MAP",
+      "explanation": "Personal medication list and medication action plan support patients. Therefore, the most accurate choice is: Comprehensive medication review systematically evaluates all medications and generates a MAP. CMR is clinical, not mere counting.",
+      "choice_explanations": {
+        "A": "CMR is clinical, not mere counting. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Personal medication list and medication action plan support patients. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:11",
+      "question": "A 70-year-old woman develops an adverse effect related to MAP medication action plan. Which of the following best explains it?",
+      "options": [
+        "A) Effectiveness means only that the patient likes the tablet color",
+        "B) Schedule V always has higher abuse potential than Schedule II by definition",
+        "C) MAP is a DEA form for ordering schedule II drugs only",
+        "D) Patient-centric document listing actions to achieve medication-related goals"
+      ],
+      "answer": "D) Patient-centric document listing actions to achieve medication-related goals",
+      "explanation": "Clear action steps improve patient engagement after MTM. Therefore, the most accurate choice is: Patient-centric document listing actions to achieve medication-related goals. It is a patient care tool, not a DEA order form.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "It is a patient care tool, not a DEA order form. It is less consistent than the correct choice.",
+        "D": "Clear action steps improve patient engagement after MTM. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:12",
+      "question": "A 54-year-old woman needs counseling about PML personal med list. Which of the following is most appropriate?",
+      "options": [
+        "A) Accurate reconciled list of all current medications including OTCs/herbals",
+        "B) PML should exclude OTCs and supplements as irrelevant",
+        "C) Indication review is irrelevant if the label looks neat",
+        "D) All alarm features should be treated with OTC antacid only forever"
+      ],
+      "answer": "A) Accurate reconciled list of all current medications including OTCs/herbals",
+      "explanation": "OTC/herbal inclusion catches interactions patients forget to mention. Therefore, the most accurate choice is: Accurate reconciled list of all current medications including OTCs/herbals. OTCs/herbals belong on the complete list.",
+      "choice_explanations": {
+        "A": "OTC/herbal inclusion catches interactions patients forget to mention. This matches the correct interpretation.",
+        "B": "OTCs/herbals belong on the complete list. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:13",
+      "question": "During medication reconciliation, SOAP note pharmacy is discussed. Which of the following is correct?",
+      "options": [
+        "A) SOAP notes forbid recording assessment and plan",
+        "B) Plan means unilaterally changing controlled substances without documentation ever",
+        "C) Subjective, Objective, Assessment, Plan structure documents clinical encounters",
+        "D) CMR only counts tablets without clinical evaluation"
+      ],
+      "answer": "C) Subjective, Objective, Assessment, Plan structure documents clinical encounters",
+      "explanation": "Clear documentation supports continuity and liability protection. Therefore, the most accurate choice is: Subjective, Objective, Assessment, Plan structure documents clinical encounters. A and P are essential SOAP elements.",
+      "choice_explanations": {
+        "A": "A and P are essential SOAP elements. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Clear documentation supports continuity and liability protection. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:14",
+      "question": "A 46-year-old man needs dose adjustment related to SBAR communication. Which of the following is most accurate?",
+      "options": [
+        "A) SBAR means speaking vaguely without recommendation",
+        "B) SOAP notes forbid recording assessment and plan",
+        "C) Plan means unilaterally changing controlled substances without documentation ever",
+        "D) Situation-Background-Assessment-Recommendation frames concise clinician communication"
+      ],
+      "answer": "D) Situation-Background-Assessment-Recommendation frames concise clinician communication",
+      "explanation": "Recommendation clarity improves acceptance of pharmacy interventions. Therefore, the most accurate choice is: Situation-Background-Assessment-Recommendation frames concise clinician communication. The R requires a clear recommendation.",
+      "choice_explanations": {
+        "A": "The R requires a clear recommendation. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Recommendation clarity improves acceptance of pharmacy interventions. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:15",
+      "question": "A 34-year-old man has lab changes linked to prescription legality. Which of the following is correct?",
+      "options": [
+        "A) Any napkin scribble without date or signature is always legally valid nationwide",
+        "B) Technician self-verification without pharmacist check is ideal for all hospitals always without rules",
+        "C) Pharmacists have zero duty regarding controlled substance legitimacy",
+        "D) Valid Rx needs authorized prescriber, patient, drug, strength, directions, date, and signature rules per law"
+      ],
+      "answer": "D) Valid Rx needs authorized prescriber, patient, drug, strength, directions, date, and signature rules per law",
+      "explanation": "Pharmacists share corresponding responsibility for legitimacy. Therefore, the most accurate choice is: Valid Rx needs authorized prescriber, patient, drug, strength, directions, date, and signature rules per law. Legal elements are required.",
+      "choice_explanations": {
+        "A": "Legal elements are required. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Pharmacists share corresponding responsibility for legitimacy. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:16",
+      "question": "A 65-year-old man is started on treatment related to corresponding responsibility. Which of the following is correct?",
+      "options": [
+        "A) PDMPs are illegal for pharmacists to check before dispensing opioids",
+        "B) Pharmacist must ensure prescriptions are for legitimate medical purpose in usual course",
+        "C) Encourage patients to share leftover oxycodone with friends who have pain",
+        "D) Pharmacists have zero duty regarding controlled substance legitimacy"
+      ],
+      "answer": "B) Pharmacist must ensure prescriptions are for legitimate medical purpose in usual course",
+      "explanation": "Red flags for diversion must be addressed before dispensing. Therefore, the most accurate choice is: Pharmacist must ensure prescriptions are for legitimate medical purpose in usual course. Duty is shared with the prescriber.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Red flags for diversion must be addressed before dispensing. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Duty is shared with the prescriber. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:17",
+      "question": "While evaluating a 32-year-old woman, attention turns to controlled substance schedules. Which of the following is most accurate?",
+      "options": [
+        "A) Schedule II highest abuse potential among medical drugs with strict ordering; III–V lesser controls",
+        "B) Schedule V always has higher abuse potential than Schedule II by definition",
+        "C) Pharmacists have zero duty regarding controlled substance legitimacy",
+        "D) Schedule II prescriptions may be refilled 5 times in 6 months federally like CIII–IV"
+      ],
+      "answer": "A) Schedule II highest abuse potential among medical drugs with strict ordering; III–V lesser controls",
+      "explanation": "Federal/state schedules dictate refill and documentation rules. Therefore, the most accurate choice is: Schedule II highest abuse potential among medical drugs with strict ordering; III–V lesser controls. CII is more restricted than CV generally.",
+      "choice_explanations": {
+        "A": "Federal/state schedules dictate refill and documentation rules. This matches the correct interpretation.",
+        "B": "CII is more restricted than CV generally. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:18",
+      "question": "Medication review raises a question about CII refills federal. Which of the following is correct?",
+      "options": [
+        "A) CIII–IV may be refilled unlimited times for 3 years federally",
+        "B) All CII prescriptions may be freely transferred unlimited times between pharmacies federally like noncontrols",
+        "C) Schedule II prescriptions may be refilled 5 times in 6 months federally like CIII–IV",
+        "D) Federal rules prohibit refills of Schedule II prescriptions (new Rx required)"
+      ],
+      "answer": "D) Federal rules prohibit refills of Schedule II prescriptions (new Rx required)",
+      "explanation": "Partial fill rules have specific allowances in some settings/laws. Therefore, the most accurate choice is: Federal rules prohibit refills of Schedule II prescriptions (new Rx required). CII refill prohibition differs from CIII–IV.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "CII refill prohibition differs from CIII–IV. It is less consistent than the correct choice.",
+        "D": "Partial fill rules have specific allowances in some settings/laws. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:19",
+      "question": "A 39-year-old woman develops an adverse effect related to CIII CIV refills. Which of the following best explains it?",
+      "options": [
+        "A) Up to 5 refills within 6 months federally for CIII–IV from written/electronic Rx date themes",
+        "B) Schedule II prescriptions may be refilled 5 times in 6 months federally like CIII–IV",
+        "C) CIII–IV may be refilled unlimited times for 3 years federally",
+        "D) All CII prescriptions may be freely transferred unlimited times between pharmacies federally like noncontrols"
+      ],
+      "answer": "A) Up to 5 refills within 6 months federally for CIII–IV from written/electronic Rx date themes",
+      "explanation": "State law may be stricter than federal baselines. Therefore, the most accurate choice is: Up to 5 refills within 6 months federally for CIII–IV from written/electronic Rx date themes. Federal limits exist; not unlimited for years.",
+      "choice_explanations": {
+        "A": "State law may be stricter than federal baselines. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Federal limits exist; not unlimited for years. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:20",
+      "question": "A 46-year-old man needs counseling about DEA number check. Which of the following is most appropriate?",
+      "options": [
+        "A) DAW codes are DEA schedule numbers",
+        "B) Pharmacists verify DEA format/checksum as one tool against forged controlled Rxs",
+        "C) DEA numbers never need verification if the paper looks glossy",
+        "D) Pharmacists have zero duty regarding controlled substance legitimacy"
+      ],
+      "answer": "B) Pharmacists verify DEA format/checksum as one tool against forged controlled Rxs",
+      "explanation": "Prescriber identity confirmation is part of corresponding responsibility. Therefore, the most accurate choice is: Pharmacists verify DEA format/checksum as one tool against forged controlled Rxs. Verification is a professional expectation.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Prescriber identity confirmation is part of corresponding responsibility. This matches the correct interpretation.",
+        "C": "Verification is a professional expectation. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:21",
+      "question": "During medication reconciliation, PDMP use is discussed. Which of the following is correct?",
+      "options": [
+        "A) Opioid REMS teaches that addiction is impossible with ER opioids",
+        "B) Prescription drug monitoring programs help identify overlapping opioid/benzo therapy and diversion patterns",
+        "C) CR caps are illegal for prescription solid oral opioids",
+        "D) PDMPs are illegal for pharmacists to check before dispensing opioids"
+      ],
+      "answer": "B) Prescription drug monitoring programs help identify overlapping opioid/benzo therapy and diversion patterns",
+      "explanation": "Reviewing PDMP is increasingly mandated or expected before opioid dispensing. Therefore, the most accurate choice is: Prescription drug monitoring programs help identify overlapping opioid/benzo therapy and diversion patterns. PDMP checks are encouraged/required, not forbidden.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Reviewing PDMP is increasingly mandated or expected before opioid dispensing. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "PDMP checks are encouraged/required, not forbidden. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:22",
+      "question": "A 40-year-old woman needs dose adjustment related to red flags opioids. Which of the following is most accurate?",
+      "options": [
+        "A) Effectiveness means only that the patient likes the tablet color",
+        "B) Conscientious refusal means secretly discarding the Rx without telling the patient ever",
+        "C) Cash only, early fills, long distances, inconsistent stories, and cocktail Rxs warrant scrutiny",
+        "D) Red flags should be ignored if the patient is impatient"
+      ],
+      "answer": "C) Cash only, early fills, long distances, inconsistent stories, and cocktail Rxs warrant scrutiny",
+      "explanation": "Resolve concerns via prescriber contact and clinical judgment documentation. Therefore, the most accurate choice is: Cash only, early fills, long distances, inconsistent stories, and cocktail Rxs warrant scrutiny. Red flags require action, not ignore-and-fill.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Resolve concerns via prescriber contact and clinical judgment documentation. This matches the correct interpretation.",
+        "D": "Red flags require action, not ignore-and-fill. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:23",
+      "question": "A 69-year-old woman has lab changes linked to partial fill opioids. Which of the following is correct?",
+      "options": [
+        "A) Laws/policies may allow partial fills; remaining quantity rules and timelines must be followed",
+        "B) Technician self-verification without pharmacist check is ideal for all hospitals always without rules",
+        "C) Flush all expired chemo and opioids into public water as first choice always",
+        "D) Partial fills of CII are always forbidden in all US contexts without exception"
+      ],
+      "answer": "A) Laws/policies may allow partial fills; remaining quantity rules and timelines must be followed",
+      "explanation": "Document quantity dispensed and remaining carefully. Therefore, the most accurate choice is: Laws/policies may allow partial fills; remaining quantity rules and timelines must be followed. Partial fills can be permissible under specified rules.",
+      "choice_explanations": {
+        "A": "Document quantity dispensed and remaining carefully. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Partial fills can be permissible under specified rules. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:24",
+      "question": "A 55-year-old woman is started on treatment related to transfer controlled. Which of the following is correct?",
+      "options": [
+        "A) All CII prescriptions may be freely transferred unlimited times between pharmacies federally like noncontrols",
+        "B) Pharmacies should refuse all legitimate buprenorphine OUD prescriptions as policy",
+        "C) Schedule II prescriptions may be refilled 5 times in 6 months federally like CIII–IV",
+        "D) Transfer rules differ by schedule and state; CII transfers generally highly restricted"
+      ],
+      "answer": "D) Transfer rules differ by schedule and state; CII transfers generally highly restricted",
+      "explanation": "Know state/federal nuances before transferring. Therefore, the most accurate choice is: Transfer rules differ by schedule and state; CII transfers generally highly restricted. CII transfer is not freely unlimited.",
+      "choice_explanations": {
+        "A": "CII transfer is not freely unlimited. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Know state/federal nuances before transferring. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:25",
+      "question": "A 41-year-old woman takes several medicines and is assessed regarding OBRA 90 counseling. Which of the following is most appropriate?",
+      "options": [
+        "A) OBRA ’90 forbids any counseling offers",
+        "B) Retrospective DUR replaces the need for any prospective checks at fill",
+        "C) Offer to counsel Medicaid patients on new Rxs; many states expand offer/counseling duties",
+        "D) Prospective DUR occurs only five years after dispensing"
+      ],
+      "answer": "C) Offer to counsel Medicaid patients on new Rxs; many states expand offer/counseling duties",
+      "explanation": "Prospective DUR is also an OBRA ’90 expectation theme. Therefore, the most accurate choice is: Offer to counsel Medicaid patients on new Rxs; many states expand offer/counseling duties. Counseling offers are required, not forbidden.",
+      "choice_explanations": {
+        "A": "Counseling offers are required, not forbidden. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Prospective DUR is also an OBRA ’90 expectation theme. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:26",
+      "question": "Medication review raises a question about prospective DUR. Which of the following is correct?",
+      "options": [
+        "A) CMR only counts tablets without clinical evaluation",
+        "B) Retrospective DUR replaces the need for any prospective checks at fill",
+        "C) Prospective DUR occurs only five years after dispensing",
+        "D) Review indications, interactions, duplicates, allergies, and dosing before dispensing"
+      ],
+      "answer": "D) Review indications, interactions, duplicates, allergies, and dosing before dispensing",
+      "explanation": "Hard clinical stops require pharmacist judgment, not blind override without reason. Therefore, the most accurate choice is: Review indications, interactions, duplicates, allergies, and dosing before dispensing. Prospective means before dispensing.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Prospective means before dispensing. It is less consistent than the correct choice.",
+        "D": "Hard clinical stops require pharmacist judgment, not blind override without reason. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:27",
+      "question": "In a 34-year-old man, which statement about retrospective DUR is correct?",
+      "options": [
+        "A) Retrospective DUR replaces the need for any prospective checks at fill",
+        "B) Prospective DUR occurs only five years after dispensing",
+        "C) PDMPs are illegal for pharmacists to check before dispensing opioids",
+        "D) Patterns reviewed after dispensing to improve population prescribing quality"
+      ],
+      "answer": "D) Patterns reviewed after dispensing to improve population prescribing quality",
+      "explanation": "Payer and quality programs use retrospective analyses. Therefore, the most accurate choice is: Patterns reviewed after dispensing to improve population prescribing quality. It complements, not replaces, prospective DUR.",
+      "choice_explanations": {
+        "A": "It complements, not replaces, prospective DUR. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Payer and quality programs use retrospective analyses. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:28",
+      "question": "Clinical testing related to allergy documentation is performed. Which of the following is correct?",
+      "options": [
+        "A) PDSA means permanently implementing huge changes without measurement",
+        "B) Documenting allergy details is unnecessary if the drug name is listed",
+        "C) Tall-man lettering makes similar names harder to distinguish intentionally",
+        "D) Record reaction type/severity; distinguish intolerance from true allergy when possible"
+      ],
+      "answer": "D) Record reaction type/severity; distinguish intolerance from true allergy when possible",
+      "explanation": "Reaction quality changes future antibiotic selection dramatically. Therefore, the most accurate choice is: Record reaction type/severity; distinguish intolerance from true allergy when possible. Details matter beyond a bare drug name.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Details matter beyond a bare drug name. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Reaction quality changes future antibiotic selection dramatically. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:medium:29",
+      "question": "During medication reconciliation, high alert medications is discussed. Which of the following is correct?",
+      "options": [
+        "A) Incidental disclosure means intentional sale of patient lists without consequence framing",
+        "B) High-alert means the drug is risk-free and needs fewer checks",
+        "C) ISMP high-alert list drugs cause heightened harm when used in error — need safeguards",
+        "D) Prior authorization means the drug is free without clinical criteria"
+      ],
+      "answer": "C) ISMP high-alert list drugs cause heightened harm when used in error — need safeguards",
+      "explanation": "Independent double checks and standardized concentrations reduce harm. Therefore, the most accurate choice is: ISMP high-alert list drugs cause heightened harm when used in error — need safeguards. High-alert implies more, not fewer, safeguards.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "High-alert implies more, not fewer, safeguards. It is less consistent than the correct choice.",
+        "C": "Independent double checks and standardized concentrations reduce harm. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ],
+  "hard": [
+    {
+      "id": "pharmacy_practice:hard:0",
+      "question": "A 68-year-old man is evaluated for possible PPCP collect. Which of the following is most accurate?",
+      "options": [
+        "A) Pharmacists Collect subjective/objective information as first PPCP step",
+        "B) Plan means unilaterally changing controlled substances without documentation ever",
+        "C) Conscientious refusal means secretly discarding the Rx without telling the patient ever",
+        "D) Collect means dispensing without gathering any patient data"
+      ],
+      "answer": "A) Pharmacists Collect subjective/objective information as first PPCP step",
+      "explanation": "Medication history, labs, and patient concerns feed the care process. Therefore, the most accurate choice is: Pharmacists Collect subjective/objective information as first PPCP step. Collecting information precedes assessment and planning.",
+      "choice_explanations": {
+        "A": "Medication history, labs, and patient concerns feed the care process. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Collecting information precedes assessment and planning. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:1",
+      "question": "Two similar explanations for PPCP assess are compared. Which of the following is correct?",
+      "options": [
+        "A) Assess therapy for indication, effectiveness, safety, and adherence problems",
+        "B) Assess means skipping to counsel without evaluating drug therapy problems",
+        "C) Collect means dispensing without gathering any patient data",
+        "D) Plan means unilaterally changing controlled substances without documentation ever"
+      ],
+      "answer": "A) Assess therapy for indication, effectiveness, safety, and adherence problems",
+      "explanation": "Drug therapy problems are identified in the Assess step. Therefore, the most accurate choice is: Assess therapy for indication, effectiveness, safety, and adherence problems. Assessment is evaluative, not skipped.",
+      "choice_explanations": {
+        "A": "Drug therapy problems are identified in the Assess step. This matches the correct interpretation.",
+        "B": "Assessment is evaluative, not skipped. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:2",
+      "question": "In a 60-year-old woman, PPCP plan must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) Plan evidence-based recommendations with patient/clinician collaboration",
+        "B) Plan means unilaterally changing controlled substances without documentation ever",
+        "C) Collect means dispensing without gathering any patient data",
+        "D) Conscientious refusal means secretly discarding the Rx without telling the patient ever"
+      ],
+      "answer": "A) Plan evidence-based recommendations with patient/clinician collaboration",
+      "explanation": "Goals, interventions, and follow-up are specified in the plan. Therefore, the most accurate choice is: Plan evidence-based recommendations with patient/clinician collaboration. Plans are collaborative and documented.",
+      "choice_explanations": {
+        "A": "Goals, interventions, and follow-up are specified in the plan. This matches the correct interpretation.",
+        "B": "Plans are collaborative and documented. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:3",
+      "question": "Which of the following correctly distinguishes key points about PPCP implement?",
+      "options": [
+        "A) Plan means unilaterally changing controlled substances without documentation ever",
+        "B) Collect means dispensing without gathering any patient data",
+        "C) Implement the care plan including education, coordination, and prescribing where authorized",
+        "D) Implement forbids patient education"
+      ],
+      "answer": "C) Implement the care plan including education, coordination, and prescribing where authorized",
+      "explanation": "Dispensing, administering vaccines, and communicating changes are implementation acts. Therefore, the most accurate choice is: Implement the care plan including education, coordination, and prescribing where authorized. Education is a core implementation activity.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Dispensing, administering vaccines, and communicating changes are implementation acts. This matches the correct interpretation.",
+        "D": "Education is a core implementation activity. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:4",
+      "question": "A clinic case of PPCP follow-up is discussed. Which of the following is correct?",
+      "options": [
+        "A) Plan means unilaterally changing controlled substances without documentation ever",
+        "B) Follow-up evaluates effectiveness/safety and modifies the plan",
+        "C) Technique does not matter if the prescription was filled correctly",
+        "D) Follow-up is unnecessary once a prescription is filled once"
+      ],
+      "answer": "B) Follow-up evaluates effectiveness/safety and modifies the plan",
+      "explanation": "Monitoring labs and adherence closes the care loop. Therefore, the most accurate choice is: Follow-up evaluates effectiveness/safety and modifies the plan. Follow-up is essential to PPCP.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Monitoring labs and adherence closes the care loop. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Follow-up is essential to PPCP. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:5",
+      "question": "Which statement about drug therapy indication is most accurate?",
+      "options": [
+        "A) Effectiveness means only that the patient likes the tablet color",
+        "B) Every medication should have a clear evidence-based indication for the patient",
+        "C) Assess means skipping to counsel without evaluating drug therapy problems",
+        "D) Indication review is irrelevant if the label looks neat"
+      ],
+      "answer": "B) Every medication should have a clear evidence-based indication for the patient",
+      "explanation": "Unnecessary drugs add ADR and cost burden. Therefore, the most accurate choice is: Every medication should have a clear evidence-based indication for the patient. Indication assessment is a primary DTP category.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Unnecessary drugs add ADR and cost burden. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Indication assessment is a primary DTP category. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:6",
+      "question": "After examining a 58-year-old man, which statement about safety assessment is correct?",
+      "options": [
+        "A) Screen for ADRs, interactions, contraindications, and dosing in organ impairment",
+        "B) Assess means skipping to counsel without evaluating drug therapy problems",
+        "C) High-alert means the drug is risk-free and needs fewer checks",
+        "D) Safety assessment ignores interactions if the drug is common"
+      ],
+      "answer": "A) Screen for ADRs, interactions, contraindications, and dosing in organ impairment",
+      "explanation": "High-alert drugs warrant heightened safety checks. Therefore, the most accurate choice is: Screen for ADRs, interactions, contraindications, and dosing in organ impairment. Interaction/ADR screening is central to safety.",
+      "choice_explanations": {
+        "A": "High-alert drugs warrant heightened safety checks. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Interaction/ADR screening is central to safety. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:7",
+      "question": "A 46-year-old man is evaluated for possible adherence assessment. Which of the following is most accurate?",
+      "options": [
+        "A) Cost barriers should be ignored because adherence is unrelated to cost",
+        "B) Nonadherence always means the patient is simply lazy with no barriers",
+        "C) MI means arguing until the patient submits to advice",
+        "D) Explore barriers: cost, regimen complexity, beliefs, adverse effects, access"
+      ],
+      "answer": "D) Explore barriers: cost, regimen complexity, beliefs, adverse effects, access",
+      "explanation": "Motivational interviewing and simplification improve adherence. Therefore, the most accurate choice is: Explore barriers: cost, regimen complexity, beliefs, adverse effects, access. Barriers are multifactorial, not moral failure alone.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Barriers are multifactorial, not moral failure alone. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Motivational interviewing and simplification improve adherence. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:8",
+      "question": "Two similar explanations for MTM services are compared. Which of the following is correct?",
+      "options": [
+        "A) MTM forbids reviewing medication lists",
+        "B) Medication therapy management optimizes regimens for complex patients often in Part D frameworks",
+        "C) Star ratings ignore medication adherence completely",
+        "D) Part D MTM is only for beneficiaries on zero medications"
+      ],
+      "answer": "B) Medication therapy management optimizes regimens for complex patients often in Part D frameworks",
+      "explanation": "CMRs and targeted medication reviews are common MTM elements. Therefore, the most accurate choice is: Medication therapy management optimizes regimens for complex patients often in Part D frameworks. Reviewing therapy is the point of MTM.",
+      "choice_explanations": {
+        "A": "Reviewing therapy is the point of MTM. It is less consistent than the correct choice.",
+        "B": "CMRs and targeted medication reviews are common MTM elements. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:9",
+      "question": "In a 38-year-old woman, CMR comprehensive must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) Comprehensive medication review systematically evaluates all medications and generates a MAP",
+        "B) CMR only counts tablets without clinical evaluation",
+        "C) MAP is a DEA form for ordering schedule II drugs only",
+        "D) SOAP notes forbid recording assessment and plan"
+      ],
+      "answer": "A) Comprehensive medication review systematically evaluates all medications and generates a MAP",
+      "explanation": "Personal medication list and medication action plan support patients. Therefore, the most accurate choice is: Comprehensive medication review systematically evaluates all medications and generates a MAP. CMR is clinical, not mere counting.",
+      "choice_explanations": {
+        "A": "Personal medication list and medication action plan support patients. This matches the correct interpretation.",
+        "B": "CMR is clinical, not mere counting. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:10",
+      "question": "A 70-year-old woman returns for review of suspected MAP medication action plan. Which of the following is most accurate?",
+      "options": [
+        "A) DAW codes are DEA schedule numbers",
+        "B) MAP is a DEA form for ordering schedule II drugs only",
+        "C) Effectiveness means only that the patient likes the tablet color",
+        "D) Patient-centric document listing actions to achieve medication-related goals"
+      ],
+      "answer": "D) Patient-centric document listing actions to achieve medication-related goals",
+      "explanation": "Clear action steps improve patient engagement after MTM. Therefore, the most accurate choice is: Patient-centric document listing actions to achieve medication-related goals. It is a patient care tool, not a DEA order form.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "It is a patient care tool, not a DEA order form. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Clear action steps improve patient engagement after MTM. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:11",
+      "question": "A clinic case of PML personal med list is discussed. Which of the following is correct?",
+      "options": [
+        "A) All alarm features should be treated with OTC antacid only forever",
+        "B) PML should exclude OTCs and supplements as irrelevant",
+        "C) Accurate reconciled list of all current medications including OTCs/herbals",
+        "D) Naloxone should be withheld from high-risk opioid patients to avoid risk compensation myths"
+      ],
+      "answer": "C) Accurate reconciled list of all current medications including OTCs/herbals",
+      "explanation": "OTC/herbal inclusion catches interactions patients forget to mention. Therefore, the most accurate choice is: Accurate reconciled list of all current medications including OTCs/herbals. OTCs/herbals belong on the complete list.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "OTCs/herbals belong on the complete list. It is less consistent than the correct choice.",
+        "C": "OTC/herbal inclusion catches interactions patients forget to mention. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:12",
+      "question": "A 39-year-old woman presents with features compatible with SOAP note pharmacy. Which of the following is most accurate?",
+      "options": [
+        "A) SOAP notes forbid recording assessment and plan",
+        "B) Plan means unilaterally changing controlled substances without documentation ever",
+        "C) CMR only counts tablets without clinical evaluation",
+        "D) Subjective, Objective, Assessment, Plan structure documents clinical encounters"
+      ],
+      "answer": "D) Subjective, Objective, Assessment, Plan structure documents clinical encounters",
+      "explanation": "Clear documentation supports continuity and liability protection. Therefore, the most accurate choice is: Subjective, Objective, Assessment, Plan structure documents clinical encounters. A and P are essential SOAP elements.",
+      "choice_explanations": {
+        "A": "A and P are essential SOAP elements. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Clear documentation supports continuity and liability protection. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:13",
+      "question": "Which statement about SBAR communication in a 46-year-old man is most accurate?",
+      "options": [
+        "A) SOAP notes forbid recording assessment and plan",
+        "B) Plan means unilaterally changing controlled substances without documentation ever",
+        "C) Situation-Background-Assessment-Recommendation frames concise clinician communication",
+        "D) SBAR means speaking vaguely without recommendation"
+      ],
+      "answer": "C) Situation-Background-Assessment-Recommendation frames concise clinician communication",
+      "explanation": "Recommendation clarity improves acceptance of pharmacy interventions. Therefore, the most accurate choice is: Situation-Background-Assessment-Recommendation frames concise clinician communication. The R requires a clear recommendation.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Recommendation clarity improves acceptance of pharmacy interventions. This matches the correct interpretation.",
+        "D": "The R requires a clear recommendation. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:14",
+      "question": "After examining a 34-year-old man, which statement about prescription legality is correct?",
+      "options": [
+        "A) Any napkin scribble without date or signature is always legally valid nationwide",
+        "B) Pharmacists have zero duty regarding controlled substance legitimacy",
+        "C) Technician self-verification without pharmacist check is ideal for all hospitals always without rules",
+        "D) Valid Rx needs authorized prescriber, patient, drug, strength, directions, date, and signature rules per law"
+      ],
+      "answer": "D) Valid Rx needs authorized prescriber, patient, drug, strength, directions, date, and signature rules per law",
+      "explanation": "Pharmacists share corresponding responsibility for legitimacy. Therefore, the most accurate choice is: Valid Rx needs authorized prescriber, patient, drug, strength, directions, date, and signature rules per law. Legal elements are required.",
+      "choice_explanations": {
+        "A": "Legal elements are required. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Pharmacists share corresponding responsibility for legitimacy. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:15",
+      "question": "A 65-year-old man is evaluated for possible corresponding responsibility. Which of the following is most accurate?",
+      "options": [
+        "A) Pharmacist must ensure prescriptions are for legitimate medical purpose in usual course",
+        "B) Pharmacists have zero duty regarding controlled substance legitimacy",
+        "C) PDMPs are illegal for pharmacists to check before dispensing opioids",
+        "D) Encourage patients to share leftover oxycodone with friends who have pain"
+      ],
+      "answer": "A) Pharmacist must ensure prescriptions are for legitimate medical purpose in usual course",
+      "explanation": "Red flags for diversion must be addressed before dispensing. Therefore, the most accurate choice is: Pharmacist must ensure prescriptions are for legitimate medical purpose in usual course. Duty is shared with the prescriber.",
+      "choice_explanations": {
+        "A": "Red flags for diversion must be addressed before dispensing. This matches the correct interpretation.",
+        "B": "Duty is shared with the prescriber. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:16",
+      "question": "Two similar explanations for controlled substance schedules are compared. Which of the following is correct?",
+      "options": [
+        "A) Schedule II prescriptions may be refilled 5 times in 6 months federally like CIII–IV",
+        "B) Pharmacists have zero duty regarding controlled substance legitimacy",
+        "C) Schedule V always has higher abuse potential than Schedule II by definition",
+        "D) Schedule II highest abuse potential among medical drugs with strict ordering; III–V lesser controls"
+      ],
+      "answer": "D) Schedule II highest abuse potential among medical drugs with strict ordering; III–V lesser controls",
+      "explanation": "Federal/state schedules dictate refill and documentation rules. Therefore, the most accurate choice is: Schedule II highest abuse potential among medical drugs with strict ordering; III–V lesser controls. CII is more restricted than CV generally.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "CII is more restricted than CV generally. It is less consistent than the correct choice.",
+        "D": "Federal/state schedules dictate refill and documentation rules. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:17",
+      "question": "In a 54-year-old woman, CII refills federal must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) Federal rules prohibit refills of Schedule II prescriptions (new Rx required)",
+        "B) All CII prescriptions may be freely transferred unlimited times between pharmacies federally like noncontrols",
+        "C) Schedule II prescriptions may be refilled 5 times in 6 months federally like CIII–IV",
+        "D) CIII–IV may be refilled unlimited times for 3 years federally"
+      ],
+      "answer": "A) Federal rules prohibit refills of Schedule II prescriptions (new Rx required)",
+      "explanation": "Partial fill rules have specific allowances in some settings/laws. Therefore, the most accurate choice is: Federal rules prohibit refills of Schedule II prescriptions (new Rx required). CII refill prohibition differs from CIII–IV.",
+      "choice_explanations": {
+        "A": "Partial fill rules have specific allowances in some settings/laws. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "CII refill prohibition differs from CIII–IV. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:18",
+      "question": "A 39-year-old woman returns for review of suspected CIII CIV refills. Which of the following is most accurate?",
+      "options": [
+        "A) CIII–IV may be refilled unlimited times for 3 years federally",
+        "B) Schedule II prescriptions may be refilled 5 times in 6 months federally like CIII–IV",
+        "C) Up to 5 refills within 6 months federally for CIII–IV from written/electronic Rx date themes",
+        "D) All CII prescriptions may be freely transferred unlimited times between pharmacies federally like noncontrols"
+      ],
+      "answer": "C) Up to 5 refills within 6 months federally for CIII–IV from written/electronic Rx date themes",
+      "explanation": "State law may be stricter than federal baselines. Therefore, the most accurate choice is: Up to 5 refills within 6 months federally for CIII–IV from written/electronic Rx date themes. Federal limits exist; not unlimited for years.",
+      "choice_explanations": {
+        "A": "Federal limits exist; not unlimited for years. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "State law may be stricter than federal baselines. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:19",
+      "question": "A clinic case of DEA number check is discussed. Which of the following is correct?",
+      "options": [
+        "A) DEA numbers never need verification if the paper looks glossy",
+        "B) DAW codes are DEA schedule numbers",
+        "C) Pharmacists verify DEA format/checksum as one tool against forged controlled Rxs",
+        "D) Pharmacists have zero duty regarding controlled substance legitimacy"
+      ],
+      "answer": "C) Pharmacists verify DEA format/checksum as one tool against forged controlled Rxs",
+      "explanation": "Prescriber identity confirmation is part of corresponding responsibility. Therefore, the most accurate choice is: Pharmacists verify DEA format/checksum as one tool against forged controlled Rxs. Verification is a professional expectation.",
+      "choice_explanations": {
+        "A": "Verification is a professional expectation. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Prescriber identity confirmation is part of corresponding responsibility. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:20",
+      "question": "Which statement about PDMP use is most accurate?",
+      "options": [
+        "A) Opioid REMS teaches that addiction is impossible with ER opioids",
+        "B) Prescription drug monitoring programs help identify overlapping opioid/benzo therapy and diversion patterns",
+        "C) CR caps are illegal for prescription solid oral opioids",
+        "D) PDMPs are illegal for pharmacists to check before dispensing opioids"
+      ],
+      "answer": "B) Prescription drug monitoring programs help identify overlapping opioid/benzo therapy and diversion patterns",
+      "explanation": "Reviewing PDMP is increasingly mandated or expected before opioid dispensing. Therefore, the most accurate choice is: Prescription drug monitoring programs help identify overlapping opioid/benzo therapy and diversion patterns. PDMP checks are encouraged/required, not forbidden.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Reviewing PDMP is increasingly mandated or expected before opioid dispensing. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "PDMP checks are encouraged/required, not forbidden. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:21",
+      "question": "Which statement about red flags opioids in a 40-year-old woman is most accurate?",
+      "options": [
+        "A) Cost barriers should be ignored because adherence is unrelated to cost",
+        "B) Conscientious refusal means secretly discarding the Rx without telling the patient ever",
+        "C) Red flags should be ignored if the patient is impatient",
+        "D) Cash only, early fills, long distances, inconsistent stories, and cocktail Rxs warrant scrutiny"
+      ],
+      "answer": "D) Cash only, early fills, long distances, inconsistent stories, and cocktail Rxs warrant scrutiny",
+      "explanation": "Resolve concerns via prescriber contact and clinical judgment documentation. Therefore, the most accurate choice is: Cash only, early fills, long distances, inconsistent stories, and cocktail Rxs warrant scrutiny. Red flags require action, not ignore-and-fill.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Red flags require action, not ignore-and-fill. It is less consistent than the correct choice.",
+        "D": "Resolve concerns via prescriber contact and clinical judgment documentation. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:22",
+      "question": "After examining a 69-year-old woman, which statement about partial fill opioids is correct?",
+      "options": [
+        "A) Partial fills of CII are always forbidden in all US contexts without exception",
+        "B) Laws/policies may allow partial fills; remaining quantity rules and timelines must be followed",
+        "C) Flush all expired chemo and opioids into public water as first choice always",
+        "D) Always dispense leftover antibiotics for future viral colds on patient request without Rx"
+      ],
+      "answer": "B) Laws/policies may allow partial fills; remaining quantity rules and timelines must be followed",
+      "explanation": "Document quantity dispensed and remaining carefully. Therefore, the most accurate choice is: Laws/policies may allow partial fills; remaining quantity rules and timelines must be followed. Partial fills can be permissible under specified rules.",
+      "choice_explanations": {
+        "A": "Partial fills can be permissible under specified rules. It is less consistent than the correct choice.",
+        "B": "Document quantity dispensed and remaining carefully. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:23",
+      "question": "A 55-year-old woman is evaluated for possible transfer controlled. Which of the following is most accurate?",
+      "options": [
+        "A) All CII prescriptions may be freely transferred unlimited times between pharmacies federally like noncontrols",
+        "B) Pharmacies should refuse all legitimate buprenorphine OUD prescriptions as policy",
+        "C) Transfer rules differ by schedule and state; CII transfers generally highly restricted",
+        "D) Schedule II prescriptions may be refilled 5 times in 6 months federally like CIII–IV"
+      ],
+      "answer": "C) Transfer rules differ by schedule and state; CII transfers generally highly restricted",
+      "explanation": "Know state/federal nuances before transferring. Therefore, the most accurate choice is: Transfer rules differ by schedule and state; CII transfers generally highly restricted. CII transfer is not freely unlimited.",
+      "choice_explanations": {
+        "A": "CII transfer is not freely unlimited. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Know state/federal nuances before transferring. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:24",
+      "question": "Two similar explanations for OBRA 90 counseling are compared. Which of the following is correct?",
+      "options": [
+        "A) Prospective DUR occurs only five years after dispensing",
+        "B) Retrospective DUR replaces the need for any prospective checks at fill",
+        "C) Offer to counsel Medicaid patients on new Rxs; many states expand offer/counseling duties",
+        "D) OBRA ’90 forbids any counseling offers"
+      ],
+      "answer": "C) Offer to counsel Medicaid patients on new Rxs; many states expand offer/counseling duties",
+      "explanation": "Prospective DUR is also an OBRA ’90 expectation theme. Therefore, the most accurate choice is: Offer to counsel Medicaid patients on new Rxs; many states expand offer/counseling duties. Counseling offers are required, not forbidden.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Prospective DUR is also an OBRA ’90 expectation theme. This matches the correct interpretation.",
+        "D": "Counseling offers are required, not forbidden. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:25",
+      "question": "In a 67-year-old woman, prospective DUR must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) Prospective DUR occurs only five years after dispensing",
+        "B) Review indications, interactions, duplicates, allergies, and dosing before dispensing",
+        "C) CMR only counts tablets without clinical evaluation",
+        "D) Retrospective DUR replaces the need for any prospective checks at fill"
+      ],
+      "answer": "B) Review indications, interactions, duplicates, allergies, and dosing before dispensing",
+      "explanation": "Hard clinical stops require pharmacist judgment, not blind override without reason. Therefore, the most accurate choice is: Review indications, interactions, duplicates, allergies, and dosing before dispensing. Prospective means before dispensing.",
+      "choice_explanations": {
+        "A": "Prospective means before dispensing. It is less consistent than the correct choice.",
+        "B": "Hard clinical stops require pharmacist judgment, not blind override without reason. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:26",
+      "question": "Which of the following correctly distinguishes key points about retrospective DUR?",
+      "options": [
+        "A) Retrospective DUR replaces the need for any prospective checks at fill",
+        "B) Patterns reviewed after dispensing to improve population prescribing quality",
+        "C) Prospective DUR occurs only five years after dispensing",
+        "D) PDMPs are illegal for pharmacists to check before dispensing opioids"
+      ],
+      "answer": "B) Patterns reviewed after dispensing to improve population prescribing quality",
+      "explanation": "Payer and quality programs use retrospective analyses. Therefore, the most accurate choice is: Patterns reviewed after dispensing to improve population prescribing quality. It complements, not replaces, prospective DUR.",
+      "choice_explanations": {
+        "A": "It complements, not replaces, prospective DUR. It is less consistent than the correct choice.",
+        "B": "Payer and quality programs use retrospective analyses. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:27",
+      "question": "Careful interpretation of allergy documentation is required. Which of the following is correct?",
+      "options": [
+        "A) PDSA means permanently implementing huge changes without measurement",
+        "B) Tall-man lettering makes similar names harder to distinguish intentionally",
+        "C) Record reaction type/severity; distinguish intolerance from true allergy when possible",
+        "D) Documenting allergy details is unnecessary if the drug name is listed"
+      ],
+      "answer": "C) Record reaction type/severity; distinguish intolerance from true allergy when possible",
+      "explanation": "Reaction quality changes future antibiotic selection dramatically. Therefore, the most accurate choice is: Record reaction type/severity; distinguish intolerance from true allergy when possible. Details matter beyond a bare drug name.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Reaction quality changes future antibiotic selection dramatically. This matches the correct interpretation.",
+        "D": "Details matter beyond a bare drug name. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:28",
+      "question": "A 30-year-old woman presents with features compatible with high alert medications. Which of the following is most accurate?",
+      "options": [
+        "A) High-alert means the drug is risk-free and needs fewer checks",
+        "B) ISMP high-alert list drugs cause heightened harm when used in error — need safeguards",
+        "C) Incidental disclosure means intentional sale of patient lists without consequence framing",
+        "D) Prior authorization means the drug is free without clinical criteria"
+      ],
+      "answer": "B) ISMP high-alert list drugs cause heightened harm when used in error — need safeguards",
+      "explanation": "Independent double checks and standardized concentrations reduce harm. Therefore, the most accurate choice is: ISMP high-alert list drugs cause heightened harm when used in error — need safeguards. High-alert implies more, not fewer, safeguards.",
+      "choice_explanations": {
+        "A": "High-alert implies more, not fewer, safeguards. It is less consistent than the correct choice.",
+        "B": "Independent double checks and standardized concentrations reduce harm. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:hard:29",
+      "question": "After examining a 42-year-old woman, which statement about tall man lettering is correct?",
+      "options": [
+        "A) Documenting allergy details is unnecessary if the drug name is listed",
+        "B) Tall-man lettering makes similar names harder to distinguish intentionally",
+        "C) Mixed-case lettering highlights differing parts of similar drug names",
+        "D) Therapeutic interchange means silent random substitution of unrelated drug classes"
+      ],
+      "answer": "C) Mixed-case lettering highlights differing parts of similar drug names",
+      "explanation": "predniSONE/prednisoLONE-style differentiation aids perception. Therefore, the most accurate choice is: Mixed-case lettering highlights differing parts of similar drug names. It improves, not worsens, distinguishability.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "It improves, not worsens, distinguishability. It is less consistent than the correct choice.",
+        "C": "predniSONE/prednisoLONE-style differentiation aids perception. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ],
+  "extreme": [
+    {
+      "id": "pharmacy_practice:extreme:0",
+      "question": "A 68-year-old man has a complex presentation of PPCP collect. Which of the following is most accurate?",
+      "options": [
+        "A) Collect means dispensing without gathering any patient data",
+        "B) Pharmacists Collect subjective/objective information as first PPCP step",
+        "C) Plan means unilaterally changing controlled substances without documentation ever",
+        "D) Conscientious refusal means secretly discarding the Rx without telling the patient ever"
+      ],
+      "answer": "B) Pharmacists Collect subjective/objective information as first PPCP step",
+      "explanation": "Medication history, labs, and patient concerns feed the care process. Therefore, the most accurate choice is: Pharmacists Collect subjective/objective information as first PPCP step. Collecting information precedes assessment and planning.",
+      "choice_explanations": {
+        "A": "Collecting information precedes assessment and planning. It is less consistent than the correct choice.",
+        "B": "Medication history, labs, and patient concerns feed the care process. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:1",
+      "question": "Management of PPCP assess is reviewed for a 54-year-old man. Which of the following is most accurate?",
+      "options": [
+        "A) Assess means skipping to counsel without evaluating drug therapy problems",
+        "B) Indication review is irrelevant if the label looks neat",
+        "C) Collect means dispensing without gathering any patient data",
+        "D) Assess therapy for indication, effectiveness, safety, and adherence problems"
+      ],
+      "answer": "D) Assess therapy for indication, effectiveness, safety, and adherence problems",
+      "explanation": "Drug therapy problems are identified in the Assess step. Therefore, the most accurate choice is: Assess therapy for indication, effectiveness, safety, and adherence problems. Assessment is evaluative, not skipped.",
+      "choice_explanations": {
+        "A": "Assessment is evaluative, not skipped. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Drug therapy problems are identified in the Assess step. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:2",
+      "question": "A detailed evaluation for PPCP plan is underway in a 60-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) Collect means dispensing without gathering any patient data",
+        "B) Plan means unilaterally changing controlled substances without documentation ever",
+        "C) Conscientious refusal means secretly discarding the Rx without telling the patient ever",
+        "D) Plan evidence-based recommendations with patient/clinician collaboration"
+      ],
+      "answer": "D) Plan evidence-based recommendations with patient/clinician collaboration",
+      "explanation": "Goals, interventions, and follow-up are specified in the plan. Therefore, the most accurate choice is: Plan evidence-based recommendations with patient/clinician collaboration. Plans are collaborative and documented.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Plans are collaborative and documented. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Goals, interventions, and follow-up are specified in the plan. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:3",
+      "question": "In a 49-year-old woman, treatment choices for PPCP implement are compared. Which of the following is most accurate?",
+      "options": [
+        "A) Implement the care plan including education, coordination, and prescribing where authorized",
+        "B) Collect means dispensing without gathering any patient data",
+        "C) Implement forbids patient education",
+        "D) Plan means unilaterally changing controlled substances without documentation ever"
+      ],
+      "answer": "A) Implement the care plan including education, coordination, and prescribing where authorized",
+      "explanation": "Dispensing, administering vaccines, and communicating changes are implementation acts. Therefore, the most accurate choice is: Implement the care plan including education, coordination, and prescribing where authorized. Education is a core implementation activity.",
+      "choice_explanations": {
+        "A": "Dispensing, administering vaccines, and communicating changes are implementation acts. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Education is a core implementation activity. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:4",
+      "question": "In a 56-year-old man, distinguishing PPCP follow-up from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Technique does not matter if the prescription was filled correctly",
+        "B) Follow-up is unnecessary once a prescription is filled once",
+        "C) Plan means unilaterally changing controlled substances without documentation ever",
+        "D) Follow-up evaluates effectiveness/safety and modifies the plan"
+      ],
+      "answer": "D) Follow-up evaluates effectiveness/safety and modifies the plan",
+      "explanation": "Monitoring labs and adherence closes the care loop. Therefore, the most accurate choice is: Follow-up evaluates effectiveness/safety and modifies the plan. Follow-up is essential to PPCP.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Follow-up is essential to PPCP. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Monitoring labs and adherence closes the care loop. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:5",
+      "question": "Safety concerns around drug therapy indication arise in a 47-year-old man. Which of the following is most accurate?",
+      "options": [
+        "A) Effectiveness means only that the patient likes the tablet color",
+        "B) Assess means skipping to counsel without evaluating drug therapy problems",
+        "C) Indication review is irrelevant if the label looks neat",
+        "D) Every medication should have a clear evidence-based indication for the patient"
+      ],
+      "answer": "D) Every medication should have a clear evidence-based indication for the patient",
+      "explanation": "Unnecessary drugs add ADR and cost burden. Therefore, the most accurate choice is: Every medication should have a clear evidence-based indication for the patient. Indication assessment is a primary DTP category.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Indication assessment is a primary DTP category. It is less consistent than the correct choice.",
+        "D": "Unnecessary drugs add ADR and cost burden. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:6",
+      "question": "A 34-year-old man has a complicated course involving effectiveness assessment. Which of the following is correct?",
+      "options": [
+        "A) Conscientious refusal means secretly discarding the Rx without telling the patient ever",
+        "B) Effectiveness means only that the patient likes the tablet color",
+        "C) Nonadherence always means the patient is simply lazy with no barriers",
+        "D) Therapy should achieve disease/clinical goals at appropriate intensity"
+      ],
+      "answer": "D) Therapy should achieve disease/clinical goals at appropriate intensity",
+      "explanation": "Goal attainment and biomarker response guide intensification. Therefore, the most accurate choice is: Therapy should achieve disease/clinical goals at appropriate intensity. Clinical goals define effectiveness.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Clinical goals define effectiveness. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Goal attainment and biomarker response guide intensification. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:7",
+      "question": "Which statement about safety assessment in a 58-year-old man is most accurate?",
+      "options": [
+        "A) Screen for ADRs, interactions, contraindications, and dosing in organ impairment",
+        "B) Safety assessment ignores interactions if the drug is common",
+        "C) High-alert means the drug is risk-free and needs fewer checks",
+        "D) Assess means skipping to counsel without evaluating drug therapy problems"
+      ],
+      "answer": "A) Screen for ADRs, interactions, contraindications, and dosing in organ impairment",
+      "explanation": "High-alert drugs warrant heightened safety checks. Therefore, the most accurate choice is: Screen for ADRs, interactions, contraindications, and dosing in organ impairment. Interaction/ADR screening is central to safety.",
+      "choice_explanations": {
+        "A": "High-alert drugs warrant heightened safety checks. This matches the correct interpretation.",
+        "B": "Interaction/ADR screening is central to safety. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:8",
+      "question": "A 46-year-old man has a complex presentation of adherence assessment. Which of the following is most accurate?",
+      "options": [
+        "A) Nonadherence always means the patient is simply lazy with no barriers",
+        "B) Adherence packaging always increases regimen errors versus vials for everyone",
+        "C) Cost barriers should be ignored because adherence is unrelated to cost",
+        "D) Explore barriers: cost, regimen complexity, beliefs, adverse effects, access"
+      ],
+      "answer": "D) Explore barriers: cost, regimen complexity, beliefs, adverse effects, access",
+      "explanation": "Motivational interviewing and simplification improve adherence. Therefore, the most accurate choice is: Explore barriers: cost, regimen complexity, beliefs, adverse effects, access. Barriers are multifactorial, not moral failure alone.",
+      "choice_explanations": {
+        "A": "Barriers are multifactorial, not moral failure alone. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Motivational interviewing and simplification improve adherence. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:9",
+      "question": "Management of MTM services is reviewed for a 49-year-old woman. Which of the following is most accurate?",
+      "options": [
+        "A) Medication therapy management optimizes regimens for complex patients often in Part D frameworks",
+        "B) Transitions of care pharmacy services increase unexplained discrepancies intentionally",
+        "C) MTM forbids reviewing medication lists",
+        "D) Part D MTM is only for beneficiaries on zero medications"
+      ],
+      "answer": "A) Medication therapy management optimizes regimens for complex patients often in Part D frameworks",
+      "explanation": "CMRs and targeted medication reviews are common MTM elements. Therefore, the most accurate choice is: Medication therapy management optimizes regimens for complex patients often in Part D frameworks. Reviewing therapy is the point of MTM.",
+      "choice_explanations": {
+        "A": "CMRs and targeted medication reviews are common MTM elements. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Reviewing therapy is the point of MTM. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:10",
+      "question": "A detailed evaluation for CMR comprehensive is underway in a 38-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) Comprehensive medication review systematically evaluates all medications and generates a MAP",
+        "B) MTM forbids reviewing medication lists",
+        "C) MAP is a DEA form for ordering schedule II drugs only",
+        "D) CMR only counts tablets without clinical evaluation"
+      ],
+      "answer": "A) Comprehensive medication review systematically evaluates all medications and generates a MAP",
+      "explanation": "Personal medication list and medication action plan support patients. Therefore, the most accurate choice is: Comprehensive medication review systematically evaluates all medications and generates a MAP. CMR is clinical, not mere counting.",
+      "choice_explanations": {
+        "A": "Personal medication list and medication action plan support patients. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "CMR is clinical, not mere counting. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:11",
+      "question": "A 70-year-old woman has findings that make MAP medication action plan hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Effectiveness means only that the patient likes the tablet color",
+        "B) Patient-centric document listing actions to achieve medication-related goals",
+        "C) DAW codes are DEA schedule numbers",
+        "D) MAP is a DEA form for ordering schedule II drugs only"
+      ],
+      "answer": "B) Patient-centric document listing actions to achieve medication-related goals",
+      "explanation": "Clear action steps improve patient engagement after MTM. Therefore, the most accurate choice is: Patient-centric document listing actions to achieve medication-related goals. It is a patient care tool, not a DEA order form.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Clear action steps improve patient engagement after MTM. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "It is a patient care tool, not a DEA order form. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:12",
+      "question": "In a 54-year-old woman, distinguishing PML personal med list from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) All alarm features should be treated with OTC antacid only forever",
+        "B) Accurate reconciled list of all current medications including OTCs/herbals",
+        "C) Indication review is irrelevant if the label looks neat",
+        "D) PML should exclude OTCs and supplements as irrelevant"
+      ],
+      "answer": "B) Accurate reconciled list of all current medications including OTCs/herbals",
+      "explanation": "OTC/herbal inclusion catches interactions patients forget to mention. Therefore, the most accurate choice is: Accurate reconciled list of all current medications including OTCs/herbals. OTCs/herbals belong on the complete list.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "OTC/herbal inclusion catches interactions patients forget to mention. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "OTCs/herbals belong on the complete list. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:13",
+      "question": "A 39-year-old woman returns with ongoing problems related to SOAP note pharmacy. Which of the following is most accurate?",
+      "options": [
+        "A) Plan means unilaterally changing controlled substances without documentation ever",
+        "B) Subjective, Objective, Assessment, Plan structure documents clinical encounters",
+        "C) CMR only counts tablets without clinical evaluation",
+        "D) SOAP notes forbid recording assessment and plan"
+      ],
+      "answer": "B) Subjective, Objective, Assessment, Plan structure documents clinical encounters",
+      "explanation": "Clear documentation supports continuity and liability protection. Therefore, the most accurate choice is: Subjective, Objective, Assessment, Plan structure documents clinical encounters. A and P are essential SOAP elements.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Clear documentation supports continuity and liability protection. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "A and P are essential SOAP elements. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:14",
+      "question": "Senior review is requested for SBAR communication in a 46-year-old man. Which of the following is correct?",
+      "options": [
+        "A) Plan means unilaterally changing controlled substances without documentation ever",
+        "B) SOAP notes forbid recording assessment and plan",
+        "C) Situation-Background-Assessment-Recommendation frames concise clinician communication",
+        "D) SBAR means speaking vaguely without recommendation"
+      ],
+      "answer": "C) Situation-Background-Assessment-Recommendation frames concise clinician communication",
+      "explanation": "Recommendation clarity improves acceptance of pharmacy interventions. Therefore, the most accurate choice is: Situation-Background-Assessment-Recommendation frames concise clinician communication. The R requires a clear recommendation.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Recommendation clarity improves acceptance of pharmacy interventions. This matches the correct interpretation.",
+        "D": "The R requires a clear recommendation. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:15",
+      "question": "Which statement about prescription legality in a 34-year-old man is most accurate?",
+      "options": [
+        "A) Pharmacists have zero duty regarding controlled substance legitimacy",
+        "B) Any napkin scribble without date or signature is always legally valid nationwide",
+        "C) Technician self-verification without pharmacist check is ideal for all hospitals always without rules",
+        "D) Valid Rx needs authorized prescriber, patient, drug, strength, directions, date, and signature rules per law"
+      ],
+      "answer": "D) Valid Rx needs authorized prescriber, patient, drug, strength, directions, date, and signature rules per law",
+      "explanation": "Pharmacists share corresponding responsibility for legitimacy. Therefore, the most accurate choice is: Valid Rx needs authorized prescriber, patient, drug, strength, directions, date, and signature rules per law. Legal elements are required.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Legal elements are required. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Pharmacists share corresponding responsibility for legitimacy. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:16",
+      "question": "A 65-year-old man has a complex presentation of corresponding responsibility. Which of the following is most accurate?",
+      "options": [
+        "A) Pharmacist must ensure prescriptions are for legitimate medical purpose in usual course",
+        "B) PDMPs are illegal for pharmacists to check before dispensing opioids",
+        "C) Pharmacists have zero duty regarding controlled substance legitimacy",
+        "D) Encourage patients to share leftover oxycodone with friends who have pain"
+      ],
+      "answer": "A) Pharmacist must ensure prescriptions are for legitimate medical purpose in usual course",
+      "explanation": "Red flags for diversion must be addressed before dispensing. Therefore, the most accurate choice is: Pharmacist must ensure prescriptions are for legitimate medical purpose in usual course. Duty is shared with the prescriber.",
+      "choice_explanations": {
+        "A": "Red flags for diversion must be addressed before dispensing. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Duty is shared with the prescriber. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:17",
+      "question": "Small differences in wording about controlled substance schedules matter. Which of the following is correct?",
+      "options": [
+        "A) Schedule II highest abuse potential among medical drugs with strict ordering; III–V lesser controls",
+        "B) Schedule V always has higher abuse potential than Schedule II by definition",
+        "C) Pharmacists have zero duty regarding controlled substance legitimacy",
+        "D) Schedule II prescriptions may be refilled 5 times in 6 months federally like CIII–IV"
+      ],
+      "answer": "A) Schedule II highest abuse potential among medical drugs with strict ordering; III–V lesser controls",
+      "explanation": "Federal/state schedules dictate refill and documentation rules. Therefore, the most accurate choice is: Schedule II highest abuse potential among medical drugs with strict ordering; III–V lesser controls. CII is more restricted than CV generally.",
+      "choice_explanations": {
+        "A": "Federal/state schedules dictate refill and documentation rules. This matches the correct interpretation.",
+        "B": "CII is more restricted than CV generally. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:18",
+      "question": "A detailed evaluation for CII refills federal is underway in a 54-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) Schedule II prescriptions may be refilled 5 times in 6 months federally like CIII–IV",
+        "B) All CII prescriptions may be freely transferred unlimited times between pharmacies federally like noncontrols",
+        "C) CIII–IV may be refilled unlimited times for 3 years federally",
+        "D) Federal rules prohibit refills of Schedule II prescriptions (new Rx required)"
+      ],
+      "answer": "D) Federal rules prohibit refills of Schedule II prescriptions (new Rx required)",
+      "explanation": "Partial fill rules have specific allowances in some settings/laws. Therefore, the most accurate choice is: Federal rules prohibit refills of Schedule II prescriptions (new Rx required). CII refill prohibition differs from CIII–IV.",
+      "choice_explanations": {
+        "A": "CII refill prohibition differs from CIII–IV. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Partial fill rules have specific allowances in some settings/laws. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:19",
+      "question": "A 39-year-old woman has findings that make CIII CIV refills hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Up to 5 refills within 6 months federally for CIII–IV from written/electronic Rx date themes",
+        "B) All CII prescriptions may be freely transferred unlimited times between pharmacies federally like noncontrols",
+        "C) Schedule II prescriptions may be refilled 5 times in 6 months federally like CIII–IV",
+        "D) CIII–IV may be refilled unlimited times for 3 years federally"
+      ],
+      "answer": "A) Up to 5 refills within 6 months federally for CIII–IV from written/electronic Rx date themes",
+      "explanation": "State law may be stricter than federal baselines. Therefore, the most accurate choice is: Up to 5 refills within 6 months federally for CIII–IV from written/electronic Rx date themes. Federal limits exist; not unlimited for years.",
+      "choice_explanations": {
+        "A": "State law may be stricter than federal baselines. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Federal limits exist; not unlimited for years. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:20",
+      "question": "In a 46-year-old man, distinguishing DEA number check from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Pharmacists have zero duty regarding controlled substance legitimacy",
+        "B) DEA numbers never need verification if the paper looks glossy",
+        "C) Pharmacists verify DEA format/checksum as one tool against forged controlled Rxs",
+        "D) DAW codes are DEA schedule numbers"
+      ],
+      "answer": "C) Pharmacists verify DEA format/checksum as one tool against forged controlled Rxs",
+      "explanation": "Prescriber identity confirmation is part of corresponding responsibility. Therefore, the most accurate choice is: Pharmacists verify DEA format/checksum as one tool against forged controlled Rxs. Verification is a professional expectation.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Verification is a professional expectation. It is less consistent than the correct choice.",
+        "C": "Prescriber identity confirmation is part of corresponding responsibility. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:21",
+      "question": "Safety concerns around PDMP use arise in a 49-year-old woman. Which of the following is most accurate?",
+      "options": [
+        "A) PDMPs are illegal for pharmacists to check before dispensing opioids",
+        "B) Prescription drug monitoring programs help identify overlapping opioid/benzo therapy and diversion patterns",
+        "C) CR caps are illegal for prescription solid oral opioids",
+        "D) Opioid REMS teaches that addiction is impossible with ER opioids"
+      ],
+      "answer": "B) Prescription drug monitoring programs help identify overlapping opioid/benzo therapy and diversion patterns",
+      "explanation": "Reviewing PDMP is increasingly mandated or expected before opioid dispensing. Therefore, the most accurate choice is: Prescription drug monitoring programs help identify overlapping opioid/benzo therapy and diversion patterns. PDMP checks are encouraged/required, not forbidden.",
+      "choice_explanations": {
+        "A": "PDMP checks are encouraged/required, not forbidden. It is less consistent than the correct choice.",
+        "B": "Reviewing PDMP is increasingly mandated or expected before opioid dispensing. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:22",
+      "question": "Senior review is requested for red flags opioids in a 40-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) Red flags should be ignored if the patient is impatient",
+        "B) Effectiveness means only that the patient likes the tablet color",
+        "C) Conscientious refusal means secretly discarding the Rx without telling the patient ever",
+        "D) Cash only, early fills, long distances, inconsistent stories, and cocktail Rxs warrant scrutiny"
+      ],
+      "answer": "D) Cash only, early fills, long distances, inconsistent stories, and cocktail Rxs warrant scrutiny",
+      "explanation": "Resolve concerns via prescriber contact and clinical judgment documentation. Therefore, the most accurate choice is: Cash only, early fills, long distances, inconsistent stories, and cocktail Rxs warrant scrutiny. Red flags require action, not ignore-and-fill.",
+      "choice_explanations": {
+        "A": "Red flags require action, not ignore-and-fill. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Resolve concerns via prescriber contact and clinical judgment documentation. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:23",
+      "question": "Which statement about partial fill opioids in a 69-year-old woman is most accurate?",
+      "options": [
+        "A) Partial fills of CII are always forbidden in all US contexts without exception",
+        "B) Always dispense leftover antibiotics for future viral colds on patient request without Rx",
+        "C) Laws/policies may allow partial fills; remaining quantity rules and timelines must be followed",
+        "D) Technician self-verification without pharmacist check is ideal for all hospitals always without rules"
+      ],
+      "answer": "C) Laws/policies may allow partial fills; remaining quantity rules and timelines must be followed",
+      "explanation": "Document quantity dispensed and remaining carefully. Therefore, the most accurate choice is: Laws/policies may allow partial fills; remaining quantity rules and timelines must be followed. Partial fills can be permissible under specified rules.",
+      "choice_explanations": {
+        "A": "Partial fills can be permissible under specified rules. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Document quantity dispensed and remaining carefully. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:24",
+      "question": "A 55-year-old woman has a complex presentation of transfer controlled. Which of the following is most accurate?",
+      "options": [
+        "A) Schedule II prescriptions may be refilled 5 times in 6 months federally like CIII–IV",
+        "B) Pharmacies should refuse all legitimate buprenorphine OUD prescriptions as policy",
+        "C) All CII prescriptions may be freely transferred unlimited times between pharmacies federally like noncontrols",
+        "D) Transfer rules differ by schedule and state; CII transfers generally highly restricted"
+      ],
+      "answer": "D) Transfer rules differ by schedule and state; CII transfers generally highly restricted",
+      "explanation": "Know state/federal nuances before transferring. Therefore, the most accurate choice is: Transfer rules differ by schedule and state; CII transfers generally highly restricted. CII transfer is not freely unlimited.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "CII transfer is not freely unlimited. It is less consistent than the correct choice.",
+        "D": "Know state/federal nuances before transferring. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:25",
+      "question": "Management of OBRA 90 counseling is reviewed for a 41-year-old woman. Which of the following is most accurate?",
+      "options": [
+        "A) Retrospective DUR replaces the need for any prospective checks at fill",
+        "B) OBRA ’90 forbids any counseling offers",
+        "C) Prospective DUR occurs only five years after dispensing",
+        "D) Offer to counsel Medicaid patients on new Rxs; many states expand offer/counseling duties"
+      ],
+      "answer": "D) Offer to counsel Medicaid patients on new Rxs; many states expand offer/counseling duties",
+      "explanation": "Prospective DUR is also an OBRA ’90 expectation theme. Therefore, the most accurate choice is: Offer to counsel Medicaid patients on new Rxs; many states expand offer/counseling duties. Counseling offers are required, not forbidden.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Counseling offers are required, not forbidden. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Prospective DUR is also an OBRA ’90 expectation theme. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:26",
+      "question": "A detailed evaluation for prospective DUR is underway in a 67-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) Review indications, interactions, duplicates, allergies, and dosing before dispensing",
+        "B) CMR only counts tablets without clinical evaluation",
+        "C) Prospective DUR occurs only five years after dispensing",
+        "D) Retrospective DUR replaces the need for any prospective checks at fill"
+      ],
+      "answer": "A) Review indications, interactions, duplicates, allergies, and dosing before dispensing",
+      "explanation": "Hard clinical stops require pharmacist judgment, not blind override without reason. Therefore, the most accurate choice is: Review indications, interactions, duplicates, allergies, and dosing before dispensing. Prospective means before dispensing.",
+      "choice_explanations": {
+        "A": "Hard clinical stops require pharmacist judgment, not blind override without reason. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Prospective means before dispensing. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:27",
+      "question": "In advanced review of retrospective DUR, which of the following is most accurate?",
+      "options": [
+        "A) Patterns reviewed after dispensing to improve population prescribing quality",
+        "B) Prospective DUR occurs only five years after dispensing",
+        "C) PDMPs are illegal for pharmacists to check before dispensing opioids",
+        "D) Retrospective DUR replaces the need for any prospective checks at fill"
+      ],
+      "answer": "A) Patterns reviewed after dispensing to improve population prescribing quality",
+      "explanation": "Payer and quality programs use retrospective analyses. Therefore, the most accurate choice is: Patterns reviewed after dispensing to improve population prescribing quality. It complements, not replaces, prospective DUR.",
+      "choice_explanations": {
+        "A": "Payer and quality programs use retrospective analyses. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "It complements, not replaces, prospective DUR. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:28",
+      "question": "Which interpretation of allergy documentation is most accurate?",
+      "options": [
+        "A) Documenting allergy details is unnecessary if the drug name is listed",
+        "B) PDSA means permanently implementing huge changes without measurement",
+        "C) Record reaction type/severity; distinguish intolerance from true allergy when possible",
+        "D) Tall-man lettering makes similar names harder to distinguish intentionally"
+      ],
+      "answer": "C) Record reaction type/severity; distinguish intolerance from true allergy when possible",
+      "explanation": "Reaction quality changes future antibiotic selection dramatically. Therefore, the most accurate choice is: Record reaction type/severity; distinguish intolerance from true allergy when possible. Details matter beyond a bare drug name.",
+      "choice_explanations": {
+        "A": "Details matter beyond a bare drug name. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Reaction quality changes future antibiotic selection dramatically. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacy_practice:extreme:29",
+      "question": "A 30-year-old woman returns with ongoing problems related to high alert medications. Which of the following is most accurate?",
+      "options": [
+        "A) ISMP high-alert list drugs cause heightened harm when used in error — need safeguards",
+        "B) High-alert means the drug is risk-free and needs fewer checks",
+        "C) Incidental disclosure means intentional sale of patient lists without consequence framing",
+        "D) Prior authorization means the drug is free without clinical criteria"
+      ],
+      "answer": "A) ISMP high-alert list drugs cause heightened harm when used in error — need safeguards",
+      "explanation": "Independent double checks and standardized concentrations reduce harm. Therefore, the most accurate choice is: ISMP high-alert list drugs cause heightened harm when used in error — need safeguards. High-alert implies more, not fewer, safeguards.",
+      "choice_explanations": {
+        "A": "Independent double checks and standardized concentrations reduce harm. This matches the correct interpretation.",
+        "B": "High-alert implies more, not fewer, safeguards. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ]
+}

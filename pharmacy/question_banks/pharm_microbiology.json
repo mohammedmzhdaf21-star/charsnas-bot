@@ -1,0 +1,2170 @@
+{
+  "easy": [
+    {
+      "id": "pharm_microbiology:easy:0",
+      "question": "Which of the following is true of gram stain purpose?",
+      "options": [
+        "A) Rapidly classifies bacteria by cell-wall staining properties to guide empiric therapy",
+        "B) Thick peptidoglycan without outer membrane stains pink as Gram-negative definition",
+        "C) Thin peptidoglycan with outer membrane retains crystal violet as purple always",
+        "D) Definitively identifies species and antibiotic MIC without culture"
+      ],
+      "answer": "A) Rapidly classifies bacteria by cell-wall staining properties to guide empiric therapy",
+      "explanation": "Crystal violet, iodine, decolorizer, and safranin sequence separates Gram-positive from Gram-negative. Therefore, the most accurate choice is: Rapidly classifies bacteria by cell-wall staining properties to guide empiric therapy. Gram stain is not a substitute for culture and susceptibility.",
+      "choice_explanations": {
+        "A": "Crystal violet, iodine, decolorizer, and safranin sequence separates Gram-positive from Gram-negative. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Gram stain is not a substitute for culture and susceptibility. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:1",
+      "question": "Which finding is expected in gram positive wall?",
+      "options": [
+        "A) LPS is the Gram-positive exotoxin that forms pores in RBCs only",
+        "B) Thick peptidoglycan retains crystal violet appearing purple",
+        "C) Thin peptidoglycan with outer membrane retains crystal violet as purple always",
+        "D) Thick peptidoglycan without outer membrane stains pink as Gram-negative definition"
+      ],
+      "answer": "B) Thick peptidoglycan retains crystal violet appearing purple",
+      "explanation": "Teichoic acids are associated with many Gram-positive walls. Therefore, the most accurate choice is: Thick peptidoglycan retains crystal violet appearing purple. Thick peptidoglycan defines the Gram-positive stain result.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Teichoic acids are associated with many Gram-positive walls. This matches the correct interpretation.",
+        "C": "Thick peptidoglycan defines the Gram-positive stain result. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:2",
+      "question": "In basic pharmacology, which of the following is true of gram negative wall?",
+      "options": [
+        "A) Thick peptidoglycan without outer membrane stains pink as Gram-negative definition",
+        "B) Porin loss increases beta-lactam entry and susceptibility",
+        "C) Outer membrane with LPS over thin peptidoglycan stains pink after decolorization",
+        "D) Thin peptidoglycan with outer membrane retains crystal violet as purple always"
+      ],
+      "answer": "C) Outer membrane with LPS over thin peptidoglycan stains pink after decolorization",
+      "explanation": "Porins and efflux pumps in the outer membrane affect antibiotic entry. Therefore, the most accurate choice is: Outer membrane with LPS over thin peptidoglycan stains pink after decolorization. Outer membrane plus thin peptidoglycan defines Gram-negatives.",
+      "choice_explanations": {
+        "A": "Outer membrane plus thin peptidoglycan defines Gram-negatives. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Porins and efflux pumps in the outer membrane affect antibiotic entry. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:3",
+      "question": "Which of the following correctly describes LPS endotoxin?",
+      "options": [
+        "A) Exotoxins are only LPS lipid A molecules",
+        "B) Thick peptidoglycan without outer membrane stains pink as Gram-negative definition",
+        "C) LPS is the Gram-positive exotoxin that forms pores in RBCs only",
+        "D) Lipid A of Gram-negative LPS triggers septic shock inflammatory cascades"
+      ],
+      "answer": "D) Lipid A of Gram-negative LPS triggers septic shock inflammatory cascades",
+      "explanation": "Endotoxin is heat-stable relative to many exotoxins. Therefore, the most accurate choice is: Lipid A of Gram-negative LPS triggers septic shock inflammatory cascades. LPS/endotoxin is a Gram-negative outer-membrane component.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "LPS/endotoxin is a Gram-negative outer-membrane component. It is less consistent than the correct choice.",
+        "D": "Endotoxin is heat-stable relative to many exotoxins. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:4",
+      "question": "Which of the following best describes peptidoglycan synthesis?",
+      "options": [
+        "A) All antifungals inhibit bacterial PBPs identically",
+        "B) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger",
+        "C) Peptidoglycan is synthesized only in fungal membranes with ergosterol",
+        "D) Transpeptidation cross-links peptidoglycan and is the target of beta-lactams"
+      ],
+      "answer": "D) Transpeptidation cross-links peptidoglycan and is the target of beta-lactams",
+      "explanation": "PBPs catalyze the cross-linking step. Therefore, the most accurate choice is: Transpeptidation cross-links peptidoglycan and is the target of beta-lactams. Beta-lactams target bacterial wall cross-linking, not fungal ergosterol.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Beta-lactams target bacterial wall cross-linking, not fungal ergosterol. It is less consistent than the correct choice.",
+        "D": "PBPs catalyze the cross-linking step. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:5",
+      "question": "Select the correct statement about beta lactamase types.",
+      "options": [
+        "A) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger",
+        "B) ESBLs always spare all cephalosporins and only hydrolyze vancomycin",
+        "C) Enzymes hydrolyze beta-lactam rings; ESBLs and carbapenemases threaten key drugs",
+        "D) VRE produces beta-lactamases that hydrolyze vancomycin directly"
+      ],
+      "answer": "C) Enzymes hydrolyze beta-lactam rings; ESBLs and carbapenemases threaten key drugs",
+      "explanation": "Inhibitors like clavulanate protect partner beta-lactams from some enzymes. Therefore, the most accurate choice is: Enzymes hydrolyze beta-lactam rings; ESBLs and carbapenemases threaten key drugs. Beta-lactamases destroy, rather than strengthen, beta-lactams.",
+      "choice_explanations": {
+        "A": "Beta-lactamases destroy, rather than strengthen, beta-lactams. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Inhibitors like clavulanate protect partner beta-lactams from some enzymes. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:6",
+      "question": "Which mechanism accounts for ESBL meaning?",
+      "options": [
+        "A) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger",
+        "B) VRE produces beta-lactamases that hydrolyze vancomycin directly",
+        "C) Extended-spectrum beta-lactamases hydrolyze many penicillins and cephalosporins",
+        "D) ESBLs always spare all cephalosporins and only hydrolyze vancomycin"
+      ],
+      "answer": "C) Extended-spectrum beta-lactamases hydrolyze many penicillins and cephalosporins",
+      "explanation": "Carbapenems often remain active though stewardship still matters. Therefore, the most accurate choice is: Extended-spectrum beta-lactamases hydrolyze many penicillins and cephalosporins. ESBLs attack broad cephalosporins, not vancomycin specifically.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Carbapenems often remain active though stewardship still matters. This matches the correct interpretation.",
+        "D": "ESBLs attack broad cephalosporins, not vancomycin specifically. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:7",
+      "question": "Which of the following applies to MRSA?",
+      "options": [
+        "A) VRE produces beta-lactamases that hydrolyze vancomycin directly",
+        "B) Rifampin resistance is only via mecA PBP2a",
+        "C) MRSA resists vancomycin by producing ESBL enzymes",
+        "D) mecA/mecC encodes PBP2a with low beta-lactam affinity conferring methicillin resistance"
+      ],
+      "answer": "D) mecA/mecC encodes PBP2a with low beta-lactam affinity conferring methicillin resistance",
+      "explanation": "Vancomycin or other anti-MRSA agents are used instead of standard anti-staph beta-lactams. Therefore, the most accurate choice is: mecA/mecC encodes PBP2a with low beta-lactam affinity conferring methicillin resistance. PBP2a mediates beta-lactam resistance, not ESBL versus vancomycin.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "PBP2a mediates beta-lactam resistance, not ESBL versus vancomycin. It is less consistent than the correct choice.",
+        "D": "Vancomycin or other anti-MRSA agents are used instead of standard anti-staph beta-lactams. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:8",
+      "question": "Which of the following is true of VRE?",
+      "options": [
+        "A) VRE produces beta-lactamases that hydrolyze vancomycin directly",
+        "B) ESBLs always spare all cephalosporins and only hydrolyze vancomycin",
+        "C) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger",
+        "D) vanA/vanB alter D-Ala-D-Ala to D-Ala-D-Lac reducing vancomycin binding"
+      ],
+      "answer": "D) vanA/vanB alter D-Ala-D-Ala to D-Ala-D-Lac reducing vancomycin binding",
+      "explanation": "Linezolid or daptomycin may be options depending on syndrome. Therefore, the most accurate choice is: vanA/vanB alter D-Ala-D-Ala to D-Ala-D-Lac reducing vancomycin binding. Vancomycin target modification, not enzymatic vancomycin hydrolysis, is classic.",
+      "choice_explanations": {
+        "A": "Vancomycin target modification, not enzymatic vancomycin hydrolysis, is classic. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Linezolid or daptomycin may be options depending on syndrome. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:9",
+      "question": "Which finding is expected in CRE concern?",
+      "options": [
+        "A) Porin loss increases beta-lactam entry and susceptibility",
+        "B) Molecular detection of mecA replaces all need for clinical judgment in contamination",
+        "C) Carbapenem-resistant Enterobacterales limit last-line beta-lactam options and need rapid detection",
+        "D) CRE means the isolate is resistant only to macrolides but fully carbapenem susceptible"
+      ],
+      "answer": "C) Carbapenem-resistant Enterobacterales limit last-line beta-lactam options and need rapid detection",
+      "explanation": "Ceftazidime-avibactam or other agents chosen by mechanism and susceptibility. Therefore, the most accurate choice is: Carbapenem-resistant Enterobacterales limit last-line beta-lactam options and need rapid detection. CRE denotes carbapenem resistance, not macrolide-only resistance.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Ceftazidime-avibactam or other agents chosen by mechanism and susceptibility. This matches the correct interpretation.",
+        "D": "CRE denotes carbapenem resistance, not macrolide-only resistance. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:10",
+      "question": "Which statement regarding MIC is correct?",
+      "options": [
+        "A) Lowest concentration preventing visible growth under standardized conditions",
+        "B) Identical always to the MIC for every bacteriostatic drug",
+        "C) Highest concentration that still allows abundant growth",
+        "D) Static agents always kill faster than cidal agents by definition"
+      ],
+      "answer": "A) Lowest concentration preventing visible growth under standardized conditions",
+      "explanation": "Breakpoints interpret MIC as susceptible, intermediate, or resistant. Therefore, the most accurate choice is: Lowest concentration preventing visible growth under standardized conditions. MIC is the lowest inhibitory concentration, not the highest.",
+      "choice_explanations": {
+        "A": "Breakpoints interpret MIC as susceptible, intermediate, or resistant. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "MIC is the lowest inhibitory concentration, not the highest. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:11",
+      "question": "In clinical examination related to MBC, which of the following is correct?",
+      "options": [
+        "A) Highest concentration that still allows abundant growth",
+        "B) Identical always to the MIC for every bacteriostatic drug",
+        "C) Static agents always kill faster than cidal agents by definition",
+        "D) Lowest concentration killing 99.9% of the inoculum under test conditions"
+      ],
+      "answer": "D) Lowest concentration killing 99.9% of the inoculum under test conditions",
+      "explanation": "Cidal versus static classification uses MBC/MIC relationships carefully. Therefore, the most accurate choice is: Lowest concentration killing 99.9% of the inoculum under test conditions. MBC measures killing, not merely growth inhibition.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "MBC measures killing, not merely growth inhibition. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Cidal versus static classification uses MBC/MIC relationships carefully. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:12",
+      "question": "Select the correct statement regarding bactericidal versus static.",
+      "options": [
+        "A) Static agents always kill faster than cidal agents by definition",
+        "B) Identical always to the MIC for every bacteriostatic drug",
+        "C) Static short oral therapy always preferred for left-sided MRSA endocarditis without evaluation",
+        "D) Cidal agents kill; static agents inhibit growth relying on immunity for clearance"
+      ],
+      "answer": "D) Cidal agents kill; static agents inhibit growth relying on immunity for clearance",
+      "explanation": "Clinical importance depends on host and infection site. Therefore, the most accurate choice is: Cidal agents kill; static agents inhibit growth relying on immunity for clearance. Static means inhibit, not kill faster.",
+      "choice_explanations": {
+        "A": "Static means inhibit, not kill faster. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Clinical importance depends on host and infection site. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:13",
+      "question": "Select the correct statement about time dependent killing.",
+      "options": [
+        "A) Beta-lactams optimize time above MIC rather than peak height alone",
+        "B) They are exclusively time-dependent like penicillins always",
+        "C) Beta-lactams are purely concentration-dependent with only Cmax/MIC targets like AGs",
+        "D) Identical always to the MIC for every bacteriostatic drug"
+      ],
+      "answer": "A) Beta-lactams optimize time above MIC rather than peak height alone",
+      "explanation": "Extended infusions increase T>MIC for some beta-lactams. Therefore, the most accurate choice is: Beta-lactams optimize time above MIC rather than peak height alone. Time above MIC is the key beta-lactam index.",
+      "choice_explanations": {
+        "A": "Extended infusions increase T>MIC for some beta-lactams. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Time above MIC is the key beta-lactam index. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:14",
+      "question": "Which mechanism accounts for concentration dependent killing?",
+      "options": [
+        "A) Aminoglycosides and fluoroquinolones optimize peak/MIC or AUC/MIC",
+        "B) They are exclusively time-dependent like penicillins always",
+        "C) Identical always to the MIC for every bacteriostatic drug",
+        "D) Beta-lactams are purely concentration-dependent with only Cmax/MIC targets like AGs"
+      ],
+      "answer": "A) Aminoglycosides and fluoroquinolones optimize peak/MIC or AUC/MIC",
+      "explanation": "Extended-interval AG dosing exploits concentration-dependent PD. Therefore, the most accurate choice is: Aminoglycosides and fluoroquinolones optimize peak/MIC or AUC/MIC. Peak or AUC indices dominate for these classes.",
+      "choice_explanations": {
+        "A": "Extended-interval AG dosing exploits concentration-dependent PD. This matches the correct interpretation.",
+        "B": "Peak or AUC indices dominate for these classes. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:15",
+      "question": "Which of the following applies to post antibiotic effect?",
+      "options": [
+        "A) Beta-lactams are purely concentration-dependent with only Cmax/MIC targets like AGs",
+        "B) Means bacteria grow faster immediately after any drug exposure",
+        "C) Definitively identifies species and antibiotic MIC without culture",
+        "D) Persistent suppression of growth after drug levels fall below MIC"
+      ],
+      "answer": "D) Persistent suppression of growth after drug levels fall below MIC",
+      "explanation": "AGs and FQs often show PAE supporting intermittent dosing. Therefore, the most accurate choice is: Persistent suppression of growth after drug levels fall below MIC. PAE is prolonged suppression, not faster growth.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "PAE is prolonged suppression, not faster growth. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "AGs and FQs often show PAE supporting intermittent dosing. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:16",
+      "question": "Which of the following is true about disk diffusion Kirby Bauer?",
+      "options": [
+        "A) Breakpoints are identical forever for all species and drugs without updates",
+        "B) Zone diameters correlate inversely with susceptibility under standardized agar conditions",
+        "C) Cannot be used for any antimicrobial susceptibility testing",
+        "D) Larger zones always mean more resistance"
+      ],
+      "answer": "B) Zone diameters correlate inversely with susceptibility under standardized agar conditions",
+      "explanation": "Cannot provide a direct MIC number without gradient methods. Therefore, the most accurate choice is: Zone diameters correlate inversely with susceptibility under standardized agar conditions. Larger zones generally mean more susceptibility, not resistance.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Cannot provide a direct MIC number without gradient methods. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Larger zones generally mean more susceptibility, not resistance. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:17",
+      "question": "Which finding is expected in etest gradient?",
+      "options": [
+        "A) Means bacteria grow faster immediately after any drug exposure",
+        "B) Plastic strip gradient estimates MIC at the ellipse intersection",
+        "C) Measures only Gram stain color",
+        "D) Definitively identifies species and antibiotic MIC without culture"
+      ],
+      "answer": "B) Plastic strip gradient estimates MIC at the ellipse intersection",
+      "explanation": "Useful when broth MIC not immediately available. Therefore, the most accurate choice is: Plastic strip gradient estimates MIC at the ellipse intersection. It estimates MIC, not Gram reaction.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Useful when broth MIC not immediately available. This matches the correct interpretation.",
+        "C": "It estimates MIC, not Gram reaction. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:18",
+      "question": "Which statement regarding broth microdilution is correct?",
+      "options": [
+        "A) Means bacteria grow faster immediately after any drug exposure",
+        "B) Reference-style MIC panels with serial drug dilutions in broth",
+        "C) Cannot be used for any antimicrobial susceptibility testing",
+        "D) Inoculum size never affects measured susceptibility"
+      ],
+      "answer": "B) Reference-style MIC panels with serial drug dilutions in broth",
+      "explanation": "Automated systems often approximate this principle. Therefore, the most accurate choice is: Reference-style MIC panels with serial drug dilutions in broth. It is a core MIC method.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Automated systems often approximate this principle. This matches the correct interpretation.",
+        "C": "It is a core MIC method. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:19",
+      "question": "Which of the following correctly describes breakpoint?",
+      "options": [
+        "A) CLSI/EUCAST breakpoints translate MIC or zones into S/I/R categories",
+        "B) Superantigens are identical to endotoxin LPS without T-cell effects",
+        "C) Definitively identifies species and antibiotic MIC without culture",
+        "D) Breakpoints are identical forever for all species and drugs without updates"
+      ],
+      "answer": "A) CLSI/EUCAST breakpoints translate MIC or zones into S/I/R categories",
+      "explanation": "Pharmacokinetic/pharmacodynamic and outcome data inform breakpoints. Therefore, the most accurate choice is: CLSI/EUCAST breakpoints translate MIC or zones into S/I/R categories. Breakpoints are drug-organism specific and revised over time.",
+      "choice_explanations": {
+        "A": "Pharmacokinetic/pharmacodynamic and outcome data inform breakpoints. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Breakpoints are drug-organism specific and revised over time. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:20",
+      "question": "Which of the following best describes PK PD indices antibiotics?",
+      "options": [
+        "A) AUC/MIC, Cmax/MIC, or T>MIC link exposure to antibacterial effect",
+        "B) Measures only Gram stain color",
+        "C) Means bacteria grow faster immediately after any drug exposure",
+        "D) Only tablet color predicts antibacterial success"
+      ],
+      "answer": "A) AUC/MIC, Cmax/MIC, or T>MIC link exposure to antibacterial effect",
+      "explanation": "Dosing regimens are designed around the dominant index for each class. Therefore, the most accurate choice is: AUC/MIC, Cmax/MIC, or T>MIC link exposure to antibacterial effect. Exposure indices, not color, drive dosing science.",
+      "choice_explanations": {
+        "A": "Dosing regimens are designed around the dominant index for each class. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Exposure indices, not color, drive dosing science. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:21",
+      "question": "Select the correct statement about inoculum effect.",
+      "options": [
+        "A) Porin loss increases beta-lactam entry and susceptibility",
+        "B) Inoculum size never affects measured susceptibility",
+        "C) Higher bacterial density can raise apparent MIC for some beta-lactams",
+        "D) Beta-lactams are purely concentration-dependent with only Cmax/MIC targets like AGs"
+      ],
+      "answer": "C) Higher bacterial density can raise apparent MIC for some beta-lactams",
+      "explanation": "Deep abscesses with high inocula may respond less well. Therefore, the most accurate choice is: Higher bacterial density can raise apparent MIC for some beta-lactams. High inocula can worsen apparent resistance.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "High inocula can worsen apparent resistance. It is less consistent than the correct choice.",
+        "C": "Deep abscesses with high inocula may respond less well. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:22",
+      "question": "Which mechanism accounts for biofilm resistance?",
+      "options": [
+        "A) Biofilms reduce antibiotic penetration and increase tolerance without classic resistance genes necessarily",
+        "B) Biofilms always make bacteria hypersensitive to all antibiotics",
+        "C) Efflux pumps import antibiotics to increase potency",
+        "D) Resistance genes never move between bacteria"
+      ],
+      "answer": "A) Biofilms reduce antibiotic penetration and increase tolerance without classic resistance genes necessarily",
+      "explanation": "Device infections may need removal plus antibiotics. Therefore, the most accurate choice is: Biofilms reduce antibiotic penetration and increase tolerance without classic resistance genes necessarily. Biofilms increase tolerance, not hypersensitivity.",
+      "choice_explanations": {
+        "A": "Device infections may need removal plus antibiotics. This matches the correct interpretation.",
+        "B": "Biofilms increase tolerance, not hypersensitivity. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:23",
+      "question": "Which of the following applies to persister cells?",
+      "options": [
+        "A) Phenotypic tolerant subpopulations survive bactericidal drugs without heritable resistance",
+        "B) Breakpoints are identical forever for all species and drugs without updates",
+        "C) Persisters are simply ESBL-producing mutants only",
+        "D) MRSA resists vancomycin by producing ESBL enzymes"
+      ],
+      "answer": "A) Phenotypic tolerant subpopulations survive bactericidal drugs without heritable resistance",
+      "explanation": "Contribute to relapse of chronic infections. Therefore, the most accurate choice is: Phenotypic tolerant subpopulations survive bactericidal drugs without heritable resistance. Tolerance differs from inherited resistance mechanisms.",
+      "choice_explanations": {
+        "A": "Contribute to relapse of chronic infections. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Tolerance differs from inherited resistance mechanisms. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:24",
+      "question": "Which of the following is true of horizontal gene transfer?",
+      "options": [
+        "A) Conjugation only transfers chromosomal essential genes for glycolysis",
+        "B) Resistance genes never move between bacteria",
+        "C) Biofilms always make bacteria hypersensitive to all antibiotics",
+        "D) Transformation, transduction, and conjugation move resistance genes between bacteria"
+      ],
+      "answer": "D) Transformation, transduction, and conjugation move resistance genes between bacteria",
+      "explanation": "Plasmids commonly carry multidrug resistance cassettes. Therefore, the most accurate choice is: Transformation, transduction, and conjugation move resistance genes between bacteria. HGT spreads resistance rapidly.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "HGT spreads resistance rapidly. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Plasmids commonly carry multidrug resistance cassettes. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:25",
+      "question": "Which finding is expected in conjugation plasmids?",
+      "options": [
+        "A) Direct cell-to-cell transfer of plasmids is a major MDR dissemination route",
+        "B) Resistance genes never move between bacteria",
+        "C) NNRTIs inhibit integrase strand transfer as primary action",
+        "D) Conjugation only transfers chromosomal essential genes for glycolysis"
+      ],
+      "answer": "A) Direct cell-to-cell transfer of plasmids is a major MDR dissemination route",
+      "explanation": "Infection control limits spread of plasmid-bearing clones. Therefore, the most accurate choice is: Direct cell-to-cell transfer of plasmids is a major MDR dissemination route. Plasmids, not only core glycolysis genes, transfer.",
+      "choice_explanations": {
+        "A": "Infection control limits spread of plasmid-bearing clones. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Plasmids, not only core glycolysis genes, transfer. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:26",
+      "question": "In basic pharmacology, which of the following is true of efflux pumps bacteria?",
+      "options": [
+        "A) Contact precautions are never used for MDR bacteria",
+        "B) Export antibiotics reducing intracellular accumulation contributing to MDR",
+        "C) Efflux pumps import antibiotics to increase potency",
+        "D) Biofilms always make bacteria hypersensitive to all antibiotics"
+      ],
+      "answer": "B) Export antibiotics reducing intracellular accumulation contributing to MDR",
+      "explanation": "AcrAB-TolC type pumps in Gram-negatives are classic examples. Therefore, the most accurate choice is: Export antibiotics reducing intracellular accumulation contributing to MDR. Efflux decreases, not increases, intracellular drug.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "AcrAB-TolC type pumps in Gram-negatives are classic examples. This matches the correct interpretation.",
+        "C": "Efflux decreases, not increases, intracellular drug. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:27",
+      "question": "In porin loss, which of the following is correct?",
+      "options": [
+        "A) INH resistance means the mycobacterium lost all cell walls",
+        "B) Reduced outer-membrane porins limit entry of beta-lactams into Gram-negatives",
+        "C) Inoculum size never affects measured susceptibility",
+        "D) Porin loss increases beta-lactam entry and susceptibility"
+      ],
+      "answer": "B) Reduced outer-membrane porins limit entry of beta-lactams into Gram-negatives",
+      "explanation": "Often combines with beta-lactamases for high-level resistance. Therefore, the most accurate choice is: Reduced outer-membrane porins limit entry of beta-lactams into Gram-negatives. Porin loss decreases entry and susceptibility.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Often combines with beta-lactamases for high-level resistance. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Porin loss decreases entry and susceptibility. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:28",
+      "question": "Which of the following best describes aminoglycoside modifying enzymes?",
+      "options": [
+        "A) MRSA resists vancomycin by producing ESBL enzymes",
+        "B) Acetyltransferases, phosphorylases, and nucleotidyltransferases inactivate AGs",
+        "C) They strengthen AG binding to the 30S subunit",
+        "D) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger"
+      ],
+      "answer": "B) Acetyltransferases, phosphorylases, and nucleotidyltransferases inactivate AGs",
+      "explanation": "Amikacin resists some modifying enzymes better than gentamicin sometimes. Therefore, the most accurate choice is: Acetyltransferases, phosphorylases, and nucleotidyltransferases inactivate AGs. They inactivate AGs rather than strengthen binding.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Amikacin resists some modifying enzymes better than gentamicin sometimes. This matches the correct interpretation.",
+        "C": "They inactivate AGs rather than strengthen binding. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:easy:29",
+      "question": "Select the correct statement about ribosomal protection tetracycline.",
+      "options": [
+        "A) Protection proteins allow translation despite tetracycline binding themes",
+        "B) FQ resistance occurs only via vancomycin target change",
+        "C) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger",
+        "D) Tetracycline resistance is only via beta-lactamase"
+      ],
+      "answer": "A) Protection proteins allow translation despite tetracycline binding themes",
+      "explanation": "Efflux is another major tetracycline resistance mechanism. Therefore, the most accurate choice is: Protection proteins allow translation despite tetracycline binding themes. Ribosomal protection and efflux, not beta-lactamase, dominate.",
+      "choice_explanations": {
+        "A": "Efflux is another major tetracycline resistance mechanism. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Ribosomal protection and efflux, not beta-lactamase, dominate. It is less consistent than the correct choice."
+      }
+    }
+  ],
+  "medium": [
+    {
+      "id": "pharm_microbiology:medium:0",
+      "question": "A 68-year-old man is started on treatment related to gram stain purpose. Which of the following is correct?",
+      "options": [
+        "A) Thick peptidoglycan without outer membrane stains pink as Gram-negative definition",
+        "B) Rapidly classifies bacteria by cell-wall staining properties to guide empiric therapy",
+        "C) Thin peptidoglycan with outer membrane retains crystal violet as purple always",
+        "D) Definitively identifies species and antibiotic MIC without culture"
+      ],
+      "answer": "B) Rapidly classifies bacteria by cell-wall staining properties to guide empiric therapy",
+      "explanation": "Crystal violet, iodine, decolorizer, and safranin sequence separates Gram-positive from Gram-negative. Therefore, the most accurate choice is: Rapidly classifies bacteria by cell-wall staining properties to guide empiric therapy. Gram stain is not a substitute for culture and susceptibility.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Crystal violet, iodine, decolorizer, and safranin sequence separates Gram-positive from Gram-negative. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Gram stain is not a substitute for culture and susceptibility. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:1",
+      "question": "A 34-year-old woman takes several medicines and is assessed regarding gram positive wall. Which of the following is most appropriate?",
+      "options": [
+        "A) Thin peptidoglycan with outer membrane retains crystal violet as purple always",
+        "B) Thick peptidoglycan retains crystal violet appearing purple",
+        "C) LPS is the Gram-positive exotoxin that forms pores in RBCs only",
+        "D) Thick peptidoglycan without outer membrane stains pink as Gram-negative definition"
+      ],
+      "answer": "B) Thick peptidoglycan retains crystal violet appearing purple",
+      "explanation": "Teichoic acids are associated with many Gram-positive walls. Therefore, the most accurate choice is: Thick peptidoglycan retains crystal violet appearing purple. Thick peptidoglycan defines the Gram-positive stain result.",
+      "choice_explanations": {
+        "A": "Thick peptidoglycan defines the Gram-positive stain result. It is less consistent than the correct choice.",
+        "B": "Teichoic acids are associated with many Gram-positive walls. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:2",
+      "question": "Which of the following correctly describes gram negative wall?",
+      "options": [
+        "A) Thin peptidoglycan with outer membrane retains crystal violet as purple always",
+        "B) Porin loss increases beta-lactam entry and susceptibility",
+        "C) Thick peptidoglycan without outer membrane stains pink as Gram-negative definition",
+        "D) Outer membrane with LPS over thin peptidoglycan stains pink after decolorization"
+      ],
+      "answer": "D) Outer membrane with LPS over thin peptidoglycan stains pink after decolorization",
+      "explanation": "Porins and efflux pumps in the outer membrane affect antibiotic entry. Therefore, the most accurate choice is: Outer membrane with LPS over thin peptidoglycan stains pink after decolorization. Outer membrane plus thin peptidoglycan defines Gram-negatives.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Outer membrane plus thin peptidoglycan defines Gram-negatives. It is less consistent than the correct choice.",
+        "D": "Porins and efflux pumps in the outer membrane affect antibiotic entry. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:3",
+      "question": "In comparing drug properties, which statement about LPS endotoxin is correct?",
+      "options": [
+        "A) LPS is the Gram-positive exotoxin that forms pores in RBCs only",
+        "B) Thick peptidoglycan without outer membrane stains pink as Gram-negative definition",
+        "C) Exotoxins are only LPS lipid A molecules",
+        "D) Lipid A of Gram-negative LPS triggers septic shock inflammatory cascades"
+      ],
+      "answer": "D) Lipid A of Gram-negative LPS triggers septic shock inflammatory cascades",
+      "explanation": "Endotoxin is heat-stable relative to many exotoxins. Therefore, the most accurate choice is: Lipid A of Gram-negative LPS triggers septic shock inflammatory cascades. LPS/endotoxin is a Gram-negative outer-membrane component.",
+      "choice_explanations": {
+        "A": "LPS/endotoxin is a Gram-negative outer-membrane component. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Endotoxin is heat-stable relative to many exotoxins. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:4",
+      "question": "A 37-year-old woman needs counseling about peptidoglycan synthesis. Which of the following is most appropriate?",
+      "options": [
+        "A) Peptidoglycan is synthesized only in fungal membranes with ergosterol",
+        "B) All antifungals inhibit bacterial PBPs identically",
+        "C) Transpeptidation cross-links peptidoglycan and is the target of beta-lactams",
+        "D) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger"
+      ],
+      "answer": "C) Transpeptidation cross-links peptidoglycan and is the target of beta-lactams",
+      "explanation": "PBPs catalyze the cross-linking step. Therefore, the most accurate choice is: Transpeptidation cross-links peptidoglycan and is the target of beta-lactams. Beta-lactams target bacterial wall cross-linking, not fungal ergosterol.",
+      "choice_explanations": {
+        "A": "Beta-lactams target bacterial wall cross-linking, not fungal ergosterol. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "PBPs catalyze the cross-linking step. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:5",
+      "question": "During medication reconciliation, beta lactamase types is discussed. Which of the following is correct?",
+      "options": [
+        "A) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger",
+        "B) VRE produces beta-lactamases that hydrolyze vancomycin directly",
+        "C) ESBLs always spare all cephalosporins and only hydrolyze vancomycin",
+        "D) Enzymes hydrolyze beta-lactam rings; ESBLs and carbapenemases threaten key drugs"
+      ],
+      "answer": "D) Enzymes hydrolyze beta-lactam rings; ESBLs and carbapenemases threaten key drugs",
+      "explanation": "Inhibitors like clavulanate protect partner beta-lactams from some enzymes. Therefore, the most accurate choice is: Enzymes hydrolyze beta-lactam rings; ESBLs and carbapenemases threaten key drugs. Beta-lactamases destroy, rather than strengthen, beta-lactams.",
+      "choice_explanations": {
+        "A": "Beta-lactamases destroy, rather than strengthen, beta-lactams. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Inhibitors like clavulanate protect partner beta-lactams from some enzymes. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:6",
+      "question": "A 66-year-old man needs dose adjustment related to ESBL meaning. Which of the following is most accurate?",
+      "options": [
+        "A) ESBLs always spare all cephalosporins and only hydrolyze vancomycin",
+        "B) Extended-spectrum beta-lactamases hydrolyze many penicillins and cephalosporins",
+        "C) VRE produces beta-lactamases that hydrolyze vancomycin directly",
+        "D) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger"
+      ],
+      "answer": "B) Extended-spectrum beta-lactamases hydrolyze many penicillins and cephalosporins",
+      "explanation": "Carbapenems often remain active though stewardship still matters. Therefore, the most accurate choice is: Extended-spectrum beta-lactamases hydrolyze many penicillins and cephalosporins. ESBLs attack broad cephalosporins, not vancomycin specifically.",
+      "choice_explanations": {
+        "A": "ESBLs attack broad cephalosporins, not vancomycin specifically. It is less consistent than the correct choice.",
+        "B": "Carbapenems often remain active though stewardship still matters. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:7",
+      "question": "A 69-year-old woman has lab changes linked to MRSA. Which of the following is correct?",
+      "options": [
+        "A) MRSA resists vancomycin by producing ESBL enzymes",
+        "B) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger",
+        "C) Rifampin resistance is only via mecA PBP2a",
+        "D) mecA/mecC encodes PBP2a with low beta-lactam affinity conferring methicillin resistance"
+      ],
+      "answer": "D) mecA/mecC encodes PBP2a with low beta-lactam affinity conferring methicillin resistance",
+      "explanation": "Vancomycin or other anti-MRSA agents are used instead of standard anti-staph beta-lactams. Therefore, the most accurate choice is: mecA/mecC encodes PBP2a with low beta-lactam affinity conferring methicillin resistance. PBP2a mediates beta-lactam resistance, not ESBL versus vancomycin.",
+      "choice_explanations": {
+        "A": "PBP2a mediates beta-lactam resistance, not ESBL versus vancomycin. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Vancomycin or other anti-MRSA agents are used instead of standard anti-staph beta-lactams. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:8",
+      "question": "A 55-year-old woman is started on treatment related to VRE. Which of the following is correct?",
+      "options": [
+        "A) vanA/vanB alter D-Ala-D-Ala to D-Ala-D-Lac reducing vancomycin binding",
+        "B) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger",
+        "C) VRE produces beta-lactamases that hydrolyze vancomycin directly",
+        "D) ESBLs always spare all cephalosporins and only hydrolyze vancomycin"
+      ],
+      "answer": "A) vanA/vanB alter D-Ala-D-Ala to D-Ala-D-Lac reducing vancomycin binding",
+      "explanation": "Linezolid or daptomycin may be options depending on syndrome. Therefore, the most accurate choice is: vanA/vanB alter D-Ala-D-Ala to D-Ala-D-Lac reducing vancomycin binding. Vancomycin target modification, not enzymatic vancomycin hydrolysis, is classic.",
+      "choice_explanations": {
+        "A": "Linezolid or daptomycin may be options depending on syndrome. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Vancomycin target modification, not enzymatic vancomycin hydrolysis, is classic. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:9",
+      "question": "A 66-year-old man takes several medicines and is assessed regarding CRE concern. Which of the following is most appropriate?",
+      "options": [
+        "A) Carbapenem-resistant Enterobacterales limit last-line beta-lactam options and need rapid detection",
+        "B) CRE means the isolate is resistant only to macrolides but fully carbapenem susceptible",
+        "C) Molecular detection of mecA replaces all need for clinical judgment in contamination",
+        "D) Porin loss increases beta-lactam entry and susceptibility"
+      ],
+      "answer": "A) Carbapenem-resistant Enterobacterales limit last-line beta-lactam options and need rapid detection",
+      "explanation": "Ceftazidime-avibactam or other agents chosen by mechanism and susceptibility. Therefore, the most accurate choice is: Carbapenem-resistant Enterobacterales limit last-line beta-lactam options and need rapid detection. CRE denotes carbapenem resistance, not macrolide-only resistance.",
+      "choice_explanations": {
+        "A": "Ceftazidime-avibactam or other agents chosen by mechanism and susceptibility. This matches the correct interpretation.",
+        "B": "CRE denotes carbapenem resistance, not macrolide-only resistance. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:10",
+      "question": "A 69-year-old woman has findings requiring interpretation of MIC. Which of the following is correct?",
+      "options": [
+        "A) Static agents always kill faster than cidal agents by definition",
+        "B) Highest concentration that still allows abundant growth",
+        "C) Identical always to the MIC for every bacteriostatic drug",
+        "D) Lowest concentration preventing visible growth under standardized conditions"
+      ],
+      "answer": "D) Lowest concentration preventing visible growth under standardized conditions",
+      "explanation": "Breakpoints interpret MIC as susceptible, intermediate, or resistant. Therefore, the most accurate choice is: Lowest concentration preventing visible growth under standardized conditions. MIC is the lowest inhibitory concentration, not the highest.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "MIC is the lowest inhibitory concentration, not the highest. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Breakpoints interpret MIC as susceptible, intermediate, or resistant. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:11",
+      "question": "In a 35-year-old man, which statement about MBC is correct?",
+      "options": [
+        "A) Identical always to the MIC for every bacteriostatic drug",
+        "B) Highest concentration that still allows abundant growth",
+        "C) Static agents always kill faster than cidal agents by definition",
+        "D) Lowest concentration killing 99.9% of the inoculum under test conditions"
+      ],
+      "answer": "D) Lowest concentration killing 99.9% of the inoculum under test conditions",
+      "explanation": "Cidal versus static classification uses MBC/MIC relationships carefully. Therefore, the most accurate choice is: Lowest concentration killing 99.9% of the inoculum under test conditions. MBC measures killing, not merely growth inhibition.",
+      "choice_explanations": {
+        "A": "MBC measures killing, not merely growth inhibition. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Cidal versus static classification uses MBC/MIC relationships carefully. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:12",
+      "question": "Regarding bactericidal versus static, which of the following is correct?",
+      "options": [
+        "A) Static short oral therapy always preferred for left-sided MRSA endocarditis without evaluation",
+        "B) Static agents always kill faster than cidal agents by definition",
+        "C) Identical always to the MIC for every bacteriostatic drug",
+        "D) Cidal agents kill; static agents inhibit growth relying on immunity for clearance"
+      ],
+      "answer": "D) Cidal agents kill; static agents inhibit growth relying on immunity for clearance",
+      "explanation": "Clinical importance depends on host and infection site. Therefore, the most accurate choice is: Cidal agents kill; static agents inhibit growth relying on immunity for clearance. Static means inhibit, not kill faster.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Static means inhibit, not kill faster. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Clinical importance depends on host and infection site. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:13",
+      "question": "During medication reconciliation, time dependent killing is discussed. Which of the following is correct?",
+      "options": [
+        "A) Beta-lactams optimize time above MIC rather than peak height alone",
+        "B) They are exclusively time-dependent like penicillins always",
+        "C) Beta-lactams are purely concentration-dependent with only Cmax/MIC targets like AGs",
+        "D) Identical always to the MIC for every bacteriostatic drug"
+      ],
+      "answer": "A) Beta-lactams optimize time above MIC rather than peak height alone",
+      "explanation": "Extended infusions increase T>MIC for some beta-lactams. Therefore, the most accurate choice is: Beta-lactams optimize time above MIC rather than peak height alone. Time above MIC is the key beta-lactam index.",
+      "choice_explanations": {
+        "A": "Extended infusions increase T>MIC for some beta-lactams. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Time above MIC is the key beta-lactam index. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:14",
+      "question": "A 70-year-old woman needs dose adjustment related to concentration dependent killing. Which of the following is most accurate?",
+      "options": [
+        "A) Aminoglycosides and fluoroquinolones optimize peak/MIC or AUC/MIC",
+        "B) Identical always to the MIC for every bacteriostatic drug",
+        "C) Beta-lactams are purely concentration-dependent with only Cmax/MIC targets like AGs",
+        "D) They are exclusively time-dependent like penicillins always"
+      ],
+      "answer": "A) Aminoglycosides and fluoroquinolones optimize peak/MIC or AUC/MIC",
+      "explanation": "Extended-interval AG dosing exploits concentration-dependent PD. Therefore, the most accurate choice is: Aminoglycosides and fluoroquinolones optimize peak/MIC or AUC/MIC. Peak or AUC indices dominate for these classes.",
+      "choice_explanations": {
+        "A": "Extended-interval AG dosing exploits concentration-dependent PD. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Peak or AUC indices dominate for these classes. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:15",
+      "question": "A 52-year-old woman has lab changes linked to post antibiotic effect. Which of the following is correct?",
+      "options": [
+        "A) Definitively identifies species and antibiotic MIC without culture",
+        "B) Means bacteria grow faster immediately after any drug exposure",
+        "C) Persistent suppression of growth after drug levels fall below MIC",
+        "D) Static agents always kill faster than cidal agents by definition"
+      ],
+      "answer": "C) Persistent suppression of growth after drug levels fall below MIC",
+      "explanation": "AGs and FQs often show PAE supporting intermittent dosing. Therefore, the most accurate choice is: Persistent suppression of growth after drug levels fall below MIC. PAE is prolonged suppression, not faster growth.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "PAE is prolonged suppression, not faster growth. It is less consistent than the correct choice.",
+        "C": "AGs and FQs often show PAE supporting intermittent dosing. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:16",
+      "question": "A 61-year-old man is examined, and disk diffusion Kirby Bauer is reviewed. Which of the following is correct?",
+      "options": [
+        "A) Breakpoints are identical forever for all species and drugs without updates",
+        "B) Larger zones always mean more resistance",
+        "C) Cannot be used for any antimicrobial susceptibility testing",
+        "D) Zone diameters correlate inversely with susceptibility under standardized agar conditions"
+      ],
+      "answer": "D) Zone diameters correlate inversely with susceptibility under standardized agar conditions",
+      "explanation": "Cannot provide a direct MIC number without gradient methods. Therefore, the most accurate choice is: Zone diameters correlate inversely with susceptibility under standardized agar conditions. Larger zones generally mean more susceptibility, not resistance.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Larger zones generally mean more susceptibility, not resistance. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Cannot provide a direct MIC number without gradient methods. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:17",
+      "question": "A 62-year-old woman takes several medicines and is assessed regarding etest gradient. Which of the following is most appropriate?",
+      "options": [
+        "A) Definitively identifies species and antibiotic MIC without culture",
+        "B) Plastic strip gradient estimates MIC at the ellipse intersection",
+        "C) Only tablet color predicts antibacterial success",
+        "D) Measures only Gram stain color"
+      ],
+      "answer": "B) Plastic strip gradient estimates MIC at the ellipse intersection",
+      "explanation": "Useful when broth MIC not immediately available. Therefore, the most accurate choice is: Plastic strip gradient estimates MIC at the ellipse intersection. It estimates MIC, not Gram reaction.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Useful when broth MIC not immediately available. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "It estimates MIC, not Gram reaction. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:18",
+      "question": "A 51-year-old woman has findings requiring interpretation of broth microdilution. Which of the following is correct?",
+      "options": [
+        "A) Reference-style MIC panels with serial drug dilutions in broth",
+        "B) Means bacteria grow faster immediately after any drug exposure",
+        "C) Inoculum size never affects measured susceptibility",
+        "D) Cannot be used for any antimicrobial susceptibility testing"
+      ],
+      "answer": "A) Reference-style MIC panels with serial drug dilutions in broth",
+      "explanation": "Automated systems often approximate this principle. Therefore, the most accurate choice is: Reference-style MIC panels with serial drug dilutions in broth. It is a core MIC method.",
+      "choice_explanations": {
+        "A": "Automated systems often approximate this principle. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "It is a core MIC method. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:19",
+      "question": "In comparing drug properties, which statement about breakpoint is correct?",
+      "options": [
+        "A) Superantigens are identical to endotoxin LPS without T-cell effects",
+        "B) Breakpoints are identical forever for all species and drugs without updates",
+        "C) Definitively identifies species and antibiotic MIC without culture",
+        "D) CLSI/EUCAST breakpoints translate MIC or zones into S/I/R categories"
+      ],
+      "answer": "D) CLSI/EUCAST breakpoints translate MIC or zones into S/I/R categories",
+      "explanation": "Pharmacokinetic/pharmacodynamic and outcome data inform breakpoints. Therefore, the most accurate choice is: CLSI/EUCAST breakpoints translate MIC or zones into S/I/R categories. Breakpoints are drug-organism specific and revised over time.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Breakpoints are drug-organism specific and revised over time. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Pharmacokinetic/pharmacodynamic and outcome data inform breakpoints. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:20",
+      "question": "A 68-year-old woman needs counseling about PK PD indices antibiotics. Which of the following is most appropriate?",
+      "options": [
+        "A) AUC/MIC, Cmax/MIC, or T>MIC link exposure to antibacterial effect",
+        "B) Means bacteria grow faster immediately after any drug exposure",
+        "C) Only tablet color predicts antibacterial success",
+        "D) Measures only Gram stain color"
+      ],
+      "answer": "A) AUC/MIC, Cmax/MIC, or T>MIC link exposure to antibacterial effect",
+      "explanation": "Dosing regimens are designed around the dominant index for each class. Therefore, the most accurate choice is: AUC/MIC, Cmax/MIC, or T>MIC link exposure to antibacterial effect. Exposure indices, not color, drive dosing science.",
+      "choice_explanations": {
+        "A": "Dosing regimens are designed around the dominant index for each class. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Exposure indices, not color, drive dosing science. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:21",
+      "question": "During medication reconciliation, inoculum effect is discussed. Which of the following is correct?",
+      "options": [
+        "A) Higher bacterial density can raise apparent MIC for some beta-lactams",
+        "B) Porin loss increases beta-lactam entry and susceptibility",
+        "C) Inoculum size never affects measured susceptibility",
+        "D) Beta-lactams are purely concentration-dependent with only Cmax/MIC targets like AGs"
+      ],
+      "answer": "A) Higher bacterial density can raise apparent MIC for some beta-lactams",
+      "explanation": "Deep abscesses with high inocula may respond less well. Therefore, the most accurate choice is: Higher bacterial density can raise apparent MIC for some beta-lactams. High inocula can worsen apparent resistance.",
+      "choice_explanations": {
+        "A": "Deep abscesses with high inocula may respond less well. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "High inocula can worsen apparent resistance. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:22",
+      "question": "A 58-year-old man needs dose adjustment related to biofilm resistance. Which of the following is most accurate?",
+      "options": [
+        "A) Resistance genes never move between bacteria",
+        "B) Biofilms always make bacteria hypersensitive to all antibiotics",
+        "C) Biofilms reduce antibiotic penetration and increase tolerance without classic resistance genes necessarily",
+        "D) Efflux pumps import antibiotics to increase potency"
+      ],
+      "answer": "C) Biofilms reduce antibiotic penetration and increase tolerance without classic resistance genes necessarily",
+      "explanation": "Device infections may need removal plus antibiotics. Therefore, the most accurate choice is: Biofilms reduce antibiotic penetration and increase tolerance without classic resistance genes necessarily. Biofilms increase tolerance, not hypersensitivity.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Biofilms increase tolerance, not hypersensitivity. It is less consistent than the correct choice.",
+        "C": "Device infections may need removal plus antibiotics. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:23",
+      "question": "A 43-year-old man has lab changes linked to persister cells. Which of the following is correct?",
+      "options": [
+        "A) Persisters are simply ESBL-producing mutants only",
+        "B) Breakpoints are identical forever for all species and drugs without updates",
+        "C) MRSA resists vancomycin by producing ESBL enzymes",
+        "D) Phenotypic tolerant subpopulations survive bactericidal drugs without heritable resistance"
+      ],
+      "answer": "D) Phenotypic tolerant subpopulations survive bactericidal drugs without heritable resistance",
+      "explanation": "Contribute to relapse of chronic infections. Therefore, the most accurate choice is: Phenotypic tolerant subpopulations survive bactericidal drugs without heritable resistance. Tolerance differs from inherited resistance mechanisms.",
+      "choice_explanations": {
+        "A": "Tolerance differs from inherited resistance mechanisms. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Contribute to relapse of chronic infections. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:24",
+      "question": "A 34-year-old man is started on treatment related to horizontal gene transfer. Which of the following is correct?",
+      "options": [
+        "A) Biofilms always make bacteria hypersensitive to all antibiotics",
+        "B) Transformation, transduction, and conjugation move resistance genes between bacteria",
+        "C) Resistance genes never move between bacteria",
+        "D) Conjugation only transfers chromosomal essential genes for glycolysis"
+      ],
+      "answer": "B) Transformation, transduction, and conjugation move resistance genes between bacteria",
+      "explanation": "Plasmids commonly carry multidrug resistance cassettes. Therefore, the most accurate choice is: Transformation, transduction, and conjugation move resistance genes between bacteria. HGT spreads resistance rapidly.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Plasmids commonly carry multidrug resistance cassettes. This matches the correct interpretation.",
+        "C": "HGT spreads resistance rapidly. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:25",
+      "question": "A 39-year-old woman takes several medicines and is assessed regarding conjugation plasmids. Which of the following is most appropriate?",
+      "options": [
+        "A) Resistance genes never move between bacteria",
+        "B) Conjugation only transfers chromosomal essential genes for glycolysis",
+        "C) Direct cell-to-cell transfer of plasmids is a major MDR dissemination route",
+        "D) INH resistance means the mycobacterium lost all cell walls"
+      ],
+      "answer": "C) Direct cell-to-cell transfer of plasmids is a major MDR dissemination route",
+      "explanation": "Infection control limits spread of plasmid-bearing clones. Therefore, the most accurate choice is: Direct cell-to-cell transfer of plasmids is a major MDR dissemination route. Plasmids, not only core glycolysis genes, transfer.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Plasmids, not only core glycolysis genes, transfer. It is less consistent than the correct choice.",
+        "C": "Infection control limits spread of plasmid-bearing clones. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:26",
+      "question": "Which of the following correctly describes efflux pumps bacteria?",
+      "options": [
+        "A) Biofilms always make bacteria hypersensitive to all antibiotics",
+        "B) Efflux pumps import antibiotics to increase potency",
+        "C) Export antibiotics reducing intracellular accumulation contributing to MDR",
+        "D) Contact precautions are never used for MDR bacteria"
+      ],
+      "answer": "C) Export antibiotics reducing intracellular accumulation contributing to MDR",
+      "explanation": "AcrAB-TolC type pumps in Gram-negatives are classic examples. Therefore, the most accurate choice is: Export antibiotics reducing intracellular accumulation contributing to MDR. Efflux decreases, not increases, intracellular drug.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Efflux decreases, not increases, intracellular drug. It is less consistent than the correct choice.",
+        "C": "AcrAB-TolC type pumps in Gram-negatives are classic examples. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:27",
+      "question": "A 48-year-old woman develops an adverse effect related to porin loss. Which of the following best explains it?",
+      "options": [
+        "A) Thick peptidoglycan without outer membrane stains pink as Gram-negative definition",
+        "B) Reduced outer-membrane porins limit entry of beta-lactams into Gram-negatives",
+        "C) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger",
+        "D) Porin loss increases beta-lactam entry and susceptibility"
+      ],
+      "answer": "B) Reduced outer-membrane porins limit entry of beta-lactams into Gram-negatives",
+      "explanation": "Often combines with beta-lactamases for high-level resistance. Therefore, the most accurate choice is: Reduced outer-membrane porins limit entry of beta-lactams into Gram-negatives. Porin loss decreases entry and susceptibility.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Often combines with beta-lactamases for high-level resistance. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Porin loss decreases entry and susceptibility. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:28",
+      "question": "A 66-year-old man needs counseling about aminoglycoside modifying enzymes. Which of the following is most appropriate?",
+      "options": [
+        "A) They strengthen AG binding to the 30S subunit",
+        "B) MRSA resists vancomycin by producing ESBL enzymes",
+        "C) Acetyltransferases, phosphorylases, and nucleotidyltransferases inactivate AGs",
+        "D) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger"
+      ],
+      "answer": "C) Acetyltransferases, phosphorylases, and nucleotidyltransferases inactivate AGs",
+      "explanation": "Amikacin resists some modifying enzymes better than gentamicin sometimes. Therefore, the most accurate choice is: Acetyltransferases, phosphorylases, and nucleotidyltransferases inactivate AGs. They inactivate AGs rather than strengthen binding.",
+      "choice_explanations": {
+        "A": "They inactivate AGs rather than strengthen binding. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Amikacin resists some modifying enzymes better than gentamicin sometimes. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:medium:29",
+      "question": "During medication reconciliation, ribosomal protection tetracycline is discussed. Which of the following is correct?",
+      "options": [
+        "A) Protection proteins allow translation despite tetracycline binding themes",
+        "B) VRE produces beta-lactamases that hydrolyze vancomycin directly",
+        "C) Tetracycline resistance is only via beta-lactamase",
+        "D) FQ resistance occurs only via vancomycin target change"
+      ],
+      "answer": "A) Protection proteins allow translation despite tetracycline binding themes",
+      "explanation": "Efflux is another major tetracycline resistance mechanism. Therefore, the most accurate choice is: Protection proteins allow translation despite tetracycline binding themes. Ribosomal protection and efflux, not beta-lactamase, dominate.",
+      "choice_explanations": {
+        "A": "Efflux is another major tetracycline resistance mechanism. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Ribosomal protection and efflux, not beta-lactamase, dominate. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ],
+  "hard": [
+    {
+      "id": "pharm_microbiology:hard:0",
+      "question": "Careful review of gram stain purpose is required. Which of the following is most accurate?",
+      "options": [
+        "A) Thick peptidoglycan without outer membrane stains pink as Gram-negative definition",
+        "B) Rapidly classifies bacteria by cell-wall staining properties to guide empiric therapy",
+        "C) Thin peptidoglycan with outer membrane retains crystal violet as purple always",
+        "D) Definitively identifies species and antibiotic MIC without culture"
+      ],
+      "answer": "B) Rapidly classifies bacteria by cell-wall staining properties to guide empiric therapy",
+      "explanation": "Crystal violet, iodine, decolorizer, and safranin sequence separates Gram-positive from Gram-negative. Therefore, the most accurate choice is: Rapidly classifies bacteria by cell-wall staining properties to guide empiric therapy. Gram stain is not a substitute for culture and susceptibility.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Crystal violet, iodine, decolorizer, and safranin sequence separates Gram-positive from Gram-negative. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Gram stain is not a substitute for culture and susceptibility. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:1",
+      "question": "A 34-year-old woman has findings suggestive of gram positive wall. Which of the following is the best interpretation?",
+      "options": [
+        "A) Thick peptidoglycan without outer membrane stains pink as Gram-negative definition",
+        "B) LPS is the Gram-positive exotoxin that forms pores in RBCs only",
+        "C) Thick peptidoglycan retains crystal violet appearing purple",
+        "D) Thin peptidoglycan with outer membrane retains crystal violet as purple always"
+      ],
+      "answer": "C) Thick peptidoglycan retains crystal violet appearing purple",
+      "explanation": "Teichoic acids are associated with many Gram-positive walls. Therefore, the most accurate choice is: Thick peptidoglycan retains crystal violet appearing purple. Thick peptidoglycan defines the Gram-positive stain result.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Teichoic acids are associated with many Gram-positive walls. This matches the correct interpretation.",
+        "D": "Thick peptidoglycan defines the Gram-positive stain result. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:2",
+      "question": "In a detailed discussion of gram negative wall, which of the following is most accurate?",
+      "options": [
+        "A) Thin peptidoglycan with outer membrane retains crystal violet as purple always",
+        "B) Porin loss increases beta-lactam entry and susceptibility",
+        "C) Thick peptidoglycan without outer membrane stains pink as Gram-negative definition",
+        "D) Outer membrane with LPS over thin peptidoglycan stains pink after decolorization"
+      ],
+      "answer": "D) Outer membrane with LPS over thin peptidoglycan stains pink after decolorization",
+      "explanation": "Porins and efflux pumps in the outer membrane affect antibiotic entry. Therefore, the most accurate choice is: Outer membrane with LPS over thin peptidoglycan stains pink after decolorization. Outer membrane plus thin peptidoglycan defines Gram-negatives.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Outer membrane plus thin peptidoglycan defines Gram-negatives. It is less consistent than the correct choice.",
+        "D": "Porins and efflux pumps in the outer membrane affect antibiotic entry. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:3",
+      "question": "Which of the following correctly distinguishes key points about LPS endotoxin?",
+      "options": [
+        "A) Lipid A of Gram-negative LPS triggers septic shock inflammatory cascades",
+        "B) LPS is the Gram-positive exotoxin that forms pores in RBCs only",
+        "C) Thick peptidoglycan without outer membrane stains pink as Gram-negative definition",
+        "D) Exotoxins are only LPS lipid A molecules"
+      ],
+      "answer": "A) Lipid A of Gram-negative LPS triggers septic shock inflammatory cascades",
+      "explanation": "Endotoxin is heat-stable relative to many exotoxins. Therefore, the most accurate choice is: Lipid A of Gram-negative LPS triggers septic shock inflammatory cascades. LPS/endotoxin is a Gram-negative outer-membrane component.",
+      "choice_explanations": {
+        "A": "Endotoxin is heat-stable relative to many exotoxins. This matches the correct interpretation.",
+        "B": "LPS/endotoxin is a Gram-negative outer-membrane component. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:4",
+      "question": "A clinic case of peptidoglycan synthesis is discussed. Which of the following is correct?",
+      "options": [
+        "A) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger",
+        "B) Transpeptidation cross-links peptidoglycan and is the target of beta-lactams",
+        "C) All antifungals inhibit bacterial PBPs identically",
+        "D) Peptidoglycan is synthesized only in fungal membranes with ergosterol"
+      ],
+      "answer": "B) Transpeptidation cross-links peptidoglycan and is the target of beta-lactams",
+      "explanation": "PBPs catalyze the cross-linking step. Therefore, the most accurate choice is: Transpeptidation cross-links peptidoglycan and is the target of beta-lactams. Beta-lactams target bacterial wall cross-linking, not fungal ergosterol.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "PBPs catalyze the cross-linking step. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Beta-lactams target bacterial wall cross-linking, not fungal ergosterol. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:5",
+      "question": "A 63-year-old woman presents with features compatible with beta lactamase types. Which of the following is most accurate?",
+      "options": [
+        "A) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger",
+        "B) Enzymes hydrolyze beta-lactam rings; ESBLs and carbapenemases threaten key drugs",
+        "C) ESBLs always spare all cephalosporins and only hydrolyze vancomycin",
+        "D) VRE produces beta-lactamases that hydrolyze vancomycin directly"
+      ],
+      "answer": "B) Enzymes hydrolyze beta-lactam rings; ESBLs and carbapenemases threaten key drugs",
+      "explanation": "Inhibitors like clavulanate protect partner beta-lactams from some enzymes. Therefore, the most accurate choice is: Enzymes hydrolyze beta-lactam rings; ESBLs and carbapenemases threaten key drugs. Beta-lactamases destroy, rather than strengthen, beta-lactams.",
+      "choice_explanations": {
+        "A": "Beta-lactamases destroy, rather than strengthen, beta-lactams. It is less consistent than the correct choice.",
+        "B": "Inhibitors like clavulanate protect partner beta-lactams from some enzymes. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:6",
+      "question": "Which statement about ESBL meaning in a 66-year-old man is most accurate?",
+      "options": [
+        "A) Extended-spectrum beta-lactamases hydrolyze many penicillins and cephalosporins",
+        "B) ESBLs always spare all cephalosporins and only hydrolyze vancomycin",
+        "C) VRE produces beta-lactamases that hydrolyze vancomycin directly",
+        "D) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger"
+      ],
+      "answer": "A) Extended-spectrum beta-lactamases hydrolyze many penicillins and cephalosporins",
+      "explanation": "Carbapenems often remain active though stewardship still matters. Therefore, the most accurate choice is: Extended-spectrum beta-lactamases hydrolyze many penicillins and cephalosporins. ESBLs attack broad cephalosporins, not vancomycin specifically.",
+      "choice_explanations": {
+        "A": "Carbapenems often remain active though stewardship still matters. This matches the correct interpretation.",
+        "B": "ESBLs attack broad cephalosporins, not vancomycin specifically. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:7",
+      "question": "After examining a 69-year-old woman, which statement about MRSA is correct?",
+      "options": [
+        "A) MRSA resists vancomycin by producing ESBL enzymes",
+        "B) Rifampin resistance is only via mecA PBP2a",
+        "C) ESBLs always spare all cephalosporins and only hydrolyze vancomycin",
+        "D) mecA/mecC encodes PBP2a with low beta-lactam affinity conferring methicillin resistance"
+      ],
+      "answer": "D) mecA/mecC encodes PBP2a with low beta-lactam affinity conferring methicillin resistance",
+      "explanation": "Vancomycin or other anti-MRSA agents are used instead of standard anti-staph beta-lactams. Therefore, the most accurate choice is: mecA/mecC encodes PBP2a with low beta-lactam affinity conferring methicillin resistance. PBP2a mediates beta-lactam resistance, not ESBL versus vancomycin.",
+      "choice_explanations": {
+        "A": "PBP2a mediates beta-lactam resistance, not ESBL versus vancomycin. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Vancomycin or other anti-MRSA agents are used instead of standard anti-staph beta-lactams. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:8",
+      "question": "Careful review of VRE is required. Which of the following is most accurate?",
+      "options": [
+        "A) vanA/vanB alter D-Ala-D-Ala to D-Ala-D-Lac reducing vancomycin binding",
+        "B) ESBLs always spare all cephalosporins and only hydrolyze vancomycin",
+        "C) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger",
+        "D) VRE produces beta-lactamases that hydrolyze vancomycin directly"
+      ],
+      "answer": "A) vanA/vanB alter D-Ala-D-Ala to D-Ala-D-Lac reducing vancomycin binding",
+      "explanation": "Linezolid or daptomycin may be options depending on syndrome. Therefore, the most accurate choice is: vanA/vanB alter D-Ala-D-Ala to D-Ala-D-Lac reducing vancomycin binding. Vancomycin target modification, not enzymatic vancomycin hydrolysis, is classic.",
+      "choice_explanations": {
+        "A": "Linezolid or daptomycin may be options depending on syndrome. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Vancomycin target modification, not enzymatic vancomycin hydrolysis, is classic. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:9",
+      "question": "A 66-year-old man has findings suggestive of CRE concern. Which of the following is the best interpretation?",
+      "options": [
+        "A) Carbapenem-resistant Enterobacterales limit last-line beta-lactam options and need rapid detection",
+        "B) CRE means the isolate is resistant only to macrolides but fully carbapenem susceptible",
+        "C) Molecular detection of mecA replaces all need for clinical judgment in contamination",
+        "D) Porin loss increases beta-lactam entry and susceptibility"
+      ],
+      "answer": "A) Carbapenem-resistant Enterobacterales limit last-line beta-lactam options and need rapid detection",
+      "explanation": "Ceftazidime-avibactam or other agents chosen by mechanism and susceptibility. Therefore, the most accurate choice is: Carbapenem-resistant Enterobacterales limit last-line beta-lactam options and need rapid detection. CRE denotes carbapenem resistance, not macrolide-only resistance.",
+      "choice_explanations": {
+        "A": "Ceftazidime-avibactam or other agents chosen by mechanism and susceptibility. This matches the correct interpretation.",
+        "B": "CRE denotes carbapenem resistance, not macrolide-only resistance. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:10",
+      "question": "In a detailed discussion of MIC, which of the following is most accurate?",
+      "options": [
+        "A) Identical always to the MIC for every bacteriostatic drug",
+        "B) Highest concentration that still allows abundant growth",
+        "C) Beta-lactams are purely concentration-dependent with only Cmax/MIC targets like AGs",
+        "D) Lowest concentration preventing visible growth under standardized conditions"
+      ],
+      "answer": "D) Lowest concentration preventing visible growth under standardized conditions",
+      "explanation": "Breakpoints interpret MIC as susceptible, intermediate, or resistant. Therefore, the most accurate choice is: Lowest concentration preventing visible growth under standardized conditions. MIC is the lowest inhibitory concentration, not the highest.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "MIC is the lowest inhibitory concentration, not the highest. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Breakpoints interpret MIC as susceptible, intermediate, or resistant. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:11",
+      "question": "Which of the following correctly distinguishes key points about MBC?",
+      "options": [
+        "A) Highest concentration that still allows abundant growth",
+        "B) Lowest concentration killing 99.9% of the inoculum under test conditions",
+        "C) Identical always to the MIC for every bacteriostatic drug",
+        "D) Static agents always kill faster than cidal agents by definition"
+      ],
+      "answer": "B) Lowest concentration killing 99.9% of the inoculum under test conditions",
+      "explanation": "Cidal versus static classification uses MBC/MIC relationships carefully. Therefore, the most accurate choice is: Lowest concentration killing 99.9% of the inoculum under test conditions. MBC measures killing, not merely growth inhibition.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Cidal versus static classification uses MBC/MIC relationships carefully. This matches the correct interpretation.",
+        "C": "MBC measures killing, not merely growth inhibition. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:12",
+      "question": "Careful interpretation of bactericidal versus static is required. Which of the following is correct?",
+      "options": [
+        "A) Cidal agents kill; static agents inhibit growth relying on immunity for clearance",
+        "B) Highest concentration that still allows abundant growth",
+        "C) Static agents always kill faster than cidal agents by definition",
+        "D) Static short oral therapy always preferred for left-sided MRSA endocarditis without evaluation"
+      ],
+      "answer": "A) Cidal agents kill; static agents inhibit growth relying on immunity for clearance",
+      "explanation": "Clinical importance depends on host and infection site. Therefore, the most accurate choice is: Cidal agents kill; static agents inhibit growth relying on immunity for clearance. Static means inhibit, not kill faster.",
+      "choice_explanations": {
+        "A": "Clinical importance depends on host and infection site. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Static means inhibit, not kill faster. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:13",
+      "question": "A 38-year-old woman presents with features compatible with time dependent killing. Which of the following is most accurate?",
+      "options": [
+        "A) They are exclusively time-dependent like penicillins always",
+        "B) Beta-lactams are purely concentration-dependent with only Cmax/MIC targets like AGs",
+        "C) Identical always to the MIC for every bacteriostatic drug",
+        "D) Beta-lactams optimize time above MIC rather than peak height alone"
+      ],
+      "answer": "D) Beta-lactams optimize time above MIC rather than peak height alone",
+      "explanation": "Extended infusions increase T>MIC for some beta-lactams. Therefore, the most accurate choice is: Beta-lactams optimize time above MIC rather than peak height alone. Time above MIC is the key beta-lactam index.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Time above MIC is the key beta-lactam index. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Extended infusions increase T>MIC for some beta-lactams. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:14",
+      "question": "Which statement about concentration dependent killing in a 70-year-old woman is most accurate?",
+      "options": [
+        "A) They are exclusively time-dependent like penicillins always",
+        "B) Aminoglycosides and fluoroquinolones optimize peak/MIC or AUC/MIC",
+        "C) Identical always to the MIC for every bacteriostatic drug",
+        "D) Beta-lactams are purely concentration-dependent with only Cmax/MIC targets like AGs"
+      ],
+      "answer": "B) Aminoglycosides and fluoroquinolones optimize peak/MIC or AUC/MIC",
+      "explanation": "Extended-interval AG dosing exploits concentration-dependent PD. Therefore, the most accurate choice is: Aminoglycosides and fluoroquinolones optimize peak/MIC or AUC/MIC. Peak or AUC indices dominate for these classes.",
+      "choice_explanations": {
+        "A": "Peak or AUC indices dominate for these classes. It is less consistent than the correct choice.",
+        "B": "Extended-interval AG dosing exploits concentration-dependent PD. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:15",
+      "question": "After examining a 52-year-old woman, which statement about post antibiotic effect is correct?",
+      "options": [
+        "A) Means bacteria grow faster immediately after any drug exposure",
+        "B) Definitively identifies species and antibiotic MIC without culture",
+        "C) Persistent suppression of growth after drug levels fall below MIC",
+        "D) Static agents always kill faster than cidal agents by definition"
+      ],
+      "answer": "C) Persistent suppression of growth after drug levels fall below MIC",
+      "explanation": "AGs and FQs often show PAE supporting intermittent dosing. Therefore, the most accurate choice is: Persistent suppression of growth after drug levels fall below MIC. PAE is prolonged suppression, not faster growth.",
+      "choice_explanations": {
+        "A": "PAE is prolonged suppression, not faster growth. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "AGs and FQs often show PAE supporting intermittent dosing. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:16",
+      "question": "Careful review of disk diffusion Kirby Bauer is required. Which of the following is most accurate?",
+      "options": [
+        "A) Larger zones always mean more resistance",
+        "B) Cannot be used for any antimicrobial susceptibility testing",
+        "C) Zone diameters correlate inversely with susceptibility under standardized agar conditions",
+        "D) Breakpoints are identical forever for all species and drugs without updates"
+      ],
+      "answer": "C) Zone diameters correlate inversely with susceptibility under standardized agar conditions",
+      "explanation": "Cannot provide a direct MIC number without gradient methods. Therefore, the most accurate choice is: Zone diameters correlate inversely with susceptibility under standardized agar conditions. Larger zones generally mean more susceptibility, not resistance.",
+      "choice_explanations": {
+        "A": "Larger zones generally mean more susceptibility, not resistance. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Cannot provide a direct MIC number without gradient methods. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:17",
+      "question": "A 62-year-old woman has findings suggestive of etest gradient. Which of the following is the best interpretation?",
+      "options": [
+        "A) Only tablet color predicts antibacterial success",
+        "B) Plastic strip gradient estimates MIC at the ellipse intersection",
+        "C) Measures only Gram stain color",
+        "D) Definitively identifies species and antibiotic MIC without culture"
+      ],
+      "answer": "B) Plastic strip gradient estimates MIC at the ellipse intersection",
+      "explanation": "Useful when broth MIC not immediately available. Therefore, the most accurate choice is: Plastic strip gradient estimates MIC at the ellipse intersection. It estimates MIC, not Gram reaction.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Useful when broth MIC not immediately available. This matches the correct interpretation.",
+        "C": "It estimates MIC, not Gram reaction. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:18",
+      "question": "In a detailed discussion of broth microdilution, which of the following is most accurate?",
+      "options": [
+        "A) Means bacteria grow faster immediately after any drug exposure",
+        "B) Cannot be used for any antimicrobial susceptibility testing",
+        "C) Inoculum size never affects measured susceptibility",
+        "D) Reference-style MIC panels with serial drug dilutions in broth"
+      ],
+      "answer": "D) Reference-style MIC panels with serial drug dilutions in broth",
+      "explanation": "Automated systems often approximate this principle. Therefore, the most accurate choice is: Reference-style MIC panels with serial drug dilutions in broth. It is a core MIC method.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "It is a core MIC method. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Automated systems often approximate this principle. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:19",
+      "question": "Which of the following correctly distinguishes key points about breakpoint?",
+      "options": [
+        "A) Definitively identifies species and antibiotic MIC without culture",
+        "B) Breakpoints are identical forever for all species and drugs without updates",
+        "C) Identical to autoclave sterilization destroying all spores always",
+        "D) CLSI/EUCAST breakpoints translate MIC or zones into S/I/R categories"
+      ],
+      "answer": "D) CLSI/EUCAST breakpoints translate MIC or zones into S/I/R categories",
+      "explanation": "Pharmacokinetic/pharmacodynamic and outcome data inform breakpoints. Therefore, the most accurate choice is: CLSI/EUCAST breakpoints translate MIC or zones into S/I/R categories. Breakpoints are drug-organism specific and revised over time.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Breakpoints are drug-organism specific and revised over time. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Pharmacokinetic/pharmacodynamic and outcome data inform breakpoints. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:20",
+      "question": "A clinic case of PK PD indices antibiotics is discussed. Which of the following is correct?",
+      "options": [
+        "A) Only tablet color predicts antibacterial success",
+        "B) AUC/MIC, Cmax/MIC, or T>MIC link exposure to antibacterial effect",
+        "C) Measures only Gram stain color",
+        "D) Means bacteria grow faster immediately after any drug exposure"
+      ],
+      "answer": "B) AUC/MIC, Cmax/MIC, or T>MIC link exposure to antibacterial effect",
+      "explanation": "Dosing regimens are designed around the dominant index for each class. Therefore, the most accurate choice is: AUC/MIC, Cmax/MIC, or T>MIC link exposure to antibacterial effect. Exposure indices, not color, drive dosing science.",
+      "choice_explanations": {
+        "A": "Exposure indices, not color, drive dosing science. It is less consistent than the correct choice.",
+        "B": "Dosing regimens are designed around the dominant index for each class. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:21",
+      "question": "A 70-year-old man presents with features compatible with inoculum effect. Which of the following is most accurate?",
+      "options": [
+        "A) Beta-lactams are purely concentration-dependent with only Cmax/MIC targets like AGs",
+        "B) Higher bacterial density can raise apparent MIC for some beta-lactams",
+        "C) Inoculum size never affects measured susceptibility",
+        "D) Porin loss increases beta-lactam entry and susceptibility"
+      ],
+      "answer": "B) Higher bacterial density can raise apparent MIC for some beta-lactams",
+      "explanation": "Deep abscesses with high inocula may respond less well. Therefore, the most accurate choice is: Higher bacterial density can raise apparent MIC for some beta-lactams. High inocula can worsen apparent resistance.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Deep abscesses with high inocula may respond less well. This matches the correct interpretation.",
+        "C": "High inocula can worsen apparent resistance. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:22",
+      "question": "Which statement about biofilm resistance in a 58-year-old man is most accurate?",
+      "options": [
+        "A) Resistance genes never move between bacteria",
+        "B) Biofilms reduce antibiotic penetration and increase tolerance without classic resistance genes necessarily",
+        "C) Efflux pumps import antibiotics to increase potency",
+        "D) Biofilms always make bacteria hypersensitive to all antibiotics"
+      ],
+      "answer": "B) Biofilms reduce antibiotic penetration and increase tolerance without classic resistance genes necessarily",
+      "explanation": "Device infections may need removal plus antibiotics. Therefore, the most accurate choice is: Biofilms reduce antibiotic penetration and increase tolerance without classic resistance genes necessarily. Biofilms increase tolerance, not hypersensitivity.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Device infections may need removal plus antibiotics. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Biofilms increase tolerance, not hypersensitivity. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:23",
+      "question": "After examining a 43-year-old man, which statement about persister cells is correct?",
+      "options": [
+        "A) Persisters are simply ESBL-producing mutants only",
+        "B) Breakpoints are identical forever for all species and drugs without updates",
+        "C) Phenotypic tolerant subpopulations survive bactericidal drugs without heritable resistance",
+        "D) MRSA resists vancomycin by producing ESBL enzymes"
+      ],
+      "answer": "C) Phenotypic tolerant subpopulations survive bactericidal drugs without heritable resistance",
+      "explanation": "Contribute to relapse of chronic infections. Therefore, the most accurate choice is: Phenotypic tolerant subpopulations survive bactericidal drugs without heritable resistance. Tolerance differs from inherited resistance mechanisms.",
+      "choice_explanations": {
+        "A": "Tolerance differs from inherited resistance mechanisms. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Contribute to relapse of chronic infections. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:24",
+      "question": "A 34-year-old man is evaluated for possible horizontal gene transfer. Which of the following is most accurate?",
+      "options": [
+        "A) Resistance genes never move between bacteria",
+        "B) Biofilms always make bacteria hypersensitive to all antibiotics",
+        "C) Transformation, transduction, and conjugation move resistance genes between bacteria",
+        "D) Conjugation only transfers chromosomal essential genes for glycolysis"
+      ],
+      "answer": "C) Transformation, transduction, and conjugation move resistance genes between bacteria",
+      "explanation": "Plasmids commonly carry multidrug resistance cassettes. Therefore, the most accurate choice is: Transformation, transduction, and conjugation move resistance genes between bacteria. HGT spreads resistance rapidly.",
+      "choice_explanations": {
+        "A": "HGT spreads resistance rapidly. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Plasmids commonly carry multidrug resistance cassettes. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:25",
+      "question": "A 39-year-old woman has findings suggestive of conjugation plasmids. Which of the following is the best interpretation?",
+      "options": [
+        "A) Direct cell-to-cell transfer of plasmids is a major MDR dissemination route",
+        "B) Conjugation only transfers chromosomal essential genes for glycolysis",
+        "C) Treat Legionella with vancomycin for cell-wall targeting",
+        "D) Resistance genes never move between bacteria"
+      ],
+      "answer": "A) Direct cell-to-cell transfer of plasmids is a major MDR dissemination route",
+      "explanation": "Infection control limits spread of plasmid-bearing clones. Therefore, the most accurate choice is: Direct cell-to-cell transfer of plasmids is a major MDR dissemination route. Plasmids, not only core glycolysis genes, transfer.",
+      "choice_explanations": {
+        "A": "Infection control limits spread of plasmid-bearing clones. This matches the correct interpretation.",
+        "B": "Plasmids, not only core glycolysis genes, transfer. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:26",
+      "question": "In a detailed discussion of efflux pumps bacteria, which of the following is most accurate?",
+      "options": [
+        "A) Efflux pumps import antibiotics to increase potency",
+        "B) Biofilms always make bacteria hypersensitive to all antibiotics",
+        "C) Export antibiotics reducing intracellular accumulation contributing to MDR",
+        "D) Contact precautions are never used for MDR bacteria"
+      ],
+      "answer": "C) Export antibiotics reducing intracellular accumulation contributing to MDR",
+      "explanation": "AcrAB-TolC type pumps in Gram-negatives are classic examples. Therefore, the most accurate choice is: Export antibiotics reducing intracellular accumulation contributing to MDR. Efflux decreases, not increases, intracellular drug.",
+      "choice_explanations": {
+        "A": "Efflux decreases, not increases, intracellular drug. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "AcrAB-TolC type pumps in Gram-negatives are classic examples. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:27",
+      "question": "A 48-year-old woman returns for review of suspected porin loss. Which of the following is most accurate?",
+      "options": [
+        "A) Porin loss increases beta-lactam entry and susceptibility",
+        "B) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger",
+        "C) Reduced outer-membrane porins limit entry of beta-lactams into Gram-negatives",
+        "D) Inoculum size never affects measured susceptibility"
+      ],
+      "answer": "C) Reduced outer-membrane porins limit entry of beta-lactams into Gram-negatives",
+      "explanation": "Often combines with beta-lactamases for high-level resistance. Therefore, the most accurate choice is: Reduced outer-membrane porins limit entry of beta-lactams into Gram-negatives. Porin loss decreases entry and susceptibility.",
+      "choice_explanations": {
+        "A": "Porin loss decreases entry and susceptibility. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Often combines with beta-lactamases for high-level resistance. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:28",
+      "question": "A clinic case of aminoglycoside modifying enzymes is discussed. Which of the following is correct?",
+      "options": [
+        "A) They strengthen AG binding to the 30S subunit",
+        "B) Acetyltransferases, phosphorylases, and nucleotidyltransferases inactivate AGs",
+        "C) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger",
+        "D) MRSA resists vancomycin by producing ESBL enzymes"
+      ],
+      "answer": "B) Acetyltransferases, phosphorylases, and nucleotidyltransferases inactivate AGs",
+      "explanation": "Amikacin resists some modifying enzymes better than gentamicin sometimes. Therefore, the most accurate choice is: Acetyltransferases, phosphorylases, and nucleotidyltransferases inactivate AGs. They inactivate AGs rather than strengthen binding.",
+      "choice_explanations": {
+        "A": "They inactivate AGs rather than strengthen binding. It is less consistent than the correct choice.",
+        "B": "Amikacin resists some modifying enzymes better than gentamicin sometimes. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:hard:29",
+      "question": "A 53-year-old man presents with features compatible with ribosomal protection tetracycline. Which of the following is most accurate?",
+      "options": [
+        "A) Protection proteins allow translation despite tetracycline binding themes",
+        "B) Tetracycline resistance is only via beta-lactamase",
+        "C) FQ resistance occurs only via vancomycin target change",
+        "D) Rifampin resistance is only via mecA PBP2a"
+      ],
+      "answer": "A) Protection proteins allow translation despite tetracycline binding themes",
+      "explanation": "Efflux is another major tetracycline resistance mechanism. Therefore, the most accurate choice is: Protection proteins allow translation despite tetracycline binding themes. Ribosomal protection and efflux, not beta-lactamase, dominate.",
+      "choice_explanations": {
+        "A": "Efflux is another major tetracycline resistance mechanism. This matches the correct interpretation.",
+        "B": "Ribosomal protection and efflux, not beta-lactamase, dominate. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ],
+  "extreme": [
+    {
+      "id": "pharm_microbiology:extreme:0",
+      "question": "A 68-year-old man with reduced renal function requires careful decisions about gram stain purpose. Which of the following is most accurate?",
+      "options": [
+        "A) Thick peptidoglycan without outer membrane stains pink as Gram-negative definition",
+        "B) Definitively identifies species and antibiotic MIC without culture",
+        "C) Rapidly classifies bacteria by cell-wall staining properties to guide empiric therapy",
+        "D) Thin peptidoglycan with outer membrane retains crystal violet as purple always"
+      ],
+      "answer": "C) Rapidly classifies bacteria by cell-wall staining properties to guide empiric therapy",
+      "explanation": "Crystal violet, iodine, decolorizer, and safranin sequence separates Gram-positive from Gram-negative. Therefore, the most accurate choice is: Rapidly classifies bacteria by cell-wall staining properties to guide empiric therapy. Gram stain is not a substitute for culture and susceptibility.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Gram stain is not a substitute for culture and susceptibility. It is less consistent than the correct choice.",
+        "C": "Crystal violet, iodine, decolorizer, and safranin sequence separates Gram-positive from Gram-negative. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:1",
+      "question": "A 34-year-old woman is reassessed after incomplete response related to gram positive wall. Which of the following is most accurate?",
+      "options": [
+        "A) Thick peptidoglycan retains crystal violet appearing purple",
+        "B) Thin peptidoglycan with outer membrane retains crystal violet as purple always",
+        "C) Thick peptidoglycan without outer membrane stains pink as Gram-negative definition",
+        "D) LPS is the Gram-positive exotoxin that forms pores in RBCs only"
+      ],
+      "answer": "A) Thick peptidoglycan retains crystal violet appearing purple",
+      "explanation": "Teichoic acids are associated with many Gram-positive walls. Therefore, the most accurate choice is: Thick peptidoglycan retains crystal violet appearing purple. Thick peptidoglycan defines the Gram-positive stain result.",
+      "choice_explanations": {
+        "A": "Teichoic acids are associated with many Gram-positive walls. This matches the correct interpretation.",
+        "B": "Thick peptidoglycan defines the Gram-positive stain result. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:2",
+      "question": "Which of the following is the most precise statement about gram negative wall?",
+      "options": [
+        "A) Outer membrane with LPS over thin peptidoglycan stains pink after decolorization",
+        "B) Thin peptidoglycan with outer membrane retains crystal violet as purple always",
+        "C) Thick peptidoglycan without outer membrane stains pink as Gram-negative definition",
+        "D) Porin loss increases beta-lactam entry and susceptibility"
+      ],
+      "answer": "A) Outer membrane with LPS over thin peptidoglycan stains pink after decolorization",
+      "explanation": "Porins and efflux pumps in the outer membrane affect antibiotic entry. Therefore, the most accurate choice is: Outer membrane with LPS over thin peptidoglycan stains pink after decolorization. Outer membrane plus thin peptidoglycan defines Gram-negatives.",
+      "choice_explanations": {
+        "A": "Porins and efflux pumps in the outer membrane affect antibiotic entry. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Outer membrane plus thin peptidoglycan defines Gram-negatives. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:3",
+      "question": "In advanced review of LPS endotoxin, which of the following is most accurate?",
+      "options": [
+        "A) Lipid A of Gram-negative LPS triggers septic shock inflammatory cascades",
+        "B) Exotoxins are only LPS lipid A molecules",
+        "C) LPS is the Gram-positive exotoxin that forms pores in RBCs only",
+        "D) Thick peptidoglycan without outer membrane stains pink as Gram-negative definition"
+      ],
+      "answer": "A) Lipid A of Gram-negative LPS triggers septic shock inflammatory cascades",
+      "explanation": "Endotoxin is heat-stable relative to many exotoxins. Therefore, the most accurate choice is: Lipid A of Gram-negative LPS triggers septic shock inflammatory cascades. LPS/endotoxin is a Gram-negative outer-membrane component.",
+      "choice_explanations": {
+        "A": "Endotoxin is heat-stable relative to many exotoxins. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "LPS/endotoxin is a Gram-negative outer-membrane component. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:4",
+      "question": "In a 37-year-old woman, distinguishing peptidoglycan synthesis from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Peptidoglycan is synthesized only in fungal membranes with ergosterol",
+        "B) Transpeptidation cross-links peptidoglycan and is the target of beta-lactams",
+        "C) All antifungals inhibit bacterial PBPs identically",
+        "D) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger"
+      ],
+      "answer": "B) Transpeptidation cross-links peptidoglycan and is the target of beta-lactams",
+      "explanation": "PBPs catalyze the cross-linking step. Therefore, the most accurate choice is: Transpeptidation cross-links peptidoglycan and is the target of beta-lactams. Beta-lactams target bacterial wall cross-linking, not fungal ergosterol.",
+      "choice_explanations": {
+        "A": "Beta-lactams target bacterial wall cross-linking, not fungal ergosterol. It is less consistent than the correct choice.",
+        "B": "PBPs catalyze the cross-linking step. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:5",
+      "question": "A 63-year-old woman returns with ongoing problems related to beta lactamase types. Which of the following is most accurate?",
+      "options": [
+        "A) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger",
+        "B) Enzymes hydrolyze beta-lactam rings; ESBLs and carbapenemases threaten key drugs",
+        "C) VRE produces beta-lactamases that hydrolyze vancomycin directly",
+        "D) ESBLs always spare all cephalosporins and only hydrolyze vancomycin"
+      ],
+      "answer": "B) Enzymes hydrolyze beta-lactam rings; ESBLs and carbapenemases threaten key drugs",
+      "explanation": "Inhibitors like clavulanate protect partner beta-lactams from some enzymes. Therefore, the most accurate choice is: Enzymes hydrolyze beta-lactam rings; ESBLs and carbapenemases threaten key drugs. Beta-lactamases destroy, rather than strengthen, beta-lactams.",
+      "choice_explanations": {
+        "A": "Beta-lactamases destroy, rather than strengthen, beta-lactams. It is less consistent than the correct choice.",
+        "B": "Inhibitors like clavulanate protect partner beta-lactams from some enzymes. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:6",
+      "question": "Senior review is requested for ESBL meaning in a 66-year-old man. Which of the following is correct?",
+      "options": [
+        "A) Extended-spectrum beta-lactamases hydrolyze many penicillins and cephalosporins",
+        "B) VRE produces beta-lactamases that hydrolyze vancomycin directly",
+        "C) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger",
+        "D) ESBLs always spare all cephalosporins and only hydrolyze vancomycin"
+      ],
+      "answer": "A) Extended-spectrum beta-lactamases hydrolyze many penicillins and cephalosporins",
+      "explanation": "Carbapenems often remain active though stewardship still matters. Therefore, the most accurate choice is: Extended-spectrum beta-lactamases hydrolyze many penicillins and cephalosporins. ESBLs attack broad cephalosporins, not vancomycin specifically.",
+      "choice_explanations": {
+        "A": "Carbapenems often remain active though stewardship still matters. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "ESBLs attack broad cephalosporins, not vancomycin specifically. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:7",
+      "question": "Which statement about MRSA in a 69-year-old woman is most accurate?",
+      "options": [
+        "A) VRE produces beta-lactamases that hydrolyze vancomycin directly",
+        "B) MRSA resists vancomycin by producing ESBL enzymes",
+        "C) Rifampin resistance is only via mecA PBP2a",
+        "D) mecA/mecC encodes PBP2a with low beta-lactam affinity conferring methicillin resistance"
+      ],
+      "answer": "D) mecA/mecC encodes PBP2a with low beta-lactam affinity conferring methicillin resistance",
+      "explanation": "Vancomycin or other anti-MRSA agents are used instead of standard anti-staph beta-lactams. Therefore, the most accurate choice is: mecA/mecC encodes PBP2a with low beta-lactam affinity conferring methicillin resistance. PBP2a mediates beta-lactam resistance, not ESBL versus vancomycin.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "PBP2a mediates beta-lactam resistance, not ESBL versus vancomycin. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Vancomycin or other anti-MRSA agents are used instead of standard anti-staph beta-lactams. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:8",
+      "question": "A 55-year-old woman with reduced renal function requires careful decisions about VRE. Which of the following is most accurate?",
+      "options": [
+        "A) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger",
+        "B) ESBLs always spare all cephalosporins and only hydrolyze vancomycin",
+        "C) VRE produces beta-lactamases that hydrolyze vancomycin directly",
+        "D) vanA/vanB alter D-Ala-D-Ala to D-Ala-D-Lac reducing vancomycin binding"
+      ],
+      "answer": "D) vanA/vanB alter D-Ala-D-Ala to D-Ala-D-Lac reducing vancomycin binding",
+      "explanation": "Linezolid or daptomycin may be options depending on syndrome. Therefore, the most accurate choice is: vanA/vanB alter D-Ala-D-Ala to D-Ala-D-Lac reducing vancomycin binding. Vancomycin target modification, not enzymatic vancomycin hydrolysis, is classic.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Vancomycin target modification, not enzymatic vancomycin hydrolysis, is classic. It is less consistent than the correct choice.",
+        "D": "Linezolid or daptomycin may be options depending on syndrome. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:9",
+      "question": "A 66-year-old man with reduced renal function is reassessed after incomplete response related to CRE concern. Which of the following is most accurate?",
+      "options": [
+        "A) Molecular detection of mecA replaces all need for clinical judgment in contamination",
+        "B) Porin loss increases beta-lactam entry and susceptibility",
+        "C) Carbapenem-resistant Enterobacterales limit last-line beta-lactam options and need rapid detection",
+        "D) CRE means the isolate is resistant only to macrolides but fully carbapenem susceptible"
+      ],
+      "answer": "C) Carbapenem-resistant Enterobacterales limit last-line beta-lactam options and need rapid detection",
+      "explanation": "Ceftazidime-avibactam or other agents chosen by mechanism and susceptibility. Therefore, the most accurate choice is: Carbapenem-resistant Enterobacterales limit last-line beta-lactam options and need rapid detection. CRE denotes carbapenem resistance, not macrolide-only resistance.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Ceftazidime-avibactam or other agents chosen by mechanism and susceptibility. This matches the correct interpretation.",
+        "D": "CRE denotes carbapenem resistance, not macrolide-only resistance. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:10",
+      "question": "Which of the following is the most precise statement about MIC?",
+      "options": [
+        "A) Lowest concentration preventing visible growth under standardized conditions",
+        "B) Highest concentration that still allows abundant growth",
+        "C) CRE means the isolate is resistant only to macrolides but fully carbapenem susceptible",
+        "D) Identical always to the MIC for every bacteriostatic drug"
+      ],
+      "answer": "A) Lowest concentration preventing visible growth under standardized conditions",
+      "explanation": "Breakpoints interpret MIC as susceptible, intermediate, or resistant. Therefore, the most accurate choice is: Lowest concentration preventing visible growth under standardized conditions. MIC is the lowest inhibitory concentration, not the highest.",
+      "choice_explanations": {
+        "A": "Breakpoints interpret MIC as susceptible, intermediate, or resistant. This matches the correct interpretation.",
+        "B": "MIC is the lowest inhibitory concentration, not the highest. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:11",
+      "question": "In advanced review of MBC, which of the following is most accurate?",
+      "options": [
+        "A) Static agents always kill faster than cidal agents by definition",
+        "B) Lowest concentration killing 99.9% of the inoculum under test conditions",
+        "C) Identical always to the MIC for every bacteriostatic drug",
+        "D) Highest concentration that still allows abundant growth"
+      ],
+      "answer": "B) Lowest concentration killing 99.9% of the inoculum under test conditions",
+      "explanation": "Cidal versus static classification uses MBC/MIC relationships carefully. Therefore, the most accurate choice is: Lowest concentration killing 99.9% of the inoculum under test conditions. MBC measures killing, not merely growth inhibition.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Cidal versus static classification uses MBC/MIC relationships carefully. This matches the correct interpretation.",
+        "C": "MBC measures killing, not merely growth inhibition. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:12",
+      "question": "Which interpretation of bactericidal versus static is most accurate?",
+      "options": [
+        "A) Means bacteria grow faster immediately after any drug exposure",
+        "B) Cidal agents kill; static agents inhibit growth relying on immunity for clearance",
+        "C) Static agents always kill faster than cidal agents by definition",
+        "D) Static short oral therapy always preferred for left-sided MRSA endocarditis without evaluation"
+      ],
+      "answer": "B) Cidal agents kill; static agents inhibit growth relying on immunity for clearance",
+      "explanation": "Clinical importance depends on host and infection site. Therefore, the most accurate choice is: Cidal agents kill; static agents inhibit growth relying on immunity for clearance. Static means inhibit, not kill faster.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Clinical importance depends on host and infection site. This matches the correct interpretation.",
+        "C": "Static means inhibit, not kill faster. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:13",
+      "question": "A 38-year-old woman returns with ongoing problems related to time dependent killing. Which of the following is most accurate?",
+      "options": [
+        "A) Identical always to the MIC for every bacteriostatic drug",
+        "B) They are exclusively time-dependent like penicillins always",
+        "C) Beta-lactams optimize time above MIC rather than peak height alone",
+        "D) Beta-lactams are purely concentration-dependent with only Cmax/MIC targets like AGs"
+      ],
+      "answer": "C) Beta-lactams optimize time above MIC rather than peak height alone",
+      "explanation": "Extended infusions increase T>MIC for some beta-lactams. Therefore, the most accurate choice is: Beta-lactams optimize time above MIC rather than peak height alone. Time above MIC is the key beta-lactam index.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Extended infusions increase T>MIC for some beta-lactams. This matches the correct interpretation.",
+        "D": "Time above MIC is the key beta-lactam index. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:14",
+      "question": "Senior review is requested for concentration dependent killing in a 70-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) Aminoglycosides and fluoroquinolones optimize peak/MIC or AUC/MIC",
+        "B) Beta-lactams are purely concentration-dependent with only Cmax/MIC targets like AGs",
+        "C) Identical always to the MIC for every bacteriostatic drug",
+        "D) They are exclusively time-dependent like penicillins always"
+      ],
+      "answer": "A) Aminoglycosides and fluoroquinolones optimize peak/MIC or AUC/MIC",
+      "explanation": "Extended-interval AG dosing exploits concentration-dependent PD. Therefore, the most accurate choice is: Aminoglycosides and fluoroquinolones optimize peak/MIC or AUC/MIC. Peak or AUC indices dominate for these classes.",
+      "choice_explanations": {
+        "A": "Extended-interval AG dosing exploits concentration-dependent PD. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Peak or AUC indices dominate for these classes. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:15",
+      "question": "Which statement about post antibiotic effect in a 52-year-old woman is most accurate?",
+      "options": [
+        "A) Persistent suppression of growth after drug levels fall below MIC",
+        "B) Means bacteria grow faster immediately after any drug exposure",
+        "C) Beta-lactams are purely concentration-dependent with only Cmax/MIC targets like AGs",
+        "D) Definitively identifies species and antibiotic MIC without culture"
+      ],
+      "answer": "A) Persistent suppression of growth after drug levels fall below MIC",
+      "explanation": "AGs and FQs often show PAE supporting intermittent dosing. Therefore, the most accurate choice is: Persistent suppression of growth after drug levels fall below MIC. PAE is prolonged suppression, not faster growth.",
+      "choice_explanations": {
+        "A": "AGs and FQs often show PAE supporting intermittent dosing. This matches the correct interpretation.",
+        "B": "PAE is prolonged suppression, not faster growth. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:16",
+      "question": "Careful reasoning about disk diffusion Kirby Bauer is required. Which of the following is most accurate?",
+      "options": [
+        "A) Breakpoints are identical forever for all species and drugs without updates",
+        "B) Zone diameters correlate inversely with susceptibility under standardized agar conditions",
+        "C) Cannot be used for any antimicrobial susceptibility testing",
+        "D) Larger zones always mean more resistance"
+      ],
+      "answer": "B) Zone diameters correlate inversely with susceptibility under standardized agar conditions",
+      "explanation": "Cannot provide a direct MIC number without gradient methods. Therefore, the most accurate choice is: Zone diameters correlate inversely with susceptibility under standardized agar conditions. Larger zones generally mean more susceptibility, not resistance.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Cannot provide a direct MIC number without gradient methods. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Larger zones generally mean more susceptibility, not resistance. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:17",
+      "question": "A 62-year-old woman with reduced renal function is reassessed after incomplete response related to etest gradient. Which of the following is most accurate?",
+      "options": [
+        "A) Means bacteria grow faster immediately after any drug exposure",
+        "B) Measures only Gram stain color",
+        "C) Plastic strip gradient estimates MIC at the ellipse intersection",
+        "D) Definitively identifies species and antibiotic MIC without culture"
+      ],
+      "answer": "C) Plastic strip gradient estimates MIC at the ellipse intersection",
+      "explanation": "Useful when broth MIC not immediately available. Therefore, the most accurate choice is: Plastic strip gradient estimates MIC at the ellipse intersection. It estimates MIC, not Gram reaction.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "It estimates MIC, not Gram reaction. It is less consistent than the correct choice.",
+        "C": "Useful when broth MIC not immediately available. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:18",
+      "question": "Which of the following is the most precise statement about broth microdilution?",
+      "options": [
+        "A) Inoculum size never affects measured susceptibility",
+        "B) Cannot be used for any antimicrobial susceptibility testing",
+        "C) Reference-style MIC panels with serial drug dilutions in broth",
+        "D) Means bacteria grow faster immediately after any drug exposure"
+      ],
+      "answer": "C) Reference-style MIC panels with serial drug dilutions in broth",
+      "explanation": "Automated systems often approximate this principle. Therefore, the most accurate choice is: Reference-style MIC panels with serial drug dilutions in broth. It is a core MIC method.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "It is a core MIC method. It is less consistent than the correct choice.",
+        "C": "Automated systems often approximate this principle. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:19",
+      "question": "In advanced review of breakpoint, which of the following is most accurate?",
+      "options": [
+        "A) Definitively identifies species and antibiotic MIC without culture",
+        "B) Identical to autoclave sterilization destroying all spores always",
+        "C) Breakpoints are identical forever for all species and drugs without updates",
+        "D) CLSI/EUCAST breakpoints translate MIC or zones into S/I/R categories"
+      ],
+      "answer": "D) CLSI/EUCAST breakpoints translate MIC or zones into S/I/R categories",
+      "explanation": "Pharmacokinetic/pharmacodynamic and outcome data inform breakpoints. Therefore, the most accurate choice is: CLSI/EUCAST breakpoints translate MIC or zones into S/I/R categories. Breakpoints are drug-organism specific and revised over time.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Breakpoints are drug-organism specific and revised over time. It is less consistent than the correct choice.",
+        "D": "Pharmacokinetic/pharmacodynamic and outcome data inform breakpoints. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:20",
+      "question": "In a 68-year-old woman, distinguishing PK PD indices antibiotics from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Measures only Gram stain color",
+        "B) AUC/MIC, Cmax/MIC, or T>MIC link exposure to antibacterial effect",
+        "C) Only tablet color predicts antibacterial success",
+        "D) Means bacteria grow faster immediately after any drug exposure"
+      ],
+      "answer": "B) AUC/MIC, Cmax/MIC, or T>MIC link exposure to antibacterial effect",
+      "explanation": "Dosing regimens are designed around the dominant index for each class. Therefore, the most accurate choice is: AUC/MIC, Cmax/MIC, or T>MIC link exposure to antibacterial effect. Exposure indices, not color, drive dosing science.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Dosing regimens are designed around the dominant index for each class. This matches the correct interpretation.",
+        "C": "Exposure indices, not color, drive dosing science. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:21",
+      "question": "A 70-year-old man returns with ongoing problems related to inoculum effect. Which of the following is most accurate?",
+      "options": [
+        "A) Porin loss increases beta-lactam entry and susceptibility",
+        "B) Higher bacterial density can raise apparent MIC for some beta-lactams",
+        "C) Inoculum size never affects measured susceptibility",
+        "D) Beta-lactams are purely concentration-dependent with only Cmax/MIC targets like AGs"
+      ],
+      "answer": "B) Higher bacterial density can raise apparent MIC for some beta-lactams",
+      "explanation": "Deep abscesses with high inocula may respond less well. Therefore, the most accurate choice is: Higher bacterial density can raise apparent MIC for some beta-lactams. High inocula can worsen apparent resistance.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Deep abscesses with high inocula may respond less well. This matches the correct interpretation.",
+        "C": "High inocula can worsen apparent resistance. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:22",
+      "question": "Senior review is requested for biofilm resistance in a 58-year-old man. Which of the following is correct?",
+      "options": [
+        "A) Biofilms always make bacteria hypersensitive to all antibiotics",
+        "B) Resistance genes never move between bacteria",
+        "C) Efflux pumps import antibiotics to increase potency",
+        "D) Biofilms reduce antibiotic penetration and increase tolerance without classic resistance genes necessarily"
+      ],
+      "answer": "D) Biofilms reduce antibiotic penetration and increase tolerance without classic resistance genes necessarily",
+      "explanation": "Device infections may need removal plus antibiotics. Therefore, the most accurate choice is: Biofilms reduce antibiotic penetration and increase tolerance without classic resistance genes necessarily. Biofilms increase tolerance, not hypersensitivity.",
+      "choice_explanations": {
+        "A": "Biofilms increase tolerance, not hypersensitivity. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Device infections may need removal plus antibiotics. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:23",
+      "question": "Which statement about persister cells in a 43-year-old man is most accurate?",
+      "options": [
+        "A) Breakpoints are identical forever for all species and drugs without updates",
+        "B) MRSA resists vancomycin by producing ESBL enzymes",
+        "C) Persisters are simply ESBL-producing mutants only",
+        "D) Phenotypic tolerant subpopulations survive bactericidal drugs without heritable resistance"
+      ],
+      "answer": "D) Phenotypic tolerant subpopulations survive bactericidal drugs without heritable resistance",
+      "explanation": "Contribute to relapse of chronic infections. Therefore, the most accurate choice is: Phenotypic tolerant subpopulations survive bactericidal drugs without heritable resistance. Tolerance differs from inherited resistance mechanisms.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Tolerance differs from inherited resistance mechanisms. It is less consistent than the correct choice.",
+        "D": "Contribute to relapse of chronic infections. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:24",
+      "question": "A 34-year-old man has a complex presentation of horizontal gene transfer. Which of the following is most accurate?",
+      "options": [
+        "A) Conjugation only transfers chromosomal essential genes for glycolysis",
+        "B) Biofilms always make bacteria hypersensitive to all antibiotics",
+        "C) Transformation, transduction, and conjugation move resistance genes between bacteria",
+        "D) Resistance genes never move between bacteria"
+      ],
+      "answer": "C) Transformation, transduction, and conjugation move resistance genes between bacteria",
+      "explanation": "Plasmids commonly carry multidrug resistance cassettes. Therefore, the most accurate choice is: Transformation, transduction, and conjugation move resistance genes between bacteria. HGT spreads resistance rapidly.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Plasmids commonly carry multidrug resistance cassettes. This matches the correct interpretation.",
+        "D": "HGT spreads resistance rapidly. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:25",
+      "question": "A 39-year-old woman is reassessed after incomplete response related to conjugation plasmids. Which of the following is most accurate?",
+      "options": [
+        "A) Conjugation only transfers chromosomal essential genes for glycolysis",
+        "B) INH resistance means the mycobacterium lost all cell walls",
+        "C) Direct cell-to-cell transfer of plasmids is a major MDR dissemination route",
+        "D) Resistance genes never move between bacteria"
+      ],
+      "answer": "C) Direct cell-to-cell transfer of plasmids is a major MDR dissemination route",
+      "explanation": "Infection control limits spread of plasmid-bearing clones. Therefore, the most accurate choice is: Direct cell-to-cell transfer of plasmids is a major MDR dissemination route. Plasmids, not only core glycolysis genes, transfer.",
+      "choice_explanations": {
+        "A": "Plasmids, not only core glycolysis genes, transfer. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Infection control limits spread of plasmid-bearing clones. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:26",
+      "question": "Which of the following is the most precise statement about efflux pumps bacteria?",
+      "options": [
+        "A) Export antibiotics reducing intracellular accumulation contributing to MDR",
+        "B) Efflux pumps import antibiotics to increase potency",
+        "C) Biofilms always make bacteria hypersensitive to all antibiotics",
+        "D) Contact precautions are never used for MDR bacteria"
+      ],
+      "answer": "A) Export antibiotics reducing intracellular accumulation contributing to MDR",
+      "explanation": "AcrAB-TolC type pumps in Gram-negatives are classic examples. Therefore, the most accurate choice is: Export antibiotics reducing intracellular accumulation contributing to MDR. Efflux decreases, not increases, intracellular drug.",
+      "choice_explanations": {
+        "A": "AcrAB-TolC type pumps in Gram-negatives are classic examples. This matches the correct interpretation.",
+        "B": "Efflux decreases, not increases, intracellular drug. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:27",
+      "question": "A 48-year-old woman has findings that make porin loss hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Porin loss increases beta-lactam entry and susceptibility",
+        "B) Thin peptidoglycan with outer membrane retains crystal violet as purple always",
+        "C) Reduced outer-membrane porins limit entry of beta-lactams into Gram-negatives",
+        "D) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger"
+      ],
+      "answer": "C) Reduced outer-membrane porins limit entry of beta-lactams into Gram-negatives",
+      "explanation": "Often combines with beta-lactamases for high-level resistance. Therefore, the most accurate choice is: Reduced outer-membrane porins limit entry of beta-lactams into Gram-negatives. Porin loss decreases entry and susceptibility.",
+      "choice_explanations": {
+        "A": "Porin loss decreases entry and susceptibility. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Often combines with beta-lactamases for high-level resistance. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:28",
+      "question": "In a 66-year-old man, distinguishing aminoglycoside modifying enzymes from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Beta-lactamases enhance beta-lactam binding to PBPs making drugs stronger",
+        "B) They strengthen AG binding to the 30S subunit",
+        "C) Acetyltransferases, phosphorylases, and nucleotidyltransferases inactivate AGs",
+        "D) MRSA resists vancomycin by producing ESBL enzymes"
+      ],
+      "answer": "C) Acetyltransferases, phosphorylases, and nucleotidyltransferases inactivate AGs",
+      "explanation": "Amikacin resists some modifying enzymes better than gentamicin sometimes. Therefore, the most accurate choice is: Acetyltransferases, phosphorylases, and nucleotidyltransferases inactivate AGs. They inactivate AGs rather than strengthen binding.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "They inactivate AGs rather than strengthen binding. It is less consistent than the correct choice.",
+        "C": "Amikacin resists some modifying enzymes better than gentamicin sometimes. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharm_microbiology:extreme:29",
+      "question": "A 53-year-old man returns with ongoing problems related to ribosomal protection tetracycline. Which of the following is most accurate?",
+      "options": [
+        "A) VRE produces beta-lactamases that hydrolyze vancomycin directly",
+        "B) FQ resistance occurs only via vancomycin target change",
+        "C) Tetracycline resistance is only via beta-lactamase",
+        "D) Protection proteins allow translation despite tetracycline binding themes"
+      ],
+      "answer": "D) Protection proteins allow translation despite tetracycline binding themes",
+      "explanation": "Efflux is another major tetracycline resistance mechanism. Therefore, the most accurate choice is: Protection proteins allow translation despite tetracycline binding themes. Ribosomal protection and efflux, not beta-lactamase, dominate.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Ribosomal protection and efflux, not beta-lactamase, dominate. It is less consistent than the correct choice.",
+        "D": "Efflux is another major tetracycline resistance mechanism. This matches the correct interpretation."
+      }
+    }
+  ]
+}

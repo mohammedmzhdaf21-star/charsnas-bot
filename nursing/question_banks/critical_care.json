@@ -1,0 +1,2170 @@
+{
+  "easy": [
+    {
+      "id": "critical_care:easy:0",
+      "question": "Which of the following is true of RRT early triggers?",
+      "options": [
+        "A) Elective full-stomach induction without aspiration plan",
+        "B) Wait for full cardiac arrest before calling for help on progressive decline",
+        "C) Activate rapid response for acute respiratory/hemodynamic/mental status decline early",
+        "D) Wait 30 minutes untreated for continuous generalized seizing"
+      ],
+      "answer": "C) Activate rapid response for acute respiratory/hemodynamic/mental status decline early",
+      "explanation": "Early intervention prevents failure-to-rescue deaths. Therefore, the most accurate choice is: Activate rapid response for acute respiratory/hemodynamic/mental status decline early. Waiting for arrest is a .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Waiting for arrest is a near-miss. It is less consistent than the correct choice.",
+        "C": "Early intervention prevents failure-to-rescue deaths. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:easy:1",
+      "question": "Which finding is expected in ABC survey ICU?",
+      "options": [
+        "A) Steroids/antihistamines first while hypotensive with airway edema",
+        "B) Finish medication reconciliation before opening an obstructed airway",
+        "C) Airway-breathing-circulation before detailed chart review in crisis",
+        "D) Keep Foley for convenience urine output in mobile ICU patient without indication"
+      ],
+      "answer": "C) Airway-breathing-circulation before detailed chart review in crisis",
+      "explanation": "Life threats first in crisis physiology. Therefore, the most accurate choice is: Airway-breathing-circulation before detailed chart review in crisis. Chart-before-airway is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Chart-before-airway is near-miss. It is less consistent than the correct choice.",
+        "C": "Life threats first in crisis physiology. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:easy:2",
+      "question": "Which statement regarding waveform ETCO2 intubation is correct?",
+      "options": [
+        "A) Blind traumatic NG forcing through known esophageal varices without plan",
+        "B) Confirm ETT with continuous ETCO2 waveform plus clinical assessment",
+        "C) Assume pacing works if spikes seen without pulse check",
+        "D) Rely only on a single auscultation whoosh without ETCO2"
+      ],
+      "answer": "B) Confirm ETT with continuous ETCO2 waveform plus clinical assessment",
+      "explanation": "ETCO2 detects esophageal intubation rapidly. Therefore, the most accurate choice is: Confirm ETT with continuous ETCO2 waveform plus clinical assessment. Auscultation-only confirmation is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "ETCO2 detects esophageal intubation rapidly. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Auscultation-only confirmation is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:easy:3",
+      "question": "In DOPE mnemonic vent, which of the following is correct?",
+      "options": [
+        "A) Leave FiO2 1.0 for hours after ROSC with SpO2 100% without titration",
+        "B) Assume pacing works if spikes seen without pulse check",
+        "C) Displacement, obstruction, pneumothorax, equipment for sudden vent distress",
+        "D) Assume anxiety only when SpO2 crashes on a ventilator without DOPE check"
+      ],
+      "answer": "C) Displacement, obstruction, pneumothorax, equipment for sudden vent distress",
+      "explanation": "Systematic causes prevent missed catastrophic failures. Therefore, the most accurate choice is: Displacement, obstruction, pneumothorax, equipment for sudden vent distress. Anxiety labeling misses DOPE—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Systematic causes prevent missed catastrophic failures. This matches the correct interpretation.",
+        "D": "Anxiety labeling misses DOPE—near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:easy:4",
+      "question": "Which of the following best describes low tidal ARDS?",
+      "options": [
+        "A) Low tidal volume ventilation (~6 mL/kg IBW) in ARDS reduces volutrauma",
+        "B) Chase normal PaCO2 with injurious high volumes in severe ARDS",
+        "C) Give succinylcholine routinely 2 weeks after major burn without caution",
+        "D) Use 12 mL/kg IBW volumes routinely in ARDS for ‘better numbers’"
+      ],
+      "answer": "A) Low tidal volume ventilation (~6 mL/kg IBW) in ARDS reduces volutrauma",
+      "explanation": "Lung-protective ventilation improves survival. Therefore, the most accurate choice is: Low tidal volume ventilation (~6 mL/kg IBW) in ARDS reduces volutrauma. High volumes injure lungs—.",
+      "choice_explanations": {
+        "A": "Lung-protective ventilation improves survival. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "High volumes injure lungs—near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:easy:5",
+      "question": "Select the correct statement about permissive hypercapnia ARDS.",
+      "options": [
+        "A) Chase normal PaCO2 with injurious high volumes in severe ARDS",
+        "B) Set high rate/no expiratory time causing auto-PEEP and hypotension",
+        "C) Accept higher PaCO2 if pH safe to keep low volumes",
+        "D) Use 12 mL/kg IBW volumes routinely in ARDS for ‘better numbers’"
+      ],
+      "answer": "C) Accept higher PaCO2 if pH safe to keep low volumes",
+      "explanation": "Protecting lungs outweighs perfect CO2 sometimes. Therefore, the most accurate choice is: Accept higher PaCO2 if pH safe to keep low volumes. Injurious CO2 chasing is .",
+      "choice_explanations": {
+        "A": "Injurious CO2 chasing is near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Protecting lungs outweighs perfect CO2 sometimes. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:easy:6",
+      "question": "Which mechanism accounts for proning ARDS?",
+      "options": [
+        "A) Continue PPI prophylaxis indefinitely without indication review after ICU recovery",
+        "B) Proning without airway/line security plan or indications",
+        "C) Prone positioning improves oxygenation in severe ARDS when protocolized",
+        "D) Leave a hypoxic self-extubated patient to ‘try harder’ without support"
+      ],
+      "answer": "C) Prone positioning improves oxygenation in severe ARDS when protocolized",
+      "explanation": "Proning redistributes lung stress/perfusion. Therefore, the most accurate choice is: Prone positioning improves oxygenation in severe ARDS when protocolized. Unplanned proning risks airway loss—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Unplanned proning risks airway loss—near-miss. It is less consistent than the correct choice.",
+        "C": "Proning redistributes lung stress/perfusion. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:easy:7",
+      "question": "Which of the following applies to PEEP oxygenation?",
+      "options": [
+        "A) Max PEEP on hypovolemic patient ignoring BP crash",
+        "B) Intubate hypovolemic septic patient with high PEEP induction and no pressor readiness",
+        "C) Encourage family to press PCA while patient sleeps in ICU",
+        "D) Titrate PEEP to improve oxygenation/recruitment while watching hemodynamics"
+      ],
+      "answer": "D) Titrate PEEP to improve oxygenation/recruitment while watching hemodynamics",
+      "explanation": "PEEP improves FRC but can cut venous return. Therefore, the most accurate choice is: Titrate PEEP to improve oxygenation/recruitment while watching hemodynamics. Blind max PEEP shocks—.",
+      "choice_explanations": {
+        "A": "Blind max PEEP shocks—near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "PEEP improves FRC but can cut venous return. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:easy:8",
+      "question": "Which of the following is true about vent weaning readiness?",
+      "options": [
+        "A) Extubate without symptom plan then refuse opioids for air hunger",
+        "B) Extubate at FiO2 1.0 and PEEP 15 without readiness screen",
+        "C) Leave a hypoxic self-extubated patient to ‘try harder’ without support",
+        "D) Assess RSBI, mentation, secretions, FiO2/PEEP before spontaneous breathing trial"
+      ],
+      "answer": "D) Assess RSBI, mentation, secretions, FiO2/PEEP before spontaneous breathing trial",
+      "explanation": "Failed extubation harms; readiness predicts success. Therefore, the most accurate choice is: Assess RSBI, mentation, secretions, FiO2/PEEP before spontaneous breathing trial. Unsafe early extubation is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Unsafe early extubation is near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Failed extubation harms; readiness predicts success. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:easy:9",
+      "question": "Which finding is expected in unplanned extubation response?",
+      "options": [
+        "A) Leave a hypoxic self-extubated patient to ‘try harder’ without support",
+        "B) Proning without airway/line security plan or indications",
+        "C) Extubate without symptom plan then refuse opioids for air hunger",
+        "D) Support with BVM/airway algorithm; call for reintubation help"
+      ],
+      "answer": "D) Support with BVM/airway algorithm; call for reintubation help",
+      "explanation": "Airway loss is an emergency. Therefore, the most accurate choice is: Support with BVM/airway algorithm; call for reintubation help. No support after self-extubation is .",
+      "choice_explanations": {
+        "A": "No support after self-extubation is near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Airway loss is an emergency. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:easy:10",
+      "question": "Which of the following statements about suction sterile ET is correct?",
+      "options": [
+        "A) Deep prolonged clean suction without oxygenation",
+        "B) Hyperoxygenate as indicated; limit passes; sterile open suction technique",
+        "C) Leave FiO2 1.0 for hours after ROSC with SpO2 100% without titration",
+        "D) Proning without airway/line security plan or indications"
+      ],
+      "answer": "B) Hyperoxygenate as indicated; limit passes; sterile open suction technique",
+      "explanation": "Brief sterile suction clears without hypoxia/trauma. Therefore, the most accurate choice is: Hyperoxygenate as indicated; limit passes; sterile open suction technique. Prolonged suction harms—.",
+      "choice_explanations": {
+        "A": "Prolonged suction harms—near-miss. It is less consistent than the correct choice.",
+        "B": "Brief sterile suction clears without hypoxia/trauma. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:easy:11",
+      "question": "In cuff pressure trach/ETT, which of the following is correct?",
+      "options": [
+        "A) Overinflate cuff until no leak without manometer checks forever",
+        "B) Allow prolonged hypotension after acute SCI without MAP strategy",
+        "C) Clamp chest tube routinely for transport without protocol",
+        "D) Maintain cuff pressures in safe range to avoid aspiration and necrosis"
+      ],
+      "answer": "D) Maintain cuff pressures in safe range to avoid aspiration and necrosis",
+      "explanation": "Correct pressure seals without tracheal injury. Therefore, the most accurate choice is: Maintain cuff pressures in safe range to avoid aspiration and necrosis. Unchecked overinflation damages trachea—.",
+      "choice_explanations": {
+        "A": "Unchecked overinflation damages trachea—near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Correct pressure seals without tracheal injury. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:easy:12",
+      "question": "Which of the following best describes tension pneumothorax ICU?",
+      "options": [
+        "A) Massive fluids and high PEEP blindly for RV infarct/PE physiology without thought",
+        "B) Increase PEEP and fluids only for suspected tension pneumothorax without decompression plan",
+        "C) Positive pressure induction and diuresis as first moves in tamponade without decompression plan",
+        "D) Hypotension + unilateral absent sounds + high pressures—decompress emergently"
+      ],
+      "answer": "D) Hypotension + unilateral absent sounds + high pressures—decompress emergently",
+      "explanation": "Tension obstructs venous return. Therefore, the most accurate choice is: Hypotension + unilateral absent sounds + high pressures—decompress emergently. Missed decompression is fatal .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Missed decompression is fatal near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Tension obstructs venous return. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:easy:13",
+      "question": "Select the correct statement about chest tube continuous bubbling.",
+      "options": [
+        "A) Clamp chest tube routinely for transport without protocol",
+        "B) Clamp ECMO circuit casually during alarm without protocol",
+        "C) Raise/lower EVD arbitrarily and leave clamped for long periods without order",
+        "D) Assess for air leak vs system issues; don’t clamp routinely without reason"
+      ],
+      "answer": "D) Assess for air leak vs system issues; don’t clamp routinely without reason",
+      "explanation": "Indiscriminate clamping can cause tension physiology. Therefore, the most accurate choice is: Assess for air leak vs system issues; don’t clamp routinely without reason. Routine clamping is .",
+      "choice_explanations": {
+        "A": "Routine clamping is near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Indiscriminate clamping can cause tension physiology. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:easy:14",
+      "question": "Which mechanism accounts for septic shock antibiotics?",
+      "options": [
+        "A) Cultures then immediate antibiotics; fluids and vasopressors per sepsis bundles",
+        "B) Antibiotics alone forever for undrained abscess causing shock",
+        "C) Wait 48 h for culture results before antibiotics in septic shock",
+        "D) Give multi-liter fluids for wet cold cardiogenic shock as if septic"
+      ],
+      "answer": "A) Cultures then immediate antibiotics; fluids and vasopressors per sepsis bundles",
+      "explanation": "Early antibiotics reduce mortality. Therefore, the most accurate choice is: Cultures then immediate antibiotics; fluids and vasopressors per sepsis bundles. Culture-wait in shock is deadly .",
+      "choice_explanations": {
+        "A": "Early antibiotics reduce mortality. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Culture-wait in shock is deadly near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:easy:15",
+      "question": "Which of the following applies to norepinephrine septic first?",
+      "options": [
+        "A) Norepinephrine is common first-line vasopressor in septic shock",
+        "B) Proning without airway/line security plan or indications",
+        "C) Wait 48 h for culture results before antibiotics in septic shock",
+        "D) Use dopamine preferentially for all septic shock without reason against modern practice"
+      ],
+      "answer": "A) Norepinephrine is common first-line vasopressor in septic shock",
+      "explanation": "NE improves MAP with favorable profile in sepsis. Therefore, the most accurate choice is: Norepinephrine is common first-line vasopressor in septic shock. Outdated first pressor choice is .",
+      "choice_explanations": {
+        "A": "NE improves MAP with favorable profile in sepsis. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Outdated first pressor choice is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:easy:16",
+      "question": "Which of the following is true of MAP target sepsis?",
+      "options": [
+        "A) Chase MAP 100 with extreme pressors ignoring ischemia risks in all patients",
+        "B) Drop MAP aggressively in high ICP without CPP consideration",
+        "C) Target MAP ~65 mmHg typically unless individualized higher needed",
+        "D) Allow prolonged hypotension after acute SCI without MAP strategy"
+      ],
+      "answer": "C) Target MAP ~65 mmHg typically unless individualized higher needed",
+      "explanation": "Adequate perfusion pressure without excess vasoconstriction. Therefore, the most accurate choice is: Target MAP ~65 mmHg typically unless individualized higher needed. Overshooting MAP harms—.",
+      "choice_explanations": {
+        "A": "Overshooting MAP harms—near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Adequate perfusion pressure without excess vasoconstriction. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:easy:17",
+      "question": "Which finding is expected in lactate trend sepsis?",
+      "options": [
+        "A) Chase MAP 100 with extreme pressors ignoring ischemia risks in all patients",
+        "B) Trend lactate with clinical perfusion; resuscitate sources",
+        "C) Give unlimited fluids solely because CVP is 4 without other perfusion data",
+        "D) High-dose long propofol + metabolic acidosis/rhabdo/cardiac—stop and support"
+      ],
+      "answer": "B) Trend lactate with clinical perfusion; resuscitate sources",
+      "explanation": "Lactate reflects hypoperfusion/stress. Therefore, the most accurate choice is: Trend lactate with clinical perfusion; resuscitate sources. BP-only reassurance misses hypoperfusion—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Lactate reflects hypoperfusion/stress. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:easy:18",
+      "question": "Which of the following statements about source control sepsis is correct?",
+      "options": [
+        "A) Seek drainage/debridement/device removal when source controllable",
+        "B) Antibiotics alone forever for undrained abscess causing shock",
+        "C) Wait 48 h for culture results before antibiotics in septic shock",
+        "D) Give multi-liter fluids for wet cold cardiogenic shock as if septic"
+      ],
+      "answer": "A) Seek drainage/debridement/device removal when source controllable",
+      "explanation": "Source control is essential alongside drugs. Therefore, the most accurate choice is: Seek drainage/debridement/device removal when source controllable. No source control fails—.",
+      "choice_explanations": {
+        "A": "Source control is essential alongside drugs. This matches the correct interpretation.",
+        "B": "No source control fails—near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:easy:19",
+      "question": "In cardiogenic vs distributive, which of the following is correct?",
+      "options": [
+        "A) Give multi-liter fluids for wet cold cardiogenic shock as if septic",
+        "B) Wait 48 h for culture results before antibiotics in septic shock",
+        "C) Give unlimited fluids solely because CVP is 4 without other perfusion data",
+        "D) Cardiogenic: congestion/low output; distributive: vasodilation—different fluids/pressors"
+      ],
+      "answer": "D) Cardiogenic: congestion/low output; distributive: vasodilation—different fluids/pressors",
+      "explanation": "Wrong shock type → wrong preload strategy. Therefore, the most accurate choice is: Cardiogenic: congestion/low output; distributive: vasodilation—different fluids/pressors. Fluids in wet cardiogenic shock worsen edema—.",
+      "choice_explanations": {
+        "A": "Fluids in wet cardiogenic shock worsen edema—near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Wrong shock type → wrong preload strategy. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:easy:20",
+      "question": "Which of the following best describes nitroprusside vs fluids HF?",
+      "options": [
+        "A) Give nitroglycerin for inferior MI with clear lungs and hypotension from RV infarct",
+        "B) Bolus 2 L NS for flash pulmonary edema with HTN",
+        "C) Vasodilators/diuretics for hypertensive pulmonary edema; not blind fluid boluses",
+        "D) Lay flat and force fluids for pounding headache/HTN in T6 injury"
+      ],
+      "answer": "C) Vasodilators/diuretics for hypertensive pulmonary edema; not blind fluid boluses",
+      "explanation": "Reduce preload/afterload; extra volume floods lungs. Therefore, the most accurate choice is: Vasodilators/diuretics for hypertensive pulmonary edema; not blind fluid boluses. Fluid bolus in flash edema is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Fluid bolus in flash edema is near-miss. It is less consistent than the correct choice.",
+        "C": "Reduce preload/afterload; extra volume floods lungs. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:easy:21",
+      "question": "Select the correct interpretation for IABP timing.",
+      "options": [
+        "A) Trend lactate with clinical perfusion; resuscitate sources",
+        "B) Fluid-restrict dark urine after crush with rising K",
+        "C) Osmotherapy needs Na/osmolality/urine output monitoring",
+        "D) IABP inflates diastole/deflates systole; watch timing/urine/limb ischemia"
+      ],
+      "answer": "D) IABP inflates diastole/deflates systole; watch timing/urine/limb ischemia",
+      "explanation": "Counterpulsation augments coronary perfusion/unloads LV. Therefore, the most accurate choice is: IABP inflates diastole/deflates systole; watch timing/urine/limb ischemia. Ignored limb ischemia loses limb—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Counterpulsation augments coronary perfusion/unloads LV. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:easy:22",
+      "question": "Which mechanism accounts for post cardiac arrest targeted temp?",
+      "options": [
+        "A) Drop MAP aggressively in high ICP without CPP consideration",
+        "B) Leave FiO2 1.0 for hours after ROSC with SpO2 100% without titration",
+        "C) Targeted temperature management/fever avoidance per current protocol after ROSC",
+        "D) Allow uncontrolled high fever after ROSC without management"
+      ],
+      "answer": "C) Targeted temperature management/fever avoidance per current protocol after ROSC",
+      "explanation": "Temperature control may improve neurologic outcomes. Therefore, the most accurate choice is: Targeted temperature management/fever avoidance per current protocol after ROSC. Ignored fever management is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Temperature control may improve neurologic outcomes. This matches the correct interpretation.",
+        "D": "Ignored fever management is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:easy:23",
+      "question": "Which of the following applies to ROSC oxygenation targets?",
+      "options": [
+        "A) Allow uncontrolled high fever after ROSC without management",
+        "B) Leave FiO2 1.0 for hours after ROSC with SpO2 100% without titration",
+        "C) Deep prolonged clean suction without oxygenation",
+        "D) Avoid prolonged hyperoxia; titrate SpO2 to targets post-ROSC"
+      ],
+      "answer": "D) Avoid prolonged hyperoxia; titrate SpO2 to targets post-ROSC",
+      "explanation": "Hyperoxia may worsen reperfusion injury. Therefore, the most accurate choice is: Avoid prolonged hyperoxia; titrate SpO2 to targets post-ROSC. Untitrated hyperoxia is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Untitrated hyperoxia is near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Hyperoxia may worsen reperfusion injury. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:easy:24",
+      "question": "Which of the following is true of therapeutic hypothermia shivering?",
+      "options": [
+        "A) Control shivering during TTM; it defeats cooling and raises VO2",
+        "B) Monitor systemic/ionized calcium during citrate anticoagulation",
+        "C) High-dose long propofol + metabolic acidosis/rhabdo/cardiac—stop and support",
+        "D) Clamp ECMO circuit casually during alarm without protocol"
+      ],
+      "answer": "A) Control shivering during TTM; it defeats cooling and raises VO2",
+      "explanation": "Shivering increases metabolic demand. Therefore, the most accurate choice is: Control shivering during TTM; it defeats cooling and raises VO2. Ignored shivering defeats TTM—.",
+      "choice_explanations": {
+        "A": "Shivering increases metabolic demand. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:easy:25",
+      "question": "Which finding matches increased ICP?",
+      "options": [
+        "A) Cluster painful care flat with neck kinked in rising ICP",
+        "B) Elevate high and observe overnight without notifying for classic compartment signs",
+        "C) Leave HOB flat continuously and skip oral care on ventilated patient",
+        "D) Declining mentation, Cushing triad clues, pupil changes—elevate HOB, align neck, notify"
+      ],
+      "answer": "D) Declining mentation, Cushing triad clues, pupil changes—elevate HOB, align neck, notify",
+      "explanation": "Venous drainage and low stimulation protect CPP. Therefore, the most accurate choice is: Declining mentation, Cushing triad clues, pupil changes—elevate HOB, align neck, notify. Flat/kinked clustering raises ICP—.",
+      "choice_explanations": {
+        "A": "Flat/kinked clustering raises ICP—near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Venous drainage and low stimulation protect CPP. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:easy:26",
+      "question": "Which of the following statements about CPP concept is correct?",
+      "options": [
+        "A) Allow uncontrolled high fever after ROSC without management",
+        "B) Allow prolonged hypotension after acute SCI without MAP strategy",
+        "C) CPP ≈ MAP − ICP; balance pressure without uncontrolled hypo/hypertension",
+        "D) Drop MAP aggressively in high ICP without CPP consideration"
+      ],
+      "answer": "C) CPP ≈ MAP − ICP; balance pressure without uncontrolled hypo/hypertension",
+      "explanation": "Brain needs perfusion pressure not just low ICP. Therefore, the most accurate choice is: CPP ≈ MAP − ICP; balance pressure without uncontrolled hypo/hypertension. MAP crash harms ischemic brain—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Brain needs perfusion pressure not just low ICP. This matches the correct interpretation.",
+        "D": "MAP crash harms ischemic brain—near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:easy:27",
+      "question": "In mannitol/hypertonic watch, which of the following is correct?",
+      "options": [
+        "A) Give insulin without potassium monitoring in DKA",
+        "B) Osmotherapy needs Na/osmolality/urine output monitoring",
+        "C) Start high-calorie feeds abruptly without electrolyte monitoring in starvation",
+        "D) Give repeated mannitol without checking osmolality/renal status"
+      ],
+      "answer": "B) Osmotherapy needs Na/osmolality/urine output monitoring",
+      "explanation": "Excess osmotherapy causes renal/electrolyte harm. Therefore, the most accurate choice is: Osmotherapy needs Na/osmolality/urine output monitoring. Blind repeated mannitol is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Excess osmotherapy causes renal/electrolyte harm. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Blind repeated mannitol is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:easy:28",
+      "question": "Which of the following best describes spinal shock vs neurogenic?",
+      "options": [
+        "A) Massive fluids and high PEEP blindly for RV infarct/PE physiology without thought",
+        "B) Treat all post-SCI hypotension with only fluids ignoring bradycardia/neurogenic need for pressors",
+        "C) Give multi-liter fluids for wet cold cardiogenic shock as if septic",
+        "D) Differentiate flaccid spinal shock from neurogenic hypotensive bradycardia patterns"
+      ],
+      "answer": "D) Differentiate flaccid spinal shock from neurogenic hypotensive bradycardia patterns",
+      "explanation": "Neurogenic shock is distributive from loss of sympathetic tone. Therefore, the most accurate choice is: Differentiate flaccid spinal shock from neurogenic hypotensive bradycardia patterns. Wrong shock model mistreats—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Wrong shock model mistreats—near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Neurogenic shock is distributive from loss of sympathetic tone. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:easy:29",
+      "question": "Select the correct statement about autonomic dysreflexia ICU.",
+      "options": [
+        "A) Lay flat and force fluids for pounding headache/HTN in T6 injury",
+        "B) Force high-fat feeding during severe acute pancreatitis",
+        "C) Sit up, loosen, find bladder/bowel trigger; treat BP emergency",
+        "D) Treat all post-SCI hypotension with only fluids ignoring bradycardia/neurogenic need for pressors"
+      ],
+      "answer": "C) Sit up, loosen, find bladder/bowel trigger; treat BP emergency",
+      "explanation": "Noxious stimuli below injury cause sympathetic surge. Therefore, the most accurate choice is: Sit up, loosen, find bladder/bowel trigger; treat BP emergency. Lying flat worsens hypertensive emergency—.",
+      "choice_explanations": {
+        "A": "Lying flat worsens hypertensive emergency—near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Noxious stimuli below injury cause sympathetic surge. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ],
+  "medium": [
+    {
+      "id": "critical_care:medium:0",
+      "question": "A 56-year-old man is admitted with RRT early triggers. Which nursing action is most appropriate?",
+      "options": [
+        "A) Wait 30 minutes untreated for continuous generalized seizing",
+        "B) Activate rapid response for acute respiratory/hemodynamic/mental status decline early",
+        "C) Elective full-stomach induction without aspiration plan",
+        "D) Wait for full cardiac arrest before calling for help on progressive decline"
+      ],
+      "answer": "B) Activate rapid response for acute respiratory/hemodynamic/mental status decline early",
+      "explanation": "Early intervention prevents failure-to-rescue deaths. Therefore, the most accurate choice is: Activate rapid response for acute respiratory/hemodynamic/mental status decline early. Waiting for arrest is a .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Early intervention prevents failure-to-rescue deaths. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Waiting for arrest is a near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:1",
+      "question": "A 25-year-old woman develops findings of ABC survey ICU. What is the priority assessment?",
+      "options": [
+        "A) Finish medication reconciliation before opening an obstructed airway",
+        "B) Airway-breathing-circulation before detailed chart review in crisis",
+        "C) Steroids/antihistamines first while hypotensive with airway edema",
+        "D) Keep volatile anesthetics running during suspected MH crisis"
+      ],
+      "answer": "B) Airway-breathing-circulation before detailed chart review in crisis",
+      "explanation": "Life threats first in crisis physiology. Therefore, the most accurate choice is: Airway-breathing-circulation before detailed chart review in crisis. Chart-before-airway is .",
+      "choice_explanations": {
+        "A": "Chart-before-airway is near-miss. It is less consistent than the correct choice.",
+        "B": "Life threats first in crisis physiology. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:2",
+      "question": "A 33-year-old woman has findings requiring interpretation of waveform ETCO2 intubation. Which of the following is correct?",
+      "options": [
+        "A) Blind traumatic NG forcing through known esophageal varices without plan",
+        "B) Assume pacing works if spikes seen without pulse check",
+        "C) Confirm ETT with continuous ETCO2 waveform plus clinical assessment",
+        "D) Rely only on a single auscultation whoosh without ETCO2"
+      ],
+      "answer": "C) Confirm ETT with continuous ETCO2 waveform plus clinical assessment",
+      "explanation": "ETCO2 detects esophageal intubation rapidly. Therefore, the most accurate choice is: Confirm ETT with continuous ETCO2 waveform plus clinical assessment. Auscultation-only confirmation is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "ETCO2 detects esophageal intubation rapidly. This matches the correct interpretation.",
+        "D": "Auscultation-only confirmation is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:3",
+      "question": "A 31-year-old woman needs a care plan for DOPE mnemonic vent. Which of the following is most appropriate?",
+      "options": [
+        "A) Assume anxiety only when SpO2 crashes on a ventilator without DOPE check",
+        "B) Assume pacing works if spikes seen without pulse check",
+        "C) Displacement, obstruction, pneumothorax, equipment for sudden vent distress",
+        "D) Increase PEEP and fluids only for suspected tension pneumothorax without decompression plan"
+      ],
+      "answer": "C) Displacement, obstruction, pneumothorax, equipment for sudden vent distress",
+      "explanation": "Systematic causes prevent missed catastrophic failures. Therefore, the most accurate choice is: Displacement, obstruction, pneumothorax, equipment for sudden vent distress. Anxiety labeling misses DOPE—.",
+      "choice_explanations": {
+        "A": "Anxiety labeling misses DOPE—near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Systematic causes prevent missed catastrophic failures. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:4",
+      "question": "Bedside assessment suggests low tidal ARDS. Which of the following is correct?",
+      "options": [
+        "A) Chase normal PaCO2 with injurious high volumes in severe ARDS",
+        "B) Use 12 mL/kg IBW volumes routinely in ARDS for ‘better numbers’",
+        "C) Low tidal volume ventilation (~6 mL/kg IBW) in ARDS reduces volutrauma",
+        "D) Continue transfusion through new bilateral infiltrates/hypoxia assuming simple volume only always"
+      ],
+      "answer": "C) Low tidal volume ventilation (~6 mL/kg IBW) in ARDS reduces volutrauma",
+      "explanation": "Lung-protective ventilation improves survival. Therefore, the most accurate choice is: Low tidal volume ventilation (~6 mL/kg IBW) in ARDS reduces volutrauma. High volumes injure lungs—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "High volumes injure lungs—near-miss. It is less consistent than the correct choice.",
+        "C": "Lung-protective ventilation improves survival. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:5",
+      "question": "A 50-year-old man has vital-sign changes due to permissive hypercapnia ARDS. Which of the following is most accurate?",
+      "options": [
+        "A) Set high rate/no expiratory time causing auto-PEEP and hypotension",
+        "B) Use 12 mL/kg IBW volumes routinely in ARDS for ‘better numbers’",
+        "C) Chase normal PaCO2 with injurious high volumes in severe ARDS",
+        "D) Accept higher PaCO2 if pH safe to keep low volumes"
+      ],
+      "answer": "D) Accept higher PaCO2 if pH safe to keep low volumes",
+      "explanation": "Protecting lungs outweighs perfect CO2 sometimes. Therefore, the most accurate choice is: Accept higher PaCO2 if pH safe to keep low volumes. Injurious CO2 chasing is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Injurious CO2 chasing is near-miss. It is less consistent than the correct choice.",
+        "D": "Protecting lungs outweighs perfect CO2 sometimes. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:medium:6",
+      "question": "While caring for a 64-year-old man, proning ARDS is suspected. Which of the following is correct?",
+      "options": [
+        "A) Deep prolonged clean suction without oxygenation",
+        "B) Proning without airway/line security plan or indications",
+        "C) Prone positioning improves oxygenation in severe ARDS when protocolized",
+        "D) Continue PPI prophylaxis indefinitely without indication review after ICU recovery"
+      ],
+      "answer": "C) Prone positioning improves oxygenation in severe ARDS when protocolized",
+      "explanation": "Proning redistributes lung stress/perfusion. Therefore, the most accurate choice is: Prone positioning improves oxygenation in severe ARDS when protocolized. Unplanned proning risks airway loss—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Unplanned proning risks airway loss—near-miss. It is less consistent than the correct choice.",
+        "C": "Proning redistributes lung stress/perfusion. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:7",
+      "question": "A 63-year-old woman is monitored for complications of PEEP oxygenation. Which of the following is most appropriate?",
+      "options": [
+        "A) Titrate PEEP to improve oxygenation/recruitment while watching hemodynamics",
+        "B) Encourage family to press PCA while patient sleeps in ICU",
+        "C) Max PEEP on hypovolemic patient ignoring BP crash",
+        "D) Intubate hypovolemic septic patient with high PEEP induction and no pressor readiness"
+      ],
+      "answer": "A) Titrate PEEP to improve oxygenation/recruitment while watching hemodynamics",
+      "explanation": "PEEP improves FRC but can cut venous return. Therefore, the most accurate choice is: Titrate PEEP to improve oxygenation/recruitment while watching hemodynamics. Blind max PEEP shocks—.",
+      "choice_explanations": {
+        "A": "PEEP improves FRC but can cut venous return. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Blind max PEEP shocks—near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:8",
+      "question": "A 58-year-old man is examined, and vent weaning readiness is reviewed. Which of the following is correct?",
+      "options": [
+        "A) Assess RSBI, mentation, secretions, FiO2/PEEP before spontaneous breathing trial",
+        "B) Extubate without symptom plan then refuse opioids for air hunger",
+        "C) Leave a hypoxic self-extubated patient to ‘try harder’ without support",
+        "D) Extubate at FiO2 1.0 and PEEP 15 without readiness screen"
+      ],
+      "answer": "A) Assess RSBI, mentation, secretions, FiO2/PEEP before spontaneous breathing trial",
+      "explanation": "Failed extubation harms; readiness predicts success. Therefore, the most accurate choice is: Assess RSBI, mentation, secretions, FiO2/PEEP before spontaneous breathing trial. Unsafe early extubation is .",
+      "choice_explanations": {
+        "A": "Failed extubation harms; readiness predicts success. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Unsafe early extubation is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:9",
+      "question": "A 28-year-old man develops findings of unplanned extubation response. What is the priority assessment?",
+      "options": [
+        "A) Extubate without symptom plan then refuse opioids for air hunger",
+        "B) Leave a hypoxic self-extubated patient to ‘try harder’ without support",
+        "C) Proning without airway/line security plan or indications",
+        "D) Support with BVM/airway algorithm; call for reintubation help"
+      ],
+      "answer": "D) Support with BVM/airway algorithm; call for reintubation help",
+      "explanation": "Airway loss is an emergency. Therefore, the most accurate choice is: Support with BVM/airway algorithm; call for reintubation help. No support after self-extubation is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "No support after self-extubation is near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Airway loss is an emergency. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:medium:10",
+      "question": "A 34-year-old man shows signs of suction sterile ET on the unit. Which of the following is correct?",
+      "options": [
+        "A) Hyperoxygenate as indicated; limit passes; sterile open suction technique",
+        "B) Leave FiO2 1.0 for hours after ROSC with SpO2 100% without titration",
+        "C) Proning without airway/line security plan or indications",
+        "D) Deep prolonged clean suction without oxygenation"
+      ],
+      "answer": "A) Hyperoxygenate as indicated; limit passes; sterile open suction technique",
+      "explanation": "Brief sterile suction clears without hypoxia/trauma. Therefore, the most accurate choice is: Hyperoxygenate as indicated; limit passes; sterile open suction technique. Prolonged suction harms—.",
+      "choice_explanations": {
+        "A": "Brief sterile suction clears without hypoxia/trauma. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Prolonged suction harms—near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:11",
+      "question": "A 54-year-old man needs a care plan for cuff pressure trach/ETT. Which of the following is most appropriate?",
+      "options": [
+        "A) Overinflate cuff until no leak without manometer checks forever",
+        "B) Allow prolonged hypotension after acute SCI without MAP strategy",
+        "C) Maintain cuff pressures in safe range to avoid aspiration and necrosis",
+        "D) Clamp chest tube routinely for transport without protocol"
+      ],
+      "answer": "C) Maintain cuff pressures in safe range to avoid aspiration and necrosis",
+      "explanation": "Correct pressure seals without tracheal injury. Therefore, the most accurate choice is: Maintain cuff pressures in safe range to avoid aspiration and necrosis. Unchecked overinflation damages trachea—.",
+      "choice_explanations": {
+        "A": "Unchecked overinflation damages trachea—near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Correct pressure seals without tracheal injury. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:12",
+      "question": "Bedside assessment suggests tension pneumothorax ICU. Which of the following is correct?",
+      "options": [
+        "A) Hypotension + unilateral absent sounds + high pressures—decompress emergently",
+        "B) Increase PEEP and fluids only for suspected tension pneumothorax without decompression plan",
+        "C) Massive fluids and high PEEP blindly for RV infarct/PE physiology without thought",
+        "D) Intubate hypovolemic septic patient with high PEEP induction and no pressor readiness"
+      ],
+      "answer": "A) Hypotension + unilateral absent sounds + high pressures—decompress emergently",
+      "explanation": "Tension obstructs venous return. Therefore, the most accurate choice is: Hypotension + unilateral absent sounds + high pressures—decompress emergently. Missed decompression is fatal .",
+      "choice_explanations": {
+        "A": "Tension obstructs venous return. This matches the correct interpretation.",
+        "B": "Missed decompression is fatal near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:13",
+      "question": "A 31-year-old woman has vital-sign changes due to chest tube continuous bubbling. Which of the following is most accurate?",
+      "options": [
+        "A) Assess for air leak vs system issues; don’t clamp routinely without reason",
+        "B) Clamp ECMO circuit casually during alarm without protocol",
+        "C) Clamp chest tube routinely for transport without protocol",
+        "D) Raise/lower EVD arbitrarily and leave clamped for long periods without order"
+      ],
+      "answer": "A) Assess for air leak vs system issues; don’t clamp routinely without reason",
+      "explanation": "Indiscriminate clamping can cause tension physiology. Therefore, the most accurate choice is: Assess for air leak vs system issues; don’t clamp routinely without reason. Routine clamping is .",
+      "choice_explanations": {
+        "A": "Indiscriminate clamping can cause tension physiology. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Routine clamping is near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:14",
+      "question": "While caring for a 50-year-old man, septic shock antibiotics is suspected. Which of the following is correct?",
+      "options": [
+        "A) Wait 48 h for culture results before antibiotics in septic shock",
+        "B) Antibiotics alone forever for undrained abscess causing shock",
+        "C) Cultures then immediate antibiotics; fluids and vasopressors per sepsis bundles",
+        "D) Wait overnight for fever to resolve in ANC near zero"
+      ],
+      "answer": "C) Cultures then immediate antibiotics; fluids and vasopressors per sepsis bundles",
+      "explanation": "Early antibiotics reduce mortality. Therefore, the most accurate choice is: Cultures then immediate antibiotics; fluids and vasopressors per sepsis bundles. Culture-wait in shock is deadly .",
+      "choice_explanations": {
+        "A": "Culture-wait in shock is deadly near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Early antibiotics reduce mortality. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:15",
+      "question": "A 28-year-old man is monitored for complications of norepinephrine septic first. Which of the following is most appropriate?",
+      "options": [
+        "A) Norepinephrine is common first-line vasopressor in septic shock",
+        "B) Use dopamine preferentially for all septic shock without reason against modern practice",
+        "C) Proning without airway/line security plan or indications",
+        "D) Wait 48 h for culture results before antibiotics in septic shock"
+      ],
+      "answer": "A) Norepinephrine is common first-line vasopressor in septic shock",
+      "explanation": "NE improves MAP with favorable profile in sepsis. Therefore, the most accurate choice is: Norepinephrine is common first-line vasopressor in septic shock. Outdated first pressor choice is .",
+      "choice_explanations": {
+        "A": "NE improves MAP with favorable profile in sepsis. This matches the correct interpretation.",
+        "B": "Outdated first pressor choice is near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:16",
+      "question": "A 55-year-old woman is admitted with MAP target sepsis. Which nursing action is most appropriate?",
+      "options": [
+        "A) Chase MAP 100 with extreme pressors ignoring ischemia risks in all patients",
+        "B) Target MAP ~65 mmHg typically unless individualized higher needed",
+        "C) Allow prolonged hypotension after acute SCI without MAP strategy",
+        "D) Transfuse to Hgb 12 in stable asymptomatic anemia without indication"
+      ],
+      "answer": "B) Target MAP ~65 mmHg typically unless individualized higher needed",
+      "explanation": "Adequate perfusion pressure without excess vasoconstriction. Therefore, the most accurate choice is: Target MAP ~65 mmHg typically unless individualized higher needed. Overshooting MAP harms—.",
+      "choice_explanations": {
+        "A": "Overshooting MAP harms—near-miss. It is less consistent than the correct choice.",
+        "B": "Adequate perfusion pressure without excess vasoconstriction. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:17",
+      "question": "A 33-year-old woman develops findings of lactate trend sepsis. What is the priority assessment?",
+      "options": [
+        "A) Trend lactate with clinical perfusion; resuscitate sources",
+        "B) Give unlimited fluids solely because CVP is 4 without other perfusion data",
+        "C) Chase MAP 100 with extreme pressors ignoring ischemia risks in all patients",
+        "D) High-dose long propofol + metabolic acidosis/rhabdo/cardiac—stop and support"
+      ],
+      "answer": "A) Trend lactate with clinical perfusion; resuscitate sources",
+      "explanation": "Lactate reflects hypoperfusion/stress. Therefore, the most accurate choice is: Trend lactate with clinical perfusion; resuscitate sources. BP-only reassurance misses hypoperfusion—.",
+      "choice_explanations": {
+        "A": "Lactate reflects hypoperfusion/stress. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:18",
+      "question": "A 61-year-old woman shows signs of source control sepsis on the unit. Which of the following is correct?",
+      "options": [
+        "A) Wait 48 h for culture results before antibiotics in septic shock",
+        "B) Antibiotics alone forever for undrained abscess causing shock",
+        "C) Give multi-liter fluids for wet cold cardiogenic shock as if septic",
+        "D) Seek drainage/debridement/device removal when source controllable"
+      ],
+      "answer": "D) Seek drainage/debridement/device removal when source controllable",
+      "explanation": "Source control is essential alongside drugs. Therefore, the most accurate choice is: Seek drainage/debridement/device removal when source controllable. No source control fails—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "No source control fails—near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Source control is essential alongside drugs. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:medium:19",
+      "question": "A 56-year-old man needs a care plan for cardiogenic vs distributive. Which of the following is most appropriate?",
+      "options": [
+        "A) Give unlimited fluids solely because CVP is 4 without other perfusion data",
+        "B) Cardiogenic: congestion/low output; distributive: vasodilation—different fluids/pressors",
+        "C) Treat all post-SCI hypotension with only fluids ignoring bradycardia/neurogenic need for pressors",
+        "D) Give multi-liter fluids for wet cold cardiogenic shock as if septic"
+      ],
+      "answer": "B) Cardiogenic: congestion/low output; distributive: vasodilation—different fluids/pressors",
+      "explanation": "Wrong shock type → wrong preload strategy. Therefore, the most accurate choice is: Cardiogenic: congestion/low output; distributive: vasodilation—different fluids/pressors. Fluids in wet cardiogenic shock worsen edema—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Wrong shock type → wrong preload strategy. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Fluids in wet cardiogenic shock worsen edema—near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:20",
+      "question": "Bedside assessment suggests nitroprusside vs fluids HF. Which of the following is correct?",
+      "options": [
+        "A) Give nitroglycerin for inferior MI with clear lungs and hypotension from RV infarct",
+        "B) Vasodilators/diuretics for hypertensive pulmonary edema; not blind fluid boluses",
+        "C) Bolus 2 L NS for flash pulmonary edema with HTN",
+        "D) Fluid-restrict dark urine after crush with rising K"
+      ],
+      "answer": "B) Vasodilators/diuretics for hypertensive pulmonary edema; not blind fluid boluses",
+      "explanation": "Reduce preload/afterload; extra volume floods lungs. Therefore, the most accurate choice is: Vasodilators/diuretics for hypertensive pulmonary edema; not blind fluid boluses. Fluid bolus in flash edema is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Reduce preload/afterload; extra volume floods lungs. This matches the correct interpretation.",
+        "C": "Fluid bolus in flash edema is near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:21",
+      "question": "A 56-year-old man undergoes assessment involving IABP timing. Which of the following is most accurate?",
+      "options": [
+        "A) Restrictive thresholds often appropriate unless active ischemia/bleed",
+        "B) Trend lactate with clinical perfusion; resuscitate sources",
+        "C) IABP inflates diastole/deflates systole; watch timing/urine/limb ischemia",
+        "D) Osmotherapy needs Na/osmolality/urine output monitoring"
+      ],
+      "answer": "C) IABP inflates diastole/deflates systole; watch timing/urine/limb ischemia",
+      "explanation": "Counterpulsation augments coronary perfusion/unloads LV. Therefore, the most accurate choice is: IABP inflates diastole/deflates systole; watch timing/urine/limb ischemia. Ignored limb ischemia loses limb—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Counterpulsation augments coronary perfusion/unloads LV. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:22",
+      "question": "While caring for a 65-year-old woman, post cardiac arrest targeted temp is suspected. Which of the following is correct?",
+      "options": [
+        "A) Targeted temperature management/fever avoidance per current protocol after ROSC",
+        "B) Drop MAP aggressively in high ICP without CPP consideration",
+        "C) Allow uncontrolled high fever after ROSC without management",
+        "D) Leave FiO2 1.0 for hours after ROSC with SpO2 100% without titration"
+      ],
+      "answer": "A) Targeted temperature management/fever avoidance per current protocol after ROSC",
+      "explanation": "Temperature control may improve neurologic outcomes. Therefore, the most accurate choice is: Targeted temperature management/fever avoidance per current protocol after ROSC. Ignored fever management is .",
+      "choice_explanations": {
+        "A": "Temperature control may improve neurologic outcomes. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Ignored fever management is near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:23",
+      "question": "A 67-year-old woman is monitored for complications of ROSC oxygenation targets. Which of the following is most appropriate?",
+      "options": [
+        "A) Avoid prolonged hyperoxia; titrate SpO2 to targets post-ROSC",
+        "B) Leave FiO2 1.0 for hours after ROSC with SpO2 100% without titration",
+        "C) Allow prolonged hypotension after acute SCI without MAP strategy",
+        "D) Allow uncontrolled high fever after ROSC without management"
+      ],
+      "answer": "A) Avoid prolonged hyperoxia; titrate SpO2 to targets post-ROSC",
+      "explanation": "Hyperoxia may worsen reperfusion injury. Therefore, the most accurate choice is: Avoid prolonged hyperoxia; titrate SpO2 to targets post-ROSC. Untitrated hyperoxia is .",
+      "choice_explanations": {
+        "A": "Hyperoxia may worsen reperfusion injury. This matches the correct interpretation.",
+        "B": "Untitrated hyperoxia is near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:24",
+      "question": "A 33-year-old woman is admitted with therapeutic hypothermia shivering. Which nursing action is most appropriate?",
+      "options": [
+        "A) Citrate load binds calcium—replete Ca during massive transfusion",
+        "B) Clamp ECMO circuit casually during alarm without protocol",
+        "C) Low ScvO2 suggests inadequate O2 delivery relative to demand",
+        "D) Control shivering during TTM; it defeats cooling and raises VO2"
+      ],
+      "answer": "D) Control shivering during TTM; it defeats cooling and raises VO2",
+      "explanation": "Shivering increases metabolic demand. Therefore, the most accurate choice is: Control shivering during TTM; it defeats cooling and raises VO2. Ignored shivering defeats TTM—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Shivering increases metabolic demand. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:medium:25",
+      "question": "While evaluating a 34-year-old man, attention turns to increased ICP. Which of the following is most accurate?",
+      "options": [
+        "A) Declining mentation, Cushing triad clues, pupil changes—elevate HOB, align neck, notify",
+        "B) Leave HOB flat continuously and skip oral care on ventilated patient",
+        "C) Elevate high and observe overnight without notifying for classic compartment signs",
+        "D) Cluster painful care flat with neck kinked in rising ICP"
+      ],
+      "answer": "A) Declining mentation, Cushing triad clues, pupil changes—elevate HOB, align neck, notify",
+      "explanation": "Venous drainage and low stimulation protect CPP. Therefore, the most accurate choice is: Declining mentation, Cushing triad clues, pupil changes—elevate HOB, align neck, notify. Flat/kinked clustering raises ICP—.",
+      "choice_explanations": {
+        "A": "Venous drainage and low stimulation protect CPP. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Flat/kinked clustering raises ICP—near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:26",
+      "question": "A 45-year-old woman shows signs of CPP concept on the unit. Which of the following is correct?",
+      "options": [
+        "A) Allow uncontrolled high fever after ROSC without management",
+        "B) CPP ≈ MAP − ICP; balance pressure without uncontrolled hypo/hypertension",
+        "C) Drop MAP aggressively in high ICP without CPP consideration",
+        "D) Diurese aggressively as sole approach without considering TRALI when febrile hypotensive hypoxemia post-transfusion"
+      ],
+      "answer": "B) CPP ≈ MAP − ICP; balance pressure without uncontrolled hypo/hypertension",
+      "explanation": "Brain needs perfusion pressure not just low ICP. Therefore, the most accurate choice is: CPP ≈ MAP − ICP; balance pressure without uncontrolled hypo/hypertension. MAP crash harms ischemic brain—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Brain needs perfusion pressure not just low ICP. This matches the correct interpretation.",
+        "C": "MAP crash harms ischemic brain—near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:27",
+      "question": "A 70-year-old man needs a care plan for mannitol/hypertonic watch. Which of the following is most appropriate?",
+      "options": [
+        "A) Give insulin without potassium monitoring in DKA",
+        "B) Osmotherapy needs Na/osmolality/urine output monitoring",
+        "C) Give repeated mannitol without checking osmolality/renal status",
+        "D) Start high-calorie feeds abruptly without electrolyte monitoring in starvation"
+      ],
+      "answer": "B) Osmotherapy needs Na/osmolality/urine output monitoring",
+      "explanation": "Excess osmotherapy causes renal/electrolyte harm. Therefore, the most accurate choice is: Osmotherapy needs Na/osmolality/urine output monitoring. Blind repeated mannitol is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Excess osmotherapy causes renal/electrolyte harm. This matches the correct interpretation.",
+        "C": "Blind repeated mannitol is near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:28",
+      "question": "Bedside assessment suggests spinal shock vs neurogenic. Which of the following is correct?",
+      "options": [
+        "A) Treat all post-SCI hypotension with only fluids ignoring bradycardia/neurogenic need for pressors",
+        "B) Differentiate flaccid spinal shock from neurogenic hypotensive bradycardia patterns",
+        "C) Give multi-liter fluids for wet cold cardiogenic shock as if septic",
+        "D) Massive fluids and high PEEP blindly for RV infarct/PE physiology without thought"
+      ],
+      "answer": "B) Differentiate flaccid spinal shock from neurogenic hypotensive bradycardia patterns",
+      "explanation": "Neurogenic shock is distributive from loss of sympathetic tone. Therefore, the most accurate choice is: Differentiate flaccid spinal shock from neurogenic hypotensive bradycardia patterns. Wrong shock model mistreats—.",
+      "choice_explanations": {
+        "A": "Wrong shock model mistreats—near-miss. It is less consistent than the correct choice.",
+        "B": "Neurogenic shock is distributive from loss of sympathetic tone. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:medium:29",
+      "question": "A 38-year-old man has vital-sign changes due to autonomic dysreflexia ICU. Which of the following is most accurate?",
+      "options": [
+        "A) Force high-fat feeding during severe acute pancreatitis",
+        "B) Treat all post-SCI hypotension with only fluids ignoring bradycardia/neurogenic need for pressors",
+        "C) Lay flat and force fluids for pounding headache/HTN in T6 injury",
+        "D) Sit up, loosen, find bladder/bowel trigger; treat BP emergency"
+      ],
+      "answer": "D) Sit up, loosen, find bladder/bowel trigger; treat BP emergency",
+      "explanation": "Noxious stimuli below injury cause sympathetic surge. Therefore, the most accurate choice is: Sit up, loosen, find bladder/bowel trigger; treat BP emergency. Lying flat worsens hypertensive emergency—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Lying flat worsens hypertensive emergency—near-miss. It is less consistent than the correct choice.",
+        "D": "Noxious stimuli below injury cause sympathetic surge. This matches the correct interpretation."
+      }
+    }
+  ],
+  "hard": [
+    {
+      "id": "critical_care:hard:0",
+      "question": "A 56-year-old man is evaluated for possible RRT early triggers. Which of the following is most accurate?",
+      "options": [
+        "A) Activate rapid response for acute respiratory/hemodynamic/mental status decline early",
+        "B) Wait 30 minutes untreated for continuous generalized seizing",
+        "C) Elective full-stomach induction without aspiration plan",
+        "D) Wait for full cardiac arrest before calling for help on progressive decline"
+      ],
+      "answer": "A) Activate rapid response for acute respiratory/hemodynamic/mental status decline early",
+      "explanation": "Early intervention prevents failure-to-rescue deaths. Therefore, the most accurate choice is: Activate rapid response for acute respiratory/hemodynamic/mental status decline early. Waiting for arrest is a .",
+      "choice_explanations": {
+        "A": "Early intervention prevents failure-to-rescue deaths. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Waiting for arrest is a near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:hard:1",
+      "question": "A 25-year-old woman has findings suggestive of ABC survey ICU. Which of the following is the best interpretation?",
+      "options": [
+        "A) Airway-breathing-circulation before detailed chart review in crisis",
+        "B) Steroids/antihistamines first while hypotensive with airway edema",
+        "C) Finish medication reconciliation before opening an obstructed airway",
+        "D) Continue PPI prophylaxis indefinitely without indication review after ICU recovery"
+      ],
+      "answer": "A) Airway-breathing-circulation before detailed chart review in crisis",
+      "explanation": "Life threats first in crisis physiology. Therefore, the most accurate choice is: Airway-breathing-circulation before detailed chart review in crisis. Chart-before-airway is .",
+      "choice_explanations": {
+        "A": "Life threats first in crisis physiology. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Chart-before-airway is near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:hard:2",
+      "question": "In a detailed discussion of waveform ETCO2 intubation, which of the following is most accurate?",
+      "options": [
+        "A) Rely only on a single auscultation whoosh without ETCO2",
+        "B) Confirm ETT with continuous ETCO2 waveform plus clinical assessment",
+        "C) Assume pacing works if spikes seen without pulse check",
+        "D) Blind traumatic NG forcing through known esophageal varices without plan"
+      ],
+      "answer": "B) Confirm ETT with continuous ETCO2 waveform plus clinical assessment",
+      "explanation": "ETCO2 detects esophageal intubation rapidly. Therefore, the most accurate choice is: Confirm ETT with continuous ETCO2 waveform plus clinical assessment. Auscultation-only confirmation is .",
+      "choice_explanations": {
+        "A": "Auscultation-only confirmation is near-miss. It is less consistent than the correct choice.",
+        "B": "ETCO2 detects esophageal intubation rapidly. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:hard:3",
+      "question": "A 31-year-old woman returns for review of suspected DOPE mnemonic vent. Which of the following is most accurate?",
+      "options": [
+        "A) Extubate at FiO2 1.0 and PEEP 15 without readiness screen",
+        "B) Assume pacing works if spikes seen without pulse check",
+        "C) Assume anxiety only when SpO2 crashes on a ventilator without DOPE check",
+        "D) Displacement, obstruction, pneumothorax, equipment for sudden vent distress"
+      ],
+      "answer": "D) Displacement, obstruction, pneumothorax, equipment for sudden vent distress",
+      "explanation": "Systematic causes prevent missed catastrophic failures. Therefore, the most accurate choice is: Displacement, obstruction, pneumothorax, equipment for sudden vent distress. Anxiety labeling misses DOPE—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Anxiety labeling misses DOPE—near-miss. It is less consistent than the correct choice.",
+        "D": "Systematic causes prevent missed catastrophic failures. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:hard:4",
+      "question": "Initial reading of the case suggested low tidal ARDS. Which of the following is correct?",
+      "options": [
+        "A) Use 12 mL/kg IBW volumes routinely in ARDS for ‘better numbers’",
+        "B) Chase normal PaCO2 with injurious high volumes in severe ARDS",
+        "C) Low tidal volume ventilation (~6 mL/kg IBW) in ARDS reduces volutrauma",
+        "D) Lay bleeding lung up and delay airway for paperwork"
+      ],
+      "answer": "C) Low tidal volume ventilation (~6 mL/kg IBW) in ARDS reduces volutrauma",
+      "explanation": "Lung-protective ventilation improves survival. Therefore, the most accurate choice is: Low tidal volume ventilation (~6 mL/kg IBW) in ARDS reduces volutrauma. High volumes injure lungs—.",
+      "choice_explanations": {
+        "A": "High volumes injure lungs—near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Lung-protective ventilation improves survival. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:hard:5",
+      "question": "A 50-year-old man presents with permissive hypercapnia ARDS. Which of the following best separates it from similar conditions?",
+      "options": [
+        "A) Chase normal PaCO2 with injurious high volumes in severe ARDS",
+        "B) Set high rate/no expiratory time causing auto-PEEP and hypotension",
+        "C) Accept higher PaCO2 if pH safe to keep low volumes",
+        "D) Use 12 mL/kg IBW volumes routinely in ARDS for ‘better numbers’"
+      ],
+      "answer": "C) Accept higher PaCO2 if pH safe to keep low volumes",
+      "explanation": "Protecting lungs outweighs perfect CO2 sometimes. Therefore, the most accurate choice is: Accept higher PaCO2 if pH safe to keep low volumes. Injurious CO2 chasing is .",
+      "choice_explanations": {
+        "A": "Injurious CO2 chasing is near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Protecting lungs outweighs perfect CO2 sometimes. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:hard:6",
+      "question": "A difficult case of proning ARDS in a 64-year-old man is reviewed. Which of the following is correct?",
+      "options": [
+        "A) Proning without airway/line security plan or indications",
+        "B) Prone positioning improves oxygenation in severe ARDS when protocolized",
+        "C) Leave a hypoxic self-extubated patient to ‘try harder’ without support",
+        "D) Continue PPI prophylaxis indefinitely without indication review after ICU recovery"
+      ],
+      "answer": "B) Prone positioning improves oxygenation in severe ARDS when protocolized",
+      "explanation": "Proning redistributes lung stress/perfusion. Therefore, the most accurate choice is: Prone positioning improves oxygenation in severe ARDS when protocolized. Unplanned proning risks airway loss—.",
+      "choice_explanations": {
+        "A": "Unplanned proning risks airway loss—near-miss. It is less consistent than the correct choice.",
+        "B": "Proning redistributes lung stress/perfusion. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:hard:7",
+      "question": "After examining a 63-year-old woman, which statement about PEEP oxygenation is correct?",
+      "options": [
+        "A) Fluid-restrict a hypovolemic CSW patient as if SIADH",
+        "B) Titrate PEEP to improve oxygenation/recruitment while watching hemodynamics",
+        "C) Intubate hypovolemic septic patient with high PEEP induction and no pressor readiness",
+        "D) Max PEEP on hypovolemic patient ignoring BP crash"
+      ],
+      "answer": "B) Titrate PEEP to improve oxygenation/recruitment while watching hemodynamics",
+      "explanation": "PEEP improves FRC but can cut venous return. Therefore, the most accurate choice is: Titrate PEEP to improve oxygenation/recruitment while watching hemodynamics. Blind max PEEP shocks—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "PEEP improves FRC but can cut venous return. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Blind max PEEP shocks—near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:hard:8",
+      "question": "Careful review of vent weaning readiness is required. Which of the following is most accurate?",
+      "options": [
+        "A) Extubate at FiO2 1.0 and PEEP 15 without readiness screen",
+        "B) Increase PEEP and fluids only for suspected tension pneumothorax without decompression plan",
+        "C) Assess RSBI, mentation, secretions, FiO2/PEEP before spontaneous breathing trial",
+        "D) Extubate without symptom plan then refuse opioids for air hunger"
+      ],
+      "answer": "C) Assess RSBI, mentation, secretions, FiO2/PEEP before spontaneous breathing trial",
+      "explanation": "Failed extubation harms; readiness predicts success. Therefore, the most accurate choice is: Assess RSBI, mentation, secretions, FiO2/PEEP before spontaneous breathing trial. Unsafe early extubation is .",
+      "choice_explanations": {
+        "A": "Unsafe early extubation is near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Failed extubation harms; readiness predicts success. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:hard:9",
+      "question": "A 28-year-old man has findings suggestive of unplanned extubation response. Which of the following is the best interpretation?",
+      "options": [
+        "A) Leave a hypoxic self-extubated patient to ‘try harder’ without support",
+        "B) Extubate without symptom plan then refuse opioids for air hunger",
+        "C) Proning without airway/line security plan or indications",
+        "D) Support with BVM/airway algorithm; call for reintubation help"
+      ],
+      "answer": "D) Support with BVM/airway algorithm; call for reintubation help",
+      "explanation": "Airway loss is an emergency. Therefore, the most accurate choice is: Support with BVM/airway algorithm; call for reintubation help. No support after self-extubation is .",
+      "choice_explanations": {
+        "A": "No support after self-extubation is near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Airway loss is an emergency. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:hard:10",
+      "question": "In a 34-year-old man, suction sterile ET must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) Deep prolonged clean suction without oxygenation",
+        "B) Leave FiO2 1.0 for hours after ROSC with SpO2 100% without titration",
+        "C) Hyperoxygenate as indicated; limit passes; sterile open suction technique",
+        "D) Proning without airway/line security plan or indications"
+      ],
+      "answer": "C) Hyperoxygenate as indicated; limit passes; sterile open suction technique",
+      "explanation": "Brief sterile suction clears without hypoxia/trauma. Therefore, the most accurate choice is: Hyperoxygenate as indicated; limit passes; sterile open suction technique. Prolonged suction harms—.",
+      "choice_explanations": {
+        "A": "Prolonged suction harms—near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Brief sterile suction clears without hypoxia/trauma. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:hard:11",
+      "question": "A 54-year-old man returns for review of suspected cuff pressure trach/ETT. Which of the following is most accurate?",
+      "options": [
+        "A) Allow prolonged hypotension after acute SCI without MAP strategy",
+        "B) Maintain cuff pressures in safe range to avoid aspiration and necrosis",
+        "C) Overinflate cuff until no leak without manometer checks forever",
+        "D) Increase PEEP and fluids only for suspected tension pneumothorax without decompression plan"
+      ],
+      "answer": "B) Maintain cuff pressures in safe range to avoid aspiration and necrosis",
+      "explanation": "Correct pressure seals without tracheal injury. Therefore, the most accurate choice is: Maintain cuff pressures in safe range to avoid aspiration and necrosis. Unchecked overinflation damages trachea—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Correct pressure seals without tracheal injury. This matches the correct interpretation.",
+        "C": "Unchecked overinflation damages trachea—near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:hard:12",
+      "question": "Initial reading of the case suggested tension pneumothorax ICU. Which of the following is correct?",
+      "options": [
+        "A) Intubate hypovolemic septic patient with high PEEP induction and no pressor readiness",
+        "B) Hypotension + unilateral absent sounds + high pressures—decompress emergently",
+        "C) Increase PEEP and fluids only for suspected tension pneumothorax without decompression plan",
+        "D) Massive fluids and high PEEP blindly for RV infarct/PE physiology without thought"
+      ],
+      "answer": "B) Hypotension + unilateral absent sounds + high pressures—decompress emergently",
+      "explanation": "Tension obstructs venous return. Therefore, the most accurate choice is: Hypotension + unilateral absent sounds + high pressures—decompress emergently. Missed decompression is fatal .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Tension obstructs venous return. This matches the correct interpretation.",
+        "C": "Missed decompression is fatal near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:hard:13",
+      "question": "A 31-year-old woman presents with features compatible with chest tube continuous bubbling. Which of the following is most accurate?",
+      "options": [
+        "A) Assess for air leak vs system issues; don’t clamp routinely without reason",
+        "B) Clamp ECMO circuit casually during alarm without protocol",
+        "C) Raise/lower EVD arbitrarily and leave clamped for long periods without order",
+        "D) Clamp chest tube routinely for transport without protocol"
+      ],
+      "answer": "A) Assess for air leak vs system issues; don’t clamp routinely without reason",
+      "explanation": "Indiscriminate clamping can cause tension physiology. Therefore, the most accurate choice is: Assess for air leak vs system issues; don’t clamp routinely without reason. Routine clamping is .",
+      "choice_explanations": {
+        "A": "Indiscriminate clamping can cause tension physiology. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Routine clamping is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:hard:14",
+      "question": "A difficult case of septic shock antibiotics in a 50-year-old man is reviewed. Which of the following is correct?",
+      "options": [
+        "A) Wait 48 h for culture results before antibiotics in septic shock",
+        "B) Cultures then immediate antibiotics; fluids and vasopressors per sepsis bundles",
+        "C) Wait overnight for fever to resolve in ANC near zero",
+        "D) Antibiotics alone forever for undrained abscess causing shock"
+      ],
+      "answer": "B) Cultures then immediate antibiotics; fluids and vasopressors per sepsis bundles",
+      "explanation": "Early antibiotics reduce mortality. Therefore, the most accurate choice is: Cultures then immediate antibiotics; fluids and vasopressors per sepsis bundles. Culture-wait in shock is deadly .",
+      "choice_explanations": {
+        "A": "Culture-wait in shock is deadly near-miss. It is less consistent than the correct choice.",
+        "B": "Early antibiotics reduce mortality. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:hard:15",
+      "question": "A 28-year-old man has progressive findings of norepinephrine septic first. Which of the following is most accurate?",
+      "options": [
+        "A) Norepinephrine is common first-line vasopressor in septic shock",
+        "B) Use dopamine preferentially for all septic shock without reason against modern practice",
+        "C) Wait 48 h for culture results before antibiotics in septic shock",
+        "D) Proning without airway/line security plan or indications"
+      ],
+      "answer": "A) Norepinephrine is common first-line vasopressor in septic shock",
+      "explanation": "NE improves MAP with favorable profile in sepsis. Therefore, the most accurate choice is: Norepinephrine is common first-line vasopressor in septic shock. Outdated first pressor choice is .",
+      "choice_explanations": {
+        "A": "NE improves MAP with favorable profile in sepsis. This matches the correct interpretation.",
+        "B": "Outdated first pressor choice is near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:hard:16",
+      "question": "A 55-year-old woman is evaluated for possible MAP target sepsis. Which of the following is most accurate?",
+      "options": [
+        "A) Target MAP ~65 mmHg typically unless individualized higher needed",
+        "B) Drop MAP aggressively in high ICP without CPP consideration",
+        "C) Chase MAP 100 with extreme pressors ignoring ischemia risks in all patients",
+        "D) Allow prolonged hypotension after acute SCI without MAP strategy"
+      ],
+      "answer": "A) Target MAP ~65 mmHg typically unless individualized higher needed",
+      "explanation": "Adequate perfusion pressure without excess vasoconstriction. Therefore, the most accurate choice is: Target MAP ~65 mmHg typically unless individualized higher needed. Overshooting MAP harms—.",
+      "choice_explanations": {
+        "A": "Adequate perfusion pressure without excess vasoconstriction. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Overshooting MAP harms—near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:hard:17",
+      "question": "A 33-year-old woman has findings suggestive of lactate trend sepsis. Which of the following is the best interpretation?",
+      "options": [
+        "A) Give unlimited fluids solely because CVP is 4 without other perfusion data",
+        "B) Trend lactate with clinical perfusion; resuscitate sources",
+        "C) Cultures then immediate antibiotics; fluids and vasopressors per sepsis bundles",
+        "D) Chase MAP 100 with extreme pressors ignoring ischemia risks in all patients"
+      ],
+      "answer": "B) Trend lactate with clinical perfusion; resuscitate sources",
+      "explanation": "Lactate reflects hypoperfusion/stress. Therefore, the most accurate choice is: Trend lactate with clinical perfusion; resuscitate sources. BP-only reassurance misses hypoperfusion—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Lactate reflects hypoperfusion/stress. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:hard:18",
+      "question": "In a 61-year-old woman, source control sepsis must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) Wait 48 h for culture results before antibiotics in septic shock",
+        "B) Use dopamine preferentially for all septic shock without reason against modern practice",
+        "C) Antibiotics alone forever for undrained abscess causing shock",
+        "D) Seek drainage/debridement/device removal when source controllable"
+      ],
+      "answer": "D) Seek drainage/debridement/device removal when source controllable",
+      "explanation": "Source control is essential alongside drugs. Therefore, the most accurate choice is: Seek drainage/debridement/device removal when source controllable. No source control fails—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "No source control fails—near-miss. It is less consistent than the correct choice.",
+        "D": "Source control is essential alongside drugs. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:hard:19",
+      "question": "A 56-year-old man returns for review of suspected cardiogenic vs distributive. Which of the following is most accurate?",
+      "options": [
+        "A) Give multi-liter fluids for wet cold cardiogenic shock as if septic",
+        "B) Treat all post-SCI hypotension with only fluids ignoring bradycardia/neurogenic need for pressors",
+        "C) Cardiogenic: congestion/low output; distributive: vasodilation—different fluids/pressors",
+        "D) Intubate hypovolemic septic patient with high PEEP induction and no pressor readiness"
+      ],
+      "answer": "C) Cardiogenic: congestion/low output; distributive: vasodilation—different fluids/pressors",
+      "explanation": "Wrong shock type → wrong preload strategy. Therefore, the most accurate choice is: Cardiogenic: congestion/low output; distributive: vasodilation—different fluids/pressors. Fluids in wet cardiogenic shock worsen edema—.",
+      "choice_explanations": {
+        "A": "Fluids in wet cardiogenic shock worsen edema—near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Wrong shock type → wrong preload strategy. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:hard:20",
+      "question": "A clinic case of nitroprusside vs fluids HF is discussed. Which of the following is correct?",
+      "options": [
+        "A) Give nitroglycerin for inferior MI with clear lungs and hypotension from RV infarct",
+        "B) Lay flat and force fluids for pounding headache/HTN in T6 injury",
+        "C) Vasodilators/diuretics for hypertensive pulmonary edema; not blind fluid boluses",
+        "D) Bolus 2 L NS for flash pulmonary edema with HTN"
+      ],
+      "answer": "C) Vasodilators/diuretics for hypertensive pulmonary edema; not blind fluid boluses",
+      "explanation": "Reduce preload/afterload; extra volume floods lungs. Therefore, the most accurate choice is: Vasodilators/diuretics for hypertensive pulmonary edema; not blind fluid boluses. Fluid bolus in flash edema is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Reduce preload/afterload; extra volume floods lungs. This matches the correct interpretation.",
+        "D": "Fluid bolus in flash edema is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:hard:21",
+      "question": "Which statement about IABP timing is most accurate?",
+      "options": [
+        "A) IABP inflates diastole/deflates systole; watch timing/urine/limb ischemia",
+        "B) Trend lactate with clinical perfusion; resuscitate sources",
+        "C) Osmotherapy needs Na/osmolality/urine output monitoring",
+        "D) Watch bradycardia/hypotension on dexmedetomidine"
+      ],
+      "answer": "A) IABP inflates diastole/deflates systole; watch timing/urine/limb ischemia",
+      "explanation": "Counterpulsation augments coronary perfusion/unloads LV. Therefore, the most accurate choice is: IABP inflates diastole/deflates systole; watch timing/urine/limb ischemia. Ignored limb ischemia loses limb—.",
+      "choice_explanations": {
+        "A": "Counterpulsation augments coronary perfusion/unloads LV. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:hard:22",
+      "question": "After examining a 67-year-old woman, which statement about ROSC oxygenation targets is correct?",
+      "options": [
+        "A) Allow prolonged hypotension after acute SCI without MAP strategy",
+        "B) Leave FiO2 1.0 for hours after ROSC with SpO2 100% without titration",
+        "C) Allow uncontrolled high fever after ROSC without management",
+        "D) Avoid prolonged hyperoxia; titrate SpO2 to targets post-ROSC"
+      ],
+      "answer": "D) Avoid prolonged hyperoxia; titrate SpO2 to targets post-ROSC",
+      "explanation": "Hyperoxia may worsen reperfusion injury. Therefore, the most accurate choice is: Avoid prolonged hyperoxia; titrate SpO2 to targets post-ROSC. Untitrated hyperoxia is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Untitrated hyperoxia is near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Hyperoxia may worsen reperfusion injury. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:hard:23",
+      "question": "A 33-year-old woman is evaluated for possible therapeutic hypothermia shivering. Which of the following is most accurate?",
+      "options": [
+        "A) High-dose long propofol + metabolic acidosis/rhabdo/cardiac—stop and support",
+        "B) Control shivering during TTM; it defeats cooling and raises VO2",
+        "C) Citrate load binds calcium—replete Ca during massive transfusion",
+        "D) Clamp ECMO circuit casually during alarm without protocol"
+      ],
+      "answer": "B) Control shivering during TTM; it defeats cooling and raises VO2",
+      "explanation": "Shivering increases metabolic demand. Therefore, the most accurate choice is: Control shivering during TTM; it defeats cooling and raises VO2. Ignored shivering defeats TTM—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Shivering increases metabolic demand. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:hard:24",
+      "question": "Two similar explanations for increased ICP are compared. Which of the following is correct?",
+      "options": [
+        "A) Cluster painful care flat with neck kinked in rising ICP",
+        "B) Elevate high and observe overnight without notifying for classic compartment signs",
+        "C) Leave HOB flat continuously and skip oral care on ventilated patient",
+        "D) Declining mentation, Cushing triad clues, pupil changes—elevate HOB, align neck, notify"
+      ],
+      "answer": "D) Declining mentation, Cushing triad clues, pupil changes—elevate HOB, align neck, notify",
+      "explanation": "Venous drainage and low stimulation protect CPP. Therefore, the most accurate choice is: Declining mentation, Cushing triad clues, pupil changes—elevate HOB, align neck, notify. Flat/kinked clustering raises ICP—.",
+      "choice_explanations": {
+        "A": "Flat/kinked clustering raises ICP—near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Venous drainage and low stimulation protect CPP. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:hard:25",
+      "question": "In a 45-year-old woman, CPP concept must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) CPP ≈ MAP − ICP; balance pressure without uncontrolled hypo/hypertension",
+        "B) Allow prolonged hypotension after acute SCI without MAP strategy",
+        "C) Drop MAP aggressively in high ICP without CPP consideration",
+        "D) Allow uncontrolled high fever after ROSC without management"
+      ],
+      "answer": "A) CPP ≈ MAP − ICP; balance pressure without uncontrolled hypo/hypertension",
+      "explanation": "Brain needs perfusion pressure not just low ICP. Therefore, the most accurate choice is: CPP ≈ MAP − ICP; balance pressure without uncontrolled hypo/hypertension. MAP crash harms ischemic brain—.",
+      "choice_explanations": {
+        "A": "Brain needs perfusion pressure not just low ICP. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "MAP crash harms ischemic brain—near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:hard:26",
+      "question": "Which of the following correctly distinguishes key points about mannitol/hypertonic watch?",
+      "options": [
+        "A) Osmotherapy needs Na/osmolality/urine output monitoring",
+        "B) Start high-calorie feeds abruptly without electrolyte monitoring in starvation",
+        "C) Give repeated mannitol without checking osmolality/renal status",
+        "D) Give insulin without potassium monitoring in DKA"
+      ],
+      "answer": "A) Osmotherapy needs Na/osmolality/urine output monitoring",
+      "explanation": "Excess osmotherapy causes renal/electrolyte harm. Therefore, the most accurate choice is: Osmotherapy needs Na/osmolality/urine output monitoring. Blind repeated mannitol is .",
+      "choice_explanations": {
+        "A": "Excess osmotherapy causes renal/electrolyte harm. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Blind repeated mannitol is near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:hard:27",
+      "question": "A clinic case of spinal shock vs neurogenic is discussed. Which of the following is correct?",
+      "options": [
+        "A) Differentiate flaccid spinal shock from neurogenic hypotensive bradycardia patterns",
+        "B) Give multi-liter fluids for wet cold cardiogenic shock as if septic",
+        "C) Treat all post-SCI hypotension with only fluids ignoring bradycardia/neurogenic need for pressors",
+        "D) Bolus large dex rapidly in shock without monitoring"
+      ],
+      "answer": "A) Differentiate flaccid spinal shock from neurogenic hypotensive bradycardia patterns",
+      "explanation": "Neurogenic shock is distributive from loss of sympathetic tone. Therefore, the most accurate choice is: Differentiate flaccid spinal shock from neurogenic hypotensive bradycardia patterns. Wrong shock model mistreats—.",
+      "choice_explanations": {
+        "A": "Neurogenic shock is distributive from loss of sympathetic tone. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Wrong shock model mistreats—near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:hard:28",
+      "question": "A 38-year-old man presents with features compatible with autonomic dysreflexia ICU. Which of the following is most accurate?",
+      "options": [
+        "A) Force high-fat feeding during severe acute pancreatitis",
+        "B) Sit up, loosen, find bladder/bowel trigger; treat BP emergency",
+        "C) Lay flat and force fluids for pounding headache/HTN in T6 injury",
+        "D) Treat all post-SCI hypotension with only fluids ignoring bradycardia/neurogenic need for pressors"
+      ],
+      "answer": "B) Sit up, loosen, find bladder/bowel trigger; treat BP emergency",
+      "explanation": "Noxious stimuli below injury cause sympathetic surge. Therefore, the most accurate choice is: Sit up, loosen, find bladder/bowel trigger; treat BP emergency. Lying flat worsens hypertensive emergency—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Noxious stimuli below injury cause sympathetic surge. This matches the correct interpretation.",
+        "C": "Lying flat worsens hypertensive emergency—near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:hard:29",
+      "question": "A difficult case of status epilepticus benzo in a 70-year-old man is reviewed. Which of the following is correct?",
+      "options": [
+        "A) Wait 30 minutes untreated for continuous generalized seizing",
+        "B) Steroids/antihistamines first while hypotensive with airway edema",
+        "C) Timed benzos first for status; airway; glucose check",
+        "D) Continue high-rate insulin when glucose is 40 and patient is seizing"
+      ],
+      "answer": "C) Timed benzos first for status; airway; glucose check",
+      "explanation": "Ongoing seizure activity injures neurons. Therefore, the most accurate choice is: Timed benzos first for status; airway; glucose check. Delayed benzos are brain-injury .",
+      "choice_explanations": {
+        "A": "Delayed benzos are brain-injury near-miss. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Ongoing seizure activity injures neurons. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ],
+  "extreme": [
+    {
+      "id": "critical_care:extreme:0",
+      "question": "A 56-year-old man has a complex presentation of RRT early triggers. Which of the following is most accurate?",
+      "options": [
+        "A) Activate rapid response for acute respiratory/hemodynamic/mental status decline early",
+        "B) Elective full-stomach induction without aspiration plan",
+        "C) Wait 30 minutes untreated for continuous generalized seizing",
+        "D) Wait for full cardiac arrest before calling for help on progressive decline"
+      ],
+      "answer": "A) Activate rapid response for acute respiratory/hemodynamic/mental status decline early",
+      "explanation": "Early intervention prevents failure-to-rescue deaths. Therefore, the most accurate choice is: Activate rapid response for acute respiratory/hemodynamic/mental status decline early. Waiting for arrest is a .",
+      "choice_explanations": {
+        "A": "Early intervention prevents failure-to-rescue deaths. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Waiting for arrest is a near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:extreme:1",
+      "question": "A 25-year-old woman is reassessed after incomplete response related to ABC survey ICU. Which of the following is most accurate?",
+      "options": [
+        "A) Keep volatile anesthetics running during suspected MH crisis",
+        "B) Finish medication reconciliation before opening an obstructed airway",
+        "C) Steroids/antihistamines first while hypotensive with airway edema",
+        "D) Airway-breathing-circulation before detailed chart review in crisis"
+      ],
+      "answer": "D) Airway-breathing-circulation before detailed chart review in crisis",
+      "explanation": "Life threats first in crisis physiology. Therefore, the most accurate choice is: Airway-breathing-circulation before detailed chart review in crisis. Chart-before-airway is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Chart-before-airway is near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Life threats first in crisis physiology. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:extreme:2",
+      "question": "Which of the following is the most precise statement about waveform ETCO2 intubation?",
+      "options": [
+        "A) Assume pacing works if spikes seen without pulse check",
+        "B) Keep continuous deep benzo sedation indefinitely without goals in every patient",
+        "C) Rely only on a single auscultation whoosh without ETCO2",
+        "D) Confirm ETT with continuous ETCO2 waveform plus clinical assessment"
+      ],
+      "answer": "D) Confirm ETT with continuous ETCO2 waveform plus clinical assessment",
+      "explanation": "ETCO2 detects esophageal intubation rapidly. Therefore, the most accurate choice is: Confirm ETT with continuous ETCO2 waveform plus clinical assessment. Auscultation-only confirmation is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Auscultation-only confirmation is near-miss. It is less consistent than the correct choice.",
+        "D": "ETCO2 detects esophageal intubation rapidly. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:extreme:3",
+      "question": "A 31-year-old woman has findings that make DOPE mnemonic vent hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Displacement, obstruction, pneumothorax, equipment for sudden vent distress",
+        "B) Assume pacing works if spikes seen without pulse check",
+        "C) Silence all alarms permanently without addressing causes",
+        "D) Assume anxiety only when SpO2 crashes on a ventilator without DOPE check"
+      ],
+      "answer": "A) Displacement, obstruction, pneumothorax, equipment for sudden vent distress",
+      "explanation": "Systematic causes prevent missed catastrophic failures. Therefore, the most accurate choice is: Displacement, obstruction, pneumothorax, equipment for sudden vent distress. Anxiety labeling misses DOPE—.",
+      "choice_explanations": {
+        "A": "Systematic causes prevent missed catastrophic failures. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Anxiety labeling misses DOPE—near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:extreme:4",
+      "question": "A 46-year-old man has a rapidly worsening course of low tidal ARDS. Which of the following is most accurate?",
+      "options": [
+        "A) Use 12 mL/kg IBW volumes routinely in ARDS for ‘better numbers’",
+        "B) Low tidal volume ventilation (~6 mL/kg IBW) in ARDS reduces volutrauma",
+        "C) Give succinylcholine routinely 2 weeks after major burn without caution",
+        "D) Chase normal PaCO2 with injurious high volumes in severe ARDS"
+      ],
+      "answer": "B) Low tidal volume ventilation (~6 mL/kg IBW) in ARDS reduces volutrauma",
+      "explanation": "Lung-protective ventilation improves survival. Therefore, the most accurate choice is: Low tidal volume ventilation (~6 mL/kg IBW) in ARDS reduces volutrauma. High volumes injure lungs—.",
+      "choice_explanations": {
+        "A": "High volumes injure lungs—near-miss. It is less consistent than the correct choice.",
+        "B": "Lung-protective ventilation improves survival. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:extreme:5",
+      "question": "Urgent management decisions for permissive hypercapnia ARDS are required in a 50-year-old man. Which of the following is most accurate?",
+      "options": [
+        "A) Accept higher PaCO2 if pH safe to keep low volumes",
+        "B) Use 12 mL/kg IBW volumes routinely in ARDS for ‘better numbers’",
+        "C) Chase normal PaCO2 with injurious high volumes in severe ARDS",
+        "D) Set high rate/no expiratory time causing auto-PEEP and hypotension"
+      ],
+      "answer": "A) Accept higher PaCO2 if pH safe to keep low volumes",
+      "explanation": "Protecting lungs outweighs perfect CO2 sometimes. Therefore, the most accurate choice is: Accept higher PaCO2 if pH safe to keep low volumes. Injurious CO2 chasing is .",
+      "choice_explanations": {
+        "A": "Protecting lungs outweighs perfect CO2 sometimes. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Injurious CO2 chasing is near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:extreme:6",
+      "question": "A 64-year-old man has refractory proning ARDS. Which of the following is correct?",
+      "options": [
+        "A) Prone positioning improves oxygenation in severe ARDS when protocolized",
+        "B) Chase normal PaCO2 with injurious high volumes in severe ARDS",
+        "C) Continue PPI prophylaxis indefinitely without indication review after ICU recovery",
+        "D) Proning without airway/line security plan or indications"
+      ],
+      "answer": "A) Prone positioning improves oxygenation in severe ARDS when protocolized",
+      "explanation": "Proning redistributes lung stress/perfusion. Therefore, the most accurate choice is: Prone positioning improves oxygenation in severe ARDS when protocolized. Unplanned proning risks airway loss—.",
+      "choice_explanations": {
+        "A": "Proning redistributes lung stress/perfusion. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Unplanned proning risks airway loss—near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:extreme:7",
+      "question": "Which statement about PEEP oxygenation in a 63-year-old woman is most accurate?",
+      "options": [
+        "A) Intubate hypovolemic septic patient with high PEEP induction and no pressor readiness",
+        "B) Titrate PEEP to improve oxygenation/recruitment while watching hemodynamics",
+        "C) Fluid-restrict a hypovolemic CSW patient as if SIADH",
+        "D) Max PEEP on hypovolemic patient ignoring BP crash"
+      ],
+      "answer": "B) Titrate PEEP to improve oxygenation/recruitment while watching hemodynamics",
+      "explanation": "PEEP improves FRC but can cut venous return. Therefore, the most accurate choice is: Titrate PEEP to improve oxygenation/recruitment while watching hemodynamics. Blind max PEEP shocks—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "PEEP improves FRC but can cut venous return. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Blind max PEEP shocks—near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:extreme:8",
+      "question": "Careful reasoning about vent weaning readiness is required. Which of the following is most accurate?",
+      "options": [
+        "A) Extubate without symptom plan then refuse opioids for air hunger",
+        "B) Assess RSBI, mentation, secretions, FiO2/PEEP before spontaneous breathing trial",
+        "C) Extubate at FiO2 1.0 and PEEP 15 without readiness screen",
+        "D) Increase PEEP and fluids only for suspected tension pneumothorax without decompression plan"
+      ],
+      "answer": "B) Assess RSBI, mentation, secretions, FiO2/PEEP before spontaneous breathing trial",
+      "explanation": "Failed extubation harms; readiness predicts success. Therefore, the most accurate choice is: Assess RSBI, mentation, secretions, FiO2/PEEP before spontaneous breathing trial. Unsafe early extubation is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Failed extubation harms; readiness predicts success. This matches the correct interpretation.",
+        "C": "Unsafe early extubation is near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:extreme:9",
+      "question": "A 28-year-old man is reassessed after incomplete response related to unplanned extubation response. Which of the following is most accurate?",
+      "options": [
+        "A) Support with BVM/airway algorithm; call for reintubation help",
+        "B) Proning without airway/line security plan or indications",
+        "C) Extubate without symptom plan then refuse opioids for air hunger",
+        "D) Leave a hypoxic self-extubated patient to ‘try harder’ without support"
+      ],
+      "answer": "A) Support with BVM/airway algorithm; call for reintubation help",
+      "explanation": "Airway loss is an emergency. Therefore, the most accurate choice is: Support with BVM/airway algorithm; call for reintubation help. No support after self-extubation is .",
+      "choice_explanations": {
+        "A": "Airway loss is an emergency. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "No support after self-extubation is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:extreme:10",
+      "question": "A detailed evaluation for suction sterile ET is underway in a 34-year-old man. Which of the following is correct?",
+      "options": [
+        "A) Proning without airway/line security plan or indications",
+        "B) Hyperoxygenate as indicated; limit passes; sterile open suction technique",
+        "C) Leave FiO2 1.0 for hours after ROSC with SpO2 100% without titration",
+        "D) Deep prolonged clean suction without oxygenation"
+      ],
+      "answer": "B) Hyperoxygenate as indicated; limit passes; sterile open suction technique",
+      "explanation": "Brief sterile suction clears without hypoxia/trauma. Therefore, the most accurate choice is: Hyperoxygenate as indicated; limit passes; sterile open suction technique. Prolonged suction harms—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Brief sterile suction clears without hypoxia/trauma. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Prolonged suction harms—near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:extreme:11",
+      "question": "A 54-year-old man has findings that make cuff pressure trach/ETT hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Increase PEEP and fluids only for suspected tension pneumothorax without decompression plan",
+        "B) Overinflate cuff until no leak without manometer checks forever",
+        "C) Allow prolonged hypotension after acute SCI without MAP strategy",
+        "D) Maintain cuff pressures in safe range to avoid aspiration and necrosis"
+      ],
+      "answer": "D) Maintain cuff pressures in safe range to avoid aspiration and necrosis",
+      "explanation": "Correct pressure seals without tracheal injury. Therefore, the most accurate choice is: Maintain cuff pressures in safe range to avoid aspiration and necrosis. Unchecked overinflation damages trachea—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Unchecked overinflation damages trachea—near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Correct pressure seals without tracheal injury. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:extreme:12",
+      "question": "A 36-year-old man has a rapidly worsening course of tension pneumothorax ICU. Which of the following is most accurate?",
+      "options": [
+        "A) Positive pressure induction and diuresis as first moves in tamponade without decompression plan",
+        "B) Hypotension + unilateral absent sounds + high pressures—decompress emergently",
+        "C) Massive fluids and high PEEP blindly for RV infarct/PE physiology without thought",
+        "D) Increase PEEP and fluids only for suspected tension pneumothorax without decompression plan"
+      ],
+      "answer": "B) Hypotension + unilateral absent sounds + high pressures—decompress emergently",
+      "explanation": "Tension obstructs venous return. Therefore, the most accurate choice is: Hypotension + unilateral absent sounds + high pressures—decompress emergently. Missed decompression is fatal .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Tension obstructs venous return. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Missed decompression is fatal near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:extreme:13",
+      "question": "A 31-year-old woman returns with ongoing problems related to chest tube continuous bubbling. Which of the following is most accurate?",
+      "options": [
+        "A) Clamp chest tube routinely for transport without protocol",
+        "B) Assess for air leak vs system issues; don’t clamp routinely without reason",
+        "C) Raise/lower EVD arbitrarily and leave clamped for long periods without order",
+        "D) Clamp ECMO circuit casually during alarm without protocol"
+      ],
+      "answer": "B) Assess for air leak vs system issues; don’t clamp routinely without reason",
+      "explanation": "Indiscriminate clamping can cause tension physiology. Therefore, the most accurate choice is: Assess for air leak vs system issues; don’t clamp routinely without reason. Routine clamping is .",
+      "choice_explanations": {
+        "A": "Routine clamping is near-miss. It is less consistent than the correct choice.",
+        "B": "Indiscriminate clamping can cause tension physiology. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:extreme:14",
+      "question": "A 50-year-old man has refractory septic shock antibiotics. Which of the following is correct?",
+      "options": [
+        "A) Give multi-liter fluids for wet cold cardiogenic shock as if septic",
+        "B) Wait 48 h for culture results before antibiotics in septic shock",
+        "C) Cultures then immediate antibiotics; fluids and vasopressors per sepsis bundles",
+        "D) Antibiotics alone forever for undrained abscess causing shock"
+      ],
+      "answer": "C) Cultures then immediate antibiotics; fluids and vasopressors per sepsis bundles",
+      "explanation": "Early antibiotics reduce mortality. Therefore, the most accurate choice is: Cultures then immediate antibiotics; fluids and vasopressors per sepsis bundles. Culture-wait in shock is deadly .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Culture-wait in shock is deadly near-miss. It is less consistent than the correct choice.",
+        "C": "Early antibiotics reduce mortality. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:extreme:15",
+      "question": "In intensive care, a 28-year-old man is treated for complications of norepinephrine septic first. Which of the following is most accurate?",
+      "options": [
+        "A) Proning without airway/line security plan or indications",
+        "B) Use dopamine preferentially for all septic shock without reason against modern practice",
+        "C) Norepinephrine is common first-line vasopressor in septic shock",
+        "D) Wait 48 h for culture results before antibiotics in septic shock"
+      ],
+      "answer": "C) Norepinephrine is common first-line vasopressor in septic shock",
+      "explanation": "NE improves MAP with favorable profile in sepsis. Therefore, the most accurate choice is: Norepinephrine is common first-line vasopressor in septic shock. Outdated first pressor choice is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Outdated first pressor choice is near-miss. It is less consistent than the correct choice.",
+        "C": "NE improves MAP with favorable profile in sepsis. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:extreme:16",
+      "question": "A 55-year-old woman has a complex presentation of MAP target sepsis. Which of the following is most accurate?",
+      "options": [
+        "A) Transfuse to Hgb 12 in stable asymptomatic anemia without indication",
+        "B) Chase MAP 100 with extreme pressors ignoring ischemia risks in all patients",
+        "C) Target MAP ~65 mmHg typically unless individualized higher needed",
+        "D) Drop MAP aggressively in high ICP without CPP consideration"
+      ],
+      "answer": "C) Target MAP ~65 mmHg typically unless individualized higher needed",
+      "explanation": "Adequate perfusion pressure without excess vasoconstriction. Therefore, the most accurate choice is: Target MAP ~65 mmHg typically unless individualized higher needed. Overshooting MAP harms—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Overshooting MAP harms—near-miss. It is less consistent than the correct choice.",
+        "C": "Adequate perfusion pressure without excess vasoconstriction. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:extreme:17",
+      "question": "A 33-year-old woman is reassessed after incomplete response related to lactate trend sepsis. Which of the following is most accurate?",
+      "options": [
+        "A) Trend lactate with clinical perfusion; resuscitate sources",
+        "B) Give unlimited fluids solely because CVP is 4 without other perfusion data",
+        "C) Chase MAP 100 with extreme pressors ignoring ischemia risks in all patients",
+        "D) High-dose long propofol + metabolic acidosis/rhabdo/cardiac—stop and support"
+      ],
+      "answer": "A) Trend lactate with clinical perfusion; resuscitate sources",
+      "explanation": "Lactate reflects hypoperfusion/stress. Therefore, the most accurate choice is: Trend lactate with clinical perfusion; resuscitate sources. BP-only reassurance misses hypoperfusion—.",
+      "choice_explanations": {
+        "A": "Lactate reflects hypoperfusion/stress. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:extreme:18",
+      "question": "A detailed evaluation for source control sepsis is underway in a 61-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) Wait 48 h for culture results before antibiotics in septic shock",
+        "B) Seek drainage/debridement/device removal when source controllable",
+        "C) Give multi-liter fluids for wet cold cardiogenic shock as if septic",
+        "D) Antibiotics alone forever for undrained abscess causing shock"
+      ],
+      "answer": "B) Seek drainage/debridement/device removal when source controllable",
+      "explanation": "Source control is essential alongside drugs. Therefore, the most accurate choice is: Seek drainage/debridement/device removal when source controllable. No source control fails—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Source control is essential alongside drugs. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "No source control fails—near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:extreme:19",
+      "question": "A 56-year-old man has findings that make cardiogenic vs distributive hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Give multi-liter fluids for wet cold cardiogenic shock as if septic",
+        "B) Cardiogenic: congestion/low output; distributive: vasodilation—different fluids/pressors",
+        "C) Intubate hypovolemic septic patient with high PEEP induction and no pressor readiness",
+        "D) Give unlimited fluids solely because CVP is 4 without other perfusion data"
+      ],
+      "answer": "B) Cardiogenic: congestion/low output; distributive: vasodilation—different fluids/pressors",
+      "explanation": "Wrong shock type → wrong preload strategy. Therefore, the most accurate choice is: Cardiogenic: congestion/low output; distributive: vasodilation—different fluids/pressors. Fluids in wet cardiogenic shock worsen edema—.",
+      "choice_explanations": {
+        "A": "Fluids in wet cardiogenic shock worsen edema—near-miss. It is less consistent than the correct choice.",
+        "B": "Wrong shock type → wrong preload strategy. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:extreme:20",
+      "question": "In a 42-year-old man, distinguishing nitroprusside vs fluids HF from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Lay flat and force fluids for pounding headache/HTN in T6 injury",
+        "B) Vasodilators/diuretics for hypertensive pulmonary edema; not blind fluid boluses",
+        "C) Give nitroglycerin for inferior MI with clear lungs and hypotension from RV infarct",
+        "D) Bolus 2 L NS for flash pulmonary edema with HTN"
+      ],
+      "answer": "B) Vasodilators/diuretics for hypertensive pulmonary edema; not blind fluid boluses",
+      "explanation": "Reduce preload/afterload; extra volume floods lungs. Therefore, the most accurate choice is: Vasodilators/diuretics for hypertensive pulmonary edema; not blind fluid boluses. Fluid bolus in flash edema is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Reduce preload/afterload; extra volume floods lungs. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Fluid bolus in flash edema is near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:extreme:21",
+      "question": "Which closely related statement about IABP timing is correct?",
+      "options": [
+        "A) Trend lactate with clinical perfusion; resuscitate sources",
+        "B) IABP inflates diastole/deflates systole; watch timing/urine/limb ischemia",
+        "C) Keep Foley for convenience urine output in mobile ICU patient without indication",
+        "D) Give only heparin and ignore septic source in DIC"
+      ],
+      "answer": "B) IABP inflates diastole/deflates systole; watch timing/urine/limb ischemia",
+      "explanation": "Counterpulsation augments coronary perfusion/unloads LV. Therefore, the most accurate choice is: IABP inflates diastole/deflates systole; watch timing/urine/limb ischemia. Ignored limb ischemia loses limb—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Counterpulsation augments coronary perfusion/unloads LV. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:extreme:22",
+      "question": "A 65-year-old woman has a complicated course involving post cardiac arrest targeted temp. Which of the following is correct?",
+      "options": [
+        "A) Drop MAP aggressively in high ICP without CPP consideration",
+        "B) Targeted temperature management/fever avoidance per current protocol after ROSC",
+        "C) Allow uncontrolled high fever after ROSC without management",
+        "D) Leave FiO2 1.0 for hours after ROSC with SpO2 100% without titration"
+      ],
+      "answer": "B) Targeted temperature management/fever avoidance per current protocol after ROSC",
+      "explanation": "Temperature control may improve neurologic outcomes. Therefore, the most accurate choice is: Targeted temperature management/fever avoidance per current protocol after ROSC. Ignored fever management is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Temperature control may improve neurologic outcomes. This matches the correct interpretation.",
+        "C": "Ignored fever management is near-miss. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:extreme:23",
+      "question": "Which statement about ROSC oxygenation targets in a 67-year-old woman is most accurate?",
+      "options": [
+        "A) Deep prolonged clean suction without oxygenation",
+        "B) Leave FiO2 1.0 for hours after ROSC with SpO2 100% without titration",
+        "C) Allow uncontrolled high fever after ROSC without management",
+        "D) Avoid prolonged hyperoxia; titrate SpO2 to targets post-ROSC"
+      ],
+      "answer": "D) Avoid prolonged hyperoxia; titrate SpO2 to targets post-ROSC",
+      "explanation": "Hyperoxia may worsen reperfusion injury. Therefore, the most accurate choice is: Avoid prolonged hyperoxia; titrate SpO2 to targets post-ROSC. Untitrated hyperoxia is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Untitrated hyperoxia is near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Hyperoxia may worsen reperfusion injury. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:extreme:24",
+      "question": "A 33-year-old woman has a complex presentation of therapeutic hypothermia shivering. Which of the following is most accurate?",
+      "options": [
+        "A) Control shivering during TTM; it defeats cooling and raises VO2",
+        "B) Clamp ECMO circuit casually during alarm without protocol",
+        "C) Monitor systemic/ionized calcium during citrate anticoagulation",
+        "D) Citrate load binds calcium—replete Ca during massive transfusion"
+      ],
+      "answer": "A) Control shivering during TTM; it defeats cooling and raises VO2",
+      "explanation": "Shivering increases metabolic demand. Therefore, the most accurate choice is: Control shivering during TTM; it defeats cooling and raises VO2. Ignored shivering defeats TTM—.",
+      "choice_explanations": {
+        "A": "Shivering increases metabolic demand. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:extreme:25",
+      "question": "Small differences in wording about increased ICP matter. Which of the following is correct?",
+      "options": [
+        "A) Leave HOB flat continuously and skip oral care on ventilated patient",
+        "B) Elevate high and observe overnight without notifying for classic compartment signs",
+        "C) Declining mentation, Cushing triad clues, pupil changes—elevate HOB, align neck, notify",
+        "D) Cluster painful care flat with neck kinked in rising ICP"
+      ],
+      "answer": "C) Declining mentation, Cushing triad clues, pupil changes—elevate HOB, align neck, notify",
+      "explanation": "Venous drainage and low stimulation protect CPP. Therefore, the most accurate choice is: Declining mentation, Cushing triad clues, pupil changes—elevate HOB, align neck, notify. Flat/kinked clustering raises ICP—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Venous drainage and low stimulation protect CPP. This matches the correct interpretation.",
+        "D": "Flat/kinked clustering raises ICP—near-miss. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:extreme:26",
+      "question": "A detailed evaluation for CPP concept is underway in a 45-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) CPP ≈ MAP − ICP; balance pressure without uncontrolled hypo/hypertension",
+        "B) Drop MAP aggressively in high ICP without CPP consideration",
+        "C) Diurese aggressively as sole approach without considering TRALI when febrile hypotensive hypoxemia post-transfusion",
+        "D) Allow uncontrolled high fever after ROSC without management"
+      ],
+      "answer": "A) CPP ≈ MAP − ICP; balance pressure without uncontrolled hypo/hypertension",
+      "explanation": "Brain needs perfusion pressure not just low ICP. Therefore, the most accurate choice is: CPP ≈ MAP − ICP; balance pressure without uncontrolled hypo/hypertension. MAP crash harms ischemic brain—.",
+      "choice_explanations": {
+        "A": "Brain needs perfusion pressure not just low ICP. This matches the correct interpretation.",
+        "B": "MAP crash harms ischemic brain—near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "critical_care:extreme:27",
+      "question": "In a 70-year-old man, treatment choices for mannitol/hypertonic watch are compared. Which of the following is most accurate?",
+      "options": [
+        "A) Start high-calorie feeds abruptly without electrolyte monitoring in starvation",
+        "B) Give repeated mannitol without checking osmolality/renal status",
+        "C) Give insulin without potassium monitoring in DKA",
+        "D) Osmotherapy needs Na/osmolality/urine output monitoring"
+      ],
+      "answer": "D) Osmotherapy needs Na/osmolality/urine output monitoring",
+      "explanation": "Excess osmotherapy causes renal/electrolyte harm. Therefore, the most accurate choice is: Osmotherapy needs Na/osmolality/urine output monitoring. Blind repeated mannitol is .",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Blind repeated mannitol is near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Excess osmotherapy causes renal/electrolyte harm. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:extreme:28",
+      "question": "In a 52-year-old man, distinguishing spinal shock vs neurogenic from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Bolus large dex rapidly in shock without monitoring",
+        "B) Give multi-liter fluids for wet cold cardiogenic shock as if septic",
+        "C) Treat all post-SCI hypotension with only fluids ignoring bradycardia/neurogenic need for pressors",
+        "D) Differentiate flaccid spinal shock from neurogenic hypotensive bradycardia patterns"
+      ],
+      "answer": "D) Differentiate flaccid spinal shock from neurogenic hypotensive bradycardia patterns",
+      "explanation": "Neurogenic shock is distributive from loss of sympathetic tone. Therefore, the most accurate choice is: Differentiate flaccid spinal shock from neurogenic hypotensive bradycardia patterns. Wrong shock model mistreats—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Wrong shock model mistreats—near-miss. It is less consistent than the correct choice.",
+        "D": "Neurogenic shock is distributive from loss of sympathetic tone. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "critical_care:extreme:29",
+      "question": "A 38-year-old man returns with ongoing problems related to autonomic dysreflexia ICU. Which of the following is most accurate?",
+      "options": [
+        "A) Treat HHS like hypoglycemia with candy alone",
+        "B) Lay flat and force fluids for pounding headache/HTN in T6 injury",
+        "C) Force high-fat feeding during severe acute pancreatitis",
+        "D) Sit up, loosen, find bladder/bowel trigger; treat BP emergency"
+      ],
+      "answer": "D) Sit up, loosen, find bladder/bowel trigger; treat BP emergency",
+      "explanation": "Noxious stimuli below injury cause sympathetic surge. Therefore, the most accurate choice is: Sit up, loosen, find bladder/bowel trigger; treat BP emergency. Lying flat worsens hypertensive emergency—.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Lying flat worsens hypertensive emergency—near-miss. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Noxious stimuli below injury cause sympathetic surge. This matches the correct interpretation."
+      }
+    }
+  ]
+}

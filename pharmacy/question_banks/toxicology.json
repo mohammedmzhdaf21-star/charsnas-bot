@@ -1,0 +1,2170 @@
+{
+  "easy": [
+    {
+      "id": "toxicology:easy:0",
+      "question": "Which of the following is true of aBCs first poisoning?",
+      "options": [
+        "A) Airway, breathing, and circulation stabilization precedes antidotes in most poisonings",
+        "B) Penicillamine first-line for all childhood lead poisonings without specialty input",
+        "C) Give antidotes before opening the airway in apnea",
+        "D) First-line chelator for copper and lead equally without distinction"
+      ],
+      "answer": "A) Airway, breathing, and circulation stabilization precedes antidotes in most poisonings",
+      "explanation": "Dead patients do not benefit from specific antidotes without resuscitation. Therefore, the most accurate choice is: Airway, breathing, and circulation stabilization precedes antidotes in most poisonings. Resuscitation comes first.",
+      "choice_explanations": {
+        "A": "Dead patients do not benefit from specific antidotes without resuscitation. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Resuscitation comes first. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:easy:1",
+      "question": "Which statement about activated charcoal role is correct?",
+      "options": [
+        "A) Charcoal forced in actively vomiting unprotected seizing patients without airway plan",
+        "B) Liver injury always peaks within one hour of ingestion",
+        "C) Most useful early for selected ingestions when the airway is protected",
+        "D) Helps all ingestions at any time including metals and alcohols always"
+      ],
+      "answer": "C) Most useful early for selected ingestions when the airway is protected",
+      "explanation": "Hydrocarbons, caustics, and metals are generally poor charcoal candidates. Therefore, the most accurate choice is: Most useful early for selected ingestions when the airway is protected. Charcoal is not universally effective for every toxin.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Hydrocarbons, caustics, and metals are generally poor charcoal candidates. This matches the correct interpretation.",
+        "D": "Charcoal is not universally effective for every toxin. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:easy:2",
+      "question": "Which of the following statements about MDAC indications is correct?",
+      "options": [
+        "A) First-line for iron overdose",
+        "B) Used for selected agents with enterohepatic recirculation such as carbamazepine and theophylline themes",
+        "C) First-line elimination for every overdose including lithium and iron",
+        "D) First-line for iron and lithium because both are lipophilic ions"
+      ],
+      "answer": "B) Used for selected agents with enterohepatic recirculation such as carbamazepine and theophylline themes",
+      "explanation": "Interrupting reabsorption enhances elimination for selected drugs. Therefore, the most accurate choice is: Used for selected agents with enterohepatic recirculation such as carbamazepine and theophylline themes. Iron is not an MDAC indication.",
+      "choice_explanations": {
+        "A": "Iron is not an MDAC indication. It is less consistent than the correct choice.",
+        "B": "Interrupting reabsorption enhances elimination for selected drugs. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:easy:3",
+      "question": "In whole bowel irrigation, which of the following is correct?",
+      "options": [
+        "A) First-line for all acetaminophen overdoses at one hour",
+        "B) PEG-ELS lavage for some sustained-release or body-packer scenarios",
+        "C) Liver injury always peaks within one hour of ingestion",
+        "D) First-line for all pediatric ingestions today"
+      ],
+      "answer": "B) PEG-ELS lavage for some sustained-release or body-packer scenarios",
+      "explanation": "Airway protection and absence of ileus are prerequisites. Therefore, the most accurate choice is: PEG-ELS lavage for some sustained-release or body-packer scenarios. NAC, not WBI, is acetaminophen antidote care.",
+      "choice_explanations": {
+        "A": "NAC, not WBI, is acetaminophen antidote care. It is less consistent than the correct choice.",
+        "B": "Airway protection and absence of ileus are prerequisites. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:easy:4",
+      "question": "Which of the following best describes gastric lavage limited?",
+      "options": [
+        "A) Mandatory flumazenil plus physostigmine for every coma",
+        "B) Rarely indicated because risks often outweigh benefits",
+        "C) Mandatory for every overdose within 24 hours",
+        "D) Flumazenil is mandatory for every undifferentiated coma"
+      ],
+      "answer": "B) Rarely indicated because risks often outweigh benefits",
+      "explanation": "Aspiration and trauma risks limit use. Therefore, the most accurate choice is: Rarely indicated because risks often outweigh benefits. Not mandatory routine care.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Aspiration and trauma risks limit use. This matches the correct interpretation.",
+        "C": "Not mandatory routine care. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:easy:5",
+      "question": "Select the correct statement about ipecac obsolete.",
+      "options": [
+        "A) Activated charcoal binds lithium avidly as first-line decontamination",
+        "B) Induce vomiting for all gasoline ingestions to clear lungs",
+        "C) First-line for all pediatric ingestions today",
+        "D) No longer recommended for routine home or ED gastrointestinal decontamination"
+      ],
+      "answer": "D) No longer recommended for routine home or ED gastrointestinal decontamination",
+      "explanation": "Delayed vomiting and aspiration risk led to abandonment. Therefore, the most accurate choice is: No longer recommended for routine home or ED gastrointestinal decontamination. Modern guidance avoids routine ipecac.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Modern guidance avoids routine ipecac. It is less consistent than the correct choice.",
+        "D": "Delayed vomiting and aspiration risk led to abandonment. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:easy:6",
+      "question": "Which of the following applies to toxidrome approach?",
+      "options": [
+        "A) Pattern recognition of opioid, anticholinergic, cholinergic, sedative, and sympathomimetic clusters guides therapy",
+        "B) Physostigmine is routine first therapy for TCA wide-complex overdose",
+        "C) Produces opioid toxidrome with pinpoint pupils and apnea as hallmark",
+        "D) Useless if the exact pill imprint is unknown"
+      ],
+      "answer": "A) Pattern recognition of opioid, anticholinergic, cholinergic, sedative, and sympathomimetic clusters guides therapy",
+      "explanation": "Mixed overdoses may blur classic clusters. Therefore, the most accurate choice is: Pattern recognition of opioid, anticholinergic, cholinergic, sedative, and sympathomimetic clusters guides therapy. Toxidromes remain useful without definitive identification.",
+      "choice_explanations": {
+        "A": "Mixed overdoses may blur classic clusters. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Toxidromes remain useful without definitive identification. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:easy:7",
+      "question": "Which of the following applies to opioid OD care?",
+      "options": [
+        "A) Flumazenil is first-line for opioid apnea",
+        "B) Treat opioid withdrawal with repeated high-dose naloxone boluses",
+        "C) Flumazenil reverses baclofen completely as specific antidote",
+        "D) Support ventilation and give titrated naloxone for respiratory depression"
+      ],
+      "answer": "D) Support ventilation and give titrated naloxone for respiratory depression",
+      "explanation": "Longer-acting opioids may need naloxone infusions after response. Therefore, the most accurate choice is: Support ventilation and give titrated naloxone for respiratory depression. Naloxone, not flumazenil, reverses opioids.",
+      "choice_explanations": {
+        "A": "Naloxone, not flumazenil, reverses opioids. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Longer-acting opioids may need naloxone infusions after response. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:easy:8",
+      "question": "Which of the following is true of benzodiazepine OD care?",
+      "options": [
+        "A) Flumazenil reverses all antipsychotic overdose",
+        "B) Flumazenil is mandatory for every undifferentiated coma",
+        "C) Mandatory flumazenil plus physostigmine for every coma",
+        "D) Supportive airway care is primary; flumazenil is rarely used due to seizure risk"
+      ],
+      "answer": "D) Supportive airway care is primary; flumazenil is rarely used due to seizure risk",
+      "explanation": "Most patients recover with supportive care. Therefore, the most accurate choice is: Supportive airway care is primary; flumazenil is rarely used due to seizure risk. Blind flumazenil in undifferentiated coma is dangerous.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Blind flumazenil in undifferentiated coma is dangerous. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Most patients recover with supportive care. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:easy:9",
+      "question": "Which finding is expected in anticholinergic care?",
+      "options": [
+        "A) Narrow QRS forever excludes TCA risk and bicarb never used",
+        "B) Benzodiazepines for agitation; cautious physostigmine in selected pure anticholinergic delirium",
+        "C) Routine in all wide-complex TCA overdoses",
+        "D) Physostigmine is routine first therapy for TCA wide-complex overdose"
+      ],
+      "answer": "B) Benzodiazepines for agitation; cautious physostigmine in selected pure anticholinergic delirium",
+      "explanation": "Sodium bicarbonate addresses TCA sodium-channel toxicity. Therefore, the most accurate choice is: Benzodiazepines for agitation; cautious physostigmine in selected pure anticholinergic delirium. TCA cardiotoxicity is not treated primarily with physostigmine.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Sodium bicarbonate addresses TCA sodium-channel toxicity. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "TCA cardiotoxicity is not treated primarily with physostigmine. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:easy:10",
+      "question": "Which of the following statements about cholinergic crisis care is correct?",
+      "options": [
+        "A) Stop atropine when pupils dilate regardless of secretions",
+        "B) Atropine regenerates AChE while pralidoxime only dries secretions",
+        "C) Aging increases oxime effectiveness over days",
+        "D) Atropine for muscarinic effects; pralidoxime for organophosphate AChE regeneration before aging"
+      ],
+      "answer": "D) Atropine for muscarinic effects; pralidoxime for organophosphate AChE regeneration before aging",
+      "explanation": "Diazepam treats seizures in nerve-agent or OP poisoning. Therefore, the most accurate choice is: Atropine for muscarinic effects; pralidoxime for organophosphate AChE regeneration before aging. Oximes regenerate AChE; atropine is antimuscarinic.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Oximes regenerate AChE; atropine is antimuscarinic. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Diazepam treats seizures in nerve-agent or OP poisoning. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:easy:11",
+      "question": "In sympathomimetic care, which of the following is correct?",
+      "options": [
+        "A) Pure beta-blockers alone preferred first for all cocaine hypertension",
+        "B) Physostigmine is routine first therapy for TCA wide-complex overdose",
+        "C) Benzodiazepines first for cocaine or amphetamine agitation and hyperadrenergia",
+        "D) Phenytoin alone preferred over benzos for alcohol withdrawal seizures"
+      ],
+      "answer": "C) Benzodiazepines first for cocaine or amphetamine agitation and hyperadrenergia",
+      "explanation": "Avoid unopposed alpha concerns when using beta-blockers in cocaine toxicity teaching. Therefore, the most accurate choice is: Benzodiazepines first for cocaine or amphetamine agitation and hyperadrenergia. Benzodiazepines are first-line.",
+      "choice_explanations": {
+        "A": "Benzodiazepines are first-line. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Avoid unopposed alpha concerns when using beta-blockers in cocaine toxicity teaching. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:easy:12",
+      "question": "Which of the following best describes serotonin syndrome care?",
+      "options": [
+        "A) Start an MAOI to treat serotonin syndrome",
+        "B) Levels irrelevant because the drug has no toxicity",
+        "C) Stop serotonergic drugs, cool, use benzos; consider cyproheptadine when moderate-severe",
+        "D) Increase antipsychotic depot doses to treat NMS"
+      ],
+      "answer": "C) Stop serotonergic drugs, cool, use benzos; consider cyproheptadine when moderate-severe",
+      "explanation": "Differentiate from NMS by neuromuscular findings and drug history. Therefore, the most accurate choice is: Stop serotonergic drugs, cool, use benzos; consider cyproheptadine when moderate-severe. Adding MAOI worsens serotonin toxicity.",
+      "choice_explanations": {
+        "A": "Adding MAOI worsens serotonin toxicity. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Differentiate from NMS by neuromuscular findings and drug history. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:easy:13",
+      "question": "Select the correct statement about NMS care tox.",
+      "options": [
+        "A) Causes severe anion-gap acidosis via formate always",
+        "B) Start an MAOI to treat serotonin syndrome",
+        "C) Stop antipsychotics, support, consider dantrolene or bromocriptine in severe cases",
+        "D) Increase antipsychotic depot doses to treat NMS"
+      ],
+      "answer": "C) Stop antipsychotics, support, consider dantrolene or bromocriptine in severe cases",
+      "explanation": "Onset is typically slower than serotonin syndrome. Therefore, the most accurate choice is: Stop antipsychotics, support, consider dantrolene or bromocriptine in severe cases. More dopamine blockade worsens NMS.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Onset is typically slower than serotonin syndrome. This matches the correct interpretation.",
+        "D": "More dopamine blockade worsens NMS. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:easy:14",
+      "question": "Which mechanism accounts for acetaminophen stages?",
+      "options": [
+        "A) Liver injury always peaks within one hour of ingestion",
+        "B) Applies unchanged to all chronic repeated ingestions",
+        "C) Assessed only with the identical four-hour single-ingestion nomogram",
+        "D) Early GI symptoms, latent phase, then delayed hepatic injury without antidote"
+      ],
+      "answer": "D) Early GI symptoms, latent phase, then delayed hepatic injury without antidote",
+      "explanation": "Rumack-Matthew nomogram guides NAC for acute timed single ingestions. Therefore, the most accurate choice is: Early GI symptoms, latent phase, then delayed hepatic injury without antidote. Hepatic injury is delayed, not immediate within one hour.",
+      "choice_explanations": {
+        "A": "Hepatic injury is delayed, not immediate within one hour. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Rumack-Matthew nomogram guides NAC for acute timed single ingestions. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:easy:15",
+      "question": "Which statement about NAC is accurate?",
+      "options": [
+        "A) Harmless in overdose because iron is a nutrient",
+        "B) NAC chelates NAPQI iron like deferoxamine",
+        "C) Replenishes glutathione and supports detoxification of NAPQI",
+        "D) Produce iron toxicity treated with deferoxamine"
+      ],
+      "answer": "C) Replenishes glutathione and supports detoxification of NAPQI",
+      "explanation": "Oral and IV protocols are both effective; timing is critical. Therefore, the most accurate choice is: Replenishes glutathione and supports detoxification of NAPQI. Glutathione repletion, not iron chelation, is the mechanism.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Glutathione repletion, not iron chelation, is the mechanism. It is less consistent than the correct choice.",
+        "C": "Oral and IV protocols are both effective; timing is critical. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:easy:16",
+      "question": "Which of the following is true of rumack nomogram?",
+      "options": [
+        "A) Useless if started after eight hours in all cases",
+        "B) For acute single APAP ingestion with known time; plot level at four hours or later",
+        "C) Assessed only with the identical four-hour single-ingestion nomogram",
+        "D) Applies unchanged to all chronic repeated ingestions"
+      ],
+      "answer": "B) For acute single APAP ingestion with known time; plot level at four hours or later",
+      "explanation": "Below the treatment line after four hours may defer NAC in classic acute cases. Therefore, the most accurate choice is: For acute single APAP ingestion with known time; plot level at four hours or later. Chronic ingestions need different risk assessment.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Below the treatment line after four hours may defer NAC in classic acute cases. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Chronic ingestions need different risk assessment. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:easy:17",
+      "question": "Which finding is expected in salicylate features?",
+      "options": [
+        "A) Tinnitus, mixed respiratory alkalosis and metabolic acidosis, fever, altered mentation",
+        "B) Acidify urine to increase salicylate clearance",
+        "C) Isolated opioid-like miosis and apnea as the salicylate hallmark",
+        "D) Produces opioid toxidrome with pinpoint pupils and apnea as hallmark"
+      ],
+      "answer": "A) Tinnitus, mixed respiratory alkalosis and metabolic acidosis, fever, altered mentation",
+      "explanation": "Urine alkalinization and hemodialysis for severe cases. Therefore, the most accurate choice is: Tinnitus, mixed respiratory alkalosis and metabolic acidosis, fever, altered mentation. Salicylate is not an opioid toxidrome.",
+      "choice_explanations": {
+        "A": "Urine alkalinization and hemodialysis for severe cases. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Salicylate is not an opioid toxidrome. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:easy:18",
+      "question": "In basic pharmacology, which of the following is true of salicylate alkalinization?",
+      "options": [
+        "A) Used to acidify serum in TCA OD",
+        "B) Indicated for severe levels with refractory acidosis, renal failure, pulmonary edema, or deep altered mentation",
+        "C) Acidify urine to increase salicylate clearance",
+        "D) IV sodium bicarbonate increases ion trapping of salicylate in urine"
+      ],
+      "answer": "D) IV sodium bicarbonate increases ion trapping of salicylate in urine",
+      "explanation": "Hemodialysis for severe toxicity or organ failure. Therefore, the most accurate choice is: IV sodium bicarbonate increases ion trapping of salicylate in urine. Alkalinization, not acidification, enhances clearance.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Alkalinization, not acidification, enhances clearance. It is less consistent than the correct choice.",
+        "D": "Hemodialysis for severe toxicity or organ failure. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:easy:19",
+      "question": "In clinical examination related to salicylate dialysis, which of the following is correct?",
+      "options": [
+        "A) Charcoal hemoperfusion preferred because lithium binds charcoal avidly",
+        "B) Always harmless because metformin does not affect lactate",
+        "C) Indicated for severe levels with refractory acidosis, renal failure, pulmonary edema, or deep altered mentation",
+        "D) Harmless with charcoal never indicated"
+      ],
+      "answer": "C) Indicated for severe levels with refractory acidosis, renal failure, pulmonary edema, or deep altered mentation",
+      "explanation": "Clinical context complements level interpretation. Therefore, the most accurate choice is: Indicated for severe levels with refractory acidosis, renal failure, pulmonary edema, or deep altered mentation. Hemodialysis is definitive for severe salicylism.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Clinical context complements level interpretation. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:easy:20",
+      "question": "Which of the following best describes methanol toxicity?",
+      "options": [
+        "A) Causes severe anion-gap acidosis via formate always",
+        "B) Primarily causes optic neuropathy via formate like methanol exclusively",
+        "C) Metabolized to oxalate that crystallizes in kidneys as primary toxin",
+        "D) ADH makes formate causing visual toxicity and anion-gap acidosis"
+      ],
+      "answer": "D) ADH makes formate causing visual toxicity and anion-gap acidosis",
+      "explanation": "Fomepizole blocks ADH; dialysis for severe cases. Therefore, the most accurate choice is: ADH makes formate causing visual toxicity and anion-gap acidosis. Oxalate injury is ethylene glycol; formate marks methanol.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Oxalate injury is ethylene glycol; formate marks methanol. It is less consistent than the correct choice.",
+        "D": "Fomepizole blocks ADH; dialysis for severe cases. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:easy:21",
+      "question": "Select the correct statement about ethylene glycol toxicity.",
+      "options": [
+        "A) Causes severe anion-gap acidosis via formate always",
+        "B) Primarily causes optic neuropathy via formate like methanol exclusively",
+        "C) Metabolized to oxalate that crystallizes in kidneys as primary toxin",
+        "D) ADH yields glycolate and oxalate; renal failure and anion-gap acidosis"
+      ],
+      "answer": "D) ADH yields glycolate and oxalate; renal failure and anion-gap acidosis",
+      "explanation": "Fomepizole and dialysis are cornerstones. Therefore, the most accurate choice is: ADH yields glycolate and oxalate; renal failure and anion-gap acidosis. Formate optic toxicity is methanol's hallmark more than EG.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Formate optic toxicity is methanol's hallmark more than EG. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Fomepizole and dialysis are cornerstones. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:easy:22",
+      "question": "Which mechanism accounts for fomepizole role?",
+      "options": [
+        "A) Always preferred over fomepizole when both available",
+        "B) Wait days for send-out methanol levels before any antidote in acidotic patients",
+        "C) Inhibits alcohol dehydrogenase blocking toxic acid metabolite formation",
+        "D) Induces alcohol dehydrogenase to clear methanol faster"
+      ],
+      "answer": "C) Inhibits alcohol dehydrogenase blocking toxic acid metabolite formation",
+      "explanation": "Preferred over ethanol infusions in most settings when available. Therefore, the most accurate choice is: Inhibits alcohol dehydrogenase blocking toxic acid metabolite formation. It inhibits, rather than induces, ADH.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Preferred over ethanol infusions in most settings when available. This matches the correct interpretation.",
+        "D": "It inhibits, rather than induces, ADH. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:easy:23",
+      "question": "Which of the following applies to isopropanol toxicity?",
+      "options": [
+        "A) Metabolized to acetone; ketosis without acidosis typically; CNS depression; supportive care",
+        "B) Primarily causes optic neuropathy via formate like methanol exclusively",
+        "C) Causes severe anion-gap acidosis via formate always",
+        "D) Metabolized to oxalate that crystallizes in kidneys as primary toxin"
+      ],
+      "answer": "A) Metabolized to acetone; ketosis without acidosis typically; CNS depression; supportive care",
+      "explanation": "Fomepizole usually not needed because acetone is less toxic. Therefore, the most accurate choice is: Metabolized to acetone; ketosis without acidosis typically; CNS depression; supportive care. Ketosis without acidosis helps distinguish isopropanol.",
+      "choice_explanations": {
+        "A": "Fomepizole usually not needed because acetone is less toxic. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Ketosis without acidosis helps distinguish isopropanol. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:easy:24",
+      "question": "Which of the following is true of digoxin toxicity features?",
+      "options": [
+        "A) Treated with naloxone as specific antidote",
+        "B) Contraindicated in all digoxin toxicity",
+        "C) Hypokalemia is the exclusive laboratory hallmark of acute digoxin poisoning",
+        "D) GI symptoms, visual changes, hyperkalemia, and ventricular arrhythmias risk"
+      ],
+      "answer": "D) GI symptoms, visual changes, hyperkalemia, and ventricular arrhythmias risk",
+      "explanation": "Digoxin-specific Fab for life-threatening toxicity. Therefore, the most accurate choice is: GI symptoms, visual changes, hyperkalemia, and ventricular arrhythmias risk. Acute digoxin toxicity often elevates potassium.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Acute digoxin toxicity often elevates potassium. It is less consistent than the correct choice.",
+        "D": "Digoxin-specific Fab for life-threatening toxicity. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:easy:25",
+      "question": "Which finding matches digoxin Fab?",
+      "options": [
+        "A) Levels irrelevant because the drug has no toxicity",
+        "B) Contraindicated in all digoxin toxicity",
+        "C) Hypokalemia is the exclusive laboratory hallmark of acute digoxin poisoning",
+        "D) Used for life-threatening arrhythmias, severe hyperkalemia in acute OD, or unstable bradycardia"
+      ],
+      "answer": "D) Used for life-threatening arrhythmias, severe hyperkalemia in acute OD, or unstable bradycardia",
+      "explanation": "After Fab, free levels fall; total levels may rise and mislead. Therefore, the most accurate choice is: Used for life-threatening arrhythmias, severe hyperkalemia in acute OD, or unstable bradycardia. Fab is specific antidotal therapy.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Fab is specific antidotal therapy. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "After Fab, free levels fall; total levels may rise and mislead. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:easy:26",
+      "question": "Which of the following statements about CCB overdose is correct?",
+      "options": [
+        "A) Insulin avoided because hypoglycemia is the therapeutic goal",
+        "B) Hyperglycemia with bradycardia and hypotension; calcium, insulin-euglycemia, vasopressors",
+        "C) Harmless in overdose because iron is a nutrient",
+        "D) Intended to produce prolonged refractory hypoglycemia as the endpoint"
+      ],
+      "answer": "B) Hyperglycemia with bradycardia and hypotension; calcium, insulin-euglycemia, vasopressors",
+      "explanation": "High-dose insulin supports inotropy while dextrose maintains euglycemia. Therefore, the most accurate choice is: Hyperglycemia with bradycardia and hypotension; calcium, insulin-euglycemia, vasopressors. Euglycemia is maintained, not therapeutic hypoglycemia.",
+      "choice_explanations": {
+        "A": "Euglycemia is maintained, not therapeutic hypoglycemia. It is less consistent than the correct choice.",
+        "B": "High-dose insulin supports inotropy while dextrose maintains euglycemia. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:easy:27",
+      "question": "Which of the following correctly describes BB overdose?",
+      "options": [
+        "A) Insulin avoided because hypoglycemia is the therapeutic goal",
+        "B) Glucagon competitively blocks beta receptors as antidote",
+        "C) Bradycardia, hypotension, more hypoglycemia/seizures with some agents; glucagon and high-dose insulin themes",
+        "D) Competitive beta-blocker itself"
+      ],
+      "answer": "C) Bradycardia, hypotension, more hypoglycemia/seizures with some agents; glucagon and high-dose insulin themes",
+      "explanation": "Glucagon raises cAMP independent of beta-receptor occupancy. Therefore, the most accurate choice is: Bradycardia, hypotension, more hypoglycemia/seizures with some agents; glucagon and high-dose insulin themes. Glucagon bypasses receptors rather than blocking them.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Glucagon bypasses receptors rather than blocking them. It is less consistent than the correct choice.",
+        "C": "Glucagon raises cAMP independent of beta-receptor occupancy. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:easy:28",
+      "question": "Which of the following best describes TCA ECG toxicity?",
+      "options": [
+        "A) Narrow QRS forever excludes TCA risk and bicarb never used",
+        "B) Routine in all wide-complex TCA overdoses",
+        "C) Used to acidify serum in TCA OD",
+        "D) Wide QRS and terminal R in aVR; treat wide complex with sodium bicarbonate"
+      ],
+      "answer": "D) Wide QRS and terminal R in aVR; treat wide complex with sodium bicarbonate",
+      "explanation": "Alkalinization and sodium loading improve sodium-channel function. Therefore, the most accurate choice is: Wide QRS and terminal R in aVR; treat wide complex with sodium bicarbonate. QRS widening is a key TCA marker treated with bicarb.",
+      "choice_explanations": {
+        "A": "QRS widening is a key TCA marker treated with bicarb. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Alkalinization and sodium loading improve sodium-channel function. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:easy:29",
+      "question": "Select the correct statement about TCA seizures.",
+      "options": [
+        "A) Benzodiazepines for seizures; avoid physostigmine when conduction is delayed",
+        "B) Physostigmine is routine first therapy for TCA wide-complex overdose",
+        "C) Narrow QRS forever excludes TCA risk and bicarb never used",
+        "D) Physostigmine is first-line for TCA seizures and wide QRS"
+      ],
+      "answer": "A) Benzodiazepines for seizures; avoid physostigmine when conduction is delayed",
+      "explanation": "Sodium bicarbonate still addresses concomitant cardiotoxicity. Therefore, the most accurate choice is: Benzodiazepines for seizures; avoid physostigmine when conduction is delayed. Physostigmine is dangerous in TCA overdose with conduction delay.",
+      "choice_explanations": {
+        "A": "Sodium bicarbonate still addresses concomitant cardiotoxicity. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Physostigmine is dangerous in TCA overdose with conduction delay. It is less consistent than the correct choice."
+      }
+    }
+  ],
+  "medium": [
+    {
+      "id": "toxicology:medium:0",
+      "question": "A 70-year-old woman is started on treatment related to aBCs first poisoning. Which of the following is correct?",
+      "options": [
+        "A) Give antidotes before opening the airway in apnea",
+        "B) Penicillamine first-line for all childhood lead poisonings without specialty input",
+        "C) Charcoal forced in actively vomiting unprotected seizing patients without airway plan",
+        "D) Airway, breathing, and circulation stabilization precedes antidotes in most poisonings"
+      ],
+      "answer": "D) Airway, breathing, and circulation stabilization precedes antidotes in most poisonings",
+      "explanation": "Dead patients do not benefit from specific antidotes without resuscitation. Therefore, the most accurate choice is: Airway, breathing, and circulation stabilization precedes antidotes in most poisonings. Resuscitation comes first.",
+      "choice_explanations": {
+        "A": "Resuscitation comes first. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Dead patients do not benefit from specific antidotes without resuscitation. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:medium:1",
+      "question": "During a pharmacology discussion of activated charcoal role, which statement is correct?",
+      "options": [
+        "A) Charcoal forced in actively vomiting unprotected seizing patients without airway plan",
+        "B) Most useful early for selected ingestions when the airway is protected",
+        "C) Activated charcoal binds lithium avidly as first-line decontamination",
+        "D) Helps all ingestions at any time including metals and alcohols always"
+      ],
+      "answer": "B) Most useful early for selected ingestions when the airway is protected",
+      "explanation": "Hydrocarbons, caustics, and metals are generally poor charcoal candidates. Therefore, the most accurate choice is: Most useful early for selected ingestions when the airway is protected. Charcoal is not universally effective for every toxin.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Hydrocarbons, caustics, and metals are generally poor charcoal candidates. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Charcoal is not universally effective for every toxin. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:medium:2",
+      "question": "Medication review raises a question about MDAC indications. Which of the following is correct?",
+      "options": [
+        "A) First-line for iron and lithium because both are lipophilic ions",
+        "B) First-line for iron overdose",
+        "C) Used for selected agents with enterohepatic recirculation such as carbamazepine and theophylline themes",
+        "D) First-line elimination for every overdose including lithium and iron"
+      ],
+      "answer": "C) Used for selected agents with enterohepatic recirculation such as carbamazepine and theophylline themes",
+      "explanation": "Interrupting reabsorption enhances elimination for selected drugs. Therefore, the most accurate choice is: Used for selected agents with enterohepatic recirculation such as carbamazepine and theophylline themes. Iron is not an MDAC indication.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Iron is not an MDAC indication. It is less consistent than the correct choice.",
+        "C": "Interrupting reabsorption enhances elimination for selected drugs. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:medium:3",
+      "question": "A 51-year-old man develops an adverse effect related to whole bowel irrigation. Which of the following best explains it?",
+      "options": [
+        "A) Liver injury always peaks within one hour of ingestion",
+        "B) PEG-ELS lavage for some sustained-release or body-packer scenarios",
+        "C) Flumazenil is first-line for opioid apnea",
+        "D) First-line for all acetaminophen overdoses at one hour"
+      ],
+      "answer": "B) PEG-ELS lavage for some sustained-release or body-packer scenarios",
+      "explanation": "Airway protection and absence of ileus are prerequisites. Therefore, the most accurate choice is: PEG-ELS lavage for some sustained-release or body-packer scenarios. NAC, not WBI, is acetaminophen antidote care.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Airway protection and absence of ileus are prerequisites. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "NAC, not WBI, is acetaminophen antidote care. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:medium:4",
+      "question": "A 58-year-old woman needs counseling about gastric lavage limited. Which of the following is most appropriate?",
+      "options": [
+        "A) Flumazenil is mandatory for every undifferentiated coma",
+        "B) Rarely indicated because risks often outweigh benefits",
+        "C) Mandatory for every overdose within 24 hours",
+        "D) Mandatory flumazenil plus physostigmine for every coma"
+      ],
+      "answer": "B) Rarely indicated because risks often outweigh benefits",
+      "explanation": "Aspiration and trauma risks limit use. Therefore, the most accurate choice is: Rarely indicated because risks often outweigh benefits. Not mandatory routine care.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Aspiration and trauma risks limit use. This matches the correct interpretation.",
+        "C": "Not mandatory routine care. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:medium:5",
+      "question": "A 9-year-old child has findings that raise concern for ipecac obsolete. Which of the following is correct?",
+      "options": [
+        "A) Activated charcoal binds lithium avidly as first-line decontamination",
+        "B) No longer recommended for routine home or ED gastrointestinal decontamination",
+        "C) First-line for all pediatric ingestions today",
+        "D) Induce vomiting for all gasoline ingestions to clear lungs"
+      ],
+      "answer": "B) No longer recommended for routine home or ED gastrointestinal decontamination",
+      "explanation": "Delayed vomiting and aspiration risk led to abandonment. Therefore, the most accurate choice is: No longer recommended for routine home or ED gastrointestinal decontamination. Modern guidance avoids routine ipecac.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Delayed vomiting and aspiration risk led to abandonment. This matches the correct interpretation.",
+        "C": "Modern guidance avoids routine ipecac. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:medium:6",
+      "question": "Exam findings raise a question about toxidrome approach. Which of the following is correct?",
+      "options": [
+        "A) Produces opioid toxidrome with pinpoint pupils and apnea as hallmark",
+        "B) Physostigmine is routine first therapy for TCA wide-complex overdose",
+        "C) Useless if the exact pill imprint is unknown",
+        "D) Pattern recognition of opioid, anticholinergic, cholinergic, sedative, and sympathomimetic clusters guides therapy"
+      ],
+      "answer": "D) Pattern recognition of opioid, anticholinergic, cholinergic, sedative, and sympathomimetic clusters guides therapy",
+      "explanation": "Mixed overdoses may blur classic clusters. Therefore, the most accurate choice is: Pattern recognition of opioid, anticholinergic, cholinergic, sedative, and sympathomimetic clusters guides therapy. Toxidromes remain useful without definitive identification.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Toxidromes remain useful without definitive identification. It is less consistent than the correct choice.",
+        "D": "Mixed overdoses may blur classic clusters. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:medium:7",
+      "question": "A 34-year-old man has lab changes linked to opioid OD care. Which of the following is correct?",
+      "options": [
+        "A) Flumazenil is first-line for opioid apnea",
+        "B) Treat opioid withdrawal with repeated high-dose naloxone boluses",
+        "C) Support ventilation and give titrated naloxone for respiratory depression",
+        "D) Flumazenil reverses baclofen completely as specific antidote"
+      ],
+      "answer": "C) Support ventilation and give titrated naloxone for respiratory depression",
+      "explanation": "Longer-acting opioids may need naloxone infusions after response. Therefore, the most accurate choice is: Support ventilation and give titrated naloxone for respiratory depression. Naloxone, not flumazenil, reverses opioids.",
+      "choice_explanations": {
+        "A": "Naloxone, not flumazenil, reverses opioids. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Longer-acting opioids may need naloxone infusions after response. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:medium:8",
+      "question": "A 45-year-old woman is started on treatment related to benzodiazepine OD care. Which of the following is correct?",
+      "options": [
+        "A) Flumazenil is mandatory for every undifferentiated coma",
+        "B) Supportive airway care is primary; flumazenil is rarely used due to seizure risk",
+        "C) Mandatory flumazenil plus physostigmine for every coma",
+        "D) Flumazenil reverses all antipsychotic overdose"
+      ],
+      "answer": "B) Supportive airway care is primary; flumazenil is rarely used due to seizure risk",
+      "explanation": "Most patients recover with supportive care. Therefore, the most accurate choice is: Supportive airway care is primary; flumazenil is rarely used due to seizure risk. Blind flumazenil in undifferentiated coma is dangerous.",
+      "choice_explanations": {
+        "A": "Blind flumazenil in undifferentiated coma is dangerous. It is less consistent than the correct choice.",
+        "B": "Most patients recover with supportive care. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:medium:9",
+      "question": "A 75-year-old man takes several medicines and is assessed regarding anticholinergic care. Which of the following is most appropriate?",
+      "options": [
+        "A) Benzodiazepines for agitation; cautious physostigmine in selected pure anticholinergic delirium",
+        "B) Routine in all wide-complex TCA overdoses",
+        "C) Physostigmine is routine first therapy for TCA wide-complex overdose",
+        "D) Narrow QRS forever excludes TCA risk and bicarb never used"
+      ],
+      "answer": "A) Benzodiazepines for agitation; cautious physostigmine in selected pure anticholinergic delirium",
+      "explanation": "Sodium bicarbonate addresses TCA sodium-channel toxicity. Therefore, the most accurate choice is: Benzodiazepines for agitation; cautious physostigmine in selected pure anticholinergic delirium. TCA cardiotoxicity is not treated primarily with physostigmine.",
+      "choice_explanations": {
+        "A": "Sodium bicarbonate addresses TCA sodium-channel toxicity. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "TCA cardiotoxicity is not treated primarily with physostigmine. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:medium:10",
+      "question": "Medication review raises a question about cholinergic crisis care. Which of the following is correct?",
+      "options": [
+        "A) Atropine regenerates AChE while pralidoxime only dries secretions",
+        "B) Aging increases oxime effectiveness over days",
+        "C) Osmolar gap stays high forever while anion gap never rises in methanol poisoning",
+        "D) Atropine for muscarinic effects; pralidoxime for organophosphate AChE regeneration before aging"
+      ],
+      "answer": "D) Atropine for muscarinic effects; pralidoxime for organophosphate AChE regeneration before aging",
+      "explanation": "Diazepam treats seizures in nerve-agent or OP poisoning. Therefore, the most accurate choice is: Atropine for muscarinic effects; pralidoxime for organophosphate AChE regeneration before aging. Oximes regenerate AChE; atropine is antimuscarinic.",
+      "choice_explanations": {
+        "A": "Oximes regenerate AChE; atropine is antimuscarinic. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Diazepam treats seizures in nerve-agent or OP poisoning. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:medium:11",
+      "question": "A 65-year-old man develops an adverse effect related to sympathomimetic care. Which of the following best explains it?",
+      "options": [
+        "A) Physostigmine is routine first therapy for TCA wide-complex overdose",
+        "B) Phenytoin alone preferred over benzos for alcohol withdrawal seizures",
+        "C) Pure beta-blockers alone preferred first for all cocaine hypertension",
+        "D) Benzodiazepines first for cocaine or amphetamine agitation and hyperadrenergia"
+      ],
+      "answer": "D) Benzodiazepines first for cocaine or amphetamine agitation and hyperadrenergia",
+      "explanation": "Avoid unopposed alpha concerns when using beta-blockers in cocaine toxicity teaching. Therefore, the most accurate choice is: Benzodiazepines first for cocaine or amphetamine agitation and hyperadrenergia. Benzodiazepines are first-line.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Benzodiazepines are first-line. It is less consistent than the correct choice.",
+        "D": "Avoid unopposed alpha concerns when using beta-blockers in cocaine toxicity teaching. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:medium:12",
+      "question": "A 53-year-old man needs counseling about serotonin syndrome care. Which of the following is most appropriate?",
+      "options": [
+        "A) Stop serotonergic drugs, cool, use benzos; consider cyproheptadine when moderate-severe",
+        "B) Treat opioid withdrawal with repeated high-dose naloxone boluses",
+        "C) Start an MAOI to treat serotonin syndrome",
+        "D) Increase antipsychotic depot doses to treat NMS"
+      ],
+      "answer": "A) Stop serotonergic drugs, cool, use benzos; consider cyproheptadine when moderate-severe",
+      "explanation": "Differentiate from NMS by neuromuscular findings and drug history. Therefore, the most accurate choice is: Stop serotonergic drugs, cool, use benzos; consider cyproheptadine when moderate-severe. Adding MAOI worsens serotonin toxicity.",
+      "choice_explanations": {
+        "A": "Differentiate from NMS by neuromuscular findings and drug history. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Adding MAOI worsens serotonin toxicity. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:medium:13",
+      "question": "During medication reconciliation, NMS care tox is discussed. Which of the following is correct?",
+      "options": [
+        "A) Increase antipsychotic depot doses to treat NMS",
+        "B) Stop antipsychotics, support, consider dantrolene or bromocriptine in severe cases",
+        "C) Causes severe anion-gap acidosis via formate always",
+        "D) Start an MAOI to treat serotonin syndrome"
+      ],
+      "answer": "B) Stop antipsychotics, support, consider dantrolene or bromocriptine in severe cases",
+      "explanation": "Onset is typically slower than serotonin syndrome. Therefore, the most accurate choice is: Stop antipsychotics, support, consider dantrolene or bromocriptine in severe cases. More dopamine blockade worsens NMS.",
+      "choice_explanations": {
+        "A": "More dopamine blockade worsens NMS. It is less consistent than the correct choice.",
+        "B": "Onset is typically slower than serotonin syndrome. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:medium:14",
+      "question": "A 45-year-old woman needs dose adjustment related to acetaminophen stages. Which of the following is most accurate?",
+      "options": [
+        "A) Liver injury always peaks within one hour of ingestion",
+        "B) Early GI within 30 minutes rules in amatoxin as most likely",
+        "C) Early GI symptoms, latent phase, then delayed hepatic injury without antidote",
+        "D) Applies unchanged to all chronic repeated ingestions"
+      ],
+      "answer": "C) Early GI symptoms, latent phase, then delayed hepatic injury without antidote",
+      "explanation": "Rumack-Matthew nomogram guides NAC for acute timed single ingestions. Therefore, the most accurate choice is: Early GI symptoms, latent phase, then delayed hepatic injury without antidote. Hepatic injury is delayed, not immediate within one hour.",
+      "choice_explanations": {
+        "A": "Hepatic injury is delayed, not immediate within one hour. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Rumack-Matthew nomogram guides NAC for acute timed single ingestions. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:medium:15",
+      "question": "Which interpretation of NAC is correct?",
+      "options": [
+        "A) Harmless in overdose because iron is a nutrient",
+        "B) Produce iron toxicity treated with deferoxamine",
+        "C) Replenishes glutathione and supports detoxification of NAPQI",
+        "D) NAC chelates NAPQI iron like deferoxamine"
+      ],
+      "answer": "C) Replenishes glutathione and supports detoxification of NAPQI",
+      "explanation": "Oral and IV protocols are both effective; timing is critical. Therefore, the most accurate choice is: Replenishes glutathione and supports detoxification of NAPQI. Glutathione repletion, not iron chelation, is the mechanism.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Oral and IV protocols are both effective; timing is critical. This matches the correct interpretation.",
+        "D": "Glutathione repletion, not iron chelation, is the mechanism. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:medium:16",
+      "question": "A 36-year-old man is started on treatment related to rumack nomogram. Which of the following is correct?",
+      "options": [
+        "A) Assessed only with the identical four-hour single-ingestion nomogram",
+        "B) Applies unchanged to all chronic repeated ingestions",
+        "C) For acute single APAP ingestion with known time; plot level at four hours or later",
+        "D) Useless if started after eight hours in all cases"
+      ],
+      "answer": "C) For acute single APAP ingestion with known time; plot level at four hours or later",
+      "explanation": "Below the treatment line after four hours may defer NAC in classic acute cases. Therefore, the most accurate choice is: For acute single APAP ingestion with known time; plot level at four hours or later. Chronic ingestions need different risk assessment.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Chronic ingestions need different risk assessment. It is less consistent than the correct choice.",
+        "C": "Below the treatment line after four hours may defer NAC in classic acute cases. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:medium:17",
+      "question": "A 45-year-old woman takes several medicines and is assessed regarding salicylate features. Which of the following is most appropriate?",
+      "options": [
+        "A) Isolated opioid-like miosis and apnea as the salicylate hallmark",
+        "B) Tinnitus, mixed respiratory alkalosis and metabolic acidosis, fever, altered mentation",
+        "C) Acidify urine to increase salicylate clearance",
+        "D) Flumazenil is first-line for opioid apnea"
+      ],
+      "answer": "B) Tinnitus, mixed respiratory alkalosis and metabolic acidosis, fever, altered mentation",
+      "explanation": "Urine alkalinization and hemodialysis for severe cases. Therefore, the most accurate choice is: Tinnitus, mixed respiratory alkalosis and metabolic acidosis, fever, altered mentation. Salicylate is not an opioid toxidrome.",
+      "choice_explanations": {
+        "A": "Salicylate is not an opioid toxidrome. It is less consistent than the correct choice.",
+        "B": "Urine alkalinization and hemodialysis for severe cases. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:medium:18",
+      "question": "Which of the following correctly describes salicylate alkalinization?",
+      "options": [
+        "A) IV sodium bicarbonate increases ion trapping of salicylate in urine",
+        "B) Acidify urine to increase salicylate clearance",
+        "C) Used to acidify serum in TCA OD",
+        "D) Indicated for severe levels with refractory acidosis, renal failure, pulmonary edema, or deep altered mentation"
+      ],
+      "answer": "A) IV sodium bicarbonate increases ion trapping of salicylate in urine",
+      "explanation": "Hemodialysis for severe toxicity or organ failure. Therefore, the most accurate choice is: IV sodium bicarbonate increases ion trapping of salicylate in urine. Alkalinization, not acidification, enhances clearance.",
+      "choice_explanations": {
+        "A": "Hemodialysis for severe toxicity or organ failure. This matches the correct interpretation.",
+        "B": "Alkalinization, not acidification, enhances clearance. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:medium:19",
+      "question": "In a 59-year-old woman, which statement about salicylate dialysis is correct?",
+      "options": [
+        "A) Indicated for severe levels with refractory acidosis, renal failure, pulmonary edema, or deep altered mentation",
+        "B) Charcoal hemoperfusion preferred because lithium binds charcoal avidly",
+        "C) Always harmless because metformin does not affect lactate",
+        "D) Harmless with charcoal never indicated"
+      ],
+      "answer": "A) Indicated for severe levels with refractory acidosis, renal failure, pulmonary edema, or deep altered mentation",
+      "explanation": "Clinical context complements level interpretation. Therefore, the most accurate choice is: Indicated for severe levels with refractory acidosis, renal failure, pulmonary edema, or deep altered mentation. Hemodialysis is definitive for severe salicylism.",
+      "choice_explanations": {
+        "A": "Clinical context complements level interpretation. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:medium:20",
+      "question": "A 65-year-old man needs counseling about methanol toxicity. Which of the following is most appropriate?",
+      "options": [
+        "A) Metabolized to oxalate that crystallizes in kidneys as primary toxin",
+        "B) Causes severe anion-gap acidosis via formate always",
+        "C) Primarily causes optic neuropathy via formate like methanol exclusively",
+        "D) ADH makes formate causing visual toxicity and anion-gap acidosis"
+      ],
+      "answer": "D) ADH makes formate causing visual toxicity and anion-gap acidosis",
+      "explanation": "Fomepizole blocks ADH; dialysis for severe cases. Therefore, the most accurate choice is: ADH makes formate causing visual toxicity and anion-gap acidosis. Oxalate injury is ethylene glycol; formate marks methanol.",
+      "choice_explanations": {
+        "A": "Oxalate injury is ethylene glycol; formate marks methanol. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Fomepizole blocks ADH; dialysis for severe cases. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:medium:21",
+      "question": "During medication reconciliation, ethylene glycol toxicity is discussed. Which of the following is correct?",
+      "options": [
+        "A) Primarily causes optic neuropathy via formate like methanol exclusively",
+        "B) Metabolized to oxalate that crystallizes in kidneys as primary toxin",
+        "C) ADH yields glycolate and oxalate; renal failure and anion-gap acidosis",
+        "D) Causes severe anion-gap acidosis via formate always"
+      ],
+      "answer": "C) ADH yields glycolate and oxalate; renal failure and anion-gap acidosis",
+      "explanation": "Fomepizole and dialysis are cornerstones. Therefore, the most accurate choice is: ADH yields glycolate and oxalate; renal failure and anion-gap acidosis. Formate optic toxicity is methanol's hallmark more than EG.",
+      "choice_explanations": {
+        "A": "Formate optic toxicity is methanol's hallmark more than EG. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Fomepizole and dialysis are cornerstones. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:medium:22",
+      "question": "A 37-year-old man needs dose adjustment related to fomepizole role. Which of the following is most accurate?",
+      "options": [
+        "A) Always preferred over fomepizole when both available",
+        "B) Induces alcohol dehydrogenase to clear methanol faster",
+        "C) Inhibits alcohol dehydrogenase blocking toxic acid metabolite formation",
+        "D) Wait days for send-out methanol levels before any antidote in acidotic patients"
+      ],
+      "answer": "C) Inhibits alcohol dehydrogenase blocking toxic acid metabolite formation",
+      "explanation": "Preferred over ethanol infusions in most settings when available. Therefore, the most accurate choice is: Inhibits alcohol dehydrogenase blocking toxic acid metabolite formation. It inhibits, rather than induces, ADH.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "It inhibits, rather than induces, ADH. It is less consistent than the correct choice.",
+        "C": "Preferred over ethanol infusions in most settings when available. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:medium:23",
+      "question": "A 67-year-old man has lab changes linked to isopropanol toxicity. Which of the following is correct?",
+      "options": [
+        "A) Metabolized to acetone; ketosis without acidosis typically; CNS depression; supportive care",
+        "B) Metabolized to oxalate that crystallizes in kidneys as primary toxin",
+        "C) Causes severe anion-gap acidosis via formate always",
+        "D) Primarily causes optic neuropathy via formate like methanol exclusively"
+      ],
+      "answer": "A) Metabolized to acetone; ketosis without acidosis typically; CNS depression; supportive care",
+      "explanation": "Fomepizole usually not needed because acetone is less toxic. Therefore, the most accurate choice is: Metabolized to acetone; ketosis without acidosis typically; CNS depression; supportive care. Ketosis without acidosis helps distinguish isopropanol.",
+      "choice_explanations": {
+        "A": "Fomepizole usually not needed because acetone is less toxic. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Ketosis without acidosis helps distinguish isopropanol. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:medium:24",
+      "question": "A 56-year-old man is started on treatment related to digoxin toxicity features. Which of the following is correct?",
+      "options": [
+        "A) Treated with naloxone as specific antidote",
+        "B) Contraindicated in all digoxin toxicity",
+        "C) Hypokalemia is the exclusive laboratory hallmark of acute digoxin poisoning",
+        "D) GI symptoms, visual changes, hyperkalemia, and ventricular arrhythmias risk"
+      ],
+      "answer": "D) GI symptoms, visual changes, hyperkalemia, and ventricular arrhythmias risk",
+      "explanation": "Digoxin-specific Fab for life-threatening toxicity. Therefore, the most accurate choice is: GI symptoms, visual changes, hyperkalemia, and ventricular arrhythmias risk. Acute digoxin toxicity often elevates potassium.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Acute digoxin toxicity often elevates potassium. It is less consistent than the correct choice.",
+        "D": "Digoxin-specific Fab for life-threatening toxicity. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:medium:25",
+      "question": "While evaluating a 56-year-old woman, attention turns to digoxin Fab. Which of the following is most accurate?",
+      "options": [
+        "A) Used for life-threatening arrhythmias, severe hyperkalemia in acute OD, or unstable bradycardia",
+        "B) Levels irrelevant because the drug has no toxicity",
+        "C) Contraindicated in all digoxin toxicity",
+        "D) Hypokalemia is the exclusive laboratory hallmark of acute digoxin poisoning"
+      ],
+      "answer": "A) Used for life-threatening arrhythmias, severe hyperkalemia in acute OD, or unstable bradycardia",
+      "explanation": "After Fab, free levels fall; total levels may rise and mislead. Therefore, the most accurate choice is: Used for life-threatening arrhythmias, severe hyperkalemia in acute OD, or unstable bradycardia. Fab is specific antidotal therapy.",
+      "choice_explanations": {
+        "A": "After Fab, free levels fall; total levels may rise and mislead. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Fab is specific antidotal therapy. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:medium:26",
+      "question": "Medication review raises a question about CCB overdose. Which of the following is correct?",
+      "options": [
+        "A) High oxygen therapy is specifically therapeutic in paraquat",
+        "B) Hyperglycemia with bradycardia and hypotension; calcium, insulin-euglycemia, vasopressors",
+        "C) Intended to produce prolonged refractory hypoglycemia as the endpoint",
+        "D) Insulin avoided because hypoglycemia is the therapeutic goal"
+      ],
+      "answer": "B) Hyperglycemia with bradycardia and hypotension; calcium, insulin-euglycemia, vasopressors",
+      "explanation": "High-dose insulin supports inotropy while dextrose maintains euglycemia. Therefore, the most accurate choice is: Hyperglycemia with bradycardia and hypotension; calcium, insulin-euglycemia, vasopressors. Euglycemia is maintained, not therapeutic hypoglycemia.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "High-dose insulin supports inotropy while dextrose maintains euglycemia. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Euglycemia is maintained, not therapeutic hypoglycemia. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:medium:27",
+      "question": "In comparing drug properties, which statement about BB overdose is correct?",
+      "options": [
+        "A) Glucagon competitively blocks beta receptors as antidote",
+        "B) Bradycardia, hypotension, more hypoglycemia/seizures with some agents; glucagon and high-dose insulin themes",
+        "C) Competitive beta-blocker itself",
+        "D) Insulin avoided because hypoglycemia is the therapeutic goal"
+      ],
+      "answer": "B) Bradycardia, hypotension, more hypoglycemia/seizures with some agents; glucagon and high-dose insulin themes",
+      "explanation": "Glucagon raises cAMP independent of beta-receptor occupancy. Therefore, the most accurate choice is: Bradycardia, hypotension, more hypoglycemia/seizures with some agents; glucagon and high-dose insulin themes. Glucagon bypasses receptors rather than blocking them.",
+      "choice_explanations": {
+        "A": "Glucagon bypasses receptors rather than blocking them. It is less consistent than the correct choice.",
+        "B": "Glucagon raises cAMP independent of beta-receptor occupancy. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:medium:28",
+      "question": "Clinical testing related to TCA ECG toxicity is performed. Which of the following is correct?",
+      "options": [
+        "A) Routine in all wide-complex TCA overdoses",
+        "B) Narrow QRS forever excludes TCA risk and bicarb never used",
+        "C) Used to acidify serum in TCA OD",
+        "D) Wide QRS and terminal R in aVR; treat wide complex with sodium bicarbonate"
+      ],
+      "answer": "D) Wide QRS and terminal R in aVR; treat wide complex with sodium bicarbonate",
+      "explanation": "Alkalinization and sodium loading improve sodium-channel function. Therefore, the most accurate choice is: Wide QRS and terminal R in aVR; treat wide complex with sodium bicarbonate. QRS widening is a key TCA marker treated with bicarb.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "QRS widening is a key TCA marker treated with bicarb. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Alkalinization and sodium loading improve sodium-channel function. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:medium:29",
+      "question": "During medication reconciliation, TCA seizures is discussed. Which of the following is correct?",
+      "options": [
+        "A) Physostigmine is first-line for TCA seizures and wide QRS",
+        "B) Benzodiazepines for seizures; avoid physostigmine when conduction is delayed",
+        "C) Physostigmine is routine first therapy for TCA wide-complex overdose",
+        "D) Narrow QRS forever excludes TCA risk and bicarb never used"
+      ],
+      "answer": "B) Benzodiazepines for seizures; avoid physostigmine when conduction is delayed",
+      "explanation": "Sodium bicarbonate still addresses concomitant cardiotoxicity. Therefore, the most accurate choice is: Benzodiazepines for seizures; avoid physostigmine when conduction is delayed. Physostigmine is dangerous in TCA overdose with conduction delay.",
+      "choice_explanations": {
+        "A": "Physostigmine is dangerous in TCA overdose with conduction delay. It is less consistent than the correct choice.",
+        "B": "Sodium bicarbonate still addresses concomitant cardiotoxicity. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ],
+  "hard": [
+    {
+      "id": "toxicology:hard:0",
+      "question": "A 70-year-old woman is evaluated for possible aBCs first poisoning. Which of the following is most accurate?",
+      "options": [
+        "A) Airway, breathing, and circulation stabilization precedes antidotes in most poisonings",
+        "B) Give antidotes before opening the airway in apnea",
+        "C) Penicillamine first-line for all childhood lead poisonings without specialty input",
+        "D) Flumazenil is first-line for opioid apnea"
+      ],
+      "answer": "A) Airway, breathing, and circulation stabilization precedes antidotes in most poisonings",
+      "explanation": "Dead patients do not benefit from specific antidotes without resuscitation. Therefore, the most accurate choice is: Airway, breathing, and circulation stabilization precedes antidotes in most poisonings. Resuscitation comes first.",
+      "choice_explanations": {
+        "A": "Dead patients do not benefit from specific antidotes without resuscitation. This matches the correct interpretation.",
+        "B": "Resuscitation comes first. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:hard:1",
+      "question": "Two similar explanations for activated charcoal role are compared. Which of the following is correct?",
+      "options": [
+        "A) Helps all ingestions at any time including metals and alcohols always",
+        "B) Charcoal forced in actively vomiting unprotected seizing patients without airway plan",
+        "C) Most useful early for selected ingestions when the airway is protected",
+        "D) Activated charcoal binds lithium avidly as first-line decontamination"
+      ],
+      "answer": "C) Most useful early for selected ingestions when the airway is protected",
+      "explanation": "Hydrocarbons, caustics, and metals are generally poor charcoal candidates. Therefore, the most accurate choice is: Most useful early for selected ingestions when the airway is protected. Charcoal is not universally effective for every toxin.",
+      "choice_explanations": {
+        "A": "Charcoal is not universally effective for every toxin. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Hydrocarbons, caustics, and metals are generally poor charcoal candidates. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:hard:2",
+      "question": "In a detailed discussion of MDAC indications, which of the following is most accurate?",
+      "options": [
+        "A) First-line for iron overdose",
+        "B) First-line elimination for every overdose including lithium and iron",
+        "C) Used for selected agents with enterohepatic recirculation such as carbamazepine and theophylline themes",
+        "D) First-line for iron and lithium because both are lipophilic ions"
+      ],
+      "answer": "C) Used for selected agents with enterohepatic recirculation such as carbamazepine and theophylline themes",
+      "explanation": "Interrupting reabsorption enhances elimination for selected drugs. Therefore, the most accurate choice is: Used for selected agents with enterohepatic recirculation such as carbamazepine and theophylline themes. Iron is not an MDAC indication.",
+      "choice_explanations": {
+        "A": "Iron is not an MDAC indication. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Interrupting reabsorption enhances elimination for selected drugs. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:hard:3",
+      "question": "Which of the following correctly distinguishes key points about whole bowel irrigation?",
+      "options": [
+        "A) PEG-ELS lavage for some sustained-release or body-packer scenarios",
+        "B) Liver injury always peaks within one hour of ingestion",
+        "C) Flumazenil is first-line for opioid apnea",
+        "D) First-line for all acetaminophen overdoses at one hour"
+      ],
+      "answer": "A) PEG-ELS lavage for some sustained-release or body-packer scenarios",
+      "explanation": "Airway protection and absence of ileus are prerequisites. Therefore, the most accurate choice is: PEG-ELS lavage for some sustained-release or body-packer scenarios. NAC, not WBI, is acetaminophen antidote care.",
+      "choice_explanations": {
+        "A": "Airway protection and absence of ileus are prerequisites. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "NAC, not WBI, is acetaminophen antidote care. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:hard:4",
+      "question": "Careful interpretation of gastric lavage limited is required. Which of the following is correct?",
+      "options": [
+        "A) Flumazenil is mandatory for every undifferentiated coma",
+        "B) Mandatory flumazenil plus physostigmine for every coma",
+        "C) Rarely indicated because risks often outweigh benefits",
+        "D) Mandatory for every overdose within 24 hours"
+      ],
+      "answer": "C) Rarely indicated because risks often outweigh benefits",
+      "explanation": "Aspiration and trauma risks limit use. Therefore, the most accurate choice is: Rarely indicated because risks often outweigh benefits. Not mandatory routine care.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Aspiration and trauma risks limit use. This matches the correct interpretation.",
+        "D": "Not mandatory routine care. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:hard:5",
+      "question": "A 9-year-old child presents with features compatible with ipecac obsolete. Which of the following is most accurate?",
+      "options": [
+        "A) No longer recommended for routine home or ED gastrointestinal decontamination",
+        "B) Activated charcoal binds lithium avidly as first-line decontamination",
+        "C) Induce vomiting for all gasoline ingestions to clear lungs",
+        "D) First-line for all pediatric ingestions today"
+      ],
+      "answer": "A) No longer recommended for routine home or ED gastrointestinal decontamination",
+      "explanation": "Delayed vomiting and aspiration risk led to abandonment. Therefore, the most accurate choice is: No longer recommended for routine home or ED gastrointestinal decontamination. Modern guidance avoids routine ipecac.",
+      "choice_explanations": {
+        "A": "Delayed vomiting and aspiration risk led to abandonment. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Modern guidance avoids routine ipecac. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:hard:6",
+      "question": "After examining a 34-year-old man, which statement about opioid OD care is correct?",
+      "options": [
+        "A) Flumazenil reverses baclofen completely as specific antidote",
+        "B) Support ventilation and give titrated naloxone for respiratory depression",
+        "C) Treat opioid withdrawal with repeated high-dose naloxone boluses",
+        "D) Flumazenil is first-line for opioid apnea"
+      ],
+      "answer": "B) Support ventilation and give titrated naloxone for respiratory depression",
+      "explanation": "Longer-acting opioids may need naloxone infusions after response. Therefore, the most accurate choice is: Support ventilation and give titrated naloxone for respiratory depression. Naloxone, not flumazenil, reverses opioids.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Longer-acting opioids may need naloxone infusions after response. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Naloxone, not flumazenil, reverses opioids. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:hard:7",
+      "question": "A 45-year-old woman is evaluated for possible benzodiazepine OD care. Which of the following is most accurate?",
+      "options": [
+        "A) Mandatory flumazenil plus physostigmine for every coma",
+        "B) Supportive airway care is primary; flumazenil is rarely used due to seizure risk",
+        "C) Flumazenil is mandatory for every undifferentiated coma",
+        "D) Flumazenil reverses all antipsychotic overdose"
+      ],
+      "answer": "B) Supportive airway care is primary; flumazenil is rarely used due to seizure risk",
+      "explanation": "Most patients recover with supportive care. Therefore, the most accurate choice is: Supportive airway care is primary; flumazenil is rarely used due to seizure risk. Blind flumazenil in undifferentiated coma is dangerous.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Most patients recover with supportive care. This matches the correct interpretation.",
+        "C": "Blind flumazenil in undifferentiated coma is dangerous. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:hard:8",
+      "question": "Two similar explanations for anticholinergic care are compared. Which of the following is correct?",
+      "options": [
+        "A) Physostigmine is routine first therapy for TCA wide-complex overdose",
+        "B) Narrow QRS forever excludes TCA risk and bicarb never used",
+        "C) Routine in all wide-complex TCA overdoses",
+        "D) Benzodiazepines for agitation; cautious physostigmine in selected pure anticholinergic delirium"
+      ],
+      "answer": "D) Benzodiazepines for agitation; cautious physostigmine in selected pure anticholinergic delirium",
+      "explanation": "Sodium bicarbonate addresses TCA sodium-channel toxicity. Therefore, the most accurate choice is: Benzodiazepines for agitation; cautious physostigmine in selected pure anticholinergic delirium. TCA cardiotoxicity is not treated primarily with physostigmine.",
+      "choice_explanations": {
+        "A": "TCA cardiotoxicity is not treated primarily with physostigmine. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Sodium bicarbonate addresses TCA sodium-channel toxicity. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:hard:9",
+      "question": "In a 39-year-old man, cholinergic crisis care must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) Aging increases oxime effectiveness over days",
+        "B) Atropine regenerates AChE while pralidoxime only dries secretions",
+        "C) Atropine for muscarinic effects; pralidoxime for organophosphate AChE regeneration before aging",
+        "D) Osmolar gap stays high forever while anion gap never rises in methanol poisoning"
+      ],
+      "answer": "C) Atropine for muscarinic effects; pralidoxime for organophosphate AChE regeneration before aging",
+      "explanation": "Diazepam treats seizures in nerve-agent or OP poisoning. Therefore, the most accurate choice is: Atropine for muscarinic effects; pralidoxime for organophosphate AChE regeneration before aging. Oximes regenerate AChE; atropine is antimuscarinic.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Oximes regenerate AChE; atropine is antimuscarinic. It is less consistent than the correct choice.",
+        "C": "Diazepam treats seizures in nerve-agent or OP poisoning. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:hard:10",
+      "question": "A 65-year-old man returns for review of suspected sympathomimetic care. Which of the following is most accurate?",
+      "options": [
+        "A) Phenytoin alone preferred over benzos for alcohol withdrawal seizures",
+        "B) Physostigmine is routine first therapy for TCA wide-complex overdose",
+        "C) Benzodiazepines first for cocaine or amphetamine agitation and hyperadrenergia",
+        "D) Pure beta-blockers alone preferred first for all cocaine hypertension"
+      ],
+      "answer": "C) Benzodiazepines first for cocaine or amphetamine agitation and hyperadrenergia",
+      "explanation": "Avoid unopposed alpha concerns when using beta-blockers in cocaine toxicity teaching. Therefore, the most accurate choice is: Benzodiazepines first for cocaine or amphetamine agitation and hyperadrenergia. Benzodiazepines are first-line.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Avoid unopposed alpha concerns when using beta-blockers in cocaine toxicity teaching. This matches the correct interpretation.",
+        "D": "Benzodiazepines are first-line. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:hard:11",
+      "question": "A clinic case of serotonin syndrome care is discussed. Which of the following is correct?",
+      "options": [
+        "A) Causes severe anion-gap acidosis via formate always",
+        "B) Increase antipsychotic depot doses to treat NMS",
+        "C) Stop serotonergic drugs, cool, use benzos; consider cyproheptadine when moderate-severe",
+        "D) Start an MAOI to treat serotonin syndrome"
+      ],
+      "answer": "C) Stop serotonergic drugs, cool, use benzos; consider cyproheptadine when moderate-severe",
+      "explanation": "Differentiate from NMS by neuromuscular findings and drug history. Therefore, the most accurate choice is: Stop serotonergic drugs, cool, use benzos; consider cyproheptadine when moderate-severe. Adding MAOI worsens serotonin toxicity.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Differentiate from NMS by neuromuscular findings and drug history. This matches the correct interpretation.",
+        "D": "Adding MAOI worsens serotonin toxicity. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:hard:12",
+      "question": "Which statement about NMS care tox is most accurate?",
+      "options": [
+        "A) Stop antipsychotics, support, consider dantrolene or bromocriptine in severe cases",
+        "B) Causes severe anion-gap acidosis via formate always",
+        "C) Start an MAOI to treat serotonin syndrome",
+        "D) Increase antipsychotic depot doses to treat NMS"
+      ],
+      "answer": "A) Stop antipsychotics, support, consider dantrolene or bromocriptine in severe cases",
+      "explanation": "Onset is typically slower than serotonin syndrome. Therefore, the most accurate choice is: Stop antipsychotics, support, consider dantrolene or bromocriptine in severe cases. More dopamine blockade worsens NMS.",
+      "choice_explanations": {
+        "A": "Onset is typically slower than serotonin syndrome. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "More dopamine blockade worsens NMS. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:hard:13",
+      "question": "Which statement about acetaminophen stages in a 45-year-old woman is most accurate?",
+      "options": [
+        "A) Early GI symptoms, latent phase, then delayed hepatic injury without antidote",
+        "B) Early GI within 30 minutes rules in amatoxin as most likely",
+        "C) Applies unchanged to all chronic repeated ingestions",
+        "D) Liver injury always peaks within one hour of ingestion"
+      ],
+      "answer": "A) Early GI symptoms, latent phase, then delayed hepatic injury without antidote",
+      "explanation": "Rumack-Matthew nomogram guides NAC for acute timed single ingestions. Therefore, the most accurate choice is: Early GI symptoms, latent phase, then delayed hepatic injury without antidote. Hepatic injury is delayed, not immediate within one hour.",
+      "choice_explanations": {
+        "A": "Rumack-Matthew nomogram guides NAC for acute timed single ingestions. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Hepatic injury is delayed, not immediate within one hour. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:hard:14",
+      "question": "Which of the following is the best statement about NAC?",
+      "options": [
+        "A) Harmless in overdose because iron is a nutrient",
+        "B) Replenishes glutathione and supports detoxification of NAPQI",
+        "C) First-line for iron and lithium because both are lipophilic ions",
+        "D) NAC chelates NAPQI iron like deferoxamine"
+      ],
+      "answer": "B) Replenishes glutathione and supports detoxification of NAPQI",
+      "explanation": "Oral and IV protocols are both effective; timing is critical. Therefore, the most accurate choice is: Replenishes glutathione and supports detoxification of NAPQI. Glutathione repletion, not iron chelation, is the mechanism.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Oral and IV protocols are both effective; timing is critical. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Glutathione repletion, not iron chelation, is the mechanism. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:hard:15",
+      "question": "Careful review of rumack nomogram is required. Which of the following is most accurate?",
+      "options": [
+        "A) Applies unchanged to all chronic repeated ingestions",
+        "B) Useless if started after eight hours in all cases",
+        "C) For acute single APAP ingestion with known time; plot level at four hours or later",
+        "D) Assessed only with the identical four-hour single-ingestion nomogram"
+      ],
+      "answer": "C) For acute single APAP ingestion with known time; plot level at four hours or later",
+      "explanation": "Below the treatment line after four hours may defer NAC in classic acute cases. Therefore, the most accurate choice is: For acute single APAP ingestion with known time; plot level at four hours or later. Chronic ingestions need different risk assessment.",
+      "choice_explanations": {
+        "A": "Chronic ingestions need different risk assessment. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Below the treatment line after four hours may defer NAC in classic acute cases. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:hard:16",
+      "question": "A 45-year-old woman has findings suggestive of salicylate features. Which of the following is the best interpretation?",
+      "options": [
+        "A) Acidify urine to increase salicylate clearance",
+        "B) Tinnitus, mixed respiratory alkalosis and metabolic acidosis, fever, altered mentation",
+        "C) Isolated opioid-like miosis and apnea as the salicylate hallmark",
+        "D) Produces opioid toxidrome with pinpoint pupils and apnea as hallmark"
+      ],
+      "answer": "B) Tinnitus, mixed respiratory alkalosis and metabolic acidosis, fever, altered mentation",
+      "explanation": "Urine alkalinization and hemodialysis for severe cases. Therefore, the most accurate choice is: Tinnitus, mixed respiratory alkalosis and metabolic acidosis, fever, altered mentation. Salicylate is not an opioid toxidrome.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Urine alkalinization and hemodialysis for severe cases. This matches the correct interpretation.",
+        "C": "Salicylate is not an opioid toxidrome. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:hard:17",
+      "question": "In a detailed discussion of salicylate alkalinization, which of the following is most accurate?",
+      "options": [
+        "A) IV sodium bicarbonate increases ion trapping of salicylate in urine",
+        "B) Acidify urine to increase salicylate clearance",
+        "C) Indicated for severe levels with refractory acidosis, renal failure, pulmonary edema, or deep altered mentation",
+        "D) Used to acidify serum in TCA OD"
+      ],
+      "answer": "A) IV sodium bicarbonate increases ion trapping of salicylate in urine",
+      "explanation": "Hemodialysis for severe toxicity or organ failure. Therefore, the most accurate choice is: IV sodium bicarbonate increases ion trapping of salicylate in urine. Alkalinization, not acidification, enhances clearance.",
+      "choice_explanations": {
+        "A": "Hemodialysis for severe toxicity or organ failure. This matches the correct interpretation.",
+        "B": "Alkalinization, not acidification, enhances clearance. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:hard:18",
+      "question": "Which of the following correctly distinguishes key points about salicylate dialysis?",
+      "options": [
+        "A) Harmless with charcoal never indicated",
+        "B) Indicated for severe levels with refractory acidosis, renal failure, pulmonary edema, or deep altered mentation",
+        "C) Always harmless because metformin does not affect lactate",
+        "D) Charcoal hemoperfusion preferred because lithium binds charcoal avidly"
+      ],
+      "answer": "B) Indicated for severe levels with refractory acidosis, renal failure, pulmonary edema, or deep altered mentation",
+      "explanation": "Clinical context complements level interpretation. Therefore, the most accurate choice is: Indicated for severe levels with refractory acidosis, renal failure, pulmonary edema, or deep altered mentation. Hemodialysis is definitive for severe salicylism.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Clinical context complements level interpretation. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:hard:19",
+      "question": "A clinic case of methanol toxicity is discussed. Which of the following is correct?",
+      "options": [
+        "A) Primarily causes optic neuropathy via formate like methanol exclusively",
+        "B) ADH makes formate causing visual toxicity and anion-gap acidosis",
+        "C) Metabolized to oxalate that crystallizes in kidneys as primary toxin",
+        "D) Causes severe anion-gap acidosis via formate always"
+      ],
+      "answer": "B) ADH makes formate causing visual toxicity and anion-gap acidosis",
+      "explanation": "Fomepizole blocks ADH; dialysis for severe cases. Therefore, the most accurate choice is: ADH makes formate causing visual toxicity and anion-gap acidosis. Oxalate injury is ethylene glycol; formate marks methanol.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Fomepizole blocks ADH; dialysis for severe cases. This matches the correct interpretation.",
+        "C": "Oxalate injury is ethylene glycol; formate marks methanol. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:hard:20",
+      "question": "A 55-year-old man presents with features compatible with ethylene glycol toxicity. Which of the following is most accurate?",
+      "options": [
+        "A) Causes severe anion-gap acidosis via formate always",
+        "B) Primarily causes optic neuropathy via formate like methanol exclusively",
+        "C) ADH yields glycolate and oxalate; renal failure and anion-gap acidosis",
+        "D) Metabolized to oxalate that crystallizes in kidneys as primary toxin"
+      ],
+      "answer": "C) ADH yields glycolate and oxalate; renal failure and anion-gap acidosis",
+      "explanation": "Fomepizole and dialysis are cornerstones. Therefore, the most accurate choice is: ADH yields glycolate and oxalate; renal failure and anion-gap acidosis. Formate optic toxicity is methanol's hallmark more than EG.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Formate optic toxicity is methanol's hallmark more than EG. It is less consistent than the correct choice.",
+        "C": "Fomepizole and dialysis are cornerstones. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:hard:21",
+      "question": "Which statement about fomepizole role in a 37-year-old man is most accurate?",
+      "options": [
+        "A) Induces alcohol dehydrogenase to clear methanol faster",
+        "B) Always preferred over fomepizole when both available",
+        "C) Wait days for send-out methanol levels before any antidote in acidotic patients",
+        "D) Inhibits alcohol dehydrogenase blocking toxic acid metabolite formation"
+      ],
+      "answer": "D) Inhibits alcohol dehydrogenase blocking toxic acid metabolite formation",
+      "explanation": "Preferred over ethanol infusions in most settings when available. Therefore, the most accurate choice is: Inhibits alcohol dehydrogenase blocking toxic acid metabolite formation. It inhibits, rather than induces, ADH.",
+      "choice_explanations": {
+        "A": "It inhibits, rather than induces, ADH. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Preferred over ethanol infusions in most settings when available. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:hard:22",
+      "question": "A 67-year-old man has progressive findings of isopropanol toxicity. Which of the following is most accurate?",
+      "options": [
+        "A) Primarily causes optic neuropathy via formate like methanol exclusively",
+        "B) Causes severe anion-gap acidosis via formate always",
+        "C) Metabolized to acetone; ketosis without acidosis typically; CNS depression; supportive care",
+        "D) Metabolized to oxalate that crystallizes in kidneys as primary toxin"
+      ],
+      "answer": "C) Metabolized to acetone; ketosis without acidosis typically; CNS depression; supportive care",
+      "explanation": "Fomepizole usually not needed because acetone is less toxic. Therefore, the most accurate choice is: Metabolized to acetone; ketosis without acidosis typically; CNS depression; supportive care. Ketosis without acidosis helps distinguish isopropanol.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Ketosis without acidosis helps distinguish isopropanol. It is less consistent than the correct choice.",
+        "C": "Fomepizole usually not needed because acetone is less toxic. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:hard:23",
+      "question": "A 56-year-old man is evaluated for possible digoxin toxicity features. Which of the following is most accurate?",
+      "options": [
+        "A) Contraindicated in all digoxin toxicity",
+        "B) Treated with naloxone as specific antidote",
+        "C) Hypokalemia is the exclusive laboratory hallmark of acute digoxin poisoning",
+        "D) GI symptoms, visual changes, hyperkalemia, and ventricular arrhythmias risk"
+      ],
+      "answer": "D) GI symptoms, visual changes, hyperkalemia, and ventricular arrhythmias risk",
+      "explanation": "Digoxin-specific Fab for life-threatening toxicity. Therefore, the most accurate choice is: GI symptoms, visual changes, hyperkalemia, and ventricular arrhythmias risk. Acute digoxin toxicity often elevates potassium.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Acute digoxin toxicity often elevates potassium. It is less consistent than the correct choice.",
+        "D": "Digoxin-specific Fab for life-threatening toxicity. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:hard:24",
+      "question": "Two similar explanations for digoxin Fab are compared. Which of the following is correct?",
+      "options": [
+        "A) Used for life-threatening arrhythmias, severe hyperkalemia in acute OD, or unstable bradycardia",
+        "B) Hypokalemia is the exclusive laboratory hallmark of acute digoxin poisoning",
+        "C) Levels irrelevant because the drug has no toxicity",
+        "D) Contraindicated in all digoxin toxicity"
+      ],
+      "answer": "A) Used for life-threatening arrhythmias, severe hyperkalemia in acute OD, or unstable bradycardia",
+      "explanation": "After Fab, free levels fall; total levels may rise and mislead. Therefore, the most accurate choice is: Used for life-threatening arrhythmias, severe hyperkalemia in acute OD, or unstable bradycardia. Fab is specific antidotal therapy.",
+      "choice_explanations": {
+        "A": "After Fab, free levels fall; total levels may rise and mislead. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Fab is specific antidotal therapy. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:hard:25",
+      "question": "In a detailed discussion of CCB overdose, which of the following is most accurate?",
+      "options": [
+        "A) Treat opioid withdrawal with repeated high-dose naloxone boluses",
+        "B) Insulin avoided because hypoglycemia is the therapeutic goal",
+        "C) Intended to produce prolonged refractory hypoglycemia as the endpoint",
+        "D) Hyperglycemia with bradycardia and hypotension; calcium, insulin-euglycemia, vasopressors"
+      ],
+      "answer": "D) Hyperglycemia with bradycardia and hypotension; calcium, insulin-euglycemia, vasopressors",
+      "explanation": "High-dose insulin supports inotropy while dextrose maintains euglycemia. Therefore, the most accurate choice is: Hyperglycemia with bradycardia and hypotension; calcium, insulin-euglycemia, vasopressors. Euglycemia is maintained, not therapeutic hypoglycemia.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Euglycemia is maintained, not therapeutic hypoglycemia. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "High-dose insulin supports inotropy while dextrose maintains euglycemia. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:hard:26",
+      "question": "Which of the following correctly distinguishes key points about BB overdose?",
+      "options": [
+        "A) Insulin avoided because hypoglycemia is the therapeutic goal",
+        "B) Glucagon competitively blocks beta receptors as antidote",
+        "C) Competitive beta-blocker itself",
+        "D) Bradycardia, hypotension, more hypoglycemia/seizures with some agents; glucagon and high-dose insulin themes"
+      ],
+      "answer": "D) Bradycardia, hypotension, more hypoglycemia/seizures with some agents; glucagon and high-dose insulin themes",
+      "explanation": "Glucagon raises cAMP independent of beta-receptor occupancy. Therefore, the most accurate choice is: Bradycardia, hypotension, more hypoglycemia/seizures with some agents; glucagon and high-dose insulin themes. Glucagon bypasses receptors rather than blocking them.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Glucagon bypasses receptors rather than blocking them. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Glucagon raises cAMP independent of beta-receptor occupancy. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:hard:27",
+      "question": "Careful interpretation of TCA ECG toxicity is required. Which of the following is correct?",
+      "options": [
+        "A) Used to acidify serum in TCA OD",
+        "B) Narrow QRS forever excludes TCA risk and bicarb never used",
+        "C) Wide QRS and terminal R in aVR; treat wide complex with sodium bicarbonate",
+        "D) Routine in all wide-complex TCA overdoses"
+      ],
+      "answer": "C) Wide QRS and terminal R in aVR; treat wide complex with sodium bicarbonate",
+      "explanation": "Alkalinization and sodium loading improve sodium-channel function. Therefore, the most accurate choice is: Wide QRS and terminal R in aVR; treat wide complex with sodium bicarbonate. QRS widening is a key TCA marker treated with bicarb.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "QRS widening is a key TCA marker treated with bicarb. It is less consistent than the correct choice.",
+        "C": "Alkalinization and sodium loading improve sodium-channel function. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:hard:28",
+      "question": "A 64-year-old man presents with features compatible with TCA seizures. Which of the following is most accurate?",
+      "options": [
+        "A) Narrow QRS forever excludes TCA risk and bicarb never used",
+        "B) Benzodiazepines for seizures; avoid physostigmine when conduction is delayed",
+        "C) Physostigmine is routine first therapy for TCA wide-complex overdose",
+        "D) Physostigmine is first-line for TCA seizures and wide QRS"
+      ],
+      "answer": "B) Benzodiazepines for seizures; avoid physostigmine when conduction is delayed",
+      "explanation": "Sodium bicarbonate still addresses concomitant cardiotoxicity. Therefore, the most accurate choice is: Benzodiazepines for seizures; avoid physostigmine when conduction is delayed. Physostigmine is dangerous in TCA overdose with conduction delay.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Sodium bicarbonate still addresses concomitant cardiotoxicity. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Physostigmine is dangerous in TCA overdose with conduction delay. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:hard:29",
+      "question": "Which statement about lithium toxicity in a 32-year-old woman is most accurate?",
+      "options": [
+        "A) Activated charcoal binds lithium avidly as first-line decontamination",
+        "B) Tremor, GI symptoms, ataxia, seizure; hydrate; hemodialysis for severe cases",
+        "C) Charcoal hemoperfusion preferred because lithium binds charcoal avidly",
+        "D) Harmless with charcoal never indicated"
+      ],
+      "answer": "B) Tremor, GI symptoms, ataxia, seizure; hydrate; hemodialysis for severe cases",
+      "explanation": "Lithium is not charcoal-bound; WBI sometimes for SR forms. Therefore, the most accurate choice is: Tremor, GI symptoms, ataxia, seizure; hydrate; hemodialysis for severe cases. Charcoal does not bind lithium effectively.",
+      "choice_explanations": {
+        "A": "Charcoal does not bind lithium effectively. It is less consistent than the correct choice.",
+        "B": "Lithium is not charcoal-bound; WBI sometimes for SR forms. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ],
+  "extreme": [
+    {
+      "id": "toxicology:extreme:0",
+      "question": "A 70-year-old woman has a complex presentation of aBCs first poisoning. Which of the following is most accurate?",
+      "options": [
+        "A) Penicillamine first-line for all childhood lead poisonings without specialty input",
+        "B) Airway, breathing, and circulation stabilization precedes antidotes in most poisonings",
+        "C) First-line chelator for copper and lead equally without distinction",
+        "D) Give antidotes before opening the airway in apnea"
+      ],
+      "answer": "B) Airway, breathing, and circulation stabilization precedes antidotes in most poisonings",
+      "explanation": "Dead patients do not benefit from specific antidotes without resuscitation. Therefore, the most accurate choice is: Airway, breathing, and circulation stabilization precedes antidotes in most poisonings. Resuscitation comes first.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Dead patients do not benefit from specific antidotes without resuscitation. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Resuscitation comes first. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:extreme:1",
+      "question": "Small differences in wording about activated charcoal role matter. Which of the following is correct?",
+      "options": [
+        "A) Charcoal forced in actively vomiting unprotected seizing patients without airway plan",
+        "B) Most useful early for selected ingestions when the airway is protected",
+        "C) Helps all ingestions at any time including metals and alcohols always",
+        "D) Activated charcoal binds lithium avidly as first-line decontamination"
+      ],
+      "answer": "B) Most useful early for selected ingestions when the airway is protected",
+      "explanation": "Hydrocarbons, caustics, and metals are generally poor charcoal candidates. Therefore, the most accurate choice is: Most useful early for selected ingestions when the airway is protected. Charcoal is not universally effective for every toxin.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Hydrocarbons, caustics, and metals are generally poor charcoal candidates. This matches the correct interpretation.",
+        "C": "Charcoal is not universally effective for every toxin. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:extreme:2",
+      "question": "A 41-year-old woman needs action related to MDAC indications. Which of the following is correct?",
+      "options": [
+        "A) First-line for iron overdose",
+        "B) Used for selected agents with enterohepatic recirculation such as carbamazepine and theophylline themes",
+        "C) First-line elimination for every overdose including lithium and iron",
+        "D) First-line for iron and lithium because both are lipophilic ions"
+      ],
+      "answer": "B) Used for selected agents with enterohepatic recirculation such as carbamazepine and theophylline themes",
+      "explanation": "Interrupting reabsorption enhances elimination for selected drugs. Therefore, the most accurate choice is: Used for selected agents with enterohepatic recirculation such as carbamazepine and theophylline themes. Iron is not an MDAC indication.",
+      "choice_explanations": {
+        "A": "Iron is not an MDAC indication. It is less consistent than the correct choice.",
+        "B": "Interrupting reabsorption enhances elimination for selected drugs. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:extreme:3",
+      "question": "In a 51-year-old man, treatment choices for whole bowel irrigation are compared. Which of the following is most accurate?",
+      "options": [
+        "A) First-line for all acetaminophen overdoses at one hour",
+        "B) Give antidotes before opening the airway in apnea",
+        "C) Liver injury always peaks within one hour of ingestion",
+        "D) PEG-ELS lavage for some sustained-release or body-packer scenarios"
+      ],
+      "answer": "D) PEG-ELS lavage for some sustained-release or body-packer scenarios",
+      "explanation": "Airway protection and absence of ileus are prerequisites. Therefore, the most accurate choice is: PEG-ELS lavage for some sustained-release or body-packer scenarios. NAC, not WBI, is acetaminophen antidote care.",
+      "choice_explanations": {
+        "A": "NAC, not WBI, is acetaminophen antidote care. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Airway protection and absence of ileus are prerequisites. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:extreme:4",
+      "question": "A 58-year-old woman with reduced renal function is managed for problems related to gastric lavage limited. Which of the following is correct?",
+      "options": [
+        "A) Rarely indicated because risks often outweigh benefits",
+        "B) Mandatory for every overdose within 24 hours",
+        "C) Flumazenil is mandatory for every undifferentiated coma",
+        "D) Mandatory flumazenil plus physostigmine for every coma"
+      ],
+      "answer": "A) Rarely indicated because risks often outweigh benefits",
+      "explanation": "Aspiration and trauma risks limit use. Therefore, the most accurate choice is: Rarely indicated because risks often outweigh benefits. Not mandatory routine care.",
+      "choice_explanations": {
+        "A": "Aspiration and trauma risks limit use. This matches the correct interpretation.",
+        "B": "Not mandatory routine care. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:extreme:5",
+      "question": "A 9-year-old child returns with ongoing problems attributed to ipecac obsolete. Which of the following is most accurate?",
+      "options": [
+        "A) No longer recommended for routine home or ED gastrointestinal decontamination",
+        "B) Induce vomiting for all gasoline ingestions to clear lungs",
+        "C) Physostigmine is first-line for TCA seizures and wide QRS",
+        "D) First-line for all pediatric ingestions today"
+      ],
+      "answer": "A) No longer recommended for routine home or ED gastrointestinal decontamination",
+      "explanation": "Delayed vomiting and aspiration risk led to abandonment. Therefore, the most accurate choice is: No longer recommended for routine home or ED gastrointestinal decontamination. Modern guidance avoids routine ipecac.",
+      "choice_explanations": {
+        "A": "Delayed vomiting and aspiration risk led to abandonment. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Modern guidance avoids routine ipecac. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:extreme:6",
+      "question": "Which of the following is the central point about toxidrome approach?",
+      "options": [
+        "A) Produces opioid toxidrome with pinpoint pupils and apnea as hallmark",
+        "B) Physostigmine is routine first therapy for TCA wide-complex overdose",
+        "C) Useless if the exact pill imprint is unknown",
+        "D) Pattern recognition of opioid, anticholinergic, cholinergic, sedative, and sympathomimetic clusters guides therapy"
+      ],
+      "answer": "D) Pattern recognition of opioid, anticholinergic, cholinergic, sedative, and sympathomimetic clusters guides therapy",
+      "explanation": "Mixed overdoses may blur classic clusters. Therefore, the most accurate choice is: Pattern recognition of opioid, anticholinergic, cholinergic, sedative, and sympathomimetic clusters guides therapy. Toxidromes remain useful without definitive identification.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Toxidromes remain useful without definitive identification. It is less consistent than the correct choice.",
+        "D": "Mixed overdoses may blur classic clusters. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:extreme:7",
+      "question": "Which statement about opioid OD care in a 34-year-old man is most accurate?",
+      "options": [
+        "A) Flumazenil is first-line for opioid apnea",
+        "B) Support ventilation and give titrated naloxone for respiratory depression",
+        "C) Treat opioid withdrawal with repeated high-dose naloxone boluses",
+        "D) Flumazenil reverses baclofen completely as specific antidote"
+      ],
+      "answer": "B) Support ventilation and give titrated naloxone for respiratory depression",
+      "explanation": "Longer-acting opioids may need naloxone infusions after response. Therefore, the most accurate choice is: Support ventilation and give titrated naloxone for respiratory depression. Naloxone, not flumazenil, reverses opioids.",
+      "choice_explanations": {
+        "A": "Naloxone, not flumazenil, reverses opioids. It is less consistent than the correct choice.",
+        "B": "Longer-acting opioids may need naloxone infusions after response. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:extreme:8",
+      "question": "A 45-year-old woman has a complex presentation of benzodiazepine OD care. Which of the following is most accurate?",
+      "options": [
+        "A) Flumazenil reverses all antipsychotic overdose",
+        "B) Flumazenil is mandatory for every undifferentiated coma",
+        "C) Supportive airway care is primary; flumazenil is rarely used due to seizure risk",
+        "D) Mandatory flumazenil plus physostigmine for every coma"
+      ],
+      "answer": "C) Supportive airway care is primary; flumazenil is rarely used due to seizure risk",
+      "explanation": "Most patients recover with supportive care. Therefore, the most accurate choice is: Supportive airway care is primary; flumazenil is rarely used due to seizure risk. Blind flumazenil in undifferentiated coma is dangerous.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Blind flumazenil in undifferentiated coma is dangerous. It is less consistent than the correct choice.",
+        "C": "Most patients recover with supportive care. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:extreme:9",
+      "question": "Management of anticholinergic care is reviewed for a 75-year-old man. Which of the following is most accurate?",
+      "options": [
+        "A) Routine in all wide-complex TCA overdoses",
+        "B) Narrow QRS forever excludes TCA risk and bicarb never used",
+        "C) Physostigmine is routine first therapy for TCA wide-complex overdose",
+        "D) Benzodiazepines for agitation; cautious physostigmine in selected pure anticholinergic delirium"
+      ],
+      "answer": "D) Benzodiazepines for agitation; cautious physostigmine in selected pure anticholinergic delirium",
+      "explanation": "Sodium bicarbonate addresses TCA sodium-channel toxicity. Therefore, the most accurate choice is: Benzodiazepines for agitation; cautious physostigmine in selected pure anticholinergic delirium. TCA cardiotoxicity is not treated primarily with physostigmine.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "TCA cardiotoxicity is not treated primarily with physostigmine. It is less consistent than the correct choice.",
+        "D": "Sodium bicarbonate addresses TCA sodium-channel toxicity. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:extreme:10",
+      "question": "A detailed evaluation for cholinergic crisis care is underway in a 39-year-old man. Which of the following is correct?",
+      "options": [
+        "A) Aging increases oxime effectiveness over days",
+        "B) Osmolar gap stays high forever while anion gap never rises in methanol poisoning",
+        "C) Atropine regenerates AChE while pralidoxime only dries secretions",
+        "D) Atropine for muscarinic effects; pralidoxime for organophosphate AChE regeneration before aging"
+      ],
+      "answer": "D) Atropine for muscarinic effects; pralidoxime for organophosphate AChE regeneration before aging",
+      "explanation": "Diazepam treats seizures in nerve-agent or OP poisoning. Therefore, the most accurate choice is: Atropine for muscarinic effects; pralidoxime for organophosphate AChE regeneration before aging. Oximes regenerate AChE; atropine is antimuscarinic.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Oximes regenerate AChE; atropine is antimuscarinic. It is less consistent than the correct choice.",
+        "D": "Diazepam treats seizures in nerve-agent or OP poisoning. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:extreme:11",
+      "question": "A 65-year-old man has findings that make sympathomimetic care hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Pure beta-blockers alone preferred first for all cocaine hypertension",
+        "B) Physostigmine is routine first therapy for TCA wide-complex overdose",
+        "C) Benzodiazepines first for cocaine or amphetamine agitation and hyperadrenergia",
+        "D) Phenytoin alone preferred over benzos for alcohol withdrawal seizures"
+      ],
+      "answer": "C) Benzodiazepines first for cocaine or amphetamine agitation and hyperadrenergia",
+      "explanation": "Avoid unopposed alpha concerns when using beta-blockers in cocaine toxicity teaching. Therefore, the most accurate choice is: Benzodiazepines first for cocaine or amphetamine agitation and hyperadrenergia. Benzodiazepines are first-line.",
+      "choice_explanations": {
+        "A": "Benzodiazepines are first-line. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Avoid unopposed alpha concerns when using beta-blockers in cocaine toxicity teaching. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:extreme:12",
+      "question": "In a 53-year-old man, distinguishing serotonin syndrome care from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Causes severe anion-gap acidosis via formate always",
+        "B) Start an MAOI to treat serotonin syndrome",
+        "C) Increase antipsychotic depot doses to treat NMS",
+        "D) Stop serotonergic drugs, cool, use benzos; consider cyproheptadine when moderate-severe"
+      ],
+      "answer": "D) Stop serotonergic drugs, cool, use benzos; consider cyproheptadine when moderate-severe",
+      "explanation": "Differentiate from NMS by neuromuscular findings and drug history. Therefore, the most accurate choice is: Stop serotonergic drugs, cool, use benzos; consider cyproheptadine when moderate-severe. Adding MAOI worsens serotonin toxicity.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Adding MAOI worsens serotonin toxicity. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Differentiate from NMS by neuromuscular findings and drug history. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:extreme:13",
+      "question": "Safety concerns around NMS care tox arise in a 34-year-old man. Which of the following is most accurate?",
+      "options": [
+        "A) Increase antipsychotic depot doses to treat NMS",
+        "B) Stop antipsychotics, support, consider dantrolene or bromocriptine in severe cases",
+        "C) Causes severe anion-gap acidosis via formate always",
+        "D) Start an MAOI to treat serotonin syndrome"
+      ],
+      "answer": "B) Stop antipsychotics, support, consider dantrolene or bromocriptine in severe cases",
+      "explanation": "Onset is typically slower than serotonin syndrome. Therefore, the most accurate choice is: Stop antipsychotics, support, consider dantrolene or bromocriptine in severe cases. More dopamine blockade worsens NMS.",
+      "choice_explanations": {
+        "A": "More dopamine blockade worsens NMS. It is less consistent than the correct choice.",
+        "B": "Onset is typically slower than serotonin syndrome. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:extreme:14",
+      "question": "Senior review is requested for acetaminophen stages in a 45-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) Early GI within 30 minutes rules in amatoxin as most likely",
+        "B) Liver injury always peaks within one hour of ingestion",
+        "C) Early GI symptoms, latent phase, then delayed hepatic injury without antidote",
+        "D) Applies unchanged to all chronic repeated ingestions"
+      ],
+      "answer": "C) Early GI symptoms, latent phase, then delayed hepatic injury without antidote",
+      "explanation": "Rumack-Matthew nomogram guides NAC for acute timed single ingestions. Therefore, the most accurate choice is: Early GI symptoms, latent phase, then delayed hepatic injury without antidote. Hepatic injury is delayed, not immediate within one hour.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Hepatic injury is delayed, not immediate within one hour. It is less consistent than the correct choice.",
+        "C": "Rumack-Matthew nomogram guides NAC for acute timed single ingestions. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:extreme:15",
+      "question": "Which statement about NAC is most accurate?",
+      "options": [
+        "A) NAC chelates NAPQI iron like deferoxamine",
+        "B) Produce iron toxicity treated with deferoxamine",
+        "C) First-line for iron and lithium because both are lipophilic ions",
+        "D) Replenishes glutathione and supports detoxification of NAPQI"
+      ],
+      "answer": "D) Replenishes glutathione and supports detoxification of NAPQI",
+      "explanation": "Oral and IV protocols are both effective; timing is critical. Therefore, the most accurate choice is: Replenishes glutathione and supports detoxification of NAPQI. Glutathione repletion, not iron chelation, is the mechanism.",
+      "choice_explanations": {
+        "A": "Glutathione repletion, not iron chelation, is the mechanism. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Oral and IV protocols are both effective; timing is critical. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:extreme:16",
+      "question": "A 36-year-old man requires careful decisions about rumack nomogram. Which of the following is most accurate?",
+      "options": [
+        "A) For acute single APAP ingestion with known time; plot level at four hours or later",
+        "B) Assessed only with the identical four-hour single-ingestion nomogram",
+        "C) Applies unchanged to all chronic repeated ingestions",
+        "D) Useless if started after eight hours in all cases"
+      ],
+      "answer": "A) For acute single APAP ingestion with known time; plot level at four hours or later",
+      "explanation": "Below the treatment line after four hours may defer NAC in classic acute cases. Therefore, the most accurate choice is: For acute single APAP ingestion with known time; plot level at four hours or later. Chronic ingestions need different risk assessment.",
+      "choice_explanations": {
+        "A": "Below the treatment line after four hours may defer NAC in classic acute cases. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Chronic ingestions need different risk assessment. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:extreme:17",
+      "question": "A 45-year-old woman is reassessed after incomplete response related to salicylate features. Which of the following is most accurate?",
+      "options": [
+        "A) Acidify urine to increase salicylate clearance",
+        "B) Isolated opioid-like miosis and apnea as the salicylate hallmark",
+        "C) Produces opioid toxidrome with pinpoint pupils and apnea as hallmark",
+        "D) Tinnitus, mixed respiratory alkalosis and metabolic acidosis, fever, altered mentation"
+      ],
+      "answer": "D) Tinnitus, mixed respiratory alkalosis and metabolic acidosis, fever, altered mentation",
+      "explanation": "Urine alkalinization and hemodialysis for severe cases. Therefore, the most accurate choice is: Tinnitus, mixed respiratory alkalosis and metabolic acidosis, fever, altered mentation. Salicylate is not an opioid toxidrome.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Salicylate is not an opioid toxidrome. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Urine alkalinization and hemodialysis for severe cases. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:extreme:18",
+      "question": "Which of the following is the most precise statement about salicylate alkalinization?",
+      "options": [
+        "A) Indicated for severe levels with refractory acidosis, renal failure, pulmonary edema, or deep altered mentation",
+        "B) Used to acidify serum in TCA OD",
+        "C) IV sodium bicarbonate increases ion trapping of salicylate in urine",
+        "D) Acidify urine to increase salicylate clearance"
+      ],
+      "answer": "C) IV sodium bicarbonate increases ion trapping of salicylate in urine",
+      "explanation": "Hemodialysis for severe toxicity or organ failure. Therefore, the most accurate choice is: IV sodium bicarbonate increases ion trapping of salicylate in urine. Alkalinization, not acidification, enhances clearance.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Hemodialysis for severe toxicity or organ failure. This matches the correct interpretation.",
+        "D": "Alkalinization, not acidification, enhances clearance. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:extreme:19",
+      "question": "In advanced review of salicylate dialysis, which of the following is most accurate?",
+      "options": [
+        "A) Always harmless because metformin does not affect lactate",
+        "B) Charcoal hemoperfusion preferred because lithium binds charcoal avidly",
+        "C) Harmless with charcoal never indicated",
+        "D) Indicated for severe levels with refractory acidosis, renal failure, pulmonary edema, or deep altered mentation"
+      ],
+      "answer": "D) Indicated for severe levels with refractory acidosis, renal failure, pulmonary edema, or deep altered mentation",
+      "explanation": "Clinical context complements level interpretation. Therefore, the most accurate choice is: Indicated for severe levels with refractory acidosis, renal failure, pulmonary edema, or deep altered mentation. Hemodialysis is definitive for severe salicylism.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Clinical context complements level interpretation. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:extreme:20",
+      "question": "In a 65-year-old man, distinguishing methanol toxicity from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) ADH makes formate causing visual toxicity and anion-gap acidosis",
+        "B) Causes severe anion-gap acidosis via formate always",
+        "C) Metabolized to oxalate that crystallizes in kidneys as primary toxin",
+        "D) Primarily causes optic neuropathy via formate like methanol exclusively"
+      ],
+      "answer": "A) ADH makes formate causing visual toxicity and anion-gap acidosis",
+      "explanation": "Fomepizole blocks ADH; dialysis for severe cases. Therefore, the most accurate choice is: ADH makes formate causing visual toxicity and anion-gap acidosis. Oxalate injury is ethylene glycol; formate marks methanol.",
+      "choice_explanations": {
+        "A": "Fomepizole blocks ADH; dialysis for severe cases. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Oxalate injury is ethylene glycol; formate marks methanol. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:extreme:21",
+      "question": "A 55-year-old man returns with ongoing problems related to ethylene glycol toxicity. Which of the following is most accurate?",
+      "options": [
+        "A) Causes severe anion-gap acidosis via formate always",
+        "B) ADH yields glycolate and oxalate; renal failure and anion-gap acidosis",
+        "C) Metabolized to oxalate that crystallizes in kidneys as primary toxin",
+        "D) Primarily causes optic neuropathy via formate like methanol exclusively"
+      ],
+      "answer": "B) ADH yields glycolate and oxalate; renal failure and anion-gap acidosis",
+      "explanation": "Fomepizole and dialysis are cornerstones. Therefore, the most accurate choice is: ADH yields glycolate and oxalate; renal failure and anion-gap acidosis. Formate optic toxicity is methanol's hallmark more than EG.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Fomepizole and dialysis are cornerstones. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Formate optic toxicity is methanol's hallmark more than EG. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:extreme:22",
+      "question": "Senior review is requested for fomepizole role in a 37-year-old man. Which of the following is correct?",
+      "options": [
+        "A) Inhibits alcohol dehydrogenase blocking toxic acid metabolite formation",
+        "B) Wait days for send-out methanol levels before any antidote in acidotic patients",
+        "C) Induces alcohol dehydrogenase to clear methanol faster",
+        "D) Always preferred over fomepizole when both available"
+      ],
+      "answer": "A) Inhibits alcohol dehydrogenase blocking toxic acid metabolite formation",
+      "explanation": "Preferred over ethanol infusions in most settings when available. Therefore, the most accurate choice is: Inhibits alcohol dehydrogenase blocking toxic acid metabolite formation. It inhibits, rather than induces, ADH.",
+      "choice_explanations": {
+        "A": "Preferred over ethanol infusions in most settings when available. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "It inhibits, rather than induces, ADH. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:extreme:23",
+      "question": "In intensive care, a 67-year-old man is treated for complications of isopropanol toxicity. Which of the following is most accurate?",
+      "options": [
+        "A) Causes severe anion-gap acidosis via formate always",
+        "B) Metabolized to acetone; ketosis without acidosis typically; CNS depression; supportive care",
+        "C) Metabolized to oxalate that crystallizes in kidneys as primary toxin",
+        "D) Primarily causes optic neuropathy via formate like methanol exclusively"
+      ],
+      "answer": "B) Metabolized to acetone; ketosis without acidosis typically; CNS depression; supportive care",
+      "explanation": "Fomepizole usually not needed because acetone is less toxic. Therefore, the most accurate choice is: Metabolized to acetone; ketosis without acidosis typically; CNS depression; supportive care. Ketosis without acidosis helps distinguish isopropanol.",
+      "choice_explanations": {
+        "A": "Ketosis without acidosis helps distinguish isopropanol. It is less consistent than the correct choice.",
+        "B": "Fomepizole usually not needed because acetone is less toxic. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:extreme:24",
+      "question": "A 56-year-old man has a complex presentation of digoxin toxicity features. Which of the following is most accurate?",
+      "options": [
+        "A) Contraindicated in all digoxin toxicity",
+        "B) GI symptoms, visual changes, hyperkalemia, and ventricular arrhythmias risk",
+        "C) Treated with naloxone as specific antidote",
+        "D) Hypokalemia is the exclusive laboratory hallmark of acute digoxin poisoning"
+      ],
+      "answer": "B) GI symptoms, visual changes, hyperkalemia, and ventricular arrhythmias risk",
+      "explanation": "Digoxin-specific Fab for life-threatening toxicity. Therefore, the most accurate choice is: GI symptoms, visual changes, hyperkalemia, and ventricular arrhythmias risk. Acute digoxin toxicity often elevates potassium.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Digoxin-specific Fab for life-threatening toxicity. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Acute digoxin toxicity often elevates potassium. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:extreme:25",
+      "question": "Small differences in wording about digoxin Fab matter. Which of the following is correct?",
+      "options": [
+        "A) Levels irrelevant because the drug has no toxicity",
+        "B) Hypokalemia is the exclusive laboratory hallmark of acute digoxin poisoning",
+        "C) Used for life-threatening arrhythmias, severe hyperkalemia in acute OD, or unstable bradycardia",
+        "D) Contraindicated in all digoxin toxicity"
+      ],
+      "answer": "C) Used for life-threatening arrhythmias, severe hyperkalemia in acute OD, or unstable bradycardia",
+      "explanation": "After Fab, free levels fall; total levels may rise and mislead. Therefore, the most accurate choice is: Used for life-threatening arrhythmias, severe hyperkalemia in acute OD, or unstable bradycardia. Fab is specific antidotal therapy.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "After Fab, free levels fall; total levels may rise and mislead. This matches the correct interpretation.",
+        "D": "Fab is specific antidotal therapy. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:extreme:26",
+      "question": "A 43-year-old woman needs action related to CCB overdose. Which of the following is correct?",
+      "options": [
+        "A) Insulin avoided because hypoglycemia is the therapeutic goal",
+        "B) Intended to produce prolonged refractory hypoglycemia as the endpoint",
+        "C) Mandatory for every overdose within 24 hours",
+        "D) Hyperglycemia with bradycardia and hypotension; calcium, insulin-euglycemia, vasopressors"
+      ],
+      "answer": "D) Hyperglycemia with bradycardia and hypotension; calcium, insulin-euglycemia, vasopressors",
+      "explanation": "High-dose insulin supports inotropy while dextrose maintains euglycemia. Therefore, the most accurate choice is: Hyperglycemia with bradycardia and hypotension; calcium, insulin-euglycemia, vasopressors. Euglycemia is maintained, not therapeutic hypoglycemia.",
+      "choice_explanations": {
+        "A": "Euglycemia is maintained, not therapeutic hypoglycemia. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "High-dose insulin supports inotropy while dextrose maintains euglycemia. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "toxicology:extreme:27",
+      "question": "In advanced review of BB overdose, which of the following is most accurate?",
+      "options": [
+        "A) Competitive beta-blocker itself",
+        "B) Insulin avoided because hypoglycemia is the therapeutic goal",
+        "C) Bradycardia, hypotension, more hypoglycemia/seizures with some agents; glucagon and high-dose insulin themes",
+        "D) Glucagon competitively blocks beta receptors as antidote"
+      ],
+      "answer": "C) Bradycardia, hypotension, more hypoglycemia/seizures with some agents; glucagon and high-dose insulin themes",
+      "explanation": "Glucagon raises cAMP independent of beta-receptor occupancy. Therefore, the most accurate choice is: Bradycardia, hypotension, more hypoglycemia/seizures with some agents; glucagon and high-dose insulin themes. Glucagon bypasses receptors rather than blocking them.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Glucagon raises cAMP independent of beta-receptor occupancy. This matches the correct interpretation.",
+        "D": "Glucagon bypasses receptors rather than blocking them. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:extreme:28",
+      "question": "Which interpretation of TCA ECG toxicity is most accurate?",
+      "options": [
+        "A) Used to acidify serum in TCA OD",
+        "B) Wide QRS and terminal R in aVR; treat wide complex with sodium bicarbonate",
+        "C) Narrow QRS forever excludes TCA risk and bicarb never used",
+        "D) Routine in all wide-complex TCA overdoses"
+      ],
+      "answer": "B) Wide QRS and terminal R in aVR; treat wide complex with sodium bicarbonate",
+      "explanation": "Alkalinization and sodium loading improve sodium-channel function. Therefore, the most accurate choice is: Wide QRS and terminal R in aVR; treat wide complex with sodium bicarbonate. QRS widening is a key TCA marker treated with bicarb.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Alkalinization and sodium loading improve sodium-channel function. This matches the correct interpretation.",
+        "C": "QRS widening is a key TCA marker treated with bicarb. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "toxicology:extreme:29",
+      "question": "A 64-year-old man returns with ongoing problems related to TCA seizures. Which of the following is most accurate?",
+      "options": [
+        "A) Physostigmine is first-line for TCA seizures and wide QRS",
+        "B) Narrow QRS forever excludes TCA risk and bicarb never used",
+        "C) Benzodiazepines for seizures; avoid physostigmine when conduction is delayed",
+        "D) Physostigmine is routine first therapy for TCA wide-complex overdose"
+      ],
+      "answer": "C) Benzodiazepines for seizures; avoid physostigmine when conduction is delayed",
+      "explanation": "Sodium bicarbonate still addresses concomitant cardiotoxicity. Therefore, the most accurate choice is: Benzodiazepines for seizures; avoid physostigmine when conduction is delayed. Physostigmine is dangerous in TCA overdose with conduction delay.",
+      "choice_explanations": {
+        "A": "Physostigmine is dangerous in TCA overdose with conduction delay. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Sodium bicarbonate still addresses concomitant cardiotoxicity. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ]
+}
