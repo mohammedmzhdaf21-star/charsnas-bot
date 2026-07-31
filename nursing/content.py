@@ -19,14 +19,15 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                   'questions': {'easy': [{'question': 'Which set of measurements constitutes the '
                                                       'core vital-sign assessment used to trend '
                                                       'early physiologic change?',
-                                          'options': ['A) Daily weight, intake/output, and bowel '
-                                                      'pattern only',
-                                                      'B) Temperature, pulse, respiration, blood '
+                                          'options': ['A) Temperature, pulse, respiration, blood '
                                                       'pressure (± SpO2/pain)',
-                                                      'C) Continuous ECG monitoring without other '
-                                                      'bedside measures',
-                                                      'D) Pupil size and Glasgow Coma Scale alone'],
-                                          'answer': 'B) Temperature, pulse, respiration, blood '
+                                                      'B) Daily weight, intake/output, and focused '
+                                                      'pain score without cardiopulmonary vitals',
+                                                      'C) Continuous ECG monitoring alone without '
+                                                      'temperature or blood pressure',
+                                                      'D) Pupil size and Glasgow Coma Scale as the '
+                                                      'only trending measures'],
+                                          'answer': 'A) Temperature, pulse, respiration, blood '
                                                     'pressure (± SpO2/pain)',
                                           'explanation': 'Vital signs index thermoregulation, '
                                                          'cardiac output, ventilation, and '
@@ -36,158 +37,150 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                          'nurses use to detect deterioration; '
                                                          'trends matter more than single values '
                                                          'because compensation can mask illness.',
-                                          'choice_explanations': {'A': 'Weight and I&O inform '
-                                                                       'fluid balance but do not '
-                                                                       'measure thermoregulation, '
-                                                                       'cardiac output, '
-                                                                       'ventilation, or vascular '
-                                                                       'tone that define classic '
-                                                                       'vital signs.',
-                                                                  'B': 'Temperature, pulse, '
-                                                                       'respiration, and blood '
-                                                                       'pressure (± SpO2/pain) '
-                                                                       'directly reflect the core '
+                                          'choice_explanations': {'A': 'These measures directly '
+                                                                       'reflect the core '
                                                                        'physiologic signals nurses '
                                                                        'trend for early '
                                                                        'deterioration.',
-                                                                  'C': 'ECG tracks rhythm and rate '
-                                                                       'but does not replace '
-                                                                       'temperature, '
-                                                                       'blood-pressure, or '
+                                                                  'B': 'Weight, I&O, and pain '
+                                                                       'inform fluid and comfort '
+                                                                       'status but omit the '
+                                                                       'cardiopulmonary/thermoregulatory '
+                                                                       'set that defines classic '
+                                                                       'vital signs—easy to '
+                                                                       'confuse with “assessment.”',
+                                                                  'C': 'ECG tracks rhythm but does '
+                                                                       'not replace temperature, '
+                                                                       'blood pressure, or '
                                                                        'respiratory assessment as '
                                                                        'the standard vital-sign '
                                                                        'set.',
                                                                   'D': 'Pupils and GCS assess '
                                                                        'neurologic status; they '
                                                                        'complement but do not '
-                                                                       'substitute for '
-                                                                       'cardiopulmonary and '
-                                                                       'thermoregulatory vital '
+                                                                       'substitute for vital '
                                                                        'signs.'}},
                                          {'question': 'Why is hand hygiene considered the '
                                                       'highest-yield routine infection-control '
                                                       'practice in direct patient care?',
                                           'options': ['A) It replaces sterile technique for all '
                                                       'invasive procedures',
-                                                      'B) It eliminates any need for gloves during '
+                                                      'B) It reduces transient flora that drives '
+                                                      'cross-transmission between contacts',
+                                                      'C) It eliminates any need for gloves during '
                                                       'wound care',
-                                                      'C) It reduces transient flora that drives '
-                                                      'cross-transmission',
-                                                      'D) It is required only during discharge '
-                                                      'teaching sessions'],
-                                          'answer': 'C) It reduces transient flora that drives '
-                                                    'cross-transmission',
+                                                      'D) It is most important after invasive '
+                                                      'procedures, so routine contact hygiene can '
+                                                      'be brief'],
+                                          'answer': 'B) It reduces transient flora that drives '
+                                                    'cross-transmission between contacts',
                                           'explanation': 'Transient microorganisms on hands are a '
                                                          'major vehicle for healthcare-associated '
-                                                         'infection. Hand hygiene mechanically and '
-                                                         'chemically lowers microbial load before '
-                                                         'and after contact, interrupting '
-                                                         'cross-transmission. Gloves are an '
-                                                         'adjunct, not a substitute, because hands '
-                                                         'and glove surfaces still become '
-                                                         'contaminated.',
+                                                         'infection. Hand hygiene lowers microbial '
+                                                         'load before and after contact, '
+                                                         'interrupting cross-transmission. Gloves '
+                                                         'are an adjunct, not a substitute.',
                                           'choice_explanations': {'A': 'Sterile technique protects '
                                                                        'invasive fields; hand '
-                                                                       'hygiene reduces hand flora '
-                                                                       'but does not replace '
+                                                                       'hygiene does not replace '
                                                                        'asepsis for sterile '
                                                                        'procedures.',
-                                                                  'B': 'Gloves are barriers during '
-                                                                       'wound care, yet '
+                                                                  'B': 'Reducing transient hand '
+                                                                       'flora interrupts the most '
+                                                                       'common pathway of '
+                                                                       'contact-mediated pathogen '
+                                                                       'transfer.',
+                                                                  'C': 'Gloves are barriers, yet '
                                                                        'contamination still '
                                                                        'occurs; hygiene is '
                                                                        'required before donning '
                                                                        'and after removing gloves.',
-                                                                  'C': 'Reducing transient hand '
-                                                                       'flora interrupts the most '
-                                                                       'common pathway of '
-                                                                       'contact-mediated pathogen '
-                                                                       'transfer between patients '
-                                                                       'and surfaces.',
-                                                                  'D': 'Transmission risk exists '
-                                                                       'throughout care '
-                                                                       'encounters, not only at '
-                                                                       'discharge; limiting '
-                                                                       'hygiene to teaching leaves '
-                                                                       'ongoing contact risk '
-                                                                       'unaddressed.'}},
+                                                                  'D': 'Prioritizing hygiene '
+                                                                       'mainly after invasive work '
+                                                                       'underestimates routine '
+                                                                       'contact transmission—the '
+                                                                       'overlapping “when it '
+                                                                       'matters most” '
+                                                                       'distractor.'}},
                                          {'question': 'Which elements are required for valid '
                                                       'informed consent before an invasive '
                                                       'procedure?',
-                                          'options': ['A) Nurse signature alone without explaining '
-                                                      'the procedure to the patient',
-                                                      'B) Family agreement even when a capacitated '
-                                                      'patient refuses',
-                                                      'C) Verbal assent without documenting risks '
+                                          'options': ['A) Verbal assent without documenting risks '
                                                       'or alternatives',
-                                                      'D) Understanding of procedure, risks, '
-                                                      'alternatives, and voluntary agreement'],
-                                          'answer': 'D) Understanding of procedure, risks, '
+                                                      'B) A signed consent form plus family verbal '
+                                                      'approval when the patient seems hesitant',
+                                                      'C) Understanding of procedure, risks, '
+                                                      'alternatives, and voluntary agreement',
+                                                      'D) Nurse signature alone without explaining '
+                                                      'the procedure to the patient'],
+                                          'answer': 'C) Understanding of procedure, risks, '
                                                     'alternatives, and voluntary agreement',
                                           'explanation': 'Informed consent requires that a '
                                                          'capacitated patient understand the '
-                                                         'nature of the procedure, material risks '
-                                                         'and benefits, and reasonable '
-                                                         'alternatives, then agree voluntarily '
-                                                         'without coercion. The proceduralist '
-                                                         'obtains consent; the nurse verifies '
-                                                         'understanding, witnesses, and advocates '
-                                                         'if doubts arise.',
-                                          'choice_explanations': {'A': 'A signature without '
-                                                                       'disclosure does not '
-                                                                       'demonstrate understanding '
-                                                                       'of risks, benefits, or '
-                                                                       'alternatives.',
-                                                                  'B': 'A capacitated adult’s '
-                                                                       'refusal overrides family '
-                                                                       'preference; autonomy is '
-                                                                       'not transferred to '
-                                                                       'relatives by default.',
-                                                                  'C': 'Undocumented verbal assent '
+                                                         'procedure, material risks and benefits, '
+                                                         'and reasonable alternatives, then agree '
+                                                         'voluntarily. The proceduralist obtains '
+                                                         'consent; the nurse verifies '
+                                                         'understanding and advocates if doubts '
+                                                         'arise.',
+                                          'choice_explanations': {'A': 'Undocumented verbal assent '
                                                                        'fails to show that '
                                                                        'material risks and '
                                                                        'alternatives were '
                                                                        'discussed and understood.',
-                                                                  'D': 'Understanding plus '
+                                                                  'B': 'A signature with family '
+                                                                       'approval when the patient '
+                                                                       'hesitates looks like '
+                                                                       '“consent complete” but may '
+                                                                       'mask inadequate '
+                                                                       'understanding or '
+                                                                       'coercion—classic '
+                                                                       'near-miss.',
+                                                                  'C': 'Understanding plus '
                                                                        'voluntary agreement after '
                                                                        'disclosure of procedure, '
-                                                                       'risks, and alternatives '
-                                                                       'defines valid informed '
-                                                                       'consent.'}}],
+                                                                       'risks, and alternatives is '
+                                                                       'required.',
+                                                                  'D': 'A signature without '
+                                                                       'disclosure does not '
+                                                                       'demonstrate understanding '
+                                                                       'of risks, benefits, or '
+                                                                       'alternatives.'}}],
                                 'medium': [{'question': 'About 20 minutes after an IV opioid, the '
                                                         'patient rates pain 8/10 and is newly '
                                                         'drowsy with RR 9. What is the best '
                                                         'immediate nursing judgment?',
-                                            'options': ['A) Hold further opioid, stimulate '
-                                                        'respiration, assess sedation/SpO2, and '
-                                                        'notify the provider',
+                                            'options': ['A) Reassess pain at the opioid peak and '
+                                                        'give a non-opioid adjuvant while '
+                                                        'continuing the current opioid plan',
                                                         'B) Give the next scheduled opioid dose '
                                                         'early because pain remains high',
                                                         'C) Document the score only and reassess '
                                                         'at the next routine vital-sign time',
-                                                        'D) Apply a heating pad as the sole '
-                                                        'intervention without respiratory '
-                                                        'assessment'],
-                                            'answer': 'A) Hold further opioid, stimulate '
+                                                        'D) Hold further opioid, stimulate '
+                                                        'respiration, assess sedation/SpO2, and '
+                                                        'notify the provider'],
+                                            'answer': 'D) Hold further opioid, stimulate '
                                                       'respiration, assess sedation/SpO2, and '
                                                       'notify the provider',
                                             'explanation': 'High pain with new opioid-related '
                                                            'sedation and hypoventilation signals '
                                                            'analgesic effect overlapping with '
-                                                           'respiratory depression. The priority '
-                                                           'is to protect ventilation—stimulate, '
-                                                           'support airway/oxygenation as needed, '
-                                                           'withhold further opioid, and '
-                                                           'escalate—rather than escalating '
-                                                           'analgesia blindly.',
-                                            'choice_explanations': {'A': 'Holding opioid while '
-                                                                         'assessing '
-                                                                         'sedation/ventilation and '
-                                                                         'notifying the provider '
-                                                                         'addresses both pain '
-                                                                         'context and '
-                                                                         'life-threatening '
-                                                                         'respiratory depression.',
+                                                           'respiratory depression. Protect '
+                                                           'ventilation first—stimulate, support '
+                                                           'airway/oxygenation, hold opioid, and '
+                                                           'escalate—before chasing pain scores '
+                                                           'alone.',
+                                            'choice_explanations': {'A': 'Peak-effect pain '
+                                                                         'reassessment with an '
+                                                                         'adjuvant is usually good '
+                                                                         'practice, but continuing '
+                                                                         'the opioid plan when RR '
+                                                                         'is 9 ignores acute '
+                                                                         'respiratory '
+                                                                         'depression—priority '
+                                                                         'cousin that creates '
+                                                                         'doubt.',
                                                                     'B': 'Giving more opioid when '
                                                                          'RR is already 9 can '
                                                                          'deepen hypoventilation '
@@ -196,74 +189,73 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                                          'vitals delays '
                                                                          'recognition of '
                                                                          'progressive respiratory '
-                                                                         'depression after a '
-                                                                         'recent IV opioid.',
-                                                                    'D': 'A heating pad does not '
-                                                                         'reverse opioid-mediated '
-                                                                         'respiratory depression '
-                                                                         'and skips mandatory '
-                                                                         'airway assessment.'}},
+                                                                         'depression.',
+                                                                    'D': 'Holding opioid while '
+                                                                         'assessing '
+                                                                         'sedation/ventilation and '
+                                                                         'notifying the provider '
+                                                                         'addresses the '
+                                                                         'life-threatening risk.'}},
                                            {'question': 'An ambulatory older adult scores high on '
                                                         'fall risk and needs to toilet at night. '
                                                         'Which intervention best applies '
                                                         'fall-prevention principles?',
-                                            'options': ['A) Keep all side rails up and lights off '
-                                                        'to encourage sleep',
-                                                        'B) Place the call light in reach, use '
+                                            'options': ['A) Place the call light in reach, use '
                                                         'nonslip footwear, and clear the path to a '
                                                         'nearby toilet',
+                                                        'B) Keep the bed in mid-high position with '
+                                                        'side rails up so toileting requires a '
+                                                        'call for full lift assist',
                                                         'C) Withhold diuretics indefinitely so '
                                                         'nighttime toileting never occurs',
                                                         'D) Restrain the patient in a chair '
                                                         'whenever staff are busy'],
-                                            'answer': 'B) Place the call light in reach, use '
+                                            'answer': 'A) Place the call light in reach, use '
                                                       'nonslip footwear, and clear the path to a '
                                                       'nearby toilet',
                                             'explanation': 'Fall prevention targets modifiable '
                                                            'hazards: ensure the patient can call '
                                                            'for help, wear stable footwear, and '
-                                                           'navigate a clear, lighted path. '
-                                                           'Restraints and darkness increase '
-                                                           'injury risk; medication changes '
-                                                           'require orders and clinical judgment, '
-                                                           'not unilateral indefinite withholding.',
-                                            'choice_explanations': {'A': 'Full side rails and '
-                                                                         'darkness increase '
-                                                                         'entrapment and fall '
-                                                                         'injury risk rather than '
-                                                                         'preventing falls.',
-                                                                    'B': 'Call access, nonslip '
+                                                           'navigate a clear path. Restraints and '
+                                                           'poorly planned barriers can increase '
+                                                           'injury risk.',
+                                            'choice_explanations': {'A': 'Call access, nonslip '
                                                                          'footwear, and a clear '
                                                                          'toileting path reduce '
                                                                          'environmental and '
-                                                                         'assistance-related fall '
-                                                                         'risk.',
+                                                                         'mobility fall risk.',
+                                                                    'B': 'High bed/rails “for '
+                                                                         'safety” sounds '
+                                                                         'protective but increases '
+                                                                         'fall-from-height and '
+                                                                         'entrapment risk—common '
+                                                                         'priority near-miss.',
                                                                     'C': 'Stopping diuretics '
                                                                          'without an order can '
                                                                          'worsen heart failure or '
-                                                                         'hypertension and is not '
-                                                                         'a first-line fall '
-                                                                         'intervention.',
+                                                                         'hypertension and does '
+                                                                         'not replace fall '
+                                                                         'precautions.',
                                                                     'D': 'Restraints are a last '
                                                                          'resort with specific '
                                                                          'orders; they increase '
                                                                          'agitation and injury '
-                                                                         'risk when used for '
-                                                                         'staffing convenience.'}},
+                                                                         'risk.'}},
                                            {'question': 'You enter a room to draw blood on a '
                                                         'patient with unknown infection status. '
                                                         'Which statement correctly applies '
                                                         'standard precautions?',
                                             'options': ['A) Standard precautions are used only '
                                                         'after culture results confirm a pathogen',
-                                                        'B) Gowns and N95s are required for every '
-                                                        'blood draw regardless of splash risk',
-                                                        'C) Assume all blood and body fluids are '
+                                                        'B) Assume all blood and body fluids are '
                                                         'potentially infectious and use '
                                                         'appropriate barriers',
-                                                        'D) Hand hygiene is unnecessary if gloves '
-                                                        'will be worn for the entire procedure'],
-                                            'answer': 'C) Assume all blood and body fluids are '
+                                                        'C) Hand hygiene is unnecessary if gloves '
+                                                        'will be worn for the entire procedure',
+                                                        'D) Use gloves for the draw, then decide '
+                                                        'on gown/mask only if the patient later '
+                                                        'reports a known infection'],
+                                            'answer': 'B) Assume all blood and body fluids are '
                                                       'potentially infectious and use appropriate '
                                                       'barriers',
                                             'explanation': 'Standard precautions treat all blood '
@@ -271,30 +263,28 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                            'infectious. Barrier selection is based '
                                                            'on anticipated exposure; gloves plus '
                                                            'hand hygiene are baseline for '
-                                                           'phlebotomy, with face/eye protection '
-                                                           'if splash is likely. Waiting for '
-                                                           'cultures leaves staff unprotected '
-                                                           'during the highest-risk period.',
+                                                           'phlebotomy.',
                                             'choice_explanations': {'A': 'Transmission risk exists '
                                                                          'before cultures return; '
                                                                          'standard precautions '
                                                                          'apply to all patients.',
-                                                                    'B': 'N95s are for airborne '
-                                                                         'risks; routine '
-                                                                         'phlebotomy needs gloves '
-                                                                         'and splash protection '
-                                                                         'only when indicated.',
-                                                                    'C': 'Treating all blood/body '
+                                                                    'B': 'Treating all blood/body '
                                                                          'fluids as infectious and '
                                                                          'matching barriers to '
                                                                          'exposure is the '
                                                                          'definition of standard '
                                                                          'precautions.',
-                                                                    'D': 'Gloves do not replace '
+                                                                    'C': 'Gloves do not replace '
                                                                          'hand hygiene; hands are '
                                                                          'contaminated during '
-                                                                         'glove removal and '
-                                                                         'between tasks.'}}],
+                                                                         'glove removal.',
+                                                                    'D': 'Waiting to escalate '
+                                                                         'barriers until infection '
+                                                                         'is known confuses '
+                                                                         'standard with '
+                                                                         'transmission-based '
+                                                                         'precautions—close '
+                                                                         'assessment cousin.'}}],
                                 'hard': [{'question': 'You are caring for four patients: one with '
                                                       'new stridor after IV contrast, one '
                                                       'requesting PRN oral analgesic, one due for '
@@ -303,55 +293,55 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                       'patient do you assess first?',
                                           'options': ['A) The patient requesting water to prevent '
                                                       'dehydration',
-                                                      'B) The patient due for a scheduled dressing '
-                                                      'change',
-                                                      'C) The patient requesting PRN oral pain '
-                                                      'medication',
-                                                      'D) The patient with new stridor after IV '
-                                                      'contrast'],
-                                          'answer': 'D) The patient with new stridor after IV '
+                                                      'B) The patient requesting PRN oral pain '
+                                                      'medication who rates pain 9/10',
+                                                      'C) The patient with new stridor after IV '
+                                                      'contrast',
+                                                      'D) The patient due for a scheduled dressing '
+                                                      'change'],
+                                          'answer': 'C) The patient with new stridor after IV '
                                                     'contrast',
                                           'explanation': 'Airway compromise after contrast '
                                                          'suggests evolving anaphylaxis or airway '
                                                          'edema and outranks comfort and routine '
                                                          'tasks. ABC and acute physiologic threat '
-                                                         'determine priority; analgesia, '
-                                                         'hydration, and dressings are important '
-                                                         'but deferrable when an airway emergency '
-                                                         'is unfolding.',
+                                                         'determine priority.',
                                           'choice_explanations': {'A': 'Thirst is a '
                                                                        'comfort/hydration need and '
                                                                        'does not outrank acute '
                                                                        'airway threat.',
-                                                                  'B': 'A routine dressing change '
+                                                                  'B': 'Severe pain is a '
+                                                                       'legitimate urgent need and '
+                                                                       'competes for attention, '
+                                                                       'but it does not outrank '
+                                                                       'new stridor—classic '
+                                                                       'priority near-miss.',
+                                                                  'C': 'New stridor after contrast '
+                                                                       'signals possible airway '
+                                                                       'edema/anaphylaxis—the '
+                                                                       'highest acute threat.',
+                                                                  'D': 'A routine dressing change '
                                                                        'is time-sensitive for '
                                                                        'wound care but not '
                                                                        'immediately '
-                                                                       'life-threatening.',
-                                                                  'C': 'Pain requires timely '
-                                                                       'treatment yet is lower '
-                                                                       'priority than new stridor '
-                                                                       'indicating airway risk.',
-                                                                  'D': 'New stridor after contrast '
-                                                                       'signals possible airway '
-                                                                       'edema/anaphylaxis—the '
-                                                                       'highest ABC priority.'}},
+                                                                       'life-threatening.'}},
                                          {'question': 'A confused patient repeatedly tries to pull '
                                                       'a central line. Soft wrist restraints are '
                                                       'ordered. Which nursing action is required '
                                                       'for safe, lawful restraint use?',
-                                          'options': ['A) Apply restraints, then assess '
-                                                      'circulation, sensation, and need for '
-                                                      'release at required intervals; attempt '
-                                                      'least-restrictive alternatives',
+                                          'options': ['A) Apply restraints promptly to protect the '
+                                                      'line, then complete a full head-to-toe '
+                                                      'assessment before the first release trial',
                                                       'B) Tie restraints to the side rails tightly '
                                                       'so the patient cannot move either arm at '
                                                       'all',
                                                       'C) Leave restraints on continuously without '
                                                       'documentation until discharge',
-                                                      'D) Have family apply restraints whenever '
-                                                      'staff leave the room'],
-                                          'answer': 'A) Apply restraints, then assess circulation, '
+                                                      'D) Apply restraints, then assess '
+                                                      'circulation, sensation, and need for '
+                                                      'release at required intervals; attempt '
+                                                      'least-restrictive alternatives'],
+                                          'answer': 'D) Apply restraints, then assess circulation, '
                                                     'sensation, and need for release at required '
                                                     'intervals; attempt least-restrictive '
                                                     'alternatives',
@@ -359,76 +349,67 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                          'least-restrictive alternatives first, '
                                                          'correct application, and frequent '
                                                          'circulatory/skin/behavioral reassessment '
-                                                         'with timed release opportunities. '
-                                                         'Securing to rails, continuous '
-                                                         'unmonitored use, and delegating '
-                                                         'application to family violate safety and '
-                                                         'regulatory standards.',
-                                          'choice_explanations': {'A': 'Interval neurovascular '
-                                                                       'checks, release trials, '
-                                                                       'and least-restrictive '
-                                                                       'alternatives are mandatory '
-                                                                       'for safe restraint use.',
+                                                         'with timed release opportunities.',
+                                          'choice_explanations': {'A': 'Protecting the line first '
+                                                                       'then delaying release '
+                                                                       'checks for a “complete '
+                                                                       'assessment” sounds '
+                                                                       'thorough but violates '
+                                                                       'timed restraint '
+                                                                       'monitoring—assessment '
+                                                                       'cousin near-miss.',
                                                                   'B': 'Tight immobilization to '
                                                                        'side rails risks '
                                                                        'neurovascular injury and '
-                                                                       'is improper restraint '
-                                                                       'technique.',
+                                                                       'is improper technique.',
                                                                   'C': 'Continuous use without '
                                                                        'reassessment and '
                                                                        'documentation violates '
-                                                                       'restraint standards of '
-                                                                       'care.',
-                                                                  'D': 'Restraint application and '
-                                                                       'monitoring are nursing '
-                                                                       'responsibilities and '
-                                                                       'cannot be handed to '
-                                                                       'family.'}},
+                                                                       'restraint standards.',
+                                                                  'D': 'Interval neurovascular '
+                                                                       'checks, release trials, '
+                                                                       'and least-restrictive '
+                                                                       'alternatives are required '
+                                                                       'for safe lawful use.'}},
                                          {'question': 'Two patients share a room. You bring oral '
                                                       'digoxin for Bed A, but the roommate answers '
                                                       'to the name when you call it from the '
                                                       'doorway. Which action best prevents a '
                                                       'wrong-patient medication error?',
-                                          'options': ['A) Give the dose because the roommate '
-                                                      'seemed to recognize the name',
-                                                      'B) Verify two unique identifiers at the '
+                                          'options': ['A) Verify two unique identifiers at the '
                                                       'bedside with the labeled medication against '
                                                       'the MAR before administering',
-                                                      'C) Ask which bed usually gets digoxin and '
-                                                      'administer based on bed location',
-                                                      'D) Leave the cup on the overbed table and '
-                                                      'ask whoever needs digoxin to take it'],
-                                          'answer': 'B) Verify two unique identifiers at the '
+                                                      'B) Ask the answering roommate to state date '
+                                                      'of birth, then give digoxin if it matches '
+                                                      'the MAR',
+                                                      'C) Give the dose because the roommate '
+                                                      'seemed to recognize the name',
+                                                      'D) Ask which bed usually gets digoxin and '
+                                                      'administer based on bed location'],
+                                          'answer': 'A) Verify two unique identifiers at the '
                                                     'bedside with the labeled medication against '
                                                     'the MAR before administering',
                                           'explanation': 'Wrong-patient errors occur when identity '
                                                          'is not verified at the point of '
                                                          'administration. Two unique identifiers '
-                                                         '(e.g., name and DOB/MRN) must match the '
-                                                         'MAR and labeled drug at the bedside. '
-                                                         'Room/bed location and doorway name '
-                                                         'checks are unreliable when patients '
-                                                         'share spaces or have similar names.',
-                                          'choice_explanations': {'A': 'A verbal response from the '
-                                                                       'wrong person in a shared '
-                                                                       'room is a classic '
-                                                                       'near-miss pathway for '
-                                                                       'wrong-patient dosing.',
-                                                                  'B': 'Bedside dual-identifier '
+                                                         'must match the MAR and labeled drug at '
+                                                         'the bedside for the correct patient.',
+                                          'choice_explanations': {'A': 'Bedside dual-identifier '
                                                                        'check against the MAR '
                                                                        'links the ordered digoxin '
-                                                                       'to the intended recipient '
-                                                                       'before the dose is given.',
-                                                                  'C': 'Bed location is not a '
+                                                                       'to the intended patient.',
+                                                                  'B': 'DOB from whoever answers '
+                                                                       'is a near-miss “identifier '
+                                                                       'check” that still fails to '
+                                                                       'confirm you are speaking '
+                                                                       'to Bed A.',
+                                                                  'C': 'A verbal name response '
+                                                                       'from the wrong person in a '
+                                                                       'shared room is a classic '
+                                                                       'error pathway.',
+                                                                  'D': 'Bed location is not a '
                                                                        'unique identifier and '
-                                                                       'changes with transfers, so '
-                                                                       'it cannot prevent '
-                                                                       'wrong-patient errors.',
-                                                                  'D': 'Unattended medication cups '
-                                                                       'allow self-administration '
-                                                                       'by the wrong patient and '
-                                                                       'lose chain-of-custody '
-                                                                       'control.'}}],
+                                                                       'changes with transfers.'}}],
                                 'extreme': [{'question': 'You find an unresponsive adult on the '
                                                          'floor with no palpable pulse and agonal '
                                                          'gasps. A visitor insists you wait for '
@@ -437,54 +418,44 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                          'another unit, and the paper code status '
                                                          'sheet is not in the binder. What is the '
                                                          'immediate priority action?',
-                                             'options': ['A) Leave to retrieve the paper chart and '
-                                                         'confirm code status before any '
-                                                         'compressions',
-                                                         'B) Document a full narrative note, then '
-                                                         'return to begin CPR',
-                                                         'C) Start high-quality CPR and activate '
+                                             'options': ['A) Obtain written family consent before '
+                                                         'initiating compressions',
+                                                         'B) Start high-quality CPR and activate '
                                                          'the emergency response per protocol '
                                                          'while code status is clarified in '
                                                          'parallel',
-                                                         'D) Obtain written family consent before '
-                                                         'initiating compressions'],
-                                             'answer': 'C) Start high-quality CPR and activate the '
+                                                         'C) Document a full narrative note, then '
+                                                         'return to begin CPR',
+                                                         'D) Quickly check the chart for code '
+                                                         'status at the desk, then return to begin '
+                                                         'compressions if full code'],
+                                             'answer': 'B) Start high-quality CPR and activate the '
                                                        'emergency response per protocol while code '
                                                        'status is clarified in parallel',
-                                             'explanation': 'Pulseless unresponsiveness with '
-                                                            'agonal breathing indicates '
-                                                            'circulatory arrest. Unless a valid '
-                                                            'DNR is known and verified, immediate '
-                                                            'CPR and emergency activation are '
-                                                            'required; ischemic time drives '
-                                                            'neurologic outcome. Chart retrieval, '
-                                                            'documentation, and consent delays are '
-                                                            'inappropriate when arrest is '
-                                                            'witnessed and code status is unknown.',
-                                             'choice_explanations': {'A': 'Leaving a pulseless '
-                                                                          'patient to find '
-                                                                          'paperwork abandons '
-                                                                          'circulation support '
-                                                                          'during the most '
-                                                                          'time-critical minutes.',
-                                                                     'B': 'Documentation cannot '
-                                                                          'restore coronary or '
-                                                                          'cerebral perfusion and '
-                                                                          'must not precede CPR.',
-                                                                     'C': 'Starting CPR and '
-                                                                          'activating the '
-                                                                          'emergency team '
-                                                                          'immediately maximizes '
-                                                                          'perfusion while code '
-                                                                          'status is rapidly '
-                                                                          'clarified.',
-                                                                     'D': 'Implied consent for '
-                                                                          'emergency resuscitation '
-                                                                          'applies when a valid '
-                                                                          'refusal of CPR is not '
-                                                                          'established; waiting '
-                                                                          'for family consent '
-                                                                          'costs brain minutes.'}},
+                                             'explanation': 'Unresponsive, pulseless adults need '
+                                                            'immediate CPR. Implied consent covers '
+                                                            'emergency resuscitation while code '
+                                                            'status is clarified without delaying '
+                                                            'compressions.',
+                                             'choice_explanations': {'A': 'Written family consent '
+                                                                          'is not required before '
+                                                                          'emergency CPR in this '
+                                                                          'scenario.',
+                                                                     'B': 'Immediate CPR plus '
+                                                                          'emergency activation is '
+                                                                          'the priority; status '
+                                                                          'clarification proceeds '
+                                                                          'in parallel.',
+                                                                     'C': 'Documentation never '
+                                                                          'precedes compressions '
+                                                                          'in cardiac arrest.',
+                                                                     'D': 'Chart verification of '
+                                                                          'code status is '
+                                                                          'important but leaving a '
+                                                                          'pulseless patient to '
+                                                                          'retrieve it first is a '
+                                                                          'deadly near-miss '
+                                                                          'priority error.'}},
                                             {'question': 'Fifteen minutes into a packed RBC '
                                                          'transfusion, the patient develops fever, '
                                                          'back pain, and hypotension. The primary '
@@ -492,50 +463,48 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                          'phone is busy; and a colleague suggests '
                                                          '“finish the unit so none is wasted.” '
                                                          'What is the correct priority sequence?',
-                                             'options': ['A) Increase the rate to finish the unit '
-                                                         'quickly, then call the provider',
-                                                         'B) Continue at the current rate and '
-                                                         'recheck vitals in one hour',
-                                                         'C) Discard the bag in regular trash so '
+                                             'options': ['A) Discard the bag in regular trash so '
                                                          'the reaction cannot be investigated',
-                                                         'D) Stop the transfusion, maintain IV '
+                                                         'B) Slow the transfusion markedly, give '
+                                                         'antipyretic per protocol, and continue '
+                                                         'close vital-sign monitoring',
+                                                         'C) Stop the transfusion, maintain IV '
                                                          'access with normal saline, assess ABCs, '
-                                                         'and notify the provider and blood bank'],
-                                             'answer': 'D) Stop the transfusion, maintain IV '
+                                                         'and notify the provider/blood bank',
+                                                         'D) Increase the rate to finish the unit '
+                                                         'quickly, then call the provider'],
+                                             'answer': 'C) Stop the transfusion, maintain IV '
                                                        'access with normal saline, assess ABCs, '
-                                                       'and notify the provider and blood bank',
-                                             'explanation': 'Acute hemolytic or septic transfusion '
-                                                            'reactions can progress within '
-                                                            'minutes. Stopping the implicated unit '
-                                                            'limits further antigen/bacterial '
-                                                            'exposure while saline keeps venous '
-                                                            'access for resuscitation. Provider '
-                                                            'and blood bank notification enables '
-                                                            'workup and product quarantine. '
-                                                            'Continuing or discarding the bag '
-                                                            'worsens injury or destroys evidence.',
-                                             'choice_explanations': {'A': 'Faster infusion '
-                                                                          'delivers more '
-                                                                          'incompatible blood or '
-                                                                          'contaminants and '
-                                                                          'accelerates hemolysis '
-                                                                          'or shock.',
-                                                                     'B': 'Waiting an hour allows '
-                                                                          'ongoing '
-                                                                          'immune/inflammatory '
-                                                                          'injury during an acute '
-                                                                          'reaction.',
-                                                                     'C': 'Discarding the unit '
-                                                                          'eliminates evidence '
-                                                                          'needed for clerical '
-                                                                          'check, culture, and '
-                                                                          'hemovigilance.',
-                                                                     'D': 'Immediate cessation, '
-                                                                          'saline IV access, ABC '
-                                                                          'assessment, and dual '
-                                                                          'notification are the '
-                                                                          'standard acute-reaction '
-                                                                          'response.'}},
+                                                       'and notify the provider/blood bank',
+                                             'explanation': 'Fever, back pain, and hypotension '
+                                                            'during transfusion suggest acute '
+                                                            'hemolytic or serious reaction. Stop '
+                                                            'the blood, keep IV access with NS, '
+                                                            'support ABCs, and notify '
+                                                            'provider/blood bank—do not continue '
+                                                            'the culprit product.',
+                                             'choice_explanations': {'A': 'Discarding evidence '
+                                                                          'prevents investigation '
+                                                                          'and is unsafe.',
+                                                                     'B': 'Slowing and treating '
+                                                                          'fever can be '
+                                                                          'appropriate for mild '
+                                                                          'febrile reactions, but '
+                                                                          'hypotension and back '
+                                                                          'pain demand '
+                                                                          'stopping—not '
+                                                                          'titrating—the '
+                                                                          'transfusion.',
+                                                                     'C': 'Stopping the '
+                                                                          'transfusion and '
+                                                                          'maintaining saline '
+                                                                          'access while escalating '
+                                                                          'is the required first '
+                                                                          'response.',
+                                                                     'D': 'Speeding the unit '
+                                                                          'worsens antigen '
+                                                                          'exposure during a '
+                                                                          'suspected reaction.'}},
                                             {'question': 'Smoke is coming from an electrical '
                                                          'outlet behind an occupied bed. The '
                                                          'patient is alert on 2 L oxygen by nasal '
@@ -543,47 +512,41 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                          'medication cart partially blocks the '
                                                          'doorway. Applying RACE, what is your '
                                                          'first action?',
-                                             'options': ['A) Rescue the patient to a safe area, '
-                                                         'removing oxygen from the fire source as '
-                                                         'you move',
+                                             'options': ['A) Shut off the oxygen at the wall '
+                                                         'first, then decide whether the patient '
+                                                         'can stay during extinguisher use',
                                                          'B) Pull the fire alarm only after you '
                                                          'finish charting the event',
-                                                         'C) Stay to fight the fire with a blanket '
-                                                         'before moving anyone',
-                                                         'D) Close the door and leave the patient '
-                                                         'inside to contain smoke'],
-                                             'answer': 'A) Rescue the patient to a safe area, '
+                                                         'C) Close the door and leave the patient '
+                                                         'inside to contain smoke',
+                                                         'D) Rescue the patient to a safe area, '
+                                                         'removing oxygen from the fire source as '
+                                                         'you move'],
+                                             'answer': 'D) Rescue the patient to a safe area, '
                                                        'removing oxygen from the fire source as '
                                                        'you move',
-                                             'explanation': 'RACE begins with Rescue of anyone in '
-                                                            'immediate danger. An alert patient '
-                                                            'beside an electrical fire on oxygen '
-                                                            'must be moved from the '
-                                                            'ignition/oxygen-enriched environment '
-                                                            'before Alarm/Contain/Extinguish '
-                                                            'steps. Blocking exits and delaying '
-                                                            'evacuation increase burn and '
-                                                            'inhalation injury risk.',
-                                             'choice_explanations': {'A': 'Immediate rescue from '
-                                                                          'the fire/oxygen hazard '
-                                                                          'is the first RACE '
-                                                                          'action for an '
-                                                                          'endangered occupant.',
-                                                                     'B': 'Alarm follows rescue of '
-                                                                          'those in immediate '
-                                                                          'danger; charting never '
-                                                                          'precedes evacuation.',
-                                                                     'C': 'Attempting '
-                                                                          'extinguishment before '
-                                                                          'rescue leaves the '
-                                                                          'patient exposed to '
-                                                                          'flame and toxic smoke.',
-                                                                     'D': 'Containment is after '
-                                                                          'rescue; leaving the '
-                                                                          'patient in the '
-                                                                          'smoke-filled room '
-                                                                          'violates RACE '
-                                                                          'order.'}}]},
+                                             'explanation': 'RACE prioritizes Rescue of those in '
+                                                            'danger, then Alarm, Contain, '
+                                                            'Extinguish/Evacuate. Oxygen feeds '
+                                                            'fire; move the patient from the '
+                                                            'ignition source promptly.',
+                                             'choice_explanations': {'A': 'Oxygen shutoff is '
+                                                                          'relevant but delaying '
+                                                                          'rescue to fight/contain '
+                                                                          'at the bedside is a '
+                                                                          'near-miss sequencing '
+                                                                          'error.',
+                                                                     'B': 'Charting before '
+                                                                          'alarm/rescue delays '
+                                                                          'life-saving response.',
+                                                                     'C': 'Leaving an alert '
+                                                                          'patient in a smoking '
+                                                                          'room abandons rescue.',
+                                                                     'D': 'Rescuing the patient '
+                                                                          'away from the outlet '
+                                                                          'fire while managing '
+                                                                          'oxygen follows '
+                                                                          'RACE.'}}]},
                   'cases': {'easy': [{'title': 'New Admission Baseline',
                                       'stem': 'A newly admitted adult is alert; nurse prepares '
                                               'first assessment.',
@@ -635,66 +598,66 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                   'B) ABCs, oxygen as indicated, ECG, and rapid '
                                                   'notification of the provider',
                                                   'C) Give a full meal tray before any assessment',
-                                                  'D) Apply heat to the chest and reassess '
-                                                  'tomorrow'],
+                                                  'D) Obtain a full pain history and give ordered '
+                                                  'PRN nitroglycerin before any ECG'],
                                       'answer': 'B) ABCs, oxygen as indicated, ECG, and rapid '
                                                 'notification of the provider',
                                       'explanation': 'Symptoms suggesting ACS require immediate '
-                                                     'airway/breathing/circulation support, ECG to '
-                                                     'detect STEMI, and rapid escalation for '
-                                                     'reperfusion pathways. Delaying assessment '
-                                                     'for meals, ambulation, or local heat risks '
-                                                     'missing time-critical ischemia.',
+                                                     'ABC support, ECG to detect STEMI, and rapid '
+                                                     'escalation. Delaying ECG for extended '
+                                                     'history or comfort measures risks missing '
+                                                     'time-critical ischemia.',
                                       'choice_explanations': {'A': 'Ambulation increases '
                                                                    'myocardial demand during '
                                                                    'possible coronary occlusion.',
                                                               'B': 'Stabilizing ABCs, obtaining '
                                                                    'ECG, and notifying the '
                                                                    'provider enable timely ACS '
-                                                                   'recognition and treatment.',
+                                                                   'response.',
                                                               'C': 'Oral intake delays evaluation '
-                                                                   'and is unsafe if procedural '
-                                                                   'sedation or emergent '
-                                                                   'catheterization is needed.',
-                                                              'D': 'Heat does not treat coronary '
-                                                                   'ischemia and postpones ECG '
-                                                                   'diagnosis.'}},
+                                                                   'and is unsafe if emergent '
+                                                                   'procedures are needed.',
+                                                              'D': 'Pain history and nitro are '
+                                                                   'part of ACS care but must not '
+                                                                   'delay ECG/escalation—classic '
+                                                                   'priority near-miss.'}},
                                      {'question': 'Why is incentive spirometry emphasized after '
                                                   'abdominal surgery?',
-                                      'options': ['A) It primarily lowers blood pressure through '
-                                                  'vagal stimulation',
-                                                  'B) It replaces the need for early ambulation '
+                                      'options': ['A) It replaces the need for early ambulation '
                                                   'entirely',
+                                                  'B) It is prioritized mainly to strengthen '
+                                                  'accessory muscles so coughing is unnecessary',
                                                   'C) It promotes alveolar expansion and helps '
                                                   'prevent postoperative atelectasis/pneumonia',
-                                                  'D) It is used only to exercise arm muscles '
-                                                  'after incision'],
+                                                  'D) It primarily lowers blood pressure through '
+                                                  'vagal stimulation'],
                                       'answer': 'C) It promotes alveolar expansion and helps '
                                                 'prevent postoperative atelectasis/pneumonia',
                                       'explanation': 'Shallow breathing after anesthesia and '
                                                      'abdominal pain predisposes to atelectasis. '
                                                      'Incentive spirometry encourages sustained '
                                                      'maximal inspiration, re-expanding alveoli '
-                                                     'and reducing pulmonary complication risk '
-                                                     'when combined with mobilization and pain '
-                                                     'control.',
-                                      'choice_explanations': {'A': 'Incentive spirometry targets '
-                                                                   'lung expansion, not '
-                                                                   'blood-pressure reduction.',
-                                                              'B': 'Ambulation remains essential; '
+                                                     'and reducing pulmonary complications '
+                                                     'alongside mobilization.',
+                                      'choice_explanations': {'A': 'Ambulation remains essential; '
                                                                    'spirometry complements but '
-                                                                   'does not replace mobilization.',
+                                                                   'does not replace mobility.',
+                                                              'B': 'Muscle/cough framing is '
+                                                                   'related pulmonary hygiene '
+                                                                   'thinking but misstates the '
+                                                                   'primary mechanism and wrongly '
+                                                                   'dismisses coughing.',
                                                               'C': 'Sustained inspiration '
                                                                    're-expands alveoli and is a '
                                                                    'core atelectasis-prevention '
                                                                    'strategy.',
-                                                              'D': 'The device trains inspiratory '
-                                                                   'effort, not arm muscle '
-                                                                   'strength.'}},
+                                                              'D': 'Incentive spirometry targets '
+                                                                   'lung expansion, not '
+                                                                   'blood-pressure reduction.'}},
                                      {'question': 'Which early findings most classically suggest '
                                                   'hypoglycemia in an alert diabetic patient?',
-                                      'options': ['A) Polyuria, polydipsia, and fruity breath '
-                                                  'alone',
+                                      'options': ['A) Polyuria, polydipsia, and new blurred vision '
+                                                  'suggesting glucose imbalance',
                                                   'B) Painless jaundice with clay-colored stools',
                                                   'C) Isolated ankle edema without autonomic '
                                                   'symptoms',
@@ -706,13 +669,11 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                      'low glucose produce sweating, tremor, '
                                                      'palpitations, hunger, and altered mentation. '
                                                      'Recognizing these cues allows rapid glucose '
-                                                     'rescue before seizure or coma. Osmotic '
-                                                     'hyperglycemia symptoms and cholestatic signs '
-                                                     'point elsewhere.',
-                                      'choice_explanations': {'A': 'Polyuria, polydipsia, and '
-                                                                   'ketotic breath suggest '
-                                                                   'hyperglycemia/DKA, not '
-                                                                   'hypoglycemia.',
+                                                     'rescue before seizure or coma.',
+                                      'choice_explanations': {'A': 'Polyuria/polydipsia/blurred '
+                                                                   'vision suggest '
+                                                                   'hyperglycemia—glucose-imbalance '
+                                                                   'cousin that creates doubt.',
                                                               'B': 'Painless jaundice suggests '
                                                                    'biliary/hepatic disease, not '
                                                                    'low glucose.',
@@ -727,81 +688,87 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                         'options': ['A) Worsening fluid retention requiring '
                                                     'assessment of volume status and provider '
                                                     'notification',
-                                                    'B) Expected muscle gain from one night of '
+                                                    'B) Possible inadequate pain control causing '
+                                                    'shallow breathing that should be treated '
+                                                    'before volume assessment',
+                                                    'C) Expected muscle gain from one night of '
                                                     'bedrest',
-                                                    'C) Adequate diuresis and readiness for '
-                                                    'discharge teaching only',
-                                                    'D) Dehydration from excessive fluid '
-                                                    'restriction'],
+                                                    'D) Adequate diuresis and readiness for '
+                                                    'discharge teaching only'],
                                         'answer': 'A) Worsening fluid retention requiring '
                                                   'assessment of volume status and provider '
                                                   'notification',
                                         'explanation': 'Rapid overnight weight gain with orthopnea '
-                                                       'reflects increasing '
-                                                       'intravascular/interstitial volume in heart '
+                                                       'reflects increasing volume in heart '
                                                        'failure. Nurses trend daily weights as an '
                                                        'early congestion marker and escalate for '
-                                                       'possible diuretic adjustment before frank '
-                                                       'pulmonary edema develops.',
+                                                       'possible diuretic adjustment.',
                                         'choice_explanations': {'A': 'Acute weight gain plus '
                                                                      'orthopnea signals congesting '
                                                                      'heart failure needing volume '
-                                                                     'reassessment and escalation.',
-                                                                'B': 'Muscle mass does not '
+                                                                     'assessment and notification.',
+                                                                'B': 'Pain-related shallow '
+                                                                     'breathing is a real '
+                                                                     'postoperative concern but '
+                                                                     'does not explain 2.5 kg '
+                                                                     'overnight gain with '
+                                                                     'orthopnea—assessment '
+                                                                     'near-miss.',
+                                                                'C': 'Muscle mass does not '
                                                                      'increase overnight; '
                                                                      'kilogram-scale gains are '
                                                                      'fluid.',
-                                                                'C': 'Orthopnea and weight gain '
+                                                                'D': 'Orthopnea and weight gain '
                                                                      'contradict adequate '
-                                                                     'diuresis.',
-                                                                'D': 'Dehydration causes weight '
-                                                                     'loss, not rapid gain with '
-                                                                     'orthopnea.'}},
+                                                                     'diuresis.'}},
                                        {'question': 'After blind NG tube insertion for feeding, '
                                                     'which confirmation method is the gold '
                                                     'standard before first use?',
-                                        'options': ['A) Auscultating air insufflation over the '
-                                                    'stomach alone',
+                                        'options': ['A) Assuming correct placement if the patient '
+                                                    'does not cough during insertion',
                                                     'B) Radiographic verification of tip position '
-                                                    'per protocol',
-                                                    'C) Assuming correct placement if the patient '
-                                                    'does not cough',
-                                                    'D) Checking that the external tube length '
-                                                    'looks unchanged from another patient'],
+                                                    'per protocol before first use',
+                                                    'C) Checking that the external tube length '
+                                                    'looks unchanged from another patient',
+                                                    'D) pH testing of aspirate plus air '
+                                                    'auscultation over the stomach if the external '
+                                                    'marking is unchanged'],
                                         'answer': 'B) Radiographic verification of tip position '
-                                                  'per protocol',
+                                                  'per protocol before first use',
                                         'explanation': 'Radiographic confirmation is the accepted '
                                                        'gold standard before initiating feedings '
-                                                       'because auscultation and absence of cough '
-                                                       'miss respiratory placements. Incorrect NG '
-                                                       'position risks aspiration pneumonia and '
-                                                       'death.',
-                                        'choice_explanations': {'A': 'Air auscultation cannot '
-                                                                     'reliably distinguish gastric '
-                                                                     'from pulmonary placement.',
+                                                       'because bedside checks can miss '
+                                                       'respiratory placements. Incorrect NG '
+                                                       'position risks aspiration pneumonia.',
+                                        'choice_explanations': {'A': 'Patients may not cough with '
+                                                                     'pulmonary placement, '
+                                                                     'especially if sedated.',
                                                                 'B': 'X-ray confirmation verifies '
                                                                      'tip location before feeding, '
                                                                      'preventing unrecognized '
-                                                                     'bronchial placement.',
-                                                                'C': 'Patients may not cough with '
-                                                                     'pulmonary placement, '
-                                                                     'especially if sedated.',
-                                                                'D': 'External length from another '
+                                                                     'pulmonary placement.',
+                                                                'C': 'External length from another '
                                                                      'patient is irrelevant to '
-                                                                     'this patient’s anatomy.'}},
+                                                                     'this patient’s anatomy.',
+                                                                'D': 'pH plus auscultation are '
+                                                                     'common bedside checks and '
+                                                                     'sound confirmatory, but they '
+                                                                     'are not the gold standard '
+                                                                     'before first use.'}},
                                        {'question': 'Which nursing plan best applies '
                                                     'evidence-based prevention of '
                                                     'hospital-acquired DVT in a postoperative '
                                                     'adult?',
-                                        'options': ['A) Encourage prolonged bedrest to protect the '
-                                                    'incision',
-                                                    'B) Massage calves vigorously every hour to '
+                                        'options': ['A) Massage calves vigorously every hour to '
                                                     '“break up clots”',
+                                                    'B) Antiembolism stockings alone while keeping '
+                                                    'the patient on bedrest until the incision is '
+                                                    'fully healed',
                                                     'C) Early ambulation, anticoagulation as '
                                                     'ordered, and mechanical prophylaxis when '
                                                     'indicated',
-                                                    'D) Restrict fluids severely to thicken venous '
-                                                    'return'],
+                                                    'D) Encourage prolonged bedrest to protect the '
+                                                    'incision'],
                                         'answer': 'C) Early ambulation, anticoagulation as '
                                                   'ordered, and mechanical prophylaxis when '
                                                   'indicated',
@@ -809,30 +776,29 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                        'hypercoagulability drive postoperative '
                                                        'DVT. Early ambulation, ordered '
                                                        'pharmacologic prophylaxis, and mechanical '
-                                                       'devices reduce stasis and thrombus '
-                                                       'formation. Bedrest, calf massage of '
-                                                       'possible clots, and intentional '
-                                                       'hemoconcentration increase risk.',
-                                        'choice_explanations': {'A': 'Immobility worsens venous '
-                                                                     'stasis, the opposite of DVT '
-                                                                     'prevention.',
-                                                                'B': 'Massaging a potential deep '
+                                                       'devices reduce risk.',
+                                        'choice_explanations': {'A': 'Massaging a potential deep '
                                                                      'vein thrombus can embolize '
                                                                      'clot to the lungs.',
+                                                                'B': 'Stockings without ambulation '
+                                                                     'are incomplete '
+                                                                     'prophylaxis—mechanical '
+                                                                     'cousin that creates false '
+                                                                     'reassurance.',
                                                                 'C': 'Ambulation plus '
                                                                      'pharmacologic/mechanical '
                                                                      'prophylaxis targets the '
-                                                                     'major preventable DVT '
-                                                                     'pathway.',
-                                                                'D': 'Dehydration increases '
-                                                                     'viscosity and thrombotic '
-                                                                     'risk.'}}],
+                                                                     'major preventable factors.',
+                                                                'D': 'Immobility worsens venous '
+                                                                     'stasis, the opposite of DVT '
+                                                                     'prevention.'}}],
                             'hard': [{'question': 'On postoperative day 2, a patient has fever '
                                                   '38.9°C, HR 122, RR 28, BP 88/50, and new '
                                                   'confusion. Lactate is pending. What is the '
                                                   'priority nursing recognition and action theme?',
-                                      'options': ['A) Treat as expected postoperative fever and '
-                                                  'ambulate in the hallway',
+                                      'options': ['A) Treat fever and tachycardia as expected '
+                                                  'day-2 inflammation; recheck vitals in an hour '
+                                                  'if BP stays near baseline',
                                                   'B) Attribute confusion to sundowning and defer '
                                                   'vital-sign reassessment',
                                                   'C) Focus only on wound packing because '
@@ -846,20 +812,16 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                       'explanation': 'Tachycardia, tachypnea, hypotension, fever, '
                                                      'and acute confusion after surgery indicate '
                                                      'possible sepsis with hypoperfusion. Early '
-                                                     'recognition, ABC support, cultures before '
-                                                     'antibiotics when feasible, lactate, fluids '
-                                                     'per protocol, and rapid escalation improve '
-                                                     'survival; attributing findings to “normal” '
-                                                     'postop changes delays care.',
-                                      'choice_explanations': {'A': 'Hypotension and confusion are '
-                                                                   'not benign expected fever; '
-                                                                   'they suggest organ '
-                                                                   'hypoperfusion.',
+                                                     'recognition, ABC support, cultures/labs, and '
+                                                     'escalation are required.',
+                                      'choice_explanations': {'A': '“Expected postoperative fever” '
+                                                                   'is a dangerous near-miss when '
+                                                                   'hypotension and confusion are '
+                                                                   'present.',
                                                               'B': 'New confusion with abnormal '
                                                                    'vitals is delirium of acute '
                                                                    'illness until proven '
-                                                                   'otherwise, not routine '
-                                                                   'sundowning.',
+                                                                   'otherwise.',
                                                               'C': 'Systemic hypoperfusion '
                                                                    'outranks isolated wound care; '
                                                                    'source control follows '
@@ -867,44 +829,43 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                               'D': 'Multi-cue sepsis/shock '
                                                                    'recognition with ABC support '
                                                                    'and urgent escalation matches '
-                                                                   'Surviving Sepsis priorities.'}},
+                                                                   'priority frameworks.'}},
                                      {'question': 'A COPD patient on high-flow oxygen becomes '
                                                   'increasingly drowsy with rising PaCO2 on ABG. '
                                                   'What is the main nursing concern?',
                                       'options': ['A) Oxygen-related CO2 retention/hypoventilation '
                                                   'requiring reassessment of O2 target and '
                                                   'ventilatory status',
-                                                  'B) Expected sedation from improved oxygenation '
+                                                  'B) Progressive fatigue from work of breathing '
+                                                  'that should be treated mainly with incentive '
+                                                  'spirometry coaching',
+                                                  'C) Expected sedation from improved oxygenation '
                                                   'that needs no follow-up',
-                                                  'C) Hyperactive delirium that should be treated '
-                                                  'with a benzodiazepine first',
-                                                  'D) Pure metabolic alkalosis unrelated to oxygen '
-                                                  'therapy'],
+                                                  'D) Hyperactive delirium that should be treated '
+                                                  'with a benzodiazepine first'],
                                       'answer': 'A) Oxygen-related CO2 retention/hypoventilation '
                                                 'requiring reassessment of O2 target and '
                                                 'ventilatory status',
-                                      'explanation': 'Some COPD patients lose hypoxic drive or '
-                                                     'worsen V/Q mismatch on excessive oxygen, '
-                                                     'producing CO2 narcosis. Drowsiness with '
-                                                     'rising PaCO2 mandates lowering oxygen toward '
-                                                     'SpO2 targets (~88–92% when appropriate), '
-                                                     'supporting ventilation, and escalating—not '
-                                                     'ignoring sedation or adding respiratory '
-                                                     'depressants.',
+                                      'explanation': 'Some COPD patients worsen V/Q mismatch or '
+                                                     'retain CO2 on excessive oxygen, producing '
+                                                     'narcosis. Drowsiness with rising PaCO2 '
+                                                     'mandates titration toward SpO2 targets and '
+                                                     'ventilatory support assessment.',
                                       'choice_explanations': {'A': 'Drowsiness plus rising PaCO2 '
                                                                    'on high O2 signals CO2 '
                                                                    'retention needing O2 titration '
-                                                                   'and ventilatory support.',
-                                                              'B': 'Progressive drowsiness with '
+                                                                   'and ventilatory reassessment.',
+                                                              'B': 'Work-of-breathing fatigue is '
+                                                                   'related respiratory assessment '
+                                                                   'thinking but misses '
+                                                                   'oxygen-driven hypercapnia as '
+                                                                   'the key concern.',
+                                                              'C': 'Progressive drowsiness with '
                                                                    'hypercapnia is dangerous, not '
                                                                    'a benign effect of oxygen.',
-                                                              'C': 'Benzodiazepines further '
+                                                              'D': 'Benzodiazepines further '
                                                                    'depress ventilation in '
-                                                                   'hypercapnic COPD.',
-                                                              'D': 'The vignette describes '
-                                                                   'ventilatory failure with CO2 '
-                                                                   'rise, not primary metabolic '
-                                                                   'alkalosis.'}},
+                                                                   'hypercapnic COPD.'}},
                                      {'question': 'Four hours after thyroidectomy, the patient '
                                                   'reports neck tightness, has stridor, and SpO2 '
                                                   'is falling. What is the priority concern?',
@@ -915,23 +876,18 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                   'notification',
                                                   'C) Anxiety alone; coach slow breathing without '
                                                   'assessing the neck',
-                                                  'D) Hypocalcemia tetany as the only possible '
-                                                  'cause, so give oral calcium and leave'],
+                                                  'D) Early hypocalcemia after parathyroid '
+                                                  'disturbance causing neuromuscular '
+                                                  'irritability—give calcium and observe'],
                                       'answer': 'B) Airway compression from hematoma/edema '
                                                 'requiring immediate airway support and surgical '
                                                 'notification',
                                       'explanation': 'Neck hematoma or edema after thyroidectomy '
                                                      'can rapidly obstruct the airway. Stridor, '
                                                      'tightness, and desaturation demand immediate '
-                                                     'airway management and surgeon notification '
-                                                     'for possible evacuation. Delaying for '
-                                                     'reassurance or treating only hypocalcemia '
-                                                     'misses a surgical airway emergency (though '
-                                                     'hypocalcemia remains a later concern).',
+                                                     'airway management and surgeon notification.',
                                       'choice_explanations': {'A': 'Stridor and desaturation are '
-                                                                   'not routine sore throat and '
-                                                                   'can progress to complete '
-                                                                   'obstruction.',
+                                                                   'not routine sore throat.',
                                                               'B': 'Airway compression from '
                                                                    'postoperative hematoma/edema '
                                                                    'is the life-threatening '
@@ -939,11 +895,13 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                               'C': 'Anxiety coaching without '
                                                                    'airway assessment ignores '
                                                                    'objective stridor and hypoxia.',
-                                                              'D': 'Hypocalcemia usually presents '
-                                                                   'later with '
-                                                                   'tetany/paresthesias; acute '
-                                                                   'stridor points first to '
-                                                                   'mechanical airway threat.'}}],
+                                                              'D': 'Hypocalcemia is a real '
+                                                                   'post-thyroidectomy '
+                                                                   'complication (assessment '
+                                                                   'cousin) but usually later with '
+                                                                   'tetany/paresthesias—not acute '
+                                                                   'stridor and falling SpO2 hours '
+                                                                   'after surgery.'}}],
                             'extreme': [{'question': 'Two minutes after starting IV ceftriaxone, a '
                                                      'patient develops urticaria, wheezing, BP '
                                                      '70/40, and a sense of doom. The provider’s '
@@ -951,51 +909,50 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                      'chart lists “diphenhydramine 25 mg PO PRN '
                                                      'itch.” What is the first drug/action '
                                                      'priority?',
-                                         'options': ['A) Give the PRN oral diphenhydramine and '
-                                                     'continue the antibiotic infusion',
-                                                     'B) Place the patient supine without '
-                                                     'epinephrine because BP is already low',
+                                         'options': ['A) Start a fluid bolus only and defer '
+                                                     'epinephrine until allergy testing is done',
+                                                     'B) Stop the infusion, give IV '
+                                                     'diphenhydramine and fluids first, and '
+                                                     'reserve epinephrine if wheeze persists',
                                                      'C) Stop the infusion and give intramuscular '
                                                      'epinephrine per anaphylaxis protocol while '
                                                      'activating emergency response',
-                                                     'D) Start a fluid bolus only and defer '
-                                                     'epinephrine until allergy testing is done'],
+                                                     'D) Give the PRN oral diphenhydramine and '
+                                                     'continue the antibiotic infusion'],
                                          'answer': 'C) Stop the infusion and give intramuscular '
                                                    'epinephrine per anaphylaxis protocol while '
                                                    'activating emergency response',
-                                         'explanation': 'This is anaphylactic shock from IV '
-                                                        'antibiotic. Immediate cessation of the '
-                                                        'antigen and IM epinephrine are '
-                                                        'first-line; epinephrine treats '
-                                                        'vasodilation and bronchoconstriction. '
-                                                        'Oral antihistamine alone, withholding '
-                                                        'epinephrine for hypotension myths, or '
-                                                        'waiting for testing are dangerous delays.',
-                                         'choice_explanations': {'A': 'Oral antihistamine does not '
-                                                                      'reverse anaphylactic shock, '
-                                                                      'and continuing the drug '
-                                                                      'worsens antigen exposure.',
-                                                                 'B': 'Hypotension is an '
-                                                                      'indication for epinephrine '
-                                                                      'in anaphylaxis, not a '
-                                                                      'reason to withhold it.',
+                                         'explanation': 'Urticaria, wheezing, hypotension, and '
+                                                        'doom after IV antibiotic indicate '
+                                                        'anaphylaxis. Stop the trigger and give IM '
+                                                        'epinephrine promptly while activating '
+                                                        'help—antihistamines are adjuncts, not '
+                                                        'first-line for shock.',
+                                         'choice_explanations': {'A': 'Deferring epinephrine for '
+                                                                      'testing during hypotension '
+                                                                      'is dangerous.',
+                                                                 'B': 'Antihistamine-and-fluids-first '
+                                                                      'is a common near-miss that '
+                                                                      'delays epinephrine in '
+                                                                      'anaphylactic shock.',
                                                                  'C': 'Stopping the drug and '
-                                                                      'giving IM epinephrine while '
-                                                                      'calling for help is the '
-                                                                      'evidence-based first '
-                                                                      'response.',
-                                                                 'D': 'Fluids support BP but do '
-                                                                      'not replace epinephrine as '
-                                                                      'the disease-modifying first '
-                                                                      'drug.'}},
+                                                                      'giving IM epinephrine with '
+                                                                      'emergency activation is '
+                                                                      'first-line anaphylaxis '
+                                                                      'care.',
+                                                                 'D': 'Continuing the antigen '
+                                                                      'while giving oral '
+                                                                      'antihistamine worsens '
+                                                                      'anaphylaxis.'}},
                                         {'question': 'A patient with known lung cancer suddenly '
                                                      'coughs up large volumes of bright red blood, '
                                                      'SpO2 82% on room air, and becomes pale and '
                                                      'anxious. Radiology wants him transported now '
                                                      'for a non-urgent staging CT. What is the '
                                                      'nursing priority?',
-                                         'options': ['A) Send for CT immediately to identify the '
-                                                     'bleeding vessel before any airway support',
+                                         'options': ['A) Obtain urgent imaging to localize '
+                                                     'bleeding while applying oxygen by nasal '
+                                                     'cannula en route',
                                                      'B) Encourage oral fluids to “replace” blood '
                                                      'loss',
                                                      'C) Have the patient ambulate to reduce clot '
@@ -1006,30 +963,25 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                          'answer': 'D) Protect the airway/oxygenation, position '
                                                    'for drainage as trained, activate rapid '
                                                    'response, and defer non-urgent transport',
-                                         'explanation': 'Massive hemoptysis threatens airway '
-                                                        'patency and gas exchange before the '
-                                                        'source is imaged. Priorities are airway '
-                                                        'protection, oxygen, positioning (often '
-                                                        'bleeding-side down when known), '
-                                                        'hemodynamic support, and emergency '
-                                                        'escalation. Non-urgent CT and ambulation '
-                                                        'increase aspiration and hypoxic risk.',
-                                         'choice_explanations': {'A': 'Unstable hemoptysis '
-                                                                      'patients need '
-                                                                      'airway/resuscitation first; '
-                                                                      'non-urgent CT can wait.',
-                                                                 'B': 'Oral fluids do not restore '
-                                                                      'circulating volume and risk '
-                                                                      'aspiration during active '
-                                                                      'bleeding.',
-                                                                 'C': 'Ambulation worsens bleeding '
-                                                                      'and hypoxia during massive '
-                                                                      'hemoptysis.',
-                                                                 'D': 'Airway/oxygen support and '
-                                                                      'rapid response while '
-                                                                      'holding non-urgent '
-                                                                      'transport address the '
-                                                                      'immediate lethal threat.'}},
+                                         'explanation': 'Massive hemoptysis with hypoxemia is an '
+                                                        'airway emergency. Stabilize '
+                                                        'oxygenation/airway and escalate before '
+                                                        'diagnostic transport.',
+                                         'choice_explanations': {'A': 'Imaging is diagnostically '
+                                                                      'tempting but sending an '
+                                                                      'unstable bleeding patient '
+                                                                      'to CT first is a classic '
+                                                                      'priority near-miss.',
+                                                                 'B': 'Oral fluids do not treat '
+                                                                      'airway hemorrhage or '
+                                                                      'hypoxia.',
+                                                                 'C': 'Ambulation increases oxygen '
+                                                                      'demand and aspiration/bleed '
+                                                                      'risk.',
+                                                                 'D': 'Airway/oxygenation '
+                                                                      'protection with rapid '
+                                                                      'response outranks immediate '
+                                                                      'CT.'}},
                                         {'question': 'Six hours after cast application for a '
                                                      'tibial fracture, the patient reports severe '
                                                      'pain unrelieved by opioids, numbness in the '
@@ -1041,42 +993,38 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                          'options': ['A) Escalate urgently for compartment '
                                                      'syndrome evaluation; pulses can remain until '
                                                      'late',
-                                                     'B) Accept the explanation and max out '
-                                                     'opioids without further assessment',
-                                                     'C) Elevate the limb above the heart '
-                                                     'continuously and ignore stretch pain',
+                                                     'B) Elevate the casted limb, ice the site, '
+                                                     'and increase analgesia while monitoring '
+                                                     'pulses hourly',
+                                                     'C) Accept max opioids without further '
+                                                     'neurovascular assessment',
                                                      'D) Remove the cast yourself immediately '
                                                      'without notifying the provider or surgeon'],
                                          'answer': 'A) Escalate urgently for compartment syndrome '
                                                    'evaluation; pulses can remain until late',
-                                         'explanation': 'Compartment syndrome is a clinical '
-                                                        'diagnosis: pain out of proportion, pain '
-                                                        'on passive stretch, and sensory changes '
-                                                        'are early cues. Distal pulses often '
-                                                        'persist until late ischemia. Nurses must '
-                                                        'escalate despite false reassurance from '
-                                                        'palpable pulses; opioids alone mask '
-                                                        'progression toward irreversible '
-                                                        'muscle/nerve injury.',
-                                         'choice_explanations': {'A': 'Multi-cue findings with '
-                                                                      'preserved pulses still '
-                                                                      'warrant urgent surgical '
-                                                                      'evaluation for fasciotomy '
-                                                                      'timing.',
-                                                                 'B': 'More opioid without '
-                                                                      'escalation allows '
-                                                                      'compartment pressure injury '
-                                                                      'to progress.',
-                                                                 'C': 'Extreme elevation can '
-                                                                      'reduce arterial perfusion; '
-                                                                      'stretch pain is a red flag, '
-                                                                      'not to be ignored.',
-                                                                 'D': 'Cast bivalving may be '
-                                                                      'ordered, but unilateral '
-                                                                      'removal without the team '
-                                                                      'can be unsafe; urgent '
-                                                                      'notification is '
-                                                                      'required.'}}]},
+                                         'explanation': 'Severe pain out of proportion, passive '
+                                                        'stretch pain, and numbness after casting '
+                                                        'suggest compartment syndrome. Pulses may '
+                                                        'persist until late; urgent surgical '
+                                                        'evaluation is required.',
+                                         'choice_explanations': {'A': 'Urgent escalation for '
+                                                                      'compartment syndrome is '
+                                                                      'required even if pulses are '
+                                                                      'present.',
+                                                                 'B': 'Elevation/ice/analgesia is '
+                                                                      'usual cast care and sounds '
+                                                                      'reasonable, but pain out of '
+                                                                      'proportion with stretch '
+                                                                      'pain needs immediate '
+                                                                      'escalation—not routine '
+                                                                      'comfort measures alone.',
+                                                                 'C': 'Masking pain with opioids '
+                                                                      'without reassessment delays '
+                                                                      'diagnosis.',
+                                                                 'D': 'Unauthorized cast removal '
+                                                                      'can injure tissue; notify '
+                                                                      'surgical team for timed '
+                                                                      'intervention.'}}]},
               'cases': {'easy': [{'title': 'New Chest Pain',
                                   'stem': 'Ward patient reports crushing chest pain radiating to '
                                           'arm.',
@@ -1124,310 +1072,316 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                 'questions': {'easy': [{'question': 'For a healthy 2-month-old needing an '
                                                     'intramuscular vaccine, which site is '
                                                     'generally preferred?',
-                                        'options': ['A) Dorsogluteal muscle to avoid the sciatic '
-                                                    'nerve',
-                                                    'B) Vastus lateralis (anterolateral thigh)',
-                                                    'C) Deltoid only, regardless of muscle mass',
-                                                    'D) Ventrogluteal site exclusively in early '
-                                                    'infancy'],
-                                        'answer': 'B) Vastus lateralis (anterolateral thigh)',
+                                        'options': ['A) Deltoid only, regardless of muscle mass',
+                                                    'B) Ventrogluteal site if landmarks feel clear '
+                                                    'on a chubby infant',
+                                                    'C) Vastus lateralis (anterolateral thigh)',
+                                                    'D) Dorsogluteal muscle to avoid the sciatic '
+                                                    'nerve'],
+                                        'answer': 'C) Vastus lateralis (anterolateral thigh)',
                                         'explanation': 'In young infants the vastus lateralis has '
                                                        'adequate muscle mass and avoids major '
-                                                       'nerves and vessels used in other sites. '
-                                                       'Deltoid mass is often insufficient early '
-                                                       'on; dorsogluteal injections risk sciatic '
-                                                       'injury and are avoided.',
-                                        'choice_explanations': {'A': 'Dorsogluteal injections risk '
-                                                                     'sciatic nerve injury and are '
-                                                                     'not preferred in infants.',
-                                                                'B': 'The anterolateral thigh '
+                                                       'nerves and vessels. Deltoid mass is often '
+                                                       'insufficient early on; dorsogluteal '
+                                                       'injections risk sciatic injury.',
+                                        'choice_explanations': {'A': 'Infant deltoid mass is often '
+                                                                     'inadequate for safe IM '
+                                                                     'injection.',
+                                                                'B': 'Ventrogluteal can be used in '
+                                                                     'older children/adults and '
+                                                                     'may seem “safer,” but it is '
+                                                                     'not the preferred '
+                                                                     'early-infancy default.',
+                                                                'C': 'The anterolateral thigh '
                                                                      '(vastus lateralis) is the '
                                                                      'recommended IM site for '
                                                                      'young infants.',
-                                                                'C': 'Infant deltoid mass is often '
-                                                                     'inadequate for safe IM '
-                                                                     'injection.',
-                                                                'D': 'Ventrogluteal use is more '
-                                                                     'common in older '
-                                                                     'children/adults once '
-                                                                     'landmarks and mass allow.'}},
+                                                                'D': 'Dorsogluteal injections risk '
+                                                                     'sciatic nerve injury and are '
+                                                                     'not preferred in infants.'}},
                                        {'question': 'Pediatric medication doses are most commonly '
                                                     'calculated using which patient factor?',
-                                        'options': ['A) Adult standard dose cut in half for all '
-                                                    'ages',
+                                        'options': ['A) Age in years rounded to the nearest adult '
+                                                    'fraction (e.g., half-dose at age 8)',
                                                     'B) Shoe size as a surrogate for maturity',
-                                                    'C) Body weight (and sometimes body surface '
-                                                    'area)',
-                                                    'D) Room number to standardize unit dosing'],
-                                        'answer': 'C) Body weight (and sometimes body surface '
+                                                    'C) Room number to standardize unit dosing',
+                                                    'D) Body weight (and sometimes body surface '
+                                                    'area)'],
+                                        'answer': 'D) Body weight (and sometimes body surface '
                                                   'area)',
                                         'explanation': 'Children’s pharmacokinetics scale '
                                                        'primarily with body size; weight-based '
                                                        '(mg/kg) and sometimes BSA-based dosing '
-                                                       'prevent under- and overdosing. Adult '
-                                                       'half-doses, shoe size, and room number '
-                                                       'have no pharmacologic basis.',
-                                        'choice_explanations': {'A': 'Halving adult doses ignores '
-                                                                     'wide pediatric weight ranges '
-                                                                     'and can cause toxicity or '
-                                                                     'failure.',
+                                                       'prevent under- and overdosing.',
+                                        'choice_explanations': {'A': 'Age-based adult fractions '
+                                                                     'are a common bedside '
+                                                                     'shortcut and create dosing '
+                                                                     'doubt, but they ignore wide '
+                                                                     'weight ranges at the same '
+                                                                     'age.',
                                                                 'B': 'Shoe size does not determine '
                                                                      'volume of distribution or '
                                                                      'clearance.',
-                                                                'C': 'Weight-based (and sometimes '
+                                                                'C': 'Room number is unrelated to '
+                                                                     'dose requirements.',
+                                                                'D': 'Weight-based (and sometimes '
                                                                      'BSA) dosing matches '
                                                                      'developmental '
-                                                                     'pharmacokinetics.',
-                                                                'D': 'Room number is unrelated to '
-                                                                     'dose requirements.'}},
+                                                                     'pharmacokinetics.'}},
                                        {'question': 'Anterior fontanelle assessment is clinically '
                                                     'most relevant in which pediatric age group?',
-                                        'options': ['A) Only adolescents after growth-plate '
+                                        'options': ['A) Infants while the fontanelle remains '
+                                                    'patent (typically through early infancy)',
+                                                    'B) Any child under 5 years whenever '
+                                                    'intracranial pressure might be elevated',
+                                                    'C) Only adolescents after growth-plate '
                                                     'closure',
-                                                    'B) Only adults with chronic headache',
-                                                    'C) Only neonates in the first 24 hours of '
-                                                    'life',
-                                                    'D) Infants while the fontanelle remains '
-                                                    'patent (typically through early infancy)'],
-                                        'answer': 'D) Infants while the fontanelle remains patent '
+                                                    'D) Only neonates in the first 24 hours of '
+                                                    'life'],
+                                        'answer': 'A) Infants while the fontanelle remains patent '
                                                   '(typically through early infancy)',
                                         'explanation': 'The anterior fontanelle remains open in '
                                                        'infancy and provides a window on '
-                                                       'intracranial pressure and hydration '
-                                                       '(bulging vs sunken). After closure, it is '
-                                                       'no longer available as an assessment '
-                                                       'landmark.',
-                                        'choice_explanations': {'A': 'Adolescent cranial sutures '
+                                                       'intracranial pressure and hydration. After '
+                                                       'closure, it is no longer available as an '
+                                                       'assessment landmark.',
+                                        'choice_explanations': {'A': 'Patent fontanelles in '
+                                                                     'infants allow pressure and '
+                                                                     'hydration cues until '
+                                                                     'closure.',
+                                                                'B': 'Extending fontanelle '
+                                                                     'assessment to all young '
+                                                                     'children sounds reasonable '
+                                                                     'for ICP concern but is '
+                                                                     'anatomically wrong after '
+                                                                     'closure—assessment '
+                                                                     'near-miss.',
+                                                                'C': 'Adolescent cranial sutures '
                                                                      'are closed; fontanelle '
                                                                      'assessment is not '
                                                                      'applicable.',
-                                                                'B': 'Adults lack a patent '
-                                                                     'fontanelle for this '
-                                                                     'assessment.',
-                                                                'C': 'Assessment matters '
+                                                                'D': 'Assessment matters '
                                                                      'throughout infancy while the '
                                                                      'fontanelle is open, not only '
-                                                                     'day one.',
-                                                                'D': 'Patent fontanelles in '
-                                                                     'infants allow pressure and '
-                                                                     'hydration cues until '
-                                                                     'closure.'}}],
+                                                                     'day one of life.'}}],
                               'medium': [{'question': 'A toddler with gastroenteritis has sunken '
                                                       'eyes, absent tears, dry mucous membranes, '
                                                       'and delayed capillary refill. What do these '
                                                       'signs indicate?',
-                                          'options': ['A) Moderate to severe dehydration requiring '
-                                                      'urgent fluid assessment and escalation',
-                                                      'B) Adequate hydration because the child is '
-                                                      'still crying intermittently',
-                                                      'C) Isolated allergic rhinitis unrelated to '
+                                          'options': ['A) Isolated allergic rhinitis unrelated to '
                                                       'volume status',
-                                                      'D) Overhydration from excess free water'],
-                                          'answer': 'A) Moderate to severe dehydration requiring '
+                                                      'B) Moderate to severe dehydration requiring '
+                                                      'urgent fluid assessment and escalation',
+                                                      'C) Overhydration from excess free water',
+                                                      'D) Mild dehydration manageable with '
+                                                      'continued oral challenge because the child '
+                                                      'still cries at times'],
+                                          'answer': 'B) Moderate to severe dehydration requiring '
                                                     'urgent fluid assessment and escalation',
                                           'explanation': 'Sunken eyes, absent tears, dry mucosa, '
                                                          'and delayed CRT are classic dehydration '
                                                          'signs reflecting volume loss and '
                                                          'impaired perfusion. Pediatric patients '
-                                                         'decompensate quickly; nurses escalate '
-                                                         'for oral/IV rehydration based on '
-                                                         'severity rather than waiting for '
-                                                         'complete anuria.',
-                                          'choice_explanations': {'A': 'Combined mucosal and '
+                                                         'decompensate quickly; escalate for '
+                                                         'oral/IV rehydration.',
+                                          'choice_explanations': {'A': 'These findings reflect '
+                                                                       'volume status, not primary '
+                                                                       'rhinitis.',
+                                                                  'B': 'Combined mucosal and '
                                                                        'perfusion signs indicate '
                                                                        'clinically important '
                                                                        'dehydration needing urgent '
-                                                                       'management.',
-                                                                  'B': 'Intermittent crying does '
-                                                                       'not negate objective '
-                                                                       'dehydration signs.',
-                                                                  'C': 'These findings reflect '
-                                                                       'volume status, not primary '
-                                                                       'rhinitis.',
-                                                                  'D': 'Overhydration would not '
+                                                                       'fluid assessment.',
+                                                                  'C': 'Overhydration would not '
                                                                        'produce sunken eyes and '
-                                                                       'delayed CRT.'}},
+                                                                       'delayed CRT.',
+                                                                  'D': 'Intermittent crying can '
+                                                                       'mislead caregivers toward '
+                                                                       '“mild” status—overlapping '
+                                                                       'hydration assessment '
+                                                                       'near-miss.'}},
                                          {'question': 'When is the FLACC pain scale the most '
                                                       'appropriate choice?',
-                                          'options': ['A) Only for verbal adults who can use a '
-                                                      '0–10 numeric rating',
-                                                      'B) For infants/young children who cannot '
+                                          'options': ['A) Only postoperatively in patients with '
+                                                      'epidurals',
+                                                      'B) For any hospitalized child when vital '
+                                                      'signs are abnormal, as a shock-severity '
+                                                      'tool',
+                                                      'C) For infants/young children who cannot '
                                                       'self-report pain reliably',
-                                                      'C) As a substitute for vital signs in '
-                                                      'septic shock',
-                                                      'D) Only postoperatively in patients with '
-                                                      'epidurals'],
-                                          'answer': 'B) For infants/young children who cannot '
+                                                      'D) Only for verbal adults who can use a '
+                                                      '0–10 numeric rating'],
+                                          'answer': 'C) For infants/young children who cannot '
                                                     'self-report pain reliably',
                                           'explanation': 'FLACC scores Face, Legs, Activity, Cry, '
                                                          'and Consolability—behavioral cues used '
-                                                         'when children cannot self-report. '
-                                                         'Numeric scales suit verbal older '
-                                                         'patients; FLACC does not replace '
-                                                         'hemodynamic assessment in shock.',
-                                          'choice_explanations': {'A': 'Verbal adults should use '
-                                                                       'self-report scales, not '
-                                                                       'FLACC.',
-                                                                  'B': 'FLACC is designed for '
+                                                         'when children cannot self-report. It '
+                                                         'complements but does not replace '
+                                                         'hemodynamic assessment.',
+                                          'choice_explanations': {'A': 'FLACC is not limited to '
+                                                                       'epidural patients; it is '
+                                                                       'an age/ability-based tool.',
+                                                                  'B': 'Using FLACC as a shock '
+                                                                       'tool when vitals are '
+                                                                       'abnormal confuses pain '
+                                                                       'assessment with perfusion '
+                                                                       'triage—cousin near-miss.',
+                                                                  'C': 'FLACC is designed for '
                                                                        'preverbal or '
                                                                        'non-self-reporting young '
                                                                        'children.',
-                                                                  'C': 'Pain scales complement but '
-                                                                       'do not replace ABC/sepsis '
-                                                                       'assessment.',
-                                                                  'D': 'FLACC is not limited to '
-                                                                       'epidural patients; it is '
-                                                                       'an age/ability-based '
-                                                                       'tool.'}},
+                                                                  'D': 'Verbal adults should use '
+                                                                       'self-report scales, not '
+                                                                       'FLACC.'}},
                                          {'question': 'Nursing care for an infant with RSV '
                                                       'bronchiolitis should primarily focus on '
                                                       'which priorities?',
-                                          'options': ['A) Forcing oral feeds despite marked '
+                                          'options': ['A) Scheduled chest physiotherapy and forced '
+                                                      'oral feeds to maintain calories despite '
                                                       'tachypnea',
-                                                      'B) Routine chest physiotherapy as the '
-                                                      'mainstay for all cases',
-                                                      'C) Airway support, hydration as tolerated, '
-                                                      'oxygen/monitoring, and infection control',
-                                                      'D) Immediate antibiotics for all viral '
-                                                      'bronchiolitis'],
-                                          'answer': 'C) Airway support, hydration as tolerated, '
+                                                      'B) Immediate antibiotics for all viral '
+                                                      'bronchiolitis',
+                                                      'C) Allowing parents to skip isolation if '
+                                                      'the child appears playful',
+                                                      'D) Airway support, hydration as tolerated, '
+                                                      'oxygen/monitoring, and infection control'],
+                                          'answer': 'D) Airway support, hydration as tolerated, '
                                                     'oxygen/monitoring, and infection control',
                                           'explanation': 'RSV bronchiolitis care is supportive: '
                                                          'maintain airway and oxygenation, '
                                                          'carefully manage fluids, monitor for '
                                                          'apnea/respiratory failure, and use '
                                                          'contact precautions. Antibiotics treat '
-                                                         'bacterial coinfection only; aggressive '
-                                                         'feeding during severe work of breathing '
-                                                         'risks aspiration.',
-                                          'choice_explanations': {'A': 'Forced oral feeding with '
-                                                                       'high work of breathing '
-                                                                       'risks aspiration and '
-                                                                       'fatigue.',
-                                                                  'B': 'Routine CPT is not '
-                                                                       'standard for all RSV '
-                                                                       'bronchiolitis and may '
-                                                                       'increase distress.',
-                                                                  'C': 'Supportive '
+                                                         'bacterial coinfection only.',
+                                          'choice_explanations': {'A': 'CPT plus forced feeds '
+                                                                       'sounds like active '
+                                                                       '“respiratory care” but can '
+                                                                       'increase distress and '
+                                                                       'aspiration risk—priority '
+                                                                       'near-miss.',
+                                                                  'B': 'RSV is viral; antibiotics '
+                                                                       'are not routinely '
+                                                                       'indicated without '
+                                                                       'bacterial infection.',
+                                                                  'C': 'Playfulness does not '
+                                                                       'remove transmission '
+                                                                       'precautions.',
+                                                                  'D': 'Supportive '
                                                                        'airway/oxygen/hydration '
                                                                        'care with isolation '
                                                                        'precautions matches '
-                                                                       'evidence-based RSV '
-                                                                       'nursing.',
-                                                                  'D': 'RSV is viral; antibiotics '
-                                                                       'are not routinely '
-                                                                       'indicated without '
-                                                                       'bacterial infection.'}}],
+                                                                       'evidence-based '
+                                                                       'priorities.'}}],
                               'hard': [{'question': 'A toddler has patterned burns and a changing '
                                                     'caregiver story. The child is hemodynamically '
                                                     'stable. What is the nurse’s legal and ethical '
                                                     'obligation?',
-                                        'options': ['A) Confront the caregiver aggressively in the '
-                                                    'waiting room before documenting',
-                                                    'B) Wait until absolute proof is obtained in '
+                                        'options': ['A) Report suspected abuse per mandatory '
+                                                    'reporting laws and ensure immediate safety',
+                                                    'B) Complete a detailed forensic photo series '
+                                                    'and confront caregivers for consistency '
+                                                    'before reporting',
+                                                    'C) Wait until absolute proof is obtained in '
                                                     'court before telling anyone',
-                                                    'C) Discharge home quickly to avoid involving '
-                                                    'social services',
-                                                    'D) Report suspected abuse per mandatory '
-                                                    'reporting laws and ensure immediate safety'],
-                                        'answer': 'D) Report suspected abuse per mandatory '
+                                                    'D) Discharge home quickly to avoid involving '
+                                                    'social services'],
+                                        'answer': 'A) Report suspected abuse per mandatory '
                                                   'reporting laws and ensure immediate safety',
                                         'explanation': 'Nurses are mandatory reporters: reasonable '
                                                        'suspicion of abuse triggers reporting and '
                                                        'protection, not courtroom-level proof. '
                                                        'Patterned burns with inconsistent history '
-                                                       'warrant report and safety planning while '
-                                                       'medical care continues. Confrontation that '
-                                                       'escalates risk or premature discharge is '
-                                                       'unsafe.',
-                                        'choice_explanations': {'A': 'Hostile confrontation can '
-                                                                     'increase danger and '
-                                                                     'compromise investigation; '
-                                                                     'report through proper '
-                                                                     'channels.',
-                                                                'B': 'The reporting threshold is '
+                                                       'warrant report and safety planning.',
+                                        'choice_explanations': {'A': 'Mandatory reporting plus '
+                                                                     'ensuring safety is the '
+                                                                     'required nursing response.',
+                                                                'B': 'Gathering more “proof” and '
+                                                                     'confronting caregivers '
+                                                                     'delays protection and can '
+                                                                     'contaminate '
+                                                                     'investigation—assessment '
+                                                                     'cousin near-miss.',
+                                                                'C': 'The reporting threshold is '
                                                                      'reasonable suspicion, not '
                                                                      'judicial certainty.',
-                                                                'C': 'Discharging to a potentially '
+                                                                'D': 'Discharging to a potentially '
                                                                      'unsafe home violates the '
-                                                                     'duty to protect.',
-                                                                'D': 'Mandatory reporting plus '
-                                                                     'ensuring safety is the '
-                                                                     'required nursing response.'}},
+                                                                     'duty to protect.'}},
                                        {'question': 'A 3-year-old sits forward, drools, and has '
                                                     'stridor with high fever. The caregiver asks '
                                                     'you to look in the throat with a tongue '
                                                     'blade. What is the correct caution?',
-                                        'options': ['A) Do not agitate or instrument the airway; '
+                                        'options': ['A) Force the child supine and examine the '
+                                                    'pharynx immediately',
+                                                    'B) Do not agitate or instrument the airway; '
                                                     'keep the child calm and prepare for emergency '
                                                     'airway management',
-                                                    'B) Force the child supine and examine the '
-                                                    'pharynx immediately',
                                                     'C) Give a throat lozenge and discharge if '
                                                     'SpO2 is briefly 94%',
-                                                    'D) Perform blind finger sweeps to clear '
-                                                    'secretions'],
-                                        'answer': 'A) Do not agitate or instrument the airway; '
+                                                    'D) Inspect the throat gently with a tongue '
+                                                    'blade while the child remains upright to '
+                                                    'confirm epiglottitis'],
+                                        'answer': 'B) Do not agitate or instrument the airway; '
                                                   'keep the child calm and prepare for emergency '
                                                   'airway management',
                                         'explanation': 'Tripod posture, drooling, and stridor '
                                                        'suggest epiglottitis or critical '
                                                        'upper-airway obstruction. Stimulating the '
                                                        'airway can cause complete obstruction. '
-                                                       'Keep the child calm in a preferred '
-                                                       'position, give oxygen as tolerated, and '
-                                                       'prepare for controlled airway management '
-                                                       'with specialists.',
-                                        'choice_explanations': {'A': 'Avoiding '
-                                                                     'agitation/instrumentation '
-                                                                     'while preparing advanced '
-                                                                     'airway support is the key '
-                                                                     'safety principle.',
-                                                                'B': 'Forcing supine examination '
+                                                       'Keep the child calm and prepare for '
+                                                       'advanced airway support.',
+                                        'choice_explanations': {'A': 'Forcing supine examination '
                                                                      'can precipitate total airway '
                                                                      'loss.',
+                                                                'B': 'Avoiding '
+                                                                     'agitation/instrumentation '
+                                                                     'while preparing advanced '
+                                                                     'airway support is the '
+                                                                     'correct caution.',
                                                                 'C': 'This presentation is a '
                                                                      'life-threatening emergency, '
                                                                      'not a dischargeable sore '
                                                                      'throat.',
-                                                                'D': 'Blind finger sweeps can push '
-                                                                     'obstruction deeper and '
-                                                                     'provoke spasm.'}},
+                                                                'D': 'A “gentle upright look” '
+                                                                     'still instruments/agitates a '
+                                                                     'critical airway—dangerous '
+                                                                     'near-miss assessment urge.'}},
                                        {'question': 'A child treated for Kawasaki disease is '
                                                     'irritable with persistent fever and a new '
                                                     'gallop. Which complication concern should '
                                                     'guide nursing surveillance?',
-                                        'options': ['A) Isolated otitis media as the only sequela '
-                                                    'of concern',
-                                                    'B) Coronary artery aneurysms and myocardial '
+                                        'options': ['A) Guaranteed immunity to all future '
+                                                    'streptococcal disease',
+                                                    'B) Persistent febrile illness with '
+                                                    'dehydration risk as the main surveillance '
+                                                    'focus',
+                                                    'C) Coronary artery aneurysms and myocardial '
                                                     'ischemia/dysfunction',
-                                                    'C) Simple viral exanthem without cardiac '
-                                                    'follow-up',
-                                                    'D) Guaranteed immunity to all future '
-                                                    'streptococcal disease'],
-                                        'answer': 'B) Coronary artery aneurysms and myocardial '
+                                                    'D) Isolated otitis media as the only sequela '
+                                                    'of concern'],
+                                        'answer': 'C) Coronary artery aneurysms and myocardial '
                                                   'ischemia/dysfunction',
                                         'explanation': 'Kawasaki disease can cause coronary '
                                                        'arteritis and aneurysms, risking ischemia, '
                                                        'infarction, and ventricular dysfunction. '
                                                        'Persistent fever and new gallop heighten '
-                                                       'concern for ongoing inflammation/cardiac '
-                                                       'involvement, mandating monitoring, '
-                                                       'IVIG/aspirin per protocol, and cardiology '
-                                                       'follow-up—not dismissal as a simple rash.',
-                                        'choice_explanations': {'A': 'Otitis is not the defining '
-                                                                     'serious sequela of Kawasaki '
-                                                                     'disease.',
-                                                                'B': 'Coronary aneurysms and '
+                                                       'concern for cardiac complications.',
+                                        'choice_explanations': {'A': 'Kawasaki treatment does not '
+                                                                     'confer streptococcal '
+                                                                     'immunity.',
+                                                                'B': 'Fever/dehydration vigilance '
+                                                                     'is appropriate supportive '
+                                                                     'care but misses the defining '
+                                                                     'cardiac '
+                                                                     'complication—assessment '
+                                                                     'near-miss.',
+                                                                'C': 'Coronary aneurysms and '
                                                                      'cardiac dysfunction are the '
                                                                      'critical complications '
                                                                      'nurses watch for.',
-                                                                'C': 'Cardiac surveillance is '
-                                                                     'mandatory; this is not a '
-                                                                     'benign viral exanthem.',
-                                                                'D': 'Kawasaki treatment does not '
-                                                                     'confer streptococcal '
-                                                                     'immunity.'}}],
+                                                                'D': 'Otitis is not the defining '
+                                                                     'serious sequela of Kawasaki '
+                                                                     'disease.'}}],
                               'extreme': [{'question': 'A 6-year-old becomes unresponsive and '
                                                        'pulseless in the playroom after '
                                                        'progressive respiratory distress. An AED '
@@ -1436,45 +1390,44 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                        'pediatric BLS principles, what compression '
                                                        'approach should you prioritize while the '
                                                        'team prepares defibrillation?',
-                                           'options': ['A) Compress at adult depth of at least 5 '
+                                           'options': ['A) Focus on rescue breaths first for a few '
+                                                       'minutes because the arrest was respiratory '
+                                                       'in origin, then start compressions',
+                                                       'B) Compress at adult depth of at least 5 '
                                                        'inches on the xiphoid to be “sure”',
-                                                       'B) Deliver only rescue breaths without '
-                                                       'compressions until a physician arrives',
-                                                       'C) Start high-quality CPR with chest '
+                                                       'C) Wait for a pulse check every 5 seconds '
+                                                       'before any compression',
+                                                       'D) Start high-quality CPR with chest '
                                                        'compressions to about one-third AP chest '
                                                        'depth (≈5 cm in children) and allow full '
-                                                       'recoil',
-                                                       'D) Wait for a pulse check every 5 seconds '
-                                                       'before any compression'],
-                                           'answer': 'C) Start high-quality CPR with chest '
+                                                       'recoil'],
+                                           'answer': 'D) Start high-quality CPR with chest '
                                                      'compressions to about one-third AP chest '
                                                      'depth (≈5 cm in children) and allow full '
                                                      'recoil',
-                                           'explanation': 'Pediatric cardiac arrest is often '
-                                                          'hypoxic; immediate high-quality '
-                                                          'compressions with age-appropriate depth '
-                                                          '(~⅓ AP diameter), full recoil, and '
-                                                          'minimal interruptions improve coronary '
-                                                          'perfusion while AED/defibrillation is '
-                                                          'prepared. Excessive depth risks injury; '
-                                                          'pulse-check delays and breath-only '
-                                                          'approaches worsen ischemic time.',
-                                           'choice_explanations': {'A': 'Excessive depth and '
-                                                                        'xiphoid pressure risk '
-                                                                        'trauma and are not '
-                                                                        'pediatric technique.',
-                                                                   'B': 'Compressions are '
-                                                                        'essential once pulseless; '
-                                                                        'breaths alone do not '
-                                                                        'circulate blood.',
-                                                                   'C': 'Age-appropriate depth '
-                                                                        'with full recoil is the '
-                                                                        'pediatric BLS compression '
-                                                                        'standard.',
-                                                                   'D': 'Frequent prolonged pulse '
+                                           'explanation': 'Pulseless children need immediate '
+                                                          'high-quality CPR. Even when respiratory '
+                                                          'failure precedes arrest, current '
+                                                          'pediatric BLS emphasizes starting '
+                                                          'compressions with ventilations rather '
+                                                          'than delaying for breaths-only care.',
+                                           'choice_explanations': {'A': 'Respiratory-origin arrest '
+                                                                        'tempts a breaths-first '
+                                                                        'delay—priority near-miss '
+                                                                        'that postpones '
+                                                                        'compressions.',
+                                                                   'B': 'Adult-depth xiphoid '
+                                                                        'compressions risk injury '
+                                                                        'and ineffective '
+                                                                        'technique.',
+                                                                   'C': 'Frequent prolonged pulse '
                                                                         'checks interrupt '
-                                                                        'perfusion; minimize '
-                                                                        'pauses.'}},
+                                                                        'perfusion.',
+                                                                   'D': 'Age-appropriate '
+                                                                        'compression depth with '
+                                                                        'high-quality CPR is the '
+                                                                        'correct immediate '
+                                                                        'action.'}},
                                           {'question': 'A school-age child with a known peanut '
                                                        'allergy eats a cookie at a party, then '
                                                        'develops facial swelling, wheeze, and BP '
@@ -1482,39 +1435,36 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                        'auto-injector is available, but a '
                                                        'volunteer insists you “wait for EMS so you '
                                                        'don’t get in trouble.” What should you do?',
-                                           'options': ['A) Wait for EMS arrival before any '
-                                                       'medication',
-                                                       'B) Give oral diphenhydramine only and '
-                                                       'observe in the hallway',
-                                                       'C) Have the child walk briskly to “work '
-                                                       'off” the reaction',
-                                                       'D) Give epinephrine IM via auto-injector '
+                                           'options': ['A) Give epinephrine IM via auto-injector '
                                                        'immediately and activate emergency '
-                                                       'services'],
-                                           'answer': 'D) Give epinephrine IM via auto-injector '
+                                                       'services',
+                                                       'B) Give oral antihistamine and inhaled '
+                                                       'bronchodilator first while waiting to see '
+                                                       'if BP improves',
+                                                       'C) Wait for EMS arrival before any '
+                                                       'medication',
+                                                       'D) Have the child walk briskly to “work '
+                                                       'off” the reaction'],
+                                           'answer': 'A) Give epinephrine IM via auto-injector '
                                                      'immediately and activate emergency services',
-                                           'explanation': 'Anaphylaxis with respiratory and '
-                                                          'hypotensive features requires immediate '
-                                                          'IM epinephrine; delay increases '
-                                                          'fatality. Antihistamines are adjuncts '
-                                                          'only. EMS should be activated '
-                                                          'concurrently, not as a reason to '
-                                                          'withhold first-line epinephrine already '
-                                                          'in hand.',
-                                           'choice_explanations': {'A': 'Waiting for EMS before '
-                                                                        'epinephrine is a common '
-                                                                        'fatal delay in '
-                                                                        'anaphylaxis.',
-                                                                   'B': 'Antihistamines do not '
-                                                                        'reverse airway edema or '
-                                                                        'shock.',
-                                                                   'C': 'Exercise worsens '
-                                                                        'distribution of allergen '
-                                                                        'and shock.',
-                                                                   'D': 'Immediate IM epinephrine '
-                                                                        'plus EMS activation is '
-                                                                        'the correct priority '
-                                                                        'sequence.'}},
+                                           'explanation': 'Facial swelling, wheeze, and '
+                                                          'hypotension after peanut exposure are '
+                                                          'anaphylaxis. IM epinephrine is '
+                                                          'first-line and should not be delayed '
+                                                          'for antihistamines or EMS arrival.',
+                                           'choice_explanations': {'A': 'Immediate IM epinephrine '
+                                                                        'plus emergency activation '
+                                                                        'is first-line anaphylaxis '
+                                                                        'care.',
+                                                                   'B': 'Antihistamine/bronchodilator-first '
+                                                                        'is a common near-miss '
+                                                                        'that delays epinephrine '
+                                                                        'in anaphylactic shock.',
+                                                                   'C': 'Waiting for EMS delays '
+                                                                        'the definitive first '
+                                                                        'drug.',
+                                                                   'D': 'Ambulation worsens shock '
+                                                                        'and hypoxia.'}},
                                           {'question': 'After a high-speed MVC, a child is drowsy '
                                                        'with unequal pupils, HR 58, and BP 150/95. '
                                                        'The cervical collar is in place. A '
@@ -1522,44 +1472,40 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                        '“better airway look” and start hypotonic '
                                                        'free-water fluids wide open. What is the '
                                                        'priority nursing approach?',
-                                           'options': ['A) Protect airway/C-spine, avoid hypotonic '
-                                                       'fluids, elevate head of bed if permitted, '
-                                                       'and escalate for rising ICP/herniation '
-                                                       'signs',
-                                                       'B) Flex the neck aggressively to improve '
-                                                       'the view without precautions',
-                                                       'C) Give free-water boluses to lower sodium '
+                                           'options': ['A) Give free-water boluses to lower sodium '
                                                        'rapidly',
-                                                       'D) Remove the collar because bradycardia '
-                                                       'proves the spine is fine'],
-                                           'answer': 'A) Protect airway/C-spine, avoid hypotonic '
+                                                       'B) Protect airway/C-spine, avoid hypotonic '
+                                                       'fluids, elevate head of bed if permitted, '
+                                                       'and escalate for rising ICP',
+                                                       'C) Remove the collar because bradycardia '
+                                                       'proves the spine is fine',
+                                                       'D) Perform a focused neurologic exam '
+                                                       'including neck flexion to localize the '
+                                                       'lesion before calling neurosurgery'],
+                                           'answer': 'B) Protect airway/C-spine, avoid hypotonic '
                                                      'fluids, elevate head of bed if permitted, '
-                                                     'and escalate for rising ICP/herniation signs',
-                                           'explanation': 'Bradycardia with hypertension and '
-                                                          'unequal pupils suggests Cushing '
-                                                          'physiology and possible herniation '
-                                                          'after trauma. Priorities are airway '
-                                                          'with C-spine protection, '
-                                                          'normoxia/normocapnia goals per '
-                                                          'protocol, avoiding hypotonic fluids '
-                                                          'that worsen cerebral edema, head '
-                                                          'elevation if approved, and emergent '
-                                                          'neurosurgical escalation.',
-                                           'choice_explanations': {'A': 'C-spine/airway protection '
-                                                                        'and ICP-minded care with '
-                                                                        'urgent escalation match '
-                                                                        'traumatic brain injury '
-                                                                        'priorities.',
-                                                                   'B': 'Neck flexion without '
-                                                                        'stabilization risks cord '
-                                                                        'injury and does not treat '
-                                                                        'herniation.',
-                                                                   'C': 'Hypotonic free water can '
+                                                     'and escalate for rising ICP',
+                                           'explanation': 'Unequal pupils, bradycardia, and '
+                                                          'hypertension after trauma suggest '
+                                                          'rising ICP with herniation risk. '
+                                                          'Maintain C-spine precautions, support '
+                                                          'airway, avoid hypotonic free water, and '
+                                                          'escalate—do not flex the neck.',
+                                           'choice_explanations': {'A': 'Free-water boluses can '
                                                                         'worsen cerebral edema.',
-                                                                   'D': 'Bradycardia here is a '
-                                                                        'late ICP sign, not proof '
-                                                                        'the spine is '
-                                                                        'uninjured.'}}]},
+                                                                   'B': 'Airway/C-spine protection '
+                                                                        'with ICP-minded care and '
+                                                                        'escalation is the '
+                                                                        'priority cluster.',
+                                                                   'C': 'Bradycardia in this '
+                                                                        'pattern is a Cushing '
+                                                                        'clue, not proof the spine '
+                                                                        'is uninjured.',
+                                                                   'D': 'A complete neuro exam '
+                                                                        'with neck flexion sounds '
+                                                                        'assessment-rigorous but '
+                                                                        'risks cord injury and ICP '
+                                                                        'spikes—near-miss.'}}]},
                 'cases': {'easy': [{'title': 'Febrile Infant',
                                     'stem': '6-week-old with fever 38.5°C; parents anxious.',
                                     'question': 'Nursing priority theme?',
@@ -1600,183 +1546,192 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                              'Support bonding and newborn transition (APGAR, warmth).'],
                'questions': {'easy': [{'question': 'What does the APGAR score primarily assess in '
                                                    'the newborn?',
-                                       'options': ['A) Long-term intelligence quotient at age 5',
-                                                   'B) Immediate cardiopulmonary and neuromuscular '
-                                                   'transition at 1 and 5 minutes',
-                                                   'C) Maternal blood type compatibility only',
-                                                   'D) Exact gestational age in weeks'],
-                                       'answer': 'B) Immediate cardiopulmonary and neuromuscular '
+                                       'options': ['A) Overall newborn wellness used to predict '
+                                                   'long-term developmental outcomes',
+                                                   'B) Maternal blood type compatibility only',
+                                                   'C) Exact gestational age in weeks',
+                                                   'D) Immediate cardiopulmonary and neuromuscular '
+                                                   'transition at 1 and 5 minutes'],
+                                       'answer': 'D) Immediate cardiopulmonary and neuromuscular '
                                                  'transition at 1 and 5 minutes',
                                        'explanation': 'APGAR evaluates Appearance, Pulse, Grimace, '
-                                                      'Activity, and Respiration to summarize the '
-                                                      'newborn’s immediate adaptation and need for '
-                                                      'resuscitation support. It is not an IQ '
-                                                      'test, blood-type assay, or dating tool.',
-                                       'choice_explanations': {'A': 'APGAR does not predict '
-                                                                    'long-term intelligence.',
-                                                               'B': 'It scores immediate '
+                                                      'Activity, and Respiration to summarize '
+                                                      'immediate adaptation and need for '
+                                                      'resuscitation support. It is not a '
+                                                      'long-term outcome predictor or dating tool.',
+                                       'choice_explanations': {'A': 'Treating APGAR as a broad '
+                                                                    'wellness/long-term predictor '
+                                                                    'is a common '
+                                                                    'misunderstanding—assessment '
+                                                                    'cousin near-miss.',
+                                                               'B': 'Blood type is a separate '
+                                                                    'maternal–neonatal lab issue.',
+                                                               'C': 'Gestational age uses other '
+                                                                    'dating methods, not APGAR.',
+                                                               'D': 'It scores immediate '
                                                                     'transition and guides early '
                                                                     'resuscitation needs at 1 and '
-                                                                    '5 minutes.',
-                                                               'C': 'Blood type is a separate '
-                                                                    'maternal–neonatal lab issue.',
-                                                               'D': 'Gestational age uses other '
-                                                                    'dating methods, not APGAR.'}},
+                                                                    '5 minutes.'}},
                                       {'question': 'Why is fundal massage performed in the '
                                                    'immediate postpartum period when the uterus is '
                                                    'boggy?',
-                                       'options': ['A) To induce lactation within seconds',
-                                                   'B) To replace the need for quantifying blood '
-                                                   'loss',
-                                                   'C) To stimulate uterine contraction and reduce '
+                                       'options': ['A) To stimulate uterine contraction and reduce '
                                                    'postpartum hemorrhage from atony',
-                                                   'D) To confirm placental pathology under the '
-                                                   'microscope'],
-                                       'answer': 'C) To stimulate uterine contraction and reduce '
+                                                   'B) To express clots and assess lochia amount '
+                                                   'before deciding whether the fundus needs '
+                                                   'firming',
+                                                   'C) To induce lactation within seconds',
+                                                   'D) To replace the need for quantifying blood '
+                                                   'loss'],
+                                       'answer': 'A) To stimulate uterine contraction and reduce '
                                                  'postpartum hemorrhage from atony',
                                        'explanation': 'Uterine atony is a leading cause of '
                                                       'postpartum hemorrhage. Fundal massage '
                                                       'stimulates myometrial contraction, '
                                                       'compressing vessels at the placental site. '
-                                                      'It complements uterotonics and does not '
-                                                      'replace blood-loss assessment or lactation '
-                                                      'physiology.',
-                                       'choice_explanations': {'A': 'Massage does not instantly '
-                                                                    'induce lactation.',
-                                                               'B': 'Blood loss still must be '
-                                                                    'quantified; massage treats '
-                                                                    'atony.',
-                                                               'C': 'Contraction from massage '
+                                                      'It complements—not replaces—quantified '
+                                                      'blood-loss assessment and uterotonics.',
+                                       'choice_explanations': {'A': 'Contraction from massage '
                                                                     'reduces bleeding from an '
                                                                     'atonic uterus.',
-                                                               'D': 'Massage is a clinical '
-                                                                    'intervention, not a pathology '
-                                                                    'technique.'}},
+                                                               'B': 'Assessing lochia/clots is '
+                                                                    'important but delaying '
+                                                                    'firming massage of a boggy '
+                                                                    'fundus is a priority '
+                                                                    'near-miss.',
+                                                               'C': 'Massage does not instantly '
+                                                                    'induce lactation.',
+                                                               'D': 'Blood loss still must be '
+                                                                    'quantified; massage treats '
+                                                                    'atony.'}},
                                       {'question': 'An Rh-negative mother delivers an Rh-positive '
                                                    'newborn. Which postpartum intervention may she '
                                                    'need?',
                                        'options': ['A) High-dose vitamin K to the mother instead '
                                                    'of the newborn',
-                                                   'B) Immediate hysterectomy for sensitization '
+                                                   'B) Rh(D) immune globulin (RhoGAM) as indicated '
+                                                   'to prevent sensitization',
+                                                   'C) Immediate hysterectomy for sensitization '
                                                    'prevention',
-                                                   'C) No blood-product counseling of any kind',
-                                                   'D) Rh(D) immune globulin (RhoGAM) as indicated '
-                                                   'to prevent sensitization'],
-                                       'answer': 'D) Rh(D) immune globulin (RhoGAM) as indicated '
+                                                   'D) Type and crossmatch the mother for possible '
+                                                   'delayed transfusion if titers rise later'],
+                                       'answer': 'B) Rh(D) immune globulin (RhoGAM) as indicated '
                                                  'to prevent sensitization',
                                        'explanation': 'RhIG given when indicated prevents maternal '
                                                       'anti-D formation after exposure to '
                                                       'Rh-positive fetal cells, protecting future '
-                                                      'pregnancies from hemolytic disease. It is '
-                                                      'not replaced by vitamin K, surgery, or '
-                                                      'omission of counseling.',
+                                                      'pregnancies from hemolytic disease.',
                                        'choice_explanations': {'A': 'Vitamin K is for newborn '
                                                                     'hemorrhagic disease '
                                                                     'prevention, not maternal Rh '
                                                                     'sensitization.',
-                                                               'B': 'Hysterectomy is not the '
+                                                               'B': 'RhIG prevents '
+                                                                    'alloimmunization in eligible '
+                                                                    'Rh-negative mothers.',
+                                                               'C': 'Hysterectomy is not the '
                                                                     'prophylaxis for Rh '
                                                                     'incompatibility.',
-                                                               'C': 'Counseling about RhIG timing '
-                                                                    'and indications is essential.',
-                                                               'D': 'RhIG prevents '
-                                                                    'alloimmunization in eligible '
-                                                                    'Rh-negative mothers.'}}],
+                                                               'D': 'Blood-bank readiness is '
+                                                                    'related Rh care thinking but '
+                                                                    'is not the indicated '
+                                                                    'postpartum sensitization '
+                                                                    'prevention.'}}],
                              'medium': [{'question': 'Which cluster best represents danger signs '
                                                      'of worsening preeclampsia that require '
                                                      'urgent escalation?',
-                                         'options': ['A) Severe headache, visual changes, '
+                                         'options': ['A) Leukorrhea without itching in the second '
+                                                     'trimester',
+                                                     'B) New dependent edema and mild headache '
+                                                     'after a long day of standing',
+                                                     'C) Severe headache, visual changes, '
                                                      'epigastric pain, and rising BP',
-                                                     'B) Isolated mild ankle edema without other '
-                                                     'findings in late pregnancy',
-                                                     'C) Fetal quickening reported for the first '
-                                                     'time at 20 weeks',
-                                                     'D) Leukorrhea without itching in the second '
-                                                     'trimester'],
-                                         'answer': 'A) Severe headache, visual changes, epigastric '
+                                                     'D) Fetal quickening reported for the first '
+                                                     'time at 20 weeks'],
+                                         'answer': 'C) Severe headache, visual changes, epigastric '
                                                    'pain, and rising BP',
                                          'explanation': 'Severe features of preeclampsia include '
-                                                        'neurologic symptoms (headache, visual '
-                                                        'changes), right-upper-quadrant/epigastric '
-                                                        'pain (hepatic capsule stretch), and '
-                                                        'severe hypertension—harbingers of '
-                                                        'eclampsia and organ injury. Mild '
-                                                        'dependent edema alone is common and less '
-                                                        'specific.',
-                                         'choice_explanations': {'A': 'This symptom cluster '
+                                                        'neurologic symptoms, epigastric/RUQ pain, '
+                                                        'and severe hypertension—harbingers of '
+                                                        'eclampsia and organ injury needing urgent '
+                                                        'escalation.',
+                                         'choice_explanations': {'A': 'Normal leukorrhea without '
+                                                                      'infection signs is not a '
+                                                                      'preeclampsia warning.',
+                                                                 'B': 'Edema with mild headache is '
+                                                                      'common overlapping '
+                                                                      'preeclampsia assessment '
+                                                                      'territory and creates '
+                                                                      'doubt, but alone lacks '
+                                                                      'severe-feature urgency.',
+                                                                 'C': 'This symptom cluster '
                                                                       'signals severe features '
                                                                       'needing urgent evaluation '
                                                                       'and seizure precautions.',
-                                                                 'B': 'Mild dependent edema alone '
-                                                                      'is common in late pregnancy '
-                                                                      'and not by itself a severe '
-                                                                      'feature.',
-                                                                 'C': 'Quickening is expected '
+                                                                 'D': 'Quickening is expected '
                                                                       'fetal movement, not a '
-                                                                      'preeclampsia danger sign.',
-                                                                 'D': 'Normal leukorrhea without '
-                                                                      'infection signs is not a '
-                                                                      'preeclampsia warning.'}},
+                                                                      'preeclampsia danger sign.'}},
                                         {'question': 'A nonstress test is reported as reactive. '
                                                      'What does this roughly indicate?',
-                                         'options': ['A) Immediate cesarean is mandatory '
+                                         'options': ['A) A reassuring test that rules out the need '
+                                                     'for further fetal surveillance this '
+                                                     'pregnancy',
+                                                     'B) Immediate cesarean is mandatory '
                                                      'regardless of other findings',
-                                                     'B) Adequate fetal heart-rate accelerations '
-                                                     'with movement, suggesting fetal well-being '
-                                                     'in that window',
                                                      'C) Confirmed fetal demise',
-                                                     'D) Need to stop all maternal oral intake '
-                                                     'permanently'],
-                                         'answer': 'B) Adequate fetal heart-rate accelerations '
+                                                     'D) Adequate fetal heart-rate accelerations '
+                                                     'with movement, suggesting fetal well-being '
+                                                     'in that window'],
+                                         'answer': 'D) Adequate fetal heart-rate accelerations '
                                                    'with movement, suggesting fetal well-being in '
                                                    'that window',
                                          'explanation': 'A reactive NST shows accelerations '
                                                         'associated with fetal movement, '
                                                         'reflecting intact autonomic and '
                                                         'oxygenation status during the test '
-                                                        'period. It is reassuring but not an '
-                                                        'automatic surgical indication, nor '
-                                                        'evidence of demise.',
-                                         'choice_explanations': {'A': 'Reactive NST is reassuring, '
+                                                        'period. It is reassuring for that window, '
+                                                        'not a permanent clearance.',
+                                         'choice_explanations': {'A': 'Over-reading a reactive NST '
+                                                                      'as ending all surveillance '
+                                                                      'is an assessment near-miss.',
+                                                                 'B': 'Reactive NST is reassuring, '
                                                                       'not an automatic cesarean '
                                                                       'trigger.',
-                                                                 'B': 'Accelerations with movement '
-                                                                      'indicate fetal well-being '
-                                                                      'during the testing window.',
                                                                  'C': 'Demise would lack a normal '
                                                                       'reactive pattern.',
-                                                                 'D': 'NST result alone does not '
-                                                                      'dictate lifelong NPO '
-                                                                      'status.'}},
+                                                                 'D': 'Accelerations with movement '
+                                                                      'indicate fetal well-being '
+                                                                      'during the testing '
+                                                                      'window.'}},
                                         {'question': 'Teaching for a breastfeeding parent with '
                                                      'mastitis should include which point?',
-                                         'options': ['A) Abruptly stop breastfeeding on the '
-                                                     'affected side permanently',
-                                                     'B) Apply ice only and never empty the breast',
-                                                     'C) Continue frequent emptying (feed/pump), '
+                                         'options': ['A) Continue frequent emptying (feed/pump), '
                                                      'use comfort measures, and take antibiotics '
                                                      'if prescribed',
+                                                     'B) Rest the affected breast for 24 hours, '
+                                                     'then resume feeding only if fever resolves',
+                                                     'C) Abruptly stop breastfeeding on the '
+                                                     'affected side permanently',
                                                      'D) Ignore fever because mastitis is always '
                                                      'self-limited without treatment'],
-                                         'answer': 'C) Continue frequent emptying (feed/pump), use '
+                                         'answer': 'A) Continue frequent emptying (feed/pump), use '
                                                    'comfort measures, and take antibiotics if '
                                                    'prescribed',
                                          'explanation': 'Mastitis management includes continued '
                                                         'milk removal, supportive care, and '
                                                         'antibiotics when indicated. Abrupt '
-                                                        'weaning worsens engorgement and '
-                                                        'infection; leaving milk stagnant promotes '
-                                                        'bacterial growth.',
-                                         'choice_explanations': {'A': 'Continued emptying aids '
-                                                                      'resolution; abrupt '
-                                                                      'cessation worsens stasis.',
-                                                                 'B': 'Emptying is therapeutic; '
-                                                                      'ice alone without removal '
-                                                                      'is insufficient.',
-                                                                 'C': 'Frequent emptying plus '
+                                                        'weaning or prolonged “resting” the breast '
+                                                        'worsens stasis.',
+                                         'choice_explanations': {'A': 'Frequent emptying plus '
                                                                       'prescribed '
                                                                       'antibiotics/supportive care '
                                                                       'is standard teaching.',
+                                                                 'B': 'Resting the breast until '
+                                                                      'fever resolves sounds '
+                                                                      'soothing but worsens milk '
+                                                                      'stasis—near-miss.',
+                                                                 'C': 'Continued emptying aids '
+                                                                      'resolution; abrupt '
+                                                                      'cessation worsens stasis.',
                                                                  'D': 'Fever with mastitis often '
                                                                       'needs evaluation and '
                                                                       'possible antibiotics.'}}],
@@ -1784,100 +1739,101 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                    'shoulders do not follow; the turtle sign is '
                                                    'present. Which nursing actions help the team '
                                                    'manage shoulder dystocia?',
-                                       'options': ['A) Apply fundal pressure as the first and only '
-                                                   'maneuver',
-                                                   'B) Pull harder on the head without calling for '
+                                       'options': ['A) Pull harder on the head without calling for '
                                                    'help',
+                                                   'B) Call for help, note the time, assist with '
+                                                   'McRoberts/suprapubic pressure as directed, and '
+                                                   'avoid fundal pressure',
                                                    'C) Have the mother stand and walk to deliver '
                                                    'the shoulders',
-                                                   'D) Call for help, note the time, assist with '
-                                                   'McRoberts/suprapubic pressure as directed, and '
-                                                   'avoid fundal pressure'],
-                                       'answer': 'D) Call for help, note the time, assist with '
+                                                   'D) Apply strong fundal pressure while traction '
+                                                   'is increased to deliver the anterior shoulder '
+                                                   'quickly'],
+                                       'answer': 'B) Call for help, note the time, assist with '
                                                  'McRoberts/suprapubic pressure as directed, and '
                                                  'avoid fundal pressure',
                                        'explanation': 'Shoulder dystocia is an obstetric '
                                                       'emergency. Nurses activate help, track '
-                                                      'time, and assist with McRoberts positioning '
-                                                      'and suprapubic pressure. Fundal pressure '
-                                                      'worsens impaction and is contraindicated; '
-                                                      'forceful traction risks brachial plexus '
-                                                      'injury.',
-                                       'choice_explanations': {'A': 'Fundal pressure increases '
-                                                                    'shoulder impaction and is '
-                                                                    'contraindicated.',
-                                                               'B': 'Excessive traction risks '
+                                                      'time, and assist with McRoberts and '
+                                                      'suprapubic pressure. Fundal pressure '
+                                                      'worsens impaction and is contraindicated.',
+                                       'choice_explanations': {'A': 'Excessive traction risks '
                                                                     'nerve injury; help and proper '
                                                                     'maneuvers are required.',
+                                                               'B': 'Help, timing, McRoberts, and '
+                                                                    'suprapubic pressure are the '
+                                                                    'correct assistive priorities.',
                                                                'C': 'Ambulation is impossible and '
                                                                     'unsafe mid-dystocia.',
-                                                               'D': 'Help, timing, McRoberts, and '
-                                                                    'suprapubic pressure are the '
-                                                                    'correct assistive '
-                                                                    'priorities.'}},
+                                                               'D': 'Fundal pressure with traction '
+                                                                    'is a dangerous instinctive '
+                                                                    'near-miss that worsens '
+                                                                    'impaction.'}},
                                       {'question': 'A pregnant patient at 34 weeks has sudden dark '
                                                    'vaginal bleeding, rigid board-like abdomen, '
                                                    'and severe pain with fetal bradycardia. Which '
                                                    'condition fits this classic pattern?',
-                                       'options': ['A) Placental abruption until proven otherwise',
-                                                   'B) Bloody show of early latent labor only',
-                                                   'C) Uncomplicated placenta previa with painless '
-                                                   'bright bleeding exclusively',
-                                                   'D) Normal Braxton Hicks with mucus plug only'],
-                                       'answer': 'A) Placental abruption until proven otherwise',
+                                       'options': ['A) Normal Braxton Hicks with mucus plug only',
+                                                   'B) Placenta previa with labor pain from '
+                                                   'contractions causing the bleeding appearance',
+                                                   'C) Placental abruption until proven otherwise',
+                                                   'D) Bloody show of early latent labor only'],
+                                       'answer': 'C) Placental abruption until proven otherwise',
                                        'explanation': 'Painful dark bleeding, uterine '
                                                       'rigidity/tenderness, and fetal distress '
-                                                      'classic for abruption—premature placental '
-                                                      'separation compromising maternal–fetal '
-                                                      'perfusion. Previa is typically painless '
-                                                      'bright bleeding; bloody show is lighter and '
-                                                      'not associated with a board-like uterus.',
-                                       'choice_explanations': {'A': 'Painful bleeding with a rigid '
-                                                                    'uterus and fetal compromise '
-                                                                    'is the abruption pattern.',
-                                                               'B': 'Bloody show lacks board-like '
-                                                                    'rigidity and severe fetal '
-                                                                    'bradycardia of this degree.',
-                                                               'C': 'Previa is usually painless; '
-                                                                    'rigidity and severe pain '
-                                                                    'point to abruption.',
-                                                               'D': 'Braxton Hicks are '
+                                                      'classic for abruption. Previa is typically '
+                                                      'painless bright bleeding without a '
+                                                      'board-like uterus.',
+                                       'choice_explanations': {'A': 'Braxton Hicks are '
                                                                     'intermittent tightenings '
                                                                     'without hemorrhage and fetal '
-                                                                    'bradycardia.'}},
+                                                                    'bradycardia.',
+                                                               'B': 'Previa is the classic '
+                                                                    'bleeding differential '
+                                                                    '(assessment cousin) but '
+                                                                    'painless bright bleeding '
+                                                                    'lacks this rigid, painful '
+                                                                    'picture.',
+                                                               'C': 'Painful bleeding with a rigid '
+                                                                    'uterus and fetal compromise '
+                                                                    'is the abruption pattern.',
+                                                               'D': 'Bloody show lacks board-like '
+                                                                    'rigidity and severe fetal '
+                                                                    'bradycardia of this degree.'}},
                                       {'question': 'How do postpartum blues typically differ from '
                                                    'postpartum depression in nursing assessment?',
-                                       'options': ['A) Blues always include psychosis and require '
+                                       'options': ['A) Blues and depression are distinguished '
+                                                   'mainly by whether EPDS screening was done on '
+                                                   'postpartum day 1',
+                                                   'B) Blues always include psychosis and require '
                                                    'immediate involuntary hold',
-                                                   'B) Blues are transient tearfulness/mood '
-                                                   'lability peaking early; depression is more '
-                                                   'persistent with functional impairment',
                                                    'C) Depression never occurs after day 3, so '
                                                    'late symptoms can be ignored',
-                                                   'D) Blues require lifelong antipsychotic '
-                                                   'therapy by definition'],
-                                       'answer': 'B) Blues are transient tearfulness/mood lability '
+                                                   'D) Blues are transient tearfulness/mood '
+                                                   'lability peaking early; depression is more '
+                                                   'persistent with functional impairment'],
+                                       'answer': 'D) Blues are transient tearfulness/mood lability '
                                                  'peaking early; depression is more persistent '
                                                  'with functional impairment',
                                        'explanation': 'Postpartum blues are common, brief mood '
                                                       'swings in the first days. Postpartum '
                                                       'depression lasts longer, impairs function, '
                                                       'and may include hopelessness or suicidal '
-                                                      'ideation needing treatment. Psychosis is a '
-                                                      'separate emergency. Timing alone does not '
-                                                      'make late symptoms safe to ignore.',
-                                       'choice_explanations': {'A': 'Psychosis is not a feature of '
+                                                      'ideation needing treatment.',
+                                       'choice_explanations': {'A': 'Screening timing matters but '
+                                                                    'does not itself define the '
+                                                                    'clinical '
+                                                                    'distinction—assessment '
+                                                                    'near-miss.',
+                                                               'B': 'Psychosis is not a feature of '
                                                                     'blues; it is a psychiatric '
                                                                     'emergency of its own.',
-                                                               'B': 'Duration and functional '
-                                                                    'impact distinguish blues from '
-                                                                    'depression.',
                                                                'C': 'Depression can present later '
                                                                     'and must not be dismissed by '
                                                                     'calendar day.',
-                                                               'D': 'Blues are self-limited and do '
-                                                                    'not mandate '
-                                                                    'antipsychotics.'}}],
+                                                               'D': 'Duration and functional '
+                                                                    'impact distinguish blues from '
+                                                                    'depression.'}}],
                              'extreme': [{'question': 'Immediately after a generalized eclamptic '
                                                       'seizure, the patient is still pregnant at '
                                                       '37 weeks, SpO2 is 88% on room air, and the '
@@ -1886,43 +1842,40 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                       'member demands immediate discharge against '
                                                       'advice. What is the nursing priority '
                                                       'sequence?',
-                                          'options': ['A) Discharge home with oral acetaminophen '
-                                                      'for headache',
-                                                      'B) Begin oxytocin augmentation before '
-                                                      'airway support',
-                                                      'C) Protect airway/oxygenation, place in '
+                                          'options': ['A) Protect airway/oxygenation, place in '
                                                       'lateral position, prevent injury, start '
-                                                      'magnesium per protocol, and escalate '
-                                                      'obstetric care',
+                                                      'magnesium per protocol, and escalate',
+                                                      'B) Focus first on continuous fetal '
+                                                      'monitoring and prepare the OR while '
+                                                      'oxygenation is briefly checked',
+                                                      'C) Begin oxytocin augmentation before '
+                                                      'airway support',
                                                       'D) Withhold magnesium because seizures have '
                                                       'already occurred'],
-                                          'answer': 'C) Protect airway/oxygenation, place in '
+                                          'answer': 'A) Protect airway/oxygenation, place in '
                                                     'lateral position, prevent injury, start '
-                                                    'magnesium per protocol, and escalate '
-                                                    'obstetric care',
-                                          'explanation': 'Post-ictal eclampsia care prioritizes '
-                                                         'airway, oxygenation, lateral '
-                                                         'positioning, injury prevention, and '
-                                                         'magnesium sulfate to prevent recurrent '
-                                                         'seizures while preparing definitive '
-                                                         'obstetric management. Discharge is '
-                                                         'unsafe; magnesium is indicated after as '
-                                                         'well as before seizures; oxytocin is not '
-                                                         'the first step over ABCs.',
-                                          'choice_explanations': {'A': 'Eclampsia requires '
-                                                                       'inpatient stabilization, '
-                                                                       'not discharge.',
-                                                                  'B': 'Airway and seizure control '
-                                                                       'precede labor augmentation '
-                                                                       'decisions.',
-                                                                  'C': 'ABC support plus magnesium '
-                                                                       'and obstetric escalation '
-                                                                       'is the evidence-based '
-                                                                       'priority cluster.',
-                                                                  'D': 'Magnesium remains '
-                                                                       'first-line to prevent '
-                                                                       'recurrent eclamptic '
-                                                                       'seizures.'}},
+                                                    'magnesium per protocol, and escalate',
+                                          'explanation': 'After eclamptic seizure, maternal '
+                                                         'airway/oxygenation and injury prevention '
+                                                         'come first, with magnesium to control '
+                                                         'seizure activity and urgent obstetric '
+                                                         'escalation. Fetal assessment follows '
+                                                         'maternal stabilization.',
+                                          'choice_explanations': {'A': 'Maternal ABC/safety plus '
+                                                                       'magnesium and escalation '
+                                                                       'is the immediate cluster.',
+                                                                  'B': 'Fetal monitoring/OR prep '
+                                                                       'are urgent obstetric next '
+                                                                       'steps but must not outrank '
+                                                                       'maternal airway—priority '
+                                                                       'near-miss.',
+                                                                  'C': 'Oxytocin before airway '
+                                                                       'support ignores maternal '
+                                                                       'hypoxemia.',
+                                                                  'D': 'Magnesium is indicated to '
+                                                                       'control eclamptic seizure '
+                                                                       'activity and prevent '
+                                                                       'recurrence.'}},
                                          {'question': 'During labor, a multipara suddenly develops '
                                                       'dyspnea, hypotension, and DIC-range '
                                                       'bleeding from IV sites after membrane '
@@ -1932,37 +1885,36 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                       'priorities emphasize?',
                                           'options': ['A) Encourage ambulation to improve venous '
                                                       'return',
-                                                      'B) Give a full meal to prevent hypoglycemia',
-                                                      'C) Focus only on collecting cord blood for '
-                                                      'banking before calling help',
-                                                      'D) Support ABCs/resuscitation, activate '
+                                                      'B) Support ABCs/resuscitation, activate '
                                                       'massive hemorrhage/rapid response pathways, '
-                                                      'and prepare for emergency delivery per '
-                                                      'team'],
-                                          'answer': 'D) Support ABCs/resuscitation, activate '
+                                                      'and prepare for coagulopathy care',
+                                                      'C) Give a full meal to prevent hypoglycemia',
+                                                      'D) Priority collect labs and cord gases to '
+                                                      'confirm AFE before activating the '
+                                                      'hemorrhage protocol'],
+                                          'answer': 'B) Support ABCs/resuscitation, activate '
                                                     'massive hemorrhage/rapid response pathways, '
-                                                    'and prepare for emergency delivery per team',
-                                          'explanation': 'Amniotic fluid embolism presents with '
-                                                         'sudden cardiorespiratory collapse and '
-                                                         'coagulopathy. Survival depends on '
-                                                         'aggressive airway/hemodynamic support, '
-                                                         'hemorrhage resuscitation, and expedited '
-                                                         'delivery when indicated—not ambulation, '
-                                                         'feeding, or delaying help for '
-                                                         'nonessential tasks.',
-                                          'choice_explanations': {'A': 'Ambulation is impossible '
-                                                                       'and harmful in shock/DIC.',
-                                                                  'B': 'Oral intake is '
-                                                                       'contraindicated in a '
-                                                                       'crashing laboring patient.',
-                                                                  'C': 'Cord banking must not '
-                                                                       'delay maternal '
-                                                                       'resuscitation.',
-                                                                  'D': 'ABC support, hemorrhage '
-                                                                       'activation, and readiness '
-                                                                       'for emergency delivery '
-                                                                       'address the multi-system '
-                                                                       'crisis.'}},
+                                                    'and prepare for coagulopathy care',
+                                          'explanation': 'Sudden dyspnea, hypotension, and DIC '
+                                                         'after rupture suggest amniotic fluid '
+                                                         'embolism. Resuscitate, activate massive '
+                                                         'hemorrhage pathways, and treat '
+                                                         'coagulopathy—do not delay for '
+                                                         'confirmatory labs.',
+                                          'choice_explanations': {'A': 'Ambulation is '
+                                                                       'contraindicated in '
+                                                                       'shock/DIC.',
+                                                                  'B': 'ABC support with massive '
+                                                                       'hemorrhage/rapid response '
+                                                                       'activation is the '
+                                                                       'priority.',
+                                                                  'C': 'Oral intake is unsafe in a '
+                                                                       'crashing peripartum '
+                                                                       'patient.',
+                                                                  'D': 'Lab confirmation before '
+                                                                       'protocol activation is a '
+                                                                       'diagnostic near-miss '
+                                                                       'during collapse.'}},
                                          {'question': 'After a difficult third stage, a mass '
                                                       'protrudes at the introitus, the fundus '
                                                       'cannot be palpated abdominally, and '
@@ -1970,43 +1922,39 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                       'orders fundal oxytocin IM “into the uterus” '
                                                       'through the mass. What is the correct '
                                                       'recognition and response?',
-                                          'options': ['A) Suspect uterine inversion; stop '
+                                          'options': ['A) Ignore bleeding because inversion is a '
+                                                      'normal variant',
+                                                      'B) Massage the protruding mass firmly like '
+                                                      'atony while giving the ordered uterotonic '
+                                                      'to firm the uterus',
+                                                      'C) Suspect uterine inversion; stop '
                                                       'inappropriate uterotonic into the inverted '
-                                                      'fundus, support ABCs, and call for '
-                                                      'immediate obstetric replacement help',
-                                                      'B) Massage the protruding mass vigorously '
-                                                      'as if it were a boggy fundus',
-                                                      'C) Pull on the cord again to deliver more '
-                                                      'placenta',
-                                                      'D) Ignore bleeding because inversion is a '
-                                                      'normal variant'],
-                                          'answer': 'A) Suspect uterine inversion; stop '
+                                                      'fundus, support ABCs, and prepare for rapid '
+                                                      'replacement',
+                                                      'D) Pull on the cord again to deliver more '
+                                                      'placenta'],
+                                          'answer': 'C) Suspect uterine inversion; stop '
                                                     'inappropriate uterotonic into the inverted '
-                                                    'fundus, support ABCs, and call for immediate '
-                                                    'obstetric replacement help',
-                                          'explanation': 'Missing abdominal fundus with a vaginal '
-                                                         'mass and hemorrhage indicates uterine '
-                                                         'inversion—a rare hemorrhagic emergency. '
-                                                         'Oxytocin into an inverted uterus before '
-                                                         'replacement can tighten the cervix and '
-                                                         'trap the uterus. Nurses support '
-                                                         'resuscitation and emergent replacement '
-                                                         'by the obstetric team; further traction '
-                                                         'worsens inversion.',
-                                          'choice_explanations': {'A': 'Recognition, withholding '
-                                                                       'premature uterotonic into '
-                                                                       'the inverted organ, and '
-                                                                       'emergent help are correct.',
-                                                                  'B': 'Massaging an inverted '
-                                                                       'uterus is not standard '
-                                                                       'atony massage and may '
-                                                                       'worsen injury.',
-                                                                  'C': 'Additional cord traction '
-                                                                       'can deepen inversion.',
-                                                                  'D': 'Inversion is a '
-                                                                       'life-threatening '
-                                                                       'emergency, not a normal '
-                                                                       'variant.'}}]},
+                                                    'fundus, support ABCs, and prepare for rapid '
+                                                    'replacement',
+                                          'explanation': 'A protruding mass with nonpalpable '
+                                                         'abdominal fundus and hemorrhage suggests '
+                                                         'uterine inversion. Uterotonics into an '
+                                                         'inverted uterus and fundal-style massage '
+                                                         'are contraindicated until replacement.',
+                                          'choice_explanations': {'A': 'Inversion with hemorrhage '
+                                                                       'is an obstetric emergency, '
+                                                                       'not normal.',
+                                                                  'B': 'Treating the mass as boggy '
+                                                                       'atony is the classic '
+                                                                       'dangerous near-miss.',
+                                                                  'C': 'Recognizing inversion, '
+                                                                       'stopping harmful '
+                                                                       'uterotonic/massage, and '
+                                                                       'preparing for replacement '
+                                                                       'is correct.',
+                                                                  'D': 'Further cord traction can '
+                                                                       'worsen inversion.'}}]},
                'cases': {'easy': [{'title': 'Boggy Uterus',
                                    'stem': '1 hour PP: heavy lochia, fundus soft/boggy.',
                                    'question': 'First action?',
@@ -2053,30 +2001,30 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                'NMS and serotonin syndrome are emergencies.'],
                  'questions': {'easy': [{'question': 'Which approach best reflects therapeutic '
                                                      'communication in psychiatric nursing?',
-                                         'options': ['A) Giving false reassurance to end the '
-                                                     'conversation quickly',
-                                                     'B) Using empathy, open-ended questions, and '
+                                         'options': ['A) Using empathy, open-ended questions, and '
                                                      'clarifying without judgment',
+                                                     'B) Offering hopeful reassurance and advice '
+                                                     'to quickly reduce the patient’s distress',
                                                      'C) Changing the subject whenever emotion '
                                                      'appears',
                                                      'D) Sharing detailed personal problems to '
                                                      'equalize roles'],
-                                         'answer': 'B) Using empathy, open-ended questions, and '
+                                         'answer': 'A) Using empathy, open-ended questions, and '
                                                    'clarifying without judgment',
                                          'explanation': 'Therapeutic communication builds trust '
                                                         'through empathy, clarification, and '
                                                         'nonjudgmental exploration. False '
                                                         'reassurance, topic changes that shut down '
                                                         'feeling, and blurred boundaries undermine '
-                                                        'the therapeutic alliance.',
-                                         'choice_explanations': {'A': 'False reassurance dismisses '
-                                                                      'emotion and blocks '
-                                                                      'assessment of risk and '
-                                                                      'meaning.',
-                                                                 'B': 'Empathy and open '
+                                                        'the alliance.',
+                                         'choice_explanations': {'A': 'Empathy and open '
                                                                       'clarification are core '
                                                                       'therapeutic communication '
                                                                       'skills.',
+                                                                 'B': 'Reassurance/advice can feel '
+                                                                      'caring but often blocks '
+                                                                      'exploration—communication '
+                                                                      'near-miss.',
                                                                  'C': 'Avoiding emotion prevents '
                                                                       'understanding and alliance.',
                                                                  'D': 'Over-sharing personal '
@@ -2086,128 +2034,136 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                         {'question': 'What must a suicide risk assessment '
                                                      'specifically explore beyond general sadness?',
                                          'options': ['A) Preferred cafeteria foods only',
-                                                     'B) Favorite television shows this week',
-                                                     'C) Ideation, plan, intent, means, and '
+                                                     'B) Ideation, plan, intent, means, and '
                                                      'protective factors',
-                                                     'D) Only whether the patient smiles during '
-                                                     'interview'],
-                                         'answer': 'C) Ideation, plan, intent, means, and '
+                                                     'C) Only whether the patient smiles during '
+                                                     'interview',
+                                                     'D) Mood severity and whether the patient '
+                                                     'appears tearful or withdrawn today'],
+                                         'answer': 'B) Ideation, plan, intent, means, and '
                                                    'protective factors',
                                          'explanation': 'Suicide assessment asks about ideation, '
                                                         'plan specificity, intent, access to '
                                                         'means, and protective factors. Surface '
-                                                        'mood cues or unrelated preferences do not '
-                                                        'quantify near-term risk.',
+                                                        'mood cues alone do not quantify near-term '
+                                                        'risk.',
                                          'choice_explanations': {'A': 'Food preference is '
                                                                       'unrelated to suicide risk '
                                                                       'stratification.',
-                                                                 'B': 'Media preferences do not '
-                                                                      'replace plan/intent/means '
-                                                                      'assessment.',
-                                                                 'C': 'Ideation–plan–intent–means '
+                                                                 'B': 'Ideation–plan–intent–means '
                                                                       'plus protectors is the '
                                                                       'required risk framework.',
-                                                                 'D': 'Affect alone is an '
+                                                                 'C': 'Affect alone is an '
                                                                       'unreliable indicator of '
-                                                                      'suicide risk.'}},
+                                                                      'suicide risk.',
+                                                                 'D': 'Mood/affect assessment is '
+                                                                      'related mental-status work '
+                                                                      'but is insufficient for '
+                                                                      'suicide risk '
+                                                                      'stratification—near-miss.'}},
                                         {'question': 'Which early side-effect theme is commonly '
                                                      'taught for SSRIs in the first weeks?',
-                                         'options': ['A) Immediate complete remission of all '
-                                                     'symptoms by day one',
-                                                     'B) Guaranteed absence of any sexual or GI '
-                                                     'effects',
-                                                     'C) Need to stop the drug after one dose if '
+                                         'options': ['A) Need to stop the drug after one dose if '
                                                      'mood is unchanged',
-                                                     'D) Possible GI upset, headache, sleep '
-                                                     'change, and transient anxiety/activation'],
-                                         'answer': 'D) Possible GI upset, headache, sleep change, '
+                                                     'B) Early improvement in energy before mood '
+                                                     'lifts, so suicide risk can be disregarded '
+                                                     'after week one',
+                                                     'C) Possible GI upset, headache, sleep '
+                                                     'change, and transient anxiety/activation',
+                                                     'D) Immediate complete remission of all '
+                                                     'symptoms by day one'],
+                                         'answer': 'C) Possible GI upset, headache, sleep change, '
                                                    'and transient anxiety/activation',
                                          'explanation': 'SSRIs often cause early GI symptoms, '
                                                         'headache, sleep disturbance, and '
                                                         'sometimes activation before '
                                                         'antidepressant benefit emerges over '
-                                                        'weeks. Patients need anticipatory '
-                                                        'guidance rather than expecting instant '
-                                                        'cure or stopping prematurely without '
-                                                        'clinical advice.',
-                                         'choice_explanations': {'A': 'Therapeutic effect is '
-                                                                      'delayed; day-one remission '
-                                                                      'is not expected.',
-                                                                 'B': 'Sexual and GI effects are '
-                                                                      'relatively common and '
-                                                                      'should be discussed.',
-                                                                 'C': 'Stopping after one '
+                                                        'weeks. Energy may improve before '
+                                                        'mood—suicide vigilance continues.',
+                                         'choice_explanations': {'A': 'Stopping after one '
                                                                       'unchanged-mood dose ignores '
                                                                       'expected latency of '
                                                                       'benefit.',
-                                                                 'D': 'Early somatic/activation '
+                                                                 'B': 'Energy-before-mood is a '
+                                                                      'real teaching point but '
+                                                                      'dismissing suicide risk is '
+                                                                      'a dangerous near-miss.',
+                                                                 'C': 'Early somatic/activation '
                                                                       'effects are the common '
                                                                       'teaching points for SSRI '
-                                                                      'initiation.'}}],
+                                                                      'initiation.',
+                                                                 'D': 'Therapeutic effect is '
+                                                                      'delayed; day-one remission '
+                                                                      'is not expected.'}}],
                                'medium': [{'question': 'A patient on lithium develops nausea, '
                                                        'vomiting, diarrhea, and coarse tremor '
                                                        'after a viral illness with poor intake. '
                                                        'What should the nurse suspect?',
-                                           'options': ['A) Possible lithium toxicity precipitated '
-                                                       'by volume depletion; hold dose and '
-                                                       'escalate',
-                                                       'B) Normal lithium effect that always '
-                                                       'includes coarse tremor and vomiting',
-                                                       'C) Need to double the next lithium dose to '
+                                           'options': ['A) Expected GI viral illness; continue '
+                                                       'lithium with antiemetics and push oral '
+                                                       'fluids',
+                                                       'B) Need to double the next lithium dose to '
                                                        '“catch up”',
-                                                       'D) Allergic rhinitis unrelated to lithium '
-                                                       'levels'],
-                                           'answer': 'A) Possible lithium toxicity precipitated by '
+                                                       'C) Allergic rhinitis unrelated to lithium '
+                                                       'levels',
+                                                       'D) Possible lithium toxicity precipitated '
+                                                       'by volume depletion; hold dose and '
+                                                       'escalate'],
+                                           'answer': 'D) Possible lithium toxicity precipitated by '
                                                      'volume depletion; hold dose and escalate',
                                            'explanation': 'Dehydration and sodium loss reduce '
                                                           'lithium clearance and raise levels. GI '
                                                           'losses plus coarse tremor are toxicity '
-                                                          'cues. The dose should be held pending '
-                                                          'levels and medical evaluation—not '
-                                                          'increased.',
-                                           'choice_explanations': {'A': 'Illness-related volume '
+                                                          'cues. Hold the dose pending levels and '
+                                                          'medical evaluation.',
+                                           'choice_explanations': {'A': 'Continuing lithium '
+                                                                        'through gastroenteritis '
+                                                                        'with “hydration” sounds '
+                                                                        'supportive but risks '
+                                                                        'worsening '
+                                                                        'toxicity—near-miss.',
+                                                                   'B': 'Doubling the dose worsens '
+                                                                        'potential toxicity.',
+                                                                   'C': 'These symptoms align with '
+                                                                        'lithium toxicity, not '
+                                                                        'rhinitis.',
+                                                                   'D': 'Illness-related volume '
                                                                         'loss with GI symptoms and '
                                                                         'coarse tremor suggests '
                                                                         'toxicity needing hold and '
-                                                                        'escalation.',
-                                                                   'B': 'Coarse tremor with '
-                                                                        'vomiting is not a benign '
-                                                                        '“normal” effect.',
-                                                                   'C': 'Doubling the dose worsens '
-                                                                        'potential toxicity.',
-                                                                   'D': 'These symptoms align with '
-                                                                        'lithium toxicity, not '
-                                                                        'rhinitis.'}},
+                                                                        'escalation.'}},
                                           {'question': 'Which complication is a major nursing '
                                                        'surveillance priority in acute alcohol '
                                                        'withdrawal?',
-                                           'options': ['A) Guaranteed absence of autonomic '
-                                                       'hyperactivity',
-                                                       'B) Seizures and delirium tremens with '
+                                           'options': ['A) Seizures and delirium tremens with '
                                                        'autonomic instability',
-                                                       'C) Only mild thirst without vital-sign '
-                                                       'changes',
+                                                       'B) Rebound anxiety and insomnia that '
+                                                       'should be managed mainly with education '
+                                                       'and observation',
+                                                       'C) Guaranteed absence of autonomic '
+                                                       'hyperactivity',
                                                        'D) Immediate lifelong immunity to alcohol '
                                                        'after one detox'],
-                                           'answer': 'B) Seizures and delirium tremens with '
+                                           'answer': 'A) Seizures and delirium tremens with '
                                                      'autonomic instability',
                                            'explanation': 'Alcohol withdrawal can progress to '
                                                           'seizures and DTs with tachycardia, '
                                                           'hypertension, fever, and altered '
                                                           'mentation. Nurses use protocols (e.g., '
                                                           'CIWA), seizure precautions, and ordered '
-                                                          'benzodiazepines. Detox does not confer '
-                                                          'immunity to future use.',
-                                           'choice_explanations': {'A': 'Autonomic hyperactivity '
-                                                                        'is common in withdrawal, '
-                                                                        'not absent.',
-                                                                   'B': 'Seizures and DTs are the '
+                                                          'benzodiazepines.',
+                                           'choice_explanations': {'A': 'Seizures and DTs are the '
                                                                         'high-morbidity '
                                                                         'complications requiring '
                                                                         'vigilance.',
-                                                                   'C': 'Mild thirst understates '
-                                                                        'the risk of severe '
-                                                                        'withdrawal.',
+                                                                   'B': 'Anxiety/insomnia are '
+                                                                        'early withdrawal features '
+                                                                        'and create doubt, but '
+                                                                        'minimizing to observation '
+                                                                        'misses seizure/DT risk.',
+                                                                   'C': 'Autonomic hyperactivity '
+                                                                        'is common in withdrawal, '
+                                                                        'not absent.',
                                                                    'D': 'Detox does not create '
                                                                         'lasting immunity to '
                                                                         'alcohol use disorder.'}},
@@ -2217,38 +2173,38 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                        'theme?',
                                            'options': ['A) Argue that the voices are imaginary '
                                                        'until the patient agrees',
-                                                       'B) Laugh to show the idea is silly',
-                                                       'C) Acknowledge the experience, reinforce '
+                                                       'B) Acknowledge the experience, reinforce '
                                                        'reality gently, and assess safety without '
                                                        'debating the delusion as a fact contest',
-                                                       'D) Agree the food is poisoned and discard '
-                                                       'all unit meals'],
-                                           'answer': 'C) Acknowledge the experience, reinforce '
+                                                       'C) Agree the food is poisoned and discard '
+                                                       'all unit meals',
+                                                       'D) Redirect to unit activities after a '
+                                                       'brief reality statement without asking '
+                                                       'about command content'],
+                                           'answer': 'B) Acknowledge the experience, reinforce '
                                                      'reality gently, and assess safety without '
                                                      'debating the delusion as a fact contest',
                                            'explanation': 'Therapeutic responses acknowledge the '
-                                                          'patient’s perceptual experience, avoid '
-                                                          'hostile confrontation of fixed '
-                                                          'delusions, reinforce reality, and '
-                                                          'assess for command '
-                                                          'hallucinations/safety. Colluding with '
-                                                          'the delusion or ridicule damages trust '
-                                                          'and assessment.',
+                                                          'patient’s experience, avoid hostile '
+                                                          'confrontation of fixed delusions, '
+                                                          'reinforce reality, and assess for '
+                                                          'command hallucinations/safety.',
                                            'choice_explanations': {'A': 'Arguing rarely '
                                                                         'extinguishes delusions '
                                                                         'and increases agitation.',
-                                                                   'B': 'Ridicule shames the '
-                                                                        'patient and ruptures '
-                                                                        'alliance.',
-                                                                   'C': 'Acknowledgment plus '
+                                                                   'B': 'Acknowledgment plus '
                                                                         'gentle reality '
                                                                         'orientation and safety '
                                                                         'assessment is best '
                                                                         'practice.',
-                                                                   'D': 'Agreeing with the '
+                                                                   'C': 'Agreeing with the '
                                                                         'delusion reinforces false '
                                                                         'belief and disrupts '
-                                                                        'nutrition care.'}}],
+                                                                        'nutrition care.',
+                                                                   'D': 'Quick redirect without '
+                                                                        'assessing command/safety '
+                                                                        'content is a common '
+                                                                        'incomplete near-miss.'}}],
                                'hard': [{'question': 'A patient on a high-potency antipsychotic '
                                                      'develops lead-pipe rigidity, very high '
                                                      'fever, and fluctuating consciousness. '
@@ -2256,112 +2212,113 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                      'agitated, hyperreflexic, and '
                                                      'clonus-positive. Which clue themes correctly '
                                                      'separate NMS from serotonin syndrome?',
-                                         'options': ['A) Both are identical and treated with the '
-                                                     'same first antidote always',
-                                                     'B) NMS is always caused by SSRIs; serotonin '
-                                                     'syndrome is always caused by haloperidol '
-                                                     'alone',
-                                                     'C) Fever never occurs in either syndrome',
-                                                     'D) NMS: rigidity/bradyreflexia after '
+                                         'options': ['A) Fever never occurs in either syndrome',
+                                                     'B) Both present with fever and altered '
+                                                     'mentation, so drug class history is optional '
+                                                     'if cooling is started',
+                                                     'C) NMS: rigidity/bradyreflexia after '
                                                      'antipsychotics; serotonin syndrome: '
                                                      'hyperreflexia/clonus after serotonergic '
-                                                     'drugs'],
-                                         'answer': 'D) NMS: rigidity/bradyreflexia after '
+                                                     'drugs',
+                                                     'D) NMS is always caused by SSRIs; serotonin '
+                                                     'syndrome is always caused by haloperidol '
+                                                     'alone'],
+                                         'answer': 'C) NMS: rigidity/bradyreflexia after '
                                                    'antipsychotics; serotonin syndrome: '
                                                    'hyperreflexia/clonus after serotonergic drugs',
-                                         'explanation': 'NMS is an antipsychotic-related '
-                                                        'idiosyncratic reaction with severe '
-                                                        'rigidity and hyporeflexia. Serotonin '
-                                                        'syndrome from serotonergic agents '
-                                                        'features hyperreflexia and clonus. '
-                                                        'Distinguishing guides whether to stop '
-                                                        'antipsychotics/cool/support vs stop '
-                                                        'serotonergic agents and manage '
-                                                        'neuromuscular irritability.',
-                                         'choice_explanations': {'A': 'Mechanisms and exam clues '
-                                                                      'differ; treatments are not '
-                                                                      'identical.',
-                                                                 'B': 'NMS links to '
-                                                                      'antipsychotics; serotonin '
-                                                                      'syndrome to serotonergic '
-                                                                      'combinations—roles reversed '
-                                                                      'here are wrong.',
-                                                                 'C': 'Fever can occur in both and '
+                                         'explanation': 'NMS is an antipsychotic-related reaction '
+                                                        'with severe rigidity and hyporeflexia. '
+                                                        'Serotonin syndrome from serotonergic '
+                                                        'agents features hyperreflexia and clonus. '
+                                                        'Distinguishing guides treatment.',
+                                         'choice_explanations': {'A': 'Fever can occur in both and '
                                                                       'is clinically important.',
-                                                                 'D': 'Rigidity vs '
+                                                                 'B': 'Shared fever/mentation '
+                                                                      'findings are real overlap; '
+                                                                      'skipping drug/reflex clues '
+                                                                      'is the assessment '
+                                                                      'near-miss.',
+                                                                 'C': 'Rigidity vs '
                                                                       'hyperreflexia/clonus plus '
                                                                       'drug class correctly '
                                                                       'differentiates NMS from '
-                                                                      'serotonin syndrome.'}},
+                                                                      'serotonin syndrome.',
+                                                                 'D': 'NMS links to '
+                                                                      'antipsychotics; serotonin '
+                                                                      'syndrome to serotonergic '
+                                                                      'combinations—roles reversed '
+                                                                      'here.'}},
                                         {'question': 'Which situation best meets typical criteria '
                                                      'themes for emergency involuntary psychiatric '
                                                      'hold?',
-                                         'options': ['A) Imminent danger to self/others or grave '
-                                                     'disability from mental illness when the '
-                                                     'person refuses voluntary safe care',
+                                         'options': ['A) Severe psychiatric symptoms with poor '
+                                                     'insight even when the person accepts '
+                                                     'voluntary admission',
                                                      'B) Family embarrassment about a diagnosis '
                                                      'without safety risk',
                                                      'C) Missed outpatient appointment alone',
-                                                     'D) Patient request for elective career '
-                                                     'counseling'],
-                                         'answer': 'A) Imminent danger to self/others or grave '
+                                                     'D) Imminent danger to self/others or grave '
+                                                     'disability from mental illness when the '
+                                                     'person refuses voluntary safe care'],
+                                         'answer': 'D) Imminent danger to self/others or grave '
                                                    'disability from mental illness when the person '
                                                    'refuses voluntary safe care',
                                          'explanation': 'Involuntary holds are justified when '
                                                         'mental illness produces imminent risk of '
                                                         'harm to self/others or inability to meet '
                                                         'basic needs, and less restrictive '
-                                                        'voluntary options are not feasible. '
-                                                        'Embarrassment, missed appointments, or '
-                                                        'elective counseling do not meet hold '
-                                                        'criteria.',
-                                         'choice_explanations': {'A': 'Danger or grave disability '
-                                                                      'with refusal of voluntary '
-                                                                      'safe care is the classic '
-                                                                      'hold threshold theme.',
+                                                        'voluntary options are not feasible.',
+                                         'choice_explanations': {'A': 'Severe symptoms/poor '
+                                                                      'insight matter clinically '
+                                                                      'but voluntary acceptance '
+                                                                      'usually precludes '
+                                                                      'involuntary hold—near-miss.',
                                                                  'B': 'Family discomfort without '
                                                                       'safety risk is not a legal '
                                                                       'hold criterion.',
                                                                  'C': 'Missed appointments need '
                                                                       'outreach, not automatic '
                                                                       'involuntary confinement.',
-                                                                 'D': 'Career counseling is not an '
-                                                                      'emergency detention '
-                                                                      'indication.'}},
+                                                                 'D': 'Danger or grave disability '
+                                                                      'with refusal of voluntary '
+                                                                      'safe care is the classic '
+                                                                      'hold theme.'}},
                                         {'question': 'Why does clozapine require unique '
                                                      'nursing/pharmacy monitoring compared with '
                                                      'many other antipsychotics?',
-                                         'options': ['A) It never causes metabolic effects, so no '
-                                                     'labs are needed',
-                                                     'B) Risk of agranulocytosis/neutropenia '
+                                         'options': ['A) Risk of agranulocytosis/neutropenia '
                                                      'requiring scheduled absolute neutrophil '
                                                      'count monitoring',
-                                                     'C) It is available only as a one-time '
-                                                     'lifetime dose',
-                                                     'D) It has no cholinergic or seizure-risk '
-                                                     'considerations'],
-                                         'answer': 'B) Risk of agranulocytosis/neutropenia '
+                                                     'B) Metabolic syndrome risk requiring only '
+                                                     'weight and glucose checks without '
+                                                     'hematologic labs',
+                                                     'C) It never causes metabolic effects, so no '
+                                                     'labs are needed',
+                                                     'D) It is available only as a one-time '
+                                                     'lifetime dose'],
+                                         'answer': 'A) Risk of agranulocytosis/neutropenia '
                                                    'requiring scheduled absolute neutrophil count '
                                                    'monitoring',
                                          'explanation': 'Clozapine’s boxed risk of severe '
-                                                        'neutropenia mandates REMS-style ANC '
-                                                        'monitoring before and during therapy. It '
-                                                        'also carries metabolic, myocarditis, '
-                                                        'seizure, and sialorrhea risks—so “no labs '
-                                                        'needed” is false.',
-                                         'choice_explanations': {'A': 'Clozapine has significant '
-                                                                      'metabolic and hematologic '
-                                                                      'risks requiring monitoring.',
-                                                                 'B': 'ANC monitoring for '
+                                                        'neutropenia mandates ANC monitoring '
+                                                        'before and during therapy. It also '
+                                                        'carries metabolic and other risks—so '
+                                                        '“metabolic only” monitoring is '
+                                                        'incomplete.',
+                                         'choice_explanations': {'A': 'ANC monitoring for '
                                                                       'agranulocytosis risk is the '
                                                                       'distinctive safety '
                                                                       'requirement.',
-                                                                 'C': 'Clozapine is ongoing '
+                                                                 'B': 'Metabolic monitoring is '
+                                                                      'needed but is not the '
+                                                                      'unique clozapine '
+                                                                      'requirement—near-miss.',
+                                                                 'C': 'Clozapine has significant '
+                                                                      'metabolic and hematologic '
+                                                                      'risks requiring monitoring.',
+                                                                 'D': 'Clozapine is ongoing '
                                                                       'therapy, not a single '
-                                                                      'lifetime dose.',
-                                                                 'D': 'Seizure risk and other '
-                                                                      'adverse effects are '
-                                                                      'clinically relevant.'}}],
+                                                                      'lifetime dose.'}}],
                                'extreme': [{'question': 'On a locked unit, a patient is found in '
                                                         'the bathroom with a sheet ligature around '
                                                         'the neck, cyanotic but with a weak pulse. '
@@ -2369,123 +2326,118 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                         'lorazepam at the desk, and a new '
                                                         'admission needs orientation. What is your '
                                                         'immediate priority?',
-                                            'options': ['A) Finish the new-admission tour before '
-                                                        'returning to the bathroom',
-                                                        'B) Bring oral lorazepam to the yelling '
+                                            'options': ['A) Bring oral lorazepam to the yelling '
                                                         'patient first to restore unit calm',
-                                                        'C) Call for help, release the ligature, '
+                                                        'B) Call for help, release the ligature, '
                                                         'initiate rescue breathing/CPR as needed, '
                                                         'and secure the environment',
-                                                        'D) Leave the patient to find the paper '
-                                                        'incident form before intervening'],
-                                            'answer': 'C) Call for help, release the ligature, '
+                                                        'C) Leave the patient to find the paper '
+                                                        'incident form before intervening',
+                                                        'D) Call for help and assess '
+                                                        'responsiveness thoroughly before removing '
+                                                        'the sheet to preserve the scene'],
+                                            'answer': 'B) Call for help, release the ligature, '
                                                       'initiate rescue breathing/CPR as needed, '
                                                       'and secure the environment',
-                                            'explanation': 'An active hanging/ligature attempt is '
-                                                           'an airway and circulatory emergency. '
-                                                           'Simultaneous help, ligature release, '
-                                                           'and BLS take absolute priority over '
-                                                           'admissions and PRN requests. '
-                                                           'Documentation follows stabilization.',
-                                            'choice_explanations': {'A': 'Orientation tasks never '
-                                                                         'outrank an active '
-                                                                         'asphyxiation emergency.',
-                                                                    'B': 'Agitation at the desk is '
-                                                                         'secondary to a cyanotic '
-                                                                         'ligature victim.',
-                                                                    'C': 'Help, airway rescue, and '
-                                                                         'environmental security '
-                                                                         'are the immediate '
-                                                                         'life-saving sequence.',
-                                                                    'D': 'Forms cannot restore '
-                                                                         'oxygenation; intervene '
-                                                                         'first.'}},
+                                            'explanation': 'Ligature cyanosis with a weak pulse is '
+                                                           'an immediate airway/circulation '
+                                                           'emergency. Release the ligature and '
+                                                           'resuscitate while calling for help; '
+                                                           'scene preservation never delays '
+                                                           'rescue.',
+                                            'choice_explanations': {'A': 'PRN for another patient '
+                                                                         'does not outrank an '
+                                                                         'active hanging.',
+                                                                    'B': 'Help, ligature release, '
+                                                                         'and resuscitation are '
+                                                                         'the life-saving '
+                                                                         'sequence.',
+                                                                    'C': 'Documentation never '
+                                                                         'precedes rescue.',
+                                                                    'D': 'Assessment-before-removal '
+                                                                         'to “preserve the scene” '
+                                                                         'is a deadly near-miss '
+                                                                         'priority error.'}},
                                            {'question': 'A visitor becomes violent, brandishes a '
                                                         'knife, and blocks the exit while '
                                                         'demanding a patient’s discharge. Staff '
                                                         'personal alarms are available; the '
                                                         'patient is hiding in the bathroom. What '
                                                         'is the correct priority?',
-                                            'options': ['A) Attempt to physically disarm the '
-                                                        'visitor alone to show confidence',
-                                                        'B) Negotiate discharge paperwork under '
-                                                        'threat to “de-escalate”',
-                                                        'C) Ignore the weapon and continue '
+                                            'options': ['A) Ignore the weapon and continue '
                                                         'medication pass in the hallway',
-                                                        'D) Ensure staff/patient safety: activate '
+                                                        'B) Use therapeutic communication to '
+                                                        'negotiate while slowly moving closer to '
+                                                        'take the knife',
+                                                        'C) Ensure staff/patient safety: activate '
                                                         'emergency security response, '
                                                         'evacuate/shelter others, and do not '
-                                                        'approach the weapon alone'],
-                                            'answer': 'D) Ensure staff/patient safety: activate '
+                                                        'attempt solo disarmament',
+                                                        'D) Negotiate discharge paperwork under '
+                                                        'threat to “de-escalate”'],
+                                            'answer': 'C) Ensure staff/patient safety: activate '
                                                       'emergency security response, '
-                                                      'evacuate/shelter others, and do not '
-                                                      'approach the weapon alone',
-                                            'explanation': 'Weaponized violence is a '
-                                                           'security/law-enforcement emergency. '
-                                                           'Priorities are protecting patients and '
-                                                           'staff, activating trained responders, '
-                                                           'and avoiding lone disarmament. '
-                                                           'Capitulating to threats or continuing '
-                                                           'routine care in the strike zone '
-                                                           'increases casualties.',
-                                            'choice_explanations': {'A': 'Lone disarmament of a '
-                                                                         'knife-wielding person '
-                                                                         'risks severe injury.',
-                                                                    'B': 'Clinical decisions under '
+                                                      'evacuate/shelter others, and do not attempt '
+                                                      'solo disarmament',
+                                            'explanation': 'An armed visitor blocking exit is a '
+                                                           'security emergency. Protect people, '
+                                                           'activate trained responders, and avoid '
+                                                           'solo disarmament or coerced clinical '
+                                                           'decisions.',
+                                            'choice_explanations': {'A': 'Continuing med pass '
+                                                                         'ignores an active weapon '
+                                                                         'threat.',
+                                                                    'B': 'Talking while closing '
+                                                                         'distance sounds '
+                                                                         'de-escalatory but risks '
+                                                                         'solo confrontation with '
+                                                                         'a weapon—near-miss.',
+                                                                    'C': 'Security activation, '
+                                                                         'evacuation/shelter, and '
+                                                                         'no solo disarmament '
+                                                                         'protect life.',
+                                                                    'D': 'Clinical decisions under '
                                                                          'threat are coerced and '
-                                                                         'unsafe.',
-                                                                    'C': 'Continuing hallway care '
-                                                                         'exposes more people to '
-                                                                         'the weapon.',
-                                                                    'D': 'Emergency activation, '
-                                                                         'shelter/evacuation, and '
-                                                                         'avoiding solo '
-                                                                         'confrontation are '
-                                                                         'correct.'}},
+                                                                         'unsafe.'}},
                                            {'question': 'A patient on high-dose haloperidol '
                                                         'develops temperature 41°C, lead-pipe '
                                                         'rigidity, BP instability, and rising CK. '
                                                         'The covering provider texts “give another '
                                                         'IM haloperidol for agitation.” What '
                                                         'should you do?',
-                                            'options': ['A) Hold further antipsychotics, support '
-                                                        'ABCs/cooling, notify the provider of '
-                                                        'suspected NMS, and seek urgent medical '
-                                                        'treatment',
+                                            'options': ['A) Give acetaminophen and IV fluids for '
+                                                        'fever first, then reconsider the extra '
+                                                        'haloperidol if rigidity persists',
                                                         'B) Give the additional IM haloperidol as '
                                                         'texted without assessment',
                                                         'C) Cover with heavy blankets to “sweat '
                                                         'out” the fever',
-                                                        'D) Force ambulation to loosen the '
-                                                        'rigidity'],
-                                            'answer': 'A) Hold further antipsychotics, support '
+                                                        'D) Hold further antipsychotics, support '
+                                                        'ABCs/cooling, notify the provider of '
+                                                        'suspected NMS, and seek higher-level '
+                                                        'orders'],
+                                            'answer': 'D) Hold further antipsychotics, support '
                                                       'ABCs/cooling, notify the provider of '
-                                                      'suspected NMS, and seek urgent medical '
-                                                      'treatment',
-                                            'explanation': 'This presentation is classic '
-                                                           'neuroleptic malignant syndrome. '
-                                                           'Continuing dopamine blockade worsens '
-                                                           'the syndrome. Nurses hold '
-                                                           'antipsychotics, escalate, and support '
-                                                           'airway, circulation, and cooling while '
-                                                           'definitive care (e.g., ICU, possible '
-                                                           'dantrolene/bromocriptine per protocol) '
-                                                           'is arranged.',
-                                            'choice_explanations': {'A': 'Holding antipsychotics '
-                                                                         'and urgent '
-                                                                         'supportive/medical '
-                                                                         'escalation is the '
-                                                                         'correct NMS response.',
-                                                                    'B': 'More haloperidol '
-                                                                         'intensifies NMS.',
-                                                                    'C': 'Heavy bundling impairs '
-                                                                         'heat loss in '
-                                                                         'life-threatening '
+                                                      'suspected NMS, and seek higher-level orders',
+                                            'explanation': 'High fever, lead-pipe rigidity, '
+                                                           'autonomic instability, and rising CK '
+                                                           'after antipsychotics suggest NMS. Stop '
+                                                           'dopamine blockers, support '
+                                                           'ABCs/cooling, and escalate—do not give '
+                                                           'more antipsychotic.',
+                                            'choice_explanations': {'A': 'Treating fever '
+                                                                         'supportively before '
+                                                                         'stopping the culprit '
+                                                                         'antipsychotic is a '
+                                                                         'dangerous near-miss.',
+                                                                    'B': 'More haloperidol can '
+                                                                         'worsen NMS.',
+                                                                    'C': 'Heavy bundling worsens '
                                                                          'hyperthermia.',
-                                                                    'D': 'Forced ambulation is '
-                                                                         'unsafe with severe '
-                                                                         'rigidity and autonomic '
-                                                                         'instability.'}}]},
+                                                                    'D': 'Holding antipsychotics '
+                                                                         'with ABC/cooling support '
+                                                                         'and NMS notification is '
+                                                                         'required.'}}]},
                  'cases': {'easy': [{'title': 'New Suicidal Ideation',
                                      'stem': 'Patient says life is not worth living; has a plan.',
                                      'question': 'Priority?',
@@ -2536,14 +2488,14 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                    'infarction',
                                                    'B) Community influenza immunization before flu '
                                                    'season',
-                                                   'C) Insulin teaching after diabetes diagnosis',
-                                                   'D) Hospice care for terminal cancer'],
+                                                   'C) Hospice care for terminal cancer',
+                                                   'D) Blood-pressure screening fair to find '
+                                                   'undiagnosed hypertension early'],
                                        'answer': 'B) Community influenza immunization before flu '
                                                  'season',
                                        'explanation': 'Primary prevention averts disease before '
-                                                      'onset—immunization is classic. Rehab after '
-                                                      'MI and insulin teaching after diagnosis are '
-                                                      'secondary/tertiary; hospice is '
+                                                      'onset—immunization is classic. Screening is '
+                                                      'secondary; rehab after MI and hospice are '
                                                       'tertiary/comfort care.',
                                        'choice_explanations': {'A': 'Post-MI rehab prevents '
                                                                     'complications of existing '
@@ -2551,59 +2503,65 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                                'B': 'Vaccination before exposure '
                                                                     'prevents disease onset '
                                                                     '(primary).',
-                                                               'C': 'Teaching after diagnosis '
-                                                                    'manages existing disease.',
-                                                               'D': 'Hospice addresses advanced '
+                                                               'C': 'Hospice addresses advanced '
                                                                     'disease, not primary '
-                                                                    'prevention.'}},
+                                                                    'prevention.',
+                                                               'D': 'BP screening is valuable '
+                                                                    'prevention but is secondary '
+                                                                    '(early detection)—classic '
+                                                                    'level near-miss.'}},
                                       {'question': 'Which activity best exemplifies secondary '
                                                    'prevention?',
-                                       'options': ['A) Building safe bike lanes citywide',
-                                                   'B) Seat-belt legislation campaigns only',
+                                       'options': ['A) Long-term stroke rehabilitation therapy',
+                                                   'B) Community influenza immunization before flu '
+                                                   'season',
                                                    'C) Blood-pressure screening to detect '
                                                    'hypertension early',
-                                                   'D) Long-term stroke rehabilitation therapy'],
+                                                   'D) Building safe bike lanes citywide'],
                                        'answer': 'C) Blood-pressure screening to detect '
                                                  'hypertension early',
                                        'explanation': 'Secondary prevention detects disease early '
                                                       'through screening so treatment can begin '
-                                                      'before advanced complications. '
-                                                      'Environmental safety laws are primary; '
+                                                      'before advanced complications. Immunization '
+                                                      'and environmental safety are primary; '
                                                       'rehabilitation after stroke is tertiary.',
-                                       'choice_explanations': {'A': 'Bike-lane engineering is '
-                                                                    'primary prevention of injury.',
-                                                               'B': 'Seat-belt campaigns primarily '
-                                                                    'prevent injury '
-                                                                    'occurrence/severity at the '
-                                                                    'primary level.',
+                                       'choice_explanations': {'A': 'Rehab after stroke is '
+                                                                    'tertiary prevention.',
+                                                               'B': 'Immunization is primary '
+                                                                    'prevention and is the most '
+                                                                    'common level '
+                                                                    'mix-up—near-miss.',
                                                                'C': 'BP screening finds '
                                                                     'asymptomatic hypertension '
                                                                     'early—secondary prevention.',
-                                                               'D': 'Rehab after stroke is '
-                                                                    'tertiary prevention.'}},
+                                                               'D': 'Bike-lane engineering is '
+                                                                    'primary prevention of '
+                                                                    'injury.'}},
                                       {'question': 'Herd immunity most directly relates to which '
                                                    'public-health concept?',
-                                       'options': ['A) Individual hand preference in a population',
+                                       'options': ['A) Direct protection only of vaccinated '
+                                                   'individuals, without community transmission '
+                                                   'effects',
                                                    'B) Hospital bed count alone without '
                                                    'transmission dynamics',
-                                                   'C) Only vector control without vaccines',
+                                                   'C) Individual hand preference in a population',
                                                    'D) Indirect protection of susceptible persons '
                                                    'when enough of the population is immune'],
                                        'answer': 'D) Indirect protection of susceptible persons '
                                                  'when enough of the population is immune',
                                        'explanation': 'Herd immunity occurs when sufficient '
-                                                      'population immunity (often via vaccination) '
-                                                      'lowers transmission enough to protect those '
-                                                      'who remain susceptible. It is a '
-                                                      'transmission-dynamics concept, not bed '
-                                                      'inventory or handedness.',
-                                       'choice_explanations': {'A': 'Handedness is unrelated to '
-                                                                    'infectious herd effects.',
+                                                      'population immunity lowers transmission '
+                                                      'enough to protect those who remain '
+                                                      'susceptible. It is more than individual '
+                                                      'vaccine protection alone.',
+                                       'choice_explanations': {'A': 'Individual direct protection '
+                                                                    'is related but '
+                                                                    'incomplete—definition '
+                                                                    'near-miss.',
                                                                'B': 'Bed capacity does not define '
                                                                     'herd immunity.',
-                                                               'C': 'Vector control helps some '
-                                                                    'diseases but is not the '
-                                                                    'definition of herd immunity.',
+                                                               'C': 'Handedness is unrelated to '
+                                                                    'infectious herd effects.',
                                                                'D': 'Indirect protection via high '
                                                                     'population immunity is the '
                                                                     'herd-immunity concept.'}}],
@@ -2612,33 +2570,33 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                      'assess?',
                                          'options': ['A) Housing, education, income, food access, '
                                                      'and neighborhood safety',
-                                                     'B) Only genetic polymorphisms with no '
+                                                     'B) Health behaviors such as diet and '
+                                                     'exercise as the primary determinants, with '
+                                                     'limited social context',
+                                                     'C) Only genetic polymorphisms with no '
                                                      'environmental context',
-                                                     'C) Favorite sports team affiliation alone',
-                                                     'D) Shoe brand preference as the main health '
-                                                     'driver'],
+                                                     'D) Favorite sports team affiliation alone'],
                                          'answer': 'A) Housing, education, income, food access, '
                                                    'and neighborhood safety',
                                          'explanation': 'Social determinants—conditions in which '
                                                         'people live, learn, work, and '
                                                         'age—strongly shape health outcomes. '
                                                         'Housing, education, income, food, and '
-                                                        'safety are core domains; consumer '
-                                                        'preferences and genes alone do not '
-                                                        'capture this framework.',
+                                                        'safety are core domains.',
                                          'choice_explanations': {'A': 'These structural living '
                                                                       'conditions are classic '
                                                                       'social determinants nurses '
-                                                                      'assess in community '
-                                                                      'practice.',
-                                                                 'B': 'Genetics matter but do not '
+                                                                      'assess.',
+                                                                 'B': 'Behaviors matter but are '
+                                                                      'not the full SDOH '
+                                                                      'framework—assessment '
+                                                                      'near-miss.',
+                                                                 'C': 'Genetics matter but do not '
                                                                       'replace '
                                                                       'social-environmental '
                                                                       'determinants.',
-                                                                 'C': 'Sports fandom is not a '
-                                                                      'standard SDOH domain.',
-                                                                 'D': 'Brand preference is not a '
-                                                                      'primary SDOH construct.'}},
+                                                                 'D': 'Sports fandom is not a '
+                                                                      'standard SDOH domain.'}},
                                         {'question': 'A client with pulmonary tuberculosis needs '
                                                      'community/home isolation teaching. Which '
                                                      'precaution theme is required for infectious '
@@ -2647,18 +2605,17 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                      'protection considerations',
                                                      'B) Airborne precautions with appropriate '
                                                      'respirator use and ventilation guidance',
-                                                     'C) Droplet surgical mask only for all TB '
-                                                     'forms without assessment',
-                                                     'D) No precautions once the client feels '
-                                                     'subjectively better for one hour'],
+                                                     'C) No precautions once the client feels '
+                                                     'subjectively better for one hour',
+                                                     'D) Droplet precautions with surgical mask '
+                                                     'for close contact if the client covers '
+                                                     'coughs'],
                                          'answer': 'B) Airborne precautions with appropriate '
                                                    'respirator use and ventilation guidance',
                                          'explanation': 'Infectious pulmonary TB requires airborne '
-                                                        'precautions—N95/respirator use by '
-                                                        'caregivers and ventilation/isolation '
-                                                        'strategies—until noninfectious criteria '
-                                                        'are met. Feeling better briefly does not '
-                                                        'clear transmissibility.',
+                                                        'precautions—N95/respirator use and '
+                                                        'ventilation/isolation strategies—until '
+                                                        'noninfectious criteria are met.',
                                          'choice_explanations': {'A': 'Contact barriers alone do '
                                                                       'not stop airborne droplet '
                                                                       'nuclei.',
@@ -2666,25 +2623,25 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                                       'respirators/ventilation are '
                                                                       'required for infectious '
                                                                       'pulmonary TB.',
-                                                                 'C': 'Standard surgical masks are '
-                                                                      'insufficient for airborne '
-                                                                      'TB nuclei in many care '
-                                                                      'settings.',
-                                                                 'D': 'Subjective improvement does '
+                                                                 'C': 'Subjective improvement does '
                                                                       'not equal noninfectious '
-                                                                      'status.'}},
+                                                                      'status.',
+                                                                 'D': 'Droplet/surgical-mask '
+                                                                      'thinking is a common TB '
+                                                                      'precaution near-miss.'}},
                                         {'question': 'Before a home health visit in an unfamiliar '
                                                      'neighborhood, which safety practice should '
                                                      'the nurse include?',
-                                         'options': ['A) Keep visit plans secret from the agency '
-                                                     'so nobody knows the location',
-                                                     'B) Enter immediately if yelling is heard, '
+                                         'options': ['A) Enter immediately if yelling is heard, '
                                                      'without calling for backup',
+                                                     'B) Complete the clinical assessment quickly '
+                                                     'if tension rises, then leave after '
+                                                     'documenting in the home',
                                                      'C) Share schedule with the agency, carry a '
                                                      'charged phone, assess exit routes, and leave '
                                                      'if the environment is unsafe',
-                                                     'D) Leave valuables visible in the car to '
-                                                     'retrieve later during the visit'],
+                                                     'D) Keep visit plans secret from the agency '
+                                                     'so nobody knows the location'],
                                          'answer': 'C) Share schedule with the agency, carry a '
                                                    'charged phone, assess exit routes, and leave '
                                                    'if the environment is unsafe',
@@ -2692,29 +2649,32 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                         'awareness of schedule/location, '
                                                         'communication devices, environmental '
                                                         'scanning, and willingness to leave when '
-                                                        'threatened. Secrecy, reckless entry into '
-                                                        'violence, and visible valuables increase '
-                                                        'risk.',
-                                         'choice_explanations': {'A': 'The agency must know '
-                                                                      'location/timing for '
-                                                                      'check-in and emergency '
-                                                                      'response.',
-                                                                 'B': 'Entering an active violent '
+                                                        'threatened.',
+                                         'choice_explanations': {'A': 'Entering an active violent '
                                                                       'scene alone is unsafe.',
+                                                                 'B': 'Finishing '
+                                                                      'assessment/documentation in '
+                                                                      'an escalating home sounds '
+                                                                      'duty-focused but delays '
+                                                                      'egress—near-miss.',
                                                                  'C': 'Communication, exit '
                                                                       'planning, and leaving when '
                                                                       'unsafe are core home-visit '
                                                                       'safety practices.',
-                                                                 'D': 'Visible valuables invite '
-                                                                      'theft and delay egress.'}}],
+                                                                 'D': 'The agency must know '
+                                                                      'location/timing for '
+                                                                      'check-in and emergency '
+                                                                      'response.'}}],
                              'hard': [{'question': 'What does “upstream thinking” mean when a '
                                                    'community nurse plans interventions for '
                                                    'childhood asthma hospitalizations?',
-                                       'options': ['A) Focus only on rescue inhalers after each '
+                                       'options': ['A) Improve ED asthma pathways and inhaler '
+                                                   'teaching after each hospitalization as the '
+                                                   'main plan',
+                                                   'B) Focus only on rescue inhalers after each '
                                                    'ICU admission',
-                                                   'B) Limit care to charting readmission rates '
+                                                   'C) Limit care to charting readmission rates '
                                                    'without action',
-                                                   'C) Treat only the last child who was intubated',
                                                    'D) Address root causes such as housing mold, '
                                                    'air quality, and access to controller therapy '
                                                    'before crises'],
@@ -2724,17 +2684,16 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                        'explanation': 'Upstream approaches modify social and '
                                                       'environmental root causes that generate '
                                                       'disease burden, rather than only responding '
-                                                      'after acute decompensation. For asthma, '
-                                                      'housing quality, triggers, and controller '
-                                                      'access are upstream levers.',
-                                       'choice_explanations': {'A': 'Rescue-only focus is '
+                                                      'after acute decompensation.',
+                                       'choice_explanations': {'A': 'Strengthening post-hospital '
+                                                                    'pathways is valuable but '
+                                                                    'remains more '
+                                                                    'downstream—near-miss.',
+                                                               'B': 'Rescue-only focus is '
                                                                     'downstream crisis care.',
-                                                               'B': 'Measurement without '
+                                                               'C': 'Measurement without '
                                                                     'intervention does not change '
                                                                     'outcomes.',
-                                                               'C': 'Caring for one severe case '
-                                                                    'alone ignores population '
-                                                                    'drivers.',
                                                                'D': 'Root-cause environmental and '
                                                                     'access interventions '
                                                                     'exemplify upstream '
@@ -2744,10 +2703,10 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                        'options': ['A) Expectant/minor/delayed/immediate '
                                                    'categories based on respiration, perfusion, '
                                                    'and mentation—not first-come-first-served',
-                                                   'B) Treat VIP adults before all children '
+                                                   'B) Treat the most verbally distressed victims '
+                                                   'first because pain indicates immediacy',
+                                                   'C) Treat VIP adults before all children '
                                                    'regardless of injuries',
-                                                   'C) Ignore airway because scene care is only '
-                                                   'for fractures',
                                                    'D) Spend unlimited time on each victim before '
                                                    'moving on'],
                                        'answer': 'A) Expectant/minor/delayed/immediate categories '
@@ -2757,15 +2716,16 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                       'simple physiologic cues into immediate, '
                                                       'delayed, minor, or expectant categories to '
                                                       'do the greatest good for the greatest '
-                                                      'number. Social status and unlimited '
-                                                      'one-patient focus violate MCI ethics.',
+                                                      'number.',
                                        'choice_explanations': {'A': 'Physiologic '
                                                                     'categorization—not arrival '
                                                                     'order—defines START.',
-                                                               'B': 'VIP status is not a START '
+                                                               'B': 'Distress/pain-first triage is '
+                                                                    'an intuitive near-miss that '
+                                                                    'ignores START physiology '
+                                                                    'nodes.',
+                                                               'C': 'VIP status is not a START '
                                                                     'criterion.',
-                                                               'C': 'Respiration/airway is a core '
-                                                                    'START assessment node.',
                                                                'D': 'Rapid sorting requires time '
                                                                     'discipline across many '
                                                                     'victims.'}},
@@ -2778,16 +2738,16 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                    'keep the door open for future acceptance',
                                                    'C) Refuse all other pediatric care until '
                                                    'vaccines are given',
-                                                   'D) Document nothing about the conversation'],
+                                                   'D) Provide a dense facts sheet and require a '
+                                                   'same-visit decision so the child leaves '
+                                                   'vaccinated'],
                                        'answer': 'B) Use motivational, respectful dialogue; '
                                                  'address specific concerns with evidence; and '
                                                  'keep the door open for future acceptance',
                                        'explanation': 'Vaccine hesitancy responds best to '
                                                       'nonjudgmental listening, tailored evidence, '
-                                                      'and relationship continuity. Ridicule and '
-                                                      'care refusal deepen mistrust; undocumented '
-                                                      'counseling misses a safety and legal '
-                                                      'record.',
+                                                      'and relationship continuity. Pressure '
+                                                      'tactics and ridicule deepen mistrust.',
                                        'choice_explanations': {'A': 'Mockery increases resistance '
                                                                     'and damages alliance.',
                                                                'B': 'Respectful, concern-specific '
@@ -2796,8 +2756,9 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                                'C': 'Withholding unrelated '
                                                                     'essential care is unethical '
                                                                     'coercion.',
-                                                               'D': 'Counseling and refusal must '
-                                                                    'be documented.'}}],
+                                                               'D': 'Information dump with forced '
+                                                                    'same-day decision is a common '
+                                                                    'ineffective near-miss.'}}],
                              'extreme': [{'question': 'Several postal workers from one facility '
                                                       'present with fever, cough, and mediastinal '
                                                       'widening on chest imaging after handling '
@@ -2805,85 +2766,83 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                       'wants them sent home with azithromycin '
                                                       'only. What should the public-health nursing '
                                                       'response prioritize?',
-                                          'options': ['A) Reassure media that bacterial pneumonia '
-                                                      'is always community MRSA',
-                                                      'B) Send everyone home without reporting '
+                                          'options': ['A) Send everyone home without reporting '
                                                       'because publicity is inconvenient',
+                                                      'B) Treat empirically for community '
+                                                      'pneumonia first and notify public health '
+                                                      'only if cultures later confirm anthrax',
                                                       'C) Treat as possible inhalational '
                                                       'anthrax/bioterror cluster: urgent '
                                                       'public-health notification, isolation/PPE '
-                                                      'guidance, and coordinated '
-                                                      'prophylaxis/treatment pathways',
-                                                      'D) Start airborne measles precautions only '
-                                                      'and stop investigation'],
+                                                      'per protocol, and coordinated messaging',
+                                                      'D) Reassure media that bacterial pneumonia '
+                                                      'is always community MRSA'],
                                           'answer': 'C) Treat as possible inhalational '
                                                     'anthrax/bioterror cluster: urgent '
-                                                    'public-health notification, isolation/PPE '
-                                                    'guidance, and coordinated '
-                                                    'prophylaxis/treatment pathways',
-                                          'explanation': 'Occupational cluster with mediastinal '
-                                                         'widening after mail exposure raises '
-                                                         'inhalational anthrax/bioterror concern. '
-                                                         'Nurses escalate to public health, use '
-                                                         'appropriate PPE, and follow '
-                                                         'chemoprophylaxis/treatment protocols—not '
-                                                         'casual discharge or wrong-pathogen '
-                                                         'assumptions.',
-                                          'choice_explanations': {'A': 'Mediastinal widening in '
-                                                                       'this context is a classic '
-                                                                       'anthrax clue, not routine '
-                                                                       'MRSA pneumonia messaging.',
-                                                                  'B': 'Failure to report a '
-                                                                       'potential bioterror '
-                                                                       'cluster endangers the '
-                                                                       'community.',
-                                                                  'C': 'Notification, PPE, and '
-                                                                       'coordinated anthrax '
-                                                                       'pathways are the correct '
-                                                                       'multi-agency response.',
-                                                                  'D': 'Measles precautions alone '
-                                                                       'miss anthrax evaluation '
-                                                                       'and prophylaxis needs.'}},
+                                                    'public-health notification, isolation/PPE per '
+                                                    'protocol, and coordinated messaging',
+                                          'explanation': 'Clustered febrile illness with '
+                                                         'mediastinal widening after dusty mail '
+                                                         'handling raises inhalational '
+                                                         'anthrax/bioterror concern. Immediate '
+                                                         'public-health notification and '
+                                                         'protective measures are required—not '
+                                                         'waiting for final cultures.',
+                                          'choice_explanations': {'A': 'Sending exposed ill '
+                                                                       'workers home without '
+                                                                       'reporting endangers the '
+                                                                       'public.',
+                                                                  'B': 'Empiric pneumonia care '
+                                                                       'without early '
+                                                                       'public-health alert is a '
+                                                                       'dangerous delay near-miss.',
+                                                                  'C': 'Urgent public-health '
+                                                                       'notification with '
+                                                                       'isolation/PPE and '
+                                                                       'coordinated response '
+                                                                       'matches bioterror cluster '
+                                                                       'care.',
+                                                                  'D': 'Media reassurance without '
+                                                                       'investigation is '
+                                                                       'inappropriate.'}},
                                          {'question': 'After a needlestick from an unknown-source '
                                                       'needle in a community clinic, bleeding is '
                                                       'encouraged at the site and soap-and-water '
                                                       'washing is done. The source patient left '
                                                       'without labs. What is the correct next '
                                                       'priority cluster?',
-                                          'options': ['A) Ignore the injury if the wound looks '
+                                          'options': ['A) Wash thoroughly, document in a personal '
+                                                      'notebook, and seek evaluation next business '
+                                                      'day if the source seems low risk',
+                                                      'B) Ignore the injury if the wound looks '
                                                       'small',
-                                                      'B) Apply a tight arterial tourniquet for 6 '
+                                                      'C) Apply a tight arterial tourniquet for 6 '
                                                       'hours',
-                                                      'C) Finish the shift without reporting to '
-                                                      'avoid paperwork',
                                                       'D) Report immediately, seek urgent '
                                                       'employee-health/ED evaluation for baseline '
-                                                      'labs and possible post-exposure prophylaxis '
-                                                      'timing'],
+                                                      'labs and possible post-exposure '
+                                                      'prophylaxis'],
                                           'answer': 'D) Report immediately, seek urgent '
                                                     'employee-health/ED evaluation for baseline '
-                                                    'labs and possible post-exposure prophylaxis '
-                                                    'timing',
-                                          'explanation': 'Bloodborne pathogen exposures require '
-                                                         'immediate reporting and timely risk '
-                                                         'assessment for HIV/HBV/HCV PEP '
-                                                         'decisions. First aid is necessary but '
-                                                         'not sufficient; tourniquets and '
-                                                         'nonreporting increase harm.',
-                                          'choice_explanations': {'A': 'Wound size does not '
-                                                                       'eliminate bloodborne '
-                                                                       'infection risk.',
-                                                                  'B': 'Prolonged tourniquets '
-                                                                       'cause ischemic injury and '
-                                                                       'are not exposure first '
-                                                                       'aid.',
-                                                                  'C': 'Delayed reporting can miss '
-                                                                       'PEP windows.',
+                                                    'labs and possible post-exposure prophylaxis',
+                                          'explanation': 'Needlestick exposures need immediate '
+                                                         'reporting and urgent evaluation for '
+                                                         'baseline testing and time-sensitive PEP '
+                                                         'decisions. Delaying to the next day can '
+                                                         'miss optimal prophylaxis windows.',
+                                          'choice_explanations': {'A': 'Self-documentation with '
+                                                                       'delayed evaluation is a '
+                                                                       'common occupational '
+                                                                       'near-miss.',
+                                                                  'B': 'Wound size does not '
+                                                                       'determine bloodborne '
+                                                                       'pathogen risk.',
+                                                                  'C': 'Arterial tourniquets are '
+                                                                       'not appropriate '
+                                                                       'needlestick first aid.',
                                                                   'D': 'Immediate report plus '
-                                                                       'urgent PEP/lab evaluation '
-                                                                       'is required after '
-                                                                       'unknown-source '
-                                                                       'needlestick.'}},
+                                                                       'urgent evaluation for '
+                                                                       'labs/PEP is required.'}},
                                          {'question': 'During a measles outbreak, an unvaccinated '
                                                       'pregnant nurse without immunity is exposed, '
                                                       'while a separate TB client needs airborne '
@@ -2896,34 +2855,33 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                       'contagious infection; quarantine restricts '
                                                       'exposed well persons who may become '
                                                       'infectious',
-                                                      'B) Quarantine and isolation are identical '
+                                                      'B) Quarantine is used for confirmed measles '
+                                                      'cases; isolation is only for exposed staff '
+                                                      'awaiting titers',
+                                                      'C) Quarantine and isolation are identical '
                                                       'legal terms with no difference',
-                                                      'C) Isolation applies only to plants; '
-                                                      'quarantine only to animals',
                                                       'D) Neither strategy is ever used in '
                                                       'outbreak control'],
                                           'answer': 'A) Isolation separates people with contagious '
                                                     'infection; quarantine restricts exposed well '
                                                     'persons who may become infectious',
-                                          'explanation': 'Isolation restricts known infectious '
-                                                         'cases; quarantine restricts exposed '
-                                                         'susceptible persons during incubation. '
-                                                         'Accurate terminology guides who stays '
-                                                         'home, who needs airborne rooms, and '
-                                                         'occupational restrictions—especially for '
-                                                         'nonimmune pregnant staff after measles '
-                                                         'exposure.',
-                                          'choice_explanations': {'A': 'This is the correct '
-                                                                       'operational distinction '
-                                                                       'used in outbreak control.',
-                                                                  'B': 'Conflating the terms '
-                                                                       'causes incorrect '
-                                                                       'restrictions and '
-                                                                       'messaging.',
-                                                                  'C': 'Both apply to human '
-                                                                       'public-health practice.',
-                                                                  'D': 'Both are foundational '
-                                                                       'outbreak tools.'}}]},
+                                          'explanation': 'Isolation applies to people known or '
+                                                         'suspected to be infectious; quarantine '
+                                                         'restricts movement of exposed '
+                                                         'asymptomatic persons during the '
+                                                         'incubation period. Mixing the terms '
+                                                         'confuses outbreak control.',
+                                          'choice_explanations': {'A': 'Infectious vs exposed-well '
+                                                                       'distinction correctly '
+                                                                       'separates isolation from '
+                                                                       'quarantine.',
+                                                                  'B': 'Swapping the terms is a '
+                                                                       'classic definition '
+                                                                       'near-miss.',
+                                                                  'C': 'The terms are not '
+                                                                       'identical.',
+                                                                  'D': 'Both strategies are used '
+                                                                       'in outbreak control.'}}]},
                'cases': {'easy': [{'title': 'School Outbreak',
                                    'stem': 'Several students with measles-like rash; some '
                                            'unvaccinated.',
@@ -2972,274 +2930,286 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                        'COPD-specific targets, which SpO2 range is '
                                                        'commonly used as a general oxygenation '
                                                        'goal?',
-                                           'options': ['A) Always keep SpO2 at exactly 100% with '
-                                                       'maximal FiO2',
-                                                       'B) Approximately 94–98% (or per ordered '
-                                                       'disease-specific targets)',
-                                                       'C) SpO2 of 70% is acceptable if the '
+                                           'options': ['A) SpO2 of 70% is acceptable if the '
                                                        'patient is talking',
-                                                       'D) Oxygen saturation goals are never '
-                                                       'individualized'],
-                                           'answer': 'B) Approximately 94–98% (or per ordered '
+                                                       'B) Approximately 88–92% for all acutely '
+                                                       'ill adults to avoid oxygen toxicity',
+                                                       'C) Approximately 94–98% (or per ordered '
+                                                       'disease-specific targets)',
+                                                       'D) Always keep SpO2 at exactly 100% with '
+                                                       'maximal FiO2'],
+                                           'answer': 'C) Approximately 94–98% (or per ordered '
                                                      'disease-specific targets)',
                                            'explanation': 'Many guidelines target roughly 94–98% '
                                                           'for acutely ill adults, with lower '
                                                           'targets (e.g., 88–92%) for some COPD '
                                                           'patients. Forcing 100% with excess '
-                                                          'oxygen can be harmful; 70% is unsafe.',
-                                           'choice_explanations': {'A': 'Unnecessary hyperoxia can '
-                                                                        'cause harm; 100% is not a '
-                                                                        'universal goal.',
-                                                                   'B': '≈94–98% (or ordered '
+                                                          'oxygen can be harmful.',
+                                           'choice_explanations': {'A': 'SpO2 70% indicates '
+                                                                        'critical hypoxemia.',
+                                                                   'B': '88–92% is a real '
+                                                                        'COPD-related target '
+                                                                        'wrongly generalized to '
+                                                                        'all adults—near-miss.',
+                                                                   'C': '≈94–98% (or ordered '
                                                                         'disease-specific ranges) '
                                                                         'is a common adult target '
                                                                         'theme.',
-                                                                   'C': 'SpO2 70% indicates '
-                                                                        'critical hypoxemia.',
-                                                                   'D': 'Targets are often '
-                                                                        'individualized (e.g., '
-                                                                        'COPD).'}},
+                                                                   'D': 'Unnecessary hyperoxia can '
+                                                                        'cause harm; 100% is not a '
+                                                                        'universal goal.'}},
                                           {'question': 'Where is an arterial line typically '
                                                        'zeroed/leveled for accurate pressure '
                                                        'monitoring?',
-                                           'options': ['A) At the patient’s knee regardless of '
+                                           'options': ['A) At the catheter insertion site so the '
+                                                       'transducer matches the arterial puncture '
+                                                       'level',
+                                                       'B) At the patient’s knee regardless of '
                                                        'position',
-                                                       'B) At the IV fluid bag spike',
-                                                       'C) At the phlebostatic axis (approx. 4th '
-                                                       'ICS, midaxillary line)',
-                                                       'D) At the top of the ventilator circuit '
-                                                       'only'],
-                                           'answer': 'C) At the phlebostatic axis (approx. 4th '
+                                                       'C) At the IV fluid bag spike',
+                                                       'D) At the phlebostatic axis (approx. 4th '
+                                                       'ICS, midaxillary line)'],
+                                           'answer': 'D) At the phlebostatic axis (approx. 4th '
                                                      'ICS, midaxillary line)',
                                            'explanation': 'Leveling the transducer at the '
                                                           'phlebostatic axis references pressures '
                                                           'to the right atrium. Wrong leveling '
                                                           'produces falsely high or low readings '
-                                                          'that misguide vasopressor and volume '
-                                                          'decisions.',
-                                           'choice_explanations': {'A': 'Knee leveling does not '
+                                                          'that misguide therapy.',
+                                           'choice_explanations': {'A': 'Leveling to the insertion '
+                                                                        'site is a believable '
+                                                                        'setup error—assessment '
+                                                                        'near-miss.',
+                                                                   'B': 'Knee leveling does not '
                                                                         'reference atrial level.',
-                                                                   'B': 'The bag spike is not the '
+                                                                   'C': 'The bag spike is not the '
                                                                         'anatomic reference point.',
-                                                                   'C': 'Phlebostatic axis '
+                                                                   'D': 'Phlebostatic axis '
                                                                         'leveling is the standard '
                                                                         'for arterial/CVP '
-                                                                        'referencing.',
-                                                                   'D': 'Ventilator circuit height '
-                                                                        'is unrelated to arterial '
-                                                                        'transducer leveling.'}},
+                                                                        'referencing.'}},
                                           {'question': 'Which intervention is part of a typical '
                                                        'ventilator-associated pneumonia (VAP) '
                                                        'prevention bundle?',
-                                           'options': ['A) Keeping the head of bed flat at all '
-                                                       'times',
-                                                       'B) Avoiding oral care to reduce secretions',
-                                                       'C) Breaking circuit daily without '
-                                                       'indication for “freshness”',
-                                                       'D) Head-of-bed elevation, oral care with '
+                                           'options': ['A) Head-of-bed elevation, oral care with '
                                                        'antiseptic, and sedation/weaning reviews '
-                                                       'as protocolled'],
-                                           'answer': 'D) Head-of-bed elevation, oral care with '
+                                                       'as protocolled',
+                                                       'B) Daily circuit changes and keeping the '
+                                                       'head of bed flat to reduce pressure injury '
+                                                       'risk',
+                                                       'C) Avoiding oral care to reduce secretions',
+                                                       'D) Breaking circuit daily without '
+                                                       'indication for “freshness”'],
+                                           'answer': 'A) Head-of-bed elevation, oral care with '
                                                      'antiseptic, and sedation/weaning reviews as '
                                                      'protocolled',
                                            'explanation': 'VAP bundles reduce aspiration and '
                                                           'biofilm risk via HOB elevation, oral '
-                                                          'antiseptic care, subglottic suction '
-                                                          'when available, and daily '
+                                                          'antiseptic care, and daily '
                                                           'sedation/spontaneous breathing '
-                                                          'assessments. Flat positioning and '
-                                                          'neglected oral care increase VAP risk.',
-                                           'choice_explanations': {'A': 'Flat positioning '
-                                                                        'increases aspiration '
-                                                                        'risk.',
-                                                                   'B': 'Oral care is a key VAP '
-                                                                        'prevention element.',
-                                                                   'C': 'Unnecessary circuit '
-                                                                        'breaks increase '
-                                                                        'contamination risk.',
-                                                                   'D': 'HOB elevation, oral care, '
+                                                          'assessments.',
+                                           'choice_explanations': {'A': 'HOB elevation, oral care, '
                                                                         'and sedation/weaning '
                                                                         'practices are core bundle '
-                                                                        'elements.'}}],
+                                                                        'elements.',
+                                                                   'B': 'Circuit changes plus flat '
+                                                                        'HOB mixes '
+                                                                        'infection-control myths '
+                                                                        'with skin '
+                                                                        'priorities—near-miss '
+                                                                        'against VAP evidence.',
+                                                                   'C': 'Oral care is a key VAP '
+                                                                        'prevention element.',
+                                                                   'D': 'Unnecessary circuit '
+                                                                        'breaks increase '
+                                                                        'contamination risk.'}}],
                                  'medium': [{'question': 'Central venous pressure (CVP) most '
                                                          'closely reflects which physiologic '
                                                          'concept at the bedside?',
-                                             'options': ['A) Right-heart preload / right atrial '
+                                             'options': ['A) Serum potassium concentration',
+                                                         'B) Right-heart preload / right atrial '
                                                          'pressure trend (with interpretation '
                                                          'limits)',
-                                                         'B) Exact left-ventricular ejection '
-                                                         'fraction percentage',
-                                                         'C) Serum potassium concentration',
-                                                         'D) Pupil reactivity score'],
-                                             'answer': 'A) Right-heart preload / right atrial '
+                                                         'C) Pupil reactivity score',
+                                                         'D) Left-ventricular end-diastolic volume '
+                                                         'as a precise standalone '
+                                                         'fluid-responsiveness number'],
+                                             'answer': 'B) Right-heart preload / right atrial '
                                                        'pressure trend (with interpretation '
                                                        'limits)',
                                              'explanation': 'CVP approximates right atrial '
                                                             'pressure and is used as a crude '
                                                             'right-sided preload trend, '
-                                                            'interpreted with exams, fluids, and '
-                                                            'other hemodynamics. It does not equal '
-                                                            'LVEF, potassium, or neurologic '
-                                                            'scores.',
-                                             'choice_explanations': {'A': 'CVP trends right atrial '
+                                                            'interpreted with exam and other '
+                                                            'hemodynamics. It is not a precise LV '
+                                                            'volume or fluid-responsiveness '
+                                                            'guarantee.',
+                                             'choice_explanations': {'A': 'Electrolytes are lab '
+                                                                          'values, not CVP.',
+                                                                     'B': 'CVP trends right atrial '
                                                                           'pressure/preload with '
                                                                           'known limitations.',
-                                                                     'B': 'LVEF requires imaging, '
-                                                                          'not CVP alone.',
-                                                                     'C': 'Electrolytes are lab '
-                                                                          'values, not CVP.',
-                                                                     'D': 'Pupils are neurologic '
+                                                                     'C': 'Pupils are neurologic '
                                                                           'findings unrelated to '
-                                                                          'CVP meaning.'}},
+                                                                          'CVP meaning.',
+                                                                     'D': 'Equating CVP with '
+                                                                          'precise LV '
+                                                                          'preload/fluid '
+                                                                          'responsiveness is a '
+                                                                          'common hemodynamic '
+                                                                          'near-miss.'}},
                                             {'question': 'Which nursing measures help manage '
                                                          'increased intracranial pressure?',
-                                             'options': ['A) Cluster noxious care, keep neck '
-                                                         'flexed, and hypotonic free-water boluses',
-                                                         'B) Neutral head alignment, HOB elevation '
+                                             'options': ['A) Place in Trendelenburg continuously',
+                                                         'B) Cluster complete nursing care into '
+                                                         'long sessions so the patient can rest '
+                                                         'undisturbed for hours afterward',
+                                                         'C) Neutral head alignment, HOB elevation '
                                                          'if ordered, controlled '
                                                          'ventilation/oxygenation, and minimize '
                                                          'clustering of stimuli',
-                                                         'C) Force coughing and Valsalva '
-                                                         'frequently to “clear pressure”',
-                                                         'D) Place in Trendelenburg continuously'],
-                                             'answer': 'B) Neutral head alignment, HOB elevation '
+                                                         'D) Force coughing and Valsalva '
+                                                         'frequently to “clear pressure”'],
+                                             'answer': 'C) Neutral head alignment, HOB elevation '
                                                        'if ordered, controlled '
                                                        'ventilation/oxygenation, and minimize '
                                                        'clustering of stimuli',
                                              'explanation': 'ICP care maintains cerebral venous '
                                                             'drainage (neutral neck, HOB elevation '
-                                                            'as ordered), avoids '
-                                                            'hypoxemia/hypercapnia extremes per '
-                                                            'goals, and limits stimulatory '
-                                                            'clustering. Flexion, Trendelenburg, '
-                                                            'hypotonic fluids, and forced Valsalva '
-                                                            'raise ICP.',
-                                             'choice_explanations': {'A': 'Neck flexion and '
-                                                                          'hypotonic fluids worsen '
-                                                                          'cerebral edema/ICP.',
-                                                                     'B': 'Alignment, ordered HOB '
+                                                            'as ordered), avoids gas-exchange '
+                                                            'extremes per goals, and limits '
+                                                            'stimulatory clustering. Long '
+                                                            'clustered noxious care can spike ICP.',
+                                             'choice_explanations': {'A': 'Trendelenburg increases '
+                                                                          'cerebral venous '
+                                                                          'pressure.',
+                                                                     'B': 'Clustering care for '
+                                                                          'later rest sounds '
+                                                                          'considerate but can '
+                                                                          'cause prolonged ICP '
+                                                                          'surges—near-miss.',
+                                                                     'C': 'Alignment, ordered HOB '
                                                                           'elevation, gas-exchange '
                                                                           'control, and stimulus '
                                                                           'control lower ICP risk.',
-                                                                     'C': 'Coughing/Valsalva '
-                                                                          'transiently spike ICP.',
-                                                                     'D': 'Trendelenburg increases '
-                                                                          'cerebral venous '
-                                                                          'pressure.'}},
+                                                                     'D': 'Coughing/Valsalva '
+                                                                          'transiently spike '
+                                                                          'ICP.'}},
                                             {'question': 'In undifferentiated shock, what are the '
                                                          'first nursing priorities?',
-                                             'options': ['A) Wait for a definitive etiology before '
-                                                         'any oxygen or IV access',
+                                             'options': ['A) Identify the exact shock subtype with '
+                                                         'full diagnostics before oxygen, access, '
+                                                         'or fluids',
                                                          'B) Focus only on giving oral fluids in '
                                                          'hypotensive patients',
-                                                         'C) Support ABCs, obtain IV access, '
+                                                         'C) Place the patient in a chair and '
+                                                         'ambulate vigorously',
+                                                         'D) Support ABCs, obtain IV access, '
                                                          'monitor perfusion, and escalate while '
-                                                         'etiology is pursued',
-                                                         'D) Place the patient in a chair and '
-                                                         'ambulate vigorously'],
-                                             'answer': 'C) Support ABCs, obtain IV access, monitor '
+                                                         'etiology is pursued'],
+                                             'answer': 'D) Support ABCs, obtain IV access, monitor '
                                                        'perfusion, and escalate while etiology is '
                                                        'pursued',
                                              'explanation': 'Shock care begins with airway, '
                                                             'breathing, circulation support, '
                                                             'access, and perfusion monitoring '
-                                                            'while identifying hypovolemic, '
-                                                            'distributive, cardiogenic, or '
-                                                            'obstructive causes. Delaying '
-                                                            'oxygen/access for perfect diagnosis '
-                                                            'worsens ischemia.',
-                                             'choice_explanations': {'A': 'Resuscitation and '
-                                                                          'diagnosis proceed in '
-                                                                          'parallel.',
+                                                            'while identifying the cause. '
+                                                            'Resuscitation and diagnosis proceed '
+                                                            'in parallel.',
+                                             'choice_explanations': {'A': 'Subtype-first '
+                                                                          'diagnostic delay is a '
+                                                                          'classic shock '
+                                                                          'near-miss.',
                                                                      'B': 'Oral fluids are '
                                                                           'inappropriate in many '
                                                                           'shocked patients.',
-                                                                     'C': 'ABC support plus access '
+                                                                     'C': 'Ambulation is '
+                                                                          'contraindicated in '
+                                                                          'shock.',
+                                                                     'D': 'ABC support plus access '
                                                                           'and escalation is the '
                                                                           'correct first priority '
-                                                                          'set.',
-                                                                     'D': 'Ambulation is '
-                                                                          'contraindicated in '
-                                                                          'shock.'}}],
+                                                                          'set.'}}],
                                  'hard': [{'question': 'An intubated ARDS patient has refractory '
                                                        'hypoxemia. Which ventilation theme aligns '
                                                        'with lung-protective strategy?',
-                                           'options': ['A) Very large tidal volumes to “pop open” '
-                                                       'all alveoli regardless of plateau pressure',
-                                                       'B) Zero PEEP in all ARDS cases',
-                                                       'C) Permissive hyperoxia at FiO2 1.0 '
-                                                       'indefinitely without review',
-                                                       'D) Low tidal volumes (~6 mL/kg PBW), '
+                                           'options': ['A) Low tidal volumes (~6 mL/kg PBW), '
                                                        'plateau-pressure limits, and PEEP/FiO2 '
-                                                       'titration per protocol'],
-                                           'answer': 'D) Low tidal volumes (~6 mL/kg PBW), '
+                                                       'titration per protocol',
+                                                       'B) Higher tidal volumes temporarily to '
+                                                       'correct hypercapnia quickly, then return '
+                                                       'to protective settings',
+                                                       'C) Very large tidal volumes to “pop open” '
+                                                       'all alveoli regardless of plateau pressure',
+                                                       'D) Zero PEEP in all ARDS cases'],
+                                           'answer': 'A) Low tidal volumes (~6 mL/kg PBW), '
                                                      'plateau-pressure limits, and PEEP/FiO2 '
                                                      'titration per protocol',
                                            'explanation': 'ARDSNet-style protection uses ~6 mL/kg '
                                                           'predicted body weight tidal volumes, '
                                                           'plateau-pressure limits, and PEEP/FiO2 '
-                                                          'tables to reduce volutrauma while '
-                                                          'supporting oxygenation. Oversized '
-                                                          'volumes and ignoring PEEP worsen lung '
-                                                          'injury.',
-                                           'choice_explanations': {'A': 'Large tidal volumes drive '
+                                                          'tables. Permissive hypercapnia is often '
+                                                          'accepted rather than abandoning low Vt.',
+                                           'choice_explanations': {'A': 'Low Vt, Pplat limits, and '
+                                                                        'PEEP/FiO2 protocols '
+                                                                        'define lung protection.',
+                                                                   'B': 'Raising Vt to fix CO2 is '
+                                                                        'a tempting near-miss that '
+                                                                        'increases VILI risk.',
+                                                                   'C': 'Large tidal volumes drive '
                                                                         'ventilator-induced lung '
                                                                         'injury.',
-                                                                   'B': 'PEEP is used thoughtfully '
+                                                                   'D': 'PEEP is used thoughtfully '
                                                                         'in ARDS to maintain '
-                                                                        'recruitment.',
-                                                                   'C': 'Prolonged unnecessary '
-                                                                        'FiO2 1.0 risks oxygen '
-                                                                        'toxicity; titrate.',
-                                                                   'D': 'Low Vt, Pplat limits, and '
-                                                                        'PEEP/FiO2 protocols '
-                                                                        'define lung protection.'}},
+                                                                        'recruitment.'}},
                                           {'question': 'After blunt chest trauma, a patient has '
                                                        'muffled heart sounds, JVD, and hypotension '
                                                        'with electrical activity on the monitor. '
                                                        'What classic condition should you suspect?',
-                                           'options': ['A) Cardiac tamponade (Beck’s triad '
-                                                       'pattern) requiring urgent escalation',
-                                                       'B) Simple anxiety attack without '
+                                           'options': ['A) Simple anxiety attack without '
                                                        'hemodynamic meaning',
+                                                       'B) Cardiac tamponade (Beck’s triad '
+                                                       'pattern) requiring urgent escalation',
                                                        'C) Uncomplicated dehydration alone',
-                                                       'D) Hyperthyroidism storm as the first '
-                                                       'explanation'],
-                                           'answer': 'A) Cardiac tamponade (Beck’s triad pattern) '
+                                                       'D) Tension pneumothorax as the first '
+                                                       'explanation for hypotension with JVD after '
+                                                       'chest trauma'],
+                                           'answer': 'B) Cardiac tamponade (Beck’s triad pattern) '
                                                      'requiring urgent escalation',
                                            'explanation': 'Beck’s triad—hypotension, JVD, muffled '
-                                                          'sounds—suggests tamponade physiology '
-                                                          'where pericardial blood impairs '
-                                                          'filling. Pulseless electrical activity '
-                                                          'can ensue. This is an obstructive shock '
-                                                          'emergency needing immediate escalation, '
-                                                          'not reassurance.',
-                                           'choice_explanations': {'A': 'Muffled sounds, JVD, and '
+                                                          'sounds—suggests tamponade physiology. '
+                                                          'Tension pneumothorax is an important '
+                                                          'trauma cousin but typically has '
+                                                          'unilateral breath-sound loss/tracheal '
+                                                          'deviation rather than muffled '
+                                                          'heartsounds as the hallmark.',
+                                           'choice_explanations': {'A': 'Objective shock signs are '
+                                                                        'not explained by anxiety.',
+                                                                   'B': 'Muffled sounds, JVD, and '
                                                                         'hypotension classic for '
                                                                         'tamponade needing urgent '
                                                                         'action.',
-                                                                   'B': 'Objective shock signs are '
-                                                                        'not explained by anxiety.',
                                                                    'C': 'Dehydration alone does '
                                                                         'not muffle heart sounds.',
-                                                                   'D': 'Thyroid storm has a '
-                                                                        'different constellation; '
-                                                                        'trauma points to '
-                                                                        'tamponade first.'}},
+                                                                   'D': 'Tension pneumothorax is '
+                                                                        'the key obstructive-shock '
+                                                                        'differential—priority/assessment '
+                                                                        'near-miss.'}},
                                           {'question': 'In DKA, which nursing priority cluster is '
                                                        'most accurate while insulin and fluids are '
                                                        'ordered?',
-                                           'options': ['A) Stop all potassium monitoring because '
-                                                       'insulin raises potassium',
-                                                       'B) Airway/hemodynamic support, fluid '
+                                           'options': ['A) Give subcutaneous insulin only and '
+                                                       'encourage sugary drinks',
+                                                       'B) Start insulin promptly and bolus '
+                                                       'potassium only after the anion gap fully '
+                                                       'closes',
+                                                       'C) Airway/hemodynamic support, fluid '
                                                        'resuscitation as ordered, insulin therapy, '
                                                        'and close electrolyte (especially '
                                                        'potassium) monitoring',
-                                                       'C) Give subcutaneous insulin only and '
-                                                       'encourage sugary drinks',
-                                                       'D) Ignore mental-status changes because '
-                                                       'they are expected and harmless'],
-                                           'answer': 'B) Airway/hemodynamic support, fluid '
+                                                       'D) Stop all potassium monitoring because '
+                                                       'insulin raises potassium'],
+                                           'answer': 'C) Airway/hemodynamic support, fluid '
                                                      'resuscitation as ordered, insulin therapy, '
                                                      'and close electrolyte (especially potassium) '
                                                      'monitoring',
@@ -3247,24 +3217,23 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                           'replacement, insulin to stop '
                                                           'ketogenesis, and electrolyte '
                                                           'management—potassium often falls with '
-                                                          'insulin and must be watched. Oral sugar '
-                                                          'and neglected mentation assessment are '
-                                                          'dangerous.',
-                                           'choice_explanations': {'A': 'Insulin drives potassium '
-                                                                        'intracellularly; '
-                                                                        'monitoring/replacement '
-                                                                        'are critical.',
-                                                                   'B': 'Fluids, insulin, and '
+                                                          'insulin and must be watched throughout, '
+                                                          'not only after gap closure.',
+                                           'choice_explanations': {'A': 'DKA usually needs IV '
+                                                                        'insulin/fluids, not '
+                                                                        'sugary drinks.',
+                                                                   'B': 'Delaying potassium '
+                                                                        'attention until gap '
+                                                                        'closure misunderstands '
+                                                                        'early K shifts—near-miss.',
+                                                                   'C': 'Fluids, insulin, and '
                                                                         'electrolyte/ABC vigilance '
                                                                         'are the DKA nursing '
                                                                         'pillars.',
-                                                                   'C': 'DKA usually needs IV '
-                                                                        'insulin/fluids, not '
-                                                                        'sugary drinks.',
-                                                                   'D': 'Altered mentation can '
-                                                                        'signal worsening '
-                                                                        'acidosis/hypoperfusion '
-                                                                        'and airway risk.'}}],
+                                                                   'D': 'Insulin drives potassium '
+                                                                        'intracellularly; '
+                                                                        'monitoring/replacement '
+                                                                        'are critical.'}}],
                                  'extreme': [{'question': 'You are alone at the bedside when the '
                                                           'monitor shows pulseless ventricular '
                                                           'tachycardia; the patient is '
@@ -3273,131 +3242,125 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                           'arrives,” and the defibrillator pads '
                                                           'are in the drawer. What is the correct '
                                                           'immediate action sequence?',
-                                              'options': ['A) Wait for clergy before any '
+                                              'options': ['A) Confirm asystole vs artifact with a '
+                                                          'pulse check lasting a full minute '
+                                                          'before shocking',
+                                                          'B) Wait for clergy before any '
                                                           'intervention',
-                                                          'B) Check a blood pressure cuff cycle '
-                                                          'before compressions',
-                                                          'C) Start CPR, apply pads, defibrillate '
+                                                          'C) Give a fluid bolus as the sole '
+                                                          'therapy for pulseless VT',
+                                                          'D) Start CPR, apply pads, defibrillate '
                                                           'as indicated for pulseless VT/VF, and '
-                                                          'activate the code team',
-                                                          'D) Give a fluid bolus as the sole '
-                                                          'therapy for pulseless VT'],
-                                              'answer': 'C) Start CPR, apply pads, defibrillate as '
+                                                          'activate the code team'],
+                                              'answer': 'D) Start CPR, apply pads, defibrillate as '
                                                         'indicated for pulseless VT/VF, and '
                                                         'activate the code team',
-                                              'explanation': 'Pulseless VT/VF is a shockable '
-                                                             'arrest rhythm. Immediate CPR and '
-                                                             'defibrillation, with code-team '
-                                                             'activation, are mandatory. Family '
-                                                             'preference cannot override emergency '
-                                                             'resuscitation absent a valid DNR; '
-                                                             'fluids do not treat VF/pVT.',
-                                              'choice_explanations': {'A': 'Delaying '
+                                              'explanation': 'Pulseless VT is a shockable arrest '
+                                                             'rhythm. Immediate CPR and '
+                                                             'defibrillation save lives; prolonged '
+                                                             'pulse checks and non-emergent delays '
+                                                             'are harmful. Family objections do '
+                                                             'not override emergency implied '
+                                                             'consent when no DNR is established.',
+                                              'choice_explanations': {'A': 'Over-long rhythm/pulse '
+                                                                           'confirmation delays '
+                                                                           'defibrillation—near-miss.',
+                                                                      'B': 'Clergy presence is not '
+                                                                           'a prerequisite for '
+                                                                           'defibrillation.',
+                                                                      'C': 'Fluids alone do not '
+                                                                           'treat pulseless VT.',
+                                                                      'D': 'CPR plus '
                                                                            'defibrillation for '
-                                                                           'clergy arrival costs '
-                                                                           'survival.',
-                                                                      'B': 'Pulse/responsiveness '
-                                                                           'already establish '
-                                                                           'arrest; long cuff '
-                                                                           'cycles delay CPR.',
-                                                                      'C': 'CPR plus '
-                                                                           'defibrillation for '
-                                                                           'shockable rhythms is '
-                                                                           'ACLS first-line care.',
-                                                                      'D': 'Volume alone does not '
-                                                                           'terminate pulseless '
-                                                                           'VT/VF.'}},
+                                                                           'pulseless VT/VF with '
+                                                                           'code activation is '
+                                                                           'required.'}},
                                              {'question': 'A trauma patient in hemorrhagic shock '
                                                           'is receiving a massive transfusion. '
                                                           'Temperature is 34.8°C, ionized calcium '
                                                           'is low, and oozing worsens. Which '
                                                           'priority cluster is most appropriate?',
-                                              'options': ['A) Stop all blood products and give '
-                                                          'only hypotonic free water',
-                                                          'B) Accept hypothermia as inevitable and '
-                                                          'withhold warming devices',
-                                                          'C) Give unmatched products from '
-                                                          'unlabeled syringes to save time',
-                                                          'D) Warm the patient/products, replace '
+                                              'options': ['A) Warm the patient/products, replace '
                                                           'calcium as ordered, follow MTP ratios, '
-                                                          'and preserve transfusion safety checks '
-                                                          'while escalating coagulopathy care'],
-                                              'answer': 'D) Warm the patient/products, replace '
+                                                          'and preserve transfusion safety checks',
+                                                          'B) Prioritize speed by giving products '
+                                                          'wide open while deferring warming and '
+                                                          'calcium until bleeding slows',
+                                                          'C) Stop all blood products and give '
+                                                          'only hypotonic free water',
+                                                          'D) Give unmatched products from '
+                                                          'unlabeled syringes to save time'],
+                                              'answer': 'A) Warm the patient/products, replace '
                                                         'calcium as ordered, follow MTP ratios, '
-                                                        'and preserve transfusion safety checks '
-                                                        'while escalating coagulopathy care',
-                                              'explanation': 'Massive transfusion must counter the '
-                                                             'lethal triad while preserving blood '
-                                                             'safety. Warming, calcium repletion '
-                                                             'for citrate effect, balanced product '
-                                                             'ratios, coagulopathy management, and '
-                                                             'continued product verification are '
-                                                             'concurrent priorities.',
-                                              'choice_explanations': {'A': 'Stopping blood for '
-                                                                           'free water worsens '
-                                                                           'hemorrhage and '
-                                                                           'hyponatremia risk.',
-                                                                      'B': 'Hypothermia '
-                                                                           'intensifies '
-                                                                           'coagulopathy and '
-                                                                           'should be actively '
-                                                                           'corrected.',
-                                                                      'C': 'Unlabeled products '
-                                                                           'risk fatal ABO '
-                                                                           'incompatibility.',
-                                                                      'D': 'Warming, calcium, MTP '
+                                                        'and preserve transfusion safety checks',
+                                              'explanation': 'Massive transfusion complications '
+                                                             'include hypothermia, hypocalcemia, '
+                                                             'and coagulopathy. Warming, calcium '
+                                                             'replacement, balanced ratios, and '
+                                                             'identification checks proceed with '
+                                                             'resuscitation—not after.',
+                                              'choice_explanations': {'A': 'Warming, calcium, MTP '
                                                                            'ratios, and safety '
-                                                                           'checks together '
-                                                                           'address bleeding '
-                                                                           'physiology and prevent '
-                                                                           'transfusion error.'}},
+                                                                           'checks address lethal '
+                                                                           'triad drivers.',
+                                                                      'B': 'Speed-over-warming/calcium '
+                                                                           'is a common MTP '
+                                                                           'near-miss that worsens '
+                                                                           'coagulopathy.',
+                                                                      'C': 'Stopping blood for '
+                                                                           'hypotonic water is '
+                                                                           'wrong in hemorrhagic '
+                                                                           'shock.',
+                                                                      'D': 'Unlabeled unmatched '
+                                                                           'products create '
+                                                                           'catastrophic error '
+                                                                           'risk.'}},
                                              {'question': 'The team is preparing clinical '
                                                           'brain-death testing on an ICU patient. '
                                                           'A junior nurse plans to give a sedative '
                                                           'bolus “so the exam is calm,” and family '
                                                           'asks what nursing’s role is. What '
                                                           'should you do?',
-                                              'options': ['A) Clarify that confounding '
+                                              'options': ['A) Give extra propofol to guarantee '
+                                                          'unresponsiveness for the exam',
+                                                          'B) Clarify that confounding '
                                                           'sedation/metabolic issues must be '
                                                           'absent; support family, maintain '
-                                                          'physiologic stability, and assist the '
-                                                          'declared protocol—do not sedate before '
-                                                          'testing',
-                                                          'B) Give extra propofol to guarantee '
-                                                          'unresponsiveness for the exam',
+                                                          'physiology per protocol, and escalate '
+                                                          'concerns about the planned sedative',
                                                           'C) Tell family brain-death testing is '
                                                           'optional entertainment',
-                                                          'D) Stop all blood-pressure support so '
-                                                          'the exam is “more realistic”'],
-                                              'answer': 'A) Clarify that confounding '
+                                                          'D) Lighten sedation just enough for the '
+                                                          'exam but give a small anxiolytic so the '
+                                                          'family sees a peaceful face'],
+                                              'answer': 'B) Clarify that confounding '
                                                         'sedation/metabolic issues must be absent; '
-                                                        'support family, maintain physiologic '
-                                                        'stability, and assist the declared '
-                                                        'protocol—do not sedate before testing',
+                                                        'support family, maintain physiology per '
+                                                        'protocol, and escalate concerns about the '
+                                                        'planned sedative',
                                               'explanation': 'Brain-death determination requires '
                                                              'absence of confounders such as '
-                                                             'recent sedation, hypothermia, and '
-                                                             'severe metabolic derangements. '
-                                                             'Nursing maintains stability, '
-                                                             'educates/supports family, and '
-                                                             'assists the protocol—not deepening '
-                                                             'sedation or withdrawing needed '
-                                                             'support to fake findings.',
-                                              'choice_explanations': {'A': 'Avoiding sedative '
-                                                                           'confounders and '
-                                                                           'supporting '
-                                                                           'protocol/family is the '
-                                                                           'correct nursing role.',
-                                                                      'B': 'Sedation invalidates '
-                                                                           'the neurologic exam.',
-                                                                      'C': 'Testing is a solemn '
+                                                             'residual sedation. Nurses advocate '
+                                                             'for valid testing conditions, '
+                                                             'physiologic support per protocol, '
+                                                             'and truthful family communication.',
+                                              'choice_explanations': {'A': 'Extra propofol '
+                                                                           'invalidates neurologic '
+                                                                           'testing.',
+                                                                      'B': 'Removing confounders, '
+                                                                           'supporting family, and '
+                                                                           'escalating unsafe exam '
+                                                                           'plans is correct.',
+                                                                      'C': 'Brain-death evaluation '
+                                                                           'is a solemn '
                                                                            'clinical/legal '
-                                                                           'determination, not '
+                                                                           'process, not '
                                                                            'entertainment.',
-                                                                      'D': 'Induced instability is '
-                                                                           'unethical and '
-                                                                           'confounds '
-                                                                           'assessment.'}}]},
+                                                                      'D': 'Any sedative for '
+                                                                           'appearance during '
+                                                                           'brain-death testing '
+                                                                           'confounds the '
+                                                                           'exam—near-miss.'}}]},
                    'cases': {'easy': [{'title': 'Desaturation on Vent',
                                        'stem': 'Vent alarms; SpO2 falling.',
                                        'question': 'First actions?',
@@ -3444,45 +3407,49 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                    'questions': {'easy': [{'question': 'The “rights” of medication administration '
                                                        'primarily exist to prevent which type of '
                                                        'error?',
-                                           'options': ['A) Only billing mistakes on the hospital '
+                                           'options': ['A) Mainly wrong-time errors, since other '
+                                                       'checks are handled by pharmacy barcoding '
+                                                       'alone',
+                                                       'B) Only billing mistakes on the hospital '
                                                        'invoice',
-                                                       'B) Wrong patient, drug, dose, route, time '
+                                                       'C) Errors related only to visitor visiting '
+                                                       'hours',
+                                                       'D) Wrong patient, drug, dose, route, time '
                                                        '(and related rights such as '
-                                                       'documentation/reason)',
-                                                       'C) Exclusive prevention of dietary tray '
-                                                       'mix-ups',
-                                                       'D) Errors related only to visitor visiting '
-                                                       'hours'],
-                                           'answer': 'B) Wrong patient, drug, dose, route, time '
+                                                       'documentation/reason)'],
+                                           'answer': 'D) Wrong patient, drug, dose, route, time '
                                                      '(and related rights such as '
                                                      'documentation/reason)',
                                            'explanation': 'Medication rights systematize identity, '
                                                           'drug, dose, route, time, documentation, '
                                                           'and reason checks to interrupt common '
-                                                          'administration error pathways. They are '
-                                                          'clinical safety tools, not billing or '
-                                                          'visitor policies.',
-                                           'choice_explanations': {'A': 'Rights target clinical '
+                                                          'administration error pathways.',
+                                           'choice_explanations': {'A': 'Narrowing rights to '
+                                                                        'timing because pharmacy '
+                                                                        'technology “covers the '
+                                                                        'rest” is a safety '
+                                                                        'near-miss.',
+                                                                   'B': 'Rights target clinical '
                                                                         'administration safety, '
                                                                         'not invoices.',
-                                                                   'B': 'Patient/drug/dose/route/time '
-                                                                        '(plus related rights) '
-                                                                        'prevent core med errors.',
-                                                                   'C': 'Dietary trays are a '
-                                                                        'different safety domain.',
-                                                                   'D': 'Visiting hours are '
+                                                                   'C': 'Visiting hours are '
                                                                         'unrelated to med-rights '
-                                                                        'framework.'}},
+                                                                        'framework.',
+                                                                   'D': 'Patient/drug/dose/route/time '
+                                                                        '(plus related rights) '
+                                                                        'prevent core med '
+                                                                        'errors.'}},
                                           {'question': 'Before giving digoxin, which assessment is '
                                                        'most classically required?',
-                                           'options': ['A) Pupil size only',
-                                                       'B) Stool occult blood only',
-                                                       'C) Apical pulse (and review of '
+                                           'options': ['A) Apical pulse (and review of '
                                                        'potassium/digoxin-toxicity cues per '
                                                        'protocol)',
-                                                       'D) Audiometry in every adult before each '
-                                                       'dose'],
-                                           'answer': 'C) Apical pulse (and review of '
+                                                       'B) Radial pulse rate alone, because '
+                                                       'peripheral rate equals apical rate for '
+                                                       'hold parameters',
+                                                       'C) Pupil size only',
+                                                       'D) Stool occult blood only'],
+                                           'answer': 'A) Apical pulse (and review of '
                                                      'potassium/digoxin-toxicity cues per '
                                                      'protocol)',
                                            'explanation': 'Digoxin slows conduction; apical rate '
@@ -3490,28 +3457,29 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                           'raise toxicity/bradyarrhythmia risk. '
                                                           'Nurses check apical pulse and relevant '
                                                           'labs/symptoms before administration.',
-                                           'choice_explanations': {'A': 'Pupils are not the '
-                                                                        'primary digoxin hold '
-                                                                        'parameter.',
-                                                                   'B': 'Occult blood is not the '
-                                                                        'classic pre-digoxin '
-                                                                        'check.',
-                                                                   'C': 'Apical pulse plus '
+                                           'choice_explanations': {'A': 'Apical pulse plus '
                                                                         'potassium/toxicity '
                                                                         'surveillance is the '
                                                                         'standard nursing check.',
-                                                                   'D': 'Hearing tests are not '
-                                                                        'required before each '
-                                                                        'digoxin dose.'}},
+                                                                   'B': 'Radial-only counting '
+                                                                        'misses pulse deficits and '
+                                                                        'is a classic assessment '
+                                                                        'near-miss.',
+                                                                   'C': 'Pupils are not the '
+                                                                        'primary digoxin hold '
+                                                                        'parameter.',
+                                                                   'D': 'Occult blood is not the '
+                                                                        'classic pre-digoxin '
+                                                                        'check.'}},
                                           {'question': 'What needle angle is typically used for a '
                                                        'standard intramuscular injection?',
                                            'options': ['A) 10° into the dermis only',
-                                                       'B) 45° into subcutaneous fat only as the '
-                                                       'IM standard',
+                                                       'B) 90° into muscle (unless a specific '
+                                                       'alternative technique is indicated)',
                                                        'C) 0° parallel to skin for all IM vaccines',
-                                                       'D) 90° into muscle (unless a specific '
-                                                       'alternative technique is indicated)'],
-                                           'answer': 'D) 90° into muscle (unless a specific '
+                                                       'D) 45° with a skinfold, using the same '
+                                                       'angle taught for subcutaneous injections'],
+                                           'answer': 'B) 90° into muscle (unless a specific '
                                                      'alternative technique is indicated)',
                                            'explanation': 'IM injections are generally delivered '
                                                           'at 90° to deposit medication in muscle. '
@@ -3520,115 +3488,118 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                           'needle/fold—not the IM default.',
                                            'choice_explanations': {'A': '≈10–15° is intradermal '
                                                                         'technique.',
-                                                                   'B': '45° is a common '
-                                                                        'subcutaneous angle, not '
-                                                                        'the IM standard.',
+                                                                   'B': '90° IM angle targets '
+                                                                        'muscle for intended '
+                                                                        'absorption.',
                                                                    'C': 'Parallel-to-skin '
                                                                         'technique is not IM '
                                                                         'administration.',
-                                                                   'D': '90° IM angle targets '
-                                                                        'muscle for intended '
-                                                                        'absorption.'}}],
+                                                                   'D': '45° with skinfold '
+                                                                        'confuses IM with '
+                                                                        'subcutaneous '
+                                                                        'technique—near-miss.'}}],
                                  'medium': [{'question': 'Which teaching point is essential for a '
                                                          'patient newly started on warfarin?',
-                                             'options': ['A) Report unusual bleeding/bruising, '
+                                             'options': ['A) Take NSAIDs freely because they '
+                                                         'protect the stomach on warfarin',
+                                                         'B) Avoid all green vegetables '
+                                                         'permanently and skip INR checks if no '
+                                                         'bleeding is visible',
+                                                         'C) Report unusual bleeding/bruising, '
                                                          'keep INR monitoring, and maintain '
                                                          'consistent vitamin K intake',
-                                                         'B) Double doses after any missed tablet '
-                                                         'without advice',
-                                                         'C) Stop warfarin if a headache occurs '
-                                                         'and never tell the clinician',
-                                                         'D) Take NSAIDs freely because they '
-                                                         'protect the stomach on warfarin'],
-                                             'answer': 'A) Report unusual bleeding/bruising, keep '
+                                                         'D) Double doses after any missed tablet '
+                                                         'without advice'],
+                                             'answer': 'C) Report unusual bleeding/bruising, keep '
                                                        'INR monitoring, and maintain consistent '
                                                        'vitamin K intake',
                                              'explanation': 'Warfarin’s narrow index requires INR '
                                                             'surveillance, bleeding precautions, '
-                                                            'and consistent vitamin K intake. Dose '
-                                                            'self-doubling, silent stops, and '
-                                                            'NSAIDs raise thrombosis or bleed '
-                                                            'risk.',
-                                             'choice_explanations': {'A': 'Bleeding awareness, INR '
+                                                            'and consistent vitamin K intake—not '
+                                                            'total elimination of greens or '
+                                                            'skipping labs when asymptomatic.',
+                                             'choice_explanations': {'A': 'NSAIDs increase '
+                                                                          'bleeding risk with '
+                                                                          'warfarin.',
+                                                                     'B': 'Zero-vitamin-K plus '
+                                                                          'symptom-only monitoring '
+                                                                          'is a common teaching '
+                                                                          'near-miss.',
+                                                                     'C': 'Bleeding awareness, INR '
                                                                           'follow-up, and vitamin '
                                                                           'K consistency are core '
                                                                           'warfarin teaching.',
-                                                                     'B': 'Unadvised double dosing '
+                                                                     'D': 'Unadvised double dosing '
                                                                           'can cause '
                                                                           'life-threatening '
-                                                                          'hemorrhage.',
-                                                                     'C': 'Unreported cessation '
-                                                                          'risks stroke/VTE; '
-                                                                          'clinicians must know.',
-                                                                     'D': 'NSAIDs increase '
-                                                                          'bleeding risk with '
-                                                                          'warfarin.'}},
+                                                                          'hemorrhage.'}},
                                             {'question': 'When giving an IV push opioid, which '
                                                          'nursing requirement is most important?',
-                                             'options': ['A) Push as fast as possible to finish '
+                                             'options': ['A) Give the push promptly, then leave '
+                                                         'pulse oximetry in place and return after '
+                                                         'other meds',
+                                                         'B) Push as fast as possible to finish '
                                                          'rounds sooner',
-                                                         'B) Administer at the recommended rate '
+                                                         'C) Mix with unknown leftover syringe '
+                                                         'contents to avoid waste',
+                                                         'D) Administer at the recommended rate '
                                                          'while monitoring sedation and '
-                                                         'respiratory status',
-                                                         'C) Leave the patient alone for one hour '
-                                                         'without reassessment',
-                                                         'D) Mix with unknown leftover syringe '
-                                                         'contents to avoid waste'],
-                                             'answer': 'B) Administer at the recommended rate '
+                                                         'respiratory status'],
+                                             'answer': 'D) Administer at the recommended rate '
                                                        'while monitoring sedation and respiratory '
                                                        'status',
                                              'explanation': 'IV opioids can cause rapid '
                                                             'respiratory depression. Correct push '
                                                             'rates and close sedation/RR/SpO2 '
                                                             'monitoring reduce overdose risk. '
-                                                            'Speed-pushing, neglectful '
-                                                            'observation, and syringe pooling are '
-                                                            'unsafe.',
-                                             'choice_explanations': {'A': 'Rapid push spikes '
+                                                            'Leaving the patient after a rapid '
+                                                            'push is unsafe.',
+                                             'choice_explanations': {'A': 'Monitor-on-and-leave '
+                                                                          'after a prompt push is '
+                                                                          'a supervision '
+                                                                          'near-miss.',
+                                                                     'B': 'Rapid push spikes '
                                                                           'CNS/respiratory '
                                                                           'depression risk.',
-                                                                     'B': 'Rate control plus '
+                                                                     'C': 'Unidentified syringe '
+                                                                          'mixing risks dosing and '
+                                                                          'contamination errors.',
+                                                                     'D': 'Rate control plus '
                                                                           'respiratory/sedation '
                                                                           'monitoring is '
-                                                                          'mandatory.',
-                                                                     'C': 'Reassessment after IV '
-                                                                          'opioids is required for '
-                                                                          'safety.',
-                                                                     'D': 'Unidentified syringe '
-                                                                          'mixing risks dosing and '
-                                                                          'contamination errors.'}},
+                                                                          'mandatory.'}},
                                             {'question': 'When mixing regular (clear) and NPH '
                                                          '(cloudy) insulin in one syringe, which '
                                                          'theme is correct?',
-                                             'options': ['A) Draw cloudy before clear always, '
-                                                         'without air steps',
-                                                         'B) Shake NPH violently until foam '
-                                                         'appears',
-                                                         'C) Inject air into NPH then regular, '
+                                             'options': ['A) Inject air into NPH then regular, '
                                                          'draw regular (clear) first, then '
                                                          'NPH—avoid contaminating the regular vial',
+                                                         'B) Draw NPH first if it is the larger '
+                                                         'dose, then regular, to reduce mixing '
+                                                         'error in the syringe',
+                                                         'C) Shake NPH violently until foam '
+                                                         'appears',
                                                          'D) Use the same needle to pierce '
                                                          'multiple patient vials interchangeably'],
-                                             'answer': 'C) Inject air into NPH then regular, draw '
+                                             'answer': 'A) Inject air into NPH then regular, draw '
                                                        'regular (clear) first, then NPH—avoid '
                                                        'contaminating the regular vial',
                                              'explanation': 'Clear-before-cloudy drawing after '
                                                             'appropriate air injection prevents '
                                                             'regular-insulin vial contamination '
-                                                            'with NPH. Foaming from violent '
-                                                            'shaking and sharing needles across '
-                                                            'vials are unsafe.',
-                                             'choice_explanations': {'A': 'Drawing cloudy first '
-                                                                          'contaminates the '
-                                                                          'regular vial.',
-                                                                     'B': 'Violent shaking creates '
-                                                                          'foam and dosing '
-                                                                          'inaccuracy; roll/gentle '
-                                                                          'mix per teaching.',
-                                                                     'C': 'Air steps then '
+                                                            'with NPH.',
+                                             'choice_explanations': {'A': 'Air steps then '
                                                                           'clear-before-cloudy '
                                                                           'preserves regular vial '
                                                                           'integrity.',
+                                                                     'B': 'Larger-dose-first logic '
+                                                                          'sounds practical but '
+                                                                          'contaminates the clear '
+                                                                          'vial—near-miss.',
+                                                                     'C': 'Violent shaking creates '
+                                                                          'foam and dosing '
+                                                                          'inaccuracy; roll/gentle '
+                                                                          'mix per teaching.',
                                                                      'D': 'Multi-patient vial '
                                                                           'needle sharing risks '
                                                                           'contamination.'}}],
@@ -3637,92 +3608,104 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                        'safeguards?',
                                            'options': ['A) Bulk laxatives only, with no other '
                                                        'categories',
-                                                       'B) Topical emollients exclusively',
-                                                       'C) Multivitamins as the sole high-alert '
-                                                       'class',
-                                                       'D) Insulin, anticoagulants, opioids, and '
-                                                       'concentrated electrolytes'],
-                                           'answer': 'D) Insulin, anticoagulants, opioids, and '
+                                                       'B) Insulin, anticoagulants, opioids, and '
+                                                       'concentrated electrolytes',
+                                                       'C) Topical emollients exclusively',
+                                                       'D) Antibiotics and antiemetics, because '
+                                                       'allergic reactions are the main high-alert '
+                                                       'pathway'],
+                                           'answer': 'B) Insulin, anticoagulants, opioids, and '
                                                      'concentrated electrolytes',
                                            'explanation': 'High-alert drugs cause severe harm when '
                                                           'misused—insulin, anticoagulants, '
                                                           'opioids, and concentrated electrolytes '
-                                                          'head most lists. Independent '
-                                                          'double-checks and smart-pump libraries '
-                                                          'are common safeguards.',
+                                                          'head most lists. Allergy-prone drugs '
+                                                          'need caution but are not the classic '
+                                                          'high-alert set.',
                                            'choice_explanations': {'A': 'Laxatives are not the '
                                                                         'defining high-alert '
                                                                         'group.',
-                                                                   'B': 'Emollients lack the '
-                                                                        'catastrophic harm profile '
-                                                                        'of high-alert meds.',
-                                                                   'C': 'Multivitamins are not '
-                                                                        'classic high-alert '
-                                                                        'agents.',
-                                                                   'D': 'Insulin, anticoagulants, '
+                                                                   'B': 'Insulin, anticoagulants, '
                                                                         'opioids, and concentrated '
                                                                         'electrolytes are '
                                                                         'prototypical high-alert '
-                                                                        'meds.'}},
+                                                                        'classes.',
+                                                                   'C': 'Emollients lack the '
+                                                                        'catastrophic harm profile '
+                                                                        'of high-alert meds.',
+                                                                   'D': 'Allergy-focused '
+                                                                        'antibiotic/antiemetic '
+                                                                        'framing is a related '
+                                                                        'safety near-miss, not the '
+                                                                        'high-alert definition.'}},
                                           {'question': 'Vancomycin “red man syndrome” is most '
                                                        'related to which administration issue?',
-                                           'options': ['A) Too-rapid infusion causing '
+                                           'options': ['A) Taking vancomycin with grapefruit juice '
+                                                       'exclusively',
+                                                       'B) IgE-mediated anaphylaxis that always '
+                                                       'requires lifelong vancomycin avoidance '
+                                                       'after one flush',
+                                                       'C) Too-rapid infusion causing '
                                                        'histamine-release flushing/hypotension',
-                                                       'B) Giving the dose intramuscularly into '
-                                                       'the deltoid only',
-                                                       'C) Mixing with lactulose for synergy',
-                                                       'D) Taking vancomycin with grapefruit juice '
-                                                       'exclusively'],
-                                           'answer': 'A) Too-rapid infusion causing '
+                                                       'D) Giving the dose intramuscularly into '
+                                                       'the deltoid only'],
+                                           'answer': 'C) Too-rapid infusion causing '
                                                      'histamine-release flushing/hypotension',
                                            'explanation': 'Rapid vancomycin infusion triggers '
                                                           'mast-cell histamine release with '
                                                           'flushing, rash, and possible '
-                                                          'hypotension. Slowing the infusion rate '
-                                                          '(and antihistamines per protocol) '
-                                                          'manages it; it is rate-related, not an '
-                                                          'IM or grapefruit phenomenon.',
-                                           'choice_explanations': {'A': 'Rate-related histamine '
+                                                          'hypotension. Slowing the infusion '
+                                                          'manages red man syndrome; it is '
+                                                          'rate-related and distinct from true '
+                                                          'anaphylaxis, though severe reactions '
+                                                          'still need urgent care.',
+                                           'choice_explanations': {'A': 'Grapefruit interactions '
+                                                                        'are not the classic '
+                                                                        'red-man cause.',
+                                                                   'B': 'Labeling every flush as '
+                                                                        'anaphylaxis requiring '
+                                                                        'permanent avoidance is a '
+                                                                        'differential near-miss.',
+                                                                   'C': 'Rate-related histamine '
                                                                         'release explains red man '
                                                                         'syndrome.',
-                                                                   'B': 'Vancomycin is typically '
+                                                                   'D': 'Vancomycin is typically '
                                                                         'IV; IM deltoid is not the '
-                                                                        'red-man mechanism.',
-                                                                   'C': 'Lactulose mixing is '
-                                                                        'unrelated.',
-                                                                   'D': 'Grapefruit interactions '
-                                                                        'are not the classic '
-                                                                        'red-man cause.'}},
+                                                                        'red-man mechanism.'}},
                                           {'question': 'Why must concentrated IV potassium never '
                                                        'be given as an undiluted IV push?',
-                                           'options': ['A) Because potassium tastes bitter if '
+                                           'options': ['A) Because peripheral IV potassium is '
+                                                       'acceptable as a slow push if continuous '
+                                                       'ECG is monitored',
+                                                       'B) Because potassium tastes bitter if '
                                                        'pushed',
-                                                       'B) Because undiluted IV push can cause '
-                                                       'fatal dysrhythmias; it requires diluted, '
-                                                       'pump-controlled infusion per policy',
                                                        'C) Because potassium only works orally',
-                                                       'D) Because pumps are never used for '
-                                                       'electrolytes'],
-                                           'answer': 'B) Because undiluted IV push can cause fatal '
+                                                       'D) Because undiluted IV push can cause '
+                                                       'fatal dysrhythmias; it requires diluted, '
+                                                       'pump-controlled infusion per policy'],
+                                           'answer': 'D) Because undiluted IV push can cause fatal '
                                                      'dysrhythmias; it requires diluted, '
                                                      'pump-controlled infusion per policy',
                                            'explanation': 'Bolus concentrated KCl can cause '
                                                           'immediate cardiac arrest. Policies '
                                                           'require dilution, maximum rates, pump '
                                                           'control, and often central access for '
-                                                          'higher concentrations—never IV push '
-                                                          'from a vial.',
-                                           'choice_explanations': {'A': 'Taste is irrelevant to IV '
+                                                          'higher concentrations—never undiluted '
+                                                          'IV push.',
+                                           'choice_explanations': {'A': '“Slow push with ECG” '
+                                                                        'still violates '
+                                                                        'push/concentrate '
+                                                                        'rules—dangerous '
+                                                                        'near-miss.',
+                                                                   'B': 'Taste is irrelevant to IV '
                                                                         'cardiac toxicity.',
-                                                                   'B': 'Fatal dysrhythmia risk '
-                                                                        'mandates diluted, '
-                                                                        'rate-controlled infusion.',
                                                                    'C': 'IV potassium is used when '
                                                                         'oral route is inadequate, '
                                                                         'but safely infused.',
-                                                                   'D': 'Pumps are specifically '
-                                                                        'used to control potassium '
-                                                                        'infusion rates.'}}],
+                                                                   'D': 'Fatal dysrhythmia risk '
+                                                                        'mandates diluted, '
+                                                                        'rate-controlled '
+                                                                        'infusion.'}}],
                                  'extreme': [{'question': 'Minutes after succinylcholine, a '
                                                           'surgical patient develops ETCO2 rise, '
                                                           'jaw rigidity, temperature climbing '
@@ -3731,43 +3714,39 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                           'more inhalational agent.” What should '
                                                           'the nurse anticipate as the priority '
                                                           'treatment pathway?',
-                                              'options': ['A) Continue triggering agents and cover '
-                                                          'with warm blankets',
-                                                          'B) Treat as anxiety and give midazolam '
-                                                          'only',
-                                                          'C) Call malignant hyperthermia '
+                                              'options': ['A) Call malignant hyperthermia '
                                                           'response: stop triggers, hyperventilate '
-                                                          'with 100% O2, give dantrolene per '
-                                                          'protocol, cool, and support ABCs',
-                                                          'D) Give IV potassium push to treat '
-                                                          'presumed hypokalemia only'],
-                                              'answer': 'C) Call malignant hyperthermia response: '
+                                                          'with 100% O2, give dantrolene, and cool',
+                                                          'B) Treat as sepsis-related fever: '
+                                                          'cultures, broad antibiotics, and '
+                                                          'antipyretics while surgery continues',
+                                                          'C) Continue triggering agents and cover '
+                                                          'with warm blankets',
+                                                          'D) Treat as anxiety and give midazolam '
+                                                          'only'],
+                                              'answer': 'A) Call malignant hyperthermia response: '
                                                         'stop triggers, hyperventilate with 100% '
-                                                        'O2, give dantrolene per protocol, cool, '
-                                                        'and support ABCs',
-                                              'explanation': 'Rising CO2, rigidity, and '
-                                                             'hyperthermia after a trigger '
-                                                             'anesthetic indicate malignant '
-                                                             'hyperthermia—a hypermetabolic '
-                                                             'crisis. Stop triggers, call for '
-                                                             'help/MH cart, give dantrolene, '
-                                                             'hyperventilate with oxygen, cool, '
-                                                             'and manage electrolytes/ABCs. More '
-                                                             'trigger agent is contraindicated.',
-                                              'choice_explanations': {'A': 'Continuing triggers '
+                                                        'O2, give dantrolene, and cool',
+                                              'explanation': 'Rising ETCO2, jaw rigidity, and '
+                                                             'escalating temperature after '
+                                                             'succinylcholine suggest malignant '
+                                                             'hyperthermia. Stop triggers, give '
+                                                             'dantrolene, hyperventilate with 100% '
+                                                             'O2, and cool—do not treat as '
+                                                             'ordinary fever.',
+                                              'choice_explanations': {'A': 'MH protocol with '
+                                                                           'dantrolene and trigger '
+                                                                           'cessation is required.',
+                                                                      'B': 'Intraoperative fever '
+                                                                           'workup for sepsis '
+                                                                           'delays MH-specific '
+                                                                           'therapy—near-miss.',
+                                                                      'C': 'Continuing triggers '
                                                                            'and warming worsens '
                                                                            'MH.',
-                                                                      'B': 'Midazolam does not '
+                                                                      'D': 'Anxiolysis does not '
                                                                            'treat MH '
-                                                                           'pathophysiology.',
-                                                                      'C': 'Trigger cessation, '
-                                                                           'dantrolene, cooling, '
-                                                                           'and ABC support are '
-                                                                           'the MH pathway.',
-                                                                      'D': 'MH often involves '
-                                                                           'hyperkalemia; blind '
-                                                                           'KCl push can be '
-                                                                           'lethal.'}},
+                                                                           'hypermetabolism.'}},
                                              {'question': 'A postoperative patient on a PCA has RR '
                                                           '4, pinpoint pupils, SpO2 82%, and is '
                                                           'barely arousable. A visitor says the '
@@ -3775,79 +3754,80 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                           'What is the priority action?',
                                               'options': ['A) Encourage the visitor to press the '
                                                           'PCA button repeatedly',
-                                                          'B) Document and reassess after lunch',
+                                                          'B) Support airway/ventilation, stop '
+                                                          'opioid input, give naloxone per '
+                                                          'protocol, and activate rapid response',
                                                           'C) Increase the PCA basal rate to '
                                                           'overcome tolerance',
-                                                          'D) Support airway/ventilation, stop '
-                                                          'opioid input, give naloxone per '
-                                                          'protocol, and activate rapid response'],
-                                              'answer': 'D) Support airway/ventilation, stop '
+                                                          'D) Stimulate the patient and reduce the '
+                                                          'PCA dose, holding naloxone unless apnea '
+                                                          'persists another 10 minutes'],
+                                              'answer': 'B) Support airway/ventilation, stop '
                                                         'opioid input, give naloxone per protocol, '
                                                         'and activate rapid response',
-                                              'explanation': 'This is opioid-induced respiratory '
-                                                             'depression/overdose. Priorities are '
-                                                             'airway, oxygenation/ventilation, '
-                                                             'stopping further opioid, and '
-                                                             'naloxone with rapid-response '
-                                                             'activation. PCA by proxy and dose '
-                                                             'escalation are dangerous.',
-                                              'choice_explanations': {'A': 'PCA by proxy can kill '
-                                                                           'a sedated patient.',
-                                                                      'B': 'RR 4 with hypoxia '
-                                                                           'needs immediate '
-                                                                           'intervention, not '
-                                                                           'delayed reassessment.',
+                                              'explanation': 'RR 4, pinpoint pupils, hypoxia, and '
+                                                             'unresponsiveness indicate '
+                                                             'opioid-induced respiratory '
+                                                             'depression. Support ventilation, '
+                                                             'stop opioid input, and give naloxone '
+                                                             'while activating help.',
+                                              'choice_explanations': {'A': 'Visitor PCA presses '
+                                                                           'worsen overdose.',
+                                                                      'B': 'Airway/ventilation '
+                                                                           'support with naloxone '
+                                                                           'and rapid response is '
+                                                                           'the priority.',
                                                                       'C': 'Increasing basal '
-                                                                           'opioid worsens '
+                                                                           'opioid deepens '
                                                                            'hypoventilation.',
-                                                                      'D': 'Airway support, '
-                                                                           'naloxone, and stopping '
-                                                                           'opioid are the correct '
-                                                                           'overdose response.'}},
+                                                                      'D': 'Stimulate-and-wait '
+                                                                           'before naloxone is a '
+                                                                           'common delay near-miss '
+                                                                           'in severe '
+                                                                           'depression.'}},
                                              {'question': 'During peripheral chemotherapy '
                                                           'infusion, the patient reports burning; '
                                                           'the site is swollen and cool, and no '
                                                           'blood return is obtained. The protocol '
                                                           'labels the drug a vesicant. What should '
                                                           'you do?',
-                                              'options': ['A) Stop the infusion, aspirate residual '
-                                                          'per protocol, mark the site, notify the '
-                                                          'provider/pharmacy, and follow '
-                                                          'antidote/extravasation standing '
-                                                          'orders—do not flush blindly',
-                                                          'B) Speed the infusion to finish before '
-                                                          'swelling worsens',
-                                                          'C) Apply a tight arterial tourniquet '
+                                              'options': ['A) Apply a tight arterial tourniquet '
                                                           'above the site for hours',
-                                                          'D) Ignore burning because vesicants '
-                                                          'never injure tissue'],
-                                              'answer': 'A) Stop the infusion, aspirate residual '
+                                                          'B) Pause briefly, restart at a slower '
+                                                          'rate if swelling seems stable, and warm '
+                                                          'the site',
+                                                          'C) Stop the infusion, aspirate residual '
+                                                          'per protocol, mark the site, notify the '
+                                                          'provider/pharmacy, and follow vesicant '
+                                                          'extravasation orders',
+                                                          'D) Speed the infusion to finish before '
+                                                          'swelling worsens'],
+                                              'answer': 'C) Stop the infusion, aspirate residual '
                                                         'per protocol, mark the site, notify the '
-                                                        'provider/pharmacy, and follow '
-                                                        'antidote/extravasation standing orders—do '
-                                                        'not flush blindly',
-                                              'explanation': 'Vesicant extravasation can cause '
-                                                             'severe tissue necrosis. Immediate '
-                                                             'stop, limited aspiration per '
-                                                             'protocol, avoiding forceful flush, '
-                                                             'escalation, and antidote/thermal '
-                                                             'measures specific to the agent are '
-                                                             'required.',
-                                              'choice_explanations': {'A': 'Stop–aspirate–notify–antidote '
-                                                                           'sequence matches '
-                                                                           'extravasation '
-                                                                           'standards.',
-                                                                      'B': 'Faster infusion '
-                                                                           'increases extravasated '
-                                                                           'volume and injury.',
-                                                                      'C': 'Prolonged tourniquets '
-                                                                           'cause ischemia and do '
-                                                                           'not treat '
+                                                        'provider/pharmacy, and follow vesicant '
+                                                        'extravasation orders',
+                                              'explanation': 'Burning, swelling, coolness, and no '
+                                                             'blood return during vesicant '
+                                                             'infusion suggest extravasation. '
+                                                             'Stop, aspirate per protocol, mark, '
+                                                             'notify, and use drug-specific '
+                                                             'antidote/thermal measures—do not '
+                                                             'restart.',
+                                              'choice_explanations': {'A': 'Arterial tourniquets '
+                                                                           'are not extravasation '
+                                                                           'first aid.',
+                                                                      'B': 'Slow-restart with '
+                                                                           'warmth is a harmful '
+                                                                           'near-miss for many '
+                                                                           'vesicants.',
+                                                                      'C': 'Stop–aspirate–mark–notify–protocol '
+                                                                           'care is required for '
+                                                                           'vesicant '
                                                                            'extravasation.',
-                                                                      'D': 'Vesicants are defined '
-                                                                           'by their '
-                                                                           'tissue-destroying '
-                                                                           'potential.'}}]},
+                                                                      'D': 'Speeding infusion '
+                                                                           'increases '
+                                                                           'extravasation '
+                                                                           'injury.'}}]},
                    'cases': {'easy': [{'title': 'Allergy Bracelet',
                                        'stem': 'Patient allergic to penicillin; order for '
                                                'amoxicillin arrives.',
@@ -3893,252 +3873,270 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                      'Incident reports improve systems.'],
                        'questions': {'easy': [{'question': 'In healthcare ethics, autonomy '
                                                            'primarily means which idea?',
-                                               'options': ['A) Staff may decide all treatments '
-                                                           'without patient input',
-                                                           'B) Respect for a capacitated person’s '
+                                               'options': ['A) Respect for a capacitated person’s '
                                                            'right to make informed choices about '
                                                            'their care',
-                                                           'C) Always doing whatever the family '
-                                                           'demands',
+                                                           'B) Doing what clinicians judge best '
+                                                           'for the patient when the choice seems '
+                                                           'unwise',
+                                                           'C) Staff may decide all treatments '
+                                                           'without patient input',
                                                            'D) Keeping patients uninformed to '
                                                            'reduce anxiety'],
-                                               'answer': 'B) Respect for a capacitated person’s '
+                                               'answer': 'A) Respect for a capacitated person’s '
                                                          'right to make informed choices about '
                                                          'their care',
                                                'explanation': 'Autonomy respects informed '
                                                               'self-determination by capacitated '
-                                                              'patients. Paternalistic secrecy, '
-                                                              'staff unilateralism, and automatic '
-                                                              'family override (when the patient '
-                                                              'has capacity) violate autonomy.',
-                                               'choice_explanations': {'A': 'Excluding the patient '
-                                                                            'negates autonomy.',
-                                                                       'B': 'Informed '
+                                                              'patients. Beneficent paternalism '
+                                                              'that overrides capacitated choices '
+                                                              'is a related but distinct ethical '
+                                                              'tension.',
+                                               'choice_explanations': {'A': 'Informed '
                                                                             'self-determination is '
                                                                             'the definition of '
                                                                             'autonomy.',
-                                                                       'C': 'Family demands do not '
-                                                                            'automatically replace '
-                                                                            'a capacitated '
-                                                                            'patient’s choices.',
+                                                                       'B': 'Clinician-judged '
+                                                                            '“best interest” '
+                                                                            'override is '
+                                                                            'beneficence/paternalism—ethical '
+                                                                            'near-miss for '
+                                                                            'autonomy.',
+                                                                       'C': 'Excluding the patient '
+                                                                            'negates autonomy.',
                                                                        'D': 'Withholding '
                                                                             'information blocks '
                                                                             'informed choice.'}},
                                               {'question': 'Beneficence in nursing ethics most '
                                                            'nearly means?',
-                                               'options': ['A) Avoiding all treatments even when '
-                                                           'clearly helpful',
-                                                           'B) Maximizing billable procedures '
+                                               'options': ['A) Maximizing billable procedures '
                                                            'regardless of benefit',
-                                                           'C) Acting to promote the patient’s '
+                                                           'B) Acting to promote the patient’s '
                                                            'good and well-being',
-                                                           'D) Following only personal '
-                                                           'convenience'],
-                                               'answer': 'C) Acting to promote the patient’s good '
+                                                           'C) Following only personal convenience',
+                                                           'D) Avoiding harm first, even if that '
+                                                           'means withholding beneficial indicated '
+                                                           'treatments'],
+                                               'answer': 'B) Acting to promote the patient’s good '
                                                          'and well-being',
                                                'explanation': 'Beneficence is the obligation to '
                                                               'benefit the patient—promoting '
                                                               'health and welfare. It is balanced '
                                                               'with autonomy and nonmaleficence, '
-                                                              'not equated with profit or '
-                                                              'convenience.',
-                                               'choice_explanations': {'A': 'Withholding helpful '
-                                                                            'indicated care '
-                                                                            'contradicts '
-                                                                            'beneficence.',
-                                                                       'B': 'Profit-driven excess '
+                                                              'not identical to “do no harm” '
+                                                              'alone.',
+                                               'choice_explanations': {'A': 'Profit-driven excess '
                                                                             'is not beneficence.',
-                                                                       'C': 'Promoting patient '
+                                                                       'B': 'Promoting patient '
                                                                             'good is beneficence.',
-                                                                       'D': 'Convenience is not an '
+                                                                       'C': 'Convenience is not an '
                                                                             'ethical principle of '
-                                                                            'beneficence.'}},
+                                                                            'beneficence.',
+                                                                       'D': 'Equating beneficence '
+                                                                            'with '
+                                                                            'nonmaleficence-only '
+                                                                            'is a principle '
+                                                                            'near-miss.'}},
                                               {'question': 'Which situation is a confidentiality '
                                                            'breach?',
-                                               'options': ['A) Hand-off report to the oncoming '
-                                                           'nurse in a private area',
-                                                           'B) Sharing need-to-know details with '
+                                               'options': ['A) Sharing need-to-know details with '
                                                            'the interprofessional care team',
-                                                           'C) Documenting objectively in the '
-                                                           'legal medical record',
-                                                           'D) Discussing identifiable patient '
-                                                           'details with friends in an elevator'],
-                                               'answer': 'D) Discussing identifiable patient '
+                                                           'B) Giving a shift hand-off at the '
+                                                           'nursing station where visitors might '
+                                                           'overhear details',
+                                                           'C) Discussing identifiable patient '
+                                                           'details with friends in an elevator',
+                                                           'D) Hand-off report to the oncoming '
+                                                           'nurse in a private area'],
+                                               'answer': 'C) Discussing identifiable patient '
                                                          'details with friends in an elevator',
                                                'explanation': 'Confidentiality limits PHI to '
                                                               'need-to-know care contexts. '
-                                                              'Elevator gossip with friends is a '
-                                                              'classic breach; private handoffs, '
-                                                              'team communication, and record '
-                                                              'documentation are legitimate uses.',
-                                               'choice_explanations': {'A': 'Private clinical '
-                                                                            'handoff is '
-                                                                            'appropriate '
-                                                                            'information sharing.',
-                                                                       'B': 'Care-team '
+                                                              'Elevator gossip is a clear breach; '
+                                                              'station handoffs with possible '
+                                                              'overhearing are privacy risks but '
+                                                              'still clinical handoff—often tested '
+                                                              'as the overlapping concern.',
+                                               'choice_explanations': {'A': 'Care-team '
                                                                             'need-to-know sharing '
                                                                             'supports treatment.',
-                                                                       'C': 'Accurate '
-                                                                            'documentation is a '
-                                                                            'required '
-                                                                            'legal/clinical '
-                                                                            'function.',
-                                                                       'D': 'Non-care gossip with '
+                                                                       'B': 'Clinical handoff in a '
+                                                                            'semi-public station '
+                                                                            'is a privacy '
+                                                                            'near-miss that still '
+                                                                            'differs from social '
+                                                                            'gossip.',
+                                                                       'C': 'Non-care gossip with '
                                                                             'identifiers violates '
-                                                                            'confidentiality.'}}],
+                                                                            'confidentiality.',
+                                                                       'D': 'Private clinical '
+                                                                            'handoff is '
+                                                                            'appropriate '
+                                                                            'information '
+                                                                            'sharing.'}}],
                                      'medium': [{'question': 'Nonmaleficence most directly '
                                                              'obligates the nurse to do which?',
-                                                 'options': ['A) Avoid causing unjustified harm '
-                                                             'and minimize risk in care',
+                                                 'options': ['A) Promote good outcomes '
+                                                             'aggressively even when the '
+                                                             'intervention adds significant '
+                                                             'preventable risk',
                                                              'B) Guarantee every outcome will be '
                                                              'perfect',
                                                              'C) Refuse to report errors so nobody '
                                                              'is upset',
-                                                             'D) Prioritize institutional image '
-                                                             'over patient safety'],
-                                                 'answer': 'A) Avoid causing unjustified harm and '
+                                                             'D) Avoid causing unjustified harm '
+                                                             'and minimize risk in care'],
+                                                 'answer': 'D) Avoid causing unjustified harm and '
                                                            'minimize risk in care',
                                                  'explanation': 'Nonmaleficence—“do no '
                                                                 'harm”—requires avoiding '
                                                                 'unjustified injury and reducing '
-                                                                'foreseeable risk. It does not '
-                                                                'demand perfection myths or '
-                                                                'concealment of errors that could '
-                                                                'harm others.',
-                                                 'choice_explanations': {'A': 'Minimizing '
-                                                                              'unjustified harm is '
-                                                                              'the core of '
-                                                                              'nonmaleficence.',
+                                                                'foreseeable risk. Aggressive '
+                                                                'benefit-seeking without risk '
+                                                                'regard confuses beneficence with '
+                                                                'nonmaleficence.',
+                                                 'choice_explanations': {'A': 'Benefit-at-any-risk '
+                                                                              'thinking is the '
+                                                                              'beneficence/nonmaleficence '
+                                                                              'near-miss.',
                                                                          'B': 'Ethics does not '
                                                                               'require impossible '
                                                                               'outcome guarantees.',
                                                                          'C': 'Hiding errors '
                                                                               'increases harm '
                                                                               'potential.',
-                                                                         'D': 'Image over safety '
-                                                                              'violates '
-                                                                              'nonmaleficence and '
-                                                                              'fidelity.'}},
+                                                                         'D': 'Minimizing '
+                                                                              'unjustified harm is '
+                                                                              'the core of '
+                                                                              'nonmaleficence.'}},
                                                 {'question': 'Justice as a nursing ethical '
                                                              'principle primarily concerns which '
                                                              'issue?',
-                                                 'options': ['A) Giving VIP patients unlimited '
-                                                             'unequal access by default',
-                                                             'B) Fair allocation of resources and '
+                                                 'options': ['A) Fair allocation of resources and '
                                                              'equitable treatment without unjust '
                                                              'discrimination',
-                                                             'C) Ignoring marginalized '
-                                                             'populations’ barriers',
-                                                             'D) Using lottery only for meal tray '
-                                                             'colors'],
-                                                 'answer': 'B) Fair allocation of resources and '
+                                                             'B) Treating every patient with '
+                                                             'identical resources regardless of '
+                                                             'clinical need or acuity',
+                                                             'C) Giving VIP patients unlimited '
+                                                             'unequal access by default',
+                                                             'D) Ignoring marginalized '
+                                                             'populations’ barriers'],
+                                                 'answer': 'A) Fair allocation of resources and '
                                                            'equitable treatment without unjust '
                                                            'discrimination',
                                                  'explanation': 'Justice addresses fairness in '
                                                                 'distribution of care and '
                                                                 'resources and opposition to '
-                                                                'unjust discrimination. VIP '
-                                                                'favoritism and ignoring '
-                                                                'disparities contradict justice.',
-                                                 'choice_explanations': {'A': 'Unjust VIP '
-                                                                              'preference violates '
-                                                                              'justice.',
-                                                                         'B': 'Fair, '
+                                                                'unjust discrimination. Equal '
+                                                                'shares regardless of need is '
+                                                                'sameness, not equity.',
+                                                 'choice_explanations': {'A': 'Fair, '
                                                                               'nondiscriminatory '
                                                                               'allocation is the '
                                                                               'justice principle.',
-                                                                         'C': 'Ignoring barriers '
+                                                                         'B': 'Identical '
+                                                                              'allocation ignoring '
+                                                                              'acuity confuses '
+                                                                              'equality with '
+                                                                              'equity—near-miss.',
+                                                                         'C': 'Unjust VIP '
+                                                                              'preference violates '
+                                                                              'justice.',
+                                                                         'D': 'Ignoring barriers '
                                                                               'perpetuates '
-                                                                              'inequity.',
-                                                                         'D': 'Tray-color '
-                                                                              'lotteries '
-                                                                              'trivialize the '
-                                                                              'principle.'}},
+                                                                              'inequity.'}},
                                                 {'question': 'What is the primary purpose of an '
                                                              'incident (occurrence) report?',
                                                  'options': ['A) Punish staff publicly in the '
                                                              'newspaper',
-                                                             'B) Create gossip material for break '
-                                                             'rooms',
-                                                             'C) Document events for system '
+                                                             'B) Document events for system '
                                                              'learning and risk reduction '
                                                              '(quality/safety), separate from '
                                                              'blame-focused charting',
-                                                             'D) Replace the need for any clinical '
-                                                             'documentation in the record'],
-                                                 'answer': 'C) Document events for system learning '
+                                                             'C) Replace the need for any clinical '
+                                                             'documentation in the record',
+                                                             'D) Create a detailed narrative in '
+                                                             'the medical record that assigns '
+                                                             'individual blame for later '
+                                                             'discipline'],
+                                                 'answer': 'B) Document events for system learning '
                                                            'and risk reduction (quality/safety), '
                                                            'separate from blame-focused charting',
                                                  'explanation': 'Incident reports feed '
                                                                 'institutional safety learning and '
                                                                 'risk management. They are not '
-                                                                'publicity tools or substitutes '
-                                                                'for factual clinical charting, '
-                                                                'nor are they meant for gossip.',
+                                                                'substitutes for factual clinical '
+                                                                'charting and should not be used '
+                                                                'primarily as blame vehicles in '
+                                                                'the record.',
                                                  'choice_explanations': {'A': 'Public punishment '
                                                                               'is not the purpose '
                                                                               'of incident '
                                                                               'reporting.',
-                                                                         'B': 'Gossip misuse '
-                                                                              'undermines just '
-                                                                              'culture.',
-                                                                         'C': 'System learning and '
+                                                                         'B': 'System learning and '
                                                                               'risk reduction are '
                                                                               'the primary aims.',
-                                                                         'D': 'The medical record '
+                                                                         'C': 'The medical record '
                                                                               'still needs factual '
                                                                               'clinical '
-                                                                              'documentation.'}}],
+                                                                              'documentation.',
+                                                                         'D': 'Blame-focused '
+                                                                              'charting conflates '
+                                                                              'incident reporting '
+                                                                              'with punitive '
+                                                                              'documentation—near-miss.'}}],
                                      'hard': [{'question': 'Advocacy in nursing leadership most '
                                                            'accurately means which action?',
-                                               'options': ['A) Remaining silent when unsafe orders '
-                                                           'endanger patients',
-                                                           'B) Prioritizing personal overtime pay '
+                                               'options': ['A) Prioritizing personal overtime pay '
                                                            'above all patient needs',
-                                                           'C) Supporting only popular colleagues’ '
-                                                           'preferences',
-                                                           'D) Speaking and acting to protect '
+                                                           'B) Supporting the care team’s harmony '
+                                                           'by raising safety concerns only after '
+                                                           'consensus is certain',
+                                                           'C) Speaking and acting to protect '
                                                            'patients’ rights, safety, and best '
                                                            'interests—including challenging unsafe '
-                                                           'practices'],
-                                               'answer': 'D) Speaking and acting to protect '
+                                                           'practices',
+                                                           'D) Remaining silent when unsafe orders '
+                                                           'endanger patients'],
+                                               'answer': 'C) Speaking and acting to protect '
                                                          'patients’ rights, safety, and best '
                                                          'interests—including challenging unsafe '
                                                          'practices',
                                                'explanation': 'Advocacy elevates patient rights '
                                                               'and safety, including escalating '
-                                                              'concerns about unsafe care. Silence '
-                                                              'in the face of harm and '
-                                                              'self-interest over patients '
-                                                              'contradict advocacy.',
-                                               'choice_explanations': {'A': 'Silence with known '
-                                                                            'danger abandons '
-                                                                            'advocacy.',
-                                                                       'B': 'Personal pay is not '
+                                                              'concerns about unsafe care. Waiting '
+                                                              'for perfect consensus can delay '
+                                                              'protection.',
+                                               'choice_explanations': {'A': 'Personal pay is not '
                                                                             'the definition of '
                                                                             'patient advocacy.',
-                                                                       'C': 'Popularity contests '
-                                                                            'are not advocacy.',
-                                                                       'D': 'Protecting '
+                                                                       'B': 'Harmony-first delayed '
+                                                                            'escalation is an '
+                                                                            'advocacy near-miss.',
+                                                                       'C': 'Protecting '
                                                                             'rights/safety, '
                                                                             'including challenging '
                                                                             'unsafe practice, '
-                                                                            'defines advocacy.'}},
+                                                                            'defines advocacy.',
+                                                                       'D': 'Silence with known '
+                                                                            'danger abandons '
+                                                                            'advocacy.'}},
                                               {'question': 'What is the nurse’s usual role related '
                                                            'to informed consent?',
-                                               'options': ['A) Witness signature, verify '
+                                               'options': ['A) Explain surgical risks in detail '
+                                                           'yourself so consent is complete before '
+                                                           'the provider arrives',
+                                                           'B) Forge a signature if the patient is '
+                                                           'asleep to keep the OR on time',
+                                                           'C) Ignore questions because consent is '
+                                                           '“already done”',
+                                                           'D) Witness signature, verify '
                                                            'understanding, and advocate if the '
                                                            'patient seems unclear—while the '
                                                            'provider obtains consent for the '
-                                                           'procedure',
-                                                           'B) Personally perform the surgeon’s '
-                                                           'risk disclosure as the sole consenting '
-                                                           'party in all hospitals',
-                                                           'C) Forge a signature if the patient is '
-                                                           'asleep to keep the OR on time',
-                                                           'D) Ignore questions because consent is '
-                                                           '“already done”'],
-                                               'answer': 'A) Witness signature, verify '
+                                                           'procedure'],
+                                               'answer': 'D) Witness signature, verify '
                                                          'understanding, and advocate if the '
                                                          'patient seems unclear—while the provider '
                                                          'obtains consent for the procedure',
@@ -4147,51 +4145,51 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                               'commonly witness, confirm '
                                                               'understanding, and stop the process '
                                                               'to seek clarification if '
-                                                              'comprehension is lacking. Forgery '
-                                                              'and ignoring questions are '
-                                                              'unethical and illegal.',
-                                               'choice_explanations': {'A': 'Witnessing, verifying '
+                                                              'comprehension is lacking—not '
+                                                              'replace the provider’s disclosure '
+                                                              'role.',
+                                               'choice_explanations': {'A': 'Nurse-led full risk '
+                                                                            'disclosure as sole '
+                                                                            'consenting act is a '
+                                                                            'role near-miss.',
+                                                                       'B': 'Forgery is fraud and '
+                                                                            'assault risk.',
+                                                                       'C': 'Unanswered questions '
+                                                                            'invalidate meaningful '
+                                                                            'consent.',
+                                                                       'D': 'Witnessing, verifying '
                                                                             'understanding, and '
                                                                             'advocating for '
                                                                             'clarity match the '
-                                                                            'nursing consent role.',
-                                                                       'B': 'Primary disclosure '
-                                                                            'belongs to the '
-                                                                            'provider performing '
-                                                                            'the procedure.',
-                                                                       'C': 'Forgery is fraud and '
-                                                                            'assault risk.',
-                                                                       'D': 'Unanswered questions '
-                                                                            'invalidate meaningful '
-                                                                            'consent.'}},
+                                                                            'nursing role.'}},
                                               {'question': 'Moral distress occurs when nurses '
                                                            'experience which situation?',
-                                               'options': ['A) They lack any ethical opinions '
-                                                           'whatsoever',
-                                                           'B) They know the ethically appropriate '
+                                               'options': ['A) They know the ethically appropriate '
                                                            'action but institutional or other '
                                                            'barriers prevent taking it',
+                                                           'B) They are uncertain which ethical '
+                                                           'principle applies and need more '
+                                                           'education before deciding',
                                                            'C) They always get what they want '
                                                            'administratively',
                                                            'D) They have unlimited resources and '
                                                            'no conflicting duties'],
-                                               'answer': 'B) They know the ethically appropriate '
+                                               'answer': 'A) They know the ethically appropriate '
                                                          'action but institutional or other '
                                                          'barriers prevent taking it',
                                                'explanation': 'Moral distress arises when '
                                                               'clinicians know the right course '
-                                                              'but constraints block action, '
-                                                              'producing guilt and burnout. It is '
-                                                              'not absence of ethics or unlimited '
-                                                              'ease.',
-                                               'choice_explanations': {'A': 'Moral distress '
-                                                                            'presupposes an '
-                                                                            'ethical judgment, not '
-                                                                            'a vacuum of values.',
-                                                                       'B': 'Knowing the right act '
+                                                              'but constraints block action. Moral '
+                                                              'uncertainty (not knowing what is '
+                                                              'right) is related but distinct.',
+                                               'choice_explanations': {'A': 'Knowing the right act '
                                                                             'yet being blocked '
                                                                             'defines moral '
                                                                             'distress.',
+                                                                       'B': 'Moral uncertainty '
+                                                                            'about which principle '
+                                                                            'applies is the '
+                                                                            'conceptual near-miss.',
                                                                        'C': 'Getting one’s way '
                                                                             'administratively is '
                                                                             'not moral distress.',
@@ -4209,46 +4207,42 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                               'step theme?',
                                                   'options': ['A) Stay silent to protect '
                                                               'promotions',
-                                                              'B) Alter charts to hide the falls',
-                                                              'C) Escalate through '
+                                                              'B) Escalate through '
                                                               'whistleblowing/higher reporting '
                                                               'channels as protected '
                                                               'patient-safety disclosure when '
-                                                              'internal routes fail and harm '
-                                                              'continues',
-                                                              'D) Blame the injured patients for '
-                                                              'getting out of bed'],
-                                                  'answer': 'C) Escalate through '
+                                                              'internal fixes fail',
+                                                              'C) Alter charts to hide the falls',
+                                                              'D) Keep documenting locally and '
+                                                              'wait for the next committee cycle '
+                                                              'before any external escalation'],
+                                                  'answer': 'B) Escalate through '
                                                             'whistleblowing/higher reporting '
                                                             'channels as protected patient-safety '
-                                                            'disclosure when internal routes fail '
-                                                            'and harm continues',
-                                                  'explanation': 'When internal reporting fails '
-                                                                 'and patients keep being harmed, '
-                                                                 'nurses may escalate to higher '
-                                                                 'authorities '
-                                                                 '(regulatory/accreditation) under '
-                                                                 'whistleblower protections. '
-                                                                 'Silence, chart alteration, and '
-                                                                 'victim-blaming violate fidelity '
-                                                                 'and nonmaleficence.',
-                                                  'choice_explanations': {'A': 'Career fear does '
-                                                                               'not justify '
-                                                                               'ongoing '
-                                                                               'preventable '
-                                                                               'patient harm.',
-                                                                          'B': 'Falsifying records '
-                                                                               'is illegal and '
-                                                                               'unethical.',
-                                                                          'C': 'Protected '
-                                                                               'escalation after '
+                                                            'disclosure when internal fixes fail',
+                                                  'explanation': 'Persistent uncorrected hazards '
+                                                                 'after repeated reports may '
+                                                                 'require protected '
+                                                                 'escalation/whistleblowing. '
+                                                                 'Endless local waiting while '
+                                                                 'patients are injured is '
+                                                                 'inadequate.',
+                                                  'choice_explanations': {'A': 'Silence protects '
+                                                                               'careers, not '
+                                                                               'patients.',
+                                                                          'B': 'Protected '
+                                                                               'higher-channel '
+                                                                               'escalation is '
+                                                                               'appropriate after '
                                                                                'failed internal '
-                                                                               'routes is '
-                                                                               'appropriate when '
-                                                                               'harm persists.',
-                                                                          'D': 'Blaming patients '
-                                                                               'ignores a known '
-                                                                               'system hazard.'}},
+                                                                               'response.',
+                                                                          'C': 'Chart alteration '
+                                                                               'is fraudulent and '
+                                                                               'unsafe.',
+                                                                          'D': 'Committee-cycle '
+                                                                               'waiting after '
+                                                                               'repeated harm is a '
+                                                                               'delay near-miss.'}},
                                                  {'question': 'A capacitated patient with a valid '
                                                               'DNR develops ventricular '
                                                               'fibrillation. A resident orders '
@@ -4256,91 +4250,85 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                               'family.” The spouse is screaming to '
                                                               '“do everything.” What should you '
                                                               'do?',
-                                                  'options': ['A) Shock immediately because the '
-                                                              'resident outranks the patient’s '
-                                                              'written wishes',
-                                                              'B) Hide the DNR form so nobody is '
+                                                  'options': ['A) Hide the DNR form so nobody is '
                                                               'upset',
-                                                              'C) Start a full code without '
-                                                              'discussion to avoid conflict',
-                                                              'D) Uphold the valid DNR, '
+                                                              'B) Provide a brief shock now for '
+                                                              'family coping, then reinstate the '
+                                                              'DNR afterward',
+                                                              'C) Uphold the valid DNR, '
                                                               'communicate clearly with the '
                                                               'team/family, and refuse '
-                                                              'interventions the patient '
-                                                              'declined—seek ethics/supervisor '
-                                                              'support if conflict persists'],
-                                                  'answer': 'D) Uphold the valid DNR, communicate '
+                                                              'interventions the patient declined',
+                                                              'D) Shock immediately because the '
+                                                              'resident outranks the patient’s '
+                                                              'written wishes'],
+                                                  'answer': 'C) Uphold the valid DNR, communicate '
                                                             'clearly with the team/family, and '
                                                             'refuse interventions the patient '
-                                                            'declined—seek ethics/supervisor '
-                                                            'support if conflict persists',
-                                                  'explanation': 'A valid DNR reflecting a '
-                                                                 'capacitated patient’s wishes '
-                                                                 'governs, even under family or '
-                                                                 'hierarchical pressure. Nurses '
-                                                                 'advocate for those wishes, '
-                                                                 'clarify orders, and escalate '
-                                                                 'conflicts through chain of '
-                                                                 'command/ethics—not secretly '
-                                                                 'discarding advance decisions.',
-                                                  'choice_explanations': {'A': 'Unlawful/unethical '
-                                                                               'to override a '
-                                                                               'valid DNR for '
-                                                                               'hierarchy alone.',
-                                                                          'B': 'Concealing the DNR '
-                                                                               'violates honesty '
-                                                                               'and patient '
-                                                                               'rights.',
-                                                                          'C': 'Full code against '
-                                                                               'DNR is '
-                                                                               'battery/ethics '
-                                                                               'breach.',
-                                                                          'D': 'Honoring the DNR '
+                                                            'declined',
+                                                  'explanation': 'A valid DNR reflects capacitated '
+                                                                 'patient wishes and must be '
+                                                                 'honored despite family distress '
+                                                                 'or hierarchical pressure. “One '
+                                                                 'shock for the family” violates '
+                                                                 'the directive.',
+                                                  'choice_explanations': {'A': 'Hiding the DNR is '
+                                                                               'dishonest and '
+                                                                               'unsafe.',
+                                                                          'B': 'Temporary '
+                                                                               'suspension “for '
+                                                                               'the family” is a '
+                                                                               'common ethical '
+                                                                               'near-miss.',
+                                                                          'C': 'Upholding the DNR '
                                                                                'with clear '
-                                                                               'communication and '
-                                                                               'escalation support '
-                                                                               'is correct.'}},
+                                                                               'communication is '
+                                                                               'required.',
+                                                                          'D': 'Resident orders '
+                                                                               'cannot override a '
+                                                                               'valid DNR.'}},
                                                  {'question': 'A coworker posts a recognizable '
                                                               'photo of your confused patient on '
                                                               'social media “for education,” with '
                                                               'room number visible. The patient '
                                                               'did not consent. What is your '
                                                               'obligation?',
-                                                  'options': ['A) Report the privacy breach per '
-                                                              'policy, support mitigation, and do '
-                                                              'not reshare the image',
+                                                  'options': ['A) Ask the coworker to delete the '
+                                                              'post and consider the matter closed '
+                                                              'without reporting',
                                                               'B) Like and repost to show unit '
                                                               'camaraderie',
-                                                              'C) Download the photo for your '
-                                                              'personal scrapbook',
-                                                              'D) Ignore it because social media '
-                                                              'is always allowed for PHI'],
-                                                  'answer': 'A) Report the privacy breach per '
+                                                              'C) Ignore it because social media '
+                                                              'is always allowed for PHI',
+                                                              'D) Report the privacy breach per '
+                                                              'policy, support mitigation, and do '
+                                                              'not reshare the image'],
+                                                  'answer': 'D) Report the privacy breach per '
                                                             'policy, support mitigation, and do '
                                                             'not reshare the image',
-                                                  'explanation': 'Identifiable patient images '
-                                                                 'without authorization are '
-                                                                 'HIPAA/privacy violations. Nurses '
-                                                                 'must report, help contain the '
-                                                                 'breach, and avoid further '
-                                                                 'dissemination. Social media is '
-                                                                 'not a lawful PHI channel.',
-                                                  'choice_explanations': {'A': 'Reporting and '
-                                                                               'containment '
-                                                                               'without resharing '
-                                                                               'fulfill privacy '
-                                                                               'duties.',
-                                                                          'B': 'Reposting '
-                                                                               'multiplies the '
-                                                                               'breach.',
-                                                                          'C': 'Personal copies '
-                                                                               'extend '
-                                                                               'unauthorized use '
-                                                                               'of PHI.',
-                                                                          'D': 'Social media is '
-                                                                               'not an approved '
-                                                                               'PHI disclosure '
-                                                                               'path.'}}]},
+                                                  'explanation': 'Posting identifiable patient '
+                                                                 'images without consent is a '
+                                                                 'privacy breach. Reporting and '
+                                                                 'mitigation are required; '
+                                                                 'informal delete-only responses '
+                                                                 'often fail institutional/legal '
+                                                                 'obligations.',
+                                                  'choice_explanations': {'A': 'Delete-without-reporting '
+                                                                               'is a common '
+                                                                               'incomplete '
+                                                                               'near-miss.',
+                                                                          'B': 'Reposting spreads '
+                                                                               'the breach.',
+                                                                          'C': 'Social media is '
+                                                                               'not a permitted '
+                                                                               'PHI channel '
+                                                                               'without '
+                                                                               'authorization.',
+                                                                          'D': 'Reporting, '
+                                                                               'mitigation, and '
+                                                                               'not resharing meet '
+                                                                               'privacy '
+                                                                               'duties.'}}]},
                        'cases': {'easy': [{'title': 'Refusing Treatment',
                                            'stem': 'Alert competent adult refuses transfusion for '
                                                    'religious reasons.',
@@ -4393,64 +4381,64 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                     'without exception',
                                                     'B) New or worsening confusion/falls with or '
                                                     'without fever',
-                                                    'C) Always a productive cough with clear focal '
-                                                    'findings',
-                                                    'D) Guaranteed leukocytosis above 20,000 in '
-                                                    'all cases'],
+                                                    'C) Guaranteed leukocytosis above 20,000 in '
+                                                    'all cases',
+                                                    'D) Low-grade temperature elevation with clear '
+                                                    'localizing symptoms in every case'],
                                         'answer': 'B) New or worsening confusion/falls with or '
                                                   'without fever',
                                         'explanation': 'Older adults often present with delirium, '
                                                        'falls, or functional decline rather than '
                                                        'classic fever and localizing signs. Normal '
-                                                       'temperature does not rule out serious '
-                                                       'infection.',
+                                                       'or minimal temperature does not rule out '
+                                                       'serious infection.',
                                         'choice_explanations': {'A': 'Fever may be blunted or '
                                                                      'absent in elders.',
                                                                 'B': 'Acute confusion/falls are '
                                                                      'classic atypical infection '
                                                                      'cues.',
-                                                                'C': 'Many infections lack '
-                                                                     'textbook respiratory '
-                                                                     'findings.',
-                                                                'D': 'Leukocytosis is not '
-                                                                     'guaranteed; '
-                                                                     'immunocomosenescence blunts '
-                                                                     'responses.'}},
+                                                                'C': 'Leukocytosis is not '
+                                                                     'guaranteed; immunosenescence '
+                                                                     'blunts responses.',
+                                                                'D': 'Expecting even low-grade '
+                                                                     'fever plus localizing signs '
+                                                                     'misses afebrile '
+                                                                     'presentations—assessment '
+                                                                     'near-miss.'}},
                                        {'question': 'Polypharmacy in geriatrics most increases '
                                                     'which risk?',
-                                        'options': ['A) Improved adherence automatically with more '
-                                                    'pills',
-                                                    'B) Complete immunity to adverse drug events',
+                                        'options': ['A) Complete immunity to adverse drug events',
+                                                    'B) Milder adverse effects because older '
+                                                    'adults have slower metabolism of all drugs',
                                                     'C) Drug interactions, falls, cognitive '
                                                     'impairment, and adherence problems',
-                                                    'D) Guaranteed better outcomes with every '
-                                                    'added medication'],
+                                                    'D) Improved adherence automatically with more '
+                                                    'pills'],
                                         'answer': 'C) Drug interactions, falls, cognitive '
                                                   'impairment, and adherence problems',
                                         'explanation': 'Multiple medications raise interaction, '
                                                        'fall, delirium, and nonadherence risks. '
-                                                       'Deprescribing review is a geriatric '
-                                                       'nursing priority—not celebrating pill '
-                                                       'count.',
-                                        'choice_explanations': {'A': 'More pills often worsen '
-                                                                     'adherence.',
-                                                                'B': 'ADE risk rises with regimen '
+                                                       'Slower metabolism can increase—not '
+                                                       'decrease—adverse-effect risk.',
+                                        'choice_explanations': {'A': 'ADE risk rises with regimen '
                                                                      'complexity.',
+                                                                'B': 'Assuming milder ADEs from '
+                                                                     'slower metabolism is a '
+                                                                     'pharmacokinetics near-miss.',
                                                                 'C': 'Interactions, falls, '
                                                                      'cognition, and adherence '
                                                                      'harms define polypharmacy '
                                                                      'risk.',
-                                                                'D': 'Added drugs without '
-                                                                     'indication can harm more '
-                                                                     'than help.'}},
+                                                                'D': 'More pills often worsen '
+                                                                     'adherence.'}},
                                        {'question': 'Which nursing actions help prevent pressure '
                                                     'injuries in immobile older adults?',
-                                        'options': ['A) Keep the head of bed at 90° continuously '
-                                                    'without shifts',
-                                                    'B) Massage reddened bony prominences '
-                                                    'vigorously',
-                                                    'C) Use a donut ring pillow under the sacrum '
+                                        'options': ['A) Massage reddened areas gently and keep HOB '
+                                                    'high to improve comfort and skin blood flow',
+                                                    'B) Use a donut ring pillow under the sacrum '
                                                     'at all times',
+                                                    'C) Keep the head of bed at 90° continuously '
+                                                    'without shifts',
                                                     'D) Reposition regularly, optimize '
                                                     'nutrition/moisture, and use '
                                                     'pressure-redistributing surfaces'],
@@ -4460,17 +4448,18 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                         'explanation': 'Pressure-injury prevention combines '
                                                        'turning schedules, skin moisture '
                                                        'management, nutrition, and support '
-                                                       'surfaces. Massaging damaged tissue, donut '
-                                                       'devices, and constant high Fowler’s '
-                                                       'without offloading increase injury risk.',
-                                        'choice_explanations': {'A': 'Constant high Fowler’s '
-                                                                     'increases shear/pressure on '
-                                                                     'the sacrum.',
-                                                                'B': 'Massaging reddened areas can '
-                                                                     'deepen tissue injury.',
-                                                                'C': 'Donut rings focus pressure '
+                                                       'surfaces. Massaging damaged tissue and '
+                                                       'constant high Fowler’s without offloading '
+                                                       'increase injury risk.',
+                                        'choice_explanations': {'A': 'Massage plus high HOB is '
+                                                                     'outdated/harmful “skin care” '
+                                                                     'near-miss.',
+                                                                'B': 'Donut rings focus pressure '
                                                                      'at edges and are '
                                                                      'discouraged.',
+                                                                'C': 'Constant high Fowler’s '
+                                                                     'increases shear/pressure on '
+                                                                     'the sacrum.',
                                                                 'D': 'Repositioning, '
                                                                      'nutrition/moisture care, and '
                                                                      'support surfaces are '
@@ -4479,26 +4468,29 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                       'evaluate in older adults?',
                                           'options': ['A) Potentially inappropriate medications '
                                                       'that carry heightened risk in the elderly',
-                                                      'B) Exact shoe sizes for fall mats',
-                                                      'C) Only surgical instrument sterilization '
-                                                      'methods',
-                                                      'D) Preferred television volume levels on '
-                                                      'units'],
+                                                      'B) Drug–drug interactions only, without '
+                                                      'considering age-related adverse-effect risk '
+                                                      'of single agents',
+                                                      'C) Exact shoe sizes for fall mats',
+                                                      'D) Only surgical instrument sterilization '
+                                                      'methods'],
                                           'answer': 'A) Potentially inappropriate medications that '
                                                     'carry heightened risk in the elderly',
                                           'explanation': 'Beers Criteria list medications that are '
                                                          'potentially inappropriate in older '
                                                          'adults due to adverse-effect profiles. '
-                                                         'Nurses use them in med reconciliation '
-                                                         'conversations—not for unrelated '
-                                                         'environmental trivia.',
+                                                         'Interaction checking is related '
+                                                         'medication safety but is not what Beers '
+                                                         'primarily catalogs.',
                                           'choice_explanations': {'A': 'Identifying high-risk/PIM '
                                                                        'drugs in elders is the '
                                                                        'Beers purpose.',
-                                                                  'B': 'Shoe size is unrelated.',
-                                                                  'C': 'Sterilization is an '
-                                                                       'infection-control domain.',
-                                                                  'D': 'TV volume is not a Beers '
+                                                                  'B': 'Interaction-only framing '
+                                                                       'is a medication-safety '
+                                                                       'near-miss for Beers.',
+                                                                  'C': 'Shoe size is unrelated.',
+                                                                  'D': 'Sterilization is an '
+                                                                       'infection-control '
                                                                        'domain.'}},
                                          {'question': 'When helping an older adult with '
                                                       'orthostatic hypotension stand, which '
@@ -4507,40 +4499,41 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                       'B) Dangle at the bedside, rise slowly, and '
                                                       'wait for dizziness to resolve before '
                                                       'walking',
-                                                      'C) Hold all fluids permanently without '
-                                                      'orders',
-                                                      'D) Encourage hot baths immediately before '
-                                                      'standing'],
+                                                      'C) Encourage hot baths immediately before '
+                                                      'standing',
+                                                      'D) Apply compression stockings and stand '
+                                                      'promptly so blood pressure adapts faster'],
                                           'answer': 'B) Dangle at the bedside, rise slowly, and '
                                                     'wait for dizziness to resolve before walking',
                                           'explanation': 'Orthostatic precautions use staged '
                                                          'position changes to allow baroreceptor '
-                                                         'compensation. Sudden standing, '
-                                                         'dehydration, and vasodilation from hot '
-                                                         'baths provoke syncope and falls.',
+                                                         'compensation. Stockings may help select '
+                                                         'patients but do not justify abrupt '
+                                                         'standing.',
                                           'choice_explanations': {'A': 'Abrupt standing '
                                                                        'precipitates orthostatic '
                                                                        'syncope.',
                                                                   'B': 'Slow staged rising is the '
                                                                        'correct orthostatic '
                                                                        'technique.',
-                                                                  'C': 'Unordered fluid '
-                                                                       'withholding may worsen '
-                                                                       'orthostasis.',
-                                                                  'D': 'Heat causes vasodilation '
-                                                                       'that worsens '
-                                                                       'hypotension.'}},
+                                                                  'C': 'Heat causes vasodilation '
+                                                                       'that worsens hypotension.',
+                                                                  'D': 'Stockings plus prompt '
+                                                                       'standing mixes a helpful '
+                                                                       'adjunct with unsafe '
+                                                                       'timing—near-miss.'}},
                                          {'question': 'Which feature best helps distinguish '
                                                       'delirium from dementia at the bedside?',
-                                          'options': ['A) Delirium is always chronic over years '
-                                                      'without fluctuation',
-                                                      'B) Dementia always starts in minutes after '
-                                                      'a UTI',
+                                          'options': ['A) They are identical terms with no '
+                                                      'clinical difference',
+                                                      'B) Delirium is simply worsening dementia, '
+                                                      'so the workup can focus on redirection '
+                                                      'techniques alone',
                                                       'C) Delirium is acute/fluctuating and often '
                                                       'reversible with treatable causes; dementia '
                                                       'is acquired progressive cognitive decline',
-                                                      'D) They are identical terms with no '
-                                                      'clinical difference'],
+                                                      'D) Delirium is always chronic over years '
+                                                      'without fluctuation'],
                                           'answer': 'C) Delirium is acute/fluctuating and often '
                                                     'reversible with treatable causes; dementia is '
                                                     'acquired progressive cognitive decline',
@@ -4550,28 +4543,28 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                          'insult—and potentially reversible. '
                                                          'Dementia is a chronic progressive '
                                                          'decline. Mislabeling delirium as '
-                                                         'dementia delays life-saving workup.',
-                                          'choice_explanations': {'A': 'Chronic nonfluctuating '
-                                                                       'course describes dementia '
-                                                                       'more than delirium.',
-                                                                  'B': 'Minutes-to-hours onset '
-                                                                       'after illness suggests '
-                                                                       'delirium, not dementia '
-                                                                       'onset.',
+                                                         'dementia delays urgent evaluation.',
+                                          'choice_explanations': {'A': 'The distinction drives '
+                                                                       'urgent medical evaluation.',
+                                                                  'B': 'Treating delirium as '
+                                                                       'dementia progression only '
+                                                                       'is a high-stakes '
+                                                                       'assessment near-miss.',
                                                                   'C': 'Acute fluctuating vs '
                                                                        'chronic progressive is the '
                                                                        'key distinction.',
-                                                                  'D': 'The distinction drives '
-                                                                       'urgent medical '
-                                                                       'evaluation.'}}],
+                                                                  'D': 'Chronic nonfluctuating '
+                                                                       'course describes dementia '
+                                                                       'more than delirium.'}}],
                               'hard': [{'question': 'If a nurse suspects elder abuse in a '
                                                     'long-term care resident, what is the duty?',
-                                        'options': ['A) Keep it private to protect the facility’s '
+                                        'options': ['A) Gather more collateral history and '
+                                                    'photographs over several shifts before '
+                                                    'involving outsiders',
+                                                    'B) Keep it private to protect the facility’s '
                                                     'reputation',
-                                                    'B) Confront the suspected abuser alone in a '
+                                                    'C) Confront the suspected abuser alone in a '
                                                     'secluded area without a plan',
-                                                    'C) Wait for photographic proof beyond any '
-                                                    'doubt before acting',
                                                     'D) Ensure safety and report per mandatory '
                                                     'elder-abuse reporting laws'],
                                         'answer': 'D) Ensure safety and report per mandatory '
@@ -4579,16 +4572,17 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                         'explanation': 'Nurses are mandatory reporters of '
                                                        'suspected elder abuse. Reasonable '
                                                        'suspicion triggers reporting and '
-                                                       'protective action; facility reputation and '
-                                                       'solitary confrontation are inappropriate.',
-                                        'choice_explanations': {'A': 'Reputation does not override '
+                                                       'protective action; delaying for perfect '
+                                                       'documentation endangers the elder.',
+                                        'choice_explanations': {'A': 'Extended private '
+                                                                     'evidence-gathering before '
+                                                                     'reporting is a protection '
+                                                                     'near-miss.',
+                                                                'B': 'Reputation does not override '
                                                                      'mandated reporting.',
-                                                                'B': 'Lone confrontation can '
+                                                                'C': 'Lone confrontation can '
                                                                      'escalate danger and spoil '
                                                                      'investigations.',
-                                                                'C': 'Suspicion, not courtroom '
-                                                                     'proof, is the reporting '
-                                                                     'threshold.',
                                                                 'D': 'Safety plus mandatory '
                                                                      'reporting is the required '
                                                                      'response.'}},
@@ -4598,30 +4592,32 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                         'options': ['A) Supervised ambulation, door alarms, '
                                                     'meaningful activities, and environmental '
                                                     'modification before restraints',
-                                                    'B) Immediate four-point leather restraints on '
+                                                    'B) Move the resident nearer the nurses’ '
+                                                    'station and use PRN sedation if wandering '
+                                                    'continues after dark',
+                                                    'C) Immediate four-point leather restraints on '
                                                     'admission',
-                                                    'C) Chemical sedation as first-line for all '
-                                                    'wanderers without assessment',
                                                     'D) Locking the person in a dark closet'],
                                         'answer': 'A) Supervised ambulation, door alarms, '
                                                   'meaningful activities, and environmental '
                                                   'modification before restraints',
                                         'explanation': 'Least-restrictive dementia care uses '
                                                        'supervision, alarms, activities, and '
-                                                       'environment before restraints. Restraints '
-                                                       'and punitive confinement increase injury '
-                                                       'and trauma; chemical restraint without '
-                                                       'assessment is inappropriate first-line '
-                                                       'care.',
+                                                       'environment before restraints. Early '
+                                                       'chemical restraint for wandering is not '
+                                                       'first-line.',
                                         'choice_explanations': {'A': 'Nonpharmacologic, '
                                                                      'least-restrictive strategies '
                                                                      'are preferred wander '
                                                                      'management.',
-                                                                'B': 'Restraints are last resort '
+                                                                'B': 'Station proximity plus PRN '
+                                                                     'sedation mixes a good '
+                                                                     'environmental idea with '
+                                                                     'chemical restraint '
+                                                                     'near-miss.',
+                                                                'C': 'Restraints are last resort '
                                                                      'with strict criteria, not '
                                                                      'admission defaults.',
-                                                                'C': 'Sedation without assessment '
-                                                                     'risks delirium and falls.',
                                                                 'D': 'Confinement in a closet is '
                                                                      'abusive and illegal.'}},
                                        {'question': 'Why do nurses emphasize daily weights in '
@@ -4633,15 +4629,16 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                     'decompensation',
                                                     'C) Daily weights replace the need for any '
                                                     'symptom assessment',
-                                                    'D) Weight is unrelated to volume status in '
-                                                    'HF'],
+                                                    'D) Daily weights mainly verify nutritional '
+                                                    'status, so small gains can wait until the '
+                                                    'weekly clinic visit'],
                                         'answer': 'B) Sudden gains often signal fluid retention '
                                                   'needing early intervention before frank '
                                                   'decompensation',
                                         'explanation': 'Rapid weight gain is an early congestion '
                                                        'marker in HF, prompting diet/diuretic '
-                                                       'reassessment. It complements—not '
-                                                       'replaces—symptom and exam assessment.',
+                                                       'reassessment. Interpreting gains only as '
+                                                       'nutrition delays congestion care.',
                                         'choice_explanations': {'A': 'Overnight kilogram gains are '
                                                                      'fluid, not muscle.',
                                                                 'B': 'Early fluid detection '
@@ -4649,8 +4646,10 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                                      'hospitalization.',
                                                                 'C': 'Symptoms and exam remain '
                                                                      'essential alongside weights.',
-                                                                'D': 'Weight is a practical volume '
-                                                                     'proxy in HF.'}}],
+                                                                'D': 'Nutrition-only '
+                                                                     'interpretation of daily '
+                                                                     'weights is an assessment '
+                                                                     'near-miss in HF.'}}],
                               'extreme': [{'question': 'An 88-year-old with osteoporosis is found '
                                                        'on the floor after a fall, reporting '
                                                        'severe hip pain and external rotation of '
@@ -4658,75 +4657,75 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                        '88/50; and a family member demands she '
                                                        'stand to “walk it off” before imaging. '
                                                        'What is the priority?',
-                                           'options': ['A) Force ambulation to prevent stiffness',
-                                                       'B) Give a NSAID cocktail and discharge '
+                                           'options': ['A) Give a NSAID cocktail and discharge '
                                                        'home immediately',
+                                                       'B) Log-roll carefully onto a chair for '
+                                                       'comfort while awaiting X-ray if BP is near '
+                                                       'baseline',
                                                        'C) Immobilize/support the limb, treat '
                                                        'shock, hold unsafe movement, escalate for '
-                                                       'fracture/bleeding evaluation, and keep NPO '
-                                                       'for possible surgery',
-                                                       'D) Remove anticoagulation charts so '
-                                                       'surgery is simpler later'],
+                                                       'fracture/bleeding evaluation',
+                                                       'D) Force ambulation to prevent stiffness'],
                                            'answer': 'C) Immobilize/support the limb, treat shock, '
                                                      'hold unsafe movement, escalate for '
-                                                     'fracture/bleeding evaluation, and keep NPO '
-                                                     'for possible surgery',
-                                           'explanation': 'Shortened externally rotated leg after '
-                                                          'fall suggests hip fracture. '
-                                                          'Anticoagulation plus hypotension raise '
-                                                          'hemorrhage concern. Priorities: '
-                                                          'immobilize, ABC/shock care, no '
-                                                          'weight-bearing, urgent evaluation—not '
-                                                          'ambulation or chart destruction.',
-                                           'choice_explanations': {'A': 'Ambulation can worsen '
-                                                                        'fracture displacement and '
-                                                                        'bleeding.',
-                                                                   'B': 'NSAIDs plus premature '
-                                                                        'discharge ignore '
-                                                                        'fracture/shock risk.',
+                                                     'fracture/bleeding evaluation',
+                                           'explanation': 'Hip fracture signs with anticoagulant '
+                                                          'use and hypotension suggest fracture '
+                                                          'plus bleeding/shock risk. Immobilize, '
+                                                          'support circulation, and escalate—do '
+                                                          'not mobilize for comfort.',
+                                           'choice_explanations': {'A': 'NSAID discharge ignores '
+                                                                        'fracture, shock, and '
+                                                                        'bleed risk.',
+                                                                   'B': 'Early chair transfer for '
+                                                                        'comfort is a mobility '
+                                                                        'near-miss with '
+                                                                        'fracture/shock.',
                                                                    'C': 'Immobilization, shock '
-                                                                        'care, and surgical workup '
-                                                                        'readiness are correct.',
-                                                                   'D': 'Hiding anticoagulation '
-                                                                        'endangers perioperative '
-                                                                        'safety.'}},
+                                                                        'care, and urgent '
+                                                                        'escalation protect life '
+                                                                        'and limb.',
+                                                                   'D': 'Forcing ambulation can '
+                                                                        'worsen fracture '
+                                                                        'displacement and '
+                                                                        'bleeding.'}},
                                           {'question': 'A frail nursing-home resident develops new '
                                                        'lethargy, anorexia, and falls without '
                                                        'fever. Urine is foul; BP drops to 80/40; '
                                                        'lactate is rising. Staff say “old people '
                                                        'get confused—just watch.” What should you '
                                                        'do?',
-                                           'options': ['A) Agree and defer vitals until tomorrow',
-                                                       'B) Encourage vigorous exercise testing now',
-                                                       'C) Give a large oral water challenge while '
-                                                       'supine hypotension persists',
+                                           'options': ['A) Treat presumed UTI with oral '
+                                                       'antibiotics on the unit while monitoring '
+                                                       'for fever before escalating',
+                                                       'B) Agree and defer vitals until tomorrow',
+                                                       'C) Encourage vigorous exercise testing now',
                                                        'D) Recognize possible sepsis with atypical '
                                                        'signs, support ABCs, obtain cultures/labs '
-                                                       'per protocol, and escalate urgently '
-                                                       'despite lack of high fever'],
+                                                       'per protocol, and escalate urgently'],
                                            'answer': 'D) Recognize possible sepsis with atypical '
                                                      'signs, support ABCs, obtain cultures/labs '
-                                                     'per protocol, and escalate urgently despite '
-                                                     'lack of high fever',
-                                           'explanation': 'Frail elders often show sepsis as '
-                                                          'delirium, falls, and anorexia without '
-                                                          'high fever. Hypotension and rising '
-                                                          'lactate indicate hypoperfusion '
-                                                          'requiring sepsis pathways—not watchful '
-                                                          'neglect.',
-                                           'choice_explanations': {'A': 'Deferring assessment '
-                                                                        'during hypotension is '
-                                                                        'dangerous.',
-                                                                   'B': 'Exercise testing is '
-                                                                        'contraindicated in shock.',
-                                                                   'C': 'Oral fluid challenges are '
-                                                                        'unsafe in hypotensive '
-                                                                        'possible sepsis without '
-                                                                        'IV access/plan.',
+                                                     'per protocol, and escalate urgently',
+                                           'explanation': 'New lethargy, anorexia, falls, foul '
+                                                          'urine, hypotension, and rising lactate '
+                                                          'suggest sepsis with atypical geriatric '
+                                                          'onset. ABC support and urgent '
+                                                          'escalation outrank watchful oral '
+                                                          'treatment alone.',
+                                           'choice_explanations': {'A': 'Unit oral UTI treatment '
+                                                                        'while awaiting fever is a '
+                                                                        'dangerous under-triage '
+                                                                        'near-miss when shock cues '
+                                                                        'exist.',
+                                                                   'B': 'Deferring vitals ignores '
+                                                                        'evolving shock.',
+                                                                   'C': 'Exercise testing is '
+                                                                        'contraindicated in '
+                                                                        'hypotensive sepsis.',
                                                                    'D': 'Atypical sepsis '
                                                                         'recognition with ABC '
-                                                                        'support and escalation is '
-                                                                        'required.'}},
+                                                                        'support and urgent '
+                                                                        'escalation is required.'}},
                                           {'question': 'At end of life, a capacitated older '
                                                        'adult’s advance directive declines '
                                                        'intubation. The adult child demands “full '
@@ -4736,37 +4735,35 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                                        'the correct nursing action?',
                                            'options': ['A) Uphold the patient’s directive and '
                                                        'current refusal; escalate to '
-                                                       'attending/ethics/chain of command; do not '
-                                                       'intubate against capacitated refusal',
-                                                       'B) Hide the advance directive and proceed '
+                                                       'attending/ethics/chain of command as '
+                                                       'needed',
+                                                       'B) Facilitate a family meeting first and '
+                                                       'follow the child’s preference if the '
+                                                       'meeting runs long near arrest',
+                                                       'C) Hide the advance directive and proceed '
                                                        'to intubation',
-                                                       'C) Tell the patient autonomy no longer '
-                                                       'applies after age 80',
-                                                       'D) Follow the child’s demands because '
-                                                       'family always outranks the patient'],
+                                                       'D) Tell the patient autonomy no longer '
+                                                       'applies after age 80'],
                                            'answer': 'A) Uphold the patient’s directive and '
                                                      'current refusal; escalate to '
-                                                     'attending/ethics/chain of command; do not '
-                                                     'intubate against capacitated refusal',
-                                           'explanation': 'Capacitated patients’ contemporaneous '
-                                                          'refusals and valid advance directives '
-                                                          'prevail over conflicting family guilt '
-                                                          'and erroneous orders. Nurses refuse '
-                                                          'unsafe/unwanted intubation and escalate '
-                                                          'through leadership/ethics for order '
-                                                          'correction.',
-                                           'choice_explanations': {'A': 'Honoring capacitated '
-                                                                        'refusal/directive with '
-                                                                        'escalation is ethically '
-                                                                        'and legally required.',
-                                                                   'B': 'Concealing directives to '
-                                                                        'force intubation violates '
-                                                                        'autonomy and law.',
-                                                                   'C': 'Age does not erase '
-                                                                        'autonomy.',
-                                                                   'D': 'Family preference does '
-                                                                        'not outrank a capacitated '
-                                                                        'patient’s decision.'}}]},
+                                                     'attending/ethics/chain of command as needed',
+                                           'explanation': 'Capacitated patient directives and '
+                                                          'current refusals outrank family '
+                                                          'guilt-driven demands. Escalate '
+                                                          'conflicts; do not intubate against '
+                                                          'valid wishes while “waiting out” a '
+                                                          'meeting.',
+                                           'choice_explanations': {'A': 'Upholding the directive '
+                                                                        'with appropriate '
+                                                                        'escalation is required.',
+                                                                   'B': 'Family-meeting delay that '
+                                                                        'defaults to the child’s '
+                                                                        'wishes is an ethics '
+                                                                        'near-miss.',
+                                                                   'C': 'Hiding the directive is '
+                                                                        'fraudulent.',
+                                                                   'D': 'Age does not erase '
+                                                                        'autonomy.'}}]},
                 'cases': {'easy': [{'title': 'New Confusion',
                                     'stem': '85-year-old newly confused; no fever noted.',
                                     'question': 'Priority differentials theme?',
@@ -4803,7 +4800,6 @@ SPECIALTIES: dict[str, dict] = {'fundamentals': {'label': 'Fundamentals of Nursi
                                        'discussion': 'Do not delay reporting.',
                                        'book_hint': 'Gerontological Nursing — Touhy & Jett / '
                                                     'Eliopoulos'}]}}}
-
 
 def specialty_label(key: str) -> str:
     return SPECIALTIES[key]["label"]
