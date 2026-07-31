@@ -10054,9 +10054,9 @@ def specialty_menu_text() -> str:
         "🔬 *CharaNas MLS*\n"
         "Undergraduate Medical Laboratory Science\n\n"
         "Choose a *specialty* first.\n"
-        "Then open Short MCQ or Case-based Question and pick a difficulty:\n"
-        "*Easy → Medium → Hard → Extreme*\n\n"
-        "Higher levels are longer and more tricky.\n"
+        "• *Short MCQ* — choose count (5/10/15/20), then advancement level (1–5)\n"
+        "• *Case-based Question* — choose Easy → Extreme\n\n"
+        "Short MCQ limit: *20 questions per specialty per day*.\n"
         "Use *Change specialty* anytime to switch topics."
     )
 

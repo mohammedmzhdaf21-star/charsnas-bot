@@ -39,6 +39,7 @@ from content import (
     LABEL_TO_DIFFICULTY,
     SPECIALTIES,
     SPECIALTY_ORDER,
+    correct_letter,
     difficulty_menu_text,
     feature_menu_text,
     format_book_sources,
@@ -55,12 +56,28 @@ from content import (
     specialty_menu_text,
 )
 from generate_pdfs import PDF_DIR, ensure_pdfs, pdf_for_specialty
+from quiz_session import (
+    COUNT_OPTIONS,
+    DAILY_LIMIT,
+    DailyUsageStore,
+    allowed_counts,
+    build_difficulty_queue,
+    count_menu_text,
+    daily_limit_text,
+    level_menu_text,
+    parse_count,
+    parse_level,
+    session_complete_text,
+)
 
 load_dotenv(Path(__file__).resolve().parent / ".env")
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 if not BOT_TOKEN:
     raise SystemExit("BOT_TOKEN is missing. Copy .env.example to .env and set BOT_TOKEN.")
+
+ROOT = Path(__file__).resolve().parent
+USAGE_STORE = DailyUsageStore(ROOT / "data" / "daily_mcq_usage.json")
 
 BTN_MCQ = "Short MCQ"
 BTN_CASE = "Case-based Question"
@@ -124,6 +141,41 @@ def difficulty_keyboard() -> ReplyKeyboardMarkup:
         resize_keyboard=True,
         is_persistent=True,
     )
+
+
+def count_keyboard(remaining: int) -> ReplyKeyboardMarkup:
+    opts = allowed_counts(remaining)
+    rows: list[list[KeyboardButton]] = []
+    row: list[KeyboardButton] = []
+    for n in opts:
+        label = f"{n} questions" if n in COUNT_OPTIONS else f"{n} questions"
+        row.append(KeyboardButton(label))
+        if len(row) == 2:
+            rows.append(row)
+            row = []
+    if row:
+        rows.append(row)
+    rows.append([KeyboardButton(BTN_BACK_FEATURES), KeyboardButton(BTN_BACK_SPECIALTY)])
+    return ReplyKeyboardMarkup(rows, resize_keyboard=True, is_persistent=True)
+
+
+def level_keyboard() -> ReplyKeyboardMarkup:
+    return ReplyKeyboardMarkup(
+        [
+            [KeyboardButton("Level 1"), KeyboardButton("Level 2")],
+            [KeyboardButton("Level 3"), KeyboardButton("Level 4")],
+            [KeyboardButton("Level 5")],
+            [KeyboardButton(BTN_BACK_FEATURES), KeyboardButton(BTN_BACK_SPECIALTY)],
+        ],
+        resize_keyboard=True,
+        is_persistent=True,
+    )
+
+
+def clear_mcq_session(context: ContextTypes.DEFAULT_TYPE) -> None:
+    context.user_data.pop("mcq_session", None)
+    context.user_data.pop("mcq_await", None)
+    context.user_data.pop("mcq_count", None)
 
 
 def current_specialty(context: ContextTypes.DEFAULT_TYPE) -> str | None:
@@ -223,6 +275,7 @@ async def show_specialty_menu(update: Update, context: ContextTypes.DEFAULT_TYPE
     context.user_data["specialty"] = None
     context.user_data["quiz_mode"] = None
     context.user_data["difficulty"] = None
+    clear_mcq_session(context)
     await safe_reply(update, text or specialty_menu_text(), reply_markup=specialty_keyboard())
 
 
@@ -230,6 +283,7 @@ async def show_feature_menu(update: Update, context: ContextTypes.DEFAULT_TYPE, 
     context.user_data["specialty"] = specialty_key
     context.user_data["quiz_mode"] = None
     context.user_data["difficulty"] = None
+    clear_mcq_session(context)
     await safe_reply(update, feature_menu_text(specialty_key), reply_markup=feature_keyboard())
 
 
@@ -245,6 +299,54 @@ async def show_difficulty_menu(
     )
 
 
+async def show_count_menu(update: Update, context: ContextTypes.DEFAULT_TYPE, specialty_key: str) -> None:
+    user = update.effective_user
+    if not user:
+        return
+    remaining = USAGE_STORE.remaining(user.id, specialty_key)
+    label = specialty_label(specialty_key)
+    context.user_data["specialty"] = specialty_key
+    context.user_data["quiz_mode"] = "question"
+    context.user_data["mcq_await"] = "count"
+    context.user_data.pop("mcq_count", None)
+    context.user_data.pop("mcq_session", None)
+
+    if remaining <= 0:
+        await safe_reply(
+            update,
+            daily_limit_text(label),
+            reply_markup=feature_keyboard(),
+        )
+        clear_mcq_session(context)
+        context.user_data["quiz_mode"] = None
+        return
+
+    await safe_reply(
+        update,
+        count_menu_text(label, remaining),
+        reply_markup=count_keyboard(remaining),
+    )
+
+
+async def show_level_menu(
+    update: Update, context: ContextTypes.DEFAULT_TYPE, specialty_key: str, count: int
+) -> None:
+    user = update.effective_user
+    if not user:
+        return
+    remaining = USAGE_STORE.remaining(user.id, specialty_key)
+    label = specialty_label(specialty_key)
+    context.user_data["specialty"] = specialty_key
+    context.user_data["quiz_mode"] = "question"
+    context.user_data["mcq_await"] = "level"
+    context.user_data["mcq_count"] = count
+    await safe_reply(
+        update,
+        level_menu_text(label, count, remaining),
+        reply_markup=level_keyboard(),
+    )
+
+
 async def require_specialty(update: Update, context: ContextTypes.DEFAULT_TYPE) -> str | None:
     key = current_specialty(context)
     if key:
@@ -253,7 +355,23 @@ async def require_specialty(update: Update, context: ContextTypes.DEFAULT_TYPE) 
     return None
 
 
+def _prompt_with_progress(item: dict, label: str, difficulty: str, session: dict) -> str:
+    text = format_question_prompt(item, label, difficulty)
+    i = int(session.get("index", 0)) + 1
+    n = int(session.get("count", 0))
+    level = int(session.get("level", 0))
+    header = f"📘 *Short MCQ — {label}*\n"
+    if text.startswith(header):
+        return text.replace(
+            header,
+            f"{header}Question *{i}/{n}* · Level *{level}*\n",
+            1,
+        )
+    return f"Question *{i}/{n}* · Level *{level}*\n\n{text}"
+
+
 async def send_question(update: Update, context: ContextTypes.DEFAULT_TYPE, difficulty: str) -> None:
+    """Legacy single-difficulty send (kept for compatibility; Short MCQ uses sessions)."""
     specialty_key = await require_specialty(update, context)
     if not specialty_key:
         return
@@ -264,7 +382,6 @@ async def send_question(update: Update, context: ContextTypes.DEFAULT_TYPE, diff
     idx, item, remaining = pick_question(specialty_key, difficulty, remaining)
     store[key] = remaining
 
-    # remember for callback resolution of short codes
     context.user_data["difficulty"] = difficulty
     context.user_data.setdefault("cb_spec", {})[specialty_key[:8]] = specialty_key
 
@@ -278,6 +395,92 @@ async def send_question(update: Update, context: ContextTypes.DEFAULT_TYPE, diff
         format_question_prompt(item, label, difficulty),
         reply_markup=question_keyboard(specialty_key, difficulty, idx, item),
     )
+
+
+async def start_mcq_session(
+    update: Update, context: ContextTypes.DEFAULT_TYPE, specialty_key: str, count: int, level: int
+) -> None:
+    user = update.effective_user
+    if not user:
+        return
+    remaining = USAGE_STORE.remaining(user.id, specialty_key)
+    label = specialty_label(specialty_key)
+    if remaining <= 0:
+        await safe_reply(update, daily_limit_text(label), reply_markup=feature_keyboard())
+        clear_mcq_session(context)
+        context.user_data["quiz_mode"] = None
+        return
+    if count > remaining:
+        count = remaining
+
+    queue = build_difficulty_queue(count, level)
+    context.user_data["mcq_session"] = {
+        "specialty": specialty_key,
+        "count": count,
+        "level": level,
+        "queue": queue,
+        "index": 0,
+        "correct": 0,
+        "active": True,
+    }
+    context.user_data["mcq_await"] = None
+    context.user_data["quiz_mode"] = "question"
+    await send_session_question(update, context)
+
+
+async def send_session_question(
+    update: Update,
+    context: ContextTypes.DEFAULT_TYPE,
+    *,
+    reply_to_message=None,
+) -> None:
+    session = context.user_data.get("mcq_session")
+    if not session or not session.get("active"):
+        return
+    specialty_key = session["specialty"]
+    user = update.effective_user
+    if not user:
+        return
+
+    remaining = USAGE_STORE.remaining(user.id, specialty_key)
+    label = specialty_label(specialty_key)
+    if remaining <= 0 or session["index"] >= session["count"]:
+        session["active"] = False
+        left = USAGE_STORE.remaining(user.id, specialty_key)
+        text = session_complete_text(label, session, left)
+        clear_mcq_session(context)
+        context.user_data["quiz_mode"] = None
+        if reply_to_message is not None:
+            await reply_to_message.reply_text(text, parse_mode="Markdown", reply_markup=feature_keyboard())
+        else:
+            await safe_reply(update, text, reply_markup=feature_keyboard())
+        return
+
+    difficulty = session["queue"][session["index"]]
+    store = remaining_map(context, "remaining_questions")
+    key = pool_key(specialty_key, difficulty)
+    pool_remaining = store.get(key)
+    idx, item, pool_remaining = pick_question(specialty_key, difficulty, pool_remaining)
+    store[key] = pool_remaining
+
+    context.user_data["difficulty"] = difficulty
+    context.user_data.setdefault("cb_spec", {})[specialty_key[:8]] = specialty_key
+
+    item = present_question(item)
+    presented = context.user_data.setdefault("presented_questions", {})
+    presented[f"{specialty_key}:{difficulty}:{idx}"] = item
+
+    USAGE_STORE.increment(user.id, specialty_key, 1)
+    prompt = _prompt_with_progress(item, label, difficulty, session)
+    markup = question_keyboard(specialty_key, difficulty, idx, item)
+
+    if reply_to_message is not None:
+        try:
+            await reply_to_message.reply_text(prompt, parse_mode="Markdown", reply_markup=markup)
+        except BadRequest:
+            await reply_to_message.reply_text(prompt, reply_markup=markup)
+    else:
+        await safe_reply(update, prompt, reply_markup=markup)
 
 
 async def send_case(update: Update, context: ContextTypes.DEFAULT_TYPE, difficulty: str) -> None:
@@ -348,7 +551,14 @@ async def dispatch_feature(
             await show_specialty_menu(update, context)
         return
 
-    if intent in ("question", "case"):
+    if intent == "question":
+        if not specialty_key:
+            await show_specialty_menu(update, context, "Please choose a *specialty* first.")
+            return
+        await show_count_menu(update, context, specialty_key)
+        return
+
+    if intent == "case":
         if not specialty_key:
             await show_specialty_menu(update, context, "Please choose a *specialty* first.")
             return
@@ -381,35 +591,111 @@ async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         await show_feature_menu(update, context, specialty_key)
         return
 
-    # Difficulty selection (only when waiting for MCQ/case difficulty)
+    intent = detect_feature_intent(text)
+    if intent:
+        await dispatch_feature(update, context, intent)
+        return
+
+    # Short MCQ: count selection
+    if context.user_data.get("quiz_mode") == "question" and context.user_data.get("mcq_await") == "count":
+        count = parse_count(text)
+        spec = current_specialty(context)
+        if not spec:
+            await show_specialty_menu(update, context)
+            return
+        user = update.effective_user
+        remaining = USAGE_STORE.remaining(user.id, spec) if user else 0
+        if count is None:
+            await safe_reply(
+                update,
+                "Please choose *5*, *10*, *15*, or *20* questions.",
+                reply_markup=count_keyboard(remaining),
+            )
+            return
+        if remaining <= 0:
+            await safe_reply(update, daily_limit_text(specialty_label(spec)), reply_markup=feature_keyboard())
+            clear_mcq_session(context)
+            return
+        if count > remaining:
+            await safe_reply(
+                update,
+                f"Only *{remaining}* questions left today for this specialty. Choose an allowed count.",
+                reply_markup=count_keyboard(remaining),
+            )
+            return
+        await show_level_menu(update, context, spec, count)
+        return
+
+    # Short MCQ: advancement level selection
+    if context.user_data.get("quiz_mode") == "question" and context.user_data.get("mcq_await") == "level":
+        level = parse_level(text)
+        spec = current_specialty(context)
+        count = context.user_data.get("mcq_count")
+        if not spec or not isinstance(count, int):
+            if spec:
+                await show_count_menu(update, context, spec)
+            else:
+                await show_specialty_menu(update, context)
+            return
+        if level is None:
+            await safe_reply(
+                update,
+                "Please choose *Level 1* through *Level 5*.",
+                reply_markup=level_keyboard(),
+            )
+            return
+        await start_mcq_session(update, context, spec, count, level)
+        return
+
+    # Case difficulty selection (Short MCQ no longer uses fixed difficulty alone)
     if text in LABEL_TO_DIFFICULTY:
         difficulty = LABEL_TO_DIFFICULTY[text]
         mode = context.user_data.get("quiz_mode")
-        if mode == "question":
-            await send_question(update, context, difficulty)
-            return
         if mode == "case":
             await send_case(update, context, difficulty)
             return
-        # If difficulty pressed without mode, ask them to pick feature first
+        if mode == "question":
+            # Redirect into new Short MCQ flow
+            spec = current_specialty(context)
+            if spec:
+                await show_count_menu(update, context, spec)
+            else:
+                await show_specialty_menu(update, context)
+            return
         if current_specialty(context):
             await safe_reply(
                 update,
-                "First choose *Short MCQ* or *Case-based Question*, then a difficulty.",
+                "First choose *Short MCQ* (count + level) or *Case-based Question* (difficulty).",
                 reply_markup=feature_keyboard(),
             )
         else:
             await show_specialty_menu(update, context)
         return
 
-    intent = detect_feature_intent(text)
-    if intent:
-        await dispatch_feature(update, context, intent)
-        return
-
     if current_specialty(context):
         mode = context.user_data.get("quiz_mode")
-        if mode in ("question", "case"):
+        await_step = context.user_data.get("mcq_await")
+        if mode == "question" and await_step == "count":
+            user = update.effective_user
+            rem = USAGE_STORE.remaining(user.id, current_specialty(context)) if user else 0
+            await safe_reply(
+                update,
+                "Please choose how many questions to solve, or *Back to features*.",
+                reply_markup=count_keyboard(rem),
+            )
+        elif mode == "question" and await_step == "level":
+            await safe_reply(
+                update,
+                "Please choose an advancement level, or *Back to features*.",
+                reply_markup=level_keyboard(),
+            )
+        elif mode == "question" and context.user_data.get("mcq_session", {}).get("active"):
+            await safe_reply(
+                update,
+                "Answer the current question with the *A / B / C / D* buttons.",
+                reply_markup=feature_keyboard(),
+            )
+        elif mode == "case":
             await safe_reply(
                 update,
                 "Please choose a difficulty button, or *Back to features*.",
@@ -444,7 +730,7 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         except (ValueError, IndexError, KeyError, TypeError):
             await safe_edit(
                 query,
-                "This question expired. Open *Short MCQ* and pick a difficulty again.",
+                "This question expired. Open *Short MCQ* again to start a new set.",
             )
             return
         presented = context.user_data.get("presented_questions", {})
@@ -452,6 +738,18 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         label = specialty_label(specialty_key)
         result = format_question_result(item, choice, label, difficulty)
         await safe_edit(query, result)
+
+        session = context.user_data.get("mcq_session")
+        if session and session.get("active") and session.get("specialty") == specialty_key:
+            answered_ids = session.setdefault("answered_ids", [])
+            qid = f"{specialty_key}:{difficulty}:{idx}"
+            if qid in answered_ids:
+                return
+            answered_ids.append(qid)
+            if choice.upper() == correct_letter(item):
+                session["correct"] = int(session.get("correct") or 0) + 1
+            session["index"] = int(session.get("index") or 0) + 1
+            await send_session_question(update, context, reply_to_message=query.message)
         return
 
     if data.startswith("c:"):
