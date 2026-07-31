@@ -1,0 +1,1710 @@
+{
+  "easy": [
+    {
+      "question": "Which statement best matches the core concept of CPP concept?",
+      "options": [
+        "A) CPP ≈ MAP − ICP; balance pressure without uncontrolled hypo/hypertension",
+        "B) Drop MAP aggressively in high ICP without CPP consideration",
+        "C) Use a contraindicated medication or maneuver (CPP concept)",
+        "D) Delay escalation when red-flag signs are present (CPP concept)"
+      ],
+      "answer": "A) CPP ≈ MAP − ICP; balance pressure without uncontrolled hypo/hypertension",
+      "explanation": "Brain needs perfusion pressure not just low ICP. The best choice is: CPP ≈ MAP − ICP; balance pressure without uncontrolled hypo/hypertension. A close rival is: Drop MAP aggressively in high ICP without CPP consideration. Distinguisher: MAP crash harms ischemic brain—near-miss.",
+      "choice_explanations": {
+        "A": "Brain needs perfusion pressure not just low ICP.",
+        "B": "MAP crash harms ischemic brain—near-miss.",
+        "C": "Use a contraindicated medication or maneuver (CPP concept) is unrelated to the key pathophysiology of CPP concept.",
+        "D": "Delay escalation when red-flag signs are present (CPP concept) does not match the mechanism of CPP concept."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of ScvO2 interpretation?",
+      "options": [
+        "A) Shame the patient for clinical symptoms (ScvO2 interpretation)",
+        "B) Ignore low ScvO2 because SpO2 is 98%",
+        "C) Document care that was not performed (ScvO2 interpretation)",
+        "D) Low ScvO2 suggests inadequate O2 delivery relative to demand"
+      ],
+      "answer": "D) Low ScvO2 suggests inadequate O2 delivery relative to demand",
+      "explanation": "SpO2 ≠ tissue oxygen balance. The best choice is: Low ScvO2 suggests inadequate O2 delivery relative to demand. A close rival is: Ignore low ScvO2 because SpO2 is 98%. Distinguisher: SpO2 reassurance misses delivery problems—near-miss.",
+      "choice_explanations": {
+        "A": "Shame the patient for clinical symptoms (ScvO2 interpretation) is unrelated to the key pathophysiology of ScvO2 interpretation.",
+        "B": "SpO2 reassurance misses delivery problems—near-miss.",
+        "C": "Document care that was not performed (ScvO2 interpretation) does not match the mechanism of ScvO2 interpretation.",
+        "D": "SpO2 ≠ tissue oxygen balance."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Two-nurse high alert ICU?",
+      "options": [
+        "A) Skip indicated assessment and hope for the best (Two-nurse high alert ICU)",
+        "B) Choose an unrelated unsafe intervention (Two-nurse high alert ICU)",
+        "C) Independent double-checks for vasoactive/insulin/heparin drips per policy",
+        "D) Bypass dual checks for vasoactive drips when ‘experienced’"
+      ],
+      "answer": "C) Independent double-checks for vasoactive/insulin/heparin drips per policy",
+      "explanation": "High-alert errors devastate rapidly in ICU. The best choice is: Independent double-checks for vasoactive/insulin/heparin drips per policy. A close rival is: Bypass dual checks for vasoactive drips when ‘experienced’. Distinguisher: Experience ≠ skip double-check—near-miss.",
+      "choice_explanations": {
+        "A": "Skip indicated assessment and hope for the best (Two-nurse high alert ICU) does not match the mechanism of Two-nurse high alert ICU.",
+        "B": "Choose an unrelated unsafe intervention (Two-nurse high alert ICU) is unrelated to the key pathophysiology of Two-nurse high alert ICU.",
+        "C": "High-alert errors devastate rapidly in ICU.",
+        "D": "Experience ≠ skip double-check—near-miss."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Chest tube continuous bubbling?",
+      "options": [
+        "A) Clamp chest tube routinely for transport without protocol",
+        "B) Assess for air leak vs system issues; don’t clamp routinely without reason",
+        "C) Shame the patient for clinical symptoms (Chest tube continuous bubbling)",
+        "D) Document care that was not performed (Chest tube continuous bubbling)"
+      ],
+      "answer": "B) Assess for air leak vs system issues; don’t clamp routinely without reason",
+      "explanation": "Indiscriminate clamping can cause tension physiology. The best choice is: Assess for air leak vs system issues; don’t clamp routinely without reason. A close rival is: Clamp chest tube routinely for transport without protocol. Distinguisher: Routine clamping is near-miss.",
+      "choice_explanations": {
+        "A": "Routine clamping is near-miss.",
+        "B": "Indiscriminate clamping can cause tension physiology.",
+        "C": "Shame the patient for clinical symptoms (Chest tube continuous bubbling) is unrelated to the key pathophysiology of Chest tube continuous bubbling.",
+        "D": "Document care that was not performed (Chest tube continuous bubbling) does not match the mechanism of Chest tube continuous bubbling."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Suction sterile ET?",
+      "options": [
+        "A) Use a contraindicated medication or maneuver (Suction sterile ET)",
+        "B) Hyperoxygenate as indicated; limit passes; sterile open suction technique",
+        "C) Deep prolonged clean suction without oxygenation",
+        "D) Delay escalation when red-flag signs are present (Suction sterile ET)"
+      ],
+      "answer": "B) Hyperoxygenate as indicated; limit passes; sterile open suction technique",
+      "explanation": "Brief sterile suction clears without hypoxia/trauma. The best choice is: Hyperoxygenate as indicated; limit passes; sterile open suction technique. A close rival is: Deep prolonged clean suction without oxygenation. Distinguisher: Prolonged suction harms—near-miss.",
+      "choice_explanations": {
+        "A": "Use a contraindicated medication or maneuver (Suction sterile ET) is unrelated to the key pathophysiology of Suction sterile ET.",
+        "B": "Brief sterile suction clears without hypoxia/trauma.",
+        "C": "Prolonged suction harms—near-miss.",
+        "D": "Delay escalation when red-flag signs are present (Suction sterile ET) does not match the mechanism of Suction sterile ET."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of RV infarct nitrates?",
+      "options": [
+        "A) Choose an unrelated unsafe intervention (RV infarct nitrates)",
+        "B) Skip indicated assessment and hope for the best (RV infarct nitrates)",
+        "C) Avoid nitrates/diuretics in RV infarct; fluid cautious support",
+        "D) Give nitroglycerin for inferior MI with clear lungs and hypotension from RV infarct"
+      ],
+      "answer": "C) Avoid nitrates/diuretics in RV infarct; fluid cautious support",
+      "explanation": "RV is preload dependent. The best choice is: Avoid nitrates/diuretics in RV infarct; fluid cautious support. A close rival is: Give nitroglycerin for inferior MI with clear lungs and hypotension from RV infarct. Distinguisher: Nitrates drop preload—near-miss.",
+      "choice_explanations": {
+        "A": "Choose an unrelated unsafe intervention (RV infarct nitrates) is unrelated to the key pathophysiology of RV infarct nitrates.",
+        "B": "Skip indicated assessment and hope for the best (RV infarct nitrates) does not match the mechanism of RV infarct nitrates.",
+        "C": "RV is preload dependent.",
+        "D": "Nitrates drop preload—near-miss."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of CLABSI ICU bundle?",
+      "options": [
+        "A) Shame the patient for clinical symptoms (CLABSI ICU bundle)",
+        "B) Document care that was not performed (CLABSI ICU bundle)",
+        "C) Skip hub scrub because cap ‘looked clean’",
+        "D) Chlorhexidine, sterile barriers, daily line necessity, scrub hub"
+      ],
+      "answer": "D) Chlorhexidine, sterile barriers, daily line necessity, scrub hub",
+      "explanation": "Bundles cut bloodstream infections. The best choice is: Chlorhexidine, sterile barriers, daily line necessity, scrub hub. A close rival is: Skip hub scrub because cap ‘looked clean’. Distinguisher: Skipped hub scrub is CLABSI near-miss.",
+      "choice_explanations": {
+        "A": "Shame the patient for clinical symptoms (CLABSI ICU bundle) is unrelated to the key pathophysiology of CLABSI ICU bundle.",
+        "B": "Document care that was not performed (CLABSI ICU bundle) does not match the mechanism of CLABSI ICU bundle.",
+        "C": "Skipped hub scrub is CLABSI near-miss.",
+        "D": "Bundles cut bloodstream infections."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Cardiogenic vs distributive?",
+      "options": [
+        "A) Give multi-liter fluids for wet cold cardiogenic shock as if septic",
+        "B) Cardiogenic: congestion/low output; distributive: vasodilation—different fluids/pressors",
+        "C) Assume one normal value excludes disease (Cardiogenic vs distributive)",
+        "D) Share confidential details outside the care team (Cardiogenic vs distributive)"
+      ],
+      "answer": "B) Cardiogenic: congestion/low output; distributive: vasodilation—different fluids/pressors",
+      "explanation": "Wrong shock type → wrong preload strategy. The best choice is: Cardiogenic: congestion/low output; distributive: vasodilation—different fluids/pressors. A close rival is: Give multi-liter fluids for wet cold cardiogenic shock as if septic. Distinguisher: Fluids in wet cardiogenic shock worsen edema—near-miss.",
+      "choice_explanations": {
+        "A": "Fluids in wet cardiogenic shock worsen edema—near-miss.",
+        "B": "Wrong shock type → wrong preload strategy.",
+        "C": "Assume one normal value excludes disease (Cardiogenic vs distributive) does not match the mechanism of Cardiogenic vs distributive.",
+        "D": "Share confidential details outside the care team (Cardiogenic vs distributive) is unrelated to the key pathophysiology of Cardiogenic vs distributive."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Spinal cord perfusion MAP?",
+      "options": [
+        "A) Allow prolonged hypotension after acute SCI without MAP strategy",
+        "B) Document care that was not performed (Spinal cord perfusion MAP)",
+        "C) Maintain ordered MAP goals after acute cord injury",
+        "D) Shame the patient for clinical symptoms (Spinal cord perfusion MAP)"
+      ],
+      "answer": "C) Maintain ordered MAP goals after acute cord injury",
+      "explanation": "Cord perfusion depends on pressure. The best choice is: Maintain ordered MAP goals after acute cord injury. A close rival is: Allow prolonged hypotension after acute SCI without MAP strategy. Distinguisher: Uncorrected hypotension worsens cord injury—near-miss.",
+      "choice_explanations": {
+        "A": "Uncorrected hypotension worsens cord injury—near-miss.",
+        "B": "Document care that was not performed (Spinal cord perfusion MAP) does not match the mechanism of Spinal cord perfusion MAP.",
+        "C": "Cord perfusion depends on pressure.",
+        "D": "Shame the patient for clinical symptoms (Spinal cord perfusion MAP) is unrelated to the key pathophysiology of Spinal cord perfusion MAP."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Donation after circulatory death?",
+      "options": [
+        "A) Use a contraindicated medication or maneuver (Donation after circulatory death)",
+        "B) Delay escalation when red-flag signs are present (Donation after circulatory death)",
+        "C) Strict death declaration timing protocols before recovery",
+        "D) Begin organ recovery before legal death declaration"
+      ],
+      "answer": "C) Strict death declaration timing protocols before recovery",
+      "explanation": "Ethical donation requires death first. The best choice is: Strict death declaration timing protocols before recovery. A close rival is: Begin organ recovery before legal death declaration. Distinguisher: Premature recovery is ethical/legal near-miss.",
+      "choice_explanations": {
+        "A": "Use a contraindicated medication or maneuver (Donation after circulatory death) is unrelated to the key pathophysiology of Donation after circulatory death.",
+        "B": "Delay escalation when red-flag signs are present (Donation after circulatory death) does not match the mechanism of Donation after circulatory death.",
+        "C": "Ethical donation requires death first.",
+        "D": "Premature recovery is ethical/legal near-miss."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of CRRT citrate calcium?",
+      "options": [
+        "A) Ignore falling ionized calcium on citrate CRRT",
+        "B) Monitor systemic/ionized calcium during citrate anticoagulation",
+        "C) Choose an unrelated unsafe intervention (CRRT citrate calcium)",
+        "D) Skip indicated assessment and hope for the best (CRRT citrate calcium)"
+      ],
+      "answer": "B) Monitor systemic/ionized calcium during citrate anticoagulation",
+      "explanation": "Citrate chelates calcium—hypocalcemia harms heart. The best choice is: Monitor systemic/ionized calcium during citrate anticoagulation. A close rival is: Ignore falling ionized calcium on citrate CRRT. Distinguisher: Ignored iCa causes arrest—near-miss.",
+      "choice_explanations": {
+        "A": "Ignored iCa causes arrest—near-miss.",
+        "B": "Citrate chelates calcium—hypocalcemia harms heart.",
+        "C": "Choose an unrelated unsafe intervention (CRRT citrate calcium) is unrelated to the key pathophysiology of CRRT citrate calcium.",
+        "D": "Skip indicated assessment and hope for the best (CRRT citrate calcium) does not match the mechanism of CRRT citrate calcium."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of MTP hypocalcemia?",
+      "options": [
+        "A) Citrate load binds calcium—replete Ca during massive transfusion",
+        "B) Delay escalation when red-flag signs are present (MTP hypocalcemia)",
+        "C) Use a contraindicated medication or maneuver (MTP hypocalcemia)",
+        "D) Ignore ionized hypocalcemia during MTP with ongoing oozing"
+      ],
+      "answer": "A) Citrate load binds calcium—replete Ca during massive transfusion",
+      "explanation": "Hypocalcemia impairs clotting/cardiac function. The best choice is: Citrate load binds calcium—replete Ca during massive transfusion. A close rival is: Ignore ionized hypocalcemia during MTP with ongoing oozing. Distinguisher: Ignored Ca worsens coagulopathy—near-miss.",
+      "choice_explanations": {
+        "A": "Hypocalcemia impairs clotting/cardiac function.",
+        "B": "Delay escalation when red-flag signs are present (MTP hypocalcemia) does not match the mechanism of MTP hypocalcemia.",
+        "C": "Use a contraindicated medication or maneuver (MTP hypocalcemia) is unrelated to the key pathophysiology of MTP hypocalcemia.",
+        "D": "Ignored Ca worsens coagulopathy—near-miss."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Tumor lysis labs?",
+      "options": [
+        "A) Hydration, allopurinol/rasburicase as ordered; monitor K/phos/uric acid/Ca",
+        "B) Force potassium supplementation in TLS with already high K",
+        "C) Assume one normal value excludes disease (Tumor lysis labs)",
+        "D) Share confidential details outside the care team (Tumor lysis labs)"
+      ],
+      "answer": "A) Hydration, allopurinol/rasburicase as ordered; monitor K/phos/uric acid/Ca",
+      "explanation": "Cell lysis releases K/phos/uric acid. The best choice is: Hydration, allopurinol/rasburicase as ordered; monitor K/phos/uric acid/Ca. A close rival is: Force potassium supplementation in TLS with already high K. Distinguisher: Extra K+ in TLS can arrest—near-miss.",
+      "choice_explanations": {
+        "A": "Cell lysis releases K/phos/uric acid.",
+        "B": "Extra K+ in TLS can arrest—near-miss.",
+        "C": "Assume one normal value excludes disease (Tumor lysis labs) does not match the mechanism of Tumor lysis labs.",
+        "D": "Share confidential details outside the care team (Tumor lysis labs) is unrelated to the key pathophysiology of Tumor lysis labs."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Myxedema coma support?",
+      "options": [
+        "A) Document care that was not performed (Myxedema coma support)",
+        "B) Shame the patient for clinical symptoms (Myxedema coma support)",
+        "C) Give large sedative doses for myxedema lethargy",
+        "D) Airway, gentle rewarming, thyroid hormone as ordered, avoid sedatives"
+      ],
+      "answer": "D) Airway, gentle rewarming, thyroid hormone as ordered, avoid sedatives",
+      "explanation": "Hypothyroid patients hypoventilate; sedatives precipitate arrest. The best choice is: Airway, gentle rewarming, thyroid hormone as ordered, avoid sedatives. A close rival is: Give large sedative doses for myxedema lethargy. Distinguisher: Sedatives in myxedema are near-miss.",
+      "choice_explanations": {
+        "A": "Document care that was not performed (Myxedema coma support) does not match the mechanism of Myxedema coma support.",
+        "B": "Shame the patient for clinical symptoms (Myxedema coma support) is unrelated to the key pathophysiology of Myxedema coma support.",
+        "C": "Sedatives in myxedema are near-miss.",
+        "D": "Hypothyroid patients hypoventilate; sedatives precipitate arrest."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Source control sepsis?",
+      "options": [
+        "A) Antibiotics alone forever for undrained abscess causing shock",
+        "B) Seek drainage/debridement/device removal when source controllable",
+        "C) Use a contraindicated medication or maneuver (Source control sepsis)",
+        "D) Delay escalation when red-flag signs are present (Source control sepsis)"
+      ],
+      "answer": "B) Seek drainage/debridement/device removal when source controllable",
+      "explanation": "Source control is essential alongside drugs. The best choice is: Seek drainage/debridement/device removal when source controllable. A close rival is: Antibiotics alone forever for undrained abscess causing shock. Distinguisher: No source control fails—near-miss.",
+      "choice_explanations": {
+        "A": "No source control fails—near-miss.",
+        "B": "Source control is essential alongside drugs.",
+        "C": "Use a contraindicated medication or maneuver (Source control sepsis) is unrelated to the key pathophysiology of Source control sepsis.",
+        "D": "Delay escalation when red-flag signs are present (Source control sepsis) does not match the mechanism of Source control sepsis."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Waveform ETCO2 intubation?",
+      "options": [
+        "A) Rely only on a single auscultation whoosh without ETCO2",
+        "B) Delay escalation when red-flag signs are present (Waveform ETCO2 intubation)",
+        "C) Confirm ETT with continuous ETCO2 waveform plus clinical assessment",
+        "D) Use a contraindicated medication or maneuver (Waveform ETCO2 intubation)"
+      ],
+      "answer": "C) Confirm ETT with continuous ETCO2 waveform plus clinical assessment",
+      "explanation": "ETCO2 detects esophageal intubation rapidly. The best choice is: Confirm ETT with continuous ETCO2 waveform plus clinical assessment. A close rival is: Rely only on a single auscultation whoosh without ETCO2. Distinguisher: Auscultation-only confirmation is near-miss.",
+      "choice_explanations": {
+        "A": "Auscultation-only confirmation is near-miss.",
+        "B": "Delay escalation when red-flag signs are present (Waveform ETCO2 intubation) does not match the mechanism of Waveform ETCO2 intubation.",
+        "C": "ETCO2 detects esophageal intubation rapidly.",
+        "D": "Use a contraindicated medication or maneuver (Waveform ETCO2 intubation) is unrelated to the key pathophysiology of Waveform ETCO2 intubation."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Neutropenic sepsis ICU?",
+      "options": [
+        "A) Wait overnight for fever to resolve in ANC near zero",
+        "B) Urgent broad antibiotics for fever in neutropenia",
+        "C) Choose an unrelated unsafe intervention (Neutropenic sepsis ICU)",
+        "D) Skip indicated assessment and hope for the best (Neutropenic sepsis ICU)"
+      ],
+      "answer": "B) Urgent broad antibiotics for fever in neutropenia",
+      "explanation": "Host defense failure makes delay deadly. The best choice is: Urgent broad antibiotics for fever in neutropenia. A close rival is: Wait overnight for fever to resolve in ANC near zero. Distinguisher: Waiting on neutropenic fever is near-miss.",
+      "choice_explanations": {
+        "A": "Waiting on neutropenic fever is near-miss.",
+        "B": "Host defense failure makes delay deadly.",
+        "C": "Choose an unrelated unsafe intervention (Neutropenic sepsis ICU) is unrelated to the key pathophysiology of Neutropenic sepsis ICU.",
+        "D": "Skip indicated assessment and hope for the best (Neutropenic sepsis ICU) does not match the mechanism of Neutropenic sepsis ICU."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Succinylcholine hyperK?",
+      "options": [
+        "A) Give succinylcholine routinely 2 weeks after major burn without caution",
+        "B) Avoid succinylcholine in burns/denervation risk windows—hyperkalemic arrest",
+        "C) Document care that was not performed (Succinylcholine hyperK)",
+        "D) Shame the patient for clinical symptoms (Succinylcholine hyperK)"
+      ],
+      "answer": "B) Avoid succinylcholine in burns/denervation risk windows—hyperkalemic arrest",
+      "explanation": "Upregulated ACh receptors release K+. The best choice is: Avoid succinylcholine in burns/denervation risk windows—hyperkalemic arrest. A close rival is: Give succinylcholine routinely 2 weeks after major burn without caution. Distinguisher: Succinylcholine in risk window arrests—near-miss.",
+      "choice_explanations": {
+        "A": "Succinylcholine in risk window arrests—near-miss.",
+        "B": "Upregulated ACh receptors release K+.",
+        "C": "Document care that was not performed (Succinylcholine hyperK) does not match the mechanism of Succinylcholine hyperK.",
+        "D": "Shame the patient for clinical symptoms (Succinylcholine hyperK) is unrelated to the key pathophysiology of Succinylcholine hyperK."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Stress ulcer prophylaxis indications?",
+      "options": [
+        "A) Continue PPI prophylaxis indefinitely without indication review after ICU recovery",
+        "B) Share confidential details outside the care team (Stress ulcer prophylaxis indications)",
+        "C) Prophylaxis for indicated ICU risks—not universal forever without review",
+        "D) Assume one normal value excludes disease (Stress ulcer prophylaxis indications)"
+      ],
+      "answer": "C) Prophylaxis for indicated ICU risks—not universal forever without review",
+      "explanation": "Overuse raises infection risks. The best choice is: Prophylaxis for indicated ICU risks—not universal forever without review. A close rival is: Continue PPI prophylaxis indefinitely without indication review after ICU recovery. Distinguisher: Indication-less PPI forever is near-miss.",
+      "choice_explanations": {
+        "A": "Indication-less PPI forever is near-miss.",
+        "B": "Share confidential details outside the care team (Stress ulcer prophylaxis indications) is unrelated to the key pathophysiology of Stress ulcer prophylaxis indications.",
+        "C": "Overuse raises infection risks.",
+        "D": "Assume one normal value excludes disease (Stress ulcer prophylaxis indications) does not match the mechanism of Stress ulcer prophylaxis indications."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Hypertensive encephalopathy controlled drop?",
+      "options": [
+        "A) Delay escalation when red-flag signs are present (Hypertensive encephalopathy controlled drop)",
+        "B) Use a contraindicated medication or maneuver (Hypertensive encephalopathy controlled drop)",
+        "C) Drop BP to lowest possible within minutes for encephalopathy",
+        "D) Controlled BP reduction—not instant normalization to 80 systolic"
+      ],
+      "answer": "D) Controlled BP reduction—not instant normalization to 80 systolic",
+      "explanation": "Over-rapid drops underperfuse brain. The best choice is: Controlled BP reduction—not instant normalization to 80 systolic. A close rival is: Drop BP to lowest possible within minutes for encephalopathy. Distinguisher: Precipitous correction causes stroke—near-miss.",
+      "choice_explanations": {
+        "A": "Delay escalation when red-flag signs are present (Hypertensive encephalopathy controlled drop) does not match the mechanism of Hypertensive encephalopathy controlled drop.",
+        "B": "Use a contraindicated medication or maneuver (Hypertensive encephalopathy controlled drop) is unrelated to the key pathophysiology of Hypertensive encephalopathy controlled drop.",
+        "C": "Precipitous correction causes stroke—near-miss.",
+        "D": "Over-rapid drops underperfuse brain."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Brain death nursing support?",
+      "options": [
+        "A) Speak casually about ‘harvest’ in hallway before family discussion",
+        "B) Support physiology for donation if planned; sensitive family communication",
+        "C) Shame the patient for clinical symptoms (Brain death nursing support)",
+        "D) Document care that was not performed (Brain death nursing support)"
+      ],
+      "answer": "B) Support physiology for donation if planned; sensitive family communication",
+      "explanation": "Language and physiology care matter for dignity/donation. The best choice is: Support physiology for donation if planned; sensitive family communication. A close rival is: Speak casually about ‘harvest’ in hallway before family discussion. Distinguisher: Insensitive language harms families—near-miss.",
+      "choice_explanations": {
+        "A": "Insensitive language harms families—near-miss.",
+        "B": "Language and physiology care matter for dignity/donation.",
+        "C": "Shame the patient for clinical symptoms (Brain death nursing support) is unrelated to the key pathophysiology of Brain death nursing support.",
+        "D": "Document care that was not performed (Brain death nursing support) does not match the mechanism of Brain death nursing support."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Open book pelvis binder?",
+      "options": [
+        "A) Log-roll aggressively repeatedly without binder in unstable pelvis",
+        "B) Shame the patient for clinical symptoms (Open book pelvis binder)",
+        "C) Document care that was not performed (Open book pelvis binder)",
+        "D) Apply pelvic binder for unstable pelvic hemorrhage patterns"
+      ],
+      "answer": "D) Apply pelvic binder for unstable pelvic hemorrhage patterns",
+      "explanation": "Binder reduces pelvic volume/bleeding. The best choice is: Apply pelvic binder for unstable pelvic hemorrhage patterns. A close rival is: Log-roll aggressively repeatedly without binder in unstable pelvis. Distinguisher: Delayed binder worsens hemorrhage—near-miss.",
+      "choice_explanations": {
+        "A": "Delayed binder worsens hemorrhage—near-miss.",
+        "B": "Shame the patient for clinical symptoms (Open book pelvis binder) is unrelated to the key pathophysiology of Open book pelvis binder.",
+        "C": "Document care that was not performed (Open book pelvis binder) does not match the mechanism of Open book pelvis binder.",
+        "D": "Binder reduces pelvic volume/bleeding."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Open abdomen nursing?",
+      "options": [
+        "A) Delay escalation when red-flag signs are present (Open abdomen nursing)",
+        "B) Force early solid diet and ignore high losses from open abdomen",
+        "C) Protect temporary closure, fluid losses, infection surveillance",
+        "D) Use a contraindicated medication or maneuver (Open abdomen nursing)"
+      ],
+      "answer": "C) Protect temporary closure, fluid losses, infection surveillance",
+      "explanation": "Open abdomen has unique fluid/infection risks. The best choice is: Protect temporary closure, fluid losses, infection surveillance. A close rival is: Force early solid diet and ignore high losses from open abdomen. Distinguisher: Ignoring losses shocks—near-miss.",
+      "choice_explanations": {
+        "A": "Delay escalation when red-flag signs are present (Open abdomen nursing) does not match the mechanism of Open abdomen nursing.",
+        "B": "Ignoring losses shocks—near-miss.",
+        "C": "Open abdomen has unique fluid/infection risks.",
+        "D": "Use a contraindicated medication or maneuver (Open abdomen nursing) is unrelated to the key pathophysiology of Open abdomen nursing."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Refeeding ICU?",
+      "options": [
+        "A) Share confidential details outside the care team (Refeeding ICU)",
+        "B) Watch phos/K/Mg when refeeding severely malnourished",
+        "C) Start high-calorie feeds abruptly without electrolyte monitoring in starvation",
+        "D) Assume one normal value excludes disease (Refeeding ICU)"
+      ],
+      "answer": "B) Watch phos/K/Mg when refeeding severely malnourished",
+      "explanation": "Insulin-driven shifts precipitate refeeding syndrome. The best choice is: Watch phos/K/Mg when refeeding severely malnourished. A close rival is: Start high-calorie feeds abruptly without electrolyte monitoring in starvation. Distinguisher: Unmonitored aggressive refeeding arrests—near-miss.",
+      "choice_explanations": {
+        "A": "Share confidential details outside the care team (Refeeding ICU) is unrelated to the key pathophysiology of Refeeding ICU.",
+        "B": "Insulin-driven shifts precipitate refeeding syndrome.",
+        "C": "Unmonitored aggressive refeeding arrests—near-miss.",
+        "D": "Assume one normal value excludes disease (Refeeding ICU) does not match the mechanism of Refeeding ICU."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Vasospasm nimodipine?",
+      "options": [
+        "A) Nimodipine as ordered after SAH; monitor BP/deficits",
+        "B) Skip indicated assessment and hope for the best (Vasospasm nimodipine)",
+        "C) Skip nimodipine and ignore new focal deficits day 7 post-SAH",
+        "D) Choose an unrelated unsafe intervention (Vasospasm nimodipine)"
+      ],
+      "answer": "A) Nimodipine as ordered after SAH; monitor BP/deficits",
+      "explanation": "Delayed vasospasm causes ischemia. The best choice is: Nimodipine as ordered after SAH; monitor BP/deficits. A close rival is: Skip nimodipine and ignore new focal deficits day 7 post-SAH. Distinguisher: Ignoring deficits/nimodipine is near-miss.",
+      "choice_explanations": {
+        "A": "Delayed vasospasm causes ischemia.",
+        "B": "Skip indicated assessment and hope for the best (Vasospasm nimodipine) does not match the mechanism of Vasospasm nimodipine.",
+        "C": "Ignoring deficits/nimodipine is near-miss.",
+        "D": "Choose an unrelated unsafe intervention (Vasospasm nimodipine) is unrelated to the key pathophysiology of Vasospasm nimodipine."
+      }
+    }
+  ],
+  "medium": [
+    {
+      "question": "In clinical practice regarding Defib VF ASAP, which option is most accurate?",
+      "options": [
+        "A) Shock VF/pVT ASAP with high-quality CPR between",
+        "B) Delay defibrillation for prolonged IV attempts when AED ready",
+        "C) Shame the patient for clinical symptoms (Defib VF ASAP)",
+        "D) Document care that was not performed (Defib VF ASAP)"
+      ],
+      "answer": "A) Shock VF/pVT ASAP with high-quality CPR between",
+      "explanation": "Early defibrillation saves in VF. The best choice is: Shock VF/pVT ASAP with high-quality CPR between. A close rival is: Delay defibrillation for prolonged IV attempts when AED ready. Distinguisher: Delay for access is survival near-miss.",
+      "choice_explanations": {
+        "A": "Early defibrillation saves in VF.",
+        "B": "Delay for access is survival near-miss.",
+        "C": "Shame the patient for clinical symptoms (Defib VF ASAP) is unrelated to the key pathophysiology of Defib VF ASAP.",
+        "D": "Document care that was not performed (Defib VF ASAP) does not match the mechanism of Defib VF ASAP."
+      }
+    },
+    {
+      "question": "In clinical practice regarding PEEP oxygenation, which option is most accurate?",
+      "options": [
+        "A) Share confidential details outside the care team (PEEP oxygenation)",
+        "B) Assume one normal value excludes disease (PEEP oxygenation)",
+        "C) Max PEEP on hypovolemic patient ignoring BP crash",
+        "D) Titrate PEEP to improve oxygenation/recruitment while watching hemodynamics"
+      ],
+      "answer": "D) Titrate PEEP to improve oxygenation/recruitment while watching hemodynamics",
+      "explanation": "PEEP improves FRC but can cut venous return. The best choice is: Titrate PEEP to improve oxygenation/recruitment while watching hemodynamics. A close rival is: Max PEEP on hypovolemic patient ignoring BP crash. Distinguisher: Blind max PEEP shocks—near-miss.",
+      "choice_explanations": {
+        "A": "Share confidential details outside the care team (PEEP oxygenation) is unrelated to the key pathophysiology of PEEP oxygenation.",
+        "B": "Assume one normal value excludes disease (PEEP oxygenation) does not match the mechanism of PEEP oxygenation.",
+        "C": "Blind max PEEP shocks—near-miss.",
+        "D": "PEEP improves FRC but can cut venous return."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Neurogenic vs hypovolemic trauma, which option is most accurate?",
+      "options": [
+        "A) Assume one normal value excludes disease (Neurogenic vs hypovolemic trauma)",
+        "B) Assume all trauma hypotension is only neurogenic and skip hemorrhage search",
+        "C) Warm dry bradycardic hypotension suggests neurogenic after SCI; bleeding is tachycardic usually",
+        "D) Share confidential details outside the care team (Neurogenic vs hypovolemic trauma)"
+      ],
+      "answer": "C) Warm dry bradycardic hypotension suggests neurogenic after SCI; bleeding is tachycardic usually",
+      "explanation": "Missing hemorrhage kills; patterns help but don’t exclude bleeding. The best choice is: Warm dry bradycardic hypotension suggests neurogenic after SCI; bleeding is tachycardic usually. A close rival is: Assume all trauma hypotension is only neurogenic and skip hemorrhage search. Distinguisher: Skipping bleed search is near-miss.",
+      "choice_explanations": {
+        "A": "Assume one normal value excludes disease (Neurogenic vs hypovolemic trauma) does not match the mechanism of Neurogenic vs hypovolemic trauma.",
+        "B": "Skipping bleed search is near-miss.",
+        "C": "Missing hemorrhage kills; patterns help but don’t exclude bleeding.",
+        "D": "Share confidential details outside the care team (Neurogenic vs hypovolemic trauma) is unrelated to the key pathophysiology of Neurogenic vs hypovolemic trauma."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Burns parkland, which option is most accurate?",
+      "options": [
+        "A) Withhold fluids in large burns because patient ‘looks swollen’",
+        "B) Protocol fluids with UOP goals; airway edema watch",
+        "C) Document care that was not performed (Burns parkland)",
+        "D) Shame the patient for clinical symptoms (Burns parkland)"
+      ],
+      "answer": "B) Protocol fluids with UOP goals; airway edema watch",
+      "explanation": "Capillary leak causes hypovolemia despite edema. The best choice is: Protocol fluids with UOP goals; airway edema watch. A close rival is: Withhold fluids in large burns because patient ‘looks swollen’. Distinguisher: Withholding burn resuscitation is near-miss.",
+      "choice_explanations": {
+        "A": "Withholding burn resuscitation is near-miss.",
+        "B": "Capillary leak causes hypovolemia despite edema.",
+        "C": "Document care that was not performed (Burns parkland) does not match the mechanism of Burns parkland.",
+        "D": "Shame the patient for clinical symptoms (Burns parkland) is unrelated to the key pathophysiology of Burns parkland."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Transfusion thresholds ICU, which option is most accurate?",
+      "options": [
+        "A) Use a contraindicated medication or maneuver (Transfusion thresholds ICU)",
+        "B) Transfuse to Hgb 12 in stable asymptomatic anemia without indication",
+        "C) Delay escalation when red-flag signs are present (Transfusion thresholds ICU)",
+        "D) Restrictive thresholds often appropriate unless active ischemia/bleed"
+      ],
+      "answer": "D) Restrictive thresholds often appropriate unless active ischemia/bleed",
+      "explanation": "Liberal transfusion can harm. The best choice is: Restrictive thresholds often appropriate unless active ischemia/bleed. A close rival is: Transfuse to Hgb 12 in stable asymptomatic anemia without indication. Distinguisher: Unnecessary transfusion risks—near-miss.",
+      "choice_explanations": {
+        "A": "Use a contraindicated medication or maneuver (Transfusion thresholds ICU) is unrelated to the key pathophysiology of Transfusion thresholds ICU.",
+        "B": "Unnecessary transfusion risks—near-miss.",
+        "C": "Delay escalation when red-flag signs are present (Transfusion thresholds ICU) does not match the mechanism of Transfusion thresholds ICU.",
+        "D": "Liberal transfusion can harm."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Abdominal compartment, which option is most accurate?",
+      "options": [
+        "A) Ignore tense abdomen with oliguria and rising airway pressures",
+        "B) High pressures, oliguria, high vents—consider decompression",
+        "C) Assume one normal value excludes disease (Abdominal compartment)",
+        "D) Share confidential details outside the care team (Abdominal compartment)"
+      ],
+      "answer": "B) High pressures, oliguria, high vents—consider decompression",
+      "explanation": "ACS impairs renal/venous return/ventilation. The best choice is: High pressures, oliguria, high vents—consider decompression. A close rival is: Ignore tense abdomen with oliguria and rising airway pressures. Distinguisher: Ignored ACS kills—near-miss.",
+      "choice_explanations": {
+        "A": "Ignored ACS kills—near-miss.",
+        "B": "ACS impairs renal/venous return/ventilation.",
+        "C": "Assume one normal value excludes disease (Abdominal compartment) does not match the mechanism of Abdominal compartment.",
+        "D": "Share confidential details outside the care team (Abdominal compartment) is unrelated to the key pathophysiology of Abdominal compartment."
+      }
+    },
+    {
+      "question": "In clinical practice regarding HHS fluid first, which option is most accurate?",
+      "options": [
+        "A) Skip indicated assessment and hope for the best (HHS fluid first)",
+        "B) Profound dehydration in HHS—careful fluids then insulin",
+        "C) Treat HHS like hypoglycemia with candy alone",
+        "D) Choose an unrelated unsafe intervention (HHS fluid first)"
+      ],
+      "answer": "B) Profound dehydration in HHS—careful fluids then insulin",
+      "explanation": "Hyperosmolarity needs gradual correction. The best choice is: Profound dehydration in HHS—careful fluids then insulin. A close rival is: Treat HHS like hypoglycemia with candy alone. Distinguisher: Candy misidentifies crisis—near-miss.",
+      "choice_explanations": {
+        "A": "Skip indicated assessment and hope for the best (HHS fluid first) does not match the mechanism of HHS fluid first.",
+        "B": "Hyperosmolarity needs gradual correction.",
+        "C": "Candy misidentifies crisis—near-miss.",
+        "D": "Choose an unrelated unsafe intervention (HHS fluid first) is unrelated to the key pathophysiology of HHS fluid first."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Mannitol/hypertonic watch, which option is most accurate?",
+      "options": [
+        "A) Give repeated mannitol without checking osmolality/renal status",
+        "B) Share confidential details outside the care team (Mannitol/hypertonic watch)",
+        "C) Assume one normal value excludes disease (Mannitol/hypertonic watch)",
+        "D) Osmotherapy needs Na/osmolality/urine output monitoring"
+      ],
+      "answer": "D) Osmotherapy needs Na/osmolality/urine output monitoring",
+      "explanation": "Excess osmotherapy causes renal/electrolyte harm. The best choice is: Osmotherapy needs Na/osmolality/urine output monitoring. A close rival is: Give repeated mannitol without checking osmolality/renal status. Distinguisher: Blind repeated mannitol is near-miss.",
+      "choice_explanations": {
+        "A": "Blind repeated mannitol is near-miss.",
+        "B": "Share confidential details outside the care team (Mannitol/hypertonic watch) is unrelated to the key pathophysiology of Mannitol/hypertonic watch.",
+        "C": "Assume one normal value excludes disease (Mannitol/hypertonic watch) does not match the mechanism of Mannitol/hypertonic watch.",
+        "D": "Excess osmotherapy causes renal/electrolyte harm."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Extravasation vasopressors, which option is most accurate?",
+      "options": [
+        "A) Use a contraindicated medication or maneuver (Extravasation vasopressors)",
+        "B) Continue peripheral norepinephrine through a blanched infiltrated arm",
+        "C) Prefer central for prolonged vasopressors; treat peripheral extravasation emergently per protocol",
+        "D) Delay escalation when red-flag signs are present (Extravasation vasopressors)"
+      ],
+      "answer": "C) Prefer central for prolonged vasopressors; treat peripheral extravasation emergently per protocol",
+      "explanation": "Extravasation causes necrosis. The best choice is: Prefer central for prolonged vasopressors; treat peripheral extravasation emergently per protocol. A close rival is: Continue peripheral norepinephrine through a blanched infiltrated arm. Distinguisher: Continuing pressor into infiltrate is near-miss.",
+      "choice_explanations": {
+        "A": "Use a contraindicated medication or maneuver (Extravasation vasopressors) is unrelated to the key pathophysiology of Extravasation vasopressors.",
+        "B": "Continuing pressor into infiltrate is near-miss.",
+        "C": "Extravasation causes necrosis.",
+        "D": "Delay escalation when red-flag signs are present (Extravasation vasopressors) does not match the mechanism of Extravasation vasopressors."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Hyperkalemia membrane stabilization, which option is most accurate?",
+      "options": [
+        "A) Use a contraindicated medication or maneuver (Hyperkalemia membrane stabilization)",
+        "B) Delay escalation when red-flag signs are present (Hyperkalemia membrane stabilization)",
+        "C) Give spironolactone/KCl for peaked T waves and K 6.8",
+        "D) Calcium for cardiotoxicity then shift/eliminate K+"
+      ],
+      "answer": "D) Calcium for cardiotoxicity then shift/eliminate K+",
+      "explanation": "Calcium antagonizes cardiac effects temporarily. The best choice is: Calcium for cardiotoxicity then shift/eliminate K+. A close rival is: Give spironolactone/KCl for peaked T waves and K 6.8. Distinguisher: Adding K+ worsens—near-miss.",
+      "choice_explanations": {
+        "A": "Use a contraindicated medication or maneuver (Hyperkalemia membrane stabilization) is unrelated to the key pathophysiology of Hyperkalemia membrane stabilization.",
+        "B": "Delay escalation when red-flag signs are present (Hyperkalemia membrane stabilization) does not match the mechanism of Hyperkalemia membrane stabilization.",
+        "C": "Adding K+ worsens—near-miss.",
+        "D": "Calcium antagonizes cardiac effects temporarily."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Tension pneumothorax ICU, which option is most accurate?",
+      "options": [
+        "A) Choose an unrelated unsafe intervention (Tension pneumothorax ICU)",
+        "B) Skip indicated assessment and hope for the best (Tension pneumothorax ICU)",
+        "C) Hypotension + unilateral absent sounds + high pressures—decompress emergently",
+        "D) Increase PEEP and fluids only for suspected tension pneumothorax without decompression plan"
+      ],
+      "answer": "C) Hypotension + unilateral absent sounds + high pressures—decompress emergently",
+      "explanation": "Tension obstructs venous return. The best choice is: Hypotension + unilateral absent sounds + high pressures—decompress emergently. A close rival is: Increase PEEP and fluids only for suspected tension pneumothorax without decompression plan. Distinguisher: Missed decompression is fatal near-miss.",
+      "choice_explanations": {
+        "A": "Choose an unrelated unsafe intervention (Tension pneumothorax ICU) is unrelated to the key pathophysiology of Tension pneumothorax ICU.",
+        "B": "Skip indicated assessment and hope for the best (Tension pneumothorax ICU) does not match the mechanism of Tension pneumothorax ICU.",
+        "C": "Tension obstructs venous return.",
+        "D": "Missed decompression is fatal near-miss."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Malignant hyperthermia dantrolene, which option is most accurate?",
+      "options": [
+        "A) Treat MH only with acetaminophen and continued succinylcholine",
+        "B) Choose an unrelated unsafe intervention (Malignant hyperthermia dantrolene)",
+        "C) Skip indicated assessment and hope for the best (Malignant hyperthermia dantrolene)",
+        "D) Give dantrolene promptly; call for help; cool"
+      ],
+      "answer": "D) Give dantrolene promptly; call for help; cool",
+      "explanation": "Dantrolene treats the ryanodine crisis. The best choice is: Give dantrolene promptly; call for help; cool. A close rival is: Treat MH only with acetaminophen and continued succinylcholine. Distinguisher: Wrong treatment fuels MH—near-miss.",
+      "choice_explanations": {
+        "A": "Wrong treatment fuels MH—near-miss.",
+        "B": "Choose an unrelated unsafe intervention (Malignant hyperthermia dantrolene) is unrelated to the key pathophysiology of Malignant hyperthermia dantrolene.",
+        "C": "Skip indicated assessment and hope for the best (Malignant hyperthermia dantrolene) does not match the mechanism of Malignant hyperthermia dantrolene.",
+        "D": "Dantrolene treats the ryanodine crisis."
+      }
+    },
+    {
+      "question": "In clinical practice regarding SAT SBT coordination, which option is most accurate?",
+      "options": [
+        "A) Keep deep sedation during every SBT so patient ‘looks comfortable’ always",
+        "B) Spontaneous awakening then breathing trials reduce vent days",
+        "C) Share confidential details outside the care team (SAT SBT coordination)",
+        "D) Assume one normal value excludes disease (SAT SBT coordination)"
+      ],
+      "answer": "B) Spontaneous awakening then breathing trials reduce vent days",
+      "explanation": "Awake SBTs assess true readiness. The best choice is: Spontaneous awakening then breathing trials reduce vent days. A close rival is: Keep deep sedation during every SBT so patient ‘looks comfortable’ always. Distinguisher: Sedated SBTs falsely fail—near-miss.",
+      "choice_explanations": {
+        "A": "Sedated SBTs falsely fail—near-miss.",
+        "B": "Awake SBTs assess true readiness.",
+        "C": "Share confidential details outside the care team (SAT SBT coordination) is unrelated to the key pathophysiology of SAT SBT coordination.",
+        "D": "Assume one normal value excludes disease (SAT SBT coordination) does not match the mechanism of SAT SBT coordination."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Nitroprusside vs fluids HF, which option is most accurate?",
+      "options": [
+        "A) Bolus 2 L NS for flash pulmonary edema with HTN",
+        "B) Vasodilators/diuretics for hypertensive pulmonary edema; not blind fluid boluses",
+        "C) Skip indicated assessment and hope for the best (Nitroprusside vs fluids HF)",
+        "D) Choose an unrelated unsafe intervention (Nitroprusside vs fluids HF)"
+      ],
+      "answer": "B) Vasodilators/diuretics for hypertensive pulmonary edema; not blind fluid boluses",
+      "explanation": "Reduce preload/afterload; extra volume floods lungs. The best choice is: Vasodilators/diuretics for hypertensive pulmonary edema; not blind fluid boluses. A close rival is: Bolus 2 L NS for flash pulmonary edema with HTN. Distinguisher: Fluid bolus in flash edema is near-miss.",
+      "choice_explanations": {
+        "A": "Fluid bolus in flash edema is near-miss.",
+        "B": "Reduce preload/afterload; extra volume floods lungs.",
+        "C": "Skip indicated assessment and hope for the best (Nitroprusside vs fluids HF) does not match the mechanism of Nitroprusside vs fluids HF.",
+        "D": "Choose an unrelated unsafe intervention (Nitroprusside vs fluids HF) is unrelated to the key pathophysiology of Nitroprusside vs fluids HF."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Proning ARDS, which option is most accurate?",
+      "options": [
+        "A) Proning without airway/line security plan or indications",
+        "B) Prone positioning improves oxygenation in severe ARDS when protocolized",
+        "C) Delay escalation when red-flag signs are present (Proning ARDS)",
+        "D) Use a contraindicated medication or maneuver (Proning ARDS)"
+      ],
+      "answer": "B) Prone positioning improves oxygenation in severe ARDS when protocolized",
+      "explanation": "Proning redistributes lung stress/perfusion. The best choice is: Prone positioning improves oxygenation in severe ARDS when protocolized. A close rival is: Proning without airway/line security plan or indications. Distinguisher: Unplanned proning risks airway loss—near-miss.",
+      "choice_explanations": {
+        "A": "Unplanned proning risks airway loss—near-miss.",
+        "B": "Proning redistributes lung stress/perfusion.",
+        "C": "Delay escalation when red-flag signs are present (Proning ARDS) does not match the mechanism of Proning ARDS.",
+        "D": "Use a contraindicated medication or maneuver (Proning ARDS) is unrelated to the key pathophysiology of Proning ARDS."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Hyponatremia correction rate, which option is most accurate?",
+      "options": [
+        "A) Correct chronic Na 110 to 140 in a few hours with repeated 3%",
+        "B) Avoid overly rapid correction of chronic severe hyponatremia",
+        "C) Shame the patient for clinical symptoms (Hyponatremia correction rate)",
+        "D) Document care that was not performed (Hyponatremia correction rate)"
+      ],
+      "answer": "B) Avoid overly rapid correction of chronic severe hyponatremia",
+      "explanation": "Over-rapid correction risks osmotic demyelination. The best choice is: Avoid overly rapid correction of chronic severe hyponatremia. A close rival is: Correct chronic Na 110 to 140 in a few hours with repeated 3%. Distinguisher: Uncontrolled rapid correction is near-miss.",
+      "choice_explanations": {
+        "A": "Uncontrolled rapid correction is near-miss.",
+        "B": "Over-rapid correction risks osmotic demyelination.",
+        "C": "Shame the patient for clinical symptoms (Hyponatremia correction rate) is unrelated to the key pathophysiology of Hyponatremia correction rate.",
+        "D": "Document care that was not performed (Hyponatremia correction rate) does not match the mechanism of Hyponatremia correction rate."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Glucose control ICU, which option is most accurate?",
+      "options": [
+        "A) Chase glucose 60–80 tightly with frequent hypoglycemia in ICU",
+        "B) Document care that was not performed (Glucose control ICU)",
+        "C) Shame the patient for clinical symptoms (Glucose control ICU)",
+        "D) Moderate glucose control; avoid severe hypoglycemia from overly tight targets"
+      ],
+      "answer": "D) Moderate glucose control; avoid severe hypoglycemia from overly tight targets",
+      "explanation": "Hypoglycemia harms more than modest hyperglycemia sometimes. The best choice is: Moderate glucose control; avoid severe hypoglycemia from overly tight targets. A close rival is: Chase glucose 60–80 tightly with frequent hypoglycemia in ICU. Distinguisher: Overly tight control causes hypo harm—near-miss.",
+      "choice_explanations": {
+        "A": "Overly tight control causes hypo harm—near-miss.",
+        "B": "Document care that was not performed (Glucose control ICU) does not match the mechanism of Glucose control ICU.",
+        "C": "Shame the patient for clinical symptoms (Glucose control ICU) is unrelated to the key pathophysiology of Glucose control ICU.",
+        "D": "Hypoglycemia harms more than modest hyperglycemia sometimes."
+      }
+    },
+    {
+      "question": "In clinical practice regarding DOPE mnemonic vent, which option is most accurate?",
+      "options": [
+        "A) Share confidential details outside the care team (DOPE mnemonic vent)",
+        "B) Displacement, obstruction, pneumothorax, equipment for sudden vent distress",
+        "C) Assume anxiety only when SpO2 crashes on a ventilator without DOPE check",
+        "D) Assume one normal value excludes disease (DOPE mnemonic vent)"
+      ],
+      "answer": "B) Displacement, obstruction, pneumothorax, equipment for sudden vent distress",
+      "explanation": "Systematic causes prevent missed catastrophic failures. The best choice is: Displacement, obstruction, pneumothorax, equipment for sudden vent distress. A close rival is: Assume anxiety only when SpO2 crashes on a ventilator without DOPE check. Distinguisher: Anxiety labeling misses DOPE—near-miss.",
+      "choice_explanations": {
+        "A": "Share confidential details outside the care team (DOPE mnemonic vent) is unrelated to the key pathophysiology of DOPE mnemonic vent.",
+        "B": "Systematic causes prevent missed catastrophic failures.",
+        "C": "Anxiety labeling misses DOPE—near-miss.",
+        "D": "Assume one normal value excludes disease (DOPE mnemonic vent) does not match the mechanism of DOPE mnemonic vent."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Vent weaning readiness, which option is most accurate?",
+      "options": [
+        "A) Extubate at FiO2 1.0 and PEEP 15 without readiness screen",
+        "B) Assess RSBI, mentation, secretions, FiO2/PEEP before spontaneous breathing trial",
+        "C) Choose an unrelated unsafe intervention (Vent weaning readiness)",
+        "D) Skip indicated assessment and hope for the best (Vent weaning readiness)"
+      ],
+      "answer": "B) Assess RSBI, mentation, secretions, FiO2/PEEP before spontaneous breathing trial",
+      "explanation": "Failed extubation harms; readiness predicts success. The best choice is: Assess RSBI, mentation, secretions, FiO2/PEEP before spontaneous breathing trial. A close rival is: Extubate at FiO2 1.0 and PEEP 15 without readiness screen. Distinguisher: Unsafe early extubation is near-miss.",
+      "choice_explanations": {
+        "A": "Unsafe early extubation is near-miss.",
+        "B": "Failed extubation harms; readiness predicts success.",
+        "C": "Choose an unrelated unsafe intervention (Vent weaning readiness) is unrelated to the key pathophysiology of Vent weaning readiness.",
+        "D": "Skip indicated assessment and hope for the best (Vent weaning readiness) does not match the mechanism of Vent weaning readiness."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Transcutaneous pacing capture, which option is most accurate?",
+      "options": [
+        "A) Assume one normal value excludes disease (Transcutaneous pacing capture)",
+        "B) Share confidential details outside the care team (Transcutaneous pacing capture)",
+        "C) Confirm electrical and mechanical capture; sedation as needed",
+        "D) Assume pacing works if spikes seen without pulse check"
+      ],
+      "answer": "C) Confirm electrical and mechanical capture; sedation as needed",
+      "explanation": "Electrical spikes ≠ perfusion. The best choice is: Confirm electrical and mechanical capture; sedation as needed. A close rival is: Assume pacing works if spikes seen without pulse check. Distinguisher: Spike-without-pulse is near-miss.",
+      "choice_explanations": {
+        "A": "Assume one normal value excludes disease (Transcutaneous pacing capture) does not match the mechanism of Transcutaneous pacing capture.",
+        "B": "Share confidential details outside the care team (Transcutaneous pacing capture) is unrelated to the key pathophysiology of Transcutaneous pacing capture.",
+        "C": "Electrical spikes ≠ perfusion.",
+        "D": "Spike-without-pulse is near-miss."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Escharotomy ventilation, which option is most accurate?",
+      "options": [
+        "A) Circumferential chest burns may need escharotomy for ventilation",
+        "B) Ignore rising ventilation pressures in circumferential chest eschar",
+        "C) Delay escalation when red-flag signs are present (Escharotomy ventilation)",
+        "D) Use a contraindicated medication or maneuver (Escharotomy ventilation)"
+      ],
+      "answer": "A) Circumferential chest burns may need escharotomy for ventilation",
+      "explanation": "Tight eschar restricts chest expansion. The best choice is: Circumferential chest burns may need escharotomy for ventilation. A close rival is: Ignore rising ventilation pressures in circumferential chest eschar. Distinguisher: Ignored restriction causes arrest—near-miss.",
+      "choice_explanations": {
+        "A": "Tight eschar restricts chest expansion.",
+        "B": "Ignored restriction causes arrest—near-miss.",
+        "C": "Delay escalation when red-flag signs are present (Escharotomy ventilation) does not match the mechanism of Escharotomy ventilation.",
+        "D": "Use a contraindicated medication or maneuver (Escharotomy ventilation) is unrelated to the key pathophysiology of Escharotomy ventilation."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Massive PE thrombolysis, which option is most accurate?",
+      "options": [
+        "A) Shame the patient for clinical symptoms (Massive PE thrombolysis)",
+        "B) Consider systemic/catheter thrombolysis for unstable PE per team",
+        "C) Treat unstable PE with only oral anticoagulation at home advice",
+        "D) Document care that was not performed (Massive PE thrombolysis)"
+      ],
+      "answer": "B) Consider systemic/catheter thrombolysis for unstable PE per team",
+      "explanation": "Obstructive shock needs reperfusion consideration. The best choice is: Consider systemic/catheter thrombolysis for unstable PE per team. A close rival is: Treat unstable PE with only oral anticoagulation at home advice. Distinguisher: Home oral AC for unstable PE is near-miss.",
+      "choice_explanations": {
+        "A": "Shame the patient for clinical symptoms (Massive PE thrombolysis) is unrelated to the key pathophysiology of Massive PE thrombolysis.",
+        "B": "Obstructive shock needs reperfusion consideration.",
+        "C": "Home oral AC for unstable PE is near-miss.",
+        "D": "Document care that was not performed (Massive PE thrombolysis) does not match the mechanism of Massive PE thrombolysis."
+      }
+    },
+    {
+      "question": "In clinical practice regarding PE obstructive shock, which option is most accurate?",
+      "options": [
+        "A) Assume one normal value excludes disease (PE obstructive shock)",
+        "B) Massive fluids and high PEEP blindly for RV infarct/PE physiology without thought",
+        "C) Share confidential details outside the care team (PE obstructive shock)",
+        "D) Sudden hypoxia/hypotension—consider PE; support RV cautiously"
+      ],
+      "answer": "D) Sudden hypoxia/hypotension—consider PE; support RV cautiously",
+      "explanation": "RV failure worsens with overload/high PEEP. The best choice is: Sudden hypoxia/hypotension—consider PE; support RV cautiously. A close rival is: Massive fluids and high PEEP blindly for RV infarct/PE physiology without thought. Distinguisher: Blind RV overload is near-miss.",
+      "choice_explanations": {
+        "A": "Assume one normal value excludes disease (PE obstructive shock) does not match the mechanism of PE obstructive shock.",
+        "B": "Blind RV overload is near-miss.",
+        "C": "Share confidential details outside the care team (PE obstructive shock) is unrelated to the key pathophysiology of PE obstructive shock.",
+        "D": "RV failure worsens with overload/high PEEP."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Aspiration on induction, which option is most accurate?",
+      "options": [
+        "A) NPO status, cricoid debates per protocol, suction ready for RSI",
+        "B) Elective full-stomach induction without aspiration plan",
+        "C) Assume one normal value excludes disease (Aspiration on induction)",
+        "D) Share confidential details outside the care team (Aspiration on induction)"
+      ],
+      "answer": "A) NPO status, cricoid debates per protocol, suction ready for RSI",
+      "explanation": "Aspiration causes chemical pneumonitis/ARDS. The best choice is: NPO status, cricoid debates per protocol, suction ready for RSI. A close rival is: Elective full-stomach induction without aspiration plan. Distinguisher: Unplanned full-stomach induction is near-miss.",
+      "choice_explanations": {
+        "A": "Aspiration causes chemical pneumonitis/ARDS.",
+        "B": "Unplanned full-stomach induction is near-miss.",
+        "C": "Assume one normal value excludes disease (Aspiration on induction) does not match the mechanism of Aspiration on induction.",
+        "D": "Share confidential details outside the care team (Aspiration on induction) is unrelated to the key pathophysiology of Aspiration on induction."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Low tidal ARDS, which option is most accurate?",
+      "options": [
+        "A) Use 12 mL/kg IBW volumes routinely in ARDS for ‘better numbers’",
+        "B) Choose an unrelated unsafe intervention (Low tidal ARDS)",
+        "C) Low tidal volume ventilation (~6 mL/kg IBW) in ARDS reduces volutrauma",
+        "D) Skip indicated assessment and hope for the best (Low tidal ARDS)"
+      ],
+      "answer": "C) Low tidal volume ventilation (~6 mL/kg IBW) in ARDS reduces volutrauma",
+      "explanation": "Lung-protective ventilation improves survival. The best choice is: Low tidal volume ventilation (~6 mL/kg IBW) in ARDS reduces volutrauma. A close rival is: Use 12 mL/kg IBW volumes routinely in ARDS for ‘better numbers’. Distinguisher: High volumes injure lungs—near-miss.",
+      "choice_explanations": {
+        "A": "High volumes injure lungs—near-miss.",
+        "B": "Choose an unrelated unsafe intervention (Low tidal ARDS) is unrelated to the key pathophysiology of Low tidal ARDS.",
+        "C": "Lung-protective ventilation improves survival.",
+        "D": "Skip indicated assessment and hope for the best (Low tidal ARDS) does not match the mechanism of Low tidal ARDS."
+      }
+    }
+  ],
+  "hard": [
+    {
+      "question": "A student analyzes a case centered on Malignant hyperthermia. Key teaching point: Ryanodine receptor crisis needs dantrolene. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Assume one normal value excludes disease (Malignant hyperthermia)",
+        "B) Share confidential details outside the care team (Malignant hyperthermia)",
+        "C) Keep volatile anesthetics running during suspected MH crisis",
+        "D) Stop trigger, dantrolene, cool, support—OR/ICU emergency"
+      ],
+      "answer": "D) Stop trigger, dantrolene, cool, support—OR/ICU emergency",
+      "explanation": "Ryanodine receptor crisis needs dantrolene. The best choice is: Stop trigger, dantrolene, cool, support—OR/ICU emergency. A close rival is: Keep volatile anesthetics running during suspected MH crisis. Distinguisher: Continuing triggers fuels MH—near-miss.",
+      "choice_explanations": {
+        "A": "Assume one normal value excludes disease (Malignant hyperthermia) does not match the mechanism of Malignant hyperthermia.",
+        "B": "Share confidential details outside the care team (Malignant hyperthermia) is unrelated to the key pathophysiology of Malignant hyperthermia.",
+        "C": "Continuing triggers fuels MH—near-miss.",
+        "D": "Ryanodine receptor crisis needs dantrolene."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Thyroid storm ICU. Key teaching point: Hypermetabolic crisis worsens with heat/stimulants. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Choose an unrelated unsafe intervention (Thyroid storm ICU)",
+        "B) Bundle in warmers and give stimulants for thyroid storm",
+        "C) Supportive care + ordered antithyroid/beta-blockade sequence; avoid aspirin debates per protocol",
+        "D) Skip indicated assessment and hope for the best (Thyroid storm ICU)"
+      ],
+      "answer": "C) Supportive care + ordered antithyroid/beta-blockade sequence; avoid aspirin debates per protocol",
+      "explanation": "Hypermetabolic crisis worsens with heat/stimulants. The best choice is: Supportive care + ordered antithyroid/beta-blockade sequence; avoid aspirin debates per protocol. A close rival is: Bundle in warmers and give stimulants for thyroid storm. Distinguisher: Warming/stimulants worsen storm—near-miss.",
+      "choice_explanations": {
+        "A": "Choose an unrelated unsafe intervention (Thyroid storm ICU) is unrelated to the key pathophysiology of Thyroid storm ICU.",
+        "B": "Warming/stimulants worsen storm—near-miss.",
+        "C": "Hypermetabolic crisis worsens with heat/stimulants.",
+        "D": "Skip indicated assessment and hope for the best (Thyroid storm ICU) does not match the mechanism of Thyroid storm ICU."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Neuro checks frequency. Key teaching point: ICH can declare suddenly. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Use a contraindicated medication or maneuver (Neuro checks frequency)",
+        "B) Delay escalation when red-flag signs are present (Neuro checks frequency)",
+        "C) Skip q15 neuro checks post-tPA because patient ‘looks fine’ once",
+        "D) Frequent neuro checks after thrombolysis/neurosurgery to catch deterioration"
+      ],
+      "answer": "D) Frequent neuro checks after thrombolysis/neurosurgery to catch deterioration",
+      "explanation": "ICH can declare suddenly. The best choice is: Frequent neuro checks after thrombolysis/neurosurgery to catch deterioration. A close rival is: Skip q15 neuro checks post-tPA because patient ‘looks fine’ once. Distinguisher: Skipped checks miss ICH—near-miss.",
+      "choice_explanations": {
+        "A": "Use a contraindicated medication or maneuver (Neuro checks frequency) is unrelated to the key pathophysiology of Neuro checks frequency.",
+        "B": "Delay escalation when red-flag signs are present (Neuro checks frequency) does not match the mechanism of Neuro checks frequency.",
+        "C": "Skipped checks miss ICH—near-miss.",
+        "D": "ICH can declare suddenly."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Spinal shock vs neurogenic. Key teaching point: Neurogenic shock is distributive from loss of sympathetic tone. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Treat all post-SCI hypotension with only fluids ignoring bradycardia/neurogenic need for pressors",
+        "B) Choose an unrelated unsafe intervention (Spinal shock vs neurogenic)",
+        "C) Differentiate flaccid spinal shock from neurogenic hypotensive bradycardia patterns",
+        "D) Skip indicated assessment and hope for the best (Spinal shock vs neurogenic)"
+      ],
+      "answer": "C) Differentiate flaccid spinal shock from neurogenic hypotensive bradycardia patterns",
+      "explanation": "Neurogenic shock is distributive from loss of sympathetic tone. The best choice is: Differentiate flaccid spinal shock from neurogenic hypotensive bradycardia patterns. A close rival is: Treat all post-SCI hypotension with only fluids ignoring bradycardia/neurogenic need for pressors. Distinguisher: Wrong shock model mistreats—near-miss.",
+      "choice_explanations": {
+        "A": "Wrong shock model mistreats—near-miss.",
+        "B": "Choose an unrelated unsafe intervention (Spinal shock vs neurogenic) is unrelated to the key pathophysiology of Spinal shock vs neurogenic.",
+        "C": "Neurogenic shock is distributive from loss of sympathetic tone.",
+        "D": "Skip indicated assessment and hope for the best (Spinal shock vs neurogenic) does not match the mechanism of Spinal shock vs neurogenic."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on ICU hypoglycemia protocol. Key teaching point: Brain needs glucose; protocols stop/reduce insulin. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Delay escalation when red-flag signs are present (ICU hypoglycemia protocol)",
+        "B) Use a contraindicated medication or maneuver (ICU hypoglycemia protocol)",
+        "C) Continue high-rate insulin when glucose is 40 and patient is seizing",
+        "D) Treat severe hypo immediately; review insulin infusions"
+      ],
+      "answer": "D) Treat severe hypo immediately; review insulin infusions",
+      "explanation": "Brain needs glucose; protocols stop/reduce insulin. The best choice is: Treat severe hypo immediately; review insulin infusions. A close rival is: Continue high-rate insulin when glucose is 40 and patient is seizing. Distinguisher: Insulin during severe hypo is near-miss.",
+      "choice_explanations": {
+        "A": "Delay escalation when red-flag signs are present (ICU hypoglycemia protocol) does not match the mechanism of ICU hypoglycemia protocol.",
+        "B": "Use a contraindicated medication or maneuver (ICU hypoglycemia protocol) is unrelated to the key pathophysiology of ICU hypoglycemia protocol.",
+        "C": "Insulin during severe hypo is near-miss.",
+        "D": "Brain needs glucose; protocols stop/reduce insulin."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on EVD leveling. Key teaching point: Incorrect leveling misreads ICP/drains wrong volume. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Raise/lower EVD arbitrarily and leave clamped for long periods without order",
+        "B) Assume one normal value excludes disease (EVD leveling)",
+        "C) Level EVD transducer at ordered landmark; clamp only per protocol",
+        "D) Share confidential details outside the care team (EVD leveling)"
+      ],
+      "answer": "C) Level EVD transducer at ordered landmark; clamp only per protocol",
+      "explanation": "Incorrect leveling misreads ICP/drains wrong volume. The best choice is: Level EVD transducer at ordered landmark; clamp only per protocol. A close rival is: Raise/lower EVD arbitrarily and leave clamped for long periods without order. Distinguisher: Arbitrary EVD changes harm—near-miss.",
+      "choice_explanations": {
+        "A": "Arbitrary EVD changes harm—near-miss.",
+        "B": "Assume one normal value excludes disease (EVD leveling) does not match the mechanism of EVD leveling.",
+        "C": "Incorrect leveling misreads ICP/drains wrong volume.",
+        "D": "Share confidential details outside the care team (EVD leveling) is unrelated to the key pathophysiology of EVD leveling."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on CAUTI ICU removal. Key teaching point: Duration drives CAUTI. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Delay escalation when red-flag signs are present (CAUTI ICU removal)",
+        "B) Keep Foley for convenience urine output in mobile ICU patient without indication",
+        "C) Use a contraindicated medication or maneuver (CAUTI ICU removal)",
+        "D) Daily Foley necessity review; remove ASAP"
+      ],
+      "answer": "D) Daily Foley necessity review; remove ASAP",
+      "explanation": "Duration drives CAUTI. The best choice is: Daily Foley necessity review; remove ASAP. A close rival is: Keep Foley for convenience urine output in mobile ICU patient without indication. Distinguisher: Convenience Foley is near-miss.",
+      "choice_explanations": {
+        "A": "Delay escalation when red-flag signs are present (CAUTI ICU removal) does not match the mechanism of CAUTI ICU removal.",
+        "B": "Convenience Foley is near-miss.",
+        "C": "Use a contraindicated medication or maneuver (CAUTI ICU removal) is unrelated to the key pathophysiology of CAUTI ICU removal.",
+        "D": "Duration drives CAUTI."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Variceal bleed caution. Key teaching point: Varices can rebleed catastrophically. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Octreotide/antibiotics/endoscopy; careful NG decisions per protocol",
+        "B) Blind traumatic NG forcing through known esophageal varices without plan",
+        "C) Shame the patient for clinical symptoms (Variceal bleed caution)",
+        "D) Document care that was not performed (Variceal bleed caution)"
+      ],
+      "answer": "A) Octreotide/antibiotics/endoscopy; careful NG decisions per protocol",
+      "explanation": "Varices can rebleed catastrophically. The best choice is: Octreotide/antibiotics/endoscopy; careful NG decisions per protocol. A close rival is: Blind traumatic NG forcing through known esophageal varices without plan. Distinguisher: Traumatic NG may worsen—near-miss.",
+      "choice_explanations": {
+        "A": "Varices can rebleed catastrophically.",
+        "B": "Traumatic NG may worsen—near-miss.",
+        "C": "Shame the patient for clinical symptoms (Variceal bleed caution) is unrelated to the key pathophysiology of Variceal bleed caution.",
+        "D": "Document care that was not performed (Variceal bleed caution) does not match the mechanism of Variceal bleed caution."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on CVP interpretation limits. Key teaching point: Static CVP poorly predicts fluid responsiveness. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Choose an unrelated unsafe intervention (CVP interpretation limits)",
+        "B) Give unlimited fluids solely because CVP is 4 without other perfusion data",
+        "C) Skip indicated assessment and hope for the best (CVP interpretation limits)",
+        "D) CVP is imperfect preload measure—use with dynamic assessments"
+      ],
+      "answer": "D) CVP is imperfect preload measure—use with dynamic assessments",
+      "explanation": "Static CVP poorly predicts fluid responsiveness. The best choice is: CVP is imperfect preload measure—use with dynamic assessments. A close rival is: Give unlimited fluids solely because CVP is 4 without other perfusion data. Distinguisher: CVP-only fluid loading floods—near-miss.",
+      "choice_explanations": {
+        "A": "Choose an unrelated unsafe intervention (CVP interpretation limits) is unrelated to the key pathophysiology of CVP interpretation limits.",
+        "B": "CVP-only fluid loading floods—near-miss.",
+        "C": "Skip indicated assessment and hope for the best (CVP interpretation limits) does not match the mechanism of CVP interpretation limits.",
+        "D": "Static CVP poorly predicts fluid responsiveness."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on DVT prophylaxis ICU. Key teaching point: ICU patients are high VTE risk. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Pharmacologic ± mechanical unless contraindicated",
+        "B) Skip indicated assessment and hope for the best (DVT prophylaxis ICU)",
+        "C) Skip all prophylaxis in immobile ICU patient without reason",
+        "D) Choose an unrelated unsafe intervention (DVT prophylaxis ICU)"
+      ],
+      "answer": "A) Pharmacologic ± mechanical unless contraindicated",
+      "explanation": "ICU patients are high VTE risk. The best choice is: Pharmacologic ± mechanical unless contraindicated. A close rival is: Skip all prophylaxis in immobile ICU patient without reason. Distinguisher: No prophylaxis is near-miss.",
+      "choice_explanations": {
+        "A": "ICU patients are high VTE risk.",
+        "B": "Skip indicated assessment and hope for the best (DVT prophylaxis ICU) does not match the mechanism of DVT prophylaxis ICU.",
+        "C": "No prophylaxis is near-miss.",
+        "D": "Choose an unrelated unsafe intervention (DVT prophylaxis ICU) is unrelated to the key pathophysiology of DVT prophylaxis ICU."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on C-spine immobilization trauma. Key teaching point: Unstable spines can cord-injure with motion. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Maintain spinal precautions until cleared in mechanism-appropriate patients",
+        "B) Skip indicated assessment and hope for the best (C-spine immobilization trauma)",
+        "C) Forcibly flex neck of unstable blunt trauma for comfort photos",
+        "D) Choose an unrelated unsafe intervention (C-spine immobilization trauma)"
+      ],
+      "answer": "A) Maintain spinal precautions until cleared in mechanism-appropriate patients",
+      "explanation": "Unstable spines can cord-injure with motion. The best choice is: Maintain spinal precautions until cleared in mechanism-appropriate patients. A close rival is: Forcibly flex neck of unstable blunt trauma for comfort photos. Distinguisher: Forced flexion is near-miss.",
+      "choice_explanations": {
+        "A": "Unstable spines can cord-injure with motion.",
+        "B": "Skip indicated assessment and hope for the best (C-spine immobilization trauma) does not match the mechanism of C-spine immobilization trauma.",
+        "C": "Forced flexion is near-miss.",
+        "D": "Choose an unrelated unsafe intervention (C-spine immobilization trauma) is unrelated to the key pathophysiology of C-spine immobilization trauma."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Nutrition early ICU. Key teaching point: Early EN supports gut barrier. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Keep NPO for weeks without TPN/ENT plan while gut works",
+        "B) Use a contraindicated medication or maneuver (Nutrition early ICU)",
+        "C) Delay escalation when red-flag signs are present (Nutrition early ICU)",
+        "D) Start enteral nutrition early when gut usable; monitor residuals/aspiration per protocol"
+      ],
+      "answer": "D) Start enteral nutrition early when gut usable; monitor residuals/aspiration per protocol",
+      "explanation": "Early EN supports gut barrier. The best choice is: Start enteral nutrition early when gut usable; monitor residuals/aspiration per protocol. A close rival is: Keep NPO for weeks without TPN/ENT plan while gut works. Distinguisher: Prolonged unnecessary NPO harms—near-miss.",
+      "choice_explanations": {
+        "A": "Prolonged unnecessary NPO harms—near-miss.",
+        "B": "Use a contraindicated medication or maneuver (Nutrition early ICU) is unrelated to the key pathophysiology of Nutrition early ICU.",
+        "C": "Delay escalation when red-flag signs are present (Nutrition early ICU) does not match the mechanism of Nutrition early ICU.",
+        "D": "Early EN supports gut barrier."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Norepinephrine septic first. Key teaching point: NE improves MAP with favorable profile in sepsis. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Norepinephrine is common first-line vasopressor in septic shock",
+        "B) Use dopamine preferentially for all septic shock without reason against modern practice",
+        "C) Assume one normal value excludes disease (Norepinephrine septic first)",
+        "D) Share confidential details outside the care team (Norepinephrine septic first)"
+      ],
+      "answer": "A) Norepinephrine is common first-line vasopressor in septic shock",
+      "explanation": "NE improves MAP with favorable profile in sepsis. The best choice is: Norepinephrine is common first-line vasopressor in septic shock. A close rival is: Use dopamine preferentially for all septic shock without reason against modern practice. Distinguisher: Outdated first pressor choice is near-miss.",
+      "choice_explanations": {
+        "A": "NE improves MAP with favorable profile in sepsis.",
+        "B": "Outdated first pressor choice is near-miss.",
+        "C": "Assume one normal value excludes disease (Norepinephrine septic first) does not match the mechanism of Norepinephrine septic first.",
+        "D": "Share confidential details outside the care team (Norepinephrine septic first) is unrelated to the key pathophysiology of Norepinephrine septic first."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on HIT stop heparin. Key teaching point: HIT is prothrombotic; heparin fuels it. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Stop all heparin if HIT suspected; use alternative anticoagulant pathway",
+        "B) Delay escalation when red-flag signs are present (HIT stop heparin)",
+        "C) Continue heparin drip when platelets crash with new thrombosis",
+        "D) Use a contraindicated medication or maneuver (HIT stop heparin)"
+      ],
+      "answer": "A) Stop all heparin if HIT suspected; use alternative anticoagulant pathway",
+      "explanation": "HIT is prothrombotic; heparin fuels it. The best choice is: Stop all heparin if HIT suspected; use alternative anticoagulant pathway. A close rival is: Continue heparin drip when platelets crash with new thrombosis. Distinguisher: Continuing heparin in HIT is near-miss.",
+      "choice_explanations": {
+        "A": "HIT is prothrombotic; heparin fuels it.",
+        "B": "Delay escalation when red-flag signs are present (HIT stop heparin) does not match the mechanism of HIT stop heparin.",
+        "C": "Continuing heparin in HIT is near-miss.",
+        "D": "Use a contraindicated medication or maneuver (HIT stop heparin) is unrelated to the key pathophysiology of HIT stop heparin."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Tamponade pericardiocentesis. Key teaching point: Pericardial pressure equalizes filling. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Shame the patient for clinical symptoms (Tamponade pericardiocentesis)",
+        "B) Document care that was not performed (Tamponade pericardiocentesis)",
+        "C) Positive pressure induction and diuresis as first moves in tamponade without decompression plan",
+        "D) Beck triad/alternans—urgent decompression; fluids bridge"
+      ],
+      "answer": "D) Beck triad/alternans—urgent decompression; fluids bridge",
+      "explanation": "Pericardial pressure equalizes filling. The best choice is: Beck triad/alternans—urgent decompression; fluids bridge. A close rival is: Positive pressure induction and diuresis as first moves in tamponade without decompression plan. Distinguisher: Diuresis worsens filling—near-miss.",
+      "choice_explanations": {
+        "A": "Shame the patient for clinical symptoms (Tamponade pericardiocentesis) is unrelated to the key pathophysiology of Tamponade pericardiocentesis.",
+        "B": "Document care that was not performed (Tamponade pericardiocentesis) does not match the mechanism of Tamponade pericardiocentesis.",
+        "C": "Diuresis worsens filling—near-miss.",
+        "D": "Pericardial pressure equalizes filling."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Blunt cardiac injury. Key teaching point: Myocardial contusion causes arrhythmia. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Monitor dysrhythmias after chest trauma; ECG/troponin pathways",
+        "B) Ignore new VT after sternal trauma as anxiety",
+        "C) Use a contraindicated medication or maneuver (Blunt cardiac injury)",
+        "D) Delay escalation when red-flag signs are present (Blunt cardiac injury)"
+      ],
+      "answer": "A) Monitor dysrhythmias after chest trauma; ECG/troponin pathways",
+      "explanation": "Myocardial contusion causes arrhythmia. The best choice is: Monitor dysrhythmias after chest trauma; ECG/troponin pathways. A close rival is: Ignore new VT after sternal trauma as anxiety. Distinguisher: Ignoring post-trauma VT is near-miss.",
+      "choice_explanations": {
+        "A": "Myocardial contusion causes arrhythmia.",
+        "B": "Ignoring post-trauma VT is near-miss.",
+        "C": "Use a contraindicated medication or maneuver (Blunt cardiac injury) is unrelated to the key pathophysiology of Blunt cardiac injury.",
+        "D": "Delay escalation when red-flag signs are present (Blunt cardiac injury) does not match the mechanism of Blunt cardiac injury."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Alarm fatigue safety. Key teaching point: Alarm fatigue causes missed events; silencing all is dangerous. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Customize alarms thoughtfully; respond to actionable alarms",
+        "B) Assume one normal value excludes disease (Alarm fatigue safety)",
+        "C) Share confidential details outside the care team (Alarm fatigue safety)",
+        "D) Silence all alarms permanently without addressing causes"
+      ],
+      "answer": "A) Customize alarms thoughtfully; respond to actionable alarms",
+      "explanation": "Alarm fatigue causes missed events; silencing all is dangerous. The best choice is: Customize alarms thoughtfully; respond to actionable alarms. A close rival is: Silence all alarms permanently without addressing causes. Distinguisher: Permanent silence is near-miss.",
+      "choice_explanations": {
+        "A": "Alarm fatigue causes missed events; silencing all is dangerous.",
+        "B": "Assume one normal value excludes disease (Alarm fatigue safety) does not match the mechanism of Alarm fatigue safety.",
+        "C": "Share confidential details outside the care team (Alarm fatigue safety) is unrelated to the key pathophysiology of Alarm fatigue safety.",
+        "D": "Permanent silence is near-miss."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on DI vs SIADH ICU. Key teaching point: Opposite water balance problems need opposite fluids. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Assume one normal value excludes disease (DI vs SIADH ICU)",
+        "B) Fluid-restrict central DI with 10 L UO without replacement",
+        "C) DI: high UO dilute urine hyperNa; SIADH: low UO inappropriate concentrated hypoNa",
+        "D) Share confidential details outside the care team (DI vs SIADH ICU)"
+      ],
+      "answer": "C) DI: high UO dilute urine hyperNa; SIADH: low UO inappropriate concentrated hypoNa",
+      "explanation": "Opposite water balance problems need opposite fluids. The best choice is: DI: high UO dilute urine hyperNa; SIADH: low UO inappropriate concentrated hypoNa. A close rival is: Fluid-restrict central DI with 10 L UO without replacement. Distinguisher: Fluid-restricting DI dehydrates—near-miss.",
+      "choice_explanations": {
+        "A": "Assume one normal value excludes disease (DI vs SIADH ICU) does not match the mechanism of DI vs SIADH ICU.",
+        "B": "Fluid-restricting DI dehydrates—near-miss.",
+        "C": "Opposite water balance problems need opposite fluids.",
+        "D": "Share confidential details outside the care team (DI vs SIADH ICU) is unrelated to the key pathophysiology of DI vs SIADH ICU."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Permissive hypercapnia ARDS. Key teaching point: Protecting lungs outweighs perfect CO2 sometimes. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Accept higher PaCO2 if pH safe to keep low volumes",
+        "B) Chase normal PaCO2 with injurious high volumes in severe ARDS",
+        "C) Document care that was not performed (Permissive hypercapnia ARDS)",
+        "D) Shame the patient for clinical symptoms (Permissive hypercapnia ARDS)"
+      ],
+      "answer": "A) Accept higher PaCO2 if pH safe to keep low volumes",
+      "explanation": "Protecting lungs outweighs perfect CO2 sometimes. The best choice is: Accept higher PaCO2 if pH safe to keep low volumes. A close rival is: Chase normal PaCO2 with injurious high volumes in severe ARDS. Distinguisher: Injurious CO2 chasing is near-miss.",
+      "choice_explanations": {
+        "A": "Protecting lungs outweighs perfect CO2 sometimes.",
+        "B": "Injurious CO2 chasing is near-miss.",
+        "C": "Document care that was not performed (Permissive hypercapnia ARDS) does not match the mechanism of Permissive hypercapnia ARDS.",
+        "D": "Shame the patient for clinical symptoms (Permissive hypercapnia ARDS) is unrelated to the key pathophysiology of Permissive hypercapnia ARDS."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Anaphylaxis ICU epi. Key teaching point: Epinephrine is first-line for anaphylaxis. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Skip indicated assessment and hope for the best (Anaphylaxis ICU epi)",
+        "B) Choose an unrelated unsafe intervention (Anaphylaxis ICU epi)",
+        "C) IM/IV epinephrine per protocol first for anaphylactic shock",
+        "D) Steroids/antihistamines first while hypotensive with airway edema"
+      ],
+      "answer": "C) IM/IV epinephrine per protocol first for anaphylactic shock",
+      "explanation": "Epinephrine is first-line for anaphylaxis. The best choice is: IM/IV epinephrine per protocol first for anaphylactic shock. A close rival is: Steroids/antihistamines first while hypotensive with airway edema. Distinguisher: Antihistamine-first in shock is near-miss.",
+      "choice_explanations": {
+        "A": "Skip indicated assessment and hope for the best (Anaphylaxis ICU epi) does not match the mechanism of Anaphylaxis ICU epi.",
+        "B": "Choose an unrelated unsafe intervention (Anaphylaxis ICU epi) is unrelated to the key pathophysiology of Anaphylaxis ICU epi.",
+        "C": "Epinephrine is first-line for anaphylaxis.",
+        "D": "Antihistamine-first in shock is near-miss."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Massive hemoptysis airway. Key teaching point: Gravity protects the good lung. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Choose an unrelated unsafe intervention (Massive hemoptysis airway)",
+        "B) Skip indicated assessment and hope for the best (Massive hemoptysis airway)",
+        "C) Bleeding lung down/lateral; protect airway; urgent interventional pathway",
+        "D) Lay bleeding lung up and delay airway for paperwork"
+      ],
+      "answer": "C) Bleeding lung down/lateral; protect airway; urgent interventional pathway",
+      "explanation": "Gravity protects the good lung. The best choice is: Bleeding lung down/lateral; protect airway; urgent interventional pathway. A close rival is: Lay bleeding lung up and delay airway for paperwork. Distinguisher: Wrong side positioning drowns good lung—near-miss.",
+      "choice_explanations": {
+        "A": "Choose an unrelated unsafe intervention (Massive hemoptysis airway) is unrelated to the key pathophysiology of Massive hemoptysis airway.",
+        "B": "Skip indicated assessment and hope for the best (Massive hemoptysis airway) does not match the mechanism of Massive hemoptysis airway.",
+        "C": "Gravity protects the good lung.",
+        "D": "Wrong side positioning drowns good lung—near-miss."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Obstructive intubation hypotension. Key teaching point: Positive pressure cuts venous return. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Delay escalation when red-flag signs are present (Obstructive intubation hypotension)",
+        "B) Expect post-intubation hypotension; have fluids/pressors ready",
+        "C) Use a contraindicated medication or maneuver (Obstructive intubation hypotension)",
+        "D) Intubate hypovolemic septic patient with high PEEP induction and no pressor readiness"
+      ],
+      "answer": "B) Expect post-intubation hypotension; have fluids/pressors ready",
+      "explanation": "Positive pressure cuts venous return. The best choice is: Expect post-intubation hypotension; have fluids/pressors ready. A close rival is: Intubate hypovolemic septic patient with high PEEP induction and no pressor readiness. Distinguisher: Unprepared induction arrests—near-miss.",
+      "choice_explanations": {
+        "A": "Delay escalation when red-flag signs are present (Obstructive intubation hypotension) does not match the mechanism of Obstructive intubation hypotension.",
+        "B": "Positive pressure cuts venous return.",
+        "C": "Use a contraindicated medication or maneuver (Obstructive intubation hypotension) is unrelated to the key pathophysiology of Obstructive intubation hypotension.",
+        "D": "Unprepared induction arrests—near-miss."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Vasoactive dedicated line. Key teaching point: Bolus interruptions/incompatibilities cause dangerous swings. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Document care that was not performed (Vasoactive dedicated line)",
+        "B) Shame the patient for clinical symptoms (Vasoactive dedicated line)",
+        "C) Run vasoactives on dedicated lumen; label clearly; don’t bolus incompatible meds casually",
+        "D) Push incompatible meds into a running epinephrine lumen without review"
+      ],
+      "answer": "C) Run vasoactives on dedicated lumen; label clearly; don’t bolus incompatible meds casually",
+      "explanation": "Bolus interruptions/incompatibilities cause dangerous swings. The best choice is: Run vasoactives on dedicated lumen; label clearly; don’t bolus incompatible meds casually. A close rival is: Push incompatible meds into a running epinephrine lumen without review. Distinguisher: Line mix-ups crash patients—near-miss.",
+      "choice_explanations": {
+        "A": "Document care that was not performed (Vasoactive dedicated line) does not match the mechanism of Vasoactive dedicated line.",
+        "B": "Shame the patient for clinical symptoms (Vasoactive dedicated line) is unrelated to the key pathophysiology of Vasoactive dedicated line.",
+        "C": "Bolus interruptions/incompatibilities cause dangerous swings.",
+        "D": "Line mix-ups crash patients—near-miss."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Hypercapnic COPD vent. Key teaching point: Timely intubation prevents arrest. Which option best fits this pathophysiology?",
+      "options": [
+        "A) NIV first when appropriate; watch for NIV failure needing intubation",
+        "B) Delay intubation forever despite NIV failure and exhaustion",
+        "C) Shame the patient for clinical symptoms (Hypercapnic COPD vent)",
+        "D) Document care that was not performed (Hypercapnic COPD vent)"
+      ],
+      "answer": "A) NIV first when appropriate; watch for NIV failure needing intubation",
+      "explanation": "Timely intubation prevents arrest. The best choice is: NIV first when appropriate; watch for NIV failure needing intubation. A close rival is: Delay intubation forever despite NIV failure and exhaustion. Distinguisher: Late intubation after NIV failure is near-miss.",
+      "choice_explanations": {
+        "A": "Timely intubation prevents arrest.",
+        "B": "Late intubation after NIV failure is near-miss.",
+        "C": "Shame the patient for clinical symptoms (Hypercapnic COPD vent) is unrelated to the key pathophysiology of Hypercapnic COPD vent.",
+        "D": "Document care that was not performed (Hypercapnic COPD vent) does not match the mechanism of Hypercapnic COPD vent."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on GI bleed resuscitation. Key teaching point: Hemorrhagic shock needs volume/source control. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Choose an unrelated unsafe intervention (GI bleed resuscitation)",
+        "B) ABCs, large-bore access, transfusion/reverse coagulopathy, urgent endoscopy pathway",
+        "C) Skip indicated assessment and hope for the best (GI bleed resuscitation)",
+        "D) Allow oral diet and delay access in hematemesis shock"
+      ],
+      "answer": "B) ABCs, large-bore access, transfusion/reverse coagulopathy, urgent endoscopy pathway",
+      "explanation": "Hemorrhagic shock needs volume/source control. The best choice is: ABCs, large-bore access, transfusion/reverse coagulopathy, urgent endoscopy pathway. A close rival is: Allow oral diet and delay access in hematemesis shock. Distinguisher: Delay in bleeding shock is near-miss.",
+      "choice_explanations": {
+        "A": "Choose an unrelated unsafe intervention (GI bleed resuscitation) is unrelated to the key pathophysiology of GI bleed resuscitation.",
+        "B": "Hemorrhagic shock needs volume/source control.",
+        "C": "Skip indicated assessment and hope for the best (GI bleed resuscitation) does not match the mechanism of GI bleed resuscitation.",
+        "D": "Delay in bleeding shock is near-miss."
+      }
+    }
+  ],
+  "extreme": [
+    {
+      "question": "In a high-stakes scenario involving Compartment fasciotomy urgency (item 1), findings align with this mechanism: Rising pressure kills muscle/nerve. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Choose an unrelated unsafe intervention (Compartment fasciotomy urgency)",
+        "B) Elevate high and observe overnight without notifying for classic compartment signs",
+        "C) Unrelieved pain/passive stretch pain—urgent surgical notify; limb at heart level",
+        "D) Skip indicated assessment and hope for the best (Compartment fasciotomy urgency)"
+      ],
+      "answer": "C) Unrelieved pain/passive stretch pain—urgent surgical notify; limb at heart level",
+      "explanation": "Rising pressure kills muscle/nerve. The best choice is: Unrelieved pain/passive stretch pain—urgent surgical notify; limb at heart level. A close rival is: Elevate high and observe overnight without notifying for classic compartment signs. Distinguisher: Delayed fasciotomy loses limb—near-miss.",
+      "choice_explanations": {
+        "A": "Choose an unrelated unsafe intervention (Compartment fasciotomy urgency) is unrelated to the key pathophysiology of Compartment fasciotomy urgency.",
+        "B": "Delayed fasciotomy loses limb—near-miss.",
+        "C": "Rising pressure kills muscle/nerve.",
+        "D": "Skip indicated assessment and hope for the best (Compartment fasciotomy urgency) does not match the mechanism of Compartment fasciotomy urgency."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Massive transfusion triad (item 2), findings align with this mechanism: Lethal triad worsens bleeding. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Prevent hypothermia, treat coagulopathy/acidosis; balanced products",
+        "B) Shame the patient for clinical symptoms (Massive transfusion triad)",
+        "C) Transfuse only cold PRBCs for hours ignoring fibrinogen/calcium/temp",
+        "D) Document care that was not performed (Massive transfusion triad)"
+      ],
+      "answer": "A) Prevent hypothermia, treat coagulopathy/acidosis; balanced products",
+      "explanation": "Lethal triad worsens bleeding. The best choice is: Prevent hypothermia, treat coagulopathy/acidosis; balanced products. A close rival is: Transfuse only cold PRBCs for hours ignoring fibrinogen/calcium/temp. Distinguisher: Cold unbalanced resuscitation fails—near-miss.",
+      "choice_explanations": {
+        "A": "Lethal triad worsens bleeding.",
+        "B": "Shame the patient for clinical symptoms (Massive transfusion triad) is unrelated to the key pathophysiology of Massive transfusion triad.",
+        "C": "Cold unbalanced resuscitation fails—near-miss.",
+        "D": "Document care that was not performed (Massive transfusion triad) does not match the mechanism of Massive transfusion triad."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Asthma permissive vent (item 3), findings align with this mechanism: Air trapping obstructs venous return. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Shame the patient for clinical symptoms (Asthma permissive vent)",
+        "B) Avoid high rates/volumes that stack air; allow permissive hypercapnia",
+        "C) Document care that was not performed (Asthma permissive vent)",
+        "D) Set high rate/no expiratory time causing auto-PEEP and hypotension"
+      ],
+      "answer": "B) Avoid high rates/volumes that stack air; allow permissive hypercapnia",
+      "explanation": "Air trapping obstructs venous return. The best choice is: Avoid high rates/volumes that stack air; allow permissive hypercapnia. A close rival is: Set high rate/no expiratory time causing auto-PEEP and hypotension. Distinguisher: Auto-PEEP shock is near-miss.",
+      "choice_explanations": {
+        "A": "Shame the patient for clinical symptoms (Asthma permissive vent) is unrelated to the key pathophysiology of Asthma permissive vent.",
+        "B": "Air trapping obstructs venous return.",
+        "C": "Document care that was not performed (Asthma permissive vent) does not match the mechanism of Asthma permissive vent.",
+        "D": "Auto-PEEP shock is near-miss."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Arterial line leveling (item 4), findings align with this mechanism: Wrong leveling misguides vasopressor titration. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Leave arterial transducer dangling at floor level and titrate pressors to artifact",
+        "B) Level arterial transducer at phlebostatic axis for accurate BP",
+        "C) Share confidential details outside the care team (Arterial line leveling)",
+        "D) Assume one normal value excludes disease (Arterial line leveling)"
+      ],
+      "answer": "B) Level arterial transducer at phlebostatic axis for accurate BP",
+      "explanation": "Wrong leveling misguides vasopressor titration. The best choice is: Level arterial transducer at phlebostatic axis for accurate BP. A close rival is: Leave arterial transducer dangling at floor level and titrate pressors to artifact. Distinguisher: Artifact-driven titration harms—near-miss.",
+      "choice_explanations": {
+        "A": "Artifact-driven titration harms—near-miss.",
+        "B": "Wrong leveling misguides vasopressor titration.",
+        "C": "Share confidential details outside the care team (Arterial line leveling) is unrelated to the key pathophysiology of Arterial line leveling.",
+        "D": "Assume one normal value excludes disease (Arterial line leveling) does not match the mechanism of Arterial line leveling."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Increased ICP signs (item 5), findings align with this mechanism: Venous drainage and low stimulation protect CPP. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Declining mentation, Cushing triad clues, pupil changes—elevate HOB, align neck, notify",
+        "B) Cluster painful care flat with neck kinked in rising ICP",
+        "C) Shame the patient for clinical symptoms (Increased ICP signs)",
+        "D) Document care that was not performed (Increased ICP signs)"
+      ],
+      "answer": "A) Declining mentation, Cushing triad clues, pupil changes—elevate HOB, align neck, notify",
+      "explanation": "Venous drainage and low stimulation protect CPP. The best choice is: Declining mentation, Cushing triad clues, pupil changes—elevate HOB, align neck, notify. A close rival is: Cluster painful care flat with neck kinked in rising ICP. Distinguisher: Flat/kinked clustering raises ICP—near-miss.",
+      "choice_explanations": {
+        "A": "Venous drainage and low stimulation protect CPP.",
+        "B": "Flat/kinked clustering raises ICP—near-miss.",
+        "C": "Shame the patient for clinical symptoms (Increased ICP signs) is unrelated to the key pathophysiology of Increased ICP signs.",
+        "D": "Document care that was not performed (Increased ICP signs) does not match the mechanism of Increased ICP signs."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Unplanned extubation response (item 6), findings align with this mechanism: Airway loss is an emergency. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Leave a hypoxic self-extubated patient to ‘try harder’ without support",
+        "B) Document care that was not performed (Unplanned extubation response)",
+        "C) Shame the patient for clinical symptoms (Unplanned extubation response)",
+        "D) Support with BVM/airway algorithm; call for reintubation help"
+      ],
+      "answer": "D) Support with BVM/airway algorithm; call for reintubation help",
+      "explanation": "Airway loss is an emergency. The best choice is: Support with BVM/airway algorithm; call for reintubation help. A close rival is: Leave a hypoxic self-extubated patient to ‘try harder’ without support. Distinguisher: No support after self-extubation is near-miss.",
+      "choice_explanations": {
+        "A": "No support after self-extubation is near-miss.",
+        "B": "Document care that was not performed (Unplanned extubation response) does not match the mechanism of Unplanned extubation response.",
+        "C": "Shame the patient for clinical symptoms (Unplanned extubation response) is unrelated to the key pathophysiology of Unplanned extubation response.",
+        "D": "Airway loss is an emergency."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving ABC survey ICU (item 7), findings align with this mechanism: Life threats first in crisis physiology. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Document care that was not performed (ABC survey ICU)",
+        "B) Shame the patient for clinical symptoms (ABC survey ICU)",
+        "C) Airway-breathing-circulation before detailed chart review in crisis",
+        "D) Finish medication reconciliation before opening an obstructed airway"
+      ],
+      "answer": "C) Airway-breathing-circulation before detailed chart review in crisis",
+      "explanation": "Life threats first in crisis physiology. The best choice is: Airway-breathing-circulation before detailed chart review in crisis. A close rival is: Finish medication reconciliation before opening an obstructed airway. Distinguisher: Chart-before-airway is near-miss.",
+      "choice_explanations": {
+        "A": "Document care that was not performed (ABC survey ICU) does not match the mechanism of ABC survey ICU.",
+        "B": "Shame the patient for clinical symptoms (ABC survey ICU) is unrelated to the key pathophysiology of ABC survey ICU.",
+        "C": "Life threats first in crisis physiology.",
+        "D": "Chart-before-airway is near-miss."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving DIC treat cause (item 8), findings align with this mechanism: DIC is secondary process. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Shame the patient for clinical symptoms (DIC treat cause)",
+        "B) Treat underlying cause; replace products as indicated; heparin nuanced",
+        "C) Give only heparin and ignore septic source in DIC",
+        "D) Document care that was not performed (DIC treat cause)"
+      ],
+      "answer": "B) Treat underlying cause; replace products as indicated; heparin nuanced",
+      "explanation": "DIC is secondary process. The best choice is: Treat underlying cause; replace products as indicated; heparin nuanced. A close rival is: Give only heparin and ignore septic source in DIC. Distinguisher: Ignoring cause fails—near-miss.",
+      "choice_explanations": {
+        "A": "Shame the patient for clinical symptoms (DIC treat cause) is unrelated to the key pathophysiology of DIC treat cause.",
+        "B": "DIC is secondary process.",
+        "C": "Ignoring cause fails—near-miss.",
+        "D": "Document care that was not performed (DIC treat cause) does not match the mechanism of DIC treat cause."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Intra-arrest ETCO2 (item 9), findings align with this mechanism: ETCO2 reflects pulmonary blood flow. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Choose an unrelated unsafe intervention (Intra-arrest ETCO2)",
+        "B) Sudden ETCO2 rise may indicate ROSC; persistent very low suggests poor prognosis/poor CPR",
+        "C) Ignore ETCO2 trends during CPR entirely",
+        "D) Skip indicated assessment and hope for the best (Intra-arrest ETCO2)"
+      ],
+      "answer": "B) Sudden ETCO2 rise may indicate ROSC; persistent very low suggests poor prognosis/poor CPR",
+      "explanation": "ETCO2 reflects pulmonary blood flow. The best choice is: Sudden ETCO2 rise may indicate ROSC; persistent very low suggests poor prognosis/poor CPR. A close rival is: Ignore ETCO2 trends during CPR entirely. Distinguisher: Ignoring ETCO2 loses ROSC clue—near-miss.",
+      "choice_explanations": {
+        "A": "Choose an unrelated unsafe intervention (Intra-arrest ETCO2) is unrelated to the key pathophysiology of Intra-arrest ETCO2.",
+        "B": "ETCO2 reflects pulmonary blood flow.",
+        "C": "Ignoring ETCO2 loses ROSC clue—near-miss.",
+        "D": "Skip indicated assessment and hope for the best (Intra-arrest ETCO2) does not match the mechanism of Intra-arrest ETCO2."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving CRRT filter clotting (item 10), findings align with this mechanism: Early recognition preserves therapy. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Ignore rising transmembrane pressures until complete circuit loss without action",
+        "B) Document care that was not performed (CRRT filter clotting)",
+        "C) Shame the patient for clinical symptoms (CRRT filter clotting)",
+        "D) Monitor circuit pressures/filters; anticoagulation as ordered"
+      ],
+      "answer": "D) Monitor circuit pressures/filters; anticoagulation as ordered",
+      "explanation": "Early recognition preserves therapy. The best choice is: Monitor circuit pressures/filters; anticoagulation as ordered. A close rival is: Ignore rising transmembrane pressures until complete circuit loss without action. Distinguisher: Ignored circuit failure interrupts clearance—near-miss.",
+      "choice_explanations": {
+        "A": "Ignored circuit failure interrupts clearance—near-miss.",
+        "B": "Document care that was not performed (CRRT filter clotting) does not match the mechanism of CRRT filter clotting.",
+        "C": "Shame the patient for clinical symptoms (CRRT filter clotting) is unrelated to the key pathophysiology of CRRT filter clotting.",
+        "D": "Early recognition preserves therapy."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving DKA anion gap (item 11), findings align with this mechanism: Insulin shifts K+; hypokalemia can arrest. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Close gap with insulin/fluids/electrolytes; watch K+",
+        "B) Share confidential details outside the care team (DKA anion gap)",
+        "C) Assume one normal value excludes disease (DKA anion gap)",
+        "D) Give insulin without potassium monitoring in DKA"
+      ],
+      "answer": "A) Close gap with insulin/fluids/electrolytes; watch K+",
+      "explanation": "Insulin shifts K+; hypokalemia can arrest. The best choice is: Close gap with insulin/fluids/electrolytes; watch K+. A close rival is: Give insulin without potassium monitoring in DKA. Distinguisher: Insulin without K+ attention is near-miss.",
+      "choice_explanations": {
+        "A": "Insulin shifts K+; hypokalemia can arrest.",
+        "B": "Share confidential details outside the care team (DKA anion gap) is unrelated to the key pathophysiology of DKA anion gap.",
+        "C": "Assume one normal value excludes disease (DKA anion gap) does not match the mechanism of DKA anion gap.",
+        "D": "Insulin without K+ attention is near-miss."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving ICU delirium bundle (item 12), findings align with this mechanism: Benzos often worsen delirium; multicomponent care helps. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Skip indicated assessment and hope for the best (ICU delirium bundle)",
+        "B) Assess CAM-ICU; reorient; mobilize; minimize deliriogenic meds",
+        "C) Treat all ICU delirium first-line with routine benzos",
+        "D) Choose an unrelated unsafe intervention (ICU delirium bundle)"
+      ],
+      "answer": "B) Assess CAM-ICU; reorient; mobilize; minimize deliriogenic meds",
+      "explanation": "Benzos often worsen delirium; multicomponent care helps. The best choice is: Assess CAM-ICU; reorient; mobilize; minimize deliriogenic meds. A close rival is: Treat all ICU delirium first-line with routine benzos. Distinguisher: Benzo-first delirium care is near-miss.",
+      "choice_explanations": {
+        "A": "Skip indicated assessment and hope for the best (ICU delirium bundle) does not match the mechanism of ICU delirium bundle.",
+        "B": "Benzos often worsen delirium; multicomponent care helps.",
+        "C": "Benzo-first delirium care is near-miss.",
+        "D": "Choose an unrelated unsafe intervention (ICU delirium bundle) is unrelated to the key pathophysiology of ICU delirium bundle."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Pancreatitis ICU fluids (item 13), findings align with this mechanism: Rest pancreas initially; watch systemic complications. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Supportive fluids, monitor ARDS/hypocalcemia/necrosis infection",
+        "B) Force high-fat feeding during severe acute pancreatitis",
+        "C) Use a contraindicated medication or maneuver (Pancreatitis ICU fluids)",
+        "D) Delay escalation when red-flag signs are present (Pancreatitis ICU fluids)"
+      ],
+      "answer": "A) Supportive fluids, monitor ARDS/hypocalcemia/necrosis infection",
+      "explanation": "Rest pancreas initially; watch systemic complications. The best choice is: Supportive fluids, monitor ARDS/hypocalcemia/necrosis infection. A close rival is: Force high-fat feeding during severe acute pancreatitis. Distinguisher: Early high-fat feeding harms—near-miss.",
+      "choice_explanations": {
+        "A": "Rest pancreas initially; watch systemic complications.",
+        "B": "Early high-fat feeding harms—near-miss.",
+        "C": "Use a contraindicated medication or maneuver (Pancreatitis ICU fluids) is unrelated to the key pathophysiology of Pancreatitis ICU fluids.",
+        "D": "Delay escalation when red-flag signs are present (Pancreatitis ICU fluids) does not match the mechanism of Pancreatitis ICU fluids."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Rhabdomyolysis care (item 14), findings align with this mechanism: Myoglobinuria risks AKI/hyperkalemia. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Skip indicated assessment and hope for the best (Rhabdomyolysis care)",
+        "B) Choose an unrelated unsafe intervention (Rhabdomyolysis care)",
+        "C) Fluids, monitor K/CK/urine; avoid nephrotoxins",
+        "D) Fluid-restrict dark urine after crush with rising K"
+      ],
+      "answer": "C) Fluids, monitor K/CK/urine; avoid nephrotoxins",
+      "explanation": "Myoglobinuria risks AKI/hyperkalemia. The best choice is: Fluids, monitor K/CK/urine; avoid nephrotoxins. A close rival is: Fluid-restrict dark urine after crush with rising K. Distinguisher: Restriction worsens AKI—near-miss.",
+      "choice_explanations": {
+        "A": "Skip indicated assessment and hope for the best (Rhabdomyolysis care) does not match the mechanism of Rhabdomyolysis care.",
+        "B": "Choose an unrelated unsafe intervention (Rhabdomyolysis care) is unrelated to the key pathophysiology of Rhabdomyolysis care.",
+        "C": "Myoglobinuria risks AKI/hyperkalemia.",
+        "D": "Restriction worsens AKI—near-miss."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving RRT early triggers (item 15), findings align with this mechanism: Early intervention prevents failure-to-rescue deaths. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Skip indicated assessment and hope for the best (RRT early triggers)",
+        "B) Choose an unrelated unsafe intervention (RRT early triggers)",
+        "C) Wait for full cardiac arrest before calling for help on progressive decline",
+        "D) Activate rapid response for acute respiratory/hemodynamic/mental status decline early"
+      ],
+      "answer": "D) Activate rapid response for acute respiratory/hemodynamic/mental status decline early",
+      "explanation": "Early intervention prevents failure-to-rescue deaths. The best choice is: Activate rapid response for acute respiratory/hemodynamic/mental status decline early. A close rival is: Wait for full cardiac arrest before calling for help on progressive decline. Distinguisher: Waiting for arrest is a near-miss.",
+      "choice_explanations": {
+        "A": "Skip indicated assessment and hope for the best (RRT early triggers) does not match the mechanism of RRT early triggers.",
+        "B": "Choose an unrelated unsafe intervention (RRT early triggers) is unrelated to the key pathophysiology of RRT early triggers.",
+        "C": "Waiting for arrest is a near-miss.",
+        "D": "Early intervention prevents failure-to-rescue deaths."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving NIV contraindications (item 16), findings align with this mechanism: NIV requires airway protection capacity. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Use a contraindicated medication or maneuver (NIV contraindications)",
+        "B) Avoid NIV in arrest, severe vomiting aspiration risk, untreated pneumothorax, etc.",
+        "C) Place BiPAP on actively vomiting unresponsive patient",
+        "D) Delay escalation when red-flag signs are present (NIV contraindications)"
+      ],
+      "answer": "B) Avoid NIV in arrest, severe vomiting aspiration risk, untreated pneumothorax, etc.",
+      "explanation": "NIV requires airway protection capacity. The best choice is: Avoid NIV in arrest, severe vomiting aspiration risk, untreated pneumothorax, etc.. A close rival is: Place BiPAP on actively vomiting unresponsive patient. Distinguisher: BiPAP in unprotected airway aspirates—near-miss.",
+      "choice_explanations": {
+        "A": "Use a contraindicated medication or maneuver (NIV contraindications) is unrelated to the key pathophysiology of NIV contraindications.",
+        "B": "NIV requires airway protection capacity.",
+        "C": "BiPAP in unprotected airway aspirates—near-miss.",
+        "D": "Delay escalation when red-flag signs are present (NIV contraindications) does not match the mechanism of NIV contraindications."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Benzodiazepine ICU delirium (item 17), findings align with this mechanism: Benzos associate with delirium/prolonged vent. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Use a contraindicated medication or maneuver (Benzodiazepine ICU delirium)",
+        "B) Keep continuous deep benzo sedation indefinitely without goals in every patient",
+        "C) Delay escalation when red-flag signs are present (Benzodiazepine ICU delirium)",
+        "D) Minimize benzo deep sedation; prefer lighter targets when safe"
+      ],
+      "answer": "D) Minimize benzo deep sedation; prefer lighter targets when safe",
+      "explanation": "Benzos associate with delirium/prolonged vent. The best choice is: Minimize benzo deep sedation; prefer lighter targets when safe. A close rival is: Keep continuous deep benzo sedation indefinitely without goals in every patient. Distinguisher: Goal-less deep sedation harms—near-miss.",
+      "choice_explanations": {
+        "A": "Use a contraindicated medication or maneuver (Benzodiazepine ICU delirium) is unrelated to the key pathophysiology of Benzodiazepine ICU delirium.",
+        "B": "Goal-less deep sedation harms—near-miss.",
+        "C": "Delay escalation when red-flag signs are present (Benzodiazepine ICU delirium) does not match the mechanism of Benzodiazepine ICU delirium.",
+        "D": "Benzos associate with delirium/prolonged vent."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Auto-PEEP disconnect (item 18), findings align with this mechanism: Trapped gas acts like tamponade physiology. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Use a contraindicated medication or maneuver (Auto-PEEP disconnect)",
+        "B) Delay escalation when red-flag signs are present (Auto-PEEP disconnect)",
+        "C) Increase rate further when auto-PEEP crashes BP",
+        "D) Transient disconnect/reduce rate for severe auto-PEEP hypotension"
+      ],
+      "answer": "D) Transient disconnect/reduce rate for severe auto-PEEP hypotension",
+      "explanation": "Trapped gas acts like tamponade physiology. The best choice is: Transient disconnect/reduce rate for severe auto-PEEP hypotension. A close rival is: Increase rate further when auto-PEEP crashes BP. Distinguisher: Higher rate worsens trapping—near-miss.",
+      "choice_explanations": {
+        "A": "Use a contraindicated medication or maneuver (Auto-PEEP disconnect) is unrelated to the key pathophysiology of Auto-PEEP disconnect.",
+        "B": "Delay escalation when red-flag signs are present (Auto-PEEP disconnect) does not match the mechanism of Auto-PEEP disconnect.",
+        "C": "Higher rate worsens trapping—near-miss.",
+        "D": "Trapped gas acts like tamponade physiology."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving TRALI recognition (item 19), findings align with this mechanism: TRALI is immune/permeability lung injury. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Continue transfusion through new bilateral infiltrates/hypoxia assuming simple volume only always",
+        "B) Share confidential details outside the care team (TRALI recognition)",
+        "C) Assume one normal value excludes disease (TRALI recognition)",
+        "D) Acute hypoxemic respiratory failure after transfusion—stop product, support, report"
+      ],
+      "answer": "D) Acute hypoxemic respiratory failure after transfusion—stop product, support, report",
+      "explanation": "TRALI is immune/permeability lung injury. The best choice is: Acute hypoxemic respiratory failure after transfusion—stop product, support, report. A close rival is: Continue transfusion through new bilateral infiltrates/hypoxia assuming simple volume only always. Distinguisher: Continuing product worsens—near-miss.",
+      "choice_explanations": {
+        "A": "Continuing product worsens—near-miss.",
+        "B": "Share confidential details outside the care team (TRALI recognition) is unrelated to the key pathophysiology of TRALI recognition.",
+        "C": "Assume one normal value excludes disease (TRALI recognition) does not match the mechanism of TRALI recognition.",
+        "D": "TRALI is immune/permeability lung injury."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving VAP bundle (item 20), findings align with this mechanism: Bundles reduce VAP. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Skip indicated assessment and hope for the best (VAP bundle)",
+        "B) HOB elevation, oral care, sedation vacation, DVT/PUD prophylaxis",
+        "C) Choose an unrelated unsafe intervention (VAP bundle)",
+        "D) Leave HOB flat continuously and skip oral care on ventilated patient"
+      ],
+      "answer": "B) HOB elevation, oral care, sedation vacation, DVT/PUD prophylaxis",
+      "explanation": "Bundles reduce VAP. The best choice is: HOB elevation, oral care, sedation vacation, DVT/PUD prophylaxis. A close rival is: Leave HOB flat continuously and skip oral care on ventilated patient. Distinguisher: Flat HOB + no oral care raises VAP—near-miss.",
+      "choice_explanations": {
+        "A": "Skip indicated assessment and hope for the best (VAP bundle) does not match the mechanism of VAP bundle.",
+        "B": "Bundles reduce VAP.",
+        "C": "Choose an unrelated unsafe intervention (VAP bundle) is unrelated to the key pathophysiology of VAP bundle.",
+        "D": "Flat HOB + no oral care raises VAP—near-miss."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Lactate trend sepsis (item 21), findings align with this mechanism: Lactate reflects hypoperfusion/stress. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Document care that was not performed (Lactate trend sepsis)",
+        "B) Trend lactate with clinical perfusion; resuscitate sources",
+        "C) Shame the patient for clinical symptoms (Lactate trend sepsis)",
+        "D) Ignore rising lactate because BP is normal on pressors"
+      ],
+      "answer": "B) Trend lactate with clinical perfusion; resuscitate sources",
+      "explanation": "Lactate reflects hypoperfusion/stress. The best choice is: Trend lactate with clinical perfusion; resuscitate sources. A close rival is: Ignore rising lactate because BP is normal on pressors. Distinguisher: BP-only reassurance misses hypoperfusion—near-miss.",
+      "choice_explanations": {
+        "A": "Document care that was not performed (Lactate trend sepsis) does not match the mechanism of Lactate trend sepsis.",
+        "B": "Lactate reflects hypoperfusion/stress.",
+        "C": "Shame the patient for clinical symptoms (Lactate trend sepsis) is unrelated to the key pathophysiology of Lactate trend sepsis.",
+        "D": "BP-only reassurance misses hypoperfusion—near-miss."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving IABP timing (item 22), findings align with this mechanism: Counterpulsation augments coronary perfusion/unloads LV. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Ignore limb ischemia and timed errors as irrelevant on IABP",
+        "B) IABP inflates diastole/deflates systole; watch timing/urine/limb ischemia",
+        "C) Document care that was not performed (IABP timing)",
+        "D) Shame the patient for clinical symptoms (IABP timing)"
+      ],
+      "answer": "B) IABP inflates diastole/deflates systole; watch timing/urine/limb ischemia",
+      "explanation": "Counterpulsation augments coronary perfusion/unloads LV. The best choice is: IABP inflates diastole/deflates systole; watch timing/urine/limb ischemia. A close rival is: Ignore limb ischemia and timed errors as irrelevant on IABP. Distinguisher: Ignored limb ischemia loses limb—near-miss.",
+      "choice_explanations": {
+        "A": "Ignored limb ischemia loses limb—near-miss.",
+        "B": "Counterpulsation augments coronary perfusion/unloads LV.",
+        "C": "Document care that was not performed (IABP timing) does not match the mechanism of IABP timing.",
+        "D": "Shame the patient for clinical symptoms (IABP timing) is unrelated to the key pathophysiology of IABP timing."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Fat embolism triad (item 23), findings align with this mechanism: Fat emboli shower lungs/brain. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Dyspnea, petechiae, confusion after long-bone fracture—support oxygenation",
+        "B) Encourage aggressive manipulation teaching and ignore hypoxemia 48 h post femur fracture",
+        "C) Assume one normal value excludes disease (Fat embolism triad)",
+        "D) Share confidential details outside the care team (Fat embolism triad)"
+      ],
+      "answer": "A) Dyspnea, petechiae, confusion after long-bone fracture—support oxygenation",
+      "explanation": "Fat emboli shower lungs/brain. The best choice is: Dyspnea, petechiae, confusion after long-bone fracture—support oxygenation. A close rival is: Encourage aggressive manipulation teaching and ignore hypoxemia 48 h post femur fracture. Distinguisher: Dismissing triad is near-miss.",
+      "choice_explanations": {
+        "A": "Fat emboli shower lungs/brain.",
+        "B": "Dismissing triad is near-miss.",
+        "C": "Assume one normal value excludes disease (Fat embolism triad) does not match the mechanism of Fat embolism triad.",
+        "D": "Share confidential details outside the care team (Fat embolism triad) is unrelated to the key pathophysiology of Fat embolism triad."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving SIADH vs cerebral salt wasting (item 24), findings align with this mechanism: Wrong water strategy worsens ischemia risk. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Fluid-restrict a hypovolemic CSW patient as if SIADH",
+        "B) Skip indicated assessment and hope for the best (SIADH vs cerebral salt wasting)",
+        "C) Choose an unrelated unsafe intervention (SIADH vs cerebral salt wasting)",
+        "D) Distinguish volume status: SIADH euvolemic vs CSW hypovolemic—opposite fluid strategies"
+      ],
+      "answer": "D) Distinguish volume status: SIADH euvolemic vs CSW hypovolemic—opposite fluid strategies",
+      "explanation": "Wrong water strategy worsens ischemia risk. The best choice is: Distinguish volume status: SIADH euvolemic vs CSW hypovolemic—opposite fluid strategies. A close rival is: Fluid-restrict a hypovolemic CSW patient as if SIADH. Distinguisher: Restricting CSW is near-miss.",
+      "choice_explanations": {
+        "A": "Restricting CSW is near-miss.",
+        "B": "Skip indicated assessment and hope for the best (SIADH vs cerebral salt wasting) does not match the mechanism of SIADH vs cerebral salt wasting.",
+        "C": "Choose an unrelated unsafe intervention (SIADH vs cerebral salt wasting) is unrelated to the key pathophysiology of SIADH vs cerebral salt wasting.",
+        "D": "Wrong water strategy worsens ischemia risk."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving ECMO emergency clamp rules (item 25), findings align with this mechanism: Improper clamping causes thrombosis/air/arrest. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Assume one normal value excludes disease (ECMO emergency clamp rules)",
+        "B) Share confidential details outside the care team (ECMO emergency clamp rules)",
+        "C) Know emergency algorithms; do not clamp randomly without training",
+        "D) Clamp ECMO circuit casually during alarm without protocol"
+      ],
+      "answer": "C) Know emergency algorithms; do not clamp randomly without training",
+      "explanation": "Improper clamping causes thrombosis/air/arrest. The best choice is: Know emergency algorithms; do not clamp randomly without training. A close rival is: Clamp ECMO circuit casually during alarm without protocol. Distinguisher: Casual clamping is deadly near-miss.",
+      "choice_explanations": {
+        "A": "Assume one normal value excludes disease (ECMO emergency clamp rules) does not match the mechanism of ECMO emergency clamp rules.",
+        "B": "Share confidential details outside the care team (ECMO emergency clamp rules) is unrelated to the key pathophysiology of ECMO emergency clamp rules.",
+        "C": "Improper clamping causes thrombosis/air/arrest.",
+        "D": "Casual clamping is deadly near-miss."
+      }
+    }
+  ]
+}

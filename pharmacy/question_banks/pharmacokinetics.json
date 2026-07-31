@@ -1,0 +1,1710 @@
+{
+  "easy": [
+    {
+      "question": "Which statement best matches the core concept of Transdermal zero-order aim?",
+      "options": [
+        "A) Patches always produce immediate IV-bolus identical spikes",
+        "B) Believing t½ alone determines maintenance dose rate without clearance",
+        "C) Asserting high-extraction oral drugs always have F near 100%",
+        "D) Patches often approximate controlled input resembling zero-order infusion"
+      ],
+      "answer": "D) Patches often approximate controlled input resembling zero-order infusion",
+      "explanation": "Rate-limiting membrane/skin flux stabilizes input rate. The best choice is: Patches often approximate controlled input resembling zero-order infusion. A close rival is: Patches always produce immediate IV-bolus identical spikes. Distinguisher: Controlled input avoids bolus spikes.",
+      "choice_explanations": {
+        "A": "Controlled input avoids bolus spikes.",
+        "B": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of Transdermal zero-order aim.",
+        "C": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of Transdermal zero-order aim.",
+        "D": "Rate-limiting membrane/skin flux stabilizes input rate."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Filtration clearance?",
+      "options": [
+        "A) Protein-bound drug is freely filtered at the same rate as unbound always",
+        "B) Setting clearance equal to Cmax after a single dose by definition",
+        "C) Filtered load ≈ fu × GFR for drugs freely filtered at glomerulus",
+        "D) Equating AUC with peak concentration alone"
+      ],
+      "answer": "C) Filtered load ≈ fu × GFR for drugs freely filtered at glomerulus",
+      "explanation": "Size and binding restrict glomerular filtration of drug. The best choice is: Filtered load ≈ fu × GFR for drugs freely filtered at glomerulus. A close rival is: Protein-bound drug is freely filtered at the same rate as unbound always. Distinguisher: Bound drug is generally not freely filtered.",
+      "choice_explanations": {
+        "A": "Bound drug is generally not freely filtered.",
+        "B": "Setting clearance equal to Cmax after a single dose by definition does not match the mechanism of Filtration clearance.",
+        "C": "Size and binding restrict glomerular filtration of drug.",
+        "D": "Equating AUC with peak concentration alone is unrelated to the key pathophysiology of Filtration clearance."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of fe fraction excreted?",
+      "options": [
+        "A) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound",
+        "B) Claiming food never alters oral absorption of any drug",
+        "C) fe = Ae∞/Dose (IV) indicates renal excretion importance for dosing in CKD",
+        "D) fe is unrelated to need for renal dose adjustment"
+      ],
+      "answer": "C) fe = Ae∞/Dose (IV) indicates renal excretion importance for dosing in CKD",
+      "explanation": "High fe drugs often need CKD adjustment. The best choice is: fe = Ae∞/Dose (IV) indicates renal excretion importance for dosing in CKD. A close rival is: fe is unrelated to need for renal dose adjustment. Distinguisher: fe guides renal dosing relevance.",
+      "choice_explanations": {
+        "A": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of fe fraction excreted.",
+        "B": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of fe fraction excreted.",
+        "C": "High fe drugs often need CKD adjustment.",
+        "D": "fe guides renal dosing relevance."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Phenytoin nonlinear?",
+      "options": [
+        "A) Phenytoin always shows strict dose-proportional linear PK at all doses",
+        "B) Small dose increases can cause large phenytoin level jumps near saturation",
+        "C) Saying Vd is always exactly plasma volume for every drug",
+        "D) Claiming steady state is always reached after exactly one half-life"
+      ],
+      "answer": "B) Small dose increases can cause large phenytoin level jumps near saturation",
+      "explanation": "Vmax/Km behavior demands cautious titration and TDM. The best choice is: Small dose increases can cause large phenytoin level jumps near saturation. A close rival is: Phenytoin always shows strict dose-proportional linear PK at all doses. Distinguisher: Linearity does not hold across the therapeutic range.",
+      "choice_explanations": {
+        "A": "Linearity does not hold across the therapeutic range.",
+        "B": "Vmax/Km behavior demands cautious titration and TDM.",
+        "C": "Saying Vd is always exactly plasma volume for every drug is unrelated to the key pathophysiology of Phenytoin nonlinear.",
+        "D": "Claiming steady state is always reached after exactly one half-life does not match the mechanism of Phenytoin nonlinear."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Protein binding Vd?",
+      "options": [
+        "A) Plasma protein binding always increases Vd above total body water automatically",
+        "B) Extensive tissue binding increases Vd; extensive plasma binding can decrease apparent Vd",
+        "C) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound",
+        "D) Claiming food never alters oral absorption of any drug"
+      ],
+      "answer": "B) Extensive tissue binding increases Vd; extensive plasma binding can decrease apparent Vd",
+      "explanation": "Vd depends on relative binding in plasma versus tissues. The best choice is: Extensive tissue binding increases Vd; extensive plasma binding can decrease apparent Vd. A close rival is: Plasma protein binding always increases Vd above total body water automatically. Distinguisher: High plasma binding alone tends to keep drug in plasma (lower Vd).",
+      "choice_explanations": {
+        "A": "High plasma binding alone tends to keep drug in plasma (lower Vd).",
+        "B": "Vd depends on relative binding in plasma versus tissues.",
+        "C": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of Protein binding Vd.",
+        "D": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of Protein binding Vd."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Enzyme induction time course?",
+      "options": [
+        "A) Claiming steady state is always reached after exactly one half-life",
+        "B) Induction usually develops over days as new enzyme is synthesized, not instantly",
+        "C) Saying Vd is always exactly plasma volume for every drug",
+        "D) Full induction always occurs within one minute of the first inducer dose"
+      ],
+      "answer": "B) Induction usually develops over days as new enzyme is synthesized, not instantly",
+      "explanation": "Transcription/translation delays explain onset and offset of induction. The best choice is: Induction usually develops over days as new enzyme is synthesized, not instantly. A close rival is: Full induction always occurs within one minute of the first inducer dose. Distinguisher: Induction is not instantaneous.",
+      "choice_explanations": {
+        "A": "Claiming steady state is always reached after exactly one half-life does not match the mechanism of Enzyme induction time course.",
+        "B": "Transcription/translation delays explain onset and offset of induction.",
+        "C": "Saying Vd is always exactly plasma volume for every drug is unrelated to the key pathophysiology of Enzyme induction time course.",
+        "D": "Induction is not instantaneous."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Kel estimation?",
+      "options": [
+        "A) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound",
+        "B) Kel is read from the absorption peak only",
+        "C) Claiming food never alters oral absorption of any drug",
+        "D) Elimination rate from terminal linear phase of log-concentration plot when appropriate"
+      ],
+      "answer": "D) Elimination rate from terminal linear phase of log-concentration plot when appropriate",
+      "explanation": "Slope of ln Cp versus time in terminal phase equals −kel for 1-compartment IV. The best choice is: Elimination rate from terminal linear phase of log-concentration plot when appropriate. A close rival is: Kel is read from the absorption peak only. Distinguisher: Terminal slope, not Tmax, informs kel.",
+      "choice_explanations": {
+        "A": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of Kel estimation.",
+        "B": "Terminal slope, not Tmax, informs kel.",
+        "C": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of Kel estimation.",
+        "D": "Slope of ln Cp versus time in terminal phase equals −kel for 1-compartment IV."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Aminoglycoside peaks?",
+      "options": [
+        "A) Asserting high-extraction oral drugs always have F near 100%",
+        "B) Believing t½ alone determines maintenance dose rate without clearance",
+        "C) Troughs alone drive bactericidal effect with no peak relevance",
+        "D) Peaks relate to concentration-dependent killing; troughs relate to toxicity accumulation risk"
+      ],
+      "answer": "D) Peaks relate to concentration-dependent killing; troughs relate to toxicity accumulation risk",
+      "explanation": "Extended-interval strategies exploit high peaks and low troughs. The best choice is: Peaks relate to concentration-dependent killing; troughs relate to toxicity accumulation risk. A close rival is: Troughs alone drive bactericidal effect with no peak relevance. Distinguisher: Peaks matter for efficacy in concentration-dependent killing.",
+      "choice_explanations": {
+        "A": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of Aminoglycoside peaks.",
+        "B": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of Aminoglycoside peaks.",
+        "C": "Peaks matter for efficacy in concentration-dependent killing.",
+        "D": "Extended-interval strategies exploit high peaks and low troughs."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Linear PK superposition?",
+      "options": [
+        "A) Superposition forbids predicting multiple-dose levels from single-dose data ever",
+        "B) Claiming food never alters oral absorption of any drug",
+        "C) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound",
+        "D) Concentration–time profiles scale with dose and add with multiple doses when linear"
+      ],
+      "answer": "D) Concentration–time profiles scale with dose and add with multiple doses when linear",
+      "explanation": "Linearity enables proportional scaling and superposition principles. The best choice is: Concentration–time profiles scale with dose and add with multiple doses when linear. A close rival is: Superposition forbids predicting multiple-dose levels from single-dose data ever. Distinguisher: Superposition is a core linear PK tool.",
+      "choice_explanations": {
+        "A": "Superposition is a core linear PK tool.",
+        "B": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of Linear PK superposition.",
+        "C": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of Linear PK superposition.",
+        "D": "Linearity enables proportional scaling and superposition principles."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Sustained release PK?",
+      "options": [
+        "A) MR products reduce fluctuation and may alter Tmax/Cmax versus IR",
+        "B) Claiming food never alters oral absorption of any drug",
+        "C) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound",
+        "D) All MR products raise Cmax and shorten Tmax versus IR always"
+      ],
+      "answer": "A) MR products reduce fluctuation and may alter Tmax/Cmax versus IR",
+      "explanation": "Slower input lowers peaks and delays Tmax for similar daily AUC sometimes. The best choice is: MR products reduce fluctuation and may alter Tmax/Cmax versus IR. A close rival is: All MR products raise Cmax and shorten Tmax versus IR always. Distinguisher: MR typically lowers Cmax and prolongs Tmax versus IR.",
+      "choice_explanations": {
+        "A": "Slower input lowers peaks and delays Tmax for similar daily AUC sometimes.",
+        "B": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of Sustained release PK.",
+        "C": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of Sustained release PK.",
+        "D": "MR typically lowers Cmax and prolongs Tmax versus IR."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Child-Pugh dosing?",
+      "options": [
+        "A) Asserting high-extraction oral drugs always have F near 100%",
+        "B) Believing t½ alone determines maintenance dose rate without clearance",
+        "C) Child–Pugh scores measure only GFR for renal dosing",
+        "D) Hepatic dosing guidance often uses Child–Pugh categories for label adjustments"
+      ],
+      "answer": "D) Hepatic dosing guidance often uses Child–Pugh categories for label adjustments",
+      "explanation": "Clinical/lab composite estimates hepatic functional impairment. The best choice is: Hepatic dosing guidance often uses Child–Pugh categories for label adjustments. A close rival is: Child–Pugh scores measure only GFR for renal dosing. Distinguisher: It is a liver impairment tool, not a GFR equation.",
+      "choice_explanations": {
+        "A": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of Child-Pugh dosing.",
+        "B": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of Child-Pugh dosing.",
+        "C": "It is a liver impairment tool, not a GFR equation.",
+        "D": "Clinical/lab composite estimates hepatic functional impairment."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Mean residence time?",
+      "options": [
+        "A) MRT equals only Tmax",
+        "B) Claiming steady state is always reached after exactly one half-life",
+        "C) Saying Vd is always exactly plasma volume for every drug",
+        "D) MRT indexes average time molecule resides in body; relates to AUMC/AUC"
+      ],
+      "answer": "D) MRT indexes average time molecule resides in body; relates to AUMC/AUC",
+      "explanation": "For IV bolus one-compartment, MRT = 1/kel. The best choice is: MRT indexes average time molecule resides in body; relates to AUMC/AUC. A close rival is: MRT equals only Tmax. Distinguisher: MRT is not Tmax.",
+      "choice_explanations": {
+        "A": "MRT is not Tmax.",
+        "B": "Claiming steady state is always reached after exactly one half-life does not match the mechanism of Mean residence time.",
+        "C": "Saying Vd is always exactly plasma volume for every drug is unrelated to the key pathophysiology of Mean residence time.",
+        "D": "For IV bolus one-compartment, MRT = 1/kel."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Gut metabolism?",
+      "options": [
+        "A) Intestinal CYP3A/P-gp can reduce oral bioavailability before hepatic first-pass",
+        "B) Intestinal metabolism never affects oral F",
+        "C) Equating AUC with peak concentration alone",
+        "D) Setting clearance equal to Cmax after a single dose by definition"
+      ],
+      "answer": "A) Intestinal CYP3A/P-gp can reduce oral bioavailability before hepatic first-pass",
+      "explanation": "Presystemic gut extraction contributes to low F for some substrates. The best choice is: Intestinal CYP3A/P-gp can reduce oral bioavailability before hepatic first-pass. A close rival is: Intestinal metabolism never affects oral F. Distinguisher: Gut wall is a recognized first-pass site.",
+      "choice_explanations": {
+        "A": "Presystemic gut extraction contributes to low F for some substrates.",
+        "B": "Gut wall is a recognized first-pass site.",
+        "C": "Equating AUC with peak concentration alone is unrelated to the key pathophysiology of Gut metabolism.",
+        "D": "Setting clearance equal to Cmax after a single dose by definition does not match the mechanism of Gut metabolism."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of CSF penetration metrics?",
+      "options": [
+        "A) Equating AUC with peak concentration alone",
+        "B) Setting clearance equal to Cmax after a single dose by definition",
+        "C) AUCCSF/AUCplasma and unbound ratios assess CNS exposure better than single ratios sometimes",
+        "D) A single random CSF level always fully defines CNS PK for all drugs"
+      ],
+      "answer": "C) AUCCSF/AUCplasma and unbound ratios assess CNS exposure better than single ratios sometimes",
+      "explanation": "BBB/BCSFB transporters and inflammation alter CNS access. The best choice is: AUCCSF/AUCplasma and unbound ratios assess CNS exposure better than single ratios sometimes. A close rival is: A single random CSF level always fully defines CNS PK for all drugs. Distinguisher: Rich sampling/unbound ratios beat single untimed CSF draws.",
+      "choice_explanations": {
+        "A": "Equating AUC with peak concentration alone is unrelated to the key pathophysiology of CSF penetration metrics.",
+        "B": "Setting clearance equal to Cmax after a single dose by definition does not match the mechanism of CSF penetration metrics.",
+        "C": "BBB/BCSFB transporters and inflammation alter CNS access.",
+        "D": "Rich sampling/unbound ratios beat single untimed CSF draws."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Tolerance PKPD modeling?",
+      "options": [
+        "A) Tolerance never requires any PD model beyond instant Emax without time",
+        "B) Claiming food never alters oral absorption of any drug",
+        "C) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound",
+        "D) Time-dependent attenuation of effect at the same concentration can be modeled explicitly"
+      ],
+      "answer": "D) Time-dependent attenuation of effect at the same concentration can be modeled explicitly",
+      "explanation": "Receptor regulation or counter-regulation parameters capture fading response. The best choice is: Time-dependent attenuation of effect at the same concentration can be modeled explicitly. A close rival is: Tolerance never requires any PD model beyond instant Emax without time. Distinguisher: Time-dependent PD loss is modelable and real.",
+      "choice_explanations": {
+        "A": "Time-dependent PD loss is modelable and real.",
+        "B": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of Tolerance PKPD modeling.",
+        "C": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of Tolerance PKPD modeling.",
+        "D": "Receptor regulation or counter-regulation parameters capture fading response."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Charcoal multiple dose PK?",
+      "options": [
+        "A) MDAC increases absorption of recycled drugs",
+        "B) Believing t½ alone determines maintenance dose rate without clearance",
+        "C) MDAC can enhance elimination of some drugs undergoing enterohepatic/enteroenteric recycling",
+        "D) Asserting high-extraction oral drugs always have F near 100%"
+      ],
+      "answer": "C) MDAC can enhance elimination of some drugs undergoing enterohepatic/enteroenteric recycling",
+      "explanation": "Interrupting reabsorption increases net clearance for selected agents. The best choice is: MDAC can enhance elimination of some drugs undergoing enterohepatic/enteroenteric recycling. A close rival is: MDAC increases absorption of recycled drugs. Distinguisher: MDAC decreases, not increases, reabsorption.",
+      "choice_explanations": {
+        "A": "MDAC decreases, not increases, reabsorption.",
+        "B": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of Charcoal multiple dose PK.",
+        "C": "Interrupting reabsorption increases net clearance for selected agents.",
+        "D": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of Charcoal multiple dose PK."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Sampling time TDM?",
+      "options": [
+        "A) Random untimed levels are always equally interpretable for all TDM drugs",
+        "B) Interpret levels relative to dose time (trough/peak/AUC) per drug protocol",
+        "C) Claiming steady state is always reached after exactly one half-life",
+        "D) Saying Vd is always exactly plasma volume for every drug"
+      ],
+      "answer": "B) Interpret levels relative to dose time (trough/peak/AUC) per drug protocol",
+      "explanation": "Wrong timing makes numeric levels misleading. The best choice is: Interpret levels relative to dose time (trough/peak/AUC) per drug protocol. A close rival is: Random untimed levels are always equally interpretable for all TDM drugs. Distinguisher: Protocol timing is essential for interpretation.",
+      "choice_explanations": {
+        "A": "Protocol timing is essential for interpretation.",
+        "B": "Wrong timing makes numeric levels misleading.",
+        "C": "Claiming steady state is always reached after exactly one half-life does not match the mechanism of Sampling time TDM.",
+        "D": "Saying Vd is always exactly plasma volume for every drug is unrelated to the key pathophysiology of Sampling time TDM."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Half-life context?",
+      "options": [
+        "A) t½ alone determines maintenance dose rate without CL",
+        "B) Believing t½ alone determines maintenance dose rate without clearance",
+        "C) Asserting high-extraction oral drugs always have F near 100%",
+        "D) t½ guides dosing interval and time to steady state but is secondary to CL and V"
+      ],
+      "answer": "D) t½ guides dosing interval and time to steady state but is secondary to CL and V",
+      "explanation": "t½ = 0.693·V/CL links primary parameters. The best choice is: t½ guides dosing interval and time to steady state but is secondary to CL and V. A close rival is: t½ alone determines maintenance dose rate without CL. Distinguisher: Dose rate depends on CL (and target), not t½ alone.",
+      "choice_explanations": {
+        "A": "Dose rate depends on CL (and target), not t½ alone.",
+        "B": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of Half-life context.",
+        "C": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of Half-life context.",
+        "D": "t½ = 0.693·V/CL links primary parameters."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Reabsorption pH?",
+      "options": [
+        "A) Passive reabsorption of unionized drug can be manipulated by urine pH (ion trapping)",
+        "B) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound",
+        "C) Urine pH never affects renal excretion of weak acids/bases",
+        "D) Claiming food never alters oral absorption of any drug"
+      ],
+      "answer": "A) Passive reabsorption of unionized drug can be manipulated by urine pH (ion trapping)",
+      "explanation": "Alkaline urine ionizes weak acids reducing reabsorption. The best choice is: Passive reabsorption of unionized drug can be manipulated by urine pH (ion trapping). A close rival is: Urine pH never affects renal excretion of weak acids/bases. Distinguisher: pH trapping is a classic renal excretion modifier.",
+      "choice_explanations": {
+        "A": "Alkaline urine ionizes weak acids reducing reabsorption.",
+        "B": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of Reabsorption pH.",
+        "C": "pH trapping is a classic renal excretion modifier.",
+        "D": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of Reabsorption pH."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Hysteresis PKPD?",
+      "options": [
+        "A) Believing t½ alone determines maintenance dose rate without clearance",
+        "B) Asserting high-extraction oral drugs always have F near 100%",
+        "C) Effect–concentration loops arise from delayed distribution or indirect response mechanisms",
+        "D) Hysteresis means assay failure only"
+      ],
+      "answer": "C) Effect–concentration loops arise from delayed distribution or indirect response mechanisms",
+      "explanation": "Counterclockwise hysteresis often reflects distribution to effect site or turnover models. The best choice is: Effect–concentration loops arise from delayed distribution or indirect response mechanisms. A close rival is: Hysteresis means assay failure only. Distinguisher: PK/PD delay phenomena produce real hysteresis loops.",
+      "choice_explanations": {
+        "A": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of Hysteresis PKPD.",
+        "B": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of Hysteresis PKPD.",
+        "C": "Counterclockwise hysteresis often reflects distribution to effect site or turnover models.",
+        "D": "PK/PD delay phenomena produce real hysteresis loops."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of One-compartment IV bolus?",
+      "options": [
+        "A) Believing t½ alone determines maintenance dose rate without clearance",
+        "B) Asserting high-extraction oral drugs always have F near 100%",
+        "C) IV bolus always shows multi-exponential tissue distribution with no simple V",
+        "D) Cp declines monoexponentially; V = Dose/C0; t½ = 0.693/k"
+      ],
+      "answer": "D) Cp declines monoexponentially; V = Dose/C0; t½ = 0.693/k",
+      "explanation": "Instant mixing assumption yields monoexponential decline for 1-compartment models. The best choice is: Cp declines monoexponentially; V = Dose/C0; t½ = 0.693/k. A close rival is: IV bolus always shows multi-exponential tissue distribution with no simple V. Distinguisher: One-compartment is the simplest mixing assumption.",
+      "choice_explanations": {
+        "A": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of One-compartment IV bolus.",
+        "B": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of One-compartment IV bolus.",
+        "C": "One-compartment is the simplest mixing assumption.",
+        "D": "Instant mixing assumption yields monoexponential decline for 1-compartment models."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Alcohol zero-order?",
+      "options": [
+        "A) Setting clearance equal to Cmax after a single dose by definition",
+        "B) Ethanol always shows first-order elimination at all concentrations without saturation",
+        "C) Ethanol elimination approximates zero-order at usual intoxicating concentrations",
+        "D) Equating AUC with peak concentration alone"
+      ],
+      "answer": "C) Ethanol elimination approximates zero-order at usual intoxicating concentrations",
+      "explanation": "Saturated ADH pathways yield roughly constant amount eliminated per hour. The best choice is: Ethanol elimination approximates zero-order at usual intoxicating concentrations. A close rival is: Ethanol always shows first-order elimination at all concentrations without saturation. Distinguisher: Saturation produces near zero-order behavior.",
+      "choice_explanations": {
+        "A": "Setting clearance equal to Cmax after a single dose by definition does not match the mechanism of Alcohol zero-order.",
+        "B": "Saturation produces near zero-order behavior.",
+        "C": "Saturated ADH pathways yield roughly constant amount eliminated per hour.",
+        "D": "Equating AUC with peak concentration alone is unrelated to the key pathophysiology of Alcohol zero-order."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Hepatic clearance?",
+      "options": [
+        "A) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound",
+        "B) Claiming food never alters oral absorption of any drug",
+        "C) Hepatic CL depends on liver blood flow, fraction unbound, and intrinsic clearance",
+        "D) Hepatic CL depends only on tablet color"
+      ],
+      "answer": "C) Hepatic CL depends on liver blood flow, fraction unbound, and intrinsic clearance",
+      "explanation": "Well-stirred model: CLh ≈ Q·fu·CLint / (Q + fu·CLint). The best choice is: Hepatic CL depends on liver blood flow, fraction unbound, and intrinsic clearance. A close rival is: Hepatic CL depends only on tablet color. Distinguisher: Blood flow, binding, and enzyme activity jointly govern hepatic CL.",
+      "choice_explanations": {
+        "A": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of Hepatic clearance.",
+        "B": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of Hepatic clearance.",
+        "C": "Well-stirred model: CLh ≈ Q·fu·CLint / (Q + fu·CLint).",
+        "D": "Blood flow, binding, and enzyme activity jointly govern hepatic CL."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of First-pass ER?",
+      "options": [
+        "A) Hepatic extraction ratio relates to first-pass loss for orally absorbed drugs",
+        "B) Believing t½ alone determines maintenance dose rate without clearance",
+        "C) Asserting high-extraction oral drugs always have F near 100%",
+        "D) High extraction always means oral F near 100%"
+      ],
+      "answer": "A) Hepatic extraction ratio relates to first-pass loss for orally absorbed drugs",
+      "explanation": "Oral F ≈ 1 − ER for complete absorption assumptions (simplified). The best choice is: Hepatic extraction ratio relates to first-pass loss for orally absorbed drugs. A close rival is: High extraction always means oral F near 100%. Distinguisher: High ER implies low oral F if absorption is complete.",
+      "choice_explanations": {
+        "A": "Oral F ≈ 1 − ER for complete absorption assumptions (simplified).",
+        "B": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of First-pass ER.",
+        "C": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of First-pass ER.",
+        "D": "High ER implies low oral F if absorption is complete."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Prodrug activation PK?",
+      "options": [
+        "A) Measured parent may be inactive while metabolite drives effect — interpret levels accordingly",
+        "B) Equating AUC with peak concentration alone",
+        "C) Setting clearance equal to Cmax after a single dose by definition",
+        "D) Prodrug parent levels always equal active moiety exposure"
+      ],
+      "answer": "A) Measured parent may be inactive while metabolite drives effect — interpret levels accordingly",
+      "explanation": "Clopidogrel and codeine exemplify activation-dependent response variability. The best choice is: Measured parent may be inactive while metabolite drives effect — interpret levels accordingly. A close rival is: Prodrug parent levels always equal active moiety exposure. Distinguisher: Active metabolite exposure, not inactive parent alone, matters.",
+      "choice_explanations": {
+        "A": "Clopidogrel and codeine exemplify activation-dependent response variability.",
+        "B": "Equating AUC with peak concentration alone is unrelated to the key pathophysiology of Prodrug activation PK.",
+        "C": "Setting clearance equal to Cmax after a single dose by definition does not match the mechanism of Prodrug activation PK.",
+        "D": "Active metabolite exposure, not inactive parent alone, matters."
+      }
+    }
+  ],
+  "medium": [
+    {
+      "question": "In clinical practice regarding Relative bioavailability, which option is most accurate?",
+      "options": [
+        "A) Compares systemic exposure of two extravascular formulations",
+        "B) Claiming food never alters oral absorption of any drug",
+        "C) Requires an IV arm by definition for relative bioavailability",
+        "D) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound"
+      ],
+      "answer": "A) Compares systemic exposure of two extravascular formulations",
+      "explanation": "Test/reference AUC ratios assess formulation performance. The best choice is: Compares systemic exposure of two extravascular formulations. A close rival is: Requires an IV arm by definition for relative bioavailability. Distinguisher: Relative F does not require IV dosing.",
+      "choice_explanations": {
+        "A": "Test/reference AUC ratios assess formulation performance.",
+        "B": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of Relative bioavailability.",
+        "C": "Relative F does not require IV dosing.",
+        "D": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of Relative bioavailability."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Intrinsic clearance, which option is most accurate?",
+      "options": [
+        "A) CLint reflects enzyme/transporter capacity unbound intrinsic eliminating activity",
+        "B) Claiming food never alters oral absorption of any drug",
+        "C) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound",
+        "D) CLint equals liver blood flow by definition"
+      ],
+      "answer": "A) CLint reflects enzyme/transporter capacity unbound intrinsic eliminating activity",
+      "explanation": "In vitro–in vivo extrapolation scales CLint from microsomes/hepatocytes carefully. The best choice is: CLint reflects enzyme/transporter capacity unbound intrinsic eliminating activity. A close rival is: CLint equals liver blood flow by definition. Distinguisher: CLint is capacity, not hepatic blood flow itself.",
+      "choice_explanations": {
+        "A": "In vitro–in vivo extrapolation scales CLint from microsomes/hepatocytes carefully.",
+        "B": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of Intrinsic clearance.",
+        "C": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of Intrinsic clearance.",
+        "D": "CLint is capacity, not hepatic blood flow itself."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Ka estimation, which option is most accurate?",
+      "options": [
+        "A) Ka equals clearance divided by dose always",
+        "B) Saying Vd is always exactly plasma volume for every drug",
+        "C) Claiming steady state is always reached after exactly one half-life",
+        "D) Absorption rate constant estimated from residual or modeling methods in PK analysis"
+      ],
+      "answer": "D) Absorption rate constant estimated from residual or modeling methods in PK analysis",
+      "explanation": "ka shapes early curve and Tmax together with kel. The best choice is: Absorption rate constant estimated from residual or modeling methods in PK analysis. A close rival is: Ka equals clearance divided by dose always. Distinguisher: Ka is not CL/Dose.",
+      "choice_explanations": {
+        "A": "Ka is not CL/Dose.",
+        "B": "Saying Vd is always exactly plasma volume for every drug is unrelated to the key pathophysiology of Ka estimation.",
+        "C": "Claiming steady state is always reached after exactly one half-life does not match the mechanism of Ka estimation.",
+        "D": "ka shapes early curve and Tmax together with kel."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Volume steady state, which option is most accurate?",
+      "options": [
+        "A) Believing t½ alone determines maintenance dose rate without clearance",
+        "B) Asserting high-extraction oral drugs always have F near 100%",
+        "C) Vss always equals Vz for every multicompartment drug",
+        "D) Vss relates to distribution at steady state; distinct from Vz terminal volume"
+      ],
+      "answer": "D) Vss relates to distribution at steady state; distinct from Vz terminal volume",
+      "explanation": "Vz can exceed Vss depending on kinetic phases. The best choice is: Vss relates to distribution at steady state; distinct from Vz terminal volume. A close rival is: Vss always equals Vz for every multicompartment drug. Distinguisher: Terminal volume and Vss are not always identical.",
+      "choice_explanations": {
+        "A": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of Volume steady state.",
+        "B": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of Volume steady state.",
+        "C": "Terminal volume and Vss are not always identical.",
+        "D": "Vz can exceed Vss depending on kinetic phases."
+      }
+    },
+    {
+      "question": "In clinical practice regarding ECMO PK alterations, which option is most accurate?",
+      "options": [
+        "A) Claiming steady state is always reached after exactly one half-life",
+        "B) ECMO circuits never bind drugs and leave PK unchanged",
+        "C) Saying Vd is always exactly plasma volume for every drug",
+        "D) Circuit sequestration and Vd changes can lower levels of lipophilic drugs on ECMO"
+      ],
+      "answer": "D) Circuit sequestration and Vd changes can lower levels of lipophilic drugs on ECMO",
+      "explanation": "Adsorption to tubing/oxygenator may require dose increases for some agents. The best choice is: Circuit sequestration and Vd changes can lower levels of lipophilic drugs on ECMO. A close rival is: ECMO circuits never bind drugs and leave PK unchanged. Distinguisher: Sequestration is a recognized ECMO PK issue.",
+      "choice_explanations": {
+        "A": "Claiming steady state is always reached after exactly one half-life does not match the mechanism of ECMO PK alterations.",
+        "B": "Sequestration is a recognized ECMO PK issue.",
+        "C": "Saying Vd is always exactly plasma volume for every drug is unrelated to the key pathophysiology of ECMO PK alterations.",
+        "D": "Adsorption to tubing/oxygenator may require dose increases for some agents."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Clearance from AUC, which option is most accurate?",
+      "options": [
+        "A) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound",
+        "B) CL = Dose/AUC for IV; CL/F = Dose/AUC for oral",
+        "C) Claiming food never alters oral absorption of any drug",
+        "D) CL = AUC/Dose"
+      ],
+      "answer": "B) CL = Dose/AUC for IV; CL/F = Dose/AUC for oral",
+      "explanation": "Exposure inversely reflects clearance for fixed dose. The best choice is: CL = Dose/AUC for IV; CL/F = Dose/AUC for oral. A close rival is: CL = AUC/Dose. Distinguisher: Dose/AUC, not AUC/Dose, yields clearance.",
+      "choice_explanations": {
+        "A": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of Clearance from AUC.",
+        "B": "Exposure inversely reflects clearance for fixed dose.",
+        "C": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of Clearance from AUC.",
+        "D": "Dose/AUC, not AUC/Dose, yields clearance."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Flip-flop kinetics, which option is most accurate?",
+      "options": [
+        "A) Absorption is slower than elimination so terminal slope reflects ka not kel",
+        "B) Flip-flop means elimination is always rate-limiting versus absorption",
+        "C) Saying Vd is always exactly plasma volume for every drug",
+        "D) Claiming steady state is always reached after exactly one half-life"
+      ],
+      "answer": "A) Absorption is slower than elimination so terminal slope reflects ka not kel",
+      "explanation": "Depot IM products commonly show flip-flop terminal phases. The best choice is: Absorption is slower than elimination so terminal slope reflects ka not kel. A close rival is: Flip-flop means elimination is always rate-limiting versus absorption. Distinguisher: Terminal phase reflects the slower process — absorption in flip-flop.",
+      "choice_explanations": {
+        "A": "Depot IM products commonly show flip-flop terminal phases.",
+        "B": "Terminal phase reflects the slower process — absorption in flip-flop.",
+        "C": "Saying Vd is always exactly plasma volume for every drug is unrelated to the key pathophysiology of Flip-flop kinetics.",
+        "D": "Claiming steady state is always reached after exactly one half-life does not match the mechanism of Flip-flop kinetics."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Nonlinear PK Michaelis, which option is most accurate?",
+      "options": [
+        "A) Saturable metabolism yields dose-dependent clearance and disproportionate AUC increases",
+        "B) Setting clearance equal to Cmax after a single dose by definition",
+        "C) Saturable metabolism keeps AUC perfectly proportional to dose forever",
+        "D) Equating AUC with peak concentration alone"
+      ],
+      "answer": "A) Saturable metabolism yields dose-dependent clearance and disproportionate AUC increases",
+      "explanation": "When concentrations near Km, clearance falls as dose rises. The best choice is: Saturable metabolism yields dose-dependent clearance and disproportionate AUC increases. A close rival is: Saturable metabolism keeps AUC perfectly proportional to dose forever. Distinguisher: Proportionality breaks down under saturation.",
+      "choice_explanations": {
+        "A": "When concentrations near Km, clearance falls as dose rises.",
+        "B": "Setting clearance equal to Cmax after a single dose by definition does not match the mechanism of Nonlinear PK Michaelis.",
+        "C": "Proportionality breaks down under saturation.",
+        "D": "Equating AUC with peak concentration alone is unrelated to the key pathophysiology of Nonlinear PK Michaelis."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Grapefruit PK, which option is most accurate?",
+      "options": [
+        "A) Intestinal CYP3A inhibition can raise oral exposure of sensitive substrates",
+        "B) Believing t½ alone determines maintenance dose rate without clearance",
+        "C) Asserting high-extraction oral drugs always have F near 100%",
+        "D) Grapefruit juice induces gut CYP3A lowering exposure of substrates"
+      ],
+      "answer": "A) Intestinal CYP3A inhibition can raise oral exposure of sensitive substrates",
+      "explanation": "Presystemic extraction falls when CYP3A is inhibited in enterocytes. The best choice is: Intestinal CYP3A inhibition can raise oral exposure of sensitive substrates. A close rival is: Grapefruit juice induces gut CYP3A lowering exposure of substrates. Distinguisher: Classic effect is increased, not decreased, substrate exposure.",
+      "choice_explanations": {
+        "A": "Presystemic extraction falls when CYP3A is inhibited in enterocytes.",
+        "B": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of Grapefruit PK.",
+        "C": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of Grapefruit PK.",
+        "D": "Classic effect is increased, not decreased, substrate exposure."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Therapeutic window, which option is most accurate?",
+      "options": [
+        "A) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound",
+        "B) Range of concentrations with acceptable efficacy and toxicity probability",
+        "C) Claiming food never alters oral absorption of any drug",
+        "D) Identical to the tablet’s physical width in millimeters"
+      ],
+      "answer": "B) Range of concentrations with acceptable efficacy and toxicity probability",
+      "explanation": "TDM and dosing aim to keep patients within the window. The best choice is: Range of concentrations with acceptable efficacy and toxicity probability. A close rival is: Identical to the tablet’s physical width in millimeters. Distinguisher: It is a concentration–response concept, not tablet geometry.",
+      "choice_explanations": {
+        "A": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of Therapeutic window.",
+        "B": "TDM and dosing aim to keep patients within the window.",
+        "C": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of Therapeutic window.",
+        "D": "It is a concentration–response concept, not tablet geometry."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Inhalation systemic PK, which option is most accurate?",
+      "options": [
+        "A) Lung absorption can be rapid for permeable drugs; mucociliary clearance removes undissolved particles",
+        "B) Inhaled drug never reaches blood under any circumstance",
+        "C) Setting clearance equal to Cmax after a single dose by definition",
+        "D) Equating AUC with peak concentration alone"
+      ],
+      "answer": "A) Lung absorption can be rapid for permeable drugs; mucociliary clearance removes undissolved particles",
+      "explanation": "Pulmonary route can achieve fast systemic onset for some agents. The best choice is: Lung absorption can be rapid for permeable drugs; mucociliary clearance removes undissolved particles. A close rival is: Inhaled drug never reaches blood under any circumstance. Distinguisher: Systemic absorption from lung is well recognized.",
+      "choice_explanations": {
+        "A": "Pulmonary route can achieve fast systemic onset for some agents.",
+        "B": "Systemic absorption from lung is well recognized.",
+        "C": "Setting clearance equal to Cmax after a single dose by definition does not match the mechanism of Inhalation systemic PK.",
+        "D": "Equating AUC with peak concentration alone is unrelated to the key pathophysiology of Inhalation systemic PK."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Renal clearance components, which option is most accurate?",
+      "options": [
+        "A) Asserting high-extraction oral drugs always have F near 100%",
+        "B) GFR filtration of free drug ± secretion − reabsorption determines CLr",
+        "C) Renal clearance equals only urine flow rate always",
+        "D) Believing t½ alone determines maintenance dose rate without clearance"
+      ],
+      "answer": "B) GFR filtration of free drug ± secretion − reabsorption determines CLr",
+      "explanation": "Active secretion can make CLr exceed fu·GFR; reabsorption can lower it. The best choice is: GFR filtration of free drug ± secretion − reabsorption determines CLr. A close rival is: Renal clearance equals only urine flow rate always. Distinguisher: Tubular processes modify filtered load substantially.",
+      "choice_explanations": {
+        "A": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of Renal clearance components.",
+        "B": "Active secretion can make CLr exceed fu·GFR; reabsorption can lower it.",
+        "C": "Tubular processes modify filtered load substantially.",
+        "D": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of Renal clearance components."
+      }
+    },
+    {
+      "question": "In clinical practice regarding TDM indication, which option is most accurate?",
+      "options": [
+        "A) TDM is useless for lithium, aminoglycosides, and vancomycin ever",
+        "B) Setting clearance equal to Cmax after a single dose by definition",
+        "C) Equating AUC with peak concentration alone",
+        "D) TDM helps NTI drugs, variable PK, adherence questions, or concentration–response links"
+      ],
+      "answer": "D) TDM helps NTI drugs, variable PK, adherence questions, or concentration–response links",
+      "explanation": "Measuring levels guides individualized dosing when variability is high. The best choice is: TDM helps NTI drugs, variable PK, adherence questions, or concentration–response links. A close rival is: TDM is useless for lithium, aminoglycosides, and vancomycin ever. Distinguisher: Those agents are classic TDM candidates.",
+      "choice_explanations": {
+        "A": "Those agents are classic TDM candidates.",
+        "B": "Setting clearance equal to Cmax after a single dose by definition does not match the mechanism of TDM indication.",
+        "C": "Equating AUC with peak concentration alone is unrelated to the key pathophysiology of TDM indication.",
+        "D": "Measuring levels guides individualized dosing when variability is high."
+      }
+    },
+    {
+      "question": "In clinical practice regarding AUC dosing vs trough, which option is most accurate?",
+      "options": [
+        "A) AUC better indexes total exposure; trough is a sparse surrogate when validated",
+        "B) Saying Vd is always exactly plasma volume for every drug",
+        "C) Claiming steady state is always reached after exactly one half-life",
+        "D) Trough always equals AUC for every drug without exception"
+      ],
+      "answer": "A) AUC better indexes total exposure; trough is a sparse surrogate when validated",
+      "explanation": "Single troughs can misestimate exposure if timing/variability high. The best choice is: AUC better indexes total exposure; trough is a sparse surrogate when validated. A close rival is: Trough always equals AUC for every drug without exception. Distinguisher: Trough ≠ AUC universally.",
+      "choice_explanations": {
+        "A": "Single troughs can misestimate exposure if timing/variability high.",
+        "B": "Saying Vd is always exactly plasma volume for every drug is unrelated to the key pathophysiology of AUC dosing vs trough.",
+        "C": "Claiming steady state is always reached after exactly one half-life does not match the mechanism of AUC dosing vs trough.",
+        "D": "Trough ≠ AUC universally."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Steady-state trough targeting, which option is most accurate?",
+      "options": [
+        "A) Adjust dose or interval to keep troughs in range for time-dependent antibiotics or TDM drugs",
+        "B) Claiming food never alters oral absorption of any drug",
+        "C) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound",
+        "D) Trough targeting ignores pathogen MIC and protein binding always without consequence"
+      ],
+      "answer": "A) Adjust dose or interval to keep troughs in range for time-dependent antibiotics or TDM drugs",
+      "explanation": "PK/PD targets link trough/AUC to microbiologic breakpoints carefully. The best choice is: Adjust dose or interval to keep troughs in range for time-dependent antibiotics or TDM drugs. A close rival is: Trough targeting ignores pathogen MIC and protein binding always without consequence. Distinguisher: MIC context matters for antibiotic trough strategies.",
+      "choice_explanations": {
+        "A": "PK/PD targets link trough/AUC to microbiologic breakpoints carefully.",
+        "B": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of Steady-state trough targeting.",
+        "C": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of Steady-state trough targeting.",
+        "D": "MIC context matters for antibiotic trough strategies."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Perfusion limited distribution, which option is most accurate?",
+      "options": [
+        "A) Well-stirred highly permeable tissues equilibrate rapidly in proportion to blood flow",
+        "B) Perfusion limitation means tissue levels ignore blood flow entirely",
+        "C) Claiming food never alters oral absorption of any drug",
+        "D) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound"
+      ],
+      "answer": "A) Well-stirred highly permeable tissues equilibrate rapidly in proportion to blood flow",
+      "explanation": "Highly permeable drugs enter quickly; flow determines delivery rate. The best choice is: Well-stirred highly permeable tissues equilibrate rapidly in proportion to blood flow. A close rival is: Perfusion limitation means tissue levels ignore blood flow entirely. Distinguisher: Blood flow matters under perfusion limitation.",
+      "choice_explanations": {
+        "A": "Highly permeable drugs enter quickly; flow determines delivery rate.",
+        "B": "Blood flow matters under perfusion limitation.",
+        "C": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of Perfusion limited distribution.",
+        "D": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of Perfusion limited distribution."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Effect compartment, which option is most accurate?",
+      "options": [
+        "A) ke0 links plasma to effect-site concentrations for delayed PD",
+        "B) Setting clearance equal to Cmax after a single dose by definition",
+        "C) Effect compartments forbid modeling any delay between plasma and effect",
+        "D) Equating AUC with peak concentration alone"
+      ],
+      "answer": "A) ke0 links plasma to effect-site concentrations for delayed PD",
+      "explanation": "Equilibration half-time explains lag for anesthetics/analgesics teaching. The best choice is: ke0 links plasma to effect-site concentrations for delayed PD. A close rival is: Effect compartments forbid modeling any delay between plasma and effect. Distinguisher: ke0 specifically models the delay.",
+      "choice_explanations": {
+        "A": "Equilibration half-time explains lag for anesthetics/analgesics teaching.",
+        "B": "Setting clearance equal to Cmax after a single dose by definition does not match the mechanism of Effect compartment.",
+        "C": "ke0 specifically models the delay.",
+        "D": "Equating AUC with peak concentration alone is unrelated to the key pathophysiology of Effect compartment."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Biosimilar PK, which option is most accurate?",
+      "options": [
+        "A) Setting clearance equal to Cmax after a single dose by definition",
+        "B) Biosimilars must match reference PK within acceptance criteria as part of totality of evidence",
+        "C) Equating AUC with peak concentration alone",
+        "D) Biosimilars ignore PK comparisons entirely"
+      ],
+      "answer": "B) Biosimilars must match reference PK within acceptance criteria as part of totality of evidence",
+      "explanation": "PK similarity supports clinical similarity arguments. The best choice is: Biosimilars must match reference PK within acceptance criteria as part of totality of evidence. A close rival is: Biosimilars ignore PK comparisons entirely. Distinguisher: PK evaluation is integral to biosimilar development.",
+      "choice_explanations": {
+        "A": "Setting clearance equal to Cmax after a single dose by definition does not match the mechanism of Biosimilar PK.",
+        "B": "PK similarity supports clinical similarity arguments.",
+        "C": "Equating AUC with peak concentration alone is unrelated to the key pathophysiology of Biosimilar PK.",
+        "D": "PK evaluation is integral to biosimilar development."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Drug interaction timing staggered, which option is most accurate?",
+      "options": [
+        "A) Claiming food never alters oral absorption of any drug",
+        "B) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound",
+        "C) Separating administration can mitigate absorption adsorption interactions (e.g., binding resins)",
+        "D) Staggering never helps chelation or binding interactions"
+      ],
+      "answer": "C) Separating administration can mitigate absorption adsorption interactions (e.g., binding resins)",
+      "explanation": "Temporal separation reduces luminal binding of coadministered drugs. The best choice is: Separating administration can mitigate absorption adsorption interactions (e.g., binding resins). A close rival is: Staggering never helps chelation or binding interactions. Distinguisher: Staggering is a practical mitigation strategy.",
+      "choice_explanations": {
+        "A": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of Drug interaction timing staggered.",
+        "B": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of Drug interaction timing staggered.",
+        "C": "Temporal separation reduces luminal binding of coadministered drugs.",
+        "D": "Staggering is a practical mitigation strategy."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Fluctuation Css, which option is most accurate?",
+      "options": [
+        "A) Fluctuation is independent of dosing interval and half-life",
+        "B) Claiming steady state is always reached after exactly one half-life",
+        "C) Saying Vd is always exactly plasma volume for every drug",
+        "D) Peak–trough swing widens with long intervals relative to half-life or rapid absorption"
+      ],
+      "answer": "D) Peak–trough swing widens with long intervals relative to half-life or rapid absorption",
+      "explanation": "More frequent dosing smooths peaks and troughs for the same daily dose. The best choice is: Peak–trough swing widens with long intervals relative to half-life or rapid absorption. A close rival is: Fluctuation is independent of dosing interval and half-life. Distinguisher: Interval and t½ strongly shape fluctuation.",
+      "choice_explanations": {
+        "A": "Interval and t½ strongly shape fluctuation.",
+        "B": "Claiming steady state is always reached after exactly one half-life does not match the mechanism of Fluctuation Css.",
+        "C": "Saying Vd is always exactly plasma volume for every drug is unrelated to the key pathophysiology of Fluctuation Css.",
+        "D": "More frequent dosing smooths peaks and troughs for the same daily dose."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Extracorporeal CRRT, which option is most accurate?",
+      "options": [
+        "A) CRRT modalities clear some drugs continuously; dosing differs from intermittent hemodialysis",
+        "B) Equating AUC with peak concentration alone",
+        "C) CRRT never removes any drug so no dosing changes ever",
+        "D) Setting clearance equal to Cmax after a single dose by definition"
+      ],
+      "answer": "A) CRRT modalities clear some drugs continuously; dosing differs from intermittent hemodialysis",
+      "explanation": "Effluent flow and sieving coefficients guide supplemental dosing. The best choice is: CRRT modalities clear some drugs continuously; dosing differs from intermittent hemodialysis. A close rival is: CRRT never removes any drug so no dosing changes ever. Distinguisher: Many drugs need CRRT-adjusted regimens.",
+      "choice_explanations": {
+        "A": "Effluent flow and sieving coefficients guide supplemental dosing.",
+        "B": "Equating AUC with peak concentration alone is unrelated to the key pathophysiology of Extracorporeal CRRT.",
+        "C": "Many drugs need CRRT-adjusted regimens.",
+        "D": "Setting clearance equal to Cmax after a single dose by definition does not match the mechanism of Extracorporeal CRRT."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Nonrestrictive clearance, which option is most accurate?",
+      "options": [
+        "A) Some transporters/processes clear bound plus unbound drug efficiently",
+        "B) Nonrestrictive means nothing is cleared ever",
+        "C) Claiming food never alters oral absorption of any drug",
+        "D) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound"
+      ],
+      "answer": "A) Some transporters/processes clear bound plus unbound drug efficiently",
+      "explanation": "Extraction can exceed what free fraction alone would suggest. The best choice is: Some transporters/processes clear bound plus unbound drug efficiently. A close rival is: Nonrestrictive means nothing is cleared ever. Distinguisher: Clearance still occurs — often avidly.",
+      "choice_explanations": {
+        "A": "Extraction can exceed what free fraction alone would suggest.",
+        "B": "Clearance still occurs — often avidly.",
+        "C": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of Nonrestrictive clearance.",
+        "D": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of Nonrestrictive clearance."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Hybrid rates alpha beta, which option is most accurate?",
+      "options": [
+        "A) α and β are hybrid exponents from solving multicompartment differential equations",
+        "B) Saying Vd is always exactly plasma volume for every drug",
+        "C) Claiming steady state is always reached after exactly one half-life",
+        "D) α and β are simply microconstants k12 and k21 unchanged"
+      ],
+      "answer": "A) α and β are hybrid exponents from solving multicompartment differential equations",
+      "explanation": "Macroconstants derive from combinations of microconstants. The best choice is: α and β are hybrid exponents from solving multicompartment differential equations. A close rival is: α and β are simply microconstants k12 and k21 unchanged. Distinguisher: α/β are hybrid, not raw microconstants.",
+      "choice_explanations": {
+        "A": "Macroconstants derive from combinations of microconstants.",
+        "B": "Saying Vd is always exactly plasma volume for every drug is unrelated to the key pathophysiology of Hybrid rates alpha beta.",
+        "C": "Claiming steady state is always reached after exactly one half-life does not match the mechanism of Hybrid rates alpha beta.",
+        "D": "α/β are hybrid, not raw microconstants."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Circadian cortisol interaction, which option is most accurate?",
+      "options": [
+        "A) Asserting high-extraction oral drugs always have F near 100%",
+        "B) Time of day never matters for any glucocorticoid regimen counseling",
+        "C) Believing t½ alone determines maintenance dose rate without clearance",
+        "D) Corticosteroid timing may align with diurnal HPA biology for some regimens"
+      ],
+      "answer": "D) Corticosteroid timing may align with diurnal HPA biology for some regimens",
+      "explanation": "Morning dosing mimics physiology and may reduce HPA suppression for some regimens. The best choice is: Corticosteroid timing may align with diurnal HPA biology for some regimens. A close rival is: Time of day never matters for any glucocorticoid regimen counseling. Distinguisher: Chronotherapy considerations exist for steroids.",
+      "choice_explanations": {
+        "A": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of Circadian cortisol interaction.",
+        "B": "Chronotherapy considerations exist for steroids.",
+        "C": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of Circadian cortisol interaction.",
+        "D": "Morning dosing mimics physiology and may reduce HPA suppression for some regimens."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Mechanism-based inhibition time, which option is most accurate?",
+      "options": [
+        "A) MBI always shows maximal inhibition at time zero without metabolism",
+        "B) Claiming food never alters oral absorption of any drug",
+        "C) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound",
+        "D) Time-dependent CYP inactivation can accumulate with repeated dosing"
+      ],
+      "answer": "D) Time-dependent CYP inactivation can accumulate with repeated dosing",
+      "explanation": "Inactivation requires catalytic turnover of the inhibitor. The best choice is: Time-dependent CYP inactivation can accumulate with repeated dosing. A close rival is: MBI always shows maximal inhibition at time zero without metabolism. Distinguisher: MBI deepens with time/dose as enzyme is destroyed.",
+      "choice_explanations": {
+        "A": "MBI deepens with time/dose as enzyme is destroyed.",
+        "B": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of Mechanism-based inhibition time.",
+        "C": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of Mechanism-based inhibition time.",
+        "D": "Inactivation requires catalytic turnover of the inhibitor."
+      }
+    }
+  ],
+  "hard": [
+    {
+      "question": "A student analyzes a case centered on Steady-state infusion. Key teaching point: Input equals elimination at steady state: R0 = CL × Css. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Css equals infusion rate × CL",
+        "B) Css = infusion rate / CL for continuous IV infusion at steady state",
+        "C) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound",
+        "D) Claiming food never alters oral absorption of any drug"
+      ],
+      "answer": "B) Css = infusion rate / CL for continuous IV infusion at steady state",
+      "explanation": "Input equals elimination at steady state: R0 = CL × Css. The best choice is: Css = infusion rate / CL for continuous IV infusion at steady state. A close rival is: Css equals infusion rate × CL. Distinguisher: Css is rate divided by CL, not multiplied.",
+      "choice_explanations": {
+        "A": "Css is rate divided by CL, not multiplied.",
+        "B": "Input equals elimination at steady state: R0 = CL × Css.",
+        "C": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of Steady-state infusion.",
+        "D": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of Steady-state infusion."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Rebound after dialysis. Key teaching point: Peripheral compartments refill plasma after extracorporeal removal. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Claiming steady state is always reached after exactly one half-life",
+        "B) Levels only fall after dialysis without redistribution ever",
+        "C) Redistribution from tissues can raise plasma levels after dialysis ends",
+        "D) Saying Vd is always exactly plasma volume for every drug"
+      ],
+      "answer": "C) Redistribution from tissues can raise plasma levels after dialysis ends",
+      "explanation": "Peripheral compartments refill plasma after extracorporeal removal. The best choice is: Redistribution from tissues can raise plasma levels after dialysis ends. A close rival is: Levels only fall after dialysis without redistribution ever. Distinguisher: Rebound is expected for some agents.",
+      "choice_explanations": {
+        "A": "Claiming steady state is always reached after exactly one half-life does not match the mechanism of Rebound after dialysis.",
+        "B": "Rebound is expected for some agents.",
+        "C": "Peripheral compartments refill plasma after extracorporeal removal.",
+        "D": "Saying Vd is always exactly plasma volume for every drug is unrelated to the key pathophysiology of Rebound after dialysis."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Obesity dosing metrics. Key teaching point: Vd and clearance scale differently with adipose tissue depending on drug properties. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Setting clearance equal to Cmax after a single dose by definition",
+        "B) Some drugs dose lean body weight or adjusted body weight rather than total body weight",
+        "C) Equating AUC with peak concentration alone",
+        "D) All lipophilic and hydrophilic drugs should always use identical total body weight without thought"
+      ],
+      "answer": "B) Some drugs dose lean body weight or adjusted body weight rather than total body weight",
+      "explanation": "Vd and clearance scale differently with adipose tissue depending on drug properties. The best choice is: Some drugs dose lean body weight or adjusted body weight rather than total body weight. A close rival is: All lipophilic and hydrophilic drugs should always use identical total body weight without thought. Distinguisher: Metric choice is drug-specific.",
+      "choice_explanations": {
+        "A": "Setting clearance equal to Cmax after a single dose by definition does not match the mechanism of Obesity dosing metrics.",
+        "B": "Vd and clearance scale differently with adipose tissue depending on drug properties.",
+        "C": "Equating AUC with peak concentration alone is unrelated to the key pathophysiology of Obesity dosing metrics.",
+        "D": "Metric choice is drug-specific."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Absolute bioavailability. Key teaching point: IV dose defines 100% systemic delivery for the absolute F calculation. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Claiming steady state is always reached after exactly one half-life",
+        "B) Compares two oral products without any IV reference",
+        "C) Saying Vd is always exactly plasma volume for every drug",
+        "D) Compares AUC after extravascular dose to AUC after IV dose normalized by dose"
+      ],
+      "answer": "D) Compares AUC after extravascular dose to AUC after IV dose normalized by dose",
+      "explanation": "IV dose defines 100% systemic delivery for the absolute F calculation. The best choice is: Compares AUC after extravascular dose to AUC after IV dose normalized by dose. A close rival is: Compares two oral products without any IV reference. Distinguisher: Oral-versus-oral comparison without IV is relative bioavailability/BE territory.",
+      "choice_explanations": {
+        "A": "Claiming steady state is always reached after exactly one half-life does not match the mechanism of Absolute bioavailability.",
+        "B": "Oral-versus-oral comparison without IV is relative bioavailability/BE territory.",
+        "C": "Saying Vd is always exactly plasma volume for every drug is unrelated to the key pathophysiology of Absolute bioavailability.",
+        "D": "IV dose defines 100% systemic delivery for the absolute F calculation."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Narrow index BE. Key teaching point: Small exposure changes matter more clinically for NTI agents. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Some NTI drugs require tighter BE limits or additional constraints in some jurisdictions",
+        "B) NTI drugs have looser BE limits than ordinary drugs always",
+        "C) Claiming steady state is always reached after exactly one half-life",
+        "D) Saying Vd is always exactly plasma volume for every drug"
+      ],
+      "answer": "A) Some NTI drugs require tighter BE limits or additional constraints in some jurisdictions",
+      "explanation": "Small exposure changes matter more clinically for NTI agents. The best choice is: Some NTI drugs require tighter BE limits or additional constraints in some jurisdictions. A close rival is: NTI drugs have looser BE limits than ordinary drugs always. Distinguisher: Limits are often tighter, not looser.",
+      "choice_explanations": {
+        "A": "Small exposure changes matter more clinically for NTI agents.",
+        "B": "Limits are often tighter, not looser.",
+        "C": "Claiming steady state is always reached after exactly one half-life does not match the mechanism of Narrow index BE.",
+        "D": "Saying Vd is always exactly plasma volume for every drug is unrelated to the key pathophysiology of Narrow index BE."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Urinary excretion rate plots. Key teaching point: Ae∞ indexes amount excreted unchanged informing fe and CLr. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Claiming steady state is always reached after exactly one half-life",
+        "B) Saying Vd is always exactly plasma volume for every drug",
+        "C) Urine data never provide elimination rate information",
+        "D) Excretion rate versus midpoint time can estimate kel similarly to plasma methods"
+      ],
+      "answer": "D) Excretion rate versus midpoint time can estimate kel similarly to plasma methods",
+      "explanation": "Ae∞ indexes amount excreted unchanged informing fe and CLr. The best choice is: Excretion rate versus midpoint time can estimate kel similarly to plasma methods. A close rival is: Urine data never provide elimination rate information. Distinguisher: Urine methods are classic PK tools.",
+      "choice_explanations": {
+        "A": "Claiming steady state is always reached after exactly one half-life does not match the mechanism of Urinary excretion rate plots.",
+        "B": "Saying Vd is always exactly plasma volume for every drug is unrelated to the key pathophysiology of Urinary excretion rate plots.",
+        "C": "Urine methods are classic PK tools.",
+        "D": "Ae∞ indexes amount excreted unchanged informing fe and CLr."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Distribution phase. Key teaching point: Peripheral tissues take up drug until pseudo-equilibrium. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Early rapid decline reflects distribution out of plasma plus ongoing elimination",
+        "B) Early α phase is caused only by assay error never distribution",
+        "C) Claiming steady state is always reached after exactly one half-life",
+        "D) Saying Vd is always exactly plasma volume for every drug"
+      ],
+      "answer": "A) Early rapid decline reflects distribution out of plasma plus ongoing elimination",
+      "explanation": "Peripheral tissues take up drug until pseudo-equilibrium. The best choice is: Early rapid decline reflects distribution out of plasma plus ongoing elimination. A close rival is: Early α phase is caused only by assay error never distribution. Distinguisher: Distribution is a real kinetic phase for many drugs.",
+      "choice_explanations": {
+        "A": "Peripheral tissues take up drug until pseudo-equilibrium.",
+        "B": "Distribution is a real kinetic phase for many drugs.",
+        "C": "Claiming steady state is always reached after exactly one half-life does not match the mechanism of Distribution phase.",
+        "D": "Saying Vd is always exactly plasma volume for every drug is unrelated to the key pathophysiology of Distribution phase."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Autoinduction PK. Key teaching point: Carbamazepine exemplifies falling levels from rising clearance early on. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Autoinduction raises levels of the inducer over weeks automatically",
+        "B) Claiming steady state is always reached after exactly one half-life",
+        "C) Saying Vd is always exactly plasma volume for every drug",
+        "D) Inducer increases its own clearance over time reducing levels if dose fixed"
+      ],
+      "answer": "D) Inducer increases its own clearance over time reducing levels if dose fixed",
+      "explanation": "Carbamazepine exemplifies falling levels from rising clearance early on. The best choice is: Inducer increases its own clearance over time reducing levels if dose fixed. A close rival is: Autoinduction raises levels of the inducer over weeks automatically. Distinguisher: Levels tend to fall, not rise, from autoinduction at fixed dose.",
+      "choice_explanations": {
+        "A": "Levels tend to fall, not rise, from autoinduction at fixed dose.",
+        "B": "Claiming steady state is always reached after exactly one half-life does not match the mechanism of Autoinduction PK.",
+        "C": "Saying Vd is always exactly plasma volume for every drug is unrelated to the key pathophysiology of Autoinduction PK.",
+        "D": "Carbamazepine exemplifies falling levels from rising clearance early on."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Tissue-to-plasma Kp. Key teaching point: Binding differences drive Kp greater or less than 1. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Asserting high-extraction oral drugs always have F near 100%",
+        "B) Believing t½ alone determines maintenance dose rate without clearance",
+        "C) Kp = AUCtissue/AUCplasma indexes tissue distribution extent",
+        "D) Kp is identical to clearance units"
+      ],
+      "answer": "C) Kp = AUCtissue/AUCplasma indexes tissue distribution extent",
+      "explanation": "Binding differences drive Kp greater or less than 1. The best choice is: Kp = AUCtissue/AUCplasma indexes tissue distribution extent. A close rival is: Kp is identical to clearance units. Distinguisher: Kp is a distribution ratio, not clearance.",
+      "choice_explanations": {
+        "A": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of Tissue-to-plasma Kp.",
+        "B": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of Tissue-to-plasma Kp.",
+        "C": "Binding differences drive Kp greater or less than 1.",
+        "D": "Kp is a distribution ratio, not clearance."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Context-sensitive half-time. Key teaching point: Redistribution complicates recovery after long infusions (anesthetic PK teaching). Which option best fits this pathophysiology?",
+      "options": [
+        "A) Setting clearance equal to Cmax after a single dose by definition",
+        "B) Time for concentration to fall 50% after infusion stop depends on infusion duration for multicompartment drugs",
+        "C) Equating AUC with peak concentration alone",
+        "D) Context-sensitive half-time always equals terminal t½ regardless of infusion length"
+      ],
+      "answer": "B) Time for concentration to fall 50% after infusion stop depends on infusion duration for multicompartment drugs",
+      "explanation": "Redistribution complicates recovery after long infusions (anesthetic PK teaching). The best choice is: Time for concentration to fall 50% after infusion stop depends on infusion duration for multicompartment drugs. A close rival is: Context-sensitive half-time always equals terminal t½ regardless of infusion length. Distinguisher: Duration of infusion changes decline kinetics versus simple terminal t½.",
+      "choice_explanations": {
+        "A": "Setting clearance equal to Cmax after a single dose by definition does not match the mechanism of Context-sensitive half-time.",
+        "B": "Redistribution complicates recovery after long infusions (anesthetic PK teaching).",
+        "C": "Equating AUC with peak concentration alone is unrelated to the key pathophysiology of Context-sensitive half-time.",
+        "D": "Duration of infusion changes decline kinetics versus simple terminal t½."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Extravascular lag time. Key teaching point: Formulation and GI motility influence lag. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Equating AUC with peak concentration alone",
+        "B) Dissolution/gastric emptying can create absorption lag before measurable levels rise",
+        "C) Setting clearance equal to Cmax after a single dose by definition",
+        "D) Lag time means the drug was never absorbed at all"
+      ],
+      "answer": "B) Dissolution/gastric emptying can create absorption lag before measurable levels rise",
+      "explanation": "Formulation and GI motility influence lag. The best choice is: Dissolution/gastric emptying can create absorption lag before measurable levels rise. A close rival is: Lag time means the drug was never absorbed at all. Distinguisher: Lag delays onset of absorption rather than proving zero absorption.",
+      "choice_explanations": {
+        "A": "Equating AUC with peak concentration alone is unrelated to the key pathophysiology of Extravascular lag time.",
+        "B": "Formulation and GI motility influence lag.",
+        "C": "Setting clearance equal to Cmax after a single dose by definition does not match the mechanism of Extravascular lag time.",
+        "D": "Lag delays onset of absorption rather than proving zero absorption."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Well-stirred model assumptions. Key teaching point: Simplified physiology yields usable CLh equations from Q, fu, CLint. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Claiming steady state is always reached after exactly one half-life",
+        "B) Saying Vd is always exactly plasma volume for every drug",
+        "C) Well-stirred model assumes no blood flow through liver",
+        "D) Instant mixing in liver, unbound drug only metabolized, venous equilibrium assumptions"
+      ],
+      "answer": "D) Instant mixing in liver, unbound drug only metabolized, venous equilibrium assumptions",
+      "explanation": "Simplified physiology yields usable CLh equations from Q, fu, CLint. The best choice is: Instant mixing in liver, unbound drug only metabolized, venous equilibrium assumptions. A close rival is: Well-stirred model assumes no blood flow through liver. Distinguisher: Flow is a central parameter in the model.",
+      "choice_explanations": {
+        "A": "Claiming steady state is always reached after exactly one half-life does not match the mechanism of Well-stirred model assumptions.",
+        "B": "Saying Vd is always exactly plasma volume for every drug is unrelated to the key pathophysiology of Well-stirred model assumptions.",
+        "C": "Flow is a central parameter in the model.",
+        "D": "Simplified physiology yields usable CLh equations from Q, fu, CLint."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Secretion OAT OCT. Key teaching point: OAT/OCT and efflux transporters mediate active tubular secretion. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Tubular secretion never exceeds GFR contribution",
+        "B) Proximal tubule transporters secrete many acids/bases, raising renal clearance",
+        "C) Saying Vd is always exactly plasma volume for every drug",
+        "D) Claiming steady state is always reached after exactly one half-life"
+      ],
+      "answer": "B) Proximal tubule transporters secrete many acids/bases, raising renal clearance",
+      "explanation": "OAT/OCT and efflux transporters mediate active tubular secretion. The best choice is: Proximal tubule transporters secrete many acids/bases, raising renal clearance. A close rival is: Tubular secretion never exceeds GFR contribution. Distinguisher: Secretion can make CLr >> fu·GFR.",
+      "choice_explanations": {
+        "A": "Secretion can make CLr >> fu·GFR.",
+        "B": "OAT/OCT and efflux transporters mediate active tubular secretion.",
+        "C": "Saying Vd is always exactly plasma volume for every drug is unrelated to the key pathophysiology of Secretion OAT OCT.",
+        "D": "Claiming steady state is always reached after exactly one half-life does not match the mechanism of Secretion OAT OCT."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Low extraction drugs. Key teaching point: When fu·CLint << Q, CLh ≈ fu·CLint. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Equating AUC with peak concentration alone",
+        "B) Setting clearance equal to Cmax after a single dose by definition",
+        "C) Clearance depends mainly on fu and intrinsic metabolizing capacity",
+        "D) Low-extraction clearance always equals liver blood flow"
+      ],
+      "answer": "C) Clearance depends mainly on fu and intrinsic metabolizing capacity",
+      "explanation": "When fu·CLint << Q, CLh ≈ fu·CLint. The best choice is: Clearance depends mainly on fu and intrinsic metabolizing capacity. A close rival is: Low-extraction clearance always equals liver blood flow. Distinguisher: They are capacity-limited rather than flow-limited.",
+      "choice_explanations": {
+        "A": "Equating AUC with peak concentration alone is unrelated to the key pathophysiology of Low extraction drugs.",
+        "B": "Setting clearance equal to Cmax after a single dose by definition does not match the mechanism of Low extraction drugs.",
+        "C": "When fu·CLint << Q, CLh ≈ fu·CLint.",
+        "D": "They are capacity-limited rather than flow-limited."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Microconstants. Key teaching point: They parameterize intercompartmental distribution and elimination. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Setting clearance equal to Cmax after a single dose by definition",
+        "B) Microconstants are identical to therapeutic index",
+        "C) k12, k21, k10 describe transfer/elimination in compartment models",
+        "D) Equating AUC with peak concentration alone"
+      ],
+      "answer": "C) k12, k21, k10 describe transfer/elimination in compartment models",
+      "explanation": "They parameterize intercompartmental distribution and elimination. The best choice is: k12, k21, k10 describe transfer/elimination in compartment models. A close rival is: Microconstants are identical to therapeutic index. Distinguisher: They are kinetic rate constants, not TI.",
+      "choice_explanations": {
+        "A": "Setting clearance equal to Cmax after a single dose by definition does not match the mechanism of Microconstants.",
+        "B": "They are kinetic rate constants, not TI.",
+        "C": "They parameterize intercompartmental distribution and elimination.",
+        "D": "Equating AUC with peak concentration alone is unrelated to the key pathophysiology of Microconstants."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Lag compartment models. Key teaching point: Mathematical delays improve curve fitting for complex absorption. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Transit compartments mimic delay and shape of absorption without literal anatomy",
+        "B) Asserting high-extraction oral drugs always have F near 100%",
+        "C) Believing t½ alone determines maintenance dose rate without clearance",
+        "D) Transit models require proving exact anatomic identity of each compartment"
+      ],
+      "answer": "A) Transit compartments mimic delay and shape of absorption without literal anatomy",
+      "explanation": "Mathematical delays improve curve fitting for complex absorption. The best choice is: Transit compartments mimic delay and shape of absorption without literal anatomy. A close rival is: Transit models require proving exact anatomic identity of each compartment. Distinguisher: They are flexible empirical tools, not literal organ maps necessarily.",
+      "choice_explanations": {
+        "A": "Mathematical delays improve curve fitting for complex absorption.",
+        "B": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of Lag compartment models.",
+        "C": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of Lag compartment models.",
+        "D": "They are flexible empirical tools, not literal organ maps necessarily."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Bioavailability capsule vs tablet. Key teaching point: Dissolution and absorption differences drive formulation F changes. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Dosage form never affects oral bioavailability if API milligrams match",
+        "B) Formulation differences can change F and BE even with the same API dose",
+        "C) Claiming food never alters oral absorption of any drug",
+        "D) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound"
+      ],
+      "answer": "B) Formulation differences can change F and BE even with the same API dose",
+      "explanation": "Dissolution and absorption differences drive formulation F changes. The best choice is: Formulation differences can change F and BE even with the same API dose. A close rival is: Dosage form never affects oral bioavailability if API milligrams match. Distinguisher: Formulation performance matters beyond milligram strength.",
+      "choice_explanations": {
+        "A": "Formulation performance matters beyond milligram strength.",
+        "B": "Dissolution and absorption differences drive formulation F changes.",
+        "C": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of Bioavailability capsule vs tablet.",
+        "D": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of Bioavailability capsule vs tablet."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Zero-order absorption. Key teaching point: Pump-like input yields different Tmax/Cmax relationships than first-order. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound",
+        "B) Constant-rate input approximates some controlled-release and saturated absorption cases",
+        "C) Zero-order absorption means rate proportional to remaining drug at absorption site always",
+        "D) Claiming food never alters oral absorption of any drug"
+      ],
+      "answer": "B) Constant-rate input approximates some controlled-release and saturated absorption cases",
+      "explanation": "Pump-like input yields different Tmax/Cmax relationships than first-order. The best choice is: Constant-rate input approximates some controlled-release and saturated absorption cases. A close rival is: Zero-order absorption means rate proportional to remaining drug at absorption site always. Distinguisher: Rate ∝ remaining amount is first-order absorption.",
+      "choice_explanations": {
+        "A": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of Zero-order absorption.",
+        "B": "Pump-like input yields different Tmax/Cmax relationships than first-order.",
+        "C": "Rate ∝ remaining amount is first-order absorption.",
+        "D": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of Zero-order absorption."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Intranasal to brain claims. Key teaching point: Systemic absorption still occurs for many nasally delivered drugs. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Some nose-to-brain routes proposed; rigorous PK evidence varies by drug",
+        "B) Claiming steady state is always reached after exactly one half-life",
+        "C) Saying Vd is always exactly plasma volume for every drug",
+        "D) Every nasal spray exclusively enters brain without blood exposure"
+      ],
+      "answer": "A) Some nose-to-brain routes proposed; rigorous PK evidence varies by drug",
+      "explanation": "Systemic absorption still occurs for many nasally delivered drugs. The best choice is: Some nose-to-brain routes proposed; rigorous PK evidence varies by drug. A close rival is: Every nasal spray exclusively enters brain without blood exposure. Distinguisher: Exclusive brain-only delivery is not generally true.",
+      "choice_explanations": {
+        "A": "Systemic absorption still occurs for many nasally delivered drugs.",
+        "B": "Claiming steady state is always reached after exactly one half-life does not match the mechanism of Intranasal to brain claims.",
+        "C": "Saying Vd is always exactly plasma volume for every drug is unrelated to the key pathophysiology of Intranasal to brain claims.",
+        "D": "Exclusive brain-only delivery is not generally true."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Bioequivalence stats. Key teaching point: Average BE frameworks use log-transformed PK metrics. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Believing t½ alone determines maintenance dose rate without clearance",
+        "B) BE requires arithmetic mean ratios of exactly 100% with zero variance",
+        "C) 90% CI of geometric mean test/reference ratios for AUC/Cmax within 80–125% typically",
+        "D) Asserting high-extraction oral drugs always have F near 100%"
+      ],
+      "answer": "C) 90% CI of geometric mean test/reference ratios for AUC/Cmax within 80–125% typically",
+      "explanation": "Average BE frameworks use log-transformed PK metrics. The best choice is: 90% CI of geometric mean test/reference ratios for AUC/Cmax within 80–125% typically. A close rival is: BE requires arithmetic mean ratios of exactly 100% with zero variance. Distinguisher: The 80–125% CI criterion is the standard average BE approach.",
+      "choice_explanations": {
+        "A": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of Bioequivalence stats.",
+        "B": "The 80–125% CI criterion is the standard average BE approach.",
+        "C": "Average BE frameworks use log-transformed PK metrics.",
+        "D": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of Bioequivalence stats."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Victim versus perpetrator. Key teaching point: Labeling language identifies which drug’s exposure is altered. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Equating AUC with peak concentration alone",
+        "B) Victim drug always induces enzymes of the perpetrator",
+        "C) Perpetrator alters enzymes/transporters; victim’s levels change as a substrate",
+        "D) Setting clearance equal to Cmax after a single dose by definition"
+      ],
+      "answer": "C) Perpetrator alters enzymes/transporters; victim’s levels change as a substrate",
+      "explanation": "Labeling language identifies which drug’s exposure is altered. The best choice is: Perpetrator alters enzymes/transporters; victim’s levels change as a substrate. A close rival is: Victim drug always induces enzymes of the perpetrator. Distinguisher: Roles are defined by which exposure changes.",
+      "choice_explanations": {
+        "A": "Equating AUC with peak concentration alone is unrelated to the key pathophysiology of Victim versus perpetrator.",
+        "B": "Roles are defined by which exposure changes.",
+        "C": "Labeling language identifies which drug’s exposure is altered.",
+        "D": "Setting clearance equal to Cmax after a single dose by definition does not match the mechanism of Victim versus perpetrator."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on High extraction drugs. Key teaching point: When fu·CLint >> Q, CLh ≈ Q. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Asserting high-extraction oral drugs always have F near 100%",
+        "B) Clearance of high-extraction drugs approaches liver blood flow; sensitive to flow changes",
+        "C) Believing t½ alone determines maintenance dose rate without clearance",
+        "D) High-extraction drugs are insensitive to hepatic blood flow changes"
+      ],
+      "answer": "B) Clearance of high-extraction drugs approaches liver blood flow; sensitive to flow changes",
+      "explanation": "When fu·CLint >> Q, CLh ≈ Q. The best choice is: Clearance of high-extraction drugs approaches liver blood flow; sensitive to flow changes. A close rival is: High-extraction drugs are insensitive to hepatic blood flow changes. Distinguisher: Flow sensitivity is a hallmark of high-extraction compounds.",
+      "choice_explanations": {
+        "A": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of High extraction drugs.",
+        "B": "When fu·CLint >> Q, CLh ≈ Q.",
+        "C": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of High extraction drugs.",
+        "D": "Flow sensitivity is a hallmark of high-extraction compounds."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Cocktail phenotyping. Key teaching point: Selective probes minimize overlapping metabolic pathways. Which option best fits this pathophysiology?",
+      "options": [
+        "A) A single probe always measures every CYP simultaneously without selectivity",
+        "B) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound",
+        "C) Multiple probes can phenotype several CYP pathways in one study design carefully",
+        "D) Claiming food never alters oral absorption of any drug"
+      ],
+      "answer": "C) Multiple probes can phenotype several CYP pathways in one study design carefully",
+      "explanation": "Selective probes minimize overlapping metabolic pathways. The best choice is: Multiple probes can phenotype several CYP pathways in one study design carefully. A close rival is: A single probe always measures every CYP simultaneously without selectivity. Distinguisher: Selectivity matters; one probe ≠ all CYPs.",
+      "choice_explanations": {
+        "A": "Selectivity matters; one probe ≠ all CYPs.",
+        "B": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of Cocktail phenotyping.",
+        "C": "Selective probes minimize overlapping metabolic pathways.",
+        "D": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of Cocktail phenotyping."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Cmax Tmax. Key teaching point: Faster absorption generally raises Cmax and shortens Tmax for similar extent. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Setting clearance equal to Cmax after a single dose by definition",
+        "B) Tmax exclusively measures renal clearance",
+        "C) Cmax is peak concentration; Tmax is time of peak reflecting absorption rate themes",
+        "D) Equating AUC with peak concentration alone"
+      ],
+      "answer": "C) Cmax is peak concentration; Tmax is time of peak reflecting absorption rate themes",
+      "explanation": "Faster absorption generally raises Cmax and shortens Tmax for similar extent. The best choice is: Cmax is peak concentration; Tmax is time of peak reflecting absorption rate themes. A close rival is: Tmax exclusively measures renal clearance. Distinguisher: Tmax is an absorption-timing metric, not clearance.",
+      "choice_explanations": {
+        "A": "Setting clearance equal to Cmax after a single dose by definition does not match the mechanism of Cmax Tmax.",
+        "B": "Tmax is an absorption-timing metric, not clearance.",
+        "C": "Faster absorption generally raises Cmax and shortens Tmax for similar extent.",
+        "D": "Equating AUC with peak concentration alone is unrelated to the key pathophysiology of Cmax Tmax."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Free drug hypothesis. Key teaching point: Equilibrium free levels drive receptor occupancy for many drugs. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Believing t½ alone determines maintenance dose rate without clearance",
+        "B) Only albumin-bound drug binds receptors while free drug is inert",
+        "C) Pharmacologic effect relates to unbound concentration at the target",
+        "D) Asserting high-extraction oral drugs always have F near 100%"
+      ],
+      "answer": "C) Pharmacologic effect relates to unbound concentration at the target",
+      "explanation": "Equilibrium free levels drive receptor occupancy for many drugs. The best choice is: Pharmacologic effect relates to unbound concentration at the target. A close rival is: Only albumin-bound drug binds receptors while free drug is inert. Distinguisher: Free, not bound, drug is generally active.",
+      "choice_explanations": {
+        "A": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of Free drug hypothesis.",
+        "B": "Free, not bound, drug is generally active.",
+        "C": "Equilibrium free levels drive receptor occupancy for many drugs.",
+        "D": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of Free drug hypothesis."
+      }
+    }
+  ],
+  "extreme": [
+    {
+      "question": "In a high-stakes scenario involving First-order absorption model (item 1), findings align with this mechanism: First-order absorption is a common empirical model for IR products. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Claiming steady state is always reached after exactly one half-life",
+        "B) ka describes exponential input into central compartment for many oral models",
+        "C) Oral absorption is always zero-order with constant mg/h for every immediate-release tablet",
+        "D) Saying Vd is always exactly plasma volume for every drug"
+      ],
+      "answer": "B) ka describes exponential input into central compartment for many oral models",
+      "explanation": "First-order absorption is a common empirical model for IR products. The best choice is: ka describes exponential input into central compartment for many oral models. A close rival is: Oral absorption is always zero-order with constant mg/h for every immediate-release tablet. Distinguisher: Zero-order absorption is not universal for IR tablets.",
+      "choice_explanations": {
+        "A": "Claiming steady state is always reached after exactly one half-life does not match the mechanism of First-order absorption model.",
+        "B": "First-order absorption is a common empirical model for IR products.",
+        "C": "Zero-order absorption is not universal for IR tablets.",
+        "D": "Saying Vd is always exactly plasma volume for every drug is unrelated to the key pathophysiology of First-order absorption model."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving DDI AUC ratio (item 2), findings align with this mechanism: Regulatory classifications use AUC ratios among other evidence. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Inhibition/induction magnitude often reported as fold-change in substrate AUC",
+        "B) Asserting high-extraction oral drugs always have F near 100%",
+        "C) Believing t½ alone determines maintenance dose rate without clearance",
+        "D) DDI severity ignores AUC changes and uses only tablet shape"
+      ],
+      "answer": "A) Inhibition/induction magnitude often reported as fold-change in substrate AUC",
+      "explanation": "Regulatory classifications use AUC ratios among other evidence. The best choice is: Inhibition/induction magnitude often reported as fold-change in substrate AUC. A close rival is: DDI severity ignores AUC changes and uses only tablet shape. Distinguisher: AUC fold-change is a standard DDI metric.",
+      "choice_explanations": {
+        "A": "Regulatory classifications use AUC ratios among other evidence.",
+        "B": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of DDI AUC ratio.",
+        "C": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of DDI AUC ratio.",
+        "D": "AUC fold-change is a standard DDI metric."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving P-gp absorption (item 3), findings align with this mechanism: Efflux back to lumen reduces net absorption for some drugs. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Claiming steady state is always reached after exactly one half-life",
+        "B) Intestinal P-gp efflux can limit absorption of substrates and interact with inhibitors",
+        "C) Saying Vd is always exactly plasma volume for every drug",
+        "D) P-gp only increases oral absorption of all substrates"
+      ],
+      "answer": "B) Intestinal P-gp efflux can limit absorption of substrates and interact with inhibitors",
+      "explanation": "Efflux back to lumen reduces net absorption for some drugs. The best choice is: Intestinal P-gp efflux can limit absorption of substrates and interact with inhibitors. A close rival is: P-gp only increases oral absorption of all substrates. Distinguisher: P-gp decreases, not increases, net absorption of substrates.",
+      "choice_explanations": {
+        "A": "Claiming steady state is always reached after exactly one half-life does not match the mechanism of P-gp absorption.",
+        "B": "Efflux back to lumen reduces net absorption for some drugs.",
+        "C": "Saying Vd is always exactly plasma volume for every drug is unrelated to the key pathophysiology of P-gp absorption.",
+        "D": "P-gp decreases, not increases, net absorption of substrates."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Lactation exposure (item 4), findings align with this mechanism: RID and drug-specific data guide breastfeeding risk assessment. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Equating AUC with peak concentration alone",
+        "B) All maternal drugs appear in milk at identical 100% of maternal plasma forever",
+        "C) Infant exposure depends on milk/plasma ratio, milk volume, and infant clearance",
+        "D) Setting clearance equal to Cmax after a single dose by definition"
+      ],
+      "answer": "C) Infant exposure depends on milk/plasma ratio, milk volume, and infant clearance",
+      "explanation": "RID and drug-specific data guide breastfeeding risk assessment. The best choice is: Infant exposure depends on milk/plasma ratio, milk volume, and infant clearance. A close rival is: All maternal drugs appear in milk at identical 100% of maternal plasma forever. Distinguisher: Transfer varies widely by drug properties.",
+      "choice_explanations": {
+        "A": "Equating AUC with peak concentration alone is unrelated to the key pathophysiology of Lactation exposure.",
+        "B": "Transfer varies widely by drug properties.",
+        "C": "RID and drug-specific data guide breastfeeding risk assessment.",
+        "D": "Setting clearance equal to Cmax after a single dose by definition does not match the mechanism of Lactation exposure."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving ADC PK theme (item 5), findings align with this mechanism: Linker stability governs systemic payload exposure and toxicity. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Antibody–drug conjugates combine large-molecule distribution with payload release kinetics",
+        "B) Believing t½ alone determines maintenance dose rate without clearance",
+        "C) ADC PK is identical to small-molecule warfarin at all times",
+        "D) Asserting high-extraction oral drugs always have F near 100%"
+      ],
+      "answer": "A) Antibody–drug conjugates combine large-molecule distribution with payload release kinetics",
+      "explanation": "Linker stability governs systemic payload exposure and toxicity. The best choice is: Antibody–drug conjugates combine large-molecule distribution with payload release kinetics. A close rival is: ADC PK is identical to small-molecule warfarin at all times. Distinguisher: ADC behavior is not simple small-molecule PK.",
+      "choice_explanations": {
+        "A": "Linker stability governs systemic payload exposure and toxicity.",
+        "B": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of ADC PK theme.",
+        "C": "ADC behavior is not simple small-molecule PK.",
+        "D": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of ADC PK theme."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Pregnancy PK (item 6), findings align with this mechanism: Renal secreted drugs may need higher doses; interpret levels in context. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Believing t½ alone determines maintenance dose rate without clearance",
+        "B) Pregnancy never alters drug clearance or distribution",
+        "C) Asserting high-extraction oral drugs always have F near 100%",
+        "D) Increased GFR, plasma volume, and altered enzyme activity change many drug levels in pregnancy"
+      ],
+      "answer": "D) Increased GFR, plasma volume, and altered enzyme activity change many drug levels in pregnancy",
+      "explanation": "Renal secreted drugs may need higher doses; interpret levels in context. The best choice is: Increased GFR, plasma volume, and altered enzyme activity change many drug levels in pregnancy. A close rival is: Pregnancy never alters drug clearance or distribution. Distinguisher: Physiologic changes substantially affect PK.",
+      "choice_explanations": {
+        "A": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of Pregnancy PK.",
+        "B": "Physiologic changes substantially affect PK.",
+        "C": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of Pregnancy PK.",
+        "D": "Renal secreted drugs may need higher doses; interpret levels in context."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving IVIVE scaling (item 7), findings align with this mechanism: Binding and physiologic scalars bridge incubation data to in vivo CL. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Asserting high-extraction oral drugs always have F near 100%",
+        "B) Believing t½ alone determines maintenance dose rate without clearance",
+        "C) In vitro CLint scaled by hepatocellularity/microsomal protein and binding predictions",
+        "D) IVIVE needs no scaling factors from incubations to whole liver"
+      ],
+      "answer": "C) In vitro CLint scaled by hepatocellularity/microsomal protein and binding predictions",
+      "explanation": "Binding and physiologic scalars bridge incubation data to in vivo CL. The best choice is: In vitro CLint scaled by hepatocellularity/microsomal protein and binding predictions. A close rival is: IVIVE needs no scaling factors from incubations to whole liver. Distinguisher: Scaling factors are essential in IVIVE.",
+      "choice_explanations": {
+        "A": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of IVIVE scaling.",
+        "B": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of IVIVE scaling.",
+        "C": "Binding and physiologic scalars bridge incubation data to in vivo CL.",
+        "D": "Scaling factors are essential in IVIVE."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Pediatric allometry (item 8), findings align with this mechanism: Ontogeny of enzymes/GFR matures nonlinearly with age. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Saying Vd is always exactly plasma volume for every drug",
+        "B) Claiming steady state is always reached after exactly one half-life",
+        "C) Simply scaling adult mg/kg linearly always yields perfect neonatal doses",
+        "D) Children are not small adults; maturation of CL and Vd requires age-appropriate models"
+      ],
+      "answer": "D) Children are not small adults; maturation of CL and Vd requires age-appropriate models",
+      "explanation": "Ontogeny of enzymes/GFR matures nonlinearly with age. The best choice is: Children are not small adults; maturation of CL and Vd requires age-appropriate models. A close rival is: Simply scaling adult mg/kg linearly always yields perfect neonatal doses. Distinguisher: Maturation physiology complicates simple mg/kg scaling.",
+      "choice_explanations": {
+        "A": "Saying Vd is always exactly plasma volume for every drug is unrelated to the key pathophysiology of Pediatric allometry.",
+        "B": "Claiming steady state is always reached after exactly one half-life does not match the mechanism of Pediatric allometry.",
+        "C": "Maturation physiology complicates simple mg/kg scaling.",
+        "D": "Ontogeny of enzymes/GFR matures nonlinearly with age."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Target-mediated drug disposition (item 9), findings align with this mechanism: Target saturation at higher doses linearizes apparent clearance. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Claiming food never alters oral absorption of any drug",
+        "B) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound",
+        "C) High-affinity target binding can make clearance/Vd dose-dependent for biologics",
+        "D) TMDD means monoclonal antibodies always show linear PK at all doses"
+      ],
+      "answer": "C) High-affinity target binding can make clearance/Vd dose-dependent for biologics",
+      "explanation": "Target saturation at higher doses linearizes apparent clearance. The best choice is: High-affinity target binding can make clearance/Vd dose-dependent for biologics. A close rival is: TMDD means monoclonal antibodies always show linear PK at all doses. Distinguisher: Nonlinear PK from target binding is the TMDD hallmark.",
+      "choice_explanations": {
+        "A": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of Target-mediated drug disposition.",
+        "B": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of Target-mediated drug disposition.",
+        "C": "Target saturation at higher doses linearizes apparent clearance.",
+        "D": "Nonlinear PK from target binding is the TMDD hallmark."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Multiple dosing accumulation (item 10), findings align with this mechanism: AUC_tau at steady state equals AUC_inf of a single dose (linear PK). Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Setting clearance equal to Cmax after a single dose by definition",
+        "B) Accumulation factor rises when dosing interval is short relative to t½",
+        "C) No accumulation ever occurs with repeated dosing regardless of interval",
+        "D) Equating AUC with peak concentration alone"
+      ],
+      "answer": "B) Accumulation factor rises when dosing interval is short relative to t½",
+      "explanation": "AUC_tau at steady state equals AUC_inf of a single dose (linear PK). The best choice is: Accumulation factor rises when dosing interval is short relative to t½. A close rival is: No accumulation ever occurs with repeated dosing regardless of interval. Distinguisher: Accumulation is expected when doses are given more often than elimination completes.",
+      "choice_explanations": {
+        "A": "Setting clearance equal to Cmax after a single dose by definition does not match the mechanism of Multiple dosing accumulation.",
+        "B": "AUC_tau at steady state equals AUC_inf of a single dose (linear PK).",
+        "C": "Accumulation is expected when doses are given more often than elimination completes.",
+        "D": "Equating AUC with peak concentration alone is unrelated to the key pathophysiology of Multiple dosing accumulation."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Two-compartment model (item 11), findings align with this mechanism: Drug equilibrates between central and peripheral compartments. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Setting clearance equal to Cmax after a single dose by definition",
+        "B) Two-compartment means zero distribution time and single exponential only",
+        "C) Distribution phase (α) then elimination phase (β) after IV bolus",
+        "D) Equating AUC with peak concentration alone"
+      ],
+      "answer": "C) Distribution phase (α) then elimination phase (β) after IV bolus",
+      "explanation": "Drug equilibrates between central and peripheral compartments. The best choice is: Distribution phase (α) then elimination phase (β) after IV bolus. A close rival is: Two-compartment means zero distribution time and single exponential only. Distinguisher: Biexponential decline is expected, not monoexponential only.",
+      "choice_explanations": {
+        "A": "Setting clearance equal to Cmax after a single dose by definition does not match the mechanism of Two-compartment model.",
+        "B": "Biexponential decline is expected, not monoexponential only.",
+        "C": "Drug equilibrates between central and peripheral compartments.",
+        "D": "Equating AUC with peak concentration alone is unrelated to the key pathophysiology of Two-compartment model."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Highly variable drugs (item 12), findings align with this mechanism: Replicate designs characterize within-subject variability. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Equating AUC with peak concentration alone",
+        "B) Scaled BE approaches may apply when reference variability is high",
+        "C) High variability means BE is impossible under any regulatory science",
+        "D) Setting clearance equal to Cmax after a single dose by definition"
+      ],
+      "answer": "B) Scaled BE approaches may apply when reference variability is high",
+      "explanation": "Replicate designs characterize within-subject variability. The best choice is: Scaled BE approaches may apply when reference variability is high. A close rival is: High variability means BE is impossible under any regulatory science. Distinguisher: Special methods exist rather than declaring impossibility.",
+      "choice_explanations": {
+        "A": "Equating AUC with peak concentration alone is unrelated to the key pathophysiology of Highly variable drugs.",
+        "B": "Replicate designs characterize within-subject variability.",
+        "C": "Special methods exist rather than declaring impossibility.",
+        "D": "Setting clearance equal to Cmax after a single dose by definition does not match the mechanism of Highly variable drugs."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Metabolite kinetics (item 13), findings align with this mechanism: Sequential metabolism models capture metabolite AUCs. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Asserting high-extraction oral drugs always have F near 100%",
+        "B) Formation and elimination rates shape active/toxic metabolite profiles",
+        "C) Believing t½ alone determines maintenance dose rate without clearance",
+        "D) Metabolite levels are always identical to parent levels at all times"
+      ],
+      "answer": "B) Formation and elimination rates shape active/toxic metabolite profiles",
+      "explanation": "Sequential metabolism models capture metabolite AUCs. The best choice is: Formation and elimination rates shape active/toxic metabolite profiles. A close rival is: Metabolite levels are always identical to parent levels at all times. Distinguisher: Metabolite and parent curves differ.",
+      "choice_explanations": {
+        "A": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of Metabolite kinetics.",
+        "B": "Sequential metabolism models capture metabolite AUCs.",
+        "C": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of Metabolite kinetics.",
+        "D": "Metabolite and parent curves differ."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Vancomycin AUC dosing (item 14), findings align with this mechanism: Bayesian software estimates AUC from timed levels. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Only peak concentration matters for vancomycin with no AUC concept",
+        "B) AUC/MIC is the preferred PK/PD target for vancomycin efficacy/toxicity balance in modern guidance themes",
+        "C) Claiming food never alters oral absorption of any drug",
+        "D) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound"
+      ],
+      "answer": "B) AUC/MIC is the preferred PK/PD target for vancomycin efficacy/toxicity balance in modern guidance themes",
+      "explanation": "Bayesian software estimates AUC from timed levels. The best choice is: AUC/MIC is the preferred PK/PD target for vancomycin efficacy/toxicity balance in modern guidance themes. A close rival is: Only peak concentration matters for vancomycin with no AUC concept. Distinguisher: AUC-guided dosing supersedes trough-only thinking in many settings.",
+      "choice_explanations": {
+        "A": "AUC-guided dosing supersedes trough-only thinking in many settings.",
+        "B": "Bayesian software estimates AUC from timed levels.",
+        "C": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of Vancomycin AUC dosing.",
+        "D": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of Vancomycin AUC dosing."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving IM absorption variability (item 15), findings align with this mechanism: Depot oils slow absorption producing prolonged levels. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Muscle blood flow, vehicle, and injection site alter IM absorption rate/extent",
+        "B) IM absorption is identical at all sites with all vehicles always",
+        "C) Saying Vd is always exactly plasma volume for every drug",
+        "D) Claiming steady state is always reached after exactly one half-life"
+      ],
+      "answer": "A) Muscle blood flow, vehicle, and injection site alter IM absorption rate/extent",
+      "explanation": "Depot oils slow absorption producing prolonged levels. The best choice is: Muscle blood flow, vehicle, and injection site alter IM absorption rate/extent. A close rival is: IM absorption is identical at all sites with all vehicles always. Distinguisher: Site and vehicle strongly influence IM kinetics.",
+      "choice_explanations": {
+        "A": "Depot oils slow absorption producing prolonged levels.",
+        "B": "Site and vehicle strongly influence IM kinetics.",
+        "C": "Saying Vd is always exactly plasma volume for every drug is unrelated to the key pathophysiology of IM absorption variability.",
+        "D": "Claiming steady state is always reached after exactly one half-life does not match the mechanism of IM absorption variability."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Population PK (item 16), findings align with this mechanism: Covariates like GFR explain part of CL variability. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Nonlinear mixed-effects models estimate typical parameters and variability sources",
+        "B) Population PK forbids estimating between-subject variability",
+        "C) Believing t½ alone determines maintenance dose rate without clearance",
+        "D) Asserting high-extraction oral drugs always have F near 100%"
+      ],
+      "answer": "A) Nonlinear mixed-effects models estimate typical parameters and variability sources",
+      "explanation": "Covariates like GFR explain part of CL variability. The best choice is: Nonlinear mixed-effects models estimate typical parameters and variability sources. A close rival is: Population PK forbids estimating between-subject variability. Distinguisher: Variability estimation is a core aim.",
+      "choice_explanations": {
+        "A": "Covariates like GFR explain part of CL variability.",
+        "B": "Variability estimation is a core aim.",
+        "C": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of Population PK.",
+        "D": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of Population PK."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Plasma versus blood CL (item 17), findings align with this mechanism: Cblood = Cplasma × (1 + H·(ρ−1)) style relationships appear in conversions. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Blood and plasma clearances are always numerically identical for all drugs",
+        "B) Reporting matrix matters because RBC partitioning alters blood versus plasma concentrations",
+        "C) Equating AUC with peak concentration alone",
+        "D) Setting clearance equal to Cmax after a single dose by definition"
+      ],
+      "answer": "B) Reporting matrix matters because RBC partitioning alters blood versus plasma concentrations",
+      "explanation": "Cblood = Cplasma × (1 + H·(ρ−1)) style relationships appear in conversions. The best choice is: Reporting matrix matters because RBC partitioning alters blood versus plasma concentrations. A close rival is: Blood and plasma clearances are always numerically identical for all drugs. Distinguisher: RBC partitioning can make values differ.",
+      "choice_explanations": {
+        "A": "RBC partitioning can make values differ.",
+        "B": "Cblood = Cplasma × (1 + H·(ρ−1)) style relationships appear in conversions.",
+        "C": "Equating AUC with peak concentration alone is unrelated to the key pathophysiology of Plasma versus blood CL.",
+        "D": "Setting clearance equal to Cmax after a single dose by definition does not match the mechanism of Plasma versus blood CL."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Sublingual bypass (item 18), findings align with this mechanism: Venous drainage to SVC bypasses portal vein initially. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Sublingual absorption can partially avoid hepatic first-pass versus swallowed oral",
+        "B) Asserting high-extraction oral drugs always have F near 100%",
+        "C) Believing t½ alone determines maintenance dose rate without clearance",
+        "D) Sublingual delivery always undergoes complete portal first-pass identically to swallowed drug"
+      ],
+      "answer": "A) Sublingual absorption can partially avoid hepatic first-pass versus swallowed oral",
+      "explanation": "Venous drainage to SVC bypasses portal vein initially. The best choice is: Sublingual absorption can partially avoid hepatic first-pass versus swallowed oral. A close rival is: Sublingual delivery always undergoes complete portal first-pass identically to swallowed drug. Distinguisher: Avoiding portal first-pass is a sublingual rationale.",
+      "choice_explanations": {
+        "A": "Venous drainage to SVC bypasses portal vein initially.",
+        "B": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of Sublingual bypass.",
+        "C": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of Sublingual bypass.",
+        "D": "Avoiding portal first-pass is a sublingual rationale."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Fraction unbound effect (item 19), findings align with this mechanism: Free concentration often remains tied to dosing/clearance of free drug. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) fu changes may alter total concentrations more than free concentrations for restrictively cleared drugs",
+        "B) Total and free concentrations always move identically with binding changes",
+        "C) Believing t½ alone determines maintenance dose rate without clearance",
+        "D) Asserting high-extraction oral drugs always have F near 100%"
+      ],
+      "answer": "A) fu changes may alter total concentrations more than free concentrations for restrictively cleared drugs",
+      "explanation": "Free concentration often remains tied to dosing/clearance of free drug. The best choice is: fu changes may alter total concentrations more than free concentrations for restrictively cleared drugs. A close rival is: Total and free concentrations always move identically with binding changes. Distinguisher: Interpreting only totals can mislead when binding changes.",
+      "choice_explanations": {
+        "A": "Free concentration often remains tied to dosing/clearance of free drug.",
+        "B": "Interpreting only totals can mislead when binding changes.",
+        "C": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of Fraction unbound effect.",
+        "D": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of Fraction unbound effect."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Chronopharmacokinetics (item 20), findings align with this mechanism: GI motility and hepatic blood flow vary across the day. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound",
+        "B) Time of day never influences PK parameters",
+        "C) Claiming food never alters oral absorption of any drug",
+        "D) Circadian physiology can alter absorption/clearance timing for some drugs"
+      ],
+      "answer": "D) Circadian physiology can alter absorption/clearance timing for some drugs",
+      "explanation": "GI motility and hepatic blood flow vary across the day. The best choice is: Circadian physiology can alter absorption/clearance timing for some drugs. A close rival is: Time of day never influences PK parameters. Distinguisher: Circadian effects are documented for selected drugs.",
+      "choice_explanations": {
+        "A": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of Chronopharmacokinetics.",
+        "B": "Circadian effects are documented for selected drugs.",
+        "C": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of Chronopharmacokinetics.",
+        "D": "GI motility and hepatic blood flow vary across the day."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving SC insulin PK (item 21), findings align with this mechanism: Analog modifications alter hexamer dissociation and absorption speed. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Formulation (regular vs analog) and injection factors shape onset/peak/duration",
+        "B) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound",
+        "C) Claiming food never alters oral absorption of any drug",
+        "D) All insulin formulations share identical PK curves regardless of amino-acid design"
+      ],
+      "answer": "A) Formulation (regular vs analog) and injection factors shape onset/peak/duration",
+      "explanation": "Analog modifications alter hexamer dissociation and absorption speed. The best choice is: Formulation (regular vs analog) and injection factors shape onset/peak/duration. A close rival is: All insulin formulations share identical PK curves regardless of amino-acid design. Distinguisher: Formulation engineering intentionally changes insulin PK.",
+      "choice_explanations": {
+        "A": "Analog modifications alter hexamer dissociation and absorption speed.",
+        "B": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of SC insulin PK.",
+        "C": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of SC insulin PK.",
+        "D": "Formulation engineering intentionally changes insulin PK."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Geriatric PK (item 22), findings align with this mechanism: Renal function decline commonly requires dose adjustments. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Aging never affects drug clearance or Vd",
+        "B) Believing protein-bound drug is freely filtered at the glomerulus identically to unbound",
+        "C) Lower GFR, altered body composition, and frailty change exposure and sensitivity",
+        "D) Claiming food never alters oral absorption of any drug"
+      ],
+      "answer": "C) Lower GFR, altered body composition, and frailty change exposure and sensitivity",
+      "explanation": "Renal function decline commonly requires dose adjustments. The best choice is: Lower GFR, altered body composition, and frailty change exposure and sensitivity. A close rival is: Aging never affects drug clearance or Vd. Distinguisher: Age-related PK changes are clinically important.",
+      "choice_explanations": {
+        "A": "Age-related PK changes are clinically important.",
+        "B": "Believing protein-bound drug is freely filtered at the glomerulus identically to unbound does not match the mechanism of Geriatric PK.",
+        "C": "Renal function decline commonly requires dose adjustments.",
+        "D": "Claiming food never alters oral absorption of any drug is unrelated to the key pathophysiology of Geriatric PK."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Dialysis clearance (item 23), findings align with this mechanism: Drug in plasma water is accessible to the dialyzer. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Setting clearance equal to Cmax after a single dose by definition",
+        "B) Huge Vd and high tissue binding drugs dialyze off completely each session",
+        "C) Equating AUC with peak concentration alone",
+        "D) Low Vd, low protein binding, and small MW favor removal by hemodialysis"
+      ],
+      "answer": "D) Low Vd, low protein binding, and small MW favor removal by hemodialysis",
+      "explanation": "Drug in plasma water is accessible to the dialyzer. The best choice is: Low Vd, low protein binding, and small MW favor removal by hemodialysis. A close rival is: Huge Vd and high tissue binding drugs dialyze off completely each session. Distinguisher: Tissue-sequestered drugs are poorly dialyzed.",
+      "choice_explanations": {
+        "A": "Setting clearance equal to Cmax after a single dose by definition does not match the mechanism of Dialysis clearance.",
+        "B": "Tissue-sequestered drugs are poorly dialyzed.",
+        "C": "Equating AUC with peak concentration alone is unrelated to the key pathophysiology of Dialysis clearance.",
+        "D": "Drug in plasma water is accessible to the dialyzer."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving IV bolus versus infusion (item 24), findings align with this mechanism: Input rate shapes peak exposure and tolerability. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Bolus gives highest immediate Cp; infusion truncates peak for same dose over time",
+        "B) Infusion always produces higher instantaneous peak than bolus of same dose",
+        "C) Believing t½ alone determines maintenance dose rate without clearance",
+        "D) Asserting high-extraction oral drugs always have F near 100%"
+      ],
+      "answer": "A) Bolus gives highest immediate Cp; infusion truncates peak for same dose over time",
+      "explanation": "Input rate shapes peak exposure and tolerability. The best choice is: Bolus gives highest immediate Cp; infusion truncates peak for same dose over time. A close rival is: Infusion always produces higher instantaneous peak than bolus of same dose. Distinguisher: Bolus peaks higher than a slower infusion of the same dose.",
+      "choice_explanations": {
+        "A": "Input rate shapes peak exposure and tolerability.",
+        "B": "Bolus peaks higher than a slower infusion of the same dose.",
+        "C": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of IV bolus versus infusion.",
+        "D": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of IV bolus versus infusion."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Loading plus infusion (item 25), findings align with this mechanism: Without loading, ~4–5 half-lives are still needed to near Css. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Infusion alone always reaches Css in one minute regardless of t½",
+        "B) Asserting high-extraction oral drugs always have F near 100%",
+        "C) Believing t½ alone determines maintenance dose rate without clearance",
+        "D) Loading dose quickly approaches Css while infusion maintains it"
+      ],
+      "answer": "D) Loading dose quickly approaches Css while infusion maintains it",
+      "explanation": "Without loading, ~4–5 half-lives are still needed to near Css. The best choice is: Loading dose quickly approaches Css while infusion maintains it. A close rival is: Infusion alone always reaches Css in one minute regardless of t½. Distinguisher: Half-life still governs approach if no load is given.",
+      "choice_explanations": {
+        "A": "Half-life still governs approach if no load is given.",
+        "B": "Asserting high-extraction oral drugs always have F near 100% does not match the mechanism of Loading plus infusion.",
+        "C": "Believing t½ alone determines maintenance dose rate without clearance is unrelated to the key pathophysiology of Loading plus infusion.",
+        "D": "Without loading, ~4–5 half-lives are still needed to near Css."
+      }
+    }
+  ]
+}

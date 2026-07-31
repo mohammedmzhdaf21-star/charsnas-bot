@@ -1140,6 +1140,22 @@ SPECIALTIES: dict[str, dict] = {
  },
 }
 
+
+# Load expanded MCQ banks (100 unique questions per specialty) when available.
+from pathlib import Path as _BankPath
+import sys as _sys
+
+_bank_root = _BankPath(__file__).resolve().parent
+if str(_bank_root) not in _sys.path:
+    _sys.path.insert(0, str(_bank_root))
+if str(_bank_root.parent) not in _sys.path:
+    _sys.path.insert(0, str(_bank_root.parent))
+from bank_loader import apply_question_banks
+
+apply_question_banks(SPECIALTIES, _bank_root / "question_banks")
+
+
+
 def specialty_label(key: str) -> str:
     return SPECIALTIES[key]["label"]
 

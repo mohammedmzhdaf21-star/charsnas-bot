@@ -1,0 +1,1710 @@
+{
+  "easy": [
+    {
+      "question": "Which statement best matches the core concept of Steroid nucleus SAR?",
+      "options": [
+        "A) Steroid hormones lack a fused ring nucleus",
+        "B) Believing enantiomers always share identical PD and toxicity",
+        "C) Four-ring cyclopentanoperhydrophenanthrene core with substituent patterns driving receptor selectivity",
+        "D) Claiming covalent drugs never engage nucleophilic amino acids"
+      ],
+      "answer": "C) Four-ring cyclopentanoperhydrophenanthrene core with substituent patterns driving receptor selectivity",
+      "explanation": "11β-OH, 17-substituents, and A-ring unsaturation tune activity. The best choice is: Four-ring cyclopentanoperhydrophenanthrene core with substituent patterns driving receptor selectivity. A close rival is: Steroid hormones lack a fused ring nucleus. Distinguisher: The steroid nucleus is foundational.",
+      "choice_explanations": {
+        "A": "The steroid nucleus is foundational.",
+        "B": "Believing enantiomers always share identical PD and toxicity does not match the mechanism of Steroid nucleus SAR.",
+        "C": "11β-OH, 17-substituents, and A-ring unsaturation tune activity.",
+        "D": "Claiming covalent drugs never engage nucleophilic amino acids is unrelated to the key pathophysiology of Steroid nucleus SAR."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Hammett sigma?",
+      "options": [
+        "A) Electronic substituent constants quantify electron donation/withdrawal on aromatic rings",
+        "B) Asserting fluorine always accelerates metabolism at the substituted carbon",
+        "C) Believing higher LogP always improves every ADME property without limit",
+        "D) Hammett σ measures only molecular weight"
+      ],
+      "answer": "A) Electronic substituent constants quantify electron donation/withdrawal on aromatic rings",
+      "explanation": "σ values help predict pKa and reactivity trends in SAR. The best choice is: Electronic substituent constants quantify electron donation/withdrawal on aromatic rings. A close rival is: Hammett σ measures only molecular weight. Distinguisher: They index electronics, not molecular weight.",
+      "choice_explanations": {
+        "A": "σ values help predict pKa and reactivity trends in SAR.",
+        "B": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of Hammett sigma.",
+        "C": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of Hammett sigma.",
+        "D": "They index electronics, not molecular weight."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Hard drugs?",
+      "options": [
+        "A) Hard drugs always generate many reactive metabolites by design",
+        "B) Stating bioisosteres always destroy activity by definition",
+        "C) Compounds resistant to metabolism to avoid toxic metabolites, cleared by excretion instead sometimes",
+        "D) Equating pharmacophore with tablet binder molecular weight only"
+      ],
+      "answer": "C) Compounds resistant to metabolism to avoid toxic metabolites, cleared by excretion instead sometimes",
+      "explanation": "Metabolic stability strategies reduce bioactivation risk. The best choice is: Compounds resistant to metabolism to avoid toxic metabolites, cleared by excretion instead sometimes. A close rival is: Hard drugs always generate many reactive metabolites by design. Distinguisher: Hard design aims to avoid, not maximize, reactive metabolites.",
+      "choice_explanations": {
+        "A": "Hard design aims to avoid, not maximize, reactive metabolites.",
+        "B": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Hard drugs.",
+        "C": "Metabolic stability strategies reduce bioactivation risk.",
+        "D": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Hard drugs."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Beta-lactamase inhibitors?",
+      "options": [
+        "A) Believing higher LogP always improves every ADME property without limit",
+        "B) Asserting fluorine always accelerates metabolism at the substituted carbon",
+        "C) β-lactamase inhibitors inhibit human CYP3A as their antibacterial mechanism",
+        "D) Clavulanate/sulbactam/tazobactam and diazabicyclooctanes inactivate β-lactamases protecting partner β-lactams"
+      ],
+      "answer": "D) Clavulanate/sulbactam/tazobactam and diazabicyclooctanes inactivate β-lactamases protecting partner β-lactams",
+      "explanation": "Suicide or reversible inhibition of serine/metallo enzymes restores β-lactam activity. The best choice is: Clavulanate/sulbactam/tazobactam and diazabicyclooctanes inactivate β-lactamases protecting partner β-lactams. A close rival is: β-lactamase inhibitors inhibit human CYP3A as their antibacterial mechanism. Distinguisher: Their purpose is enzyme protection, not human CYP inhibition as antibiosis.",
+      "choice_explanations": {
+        "A": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of Beta-lactamase inhibitors.",
+        "B": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of Beta-lactamase inhibitors.",
+        "C": "Their purpose is enzyme protection, not human CYP inhibition as antibiosis.",
+        "D": "Suicide or reversible inhibition of serine/metallo enzymes restores β-lactam activity."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Ionization and salt bridges?",
+      "options": [
+        "A) Charged groups form ionic interactions in binding pockets influencing potency",
+        "B) Charges never participate in ligand–protein recognition",
+        "C) Equating pharmacophore with tablet binder molecular weight only",
+        "D) Stating bioisosteres always destroy activity by definition"
+      ],
+      "answer": "A) Charged groups form ionic interactions in binding pockets influencing potency",
+      "explanation": "Asp/Glu–basic amine salt bridges are classic recognition motifs. The best choice is: Charged groups form ionic interactions in binding pockets influencing potency. A close rival is: Charges never participate in ligand–protein recognition. Distinguisher: Ionic interactions are common hot spots.",
+      "choice_explanations": {
+        "A": "Asp/Glu–basic amine salt bridges are classic recognition motifs.",
+        "B": "Ionic interactions are common hot spots.",
+        "C": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Ionization and salt bridges.",
+        "D": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Ionization and salt bridges."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Glucocorticoid versus mineralocorticoid?",
+      "options": [
+        "A) Believing higher LogP always improves every ADME property without limit",
+        "B) Asserting fluorine always accelerates metabolism at the substituted carbon",
+        "C) Structural features (e.g., 9α-fluoro, 1,2 double bond) shift GR versus MR activity in synthetic steroids",
+        "D) All corticosteroids have identical GR/MR activity regardless of substituents"
+      ],
+      "answer": "C) Structural features (e.g., 9α-fluoro, 1,2 double bond) shift GR versus MR activity in synthetic steroids",
+      "explanation": "Medicinal chemistry separated anti-inflammatory from salt-retaining activity historically. The best choice is: Structural features (e.g., 9α-fluoro, 1,2 double bond) shift GR versus MR activity in synthetic steroids. A close rival is: All corticosteroids have identical GR/MR activity regardless of substituents. Distinguisher: Substituents materially change receptor selectivity.",
+      "choice_explanations": {
+        "A": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of Glucocorticoid versus mineralocorticoid.",
+        "B": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of Glucocorticoid versus mineralocorticoid.",
+        "C": "Medicinal chemistry separated anti-inflammatory from salt-retaining activity historically.",
+        "D": "Substituents materially change receptor selectivity."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of PAINS alerts?",
+      "options": [
+        "A) PAINS molecules always make the best clinical drugs without assay artifact risk",
+        "B) Pan-assay interference compounds cause false positives via aggregation/reactivity/fluorescence",
+        "C) Equating pharmacophore with tablet binder molecular weight only",
+        "D) Stating bioisosteres always destroy activity by definition"
+      ],
+      "answer": "B) Pan-assay interference compounds cause false positives via aggregation/reactivity/fluorescence",
+      "explanation": "Filters flag frequent-hitter chemotypes for careful triage. The best choice is: Pan-assay interference compounds cause false positives via aggregation/reactivity/fluorescence. A close rival is: PAINS molecules always make the best clinical drugs without assay artifact risk. Distinguisher: PAINS are assay artifacts risks, not automatic best drugs.",
+      "choice_explanations": {
+        "A": "PAINS are assay artifacts risks, not automatic best drugs.",
+        "B": "Filters flag frequent-hitter chemotypes for careful triage.",
+        "C": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of PAINS alerts.",
+        "D": "Stating bioisosteres always destroy activity by definition does not match the mechanism of PAINS alerts."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Microtubule binding sites?",
+      "options": [
+        "A) Vinca and taxane sites on tubulin are distinct explaining opposite effects on dynamics",
+        "B) Vinca and taxane share identical atomic binding poses on tubulin always",
+        "C) Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms",
+        "D) Claiming Rule of Five are absolute physical laws forbidding all exceptions"
+      ],
+      "answer": "A) Vinca and taxane sites on tubulin are distinct explaining opposite effects on dynamics",
+      "explanation": "Stabilizers versus destabilizers occupy different pockets. The best choice is: Vinca and taxane sites on tubulin are distinct explaining opposite effects on dynamics. A close rival is: Vinca and taxane share identical atomic binding poses on tubulin always. Distinguisher: Distinct sites yield distinct polymerization effects.",
+      "choice_explanations": {
+        "A": "Stabilizers versus destabilizers occupy different pockets.",
+        "B": "Distinct sites yield distinct polymerization effects.",
+        "C": "Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms is unrelated to the key pathophysiology of Microtubule binding sites.",
+        "D": "Claiming Rule of Five are absolute physical laws forbidding all exceptions does not match the mechanism of Microtubule binding sites."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Hydroxamic acid HDAC?",
+      "options": [
+        "A) Believing enantiomers always share identical PD and toxicity",
+        "B) HDAC inhibitors cannot chelate active-site zinc",
+        "C) Zn2+-binding hydroxamate warheads characterize many HDAC inhibitors",
+        "D) Claiming covalent drugs never engage nucleophilic amino acids"
+      ],
+      "answer": "C) Zn2+-binding hydroxamate warheads characterize many HDAC inhibitors",
+      "explanation": "Chelation geometry drives potency; selectivity via capping groups. The best choice is: Zn2+-binding hydroxamate warheads characterize many HDAC inhibitors. A close rival is: HDAC inhibitors cannot chelate active-site zinc. Distinguisher: Zinc binding is central to hydroxamate HDACIs.",
+      "choice_explanations": {
+        "A": "Believing enantiomers always share identical PD and toxicity does not match the mechanism of Hydroxamic acid HDAC.",
+        "B": "Zinc binding is central to hydroxamate HDACIs.",
+        "C": "Chelation geometry drives potency; selectivity via capping groups.",
+        "D": "Claiming covalent drugs never engage nucleophilic amino acids is unrelated to the key pathophysiology of Hydroxamic acid HDAC."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Antimetabolite design?",
+      "options": [
+        "A) Antimetabolites never resemble endogenous metabolites",
+        "B) Stating bioisosteres always destroy activity by definition",
+        "C) Structural analogs of endogenous metabolites interrupt nucleotide or cofactor pathways",
+        "D) Equating pharmacophore with tablet binder molecular weight only"
+      ],
+      "answer": "C) Structural analogs of endogenous metabolites interrupt nucleotide or cofactor pathways",
+      "explanation": "Methotrexate and 5-FU pathways exemplify antimetabolite logic. The best choice is: Structural analogs of endogenous metabolites interrupt nucleotide or cofactor pathways. A close rival is: Antimetabolites never resemble endogenous metabolites. Distinguisher: Resemblance to metabolites is the design principle.",
+      "choice_explanations": {
+        "A": "Resemblance to metabolites is the design principle.",
+        "B": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Antimetabolite design.",
+        "C": "Methotrexate and 5-FU pathways exemplify antimetabolite logic.",
+        "D": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Antimetabolite design."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Racemate versus single enantiomer?",
+      "options": [
+        "A) Single enantiomers can simplify PK/PD and reduce distomer burden versus racemates",
+        "B) Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms",
+        "C) Racemates always superior because distomers never have effects",
+        "D) Claiming Rule of Five are absolute physical laws forbidding all exceptions"
+      ],
+      "answer": "A) Single enantiomers can simplify PK/PD and reduce distomer burden versus racemates",
+      "explanation": "Omeprazole/esomeprazole-type stories illustrate chiral switch rationale debates. The best choice is: Single enantiomers can simplify PK/PD and reduce distomer burden versus racemates. A close rival is: Racemates always superior because distomers never have effects. Distinguisher: Distomers are not universally inert.",
+      "choice_explanations": {
+        "A": "Omeprazole/esomeprazole-type stories illustrate chiral switch rationale debates.",
+        "B": "Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms is unrelated to the key pathophysiology of Racemate versus single enantiomer.",
+        "C": "Distomers are not universally inert.",
+        "D": "Claiming Rule of Five are absolute physical laws forbidding all exceptions does not match the mechanism of Racemate versus single enantiomer."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Classical bioisostere example?",
+      "options": [
+        "A) Asserting fluorine always accelerates metabolism at the substituted carbon",
+        "B) Replacing H with F or OH with NH2 as classical monovalent bioisosteres in design",
+        "C) Believing higher LogP always improves every ADME property without limit",
+        "D) Replacing a phenyl ring with a transition metal cluster as a classical monovalent bioisostere"
+      ],
+      "answer": "B) Replacing H with F or OH with NH2 as classical monovalent bioisosteres in design",
+      "explanation": "Similar valence and sterics underpin classical bioisosterism. The best choice is: Replacing H with F or OH with NH2 as classical monovalent bioisosteres in design. A close rival is: Replacing a phenyl ring with a transition metal cluster as a classical monovalent bioisostere. Distinguisher: Classical examples are simple valence-matched replacements.",
+      "choice_explanations": {
+        "A": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of Classical bioisostere example.",
+        "B": "Similar valence and sterics underpin classical bioisosterism.",
+        "C": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of Classical bioisostere example.",
+        "D": "Classical examples are simple valence-matched replacements."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of P-gp liability recognition?",
+      "options": [
+        "A) Asserting fluorine always accelerates metabolism at the substituted carbon",
+        "B) High MW lipophilic bases often risk P-gp efflux limiting absorption/CNS entry",
+        "C) Believing higher LogP always improves every ADME property without limit",
+        "D) All small polar acids are the strongest P-gp substrates always"
+      ],
+      "answer": "B) High MW lipophilic bases often risk P-gp efflux limiting absorption/CNS entry",
+      "explanation": "Medicinal chemistry reduces efflux by polarity/structure tuning. The best choice is: High MW lipophilic bases often risk P-gp efflux limiting absorption/CNS entry. A close rival is: All small polar acids are the strongest P-gp substrates always. Distinguisher: Classic P-gp substrates are often large lipophilic compounds.",
+      "choice_explanations": {
+        "A": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of P-gp liability recognition.",
+        "B": "Medicinal chemistry reduces efflux by polarity/structure tuning.",
+        "C": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of P-gp liability recognition.",
+        "D": "Classic P-gp substrates are often large lipophilic compounds."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of DNA-encoded libraries?",
+      "options": [
+        "A) Claiming covalent drugs never engage nucleophilic amino acids",
+        "B)  combinatorial chemistry with DNA tags enables affinity selection of binders",
+        "C) DEL technology forbids any chemical diversity beyond two compounds",
+        "D) Believing enantiomers always share identical PD and toxicity"
+      ],
+      "answer": "B)  combinatorial chemistry with DNA tags enables affinity selection of binders",
+      "explanation": "Huge libraries accelerate hit finding for suitable targets. The best choice is:  combinatorial chemistry with DNA tags enables affinity selection of binders. A close rival is: DEL technology forbids any chemical diversity beyond two compounds. Distinguisher: Scale and diversity are DEL strengths.",
+      "choice_explanations": {
+        "A": "Claiming covalent drugs never engage nucleophilic amino acids is unrelated to the key pathophysiology of DNA-encoded libraries.",
+        "B": "Huge libraries accelerate hit finding for suitable targets.",
+        "C": "Scale and diversity are DEL strengths.",
+        "D": "Believing enantiomers always share identical PD and toxicity does not match the mechanism of DNA-encoded libraries."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Soft drugs?",
+      "options": [
+        "A) Active agents designed for predictable rapid metabolism to inactive metabolites after effect",
+        "B) Asserting fluorine always accelerates metabolism at the substituted carbon",
+        "C) Believing higher LogP always improves every ADME property without limit",
+        "D) Soft drugs are designed for ultra-long accumulation without metabolism"
+      ],
+      "answer": "A) Active agents designed for predictable rapid metabolism to inactive metabolites after effect",
+      "explanation": "Controlled deactivation can limit systemic toxicity (e.g., soft corticosteroids themes). The best choice is: Active agents designed for predictable rapid metabolism to inactive metabolites after effect. A close rival is: Soft drugs are designed for ultra-long accumulation without metabolism. Distinguisher: Soft design emphasizes predictable inactivation, not endless accumulation.",
+      "choice_explanations": {
+        "A": "Controlled deactivation can limit systemic toxicity (e.g., soft corticosteroids themes).",
+        "B": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of Soft drugs.",
+        "C": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of Soft drugs.",
+        "D": "Soft design emphasizes predictable inactivation, not endless accumulation."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Prodrug activation CYP?",
+      "options": [
+        "A) Some prodrugs need CYP oxidation (e.g., clopidogrel thiol formation) introducing response variability",
+        "B) Asserting fluorine always accelerates metabolism at the substituted carbon",
+        "C) CYP-activated prodrugs show zero pharmacogenetic variability ever",
+        "D) Believing higher LogP always improves every ADME property without limit"
+      ],
+      "answer": "A) Some prodrugs need CYP oxidation (e.g., clopidogrel thiol formation) introducing response variability",
+      "explanation": "Bioactivation dependence links genetics to efficacy. The best choice is: Some prodrugs need CYP oxidation (e.g., clopidogrel thiol formation) introducing response variability. A close rival is: CYP-activated prodrugs show zero pharmacogenetic variability ever. Distinguisher: CYP2C19-type variability matters for some prodrugs.",
+      "choice_explanations": {
+        "A": "Bioactivation dependence links genetics to efficacy.",
+        "B": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of Prodrug activation CYP.",
+        "C": "CYP2C19-type variability matters for some prodrugs.",
+        "D": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of Prodrug activation CYP."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of SGLT2 glucoside mimics?",
+      "options": [
+        "A) Equating pharmacophore with tablet binder molecular weight only",
+        "B) SGLT2 inhibitors are inorganic lithium salts exclusively",
+        "C) Aryl glucoside chemotypes inhibit SGLT2 leveraging sugar transporter recognition",
+        "D) Stating bioisosteres always destroy activity by definition"
+      ],
+      "answer": "C) Aryl glucoside chemotypes inhibit SGLT2 leveraging sugar transporter recognition",
+      "explanation": "C-aryl glucosides resist glucosidase degradation better than O-glucosides historically. The best choice is: Aryl glucoside chemotypes inhibit SGLT2 leveraging sugar transporter recognition. A close rival is: SGLT2 inhibitors are inorganic lithium salts exclusively. Distinguisher: Sugar-mimic organic molecules define the class.",
+      "choice_explanations": {
+        "A": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of SGLT2 glucoside mimics.",
+        "B": "Sugar-mimic organic molecules define the class.",
+        "C": "C-aryl glucosides resist glucosidase degradation better than O-glucosides historically.",
+        "D": "Stating bioisosteres always destroy activity by definition does not match the mechanism of SGLT2 glucoside mimics."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of LogP optimization?",
+      "options": [
+        "A) Higher LogP always improves every ADME property without limit",
+        "B) Excessive lipophilicity can hurt solubility and raise promiscuity/metabolic clearance",
+        "C) Claiming covalent drugs never engage nucleophilic amino acids",
+        "D) Believing enantiomers always share identical PD and toxicity"
+      ],
+      "answer": "B) Excessive lipophilicity can hurt solubility and raise promiscuity/metabolic clearance",
+      "explanation": "Balanced LogP supports permeability without catastrophic insolubility. The best choice is: Excessive lipophilicity can hurt solubility and raise promiscuity/metabolic clearance. A close rival is: Higher LogP always improves every ADME property without limit. Distinguisher: Ever-higher LogP is not universally beneficial.",
+      "choice_explanations": {
+        "A": "Ever-higher LogP is not universally beneficial.",
+        "B": "Balanced LogP supports permeability without catastrophic insolubility.",
+        "C": "Claiming covalent drugs never engage nucleophilic amino acids is unrelated to the key pathophysiology of LogP optimization.",
+        "D": "Believing enantiomers always share identical PD and toxicity does not match the mechanism of LogP optimization."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Kinase hinge binding?",
+      "options": [
+        "A) Kinase inhibitors never occupy the ATP site hinge region in Type I designs",
+        "B) Stating bioisosteres always destroy activity by definition",
+        "C) Equating pharmacophore with tablet binder molecular weight only",
+        "D) Most ATP-site kinase inhibitors H-bond to hinge residues mimicking adenine interactions"
+      ],
+      "answer": "D) Most ATP-site kinase inhibitors H-bond to hinge residues mimicking adenine interactions",
+      "explanation": "Scaffold decoration reaches hydrophobic pockets for selectivity. The best choice is: Most ATP-site kinase inhibitors H-bond to hinge residues mimicking adenine interactions. A close rival is: Kinase inhibitors never occupy the ATP site hinge region in Type I designs. Distinguisher: Hinge recognition is a hallmark of many Type I inhibitors.",
+      "choice_explanations": {
+        "A": "Hinge recognition is a hallmark of many Type I inhibitors.",
+        "B": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Kinase hinge binding.",
+        "C": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Kinase hinge binding.",
+        "D": "Scaffold decoration reaches hydrophobic pockets for selectivity."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Catechol COMT liability?",
+      "options": [
+        "A) Catechols are metabolically stable to COMT always",
+        "B) Believing higher LogP always improves every ADME property without limit",
+        "C) Asserting fluorine always accelerates metabolism at the substituted carbon",
+        "D) Catechol groups undergo rapid COMT methylation limiting oral catecholamine utility"
+      ],
+      "answer": "D) Catechol groups undergo rapid COMT methylation limiting oral catecholamine utility",
+      "explanation": "Replacing catechols or using prodrugs circumvents rapid conjugation. The best choice is: Catechol groups undergo rapid COMT methylation limiting oral catecholamine utility. A close rival is: Catechols are metabolically stable to COMT always. Distinguisher: COMT liability is classic for catechols.",
+      "choice_explanations": {
+        "A": "COMT liability is classic for catechols.",
+        "B": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of Catechol COMT liability.",
+        "C": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of Catechol COMT liability.",
+        "D": "Replacing catechols or using prodrugs circumvents rapid conjugation."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Peptidomimetics?",
+      "options": [
+        "A) Peptidomimetics always increase proteolytic cleavage rates",
+        "B) Modify peptides to resist proteases and improve membrane properties while keeping recognition elements",
+        "C) Stating bioisosteres always destroy activity by definition",
+        "D) Equating pharmacophore with tablet binder molecular weight only"
+      ],
+      "answer": "B) Modify peptides to resist proteases and improve membrane properties while keeping recognition elements",
+      "explanation": "Backbone amide replacements and cyclization are common tactics. The best choice is: Modify peptides to resist proteases and improve membrane properties while keeping recognition elements. A close rival is: Peptidomimetics always increase proteolytic cleavage rates. Distinguisher: They aim to reduce, not increase, proteolysis.",
+      "choice_explanations": {
+        "A": "They aim to reduce, not increase, proteolysis.",
+        "B": "Backbone amide replacements and cyclization are common tactics.",
+        "C": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Peptidomimetics.",
+        "D": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Peptidomimetics."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Polymorph control chemistry?",
+      "options": [
+        "A) Asserting fluorine always accelerates metabolism at the substituted carbon",
+        "B) Believing higher LogP always improves every ADME property without limit",
+        "C) Thermodynamically stable polymorphs may dissolve slower than metastable ones — impact bioavailability",
+        "D) Crystal form never affects dissolution of the same molecule"
+      ],
+      "answer": "C) Thermodynamically stable polymorphs may dissolve slower than metastable ones — impact bioavailability",
+      "explanation": "Process chemistry locks desired form for consistent performance. The best choice is: Thermodynamically stable polymorphs may dissolve slower than metastable ones — impact bioavailability. A close rival is: Crystal form never affects dissolution of the same molecule. Distinguisher: Polymorphs can differ in pharmaceutical performance.",
+      "choice_explanations": {
+        "A": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of Polymorph control chemistry.",
+        "B": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of Polymorph control chemistry.",
+        "C": "Process chemistry locks desired form for consistent performance.",
+        "D": "Polymorphs can differ in pharmaceutical performance."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Aniline free base risk?",
+      "options": [
+        "A) Anilines can form reactive hydroxylamines/nitroso metabolites associated with toxicity/idiosyncrasy",
+        "B) Anilines are metabolically inert in all drugs always",
+        "C) Asserting fluorine always accelerates metabolism at the substituted carbon",
+        "D) Believing higher LogP always improves every ADME property without limit"
+      ],
+      "answer": "A) Anilines can form reactive hydroxylamines/nitroso metabolites associated with toxicity/idiosyncrasy",
+      "explanation": "Masking or replacement strategies mitigate aniline liabilities. The best choice is: Anilines can form reactive hydroxylamines/nitroso metabolites associated with toxicity/idiosyncrasy. A close rival is: Anilines are metabolically inert in all drugs always. Distinguisher: Bioactivation of anilines is a known concern.",
+      "choice_explanations": {
+        "A": "Masking or replacement strategies mitigate aniline liabilities.",
+        "B": "Bioactivation of anilines is a known concern.",
+        "C": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of Aniline free base risk.",
+        "D": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of Aniline free base risk."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Nitroaromatic reduction?",
+      "options": [
+        "A) Nitroaromatics cannot undergo reductive metabolism",
+        "B) Equating pharmacophore with tablet binder molecular weight only",
+        "C) Nitro groups can be reduced to reactive nitroso/hydroxylamine species",
+        "D) Stating bioisosteres always destroy activity by definition"
+      ],
+      "answer": "C) Nitro groups can be reduced to reactive nitroso/hydroxylamine species",
+      "explanation": "Toxicity and antibiotic activation (e.g., metronidazole themes) involve nitro chemistry. The best choice is: Nitro groups can be reduced to reactive nitroso/hydroxylamine species. A close rival is: Nitroaromatics cannot undergo reductive metabolism. Distinguisher: Reductive pathways are well established.",
+      "choice_explanations": {
+        "A": "Reductive pathways are well established.",
+        "B": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Nitroaromatic reduction.",
+        "C": "Toxicity and antibiotic activation (e.g., metronidazole themes) involve nitro chemistry.",
+        "D": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Nitroaromatic reduction."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Competitive enzyme inhibitor structure?",
+      "options": [
+        "A) Believing enantiomers always share identical PD and toxicity",
+        "B) Overlaps substrate binding features occupying the active site",
+        "C) Claiming covalent drugs never engage nucleophilic amino acids",
+        "D) Binds an allosteric site only without active-site overlap by definition of competitive"
+      ],
+      "answer": "B) Overlaps substrate binding features occupying the active site",
+      "explanation": "Structural mimicry of substrate enables competitive inhibition. The best choice is: Overlaps substrate binding features occupying the active site. A close rival is: Binds an allosteric site only without active-site overlap by definition of competitive. Distinguisher: Classic competitive inhibitors occupy the active site.",
+      "choice_explanations": {
+        "A": "Believing enantiomers always share identical PD and toxicity does not match the mechanism of Competitive enzyme inhibitor structure.",
+        "B": "Structural mimicry of substrate enables competitive inhibition.",
+        "C": "Claiming covalent drugs never engage nucleophilic amino acids is unrelated to the key pathophysiology of Competitive enzyme inhibitor structure.",
+        "D": "Classic competitive inhibitors occupy the active site."
+      }
+    }
+  ],
+  "medium": [
+    {
+      "question": "In clinical practice regarding Reversible BTK next gen, which option is most accurate?",
+      "options": [
+        "A) Asserting fluorine always accelerates metabolism at the substituted carbon",
+        "B) Noncovalent BTK inhibitors address C481 resistance mutations to covalent agents",
+        "C) C481 mutations increase covalent acrylamide binding affinity always",
+        "D) Believing higher LogP always improves every ADME property without limit"
+      ],
+      "answer": "B) Noncovalent BTK inhibitors address C481 resistance mutations to covalent agents",
+      "explanation": "Losing the covalent cysteine forces alternative binding modes. The best choice is: Noncovalent BTK inhibitors address C481 resistance mutations to covalent agents. A close rival is: C481 mutations increase covalent acrylamide binding affinity always. Distinguisher: C481S reduces covalent binding effectiveness.",
+      "choice_explanations": {
+        "A": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of Reversible BTK next gen.",
+        "B": "Losing the covalent cysteine forces alternative binding modes.",
+        "C": "C481S reduces covalent binding effectiveness.",
+        "D": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of Reversible BTK next gen."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Active metabolite design caution, which option is most accurate?",
+      "options": [
+        "A) Uncontrolled metabolism to multiple actives complicates PK/PD and safety prediction",
+        "B) Multiple uncontrolled active metabolites always simplify dosing",
+        "C) Stating bioisosteres always destroy activity by definition",
+        "D) Equating pharmacophore with tablet binder molecular weight only"
+      ],
+      "answer": "A) Uncontrolled metabolism to multiple actives complicates PK/PD and safety prediction",
+      "explanation": "Medicinal chemistry may block soft spots to simplify metabolite profiles. The best choice is: Uncontrolled metabolism to multiple actives complicates PK/PD and safety prediction. A close rival is: Multiple uncontrolled active metabolites always simplify dosing. Distinguisher: Complexity usually increases, not decreases, with many actives.",
+      "choice_explanations": {
+        "A": "Medicinal chemistry may block soft spots to simplify metabolite profiles.",
+        "B": "Complexity usually increases, not decreases, with many actives.",
+        "C": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Active metabolite design caution.",
+        "D": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Active metabolite design caution."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Catecholamine SAR, which option is most accurate?",
+      "options": [
+        "A) Meta/para hydroxyls on catechol and β-OH on side chain critical for adrenergic potency patterns",
+        "B) Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms",
+        "C) Claiming Rule of Five are absolute physical laws forbidding all exceptions",
+        "D) Removing all hydroxyls always increases α1 potency maximally for every analog"
+      ],
+      "answer": "A) Meta/para hydroxyls on catechol and β-OH on side chain critical for adrenergic potency patterns",
+      "explanation": "Anderson/Ariëns-type SAR maps hydroxyl importance for receptor engagement. The best choice is: Meta/para hydroxyls on catechol and β-OH on side chain critical for adrenergic potency patterns. A close rival is: Removing all hydroxyls always increases α1 potency maximally for every analog. Distinguisher: Hydroxyl patterns are critical, not irrelevant.",
+      "choice_explanations": {
+        "A": "Anderson/Ariëns-type SAR maps hydroxyl importance for receptor engagement.",
+        "B": "Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms is unrelated to the key pathophysiology of Catecholamine SAR.",
+        "C": "Claiming Rule of Five are absolute physical laws forbidding all exceptions does not match the mechanism of Catecholamine SAR.",
+        "D": "Hydroxyl patterns are critical, not irrelevant."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Salt form medicinal chemistry, which option is most accurate?",
+      "options": [
+        "A) Salt selection never changes physicochemical properties of ionizable APIs",
+        "B) Claiming Rule of Five are absolute physical laws forbidding all exceptions",
+        "C) Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms",
+        "D) Choosing HCl, mesylate, sodium salts etc. alters crystallinity, solubility, and stability"
+      ],
+      "answer": "D) Choosing HCl, mesylate, sodium salts etc. alters crystallinity, solubility, and stability",
+      "explanation": "Counterion toxicology and hygroscopicity guide selection. The best choice is: Choosing HCl, mesylate, sodium salts etc. alters crystallinity, solubility, and stability. A close rival is: Salt selection never changes physicochemical properties of ionizable APIs. Distinguisher: Salt form is a deliberate optimization lever.",
+      "choice_explanations": {
+        "A": "Salt form is a deliberate optimization lever.",
+        "B": "Claiming Rule of Five are absolute physical laws forbidding all exceptions does not match the mechanism of Salt form medicinal chemistry.",
+        "C": "Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms is unrelated to the key pathophysiology of Salt form medicinal chemistry.",
+        "D": "Counterion toxicology and hygroscopicity guide selection."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Polymerase inhibitor sofosbuvir, which option is most accurate?",
+      "options": [
+        "A) Claiming Rule of Five are absolute physical laws forbidding all exceptions",
+        "B) Sofosbuvir is active without any metabolism as a free nucleobase only",
+        "C) Phosphoramidate ProTide delivers nucleoside monophosphate analog bypassing first phosphorylation",
+        "D) Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms"
+      ],
+      "answer": "C) Phosphoramidate ProTide delivers nucleoside monophosphate analog bypassing first phosphorylation",
+      "explanation": "Intracellular activation yields triphosphate competing with UTP at NS5B. The best choice is: Phosphoramidate ProTide delivers nucleoside monophosphate analog bypassing first phosphorylation. A close rival is: Sofosbuvir is active without any metabolism as a free nucleobase only. Distinguisher: ProTide chemistry enables efficient activation.",
+      "choice_explanations": {
+        "A": "Claiming Rule of Five are absolute physical laws forbidding all exceptions does not match the mechanism of Polymerase inhibitor sofosbuvir.",
+        "B": "ProTide chemistry enables efficient activation.",
+        "C": "Intracellular activation yields triphosphate competing with UTP at NS5B.",
+        "D": "Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms is unrelated to the key pathophysiology of Polymerase inhibitor sofosbuvir."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Antedrug concept, which option is most accurate?",
+      "options": [
+        "A) Antedrugs are designed for maximal systemic accumulation after local use",
+        "B) Stating bioisosteres always destroy activity by definition",
+        "C) Active locally then metabolized to inactive species upon entering systemic circulation",
+        "D) Equating pharmacophore with tablet binder molecular weight only"
+      ],
+      "answer": "C) Active locally then metabolized to inactive species upon entering systemic circulation",
+      "explanation": "Soft corticosteroid esters for inhalation exemplify local-then-inactive ideas. The best choice is: Active locally then metabolized to inactive species upon entering systemic circulation. A close rival is: Antedrugs are designed for maximal systemic accumulation after local use. Distinguisher: Systemic inactivation after local effect is the goal.",
+      "choice_explanations": {
+        "A": "Systemic inactivation after local effect is the goal.",
+        "B": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Antedrug concept.",
+        "C": "Soft corticosteroid esters for inhalation exemplify local-then-inactive ideas.",
+        "D": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Antedrug concept."
+      }
+    },
+    {
+      "question": "In clinical practice regarding GLP-1 peptide engineering, which option is most accurate?",
+      "options": [
+        "A) Amino-acid substitutions and fatty-acid acylation extend half-life against DPP-4/renal clearance",
+        "B) Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms",
+        "C) Claiming Rule of Five are absolute physical laws forbidding all exceptions",
+        "D) Native GLP-1 already has week-long half-life without modification"
+      ],
+      "answer": "A) Amino-acid substitutions and fatty-acid acylation extend half-life against DPP-4/renal clearance",
+      "explanation": "Lipidation enables albumin binding prolonging exposure. The best choice is: Amino-acid substitutions and fatty-acid acylation extend half-life against DPP-4/renal clearance. A close rival is: Native GLP-1 already has week-long half-life without modification. Distinguisher: Native GLP-1 is rapidly degraded.",
+      "choice_explanations": {
+        "A": "Lipidation enables albumin binding prolonging exposure.",
+        "B": "Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms is unrelated to the key pathophysiology of GLP-1 peptide engineering.",
+        "C": "Claiming Rule of Five are absolute physical laws forbidding all exceptions does not match the mechanism of GLP-1 peptide engineering.",
+        "D": "Native GLP-1 is rapidly degraded."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Solubility enabling groups, which option is most accurate?",
+      "options": [
+        "A) Adding lipophilic aryl rings always maximizes aqueous solubility",
+        "B) Claiming Rule of Five are absolute physical laws forbidding all exceptions",
+        "C) Adding ionizable centers or polar groups can raise aqueous solubility for formulation",
+        "D) Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms"
+      ],
+      "answer": "C) Adding ionizable centers or polar groups can raise aqueous solubility for formulation",
+      "explanation": "Trade-offs with permeability require multiparameter optimization. The best choice is: Adding ionizable centers or polar groups can raise aqueous solubility for formulation. A close rival is: Adding lipophilic aryl rings always maximizes aqueous solubility. Distinguisher: More lipophilic aryls generally hurt aqueous solubility.",
+      "choice_explanations": {
+        "A": "More lipophilic aryls generally hurt aqueous solubility.",
+        "B": "Claiming Rule of Five are absolute physical laws forbidding all exceptions does not match the mechanism of Solubility enabling groups.",
+        "C": "Trade-offs with permeability require multiparameter optimization.",
+        "D": "Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms is unrelated to the key pathophysiology of Solubility enabling groups."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Metabolic soft spot, which option is most accurate?",
+      "options": [
+        "A) Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms",
+        "B) Sites on a molecule readily oxidized/conjugated identifying clearance liabilities",
+        "C) Claiming Rule of Five are absolute physical laws forbidding all exceptions",
+        "D) Soft spots are regions that can never be metabolized"
+      ],
+      "answer": "B) Sites on a molecule readily oxidized/conjugated identifying clearance liabilities",
+      "explanation": "Blocking soft spots with fluorine or deuterium are common tactics. The best choice is: Sites on a molecule readily oxidized/conjugated identifying clearance liabilities. A close rival is: Soft spots are regions that can never be metabolized. Distinguisher: Soft spots are labile, not inert, positions.",
+      "choice_explanations": {
+        "A": "Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms is unrelated to the key pathophysiology of Metabolic soft spot.",
+        "B": "Blocking soft spots with fluorine or deuterium are common tactics.",
+        "C": "Claiming Rule of Five are absolute physical laws forbidding all exceptions does not match the mechanism of Metabolic soft spot.",
+        "D": "Soft spots are labile, not inert, positions."
+      }
+    },
+    {
+      "question": "In clinical practice regarding hERG liability chemistry, which option is most accurate?",
+      "options": [
+        "A) Equating pharmacophore with tablet binder molecular weight only",
+        "B) hERG block risk is unrelated to lipophilic basic amine motifs",
+        "C) Stating bioisosteres always destroy activity by definition",
+        "D) Basic nitrogen plus hydrophobic aromatic features associate with hERG block/QT risk"
+      ],
+      "answer": "D) Basic nitrogen plus hydrophobic aromatic features associate with hERG block/QT risk",
+      "explanation": "Lowering LogP and modifying basicity are common mitigation tactics. The best choice is: Basic nitrogen plus hydrophobic aromatic features associate with hERG block/QT risk. A close rival is: hERG block risk is unrelated to lipophilic basic amine motifs. Distinguisher: Lipophilic bases are a recognized hERG pharmacophore alert.",
+      "choice_explanations": {
+        "A": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of hERG liability chemistry.",
+        "B": "Lipophilic bases are a recognized hERG pharmacophore alert.",
+        "C": "Stating bioisosteres always destroy activity by definition does not match the mechanism of hERG liability chemistry.",
+        "D": "Lowering LogP and modifying basicity are common mitigation tactics."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Opioid morphinan SAR, which option is most accurate?",
+      "options": [
+        "A) Morphine-like opioids lack any basic nitrogen requirement",
+        "B) Claiming Rule of Five are absolute physical laws forbidding all exceptions",
+        "C) Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms",
+        "D) Phenolic 3-OH, amine basic center, and rigid scaffold critical for μ receptor recognition"
+      ],
+      "answer": "D) Phenolic 3-OH, amine basic center, and rigid scaffold critical for μ receptor recognition",
+      "explanation": "N-substituent switches agonist/antagonist profiles (e.g., allyl in naloxone). The best choice is: Phenolic 3-OH, amine basic center, and rigid scaffold critical for μ receptor recognition. A close rival is: Morphine-like opioids lack any basic nitrogen requirement. Distinguisher: Basic nitrogen is essential for classical opioid receptor binding.",
+      "choice_explanations": {
+        "A": "Basic nitrogen is essential for classical opioid receptor binding.",
+        "B": "Claiming Rule of Five are absolute physical laws forbidding all exceptions does not match the mechanism of Opioid morphinan SAR.",
+        "C": "Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms is unrelated to the key pathophysiology of Opioid morphinan SAR.",
+        "D": "N-substituent switches agonist/antagonist profiles (e.g., allyl in naloxone)."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Azo prodrugs, which option is most accurate?",
+      "options": [
+        "A) Believing higher LogP always improves every ADME property without limit",
+        "B) Colonic bacterial azo-reductases activate sulfasalazine-type drugs locally",
+        "C) Azo bonds are cleaved primarily by human CYP3A in the liver only for sulfasalazine’s local activation design",
+        "D) Asserting fluorine always accelerates metabolism at the substituted carbon"
+      ],
+      "answer": "B) Colonic bacterial azo-reductases activate sulfasalazine-type drugs locally",
+      "explanation": "Delivery to colon exploits microbial reductive activation. The best choice is: Colonic bacterial azo-reductases activate sulfasalazine-type drugs locally. A close rival is: Azo bonds are cleaved primarily by human CYP3A in the liver only for sulfasalazine’s local activation design. Distinguisher: Local bacterial activation is the design idea.",
+      "choice_explanations": {
+        "A": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of Azo prodrugs.",
+        "B": "Delivery to colon exploits microbial reductive activation.",
+        "C": "Local bacterial activation is the design idea.",
+        "D": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of Azo prodrugs."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Platinum coordination, which option is most accurate?",
+      "options": [
+        "A) Believing higher LogP always improves every ADME property without limit",
+        "B) Asserting fluorine always accelerates metabolism at the substituted carbon",
+        "C) Cisplatin aquation yields reactive platinum that cross-links purine N7 atoms",
+        "D) Cisplatin is a noncovalent minor-groove polyamide without metal coordination chemistry"
+      ],
+      "answer": "C) Cisplatin aquation yields reactive platinum that cross-links purine N7 atoms",
+      "explanation": "Square-planar Pt(II) chemistry underpins DNA lesion formation. The best choice is: Cisplatin aquation yields reactive platinum that cross-links purine N7 atoms. A close rival is: Cisplatin is a noncovalent minor-groove polyamide without metal coordination chemistry. Distinguisher: Coordination/aquation chemistry is essential.",
+      "choice_explanations": {
+        "A": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of Platinum coordination.",
+        "B": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of Platinum coordination.",
+        "C": "Square-planar Pt(II) chemistry underpins DNA lesion formation.",
+        "D": "Coordination/aquation chemistry is essential."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Zwitterion design, which option is most accurate?",
+      "options": [
+        "A) Believing higher LogP always improves every ADME property without limit",
+        "B) Molecules bearing both + and − charges can show distinctive solubility/permeability profiles",
+        "C) Zwitterions are impossible in drug-like small molecules",
+        "D) Asserting fluorine always accelerates metabolism at the substituted carbon"
+      ],
+      "answer": "B) Molecules bearing both + and − charges can show distinctive solubility/permeability profiles",
+      "explanation": "Gabapentin-like amino acids exemplify zwitterionic drugs. The best choice is: Molecules bearing both + and − charges can show distinctive solubility/permeability profiles. A close rival is: Zwitterions are impossible in drug-like small molecules. Distinguisher: Zwitterions are common among amino-acid-like drugs.",
+      "choice_explanations": {
+        "A": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of Zwitterion design.",
+        "B": "Gabapentin-like amino acids exemplify zwitterionic drugs.",
+        "C": "Zwitterions are common among amino-acid-like drugs.",
+        "D": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of Zwitterion design."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Alkylating agent motifs, which option is most accurate?",
+      "options": [
+        "A) Nitrogen mustards are reversible competitive folate antagonists only",
+        "B) Claiming covalent drugs never engage nucleophilic amino acids",
+        "C) Nitrogen mustards form aziridinium ions alkylating DNA nucleophiles",
+        "D) Believing enantiomers always share identical PD and toxicity"
+      ],
+      "answer": "C) Nitrogen mustards form aziridinium ions alkylating DNA nucleophiles",
+      "explanation": "Bifunctional alkylation cross-links DNA strands. The best choice is: Nitrogen mustards form aziridinium ions alkylating DNA nucleophiles. A close rival is: Nitrogen mustards are reversible competitive folate antagonists only. Distinguisher: Covalent DNA alkylation defines the class.",
+      "choice_explanations": {
+        "A": "Covalent DNA alkylation defines the class.",
+        "B": "Claiming covalent drugs never engage nucleophilic amino acids is unrelated to the key pathophysiology of Alkylating agent motifs.",
+        "C": "Bifunctional alkylation cross-links DNA strands.",
+        "D": "Believing enantiomers always share identical PD and toxicity does not match the mechanism of Alkylating agent motifs."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Taft steric parameters, which option is most accurate?",
+      "options": [
+        "A) Stating bioisosteres always destroy activity by definition",
+        "B) Quantify steric bulk effects of substituents on rates/equilibria",
+        "C) Equating pharmacophore with tablet binder molecular weight only",
+        "D) Taft Es measures only color of the compound"
+      ],
+      "answer": "B) Quantify steric bulk effects of substituents on rates/equilibria",
+      "explanation": "Steric parameters complement electronic terms in QSAR. The best choice is: Quantify steric bulk effects of substituents on rates/equilibria. A close rival is: Taft Es measures only color of the compound. Distinguisher: They capture steric, not optical color, effects.",
+      "choice_explanations": {
+        "A": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Taft steric parameters.",
+        "B": "Steric parameters complement electronic terms in QSAR.",
+        "C": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Taft steric parameters.",
+        "D": "They capture steric, not optical color, effects."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Quinolone SAR, which option is most accurate?",
+      "options": [
+        "A) Claiming Rule of Five are absolute physical laws forbidding all exceptions",
+        "B) Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms",
+        "C) Removing the 3-carboxyl always improves gyrase binding universally",
+        "D) 3-Carboxy-4-oxo pharmacophore chelates magnesium in gyrase/topo IV complexes"
+      ],
+      "answer": "D) 3-Carboxy-4-oxo pharmacophore chelates magnesium in gyrase/topo IV complexes",
+      "explanation": "Fluorine at C6 and N1 substituents historically optimized potency/PK. The best choice is: 3-Carboxy-4-oxo pharmacophore chelates magnesium in gyrase/topo IV complexes. A close rival is: Removing the 3-carboxyl always improves gyrase binding universally. Distinguisher: 3-Carboxyl is part of the core pharmacophore.",
+      "choice_explanations": {
+        "A": "Claiming Rule of Five are absolute physical laws forbidding all exceptions does not match the mechanism of Quinolone SAR.",
+        "B": "Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms is unrelated to the key pathophysiology of Quinolone SAR.",
+        "C": "3-Carboxyl is part of the core pharmacophore.",
+        "D": "Fluorine at C6 and N1 substituents historically optimized potency/PK."
+      }
+    },
+    {
+      "question": "In clinical practice regarding CLOGP versus measured, which option is most accurate?",
+      "options": [
+        "A) Claiming Rule of Five are absolute physical laws forbidding all exceptions",
+        "B) Calculated and measured LogP are always identical with zero error",
+        "C) Calculated LogP estimates lipophilicity; shake-flask or chromatographic methods measure it",
+        "D) Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms"
+      ],
+      "answer": "C) Calculated LogP estimates lipophilicity; shake-flask or chromatographic methods measure it",
+      "explanation": "Model limitations require experimental confirmation for critical decisions. The best choice is: Calculated LogP estimates lipophilicity; shake-flask or chromatographic methods measure it. A close rival is: Calculated and measured LogP are always identical with zero error. Distinguisher: Prediction error is expected; measurement validates.",
+      "choice_explanations": {
+        "A": "Claiming Rule of Five are absolute physical laws forbidding all exceptions does not match the mechanism of CLOGP versus measured.",
+        "B": "Prediction error is expected; measurement validates.",
+        "C": "Model limitations require experimental confirmation for critical decisions.",
+        "D": "Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms is unrelated to the key pathophysiology of CLOGP versus measured."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Sulfonamide antibacterial, which option is most accurate?",
+      "options": [
+        "A) Sulfonamides inhibit bacterial DNA gyrase as primary action",
+        "B) Believing enantiomers always share identical PD and toxicity",
+        "C) Claiming covalent drugs never engage nucleophilic amino acids",
+        "D) p-Amino benzene sulfonamide mimics PABA inhibiting dihydropteroate synthase"
+      ],
+      "answer": "D) p-Amino benzene sulfonamide mimics PABA inhibiting dihydropteroate synthase",
+      "explanation": "Antimetabolite competition with PABA is classic teaching. The best choice is: p-Amino benzene sulfonamide mimics PABA inhibiting dihydropteroate synthase. A close rival is: Sulfonamides inhibit bacterial DNA gyrase as primary action. Distinguisher: Gyrase inhibition is fluoroquinolone territory.",
+      "choice_explanations": {
+        "A": "Gyrase inhibition is fluoroquinolone territory.",
+        "B": "Believing enantiomers always share identical PD and toxicity does not match the mechanism of Sulfonamide antibacterial.",
+        "C": "Claiming covalent drugs never engage nucleophilic amino acids is unrelated to the key pathophysiology of Sulfonamide antibacterial.",
+        "D": "Antimetabolite competition with PABA is classic teaching."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Stereochemistry eutomer, which option is most accurate?",
+      "options": [
+        "A) Equating pharmacophore with tablet binder molecular weight only",
+        "B) Stating bioisosteres always destroy activity by definition",
+        "C) Both enantiomers always have identical pharmacodynamics and toxicity",
+        "D) Eutomer is the more active enantiomer; distomer is less active and may add ADRs"
+      ],
+      "answer": "D) Eutomer is the more active enantiomer; distomer is less active and may add ADRs",
+      "explanation": "Chiral switches exploit eutomer advantages sometimes. The best choice is: Eutomer is the more active enantiomer; distomer is less active and may add ADRs. A close rival is: Both enantiomers always have identical pharmacodynamics and toxicity. Distinguisher: Enantiomers can differ markedly in PD/PK/toxicity.",
+      "choice_explanations": {
+        "A": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Stereochemistry eutomer.",
+        "B": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Stereochemistry eutomer.",
+        "C": "Enantiomers can differ markedly in PD/PK/toxicity.",
+        "D": "Chiral switches exploit eutomer advantages sometimes."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Forced degradation chemistry, which option is most accurate?",
+      "options": [
+        "A) Stating bioisosteres always destroy activity by definition",
+        "B) Acid/base/oxidative/photostress reveals likely degradation pathways informing structure stabilization",
+        "C) Equating pharmacophore with tablet binder molecular weight only",
+        "D) Forced degradation is unrelated to chemical stability understanding"
+      ],
+      "answer": "B) Acid/base/oxidative/photostress reveals likely degradation pathways informing structure stabilization",
+      "explanation": "Identifying degradants guides packaging and molecular redesign. The best choice is: Acid/base/oxidative/photostress reveals likely degradation pathways informing structure stabilization. A close rival is: Forced degradation is unrelated to chemical stability understanding. Distinguisher: Stress chemistry maps real liabilities.",
+      "choice_explanations": {
+        "A": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Forced degradation chemistry.",
+        "B": "Identifying degradants guides packaging and molecular redesign.",
+        "C": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Forced degradation chemistry.",
+        "D": "Stress chemistry maps real liabilities."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Deuterium switch, which option is most accurate?",
+      "options": [
+        "A) Believing higher LogP always improves every ADME property without limit",
+        "B) Deuterium always accelerates CYP oxidation versus hydrogen",
+        "C) Asserting fluorine always accelerates metabolism at the substituted carbon",
+        "D) Deuteration at metabolic soft spots can slow CYP oxidation via kinetic isotope effects"
+      ],
+      "answer": "D) Deuteration at metabolic soft spots can slow CYP oxidation via kinetic isotope effects",
+      "explanation": "Heavier C–D bonds can reduce metabolic rate selectively. The best choice is: Deuteration at metabolic soft spots can slow CYP oxidation via kinetic isotope effects. A close rival is: Deuterium always accelerates CYP oxidation versus hydrogen. Distinguisher: Isotope effects slow, rather than accelerate, cleavage typically.",
+      "choice_explanations": {
+        "A": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of Deuterium switch.",
+        "B": "Isotope effects slow, rather than accelerate, cleavage typically.",
+        "C": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of Deuterium switch.",
+        "D": "Heavier C–D bonds can reduce metabolic rate selectively."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Prodrug esterification, which option is most accurate?",
+      "options": [
+        "A) Claiming covalent drugs never engage nucleophilic amino acids",
+        "B) Masking polar groups as esters can enhance membrane permeability then esterases liberate active drug",
+        "C) Esters always prevent any bioactivation forever",
+        "D) Believing enantiomers always share identical PD and toxicity"
+      ],
+      "answer": "B) Masking polar groups as esters can enhance membrane permeability then esterases liberate active drug",
+      "explanation": "Enalapril-type ethyl esters exemplify oral bioavailability prodrugs. The best choice is: Masking polar groups as esters can enhance membrane permeability then esterases liberate active drug. A close rival is: Esters always prevent any bioactivation forever. Distinguisher: Esters are designed to be cleaved to active acids.",
+      "choice_explanations": {
+        "A": "Claiming covalent drugs never engage nucleophilic amino acids is unrelated to the key pathophysiology of Prodrug esterification.",
+        "B": "Enalapril-type ethyl esters exemplify oral bioavailability prodrugs.",
+        "C": "Esters are designed to be cleaved to active acids.",
+        "D": "Believing enantiomers always share identical PD and toxicity does not match the mechanism of Prodrug esterification."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Bioisosteres, which option is most accurate?",
+      "options": [
+        "A) Bioisosteres always destroy activity by definition",
+        "B) Believing enantiomers always share identical PD and toxicity",
+        "C) Claiming covalent drugs never engage nucleophilic amino acids",
+        "D) Substituents with similar physical/chemical properties used to tune potency, selectivity, or ADME"
+      ],
+      "answer": "D) Substituents with similar physical/chemical properties used to tune potency, selectivity, or ADME",
+      "explanation": "Classical and nonclassical bioisosteres replace problematic groups strategically. The best choice is: Substituents with similar physical/chemical properties used to tune potency, selectivity, or ADME. A close rival is: Bioisosteres always destroy activity by definition. Distinguisher: They are used to optimize, not automatically destroy, activity.",
+      "choice_explanations": {
+        "A": "They are used to optimize, not automatically destroy, activity.",
+        "B": "Believing enantiomers always share identical PD and toxicity does not match the mechanism of Bioisosteres.",
+        "C": "Claiming covalent drugs never engage nucleophilic amino acids is unrelated to the key pathophysiology of Bioisosteres.",
+        "D": "Classical and nonclassical bioisosteres replace problematic groups strategically."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Covalent inhibitors, which option is most accurate?",
+      "options": [
+        "A) Stating bioisosteres always destroy activity by definition",
+        "B) Covalent drugs never touch nucleophilic amino acids",
+        "C) Form bonds with target nucleophiles for prolonged occupancy (reversible or irreversible designs)",
+        "D) Equating pharmacophore with tablet binder molecular weight only"
+      ],
+      "answer": "C) Form bonds with target nucleophiles for prolonged occupancy (reversible or irreversible designs)",
+      "explanation": "Acrylamide warheads targeting cysteine exemplify targeted covalent inhibitors. The best choice is: Form bonds with target nucleophiles for prolonged occupancy (reversible or irreversible designs). A close rival is: Covalent drugs never touch nucleophilic amino acids. Distinguisher: Covalent drugs specifically engage nucleophiles.",
+      "choice_explanations": {
+        "A": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Covalent inhibitors.",
+        "B": "Covalent drugs specifically engage nucleophiles.",
+        "C": "Acrylamide warheads targeting cysteine exemplify targeted covalent inhibitors.",
+        "D": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Covalent inhibitors."
+      }
+    }
+  ],
+  "hard": [
+    {
+      "question": "A student analyzes a case centered on Cocrystals. Key teaching point: Hydrogen-bonded coformers modify crystal lattice energetics. Which option best fits this pathophysiology?",
+      "options": [
+        "A) API multi-component crystals with coformers tune dissolution without ionic salt formation",
+        "B) Believing enantiomers always share identical PD and toxicity",
+        "C) Claiming covalent drugs never engage nucleophilic amino acids",
+        "D) Cocrystals are identical to covalent prodrugs requiring enzymatic activation always"
+      ],
+      "answer": "A) API multi-component crystals with coformers tune dissolution without ionic salt formation",
+      "explanation": "Hydrogen-bonded coformers modify crystal lattice energetics. The best choice is: API multi-component crystals with coformers tune dissolution without ionic salt formation. A close rival is: Cocrystals are identical to covalent prodrugs requiring enzymatic activation always. Distinguisher: They are solid-state forms, not covalent prodrugs by definition.",
+      "choice_explanations": {
+        "A": "Hydrogen-bonded coformers modify crystal lattice energetics.",
+        "B": "Believing enantiomers always share identical PD and toxicity does not match the mechanism of Cocrystals.",
+        "C": "Claiming covalent drugs never engage nucleophilic amino acids is unrelated to the key pathophysiology of Cocrystals.",
+        "D": "They are solid-state forms, not covalent prodrugs by definition."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Lead versus drug. Key teaching point: Medicinal chemistry campaigns improve liabilities iteratively. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Any weak screening hit is already a finished medicine",
+        "B) Believing higher LogP always improves every ADME property without limit",
+        "C) Leads need optimization of potency, selectivity, and ADMET to become drugs",
+        "D) Asserting fluorine always accelerates metabolism at the substituted carbon"
+      ],
+      "answer": "C) Leads need optimization of potency, selectivity, and ADMET to become drugs",
+      "explanation": "Medicinal chemistry campaigns improve liabilities iteratively. The best choice is: Leads need optimization of potency, selectivity, and ADMET to become drugs. A close rival is: Any weak screening hit is already a finished medicine. Distinguisher: Hits/leads require substantial optimization.",
+      "choice_explanations": {
+        "A": "Hits/leads require substantial optimization.",
+        "B": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of Lead versus drug.",
+        "C": "Medicinal chemistry campaigns improve liabilities iteratively.",
+        "D": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of Lead versus drug."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Barbiturate acidity. Key teaching point: Ionization and lipid solubility shape distribution to brain. Which option best fits this pathophysiology?",
+      "options": [
+        "A) 5,5-disubstituted barbituric acids are acidic; lipophilicity of substituents controls onset/duration",
+        "B) Stating bioisosteres always destroy activity by definition",
+        "C) Equating pharmacophore with tablet binder molecular weight only",
+        "D) Barbiturates are strong bases with pKa around 14 always"
+      ],
+      "answer": "A) 5,5-disubstituted barbituric acids are acidic; lipophilicity of substituents controls onset/duration",
+      "explanation": "Ionization and lipid solubility shape distribution to brain. The best choice is: 5,5-disubstituted barbituric acids are acidic; lipophilicity of substituents controls onset/duration. A close rival is: Barbiturates are strong bases with pKa around 14 always. Distinguisher: They are acidic ureides, not strong bases.",
+      "choice_explanations": {
+        "A": "Ionization and lipid solubility shape distribution to brain.",
+        "B": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Barbiturate acidity.",
+        "C": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Barbiturate acidity.",
+        "D": "They are acidic ureides, not strong bases."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Beta-lactam SAR. Key teaching point: Ring integrity is essential for mechanism-based acylation. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Opening the β-lactam ring increases antibacterial acylation potency always",
+        "B) Stating bioisosteres always destroy activity by definition",
+        "C) Equating pharmacophore with tablet binder molecular weight only",
+        "D) Strained β-lactam ring acylates PBP serines; substituents tune spectrum and β-lactamase stability"
+      ],
+      "answer": "D) Strained β-lactam ring acylates PBP serines; substituents tune spectrum and β-lactamase stability",
+      "explanation": "Ring integrity is essential for mechanism-based acylation. The best choice is: Strained β-lactam ring acylates PBP serines; substituents tune spectrum and β-lactamase stability. A close rival is: Opening the β-lactam ring increases antibacterial acylation potency always. Distinguisher: Ring-opened species lose the defining acylation warhead activity.",
+      "choice_explanations": {
+        "A": "Ring-opened species lose the defining acylation warhead activity.",
+        "B": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Beta-lactam SAR.",
+        "C": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Beta-lactam SAR.",
+        "D": "Ring integrity is essential for mechanism-based acylation."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Transition-state analogs. Key teaching point: Enzymes bind TS more tightly than ground-state substrates. Which option best fits this pathophysiology?",
+      "options": [
+        "A) TS analogs bind only the free substrate, never the enzyme",
+        "B) Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms",
+        "C) Mimic TS geometry/charge to bind enzymes extremely tightly (e.g., protease inhibitors themes)",
+        "D) Claiming Rule of Five are absolute physical laws forbidding all exceptions"
+      ],
+      "answer": "C) Mimic TS geometry/charge to bind enzymes extremely tightly (e.g., protease inhibitors themes)",
+      "explanation": "Enzymes bind TS more tightly than ground-state substrates. The best choice is: Mimic TS geometry/charge to bind enzymes extremely tightly (e.g., protease inhibitors themes). A close rival is: TS analogs bind only the free substrate, never the enzyme. Distinguisher: They target the enzyme active site TS recognition.",
+      "choice_explanations": {
+        "A": "They target the enzyme active site TS recognition.",
+        "B": "Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms is unrelated to the key pathophysiology of Transition-state analogs.",
+        "C": "Enzymes bind TS more tightly than ground-state substrates.",
+        "D": "Claiming Rule of Five are absolute physical laws forbidding all exceptions does not match the mechanism of Transition-state analogs."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Scaffold hopping. Key teaching point: Bioisosteric core swaps retain vectors of key substituents. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Replace core chemotype while preserving pharmacophore geometry to improve IP/ADME",
+        "B) Scaffold hopping means changing nothing in the molecule",
+        "C) Believing enantiomers always share identical PD and toxicity",
+        "D) Claiming covalent drugs never engage nucleophilic amino acids"
+      ],
+      "answer": "A) Replace core chemotype while preserving pharmacophore geometry to improve IP/ADME",
+      "explanation": "Bioisosteric core swaps retain vectors of key substituents. The best choice is: Replace core chemotype while preserving pharmacophore geometry to improve IP/ADME. A close rival is: Scaffold hopping means changing nothing in the molecule. Distinguisher: Core change with preserved features is the definition.",
+      "choice_explanations": {
+        "A": "Bioisosteric core swaps retain vectors of key substituents.",
+        "B": "Core change with preserved features is the definition.",
+        "C": "Believing enantiomers always share identical PD and toxicity does not match the mechanism of Scaffold hopping.",
+        "D": "Claiming covalent drugs never engage nucleophilic amino acids is unrelated to the key pathophysiology of Scaffold hopping."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Green chemistry medchem. Key teaching point: Synthetic accessibility affects development cost and sustainability. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Asserting fluorine always accelerates metabolism at the substituted carbon",
+        "B) Solvent choice, atom economy, and safer reagents matter in scalable synthesis of candidates",
+        "C) Process chemistry constraints never influence candidate selection",
+        "D) Believing higher LogP always improves every ADME property without limit"
+      ],
+      "answer": "B) Solvent choice, atom economy, and safer reagents matter in scalable synthesis of candidates",
+      "explanation": "Synthetic accessibility affects development cost and sustainability. The best choice is: Solvent choice, atom economy, and safer reagents matter in scalable synthesis of candidates. A close rival is: Process chemistry constraints never influence candidate selection. Distinguisher: Scalable green routes are a practical design constraint.",
+      "choice_explanations": {
+        "A": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of Green chemistry medchem.",
+        "B": "Synthetic accessibility affects development cost and sustainability.",
+        "C": "Scalable green routes are a practical design constraint.",
+        "D": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of Green chemistry medchem."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Structure-activity relationship. Key teaching point: Homologation, bioisosteres, and stereochemistry probe SAR. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms",
+        "B) Claiming Rule of Five are absolute physical laws forbidding all exceptions",
+        "C) SAR means biological activity is unrelated to chemical structure",
+        "D) Systematic chemical modifications reveal which moieties increase or decrease activity"
+      ],
+      "answer": "D) Systematic chemical modifications reveal which moieties increase or decrease activity",
+      "explanation": "Homologation, bioisosteres, and stereochemistry probe SAR. The best choice is: Systematic chemical modifications reveal which moieties increase or decrease activity. A close rival is: SAR means biological activity is unrelated to chemical structure. Distinguisher: SAR explicitly links structure to activity.",
+      "choice_explanations": {
+        "A": "Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms is unrelated to the key pathophysiology of Structure-activity relationship.",
+        "B": "Claiming Rule of Five are absolute physical laws forbidding all exceptions does not match the mechanism of Structure-activity relationship.",
+        "C": "SAR explicitly links structure to activity.",
+        "D": "Homologation, bioisosteres, and stereochemistry probe SAR."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Privileged scaffolds. Key teaching point: Benzodiazepine and biphenyl motifs historically appear across target families. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Claiming Rule of Five are absolute physical laws forbidding all exceptions",
+        "B) Privileged scaffolds can bind only one target ever by definition",
+        "C) Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms",
+        "D) Recurring chemotypes that yield ligands for multiple target classes when decorated differently"
+      ],
+      "answer": "D) Recurring chemotypes that yield ligands for multiple target classes when decorated differently",
+      "explanation": "Benzodiazepine and biphenyl motifs historically appear across target families. The best choice is: Recurring chemotypes that yield ligands for multiple target classes when decorated differently. A close rival is: Privileged scaffolds can bind only one target ever by definition. Distinguisher: Scaffold versatility across targets is the point.",
+      "choice_explanations": {
+        "A": "Claiming Rule of Five are absolute physical laws forbidding all exceptions does not match the mechanism of Privileged scaffolds.",
+        "B": "Scaffold versatility across targets is the point.",
+        "C": "Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms is unrelated to the key pathophysiology of Privileged scaffolds.",
+        "D": "Benzodiazepine and biphenyl motifs historically appear across target families."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Pharmacophore. Key teaching point: Hydrogen-bond donors/acceptors, hydrophobes, and ionizable groups map the pharmacophore. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Spatial arrangement of features necessary for recognition at a biological target",
+        "B) The entire molecular weight of a tablet binder only",
+        "C) Equating pharmacophore with tablet binder molecular weight only",
+        "D) Stating bioisosteres always destroy activity by definition"
+      ],
+      "answer": "A) Spatial arrangement of features necessary for recognition at a biological target",
+      "explanation": "Hydrogen-bond donors/acceptors, hydrophobes, and ionizable groups map the pharmacophore. The best choice is: Spatial arrangement of features necessary for recognition at a biological target. A close rival is: The entire molecular weight of a tablet binder only. Distinguisher: Pharmacophore concerns ligand–target recognition features, not excipient mass.",
+      "choice_explanations": {
+        "A": "Hydrogen-bond donors/acceptors, hydrophobes, and ionizable groups map the pharmacophore.",
+        "B": "Pharmacophore concerns ligand–target recognition features, not excipient mass.",
+        "C": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Pharmacophore.",
+        "D": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Pharmacophore."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Covalent vs noncovalent SAR. Key teaching point: kinact/KI quantifies efficiency of covalent inactivation. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms",
+        "B) Covalent drug optimization ignores warhead kinetics and uses only LogP color",
+        "C) Claiming Rule of Five are absolute physical laws forbidding all exceptions",
+        "D) Covalent potency reflects both recognition affinity and warhead inactivation kinetics (kinact/KI)"
+      ],
+      "answer": "D) Covalent potency reflects both recognition affinity and warhead inactivation kinetics (kinact/KI)",
+      "explanation": "kinact/KI quantifies efficiency of covalent inactivation. The best choice is: Covalent potency reflects both recognition affinity and warhead inactivation kinetics (kinact/KI). A close rival is: Covalent drug optimization ignores warhead kinetics and uses only LogP color. Distinguisher: Warhead kinetics are central SAR parameters.",
+      "choice_explanations": {
+        "A": "Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms is unrelated to the key pathophysiology of Covalent vs noncovalent SAR.",
+        "B": "Warhead kinetics are central SAR parameters.",
+        "C": "Claiming Rule of Five are absolute physical laws forbidding all exceptions does not match the mechanism of Covalent vs noncovalent SAR.",
+        "D": "kinact/KI quantifies efficiency of covalent inactivation."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Thienopyridine prodrugs. Key teaching point: Thiophene oxidation opens to reactive thiol metabolites. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Claiming Rule of Five are absolute physical laws forbidding all exceptions",
+        "B) Thienopyridines are active COX-1 binders without metabolism",
+        "C) Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms",
+        "D) Ticlopidine/clopidogrel/prasugrel scaffolds require metabolic activation to thiol P2Y12 inhibitors"
+      ],
+      "answer": "D) Ticlopidine/clopidogrel/prasugrel scaffolds require metabolic activation to thiol P2Y12 inhibitors",
+      "explanation": "Thiophene oxidation opens to reactive thiol metabolites. The best choice is: Ticlopidine/clopidogrel/prasugrel scaffolds require metabolic activation to thiol P2Y12 inhibitors. A close rival is: Thienopyridines are active COX-1 binders without metabolism. Distinguisher: Bioactivation to thiols is required for P2Y12 covalent inhibition.",
+      "choice_explanations": {
+        "A": "Claiming Rule of Five are absolute physical laws forbidding all exceptions does not match the mechanism of Thienopyridine prodrugs.",
+        "B": "Bioactivation to thiols is required for P2Y12 covalent inhibition.",
+        "C": "Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms is unrelated to the key pathophysiology of Thienopyridine prodrugs.",
+        "D": "Thiophene oxidation opens to reactive thiol metabolites."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Isosteric replacement carboxylate. Key teaching point: Matching acidity geometry and H-bonding is the design challenge. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Carboxylate bioisosteres must be hydrocarbons without heteroatoms",
+        "B) Using sulfonamides/tetrazoles/hydroxamic acids as acid bioisosteres in design",
+        "C) Claiming Rule of Five are absolute physical laws forbidding all exceptions",
+        "D) Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms"
+      ],
+      "answer": "B) Using sulfonamides/tetrazoles/hydroxamic acids as acid bioisosteres in design",
+      "explanation": "Matching acidity geometry and H-bonding is the design challenge. The best choice is: Using sulfonamides/tetrazoles/hydroxamic acids as acid bioisosteres in design. A close rival is: Carboxylate bioisosteres must be hydrocarbons without heteroatoms. Distinguisher: Heteroatom-rich acidic mimics are classic bioisosteres.",
+      "choice_explanations": {
+        "A": "Heteroatom-rich acidic mimics are classic bioisosteres.",
+        "B": "Matching acidity geometry and H-bonding is the design challenge.",
+        "C": "Claiming Rule of Five are absolute physical laws forbidding all exceptions does not match the mechanism of Isosteric replacement carboxylate.",
+        "D": "Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms is unrelated to the key pathophysiology of Isosteric replacement carboxylate."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on pKa design. Key teaching point: Medicinal chemists tune amines/acids to hit target pKa windows. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Believing higher LogP always improves every ADME property without limit",
+        "B) pKa is irrelevant to ionization-dependent absorption",
+        "C) Adjusting pKa alters ionization, solubility, binding, and membrane permeability",
+        "D) Asserting fluorine always accelerates metabolism at the substituted carbon"
+      ],
+      "answer": "C) Adjusting pKa alters ionization, solubility, binding, and membrane permeability",
+      "explanation": "Medicinal chemists tune amines/acids to hit target pKa windows. The best choice is: Adjusting pKa alters ionization, solubility, binding, and membrane permeability. A close rival is: pKa is irrelevant to ionization-dependent absorption. Distinguisher: pKa engineering is central to ADME and target engagement.",
+      "choice_explanations": {
+        "A": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of pKa design.",
+        "B": "pKa engineering is central to ADME and target engagement.",
+        "C": "Medicinal chemists tune amines/acids to hit target pKa windows.",
+        "D": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of pKa design."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on SSRI pharmacophore themes. Key teaching point: Scaffold diversity still converges on SERT binding motifs. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms",
+        "B) Claiming Rule of Five are absolute physical laws forbidding all exceptions",
+        "C) SSRIs are inorganic lithium salts without aromatic rings",
+        "D) Basic amine and aromatic hydrophobic regions common among SERT inhibitors with distinct scaffolds"
+      ],
+      "answer": "D) Basic amine and aromatic hydrophobic regions common among SERT inhibitors with distinct scaffolds",
+      "explanation": "Scaffold diversity still converges on SERT binding motifs. The best choice is: Basic amine and aromatic hydrophobic regions common among SERT inhibitors with distinct scaffolds. A close rival is: SSRIs are inorganic lithium salts without aromatic rings. Distinguisher: Organic SERT inhibitor motifs are not lithium salts.",
+      "choice_explanations": {
+        "A": "Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms is unrelated to the key pathophysiology of SSRI pharmacophore themes.",
+        "B": "Claiming Rule of Five are absolute physical laws forbidding all exceptions does not match the mechanism of SSRI pharmacophore themes.",
+        "C": "Organic SERT inhibitor motifs are not lithium salts.",
+        "D": "Scaffold diversity still converges on SERT binding motifs."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Allosteric modulator chemistry. Key teaching point: PAMs/NAMs offer subtype selectivity opportunities. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Bind sites distinct from orthosteric pocket tuning affinity/efficacy of endogenous ligands",
+        "B) Asserting fluorine always accelerates metabolism at the substituted carbon",
+        "C) Believing higher LogP always improves every ADME property without limit",
+        "D) Must chemically identical to the endogenous orthosteric ligand always"
+      ],
+      "answer": "A) Bind sites distinct from orthosteric pocket tuning affinity/efficacy of endogenous ligands",
+      "explanation": "PAMs/NAMs offer subtype selectivity opportunities. The best choice is: Bind sites distinct from orthosteric pocket tuning affinity/efficacy of endogenous ligands. A close rival is: Must chemically identical to the endogenous orthosteric ligand always. Distinguisher: Allosteric ligands are structurally distinct binders at other sites.",
+      "choice_explanations": {
+        "A": "PAMs/NAMs offer subtype selectivity opportunities.",
+        "B": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of Allosteric modulator chemistry.",
+        "C": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of Allosteric modulator chemistry.",
+        "D": "Allosteric ligands are structurally distinct binders at other sites."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Biguanide chemistry. Key teaching point: Guanidine-like basicity influences solubility and transporter interactions. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Metformin’s biguanide structure yields high basicity and distinctive transporters (OCT) PK",
+        "B) Stating bioisosteres always destroy activity by definition",
+        "C) Equating pharmacophore with tablet binder molecular weight only",
+        "D) Metformin is a neutral steroid without ionizable groups"
+      ],
+      "answer": "A) Metformin’s biguanide structure yields high basicity and distinctive transporters (OCT) PK",
+      "explanation": "Guanidine-like basicity influences solubility and transporter interactions. The best choice is: Metformin’s biguanide structure yields high basicity and distinctive transporters (OCT) PK. A close rival is: Metformin is a neutral steroid without ionizable groups. Distinguisher: It is a highly polar basic small molecule, not a steroid.",
+      "choice_explanations": {
+        "A": "Guanidine-like basicity influences solubility and transporter interactions.",
+        "B": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Biguanide chemistry.",
+        "C": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Biguanide chemistry.",
+        "D": "It is a highly polar basic small molecule, not a steroid."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Metal chelation drugs. Key teaching point: Pharmacophore geometry orients chelating oxygens toward catalytic metals. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Chelation never contributes to fluoroquinolone gyrase binding",
+        "B) Believing higher LogP always improves every ADME property without limit",
+        "C) Asserting fluorine always accelerates metabolism at the substituted carbon",
+        "D) Hydroxypyridinones/chelators bind excess metals; also some antibiotic pharmacophores chelate Mg2+"
+      ],
+      "answer": "D) Hydroxypyridinones/chelators bind excess metals; also some antibiotic pharmacophores chelate Mg2+",
+      "explanation": "Pharmacophore geometry orients chelating oxygens toward catalytic metals. The best choice is: Hydroxypyridinones/chelators bind excess metals; also some antibiotic pharmacophores chelate Mg2+. A close rival is: Chelation never contributes to fluoroquinolone gyrase binding. Distinguisher: Mg2+ chelation is part of quinolone action models.",
+      "choice_explanations": {
+        "A": "Mg2+ chelation is part of quinolone action models.",
+        "B": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of Metal chelation drugs.",
+        "C": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of Metal chelation drugs.",
+        "D": "Pharmacophore geometry orients chelating oxygens toward catalytic metals."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Chelation mucositis note. Key teaching point:  vicinal oxygen/ketone motifs chelate Ca/Fe/Al/Mg. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Claiming covalent drugs never engage nucleophilic amino acids",
+        "B) Oral polyvalent cations bind tetracyclines/FQs — chemistry of metal–drug complexes",
+        "C) Believing enantiomers always share identical PD and toxicity",
+        "D) Tetracyclines cannot coordinate metal ions chemically"
+      ],
+      "answer": "B) Oral polyvalent cations bind tetracyclines/FQs — chemistry of metal–drug complexes",
+      "explanation": " vicinal oxygen/ketone motifs chelate Ca/Fe/Al/Mg. The best choice is: Oral polyvalent cations bind tetracyclines/FQs — chemistry of metal–drug complexes. A close rival is: Tetracyclines cannot coordinate metal ions chemically. Distinguisher: Chelation chemistry underpins the absorption interaction.",
+      "choice_explanations": {
+        "A": "Claiming covalent drugs never engage nucleophilic amino acids is unrelated to the key pathophysiology of Chelation mucositis note.",
+        "B": " vicinal oxygen/ketone motifs chelate Ca/Fe/Al/Mg.",
+        "C": "Believing enantiomers always share identical PD and toxicity does not match the mechanism of Chelation mucositis note.",
+        "D": "Chelation chemistry underpins the absorption interaction."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Beta-blocker aryloxypropanolamine. Key teaching point: Stereochemistry at the hydroxy carbon influences potency. Which option best fits this pathophysiology?",
+      "options": [
+        "A) β-blockers are exclusively peptides without aromatic ether side chains",
+        "B) Stating bioisosteres always destroy activity by definition",
+        "C) Equating pharmacophore with tablet binder molecular weight only",
+        "D) Classic β-blocker pharmacophore: aromatic–OCH2–CHOH–CH2–NHR motif"
+      ],
+      "answer": "D) Classic β-blocker pharmacophore: aromatic–OCH2–CHOH–CH2–NHR motif",
+      "explanation": "Stereochemistry at the hydroxy carbon influences potency. The best choice is: Classic β-blocker pharmacophore: aromatic–OCH2–CHOH–CH2–NHR motif. A close rival is: β-blockers are exclusively peptides without aromatic ether side chains. Distinguisher: Aryloxypropanolamine is the classic small-molecule β-blocker scaffold.",
+      "choice_explanations": {
+        "A": "Aryloxypropanolamine is the classic small-molecule β-blocker scaffold.",
+        "B": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Beta-blocker aryloxypropanolamine.",
+        "C": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Beta-blocker aryloxypropanolamine.",
+        "D": "Stereochemistry at the hydroxy carbon influences potency."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Covalent BTK inhibitors. Key teaching point: Targeted covalent design achieves high occupancy at ATP site plus warhead. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Claiming covalent drugs never engage nucleophilic amino acids",
+        "B) Acrylamide warheads target Cys481 in BTK for prolonged occupancy in B-cell signaling",
+        "C) Believing enantiomers always share identical PD and toxicity",
+        "D) BTK inhibitors cannot bind cysteine residues covalently"
+      ],
+      "answer": "B) Acrylamide warheads target Cys481 in BTK for prolonged occupancy in B-cell signaling",
+      "explanation": "Targeted covalent design achieves high occupancy at ATP site plus warhead. The best choice is: Acrylamide warheads target Cys481 in BTK for prolonged occupancy in B-cell signaling. A close rival is: BTK inhibitors cannot bind cysteine residues covalently. Distinguisher: Cys engagement is intentional in first-generation BTK covalent drugs.",
+      "choice_explanations": {
+        "A": "Claiming covalent drugs never engage nucleophilic amino acids is unrelated to the key pathophysiology of Covalent BTK inhibitors.",
+        "B": "Targeted covalent design achieves high occupancy at ATP site plus warhead.",
+        "C": "Believing enantiomers always share identical PD and toxicity does not match the mechanism of Covalent BTK inhibitors.",
+        "D": "Cys engagement is intentional in first-generation BTK covalent drugs."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Neuraminidase inhibitors. Key teaching point: Oseltamivir carboxylate mimics oxonium-like TS geometry. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Equating pharmacophore with tablet binder molecular weight only",
+        "B) Stating bioisosteres always destroy activity by definition",
+        "C) Sialic acid transition-state mimics block influenza neuraminidase active site",
+        "D) Neuraminidase inhibitors block bacterial folate synthesis"
+      ],
+      "answer": "C) Sialic acid transition-state mimics block influenza neuraminidase active site",
+      "explanation": "Oseltamivir carboxylate mimics oxonium-like TS geometry. The best choice is: Sialic acid transition-state mimics block influenza neuraminidase active site. A close rival is: Neuraminidase inhibitors block bacterial folate synthesis. Distinguisher: They target viral neuraminidase, not bacterial folate path.",
+      "choice_explanations": {
+        "A": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Neuraminidase inhibitors.",
+        "B": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Neuraminidase inhibitors.",
+        "C": "Oseltamivir carboxylate mimics oxonium-like TS geometry.",
+        "D": "They target viral neuraminidase, not bacterial folate path."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Ester prodrug enalapril. Key teaching point: Lipophilicity increase aids absorption before activation. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms",
+        "B) Ethyl ester of enalaprilat improves oral absorption; hydrolysis yields active ACE inhibitor",
+        "C) Enalapril ester prevents any formation of enalaprilat",
+        "D) Claiming Rule of Five are absolute physical laws forbidding all exceptions"
+      ],
+      "answer": "B) Ethyl ester of enalaprilat improves oral absorption; hydrolysis yields active ACE inhibitor",
+      "explanation": "Lipophilicity increase aids absorption before activation. The best choice is: Ethyl ester of enalaprilat improves oral absorption; hydrolysis yields active ACE inhibitor. A close rival is: Enalapril ester prevents any formation of enalaprilat. Distinguisher: Activation to enalaprilat is intended.",
+      "choice_explanations": {
+        "A": "Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms is unrelated to the key pathophysiology of Ester prodrug enalapril.",
+        "B": "Lipophilicity increase aids absorption before activation.",
+        "C": "Activation to enalaprilat is intended.",
+        "D": "Claiming Rule of Five are absolute physical laws forbidding all exceptions does not match the mechanism of Ester prodrug enalapril."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Prodrug promoiety selection. Key teaching point: Formaldehyde-releasing and other risky promoieties need careful justification. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Stating bioisosteres always destroy activity by definition",
+        "B) Promoieties should release nontoxic fragments (e.g., formaldehyde risk awareness historically)",
+        "C) Any promoiety is acceptable even if it releases highly toxic fragments without thought",
+        "D) Equating pharmacophore with tablet binder molecular weight only"
+      ],
+      "answer": "B) Promoieties should release nontoxic fragments (e.g., formaldehyde risk awareness historically)",
+      "explanation": "Formaldehyde-releasing and other risky promoieties need careful justification. The best choice is: Promoieties should release nontoxic fragments (e.g., formaldehyde risk awareness historically). A close rival is: Any promoiety is acceptable even if it releases highly toxic fragments without thought. Distinguisher: Promoiety safety is part of prodrug design.",
+      "choice_explanations": {
+        "A": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Prodrug promoiety selection.",
+        "B": "Formaldehyde-releasing and other risky promoieties need careful justification.",
+        "C": "Promoiety safety is part of prodrug design.",
+        "D": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Prodrug promoiety selection."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Trimethoprim selectivity. Key teaching point: Isoform selectivity enables antibacterial therapy with manageable host toxicity. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Asserting fluorine always accelerates metabolism at the substituted carbon",
+        "B) Human and bacterial DHFR affinities are always identical for trimethoprim",
+        "C) Believing higher LogP always improves every ADME property without limit",
+        "D) Selective DHFR inhibition in bacteria versus human isoform underpins antibacterial use"
+      ],
+      "answer": "D) Selective DHFR inhibition in bacteria versus human isoform underpins antibacterial use",
+      "explanation": "Isoform selectivity enables antibacterial therapy with manageable host toxicity. The best choice is: Selective DHFR inhibition in bacteria versus human isoform underpins antibacterial use. A close rival is: Human and bacterial DHFR affinities are always identical for trimethoprim. Distinguisher: Selectivity between isoforms is key.",
+      "choice_explanations": {
+        "A": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of Trimethoprim selectivity.",
+        "B": "Selectivity between isoforms is key.",
+        "C": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of Trimethoprim selectivity.",
+        "D": "Isoform selectivity enables antibacterial therapy with manageable host toxicity."
+      }
+    }
+  ],
+  "extreme": [
+    {
+      "question": "In a high-stakes scenario involving Hydrogen bond donors (item 1), findings align with this mechanism: Desolvation penalties rise with excessive H-bonding to water. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Unlimited HBDs always improve oral absorption",
+        "B) Asserting fluorine always accelerates metabolism at the substituted carbon",
+        "C) Believing higher LogP always improves every ADME property without limit",
+        "D) Too many HBDs can impede membrane permeability (Rule of Five includes HBD≤5)"
+      ],
+      "answer": "D) Too many HBDs can impede membrane permeability (Rule of Five includes HBD≤5)",
+      "explanation": "Desolvation penalties rise with excessive H-bonding to water. The best choice is: Too many HBDs can impede membrane permeability (Rule of Five includes HBD≤5). A close rival is: Unlimited HBDs always improve oral absorption. Distinguisher: Excess HBDs often hurt permeability.",
+      "choice_explanations": {
+        "A": "Excess HBDs often hurt permeability.",
+        "B": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of Hydrogen bond donors.",
+        "C": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of Hydrogen bond donors.",
+        "D": "Desolvation penalties rise with excessive H-bonding to water."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Michael acceptors (item 2), findings align with this mechanism: Targeted covalent drugs exploit controlled acceptor reactivity. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Believing enantiomers always share identical PD and toxicity",
+        "B) α,β-unsaturated carbonyls can covalently modify nucleophiles — risk or warhead depending on design",
+        "C) Claiming covalent drugs never engage nucleophilic amino acids",
+        "D) Michael acceptors never react with cysteine thiols"
+      ],
+      "answer": "B) α,β-unsaturated carbonyls can covalently modify nucleophiles — risk or warhead depending on design",
+      "explanation": "Targeted covalent drugs exploit controlled acceptor reactivity. The best choice is: α,β-unsaturated carbonyls can covalently modify nucleophiles — risk or warhead depending on design. A close rival is: Michael acceptors never react with cysteine thiols. Distinguisher: They are electrophilic toward soft nucleophiles.",
+      "choice_explanations": {
+        "A": "Believing enantiomers always share identical PD and toxicity does not match the mechanism of Michael acceptors.",
+        "B": "Targeted covalent drugs exploit controlled acceptor reactivity.",
+        "C": "Claiming covalent drugs never engage nucleophilic amino acids is unrelated to the key pathophysiology of Michael acceptors.",
+        "D": "They are electrophilic toward soft nucleophiles."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Statin HMG mimic (item 3), findings align with this mechanism: Lactone prodrugs (lovastatin) hydrolyze to active hydroxy acids. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Mevalonate-like dihydroxyheptanoic acid pharmacophore occupies HMG-CoA reductase active site",
+        "B) Equating pharmacophore with tablet binder molecular weight only",
+        "C) Stating bioisosteres always destroy activity by definition",
+        "D) Statins inhibit ACE via zinc chelation as primary design"
+      ],
+      "answer": "A) Mevalonate-like dihydroxyheptanoic acid pharmacophore occupies HMG-CoA reductase active site",
+      "explanation": "Lactone prodrugs (lovastatin) hydrolyze to active hydroxy acids. The best choice is: Mevalonate-like dihydroxyheptanoic acid pharmacophore occupies HMG-CoA reductase active site. A close rival is: Statins inhibit ACE via zinc chelation as primary design. Distinguisher: HMGCR substrate mimicry, not ACE inhibition, defines statins.",
+      "choice_explanations": {
+        "A": "Lactone prodrugs (lovastatin) hydrolyze to active hydroxy acids.",
+        "B": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Statin HMG mimic.",
+        "C": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Statin HMG mimic.",
+        "D": "HMGCR substrate mimicry, not ACE inhibition, defines statins."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving 5-FU mechanism chemistry (item 4), findings align with this mechanism: Fluorine substitution on uracil hijacks pyrimidine metabolism. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Claiming Rule of Five are absolute physical laws forbidding all exceptions",
+        "B) Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms",
+        "C) 5-FU inhibits HMG-CoA reductase as primary anticancer chemistry",
+        "D) 5-Fluorouracil metabolites inhibit thymidylate synthase via FdUMP ternary complex themes"
+      ],
+      "answer": "D) 5-Fluorouracil metabolites inhibit thymidylate synthase via FdUMP ternary complex themes",
+      "explanation": "Fluorine substitution on uracil hijacks pyrimidine metabolism. The best choice is: 5-Fluorouracil metabolites inhibit thymidylate synthase via FdUMP ternary complex themes. A close rival is: 5-FU inhibits HMG-CoA reductase as primary anticancer chemistry. Distinguisher: TS inhibition, not HMGCR, is the 5-FU story.",
+      "choice_explanations": {
+        "A": "Claiming Rule of Five are absolute physical laws forbidding all exceptions does not match the mechanism of 5-FU mechanism chemistry.",
+        "B": "Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms is unrelated to the key pathophysiology of 5-FU mechanism chemistry.",
+        "C": "TS inhibition, not HMGCR, is the 5-FU story.",
+        "D": "Fluorine substitution on uracil hijacks pyrimidine metabolism."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Dabigatran prodrug (item 5), findings align with this mechanism: Polar amidine hurts permeability unless masked. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Dabigatran etexilate is the final active thrombin inhibitor needing no activation",
+        "B) Double prodrug strategy masks benzamidine to enable oral absorption then activation",
+        "C) Asserting fluorine always accelerates metabolism at the substituted carbon",
+        "D) Believing higher LogP always improves every ADME property without limit"
+      ],
+      "answer": "B) Double prodrug strategy masks benzamidine to enable oral absorption then activation",
+      "explanation": "Polar amidine hurts permeability unless masked. The best choice is: Double prodrug strategy masks benzamidine to enable oral absorption then activation. A close rival is: Dabigatran etexilate is the final active thrombin inhibitor needing no activation. Distinguisher: Etexilate is a prodrug of active dabigatran.",
+      "choice_explanations": {
+        "A": "Etexilate is a prodrug of active dabigatran.",
+        "B": "Polar amidine hurts permeability unless masked.",
+        "C": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of Dabigatran prodrug.",
+        "D": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of Dabigatran prodrug."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Covalent reversible warheads (item 6), findings align with this mechanism: Reversibility can reduce off-target permanent modification risk. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Cyanoacrylamides and related groups form reversible covalent bonds improving selectivity windows",
+        "B) All covalent drugs are irreversible forever without exception",
+        "C) Claiming covalent drugs never engage nucleophilic amino acids",
+        "D) Believing enantiomers always share identical PD and toxicity"
+      ],
+      "answer": "A) Cyanoacrylamides and related groups form reversible covalent bonds improving selectivity windows",
+      "explanation": "Reversibility can reduce off-target permanent modification risk. The best choice is: Cyanoacrylamides and related groups form reversible covalent bonds improving selectivity windows. A close rival is: All covalent drugs are irreversible forever without exception. Distinguisher: Reversible covalent strategies exist.",
+      "choice_explanations": {
+        "A": "Reversibility can reduce off-target permanent modification risk.",
+        "B": "Reversible covalent strategies exist.",
+        "C": "Claiming covalent drugs never engage nucleophilic amino acids is unrelated to the key pathophysiology of Covalent reversible warheads.",
+        "D": "Believing enantiomers always share identical PD and toxicity does not match the mechanism of Covalent reversible warheads."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving DPP-4 inhibitor warheads (item 7), findings align with this mechanism: Peptidomimetic recognition of DPP-4 active site drives selectivity. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) DPP-4 inhibitors covalently alkylate DNA as primary action",
+        "B) Nitrile or other electrophiles engage catalytic serine of DPP-4 in some inhibitors",
+        "C) Believing enantiomers always share identical PD and toxicity",
+        "D) Claiming covalent drugs never engage nucleophilic amino acids"
+      ],
+      "answer": "B) Nitrile or other electrophiles engage catalytic serine of DPP-4 in some inhibitors",
+      "explanation": "Peptidomimetic recognition of DPP-4 active site drives selectivity. The best choice is: Nitrile or other electrophiles engage catalytic serine of DPP-4 in some inhibitors. A close rival is: DPP-4 inhibitors covalently alkylate DNA as primary action. Distinguisher: Target is a protease, not DNA alkylation.",
+      "choice_explanations": {
+        "A": "Target is a protease, not DNA alkylation.",
+        "B": "Peptidomimetic recognition of DPP-4 active site drives selectivity.",
+        "C": "Believing enantiomers always share identical PD and toxicity does not match the mechanism of DPP-4 inhibitor warheads.",
+        "D": "Claiming covalent drugs never engage nucleophilic amino acids is unrelated to the key pathophysiology of DPP-4 inhibitor warheads."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Molecular glue degraders (item 8), findings align with this mechanism: IMiD–CRBN neo-substrate recruitment exemplifies glue pharmacology. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Equating pharmacophore with tablet binder molecular weight only",
+        "B) Stating bioisosteres always destroy activity by definition",
+        "C) Molecular glues always inhibit E3 ligases without affecting target levels",
+        "D) Small molecules stabilize novel E3–target protein–protein interactions promoting degradation"
+      ],
+      "answer": "D) Small molecules stabilize novel E3–target protein–protein interactions promoting degradation",
+      "explanation": "IMiD–CRBN neo-substrate recruitment exemplifies glue pharmacology. The best choice is: Small molecules stabilize novel E3–target protein–protein interactions promoting degradation. A close rival is: Molecular glues always inhibit E3 ligases without affecting target levels. Distinguisher: They create neo-PPIs leading to degradation, not simple E3 inhibition only.",
+      "choice_explanations": {
+        "A": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Molecular glue degraders.",
+        "B": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Molecular glue degraders.",
+        "C": "They create neo-PPIs leading to degradation, not simple E3 inhibition only.",
+        "D": "IMiD–CRBN neo-substrate recruitment exemplifies glue pharmacology."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Suicide substrate design (item 9), findings align with this mechanism: Latent reactive species form in the active site. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Suicide substrates inhibit without any catalytic processing by the enzyme",
+        "B) Asserting fluorine always accelerates metabolism at the substituted carbon",
+        "C) Believing higher LogP always improves every ADME property without limit",
+        "D) Mechanism-based inactivators require catalytic activation then covalently inhibit the enzyme"
+      ],
+      "answer": "D) Mechanism-based inactivators require catalytic activation then covalently inhibit the enzyme",
+      "explanation": "Latent reactive species form in the active site. The best choice is: Mechanism-based inactivators require catalytic activation then covalently inhibit the enzyme. A close rival is: Suicide substrates inhibit without any catalytic processing by the enzyme. Distinguisher: Catalytic activation is required for true suicide inhibition.",
+      "choice_explanations": {
+        "A": "Catalytic activation is required for true suicide inhibition.",
+        "B": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of Suicide substrate design.",
+        "C": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of Suicide substrate design.",
+        "D": "Latent reactive species form in the active site."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Lipinski Rule of Five (item 10), findings align with this mechanism: Guidelines flag absorption risk for many passively absorbed oral drugs. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Oral drug-likeness heuristics: MW≤500, LogP≤5, HBD≤5, HBA≤10 (guidelines, not absolute laws)",
+        "B) Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms",
+        "C) Mandatory physical laws forbidding any oral drug outside the counts",
+        "D) Claiming Rule of Five are absolute physical laws forbidding all exceptions"
+      ],
+      "answer": "A) Oral drug-likeness heuristics: MW≤500, LogP≤5, HBD≤5, HBA≤10 (guidelines, not absolute laws)",
+      "explanation": "Guidelines flag absorption risk for many passively absorbed oral drugs. The best choice is: Oral drug-likeness heuristics: MW≤500, LogP≤5, HBD≤5, HBA≤10 (guidelines, not absolute laws). A close rival is: Mandatory physical laws forbidding any oral drug outside the counts. Distinguisher: Many successful drugs violate Ro5; they are heuristics.",
+      "choice_explanations": {
+        "A": "Guidelines flag absorption risk for many passively absorbed oral drugs.",
+        "B": "Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms is unrelated to the key pathophysiology of Lipinski Rule of Five.",
+        "C": "Many successful drugs violate Ro5; they are heuristics.",
+        "D": "Claiming Rule of Five are absolute physical laws forbidding all exceptions does not match the mechanism of Lipinski Rule of Five."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Macrocycles (item 11), findings align with this mechanism: Natural product-inspired macrocycles address PPI targets sometimes. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Equating pharmacophore with tablet binder molecular weight only",
+        "B) Macrocycles always violate drug-likeness without any clinical success possible",
+        "C) Stating bioisosteres always destroy activity by definition",
+        "D) Large rings can improve protein surface binding and sometimes permeability via conformational shielding"
+      ],
+      "answer": "D) Large rings can improve protein surface binding and sometimes permeability via conformational shielding",
+      "explanation": "Natural product-inspired macrocycles address PPI targets sometimes. The best choice is: Large rings can improve protein surface binding and sometimes permeability via conformational shielding. A close rival is: Macrocycles always violate drug-likeness without any clinical success possible. Distinguisher: Approved macrocyclic drugs exist despite Ro5 tension.",
+      "choice_explanations": {
+        "A": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Macrocycles.",
+        "B": "Approved macrocyclic drugs exist despite Ro5 tension.",
+        "C": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Macrocycles.",
+        "D": "Natural product-inspired macrocycles address PPI targets sometimes."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Ligand efficiency (item 12), findings align with this mechanism: LE helps avoid overly large lipophilic optimizations. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Stating bioisosteres always destroy activity by definition",
+        "B) Potency normalized by heavy atom count guides economical binding interactions",
+        "C) Equating pharmacophore with tablet binder molecular weight only",
+        "D) Ligand efficiency ignores atom count and uses only color"
+      ],
+      "answer": "B) Potency normalized by heavy atom count guides economical binding interactions",
+      "explanation": "LE helps avoid overly large lipophilic optimizations. The best choice is: Potency normalized by heavy atom count guides economical binding interactions. A close rival is: Ligand efficiency ignores atom count and uses only color. Distinguisher: Atom count normalization is the point.",
+      "choice_explanations": {
+        "A": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Ligand efficiency.",
+        "B": "LE helps avoid overly large lipophilic optimizations.",
+        "C": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Ligand efficiency.",
+        "D": "Atom count normalization is the point."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Local anesthetic motif (item 13), findings align with this mechanism: Ester versus amide linkers alter metabolism routes. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Local anesthetics are inorganic salts without amphiphilic motifs",
+        "B) Believing enantiomers always share identical PD and toxicity",
+        "C) Claiming covalent drugs never engage nucleophilic amino acids",
+        "D) Lipophilic aromatic–linker–hydrophilic amine explains use-dependent Na channel block chemistry"
+      ],
+      "answer": "D) Lipophilic aromatic–linker–hydrophilic amine explains use-dependent Na channel block chemistry",
+      "explanation": "Ester versus amide linkers alter metabolism routes. The best choice is: Lipophilic aromatic–linker–hydrophilic amine explains use-dependent Na channel block chemistry. A close rival is: Local anesthetics are inorganic salts without amphiphilic motifs. Distinguisher: Amphiphilic three-part motif is classic LA design.",
+      "choice_explanations": {
+        "A": "Amphiphilic three-part motif is classic LA design.",
+        "B": "Believing enantiomers always share identical PD and toxicity does not match the mechanism of Local anesthetic motif.",
+        "C": "Claiming covalent drugs never engage nucleophilic amino acids is unrelated to the key pathophysiology of Local anesthetic motif.",
+        "D": "Ester versus amide linkers alter metabolism routes."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Phenolic phase II (item 14), findings align with this mechanism: Masking phenols as prodrugs can improve exposure. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Phenols are primed for glucuronidation/sulfation affecting oral bioavailability",
+        "B) Equating pharmacophore with tablet binder molecular weight only",
+        "C) Phenols cannot be conjugated by UGTs or SULTs",
+        "D) Stating bioisosteres always destroy activity by definition"
+      ],
+      "answer": "A) Phenols are primed for glucuronidation/sulfation affecting oral bioavailability",
+      "explanation": "Masking phenols as prodrugs can improve exposure. The best choice is: Phenols are primed for glucuronidation/sulfation affecting oral bioavailability. A close rival is: Phenols cannot be conjugated by UGTs or SULTs. Distinguisher: Phase II conjugation of phenols is common.",
+      "choice_explanations": {
+        "A": "Masking phenols as prodrugs can improve exposure.",
+        "B": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Phenolic phase II.",
+        "C": "Phase II conjugation of phenols is common.",
+        "D": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Phenolic phase II."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Integrase strand transfer (item 15), findings align with this mechanism: Chelating pharmacophores bind the two-metal active site. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Diketo acid-like metal chelators block viral integrase catalytic Mg ions",
+        "B) Believing higher LogP always improves every ADME property without limit",
+        "C) Integrase inhibitors alkylate bacterial PBPs as primary action",
+        "D) Asserting fluorine always accelerates metabolism at the substituted carbon"
+      ],
+      "answer": "A) Diketo acid-like metal chelators block viral integrase catalytic Mg ions",
+      "explanation": "Chelating pharmacophores bind the two-metal active site. The best choice is: Diketo acid-like metal chelators block viral integrase catalytic Mg ions. A close rival is: Integrase inhibitors alkylate bacterial PBPs as primary action. Distinguisher: Metal chelation at integrase, not PBP acylation, is the mechanism.",
+      "choice_explanations": {
+        "A": "Chelating pharmacophores bind the two-metal active site.",
+        "B": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of Integrase strand transfer.",
+        "C": "Metal chelation at integrase, not PBP acylation, is the mechanism.",
+        "D": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of Integrase strand transfer."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Metabolite identification chemistry (item 16), findings align with this mechanism: Knowing sites of metabolism directs fluorine/blocking strategies. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Believing enantiomers always share identical PD and toxicity",
+        "B) Claiming covalent drugs never engage nucleophilic amino acids",
+        "C) Metabolite ID never influences medicinal chemistry optimization",
+        "D) LC-MS elucidates oxidative, conjugative, and cleavage metabolites guiding soft-spot blocking"
+      ],
+      "answer": "D) LC-MS elucidates oxidative, conjugative, and cleavage metabolites guiding soft-spot blocking",
+      "explanation": "Knowing sites of metabolism directs fluorine/blocking strategies. The best choice is: LC-MS elucidates oxidative, conjugative, and cleavage metabolites guiding soft-spot blocking. A close rival is: Metabolite ID never influences medicinal chemistry optimization. Distinguisher: MetID is integral to design cycles.",
+      "choice_explanations": {
+        "A": "Believing enantiomers always share identical PD and toxicity does not match the mechanism of Metabolite identification chemistry.",
+        "B": "Claiming covalent drugs never engage nucleophilic amino acids is unrelated to the key pathophysiology of Metabolite identification chemistry.",
+        "C": "MetID is integral to design cycles.",
+        "D": "Knowing sites of metabolism directs fluorine/blocking strategies."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Direct oral Xa inhibitors (item 17), findings align with this mechanism: Structure-based design yielded rivaroxaban/apixaban-type scaffolds. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Claiming covalent drugs never engage nucleophilic amino acids",
+        "B) Amidine/arylamide motifs bind factor Xa S1/S4 pockets enabling oral anticoagulation without VKOR chemistry",
+        "C) DOAC Xa inhibitors act by depleting vitamin K–dependent carboxylation like warfarin",
+        "D) Believing enantiomers always share identical PD and toxicity"
+      ],
+      "answer": "B) Amidine/arylamide motifs bind factor Xa S1/S4 pockets enabling oral anticoagulation without VKOR chemistry",
+      "explanation": "Structure-based design yielded rivaroxaban/apixaban-type scaffolds. The best choice is: Amidine/arylamide motifs bind factor Xa S1/S4 pockets enabling oral anticoagulation without VKOR chemistry. A close rival is: DOAC Xa inhibitors act by depleting vitamin K–dependent carboxylation like warfarin. Distinguisher: They are direct active-site inhibitors, not VKOR blockers.",
+      "choice_explanations": {
+        "A": "Claiming covalent drugs never engage nucleophilic amino acids is unrelated to the key pathophysiology of Direct oral Xa inhibitors.",
+        "B": "Structure-based design yielded rivaroxaban/apixaban-type scaffolds.",
+        "C": "They are direct active-site inhibitors, not VKOR blockers.",
+        "D": "Believing enantiomers always share identical PD and toxicity does not match the mechanism of Direct oral Xa inhibitors."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Permeability enabling (item 18), findings align with this mechanism: Neutral forms cross membranes more readily in passive models. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Adding many charged groups always improves passive membrane permeability",
+        "B) Reducing polarity/H-bonding or using prodrugs can improve passive permeability",
+        "C) Believing enantiomers always share identical PD and toxicity",
+        "D) Claiming covalent drugs never engage nucleophilic amino acids"
+      ],
+      "answer": "B) Reducing polarity/H-bonding or using prodrugs can improve passive permeability",
+      "explanation": "Neutral forms cross membranes more readily in passive models. The best choice is: Reducing polarity/H-bonding or using prodrugs can improve passive permeability. A close rival is: Adding many charged groups always improves passive membrane permeability. Distinguisher: Charge generally impedes passive permeability.",
+      "choice_explanations": {
+        "A": "Charge generally impedes passive permeability.",
+        "B": "Neutral forms cross membranes more readily in passive models.",
+        "C": "Believing enantiomers always share identical PD and toxicity does not match the mechanism of Permeability enabling.",
+        "D": "Claiming covalent drugs never engage nucleophilic amino acids is unrelated to the key pathophysiology of Permeability enabling."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Type I versus Type II kinase (item 19), findings align with this mechanism: DFG conformation distinguishes binding modes and selectivity profiles. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Claiming Rule of Five are absolute physical laws forbidding all exceptions",
+        "B) Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms",
+        "C) Type I bind DFG-in ATP site; Type II engage DFG-out allosteric pocket extensions",
+        "D) Type II binders exclusively occupy DNA minor groove"
+      ],
+      "answer": "C) Type I bind DFG-in ATP site; Type II engage DFG-out allosteric pocket extensions",
+      "explanation": "DFG conformation distinguishes binding modes and selectivity profiles. The best choice is: Type I bind DFG-in ATP site; Type II engage DFG-out allosteric pocket extensions. A close rival is: Type II binders exclusively occupy DNA minor groove. Distinguisher: DFG-out pocket engagement defines many Type II inhibitors.",
+      "choice_explanations": {
+        "A": "Claiming Rule of Five are absolute physical laws forbidding all exceptions does not match the mechanism of Type I versus Type II kinase.",
+        "B": "Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms is unrelated to the key pathophysiology of Type I versus Type II kinase.",
+        "C": "DFG conformation distinguishes binding modes and selectivity profiles.",
+        "D": "DFG-out pocket engagement defines many Type II inhibitors."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Anthracycline planar chromophore (item 20), findings align with this mechanism: Intercalation plus redox cycling contribute to effects/toxicity. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Equating pharmacophore with tablet binder molecular weight only",
+        "B) Anthracyclines are aliphatic peptides without aromatic intercalation capability",
+        "C) Planar tetracyclic chromophore intercalates DNA; sugar and side chains modulate topo II interaction",
+        "D) Stating bioisosteres always destroy activity by definition"
+      ],
+      "answer": "C) Planar tetracyclic chromophore intercalates DNA; sugar and side chains modulate topo II interaction",
+      "explanation": "Intercalation plus redox cycling contribute to effects/toxicity. The best choice is: Planar tetracyclic chromophore intercalates DNA; sugar and side chains modulate topo II interaction. A close rival is: Anthracyclines are aliphatic peptides without aromatic intercalation capability. Distinguisher: Planar aromatic system enables intercalation.",
+      "choice_explanations": {
+        "A": "Equating pharmacophore with tablet binder molecular weight only is unrelated to the key pathophysiology of Anthracycline planar chromophore.",
+        "B": "Planar aromatic system enables intercalation.",
+        "C": "Intercalation plus redox cycling contribute to effects/toxicity.",
+        "D": "Stating bioisosteres always destroy activity by definition does not match the mechanism of Anthracycline planar chromophore."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving ACE inhibitor zinc binding (item 21), findings align with this mechanism: Peptidomimetic design arose from snake-venom peptide leads. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) ACE inhibitors never interact with catalytic zinc",
+        "B) Believing enantiomers always share identical PD and toxicity",
+        "C) Sulfhydryl (captopril) or carboxylate/phosphinate groups coordinate ACE active-site zinc",
+        "D) Claiming covalent drugs never engage nucleophilic amino acids"
+      ],
+      "answer": "C) Sulfhydryl (captopril) or carboxylate/phosphinate groups coordinate ACE active-site zinc",
+      "explanation": "Peptidomimetic design arose from snake-venom peptide leads. The best choice is: Sulfhydryl (captopril) or carboxylate/phosphinate groups coordinate ACE active-site zinc. A close rival is: ACE inhibitors never interact with catalytic zinc. Distinguisher: Zinc coordination is central to classical ACEI binding.",
+      "choice_explanations": {
+        "A": "Zinc coordination is central to classical ACEI binding.",
+        "B": "Believing enantiomers always share identical PD and toxicity does not match the mechanism of ACE inhibitor zinc binding.",
+        "C": "Peptidomimetic design arose from snake-venom peptide leads.",
+        "D": "Claiming covalent drugs never engage nucleophilic amino acids is unrelated to the key pathophysiology of ACE inhibitor zinc binding."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Fluorine in drugs (item 22), findings align with this mechanism: C–F bonds resist oxidative attack relative to C–H at the same site often. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Claiming covalent drugs never engage nucleophilic amino acids",
+        "B) Fluorine always increases metabolic clearance at the substituted carbon",
+        "C) Believing enantiomers always share identical PD and toxicity",
+        "D) Fluorine can block metabolism, tune pKa, and improve permeability/potency sometimes"
+      ],
+      "answer": "D) Fluorine can block metabolism, tune pKa, and improve permeability/potency sometimes",
+      "explanation": "C–F bonds resist oxidative attack relative to C–H at the same site often. The best choice is: Fluorine can block metabolism, tune pKa, and improve permeability/potency sometimes. A close rival is: Fluorine always increases metabolic clearance at the substituted carbon. Distinguisher: Fluorination often slows, not speeds, metabolism at that site.",
+      "choice_explanations": {
+        "A": "Claiming covalent drugs never engage nucleophilic amino acids is unrelated to the key pathophysiology of Fluorine in drugs.",
+        "B": "Fluorination often slows, not speeds, metabolism at that site.",
+        "C": "Believing enantiomers always share identical PD and toxicity does not match the mechanism of Fluorine in drugs.",
+        "D": "C–F bonds resist oxidative attack relative to C–H at the same site often."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Phosphate prodrugs (item 23), findings align with this mechanism: Fosphenytoin exemplifies soluble phosphate prodrug design. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Believing enantiomers always share identical PD and toxicity",
+        "B) Phosphate prodrugs always decrease aqueous solubility",
+        "C) Phosphate esters increase aqueous solubility for parenteral or oral absorption then phosphatases cleave",
+        "D) Claiming covalent drugs never engage nucleophilic amino acids"
+      ],
+      "answer": "C) Phosphate esters increase aqueous solubility for parenteral or oral absorption then phosphatases cleave",
+      "explanation": "Fosphenytoin exemplifies soluble phosphate prodrug design. The best choice is: Phosphate esters increase aqueous solubility for parenteral or oral absorption then phosphatases cleave. A close rival is: Phosphate prodrugs always decrease aqueous solubility. Distinguisher: Solubility increase is a common phosphate prodrug goal.",
+      "choice_explanations": {
+        "A": "Believing enantiomers always share identical PD and toxicity does not match the mechanism of Phosphate prodrugs.",
+        "B": "Solubility increase is a common phosphate prodrug goal.",
+        "C": "Fosphenytoin exemplifies soluble phosphate prodrug design.",
+        "D": "Claiming covalent drugs never engage nucleophilic amino acids is unrelated to the key pathophysiology of Phosphate prodrugs."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Sulfonylurea insulin release chemistry (item 24), findings align with this mechanism: Aryl sulfonylurea SAR yields different potency/PK profiles. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Sulfonylureas inhibit HMG-CoA reductase chemically as primary action",
+        "B) Sulfonylurea moiety binds SUR1 regulating pancreatic KATP channels",
+        "C) Believing higher LogP always improves every ADME property without limit",
+        "D) Asserting fluorine always accelerates metabolism at the substituted carbon"
+      ],
+      "answer": "B) Sulfonylurea moiety binds SUR1 regulating pancreatic KATP channels",
+      "explanation": "Aryl sulfonylurea SAR yields different potency/PK profiles. The best choice is: Sulfonylurea moiety binds SUR1 regulating pancreatic KATP channels. A close rival is: Sulfonylureas inhibit HMG-CoA reductase chemically as primary action. Distinguisher: SUR1 interaction, not HMGCR, defines the class.",
+      "choice_explanations": {
+        "A": "SUR1 interaction, not HMGCR, defines the class.",
+        "B": "Aryl sulfonylurea SAR yields different potency/PK profiles.",
+        "C": "Believing higher LogP always improves every ADME property without limit is unrelated to the key pathophysiology of Sulfonylurea insulin release chemistry.",
+        "D": "Asserting fluorine always accelerates metabolism at the substituted carbon does not match the mechanism of Sulfonylurea insulin release chemistry."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Phototoxicity alerts (item 25), findings align with this mechanism: Photostability testing accompanies suspicious chromophores. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Claiming Rule of Five are absolute physical laws forbidding all exceptions",
+        "B) Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms",
+        "C) Extended conjugation never associates with phototoxic risk",
+        "D) Certain conjugated aromatics absorb UV generating reactive species — structural alerts exist"
+      ],
+      "answer": "D) Certain conjugated aromatics absorb UV generating reactive species — structural alerts exist",
+      "explanation": "Photostability testing accompanies suspicious chromophores. The best choice is: Certain conjugated aromatics absorb UV generating reactive species — structural alerts exist. A close rival is: Extended conjugation never associates with phototoxic risk. Distinguisher: Chromophore structure can predict phototoxic liability.",
+      "choice_explanations": {
+        "A": "Claiming Rule of Five are absolute physical laws forbidding all exceptions does not match the mechanism of Phototoxicity alerts.",
+        "B": "Saying carboxylate bioisosteres must be hydrocarbons without heteroatoms is unrelated to the key pathophysiology of Phototoxicity alerts.",
+        "C": "Chromophore structure can predict phototoxic liability.",
+        "D": "Photostability testing accompanies suspicious chromophores."
+      }
+    }
+  ]
+}

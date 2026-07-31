@@ -1,0 +1,1710 @@
+{
+  "easy": [
+    {
+      "question": "Which statement best matches the core concept of IV to PO hospital?",
+      "options": [
+        "A) Clinical stability, functioning gut, and suitable oral bioavailability enable switch",
+        "B) IV therapy must continue even when oral bioavailability is excellent and patient is eating",
+        "C) Ignoring ADC controlled-substance discrepancies when census is high",
+        "D) Hanging epidural bupivacaine bags on peripheral IV lines freely"
+      ],
+      "answer": "A) Clinical stability, functioning gut, and suitable oral bioavailability enable switch",
+      "explanation": "Earlier switch reduces line infections and cost. The best choice is: Clinical stability, functioning gut, and suitable oral bioavailability enable switch. A close rival is: IV therapy must continue even when oral bioavailability is excellent and patient is eating. Distinguisher: Switch is preferred when criteria are met.",
+      "choice_explanations": {
+        "A": "Earlier switch reduces line infections and cost.",
+        "B": "Switch is preferred when criteria are met.",
+        "C": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of IV to PO hospital.",
+        "D": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of IV to PO hospital."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Stress ulcer prophylaxis stewardship?",
+      "options": [
+        "A) Continue inpatient PPIs indefinitely for all ward patients after ICU without indication",
+        "B) Restrict SUP to ICU patients with risk factors; stop when risk resolves",
+        "C) Hanging epidural bupivacaine bags on peripheral IV lines freely",
+        "D) Ignoring ADC controlled-substance discrepancies when census is high"
+      ],
+      "answer": "B) Restrict SUP to ICU patients with risk factors; stop when risk resolves",
+      "explanation": "Unnecessary acid suppression raises infection risk. The best choice is: Restrict SUP to ICU patients with risk factors; stop when risk resolves. A close rival is: Continue inpatient PPIs indefinitely for all ward patients after ICU without indication. Distinguisher: Stop SUP when indications expire.",
+      "choice_explanations": {
+        "A": "Stop SUP when indications expire.",
+        "B": "Unnecessary acid suppression raises infection risk.",
+        "C": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Stress ulcer prophylaxis stewardship.",
+        "D": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Stress ulcer prophylaxis stewardship."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Intrathecal chemo safety?",
+      "options": [
+        "A) Using Vincristine syringes beside IT methotrexate without safeguards",
+        "B) Vincristine may be packaged in syringes alongside IT methotrexate without safeguards",
+        "C) Treating irrigation sterile water as acceptable for IV infusion",
+        "D) Segregate IT doses and keep vinca alkaloids away from IT workflows with checklists"
+      ],
+      "answer": "D) Segregate IT doses and keep vinca alkaloids away from IT workflows with checklists",
+      "explanation": "Accidental IT vinca is usually fatal. The best choice is: Segregate IT doses and keep vinca alkaloids away from IT workflows with checklists. A close rival is: Vincristine may be packaged in syringes alongside IT methotrexate without safeguards. Distinguisher: Vinca alkaloids must never be given intrathecally.",
+      "choice_explanations": {
+        "A": "Using Vincristine syringes beside IT methotrexate without safeguards does not match the mechanism of Intrathecal chemo safety.",
+        "B": "Vinca alkaloids must never be given intrathecally.",
+        "C": "Treating irrigation sterile water as acceptable for IV infusion is unrelated to the key pathophysiology of Intrathecal chemo safety.",
+        "D": "Accidental IT vinca is usually fatal."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Hospital medication safety officer?",
+      "options": [
+        "A) Compounding CSPs on ward sinks without primary engineering controls",
+        "B) Medication safety leadership is unnecessary if error rates are unknown",
+        "C) Bypassing smart-pump libraries routinely to save time",
+        "D) Leads event review, policy, smart-pump, and ADC safety strategy"
+      ],
+      "answer": "D) Leads event review, policy, smart-pump, and ADC safety strategy",
+      "explanation": "Culture of reporting and just culture underpins improvement. The best choice is: Leads event review, policy, smart-pump, and ADC safety strategy. A close rival is: Medication safety leadership is unnecessary if error rates are unknown. Distinguisher: Dedicated safety leadership improves system design.",
+      "choice_explanations": {
+        "A": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of Hospital medication safety officer.",
+        "B": "Dedicated safety leadership improves system design.",
+        "C": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of Hospital medication safety officer.",
+        "D": "Culture of reporting and just culture underpins improvement."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of NIOSH hazardous list?",
+      "options": [
+        "A) NIOSH lists only dietary fiber supplements as hazardous",
+        "B) Treating irrigation sterile water as acceptable for IV infusion",
+        "C) Using Vincristine syringes beside IT methotrexate without safeguards",
+        "D) Lists antineoplastics and other HDs by table guiding handling precautions"
+      ],
+      "answer": "D) Lists antineoplastics and other HDs by table guiding handling precautions",
+      "explanation": "Table 1 antineoplastics typically need full HD precautions. The best choice is: Lists antineoplastics and other HDs by table guiding handling precautions. A close rival is: NIOSH lists only dietary fiber supplements as hazardous. Distinguisher: Antineoplastics are core HD list members.",
+      "choice_explanations": {
+        "A": "Antineoplastics are core HD list members.",
+        "B": "Treating irrigation sterile water as acceptable for IV infusion is unrelated to the key pathophysiology of NIOSH hazardous list.",
+        "C": "Using Vincristine syringes beside IT methotrexate without safeguards does not match the mechanism of NIOSH hazardous list.",
+        "D": "Table 1 antineoplastics typically need full HD precautions."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Drug library ownership?",
+      "options": [
+        "A) Using Vincristine syringes beside IT methotrexate without safeguards",
+        "B) Pump libraries should be editable by any user at the bedside without governance",
+        "C) Pharmacy clinical informatics maintains smart-pump libraries with version control",
+        "D) Treating irrigation sterile water as acceptable for IV infusion"
+      ],
+      "answer": "C) Pharmacy clinical informatics maintains smart-pump libraries with version control",
+      "explanation": "Change control prevents unsafe limit edits. The best choice is: Pharmacy clinical informatics maintains smart-pump libraries with version control. A close rival is: Pump libraries should be editable by any user at the bedside without governance. Distinguisher: Governed pharmacy ownership of libraries is best practice.",
+      "choice_explanations": {
+        "A": "Using Vincristine syringes beside IT methotrexate without safeguards does not match the mechanism of Drug library ownership.",
+        "B": "Governed pharmacy ownership of libraries is best practice.",
+        "C": "Change control prevents unsafe limit edits.",
+        "D": "Treating irrigation sterile water as acceptable for IV infusion is unrelated to the key pathophysiology of Drug library ownership."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Hospital metric quality dashboards?",
+      "options": [
+        "A) Quality dashboards are irrelevant to pharmacy practice",
+        "B) Track override rates, ASP DOT, INR in range, and hypoglycemia events for improvement",
+        "C) Ignoring ADC controlled-substance discrepancies when census is high",
+        "D) Hanging epidural bupivacaine bags on peripheral IV lines freely"
+      ],
+      "answer": "B) Track override rates, ASP DOT, INR in range, and hypoglycemia events for improvement",
+      "explanation": "Transparent metrics drive targeted PDSA cycles. The best choice is: Track override rates, ASP DOT, INR in range, and hypoglycemia events for improvement. A close rival is: Quality dashboards are irrelevant to pharmacy practice. Distinguisher: Dashboards guide pharmacy quality work.",
+      "choice_explanations": {
+        "A": "Dashboards guide pharmacy quality work.",
+        "B": "Transparent metrics drive targeted PDSA cycles.",
+        "C": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Hospital metric quality dashboards.",
+        "D": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Hospital metric quality dashboards."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of BCMA administration?",
+      "options": [
+        "A) Using Vincristine syringes beside IT methotrexate without safeguards",
+        "B) BCMA workarounds like scanning barcodes on desks are recommended daily",
+        "C) Treating irrigation sterile water as acceptable for IV infusion",
+        "D) Barcode medication administration matches patient, drug, and order at bedside"
+      ],
+      "answer": "D) Barcode medication administration matches patient, drug, and order at bedside",
+      "explanation": "Workarounds recreate wrong-patient and wrong-drug risks. The best choice is: Barcode medication administration matches patient, drug, and order at bedside. A close rival is: BCMA workarounds like scanning barcodes on desks are recommended daily. Distinguisher: True bedside scanning is required for benefit.",
+      "choice_explanations": {
+        "A": "Using Vincristine syringes beside IT methotrexate without safeguards does not match the mechanism of BCMA administration.",
+        "B": "True bedside scanning is required for benefit.",
+        "C": "Treating irrigation sterile water as acceptable for IV infusion is unrelated to the key pathophysiology of BCMA administration.",
+        "D": "Workarounds recreate wrong-patient and wrong-drug risks."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of BUD nonsterile water?",
+      "options": [
+        "A) Water-containing oral formulations have shorter default BUDs than nonaqueous ones",
+        "B) Compounding CSPs on ward sinks without primary engineering controls",
+        "C) Bypassing smart-pump libraries routinely to save time",
+        "D) Aqueous nonsterile compounds always have 2-year room-temperature BUDs without exception"
+      ],
+      "answer": "A) Water-containing oral formulations have shorter default BUDs than nonaqueous ones",
+      "explanation": "Water activity and storage conditions shape BUD assignment. The best choice is: Water-containing oral formulations have shorter default BUDs than nonaqueous ones. A close rival is: Aqueous nonsterile compounds always have 2-year room-temperature BUDs without exception. Distinguisher: Water content shortens default BUDs.",
+      "choice_explanations": {
+        "A": "Water activity and storage conditions shape BUD assignment.",
+        "B": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of BUD nonsterile water.",
+        "C": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of BUD nonsterile water.",
+        "D": "Water content shortens default BUDs."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Direct thrombin inhibitor HIT hospital?",
+      "options": [
+        "A) Increase UFH infusion to treat HIT-related clotting",
+        "B) Argatroban or bivalirudin protocols for HIT with pharmacy-guided aPTT titration",
+        "C) Encouraging PCA by proxy while patients are deeply sedated",
+        "D) Storing concentrated KCl vials widely for convenience IV pushes"
+      ],
+      "answer": "B) Argatroban or bivalirudin protocols for HIT with pharmacy-guided aPTT titration",
+      "explanation": "Stop all heparin including flushes when HIT is suspected. The best choice is: Argatroban or bivalirudin protocols for HIT with pharmacy-guided aPTT titration. A close rival is: Increase UFH infusion to treat HIT-related clotting. Distinguisher: Heparin must stop; alternative anticoagulants are used.",
+      "choice_explanations": {
+        "A": "Heparin must stop; alternative anticoagulants are used.",
+        "B": "Stop all heparin including flushes when HIT is suspected.",
+        "C": "Encouraging PCA by proxy while patients are deeply sedated is unrelated to the key pathophysiology of Direct thrombin inhibitor HIT hospital.",
+        "D": "Storing concentrated KCl vials widely for convenience IV pushes does not match the mechanism of Direct thrombin inhibitor HIT hospital."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Environmental monitoring?",
+      "options": [
+        "A) Using Vincristine syringes beside IT methotrexate without safeguards",
+        "B) Viable air and surface plus nonviable particle monitoring trends cleanroom control",
+        "C) Environmental monitoring is forbidden by USP standards",
+        "D) Treating irrigation sterile water as acceptable for IV infusion"
+      ],
+      "answer": "B) Viable air and surface plus nonviable particle monitoring trends cleanroom control",
+      "explanation": "Action levels trigger investigation and corrective action. The best choice is: Viable air and surface plus nonviable particle monitoring trends cleanroom control. A close rival is: Environmental monitoring is forbidden by USP standards. Distinguisher: Monitoring is required, not forbidden.",
+      "choice_explanations": {
+        "A": "Using Vincristine syringes beside IT methotrexate without safeguards does not match the mechanism of Environmental monitoring.",
+        "B": "Action levels trigger investigation and corrective action.",
+        "C": "Monitoring is required, not forbidden.",
+        "D": "Treating irrigation sterile water as acceptable for IV infusion is unrelated to the key pathophysiology of Environmental monitoring."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Floorstock minimization?",
+      "options": [
+        "A) Storing concentrated KCl vials widely for convenience IV pushes",
+        "B) Limit floorstock of high-alert medications; prefer pharmacist-reviewed profiled access",
+        "C) Encouraging PCA by proxy while patients are deeply sedated",
+        "D) Maximize uncontrolled floorstock of concentrated electrolytes on every ward"
+      ],
+      "answer": "B) Limit floorstock of high-alert medications; prefer pharmacist-reviewed profiled access",
+      "explanation": "Concentrated electrolyte removal from wards was a national safety goal theme. The best choice is: Limit floorstock of high-alert medications; prefer pharmacist-reviewed profiled access. A close rival is: Maximize uncontrolled floorstock of concentrated electrolytes on every ward. Distinguisher: Uncontrolled concentrated electrolytes on wards are unsafe.",
+      "choice_explanations": {
+        "A": "Storing concentrated KCl vials widely for convenience IV pushes does not match the mechanism of Floorstock minimization.",
+        "B": "Concentrated electrolyte removal from wards was a national safety goal theme.",
+        "C": "Encouraging PCA by proxy while patients are deeply sedated is unrelated to the key pathophysiology of Floorstock minimization.",
+        "D": "Uncontrolled concentrated electrolytes on wards are unsafe."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Labeling CSP requirements?",
+      "options": [
+        "A) Include patient, drug, diluent, concentration, BUD, route, and storage on labels",
+        "B) Storing concentrated KCl vials widely for convenience IV pushes",
+        "C) Encouraging PCA by proxy while patients are deeply sedated",
+        "D) CSP labels may omit route and BUD to reduce clutter"
+      ],
+      "answer": "A) Include patient, drug, diluent, concentration, BUD, route, and storage on labels",
+      "explanation": "Tall-man lettering and auxiliary warnings add safety for LASA and HDs. The best choice is: Include patient, drug, diluent, concentration, BUD, route, and storage on labels. A close rival is: CSP labels may omit route and BUD to reduce clutter. Distinguisher: Route and BUD are critical label elements.",
+      "choice_explanations": {
+        "A": "Tall-man lettering and auxiliary warnings add safety for LASA and HDs.",
+        "B": "Storing concentrated KCl vials widely for convenience IV pushes does not match the mechanism of Labeling CSP requirements.",
+        "C": "Encouraging PCA by proxy while patients are deeply sedated is unrelated to the key pathophysiology of Labeling CSP requirements.",
+        "D": "Route and BUD are critical label elements."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Insulin drip protocols?",
+      "options": [
+        "A) Ignoring ADC controlled-substance discrepancies when census is high",
+        "B) Hanging epidural bupivacaine bags on peripheral IV lines freely",
+        "C) Standard concentrations and titration protocols reduce insulin infusion errors",
+        "D) Free-text variable insulin drip concentrations on every ward are safest"
+      ],
+      "answer": "C) Standard concentrations and titration protocols reduce insulin infusion errors",
+      "explanation": "High-alert status demands double checks and smart pumps. The best choice is: Standard concentrations and titration protocols reduce insulin infusion errors. A close rival is: Free-text variable insulin drip concentrations on every ward are safest. Distinguisher: Standardization reduces error risk.",
+      "choice_explanations": {
+        "A": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Insulin drip protocols.",
+        "B": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Insulin drip protocols.",
+        "C": "High-alert status demands double checks and smart pumps.",
+        "D": "Standardization reduces error risk."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Investigational drug service?",
+      "options": [
+        "A) Investigational drugs may be stored in unlocked staff lockers without logs",
+        "B) Pharmacy controls storage, accountability, blinding, and dispensing of protocol drugs",
+        "C) Encouraging PCA by proxy while patients are deeply sedated",
+        "D) Storing concentrated KCl vials widely for convenience IV pushes"
+      ],
+      "answer": "B) Pharmacy controls storage, accountability, blinding, and dispensing of protocol drugs",
+      "explanation": "Detailed accountability logs meet sponsor and FDA expectations. The best choice is: Pharmacy controls storage, accountability, blinding, and dispensing of protocol drugs. A close rival is: Investigational drugs may be stored in unlocked staff lockers without logs. Distinguisher: Tight control and documentation are required.",
+      "choice_explanations": {
+        "A": "Tight control and documentation are required.",
+        "B": "Detailed accountability logs meet sponsor and FDA expectations.",
+        "C": "Encouraging PCA by proxy while patients are deeply sedated is unrelated to the key pathophysiology of Investigational drug service.",
+        "D": "Storing concentrated KCl vials widely for convenience IV pushes does not match the mechanism of Investigational drug service."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Barcode repackaging control?",
+      "options": [
+        "A) Compounding CSPs on ward sinks without primary engineering controls",
+        "B) Unit-dose repackaging retains source NDC lineage and beyond-use dating documentation",
+        "C) Repackage without lot tracking because barcodes are decorative",
+        "D) Bypassing smart-pump libraries routinely to save time"
+      ],
+      "answer": "B) Unit-dose repackaging retains source NDC lineage and beyond-use dating documentation",
+      "explanation": "Recall capability depends on lot genealogy. The best choice is: Unit-dose repackaging retains source NDC lineage and beyond-use dating documentation. A close rival is: Repackage without lot tracking because barcodes are decorative. Distinguisher: Traceability is mandatory in repackaging.",
+      "choice_explanations": {
+        "A": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of Barcode repackaging control.",
+        "B": "Recall capability depends on lot genealogy.",
+        "C": "Traceability is mandatory in repackaging.",
+        "D": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of Barcode repackaging control."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of ADC automation?",
+      "options": [
+        "A) Bypassing smart-pump libraries routinely to save time",
+        "B) ADC overrides without review are encouraged without audit",
+        "C) Compounding CSPs on ward sinks without primary engineering controls",
+        "D) Automated dispensing cabinets improve access control but need override governance"
+      ],
+      "answer": "D) Automated dispensing cabinets improve access control but need override governance",
+      "explanation": "Profiled ADCs require pharmacist order review before access for most meds. The best choice is: Automated dispensing cabinets improve access control but need override governance. A close rival is: ADC overrides without review are encouraged without audit. Distinguisher: Override surveillance is essential.",
+      "choice_explanations": {
+        "A": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of ADC automation.",
+        "B": "Override surveillance is essential.",
+        "C": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of ADC automation.",
+        "D": "Profiled ADCs require pharmacist order review before access for most meds."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Epidural analgesia precautions?",
+      "options": [
+        "A) Ignoring ADC controlled-substance discrepancies when census is high",
+        "B) Use dedicated sets, preservative-free drugs, and avoid IV look-alike bags",
+        "C) Hanging epidural bupivacaine bags on peripheral IV lines freely",
+        "D) Epidural bupivacaine bags may be freely hung on peripheral IV lines"
+      ],
+      "answer": "B) Use dedicated sets, preservative-free drugs, and avoid IV look-alike bags",
+      "explanation": "Route misconnection can be fatal. The best choice is: Use dedicated sets, preservative-free drugs, and avoid IV look-alike bags. A close rival is: Epidural bupivacaine bags may be freely hung on peripheral IV lines. Distinguisher: Dedicated systems prevent IV versus epidural mix-ups.",
+      "choice_explanations": {
+        "A": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Epidural analgesia precautions.",
+        "B": "Route misconnection can be fatal.",
+        "C": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Epidural analgesia precautions.",
+        "D": "Dedicated systems prevent IV versus epidural mix-ups."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of OR controlled substance reconciliation?",
+      "options": [
+        "A) Anesthesia providers reconcile issued versus documented administered and wasted amounts each case",
+        "B) Treating irrigation sterile water as acceptable for IV infusion",
+        "C) Using Vincristine syringes beside IT methotrexate without safeguards",
+        "D) OR controlled substance reconciliation is unnecessary if cases were busy"
+      ],
+      "answer": "A) Anesthesia providers reconcile issued versus documented administered and wasted amounts each case",
+      "explanation": "Pharmacy audits random cases for discrepancies. The best choice is: Anesthesia providers reconcile issued versus documented administered and wasted amounts each case. A close rival is: OR controlled substance reconciliation is unnecessary if cases were busy. Distinguisher: Case-level reconciliation detects diversion and errors.",
+      "choice_explanations": {
+        "A": "Pharmacy audits random cases for discrepancies.",
+        "B": "Treating irrigation sterile water as acceptable for IV infusion is unrelated to the key pathophysiology of OR controlled substance reconciliation.",
+        "C": "Using Vincristine syringes beside IT methotrexate without safeguards does not match the mechanism of OR controlled substance reconciliation.",
+        "D": "Case-level reconciliation detects diversion and errors."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Nutritional support team?",
+      "options": [
+        "A) Pharmacists on nutrition teams adjust TPN for electrolytes, liver disease, and refeeding risk",
+        "B) Using Vincristine syringes beside IT methotrexate without safeguards",
+        "C) Treating irrigation sterile water as acceptable for IV infusion",
+        "D) Refeeding hypophosphatemia is ignored in TPN starts for severely malnourished patients"
+      ],
+      "answer": "A) Pharmacists on nutrition teams adjust TPN for electrolytes, liver disease, and refeeding risk",
+      "explanation": "Slow initiation and electrolyte repletion prevent refeeding complications. The best choice is: Pharmacists on nutrition teams adjust TPN for electrolytes, liver disease, and refeeding risk. A close rival is: Refeeding hypophosphatemia is ignored in TPN starts for severely malnourished patients. Distinguisher: Refeeding risk requires proactive electrolyte management.",
+      "choice_explanations": {
+        "A": "Slow initiation and electrolyte repletion prevent refeeding complications.",
+        "B": "Using Vincristine syringes beside IT methotrexate without safeguards does not match the mechanism of Nutritional support team.",
+        "C": "Treating irrigation sterile water as acceptable for IV infusion is unrelated to the key pathophysiology of Nutritional support team.",
+        "D": "Refeeding risk requires proactive electrolyte management."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of BUD refrigerated CSP?",
+      "options": [
+        "A) Bypassing smart-pump libraries routinely to save time",
+        "B) Cold storage often extends BUD versus room temperature within USP limits when stable",
+        "C) Refrigeration always shortens BUD to one hour for all CSPs",
+        "D) Compounding CSPs on ward sinks without primary engineering controls"
+      ],
+      "answer": "B) Cold storage often extends BUD versus room temperature within USP limits when stable",
+      "explanation": "Stability plus sterility risk jointly set BUDs. The best choice is: Cold storage often extends BUD versus room temperature within USP limits when stable. A close rival is: Refrigeration always shortens BUD to one hour for all CSPs. Distinguisher: Refrigeration often allows longer dating when stability permits.",
+      "choice_explanations": {
+        "A": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of BUD refrigerated CSP.",
+        "B": "Stability plus sterility risk jointly set BUDs.",
+        "C": "Refrigeration often allows longer dating when stability permits.",
+        "D": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of BUD refrigerated CSP."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of CSTD use?",
+      "options": [
+        "A) Compounding CSPs on ward sinks without primary engineering controls",
+        "B) Closed-system transfer devices reduce HD leakage during preparation and administration",
+        "C) Bypassing smart-pump libraries routinely to save time",
+        "D) CSTDs increase HD aerosolization by design"
+      ],
+      "answer": "B) Closed-system transfer devices reduce HD leakage during preparation and administration",
+      "explanation": "USP 800 encourages CSTDs for HD manipulation. The best choice is: Closed-system transfer devices reduce HD leakage during preparation and administration. A close rival is: CSTDs increase HD aerosolization by design. Distinguisher: CSTDs reduce, not increase, exposure potential.",
+      "choice_explanations": {
+        "A": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of CSTD use.",
+        "B": "USP 800 encourages CSTDs for HD manipulation.",
+        "C": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of CSTD use.",
+        "D": "CSTDs reduce, not increase, exposure potential."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Hospital vaccine storage?",
+      "options": [
+        "A) Bypassing smart-pump libraries routinely to save time",
+        "B) Compounding CSPs on ward sinks without primary engineering controls",
+        "C) Pharmacy-managed monitored refrigerators and freezers with excursion SOPs for inpatient vaccines",
+        "D) Store vaccines on unmonitored break-room refrigerator doors routinely"
+      ],
+      "answer": "C) Pharmacy-managed monitored refrigerators and freezers with excursion SOPs for inpatient vaccines",
+      "explanation": "Separate freezers for frozen vaccines as required by product. The best choice is: Pharmacy-managed monitored refrigerators and freezers with excursion SOPs for inpatient vaccines. A close rival is: Store vaccines on unmonitored break-room refrigerator doors routinely. Distinguisher: Monitored storage is required.",
+      "choice_explanations": {
+        "A": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of Hospital vaccine storage.",
+        "B": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of Hospital vaccine storage.",
+        "C": "Separate freezers for frozen vaccines as required by product.",
+        "D": "Monitored storage is required."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Medication reconciliation hospital?",
+      "options": [
+        "A) Compounding CSPs on ward sinks without primary engineering controls",
+        "B) Reconcile home, admission, transfer, and discharge lists to prevent discrepancies",
+        "C) Med rec is optional if the patient brought one bottle",
+        "D) Bypassing smart-pump libraries routinely to save time"
+      ],
+      "answer": "B) Reconcile home, admission, transfer, and discharge lists to prevent discrepancies",
+      "explanation": "Pharmacist-led reconciliation reduces clinically significant errors. The best choice is: Reconcile home, admission, transfer, and discharge lists to prevent discrepancies. A close rival is: Med rec is optional if the patient brought one bottle. Distinguisher: Multi-transition reconciliation is a standard expectation.",
+      "choice_explanations": {
+        "A": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of Medication reconciliation hospital.",
+        "B": "Pharmacist-led reconciliation reduces clinically significant errors.",
+        "C": "Multi-transition reconciliation is a standard expectation.",
+        "D": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of Medication reconciliation hospital."
+      }
+    },
+    {
+      "question": "Which statement best matches the core concept of Code blue pharmacist?",
+      "options": [
+        "A) Pharmacists are forbidden from attending codes",
+        "B) Hanging epidural bupivacaine bags on peripheral IV lines freely",
+        "C) Ignoring ADC controlled-substance discrepancies when census is high",
+        "D) Pharmacists prepare doses, advise on ACLS drugs, and reduce medication errors during resuscitations"
+      ],
+      "answer": "D) Pharmacists prepare doses, advise on ACLS drugs, and reduce medication errors during resuscitations",
+      "explanation": "Closed-loop communication and premixed readiness help. The best choice is: Pharmacists prepare doses, advise on ACLS drugs, and reduce medication errors during resuscitations. A close rival is: Pharmacists are forbidden from attending codes. Distinguisher: Pharmacist presence at codes is established in many hospitals.",
+      "choice_explanations": {
+        "A": "Pharmacist presence at codes is established in many hospitals.",
+        "B": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Code blue pharmacist.",
+        "C": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Code blue pharmacist.",
+        "D": "Closed-loop communication and premixed readiness help."
+      }
+    }
+  ],
+  "medium": [
+    {
+      "question": "In clinical practice regarding Heparin protocol pharmacy, which option is most accurate?",
+      "options": [
+        "A) Compounding CSPs on ward sinks without primary engineering controls",
+        "B) Weight-based heparin nomograms with anti-Xa or aPTT adjustments managed with pharmacy support",
+        "C) Bypassing smart-pump libraries routinely to save time",
+        "D) Fixed tiny heparin doses for all weights without monitoring are preferred for VTE treatment"
+      ],
+      "answer": "B) Weight-based heparin nomograms with anti-Xa or aPTT adjustments managed with pharmacy support",
+      "explanation": "Pharmacy to dose services improve time-to-therapeutic anticoagulation. The best choice is: Weight-based heparin nomograms with anti-Xa or aPTT adjustments managed with pharmacy support. A close rival is: Fixed tiny heparin doses for all weights without monitoring are preferred for VTE treatment. Distinguisher: Weight-based monitored protocols are standard for treatment-dose UFH.",
+      "choice_explanations": {
+        "A": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of Heparin protocol pharmacy.",
+        "B": "Pharmacy to dose services improve time-to-therapeutic anticoagulation.",
+        "C": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of Heparin protocol pharmacy.",
+        "D": "Weight-based monitored protocols are standard for treatment-dose UFH."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Contrast nephropathy meds, which option is most accurate?",
+      "options": [
+        "A) Give high-dose NSAIDs routinely before contrast to protect kidneys",
+        "B) Using Vincristine syringes beside IT methotrexate without safeguards",
+        "C) Hold nephrotoxins when appropriate; ensure hydration strategies around contrast exposures",
+        "D) Treating irrigation sterile water as acceptable for IV infusion"
+      ],
+      "answer": "C) Hold nephrotoxins when appropriate; ensure hydration strategies around contrast exposures",
+      "explanation": "Metformin hold rules around iodinated contrast depend on eGFR and guidance updates. The best choice is: Hold nephrotoxins when appropriate; ensure hydration strategies around contrast exposures. A close rival is: Give high-dose NSAIDs routinely before contrast to protect kidneys. Distinguisher: NSAID exposure adds nephrotoxic risk.",
+      "choice_explanations": {
+        "A": "NSAID exposure adds nephrotoxic risk.",
+        "B": "Using Vincristine syringes beside IT methotrexate without safeguards does not match the mechanism of Contrast nephropathy meds.",
+        "C": "Metformin hold rules around iodinated contrast depend on eGFR and guidance updates.",
+        "D": "Treating irrigation sterile water as acceptable for IV infusion is unrelated to the key pathophysiology of Contrast nephropathy meds."
+      }
+    },
+    {
+      "question": "In clinical practice regarding PCA hospital monitoring, which option is most accurate?",
+      "options": [
+        "A) Storing concentrated KCl vials widely for convenience IV pushes",
+        "B) Encourage visitors to press PCA while the patient is deeply sedated",
+        "C) Encouraging PCA by proxy while patients are deeply sedated",
+        "D) Monitor sedation and respiration; avoid PCA by proxy; use smart-pump limits"
+      ],
+      "answer": "D) Monitor sedation and respiration; avoid PCA by proxy; use smart-pump limits",
+      "explanation": "Capnography may be used for high-risk patients. The best choice is: Monitor sedation and respiration; avoid PCA by proxy; use smart-pump limits. A close rival is: Encourage visitors to press PCA while the patient is deeply sedated. Distinguisher: PCA by proxy is dangerous.",
+      "choice_explanations": {
+        "A": "Storing concentrated KCl vials widely for convenience IV pushes does not match the mechanism of PCA hospital monitoring.",
+        "B": "PCA by proxy is dangerous.",
+        "C": "Encouraging PCA by proxy while patients are deeply sedated is unrelated to the key pathophysiology of PCA hospital monitoring.",
+        "D": "Capnography may be used for high-risk patients."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Dialysis medication timing, which option is most accurate?",
+      "options": [
+        "A) Compounding CSPs on ward sinks without primary engineering controls",
+        "B) Dose renally cleared drugs after hemodialysis when substantial removal is expected",
+        "C) Bypassing smart-pump libraries routinely to save time",
+        "D) Always give aminoglycosides immediately before dialysis to maximize removal before distribution"
+      ],
+      "answer": "B) Dose renally cleared drugs after hemodialysis when substantial removal is expected",
+      "explanation": "Know dialyzability to schedule supplemental doses. The best choice is: Dose renally cleared drugs after hemodialysis when substantial removal is expected. A close rival is: Always give aminoglycosides immediately before dialysis to maximize removal before distribution. Distinguisher: Post-dialysis dosing is common for dialyzable drugs.",
+      "choice_explanations": {
+        "A": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of Dialysis medication timing.",
+        "B": "Know dialyzability to schedule supplemental doses.",
+        "C": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of Dialysis medication timing.",
+        "D": "Post-dialysis dosing is common for dialyzable drugs."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Admission BPMH, which option is most accurate?",
+      "options": [
+        "A) Encouraging PCA by proxy while patients are deeply sedated",
+        "B) Best possible medication history uses multiple sources early after admission",
+        "C) ED triage blood pressure alone replaces medication history",
+        "D) Storing concentrated KCl vials widely for convenience IV pushes"
+      ],
+      "answer": "B) Best possible medication history uses multiple sources early after admission",
+      "explanation": "Trained pharmacy technicians expand history-taking capacity. The best choice is: Best possible medication history uses multiple sources early after admission. A close rival is: ED triage blood pressure alone replaces medication history. Distinguisher: Dedicated medication history improves accuracy.",
+      "choice_explanations": {
+        "A": "Encouraging PCA by proxy while patients are deeply sedated is unrelated to the key pathophysiology of Admission BPMH.",
+        "B": "Trained pharmacy technicians expand history-taking capacity.",
+        "C": "Dedicated medication history improves accuracy.",
+        "D": "Storing concentrated KCl vials widely for convenience IV pushes does not match the mechanism of Admission BPMH."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Radiopharmaceuticals overview, which option is most accurate?",
+      "options": [
+        "A) Nuclear pharmacy handles radioactive drugs with shielding, decay dating, and specialized training",
+        "B) Radiopharmaceuticals may be compounded without radiation safety controls",
+        "C) Encouraging PCA by proxy while patients are deeply sedated",
+        "D) Storing concentrated KCl vials widely for convenience IV pushes"
+      ],
+      "answer": "A) Nuclear pharmacy handles radioactive drugs with shielding, decay dating, and specialized training",
+      "explanation": "USP 825 provides standards for radiopharmaceuticals. The best choice is: Nuclear pharmacy handles radioactive drugs with shielding, decay dating, and specialized training. A close rival is: Radiopharmaceuticals may be compounded without radiation safety controls. Distinguisher: Radiation safety is integral to nuclear pharmacy.",
+      "choice_explanations": {
+        "A": "USP 825 provides standards for radiopharmaceuticals.",
+        "B": "Radiation safety is integral to nuclear pharmacy.",
+        "C": "Encouraging PCA by proxy while patients are deeply sedated is unrelated to the key pathophysiology of Radiopharmaceuticals overview.",
+        "D": "Storing concentrated KCl vials widely for convenience IV pushes does not match the mechanism of Radiopharmaceuticals overview."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Hospital DOAC perioperative, which option is most accurate?",
+      "options": [
+        "A) Ignoring ADC controlled-substance discrepancies when census is high",
+        "B) Use drug-specific hold times based on CrCl and procedure bleed risk",
+        "C) All DOACs use identical 30-day preop holds regardless of renal function and procedure",
+        "D) Hanging epidural bupivacaine bags on peripheral IV lines freely"
+      ],
+      "answer": "B) Use drug-specific hold times based on CrCl and procedure bleed risk",
+      "explanation": "Bridging with heparin is often unnecessary for DOACs given shorter offsets. The best choice is: Use drug-specific hold times based on CrCl and procedure bleed risk. A close rival is: All DOACs use identical 30-day preop holds regardless of renal function and procedure. Distinguisher: Hold times are individualized, not uniformly 30 days.",
+      "choice_explanations": {
+        "A": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Hospital DOAC perioperative.",
+        "B": "Bridging with heparin is often unnecessary for DOACs given shorter offsets.",
+        "C": "Hold times are individualized, not uniformly 30 days.",
+        "D": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Hospital DOAC perioperative."
+      }
+    },
+    {
+      "question": "In clinical practice regarding IV push best practices, which option is most accurate?",
+      "options": [
+        "A) IV push undiluted vancomycin rapidly over 30 seconds is preferred to save time",
+        "B) Hanging epidural bupivacaine bags on peripheral IV lines freely",
+        "C) Ignoring ADC controlled-substance discrepancies when census is high",
+        "D) Use ready-to-administer syringes, appropriate dilution, and recommended rates for IV push meds"
+      ],
+      "answer": "D) Use ready-to-administer syringes, appropriate dilution, and recommended rates for IV push meds",
+      "explanation": "ASHP IV push guidelines address dilution and rate issues. The best choice is: Use ready-to-administer syringes, appropriate dilution, and recommended rates for IV push meds. A close rival is: IV push undiluted vancomycin rapidly over 30 seconds is preferred to save time. Distinguisher: Rapid vancomycin push risks red-man reactions and other harm.",
+      "choice_explanations": {
+        "A": "Rapid vancomycin push risks red-man reactions and other harm.",
+        "B": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of IV push best practices.",
+        "C": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of IV push best practices.",
+        "D": "ASHP IV push guidelines address dilution and rate issues."
+      }
+    },
+    {
+      "question": "In clinical practice regarding USP 795 nonsterile, which option is most accurate?",
+      "options": [
+        "A) Standards for nonsterile compounding including BUD assignment and documentation",
+        "B) Treating irrigation sterile water as acceptable for IV infusion",
+        "C) Using Vincristine syringes beside IT methotrexate without safeguards",
+        "D) Nonsterile compounding has no standards for BUD or hygiene"
+      ],
+      "answer": "A) Standards for nonsterile compounding including BUD assignment and documentation",
+      "explanation": "Component quality and recalculation checks prevent errors. The best choice is: Standards for nonsterile compounding including BUD assignment and documentation. A close rival is: Nonsterile compounding has no standards for BUD or hygiene. Distinguisher: USP 795 sets nonsterile compounding standards.",
+      "choice_explanations": {
+        "A": "Component quality and recalculation checks prevent errors.",
+        "B": "Treating irrigation sterile water as acceptable for IV infusion is unrelated to the key pathophysiology of USP 795 nonsterile.",
+        "C": "Using Vincristine syringes beside IT methotrexate without safeguards does not match the mechanism of USP 795 nonsterile.",
+        "D": "USP 795 sets nonsterile compounding standards."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Disaster cache medications, which option is most accurate?",
+      "options": [
+        "A) Storing concentrated KCl vials widely for convenience IV pushes",
+        "B) Encouraging PCA by proxy while patients are deeply sedated",
+        "C) Disaster caches should contain only expired samples never rotated",
+        "D) Maintain emergency caches for mass casualty with rotation of stock before expiry"
+      ],
+      "answer": "D) Maintain emergency caches for mass casualty with rotation of stock before expiry",
+      "explanation": "CHEMPACK and hospital emergency supplies may include antidotes. The best choice is: Maintain emergency caches for mass casualty with rotation of stock before expiry. A close rival is: Disaster caches should contain only expired samples never rotated. Distinguisher: Rotation keeps caches usable.",
+      "choice_explanations": {
+        "A": "Storing concentrated KCl vials widely for convenience IV pushes does not match the mechanism of Disaster cache medications.",
+        "B": "Encouraging PCA by proxy while patients are deeply sedated is unrelated to the key pathophysiology of Disaster cache medications.",
+        "C": "Rotation keeps caches usable.",
+        "D": "CHEMPACK and hospital emergency supplies may include antidotes."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Biosimilar hospital adoption, which option is most accurate?",
+      "options": [
+        "A) P&T may designate preferred biosimilars with therapeutic interchange and education",
+        "B) Ignoring ADC controlled-substance discrepancies when census is high",
+        "C) Biosimilars can never be considered for hospital formularies",
+        "D) Hanging epidural bupivacaine bags on peripheral IV lines freely"
+      ],
+      "answer": "A) P&T may designate preferred biosimilars with therapeutic interchange and education",
+      "explanation": "Savings enable expansion of care when clinically appropriate. The best choice is: P&T may designate preferred biosimilars with therapeutic interchange and education. A close rival is: Biosimilars can never be considered for hospital formularies. Distinguisher: Hospital biosimilar adoption is common via P&T.",
+      "choice_explanations": {
+        "A": "Savings enable expansion of care when clinically appropriate.",
+        "B": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Biosimilar hospital adoption.",
+        "C": "Hospital biosimilar adoption is common via P&T.",
+        "D": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Biosimilar hospital adoption."
+      }
+    },
+    {
+      "question": "In clinical practice regarding PK consult service, which option is most accurate?",
+      "options": [
+        "A) Bypassing smart-pump libraries routinely to save time",
+        "B) PK consults are banned in modern hospitals",
+        "C) Formal pharmacokinetics service individualizes dosing for complex clearance situations",
+        "D) Compounding CSPs on ward sinks without primary engineering controls"
+      ],
+      "answer": "C) Formal pharmacokinetics service individualizes dosing for complex clearance situations",
+      "explanation": "Obesity, CRRT, and ECMO dosing benefit from specialist PK input. The best choice is: Formal pharmacokinetics service individualizes dosing for complex clearance situations. A close rival is: PK consults are banned in modern hospitals. Distinguisher: Services are valued, not banned.",
+      "choice_explanations": {
+        "A": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of PK consult service.",
+        "B": "Services are valued, not banned.",
+        "C": "Obesity, CRRT, and ECMO dosing benefit from specialist PK input.",
+        "D": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of PK consult service."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Controlled substance delivery, which option is most accurate?",
+      "options": [
+        "A) Hanging epidural bupivacaine bags on peripheral IV lines freely",
+        "B) Leave fentanyl bags unattended in public corridors for nurse pickup convenience",
+        "C) Secure tubing pneumatic or hand-delivery processes with chain-of-custody signatures",
+        "D) Ignoring ADC controlled-substance discrepancies when census is high"
+      ],
+      "answer": "C) Secure tubing pneumatic or hand-delivery processes with chain-of-custody signatures",
+      "explanation": "Chain of custody documents transfers. The best choice is: Secure tubing pneumatic or hand-delivery processes with chain-of-custody signatures. A close rival is: Leave fentanyl bags unattended in public corridors for nurse pickup convenience. Distinguisher: Unattended controlled substances violate security standards.",
+      "choice_explanations": {
+        "A": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Controlled substance delivery.",
+        "B": "Unattended controlled substances violate security standards.",
+        "C": "Chain of custody documents transfers.",
+        "D": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Controlled substance delivery."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Hospital vaccine standing orders, which option is most accurate?",
+      "options": [
+        "A) Compounding CSPs on ward sinks without primary engineering controls",
+        "B) Standing orders enable timely inpatient vaccination assessment and dosing for flu and others",
+        "C) Inpatient vaccination assessment is forbidden by quality programs",
+        "D) Bypassing smart-pump libraries routinely to save time"
+      ],
+      "answer": "B) Standing orders enable timely inpatient vaccination assessment and dosing for flu and others",
+      "explanation": "Pharmacy protocols close care gaps before discharge. The best choice is: Standing orders enable timely inpatient vaccination assessment and dosing for flu and others. A close rival is: Inpatient vaccination assessment is forbidden by quality programs. Distinguisher: Standing orders expand appropriate vaccination.",
+      "choice_explanations": {
+        "A": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of Hospital vaccine standing orders.",
+        "B": "Pharmacy protocols close care gaps before discharge.",
+        "C": "Standing orders expand appropriate vaccination.",
+        "D": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of Hospital vaccine standing orders."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Hypertonic saline storage, which option is most accurate?",
+      "options": [
+        "A) Encouraging PCA by proxy while patients are deeply sedated",
+        "B) Store 23.4% NaCl unlabeled next to sterile water on wards",
+        "C) Storing concentrated KCl vials widely for convenience IV pushes",
+        "D) Restrict and boldly label concentrated NaCl products such as 3% and 23.4%"
+      ],
+      "answer": "D) Restrict and boldly label concentrated NaCl products such as 3% and 23.4%",
+      "explanation": "Pharmacy-prepared diluted products are preferred for ward use. The best choice is: Restrict and boldly label concentrated NaCl products such as 3% and 23.4%. A close rival is: Store 23.4% NaCl unlabeled next to sterile water on wards. Distinguisher: Restricted storage prevents tragic sodium errors.",
+      "choice_explanations": {
+        "A": "Encouraging PCA by proxy while patients are deeply sedated is unrelated to the key pathophysiology of Hypertonic saline storage.",
+        "B": "Restricted storage prevents tragic sodium errors.",
+        "C": "Storing concentrated KCl vials widely for convenience IV pushes does not match the mechanism of Hypertonic saline storage.",
+        "D": "Pharmacy-prepared diluted products are preferred for ward use."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Primary engineering control, which option is most accurate?",
+      "options": [
+        "A) Hanging epidural bupivacaine bags on peripheral IV lines freely",
+        "B) ISO 5 PEC such as LAFW, BSC, or isolator provides critical first air for sterile compounding",
+        "C) Ignoring ADC controlled-substance discrepancies when census is high",
+        "D) PEC means the hospital parking garage"
+      ],
+      "answer": "B) ISO 5 PEC such as LAFW, BSC, or isolator provides critical first air for sterile compounding",
+      "explanation": "Airflow patterns must not be blocked by materials. The best choice is: ISO 5 PEC such as LAFW, BSC, or isolator provides critical first air for sterile compounding. A close rival is: PEC means the hospital parking garage. Distinguisher: PECs are ISO 5 hoods or isolators.",
+      "choice_explanations": {
+        "A": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Primary engineering control.",
+        "B": "Airflow patterns must not be blocked by materials.",
+        "C": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Primary engineering control.",
+        "D": "PECs are ISO 5 hoods or isolators."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Insulin transition hospital, which option is most accurate?",
+      "options": [
+        "A) Sliding-scale regular insulin alone is ideal long-term inpatient management for all",
+        "B) Basal-bolus preferred over sliding-scale-only for most noncritical inpatients with hyperglycemia",
+        "C) Hanging epidural bupivacaine bags on peripheral IV lines freely",
+        "D) Ignoring ADC controlled-substance discrepancies when census is high"
+      ],
+      "answer": "B) Basal-bolus preferred over sliding-scale-only for most noncritical inpatients with hyperglycemia",
+      "explanation": "Steroid and tube-feed adjustments need proactive insulin changes. The best choice is: Basal-bolus preferred over sliding-scale-only for most noncritical inpatients with hyperglycemia. A close rival is: Sliding-scale regular insulin alone is ideal long-term inpatient management for all. Distinguisher: Scheduled insulin outperforms reactive sliding scale alone.",
+      "choice_explanations": {
+        "A": "Scheduled insulin outperforms reactive sliding scale alone.",
+        "B": "Steroid and tube-feed adjustments need proactive insulin changes.",
+        "C": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Insulin transition hospital.",
+        "D": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Insulin transition hospital."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Formulary system hospital, which option is most accurate?",
+      "options": [
+        "A) Bypassing smart-pump libraries routinely to save time",
+        "B) P&T committee manages evidence-based formulary to optimize outcomes and costs",
+        "C) Compounding CSPs on ward sinks without primary engineering controls",
+        "D) Hospital formularies randomly include every marketed drug without review"
+      ],
+      "answer": "B) P&T committee manages evidence-based formulary to optimize outcomes and costs",
+      "explanation": "Monographs and therapeutic interchanges support rational use. The best choice is: P&T committee manages evidence-based formulary to optimize outcomes and costs. A close rival is: Hospital formularies randomly include every marketed drug without review. Distinguisher: P&T oversight is structured, not random inclusion.",
+      "choice_explanations": {
+        "A": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of Formulary system hospital.",
+        "B": "Monographs and therapeutic interchanges support rational use.",
+        "C": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of Formulary system hospital.",
+        "D": "P&T oversight is structured, not random inclusion."
+      }
+    },
+    {
+      "question": "In clinical practice regarding IV compatibility Y site, which option is most accurate?",
+      "options": [
+        "A) Using Vincristine syringes beside IT methotrexate without safeguards",
+        "B) Check physical and chemical compatibility before Y-site coadministration",
+        "C) All IV drugs are compatible at any concentration in the same line always",
+        "D) Treating irrigation sterile water as acceptable for IV infusion"
+      ],
+      "answer": "B) Check physical and chemical compatibility before Y-site coadministration",
+      "explanation": "Precipitation can cause emboli and underdosing. The best choice is: Check physical and chemical compatibility before Y-site coadministration. A close rival is: All IV drugs are compatible at any concentration in the same line always. Distinguisher: Compatibility is concentration, diluent, and time dependent.",
+      "choice_explanations": {
+        "A": "Using Vincristine syringes beside IT methotrexate without safeguards does not match the mechanism of IV compatibility Y site.",
+        "B": "Precipitation can cause emboli and underdosing.",
+        "C": "Compatibility is concentration, diluent, and time dependent.",
+        "D": "Treating irrigation sterile water as acceptable for IV infusion is unrelated to the key pathophysiology of IV compatibility Y site."
+      }
+    },
+    {
+      "question": "In clinical practice regarding IV admixture aseptic, which option is most accurate?",
+      "options": [
+        "A) IV admixture may be done on ward sinks without primary engineering controls",
+        "B) Bypassing smart-pump libraries routinely to save time",
+        "C) Compound sterile products using aseptic technique in ISO-classified environments per USP 797",
+        "D) Compounding CSPs on ward sinks without primary engineering controls"
+      ],
+      "answer": "C) Compound sterile products using aseptic technique in ISO-classified environments per USP 797",
+      "explanation": "First air, garbing, and disinfection protect sterility. The best choice is: Compound sterile products using aseptic technique in ISO-classified environments per USP 797. A close rival is: IV admixture may be done on ward sinks without primary engineering controls. Distinguisher: Controlled cleanrooms and hoods are required, not ward sinks.",
+      "choice_explanations": {
+        "A": "Controlled cleanrooms and hoods are required, not ward sinks.",
+        "B": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of IV admixture aseptic.",
+        "C": "First air, garbing, and disinfection protect sterility.",
+        "D": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of IV admixture aseptic."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Sterile water not IV, which option is most accurate?",
+      "options": [
+        "A) Ignoring ADC controlled-substance discrepancies when census is high",
+        "B) Irrigation sterile water must never be infused intravenously",
+        "C) Large irrigation sterile water bags may be spiked for IV use freely",
+        "D) Hanging epidural bupivacaine bags on peripheral IV lines freely"
+      ],
+      "answer": "B) Irrigation sterile water must never be infused intravenously",
+      "explanation": "Fatal hemolysis has occurred from IV sterile water infusion. The best choice is: Irrigation sterile water must never be infused intravenously. A close rival is: Large irrigation sterile water bags may be spiked for IV use freely. Distinguisher: Irrigation solutions are not for IV infusion.",
+      "choice_explanations": {
+        "A": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Sterile water not IV.",
+        "B": "Fatal hemolysis has occurred from IV sterile water infusion.",
+        "C": "Irrigation solutions are not for IV infusion.",
+        "D": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Sterile water not IV."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Secondary engineering control, which option is most accurate?",
+      "options": [
+        "A) Treating irrigation sterile water as acceptable for IV infusion",
+        "B) Using Vincristine syringes beside IT methotrexate without safeguards",
+        "C) SEC refers only to tablet presses in community pharmacies",
+        "D) Cleanroom suites provide ISO-classified environments around PECs"
+      ],
+      "answer": "D) Cleanroom suites provide ISO-classified environments around PECs",
+      "explanation": "Pressure cascades and HEPA filtration maintain cleanliness. The best choice is: Cleanroom suites provide ISO-classified environments around PECs. A close rival is: SEC refers only to tablet presses in community pharmacies. Distinguisher: SECs are the classified rooms supporting PECs.",
+      "choice_explanations": {
+        "A": "Treating irrigation sterile water as acceptable for IV infusion is unrelated to the key pathophysiology of Secondary engineering control.",
+        "B": "Using Vincristine syringes beside IT methotrexate without safeguards does not match the mechanism of Secondary engineering control.",
+        "C": "SECs are the classified rooms supporting PECs.",
+        "D": "Pressure cascades and HEPA filtration maintain cleanliness."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Oral syringes enteral, which option is most accurate?",
+      "options": [
+        "A) Use enteral-only syringes that cannot connect to IV lines",
+        "B) Using Vincristine syringes beside IT methotrexate without safeguards",
+        "C) Treating irrigation sterile water as acceptable for IV infusion",
+        "D) Oral liquids should be drawn in IV luer syringes for convenience"
+      ],
+      "answer": "A) Use enteral-only syringes that cannot connect to IV lines",
+      "explanation": "Wrong-route connectors have caused fatal IV administration of oral liquids. The best choice is: Use enteral-only syringes that cannot connect to IV lines. A close rival is: Oral liquids should be drawn in IV luer syringes for convenience. Distinguisher: Enteral connectors prevent IV misadministration.",
+      "choice_explanations": {
+        "A": "Wrong-route connectors have caused fatal IV administration of oral liquids.",
+        "B": "Using Vincristine syringes beside IT methotrexate without safeguards does not match the mechanism of Oral syringes enteral.",
+        "C": "Treating irrigation sterile water as acceptable for IV infusion is unrelated to the key pathophysiology of Oral syringes enteral.",
+        "D": "Enteral connectors prevent IV misadministration."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Garbing order sterile, which option is most accurate?",
+      "options": [
+        "A) Garbing order is random and optional for sterile compounding",
+        "B) Compounding CSPs on ward sinks without primary engineering controls",
+        "C) Follow facility SOP from dirtiest to cleanest culminating in sterile glove disinfection",
+        "D) Bypassing smart-pump libraries routinely to save time"
+      ],
+      "answer": "C) Follow facility SOP from dirtiest to cleanest culminating in sterile glove disinfection",
+      "explanation": "Hand hygiene and donning sequence reduce contamination. The best choice is: Follow facility SOP from dirtiest to cleanest culminating in sterile glove disinfection. A close rival is: Garbing order is random and optional for sterile compounding. Distinguisher: Sequence matters and is required.",
+      "choice_explanations": {
+        "A": "Sequence matters and is required.",
+        "B": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of Garbing order sterile.",
+        "C": "Hand hygiene and donning sequence reduce contamination.",
+        "D": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of Garbing order sterile."
+      }
+    },
+    {
+      "question": "In clinical practice regarding Therapeutic interchange hospital, which option is most accurate?",
+      "options": [
+        "A) Automatic substitution to formulary equivalent per approved policy with notification rules",
+        "B) Using Vincristine syringes beside IT methotrexate without safeguards",
+        "C) Treating irrigation sterile water as acceptable for IV infusion",
+        "D) Interchange allows silent substitution to unrelated pharmacologic classes freely"
+      ],
+      "answer": "A) Automatic substitution to formulary equivalent per approved policy with notification rules",
+      "explanation": "Policies list allowed pairs and critical exceptions such as narrow-index drugs. The best choice is: Automatic substitution to formulary equivalent per approved policy with notification rules. A close rival is: Interchange allows silent substitution to unrelated pharmacologic classes freely. Distinguisher: Interchanges follow approved class-related protocols.",
+      "choice_explanations": {
+        "A": "Policies list allowed pairs and critical exceptions such as narrow-index drugs.",
+        "B": "Using Vincristine syringes beside IT methotrexate without safeguards does not match the mechanism of Therapeutic interchange hospital.",
+        "C": "Treating irrigation sterile water as acceptable for IV infusion is unrelated to the key pathophysiology of Therapeutic interchange hospital.",
+        "D": "Interchanges follow approved class-related protocols."
+      }
+    }
+  ],
+  "hard": [
+    {
+      "question": "A student analyzes a case centered on Anesthesia tray standardization. Key teaching point: Barcode and color-coding practices vary but unlabeled syringes are unsafe. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Unlabeled syringes of look-alike induction agents are acceptable on every anesthesia cart",
+        "B) Standard drug trays with labeled syringes and concentration limits reduce swaps",
+        "C) Using Vincristine syringes beside IT methotrexate without safeguards",
+        "D) Treating irrigation sterile water as acceptable for IV infusion"
+      ],
+      "answer": "B) Standard drug trays with labeled syringes and concentration limits reduce swaps",
+      "explanation": "Barcode and color-coding practices vary but unlabeled syringes are unsafe. The best choice is: Standard drug trays with labeled syringes and concentration limits reduce swaps. A close rival is: Unlabeled syringes of look-alike induction agents are acceptable on every anesthesia cart. Distinguisher: Labeling and standardization are required safety practices.",
+      "choice_explanations": {
+        "A": "Labeling and standardization are required safety practices.",
+        "B": "Barcode and color-coding practices vary but unlabeled syringes are unsafe.",
+        "C": "Using Vincristine syringes beside IT methotrexate without safeguards does not match the mechanism of Anesthesia tray standardization.",
+        "D": "Treating irrigation sterile water as acceptable for IV infusion is unrelated to the key pathophysiology of Anesthesia tray standardization."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Hospital opioid disposal witnessed. Key teaching point: Patch disposal policies specifically address diversion of residual drug. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Hanging epidural bupivacaine bags on peripheral IV lines freely",
+        "B) Unused partial PCA syringes and fentanyl patches wasted with witness and documentation",
+        "C) Unused fentanyl patches may be taken home by staff as a perk",
+        "D) Ignoring ADC controlled-substance discrepancies when census is high"
+      ],
+      "answer": "B) Unused partial PCA syringes and fentanyl patches wasted with witness and documentation",
+      "explanation": "Patch disposal policies specifically address diversion of residual drug. The best choice is: Unused partial PCA syringes and fentanyl patches wasted with witness and documentation. A close rival is: Unused fentanyl patches may be taken home by staff as a perk. Distinguisher: Witnessed disposal is required; staff removal is diversion.",
+      "choice_explanations": {
+        "A": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Hospital opioid disposal witnessed.",
+        "B": "Patch disposal policies specifically address diversion of residual drug.",
+        "C": "Witnessed disposal is required; staff removal is diversion.",
+        "D": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Hospital opioid disposal witnessed."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Shortage management. Key teaching point: Communication and ethical allocation protect patients. Which option best fits this pathophysiology?",
+      "options": [
+        "A) During shortages, silently omit critical drugs without informing teams",
+        "B) Conservation strategies, therapeutic alternatives via P&T, and allocation protocols",
+        "C) Hanging epidural bupivacaine bags on peripheral IV lines freely",
+        "D) Ignoring ADC controlled-substance discrepancies when census is high"
+      ],
+      "answer": "B) Conservation strategies, therapeutic alternatives via P&T, and allocation protocols",
+      "explanation": "Communication and ethical allocation protect patients. The best choice is: Conservation strategies, therapeutic alternatives via P&T, and allocation protocols. A close rival is: During shortages, silently omit critical drugs without informing teams. Distinguisher: Transparency and alternatives planning are essential.",
+      "choice_explanations": {
+        "A": "Transparency and alternatives planning are essential.",
+        "B": "Communication and ethical allocation protect patients.",
+        "C": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Shortage management.",
+        "D": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Shortage management."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Neuromuscular blocker safety. Key teaching point: Cap labeling strategies and ADC locks reduce tragic swaps. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Bypassing smart-pump libraries routinely to save time",
+        "B) Segregate, label boldly, and restrict access because wrong administration causes apnea",
+        "C) Store succinylcholine next to influenza vaccines unlabeled for convenience",
+        "D) Compounding CSPs on ward sinks without primary engineering controls"
+      ],
+      "answer": "B) Segregate, label boldly, and restrict access because wrong administration causes apnea",
+      "explanation": "Cap labeling strategies and ADC locks reduce tragic swaps. The best choice is: Segregate, label boldly, and restrict access because wrong administration causes apnea. A close rival is: Store succinylcholine next to influenza vaccines unlabeled for convenience. Distinguisher: Segregation and labeling are critical.",
+      "choice_explanations": {
+        "A": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of Neuromuscular blocker safety.",
+        "B": "Cap labeling strategies and ADC locks reduce tragic swaps.",
+        "C": "Segregation and labeling are critical.",
+        "D": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of Neuromuscular blocker safety."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Cart fill unit dose. Key teaching point: Barcode-ready packaging supports BCMA. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Hanging epidural bupivacaine bags on peripheral IV lines freely",
+        "B) Pharmacy prepares patient-specific unit doses for scheduled distribution",
+        "C) Ignoring ADC controlled-substance discrepancies when census is high",
+        "D) Bulk multidose bottles on every bedside without pharmacy control is the unit-dose ideal"
+      ],
+      "answer": "B) Pharmacy prepares patient-specific unit doses for scheduled distribution",
+      "explanation": "Barcode-ready packaging supports BCMA. The best choice is: Pharmacy prepares patient-specific unit doses for scheduled distribution. A close rival is: Bulk multidose bottles on every bedside without pharmacy control is the unit-dose ideal. Distinguisher: Unit-dose is patient-specific, not open bulk at bedside.",
+      "choice_explanations": {
+        "A": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Cart fill unit dose.",
+        "B": "Barcode-ready packaging supports BCMA.",
+        "C": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Cart fill unit dose.",
+        "D": "Unit-dose is patient-specific, not open bulk at bedside."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Meds to beds programs. Key teaching point: Pharmacist counseling at bedside reinforces education. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Compounding CSPs on ward sinks without primary engineering controls",
+        "B) Bypassing smart-pump libraries routinely to save time",
+        "C) Bedside delivery of discharge meds improves first-fill adherence after hospitalization",
+        "D) Meds-to-beds programs intentionally delay critical anticoagulant starts after discharge"
+      ],
+      "answer": "C) Bedside delivery of discharge meds improves first-fill adherence after hospitalization",
+      "explanation": "Pharmacist counseling at bedside reinforces education. The best choice is: Bedside delivery of discharge meds improves first-fill adherence after hospitalization. A close rival is: Meds-to-beds programs intentionally delay critical anticoagulant starts after discharge. Distinguisher: Programs improve access and adherence, not intentional delay of critical therapy.",
+      "choice_explanations": {
+        "A": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of Meds to beds programs.",
+        "B": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of Meds to beds programs.",
+        "C": "Pharmacist counseling at bedside reinforces education.",
+        "D": "Programs improve access and adherence, not intentional delay of critical therapy."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Photoprotection IV drugs. Key teaching point: Amber tubing or wraps maintain potency. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Bypassing smart-pump libraries routinely to save time",
+        "B) Compounding CSPs on ward sinks without primary engineering controls",
+        "C) Protect light-sensitive infusions such as some vitamins nitroprusside and amphotericin formulations per labeling",
+        "D) Light-sensitive IV drugs never need coverings regardless of label"
+      ],
+      "answer": "C) Protect light-sensitive infusions such as some vitamins nitroprusside and amphotericin formulations per labeling",
+      "explanation": "Amber tubing or wraps maintain potency. The best choice is: Protect light-sensitive infusions such as some vitamins nitroprusside and amphotericin formulations per labeling. A close rival is: Light-sensitive IV drugs never need coverings regardless of label. Distinguisher: Label-directed light protection matters.",
+      "choice_explanations": {
+        "A": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of Photoprotection IV drugs.",
+        "B": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of Photoprotection IV drugs.",
+        "C": "Amber tubing or wraps maintain potency.",
+        "D": "Label-directed light protection matters."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Failure mode effects analysis. Key teaching point: Pharmacy participates in scoring failure modes and redesign. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Encouraging PCA by proxy while patients are deeply sedated",
+        "B) Prospective FMEA evaluates new pumps or workflows before implementation harm occurs",
+        "C) Storing concentrated KCl vials widely for convenience IV pushes",
+        "D) FMEA is only used after multiple patient deaths and never prospectively"
+      ],
+      "answer": "B) Prospective FMEA evaluates new pumps or workflows before implementation harm occurs",
+      "explanation": "Pharmacy participates in scoring failure modes and redesign. The best choice is: Prospective FMEA evaluates new pumps or workflows before implementation harm occurs. A close rival is: FMEA is only used after multiple patient deaths and never prospectively. Distinguisher: Prospective FMEA is a preventive tool.",
+      "choice_explanations": {
+        "A": "Encouraging PCA by proxy while patients are deeply sedated is unrelated to the key pathophysiology of Failure mode effects analysis.",
+        "B": "Pharmacy participates in scoring failure modes and redesign.",
+        "C": "Storing concentrated KCl vials widely for convenience IV pushes does not match the mechanism of Failure mode effects analysis.",
+        "D": "Prospective FMEA is a preventive tool."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Hazardous spill kit. Key teaching point: Train staff on spill response and waste disposal. Which option best fits this pathophysiology?",
+      "options": [
+        "A) HD spills may be wiped with bare hands and water only as policy",
+        "B) HD spill kits with PPE and deactivation agents must be available where HDs are handled",
+        "C) Hanging epidural bupivacaine bags on peripheral IV lines freely",
+        "D) Ignoring ADC controlled-substance discrepancies when census is high"
+      ],
+      "answer": "B) HD spill kits with PPE and deactivation agents must be available where HDs are handled",
+      "explanation": "Train staff on spill response and waste disposal. The best choice is: HD spill kits with PPE and deactivation agents must be available where HDs are handled. A close rival is: HD spills may be wiped with bare hands and water only as policy. Distinguisher: PPE and kits are mandatory preparedness.",
+      "choice_explanations": {
+        "A": "PPE and kits are mandatory preparedness.",
+        "B": "Train staff on spill response and waste disposal.",
+        "C": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Hazardous spill kit.",
+        "D": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Hazardous spill kit."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on High alert hospital list. Key teaching point: Independent double checks and standardized orders mitigate risk. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Using Vincristine syringes beside IT methotrexate without safeguards",
+        "B) Treating irrigation sterile water as acceptable for IV infusion",
+        "C) Insulin, anticoagulants, opioids, neuromuscular blockers, and chemo top many lists",
+        "D) High-alert hospital lists typically feature only topical lotion"
+      ],
+      "answer": "C) Insulin, anticoagulants, opioids, neuromuscular blockers, and chemo top many lists",
+      "explanation": "Independent double checks and standardized orders mitigate risk. The best choice is: Insulin, anticoagulants, opioids, neuromuscular blockers, and chemo top many lists. A close rival is: High-alert hospital lists typically feature only topical lotion. Distinguisher: Those classes dominate high-alert lists.",
+      "choice_explanations": {
+        "A": "Using Vincristine syringes beside IT methotrexate without safeguards does not match the mechanism of High alert hospital list.",
+        "B": "Treating irrigation sterile water as acceptable for IV infusion is unrelated to the key pathophysiology of High alert hospital list.",
+        "C": "Independent double checks and standardized orders mitigate risk.",
+        "D": "Those classes dominate high-alert lists."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on ENFit connectors. Key teaching point: Avoid adapter workarounds that defeat safety engineering. Which option best fits this pathophysiology?",
+      "options": [
+        "A) ENFit intentionally makes enteral-to-IV connections easier",
+        "B) ISO enteral connector standard reduces misconnections with vascular devices",
+        "C) Bypassing smart-pump libraries routinely to save time",
+        "D) Compounding CSPs on ward sinks without primary engineering controls"
+      ],
+      "answer": "B) ISO enteral connector standard reduces misconnections with vascular devices",
+      "explanation": "Avoid adapter workarounds that defeat safety engineering. The best choice is: ISO enteral connector standard reduces misconnections with vascular devices. A close rival is: ENFit intentionally makes enteral-to-IV connections easier. Distinguisher: ENFit makes wrong-route connection harder, not easier.",
+      "choice_explanations": {
+        "A": "ENFit makes wrong-route connection harder, not easier.",
+        "B": "Avoid adapter workarounds that defeat safety engineering.",
+        "C": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of ENFit connectors.",
+        "D": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of ENFit connectors."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Glycemic targets hospital. Key teaching point: Protocolized insulin with monitoring balances hypo and hyper risk. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Moderate targets often preferred over intensive glucose control to avoid hypoglycemia harm",
+        "B) Hanging epidural bupivacaine bags on peripheral IV lines freely",
+        "C) Ignoring ADC controlled-substance discrepancies when census is high",
+        "D) Targeting near-zero hypoglycemia risk by allowing uncontrolled 400 mg/dL glucose always is ideal for all units"
+      ],
+      "answer": "A) Moderate targets often preferred over intensive glucose control to avoid hypoglycemia harm",
+      "explanation": "Protocolized insulin with monitoring balances hypo and hyper risk. The best choice is: Moderate targets often preferred over intensive glucose control to avoid hypoglycemia harm. A close rival is: Targeting near-zero hypoglycemia risk by allowing uncontrolled 400 mg/dL glucose always is ideal for all units. Distinguisher: Overly intensive targets increased harm in landmark trials.",
+      "choice_explanations": {
+        "A": "Protocolized insulin with monitoring balances hypo and hyper risk.",
+        "B": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Glycemic targets hospital.",
+        "C": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Glycemic targets hospital.",
+        "D": "Overly intensive targets increased harm in landmark trials."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Filter requirements selected IV. Key teaching point: Wrong filter size can remove drug or fail to protect. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Filter requirements on labels may be ignored if the nurse is experienced",
+        "B) Encouraging PCA by proxy while patients are deeply sedated",
+        "C) Storing concentrated KCl vials widely for convenience IV pushes",
+        "D) Amphotericin lipid formulations, some phenytoin, and certain biologics need specified filters"
+      ],
+      "answer": "D) Amphotericin lipid formulations, some phenytoin, and certain biologics need specified filters",
+      "explanation": "Wrong filter size can remove drug or fail to protect. The best choice is: Amphotericin lipid formulations, some phenytoin, and certain biologics need specified filters. A close rival is: Filter requirements on labels may be ignored if the nurse is experienced. Distinguisher: Use the filter specified on the label or policy.",
+      "choice_explanations": {
+        "A": "Use the filter specified on the label or policy.",
+        "B": "Encouraging PCA by proxy while patients are deeply sedated is unrelated to the key pathophysiology of Filter requirements selected IV.",
+        "C": "Storing concentrated KCl vials widely for convenience IV pushes does not match the mechanism of Filter requirements selected IV.",
+        "D": "Wrong filter size can remove drug or fail to protect."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Medication use evaluation. Key teaching point: Criteria-based sampling identifies overuse, underuse, and misuse. Which option best fits this pathophysiology?",
+      "options": [
+        "A) MUE means counting vials without criteria or outcomes",
+        "B) Ignoring ADC controlled-substance discrepancies when census is high",
+        "C) MUE systematically assesses how a drug is used versus criteria to improve quality",
+        "D) Hanging epidural bupivacaine bags on peripheral IV lines freely"
+      ],
+      "answer": "C) MUE systematically assesses how a drug is used versus criteria to improve quality",
+      "explanation": "Criteria-based sampling identifies overuse, underuse, and misuse. The best choice is: MUE systematically assesses how a drug is used versus criteria to improve quality. A close rival is: MUE means counting vials without criteria or outcomes. Distinguisher: Criteria and quality improvement define MUE.",
+      "choice_explanations": {
+        "A": "Criteria and quality improvement define MUE.",
+        "B": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Medication use evaluation.",
+        "C": "Criteria-based sampling identifies overuse, underuse, and misuse.",
+        "D": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Medication use evaluation."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Hospital formulary restriction codes. Key teaching point: Therapeutic alternatives should be offered first when safe. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Storing concentrated KCl vials widely for convenience IV pushes",
+        "B) Any nonformulary drug may be stocked infinitely without review for every request",
+        "C) Nonformulary process requires justification and temporary procurement pathways",
+        "D) Encouraging PCA by proxy while patients are deeply sedated"
+      ],
+      "answer": "C) Nonformulary process requires justification and temporary procurement pathways",
+      "explanation": "Therapeutic alternatives should be offered first when safe. The best choice is: Nonformulary process requires justification and temporary procurement pathways. A close rival is: Any nonformulary drug may be stocked infinitely without review for every request. Distinguisher: Nonformulary use is exceptional and reviewed.",
+      "choice_explanations": {
+        "A": "Storing concentrated KCl vials widely for convenience IV pushes does not match the mechanism of Hospital formulary restriction codes.",
+        "B": "Nonformulary use is exceptional and reviewed.",
+        "C": "Therapeutic alternatives should be offered first when safe.",
+        "D": "Encouraging PCA by proxy while patients are deeply sedated is unrelated to the key pathophysiology of Hospital formulary restriction codes."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Split-fill chemo oral inpatient. Key teaching point: Benefit investigation and specialty pharmacy handoffs are pharmacy roles. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Storing concentrated KCl vials widely for convenience IV pushes",
+        "B) Encouraging PCA by proxy while patients are deeply sedated",
+        "C) Coordinate oral oncolytic access and teaching before discharge to prevent gaps",
+        "D) Assume patients will find specialty oral chemo without assistance after discharge"
+      ],
+      "answer": "C) Coordinate oral oncolytic access and teaching before discharge to prevent gaps",
+      "explanation": "Benefit investigation and specialty pharmacy handoffs are pharmacy roles. The best choice is: Coordinate oral oncolytic access and teaching before discharge to prevent gaps. A close rival is: Assume patients will find specialty oral chemo without assistance after discharge. Distinguisher: Proactive coordination prevents therapy gaps.",
+      "choice_explanations": {
+        "A": "Storing concentrated KCl vials widely for convenience IV pushes does not match the mechanism of Split-fill chemo oral inpatient.",
+        "B": "Encouraging PCA by proxy while patients are deeply sedated is unrelated to the key pathophysiology of Split-fill chemo oral inpatient.",
+        "C": "Benefit investigation and specialty pharmacy handoffs are pharmacy roles.",
+        "D": "Proactive coordination prevents therapy gaps."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Phenytoin infusion rules. Key teaching point: Precipitation in dextrose and cardiovascular toxicity with rapid infusion are classic risks. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Infuse IV phenytoin with inline filter, appropriate diluent, and rate limits; prefer fosphenytoin often",
+        "B) IV phenytoin may run rapidly undiluted in dextrose without concern for precipitation",
+        "C) Using Vincristine syringes beside IT methotrexate without safeguards",
+        "D) Treating irrigation sterile water as acceptable for IV infusion"
+      ],
+      "answer": "A) Infuse IV phenytoin with inline filter, appropriate diluent, and rate limits; prefer fosphenytoin often",
+      "explanation": "Precipitation in dextrose and cardiovascular toxicity with rapid infusion are classic risks. The best choice is: Infuse IV phenytoin with inline filter, appropriate diluent, and rate limits; prefer fosphenytoin often. A close rival is: IV phenytoin may run rapidly undiluted in dextrose without concern for precipitation. Distinguisher: Diluents, filters, and rates matter; fosphenytoin avoids many issues.",
+      "choice_explanations": {
+        "A": "Precipitation in dextrose and cardiovascular toxicity with rapid infusion are classic risks.",
+        "B": "Diluents, filters, and rates matter; fosphenytoin avoids many issues.",
+        "C": "Using Vincristine syringes beside IT methotrexate without safeguards does not match the mechanism of Phenytoin infusion rules.",
+        "D": "Treating irrigation sterile water as acceptable for IV infusion is unrelated to the key pathophysiology of Phenytoin infusion rules."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Kit and tray check expiration. Key teaching point: Pharmacy often owns kit quality control processes. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Expiration dating on crash and procedural kits is optional",
+        "B) Compounding CSPs on ward sinks without primary engineering controls",
+        "C) Regular cycle counts and expiration checks on procedural kits prevent use of outdated critical drugs",
+        "D) Bypassing smart-pump libraries routinely to save time"
+      ],
+      "answer": "C) Regular cycle counts and expiration checks on procedural kits prevent use of outdated critical drugs",
+      "explanation": "Pharmacy often owns kit quality control processes. The best choice is: Regular cycle counts and expiration checks on procedural kits prevent use of outdated critical drugs. A close rival is: Expiration dating on crash and procedural kits is optional. Distinguisher: Expiration control is mandatory.",
+      "choice_explanations": {
+        "A": "Expiration control is mandatory.",
+        "B": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of Kit and tray check expiration.",
+        "C": "Pharmacy often owns kit quality control processes.",
+        "D": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of Kit and tray check expiration."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Hospital diversion analytics. Key teaching point: Early intervention protects patients and staff. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Use ADC transaction analytics and waste pattern review to detect diversion early",
+        "B) Encouraging PCA by proxy while patients are deeply sedated",
+        "C) Storing concentrated KCl vials widely for convenience IV pushes",
+        "D) Ignore unusual oxycodone withdrawal patterns by a single nurse as always normal"
+      ],
+      "answer": "A) Use ADC transaction analytics and waste pattern review to detect diversion early",
+      "explanation": "Early intervention protects patients and staff. The best choice is: Use ADC transaction analytics and waste pattern review to detect diversion early. A close rival is: Ignore unusual oxycodone withdrawal patterns by a single nurse as always normal. Distinguisher: Analytics are a key diversion detection tool.",
+      "choice_explanations": {
+        "A": "Early intervention protects patients and staff.",
+        "B": "Encouraging PCA by proxy while patients are deeply sedated is unrelated to the key pathophysiology of Hospital diversion analytics.",
+        "C": "Storing concentrated KCl vials widely for convenience IV pushes does not match the mechanism of Hospital diversion analytics.",
+        "D": "Analytics are a key diversion detection tool."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Recall management hospital. Key teaching point: Lot tracking systems speed recall execution. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Quarantine affected lots, notify clinicians, and document patient risk assessment",
+        "B) Encouraging PCA by proxy while patients are deeply sedated",
+        "C) Storing concentrated KCl vials widely for convenience IV pushes",
+        "D) Recalls may be ignored if shelves look tidy"
+      ],
+      "answer": "A) Quarantine affected lots, notify clinicians, and document patient risk assessment",
+      "explanation": "Lot tracking systems speed recall execution. The best choice is: Quarantine affected lots, notify clinicians, and document patient risk assessment. A close rival is: Recalls may be ignored if shelves look tidy. Distinguisher: Rapid quarantine and assessment are mandatory.",
+      "choice_explanations": {
+        "A": "Lot tracking systems speed recall execution.",
+        "B": "Encouraging PCA by proxy while patients are deeply sedated is unrelated to the key pathophysiology of Recall management hospital.",
+        "C": "Storing concentrated KCl vials widely for convenience IV pushes does not match the mechanism of Recall management hospital.",
+        "D": "Rapid quarantine and assessment are mandatory."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Standard concentration IV. Key teaching point: ASHP standardized concentration efforts guide hospitals. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Treating irrigation sterile water as acceptable for IV infusion",
+        "B) Using Vincristine syringes beside IT methotrexate without safeguards",
+        "C) Unlimited unique concentrations per physician preference maximize safety",
+        "D) Limit concentrations of vasoactive, heparin, and insulin infusions to reduce pump errors"
+      ],
+      "answer": "D) Limit concentrations of vasoactive, heparin, and insulin infusions to reduce pump errors",
+      "explanation": "ASHP standardized concentration efforts guide hospitals. The best choice is: Limit concentrations of vasoactive, heparin, and insulin infusions to reduce pump errors. A close rival is: Unlimited unique concentrations per physician preference maximize safety. Distinguisher: Fewer standard concentrations improve safety.",
+      "choice_explanations": {
+        "A": "Treating irrigation sterile water as acceptable for IV infusion is unrelated to the key pathophysiology of Standard concentration IV.",
+        "B": "Using Vincristine syringes beside IT methotrexate without safeguards does not match the mechanism of Standard concentration IV.",
+        "C": "Fewer standard concentrations improve safety.",
+        "D": "ASHP standardized concentration efforts guide hospitals."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Negative pressure HD room. Key teaching point: Containment prevents HD migration out of the suite. Which option best fits this pathophysiology?",
+      "options": [
+        "A) HD sterile compounding should use positive pressure pushing air into corridors",
+        "B) HD sterile compounding in negative-pressure rooms protects adjacent spaces",
+        "C) Encouraging PCA by proxy while patients are deeply sedated",
+        "D) Storing concentrated KCl vials widely for convenience IV pushes"
+      ],
+      "answer": "B) HD sterile compounding in negative-pressure rooms protects adjacent spaces",
+      "explanation": "Containment prevents HD migration out of the suite. The best choice is: HD sterile compounding in negative-pressure rooms protects adjacent spaces. A close rival is: HD sterile compounding should use positive pressure pushing air into corridors. Distinguisher: Negative, not positive, pressure contains HDs.",
+      "choice_explanations": {
+        "A": "Negative, not positive, pressure contains HDs.",
+        "B": "Containment prevents HD migration out of the suite.",
+        "C": "Encouraging PCA by proxy while patients are deeply sedated is unrelated to the key pathophysiology of Negative pressure HD room.",
+        "D": "Storing concentrated KCl vials widely for convenience IV pushes does not match the mechanism of Negative pressure HD room."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Hospital allergen extract compounding. Key teaching point: Beyond-use dating and aseptic rules still apply. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Allergen extracts may be compounded in break rooms without controls",
+        "B) Compounding CSPs on ward sinks without primary engineering controls",
+        "C) Bypassing smart-pump libraries routinely to save time",
+        "D) Specialized sterile allergenic extracts follow dedicated USP provisions and training"
+      ],
+      "answer": "D) Specialized sterile allergenic extracts follow dedicated USP provisions and training",
+      "explanation": "Beyond-use dating and aseptic rules still apply. The best choice is: Specialized sterile allergenic extracts follow dedicated USP provisions and training. A close rival is: Allergen extracts may be compounded in break rooms without controls. Distinguisher: Dedicated controlled processes are required.",
+      "choice_explanations": {
+        "A": "Dedicated controlled processes are required.",
+        "B": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of Hospital allergen extract compounding.",
+        "C": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of Hospital allergen extract compounding.",
+        "D": "Beyond-use dating and aseptic rules still apply."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Telepharmacy hospital. Key teaching point: Video and barcode tools support remote checks. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Compounding CSPs on ward sinks without primary engineering controls",
+        "B) Telepharmacy means zero documentation and no visual verification of products",
+        "C) Bypassing smart-pump libraries routinely to save time",
+        "D) Remote verification of CSPs or orders under regulatory allowances with local technician support"
+      ],
+      "answer": "D) Remote verification of CSPs or orders under regulatory allowances with local technician support",
+      "explanation": "Video and barcode tools support remote checks. The best choice is: Remote verification of CSPs or orders under regulatory allowances with local technician support. A close rival is: Telepharmacy means zero documentation and no visual verification of products. Distinguisher: Proper telepharmacy still requires verification standards.",
+      "choice_explanations": {
+        "A": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of Telepharmacy hospital.",
+        "B": "Proper telepharmacy still requires verification standards.",
+        "C": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of Telepharmacy hospital.",
+        "D": "Video and barcode tools support remote checks."
+      }
+    },
+    {
+      "question": "A student analyzes a case centered on Perioperative hold meds. Key teaching point: SGLT2 holds reduce euglycemic DKA risk around surgery. Which option best fits this pathophysiology?",
+      "options": [
+        "A) Stop all chronic cardiac meds two weeks before every procedure universally",
+        "B) Encouraging PCA by proxy while patients are deeply sedated",
+        "C) Storing concentrated KCl vials widely for convenience IV pushes",
+        "D) Hold selected antidiabetics, SGLT2 inhibitors, and anticoagulants per protocol; continue many beta-blockers and statins"
+      ],
+      "answer": "D) Hold selected antidiabetics, SGLT2 inhibitors, and anticoagulants per protocol; continue many beta-blockers and statins",
+      "explanation": "SGLT2 holds reduce euglycemic DKA risk around surgery. The best choice is: Hold selected antidiabetics, SGLT2 inhibitors, and anticoagulants per protocol; continue many beta-blockers and statins. A close rival is: Stop all chronic cardiac meds two weeks before every procedure universally. Distinguisher: Selective holds beat blanket cessation of all cardiac meds.",
+      "choice_explanations": {
+        "A": "Selective holds beat blanket cessation of all cardiac meds.",
+        "B": "Encouraging PCA by proxy while patients are deeply sedated is unrelated to the key pathophysiology of Perioperative hold meds.",
+        "C": "Storing concentrated KCl vials widely for convenience IV pushes does not match the mechanism of Perioperative hold meds.",
+        "D": "SGLT2 holds reduce euglycemic DKA risk around surgery."
+      }
+    }
+  ],
+  "extreme": [
+    {
+      "question": "In a high-stakes scenario involving Crash cart medications (item 1), findings align with this mechanism: Pharmacy oversees refill and expiration after each use. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Encouraging PCA by proxy while patients are deeply sedated",
+        "B) Crash cart contents may vary randomly by ward without checks",
+        "C) Standardized carts with sealed trays and expiration tracking for codes",
+        "D) Storing concentrated KCl vials widely for convenience IV pushes"
+      ],
+      "answer": "C) Standardized carts with sealed trays and expiration tracking for codes",
+      "explanation": "Pharmacy oversees refill and expiration after each use. The best choice is: Standardized carts with sealed trays and expiration tracking for codes. A close rival is: Crash cart contents may vary randomly by ward without checks. Distinguisher: Standardization and expiration control are essential.",
+      "choice_explanations": {
+        "A": "Encouraging PCA by proxy while patients are deeply sedated is unrelated to the key pathophysiology of Crash cart medications.",
+        "B": "Standardization and expiration control are essential.",
+        "C": "Pharmacy oversees refill and expiration after each use.",
+        "D": "Storing concentrated KCl vials widely for convenience IV pushes does not match the mechanism of Crash cart medications."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Anticoagulation service (item 2), findings align with this mechanism: Pharmacist-managed services improve INR time-in-range. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Manage heparin, warfarin, and DOAC perioperative plans with individualized bridging",
+        "B) Bypassing smart-pump libraries routinely to save time",
+        "C) All patients must receive identical bridging regardless of thrombotic risk",
+        "D) Compounding CSPs on ward sinks without primary engineering controls"
+      ],
+      "answer": "A) Manage heparin, warfarin, and DOAC perioperative plans with individualized bridging",
+      "explanation": "Pharmacist-managed services improve INR time-in-range. The best choice is: Manage heparin, warfarin, and DOAC perioperative plans with individualized bridging. A close rival is: All patients must receive identical bridging regardless of thrombotic risk. Distinguisher: Risk-stratified bridging beats one-size-fits-all.",
+      "choice_explanations": {
+        "A": "Pharmacist-managed services improve INR time-in-range.",
+        "B": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of Anticoagulation service.",
+        "C": "Risk-stratified bridging beats one-size-fits-all.",
+        "D": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of Anticoagulation service."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Epidural bag differentiation (item 3), findings align with this mechanism: Yellow labels commonly flag epidural route. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Identical packaging for epidural bupivacaine and IV bags is ideal",
+        "B) Using Vincristine syringes beside IT methotrexate without safeguards",
+        "C) Treating irrigation sterile water as acceptable for IV infusion",
+        "D) Distinct packaging, labeling, and storage separate epidural solutions from IV bags"
+      ],
+      "answer": "D) Distinct packaging, labeling, and storage separate epidural solutions from IV bags",
+      "explanation": "Yellow labels commonly flag epidural route. The best choice is: Distinct packaging, labeling, and storage separate epidural solutions from IV bags. A close rival is: Identical packaging for epidural bupivacaine and IV bags is ideal. Distinguisher: Look-alike bags are a known fatal hazard.",
+      "choice_explanations": {
+        "A": "Look-alike bags are a known fatal hazard.",
+        "B": "Using Vincristine syringes beside IT methotrexate without safeguards does not match the mechanism of Epidural bag differentiation.",
+        "C": "Treating irrigation sterile water as acceptable for IV infusion is unrelated to the key pathophysiology of Epidural bag differentiation.",
+        "D": "Yellow labels commonly flag epidural route."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Stroke door to needle (item 4), findings align with this mechanism: Weight-based dosing double checks prevent hemorrhage from overdosage. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Alteplase preparation delays are unimportant for outcomes",
+        "B) Treating irrigation sterile water as acceptable for IV infusion",
+        "C) Using Vincristine syringes beside IT methotrexate without safeguards",
+        "D) Pharmacy premix or bedside alteplase workflows shorten door-to-needle times"
+      ],
+      "answer": "D) Pharmacy premix or bedside alteplase workflows shorten door-to-needle times",
+      "explanation": "Weight-based dosing double checks prevent hemorrhage from overdosage. The best choice is: Pharmacy premix or bedside alteplase workflows shorten door-to-needle times. A close rival is: Alteplase preparation delays are unimportant for outcomes. Distinguisher: Time-critical preparation improves stroke outcomes.",
+      "choice_explanations": {
+        "A": "Time-critical preparation improves stroke outcomes.",
+        "B": "Treating irrigation sterile water as acceptable for IV infusion is unrelated to the key pathophysiology of Stroke door to needle.",
+        "C": "Using Vincristine syringes beside IT methotrexate without safeguards does not match the mechanism of Stroke door to needle.",
+        "D": "Weight-based dosing double checks prevent hemorrhage from overdosage."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving OR satellite pharmacy (item 5), findings align with this mechanism: Tray standardization reduces anesthesia medication errors. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Hanging epidural bupivacaine bags on peripheral IV lines freely",
+        "B) OR medication management works best without pharmacy oversight",
+        "C) Satellite OR pharmacies support anesthesia trays, controlled substances, and rapid compounded needs",
+        "D) Ignoring ADC controlled-substance discrepancies when census is high"
+      ],
+      "answer": "C) Satellite OR pharmacies support anesthesia trays, controlled substances, and rapid compounded needs",
+      "explanation": "Tray standardization reduces anesthesia medication errors. The best choice is: Satellite OR pharmacies support anesthesia trays, controlled substances, and rapid compounded needs. A close rival is: OR medication management works best without pharmacy oversight. Distinguisher: Pharmacy oversight improves OR medication safety.",
+      "choice_explanations": {
+        "A": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of OR satellite pharmacy.",
+        "B": "Pharmacy oversight improves OR medication safety.",
+        "C": "Tray standardization reduces anesthesia medication errors.",
+        "D": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of OR satellite pharmacy."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Hospital USP chapter competence (item 6), findings align with this mechanism: Media fills and fingertip tests operationalize competency. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Ignoring ADC controlled-substance discrepancies when census is high",
+        "B) Hanging epidural bupivacaine bags on peripheral IV lines freely",
+        "C) Competency assessment is optional if staff have worked five years",
+        "D) Document training on 795, 797, and 800 for relevant personnel with ongoing assessment"
+      ],
+      "answer": "D) Document training on 795, 797, and 800 for relevant personnel with ongoing assessment",
+      "explanation": "Media fills and fingertip tests operationalize competency. The best choice is: Document training on 795, 797, and 800 for relevant personnel with ongoing assessment. A close rival is: Competency assessment is optional if staff have worked five years. Distinguisher: Ongoing documented competency is required.",
+      "choice_explanations": {
+        "A": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Hospital USP chapter competence.",
+        "B": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Hospital USP chapter competence.",
+        "C": "Ongoing documented competency is required.",
+        "D": "Media fills and fingertip tests operationalize competency."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Sepsis bundle antibiotics (item 7), findings align with this mechanism: Pharmacists streamline first-dose availability from ADC or satellite pharmacies. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Ignoring ADC controlled-substance discrepancies when census is high",
+        "B) Delay antibiotics twelve hours in septic shock until all consulting services round",
+        "C) Rapid appropriate antibiotics after cultures without delaying for nonessential steps",
+        "D) Hanging epidural bupivacaine bags on peripheral IV lines freely"
+      ],
+      "answer": "C) Rapid appropriate antibiotics after cultures without delaying for nonessential steps",
+      "explanation": "Pharmacists streamline first-dose availability from ADC or satellite pharmacies. The best choice is: Rapid appropriate antibiotics after cultures without delaying for nonessential steps. A close rival is: Delay antibiotics twelve hours in septic shock until all consulting services round. Distinguisher: Early antibiotics save lives in septic shock.",
+      "choice_explanations": {
+        "A": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Sepsis bundle antibiotics.",
+        "B": "Early antibiotics save lives in septic shock.",
+        "C": "Pharmacists streamline first-dose availability from ADC or satellite pharmacies.",
+        "D": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Sepsis bundle antibiotics."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Restricted antimicrobials (item 8), findings align with this mechanism: Criteria-based approval improves appropriateness. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Restriction policies forbid any oversight of last-line antibiotics",
+        "B) Storing concentrated KCl vials widely for convenience IV pushes",
+        "C) Encouraging PCA by proxy while patients are deeply sedated",
+        "D) Last-line agents may need ID or ASP approval to preserve activity"
+      ],
+      "answer": "D) Last-line agents may need ID or ASP approval to preserve activity",
+      "explanation": "Criteria-based approval improves appropriateness. The best choice is: Last-line agents may need ID or ASP approval to preserve activity. A close rival is: Restriction policies forbid any oversight of last-line antibiotics. Distinguisher: Restriction increases, not forbids, oversight.",
+      "choice_explanations": {
+        "A": "Restriction increases, not forbids, oversight.",
+        "B": "Storing concentrated KCl vials widely for convenience IV pushes does not match the mechanism of Restricted antimicrobials.",
+        "C": "Encouraging PCA by proxy while patients are deeply sedated is unrelated to the key pathophysiology of Restricted antimicrobials.",
+        "D": "Criteria-based approval improves appropriateness."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Hypoglycemia hospital protocol (item 9), findings align with this mechanism: Root-cause review of recurrent hypoglycemia prevents harm. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Nurse-driven dextrose or glucagon protocols with dose holds and notification rules",
+        "B) Hypoglycemia may be observed without treatment if the next meal is in four hours",
+        "C) Using Vincristine syringes beside IT methotrexate without safeguards",
+        "D) Treating irrigation sterile water as acceptable for IV infusion"
+      ],
+      "answer": "A) Nurse-driven dextrose or glucagon protocols with dose holds and notification rules",
+      "explanation": "Root-cause review of recurrent hypoglycemia prevents harm. The best choice is: Nurse-driven dextrose or glucagon protocols with dose holds and notification rules. A close rival is: Hypoglycemia may be observed without treatment if the next meal is in four hours. Distinguisher: Prompt treatment protocols are required.",
+      "choice_explanations": {
+        "A": "Root-cause review of recurrent hypoglycemia prevents harm.",
+        "B": "Prompt treatment protocols are required.",
+        "C": "Using Vincristine syringes beside IT methotrexate without safeguards does not match the mechanism of Hypoglycemia hospital protocol.",
+        "D": "Treating irrigation sterile water as acceptable for IV infusion is unrelated to the key pathophysiology of Hypoglycemia hospital protocol."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Hospital metric DOT antibiotics (item 10), findings align with this mechanism: DOT per 1000 patient-days benchmarks use over time. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Days of therapy metrics normalize antibiotic use for stewardship dashboards",
+        "B) Ignoring ADC controlled-substance discrepancies when census is high",
+        "C) DOT metrics measure only pharmacy overtime hours",
+        "D) Hanging epidural bupivacaine bags on peripheral IV lines freely"
+      ],
+      "answer": "A) Days of therapy metrics normalize antibiotic use for stewardship dashboards",
+      "explanation": "DOT per 1000 patient-days benchmarks use over time. The best choice is: Days of therapy metrics normalize antibiotic use for stewardship dashboards. A close rival is: DOT metrics measure only pharmacy overtime hours. Distinguisher: DOT is an antibiotic consumption metric.",
+      "choice_explanations": {
+        "A": "DOT per 1000 patient-days benchmarks use over time.",
+        "B": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Hospital metric DOT antibiotics.",
+        "C": "DOT is an antibiotic consumption metric.",
+        "D": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Hospital metric DOT antibiotics."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Concentrated electrolyte ban ward (item 11), findings align with this mechanism: Fatal IV boluses of concentrated KCl drove bans. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Stock undiluted KCl vials widely for convenience nursing IV pushes",
+        "B) Hanging epidural bupivacaine bags on peripheral IV lines freely",
+        "C) Remove concentrated KCl vials from patient care units; use diluted pharmacy premixes",
+        "D) Ignoring ADC controlled-substance discrepancies when census is high"
+      ],
+      "answer": "C) Remove concentrated KCl vials from patient care units; use diluted pharmacy premixes",
+      "explanation": "Fatal IV boluses of concentrated KCl drove bans. The best choice is: Remove concentrated KCl vials from patient care units; use diluted pharmacy premixes. A close rival is: Stock undiluted KCl vials widely for convenience nursing IV pushes. Distinguisher: Premixed diluted potassium is the safety standard.",
+      "choice_explanations": {
+        "A": "Premixed diluted potassium is the safety standard.",
+        "B": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Concentrated electrolyte ban ward.",
+        "C": "Fatal IV boluses of concentrated KCl drove bans.",
+        "D": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Concentrated electrolyte ban ward."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Status epilepticus pathway (item 12), findings align with this mechanism: IV compatibility and infusion rates matter for phenytoin. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Encouraging PCA by proxy while patients are deeply sedated",
+        "B) Bedside benzos then ASM loads with pharmacy-prepared phenytoin or levetiracetam options",
+        "C) Send patients to MRI before any abortive therapy in convulsive status",
+        "D) Storing concentrated KCl vials widely for convenience IV pushes"
+      ],
+      "answer": "B) Bedside benzos then ASM loads with pharmacy-prepared phenytoin or levetiracetam options",
+      "explanation": "IV compatibility and infusion rates matter for phenytoin. The best choice is: Bedside benzos then ASM loads with pharmacy-prepared phenytoin or levetiracetam options. A close rival is: Send patients to MRI before any abortive therapy in convulsive status. Distinguisher: Immediate abortive therapy precedes imaging.",
+      "choice_explanations": {
+        "A": "Encouraging PCA by proxy while patients are deeply sedated is unrelated to the key pathophysiology of Status epilepticus pathway.",
+        "B": "IV compatibility and infusion rates matter for phenytoin.",
+        "C": "Immediate abortive therapy precedes imaging.",
+        "D": "Storing concentrated KCl vials widely for convenience IV pushes does not match the mechanism of Status epilepticus pathway."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Media fill testing (item 13), findings align with this mechanism: Growth indicates technique or environmental failure needing remediation. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Media fills are unrelated to aseptic qualification",
+        "B) Encouraging PCA by proxy while patients are deeply sedated",
+        "C) Storing concentrated KCl vials widely for convenience IV pushes",
+        "D) Aseptic process simulation with culture media verifies personnel technique periodically"
+      ],
+      "answer": "D) Aseptic process simulation with culture media verifies personnel technique periodically",
+      "explanation": "Growth indicates technique or environmental failure needing remediation. The best choice is: Aseptic process simulation with culture media verifies personnel technique periodically. A close rival is: Media fills are unrelated to aseptic qualification. Distinguisher: Media fills are core competency assessments.",
+      "choice_explanations": {
+        "A": "Media fills are core competency assessments.",
+        "B": "Encouraging PCA by proxy while patients are deeply sedated is unrelated to the key pathophysiology of Media fill testing.",
+        "C": "Storing concentrated KCl vials widely for convenience IV pushes does not match the mechanism of Media fill testing.",
+        "D": "Growth indicates technique or environmental failure needing remediation."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Lipid emulsion caution (item 14), findings align with this mechanism: Infusion duration limits reduce infection risk. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Lipid emulsions never support microbial growth",
+        "B) Compounding CSPs on ward sinks without primary engineering controls",
+        "C) Bypassing smart-pump libraries routinely to save time",
+        "D) Monitor triglycerides; respect infusion time limits because lipids can support microbial growth"
+      ],
+      "answer": "D) Monitor triglycerides; respect infusion time limits because lipids can support microbial growth",
+      "explanation": "Infusion duration limits reduce infection risk. The best choice is: Monitor triglycerides; respect infusion time limits because lipids can support microbial growth. A close rival is: Lipid emulsions never support microbial growth. Distinguisher: Lipids can support growth; time limits matter.",
+      "choice_explanations": {
+        "A": "Lipids can support growth; time limits matter.",
+        "B": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of Lipid emulsion caution.",
+        "C": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of Lipid emulsion caution.",
+        "D": "Infusion duration limits reduce infection risk."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Malignant hyperthermia cart (item 15), findings align with this mechanism: Pharmacists help reconstitute dantrolene rapidly during crises. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) MH carts are unnecessary if the OR has acetaminophen",
+        "B) Dantrolene availability and mixed-role drills for MH crises in perioperative areas",
+        "C) Ignoring ADC controlled-substance discrepancies when census is high",
+        "D) Hanging epidural bupivacaine bags on peripheral IV lines freely"
+      ],
+      "answer": "B) Dantrolene availability and mixed-role drills for MH crises in perioperative areas",
+      "explanation": "Pharmacists help reconstitute dantrolene rapidly during crises. The best choice is: Dantrolene availability and mixed-role drills for MH crises in perioperative areas. A close rival is: MH carts are unnecessary if the OR has acetaminophen. Distinguisher: Dantrolene readiness is essential where triggers are used.",
+      "choice_explanations": {
+        "A": "Dantrolene readiness is essential where triggers are used.",
+        "B": "Pharmacists help reconstitute dantrolene rapidly during crises.",
+        "C": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Malignant hyperthermia cart.",
+        "D": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Malignant hyperthermia cart."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Home medication identification (item 16), findings align with this mechanism: Unidentified products must not be administered. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Nurses should crush any unidentified home tablet into food without identification",
+        "B) Ignoring ADC controlled-substance discrepancies when census is high",
+        "C) Hanging epidural bupivacaine bags on peripheral IV lines freely",
+        "D) Pharmacists identify patient-own meds before continued use under policy"
+      ],
+      "answer": "D) Pharmacists identify patient-own meds before continued use under policy",
+      "explanation": "Unidentified products must not be administered. The best choice is: Pharmacists identify patient-own meds before continued use under policy. A close rival is: Nurses should crush any unidentified home tablet into food without identification. Distinguisher: Positive identification is required before use.",
+      "choice_explanations": {
+        "A": "Positive identification is required before use.",
+        "B": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Home medication identification.",
+        "C": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Home medication identification.",
+        "D": "Unidentified products must not be administered."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Antibiotic timeout (item 17), findings align with this mechanism: Timeouts prompt stop, narrow, or continue decisions. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Never reassess empiric antibiotics once started",
+        "B) Compounding CSPs on ward sinks without primary engineering controls",
+        "C) Reassess empiric antibiotics at 48 to 72 hours with cultures and clinical status",
+        "D) Bypassing smart-pump libraries routinely to save time"
+      ],
+      "answer": "C) Reassess empiric antibiotics at 48 to 72 hours with cultures and clinical status",
+      "explanation": "Timeouts prompt stop, narrow, or continue decisions. The best choice is: Reassess empiric antibiotics at 48 to 72 hours with cultures and clinical status. A close rival is: Never reassess empiric antibiotics once started. Distinguisher: Reassessment is a stewardship pillar.",
+      "choice_explanations": {
+        "A": "Reassessment is a stewardship pillar.",
+        "B": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of Antibiotic timeout.",
+        "C": "Timeouts prompt stop, narrow, or continue decisions.",
+        "D": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of Antibiotic timeout."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Opioid stewardship hospital (item 18), findings align with this mechanism: Pharmacists audit high-dose opioid orders and sedation events. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Compounding CSPs on ward sinks without primary engineering controls",
+        "B) Multimodal analgesia, appropriate PCA settings, and naloxone rescue readiness",
+        "C) IV full-agonist opioids alone without acetaminophen or NSAID multimodal options for every patient always",
+        "D) Bypassing smart-pump libraries routinely to save time"
+      ],
+      "answer": "B) Multimodal analgesia, appropriate PCA settings, and naloxone rescue readiness",
+      "explanation": "Pharmacists audit high-dose opioid orders and sedation events. The best choice is: Multimodal analgesia, appropriate PCA settings, and naloxone rescue readiness. A close rival is: IV full-agonist opioids alone without acetaminophen or NSAID multimodal options for every patient always. Distinguisher: Multimodal strategies reduce opioid burden.",
+      "choice_explanations": {
+        "A": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of Opioid stewardship hospital.",
+        "B": "Pharmacists audit high-dose opioid orders and sedation events.",
+        "C": "Multimodal strategies reduce opioid burden.",
+        "D": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of Opioid stewardship hospital."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Multi dose vial dating (item 19), findings align with this mechanism: Dedicated MDVs per patient are preferred on care units when possible. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) MDVs contain preservative; date after opening unless manufacturer states otherwise",
+        "B) MDVs never need beyond-use dating after first puncture",
+        "C) Hanging epidural bupivacaine bags on peripheral IV lines freely",
+        "D) Ignoring ADC controlled-substance discrepancies when census is high"
+      ],
+      "answer": "A) MDVs contain preservative; date after opening unless manufacturer states otherwise",
+      "explanation": "Dedicated MDVs per patient are preferred on care units when possible. The best choice is: MDVs contain preservative; date after opening unless manufacturer states otherwise. A close rival is: MDVs never need beyond-use dating after first puncture. Distinguisher: Opened MDVs require dating controls.",
+      "choice_explanations": {
+        "A": "Dedicated MDVs per patient are preferred on care units when possible.",
+        "B": "Opened MDVs require dating controls.",
+        "C": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Multi dose vial dating.",
+        "D": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Multi dose vial dating."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Calcium phosphate precip (item 20), findings align with this mechanism: Amino acid buffering and sequence affect solubility. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Compounding CSPs on ward sinks without primary engineering controls",
+        "B) Calcium and phosphate are always safely mixed at any concentration without limits",
+        "C) Bypassing smart-pump libraries routinely to save time",
+        "D) pH, concentrations, and mixing order drive calcium-phosphate precipitation risk in TPN"
+      ],
+      "answer": "D) pH, concentrations, and mixing order drive calcium-phosphate precipitation risk in TPN",
+      "explanation": "Amino acid buffering and sequence affect solubility. The best choice is: pH, concentrations, and mixing order drive calcium-phosphate precipitation risk in TPN. A close rival is: Calcium and phosphate are always safely mixed at any concentration without limits. Distinguisher: Calcium-phosphate precipitation is a classic lethal risk if ignored.",
+      "choice_explanations": {
+        "A": "Compounding CSPs on ward sinks without primary engineering controls does not match the mechanism of Calcium phosphate precip.",
+        "B": "Calcium-phosphate precipitation is a classic lethal risk if ignored.",
+        "C": "Bypassing smart-pump libraries routinely to save time is unrelated to the key pathophysiology of Calcium phosphate precip.",
+        "D": "Amino acid buffering and sequence affect solubility."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving ICU sedation stewardship (item 21), findings align with this mechanism: Pharmacists help select agents and weaning strategies. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Protocols for SAT and SBT and avoiding oversedation reduce delirium and ventilation days",
+        "B) Continuous deep sedation without pauses is ideal for all ICU patients forever",
+        "C) Encouraging PCA by proxy while patients are deeply sedated",
+        "D) Storing concentrated KCl vials widely for convenience IV pushes"
+      ],
+      "answer": "A) Protocols for SAT and SBT and avoiding oversedation reduce delirium and ventilation days",
+      "explanation": "Pharmacists help select agents and weaning strategies. The best choice is: Protocols for SAT and SBT and avoiding oversedation reduce delirium and ventilation days. A close rival is: Continuous deep sedation without pauses is ideal for all ICU patients forever. Distinguisher: Lighter interruptible sedation is preferred when appropriate.",
+      "choice_explanations": {
+        "A": "Pharmacists help select agents and weaning strategies.",
+        "B": "Lighter interruptible sedation is preferred when appropriate.",
+        "C": "Encouraging PCA by proxy while patients are deeply sedated is unrelated to the key pathophysiology of ICU sedation stewardship.",
+        "D": "Storing concentrated KCl vials widely for convenience IV pushes does not match the mechanism of ICU sedation stewardship."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Profiled ADC (item 22), findings align with this mechanism: Emergent override pathways exist with retrospective review. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Storing concentrated KCl vials widely for convenience IV pushes",
+        "B) Encouraging PCA by proxy while patients are deeply sedated",
+        "C) Nurses usually remove meds only after pharmacist verification appears on the profile",
+        "D) Profiled means anyone may remove any drug without orders"
+      ],
+      "answer": "C) Nurses usually remove meds only after pharmacist verification appears on the profile",
+      "explanation": "Emergent override pathways exist with retrospective review. The best choice is: Nurses usually remove meds only after pharmacist verification appears on the profile. A close rival is: Profiled means anyone may remove any drug without orders. Distinguisher: Verification-before-remove is the profiled model.",
+      "choice_explanations": {
+        "A": "Storing concentrated KCl vials widely for convenience IV pushes does not match the mechanism of Profiled ADC.",
+        "B": "Encouraging PCA by proxy while patients are deeply sedated is unrelated to the key pathophysiology of Profiled ADC.",
+        "C": "Emergent override pathways exist with retrospective review.",
+        "D": "Verification-before-remove is the profiled model."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving BSA dosing chemo (item 23), findings align with this mechanism: Incorrect height or weight propagates dosing errors. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Many cytotoxics dose by BSA; verify height and weight measurements used",
+        "B) BSA is irrelevant if the vial size looks close",
+        "C) Ignoring ADC controlled-substance discrepancies when census is high",
+        "D) Hanging epidural bupivacaine bags on peripheral IV lines freely"
+      ],
+      "answer": "A) Many cytotoxics dose by BSA; verify height and weight measurements used",
+      "explanation": "Incorrect height or weight propagates dosing errors. The best choice is: Many cytotoxics dose by BSA; verify height and weight measurements used. A close rival is: BSA is irrelevant if the vial size looks close. Distinguisher: Accurate anthropometrics are required.",
+      "choice_explanations": {
+        "A": "Incorrect height or weight propagates dosing errors.",
+        "B": "Accurate anthropometrics are required.",
+        "C": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of BSA dosing chemo.",
+        "D": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of BSA dosing chemo."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Auxiliary labels hospital (item 24), findings align with this mechanism: Consistent iconography improves recognition. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Ignoring ADC controlled-substance discrepancies when census is high",
+        "B) Auxiliary labels confuse nurses and should never be used",
+        "C) Highlight route, HD status, refrigeration, filter needs, and high-alert warnings",
+        "D) Hanging epidural bupivacaine bags on peripheral IV lines freely"
+      ],
+      "answer": "C) Highlight route, HD status, refrigeration, filter needs, and high-alert warnings",
+      "explanation": "Consistent iconography improves recognition. The best choice is: Highlight route, HD status, refrigeration, filter needs, and high-alert warnings. A close rival is: Auxiliary labels confuse nurses and should never be used. Distinguisher: Auxiliary warnings are a safety tool.",
+      "choice_explanations": {
+        "A": "Ignoring ADC controlled-substance discrepancies when census is high is unrelated to the key pathophysiology of Auxiliary labels hospital.",
+        "B": "Auxiliary warnings are a safety tool.",
+        "C": "Consistent iconography improves recognition.",
+        "D": "Hanging epidural bupivacaine bags on peripheral IV lines freely does not match the mechanism of Auxiliary labels hospital."
+      }
+    },
+    {
+      "question": "In a high-stakes scenario involving Smart order sets (item 25), findings align with this mechanism: Maintenance of order sets is a pharmacy and P&T duty. Which choice is the single best interpretation or action concept?",
+      "options": [
+        "A) Using Vincristine syringes beside IT methotrexate without safeguards",
+        "B) Order sets should omit allergy and interaction checks to save clicks",
+        "C) Evidence-based order sets embed dose limits, labs, and monitoring defaults",
+        "D) Treating irrigation sterile water as acceptable for IV infusion"
+      ],
+      "answer": "C) Evidence-based order sets embed dose limits, labs, and monitoring defaults",
+      "explanation": "Maintenance of order sets is a pharmacy and P&T duty. The best choice is: Evidence-based order sets embed dose limits, labs, and monitoring defaults. A close rival is: Order sets should omit allergy and interaction checks to save clicks. Distinguisher: Clinical decision support belongs in order sets.",
+      "choice_explanations": {
+        "A": "Using Vincristine syringes beside IT methotrexate without safeguards does not match the mechanism of Smart order sets.",
+        "B": "Clinical decision support belongs in order sets.",
+        "C": "Maintenance of order sets is a pharmacy and P&T duty.",
+        "D": "Treating irrigation sterile water as acceptable for IV infusion is unrelated to the key pathophysiology of Smart order sets."
+      }
+    }
+  ]
+}
