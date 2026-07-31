@@ -60,7 +60,9 @@ from quiz_session import (
     COUNT_OPTIONS,
     DAILY_LIMIT,
     DailyUsageStore,
+    SeenQuestionsStore,
     allowed_counts,
+    bank_question_ids,
     build_difficulty_queue,
     count_menu_text,
     daily_limit_text,
@@ -68,6 +70,7 @@ from quiz_session import (
     parse_count,
     parse_level,
     session_complete_text,
+    specialty_bank_total,
 )
 
 load_dotenv(Path(__file__).resolve().parent / ".env")
@@ -76,6 +79,7 @@ BOT_TOKEN = os.getenv("NURSING_BOT_TOKEN") or os.getenv("BOT_TOKEN")
 
 ROOT = Path(__file__).resolve().parent
 USAGE_STORE = DailyUsageStore(ROOT / "data" / "daily_mcq_usage.json")
+SEEN_STORE = SeenQuestionsStore(ROOT / "data" / "seen_questions.json")
 
 BTN_MCQ = "Short MCQ"
 BTN_CASE = "Case-based Question"
@@ -297,11 +301,59 @@ async def show_difficulty_menu(
     )
 
 
+def question_id_for(specialty_key: str, difficulty: str, idx: int, item: dict | None = None) -> str:
+    if item and item.get("id"):
+        return str(item["id"])
+    return f"{specialty_key}:{difficulty}:{idx}"
+
+
+def bank_stats(user_id: int, specialty_key: str) -> tuple[int, int]:
+    ids = bank_question_ids(SPECIALTIES, specialty_key)
+    total = len(ids)
+    unseen = SEEN_STORE.unseen_count(user_id, specialty_key, ids)
+    return total, unseen
+
+
+def pick_unseen_question(user_id: int, specialty_key: str, preferred_difficulty: str) -> tuple[str, int, dict]:
+    """Return (difficulty, idx, item) never seen by this user; reset specialty when exhausted."""
+    ids = bank_question_ids(SPECIALTIES, specialty_key)
+    if ids and SEEN_STORE.unseen_count(user_id, specialty_key, ids) == 0:
+        SEEN_STORE.reset_specialty(user_id, specialty_key)
+
+    seen = SEEN_STORE.seen_set(user_id, specialty_key)
+
+    def candidates(diff: str) -> list[tuple[str, int, dict]]:
+        items = SPECIALTIES[specialty_key]["questions"][diff]
+        out = []
+        for i, item in enumerate(items):
+            qid = question_id_for(specialty_key, diff, i, item)
+            if qid not in seen:
+                out.append((diff, i, item))
+        return out
+
+    pool = candidates(preferred_difficulty)
+    if not pool:
+        for diff in DIFFICULTIES:
+            if diff == preferred_difficulty:
+                continue
+            pool = candidates(diff)
+            if pool:
+                break
+    if not pool:
+        # absolute fallback
+        items = SPECIALTIES[specialty_key]["questions"][preferred_difficulty]
+        return preferred_difficulty, 0, items[0]
+    import random as _random
+
+    return _random.choice(pool)
+
+
 async def show_count_menu(update: Update, context: ContextTypes.DEFAULT_TYPE, specialty_key: str) -> None:
     user = update.effective_user
     if not user:
         return
     remaining = USAGE_STORE.remaining(user.id, specialty_key)
+    bank_total, unseen = bank_stats(user.id, specialty_key)
     label = specialty_label(specialty_key)
     context.user_data["specialty"] = specialty_key
     context.user_data["quiz_mode"] = "question"
@@ -312,17 +364,19 @@ async def show_count_menu(update: Update, context: ContextTypes.DEFAULT_TYPE, sp
     if remaining <= 0:
         await safe_reply(
             update,
-            daily_limit_text(label),
+            daily_limit_text(label, bank_total=bank_total),
             reply_markup=feature_keyboard(),
         )
         clear_mcq_session(context)
         context.user_data["quiz_mode"] = None
         return
 
+    # Cap available counts by unseen as well
+    available = min(remaining, unseen if unseen > 0 else remaining)
     await safe_reply(
         update,
-        count_menu_text(label, remaining),
-        reply_markup=count_keyboard(remaining),
+        count_menu_text(label, remaining, bank_total=bank_total, unseen_total=unseen),
+        reply_markup=count_keyboard(available),
     )
 
 
@@ -333,6 +387,7 @@ async def show_level_menu(
     if not user:
         return
     remaining = USAGE_STORE.remaining(user.id, specialty_key)
+    bank_total, unseen = bank_stats(user.id, specialty_key)
     label = specialty_label(specialty_key)
     context.user_data["specialty"] = specialty_key
     context.user_data["quiz_mode"] = "question"
@@ -340,7 +395,9 @@ async def show_level_menu(
     context.user_data["mcq_count"] = count
     await safe_reply(
         update,
-        level_menu_text(label, count, remaining),
+        level_menu_text(
+            label, count, remaining, bank_total=bank_total, unseen_total=unseen
+        ),
         reply_markup=level_keyboard(),
     )
 
@@ -402,14 +459,24 @@ async def start_mcq_session(
     if not user:
         return
     remaining = USAGE_STORE.remaining(user.id, specialty_key)
+    bank_total, unseen = bank_stats(user.id, specialty_key)
     label = specialty_label(specialty_key)
     if remaining <= 0:
-        await safe_reply(update, daily_limit_text(label), reply_markup=feature_keyboard())
+        await safe_reply(
+            update, daily_limit_text(label, bank_total=bank_total), reply_markup=feature_keyboard()
+        )
         clear_mcq_session(context)
         context.user_data["quiz_mode"] = None
         return
-    if count > remaining:
-        count = remaining
+    # Never exceed daily remaining or unseen bank
+    count = min(count, remaining, unseen if unseen > 0 else count)
+    if count <= 0:
+        await safe_reply(
+            update,
+            f"No unseen questions left right now for *{label}*. Bank total: *{bank_total}*.",
+            reply_markup=feature_keyboard(),
+        )
+        return
 
     queue = build_difficulty_queue(count, level)
     context.user_data["mcq_session"] = {
@@ -441,11 +508,15 @@ async def send_session_question(
         return
 
     remaining = USAGE_STORE.remaining(user.id, specialty_key)
+    bank_total, unseen = bank_stats(user.id, specialty_key)
     label = specialty_label(specialty_key)
     if remaining <= 0 or session["index"] >= session["count"]:
         session["active"] = False
         left = USAGE_STORE.remaining(user.id, specialty_key)
-        text = session_complete_text(label, session, left)
+        bank_total, unseen = bank_stats(user.id, specialty_key)
+        text = session_complete_text(
+            label, session, left, bank_total=bank_total, unseen_total=unseen
+        )
         clear_mcq_session(context)
         context.user_data["quiz_mode"] = None
         if reply_to_message is not None:
@@ -454,12 +525,9 @@ async def send_session_question(
             await safe_reply(update, text, reply_markup=feature_keyboard())
         return
 
-    difficulty = session["queue"][session["index"]]
-    store = remaining_map(context, "remaining_questions")
-    key = pool_key(specialty_key, difficulty)
-    pool_remaining = store.get(key)
-    idx, item, pool_remaining = pick_question(specialty_key, difficulty, pool_remaining)
-    store[key] = pool_remaining
+    preferred = session["queue"][session["index"]]
+    difficulty, idx, item = pick_unseen_question(user.id, specialty_key, preferred)
+    qid = question_id_for(specialty_key, difficulty, idx, item)
 
     context.user_data["difficulty"] = difficulty
     context.user_data.setdefault("cb_spec", {})[specialty_key[:8]] = specialty_key
@@ -468,6 +536,7 @@ async def send_session_question(
     presented = context.user_data.setdefault("presented_questions", {})
     presented[f"{specialty_key}:{difficulty}:{idx}"] = item
 
+    SEEN_STORE.mark_seen(user.id, specialty_key, qid)
     USAGE_STORE.increment(user.id, specialty_key, 1)
     prompt = _prompt_with_progress(item, label, difficulty, session)
     markup = question_keyboard(specialty_key, difficulty, idx, item)
@@ -603,22 +672,32 @@ async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
             return
         user = update.effective_user
         remaining = USAGE_STORE.remaining(user.id, spec) if user else 0
+        bank_total, unseen = bank_stats(user.id, spec) if user else (0, 0)
+        available = min(remaining, unseen if unseen > 0 else remaining)
         if count is None:
             await safe_reply(
                 update,
                 "Please choose *5*, *10*, *15*, or *20* questions.",
-                reply_markup=count_keyboard(remaining),
+                reply_markup=count_keyboard(available),
             )
             return
         if remaining <= 0:
-            await safe_reply(update, daily_limit_text(specialty_label(spec)), reply_markup=feature_keyboard())
-            clear_mcq_session(context)
-            return
-        if count > remaining:
             await safe_reply(
                 update,
-                f"Only *{remaining}* questions left today for this specialty. Choose an allowed count.",
-                reply_markup=count_keyboard(remaining),
+                daily_limit_text(specialty_label(spec), bank_total=bank_total),
+                reply_markup=feature_keyboard(),
+            )
+            clear_mcq_session(context)
+            return
+        if count > available:
+            await safe_reply(
+                update,
+                (
+                    f"Only *{available}* questions available now "
+                    f"(today left *{remaining}*, unseen *{unseen}*, bank total *{bank_total}*). "
+                    f"Choose an allowed count."
+                ),
+                reply_markup=count_keyboard(available),
             )
             return
         await show_level_menu(update, context, spec, count)

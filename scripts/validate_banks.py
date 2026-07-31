@@ -14,7 +14,12 @@ BANNED = re.compile(
     r"item\s*#?\s*\d+|single best answer|beware of near-miss|"
     r"choose the most accurate option and beware|in clinical practice regarding|"
     r"which statement best matches the core concept|"
-    r"which choice is the single best|key teaching point:",
+    r"which choice is the single best|key teaching point:|"
+    r"incomplete data|competing explanations|closely related alternatives|"
+    r"primary driver|unifies the|overall (picture|clinical picture)|"
+    r"after synthesizing|pathophysiologic reasoning|high-acuity|"
+    r"presentation related to|features linked to|diagnostic uncertainty|"
+    r"near-miss|short vignette|which option is most|history suggestive of",
     re.I,
 )
 
