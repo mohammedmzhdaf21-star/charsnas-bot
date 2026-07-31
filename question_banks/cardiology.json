@@ -2,7 +2,7 @@
   "easy": [
     {
       "id": "cardiology:easy:0",
-      "question": "Which of the following best characterizes the surface ECG?",
+      "question": "Which of the following is true about the surface ECG?",
       "options": [
         "A) JVP measures LVEF directly",
         "B) Surface ECG directly measures coronary blood-flow velocity",
@@ -20,7 +20,7 @@
     },
     {
       "id": "cardiology:easy:1",
-      "question": "Which finding is most consistent with stable angina?",
+      "question": "Which finding is expected in stable angina?",
       "options": [
         "A) Pericarditis always exertional and relieved only by nitrates",
         "B) Prolonged rest pain with diaphoresis suggesting ACS",
@@ -38,7 +38,7 @@
     },
     {
       "id": "cardiology:easy:2",
-      "question": "Which of the following statements about aspirin in acute coronary syndrome is most accurate?",
+      "question": "Which of the following statements about aspirin in ACS is correct?",
       "options": [
         "A) Reversible COX-2 selective anti-inflammatory effect as the ACS mechanism",
         "B) Prolonged rest pain with diaphoresis suggesting ACS",
@@ -56,7 +56,7 @@
     },
     {
       "id": "cardiology:easy:3",
-      "question": "In patients with inferior STEMI, which of the following is most correct?",
+      "question": "In clinical examination related to inferior STEMI, which of the following is correct?",
       "options": [
         "A) ST elevation in I/aVL means isolated RV infarct",
         "B) ST elevation in II, III, aVF localizes to inferior wall (often RCA)",
@@ -74,7 +74,7 @@
     },
     {
       "id": "cardiology:easy:4",
-      "question": "Which of the following is the hallmark feature of mitral regurgitation?",
+      "question": "Which of the following best describes mitral regurgitation?",
       "options": [
         "A) AS presents as holosystolic apical murmur to axilla like MR",
         "B) Crescendo-decrescendo systolic murmur to the carotids from AS",
@@ -92,7 +92,7 @@
     },
     {
       "id": "cardiology:easy:5",
-      "question": "Which description most accurately matches sublingual nitroglycerin in angina?",
+      "question": "Select the correct statement about sublingual nitroglycerin in angina.",
       "options": [
         "A) Sublingual nitroglycerin reduces preload and ischemic pain if safe",
         "B) Prolonged rest pain with diaphoresis suggesting ACS",
@@ -110,7 +110,7 @@
     },
     {
       "id": "cardiology:easy:6",
-      "question": "Regarding right ventricular infarction, which of the following is most accurate?",
+      "question": "Which mechanism accounts for right ventricular infarction?",
       "options": [
         "A) ST elevation in I/aVL means isolated RV infarct",
         "B) Inferior MI + clear lungs always means isolated LV failure needing more nitrates",
@@ -128,7 +128,7 @@
     },
     {
       "id": "cardiology:easy:7",
-      "question": "Which of the following mechanisms best explains beta-blocker therapy in HFrEF?",
+      "question": "Which of the following applies to beta-blocker therapy in HFrEF?",
       "options": [
         "A) Treats hypokalemia as intended primary HF benefit",
         "B) Evidence-based beta-blocker with proven HFrEF mortality benefit",
@@ -146,7 +146,7 @@
     },
     {
       "id": "cardiology:easy:8",
-      "question": "Which of the following best characterizes new left bundle branch block with ischemic symptoms?",
+      "question": "Which of the following is true of new left bundle branch block with ischemic symptoms?",
       "options": [
         "A) Any troponin rise always equals STEMI needing fibrinolysis",
         "B) New LBBB with ischemic symptoms can be treated as STEMI equivalent",
@@ -164,7 +164,7 @@
     },
     {
       "id": "cardiology:easy:9",
-      "question": "Which finding is most consistent with type A dissection caution?",
+      "question": "Which finding is expected in type A dissection caution?",
       "options": [
         "A) Aspirin always equals full anticoagulation for AF",
         "B) Tearing pain and pulse deficit → exclude type A dissection before full ACS Rx",
@@ -182,7 +182,7 @@
     },
     {
       "id": "cardiology:easy:10",
-      "question": "Which of the following statements about unstable angina is most accurate?",
+      "question": "Which of the following statements about unstable angina is correct?",
       "options": [
         "A) Rest or crescendo angina from plaque instability without biomarker necrosis",
         "B) Troponin-negative exertional angina only",
@@ -200,7 +200,7 @@
     },
     {
       "id": "cardiology:easy:11",
-      "question": "In patients with NSTEMI, which of the following is most correct?",
+      "question": "In NSTEMI, which of the following is correct?",
       "options": [
         "A) Troponin-negative exertional angina only",
         "B) STEMI with persistent ST elevation requiring immediate reperfusion",
@@ -218,7 +218,7 @@
     },
     {
       "id": "cardiology:easy:12",
-      "question": "Which of the following is the hallmark feature of anterior STEMI?",
+      "question": "Which of the following best describes anterior STEMI?",
       "options": [
         "A) ST elevation in V2–V4 suggests LAD/anterior territory",
         "B) ST elevation in V2–V4 suggests isolated RCA inferior infarct",
@@ -236,7 +236,7 @@
     },
     {
       "id": "cardiology:easy:13",
-      "question": "Which description most accurately matches lateral STEMI?",
+      "question": "Select the correct statement about lateral STEMI.",
       "options": [
         "A) ST elevation in I, aVL ± V5–V6 suggests lateral wall (often LCx)",
         "B) ST elevation in V2–V4 suggests isolated RCA inferior infarct",
@@ -254,7 +254,7 @@
     },
     {
       "id": "cardiology:easy:14",
-      "question": "Regarding primary PCI for STEMI, which of the following is most accurate?",
+      "question": "Which mechanism accounts for primary PCI for STEMI?",
       "options": [
         "A) Fibrinolysis always preferred over PCI even when PCI immediately available",
         "B) Any troponin rise always equals STEMI needing fibrinolysis",
@@ -272,7 +272,7 @@
     },
     {
       "id": "cardiology:easy:15",
-      "question": "Which of the following mechanisms best explains dual antiplatelet therapy after coronary stenting?",
+      "question": "Which of the following applies to dual antiplatelet therapy after coronary stenting?",
       "options": [
         "A) Reversible COX-2 selective anti-inflammatory effect as the ACS mechanism",
         "B) Beta-blockers contraindicated in all post-MI patients forever",
@@ -290,7 +290,7 @@
     },
     {
       "id": "cardiology:easy:16",
-      "question": "Which of the following best characterizes post-MI beta-blocker?",
+      "question": "Which of the following is true of post-MI beta-blocker?",
       "options": [
         "A) Beta-blockers contraindicated in all post-MI patients forever",
         "B) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT",
@@ -308,7 +308,7 @@
     },
     {
       "id": "cardiology:easy:17",
-      "question": "Which finding is most consistent with ACE inhibitor therapy after MI with heart failure?",
+      "question": "Which finding is expected in ACE inhibitor therapy after MI with heart failure?",
       "options": [
         "A) Beta-blockers contraindicated in all post-MI patients forever",
         "B) ACEi used only for cough suppression after MI",
@@ -326,7 +326,7 @@
     },
     {
       "id": "cardiology:easy:18",
-      "question": "Which of the following statements about high-intensity statin ACS is most accurate?",
+      "question": "Which of the following statements about high-intensity statin ACS is correct?",
       "options": [
         "A) Replaces ICD in secondary prevention VT",
         "B) Treats hyperkalemia as primary therapy",
@@ -344,7 +344,7 @@
     },
     {
       "id": "cardiology:easy:19",
-      "question": "In patients with tamponade triad, which of the following is most correct?",
+      "question": "In tamponade triad, which of the following is correct?",
       "options": [
         "A) Hypertension with bounding pulses is the classic tamponade triad",
         "B) Hypotension, raised JVP, muffled sounds ± electrical alternans suggest tamponade",
@@ -362,7 +362,7 @@
     },
     {
       "id": "cardiology:easy:20",
-      "question": "Which of the following is the hallmark feature of electrical alternans?",
+      "question": "Which of the following best describes electrical alternans?",
       "options": [
         "A) PR prolongation always equals complete heart block",
         "B) Beat-to-beat QRS amplitude change suggests swinging heart in large effusion",
@@ -380,7 +380,7 @@
     },
     {
       "id": "cardiology:easy:21",
-      "question": "Which description most accurately matches unstable AF cardioversion?",
+      "question": "Select the correct statement about unstable AF cardioversion.",
       "options": [
         "A) Unstable AF should first get only oral digoxin and observe hours",
         "B) Unstable VT observed 1 hour before any therapy",
@@ -398,7 +398,7 @@
     },
     {
       "id": "cardiology:easy:22",
-      "question": "Regarding preexcited AF, which of the following is most accurate?",
+      "question": "Which mechanism accounts for preexcited AF?",
       "options": [
         "A) All WCTs are SVT with aberrancy and get verapamil first",
         "B) IV verapamil first-line for irregular wide-complex preexcited AF",
@@ -416,7 +416,7 @@
     },
     {
       "id": "cardiology:easy:23",
-      "question": "Which of the following mechanisms best explains regular wide-complex tachycardia?",
+      "question": "Which of the following applies to regular wide-complex tachycardia?",
       "options": [
         "A) All WCTs are SVT with aberrancy and get verapamil first",
         "B) Regular wide-complex tachycardia treated as VT until proven otherwise",
@@ -434,7 +434,7 @@
     },
     {
       "id": "cardiology:easy:24",
-      "question": "Which of the following best characterizes pulseless ventricular tachycardia or fibrillation?",
+      "question": "Which of the following is true of pulseless ventricular tachycardia or fibrillation?",
       "options": [
         "A) Pulseless VT/VF needs immediate defibrillation/CPR",
         "B) Unstable VT observed 1 hour before any therapy",
@@ -452,7 +452,7 @@
     },
     {
       "id": "cardiology:easy:25",
-      "question": "Which finding is most consistent with symptomatic bradycardia?",
+      "question": "Which finding is expected in symptomatic bradycardia?",
       "options": [
         "A) Atropine is first therapy for VF",
         "B) Symptomatic sinus bradycardia may respond to atropine while preparing pacing",
@@ -470,7 +470,7 @@
     },
     {
       "id": "cardiology:easy:26",
-      "question": "Which of the following statements about cHB pacing is most accurate?",
+      "question": "Which of the following statements about CHB pacing is correct?",
       "options": [
         "A) High-grade AV block with instability needs temporary pacing readiness",
         "B) Any BP >140 always requires immediate ICU nitroprusside",
@@ -488,7 +488,7 @@
     },
     {
       "id": "cardiology:easy:27",
-      "question": "In patients with severe symptomatic aortic stenosis, which of the following is most correct?",
+      "question": "In clinical examination related to severe symptomatic aortic stenosis, which of the following is correct?",
       "options": [
         "A) Syncope, angina, HF with harsh SEM to carotids",
         "B) Only holosystolic apical to axilla like MR",
@@ -506,7 +506,7 @@
     },
     {
       "id": "cardiology:easy:28",
-      "question": "Which of the following is the hallmark feature of mitral stenosis?",
+      "question": "Which of the following best describes mitral stenosis?",
       "options": [
         "A) AS presents as holosystolic apical murmur to axilla like MR",
         "B) AR is holosystolic to axilla",
@@ -524,7 +524,7 @@
     },
     {
       "id": "cardiology:easy:29",
-      "question": "Which description most accurately matches hypertrophic obstructive cardiomyopathy?",
+      "question": "Select the correct interpretation for hypertrophic obstructive cardiomyopathy.",
       "options": [
         "A) HOCM murmur increases with Valsalva/standing (↓ preload)",
         "B) AS presents as holosystolic apical murmur to axilla like MR",
@@ -544,7 +544,7 @@
   "medium": [
     {
       "id": "cardiology:medium:0",
-      "question": "A 59-year-old woman presents with a history and examination consistent with the surface ECG. Which of the following is most likely?",
+      "question": "A 40-year-old woman is examined, and the surface ECG is reviewed. Which of the following is correct?",
       "options": [
         "A) Surface ECG directly measures coronary blood-flow velocity",
         "B) Angiography measures only PCWP as its purpose",
@@ -562,7 +562,7 @@
     },
     {
       "id": "cardiology:medium:1",
-      "question": "A 60-year-old man is evaluated in clinic for symptoms pointing to stable angina. Which of the following is the most accurate conclusion?",
+      "question": "A 77-year-old man is seen in clinic for suspected stable angina. Which of the following is correct?",
       "options": [
         "A) Claudication always nocturnal rest pain of CLI",
         "B) Exertional retrosternal pressure relieved by rest or nitrates",
@@ -580,7 +580,7 @@
     },
     {
       "id": "cardiology:medium:2",
-      "question": "A 76-year-old man with relevant risk factors develops a presentation of aspirin in acute coronary syndrome. Which of the following is most likely?",
+      "question": "A 78-year-old man develops symptoms of aspirin in ACS. Which of the following is most accurate?",
       "options": [
         "A) Irreversible COX-1 inhibition reducing platelet thromboxane A2",
         "B) Prolonged rest pain with diaphoresis suggesting ACS",
@@ -598,7 +598,7 @@
     },
     {
       "id": "cardiology:medium:3",
-      "question": "A 68-year-old woman is admitted for workup of inferior STEMI. Which of the following statements is most accurate?",
+      "question": "In a 58-year-old woman, which statement about inferior STEMI is correct?",
       "options": [
         "A) ST elevation in II, III, aVF localizes to inferior wall (often RCA)",
         "B) ST elevation in V2–V4 suggests isolated RCA inferior infarct",
@@ -616,7 +616,7 @@
     },
     {
       "id": "cardiology:medium:4",
-      "question": "On examination and initial testing, findings support mitral regurgitation. Which of the following is most correct?",
+      "question": "Clinical testing related to mitral regurgitation is performed. Which of the following is correct?",
       "options": [
         "A) Crescendo-decrescendo systolic murmur to the carotids from AS",
         "B) AR is holosystolic to axilla",
@@ -634,7 +634,7 @@
     },
     {
       "id": "cardiology:medium:5",
-      "question": "A 64-year-old woman reports progressive symptoms. The constellation is classic for sublingual nitroglycerin in angina. Which of the following is most likely?",
+      "question": "A 45-year-old woman reports symptoms typical of sublingual nitroglycerin in angina. Which of the following is correct?",
       "options": [
         "A) ST elevation in II/III/aVF localizes primarily to high lateral LCx alone",
         "B) Sublingual nitroglycerin reduces preload and ischemic pain if safe",
@@ -652,7 +652,7 @@
     },
     {
       "id": "cardiology:medium:6",
-      "question": "A 44-year-old man is seen in the emergency department with features of right ventricular infarction. Which of the following is most accurate?",
+      "question": "A 58-year-old man is evaluated in the emergency department for right ventricular infarction. Which of the following is most accurate?",
       "options": [
         "A) ST elevation in I/aVL means isolated RV infarct",
         "B) ST elevation in V2–V4 suggests isolated RCA inferior infarct",
@@ -670,7 +670,7 @@
     },
     {
       "id": "cardiology:medium:7",
-      "question": "A clinical scenario centers on beta-blocker therapy in HFrEF. Which of the following is most likely?",
+      "question": "A 77-year-old man is assessed for beta-blocker therapy in HFrEF. Which of the following statements is correct?",
       "options": [
         "A) Beta-blockers contraindicated in all post-MI patients forever",
         "B) Evidence-based beta-blocker with proven HFrEF mortality benefit",
@@ -688,7 +688,7 @@
     },
     {
       "id": "cardiology:medium:8",
-      "question": "A 70-year-old woman presents with a history and examination consistent with new left bundle branch block with ischemic symptoms. Which of the following is most likely?",
+      "question": "A 60-year-old woman presents with a clinical picture of new left bundle branch block with ischemic symptoms. Which of the following is most accurate?",
       "options": [
         "A) Fibrinolysis always preferred over PCI even when PCI immediately available",
         "B) New LBBB with ischemic symptoms can be treated as STEMI equivalent",
@@ -706,7 +706,7 @@
     },
     {
       "id": "cardiology:medium:9",
-      "question": "A 71-year-old man is evaluated in clinic for symptoms pointing to type A dissection caution. Which of the following is the most accurate conclusion?",
+      "question": "A 61-year-old man is seen in clinic for suspected type A dissection caution. Which of the following is correct?",
       "options": [
         "A) Aspirin always equals full anticoagulation for AF",
         "B) Any troponin rise always equals STEMI needing fibrinolysis",
@@ -724,7 +724,7 @@
     },
     {
       "id": "cardiology:medium:10",
-      "question": "A 57-year-old woman with relevant risk factors develops a presentation of unstable angina. Which of the following is most likely?",
+      "question": "A 74-year-old woman develops symptoms of unstable angina. Which of the following is most accurate?",
       "options": [
         "A) ST elevation in V2–V4 suggests isolated RCA inferior infarct",
         "B) STEMI with persistent ST elevation requiring immediate reperfusion",
@@ -742,7 +742,7 @@
     },
     {
       "id": "cardiology:medium:11",
-      "question": "A 64-year-old woman is admitted for workup of NSTEMI. Which of the following statements is most accurate?",
+      "question": "A 54-year-old woman is admitted with suspected NSTEMI. Which statement is correct?",
       "options": [
         "A) Troponin-negative exertional angina only",
         "B) STEMI with persistent ST elevation requiring immediate reperfusion",
@@ -760,7 +760,7 @@
     },
     {
       "id": "cardiology:medium:12",
-      "question": "On examination and initial testing, findings support anterior STEMI. Which of the following is most correct?",
+      "question": "A 67-year-old man has examination findings of anterior STEMI. Which of the following is most accurate?",
       "options": [
         "A) ST elevation in V2–V4 suggests isolated RCA inferior infarct",
         "B) ST elevation in I/aVL means isolated RV infarct",
@@ -778,7 +778,7 @@
     },
     {
       "id": "cardiology:medium:13",
-      "question": "A 63-year-old man reports progressive symptoms. The constellation is classic for lateral STEMI. Which of the following is most likely?",
+      "question": "A 53-year-old man reports symptoms typical of lateral STEMI. Which of the following is correct?",
       "options": [
         "A) ST elevation in I, aVL ± V5–V6 suggests lateral wall (often LCx)",
         "B) ST elevation in II/III/aVF localizes primarily to high lateral LCx alone",
@@ -796,7 +796,7 @@
     },
     {
       "id": "cardiology:medium:14",
-      "question": "A 76-year-old woman is seen in the emergency department with features of primary PCI for STEMI. Which of the following is most accurate?",
+      "question": "A 66-year-old woman is evaluated in the emergency department for primary PCI for STEMI. Which of the following is most accurate?",
       "options": [
         "A) New LBBB is always a benign chronic finding needing no reperfusion thought",
         "B) Fibrinolysis always preferred over PCI even when PCI immediately available",
@@ -814,7 +814,7 @@
     },
     {
       "id": "cardiology:medium:15",
-      "question": "A clinical scenario centers on dual antiplatelet therapy after coronary stenting. Which of the following is most likely?",
+      "question": "A 67-year-old man is assessed for dual antiplatelet therapy after coronary stenting. Which of the following statements is correct?",
       "options": [
         "A) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT",
         "B) DAPT with aspirin plus P2Y12 inhibitor after ACS/stent",
@@ -832,7 +832,7 @@
     },
     {
       "id": "cardiology:medium:16",
-      "question": "A 45-year-old man presents with a history and examination consistent with post-MI beta-blocker. Which of the following is most likely?",
+      "question": "A 59-year-old man presents with a clinical picture of post-MI beta-blocker. Which of the following is most accurate?",
       "options": [
         "A) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT",
         "B) Beta-blockers contraindicated in all post-MI patients forever",
@@ -850,7 +850,7 @@
     },
     {
       "id": "cardiology:medium:17",
-      "question": "A 64-year-old man is evaluated in clinic for symptoms pointing to ACE inhibitor therapy after MI with heart failure. Which of the following is the most accurate conclusion?",
+      "question": "A 54-year-old man is seen in clinic for suspected ACE inhibitor therapy after MI with heart failure. Which of the following is correct?",
       "options": [
         "A) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT",
         "B) ACEi used only for cough suppression after MI",
@@ -868,7 +868,7 @@
     },
     {
       "id": "cardiology:medium:18",
-      "question": "A 53-year-old woman with relevant risk factors develops a presentation of high-intensity statin ACS. Which of the following is most likely?",
+      "question": "A 70-year-old woman develops symptoms of high-intensity statin ACS. Which of the following is most accurate?",
       "options": [
         "A) Stop all lipid therapy after one normal cholesterol",
         "B) High-intensity statin for secondary prevention after ACS",
@@ -886,7 +886,7 @@
     },
     {
       "id": "cardiology:medium:19",
-      "question": "A 60-year-old man is admitted for workup of tamponade triad. Which of the following statements is most accurate?",
+      "question": "A 41-year-old man is admitted with suspected tamponade triad. Which statement is correct?",
       "options": [
         "A) JVP measures LVEF directly",
         "B) Electrical alternans pathognomonic for hypokalemia only",
@@ -904,7 +904,7 @@
     },
     {
       "id": "cardiology:medium:20",
-      "question": "On examination and initial testing, findings support electrical alternans. Which of the following is most correct?",
+      "question": "A 54-year-old man has examination findings of electrical alternans. Which of the following is most accurate?",
       "options": [
         "A) Electrical alternans pathognomonic for hypokalemia only",
         "B) Narrow QRS excludes all conduction disease",
@@ -922,7 +922,7 @@
     },
     {
       "id": "cardiology:medium:21",
-      "question": "A 53-year-old man reports progressive symptoms. The constellation is classic for unstable AF cardioversion. Which of the following is most likely?",
+      "question": "A 67-year-old man reports symptoms typical of unstable AF cardioversion. Which of the following is correct?",
       "options": [
         "A) IV verapamil first-line for irregular wide-complex preexcited AF",
         "B) Unstable VT observed 1 hour before any therapy",
@@ -940,7 +940,7 @@
     },
     {
       "id": "cardiology:medium:22",
-      "question": "A 72-year-old woman is seen in the emergency department with features of preexcited AF. Which of the following is most accurate?",
+      "question": "A 53-year-old woman is evaluated in the emergency department for preexcited AF. Which of the following is most accurate?",
       "options": [
         "A) Adenosine first-line for irregular polymorphic VT",
         "B) Avoid AV-nodal blockers in preexcited AF; shock if unstable or use procainamide",
@@ -958,7 +958,7 @@
     },
     {
       "id": "cardiology:medium:23",
-      "question": "A clinical scenario centers on regular wide-complex tachycardia. Which of the following is most likely?",
+      "question": "A 63-year-old woman is assessed for regular wide-complex tachycardia. Which of the following statements is correct?",
       "options": [
         "A) All WCTs are SVT with aberrancy and get verapamil first",
         "B) Unstable AF should first get only oral digoxin and observe hours",
@@ -976,7 +976,7 @@
     },
     {
       "id": "cardiology:medium:24",
-      "question": "A 50-year-old woman presents with a history and examination consistent with pulseless ventricular tachycardia or fibrillation. Which of the following is most likely?",
+      "question": "A 64-year-old woman presents with a clinical picture of pulseless ventricular tachycardia or fibrillation. Which of the following is most accurate?",
       "options": [
         "A) IV verapamil first-line for irregular wide-complex preexcited AF",
         "B) Unstable AF should first get only oral digoxin and observe hours",
@@ -994,7 +994,7 @@
     },
     {
       "id": "cardiology:medium:25",
-      "question": "A 72-year-old man is evaluated in clinic for symptoms pointing to symptomatic bradycardia. Which of the following is the most accurate conclusion?",
+      "question": "A 53-year-old man is seen in clinic for suspected symptomatic bradycardia. Which of the following is correct?",
       "options": [
         "A) Symptomatic sinus bradycardia may respond to atropine while preparing pacing",
         "B) First therapy for cardiogenic shock without congestion assessment",
@@ -1012,7 +1012,7 @@
     },
     {
       "id": "cardiology:medium:26",
-      "question": "A 70-year-old man with relevant risk factors develops a presentation of cHB pacing. Which of the following is most likely?",
+      "question": "A 51-year-old man develops symptoms of CHB pacing. Which of the following is most accurate?",
       "options": [
         "A) Any BP >140 always requires immediate ICU nitroprusside",
         "B) CHB always managed with observation only",
@@ -1030,7 +1030,7 @@
     },
     {
       "id": "cardiology:medium:27",
-      "question": "A 62-year-old woman is admitted for workup of severe symptomatic aortic stenosis. Which of the following statements is most accurate?",
+      "question": "In a 52-year-old woman, which statement about severe symptomatic aortic stenosis is correct?",
       "options": [
         "A) Crescendo-decrescendo systolic murmur to the carotids from AS",
         "B) AS presents as holosystolic apical murmur to axilla like MR",
@@ -1048,7 +1048,7 @@
     },
     {
       "id": "cardiology:medium:28",
-      "question": "On examination and initial testing, findings support mitral stenosis. Which of the following is most correct?",
+      "question": "Clinical testing related to mitral stenosis is performed. Which of the following is correct?",
       "options": [
         "A) MS is holosystolic murmur to the axilla",
         "B) Diastolic rumble with opening snap in mitral stenosis",
@@ -1066,7 +1066,7 @@
     },
     {
       "id": "cardiology:medium:29",
-      "question": "A 31-year-old man reports progressive symptoms. The constellation is classic for hypertrophic obstructive cardiomyopathy. Which of the following is most likely?",
+      "question": "A 32-year-old man undergoes assessment involving hypertrophic obstructive cardiomyopathy. Which of the following is most accurate?",
       "options": [
         "A) HOCM murmur always decreases with Valsalva like most flow murmurs",
         "B) Afterload equals preload identically",
@@ -1086,7 +1086,7 @@
   "hard": [
     {
       "id": "cardiology:hard:0",
-      "question": "A 59-year-old woman presents with findings that could fit more than one process often confused with the surface ECG. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "Careful review of the surface ECG is required. Which of the following is most accurate?",
       "options": [
         "A) Surface ECG directly measures coronary blood-flow velocity",
         "B) JVP measures LVEF directly",
@@ -1104,7 +1104,7 @@
     },
     {
       "id": "cardiology:hard:1",
-      "question": "A 60-year-old man with hypertension is hospitalized with evolving features of stable angina. A common mimic remains possible. Which of the following is most likely?",
+      "question": "A 77-year-old man with hypertension is hospitalized with evolving stable angina. Which of the following is most accurate?",
       "options": [
         "A) Claudication always nocturnal rest pain of CLI",
         "B) Pericarditis always exertional and relieved only by nitrates",
@@ -1122,7 +1122,7 @@
     },
     {
       "id": "cardiology:hard:2",
-      "question": "A 76-year-old man with hypertension is evaluated for aspirin in acute coronary syndrome. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "A 78-year-old man with hypertension is evaluated for aspirin in ACS. Which of the following is the best interpretation?",
       "options": [
         "A) Irreversible COX-1 inhibition reducing platelet thromboxane A2",
         "B) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT",
@@ -1140,7 +1140,7 @@
     },
     {
       "id": "cardiology:hard:3",
-      "question": "A 68-year-old woman with hypertension is evaluated for suspected inferior STEMI. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "Which of the following correctly distinguishes key points about inferior STEMI?",
       "options": [
         "A) ST elevation in II/III/aVF localizes primarily to high lateral LCx alone",
         "B) ST elevation in I/aVL means isolated RV infarct",
@@ -1158,7 +1158,7 @@
     },
     {
       "id": "cardiology:hard:4",
-      "question": "Findings thought to represent mitral regurgitation can be misread. Which of the following is most correct?",
+      "question": "Careful interpretation of mitral regurgitation is required. Which of the following is correct?",
       "options": [
         "A) AS presents as holosystolic apical murmur to axilla like MR",
         "B) Holosystolic apical murmur radiating to the axilla",
@@ -1176,7 +1176,7 @@
     },
     {
       "id": "cardiology:hard:5",
-      "question": "A 64-year-old woman presents with sublingual nitroglycerin in angina. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "Which statement about sublingual nitroglycerin in angina is most accurate?",
       "options": [
         "A) Sublingual nitroglycerin reduces preload and ischemic pain if safe",
         "B) Prolonged rest pain with diaphoresis suggesting ACS",
@@ -1194,7 +1194,7 @@
     },
     {
       "id": "cardiology:hard:6",
-      "question": "A complex case of right ventricular infarction involving a 44-year-old man is reviewed on rounds. Which of the following is most accurate?",
+      "question": "A difficult case of right ventricular infarction in a 58-year-old man is reviewed. Which of the following is correct?",
       "options": [
         "A) ST elevation in V2–V4 suggests isolated RCA inferior infarct",
         "B) Inferior MI + clear lungs always means isolated LV failure needing more nitrates",
@@ -1212,7 +1212,7 @@
     },
     {
       "id": "cardiology:hard:7",
-      "question": "A 60-year-old man with hypertension has progressive abnormalities attributed to beta-blocker therapy in HFrEF. Which of the following is most consistent with the clinical process?",
+      "question": "Which of the following is the best statement about beta-blocker therapy in HFrEF?",
       "options": [
         "A) Evidence-based beta-blocker with proven HFrEF mortality benefit",
         "B) Short-acting nifedipine as HFrEF mortality-reducing therapy",
@@ -1230,7 +1230,7 @@
     },
     {
       "id": "cardiology:hard:8",
-      "question": "A 70-year-old woman with hypertension presents with findings that could fit more than one process often confused with new left bundle branch block with ischemic symptoms. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "A 60-year-old woman with hypertension presents with findings that overlap several diagnoses, including new left bundle branch block with ischemic symptoms. Which of the following is most accurate?",
       "options": [
         "A) Fibrinolysis always preferred over PCI even when PCI immediately available",
         "B) Any troponin rise always equals STEMI needing fibrinolysis",
@@ -1248,7 +1248,7 @@
     },
     {
       "id": "cardiology:hard:9",
-      "question": "A 71-year-old man with hypertension is hospitalized with evolving features of type A dissection caution. A common mimic remains possible. Which of the following is most likely?",
+      "question": "Two similar explanations for type A dissection caution are compared. Which of the following is correct?",
       "options": [
         "A) Mild troponin rise always means treat as simple NSTE-ACS only",
         "B) Tearing pain and pulse deficit → exclude type A dissection before full ACS Rx",
@@ -1266,7 +1266,7 @@
     },
     {
       "id": "cardiology:hard:10",
-      "question": "A 57-year-old woman with hypertension is evaluated for unstable angina. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "A 74-year-old woman with hypertension is evaluated for unstable angina. Which of the following is the best interpretation?",
       "options": [
         "A) Rest or crescendo angina from plaque instability without biomarker necrosis",
         "B) STEMI with persistent ST elevation requiring immediate reperfusion",
@@ -1284,7 +1284,7 @@
     },
     {
       "id": "cardiology:hard:11",
-      "question": "A 64-year-old woman with hypertension is evaluated for suspected NSTEMI. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "A 54-year-old woman with hypertension has suspected NSTEMI, and similar diagnoses remain possible. Which of the following is most accurate?",
       "options": [
         "A) Troponin-positive ACS without persistent ST elevation",
         "B) Prolonged rest pain with diaphoresis suggesting ACS",
@@ -1302,7 +1302,7 @@
     },
     {
       "id": "cardiology:hard:12",
-      "question": "Findings thought to represent anterior STEMI can be misread. Which of the following is most correct?",
+      "question": "Initial reading of the case suggested anterior STEMI. Which of the following is correct?",
       "options": [
         "A) ST elevation in V2–V4 suggests isolated RCA inferior infarct",
         "B) ST elevation in II/III/aVF localizes primarily to high lateral LCx alone",
@@ -1320,7 +1320,7 @@
     },
     {
       "id": "cardiology:hard:13",
-      "question": "A 63-year-old man with hypertension presents with lateral STEMI. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "A 53-year-old man with hypertension presents with lateral STEMI. Which of the following best separates it from similar conditions?",
       "options": [
         "A) ST elevation in I/aVL means isolated RV infarct",
         "B) ST elevation in I, aVL ± V5–V6 suggests lateral wall (often LCx)",
@@ -1338,119 +1338,101 @@
     },
     {
       "id": "cardiology:hard:14",
-      "question": "A complex case of primary PCI for STEMI involving a 76-year-old woman with hypertension is reviewed on rounds. Which of the following is most accurate?",
+      "question": "Which of the following is the best statement about dual antiplatelet therapy after coronary stenting?",
       "options": [
-        "A) New LBBB is always a benign chronic finding needing no reperfusion thought",
-        "B) Fibrinolysis always preferred over PCI even when PCI immediately available",
-        "C) Any troponin rise always equals STEMI needing fibrinolysis",
-        "D) Primary PCI is preferred reperfusion for STEMI when timely"
+        "A) Reversible COX-2 selective anti-inflammatory effect as the ACS mechanism",
+        "B) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT",
+        "C) Beta-blockers contraindicated in all post-MI patients forever",
+        "D) DAPT with aspirin plus P2Y12 inhibitor after ACS/stent"
       ],
-      "answer": "D) Primary PCI is preferred reperfusion for STEMI when timely",
-      "explanation": "Timely primary PCI is preferred STEMI reperfusion. Therefore, the most accurate choice is: Primary PCI is preferred reperfusion for STEMI when timely. Fibrinolysis is used when PCI cannot be timely.",
+      "answer": "D) DAPT with aspirin plus P2Y12 inhibitor after ACS/stent",
+      "explanation": "Aspirin + P2Y12 prevents stent thrombosis and recurrent events. Therefore, the most accurate choice is: DAPT with aspirin plus P2Y12 inhibitor after ACS/stent. Warfarin is not a standard P2Y12 substitute in DAPT.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Fibrinolysis is used when PCI cannot be timely. It is less consistent than the correct choice.",
+        "B": "Warfarin is not a standard P2Y12 substitute in DAPT. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Timely primary PCI is preferred STEMI reperfusion. This matches the correct interpretation."
+        "D": "Aspirin + P2Y12 prevents stent thrombosis and recurrent events. This matches the correct interpretation."
       }
     },
     {
       "id": "cardiology:hard:15",
-      "question": "A 77-year-old man with hypertension has progressive abnormalities attributed to dual antiplatelet therapy after coronary stenting. Which of the following is most consistent with the clinical process?",
+      "question": "A 59-year-old man presents with findings that overlap several diagnoses, including post-MI beta-blocker. Which of the following is most accurate?",
       "options": [
-        "A) Reversible COX-2 selective anti-inflammatory effect as the ACS mechanism",
-        "B) DAPT with aspirin plus P2Y12 inhibitor after ACS/stent",
-        "C) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT",
-        "D) Beta-blockers contraindicated in all post-MI patients forever"
+        "A) Immediate high-dose IV beta-blocker as sole first relief in all angina",
+        "B) Beta-blockers reduce myocardial O2 demand after MI when indicated",
+        "C) Beta-blockers contraindicated in all post-MI patients forever",
+        "D) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT"
       ],
-      "answer": "B) DAPT with aspirin plus P2Y12 inhibitor after ACS/stent",
-      "explanation": "Aspirin + P2Y12 prevents stent thrombosis and recurrent events. Therefore, the most accurate choice is: DAPT with aspirin plus P2Y12 inhibitor after ACS/stent. Warfarin is not a standard P2Y12 substitute in DAPT.",
+      "answer": "B) Beta-blockers reduce myocardial O2 demand after MI when indicated",
+      "explanation": "β-blockade lowers HR/contractility and O2 demand when appropriate. Therefore, the most accurate choice is: Beta-blockers reduce myocardial O2 demand after MI when indicated. Not universally forever contraindicated post-MI.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Aspirin + P2Y12 prevents stent thrombosis and recurrent events. This matches the correct interpretation.",
-        "C": "Warfarin is not a standard P2Y12 substitute in DAPT. It is less consistent than the correct choice.",
+        "B": "β-blockade lowers HR/contractility and O2 demand when appropriate. This matches the correct interpretation.",
+        "C": "Not universally forever contraindicated post-MI. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "cardiology:hard:16",
-      "question": "A 45-year-old man presents with findings that could fit more than one process often confused with post-MI beta-blocker. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "A 54-year-old man with hypertension is hospitalized with evolving ACE inhibitor therapy after MI with heart failure. Which of the following is most accurate?",
       "options": [
-        "A) Beta-blockers contraindicated in all post-MI patients forever",
-        "B) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT",
-        "C) Immediate high-dose IV beta-blocker as sole first relief in all angina",
-        "D) Beta-blockers reduce myocardial O2 demand after MI when indicated"
+        "A) ACEi used only for cough suppression after MI",
+        "B) Beta-blockers contraindicated in all post-MI patients forever",
+        "C) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT",
+        "D) ACEi improve remodeling/mortality in HFrEF and selected post-MI patients"
       ],
-      "answer": "D) Beta-blockers reduce myocardial O2 demand after MI when indicated",
-      "explanation": "β-blockade lowers HR/contractility and O2 demand when appropriate. Therefore, the most accurate choice is: Beta-blockers reduce myocardial O2 demand after MI when indicated. Not universally forever contraindicated post-MI.",
+      "answer": "D) ACEi improve remodeling/mortality in HFrEF and selected post-MI patients",
+      "explanation": "RAAS blockade benefits remodeling and survival in indicated HF/MI. Therefore, the most accurate choice is: ACEi improve remodeling/mortality in HFrEF and selected post-MI patients. Cough is an adverse effect, not the purpose.",
       "choice_explanations": {
-        "A": "Not universally forever contraindicated post-MI. It is less consistent than the correct choice.",
+        "A": "Cough is an adverse effect, not the purpose. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "β-blockade lowers HR/contractility and O2 demand when appropriate. This matches the correct interpretation."
+        "D": "RAAS blockade benefits remodeling and survival in indicated HF/MI. This matches the correct interpretation."
       }
     },
     {
       "id": "cardiology:hard:17",
-      "question": "A 64-year-old man with hypertension is hospitalized with evolving features of ACE inhibitor therapy after MI with heart failure. A common mimic remains possible. Which of the following is most likely?",
+      "question": "In a detailed discussion of high-intensity statin ACS, which of the following is most accurate?",
       "options": [
-        "A) ACEi improve remodeling/mortality in HFrEF and selected post-MI patients",
-        "B) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT",
-        "C) Beta-blockers contraindicated in all post-MI patients forever",
-        "D) ACEi used only for cough suppression after MI"
+        "A) High-intensity statin for secondary prevention after ACS",
+        "B) Any Cr rise mandates permanent cessation of all HF therapy",
+        "C) Treats hyperkalemia as primary therapy",
+        "D) Stop all lipid therapy after one normal cholesterol"
       ],
-      "answer": "A) ACEi improve remodeling/mortality in HFrEF and selected post-MI patients",
-      "explanation": "RAAS blockade benefits remodeling and survival in indicated HF/MI. Therefore, the most accurate choice is: ACEi improve remodeling/mortality in HFrEF and selected post-MI patients. Cough is an adverse effect, not the purpose.",
+      "answer": "A) High-intensity statin for secondary prevention after ACS",
+      "explanation": "Statins lower LDL and stabilize plaque after ACS. Therefore, the most accurate choice is: High-intensity statin for secondary prevention after ACS. Secondary prevention continues despite one normal value.",
       "choice_explanations": {
-        "A": "RAAS blockade benefits remodeling and survival in indicated HF/MI. This matches the correct interpretation.",
+        "A": "Statins lower LDL and stabilize plaque after ACS. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Cough is an adverse effect, not the purpose. It is less consistent than the correct choice."
+        "D": "Secondary prevention continues despite one normal value. It is less consistent than the correct choice."
       }
     },
     {
       "id": "cardiology:hard:18",
-      "question": "A 53-year-old woman with hypertension is evaluated for high-intensity statin ACS. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "A 41-year-old man has suspected tamponade triad, and similar diagnoses remain possible. Which of the following is most accurate?",
       "options": [
-        "A) Treats hyperkalemia as primary therapy",
-        "B) Any Cr rise mandates permanent cessation of all HF therapy",
-        "C) Stop all lipid therapy after one normal cholesterol",
-        "D) High-intensity statin for secondary prevention after ACS"
-      ],
-      "answer": "D) High-intensity statin for secondary prevention after ACS",
-      "explanation": "Statins lower LDL and stabilize plaque after ACS. Therefore, the most accurate choice is: High-intensity statin for secondary prevention after ACS. Secondary prevention continues despite one normal value.",
-      "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Secondary prevention continues despite one normal value. It is less consistent than the correct choice.",
-        "D": "Statins lower LDL and stabilize plaque after ACS. This matches the correct interpretation."
-      }
-    },
-    {
-      "id": "cardiology:hard:19",
-      "question": "A 60-year-old man is evaluated for suspected tamponade triad. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
-      "options": [
-        "A) Hypertension with bounding pulses is the classic tamponade triad",
-        "B) JVP measures LVEF directly",
-        "C) Electrical alternans pathognomonic for hypokalemia only",
+        "A) JVP measures LVEF directly",
+        "B) Electrical alternans pathognomonic for hypokalemia only",
+        "C) Hypertension with bounding pulses is the classic tamponade triad",
         "D) Hypotension, raised JVP, muffled sounds ± electrical alternans suggest tamponade"
       ],
       "answer": "D) Hypotension, raised JVP, muffled sounds ± electrical alternans suggest tamponade",
       "explanation": "Pericardial pressure equalizes filling and cuts cardiac output. Therefore, the most accurate choice is: Hypotension, raised JVP, muffled sounds ± electrical alternans suggest tamponade. Tamponade causes low output, not hypertensive bounding pulses.",
       "choice_explanations": {
-        "A": "Tamponade causes low output, not hypertensive bounding pulses. It is less consistent than the correct choice.",
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Tamponade causes low output, not hypertensive bounding pulses. It is less consistent than the correct choice.",
         "D": "Pericardial pressure equalizes filling and cuts cardiac output. This matches the correct interpretation."
       }
     },
     {
-      "id": "cardiology:hard:20",
-      "question": "Findings thought to represent electrical alternans can be misread. Which of the following is most correct?",
+      "id": "cardiology:hard:19",
+      "question": "Initial reading of the case suggested electrical alternans. Which of the following is correct?",
       "options": [
         "A) Electrical alternans pathognomonic for hypokalemia only",
         "B) Narrow QRS excludes all conduction disease",
-        "C) Hypotension, raised JVP, muffled sounds ± electrical alternans suggest tamponade",
+        "C) PR prolongation always equals complete heart block",
         "D) Beat-to-beat QRS amplitude change suggests swinging heart in large effusion"
       ],
       "answer": "D) Beat-to-beat QRS amplitude change suggests swinging heart in large effusion",
@@ -1463,134 +1445,134 @@
       }
     },
     {
-      "id": "cardiology:hard:21",
-      "question": "A 53-year-old man presents with unstable AF cardioversion. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "id": "cardiology:hard:20",
+      "question": "A 67-year-old man presents with unstable AF cardioversion. Which of the following best separates it from similar conditions?",
       "options": [
-        "A) IV verapamil first-line for irregular wide-complex preexcited AF",
+        "A) Unstable AF should first get only oral digoxin and observe hours",
         "B) Unstable VT observed 1 hour before any therapy",
-        "C) Unstable AF with hypotension needs synchronized cardioversion",
-        "D) Unstable AF should first get only oral digoxin and observe hours"
+        "C) All WCTs are SVT with aberrancy and get verapamil first",
+        "D) Unstable AF with hypotension needs synchronized cardioversion"
       ],
-      "answer": "C) Unstable AF with hypotension needs synchronized cardioversion",
+      "answer": "D) Unstable AF with hypotension needs synchronized cardioversion",
       "explanation": "Instability mandates urgent electrical cardioversion. Therefore, the most accurate choice is: Unstable AF with hypotension needs synchronized cardioversion. Slow oral digoxin is not first therapy for unstable AF.",
+      "choice_explanations": {
+        "A": "Slow oral digoxin is not first therapy for unstable AF. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Instability mandates urgent electrical cardioversion. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "cardiology:hard:21",
+      "question": "A difficult case of preexcited AF in a 53-year-old woman is reviewed. Which of the following is correct?",
+      "options": [
+        "A) All WCTs are SVT with aberrancy and get verapamil first",
+        "B) Adenosine first-line for irregular polymorphic VT",
+        "C) Avoid AV-nodal blockers in preexcited AF; shock if unstable or use procainamide",
+        "D) IV verapamil first-line for irregular wide-complex preexcited AF"
+      ],
+      "answer": "C) Avoid AV-nodal blockers in preexcited AF; shock if unstable or use procainamide",
+      "explanation": "AV-nodal blockade can enhance pathway conduction and risk VF. Therefore, the most accurate choice is: Avoid AV-nodal blockers in preexcited AF; shock if unstable or use procainamide. Verapamil is contraindicated in preexcited AF.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Instability mandates urgent electrical cardioversion. This matches the correct interpretation.",
-        "D": "Slow oral digoxin is not first therapy for unstable AF. It is less consistent than the correct choice."
+        "C": "AV-nodal blockade can enhance pathway conduction and risk VF. This matches the correct interpretation.",
+        "D": "Verapamil is contraindicated in preexcited AF. It is less consistent than the correct choice."
       }
     },
     {
       "id": "cardiology:hard:22",
-      "question": "A complex case of preexcited AF involving a 72-year-old woman is reviewed on rounds. Which of the following is most accurate?",
+      "question": "A 63-year-old woman has progressive findings of regular wide-complex tachycardia. Which of the following is most accurate?",
       "options": [
-        "A) IV verapamil first-line for irregular wide-complex preexcited AF",
-        "B) Avoid AV-nodal blockers in preexcited AF; shock if unstable or use procainamide",
-        "C) Adenosine first-line for irregular polymorphic VT",
-        "D) All WCTs are SVT with aberrancy and get verapamil first"
+        "A) All WCTs are SVT with aberrancy and get verapamil first",
+        "B) Regular wide-complex tachycardia treated as VT until proven otherwise",
+        "C) Unstable AF should first get only oral digoxin and observe hours",
+        "D) IV verapamil first-line for irregular wide-complex preexcited AF"
       ],
-      "answer": "B) Avoid AV-nodal blockers in preexcited AF; shock if unstable or use procainamide",
-      "explanation": "AV-nodal blockade can enhance pathway conduction and risk VF. Therefore, the most accurate choice is: Avoid AV-nodal blockers in preexcited AF; shock if unstable or use procainamide. Verapamil is contraindicated in preexcited AF.",
+      "answer": "B) Regular wide-complex tachycardia treated as VT until proven otherwise",
+      "explanation": "Defaulting to VT is safer; misdiagnosing VT as SVT can be fatal. Therefore, the most accurate choice is: Regular wide-complex tachycardia treated as VT until proven otherwise. Empiric verapamil can collapse VT patients.",
       "choice_explanations": {
-        "A": "Verapamil is contraindicated in preexcited AF. It is less consistent than the correct choice.",
-        "B": "AV-nodal blockade can enhance pathway conduction and risk VF. This matches the correct interpretation.",
+        "A": "Empiric verapamil can collapse VT patients. It is less consistent than the correct choice.",
+        "B": "Defaulting to VT is safer; misdiagnosing VT as SVT can be fatal. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "cardiology:hard:23",
-      "question": "A 49-year-old woman has progressive abnormalities attributed to regular wide-complex tachycardia. Which of the following is most consistent with the clinical process?",
+      "question": "Careful review of pulseless ventricular tachycardia or fibrillation is required. Which of the following is most accurate?",
       "options": [
-        "A) IV verapamil first-line for irregular wide-complex preexcited AF",
-        "B) Unstable AF should first get only oral digoxin and observe hours",
-        "C) All WCTs are SVT with aberrancy and get verapamil first",
-        "D) Regular wide-complex tachycardia treated as VT until proven otherwise"
+        "A) Unstable AF should first get only oral digoxin and observe hours",
+        "B) Atropine is first therapy for VF",
+        "C) Unstable VT observed 1 hour before any therapy",
+        "D) Pulseless VT/VF needs immediate defibrillation/CPR"
       ],
-      "answer": "D) Regular wide-complex tachycardia treated as VT until proven otherwise",
-      "explanation": "Defaulting to VT is safer; misdiagnosing VT as SVT can be fatal. Therefore, the most accurate choice is: Regular wide-complex tachycardia treated as VT until proven otherwise. Empiric verapamil can collapse VT patients.",
+      "answer": "D) Pulseless VT/VF needs immediate defibrillation/CPR",
+      "explanation": "Electrical defibrillation/CPR is first response to pulseless VT/VF. Therefore, the most accurate choice is: Pulseless VT/VF needs immediate defibrillation/CPR. Delaying electricity for oral drugs is inappropriate.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Empiric verapamil can collapse VT patients. It is less consistent than the correct choice.",
-        "D": "Defaulting to VT is safer; misdiagnosing VT as SVT can be fatal. This matches the correct interpretation."
+        "C": "Delaying electricity for oral drugs is inappropriate. It is less consistent than the correct choice.",
+        "D": "Electrical defibrillation/CPR is first response to pulseless VT/VF. This matches the correct interpretation."
       }
     },
     {
       "id": "cardiology:hard:24",
-      "question": "A 50-year-old woman presents with findings that could fit more than one process often confused with pulseless ventricular tachycardia or fibrillation. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "Two similar explanations for symptomatic bradycardia are compared. Which of the following is correct?",
       "options": [
-        "A) Pulseless VT/VF needs immediate defibrillation/CPR",
-        "B) Unstable AF should first get only oral digoxin and observe hours",
-        "C) Unstable VT observed 1 hour before any therapy",
-        "D) IV verapamil first-line for irregular wide-complex preexcited AF"
+        "A) Symptomatic sinus bradycardia may respond to atropine while preparing pacing",
+        "B) First therapy for cardiogenic shock without congestion assessment",
+        "C) Atropine is first therapy for VF",
+        "D) Flecainide first-line rate control in decompensated HF with AF"
       ],
-      "answer": "A) Pulseless VT/VF needs immediate defibrillation/CPR",
-      "explanation": "Electrical defibrillation/CPR is first response to pulseless VT/VF. Therefore, the most accurate choice is: Pulseless VT/VF needs immediate defibrillation/CPR. Delaying electricity for oral drugs is inappropriate.",
+      "answer": "A) Symptomatic sinus bradycardia may respond to atropine while preparing pacing",
+      "explanation": "Atropine blocks vagal tone and can raise sinus rate. Therefore, the most accurate choice is: Symptomatic sinus bradycardia may respond to atropine while preparing pacing. VF needs defibrillation, not atropine as primary.",
       "choice_explanations": {
-        "A": "Electrical defibrillation/CPR is first response to pulseless VT/VF. This matches the correct interpretation.",
+        "A": "Atropine blocks vagal tone and can raise sinus rate. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Delaying electricity for oral drugs is inappropriate. It is less consistent than the correct choice.",
+        "C": "VF needs defibrillation, not atropine as primary. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "cardiology:hard:25",
-      "question": "A 72-year-old man is hospitalized with evolving features of symptomatic bradycardia. A common mimic remains possible. Which of the following is most likely?",
+      "question": "A 51-year-old man is evaluated for CHB pacing. Which of the following is the best interpretation?",
       "options": [
-        "A) First therapy for cardiogenic shock without congestion assessment",
-        "B) Atropine is first therapy for VF",
-        "C) Symptomatic sinus bradycardia may respond to atropine while preparing pacing",
-        "D) Flecainide first-line rate control in decompensated HF with AF"
+        "A) Unstable VT observed 1 hour before any therapy",
+        "B) CHB always managed with observation only",
+        "C) High-grade AV block with instability needs temporary pacing readiness",
+        "D) Any BP >140 always requires immediate ICU nitroprusside"
       ],
-      "answer": "C) Symptomatic sinus bradycardia may respond to atropine while preparing pacing",
-      "explanation": "Atropine blocks vagal tone and can raise sinus rate. Therefore, the most accurate choice is: Symptomatic sinus bradycardia may respond to atropine while preparing pacing. VF needs defibrillation, not atropine as primary.",
+      "answer": "C) High-grade AV block with instability needs temporary pacing readiness",
+      "explanation": "Unstable AV block requires urgent pacing support. Therefore, the most accurate choice is: High-grade AV block with instability needs temporary pacing readiness. Observation alone is unsafe when perfusion is compromised.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "VF needs defibrillation, not atropine as primary. It is less consistent than the correct choice.",
-        "C": "Atropine blocks vagal tone and can raise sinus rate. This matches the correct interpretation.",
+        "B": "Observation alone is unsafe when perfusion is compromised. It is less consistent than the correct choice.",
+        "C": "Unstable AV block requires urgent pacing support. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "cardiology:hard:26",
-      "question": "A 70-year-old man is evaluated for cHB pacing. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "Which of the following correctly distinguishes key points about severe symptomatic aortic stenosis?",
       "options": [
-        "A) Any BP >140 always requires immediate ICU nitroprusside",
-        "B) High-grade AV block with instability needs temporary pacing readiness",
-        "C) Unstable VT observed 1 hour before any therapy",
-        "D) CHB always managed with observation only"
-      ],
-      "answer": "B) High-grade AV block with instability needs temporary pacing readiness",
-      "explanation": "Unstable AV block requires urgent pacing support. Therefore, the most accurate choice is: High-grade AV block with instability needs temporary pacing readiness. Observation alone is unsafe when perfusion is compromised.",
-      "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Unstable AV block requires urgent pacing support. This matches the correct interpretation.",
-        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Observation alone is unsafe when perfusion is compromised. It is less consistent than the correct choice."
-      }
-    },
-    {
-      "id": "cardiology:hard:27",
-      "question": "A 62-year-old woman with hypertension is evaluated for suspected severe symptomatic aortic stenosis. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
-      "options": [
-        "A) AS presents as holosystolic apical murmur to axilla like MR",
+        "A) Crescendo-decrescendo systolic murmur to the carotids from AS",
         "B) Syncope, angina, HF with harsh SEM to carotids",
-        "C) Crescendo-decrescendo systolic murmur to the carotids from AS",
-        "D) Only holosystolic apical to axilla like MR"
+        "C) Only holosystolic apical to axilla like MR",
+        "D) AS presents as holosystolic apical murmur to axilla like MR"
       ],
       "answer": "B) Syncope, angina, HF with harsh SEM to carotids",
       "explanation": "Fixed outflow obstruction causes exertional syncope/angina/HF. Therefore, the most accurate choice is: Syncope, angina, HF with harsh SEM to carotids. MR is the holosystolic axillary murmur.",
       "choice_explanations": {
-        "A": "MR is the holosystolic axillary murmur. It is less consistent than the correct choice.",
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "Fixed outflow obstruction causes exertional syncope/angina/HF. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+        "D": "MR is the holosystolic axillary murmur. It is less consistent than the correct choice."
       }
     },
     {
-      "id": "cardiology:hard:28",
-      "question": "Findings thought to represent mitral stenosis can be misread. Which of the following is most correct?",
+      "id": "cardiology:hard:27",
+      "question": "Careful interpretation of mitral stenosis is required. Which of the following is correct?",
       "options": [
         "A) MS is holosystolic murmur to the axilla",
         "B) Diastolic rumble with opening snap in mitral stenosis",
@@ -1607,20 +1589,38 @@
       }
     },
     {
-      "id": "cardiology:hard:29",
-      "question": "A 31-year-old man presents with hypertrophic obstructive cardiomyopathy. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "id": "cardiology:hard:28",
+      "question": "Which statement about hypertrophic obstructive cardiomyopathy is most accurate?",
       "options": [
-        "A) AS presents as holosystolic apical murmur to axilla like MR",
+        "A) HOCM murmur always decreases with Valsalva like most flow murmurs",
         "B) HOCM murmur increases with Valsalva/standing (↓ preload)",
-        "C) HOCM murmur always decreases with Valsalva like most flow murmurs",
-        "D) Afterload equals preload identically"
+        "C) AS presents as holosystolic apical murmur to axilla like MR",
+        "D) New post-MI murmur always innocent"
       ],
       "answer": "B) HOCM murmur increases with Valsalva/standing (↓ preload)",
       "explanation": "Dynamic LVOT obstruction worsens when ventricle is smaller. Therefore, the most accurate choice is: HOCM murmur increases with Valsalva/standing (↓ preload). Most murmurs soften with less preload; HOCM louder.",
       "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "A": "Most murmurs soften with less preload; HOCM louder. It is less consistent than the correct choice.",
         "B": "Dynamic LVOT obstruction worsens when ventricle is smaller. This matches the correct interpretation.",
-        "C": "Most murmurs soften with less preload; HOCM louder. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "cardiology:hard:29",
+      "question": "Which of the following is the best statement about infective endocarditis?",
+      "options": [
+        "A) New post-MI murmur always innocent",
+        "B) Fever + new regurgitant murmur + bacteremia raises endocarditis concern",
+        "C) Endocarditis diagnosed by cough alone without blood cultures",
+        "D) MS is holosystolic murmur to the axilla"
+      ],
+      "answer": "B) Fever + new regurgitant murmur + bacteremia raises endocarditis concern",
+      "explanation": "Continuous bacteremia and valvular involvement define IE risk. Therefore, the most accurate choice is: Fever + new regurgitant murmur + bacteremia raises endocarditis concern. Cough alone is insufficient.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Continuous bacteremia and valvular involvement define IE risk. This matches the correct interpretation.",
+        "C": "Cough alone is insufficient. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     }
@@ -1628,7 +1628,7 @@
   "extreme": [
     {
       "id": "cardiology:extreme:0",
-      "question": "A 59-year-old woman with hypertension develops rapidly worsening features of the surface ECG. Vital signs are unstable. Which of the following is most likely?",
+      "question": "Careful reasoning about the surface ECG is required. Which of the following is most accurate?",
       "options": [
         "A) Surface ECG directly measures coronary blood-flow velocity",
         "B) Surface ECG records myocardial depolarization/repolarization voltages",
@@ -1646,7 +1646,7 @@
     },
     {
       "id": "cardiology:extreme:1",
-      "question": "In the emergency department, a 60-year-old man is critically ill with a syndrome centered on stable angina. Which of the following is most likely?",
+      "question": "In the emergency department, a 77-year-old man is critically ill with stable angina. Which of the following is most accurate?",
       "options": [
         "A) Pericarditis always exertional and relieved only by nitrates",
         "B) Exertional retrosternal pressure relieved by rest or nitrates",
@@ -1664,7 +1664,7 @@
     },
     {
       "id": "cardiology:extreme:2",
-      "question": "A 76-year-old man deteriorates overnight with aspirin in acute coronary syndrome. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "A 78-year-old man worsens overnight with aspirin in ACS. Which of the following is most accurate?",
       "options": [
         "A) Reversible COX-2 selective anti-inflammatory effect as the ACS mechanism",
         "B) Prolonged rest pain with diaphoresis suggesting ACS",
@@ -1682,7 +1682,7 @@
     },
     {
       "id": "cardiology:extreme:3",
-      "question": "A 68-year-old woman with diabetes, hypertension, and chronic kidney disease develops life-threatening complications in the setting of inferior STEMI. Which of the following is most consistent with the clinical process?",
+      "question": "In advanced review of inferior STEMI, which of the following is most accurate?",
       "options": [
         "A) ST elevation in II, III, aVF localizes to inferior wall (often RCA)",
         "B) ST elevation in I/aVL means isolated RV infarct",
@@ -1700,7 +1700,7 @@
     },
     {
       "id": "cardiology:extreme:4",
-      "question": "A rapidly progressive presentation of mitral regurgitation is reviewed in a 60-year-old man. Which of the following is most likely?",
+      "question": "Which interpretation of mitral regurgitation is most accurate?",
       "options": [
         "A) Crescendo-decrescendo systolic murmur to the carotids from AS",
         "B) Only holosystolic apical to axilla like MR",
@@ -1718,7 +1718,7 @@
     },
     {
       "id": "cardiology:extreme:5",
-      "question": "A 64-year-old woman requires urgent decision-making for sublingual nitroglycerin in angina. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Safety concerns around sublingual nitroglycerin in angina arise in a 45-year-old woman. Which of the following is most accurate?",
       "options": [
         "A) ST elevation in II/III/aVF localizes primarily to high lateral LCx alone",
         "B) Prolonged rest pain with diaphoresis suggesting ACS",
@@ -1736,7 +1736,7 @@
     },
     {
       "id": "cardiology:extreme:6",
-      "question": "A 44-year-old man has refractory abnormalities due to right ventricular infarction. Which of the following is the most accurate interpretation?",
+      "question": "A 58-year-old man has refractory right ventricular infarction. Which of the following is correct?",
       "options": [
         "A) Pulsus paradoxus always means essential hypertension",
         "B) Inferior MI + nitrate hypotension + raised JVP/clear lungs suggests RV infarct",
@@ -1754,7 +1754,7 @@
     },
     {
       "id": "cardiology:extreme:7",
-      "question": "A critical-care presentation involving beta-blocker therapy in HFrEF in a 60-year-old man is discussed. Which of the following is most likely?",
+      "question": "Which statement about managing beta-blocker therapy in HFrEF in a 77-year-old man is most accurate?",
       "options": [
         "A) Treats hypokalemia as intended primary HF benefit",
         "B) Evidence-based beta-blocker with proven HFrEF mortality benefit",
@@ -1772,7 +1772,7 @@
     },
     {
       "id": "cardiology:extreme:8",
-      "question": "A 70-year-old woman with diabetes, hypertension, and chronic kidney disease develops rapidly worsening features of new left bundle branch block with ischemic symptoms. Vital signs are unstable. Which of the following is most likely?",
+      "question": "A 60-year-old woman with diabetes, hypertension, and chronic kidney disease becomes acutely unstable with new left bundle branch block with ischemic symptoms. Which of the following is most accurate?",
       "options": [
         "A) New LBBB with ischemic symptoms can be treated as STEMI equivalent",
         "B) Any troponin rise always equals STEMI needing fibrinolysis",
@@ -1790,7 +1790,7 @@
     },
     {
       "id": "cardiology:extreme:9",
-      "question": "In the emergency department, a 71-year-old man is critically ill with a syndrome centered on type A dissection caution. Which of the following is most likely?",
+      "question": "Management of type A dissection caution is reviewed for a 61-year-old man. Which of the following is most accurate?",
       "options": [
         "A) Mild troponin rise always means treat as simple NSTE-ACS only",
         "B) Aspirin always equals full anticoagulation for AF",
@@ -1808,7 +1808,7 @@
     },
     {
       "id": "cardiology:extreme:10",
-      "question": "A 57-year-old woman deteriorates overnight with unstable angina. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "A 74-year-old woman worsens overnight with unstable angina. Which of the following is most accurate?",
       "options": [
         "A) Rest or crescendo angina from plaque instability without biomarker necrosis",
         "B) STEMI with persistent ST elevation requiring immediate reperfusion",
@@ -1826,7 +1826,7 @@
     },
     {
       "id": "cardiology:extreme:11",
-      "question": "A 64-year-old woman with diabetes, hypertension, and chronic kidney disease develops life-threatening complications in the setting of NSTEMI. Which of the following is most consistent with the clinical process?",
+      "question": "A 54-year-old woman with diabetes, hypertension, and chronic kidney disease develops dangerous complications of NSTEMI. Which of the following is correct?",
       "options": [
         "A) STEMI with persistent ST elevation requiring immediate reperfusion",
         "B) Troponin-positive ACS without persistent ST elevation",
@@ -1844,7 +1844,7 @@
     },
     {
       "id": "cardiology:extreme:12",
-      "question": "A rapidly progressive presentation of anterior STEMI is reviewed in a 77-year-old man. Which of the following is most likely?",
+      "question": "A 67-year-old man has a rapidly worsening course of anterior STEMI. Which of the following is most accurate?",
       "options": [
         "A) ST elevation in I/aVL means isolated RV infarct",
         "B) ST elevation in V2–V4 suggests isolated RCA inferior infarct",
@@ -1862,7 +1862,7 @@
     },
     {
       "id": "cardiology:extreme:13",
-      "question": "A 63-year-old man requires urgent decision-making for lateral STEMI. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Urgent management decisions for lateral STEMI are required in a 53-year-old man. Which of the following is most accurate?",
       "options": [
         "A) ST elevation in I, aVL ± V5–V6 suggests lateral wall (often LCx)",
         "B) ST elevation in I/aVL means isolated RV infarct",
@@ -1880,7 +1880,7 @@
     },
     {
       "id": "cardiology:extreme:14",
-      "question": "A 76-year-old woman has refractory abnormalities due to primary PCI for STEMI. Which of the following is the most accurate interpretation?",
+      "question": "A 66-year-old woman has a complicated course involving primary PCI for STEMI. Which of the following is correct?",
       "options": [
         "A) New LBBB is always a benign chronic finding needing no reperfusion thought",
         "B) Any troponin rise always equals STEMI needing fibrinolysis",
@@ -1898,7 +1898,7 @@
     },
     {
       "id": "cardiology:extreme:15",
-      "question": "A critical-care presentation involving dual antiplatelet therapy after coronary stenting in a 77-year-old man is discussed. Which of the following is most likely?",
+      "question": "Which statement about managing dual antiplatelet therapy after coronary stenting in a 67-year-old man is most accurate?",
       "options": [
         "A) Beta-blockers contraindicated in all post-MI patients forever",
         "B) Reversible COX-2 selective anti-inflammatory effect as the ACS mechanism",
@@ -1916,7 +1916,7 @@
     },
     {
       "id": "cardiology:extreme:16",
-      "question": "A 45-year-old man with hypertension develops rapidly worsening features of post-MI beta-blocker. Vital signs are unstable. Which of the following is most likely?",
+      "question": "A 59-year-old man with hypertension becomes acutely unstable with post-MI beta-blocker. Which of the following is most accurate?",
       "options": [
         "A) Beta-blockers reduce myocardial O2 demand after MI when indicated",
         "B) Beta-blockers contraindicated in all post-MI patients forever",
@@ -1934,7 +1934,7 @@
     },
     {
       "id": "cardiology:extreme:17",
-      "question": "In the emergency department, a 64-year-old man is critically ill with a syndrome centered on ACE inhibitor therapy after MI with heart failure. Which of the following is most likely?",
+      "question": "In the emergency department, a 54-year-old man is critically ill with ACE inhibitor therapy after MI with heart failure. Which of the following is most accurate?",
       "options": [
         "A) Beta-blockers contraindicated in all post-MI patients forever",
         "B) Aspirin plus warfarin replaces P2Y12 in all stent patients as standard DAPT",
@@ -1952,7 +1952,7 @@
     },
     {
       "id": "cardiology:extreme:18",
-      "question": "A 53-year-old woman deteriorates overnight with high-intensity statin ACS. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "A 70-year-old woman needs immediate action related to high-intensity statin ACS. Which of the following is correct?",
       "options": [
         "A) Any Cr rise mandates permanent cessation of all HF therapy",
         "B) High-intensity statin for secondary prevention after ACS",
@@ -1970,7 +1970,7 @@
     },
     {
       "id": "cardiology:extreme:19",
-      "question": "A 60-year-old man with hypertension develops life-threatening complications in the setting of tamponade triad. Which of the following is most consistent with the clinical process?",
+      "question": "A 41-year-old man with hypertension develops dangerous complications of tamponade triad. Which of the following is correct?",
       "options": [
         "A) Hypotension, raised JVP, muffled sounds ± electrical alternans suggest tamponade",
         "B) Hypertension with bounding pulses is the classic tamponade triad",
@@ -1988,7 +1988,7 @@
     },
     {
       "id": "cardiology:extreme:20",
-      "question": "A rapidly progressive presentation of electrical alternans is reviewed in a 40-year-old man. Which of the following is most likely?",
+      "question": "A 54-year-old man has a rapidly worsening course of electrical alternans. Which of the following is most accurate?",
       "options": [
         "A) Beat-to-beat QRS amplitude change suggests swinging heart in large effusion",
         "B) Narrow QRS excludes all conduction disease",
@@ -2006,7 +2006,7 @@
     },
     {
       "id": "cardiology:extreme:21",
-      "question": "A 53-year-old man requires urgent decision-making for unstable AF cardioversion. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Urgent management decisions for unstable AF cardioversion are required in a 67-year-old man. Which of the following is most accurate?",
       "options": [
         "A) Unstable VT observed 1 hour before any therapy",
         "B) Unstable AF should first get only oral digoxin and observe hours",
@@ -2024,7 +2024,7 @@
     },
     {
       "id": "cardiology:extreme:22",
-      "question": "A 72-year-old woman has refractory abnormalities due to preexcited AF. Which of the following is the most accurate interpretation?",
+      "question": "A 53-year-old woman has refractory preexcited AF. Which of the following is correct?",
       "options": [
         "A) Adenosine first-line for irregular polymorphic VT",
         "B) Avoid AV-nodal blockers in preexcited AF; shock if unstable or use procainamide",
@@ -2042,7 +2042,7 @@
     },
     {
       "id": "cardiology:extreme:23",
-      "question": "A critical-care presentation involving regular wide-complex tachycardia in a 49-year-old woman is discussed. Which of the following is most likely?",
+      "question": "In intensive care, a 63-year-old woman is treated for regular wide-complex tachycardia. Which of the following is most accurate?",
       "options": [
         "A) Unstable AF should first get only oral digoxin and observe hours",
         "B) IV verapamil first-line for irregular wide-complex preexcited AF",
@@ -2060,7 +2060,7 @@
     },
     {
       "id": "cardiology:extreme:24",
-      "question": "A 50-year-old woman with hypertension develops rapidly worsening features of pulseless ventricular tachycardia or fibrillation. Vital signs are unstable. Which of the following is most likely?",
+      "question": "A 64-year-old woman with hypertension requires urgent decisions about pulseless ventricular tachycardia or fibrillation. Which of the following is most accurate?",
       "options": [
         "A) Pulseless VT/VF needs immediate defibrillation/CPR",
         "B) Unstable VT observed 1 hour before any therapy",
@@ -2078,7 +2078,7 @@
     },
     {
       "id": "cardiology:extreme:25",
-      "question": "In the emergency department, a 72-year-old man is critically ill with a syndrome centered on symptomatic bradycardia. Which of the following is most likely?",
+      "question": "Management of symptomatic bradycardia is reviewed for a 53-year-old man. Which of the following is most accurate?",
       "options": [
         "A) Symptomatic sinus bradycardia may respond to atropine while preparing pacing",
         "B) First therapy for cardiogenic shock without congestion assessment",
@@ -2096,7 +2096,7 @@
     },
     {
       "id": "cardiology:extreme:26",
-      "question": "A 70-year-old man deteriorates overnight with cHB pacing. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "A 51-year-old man worsens overnight with CHB pacing. Which of the following is most accurate?",
       "options": [
         "A) Any BP >140 always requires immediate ICU nitroprusside",
         "B) High-grade AV block with instability needs temporary pacing readiness",
@@ -2114,7 +2114,7 @@
     },
     {
       "id": "cardiology:extreme:27",
-      "question": "A 62-year-old woman with diabetes, hypertension, and chronic kidney disease develops life-threatening complications in the setting of severe symptomatic aortic stenosis. Which of the following is most consistent with the clinical process?",
+      "question": "In advanced review of severe symptomatic aortic stenosis, which of the following is most accurate?",
       "options": [
         "A) AS presents as holosystolic apical murmur to axilla like MR",
         "B) Syncope, angina, HF with harsh SEM to carotids",
@@ -2132,7 +2132,7 @@
     },
     {
       "id": "cardiology:extreme:28",
-      "question": "A rapidly progressive presentation of mitral stenosis is reviewed in a 57-year-old woman. Which of the following is most likely?",
+      "question": "Which interpretation of mitral stenosis is most accurate?",
       "options": [
         "A) Diastolic rumble with opening snap in mitral stenosis",
         "B) MS is holosystolic murmur to the axilla",
@@ -2150,7 +2150,7 @@
     },
     {
       "id": "cardiology:extreme:29",
-      "question": "A 31-year-old man requires urgent decision-making for hypertrophic obstructive cardiomyopathy. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Which closely related statement about hypertrophic obstructive cardiomyopathy is correct?",
       "options": [
         "A) Only holosystolic apical to axilla like MR",
         "B) AS presents as holosystolic apical murmur to axilla like MR",

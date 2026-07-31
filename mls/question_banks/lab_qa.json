@@ -2,7 +2,7 @@
   "easy": [
     {
       "id": "lab_qa:easy:0",
-      "question": "Which of the following best characterizes qA vs QC?",
+      "question": "Which of the following is true about QA vs QC?",
       "options": [
         "A) Quality assurance is the total system ensuring quality; QC is the control testing component",
         "B) CRR is always narrower than AMR by definition",
@@ -20,7 +20,7 @@
     },
     {
       "id": "lab_qa:easy:1",
-      "question": "Which finding is most consistent with accuracy?",
+      "question": "Which finding matches accuracy?",
       "options": [
         "A) Accuracy is identical to precision scatter only",
         "B) Precision guarantees accuracy always",
@@ -38,7 +38,7 @@
     },
     {
       "id": "lab_qa:easy:2",
-      "question": "Which of the following statements about precision is most accurate?",
+      "question": "Which statement regarding precision is correct?",
       "options": [
         "A) Precision is reproducibility of repeated measurements",
         "B) Accuracy is identical to precision scatter only",
@@ -56,7 +56,7 @@
     },
     {
       "id": "lab_qa:easy:3",
-      "question": "In patients with bias, which of the following is most correct?",
+      "question": "In clinical examination related to bias, which of the following is correct?",
       "options": [
         "A) Bias is random scatter around the mean only",
         "B) Systematic error is identical to random imprecision",
@@ -74,7 +74,7 @@
     },
     {
       "id": "lab_qa:easy:4",
-      "question": "Which of the following is the hallmark feature of random error?",
+      "question": "Which of the following best describes random error?",
       "options": [
         "A) Bias is random scatter around the mean only",
         "B) Systematic error is identical to random imprecision",
@@ -92,7 +92,7 @@
     },
     {
       "id": "lab_qa:easy:5",
-      "question": "Which description most accurately matches systematic error?",
+      "question": "Select the correct interpretation for systematic error.",
       "options": [
         "A) Systematic error is identical to random imprecision",
         "B) Random error is a constant shift in one direction only",
@@ -110,7 +110,7 @@
     },
     {
       "id": "lab_qa:easy:6",
-      "question": "Regarding sensitivity analytical, which of the following is most accurate?",
+      "question": "Which of the following applies to sensitivity analytical?",
       "options": [
         "A) Analytical specificity equals clinical sensitivity",
         "B) Analytical sensitivity equals diagnostic specificity always",
@@ -128,7 +128,7 @@
     },
     {
       "id": "lab_qa:easy:7",
-      "question": "Which of the following mechanisms best explains specificity analytical?",
+      "question": "Which statement about specificity analytical is accurate?",
       "options": [
         "A) Analytical sensitivity equals diagnostic specificity always",
         "B) Analytical specificity equals clinical sensitivity",
@@ -146,7 +146,7 @@
     },
     {
       "id": "lab_qa:easy:8",
-      "question": "Which of the following best characterizes diagnostic sensitivity?",
+      "question": "Which of the following is true about diagnostic sensitivity?",
       "options": [
         "A) Diagnostic sensitivity equals positive predictive value always",
         "B) Diagnostic specificity equals negative predictive value always",
@@ -164,7 +164,7 @@
     },
     {
       "id": "lab_qa:easy:9",
-      "question": "Which finding is most consistent with diagnostic specificity?",
+      "question": "Which finding matches diagnostic specificity?",
       "options": [
         "A) Diagnostic specificity is true negative rate among nondiseased",
         "B) Diagnostic sensitivity equals positive predictive value always",
@@ -182,7 +182,7 @@
     },
     {
       "id": "lab_qa:easy:10",
-      "question": "Which of the following statements about PPV is most accurate?",
+      "question": "Which statement regarding PPV is correct?",
       "options": [
         "A) PPV is independent of prevalence always",
         "B) NPV falls as prevalence falls always",
@@ -200,7 +200,7 @@
     },
     {
       "id": "lab_qa:easy:11",
-      "question": "In patients with NPV, which of the following is most correct?",
+      "question": "In clinical examination related to NPV, which of the following is correct?",
       "options": [
         "A) PPV is independent of prevalence always",
         "B) NPV is the probability disease is absent given a negative test",
@@ -218,7 +218,7 @@
     },
     {
       "id": "lab_qa:easy:12",
-      "question": "Which of the following is the hallmark feature of prevalence effect?",
+      "question": "Which of the following best describes prevalence effect?",
       "options": [
         "A) NPV falls as prevalence falls always",
         "B) Prevalence never affects predictive values",
@@ -236,7 +236,7 @@
     },
     {
       "id": "lab_qa:easy:13",
-      "question": "Which description most accurately matches reference interval?",
+      "question": "Select the correct interpretation for reference interval.",
       "options": [
         "A) AMR equals the reference interval always",
         "B) TEA is identical to the reference interval width",
@@ -254,7 +254,7 @@
     },
     {
       "id": "lab_qa:easy:14",
-      "question": "Regarding critical values, which of the following is most accurate?",
+      "question": "Which of the following applies to critical values?",
       "options": [
         "A) Critical values can wait until next routine rounds always",
         "B) CRR is always narrower than AMR by definition",
@@ -272,7 +272,7 @@
     },
     {
       "id": "lab_qa:easy:15",
-      "question": "Which of the following mechanisms best explains delta check?",
+      "question": "Which statement about delta check is accurate?",
       "options": [
         "A) Delta checks flag unexpected changes from prior patient results",
         "B) Delta checks replace all QC materials",
@@ -290,7 +290,7 @@
     },
     {
       "id": "lab_qa:easy:16",
-      "question": "Which of the following best characterizes levey-Jennings?",
+      "question": "Which of the following is true about levey-Jennings?",
       "options": [
         "A) New lots can be used without checks if packaging looks fine",
         "B) Levey-Jennings charts are patient histograms only",
@@ -308,7 +308,7 @@
     },
     {
       "id": "lab_qa:easy:17",
-      "question": "Which finding is most consistent with westgard 1-2s?",
+      "question": "Which finding matches westgard 1-2s?",
       "options": [
         "A) 10x indicates perfect random precision always",
         "B) 1-3s is only a warning never a reject",
@@ -326,7 +326,7 @@
     },
     {
       "id": "lab_qa:easy:18",
-      "question": "Which of the following statements about westgard 1-3s is most accurate?",
+      "question": "Which statement regarding westgard 1-3s is correct?",
       "options": [
         "A) FMEA is only used after catastrophic harm and never prospectively",
         "B) 1-2s is always a hard reject without review",
@@ -344,7 +344,7 @@
     },
     {
       "id": "lab_qa:easy:19",
-      "question": "In patients with westgard 2-2s, which of the following is most correct?",
+      "question": "In clinical examination related to westgard 2-2s, which of the following is correct?",
       "options": [
         "A) 2-2s detects systematic error when two consecutive controls exceed 2 SD same side",
         "B) 2-2s detects only random error",
@@ -362,7 +362,7 @@
     },
     {
       "id": "lab_qa:easy:20",
-      "question": "Which of the following is the hallmark feature of westgard R-4s?",
+      "question": "Which of the following best describes westgard R-4s?",
       "options": [
         "A) 4-1s is unrelated to systematic drift",
         "B) R-4s detects only systematic bias",
@@ -380,7 +380,7 @@
     },
     {
       "id": "lab_qa:easy:21",
-      "question": "Which description most accurately matches westgard 4-1s?",
+      "question": "Select the correct interpretation for westgard 4-1s.",
       "options": [
         "A) CRR is always narrower than AMR by definition",
         "B) 4-1s flags four consecutive controls beyond 1 SD same side suggesting drift",
@@ -398,7 +398,7 @@
     },
     {
       "id": "lab_qa:easy:22",
-      "question": "Regarding westgard 10x, which of the following is most accurate?",
+      "question": "Which of the following applies to westgard 10x?",
       "options": [
         "A) 1-2s is always a hard reject without review",
         "B) 2-2s detects only random error",
@@ -416,7 +416,7 @@
     },
     {
       "id": "lab_qa:easy:23",
-      "question": "Which of the following mechanisms best explains shift QC?",
+      "question": "Which statement about shift QC is accurate?",
       "options": [
         "A) Random error is a constant shift in one direction only",
         "B) A shift is a sudden sustained change in QC level",
@@ -434,7 +434,7 @@
     },
     {
       "id": "lab_qa:easy:24",
-      "question": "Which of the following best characterizes trend QC?",
+      "question": "Which of the following is true about trend QC?",
       "options": [
         "A) 10x indicates perfect random precision always",
         "B) A trend is a gradual continuous drift in QC values",
@@ -452,7 +452,7 @@
     },
     {
       "id": "lab_qa:easy:25",
-      "question": "Which finding is most consistent with control materials?",
+      "question": "Which finding matches control materials?",
       "options": [
         "A) QC materials should mimic patient matrix and cover clinically relevant levels",
         "B) CRR is always narrower than AMR by definition",
@@ -470,7 +470,7 @@
     },
     {
       "id": "lab_qa:easy:26",
-      "question": "Which of the following statements about assayed vs unassayed QC is most accurate?",
+      "question": "Which statement regarding assayed vs unassayed QC is correct?",
       "options": [
         "A) FDA clearance means no local verification is needed",
         "B) Assayed QC has manufacturer means; labs still verify; unassayed needs in-lab assignment",
@@ -488,7 +488,7 @@
     },
     {
       "id": "lab_qa:easy:27",
-      "question": "In patients with internal QC, which of the following is most correct?",
+      "question": "In clinical examination related to internal QC, which of the following is correct?",
       "options": [
         "A) Internal QC runs with patient batches to verify ongoing method performance",
         "B) Internal QC is external proficiency testing from CAP only",
@@ -506,7 +506,7 @@
     },
     {
       "id": "lab_qa:easy:28",
-      "question": "Which of the following is the hallmark feature of external PT?",
+      "question": "Which of the following best describes external PT?",
       "options": [
         "A) Failed PT can be ignored if daily QC looked okay",
         "B) External proficiency testing compares lab results to peers/reference",
@@ -524,7 +524,7 @@
     },
     {
       "id": "lab_qa:easy:29",
-      "question": "Which description most accurately matches AMR?",
+      "question": "Select the correct interpretation for AMR.",
       "options": [
         "A) CRR is always narrower than AMR by definition",
         "B) AMR equals the reference interval always",
@@ -544,7 +544,7 @@
   "medium": [
     {
       "id": "lab_qa:medium:0",
-      "question": "A 48-year-old man has laboratory findings evaluated in the context of qA vs QC. Which of the following is most accurate?",
+      "question": "A 61-year-old woman is examined, and QA vs QC is reviewed. Which of the following is correct?",
       "options": [
         "A) QA and QC are identical terms always",
         "B) Quality assurance is the total system ensuring quality; QC is the control testing component",
@@ -562,7 +562,7 @@
     },
     {
       "id": "lab_qa:medium:1",
-      "question": "A laboratory workup for accuracy is reviewed. Which of the following interpretations is most correct?",
+      "question": "While evaluating a 68-year-old man, attention turns to accuracy. Which of the following is most accurate?",
       "options": [
         "A) Accuracy is closeness to the true value",
         "B) Precision guarantees accuracy always",
@@ -580,7 +580,7 @@
     },
     {
       "id": "lab_qa:medium:2",
-      "question": "A 37-year-old woman undergoes testing relevant to precision. Which of the following results is most consistent with the diagnosis?",
+      "question": "A 50-year-old man has findings requiring interpretation of precision. Which of the following is correct?",
       "options": [
         "A) Precision guarantees accuracy always",
         "B) Accuracy is identical to precision scatter only",
@@ -598,7 +598,7 @@
     },
     {
       "id": "lab_qa:medium:3",
-      "question": "Quality and method considerations for bias are discussed. Which of the following is most accurate?",
+      "question": "In a 44-year-old man, which statement about bias is correct?",
       "options": [
         "A) Bias is systematic error shifting results away from truth",
         "B) Systematic error is identical to random imprecision",
@@ -616,7 +616,7 @@
     },
     {
       "id": "lab_qa:medium:4",
-      "question": "A 68-year-old man has an abnormal panel suggesting random error. Which of the following is the most likely explanation?",
+      "question": "Clinical testing related to random error is performed. Which of the following is correct?",
       "options": [
         "A) Systematic error is identical to random imprecision",
         "B) Bias is random scatter around the mean only",
@@ -634,7 +634,7 @@
     },
     {
       "id": "lab_qa:medium:5",
-      "question": "A technologist reviews results related to systematic error. Which of the following is most appropriate?",
+      "question": "A 34-year-old man undergoes assessment involving systematic error. Which of the following is most accurate?",
       "options": [
         "A) Systematic error is identical to random imprecision",
         "B) Systematic error causes bias in a consistent direction",
@@ -652,7 +652,7 @@
     },
     {
       "id": "lab_qa:medium:6",
-      "question": "A 62-year-old man is being evaluated for sensitivity analytical. Which of the following laboratory conclusions is most correct?",
+      "question": "Exam findings raise a question about sensitivity analytical. Which of the following is correct?",
       "options": [
         "A) Analytical sensitivity is the smallest concentration reliably detected",
         "B) Analytical sensitivity equals diagnostic specificity always",
@@ -670,7 +670,7 @@
     },
     {
       "id": "lab_qa:medium:7",
-      "question": "In the laboratory assessment of specificity analytical, which of the following is most accurate?",
+      "question": "Which interpretation of specificity analytical is correct?",
       "options": [
         "A) Analytical specificity is freedom from interference by other substances",
         "B) Diagnostic sensitivity equals positive predictive value always",
@@ -688,7 +688,7 @@
     },
     {
       "id": "lab_qa:medium:8",
-      "question": "A 30-year-old man has laboratory findings evaluated in the context of diagnostic sensitivity. Which of the following is most accurate?",
+      "question": "A 43-year-old woman is examined, and diagnostic sensitivity is reviewed. Which of the following is correct?",
       "options": [
         "A) Diagnostic sensitivity equals positive predictive value always",
         "B) Diagnostic sensitivity is true positive rate among diseased patients",
@@ -706,7 +706,7 @@
     },
     {
       "id": "lab_qa:medium:9",
-      "question": "A laboratory workup for diagnostic specificity is reviewed. Which of the following interpretations is most correct?",
+      "question": "While evaluating a 50-year-old man, attention turns to diagnostic specificity. Which of the following is most accurate?",
       "options": [
         "A) Diagnostic specificity is true negative rate among nondiseased",
         "B) Diagnostic specificity equals negative predictive value always",
@@ -724,7 +724,7 @@
     },
     {
       "id": "lab_qa:medium:10",
-      "question": "A 59-year-old woman undergoes testing relevant to PPV. Which of the following results is most consistent with the diagnosis?",
+      "question": "A 26-year-old man has findings requiring interpretation of PPV. Which of the following is correct?",
       "options": [
         "A) NPV falls as prevalence falls always",
         "B) PPV is independent of prevalence always",
@@ -742,7 +742,7 @@
     },
     {
       "id": "lab_qa:medium:11",
-      "question": "Quality and method considerations for NPV are discussed. Which of the following is most accurate?",
+      "question": "In a 33-year-old woman, which statement about NPV is correct?",
       "options": [
         "A) NPV falls as prevalence falls always",
         "B) NPV is the probability disease is absent given a negative test",
@@ -760,7 +760,7 @@
     },
     {
       "id": "lab_qa:medium:12",
-      "question": "A 45-year-old woman has an abnormal panel suggesting prevalence effect. Which of the following is the most likely explanation?",
+      "question": "Clinical testing related to prevalence effect is performed. Which of the following is correct?",
       "options": [
         "A) Prevalence never affects predictive values",
         "B) PPV is independent of prevalence always",
@@ -778,7 +778,7 @@
     },
     {
       "id": "lab_qa:medium:13",
-      "question": "A technologist reviews results related to reference interval. Which of the following is most appropriate?",
+      "question": "A 40-year-old man undergoes assessment involving reference interval. Which of the following is most accurate?",
       "options": [
         "A) Reference intervals usually derive from central 95% of a healthy reference population",
         "B) CRR is always narrower than AMR by definition",
@@ -796,7 +796,7 @@
     },
     {
       "id": "lab_qa:medium:14",
-      "question": "A 63-year-old woman is being evaluated for critical values. Which of the following laboratory conclusions is most correct?",
+      "question": "Exam findings raise a question about critical values. Which of the following is correct?",
       "options": [
         "A) Critical values can wait until next routine rounds always",
         "B) Critical results may be emailed without read-back always",
@@ -814,7 +814,7 @@
     },
     {
       "id": "lab_qa:medium:15",
-      "question": "In the laboratory assessment of delta check, which of the following is most accurate?",
+      "question": "Which interpretation of delta check is correct?",
       "options": [
         "A) New lots can be used without checks if packaging looks fine",
         "B) Delta checks replace all QC materials",
@@ -832,7 +832,7 @@
     },
     {
       "id": "lab_qa:medium:16",
-      "question": "A 56-year-old man has laboratory findings evaluated in the context of levey-Jennings. Which of the following is most accurate?",
+      "question": "A 69-year-old woman is examined, and levey-Jennings is reviewed. Which of the following is correct?",
       "options": [
         "A) Levey-Jennings charts are patient histograms only",
         "B) Levey-Jennings charts plot QC values over time against mean and SDs",
@@ -850,7 +850,7 @@
     },
     {
       "id": "lab_qa:medium:17",
-      "question": "A laboratory workup for westgard 1-2s is reviewed. Which of the following interpretations is most correct?",
+      "question": "While evaluating a 55-year-old woman, attention turns to westgard 1-2s. Which of the following is most accurate?",
       "options": [
         "A) 1-3s is only a warning never a reject",
         "B) 1-2s warning rule flags one control beyond 2 SD",
@@ -868,7 +868,7 @@
     },
     {
       "id": "lab_qa:medium:18",
-      "question": "A 49-year-old woman undergoes testing relevant to westgard 1-3s. Which of the following results is most consistent with the diagnosis?",
+      "question": "A 62-year-old man has findings requiring interpretation of westgard 1-3s. Which of the following is correct?",
       "options": [
         "A) 1-3s is only a warning never a reject",
         "B) 1-3s rejects a run when one control exceeds 3 SD",
@@ -886,7 +886,7 @@
     },
     {
       "id": "lab_qa:medium:19",
-      "question": "Quality and method considerations for westgard 2-2s are discussed. Which of the following is most accurate?",
+      "question": "In a 69-year-old woman, which statement about westgard 2-2s is correct?",
       "options": [
         "A) R-4s detects only systematic bias",
         "B) 2-2s detects systematic error when two consecutive controls exceed 2 SD same side",
@@ -904,7 +904,7 @@
     },
     {
       "id": "lab_qa:medium:20",
-      "question": "A 63-year-old woman has an abnormal panel suggesting westgard R-4s. Which of the following is the most likely explanation?",
+      "question": "Clinical testing related to westgard R-4s is performed. Which of the following is correct?",
       "options": [
         "A) R-4s detects random error when consecutive controls differ by 4 SD",
         "B) 2-2s detects only random error",
@@ -922,7 +922,7 @@
     },
     {
       "id": "lab_qa:medium:21",
-      "question": "A technologist reviews results related to westgard 4-1s. Which of the following is most appropriate?",
+      "question": "A 37-year-old woman undergoes assessment involving westgard 4-1s. Which of the following is most accurate?",
       "options": [
         "A) R-4s detects only systematic bias",
         "B) CRR is always narrower than AMR by definition",
@@ -940,7 +940,7 @@
     },
     {
       "id": "lab_qa:medium:22",
-      "question": "A 56-year-old man is being evaluated for westgard 10x. Which of the following laboratory conclusions is most correct?",
+      "question": "Exam findings raise a question about westgard 10x. Which of the following is correct?",
       "options": [
         "A) 2-2s detects only random error",
         "B) 10x indicates perfect random precision always",
@@ -958,7 +958,7 @@
     },
     {
       "id": "lab_qa:medium:23",
-      "question": "In the laboratory assessment of shift QC, which of the following is most accurate?",
+      "question": "Which interpretation of shift QC is correct?",
       "options": [
         "A) Random error is a constant shift in one direction only",
         "B) Bias is random scatter around the mean only",
@@ -976,7 +976,7 @@
     },
     {
       "id": "lab_qa:medium:24",
-      "question": "A 32-year-old man has laboratory findings evaluated in the context of trend QC. Which of the following is most accurate?",
+      "question": "A 45-year-old woman is examined, and trend QC is reviewed. Which of the following is correct?",
       "options": [
         "A) A trend is a gradual continuous drift in QC values",
         "B) 10x indicates perfect random precision always",
@@ -994,7 +994,7 @@
     },
     {
       "id": "lab_qa:medium:25",
-      "question": "A laboratory workup for control materials is reviewed. Which of the following interpretations is most correct?",
+      "question": "While evaluating a 57-year-old woman, attention turns to control materials. Which of the following is most accurate?",
       "options": [
         "A) CRR is always narrower than AMR by definition",
         "B) QC materials should mimic patient matrix and cover clinically relevant levels",
@@ -1012,7 +1012,7 @@
     },
     {
       "id": "lab_qa:medium:26",
-      "question": "A 39-year-old woman undergoes testing relevant to assayed vs unassayed QC. Which of the following results is most consistent with the diagnosis?",
+      "question": "A 52-year-old man has findings requiring interpretation of assayed vs unassayed QC. Which of the following is correct?",
       "options": [
         "A) Assayed QC means no lab verification is ever needed",
         "B) FDA clearance means no local verification is needed",
@@ -1030,7 +1030,7 @@
     },
     {
       "id": "lab_qa:medium:27",
-      "question": "Quality and method considerations for internal QC are discussed. Which of the following is most accurate?",
+      "question": "In a 37-year-old woman, which statement about internal QC is correct?",
       "options": [
         "A) Internal QC runs with patient batches to verify ongoing method performance",
         "B) New lots can be used without checks if packaging looks fine",
@@ -1048,7 +1048,7 @@
     },
     {
       "id": "lab_qa:medium:28",
-      "question": "A 31-year-old woman has an abnormal panel suggesting external PT. Which of the following is the most likely explanation?",
+      "question": "Clinical testing related to external PT is performed. Which of the following is correct?",
       "options": [
         "A) Split samples are only for PT surveys never internal checks",
         "B) External PT replaces daily internal QC",
@@ -1066,7 +1066,7 @@
     },
     {
       "id": "lab_qa:medium:29",
-      "question": "A technologist reviews results related to AMR. Which of the following is most appropriate?",
+      "question": "A 67-year-old woman undergoes assessment involving AMR. Which of the following is most accurate?",
       "options": [
         "A) CRR is always narrower than AMR by definition",
         "B) Analytical measurement range is the range reportable without dilution where method is linear",
@@ -1086,7 +1086,7 @@
   "hard": [
     {
       "id": "lab_qa:hard:0",
-      "question": "A 48-year-old man presents with findings that could fit more than one process often confused with qA vs QC. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "Careful review of QA vs QC is required. Which of the following is most accurate?",
       "options": [
         "A) QA and QC are identical terms always",
         "B) Blind QC is identical to assayed QC with open charts always",
@@ -1104,7 +1104,7 @@
     },
     {
       "id": "lab_qa:hard:1",
-      "question": "A 55-year-old woman is hospitalized with evolving features of accuracy. A common mimic remains possible. Which of the following is most likely?",
+      "question": "Two similar explanations for accuracy are compared. Which of the following is correct?",
       "options": [
         "A) Precision guarantees accuracy always",
         "B) Accuracy is closeness to the true value",
@@ -1122,7 +1122,7 @@
     },
     {
       "id": "lab_qa:hard:2",
-      "question": "A 37-year-old woman is evaluated for precision. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "In a detailed discussion of precision, which of the following is most accurate?",
       "options": [
         "A) 10x indicates perfect random precision always",
         "B) Precision is reproducibility of repeated measurements",
@@ -1140,7 +1140,7 @@
     },
     {
       "id": "lab_qa:hard:3",
-      "question": "A 31-year-old woman is evaluated for suspected bias. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "Which of the following correctly distinguishes key points about bias?",
       "options": [
         "A) Systematic error is identical to random imprecision",
         "B) Bias is random scatter around the mean only",
@@ -1158,7 +1158,7 @@
     },
     {
       "id": "lab_qa:hard:4",
-      "question": "Findings thought to represent random error can be misread. Which of the following is most correct?",
+      "question": "Careful interpretation of random error is required. Which of the following is correct?",
       "options": [
         "A) Random error is a constant shift in one direction only",
         "B) Bias is random scatter around the mean only",
@@ -1176,7 +1176,7 @@
     },
     {
       "id": "lab_qa:hard:5",
-      "question": "A 67-year-old woman presents with systematic error. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "Which statement about systematic error is most accurate?",
       "options": [
         "A) Systematic error causes bias in a consistent direction",
         "B) Random error is a constant shift in one direction only",
@@ -1194,371 +1194,317 @@
     },
     {
       "id": "lab_qa:hard:6",
-      "question": "A complex case of sensitivity analytical involving a 62-year-old man is reviewed on rounds. Which of the following is most accurate?",
+      "question": "Which of the following is the best statement about specificity analytical?",
       "options": [
-        "A) Diagnostic sensitivity equals positive predictive value always",
-        "B) Analytical sensitivity is the smallest concentration reliably detected",
-        "C) Diagnostic specificity equals negative predictive value always",
-        "D) Analytical sensitivity equals diagnostic specificity always"
+        "A) Diagnostic specificity equals negative predictive value always",
+        "B) Analytical specificity is freedom from interference by other substances",
+        "C) Analytical sensitivity equals diagnostic specificity always",
+        "D) Analytical specificity equals clinical sensitivity"
       ],
-      "answer": "B) Analytical sensitivity is the smallest concentration reliably detected",
-      "explanation": "Analytical sensitivity is the smallest concentration reliably detected — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Analytical sensitivity is the smallest concentration reliably detected. Analytical sensitivity equals diagnostic specificity always — that  confuses a closely related concept; the correct statement remains: Analytical sensitivity is the smallest concentration reliably detected.",
+      "answer": "B) Analytical specificity is freedom from interference by other substances",
+      "explanation": "Analytical specificity is freedom from interference by other substances — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Analytical specificity is freedom from interference by other substances. Analytical specificity equals clinical sensitivity — that  confuses a closely related concept; the correct statement remains: Analytical specificity is freedom from interference by other substances.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Analytical sensitivity is the smallest concentration reliably detected — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "B": "Analytical specificity is freedom from interference by other substances — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Analytical sensitivity equals diagnostic specificity always — that near-miss confuses a closely related concept; the correct statement remains: Analytical sensitivity is the smallest concentration reliably detected. It is less consistent than the correct choice."
+        "D": "Analytical specificity equals clinical sensitivity — that near-miss confuses a closely related concept; the correct statement remains: Analytical specificity is freedom from interference by other substances. It is less consistent than the correct choice."
       }
     },
     {
       "id": "lab_qa:hard:7",
-      "question": "A 69-year-old woman has progressive abnormalities attributed to specificity analytical. Which of the following is most consistent with the clinical process?",
+      "question": "Careful review of diagnostic sensitivity is required. Which of the following is most accurate?",
       "options": [
-        "A) Analytical specificity is freedom from interference by other substances",
-        "B) Analytical specificity equals clinical sensitivity",
-        "C) Analytical sensitivity equals diagnostic specificity always",
-        "D) Diagnostic specificity equals negative predictive value always"
+        "A) Diagnostic sensitivity is true positive rate among diseased patients",
+        "B) Diagnostic sensitivity equals positive predictive value always",
+        "C) Diagnostic specificity equals negative predictive value always",
+        "D) Analytical sensitivity equals diagnostic specificity always"
       ],
-      "answer": "A) Analytical specificity is freedom from interference by other substances",
-      "explanation": "Analytical specificity is freedom from interference by other substances — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Analytical specificity is freedom from interference by other substances. Analytical specificity equals clinical sensitivity — that  confuses a closely related concept; the correct statement remains: Analytical specificity is freedom from interference by other substances.",
+      "answer": "A) Diagnostic sensitivity is true positive rate among diseased patients",
+      "explanation": "Diagnostic sensitivity is true positive rate among diseased patients — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Diagnostic sensitivity is true positive rate among diseased patients. Diagnostic sensitivity equals positive predictive value always — that  confuses a closely related concept; the correct statement remains: Diagnostic sensitivity is true positive rate among diseased patients.",
       "choice_explanations": {
-        "A": "Analytical specificity is freedom from interference by other substances — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "B": "Analytical specificity equals clinical sensitivity — that near-miss confuses a closely related concept; the correct statement remains: Analytical specificity is freedom from interference by other substances. It is less consistent than the correct choice.",
+        "A": "Diagnostic sensitivity is true positive rate among diseased patients — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "B": "Diagnostic sensitivity equals positive predictive value always — that near-miss confuses a closely related concept; the correct statement remains: Diagnostic sensitivity is true positive rate among diseased patients. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "lab_qa:hard:8",
-      "question": "A 30-year-old man presents with findings that could fit more than one process often confused with diagnostic sensitivity. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "Two similar explanations for diagnostic specificity are compared. Which of the following is correct?",
       "options": [
-        "A) Diagnostic sensitivity equals positive predictive value always",
-        "B) Diagnostic specificity equals negative predictive value always",
-        "C) Diagnostic sensitivity is true positive rate among diseased patients",
+        "A) Diagnostic specificity equals negative predictive value always",
+        "B) Diagnostic sensitivity equals positive predictive value always",
+        "C) Diagnostic specificity is true negative rate among nondiseased",
         "D) Analytical sensitivity equals diagnostic specificity always"
       ],
-      "answer": "C) Diagnostic sensitivity is true positive rate among diseased patients",
-      "explanation": "Diagnostic sensitivity is true positive rate among diseased patients — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Diagnostic sensitivity is true positive rate among diseased patients. Diagnostic sensitivity equals positive predictive value always — that  confuses a closely related concept; the correct statement remains: Diagnostic sensitivity is true positive rate among diseased patients.",
+      "answer": "C) Diagnostic specificity is true negative rate among nondiseased",
+      "explanation": "Diagnostic specificity is true negative rate among nondiseased — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Diagnostic specificity is true negative rate among nondiseased. Diagnostic specificity equals negative predictive value always — that  confuses a closely related concept; the correct statement remains: Diagnostic specificity is true negative rate among nondiseased.",
       "choice_explanations": {
-        "A": "Diagnostic sensitivity equals positive predictive value always — that near-miss confuses a closely related concept; the correct statement remains: Diagnostic sensitivity is true positive rate among diseased patients. It is less consistent than the correct choice.",
+        "A": "Diagnostic specificity equals negative predictive value always — that near-miss confuses a closely related concept; the correct statement remains: Diagnostic specificity is true negative rate among nondiseased. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Diagnostic sensitivity is true positive rate among diseased patients — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "C": "Diagnostic specificity is true negative rate among nondiseased — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "lab_qa:hard:9",
-      "question": "A 37-year-old woman is hospitalized with evolving features of diagnostic specificity. A common mimic remains possible. Which of the following is most likely?",
+      "question": "In a detailed discussion of PPV, which of the following is most accurate?",
       "options": [
-        "A) Analytical sensitivity equals diagnostic specificity always",
-        "B) Diagnostic sensitivity equals positive predictive value always",
-        "C) Diagnostic specificity equals negative predictive value always",
-        "D) Diagnostic specificity is true negative rate among nondiseased"
-      ],
-      "answer": "D) Diagnostic specificity is true negative rate among nondiseased",
-      "explanation": "Diagnostic specificity is true negative rate among nondiseased — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Diagnostic specificity is true negative rate among nondiseased. Diagnostic specificity equals negative predictive value always — that  confuses a closely related concept; the correct statement remains: Diagnostic specificity is true negative rate among nondiseased.",
-      "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Diagnostic specificity equals negative predictive value always — that near-miss confuses a closely related concept; the correct statement remains: Diagnostic specificity is true negative rate among nondiseased. It is less consistent than the correct choice.",
-        "D": "Diagnostic specificity is true negative rate among nondiseased — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
-      }
-    },
-    {
-      "id": "lab_qa:hard:10",
-      "question": "A 59-year-old woman is evaluated for PPV. Which of the following is favored after comparison with frequent look-alikes?",
-      "options": [
-        "A) PPV is independent of prevalence always",
-        "B) Diagnostic sensitivity equals positive predictive value always",
-        "C) NPV falls as prevalence falls always",
+        "A) Diagnostic sensitivity equals positive predictive value always",
+        "B) NPV falls as prevalence falls always",
+        "C) PPV is independent of prevalence always",
         "D) PPV is the probability disease is present given a positive test"
       ],
       "answer": "D) PPV is the probability disease is present given a positive test",
       "explanation": "PPV is the probability disease is present given a positive test — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: PPV is the probability disease is present given a positive test. PPV is independent of prevalence always — that  confuses a closely related concept; the correct statement remains: PPV is the probability disease is present given a positive test.",
       "choice_explanations": {
-        "A": "PPV is independent of prevalence always — that near-miss confuses a closely related concept; the correct statement remains: PPV is the probability disease is present given a positive test. It is less consistent than the correct choice.",
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "PPV is independent of prevalence always — that near-miss confuses a closely related concept; the correct statement remains: PPV is the probability disease is present given a positive test. It is less consistent than the correct choice.",
         "D": "PPV is the probability disease is present given a positive test — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
       }
     },
     {
-      "id": "lab_qa:hard:11",
-      "question": "A 66-year-old man is evaluated for suspected NPV. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "id": "lab_qa:hard:10",
+      "question": "Which of the following correctly distinguishes key points about NPV?",
       "options": [
         "A) NPV falls as prevalence falls always",
-        "B) PPV is independent of prevalence always",
-        "C) NPV is the probability disease is absent given a negative test",
-        "D) Diagnostic specificity equals negative predictive value always"
+        "B) Diagnostic specificity equals negative predictive value always",
+        "C) PPV is independent of prevalence always",
+        "D) NPV is the probability disease is absent given a negative test"
       ],
-      "answer": "C) NPV is the probability disease is absent given a negative test",
+      "answer": "D) NPV is the probability disease is absent given a negative test",
       "explanation": "NPV is the probability disease is absent given a negative test — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: NPV is the probability disease is absent given a negative test. NPV falls as prevalence falls always — that  confuses a closely related concept; the correct statement remains: NPV is the probability disease is absent given a negative test.",
       "choice_explanations": {
         "A": "NPV falls as prevalence falls always — that near-miss confuses a closely related concept; the correct statement remains: NPV is the probability disease is absent given a negative test. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "NPV is the probability disease is absent given a negative test — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "NPV is the probability disease is absent given a negative test — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "lab_qa:hard:11",
+      "question": "Careful interpretation of prevalence effect is required. Which of the following is correct?",
+      "options": [
+        "A) Prevalence never affects predictive values",
+        "B) NPV falls as prevalence falls always",
+        "C) Prevalence strongly affects PPV and NPV",
+        "D) PPV is independent of prevalence always"
+      ],
+      "answer": "C) Prevalence strongly affects PPV and NPV",
+      "explanation": "Prevalence strongly affects PPV and NPV — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Prevalence strongly affects PPV and NPV. Prevalence never affects predictive values — that  confuses a closely related concept; the correct statement remains: Prevalence strongly affects PPV and NPV.",
+      "choice_explanations": {
+        "A": "Prevalence never affects predictive values — that near-miss confuses a closely related concept; the correct statement remains: Prevalence strongly affects PPV and NPV. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Prevalence strongly affects PPV and NPV — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "lab_qa:hard:12",
-      "question": "Findings thought to represent prevalence effect can be misread. Which of the following is most correct?",
-      "options": [
-        "A) PPV is independent of prevalence always",
-        "B) NPV falls as prevalence falls always",
-        "C) Prevalence strongly affects PPV and NPV",
-        "D) Prevalence never affects predictive values"
-      ],
-      "answer": "C) Prevalence strongly affects PPV and NPV",
-      "explanation": "Prevalence strongly affects PPV and NPV — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Prevalence strongly affects PPV and NPV. Prevalence never affects predictive values — that  confuses a closely related concept; the correct statement remains: Prevalence strongly affects PPV and NPV.",
-      "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Prevalence strongly affects PPV and NPV — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "D": "Prevalence never affects predictive values — that near-miss confuses a closely related concept; the correct statement remains: Prevalence strongly affects PPV and NPV. It is less consistent than the correct choice."
-      }
-    },
-    {
-      "id": "lab_qa:hard:13",
-      "question": "A 27-year-old woman presents with reference interval. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "Which statement about reference interval is most accurate?",
       "options": [
         "A) AMR equals the reference interval always",
-        "B) TEA is identical to the reference interval width",
-        "C) Reference intervals are always therapeutic drug ranges",
-        "D) Reference intervals usually derive from central 95% of a healthy reference population"
+        "B) CRR is always narrower than AMR by definition",
+        "C) Reference intervals usually derive from central 95% of a healthy reference population",
+        "D) Reference intervals are always therapeutic drug ranges"
       ],
-      "answer": "D) Reference intervals usually derive from central 95% of a healthy reference population",
+      "answer": "C) Reference intervals usually derive from central 95% of a healthy reference population",
       "explanation": "Reference intervals usually derive from central 95% of a healthy reference population — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Reference intervals usually derive from central 95% of a healthy reference population. Reference intervals are always therapeutic drug ranges — that  confuses a closely related concept; the correct statement remains: Reference intervals usually derive from central 95% of a healthy reference population.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Reference intervals are always therapeutic drug ranges — that near-miss confuses a closely related concept; the correct statement remains: Reference intervals usually derive from central 95% of a healthy reference population. It is less consistent than the correct choice.",
-        "D": "Reference intervals usually derive from central 95% of a healthy reference population — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
+        "C": "Reference intervals usually derive from central 95% of a healthy reference population — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "D": "Reference intervals are always therapeutic drug ranges — that near-miss confuses a closely related concept; the correct statement remains: Reference intervals usually derive from central 95% of a healthy reference population. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "lab_qa:hard:13",
+      "question": "Which of the following is the best statement about delta check?",
+      "options": [
+        "A) New lots can be used without checks if packaging looks fine",
+        "B) Lot changes never shift patient medians",
+        "C) Delta checks replace all QC materials",
+        "D) Delta checks flag unexpected changes from prior patient results"
+      ],
+      "answer": "D) Delta checks flag unexpected changes from prior patient results",
+      "explanation": "Delta checks flag unexpected changes from prior patient results — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Delta checks flag unexpected changes from prior patient results. Delta checks replace all QC materials — that  confuses a closely related concept; the correct statement remains: Delta checks flag unexpected changes from prior patient results.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Delta checks replace all QC materials — that near-miss confuses a closely related concept; the correct statement remains: Delta checks flag unexpected changes from prior patient results. It is less consistent than the correct choice.",
+        "D": "Delta checks flag unexpected changes from prior patient results — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
       }
     },
     {
       "id": "lab_qa:hard:14",
-      "question": "A complex case of critical values involving a 63-year-old woman is reviewed on rounds. Which of the following is most accurate?",
+      "question": "Careful review of levey-Jennings is required. Which of the following is most accurate?",
       "options": [
-        "A) Critical values require rapid clinician notification per policy",
-        "B) New lots can be used without checks if packaging looks fine",
-        "C) Critical results may be emailed without read-back always",
-        "D) Critical values can wait until next routine rounds always"
+        "A) Levey-Jennings charts plot QC values over time against mean and SDs",
+        "B) Blind QC is identical to assayed QC with open charts always",
+        "C) New lots can be used without checks if packaging looks fine",
+        "D) Levey-Jennings charts are patient histograms only"
       ],
-      "answer": "A) Critical values require rapid clinician notification per policy",
-      "explanation": "Critical values require rapid clinician notification per policy — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Critical values require rapid clinician notification per policy. Critical values can wait until next routine rounds always — that  confuses a closely related concept; the correct statement remains: Critical values require rapid clinician notification per policy.",
+      "answer": "A) Levey-Jennings charts plot QC values over time against mean and SDs",
+      "explanation": "Levey-Jennings charts plot QC values over time against mean and SDs — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Levey-Jennings charts plot QC values over time against mean and SDs. Levey-Jennings charts are patient histograms only — that  confuses a closely related concept; the correct statement remains: Levey-Jennings charts plot QC values over time against mean and SDs.",
       "choice_explanations": {
-        "A": "Critical values require rapid clinician notification per policy — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "A": "Levey-Jennings charts plot QC values over time against mean and SDs — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Critical values can wait until next routine rounds always — that near-miss confuses a closely related concept; the correct statement remains: Critical values require rapid clinician notification per policy. It is less consistent than the correct choice."
+        "D": "Levey-Jennings charts are patient histograms only — that near-miss confuses a closely related concept; the correct statement remains: Levey-Jennings charts plot QC values over time against mean and SDs. It is less consistent than the correct choice."
       }
     },
     {
       "id": "lab_qa:hard:15",
-      "question": "A 32-year-old man has progressive abnormalities attributed to delta check. Which of the following is most consistent with the clinical process?",
+      "question": "Two similar explanations for westgard 1-2s are compared. Which of the following is correct?",
       "options": [
-        "A) Delta checks flag unexpected changes from prior patient results",
-        "B) Patient averages cannot detect analytical shifts",
-        "C) Delta checks replace all QC materials",
-        "D) New lots can be used without checks if packaging looks fine"
+        "A) 1-2s warning rule flags one control beyond 2 SD",
+        "B) 10x indicates perfect random precision always",
+        "C) 1-2s is always a hard reject without review",
+        "D) 1-3s is only a warning never a reject"
       ],
-      "answer": "A) Delta checks flag unexpected changes from prior patient results",
-      "explanation": "Delta checks flag unexpected changes from prior patient results — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Delta checks flag unexpected changes from prior patient results. Delta checks replace all QC materials — that  confuses a closely related concept; the correct statement remains: Delta checks flag unexpected changes from prior patient results.",
+      "answer": "A) 1-2s warning rule flags one control beyond 2 SD",
+      "explanation": "1-2s warning rule flags one control beyond 2 SD — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: 1-2s warning rule flags one control beyond 2 SD. 1-2s is always a hard reject without review — that  confuses a closely related concept; the correct statement remains: 1-2s warning rule flags one control beyond 2 SD.",
       "choice_explanations": {
-        "A": "Delta checks flag unexpected changes from prior patient results — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "A": "1-2s warning rule flags one control beyond 2 SD — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Delta checks replace all QC materials — that near-miss confuses a closely related concept; the correct statement remains: Delta checks flag unexpected changes from prior patient results. It is less consistent than the correct choice.",
+        "C": "1-2s is always a hard reject without review — that near-miss confuses a closely related concept; the correct statement remains: 1-2s warning rule flags one control beyond 2 SD. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "lab_qa:hard:16",
-      "question": "A 56-year-old man presents with findings that could fit more than one process often confused with levey-Jennings. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "In a detailed discussion of westgard 1-3s, which of the following is most accurate?",
       "options": [
-        "A) Levey-Jennings charts are patient histograms only",
-        "B) Blind QC is identical to assayed QC with open charts always",
-        "C) Levey-Jennings charts plot QC values over time against mean and SDs",
-        "D) New lots can be used without checks if packaging looks fine"
+        "A) 1-3s is only a warning never a reject",
+        "B) 1-2s is always a hard reject without review",
+        "C) 1-3s rejects a run when one control exceeds 3 SD",
+        "D) QC materials should never include medical decision levels"
       ],
-      "answer": "C) Levey-Jennings charts plot QC values over time against mean and SDs",
-      "explanation": "Levey-Jennings charts plot QC values over time against mean and SDs — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Levey-Jennings charts plot QC values over time against mean and SDs. Levey-Jennings charts are patient histograms only — that  confuses a closely related concept; the correct statement remains: Levey-Jennings charts plot QC values over time against mean and SDs.",
+      "answer": "C) 1-3s rejects a run when one control exceeds 3 SD",
+      "explanation": "1-3s rejects a run when one control exceeds 3 SD — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: 1-3s rejects a run when one control exceeds 3 SD. 1-3s is only a warning never a reject — that  confuses a closely related concept; the correct statement remains: 1-3s rejects a run when one control exceeds 3 SD.",
       "choice_explanations": {
-        "A": "Levey-Jennings charts are patient histograms only — that near-miss confuses a closely related concept; the correct statement remains: Levey-Jennings charts plot QC values over time against mean and SDs. It is less consistent than the correct choice.",
+        "A": "1-3s is only a warning never a reject — that near-miss confuses a closely related concept; the correct statement remains: 1-3s rejects a run when one control exceeds 3 SD. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Levey-Jennings charts plot QC values over time against mean and SDs — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "C": "1-3s rejects a run when one control exceeds 3 SD — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "lab_qa:hard:17",
-      "question": "A 42-year-old man is hospitalized with evolving features of westgard 1-2s. A common mimic remains possible. Which of the following is most likely?",
+      "question": "Which of the following correctly distinguishes key points about westgard 2-2s?",
       "options": [
-        "A) 10x indicates perfect random precision always",
-        "B) 1-2s is always a hard reject without review",
-        "C) 1-3s is only a warning never a reject",
-        "D) 1-2s warning rule flags one control beyond 2 SD"
+        "A) 4-1s is unrelated to systematic drift",
+        "B) 2-2s detects only random error",
+        "C) R-4s detects only systematic bias",
+        "D) 2-2s detects systematic error when two consecutive controls exceed 2 SD same side"
       ],
-      "answer": "D) 1-2s warning rule flags one control beyond 2 SD",
-      "explanation": "1-2s warning rule flags one control beyond 2 SD — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: 1-2s warning rule flags one control beyond 2 SD. 1-2s is always a hard reject without review — that  confuses a closely related concept; the correct statement remains: 1-2s warning rule flags one control beyond 2 SD.",
+      "answer": "D) 2-2s detects systematic error when two consecutive controls exceed 2 SD same side",
+      "explanation": "2-2s detects systematic error when two consecutive controls exceed 2 SD same side — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: 2-2s detects systematic error when two consecutive controls exceed 2 SD same side. 2-2s detects only random error — that  confuses a closely related concept; the correct statement remains: 2-2s detects systematic error when two consecutive controls exceed 2 SD same side.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "1-2s is always a hard reject without review — that near-miss confuses a closely related concept; the correct statement remains: 1-2s warning rule flags one control beyond 2 SD. It is less consistent than the correct choice.",
+        "B": "2-2s detects only random error — that near-miss confuses a closely related concept; the correct statement remains: 2-2s detects systematic error when two consecutive controls exceed 2 SD same side. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "1-2s warning rule flags one control beyond 2 SD — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
+        "D": "2-2s detects systematic error when two consecutive controls exceed 2 SD same side — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
       }
     },
     {
       "id": "lab_qa:hard:18",
-      "question": "A 49-year-old woman is evaluated for westgard 1-3s. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "Careful interpretation of westgard R-4s is required. Which of the following is correct?",
       "options": [
-        "A) 1-2s is always a hard reject without review",
-        "B) QC materials should never include medical decision levels",
-        "C) 1-3s is only a warning never a reject",
-        "D) 1-3s rejects a run when one control exceeds 3 SD"
+        "A) 2-2s detects only random error",
+        "B) 10x indicates perfect random precision always",
+        "C) R-4s detects only systematic bias",
+        "D) R-4s detects random error when consecutive controls differ by 4 SD"
       ],
-      "answer": "D) 1-3s rejects a run when one control exceeds 3 SD",
-      "explanation": "1-3s rejects a run when one control exceeds 3 SD — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: 1-3s rejects a run when one control exceeds 3 SD. 1-3s is only a warning never a reject — that  confuses a closely related concept; the correct statement remains: 1-3s rejects a run when one control exceeds 3 SD.",
+      "answer": "D) R-4s detects random error when consecutive controls differ by 4 SD",
+      "explanation": "R-4s detects random error when consecutive controls differ by 4 SD — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: R-4s detects random error when consecutive controls differ by 4 SD. R-4s detects only systematic bias — that  confuses a closely related concept; the correct statement remains: R-4s detects random error when consecutive controls differ by 4 SD.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "1-3s is only a warning never a reject — that near-miss confuses a closely related concept; the correct statement remains: 1-3s rejects a run when one control exceeds 3 SD. It is less consistent than the correct choice.",
-        "D": "1-3s rejects a run when one control exceeds 3 SD — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
+        "C": "R-4s detects only systematic bias — that near-miss confuses a closely related concept; the correct statement remains: R-4s detects random error when consecutive controls differ by 4 SD. It is less consistent than the correct choice.",
+        "D": "R-4s detects random error when consecutive controls differ by 4 SD — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
       }
     },
     {
       "id": "lab_qa:hard:19",
-      "question": "A 56-year-old man is evaluated for suspected westgard 2-2s. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "Which statement about westgard 4-1s is most accurate?",
       "options": [
-        "A) 2-2s detects only random error",
-        "B) 2-2s detects systematic error when two consecutive controls exceed 2 SD same side",
+        "A) 4-1s is unrelated to systematic drift",
+        "B) 4-1s flags four consecutive controls beyond 1 SD same side suggesting drift",
         "C) R-4s detects only systematic bias",
-        "D) 4-1s is unrelated to systematic drift"
+        "D) CRR is always narrower than AMR by definition"
       ],
-      "answer": "B) 2-2s detects systematic error when two consecutive controls exceed 2 SD same side",
-      "explanation": "2-2s detects systematic error when two consecutive controls exceed 2 SD same side — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: 2-2s detects systematic error when two consecutive controls exceed 2 SD same side. 2-2s detects only random error — that  confuses a closely related concept; the correct statement remains: 2-2s detects systematic error when two consecutive controls exceed 2 SD same side.",
+      "answer": "B) 4-1s flags four consecutive controls beyond 1 SD same side suggesting drift",
+      "explanation": "4-1s flags four consecutive controls beyond 1 SD same side suggesting drift — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: 4-1s flags four consecutive controls beyond 1 SD same side suggesting drift. 4-1s is unrelated to systematic drift — that  confuses a closely related concept; the correct statement remains: 4-1s flags four consecutive controls beyond 1 SD same side suggesting drift.",
       "choice_explanations": {
-        "A": "2-2s detects only random error — that near-miss confuses a closely related concept; the correct statement remains: 2-2s detects systematic error when two consecutive controls exceed 2 SD same side. It is less consistent than the correct choice.",
-        "B": "2-2s detects systematic error when two consecutive controls exceed 2 SD same side — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "A": "4-1s is unrelated to systematic drift — that near-miss confuses a closely related concept; the correct statement remains: 4-1s flags four consecutive controls beyond 1 SD same side suggesting drift. It is less consistent than the correct choice.",
+        "B": "4-1s flags four consecutive controls beyond 1 SD same side suggesting drift — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "lab_qa:hard:20",
-      "question": "Findings thought to represent westgard R-4s can be misread. Which of the following is most correct?",
+      "question": "Which of the following is the best statement about shift QC?",
       "options": [
-        "A) R-4s detects only systematic bias",
-        "B) R-4s detects random error when consecutive controls differ by 4 SD",
-        "C) 10x indicates perfect random precision always",
-        "D) 2-2s detects only random error"
+        "A) A shift is identical to increased random scatter only",
+        "B) A shift is a sudden sustained change in QC level",
+        "C) Accuracy is identical to precision scatter only",
+        "D) Random error is a constant shift in one direction only"
       ],
-      "answer": "B) R-4s detects random error when consecutive controls differ by 4 SD",
-      "explanation": "R-4s detects random error when consecutive controls differ by 4 SD — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: R-4s detects random error when consecutive controls differ by 4 SD. R-4s detects only systematic bias — that  confuses a closely related concept; the correct statement remains: R-4s detects random error when consecutive controls differ by 4 SD.",
+      "answer": "B) A shift is a sudden sustained change in QC level",
+      "explanation": "A shift is a sudden sustained change in QC level — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: A shift is a sudden sustained change in QC level. A shift is identical to increased random scatter only — that  confuses a closely related concept; the correct statement remains: A shift is a sudden sustained change in QC level.",
       "choice_explanations": {
-        "A": "R-4s detects only systematic bias — that near-miss confuses a closely related concept; the correct statement remains: R-4s detects random error when consecutive controls differ by 4 SD. It is less consistent than the correct choice.",
-        "B": "R-4s detects random error when consecutive controls differ by 4 SD — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "A": "A shift is identical to increased random scatter only — that near-miss confuses a closely related concept; the correct statement remains: A shift is a sudden sustained change in QC level. It is less consistent than the correct choice.",
+        "B": "A shift is a sudden sustained change in QC level — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "lab_qa:hard:21",
-      "question": "A 70-year-old man presents with westgard 4-1s. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
-      "options": [
-        "A) CRR is always narrower than AMR by definition",
-        "B) 4-1s flags four consecutive controls beyond 1 SD same side suggesting drift",
-        "C) R-4s detects only systematic bias",
-        "D) 4-1s is unrelated to systematic drift"
-      ],
-      "answer": "B) 4-1s flags four consecutive controls beyond 1 SD same side suggesting drift",
-      "explanation": "4-1s flags four consecutive controls beyond 1 SD same side suggesting drift — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: 4-1s flags four consecutive controls beyond 1 SD same side suggesting drift. 4-1s is unrelated to systematic drift — that  confuses a closely related concept; the correct statement remains: 4-1s flags four consecutive controls beyond 1 SD same side suggesting drift.",
-      "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "4-1s flags four consecutive controls beyond 1 SD same side suggesting drift — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "4-1s is unrelated to systematic drift — that near-miss confuses a closely related concept; the correct statement remains: 4-1s flags four consecutive controls beyond 1 SD same side suggesting drift. It is less consistent than the correct choice."
-      }
-    },
-    {
-      "id": "lab_qa:hard:22",
-      "question": "A complex case of westgard 10x involving a 56-year-old man is reviewed on rounds. Which of the following is most accurate?",
+      "question": "Careful review of trend QC is required. Which of the following is most accurate?",
       "options": [
         "A) 10x indicates perfect random precision always",
-        "B) 2-2s detects only random error",
-        "C) 1-2s is always a hard reject without review",
-        "D) 10x rule flags ten consecutive controls on one side of the mean"
-      ],
-      "answer": "D) 10x rule flags ten consecutive controls on one side of the mean",
-      "explanation": "10x rule flags ten consecutive controls on one side of the mean — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: 10x rule flags ten consecutive controls on one side of the mean. 10x indicates perfect random precision always — that  confuses a closely related concept; the correct statement remains: 10x rule flags ten consecutive controls on one side of the mean.",
-      "choice_explanations": {
-        "A": "10x indicates perfect random precision always — that near-miss confuses a closely related concept; the correct statement remains: 10x rule flags ten consecutive controls on one side of the mean. It is less consistent than the correct choice.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "10x rule flags ten consecutive controls on one side of the mean — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
-      }
-    },
-    {
-      "id": "lab_qa:hard:23",
-      "question": "A 25-year-old woman has progressive abnormalities attributed to shift QC. Which of the following is most consistent with the clinical process?",
-      "options": [
-        "A) A shift is a sudden sustained change in QC level",
-        "B) Random error is a constant shift in one direction only",
-        "C) Bias is random scatter around the mean only",
-        "D) A shift is identical to increased random scatter only"
-      ],
-      "answer": "A) A shift is a sudden sustained change in QC level",
-      "explanation": "A shift is a sudden sustained change in QC level — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: A shift is a sudden sustained change in QC level. A shift is identical to increased random scatter only — that  confuses a closely related concept; the correct statement remains: A shift is a sudden sustained change in QC level.",
-      "choice_explanations": {
-        "A": "A shift is a sudden sustained change in QC level — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "A shift is identical to increased random scatter only — that near-miss confuses a closely related concept; the correct statement remains: A shift is a sudden sustained change in QC level. It is less consistent than the correct choice."
-      }
-    },
-    {
-      "id": "lab_qa:hard:24",
-      "question": "A 32-year-old man presents with findings that could fit more than one process often confused with trend QC. Based on history, examination, and initial tests, which of the following is most likely?",
-      "options": [
-        "A) A trend is a gradual continuous drift in QC values",
-        "B) A shift is identical to increased random scatter only",
-        "C) 10x indicates perfect random precision always",
+        "B) A trend is a gradual continuous drift in QC values",
+        "C) 4-1s is unrelated to systematic drift",
         "D) A trend is a single random outlier only"
       ],
-      "answer": "A) A trend is a gradual continuous drift in QC values",
+      "answer": "B) A trend is a gradual continuous drift in QC values",
       "explanation": "A trend is a gradual continuous drift in QC values — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: A trend is a gradual continuous drift in QC values. A trend is a single random outlier only — that  confuses a closely related concept; the correct statement remains: A trend is a gradual continuous drift in QC values.",
       "choice_explanations": {
-        "A": "A trend is a gradual continuous drift in QC values — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "A trend is a gradual continuous drift in QC values — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "A trend is a single random outlier only — that near-miss confuses a closely related concept; the correct statement remains: A trend is a gradual continuous drift in QC values. It is less consistent than the correct choice."
       }
     },
     {
-      "id": "lab_qa:hard:25",
-      "question": "A 44-year-old man is hospitalized with evolving features of control materials. A common mimic remains possible. Which of the following is most likely?",
+      "id": "lab_qa:hard:22",
+      "question": "Two similar explanations for control materials are compared. Which of the following is correct?",
       "options": [
-        "A) CRR is always narrower than AMR by definition",
-        "B) QC materials should mimic patient matrix and cover clinically relevant levels",
-        "C) QC materials should never include medical decision levels",
-        "D) Delta checks replace all QC materials"
+        "A) QC materials should never include medical decision levels",
+        "B) CRR is always narrower than AMR by definition",
+        "C) Delta checks replace all QC materials",
+        "D) QC materials should mimic patient matrix and cover clinically relevant levels"
       ],
-      "answer": "B) QC materials should mimic patient matrix and cover clinically relevant levels",
+      "answer": "D) QC materials should mimic patient matrix and cover clinically relevant levels",
       "explanation": "QC materials should mimic patient matrix and cover clinically relevant levels — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: QC materials should mimic patient matrix and cover clinically relevant levels. QC materials should never include medical decision levels — that  confuses a closely related concept; the correct statement remains: QC materials should mimic patient matrix and cover clinically relevant levels.",
       "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "QC materials should mimic patient matrix and cover clinically relevant levels — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "C": "QC materials should never include medical decision levels — that near-miss confuses a closely related concept; the correct statement remains: QC materials should mimic patient matrix and cover clinically relevant levels. It is less consistent than the correct choice.",
-        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+        "A": "QC materials should never include medical decision levels — that near-miss confuses a closely related concept; the correct statement remains: QC materials should mimic patient matrix and cover clinically relevant levels. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "QC materials should mimic patient matrix and cover clinically relevant levels — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
       }
     },
     {
-      "id": "lab_qa:hard:26",
-      "question": "A 39-year-old woman is evaluated for assayed vs unassayed QC. Which of the following is favored after comparison with frequent look-alikes?",
+      "id": "lab_qa:hard:23",
+      "question": "In a detailed discussion of assayed vs unassayed QC, which of the following is most accurate?",
       "options": [
         "A) Assayed QC has manufacturer means; labs still verify; unassayed needs in-lab assignment",
         "B) FDA clearance means no local verification is needed",
-        "C) New lots can be used without checks if packaging looks fine",
+        "C) Higher sigma means worse performance always",
         "D) Assayed QC means no lab verification is ever needed"
       ],
       "answer": "A) Assayed QC has manufacturer means; labs still verify; unassayed needs in-lab assignment",
@@ -1571,55 +1517,109 @@
       }
     },
     {
-      "id": "lab_qa:hard:27",
-      "question": "A 70-year-old man is evaluated for suspected internal QC. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "id": "lab_qa:hard:24",
+      "question": "Which of the following correctly distinguishes key points about internal QC?",
       "options": [
-        "A) New lots can be used without checks if packaging looks fine",
-        "B) Internal QC is external proficiency testing from CAP only",
+        "A) Internal QC runs with patient batches to verify ongoing method performance",
+        "B) New lots can be used without checks if packaging looks fine",
         "C) External PT replaces daily internal QC",
-        "D) Internal QC runs with patient batches to verify ongoing method performance"
+        "D) Internal QC is external proficiency testing from CAP only"
       ],
-      "answer": "D) Internal QC runs with patient batches to verify ongoing method performance",
+      "answer": "A) Internal QC runs with patient batches to verify ongoing method performance",
       "explanation": "Internal QC runs with patient batches to verify ongoing method performance — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Internal QC runs with patient batches to verify ongoing method performance. Internal QC is external proficiency testing from CAP only — that  confuses a closely related concept; the correct statement remains: Internal QC runs with patient batches to verify ongoing method performance.",
       "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Internal QC is external proficiency testing from CAP only — that near-miss confuses a closely related concept; the correct statement remains: Internal QC runs with patient batches to verify ongoing method performance. It is less consistent than the correct choice.",
+        "A": "Internal QC runs with patient batches to verify ongoing method performance — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Internal QC runs with patient batches to verify ongoing method performance — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
+        "D": "Internal QC is external proficiency testing from CAP only — that near-miss confuses a closely related concept; the correct statement remains: Internal QC runs with patient batches to verify ongoing method performance. It is less consistent than the correct choice."
       }
     },
     {
-      "id": "lab_qa:hard:28",
-      "question": "Findings thought to represent external PT can be misread. Which of the following is most correct?",
+      "id": "lab_qa:hard:25",
+      "question": "Careful interpretation of external PT is required. Which of the following is correct?",
       "options": [
-        "A) External PT replaces daily internal QC",
-        "B) Failed PT can be ignored if daily QC looked okay",
-        "C) External proficiency testing compares lab results to peers/reference",
-        "D) Internal QC is external proficiency testing from CAP only"
+        "A) Internal QC is external proficiency testing from CAP only",
+        "B) External proficiency testing compares lab results to peers/reference",
+        "C) External PT replaces daily internal QC",
+        "D) Failed PT can be ignored if daily QC looked okay"
       ],
-      "answer": "C) External proficiency testing compares lab results to peers/reference",
+      "answer": "B) External proficiency testing compares lab results to peers/reference",
       "explanation": "External proficiency testing compares lab results to peers/reference — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: External proficiency testing compares lab results to peers/reference. External PT replaces daily internal QC — that  confuses a closely related concept; the correct statement remains: External proficiency testing compares lab results to peers/reference.",
       "choice_explanations": {
-        "A": "External PT replaces daily internal QC — that near-miss confuses a closely related concept; the correct statement remains: External proficiency testing compares lab results to peers/reference. It is less consistent than the correct choice.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "External proficiency testing compares lab results to peers/reference — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "External proficiency testing compares lab results to peers/reference — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "C": "External PT replaces daily internal QC — that near-miss confuses a closely related concept; the correct statement remains: External proficiency testing compares lab results to peers/reference. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
-      "id": "lab_qa:hard:29",
-      "question": "A 54-year-old man presents with AMR. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "id": "lab_qa:hard:26",
+      "question": "Which statement about AMR is most accurate?",
       "options": [
         "A) Analytical measurement range is the range reportable without dilution where method is linear",
-        "B) AMR equals the reference interval always",
-        "C) LDTs may be launched without any validation documentation",
-        "D) CRR is always narrower than AMR by definition"
+        "B) CRR is always narrower than AMR by definition",
+        "C) Analytical sensitivity equals diagnostic specificity always",
+        "D) AMR equals the reference interval always"
       ],
       "answer": "A) Analytical measurement range is the range reportable without dilution where method is linear",
       "explanation": "Analytical measurement range is the range reportable without dilution where method is linear — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Analytical measurement range is the range reportable without dilution where method is linear. AMR equals the reference interval always — that  confuses a closely related concept; the correct statement remains: Analytical measurement range is the range reportable without dilution where method is linear.",
       "choice_explanations": {
         "A": "Analytical measurement range is the range reportable without dilution where method is linear — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "B": "AMR equals the reference interval always — that near-miss confuses a closely related concept; the correct statement remains: Analytical measurement range is the range reportable without dilution where method is linear. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "AMR equals the reference interval always — that near-miss confuses a closely related concept; the correct statement remains: Analytical measurement range is the range reportable without dilution where method is linear. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "lab_qa:hard:27",
+      "question": "Which of the following is the best statement about linearity?",
+      "options": [
+        "A) Accuracy is identical to precision scatter only",
+        "B) Linearity is identical to precision at one level",
+        "C) Calibration verification is unnecessary after calibration ever",
+        "D) Linearity verification confirms proportional recovery across concentrations"
+      ],
+      "answer": "D) Linearity verification confirms proportional recovery across concentrations",
+      "explanation": "Linearity verification confirms proportional recovery across concentrations — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Linearity verification confirms proportional recovery across concentrations. Linearity is identical to precision at one level — that  confuses a closely related concept; the correct statement remains: Linearity verification confirms proportional recovery across concentrations.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Linearity is identical to precision at one level — that near-miss confuses a closely related concept; the correct statement remains: Linearity verification confirms proportional recovery across concentrations. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Linearity verification confirms proportional recovery across concentrations — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "lab_qa:hard:28",
+      "question": "Careful review of calibration is required. Which of the following is most accurate?",
+      "options": [
+        "A) Calibration is the same as running patient unknowns",
+        "B) New lots can be used without checks if packaging looks fine",
+        "C) Calibration establishes the relationship between instrument signal and analyte concentration",
+        "D) Corrective action means only re-running the same QC once"
+      ],
+      "answer": "C) Calibration establishes the relationship between instrument signal and analyte concentration",
+      "explanation": "Calibration establishes the relationship between instrument signal and analyte concentration — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Calibration establishes the relationship between instrument signal and analyte concentration. Calibration is the same as running patient unknowns — that  confuses a closely related concept; the correct statement remains: Calibration establishes the relationship between instrument signal and analyte concentration.",
+      "choice_explanations": {
+        "A": "Calibration is the same as running patient unknowns — that near-miss confuses a closely related concept; the correct statement remains: Calibration establishes the relationship between instrument signal and analyte concentration. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Calibration establishes the relationship between instrument signal and analyte concentration — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "lab_qa:hard:29",
+      "question": "Two similar explanations for calibration verification are compared. Which of the following is correct?",
+      "options": [
+        "A) Calibration verification checks that calibration remains valid across the range",
+        "B) Calibration verification is unnecessary after calibration ever",
+        "C) CRR is always narrower than AMR by definition",
+        "D) New lots can be used without checks if packaging looks fine"
+      ],
+      "answer": "A) Calibration verification checks that calibration remains valid across the range",
+      "explanation": "Calibration verification checks that calibration remains valid across the range — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Calibration verification checks that calibration remains valid across the range. Calibration verification is unnecessary after calibration ever — that  confuses a closely related concept; the correct statement remains: Calibration verification checks that calibration remains valid across the range.",
+      "choice_explanations": {
+        "A": "Calibration verification checks that calibration remains valid across the range — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "B": "Calibration verification is unnecessary after calibration ever — that near-miss confuses a closely related concept; the correct statement remains: Calibration verification checks that calibration remains valid across the range. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
@@ -1628,7 +1628,7 @@
   "extreme": [
     {
       "id": "lab_qa:extreme:0",
-      "question": "A 48-year-old man develops rapidly worsening features of qA vs QC. Vital signs are unstable. Which of the following is most likely?",
+      "question": "Careful reasoning about QA vs QC is required. Which of the following is most accurate?",
       "options": [
         "A) Blind QC is identical to assayed QC with open charts always",
         "B) QA and QC are identical terms always",
@@ -1646,7 +1646,7 @@
     },
     {
       "id": "lab_qa:extreme:1",
-      "question": "In the emergency department, a 55-year-old woman is critically ill with a syndrome centered on accuracy. Which of the following is most likely?",
+      "question": "Small differences in wording about accuracy matter. Which of the following is correct?",
       "options": [
         "A) Accuracy is identical to precision scatter only",
         "B) Accuracy is closeness to the true value",
@@ -1664,7 +1664,7 @@
     },
     {
       "id": "lab_qa:extreme:2",
-      "question": "A 37-year-old woman deteriorates overnight with precision. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "Which of the following is the most precise statement about precision?",
       "options": [
         "A) Precision is reproducibility of repeated measurements",
         "B) Precision guarantees accuracy always",
@@ -1682,7 +1682,7 @@
     },
     {
       "id": "lab_qa:extreme:3",
-      "question": "A 31-year-old woman develops life-threatening complications in the setting of bias. Which of the following is most consistent with the clinical process?",
+      "question": "In advanced review of bias, which of the following is most accurate?",
       "options": [
         "A) R-4s detects only systematic bias",
         "B) Bias is systematic error shifting results away from truth",
@@ -1700,7 +1700,7 @@
     },
     {
       "id": "lab_qa:extreme:4",
-      "question": "A rapidly progressive presentation of random error is reviewed in a 68-year-old man. Which of the following is most likely?",
+      "question": "Which interpretation of random error is most accurate?",
       "options": [
         "A) Random error is a constant shift in one direction only",
         "B) Random error causes imprecision and unpredictable scatter",
@@ -1718,7 +1718,7 @@
     },
     {
       "id": "lab_qa:extreme:5",
-      "question": "A 67-year-old woman requires urgent decision-making for systematic error. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Which closely related statement about systematic error is correct?",
       "options": [
         "A) Random error is a constant shift in one direction only",
         "B) Bias is random scatter around the mean only",
@@ -1736,7 +1736,7 @@
     },
     {
       "id": "lab_qa:extreme:6",
-      "question": "A 62-year-old man has refractory abnormalities due to sensitivity analytical. Which of the following is the most accurate interpretation?",
+      "question": "Which of the following is the central point about sensitivity analytical?",
       "options": [
         "A) Diagnostic sensitivity equals positive predictive value always",
         "B) Analytical sensitivity equals diagnostic specificity always",
@@ -1754,7 +1754,7 @@
     },
     {
       "id": "lab_qa:extreme:7",
-      "question": "A critical-care presentation involving specificity analytical in a 69-year-old woman is discussed. Which of the following is most likely?",
+      "question": "Which statement about specificity analytical is most accurate?",
       "options": [
         "A) Diagnostic sensitivity equals positive predictive value always",
         "B) Analytical specificity is freedom from interference by other substances",
@@ -1772,7 +1772,7 @@
     },
     {
       "id": "lab_qa:extreme:8",
-      "question": "A 30-year-old man develops rapidly worsening features of diagnostic sensitivity. Vital signs are unstable. Which of the following is most likely?",
+      "question": "Careful reasoning about diagnostic sensitivity is required. Which of the following is most accurate?",
       "options": [
         "A) Analytical sensitivity equals diagnostic specificity always",
         "B) Diagnostic sensitivity equals positive predictive value always",
@@ -1790,7 +1790,7 @@
     },
     {
       "id": "lab_qa:extreme:9",
-      "question": "In the emergency department, a 37-year-old woman is critically ill with a syndrome centered on diagnostic specificity. Which of the following is most likely?",
+      "question": "Small differences in wording about diagnostic specificity matter. Which of the following is correct?",
       "options": [
         "A) Diagnostic specificity is true negative rate among nondiseased",
         "B) Diagnostic specificity equals negative predictive value always",
@@ -1808,7 +1808,7 @@
     },
     {
       "id": "lab_qa:extreme:10",
-      "question": "A 59-year-old woman deteriorates overnight with PPV. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "Which of the following is the most precise statement about PPV?",
       "options": [
         "A) NPV falls as prevalence falls always",
         "B) Prevalence never affects predictive values",
@@ -1826,7 +1826,7 @@
     },
     {
       "id": "lab_qa:extreme:11",
-      "question": "A 66-year-old man with diabetes and hypertension develops life-threatening complications in the setting of NPV. Which of the following is most consistent with the clinical process?",
+      "question": "In advanced review of NPV, which of the following is most accurate?",
       "options": [
         "A) NPV is the probability disease is absent given a negative test",
         "B) Diagnostic specificity equals negative predictive value always",
@@ -1844,7 +1844,7 @@
     },
     {
       "id": "lab_qa:extreme:12",
-      "question": "A rapidly progressive presentation of prevalence effect is reviewed in a 45-year-old woman. Which of the following is most likely?",
+      "question": "Which interpretation of prevalence effect is most accurate?",
       "options": [
         "A) PPV is independent of prevalence always",
         "B) Prevalence strongly affects PPV and NPV",
@@ -1862,7 +1862,7 @@
     },
     {
       "id": "lab_qa:extreme:13",
-      "question": "A 27-year-old woman requires urgent decision-making for reference interval. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Which closely related statement about reference interval is correct?",
       "options": [
         "A) AMR equals the reference interval always",
         "B) Reference intervals are always therapeutic drug ranges",
@@ -1880,7 +1880,7 @@
     },
     {
       "id": "lab_qa:extreme:14",
-      "question": "A 63-year-old woman has refractory abnormalities due to critical values. Which of the following is the most accurate interpretation?",
+      "question": "Which of the following is the central point about critical values?",
       "options": [
         "A) Critical results may be emailed without read-back always",
         "B) Critical values require rapid clinician notification per policy",
@@ -1898,7 +1898,7 @@
     },
     {
       "id": "lab_qa:extreme:15",
-      "question": "A critical-care presentation involving delta check in a 32-year-old man is discussed. Which of the following is most likely?",
+      "question": "Which statement about delta check is most accurate?",
       "options": [
         "A) New lots can be used without checks if packaging looks fine",
         "B) Delta checks replace all QC materials",
@@ -1916,7 +1916,7 @@
     },
     {
       "id": "lab_qa:extreme:16",
-      "question": "A 56-year-old man with diabetes and hypertension develops rapidly worsening features of levey-Jennings. Vital signs are unstable. Which of the following is most likely?",
+      "question": "Careful reasoning about levey-Jennings is required. Which of the following is most accurate?",
       "options": [
         "A) Levey-Jennings charts are patient histograms only",
         "B) New lots can be used without checks if packaging looks fine",
@@ -1934,7 +1934,7 @@
     },
     {
       "id": "lab_qa:extreme:17",
-      "question": "In the emergency department, a 42-year-old man is critically ill with a syndrome centered on westgard 1-2s. Which of the following is most likely?",
+      "question": "Small differences in wording about westgard 1-2s matter. Which of the following is correct?",
       "options": [
         "A) 1-2s warning rule flags one control beyond 2 SD",
         "B) 1-2s is always a hard reject without review",
@@ -1952,7 +1952,7 @@
     },
     {
       "id": "lab_qa:extreme:18",
-      "question": "A 49-year-old woman deteriorates overnight with westgard 1-3s. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "Which of the following is the most precise statement about westgard 1-3s?",
       "options": [
         "A) 1-2s is always a hard reject without review",
         "B) 1-3s rejects a run when one control exceeds 3 SD",
@@ -1970,7 +1970,7 @@
     },
     {
       "id": "lab_qa:extreme:19",
-      "question": "A 56-year-old man with diabetes and hypertension develops life-threatening complications in the setting of westgard 2-2s. Which of the following is most consistent with the clinical process?",
+      "question": "In advanced review of westgard 2-2s, which of the following is most accurate?",
       "options": [
         "A) 2-2s detects only random error",
         "B) 4-1s is unrelated to systematic drift",
@@ -1988,7 +1988,7 @@
     },
     {
       "id": "lab_qa:extreme:20",
-      "question": "A rapidly progressive presentation of westgard R-4s is reviewed in a 63-year-old woman. Which of the following is most likely?",
+      "question": "Which interpretation of westgard R-4s is most accurate?",
       "options": [
         "A) 2-2s detects only random error",
         "B) R-4s detects random error when consecutive controls differ by 4 SD",
@@ -2006,7 +2006,7 @@
     },
     {
       "id": "lab_qa:extreme:21",
-      "question": "A 70-year-old man requires urgent decision-making for westgard 4-1s. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Which closely related statement about westgard 4-1s is correct?",
       "options": [
         "A) 4-1s flags four consecutive controls beyond 1 SD same side suggesting drift",
         "B) CRR is always narrower than AMR by definition",
@@ -2024,7 +2024,7 @@
     },
     {
       "id": "lab_qa:extreme:22",
-      "question": "A 56-year-old man has refractory abnormalities due to westgard 10x. Which of the following is the most accurate interpretation?",
+      "question": "Which of the following is the central point about westgard 10x?",
       "options": [
         "A) 1-2s is always a hard reject without review",
         "B) 10x rule flags ten consecutive controls on one side of the mean",
@@ -2042,7 +2042,7 @@
     },
     {
       "id": "lab_qa:extreme:23",
-      "question": "A critical-care presentation involving shift QC in a 25-year-old woman is discussed. Which of the following is most likely?",
+      "question": "Which statement about shift QC is most accurate?",
       "options": [
         "A) A shift is identical to increased random scatter only",
         "B) Random error is a constant shift in one direction only",
@@ -2060,7 +2060,7 @@
     },
     {
       "id": "lab_qa:extreme:24",
-      "question": "A 32-year-old man develops rapidly worsening features of trend QC. Vital signs are unstable. Which of the following is most likely?",
+      "question": "Careful reasoning about trend QC is required. Which of the following is most accurate?",
       "options": [
         "A) 10x indicates perfect random precision always",
         "B) A trend is a single random outlier only",
@@ -2078,7 +2078,7 @@
     },
     {
       "id": "lab_qa:extreme:25",
-      "question": "In the emergency department, a 44-year-old man is critically ill with a syndrome centered on control materials. Which of the following is most likely?",
+      "question": "Small differences in wording about control materials matter. Which of the following is correct?",
       "options": [
         "A) CRR is always narrower than AMR by definition",
         "B) QC materials should mimic patient matrix and cover clinically relevant levels",
@@ -2096,7 +2096,7 @@
     },
     {
       "id": "lab_qa:extreme:26",
-      "question": "A 39-year-old woman deteriorates overnight with assayed vs unassayed QC. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "Which of the following is the most precise statement about assayed vs unassayed QC?",
       "options": [
         "A) Waived tests need no instructions or QC ever",
         "B) Assayed QC has manufacturer means; labs still verify; unassayed needs in-lab assignment",
@@ -2114,7 +2114,7 @@
     },
     {
       "id": "lab_qa:extreme:27",
-      "question": "A 70-year-old man with diabetes and hypertension develops life-threatening complications in the setting of internal QC. Which of the following is most consistent with the clinical process?",
+      "question": "In advanced review of internal QC, which of the following is most accurate?",
       "options": [
         "A) External PT replaces daily internal QC",
         "B) New lots can be used without checks if packaging looks fine",
@@ -2132,7 +2132,7 @@
     },
     {
       "id": "lab_qa:extreme:28",
-      "question": "A rapidly progressive presentation of external PT is reviewed in a 31-year-old woman. Which of the following is most likely?",
+      "question": "Which interpretation of external PT is most accurate?",
       "options": [
         "A) External proficiency testing compares lab results to peers/reference",
         "B) External PT replaces daily internal QC",
@@ -2150,7 +2150,7 @@
     },
     {
       "id": "lab_qa:extreme:29",
-      "question": "A 54-year-old man requires urgent decision-making for AMR. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Which closely related statement about AMR is correct?",
       "options": [
         "A) CRR is always narrower than AMR by definition",
         "B) AMR equals the reference interval always",

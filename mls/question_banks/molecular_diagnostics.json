@@ -2,7 +2,7 @@
   "easy": [
     {
       "id": "molecular_diagnostics:easy:0",
-      "question": "Which of the following best characterizes pCR principle?",
+      "question": "Which of the following is true about PCR principle?",
       "options": [
         "A) PCR separates proteins by size like SDS-PAGE",
         "B) Southern blot amplifies RNA isothermally like LAMP",
@@ -20,7 +20,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:1",
-      "question": "Which finding is most consistent with RT-PCR RNA?",
+      "question": "Which finding matches RT-PCR RNA?",
       "options": [
         "A) HIV genotype measures CD4 count directly",
         "B) Isothermal methods require 95°C denaturation each cycle like PCR",
@@ -38,7 +38,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:2",
-      "question": "Which of the following statements about q PCR quantification is most accurate?",
+      "question": "Which statement regarding q PCR quantification is correct?",
       "options": [
         "A) Isothermal methods require 95°C denaturation each cycle like PCR",
         "B) qPCR endpoint gels are more quantitative than real-time Ct always",
@@ -56,7 +56,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:3",
-      "question": "In patients with ct value, which of the following is most correct?",
+      "question": "In clinical examination related to ct value, which of the following is correct?",
       "options": [
         "A) Multiplex PCR can amplify only one target by definition",
         "B) Lower Ct means more starting target nucleic acid generally",
@@ -74,7 +74,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:4",
-      "question": "Which of the following is the hallmark feature of primer specificity?",
+      "question": "Which of the following best describes primer specificity?",
       "options": [
         "A) Multiplex PCR can amplify only one target by definition",
         "B) Primer design specificity determines which sequences amplify",
@@ -92,7 +92,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:5",
-      "question": "Which description most accurately matches probe hydrolysis?",
+      "question": "Select the correct interpretation for probe hydrolysis.",
       "options": [
         "A) Multiplex PCR can amplify only one target by definition",
         "B) TaqMan probes use 5' nuclease cleavage for sequence-specific fluorescence",
@@ -110,7 +110,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:6",
-      "question": "Regarding sYBR green, which of the following is most accurate?",
+      "question": "Which of the following applies to SYBR green?",
       "options": [
         "A) SYBR Green is sequence-specific like dual-labeled probes always",
         "B) Primer sequence is irrelevant to PCR specificity",
@@ -128,7 +128,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:7",
-      "question": "Which of the following mechanisms best explains nested PCR?",
+      "question": "Which statement about nested PCR is accurate?",
       "options": [
         "A) Nested PCR uses sequential primer pairs to increase sensitivity/specificity",
         "B) Primer sequence is irrelevant to PCR specificity",
@@ -146,7 +146,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:8",
-      "question": "Which of the following best characterizes multiplex PCR?",
+      "question": "Which of the following is true about multiplex PCR?",
       "options": [
         "A) Multiplex PCR detects multiple targets in one reaction with distinct primers/probes",
         "B) Multiplex PCR can amplify only one target by definition",
@@ -164,7 +164,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:9",
-      "question": "Which finding is most consistent with contamination control?",
+      "question": "Which finding matches contamination control?",
       "options": [
         "A) Amplicon contamination never causes false positives",
         "B) Inhibitors only cause false positives in PCR",
@@ -182,7 +182,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:10",
-      "question": "Which of the following statements about uNG d UTP is most accurate?",
+      "question": "Which statement regarding UNG d UTP is correct?",
       "options": [
         "A) Multiplex PCR can amplify only one target by definition",
         "B) Amplicon contamination never causes false positives",
@@ -200,7 +200,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:11",
-      "question": "In patients with extraction quality, which of the following is most correct?",
+      "question": "In clinical examination related to extraction quality, which of the following is correct?",
       "options": [
         "A) Extraction quality is irrelevant if primers are good",
         "B) RNA quality is irrelevant for RT-PCR success",
@@ -218,7 +218,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:12",
-      "question": "Which of the following is the hallmark feature of inhibitors PCR?",
+      "question": "Which of the following best describes inhibitors PCR?",
       "options": [
         "A) Multiplex PCR can amplify only one target by definition",
         "B) Amplicon contamination never causes false positives",
@@ -236,7 +236,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:13",
-      "question": "Which description most accurately matches internal control?",
+      "question": "Select the correct interpretation for internal control.",
       "options": [
         "A) Internal controls are unnecessary if the target is negative",
         "B) Genotypic resistance always detects every possible mechanism including unknown ones",
@@ -254,7 +254,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:14",
-      "question": "Regarding NASBA TMA, which of the following is most accurate?",
+      "question": "Which of the following applies to NASBA TMA?",
       "options": [
         "A) Isothermal RNA amplification methods like TMA/NASBA amplify without thermal cycling",
         "B) Isothermal methods require 95°C denaturation each cycle like PCR",
@@ -272,7 +272,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:15",
-      "question": "Which of the following mechanisms best explains LAMP?",
+      "question": "Which statement about LAMP is accurate?",
       "options": [
         "A) LAMP is a Western blot protein method",
         "B) Multiplex PCR can amplify only one target by definition",
@@ -290,7 +290,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:16",
-      "question": "Which of the following best characterizes sanger sequencing?",
+      "question": "Which of the following is true about sanger sequencing?",
       "options": [
         "A) Tumor-only sequencing never risks germline misattribution",
         "B) Sanger sequencing quantifies serum sodium",
@@ -308,7 +308,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:17",
-      "question": "Which finding is most consistent with nGS principle?",
+      "question": "Which finding matches NGS principle?",
       "options": [
         "A) Karyotype sequences single-nucleotide variants at 0.1% VAF like deep NGS",
         "B) NGS massively parallel sequences millions of fragments for genomics applications",
@@ -326,7 +326,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:18",
-      "question": "Which of the following statements about library prep is most accurate?",
+      "question": "Which statement regarding library prep is correct?",
       "options": [
         "A) NGS is identical to Gram staining colonies",
         "B) Sanger sequencing quantifies serum sodium",
@@ -344,7 +344,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:19",
-      "question": "In patients with coverage depth, which of the following is most correct?",
+      "question": "In clinical examination related to coverage depth, which of the following is correct?",
       "options": [
         "A) Analytical specificity equals clinical sensitivity always",
         "B) Depth is irrelevant to variant detection sensitivity",
@@ -362,7 +362,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:20",
-      "question": "Which of the following is the hallmark feature of variant allele fraction?",
+      "question": "Which of the following best describes variant allele fraction?",
       "options": [
         "A) VAF indicates the fraction of reads supporting a variant",
         "B) C. diff PCR positivity always equals toxin disease without context",
@@ -380,7 +380,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:21",
-      "question": "Which description most accurately matches limit of detection?",
+      "question": "Select the correct interpretation for limit of detection.",
       "options": [
         "A) LOD is the highest concentration before Hook effect only",
         "B) LOD is the lowest analyte amount reliably detected",
@@ -398,7 +398,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:22",
-      "question": "Regarding analytical specificity, which of the following is most accurate?",
+      "question": "Which of the following applies to analytical specificity?",
       "options": [
         "A) Clinical sensitivity equals analytical precision CV",
         "B) C. diff PCR positivity always equals toxin disease without context",
@@ -416,7 +416,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:23",
-      "question": "Which of the following mechanisms best explains clinical sensitivity?",
+      "question": "Which statement about sensitivity is accurate?",
       "options": [
         "A) Analytical specificity equals clinical sensitivity always",
         "B) Clinical sensitivity equals analytical precision CV",
@@ -434,7 +434,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:24",
-      "question": "Which of the following best characterizes fISH molecular?",
+      "question": "Which of the following is true about FISH molecular?",
       "options": [
         "A) HIV genotype measures CD4 count directly",
         "B) FISH measures glucose by hexokinase",
@@ -452,7 +452,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:25",
-      "question": "Which finding is most consistent with karyotype?",
+      "question": "Which finding matches karyotype?",
       "options": [
         "A) Karyotype sequences single-nucleotide variants at 0.1% VAF like deep NGS",
         "B) Karyotyping visualizes metaphase chromosomes for large rearrangements/aneuploidy",
@@ -470,7 +470,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:26",
-      "question": "Which of the following statements about CML BCR-ABL PCR is most accurate?",
+      "question": "Which statement regarding CML BCR-ABL PCR is correct?",
       "options": [
         "A) JAK2 V617F confirms BCR-ABL1-positive CML",
         "B) BCR-ABL PCR diagnoses iron deficiency",
@@ -488,7 +488,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:27",
-      "question": "In patients with AML PML-RARA, which of the following is most correct?",
+      "question": "In clinical examination related to AML PML-RARA, which of the following is correct?",
       "options": [
         "A) RAS wild-type status is irrelevant to anti-EGFR therapy",
         "B) PML::RARA fusion defines CML chronic phase",
@@ -506,7 +506,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:28",
-      "question": "Which of the following is the hallmark feature of JAK2 V617F PCR?",
+      "question": "Which of the following best describes JAK2 V617F PCR?",
       "options": [
         "A) JAK2 V617F confirms BCR-ABL1-positive CML",
         "B) BCR-ABL PCR diagnoses iron deficiency",
@@ -524,7 +524,7 @@
     },
     {
       "id": "molecular_diagnostics:easy:29",
-      "question": "Which description most accurately matches eGFR mutations?",
+      "question": "Select the correct interpretation for EGFR mutations.",
       "options": [
         "A) EGFR mutation testing guides TKI therapy in lung adenocarcinoma",
         "B) EGFR mutations guide only warfarin dosing",
@@ -544,7 +544,7 @@
   "medium": [
     {
       "id": "molecular_diagnostics:medium:0",
-      "question": "A 59-year-old woman has laboratory findings evaluated in the context of pCR principle. Which of the following is most accurate?",
+      "question": "A 60-year-old man is examined, and PCR principle is reviewed. Which of the following is correct?",
       "options": [
         "A) PCR thermally amplifies specific DNA targets using primers and polymerase",
         "B) Southern blot amplifies RNA isothermally like LAMP",
@@ -562,7 +562,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:1",
-      "question": "A laboratory workup for RT-PCR RNA is reviewed. Which of the following interpretations is most correct?",
+      "question": "While evaluating a 50-year-old man, attention turns to RT-PCR RNA. Which of the following is most accurate?",
       "options": [
         "A) Isothermal methods require 95°C denaturation each cycle like PCR",
         "B) RT-PCR directly amplifies RNA without reverse transcriptase",
@@ -580,7 +580,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:2",
-      "question": "A 36-year-old man undergoes testing relevant to q PCR quantification. Which of the following results is most consistent with the diagnosis?",
+      "question": "A 37-year-old woman has findings requiring interpretation of q PCR quantification. Which of the following is correct?",
       "options": [
         "A) Isothermal methods require 95°C denaturation each cycle like PCR",
         "B) Digital PCR is less precise than subjective gel reading always",
@@ -598,7 +598,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:3",
-      "question": "Quality and method considerations for ct value are discussed. Which of the following is most accurate?",
+      "question": "In a 68-year-old man, which statement about ct value is correct?",
       "options": [
         "A) Higher Ct always means more target than low Ct",
         "B) Multiplex PCR can amplify only one target by definition",
@@ -616,7 +616,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:4",
-      "question": "A 54-year-old man has an abnormal panel suggesting primer specificity. Which of the following is the most likely explanation?",
+      "question": "Clinical testing related to primer specificity is performed. Which of the following is correct?",
       "options": [
         "A) Nested PCR decreases specificity by design",
         "B) Multiplex PCR can amplify only one target by definition",
@@ -634,7 +634,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:5",
-      "question": "A technologist reviews results related to probe hydrolysis. Which of the following is most appropriate?",
+      "question": "A 66-year-old man undergoes assessment involving probe hydrolysis. Which of the following is most accurate?",
       "options": [
         "A) Hydrolysis probes detect proteins in ELISA",
         "B) TaqMan probes use 5' nuclease cleavage for sequence-specific fluorescence",
@@ -652,7 +652,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:6",
-      "question": "A 38-year-old man is being evaluated for sYBR green. Which of the following laboratory conclusions is most correct?",
+      "question": "Exam findings raise a question about SYBR green. Which of the following is correct?",
       "options": [
         "A) Multiplex PCR can amplify only one target by definition",
         "B) SYBR Green binds any dsDNA; melt curves help confirm specificity",
@@ -670,7 +670,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:7",
-      "question": "In the laboratory assessment of nested PCR, which of the following is most accurate?",
+      "question": "Which interpretation of nested PCR is correct?",
       "options": [
         "A) Nested PCR uses sequential primer pairs to increase sensitivity/specificity",
         "B) Multiplex reactions cannot have interference by definition",
@@ -688,7 +688,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:8",
-      "question": "A 69-year-old woman has laboratory findings evaluated in the context of multiplex PCR. Which of the following is most accurate?",
+      "question": "A 70-year-old man is examined, and multiplex PCR is reviewed. Which of the following is correct?",
       "options": [
         "A) PCR separates proteins by size like SDS-PAGE",
         "B) Primer sequence is irrelevant to PCR specificity",
@@ -706,7 +706,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:9",
-      "question": "A laboratory workup for contamination control is reviewed. Which of the following interpretations is most correct?",
+      "question": "While evaluating a 61-year-old woman, attention turns to contamination control. Which of the following is most accurate?",
       "options": [
         "A) Inhibitors only cause false positives in PCR",
         "B) PCR labs separate pre- and post-amplification areas to avoid amplicon contamination",
@@ -724,7 +724,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:10",
-      "question": "A 45-year-old woman undergoes testing relevant to uNG d UTP. Which of the following results is most consistent with the diagnosis?",
+      "question": "A 46-year-old man has findings requiring interpretation of UNG d UTP. Which of the following is correct?",
       "options": [
         "A) UNG/dUTP systems help prevent carryover contamination of amplicons",
         "B) Multiplex PCR can amplify only one target by definition",
@@ -742,7 +742,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:11",
-      "question": "Quality and method considerations for extraction quality are discussed. Which of the following is most accurate?",
+      "question": "In a 58-year-old man, which statement about extraction quality is correct?",
       "options": [
         "A) RNA quality is irrelevant for RT-PCR success",
         "B) Nucleic acid extraction quality critically affects molecular assay success",
@@ -760,7 +760,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:12",
-      "question": "A 26-year-old man has an abnormal panel suggesting inhibitors PCR. Which of the following is the most likely explanation?",
+      "question": "Clinical testing related to inhibitors PCR is performed. Which of the following is correct?",
       "options": [
         "A) Multiplex PCR can amplify only one target by definition",
         "B) Amplicon contamination never causes false positives",
@@ -778,7 +778,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:13",
-      "question": "A technologist reviews results related to internal control. Which of the following is most appropriate?",
+      "question": "A 30-year-old man undergoes assessment involving internal control. Which of the following is most accurate?",
       "options": [
         "A) Genotypic resistance always detects every possible mechanism including unknown ones",
         "B) Internal controls are unnecessary if the target is negative",
@@ -796,7 +796,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:14",
-      "question": "A 27-year-old woman is being evaluated for NASBA TMA. Which of the following laboratory conclusions is most correct?",
+      "question": "Exam findings raise a question about NASBA TMA. Which of the following is correct?",
       "options": [
         "A) RT-PCR directly amplifies RNA without reverse transcriptase",
         "B) Isothermal RNA amplification methods like TMA/NASBA amplify without thermal cycling",
@@ -814,7 +814,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:15",
-      "question": "In the laboratory assessment of LAMP, which of the following is most accurate?",
+      "question": "Which interpretation of LAMP is correct?",
       "options": [
         "A) Multiplex PCR can amplify only one target by definition",
         "B) LAMP is a Western blot protein method",
@@ -832,7 +832,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:16",
-      "question": "A 25-year-old woman has laboratory findings evaluated in the context of sanger sequencing. Which of the following is most accurate?",
+      "question": "A 26-year-old man is examined, and sanger sequencing is reviewed. Which of the following is correct?",
       "options": [
         "A) Tumor-only sequencing never risks germline misattribution",
         "B) Mosaicism is always detected by a single Sanger read",
@@ -850,7 +850,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:17",
-      "question": "A laboratory workup for nGS principle is reviewed. Which of the following interpretations is most correct?",
+      "question": "While evaluating a 41-year-old woman, attention turns to NGS principle. Which of the following is most accurate?",
       "options": [
         "A) NGS is identical to Gram staining colonies",
         "B) Library prep is unnecessary for all NGS workflows",
@@ -868,7 +868,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:18",
-      "question": "A 26-year-old man undergoes testing relevant to library prep. Which of the following results is most consistent with the diagnosis?",
+      "question": "A 27-year-old woman has findings requiring interpretation of library prep. Which of the following is correct?",
       "options": [
         "A) Sanger sequencing quantifies serum sodium",
         "B) Library prep is unnecessary for all NGS workflows",
@@ -886,7 +886,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:19",
-      "question": "Quality and method considerations for coverage depth are discussed. Which of the following is most accurate?",
+      "question": "In a 30-year-old man, which statement about coverage depth is correct?",
       "options": [
         "A) Depth is irrelevant to variant detection sensitivity",
         "B) Analytical specificity equals clinical sensitivity always",
@@ -904,7 +904,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:20",
-      "question": "A 41-year-old woman has an abnormal panel suggesting variant allele fraction. Which of the following is the most likely explanation?",
+      "question": "Clinical testing related to variant allele fraction is performed. Which of the following is correct?",
       "options": [
         "A) VAF indicates the fraction of reads supporting a variant",
         "B) Genotypic resistance always detects every possible mechanism including unknown ones",
@@ -922,7 +922,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:21",
-      "question": "A technologist reviews results related to limit of detection. Which of the following is most appropriate?",
+      "question": "A 36-year-old man undergoes assessment involving limit of detection. Which of the following is most accurate?",
       "options": [
         "A) Depth is irrelevant to variant detection sensitivity",
         "B) LOD is the highest concentration before Hook effect only",
@@ -940,7 +940,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:22",
-      "question": "A 34-year-old man is being evaluated for analytical specificity. Which of the following laboratory conclusions is most correct?",
+      "question": "Exam findings raise a question about analytical specificity. Which of the following is correct?",
       "options": [
         "A) C. diff PCR positivity always equals toxin disease without context",
         "B) Analytical specificity equals clinical sensitivity always",
@@ -958,7 +958,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:23",
-      "question": "In the laboratory assessment of clinical sensitivity, which of the following is most accurate?",
+      "question": "Which interpretation of sensitivity is correct?",
       "options": [
         "A) Mosaicism is always detected by a single Sanger read",
         "B) Analytical specificity equals clinical sensitivity always",
@@ -976,7 +976,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:24",
-      "question": "A 64-year-old man has laboratory findings evaluated in the context of fISH molecular. Which of the following is most accurate?",
+      "question": "A 65-year-old woman is examined, and FISH molecular is reviewed. Which of the following is correct?",
       "options": [
         "A) FISH measures glucose by hexokinase",
         "B) FISH uses fluorescent probes to detect gene rearrangements/copy number in cells",
@@ -994,7 +994,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:25",
-      "question": "A laboratory workup for karyotype is reviewed. Which of the following interpretations is most correct?",
+      "question": "While evaluating a 59-year-old woman, attention turns to karyotype. Which of the following is most accurate?",
       "options": [
         "A) Karyotyping visualizes metaphase chromosomes for large rearrangements/aneuploidy",
         "B) NGS is identical to Gram staining colonies",
@@ -1012,7 +1012,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:26",
-      "question": "A 53-year-old woman undergoes testing relevant to CML BCR-ABL PCR. Which of the following results is most consistent with the diagnosis?",
+      "question": "A 54-year-old man has findings requiring interpretation of CML BCR-ABL PCR. Which of the following is correct?",
       "options": [
         "A) International standards are irrelevant to quantitative molecular results",
         "B) BCR-ABL1 quantitative PCR monitors CML molecular response",
@@ -1030,7 +1030,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:27",
-      "question": "Quality and method considerations for AML PML-RARA are discussed. Which of the following is most accurate?",
+      "question": "In a 44-year-old man, which statement about AML PML-RARA is correct?",
       "options": [
         "A) RAS wild-type status is irrelevant to anti-EGFR therapy",
         "B) PML::RARA fusion defines APL and guides ATRA/ATO therapy urgency",
@@ -1048,7 +1048,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:28",
-      "question": "A 46-year-old man has an abnormal panel suggesting JAK2 V617F PCR. Which of the following is the most likely explanation?",
+      "question": "Clinical testing related to JAK2 V617F PCR is performed. Which of the following is correct?",
       "options": [
         "A) Multiplex PCR can amplify only one target by definition",
         "B) JAK2 V617F confirms BCR-ABL1-positive CML",
@@ -1066,7 +1066,7 @@
     },
     {
       "id": "molecular_diagnostics:medium:29",
-      "question": "A technologist reviews results related to eGFR mutations. Which of the following is most appropriate?",
+      "question": "A 54-year-old man undergoes assessment involving EGFR mutations. Which of the following is most accurate?",
       "options": [
         "A) EGFR mutations guide only warfarin dosing",
         "B) Target mutations only affect Gram stains",
@@ -1086,7 +1086,7 @@
   "hard": [
     {
       "id": "molecular_diagnostics:hard:0",
-      "question": "A 59-year-old woman presents with findings that could fit more than one process often confused with pCR principle. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "Careful review of PCR principle is required. Which of the following is most accurate?",
       "options": [
         "A) PCR separates proteins by size like SDS-PAGE",
         "B) Multiplex PCR can amplify only one target by definition",
@@ -1104,7 +1104,7 @@
     },
     {
       "id": "molecular_diagnostics:hard:1",
-      "question": "A 49-year-old woman is hospitalized with evolving features of RT-PCR RNA. A common mimic remains possible. Which of the following is most likely?",
+      "question": "Two similar explanations for RT-PCR RNA are compared. Which of the following is correct?",
       "options": [
         "A) RT-PCR reverse-transcribes RNA to cDNA before amplification",
         "B) Isothermal methods require 95°C denaturation each cycle like PCR",
@@ -1122,7 +1122,7 @@
     },
     {
       "id": "molecular_diagnostics:hard:2",
-      "question": "A 36-year-old man is evaluated for q PCR quantification. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "In a detailed discussion of q PCR quantification, which of the following is most accurate?",
       "options": [
         "A) Quantitative PCR monitors amplification each cycle using fluorescence",
         "B) BCR-ABL PCR diagnoses iron deficiency",
@@ -1140,7 +1140,7 @@
     },
     {
       "id": "molecular_diagnostics:hard:3",
-      "question": "A 67-year-old woman is evaluated for suspected ct value. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "Which of the following correctly distinguishes key points about ct value?",
       "options": [
         "A) Genotypic resistance always detects every possible mechanism including unknown ones",
         "B) Higher Ct always means more target than low Ct",
@@ -1158,7 +1158,7 @@
     },
     {
       "id": "molecular_diagnostics:hard:4",
-      "question": "Findings thought to represent primer specificity can be misread. Which of the following is most correct?",
+      "question": "Careful interpretation of primer specificity is required. Which of the following is correct?",
       "options": [
         "A) Primer design specificity determines which sequences amplify",
         "B) Nested PCR decreases specificity by design",
@@ -1176,7 +1176,7 @@
     },
     {
       "id": "molecular_diagnostics:hard:5",
-      "question": "A 65-year-old woman presents with probe hydrolysis. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "Which statement about probe hydrolysis is most accurate?",
       "options": [
         "A) TaqMan probes use 5' nuclease cleavage for sequence-specific fluorescence",
         "B) Hydrolysis probes detect proteins in ELISA",
@@ -1194,209 +1194,173 @@
     },
     {
       "id": "molecular_diagnostics:hard:6",
-      "question": "A complex case of sYBR green involving a 38-year-old man is reviewed on rounds. Which of the following is most accurate?",
+      "question": "Which of the following is the best statement about nested PCR?",
       "options": [
-        "A) Primer sequence is irrelevant to PCR specificity",
-        "B) SYBR Green is sequence-specific like dual-labeled probes always",
-        "C) Hydrolysis probes detect proteins in ELISA",
-        "D) SYBR Green binds any dsDNA; melt curves help confirm specificity"
+        "A) Multiplex reactions cannot have interference by definition",
+        "B) Nested PCR decreases specificity by design",
+        "C) Primer sequence is irrelevant to PCR specificity",
+        "D) Nested PCR uses sequential primer pairs to increase sensitivity/specificity"
       ],
-      "answer": "D) SYBR Green binds any dsDNA; melt curves help confirm specificity",
-      "explanation": "SYBR Green binds any dsDNA; melt curves help confirm specificity — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: SYBR Green binds any dsDNA; melt curves help confirm specificity. SYBR Green is sequence-specific like dual-labeled probes always — that  confuses a closely related concept; the correct statement remains: SYBR Green binds any dsDNA; melt curves help confirm specificity.",
+      "answer": "D) Nested PCR uses sequential primer pairs to increase sensitivity/specificity",
+      "explanation": "Nested PCR uses sequential primer pairs to increase sensitivity/specificity — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Nested PCR uses sequential primer pairs to increase sensitivity/specificity. Nested PCR decreases specificity by design — that  confuses a closely related concept; the correct statement remains: Nested PCR uses sequential primer pairs to increase sensitivity/specificity.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "SYBR Green is sequence-specific like dual-labeled probes always — that near-miss confuses a closely related concept; the correct statement remains: SYBR Green binds any dsDNA; melt curves help confirm specificity. It is less consistent than the correct choice.",
+        "B": "Nested PCR decreases specificity by design — that near-miss confuses a closely related concept; the correct statement remains: Nested PCR uses sequential primer pairs to increase sensitivity/specificity. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "SYBR Green binds any dsDNA; melt curves help confirm specificity — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
+        "D": "Nested PCR uses sequential primer pairs to increase sensitivity/specificity — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
       }
     },
     {
       "id": "molecular_diagnostics:hard:7",
-      "question": "A 45-year-old woman has progressive abnormalities attributed to nested PCR. Which of the following is most consistent with the clinical process?",
+      "question": "Careful review of multiplex PCR is required. Which of the following is most accurate?",
       "options": [
-        "A) Nested PCR uses sequential primer pairs to increase sensitivity/specificity",
-        "B) Primer sequence is irrelevant to PCR specificity",
-        "C) Nested PCR decreases specificity by design",
-        "D) Multiplex reactions cannot have interference by definition"
+        "A) Multiplex PCR detects multiple targets in one reaction with distinct primers/probes",
+        "B) PCR separates proteins by size like SDS-PAGE",
+        "C) Multiplex PCR can amplify only one target by definition",
+        "D) Primer sequence is irrelevant to PCR specificity"
       ],
-      "answer": "A) Nested PCR uses sequential primer pairs to increase sensitivity/specificity",
-      "explanation": "Nested PCR uses sequential primer pairs to increase sensitivity/specificity — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Nested PCR uses sequential primer pairs to increase sensitivity/specificity. Nested PCR decreases specificity by design — that  confuses a closely related concept; the correct statement remains: Nested PCR uses sequential primer pairs to increase sensitivity/specificity.",
+      "answer": "A) Multiplex PCR detects multiple targets in one reaction with distinct primers/probes",
+      "explanation": "Multiplex PCR detects multiple targets in one reaction with distinct primers/probes — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Multiplex PCR detects multiple targets in one reaction with distinct primers/probes. Multiplex PCR can amplify only one target by definition — that  confuses a closely related concept; the correct statement remains: Multiplex PCR detects multiple targets in one reaction with distinct primers/probes.",
       "choice_explanations": {
-        "A": "Nested PCR uses sequential primer pairs to increase sensitivity/specificity — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "A": "Multiplex PCR detects multiple targets in one reaction with distinct primers/probes — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Nested PCR decreases specificity by design — that near-miss confuses a closely related concept; the correct statement remains: Nested PCR uses sequential primer pairs to increase sensitivity/specificity. It is less consistent than the correct choice.",
+        "C": "Multiplex PCR can amplify only one target by definition — that near-miss confuses a closely related concept; the correct statement remains: Multiplex PCR detects multiple targets in one reaction with distinct primers/probes. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "molecular_diagnostics:hard:8",
-      "question": "A 69-year-old woman presents with findings that could fit more than one process often confused with multiplex PCR. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "Two similar explanations for contamination control are compared. Which of the following is correct?",
       "options": [
-        "A) Primer sequence is irrelevant to PCR specificity",
-        "B) Multiplex PCR can amplify only one target by definition",
-        "C) PCR separates proteins by size like SDS-PAGE",
-        "D) Multiplex PCR detects multiple targets in one reaction with distinct primers/probes"
-      ],
-      "answer": "D) Multiplex PCR detects multiple targets in one reaction with distinct primers/probes",
-      "explanation": "Multiplex PCR detects multiple targets in one reaction with distinct primers/probes — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Multiplex PCR detects multiple targets in one reaction with distinct primers/probes. Multiplex PCR can amplify only one target by definition — that  confuses a closely related concept; the correct statement remains: Multiplex PCR detects multiple targets in one reaction with distinct primers/probes.",
-      "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Multiplex PCR can amplify only one target by definition — that near-miss confuses a closely related concept; the correct statement remains: Multiplex PCR detects multiple targets in one reaction with distinct primers/probes. It is less consistent than the correct choice.",
-        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Multiplex PCR detects multiple targets in one reaction with distinct primers/probes — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
-      }
-    },
-    {
-      "id": "molecular_diagnostics:hard:9",
-      "question": "A 60-year-old man is hospitalized with evolving features of contamination control. A common mimic remains possible. Which of the following is most likely?",
-      "options": [
-        "A) Amplicon contamination never causes false positives",
-        "B) Inhibitors only cause false positives in PCR",
-        "C) Spike-ins intentionally create false positives as the goal",
+        "A) Spike-ins intentionally create false positives as the goal",
+        "B) Amplicon contamination never causes false positives",
+        "C) Inhibitors only cause false positives in PCR",
         "D) PCR labs separate pre- and post-amplification areas to avoid amplicon contamination"
       ],
       "answer": "D) PCR labs separate pre- and post-amplification areas to avoid amplicon contamination",
       "explanation": "PCR labs separate pre- and post-amplification areas to avoid amplicon contamination — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: PCR labs separate pre- and post-amplification areas to avoid amplicon contamination. Amplicon contamination never causes false positives — that  confuses a closely related concept; the correct statement remains: PCR labs separate pre- and post-amplification areas to avoid amplicon contamination.",
       "choice_explanations": {
-        "A": "Amplicon contamination never causes false positives — that near-miss confuses a closely related concept; the correct statement remains: PCR labs separate pre- and post-amplification areas to avoid amplicon contamination. It is less consistent than the correct choice.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Amplicon contamination never causes false positives — that near-miss confuses a closely related concept; the correct statement remains: PCR labs separate pre- and post-amplification areas to avoid amplicon contamination. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "PCR labs separate pre- and post-amplification areas to avoid amplicon contamination — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
       }
     },
     {
-      "id": "molecular_diagnostics:hard:10",
-      "question": "A 45-year-old woman is evaluated for uNG d UTP. Which of the following is favored after comparison with frequent look-alikes?",
+      "id": "molecular_diagnostics:hard:9",
+      "question": "In a detailed discussion of UNG d UTP, which of the following is most accurate?",
       "options": [
-        "A) Amplicon contamination never causes false positives",
-        "B) UNG increases carryover contamination intentionally",
-        "C) UNG/dUTP systems help prevent carryover contamination of amplicons",
-        "D) Multiplex PCR can amplify only one target by definition"
+        "A) UNG increases carryover contamination intentionally",
+        "B) Amplicon contamination never causes false positives",
+        "C) Multiplex PCR can amplify only one target by definition",
+        "D) UNG/dUTP systems help prevent carryover contamination of amplicons"
       ],
-      "answer": "C) UNG/dUTP systems help prevent carryover contamination of amplicons",
+      "answer": "D) UNG/dUTP systems help prevent carryover contamination of amplicons",
       "explanation": "UNG/dUTP systems help prevent carryover contamination of amplicons — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: UNG/dUTP systems help prevent carryover contamination of amplicons. UNG increases carryover contamination intentionally — that  confuses a closely related concept; the correct statement remains: UNG/dUTP systems help prevent carryover contamination of amplicons.",
       "choice_explanations": {
+        "A": "UNG increases carryover contamination intentionally — that near-miss confuses a closely related concept; the correct statement remains: UNG/dUTP systems help prevent carryover contamination of amplicons. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "UNG/dUTP systems help prevent carryover contamination of amplicons — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "molecular_diagnostics:hard:10",
+      "question": "Which of the following correctly distinguishes key points about extraction quality?",
+      "options": [
+        "A) FFPE DNA is always superior to fresh frozen DNA quality",
+        "B) Extraction quality is irrelevant if primers are good",
+        "C) Nucleic acid extraction quality critically affects molecular assay success",
+        "D) RNA quality is irrelevant for RT-PCR success"
+      ],
+      "answer": "C) Nucleic acid extraction quality critically affects molecular assay success",
+      "explanation": "Nucleic acid extraction quality critically affects molecular assay success — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Nucleic acid extraction quality critically affects molecular assay success. Extraction quality is irrelevant if primers are good — that  confuses a closely related concept; the correct statement remains: Nucleic acid extraction quality critically affects molecular assay success.",
+      "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "UNG increases carryover contamination intentionally — that near-miss confuses a closely related concept; the correct statement remains: UNG/dUTP systems help prevent carryover contamination of amplicons. It is less consistent than the correct choice.",
-        "C": "UNG/dUTP systems help prevent carryover contamination of amplicons — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "B": "Extraction quality is irrelevant if primers are good — that near-miss confuses a closely related concept; the correct statement remains: Nucleic acid extraction quality critically affects molecular assay success. It is less consistent than the correct choice.",
+        "C": "Nucleic acid extraction quality critically affects molecular assay success — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "molecular_diagnostics:hard:11",
-      "question": "A 57-year-old woman is evaluated for suspected extraction quality. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "Careful interpretation of inhibitors PCR is required. Which of the following is correct?",
       "options": [
-        "A) RNA quality is irrelevant for RT-PCR success",
-        "B) Nucleic acid extraction quality critically affects molecular assay success",
-        "C) Extraction quality is irrelevant if primers are good",
-        "D) FFPE DNA is always superior to fresh frozen DNA quality"
+        "A) Amplicon contamination never causes false positives",
+        "B) Heme, bile, and some reagents inhibit PCR causing false negatives",
+        "C) Inhibitors only cause false positives in PCR",
+        "D) Multiplex PCR can amplify only one target by definition"
       ],
-      "answer": "B) Nucleic acid extraction quality critically affects molecular assay success",
-      "explanation": "Nucleic acid extraction quality critically affects molecular assay success — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Nucleic acid extraction quality critically affects molecular assay success. Extraction quality is irrelevant if primers are good — that  confuses a closely related concept; the correct statement remains: Nucleic acid extraction quality critically affects molecular assay success.",
+      "answer": "B) Heme, bile, and some reagents inhibit PCR causing false negatives",
+      "explanation": "Heme, bile, and some reagents inhibit PCR causing false negatives — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Heme, bile, and some reagents inhibit PCR causing false negatives. Inhibitors only cause false positives in PCR — that  confuses a closely related concept; the correct statement remains: Heme, bile, and some reagents inhibit PCR causing false negatives.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Nucleic acid extraction quality critically affects molecular assay success — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "C": "Extraction quality is irrelevant if primers are good — that near-miss confuses a closely related concept; the correct statement remains: Nucleic acid extraction quality critically affects molecular assay success. It is less consistent than the correct choice.",
+        "B": "Heme, bile, and some reagents inhibit PCR causing false negatives — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "C": "Inhibitors only cause false positives in PCR — that near-miss confuses a closely related concept; the correct statement remains: Heme, bile, and some reagents inhibit PCR causing false negatives. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "molecular_diagnostics:hard:12",
-      "question": "Findings thought to represent inhibitors PCR can be misread. Which of the following is most correct?",
+      "question": "Which statement about internal control is most accurate?",
       "options": [
-        "A) Inhibitors only cause false positives in PCR",
-        "B) Multiplex PCR can amplify only one target by definition",
-        "C) Heme, bile, and some reagents inhibit PCR causing false negatives",
-        "D) Amplicon contamination never causes false positives"
-      ],
-      "answer": "C) Heme, bile, and some reagents inhibit PCR causing false negatives",
-      "explanation": "Heme, bile, and some reagents inhibit PCR causing false negatives — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Heme, bile, and some reagents inhibit PCR causing false negatives. Inhibitors only cause false positives in PCR — that  confuses a closely related concept; the correct statement remains: Heme, bile, and some reagents inhibit PCR causing false negatives.",
-      "choice_explanations": {
-        "A": "Inhibitors only cause false positives in PCR — that near-miss confuses a closely related concept; the correct statement remains: Heme, bile, and some reagents inhibit PCR causing false negatives. It is less consistent than the correct choice.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Heme, bile, and some reagents inhibit PCR causing false negatives — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
-      }
-    },
-    {
-      "id": "molecular_diagnostics:hard:13",
-      "question": "A 29-year-old woman presents with internal control. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
-      "options": [
-        "A) Genotypic resistance always detects every possible mechanism including unknown ones",
-        "B) Internal controls are unnecessary if the target is negative",
+        "A) Internal controls are unnecessary if the target is negative",
+        "B) Extraction quality is irrelevant if primers are good",
         "C) Internal controls detect inhibition and extraction failure in molecular assays",
-        "D) Extraction quality is irrelevant if primers are good"
+        "D) Genotypic resistance always detects every possible mechanism including unknown ones"
       ],
       "answer": "C) Internal controls detect inhibition and extraction failure in molecular assays",
       "explanation": "Internal controls detect inhibition and extraction failure in molecular assays — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Internal controls detect inhibition and extraction failure in molecular assays. Internal controls are unnecessary if the target is negative — that  confuses a closely related concept; the correct statement remains: Internal controls detect inhibition and extraction failure in molecular assays.",
       "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Internal controls are unnecessary if the target is negative — that near-miss confuses a closely related concept; the correct statement remains: Internal controls detect inhibition and extraction failure in molecular assays. It is less consistent than the correct choice.",
+        "A": "Internal controls are unnecessary if the target is negative — that near-miss confuses a closely related concept; the correct statement remains: Internal controls detect inhibition and extraction failure in molecular assays. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Internal controls detect inhibition and extraction failure in molecular assays — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
-      "id": "molecular_diagnostics:hard:14",
-      "question": "A complex case of NASBA TMA involving a 27-year-old woman is reviewed on rounds. Which of the following is most accurate?",
+      "id": "molecular_diagnostics:hard:13",
+      "question": "Which of the following is the best statement about LAMP?",
       "options": [
-        "A) RT-PCR directly amplifies RNA without reverse transcriptase",
-        "B) Multiplex PCR can amplify only one target by definition",
-        "C) Isothermal methods require 95°C denaturation each cycle like PCR",
-        "D) Isothermal RNA amplification methods like TMA/NASBA amplify without thermal cycling"
+        "A) Southern blot amplifies RNA isothermally like LAMP",
+        "B) LAMP is a Western blot protein method",
+        "C) LAMP isothermally amplifies DNA with high sensitivity using multiple primers",
+        "D) Multiplex PCR can amplify only one target by definition"
       ],
-      "answer": "D) Isothermal RNA amplification methods like TMA/NASBA amplify without thermal cycling",
-      "explanation": "Isothermal RNA amplification methods like TMA/NASBA amplify without thermal cycling — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Isothermal RNA amplification methods like TMA/NASBA amplify without thermal cycling. Isothermal methods require 95°C denaturation each cycle like PCR — that  confuses a closely related concept; the correct statement remains: Isothermal RNA amplification methods like TMA/NASBA amplify without thermal cycling.",
-      "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Isothermal methods require 95°C denaturation each cycle like PCR — that near-miss confuses a closely related concept; the correct statement remains: Isothermal RNA amplification methods like TMA/NASBA amplify without thermal cycling. It is less consistent than the correct choice.",
-        "D": "Isothermal RNA amplification methods like TMA/NASBA amplify without thermal cycling — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
-      }
-    },
-    {
-      "id": "molecular_diagnostics:hard:15",
-      "question": "A 67-year-old woman has progressive abnormalities attributed to LAMP. Which of the following is most consistent with the clinical process?",
-      "options": [
-        "A) Multiplex PCR can amplify only one target by definition",
-        "B) LAMP isothermally amplifies DNA with high sensitivity using multiple primers",
-        "C) Southern blot amplifies RNA isothermally like LAMP",
-        "D) LAMP is a Western blot protein method"
-      ],
-      "answer": "B) LAMP isothermally amplifies DNA with high sensitivity using multiple primers",
+      "answer": "C) LAMP isothermally amplifies DNA with high sensitivity using multiple primers",
       "explanation": "LAMP isothermally amplifies DNA with high sensitivity using multiple primers — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: LAMP isothermally amplifies DNA with high sensitivity using multiple primers. LAMP is a Western blot protein method — that  confuses a closely related concept; the correct statement remains: LAMP isothermally amplifies DNA with high sensitivity using multiple primers.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "LAMP isothermally amplifies DNA with high sensitivity using multiple primers — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "LAMP is a Western blot protein method — that near-miss confuses a closely related concept; the correct statement remains: LAMP isothermally amplifies DNA with high sensitivity using multiple primers. It is less consistent than the correct choice."
-      }
-    },
-    {
-      "id": "molecular_diagnostics:hard:16",
-      "question": "A 25-year-old woman presents with findings that could fit more than one process often confused with sanger sequencing. Based on history, examination, and initial tests, which of the following is most likely?",
-      "options": [
-        "A) Multiplex PCR can amplify only one target by definition",
-        "B) Sanger sequencing uses chain terminators to read DNA sequence of a target",
-        "C) Sanger sequencing quantifies serum sodium",
-        "D) Mosaicism is always detected by a single Sanger read"
-      ],
-      "answer": "B) Sanger sequencing uses chain terminators to read DNA sequence of a target",
-      "explanation": "Sanger sequencing uses chain terminators to read DNA sequence of a target — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Sanger sequencing uses chain terminators to read DNA sequence of a target. Sanger sequencing quantifies serum sodium — that  confuses a closely related concept; the correct statement remains: Sanger sequencing uses chain terminators to read DNA sequence of a target.",
-      "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Sanger sequencing uses chain terminators to read DNA sequence of a target — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "C": "Sanger sequencing quantifies serum sodium — that near-miss confuses a closely related concept; the correct statement remains: Sanger sequencing uses chain terminators to read DNA sequence of a target. It is less consistent than the correct choice.",
+        "B": "LAMP is a Western blot protein method — that near-miss confuses a closely related concept; the correct statement remains: LAMP isothermally amplifies DNA with high sensitivity using multiple primers. It is less consistent than the correct choice.",
+        "C": "LAMP isothermally amplifies DNA with high sensitivity using multiple primers — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
-      "id": "molecular_diagnostics:hard:17",
-      "question": "A 40-year-old man is hospitalized with evolving features of nGS principle. A common mimic remains possible. Which of the following is most likely?",
+      "id": "molecular_diagnostics:hard:14",
+      "question": "Careful review of sanger sequencing is required. Which of the following is most accurate?",
       "options": [
-        "A) Library prep is unnecessary for all NGS workflows",
+        "A) Tumor-only sequencing never risks germline misattribution",
+        "B) Mosaicism is always detected by a single Sanger read",
+        "C) Sanger sequencing quantifies serum sodium",
+        "D) Sanger sequencing uses chain terminators to read DNA sequence of a target"
+      ],
+      "answer": "D) Sanger sequencing uses chain terminators to read DNA sequence of a target",
+      "explanation": "Sanger sequencing uses chain terminators to read DNA sequence of a target — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Sanger sequencing uses chain terminators to read DNA sequence of a target. Sanger sequencing quantifies serum sodium — that  confuses a closely related concept; the correct statement remains: Sanger sequencing uses chain terminators to read DNA sequence of a target.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Sanger sequencing quantifies serum sodium — that near-miss confuses a closely related concept; the correct statement remains: Sanger sequencing uses chain terminators to read DNA sequence of a target. It is less consistent than the correct choice.",
+        "D": "Sanger sequencing uses chain terminators to read DNA sequence of a target — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "molecular_diagnostics:hard:15",
+      "question": "Two similar explanations for NGS principle are compared. Which of the following is correct?",
+      "options": [
+        "A) Karyotype sequences single-nucleotide variants at 0.1% VAF like deep NGS",
         "B) NGS massively parallel sequences millions of fragments for genomics applications",
-        "C) CNVs are only visible on Gram stain",
+        "C) Library prep is unnecessary for all NGS workflows",
         "D) NGS is identical to Gram staining colonies"
       ],
       "answer": "B) NGS massively parallel sequences millions of fragments for genomics applications",
@@ -1409,211 +1373,193 @@
       }
     },
     {
-      "id": "molecular_diagnostics:hard:18",
-      "question": "A 26-year-old man is evaluated for library prep. Which of the following is favored after comparison with frequent look-alikes?",
+      "id": "molecular_diagnostics:hard:16",
+      "question": "In a detailed discussion of library prep, which of the following is most accurate?",
       "options": [
-        "A) Library prep is unnecessary for all NGS workflows",
+        "A) NGS is identical to Gram staining colonies",
         "B) NGS library prep fragments nucleic acids and adds adapters for sequencing",
-        "C) Sanger sequencing quantifies serum sodium",
-        "D) NGS is identical to Gram staining colonies"
+        "C) Library prep is unnecessary for all NGS workflows",
+        "D) Sanger sequencing quantifies serum sodium"
       ],
       "answer": "B) NGS library prep fragments nucleic acids and adds adapters for sequencing",
       "explanation": "NGS library prep fragments nucleic acids and adds adapters for sequencing — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: NGS library prep fragments nucleic acids and adds adapters for sequencing. Library prep is unnecessary for all NGS workflows — that  confuses a closely related concept; the correct statement remains: NGS library prep fragments nucleic acids and adds adapters for sequencing.",
       "choice_explanations": {
-        "A": "Library prep is unnecessary for all NGS workflows — that near-miss confuses a closely related concept; the correct statement remains: NGS library prep fragments nucleic acids and adds adapters for sequencing. It is less consistent than the correct choice.",
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "NGS library prep fragments nucleic acids and adds adapters for sequencing — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "C": "Library prep is unnecessary for all NGS workflows — that near-miss confuses a closely related concept; the correct statement remains: NGS library prep fragments nucleic acids and adds adapters for sequencing. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "molecular_diagnostics:hard:17",
+      "question": "Which of the following correctly distinguishes key points about coverage depth?",
+      "options": [
+        "A) Fetal fraction is irrelevant to NIPT performance",
+        "B) Sequencing depth affects sensitivity to detect low-frequency variants",
+        "C) Analytical specificity equals clinical sensitivity always",
+        "D) Depth is irrelevant to variant detection sensitivity"
+      ],
+      "answer": "B) Sequencing depth affects sensitivity to detect low-frequency variants",
+      "explanation": "Sequencing depth affects sensitivity to detect low-frequency variants — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Sequencing depth affects sensitivity to detect low-frequency variants. Depth is irrelevant to variant detection sensitivity — that  confuses a closely related concept; the correct statement remains: Sequencing depth affects sensitivity to detect low-frequency variants.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Sequencing depth affects sensitivity to detect low-frequency variants — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Depth is irrelevant to variant detection sensitivity — that near-miss confuses a closely related concept; the correct statement remains: Sequencing depth affects sensitivity to detect low-frequency variants. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "molecular_diagnostics:hard:18",
+      "question": "Careful interpretation of variant allele fraction is required. Which of the following is correct?",
+      "options": [
+        "A) VAF equals Ct of qPCR always",
+        "B) VAF indicates the fraction of reads supporting a variant",
+        "C) qPCR endpoint gels are more quantitative than real-time Ct always",
+        "D) Analytical specificity equals clinical sensitivity always"
+      ],
+      "answer": "B) VAF indicates the fraction of reads supporting a variant",
+      "explanation": "VAF indicates the fraction of reads supporting a variant — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: VAF indicates the fraction of reads supporting a variant. VAF equals Ct of qPCR always — that  confuses a closely related concept; the correct statement remains: VAF indicates the fraction of reads supporting a variant.",
+      "choice_explanations": {
+        "A": "VAF equals Ct of qPCR always — that near-miss confuses a closely related concept; the correct statement remains: VAF indicates the fraction of reads supporting a variant. It is less consistent than the correct choice.",
+        "B": "VAF indicates the fraction of reads supporting a variant — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "molecular_diagnostics:hard:19",
-      "question": "A 29-year-old woman is evaluated for suspected coverage depth. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "Which statement about limit of detection is most accurate?",
       "options": [
-        "A) Fetal fraction is irrelevant to NIPT performance",
-        "B) Depth is irrelevant to variant detection sensitivity",
-        "C) Sequencing depth affects sensitivity to detect low-frequency variants",
-        "D) Analytical specificity equals clinical sensitivity always"
-      ],
-      "answer": "C) Sequencing depth affects sensitivity to detect low-frequency variants",
-      "explanation": "Sequencing depth affects sensitivity to detect low-frequency variants — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Sequencing depth affects sensitivity to detect low-frequency variants. Depth is irrelevant to variant detection sensitivity — that  confuses a closely related concept; the correct statement remains: Sequencing depth affects sensitivity to detect low-frequency variants.",
-      "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Depth is irrelevant to variant detection sensitivity — that near-miss confuses a closely related concept; the correct statement remains: Sequencing depth affects sensitivity to detect low-frequency variants. It is less consistent than the correct choice.",
-        "C": "Sequencing depth affects sensitivity to detect low-frequency variants — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
-      }
-    },
-    {
-      "id": "molecular_diagnostics:hard:20",
-      "question": "Findings thought to represent variant allele fraction can be misread. Which of the following is most correct?",
-      "options": [
-        "A) VAF indicates the fraction of reads supporting a variant",
-        "B) Analytical specificity equals clinical sensitivity always",
-        "C) C. diff PCR positivity always equals toxin disease without context",
-        "D) VAF equals Ct of qPCR always"
-      ],
-      "answer": "A) VAF indicates the fraction of reads supporting a variant",
-      "explanation": "VAF indicates the fraction of reads supporting a variant — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: VAF indicates the fraction of reads supporting a variant. VAF equals Ct of qPCR always — that  confuses a closely related concept; the correct statement remains: VAF indicates the fraction of reads supporting a variant.",
-      "choice_explanations": {
-        "A": "VAF indicates the fraction of reads supporting a variant — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "VAF equals Ct of qPCR always — that near-miss confuses a closely related concept; the correct statement remains: VAF indicates the fraction of reads supporting a variant. It is less consistent than the correct choice."
-      }
-    },
-    {
-      "id": "molecular_diagnostics:hard:21",
-      "question": "A 35-year-old woman presents with limit of detection. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
-      "options": [
-        "A) LOD is the highest concentration before Hook effect only",
-        "B) Depth is irrelevant to variant detection sensitivity",
+        "A) Mosaicism is always detected by a single Sanger read",
+        "B) LOD is the highest concentration before Hook effect only",
         "C) LOD is the lowest analyte amount reliably detected",
-        "D) Mosaicism is always detected by a single Sanger read"
+        "D) Depth is irrelevant to variant detection sensitivity"
       ],
       "answer": "C) LOD is the lowest analyte amount reliably detected",
       "explanation": "LOD is the lowest analyte amount reliably detected — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: LOD is the lowest analyte amount reliably detected. LOD is the highest concentration before Hook effect only — that  confuses a closely related concept; the correct statement remains: LOD is the lowest analyte amount reliably detected.",
       "choice_explanations": {
-        "A": "LOD is the highest concentration before Hook effect only — that near-miss confuses a closely related concept; the correct statement remains: LOD is the lowest analyte amount reliably detected. It is less consistent than the correct choice.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "LOD is the highest concentration before Hook effect only — that near-miss confuses a closely related concept; the correct statement remains: LOD is the lowest analyte amount reliably detected. It is less consistent than the correct choice.",
         "C": "LOD is the lowest analyte amount reliably detected — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
-      "id": "molecular_diagnostics:hard:22",
-      "question": "A complex case of analytical specificity involving a 34-year-old man is reviewed on rounds. Which of the following is most accurate?",
+      "id": "molecular_diagnostics:hard:20",
+      "question": "Which of the following is the best statement about sensitivity?",
       "options": [
-        "A) Analytical specificity is ability to detect only the intended analyte",
-        "B) C. diff PCR positivity always equals toxin disease without context",
-        "C) Clinical sensitivity equals analytical precision CV",
-        "D) Analytical specificity equals clinical sensitivity always"
+        "A) Clinical sensitivity is the proportion of true positives detected in patients",
+        "B) Analytical specificity equals clinical sensitivity always",
+        "C) Mosaicism is always detected by a single Sanger read",
+        "D) Clinical sensitivity equals analytical precision CV"
       ],
-      "answer": "A) Analytical specificity is ability to detect only the intended analyte",
-      "explanation": "Analytical specificity is ability to detect only the intended analyte — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Analytical specificity is ability to detect only the intended analyte. Analytical specificity equals clinical sensitivity always — that  confuses a closely related concept; the correct statement remains: Analytical specificity is ability to detect only the intended analyte.",
-      "choice_explanations": {
-        "A": "Analytical specificity is ability to detect only the intended analyte — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Analytical specificity equals clinical sensitivity always — that near-miss confuses a closely related concept; the correct statement remains: Analytical specificity is ability to detect only the intended analyte. It is less consistent than the correct choice."
-      }
-    },
-    {
-      "id": "molecular_diagnostics:hard:23",
-      "question": "A 45-year-old woman has progressive abnormalities attributed to clinical sensitivity. Which of the following is most consistent with the clinical process?",
-      "options": [
-        "A) Clinical sensitivity equals analytical precision CV",
-        "B) Mosaicism is always detected by a single Sanger read",
-        "C) Analytical specificity equals clinical sensitivity always",
-        "D) Clinical sensitivity is the proportion of true positives detected in patients"
-      ],
-      "answer": "D) Clinical sensitivity is the proportion of true positives detected in patients",
+      "answer": "A) Clinical sensitivity is the proportion of true positives detected in patients",
       "explanation": "Clinical sensitivity is the proportion of true positives detected in patients — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Clinical sensitivity is the proportion of true positives detected in patients. Clinical sensitivity equals analytical precision CV — that  confuses a closely related concept; the correct statement remains: Clinical sensitivity is the proportion of true positives detected in patients.",
       "choice_explanations": {
-        "A": "Clinical sensitivity equals analytical precision CV — that near-miss confuses a closely related concept; the correct statement remains: Clinical sensitivity is the proportion of true positives detected in patients. It is less consistent than the correct choice.",
+        "A": "Clinical sensitivity is the proportion of true positives detected in patients — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Clinical sensitivity is the proportion of true positives detected in patients — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
+        "D": "Clinical sensitivity equals analytical precision CV — that near-miss confuses a closely related concept; the correct statement remains: Clinical sensitivity is the proportion of true positives detected in patients. It is less consistent than the correct choice."
       }
     },
     {
-      "id": "molecular_diagnostics:hard:24",
-      "question": "A 64-year-old man presents with findings that could fit more than one process often confused with fISH molecular. Based on history, examination, and initial tests, which of the following is most likely?",
+      "id": "molecular_diagnostics:hard:21",
+      "question": "Careful review of FISH molecular is required. Which of the following is most accurate?",
       "options": [
-        "A) FISH uses fluorescent probes to detect gene rearrangements/copy number in cells",
-        "B) FISH measures glucose by hexokinase",
-        "C) Genotypic resistance always detects every possible mechanism including unknown ones",
-        "D) HER2 ISH measures serum troponin"
+        "A) FISH measures glucose by hexokinase",
+        "B) Gene fusions are detected by serum lipase only",
+        "C) FISH uses fluorescent probes to detect gene rearrangements/copy number in cells",
+        "D) Genotypic resistance always detects every possible mechanism including unknown ones"
       ],
-      "answer": "A) FISH uses fluorescent probes to detect gene rearrangements/copy number in cells",
+      "answer": "C) FISH uses fluorescent probes to detect gene rearrangements/copy number in cells",
       "explanation": "FISH uses fluorescent probes to detect gene rearrangements/copy number in cells — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: FISH uses fluorescent probes to detect gene rearrangements/copy number in cells. FISH measures glucose by hexokinase — that  confuses a closely related concept; the correct statement remains: FISH uses fluorescent probes to detect gene rearrangements/copy number in cells.",
       "choice_explanations": {
-        "A": "FISH uses fluorescent probes to detect gene rearrangements/copy number in cells — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "B": "FISH measures glucose by hexokinase — that near-miss confuses a closely related concept; the correct statement remains: FISH uses fluorescent probes to detect gene rearrangements/copy number in cells. It is less consistent than the correct choice.",
-        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "A": "FISH measures glucose by hexokinase — that near-miss confuses a closely related concept; the correct statement remains: FISH uses fluorescent probes to detect gene rearrangements/copy number in cells. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "FISH uses fluorescent probes to detect gene rearrangements/copy number in cells — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
-      "id": "molecular_diagnostics:hard:25",
-      "question": "A 58-year-old man is hospitalized with evolving features of karyotype. A common mimic remains possible. Which of the following is most likely?",
+      "id": "molecular_diagnostics:hard:22",
+      "question": "Two similar explanations for karyotype are compared. Which of the following is correct?",
       "options": [
-        "A) NGS is identical to Gram staining colonies",
-        "B) Southern blot amplifies RNA isothermally like LAMP",
-        "C) Karyotyping visualizes metaphase chromosomes for large rearrangements/aneuploidy",
+        "A) Karyotyping visualizes metaphase chromosomes for large rearrangements/aneuploidy",
+        "B) NGS is identical to Gram staining colonies",
+        "C) Southern blot amplifies RNA isothermally like LAMP",
         "D) Karyotype sequences single-nucleotide variants at 0.1% VAF like deep NGS"
       ],
-      "answer": "C) Karyotyping visualizes metaphase chromosomes for large rearrangements/aneuploidy",
+      "answer": "A) Karyotyping visualizes metaphase chromosomes for large rearrangements/aneuploidy",
       "explanation": "Karyotyping visualizes metaphase chromosomes for large rearrangements/aneuploidy — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Karyotyping visualizes metaphase chromosomes for large rearrangements/aneuploidy. Karyotype sequences single-nucleotide variants at 0.1% VAF like deep NGS — that  confuses a closely related concept; the correct statement remains: Karyotyping visualizes metaphase chromosomes for large rearrangements/aneuploidy.",
       "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "A": "Karyotyping visualizes metaphase chromosomes for large rearrangements/aneuploidy — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Karyotyping visualizes metaphase chromosomes for large rearrangements/aneuploidy — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Karyotype sequences single-nucleotide variants at 0.1% VAF like deep NGS — that near-miss confuses a closely related concept; the correct statement remains: Karyotyping visualizes metaphase chromosomes for large rearrangements/aneuploidy. It is less consistent than the correct choice."
       }
     },
     {
-      "id": "molecular_diagnostics:hard:26",
-      "question": "A 53-year-old woman is evaluated for CML BCR-ABL PCR. Which of the following is favored after comparison with frequent look-alikes?",
+      "id": "molecular_diagnostics:hard:23",
+      "question": "In a detailed discussion of CML BCR-ABL PCR, which of the following is most accurate?",
       "options": [
         "A) BCR-ABL PCR diagnoses iron deficiency",
-        "B) BCR-ABL1 quantitative PCR monitors CML molecular response",
+        "B) Calibrators are unnecessary for quantitative reporting",
         "C) JAK2 V617F confirms BCR-ABL1-positive CML",
-        "D) International standards are irrelevant to quantitative molecular results"
+        "D) BCR-ABL1 quantitative PCR monitors CML molecular response"
       ],
-      "answer": "B) BCR-ABL1 quantitative PCR monitors CML molecular response",
+      "answer": "D) BCR-ABL1 quantitative PCR monitors CML molecular response",
       "explanation": "BCR-ABL1 quantitative PCR monitors CML molecular response — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: BCR-ABL1 quantitative PCR monitors CML molecular response. BCR-ABL PCR diagnoses iron deficiency — that  confuses a closely related concept; the correct statement remains: BCR-ABL1 quantitative PCR monitors CML molecular response.",
       "choice_explanations": {
         "A": "BCR-ABL PCR diagnoses iron deficiency — that near-miss confuses a closely related concept; the correct statement remains: BCR-ABL1 quantitative PCR monitors CML molecular response. It is less consistent than the correct choice.",
-        "B": "BCR-ABL1 quantitative PCR monitors CML molecular response — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+        "D": "BCR-ABL1 quantitative PCR monitors CML molecular response — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
       }
     },
     {
-      "id": "molecular_diagnostics:hard:27",
-      "question": "A 43-year-old woman is evaluated for suspected AML PML-RARA. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "id": "molecular_diagnostics:hard:24",
+      "question": "Which of the following correctly distinguishes key points about AML PML-RARA?",
       "options": [
         "A) PML::RARA fusion defines APL and guides ATRA/ATO therapy urgency",
-        "B) JAK2 V617F confirms BCR-ABL1-positive CML",
-        "C) PML::RARA fusion defines CML chronic phase",
+        "B) PML::RARA fusion defines CML chronic phase",
+        "C) JAK2 V617F confirms BCR-ABL1-positive CML",
         "D) RAS wild-type status is irrelevant to anti-EGFR therapy"
       ],
       "answer": "A) PML::RARA fusion defines APL and guides ATRA/ATO therapy urgency",
       "explanation": "PML::RARA fusion defines APL and guides ATRA/ATO therapy urgency — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: PML::RARA fusion defines APL and guides ATRA/ATO therapy urgency. PML::RARA fusion defines CML chronic phase — that  confuses a closely related concept; the correct statement remains: PML::RARA fusion defines APL and guides ATRA/ATO therapy urgency.",
       "choice_explanations": {
         "A": "PML::RARA fusion defines APL and guides ATRA/ATO therapy urgency — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "PML::RARA fusion defines CML chronic phase — that near-miss confuses a closely related concept; the correct statement remains: PML::RARA fusion defines APL and guides ATRA/ATO therapy urgency. It is less consistent than the correct choice.",
+        "B": "PML::RARA fusion defines CML chronic phase — that near-miss confuses a closely related concept; the correct statement remains: PML::RARA fusion defines APL and guides ATRA/ATO therapy urgency. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
-      "id": "molecular_diagnostics:hard:28",
-      "question": "Findings thought to represent JAK2 V617F PCR can be misread. Which of the following is most correct?",
+      "id": "molecular_diagnostics:hard:25",
+      "question": "Careful interpretation of JAK2 V617F PCR is required. Which of the following is correct?",
       "options": [
-        "A) BCR-ABL PCR diagnoses iron deficiency",
-        "B) JAK2 V617F testing supports Ph-negative MPN diagnosis such as PV",
-        "C) Multiplex PCR can amplify only one target by definition",
+        "A) Multiplex PCR can amplify only one target by definition",
+        "B) BCR-ABL PCR diagnoses iron deficiency",
+        "C) JAK2 V617F testing supports Ph-negative MPN diagnosis such as PV",
         "D) JAK2 V617F confirms BCR-ABL1-positive CML"
       ],
-      "answer": "B) JAK2 V617F testing supports Ph-negative MPN diagnosis such as PV",
+      "answer": "C) JAK2 V617F testing supports Ph-negative MPN diagnosis such as PV",
       "explanation": "JAK2 V617F testing supports Ph-negative MPN diagnosis such as PV — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: JAK2 V617F testing supports Ph-negative MPN diagnosis such as PV. JAK2 V617F confirms BCR-ABL1-positive CML — that  confuses a closely related concept; the correct statement remains: JAK2 V617F testing supports Ph-negative MPN diagnosis such as PV.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "JAK2 V617F testing supports Ph-negative MPN diagnosis such as PV — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "JAK2 V617F testing supports Ph-negative MPN diagnosis such as PV — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "D": "JAK2 V617F confirms BCR-ABL1-positive CML — that near-miss confuses a closely related concept; the correct statement remains: JAK2 V617F testing supports Ph-negative MPN diagnosis such as PV. It is less consistent than the correct choice."
       }
     },
     {
-      "id": "molecular_diagnostics:hard:29",
-      "question": "A 53-year-old woman presents with eGFR mutations. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "id": "molecular_diagnostics:hard:26",
+      "question": "Which statement about EGFR mutations is most accurate?",
       "options": [
         "A) EGFR mutations guide only warfarin dosing",
         "B) EGFR mutation testing guides TKI therapy in lung adenocarcinoma",
         "C) RAS wild-type status is irrelevant to anti-EGFR therapy",
-        "D) Target mutations only affect Gram stains"
+        "D) Genotypic resistance always detects every possible mechanism including unknown ones"
       ],
       "answer": "B) EGFR mutation testing guides TKI therapy in lung adenocarcinoma",
       "explanation": "EGFR mutation testing guides TKI therapy in lung adenocarcinoma — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: EGFR mutation testing guides TKI therapy in lung adenocarcinoma. EGFR mutations guide only warfarin dosing — that  confuses a closely related concept; the correct statement remains: EGFR mutation testing guides TKI therapy in lung adenocarcinoma.",
@@ -1623,12 +1569,66 @@
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
+    },
+    {
+      "id": "molecular_diagnostics:hard:27",
+      "question": "Which of the following is the best statement about BRAF V600?",
+      "options": [
+        "A) BRAF V600 mutations guide targeted therapy in melanoma and other cancers",
+        "B) RAS wild-type status is irrelevant to anti-EGFR therapy",
+        "C) BRAF V600 is a blood group antigen",
+        "D) EGFR mutations guide only warfarin dosing"
+      ],
+      "answer": "A) BRAF V600 mutations guide targeted therapy in melanoma and other cancers",
+      "explanation": "BRAF V600 mutations guide targeted therapy in melanoma and other cancers — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: BRAF V600 mutations guide targeted therapy in melanoma and other cancers. BRAF V600 is a blood group antigen — that  confuses a closely related concept; the correct statement remains: BRAF V600 mutations guide targeted therapy in melanoma and other cancers.",
+      "choice_explanations": {
+        "A": "BRAF V600 mutations guide targeted therapy in melanoma and other cancers — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "BRAF V600 is a blood group antigen — that near-miss confuses a closely related concept; the correct statement remains: BRAF V600 mutations guide targeted therapy in melanoma and other cancers. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "molecular_diagnostics:hard:28",
+      "question": "Careful review of hER2 ISH mol is required. Which of the following is most accurate?",
+      "options": [
+        "A) RAS wild-type status is irrelevant to anti-EGFR therapy",
+        "B) HER2 gene amplification by ISH confirms eligibility for anti-HER2 therapy",
+        "C) FISH measures glucose by hexokinase",
+        "D) HER2 ISH measures serum troponin"
+      ],
+      "answer": "B) HER2 gene amplification by ISH confirms eligibility for anti-HER2 therapy",
+      "explanation": "HER2 gene amplification by ISH confirms eligibility for anti-HER2 therapy — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: HER2 gene amplification by ISH confirms eligibility for anti-HER2 therapy. HER2 ISH measures serum troponin — that  confuses a closely related concept; the correct statement remains: HER2 gene amplification by ISH confirms eligibility for anti-HER2 therapy.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "HER2 gene amplification by ISH confirms eligibility for anti-HER2 therapy — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "HER2 ISH measures serum troponin — that near-miss confuses a closely related concept; the correct statement remains: HER2 gene amplification by ISH confirms eligibility for anti-HER2 therapy. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "molecular_diagnostics:hard:29",
+      "question": "Two similar explanations for MSI molecular are compared. Which of the following is correct?",
+      "options": [
+        "A) MSI testing diagnoses acute pancreatitis",
+        "B) MSI/MMR testing informs immunotherapy and Lynch syndrome evaluation",
+        "C) BCR-ABL PCR diagnoses iron deficiency",
+        "D) Genotypic resistance always detects every possible mechanism including unknown ones"
+      ],
+      "answer": "B) MSI/MMR testing informs immunotherapy and Lynch syndrome evaluation",
+      "explanation": "MSI/MMR testing informs immunotherapy and Lynch syndrome evaluation — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: MSI/MMR testing informs immunotherapy and Lynch syndrome evaluation. MSI testing diagnoses acute pancreatitis — that  confuses a closely related concept; the correct statement remains: MSI/MMR testing informs immunotherapy and Lynch syndrome evaluation.",
+      "choice_explanations": {
+        "A": "MSI testing diagnoses acute pancreatitis — that near-miss confuses a closely related concept; the correct statement remains: MSI/MMR testing informs immunotherapy and Lynch syndrome evaluation. It is less consistent than the correct choice.",
+        "B": "MSI/MMR testing informs immunotherapy and Lynch syndrome evaluation — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
     }
   ],
   "extreme": [
     {
       "id": "molecular_diagnostics:extreme:0",
-      "question": "A 59-year-old woman with diabetes and hypertension develops rapidly worsening features of pCR principle. Vital signs are unstable. Which of the following is most likely?",
+      "question": "Careful reasoning about PCR principle is required. Which of the following is most accurate?",
       "options": [
         "A) PCR thermally amplifies specific DNA targets using primers and polymerase",
         "B) PCR separates proteins by size like SDS-PAGE",
@@ -1646,7 +1646,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:1",
-      "question": "In the emergency department, a 49-year-old woman is critically ill with a syndrome centered on RT-PCR RNA. Which of the following is most likely?",
+      "question": "Small differences in wording about RT-PCR RNA matter. Which of the following is correct?",
       "options": [
         "A) RT-PCR reverse-transcribes RNA to cDNA before amplification",
         "B) RT-PCR directly amplifies RNA without reverse transcriptase",
@@ -1664,7 +1664,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:2",
-      "question": "A 36-year-old man deteriorates overnight with q PCR quantification. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "Which of the following is the most precise statement about q PCR quantification?",
       "options": [
         "A) qPCR endpoint gels are more quantitative than real-time Ct always",
         "B) Quantitative PCR monitors amplification each cycle using fluorescence",
@@ -1682,7 +1682,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:3",
-      "question": "A 67-year-old woman with diabetes and hypertension develops life-threatening complications in the setting of ct value. Which of the following is most consistent with the clinical process?",
+      "question": "In advanced review of ct value, which of the following is most accurate?",
       "options": [
         "A) Higher Ct always means more target than low Ct",
         "B) Multiplex PCR can amplify only one target by definition",
@@ -1700,7 +1700,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:4",
-      "question": "A rapidly progressive presentation of primer specificity is reviewed in a 54-year-old man. Which of the following is most likely?",
+      "question": "Which interpretation of primer specificity is most accurate?",
       "options": [
         "A) Primer design specificity determines which sequences amplify",
         "B) Multiplex PCR can amplify only one target by definition",
@@ -1718,7 +1718,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:5",
-      "question": "A 65-year-old woman requires urgent decision-making for probe hydrolysis. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Which closely related statement about probe hydrolysis is correct?",
       "options": [
         "A) Hydrolysis probes detect proteins in ELISA",
         "B) Multiplex PCR can amplify only one target by definition",
@@ -1736,7 +1736,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:6",
-      "question": "A 38-year-old man has refractory abnormalities due to sYBR green. Which of the following is the most accurate interpretation?",
+      "question": "Which of the following is the central point about SYBR green?",
       "options": [
         "A) Hydrolysis probes detect proteins in ELISA",
         "B) SYBR Green binds any dsDNA; melt curves help confirm specificity",
@@ -1754,7 +1754,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:7",
-      "question": "A critical-care presentation involving nested PCR in a 45-year-old woman is discussed. Which of the following is most likely?",
+      "question": "Which statement about nested PCR is most accurate?",
       "options": [
         "A) Multiplex reactions cannot have interference by definition",
         "B) Nested PCR decreases specificity by design",
@@ -1772,7 +1772,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:8",
-      "question": "A 69-year-old woman with diabetes and hypertension develops rapidly worsening features of multiplex PCR. Vital signs are unstable. Which of the following is most likely?",
+      "question": "Careful reasoning about multiplex PCR is required. Which of the following is most accurate?",
       "options": [
         "A) Multiplex PCR detects multiple targets in one reaction with distinct primers/probes",
         "B) Multiplex PCR can amplify only one target by definition",
@@ -1790,7 +1790,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:9",
-      "question": "In the emergency department, a 60-year-old man is critically ill with a syndrome centered on contamination control. Which of the following is most likely?",
+      "question": "Small differences in wording about contamination control matter. Which of the following is correct?",
       "options": [
         "A) PCR labs separate pre- and post-amplification areas to avoid amplicon contamination",
         "B) Inhibitors only cause false positives in PCR",
@@ -1808,7 +1808,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:10",
-      "question": "A 45-year-old woman deteriorates overnight with uNG d UTP. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "Which of the following is the most precise statement about UNG d UTP?",
       "options": [
         "A) UNG increases carryover contamination intentionally",
         "B) UNG/dUTP systems help prevent carryover contamination of amplicons",
@@ -1826,7 +1826,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:11",
-      "question": "A 57-year-old woman with diabetes and hypertension develops life-threatening complications in the setting of extraction quality. Which of the following is most consistent with the clinical process?",
+      "question": "In advanced review of extraction quality, which of the following is most accurate?",
       "options": [
         "A) Nucleic acid extraction quality critically affects molecular assay success",
         "B) FFPE DNA is always superior to fresh frozen DNA quality",
@@ -1844,7 +1844,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:12",
-      "question": "A rapidly progressive presentation of inhibitors PCR is reviewed in a 26-year-old man. Which of the following is most likely?",
+      "question": "Which interpretation of inhibitors PCR is most accurate?",
       "options": [
         "A) Inhibitors only cause false positives in PCR",
         "B) Multiplex PCR can amplify only one target by definition",
@@ -1862,7 +1862,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:13",
-      "question": "A 29-year-old woman requires urgent decision-making for internal control. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Which closely related statement about internal control is correct?",
       "options": [
         "A) Extraction quality is irrelevant if primers are good",
         "B) Genotypic resistance always detects every possible mechanism including unknown ones",
@@ -1880,7 +1880,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:14",
-      "question": "A 27-year-old woman has refractory abnormalities due to NASBA TMA. Which of the following is the most accurate interpretation?",
+      "question": "Which of the following is the central point about NASBA TMA?",
       "options": [
         "A) Multiplex PCR can amplify only one target by definition",
         "B) RT-PCR directly amplifies RNA without reverse transcriptase",
@@ -1898,7 +1898,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:15",
-      "question": "A critical-care presentation involving LAMP in a 67-year-old woman is discussed. Which of the following is most likely?",
+      "question": "Which statement about LAMP is most accurate?",
       "options": [
         "A) LAMP is a Western blot protein method",
         "B) Multiplex PCR can amplify only one target by definition",
@@ -1916,7 +1916,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:16",
-      "question": "A 25-year-old woman develops rapidly worsening features of sanger sequencing. Vital signs are unstable. Which of the following is most likely?",
+      "question": "Careful reasoning about sanger sequencing is required. Which of the following is most accurate?",
       "options": [
         "A) Sanger sequencing quantifies serum sodium",
         "B) Multiplex PCR can amplify only one target by definition",
@@ -1934,7 +1934,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:17",
-      "question": "In the emergency department, a 40-year-old man is critically ill with a syndrome centered on nGS principle. Which of the following is most likely?",
+      "question": "Small differences in wording about NGS principle matter. Which of the following is correct?",
       "options": [
         "A) NGS massively parallel sequences millions of fragments for genomics applications",
         "B) NGS is identical to Gram staining colonies",
@@ -1952,7 +1952,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:18",
-      "question": "A 26-year-old man deteriorates overnight with library prep. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "Which of the following is the most precise statement about library prep?",
       "options": [
         "A) Sanger sequencing quantifies serum sodium",
         "B) Library prep is unnecessary for all NGS workflows",
@@ -1970,7 +1970,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:19",
-      "question": "A 29-year-old woman develops life-threatening complications in the setting of coverage depth. Which of the following is most consistent with the clinical process?",
+      "question": "In advanced review of coverage depth, which of the following is most accurate?",
       "options": [
         "A) Sequencing depth affects sensitivity to detect low-frequency variants",
         "B) Analytical specificity equals clinical sensitivity always",
@@ -1988,7 +1988,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:20",
-      "question": "A rapidly progressive presentation of variant allele fraction is reviewed in a 41-year-old woman. Which of the following is most likely?",
+      "question": "Which interpretation of variant allele fraction is most accurate?",
       "options": [
         "A) VAF equals Ct of qPCR always",
         "B) VAF indicates the fraction of reads supporting a variant",
@@ -2006,7 +2006,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:21",
-      "question": "A 35-year-old woman requires urgent decision-making for limit of detection. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Which closely related statement about limit of detection is correct?",
       "options": [
         "A) LOD is the lowest analyte amount reliably detected",
         "B) Mosaicism is always detected by a single Sanger read",
@@ -2024,7 +2024,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:22",
-      "question": "A 34-year-old man has refractory abnormalities due to analytical specificity. Which of the following is the most accurate interpretation?",
+      "question": "Which of the following is the central point about analytical specificity?",
       "options": [
         "A) Analytical specificity is ability to detect only the intended analyte",
         "B) Analytical specificity equals clinical sensitivity always",
@@ -2042,7 +2042,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:23",
-      "question": "A critical-care presentation involving clinical sensitivity in a 45-year-old woman is discussed. Which of the following is most likely?",
+      "question": "Which statement about sensitivity is most accurate?",
       "options": [
         "A) Clinical sensitivity is the proportion of true positives detected in patients",
         "B) Mosaicism is always detected by a single Sanger read",
@@ -2060,7 +2060,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:24",
-      "question": "A 64-year-old man with diabetes and hypertension develops rapidly worsening features of fISH molecular. Vital signs are unstable. Which of the following is most likely?",
+      "question": "Careful reasoning about FISH molecular is required. Which of the following is most accurate?",
       "options": [
         "A) Genotypic resistance always detects every possible mechanism including unknown ones",
         "B) FISH uses fluorescent probes to detect gene rearrangements/copy number in cells",
@@ -2078,7 +2078,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:25",
-      "question": "In the emergency department, a 58-year-old man is critically ill with a syndrome centered on karyotype. Which of the following is most likely?",
+      "question": "Small differences in wording about karyotype matter. Which of the following is correct?",
       "options": [
         "A) Karyotyping visualizes metaphase chromosomes for large rearrangements/aneuploidy",
         "B) Karyotype sequences single-nucleotide variants at 0.1% VAF like deep NGS",
@@ -2096,7 +2096,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:26",
-      "question": "A 53-year-old woman deteriorates overnight with CML BCR-ABL PCR. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "Which of the following is the most precise statement about CML BCR-ABL PCR?",
       "options": [
         "A) International standards are irrelevant to quantitative molecular results",
         "B) BCR-ABL1 quantitative PCR monitors CML molecular response",
@@ -2114,7 +2114,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:27",
-      "question": "A 43-year-old woman develops life-threatening complications in the setting of AML PML-RARA. Which of the following is most consistent with the clinical process?",
+      "question": "In advanced review of AML PML-RARA, which of the following is most accurate?",
       "options": [
         "A) PML::RARA fusion defines CML chronic phase",
         "B) PML::RARA fusion defines APL and guides ATRA/ATO therapy urgency",
@@ -2132,7 +2132,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:28",
-      "question": "A rapidly progressive presentation of JAK2 V617F PCR is reviewed in a 46-year-old man. Which of the following is most likely?",
+      "question": "Which interpretation of JAK2 V617F PCR is most accurate?",
       "options": [
         "A) BCR-ABL PCR diagnoses iron deficiency",
         "B) Multiplex PCR can amplify only one target by definition",
@@ -2150,7 +2150,7 @@
     },
     {
       "id": "molecular_diagnostics:extreme:29",
-      "question": "A 53-year-old woman requires urgent decision-making for eGFR mutations. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Which closely related statement about EGFR mutations is correct?",
       "options": [
         "A) EGFR mutation testing guides TKI therapy in lung adenocarcinoma",
         "B) Genotypic resistance always detects every possible mechanism including unknown ones",

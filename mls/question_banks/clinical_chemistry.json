@@ -2,7 +2,7 @@
   "easy": [
     {
       "id": "clinical_chemistry:easy:0",
-      "question": "Which of the following best characterizes sodium water balance?",
+      "question": "Which of the following is true of sodium water balance?",
       "options": [
         "A) Hypernatremia always means excess total body sodium without water issues",
         "B) Potassium is the major extracellular cation like sodium",
@@ -20,7 +20,7 @@
     },
     {
       "id": "clinical_chemistry:easy:1",
-      "question": "Which finding is most consistent with hypotonic hyponatremia?",
+      "question": "Which finding is expected in hypotonic hyponatremia?",
       "options": [
         "A) True hypotonic hyponatremia reflects excess water relative to sodium",
         "B) Hypernatremia always means excess total body sodium without water issues",
@@ -38,7 +38,7 @@
     },
     {
       "id": "clinical_chemistry:easy:2",
-      "question": "Which of the following statements about pseudohyponatremia is most accurate?",
+      "question": "Which statement regarding pseudohyponatremia is correct?",
       "options": [
         "A) Pseudohyponatremia means true low plasma tonicity always",
         "B) Severe hyperlipidemia or hyperproteinemia can cause pseudohyponatremia with indirect methods",
@@ -56,7 +56,7 @@
     },
     {
       "id": "clinical_chemistry:easy:3",
-      "question": "In patients with hypernatremia, which of the following is most correct?",
+      "question": "In hypernatremia, which of the following is correct?",
       "options": [
         "A) Hypernatremia indicates water deficit relative to sodium",
         "B) Serum sodium primarily measures total body sodium stores independent of water",
@@ -74,7 +74,7 @@
     },
     {
       "id": "clinical_chemistry:easy:4",
-      "question": "Which of the following is the hallmark feature of potassium intracellular?",
+      "question": "Which of the following best describes potassium intracellular?",
       "options": [
         "A) Serum sodium primarily measures total body sodium stores independent of water",
         "B) Potassium is the major extracellular cation like sodium",
@@ -92,7 +92,7 @@
     },
     {
       "id": "clinical_chemistry:easy:5",
-      "question": "Which description most accurately matches hypokalemia causes?",
+      "question": "Select the correct statement about hypokalemia causes.",
       "options": [
         "A) Low SaO2 by pulse oximetry always equals low PaO2 identically in CO poisoning",
         "B) Hypokalemia is caused only by laboratory hemolysis artifact always",
@@ -110,7 +110,7 @@
     },
     {
       "id": "clinical_chemistry:easy:6",
-      "question": "Regarding hyperkalemia urgency, which of the following is most accurate?",
+      "question": "Which mechanism accounts for hyperkalemia urgency?",
       "options": [
         "A) Pseudohyponatremia means true low plasma tonicity always",
         "B) True hyperkalemia is always harmless if creatinine is normal",
@@ -128,7 +128,7 @@
     },
     {
       "id": "clinical_chemistry:easy:7",
-      "question": "Which of the following mechanisms best explains spurious hyperkalemia chem?",
+      "question": "Which of the following applies to spurious hyperkalemia chem?",
       "options": [
         "A) Any high K+ on a hemolyzed sample is always true in vivo hyperkalemia",
         "B) Hemolysis, delayed separation, or thrombocytosis can spuriously elevate potassium",
@@ -146,7 +146,7 @@
     },
     {
       "id": "clinical_chemistry:easy:8",
-      "question": "Which of the following best characterizes chloride acid-base?",
+      "question": "Which of the following is true of chloride acid-base?",
       "options": [
         "A) High AG acidosis is identical to hyperchloremic normal-gap acidosis",
         "B) Chloride is irrelevant to acid-base assessment always",
@@ -164,7 +164,7 @@
     },
     {
       "id": "clinical_chemistry:easy:9",
-      "question": "Which finding is most consistent with bicarbonate metabolic?",
+      "question": "Which finding is expected in bicarbonate metabolic?",
       "options": [
         "A) Elevated A-a gradient always means pure hypoventilation only",
         "B) Metabolic alkalosis is defined by low HCO3− with acidemia",
@@ -182,7 +182,7 @@
     },
     {
       "id": "clinical_chemistry:easy:10",
-      "question": "Which of the following statements about anion gap formula is most accurate?",
+      "question": "Which of the following statements about anion gap formula is correct?",
       "options": [
         "A) Anion gap approximates Na+ minus (Cl− + HCO3−) for metabolic acidosis classification",
         "B) Anion gap approximates K+ + Cl− − Na+ as the standard teaching formula",
@@ -200,7 +200,7 @@
     },
     {
       "id": "clinical_chemistry:easy:11",
-      "question": "In patients with high AG acidosis, which of the following is most correct?",
+      "question": "In high AG acidosis, which of the following is correct?",
       "options": [
         "A) High AG acidosis is identical to hyperchloremic normal-gap acidosis",
         "B) High anion-gap metabolic acidosis includes lactate, ketoacids, and some toxins",
@@ -218,7 +218,7 @@
     },
     {
       "id": "clinical_chemistry:easy:12",
-      "question": "Which of the following is the hallmark feature of normal AG acidosis?",
+      "question": "Which of the following best describes normal AG acidosis?",
       "options": [
         "A) Normal-gap acidosis is caused by lactate accumulation as the usual definition",
         "B) Anion gap approximates K+ + Cl− − Na+ as the standard teaching formula",
@@ -236,7 +236,7 @@
     },
     {
       "id": "clinical_chemistry:easy:13",
-      "question": "Which description most accurately matches aBG p H?",
+      "question": "Select the correct statement about ABG p H.",
       "options": [
         "A) pH alone always identifies the single primary process without PaCO2 and HCO3",
         "B) Blood gas pH identifies acidemia below 7.35 or alkalemia above 7.45",
@@ -254,7 +254,7 @@
     },
     {
       "id": "clinical_chemistry:easy:14",
-      "question": "Regarding respiratory acidosis, which of the following is most accurate?",
+      "question": "Which mechanism accounts for respiratory acidosis?",
       "options": [
         "A) Metabolic alkalosis is defined by low HCO3− with acidemia",
         "B) Respiratory acidosis is low PaCO2 with alkalemia",
@@ -272,7 +272,7 @@
     },
     {
       "id": "clinical_chemistry:easy:15",
-      "question": "Which of the following mechanisms best explains respiratory alkalosis?",
+      "question": "Which of the following applies to respiratory alkalosis?",
       "options": [
         "A) Respiratory alkalosis is low PaCO2 with alkalemia from hyperventilation",
         "B) Respiratory acidosis is low PaCO2 with alkalemia",
@@ -290,7 +290,7 @@
     },
     {
       "id": "clinical_chemistry:easy:16",
-      "question": "Which of the following best characterizes metabolic alkalosis?",
+      "question": "Which of the following is true of metabolic alkalosis?",
       "options": [
         "A) Respiratory acidosis is low PaCO2 with alkalemia",
         "B) Respiratory alkalosis is high PaCO2 with acidemia",
@@ -308,7 +308,7 @@
     },
     {
       "id": "clinical_chemistry:easy:17",
-      "question": "Which finding is most consistent with plasma osmolality?",
+      "question": "Which finding is expected in plasma osmolality?",
       "options": [
         "A) OGTT is identical to a single fasting glucose always",
         "B) Plasma osmolality reflects solute concentration with Na, glucose, and urea as major contributors",
@@ -326,7 +326,7 @@
     },
     {
       "id": "clinical_chemistry:easy:18",
-      "question": "Which of the following statements about osmolar gap is most accurate?",
+      "question": "Which of the following statements about osmolar gap is correct?",
       "options": [
         "A) Elevated osmolar gap specifically diagnoses hyponatremia type",
         "B) CSF protein elevation specifically diagnoses hyperglycemia",
@@ -344,7 +344,7 @@
     },
     {
       "id": "clinical_chemistry:easy:19",
-      "question": "In patients with fasting glucose diabetes, which of the following is most correct?",
+      "question": "In fasting glucose diabetes, which of the following is correct?",
       "options": [
         "A) OGTT is identical to a single fasting glucose always",
         "B) Osmolality is identical to urine specific gravity always",
@@ -362,7 +362,7 @@
     },
     {
       "id": "clinical_chemistry:easy:20",
-      "question": "Which of the following is the hallmark feature of hb A1c meaning?",
+      "question": "Which of the following best describes hb A1c meaning?",
       "options": [
         "A) HbA1c reflects average glycemia over about 2–3 months via glycated hemoglobin",
         "B) Fructosamine reflects the same 3-month window as HbA1c exactly",
@@ -380,7 +380,7 @@
     },
     {
       "id": "clinical_chemistry:easy:21",
-      "question": "Which description most accurately matches hb A1c limitations?",
+      "question": "Select the correct statement about hb A1c limitations.",
       "options": [
         "A) Conditions altering RBC lifespan can falsely change HbA1c, such as hemolysis or transfusion",
         "B) Albumin never affects anion gap interpretation",
@@ -398,7 +398,7 @@
     },
     {
       "id": "clinical_chemistry:easy:22",
-      "question": "Regarding whipple hypoglycemia, which of the following is most accurate?",
+      "question": "Which mechanism accounts for whipple hypoglycemia?",
       "options": [
         "A) Any low glucometer reading without symptoms always proves pathologic hypoglycemia",
         "B) True hypoglycemia needs low glucose plus symptoms that resolve with correction",
@@ -416,7 +416,7 @@
     },
     {
       "id": "clinical_chemistry:easy:23",
-      "question": "Which of the following mechanisms best explains bUN elevation?",
+      "question": "Which of the following applies to BUN elevation?",
       "options": [
         "A) BUN elevation is pathognomonic only for GI bleed always",
         "B) High ratio always proves intrinsic acute tubular necrosis",
@@ -434,7 +434,7 @@
     },
     {
       "id": "clinical_chemistry:easy:24",
-      "question": "Which of the following best characterizes creatinine GFR?",
+      "question": "Which of the following is true about creatinine GFR?",
       "options": [
         "A) Serum iron is as stable as ferritin for stores always",
         "B) Creatinine is a perfect linear direct measure of GFR in all patients",
@@ -452,7 +452,7 @@
     },
     {
       "id": "clinical_chemistry:easy:25",
-      "question": "Which finding is most consistent with bUN creatinine ratio?",
+      "question": "Which finding is expected in BUN creatinine ratio?",
       "options": [
         "A) High ratio always proves intrinsic acute tubular necrosis",
         "B) High BUN/creatinine ratio can suggest prerenal azotemia or GI bleed",
@@ -470,7 +470,7 @@
     },
     {
       "id": "clinical_chemistry:easy:26",
-      "question": "Which of the following statements about e GFR equations is most accurate?",
+      "question": "In basic pharmacology, which of the following is true of e GFR equations?",
       "options": [
         "A) eGFR equations estimate GFR from creatinine and sometimes cystatin C with demographics",
         "B) Cystatin C is identical in behavior to CK-MB",
@@ -488,7 +488,7 @@
     },
     {
       "id": "clinical_chemistry:easy:27",
-      "question": "In patients with cystatin C, which of the following is most correct?",
+      "question": "In cystatin C, which of the following is correct?",
       "options": [
         "A) Cystatin C is identical in behavior to CK-MB",
         "B) Cystatin C is an alternative GFR marker less dependent on muscle mass than creatinine",
@@ -506,7 +506,7 @@
     },
     {
       "id": "clinical_chemistry:easy:28",
-      "question": "Which of the following is the hallmark feature of aKI definition?",
+      "question": "Which of the following best describes AKI?",
       "options": [
         "A) AKI is defined by abrupt rise in creatinine and/or drop in urine output criteria",
         "B) AKI is defined only by chronic small creatinine changes over years",
@@ -524,7 +524,7 @@
     },
     {
       "id": "clinical_chemistry:easy:29",
-      "question": "Which description most accurately matches cKD staging?",
+      "question": "Select the correct statement about CKD staging.",
       "options": [
         "A) Albuminuria is identical to hematuria always",
         "B) eGFR is measured directly by inulin clearance in every lab panel",
@@ -544,7 +544,7 @@
   "medium": [
     {
       "id": "clinical_chemistry:medium:0",
-      "question": "A 67-year-old woman has laboratory findings evaluated in the context of sodium water balance. Which of the following is most accurate?",
+      "question": "A 54-year-old man has lab results reviewed for sodium water balance. Which of the following is correct?",
       "options": [
         "A) Potassium is the major extracellular cation like sodium",
         "B) Serum sodium primarily measures total body sodium stores independent of water",
@@ -562,7 +562,7 @@
     },
     {
       "id": "clinical_chemistry:medium:1",
-      "question": "A laboratory workup for hypotonic hyponatremia is reviewed. Which of the following interpretations is most correct?",
+      "question": "A specimen workup for hypotonic hyponatremia is interpreted. Which of the following is most accurate?",
       "options": [
         "A) Pseudohyponatremia means true low plasma tonicity always",
         "B) True hypotonic hyponatremia reflects excess water relative to sodium",
@@ -580,7 +580,7 @@
     },
     {
       "id": "clinical_chemistry:medium:2",
-      "question": "A 39-year-old woman undergoes testing relevant to pseudohyponatremia. Which of the following results is most consistent with the diagnosis?",
+      "question": "A 26-year-old man has findings requiring interpretation of pseudohyponatremia. Which of the following is correct?",
       "options": [
         "A) True hyperkalemia is always harmless if creatinine is normal",
         "B) Severe hyperlipidemia or hyperproteinemia can cause pseudohyponatremia with indirect methods",
@@ -598,7 +598,7 @@
     },
     {
       "id": "clinical_chemistry:medium:3",
-      "question": "Quality and method considerations for hypernatremia are discussed. Which of the following is most accurate?",
+      "question": "Method selection for hypernatremia is discussed. Which of the following is correct?",
       "options": [
         "A) All low measured Na+ values are true hypotonic hyponatremia without artifact",
         "B) Serum sodium primarily measures total body sodium stores independent of water",
@@ -616,7 +616,7 @@
     },
     {
       "id": "clinical_chemistry:medium:4",
-      "question": "A 66-year-old man has an abnormal panel suggesting potassium intracellular. Which of the following is the most likely explanation?",
+      "question": "A 53-year-old woman has an abnormal panel. Which statement about potassium intracellular is most accurate?",
       "options": [
         "A) Potassium is the major extracellular cation like sodium",
         "B) Potassium is the major intracellular cation critical for membrane potential",
@@ -634,7 +634,7 @@
     },
     {
       "id": "clinical_chemistry:medium:5",
-      "question": "A technologist reviews results related to hypokalemia causes. Which of the following is most appropriate?",
+      "question": "Results related to hypokalemia causes are verified before release. Which of the following is appropriate?",
       "options": [
         "A) Hypokalemia is caused only by laboratory hemolysis artifact always",
         "B) Hypokalemia may result from losses, shifts into cells, or low intake",
@@ -652,7 +652,7 @@
     },
     {
       "id": "clinical_chemistry:medium:6",
-      "question": "A 63-year-old woman is being evaluated for hyperkalemia urgency. Which of the following laboratory conclusions is most correct?",
+      "question": "A 50-year-old man is evaluated with assays used in hyperkalemia urgency. Which of the following is correct?",
       "options": [
         "A) True hyperkalemia is always harmless if creatinine is normal",
         "B) Any high K+ on a hemolyzed sample is always true in vivo hyperkalemia",
@@ -670,7 +670,7 @@
     },
     {
       "id": "clinical_chemistry:medium:7",
-      "question": "In the laboratory assessment of spurious hyperkalemia chem, which of the following is most accurate?",
+      "question": "In laboratory assessment of spurious hyperkalemia chem, which of the following is correct?",
       "options": [
         "A) Hypokalemia is caused only by laboratory hemolysis artifact always",
         "B) True hyperkalemia is always harmless if creatinine is normal",
@@ -688,7 +688,7 @@
     },
     {
       "id": "clinical_chemistry:medium:8",
-      "question": "A 35-year-old woman has laboratory findings evaluated in the context of chloride acid-base. Which of the following is most accurate?",
+      "question": "A 68-year-old man has lab results reviewed for chloride acid-base. Which of the following is correct?",
       "options": [
         "A) High AG acidosis is identical to hyperchloremic normal-gap acidosis",
         "B) Chloride is irrelevant to acid-base assessment always",
@@ -706,7 +706,7 @@
     },
     {
       "id": "clinical_chemistry:medium:9",
-      "question": "A laboratory workup for bicarbonate metabolic is reviewed. Which of the following interpretations is most correct?",
+      "question": "A specimen workup for bicarbonate metabolic is interpreted. Which of the following is most accurate?",
       "options": [
         "A) Salicylate uniquely causes only metabolic alkalosis",
         "B) Elevated A-a gradient always means pure hypoventilation only",
@@ -724,7 +724,7 @@
     },
     {
       "id": "clinical_chemistry:medium:10",
-      "question": "A 28-year-old man undergoes testing relevant to anion gap formula. Which of the following results is most consistent with the diagnosis?",
+      "question": "A 61-year-old woman undergoes testing for anion gap formula. Which result pattern is most consistent?",
       "options": [
         "A) Anion gap approximates Na+ minus (Cl− + HCO3−) for metabolic acidosis classification",
         "B) Normal-gap acidosis is caused by lactate accumulation as the usual definition",
@@ -742,7 +742,7 @@
     },
     {
       "id": "clinical_chemistry:medium:11",
-      "question": "Quality and method considerations for high AG acidosis are discussed. Which of the following is most accurate?",
+      "question": "Method selection for high AG acidosis is discussed. Which of the following is correct?",
       "options": [
         "A) Anion gap approximates K+ + Cl− − Na+ as the standard teaching formula",
         "B) Normal-gap acidosis is caused by lactate accumulation as the usual definition",
@@ -760,7 +760,7 @@
     },
     {
       "id": "clinical_chemistry:medium:12",
-      "question": "A 63-year-old woman has an abnormal panel suggesting normal AG acidosis. Which of the following is the most likely explanation?",
+      "question": "Clinical testing related to normal AG acidosis is performed. Which of the following is correct?",
       "options": [
         "A) Anion gap approximates K+ + Cl− − Na+ as the standard teaching formula",
         "B) Normal-gap acidosis is caused by lactate accumulation as the usual definition",
@@ -778,7 +778,7 @@
     },
     {
       "id": "clinical_chemistry:medium:13",
-      "question": "A technologist reviews results related to aBG p H. Which of the following is most appropriate?",
+      "question": "Results related to ABG p H are verified before release. Which of the following is appropriate?",
       "options": [
         "A) pH alone always identifies the single primary process without PaCO2 and HCO3",
         "B) Respiratory alkalosis is high PaCO2 with acidemia",
@@ -796,7 +796,7 @@
     },
     {
       "id": "clinical_chemistry:medium:14",
-      "question": "A 27-year-old woman is being evaluated for respiratory acidosis. Which of the following laboratory conclusions is most correct?",
+      "question": "A 60-year-old man is evaluated with assays used in respiratory acidosis. Which of the following is correct?",
       "options": [
         "A) Metabolic alkalosis is defined by low HCO3− with acidemia",
         "B) Respiratory acidosis is low PaCO2 with alkalemia",
@@ -814,7 +814,7 @@
     },
     {
       "id": "clinical_chemistry:medium:15",
-      "question": "In the laboratory assessment of respiratory alkalosis, which of the following is most accurate?",
+      "question": "In laboratory assessment of respiratory alkalosis, which of the following is correct?",
       "options": [
         "A) Respiratory alkalosis is high PaCO2 with acidemia",
         "B) Respiratory alkalosis is low PaCO2 with alkalemia from hyperventilation",
@@ -832,7 +832,7 @@
     },
     {
       "id": "clinical_chemistry:medium:16",
-      "question": "A 66-year-old man has laboratory findings evaluated in the context of metabolic alkalosis. Which of the following is most accurate?",
+      "question": "A 53-year-old woman has lab results reviewed for metabolic alkalosis. Which of the following is correct?",
       "options": [
         "A) Metabolic alkalosis is defined by low HCO3− with acidemia",
         "B) Respiratory acidosis is low PaCO2 with alkalemia",
@@ -850,7 +850,7 @@
     },
     {
       "id": "clinical_chemistry:medium:17",
-      "question": "A laboratory workup for plasma osmolality is reviewed. Which of the following interpretations is most correct?",
+      "question": "A specimen workup for plasma osmolality is interpreted. Which of the following is most accurate?",
       "options": [
         "A) Plasma osmolality reflects solute concentration with Na, glucose, and urea as major contributors",
         "B) Osmolality is identical to urine specific gravity always",
@@ -868,7 +868,7 @@
     },
     {
       "id": "clinical_chemistry:medium:18",
-      "question": "A 50-year-old man undergoes testing relevant to osmolar gap. Which of the following results is most consistent with the diagnosis?",
+      "question": "A 37-year-old woman undergoes testing for osmolar gap. Which result pattern is most consistent?",
       "options": [
         "A) Toxic alcohols never raise osmolar gap",
         "B) Elevated osmolar gap specifically diagnoses hyponatremia type",
@@ -886,7 +886,7 @@
     },
     {
       "id": "clinical_chemistry:medium:19",
-      "question": "Quality and method considerations for fasting glucose diabetes are discussed. Which of the following is most accurate?",
+      "question": "Method selection for fasting glucose diabetes is discussed. Which of the following is correct?",
       "options": [
         "A) A single random glucose of 110 mg/dL alone always diagnoses diabetes",
         "B) Fasting plasma glucose is used among criteria to diagnose diabetes mellitus",
@@ -904,7 +904,7 @@
     },
     {
       "id": "clinical_chemistry:medium:20",
-      "question": "A 35-year-old woman has an abnormal panel suggesting hb A1c meaning. Which of the following is the most likely explanation?",
+      "question": "A 68-year-old man has an abnormal panel. Which statement about hb A1c meaning is most accurate?",
       "options": [
         "A) HbA1c reflects only the last 24 hours of diet",
         "B) HbA1c is never affected by hemolysis or transfusion",
@@ -922,7 +922,7 @@
     },
     {
       "id": "clinical_chemistry:medium:21",
-      "question": "A technologist reviews results related to hb A1c limitations. Which of the following is most appropriate?",
+      "question": "Results related to hb A1c limitations are verified before release. Which of the following is appropriate?",
       "options": [
         "A) HbA1c is never affected by hemolysis or transfusion",
         "B) Albumin never affects anion gap interpretation",
@@ -940,7 +940,7 @@
     },
     {
       "id": "clinical_chemistry:medium:22",
-      "question": "A 37-year-old woman is being evaluated for whipple hypoglycemia. Which of the following laboratory conclusions is most correct?",
+      "question": "A 70-year-old man is evaluated with assays used in whipple hypoglycemia. Which of the following is correct?",
       "options": [
         "A) Low albumin always proves true symptomatic hypocalcemia",
         "B) Low sweat chloride pathognomonically proves CF always",
@@ -958,7 +958,7 @@
     },
     {
       "id": "clinical_chemistry:medium:23",
-      "question": "In the laboratory assessment of bUN elevation, which of the following is most accurate?",
+      "question": "In laboratory assessment of BUN elevation, which of the following is correct?",
       "options": [
         "A) Amylase elevation is 100% specific for pancreatitis always",
         "B) BUN rises with reduced GFR, GI bleed, high protein intake, or catabolism",
@@ -976,7 +976,7 @@
     },
     {
       "id": "clinical_chemistry:medium:24",
-      "question": "A 63-year-old woman has laboratory findings evaluated in the context of creatinine GFR. Which of the following is most accurate?",
+      "question": "A 50-year-old man is examined, and creatinine GFR is reviewed. Which of the following is correct?",
       "options": [
         "A) Serum K+ is always lower than plasma K+ by definition",
         "B) Serum iron is as stable as ferritin for stores always",
@@ -994,7 +994,7 @@
     },
     {
       "id": "clinical_chemistry:medium:25",
-      "question": "A laboratory workup for bUN creatinine ratio is reviewed. Which of the following interpretations is most correct?",
+      "question": "A specimen workup for BUN creatinine ratio is interpreted. Which of the following is most accurate?",
       "options": [
         "A) High ceruloplasmin pathognomonically proves Wilson always",
         "B) High ratio always proves intrinsic acute tubular necrosis",
@@ -1012,7 +1012,7 @@
     },
     {
       "id": "clinical_chemistry:medium:26",
-      "question": "A 52-year-old man undergoes testing relevant to e GFR equations. Which of the following results is most consistent with the diagnosis?",
+      "question": "Which of the following correctly describes e GFR equations?",
       "options": [
         "A) Cystatin C is identical in behavior to CK-MB",
         "B) Creatinine is a perfect linear direct measure of GFR in all patients",
@@ -1030,7 +1030,7 @@
     },
     {
       "id": "clinical_chemistry:medium:27",
-      "question": "Quality and method considerations for cystatin C are discussed. Which of the following is most accurate?",
+      "question": "Method selection for cystatin C is discussed. Which of the following is correct?",
       "options": [
         "A) Cystatin C is identical in behavior to CK-MB",
         "B) Cystatin C is an alternative GFR marker less dependent on muscle mass than creatinine",
@@ -1048,7 +1048,7 @@
     },
     {
       "id": "clinical_chemistry:medium:28",
-      "question": "A 45-year-old woman has an abnormal panel suggesting aKI definition. Which of the following is the most likely explanation?",
+      "question": "Clinical testing related to AKI is performed. Which of the following is correct?",
       "options": [
         "A) Cholestasis is isolated ALT mega-rise without ALP change as the definition",
         "B) AKI is defined by abrupt rise in creatinine and/or drop in urine output criteria",
@@ -1066,7 +1066,7 @@
     },
     {
       "id": "clinical_chemistry:medium:29",
-      "question": "A technologist reviews results related to cKD staging. Which of the following is most appropriate?",
+      "question": "Results related to CKD staging are verified before release. Which of the following is appropriate?",
       "options": [
         "A) CKD staging uses eGFR categories and albuminuria",
         "B) eGFR is measured directly by inulin clearance in every lab panel",
@@ -1086,7 +1086,7 @@
   "hard": [
     {
       "id": "clinical_chemistry:hard:0",
-      "question": "A 67-year-old woman presents with findings that could fit more than one process often confused with sodium water balance. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "A 54-year-old man presents with findings that overlap several diagnoses, including sodium water balance. Which of the following is most accurate?",
       "options": [
         "A) Hypernatremia always means excess total body sodium without water issues",
         "B) Serum sodium is the major extracellular cation reflecting water balance",
@@ -1104,7 +1104,7 @@
     },
     {
       "id": "clinical_chemistry:hard:1",
-      "question": "A 70-year-old man is hospitalized with evolving features of hypotonic hyponatremia. A common mimic remains possible. Which of the following is most likely?",
+      "question": "A 57-year-old woman is hospitalized with evolving hypotonic hyponatremia. Which of the following is most accurate?",
       "options": [
         "A) True hypotonic hyponatremia reflects excess water relative to sodium",
         "B) Hypernatremia always means excess total body sodium without water issues",
@@ -1122,7 +1122,7 @@
     },
     {
       "id": "clinical_chemistry:hard:2",
-      "question": "A 39-year-old woman is evaluated for pseudohyponatremia. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "In a detailed discussion of pseudohyponatremia, which of the following is most accurate?",
       "options": [
         "A) Pseudohyponatremia means true low plasma tonicity always",
         "B) True hyperkalemia is always harmless if creatinine is normal",
@@ -1140,7 +1140,7 @@
     },
     {
       "id": "clinical_chemistry:hard:3",
-      "question": "A 33-year-old woman is evaluated for suspected hypernatremia. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "A 66-year-old man has suspected hypernatremia, and similar diagnoses remain possible. Which of the following is most accurate?",
       "options": [
         "A) Hypernatremia indicates water deficit relative to sodium",
         "B) Hypernatremia always means excess total body sodium without water issues",
@@ -1158,7 +1158,7 @@
     },
     {
       "id": "clinical_chemistry:hard:4",
-      "question": "Findings thought to represent potassium intracellular can be misread. Which of the following is most correct?",
+      "question": "Initial reading of the case suggested potassium intracellular. Which of the following is correct?",
       "options": [
         "A) Potassium is the major extracellular cation like sodium",
         "B) Serum sodium primarily measures total body sodium stores independent of water",
@@ -1176,7 +1176,7 @@
     },
     {
       "id": "clinical_chemistry:hard:5",
-      "question": "A 60-year-old man presents with hypokalemia causes. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "A 47-year-old woman presents with hypokalemia causes. Which of the following best separates it from similar conditions?",
       "options": [
         "A) Hypokalemia is caused only by laboratory hemolysis artifact always",
         "B) Hypokalemia may result from losses, shifts into cells, or low intake",
@@ -1194,7 +1194,7 @@
     },
     {
       "id": "clinical_chemistry:hard:6",
-      "question": "A complex case of hyperkalemia urgency involving a 63-year-old woman is reviewed on rounds. Which of the following is most accurate?",
+      "question": "A difficult case of hyperkalemia urgency in a 50-year-old man is reviewed. Which of the following is correct?",
       "options": [
         "A) True hyperkalemia can cause life-threatening cardiac conduction abnormalities",
         "B) Any high K+ on a hemolyzed sample is always true in vivo hyperkalemia",
@@ -1212,7 +1212,7 @@
     },
     {
       "id": "clinical_chemistry:hard:7",
-      "question": "A 58-year-old man has progressive abnormalities attributed to spurious hyperkalemia chem. Which of the following is most consistent with the clinical process?",
+      "question": "A 45-year-old woman has progressive findings of spurious hyperkalemia chem. Which of the following is most accurate?",
       "options": [
         "A) Hemolysis, delayed separation, or thrombocytosis can spuriously elevate potassium",
         "B) Hypokalemia is caused only by laboratory hemolysis artifact always",
@@ -1230,7 +1230,7 @@
     },
     {
       "id": "clinical_chemistry:hard:8",
-      "question": "A 35-year-old woman presents with findings that could fit more than one process often confused with chloride acid-base. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "A 68-year-old man presents with findings that overlap several diagnoses, including chloride acid-base. Which of the following is most accurate?",
       "options": [
         "A) High AG acidosis is identical to hyperchloremic normal-gap acidosis",
         "B) Normal-gap acidosis is caused by lactate accumulation as the usual definition",
@@ -1248,7 +1248,7 @@
     },
     {
       "id": "clinical_chemistry:hard:9",
-      "question": "A 59-year-old woman is hospitalized with evolving features of bicarbonate metabolic. A common mimic remains possible. Which of the following is most likely?",
+      "question": "A 46-year-old man is hospitalized with evolving bicarbonate metabolic. Which of the following is most accurate?",
       "options": [
         "A) Metabolic alkalosis is defined by low HCO3− with acidemia",
         "B) Salicylate uniquely causes only metabolic alkalosis",
@@ -1266,7 +1266,7 @@
     },
     {
       "id": "clinical_chemistry:hard:10",
-      "question": "A 28-year-old man is evaluated for anion gap formula. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "A 61-year-old woman is evaluated for anion gap formula. Which of the following is the best interpretation?",
       "options": [
         "A) High AG acidosis is identical to hyperchloremic normal-gap acidosis",
         "B) Anion gap approximates K+ + Cl− − Na+ as the standard teaching formula",
@@ -1284,7 +1284,7 @@
     },
     {
       "id": "clinical_chemistry:hard:11",
-      "question": "A 60-year-old man is evaluated for suspected high AG acidosis. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "A 47-year-old woman has suspected high AG acidosis, and similar diagnoses remain possible. Which of the following is most accurate?",
       "options": [
         "A) High AG acidosis is identical to hyperchloremic normal-gap acidosis",
         "B) Normal-gap acidosis is caused by lactate accumulation as the usual definition",
@@ -1302,7 +1302,7 @@
     },
     {
       "id": "clinical_chemistry:hard:12",
-      "question": "Findings thought to represent normal AG acidosis can be misread. Which of the following is most correct?",
+      "question": "Careful interpretation of normal AG acidosis is required. Which of the following is correct?",
       "options": [
         "A) Normal anion-gap metabolic acidosis is often hyperchloremic from RTA or diarrhea",
         "B) Normal-gap acidosis is caused by lactate accumulation as the usual definition",
@@ -1320,7 +1320,7 @@
     },
     {
       "id": "clinical_chemistry:hard:13",
-      "question": "A 69-year-old woman presents with aBG p H. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "A 56-year-old man presents with ABG p H. Which of the following best separates it from similar conditions?",
       "options": [
         "A) pH alone always identifies the single primary process without PaCO2 and HCO3",
         "B) Respiratory alkalosis is high PaCO2 with acidemia",
@@ -1338,7 +1338,7 @@
     },
     {
       "id": "clinical_chemistry:hard:14",
-      "question": "A complex case of respiratory acidosis involving a 27-year-old woman is reviewed on rounds. Which of the following is most accurate?",
+      "question": "A difficult case of respiratory acidosis in a 60-year-old man is reviewed. Which of the following is correct?",
       "options": [
         "A) Respiratory acidosis is low PaCO2 with alkalemia",
         "B) Respiratory alkalosis is high PaCO2 with acidemia",
@@ -1356,7 +1356,7 @@
     },
     {
       "id": "clinical_chemistry:hard:15",
-      "question": "A 55-year-old woman has progressive abnormalities attributed to respiratory alkalosis. Which of the following is most consistent with the clinical process?",
+      "question": "A 42-year-old man has progressive findings of respiratory alkalosis. Which of the following is most accurate?",
       "options": [
         "A) Metabolic alkalosis is defined by low HCO3− with acidemia",
         "B) Respiratory alkalosis is high PaCO2 with acidemia",
@@ -1374,7 +1374,7 @@
     },
     {
       "id": "clinical_chemistry:hard:16",
-      "question": "A 66-year-old man presents with findings that could fit more than one process often confused with metabolic alkalosis. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "A 53-year-old woman presents with findings that overlap several diagnoses, including metabolic alkalosis. Which of the following is most accurate?",
       "options": [
         "A) Respiratory alkalosis is high PaCO2 with acidemia",
         "B) Metabolic alkalosis is defined by low HCO3− with acidemia",
@@ -1392,7 +1392,7 @@
     },
     {
       "id": "clinical_chemistry:hard:17",
-      "question": "A 31-year-old woman is hospitalized with evolving features of plasma osmolality. A common mimic remains possible. Which of the following is most likely?",
+      "question": "A 64-year-old man is hospitalized with evolving plasma osmolality. Which of the following is most accurate?",
       "options": [
         "A) OGTT is identical to a single fasting glucose always",
         "B) Plasma osmolality reflects solute concentration with Na, glucose, and urea as major contributors",
@@ -1410,7 +1410,7 @@
     },
     {
       "id": "clinical_chemistry:hard:18",
-      "question": "A 50-year-old man is evaluated for osmolar gap. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "A 37-year-old woman is evaluated for osmolar gap. Which of the following is the best interpretation?",
       "options": [
         "A) Elevated osmolar gap suggests osmotically active toxins such as ethanol, methanol, or ethylene glycol",
         "B) Protein gap specifically equals only dehydration always",
@@ -1428,7 +1428,7 @@
     },
     {
       "id": "clinical_chemistry:hard:19",
-      "question": "A 54-year-old man is evaluated for suspected fasting glucose diabetes. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "A 41-year-old woman has suspected fasting glucose diabetes, and similar diagnoses remain possible. Which of the following is most accurate?",
       "options": [
         "A) OGTT is identical to a single fasting glucose always",
         "B) Fasting plasma glucose is used among criteria to diagnose diabetes mellitus",
@@ -1446,7 +1446,7 @@
     },
     {
       "id": "clinical_chemistry:hard:20",
-      "question": "Findings thought to represent hb A1c meaning can be misread. Which of the following is most correct?",
+      "question": "Initial reading of the case suggested hb A1c meaning. Which of the following is correct?",
       "options": [
         "A) Fructosamine reflects the same 3-month window as HbA1c exactly",
         "B) HbA1c is never affected by hemolysis or transfusion",
@@ -1464,7 +1464,7 @@
     },
     {
       "id": "clinical_chemistry:hard:21",
-      "question": "A 34-year-old man presents with hb A1c limitations. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "A 67-year-old woman presents with hb A1c limitations. Which of the following best separates it from similar conditions?",
       "options": [
         "A) Conditions altering RBC lifespan can falsely change HbA1c, such as hemolysis or transfusion",
         "B) Fructosamine reflects the same 3-month window as HbA1c exactly",
@@ -1482,7 +1482,7 @@
     },
     {
       "id": "clinical_chemistry:hard:22",
-      "question": "A complex case of whipple hypoglycemia involving a 37-year-old woman is reviewed on rounds. Which of the following is most accurate?",
+      "question": "A difficult case of whipple hypoglycemia in a 70-year-old man is reviewed. Which of the following is correct?",
       "options": [
         "A) Low albumin always proves true symptomatic hypocalcemia",
         "B) All low measured Na+ values are true hypotonic hyponatremia without artifact",
@@ -1500,7 +1500,7 @@
     },
     {
       "id": "clinical_chemistry:hard:23",
-      "question": "A 35-year-old woman has progressive abnormalities attributed to bUN elevation. Which of the following is most consistent with the clinical process?",
+      "question": "A 68-year-old man has progressive findings of BUN elevation. Which of the following is most accurate?",
       "options": [
         "A) BUN elevation is pathognomonic only for GI bleed always",
         "B) Total CK elevation always equals myocardial infarction",
@@ -1518,7 +1518,7 @@
     },
     {
       "id": "clinical_chemistry:hard:24",
-      "question": "A 63-year-old woman presents with findings that could fit more than one process often confused with creatinine GFR. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "Careful review of creatinine GFR is required. Which of the following is most accurate?",
       "options": [
         "A) Serum iron is as stable as ferritin for stores always",
         "B) Serum creatinine inversely reflects GFR but depends on muscle mass and assay",
@@ -1536,7 +1536,7 @@
     },
     {
       "id": "clinical_chemistry:hard:25",
-      "question": "A 58-year-old man is hospitalized with evolving features of bUN creatinine ratio. A common mimic remains possible. Which of the following is most likely?",
+      "question": "A 45-year-old woman is hospitalized with evolving BUN creatinine ratio. Which of the following is most accurate?",
       "options": [
         "A) High ratio always proves intrinsic acute tubular necrosis",
         "B) High BUN/creatinine ratio can suggest prerenal azotemia or GI bleed",
@@ -1554,7 +1554,7 @@
     },
     {
       "id": "clinical_chemistry:hard:26",
-      "question": "A 52-year-old man is evaluated for e GFR equations. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "In a detailed discussion of e GFR equations, which of the following is most accurate?",
       "options": [
         "A) eGFR equations estimate GFR from creatinine and sometimes cystatin C with demographics",
         "B) eGFR is measured directly by inulin clearance in every lab panel",
@@ -1572,7 +1572,7 @@
     },
     {
       "id": "clinical_chemistry:hard:27",
-      "question": "A 46-year-old man is evaluated for suspected cystatin C. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "A 33-year-old woman has suspected cystatin C, and similar diagnoses remain possible. Which of the following is most accurate?",
       "options": [
         "A) Cystatin C is an alternative GFR marker less dependent on muscle mass than creatinine",
         "B) Creatinine is a perfect linear direct measure of GFR in all patients",
@@ -1590,7 +1590,7 @@
     },
     {
       "id": "clinical_chemistry:hard:28",
-      "question": "Findings thought to represent aKI definition can be misread. Which of the following is most correct?",
+      "question": "Careful interpretation of AKI is required. Which of the following is correct?",
       "options": [
         "A) AKI is defined only by chronic small creatinine changes over years",
         "B) Cholestasis is isolated ALT mega-rise without ALP change as the definition",
@@ -1608,7 +1608,7 @@
     },
     {
       "id": "clinical_chemistry:hard:29",
-      "question": "A 35-year-old woman presents with cKD staging. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "A 68-year-old man presents with CKD staging. Which of the following best separates it from similar conditions?",
       "options": [
         "A) eGFR is measured directly by inulin clearance in every lab panel",
         "B) CKD staging uses only serum sodium categories",
@@ -1628,7 +1628,7 @@
   "extreme": [
     {
       "id": "clinical_chemistry:extreme:0",
-      "question": "A 67-year-old woman with diabetes and hypertension develops rapidly worsening features of sodium water balance. Vital signs are unstable. Which of the following is most likely?",
+      "question": "A 54-year-old man with diabetes and hypertension becomes acutely unstable with sodium water balance. Which of the following is most accurate?",
       "options": [
         "A) Serum sodium primarily measures total body sodium stores independent of water",
         "B) Hypernatremia always means excess total body sodium without water issues",
@@ -1646,7 +1646,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:1",
-      "question": "In the emergency department, a 70-year-old man is critically ill with a syndrome centered on hypotonic hyponatremia. Which of the following is most likely?",
+      "question": "In the emergency department, a 57-year-old woman is critically ill with hypotonic hyponatremia. Which of the following is most accurate?",
       "options": [
         "A) Hypernatremia always means excess total body sodium without water issues",
         "B) Pseudohyponatremia means true low plasma tonicity always",
@@ -1664,7 +1664,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:2",
-      "question": "A 39-year-old woman deteriorates overnight with pseudohyponatremia. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "Which of the following is the most precise statement about pseudohyponatremia?",
       "options": [
         "A) Any low glucometer reading without symptoms always proves pathologic hypoglycemia",
         "B) Pseudohyponatremia means true low plasma tonicity always",
@@ -1682,7 +1682,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:3",
-      "question": "A 33-year-old woman develops life-threatening complications in the setting of hypernatremia. Which of the following is most consistent with the clinical process?",
+      "question": "A 66-year-old man with diabetes and hypertension develops dangerous complications of hypernatremia. Which of the following is correct?",
       "options": [
         "A) Hypernatremia always means excess total body sodium without water issues",
         "B) Hypernatremia indicates water deficit relative to sodium",
@@ -1700,7 +1700,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:4",
-      "question": "A rapidly progressive presentation of potassium intracellular is reviewed in a 66-year-old man. Which of the following is most likely?",
+      "question": "A 53-year-old woman has a rapidly worsening course of potassium intracellular. Which of the following is most accurate?",
       "options": [
         "A) Potassium is the major intracellular cation critical for membrane potential",
         "B) Potassium is the major extracellular cation like sodium",
@@ -1718,7 +1718,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:5",
-      "question": "A 60-year-old man requires urgent decision-making for hypokalemia causes. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Urgent management decisions for hypokalemia causes are required in a 47-year-old woman. Which of the following is most accurate?",
       "options": [
         "A) Low bicarbonate always means pure respiratory acidosis",
         "B) Hypokalemia may result from losses, shifts into cells, or low intake",
@@ -1736,7 +1736,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:6",
-      "question": "A 63-year-old woman has refractory abnormalities due to hyperkalemia urgency. Which of the following is the most accurate interpretation?",
+      "question": "A 50-year-old man has refractory hyperkalemia urgency. Which of the following is correct?",
       "options": [
         "A) True hyperkalemia is always harmless if creatinine is normal",
         "B) Any high K+ on a hemolyzed sample is always true in vivo hyperkalemia",
@@ -1754,7 +1754,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:7",
-      "question": "A critical-care presentation involving spurious hyperkalemia chem in a 58-year-old man is discussed. Which of the following is most likely?",
+      "question": "In intensive care, a 45-year-old woman is treated for spurious hyperkalemia chem. Which of the following is most accurate?",
       "options": [
         "A) True hyperkalemia is always harmless if creatinine is normal",
         "B) Hypokalemia is caused only by laboratory hemolysis artifact always",
@@ -1772,7 +1772,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:8",
-      "question": "A 35-year-old woman develops rapidly worsening features of chloride acid-base. Vital signs are unstable. Which of the following is most likely?",
+      "question": "A 68-year-old man with diabetes and hypertension becomes acutely unstable with chloride acid-base. Which of the following is most accurate?",
       "options": [
         "A) Normal-gap acidosis is caused by lactate accumulation as the usual definition",
         "B) High AG acidosis is identical to hyperchloremic normal-gap acidosis",
@@ -1790,7 +1790,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:9",
-      "question": "In the emergency department, a 59-year-old woman is critically ill with a syndrome centered on bicarbonate metabolic. Which of the following is most likely?",
+      "question": "In the emergency department, a 46-year-old man is critically ill with bicarbonate metabolic. Which of the following is most accurate?",
       "options": [
         "A) Low bicarbonate suggests metabolic acidosis or compensation for respiratory alkalosis",
         "B) Salicylate uniquely causes only metabolic alkalosis",
@@ -1808,7 +1808,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:10",
-      "question": "A 28-year-old man deteriorates overnight with anion gap formula. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "A 61-year-old woman worsens overnight with anion gap formula. Which of the following is most accurate?",
       "options": [
         "A) Anion gap approximates K+ + Cl− − Na+ as the standard teaching formula",
         "B) High AG acidosis is identical to hyperchloremic normal-gap acidosis",
@@ -1826,7 +1826,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:11",
-      "question": "A 60-year-old man with diabetes and hypertension develops life-threatening complications in the setting of high AG acidosis. Which of the following is most consistent with the clinical process?",
+      "question": "A 47-year-old woman develops dangerous complications of high AG acidosis. Which of the following is correct?",
       "options": [
         "A) High anion-gap metabolic acidosis includes lactate, ketoacids, and some toxins",
         "B) Normal-gap acidosis is caused by lactate accumulation as the usual definition",
@@ -1844,7 +1844,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:12",
-      "question": "A rapidly progressive presentation of normal AG acidosis is reviewed in a 63-year-old woman. Which of the following is most likely?",
+      "question": "Which interpretation of normal AG acidosis is most accurate?",
       "options": [
         "A) High AG acidosis is identical to hyperchloremic normal-gap acidosis",
         "B) Normal-gap acidosis is caused by lactate accumulation as the usual definition",
@@ -1862,7 +1862,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:13",
-      "question": "A 69-year-old woman requires urgent decision-making for aBG p H. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Urgent management decisions for ABG p H are required in a 56-year-old man. Which of the following is most accurate?",
       "options": [
         "A) Blood gas pH identifies acidemia below 7.35 or alkalemia above 7.45",
         "B) pH alone always identifies the single primary process without PaCO2 and HCO3",
@@ -1880,7 +1880,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:14",
-      "question": "A 27-year-old woman has refractory abnormalities due to respiratory acidosis. Which of the following is the most accurate interpretation?",
+      "question": "A 60-year-old man has refractory respiratory acidosis. Which of the following is correct?",
       "options": [
         "A) Respiratory acidosis is high PaCO2 with acidemia from hypoventilation",
         "B) Respiratory acidosis is low PaCO2 with alkalemia",
@@ -1898,7 +1898,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:15",
-      "question": "A critical-care presentation involving respiratory alkalosis in a 55-year-old woman is discussed. Which of the following is most likely?",
+      "question": "In intensive care, a 42-year-old man is treated for respiratory alkalosis. Which of the following is most accurate?",
       "options": [
         "A) Respiratory alkalosis is high PaCO2 with acidemia",
         "B) Respiratory alkalosis is low PaCO2 with alkalemia from hyperventilation",
@@ -1916,7 +1916,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:16",
-      "question": "A 66-year-old man with diabetes and hypertension develops rapidly worsening features of metabolic alkalosis. Vital signs are unstable. Which of the following is most likely?",
+      "question": "A 53-year-old woman with diabetes and hypertension becomes acutely unstable with metabolic alkalosis. Which of the following is most accurate?",
       "options": [
         "A) Metabolic alkalosis features high HCO3− with alkalemia from vomiting or diuretics",
         "B) Metabolic alkalosis is defined by low HCO3− with acidemia",
@@ -1934,7 +1934,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:17",
-      "question": "In the emergency department, a 31-year-old woman is critically ill with a syndrome centered on plasma osmolality. Which of the following is most likely?",
+      "question": "In the emergency department, a 64-year-old man is critically ill with plasma osmolality. Which of the following is most accurate?",
       "options": [
         "A) A single random glucose of 110 mg/dL alone always diagnoses diabetes",
         "B) Plasma osmolality reflects solute concentration with Na, glucose, and urea as major contributors",
@@ -1952,7 +1952,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:18",
-      "question": "A 50-year-old man deteriorates overnight with osmolar gap. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "A 37-year-old woman worsens overnight with osmolar gap. Which of the following is most accurate?",
       "options": [
         "A) Toxic alcohols never raise osmolar gap",
         "B) Elevated osmolar gap suggests osmotically active toxins such as ethanol, methanol, or ethylene glycol",
@@ -1970,7 +1970,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:19",
-      "question": "A 54-year-old man with diabetes and hypertension develops life-threatening complications in the setting of fasting glucose diabetes. Which of the following is most consistent with the clinical process?",
+      "question": "A 41-year-old woman develops dangerous complications of fasting glucose diabetes. Which of the following is correct?",
       "options": [
         "A) Fasting plasma glucose is used among criteria to diagnose diabetes mellitus",
         "B) A single random glucose of 110 mg/dL alone always diagnoses diabetes",
@@ -1988,7 +1988,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:20",
-      "question": "A rapidly progressive presentation of hb A1c meaning is reviewed in a 35-year-old woman. Which of the following is most likely?",
+      "question": "A 68-year-old man has a rapidly worsening course of hb A1c meaning. Which of the following is most accurate?",
       "options": [
         "A) Fructosamine reflects the same 3-month window as HbA1c exactly",
         "B) HbA1c reflects average glycemia over about 2–3 months via glycated hemoglobin",
@@ -2006,7 +2006,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:21",
-      "question": "A 34-year-old man requires urgent decision-making for hb A1c limitations. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Urgent management decisions for hb A1c limitations are required in a 67-year-old woman. Which of the following is most accurate?",
       "options": [
         "A) HbA1c is never affected by hemolysis or transfusion",
         "B) Hemolysis never changes potassium or LDH",
@@ -2024,7 +2024,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:22",
-      "question": "A 37-year-old woman has refractory abnormalities due to whipple hypoglycemia. Which of the following is the most accurate interpretation?",
+      "question": "A 70-year-old man has refractory whipple hypoglycemia. Which of the following is correct?",
       "options": [
         "A) Pseudohyponatremia means true low plasma tonicity always",
         "B) Low albumin always proves true symptomatic hypocalcemia",
@@ -2042,7 +2042,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:23",
-      "question": "A critical-care presentation involving bUN elevation in a 35-year-old woman is discussed. Which of the following is most likely?",
+      "question": "In intensive care, a 68-year-old man is treated for BUN elevation. Which of the following is most accurate?",
       "options": [
         "A) High ratio always proves intrinsic acute tubular necrosis",
         "B) BUN rises with reduced GFR, GI bleed, high protein intake, or catabolism",
@@ -2060,7 +2060,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:24",
-      "question": "A 63-year-old woman with diabetes and hypertension develops rapidly worsening features of creatinine GFR. Vital signs are unstable. Which of the following is most likely?",
+      "question": "Careful reasoning about creatinine GFR is required. Which of the following is most accurate?",
       "options": [
         "A) Creatinine is a perfect linear direct measure of GFR in all patients",
         "B) Serum iron is as stable as ferritin for stores always",
@@ -2078,7 +2078,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:25",
-      "question": "In the emergency department, a 58-year-old man is critically ill with a syndrome centered on bUN creatinine ratio. Which of the following is most likely?",
+      "question": "In the emergency department, a 45-year-old woman is critically ill with BUN creatinine ratio. Which of the following is most accurate?",
       "options": [
         "A) High ceruloplasmin pathognomonically proves Wilson always",
         "B) BUN elevation is pathognomonic only for GI bleed always",
@@ -2096,7 +2096,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:26",
-      "question": "A 52-year-old man deteriorates overnight with e GFR equations. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "Which of the following is the most precise statement about e GFR equations?",
       "options": [
         "A) eGFR is measured directly by inulin clearance in every lab panel",
         "B) Creatinine is a perfect linear direct measure of GFR in all patients",
@@ -2114,7 +2114,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:27",
-      "question": "A 46-year-old man develops life-threatening complications in the setting of cystatin C. Which of the following is most consistent with the clinical process?",
+      "question": "A 33-year-old woman develops dangerous complications of cystatin C. Which of the following is correct?",
       "options": [
         "A) Cystatin C is an alternative GFR marker less dependent on muscle mass than creatinine",
         "B) Cystatin C is identical in behavior to CK-MB",
@@ -2132,7 +2132,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:28",
-      "question": "A rapidly progressive presentation of aKI definition is reviewed in a 45-year-old woman. Which of the following is most likely?",
+      "question": "Which interpretation of AKI is most accurate?",
       "options": [
         "A) All pleural effusions are transudates by definition",
         "B) AKI is defined by abrupt rise in creatinine and/or drop in urine output criteria",
@@ -2150,7 +2150,7 @@
     },
     {
       "id": "clinical_chemistry:extreme:29",
-      "question": "A 35-year-old woman requires urgent decision-making for cKD staging. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Urgent management decisions for CKD staging are required in a 68-year-old man. Which of the following is most accurate?",
       "options": [
         "A) eGFR is measured directly by inulin clearance in every lab panel",
         "B) CKD staging uses only serum sodium categories",

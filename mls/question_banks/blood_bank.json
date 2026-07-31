@@ -2,7 +2,7 @@
   "easy": [
     {
       "id": "blood_bank:easy:0",
-      "question": "Which of the following best characterizes aBO forward typing?",
+      "question": "Which of the following is true of ABO forward typing?",
       "options": [
         "A) Forward typing detects ABO antibodies in plasma like reverse typing",
         "B) Antibody screen detects ABO antigens on patient cells like forward typing",
@@ -20,7 +20,7 @@
     },
     {
       "id": "blood_bank:easy:1",
-      "question": "Which finding is most consistent with aBO reverse typing?",
+      "question": "Which finding is expected in ABO reverse typing?",
       "options": [
         "A) Forward typing detects ABO antibodies in plasma like reverse typing",
         "B) Antibody screen detects ABO antigens on patient cells like forward typing",
@@ -38,7 +38,7 @@
     },
     {
       "id": "blood_bank:easy:2",
-      "question": "Which of the following statements about landsteiner law is most accurate?",
+      "question": "Which of the following statements about landsteiner law is correct?",
       "options": [
         "A) Group O plasma is universal donor plasma without ABO antibodies",
         "B) Reverse typing detects A and B antigens on patient RBCs like forward typing",
@@ -56,7 +56,7 @@
     },
     {
       "id": "blood_bank:easy:3",
-      "question": "In patients with group O universal RBC, which of the following is most correct?",
+      "question": "In group O universal RBC, which of the following is correct?",
       "options": [
         "A) Forward typing detects ABO antibodies in plasma like reverse typing",
         "B) Group O RBCs lack A and B antigens and are universal donor RBCs in emergencies",
@@ -74,7 +74,7 @@
     },
     {
       "id": "blood_bank:easy:4",
-      "question": "Which of the following is the hallmark feature of aB universal plasma?",
+      "question": "Which of the following best describes AB universal plasma?",
       "options": [
         "A) Group O plasma is universal donor plasma without ABO antibodies",
         "B) AB RBCs are universal donor red cells always",
@@ -92,7 +92,7 @@
     },
     {
       "id": "blood_bank:easy:5",
-      "question": "Which description most accurately matches rh D typing?",
+      "question": "Select the correct statement about rh D typing.",
       "options": [
         "A) RhD typing detects ABO antibodies in reverse typing",
         "B) Forward typing detects ABO antibodies in plasma like reverse typing",
@@ -110,7 +110,7 @@
     },
     {
       "id": "blood_bank:easy:6",
-      "question": "Regarding weak D testing, which of the following is most accurate?",
+      "question": "Which of the following applies to weak D testing?",
       "options": [
         "A) Weak D testing is never relevant for blood donors",
         "B) AHG crossmatch only detects room-temperature ABO mismatches like immediate spin",
@@ -128,7 +128,7 @@
     },
     {
       "id": "blood_bank:easy:7",
-      "question": "Which of the following mechanisms best explains rh Ig indication?",
+      "question": "Which of the following applies to rh Ig indication?",
       "options": [
         "A) One vial of RhIg always covers any FMH volume without testing",
         "B) RhIg treats already formed high-titer anti-D by neutralizing it completely always",
@@ -146,7 +146,7 @@
     },
     {
       "id": "blood_bank:easy:8",
-      "question": "Which of the following best characterizes rh Ig dose FMH?",
+      "question": "Which of the following is true about rh Ig dose FMH?",
       "options": [
         "A) One vial of RhIg always covers any FMH volume without testing",
         "B) RhIg dose is increased when fetomaternal hemorrhage exceeds a standard vial coverage",
@@ -164,7 +164,7 @@
     },
     {
       "id": "blood_bank:easy:9",
-      "question": "Which finding is most consistent with antibody screen?",
+      "question": "Which finding is expected in antibody screen?",
       "options": [
         "A) Antibody screen detects ABO antigens on patient cells like forward typing",
         "B) Antibody screen uses IAT with screening cells to detect unexpected RBC alloantibodies",
@@ -182,7 +182,7 @@
     },
     {
       "id": "blood_bank:easy:10",
-      "question": "Which of the following statements about antibody identification is most accurate?",
+      "question": "Which of the following statements about antibody identification is correct?",
       "options": [
         "A) Antibody screen detects ABO antigens on patient cells like forward typing",
         "B) RhD typing detects ABO antibodies in reverse typing",
@@ -200,7 +200,7 @@
     },
     {
       "id": "blood_bank:easy:11",
-      "question": "In patients with antigram, which of the following is most correct?",
+      "question": "In antigram, which of the following is correct?",
       "options": [
         "A) Antigen typing reagents measure plasma antibody titers directly",
         "B) Immediate-spin crossmatch detects all clinically significant IgG alloantibodies at AHG",
@@ -218,7 +218,7 @@
     },
     {
       "id": "blood_bank:easy:12",
-      "question": "Which of the following is the hallmark feature of immediate-spin crossmatch?",
+      "question": "Which of the following best describes immediate-spin crossmatch?",
       "options": [
         "A) Immediate-spin crossmatch detects ABO incompatibility between donor cells and recipient plasma",
         "B) Immediate-spin crossmatch detects all clinically significant IgG alloantibodies at AHG",
@@ -236,7 +236,7 @@
     },
     {
       "id": "blood_bank:easy:13",
-      "question": "Which description most accurately matches aHG crossmatch?",
+      "question": "Select the correct statement about AHG crossmatch.",
       "options": [
         "A) Electronic crossmatch is acceptable with unresolved clinically significant alloantibodies",
         "B) AHG crossmatch detects IgG alloantibody incompatibility after 37°C incubation",
@@ -254,7 +254,7 @@
     },
     {
       "id": "blood_bank:easy:14",
-      "question": "Regarding electronic crossmatch, which of the following is most accurate?",
+      "question": "Which mechanism accounts for electronic crossmatch?",
       "options": [
         "A) Antibody screen detects ABO antigens on patient cells like forward typing",
         "B) Immediate-spin crossmatch detects all clinically significant IgG alloantibodies at AHG",
@@ -272,7 +272,7 @@
     },
     {
       "id": "blood_bank:easy:15",
-      "question": "Which of the following mechanisms best explains major crossmatch?",
+      "question": "Which statement about major crossmatch is accurate?",
       "options": [
         "A) Major crossmatch tests donor RBCs with recipient plasma for incompatibility",
         "B) Group O plasma is universal donor plasma without ABO antibodies",
@@ -290,7 +290,7 @@
     },
     {
       "id": "blood_bank:easy:16",
-      "question": "Which of the following best characterizes dAT transfusion workup?",
+      "question": "Which of the following is true of DAT transfusion workup?",
       "options": [
         "A) Post-reaction workup only repeats the type and screen without DAT",
         "B) DAT detects in-vivo coating of RBCs useful in hemolytic transfusion reaction workups",
@@ -308,7 +308,7 @@
     },
     {
       "id": "blood_bank:easy:17",
-      "question": "Which finding is most consistent with acute ABO HTR?",
+      "question": "Which finding is expected in acute ABO HTR?",
       "options": [
         "A) Acute ABO HTR is identical to mild allergic urticaria always",
         "B) Delayed HTR occurs during the transfusion from ABO mismatch always",
@@ -326,7 +326,7 @@
     },
     {
       "id": "blood_bank:easy:18",
-      "question": "Which of the following statements about delayed HTR is most accurate?",
+      "question": "Which of the following statements about delayed HTR is correct?",
       "options": [
         "A) Cryo ABO incompatibility always causes acute intravascular HTR like ABO RBC mismatch",
         "B) Delayed HTR occurs during the transfusion from ABO mismatch always",
@@ -344,7 +344,7 @@
     },
     {
       "id": "blood_bank:easy:19",
-      "question": "In patients with febrile nonhemolytic, which of the following is most correct?",
+      "question": "In febrile nonhemolytic, which of the following is correct?",
       "options": [
         "A) TRALI is identical to TACO volume overload always",
         "B) Febrile nonhemolytic reactions often from leukocyte cytokines are mitigated by leukoreduction",
@@ -362,7 +362,7 @@
     },
     {
       "id": "blood_bank:easy:20",
-      "question": "Which of the following is the hallmark feature of allergic transfusion?",
+      "question": "Which of the following best describes allergic transfusion?",
       "options": [
         "A) Allergic transfusion reactions range from urticaria to anaphylaxis especially with IgA deficiency risk",
         "B) Washing RBCs prevents TA-GVHD like irradiation",
@@ -380,7 +380,7 @@
     },
     {
       "id": "blood_bank:easy:21",
-      "question": "Which description most accurately matches TRALI?",
+      "question": "Select the correct statement about TRALI.",
       "options": [
         "A) TRALI is acute lung injury from donor antibodies or bioactive lipids causing noncardiogenic edema",
         "B) TRALI is identical to TACO volume overload always",
@@ -398,7 +398,7 @@
     },
     {
       "id": "blood_bank:easy:22",
-      "question": "Regarding TACO, which of the following is most accurate?",
+      "question": "Which mechanism accounts for TACO?",
       "options": [
         "A) TACO is transfusion-associated circulatory overload with cardiogenic pulmonary edema",
         "B) TRALI is identical to TACO volume overload always",
@@ -416,7 +416,7 @@
     },
     {
       "id": "blood_bank:easy:23",
-      "question": "Which of the following mechanisms best explains bacterial platelets?",
+      "question": "Which of the following applies to bacterial platelets?",
       "options": [
         "A) Platelets never require bacterial risk-control strategies",
         "B) Bacterial contamination of platelets is a major infectious risk due to room-temperature storage",
@@ -434,7 +434,7 @@
     },
     {
       "id": "blood_bank:easy:24",
-      "question": "Which of the following best characterizes cMV reduced-risk?",
+      "question": "Which of the following is true of CMV reduced-risk?",
       "options": [
         "A) Warming blood to 37°C alone defines CMV-safe products",
         "B) Leukoreduced or CMV-seronegative products reduce CMV transmission to at-risk patients",
@@ -452,7 +452,7 @@
     },
     {
       "id": "blood_bank:easy:25",
-      "question": "Which finding is most consistent with irradiation products?",
+      "question": "Which finding is expected in irradiation products?",
       "options": [
         "A) Irradiation removes potassium and prevents allergic reactions as its purpose",
         "B) Irradiation of cellular products prevents TA-GVHD in immunocompromised or related donors",
@@ -470,7 +470,7 @@
     },
     {
       "id": "blood_bank:easy:26",
-      "question": "Which of the following statements about washed RBCs is most accurate?",
+      "question": "Which of the following statements about washed RBCs is correct?",
       "options": [
         "A) Irradiation removes potassium and prevents allergic reactions as its purpose",
         "B) Allergic reactions always show hemoglobinemia like ABO HTR",
@@ -488,7 +488,7 @@
     },
     {
       "id": "blood_bank:easy:27",
-      "question": "In patients with leukoreduction, which of the following is most correct?",
+      "question": "In leukoreduction, which of the following is correct?",
       "options": [
         "A) Leukoreduction increases HLA sensitization rates",
         "B) Leukoreduction sterilizes units of all bacteria always",
@@ -506,7 +506,7 @@
     },
     {
       "id": "blood_bank:easy:28",
-      "question": "Which of the following is the hallmark feature of massive transfusion?",
+      "question": "Which of the following best describes massive transfusion?",
       "options": [
         "A) Whole blood is always superior for every elective anemia without bleeding",
         "B) Massive transfusion should give only RBCs without plasma or platelets always",
@@ -524,7 +524,7 @@
     },
     {
       "id": "blood_bank:easy:29",
-      "question": "Which description most accurately matches emergency O-negative?",
+      "question": "Select the correct statement about emergency O-negative.",
       "options": [
         "A) Emergency release should use AB-negative RBCs as universal red cells",
         "B) Emergency release often uses O-negative RBCs for females of childbearing potential when type unknown",
@@ -544,7 +544,7 @@
   "medium": [
     {
       "id": "blood_bank:medium:0",
-      "question": "A 42-year-old man has laboratory findings evaluated in the context of aBO forward typing. Which of the following is most accurate?",
+      "question": "A 64-year-old man has lab results reviewed for ABO forward typing. Which of the following is correct?",
       "options": [
         "A) Reverse typing detects A and B antigens on patient RBCs like forward typing",
         "B) Antibody screen detects ABO antigens on patient cells like forward typing",
@@ -562,7 +562,7 @@
     },
     {
       "id": "blood_bank:medium:1",
-      "question": "A laboratory workup for aBO reverse typing is reviewed. Which of the following interpretations is most correct?",
+      "question": "A specimen workup for ABO reverse typing is interpreted. Which of the following is most accurate?",
       "options": [
         "A) Reverse typing detects naturally occurring ABO antibodies in patient plasma",
         "B) Antibody screen detects ABO antigens on patient cells like forward typing",
@@ -580,7 +580,7 @@
     },
     {
       "id": "blood_bank:medium:2",
-      "question": "A 39-year-old woman undergoes testing relevant to landsteiner law. Which of the following results is most consistent with the diagnosis?",
+      "question": "A 61-year-old woman undergoes testing for landsteiner law. Which result pattern is most consistent?",
       "options": [
         "A) People always have strong antibodies to every antigen they possess",
         "B) Reverse typing detects A and B antigens on patient RBCs like forward typing",
@@ -598,7 +598,7 @@
     },
     {
       "id": "blood_bank:medium:3",
-      "question": "Quality and method considerations for group O universal RBC are discussed. Which of the following is most accurate?",
+      "question": "Method selection for group O universal RBC is discussed. Which of the following is correct?",
       "options": [
         "A) AB RBCs are universal donor red cells always",
         "B) Group O RBCs lack A and B antigens and are universal donor RBCs in emergencies",
@@ -616,7 +616,7 @@
     },
     {
       "id": "blood_bank:medium:4",
-      "question": "A 45-year-old woman has an abnormal panel suggesting aB universal plasma. Which of the following is the most likely explanation?",
+      "question": "A 67-year-old woman has an abnormal panel. Which statement about AB universal plasma is most accurate?",
       "options": [
         "A) Group O plasma is universal donor plasma without ABO antibodies",
         "B) AB plasma lacks anti-A and anti-B and is universal donor plasma",
@@ -634,7 +634,7 @@
     },
     {
       "id": "blood_bank:medium:5",
-      "question": "A technologist reviews results related to rh D typing. Which of the following is most appropriate?",
+      "question": "Results related to rh D typing are verified before release. Which of the following is appropriate?",
       "options": [
         "A) Antibody screen detects ABO antigens on patient cells like forward typing",
         "B) RhD typing uses anti-D to detect D antigen on RBCs",
@@ -652,7 +652,7 @@
     },
     {
       "id": "blood_bank:medium:6",
-      "question": "A 46-year-old man is being evaluated for weak D testing. Which of the following laboratory conclusions is most correct?",
+      "question": "Exam findings raise a question about weak D testing. Which of the following is correct?",
       "options": [
         "A) AHG crossmatch only detects room-temperature ABO mismatches like immediate spin",
         "B) Weak D testing with AHG may be required for donors and selected patients when immediate-spin D is negative",
@@ -670,7 +670,7 @@
     },
     {
       "id": "blood_bank:medium:7",
-      "question": "In the laboratory assessment of rh Ig indication, which of the following is most accurate?",
+      "question": "In laboratory assessment of rh Ig indication, which of the following is correct?",
       "options": [
         "A) RhIg prevents anti-D formation in RhD-negative mothers exposed to D-positive fetal RBCs",
         "B) Antenatal RhIg is unnecessary if the antibody screen is currently negative always",
@@ -688,7 +688,7 @@
     },
     {
       "id": "blood_bank:medium:8",
-      "question": "A 60-year-old man has laboratory findings evaluated in the context of rh Ig dose FMH. Which of the following is most accurate?",
+      "question": "A 36-year-old man is examined, and rh Ig dose FMH is reviewed. Which of the following is correct?",
       "options": [
         "A) KB acid elution is always more precise than flow cytometry for FMH",
         "B) Antenatal RhIg is unnecessary if the antibody screen is currently negative always",
@@ -706,7 +706,7 @@
     },
     {
       "id": "blood_bank:medium:9",
-      "question": "A laboratory workup for antibody screen is reviewed. Which of the following interpretations is most correct?",
+      "question": "A specimen workup for antibody screen is interpreted. Which of the following is most accurate?",
       "options": [
         "A) Antibody screen uses IAT with screening cells to detect unexpected RBC alloantibodies",
         "B) Reverse typing detects A and B antigens on patient RBCs like forward typing",
@@ -724,7 +724,7 @@
     },
     {
       "id": "blood_bank:medium:10",
-      "question": "A 33-year-old woman undergoes testing relevant to antibody identification. Which of the following results is most consistent with the diagnosis?",
+      "question": "A 55-year-old woman undergoes testing for antibody identification. Which result pattern is most consistent?",
       "options": [
         "A) RhD typing detects ABO antibodies in reverse typing",
         "B) Antibody identification is identical to ABO reverse typing always",
@@ -742,7 +742,7 @@
     },
     {
       "id": "blood_bank:medium:11",
-      "question": "Quality and method considerations for antigram are discussed. Which of the following is most accurate?",
+      "question": "Method selection for antigram is discussed. Which of the following is correct?",
       "options": [
         "A) An antigram measures hemoglobin concentration of donor units",
         "B) Antibody screen detects ABO antigens on patient cells like forward typing",
@@ -760,7 +760,7 @@
     },
     {
       "id": "blood_bank:medium:12",
-      "question": "A 43-year-old woman has an abnormal panel suggesting immediate-spin crossmatch. Which of the following is the most likely explanation?",
+      "question": "A 65-year-old woman has an abnormal panel. Which statement about immediate-spin crossmatch is most accurate?",
       "options": [
         "A) AHG crossmatch only detects room-temperature ABO mismatches like immediate spin",
         "B) Immediate-spin crossmatch detects ABO incompatibility between donor cells and recipient plasma",
@@ -778,7 +778,7 @@
     },
     {
       "id": "blood_bank:medium:13",
-      "question": "A technologist reviews results related to aHG crossmatch. Which of the following is most appropriate?",
+      "question": "Results related to AHG crossmatch are verified before release. Which of the following is appropriate?",
       "options": [
         "A) AHG crossmatch only detects room-temperature ABO mismatches like immediate spin",
         "B) Immediate-spin crossmatch detects all clinically significant IgG alloantibodies at AHG",
@@ -796,7 +796,7 @@
     },
     {
       "id": "blood_bank:medium:14",
-      "question": "A 65-year-old woman is being evaluated for electronic crossmatch. Which of the following laboratory conclusions is most correct?",
+      "question": "A 41-year-old woman is evaluated with assays used in electronic crossmatch. Which of the following is correct?",
       "options": [
         "A) Computer crossmatch can replace serologic crossmatch when ABO is confirmed and antibody screen is negative",
         "B) Immediate-spin crossmatch detects all clinically significant IgG alloantibodies at AHG",
@@ -814,7 +814,7 @@
     },
     {
       "id": "blood_bank:medium:15",
-      "question": "In the laboratory assessment of major crossmatch, which of the following is most accurate?",
+      "question": "Which interpretation of major crossmatch is correct?",
       "options": [
         "A) Immediate-spin crossmatch detects all clinically significant IgG alloantibodies at AHG",
         "B) Major crossmatch tests donor plasma with recipient RBCs as its definition",
@@ -832,7 +832,7 @@
     },
     {
       "id": "blood_bank:medium:16",
-      "question": "A 54-year-old man has laboratory findings evaluated in the context of dAT transfusion workup. Which of the following is most accurate?",
+      "question": "A 30-year-old man has lab results reviewed for DAT transfusion workup. Which of the following is correct?",
       "options": [
         "A) DAT detects in-vivo coating of RBCs useful in hemolytic transfusion reaction workups",
         "B) Antibody screen detects ABO antigens on patient cells like forward typing",
@@ -850,7 +850,7 @@
     },
     {
       "id": "blood_bank:medium:17",
-      "question": "A laboratory workup for acute ABO HTR is reviewed. Which of the following interpretations is most correct?",
+      "question": "A specimen workup for acute ABO HTR is interpreted. Which of the following is most accurate?",
       "options": [
         "A) Cryo ABO incompatibility always causes acute intravascular HTR like ABO RBC mismatch",
         "B) Acute hemolytic transfusion reaction from ABO mismatch causes intravascular hemolysis and can be fatal",
@@ -868,7 +868,7 @@
     },
     {
       "id": "blood_bank:medium:18",
-      "question": "A 67-year-old woman undergoes testing relevant to delayed HTR. Which of the following results is most consistent with the diagnosis?",
+      "question": "A 43-year-old woman undergoes testing for delayed HTR. Which result pattern is most consistent?",
       "options": [
         "A) Acute ABO HTR is identical to mild allergic urticaria always",
         "B) Delayed HTR occurs during the transfusion from ABO mismatch always",
@@ -886,7 +886,7 @@
     },
     {
       "id": "blood_bank:medium:19",
-      "question": "Quality and method considerations for febrile nonhemolytic are discussed. Which of the following is most accurate?",
+      "question": "Method selection for febrile nonhemolytic is discussed. Which of the following is correct?",
       "options": [
         "A) Febrile nonhemolytic reactions are identical to acute ABO intravascular hemolysis",
         "B) Acute ABO HTR is identical to mild allergic urticaria always",
@@ -904,7 +904,7 @@
     },
     {
       "id": "blood_bank:medium:20",
-      "question": "A 40-year-old man has an abnormal panel suggesting allergic transfusion. Which of the following is the most likely explanation?",
+      "question": "A 62-year-old man has an abnormal panel. Which statement about allergic transfusion is most accurate?",
       "options": [
         "A) Acute ABO HTR is identical to mild allergic urticaria always",
         "B) Washing RBCs prevents TA-GVHD like irradiation",
@@ -922,7 +922,7 @@
     },
     {
       "id": "blood_bank:medium:21",
-      "question": "A technologist reviews results related to TRALI. Which of the following is most appropriate?",
+      "question": "Results related to TRALI are verified before release. Which of the following is appropriate?",
       "options": [
         "A) Acute ABO HTR is identical to mild allergic urticaria always",
         "B) TACO is identical to TRALI immune lung injury always",
@@ -940,7 +940,7 @@
     },
     {
       "id": "blood_bank:medium:22",
-      "question": "A 40-year-old man is being evaluated for TACO. Which of the following laboratory conclusions is most correct?",
+      "question": "A 62-year-old man is evaluated with assays used in TACO. Which of the following is correct?",
       "options": [
         "A) Acute ABO HTR is identical to mild allergic urticaria always",
         "B) TRALI is identical to TACO volume overload always",
@@ -958,7 +958,7 @@
     },
     {
       "id": "blood_bank:medium:23",
-      "question": "In the laboratory assessment of bacterial platelets, which of the following is most accurate?",
+      "question": "In laboratory assessment of bacterial platelets, which of the following is correct?",
       "options": [
         "A) Platelet refractoriness is always solved by giving more random ABO-incompatible plasma",
         "B) Bacterial contamination of platelets is a major infectious risk due to room-temperature storage",
@@ -976,7 +976,7 @@
     },
     {
       "id": "blood_bank:medium:24",
-      "question": "A 30-year-old man has laboratory findings evaluated in the context of cMV reduced-risk. Which of the following is most accurate?",
+      "question": "A 52-year-old man has lab results reviewed for CMV reduced-risk. Which of the following is correct?",
       "options": [
         "A) Leukoreduced or CMV-seronegative products reduce CMV transmission to at-risk patients",
         "B) Weak D testing is never relevant for blood donors",
@@ -994,7 +994,7 @@
     },
     {
       "id": "blood_bank:medium:25",
-      "question": "A laboratory workup for irradiation products is reviewed. Which of the following interpretations is most correct?",
+      "question": "A specimen workup for irradiation products is interpreted. Which of the following is most accurate?",
       "options": [
         "A) Major crossmatch tests donor plasma with recipient RBCs as its definition",
         "B) Washing RBCs prevents TA-GVHD like irradiation",
@@ -1012,7 +1012,7 @@
     },
     {
       "id": "blood_bank:medium:26",
-      "question": "A 31-year-old woman undergoes testing relevant to washed RBCs. Which of the following results is most consistent with the diagnosis?",
+      "question": "A 53-year-old woman undergoes testing for washed RBCs. Which result pattern is most consistent?",
       "options": [
         "A) Washing RBCs removes plasma proteins for severe allergic reactions or some IgA-deficient patients",
         "B) Irradiation removes potassium and prevents allergic reactions as its purpose",
@@ -1030,7 +1030,7 @@
     },
     {
       "id": "blood_bank:medium:27",
-      "question": "Quality and method considerations for leukoreduction are discussed. Which of the following is most accurate?",
+      "question": "Method selection for leukoreduction is discussed. Which of the following is correct?",
       "options": [
         "A) IUT prefers whole blood group AB D-positive random units",
         "B) Leukoreduction filters remove WBCs reducing FNHTRs, CMV risk, and HLA alloimmunization",
@@ -1048,7 +1048,7 @@
     },
     {
       "id": "blood_bank:medium:28",
-      "question": "A 29-year-old woman has an abnormal panel suggesting massive transfusion. Which of the following is the most likely explanation?",
+      "question": "A 51-year-old woman has an abnormal panel. Which statement about massive transfusion is most accurate?",
       "options": [
         "A) Whole blood is always superior for every elective anemia without bleeding",
         "B) Blood for MTP should be microwaved in plastic cups routinely",
@@ -1066,7 +1066,7 @@
     },
     {
       "id": "blood_bank:medium:29",
-      "question": "A technologist reviews results related to emergency O-negative. Which of the following is most appropriate?",
+      "question": "Results related to emergency O-negative are verified before release. Which of the following is appropriate?",
       "options": [
         "A) Emergency release should use AB-negative RBCs as universal red cells",
         "B) Emergency release often uses O-negative RBCs for females of childbearing potential when type unknown",
@@ -1086,7 +1086,7 @@
   "hard": [
     {
       "id": "blood_bank:hard:0",
-      "question": "A 42-year-old man presents with findings that could fit more than one process often confused with aBO forward typing. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "A 64-year-old man presents with findings that overlap several diagnoses, including ABO forward typing. Which of the following is most accurate?",
       "options": [
         "A) Forward typing detects A and B antigens on patient RBCs with anti-A and anti-B",
         "B) Antibody screen detects ABO antigens on patient cells like forward typing",
@@ -1104,7 +1104,7 @@
     },
     {
       "id": "blood_bank:hard:1",
-      "question": "A 49-year-old woman is hospitalized with evolving features of aBO reverse typing. A common mimic remains possible. Which of the following is most likely?",
+      "question": "A 25-year-old woman is hospitalized with evolving ABO reverse typing. Which of the following is most accurate?",
       "options": [
         "A) Reverse typing detects A and B antigens on patient RBCs like forward typing",
         "B) Reverse typing detects naturally occurring ABO antibodies in patient plasma",
@@ -1122,7 +1122,7 @@
     },
     {
       "id": "blood_bank:hard:2",
-      "question": "A 39-year-old woman is evaluated for landsteiner law. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "A 61-year-old woman is evaluated for landsteiner law. Which of the following is the best interpretation?",
       "options": [
         "A) People always have strong antibodies to every antigen they possess",
         "B) Group O plasma is universal donor plasma without ABO antibodies",
@@ -1140,7 +1140,7 @@
     },
     {
       "id": "blood_bank:hard:3",
-      "question": "A 34-year-old man is evaluated for suspected group O universal RBC. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "A 56-year-old man has suspected group O universal RBC, and similar diagnoses remain possible. Which of the following is most accurate?",
       "options": [
         "A) Group O RBCs lack A and B antigens and are universal donor RBCs in emergencies",
         "B) AB RBCs are universal donor red cells always",
@@ -1158,7 +1158,7 @@
     },
     {
       "id": "blood_bank:hard:4",
-      "question": "Findings thought to represent aB universal plasma can be misread. Which of the following is most correct?",
+      "question": "Initial reading of the case suggested AB universal plasma. Which of the following is correct?",
       "options": [
         "A) AB plasma lacks anti-A and anti-B and is universal donor plasma",
         "B) Bombay phenotype is the same as ordinary group O with anti-A,B only",
@@ -1176,7 +1176,7 @@
     },
     {
       "id": "blood_bank:hard:5",
-      "question": "A 68-year-old man presents with rh D typing. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "A 44-year-old man presents with rh D typing. Which of the following best separates it from similar conditions?",
       "options": [
         "A) Forward typing detects ABO antibodies in plasma like reverse typing",
         "B) RhD typing uses anti-D to detect D antigen on RBCs",
@@ -1194,82 +1194,64 @@
     },
     {
       "id": "blood_bank:hard:6",
-      "question": "A complex case of weak D testing involving a 46-year-old man is reviewed on rounds. Which of the following is most accurate?",
+      "question": "A 25-year-old woman has progressive findings of rh Ig indication. Which of the following is most accurate?",
       "options": [
-        "A) Weak D testing with AHG may be required for donors and selected patients when immediate-spin D is negative",
-        "B) Immediate-spin crossmatch detects all clinically significant IgG alloantibodies at AHG",
-        "C) High-prevalence antibodies never cause hemolysis",
-        "D) Weak D testing is never relevant for blood donors"
+        "A) RhIg prevents anti-D formation in RhD-negative mothers exposed to D-positive fetal RBCs",
+        "B) One vial of RhIg always covers any FMH volume without testing",
+        "C) Antenatal RhIg is unnecessary if the antibody screen is currently negative always",
+        "D) RhIg treats already formed high-titer anti-D by neutralizing it completely always"
       ],
-      "answer": "A) Weak D testing with AHG may be required for donors and selected patients when immediate-spin D is negative",
-      "explanation": "Some D antigens react only at AHG phase. Therefore, the most accurate choice is: Weak D testing with AHG may be required for donors and selected patients when immediate-spin D is negative. Donor weak D detection prevents labeling D-negative incorrectly.",
+      "answer": "A) RhIg prevents anti-D formation in RhD-negative mothers exposed to D-positive fetal RBCs",
+      "explanation": "Passive anti-D suppresses maternal immunization after fetomaternal hemorrhage. Therefore, the most accurate choice is: RhIg prevents anti-D formation in RhD-negative mothers exposed to D-positive fetal RBCs. Once immunized with anti-D, RhIg does not erase alloimmunization.",
       "choice_explanations": {
-        "A": "Some D antigens react only at AHG phase. This matches the correct interpretation.",
+        "A": "Passive anti-D suppresses maternal immunization after fetomaternal hemorrhage. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Donor weak D detection prevents labeling D-negative incorrectly. It is less consistent than the correct choice."
+        "D": "Once immunized with anti-D, RhIg does not erase alloimmunization. It is less consistent than the correct choice."
       }
     },
     {
       "id": "blood_bank:hard:7",
-      "question": "A 49-year-old woman has progressive abnormalities attributed to rh Ig indication. Which of the following is most consistent with the clinical process?",
+      "question": "Careful review of rh Ig dose FMH is required. Which of the following is most accurate?",
       "options": [
-        "A) RhIg treats already formed high-titer anti-D by neutralizing it completely always",
-        "B) One vial of RhIg always covers any FMH volume without testing",
-        "C) Antenatal RhIg is unnecessary if the antibody screen is currently negative always",
-        "D) RhIg prevents anti-D formation in RhD-negative mothers exposed to D-positive fetal RBCs"
+        "A) One vial of RhIg always covers any FMH volume without testing",
+        "B) Antenatal RhIg is unnecessary if the antibody screen is currently negative always",
+        "C) KB acid elution is always more precise than flow cytometry for FMH",
+        "D) RhIg dose is increased when fetomaternal hemorrhage exceeds a standard vial coverage"
       ],
-      "answer": "D) RhIg prevents anti-D formation in RhD-negative mothers exposed to D-positive fetal RBCs",
-      "explanation": "Passive anti-D suppresses maternal immunization after fetomaternal hemorrhage. Therefore, the most accurate choice is: RhIg prevents anti-D formation in RhD-negative mothers exposed to D-positive fetal RBCs. Once immunized with anti-D, RhIg does not erase alloimmunization.",
+      "answer": "D) RhIg dose is increased when fetomaternal hemorrhage exceeds a standard vial coverage",
+      "explanation": "KB or flow quantitation guides additional vials when FMH is large. Therefore, the most accurate choice is: RhIg dose is increased when fetomaternal hemorrhage exceeds a standard vial coverage. Large FMH needs more than routine dosing.",
       "choice_explanations": {
-        "A": "Once immunized with anti-D, RhIg does not erase alloimmunization. It is less consistent than the correct choice.",
+        "A": "Large FMH needs more than routine dosing. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Passive anti-D suppresses maternal immunization after fetomaternal hemorrhage. This matches the correct interpretation."
+        "D": "KB or flow quantitation guides additional vials when FMH is large. This matches the correct interpretation."
       }
     },
     {
       "id": "blood_bank:hard:8",
-      "question": "A 60-year-old man presents with findings that could fit more than one process often confused with rh Ig dose FMH. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "A 64-year-old man is hospitalized with evolving antibody screen. Which of the following is most accurate?",
       "options": [
-        "A) Antenatal RhIg is unnecessary if the antibody screen is currently negative always",
-        "B) RhIg dose is increased when fetomaternal hemorrhage exceeds a standard vial coverage",
-        "C) One vial of RhIg always covers any FMH volume without testing",
-        "D) KB acid elution is always more precise than flow cytometry for FMH"
+        "A) Forward typing detects ABO antibodies in plasma like reverse typing",
+        "B) Antibody screen uses IAT with screening cells to detect unexpected RBC alloantibodies",
+        "C) Antibody screen detects ABO antigens on patient cells like forward typing",
+        "D) Reverse typing detects A and B antigens on patient RBCs like forward typing"
       ],
-      "answer": "B) RhIg dose is increased when fetomaternal hemorrhage exceeds a standard vial coverage",
-      "explanation": "KB or flow quantitation guides additional vials when FMH is large. Therefore, the most accurate choice is: RhIg dose is increased when fetomaternal hemorrhage exceeds a standard vial coverage. Large FMH needs more than routine dosing.",
+      "answer": "B) Antibody screen uses IAT with screening cells to detect unexpected RBC alloantibodies",
+      "explanation": "Patient plasma plus reagent O cells plus AHG reveals alloantibodies. Therefore, the most accurate choice is: Antibody screen uses IAT with screening cells to detect unexpected RBC alloantibodies. Forward typing detects antigens, not unexpected alloantibodies.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "KB or flow quantitation guides additional vials when FMH is large. This matches the correct interpretation.",
-        "C": "Large FMH needs more than routine dosing. It is less consistent than the correct choice.",
+        "B": "Patient plasma plus reagent O cells plus AHG reveals alloantibodies. This matches the correct interpretation.",
+        "C": "Forward typing detects antigens, not unexpected alloantibodies. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "blood_bank:hard:9",
-      "question": "A 42-year-old man is hospitalized with evolving features of antibody screen. A common mimic remains possible. Which of the following is most likely?",
+      "question": "A 55-year-old woman is evaluated for antibody identification. Which of the following is the best interpretation?",
       "options": [
-        "A) Reverse typing detects A and B antigens on patient RBCs like forward typing",
-        "B) Forward typing detects ABO antibodies in plasma like reverse typing",
-        "C) Antibody screen uses IAT with screening cells to detect unexpected RBC alloantibodies",
-        "D) Antibody screen detects ABO antigens on patient cells like forward typing"
-      ],
-      "answer": "C) Antibody screen uses IAT with screening cells to detect unexpected RBC alloantibodies",
-      "explanation": "Patient plasma plus reagent O cells plus AHG reveals alloantibodies. Therefore, the most accurate choice is: Antibody screen uses IAT with screening cells to detect unexpected RBC alloantibodies. Forward typing detects antigens, not unexpected alloantibodies.",
-      "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Patient plasma plus reagent O cells plus AHG reveals alloantibodies. This matches the correct interpretation.",
-        "D": "Forward typing detects antigens, not unexpected alloantibodies. It is less consistent than the correct choice."
-      }
-    },
-    {
-      "id": "blood_bank:hard:10",
-      "question": "A 33-year-old woman is evaluated for antibody identification. Which of the following is favored after comparison with frequent look-alikes?",
-      "options": [
-        "A) Neonates always reverse type with strong anti-A,B like adults",
-        "B) Antibody screen detects ABO antigens on patient cells like forward typing",
+        "A) Antibody screen detects ABO antigens on patient cells like forward typing",
+        "B) Neonates always reverse type with strong anti-A,B like adults",
         "C) Antibody panels identify specificity of alloantibodies using patterned reactive cells",
         "D) Antibody identification is identical to ABO reverse typing always"
       ],
@@ -1283,26 +1265,26 @@
       }
     },
     {
-      "id": "blood_bank:hard:11",
-      "question": "A 47-year-old woman is evaluated for suspected antigram. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "id": "blood_bank:hard:10",
+      "question": "A 69-year-old woman has suspected antigram, and similar diagnoses remain possible. Which of the following is most accurate?",
       "options": [
-        "A) An antigram lists antigen phenotypes of panel cells for antibody exclusion",
+        "A) Antibody screen detects ABO antigens on patient cells like forward typing",
         "B) Antigen typing reagents measure plasma antibody titers directly",
-        "C) An antigram measures hemoglobin concentration of donor units",
-        "D) Antibody identification is identical to ABO reverse typing always"
+        "C) An antigram lists antigen phenotypes of panel cells for antibody exclusion",
+        "D) An antigram measures hemoglobin concentration of donor units"
       ],
-      "answer": "A) An antigram lists antigen phenotypes of panel cells for antibody exclusion",
+      "answer": "C) An antigram lists antigen phenotypes of panel cells for antibody exclusion",
       "explanation": "Plus/minus antigen matrices guide ruling out alloantibodies. Therefore, the most accurate choice is: An antigram lists antigen phenotypes of panel cells for antibody exclusion. Hb content is a different product attribute.",
       "choice_explanations": {
-        "A": "Plus/minus antigen matrices guide ruling out alloantibodies. This matches the correct interpretation.",
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Hb content is a different product attribute. It is less consistent than the correct choice.",
-        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+        "C": "Plus/minus antigen matrices guide ruling out alloantibodies. This matches the correct interpretation.",
+        "D": "Hb content is a different product attribute. It is less consistent than the correct choice."
       }
     },
     {
-      "id": "blood_bank:hard:12",
-      "question": "Findings thought to represent immediate-spin crossmatch can be misread. Which of the following is most correct?",
+      "id": "blood_bank:hard:11",
+      "question": "Initial reading of the case suggested immediate-spin crossmatch. Which of the following is correct?",
       "options": [
         "A) Immediate-spin crossmatch detects ABO incompatibility between donor cells and recipient plasma",
         "B) AHG crossmatch only detects room-temperature ABO mismatches like immediate spin",
@@ -1319,98 +1301,98 @@
       }
     },
     {
-      "id": "blood_bank:hard:13",
-      "question": "A 49-year-old woman presents with aHG crossmatch. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "id": "blood_bank:hard:12",
+      "question": "A 25-year-old woman presents with AHG crossmatch. Which of the following best separates it from similar conditions?",
       "options": [
         "A) AHG crossmatch detects IgG alloantibody incompatibility after 37°C incubation",
         "B) Immediate-spin crossmatch detects all clinically significant IgG alloantibodies at AHG",
-        "C) Electronic crossmatch is acceptable with unresolved clinically significant alloantibodies",
-        "D) AHG crossmatch only detects room-temperature ABO mismatches like immediate spin"
+        "C) AHG crossmatch only detects room-temperature ABO mismatches like immediate spin",
+        "D) Electronic crossmatch is acceptable with unresolved clinically significant alloantibodies"
       ],
       "answer": "A) AHG crossmatch detects IgG alloantibody incompatibility after 37°C incubation",
       "explanation": "AHG reveals coating by clinically significant warm-reactive alloantibodies. Therefore, the most accurate choice is: AHG crossmatch detects IgG alloantibody incompatibility after 37°C incubation. IS crossmatch is the ABO-focused foil.",
       "choice_explanations": {
         "A": "AHG reveals coating by clinically significant warm-reactive alloantibodies. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "IS crossmatch is the ABO-focused foil. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "blood_bank:hard:13",
+      "question": "A difficult case of electronic crossmatch in a 41-year-old woman is reviewed. Which of the following is correct?",
+      "options": [
+        "A) Computer crossmatch can replace serologic crossmatch when ABO is confirmed and antibody screen is negative",
+        "B) Immediate-spin crossmatch detects all clinically significant IgG alloantibodies at AHG",
+        "C) Antibody screen detects ABO antigens on patient cells like forward typing",
+        "D) Electronic crossmatch is acceptable with unresolved clinically significant alloantibodies"
+      ],
+      "answer": "A) Computer crossmatch can replace serologic crossmatch when ABO is confirmed and antibody screen is negative",
+      "explanation": "Validated systems verify ABO and screen status before release. Therefore, the most accurate choice is: Computer crossmatch can replace serologic crossmatch when ABO is confirmed and antibody screen is negative. Alloimmunized patients need serologic AHG crossmatch.",
+      "choice_explanations": {
+        "A": "Validated systems verify ABO and screen status before release. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "IS crossmatch is the ABO-focused foil. It is less consistent than the correct choice."
+        "D": "Alloimmunized patients need serologic AHG crossmatch. It is less consistent than the correct choice."
       }
     },
     {
       "id": "blood_bank:hard:14",
-      "question": "A complex case of electronic crossmatch involving a 65-year-old woman is reviewed on rounds. Which of the following is most accurate?",
+      "question": "Which of the following is the best statement about major crossmatch?",
       "options": [
         "A) Immediate-spin crossmatch detects all clinically significant IgG alloantibodies at AHG",
-        "B) Electronic crossmatch is acceptable with unresolved clinically significant alloantibodies",
-        "C) Antibody screen detects ABO antigens on patient cells like forward typing",
-        "D) Computer crossmatch can replace serologic crossmatch when ABO is confirmed and antibody screen is negative"
+        "B) Major crossmatch tests donor plasma with recipient RBCs as its definition",
+        "C) Group O plasma is universal donor plasma without ABO antibodies",
+        "D) Major crossmatch tests donor RBCs with recipient plasma for incompatibility"
       ],
-      "answer": "D) Computer crossmatch can replace serologic crossmatch when ABO is confirmed and antibody screen is negative",
-      "explanation": "Validated systems verify ABO and screen status before release. Therefore, the most accurate choice is: Computer crossmatch can replace serologic crossmatch when ABO is confirmed and antibody screen is negative. Alloimmunized patients need serologic AHG crossmatch.",
+      "answer": "D) Major crossmatch tests donor RBCs with recipient plasma for incompatibility",
+      "explanation": "Recipient alloantibodies against donor antigens are the main transfusion risk. Therefore, the most accurate choice is: Major crossmatch tests donor RBCs with recipient plasma for incompatibility. Minor crossmatch is the reciprocal test.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Alloimmunized patients need serologic AHG crossmatch. It is less consistent than the correct choice.",
+        "B": "Minor crossmatch is the reciprocal test. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Validated systems verify ABO and screen status before release. This matches the correct interpretation."
+        "D": "Recipient alloantibodies against donor antigens are the main transfusion risk. This matches the correct interpretation."
       }
     },
     {
       "id": "blood_bank:hard:15",
-      "question": "A 59-year-old woman has progressive abnormalities attributed to major crossmatch. Which of the following is most consistent with the clinical process?",
+      "question": "A 30-year-old man presents with findings that overlap several diagnoses, including DAT transfusion workup. Which of the following is most accurate?",
       "options": [
-        "A) Immediate-spin crossmatch detects all clinically significant IgG alloantibodies at AHG",
-        "B) Major crossmatch tests donor RBCs with recipient plasma for incompatibility",
-        "C) Major crossmatch tests donor plasma with recipient RBCs as its definition",
-        "D) Group O plasma is universal donor plasma without ABO antibodies"
+        "A) Post-reaction workup only repeats the type and screen without DAT",
+        "B) DAT detects in-vivo coating of RBCs useful in hemolytic transfusion reaction workups",
+        "C) DAT replaces antibody screen for pretransfusion alloantibody detection always",
+        "D) Antibody screen detects ABO antigens on patient cells like forward typing"
       ],
-      "answer": "B) Major crossmatch tests donor RBCs with recipient plasma for incompatibility",
-      "explanation": "Recipient alloantibodies against donor antigens are the main transfusion risk. Therefore, the most accurate choice is: Major crossmatch tests donor RBCs with recipient plasma for incompatibility. Minor crossmatch is the reciprocal test.",
+      "answer": "B) DAT detects in-vivo coating of RBCs useful in hemolytic transfusion reaction workups",
+      "explanation": "AHG on post-transfusion patient cells shows immune coating. Therefore, the most accurate choice is: DAT detects in-vivo coating of RBCs useful in hemolytic transfusion reaction workups. Pretransfusion alloantibody detection is IAT screen.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Recipient alloantibodies against donor antigens are the main transfusion risk. This matches the correct interpretation.",
-        "C": "Minor crossmatch is the reciprocal test. It is less consistent than the correct choice.",
+        "B": "AHG on post-transfusion patient cells shows immune coating. This matches the correct interpretation.",
+        "C": "Pretransfusion alloantibody detection is IAT screen. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "blood_bank:hard:16",
-      "question": "A 54-year-old man presents with findings that could fit more than one process often confused with dAT transfusion workup. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "A 32-year-old man is hospitalized with evolving acute ABO HTR. Which of the following is most accurate?",
       "options": [
-        "A) Antibody screen detects ABO antigens on patient cells like forward typing",
-        "B) DAT replaces antibody screen for pretransfusion alloantibody detection always",
-        "C) Post-reaction workup only repeats the type and screen without DAT",
-        "D) DAT detects in-vivo coating of RBCs useful in hemolytic transfusion reaction workups"
+        "A) Cryo ABO incompatibility always causes acute intravascular HTR like ABO RBC mismatch",
+        "B) Acute ABO HTR is identical to mild allergic urticaria always",
+        "C) Delayed HTR occurs during the transfusion from ABO mismatch always",
+        "D) Acute hemolytic transfusion reaction from ABO mismatch causes intravascular hemolysis and can be fatal"
       ],
-      "answer": "D) DAT detects in-vivo coating of RBCs useful in hemolytic transfusion reaction workups",
-      "explanation": "AHG on post-transfusion patient cells shows immune coating. Therefore, the most accurate choice is: DAT detects in-vivo coating of RBCs useful in hemolytic transfusion reaction workups. Pretransfusion alloantibody detection is IAT screen.",
+      "answer": "D) Acute hemolytic transfusion reaction from ABO mismatch causes intravascular hemolysis and can be fatal",
+      "explanation": "Preformed isoagglutinins bind donor A/B antigens activating complement. Therefore, the most accurate choice is: Acute hemolytic transfusion reaction from ABO mismatch causes intravascular hemolysis and can be fatal. Allergic reactions are plasma protein hypersensitivity.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Pretransfusion alloantibody detection is IAT screen. It is less consistent than the correct choice.",
+        "B": "Allergic reactions are plasma protein hypersensitivity. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "AHG on post-transfusion patient cells shows immune coating. This matches the correct interpretation."
+        "D": "Preformed isoagglutinins bind donor A/B antigens activating complement. This matches the correct interpretation."
       }
     },
     {
       "id": "blood_bank:hard:17",
-      "question": "A 56-year-old man is hospitalized with evolving features of acute ABO HTR. A common mimic remains possible. Which of the following is most likely?",
-      "options": [
-        "A) Delayed HTR occurs during the transfusion from ABO mismatch always",
-        "B) Acute hemolytic transfusion reaction from ABO mismatch causes intravascular hemolysis and can be fatal",
-        "C) Acute ABO HTR is identical to mild allergic urticaria always",
-        "D) Cryo ABO incompatibility always causes acute intravascular HTR like ABO RBC mismatch"
-      ],
-      "answer": "B) Acute hemolytic transfusion reaction from ABO mismatch causes intravascular hemolysis and can be fatal",
-      "explanation": "Preformed isoagglutinins bind donor A/B antigens activating complement. Therefore, the most accurate choice is: Acute hemolytic transfusion reaction from ABO mismatch causes intravascular hemolysis and can be fatal. Allergic reactions are plasma protein hypersensitivity.",
-      "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Preformed isoagglutinins bind donor A/B antigens activating complement. This matches the correct interpretation.",
-        "C": "Allergic reactions are plasma protein hypersensitivity. It is less consistent than the correct choice.",
-        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
-      }
-    },
-    {
-      "id": "blood_bank:hard:18",
-      "question": "A 67-year-old woman is evaluated for delayed HTR. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "A 43-year-old woman is evaluated for delayed HTR. Which of the following is the best interpretation?",
       "options": [
         "A) Acute ABO HTR is identical to mild allergic urticaria always",
         "B) Delayed HTR from anamnestic alloantibody often causes extravascular hemolysis days later",
@@ -1427,208 +1409,226 @@
       }
     },
     {
-      "id": "blood_bank:hard:19",
-      "question": "A 33-year-old woman is evaluated for suspected febrile nonhemolytic. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "id": "blood_bank:hard:18",
+      "question": "A 55-year-old woman has suspected febrile nonhemolytic, and similar diagnoses remain possible. Which of the following is most accurate?",
       "options": [
-        "A) Febrile nonhemolytic reactions are identical to acute ABO intravascular hemolysis",
-        "B) Delayed HTR occurs during the transfusion from ABO mismatch always",
-        "C) Febrile nonhemolytic reactions often from leukocyte cytokines are mitigated by leukoreduction",
-        "D) Acute ABO HTR is identical to mild allergic urticaria always"
+        "A) Acute ABO HTR is identical to mild allergic urticaria always",
+        "B) Febrile nonhemolytic reactions often from leukocyte cytokines are mitigated by leukoreduction",
+        "C) Febrile nonhemolytic reactions are identical to acute ABO intravascular hemolysis",
+        "D) Delayed HTR occurs during the transfusion from ABO mismatch always"
       ],
-      "answer": "C) Febrile nonhemolytic reactions often from leukocyte cytokines are mitigated by leukoreduction",
+      "answer": "B) Febrile nonhemolytic reactions often from leukocyte cytokines are mitigated by leukoreduction",
       "explanation": "Donor leukocyte-derived cytokines trigger fever without hemolysis. Therefore, the most accurate choice is: Febrile nonhemolytic reactions often from leukocyte cytokines are mitigated by leukoreduction. Hemolytic reactions show hemolysis markers.",
       "choice_explanations": {
-        "A": "Hemolytic reactions show hemolysis markers. It is less consistent than the correct choice.",
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Donor leukocyte-derived cytokines trigger fever without hemolysis. This matches the correct interpretation.",
+        "C": "Hemolytic reactions show hemolysis markers. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "blood_bank:hard:19",
+      "question": "Initial reading of the case suggested allergic transfusion. Which of the following is correct?",
+      "options": [
+        "A) Allergic reactions always show hemoglobinemia like ABO HTR",
+        "B) Washing RBCs prevents TA-GVHD like irradiation",
+        "C) Allergic transfusion reactions range from urticaria to anaphylaxis especially with IgA deficiency risk",
+        "D) Acute ABO HTR is identical to mild allergic urticaria always"
+      ],
+      "answer": "C) Allergic transfusion reactions range from urticaria to anaphylaxis especially with IgA deficiency risk",
+      "explanation": "Plasma proteins trigger mast-cell responses in sensitized recipients. Therefore, the most accurate choice is: Allergic transfusion reactions range from urticaria to anaphylaxis especially with IgA deficiency risk. Hemolysis markers distinguish HTR.",
+      "choice_explanations": {
+        "A": "Hemolysis markers distinguish HTR. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Donor leukocyte-derived cytokines trigger fever without hemolysis. This matches the correct interpretation.",
+        "C": "Plasma proteins trigger mast-cell responses in sensitized recipients. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "blood_bank:hard:20",
-      "question": "Findings thought to represent allergic transfusion can be misread. Which of the following is most correct?",
+      "question": "A 30-year-old man presents with TRALI. Which of the following best separates it from similar conditions?",
       "options": [
-        "A) Allergic transfusion reactions range from urticaria to anaphylaxis especially with IgA deficiency risk",
-        "B) Washing RBCs prevents TA-GVHD like irradiation",
-        "C) Allergic reactions always show hemoglobinemia like ABO HTR",
-        "D) Acute ABO HTR is identical to mild allergic urticaria always"
-      ],
-      "answer": "A) Allergic transfusion reactions range from urticaria to anaphylaxis especially with IgA deficiency risk",
-      "explanation": "Plasma proteins trigger mast-cell responses in sensitized recipients. Therefore, the most accurate choice is: Allergic transfusion reactions range from urticaria to anaphylaxis especially with IgA deficiency risk. Hemolysis markers distinguish HTR.",
-      "choice_explanations": {
-        "A": "Plasma proteins trigger mast-cell responses in sensitized recipients. This matches the correct interpretation.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Hemolysis markers distinguish HTR. It is less consistent than the correct choice.",
-        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
-      }
-    },
-    {
-      "id": "blood_bank:hard:21",
-      "question": "A 54-year-old man presents with TRALI. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
-      "options": [
-        "A) Acute ABO HTR is identical to mild allergic urticaria always",
-        "B) TRALI is acute lung injury from donor antibodies or bioactive lipids causing noncardiogenic edema",
+        "A) TRALI is acute lung injury from donor antibodies or bioactive lipids causing noncardiogenic edema",
+        "B) Acute ABO HTR is identical to mild allergic urticaria always",
         "C) TRALI is identical to TACO volume overload always",
         "D) TACO is identical to TRALI immune lung injury always"
       ],
-      "answer": "B) TRALI is acute lung injury from donor antibodies or bioactive lipids causing noncardiogenic edema",
+      "answer": "A) TRALI is acute lung injury from donor antibodies or bioactive lipids causing noncardiogenic edema",
       "explanation": "Neutrophil activation in pulmonary capillaries injures endothelium. Therefore, the most accurate choice is: TRALI is acute lung injury from donor antibodies or bioactive lipids causing noncardiogenic edema. TACO is hydrostatic overload; TRALI is permeability injury.",
       "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Neutrophil activation in pulmonary capillaries injures endothelium. This matches the correct interpretation.",
+        "A": "Neutrophil activation in pulmonary capillaries injures endothelium. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "TACO is hydrostatic overload; TRALI is permeability injury. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
-      "id": "blood_bank:hard:22",
-      "question": "A complex case of TACO involving a 40-year-old man is reviewed on rounds. Which of the following is most accurate?",
+      "id": "blood_bank:hard:21",
+      "question": "A difficult case of TACO in a 62-year-old man is reviewed. Which of the following is correct?",
       "options": [
-        "A) TACO is transfusion-associated circulatory overload with cardiogenic pulmonary edema",
-        "B) TACO is identical to TRALI immune lung injury always",
-        "C) Acute ABO HTR is identical to mild allergic urticaria always",
+        "A) Acute ABO HTR is identical to mild allergic urticaria always",
+        "B) TACO is transfusion-associated circulatory overload with cardiogenic pulmonary edema",
+        "C) TACO is identical to TRALI immune lung injury always",
         "D) TRALI is identical to TACO volume overload always"
       ],
-      "answer": "A) TACO is transfusion-associated circulatory overload with cardiogenic pulmonary edema",
+      "answer": "B) TACO is transfusion-associated circulatory overload with cardiogenic pulmonary edema",
       "explanation": "Rapid volume rise causes hydrostatic edema. Therefore, the most accurate choice is: TACO is transfusion-associated circulatory overload with cardiogenic pulmonary edema. TRALI is permeability edema from inflammatory injury.",
       "choice_explanations": {
-        "A": "Rapid volume rise causes hydrostatic edema. This matches the correct interpretation.",
-        "B": "TRALI is permeability edema from inflammatory injury. It is less consistent than the correct choice.",
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Rapid volume rise causes hydrostatic edema. This matches the correct interpretation.",
+        "C": "TRALI is permeability edema from inflammatory injury. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "blood_bank:hard:22",
+      "question": "A 62-year-old man has progressive findings of bacterial platelets. Which of the following is most accurate?",
+      "options": [
+        "A) Bacterial contamination of platelets is a major infectious risk due to room-temperature storage",
+        "B) Bacterial contamination risk is highest for frozen plasma stored at −18°C always",
+        "C) Platelet refractoriness is always solved by giving more random ABO-incompatible plasma",
+        "D) Platelets never require bacterial risk-control strategies"
+      ],
+      "answer": "A) Bacterial contamination of platelets is a major infectious risk due to room-temperature storage",
+      "explanation": "Room-temperature platelet storage permits bacterial growth. Therefore, the most accurate choice is: Bacterial contamination of platelets is a major infectious risk due to room-temperature storage. Frozen plasma storage inhibits bacterial proliferation.",
+      "choice_explanations": {
+        "A": "Room-temperature platelet storage permits bacterial growth. This matches the correct interpretation.",
+        "B": "Frozen plasma storage inhibits bacterial proliferation. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "blood_bank:hard:23",
-      "question": "A 40-year-old man has progressive abnormalities attributed to bacterial platelets. Which of the following is most consistent with the clinical process?",
+      "question": "A 52-year-old man presents with findings that overlap several diagnoses, including CMV reduced-risk. Which of the following is most accurate?",
       "options": [
-        "A) Platelet refractoriness is always solved by giving more random ABO-incompatible plasma",
-        "B) Bacterial contamination risk is highest for frozen plasma stored at −18°C always",
-        "C) Bacterial contamination of platelets is a major infectious risk due to room-temperature storage",
-        "D) Platelets never require bacterial risk-control strategies"
-      ],
-      "answer": "C) Bacterial contamination of platelets is a major infectious risk due to room-temperature storage",
-      "explanation": "Room-temperature platelet storage permits bacterial growth. Therefore, the most accurate choice is: Bacterial contamination of platelets is a major infectious risk due to room-temperature storage. Frozen plasma storage inhibits bacterial proliferation.",
-      "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Frozen plasma storage inhibits bacterial proliferation. It is less consistent than the correct choice.",
-        "C": "Room-temperature platelet storage permits bacterial growth. This matches the correct interpretation.",
-        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
-      }
-    },
-    {
-      "id": "blood_bank:hard:24",
-      "question": "A 30-year-old man presents with findings that could fit more than one process often confused with cMV reduced-risk. Based on history, examination, and initial tests, which of the following is most likely?",
-      "options": [
-        "A) IUT prefers whole blood group AB D-positive random units",
-        "B) Weak D testing is never relevant for blood donors",
+        "A) Weak D testing is never relevant for blood donors",
+        "B) Warming blood to 37°C alone defines CMV-safe products",
         "C) Leukoreduced or CMV-seronegative products reduce CMV transmission to at-risk patients",
-        "D) Warming blood to 37°C alone defines CMV-safe products"
+        "D) IUT prefers whole blood group AB D-positive random units"
       ],
       "answer": "C) Leukoreduced or CMV-seronegative products reduce CMV transmission to at-risk patients",
       "explanation": "CMV is leukocyte-associated; removing WBCs lowers risk. Therefore, the most accurate choice is: Leukoreduced or CMV-seronegative products reduce CMV transmission to at-risk patients. Warming addresses hypothermia, not CMV.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Warming addresses hypothermia, not CMV. It is less consistent than the correct choice.",
         "C": "CMV is leukocyte-associated; removing WBCs lowers risk. This matches the correct interpretation.",
-        "D": "Warming addresses hypothermia, not CMV. It is less consistent than the correct choice."
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "blood_bank:hard:24",
+      "question": "A 51-year-old woman is hospitalized with evolving irradiation products. Which of the following is most accurate?",
+      "options": [
+        "A) Washing RBCs prevents TA-GVHD like irradiation",
+        "B) Major crossmatch tests donor plasma with recipient RBCs as its definition",
+        "C) Irradiation of cellular products prevents TA-GVHD in immunocompromised or related donors",
+        "D) Irradiation removes potassium and prevents allergic reactions as its purpose"
+      ],
+      "answer": "C) Irradiation of cellular products prevents TA-GVHD in immunocompromised or related donors",
+      "explanation": "Gamma or X-ray inactivates donor lymphocytes. Therefore, the most accurate choice is: Irradiation of cellular products prevents TA-GVHD in immunocompromised or related donors. Washing removes plasma; irradiation prevents TA-GVHD.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Gamma or X-ray inactivates donor lymphocytes. This matches the correct interpretation.",
+        "D": "Washing removes plasma; irradiation prevents TA-GVHD. It is less consistent than the correct choice."
       }
     },
     {
       "id": "blood_bank:hard:25",
-      "question": "A 29-year-old woman is hospitalized with evolving features of irradiation products. A common mimic remains possible. Which of the following is most likely?",
+      "question": "A 53-year-old woman is evaluated for washed RBCs. Which of the following is the best interpretation?",
       "options": [
         "A) Allergic reactions always show hemoglobinemia like ABO HTR",
-        "B) Irradiation removes potassium and prevents allergic reactions as its purpose",
-        "C) Washing RBCs prevents TA-GVHD like irradiation",
-        "D) Irradiation of cellular products prevents TA-GVHD in immunocompromised or related donors"
+        "B) Washing RBCs prevents TA-GVHD like irradiation",
+        "C) Irradiation removes potassium and prevents allergic reactions as its purpose",
+        "D) Washing RBCs removes plasma proteins for severe allergic reactions or some IgA-deficient patients"
       ],
-      "answer": "D) Irradiation of cellular products prevents TA-GVHD in immunocompromised or related donors",
-      "explanation": "Gamma or X-ray inactivates donor lymphocytes. Therefore, the most accurate choice is: Irradiation of cellular products prevents TA-GVHD in immunocompromised or related donors. Washing removes plasma; irradiation prevents TA-GVHD.",
+      "answer": "D) Washing RBCs removes plasma proteins for severe allergic reactions or some IgA-deficient patients",
+      "explanation": "Saline washing depletes supernatant plasma. Therefore, the most accurate choice is: Washing RBCs removes plasma proteins for severe allergic reactions or some IgA-deficient patients. Irradiation addresses lymphocyte viability.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Washing removes plasma; irradiation prevents TA-GVHD. It is less consistent than the correct choice.",
+        "B": "Irradiation addresses lymphocyte viability. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Gamma or X-ray inactivates donor lymphocytes. This matches the correct interpretation."
+        "D": "Saline washing depletes supernatant plasma. This matches the correct interpretation."
       }
     },
     {
       "id": "blood_bank:hard:26",
-      "question": "A 31-year-old woman is evaluated for washed RBCs. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "A 31-year-old woman has suspected leukoreduction, and similar diagnoses remain possible. Which of the following is most accurate?",
       "options": [
-        "A) Washing RBCs removes plasma proteins for severe allergic reactions or some IgA-deficient patients",
-        "B) Washing RBCs prevents TA-GVHD like irradiation",
-        "C) Irradiation removes potassium and prevents allergic reactions as its purpose",
-        "D) Allergic reactions always show hemoglobinemia like ABO HTR"
+        "A) Leukoreduction filters remove WBCs reducing FNHTRs, CMV risk, and HLA alloimmunization",
+        "B) Leukoreduction sterilizes units of all bacteria always",
+        "C) Autologous units are risk-free and skip all testing always",
+        "D) Platelet refractoriness is always solved by giving more random ABO-incompatible plasma"
       ],
-      "answer": "A) Washing RBCs removes plasma proteins for severe allergic reactions or some IgA-deficient patients",
-      "explanation": "Saline washing depletes supernatant plasma. Therefore, the most accurate choice is: Washing RBCs removes plasma proteins for severe allergic reactions or some IgA-deficient patients. Irradiation addresses lymphocyte viability.",
+      "answer": "A) Leukoreduction filters remove WBCs reducing FNHTRs, CMV risk, and HLA alloimmunization",
+      "explanation": "Physical removal of leukocytes lowers cytokine and antigen exposure. Therefore, the most accurate choice is: Leukoreduction filters remove WBCs reducing FNHTRs, CMV risk, and HLA alloimmunization. Bacteria may still contaminate products.",
       "choice_explanations": {
-        "A": "Saline washing depletes supernatant plasma. This matches the correct interpretation.",
-        "B": "Irradiation addresses lymphocyte viability. It is less consistent than the correct choice.",
+        "A": "Physical removal of leukocytes lowers cytokine and antigen exposure. This matches the correct interpretation.",
+        "B": "Bacteria may still contaminate products. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "blood_bank:hard:27",
-      "question": "A 55-year-old woman is evaluated for suspected leukoreduction. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "Initial reading of the case suggested massive transfusion. Which of the following is correct?",
       "options": [
-        "A) Leukoreduction filters remove WBCs reducing FNHTRs, CMV risk, and HLA alloimmunization",
-        "B) Directed family donations are always safer than volunteer units",
-        "C) Autologous units are risk-free and skip all testing always",
-        "D) Leukoreduction sterilizes units of all bacteria always"
+        "A) Massive transfusion protocols balance RBCs, plasma, and platelets to treat coagulopathy",
+        "B) Blood for MTP should be microwaved in plastic cups routinely",
+        "C) Whole blood is always superior for every elective anemia without bleeding",
+        "D) Massive transfusion should give only RBCs without plasma or platelets always"
       ],
-      "answer": "A) Leukoreduction filters remove WBCs reducing FNHTRs, CMV risk, and HLA alloimmunization",
-      "explanation": "Physical removal of leukocytes lowers cytokine and antigen exposure. Therefore, the most accurate choice is: Leukoreduction filters remove WBCs reducing FNHTRs, CMV risk, and HLA alloimmunization. Bacteria may still contaminate products.",
+      "answer": "A) Massive transfusion protocols balance RBCs, plasma, and platelets to treat coagulopathy",
+      "explanation": "Dilutional coagulopathy and consumption need component balance. Therefore, the most accurate choice is: Massive transfusion protocols balance RBCs, plasma, and platelets to treat coagulopathy. RBC-only strategies worsen coagulopathy.",
       "choice_explanations": {
-        "A": "Physical removal of leukocytes lowers cytokine and antigen exposure. This matches the correct interpretation.",
+        "A": "Dilutional coagulopathy and consumption need component balance. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Bacteria may still contaminate products. It is less consistent than the correct choice."
+        "D": "RBC-only strategies worsen coagulopathy. It is less consistent than the correct choice."
       }
     },
     {
       "id": "blood_bank:hard:28",
-      "question": "Findings thought to represent massive transfusion can be misread. Which of the following is most correct?",
+      "question": "A 33-year-old woman presents with emergency O-negative. Which of the following best separates it from similar conditions?",
       "options": [
-        "A) Blood for MTP should be microwaved in plastic cups routinely",
-        "B) Massive transfusion should give only RBCs without plasma or platelets always",
-        "C) Massive transfusion protocols balance RBCs, plasma, and platelets to treat coagulopathy",
-        "D) Whole blood is always superior for every elective anemia without bleeding"
+        "A) Plasma ABO type can be ignored because plasma lacks antibodies",
+        "B) Emergency release should use AB-negative RBCs as universal red cells",
+        "C) Emergency release often uses O-negative RBCs for females of childbearing potential when type unknown",
+        "D) AB RBCs are universal donor red cells always"
       ],
-      "answer": "C) Massive transfusion protocols balance RBCs, plasma, and platelets to treat coagulopathy",
-      "explanation": "Dilutional coagulopathy and consumption need component balance. Therefore, the most accurate choice is: Massive transfusion protocols balance RBCs, plasma, and platelets to treat coagulopathy. RBC-only strategies worsen coagulopathy.",
+      "answer": "C) Emergency release often uses O-negative RBCs for females of childbearing potential when type unknown",
+      "explanation": "O-neg lacks A/B and D antigens reducing immediate ABO/D harm. Therefore, the most accurate choice is: Emergency release often uses O-negative RBCs for females of childbearing potential when type unknown. AB cells express both A and B antigens.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "RBC-only strategies worsen coagulopathy. It is less consistent than the correct choice.",
-        "C": "Dilutional coagulopathy and consumption need component balance. This matches the correct interpretation.",
+        "B": "AB cells express both A and B antigens. It is less consistent than the correct choice.",
+        "C": "O-neg lacks A/B and D antigens reducing immediate ABO/D harm. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "blood_bank:hard:29",
-      "question": "A 57-year-old woman presents with emergency O-negative. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "A difficult case of type-specific switch in a 40-year-old man is reviewed. Which of the following is correct?",
       "options": [
-        "A) Plasma ABO type can be ignored because plasma lacks antibodies",
-        "B) Emergency release often uses O-negative RBCs for females of childbearing potential when type unknown",
-        "C) AB RBCs are universal donor red cells always",
-        "D) Emergency release should use AB-negative RBCs as universal red cells"
+        "A) Antibody screen detects ABO antigens on patient cells like forward typing",
+        "B) Switch to type-specific blood ASAP after typing and screening in emergencies",
+        "C) Autoadsorption is used primarily to type ABO reverse groups in newborns",
+        "D) Once O-neg is started, type-specific blood must never be used"
       ],
-      "answer": "B) Emergency release often uses O-negative RBCs for females of childbearing potential when type unknown",
-      "explanation": "O-neg lacks A/B and D antigens reducing immediate ABO/D harm. Therefore, the most accurate choice is: Emergency release often uses O-negative RBCs for females of childbearing potential when type unknown. AB cells express both A and B antigens.",
+      "answer": "B) Switch to type-specific blood ASAP after typing and screening in emergencies",
+      "explanation": "Conserves O-neg inventory and matches patient ABO when known. Therefore, the most accurate choice is: Switch to type-specific blood ASAP after typing and screening in emergencies. Type-specific is preferred when available.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "O-neg lacks A/B and D antigens reducing immediate ABO/D harm. This matches the correct interpretation.",
+        "B": "Conserves O-neg inventory and matches patient ABO when known. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "AB cells express both A and B antigens. It is less consistent than the correct choice."
+        "D": "Type-specific is preferred when available. It is less consistent than the correct choice."
       }
     }
   ],
   "extreme": [
     {
       "id": "blood_bank:extreme:0",
-      "question": "A 42-year-old man develops rapidly worsening features of aBO forward typing. Vital signs are unstable. Which of the following is most likely?",
+      "question": "A 64-year-old man with diabetes and hypertension becomes acutely unstable with ABO forward typing. Which of the following is most accurate?",
       "options": [
         "A) Antibody screen detects ABO antigens on patient cells like forward typing",
         "B) Forward typing detects ABO antibodies in plasma like reverse typing",
@@ -1646,7 +1646,7 @@
     },
     {
       "id": "blood_bank:extreme:1",
-      "question": "In the emergency department, a 49-year-old woman is critically ill with a syndrome centered on aBO reverse typing. Which of the following is most likely?",
+      "question": "In the emergency department, a 25-year-old woman is critically ill with ABO reverse typing. Which of the following is most accurate?",
       "options": [
         "A) Antibody screen detects ABO antigens on patient cells like forward typing",
         "B) Forward typing detects ABO antibodies in plasma like reverse typing",
@@ -1664,7 +1664,7 @@
     },
     {
       "id": "blood_bank:extreme:2",
-      "question": "A 39-year-old woman deteriorates overnight with landsteiner law. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "A 61-year-old woman worsens overnight with landsteiner law. Which of the following is most accurate?",
       "options": [
         "A) People always have strong antibodies to every antigen they possess",
         "B) Reverse typing detects A and B antigens on patient RBCs like forward typing",
@@ -1682,7 +1682,7 @@
     },
     {
       "id": "blood_bank:extreme:3",
-      "question": "A 34-year-old man develops life-threatening complications in the setting of group O universal RBC. Which of the following is most consistent with the clinical process?",
+      "question": "A 56-year-old man with diabetes and hypertension develops dangerous complications of group O universal RBC. Which of the following is correct?",
       "options": [
         "A) Group O plasma is universal donor plasma without ABO antibodies",
         "B) Group O RBCs lack A and B antigens and are universal donor RBCs in emergencies",
@@ -1700,7 +1700,7 @@
     },
     {
       "id": "blood_bank:extreme:4",
-      "question": "A rapidly progressive presentation of aB universal plasma is reviewed in a 45-year-old woman. Which of the following is most likely?",
+      "question": "A 67-year-old woman has a rapidly worsening course of AB universal plasma. Which of the following is most accurate?",
       "options": [
         "A) AB plasma lacks anti-A and anti-B and is universal donor plasma",
         "B) Bombay phenotype is the same as ordinary group O with anti-A,B only",
@@ -1718,7 +1718,7 @@
     },
     {
       "id": "blood_bank:extreme:5",
-      "question": "A 68-year-old man requires urgent decision-making for rh D typing. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Urgent management decisions for rh D typing are required in a 44-year-old man. Which of the following is most accurate?",
       "options": [
         "A) Forward typing detects ABO antibodies in plasma like reverse typing",
         "B) Reverse typing detects A and B antigens on patient RBCs like forward typing",
@@ -1736,7 +1736,7 @@
     },
     {
       "id": "blood_bank:extreme:6",
-      "question": "A 46-year-old man has refractory abnormalities due to weak D testing. Which of the following is the most accurate interpretation?",
+      "question": "Which of the following is the central point about weak D testing?",
       "options": [
         "A) High-prevalence antibodies never cause hemolysis",
         "B) Weak D testing is never relevant for blood donors",
@@ -1754,7 +1754,7 @@
     },
     {
       "id": "blood_bank:extreme:7",
-      "question": "A critical-care presentation involving rh Ig indication in a 49-year-old woman is discussed. Which of the following is most likely?",
+      "question": "In intensive care, a 25-year-old woman is treated for rh Ig indication. Which of the following is most accurate?",
       "options": [
         "A) RhIg prevents anti-D formation in RhD-negative mothers exposed to D-positive fetal RBCs",
         "B) Antenatal RhIg is unnecessary if the antibody screen is currently negative always",
@@ -1772,7 +1772,7 @@
     },
     {
       "id": "blood_bank:extreme:8",
-      "question": "A 60-year-old man with diabetes and hypertension develops rapidly worsening features of rh Ig dose FMH. Vital signs are unstable. Which of the following is most likely?",
+      "question": "Careful reasoning about rh Ig dose FMH is required. Which of the following is most accurate?",
       "options": [
         "A) One vial of RhIg always covers any FMH volume without testing",
         "B) Antenatal RhIg is unnecessary if the antibody screen is currently negative always",
@@ -1790,7 +1790,7 @@
     },
     {
       "id": "blood_bank:extreme:9",
-      "question": "In the emergency department, a 42-year-old man is critically ill with a syndrome centered on antibody screen. Which of the following is most likely?",
+      "question": "In the emergency department, a 64-year-old man is critically ill with antibody screen. Which of the following is most accurate?",
       "options": [
         "A) Antibody screen detects ABO antigens on patient cells like forward typing",
         "B) Reverse typing detects A and B antigens on patient RBCs like forward typing",
@@ -1808,7 +1808,7 @@
     },
     {
       "id": "blood_bank:extreme:10",
-      "question": "A 33-year-old woman deteriorates overnight with antibody identification. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "A 55-year-old woman worsens overnight with antibody identification. Which of the following is most accurate?",
       "options": [
         "A) Antibody screen detects ABO antigens on patient cells like forward typing",
         "B) Antibody panels identify specificity of alloantibodies using patterned reactive cells",
@@ -1826,7 +1826,7 @@
     },
     {
       "id": "blood_bank:extreme:11",
-      "question": "A 47-year-old woman develops life-threatening complications in the setting of antigram. Which of the following is most consistent with the clinical process?",
+      "question": "A 69-year-old woman with diabetes and hypertension develops dangerous complications of antigram. Which of the following is correct?",
       "options": [
         "A) Antigen typing reagents measure plasma antibody titers directly",
         "B) Antibody screen detects ABO antigens on patient cells like forward typing",
@@ -1844,7 +1844,7 @@
     },
     {
       "id": "blood_bank:extreme:12",
-      "question": "A rapidly progressive presentation of immediate-spin crossmatch is reviewed in a 43-year-old woman. Which of the following is most likely?",
+      "question": "A 65-year-old woman has a rapidly worsening course of immediate-spin crossmatch. Which of the following is most accurate?",
       "options": [
         "A) AHG crossmatch only detects room-temperature ABO mismatches like immediate spin",
         "B) Major crossmatch tests donor plasma with recipient RBCs as its definition",
@@ -1862,7 +1862,7 @@
     },
     {
       "id": "blood_bank:extreme:13",
-      "question": "A 49-year-old woman requires urgent decision-making for aHG crossmatch. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Urgent management decisions for AHG crossmatch are required in a 25-year-old woman. Which of the following is most accurate?",
       "options": [
         "A) Electronic crossmatch is acceptable with unresolved clinically significant alloantibodies",
         "B) AHG crossmatch only detects room-temperature ABO mismatches like immediate spin",
@@ -1880,7 +1880,7 @@
     },
     {
       "id": "blood_bank:extreme:14",
-      "question": "A 65-year-old woman has refractory abnormalities due to electronic crossmatch. Which of the following is the most accurate interpretation?",
+      "question": "A 41-year-old woman has refractory electronic crossmatch. Which of the following is correct?",
       "options": [
         "A) Computer crossmatch can replace serologic crossmatch when ABO is confirmed and antibody screen is negative",
         "B) Immediate-spin crossmatch detects all clinically significant IgG alloantibodies at AHG",
@@ -1898,7 +1898,7 @@
     },
     {
       "id": "blood_bank:extreme:15",
-      "question": "A critical-care presentation involving major crossmatch in a 59-year-old woman is discussed. Which of the following is most likely?",
+      "question": "Which statement about major crossmatch is most accurate?",
       "options": [
         "A) Major crossmatch tests donor RBCs with recipient plasma for incompatibility",
         "B) Immediate-spin crossmatch detects all clinically significant IgG alloantibodies at AHG",
@@ -1916,7 +1916,7 @@
     },
     {
       "id": "blood_bank:extreme:16",
-      "question": "A 54-year-old man with diabetes and hypertension develops rapidly worsening features of dAT transfusion workup. Vital signs are unstable. Which of the following is most likely?",
+      "question": "A 30-year-old man becomes acutely unstable with DAT transfusion workup. Which of the following is most accurate?",
       "options": [
         "A) DAT detects in-vivo coating of RBCs useful in hemolytic transfusion reaction workups",
         "B) Antibody screen detects ABO antigens on patient cells like forward typing",
@@ -1934,7 +1934,7 @@
     },
     {
       "id": "blood_bank:extreme:17",
-      "question": "In the emergency department, a 56-year-old man is critically ill with a syndrome centered on acute ABO HTR. Which of the following is most likely?",
+      "question": "In the emergency department, a 32-year-old man is critically ill with acute ABO HTR. Which of the following is most accurate?",
       "options": [
         "A) Cryo ABO incompatibility always causes acute intravascular HTR like ABO RBC mismatch",
         "B) Acute hemolytic transfusion reaction from ABO mismatch causes intravascular hemolysis and can be fatal",
@@ -1952,7 +1952,7 @@
     },
     {
       "id": "blood_bank:extreme:18",
-      "question": "A 67-year-old woman deteriorates overnight with delayed HTR. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "A 43-year-old woman worsens overnight with delayed HTR. Which of the following is most accurate?",
       "options": [
         "A) Delayed HTR from anamnestic alloantibody often causes extravascular hemolysis days later",
         "B) Delayed HTR occurs during the transfusion from ABO mismatch always",
@@ -1970,7 +1970,7 @@
     },
     {
       "id": "blood_bank:extreme:19",
-      "question": "A 33-year-old woman develops life-threatening complications in the setting of febrile nonhemolytic. Which of the following is most consistent with the clinical process?",
+      "question": "A 55-year-old woman with diabetes and hypertension develops dangerous complications of febrile nonhemolytic. Which of the following is correct?",
       "options": [
         "A) TRALI is identical to TACO volume overload always",
         "B) Acute ABO HTR is identical to mild allergic urticaria always",
@@ -1988,7 +1988,7 @@
     },
     {
       "id": "blood_bank:extreme:20",
-      "question": "A rapidly progressive presentation of allergic transfusion is reviewed in a 40-year-old man. Which of the following is most likely?",
+      "question": "A 62-year-old man has a rapidly worsening course of allergic transfusion. Which of the following is most accurate?",
       "options": [
         "A) Allergic reactions always show hemoglobinemia like ABO HTR",
         "B) Allergic transfusion reactions range from urticaria to anaphylaxis especially with IgA deficiency risk",
@@ -2006,7 +2006,7 @@
     },
     {
       "id": "blood_bank:extreme:21",
-      "question": "A 54-year-old man requires urgent decision-making for TRALI. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Urgent management decisions for TRALI are required in a 30-year-old man. Which of the following is most accurate?",
       "options": [
         "A) TRALI is acute lung injury from donor antibodies or bioactive lipids causing noncardiogenic edema",
         "B) Acute ABO HTR is identical to mild allergic urticaria always",
@@ -2024,7 +2024,7 @@
     },
     {
       "id": "blood_bank:extreme:22",
-      "question": "A 40-year-old man has refractory abnormalities due to TACO. Which of the following is the most accurate interpretation?",
+      "question": "A 62-year-old man has refractory TACO. Which of the following is correct?",
       "options": [
         "A) TACO is identical to TRALI immune lung injury always",
         "B) TACO is transfusion-associated circulatory overload with cardiogenic pulmonary edema",
@@ -2042,7 +2042,7 @@
     },
     {
       "id": "blood_bank:extreme:23",
-      "question": "A critical-care presentation involving bacterial platelets in a 40-year-old man is discussed. Which of the following is most likely?",
+      "question": "In intensive care, a 62-year-old man is treated for bacterial platelets. Which of the following is most accurate?",
       "options": [
         "A) Platelets never require bacterial risk-control strategies",
         "B) Bacterial contamination of platelets is a major infectious risk due to room-temperature storage",
@@ -2060,7 +2060,7 @@
     },
     {
       "id": "blood_bank:extreme:24",
-      "question": "A 30-year-old man develops rapidly worsening features of cMV reduced-risk. Vital signs are unstable. Which of the following is most likely?",
+      "question": "A 52-year-old man with diabetes and hypertension becomes acutely unstable with CMV reduced-risk. Which of the following is most accurate?",
       "options": [
         "A) Leukoreduced or CMV-seronegative products reduce CMV transmission to at-risk patients",
         "B) Weak D testing is never relevant for blood donors",
@@ -2078,7 +2078,7 @@
     },
     {
       "id": "blood_bank:extreme:25",
-      "question": "In the emergency department, a 29-year-old woman is critically ill with a syndrome centered on irradiation products. Which of the following is most likely?",
+      "question": "In the emergency department, a 51-year-old woman is critically ill with irradiation products. Which of the following is most accurate?",
       "options": [
         "A) Irradiation of cellular products prevents TA-GVHD in immunocompromised or related donors",
         "B) Allergic reactions always show hemoglobinemia like ABO HTR",
@@ -2096,7 +2096,7 @@
     },
     {
       "id": "blood_bank:extreme:26",
-      "question": "A 31-year-old woman deteriorates overnight with washed RBCs. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "A 53-year-old woman worsens overnight with washed RBCs. Which of the following is most accurate?",
       "options": [
         "A) Washing RBCs removes plasma proteins for severe allergic reactions or some IgA-deficient patients",
         "B) Washing RBCs prevents TA-GVHD like irradiation",
@@ -2114,7 +2114,7 @@
     },
     {
       "id": "blood_bank:extreme:27",
-      "question": "A 55-year-old woman with diabetes and hypertension develops life-threatening complications in the setting of leukoreduction. Which of the following is most consistent with the clinical process?",
+      "question": "A 31-year-old woman develops dangerous complications of leukoreduction. Which of the following is correct?",
       "options": [
         "A) Autologous units are risk-free and skip all testing always",
         "B) Leukoreduction filters remove WBCs reducing FNHTRs, CMV risk, and HLA alloimmunization",
@@ -2132,7 +2132,7 @@
     },
     {
       "id": "blood_bank:extreme:28",
-      "question": "A rapidly progressive presentation of massive transfusion is reviewed in a 29-year-old woman. Which of the following is most likely?",
+      "question": "A 51-year-old woman has a rapidly worsening course of massive transfusion. Which of the following is most accurate?",
       "options": [
         "A) Massive transfusion should give only RBCs without plasma or platelets always",
         "B) Blood for MTP should be microwaved in plastic cups routinely",
@@ -2150,7 +2150,7 @@
     },
     {
       "id": "blood_bank:extreme:29",
-      "question": "A 57-year-old woman requires urgent decision-making for emergency O-negative. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Urgent management decisions for emergency O-negative are required in a 33-year-old woman. Which of the following is most accurate?",
       "options": [
         "A) AB RBCs are universal donor red cells always",
         "B) Emergency release should use AB-negative RBCs as universal red cells",

@@ -2,7 +2,7 @@
   "easy": [
     {
       "id": "histopathology:easy:0",
-      "question": "Which of the following best characterizes formalin fixation?",
+      "question": "Which of the following is true about formalin fixation?",
       "options": [
         "A) 10% NBF formalin crosslinks proteins preserving morphology",
         "B) Formalin freezes tissue without crosslinking like LN2",
@@ -20,7 +20,7 @@
     },
     {
       "id": "histopathology:easy:1",
-      "question": "Which finding is most consistent with fixation duration?",
+      "question": "Which finding matches fixation duration?",
       "options": [
         "A) Adequate formalin fixation improves morphology and IHC",
         "B) Formalin freezes tissue without crosslinking like LN2",
@@ -38,7 +38,7 @@
     },
     {
       "id": "histopathology:easy:2",
-      "question": "Which of the following statements about gross margins is most accurate?",
+      "question": "Which statement regarding gross margins is correct?",
       "options": [
         "A) Negative margins mean tumor never existed",
         "B) Grossing documents orientation and inked margins",
@@ -56,7 +56,7 @@
     },
     {
       "id": "histopathology:easy:3",
-      "question": "In patients with frozen section, which of the following is most correct?",
+      "question": "In clinical examination related to frozen section, which of the following is correct?",
       "options": [
         "A) OCT replaces formalin for permanent paraffin blocks",
         "B) Frozen section gives rapid intraoperative diagnosis on fresh tissue",
@@ -74,7 +74,7 @@
     },
     {
       "id": "histopathology:easy:4",
-      "question": "Which of the following is the hallmark feature of h&E stain?",
+      "question": "Which of the following best describes h&E stain?",
       "options": [
         "A) Hematoxylin stains nuclei blue; eosin stains cytoplasm pink",
         "B) Trichrome is identical to Gram stain",
@@ -92,7 +92,7 @@
     },
     {
       "id": "histopathology:easy:5",
-      "question": "Which description most accurately matches PAS?",
+      "question": "Select the correct interpretation for PAS.",
       "options": [
         "A) PAS-D makes glycogen stain more intensely always",
         "B) PAS is the primary AFB mycobacterial stain",
@@ -110,7 +110,7 @@
     },
     {
       "id": "histopathology:easy:6",
-      "question": "Regarding PAS-D, which of the following is most accurate?",
+      "question": "Which of the following applies to PAS-D?",
       "options": [
         "A) Noncaseating granulomas prove active TB always",
         "B) Diastase digests glycogen distinguishing it from other PAS+ material",
@@ -128,7 +128,7 @@
     },
     {
       "id": "histopathology:easy:7",
-      "question": "Which of the following mechanisms best explains mucicarmine?",
+      "question": "Which statement about mucicarmine is accurate?",
       "options": [
         "A) Alcian blue stains neutral lipids like Oil Red O",
         "B) Hematoxylin stains cytoplasm pink; eosin stains nuclei blue",
@@ -146,7 +146,7 @@
     },
     {
       "id": "histopathology:easy:8",
-      "question": "Which of the following best characterizes alcian blue?",
+      "question": "Which of the following is true about alcian blue?",
       "options": [
         "A) Alcian blue stains neutral lipids like Oil Red O",
         "B) Hematoxylin stains cytoplasm pink; eosin stains nuclei blue",
@@ -164,7 +164,7 @@
     },
     {
       "id": "histopathology:easy:9",
-      "question": "Which finding is most consistent with trichrome?",
+      "question": "Which finding matches trichrome?",
       "options": [
         "A) Trichrome is identical to Gram stain",
         "B) Masson trichrome stains collagen blue/green versus muscle",
@@ -182,7 +182,7 @@
     },
     {
       "id": "histopathology:easy:10",
-      "question": "Which of the following statements about reticulin is most accurate?",
+      "question": "Which statement regarding reticulin is correct?",
       "options": [
         "A) Trephine replaces flow and aspirate always",
         "B) Reticulin replaces Congo red for amyloid",
@@ -200,7 +200,7 @@
     },
     {
       "id": "histopathology:easy:11",
-      "question": "In patients with congo red, which of the following is most correct?",
+      "question": "In clinical examination related to congo red, which of the following is correct?",
       "options": [
         "A) Aspergillus in tissue always equals noninvasive colonization",
         "B) Reticulin replaces Congo red for amyloid",
@@ -218,7 +218,7 @@
     },
     {
       "id": "histopathology:easy:12",
-      "question": "Which of the following is the hallmark feature of oil Red O?",
+      "question": "Which of the following best describes oil Red O?",
       "options": [
         "A) Frozen morphology always exceeds paraffin detail",
         "B) Oil Red O stains neutral lipids on frozen sections",
@@ -236,7 +236,7 @@
     },
     {
       "id": "histopathology:easy:13",
-      "question": "Which description most accurately matches prussian blue?",
+      "question": "Select the correct interpretation for prussian blue.",
       "options": [
         "A) Trichrome is identical to Gram stain",
         "B) Tissue Gram is as sensitive as culture always",
@@ -254,7 +254,7 @@
     },
     {
       "id": "histopathology:easy:14",
-      "question": "Regarding aFB tissue, which of the following is most accurate?",
+      "question": "Which of the following applies to AFB tissue?",
       "options": [
         "A) H&E alone reliably shows all mycobacteria bright red",
         "B) ZN/auramine detect acid-fast organisms in tissue",
@@ -272,7 +272,7 @@
     },
     {
       "id": "histopathology:easy:15",
-      "question": "Which of the following mechanisms best explains GMS?",
+      "question": "Which statement about GMS is accurate?",
       "options": [
         "A) Congo red uptake without birefringence equals amyloid always",
         "B) GMS stains fungal walls black",
@@ -290,7 +290,7 @@
     },
     {
       "id": "histopathology:easy:16",
-      "question": "Which of the following best characterizes warthin-Starry?",
+      "question": "Which of the following is true about warthin-Starry?",
       "options": [
         "A) Warthin-Starry can highlight spirochetes and Helicobacter",
         "B) Tumor budding equals lymph node count exactly",
@@ -308,7 +308,7 @@
     },
     {
       "id": "histopathology:easy:17",
-      "question": "Which finding is most consistent with tissue Gram?",
+      "question": "Which finding matches tissue Gram?",
       "options": [
         "A) Tissue Gram stains show bacteria with limited sensitivity",
         "B) Place all tissue in formalin immediately always",
@@ -326,7 +326,7 @@
     },
     {
       "id": "histopathology:easy:18",
-      "question": "Which of the following statements about IHC is most accurate?",
+      "question": "Which statement regarding IHC is correct?",
       "options": [
         "A) MMR IHC and MSI PCR are unrelated never-used together",
         "B) IHC sequences DNA mutations like NGS",
@@ -344,7 +344,7 @@
     },
     {
       "id": "histopathology:easy:19",
-      "question": "In patients with cytokeratin, which of the following is most correct?",
+      "question": "In clinical examination related to cytokeratin, which of the following is correct?",
       "options": [
         "A) CD45 positivity proves carcinoma always",
         "B) CK positivity proves lymphoma always",
@@ -362,7 +362,7 @@
     },
     {
       "id": "histopathology:easy:20",
-      "question": "Which of the following is the hallmark feature of CD45?",
+      "question": "Which of the following best describes CD45?",
       "options": [
         "A) p16 positivity proves HPV in all tumor sites always",
         "B) CK positivity proves lymphoma always",
@@ -380,7 +380,7 @@
     },
     {
       "id": "histopathology:easy:21",
-      "question": "Which description most accurately matches S100?",
+      "question": "Select the correct interpretation for S100.",
       "options": [
         "A) S100 is sensitive for melanocytic and nerve sheath tumors",
         "B) Melan-A/HMB-45 diagnose only squamous carcinoma",
@@ -398,7 +398,7 @@
     },
     {
       "id": "histopathology:easy:22",
-      "question": "Regarding melan-A/HMB45, which of the following is most accurate?",
+      "question": "Which of the following applies to melan-A/HMB45?",
       "options": [
         "A) S100 is specific only for carcinoma",
         "B) Melan-A/HMB-45 support melanocytic differentiation",
@@ -416,7 +416,7 @@
     },
     {
       "id": "histopathology:easy:23",
-      "question": "Which of the following mechanisms best explains TTF-1?",
+      "question": "Which statement about TTF-1 is accurate?",
       "options": [
         "A) TTF-1 supports lung adenocarcinoma and thyroid origin",
         "B) p40 positivity proves adenocarcinoma",
@@ -434,7 +434,7 @@
     },
     {
       "id": "histopathology:easy:24",
-      "question": "Which of the following best characterizes CDX2?",
+      "question": "Which of the following is true about CDX2?",
       "options": [
         "A) CDX2 supports intestinal/colorectal differentiation",
         "B) CDX2 diagnoses primary lung squamous carcinoma",
@@ -452,7 +452,7 @@
     },
     {
       "id": "histopathology:easy:25",
-      "question": "Which finding is most consistent with PSA IHC?",
+      "question": "Which finding matches PSA IHC?",
       "options": [
         "A) PSA IHC supports prostatic origin",
         "B) PSA positivity proves urothelial carcinoma",
@@ -470,7 +470,7 @@
     },
     {
       "id": "histopathology:easy:26",
-      "question": "Which of the following statements about ER/PR is most accurate?",
+      "question": "Which statement regarding ER/PR is correct?",
       "options": [
         "A) ER/PR are irrelevant cytoplasmic stains",
         "B) MMR IHC and MSI PCR are unrelated never-used together",
@@ -488,7 +488,7 @@
     },
     {
       "id": "histopathology:easy:27",
-      "question": "In patients with HER2, which of the following is most correct?",
+      "question": "In clinical examination related to HER2, which of the following is correct?",
       "options": [
         "A) HER2 IHC/ISH guide anti-HER2 therapy",
         "B) MMR IHC and MSI PCR are unrelated never-used together",
@@ -506,7 +506,7 @@
     },
     {
       "id": "histopathology:easy:28",
-      "question": "Which of the following is the hallmark feature of ki-67?",
+      "question": "Which of the following best describes ki-67?",
       "options": [
         "A) Alcian blue stains neutral lipids like Oil Red O",
         "B) Ki-67 is a proliferation index marker",
@@ -524,7 +524,7 @@
     },
     {
       "id": "histopathology:easy:29",
-      "question": "Which description most accurately matches p53 IHC?",
+      "question": "Select the correct interpretation for p53 IHC.",
       "options": [
         "A) p53 overexpression always equals wild-type TP53",
         "B) Decalcification always improves DNA yield",
@@ -544,7 +544,7 @@
   "medium": [
     {
       "id": "histopathology:medium:0",
-      "question": "A 62-year-old man has laboratory findings evaluated in the context of formalin fixation. Which of the following is most accurate?",
+      "question": "A 60-year-old man is examined, and formalin fixation is reviewed. Which of the following is correct?",
       "options": [
         "A) Zero fixation always yields the best IHC for all antigens",
         "B) Formalin freezes tissue without crosslinking like LN2",
@@ -562,7 +562,7 @@
     },
     {
       "id": "histopathology:medium:1",
-      "question": "A laboratory workup for fixation duration is reviewed. Which of the following interpretations is most correct?",
+      "question": "While evaluating a 67-year-old woman, attention turns to fixation duration. Which of the following is most accurate?",
       "options": [
         "A) Formalin always improves flow viability",
         "B) Zero fixation always yields the best IHC for all antigens",
@@ -580,7 +580,7 @@
     },
     {
       "id": "histopathology:medium:2",
-      "question": "A 38-year-old man undergoes testing relevant to gross margins. Which of the following results is most consistent with the diagnosis?",
+      "question": "A 36-year-old man has findings requiring interpretation of gross margins. Which of the following is correct?",
       "options": [
         "A) Formalin freezes tissue without crosslinking like LN2",
         "B) Negative margins mean tumor never existed",
@@ -598,7 +598,7 @@
     },
     {
       "id": "histopathology:medium:3",
-      "question": "Quality and method considerations for frozen section are discussed. Which of the following is most accurate?",
+      "question": "In a 64-year-old man, which statement about frozen section is correct?",
       "options": [
         "A) Frozen section gives rapid intraoperative diagnosis on fresh tissue",
         "B) Touch preps replace permanent histology",
@@ -616,7 +616,7 @@
     },
     {
       "id": "histopathology:medium:4",
-      "question": "A 60-year-old man has an abnormal panel suggesting h&E stain. Which of the following is the most likely explanation?",
+      "question": "Clinical testing related to h&E stain is performed. Which of the following is correct?",
       "options": [
         "A) Hematoxylin stains nuclei blue; eosin stains cytoplasm pink",
         "B) Trichrome is identical to Gram stain",
@@ -634,7 +634,7 @@
     },
     {
       "id": "histopathology:medium:5",
-      "question": "A technologist reviews results related to PAS. Which of the following is most appropriate?",
+      "question": "A 31-year-old woman undergoes assessment involving PAS. Which of the following is most accurate?",
       "options": [
         "A) PAS highlights glycogen and basement membranes magenta",
         "B) PAS is the primary AFB mycobacterial stain",
@@ -652,7 +652,7 @@
     },
     {
       "id": "histopathology:medium:6",
-      "question": "A 36-year-old man is being evaluated for PAS-D. Which of the following laboratory conclusions is most correct?",
+      "question": "Exam findings raise a question about PAS-D. Which of the following is correct?",
       "options": [
         "A) PAS-D makes glycogen stain more intensely always",
         "B) PAS is the primary AFB mycobacterial stain",
@@ -670,7 +670,7 @@
     },
     {
       "id": "histopathology:medium:7",
-      "question": "In the laboratory assessment of mucicarmine, which of the following is most accurate?",
+      "question": "Which interpretation of mucicarmine is correct?",
       "options": [
         "A) Mucicarmine stains epithelial mucin and Cryptococcus capsule",
         "B) Mucicarmine is specific only for mycobacteria",
@@ -688,7 +688,7 @@
     },
     {
       "id": "histopathology:medium:8",
-      "question": "A 38-year-old man has laboratory findings evaluated in the context of alcian blue. Which of the following is most accurate?",
+      "question": "A 36-year-old man is examined, and alcian blue is reviewed. Which of the following is correct?",
       "options": [
         "A) Hematoxylin stains cytoplasm pink; eosin stains nuclei blue",
         "B) Alcian blue stains acid mucins at defined pH",
@@ -706,7 +706,7 @@
     },
     {
       "id": "histopathology:medium:9",
-      "question": "A laboratory workup for trichrome is reviewed. Which of the following interpretations is most correct?",
+      "question": "While evaluating a 47-year-old woman, attention turns to trichrome. Which of the following is most accurate?",
       "options": [
         "A) Prussian blue is the Gram counterstain",
         "B) Masson trichrome stains collagen blue/green versus muscle",
@@ -724,7 +724,7 @@
     },
     {
       "id": "histopathology:medium:10",
-      "question": "A 56-year-old man undergoes testing relevant to reticulin. Which of the following results is most consistent with the diagnosis?",
+      "question": "A 54-year-old man has findings requiring interpretation of reticulin. Which of the following is correct?",
       "options": [
         "A) Reticulin replaces Congo red for amyloid",
         "B) Reticulin outlines architecture in liver/marrow fibrosis",
@@ -742,7 +742,7 @@
     },
     {
       "id": "histopathology:medium:11",
-      "question": "Quality and method considerations for congo red are discussed. Which of the following is most accurate?",
+      "question": "In a 61-year-old woman, which statement about congo red is correct?",
       "options": [
         "A) Congo red amyloid shows apple-green birefringence under polarized light",
         "B) Aspergillus in tissue always equals noninvasive colonization",
@@ -760,7 +760,7 @@
     },
     {
       "id": "histopathology:medium:12",
-      "question": "A 70-year-old man has an abnormal panel suggesting oil Red O. Which of the following is the most likely explanation?",
+      "question": "Clinical testing related to oil Red O is performed. Which of the following is correct?",
       "options": [
         "A) Alcian blue stains neutral lipids like Oil Red O",
         "B) Frozen morphology always exceeds paraffin detail",
@@ -778,7 +778,7 @@
     },
     {
       "id": "histopathology:medium:13",
-      "question": "A technologist reviews results related to prussian blue. Which of the following is most appropriate?",
+      "question": "A 67-year-old woman undergoes assessment involving prussian blue. Which of the following is most accurate?",
       "options": [
         "A) Prussian blue is the Gram counterstain",
         "B) Prussian blue detects ferric iron in tissue",
@@ -796,7 +796,7 @@
     },
     {
       "id": "histopathology:medium:14",
-      "question": "A 59-year-old woman is being evaluated for aFB tissue. Which of the following laboratory conclusions is most correct?",
+      "question": "Exam findings raise a question about AFB tissue. Which of the following is correct?",
       "options": [
         "A) ZN/auramine detect acid-fast organisms in tissue",
         "B) Congo red uptake without birefringence equals amyloid always",
@@ -814,7 +814,7 @@
     },
     {
       "id": "histopathology:medium:15",
-      "question": "In the laboratory assessment of GMS, which of the following is most accurate?",
+      "question": "Which interpretation of GMS is correct?",
       "options": [
         "A) Alcian blue stains neutral lipids like Oil Red O",
         "B) GMS stains fungal walls black",
@@ -832,7 +832,7 @@
     },
     {
       "id": "histopathology:medium:16",
-      "question": "A 65-year-old woman has laboratory findings evaluated in the context of warthin-Starry. Which of the following is most accurate?",
+      "question": "A 63-year-old woman is examined, and warthin-Starry is reviewed. Which of the following is correct?",
       "options": [
         "A) Reticulin replaces Congo red for amyloid",
         "B) MMR IHC and MSI PCR are unrelated never-used together",
@@ -850,7 +850,7 @@
     },
     {
       "id": "histopathology:medium:17",
-      "question": "A laboratory workup for tissue Gram is reviewed. Which of the following interpretations is most correct?",
+      "question": "While evaluating a 53-year-old woman, attention turns to tissue Gram. Which of the following is most accurate?",
       "options": [
         "A) Place all tissue in formalin immediately always",
         "B) Prussian blue is the Gram counterstain",
@@ -868,7 +868,7 @@
     },
     {
       "id": "histopathology:medium:18",
-      "question": "A 32-year-old man undergoes testing relevant to IHC. Which of the following results is most consistent with the diagnosis?",
+      "question": "A 30-year-old man has findings requiring interpretation of IHC. Which of the following is correct?",
       "options": [
         "A) IHC localizes antigens in tissue with antibodies",
         "B) IHC sequences DNA mutations like NGS",
@@ -886,7 +886,7 @@
     },
     {
       "id": "histopathology:medium:19",
-      "question": "Quality and method considerations for cytokeratin are discussed. Which of the following is most accurate?",
+      "question": "In a 67-year-old woman, which statement about cytokeratin is correct?",
       "options": [
         "A) p16 positivity proves HPV in all tumor sites always",
         "B) Cytokeratins mark epithelial differentiation",
@@ -904,7 +904,7 @@
     },
     {
       "id": "histopathology:medium:20",
-      "question": "A 67-year-old woman has an abnormal panel suggesting CD45. Which of the following is the most likely explanation?",
+      "question": "Clinical testing related to CD45 is performed. Which of the following is correct?",
       "options": [
         "A) CK positivity proves lymphoma always",
         "B) CD45 marks most hematopoietic cells/lymphomas",
@@ -922,7 +922,7 @@
     },
     {
       "id": "histopathology:medium:21",
-      "question": "A technologist reviews results related to S100. Which of the following is most appropriate?",
+      "question": "A 26-year-old man undergoes assessment involving S100. Which of the following is most accurate?",
       "options": [
         "A) SOX10 diagnoses only hepatocellular carcinoma",
         "B) Melan-A/HMB-45 diagnose only squamous carcinoma",
@@ -940,7 +940,7 @@
     },
     {
       "id": "histopathology:medium:22",
-      "question": "A 40-year-old man is being evaluated for melan-A/HMB45. Which of the following laboratory conclusions is most correct?",
+      "question": "Exam findings raise a question about melan-A/HMB45. Which of the following is correct?",
       "options": [
         "A) CDX2 diagnoses primary lung squamous carcinoma",
         "B) Melan-A/HMB-45 diagnose only squamous carcinoma",
@@ -958,7 +958,7 @@
     },
     {
       "id": "histopathology:medium:23",
-      "question": "In the laboratory assessment of TTF-1, which of the following is most accurate?",
+      "question": "Which interpretation of TTF-1 is correct?",
       "options": [
         "A) p40 positivity proves adenocarcinoma",
         "B) TTF-1 supports lung adenocarcinoma and thyroid origin",
@@ -976,7 +976,7 @@
     },
     {
       "id": "histopathology:medium:24",
-      "question": "A 49-year-old woman has laboratory findings evaluated in the context of CDX2. Which of the following is most accurate?",
+      "question": "A 47-year-old woman is examined, and CDX2 is reviewed. Which of the following is correct?",
       "options": [
         "A) Melan-A/HMB-45 diagnose only squamous carcinoma",
         "B) PSA positivity proves urothelial carcinoma",
@@ -994,7 +994,7 @@
     },
     {
       "id": "histopathology:medium:25",
-      "question": "A laboratory workup for PSA IHC is reviewed. Which of the following interpretations is most correct?",
+      "question": "While evaluating a 25-year-old woman, attention turns to PSA IHC. Which of the following is most accurate?",
       "options": [
         "A) PSA IHC supports prostatic origin",
         "B) PSA positivity proves urothelial carcinoma",
@@ -1012,7 +1012,7 @@
     },
     {
       "id": "histopathology:medium:26",
-      "question": "A 38-year-old man undergoes testing relevant to ER/PR. Which of the following results is most consistent with the diagnosis?",
+      "question": "A 36-year-old man has findings requiring interpretation of ER/PR. Which of the following is correct?",
       "options": [
         "A) ER/PR are irrelevant cytoplasmic stains",
         "B) ER/PR nuclear IHC guide breast endocrine therapy",
@@ -1030,7 +1030,7 @@
     },
     {
       "id": "histopathology:medium:27",
-      "question": "Quality and method considerations for HER2 are discussed. Which of the following is most accurate?",
+      "question": "In a 68-year-old man, which statement about HER2 is correct?",
       "options": [
         "A) HER2 status is irrelevant to therapy",
         "B) HER2 IHC/ISH guide anti-HER2 therapy",
@@ -1048,7 +1048,7 @@
     },
     {
       "id": "histopathology:medium:28",
-      "question": "A 52-year-old man has an abnormal panel suggesting ki-67. Which of the following is the most likely explanation?",
+      "question": "Clinical testing related to ki-67 is performed. Which of the following is correct?",
       "options": [
         "A) Ki-67 is a proliferation index marker",
         "B) ER/PR are irrelevant cytoplasmic stains",
@@ -1066,7 +1066,7 @@
     },
     {
       "id": "histopathology:medium:29",
-      "question": "A technologist reviews results related to p53 IHC. Which of the following is most appropriate?",
+      "question": "A 53-year-old woman undergoes assessment involving p53 IHC. Which of the following is most accurate?",
       "options": [
         "A) p53 overexpression always equals wild-type TP53",
         "B) Intact MMR IHC always proves Lynch syndrome",
@@ -1086,7 +1086,7 @@
   "hard": [
     {
       "id": "histopathology:hard:0",
-      "question": "A 62-year-old man presents with findings that could fit more than one process often confused with formalin fixation. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "Careful review of formalin fixation is required. Which of the following is most accurate?",
       "options": [
         "A) Formalin freezes tissue without crosslinking like LN2",
         "B) Zero fixation always yields the best IHC for all antigens",
@@ -1104,7 +1104,7 @@
     },
     {
       "id": "histopathology:hard:1",
-      "question": "A 69-year-old woman is hospitalized with evolving features of fixation duration. A common mimic remains possible. Which of the following is most likely?",
+      "question": "Two similar explanations for fixation duration are compared. Which of the following is correct?",
       "options": [
         "A) Formalin freezes tissue without crosslinking like LN2",
         "B) Decalcification always improves DNA yield",
@@ -1122,7 +1122,7 @@
     },
     {
       "id": "histopathology:hard:2",
-      "question": "A 38-year-old man is evaluated for gross margins. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "In a detailed discussion of gross margins, which of the following is most accurate?",
       "options": [
         "A) Grossing documents orientation and inked margins",
         "B) Formalin freezes tissue without crosslinking like LN2",
@@ -1140,7 +1140,7 @@
     },
     {
       "id": "histopathology:hard:3",
-      "question": "A 66-year-old man is evaluated for suspected frozen section. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "Which of the following correctly distinguishes key points about frozen section?",
       "options": [
         "A) Frozen morphology always exceeds paraffin detail",
         "B) Frozen section gives rapid intraoperative diagnosis on fresh tissue",
@@ -1158,7 +1158,7 @@
     },
     {
       "id": "histopathology:hard:4",
-      "question": "Findings thought to represent h&E stain can be misread. Which of the following is most correct?",
+      "question": "Careful interpretation of h&E stain is required. Which of the following is correct?",
       "options": [
         "A) Trichrome is identical to Gram stain",
         "B) Hematoxylin stains nuclei blue; eosin stains cytoplasm pink",
@@ -1176,7 +1176,7 @@
     },
     {
       "id": "histopathology:hard:5",
-      "question": "A 33-year-old woman presents with PAS. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "Which statement about PAS is most accurate?",
       "options": [
         "A) PAS highlights glycogen and basement membranes magenta",
         "B) Trichrome is identical to Gram stain",
@@ -1194,66 +1194,48 @@
     },
     {
       "id": "histopathology:hard:6",
-      "question": "A complex case of PAS-D involving a 36-year-old man is reviewed on rounds. Which of the following is most accurate?",
+      "question": "Which of the following is the best statement about mucicarmine?",
       "options": [
-        "A) PAS is the primary AFB mycobacterial stain",
-        "B) Noncaseating granulomas prove active TB always",
-        "C) PAS-D makes glycogen stain more intensely always",
-        "D) Diastase digests glycogen distinguishing it from other PAS+ material"
+        "A) Alcian blue stains neutral lipids like Oil Red O",
+        "B) Hematoxylin stains cytoplasm pink; eosin stains nuclei blue",
+        "C) Mucicarmine is specific only for mycobacteria",
+        "D) Mucicarmine stains epithelial mucin and Cryptococcus capsule"
       ],
-      "answer": "D) Diastase digests glycogen distinguishing it from other PAS+ material",
-      "explanation": "Diastase digests glycogen distinguishing it from other PAS+ material — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Diastase digests glycogen distinguishing it from other PAS+ material. PAS-D makes glycogen stain more intensely always — that  confuses a closely related concept; the correct statement remains: Diastase digests glycogen distinguishing it from other PAS+ material.",
+      "answer": "D) Mucicarmine stains epithelial mucin and Cryptococcus capsule",
+      "explanation": "Mucicarmine stains epithelial mucin and Cryptococcus capsule — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Mucicarmine stains epithelial mucin and Cryptococcus capsule. Mucicarmine is specific only for mycobacteria — that  confuses a closely related concept; the correct statement remains: Mucicarmine stains epithelial mucin and Cryptococcus capsule.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "PAS-D makes glycogen stain more intensely always — that near-miss confuses a closely related concept; the correct statement remains: Diastase digests glycogen distinguishing it from other PAS+ material. It is less consistent than the correct choice.",
-        "D": "Diastase digests glycogen distinguishing it from other PAS+ material — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
+        "C": "Mucicarmine is specific only for mycobacteria — that near-miss confuses a closely related concept; the correct statement remains: Mucicarmine stains epithelial mucin and Cryptococcus capsule. It is less consistent than the correct choice.",
+        "D": "Mucicarmine stains epithelial mucin and Cryptococcus capsule — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
       }
     },
     {
       "id": "histopathology:hard:7",
-      "question": "A 31-year-old woman has progressive abnormalities attributed to mucicarmine. Which of the following is most consistent with the clinical process?",
+      "question": "Careful review of alcian blue is required. Which of the following is most accurate?",
       "options": [
-        "A) Mucicarmine stains epithelial mucin and Cryptococcus capsule",
+        "A) Alcian blue stains acid mucins at defined pH",
         "B) Hematoxylin stains cytoplasm pink; eosin stains nuclei blue",
-        "C) Alcian blue stains neutral lipids like Oil Red O",
-        "D) Mucicarmine is specific only for mycobacteria"
+        "C) Oil Red O works equally on routine paraffin without special handling",
+        "D) Alcian blue stains neutral lipids like Oil Red O"
       ],
-      "answer": "A) Mucicarmine stains epithelial mucin and Cryptococcus capsule",
-      "explanation": "Mucicarmine stains epithelial mucin and Cryptococcus capsule — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Mucicarmine stains epithelial mucin and Cryptococcus capsule. Mucicarmine is specific only for mycobacteria — that  confuses a closely related concept; the correct statement remains: Mucicarmine stains epithelial mucin and Cryptococcus capsule.",
+      "answer": "A) Alcian blue stains acid mucins at defined pH",
+      "explanation": "Alcian blue stains acid mucins at defined pH — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Alcian blue stains acid mucins at defined pH. Alcian blue stains neutral lipids like Oil Red O — that  confuses a closely related concept; the correct statement remains: Alcian blue stains acid mucins at defined pH.",
       "choice_explanations": {
-        "A": "Mucicarmine stains epithelial mucin and Cryptococcus capsule — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "A": "Alcian blue stains acid mucins at defined pH — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Mucicarmine is specific only for mycobacteria — that near-miss confuses a closely related concept; the correct statement remains: Mucicarmine stains epithelial mucin and Cryptococcus capsule. It is less consistent than the correct choice."
+        "D": "Alcian blue stains neutral lipids like Oil Red O — that near-miss confuses a closely related concept; the correct statement remains: Alcian blue stains acid mucins at defined pH. It is less consistent than the correct choice."
       }
     },
     {
       "id": "histopathology:hard:8",
-      "question": "A 38-year-old man presents with findings that could fit more than one process often confused with alcian blue. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "Two similar explanations for trichrome are compared. Which of the following is correct?",
       "options": [
-        "A) Hematoxylin stains cytoplasm pink; eosin stains nuclei blue",
-        "B) Alcian blue stains neutral lipids like Oil Red O",
-        "C) Alcian blue stains acid mucins at defined pH",
-        "D) Oil Red O works equally on routine paraffin without special handling"
-      ],
-      "answer": "C) Alcian blue stains acid mucins at defined pH",
-      "explanation": "Alcian blue stains acid mucins at defined pH — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Alcian blue stains acid mucins at defined pH. Alcian blue stains neutral lipids like Oil Red O — that  confuses a closely related concept; the correct statement remains: Alcian blue stains acid mucins at defined pH.",
-      "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Alcian blue stains neutral lipids like Oil Red O — that near-miss confuses a closely related concept; the correct statement remains: Alcian blue stains acid mucins at defined pH. It is less consistent than the correct choice.",
-        "C": "Alcian blue stains acid mucins at defined pH — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
-      }
-    },
-    {
-      "id": "histopathology:hard:9",
-      "question": "A 49-year-old woman is hospitalized with evolving features of trichrome. A common mimic remains possible. Which of the following is most likely?",
-      "options": [
-        "A) Hematoxylin stains cytoplasm pink; eosin stains nuclei blue",
+        "A) PAS-D makes glycogen stain more intensely always",
         "B) Trichrome is identical to Gram stain",
         "C) Masson trichrome stains collagen blue/green versus muscle",
-        "D) Alcian blue stains neutral lipids like Oil Red O"
+        "D) Hematoxylin stains cytoplasm pink; eosin stains nuclei blue"
       ],
       "answer": "C) Masson trichrome stains collagen blue/green versus muscle",
       "explanation": "Masson trichrome stains collagen blue/green versus muscle — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Masson trichrome stains collagen blue/green versus muscle. Trichrome is identical to Gram stain — that  confuses a closely related concept; the correct statement remains: Masson trichrome stains collagen blue/green versus muscle.",
@@ -1265,206 +1247,188 @@
       }
     },
     {
-      "id": "histopathology:hard:10",
-      "question": "A 56-year-old man is evaluated for reticulin. Which of the following is favored after comparison with frequent look-alikes?",
+      "id": "histopathology:hard:9",
+      "question": "In a detailed discussion of reticulin, which of the following is most accurate?",
       "options": [
-        "A) Reticulin replaces Congo red for amyloid",
-        "B) Reticulin outlines architecture in liver/marrow fibrosis",
-        "C) Congo red uptake without birefringence equals amyloid always",
+        "A) Congo red uptake without birefringence equals amyloid always",
+        "B) Reticulin replaces Congo red for amyloid",
+        "C) Reticulin outlines architecture in liver/marrow fibrosis",
         "D) Trephine replaces flow and aspirate always"
       ],
-      "answer": "B) Reticulin outlines architecture in liver/marrow fibrosis",
+      "answer": "C) Reticulin outlines architecture in liver/marrow fibrosis",
       "explanation": "Reticulin outlines architecture in liver/marrow fibrosis — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Reticulin outlines architecture in liver/marrow fibrosis. Reticulin replaces Congo red for amyloid — that  confuses a closely related concept; the correct statement remains: Reticulin outlines architecture in liver/marrow fibrosis.",
       "choice_explanations": {
-        "A": "Reticulin replaces Congo red for amyloid — that near-miss confuses a closely related concept; the correct statement remains: Reticulin outlines architecture in liver/marrow fibrosis. It is less consistent than the correct choice.",
-        "B": "Reticulin outlines architecture in liver/marrow fibrosis — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Reticulin replaces Congo red for amyloid — that near-miss confuses a closely related concept; the correct statement remains: Reticulin outlines architecture in liver/marrow fibrosis. It is less consistent than the correct choice.",
+        "C": "Reticulin outlines architecture in liver/marrow fibrosis — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "histopathology:hard:10",
+      "question": "Which of the following correctly distinguishes key points about congo red?",
+      "options": [
+        "A) Congo red uptake without birefringence equals amyloid always",
+        "B) Congo red amyloid shows apple-green birefringence under polarized light",
+        "C) Reticulin replaces Congo red for amyloid",
+        "D) Aspergillus in tissue always equals noninvasive colonization"
+      ],
+      "answer": "B) Congo red amyloid shows apple-green birefringence under polarized light",
+      "explanation": "Congo red amyloid shows apple-green birefringence under polarized light — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Congo red amyloid shows apple-green birefringence under polarized light. Congo red uptake without birefringence equals amyloid always — that  confuses a closely related concept; the correct statement remains: Congo red amyloid shows apple-green birefringence under polarized light.",
+      "choice_explanations": {
+        "A": "Congo red uptake without birefringence equals amyloid always — that near-miss confuses a closely related concept; the correct statement remains: Congo red amyloid shows apple-green birefringence under polarized light. It is less consistent than the correct choice.",
+        "B": "Congo red amyloid shows apple-green birefringence under polarized light — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "histopathology:hard:11",
-      "question": "A 63-year-old woman is evaluated for suspected congo red. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "Careful interpretation of oil Red O is required. Which of the following is correct?",
       "options": [
-        "A) Reticulin replaces Congo red for amyloid",
-        "B) Aspergillus in tissue always equals noninvasive colonization",
-        "C) Congo red amyloid shows apple-green birefringence under polarized light",
-        "D) Congo red uptake without birefringence equals amyloid always"
-      ],
-      "answer": "C) Congo red amyloid shows apple-green birefringence under polarized light",
-      "explanation": "Congo red amyloid shows apple-green birefringence under polarized light — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Congo red amyloid shows apple-green birefringence under polarized light. Congo red uptake without birefringence equals amyloid always — that  confuses a closely related concept; the correct statement remains: Congo red amyloid shows apple-green birefringence under polarized light.",
-      "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Congo red amyloid shows apple-green birefringence under polarized light — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "D": "Congo red uptake without birefringence equals amyloid always — that near-miss confuses a closely related concept; the correct statement remains: Congo red amyloid shows apple-green birefringence under polarized light. It is less consistent than the correct choice."
-      }
-    },
-    {
-      "id": "histopathology:hard:12",
-      "question": "Findings thought to represent oil Red O can be misread. Which of the following is most correct?",
-      "options": [
-        "A) Frozen morphology always exceeds paraffin detail",
-        "B) Oil Red O stains neutral lipids on frozen sections",
-        "C) Alcian blue stains neutral lipids like Oil Red O",
+        "A) Alcian blue stains neutral lipids like Oil Red O",
+        "B) Frozen morphology always exceeds paraffin detail",
+        "C) Oil Red O stains neutral lipids on frozen sections",
         "D) Oil Red O works equally on routine paraffin without special handling"
       ],
-      "answer": "B) Oil Red O stains neutral lipids on frozen sections",
+      "answer": "C) Oil Red O stains neutral lipids on frozen sections",
       "explanation": "Oil Red O stains neutral lipids on frozen sections — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Oil Red O stains neutral lipids on frozen sections. Oil Red O works equally on routine paraffin without special handling — that  confuses a closely related concept; the correct statement remains: Oil Red O stains neutral lipids on frozen sections.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Oil Red O stains neutral lipids on frozen sections — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Oil Red O stains neutral lipids on frozen sections — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "D": "Oil Red O works equally on routine paraffin without special handling — that near-miss confuses a closely related concept; the correct statement remains: Oil Red O stains neutral lipids on frozen sections. It is less consistent than the correct choice."
       }
     },
     {
-      "id": "histopathology:hard:13",
-      "question": "A 69-year-old woman presents with prussian blue. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "id": "histopathology:hard:12",
+      "question": "Which statement about prussian blue is most accurate?",
       "options": [
-        "A) Trichrome is identical to Gram stain",
-        "B) Prussian blue is the Gram counterstain",
-        "C) Prussian blue detects ferric iron in tissue",
-        "D) Tissue Gram is as sensitive as culture always"
+        "A) Tissue Gram is as sensitive as culture always",
+        "B) Prussian blue detects ferric iron in tissue",
+        "C) Trichrome is identical to Gram stain",
+        "D) Prussian blue is the Gram counterstain"
       ],
-      "answer": "C) Prussian blue detects ferric iron in tissue",
+      "answer": "B) Prussian blue detects ferric iron in tissue",
       "explanation": "Prussian blue detects ferric iron in tissue — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Prussian blue detects ferric iron in tissue. Prussian blue is the Gram counterstain — that  confuses a closely related concept; the correct statement remains: Prussian blue detects ferric iron in tissue.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Prussian blue is the Gram counterstain — that near-miss confuses a closely related concept; the correct statement remains: Prussian blue detects ferric iron in tissue. It is less consistent than the correct choice.",
-        "C": "Prussian blue detects ferric iron in tissue — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "B": "Prussian blue detects ferric iron in tissue — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Prussian blue is the Gram counterstain — that near-miss confuses a closely related concept; the correct statement remains: Prussian blue detects ferric iron in tissue. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "histopathology:hard:13",
+      "question": "Which of the following is the best statement about GMS?",
+      "options": [
+        "A) All amyloid is typed by H&E color alone",
+        "B) GMS primarily diagnoses amyloid",
+        "C) GMS stains fungal walls black",
+        "D) Congo red uptake without birefringence equals amyloid always"
+      ],
+      "answer": "C) GMS stains fungal walls black",
+      "explanation": "GMS stains fungal walls black — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: GMS stains fungal walls black. GMS primarily diagnoses amyloid — that  confuses a closely related concept; the correct statement remains: GMS stains fungal walls black.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "GMS primarily diagnoses amyloid — that near-miss confuses a closely related concept; the correct statement remains: GMS stains fungal walls black. It is less consistent than the correct choice.",
+        "C": "GMS stains fungal walls black — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "histopathology:hard:14",
-      "question": "A complex case of aFB tissue involving a 59-year-old woman is reviewed on rounds. Which of the following is most accurate?",
+      "question": "Careful review of warthin-Starry is required. Which of the following is most accurate?",
       "options": [
-        "A) Alcian blue stains neutral lipids like Oil Red O",
-        "B) H&E alone reliably shows all mycobacteria bright red",
-        "C) Congo red uptake without birefringence equals amyloid always",
-        "D) ZN/auramine detect acid-fast organisms in tissue"
+        "A) Trephine replaces flow and aspirate always",
+        "B) Warthin-Starry replaces H&E for tumor grading",
+        "C) Frozen section replaces all permanent paraffin diagnosis",
+        "D) Warthin-Starry can highlight spirochetes and Helicobacter"
       ],
-      "answer": "D) ZN/auramine detect acid-fast organisms in tissue",
-      "explanation": "ZN/auramine detect acid-fast organisms in tissue — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: ZN/auramine detect acid-fast organisms in tissue. H&E alone reliably shows all mycobacteria bright red — that  confuses a closely related concept; the correct statement remains: ZN/auramine detect acid-fast organisms in tissue.",
+      "answer": "D) Warthin-Starry can highlight spirochetes and Helicobacter",
+      "explanation": "Warthin-Starry can highlight spirochetes and Helicobacter — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Warthin-Starry can highlight spirochetes and Helicobacter. Warthin-Starry replaces H&E for tumor grading — that  confuses a closely related concept; the correct statement remains: Warthin-Starry can highlight spirochetes and Helicobacter.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "H&E alone reliably shows all mycobacteria bright red — that near-miss confuses a closely related concept; the correct statement remains: ZN/auramine detect acid-fast organisms in tissue. It is less consistent than the correct choice.",
+        "B": "Warthin-Starry replaces H&E for tumor grading — that near-miss confuses a closely related concept; the correct statement remains: Warthin-Starry can highlight spirochetes and Helicobacter. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "ZN/auramine detect acid-fast organisms in tissue — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
+        "D": "Warthin-Starry can highlight spirochetes and Helicobacter — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
       }
     },
     {
       "id": "histopathology:hard:15",
-      "question": "A 57-year-old woman has progressive abnormalities attributed to GMS. Which of the following is most consistent with the clinical process?",
+      "question": "Two similar explanations for tissue Gram are compared. Which of the following is correct?",
       "options": [
-        "A) SOX10 diagnoses only hepatocellular carcinoma",
-        "B) GMS primarily diagnoses amyloid",
-        "C) Congo red uptake without birefringence equals amyloid always",
-        "D) GMS stains fungal walls black"
+        "A) Prussian blue is the Gram counterstain",
+        "B) Tissue Gram is as sensitive as culture always",
+        "C) Place all tissue in formalin immediately always",
+        "D) Tissue Gram stains show bacteria with limited sensitivity"
       ],
-      "answer": "D) GMS stains fungal walls black",
-      "explanation": "GMS stains fungal walls black — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: GMS stains fungal walls black. GMS primarily diagnoses amyloid — that  confuses a closely related concept; the correct statement remains: GMS stains fungal walls black.",
+      "answer": "D) Tissue Gram stains show bacteria with limited sensitivity",
+      "explanation": "Tissue Gram stains show bacteria with limited sensitivity — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Tissue Gram stains show bacteria with limited sensitivity. Tissue Gram is as sensitive as culture always — that  confuses a closely related concept; the correct statement remains: Tissue Gram stains show bacteria with limited sensitivity.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "GMS primarily diagnoses amyloid — that near-miss confuses a closely related concept; the correct statement remains: GMS stains fungal walls black. It is less consistent than the correct choice.",
+        "B": "Tissue Gram is as sensitive as culture always — that near-miss confuses a closely related concept; the correct statement remains: Tissue Gram stains show bacteria with limited sensitivity. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "GMS stains fungal walls black — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
+        "D": "Tissue Gram stains show bacteria with limited sensitivity — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
       }
     },
     {
       "id": "histopathology:hard:16",
-      "question": "A 65-year-old woman presents with findings that could fit more than one process often confused with warthin-Starry. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "In a detailed discussion of IHC, which of the following is most accurate?",
       "options": [
-        "A) Warthin-Starry can highlight spirochetes and Helicobacter",
-        "B) Negative margins mean tumor never existed",
-        "C) Frozen section replaces all permanent paraffin diagnosis",
-        "D) Warthin-Starry replaces H&E for tumor grading"
+        "A) IHC localizes antigens in tissue with antibodies",
+        "B) Decalcification always improves DNA yield",
+        "C) Formalin freezes tissue without crosslinking like LN2",
+        "D) IHC sequences DNA mutations like NGS"
       ],
-      "answer": "A) Warthin-Starry can highlight spirochetes and Helicobacter",
-      "explanation": "Warthin-Starry can highlight spirochetes and Helicobacter — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Warthin-Starry can highlight spirochetes and Helicobacter. Warthin-Starry replaces H&E for tumor grading — that  confuses a closely related concept; the correct statement remains: Warthin-Starry can highlight spirochetes and Helicobacter.",
+      "answer": "A) IHC localizes antigens in tissue with antibodies",
+      "explanation": "IHC localizes antigens in tissue with antibodies — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: IHC localizes antigens in tissue with antibodies. IHC sequences DNA mutations like NGS — that  confuses a closely related concept; the correct statement remains: IHC localizes antigens in tissue with antibodies.",
       "choice_explanations": {
-        "A": "Warthin-Starry can highlight spirochetes and Helicobacter — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "A": "IHC localizes antigens in tissue with antibodies — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Warthin-Starry replaces H&E for tumor grading — that near-miss confuses a closely related concept; the correct statement remains: Warthin-Starry can highlight spirochetes and Helicobacter. It is less consistent than the correct choice."
+        "D": "IHC sequences DNA mutations like NGS — that near-miss confuses a closely related concept; the correct statement remains: IHC localizes antigens in tissue with antibodies. It is less consistent than the correct choice."
       }
     },
     {
       "id": "histopathology:hard:17",
-      "question": "A 55-year-old woman is hospitalized with evolving features of tissue Gram. A common mimic remains possible. Which of the following is most likely?",
+      "question": "Which of the following correctly distinguishes key points about cytokeratin?",
       "options": [
-        "A) Tissue Gram stains show bacteria with limited sensitivity",
-        "B) Prussian blue is the Gram counterstain",
-        "C) Tissue Gram is as sensitive as culture always",
-        "D) Place all tissue in formalin immediately always"
-      ],
-      "answer": "A) Tissue Gram stains show bacteria with limited sensitivity",
-      "explanation": "Tissue Gram stains show bacteria with limited sensitivity — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Tissue Gram stains show bacteria with limited sensitivity. Tissue Gram is as sensitive as culture always — that  confuses a closely related concept; the correct statement remains: Tissue Gram stains show bacteria with limited sensitivity.",
-      "choice_explanations": {
-        "A": "Tissue Gram stains show bacteria with limited sensitivity — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Tissue Gram is as sensitive as culture always — that near-miss confuses a closely related concept; the correct statement remains: Tissue Gram stains show bacteria with limited sensitivity. It is less consistent than the correct choice.",
-        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
-      }
-    },
-    {
-      "id": "histopathology:hard:18",
-      "question": "A 32-year-old man is evaluated for IHC. Which of the following is favored after comparison with frequent look-alikes?",
-      "options": [
-        "A) Zero fixation always yields the best IHC for all antigens",
-        "B) IHC sequences DNA mutations like NGS",
-        "C) MMR IHC and MSI PCR are unrelated never-used together",
-        "D) IHC localizes antigens in tissue with antibodies"
-      ],
-      "answer": "D) IHC localizes antigens in tissue with antibodies",
-      "explanation": "IHC localizes antigens in tissue with antibodies — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: IHC localizes antigens in tissue with antibodies. IHC sequences DNA mutations like NGS — that  confuses a closely related concept; the correct statement remains: IHC localizes antigens in tissue with antibodies.",
-      "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "IHC sequences DNA mutations like NGS — that near-miss confuses a closely related concept; the correct statement remains: IHC localizes antigens in tissue with antibodies. It is less consistent than the correct choice.",
-        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "IHC localizes antigens in tissue with antibodies — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
-      }
-    },
-    {
-      "id": "histopathology:hard:19",
-      "question": "A 69-year-old woman is evaluated for suspected cytokeratin. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
-      "options": [
-        "A) p16 positivity proves HPV in all tumor sites always",
-        "B) Cytokeratins mark epithelial differentiation",
+        "A) Cytokeratins mark epithelial differentiation",
+        "B) p16 positivity proves HPV in all tumor sites always",
         "C) CK positivity proves lymphoma always",
         "D) CD45 positivity proves carcinoma always"
       ],
-      "answer": "B) Cytokeratins mark epithelial differentiation",
+      "answer": "A) Cytokeratins mark epithelial differentiation",
       "explanation": "Cytokeratins mark epithelial differentiation — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Cytokeratins mark epithelial differentiation. CK positivity proves lymphoma always — that  confuses a closely related concept; the correct statement remains: Cytokeratins mark epithelial differentiation.",
       "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Cytokeratins mark epithelial differentiation — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "A": "Cytokeratins mark epithelial differentiation — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "CK positivity proves lymphoma always — that near-miss confuses a closely related concept; the correct statement remains: Cytokeratins mark epithelial differentiation. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
-      "id": "histopathology:hard:20",
-      "question": "Findings thought to represent CD45 can be misread. Which of the following is most correct?",
+      "id": "histopathology:hard:18",
+      "question": "Careful interpretation of CD45 is required. Which of the following is correct?",
       "options": [
-        "A) CD45 positivity proves carcinoma always",
-        "B) CD45 marks most hematopoietic cells/lymphomas",
-        "C) CK positivity proves lymphoma always",
-        "D) PSA positivity proves urothelial carcinoma"
+        "A) CK positivity proves lymphoma always",
+        "B) CD45 positivity proves carcinoma always",
+        "C) PSA positivity proves urothelial carcinoma",
+        "D) CD45 marks most hematopoietic cells/lymphomas"
       ],
-      "answer": "B) CD45 marks most hematopoietic cells/lymphomas",
+      "answer": "D) CD45 marks most hematopoietic cells/lymphomas",
       "explanation": "CD45 marks most hematopoietic cells/lymphomas — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: CD45 marks most hematopoietic cells/lymphomas. CD45 positivity proves carcinoma always — that  confuses a closely related concept; the correct statement remains: CD45 marks most hematopoietic cells/lymphomas.",
       "choice_explanations": {
-        "A": "CD45 positivity proves carcinoma always — that near-miss confuses a closely related concept; the correct statement remains: CD45 marks most hematopoietic cells/lymphomas. It is less consistent than the correct choice.",
-        "B": "CD45 marks most hematopoietic cells/lymphomas — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "CD45 positivity proves carcinoma always — that near-miss confuses a closely related concept; the correct statement remains: CD45 marks most hematopoietic cells/lymphomas. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+        "D": "CD45 marks most hematopoietic cells/lymphomas — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
       }
     },
     {
-      "id": "histopathology:hard:21",
-      "question": "A 28-year-old man presents with S100. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "id": "histopathology:hard:19",
+      "question": "Which statement about S100 is most accurate?",
       "options": [
         "A) Melan-A/HMB-45 diagnose only squamous carcinoma",
         "B) S100 is sensitive for melanocytic and nerve sheath tumors",
@@ -1481,102 +1445,84 @@
       }
     },
     {
-      "id": "histopathology:hard:22",
-      "question": "A complex case of melan-A/HMB45 involving a 40-year-old man is reviewed on rounds. Which of the following is most accurate?",
+      "id": "histopathology:hard:20",
+      "question": "Which of the following is the best statement about TTF-1?",
       "options": [
-        "A) S100 is specific only for carcinoma",
-        "B) CDX2 diagnoses primary lung squamous carcinoma",
-        "C) Melan-A/HMB-45 diagnose only squamous carcinoma",
-        "D) Melan-A/HMB-45 support melanocytic differentiation"
+        "A) TTF-1 positivity always equals colon adenocarcinoma",
+        "B) TTF-1 supports lung adenocarcinoma and thyroid origin",
+        "C) PSA positivity proves urothelial carcinoma",
+        "D) p40 positivity proves adenocarcinoma"
       ],
-      "answer": "D) Melan-A/HMB-45 support melanocytic differentiation",
-      "explanation": "Melan-A/HMB-45 support melanocytic differentiation — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Melan-A/HMB-45 support melanocytic differentiation. Melan-A/HMB-45 diagnose only squamous carcinoma — that  confuses a closely related concept; the correct statement remains: Melan-A/HMB-45 support melanocytic differentiation.",
+      "answer": "B) TTF-1 supports lung adenocarcinoma and thyroid origin",
+      "explanation": "TTF-1 supports lung adenocarcinoma and thyroid origin — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: TTF-1 supports lung adenocarcinoma and thyroid origin. TTF-1 positivity always equals colon adenocarcinoma — that  confuses a closely related concept; the correct statement remains: TTF-1 supports lung adenocarcinoma and thyroid origin.",
+      "choice_explanations": {
+        "A": "TTF-1 positivity always equals colon adenocarcinoma — that near-miss confuses a closely related concept; the correct statement remains: TTF-1 supports lung adenocarcinoma and thyroid origin. It is less consistent than the correct choice.",
+        "B": "TTF-1 supports lung adenocarcinoma and thyroid origin — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "histopathology:hard:21",
+      "question": "Careful review of CDX2 is required. Which of the following is most accurate?",
+      "options": [
+        "A) PSA positivity proves urothelial carcinoma",
+        "B) CDX2 supports intestinal/colorectal differentiation",
+        "C) CDX2 diagnoses primary lung squamous carcinoma",
+        "D) Melan-A/HMB-45 diagnose only squamous carcinoma"
+      ],
+      "answer": "B) CDX2 supports intestinal/colorectal differentiation",
+      "explanation": "CDX2 supports intestinal/colorectal differentiation — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: CDX2 supports intestinal/colorectal differentiation. CDX2 diagnoses primary lung squamous carcinoma — that  confuses a closely related concept; the correct statement remains: CDX2 supports intestinal/colorectal differentiation.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "CDX2 supports intestinal/colorectal differentiation — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "C": "CDX2 diagnoses primary lung squamous carcinoma — that near-miss confuses a closely related concept; the correct statement remains: CDX2 supports intestinal/colorectal differentiation. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "histopathology:hard:22",
+      "question": "Two similar explanations for PSA IHC are compared. Which of the following is correct?",
+      "options": [
+        "A) p40 positivity proves adenocarcinoma",
+        "B) TTF-1 positivity always equals colon adenocarcinoma",
+        "C) PSA positivity proves urothelial carcinoma",
+        "D) PSA IHC supports prostatic origin"
+      ],
+      "answer": "D) PSA IHC supports prostatic origin",
+      "explanation": "PSA IHC supports prostatic origin — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: PSA IHC supports prostatic origin. PSA positivity proves urothelial carcinoma — that  confuses a closely related concept; the correct statement remains: PSA IHC supports prostatic origin.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Melan-A/HMB-45 diagnose only squamous carcinoma — that near-miss confuses a closely related concept; the correct statement remains: Melan-A/HMB-45 support melanocytic differentiation. It is less consistent than the correct choice.",
-        "D": "Melan-A/HMB-45 support melanocytic differentiation — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
+        "C": "PSA positivity proves urothelial carcinoma — that near-miss confuses a closely related concept; the correct statement remains: PSA IHC supports prostatic origin. It is less consistent than the correct choice.",
+        "D": "PSA IHC supports prostatic origin — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
       }
     },
     {
       "id": "histopathology:hard:23",
-      "question": "A 63-year-old woman has progressive abnormalities attributed to TTF-1. Which of the following is most consistent with the clinical process?",
+      "question": "In a detailed discussion of ER/PR, which of the following is most accurate?",
       "options": [
-        "A) TTF-1 supports lung adenocarcinoma and thyroid origin",
-        "B) TTF-1 positivity always equals colon adenocarcinoma",
-        "C) PSA positivity proves urothelial carcinoma",
-        "D) p40 positivity proves adenocarcinoma"
+        "A) ER/PR nuclear IHC guide breast endocrine therapy",
+        "B) ER/PR are irrelevant cytoplasmic stains",
+        "C) HER2 status is irrelevant to therapy",
+        "D) MMR IHC and MSI PCR are unrelated never-used together"
       ],
-      "answer": "A) TTF-1 supports lung adenocarcinoma and thyroid origin",
-      "explanation": "TTF-1 supports lung adenocarcinoma and thyroid origin — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: TTF-1 supports lung adenocarcinoma and thyroid origin. TTF-1 positivity always equals colon adenocarcinoma — that  confuses a closely related concept; the correct statement remains: TTF-1 supports lung adenocarcinoma and thyroid origin.",
+      "answer": "A) ER/PR nuclear IHC guide breast endocrine therapy",
+      "explanation": "ER/PR nuclear IHC guide breast endocrine therapy — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: ER/PR nuclear IHC guide breast endocrine therapy. ER/PR are irrelevant cytoplasmic stains — that  confuses a closely related concept; the correct statement remains: ER/PR nuclear IHC guide breast endocrine therapy.",
       "choice_explanations": {
-        "A": "TTF-1 supports lung adenocarcinoma and thyroid origin — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "B": "TTF-1 positivity always equals colon adenocarcinoma — that near-miss confuses a closely related concept; the correct statement remains: TTF-1 supports lung adenocarcinoma and thyroid origin. It is less consistent than the correct choice.",
+        "A": "ER/PR nuclear IHC guide breast endocrine therapy — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "B": "ER/PR are irrelevant cytoplasmic stains — that near-miss confuses a closely related concept; the correct statement remains: ER/PR nuclear IHC guide breast endocrine therapy. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "histopathology:hard:24",
-      "question": "A 49-year-old woman presents with findings that could fit more than one process often confused with CDX2. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "Which of the following correctly distinguishes key points about HER2?",
       "options": [
-        "A) PSA positivity proves urothelial carcinoma",
-        "B) CDX2 diagnoses primary lung squamous carcinoma",
-        "C) Melan-A/HMB-45 diagnose only squamous carcinoma",
-        "D) CDX2 supports intestinal/colorectal differentiation"
-      ],
-      "answer": "D) CDX2 supports intestinal/colorectal differentiation",
-      "explanation": "CDX2 supports intestinal/colorectal differentiation — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: CDX2 supports intestinal/colorectal differentiation. CDX2 diagnoses primary lung squamous carcinoma — that  confuses a closely related concept; the correct statement remains: CDX2 supports intestinal/colorectal differentiation.",
-      "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "CDX2 diagnoses primary lung squamous carcinoma — that near-miss confuses a closely related concept; the correct statement remains: CDX2 supports intestinal/colorectal differentiation. It is less consistent than the correct choice.",
-        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "CDX2 supports intestinal/colorectal differentiation — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
-      }
-    },
-    {
-      "id": "histopathology:hard:25",
-      "question": "A 27-year-old woman is hospitalized with evolving features of PSA IHC. A common mimic remains possible. Which of the following is most likely?",
-      "options": [
-        "A) PSA IHC supports prostatic origin",
-        "B) TTF-1 positivity always equals colon adenocarcinoma",
-        "C) PSA positivity proves urothelial carcinoma",
-        "D) p40 positivity proves adenocarcinoma"
-      ],
-      "answer": "A) PSA IHC supports prostatic origin",
-      "explanation": "PSA IHC supports prostatic origin — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: PSA IHC supports prostatic origin. PSA positivity proves urothelial carcinoma — that  confuses a closely related concept; the correct statement remains: PSA IHC supports prostatic origin.",
-      "choice_explanations": {
-        "A": "PSA IHC supports prostatic origin — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "PSA positivity proves urothelial carcinoma — that near-miss confuses a closely related concept; the correct statement remains: PSA IHC supports prostatic origin. It is less consistent than the correct choice.",
-        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
-      }
-    },
-    {
-      "id": "histopathology:hard:26",
-      "question": "A 38-year-old man is evaluated for ER/PR. Which of the following is favored after comparison with frequent look-alikes?",
-      "options": [
-        "A) ER/PR are irrelevant cytoplasmic stains",
+        "A) MMR IHC and MSI PCR are unrelated never-used together",
         "B) HER2 status is irrelevant to therapy",
-        "C) ER/PR nuclear IHC guide breast endocrine therapy",
-        "D) MMR IHC and MSI PCR are unrelated never-used together"
-      ],
-      "answer": "C) ER/PR nuclear IHC guide breast endocrine therapy",
-      "explanation": "ER/PR nuclear IHC guide breast endocrine therapy — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: ER/PR nuclear IHC guide breast endocrine therapy. ER/PR are irrelevant cytoplasmic stains — that  confuses a closely related concept; the correct statement remains: ER/PR nuclear IHC guide breast endocrine therapy.",
-      "choice_explanations": {
-        "A": "ER/PR are irrelevant cytoplasmic stains — that near-miss confuses a closely related concept; the correct statement remains: ER/PR nuclear IHC guide breast endocrine therapy. It is less consistent than the correct choice.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "ER/PR nuclear IHC guide breast endocrine therapy — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
-      }
-    },
-    {
-      "id": "histopathology:hard:27",
-      "question": "A 70-year-old man is evaluated for suspected HER2. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
-      "options": [
-        "A) ER/PR are irrelevant cytoplasmic stains",
-        "B) HER2 status is irrelevant to therapy",
-        "C) MMR IHC and MSI PCR are unrelated never-used together",
+        "C) ER/PR are irrelevant cytoplasmic stains",
         "D) HER2 IHC/ISH guide anti-HER2 therapy"
       ],
       "answer": "D) HER2 IHC/ISH guide anti-HER2 therapy",
@@ -1589,46 +1535,100 @@
       }
     },
     {
-      "id": "histopathology:hard:28",
-      "question": "Findings thought to represent ki-67 can be misread. Which of the following is most correct?",
+      "id": "histopathology:hard:25",
+      "question": "Careful interpretation of ki-67 is required. Which of the following is correct?",
       "options": [
-        "A) Ki-67 stains only apoptotic cells",
-        "B) All multinucleated giant cells are Reed-Sternberg cells",
-        "C) Ki-67 is a proliferation index marker",
-        "D) ER/PR are irrelevant cytoplasmic stains"
+        "A) Ki-67 is a proliferation index marker",
+        "B) ER/PR are irrelevant cytoplasmic stains",
+        "C) Ki-67 stains only apoptotic cells",
+        "D) MMR IHC and MSI PCR are unrelated never-used together"
       ],
-      "answer": "C) Ki-67 is a proliferation index marker",
+      "answer": "A) Ki-67 is a proliferation index marker",
       "explanation": "Ki-67 is a proliferation index marker — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: Ki-67 is a proliferation index marker. Ki-67 stains only apoptotic cells — that  confuses a closely related concept; the correct statement remains: Ki-67 is a proliferation index marker.",
       "choice_explanations": {
-        "A": "Ki-67 stains only apoptotic cells — that near-miss confuses a closely related concept; the correct statement remains: Ki-67 is a proliferation index marker. It is less consistent than the correct choice.",
+        "A": "Ki-67 is a proliferation index marker — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Ki-67 is a proliferation index marker — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "C": "Ki-67 stains only apoptotic cells — that near-miss confuses a closely related concept; the correct statement remains: Ki-67 is a proliferation index marker. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "histopathology:hard:26",
+      "question": "Which statement about p53 IHC is most accurate?",
+      "options": [
+        "A) p53 overexpression always equals wild-type TP53",
+        "B) Decalcification always improves DNA yield",
+        "C) p53 patterns can suggest TP53 mutation but are imperfect",
+        "D) Intact MMR IHC always proves Lynch syndrome"
+      ],
+      "answer": "C) p53 patterns can suggest TP53 mutation but are imperfect",
+      "explanation": "p53 patterns can suggest TP53 mutation but are imperfect — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: p53 patterns can suggest TP53 mutation but are imperfect. p53 overexpression always equals wild-type TP53 — that  confuses a closely related concept; the correct statement remains: p53 patterns can suggest TP53 mutation but are imperfect.",
+      "choice_explanations": {
+        "A": "p53 overexpression always equals wild-type TP53 — that near-miss confuses a closely related concept; the correct statement remains: p53 patterns can suggest TP53 mutation but are imperfect. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "p53 patterns can suggest TP53 mutation but are imperfect — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "histopathology:hard:27",
+      "question": "Which of the following is the best statement about PD-L1?",
+      "options": [
+        "A) ISH is identical to serum ELISA",
+        "B) All PD-L1 clones share identical cutoffs for all cancers",
+        "C) All clones against one protein perform identically",
+        "D) PD-L1 scoring is assay- and indication-specific"
+      ],
+      "answer": "D) PD-L1 scoring is assay- and indication-specific",
+      "explanation": "PD-L1 scoring is assay- and indication-specific — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: PD-L1 scoring is assay- and indication-specific. All PD-L1 clones share identical cutoffs for all cancers — that  confuses a closely related concept; the correct statement remains: PD-L1 scoring is assay- and indication-specific.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "All PD-L1 clones share identical cutoffs for all cancers — that near-miss confuses a closely related concept; the correct statement remains: PD-L1 scoring is assay- and indication-specific. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "PD-L1 scoring is assay- and indication-specific — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "histopathology:hard:28",
+      "question": "Careful review of ISH is required. Which of the following is most accurate?",
+      "options": [
+        "A) ISH is identical to serum ELISA",
+        "B) FISH measures serum HER2 protein",
+        "C) ISH detects nucleic acids in tissue with probes",
+        "D) EBER detects HPV E6/E7"
+      ],
+      "answer": "C) ISH detects nucleic acids in tissue with probes",
+      "explanation": "ISH detects nucleic acids in tissue with probes — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: ISH detects nucleic acids in tissue with probes. ISH is identical to serum ELISA — that  confuses a closely related concept; the correct statement remains: ISH detects nucleic acids in tissue with probes.",
+      "choice_explanations": {
+        "A": "ISH is identical to serum ELISA — that near-miss confuses a closely related concept; the correct statement remains: ISH detects nucleic acids in tissue with probes. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "ISH detects nucleic acids in tissue with probes — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "histopathology:hard:29",
-      "question": "A 55-year-old woman presents with p53 IHC. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "Two similar explanations for FISH HER2 are compared. Which of the following is correct?",
       "options": [
-        "A) Intact MMR IHC always proves Lynch syndrome",
-        "B) Decalcification always improves DNA yield",
-        "C) p53 patterns can suggest TP53 mutation but are imperfect",
-        "D) p53 overexpression always equals wild-type TP53"
+        "A) EM measures serum creatinine",
+        "B) ISH is identical to serum ELISA",
+        "C) FISH detects HER2 amplification by signal ratios",
+        "D) FISH measures serum HER2 protein"
       ],
-      "answer": "C) p53 patterns can suggest TP53 mutation but are imperfect",
-      "explanation": "p53 patterns can suggest TP53 mutation but are imperfect — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: p53 patterns can suggest TP53 mutation but are imperfect. p53 overexpression always equals wild-type TP53 — that  confuses a closely related concept; the correct statement remains: p53 patterns can suggest TP53 mutation but are imperfect.",
+      "answer": "C) FISH detects HER2 amplification by signal ratios",
+      "explanation": "FISH detects HER2 amplification by signal ratios — this is the distinguishing mechanism or definition used in MLS practice. Therefore, the most accurate choice is: FISH detects HER2 amplification by signal ratios. FISH measures serum HER2 protein — that  confuses a closely related concept; the correct statement remains: FISH detects HER2 amplification by signal ratios.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "p53 patterns can suggest TP53 mutation but are imperfect — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
-        "D": "p53 overexpression always equals wild-type TP53 — that near-miss confuses a closely related concept; the correct statement remains: p53 patterns can suggest TP53 mutation but are imperfect. It is less consistent than the correct choice."
+        "C": "FISH detects HER2 amplification by signal ratios — this is the distinguishing mechanism or definition used in MLS practice. This matches the correct interpretation.",
+        "D": "FISH measures serum HER2 protein — that near-miss confuses a closely related concept; the correct statement remains: FISH detects HER2 amplification by signal ratios. It is less consistent than the correct choice."
       }
     }
   ],
   "extreme": [
     {
       "id": "histopathology:extreme:0",
-      "question": "A 62-year-old man with diabetes and hypertension develops rapidly worsening features of formalin fixation. Vital signs are unstable. Which of the following is most likely?",
+      "question": "Careful reasoning about formalin fixation is required. Which of the following is most accurate?",
       "options": [
         "A) Zero fixation always yields the best IHC for all antigens",
         "B) IHC sequences DNA mutations like NGS",
@@ -1646,7 +1646,7 @@
     },
     {
       "id": "histopathology:extreme:1",
-      "question": "In the emergency department, a 69-year-old woman is critically ill with a syndrome centered on fixation duration. Which of the following is most likely?",
+      "question": "Small differences in wording about fixation duration matter. Which of the following is correct?",
       "options": [
         "A) Zero fixation always yields the best IHC for all antigens",
         "B) Adequate formalin fixation improves morphology and IHC",
@@ -1664,7 +1664,7 @@
     },
     {
       "id": "histopathology:extreme:2",
-      "question": "A 38-year-old man deteriorates overnight with gross margins. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "Which of the following is the most precise statement about gross margins?",
       "options": [
         "A) Formalin freezes tissue without crosslinking like LN2",
         "B) Negative margins mean tumor never existed",
@@ -1682,7 +1682,7 @@
     },
     {
       "id": "histopathology:extreme:3",
-      "question": "A 66-year-old man with diabetes and hypertension develops life-threatening complications in the setting of frozen section. Which of the following is most consistent with the clinical process?",
+      "question": "In advanced review of frozen section, which of the following is most accurate?",
       "options": [
         "A) Frozen section replaces all permanent paraffin diagnosis",
         "B) Frozen section gives rapid intraoperative diagnosis on fresh tissue",
@@ -1700,7 +1700,7 @@
     },
     {
       "id": "histopathology:extreme:4",
-      "question": "A rapidly progressive presentation of h&E stain is reviewed in a 60-year-old man. Which of the following is most likely?",
+      "question": "Which interpretation of h&E stain is most accurate?",
       "options": [
         "A) Hematoxylin stains cytoplasm pink; eosin stains nuclei blue",
         "B) Trichrome is identical to Gram stain",
@@ -1718,7 +1718,7 @@
     },
     {
       "id": "histopathology:extreme:5",
-      "question": "A 33-year-old woman requires urgent decision-making for PAS. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Which closely related statement about PAS is correct?",
       "options": [
         "A) PAS-D makes glycogen stain more intensely always",
         "B) PAS is the primary AFB mycobacterial stain",
@@ -1736,7 +1736,7 @@
     },
     {
       "id": "histopathology:extreme:6",
-      "question": "A 36-year-old man has refractory abnormalities due to PAS-D. Which of the following is the most accurate interpretation?",
+      "question": "Which of the following is the central point about PAS-D?",
       "options": [
         "A) Noncaseating granulomas prove active TB always",
         "B) PAS-D makes glycogen stain more intensely always",
@@ -1754,7 +1754,7 @@
     },
     {
       "id": "histopathology:extreme:7",
-      "question": "A critical-care presentation involving mucicarmine in a 31-year-old woman is discussed. Which of the following is most likely?",
+      "question": "Which statement about mucicarmine is most accurate?",
       "options": [
         "A) Mucicarmine stains epithelial mucin and Cryptococcus capsule",
         "B) Hematoxylin stains cytoplasm pink; eosin stains nuclei blue",
@@ -1772,7 +1772,7 @@
     },
     {
       "id": "histopathology:extreme:8",
-      "question": "A 38-year-old man develops rapidly worsening features of alcian blue. Vital signs are unstable. Which of the following is most likely?",
+      "question": "Careful reasoning about alcian blue is required. Which of the following is most accurate?",
       "options": [
         "A) Oil Red O works equally on routine paraffin without special handling",
         "B) Alcian blue stains acid mucins at defined pH",
@@ -1790,7 +1790,7 @@
     },
     {
       "id": "histopathology:extreme:9",
-      "question": "In the emergency department, a 49-year-old woman is critically ill with a syndrome centered on trichrome. Which of the following is most likely?",
+      "question": "Small differences in wording about trichrome matter. Which of the following is correct?",
       "options": [
         "A) Masson trichrome stains collagen blue/green versus muscle",
         "B) Hematoxylin stains cytoplasm pink; eosin stains nuclei blue",
@@ -1808,7 +1808,7 @@
     },
     {
       "id": "histopathology:extreme:10",
-      "question": "A 56-year-old man deteriorates overnight with reticulin. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "Which of the following is the most precise statement about reticulin?",
       "options": [
         "A) Trephine replaces flow and aspirate always",
         "B) Reticulin replaces Congo red for amyloid",
@@ -1826,7 +1826,7 @@
     },
     {
       "id": "histopathology:extreme:11",
-      "question": "A 63-year-old woman with diabetes and hypertension develops life-threatening complications in the setting of congo red. Which of the following is most consistent with the clinical process?",
+      "question": "In advanced review of congo red, which of the following is most accurate?",
       "options": [
         "A) Aspergillus in tissue always equals noninvasive colonization",
         "B) Congo red amyloid shows apple-green birefringence under polarized light",
@@ -1844,7 +1844,7 @@
     },
     {
       "id": "histopathology:extreme:12",
-      "question": "A rapidly progressive presentation of oil Red O is reviewed in a 70-year-old man. Which of the following is most likely?",
+      "question": "Which interpretation of oil Red O is most accurate?",
       "options": [
         "A) Oil Red O works equally on routine paraffin without special handling",
         "B) Alcian blue stains neutral lipids like Oil Red O",
@@ -1862,7 +1862,7 @@
     },
     {
       "id": "histopathology:extreme:13",
-      "question": "A 69-year-old woman requires urgent decision-making for prussian blue. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Which closely related statement about prussian blue is correct?",
       "options": [
         "A) Prussian blue detects ferric iron in tissue",
         "B) Tissue Gram is as sensitive as culture always",
@@ -1880,7 +1880,7 @@
     },
     {
       "id": "histopathology:extreme:14",
-      "question": "A 59-year-old woman has refractory abnormalities due to aFB tissue. Which of the following is the most accurate interpretation?",
+      "question": "Which of the following is the central point about AFB tissue?",
       "options": [
         "A) ZN/auramine detect acid-fast organisms in tissue",
         "B) Aspergillus in tissue always equals noninvasive colonization",
@@ -1898,7 +1898,7 @@
     },
     {
       "id": "histopathology:extreme:15",
-      "question": "A critical-care presentation involving GMS in a 57-year-old woman is discussed. Which of the following is most likely?",
+      "question": "Which statement about GMS is most accurate?",
       "options": [
         "A) Hematoxylin stains cytoplasm pink; eosin stains nuclei blue",
         "B) GMS stains fungal walls black",
@@ -1916,7 +1916,7 @@
     },
     {
       "id": "histopathology:extreme:16",
-      "question": "A 65-year-old woman with diabetes and hypertension develops rapidly worsening features of warthin-Starry. Vital signs are unstable. Which of the following is most likely?",
+      "question": "Careful reasoning about warthin-Starry is required. Which of the following is most accurate?",
       "options": [
         "A) Warthin-Starry can highlight spirochetes and Helicobacter",
         "B) Trephine replaces flow and aspirate always",
@@ -1934,7 +1934,7 @@
     },
     {
       "id": "histopathology:extreme:17",
-      "question": "In the emergency department, a 55-year-old woman is critically ill with a syndrome centered on tissue Gram. Which of the following is most likely?",
+      "question": "Small differences in wording about tissue Gram matter. Which of the following is correct?",
       "options": [
         "A) Tissue Gram is as sensitive as culture always",
         "B) Prussian blue is the Gram counterstain",
@@ -1952,7 +1952,7 @@
     },
     {
       "id": "histopathology:extreme:18",
-      "question": "A 32-year-old man deteriorates overnight with IHC. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "Which of the following is the most precise statement about IHC?",
       "options": [
         "A) Formalin freezes tissue without crosslinking like LN2",
         "B) IHC localizes antigens in tissue with antibodies",
@@ -1970,7 +1970,7 @@
     },
     {
       "id": "histopathology:extreme:19",
-      "question": "A 69-year-old woman with diabetes and hypertension develops life-threatening complications in the setting of cytokeratin. Which of the following is most consistent with the clinical process?",
+      "question": "In advanced review of cytokeratin, which of the following is most accurate?",
       "options": [
         "A) p16 positivity proves HPV in all tumor sites always",
         "B) CD45 positivity proves carcinoma always",
@@ -1988,7 +1988,7 @@
     },
     {
       "id": "histopathology:extreme:20",
-      "question": "A rapidly progressive presentation of CD45 is reviewed in a 67-year-old woman. Which of the following is most likely?",
+      "question": "Which interpretation of CD45 is most accurate?",
       "options": [
         "A) CD45 positivity proves carcinoma always",
         "B) PSA positivity proves urothelial carcinoma",
@@ -2006,7 +2006,7 @@
     },
     {
       "id": "histopathology:extreme:21",
-      "question": "A 28-year-old man requires urgent decision-making for S100. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Which closely related statement about S100 is correct?",
       "options": [
         "A) Melan-A/HMB-45 diagnose only squamous carcinoma",
         "B) SOX10 diagnoses only hepatocellular carcinoma",
@@ -2024,7 +2024,7 @@
     },
     {
       "id": "histopathology:extreme:22",
-      "question": "A 40-year-old man has refractory abnormalities due to melan-A/HMB45. Which of the following is the most accurate interpretation?",
+      "question": "Which of the following is the central point about melan-A/HMB45?",
       "options": [
         "A) Melan-A/HMB-45 diagnose only squamous carcinoma",
         "B) Melan-A/HMB-45 support melanocytic differentiation",
@@ -2042,7 +2042,7 @@
     },
     {
       "id": "histopathology:extreme:23",
-      "question": "A critical-care presentation involving TTF-1 in a 63-year-old woman is discussed. Which of the following is most likely?",
+      "question": "Which statement about TTF-1 is most accurate?",
       "options": [
         "A) PSA positivity proves urothelial carcinoma",
         "B) TTF-1 positivity always equals colon adenocarcinoma",
@@ -2060,7 +2060,7 @@
     },
     {
       "id": "histopathology:extreme:24",
-      "question": "A 49-year-old woman develops rapidly worsening features of CDX2. Vital signs are unstable. Which of the following is most likely?",
+      "question": "Careful reasoning about CDX2 is required. Which of the following is most accurate?",
       "options": [
         "A) Melan-A/HMB-45 diagnose only squamous carcinoma",
         "B) CDX2 diagnoses primary lung squamous carcinoma",
@@ -2078,7 +2078,7 @@
     },
     {
       "id": "histopathology:extreme:25",
-      "question": "In the emergency department, a 27-year-old woman is critically ill with a syndrome centered on PSA IHC. Which of the following is most likely?",
+      "question": "Small differences in wording about PSA IHC matter. Which of the following is correct?",
       "options": [
         "A) PSA positivity proves urothelial carcinoma",
         "B) TTF-1 positivity always equals colon adenocarcinoma",
@@ -2096,7 +2096,7 @@
     },
     {
       "id": "histopathology:extreme:26",
-      "question": "A 38-year-old man deteriorates overnight with ER/PR. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "Which of the following is the most precise statement about ER/PR?",
       "options": [
         "A) ER/PR nuclear IHC guide breast endocrine therapy",
         "B) ER/PR are irrelevant cytoplasmic stains",
@@ -2114,7 +2114,7 @@
     },
     {
       "id": "histopathology:extreme:27",
-      "question": "A 70-year-old man with diabetes and hypertension develops life-threatening complications in the setting of HER2. Which of the following is most consistent with the clinical process?",
+      "question": "In advanced review of HER2, which of the following is most accurate?",
       "options": [
         "A) HER2 status is irrelevant to therapy",
         "B) ER/PR are irrelevant cytoplasmic stains",
@@ -2132,7 +2132,7 @@
     },
     {
       "id": "histopathology:extreme:28",
-      "question": "A rapidly progressive presentation of ki-67 is reviewed in a 52-year-old man. Which of the following is most likely?",
+      "question": "Which interpretation of ki-67 is most accurate?",
       "options": [
         "A) Mucicarmine stains epithelial mucin and Cryptococcus capsule",
         "B) Ki-67 is a proliferation index marker",
@@ -2150,7 +2150,7 @@
     },
     {
       "id": "histopathology:extreme:29",
-      "question": "A 55-year-old woman requires urgent decision-making for p53 IHC. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Which closely related statement about p53 IHC is correct?",
       "options": [
         "A) p53 overexpression always equals wild-type TP53",
         "B) Decalcification always improves DNA yield",

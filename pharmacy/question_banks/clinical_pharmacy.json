@@ -2,7 +2,7 @@
   "easy": [
     {
       "id": "clinical_pharmacy:easy:0",
-      "question": "Which of the following best characterizes warfarin INR AF?",
+      "question": "Which of the following is true of warfarin INR AF?",
       "options": [
         "A) Most nonvalvular AF targets INR about 2–3 on warfarin",
         "B) Routine target INR 4.5–6 for typical nonvalvular AF",
@@ -20,7 +20,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:1",
-      "question": "Which finding is most consistent with warfarin amiodarone?",
+      "question": "Which finding is expected in warfarin amiodarone?",
       "options": [
         "A) No antibiotic ever affects warfarin INR",
         "B) Amiodarone induces warfarin metabolism so INR always falls needing immediate dose increases",
@@ -38,7 +38,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:2",
-      "question": "Which of the following statements about dOAC counseling is most accurate?",
+      "question": "Which of the following statements about DOAC counseling is correct?",
       "options": [
         "A) DOACs require weekly INR checks identical to warfarin",
         "B) Always give full 4F-PCC for any INR of 3.5 without bleeding",
@@ -56,7 +56,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:3",
-      "question": "In patients with uFH monitoring, which of the following is most correct?",
+      "question": "In UFH monitoring, which of the following is correct?",
       "options": [
         "A) INR is the standard monitor for LMWH in pregnancy",
         "B) LMWH always requires INR monitoring every 6 hours",
@@ -74,7 +74,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:4",
-      "question": "Which of the following is the hallmark feature of protamine?",
+      "question": "Which of the following best describes protamine?",
       "options": [
         "A) Protamine reverses LMWH more completely than UFH always",
         "B) Protamine reverses UFH; LMWH reversal is incomplete; watch anaphylactoid reactions",
@@ -92,7 +92,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:5",
-      "question": "Which description most accurately matches hIT management?",
+      "question": "Select the correct statement about HIT management.",
       "options": [
         "A) Increase antipsychotic dose to treat NMS rigidity",
         "B) Always stop all antiplatelets 2 months before any dental procedure without exception",
@@ -110,7 +110,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:6",
-      "question": "Regarding vancomycin levels, which of the following is most accurate?",
+      "question": "Which mechanism accounts for vancomycin levels?",
       "options": [
         "A) Routine target INR 4.5–6 for typical nonvalvular AF",
         "B) Routine trough targets of 40–50 mg/L for simple cellulitis",
@@ -128,7 +128,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:7",
-      "question": "Which of the following mechanisms best explains aminoglycoside extended interval?",
+      "question": "Which of the following applies to aminoglycoside extended interval?",
       "options": [
         "A) Beta-lactams are purely concentration-dependent with only once-daily Cmax goals like AGs",
         "B) Aminoglycosides are purely time-dependent like beta-lactams needing only continuous infusion always",
@@ -146,7 +146,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:8",
-      "question": "Which of the following best characterizes renal dosing vanco AG?",
+      "question": "Which of the following best defines renal dosing vanco AG?",
       "options": [
         "A) Severe CKD always requires higher LMWH doses for the same anti-Xa effect",
         "B) Reduce dose or extend interval when GFR falls to avoid accumulation",
@@ -164,7 +164,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:9",
-      "question": "Which finding is most consistent with digoxin toxicity risks?",
+      "question": "Which statement about digoxin toxicity risks is correct?",
       "options": [
         "A) Hypokalemia, hypomagnesemia, renal impairment, and interactions raise digoxin toxicity risk",
         "B) Electrolytes never influence digoxin toxicity",
@@ -182,7 +182,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:10",
-      "question": "Which of the following statements about phenytoin hypoalbuminemia is most accurate?",
+      "question": "Which statement regarding phenytoin hypoalbuminemia is correct?",
       "options": [
         "A) Thiazides always lower lithium by increasing Li clearance",
         "B) Low albumin makes total levels always overestimate toxicity without free-level thought",
@@ -200,7 +200,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:11",
-      "question": "In patients with carbamazepine autoinduction clinic, which of the following is most correct?",
+      "question": "Which of the following correctly describes carbamazepine autoinduction clinic?",
       "options": [
         "A) VPA never affects ammonia concentrations",
         "B) Thiazides always lower lithium by increasing Li clearance",
@@ -218,7 +218,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:12",
-      "question": "Which of the following is the hallmark feature of valproate hyperammonemia?",
+      "question": "Which of the following best describes valproate hyperammonemia?",
       "options": [
         "A) VPA can cause hyperammonemic encephalopathy even with seemingly therapeutic levels",
         "B) Carbamazepine levels never change after a stable starting dose",
@@ -236,7 +236,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:13",
-      "question": "Which description most accurately matches lithium thiazide?",
+      "question": "Which of the following applies to lithium thiazide?",
       "options": [
         "A) Thiazides always lower lithium by increasing Li clearance",
         "B) Electrolytes never influence digoxin toxicity",
@@ -254,7 +254,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:14",
-      "question": "Regarding SSRI MAOI, which of the following is most accurate?",
+      "question": "Which mechanism accounts for SSRI MAOI?",
       "options": [
         "A) Combining SSRIs with MAOIs risks severe serotonin syndrome; respect washouts",
         "B) Linezolid has no serotonergic interaction potential",
@@ -272,7 +272,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:15",
-      "question": "Which of the following mechanisms best explains serotonin syndrome Rx?",
+      "question": "Which of the following applies to serotonin syndrome?",
       "options": [
         "A) Add another MAOI to overcome serotonin excess",
         "B) Linezolid has no serotonergic interaction potential",
@@ -290,7 +290,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:16",
-      "question": "Which of the following best characterizes nMS management?",
+      "question": "Which of the following is true of NMS management?",
       "options": [
         "A) Automatically increase doses as GFR falls to maintain effect",
         "B) Increase antipsychotic dose to treat NMS rigidity",
@@ -308,7 +308,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:17",
-      "question": "Which finding is most consistent with opioid rotation?",
+      "question": "Which finding is expected in opioid rotation?",
       "options": [
         "A) Use exact 1:1 milligram equivalency without safety reduction ever",
         "B) LMWH always requires INR monitoring every 6 hours",
@@ -326,7 +326,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:18",
-      "question": "Which of the following statements about pCA safety is most accurate?",
+      "question": "Which of the following statements about PCA safety is correct?",
       "options": [
         "A) Monitor sedation and respiration; discourage PCA by proxy",
         "B) Abruptly stop chronic steroids during sepsis to recover the adrenal axis",
@@ -344,7 +344,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:19",
-      "question": "In patients with insulin stacking, which of the following is most correct?",
+      "question": "In insulin stacking, which of the following is correct?",
       "options": [
         "A) Stacking rapid insulin always prevents hypoglycemia",
         "B) Repeating rapid-acting insulin before the prior dose peaks can cause delayed hypoglycemia",
@@ -362,7 +362,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:20",
-      "question": "Which of the following is the hallmark feature of hypoglycemia treatment?",
+      "question": "Which of the following best describes hypoglycemia treatment?",
       "options": [
         "A) Stacking rapid insulin always prevents hypoglycemia",
         "B) Give IV insulin to treat hypoglycemia",
@@ -380,7 +380,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:21",
-      "question": "Which description most accurately matches dKA potassium rule?",
+      "question": "Select the correct statement about DKA potassium rule.",
       "options": [
         "A) Hold insulin if potassium is critically low until potassium is replaced",
         "B) Hand a leaflet only without checking understanding for warfarin or insulin",
@@ -398,7 +398,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:22",
-      "question": "Regarding hHS versus DKA, which of the following is most accurate?",
+      "question": "Which mechanism accounts for HHS versus DKA?",
       "options": [
         "A) FFP is always faster and lower volume than PCC for urgent INR reversal",
         "B) HHS always shows large anion-gap ketoacidosis identical to DKA",
@@ -416,7 +416,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:23",
-      "question": "Which of the following mechanisms best explains steroid stress dosing?",
+      "question": "Which of the following applies to steroid stress dosing?",
       "options": [
         "A) Abruptly stop chronic steroids during sepsis to recover the adrenal axis",
         "B) Any three-day steroid pack always requires an eight-week taper",
@@ -434,7 +434,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:24",
-      "question": "Which of the following best characterizes pPI stewardship?",
+      "question": "Which of the following is true of PPI stewardship?",
       "options": [
         "A) UFH strengthens bone with chronic use",
         "B) DAPT is identical lifelong high-intensity for every patient after any stent without reassessment",
@@ -452,7 +452,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:25",
-      "question": "Which finding is most consistent with clopidogrel omeprazole?",
+      "question": "Which finding is expected in clopidogrel omeprazole?",
       "options": [
         "A) Omeprazole/esomeprazole may reduce clopidogrel bioactivation via CYP2C19",
         "B) All PPIs equally increase clopidogrel activation and lower stent thrombosis",
@@ -470,7 +470,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:26",
-      "question": "Which of the following statements about statin myopathy risks is most accurate?",
+      "question": "Which of the following statements about statin myopathy risks is correct?",
       "options": [
         "A) Loop diuretics are the classic cause of SIADH as ADH secretagogues",
         "B) Statins never cause muscle toxicity",
@@ -488,7 +488,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:27",
-      "question": "In patients with sick day reno drugs, which of the following is most correct?",
+      "question": "In sick day reno drugs, which of the following is correct?",
       "options": [
         "A) The combination protects GFR in all elderly patients",
         "B) Double ACEI during gastroenteritis dehydration to protect kidneys",
@@ -506,7 +506,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:28",
-      "question": "Which of the following is the hallmark feature of nSAID in HF?",
+      "question": "Which of the following best describes NSAID in HF?",
       "options": [
         "A) IV diphenhydramine alone is first and only treatment for anaphylactic airway compromise",
         "B) Anticholinergics improve cognition in dementia as first-line therapy",
@@ -524,7 +524,7 @@
     },
     {
       "id": "clinical_pharmacy:easy:29",
-      "question": "Which description most accurately matches triple whammy?",
+      "question": "Select the correct statement about triple whammy.",
       "options": [
         "A) ACEI/ARB + diuretic + NSAID combination markedly increases AKI risk",
         "B) The combination protects GFR in all elderly patients",
@@ -544,7 +544,7 @@
   "medium": [
     {
       "id": "clinical_pharmacy:medium:0",
-      "question": "A 31-year-old man is started on therapy relevant to warfarin INR AF. Which of the following is the most accurate statement?",
+      "question": "A 32-year-old man is started on treatment related to warfarin INR AF. Which of the following is correct?",
       "options": [
         "A) Most nonvalvular AF targets INR about 2–3 on warfarin",
         "B) DOACs require weekly INR checks identical to warfarin",
@@ -562,7 +562,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:1",
-      "question": "A 40-year-old woman with multiple medications is evaluated for an issue involving warfarin amiodarone. Which of the following is most appropriate?",
+      "question": "A 41-year-old woman takes several medicines and is assessed regarding warfarin amiodarone. Which of the following is most appropriate?",
       "options": [
         "A) Amiodarone induces warfarin metabolism so INR always falls needing immediate dose increases",
         "B) Always give full 4F-PCC for any INR of 3.5 without bleeding",
@@ -580,7 +580,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:2",
-      "question": "A pharmacist reviews a regimen concerning dOAC counseling. Which of the following is most accurate?",
+      "question": "Medication review raises a question about DOAC counseling. Which of the following is correct?",
       "options": [
         "A) DOACs require weekly INR checks identical to warfarin",
         "B) Double every missed DOAC dose regardless of timing",
@@ -598,7 +598,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:3",
-      "question": "A 31-year-old man develops a clinical problem related to uFH monitoring. Which of the following best explains the findings?",
+      "question": "A 32-year-old man develops an adverse effect related to UFH monitoring. Which of the following best explains it?",
       "options": [
         "A) LMWH always requires INR monitoring every 6 hours",
         "B) UFH infusions use aPTT or anti-Xa; LMWH is usually weight-based without routine levels",
@@ -616,7 +616,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:4",
-      "question": "A 56-year-old man presents to clinic with a medication-related question about protamine. Which of the following is most correct?",
+      "question": "A 57-year-old man needs counseling about protamine. Which of the following is most appropriate?",
       "options": [
         "A) Reverses all factor Xa inhibitor DOACs equally",
         "B) Protamine is first-line reversal for all DOACs equally",
@@ -634,7 +634,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:5",
-      "question": "During medication reconciliation, a concern about hIT management is raised. Which of the following is most accurate?",
+      "question": "During medication reconciliation, HIT management is discussed. Which of the following is correct?",
       "options": [
         "A) Stop all heparin and anticoagulate with a non-heparin agent when HIT is likely",
         "B) Increase UFH dose to overcome HIT antibodies",
@@ -652,7 +652,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:6",
-      "question": "A 33-year-old man requires counseling about vancomycin levels. Which of the following statements is most appropriate?",
+      "question": "A 34-year-old man needs dose adjustment related to vancomycin levels. Which of the following is most accurate?",
       "options": [
         "A) Routine trough targets of 40–50 mg/L for simple cellulitis",
         "B) Metformin dosing ignores renal function and acute illness",
@@ -670,7 +670,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:7",
-      "question": "A 68-year-old man has laboratory changes attributed to aminoglycoside extended interval. Which of the following is most likely?",
+      "question": "A 69-year-old man has lab changes linked to aminoglycoside extended interval. Which of the following is correct?",
       "options": [
         "A) Extended-interval dosing leverages concentration-dependent killing and post-antibiotic effect",
         "B) Beta-lactams are purely concentration-dependent with only once-daily Cmax goals like AGs",
@@ -688,7 +688,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:8",
-      "question": "A 49-year-old man is started on therapy relevant to renal dosing vanco AG. Which of the following is the most accurate statement?",
+      "question": "Which of the following correctly describes renal dosing vanco AG in clinical use?",
       "options": [
         "A) Reduce dose or extend interval when GFR falls to avoid accumulation",
         "B) Severe CKD always requires higher LMWH doses for the same anti-Xa effect",
@@ -706,7 +706,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:9",
-      "question": "A 36-year-old man with multiple medications is evaluated for an issue involving digoxin toxicity risks. Which of the following is most appropriate?",
+      "question": "During a pharmacology discussion of digoxin toxicity risks, which statement is correct?",
       "options": [
         "A) Thiazides always lower lithium by increasing Li clearance",
         "B) Hypokalemia, hypomagnesemia, renal impairment, and interactions raise digoxin toxicity risk",
@@ -724,7 +724,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:10",
-      "question": "A pharmacist reviews a regimen concerning phenytoin hypoalbuminemia. Which of the following is most accurate?",
+      "question": "A 66-year-old man has findings requiring interpretation of phenytoin hypoalbuminemia. Which of the following is correct?",
       "options": [
         "A) Low albumin raises free phenytoin fraction; interpret totals with correction or free levels",
         "B) Low albumin makes total levels always overestimate toxicity without free-level thought",
@@ -742,7 +742,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:11",
-      "question": "A 56-year-old man develops a clinical problem related to carbamazepine autoinduction clinic. Which of the following best explains the findings?",
+      "question": "In comparing drug properties, which statement about carbamazepine autoinduction clinic is correct?",
       "options": [
         "A) Levels may fall over initial weeks as clearance rises; retitrate carefully",
         "B) Thiazides always lower lithium by increasing Li clearance",
@@ -760,7 +760,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:12",
-      "question": "A 58-year-old woman presents to clinic with a medication-related question about valproate hyperammonemia. Which of the following is most correct?",
+      "question": "A 59-year-old woman needs counseling about valproate hyperammonemia. Which of the following is most appropriate?",
       "options": [
         "A) VPA never affects ammonia concentrations",
         "B) Carbamazepine levels never change after a stable starting dose",
@@ -778,7 +778,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:13",
-      "question": "During medication reconciliation, a concern about lithium thiazide is raised. Which of the following is most accurate?",
+      "question": "Which explanation of lithium thiazide is most accurate?",
       "options": [
         "A) Thiazides always lower lithium by increasing Li clearance",
         "B) Thiazides can raise lithium levels via enhanced proximal reabsorption — toxicity risk",
@@ -796,7 +796,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:14",
-      "question": "A 44-year-old man requires counseling about SSRI MAOI. Which of the following statements is most appropriate?",
+      "question": "A 45-year-old man needs dose adjustment related to SSRI MAOI. Which of the following is most accurate?",
       "options": [
         "A) Combining SSRIs with MAOIs risks severe serotonin syndrome; respect washouts",
         "B) SSRIs and MAOIs are routinely co-started for faster effect safely",
@@ -814,7 +814,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:15",
-      "question": "A 57-year-old woman has laboratory changes attributed to serotonin syndrome Rx. Which of the following is most likely?",
+      "question": "A 36-year-old man has lab changes linked to serotonin syndrome. Which of the following is correct?",
       "options": [
         "A) Add another MAOI to overcome serotonin excess",
         "B) Increase UFH dose to overcome HIT antibodies",
@@ -832,7 +832,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:16",
-      "question": "A 40-year-old woman is started on therapy relevant to nMS management. Which of the following is the most accurate statement?",
+      "question": "A 41-year-old woman is started on treatment related to NMS management. Which of the following is correct?",
       "options": [
         "A) Increase antipsychotic dose to treat NMS rigidity",
         "B) Stop antipsychotics and provide supportive care; consider dantrolene/bromocriptine in severe cases",
@@ -850,7 +850,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:17",
-      "question": "A 68-year-old woman with multiple medications is evaluated for an issue involving opioid rotation. Which of the following is most appropriate?",
+      "question": "A 69-year-old woman takes several medicines and is assessed regarding opioid rotation. Which of the following is most appropriate?",
       "options": [
         "A) Use exact 1:1 milligram equivalency without safety reduction ever",
         "B) Incomplete cross-tolerance requires dose reduction when rotating opioids",
@@ -868,7 +868,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:18",
-      "question": "A pharmacist reviews a regimen concerning pCA safety. Which of the following is most accurate?",
+      "question": "Medication review raises a question about PCA safety. Which of the following is correct?",
       "options": [
         "A) Encourage family to press PCA while the patient sleeps deeply",
         "B) DAPT is identical lifelong high-intensity for every patient after any stent without reassessment",
@@ -886,7 +886,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:19",
-      "question": "A 62-year-old man develops a clinical problem related to insulin stacking. Which of the following best explains the findings?",
+      "question": "A 63-year-old man develops an adverse effect related to insulin stacking. Which of the following best explains it?",
       "options": [
         "A) Give IV insulin to treat hypoglycemia",
         "B) Statins never cause muscle toxicity",
@@ -904,7 +904,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:20",
-      "question": "A 31-year-old woman presents to clinic with a medication-related question about hypoglycemia treatment. Which of the following is most correct?",
+      "question": "A 32-year-old woman needs counseling about hypoglycemia treatment. Which of the following is most appropriate?",
       "options": [
         "A) Conscious: oral glucose; unconscious: IV dextrose or glucagon if no IV access",
         "B) Give IV insulin to treat hypoglycemia",
@@ -922,7 +922,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:21",
-      "question": "During medication reconciliation, a concern about dKA potassium rule is raised. Which of the following is most accurate?",
+      "question": "During medication reconciliation, DKA potassium rule is discussed. Which of the following is correct?",
       "options": [
         "A) Hand a leaflet only without checking understanding for warfarin or insulin",
         "B) Always give full 4F-PCC for any INR of 3.5 without bleeding",
@@ -940,7 +940,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:22",
-      "question": "A 41-year-old woman requires counseling about hHS versus DKA. Which of the following statements is most appropriate?",
+      "question": "A 42-year-old woman needs dose adjustment related to HHS versus DKA. Which of the following is most accurate?",
       "options": [
         "A) HHS features profound hyperglycemia/hyperosmolarity with little ketoacidosis",
         "B) FFP is always faster and lower volume than PCC for urgent INR reversal",
@@ -958,7 +958,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:23",
-      "question": "A 31-year-old woman has laboratory changes attributed to steroid stress dosing. Which of the following is most likely?",
+      "question": "A 32-year-old woman has lab changes linked to steroid stress dosing. Which of the following is correct?",
       "options": [
         "A) Abruptly stop chronic steroids during sepsis to recover the adrenal axis",
         "B) Patients with adrenal suppression need increased glucocorticoid coverage during major stress",
@@ -976,7 +976,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:24",
-      "question": "A 35-year-old man is started on therapy relevant to pPI stewardship. Which of the following is the most accurate statement?",
+      "question": "A 36-year-old man is started on treatment related to PPI stewardship. Which of the following is correct?",
       "options": [
         "A) Continue PPIs lifelong in every patient without indication review",
         "B) DAPT is identical lifelong high-intensity for every patient after any stent without reassessment",
@@ -994,7 +994,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:25",
-      "question": "A 66-year-old man with multiple medications is evaluated for an issue involving clopidogrel omeprazole. Which of the following is most appropriate?",
+      "question": "A 67-year-old man takes several medicines and is assessed regarding clopidogrel omeprazole. Which of the following is most appropriate?",
       "options": [
         "A) All PPIs equally increase clopidogrel activation and lower stent thrombosis",
         "B) Thiazides always lower lithium by increasing Li clearance",
@@ -1012,7 +1012,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:26",
-      "question": "A pharmacist reviews a regimen concerning statin myopathy risks. Which of the following is most accurate?",
+      "question": "Medication review raises a question about statin myopathy risks. Which of the following is correct?",
       "options": [
         "A) High dose, interacting inhibitors, hypothyroidism, and organ impairment raise myopathy risk",
         "B) Electrolytes never influence digoxin toxicity",
@@ -1030,7 +1030,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:27",
-      "question": "A 58-year-old woman develops a clinical problem related to sick day reno drugs. Which of the following best explains the findings?",
+      "question": "A 59-year-old woman develops an adverse effect related to sick day reno drugs. Which of the following best explains it?",
       "options": [
         "A) Double ACEI during gastroenteritis dehydration to protect kidneys",
         "B) The combination protects GFR in all elderly patients",
@@ -1048,7 +1048,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:28",
-      "question": "A 61-year-old man presents to clinic with a medication-related question about nSAID in HF. Which of the following is most correct?",
+      "question": "A 62-year-old man needs counseling about NSAID in HF. Which of the following is most appropriate?",
       "options": [
         "A) Anticholinergics improve cognition in dementia as first-line therapy",
         "B) IV diphenhydramine alone is first and only treatment for anaphylactic airway compromise",
@@ -1066,7 +1066,7 @@
     },
     {
       "id": "clinical_pharmacy:medium:29",
-      "question": "During medication reconciliation, a concern about triple whammy is raised. Which of the following is most accurate?",
+      "question": "During medication reconciliation, triple whammy is discussed. Which of the following is correct?",
       "options": [
         "A) Any single fall forever prohibits anticoagulation regardless of stroke risk",
         "B) Double ACEI during gastroenteritis dehydration to protect kidneys",
@@ -1086,7 +1086,7 @@
   "hard": [
     {
       "id": "clinical_pharmacy:hard:0",
-      "question": "A 31-year-old man presents with findings that could fit more than one process often confused with warfarin INR AF. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "Careful review of warfarin INR AF is required. Which of the following is most accurate?",
       "options": [
         "A) Routine target INR 4.5–6 for typical nonvalvular AF",
         "B) Most nonvalvular AF targets INR about 2–3 on warfarin",
@@ -1104,7 +1104,7 @@
     },
     {
       "id": "clinical_pharmacy:hard:1",
-      "question": "A 40-year-old woman is hospitalized with evolving features of warfarin amiodarone. A common mimic remains possible. Which of the following is most likely?",
+      "question": "Two similar explanations for warfarin amiodarone are compared. Which of the following is correct?",
       "options": [
         "A) No antibiotic ever affects warfarin INR",
         "B) Amiodarone inhibits warfarin metabolism; reduce warfarin and monitor INR closely",
@@ -1122,7 +1122,7 @@
     },
     {
       "id": "clinical_pharmacy:hard:2",
-      "question": "A 45-year-old man is evaluated for dOAC counseling. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "In a detailed discussion of DOAC counseling, which of the following is most accurate?",
       "options": [
         "A) DOACs avoid routine INR titration and vitamin K diet issues but demand strict adherence",
         "B) All DOACs are used at identical full doses regardless of renal function",
@@ -1140,7 +1140,7 @@
     },
     {
       "id": "clinical_pharmacy:hard:3",
-      "question": "A 31-year-old man is evaluated for suspected uFH monitoring. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "A 32-year-old man has suspected UFH monitoring, and similar diagnoses remain possible. Which of the following is most accurate?",
       "options": [
         "A) UFH infusions use aPTT or anti-Xa; LMWH is usually weight-based without routine levels",
         "B) INR is the standard monitor for LMWH in pregnancy",
@@ -1158,7 +1158,7 @@
     },
     {
       "id": "clinical_pharmacy:hard:4",
-      "question": "Findings thought to represent protamine can be misread. Which of the following is most correct?",
+      "question": "Initial reading of the case suggested protamine. Which of the following is correct?",
       "options": [
         "A) Protamine reverses LMWH more completely than UFH always",
         "B) Protamine is first-line reversal for all DOACs equally",
@@ -1176,7 +1176,7 @@
     },
     {
       "id": "clinical_pharmacy:hard:5",
-      "question": "A 45-year-old man presents with hIT management. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "Which statement about HIT management is most accurate?",
       "options": [
         "A) Always stop all antiplatelets 2 months before any dental procedure without exception",
         "B) Increase UFH dose to overcome HIT antibodies",
@@ -1194,7 +1194,7 @@
     },
     {
       "id": "clinical_pharmacy:hard:6",
-      "question": "A complex case of vancomycin levels involving a 33-year-old man is reviewed on rounds. Which of the following is most accurate?",
+      "question": "A difficult case of vancomycin levels in a 34-year-old man is reviewed. Which of the following is correct?",
       "options": [
         "A) Severe CKD always requires higher LMWH doses for the same anti-Xa effect",
         "B) Serious MRSA infections use AUC-guided or historically higher trough targets with nephrotoxicity vigilance",
@@ -1212,7 +1212,7 @@
     },
     {
       "id": "clinical_pharmacy:hard:7",
-      "question": "A 68-year-old man has progressive abnormalities attributed to aminoglycoside extended interval. Which of the following is most consistent with the clinical process?",
+      "question": "Which of the following is the best statement about aminoglycoside extended interval?",
       "options": [
         "A) Beta-lactams are purely concentration-dependent with only once-daily Cmax goals like AGs",
         "B) Aminoglycosides are purely time-dependent like beta-lactams needing only continuous infusion always",
@@ -1230,7 +1230,7 @@
     },
     {
       "id": "clinical_pharmacy:hard:8",
-      "question": "A 49-year-old man presents with findings that could fit more than one process often confused with renal dosing vanco AG. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "Careful review of renal dosing vanco AG is required. Which of the following is most accurate?",
       "options": [
         "A) Automatically increase doses as GFR falls to maintain effect",
         "B) Severe CKD always requires higher LMWH doses for the same anti-Xa effect",
@@ -1248,7 +1248,7 @@
     },
     {
       "id": "clinical_pharmacy:hard:9",
-      "question": "A 36-year-old man is hospitalized with evolving features of digoxin toxicity risks. A common mimic remains possible. Which of the following is most likely?",
+      "question": "Two similar explanations for digoxin toxicity risks are compared. Which of the following is correct?",
       "options": [
         "A) Statins never cause muscle toxicity",
         "B) Electrolytes never influence digoxin toxicity",
@@ -1266,7 +1266,7 @@
     },
     {
       "id": "clinical_pharmacy:hard:10",
-      "question": "A 65-year-old man is evaluated for phenytoin hypoalbuminemia. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "In a detailed discussion of phenytoin hypoalbuminemia, which of the following is most accurate?",
       "options": [
         "A) Thiazides always lower lithium by increasing Li clearance",
         "B) Low albumin makes total levels always overestimate toxicity without free-level thought",
@@ -1284,7 +1284,7 @@
     },
     {
       "id": "clinical_pharmacy:hard:11",
-      "question": "A 56-year-old man is evaluated for suspected carbamazepine autoinduction clinic. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "Which of the following correctly distinguishes key points about carbamazepine autoinduction clinic?",
       "options": [
         "A) Carbamazepine levels never change after a stable starting dose",
         "B) VPA never affects ammonia concentrations",
@@ -1302,7 +1302,7 @@
     },
     {
       "id": "clinical_pharmacy:hard:12",
-      "question": "Findings thought to represent valproate hyperammonemia can be misread. Which of the following is most correct?",
+      "question": "Initial reading of the case suggested valproate hyperammonemia. Which of the following is correct?",
       "options": [
         "A) Liver failure never affects anticoagulant choice or INR interpretation",
         "B) Carbamazepine levels never change after a stable starting dose",
@@ -1320,7 +1320,7 @@
     },
     {
       "id": "clinical_pharmacy:hard:13",
-      "question": "A 61-year-old man presents with lithium thiazide. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "Which statement about lithium thiazide is most accurate?",
       "options": [
         "A) Electrolytes never influence digoxin toxicity",
         "B) Thiazides can raise lithium levels via enhanced proximal reabsorption — toxicity risk",
@@ -1338,7 +1338,7 @@
     },
     {
       "id": "clinical_pharmacy:hard:14",
-      "question": "A complex case of SSRI MAOI involving a 44-year-old man is reviewed on rounds. Which of the following is most accurate?",
+      "question": "A difficult case of SSRI MAOI in a 45-year-old man is reviewed. Which of the following is correct?",
       "options": [
         "A) Linezolid has no serotonergic interaction potential",
         "B) SSRIs and MAOIs are routinely co-started for faster effect safely",
@@ -1356,7 +1356,7 @@
     },
     {
       "id": "clinical_pharmacy:hard:15",
-      "question": "A 57-year-old woman has progressive abnormalities attributed to serotonin syndrome Rx. Which of the following is most consistent with the clinical process?",
+      "question": "A 36-year-old man has progressive findings of serotonin syndrome. Which of the following is most accurate?",
       "options": [
         "A) Stop serotonergic agents, support ABCs, use benzodiazepines; consider cyproheptadine",
         "B) Increase UFH dose to overcome HIT antibodies",
@@ -1374,7 +1374,7 @@
     },
     {
       "id": "clinical_pharmacy:hard:16",
-      "question": "A 40-year-old woman presents with findings that could fit more than one process often confused with nMS management. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "Careful review of NMS management is required. Which of the following is most accurate?",
       "options": [
         "A) Increase antipsychotic dose to treat NMS rigidity",
         "B) Increase UFH dose to overcome HIT antibodies",
@@ -1392,7 +1392,7 @@
     },
     {
       "id": "clinical_pharmacy:hard:17",
-      "question": "A 68-year-old woman is hospitalized with evolving features of opioid rotation. A common mimic remains possible. Which of the following is most likely?",
+      "question": "Two similar explanations for opioid rotation are compared. Which of the following is correct?",
       "options": [
         "A) Opioid constipation always resolves by day three without prophylaxis",
         "B) Use exact 1:1 milligram equivalency without safety reduction ever",
@@ -1410,7 +1410,7 @@
     },
     {
       "id": "clinical_pharmacy:hard:18",
-      "question": "A 52-year-old woman is evaluated for pCA safety. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "In a detailed discussion of PCA safety, which of the following is most accurate?",
       "options": [
         "A) Metformin dosing ignores renal function and acute illness",
         "B) Encourage family to press PCA while the patient sleeps deeply",
@@ -1428,7 +1428,7 @@
     },
     {
       "id": "clinical_pharmacy:hard:19",
-      "question": "A 62-year-old man is evaluated for suspected insulin stacking. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "Which of the following correctly distinguishes key points about insulin stacking?",
       "options": [
         "A) Stacking rapid insulin always prevents hypoglycemia",
         "B) Give IV insulin to treat hypoglycemia",
@@ -1446,7 +1446,7 @@
     },
     {
       "id": "clinical_pharmacy:hard:20",
-      "question": "Findings thought to represent hypoglycemia treatment can be misread. Which of the following is most correct?",
+      "question": "Careful interpretation of hypoglycemia treatment is required. Which of the following is correct?",
       "options": [
         "A) Stacking rapid insulin always prevents hypoglycemia",
         "B) Steroids never affect glucose concentrations",
@@ -1464,7 +1464,7 @@
     },
     {
       "id": "clinical_pharmacy:hard:21",
-      "question": "A 36-year-old man presents with dKA potassium rule. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "A 37-year-old man presents with DKA potassium rule. Which of the following best separates it from similar conditions?",
       "options": [
         "A) Start insulin immediately despite severe hypokalemia without repletion",
         "B) Observe febrile neutropenia 48 hours without antibiotics if the patient looks well",
@@ -1482,29 +1482,11 @@
     },
     {
       "id": "clinical_pharmacy:hard:22",
-      "question": "A complex case of hHS versus DKA involving a 41-year-old woman is reviewed on rounds. Which of the following is most accurate?",
+      "question": "A 32-year-old woman has progressive findings of steroid stress dosing. Which of the following is most accurate?",
       "options": [
-        "A) FFP is always faster and lower volume than PCC for urgent INR reversal",
-        "B) HHS features profound hyperglycemia/hyperosmolarity with little ketoacidosis",
-        "C) Always stop all antiplatelets 2 months before any dental procedure without exception",
-        "D) HHS always shows large anion-gap ketoacidosis identical to DKA"
-      ],
-      "answer": "B) HHS features profound hyperglycemia/hyperosmolarity with little ketoacidosis",
-      "explanation": "Osmotic shifts and volume deficits dominate HHS management nuance. Therefore, the most accurate choice is: HHS features profound hyperglycemia/hyperosmolarity with little ketoacidosis. Marked ketosis defines DKA more than HHS.",
-      "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Osmotic shifts and volume deficits dominate HHS management nuance. This matches the correct interpretation.",
-        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Marked ketosis defines DKA more than HHS. It is less consistent than the correct choice."
-      }
-    },
-    {
-      "id": "clinical_pharmacy:hard:23",
-      "question": "A 31-year-old woman has progressive abnormalities attributed to steroid stress dosing. Which of the following is most consistent with the clinical process?",
-      "options": [
-        "A) Any three-day steroid pack always requires an eight-week taper",
+        "A) Steroids never affect glucose concentrations",
         "B) Patients with adrenal suppression need increased glucocorticoid coverage during major stress",
-        "C) Steroids never affect glucose concentrations",
+        "C) Any three-day steroid pack always requires an eight-week taper",
         "D) Abruptly stop chronic steroids during sepsis to recover the adrenal axis"
       ],
       "answer": "B) Patients with adrenal suppression need increased glucocorticoid coverage during major stress",
@@ -1517,118 +1499,136 @@
       }
     },
     {
-      "id": "clinical_pharmacy:hard:24",
-      "question": "A 35-year-old man presents with findings that could fit more than one process often confused with pPI stewardship. Based on history, examination, and initial tests, which of the following is most likely?",
+      "id": "clinical_pharmacy:hard:23",
+      "question": "Careful review of PPI stewardship is required. Which of the following is most accurate?",
       "options": [
         "A) UFH strengthens bone with chronic use",
-        "B) DAPT is identical lifelong high-intensity for every patient after any stent without reassessment",
-        "C) Use PPIs for valid indications and reassess long-term therapy risks and need",
+        "B) Use PPIs for valid indications and reassess long-term therapy risks and need",
+        "C) DAPT is identical lifelong high-intensity for every patient after any stent without reassessment",
         "D) Continue PPIs lifelong in every patient without indication review"
       ],
-      "answer": "C) Use PPIs for valid indications and reassess long-term therapy risks and need",
+      "answer": "B) Use PPIs for valid indications and reassess long-term therapy risks and need",
       "explanation": "Infection, malabsorption, and interaction concerns motivate deprescribing when appropriate. Therefore, the most accurate choice is: Use PPIs for valid indications and reassess long-term therapy risks and need. Unreviewed indefinite use is not best practice.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Infection, malabsorption, and interaction concerns motivate deprescribing when appropriate. This matches the correct interpretation.",
+        "B": "Infection, malabsorption, and interaction concerns motivate deprescribing when appropriate. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Unreviewed indefinite use is not best practice. It is less consistent than the correct choice."
       }
     },
     {
-      "id": "clinical_pharmacy:hard:25",
-      "question": "A 66-year-old man is hospitalized with evolving features of clopidogrel omeprazole. A common mimic remains possible. Which of the following is most likely?",
+      "id": "clinical_pharmacy:hard:24",
+      "question": "A 67-year-old man is hospitalized with evolving clopidogrel omeprazole. Which of the following is most accurate?",
       "options": [
-        "A) Automatically increase doses as GFR falls to maintain effect",
-        "B) Omeprazole/esomeprazole may reduce clopidogrel bioactivation via CYP2C19",
-        "C) Thiazides always lower lithium by increasing Li clearance",
+        "A) Thiazides always lower lithium by increasing Li clearance",
+        "B) Automatically increase doses as GFR falls to maintain effect",
+        "C) Omeprazole/esomeprazole may reduce clopidogrel bioactivation via CYP2C19",
         "D) All PPIs equally increase clopidogrel activation and lower stent thrombosis"
       ],
-      "answer": "B) Omeprazole/esomeprazole may reduce clopidogrel bioactivation via CYP2C19",
+      "answer": "C) Omeprazole/esomeprazole may reduce clopidogrel bioactivation via CYP2C19",
       "explanation": "Impaired prodrug activation is the mechanistic concern for select PPIs. Therefore, the most accurate choice is: Omeprazole/esomeprazole may reduce clopidogrel bioactivation via CYP2C19. The fear is reduced, not increased, activation.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Impaired prodrug activation is the mechanistic concern for select PPIs. This matches the correct interpretation.",
-        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Impaired prodrug activation is the mechanistic concern for select PPIs. This matches the correct interpretation.",
         "D": "The fear is reduced, not increased, activation. It is less consistent than the correct choice."
       }
     },
     {
-      "id": "clinical_pharmacy:hard:26",
-      "question": "A 52-year-old man is evaluated for statin myopathy risks. Which of the following is favored after comparison with frequent look-alikes?",
+      "id": "clinical_pharmacy:hard:25",
+      "question": "In a detailed discussion of statin myopathy risks, which of the following is most accurate?",
       "options": [
-        "A) High dose, interacting inhibitors, hypothyroidism, and organ impairment raise myopathy risk",
-        "B) Electrolytes never influence digoxin toxicity",
-        "C) Loop diuretics are the classic cause of SIADH as ADH secretagogues",
+        "A) Loop diuretics are the classic cause of SIADH as ADH secretagogues",
+        "B) High dose, interacting inhibitors, hypothyroidism, and organ impairment raise myopathy risk",
+        "C) Electrolytes never influence digoxin toxicity",
         "D) Statins never cause muscle toxicity"
       ],
-      "answer": "A) High dose, interacting inhibitors, hypothyroidism, and organ impairment raise myopathy risk",
+      "answer": "B) High dose, interacting inhibitors, hypothyroidism, and organ impairment raise myopathy risk",
       "explanation": "Drug interactions elevating statin exposure are classic precipitants. Therefore, the most accurate choice is: High dose, interacting inhibitors, hypothyroidism, and organ impairment raise myopathy risk. Strong CYP inhibitors raise risk for sensitive statins.",
       "choice_explanations": {
-        "A": "Drug interactions elevating statin exposure are classic precipitants. This matches the correct interpretation.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Drug interactions elevating statin exposure are classic precipitants. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Strong CYP inhibitors raise risk for sensitive statins. It is less consistent than the correct choice."
       }
     },
     {
-      "id": "clinical_pharmacy:hard:27",
-      "question": "A 58-year-old woman is evaluated for suspected sick day reno drugs. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "id": "clinical_pharmacy:hard:26",
+      "question": "A 59-year-old woman has suspected sick day reno drugs, and similar diagnoses remain possible. Which of the following is most accurate?",
       "options": [
-        "A) Metformin dosing ignores renal function and acute illness",
-        "B) The combination protects GFR in all elderly patients",
-        "C) Hold ACEI/ARB/diuretic/SGLT2/metformin in significant dehydrating illness per local rules",
+        "A) Hold ACEI/ARB/diuretic/SGLT2/metformin in significant dehydrating illness per local rules",
+        "B) Metformin dosing ignores renal function and acute illness",
+        "C) The combination protects GFR in all elderly patients",
         "D) Double ACEI during gastroenteritis dehydration to protect kidneys"
       ],
-      "answer": "C) Hold ACEI/ARB/diuretic/SGLT2/metformin in significant dehydrating illness per local rules",
+      "answer": "A) Hold ACEI/ARB/diuretic/SGLT2/metformin in significant dehydrating illness per local rules",
       "explanation": "AKI and metformin lactic acidosis risk rise when patients are volume depleted. Therefore, the most accurate choice is: Hold ACEI/ARB/diuretic/SGLT2/metformin in significant dehydrating illness per local rules. Increasing ACEI while dry is harmful.",
       "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "A": "AKI and metformin lactic acidosis risk rise when patients are volume depleted. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "AKI and metformin lactic acidosis risk rise when patients are volume depleted. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Increasing ACEI while dry is harmful. It is less consistent than the correct choice."
       }
     },
     {
-      "id": "clinical_pharmacy:hard:28",
-      "question": "Findings thought to represent nSAID in HF can be misread. Which of the following is most correct?",
+      "id": "clinical_pharmacy:hard:27",
+      "question": "Careful interpretation of NSAID in HF is required. Which of the following is correct?",
       "options": [
-        "A) NSAIDs are first-line daily therapy in decompensated HF",
-        "B) NSAIDs promote sodium retention and can worsen heart failure and diuretic response",
-        "C) IV ethanol alone is standard first-line therapy for delirium tremens everywhere",
-        "D) Anticholinergics improve cognition in dementia as first-line therapy"
+        "A) Mean the drug is mandatory first-line therapy in all elderly patients",
+        "B) Anticholinergics improve cognition in dementia as first-line therapy",
+        "C) NSAIDs promote sodium retention and can worsen heart failure and diuretic response",
+        "D) NSAIDs are first-line daily therapy in decompensated HF"
       ],
-      "answer": "B) NSAIDs promote sodium retention and can worsen heart failure and diuretic response",
+      "answer": "C) NSAIDs promote sodium retention and can worsen heart failure and diuretic response",
       "explanation": "Afferent arteriolar prostaglandin inhibition plus salt retention stress failing hearts. Therefore, the most accurate choice is: NSAIDs promote sodium retention and can worsen heart failure and diuretic response. NSAIDs are not heart-failure therapy.",
       "choice_explanations": {
-        "A": "NSAIDs are not heart-failure therapy. It is less consistent than the correct choice.",
-        "B": "Afferent arteriolar prostaglandin inhibition plus salt retention stress failing hearts. This matches the correct interpretation.",
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Afferent arteriolar prostaglandin inhibition plus salt retention stress failing hearts. This matches the correct interpretation.",
+        "D": "NSAIDs are not heart-failure therapy. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:28",
+      "question": "A 74-year-old woman presents with triple whammy. Which of the following best separates it from similar conditions?",
+      "options": [
+        "A) The combination protects GFR in all elderly patients",
+        "B) ACEI/ARB + diuretic + NSAID combination markedly increases AKI risk",
+        "C) All COPD viral URIs need empiric antipseudomonal triple therapy forever",
+        "D) Double ACEI during gastroenteritis dehydration to protect kidneys"
+      ],
+      "answer": "B) ACEI/ARB + diuretic + NSAID combination markedly increases AKI risk",
+      "explanation": "Afferent constriction, efferent dilation, and volume depletion hit filtration fraction hard. Therefore, the most accurate choice is: ACEI/ARB + diuretic + NSAID combination markedly increases AKI risk. AKI risk rises rather than falls.",
+      "choice_explanations": {
+        "A": "AKI risk rises rather than falls. It is less consistent than the correct choice.",
+        "B": "Afferent constriction, efferent dilation, and volume depletion hit filtration fraction hard. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "clinical_pharmacy:hard:29",
-      "question": "A 70-year-old woman presents with triple whammy. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "Which of the following is the best statement about amiodarone monitoring?",
       "options": [
-        "A) Double ACEI during gastroenteritis dehydration to protect kidneys",
-        "B) The combination protects GFR in all elderly patients",
-        "C) Mean the drug is mandatory first-line therapy in all elderly patients",
-        "D) ACEI/ARB + diuretic + NSAID combination markedly increases AKI risk"
+        "A) Clozapine needs no blood monitoring",
+        "B) Only a single CBC ever is required with no organ surveillance",
+        "C) Amiodarone is first symptomatic therapy for all thyrotoxic palpitations without evaluation",
+        "D) Monitor LFTs, TFTs, pulmonary symptoms/imaging as indicated, ECG, and ocular symptoms"
       ],
-      "answer": "D) ACEI/ARB + diuretic + NSAID combination markedly increases AKI risk",
-      "explanation": "Afferent constriction, efferent dilation, and volume depletion hit filtration fraction hard. Therefore, the most accurate choice is: ACEI/ARB + diuretic + NSAID combination markedly increases AKI risk. AKI risk rises rather than falls.",
+      "answer": "D) Monitor LFTs, TFTs, pulmonary symptoms/imaging as indicated, ECG, and ocular symptoms",
+      "explanation": "Multi-organ toxicity profile mandates structured monitoring. Therefore, the most accurate choice is: Monitor LFTs, TFTs, pulmonary symptoms/imaging as indicated, ECG, and ocular symptoms. Thyroid, liver, lung, and eye surveillance themes are standard.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "AKI risk rises rather than falls. It is less consistent than the correct choice.",
+        "B": "Thyroid, liver, lung, and eye surveillance themes are standard. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Afferent constriction, efferent dilation, and volume depletion hit filtration fraction hard. This matches the correct interpretation."
+        "D": "Multi-organ toxicity profile mandates structured monitoring. This matches the correct interpretation."
       }
     }
   ],
   "extreme": [
     {
       "id": "clinical_pharmacy:extreme:0",
-      "question": "A 31-year-old man develops rapidly worsening features of warfarin INR AF. Vital signs are unstable. Which of the following is most likely?",
+      "question": "A 32-year-old man requires urgent decisions about warfarin INR AF. Which of the following is most accurate?",
       "options": [
         "A) Routine target INR 4.5–6 for typical nonvalvular AF",
         "B) Most nonvalvular AF targets INR about 2–3 on warfarin",
@@ -1646,7 +1646,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:1",
-      "question": "In the emergency department, a 40-year-old woman is critically ill with a syndrome centered on warfarin amiodarone. Which of the following is most likely?",
+      "question": "Management of warfarin amiodarone is reviewed for a 41-year-old woman. Which of the following is most accurate?",
       "options": [
         "A) Always give full 4F-PCC for any INR of 3.5 without bleeding",
         "B) Amiodarone induces warfarin metabolism so INR always falls needing immediate dose increases",
@@ -1664,7 +1664,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:2",
-      "question": "A 45-year-old man deteriorates overnight with dOAC counseling. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "A 46-year-old man needs immediate action related to DOAC counseling. Which of the following is correct?",
       "options": [
         "A) DOACs avoid routine INR titration and vitamin K diet issues but demand strict adherence",
         "B) Liver failure never affects anticoagulant choice or INR interpretation",
@@ -1682,7 +1682,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:3",
-      "question": "A 31-year-old man develops life-threatening complications in the setting of uFH monitoring. Which of the following is most consistent with the clinical process?",
+      "question": "A 32-year-old man develops dangerous complications of UFH monitoring. Which of the following is correct?",
       "options": [
         "A) UFH infusions use aPTT or anti-Xa; LMWH is usually weight-based without routine levels",
         "B) Always give full 4F-PCC for any INR of 3.5 without bleeding",
@@ -1700,7 +1700,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:4",
-      "question": "A rapidly progressive presentation of protamine is reviewed in a 56-year-old man. Which of the following is most likely?",
+      "question": "A 57-year-old man has a rapidly worsening course of protamine. Which of the following is most accurate?",
       "options": [
         "A) Protamine is first-line reversal for all DOACs equally",
         "B) Protamine reverses UFH; LMWH reversal is incomplete; watch anaphylactoid reactions",
@@ -1718,7 +1718,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:5",
-      "question": "A 45-year-old man requires urgent decision-making for hIT management. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Safety concerns around HIT management arise in a 46-year-old man. Which of the following is most accurate?",
       "options": [
         "A) Increase antipsychotic dose to treat NMS rigidity",
         "B) Stop all heparin and anticoagulate with a non-heparin agent when HIT is likely",
@@ -1736,7 +1736,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:6",
-      "question": "A 33-year-old man has refractory abnormalities due to vancomycin levels. Which of the following is the most accurate interpretation?",
+      "question": "A 34-year-old man has refractory vancomycin levels. Which of the following is correct?",
       "options": [
         "A) Routine trough targets of 40–50 mg/L for simple cellulitis",
         "B) Routine target INR 4.5–6 for typical nonvalvular AF",
@@ -1754,7 +1754,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:7",
-      "question": "A critical-care presentation involving aminoglycoside extended interval in a 68-year-old man is discussed. Which of the following is most likely?",
+      "question": "Which statement about managing aminoglycoside extended interval in a 69-year-old man is most accurate?",
       "options": [
         "A) They are only time-dependent agents managed solely by continuous infusion always",
         "B) Extended-interval dosing leverages concentration-dependent killing and post-antibiotic effect",
@@ -1772,7 +1772,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:8",
-      "question": "A 49-year-old man develops rapidly worsening features of renal dosing vanco AG. Vital signs are unstable. Which of the following is most likely?",
+      "question": "Careful reasoning about renal dosing vanco AG is required. Which of the following is most accurate?",
       "options": [
         "A) Severe CKD always requires higher LMWH doses for the same anti-Xa effect",
         "B) All DOACs are used at identical full doses regardless of renal function",
@@ -1790,7 +1790,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:9",
-      "question": "In the emergency department, a 36-year-old man is critically ill with a syndrome centered on digoxin toxicity risks. Which of the following is most likely?",
+      "question": "Small differences in wording about digoxin toxicity risks matter. Which of the following is correct?",
       "options": [
         "A) Statins never cause muscle toxicity",
         "B) Electrolytes never influence digoxin toxicity",
@@ -1808,7 +1808,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:10",
-      "question": "A 65-year-old man deteriorates overnight with phenytoin hypoalbuminemia. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "Which of the following is the most precise statement about phenytoin hypoalbuminemia?",
       "options": [
         "A) Low albumin raises free phenytoin fraction; interpret totals with correction or free levels",
         "B) Thiazides always lower lithium by increasing Li clearance",
@@ -1826,7 +1826,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:11",
-      "question": "A 56-year-old man with reduced renal function develops life-threatening complications in the setting of carbamazepine autoinduction clinic. Which of the following is most consistent with the clinical process?",
+      "question": "In advanced review of carbamazepine autoinduction clinic, which of the following is most accurate?",
       "options": [
         "A) Levels may fall over initial weeks as clearance rises; retitrate carefully",
         "B) VPA never affects ammonia concentrations",
@@ -1844,7 +1844,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:12",
-      "question": "A rapidly progressive presentation of valproate hyperammonemia is reviewed in a 58-year-old woman. Which of the following is most likely?",
+      "question": "A 59-year-old woman has a rapidly worsening course of valproate hyperammonemia. Which of the following is most accurate?",
       "options": [
         "A) VPA never affects ammonia concentrations",
         "B) Steroids never affect glucose concentrations",
@@ -1862,7 +1862,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:13",
-      "question": "A 61-year-old man requires urgent decision-making for lithium thiazide. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Which closely related statement about lithium thiazide is correct?",
       "options": [
         "A) Low albumin makes total levels always overestimate toxicity without free-level thought",
         "B) Thiazides always lower lithium by increasing Li clearance",
@@ -1880,7 +1880,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:14",
-      "question": "A 44-year-old man has refractory abnormalities due to SSRI MAOI. Which of the following is the most accurate interpretation?",
+      "question": "A 45-year-old man has refractory SSRI MAOI. Which of the following is correct?",
       "options": [
         "A) SSRIs and MAOIs are routinely co-started for faster effect safely",
         "B) Combining SSRIs with MAOIs risks severe serotonin syndrome; respect washouts",
@@ -1898,7 +1898,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:15",
-      "question": "A critical-care presentation involving serotonin syndrome Rx in a 57-year-old woman is discussed. Which of the following is most likely?",
+      "question": "In intensive care, a 36-year-old man is treated for serotonin syndrome. Which of the following is most accurate?",
       "options": [
         "A) Linezolid has no serotonergic interaction potential",
         "B) Stop serotonergic agents, support ABCs, use benzodiazepines; consider cyproheptadine",
@@ -1916,7 +1916,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:16",
-      "question": "A 40-year-old woman develops rapidly worsening features of nMS management. Vital signs are unstable. Which of the following is most likely?",
+      "question": "A 41-year-old woman requires urgent decisions about NMS management. Which of the following is most accurate?",
       "options": [
         "A) Increase UFH dose to overcome HIT antibodies",
         "B) Increase antipsychotic dose to treat NMS rigidity",
@@ -1934,7 +1934,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:17",
-      "question": "In the emergency department, a 68-year-old woman is critically ill with a syndrome centered on opioid rotation. Which of the following is most likely?",
+      "question": "Management of opioid rotation is reviewed for a 69-year-old woman. Which of the following is most accurate?",
       "options": [
         "A) Severe CKD always requires higher LMWH doses for the same anti-Xa effect",
         "B) Opioid constipation always resolves by day three without prophylaxis",
@@ -1952,7 +1952,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:18",
-      "question": "A 52-year-old woman deteriorates overnight with pCA safety. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "A 53-year-old woman needs immediate action related to PCA safety. Which of the following is correct?",
       "options": [
         "A) Encourage family to press PCA while the patient sleeps deeply",
         "B) Abruptly stop chronic steroids during sepsis to recover the adrenal axis",
@@ -1970,7 +1970,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:19",
-      "question": "A 62-year-old man with reduced renal function develops life-threatening complications in the setting of insulin stacking. Which of the following is most consistent with the clinical process?",
+      "question": "In a 63-year-old man, treatment choices for insulin stacking are debated. Which of the following is most accurate?",
       "options": [
         "A) Amiodarone induces warfarin metabolism so INR always falls needing immediate dose increases",
         "B) Give IV insulin to treat hypoglycemia",
@@ -1988,7 +1988,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:20",
-      "question": "A rapidly progressive presentation of hypoglycemia treatment is reviewed in a 31-year-old woman. Which of the following is most likely?",
+      "question": "A 32-year-old woman is treated for complications related to hypoglycemia treatment. Which of the following is correct?",
       "options": [
         "A) Conscious: oral glucose; unconscious: IV dextrose or glucagon if no IV access",
         "B) Give IV insulin to treat hypoglycemia",
@@ -2006,7 +2006,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:21",
-      "question": "A 36-year-old man requires urgent decision-making for dKA potassium rule. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Urgent management decisions for DKA potassium rule are required in a 37-year-old man. Which of the following is most accurate?",
       "options": [
         "A) Always give full 4F-PCC for any INR of 3.5 without bleeding",
         "B) Start insulin immediately despite severe hypokalemia without repletion",
@@ -2024,7 +2024,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:22",
-      "question": "A 41-year-old woman has refractory abnormalities due to hHS versus DKA. Which of the following is the most accurate interpretation?",
+      "question": "A 42-year-old woman has a complicated course involving HHS versus DKA. Which of the following is correct?",
       "options": [
         "A) Always stop all antiplatelets 2 months before any dental procedure without exception",
         "B) HHS always shows large anion-gap ketoacidosis identical to DKA",
@@ -2042,7 +2042,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:23",
-      "question": "A critical-care presentation involving steroid stress dosing in a 31-year-old woman is discussed. Which of the following is most likely?",
+      "question": "In intensive care, a 32-year-old woman is treated for steroid stress dosing. Which of the following is most accurate?",
       "options": [
         "A) Patients with adrenal suppression need increased glucocorticoid coverage during major stress",
         "B) Abruptly stop chronic steroids during sepsis to recover the adrenal axis",
@@ -2060,7 +2060,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:24",
-      "question": "A 35-year-old man develops rapidly worsening features of pPI stewardship. Vital signs are unstable. Which of the following is most likely?",
+      "question": "A 36-year-old man requires urgent decisions about PPI stewardship. Which of the following is most accurate?",
       "options": [
         "A) Use PPIs for valid indications and reassess long-term therapy risks and need",
         "B) DAPT is identical lifelong high-intensity for every patient after any stent without reassessment",
@@ -2078,7 +2078,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:25",
-      "question": "In the emergency department, a 66-year-old man is critically ill with a syndrome centered on clopidogrel omeprazole. Which of the following is most likely?",
+      "question": "In the emergency department, a 67-year-old man is critically ill with clopidogrel omeprazole. Which of the following is most accurate?",
       "options": [
         "A) All PPIs equally increase clopidogrel activation and lower stent thrombosis",
         "B) Thiazides always lower lithium by increasing Li clearance",
@@ -2096,7 +2096,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:26",
-      "question": "A 52-year-old man deteriorates overnight with statin myopathy risks. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "A 53-year-old man needs immediate action related to statin myopathy risks. Which of the following is correct?",
       "options": [
         "A) Loop diuretics are the classic cause of SIADH as ADH secretagogues",
         "B) Electrolytes never influence digoxin toxicity",
@@ -2114,7 +2114,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:27",
-      "question": "A 58-year-old woman with reduced renal function develops life-threatening complications in the setting of sick day reno drugs. Which of the following is most consistent with the clinical process?",
+      "question": "A 59-year-old woman with reduced renal function develops dangerous complications of sick day reno drugs. Which of the following is correct?",
       "options": [
         "A) Double ACEI during gastroenteritis dehydration to protect kidneys",
         "B) The combination protects GFR in all elderly patients",
@@ -2132,7 +2132,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:28",
-      "question": "A rapidly progressive presentation of nSAID in HF is reviewed in a 61-year-old man. Which of the following is most likely?",
+      "question": "A 62-year-old man with reduced renal function is treated for complications related to NSAID in HF. Which of the following is correct?",
       "options": [
         "A) NSAIDs promote sodium retention and can worsen heart failure and diuretic response",
         "B) NSAIDs are first-line daily therapy in decompensated HF",
@@ -2150,7 +2150,7 @@
     },
     {
       "id": "clinical_pharmacy:extreme:29",
-      "question": "A 70-year-old woman requires urgent decision-making for triple whammy. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Urgent management decisions for triple whammy are required in a 74-year-old woman. Which of the following is most accurate?",
       "options": [
         "A) ACEI/ARB + diuretic + NSAID combination markedly increases AKI risk",
         "B) Mean the drug is mandatory first-line therapy in all elderly patients",

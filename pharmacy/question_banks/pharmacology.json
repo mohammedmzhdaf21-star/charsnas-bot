@@ -2,7 +2,7 @@
   "easy": [
     {
       "id": "pharmacology:easy:0",
-      "question": "Which of the following best characterizes full agonist?",
+      "question": "Which of the following best defines full agonist?",
       "options": [
         "A) Always produces higher Emax than any full agonist at the same system",
         "B) Noncompetitive block that always flattens Emax without potency shift",
@@ -20,7 +20,7 @@
     },
     {
       "id": "pharmacology:easy:1",
-      "question": "Which finding is most consistent with competitive antagonist?",
+      "question": "Which statement about competitive antagonist is correct?",
       "options": [
         "A) Always flatten Emax without changing EC50",
         "B) Surmountable orthosteric block: right-shift agonist curve with Emax preservable",
@@ -38,7 +38,7 @@
     },
     {
       "id": "pharmacology:easy:2",
-      "question": "Which of the following statements about partial agonist is most accurate?",
+      "question": "In basic pharmacology, which of the following is true of partial agonist?",
       "options": [
         "A) Identical to intrinsic efficacy producing tissue Emax",
         "B) Always produces higher Emax than any full agonist at the same system",
@@ -56,7 +56,7 @@
     },
     {
       "id": "pharmacology:easy:3",
-      "question": "In patients with inverse agonist, which of the following is most correct?",
+      "question": "Which of the following correctly describes inverse agonist?",
       "options": [
         "A) Always produces higher Emax than any full agonist at the same system",
         "B) Occupies the orthosteric site without activation (competitive antagonist pattern)",
@@ -74,7 +74,7 @@
     },
     {
       "id": "pharmacology:easy:4",
-      "question": "Which of the following is the hallmark feature of spare receptors?",
+      "question": "Select the correct statement regarding spare receptors.",
       "options": [
         "A) Synonym of maximal efficacy (Emax) in all contexts",
         "B) All receptors must be occupied to achieve any tissue response",
@@ -92,7 +92,7 @@
     },
     {
       "id": "pharmacology:easy:5",
-      "question": "Which description most accurately matches affinity?",
+      "question": "Which of the following applies to affinity?",
       "options": [
         "A) Identical to plasma half-life",
         "B) Always produces higher Emax than any full agonist at the same system",
@@ -110,7 +110,7 @@
     },
     {
       "id": "pharmacology:easy:6",
-      "question": "Regarding potency, which of the following is most accurate?",
+      "question": "Which explanation of potency is correct?",
       "options": [
         "A) Identical to intrinsic efficacy producing tissue Emax",
         "B) Always produces higher Emax than any full agonist at the same system",
@@ -128,7 +128,7 @@
     },
     {
       "id": "pharmacology:easy:7",
-      "question": "Which of the following mechanisms best explains efficacy?",
+      "question": "Which of the following is true for efficacy?",
       "options": [
         "A) Identical to plasma half-life",
         "B) Ability of a drug–receptor complex to produce a maximal system response (Emax)",
@@ -146,7 +146,7 @@
     },
     {
       "id": "pharmacology:easy:8",
-      "question": "Which of the following best characterizes therapeutic index?",
+      "question": "Which of the following best defines therapeutic index?",
       "options": [
         "A) Synonym of maximal efficacy (Emax) in all contexts",
         "B) Equal to oral bioavailability percentage F",
@@ -164,7 +164,7 @@
     },
     {
       "id": "pharmacology:easy:9",
-      "question": "Which finding is most consistent with graded DR curve?",
+      "question": "Which finding is expected in graded DR curve?",
       "options": [
         "A) Synonym of maximal efficacy (Emax) in all contexts",
         "B) Plots only the percent of a population showing an all-or-none response",
@@ -182,7 +182,7 @@
     },
     {
       "id": "pharmacology:easy:10",
-      "question": "Which of the following statements about quantal DR curve is most accurate?",
+      "question": "Which of the following statements about quantal DR curve is correct?",
       "options": [
         "A) Plots continuous mmHg change within one isolated tissue only",
         "B) Plots only the percent of a population showing an all-or-none response",
@@ -200,7 +200,7 @@
     },
     {
       "id": "pharmacology:easy:11",
-      "question": "In patients with ED50, which of the following is most correct?",
+      "question": "In ED50, which of the following is correct?",
       "options": [
         "A) Median effective dose for a specified endpoint (population or 50% Emax context)",
         "B) Plots only the percent of a population showing an all-or-none response",
@@ -218,7 +218,7 @@
     },
     {
       "id": "pharmacology:easy:12",
-      "question": "Which of the following is the hallmark feature of LD50?",
+      "question": "Which of the following best describes LD50?",
       "options": [
         "A) Plots only the percent of a population showing an all-or-none response",
         "B) Always identical to LD50",
@@ -236,7 +236,7 @@
     },
     {
       "id": "pharmacology:easy:13",
-      "question": "Which description most accurately matches pD tolerance?",
+      "question": "Which of the following applies to PD tolerance?",
       "options": [
         "A) Reduced response at the same concentration from receptor/pathway adaptation",
         "B) Receptor downregulation with unchanged plasma levels as the definition of PK tolerance",
@@ -254,7 +254,7 @@
     },
     {
       "id": "pharmacology:easy:14",
-      "question": "Regarding pK tolerance, which of the following is most accurate?",
+      "question": "Which explanation of PK tolerance is correct?",
       "options": [
         "A) Reduced effect because exposure falls (e.g., autoinduction increasing clearance)",
         "B) Receptor downregulation with unchanged plasma levels as the definition of PK tolerance",
@@ -272,7 +272,7 @@
     },
     {
       "id": "pharmacology:easy:15",
-      "question": "Which of the following mechanisms best explains tachyphylaxis?",
+      "question": "Which of the following applies to tachyphylaxis?",
       "options": [
         "A) Means only CYP3A4 induction altering concentrations",
         "B) Gradual loss of effect over months from enzyme induction alone",
@@ -290,7 +290,7 @@
     },
     {
       "id": "pharmacology:easy:16",
-      "question": "Which of the following best characterizes downregulation?",
+      "question": "Which of the following best defines downregulation?",
       "options": [
         "A) Receptor downregulation with unchanged plasma levels as the definition of PK tolerance",
         "B) Chronic agonists always increase receptor density without limit",
@@ -308,7 +308,7 @@
     },
     {
       "id": "pharmacology:easy:17",
-      "question": "Which finding is most consistent with upregulation rebound?",
+      "question": "Which statement about upregulation rebound is correct?",
       "options": [
         "A) Chronic agonists always increase receptor density without limit",
         "B) Long-acting full opioid agonist used for chronic pain",
@@ -326,7 +326,7 @@
     },
     {
       "id": "pharmacology:easy:18",
-      "question": "Which of the following statements about gs signaling is most accurate?",
+      "question": "Which statement regarding gs signaling is correct?",
       "options": [
         "A) Gi always stimulates adenylyl cyclase like Gs",
         "B) Gs stimulates adenylyl cyclase, raising cAMP and activating PKA",
@@ -344,7 +344,7 @@
     },
     {
       "id": "pharmacology:easy:19",
-      "question": "In patients with gi signaling, which of the following is most correct?",
+      "question": "In clinical examination related to gi signaling, which of the following is correct?",
       "options": [
         "A) Gq primarily inhibits adenylyl cyclase to lower cAMP",
         "B) Gi inhibits adenylyl cyclase, decreasing cAMP-dependent signaling",
@@ -362,7 +362,7 @@
     },
     {
       "id": "pharmacology:easy:20",
-      "question": "Which of the following is the hallmark feature of gq signaling?",
+      "question": "Which of the following best describes gq signaling?",
       "options": [
         "A) Gs inhibits adenylyl cyclase and lowers cAMP as its defining cascade",
         "B) Gq primarily inhibits adenylyl cyclase to lower cAMP",
@@ -380,7 +380,7 @@
     },
     {
       "id": "pharmacology:easy:21",
-      "question": "Which description most accurately matches ligand-gated example?",
+      "question": "Which of the following applies to ligand-gated example?",
       "options": [
         "A) Nuclear steroid receptor that activates transcription",
         "B) Glucocorticoid receptor is a neuromuscular ligand-gated sodium channel",
@@ -398,7 +398,7 @@
     },
     {
       "id": "pharmacology:easy:22",
-      "question": "Regarding nuclear receptor example, which of the following is most accurate?",
+      "question": "Which explanation of nuclear receptor example is correct?",
       "options": [
         "A) Nicotinic ACh receptor is exclusively a nuclear transcription factor",
         "B) Glucocorticoid receptor is a neuromuscular ligand-gated sodium channel",
@@ -416,7 +416,7 @@
     },
     {
       "id": "pharmacology:easy:23",
-      "question": "Which of the following mechanisms best explains rTK example?",
+      "question": "Which of the following is true for RTK example?",
       "options": [
         "A) Nicotinic ACh receptor is exclusively a nuclear transcription factor",
         "B) Insulin receptor autophosphorylates on tyrosine and engages IRS/PI3K and MAPK paths",
@@ -434,7 +434,7 @@
     },
     {
       "id": "pharmacology:easy:24",
-      "question": "Which of the following best characterizes biased agonism?",
+      "question": "Which of the following best defines biased agonism?",
       "options": [
         "A) Opposite efficacy at the same receptor without changing levels",
         "B) Means the ligand never binds any receptor",
@@ -452,7 +452,7 @@
     },
     {
       "id": "pharmacology:easy:25",
-      "question": "Which finding is most consistent with gPCR desensitization?",
+      "question": "Which statement about GPCR desensitization is correct?",
       "options": [
         "A) Drug never leaves the stomach lumen",
         "B) GRK phosphorylation and β-arrestin recruitment uncouple and internalize GPCRs",
@@ -470,7 +470,7 @@
     },
     {
       "id": "pharmacology:easy:26",
-      "question": "Which of the following statements about synergism is most accurate?",
+      "question": "Which of the following statements about synergism is correct?",
       "options": [
         "A) Two drugs cancel each other’s effects completely",
         "B) Combined effect greater than expected from simple addition of individual effects",
@@ -488,7 +488,7 @@
     },
     {
       "id": "pharmacology:easy:27",
-      "question": "In patients with physiological antagonism, which of the following is most correct?",
+      "question": "Which of the following correctly describes physiological antagonism?",
       "options": [
         "A) Means the drug cannot cause adverse effects",
         "B) Direct chemical neutralization of a drug in a syringe before injection",
@@ -506,7 +506,7 @@
     },
     {
       "id": "pharmacology:easy:28",
-      "question": "Which of the following is the hallmark feature of chemical antagonism?",
+      "question": "Select the correct statement regarding chemical antagonism.",
       "options": [
         "A) Opposite efficacy at the same receptor without changing levels",
         "B) Competitive occupancy of the same orthosteric receptor site",
@@ -524,7 +524,7 @@
     },
     {
       "id": "pharmacology:easy:29",
-      "question": "Which description most accurately matches pK antagonism?",
+      "question": "Which of the following applies to PK antagonism?",
       "options": [
         "A) One drug reduces another’s concentration via ADME changes",
         "B) Competitive occupancy of the same orthosteric receptor site",
@@ -544,7 +544,7 @@
   "medium": [
     {
       "id": "pharmacology:medium:0",
-      "question": "A 30-year-old man is started on therapy relevant to full agonist. Which of the following is the most accurate statement?",
+      "question": "Which of the following correctly describes full agonist in clinical use?",
       "options": [
         "A) Occupies the orthosteric site without activation (competitive antagonist pattern)",
         "B) Binds and stabilizes the active receptor conformation, able to reach tissue Emax",
@@ -562,7 +562,7 @@
     },
     {
       "id": "pharmacology:medium:1",
-      "question": "A 42-year-old woman with multiple medications is evaluated for an issue involving competitive antagonist. Which of the following is most appropriate?",
+      "question": "During a pharmacology discussion of competitive antagonist, which statement is correct?",
       "options": [
         "A) Surmountable orthosteric block: right-shift agonist curve with Emax preservable",
         "B) Occupies the orthosteric site without activation (competitive antagonist pattern)",
@@ -580,7 +580,7 @@
     },
     {
       "id": "pharmacology:medium:2",
-      "question": "A pharmacist reviews a regimen concerning partial agonist. Which of the following is most accurate?",
+      "question": "Which of the following correctly describes partial agonist?",
       "options": [
         "A) Lower intrinsic efficacy than full agonists; may act as agonist or functional antagonist",
         "B) Always produces higher Emax than any full agonist at the same system",
@@ -598,7 +598,7 @@
     },
     {
       "id": "pharmacology:medium:3",
-      "question": "A 32-year-old man develops a clinical problem related to inverse agonist. Which of the following best explains the findings?",
+      "question": "In comparing drug properties, which statement about inverse agonist is correct?",
       "options": [
         "A) Always produces higher Emax than any full agonist at the same system",
         "B) Occupies the orthosteric site without activation (competitive antagonist pattern)",
@@ -616,7 +616,7 @@
     },
     {
       "id": "pharmacology:medium:4",
-      "question": "A 39-year-old woman presents to clinic with a medication-related question about spare receptors. Which of the following is most correct?",
+      "question": "Regarding spare receptors, which of the following is correct?",
       "options": [
         "A) Maximal response can occur with only a fraction of receptors occupied",
         "B) All receptors must be occupied to achieve any tissue response",
@@ -634,7 +634,7 @@
     },
     {
       "id": "pharmacology:medium:5",
-      "question": "During medication reconciliation, a concern about affinity is raised. Which of the following is most accurate?",
+      "question": "Which explanation of affinity is most accurate?",
       "options": [
         "A) Always produces higher Emax than any full agonist at the same system",
         "B) Identical to intrinsic efficacy producing tissue Emax",
@@ -652,7 +652,7 @@
     },
     {
       "id": "pharmacology:medium:6",
-      "question": "A 49-year-old woman requires counseling about potency. Which of the following statements is most appropriate?",
+      "question": "Which of the following applies to potency in standard therapeutics?",
       "options": [
         "A) Synonym of maximal efficacy (Emax) in all contexts",
         "B) Always produces higher Emax than any full agonist at the same system",
@@ -670,7 +670,7 @@
     },
     {
       "id": "pharmacology:medium:7",
-      "question": "A 36-year-old woman has laboratory changes attributed to efficacy. Which of the following is most likely?",
+      "question": "Which statement best defines efficacy?",
       "options": [
         "A) Ability of a drug–receptor complex to produce a maximal system response (Emax)",
         "B) Identical to intrinsic efficacy producing tissue Emax",
@@ -688,7 +688,7 @@
     },
     {
       "id": "pharmacology:medium:8",
-      "question": "A 68-year-old woman is started on therapy relevant to therapeutic index. Which of the following is the most accurate statement?",
+      "question": "Which of the following correctly describes therapeutic index in clinical use?",
       "options": [
         "A) Synonym of maximal efficacy (Emax) in all contexts",
         "B) Kidney clears the entire oral dose before absorption as classic first-pass",
@@ -706,7 +706,7 @@
     },
     {
       "id": "pharmacology:medium:9",
-      "question": "A 33-year-old man with multiple medications is evaluated for an issue involving graded DR curve. Which of the following is most appropriate?",
+      "question": "A 64-year-old woman takes several medicines and is assessed regarding graded DR curve. Which of the following is most appropriate?",
       "options": [
         "A) Plots only the percent of a population showing an all-or-none response",
         "B) Plots intensity of effect versus dose/concentration in a system or individual",
@@ -724,7 +724,7 @@
     },
     {
       "id": "pharmacology:medium:10",
-      "question": "A pharmacist reviews a regimen concerning quantal DR curve. Which of the following is most accurate?",
+      "question": "Medication review raises a question about quantal DR curve. Which of the following is correct?",
       "options": [
         "A) Plots only the percent of a population showing an all-or-none response",
         "B) Dose that cures 50% of infections in routine care",
@@ -742,7 +742,7 @@
     },
     {
       "id": "pharmacology:medium:11",
-      "question": "A 62-year-old woman develops a clinical problem related to ED50. Which of the following best explains the findings?",
+      "question": "A 52-year-old man develops an adverse effect related to ED50. Which of the following best explains it?",
       "options": [
         "A) Median effective dose for a specified endpoint (population or 50% Emax context)",
         "B) Identical to plasma half-life",
@@ -760,7 +760,7 @@
     },
     {
       "id": "pharmacology:medium:12",
-      "question": "A 69-year-old man presents to clinic with a medication-related question about LD50. Which of the following is most correct?",
+      "question": "A 59-year-old woman needs counseling about LD50. Which of the following is most appropriate?",
       "options": [
         "A) Dose lethal to 50% of a defined test population under stated conditions",
         "B) Always identical to LD50",
@@ -778,7 +778,7 @@
     },
     {
       "id": "pharmacology:medium:13",
-      "question": "During medication reconciliation, a concern about pD tolerance is raised. Which of the following is most accurate?",
+      "question": "Which explanation of PD tolerance is most accurate?",
       "options": [
         "A) Opposite efficacy at the same receptor without changing levels",
         "B) Reduced response at the same concentration from receptor/pathway adaptation",
@@ -796,7 +796,7 @@
     },
     {
       "id": "pharmacology:medium:14",
-      "question": "A 46-year-old man requires counseling about pK tolerance. Which of the following statements is most appropriate?",
+      "question": "Which of the following applies to PK tolerance in standard therapeutics?",
       "options": [
         "A) Receptor downregulation with unchanged plasma levels as the definition of PK tolerance",
         "B) Reduced levels from faster hepatic metabolism only",
@@ -814,7 +814,7 @@
     },
     {
       "id": "pharmacology:medium:15",
-      "question": "A 33-year-old man has laboratory changes attributed to tachyphylaxis. Which of the following is most likely?",
+      "question": "A 64-year-old woman has lab changes linked to tachyphylaxis. Which of the following is correct?",
       "options": [
         "A) Plots only the percent of a population showing an all-or-none response",
         "B) Gradual loss of effect over months from enzyme induction alone",
@@ -832,7 +832,7 @@
     },
     {
       "id": "pharmacology:medium:16",
-      "question": "A 61-year-old man is started on therapy relevant to downregulation. Which of the following is the most accurate statement?",
+      "question": "Which of the following correctly describes downregulation in clinical use?",
       "options": [
         "A) Chronic antagonists never alter receptor expression",
         "B) Receptor downregulation with unchanged plasma levels as the definition of PK tolerance",
@@ -850,7 +850,7 @@
     },
     {
       "id": "pharmacology:medium:17",
-      "question": "A 30-year-old woman with multiple medications is evaluated for an issue involving upregulation rebound. Which of the following is most appropriate?",
+      "question": "During a pharmacology discussion of upregulation rebound, which statement is correct?",
       "options": [
         "A) Chronic antagonist use can increase receptor sensitivity; abrupt stop risks rebound",
         "B) Chronic agonists always increase receptor density without limit",
@@ -868,7 +868,7 @@
     },
     {
       "id": "pharmacology:medium:18",
-      "question": "A pharmacist reviews a regimen concerning gs signaling. Which of the following is most accurate?",
+      "question": "A 64-year-old woman has findings requiring interpretation of gs signaling. Which of the following is correct?",
       "options": [
         "A) Gi always stimulates adenylyl cyclase like Gs",
         "B) Gs inhibits adenylyl cyclase and lowers cAMP as its defining cascade",
@@ -886,7 +886,7 @@
     },
     {
       "id": "pharmacology:medium:19",
-      "question": "A 40-year-old woman develops a clinical problem related to gi signaling. Which of the following best explains the findings?",
+      "question": "In a 30-year-old man, which statement about gi signaling is correct?",
       "options": [
         "A) Gq primarily inhibits adenylyl cyclase to lower cAMP",
         "B) Gi always stimulates adenylyl cyclase like Gs",
@@ -904,7 +904,7 @@
     },
     {
       "id": "pharmacology:medium:20",
-      "question": "A 47-year-old man presents to clinic with a medication-related question about gq signaling. Which of the following is most correct?",
+      "question": "Clinical testing related to gq signaling is performed. Which of the following is correct?",
       "options": [
         "A) Gq primarily inhibits adenylyl cyclase to lower cAMP",
         "B) Gq activates PLC generating IP3/DAG, raising Ca2+ and activating PKC",
@@ -922,7 +922,7 @@
     },
     {
       "id": "pharmacology:medium:21",
-      "question": "During medication reconciliation, a concern about ligand-gated example is raised. Which of the following is most accurate?",
+      "question": "Which explanation of ligand-gated example is most accurate?",
       "options": [
         "A) Nuclear steroid receptor that activates transcription",
         "B) Nicotinic ACh receptor is a ligand-gated ion channel for fast synaptic transmission",
@@ -940,7 +940,7 @@
     },
     {
       "id": "pharmacology:medium:22",
-      "question": "A 67-year-old man requires counseling about nuclear receptor example. Which of the following statements is most appropriate?",
+      "question": "Which of the following applies to nuclear receptor example in standard therapeutics?",
       "options": [
         "A) Nicotinic ACh receptor is exclusively a nuclear transcription factor",
         "B) Nuclear steroid receptor that activates transcription",
@@ -958,7 +958,7 @@
     },
     {
       "id": "pharmacology:medium:23",
-      "question": "A 47-year-old man has laboratory changes attributed to rTK example. Which of the following is most likely?",
+      "question": "Which statement best defines RTK example?",
       "options": [
         "A) Glucocorticoid receptor is a neuromuscular ligand-gated sodium channel",
         "B) Insulin receptor is only a Gi-coupled seven-transmembrane GPCR",
@@ -976,7 +976,7 @@
     },
     {
       "id": "pharmacology:medium:24",
-      "question": "A 35-year-old man is started on therapy relevant to biased agonism. Which of the following is the most accurate statement?",
+      "question": "Which of the following correctly describes biased agonism in clinical use?",
       "options": [
         "A) Means the ligand never binds any receptor",
         "B) Competitive occupancy of the same orthosteric receptor site",
@@ -994,7 +994,7 @@
     },
     {
       "id": "pharmacology:medium:25",
-      "question": "A 45-year-old woman with multiple medications is evaluated for an issue involving gPCR desensitization. Which of the following is most appropriate?",
+      "question": "During a pharmacology discussion of GPCR desensitization, which statement is correct?",
       "options": [
         "A) Drug never leaves the stomach lumen",
         "B) GRK phosphorylation and β-arrestin recruitment uncouple and internalize GPCRs",
@@ -1012,7 +1012,7 @@
     },
     {
       "id": "pharmacology:medium:26",
-      "question": "A pharmacist reviews a regimen concerning synergism. Which of the following is most accurate?",
+      "question": "Medication review raises a question about synergism. Which of the following is correct?",
       "options": [
         "A) Two drugs cancel each other’s effects completely",
         "B) Caused by naloxone reversing opioid effects",
@@ -1030,7 +1030,7 @@
     },
     {
       "id": "pharmacology:medium:27",
-      "question": "A 61-year-old woman develops a clinical problem related to physiological antagonism. Which of the following best explains the findings?",
+      "question": "In comparing drug properties, which statement about physiological antagonism is correct?",
       "options": [
         "A) Ignores clearance and uses only taste of the medicine",
         "B) Direct chemical neutralization of a drug in a syringe before injection",
@@ -1048,7 +1048,7 @@
     },
     {
       "id": "pharmacology:medium:28",
-      "question": "A 45-year-old woman presents to clinic with a medication-related question about chemical antagonism. Which of the following is most correct?",
+      "question": "Regarding chemical antagonism, which of the following is correct?",
       "options": [
         "A) Opposite efficacy at the same receptor without changing levels",
         "B) Competitive occupancy of the same orthosteric receptor site",
@@ -1066,7 +1066,7 @@
     },
     {
       "id": "pharmacology:medium:29",
-      "question": "During medication reconciliation, a concern about pK antagonism is raised. Which of the following is most accurate?",
+      "question": "Which explanation of PK antagonism is most accurate?",
       "options": [
         "A) Competitive occupancy of the same orthosteric receptor site",
         "B) Always raises substrate levels by blocking metabolism",
@@ -1086,7 +1086,7 @@
   "hard": [
     {
       "id": "pharmacology:hard:0",
-      "question": "A 30-year-old man presents with findings that could fit more than one process often confused with full agonist. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "Careful review of full agonist is required. Which of the following is most accurate?",
       "options": [
         "A) Binds and stabilizes the active receptor conformation, able to reach tissue Emax",
         "B) Noncompetitive block that always flattens Emax without potency shift",
@@ -1104,7 +1104,7 @@
     },
     {
       "id": "pharmacology:hard:1",
-      "question": "A 42-year-old woman is hospitalized with evolving features of competitive antagonist. A common mimic remains possible. Which of the following is most likely?",
+      "question": "Two similar explanations for competitive antagonist are compared. Which of the following is correct?",
       "options": [
         "A) Noncompetitive block that always flattens Emax without potency shift",
         "B) Always flatten Emax without changing EC50",
@@ -1122,7 +1122,7 @@
     },
     {
       "id": "pharmacology:hard:2",
-      "question": "A 66-year-old woman is evaluated for partial agonist. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "In a detailed discussion of partial agonist, which of the following is most accurate?",
       "options": [
         "A) Identical to intrinsic efficacy producing tissue Emax",
         "B) Always produces higher Emax than any full agonist at the same system",
@@ -1140,7 +1140,7 @@
     },
     {
       "id": "pharmacology:hard:3",
-      "question": "A 32-year-old man is evaluated for suspected inverse agonist. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "Which of the following correctly distinguishes key points about inverse agonist?",
       "options": [
         "A) Always produces higher Emax than any full agonist at the same system",
         "B) Prefers inactive conformation and reduces constitutive signaling below basal",
@@ -1158,7 +1158,7 @@
     },
     {
       "id": "pharmacology:hard:4",
-      "question": "Findings thought to represent spare receptors can be misread. Which of the following is most correct?",
+      "question": "Careful interpretation of spare receptors is required. Which of the following is correct?",
       "options": [
         "A) All receptors must be occupied to achieve any tissue response",
         "B) Identical to intrinsic efficacy producing tissue Emax",
@@ -1176,7 +1176,7 @@
     },
     {
       "id": "pharmacology:hard:5",
-      "question": "A 63-year-old woman presents with affinity. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "Which statement about affinity is most accurate?",
       "options": [
         "A) Always produces higher Emax than any full agonist at the same system",
         "B) Tendency to bind a receptor, often expressed as Kd (lower Kd = higher affinity)",
@@ -1194,426 +1194,372 @@
     },
     {
       "id": "pharmacology:hard:6",
-      "question": "A complex case of potency involving a 49-year-old woman is reviewed on rounds. Which of the following is most accurate?",
+      "question": "Which of the following is the best statement about efficacy?",
       "options": [
-        "A) Synonym of maximal efficacy (Emax) in all contexts",
-        "B) Always produces higher Emax than any full agonist at the same system",
-        "C) Identical to intrinsic efficacy producing tissue Emax",
-        "D) Concentration or dose needed for a defined effect (e.g., EC50); lower EC50 = more potent"
+        "A) Identical to plasma half-life",
+        "B) Identical to intrinsic efficacy producing tissue Emax",
+        "C) Synonym of maximal efficacy (Emax) in all contexts",
+        "D) Ability of a drug–receptor complex to produce a maximal system response (Emax)"
       ],
-      "answer": "D) Concentration or dose needed for a defined effect (e.g., EC50); lower EC50 = more potent",
-      "explanation": "Potency indexes position along the concentration axis of the DR curve. Therefore, the most accurate choice is: Concentration or dose needed for a defined effect (e.g., EC50); lower EC50 = more potent. A drug can be potent with low Emax or less potent with high Emax.",
+      "answer": "D) Ability of a drug–receptor complex to produce a maximal system response (Emax)",
+      "explanation": "Emax reflects stimulus generation and tissue amplification downstream of binding. Therefore, the most accurate choice is: Ability of a drug–receptor complex to produce a maximal system response (Emax). Half-life is a PK parameter, not efficacy.",
       "choice_explanations": {
-        "A": "A drug can be potent with low Emax or less potent with high Emax. It is less consistent than the correct choice.",
+        "A": "Half-life is a PK parameter, not efficacy. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Potency indexes position along the concentration axis of the DR curve. This matches the correct interpretation."
+        "D": "Emax reflects stimulus generation and tissue amplification downstream of binding. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmacology:hard:7",
-      "question": "A 36-year-old woman has progressive abnormalities attributed to efficacy. Which of the following is most consistent with the clinical process?",
+      "question": "Careful review of therapeutic index is required. Which of the following is most accurate?",
       "options": [
-        "A) Ability of a drug–receptor complex to produce a maximal system response (Emax)",
-        "B) Identical to plasma half-life",
-        "C) Identical to intrinsic efficacy producing tissue Emax",
+        "A) Ratio relating toxic-dose to effective-dose metrics (e.g., TD50/ED50)",
+        "B) Equal to oral bioavailability percentage F",
+        "C) Kidney clears the entire oral dose before absorption as classic first-pass",
         "D) Synonym of maximal efficacy (Emax) in all contexts"
       ],
-      "answer": "A) Ability of a drug–receptor complex to produce a maximal system response (Emax)",
-      "explanation": "Emax reflects stimulus generation and tissue amplification downstream of binding. Therefore, the most accurate choice is: Ability of a drug–receptor complex to produce a maximal system response (Emax). Half-life is a PK parameter, not efficacy.",
+      "answer": "A) Ratio relating toxic-dose to effective-dose metrics (e.g., TD50/ED50)",
+      "explanation": "TI estimates margin between efficacy and toxicity dose levels. Therefore, the most accurate choice is: Ratio relating toxic-dose to effective-dose metrics (e.g., TD50/ED50). Bioavailability F is an absorption metric, not TI.",
       "choice_explanations": {
-        "A": "Emax reflects stimulus generation and tissue amplification downstream of binding. This matches the correct interpretation.",
-        "B": "Half-life is a PK parameter, not efficacy. It is less consistent than the correct choice.",
+        "A": "TI estimates margin between efficacy and toxicity dose levels. This matches the correct interpretation.",
+        "B": "Bioavailability F is an absorption metric, not TI. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmacology:hard:8",
-      "question": "A 68-year-old woman presents with findings that could fit more than one process often confused with therapeutic index. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "Two similar explanations for graded DR curve are compared. Which of the following is correct?",
       "options": [
-        "A) Ratio relating toxic-dose to effective-dose metrics (e.g., TD50/ED50)",
+        "A) Plots intensity of effect versus dose/concentration in a system or individual",
         "B) Synonym of maximal efficacy (Emax) in all contexts",
-        "C) Equal to oral bioavailability percentage F",
-        "D) Kidney clears the entire oral dose before absorption as classic first-pass"
+        "C) Plots only the percent of a population showing an all-or-none response",
+        "D) Plots continuous mmHg change within one isolated tissue only"
       ],
-      "answer": "A) Ratio relating toxic-dose to effective-dose metrics (e.g., TD50/ED50)",
-      "explanation": "TI estimates margin between efficacy and toxicity dose levels. Therefore, the most accurate choice is: Ratio relating toxic-dose to effective-dose metrics (e.g., TD50/ED50). Bioavailability F is an absorption metric, not TI.",
+      "answer": "A) Plots intensity of effect versus dose/concentration in a system or individual",
+      "explanation": "Graded curves yield EC50 and Emax for continuous endpoints. Therefore, the most accurate choice is: Plots intensity of effect versus dose/concentration in a system or individual. Population all-or-none fractions define quantal curves.",
       "choice_explanations": {
-        "A": "TI estimates margin between efficacy and toxicity dose levels. This matches the correct interpretation.",
+        "A": "Graded curves yield EC50 and Emax for continuous endpoints. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Bioavailability F is an absorption metric, not TI. It is less consistent than the correct choice.",
+        "C": "Population all-or-none fractions define quantal curves. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmacology:hard:9",
-      "question": "A 33-year-old man is hospitalized with evolving features of graded DR curve. A common mimic remains possible. Which of the following is most likely?",
+      "question": "In a detailed discussion of quantal DR curve, which of the following is most accurate?",
       "options": [
-        "A) Synonym of maximal efficacy (Emax) in all contexts",
-        "B) Plots only the percent of a population showing an all-or-none response",
-        "C) Plots intensity of effect versus dose/concentration in a system or individual",
-        "D) Plots continuous mmHg change within one isolated tissue only"
-      ],
-      "answer": "C) Plots intensity of effect versus dose/concentration in a system or individual",
-      "explanation": "Graded curves yield EC50 and Emax for continuous endpoints. Therefore, the most accurate choice is: Plots intensity of effect versus dose/concentration in a system or individual. Population all-or-none fractions define quantal curves.",
-      "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Population all-or-none fractions define quantal curves. It is less consistent than the correct choice.",
-        "C": "Graded curves yield EC50 and Emax for continuous endpoints. This matches the correct interpretation.",
-        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
-      }
-    },
-    {
-      "id": "pharmacology:hard:10",
-      "question": "A 61-year-old man is evaluated for quantal DR curve. Which of the following is favored after comparison with frequent look-alikes?",
-      "options": [
-        "A) Plots continuous mmHg change within one isolated tissue only",
-        "B) Dose that cures 50% of infections in routine care",
+        "A) Dose that cures 50% of infections in routine care",
+        "B) Plots continuous mmHg change within one isolated tissue only",
         "C) Plots fraction of population achieving a defined all-or-none effect versus dose",
         "D) Plots only the percent of a population showing an all-or-none response"
       ],
       "answer": "C) Plots fraction of population achieving a defined all-or-none effect versus dose",
       "explanation": "ED50 from quantal data is the dose effective in 50% of subjects. Therefore, the most accurate choice is: Plots fraction of population achieving a defined all-or-none effect versus dose. Continuous intensity in one preparation is graded, not quantal.",
       "choice_explanations": {
-        "A": "Continuous intensity in one preparation is graded, not quantal. It is less consistent than the correct choice.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Continuous intensity in one preparation is graded, not quantal. It is less consistent than the correct choice.",
         "C": "ED50 from quantal data is the dose effective in 50% of subjects. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
-      "id": "pharmacology:hard:11",
-      "question": "A 62-year-old woman is evaluated for suspected ED50. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "id": "pharmacology:hard:10",
+      "question": "Which of the following correctly distinguishes key points about ED50?",
       "options": [
         "A) Always identical to LD50",
-        "B) Dose that cures 50% of infections in routine care",
-        "C) Identical to plasma half-life",
-        "D) Median effective dose for a specified endpoint (population or 50% Emax context)"
+        "B) Plots only the percent of a population showing an all-or-none response",
+        "C) Median effective dose for a specified endpoint (population or 50% Emax context)",
+        "D) Dose that cures 50% of infections in routine care"
       ],
-      "answer": "D) Median effective dose for a specified endpoint (population or 50% Emax context)",
+      "answer": "C) Median effective dose for a specified endpoint (population or 50% Emax context)",
       "explanation": "ED50 indexes effectiveness, not lethality. Therefore, the most accurate choice is: Median effective dose for a specified endpoint (population or 50% Emax context). LD50 is a lethality benchmark.",
       "choice_explanations": {
         "A": "LD50 is a lethality benchmark. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "ED50 indexes effectiveness, not lethality. This matches the correct interpretation."
+        "C": "ED50 indexes effectiveness, not lethality. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
-      "id": "pharmacology:hard:12",
-      "question": "Findings thought to represent LD50 can be misread. Which of the following is most correct?",
+      "id": "pharmacology:hard:11",
+      "question": "Careful interpretation of LD50 is required. Which of the following is correct?",
       "options": [
-        "A) Plots only the percent of a population showing an all-or-none response",
-        "B) Dose that cures 50% of infections in routine care",
-        "C) Always identical to LD50",
+        "A) Dose that cures 50% of infections in routine care",
+        "B) Always identical to LD50",
+        "C) Plots only the percent of a population showing an all-or-none response",
         "D) Dose lethal to 50% of a defined test population under stated conditions"
       ],
       "answer": "D) Dose lethal to 50% of a defined test population under stated conditions",
       "explanation": "LD50 is an acute toxicity reference point. Therefore, the most accurate choice is: Dose lethal to 50% of a defined test population under stated conditions. Cure rates are efficacy endpoints, not LD50.",
       "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Cure rates are efficacy endpoints, not LD50. It is less consistent than the correct choice.",
+        "A": "Cure rates are efficacy endpoints, not LD50. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "LD50 is an acute toxicity reference point. This matches the correct interpretation."
       }
     },
     {
-      "id": "pharmacology:hard:13",
-      "question": "A 39-year-old woman presents with pD tolerance. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "id": "pharmacology:hard:12",
+      "question": "Which statement about PD tolerance is most accurate?",
       "options": [
-        "A) Receptor downregulation with unchanged plasma levels as the definition of PK tolerance",
-        "B) Reduced response at the same concentration from receptor/pathway adaptation",
-        "C) Reduced levels from faster hepatic metabolism only",
-        "D) Opposite efficacy at the same receptor without changing levels"
+        "A) Opposite efficacy at the same receptor without changing levels",
+        "B) Reduced levels from faster hepatic metabolism only",
+        "C) Receptor downregulation with unchanged plasma levels as the definition of PK tolerance",
+        "D) Reduced response at the same concentration from receptor/pathway adaptation"
       ],
-      "answer": "B) Reduced response at the same concentration from receptor/pathway adaptation",
+      "answer": "D) Reduced response at the same concentration from receptor/pathway adaptation",
       "explanation": "Desensitization/downregulation/adaptation lower effect despite stable exposure. Therefore, the most accurate choice is: Reduced response at the same concentration from receptor/pathway adaptation. Faster metabolism is pharmacokinetic tolerance.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Desensitization/downregulation/adaptation lower effect despite stable exposure. This matches the correct interpretation.",
-        "C": "Faster metabolism is pharmacokinetic tolerance. It is less consistent than the correct choice.",
+        "B": "Faster metabolism is pharmacokinetic tolerance. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Desensitization/downregulation/adaptation lower effect despite stable exposure. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacology:hard:13",
+      "question": "Which of the following is the best statement about tachyphylaxis?",
+      "options": [
+        "A) Means only CYP3A4 induction altering concentrations",
+        "B) Rapid diminution of response after closely spaced repeated doses",
+        "C) Gradual loss of effect over months from enzyme induction alone",
+        "D) Inhibits cell-wall PBPs without enzyme induction"
+      ],
+      "answer": "B) Rapid diminution of response after closely spaced repeated doses",
+      "explanation": "Acute desensitization occurs over minutes to hours in classic tachyphylaxis. Therefore, the most accurate choice is: Rapid diminution of response after closely spaced repeated doses. Chronic metabolic tolerance is a longer timescale phenomenon.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Acute desensitization occurs over minutes to hours in classic tachyphylaxis. This matches the correct interpretation.",
+        "C": "Chronic metabolic tolerance is a longer timescale phenomenon. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmacology:hard:14",
-      "question": "A complex case of pK tolerance involving a 46-year-old man is reviewed on rounds. Which of the following is most accurate?",
+      "question": "Careful review of downregulation is required. Which of the following is most accurate?",
       "options": [
-        "A) Reduced effect because exposure falls (e.g., autoinduction increasing clearance)",
-        "B) Receptor downregulation with unchanged plasma levels as the definition of PK tolerance",
-        "C) Opposite efficacy at the same receptor without changing levels",
-        "D) Reduced levels from faster hepatic metabolism only"
+        "A) Chronic agonist exposure decreases receptor number or responsiveness",
+        "B) Chronic agonists always increase receptor density without limit",
+        "C) Receptor downregulation with unchanged plasma levels as the definition of PK tolerance",
+        "D) Chronic antagonists never alter receptor expression"
       ],
-      "answer": "A) Reduced effect because exposure falls (e.g., autoinduction increasing clearance)",
-      "explanation": "Induction or other ADME changes lower concentration at the target. Therefore, the most accurate choice is: Reduced effect because exposure falls (e.g., autoinduction increasing clearance). Receptor adaptation with stable levels is PD tolerance.",
+      "answer": "A) Chronic agonist exposure decreases receptor number or responsiveness",
+      "explanation": "Internalization and degradation follow prolonged stimulation. Therefore, the most accurate choice is: Chronic agonist exposure decreases receptor number or responsiveness. Density typically falls rather than rises with chronic agonism.",
       "choice_explanations": {
-        "A": "Induction or other ADME changes lower concentration at the target. This matches the correct interpretation.",
-        "B": "Receptor adaptation with stable levels is PD tolerance. It is less consistent than the correct choice.",
+        "A": "Internalization and degradation follow prolonged stimulation. This matches the correct interpretation.",
+        "B": "Density typically falls rather than rises with chronic agonism. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmacology:hard:15",
-      "question": "A 33-year-old man has progressive abnormalities attributed to tachyphylaxis. Which of the following is most consistent with the clinical process?",
+      "question": "Two similar explanations for upregulation rebound are compared. Which of the following is correct?",
       "options": [
-        "A) Rapid diminution of response after closely spaced repeated doses",
-        "B) Gradual loss of effect over months from enzyme induction alone",
-        "C) Plots only the percent of a population showing an all-or-none response",
-        "D) Means only CYP3A4 induction altering concentrations"
+        "A) Chronic antagonist use can increase receptor sensitivity; abrupt stop risks rebound",
+        "B) Chronic antagonists never alter receptor expression",
+        "C) Chronic agonists always increase receptor density without limit",
+        "D) Long-acting full opioid agonist used for chronic pain"
       ],
-      "answer": "A) Rapid diminution of response after closely spaced repeated doses",
-      "explanation": "Acute desensitization occurs over minutes to hours in classic tachyphylaxis. Therefore, the most accurate choice is: Rapid diminution of response after closely spaced repeated doses. Chronic metabolic tolerance is a longer timescale phenomenon.",
+      "answer": "A) Chronic antagonist use can increase receptor sensitivity; abrupt stop risks rebound",
+      "explanation": "Compensatory upregulation can overshoot when blockade is removed. Therefore, the most accurate choice is: Chronic antagonist use can increase receptor sensitivity; abrupt stop risks rebound. Receptor expression can adapt during prolonged blockade.",
       "choice_explanations": {
-        "A": "Acute desensitization occurs over minutes to hours in classic tachyphylaxis. This matches the correct interpretation.",
-        "B": "Chronic metabolic tolerance is a longer timescale phenomenon. It is less consistent than the correct choice.",
+        "A": "Compensatory upregulation can overshoot when blockade is removed. This matches the correct interpretation.",
+        "B": "Receptor expression can adapt during prolonged blockade. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmacology:hard:16",
-      "question": "A 61-year-old man presents with findings that could fit more than one process often confused with downregulation. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "In a detailed discussion of gs signaling, which of the following is most accurate?",
       "options": [
-        "A) Chronic agonists always increase receptor density without limit",
-        "B) Chronic antagonists never alter receptor expression",
-        "C) Receptor downregulation with unchanged plasma levels as the definition of PK tolerance",
-        "D) Chronic agonist exposure decreases receptor number or responsiveness"
+        "A) Gs inhibits adenylyl cyclase and lowers cAMP as its defining cascade",
+        "B) Gi always stimulates adenylyl cyclase like Gs",
+        "C) Gq primarily inhibits adenylyl cyclase to lower cAMP",
+        "D) Gs stimulates adenylyl cyclase, raising cAMP and activating PKA"
       ],
-      "answer": "D) Chronic agonist exposure decreases receptor number or responsiveness",
-      "explanation": "Internalization and degradation follow prolonged stimulation. Therefore, the most accurate choice is: Chronic agonist exposure decreases receptor number or responsiveness. Density typically falls rather than rises with chronic agonism.",
+      "answer": "D) Gs stimulates adenylyl cyclase, raising cAMP and activating PKA",
+      "explanation": "Gs–AC–cAMP–PKA is the canonical stimulatory GPCR path. Therefore, the most accurate choice is: Gs stimulates adenylyl cyclase, raising cAMP and activating PKA. Gi lowers cAMP; Gs raises it.",
       "choice_explanations": {
-        "A": "Density typically falls rather than rises with chronic agonism. It is less consistent than the correct choice.",
+        "A": "Gi lowers cAMP; Gs raises it. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Internalization and degradation follow prolonged stimulation. This matches the correct interpretation."
+        "D": "Gs–AC–cAMP–PKA is the canonical stimulatory GPCR path. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmacology:hard:17",
-      "question": "A 30-year-old woman is hospitalized with evolving features of upregulation rebound. A common mimic remains possible. Which of the following is most likely?",
+      "question": "Which of the following correctly distinguishes key points about gi signaling?",
       "options": [
-        "A) Chronic antagonist use can increase receptor sensitivity; abrupt stop risks rebound",
-        "B) Long-acting full opioid agonist used for chronic pain",
-        "C) Chronic agonists always increase receptor density without limit",
-        "D) Chronic antagonists never alter receptor expression"
+        "A) Gi inhibits adenylyl cyclase, decreasing cAMP-dependent signaling",
+        "B) Gq primarily inhibits adenylyl cyclase to lower cAMP",
+        "C) Gs inhibits adenylyl cyclase and lowers cAMP as its defining cascade",
+        "D) Gi always stimulates adenylyl cyclase like Gs"
       ],
-      "answer": "A) Chronic antagonist use can increase receptor sensitivity; abrupt stop risks rebound",
-      "explanation": "Compensatory upregulation can overshoot when blockade is removed. Therefore, the most accurate choice is: Chronic antagonist use can increase receptor sensitivity; abrupt stop risks rebound. Receptor expression can adapt during prolonged blockade.",
+      "answer": "A) Gi inhibits adenylyl cyclase, decreasing cAMP-dependent signaling",
+      "explanation": "Inhibitory GPCRs dampen cAMP via Gi/o. Therefore, the most accurate choice is: Gi inhibits adenylyl cyclase, decreasing cAMP-dependent signaling. AC stimulation is Gs, not Gi.",
       "choice_explanations": {
-        "A": "Compensatory upregulation can overshoot when blockade is removed. This matches the correct interpretation.",
+        "A": "Inhibitory GPCRs dampen cAMP via Gi/o. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Receptor expression can adapt during prolonged blockade. It is less consistent than the correct choice."
+        "D": "AC stimulation is Gs, not Gi. It is less consistent than the correct choice."
       }
     },
     {
       "id": "pharmacology:hard:18",
-      "question": "A 33-year-old man is evaluated for gs signaling. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "Careful interpretation of gq signaling is required. Which of the following is correct?",
       "options": [
         "A) Gi always stimulates adenylyl cyclase like Gs",
-        "B) Gq primarily inhibits adenylyl cyclase to lower cAMP",
-        "C) Gs stimulates adenylyl cyclase, raising cAMP and activating PKA",
-        "D) Gs inhibits adenylyl cyclase and lowers cAMP as its defining cascade"
+        "B) Gs inhibits adenylyl cyclase and lowers cAMP as its defining cascade",
+        "C) Gq activates PLC generating IP3/DAG, raising Ca2+ and activating PKC",
+        "D) Gq primarily inhibits adenylyl cyclase to lower cAMP"
       ],
-      "answer": "C) Gs stimulates adenylyl cyclase, raising cAMP and activating PKA",
-      "explanation": "Gs–AC–cAMP–PKA is the canonical stimulatory GPCR path. Therefore, the most accurate choice is: Gs stimulates adenylyl cyclase, raising cAMP and activating PKA. Gi lowers cAMP; Gs raises it.",
+      "answer": "C) Gq activates PLC generating IP3/DAG, raising Ca2+ and activating PKC",
+      "explanation": "PLC cleavage of PIP2 is the Gq hallmark cascade. Therefore, the most accurate choice is: Gq activates PLC generating IP3/DAG, raising Ca2+ and activating PKC. AC inhibition is the Gi cascade, not Gq.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Gs–AC–cAMP–PKA is the canonical stimulatory GPCR path. This matches the correct interpretation.",
-        "D": "Gi lowers cAMP; Gs raises it. It is less consistent than the correct choice."
+        "C": "PLC cleavage of PIP2 is the Gq hallmark cascade. This matches the correct interpretation.",
+        "D": "AC inhibition is the Gi cascade, not Gq. It is less consistent than the correct choice."
       }
     },
     {
       "id": "pharmacology:hard:19",
-      "question": "A 40-year-old woman is evaluated for suspected gi signaling. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "Which statement about ligand-gated example is most accurate?",
       "options": [
-        "A) Gi always stimulates adenylyl cyclase like Gs",
-        "B) Gs inhibits adenylyl cyclase and lowers cAMP as its defining cascade",
-        "C) Gi inhibits adenylyl cyclase, decreasing cAMP-dependent signaling",
-        "D) Gq primarily inhibits adenylyl cyclase to lower cAMP"
+        "A) Nicotinic ACh receptor is exclusively a nuclear transcription factor",
+        "B) Glucocorticoid receptor is a neuromuscular ligand-gated sodium channel",
+        "C) Nicotinic ACh receptor is a ligand-gated ion channel for fast synaptic transmission",
+        "D) Nuclear steroid receptor that activates transcription"
       ],
-      "answer": "C) Gi inhibits adenylyl cyclase, decreasing cAMP-dependent signaling",
-      "explanation": "Inhibitory GPCRs dampen cAMP via Gi/o. Therefore, the most accurate choice is: Gi inhibits adenylyl cyclase, decreasing cAMP-dependent signaling. AC stimulation is Gs, not Gi.",
+      "answer": "C) Nicotinic ACh receptor is a ligand-gated ion channel for fast synaptic transmission",
+      "explanation": "nAChRs are pentameric cation channels opened by agonist binding. Therefore, the most accurate choice is: Nicotinic ACh receptor is a ligand-gated ion channel for fast synaptic transmission. Nuclear receptors regulate transcription; nAChR does not.",
       "choice_explanations": {
-        "A": "AC stimulation is Gs, not Gi. It is less consistent than the correct choice.",
+        "A": "Nuclear receptors regulate transcription; nAChR does not. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Inhibitory GPCRs dampen cAMP via Gi/o. This matches the correct interpretation.",
+        "C": "nAChRs are pentameric cation channels opened by agonist binding. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmacology:hard:20",
-      "question": "Findings thought to represent gq signaling can be misread. Which of the following is most correct?",
+      "question": "Which of the following is the best statement about RTK example?",
       "options": [
-        "A) Gq primarily inhibits adenylyl cyclase to lower cAMP",
-        "B) Gs inhibits adenylyl cyclase and lowers cAMP as its defining cascade",
-        "C) Gq activates PLC generating IP3/DAG, raising Ca2+ and activating PKC",
-        "D) Gi always stimulates adenylyl cyclase like Gs"
+        "A) Insulin receptor is only a Gi-coupled seven-transmembrane GPCR",
+        "B) Glucocorticoid receptor is a neuromuscular ligand-gated sodium channel",
+        "C) Insulin receptor autophosphorylates on tyrosine and engages IRS/PI3K and MAPK paths",
+        "D) Nicotinic ACh receptor is exclusively a nuclear transcription factor"
       ],
-      "answer": "C) Gq activates PLC generating IP3/DAG, raising Ca2+ and activating PKC",
-      "explanation": "PLC cleavage of PIP2 is the Gq hallmark cascade. Therefore, the most accurate choice is: Gq activates PLC generating IP3/DAG, raising Ca2+ and activating PKC. AC inhibition is the Gi cascade, not Gq.",
+      "answer": "C) Insulin receptor autophosphorylates on tyrosine and engages IRS/PI3K and MAPK paths",
+      "explanation": "RTK dimerization and autophosphorylation initiate insulin signaling. Therefore, the most accurate choice is: Insulin receptor autophosphorylates on tyrosine and engages IRS/PI3K and MAPK paths. Insulin signaling is RTK-based, not classic Gi GPCR signaling.",
       "choice_explanations": {
-        "A": "AC inhibition is the Gi cascade, not Gq. It is less consistent than the correct choice.",
+        "A": "Insulin signaling is RTK-based, not classic Gi GPCR signaling. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "PLC cleavage of PIP2 is the Gq hallmark cascade. This matches the correct interpretation.",
+        "C": "RTK dimerization and autophosphorylation initiate insulin signaling. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmacology:hard:21",
-      "question": "A 58-year-old woman presents with ligand-gated example. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "Careful review of biased agonism is required. Which of the following is most accurate?",
       "options": [
-        "A) Nuclear steroid receptor that activates transcription",
-        "B) Nicotinic ACh receptor is exclusively a nuclear transcription factor",
-        "C) Glucocorticoid receptor is a neuromuscular ligand-gated sodium channel",
-        "D) Nicotinic ACh receptor is a ligand-gated ion channel for fast synaptic transmission"
+        "A) Competitive occupancy of the same orthosteric receptor site",
+        "B) Means the ligand never binds any receptor",
+        "C) Opposite efficacy at the same receptor without changing levels",
+        "D) Ligand preferentially activates one downstream pathway over another at the same receptor"
       ],
-      "answer": "D) Nicotinic ACh receptor is a ligand-gated ion channel for fast synaptic transmission",
-      "explanation": "nAChRs are pentameric cation channels opened by agonist binding. Therefore, the most accurate choice is: Nicotinic ACh receptor is a ligand-gated ion channel for fast synaptic transmission. Nuclear receptors regulate transcription; nAChR does not.",
+      "answer": "D) Ligand preferentially activates one downstream pathway over another at the same receptor",
+      "explanation": "Functional selectivity can favor G-protein versus β-arrestin pathways differently. Therefore, the most accurate choice is: Ligand preferentially activates one downstream pathway over another at the same receptor. Bias is a signaling property of a bound ligand–receptor complex.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Nuclear receptors regulate transcription; nAChR does not. It is less consistent than the correct choice.",
+        "B": "Bias is a signaling property of a bound ligand–receptor complex. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "nAChRs are pentameric cation channels opened by agonist binding. This matches the correct interpretation."
+        "D": "Functional selectivity can favor G-protein versus β-arrestin pathways differently. This matches the correct interpretation."
       }
     },
     {
       "id": "pharmacology:hard:22",
-      "question": "A complex case of nuclear receptor example involving a 67-year-old man is reviewed on rounds. Which of the following is most accurate?",
+      "question": "Two similar explanations for GPCR desensitization are compared. Which of the following is correct?",
       "options": [
-        "A) Nicotinic ACh receptor is exclusively a nuclear transcription factor",
-        "B) Glucocorticoid receptor is a neuromuscular ligand-gated sodium channel",
-        "C) Glucocorticoid receptor acts as a ligand-activated transcription factor",
-        "D) Nuclear steroid receptor that activates transcription"
+        "A) Drug never leaves the stomach lumen",
+        "B) GPCRs never desensitize after agonist exposure",
+        "C) GRK phosphorylation and β-arrestin recruitment uncouple and internalize GPCRs",
+        "D) Tolerance never develops with continuous patch exposure"
       ],
-      "answer": "C) Glucocorticoid receptor acts as a ligand-activated transcription factor",
-      "explanation": "Steroid-bound GR modulates gene expression programs. Therefore, the most accurate choice is: Glucocorticoid receptor acts as a ligand-activated transcription factor. NMJ ion channels are not the glucocorticoid receptor.",
+      "answer": "C) GRK phosphorylation and β-arrestin recruitment uncouple and internalize GPCRs",
+      "explanation": "Acute regulation uses phosphorylation and arrestin-mediated uncoupling. Therefore, the most accurate choice is: GRK phosphorylation and β-arrestin recruitment uncouple and internalize GPCRs. GPCR desensitization is a core physiologic control process.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "NMJ ion channels are not the glucocorticoid receptor. It is less consistent than the correct choice.",
-        "C": "Steroid-bound GR modulates gene expression programs. This matches the correct interpretation.",
+        "B": "GPCR desensitization is a core physiologic control process. It is less consistent than the correct choice.",
+        "C": "Acute regulation uses phosphorylation and arrestin-mediated uncoupling. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmacology:hard:23",
-      "question": "A 47-year-old man has progressive abnormalities attributed to rTK example. Which of the following is most consistent with the clinical process?",
+      "question": "A 57-year-old man is evaluated for synergism. Which of the following is the best interpretation?",
       "options": [
-        "A) Insulin receptor autophosphorylates on tyrosine and engages IRS/PI3K and MAPK paths",
-        "B) Glucocorticoid receptor is a neuromuscular ligand-gated sodium channel",
-        "C) Nicotinic ACh receptor is exclusively a nuclear transcription factor",
-        "D) Insulin receptor is only a Gi-coupled seven-transmembrane GPCR"
+        "A) Combined effect greater than expected from simple addition of individual effects",
+        "B) Caused by naloxone reversing opioid effects",
+        "C) Oral drugs never form active metabolites",
+        "D) Two drugs cancel each other’s effects completely"
       ],
-      "answer": "A) Insulin receptor autophosphorylates on tyrosine and engages IRS/PI3K and MAPK paths",
-      "explanation": "RTK dimerization and autophosphorylation initiate insulin signaling. Therefore, the most accurate choice is: Insulin receptor autophosphorylates on tyrosine and engages IRS/PI3K and MAPK paths. Insulin signaling is RTK-based, not classic Gi GPCR signaling.",
+      "answer": "A) Combined effect greater than expected from simple addition of individual effects",
+      "explanation": "True synergy exceeds additive model expectations. Therefore, the most accurate choice is: Combined effect greater than expected from simple addition of individual effects. Mutual cancellation is antagonism, not synergism.",
       "choice_explanations": {
-        "A": "RTK dimerization and autophosphorylation initiate insulin signaling. This matches the correct interpretation.",
+        "A": "True synergy exceeds additive model expectations. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Insulin signaling is RTK-based, not classic Gi GPCR signaling. It is less consistent than the correct choice."
+        "D": "Mutual cancellation is antagonism, not synergism. It is less consistent than the correct choice."
       }
     },
     {
       "id": "pharmacology:hard:24",
-      "question": "A 35-year-old man presents with findings that could fit more than one process often confused with biased agonism. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "Which of the following correctly distinguishes key points about physiological antagonism?",
       "options": [
-        "A) Means the ligand never binds any receptor",
-        "B) Ligand preferentially activates one downstream pathway over another at the same receptor",
-        "C) Opposite efficacy at the same receptor without changing levels",
-        "D) Glucocorticoid receptor is a neuromuscular ligand-gated sodium channel"
+        "A) Direct chemical neutralization of a drug in a syringe before injection",
+        "B) Opposing physiologic systems counteract effects (e.g., epinephrine vs histamine on bronchi)",
+        "C) Direct ENaC pore blocker without receptor antagonism like amiloride",
+        "D) Ignores clearance and uses only taste of the medicine"
       ],
-      "answer": "B) Ligand preferentially activates one downstream pathway over another at the same receptor",
-      "explanation": "Functional selectivity can favor G-protein versus β-arrestin pathways differently. Therefore, the most accurate choice is: Ligand preferentially activates one downstream pathway over another at the same receptor. Bias is a signaling property of a bound ligand–receptor complex.",
+      "answer": "B) Opposing physiologic systems counteract effects (e.g., epinephrine vs histamine on bronchi)",
+      "explanation": "Functional opposition uses different pathways/receptors. Therefore, the most accurate choice is: Opposing physiologic systems counteract effects (e.g., epinephrine vs histamine on bronchi). In-vitro chemical inactivation is chemical antagonism.",
       "choice_explanations": {
-        "A": "Bias is a signaling property of a bound ligand–receptor complex. It is less consistent than the correct choice.",
-        "B": "Functional selectivity can favor G-protein versus β-arrestin pathways differently. This matches the correct interpretation.",
+        "A": "In-vitro chemical inactivation is chemical antagonism. It is less consistent than the correct choice.",
+        "B": "Functional opposition uses different pathways/receptors. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmacology:hard:25",
-      "question": "A 45-year-old woman is hospitalized with evolving features of gPCR desensitization. A common mimic remains possible. Which of the following is most likely?",
+      "question": "Careful interpretation of chemical antagonism is required. Which of the following is correct?",
       "options": [
-        "A) GRK phosphorylation and β-arrestin recruitment uncouple and internalize GPCRs",
-        "B) GPCRs never desensitize after agonist exposure",
-        "C) Tolerance never develops with continuous patch exposure",
-        "D) Drug never leaves the stomach lumen"
+        "A) Direct chemical binding/chelation that inactivates a drug or toxin",
+        "B) Competitive occupancy of the same orthosteric receptor site",
+        "C) Opposite efficacy at the same receptor without changing levels",
+        "D) Direct chemical neutralization of a drug in a syringe before injection"
       ],
-      "answer": "A) GRK phosphorylation and β-arrestin recruitment uncouple and internalize GPCRs",
-      "explanation": "Acute regulation uses phosphorylation and arrestin-mediated uncoupling. Therefore, the most accurate choice is: GRK phosphorylation and β-arrestin recruitment uncouple and internalize GPCRs. GPCR desensitization is a core physiologic control process.",
+      "answer": "A) Direct chemical binding/chelation that inactivates a drug or toxin",
+      "explanation": "Chelators and binding antidotes neutralize the molecule itself. Therefore, the most accurate choice is: Direct chemical binding/chelation that inactivates a drug or toxin. Orthosteric competition is receptor antagonism, not chemical.",
       "choice_explanations": {
-        "A": "Acute regulation uses phosphorylation and arrestin-mediated uncoupling. This matches the correct interpretation.",
-        "B": "GPCR desensitization is a core physiologic control process. It is less consistent than the correct choice.",
+        "A": "Chelators and binding antidotes neutralize the molecule itself. This matches the correct interpretation.",
+        "B": "Orthosteric competition is receptor antagonism, not chemical. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "pharmacology:hard:26",
-      "question": "A 67-year-old woman is evaluated for synergism. Which of the following is favored after comparison with frequent look-alikes?",
-      "options": [
-        "A) Combined effect greater than expected from simple addition of individual effects",
-        "B) Two drugs cancel each other’s effects completely",
-        "C) Oral drugs never form active metabolites",
-        "D) Caused by naloxone reversing opioid effects"
-      ],
-      "answer": "A) Combined effect greater than expected from simple addition of individual effects",
-      "explanation": "True synergy exceeds additive model expectations. Therefore, the most accurate choice is: Combined effect greater than expected from simple addition of individual effects. Mutual cancellation is antagonism, not synergism.",
-      "choice_explanations": {
-        "A": "True synergy exceeds additive model expectations. This matches the correct interpretation.",
-        "B": "Mutual cancellation is antagonism, not synergism. It is less consistent than the correct choice.",
-        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
-      }
-    },
-    {
-      "id": "pharmacology:hard:27",
-      "question": "A 61-year-old woman is evaluated for suspected physiological antagonism. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
-      "options": [
-        "A) Direct ENaC pore blocker without receptor antagonism like amiloride",
-        "B) Direct chemical neutralization of a drug in a syringe before injection",
-        "C) Ignores clearance and uses only taste of the medicine",
-        "D) Opposing physiologic systems counteract effects (e.g., epinephrine vs histamine on bronchi)"
-      ],
-      "answer": "D) Opposing physiologic systems counteract effects (e.g., epinephrine vs histamine on bronchi)",
-      "explanation": "Functional opposition uses different pathways/receptors. Therefore, the most accurate choice is: Opposing physiologic systems counteract effects (e.g., epinephrine vs histamine on bronchi). In-vitro chemical inactivation is chemical antagonism.",
-      "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "In-vitro chemical inactivation is chemical antagonism. It is less consistent than the correct choice.",
-        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Functional opposition uses different pathways/receptors. This matches the correct interpretation."
-      }
-    },
-    {
-      "id": "pharmacology:hard:28",
-      "question": "Findings thought to represent chemical antagonism can be misread. Which of the following is most correct?",
-      "options": [
-        "A) Opposite efficacy at the same receptor without changing levels",
-        "B) Direct chemical binding/chelation that inactivates a drug or toxin",
-        "C) Competitive occupancy of the same orthosteric receptor site",
-        "D) Direct chemical neutralization of a drug in a syringe before injection"
-      ],
-      "answer": "B) Direct chemical binding/chelation that inactivates a drug or toxin",
-      "explanation": "Chelators and binding antidotes neutralize the molecule itself. Therefore, the most accurate choice is: Direct chemical binding/chelation that inactivates a drug or toxin. Orthosteric competition is receptor antagonism, not chemical.",
-      "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Chelators and binding antidotes neutralize the molecule itself. This matches the correct interpretation.",
-        "C": "Orthosteric competition is receptor antagonism, not chemical. It is less consistent than the correct choice.",
-        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
-      }
-    },
-    {
-      "id": "pharmacology:hard:29",
-      "question": "A 49-year-old man presents with pK antagonism. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "Which statement about PK antagonism is most accurate?",
       "options": [
         "A) One drug reduces another’s concentration via ADME changes",
         "B) Opposite efficacy at the same receptor without changing levels",
-        "C) Competitive occupancy of the same orthosteric receptor site",
-        "D) Always raises substrate levels by blocking metabolism"
+        "C) Reduced levels from faster hepatic metabolism only",
+        "D) Competitive occupancy of the same orthosteric receptor site"
       ],
       "answer": "A) One drug reduces another’s concentration via ADME changes",
       "explanation": "Induction or absorption impairment can lower substrate exposure. Therefore, the most accurate choice is: One drug reduces another’s concentration via ADME changes. Opposite receptor efficacy without level change is PD antagonism.",
@@ -1623,12 +1569,66 @@
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
+    },
+    {
+      "id": "pharmacology:hard:27",
+      "question": "Which of the following is the best statement about prodrug?",
+      "options": [
+        "A) Means the drug cannot cause adverse effects",
+        "B) Always more toxic than the active species by definition",
+        "C) Both syndromes are triggered by the same exclusive drug list always",
+        "D) Inactive precursor converted in vivo to active drug to improve delivery properties"
+      ],
+      "answer": "D) Inactive precursor converted in vivo to active drug to improve delivery properties",
+      "explanation": "Bioactivation yields the active moiety after ADME optimization. Therefore, the most accurate choice is: Inactive precursor converted in vivo to active drug to improve delivery properties. Toxicity is not inherent to prodrug status.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Toxicity is not inherent to prodrug status. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Bioactivation yields the active moiety after ADME optimization. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "pharmacology:hard:28",
+      "question": "A 62-year-old man presents with findings that overlap several diagnoses, including active metabolite. Which of the following is most accurate?",
+      "options": [
+        "A) Kidney clears the entire oral dose before absorption as classic first-pass",
+        "B) Metabolites may contribute substantially to clinical effect or toxicity",
+        "C) Oral drugs never form active metabolites",
+        "D) Always more toxic than the active species by definition"
+      ],
+      "answer": "B) Metabolites may contribute substantially to clinical effect or toxicity",
+      "explanation": "Biotransformation can create pharmacologically active species. Therefore, the most accurate choice is: Metabolites may contribute substantially to clinical effect or toxicity. Active metabolites are common and clinically important.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Biotransformation can create pharmacologically active species. This matches the correct interpretation.",
+        "C": "Active metabolites are common and clinically important. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "pharmacology:hard:29",
+      "question": "A 43-year-old man is hospitalized with evolving CYP3A4. Which of the following is most accurate?",
+      "options": [
+        "A) Major oxidative CYP metabolizing a large fraction of drugs in liver and gut",
+        "B) Primary enzyme for glucuronide conjugation like UGTs",
+        "C) Always raises substrate levels by blocking metabolism",
+        "D) Inhibit hepatic gluconeogenesis like metformin as primary action"
+      ],
+      "answer": "A) Major oxidative CYP metabolizing a large fraction of drugs in liver and gut",
+      "explanation": "CYP3A4 dominates oxidative metabolism for many substrates. Therefore, the most accurate choice is: Major oxidative CYP metabolizing a large fraction of drugs in liver and gut. Glucuronidation is UGT chemistry, not CYP3A4’s primary reaction.",
+      "choice_explanations": {
+        "A": "CYP3A4 dominates oxidative metabolism for many substrates. This matches the correct interpretation.",
+        "B": "Glucuronidation is UGT chemistry, not CYP3A4’s primary reaction. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
     }
   ],
   "extreme": [
     {
       "id": "pharmacology:extreme:0",
-      "question": "A 30-year-old man develops rapidly worsening features of full agonist. Vital signs are unstable. Which of the following is most likely?",
+      "question": "Careful reasoning about full agonist is required. Which of the following is most accurate?",
       "options": [
         "A) Binds and stabilizes the active receptor conformation, able to reach tissue Emax",
         "B) Always produces higher Emax than any full agonist at the same system",
@@ -1646,7 +1646,7 @@
     },
     {
       "id": "pharmacology:extreme:1",
-      "question": "In the emergency department, a 42-year-old woman is critically ill with a syndrome centered on competitive antagonist. Which of the following is most likely?",
+      "question": "Small differences in wording about competitive antagonist matter. Which of the following is correct?",
       "options": [
         "A) Noncompetitive block that always flattens Emax without potency shift",
         "B) Surmountable orthosteric block: right-shift agonist curve with Emax preservable",
@@ -1664,7 +1664,7 @@
     },
     {
       "id": "pharmacology:extreme:2",
-      "question": "A 66-year-old woman deteriorates overnight with partial agonist. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "Which of the following is the most precise statement about partial agonist?",
       "options": [
         "A) Lower intrinsic efficacy than full agonists; may act as agonist or functional antagonist",
         "B) Identical to intrinsic efficacy producing tissue Emax",
@@ -1682,7 +1682,7 @@
     },
     {
       "id": "pharmacology:extreme:3",
-      "question": "A 32-year-old man develops life-threatening complications in the setting of inverse agonist. Which of the following is most consistent with the clinical process?",
+      "question": "In advanced review of inverse agonist, which of the following is most accurate?",
       "options": [
         "A) Occupies the orthosteric site without activation (competitive antagonist pattern)",
         "B) Prefers inactive conformation and reduces constitutive signaling below basal",
@@ -1700,7 +1700,7 @@
     },
     {
       "id": "pharmacology:extreme:4",
-      "question": "A rapidly progressive presentation of spare receptors is reviewed in a 39-year-old woman. Which of the following is most likely?",
+      "question": "Which interpretation of spare receptors is most accurate?",
       "options": [
         "A) Synonym of maximal efficacy (Emax) in all contexts",
         "B) All receptors must be occupied to achieve any tissue response",
@@ -1718,7 +1718,7 @@
     },
     {
       "id": "pharmacology:extreme:5",
-      "question": "A 63-year-old woman requires urgent decision-making for affinity. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Which closely related statement about affinity is correct?",
       "options": [
         "A) Identical to intrinsic efficacy producing tissue Emax",
         "B) Tendency to bind a receptor, often expressed as Kd (lower Kd = higher affinity)",
@@ -1736,7 +1736,7 @@
     },
     {
       "id": "pharmacology:extreme:6",
-      "question": "A 49-year-old woman has refractory abnormalities due to potency. Which of the following is the most accurate interpretation?",
+      "question": "Which of the following is the central point about potency?",
       "options": [
         "A) Identical to intrinsic efficacy producing tissue Emax",
         "B) Always produces higher Emax than any full agonist at the same system",
@@ -1754,7 +1754,7 @@
     },
     {
       "id": "pharmacology:extreme:7",
-      "question": "A critical-care presentation involving efficacy in a 36-year-old woman is discussed. Which of the following is most likely?",
+      "question": "Which statement about efficacy is most accurate?",
       "options": [
         "A) Identical to plasma half-life",
         "B) Identical to intrinsic efficacy producing tissue Emax",
@@ -1772,7 +1772,7 @@
     },
     {
       "id": "pharmacology:extreme:8",
-      "question": "A 68-year-old woman with reduced renal function develops rapidly worsening features of therapeutic index. Vital signs are unstable. Which of the following is most likely?",
+      "question": "Careful reasoning about therapeutic index is required. Which of the following is most accurate?",
       "options": [
         "A) Synonym of maximal efficacy (Emax) in all contexts",
         "B) Ratio relating toxic-dose to effective-dose metrics (e.g., TD50/ED50)",
@@ -1790,7 +1790,7 @@
     },
     {
       "id": "pharmacology:extreme:9",
-      "question": "In the emergency department, a 33-year-old man is critically ill with a syndrome centered on graded DR curve. Which of the following is most likely?",
+      "question": "Management of graded DR curve is reviewed for a 64-year-old woman. Which of the following is most accurate?",
       "options": [
         "A) Plots continuous mmHg change within one isolated tissue only",
         "B) Synonym of maximal efficacy (Emax) in all contexts",
@@ -1808,7 +1808,7 @@
     },
     {
       "id": "pharmacology:extreme:10",
-      "question": "A 61-year-old man deteriorates overnight with quantal DR curve. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "A 51-year-old woman needs immediate action related to quantal DR curve. Which of the following is correct?",
       "options": [
         "A) Plots fraction of population achieving a defined all-or-none effect versus dose",
         "B) Plots continuous mmHg change within one isolated tissue only",
@@ -1826,7 +1826,7 @@
     },
     {
       "id": "pharmacology:extreme:11",
-      "question": "A 62-year-old woman with reduced renal function develops life-threatening complications in the setting of ED50. Which of the following is most consistent with the clinical process?",
+      "question": "In a 52-year-old man, treatment choices for ED50 are debated. Which of the following is most accurate?",
       "options": [
         "A) Always identical to LD50",
         "B) Dose that cures 50% of infections in routine care",
@@ -1844,7 +1844,7 @@
     },
     {
       "id": "pharmacology:extreme:12",
-      "question": "A rapidly progressive presentation of LD50 is reviewed in a 69-year-old man. Which of the following is most likely?",
+      "question": "A 59-year-old woman with reduced renal function is treated for complications related to LD50. Which of the following is correct?",
       "options": [
         "A) Dose lethal to 50% of a defined test population under stated conditions",
         "B) Plots only the percent of a population showing an all-or-none response",
@@ -1862,7 +1862,7 @@
     },
     {
       "id": "pharmacology:extreme:13",
-      "question": "A 39-year-old woman requires urgent decision-making for pD tolerance. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Which closely related statement about PD tolerance is correct?",
       "options": [
         "A) Reduced levels from faster hepatic metabolism only",
         "B) Opposite efficacy at the same receptor without changing levels",
@@ -1880,7 +1880,7 @@
     },
     {
       "id": "pharmacology:extreme:14",
-      "question": "A 46-year-old man has refractory abnormalities due to pK tolerance. Which of the following is the most accurate interpretation?",
+      "question": "Which of the following is the central point about PK tolerance?",
       "options": [
         "A) Reduced effect because exposure falls (e.g., autoinduction increasing clearance)",
         "B) Receptor downregulation with unchanged plasma levels as the definition of PK tolerance",
@@ -1898,7 +1898,7 @@
     },
     {
       "id": "pharmacology:extreme:15",
-      "question": "A critical-care presentation involving tachyphylaxis in a 33-year-old man is discussed. Which of the following is most likely?",
+      "question": "Which statement about managing tachyphylaxis in a 64-year-old woman is most accurate?",
       "options": [
         "A) Gradual loss of effect over months from enzyme induction alone",
         "B) Means only CYP3A4 induction altering concentrations",
@@ -1916,7 +1916,7 @@
     },
     {
       "id": "pharmacology:extreme:16",
-      "question": "A 61-year-old man with reduced renal function develops rapidly worsening features of downregulation. Vital signs are unstable. Which of the following is most likely?",
+      "question": "Careful reasoning about downregulation is required. Which of the following is most accurate?",
       "options": [
         "A) Chronic antagonists never alter receptor expression",
         "B) Chronic agonists always increase receptor density without limit",
@@ -1934,7 +1934,7 @@
     },
     {
       "id": "pharmacology:extreme:17",
-      "question": "In the emergency department, a 30-year-old woman is critically ill with a syndrome centered on upregulation rebound. Which of the following is most likely?",
+      "question": "Small differences in wording about upregulation rebound matter. Which of the following is correct?",
       "options": [
         "A) Chronic antagonist use can increase receptor sensitivity; abrupt stop risks rebound",
         "B) Chronic antagonists never alter receptor expression",
@@ -1952,7 +1952,7 @@
     },
     {
       "id": "pharmacology:extreme:18",
-      "question": "A 33-year-old man deteriorates overnight with gs signaling. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "Which of the following is the most precise statement about gs signaling?",
       "options": [
         "A) Gs inhibits adenylyl cyclase and lowers cAMP as its defining cascade",
         "B) Gs stimulates adenylyl cyclase, raising cAMP and activating PKA",
@@ -1970,7 +1970,7 @@
     },
     {
       "id": "pharmacology:extreme:19",
-      "question": "A 40-year-old woman develops life-threatening complications in the setting of gi signaling. Which of the following is most consistent with the clinical process?",
+      "question": "In advanced review of gi signaling, which of the following is most accurate?",
       "options": [
         "A) Gq primarily inhibits adenylyl cyclase to lower cAMP",
         "B) Gs inhibits adenylyl cyclase and lowers cAMP as its defining cascade",
@@ -1988,7 +1988,7 @@
     },
     {
       "id": "pharmacology:extreme:20",
-      "question": "A rapidly progressive presentation of gq signaling is reviewed in a 47-year-old man. Which of the following is most likely?",
+      "question": "Which interpretation of gq signaling is most accurate?",
       "options": [
         "A) Gq activates PLC generating IP3/DAG, raising Ca2+ and activating PKC",
         "B) Gq primarily inhibits adenylyl cyclase to lower cAMP",
@@ -2006,7 +2006,7 @@
     },
     {
       "id": "pharmacology:extreme:21",
-      "question": "A 58-year-old woman requires urgent decision-making for ligand-gated example. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Which closely related statement about ligand-gated example is correct?",
       "options": [
         "A) Nicotinic ACh receptor is a ligand-gated ion channel for fast synaptic transmission",
         "B) Nicotinic ACh receptor is exclusively a nuclear transcription factor",
@@ -2024,7 +2024,7 @@
     },
     {
       "id": "pharmacology:extreme:22",
-      "question": "A 67-year-old man has refractory abnormalities due to nuclear receptor example. Which of the following is the most accurate interpretation?",
+      "question": "Which of the following is the central point about nuclear receptor example?",
       "options": [
         "A) Nicotinic ACh receptor is exclusively a nuclear transcription factor",
         "B) Glucocorticoid receptor acts as a ligand-activated transcription factor",
@@ -2042,7 +2042,7 @@
     },
     {
       "id": "pharmacology:extreme:23",
-      "question": "A critical-care presentation involving rTK example in a 47-year-old man is discussed. Which of the following is most likely?",
+      "question": "Which statement about RTK example is most accurate?",
       "options": [
         "A) Insulin receptor autophosphorylates on tyrosine and engages IRS/PI3K and MAPK paths",
         "B) Glucocorticoid receptor is a neuromuscular ligand-gated sodium channel",
@@ -2060,7 +2060,7 @@
     },
     {
       "id": "pharmacology:extreme:24",
-      "question": "A 35-year-old man develops rapidly worsening features of biased agonism. Vital signs are unstable. Which of the following is most likely?",
+      "question": "Careful reasoning about biased agonism is required. Which of the following is most accurate?",
       "options": [
         "A) Means the ligand never binds any receptor",
         "B) Competitive occupancy of the same orthosteric receptor site",
@@ -2078,7 +2078,7 @@
     },
     {
       "id": "pharmacology:extreme:25",
-      "question": "In the emergency department, a 45-year-old woman is critically ill with a syndrome centered on gPCR desensitization. Which of the following is most likely?",
+      "question": "Small differences in wording about GPCR desensitization matter. Which of the following is correct?",
       "options": [
         "A) Tolerance never develops with continuous patch exposure",
         "B) GRK phosphorylation and β-arrestin recruitment uncouple and internalize GPCRs",
@@ -2096,7 +2096,7 @@
     },
     {
       "id": "pharmacology:extreme:26",
-      "question": "A 67-year-old woman deteriorates overnight with synergism. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "A 57-year-old man worsens overnight with synergism. Which of the following is most accurate?",
       "options": [
         "A) Caused by naloxone reversing opioid effects",
         "B) Oral drugs never form active metabolites",
@@ -2114,7 +2114,7 @@
     },
     {
       "id": "pharmacology:extreme:27",
-      "question": "A 61-year-old woman with reduced renal function develops life-threatening complications in the setting of physiological antagonism. Which of the following is most consistent with the clinical process?",
+      "question": "In advanced review of physiological antagonism, which of the following is most accurate?",
       "options": [
         "A) Indirect agents only bind receptors without affecting transmitter release",
         "B) Opposing physiologic systems counteract effects (e.g., epinephrine vs histamine on bronchi)",
@@ -2132,7 +2132,7 @@
     },
     {
       "id": "pharmacology:extreme:28",
-      "question": "A rapidly progressive presentation of chemical antagonism is reviewed in a 45-year-old woman. Which of the following is most likely?",
+      "question": "Which interpretation of chemical antagonism is most accurate?",
       "options": [
         "A) Opposite efficacy at the same receptor without changing levels",
         "B) Competitive occupancy of the same orthosteric receptor site",
@@ -2150,7 +2150,7 @@
     },
     {
       "id": "pharmacology:extreme:29",
-      "question": "A 49-year-old man requires urgent decision-making for pK antagonism. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Which closely related statement about PK antagonism is correct?",
       "options": [
         "A) One drug reduces another’s concentration via ADME changes",
         "B) Always raises substrate levels by blocking metabolism",

@@ -37,9 +37,21 @@ BANNED = re.compile(
     r"overlapping features of|high[- ]stakes|junior colleague|item\s*#|"
     r"single best answer|core concept of|short vignette|board-style|"
     r"which option is most|expected process|workup in .{0,40} is underway|"
-    r"history suggestive of|"
-    r"multiple comorbidities develops rapidly progressive|"
-    r"true driver|dominant pathophysiology|several closely related explanations",
+    r"history suggestive of|constellation is classic|relevant risk factors develops|"
+    r"common mimic|alternatives|textbook mimics|Initial findings do not yet separate|"
+    r"Incorrect attribution|syndrome centered on|rapidly progressive presentation|"
+    r"rapidly worsening features of|critical-care presentation|refractory abnormalities|"
+    r"progressive abnormalities attributed|clinical scenario centers|pediatric scenario|"
+    r"therapy relevant to|medication-related question|case centered on|"
+    r"condition involving|lesion pattern associated|best fits the presentation|"
+    r"hallmark feature of|description most accurately matches|"
+    r"findings consistent with|points toward .{0,40}\. Which|"
+    r"Vital signs are unstable\. Which|life-threatening complications in the setting|"
+    r"Timing, risk factors, and early diagnostics favor|"
+    r"favored after comparison|Distinguishing this from frequent|"
+    r"true driver|dominant pathophysiology|several closely related explanations|"
+    r"On the ward,|A nurse reviews|A pharmacist reviews a regimen concerning|"
+    r"Quality and method considerations for|laboratory conclusions is most correct",
     re.I,
 )
 
@@ -76,7 +88,16 @@ TOPIC_FIXES = {
     "primary pci": "primary PCI for STEMI",
     "dapt post stent": "dual antiplatelet therapy after coronary stenting",
     "ecg primary signal": "the surface ECG",
-    "aspirin acs mechanism": "aspirin in acute coronary syndrome",
+    "aspirin acs mechanism": "aspirin in ACS",
+    "copd definition": "COPD",
+    "copd exacerbation": "COPD exacerbation",
+    "asthma reversible obstruction": "asthma",
+    "asthma exacerbation treatment": "acute asthma exacerbation",
+    "emphysema path": "emphysema",
+    "chronic bronchitis clinical": "chronic bronchitis",
+    "community pneumonia": "community-acquired pneumonia",
+    "ipf pattern": "idiopathic pulmonary fibrosis",
+    "cf lung": "cystic fibrosis lung disease",
 }
 
 
@@ -87,19 +108,35 @@ def clean(s: str) -> str:
 
 def phrase_topic(topic: str) -> str:
     raw = clean(topic)
-    key = raw.lower()
+    key = raw.lower().strip()
     if key in TOPIC_FIXES:
         return TOPIC_FIXES[key]
     t = re.sub(r"(?<=[a-z])(?=[A-Z])", " ", raw).replace("_", " ")
-    t = re.sub(r"\bdef\b", "", t, flags=re.I)
-    t = re.sub(r"\bmech(anism)?\b", "", t, flags=re.I)
-    t = re.sub(r"\bsigns?\b", "", t, flags=re.I)
+    t = re.sub(
+        r"\b(def|definition|mech|mechanism|signs?|path|clinical|pattern|rx|dx)\b",
+        "",
+        t,
+        flags=re.I,
+    )
     t = re.sub(r"\bSL\b", "sublingual", t)
+    t = re.sub(r"\bc\s*opd\b", "COPD", t, flags=re.I)
+    t = re.sub(r"\bcopd\b", "COPD", t, flags=re.I)
+    t = re.sub(r"\bacs\b", "ACS", t, flags=re.I)
+    t = re.sub(r"\bnstemi\b", "NSTEMI", t, flags=re.I)
+    t = re.sub(r"\bstemi\b", "STEMI", t, flags=re.I)
+    t = re.sub(r"\bhfref\b", "HFrEF", t, flags=re.I)
+    t = re.sub(r"\bhocm\b", "HOCM", t, flags=re.I)
     t = re.sub(r"\s+", " ", t).strip(" -")
-    if t and not t.isupper():
+    if t and not t.isupper() and not re.match(r"^[A-Z]{2,}\b", t):
         t = t[0].lower() + t[1:]
     return t or raw.lower()
 
+
+def condition_name(topic: str) -> str:
+    label = phrase_topic(topic)
+    label = re.sub(r"\binterpretation\b", "", label, flags=re.I)
+    label = re.sub(r"\s+", " ", label).strip(" -")
+    return label or phrase_topic(topic)
 
 def _tokens(s: str) -> set[str]:
     stop = {
@@ -592,181 +629,282 @@ def _with_comorbidities(who: str, comorbidities: str) -> str:
     return f"{who} {comorbidities}"
 
 
+
+def topic_kind(topic: dict) -> str:
+    blob = _blob(topic)
+    if any(
+        k in blob
+        for k in (
+            "efficacy", "potency", "agonist", "antagonist", "receptor", "pharmacokin",
+            "half-life", "bioavailability", "first pass", "volume of distribution",
+            "clearance", "therapeutic index", "partial agonist", "competitive",
+        )
+    ):
+        return "concept"
+    if any(
+        k in blob
+        for k in (
+            "testing", "interpretation", "murmur", "ecg", "signal", "definition",
+            "lead", "auscult", "radiograph", "assay", "method", "quality",
+            "cold testing", "percussion", "primary signal",
+        )
+    ):
+        return "finding"
+    if any(
+        k in blob
+        for k in (
+            "treatment", "therapy", "dose", "management", "pci", "dapt", "anticoagul",
+            "rate control", "counseling", "vaccine", "rhogam", "varnish", "sealant",
+        )
+    ):
+        return "management"
+    return "disease"
+
+
 def stem_easy(topic: dict, n: int, rng: random.Random) -> str:
-    label = phrase_topic(topic["topic"])
-    templates = [
-        f"Which of the following best characterizes {label}?",
-        f"Which finding is most consistent with {label}?",
-        f"Which of the following statements about {label} is most accurate?",
-        f"In patients with {label}, which of the following is most correct?",
-        f"Which of the following is the hallmark feature of {label}?",
-        f"Which description most accurately matches {label}?",
-        f"Regarding {label}, which of the following is most accurate?",
-        f"Which of the following mechanisms best explains {label}?",
-    ]
+    label = condition_name(topic["topic"])
+    kind = topic_kind(topic)
+    if kind == "concept":
+        templates = [
+            f"Which of the following best defines {label}?",
+            f"Which statement about {label} is correct?",
+            f"In basic pharmacology, which of the following is true of {label}?",
+            f"Which of the following correctly describes {label}?",
+            f"Select the correct statement regarding {label}.",
+            f"Which of the following applies to {label}?",
+            f"Which explanation of {label} is correct?",
+            f"Which of the following is true for {label}?",
+        ]
+    elif kind == "finding":
+        templates = [
+            f"Which of the following is true about {label}?",
+            f"Which finding matches {label}?",
+            f"Which statement regarding {label} is correct?",
+            f"In clinical examination related to {label}, which of the following is correct?",
+            f"Which of the following best describes {label}?",
+            f"Select the correct interpretation for {label}.",
+            f"Which of the following applies to {label}?",
+            f"Which statement about {label} is accurate?",
+        ]
+    else:
+        templates = [
+            f"Which of the following is true of {label}?",
+            f"Which finding is expected in {label}?",
+            f"Which of the following statements about {label} is correct?",
+            f"In {label}, which of the following is correct?",
+            f"Which of the following best describes {label}?",
+            f"Select the correct statement about {label}.",
+            f"Which mechanism accounts for {label}?",
+            f"Which of the following applies to {label}?",
+        ]
     return templates[n % len(templates)]
 
 
 def stem_medium(topic: dict, n: int, rng: random.Random, field: str, specialty: str) -> str:
-    label = phrase_topic(topic["topic"])
-    mech = clean(topic.get("mechanism", ""))
+    label = condition_name(topic["topic"])
+    kind = topic_kind(topic)
     demo = patient_demo(field, specialty, topic, n, "medium")
     who = demo["who"]
 
+    if kind == "concept":
+        templates = [
+            f"Which of the following correctly describes {label} in clinical use?",
+            f"During a pharmacology discussion of {label}, which statement is correct?",
+            f"Which of the following correctly describes {label}?",
+            f"In comparing drug properties, which statement about {label} is correct?",
+            f"Regarding {label}, which of the following is correct?",
+            f"Which explanation of {label} is most accurate?",
+            f"Which of the following applies to {label} in standard therapeutics?",
+            f"Which statement best defines {label}?",
+        ]
+        return templates[n % len(templates)]
+
+    if kind == "finding":
+        templates = [
+            f"{who} is examined, and {label} is reviewed. Which of the following is correct?",
+            f"While evaluating {who.lower()}, attention turns to {label}. Which of the following is most accurate?",
+            f"{who} has findings requiring interpretation of {label}. Which of the following is correct?",
+            f"In {who.lower()}, which statement about {label} is correct?",
+            f"Clinical testing related to {label} is performed. Which of the following is correct?",
+            f"{who} undergoes assessment involving {label}. Which of the following is most accurate?",
+            f"Exam findings raise a question about {label}. Which of the following is correct?",
+            f"Which interpretation of {label} is correct?",
+        ]
+        return templates[n % len(templates)]
+
     if demo["is_child"]:
         templates = [
-            f"{who} is brought for evaluation of findings consistent with {label}. Which of the following is most likely?",
-            f"{who} is assessed in clinic for possible {label}. Which of the following is the most accurate conclusion?",
-            f"{who} presents with a classic picture of {label}. Which of the following is most likely?",
-            f"{who} is admitted for workup of {label}. Which of the following statements is most accurate?",
-            f"Examination and initial testing in {who.lower()} support {label}. Which of the following is most correct?",
-            f"{who} has progressive findings. The constellation is classic for {label}. Which of the following is most likely?",
-            f"{who} is seen in the emergency department with features of {label}. Which of the following is most accurate?",
-            f"A pediatric scenario centers on {label} in {who.lower()}. Which of the following is most likely?",
+            f"{who} is brought to clinic because of concerns related to {label}. Which of the following is correct?",
+            f"{who} is evaluated for possible {label}. Which of the following is most accurate?",
+            f"{who} presents with signs of {label}. Which of the following is correct?",
+            f"{who} is admitted with suspected {label}. Which of the following statements is correct?",
+            f"During evaluation of {who.lower()}, {label} is considered. Which of the following is most accurate?",
+            f"{who} has findings that raise concern for {label}. Which of the following is correct?",
+            f"{who} arrives in the emergency department with features of {label}. Which of the following is most accurate?",
+            f"In {who.lower()}, which statement about {label} is correct?",
         ]
         return templates[n % len(templates)]
 
     if field == "pharmacy":
         templates = [
-            f"{who} is started on therapy relevant to {label}. Which of the following is the most accurate statement?",
-            f"{who} with multiple medications is evaluated for an issue involving {label}. Which of the following is most appropriate?",
-            f"A pharmacist reviews a regimen concerning {label}. Which of the following is most accurate?",
-            f"{who} develops a clinical problem related to {label}. Which of the following best explains the findings?",
-            f"{who} presents to clinic with a medication-related question about {label}. Which of the following is most correct?",
-            f"During medication reconciliation, a concern about {label} is raised. Which of the following is most accurate?",
-            f"{who} requires counseling about {label}. Which of the following statements is most appropriate?",
-            f"{who} has laboratory changes attributed to {label}. Which of the following is most likely?",
+            f"{who} is started on treatment related to {label}. Which of the following is correct?",
+            f"{who} takes several medicines and is assessed regarding {label}. Which of the following is most appropriate?",
+            f"Medication review raises a question about {label}. Which of the following is correct?",
+            f"{who} develops an adverse effect related to {label}. Which of the following best explains it?",
+            f"{who} needs counseling about {label}. Which of the following is most appropriate?",
+            f"During medication reconciliation, {label} is discussed. Which of the following is correct?",
+            f"{who} needs dose adjustment related to {label}. Which of the following is most accurate?",
+            f"{who} has lab changes linked to {label}. Which of the following is correct?",
         ]
     elif field == "mls":
         templates = [
-            f"{who} has laboratory findings evaluated in the context of {label}. Which of the following is most accurate?",
-            f"A laboratory workup for {label} is reviewed. Which of the following interpretations is most correct?",
-            f"{who} undergoes testing relevant to {label}. Which of the following results is most consistent with the diagnosis?",
-            f"Quality and method considerations for {label} are discussed. Which of the following is most accurate?",
-            f"{who} has an abnormal panel suggesting {label}. Which of the following is the most likely explanation?",
-            f"A technologist reviews results related to {label}. Which of the following is most appropriate?",
-            f"{who} is being evaluated for {label}. Which of the following laboratory conclusions is most correct?",
-            f"In the laboratory assessment of {label}, which of the following is most accurate?",
+            f"{who} has lab results reviewed for {label}. Which of the following is correct?",
+            f"A specimen workup for {label} is interpreted. Which of the following is most accurate?",
+            f"{who} undergoes testing for {label}. Which result pattern is most consistent?",
+            f"Method selection for {label} is discussed. Which of the following is correct?",
+            f"{who} has an abnormal panel. Which statement about {label} is most accurate?",
+            f"Results related to {label} are verified before release. Which of the following is appropriate?",
+            f"{who} is evaluated with assays used in {label}. Which of the following is correct?",
+            f"In laboratory assessment of {label}, which of the following is correct?",
         ]
     elif field == "nursing":
         templates = [
-            f"{who} is admitted with a condition involving {label}. Which of the following nursing actions is most appropriate?",
-            f"{who} develops findings consistent with {label}. Which of the following is the priority assessment focus?",
-            f"On the ward, {who.lower()} shows features of {label}. Which of the following is most accurate?",
-            f"{who} requires care planning for {label}. Which of the following is most appropriate?",
-            f"A nurse reviews a case centered on {label}. Which of the following is most correct?",
-            f"{who} has vital-sign changes related to {label}. Which of the following is most likely?",
-            f"During bedside evaluation for {label}, which of the following is most accurate?",
+            f"{who} is admitted with {label}. Which nursing action is most appropriate?",
+            f"{who} develops findings of {label}. What is the priority assessment?",
+            f"{who} shows signs of {label} on the unit. Which of the following is correct?",
+            f"{who} needs a care plan for {label}. Which of the following is most appropriate?",
+            f"Bedside assessment suggests {label}. Which of the following is correct?",
+            f"{who} has vital-sign changes due to {label}. Which of the following is most accurate?",
+            f"While caring for {who.lower()}, {label} is suspected. Which of the following is correct?",
             f"{who} is monitored for complications of {label}. Which of the following is most appropriate?",
         ]
     elif field == "dentistry":
         templates = [
-            f"{who} presents for dental evaluation with findings consistent with {label}. Which of the following is most likely?",
-            f"{who} reports tooth-related symptoms. Examination suggests {label}. Which of the following is most accurate?",
-            f"A dental examination raises concern for {label}. Which of the following is the most appropriate interpretation?",
-            f"{who} is seen for pain and a lesion pattern associated with {label}. Which of the following is most likely?",
-            f"Radiographs and clinical findings point toward {label}. Which of the following is most correct?",
-            f"{who} undergoes assessment for possible {label}. Which of the following is most accurate?",
-            f"In clinic, a case of suspected {label} is reviewed. Which of the following is most likely?",
-            f"{who} has oral findings related to {label}. Which of the following best fits the presentation?",
+            f"{who} presents for dental care with findings of {label}. Which of the following is correct?",
+            f"{who} reports dental pain. Exam suggests {label}. Which of the following is most accurate?",
+            f"Clinical and radiographic findings suggest {label}. Which interpretation is correct?",
+            f"{who} is examined for {label}. Which of the following is most likely?",
+            f"A dental exam raises concern for {label}. Which of the following is correct?",
+            f"{who} is assessed for {label}. Which of the following is most accurate?",
+            f"In the dental clinic, {label} is suspected. Which of the following is correct?",
+            f"{who} has oral findings of {label}. Which of the following is most accurate?",
         ]
-    else:  # medicine
+    else:
         templates = [
-            f"{who} presents with a history and examination consistent with {label}. Which of the following is most likely?",
-            f"{who} is evaluated in clinic for symptoms pointing to {label}. Which of the following is the most accurate conclusion?",
-            f"{who} with relevant risk factors develops a presentation of {label}. Which of the following is most likely?",
-            f"{who} is admitted for workup of {label}. Which of the following statements is most accurate?",
-            f"On examination and initial testing, findings support {label}. Which of the following is most correct?",
-            f"{who} reports progressive symptoms. The constellation is classic for {label}. Which of the following is most likely?",
-            f"{who} is seen in the emergency department with features of {label}. Which of the following is most accurate?",
-            f"A clinical scenario centers on {label}. Which of the following is most likely?",
+            f"{who} presents with a clinical picture of {label}. Which of the following is most accurate?",
+            f"{who} is seen in clinic for suspected {label}. Which of the following is correct?",
+            f"{who} develops symptoms of {label}. Which of the following is most accurate?",
+            f"{who} is admitted with suspected {label}. Which statement is correct?",
+            f"{who} has examination findings of {label}. Which of the following is most accurate?",
+            f"{who} reports symptoms typical of {label}. Which of the following is correct?",
+            f"{who} is evaluated in the emergency department for {label}. Which of the following is most accurate?",
+            f"{who} is assessed for {label}. Which of the following statements is correct?",
         ]
-    stem = templates[n % len(templates)]
-    if mech and mech.lower() in stem.lower() and len(stem) > 320:
-        stem = templates[n % (len(templates) - 1)]
-    return stem
+    return templates[n % len(templates)]
 
 
 def stem_hard(topic: dict, n: int, rng: random.Random, field: str, specialty: str) -> str:
-    label = phrase_topic(topic["topic"])
+    label = condition_name(topic["topic"])
+    kind = topic_kind(topic)
     demo = patient_demo(field, specialty, topic, n, "hard")
-    who = _with_comorbidities(demo["who"], demo["comorbidities"]) if demo["comorbidities"] and not demo["is_child"] else demo["who"]
+    who = (
+        _with_comorbidities(demo["who"], demo["comorbidities"])
+        if demo["comorbidities"] and not demo["is_child"]
+        else demo["who"]
+    )
+    if kind in {"concept", "finding", "management"}:
+        templates = [
+            f"Careful review of {label} is required. Which of the following is most accurate?",
+            f"Two similar explanations for {label} are compared. Which of the following is correct?",
+            f"In a detailed discussion of {label}, which of the following is most accurate?",
+            f"Which of the following correctly distinguishes key points about {label}?",
+            f"Careful interpretation of {label} is required. Which of the following is correct?",
+            f"Which statement about {label} is most accurate?",
+            f"Among close alternatives regarding {label}, which of the following is correct?",
+            f"Which of the following is the best statement about {label}?",
+        ]
+        return templates[n % len(templates)]
     if demo["is_child"]:
         templates = [
-            f"{who} is brought in with findings that could fit more than one process often confused with {label}. "
-            f"Based on history, examination, and initial tests, which of the following is most likely?",
-            f"{who} is hospitalized with evolving features of {label}. A common mimic remains possible. "
-            f"Which of the following is most likely?",
-            f"{who} is evaluated for {label}. Which of the following is favored after comparison with frequent look-alikes?",
-            f"{who} is evaluated for suspected {label}. Initial findings do not yet separate common look-alikes. "
-            f"Which of the following is most likely?",
-            f"Findings thought to represent {label} in {who.lower()} can be misread. Which of the following is most correct?",
-            f"{who} presents with {label}. Distinguishing this from frequent textbook mimics is required. "
-            f"Which of the following is most likely?",
-            f"A complex pediatric case of {label} is reviewed on rounds. Which of the following is most accurate?",
-            f"{who} has progressive abnormalities attributed to {label}. "
-            f"Which of the following is most consistent with the clinical process?",
+            f"{who} is brought in with overlapping findings that include {label}. Which of the following is most accurate after history and examination?",
+            f"{who} is hospitalized for evolving {label}. Which of the following is most accurate?",
+            f"{who} is evaluated for {label}. Which of the following is the best interpretation?",
+            f"{who} has suspected {label}, and similar diagnoses are also considered. Which of the following is most accurate?",
+            f"Exam findings in {who.lower()} were first read as {label}. Which of the following is correct?",
+            f"{who} presents with {label}. Which of the following best separates it from similar conditions?",
+            f"On pediatric rounds, a difficult case of {label} is reviewed. Which of the following is correct?",
+            f"{who} has progressive findings of {label}. Which of the following is most accurate?",
         ]
         return templates[n % len(templates)]
     templates = [
-        f"{who} presents with findings that could fit more than one process often confused with {label}. "
-        f"Based on history, examination, and initial tests, which of the following is most likely?",
-        f"{who} is hospitalized with evolving features of {label}. A common mimic remains possible. "
-        f"Which of the following is most likely?",
-        f"{who} is evaluated for {label}. "
-        f"Which of the following is favored after comparison with frequent look-alikes?",
-        f"{who} is evaluated for suspected {label}. Initial findings do not yet separate common look-alikes. "
-        f"Which of the following is most likely?",
-        f"Findings thought to represent {label} can be misread. Which of the following is most correct?",
-        f"{who} presents with {label}. Distinguishing this from frequent textbook mimics is required. "
-        f"Which of the following is most likely?",
-        f"A complex case of {label} involving {who.lower()} is reviewed on rounds. Which of the following is most accurate?",
-        f"{who} has progressive abnormalities attributed to {label}. "
-        f"Which of the following is most consistent with the clinical process?",
+        f"{who} presents with findings that overlap several diagnoses, including {label}. Which of the following is most accurate?",
+        f"{who} is hospitalized with evolving {label}. Which of the following is most accurate?",
+        f"{who} is evaluated for {label}. Which of the following is the best interpretation?",
+        f"{who} has suspected {label}, and similar diagnoses remain possible. Which of the following is most accurate?",
+        f"Initial reading of the case suggested {label}. Which of the following is correct?",
+        f"{who} presents with {label}. Which of the following best separates it from similar conditions?",
+        f"A difficult case of {label} in {who.lower()} is reviewed. Which of the following is correct?",
+        f"{who} has progressive findings of {label}. Which of the following is most accurate?",
     ]
     return templates[n % len(templates)]
 
 
 def stem_extreme(topic: dict, n: int, rng: random.Random, field: str, specialty: str) -> str:
-    label = phrase_topic(topic["topic"])
+    label = condition_name(topic["topic"])
+    kind = topic_kind(topic)
     demo = patient_demo(field, specialty, topic, n, "extreme")
     who = demo["who"]
     who_c = who if demo["is_child"] else (
         _with_comorbidities(who, demo["comorbidities"]) if demo["comorbidities"] else who
     )
+    if kind in {"concept", "finding"}:
+        templates = [
+            f"Careful reasoning about {label} is required. Which of the following is most accurate?",
+            f"Small differences in wording about {label} matter. Which of the following is correct?",
+            f"Which of the following is the most precise statement about {label}?",
+            f"In advanced review of {label}, which of the following is most accurate?",
+            f"Which interpretation of {label} is most accurate?",
+            f"Which closely related statement about {label} is correct?",
+            f"Which of the following is the central point about {label}?",
+            f"Which statement about {label} is most accurate?",
+        ]
+        return templates[n % len(templates)]
+    if kind == "management":
+        templates = [
+            f"{who_c} requires urgent decisions about {label}. Which of the following is most accurate?",
+            f"Management of {label} is reviewed for {who.lower()}. Which of the following is most accurate?",
+            f"{who} needs immediate action related to {label}. Which of the following is correct?",
+            f"In {who.lower()}, treatment choices for {label} are debated. Which of the following is most accurate?",
+            f"{who_c} is treated for complications related to {label}. Which of the following is correct?",
+            f"Safety concerns around {label} arise in {who.lower()}. Which of the following is most accurate?",
+            f"{who} has a complicated course involving {label}. Which of the following is correct?",
+            f"Which statement about managing {label} in {who.lower()} is most accurate?",
+        ]
+        return templates[n % len(templates)]
     if demo["is_child"]:
         templates = [
-            f"{who} develops rapidly worsening features of {label}. Vital signs are unstable. Which of the following is most likely?",
-            f"In the emergency department, {who.lower()} is critically ill with a syndrome centered on {label}. "
-            f"Which of the following is most likely?",
-            f"{who} deteriorates overnight with {label}. Timing and early diagnostics favor one process. "
-            f"Which of the following is most likely?",
-            f"{who} develops life-threatening complications in the setting of {label}. "
-            f"Which of the following is most consistent with the clinical process?",
-            f"A rapidly progressive pediatric presentation of {label} is reviewed. Which of the following is most likely?",
-            f"{who} requires urgent decision-making for {label}. Incorrect attribution would change management substantially. "
-            f"Which of the following is most likely?",
-            f"{who} has refractory abnormalities due to {label}. Which of the following is the most accurate interpretation?",
-            f"A critical-care pediatric presentation involving {label} is discussed. Which of the following is most likely?",
+            f"{who} becomes acutely unstable with {label}. Which of the following is most accurate?",
+            f"In the emergency department, {who.lower()} is critically ill with {label}. Which of the following is most accurate?",
+            f"{who} worsens overnight with {label}. Which of the following is most accurate?",
+            f"{who} develops dangerous complications of {label}. Which of the following is correct?",
+            f"{who} has a rapidly worsening course of {label}. Which of the following is most accurate?",
+            f"Urgent management of {label} is required in {who.lower()}. Which of the following is most accurate?",
+            f"{who} has refractory {label}. Which of the following is correct?",
+            f"In intensive care, {who.lower()} is treated for {label}. Which of the following is most accurate?",
         ]
         return templates[n % len(templates)]
     templates = [
-        f"{who_c} develops rapidly worsening features of {label}. "
-        f"Vital signs are unstable. Which of the following is most likely?",
-        f"In the emergency department, {who.lower()} is critically ill with a syndrome centered on {label}. "
-        f"Which of the following is most likely?",
-        f"{who} deteriorates overnight with {label}. Timing, risk factors, and early diagnostics favor one process. "
-        f"Which of the following is most likely?",
-        f"{who_c} develops life-threatening complications in the setting of {label}. "
-        f"Which of the following is most consistent with the clinical process?",
-        f"A rapidly progressive presentation of {label} is reviewed in {who.lower()}. "
-        f"Which of the following is most likely?",
-        f"{who} requires urgent decision-making for {label}. Incorrect attribution would change management substantially. "
-        f"Which of the following is most likely?",
-        f"{who} has refractory abnormalities due to {label}. Which of the following is the most accurate interpretation?",
-        f"A critical-care presentation involving {label} in {who.lower()} is discussed. Which of the following is most likely?",
+        f"{who_c} becomes acutely unstable with {label}. Which of the following is most accurate?",
+        f"In the emergency department, {who.lower()} is critically ill with {label}. Which of the following is most accurate?",
+        f"{who} worsens overnight with {label}. Which of the following is most accurate?",
+        f"{who_c} develops dangerous complications of {label}. Which of the following is correct?",
+        f"{who} has a rapidly worsening course of {label}. Which of the following is most accurate?",
+        f"Urgent management decisions for {label} are required in {who.lower()}. Which of the following is most accurate?",
+        f"{who} has refractory {label}. Which of the following is correct?",
+        f"In intensive care, {who.lower()} is treated for {label}. Which of the following is most accurate?",
     ]
     return templates[n % len(templates)]
+
 
 
 def explanations(topic: dict, correct: str, mapping: dict[str, str], answer_letter: str):
@@ -785,7 +923,7 @@ def explanations(topic: dict, correct: str, mapping: dict[str, str], answer_lett
                 ce[L] += f" It correctly identifies: {correct}."
         elif text.lower() == near.lower():
             ce[L] = (
-                f"{why_near or 'This is a frequent clinical look-alike.'} "
+                f"{why_near or 'This is a frequent clinical alternative.'} "
                 "It is less consistent than the correct choice."
             ).strip()
         else:

@@ -19,7 +19,12 @@ BANNED = re.compile(
     r"primary driver|unifies the|overall (picture|clinical picture)|"
     r"after synthesizing|pathophysiologic reasoning|high-acuity|"
     r"presentation related to|features linked to|diagnostic uncertainty|"
-    r"near-miss|short vignette|which option is most|history suggestive of",
+    r"near-miss|short vignette|which option is most|history suggestive of|"
+    r"constellation is classic|relevant risk factors develops|common mimic|"
+    r"look-alikes|textbook mimics|Incorrect attribution|syndrome centered on|"
+    r"rapidly progressive presentation|rapidly worsening features of|"
+    r"critical-care presentation|refractory abnormalities|hallmark feature of|"
+    r"best fits the presentation|therapy relevant to|medication-related question",
     re.I,
 )
 

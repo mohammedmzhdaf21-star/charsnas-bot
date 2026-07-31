@@ -2,7 +2,7 @@
   "easy": [
     {
       "id": "medicinal_chemistry:easy:0",
-      "question": "Which of the following best characterizes pharmacophore?",
+      "question": "Which of the following is true of pharmacophore?",
       "options": [
         "A) The entire molecular weight of a tablet binder only",
         "B) Hammett σ measures only molecular weight",
@@ -20,7 +20,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:1",
-      "question": "Which finding is most consistent with structure-activity relationship?",
+      "question": "Which finding is expected in structure-activity relationship?",
       "options": [
         "A) SAR means biological activity is unrelated to chemical structure",
         "B) Forced degradation is unrelated to chemical stability understanding",
@@ -38,7 +38,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:2",
-      "question": "Which of the following statements about bioisosteres is most accurate?",
+      "question": "In basic pharmacology, which of the following is true of bioisosteres?",
       "options": [
         "A) Substituents with similar physical/chemical properties used to tune potency, selectivity, or ADME",
         "B) Only identical atoms in identical positions qualify as nonclassical bioisosteres",
@@ -56,7 +56,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:3",
-      "question": "In patients with classical bioisostere example, which of the following is most correct?",
+      "question": "In classical bioisostere example, which of the following is correct?",
       "options": [
         "A) Replacing a phenyl ring with a transition metal cluster as a classical monovalent bioisostere",
         "B) Bioisosteres always destroy activity by definition",
@@ -74,7 +74,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:4",
-      "question": "Which of the following is the hallmark feature of nonclassical bioisostere?",
+      "question": "Select the correct statement regarding nonclassical bioisostere.",
       "options": [
         "A) Replacements with different atom counts but similar spatial/electronic effects (e.g., tetrazole for carboxylate)",
         "B) Bioisosteres always destroy activity by definition",
@@ -92,7 +92,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:5",
-      "question": "Which description most accurately matches lipinski Rule of Five?",
+      "question": "Select the correct statement about lipinski Rule of Five.",
       "options": [
         "A) Unlimited HBDs always improve oral absorption",
         "B) Oral drug-likeness heuristics: MW≤500, LogP≤5, HBD≤5, HBA≤10 (guidelines, not absolute laws)",
@@ -110,7 +110,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:6",
-      "question": "Regarding log P optimization, which of the following is most accurate?",
+      "question": "Which explanation of log P optimization is correct?",
       "options": [
         "A) Fluorine always increases metabolic clearance at the substituted carbon",
         "B) Excessive lipophilicity can hurt solubility and raise promiscuity/metabolic clearance",
@@ -128,7 +128,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:7",
-      "question": "Which of the following mechanisms best explains p Ka design?",
+      "question": "Which of the following applies to p Ka design?",
       "options": [
         "A) Phosphate prodrugs always decrease aqueous solubility",
         "B) pKa is irrelevant to ionization-dependent absorption",
@@ -146,7 +146,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:8",
-      "question": "Which of the following best characterizes stereochemistry eutomer?",
+      "question": "Which of the following is true of stereochemistry eutomer?",
       "options": [
         "A) Racemates always superior because distomers never have effects",
         "B) Esters always prevent any bioactivation forever",
@@ -164,7 +164,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:9",
-      "question": "Which finding is most consistent with racemate versus single enantiomer?",
+      "question": "Which finding is expected in racemate versus single enantiomer?",
       "options": [
         "A) Both enantiomers always have identical pharmacodynamics and toxicity",
         "B) Single enantiomers can simplify PK/PD and reduce distomer burden versus racemates",
@@ -182,7 +182,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:10",
-      "question": "Which of the following statements about prodrug esterification is most accurate?",
+      "question": "In basic pharmacology, which of the following is true of prodrug esterification?",
       "options": [
         "A) Phosphate prodrugs always decrease aqueous solubility",
         "B) Adding many charged groups always improves passive membrane permeability",
@@ -200,7 +200,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:11",
-      "question": "In patients with soft drugs, which of the following is most correct?",
+      "question": "In soft drugs, which of the following is correct?",
       "options": [
         "A) Active agents designed for predictable rapid metabolism to inactive metabolites after effect",
         "B) Hard drugs always generate many reactive metabolites by design",
@@ -218,7 +218,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:12",
-      "question": "Which of the following is the hallmark feature of hard drugs?",
+      "question": "Which of the following best describes hard drugs?",
       "options": [
         "A) Anilines are metabolically inert in all drugs always",
         "B) Compounds resistant to metabolism to avoid toxic metabolites, cleared by excretion instead sometimes",
@@ -236,7 +236,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:13",
-      "question": "Which description most accurately matches metabolic soft spot?",
+      "question": "Which of the following applies to metabolic soft spot?",
       "options": [
         "A) Soft spots are regions that can never be metabolized",
         "B) Metabolite ID never influences medicinal chemistry optimization",
@@ -254,7 +254,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:14",
-      "question": "Regarding fluorine in drugs, which of the following is most accurate?",
+      "question": "Which explanation of fluorine in drugs is correct?",
       "options": [
         "A) Hard drugs always generate many reactive metabolites by design",
         "B) Fluorine can block metabolism, tune pKa, and improve permeability/potency sometimes",
@@ -272,7 +272,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:15",
-      "question": "Which of the following mechanisms best explains deuterium switch?",
+      "question": "Which of the following applies to deuterium switch?",
       "options": [
         "A) Deuteration at metabolic soft spots can slow CYP oxidation via kinetic isotope effects",
         "B) Soft spots are regions that can never be metabolized",
@@ -290,7 +290,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:16",
-      "question": "Which of the following best characterizes covalent inhibitors?",
+      "question": "Which of the following is true of covalent inhibitors?",
       "options": [
         "A) Covalent drugs never touch nucleophilic amino acids",
         "B) Form bonds with target nucleophiles for prolonged occupancy (reversible or irreversible designs)",
@@ -308,7 +308,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:17",
-      "question": "Which finding is most consistent with transition-state analogs?",
+      "question": "Which finding is expected in transition-state analogs?",
       "options": [
         "A) Neuraminidase inhibitors block bacterial folate synthesis",
         "B) TS analogs bind only the free substrate, never the enzyme",
@@ -326,7 +326,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:18",
-      "question": "Which of the following statements about competitive enzyme inhibitor structure is most accurate?",
+      "question": "In basic pharmacology, which of the following is true of competitive enzyme inhibitor structure?",
       "options": [
         "A) Overlaps substrate binding features occupying the active site",
         "B) HDAC inhibitors cannot chelate active-site zinc",
@@ -344,7 +344,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:19",
-      "question": "In patients with allosteric modulator chemistry, which of the following is most correct?",
+      "question": "Which of the following correctly describes allosteric modulator chemistry?",
       "options": [
         "A) GPCR drugs cannot resemble endogenous ligands in any pharmacophore feature",
         "B) Bind sites distinct from orthosteric pocket tuning affinity/efficacy of endogenous ligands",
@@ -362,7 +362,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:20",
-      "question": "Which of the following is the hallmark feature of peptidomimetics?",
+      "question": "Which of the following best describes peptidomimetics?",
       "options": [
         "A) Modify peptides to resist proteases and improve membrane properties while keeping recognition elements",
         "B) Adding many charged groups always improves passive membrane permeability",
@@ -380,7 +380,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:21",
-      "question": "Which description most accurately matches privileged scaffolds?",
+      "question": "Select the correct interpretation for privileged scaffolds.",
       "options": [
         "A) BTK inhibitors cannot bind cysteine residues covalently",
         "B) Recurring chemotypes that yield ligands for multiple target classes when decorated differently",
@@ -398,7 +398,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:22",
-      "question": "Regarding hansch analysis, which of the following is most accurate?",
+      "question": "Which mechanism accounts for hansch analysis?",
       "options": [
         "A) Hansch analysis forbids use of LogP or Hammett constants",
         "B) DEL technology forbids any chemical diversity beyond two compounds",
@@ -416,7 +416,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:23",
-      "question": "Which of the following mechanisms best explains hammett sigma?",
+      "question": "Which of the following applies to hammett sigma?",
       "options": [
         "A) Hansch analysis forbids use of LogP or Hammett constants",
         "B) Hammett σ measures only molecular weight",
@@ -434,7 +434,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:24",
-      "question": "Which of the following best characterizes taft steric parameters?",
+      "question": "Which of the following is true of taft steric parameters?",
       "options": [
         "A) Hammett σ measures only molecular weight",
         "B) Peptidomimetics always increase proteolytic cleavage rates",
@@ -452,7 +452,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:25",
-      "question": "Which finding is most consistent with cLOGP versus measured?",
+      "question": "Which finding matches CLOGP versus measured?",
       "options": [
         "A) Calculated LogP estimates lipophilicity; shake-flask or chromatographic methods measure it",
         "B) Higher LogP at constant potency always improves LLE",
@@ -470,7 +470,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:26",
-      "question": "Which of the following statements about polar surface area is most accurate?",
+      "question": "Which of the following statements about polar surface area is correct?",
       "options": [
         "A) Unlimited HBDs always improve oral absorption",
         "B) Adding many charged groups always improves passive membrane permeability",
@@ -488,7 +488,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:27",
-      "question": "In patients with hydrogen bond donors, which of the following is most correct?",
+      "question": "In hydrogen bond donors, which of the following is correct?",
       "options": [
         "A) Adding many charged groups always improves passive membrane permeability",
         "B) Mandatory physical laws forbidding any oral drug outside the counts",
@@ -506,7 +506,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:28",
-      "question": "Which of the following is the hallmark feature of ionization and salt bridges?",
+      "question": "Select the correct statement regarding ionization and salt bridges.",
       "options": [
         "A) Aromatic rings never interact favorably with phenylalanine/tyrosine/tryptophan",
         "B) Charges never participate in ligand–protein recognition",
@@ -524,7 +524,7 @@
     },
     {
       "id": "medicinal_chemistry:easy:29",
-      "question": "Which description most accurately matches pi-pi stacking?",
+      "question": "Select the correct statement about pi-pi stacking.",
       "options": [
         "A) ACE inhibitors never interact with catalytic zinc",
         "B) Aromatic rings interact with protein aromatic residues contributing binding energy",
@@ -544,7 +544,7 @@
   "medium": [
     {
       "id": "medicinal_chemistry:medium:0",
-      "question": "A 47-year-old woman is started on therapy relevant to pharmacophore. Which of the following is the most accurate statement?",
+      "question": "A 66-year-old man is started on treatment related to pharmacophore. Which of the following is correct?",
       "options": [
         "A) Metformin is a neutral steroid without ionizable groups",
         "B) Hammett σ measures only molecular weight",
@@ -562,7 +562,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:1",
-      "question": "A 63-year-old man with multiple medications is evaluated for an issue involving structure-activity relationship. Which of the following is most appropriate?",
+      "question": "A 41-year-old woman takes several medicines and is assessed regarding structure-activity relationship. Which of the following is most appropriate?",
       "options": [
         "A) Systematic chemical modifications reveal which moieties increase or decrease activity",
         "B) Bioisosteres always destroy activity by definition",
@@ -580,7 +580,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:2",
-      "question": "A pharmacist reviews a regimen concerning bioisosteres. Which of the following is most accurate?",
+      "question": "Which of the following correctly describes bioisosteres?",
       "options": [
         "A) Bioisosteres always destroy activity by definition",
         "B) Only identical atoms in identical positions qualify as nonclassical bioisosteres",
@@ -598,7 +598,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:3",
-      "question": "A 35-year-old man develops a clinical problem related to classical bioisostere example. Which of the following best explains the findings?",
+      "question": "A 54-year-old woman develops an adverse effect related to classical bioisostere example. Which of the following best explains it?",
       "options": [
         "A) Only identical atoms in identical positions qualify as nonclassical bioisosteres",
         "B) Replacing H with F or OH with NH2 as classical monovalent bioisosteres in design",
@@ -616,7 +616,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:4",
-      "question": "A 60-year-old man presents to clinic with a medication-related question about nonclassical bioisostere. Which of the following is most correct?",
+      "question": "Regarding nonclassical bioisostere, which of the following is correct?",
       "options": [
         "A) Tetrazole groups decrease acidity versus carboxylate making them non-ionizable always",
         "B) Replacements with different atom counts but similar spatial/electronic effects (e.g., tetrazole for carboxylate)",
@@ -634,7 +634,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:5",
-      "question": "During medication reconciliation, a concern about lipinski Rule of Five is raised. Which of the following is most accurate?",
+      "question": "During medication reconciliation, lipinski Rule of Five is discussed. Which of the following is correct?",
       "options": [
         "A) Mandatory physical laws forbidding any oral drug outside the counts",
         "B) Covalent drug optimization ignores warhead kinetics and uses only LogP color",
@@ -652,7 +652,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:6",
-      "question": "A 30-year-old man requires counseling about log P optimization. Which of the following statements is most appropriate?",
+      "question": "Which of the following applies to log P optimization in standard therapeutics?",
       "options": [
         "A) Excessive lipophilicity can hurt solubility and raise promiscuity/metabolic clearance",
         "B) Higher LogP always improves every ADME property without limit",
@@ -670,7 +670,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:7",
-      "question": "A 54-year-old man has laboratory changes attributed to p Ka design. Which of the following is most likely?",
+      "question": "A 32-year-old woman has lab changes linked to p Ka design. Which of the following is correct?",
       "options": [
         "A) Phosphate prodrugs always decrease aqueous solubility",
         "B) Adjusting pKa alters ionization, solubility, binding, and membrane permeability",
@@ -688,7 +688,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:8",
-      "question": "A 67-year-old woman is started on therapy relevant to stereochemistry eutomer. Which of the following is the most accurate statement?",
+      "question": "A 45-year-old man is started on treatment related to stereochemistry eutomer. Which of the following is correct?",
       "options": [
         "A) Both enantiomers always have identical pharmacodynamics and toxicity",
         "B) Esters always prevent any bioactivation forever",
@@ -706,7 +706,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:9",
-      "question": "A 38-year-old man with multiple medications is evaluated for an issue involving racemate versus single enantiomer. Which of the following is most appropriate?",
+      "question": "A 57-year-old woman takes several medicines and is assessed regarding racemate versus single enantiomer. Which of the following is most appropriate?",
       "options": [
         "A) Both enantiomers always have identical pharmacodynamics and toxicity",
         "B) Single enantiomers can simplify PK/PD and reduce distomer burden versus racemates",
@@ -724,7 +724,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:10",
-      "question": "A pharmacist reviews a regimen concerning prodrug esterification. Which of the following is most accurate?",
+      "question": "Which of the following correctly describes prodrug esterification?",
       "options": [
         "A) Masking polar groups as esters can enhance membrane permeability then esterases liberate active drug",
         "B) Enalapril ester prevents any formation of enalaprilat",
@@ -742,7 +742,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:11",
-      "question": "A 61-year-old woman develops a clinical problem related to soft drugs. Which of the following best explains the findings?",
+      "question": "A 39-year-old man develops an adverse effect related to soft drugs. Which of the following best explains it?",
       "options": [
         "A) Antedrugs are designed for maximal systemic accumulation after local use",
         "B) Active agents designed for predictable rapid metabolism to inactive metabolites after effect",
@@ -760,7 +760,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:12",
-      "question": "A 68-year-old man presents to clinic with a medication-related question about hard drugs. Which of the following is most correct?",
+      "question": "A 46-year-old woman needs counseling about hard drugs. Which of the following is most appropriate?",
       "options": [
         "A) Hard drugs always generate many reactive metabolites by design",
         "B) Anilines are metabolically inert in all drugs always",
@@ -778,7 +778,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:13",
-      "question": "During medication reconciliation, a concern about metabolic soft spot is raised. Which of the following is most accurate?",
+      "question": "Which explanation of metabolic soft spot is most accurate?",
       "options": [
         "A) Metabolite ID never influences medicinal chemistry optimization",
         "B) Soft spots are regions that can never be metabolized",
@@ -796,7 +796,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:14",
-      "question": "A 65-year-old woman requires counseling about fluorine in drugs. Which of the following statements is most appropriate?",
+      "question": "Which of the following applies to fluorine in drugs in standard therapeutics?",
       "options": [
         "A) Hard drugs always generate many reactive metabolites by design",
         "B) Fluorine always increases metabolic clearance at the substituted carbon",
@@ -814,7 +814,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:15",
-      "question": "A 51-year-old woman has laboratory changes attributed to deuterium switch. Which of the following is most likely?",
+      "question": "A 70-year-old man has lab changes linked to deuterium switch. Which of the following is correct?",
       "options": [
         "A) Racemates always superior because distomers never have effects",
         "B) Soft spots are regions that can never be metabolized",
@@ -832,7 +832,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:16",
-      "question": "A 39-year-old woman is started on therapy relevant to covalent inhibitors. Which of the following is the most accurate statement?",
+      "question": "A 58-year-old man is started on treatment related to covalent inhibitors. Which of the following is correct?",
       "options": [
         "A) Covalent drugs never touch nucleophilic amino acids",
         "B) Form bonds with target nucleophiles for prolonged occupancy (reversible or irreversible designs)",
@@ -850,7 +850,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:17",
-      "question": "A 69-year-old woman with multiple medications is evaluated for an issue involving transition-state analogs. Which of the following is most appropriate?",
+      "question": "A 47-year-old man takes several medicines and is assessed regarding transition-state analogs. Which of the following is most appropriate?",
       "options": [
         "A) Mimic TS geometry/charge to bind enzymes extremely tightly (e.g., protease inhibitors themes)",
         "B) TS analogs bind only the free substrate, never the enzyme",
@@ -868,7 +868,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:18",
-      "question": "A pharmacist reviews a regimen concerning competitive enzyme inhibitor structure. Which of the following is most accurate?",
+      "question": "Which of the following correctly describes competitive enzyme inhibitor structure?",
       "options": [
         "A) Suicide substrates inhibit without any catalytic processing by the enzyme",
         "B) Sofosbuvir is active without any metabolism as a free nucleobase only",
@@ -886,7 +886,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:19",
-      "question": "A 45-year-old woman develops a clinical problem related to allosteric modulator chemistry. Which of the following best explains the findings?",
+      "question": "In comparing drug properties, which statement about allosteric modulator chemistry is correct?",
       "options": [
         "A) GPCR drugs cannot resemble endogenous ligands in any pharmacophore feature",
         "B) Bind sites distinct from orthosteric pocket tuning affinity/efficacy of endogenous ligands",
@@ -904,7 +904,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:20",
-      "question": "A 65-year-old woman presents to clinic with a medication-related question about peptidomimetics. Which of the following is most correct?",
+      "question": "A 43-year-old man needs counseling about peptidomimetics. Which of the following is most appropriate?",
       "options": [
         "A) Unlimited HBDs always improve oral absorption",
         "B) Modify peptides to resist proteases and improve membrane properties while keeping recognition elements",
@@ -922,7 +922,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:21",
-      "question": "During medication reconciliation, a concern about privileged scaffolds is raised. Which of the following is most accurate?",
+      "question": "A 32-year-old man undergoes assessment involving privileged scaffolds. Which of the following is most accurate?",
       "options": [
         "A) BTK inhibitors cannot bind cysteine residues covalently",
         "B) Recurring chemotypes that yield ligands for multiple target classes when decorated differently",
@@ -940,7 +940,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:22",
-      "question": "A 38-year-old woman requires counseling about hansch analysis. Which of the following statements is most appropriate?",
+      "question": "A 57-year-old man needs dose adjustment related to hansch analysis. Which of the following is most accurate?",
       "options": [
         "A) Hansch analysis forbids use of LogP or Hammett constants",
         "B) Hammett σ measures only molecular weight",
@@ -958,7 +958,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:23",
-      "question": "A 44-year-old man has laboratory changes attributed to hammett sigma. Which of the following is most likely?",
+      "question": "A 63-year-old woman has lab changes linked to hammett sigma. Which of the following is correct?",
       "options": [
         "A) Hansch analysis forbids use of LogP or Hammett constants",
         "B) Hammett σ measures only molecular weight",
@@ -976,7 +976,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:24",
-      "question": "A 35-year-old man is started on therapy relevant to taft steric parameters. Which of the following is the most accurate statement?",
+      "question": "A 54-year-old woman is started on treatment related to taft steric parameters. Which of the following is correct?",
       "options": [
         "A) Hammett σ measures only molecular weight",
         "B) Peptidomimetics always increase proteolytic cleavage rates",
@@ -994,7 +994,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:25",
-      "question": "A 62-year-old man with multiple medications is evaluated for an issue involving cLOGP versus measured. Which of the following is most appropriate?",
+      "question": "While evaluating a 40-year-old woman, attention turns to CLOGP versus measured. Which of the following is most accurate?",
       "options": [
         "A) Calculated LogP estimates lipophilicity; shake-flask or chromatographic methods measure it",
         "B) Calculated and measured LogP are always identical with zero error",
@@ -1012,7 +1012,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:26",
-      "question": "A pharmacist reviews a regimen concerning polar surface area. Which of the following is most accurate?",
+      "question": "Medication review raises a question about polar surface area. Which of the following is correct?",
       "options": [
         "A) Higher TPSA always improves BBB penetration",
         "B) Unlimited HBDs always improve oral absorption",
@@ -1030,7 +1030,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:27",
-      "question": "A 55-year-old woman develops a clinical problem related to hydrogen bond donors. Which of the following best explains the findings?",
+      "question": "A 33-year-old man develops an adverse effect related to hydrogen bond donors. Which of the following best explains it?",
       "options": [
         "A) Adding many charged groups always improves passive membrane permeability",
         "B) Unlimited HBDs always improve oral absorption",
@@ -1048,7 +1048,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:28",
-      "question": "A 45-year-old woman presents to clinic with a medication-related question about ionization and salt bridges. Which of the following is most correct?",
+      "question": "Regarding ionization and salt bridges, which of the following is correct?",
       "options": [
         "A) Charged groups form ionic interactions in binding pockets influencing potency",
         "B) Ligand efficiency ignores atom count and uses only color",
@@ -1066,7 +1066,7 @@
     },
     {
       "id": "medicinal_chemistry:medium:29",
-      "question": "During medication reconciliation, a concern about pi-pi stacking is raised. Which of the following is most accurate?",
+      "question": "During medication reconciliation, pi-pi stacking is discussed. Which of the following is correct?",
       "options": [
         "A) ACE inhibitors never interact with catalytic zinc",
         "B) Aromatic rings never interact favorably with phenylalanine/tyrosine/tryptophan",
@@ -1086,7 +1086,7 @@
   "hard": [
     {
       "id": "medicinal_chemistry:hard:0",
-      "question": "A 47-year-old woman presents with findings that could fit more than one process often confused with pharmacophore. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "A 66-year-old man presents with findings that overlap several diagnoses, including pharmacophore. Which of the following is most accurate?",
       "options": [
         "A) Spatial arrangement of features necessary for recognition at a biological target",
         "B) Hammett σ measures only molecular weight",
@@ -1104,7 +1104,7 @@
     },
     {
       "id": "medicinal_chemistry:hard:1",
-      "question": "A 63-year-old man is hospitalized with evolving features of structure-activity relationship. A common mimic remains possible. Which of the following is most likely?",
+      "question": "A 41-year-old woman is hospitalized with evolving structure-activity relationship. Which of the following is most accurate?",
       "options": [
         "A) Systematic chemical modifications reveal which moieties increase or decrease activity",
         "B) SAR means biological activity is unrelated to chemical structure",
@@ -1122,7 +1122,7 @@
     },
     {
       "id": "medicinal_chemistry:hard:2",
-      "question": "A 40-year-old man is evaluated for bioisosteres. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "In a detailed discussion of bioisosteres, which of the following is most accurate?",
       "options": [
         "A) Opening the β-lactam ring increases antibacterial acylation potency always",
         "B) Bioisosteres always destroy activity by definition",
@@ -1140,7 +1140,7 @@
     },
     {
       "id": "medicinal_chemistry:hard:3",
-      "question": "A 35-year-old man is evaluated for suspected classical bioisostere example. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "A 54-year-old woman has suspected classical bioisostere example, and similar diagnoses remain possible. Which of the following is most accurate?",
       "options": [
         "A) Only identical atoms in identical positions qualify as nonclassical bioisosteres",
         "B) Replacing H with F or OH with NH2 as classical monovalent bioisosteres in design",
@@ -1158,7 +1158,7 @@
     },
     {
       "id": "medicinal_chemistry:hard:4",
-      "question": "Findings thought to represent nonclassical bioisostere can be misread. Which of the following is most correct?",
+      "question": "Careful interpretation of nonclassical bioisostere is required. Which of the following is correct?",
       "options": [
         "A) Replacing a phenyl ring with a transition metal cluster as a classical monovalent bioisostere",
         "B) Replacements with different atom counts but similar spatial/electronic effects (e.g., tetrazole for carboxylate)",
@@ -1176,7 +1176,7 @@
     },
     {
       "id": "medicinal_chemistry:hard:5",
-      "question": "A 45-year-old man presents with lipinski Rule of Five. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "A 64-year-old woman presents with lipinski Rule of Five. Which of the following best separates it from similar conditions?",
       "options": [
         "A) Hard drugs always generate many reactive metabolites by design",
         "B) Mandatory physical laws forbidding any oral drug outside the counts",
@@ -1194,210 +1194,174 @@
     },
     {
       "id": "medicinal_chemistry:hard:6",
-      "question": "A complex case of log P optimization involving a 30-year-old man is reviewed on rounds. Which of the following is most accurate?",
+      "question": "A 32-year-old woman has progressive findings of p Ka design. Which of the following is most accurate?",
       "options": [
-        "A) Higher LogP at constant potency always improves LLE",
-        "B) Higher LogP always improves every ADME property without limit",
-        "C) Fluorine always increases metabolic clearance at the substituted carbon",
-        "D) Excessive lipophilicity can hurt solubility and raise promiscuity/metabolic clearance"
-      ],
-      "answer": "D) Excessive lipophilicity can hurt solubility and raise promiscuity/metabolic clearance",
-      "explanation": "Balanced LogP supports permeability without catastrophic insolubility. Therefore, the most accurate choice is: Excessive lipophilicity can hurt solubility and raise promiscuity/metabolic clearance. Ever-higher LogP is not universally beneficial.",
-      "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Ever-higher LogP is not universally beneficial. It is less consistent than the correct choice.",
-        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Balanced LogP supports permeability without catastrophic insolubility. This matches the correct interpretation."
-      }
-    },
-    {
-      "id": "medicinal_chemistry:hard:7",
-      "question": "A 54-year-old man has progressive abnormalities attributed to p Ka design. Which of the following is most consistent with the clinical process?",
-      "options": [
-        "A) pKa is irrelevant to ionization-dependent absorption",
-        "B) Unlimited HBDs always improve oral absorption",
-        "C) Phosphate prodrugs always decrease aqueous solubility",
+        "A) Unlimited HBDs always improve oral absorption",
+        "B) pKa is irrelevant to ionization-dependent absorption",
+        "C) Adding many charged groups always improves passive membrane permeability",
         "D) Adjusting pKa alters ionization, solubility, binding, and membrane permeability"
       ],
       "answer": "D) Adjusting pKa alters ionization, solubility, binding, and membrane permeability",
       "explanation": "Medicinal chemists tune amines/acids to hit target pKa windows. Therefore, the most accurate choice is: Adjusting pKa alters ionization, solubility, binding, and membrane permeability. pKa engineering is central to ADME and target engagement.",
       "choice_explanations": {
-        "A": "pKa engineering is central to ADME and target engagement. It is less consistent than the correct choice.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "pKa engineering is central to ADME and target engagement. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "Medicinal chemists tune amines/acids to hit target pKa windows. This matches the correct interpretation."
       }
     },
     {
-      "id": "medicinal_chemistry:hard:8",
-      "question": "A 67-year-old woman presents with findings that could fit more than one process often confused with stereochemistry eutomer. Based on history, examination, and initial tests, which of the following is most likely?",
+      "id": "medicinal_chemistry:hard:7",
+      "question": "A 45-year-old man presents with findings that overlap several diagnoses, including stereochemistry eutomer. Which of the following is most accurate?",
       "options": [
-        "A) Eutomer is the more active enantiomer; distomer is less active and may add ADRs",
-        "B) Hard drugs always generate many reactive metabolites by design",
-        "C) Racemates always superior because distomers never have effects",
-        "D) Both enantiomers always have identical pharmacodynamics and toxicity"
+        "A) Both enantiomers always have identical pharmacodynamics and toxicity",
+        "B) Racemates always superior because distomers never have effects",
+        "C) Hard drugs always generate many reactive metabolites by design",
+        "D) Eutomer is the more active enantiomer; distomer is less active and may add ADRs"
       ],
-      "answer": "A) Eutomer is the more active enantiomer; distomer is less active and may add ADRs",
+      "answer": "D) Eutomer is the more active enantiomer; distomer is less active and may add ADRs",
       "explanation": "Chiral switches exploit eutomer advantages sometimes. Therefore, the most accurate choice is: Eutomer is the more active enantiomer; distomer is less active and may add ADRs. Enantiomers can differ markedly in PD/PK/toxicity.",
       "choice_explanations": {
-        "A": "Chiral switches exploit eutomer advantages sometimes. This matches the correct interpretation.",
+        "A": "Enantiomers can differ markedly in PD/PK/toxicity. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Enantiomers can differ markedly in PD/PK/toxicity. It is less consistent than the correct choice."
+        "D": "Chiral switches exploit eutomer advantages sometimes. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medicinal_chemistry:hard:8",
+      "question": "A 57-year-old woman is hospitalized with evolving racemate versus single enantiomer. Which of the following is most accurate?",
+      "options": [
+        "A) Single enantiomers can simplify PK/PD and reduce distomer burden versus racemates",
+        "B) Deuterium always accelerates CYP oxidation versus hydrogen",
+        "C) Both enantiomers always have identical pharmacodynamics and toxicity",
+        "D) Racemates always superior because distomers never have effects"
+      ],
+      "answer": "A) Single enantiomers can simplify PK/PD and reduce distomer burden versus racemates",
+      "explanation": "Omeprazole/esomeprazole-type stories illustrate chiral switch rationale debates. Therefore, the most accurate choice is: Single enantiomers can simplify PK/PD and reduce distomer burden versus racemates. Distomers are not universally inert.",
+      "choice_explanations": {
+        "A": "Omeprazole/esomeprazole-type stories illustrate chiral switch rationale debates. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Distomers are not universally inert. It is less consistent than the correct choice."
       }
     },
     {
       "id": "medicinal_chemistry:hard:9",
-      "question": "A 38-year-old man is hospitalized with evolving features of racemate versus single enantiomer. A common mimic remains possible. Which of the following is most likely?",
+      "question": "In a detailed discussion of prodrug esterification, which of the following is most accurate?",
       "options": [
-        "A) Both enantiomers always have identical pharmacodynamics and toxicity",
-        "B) Deuterium always accelerates CYP oxidation versus hydrogen",
-        "C) Racemates always superior because distomers never have effects",
-        "D) Single enantiomers can simplify PK/PD and reduce distomer burden versus racemates"
+        "A) Enalapril ester prevents any formation of enalaprilat",
+        "B) Phosphate prodrugs always decrease aqueous solubility",
+        "C) Esters always prevent any bioactivation forever",
+        "D) Masking polar groups as esters can enhance membrane permeability then esterases liberate active drug"
       ],
-      "answer": "D) Single enantiomers can simplify PK/PD and reduce distomer burden versus racemates",
-      "explanation": "Omeprazole/esomeprazole-type stories illustrate chiral switch rationale debates. Therefore, the most accurate choice is: Single enantiomers can simplify PK/PD and reduce distomer burden versus racemates. Distomers are not universally inert.",
+      "answer": "D) Masking polar groups as esters can enhance membrane permeability then esterases liberate active drug",
+      "explanation": "Enalapril-type ethyl esters exemplify oral bioavailability prodrugs. Therefore, the most accurate choice is: Masking polar groups as esters can enhance membrane permeability then esterases liberate active drug. Esters are designed to be cleaved to active acids.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Distomers are not universally inert. It is less consistent than the correct choice.",
-        "D": "Omeprazole/esomeprazole-type stories illustrate chiral switch rationale debates. This matches the correct interpretation."
+        "C": "Esters are designed to be cleaved to active acids. It is less consistent than the correct choice.",
+        "D": "Enalapril-type ethyl esters exemplify oral bioavailability prodrugs. This matches the correct interpretation."
       }
     },
     {
       "id": "medicinal_chemistry:hard:10",
-      "question": "A 60-year-old man is evaluated for prodrug esterification. Which of the following is favored after comparison with frequent look-alikes?",
+      "question": "A 39-year-old man has suspected soft drugs, and similar diagnoses remain possible. Which of the following is most accurate?",
       "options": [
-        "A) Masking polar groups as esters can enhance membrane permeability then esterases liberate active drug",
-        "B) Esters always prevent any bioactivation forever",
-        "C) Adding many charged groups always improves passive membrane permeability",
-        "D) Phosphate prodrugs always decrease aqueous solubility"
+        "A) Active agents designed for predictable rapid metabolism to inactive metabolites after effect",
+        "B) Soft drugs are designed for ultra-long accumulation without metabolism",
+        "C) Antedrugs are designed for maximal systemic accumulation after local use",
+        "D) Hard drugs always generate many reactive metabolites by design"
       ],
-      "answer": "A) Masking polar groups as esters can enhance membrane permeability then esterases liberate active drug",
-      "explanation": "Enalapril-type ethyl esters exemplify oral bioavailability prodrugs. Therefore, the most accurate choice is: Masking polar groups as esters can enhance membrane permeability then esterases liberate active drug. Esters are designed to be cleaved to active acids.",
+      "answer": "A) Active agents designed for predictable rapid metabolism to inactive metabolites after effect",
+      "explanation": "Controlled deactivation can limit systemic toxicity (e.g., soft corticosteroids themes). Therefore, the most accurate choice is: Active agents designed for predictable rapid metabolism to inactive metabolites after effect. Soft design emphasizes predictable inactivation, not endless accumulation.",
       "choice_explanations": {
-        "A": "Enalapril-type ethyl esters exemplify oral bioavailability prodrugs. This matches the correct interpretation.",
-        "B": "Esters are designed to be cleaved to active acids. It is less consistent than the correct choice.",
+        "A": "Controlled deactivation can limit systemic toxicity (e.g., soft corticosteroids themes). This matches the correct interpretation.",
+        "B": "Soft design emphasizes predictable inactivation, not endless accumulation. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "medicinal_chemistry:hard:11",
-      "question": "A 61-year-old woman is evaluated for suspected soft drugs. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "Initial reading of the case suggested hard drugs. Which of the following is correct?",
       "options": [
-        "A) Active agents designed for predictable rapid metabolism to inactive metabolites after effect",
-        "B) Hard drugs always generate many reactive metabolites by design",
-        "C) Soft drugs are designed for ultra-long accumulation without metabolism",
-        "D) Antedrugs are designed for maximal systemic accumulation after local use"
+        "A) Compounds resistant to metabolism to avoid toxic metabolites, cleared by excretion instead sometimes",
+        "B) Anilines are metabolically inert in all drugs always",
+        "C) Hard drugs always generate many reactive metabolites by design",
+        "D) Fluorine always increases metabolic clearance at the substituted carbon"
       ],
-      "answer": "A) Active agents designed for predictable rapid metabolism to inactive metabolites after effect",
-      "explanation": "Controlled deactivation can limit systemic toxicity (e.g., soft corticosteroids themes). Therefore, the most accurate choice is: Active agents designed for predictable rapid metabolism to inactive metabolites after effect. Soft design emphasizes predictable inactivation, not endless accumulation.",
+      "answer": "A) Compounds resistant to metabolism to avoid toxic metabolites, cleared by excretion instead sometimes",
+      "explanation": "Metabolic stability strategies reduce bioactivation risk. Therefore, the most accurate choice is: Compounds resistant to metabolism to avoid toxic metabolites, cleared by excretion instead sometimes. Hard design aims to avoid, not maximize, reactive metabolites.",
       "choice_explanations": {
-        "A": "Controlled deactivation can limit systemic toxicity (e.g., soft corticosteroids themes). This matches the correct interpretation.",
+        "A": "Metabolic stability strategies reduce bioactivation risk. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Soft design emphasizes predictable inactivation, not endless accumulation. It is less consistent than the correct choice.",
+        "C": "Hard design aims to avoid, not maximize, reactive metabolites. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "medicinal_chemistry:hard:12",
-      "question": "Findings thought to represent hard drugs can be misread. Which of the following is most correct?",
+      "question": "Which statement about metabolic soft spot is most accurate?",
       "options": [
-        "A) Anilines are metabolically inert in all drugs always",
-        "B) Compounds resistant to metabolism to avoid toxic metabolites, cleared by excretion instead sometimes",
-        "C) Fluorine always increases metabolic clearance at the substituted carbon",
-        "D) Hard drugs always generate many reactive metabolites by design"
+        "A) Metabolite ID never influences medicinal chemistry optimization",
+        "B) Sites on a molecule readily oxidized/conjugated identifying clearance liabilities",
+        "C) Deuterium always accelerates CYP oxidation versus hydrogen",
+        "D) Soft spots are regions that can never be metabolized"
       ],
-      "answer": "B) Compounds resistant to metabolism to avoid toxic metabolites, cleared by excretion instead sometimes",
-      "explanation": "Metabolic stability strategies reduce bioactivation risk. Therefore, the most accurate choice is: Compounds resistant to metabolism to avoid toxic metabolites, cleared by excretion instead sometimes. Hard design aims to avoid, not maximize, reactive metabolites.",
+      "answer": "B) Sites on a molecule readily oxidized/conjugated identifying clearance liabilities",
+      "explanation": "Blocking soft spots with fluorine or deuterium are common tactics. Therefore, the most accurate choice is: Sites on a molecule readily oxidized/conjugated identifying clearance liabilities. Soft spots are labile, not inert, positions.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Metabolic stability strategies reduce bioactivation risk. This matches the correct interpretation.",
+        "B": "Blocking soft spots with fluorine or deuterium are common tactics. This matches the correct interpretation.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Hard design aims to avoid, not maximize, reactive metabolites. It is less consistent than the correct choice."
+        "D": "Soft spots are labile, not inert, positions. It is less consistent than the correct choice."
       }
     },
     {
       "id": "medicinal_chemistry:hard:13",
-      "question": "A 59-year-old man presents with metabolic soft spot. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "A 70-year-old man has progressive findings of deuterium switch. Which of the following is most accurate?",
       "options": [
-        "A) Sites on a molecule readily oxidized/conjugated identifying clearance liabilities",
-        "B) Metabolite ID never influences medicinal chemistry optimization",
-        "C) Soft spots are regions that can never be metabolized",
-        "D) Deuterium always accelerates CYP oxidation versus hydrogen"
-      ],
-      "answer": "A) Sites on a molecule readily oxidized/conjugated identifying clearance liabilities",
-      "explanation": "Blocking soft spots with fluorine or deuterium are common tactics. Therefore, the most accurate choice is: Sites on a molecule readily oxidized/conjugated identifying clearance liabilities. Soft spots are labile, not inert, positions.",
-      "choice_explanations": {
-        "A": "Blocking soft spots with fluorine or deuterium are common tactics. This matches the correct interpretation.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Soft spots are labile, not inert, positions. It is less consistent than the correct choice.",
-        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
-      }
-    },
-    {
-      "id": "medicinal_chemistry:hard:14",
-      "question": "A complex case of fluorine in drugs involving a 65-year-old woman is reviewed on rounds. Which of the following is most accurate?",
-      "options": [
-        "A) Hard drugs always generate many reactive metabolites by design",
-        "B) Fluorine can block metabolism, tune pKa, and improve permeability/potency sometimes",
-        "C) Macrocycles always violate drug-likeness without any clinical success possible",
-        "D) Fluorine always increases metabolic clearance at the substituted carbon"
-      ],
-      "answer": "B) Fluorine can block metabolism, tune pKa, and improve permeability/potency sometimes",
-      "explanation": "C–F bonds resist oxidative attack relative to C–H at the same site often. Therefore, the most accurate choice is: Fluorine can block metabolism, tune pKa, and improve permeability/potency sometimes. Fluorination often slows, not speeds, metabolism at that site.",
-      "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "C–F bonds resist oxidative attack relative to C–H at the same site often. This matches the correct interpretation.",
-        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Fluorination often slows, not speeds, metabolism at that site. It is less consistent than the correct choice."
-      }
-    },
-    {
-      "id": "medicinal_chemistry:hard:15",
-      "question": "A 51-year-old woman has progressive abnormalities attributed to deuterium switch. Which of the following is most consistent with the clinical process?",
-      "options": [
-        "A) Soft spots are regions that can never be metabolized",
-        "B) Deuteration at metabolic soft spots can slow CYP oxidation via kinetic isotope effects",
+        "A) Deuteration at metabolic soft spots can slow CYP oxidation via kinetic isotope effects",
+        "B) Soft spots are regions that can never be metabolized",
         "C) Deuterium always accelerates CYP oxidation versus hydrogen",
         "D) Racemates always superior because distomers never have effects"
       ],
-      "answer": "B) Deuteration at metabolic soft spots can slow CYP oxidation via kinetic isotope effects",
+      "answer": "A) Deuteration at metabolic soft spots can slow CYP oxidation via kinetic isotope effects",
       "explanation": "Heavier C–D bonds can reduce metabolic rate selectively. Therefore, the most accurate choice is: Deuteration at metabolic soft spots can slow CYP oxidation via kinetic isotope effects. Isotope effects slow, rather than accelerate, cleavage typically.",
       "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "Heavier C–D bonds can reduce metabolic rate selectively. This matches the correct interpretation.",
+        "A": "Heavier C–D bonds can reduce metabolic rate selectively. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "Isotope effects slow, rather than accelerate, cleavage typically. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
-      "id": "medicinal_chemistry:hard:16",
-      "question": "A 39-year-old woman presents with findings that could fit more than one process often confused with covalent inhibitors. Based on history, examination, and initial tests, which of the following is most likely?",
+      "id": "medicinal_chemistry:hard:14",
+      "question": "A 58-year-old man presents with findings that overlap several diagnoses, including covalent inhibitors. Which of the following is most accurate?",
       "options": [
-        "A) All covalent drugs are irreversible forever without exception",
-        "B) BTK inhibitors cannot bind cysteine residues covalently",
-        "C) Covalent drugs never touch nucleophilic amino acids",
-        "D) Form bonds with target nucleophiles for prolonged occupancy (reversible or irreversible designs)"
+        "A) BTK inhibitors cannot bind cysteine residues covalently",
+        "B) Form bonds with target nucleophiles for prolonged occupancy (reversible or irreversible designs)",
+        "C) All covalent drugs are irreversible forever without exception",
+        "D) Covalent drugs never touch nucleophilic amino acids"
       ],
-      "answer": "D) Form bonds with target nucleophiles for prolonged occupancy (reversible or irreversible designs)",
+      "answer": "B) Form bonds with target nucleophiles for prolonged occupancy (reversible or irreversible designs)",
       "explanation": "Acrylamide warheads targeting cysteine exemplify targeted covalent inhibitors. Therefore, the most accurate choice is: Form bonds with target nucleophiles for prolonged occupancy (reversible or irreversible designs). Covalent drugs specifically engage nucleophiles.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Covalent drugs specifically engage nucleophiles. It is less consistent than the correct choice.",
-        "D": "Acrylamide warheads targeting cysteine exemplify targeted covalent inhibitors. This matches the correct interpretation."
+        "B": "Acrylamide warheads targeting cysteine exemplify targeted covalent inhibitors. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Covalent drugs specifically engage nucleophiles. It is less consistent than the correct choice."
       }
     },
     {
-      "id": "medicinal_chemistry:hard:17",
-      "question": "A 69-year-old woman is hospitalized with evolving features of transition-state analogs. A common mimic remains possible. Which of the following is most likely?",
+      "id": "medicinal_chemistry:hard:15",
+      "question": "A 47-year-old man is hospitalized with evolving transition-state analogs. Which of the following is most accurate?",
       "options": [
-        "A) HIV protease inhibitors are simple inorganic phosphates only",
+        "A) Suicide substrates inhibit without any catalytic processing by the enzyme",
         "B) Mimic TS geometry/charge to bind enzymes extremely tightly (e.g., protease inhibitors themes)",
         "C) TS analogs bind only the free substrate, never the enzyme",
-        "D) Imines never form between amines and carbonyls in aqueous biochemistry"
+        "D) Neuraminidase inhibitors block bacterial folate synthesis"
       ],
       "answer": "B) Mimic TS geometry/charge to bind enzymes extremely tightly (e.g., protease inhibitors themes)",
       "explanation": "Enzymes bind TS more tightly than ground-state substrates. Therefore, the most accurate choice is: Mimic TS geometry/charge to bind enzymes extremely tightly (e.g., protease inhibitors themes). They target the enzyme active site TS recognition.",
@@ -1409,226 +1373,262 @@
       }
     },
     {
-      "id": "medicinal_chemistry:hard:18",
-      "question": "A 42-year-old man is evaluated for competitive enzyme inhibitor structure. Which of the following is favored after comparison with frequent look-alikes?",
+      "id": "medicinal_chemistry:hard:16",
+      "question": "In a detailed discussion of competitive enzyme inhibitor structure, which of the following is most accurate?",
       "options": [
-        "A) Binds an allosteric site only without active-site overlap by definition of competitive",
-        "B) Sofosbuvir is active without any metabolism as a free nucleobase only",
-        "C) Overlaps substrate binding features occupying the active site",
-        "D) Suicide substrates inhibit without any catalytic processing by the enzyme"
+        "A) Sofosbuvir is active without any metabolism as a free nucleobase only",
+        "B) HDAC inhibitors cannot chelate active-site zinc",
+        "C) Binds an allosteric site only without active-site overlap by definition of competitive",
+        "D) Overlaps substrate binding features occupying the active site"
       ],
-      "answer": "C) Overlaps substrate binding features occupying the active site",
+      "answer": "D) Overlaps substrate binding features occupying the active site",
       "explanation": "Structural mimicry of substrate enables competitive inhibition. Therefore, the most accurate choice is: Overlaps substrate binding features occupying the active site. Classic competitive inhibitors occupy the active site.",
       "choice_explanations": {
-        "A": "Classic competitive inhibitors occupy the active site. It is less consistent than the correct choice.",
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Structural mimicry of substrate enables competitive inhibition. This matches the correct interpretation.",
+        "C": "Classic competitive inhibitors occupy the active site. It is less consistent than the correct choice.",
+        "D": "Structural mimicry of substrate enables competitive inhibition. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medicinal_chemistry:hard:17",
+      "question": "Which of the following correctly distinguishes key points about allosteric modulator chemistry?",
+      "options": [
+        "A) Vinca and taxane share identical atomic binding poses on tubulin always",
+        "B) Bind sites distinct from orthosteric pocket tuning affinity/efficacy of endogenous ligands",
+        "C) Must chemically identical to the endogenous orthosteric ligand always",
+        "D) GPCR drugs cannot resemble endogenous ligands in any pharmacophore feature"
+      ],
+      "answer": "B) Bind sites distinct from orthosteric pocket tuning affinity/efficacy of endogenous ligands",
+      "explanation": "PAMs/NAMs offer subtype selectivity opportunities. Therefore, the most accurate choice is: Bind sites distinct from orthosteric pocket tuning affinity/efficacy of endogenous ligands. Allosteric ligands are structurally distinct binders at other sites.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "PAMs/NAMs offer subtype selectivity opportunities. This matches the correct interpretation.",
+        "C": "Allosteric ligands are structurally distinct binders at other sites. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medicinal_chemistry:hard:18",
+      "question": "Initial reading of the case suggested peptidomimetics. Which of the following is correct?",
+      "options": [
+        "A) Peptidomimetics always increase proteolytic cleavage rates",
+        "B) Adding many charged groups always improves passive membrane permeability",
+        "C) Modify peptides to resist proteases and improve membrane properties while keeping recognition elements",
+        "D) Unlimited HBDs always improve oral absorption"
+      ],
+      "answer": "C) Modify peptides to resist proteases and improve membrane properties while keeping recognition elements",
+      "explanation": "Backbone amide replacements and cyclization are common tactics. Therefore, the most accurate choice is: Modify peptides to resist proteases and improve membrane properties while keeping recognition elements. They aim to reduce, not increase, proteolysis.",
+      "choice_explanations": {
+        "A": "They aim to reduce, not increase, proteolysis. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Backbone amide replacements and cyclization are common tactics. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "medicinal_chemistry:hard:19",
-      "question": "A 45-year-old woman is evaluated for suspected allosteric modulator chemistry. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "Which statement about privileged scaffolds is most accurate?",
       "options": [
         "A) GPCR drugs cannot resemble endogenous ligands in any pharmacophore feature",
-        "B) Vinca and taxane share identical atomic binding poses on tubulin always",
-        "C) Must chemically identical to the endogenous orthosteric ligand always",
-        "D) Bind sites distinct from orthosteric pocket tuning affinity/efficacy of endogenous ligands"
+        "B) BTK inhibitors cannot bind cysteine residues covalently",
+        "C) Privileged scaffolds can bind only one target ever by definition",
+        "D) Recurring chemotypes that yield ligands for multiple target classes when decorated differently"
       ],
-      "answer": "D) Bind sites distinct from orthosteric pocket tuning affinity/efficacy of endogenous ligands",
-      "explanation": "PAMs/NAMs offer subtype selectivity opportunities. Therefore, the most accurate choice is: Bind sites distinct from orthosteric pocket tuning affinity/efficacy of endogenous ligands. Allosteric ligands are structurally distinct binders at other sites.",
+      "answer": "D) Recurring chemotypes that yield ligands for multiple target classes when decorated differently",
+      "explanation": "Benzodiazepine and biphenyl motifs historically appear across target families. Therefore, the most accurate choice is: Recurring chemotypes that yield ligands for multiple target classes when decorated differently. Scaffold versatility across targets is the point.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Allosteric ligands are structurally distinct binders at other sites. It is less consistent than the correct choice.",
-        "D": "PAMs/NAMs offer subtype selectivity opportunities. This matches the correct interpretation."
+        "C": "Scaffold versatility across targets is the point. It is less consistent than the correct choice.",
+        "D": "Benzodiazepine and biphenyl motifs historically appear across target families. This matches the correct interpretation."
       }
     },
     {
       "id": "medicinal_chemistry:hard:20",
-      "question": "Findings thought to represent peptidomimetics can be misread. Which of the following is most correct?",
+      "question": "A difficult case of hansch analysis in a 57-year-old man is reviewed. Which of the following is correct?",
       "options": [
-        "A) Modify peptides to resist proteases and improve membrane properties while keeping recognition elements",
-        "B) Adding many charged groups always improves passive membrane permeability",
-        "C) Unlimited HBDs always improve oral absorption",
-        "D) Peptidomimetics always increase proteolytic cleavage rates"
+        "A) QSARs correlating activity with hydrophobic, electronic, and steric parameters",
+        "B) DEL technology forbids any chemical diversity beyond two compounds",
+        "C) Hammett σ measures only molecular weight",
+        "D) Hansch analysis forbids use of LogP or Hammett constants"
       ],
-      "answer": "A) Modify peptides to resist proteases and improve membrane properties while keeping recognition elements",
-      "explanation": "Backbone amide replacements and cyclization are common tactics. Therefore, the most accurate choice is: Modify peptides to resist proteases and improve membrane properties while keeping recognition elements. They aim to reduce, not increase, proteolysis.",
+      "answer": "A) QSARs correlating activity with hydrophobic, electronic, and steric parameters",
+      "explanation": "Linear free-energy relationships guide substituent selection. Therefore, the most accurate choice is: QSARs correlating activity with hydrophobic, electronic, and steric parameters. Hydrophobic/electronic parameters are central.",
       "choice_explanations": {
-        "A": "Backbone amide replacements and cyclization are common tactics. This matches the correct interpretation.",
+        "A": "Linear free-energy relationships guide substituent selection. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "They aim to reduce, not increase, proteolysis. It is less consistent than the correct choice."
+        "D": "Hydrophobic/electronic parameters are central. It is less consistent than the correct choice."
       }
     },
     {
       "id": "medicinal_chemistry:hard:21",
-      "question": "A 54-year-old woman presents with privileged scaffolds. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "A 63-year-old woman has progressive findings of hammett sigma. Which of the following is most accurate?",
       "options": [
-        "A) Recurring chemotypes that yield ligands for multiple target classes when decorated differently",
-        "B) BTK inhibitors cannot bind cysteine residues covalently",
-        "C) Privileged scaffolds can bind only one target ever by definition",
-        "D) GPCR drugs cannot resemble endogenous ligands in any pharmacophore feature"
+        "A) Electronic substituent constants quantify electron donation/withdrawal on aromatic rings",
+        "B) Taft Es measures only color of the compound",
+        "C) Hammett σ measures only molecular weight",
+        "D) Hansch analysis forbids use of LogP or Hammett constants"
       ],
-      "answer": "A) Recurring chemotypes that yield ligands for multiple target classes when decorated differently",
-      "explanation": "Benzodiazepine and biphenyl motifs historically appear across target families. Therefore, the most accurate choice is: Recurring chemotypes that yield ligands for multiple target classes when decorated differently. Scaffold versatility across targets is the point.",
+      "answer": "A) Electronic substituent constants quantify electron donation/withdrawal on aromatic rings",
+      "explanation": "σ values help predict pKa and reactivity trends in SAR. Therefore, the most accurate choice is: Electronic substituent constants quantify electron donation/withdrawal on aromatic rings. They index electronics, not molecular weight.",
       "choice_explanations": {
-        "A": "Benzodiazepine and biphenyl motifs historically appear across target families. This matches the correct interpretation.",
+        "A": "σ values help predict pKa and reactivity trends in SAR. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Scaffold versatility across targets is the point. It is less consistent than the correct choice.",
+        "C": "They index electronics, not molecular weight. It is less consistent than the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "medicinal_chemistry:hard:22",
-      "question": "A complex case of hansch analysis involving a 38-year-old woman is reviewed on rounds. Which of the following is most accurate?",
+      "question": "A 54-year-old woman presents with findings that overlap several diagnoses, including taft steric parameters. Which of the following is most accurate?",
       "options": [
-        "A) Hansch analysis forbids use of LogP or Hammett constants",
-        "B) DEL technology forbids any chemical diversity beyond two compounds",
-        "C) QSARs correlating activity with hydrophobic, electronic, and steric parameters",
+        "A) Taft Es measures only color of the compound",
+        "B) Peptidomimetics always increase proteolytic cleavage rates",
+        "C) Quantify steric bulk effects of substituents on rates/equilibria",
         "D) Hammett σ measures only molecular weight"
       ],
-      "answer": "C) QSARs correlating activity with hydrophobic, electronic, and steric parameters",
-      "explanation": "Linear free-energy relationships guide substituent selection. Therefore, the most accurate choice is: QSARs correlating activity with hydrophobic, electronic, and steric parameters. Hydrophobic/electronic parameters are central.",
+      "answer": "C) Quantify steric bulk effects of substituents on rates/equilibria",
+      "explanation": "Steric parameters complement electronic terms in QSAR. Therefore, the most accurate choice is: Quantify steric bulk effects of substituents on rates/equilibria. They capture steric, not optical color, effects.",
       "choice_explanations": {
-        "A": "Hydrophobic/electronic parameters are central. It is less consistent than the correct choice.",
+        "A": "They capture steric, not optical color, effects. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Linear free-energy relationships guide substituent selection. This matches the correct interpretation.",
+        "C": "Steric parameters complement electronic terms in QSAR. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "medicinal_chemistry:hard:23",
-      "question": "A 44-year-old man has progressive abnormalities attributed to hammett sigma. Which of the following is most consistent with the clinical process?",
+      "question": "Two similar explanations for CLOGP versus measured are compared. Which of the following is correct?",
       "options": [
-        "A) Hammett σ measures only molecular weight",
-        "B) Hansch analysis forbids use of LogP or Hammett constants",
-        "C) Electronic substituent constants quantify electron donation/withdrawal on aromatic rings",
-        "D) Taft Es measures only color of the compound"
+        "A) Calculated and measured LogP are always identical with zero error",
+        "B) Higher LogP always improves every ADME property without limit",
+        "C) Calculated LogP estimates lipophilicity; shake-flask or chromatographic methods measure it",
+        "D) Human and bacterial DHFR affinities are always identical for trimethoprim"
       ],
-      "answer": "C) Electronic substituent constants quantify electron donation/withdrawal on aromatic rings",
-      "explanation": "σ values help predict pKa and reactivity trends in SAR. Therefore, the most accurate choice is: Electronic substituent constants quantify electron donation/withdrawal on aromatic rings. They index electronics, not molecular weight.",
+      "answer": "C) Calculated LogP estimates lipophilicity; shake-flask or chromatographic methods measure it",
+      "explanation": "Model limitations require experimental confirmation for critical decisions. Therefore, the most accurate choice is: Calculated LogP estimates lipophilicity; shake-flask or chromatographic methods measure it. Prediction error is expected; measurement validates.",
       "choice_explanations": {
-        "A": "They index electronics, not molecular weight. It is less consistent than the correct choice.",
+        "A": "Prediction error is expected; measurement validates. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "σ values help predict pKa and reactivity trends in SAR. This matches the correct interpretation.",
+        "C": "Model limitations require experimental confirmation for critical decisions. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "medicinal_chemistry:hard:24",
-      "question": "A 35-year-old man presents with findings that could fit more than one process often confused with taft steric parameters. Based on history, examination, and initial tests, which of the following is most likely?",
+      "question": "A 66-year-old woman is evaluated for polar surface area. Which of the following is the best interpretation?",
       "options": [
-        "A) Quantify steric bulk effects of substituents on rates/equilibria",
-        "B) Taft Es measures only color of the compound",
-        "C) Hammett σ measures only molecular weight",
-        "D) Peptidomimetics always increase proteolytic cleavage rates"
+        "A) TPSA correlates inversely with passive BBB penetration and oral absorption sometimes",
+        "B) Higher TPSA always improves BBB penetration",
+        "C) Unlimited HBDs always improve oral absorption",
+        "D) All small polar acids are the strongest P-gp substrates always"
       ],
-      "answer": "A) Quantify steric bulk effects of substituents on rates/equilibria",
-      "explanation": "Steric parameters complement electronic terms in QSAR. Therefore, the most accurate choice is: Quantify steric bulk effects of substituents on rates/equilibria. They capture steric, not optical color, effects.",
+      "answer": "A) TPSA correlates inversely with passive BBB penetration and oral absorption sometimes",
+      "explanation": "Many CNS drugs keep relatively lower PSA. Therefore, the most accurate choice is: TPSA correlates inversely with passive BBB penetration and oral absorption sometimes. High PSA generally hinders, not helps, BBB passive entry.",
       "choice_explanations": {
-        "A": "Steric parameters complement electronic terms in QSAR. This matches the correct interpretation.",
-        "B": "They capture steric, not optical color, effects. It is less consistent than the correct choice.",
+        "A": "Many CNS drugs keep relatively lower PSA. This matches the correct interpretation.",
+        "B": "High PSA generally hinders, not helps, BBB passive entry. It is less consistent than the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "medicinal_chemistry:hard:25",
-      "question": "A 62-year-old man is hospitalized with evolving features of cLOGP versus measured. A common mimic remains possible. Which of the following is most likely?",
-      "options": [
-        "A) Calculated and measured LogP are always identical with zero error",
-        "B) Higher LogP at constant potency always improves LLE",
-        "C) Higher LogP always improves every ADME property without limit",
-        "D) Calculated LogP estimates lipophilicity; shake-flask or chromatographic methods measure it"
-      ],
-      "answer": "D) Calculated LogP estimates lipophilicity; shake-flask or chromatographic methods measure it",
-      "explanation": "Model limitations require experimental confirmation for critical decisions. Therefore, the most accurate choice is: Calculated LogP estimates lipophilicity; shake-flask or chromatographic methods measure it. Prediction error is expected; measurement validates.",
-      "choice_explanations": {
-        "A": "Prediction error is expected; measurement validates. It is less consistent than the correct choice.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Model limitations require experimental confirmation for critical decisions. This matches the correct interpretation."
-      }
-    },
-    {
-      "id": "medicinal_chemistry:hard:26",
-      "question": "A 47-year-old man is evaluated for polar surface area. Which of the following is favored after comparison with frequent look-alikes?",
-      "options": [
-        "A) Adding many charged groups always improves passive membrane permeability",
-        "B) Unlimited HBDs always improve oral absorption",
-        "C) TPSA correlates inversely with passive BBB penetration and oral absorption sometimes",
-        "D) Higher TPSA always improves BBB penetration"
-      ],
-      "answer": "C) TPSA correlates inversely with passive BBB penetration and oral absorption sometimes",
-      "explanation": "Many CNS drugs keep relatively lower PSA. Therefore, the most accurate choice is: TPSA correlates inversely with passive BBB penetration and oral absorption sometimes. High PSA generally hinders, not helps, BBB passive entry.",
-      "choice_explanations": {
-        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Many CNS drugs keep relatively lower PSA. This matches the correct interpretation.",
-        "D": "High PSA generally hinders, not helps, BBB passive entry. It is less consistent than the correct choice."
-      }
-    },
-    {
-      "id": "medicinal_chemistry:hard:27",
-      "question": "A 55-year-old woman is evaluated for suspected hydrogen bond donors. Initial findings do not yet separate common look-alikes. Which of the following is most likely?",
+      "question": "A 33-year-old man has suspected hydrogen bond donors, and similar diagnoses remain possible. Which of the following is most accurate?",
       "options": [
         "A) Unlimited HBDs always improve oral absorption",
         "B) Mandatory physical laws forbidding any oral drug outside the counts",
-        "C) Too many HBDs can impede membrane permeability (Rule of Five includes HBD≤5)",
-        "D) Adding many charged groups always improves passive membrane permeability"
+        "C) Adding many charged groups always improves passive membrane permeability",
+        "D) Too many HBDs can impede membrane permeability (Rule of Five includes HBD≤5)"
       ],
-      "answer": "C) Too many HBDs can impede membrane permeability (Rule of Five includes HBD≤5)",
+      "answer": "D) Too many HBDs can impede membrane permeability (Rule of Five includes HBD≤5)",
       "explanation": "Desolvation penalties rise with excessive H-bonding to water. Therefore, the most accurate choice is: Too many HBDs can impede membrane permeability (Rule of Five includes HBD≤5). Excess HBDs often hurt permeability.",
       "choice_explanations": {
         "A": "Excess HBDs often hurt permeability. It is less consistent than the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Desolvation penalties rise with excessive H-bonding to water. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Desolvation penalties rise with excessive H-bonding to water. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medicinal_chemistry:hard:26",
+      "question": "Careful interpretation of ionization and salt bridges is required. Which of the following is correct?",
+      "options": [
+        "A) Aromatic rings never interact favorably with phenylalanine/tyrosine/tryptophan",
+        "B) Ligand efficiency ignores atom count and uses only color",
+        "C) Charged groups form ionic interactions in binding pockets influencing potency",
+        "D) Charges never participate in ligand–protein recognition"
+      ],
+      "answer": "C) Charged groups form ionic interactions in binding pockets influencing potency",
+      "explanation": "Asp/Glu–basic amine salt bridges are classic recognition motifs. Therefore, the most accurate choice is: Charged groups form ionic interactions in binding pockets influencing potency. Ionic interactions are common hot spots.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Asp/Glu–basic amine salt bridges are classic recognition motifs. This matches the correct interpretation.",
+        "D": "Ionic interactions are common hot spots. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medicinal_chemistry:hard:27",
+      "question": "A 44-year-old man presents with pi-pi stacking. Which of the following best separates it from similar conditions?",
+      "options": [
+        "A) Aromatic rings never interact favorably with phenylalanine/tyrosine/tryptophan",
+        "B) ACE inhibitors never interact with catalytic zinc",
+        "C) Aromatic rings interact with protein aromatic residues contributing binding energy",
+        "D) Charges never participate in ligand–protein recognition"
+      ],
+      "answer": "C) Aromatic rings interact with protein aromatic residues contributing binding energy",
+      "explanation": "Edge-to-face and face-to-face geometries appear in many X-ray poses. Therefore, the most accurate choice is: Aromatic rings interact with protein aromatic residues contributing binding energy. Aromatic stacking is a recognized binding contribution.",
+      "choice_explanations": {
+        "A": "Aromatic stacking is a recognized binding contribution. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Edge-to-face and face-to-face geometries appear in many X-ray poses. This matches the correct interpretation.",
         "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
       }
     },
     {
       "id": "medicinal_chemistry:hard:28",
-      "question": "Findings thought to represent ionization and salt bridges can be misread. Which of the following is most correct?",
+      "question": "A difficult case of scaffold hopping in a 52-year-old woman is reviewed. Which of the following is correct?",
       "options": [
-        "A) Aromatic rings never interact favorably with phenylalanine/tyrosine/tryptophan",
-        "B) Ligand efficiency ignores atom count and uses only color",
-        "C) Charges never participate in ligand–protein recognition",
-        "D) Charged groups form ionic interactions in binding pockets influencing potency"
+        "A) Unlimited HBDs always improve oral absorption",
+        "B) GPCR drugs cannot resemble endogenous ligands in any pharmacophore feature",
+        "C) Scaffold hopping means changing nothing in the molecule",
+        "D) Replace core chemotype while preserving pharmacophore geometry to improve IP/ADME"
       ],
-      "answer": "D) Charged groups form ionic interactions in binding pockets influencing potency",
-      "explanation": "Asp/Glu–basic amine salt bridges are classic recognition motifs. Therefore, the most accurate choice is: Charged groups form ionic interactions in binding pockets influencing potency. Ionic interactions are common hot spots.",
+      "answer": "D) Replace core chemotype while preserving pharmacophore geometry to improve IP/ADME",
+      "explanation": "Bioisosteric core swaps retain vectors of key substituents. Therefore, the most accurate choice is: Replace core chemotype while preserving pharmacophore geometry to improve IP/ADME. Core change with preserved features is the definition.",
       "choice_explanations": {
         "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "C": "Ionic interactions are common hot spots. It is less consistent than the correct choice.",
-        "D": "Asp/Glu–basic amine salt bridges are classic recognition motifs. This matches the correct interpretation."
+        "C": "Core change with preserved features is the definition. It is less consistent than the correct choice.",
+        "D": "Bioisosteric core swaps retain vectors of key substituents. This matches the correct interpretation."
       }
     },
     {
       "id": "medicinal_chemistry:hard:29",
-      "question": "A 66-year-old woman presents with pi-pi stacking. Distinguishing this from frequent textbook mimics is required. Which of the following is most likely?",
+      "question": "Which of the following is the best statement about lead versus drug?",
       "options": [
-        "A) Aromatic rings interact with protein aromatic residues contributing binding energy",
-        "B) Charges never participate in ligand–protein recognition",
-        "C) Kinase inhibitors never occupy the ATP site hinge region in Type I designs",
-        "D) Aromatic rings never interact favorably with phenylalanine/tyrosine/tryptophan"
+        "A) Leads need optimization of potency, selectivity, and ADMET to become drugs",
+        "B) Covalent drug optimization ignores warhead kinetics and uses only LogP color",
+        "C) Metabolite ID never influences medicinal chemistry optimization",
+        "D) Any weak screening hit is already a finished medicine"
       ],
-      "answer": "A) Aromatic rings interact with protein aromatic residues contributing binding energy",
-      "explanation": "Edge-to-face and face-to-face geometries appear in many X-ray poses. Therefore, the most accurate choice is: Aromatic rings interact with protein aromatic residues contributing binding energy. Aromatic stacking is a recognized binding contribution.",
+      "answer": "A) Leads need optimization of potency, selectivity, and ADMET to become drugs",
+      "explanation": "Medicinal chemistry campaigns improve liabilities iteratively. Therefore, the most accurate choice is: Leads need optimization of potency, selectivity, and ADMET to become drugs. Hits/leads require substantial optimization.",
       "choice_explanations": {
-        "A": "Edge-to-face and face-to-face geometries appear in many X-ray poses. This matches the correct interpretation.",
+        "A": "Medicinal chemistry campaigns improve liabilities iteratively. This matches the correct interpretation.",
         "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
         "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
-        "D": "Aromatic stacking is a recognized binding contribution. It is less consistent than the correct choice."
+        "D": "Hits/leads require substantial optimization. It is less consistent than the correct choice."
       }
     }
   ],
   "extreme": [
     {
       "id": "medicinal_chemistry:extreme:0",
-      "question": "A 47-year-old woman develops rapidly worsening features of pharmacophore. Vital signs are unstable. Which of the following is most likely?",
+      "question": "A 66-year-old man with reduced renal function becomes acutely unstable with pharmacophore. Which of the following is most accurate?",
       "options": [
         "A) The entire molecular weight of a tablet binder only",
         "B) Spatial arrangement of features necessary for recognition at a biological target",
@@ -1646,7 +1646,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:1",
-      "question": "In the emergency department, a 63-year-old man is critically ill with a syndrome centered on structure-activity relationship. Which of the following is most likely?",
+      "question": "In the emergency department, a 41-year-old woman is critically ill with structure-activity relationship. Which of the following is most accurate?",
       "options": [
         "A) SAR means biological activity is unrelated to chemical structure",
         "B) Forced degradation is unrelated to chemical stability understanding",
@@ -1664,7 +1664,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:2",
-      "question": "A 40-year-old man deteriorates overnight with bioisosteres. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "Which of the following is the most precise statement about bioisosteres?",
       "options": [
         "A) Only identical atoms in identical positions qualify as nonclassical bioisosteres",
         "B) Opening the β-lactam ring increases antibacterial acylation potency always",
@@ -1682,7 +1682,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:3",
-      "question": "A 35-year-old man develops life-threatening complications in the setting of classical bioisostere example. Which of the following is most consistent with the clinical process?",
+      "question": "A 54-year-old woman with reduced renal function develops dangerous complications of classical bioisostere example. Which of the following is correct?",
       "options": [
         "A) Bioisosteres always destroy activity by definition",
         "B) Replacing a phenyl ring with a transition metal cluster as a classical monovalent bioisostere",
@@ -1700,7 +1700,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:4",
-      "question": "A rapidly progressive presentation of nonclassical bioisostere is reviewed in a 60-year-old man. Which of the following is most likely?",
+      "question": "Which interpretation of nonclassical bioisostere is most accurate?",
       "options": [
         "A) Replacements with different atom counts but similar spatial/electronic effects (e.g., tetrazole for carboxylate)",
         "B) Tetrazole groups decrease acidity versus carboxylate making them non-ionizable always",
@@ -1718,7 +1718,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:5",
-      "question": "A 45-year-old man requires urgent decision-making for lipinski Rule of Five. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Urgent management decisions for lipinski Rule of Five are required in a 64-year-old woman. Which of the following is most accurate?",
       "options": [
         "A) Mandatory physical laws forbidding any oral drug outside the counts",
         "B) Oral drug-likeness heuristics: MW≤500, LogP≤5, HBD≤5, HBA≤10 (guidelines, not absolute laws)",
@@ -1736,7 +1736,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:6",
-      "question": "A 30-year-old man has refractory abnormalities due to log P optimization. Which of the following is the most accurate interpretation?",
+      "question": "Which of the following is the central point about log P optimization?",
       "options": [
         "A) Excessive lipophilicity can hurt solubility and raise promiscuity/metabolic clearance",
         "B) Fluorine always increases metabolic clearance at the substituted carbon",
@@ -1754,7 +1754,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:7",
-      "question": "A critical-care presentation involving p Ka design in a 54-year-old man is discussed. Which of the following is most likely?",
+      "question": "In intensive care, a 32-year-old woman is treated for p Ka design. Which of the following is most accurate?",
       "options": [
         "A) Unlimited HBDs always improve oral absorption",
         "B) pKa is irrelevant to ionization-dependent absorption",
@@ -1772,7 +1772,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:8",
-      "question": "A 67-year-old woman with reduced renal function develops rapidly worsening features of stereochemistry eutomer. Vital signs are unstable. Which of the following is most likely?",
+      "question": "A 45-year-old man becomes acutely unstable with stereochemistry eutomer. Which of the following is most accurate?",
       "options": [
         "A) Hard drugs always generate many reactive metabolites by design",
         "B) Racemates always superior because distomers never have effects",
@@ -1790,7 +1790,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:9",
-      "question": "In the emergency department, a 38-year-old man is critically ill with a syndrome centered on racemate versus single enantiomer. Which of the following is most likely?",
+      "question": "In the emergency department, a 57-year-old woman is critically ill with racemate versus single enantiomer. Which of the following is most accurate?",
       "options": [
         "A) Both enantiomers always have identical pharmacodynamics and toxicity",
         "B) Deuterium always accelerates CYP oxidation versus hydrogen",
@@ -1808,7 +1808,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:10",
-      "question": "A 60-year-old man deteriorates overnight with prodrug esterification. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "Which of the following is the most precise statement about prodrug esterification?",
       "options": [
         "A) Esters always prevent any bioactivation forever",
         "B) Phosphate prodrugs always decrease aqueous solubility",
@@ -1826,7 +1826,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:11",
-      "question": "A 61-year-old woman with reduced renal function develops life-threatening complications in the setting of soft drugs. Which of the following is most consistent with the clinical process?",
+      "question": "A 39-year-old man develops dangerous complications of soft drugs. Which of the following is correct?",
       "options": [
         "A) Hard drugs always generate many reactive metabolites by design",
         "B) Antedrugs are designed for maximal systemic accumulation after local use",
@@ -1844,7 +1844,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:12",
-      "question": "A rapidly progressive presentation of hard drugs is reviewed in a 68-year-old man. Which of the following is most likely?",
+      "question": "A 46-year-old woman has a rapidly worsening course of hard drugs. Which of the following is most accurate?",
       "options": [
         "A) Anilines are metabolically inert in all drugs always",
         "B) Hard drugs always generate many reactive metabolites by design",
@@ -1862,7 +1862,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:13",
-      "question": "A 59-year-old man requires urgent decision-making for metabolic soft spot. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Which closely related statement about metabolic soft spot is correct?",
       "options": [
         "A) Sites on a molecule readily oxidized/conjugated identifying clearance liabilities",
         "B) Soft spots are regions that can never be metabolized",
@@ -1880,7 +1880,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:14",
-      "question": "A 65-year-old woman has refractory abnormalities due to fluorine in drugs. Which of the following is the most accurate interpretation?",
+      "question": "Which of the following is the central point about fluorine in drugs?",
       "options": [
         "A) Opening the β-lactam ring increases antibacterial acylation potency always",
         "B) Fluorine always increases metabolic clearance at the substituted carbon",
@@ -1898,7 +1898,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:15",
-      "question": "A critical-care presentation involving deuterium switch in a 51-year-old woman is discussed. Which of the following is most likely?",
+      "question": "In intensive care, a 70-year-old man is treated for deuterium switch. Which of the following is most accurate?",
       "options": [
         "A) Deuteration at metabolic soft spots can slow CYP oxidation via kinetic isotope effects",
         "B) Soft spots are regions that can never be metabolized",
@@ -1916,7 +1916,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:16",
-      "question": "A 39-year-old woman develops rapidly worsening features of covalent inhibitors. Vital signs are unstable. Which of the following is most likely?",
+      "question": "A 58-year-old man with reduced renal function becomes acutely unstable with covalent inhibitors. Which of the following is most accurate?",
       "options": [
         "A) Form bonds with target nucleophiles for prolonged occupancy (reversible or irreversible designs)",
         "B) Covalent drugs never touch nucleophilic amino acids",
@@ -1934,7 +1934,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:17",
-      "question": "In the emergency department, a 69-year-old woman is critically ill with a syndrome centered on transition-state analogs. Which of the following is most likely?",
+      "question": "In the emergency department, a 47-year-old man is critically ill with transition-state analogs. Which of the following is most accurate?",
       "options": [
         "A) Neuraminidase inhibitors block bacterial folate synthesis",
         "B) Mimic TS geometry/charge to bind enzymes extremely tightly (e.g., protease inhibitors themes)",
@@ -1952,7 +1952,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:18",
-      "question": "A 42-year-old man deteriorates overnight with competitive enzyme inhibitor structure. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "Which of the following is the most precise statement about competitive enzyme inhibitor structure?",
       "options": [
         "A) Suicide substrates inhibit without any catalytic processing by the enzyme",
         "B) Binds an allosteric site only without active-site overlap by definition of competitive",
@@ -1970,7 +1970,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:19",
-      "question": "A 45-year-old woman develops life-threatening complications in the setting of allosteric modulator chemistry. Which of the following is most consistent with the clinical process?",
+      "question": "In advanced review of allosteric modulator chemistry, which of the following is most accurate?",
       "options": [
         "A) GPCR drugs cannot resemble endogenous ligands in any pharmacophore feature",
         "B) Vinca and taxane share identical atomic binding poses on tubulin always",
@@ -1988,7 +1988,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:20",
-      "question": "A rapidly progressive presentation of peptidomimetics is reviewed in a 65-year-old woman. Which of the following is most likely?",
+      "question": "A 43-year-old man has a rapidly worsening course of peptidomimetics. Which of the following is most accurate?",
       "options": [
         "A) Peptidomimetics always increase proteolytic cleavage rates",
         "B) Adding many charged groups always improves passive membrane permeability",
@@ -2006,7 +2006,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:21",
-      "question": "A 54-year-old woman requires urgent decision-making for privileged scaffolds. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Which closely related statement about privileged scaffolds is correct?",
       "options": [
         "A) Privileged scaffolds can bind only one target ever by definition",
         "B) Recurring chemotypes that yield ligands for multiple target classes when decorated differently",
@@ -2024,7 +2024,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:22",
-      "question": "A 38-year-old woman has refractory abnormalities due to hansch analysis. Which of the following is the most accurate interpretation?",
+      "question": "A 57-year-old man has refractory hansch analysis. Which of the following is correct?",
       "options": [
         "A) Hammett σ measures only molecular weight",
         "B) QSARs correlating activity with hydrophobic, electronic, and steric parameters",
@@ -2042,7 +2042,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:23",
-      "question": "A critical-care presentation involving hammett sigma in a 44-year-old man is discussed. Which of the following is most likely?",
+      "question": "In intensive care, a 63-year-old woman is treated for hammett sigma. Which of the following is most accurate?",
       "options": [
         "A) Taft Es measures only color of the compound",
         "B) Hammett σ measures only molecular weight",
@@ -2060,7 +2060,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:24",
-      "question": "A 35-year-old man develops rapidly worsening features of taft steric parameters. Vital signs are unstable. Which of the following is most likely?",
+      "question": "A 54-year-old woman with reduced renal function becomes acutely unstable with taft steric parameters. Which of the following is most accurate?",
       "options": [
         "A) Hammett σ measures only molecular weight",
         "B) Peptidomimetics always increase proteolytic cleavage rates",
@@ -2078,7 +2078,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:25",
-      "question": "In the emergency department, a 62-year-old man is critically ill with a syndrome centered on cLOGP versus measured. Which of the following is most likely?",
+      "question": "Small differences in wording about CLOGP versus measured matter. Which of the following is correct?",
       "options": [
         "A) Calculated and measured LogP are always identical with zero error",
         "B) Higher LogP always improves every ADME property without limit",
@@ -2096,7 +2096,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:26",
-      "question": "A 47-year-old man deteriorates overnight with polar surface area. Timing, risk factors, and early diagnostics favor one process. Which of the following is most likely?",
+      "question": "A 66-year-old woman worsens overnight with polar surface area. Which of the following is most accurate?",
       "options": [
         "A) Hard drugs always generate many reactive metabolites by design",
         "B) Unlimited HBDs always improve oral absorption",
@@ -2114,7 +2114,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:27",
-      "question": "A 55-year-old woman with reduced renal function develops life-threatening complications in the setting of hydrogen bond donors. Which of the following is most consistent with the clinical process?",
+      "question": "A 33-year-old man develops dangerous complications of hydrogen bond donors. Which of the following is correct?",
       "options": [
         "A) Unlimited HBDs always improve oral absorption",
         "B) Mandatory physical laws forbidding any oral drug outside the counts",
@@ -2132,7 +2132,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:28",
-      "question": "A rapidly progressive presentation of ionization and salt bridges is reviewed in a 45-year-old woman. Which of the following is most likely?",
+      "question": "Which interpretation of ionization and salt bridges is most accurate?",
       "options": [
         "A) Ligand efficiency ignores atom count and uses only color",
         "B) Charged groups form ionic interactions in binding pockets influencing potency",
@@ -2150,7 +2150,7 @@
     },
     {
       "id": "medicinal_chemistry:extreme:29",
-      "question": "A 66-year-old woman requires urgent decision-making for pi-pi stacking. Incorrect attribution would change management substantially. Which of the following is most likely?",
+      "question": "Urgent management decisions for pi-pi stacking are required in a 44-year-old man. Which of the following is most accurate?",
       "options": [
         "A) Aromatic rings interact with protein aromatic residues contributing binding energy",
         "B) Kinase inhibitors never occupy the ATP site hinge region in Type I designs",
