@@ -1,0 +1,2170 @@
+{
+  "easy": [
+    {
+      "id": "dental_anatomy:easy:0",
+      "question": "Which of the following is true of permanent teeth count?",
+      "options": [
+        "A) Adults normally have 20 teeth including thirds",
+        "B) Primary dentition includes 8 premolars",
+        "C) Third molars always erupt before first molars",
+        "D) Adult dentition normally has 32 teeth including third molars"
+      ],
+      "answer": "D) Adult dentition normally has 32 teeth including third molars",
+      "explanation": "8 incisors, 4 canines, 8 premolars, 12 molars equals 32. Therefore, the most accurate choice is: Adult dentition normally has 32 teeth including third molars. Primary dentition has 20.",
+      "choice_explanations": {
+        "A": "Primary dentition has 20. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "8 incisors, 4 canines, 8 premolars, 12 molars equals 32. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:1",
+      "question": "Which finding is expected in primary teeth count?",
+      "options": [
+        "A) Primary dentition includes 8 premolars",
+        "B) Primary dentition has 20 teeth: 8 incisors, 4 canines, 8 molars; no premolars",
+        "C) Adults normally have 20 teeth including thirds",
+        "D) Permanent molars are succedaneous teeth replacing primary molars"
+      ],
+      "answer": "B) Primary dentition has 20 teeth: 8 incisors, 4 canines, 8 molars; no premolars",
+      "explanation": "Children have primary molars succeeded by premolars. Therefore, the most accurate choice is: Primary dentition has 20 teeth: 8 incisors, 4 canines, 8 molars; no premolars. No primary premolars.",
+      "choice_explanations": {
+        "A": "No primary premolars. It is less consistent than the correct choice.",
+        "B": "Children have primary molars succeeded by premolars. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:2",
+      "question": "Which of the following statements about universal numbering is correct?",
+      "options": [
+        "A) Palmer uses letters only for permanent teeth",
+        "B) Primary teeth use numbers 1-32 identically to permanent",
+        "C) Universal numbering 1-32 for permanent teeth starting upper right third molar to lower right third molar",
+        "D) Universal system uses only Palmer boxes without numbers"
+      ],
+      "answer": "C) Universal numbering 1-32 for permanent teeth starting upper right third molar to lower right third molar",
+      "explanation": "Upper right to upper left 1-16; lower left to lower right 17-32. Therefore, the most accurate choice is: Universal numbering 1-32 for permanent teeth starting upper right third molar to lower right third molar. Primary uses A-T in Universal.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Upper right to upper left 1-16; lower left to lower right 17-32. This matches the correct interpretation.",
+        "D": "Primary uses A-T in Universal. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:3",
+      "question": "In palmer notation, which of the following is correct?",
+      "options": [
+        "A) Fédération Dentaire Internationale tooth notation uses a single digit 1-32 only like Universal always",
+        "B) Universal system uses only Palmer boxes without numbers",
+        "C) Palmer uses quadrant brackets with numbers 1-8 from the midline",
+        "D) Palmer uses letters only for permanent teeth"
+      ],
+      "answer": "C) Palmer uses quadrant brackets with numbers 1-8 from the midline",
+      "explanation": "Each quadrant counted centrally to posterior. Therefore, the most accurate choice is: Palmer uses quadrant brackets with numbers 1-8 from the midline. Common in ortho notes.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Each quadrant counted centrally to posterior. This matches the correct interpretation.",
+        "D": "Common in ortho notes. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:4",
+      "question": "Which of the following best describes Fédération Dentaire Internationale tooth notation notation?",
+      "options": [
+        "A) Universal system uses only Palmer boxes without numbers",
+        "B) Fédération Dentaire Internationale tooth notation two-digit system: quadrant digit plus tooth digit (11 is upper right central)",
+        "C) Primary teeth use numbers 1-32 identically to permanent",
+        "D) Fédération Dentaire Internationale tooth notation uses a single digit 1-32 only like Universal always"
+      ],
+      "answer": "B) Fédération Dentaire Internationale tooth notation two-digit system: quadrant digit plus tooth digit (11 is upper right central)",
+      "explanation": "First digit quadrant 1-4 permanent or 5-8 primary; second digit tooth 1-8. Therefore, the most accurate choice is: Fédération Dentaire Internationale tooth notation two-digit system: quadrant digit plus tooth digit (11 is upper right central). International Organization for Standardization Fédération Dentaire Internationale tooth notation international standard.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "First digit quadrant 1-4 permanent or 5-8 primary; second digit tooth 1-8. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "International Organization for Standardization Fédération Dentaire Internationale tooth notation international standard. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:5",
+      "question": "Select the correct statement about enamel thickest area.",
+      "options": [
+        "A) Contacts are always at the gingival cementoenamel junction only",
+        "B) Enamel is thickest at the cementoenamel junction always",
+        "C) Enamel is generally thickest at cusp tips or incisal edges and thinnest near cementoenamel junction",
+        "D) cementoenamel junction relationships are identical on all surfaces of all teeth always"
+      ],
+      "answer": "C) Enamel is generally thickest at cusp tips or incisal edges and thinnest near cementoenamel junction",
+      "explanation": "Functional load areas have thicker enamel. Therefore, the most accurate choice is: Enamel is generally thickest at cusp tips or incisal edges and thinnest near cementoenamel junction. cementoenamel junction region enamel thins.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "cementoenamel junction region enamel thins. It is less consistent than the correct choice.",
+        "C": "Functional load areas have thicker enamel. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:6",
+      "question": "Which of the following applies to dentin types?",
+      "options": [
+        "A) Hertwig epithelial root sheath forms enamel of the crown primarily",
+        "B) cementoenamel junction relationships are identical on all surfaces of all teeth always",
+        "C) Primary, secondary, and tertiary dentin form at different times and stimuli",
+        "D) All dentin is identical tertiary dentin from birth"
+      ],
+      "answer": "C) Primary, secondary, and tertiary dentin form at different times and stimuli",
+      "explanation": "Secondary dentin forms slowly after eruption; tertiary responds to insult. Therefore, the most accurate choice is: Primary, secondary, and tertiary dentin form at different times and stimuli. Reactionary and reparative subtypes of tertiary.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Secondary dentin forms slowly after eruption; tertiary responds to insult. This matches the correct interpretation.",
+        "D": "Reactionary and reparative subtypes of tertiary. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:7",
+      "question": "Which of the following applies to pulp horns youth?",
+      "options": [
+        "A) Pulp chamber is round and identical lifelong without change",
+        "B) prostate-specific antigen supplies all mandibular teeth",
+        "C) Pulp horns are absent in all young molars",
+        "D) Pulp horns correspond to cusps and are higher in young teeth"
+      ],
+      "answer": "D) Pulp horns correspond to cusps and are higher in young teeth",
+      "explanation": "High horns in youth risk exposure in preparations. Therefore, the most accurate choice is: Pulp horns correspond to cusps and are higher in young teeth. Age and attrition reduce horn height.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Age and attrition reduce horn height. It is less consistent than the correct choice.",
+        "D": "High horns in youth risk exposure in preparations. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:8",
+      "question": "Which of the following is true about apical foramen?",
+      "options": [
+        "A) Foramen always exactly at the radiographic apex in every tooth without offset",
+        "B) Apical foramen is the main opening of the pulp canal to periodontal ligament near the apex, often slightly short of anatomic apex",
+        "C) Mental foramen number is always exactly one without variation possible",
+        "D) Mandibular foramen is the mental foramen on buccal premolar area"
+      ],
+      "answer": "B) Apical foramen is the main opening of the pulp canal to periodontal ligament near the apex, often slightly short of anatomic apex",
+      "explanation": "Neurovascular bundle enters here. Therefore, the most accurate choice is: Apical foramen is the main opening of the pulp canal to periodontal ligament near the apex, often slightly short of anatomic apex. Working length targets near constriction and foramen area.",
+      "choice_explanations": {
+        "A": "Working length targets near constriction and foramen area. It is less consistent than the correct choice.",
+        "B": "Neurovascular bundle enters here. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:9",
+      "question": "Which finding is expected in cementoenamel junction relationships?",
+      "options": [
+        "A) Enamel is thickest at the cementoenamel junction always",
+        "B) cementoenamel junction can be edge-to-edge, enamel over cementum, or gap with exposed dentin",
+        "C) cementoenamel junction relationships are identical on all surfaces of all teeth always",
+        "D) Neonatal line is a fracture always"
+      ],
+      "answer": "B) cementoenamel junction can be edge-to-edge, enamel over cementum, or gap with exposed dentin",
+      "explanation": "Three patterns taught historically. Therefore, the most accurate choice is: cementoenamel junction can be edge-to-edge, enamel over cementum, or gap with exposed dentin. Sensitivity if dentin exposed.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Three patterns taught historically. This matches the correct interpretation.",
+        "C": "Sensitivity if dentin exposed. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:10",
+      "question": "Which of the following statements about periodontal ligament width is correct?",
+      "options": [
+        "A) periodontal ligament has no organized fiber groups",
+        "B) periodontal ligament is several centimeters wide normally",
+        "C) Gingival fibers are only oblique periodontal ligament apical fibers",
+        "D) periodontal ligament is a thin connective tissue ligament about 0.15-0.38 mm wide typically"
+      ],
+      "answer": "D) periodontal ligament is a thin connective tissue ligament about 0.15-0.38 mm wide typically",
+      "explanation": "Collagen fiber groups suspend the tooth. Therefore, the most accurate choice is: periodontal ligament is a thin connective tissue ligament about 0.15-0.38 mm wide typically. Width changes with function and pathology.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Width changes with function and pathology. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Collagen fiber groups suspend the tooth. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:11",
+      "question": "In principal fiber groups, which of the following is correct?",
+      "options": [
+        "A) periodontal ligament has no organized fiber groups",
+        "B) Crest normally sits 10 mm above cementoenamel junction in health",
+        "C) Alveolar crest, horizontal, oblique, apical, and interradicular fiber groups are principal periodontal ligament fibers",
+        "D) Gingival fibers are only oblique periodontal ligament apical fibers"
+      ],
+      "answer": "C) Alveolar crest, horizontal, oblique, apical, and interradicular fiber groups are principal periodontal ligament fibers",
+      "explanation": "Oblique fibers are most numerous resisting axial loads. Therefore, the most accurate choice is: Alveolar crest, horizontal, oblique, apical, and interradicular fiber groups are principal periodontal ligament fibers. Fiber orientation matches function.",
+      "choice_explanations": {
+        "A": "Fiber orientation matches function. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Oblique fibers are most numerous resisting axial loads. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:12",
+      "question": "Which of the following best describes gingival fiber groups?",
+      "options": [
+        "A) Gingival fibers are only oblique periodontal ligament apical fibers",
+        "B) periodontal ligament has no organized fiber groups",
+        "C) Foramen always exactly at the radiographic apex in every tooth without offset",
+        "D) Dentogingival, alveologingival, circumferential, and dentoperiosteal fibers support gingiva"
+      ],
+      "answer": "D) Dentogingival, alveologingival, circumferential, and dentoperiosteal fibers support gingiva",
+      "explanation": "Soft-tissue fiber network braces gingiva against tooth. Therefore, the most accurate choice is: Dentogingival, alveologingival, circumferential, and dentoperiosteal fibers support gingiva. Distinct from principal periodontal ligament fibers.",
+      "choice_explanations": {
+        "A": "Distinct from principal periodontal ligament fibers. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Soft-tissue fiber network braces gingiva against tooth. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:13",
+      "question": "Select the correct interpretation for alveolar bone proper.",
+      "options": [
+        "A) Lateral canals never exist",
+        "B) Alveolar bone proper is pulp",
+        "C) Jaws lack cortical bone",
+        "D) Alveolar bone proper lines the socket and appears as lamina dura radiographically"
+      ],
+      "answer": "D) Alveolar bone proper lines the socket and appears as lamina dura radiographically",
+      "explanation": "Cribriform plate with vascular canals. Therefore, the most accurate choice is: Alveolar bone proper lines the socket and appears as lamina dura radiographically. Supports periodontal ligament attachment.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Supports periodontal ligament attachment. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Cribriform plate with vascular canals. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:14",
+      "question": "Which mechanism accounts for cortical plates jaws?",
+      "options": [
+        "A) Lingual nerve runs inside the mandibular canal always with inferior alveolar nerve exclusively",
+        "B) Buccal and lingual cortical plates of alveolar process enclose cancellous bone",
+        "C) Jaws lack cortical bone",
+        "D) Alveolar bone proper is pulp"
+      ],
+      "answer": "B) Buccal and lingual cortical plates of alveolar process enclose cancellous bone",
+      "explanation": "Compact outer plates resist flexure. Therefore, the most accurate choice is: Buccal and lingual cortical plates of alveolar process enclose cancellous bone. Thickness varies by site important for injections and implants.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Compact outer plates resist flexure. This matches the correct interpretation.",
+        "C": "Thickness varies by site important for injections and implants. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:15",
+      "question": "Which of the following applies to maxillary sinus proximity?",
+      "options": [
+        "A) Maxillary molar and some premolar roots may closely relate to the maxillary sinus floor",
+        "B) Sinus proximity is greatest for lower incisors",
+        "C) Canal runs through maxillary sinus",
+        "D) Maxillary first molar always has one root only"
+      ],
+      "answer": "A) Maxillary molar and some premolar roots may closely relate to the maxillary sinus floor",
+      "explanation": "Pneumatization brings sinus near root apices. Therefore, the most accurate choice is: Maxillary molar and some premolar roots may closely relate to the maxillary sinus floor. Extraction and endo surgical risk.",
+      "choice_explanations": {
+        "A": "Pneumatization brings sinus near root apices. This matches the correct interpretation.",
+        "B": "Extraction and endo surgical risk. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:16",
+      "question": "Which of the following is true of mental foramen location?",
+      "options": [
+        "A) Mental foramen typically near mandibular premolar apices, often between first and second premolars",
+        "B) Mandibular premolars never have other than one canal",
+        "C) All premolars always have exactly three cusps",
+        "D) Mental foramen is on the hard palate midline"
+      ],
+      "answer": "A) Mental foramen typically near mandibular premolar apices, often between first and second premolars",
+      "explanation": "Mental nerve and vessels exit to lip and chin skin. Therefore, the most accurate choice is: Mental foramen typically near mandibular premolar apices, often between first and second premolars. Anesthesia and surgery landmark.",
+      "choice_explanations": {
+        "A": "Mental nerve and vessels exit to lip and chin skin. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Anesthesia and surgery landmark. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:17",
+      "question": "Which finding is expected in mandibular foramen?",
+      "options": [
+        "A) Mental foramen is on the hard palate midline",
+        "B) Lingual nerve runs inside the mandibular canal always with inferior alveolar nerve exclusively",
+        "C) Mandibular foramen on the medial ramus is where inferior alveolar nerve enters the mandibular canal",
+        "D) Mandibular foramen is the mental foramen on buccal premolar area"
+      ],
+      "answer": "C) Mandibular foramen on the medial ramus is where inferior alveolar nerve enters the mandibular canal",
+      "explanation": "Lingula and sphenomandibular ligament relate nearby. Therefore, the most accurate choice is: Mandibular foramen on the medial ramus is where inferior alveolar nerve enters the mandibular canal. inferior alveolar nerve block landmark.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Lingula and sphenomandibular ligament relate nearby. This matches the correct interpretation.",
+        "D": "inferior alveolar nerve block landmark. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:18",
+      "question": "Which of the following statements about lingual nerve course is correct?",
+      "options": [
+        "A) inferior alveolar nerve supplies maxillary teeth primarily",
+        "B) Lingual nerve runs medial to the mandible in third molar region, often close to soft tissue and bone",
+        "C) prostate-specific antigen supplies all mandibular teeth",
+        "D) Lingual nerve runs inside the mandibular canal always with inferior alveolar nerve exclusively"
+      ],
+      "answer": "B) Lingual nerve runs medial to the mandible in third molar region, often close to soft tissue and bone",
+      "explanation": "Risk during third molar surgery and floor-of-mouth procedures. Therefore, the most accurate choice is: Lingual nerve runs medial to the mandible in third molar region, often close to soft tissue and bone. Sensory to anterior tongue and floor mucosa.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Risk during third molar surgery and floor-of-mouth procedures. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Sensory to anterior tongue and floor mucosa. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:19",
+      "question": "In inferior alveolar nerve course, which of the following is correct?",
+      "options": [
+        "A) Inferior alveolar nerve travels in the mandibular canal supplying mandibular teeth",
+        "B) Canal runs through maxillary sinus",
+        "C) inferior alveolar nerve supplies maxillary teeth primarily",
+        "D) prostate-specific antigen supplies all mandibular teeth"
+      ],
+      "answer": "A) Inferior alveolar nerve travels in the mandibular canal supplying mandibular teeth",
+      "explanation": "Branch of V3 through mandibular foramen to mental foramen. Therefore, the most accurate choice is: Inferior alveolar nerve travels in the mandibular canal supplying mandibular teeth. Dental sensory innervation of lower teeth.",
+      "choice_explanations": {
+        "A": "Branch of V3 through mandibular foramen to mental foramen. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Dental sensory innervation of lower teeth. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:20",
+      "question": "Which of the following best describes prostate-specific antigen nerve?",
+      "options": [
+        "A) prostate-specific antigen supplies all mandibular teeth",
+        "B) aspirin supplies mandibular molars",
+        "C) Posterior superior alveolar nerve supplies maxillary molars generally except often mesiobuccal root of first molar variants",
+        "D) inferior alveolar nerve supplies maxillary teeth primarily"
+      ],
+      "answer": "C) Posterior superior alveolar nerve supplies maxillary molars generally except often mesiobuccal root of first molar variants",
+      "explanation": "Branches from maxillary nerve to posterior maxilla. Therefore, the most accurate choice is: Posterior superior alveolar nerve supplies maxillary molars generally except often mesiobuccal root of first molar variants. prostate-specific antigen block anesthesia.",
+      "choice_explanations": {
+        "A": "prostate-specific antigen block anesthesia. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Branches from maxillary nerve to posterior maxilla. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:21",
+      "question": "Select the correct statement about middle superior alveolar nerve.",
+      "options": [
+        "A) middle superior alveolar always present in 100% of people identically",
+        "B) prostate-specific antigen supplies all mandibular teeth",
+        "C) Middle superior alveolar nerve when present supplies maxillary premolars and often mesiobuccal root of first molar",
+        "D) distobuccal root is always longest"
+      ],
+      "answer": "C) Middle superior alveolar nerve when present supplies maxillary premolars and often mesiobuccal root of first molar",
+      "explanation": "Variable presence explains some anesthesia patterns. Therefore, the most accurate choice is: Middle superior alveolar nerve when present supplies maxillary premolars and often mesiobuccal root of first molar. aspirin middle superior alveolar prostate-specific antigen partition maxillary teeth.",
+      "choice_explanations": {
+        "A": "aspirin middle superior alveolar prostate-specific antigen partition maxillary teeth. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Variable presence explains some anesthesia patterns. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:22",
+      "question": "Which mechanism accounts for aspirin nerve?",
+      "options": [
+        "A) aspirin supplies mandibular molars",
+        "B) inferior alveolar nerve supplies maxillary teeth primarily",
+        "C) prostate-specific antigen supplies all mandibular teeth",
+        "D) Anterior superior alveolar nerve supplies maxillary incisors and canines"
+      ],
+      "answer": "D) Anterior superior alveolar nerve supplies maxillary incisors and canines",
+      "explanation": "Branches in infraorbital complex to anterior teeth. Therefore, the most accurate choice is: Anterior superior alveolar nerve supplies maxillary incisors and canines. Infiltration and infraorbital anesthesia relevance.",
+      "choice_explanations": {
+        "A": "Infiltration and infraorbital anesthesia relevance. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Branches in infraorbital complex to anterior teeth. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:23",
+      "question": "Which of the following applies to greater palatine nerve?",
+      "options": [
+        "A) Greater palatine supplies mandibular lingual gingiva primarily",
+        "B) Rugae are mandibular only",
+        "C) Greater palatine nerve supplies posterior hard palate mucosa",
+        "D) greater palatine foramen is at the mandibular lingula"
+      ],
+      "answer": "C) Greater palatine nerve supplies posterior hard palate mucosa",
+      "explanation": "Exits greater palatine foramen toward palatal tissues. Therefore, the most accurate choice is: Greater palatine nerve supplies posterior hard palate mucosa. Greater palatine block.",
+      "choice_explanations": {
+        "A": "Greater palatine block. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Exits greater palatine foramen toward palatal tissues. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:24",
+      "question": "Which of the following is true of nasopalatine nerve?",
+      "options": [
+        "A) aspirin supplies mandibular molars",
+        "B) Incisive foramen is mental foramen",
+        "C) Nasopalatine nerve supplies anterior hard palate via the incisive canal",
+        "D) Nasopalatine supplies all maxillary molars only"
+      ],
+      "answer": "C) Nasopalatine nerve supplies anterior hard palate via the incisive canal",
+      "explanation": "Passes through incisive foramen behind central incisors. Therefore, the most accurate choice is: Nasopalatine nerve supplies anterior hard palate via the incisive canal. Nasopalatine block for anterior palate.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Passes through incisive foramen behind central incisors. This matches the correct interpretation.",
+        "D": "Nasopalatine block for anterior palate. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:25",
+      "question": "Which finding matches infraorbital foramen?",
+      "options": [
+        "A) Infraorbital foramen below the orbit transmits infraorbital nerve related to aspirin anesthesia approaches",
+        "B) Infraorbital canal is the mandibular canal",
+        "C) aspirin supplies mandibular molars",
+        "D) Infraorbital foramen is the mandibular foramen"
+      ],
+      "answer": "A) Infraorbital foramen below the orbit transmits infraorbital nerve related to aspirin anesthesia approaches",
+      "explanation": "Maxillary midface landmark under pupil line roughly. Therefore, the most accurate choice is: Infraorbital foramen below the orbit transmits infraorbital nerve related to aspirin anesthesia approaches. Infraorbital block.",
+      "choice_explanations": {
+        "A": "Maxillary midface landmark under pupil line roughly. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Infraorbital block. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:26",
+      "question": "Which of the following statements about incisive foramen is correct?",
+      "options": [
+        "A) Incisive foramen behind maxillary centrals transmits nasopalatine nerves and vessels",
+        "B) Nasopalatine supplies all maxillary molars only",
+        "C) Mental foramen is on the hard palate midline",
+        "D) Incisive foramen is mental foramen"
+      ],
+      "answer": "A) Incisive foramen behind maxillary centrals transmits nasopalatine nerves and vessels",
+      "explanation": "Midline anterior palatal landmark. Therefore, the most accurate choice is: Incisive foramen behind maxillary centrals transmits nasopalatine nerves and vessels. Radiolucency can mimic pathology.",
+      "choice_explanations": {
+        "A": "Midline anterior palatal landmark. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Radiolucency can mimic pathology. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:27",
+      "question": "In greater palatine foramen, which of the following is correct?",
+      "options": [
+        "A) Greater palatine supplies mandibular lingual gingiva primarily",
+        "B) Greater palatine foramen typically opposite maxillary second or third molar area medially on palate",
+        "C) greater palatine foramen is at the mandibular lingula",
+        "D) Mental foramen is on the hard palate midline"
+      ],
+      "answer": "B) Greater palatine foramen typically opposite maxillary second or third molar area medially on palate",
+      "explanation": "Landmark for greater palatine block. Therefore, the most accurate choice is: Greater palatine foramen typically opposite maxillary second or third molar area medially on palate. Posterior palate.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Landmark for greater palatine block. This matches the correct interpretation.",
+        "C": "Posterior palate. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:28",
+      "question": "Which of the following best describes maxillary tuberosity?",
+      "options": [
+        "A) Pad is the maxillary incisive papilla",
+        "B) Maxillary tuberosity is the posterior rounded prominence of alveolar process behind last molar",
+        "C) Tuberosity is the mandibular retromolar pad only by identity",
+        "D) Trigone is the maxillary incisive papilla only"
+      ],
+      "answer": "B) Maxillary tuberosity is the posterior rounded prominence of alveolar process behind last molar",
+      "explanation": "Bone and soft tissue landmarked in prosthodontics and prostate-specific antigen anatomy. Therefore, the most accurate choice is: Maxillary tuberosity is the posterior rounded prominence of alveolar process behind last molar. Fracture risk with upper molar extractions.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Bone and soft tissue landmarked in prosthodontics and prostate-specific antigen anatomy. This matches the correct interpretation.",
+        "C": "Fracture risk with upper molar extractions. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:easy:29",
+      "question": "Select the correct statement about hamular process.",
+      "options": [
+        "A) Root trunk is the pulp horn",
+        "B) Odontoblast process is Tomes process of ameloblasts",
+        "C) Hamulus of medial pterygoid plate is a landmark near the hamular notch for dentures",
+        "D) Hamulus is a pulp horn"
+      ],
+      "answer": "C) Hamulus of medial pterygoid plate is a landmark near the hamular notch for dentures",
+      "explanation": "Pterygoid hamulus relates to tensor veli palatini tendon. Therefore, the most accurate choice is: Hamulus of medial pterygoid plate is a landmark near the hamular notch for dentures. Posterior maxillary denture border.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Pterygoid hamulus relates to tensor veli palatini tendon. This matches the correct interpretation.",
+        "D": "Posterior maxillary denture border. It is less consistent than the correct choice."
+      }
+    }
+  ],
+  "medium": [
+    {
+      "id": "dental_anatomy:medium:0",
+      "question": "A 39-year-old man presents for dental care with findings of permanent teeth count. Which of the following is correct?",
+      "options": [
+        "A) Adult dentition normally has 32 teeth including third molars",
+        "B) Adults normally have 20 teeth including thirds",
+        "C) Primary dentition includes 8 premolars",
+        "D) Third molars always erupt before first molars"
+      ],
+      "answer": "A) Adult dentition normally has 32 teeth including third molars",
+      "explanation": "8 incisors, 4 canines, 8 premolars, 12 molars equals 32. Therefore, the most accurate choice is: Adult dentition normally has 32 teeth including third molars. Primary dentition has 20.",
+      "choice_explanations": {
+        "A": "8 incisors, 4 canines, 8 premolars, 12 molars equals 32. This matches the correct interpretation.",
+        "B": "Primary dentition has 20. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:1",
+      "question": "A 50-year-old woman reports dental pain. Exam suggests primary teeth count. Which of the following is most accurate?",
+      "options": [
+        "A) Adults normally have 20 teeth including thirds",
+        "B) Permanent molars are succedaneous teeth replacing primary molars",
+        "C) Primary dentition has 20 teeth: 8 incisors, 4 canines, 8 molars; no premolars",
+        "D) Primary dentition includes 8 premolars"
+      ],
+      "answer": "C) Primary dentition has 20 teeth: 8 incisors, 4 canines, 8 molars; no premolars",
+      "explanation": "Children have primary molars succeeded by premolars. Therefore, the most accurate choice is: Primary dentition has 20 teeth: 8 incisors, 4 canines, 8 molars; no premolars. No primary premolars.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Children have primary molars succeeded by premolars. This matches the correct interpretation.",
+        "D": "No primary premolars. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:2",
+      "question": "Clinical and radiographic findings suggest universal numbering. Which interpretation is correct?",
+      "options": [
+        "A) Primary teeth use numbers 1-32 identically to permanent",
+        "B) Universal numbering 1-32 for permanent teeth starting upper right third molar to lower right third molar",
+        "C) Universal system uses only Palmer boxes without numbers",
+        "D) Fédération Dentaire Internationale tooth notation uses a single digit 1-32 only like Universal always"
+      ],
+      "answer": "B) Universal numbering 1-32 for permanent teeth starting upper right third molar to lower right third molar",
+      "explanation": "Upper right to upper left 1-16; lower left to lower right 17-32. Therefore, the most accurate choice is: Universal numbering 1-32 for permanent teeth starting upper right third molar to lower right third molar. Primary uses A-T in Universal.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Upper right to upper left 1-16; lower left to lower right 17-32. This matches the correct interpretation.",
+        "C": "Primary uses A-T in Universal. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:3",
+      "question": "A 26-year-old woman is examined for palmer notation. Which of the following is most likely?",
+      "options": [
+        "A) Palmer uses quadrant brackets with numbers 1-8 from the midline",
+        "B) Palmer uses letters only for permanent teeth",
+        "C) Universal system uses only Palmer boxes without numbers",
+        "D) Fédération Dentaire Internationale tooth notation uses a single digit 1-32 only like Universal always"
+      ],
+      "answer": "A) Palmer uses quadrant brackets with numbers 1-8 from the midline",
+      "explanation": "Each quadrant counted centrally to posterior. Therefore, the most accurate choice is: Palmer uses quadrant brackets with numbers 1-8 from the midline. Common in ortho notes.",
+      "choice_explanations": {
+        "A": "Each quadrant counted centrally to posterior. This matches the correct interpretation.",
+        "B": "Common in ortho notes. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:4",
+      "question": "A dental exam raises concern for Fédération Dentaire Internationale tooth notation notation. Which of the following is correct?",
+      "options": [
+        "A) Universal system uses only Palmer boxes without numbers",
+        "B) Fédération Dentaire Internationale tooth notation two-digit system: quadrant digit plus tooth digit (11 is upper right central)",
+        "C) Fédération Dentaire Internationale tooth notation uses a single digit 1-32 only like Universal always",
+        "D) Primary teeth use numbers 1-32 identically to permanent"
+      ],
+      "answer": "B) Fédération Dentaire Internationale tooth notation two-digit system: quadrant digit plus tooth digit (11 is upper right central)",
+      "explanation": "First digit quadrant 1-4 permanent or 5-8 primary; second digit tooth 1-8. Therefore, the most accurate choice is: Fédération Dentaire Internationale tooth notation two-digit system: quadrant digit plus tooth digit (11 is upper right central). International Organization for Standardization Fédération Dentaire Internationale tooth notation international standard.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "First digit quadrant 1-4 permanent or 5-8 primary; second digit tooth 1-8. This matches the correct interpretation.",
+        "C": "International Organization for Standardization Fédération Dentaire Internationale tooth notation international standard. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:5",
+      "question": "A 53-year-old man is assessed for enamel thickest area. Which of the following is most accurate?",
+      "options": [
+        "A) Contacts are always at the gingival cementoenamel junction only",
+        "B) Enamel is generally thickest at cusp tips or incisal edges and thinnest near cementoenamel junction",
+        "C) cementoenamel junction relationships are identical on all surfaces of all teeth always",
+        "D) Enamel is thickest at the cementoenamel junction always"
+      ],
+      "answer": "B) Enamel is generally thickest at cusp tips or incisal edges and thinnest near cementoenamel junction",
+      "explanation": "Functional load areas have thicker enamel. Therefore, the most accurate choice is: Enamel is generally thickest at cusp tips or incisal edges and thinnest near cementoenamel junction. cementoenamel junction region enamel thins.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Functional load areas have thicker enamel. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "cementoenamel junction region enamel thins. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:6",
+      "question": "Exam findings raise a question about dentin types. Which of the following is correct?",
+      "options": [
+        "A) cementoenamel junction relationships are identical on all surfaces of all teeth always",
+        "B) Hertwig epithelial root sheath forms enamel of the crown primarily",
+        "C) All dentin is identical tertiary dentin from birth",
+        "D) Primary, secondary, and tertiary dentin form at different times and stimuli"
+      ],
+      "answer": "D) Primary, secondary, and tertiary dentin form at different times and stimuli",
+      "explanation": "Secondary dentin forms slowly after eruption; tertiary responds to insult. Therefore, the most accurate choice is: Primary, secondary, and tertiary dentin form at different times and stimuli. Reactionary and reparative subtypes of tertiary.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Reactionary and reparative subtypes of tertiary. It is less consistent than the correct choice.",
+        "D": "Secondary dentin forms slowly after eruption; tertiary responds to insult. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:7",
+      "question": "A 29-year-old man has oral findings of pulp horns youth. Which of the following is most accurate?",
+      "options": [
+        "A) Pulp chamber is round and identical lifelong without change",
+        "B) Pulp horns are absent in all young molars",
+        "C) prostate-specific antigen supplies all mandibular teeth",
+        "D) Pulp horns correspond to cusps and are higher in young teeth"
+      ],
+      "answer": "D) Pulp horns correspond to cusps and are higher in young teeth",
+      "explanation": "High horns in youth risk exposure in preparations. Therefore, the most accurate choice is: Pulp horns correspond to cusps and are higher in young teeth. Age and attrition reduce horn height.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Age and attrition reduce horn height. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "High horns in youth risk exposure in preparations. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:8",
+      "question": "A 40-year-old woman is examined, and apical foramen is reviewed. Which of the following is correct?",
+      "options": [
+        "A) Mental foramen is on the hard palate midline",
+        "B) Mental foramen number is always exactly one without variation possible",
+        "C) Foramen always exactly at the radiographic apex in every tooth without offset",
+        "D) Apical foramen is the main opening of the pulp canal to periodontal ligament near the apex, often slightly short of anatomic apex"
+      ],
+      "answer": "D) Apical foramen is the main opening of the pulp canal to periodontal ligament near the apex, often slightly short of anatomic apex",
+      "explanation": "Neurovascular bundle enters here. Therefore, the most accurate choice is: Apical foramen is the main opening of the pulp canal to periodontal ligament near the apex, often slightly short of anatomic apex. Working length targets near constriction and foramen area.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Working length targets near constriction and foramen area. It is less consistent than the correct choice.",
+        "D": "Neurovascular bundle enters here. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:9",
+      "question": "A 64-year-old woman reports dental pain. Exam suggests cementoenamel junction relationships. Which of the following is most accurate?",
+      "options": [
+        "A) cementoenamel junction can be edge-to-edge, enamel over cementum, or gap with exposed dentin",
+        "B) cementoenamel junction relationships are identical on all surfaces of all teeth always",
+        "C) dentinoenamel junction is a perfectly flat plane always",
+        "D) Enamel is thickest at the cementoenamel junction always"
+      ],
+      "answer": "A) cementoenamel junction can be edge-to-edge, enamel over cementum, or gap with exposed dentin",
+      "explanation": "Three patterns taught historically. Therefore, the most accurate choice is: cementoenamel junction can be edge-to-edge, enamel over cementum, or gap with exposed dentin. Sensitivity if dentin exposed.",
+      "choice_explanations": {
+        "A": "Three patterns taught historically. This matches the correct interpretation.",
+        "B": "Sensitivity if dentin exposed. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:10",
+      "question": "Clinical and radiographic findings suggest periodontal ligament width. Which interpretation is correct?",
+      "options": [
+        "A) Gingival fibers are only oblique periodontal ligament apical fibers",
+        "B) periodontal ligament has no organized fiber groups",
+        "C) periodontal ligament is a thin connective tissue ligament about 0.15-0.38 mm wide typically",
+        "D) periodontal ligament is several centimeters wide normally"
+      ],
+      "answer": "C) periodontal ligament is a thin connective tissue ligament about 0.15-0.38 mm wide typically",
+      "explanation": "Collagen fiber groups suspend the tooth. Therefore, the most accurate choice is: periodontal ligament is a thin connective tissue ligament about 0.15-0.38 mm wide typically. Width changes with function and pathology.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Collagen fiber groups suspend the tooth. This matches the correct interpretation.",
+        "D": "Width changes with function and pathology. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:11",
+      "question": "A 45-year-old man is examined for principal fiber groups. Which of the following is most likely?",
+      "options": [
+        "A) Gingival fibers are only oblique periodontal ligament apical fibers",
+        "B) Crest normally sits 10 mm above cementoenamel junction in health",
+        "C) Alveolar crest, horizontal, oblique, apical, and interradicular fiber groups are principal periodontal ligament fibers",
+        "D) periodontal ligament has no organized fiber groups"
+      ],
+      "answer": "C) Alveolar crest, horizontal, oblique, apical, and interradicular fiber groups are principal periodontal ligament fibers",
+      "explanation": "Oblique fibers are most numerous resisting axial loads. Therefore, the most accurate choice is: Alveolar crest, horizontal, oblique, apical, and interradicular fiber groups are principal periodontal ligament fibers. Fiber orientation matches function.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Oblique fibers are most numerous resisting axial loads. This matches the correct interpretation.",
+        "D": "Fiber orientation matches function. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:12",
+      "question": "A dental exam raises concern for gingival fiber groups. Which of the following is correct?",
+      "options": [
+        "A) Foramen always exactly at the radiographic apex in every tooth without offset",
+        "B) periodontal ligament has no organized fiber groups",
+        "C) Dentogingival, alveologingival, circumferential, and dentoperiosteal fibers support gingiva",
+        "D) Gingival fibers are only oblique periodontal ligament apical fibers"
+      ],
+      "answer": "C) Dentogingival, alveologingival, circumferential, and dentoperiosteal fibers support gingiva",
+      "explanation": "Soft-tissue fiber network braces gingiva against tooth. Therefore, the most accurate choice is: Dentogingival, alveologingival, circumferential, and dentoperiosteal fibers support gingiva. Distinct from principal periodontal ligament fibers.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Soft-tissue fiber network braces gingiva against tooth. This matches the correct interpretation.",
+        "D": "Distinct from principal periodontal ligament fibers. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:13",
+      "question": "A 63-year-old man undergoes assessment involving alveolar bone proper. Which of the following is most accurate?",
+      "options": [
+        "A) Alveolar bone proper lines the socket and appears as lamina dura radiographically",
+        "B) Alveolar bone proper is pulp",
+        "C) Lateral canals never exist",
+        "D) Jaws lack cortical bone"
+      ],
+      "answer": "A) Alveolar bone proper lines the socket and appears as lamina dura radiographically",
+      "explanation": "Cribriform plate with vascular canals. Therefore, the most accurate choice is: Alveolar bone proper lines the socket and appears as lamina dura radiographically. Supports periodontal ligament attachment.",
+      "choice_explanations": {
+        "A": "Cribriform plate with vascular canals. This matches the correct interpretation.",
+        "B": "Supports periodontal ligament attachment. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:14",
+      "question": "In the dental clinic, cortical plates jaws is suspected. Which of the following is correct?",
+      "options": [
+        "A) Alveolar bone proper is pulp",
+        "B) Jaws lack cortical bone",
+        "C) Lingual nerve runs inside the mandibular canal always with inferior alveolar nerve exclusively",
+        "D) Buccal and lingual cortical plates of alveolar process enclose cancellous bone"
+      ],
+      "answer": "D) Buccal and lingual cortical plates of alveolar process enclose cancellous bone",
+      "explanation": "Compact outer plates resist flexure. Therefore, the most accurate choice is: Buccal and lingual cortical plates of alveolar process enclose cancellous bone. Thickness varies by site important for injections and implants.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Thickness varies by site important for injections and implants. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Compact outer plates resist flexure. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:15",
+      "question": "A 44-year-old woman has oral findings of maxillary sinus proximity. Which of the following is most accurate?",
+      "options": [
+        "A) Maxillary first molar always has one root only",
+        "B) Sinus proximity is greatest for lower incisors",
+        "C) Canines have the shortest roots of all teeth",
+        "D) Maxillary molar and some premolar roots may closely relate to the maxillary sinus floor"
+      ],
+      "answer": "D) Maxillary molar and some premolar roots may closely relate to the maxillary sinus floor",
+      "explanation": "Pneumatization brings sinus near root apices. Therefore, the most accurate choice is: Maxillary molar and some premolar roots may closely relate to the maxillary sinus floor. Extraction and endo surgical risk.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Extraction and endo surgical risk. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Pneumatization brings sinus near root apices. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:16",
+      "question": "A 55-year-old man presents for dental care with findings of mental foramen location. Which of the following is correct?",
+      "options": [
+        "A) Mental foramen is on the hard palate midline",
+        "B) All premolars always have exactly three cusps",
+        "C) greater palatine foramen is at the mandibular lingula",
+        "D) Mental foramen typically near mandibular premolar apices, often between first and second premolars"
+      ],
+      "answer": "D) Mental foramen typically near mandibular premolar apices, often between first and second premolars",
+      "explanation": "Mental nerve and vessels exit to lip and chin skin. Therefore, the most accurate choice is: Mental foramen typically near mandibular premolar apices, often between first and second premolars. Anesthesia and surgery landmark.",
+      "choice_explanations": {
+        "A": "Anesthesia and surgery landmark. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Mental nerve and vessels exit to lip and chin skin. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:17",
+      "question": "A 49-year-old man reports dental pain. Exam suggests mandibular foramen. Which of the following is most accurate?",
+      "options": [
+        "A) Mental foramen is on the hard palate midline",
+        "B) Lingual nerve runs inside the mandibular canal always with inferior alveolar nerve exclusively",
+        "C) Mandibular foramen on the medial ramus is where inferior alveolar nerve enters the mandibular canal",
+        "D) Mandibular foramen is the mental foramen on buccal premolar area"
+      ],
+      "answer": "C) Mandibular foramen on the medial ramus is where inferior alveolar nerve enters the mandibular canal",
+      "explanation": "Lingula and sphenomandibular ligament relate nearby. Therefore, the most accurate choice is: Mandibular foramen on the medial ramus is where inferior alveolar nerve enters the mandibular canal. inferior alveolar nerve block landmark.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Lingula and sphenomandibular ligament relate nearby. This matches the correct interpretation.",
+        "D": "inferior alveolar nerve block landmark. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:18",
+      "question": "Clinical and radiographic findings suggest lingual nerve course. Which interpretation is correct?",
+      "options": [
+        "A) Lingual nerve runs medial to the mandible in third molar region, often close to soft tissue and bone",
+        "B) inferior alveolar nerve supplies maxillary teeth primarily",
+        "C) middle superior alveolar always present in 100% of people identically",
+        "D) Lingual nerve runs inside the mandibular canal always with inferior alveolar nerve exclusively"
+      ],
+      "answer": "A) Lingual nerve runs medial to the mandible in third molar region, often close to soft tissue and bone",
+      "explanation": "Risk during third molar surgery and floor-of-mouth procedures. Therefore, the most accurate choice is: Lingual nerve runs medial to the mandible in third molar region, often close to soft tissue and bone. Sensory to anterior tongue and floor mucosa.",
+      "choice_explanations": {
+        "A": "Risk during third molar surgery and floor-of-mouth procedures. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Sensory to anterior tongue and floor mucosa. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:19",
+      "question": "A 33-year-old man is examined for inferior alveolar nerve course. Which of the following is most likely?",
+      "options": [
+        "A) inferior alveolar nerve supplies maxillary teeth primarily",
+        "B) Inferior alveolar nerve travels in the mandibular canal supplying mandibular teeth",
+        "C) Canal runs through maxillary sinus",
+        "D) prostate-specific antigen supplies all mandibular teeth"
+      ],
+      "answer": "B) Inferior alveolar nerve travels in the mandibular canal supplying mandibular teeth",
+      "explanation": "Branch of V3 through mandibular foramen to mental foramen. Therefore, the most accurate choice is: Inferior alveolar nerve travels in the mandibular canal supplying mandibular teeth. Dental sensory innervation of lower teeth.",
+      "choice_explanations": {
+        "A": "Dental sensory innervation of lower teeth. It is less consistent than the correct choice.",
+        "B": "Branch of V3 through mandibular foramen to mental foramen. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:20",
+      "question": "A dental exam raises concern for prostate-specific antigen nerve. Which of the following is correct?",
+      "options": [
+        "A) aspirin supplies mandibular molars",
+        "B) Posterior superior alveolar nerve supplies maxillary molars generally except often mesiobuccal root of first molar variants",
+        "C) prostate-specific antigen supplies all mandibular teeth",
+        "D) inferior alveolar nerve supplies maxillary teeth primarily"
+      ],
+      "answer": "B) Posterior superior alveolar nerve supplies maxillary molars generally except often mesiobuccal root of first molar variants",
+      "explanation": "Branches from maxillary nerve to posterior maxilla. Therefore, the most accurate choice is: Posterior superior alveolar nerve supplies maxillary molars generally except often mesiobuccal root of first molar variants. prostate-specific antigen block anesthesia.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Branches from maxillary nerve to posterior maxilla. This matches the correct interpretation.",
+        "C": "prostate-specific antigen block anesthesia. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:21",
+      "question": "A 26-year-old woman is assessed for middle superior alveolar nerve. Which of the following is most accurate?",
+      "options": [
+        "A) Middle superior alveolar nerve when present supplies maxillary premolars and often mesiobuccal root of first molar",
+        "B) prostate-specific antigen supplies all mandibular teeth",
+        "C) distobuccal root is always longest",
+        "D) middle superior alveolar always present in 100% of people identically"
+      ],
+      "answer": "A) Middle superior alveolar nerve when present supplies maxillary premolars and often mesiobuccal root of first molar",
+      "explanation": "Variable presence explains some anesthesia patterns. Therefore, the most accurate choice is: Middle superior alveolar nerve when present supplies maxillary premolars and often mesiobuccal root of first molar. aspirin middle superior alveolar prostate-specific antigen partition maxillary teeth.",
+      "choice_explanations": {
+        "A": "Variable presence explains some anesthesia patterns. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "aspirin middle superior alveolar prostate-specific antigen partition maxillary teeth. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:22",
+      "question": "In the dental clinic, aspirin nerve is suspected. Which of the following is correct?",
+      "options": [
+        "A) Anterior superior alveolar nerve supplies maxillary incisors and canines",
+        "B) prostate-specific antigen supplies all mandibular teeth",
+        "C) aspirin supplies mandibular molars",
+        "D) inferior alveolar nerve supplies maxillary teeth primarily"
+      ],
+      "answer": "A) Anterior superior alveolar nerve supplies maxillary incisors and canines",
+      "explanation": "Branches in infraorbital complex to anterior teeth. Therefore, the most accurate choice is: Anterior superior alveolar nerve supplies maxillary incisors and canines. Infiltration and infraorbital anesthesia relevance.",
+      "choice_explanations": {
+        "A": "Branches in infraorbital complex to anterior teeth. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Infiltration and infraorbital anesthesia relevance. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:23",
+      "question": "A 37-year-old man has oral findings of greater palatine nerve. Which of the following is most accurate?",
+      "options": [
+        "A) Greater palatine supplies mandibular lingual gingiva primarily",
+        "B) greater palatine foramen is at the mandibular lingula",
+        "C) Greater palatine nerve supplies posterior hard palate mucosa",
+        "D) Rugae are mandibular only"
+      ],
+      "answer": "C) Greater palatine nerve supplies posterior hard palate mucosa",
+      "explanation": "Exits greater palatine foramen toward palatal tissues. Therefore, the most accurate choice is: Greater palatine nerve supplies posterior hard palate mucosa. Greater palatine block.",
+      "choice_explanations": {
+        "A": "Greater palatine block. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Exits greater palatine foramen toward palatal tissues. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:24",
+      "question": "A 52-year-old woman presents for dental care with findings of nasopalatine nerve. Which of the following is correct?",
+      "options": [
+        "A) aspirin supplies mandibular molars",
+        "B) Incisive foramen is mental foramen",
+        "C) Nasopalatine nerve supplies anterior hard palate via the incisive canal",
+        "D) Nasopalatine supplies all maxillary molars only"
+      ],
+      "answer": "C) Nasopalatine nerve supplies anterior hard palate via the incisive canal",
+      "explanation": "Passes through incisive foramen behind central incisors. Therefore, the most accurate choice is: Nasopalatine nerve supplies anterior hard palate via the incisive canal. Nasopalatine block for anterior palate.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Passes through incisive foramen behind central incisors. This matches the correct interpretation.",
+        "D": "Nasopalatine block for anterior palate. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:25",
+      "question": "While evaluating a 55-year-old man, attention turns to infraorbital foramen. Which of the following is most accurate?",
+      "options": [
+        "A) Infraorbital foramen below the orbit transmits infraorbital nerve related to aspirin anesthesia approaches",
+        "B) Infraorbital foramen is the mandibular foramen",
+        "C) aspirin supplies mandibular molars",
+        "D) Infraorbital canal is the mandibular canal"
+      ],
+      "answer": "A) Infraorbital foramen below the orbit transmits infraorbital nerve related to aspirin anesthesia approaches",
+      "explanation": "Maxillary midface landmark under pupil line roughly. Therefore, the most accurate choice is: Infraorbital foramen below the orbit transmits infraorbital nerve related to aspirin anesthesia approaches. Infraorbital block.",
+      "choice_explanations": {
+        "A": "Maxillary midface landmark under pupil line roughly. This matches the correct interpretation.",
+        "B": "Infraorbital block. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:26",
+      "question": "Clinical and radiographic findings suggest incisive foramen. Which interpretation is correct?",
+      "options": [
+        "A) Nasopalatine supplies all maxillary molars only",
+        "B) Incisive foramen behind maxillary centrals transmits nasopalatine nerves and vessels",
+        "C) Incisive foramen is mental foramen",
+        "D) Raphe is the mental foramen"
+      ],
+      "answer": "B) Incisive foramen behind maxillary centrals transmits nasopalatine nerves and vessels",
+      "explanation": "Midline anterior palatal landmark. Therefore, the most accurate choice is: Incisive foramen behind maxillary centrals transmits nasopalatine nerves and vessels. Radiolucency can mimic pathology.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Midline anterior palatal landmark. This matches the correct interpretation.",
+        "C": "Radiolucency can mimic pathology. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:27",
+      "question": "A 61-year-old man is examined for greater palatine foramen. Which of the following is most likely?",
+      "options": [
+        "A) greater palatine foramen is at the mandibular lingula",
+        "B) Greater palatine foramen typically opposite maxillary second or third molar area medially on palate",
+        "C) Greater palatine supplies mandibular lingual gingiva primarily",
+        "D) Mental foramen is on the hard palate midline"
+      ],
+      "answer": "B) Greater palatine foramen typically opposite maxillary second or third molar area medially on palate",
+      "explanation": "Landmark for greater palatine block. Therefore, the most accurate choice is: Greater palatine foramen typically opposite maxillary second or third molar area medially on palate. Posterior palate.",
+      "choice_explanations": {
+        "A": "Posterior palate. It is less consistent than the correct choice.",
+        "B": "Landmark for greater palatine block. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:28",
+      "question": "A dental exam raises concern for maxillary tuberosity. Which of the following is correct?",
+      "options": [
+        "A) Trigone is the maxillary incisive papilla only",
+        "B) Tuberosity is the mandibular retromolar pad only by identity",
+        "C) Maxillary tuberosity is the posterior rounded prominence of alveolar process behind last molar",
+        "D) Pad is the maxillary incisive papilla"
+      ],
+      "answer": "C) Maxillary tuberosity is the posterior rounded prominence of alveolar process behind last molar",
+      "explanation": "Bone and soft tissue landmarked in prosthodontics and prostate-specific antigen anatomy. Therefore, the most accurate choice is: Maxillary tuberosity is the posterior rounded prominence of alveolar process behind last molar. Fracture risk with upper molar extractions.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Fracture risk with upper molar extractions. It is less consistent than the correct choice.",
+        "C": "Bone and soft tissue landmarked in prosthodontics and prostate-specific antigen anatomy. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:medium:29",
+      "question": "A 24-year-old woman is assessed for hamular process. Which of the following is most accurate?",
+      "options": [
+        "A) Odontoblast process is Tomes process of ameloblasts",
+        "B) Root trunk is the pulp horn",
+        "C) Hamulus of medial pterygoid plate is a landmark near the hamular notch for dentures",
+        "D) Hamulus is a pulp horn"
+      ],
+      "answer": "C) Hamulus of medial pterygoid plate is a landmark near the hamular notch for dentures",
+      "explanation": "Pterygoid hamulus relates to tensor veli palatini tendon. Therefore, the most accurate choice is: Hamulus of medial pterygoid plate is a landmark near the hamular notch for dentures. Posterior maxillary denture border.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Pterygoid hamulus relates to tensor veli palatini tendon. This matches the correct interpretation.",
+        "D": "Posterior maxillary denture border. It is less consistent than the correct choice."
+      }
+    }
+  ],
+  "hard": [
+    {
+      "id": "dental_anatomy:hard:0",
+      "question": "A 39-year-old man is evaluated for possible permanent teeth count. Which of the following is most accurate?",
+      "options": [
+        "A) Adults normally have 20 teeth including thirds",
+        "B) Primary dentition includes 8 premolars",
+        "C) Third molars always erupt before first molars",
+        "D) Adult dentition normally has 32 teeth including third molars"
+      ],
+      "answer": "D) Adult dentition normally has 32 teeth including third molars",
+      "explanation": "8 incisors, 4 canines, 8 premolars, 12 molars equals 32. Therefore, the most accurate choice is: Adult dentition normally has 32 teeth including third molars. Primary dentition has 20.",
+      "choice_explanations": {
+        "A": "Primary dentition has 20. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "8 incisors, 4 canines, 8 premolars, 12 molars equals 32. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:1",
+      "question": "A 50-year-old woman has findings suggestive of primary teeth count. Which of the following is the best interpretation?",
+      "options": [
+        "A) Permanent molars are succedaneous teeth replacing primary molars",
+        "B) Primary dentition includes 8 premolars",
+        "C) Primary dentition has 20 teeth: 8 incisors, 4 canines, 8 molars; no premolars",
+        "D) Adults normally have 20 teeth including thirds"
+      ],
+      "answer": "C) Primary dentition has 20 teeth: 8 incisors, 4 canines, 8 molars; no premolars",
+      "explanation": "Children have primary molars succeeded by premolars. Therefore, the most accurate choice is: Primary dentition has 20 teeth: 8 incisors, 4 canines, 8 molars; no premolars. No primary premolars.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "No primary premolars. It is less consistent than the correct choice.",
+        "C": "Children have primary molars succeeded by premolars. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:2",
+      "question": "In a 57-year-old man, universal numbering must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) Primary teeth use numbers 1-32 identically to permanent",
+        "B) Fédération Dentaire Internationale tooth notation uses a single digit 1-32 only like Universal always",
+        "C) Universal numbering 1-32 for permanent teeth starting upper right third molar to lower right third molar",
+        "D) Universal system uses only Palmer boxes without numbers"
+      ],
+      "answer": "C) Universal numbering 1-32 for permanent teeth starting upper right third molar to lower right third molar",
+      "explanation": "Upper right to upper left 1-16; lower left to lower right 17-32. Therefore, the most accurate choice is: Universal numbering 1-32 for permanent teeth starting upper right third molar to lower right third molar. Primary uses A-T in Universal.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Upper right to upper left 1-16; lower left to lower right 17-32. This matches the correct interpretation.",
+        "D": "Primary uses A-T in Universal. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:3",
+      "question": "A 26-year-old woman returns for review of suspected palmer notation. Which of the following is most accurate?",
+      "options": [
+        "A) Universal system uses only Palmer boxes without numbers",
+        "B) Palmer uses quadrant brackets with numbers 1-8 from the midline",
+        "C) Fédération Dentaire Internationale tooth notation uses a single digit 1-32 only like Universal always",
+        "D) Palmer uses letters only for permanent teeth"
+      ],
+      "answer": "B) Palmer uses quadrant brackets with numbers 1-8 from the midline",
+      "explanation": "Each quadrant counted centrally to posterior. Therefore, the most accurate choice is: Palmer uses quadrant brackets with numbers 1-8 from the midline. Common in ortho notes.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Each quadrant counted centrally to posterior. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Common in ortho notes. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:4",
+      "question": "A clinic case of Fédération Dentaire Internationale tooth notation notation is discussed. Which of the following is correct?",
+      "options": [
+        "A) Fédération Dentaire Internationale tooth notation two-digit system: quadrant digit plus tooth digit (11 is upper right central)",
+        "B) Primary teeth use numbers 1-32 identically to permanent",
+        "C) Fédération Dentaire Internationale tooth notation uses a single digit 1-32 only like Universal always",
+        "D) Universal system uses only Palmer boxes without numbers"
+      ],
+      "answer": "A) Fédération Dentaire Internationale tooth notation two-digit system: quadrant digit plus tooth digit (11 is upper right central)",
+      "explanation": "First digit quadrant 1-4 permanent or 5-8 primary; second digit tooth 1-8. Therefore, the most accurate choice is: Fédération Dentaire Internationale tooth notation two-digit system: quadrant digit plus tooth digit (11 is upper right central). International Organization for Standardization Fédération Dentaire Internationale tooth notation international standard.",
+      "choice_explanations": {
+        "A": "First digit quadrant 1-4 permanent or 5-8 primary; second digit tooth 1-8. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "International Organization for Standardization Fédération Dentaire Internationale tooth notation international standard. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:5",
+      "question": "A 53-year-old man presents with features compatible with enamel thickest area. Which of the following is most accurate?",
+      "options": [
+        "A) Contacts are always at the gingival cementoenamel junction only",
+        "B) Enamel is generally thickest at cusp tips or incisal edges and thinnest near cementoenamel junction",
+        "C) Enamel is thickest at the cementoenamel junction always",
+        "D) cementoenamel junction relationships are identical on all surfaces of all teeth always"
+      ],
+      "answer": "B) Enamel is generally thickest at cusp tips or incisal edges and thinnest near cementoenamel junction",
+      "explanation": "Functional load areas have thicker enamel. Therefore, the most accurate choice is: Enamel is generally thickest at cusp tips or incisal edges and thinnest near cementoenamel junction. cementoenamel junction region enamel thins.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Functional load areas have thicker enamel. This matches the correct interpretation.",
+        "C": "cementoenamel junction region enamel thins. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:6",
+      "question": "After examining a 29-year-old man, which statement about pulp horns youth is correct?",
+      "options": [
+        "A) Pulp chamber is round and identical lifelong without change",
+        "B) Pulp horns are absent in all young molars",
+        "C) Embrasures are pulp horns",
+        "D) Pulp horns correspond to cusps and are higher in young teeth"
+      ],
+      "answer": "D) Pulp horns correspond to cusps and are higher in young teeth",
+      "explanation": "High horns in youth risk exposure in preparations. Therefore, the most accurate choice is: Pulp horns correspond to cusps and are higher in young teeth. Age and attrition reduce horn height.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Age and attrition reduce horn height. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "High horns in youth risk exposure in preparations. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:7",
+      "question": "Careful review of apical foramen is required. Which of the following is most accurate?",
+      "options": [
+        "A) Foramen always exactly at the radiographic apex in every tooth without offset",
+        "B) Apical foramen is the main opening of the pulp canal to periodontal ligament near the apex, often slightly short of anatomic apex",
+        "C) Mandibular foramen is the mental foramen on buccal premolar area",
+        "D) Mental foramen number is always exactly one without variation possible"
+      ],
+      "answer": "B) Apical foramen is the main opening of the pulp canal to periodontal ligament near the apex, often slightly short of anatomic apex",
+      "explanation": "Neurovascular bundle enters here. Therefore, the most accurate choice is: Apical foramen is the main opening of the pulp canal to periodontal ligament near the apex, often slightly short of anatomic apex. Working length targets near constriction and foramen area.",
+      "choice_explanations": {
+        "A": "Working length targets near constriction and foramen area. It is less consistent than the correct choice.",
+        "B": "Neurovascular bundle enters here. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:8",
+      "question": "A 64-year-old woman has findings suggestive of cementoenamel junction relationships. Which of the following is the best interpretation?",
+      "options": [
+        "A) cementoenamel junction can be edge-to-edge, enamel over cementum, or gap with exposed dentin",
+        "B) Enamel is thickest at the cementoenamel junction always",
+        "C) cementoenamel junction relationships are identical on all surfaces of all teeth always",
+        "D) All lingual heights are at the cusp tip always"
+      ],
+      "answer": "A) cementoenamel junction can be edge-to-edge, enamel over cementum, or gap with exposed dentin",
+      "explanation": "Three patterns taught historically. Therefore, the most accurate choice is: cementoenamel junction can be edge-to-edge, enamel over cementum, or gap with exposed dentin. Sensitivity if dentin exposed.",
+      "choice_explanations": {
+        "A": "Three patterns taught historically. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Sensitivity if dentin exposed. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:9",
+      "question": "In a 41-year-old man, periodontal ligament width must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) periodontal ligament is a thin connective tissue ligament about 0.15-0.38 mm wide typically",
+        "B) periodontal ligament is several centimeters wide normally",
+        "C) Gingival fibers are only oblique periodontal ligament apical fibers",
+        "D) periodontal ligament has no organized fiber groups"
+      ],
+      "answer": "A) periodontal ligament is a thin connective tissue ligament about 0.15-0.38 mm wide typically",
+      "explanation": "Collagen fiber groups suspend the tooth. Therefore, the most accurate choice is: periodontal ligament is a thin connective tissue ligament about 0.15-0.38 mm wide typically. Width changes with function and pathology.",
+      "choice_explanations": {
+        "A": "Collagen fiber groups suspend the tooth. This matches the correct interpretation.",
+        "B": "Width changes with function and pathology. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:10",
+      "question": "A 45-year-old man returns for review of suspected principal fiber groups. Which of the following is most accurate?",
+      "options": [
+        "A) Crest normally sits 10 mm above cementoenamel junction in health",
+        "B) Gingival fibers are only oblique periodontal ligament apical fibers",
+        "C) periodontal ligament has no organized fiber groups",
+        "D) Alveolar crest, horizontal, oblique, apical, and interradicular fiber groups are principal periodontal ligament fibers"
+      ],
+      "answer": "D) Alveolar crest, horizontal, oblique, apical, and interradicular fiber groups are principal periodontal ligament fibers",
+      "explanation": "Oblique fibers are most numerous resisting axial loads. Therefore, the most accurate choice is: Alveolar crest, horizontal, oblique, apical, and interradicular fiber groups are principal periodontal ligament fibers. Fiber orientation matches function.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Fiber orientation matches function. It is less consistent than the correct choice.",
+        "D": "Oblique fibers are most numerous resisting axial loads. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:11",
+      "question": "A clinic case of gingival fiber groups is discussed. Which of the following is correct?",
+      "options": [
+        "A) Foramen always exactly at the radiographic apex in every tooth without offset",
+        "B) periodontal ligament has no organized fiber groups",
+        "C) Dentogingival, alveologingival, circumferential, and dentoperiosteal fibers support gingiva",
+        "D) Gingival fibers are only oblique periodontal ligament apical fibers"
+      ],
+      "answer": "C) Dentogingival, alveologingival, circumferential, and dentoperiosteal fibers support gingiva",
+      "explanation": "Soft-tissue fiber network braces gingiva against tooth. Therefore, the most accurate choice is: Dentogingival, alveologingival, circumferential, and dentoperiosteal fibers support gingiva. Distinct from principal periodontal ligament fibers.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Soft-tissue fiber network braces gingiva against tooth. This matches the correct interpretation.",
+        "D": "Distinct from principal periodontal ligament fibers. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:12",
+      "question": "Which statement about alveolar bone proper is most accurate?",
+      "options": [
+        "A) Jaws lack cortical bone",
+        "B) Alveolar bone proper is pulp",
+        "C) Fenestration means complete absence of marginal bone as dehiscence identically",
+        "D) Alveolar bone proper lines the socket and appears as lamina dura radiographically"
+      ],
+      "answer": "D) Alveolar bone proper lines the socket and appears as lamina dura radiographically",
+      "explanation": "Cribriform plate with vascular canals. Therefore, the most accurate choice is: Alveolar bone proper lines the socket and appears as lamina dura radiographically. Supports periodontal ligament attachment.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Supports periodontal ligament attachment. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Cribriform plate with vascular canals. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:13",
+      "question": "Which statement about cortical plates jaws in a 24-year-old woman is most accurate?",
+      "options": [
+        "A) Lingual nerve runs inside the mandibular canal always with inferior alveolar nerve exclusively",
+        "B) Alveolar bone proper is pulp",
+        "C) Jaws lack cortical bone",
+        "D) Buccal and lingual cortical plates of alveolar process enclose cancellous bone"
+      ],
+      "answer": "D) Buccal and lingual cortical plates of alveolar process enclose cancellous bone",
+      "explanation": "Compact outer plates resist flexure. Therefore, the most accurate choice is: Buccal and lingual cortical plates of alveolar process enclose cancellous bone. Thickness varies by site important for injections and implants.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Thickness varies by site important for injections and implants. It is less consistent than the correct choice.",
+        "D": "Compact outer plates resist flexure. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:14",
+      "question": "After examining a 44-year-old woman, which statement about maxillary sinus proximity is correct?",
+      "options": [
+        "A) Sinus proximity is greatest for lower incisors",
+        "B) Primary molars are identical to permanent molars in root flaring and cervical constriction",
+        "C) Maxillary molar and some premolar roots may closely relate to the maxillary sinus floor",
+        "D) Maxillary first molar always has one root only"
+      ],
+      "answer": "C) Maxillary molar and some premolar roots may closely relate to the maxillary sinus floor",
+      "explanation": "Pneumatization brings sinus near root apices. Therefore, the most accurate choice is: Maxillary molar and some premolar roots may closely relate to the maxillary sinus floor. Extraction and endo surgical risk.",
+      "choice_explanations": {
+        "A": "Extraction and endo surgical risk. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Pneumatization brings sinus near root apices. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:15",
+      "question": "A 55-year-old man is evaluated for possible mental foramen location. Which of the following is most accurate?",
+      "options": [
+        "A) Mental foramen is on the hard palate midline",
+        "B) All premolars always have exactly three cusps",
+        "C) greater palatine foramen is at the mandibular lingula",
+        "D) Mental foramen typically near mandibular premolar apices, often between first and second premolars"
+      ],
+      "answer": "D) Mental foramen typically near mandibular premolar apices, often between first and second premolars",
+      "explanation": "Mental nerve and vessels exit to lip and chin skin. Therefore, the most accurate choice is: Mental foramen typically near mandibular premolar apices, often between first and second premolars. Anesthesia and surgery landmark.",
+      "choice_explanations": {
+        "A": "Anesthesia and surgery landmark. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Mental nerve and vessels exit to lip and chin skin. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:16",
+      "question": "A 49-year-old man has findings suggestive of mandibular foramen. Which of the following is the best interpretation?",
+      "options": [
+        "A) Mandibular foramen on the medial ramus is where inferior alveolar nerve enters the mandibular canal",
+        "B) Mandibular foramen is the mental foramen on buccal premolar area",
+        "C) Lingual nerve runs inside the mandibular canal always with inferior alveolar nerve exclusively",
+        "D) Mental foramen is on the hard palate midline"
+      ],
+      "answer": "A) Mandibular foramen on the medial ramus is where inferior alveolar nerve enters the mandibular canal",
+      "explanation": "Lingula and sphenomandibular ligament relate nearby. Therefore, the most accurate choice is: Mandibular foramen on the medial ramus is where inferior alveolar nerve enters the mandibular canal. inferior alveolar nerve block landmark.",
+      "choice_explanations": {
+        "A": "Lingula and sphenomandibular ligament relate nearby. This matches the correct interpretation.",
+        "B": "inferior alveolar nerve block landmark. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:17",
+      "question": "In a 52-year-old woman, lingual nerve course must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) Lingual nerve runs medial to the mandible in third molar region, often close to soft tissue and bone",
+        "B) inferior alveolar nerve supplies maxillary teeth primarily",
+        "C) middle superior alveolar always present in 100% of people identically",
+        "D) Lingual nerve runs inside the mandibular canal always with inferior alveolar nerve exclusively"
+      ],
+      "answer": "A) Lingual nerve runs medial to the mandible in third molar region, often close to soft tissue and bone",
+      "explanation": "Risk during third molar surgery and floor-of-mouth procedures. Therefore, the most accurate choice is: Lingual nerve runs medial to the mandible in third molar region, often close to soft tissue and bone. Sensory to anterior tongue and floor mucosa.",
+      "choice_explanations": {
+        "A": "Risk during third molar surgery and floor-of-mouth procedures. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Sensory to anterior tongue and floor mucosa. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:18",
+      "question": "A 33-year-old man returns for review of suspected inferior alveolar nerve course. Which of the following is most accurate?",
+      "options": [
+        "A) prostate-specific antigen supplies all mandibular teeth",
+        "B) inferior alveolar nerve supplies maxillary teeth primarily",
+        "C) Canal runs through maxillary sinus",
+        "D) Inferior alveolar nerve travels in the mandibular canal supplying mandibular teeth"
+      ],
+      "answer": "D) Inferior alveolar nerve travels in the mandibular canal supplying mandibular teeth",
+      "explanation": "Branch of V3 through mandibular foramen to mental foramen. Therefore, the most accurate choice is: Inferior alveolar nerve travels in the mandibular canal supplying mandibular teeth. Dental sensory innervation of lower teeth.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Dental sensory innervation of lower teeth. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Branch of V3 through mandibular foramen to mental foramen. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:19",
+      "question": "A clinic case of prostate-specific antigen nerve is discussed. Which of the following is correct?",
+      "options": [
+        "A) inferior alveolar nerve supplies maxillary teeth primarily",
+        "B) aspirin supplies mandibular molars",
+        "C) prostate-specific antigen supplies all mandibular teeth",
+        "D) Posterior superior alveolar nerve supplies maxillary molars generally except often mesiobuccal root of first molar variants"
+      ],
+      "answer": "D) Posterior superior alveolar nerve supplies maxillary molars generally except often mesiobuccal root of first molar variants",
+      "explanation": "Branches from maxillary nerve to posterior maxilla. Therefore, the most accurate choice is: Posterior superior alveolar nerve supplies maxillary molars generally except often mesiobuccal root of first molar variants. prostate-specific antigen block anesthesia.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "prostate-specific antigen block anesthesia. It is less consistent than the correct choice.",
+        "D": "Branches from maxillary nerve to posterior maxilla. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:20",
+      "question": "A 26-year-old woman presents with features compatible with middle superior alveolar nerve. Which of the following is most accurate?",
+      "options": [
+        "A) middle superior alveolar always present in 100% of people identically",
+        "B) Middle superior alveolar nerve when present supplies maxillary premolars and often mesiobuccal root of first molar",
+        "C) distobuccal root is always longest",
+        "D) prostate-specific antigen supplies all mandibular teeth"
+      ],
+      "answer": "B) Middle superior alveolar nerve when present supplies maxillary premolars and often mesiobuccal root of first molar",
+      "explanation": "Variable presence explains some anesthesia patterns. Therefore, the most accurate choice is: Middle superior alveolar nerve when present supplies maxillary premolars and often mesiobuccal root of first molar. aspirin middle superior alveolar prostate-specific antigen partition maxillary teeth.",
+      "choice_explanations": {
+        "A": "aspirin middle superior alveolar prostate-specific antigen partition maxillary teeth. It is less consistent than the correct choice.",
+        "B": "Variable presence explains some anesthesia patterns. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:21",
+      "question": "Which statement about aspirin nerve in a 33-year-old man is most accurate?",
+      "options": [
+        "A) inferior alveolar nerve supplies maxillary teeth primarily",
+        "B) aspirin supplies mandibular molars",
+        "C) prostate-specific antigen supplies all mandibular teeth",
+        "D) Anterior superior alveolar nerve supplies maxillary incisors and canines"
+      ],
+      "answer": "D) Anterior superior alveolar nerve supplies maxillary incisors and canines",
+      "explanation": "Branches in infraorbital complex to anterior teeth. Therefore, the most accurate choice is: Anterior superior alveolar nerve supplies maxillary incisors and canines. Infiltration and infraorbital anesthesia relevance.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Infiltration and infraorbital anesthesia relevance. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Branches in infraorbital complex to anterior teeth. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:22",
+      "question": "After examining a 37-year-old man, which statement about greater palatine nerve is correct?",
+      "options": [
+        "A) Greater palatine supplies mandibular lingual gingiva primarily",
+        "B) Greater palatine nerve supplies posterior hard palate mucosa",
+        "C) greater palatine foramen is at the mandibular lingula",
+        "D) Rugae are mandibular only"
+      ],
+      "answer": "B) Greater palatine nerve supplies posterior hard palate mucosa",
+      "explanation": "Exits greater palatine foramen toward palatal tissues. Therefore, the most accurate choice is: Greater palatine nerve supplies posterior hard palate mucosa. Greater palatine block.",
+      "choice_explanations": {
+        "A": "Greater palatine block. It is less consistent than the correct choice.",
+        "B": "Exits greater palatine foramen toward palatal tissues. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:23",
+      "question": "A 52-year-old woman is evaluated for possible nasopalatine nerve. Which of the following is most accurate?",
+      "options": [
+        "A) Nasopalatine nerve supplies anterior hard palate via the incisive canal",
+        "B) aspirin supplies mandibular molars",
+        "C) Nasopalatine supplies all maxillary molars only",
+        "D) Incisive foramen is mental foramen"
+      ],
+      "answer": "A) Nasopalatine nerve supplies anterior hard palate via the incisive canal",
+      "explanation": "Passes through incisive foramen behind central incisors. Therefore, the most accurate choice is: Nasopalatine nerve supplies anterior hard palate via the incisive canal. Nasopalatine block for anterior palate.",
+      "choice_explanations": {
+        "A": "Passes through incisive foramen behind central incisors. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Nasopalatine block for anterior palate. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:24",
+      "question": "Two similar explanations for infraorbital foramen are compared. Which of the following is correct?",
+      "options": [
+        "A) Infraorbital canal is the mandibular canal",
+        "B) Infraorbital foramen is the mandibular foramen",
+        "C) Infraorbital foramen below the orbit transmits infraorbital nerve related to aspirin anesthesia approaches",
+        "D) aspirin supplies mandibular molars"
+      ],
+      "answer": "C) Infraorbital foramen below the orbit transmits infraorbital nerve related to aspirin anesthesia approaches",
+      "explanation": "Maxillary midface landmark under pupil line roughly. Therefore, the most accurate choice is: Infraorbital foramen below the orbit transmits infraorbital nerve related to aspirin anesthesia approaches. Infraorbital block.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Infraorbital block. It is less consistent than the correct choice.",
+        "C": "Maxillary midface landmark under pupil line roughly. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:25",
+      "question": "In a 24-year-old woman, incisive foramen must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) Nasopalatine supplies all maxillary molars only",
+        "B) Incisive foramen behind maxillary centrals transmits nasopalatine nerves and vessels",
+        "C) Incisive foramen is mental foramen",
+        "D) Mental foramen is on the hard palate midline"
+      ],
+      "answer": "B) Incisive foramen behind maxillary centrals transmits nasopalatine nerves and vessels",
+      "explanation": "Midline anterior palatal landmark. Therefore, the most accurate choice is: Incisive foramen behind maxillary centrals transmits nasopalatine nerves and vessels. Radiolucency can mimic pathology.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Midline anterior palatal landmark. This matches the correct interpretation.",
+        "C": "Radiolucency can mimic pathology. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:26",
+      "question": "A 61-year-old man returns for review of suspected greater palatine foramen. Which of the following is most accurate?",
+      "options": [
+        "A) greater palatine foramen is at the mandibular lingula",
+        "B) Greater palatine supplies mandibular lingual gingiva primarily",
+        "C) Greater palatine foramen typically opposite maxillary second or third molar area medially on palate",
+        "D) Mental foramen is on the hard palate midline"
+      ],
+      "answer": "C) Greater palatine foramen typically opposite maxillary second or third molar area medially on palate",
+      "explanation": "Landmark for greater palatine block. Therefore, the most accurate choice is: Greater palatine foramen typically opposite maxillary second or third molar area medially on palate. Posterior palate.",
+      "choice_explanations": {
+        "A": "Posterior palate. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Landmark for greater palatine block. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:27",
+      "question": "A clinic case of maxillary tuberosity is discussed. Which of the following is correct?",
+      "options": [
+        "A) Pad is the maxillary incisive papilla",
+        "B) Tuberosity is the mandibular retromolar pad only by identity",
+        "C) prostate-specific antigen supplies all mandibular teeth",
+        "D) Maxillary tuberosity is the posterior rounded prominence of alveolar process behind last molar"
+      ],
+      "answer": "D) Maxillary tuberosity is the posterior rounded prominence of alveolar process behind last molar",
+      "explanation": "Bone and soft tissue landmarked in prosthodontics and prostate-specific antigen anatomy. Therefore, the most accurate choice is: Maxillary tuberosity is the posterior rounded prominence of alveolar process behind last molar. Fracture risk with upper molar extractions.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Fracture risk with upper molar extractions. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Bone and soft tissue landmarked in prosthodontics and prostate-specific antigen anatomy. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:28",
+      "question": "A 24-year-old woman presents with features compatible with hamular process. Which of the following is most accurate?",
+      "options": [
+        "A) Hamulus of medial pterygoid plate is a landmark near the hamular notch for dentures",
+        "B) Root trunk is the pulp horn",
+        "C) Hamulus is a pulp horn",
+        "D) Lateral pterygoid only elevates like masseter as primary action"
+      ],
+      "answer": "A) Hamulus of medial pterygoid plate is a landmark near the hamular notch for dentures",
+      "explanation": "Pterygoid hamulus relates to tensor veli palatini tendon. Therefore, the most accurate choice is: Hamulus of medial pterygoid plate is a landmark near the hamular notch for dentures. Posterior maxillary denture border.",
+      "choice_explanations": {
+        "A": "Pterygoid hamulus relates to tensor veli palatini tendon. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Posterior maxillary denture border. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:hard:29",
+      "question": "Which statement about coronoid process in a 52-year-old woman is most accurate?",
+      "options": [
+        "A) Coronoid process of mandible is temporalis insertion; can interfere with maxillary denture on opening",
+        "B) Tuberosity is the mandibular retromolar pad only by identity",
+        "C) Condyle is the coronoid process for temporalis only by identity",
+        "D) Coronoid is the mandibular condyle articulating in glenoid fossa identically"
+      ],
+      "answer": "A) Coronoid process of mandible is temporalis insertion; can interfere with maxillary denture on opening",
+      "explanation": "Triangular anterior ramus process. Therefore, the most accurate choice is: Coronoid process of mandible is temporalis insertion; can interfere with maxillary denture on opening. Denture flange relief sometimes.",
+      "choice_explanations": {
+        "A": "Triangular anterior ramus process. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Denture flange relief sometimes. It is less consistent than the correct choice."
+      }
+    }
+  ],
+  "extreme": [
+    {
+      "id": "dental_anatomy:extreme:0",
+      "question": "A 39-year-old man has a complex presentation of permanent teeth count. Which of the following is most accurate?",
+      "options": [
+        "A) Primary dentition includes 8 premolars",
+        "B) Third molars always erupt before first molars",
+        "C) Adult dentition normally has 32 teeth including third molars",
+        "D) Adults normally have 20 teeth including thirds"
+      ],
+      "answer": "C) Adult dentition normally has 32 teeth including third molars",
+      "explanation": "8 incisors, 4 canines, 8 premolars, 12 molars equals 32. Therefore, the most accurate choice is: Adult dentition normally has 32 teeth including third molars. Primary dentition has 20.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "8 incisors, 4 canines, 8 premolars, 12 molars equals 32. This matches the correct interpretation.",
+        "D": "Primary dentition has 20. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:1",
+      "question": "A 50-year-old woman is reassessed after incomplete response related to primary teeth count. Which of the following is most accurate?",
+      "options": [
+        "A) Adults normally have 20 teeth including thirds",
+        "B) Primary dentition has 20 teeth: 8 incisors, 4 canines, 8 molars; no premolars",
+        "C) Primary dentition includes 8 premolars",
+        "D) Permanent molars are succedaneous teeth replacing primary molars"
+      ],
+      "answer": "B) Primary dentition has 20 teeth: 8 incisors, 4 canines, 8 molars; no premolars",
+      "explanation": "Children have primary molars succeeded by premolars. Therefore, the most accurate choice is: Primary dentition has 20 teeth: 8 incisors, 4 canines, 8 molars; no premolars. No primary premolars.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Children have primary molars succeeded by premolars. This matches the correct interpretation.",
+        "C": "No primary premolars. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:2",
+      "question": "A detailed evaluation for universal numbering is underway in a 57-year-old man. Which of the following is correct?",
+      "options": [
+        "A) Universal numbering 1-32 for permanent teeth starting upper right third molar to lower right third molar",
+        "B) Universal system uses only Palmer boxes without numbers",
+        "C) Primary teeth use numbers 1-32 identically to permanent",
+        "D) Palmer uses letters only for permanent teeth"
+      ],
+      "answer": "A) Universal numbering 1-32 for permanent teeth starting upper right third molar to lower right third molar",
+      "explanation": "Upper right to upper left 1-16; lower left to lower right 17-32. Therefore, the most accurate choice is: Universal numbering 1-32 for permanent teeth starting upper right third molar to lower right third molar. Primary uses A-T in Universal.",
+      "choice_explanations": {
+        "A": "Upper right to upper left 1-16; lower left to lower right 17-32. This matches the correct interpretation.",
+        "B": "Primary uses A-T in Universal. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:3",
+      "question": "A 26-year-old woman has findings that make palmer notation hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Fédération Dentaire Internationale tooth notation uses a single digit 1-32 only like Universal always",
+        "B) Universal system uses only Palmer boxes without numbers",
+        "C) Palmer uses letters only for permanent teeth",
+        "D) Palmer uses quadrant brackets with numbers 1-8 from the midline"
+      ],
+      "answer": "D) Palmer uses quadrant brackets with numbers 1-8 from the midline",
+      "explanation": "Each quadrant counted centrally to posterior. Therefore, the most accurate choice is: Palmer uses quadrant brackets with numbers 1-8 from the midline. Common in ortho notes.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Common in ortho notes. It is less consistent than the correct choice.",
+        "D": "Each quadrant counted centrally to posterior. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:4",
+      "question": "In a 62-year-old woman, distinguishing Fédération Dentaire Internationale tooth notation notation from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Primary teeth use numbers 1-32 identically to permanent",
+        "B) Fédération Dentaire Internationale tooth notation two-digit system: quadrant digit plus tooth digit (11 is upper right central)",
+        "C) Fédération Dentaire Internationale tooth notation uses a single digit 1-32 only like Universal always",
+        "D) Universal system uses only Palmer boxes without numbers"
+      ],
+      "answer": "B) Fédération Dentaire Internationale tooth notation two-digit system: quadrant digit plus tooth digit (11 is upper right central)",
+      "explanation": "First digit quadrant 1-4 permanent or 5-8 primary; second digit tooth 1-8. Therefore, the most accurate choice is: Fédération Dentaire Internationale tooth notation two-digit system: quadrant digit plus tooth digit (11 is upper right central). International Organization for Standardization Fédération Dentaire Internationale tooth notation international standard.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "First digit quadrant 1-4 permanent or 5-8 primary; second digit tooth 1-8. This matches the correct interpretation.",
+        "C": "International Organization for Standardization Fédération Dentaire Internationale tooth notation international standard. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:5",
+      "question": "A 53-year-old man returns with ongoing problems related to enamel thickest area. Which of the following is most accurate?",
+      "options": [
+        "A) Enamel is generally thickest at cusp tips or incisal edges and thinnest near cementoenamel junction",
+        "B) Enamel is thickest at the cementoenamel junction always",
+        "C) cementoenamel junction relationships are identical on all surfaces of all teeth always",
+        "D) Contacts are always at the gingival cementoenamel junction only"
+      ],
+      "answer": "A) Enamel is generally thickest at cusp tips or incisal edges and thinnest near cementoenamel junction",
+      "explanation": "Functional load areas have thicker enamel. Therefore, the most accurate choice is: Enamel is generally thickest at cusp tips or incisal edges and thinnest near cementoenamel junction. cementoenamel junction region enamel thins.",
+      "choice_explanations": {
+        "A": "Functional load areas have thicker enamel. This matches the correct interpretation.",
+        "B": "cementoenamel junction region enamel thins. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:6",
+      "question": "Which of the following is the central point about dentin types?",
+      "options": [
+        "A) cementoenamel junction relationships are identical on all surfaces of all teeth always",
+        "B) Primary, secondary, and tertiary dentin form at different times and stimuli",
+        "C) All dentin is identical tertiary dentin from birth",
+        "D) Hertwig epithelial root sheath forms enamel of the crown primarily"
+      ],
+      "answer": "B) Primary, secondary, and tertiary dentin form at different times and stimuli",
+      "explanation": "Secondary dentin forms slowly after eruption; tertiary responds to insult. Therefore, the most accurate choice is: Primary, secondary, and tertiary dentin form at different times and stimuli. Reactionary and reparative subtypes of tertiary.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Secondary dentin forms slowly after eruption; tertiary responds to insult. This matches the correct interpretation.",
+        "C": "Reactionary and reparative subtypes of tertiary. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:7",
+      "question": "Which statement about pulp horns youth in a 29-year-old man is most accurate?",
+      "options": [
+        "A) Pulp horns are absent in all young molars",
+        "B) Pulp chamber is round and identical lifelong without change",
+        "C) Pulp horns correspond to cusps and are higher in young teeth",
+        "D) prostate-specific antigen supplies all mandibular teeth"
+      ],
+      "answer": "C) Pulp horns correspond to cusps and are higher in young teeth",
+      "explanation": "High horns in youth risk exposure in preparations. Therefore, the most accurate choice is: Pulp horns correspond to cusps and are higher in young teeth. Age and attrition reduce horn height.",
+      "choice_explanations": {
+        "A": "Age and attrition reduce horn height. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "High horns in youth risk exposure in preparations. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:8",
+      "question": "Careful reasoning about apical foramen is required. Which of the following is most accurate?",
+      "options": [
+        "A) Apical foramen is the main opening of the pulp canal to periodontal ligament near the apex, often slightly short of anatomic apex",
+        "B) Mental foramen number is always exactly one without variation possible",
+        "C) Mandibular central is the largest permanent tooth",
+        "D) Foramen always exactly at the radiographic apex in every tooth without offset"
+      ],
+      "answer": "A) Apical foramen is the main opening of the pulp canal to periodontal ligament near the apex, often slightly short of anatomic apex",
+      "explanation": "Neurovascular bundle enters here. Therefore, the most accurate choice is: Apical foramen is the main opening of the pulp canal to periodontal ligament near the apex, often slightly short of anatomic apex. Working length targets near constriction and foramen area.",
+      "choice_explanations": {
+        "A": "Neurovascular bundle enters here. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Working length targets near constriction and foramen area. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:9",
+      "question": "A 64-year-old woman is reassessed after incomplete response related to cementoenamel junction relationships. Which of the following is most accurate?",
+      "options": [
+        "A) Enamel is thickest at the cementoenamel junction always",
+        "B) cementoenamel junction relationships are identical on all surfaces of all teeth always",
+        "C) All lingual heights are at the cusp tip always",
+        "D) cementoenamel junction can be edge-to-edge, enamel over cementum, or gap with exposed dentin"
+      ],
+      "answer": "D) cementoenamel junction can be edge-to-edge, enamel over cementum, or gap with exposed dentin",
+      "explanation": "Three patterns taught historically. Therefore, the most accurate choice is: cementoenamel junction can be edge-to-edge, enamel over cementum, or gap with exposed dentin. Sensitivity if dentin exposed.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Sensitivity if dentin exposed. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Three patterns taught historically. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:10",
+      "question": "A detailed evaluation for periodontal ligament width is underway in a 41-year-old man. Which of the following is correct?",
+      "options": [
+        "A) periodontal ligament has no organized fiber groups",
+        "B) periodontal ligament is a thin connective tissue ligament about 0.15-0.38 mm wide typically",
+        "C) periodontal ligament is several centimeters wide normally",
+        "D) Gingival fibers are only oblique periodontal ligament apical fibers"
+      ],
+      "answer": "B) periodontal ligament is a thin connective tissue ligament about 0.15-0.38 mm wide typically",
+      "explanation": "Collagen fiber groups suspend the tooth. Therefore, the most accurate choice is: periodontal ligament is a thin connective tissue ligament about 0.15-0.38 mm wide typically. Width changes with function and pathology.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Collagen fiber groups suspend the tooth. This matches the correct interpretation.",
+        "C": "Width changes with function and pathology. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:11",
+      "question": "A 45-year-old man has findings that make principal fiber groups hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Alveolar crest, horizontal, oblique, apical, and interradicular fiber groups are principal periodontal ligament fibers",
+        "B) Crest normally sits 10 mm above cementoenamel junction in health",
+        "C) Gingival fibers are only oblique periodontal ligament apical fibers",
+        "D) periodontal ligament has no organized fiber groups"
+      ],
+      "answer": "A) Alveolar crest, horizontal, oblique, apical, and interradicular fiber groups are principal periodontal ligament fibers",
+      "explanation": "Oblique fibers are most numerous resisting axial loads. Therefore, the most accurate choice is: Alveolar crest, horizontal, oblique, apical, and interradicular fiber groups are principal periodontal ligament fibers. Fiber orientation matches function.",
+      "choice_explanations": {
+        "A": "Oblique fibers are most numerous resisting axial loads. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Fiber orientation matches function. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:12",
+      "question": "In a 31-year-old man, distinguishing gingival fiber groups from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Gingival fibers are only oblique periodontal ligament apical fibers",
+        "B) Dentogingival, alveologingival, circumferential, and dentoperiosteal fibers support gingiva",
+        "C) Foramen always exactly at the radiographic apex in every tooth without offset",
+        "D) periodontal ligament has no organized fiber groups"
+      ],
+      "answer": "B) Dentogingival, alveologingival, circumferential, and dentoperiosteal fibers support gingiva",
+      "explanation": "Soft-tissue fiber network braces gingiva against tooth. Therefore, the most accurate choice is: Dentogingival, alveologingival, circumferential, and dentoperiosteal fibers support gingiva. Distinct from principal periodontal ligament fibers.",
+      "choice_explanations": {
+        "A": "Distinct from principal periodontal ligament fibers. It is less consistent than the correct choice.",
+        "B": "Soft-tissue fiber network braces gingiva against tooth. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:13",
+      "question": "Which closely related statement about alveolar bone proper is correct?",
+      "options": [
+        "A) Jaws lack cortical bone",
+        "B) Alveolar bone proper is pulp",
+        "C) Alveolar bone proper lines the socket and appears as lamina dura radiographically",
+        "D) Fenestration means complete absence of marginal bone as dehiscence identically"
+      ],
+      "answer": "C) Alveolar bone proper lines the socket and appears as lamina dura radiographically",
+      "explanation": "Cribriform plate with vascular canals. Therefore, the most accurate choice is: Alveolar bone proper lines the socket and appears as lamina dura radiographically. Supports periodontal ligament attachment.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Supports periodontal ligament attachment. It is less consistent than the correct choice.",
+        "C": "Cribriform plate with vascular canals. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:14",
+      "question": "Senior review is requested for cortical plates jaws in a 24-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) Lingual nerve runs inside the mandibular canal always with inferior alveolar nerve exclusively",
+        "B) Buccal and lingual cortical plates of alveolar process enclose cancellous bone",
+        "C) Alveolar bone proper is pulp",
+        "D) Jaws lack cortical bone"
+      ],
+      "answer": "B) Buccal and lingual cortical plates of alveolar process enclose cancellous bone",
+      "explanation": "Compact outer plates resist flexure. Therefore, the most accurate choice is: Buccal and lingual cortical plates of alveolar process enclose cancellous bone. Thickness varies by site important for injections and implants.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Compact outer plates resist flexure. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Thickness varies by site important for injections and implants. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:15",
+      "question": "Which statement about maxillary sinus proximity in a 44-year-old woman is most accurate?",
+      "options": [
+        "A) Maxillary molar and some premolar roots may closely relate to the maxillary sinus floor",
+        "B) Sinus proximity is greatest for lower incisors",
+        "C) distobuccal root is always longest",
+        "D) Maxillary first molar always has one root only"
+      ],
+      "answer": "A) Maxillary molar and some premolar roots may closely relate to the maxillary sinus floor",
+      "explanation": "Pneumatization brings sinus near root apices. Therefore, the most accurate choice is: Maxillary molar and some premolar roots may closely relate to the maxillary sinus floor. Extraction and endo surgical risk.",
+      "choice_explanations": {
+        "A": "Pneumatization brings sinus near root apices. This matches the correct interpretation.",
+        "B": "Extraction and endo surgical risk. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:16",
+      "question": "A 55-year-old man has a complex presentation of mental foramen location. Which of the following is most accurate?",
+      "options": [
+        "A) Mental foramen typically near mandibular premolar apices, often between first and second premolars",
+        "B) Mental foramen is on the hard palate midline",
+        "C) Mandibular premolars never have other than one canal",
+        "D) All premolars always have exactly three cusps"
+      ],
+      "answer": "A) Mental foramen typically near mandibular premolar apices, often between first and second premolars",
+      "explanation": "Mental nerve and vessels exit to lip and chin skin. Therefore, the most accurate choice is: Mental foramen typically near mandibular premolar apices, often between first and second premolars. Anesthesia and surgery landmark.",
+      "choice_explanations": {
+        "A": "Mental nerve and vessels exit to lip and chin skin. This matches the correct interpretation.",
+        "B": "Anesthesia and surgery landmark. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:17",
+      "question": "A 49-year-old man is reassessed after incomplete response related to mandibular foramen. Which of the following is most accurate?",
+      "options": [
+        "A) Mental foramen is on the hard palate midline",
+        "B) Lingual nerve runs inside the mandibular canal always with inferior alveolar nerve exclusively",
+        "C) Mandibular foramen on the medial ramus is where inferior alveolar nerve enters the mandibular canal",
+        "D) Mandibular foramen is the mental foramen on buccal premolar area"
+      ],
+      "answer": "C) Mandibular foramen on the medial ramus is where inferior alveolar nerve enters the mandibular canal",
+      "explanation": "Lingula and sphenomandibular ligament relate nearby. Therefore, the most accurate choice is: Mandibular foramen on the medial ramus is where inferior alveolar nerve enters the mandibular canal. inferior alveolar nerve block landmark.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Lingula and sphenomandibular ligament relate nearby. This matches the correct interpretation.",
+        "D": "inferior alveolar nerve block landmark. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:18",
+      "question": "A detailed evaluation for lingual nerve course is underway in a 52-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) Lingual nerve runs medial to the mandible in third molar region, often close to soft tissue and bone",
+        "B) inferior alveolar nerve supplies maxillary teeth primarily",
+        "C) Lingual nerve runs inside the mandibular canal always with inferior alveolar nerve exclusively",
+        "D) prostate-specific antigen supplies all mandibular teeth"
+      ],
+      "answer": "A) Lingual nerve runs medial to the mandible in third molar region, often close to soft tissue and bone",
+      "explanation": "Risk during third molar surgery and floor-of-mouth procedures. Therefore, the most accurate choice is: Lingual nerve runs medial to the mandible in third molar region, often close to soft tissue and bone. Sensory to anterior tongue and floor mucosa.",
+      "choice_explanations": {
+        "A": "Risk during third molar surgery and floor-of-mouth procedures. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Sensory to anterior tongue and floor mucosa. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:19",
+      "question": "A 33-year-old man has findings that make inferior alveolar nerve course hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Canal runs through maxillary sinus",
+        "B) Inferior alveolar nerve travels in the mandibular canal supplying mandibular teeth",
+        "C) prostate-specific antigen supplies all mandibular teeth",
+        "D) inferior alveolar nerve supplies maxillary teeth primarily"
+      ],
+      "answer": "B) Inferior alveolar nerve travels in the mandibular canal supplying mandibular teeth",
+      "explanation": "Branch of V3 through mandibular foramen to mental foramen. Therefore, the most accurate choice is: Inferior alveolar nerve travels in the mandibular canal supplying mandibular teeth. Dental sensory innervation of lower teeth.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Branch of V3 through mandibular foramen to mental foramen. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Dental sensory innervation of lower teeth. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:20",
+      "question": "In a 65-year-old man, distinguishing prostate-specific antigen nerve from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Posterior superior alveolar nerve supplies maxillary molars generally except often mesiobuccal root of first molar variants",
+        "B) aspirin supplies mandibular molars",
+        "C) inferior alveolar nerve supplies maxillary teeth primarily",
+        "D) prostate-specific antigen supplies all mandibular teeth"
+      ],
+      "answer": "A) Posterior superior alveolar nerve supplies maxillary molars generally except often mesiobuccal root of first molar variants",
+      "explanation": "Branches from maxillary nerve to posterior maxilla. Therefore, the most accurate choice is: Posterior superior alveolar nerve supplies maxillary molars generally except often mesiobuccal root of first molar variants. prostate-specific antigen block anesthesia.",
+      "choice_explanations": {
+        "A": "Branches from maxillary nerve to posterior maxilla. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "prostate-specific antigen block anesthesia. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:21",
+      "question": "A 26-year-old woman returns with ongoing problems related to middle superior alveolar nerve. Which of the following is most accurate?",
+      "options": [
+        "A) distobuccal root is always longest",
+        "B) middle superior alveolar always present in 100% of people identically",
+        "C) prostate-specific antigen supplies all mandibular teeth",
+        "D) Middle superior alveolar nerve when present supplies maxillary premolars and often mesiobuccal root of first molar"
+      ],
+      "answer": "D) Middle superior alveolar nerve when present supplies maxillary premolars and often mesiobuccal root of first molar",
+      "explanation": "Variable presence explains some anesthesia patterns. Therefore, the most accurate choice is: Middle superior alveolar nerve when present supplies maxillary premolars and often mesiobuccal root of first molar. aspirin middle superior alveolar prostate-specific antigen partition maxillary teeth.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "aspirin middle superior alveolar prostate-specific antigen partition maxillary teeth. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Variable presence explains some anesthesia patterns. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:22",
+      "question": "Senior review is requested for aspirin nerve in a 33-year-old man. Which of the following is correct?",
+      "options": [
+        "A) Anterior superior alveolar nerve supplies maxillary incisors and canines",
+        "B) prostate-specific antigen supplies all mandibular teeth",
+        "C) aspirin supplies mandibular molars",
+        "D) inferior alveolar nerve supplies maxillary teeth primarily"
+      ],
+      "answer": "A) Anterior superior alveolar nerve supplies maxillary incisors and canines",
+      "explanation": "Branches in infraorbital complex to anterior teeth. Therefore, the most accurate choice is: Anterior superior alveolar nerve supplies maxillary incisors and canines. Infiltration and infraorbital anesthesia relevance.",
+      "choice_explanations": {
+        "A": "Branches in infraorbital complex to anterior teeth. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Infiltration and infraorbital anesthesia relevance. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:23",
+      "question": "Which statement about greater palatine nerve in a 37-year-old man is most accurate?",
+      "options": [
+        "A) Greater palatine supplies mandibular lingual gingiva primarily",
+        "B) greater palatine foramen is at the mandibular lingula",
+        "C) Rugae are mandibular only",
+        "D) Greater palatine nerve supplies posterior hard palate mucosa"
+      ],
+      "answer": "D) Greater palatine nerve supplies posterior hard palate mucosa",
+      "explanation": "Exits greater palatine foramen toward palatal tissues. Therefore, the most accurate choice is: Greater palatine nerve supplies posterior hard palate mucosa. Greater palatine block.",
+      "choice_explanations": {
+        "A": "Greater palatine block. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Exits greater palatine foramen toward palatal tissues. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:24",
+      "question": "A 52-year-old woman has a complex presentation of nasopalatine nerve. Which of the following is most accurate?",
+      "options": [
+        "A) Incisive foramen is mental foramen",
+        "B) aspirin supplies mandibular molars",
+        "C) Nasopalatine nerve supplies anterior hard palate via the incisive canal",
+        "D) Nasopalatine supplies all maxillary molars only"
+      ],
+      "answer": "C) Nasopalatine nerve supplies anterior hard palate via the incisive canal",
+      "explanation": "Passes through incisive foramen behind central incisors. Therefore, the most accurate choice is: Nasopalatine nerve supplies anterior hard palate via the incisive canal. Nasopalatine block for anterior palate.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Passes through incisive foramen behind central incisors. This matches the correct interpretation.",
+        "D": "Nasopalatine block for anterior palate. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:25",
+      "question": "Small differences in wording about infraorbital foramen matter. Which of the following is correct?",
+      "options": [
+        "A) Infraorbital foramen is the mandibular foramen",
+        "B) Infraorbital foramen below the orbit transmits infraorbital nerve related to aspirin anesthesia approaches",
+        "C) aspirin supplies mandibular molars",
+        "D) Infraorbital canal is the mandibular canal"
+      ],
+      "answer": "B) Infraorbital foramen below the orbit transmits infraorbital nerve related to aspirin anesthesia approaches",
+      "explanation": "Maxillary midface landmark under pupil line roughly. Therefore, the most accurate choice is: Infraorbital foramen below the orbit transmits infraorbital nerve related to aspirin anesthesia approaches. Infraorbital block.",
+      "choice_explanations": {
+        "A": "Infraorbital block. It is less consistent than the correct choice.",
+        "B": "Maxillary midface landmark under pupil line roughly. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:26",
+      "question": "A detailed evaluation for incisive foramen is underway in a 24-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) Nasopalatine supplies all maxillary molars only",
+        "B) Incisive foramen is mental foramen",
+        "C) Incisive foramen behind maxillary centrals transmits nasopalatine nerves and vessels",
+        "D) Mental foramen is on the hard palate midline"
+      ],
+      "answer": "C) Incisive foramen behind maxillary centrals transmits nasopalatine nerves and vessels",
+      "explanation": "Midline anterior palatal landmark. Therefore, the most accurate choice is: Incisive foramen behind maxillary centrals transmits nasopalatine nerves and vessels. Radiolucency can mimic pathology.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Radiolucency can mimic pathology. It is less consistent than the correct choice.",
+        "C": "Midline anterior palatal landmark. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:27",
+      "question": "A 61-year-old man has findings that make greater palatine foramen hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) greater palatine foramen is at the mandibular lingula",
+        "B) Mental foramen is on the hard palate midline",
+        "C) Greater palatine foramen typically opposite maxillary second or third molar area medially on palate",
+        "D) Greater palatine supplies mandibular lingual gingiva primarily"
+      ],
+      "answer": "C) Greater palatine foramen typically opposite maxillary second or third molar area medially on palate",
+      "explanation": "Landmark for greater palatine block. Therefore, the most accurate choice is: Greater palatine foramen typically opposite maxillary second or third molar area medially on palate. Posterior palate.",
+      "choice_explanations": {
+        "A": "Posterior palate. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Landmark for greater palatine block. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:28",
+      "question": "In a 30-year-old woman, distinguishing maxillary tuberosity from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) prostate-specific antigen supplies all mandibular teeth",
+        "B) Pad is the maxillary incisive papilla",
+        "C) Maxillary tuberosity is the posterior rounded prominence of alveolar process behind last molar",
+        "D) Tuberosity is the mandibular retromolar pad only by identity"
+      ],
+      "answer": "C) Maxillary tuberosity is the posterior rounded prominence of alveolar process behind last molar",
+      "explanation": "Bone and soft tissue landmarked in prosthodontics and prostate-specific antigen anatomy. Therefore, the most accurate choice is: Maxillary tuberosity is the posterior rounded prominence of alveolar process behind last molar. Fracture risk with upper molar extractions.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Bone and soft tissue landmarked in prosthodontics and prostate-specific antigen anatomy. This matches the correct interpretation.",
+        "D": "Fracture risk with upper molar extractions. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dental_anatomy:extreme:29",
+      "question": "A 24-year-old woman returns with ongoing problems related to hamular process. Which of the following is most accurate?",
+      "options": [
+        "A) Medial pterygoid only opens the mouth as primary action",
+        "B) Hamulus is a pulp horn",
+        "C) Hamulus of medial pterygoid plate is a landmark near the hamular notch for dentures",
+        "D) Lateral pterygoid only elevates like masseter as primary action"
+      ],
+      "answer": "C) Hamulus of medial pterygoid plate is a landmark near the hamular notch for dentures",
+      "explanation": "Pterygoid hamulus relates to tensor veli palatini tendon. Therefore, the most accurate choice is: Hamulus of medial pterygoid plate is a landmark near the hamular notch for dentures. Posterior maxillary denture border.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Posterior maxillary denture border. It is less consistent than the correct choice.",
+        "C": "Pterygoid hamulus relates to tensor veli palatini tendon. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ]
+}
