@@ -31,7 +31,7 @@ logging.basicConfig(
         logging.FileHandler(Path(__file__).resolve().parent / "bot.log"),
     ],
 )
-log = logging.getLogger("charanas-bot")
+log = logging.getLogger("charanas-nursing-bot")
 
 from content import (
     DIFFICULTIES,
@@ -77,9 +77,7 @@ from quiz_session import (
 
 load_dotenv(Path(__file__).resolve().parent / ".env")
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-if not BOT_TOKEN:
-    raise SystemExit("BOT_TOKEN is missing. Copy .env.example to .env and set BOT_TOKEN.")
+BOT_TOKEN = os.getenv("NURSING_BOT_TOKEN") or os.getenv("BOT_TOKEN")
 
 ROOT = Path(__file__).resolve().parent
 USAGE_STORE = DailyUsageStore(ROOT / "data" / "daily_mcq_usage.json")
@@ -871,7 +869,7 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
 
 
 async def ping(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await safe_reply(update, "✅ CharaNas Medicine is online. Send /start to open the specialty menu.")
+    await safe_reply(update, "✅ CharaNas Nursing is online. Send /start to open the specialty menu.")
 
 
 async def on_error(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -905,8 +903,8 @@ def main() -> None:
     app.add_handler(CallbackQueryHandler(on_callback))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, on_text))
     app.add_error_handler(on_error)
-    log.info("CharaNas Medicine bot starting polling…")
-    print("CharaNas Medicine bot running (specialties + difficulty)…")
+    log.info("CharaNas Nursing bot starting polling…")
+    print("CharaNas Nursing bot running (specialties + difficulty)…")
     app.run_polling(
         drop_pending_updates=False,
         allowed_updates=Update.ALL_TYPES,

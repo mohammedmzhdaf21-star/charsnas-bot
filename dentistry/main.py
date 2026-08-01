@@ -31,7 +31,7 @@ logging.basicConfig(
         logging.FileHandler(Path(__file__).resolve().parent / "bot.log"),
     ],
 )
-log = logging.getLogger("charanas-bot")
+log = logging.getLogger("charanas-dentistry-bot")
 
 from content import (
     DIFFICULTIES,
@@ -39,7 +39,11 @@ from content import (
     LABEL_TO_DIFFICULTY,
     SPECIALTIES,
     SPECIALTY_ORDER,
+    STAGE_ORDER,
+    STAGES,
     correct_letter,
+    curriculum_menu_text,
+    curriculum_stage,
     difficulty_menu_text,
     feature_menu_text,
     format_book_sources,
@@ -49,10 +53,13 @@ from content import (
     format_question_result,
     present_question,
     label_to_key,
+    label_to_stage,
     option_letter,
     pick_case,
     pick_question,
     specialty_label,
+    stage_label,
+    stage_menu_text,
     specialty_menu_text,
     reload_department_content,
 )
@@ -77,9 +84,7 @@ from quiz_session import (
 
 load_dotenv(Path(__file__).resolve().parent / ".env")
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-if not BOT_TOKEN:
-    raise SystemExit("BOT_TOKEN is missing. Copy .env.example to .env and set BOT_TOKEN.")
+BOT_TOKEN = os.getenv("DENTISTRY_BOT_TOKEN") or os.getenv("BOT_TOKEN")
 
 ROOT = Path(__file__).resolve().parent
 USAGE_STORE = DailyUsageStore(ROOT / "data" / "daily_mcq_usage.json")
@@ -92,33 +97,36 @@ def refresh_content() -> None:
     reload_department_content(SPECIALTIES, BANKS_DIR, CUSTOM_CONTENT_DIR)
 
 BTN_MCQ = "Short MCQ"
-BTN_CASE = "Case-based Question"
 BTN_PDF = "PDF files"
 BTN_BOOKS = "Book source"
-BTN_BACK_SPECIALTY = "Change specialty"
+BTN_BACK_STAGE = "Change stage"
+BTN_BACK_CURRICULUM = "Change curriculum"
 BTN_BACK_FEATURES = "Back to features"
+# Legacy aliases still recognized in text
+BTN_BACK_SPECIALTY = BTN_BACK_CURRICULUM
 
 FEATURE_LABELS = {
     BTN_MCQ: "question",
-    BTN_CASE: "case",
     BTN_PDF: "pdf",
     BTN_BOOKS: "books",
-    BTN_BACK_SPECIALTY: "back_specialty",
+    BTN_BACK_STAGE: "back_stage",
+    BTN_BACK_CURRICULUM: "back_curriculum",
     BTN_BACK_FEATURES: "back_features",
+    "Change specialty": "back_curriculum",
 }
 
 INTENT_PATTERNS = {
     "question": [r"\bshort\s+mcq\b", r"\bmcq\b"],
-    "case": [r"\bcase[-\s]?based\b", r"\bcase\s+questions?\b"],
     "pdf": [r"\bpdf\b", r"\bpdf\s+files?\b"],
     "books": [r"\bbook\s+sources?\b", r"\btextbooks?\b"],
-    "back_specialty": [r"\bchange\s+specialty\b"],
+    "back_stage": [r"\bchange\s+stage\b"],
+    "back_curriculum": [r"\bchange\s+curriculum\b", r"\bchange\s+specialty\b"],
     "back_features": [r"\bback\s+to\s+features\b", r"^back$"],
 }
 
 
-def specialty_keyboard() -> ReplyKeyboardMarkup:
-    labels = [SPECIALTIES[k]["label"] for k in SPECIALTY_ORDER]
+def stage_keyboard() -> ReplyKeyboardMarkup:
+    labels = [STAGES[k]["label"] for k in STAGE_ORDER]
     rows: list[list[KeyboardButton]] = []
     row: list[KeyboardButton] = []
     for label in labels:
@@ -131,12 +139,31 @@ def specialty_keyboard() -> ReplyKeyboardMarkup:
     return ReplyKeyboardMarkup(rows, resize_keyboard=True, is_persistent=True)
 
 
+def curriculum_keyboard(stage_key: str) -> ReplyKeyboardMarkup:
+    rows: list[list[KeyboardButton]] = []
+    row: list[KeyboardButton] = []
+    for _key, label in STAGES[stage_key]["curricula"]:
+        row.append(KeyboardButton(label))
+        if len(row) == 1:
+            rows.append(row)
+            row = []
+    if row:
+        rows.append(row)
+    rows.append([KeyboardButton(BTN_BACK_STAGE)])
+    return ReplyKeyboardMarkup(rows, resize_keyboard=True, is_persistent=True)
+
+
+def specialty_keyboard() -> ReplyKeyboardMarkup:
+    """Compatibility alias — stage menu is the top level now."""
+    return stage_keyboard()
+
+
 def feature_keyboard() -> ReplyKeyboardMarkup:
     return ReplyKeyboardMarkup(
         [
-            [KeyboardButton(BTN_MCQ), KeyboardButton(BTN_CASE)],
+            [KeyboardButton(BTN_MCQ)],
             [KeyboardButton(BTN_PDF), KeyboardButton(BTN_BOOKS)],
-            [KeyboardButton(BTN_BACK_SPECIALTY)],
+            [KeyboardButton(BTN_BACK_CURRICULUM), KeyboardButton(BTN_BACK_STAGE)],
         ],
         resize_keyboard=True,
         is_persistent=True,
@@ -148,7 +175,7 @@ def difficulty_keyboard() -> ReplyKeyboardMarkup:
         [
             [KeyboardButton("Easy"), KeyboardButton("Medium")],
             [KeyboardButton("Hard"), KeyboardButton("Extreme")],
-            [KeyboardButton(BTN_BACK_FEATURES), KeyboardButton(BTN_BACK_SPECIALTY)],
+            [KeyboardButton(BTN_BACK_FEATURES), KeyboardButton(BTN_BACK_CURRICULUM)],
         ],
         resize_keyboard=True,
         is_persistent=True,
@@ -167,7 +194,7 @@ def count_keyboard(remaining: int) -> ReplyKeyboardMarkup:
             row = []
     if row:
         rows.append(row)
-    rows.append([KeyboardButton(BTN_BACK_FEATURES), KeyboardButton(BTN_BACK_SPECIALTY)])
+    rows.append([KeyboardButton(BTN_BACK_FEATURES), KeyboardButton(BTN_BACK_CURRICULUM)])
     return ReplyKeyboardMarkup(rows, resize_keyboard=True, is_persistent=True)
 
 
@@ -177,7 +204,7 @@ def level_keyboard() -> ReplyKeyboardMarkup:
             [KeyboardButton("Level 1"), KeyboardButton("Level 2")],
             [KeyboardButton("Level 3"), KeyboardButton("Level 4")],
             [KeyboardButton("Level 5")],
-            [KeyboardButton(BTN_BACK_FEATURES), KeyboardButton(BTN_BACK_SPECIALTY)],
+            [KeyboardButton(BTN_BACK_FEATURES), KeyboardButton(BTN_BACK_CURRICULUM)],
         ],
         resize_keyboard=True,
         is_persistent=True,
@@ -191,8 +218,14 @@ def clear_mcq_session(context: ContextTypes.DEFAULT_TYPE) -> None:
 
 
 def current_specialty(context: ContextTypes.DEFAULT_TYPE) -> str | None:
+    """Current curriculum key (legacy name kept for quiz helpers)."""
     key = context.user_data.get("specialty")
     return key if key in SPECIALTIES else None
+
+
+def current_stage(context: ContextTypes.DEFAULT_TYPE) -> str | None:
+    key = context.user_data.get("stage")
+    return key if key in STAGES else None
 
 
 def remaining_map(context: ContextTypes.DEFAULT_TYPE, field: str) -> dict:
@@ -283,16 +316,40 @@ async def safe_edit(query, text: str, parse_mode: str | None = "Markdown") -> No
     await edit_or_send_full(query, text)
 
 
-async def show_specialty_menu(update: Update, context: ContextTypes.DEFAULT_TYPE, text: str | None = None) -> None:
+async def show_stage_menu(update: Update, context: ContextTypes.DEFAULT_TYPE, text: str | None = None) -> None:
+    context.user_data["stage"] = None
     context.user_data["specialty"] = None
     context.user_data["quiz_mode"] = None
     context.user_data["difficulty"] = None
     clear_mcq_session(context)
-    await safe_reply(update, text or specialty_menu_text(), reply_markup=specialty_keyboard())
+    await safe_reply(update, text or stage_menu_text(), reply_markup=stage_keyboard())
+
+
+async def show_specialty_menu(update: Update, context: ContextTypes.DEFAULT_TYPE, text: str | None = None) -> None:
+    """Compatibility wrapper — top menu is stage selection."""
+    await show_stage_menu(update, context, text)
+
+
+async def show_curriculum_menu(
+    update: Update, context: ContextTypes.DEFAULT_TYPE, stage_key: str, text: str | None = None
+) -> None:
+    context.user_data["stage"] = stage_key
+    context.user_data["specialty"] = None
+    context.user_data["quiz_mode"] = None
+    context.user_data["difficulty"] = None
+    clear_mcq_session(context)
+    await safe_reply(
+        update,
+        text or curriculum_menu_text(stage_key),
+        reply_markup=curriculum_keyboard(stage_key),
+    )
 
 
 async def show_feature_menu(update: Update, context: ContextTypes.DEFAULT_TYPE, specialty_key: str) -> None:
     context.user_data["specialty"] = specialty_key
+    stage_key = curriculum_stage(specialty_key)
+    if stage_key:
+        context.user_data["stage"] = stage_key
     context.user_data["quiz_mode"] = None
     context.user_data["difficulty"] = None
     clear_mcq_session(context)
@@ -416,7 +473,13 @@ async def require_specialty(update: Update, context: ContextTypes.DEFAULT_TYPE) 
     key = current_specialty(context)
     if key:
         return key
-    await show_specialty_menu(update, context, "Please choose a *specialty* first.")
+    stage_key = current_stage(context)
+    if stage_key:
+        await show_curriculum_menu(
+            update, context, stage_key, "Please choose a *curriculum* course first."
+        )
+    else:
+        await show_stage_menu(update, context, "Please choose a *stage level* first.")
     return None
 
 
@@ -604,18 +667,27 @@ async def send_pdfs(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     path = pdf_for_specialty(specialty_key, PDF_DIR)
     label = specialty_label(specialty_key)
     extras = custom_pdf_paths(PDF_DIR, specialty_key)
+    if path is None and not extras:
+        await safe_reply(
+            update,
+            f"📄 PDF notes for *{label}* are not uploaded yet.\n"
+            "Use the Question Input bot to add PDFs, or check back later.",
+            reply_markup=feature_keyboard(),
+        )
+        return
     await safe_reply(
         update,
         f"📄 Sending *{label}* PDF study notes…"
         + (f" (+{len(extras)} custom)" if extras else ""),
         reply_markup=feature_keyboard(),
     )
-    with path.open("rb") as fh:
-        await update.message.reply_document(
-            document=fh,
-            filename=path.name,
-            caption=f"UG Medicine — {label}",
-        )
+    if path is not None:
+        with path.open("rb") as fh:
+            await update.message.reply_document(
+                document=fh,
+                filename=path.name,
+                caption=f"UG Dentistry — {label}",
+            )
     for extra in extras:
         with extra.open("rb") as fh:
             await update.message.reply_document(
@@ -629,29 +701,46 @@ async def dispatch_feature(
     update: Update, context: ContextTypes.DEFAULT_TYPE, intent: str
 ) -> None:
     specialty_key = current_specialty(context)
+    stage_key = current_stage(context)
 
-    if intent == "back_specialty":
-        await show_specialty_menu(update, context)
+    if intent == "back_stage":
+        await show_stage_menu(update, context)
+        return
+    if intent in {"back_curriculum", "back_specialty"}:
+        if stage_key:
+            await show_curriculum_menu(update, context, stage_key)
+        else:
+            await show_stage_menu(update, context)
         return
     if intent == "back_features":
         if specialty_key:
             await show_feature_menu(update, context, specialty_key)
+        elif stage_key:
+            await show_curriculum_menu(update, context, stage_key)
         else:
-            await show_specialty_menu(update, context)
+            await show_stage_menu(update, context)
         return
 
     if intent == "question":
         if not specialty_key:
-            await show_specialty_menu(update, context, "Please choose a *specialty* first.")
+            if stage_key:
+                await show_curriculum_menu(
+                    update, context, stage_key, "Please choose a *curriculum* first."
+                )
+            else:
+                await show_stage_menu(update, context, "Please choose a *stage level* first.")
+            return
+        # Empty bank guard
+        total, _unseen = bank_stats(update.effective_user.id, specialty_key) if update.effective_user else (0, 0)
+        if total <= 0:
+            await safe_reply(
+                update,
+                f"Short MCQs for *{specialty_label(specialty_key)}* are not added yet.\n"
+                "Use the Question Input bot to upload questions for this curriculum.",
+                reply_markup=feature_keyboard(),
+            )
             return
         await show_count_menu(update, context, specialty_key)
-        return
-
-    if intent == "case":
-        if not specialty_key:
-            await show_specialty_menu(update, context, "Please choose a *specialty* first.")
-            return
-        await show_difficulty_menu(update, context, specialty_key, intent)
         return
 
     if intent == "pdf":
@@ -661,23 +750,43 @@ async def dispatch_feature(
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await show_specialty_menu(update, context)
+    await show_stage_menu(update, context)
 
 
 async def help_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     if current_specialty(context):
         await show_feature_menu(update, context, current_specialty(context))
+    elif current_stage(context):
+        await show_curriculum_menu(update, context, current_stage(context))
     else:
-        await show_specialty_menu(update, context)
+        await show_stage_menu(update, context)
 
 
 async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     text = (update.message.text or "").strip()
 
-    # Specialty selection
-    specialty_key = label_to_key(text)
-    if specialty_key:
-        await show_feature_menu(update, context, specialty_key)
+    # Stage selection (top level)
+    stage_key = label_to_stage(text)
+    if stage_key:
+        await show_curriculum_menu(update, context, stage_key)
+        return
+
+    # Curriculum selection
+    curriculum_key = label_to_key(text)
+    if curriculum_key:
+        # If user is inside a stage, only accept curricula from that stage
+        stage_now = current_stage(context)
+        cur_stage = curriculum_stage(curriculum_key)
+        if stage_now and cur_stage and stage_now != cur_stage:
+            await show_curriculum_menu(
+                update,
+                context,
+                stage_now,
+                f"That course is under *{stage_label(cur_stage)}*. "
+                f"Stay in *{stage_label(stage_now)}* or tap *Change stage*.",
+            )
+            return
+        await show_feature_menu(update, context, curriculum_key)
         return
 
     intent = detect_feature_intent(text)
@@ -746,29 +855,15 @@ async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         await start_mcq_session(update, context, spec, count, level)
         return
 
-    # Case difficulty selection (Short MCQ no longer uses fixed difficulty alone)
+    # Difficulty buttons only redirect into Short MCQ flow if somehow shown
     if text in LABEL_TO_DIFFICULTY:
-        difficulty = LABEL_TO_DIFFICULTY[text]
-        mode = context.user_data.get("quiz_mode")
-        if mode == "case":
-            await send_case(update, context, difficulty)
-            return
-        if mode == "question":
-            # Redirect into new Short MCQ flow
-            spec = current_specialty(context)
-            if spec:
-                await show_count_menu(update, context, spec)
-            else:
-                await show_specialty_menu(update, context)
-            return
-        if current_specialty(context):
-            await safe_reply(
-                update,
-                "First choose *Short MCQ* (count + level) or *Case-based Question* (difficulty).",
-                reply_markup=feature_keyboard(),
-            )
+        spec = current_specialty(context)
+        if spec:
+            await show_count_menu(update, context, spec)
+        elif current_stage(context):
+            await show_curriculum_menu(update, context, current_stage(context))
         else:
-            await show_specialty_menu(update, context)
+            await show_stage_menu(update, context)
         return
 
     if current_specialty(context):
@@ -794,23 +889,24 @@ async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
                 "Answer the current question with the *A / B / C / D* buttons.",
                 reply_markup=feature_keyboard(),
             )
-        elif mode == "case":
-            await safe_reply(
-                update,
-                "Please choose a difficulty button, or *Back to features*.",
-                reply_markup=difficulty_keyboard(),
-            )
         else:
             await safe_reply(
                 update,
-                "Please choose a feature from the buttons below, or tap *Change specialty*.",
+                "Please choose a feature from the buttons below, or tap *Change curriculum*.",
                 reply_markup=feature_keyboard(),
             )
-    else:
-        await show_specialty_menu(
+    elif current_stage(context):
+        await show_curriculum_menu(
             update,
             context,
-            "Please choose a *specialty* from the buttons below.",
+            current_stage(context),
+            "Please choose a *curriculum* course from the buttons below.",
+        )
+    else:
+        await show_stage_menu(
+            update,
+            context,
+            "Please choose a *stage level* from the buttons below.",
         )
 
 
@@ -871,7 +967,7 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
 
 
 async def ping(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await safe_reply(update, "✅ CharaNas Medicine is online. Send /start to open the specialty menu.")
+    await safe_reply(update, "✅ CharaNas Dentistry is online. Send /start to open the stage menu.")
 
 
 async def on_error(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -905,8 +1001,8 @@ def main() -> None:
     app.add_handler(CallbackQueryHandler(on_callback))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, on_text))
     app.add_error_handler(on_error)
-    log.info("CharaNas Medicine bot starting polling…")
-    print("CharaNas Medicine bot running (specialties + difficulty)…")
+    log.info("CharaNas Dentistry bot starting polling…")
+    print("CharaNas Dentistry bot running (stage → curriculum → features)…")
     app.run_polling(
         drop_pending_updates=False,
         allowed_updates=Update.ALL_TYPES,

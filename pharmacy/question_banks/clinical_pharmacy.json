@@ -1,0 +1,2170 @@
+{
+  "easy": [
+    {
+      "id": "clinical_pharmacy:easy:0",
+      "question": "Which of the following is true of warfarin international normalized ratio atrial fibrillation?",
+      "options": [
+        "A) Most nonvalvular atrial fibrillation targets international normalized ratio about 2–3 on warfarin",
+        "B) Routine target international normalized ratio 4.5–6 for typical nonvalvular atrial fibrillation",
+        "C) High bleed risk always means withhold anticoagulation even after massive prior stroke without discussion",
+        "D) DOACs require weekly international normalized ratio checks identical to warfarin"
+      ],
+      "answer": "A) Most nonvalvular atrial fibrillation targets international normalized ratio about 2–3 on warfarin",
+      "explanation": "Moderate-intensity anticoagulation balances stroke prevention against bleeding. Therefore, the most accurate choice is: Most nonvalvular atrial fibrillation targets international normalized ratio about 2–3 on warfarin. international normalized ratio 4.5–6 markedly increases bleed risk without routine indication.",
+      "choice_explanations": {
+        "A": "Moderate-intensity anticoagulation balances stroke prevention against bleeding. This matches the correct interpretation.",
+        "B": "international normalized ratio 4.5–6 markedly increases bleed risk without routine indication. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:1",
+      "question": "Which finding is expected in warfarin amiodarone?",
+      "options": [
+        "A) No antibiotic ever affects warfarin international normalized ratio",
+        "B) Amiodarone induces warfarin metabolism so international normalized ratio always falls needing immediate dose increases",
+        "C) Amiodarone inhibits warfarin metabolism; reduce warfarin and monitor international normalized ratio closely",
+        "D) Always give full 4F-prothrombin complex concentrate for any international normalized ratio of 3.5 without bleeding"
+      ],
+      "answer": "C) Amiodarone inhibits warfarin metabolism; reduce warfarin and monitor international normalized ratio closely",
+      "explanation": "cytochrome P450 inhibition by amiodarone raises warfarin effect — a high-alert pair. Therefore, the most accurate choice is: Amiodarone inhibits warfarin metabolism; reduce warfarin and monitor international normalized ratio closely. Induction lowering international normalized ratio is the opposite interaction pattern.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Induction lowering international normalized ratio is the opposite interaction pattern. It is less consistent than the correct choice.",
+        "C": "cytochrome P450 inhibition by amiodarone raises warfarin effect — a high-alert pair. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:2",
+      "question": "Which of the following statements about direct oral anticoagulant counseling is correct?",
+      "options": [
+        "A) DOACs require weekly international normalized ratio checks identical to warfarin",
+        "B) Always give full 4F-prothrombin complex concentrate for any international normalized ratio of 3.5 without bleeding",
+        "C) DOACs avoid routine international normalized ratio titration and vitamin K diet issues but demand strict adherence",
+        "D) All DOACs are used at identical full doses regardless of renal function"
+      ],
+      "answer": "C) DOACs avoid routine international normalized ratio titration and vitamin K diet issues but demand strict adherence",
+      "explanation": "Short offset and fixed dosing change monitoring and missed-dose counseling. Therefore, the most accurate choice is: DOACs avoid routine international normalized ratio titration and vitamin K diet issues but demand strict adherence. DOACs are not INR-titrated like warfarin.",
+      "choice_explanations": {
+        "A": "DOACs are not INR-titrated like warfarin. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Short offset and fixed dosing change monitoring and missed-dose counseling. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:3",
+      "question": "In unfractionated heparin monitoring, which of the following is correct?",
+      "options": [
+        "A) international normalized ratio is the standard monitor for low-molecular-weight heparin in pregnancy",
+        "B) low-molecular-weight heparin always requires international normalized ratio monitoring every 6 hours",
+        "C) Severe chronic kidney disease always requires higher low-molecular-weight heparin doses for the same anti-Xa effect",
+        "D) unfractionated heparin infusions use activated partial thromboplastin time or anti-Xa; low-molecular-weight heparin is usually weight-based without routine levels"
+      ],
+      "answer": "D) unfractionated heparin infusions use activated partial thromboplastin time or anti-Xa; low-molecular-weight heparin is usually weight-based without routine levels",
+      "explanation": "Monitoring strategy depends on product and clinical context. Therefore, the most accurate choice is: unfractionated heparin infusions use activated partial thromboplastin time or anti-Xa; low-molecular-weight heparin is usually weight-based without routine levels. international normalized ratio monitors VKAs, not standard low-molecular-weight heparin therapy.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "international normalized ratio monitors VKAs, not standard low-molecular-weight heparin therapy. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Monitoring strategy depends on product and clinical context. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:4",
+      "question": "Which of the following best describes protamine?",
+      "options": [
+        "A) Protamine reverses low-molecular-weight heparin more completely than unfractionated heparin always",
+        "B) Protamine reverses unfractionated heparin; low-molecular-weight heparin reversal is incomplete; watch anaphylactoid reactions",
+        "C) Protamine is first-line reversal for all DOACs equally",
+        "D) Reverses all factor Xa inhibitor DOACs equally"
+      ],
+      "answer": "B) Protamine reverses unfractionated heparin; low-molecular-weight heparin reversal is incomplete; watch anaphylactoid reactions",
+      "explanation": "Polycationic protamine binds anionic heparin. Therefore, the most accurate choice is: Protamine reverses unfractionated heparin; low-molecular-weight heparin reversal is incomplete; watch anaphylactoid reactions. direct oral anticoagulant reversal uses different specific strategies.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Polycationic protamine binds anionic heparin. This matches the correct interpretation.",
+        "C": "direct oral anticoagulant reversal uses different specific strategies. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:5",
+      "question": "Select the correct statement about heparin-induced thrombocytopenia management.",
+      "options": [
+        "A) Increase antipsychotic dose to treat neuroleptic malignant syndrome rigidity",
+        "B) Always stop all antiplatelets 2 months before any dental procedure without exception",
+        "C) Stop all heparin and anticoagulate with a non-heparin agent when heparin-induced thrombocytopenia is likely",
+        "D) Increase unfractionated heparin dose to overcome heparin-induced thrombocytopenia antibodies"
+      ],
+      "answer": "C) Stop all heparin and anticoagulate with a non-heparin agent when heparin-induced thrombocytopenia is likely",
+      "explanation": "Immune heparin-induced thrombocytopenia paradoxically risks thrombosis despite thrombocytopenia. Therefore, the most accurate choice is: Stop all heparin and anticoagulate with a non-heparin agent when heparin-induced thrombocytopenia is likely. More heparin is dangerous in heparin-induced thrombocytopenia.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Immune heparin-induced thrombocytopenia paradoxically risks thrombosis despite thrombocytopenia. This matches the correct interpretation.",
+        "D": "More heparin is dangerous in heparin-induced thrombocytopenia. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:6",
+      "question": "Which mechanism accounts for vancomycin levels?",
+      "options": [
+        "A) Routine target international normalized ratio 4.5–6 for typical nonvalvular atrial fibrillation",
+        "B) Routine trough targets of 40–50 milligrams/L for simple cellulitis",
+        "C) Serious methicillin-resistant Staphylococcus aureus infections use AUC-guided or historically higher trough targets with nephrotoxicity vigilance",
+        "D) Low albumin makes total levels always overestimate toxicity without free-level thought"
+      ],
+      "answer": "C) Serious methicillin-resistant Staphylococcus aureus infections use AUC-guided or historically higher trough targets with nephrotoxicity vigilance",
+      "explanation": "Excessive exposure raises nephrotoxicity risk; dosing is individualized. Therefore, the most accurate choice is: Serious methicillin-resistant Staphylococcus aureus infections use AUC-guided or historically higher trough targets with nephrotoxicity vigilance. Very high troughs are not routine safe targets.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Very high troughs are not routine safe targets. It is less consistent than the correct choice.",
+        "C": "Excessive exposure raises nephrotoxicity risk; dosing is individualized. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:7",
+      "question": "Which of the following applies to aminoglycoside extended interval?",
+      "options": [
+        "A) Beta-lactams are purely concentration-dependent with only once-daily Cmax goals like AGs",
+        "B) Aminoglycosides are purely time-dependent like beta-lactams needing only continuous infusion always",
+        "C) Extended-interval dosing leverages concentration-dependent killing and post-antibiotic effect",
+        "D) They are only time-dependent agents managed solely by continuous infusion always"
+      ],
+      "answer": "C) Extended-interval dosing leverages concentration-dependent killing and post-antibiotic effect",
+      "explanation": "Cmax/MIC-driven killing supports high-dose extended-interval strategies when appropriate. Therefore, the most accurate choice is: Extended-interval dosing leverages concentration-dependent killing and post-antibiotic effect. They are concentration-dependent, not classic time-dependent beta-lactams.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "They are concentration-dependent, not classic time-dependent beta-lactams. It is less consistent than the correct choice.",
+        "C": "Cmax/MIC-driven killing supports high-dose extended-interval strategies when appropriate. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:8",
+      "question": "Which of the following best defines renal dosing vanco anion gap?",
+      "options": [
+        "A) Severe chronic kidney disease always requires higher low-molecular-weight heparin doses for the same anti-Xa effect",
+        "B) Reduce dose or extend interval when glomerular filtration rate falls to avoid accumulation",
+        "C) Automatically increase doses as glomerular filtration rate falls to maintain effect",
+        "D) All DOACs are used at identical full doses regardless of renal function"
+      ],
+      "answer": "B) Reduce dose or extend interval when glomerular filtration rate falls to avoid accumulation",
+      "explanation": "Primarily renal clearance makes kidney function central to safety. Therefore, the most accurate choice is: Reduce dose or extend interval when glomerular filtration rate falls to avoid accumulation. Lower glomerular filtration rate warrants less aggressive exposure, not automatic increases.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Primarily renal clearance makes kidney function central to safety. This matches the correct interpretation.",
+        "C": "Lower glomerular filtration rate warrants less aggressive exposure, not automatic increases. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:9",
+      "question": "Which statement about digoxin toxicity risks is correct?",
+      "options": [
+        "A) Hypokalemia, hypomagnesemia, renal impairment, and interactions raise digoxin toxicity risk",
+        "B) Electrolytes never influence digoxin toxicity",
+        "C) Thiazides always lower lithium by increasing Li clearance",
+        "D) Statins never cause muscle toxicity"
+      ],
+      "answer": "A) Hypokalemia, hypomagnesemia, renal impairment, and interactions raise digoxin toxicity risk",
+      "explanation": "Na/K-ATPase interaction is modulated by potassium; clearance is renal. Therefore, the most accurate choice is: Hypokalemia, hypomagnesemia, renal impairment, and interactions raise digoxin toxicity risk. Low potassium potentiates toxicity risk.",
+      "choice_explanations": {
+        "A": "Na/K-ATPase interaction is modulated by potassium; clearance is renal. This matches the correct interpretation.",
+        "B": "Low potassium potentiates toxicity risk. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:10",
+      "question": "Which statement regarding phenytoin hypoalbuminemia is correct?",
+      "options": [
+        "A) Thiazides always lower lithium by increasing Li clearance",
+        "B) Low albumin makes total levels always overestimate toxicity without free-level thought",
+        "C) Macrolides shorten ventricular repolarization interval and prevent torsades always",
+        "D) Low albumin raises free phenytoin fraction; interpret totals with correction or free levels"
+      ],
+      "answer": "D) Low albumin raises free phenytoin fraction; interpret totals with correction or free levels",
+      "explanation": "Highly bound narrow therapeutic index drugs mislead when binding proteins fall. Therefore, the most accurate choice is: Low albumin raises free phenytoin fraction; interpret totals with correction or free levels. Totals may look therapeutic while free drug is high.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Totals may look therapeutic while free drug is high. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Highly bound narrow therapeutic index drugs mislead when binding proteins fall. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:11",
+      "question": "Which of the following correctly describes carbamazepine autoinduction clinic?",
+      "options": [
+        "A) valproic acid never affects ammonia concentrations",
+        "B) Thiazides always lower lithium by increasing Li clearance",
+        "C) Carbamazepine levels never change after a stable starting dose",
+        "D) Levels may fall over initial weeks as clearance rises; retitrate carefully"
+      ],
+      "answer": "D) Levels may fall over initial weeks as clearance rises; retitrate carefully",
+      "explanation": "Autoinduction complicates early versus maintenance dosing. Therefore, the most accurate choice is: Levels may fall over initial weeks as clearance rises; retitrate carefully. Clearance increases, so levels can decline without dose change.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Clearance increases, so levels can decline without dose change. It is less consistent than the correct choice.",
+        "D": "Autoinduction complicates early versus maintenance dosing. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:12",
+      "question": "Which of the following best describes valproate hyperammonemia?",
+      "options": [
+        "A) valproic acid can cause hyperammonemic encephalopathy even with seemingly therapeutic levels",
+        "B) Carbamazepine levels never change after a stable starting dose",
+        "C) Liver failure never affects anticoagulant choice or international normalized ratio interpretation",
+        "D) valproic acid never affects ammonia concentrations"
+      ],
+      "answer": "A) valproic acid can cause hyperammonemic encephalopathy even with seemingly therapeutic levels",
+      "explanation": "Urea-cycle interference is a known valproic acid adverse pathway. Therefore, the most accurate choice is: valproic acid can cause hyperammonemic encephalopathy even with seemingly therapeutic levels. Ammonia-related encephalopathy risk is real.",
+      "choice_explanations": {
+        "A": "Urea-cycle interference is a known valproic acid adverse pathway. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Ammonia-related encephalopathy risk is real. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:13",
+      "question": "Which of the following applies to lithium thiazide?",
+      "options": [
+        "A) Thiazides always lower lithium by increasing Li clearance",
+        "B) Electrolytes never influence digoxin toxicity",
+        "C) Thiazides can raise lithium levels via enhanced proximal reabsorption — toxicity risk",
+        "D) Low albumin makes total levels always overestimate toxicity without free-level thought"
+      ],
+      "answer": "C) Thiazides can raise lithium levels via enhanced proximal reabsorption — toxicity risk",
+      "explanation": "Volume depletion increases lithium reabsorption. Therefore, the most accurate choice is: Thiazides can raise lithium levels via enhanced proximal reabsorption — toxicity risk. Lithium levels usually rise, not fall, with thiazides.",
+      "choice_explanations": {
+        "A": "Lithium levels usually rise, not fall, with thiazides. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Volume depletion increases lithium reabsorption. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:14",
+      "question": "Which mechanism accounts for selective serotonin reuptake inhibitor monoamine oxidase inhibitor?",
+      "options": [
+        "A) Combining SSRIs with MAOIs risks severe serotonin syndrome; respect washouts",
+        "B) Linezolid has no serotonergic interaction potential",
+        "C) Add another monoamine oxidase inhibitor to overcome serotonin excess",
+        "D) SSRIs and MAOIs are routinely co-started for faster effect safely"
+      ],
+      "answer": "A) Combining SSRIs with MAOIs risks severe serotonin syndrome; respect washouts",
+      "explanation": "Excess serotonergic tone can be life-threatening. Therefore, the most accurate choice is: Combining SSRIs with MAOIs risks severe serotonin syndrome; respect washouts. Coadministration is a contraindicated pattern, not routine care.",
+      "choice_explanations": {
+        "A": "Excess serotonergic tone can be life-threatening. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Coadministration is a contraindicated pattern, not routine care. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:15",
+      "question": "Which of the following applies to serotonin syndrome?",
+      "options": [
+        "A) Add another monoamine oxidase inhibitor to overcome serotonin excess",
+        "B) Linezolid has no serotonergic interaction potential",
+        "C) Stop serotonergic agents, support ABCs, use benzodiazepines; consider cyproheptadine",
+        "D) Increase unfractionated heparin dose to overcome heparin-induced thrombocytopenia antibodies"
+      ],
+      "answer": "C) Stop serotonergic agents, support ABCs, use benzodiazepines; consider cyproheptadine",
+      "explanation": "Removing precipitants and controlling agitation/autonomics are priorities. Therefore, the most accurate choice is: Stop serotonergic agents, support ABCs, use benzodiazepines; consider cyproheptadine. Adding an monoamine oxidase inhibitor worsens serotonin toxicity.",
+      "choice_explanations": {
+        "A": "Adding an monoamine oxidase inhibitor worsens serotonin toxicity. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Removing precipitants and controlling agitation/autonomics are priorities. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:16",
+      "question": "Which of the following is true of neuroleptic malignant syndrome management?",
+      "options": [
+        "A) Automatically increase doses as glomerular filtration rate falls to maintain effect",
+        "B) Increase antipsychotic dose to treat neuroleptic malignant syndrome rigidity",
+        "C) Increase unfractionated heparin dose to overcome heparin-induced thrombocytopenia antibodies",
+        "D) Stop antipsychotics and provide supportive care; consider dantrolene/bromocriptine in severe cases"
+      ],
+      "answer": "D) Stop antipsychotics and provide supportive care; consider dantrolene/bromocriptine in severe cases",
+      "explanation": "Removing dopamine blockade and aggressive support are foundations. Therefore, the most accurate choice is: Stop antipsychotics and provide supportive care; consider dantrolene/bromocriptine in severe cases. More dopamine antagonist worsens neuroleptic malignant syndrome.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "More dopamine antagonist worsens neuroleptic malignant syndrome. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Removing dopamine blockade and aggressive support are foundations. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:17",
+      "question": "Which finding is expected in opioid rotation?",
+      "options": [
+        "A) Use exact 1:1 milligram equivalency without safety reduction ever",
+        "B) low-molecular-weight heparin always requires international normalized ratio monitoring every 6 hours",
+        "C) Opioid constipation always resolves by day three without prophylaxis",
+        "D) Incomplete cross-tolerance requires dose reduction when rotating opioids"
+      ],
+      "answer": "D) Incomplete cross-tolerance requires dose reduction when rotating opioids",
+      "explanation": "Equianalgesic tables are starting points; reduce for incomplete cross-tolerance. Therefore, the most accurate choice is: Incomplete cross-tolerance requires dose reduction when rotating opioids. Blind 1:1 conversions risk overdose.",
+      "choice_explanations": {
+        "A": "Blind 1:1 conversions risk overdose. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Equianalgesic tables are starting points; reduce for incomplete cross-tolerance. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:18",
+      "question": "Which of the following statements about patient-controlled analgesia safety is correct?",
+      "options": [
+        "A) Monitor sedation and respiration; discourage patient-controlled analgesia by proxy",
+        "B) Abruptly stop chronic steroids during sepsis to recover the adrenal axis",
+        "C) Metformin dosing ignores renal function and acute illness",
+        "D) Encourage family to press patient-controlled analgesia while the patient sleeps deeply"
+      ],
+      "answer": "A) Monitor sedation and respiration; discourage patient-controlled analgesia by proxy",
+      "explanation": "Proxy dosing during deep sedation raises overdose risk. Therefore, the most accurate choice is: Monitor sedation and respiration; discourage patient-controlled analgesia by proxy. patient-controlled analgesia by proxy is unsafe.",
+      "choice_explanations": {
+        "A": "Proxy dosing during deep sedation raises overdose risk. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "patient-controlled analgesia by proxy is unsafe. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:19",
+      "question": "In insulin stacking, which of the following is correct?",
+      "options": [
+        "A) Stacking rapid insulin always prevents hypoglycemia",
+        "B) Repeating rapid-acting insulin before the prior dose peaks can cause delayed hypoglycemia",
+        "C) Always give full 4F-prothrombin complex concentrate for any international normalized ratio of 3.5 without bleeding",
+        "D) Give intravenous insulin to treat hypoglycemia"
+      ],
+      "answer": "B) Repeating rapid-acting insulin before the prior dose peaks can cause delayed hypoglycemia",
+      "explanation": "Pharmacodynamic overlap of boluses is a common inpatient error. Therefore, the most accurate choice is: Repeating rapid-acting insulin before the prior dose peaks can cause delayed hypoglycemia. Stacking increases hypoglycemia risk.",
+      "choice_explanations": {
+        "A": "Stacking increases hypoglycemia risk. It is less consistent than the correct choice.",
+        "B": "Pharmacodynamic overlap of boluses is a common inpatient error. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:20",
+      "question": "Which of the following best describes hypoglycemia treatment?",
+      "options": [
+        "A) Stacking rapid insulin always prevents hypoglycemia",
+        "B) Give intravenous insulin to treat hypoglycemia",
+        "C) Conscious: oral glucose; unconscious: intravenous dextrose or glucagon if no intravenous access",
+        "D) Only oral vitamin K over three days for intracranial hemorrhage on warfarin"
+      ],
+      "answer": "C) Conscious: oral glucose; unconscious: intravenous dextrose or glucagon if no intravenous access",
+      "explanation": "Raise glucose rapidly by the safest available route. Therefore, the most accurate choice is: Conscious: oral glucose; unconscious: intravenous dextrose or glucagon if no intravenous access. Insulin worsens hypoglycemia.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Insulin worsens hypoglycemia. It is less consistent than the correct choice.",
+        "C": "Raise glucose rapidly by the safest available route. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:21",
+      "question": "Select the correct statement about diabetic ketoacidosis potassium rule.",
+      "options": [
+        "A) Hold insulin if potassium is critically low until potassium is replaced",
+        "B) Hand a leaflet only without checking understanding for warfarin or insulin",
+        "C) Start insulin immediately despite severe hypokalemia without repletion",
+        "D) Always give full 4F-prothrombin complex concentrate for any international normalized ratio of 3.5 without bleeding"
+      ],
+      "answer": "A) Hold insulin if potassium is critically low until potassium is replaced",
+      "explanation": "Insulin drives potassium intracellularly and can precipitate arrhythmia if K is already very low. Therefore, the most accurate choice is: Hold insulin if potassium is critically low until potassium is replaced. Potassium repletion takes precedence when K is dangerously low.",
+      "choice_explanations": {
+        "A": "Insulin drives potassium intracellularly and can precipitate arrhythmia if K is already very low. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Potassium repletion takes precedence when K is dangerously low. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:22",
+      "question": "Which mechanism accounts for hyperosmolar hyperglycemic state versus diabetic ketoacidosis?",
+      "options": [
+        "A) fresh frozen plasma is always faster and lower volume than prothrombin complex concentrate for urgent international normalized ratio reversal",
+        "B) hyperosmolar hyperglycemic state always shows large anion-gap ketoacidosis identical to diabetic ketoacidosis",
+        "C) Always stop all antiplatelets 2 months before any dental procedure without exception",
+        "D) hyperosmolar hyperglycemic state features profound hyperglycemia/hyperosmolarity with little ketoacidosis"
+      ],
+      "answer": "D) hyperosmolar hyperglycemic state features profound hyperglycemia/hyperosmolarity with little ketoacidosis",
+      "explanation": "Osmotic shifts and volume deficits dominate hyperosmolar hyperglycemic state management nuance. Therefore, the most accurate choice is: hyperosmolar hyperglycemic state features profound hyperglycemia/hyperosmolarity with little ketoacidosis. Marked ketosis defines diabetic ketoacidosis more than hyperosmolar hyperglycemic state.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Marked ketosis defines diabetic ketoacidosis more than hyperosmolar hyperglycemic state. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Osmotic shifts and volume deficits dominate hyperosmolar hyperglycemic state management nuance. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:23",
+      "question": "Which of the following applies to steroid stress dosing?",
+      "options": [
+        "A) Abruptly stop chronic steroids during sepsis to recover the adrenal axis",
+        "B) Any three-day steroid pack always requires an eight-week taper",
+        "C) Steroids never affect glucose concentrations",
+        "D) Patients with adrenal suppression need increased glucocorticoid coverage during major stress"
+      ],
+      "answer": "D) Patients with adrenal suppression need increased glucocorticoid coverage during major stress",
+      "explanation": "Suppressed HPA axis cannot meet physiologic cortisol demand in stress. Therefore, the most accurate choice is: Patients with adrenal suppression need increased glucocorticoid coverage during major stress. Stopping steroids during stress risks adrenal crisis.",
+      "choice_explanations": {
+        "A": "Stopping steroids during stress risks adrenal crisis. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Suppressed HPA axis cannot meet physiologic cortisol demand in stress. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:24",
+      "question": "Which of the following is true of proton pump inhibitor stewardship?",
+      "options": [
+        "A) unfractionated heparin strengthens bone with chronic use",
+        "B) dual antiplatelet therapy is identical lifelong high-intensity for every patient after any stent without reassessment",
+        "C) Continue PPIs lifelong in every patient without indication review",
+        "D) Use PPIs for valid indications and reassess long-term therapy risks and need"
+      ],
+      "answer": "D) Use PPIs for valid indications and reassess long-term therapy risks and need",
+      "explanation": "Infection, malabsorption, and interaction concerns motivate deprescribing when appropriate. Therefore, the most accurate choice is: Use PPIs for valid indications and reassess long-term therapy risks and need. Unreviewed indefinite use is not best practice.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Unreviewed indefinite use is not best practice. It is less consistent than the correct choice.",
+        "D": "Infection, malabsorption, and interaction concerns motivate deprescribing when appropriate. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:25",
+      "question": "Which finding is expected in clopidogrel omeprazole?",
+      "options": [
+        "A) Omeprazole/esomeprazole may reduce clopidogrel bioactivation via CYP2C19",
+        "B) All PPIs equally increase clopidogrel activation and lower stent thrombosis",
+        "C) Thiazides always lower lithium by increasing Li clearance",
+        "D) Automatically increase doses as glomerular filtration rate falls to maintain effect"
+      ],
+      "answer": "A) Omeprazole/esomeprazole may reduce clopidogrel bioactivation via CYP2C19",
+      "explanation": "Impaired prodrug activation is the mechanistic concern for select PPIs. Therefore, the most accurate choice is: Omeprazole/esomeprazole may reduce clopidogrel bioactivation via CYP2C19. The fear is reduced, not increased, activation.",
+      "choice_explanations": {
+        "A": "Impaired prodrug activation is the mechanistic concern for select PPIs. This matches the correct interpretation.",
+        "B": "The fear is reduced, not increased, activation. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:26",
+      "question": "Which of the following statements about statin myopathy risks is correct?",
+      "options": [
+        "A) Loop diuretics are the classic cause of syndrome of inappropriate antidiuretic hormone as antidiuretic hormone secretagogues",
+        "B) Statins never cause muscle toxicity",
+        "C) Electrolytes never influence digoxin toxicity",
+        "D) High dose, interacting inhibitors, hypothyroidism, and organ impairment raise myopathy risk"
+      ],
+      "answer": "D) High dose, interacting inhibitors, hypothyroidism, and organ impairment raise myopathy risk",
+      "explanation": "Drug interactions elevating statin exposure are classic precipitants. Therefore, the most accurate choice is: High dose, interacting inhibitors, hypothyroidism, and organ impairment raise myopathy risk. Strong cytochrome P450 inhibitors raise risk for sensitive statins.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Strong cytochrome P450 inhibitors raise risk for sensitive statins. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Drug interactions elevating statin exposure are classic precipitants. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:27",
+      "question": "In sick day reno drugs, which of the following is correct?",
+      "options": [
+        "A) The combination protects glomerular filtration rate in all elderly patients",
+        "B) Double angiotensin-converting enzyme inhibitor during gastroenteritis dehydration to protect kidneys",
+        "C) Metformin dosing ignores renal function and acute illness",
+        "D) Hold angiotensin-converting enzyme inhibitor/angiotensin receptor blocker/diuretic/sodium-glucose cotransporter 2/metformin in significant dehydrating illness per local rules"
+      ],
+      "answer": "D) Hold angiotensin-converting enzyme inhibitor/angiotensin receptor blocker/diuretic/sodium-glucose cotransporter 2/metformin in significant dehydrating illness per local rules",
+      "explanation": "acute kidney injury and metformin lactic acidosis risk rise when patients are volume depleted. Therefore, the most accurate choice is: Hold angiotensin-converting enzyme inhibitor/angiotensin receptor blocker/diuretic/sodium-glucose cotransporter 2/metformin in significant dehydrating illness per local rules. Increasing angiotensin-converting enzyme inhibitor while dry is harmful.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Increasing angiotensin-converting enzyme inhibitor while dry is harmful. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "acute kidney injury and metformin lactic acidosis risk rise when patients are volume depleted. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:28",
+      "question": "Which of the following best describes nonsteroidal anti-inflammatory drug in heart failure?",
+      "options": [
+        "A) intravenous diphenhydramine alone is first and only treatment for anaphylactic airway compromise",
+        "B) Anticholinergics improve cognition in dementia as first-line therapy",
+        "C) nonsteroidal anti-inflammatory drugs are first-line daily therapy in decompensated heart failure",
+        "D) nonsteroidal anti-inflammatory drugs promote sodium retention and can worsen heart failure and diuretic response"
+      ],
+      "answer": "D) nonsteroidal anti-inflammatory drugs promote sodium retention and can worsen heart failure and diuretic response",
+      "explanation": "Afferent arteriolar prostaglandin inhibition plus salt retention stress failing hearts. Therefore, the most accurate choice is: nonsteroidal anti-inflammatory drugs promote sodium retention and can worsen heart failure and diuretic response. nonsteroidal anti-inflammatory drugs are not heart-failure therapy.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "nonsteroidal anti-inflammatory drugs are not heart-failure therapy. It is less consistent than the correct choice.",
+        "D": "Afferent arteriolar prostaglandin inhibition plus salt retention stress failing hearts. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:easy:29",
+      "question": "Select the correct statement about triple whammy.",
+      "options": [
+        "A) angiotensin-converting enzyme inhibitor/angiotensin receptor blocker + diuretic + nonsteroidal anti-inflammatory drug combination markedly increases acute kidney injury risk",
+        "B) The combination protects glomerular filtration rate in all elderly patients",
+        "C) Double angiotensin-converting enzyme inhibitor during gastroenteritis dehydration to protect kidneys",
+        "D) Any single fall forever prohibits anticoagulation regardless of stroke risk"
+      ],
+      "answer": "A) angiotensin-converting enzyme inhibitor/angiotensin receptor blocker + diuretic + nonsteroidal anti-inflammatory drug combination markedly increases acute kidney injury risk",
+      "explanation": "Afferent constriction, efferent dilation, and volume depletion hit filtration fraction hard. Therefore, the most accurate choice is: angiotensin-converting enzyme inhibitor/angiotensin receptor blocker + diuretic + nonsteroidal anti-inflammatory drug combination markedly increases acute kidney injury risk. acute kidney injury risk rises rather than falls.",
+      "choice_explanations": {
+        "A": "Afferent constriction, efferent dilation, and volume depletion hit filtration fraction hard. This matches the correct interpretation.",
+        "B": "acute kidney injury risk rises rather than falls. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ],
+  "medium": [
+    {
+      "id": "clinical_pharmacy:medium:0",
+      "question": "A 32-year-old man is started on treatment related to warfarin international normalized ratio atrial fibrillation. Which of the following is correct?",
+      "options": [
+        "A) Most nonvalvular atrial fibrillation targets international normalized ratio about 2–3 on warfarin",
+        "B) DOACs require weekly international normalized ratio checks identical to warfarin",
+        "C) Routine target international normalized ratio 4.5–6 for typical nonvalvular atrial fibrillation",
+        "D) Always give full 4F-prothrombin complex concentrate for any international normalized ratio of 3.5 without bleeding"
+      ],
+      "answer": "A) Most nonvalvular atrial fibrillation targets international normalized ratio about 2–3 on warfarin",
+      "explanation": "Moderate-intensity anticoagulation balances stroke prevention against bleeding. Therefore, the most accurate choice is: Most nonvalvular atrial fibrillation targets international normalized ratio about 2–3 on warfarin. international normalized ratio 4.5–6 markedly increases bleed risk without routine indication.",
+      "choice_explanations": {
+        "A": "Moderate-intensity anticoagulation balances stroke prevention against bleeding. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "international normalized ratio 4.5–6 markedly increases bleed risk without routine indication. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:1",
+      "question": "A 41-year-old woman takes several medicines and is assessed regarding warfarin amiodarone. Which of the following is most appropriate?",
+      "options": [
+        "A) Amiodarone induces warfarin metabolism so international normalized ratio always falls needing immediate dose increases",
+        "B) Always give full 4F-prothrombin complex concentrate for any international normalized ratio of 3.5 without bleeding",
+        "C) Amiodarone inhibits warfarin metabolism; reduce warfarin and monitor international normalized ratio closely",
+        "D) No antibiotic ever affects warfarin international normalized ratio"
+      ],
+      "answer": "C) Amiodarone inhibits warfarin metabolism; reduce warfarin and monitor international normalized ratio closely",
+      "explanation": "cytochrome P450 inhibition by amiodarone raises warfarin effect — a high-alert pair. Therefore, the most accurate choice is: Amiodarone inhibits warfarin metabolism; reduce warfarin and monitor international normalized ratio closely. Induction lowering international normalized ratio is the opposite interaction pattern.",
+      "choice_explanations": {
+        "A": "Induction lowering international normalized ratio is the opposite interaction pattern. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "cytochrome P450 inhibition by amiodarone raises warfarin effect — a high-alert pair. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:2",
+      "question": "Medication review raises a question about direct oral anticoagulant counseling. Which of the following is correct?",
+      "options": [
+        "A) DOACs require weekly international normalized ratio checks identical to warfarin",
+        "B) Double every missed direct oral anticoagulant dose regardless of timing",
+        "C) All DOACs are used at identical full doses regardless of renal function",
+        "D) DOACs avoid routine international normalized ratio titration and vitamin K diet issues but demand strict adherence"
+      ],
+      "answer": "D) DOACs avoid routine international normalized ratio titration and vitamin K diet issues but demand strict adherence",
+      "explanation": "Short offset and fixed dosing change monitoring and missed-dose counseling. Therefore, the most accurate choice is: DOACs avoid routine international normalized ratio titration and vitamin K diet issues but demand strict adherence. DOACs are not INR-titrated like warfarin.",
+      "choice_explanations": {
+        "A": "DOACs are not INR-titrated like warfarin. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Short offset and fixed dosing change monitoring and missed-dose counseling. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:3",
+      "question": "A 32-year-old man develops an adverse effect related to unfractionated heparin monitoring. Which of the following best explains it?",
+      "options": [
+        "A) low-molecular-weight heparin always requires international normalized ratio monitoring every 6 hours",
+        "B) unfractionated heparin infusions use activated partial thromboplastin time or anti-Xa; low-molecular-weight heparin is usually weight-based without routine levels",
+        "C) international normalized ratio is the standard monitor for low-molecular-weight heparin in pregnancy",
+        "D) Always give full 4F-prothrombin complex concentrate for any international normalized ratio of 3.5 without bleeding"
+      ],
+      "answer": "B) unfractionated heparin infusions use activated partial thromboplastin time or anti-Xa; low-molecular-weight heparin is usually weight-based without routine levels",
+      "explanation": "Monitoring strategy depends on product and clinical context. Therefore, the most accurate choice is: unfractionated heparin infusions use activated partial thromboplastin time or anti-Xa; low-molecular-weight heparin is usually weight-based without routine levels. international normalized ratio monitors VKAs, not standard low-molecular-weight heparin therapy.",
+      "choice_explanations": {
+        "A": "international normalized ratio monitors VKAs, not standard low-molecular-weight heparin therapy. It is less consistent than the correct choice.",
+        "B": "Monitoring strategy depends on product and clinical context. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:4",
+      "question": "A 57-year-old man needs counseling about protamine. Which of the following is most appropriate?",
+      "options": [
+        "A) Reverses all factor Xa inhibitor DOACs equally",
+        "B) Protamine is first-line reversal for all DOACs equally",
+        "C) Protamine reverses low-molecular-weight heparin more completely than unfractionated heparin always",
+        "D) Protamine reverses unfractionated heparin; low-molecular-weight heparin reversal is incomplete; watch anaphylactoid reactions"
+      ],
+      "answer": "D) Protamine reverses unfractionated heparin; low-molecular-weight heparin reversal is incomplete; watch anaphylactoid reactions",
+      "explanation": "Polycationic protamine binds anionic heparin. Therefore, the most accurate choice is: Protamine reverses unfractionated heparin; low-molecular-weight heparin reversal is incomplete; watch anaphylactoid reactions. direct oral anticoagulant reversal uses different specific strategies.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "direct oral anticoagulant reversal uses different specific strategies. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Polycationic protamine binds anionic heparin. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:5",
+      "question": "During medication reconciliation, heparin-induced thrombocytopenia management is discussed. Which of the following is correct?",
+      "options": [
+        "A) Stop all heparin and anticoagulate with a non-heparin agent when heparin-induced thrombocytopenia is likely",
+        "B) Increase unfractionated heparin dose to overcome heparin-induced thrombocytopenia antibodies",
+        "C) Increase antipsychotic dose to treat neuroleptic malignant syndrome rigidity",
+        "D) Fondaparinux is unfractionated heparin and must be stopped in heparin-induced thrombocytopenia identically as unfractionated heparin source"
+      ],
+      "answer": "A) Stop all heparin and anticoagulate with a non-heparin agent when heparin-induced thrombocytopenia is likely",
+      "explanation": "Immune heparin-induced thrombocytopenia paradoxically risks thrombosis despite thrombocytopenia. Therefore, the most accurate choice is: Stop all heparin and anticoagulate with a non-heparin agent when heparin-induced thrombocytopenia is likely. More heparin is dangerous in heparin-induced thrombocytopenia.",
+      "choice_explanations": {
+        "A": "Immune heparin-induced thrombocytopenia paradoxically risks thrombosis despite thrombocytopenia. This matches the correct interpretation.",
+        "B": "More heparin is dangerous in heparin-induced thrombocytopenia. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:6",
+      "question": "A 34-year-old man needs dose adjustment related to vancomycin levels. Which of the following is most accurate?",
+      "options": [
+        "A) Routine trough targets of 40–50 milligrams/L for simple cellulitis",
+        "B) Metformin dosing ignores renal function and acute illness",
+        "C) Serious methicillin-resistant Staphylococcus aureus infections use AUC-guided or historically higher trough targets with nephrotoxicity vigilance",
+        "D) Low albumin makes total levels always overestimate toxicity without free-level thought"
+      ],
+      "answer": "C) Serious methicillin-resistant Staphylococcus aureus infections use AUC-guided or historically higher trough targets with nephrotoxicity vigilance",
+      "explanation": "Excessive exposure raises nephrotoxicity risk; dosing is individualized. Therefore, the most accurate choice is: Serious methicillin-resistant Staphylococcus aureus infections use AUC-guided or historically higher trough targets with nephrotoxicity vigilance. Very high troughs are not routine safe targets.",
+      "choice_explanations": {
+        "A": "Very high troughs are not routine safe targets. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Excessive exposure raises nephrotoxicity risk; dosing is individualized. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:7",
+      "question": "A 69-year-old man has lab changes linked to aminoglycoside extended interval. Which of the following is correct?",
+      "options": [
+        "A) Extended-interval dosing leverages concentration-dependent killing and post-antibiotic effect",
+        "B) Beta-lactams are purely concentration-dependent with only once-daily Cmax goals like AGs",
+        "C) Aminoglycosides are purely time-dependent like beta-lactams needing only continuous infusion always",
+        "D) They are only time-dependent agents managed solely by continuous infusion always"
+      ],
+      "answer": "A) Extended-interval dosing leverages concentration-dependent killing and post-antibiotic effect",
+      "explanation": "Cmax/MIC-driven killing supports high-dose extended-interval strategies when appropriate. Therefore, the most accurate choice is: Extended-interval dosing leverages concentration-dependent killing and post-antibiotic effect. They are concentration-dependent, not classic time-dependent beta-lactams.",
+      "choice_explanations": {
+        "A": "Cmax/MIC-driven killing supports high-dose extended-interval strategies when appropriate. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "They are concentration-dependent, not classic time-dependent beta-lactams. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:8",
+      "question": "Which of the following correctly describes renal dosing vanco anion gap in clinical use?",
+      "options": [
+        "A) Reduce dose or extend interval when glomerular filtration rate falls to avoid accumulation",
+        "B) Severe chronic kidney disease always requires higher low-molecular-weight heparin doses for the same anti-Xa effect",
+        "C) All DOACs are used at identical full doses regardless of renal function",
+        "D) Automatically increase doses as glomerular filtration rate falls to maintain effect"
+      ],
+      "answer": "A) Reduce dose or extend interval when glomerular filtration rate falls to avoid accumulation",
+      "explanation": "Primarily renal clearance makes kidney function central to safety. Therefore, the most accurate choice is: Reduce dose or extend interval when glomerular filtration rate falls to avoid accumulation. Lower glomerular filtration rate warrants less aggressive exposure, not automatic increases.",
+      "choice_explanations": {
+        "A": "Primarily renal clearance makes kidney function central to safety. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Lower glomerular filtration rate warrants less aggressive exposure, not automatic increases. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:9",
+      "question": "During a pharmacology discussion of digoxin toxicity risks, which statement is correct?",
+      "options": [
+        "A) Thiazides always lower lithium by increasing Li clearance",
+        "B) Hypokalemia, hypomagnesemia, renal impairment, and interactions raise digoxin toxicity risk",
+        "C) Electrolytes never influence digoxin toxicity",
+        "D) Statins never cause muscle toxicity"
+      ],
+      "answer": "B) Hypokalemia, hypomagnesemia, renal impairment, and interactions raise digoxin toxicity risk",
+      "explanation": "Na/K-ATPase interaction is modulated by potassium; clearance is renal. Therefore, the most accurate choice is: Hypokalemia, hypomagnesemia, renal impairment, and interactions raise digoxin toxicity risk. Low potassium potentiates toxicity risk.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Na/K-ATPase interaction is modulated by potassium; clearance is renal. This matches the correct interpretation.",
+        "C": "Low potassium potentiates toxicity risk. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:10",
+      "question": "A 66-year-old man has findings requiring interpretation of phenytoin hypoalbuminemia. Which of the following is correct?",
+      "options": [
+        "A) Low albumin raises free phenytoin fraction; interpret totals with correction or free levels",
+        "B) Low albumin makes total levels always overestimate toxicity without free-level thought",
+        "C) Thiazides always lower lithium by increasing Li clearance",
+        "D) Rifampin inhibits metabolism so oral contraceptive levels always rise"
+      ],
+      "answer": "A) Low albumin raises free phenytoin fraction; interpret totals with correction or free levels",
+      "explanation": "Highly bound narrow therapeutic index drugs mislead when binding proteins fall. Therefore, the most accurate choice is: Low albumin raises free phenytoin fraction; interpret totals with correction or free levels. Totals may look therapeutic while free drug is high.",
+      "choice_explanations": {
+        "A": "Highly bound narrow therapeutic index drugs mislead when binding proteins fall. This matches the correct interpretation.",
+        "B": "Totals may look therapeutic while free drug is high. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:11",
+      "question": "In comparing drug properties, which statement about carbamazepine autoinduction clinic is correct?",
+      "options": [
+        "A) Levels may fall over initial weeks as clearance rises; retitrate carefully",
+        "B) Thiazides always lower lithium by increasing Li clearance",
+        "C) valproic acid never affects ammonia concentrations",
+        "D) Carbamazepine levels never change after a stable starting dose"
+      ],
+      "answer": "A) Levels may fall over initial weeks as clearance rises; retitrate carefully",
+      "explanation": "Autoinduction complicates early versus maintenance dosing. Therefore, the most accurate choice is: Levels may fall over initial weeks as clearance rises; retitrate carefully. Clearance increases, so levels can decline without dose change.",
+      "choice_explanations": {
+        "A": "Autoinduction complicates early versus maintenance dosing. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Clearance increases, so levels can decline without dose change. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:12",
+      "question": "A 59-year-old woman needs counseling about valproate hyperammonemia. Which of the following is most appropriate?",
+      "options": [
+        "A) valproic acid never affects ammonia concentrations",
+        "B) Carbamazepine levels never change after a stable starting dose",
+        "C) Steroids never affect glucose concentrations",
+        "D) valproic acid can cause hyperammonemic encephalopathy even with seemingly therapeutic levels"
+      ],
+      "answer": "D) valproic acid can cause hyperammonemic encephalopathy even with seemingly therapeutic levels",
+      "explanation": "Urea-cycle interference is a known valproic acid adverse pathway. Therefore, the most accurate choice is: valproic acid can cause hyperammonemic encephalopathy even with seemingly therapeutic levels. Ammonia-related encephalopathy risk is real.",
+      "choice_explanations": {
+        "A": "Ammonia-related encephalopathy risk is real. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Urea-cycle interference is a known valproic acid adverse pathway. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:13",
+      "question": "Which explanation of lithium thiazide is most accurate?",
+      "options": [
+        "A) Thiazides always lower lithium by increasing Li clearance",
+        "B) Thiazides can raise lithium levels via enhanced proximal reabsorption — toxicity risk",
+        "C) Electrolytes never influence digoxin toxicity",
+        "D) Low albumin makes total levels always overestimate toxicity without free-level thought"
+      ],
+      "answer": "B) Thiazides can raise lithium levels via enhanced proximal reabsorption — toxicity risk",
+      "explanation": "Volume depletion increases lithium reabsorption. Therefore, the most accurate choice is: Thiazides can raise lithium levels via enhanced proximal reabsorption — toxicity risk. Lithium levels usually rise, not fall, with thiazides.",
+      "choice_explanations": {
+        "A": "Lithium levels usually rise, not fall, with thiazides. It is less consistent than the correct choice.",
+        "B": "Volume depletion increases lithium reabsorption. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:14",
+      "question": "A 45-year-old man needs dose adjustment related to selective serotonin reuptake inhibitor monoamine oxidase inhibitor. Which of the following is most accurate?",
+      "options": [
+        "A) Combining SSRIs with MAOIs risks severe serotonin syndrome; respect washouts",
+        "B) SSRIs and MAOIs are routinely co-started for faster effect safely",
+        "C) Add another monoamine oxidase inhibitor to overcome serotonin excess",
+        "D) Linezolid has no serotonergic interaction potential"
+      ],
+      "answer": "A) Combining SSRIs with MAOIs risks severe serotonin syndrome; respect washouts",
+      "explanation": "Excess serotonergic tone can be life-threatening. Therefore, the most accurate choice is: Combining SSRIs with MAOIs risks severe serotonin syndrome; respect washouts. Coadministration is a contraindicated pattern, not routine care.",
+      "choice_explanations": {
+        "A": "Excess serotonergic tone can be life-threatening. This matches the correct interpretation.",
+        "B": "Coadministration is a contraindicated pattern, not routine care. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:15",
+      "question": "A 36-year-old man has lab changes linked to serotonin syndrome. Which of the following is correct?",
+      "options": [
+        "A) Add another monoamine oxidase inhibitor to overcome serotonin excess",
+        "B) Increase unfractionated heparin dose to overcome heparin-induced thrombocytopenia antibodies",
+        "C) Stop serotonergic agents, support ABCs, use benzodiazepines; consider cyproheptadine",
+        "D) Linezolid has no serotonergic interaction potential"
+      ],
+      "answer": "C) Stop serotonergic agents, support ABCs, use benzodiazepines; consider cyproheptadine",
+      "explanation": "Removing precipitants and controlling agitation/autonomics are priorities. Therefore, the most accurate choice is: Stop serotonergic agents, support ABCs, use benzodiazepines; consider cyproheptadine. Adding an monoamine oxidase inhibitor worsens serotonin toxicity.",
+      "choice_explanations": {
+        "A": "Adding an monoamine oxidase inhibitor worsens serotonin toxicity. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Removing precipitants and controlling agitation/autonomics are priorities. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:16",
+      "question": "A 41-year-old woman is started on treatment related to neuroleptic malignant syndrome management. Which of the following is correct?",
+      "options": [
+        "A) Increase antipsychotic dose to treat neuroleptic malignant syndrome rigidity",
+        "B) Stop antipsychotics and provide supportive care; consider dantrolene/bromocriptine in severe cases",
+        "C) Automatically increase doses as glomerular filtration rate falls to maintain effect",
+        "D) Increase unfractionated heparin dose to overcome heparin-induced thrombocytopenia antibodies"
+      ],
+      "answer": "B) Stop antipsychotics and provide supportive care; consider dantrolene/bromocriptine in severe cases",
+      "explanation": "Removing dopamine blockade and aggressive support are foundations. Therefore, the most accurate choice is: Stop antipsychotics and provide supportive care; consider dantrolene/bromocriptine in severe cases. More dopamine antagonist worsens neuroleptic malignant syndrome.",
+      "choice_explanations": {
+        "A": "More dopamine antagonist worsens neuroleptic malignant syndrome. It is less consistent than the correct choice.",
+        "B": "Removing dopamine blockade and aggressive support are foundations. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:17",
+      "question": "A 69-year-old woman takes several medicines and is assessed regarding opioid rotation. Which of the following is most appropriate?",
+      "options": [
+        "A) Use exact 1:1 milligram equivalency without safety reduction ever",
+        "B) Incomplete cross-tolerance requires dose reduction when rotating opioids",
+        "C) Severe chronic kidney disease always requires higher low-molecular-weight heparin doses for the same anti-Xa effect",
+        "D) Opioid constipation always resolves by day three without prophylaxis"
+      ],
+      "answer": "B) Incomplete cross-tolerance requires dose reduction when rotating opioids",
+      "explanation": "Equianalgesic tables are starting points; reduce for incomplete cross-tolerance. Therefore, the most accurate choice is: Incomplete cross-tolerance requires dose reduction when rotating opioids. Blind 1:1 conversions risk overdose.",
+      "choice_explanations": {
+        "A": "Blind 1:1 conversions risk overdose. It is less consistent than the correct choice.",
+        "B": "Equianalgesic tables are starting points; reduce for incomplete cross-tolerance. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:18",
+      "question": "Medication review raises a question about patient-controlled analgesia safety. Which of the following is correct?",
+      "options": [
+        "A) Encourage family to press patient-controlled analgesia while the patient sleeps deeply",
+        "B) dual antiplatelet therapy is identical lifelong high-intensity for every patient after any stent without reassessment",
+        "C) Metformin dosing ignores renal function and acute illness",
+        "D) Monitor sedation and respiration; discourage patient-controlled analgesia by proxy"
+      ],
+      "answer": "D) Monitor sedation and respiration; discourage patient-controlled analgesia by proxy",
+      "explanation": "Proxy dosing during deep sedation raises overdose risk. Therefore, the most accurate choice is: Monitor sedation and respiration; discourage patient-controlled analgesia by proxy. patient-controlled analgesia by proxy is unsafe.",
+      "choice_explanations": {
+        "A": "patient-controlled analgesia by proxy is unsafe. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Proxy dosing during deep sedation raises overdose risk. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:19",
+      "question": "A 63-year-old man develops an adverse effect related to insulin stacking. Which of the following best explains it?",
+      "options": [
+        "A) Give intravenous insulin to treat hypoglycemia",
+        "B) Statins never cause muscle toxicity",
+        "C) Stacking rapid insulin always prevents hypoglycemia",
+        "D) Repeating rapid-acting insulin before the prior dose peaks can cause delayed hypoglycemia"
+      ],
+      "answer": "D) Repeating rapid-acting insulin before the prior dose peaks can cause delayed hypoglycemia",
+      "explanation": "Pharmacodynamic overlap of boluses is a common inpatient error. Therefore, the most accurate choice is: Repeating rapid-acting insulin before the prior dose peaks can cause delayed hypoglycemia. Stacking increases hypoglycemia risk.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Stacking increases hypoglycemia risk. It is less consistent than the correct choice.",
+        "D": "Pharmacodynamic overlap of boluses is a common inpatient error. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:20",
+      "question": "A 32-year-old woman needs counseling about hypoglycemia treatment. Which of the following is most appropriate?",
+      "options": [
+        "A) Conscious: oral glucose; unconscious: intravenous dextrose or glucagon if no intravenous access",
+        "B) Give intravenous insulin to treat hypoglycemia",
+        "C) Stacking rapid insulin always prevents hypoglycemia",
+        "D) Only oral vitamin K over three days for intracranial hemorrhage on warfarin"
+      ],
+      "answer": "A) Conscious: oral glucose; unconscious: intravenous dextrose or glucagon if no intravenous access",
+      "explanation": "Raise glucose rapidly by the safest available route. Therefore, the most accurate choice is: Conscious: oral glucose; unconscious: intravenous dextrose or glucagon if no intravenous access. Insulin worsens hypoglycemia.",
+      "choice_explanations": {
+        "A": "Raise glucose rapidly by the safest available route. This matches the correct interpretation.",
+        "B": "Insulin worsens hypoglycemia. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:21",
+      "question": "During medication reconciliation, diabetic ketoacidosis potassium rule is discussed. Which of the following is correct?",
+      "options": [
+        "A) Hand a leaflet only without checking understanding for warfarin or insulin",
+        "B) Always give full 4F-prothrombin complex concentrate for any international normalized ratio of 3.5 without bleeding",
+        "C) Start insulin immediately despite severe hypokalemia without repletion",
+        "D) Hold insulin if potassium is critically low until potassium is replaced"
+      ],
+      "answer": "D) Hold insulin if potassium is critically low until potassium is replaced",
+      "explanation": "Insulin drives potassium intracellularly and can precipitate arrhythmia if K is already very low. Therefore, the most accurate choice is: Hold insulin if potassium is critically low until potassium is replaced. Potassium repletion takes precedence when K is dangerously low.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Potassium repletion takes precedence when K is dangerously low. It is less consistent than the correct choice.",
+        "D": "Insulin drives potassium intracellularly and can precipitate arrhythmia if K is already very low. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:22",
+      "question": "A 42-year-old woman needs dose adjustment related to hyperosmolar hyperglycemic state versus diabetic ketoacidosis. Which of the following is most accurate?",
+      "options": [
+        "A) hyperosmolar hyperglycemic state features profound hyperglycemia/hyperosmolarity with little ketoacidosis",
+        "B) fresh frozen plasma is always faster and lower volume than prothrombin complex concentrate for urgent international normalized ratio reversal",
+        "C) Always stop all antiplatelets 2 months before any dental procedure without exception",
+        "D) hyperosmolar hyperglycemic state always shows large anion-gap ketoacidosis identical to diabetic ketoacidosis"
+      ],
+      "answer": "A) hyperosmolar hyperglycemic state features profound hyperglycemia/hyperosmolarity with little ketoacidosis",
+      "explanation": "Osmotic shifts and volume deficits dominate hyperosmolar hyperglycemic state management nuance. Therefore, the most accurate choice is: hyperosmolar hyperglycemic state features profound hyperglycemia/hyperosmolarity with little ketoacidosis. Marked ketosis defines diabetic ketoacidosis more than hyperosmolar hyperglycemic state.",
+      "choice_explanations": {
+        "A": "Osmotic shifts and volume deficits dominate hyperosmolar hyperglycemic state management nuance. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Marked ketosis defines diabetic ketoacidosis more than hyperosmolar hyperglycemic state. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:23",
+      "question": "A 32-year-old woman has lab changes linked to steroid stress dosing. Which of the following is correct?",
+      "options": [
+        "A) Abruptly stop chronic steroids during sepsis to recover the adrenal axis",
+        "B) Patients with adrenal suppression need increased glucocorticoid coverage during major stress",
+        "C) Any three-day steroid pack always requires an eight-week taper",
+        "D) Steroids never affect glucose concentrations"
+      ],
+      "answer": "B) Patients with adrenal suppression need increased glucocorticoid coverage during major stress",
+      "explanation": "Suppressed HPA axis cannot meet physiologic cortisol demand in stress. Therefore, the most accurate choice is: Patients with adrenal suppression need increased glucocorticoid coverage during major stress. Stopping steroids during stress risks adrenal crisis.",
+      "choice_explanations": {
+        "A": "Stopping steroids during stress risks adrenal crisis. It is less consistent than the correct choice.",
+        "B": "Suppressed HPA axis cannot meet physiologic cortisol demand in stress. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:24",
+      "question": "A 36-year-old man is started on treatment related to proton pump inhibitor stewardship. Which of the following is correct?",
+      "options": [
+        "A) Continue PPIs lifelong in every patient without indication review",
+        "B) dual antiplatelet therapy is identical lifelong high-intensity for every patient after any stent without reassessment",
+        "C) Use PPIs for valid indications and reassess long-term therapy risks and need",
+        "D) unfractionated heparin strengthens bone with chronic use"
+      ],
+      "answer": "C) Use PPIs for valid indications and reassess long-term therapy risks and need",
+      "explanation": "Infection, malabsorption, and interaction concerns motivate deprescribing when appropriate. Therefore, the most accurate choice is: Use PPIs for valid indications and reassess long-term therapy risks and need. Unreviewed indefinite use is not best practice.",
+      "choice_explanations": {
+        "A": "Unreviewed indefinite use is not best practice. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Infection, malabsorption, and interaction concerns motivate deprescribing when appropriate. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:25",
+      "question": "A 67-year-old man takes several medicines and is assessed regarding clopidogrel omeprazole. Which of the following is most appropriate?",
+      "options": [
+        "A) All PPIs equally increase clopidogrel activation and lower stent thrombosis",
+        "B) Thiazides always lower lithium by increasing Li clearance",
+        "C) Automatically increase doses as glomerular filtration rate falls to maintain effect",
+        "D) Omeprazole/esomeprazole may reduce clopidogrel bioactivation via CYP2C19"
+      ],
+      "answer": "D) Omeprazole/esomeprazole may reduce clopidogrel bioactivation via CYP2C19",
+      "explanation": "Impaired prodrug activation is the mechanistic concern for select PPIs. Therefore, the most accurate choice is: Omeprazole/esomeprazole may reduce clopidogrel bioactivation via CYP2C19. The fear is reduced, not increased, activation.",
+      "choice_explanations": {
+        "A": "The fear is reduced, not increased, activation. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Impaired prodrug activation is the mechanistic concern for select PPIs. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:26",
+      "question": "Medication review raises a question about statin myopathy risks. Which of the following is correct?",
+      "options": [
+        "A) High dose, interacting inhibitors, hypothyroidism, and organ impairment raise myopathy risk",
+        "B) Electrolytes never influence digoxin toxicity",
+        "C) Statins never cause muscle toxicity",
+        "D) Loop diuretics are the classic cause of syndrome of inappropriate antidiuretic hormone as antidiuretic hormone secretagogues"
+      ],
+      "answer": "A) High dose, interacting inhibitors, hypothyroidism, and organ impairment raise myopathy risk",
+      "explanation": "Drug interactions elevating statin exposure are classic precipitants. Therefore, the most accurate choice is: High dose, interacting inhibitors, hypothyroidism, and organ impairment raise myopathy risk. Strong cytochrome P450 inhibitors raise risk for sensitive statins.",
+      "choice_explanations": {
+        "A": "Drug interactions elevating statin exposure are classic precipitants. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Strong cytochrome P450 inhibitors raise risk for sensitive statins. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:27",
+      "question": "A 59-year-old woman develops an adverse effect related to sick day reno drugs. Which of the following best explains it?",
+      "options": [
+        "A) Double angiotensin-converting enzyme inhibitor during gastroenteritis dehydration to protect kidneys",
+        "B) The combination protects glomerular filtration rate in all elderly patients",
+        "C) Hold angiotensin-converting enzyme inhibitor/angiotensin receptor blocker/diuretic/sodium-glucose cotransporter 2/metformin in significant dehydrating illness per local rules",
+        "D) Metformin dosing ignores renal function and acute illness"
+      ],
+      "answer": "C) Hold angiotensin-converting enzyme inhibitor/angiotensin receptor blocker/diuretic/sodium-glucose cotransporter 2/metformin in significant dehydrating illness per local rules",
+      "explanation": "acute kidney injury and metformin lactic acidosis risk rise when patients are volume depleted. Therefore, the most accurate choice is: Hold angiotensin-converting enzyme inhibitor/angiotensin receptor blocker/diuretic/sodium-glucose cotransporter 2/metformin in significant dehydrating illness per local rules. Increasing angiotensin-converting enzyme inhibitor while dry is harmful.",
+      "choice_explanations": {
+        "A": "Increasing angiotensin-converting enzyme inhibitor while dry is harmful. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "acute kidney injury and metformin lactic acidosis risk rise when patients are volume depleted. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:28",
+      "question": "A 62-year-old man needs counseling about nonsteroidal anti-inflammatory drug in heart failure. Which of the following is most appropriate?",
+      "options": [
+        "A) Anticholinergics improve cognition in dementia as first-line therapy",
+        "B) intravenous diphenhydramine alone is first and only treatment for anaphylactic airway compromise",
+        "C) nonsteroidal anti-inflammatory drugs are first-line daily therapy in decompensated heart failure",
+        "D) nonsteroidal anti-inflammatory drugs promote sodium retention and can worsen heart failure and diuretic response"
+      ],
+      "answer": "D) nonsteroidal anti-inflammatory drugs promote sodium retention and can worsen heart failure and diuretic response",
+      "explanation": "Afferent arteriolar prostaglandin inhibition plus salt retention stress failing hearts. Therefore, the most accurate choice is: nonsteroidal anti-inflammatory drugs promote sodium retention and can worsen heart failure and diuretic response. nonsteroidal anti-inflammatory drugs are not heart-failure therapy.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "nonsteroidal anti-inflammatory drugs are not heart-failure therapy. It is less consistent than the correct choice.",
+        "D": "Afferent arteriolar prostaglandin inhibition plus salt retention stress failing hearts. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:medium:29",
+      "question": "During medication reconciliation, triple whammy is discussed. Which of the following is correct?",
+      "options": [
+        "A) Any single fall forever prohibits anticoagulation regardless of stroke risk",
+        "B) Double angiotensin-converting enzyme inhibitor during gastroenteritis dehydration to protect kidneys",
+        "C) angiotensin-converting enzyme inhibitor/angiotensin receptor blocker + diuretic + nonsteroidal anti-inflammatory drug combination markedly increases acute kidney injury risk",
+        "D) The combination protects glomerular filtration rate in all elderly patients"
+      ],
+      "answer": "C) angiotensin-converting enzyme inhibitor/angiotensin receptor blocker + diuretic + nonsteroidal anti-inflammatory drug combination markedly increases acute kidney injury risk",
+      "explanation": "Afferent constriction, efferent dilation, and volume depletion hit filtration fraction hard. Therefore, the most accurate choice is: angiotensin-converting enzyme inhibitor/angiotensin receptor blocker + diuretic + nonsteroidal anti-inflammatory drug combination markedly increases acute kidney injury risk. acute kidney injury risk rises rather than falls.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Afferent constriction, efferent dilation, and volume depletion hit filtration fraction hard. This matches the correct interpretation.",
+        "D": "acute kidney injury risk rises rather than falls. It is less consistent than the correct choice."
+      }
+    }
+  ],
+  "hard": [
+    {
+      "id": "clinical_pharmacy:hard:0",
+      "question": "Careful review of warfarin international normalized ratio atrial fibrillation is required. Which of the following is most accurate?",
+      "options": [
+        "A) Routine target international normalized ratio 4.5–6 for typical nonvalvular atrial fibrillation",
+        "B) Most nonvalvular atrial fibrillation targets international normalized ratio about 2–3 on warfarin",
+        "C) Always give full 4F-prothrombin complex concentrate for any international normalized ratio of 3.5 without bleeding",
+        "D) DOACs require weekly international normalized ratio checks identical to warfarin"
+      ],
+      "answer": "B) Most nonvalvular atrial fibrillation targets international normalized ratio about 2–3 on warfarin",
+      "explanation": "Moderate-intensity anticoagulation balances stroke prevention against bleeding. Therefore, the most accurate choice is: Most nonvalvular atrial fibrillation targets international normalized ratio about 2–3 on warfarin. international normalized ratio 4.5–6 markedly increases bleed risk without routine indication.",
+      "choice_explanations": {
+        "A": "international normalized ratio 4.5–6 markedly increases bleed risk without routine indication. It is less consistent than the correct choice.",
+        "B": "Moderate-intensity anticoagulation balances stroke prevention against bleeding. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:1",
+      "question": "Two similar explanations for warfarin amiodarone are compared. Which of the following is correct?",
+      "options": [
+        "A) No antibiotic ever affects warfarin international normalized ratio",
+        "B) Amiodarone inhibits warfarin metabolism; reduce warfarin and monitor international normalized ratio closely",
+        "C) Amiodarone induces warfarin metabolism so international normalized ratio always falls needing immediate dose increases",
+        "D) Always give full 4F-prothrombin complex concentrate for any international normalized ratio of 3.5 without bleeding"
+      ],
+      "answer": "B) Amiodarone inhibits warfarin metabolism; reduce warfarin and monitor international normalized ratio closely",
+      "explanation": "cytochrome P450 inhibition by amiodarone raises warfarin effect — a high-alert pair. Therefore, the most accurate choice is: Amiodarone inhibits warfarin metabolism; reduce warfarin and monitor international normalized ratio closely. Induction lowering international normalized ratio is the opposite interaction pattern.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "cytochrome P450 inhibition by amiodarone raises warfarin effect — a high-alert pair. This matches the correct interpretation.",
+        "C": "Induction lowering international normalized ratio is the opposite interaction pattern. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:2",
+      "question": "In a detailed discussion of direct oral anticoagulant counseling, which of the following is most accurate?",
+      "options": [
+        "A) DOACs avoid routine international normalized ratio titration and vitamin K diet issues but demand strict adherence",
+        "B) All DOACs are used at identical full doses regardless of renal function",
+        "C) Always give full 4F-prothrombin complex concentrate for any international normalized ratio of 3.5 without bleeding",
+        "D) DOACs require weekly international normalized ratio checks identical to warfarin"
+      ],
+      "answer": "A) DOACs avoid routine international normalized ratio titration and vitamin K diet issues but demand strict adherence",
+      "explanation": "Short offset and fixed dosing change monitoring and missed-dose counseling. Therefore, the most accurate choice is: DOACs avoid routine international normalized ratio titration and vitamin K diet issues but demand strict adherence. DOACs are not INR-titrated like warfarin.",
+      "choice_explanations": {
+        "A": "Short offset and fixed dosing change monitoring and missed-dose counseling. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "DOACs are not INR-titrated like warfarin. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:3",
+      "question": "A 32-year-old man returns for review of suspected unfractionated heparin monitoring. Which of the following is most accurate?",
+      "options": [
+        "A) unfractionated heparin infusions use activated partial thromboplastin time or anti-Xa; low-molecular-weight heparin is usually weight-based without routine levels",
+        "B) international normalized ratio is the standard monitor for low-molecular-weight heparin in pregnancy",
+        "C) Severe chronic kidney disease always requires higher low-molecular-weight heparin doses for the same anti-Xa effect",
+        "D) low-molecular-weight heparin always requires international normalized ratio monitoring every 6 hours"
+      ],
+      "answer": "A) unfractionated heparin infusions use activated partial thromboplastin time or anti-Xa; low-molecular-weight heparin is usually weight-based without routine levels",
+      "explanation": "Monitoring strategy depends on product and clinical context. Therefore, the most accurate choice is: unfractionated heparin infusions use activated partial thromboplastin time or anti-Xa; low-molecular-weight heparin is usually weight-based without routine levels. international normalized ratio monitors VKAs, not standard low-molecular-weight heparin therapy.",
+      "choice_explanations": {
+        "A": "Monitoring strategy depends on product and clinical context. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "international normalized ratio monitors VKAs, not standard low-molecular-weight heparin therapy. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:4",
+      "question": "A clinic case of protamine is discussed. Which of the following is correct?",
+      "options": [
+        "A) Protamine reverses low-molecular-weight heparin more completely than unfractionated heparin always",
+        "B) Protamine is first-line reversal for all DOACs equally",
+        "C) Reverses all factor Xa inhibitor DOACs equally",
+        "D) Protamine reverses unfractionated heparin; low-molecular-weight heparin reversal is incomplete; watch anaphylactoid reactions"
+      ],
+      "answer": "D) Protamine reverses unfractionated heparin; low-molecular-weight heparin reversal is incomplete; watch anaphylactoid reactions",
+      "explanation": "Polycationic protamine binds anionic heparin. Therefore, the most accurate choice is: Protamine reverses unfractionated heparin; low-molecular-weight heparin reversal is incomplete; watch anaphylactoid reactions. direct oral anticoagulant reversal uses different specific strategies.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "direct oral anticoagulant reversal uses different specific strategies. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Polycationic protamine binds anionic heparin. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:5",
+      "question": "Which statement about heparin-induced thrombocytopenia management is most accurate?",
+      "options": [
+        "A) Always stop all antiplatelets 2 months before any dental procedure without exception",
+        "B) Increase unfractionated heparin dose to overcome heparin-induced thrombocytopenia antibodies",
+        "C) Increase antipsychotic dose to treat neuroleptic malignant syndrome rigidity",
+        "D) Stop all heparin and anticoagulate with a non-heparin agent when heparin-induced thrombocytopenia is likely"
+      ],
+      "answer": "D) Stop all heparin and anticoagulate with a non-heparin agent when heparin-induced thrombocytopenia is likely",
+      "explanation": "Immune heparin-induced thrombocytopenia paradoxically risks thrombosis despite thrombocytopenia. Therefore, the most accurate choice is: Stop all heparin and anticoagulate with a non-heparin agent when heparin-induced thrombocytopenia is likely. More heparin is dangerous in heparin-induced thrombocytopenia.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "More heparin is dangerous in heparin-induced thrombocytopenia. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Immune heparin-induced thrombocytopenia paradoxically risks thrombosis despite thrombocytopenia. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:6",
+      "question": "Which statement about vancomycin levels in a 34-year-old man is most accurate?",
+      "options": [
+        "A) Severe chronic kidney disease always requires higher low-molecular-weight heparin doses for the same anti-Xa effect",
+        "B) Serious methicillin-resistant Staphylococcus aureus infections use AUC-guided or historically higher trough targets with nephrotoxicity vigilance",
+        "C) Low albumin makes total levels always overestimate toxicity without free-level thought",
+        "D) Routine trough targets of 40–50 milligrams/L for simple cellulitis"
+      ],
+      "answer": "B) Serious methicillin-resistant Staphylococcus aureus infections use AUC-guided or historically higher trough targets with nephrotoxicity vigilance",
+      "explanation": "Excessive exposure raises nephrotoxicity risk; dosing is individualized. Therefore, the most accurate choice is: Serious methicillin-resistant Staphylococcus aureus infections use AUC-guided or historically higher trough targets with nephrotoxicity vigilance. Very high troughs are not routine safe targets.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Excessive exposure raises nephrotoxicity risk; dosing is individualized. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Very high troughs are not routine safe targets. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:7",
+      "question": "Which of the following is the best statement about aminoglycoside extended interval?",
+      "options": [
+        "A) Beta-lactams are purely concentration-dependent with only once-daily Cmax goals like AGs",
+        "B) Aminoglycosides are purely time-dependent like beta-lactams needing only continuous infusion always",
+        "C) They are only time-dependent agents managed solely by continuous infusion always",
+        "D) Extended-interval dosing leverages concentration-dependent killing and post-antibiotic effect"
+      ],
+      "answer": "D) Extended-interval dosing leverages concentration-dependent killing and post-antibiotic effect",
+      "explanation": "Cmax/MIC-driven killing supports high-dose extended-interval strategies when appropriate. Therefore, the most accurate choice is: Extended-interval dosing leverages concentration-dependent killing and post-antibiotic effect. They are concentration-dependent, not classic time-dependent beta-lactams.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "They are concentration-dependent, not classic time-dependent beta-lactams. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Cmax/MIC-driven killing supports high-dose extended-interval strategies when appropriate. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:8",
+      "question": "Careful review of renal dosing vanco anion gap is required. Which of the following is most accurate?",
+      "options": [
+        "A) Automatically increase doses as glomerular filtration rate falls to maintain effect",
+        "B) Severe chronic kidney disease always requires higher low-molecular-weight heparin doses for the same anti-Xa effect",
+        "C) Reduce dose or extend interval when glomerular filtration rate falls to avoid accumulation",
+        "D) All DOACs are used at identical full doses regardless of renal function"
+      ],
+      "answer": "C) Reduce dose or extend interval when glomerular filtration rate falls to avoid accumulation",
+      "explanation": "Primarily renal clearance makes kidney function central to safety. Therefore, the most accurate choice is: Reduce dose or extend interval when glomerular filtration rate falls to avoid accumulation. Lower glomerular filtration rate warrants less aggressive exposure, not automatic increases.",
+      "choice_explanations": {
+        "A": "Lower glomerular filtration rate warrants less aggressive exposure, not automatic increases. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Primarily renal clearance makes kidney function central to safety. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:9",
+      "question": "Two similar explanations for digoxin toxicity risks are compared. Which of the following is correct?",
+      "options": [
+        "A) Statins never cause muscle toxicity",
+        "B) Electrolytes never influence digoxin toxicity",
+        "C) Hypokalemia, hypomagnesemia, renal impairment, and interactions raise digoxin toxicity risk",
+        "D) Thiazides always lower lithium by increasing Li clearance"
+      ],
+      "answer": "C) Hypokalemia, hypomagnesemia, renal impairment, and interactions raise digoxin toxicity risk",
+      "explanation": "Na/K-ATPase interaction is modulated by potassium; clearance is renal. Therefore, the most accurate choice is: Hypokalemia, hypomagnesemia, renal impairment, and interactions raise digoxin toxicity risk. Low potassium potentiates toxicity risk.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Low potassium potentiates toxicity risk. It is less consistent than the correct choice.",
+        "C": "Na/K-ATPase interaction is modulated by potassium; clearance is renal. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:10",
+      "question": "In a detailed discussion of phenytoin hypoalbuminemia, which of the following is most accurate?",
+      "options": [
+        "A) Thiazides always lower lithium by increasing Li clearance",
+        "B) Low albumin makes total levels always overestimate toxicity without free-level thought",
+        "C) Low albumin raises free phenytoin fraction; interpret totals with correction or free levels",
+        "D) low-molecular-weight heparin always requires international normalized ratio monitoring every 6 hours"
+      ],
+      "answer": "C) Low albumin raises free phenytoin fraction; interpret totals with correction or free levels",
+      "explanation": "Highly bound narrow therapeutic index drugs mislead when binding proteins fall. Therefore, the most accurate choice is: Low albumin raises free phenytoin fraction; interpret totals with correction or free levels. Totals may look therapeutic while free drug is high.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Totals may look therapeutic while free drug is high. It is less consistent than the correct choice.",
+        "C": "Highly bound narrow therapeutic index drugs mislead when binding proteins fall. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:11",
+      "question": "Which of the following correctly distinguishes key points about carbamazepine autoinduction clinic?",
+      "options": [
+        "A) Carbamazepine levels never change after a stable starting dose",
+        "B) valproic acid never affects ammonia concentrations",
+        "C) Levels may fall over initial weeks as clearance rises; retitrate carefully",
+        "D) Thiazides always lower lithium by increasing Li clearance"
+      ],
+      "answer": "C) Levels may fall over initial weeks as clearance rises; retitrate carefully",
+      "explanation": "Autoinduction complicates early versus maintenance dosing. Therefore, the most accurate choice is: Levels may fall over initial weeks as clearance rises; retitrate carefully. Clearance increases, so levels can decline without dose change.",
+      "choice_explanations": {
+        "A": "Clearance increases, so levels can decline without dose change. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Autoinduction complicates early versus maintenance dosing. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:12",
+      "question": "A clinic case of valproate hyperammonemia is discussed. Which of the following is correct?",
+      "options": [
+        "A) Liver failure never affects anticoagulant choice or international normalized ratio interpretation",
+        "B) Carbamazepine levels never change after a stable starting dose",
+        "C) valproic acid never affects ammonia concentrations",
+        "D) valproic acid can cause hyperammonemic encephalopathy even with seemingly therapeutic levels"
+      ],
+      "answer": "D) valproic acid can cause hyperammonemic encephalopathy even with seemingly therapeutic levels",
+      "explanation": "Urea-cycle interference is a known valproic acid adverse pathway. Therefore, the most accurate choice is: valproic acid can cause hyperammonemic encephalopathy even with seemingly therapeutic levels. Ammonia-related encephalopathy risk is real.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Ammonia-related encephalopathy risk is real. It is less consistent than the correct choice.",
+        "D": "Urea-cycle interference is a known valproic acid adverse pathway. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:13",
+      "question": "Which statement about lithium thiazide is most accurate?",
+      "options": [
+        "A) Electrolytes never influence digoxin toxicity",
+        "B) Thiazides can raise lithium levels via enhanced proximal reabsorption — toxicity risk",
+        "C) Thiazides always lower lithium by increasing Li clearance",
+        "D) Low albumin makes total levels always overestimate toxicity without free-level thought"
+      ],
+      "answer": "B) Thiazides can raise lithium levels via enhanced proximal reabsorption — toxicity risk",
+      "explanation": "Volume depletion increases lithium reabsorption. Therefore, the most accurate choice is: Thiazides can raise lithium levels via enhanced proximal reabsorption — toxicity risk. Lithium levels usually rise, not fall, with thiazides.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Volume depletion increases lithium reabsorption. This matches the correct interpretation.",
+        "C": "Lithium levels usually rise, not fall, with thiazides. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:14",
+      "question": "Which statement about selective serotonin reuptake inhibitor monoamine oxidase inhibitor in a 45-year-old man is most accurate?",
+      "options": [
+        "A) Linezolid has no serotonergic interaction potential",
+        "B) SSRIs and MAOIs are routinely co-started for faster effect safely",
+        "C) Combining SSRIs with MAOIs risks severe serotonin syndrome; respect washouts",
+        "D) Add another monoamine oxidase inhibitor to overcome serotonin excess"
+      ],
+      "answer": "C) Combining SSRIs with MAOIs risks severe serotonin syndrome; respect washouts",
+      "explanation": "Excess serotonergic tone can be life-threatening. Therefore, the most accurate choice is: Combining SSRIs with MAOIs risks severe serotonin syndrome; respect washouts. Coadministration is a contraindicated pattern, not routine care.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Coadministration is a contraindicated pattern, not routine care. It is less consistent than the correct choice.",
+        "C": "Excess serotonergic tone can be life-threatening. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:15",
+      "question": "After examining a 36-year-old man, which statement about serotonin syndrome is correct?",
+      "options": [
+        "A) Stop serotonergic agents, support ABCs, use benzodiazepines; consider cyproheptadine",
+        "B) Increase unfractionated heparin dose to overcome heparin-induced thrombocytopenia antibodies",
+        "C) Add another monoamine oxidase inhibitor to overcome serotonin excess",
+        "D) Linezolid has no serotonergic interaction potential"
+      ],
+      "answer": "A) Stop serotonergic agents, support ABCs, use benzodiazepines; consider cyproheptadine",
+      "explanation": "Removing precipitants and controlling agitation/autonomics are priorities. Therefore, the most accurate choice is: Stop serotonergic agents, support ABCs, use benzodiazepines; consider cyproheptadine. Adding an monoamine oxidase inhibitor worsens serotonin toxicity.",
+      "choice_explanations": {
+        "A": "Removing precipitants and controlling agitation/autonomics are priorities. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Adding an monoamine oxidase inhibitor worsens serotonin toxicity. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:16",
+      "question": "Careful review of neuroleptic malignant syndrome management is required. Which of the following is most accurate?",
+      "options": [
+        "A) Increase antipsychotic dose to treat neuroleptic malignant syndrome rigidity",
+        "B) Increase unfractionated heparin dose to overcome heparin-induced thrombocytopenia antibodies",
+        "C) Stop antipsychotics and provide supportive care; consider dantrolene/bromocriptine in severe cases",
+        "D) Always stop allopurinol during every flare if already established as a universal rule"
+      ],
+      "answer": "C) Stop antipsychotics and provide supportive care; consider dantrolene/bromocriptine in severe cases",
+      "explanation": "Removing dopamine blockade and aggressive support are foundations. Therefore, the most accurate choice is: Stop antipsychotics and provide supportive care; consider dantrolene/bromocriptine in severe cases. More dopamine antagonist worsens neuroleptic malignant syndrome.",
+      "choice_explanations": {
+        "A": "More dopamine antagonist worsens neuroleptic malignant syndrome. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Removing dopamine blockade and aggressive support are foundations. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:17",
+      "question": "Two similar explanations for opioid rotation are compared. Which of the following is correct?",
+      "options": [
+        "A) Opioid constipation always resolves by day three without prophylaxis",
+        "B) Use exact 1:1 milligram equivalency without safety reduction ever",
+        "C) Incomplete cross-tolerance requires dose reduction when rotating opioids",
+        "D) Severe chronic kidney disease always requires higher low-molecular-weight heparin doses for the same anti-Xa effect"
+      ],
+      "answer": "C) Incomplete cross-tolerance requires dose reduction when rotating opioids",
+      "explanation": "Equianalgesic tables are starting points; reduce for incomplete cross-tolerance. Therefore, the most accurate choice is: Incomplete cross-tolerance requires dose reduction when rotating opioids. Blind 1:1 conversions risk overdose.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Blind 1:1 conversions risk overdose. It is less consistent than the correct choice.",
+        "C": "Equianalgesic tables are starting points; reduce for incomplete cross-tolerance. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:18",
+      "question": "In a detailed discussion of patient-controlled analgesia safety, which of the following is most accurate?",
+      "options": [
+        "A) Metformin dosing ignores renal function and acute illness",
+        "B) Encourage family to press patient-controlled analgesia while the patient sleeps deeply",
+        "C) Every warfarin patient must bridge with unfractionated heparin for dental cleanings",
+        "D) Monitor sedation and respiration; discourage patient-controlled analgesia by proxy"
+      ],
+      "answer": "D) Monitor sedation and respiration; discourage patient-controlled analgesia by proxy",
+      "explanation": "Proxy dosing during deep sedation raises overdose risk. Therefore, the most accurate choice is: Monitor sedation and respiration; discourage patient-controlled analgesia by proxy. patient-controlled analgesia by proxy is unsafe.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "patient-controlled analgesia by proxy is unsafe. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Proxy dosing during deep sedation raises overdose risk. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:19",
+      "question": "Which of the following correctly distinguishes key points about insulin stacking?",
+      "options": [
+        "A) Stacking rapid insulin always prevents hypoglycemia",
+        "B) Give intravenous insulin to treat hypoglycemia",
+        "C) Repeating rapid-acting insulin before the prior dose peaks can cause delayed hypoglycemia",
+        "D) Severe chronic kidney disease always requires higher low-molecular-weight heparin doses for the same anti-Xa effect"
+      ],
+      "answer": "C) Repeating rapid-acting insulin before the prior dose peaks can cause delayed hypoglycemia",
+      "explanation": "Pharmacodynamic overlap of boluses is a common inpatient error. Therefore, the most accurate choice is: Repeating rapid-acting insulin before the prior dose peaks can cause delayed hypoglycemia. Stacking increases hypoglycemia risk.",
+      "choice_explanations": {
+        "A": "Stacking increases hypoglycemia risk. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Pharmacodynamic overlap of boluses is a common inpatient error. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:20",
+      "question": "Careful interpretation of hypoglycemia treatment is required. Which of the following is correct?",
+      "options": [
+        "A) Stacking rapid insulin always prevents hypoglycemia",
+        "B) Steroids never affect glucose concentrations",
+        "C) Give intravenous insulin to treat hypoglycemia",
+        "D) Conscious: oral glucose; unconscious: intravenous dextrose or glucagon if no intravenous access"
+      ],
+      "answer": "D) Conscious: oral glucose; unconscious: intravenous dextrose or glucagon if no intravenous access",
+      "explanation": "Raise glucose rapidly by the safest available route. Therefore, the most accurate choice is: Conscious: oral glucose; unconscious: intravenous dextrose or glucagon if no intravenous access. Insulin worsens hypoglycemia.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Insulin worsens hypoglycemia. It is less consistent than the correct choice.",
+        "D": "Raise glucose rapidly by the safest available route. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:21",
+      "question": "A 37-year-old man presents with diabetic ketoacidosis potassium rule. Which of the following best separates it from similar conditions?",
+      "options": [
+        "A) Start insulin immediately despite severe hypokalemia without repletion",
+        "B) Observe febrile neutropenia 48 hours without antibiotics if the patient looks well",
+        "C) Hold insulin if potassium is critically low until potassium is replaced",
+        "D) QT-prolonging combinations become safer with hypokalemia"
+      ],
+      "answer": "C) Hold insulin if potassium is critically low until potassium is replaced",
+      "explanation": "Insulin drives potassium intracellularly and can precipitate arrhythmia if K is already very low. Therefore, the most accurate choice is: Hold insulin if potassium is critically low until potassium is replaced. Potassium repletion takes precedence when K is dangerously low.",
+      "choice_explanations": {
+        "A": "Potassium repletion takes precedence when K is dangerously low. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Insulin drives potassium intracellularly and can precipitate arrhythmia if K is already very low. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:22",
+      "question": "After examining a 32-year-old woman, which statement about steroid stress dosing is correct?",
+      "options": [
+        "A) Steroids never affect glucose concentrations",
+        "B) Patients with adrenal suppression need increased glucocorticoid coverage during major stress",
+        "C) Any three-day steroid pack always requires an eight-week taper",
+        "D) Abruptly stop chronic steroids during sepsis to recover the adrenal axis"
+      ],
+      "answer": "B) Patients with adrenal suppression need increased glucocorticoid coverage during major stress",
+      "explanation": "Suppressed HPA axis cannot meet physiologic cortisol demand in stress. Therefore, the most accurate choice is: Patients with adrenal suppression need increased glucocorticoid coverage during major stress. Stopping steroids during stress risks adrenal crisis.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Suppressed HPA axis cannot meet physiologic cortisol demand in stress. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Stopping steroids during stress risks adrenal crisis. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:23",
+      "question": "Careful review of proton pump inhibitor stewardship is required. Which of the following is most accurate?",
+      "options": [
+        "A) unfractionated heparin strengthens bone with chronic use",
+        "B) Use PPIs for valid indications and reassess long-term therapy risks and need",
+        "C) dual antiplatelet therapy is identical lifelong high-intensity for every patient after any stent without reassessment",
+        "D) Continue PPIs lifelong in every patient without indication review"
+      ],
+      "answer": "B) Use PPIs for valid indications and reassess long-term therapy risks and need",
+      "explanation": "Infection, malabsorption, and interaction concerns motivate deprescribing when appropriate. Therefore, the most accurate choice is: Use PPIs for valid indications and reassess long-term therapy risks and need. Unreviewed indefinite use is not best practice.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Infection, malabsorption, and interaction concerns motivate deprescribing when appropriate. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Unreviewed indefinite use is not best practice. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:24",
+      "question": "A 67-year-old man has findings suggestive of clopidogrel omeprazole. Which of the following is the best interpretation?",
+      "options": [
+        "A) Thiazides always lower lithium by increasing Li clearance",
+        "B) Automatically increase doses as glomerular filtration rate falls to maintain effect",
+        "C) Omeprazole/esomeprazole may reduce clopidogrel bioactivation via CYP2C19",
+        "D) All PPIs equally increase clopidogrel activation and lower stent thrombosis"
+      ],
+      "answer": "C) Omeprazole/esomeprazole may reduce clopidogrel bioactivation via CYP2C19",
+      "explanation": "Impaired prodrug activation is the mechanistic concern for select PPIs. Therefore, the most accurate choice is: Omeprazole/esomeprazole may reduce clopidogrel bioactivation via CYP2C19. The fear is reduced, not increased, activation.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Impaired prodrug activation is the mechanistic concern for select PPIs. This matches the correct interpretation.",
+        "D": "The fear is reduced, not increased, activation. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:25",
+      "question": "In a detailed discussion of statin myopathy risks, which of the following is most accurate?",
+      "options": [
+        "A) Loop diuretics are the classic cause of syndrome of inappropriate antidiuretic hormone as antidiuretic hormone secretagogues",
+        "B) High dose, interacting inhibitors, hypothyroidism, and organ impairment raise myopathy risk",
+        "C) Electrolytes never influence digoxin toxicity",
+        "D) Statins never cause muscle toxicity"
+      ],
+      "answer": "B) High dose, interacting inhibitors, hypothyroidism, and organ impairment raise myopathy risk",
+      "explanation": "Drug interactions elevating statin exposure are classic precipitants. Therefore, the most accurate choice is: High dose, interacting inhibitors, hypothyroidism, and organ impairment raise myopathy risk. Strong cytochrome P450 inhibitors raise risk for sensitive statins.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Drug interactions elevating statin exposure are classic precipitants. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Strong cytochrome P450 inhibitors raise risk for sensitive statins. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:26",
+      "question": "A 59-year-old woman returns for review of suspected sick day reno drugs. Which of the following is most accurate?",
+      "options": [
+        "A) Hold angiotensin-converting enzyme inhibitor/angiotensin receptor blocker/diuretic/sodium-glucose cotransporter 2/metformin in significant dehydrating illness per local rules",
+        "B) Metformin dosing ignores renal function and acute illness",
+        "C) The combination protects glomerular filtration rate in all elderly patients",
+        "D) Double angiotensin-converting enzyme inhibitor during gastroenteritis dehydration to protect kidneys"
+      ],
+      "answer": "A) Hold angiotensin-converting enzyme inhibitor/angiotensin receptor blocker/diuretic/sodium-glucose cotransporter 2/metformin in significant dehydrating illness per local rules",
+      "explanation": "acute kidney injury and metformin lactic acidosis risk rise when patients are volume depleted. Therefore, the most accurate choice is: Hold angiotensin-converting enzyme inhibitor/angiotensin receptor blocker/diuretic/sodium-glucose cotransporter 2/metformin in significant dehydrating illness per local rules. Increasing angiotensin-converting enzyme inhibitor while dry is harmful.",
+      "choice_explanations": {
+        "A": "acute kidney injury and metformin lactic acidosis risk rise when patients are volume depleted. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Increasing angiotensin-converting enzyme inhibitor while dry is harmful. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:27",
+      "question": "Careful interpretation of nonsteroidal anti-inflammatory drug in heart failure is required. Which of the following is correct?",
+      "options": [
+        "A) Mean the drug is mandatory first-line therapy in all elderly patients",
+        "B) Anticholinergics improve cognition in dementia as first-line therapy",
+        "C) nonsteroidal anti-inflammatory drugs promote sodium retention and can worsen heart failure and diuretic response",
+        "D) nonsteroidal anti-inflammatory drugs are first-line daily therapy in decompensated heart failure"
+      ],
+      "answer": "C) nonsteroidal anti-inflammatory drugs promote sodium retention and can worsen heart failure and diuretic response",
+      "explanation": "Afferent arteriolar prostaglandin inhibition plus salt retention stress failing hearts. Therefore, the most accurate choice is: nonsteroidal anti-inflammatory drugs promote sodium retention and can worsen heart failure and diuretic response. nonsteroidal anti-inflammatory drugs are not heart-failure therapy.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Afferent arteriolar prostaglandin inhibition plus salt retention stress failing hearts. This matches the correct interpretation.",
+        "D": "nonsteroidal anti-inflammatory drugs are not heart-failure therapy. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:28",
+      "question": "A 70-year-old woman presents with features compatible with triple whammy. Which of the following is most accurate?",
+      "options": [
+        "A) The combination protects glomerular filtration rate in all elderly patients",
+        "B) angiotensin-converting enzyme inhibitor/angiotensin receptor blocker + diuretic + nonsteroidal anti-inflammatory drug combination markedly increases acute kidney injury risk",
+        "C) All chronic obstructive pulmonary disease viral URIs need empiric antipseudomonal triple therapy forever",
+        "D) Double angiotensin-converting enzyme inhibitor during gastroenteritis dehydration to protect kidneys"
+      ],
+      "answer": "B) angiotensin-converting enzyme inhibitor/angiotensin receptor blocker + diuretic + nonsteroidal anti-inflammatory drug combination markedly increases acute kidney injury risk",
+      "explanation": "Afferent constriction, efferent dilation, and volume depletion hit filtration fraction hard. Therefore, the most accurate choice is: angiotensin-converting enzyme inhibitor/angiotensin receptor blocker + diuretic + nonsteroidal anti-inflammatory drug combination markedly increases acute kidney injury risk. acute kidney injury risk rises rather than falls.",
+      "choice_explanations": {
+        "A": "acute kidney injury risk rises rather than falls. It is less consistent than the correct choice.",
+        "B": "Afferent constriction, efferent dilation, and volume depletion hit filtration fraction hard. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:hard:29",
+      "question": "Which of the following is the best statement about amiodarone monitoring?",
+      "options": [
+        "A) Clozapine needs no blood monitoring",
+        "B) Only a single complete blood count ever is required with no organ surveillance",
+        "C) Amiodarone is first symptomatic therapy for all thyrotoxic palpitations without evaluation",
+        "D) Monitor liver function tests, TFTs, pulmonary symptoms/imaging as indicated, electrocardiogram, and ocular symptoms"
+      ],
+      "answer": "D) Monitor liver function tests, TFTs, pulmonary symptoms/imaging as indicated, electrocardiogram, and ocular symptoms",
+      "explanation": "Multi-organ toxicity profile mandates structured monitoring. Therefore, the most accurate choice is: Monitor liver function tests, TFTs, pulmonary symptoms/imaging as indicated, electrocardiogram, and ocular symptoms. Thyroid, liver, lung, and eye surveillance themes are standard.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Thyroid, liver, lung, and eye surveillance themes are standard. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Multi-organ toxicity profile mandates structured monitoring. This matches the correct interpretation."
+      }
+    }
+  ],
+  "extreme": [
+    {
+      "id": "clinical_pharmacy:extreme:0",
+      "question": "A 32-year-old man requires careful decisions about warfarin international normalized ratio atrial fibrillation. Which of the following is most accurate?",
+      "options": [
+        "A) Routine target international normalized ratio 4.5–6 for typical nonvalvular atrial fibrillation",
+        "B) Most nonvalvular atrial fibrillation targets international normalized ratio about 2–3 on warfarin",
+        "C) High bleed risk always means withhold anticoagulation even after massive prior stroke without discussion",
+        "D) DOACs require weekly international normalized ratio checks identical to warfarin"
+      ],
+      "answer": "B) Most nonvalvular atrial fibrillation targets international normalized ratio about 2–3 on warfarin",
+      "explanation": "Moderate-intensity anticoagulation balances stroke prevention against bleeding. Therefore, the most accurate choice is: Most nonvalvular atrial fibrillation targets international normalized ratio about 2–3 on warfarin. international normalized ratio 4.5–6 markedly increases bleed risk without routine indication.",
+      "choice_explanations": {
+        "A": "international normalized ratio 4.5–6 markedly increases bleed risk without routine indication. It is less consistent than the correct choice.",
+        "B": "Moderate-intensity anticoagulation balances stroke prevention against bleeding. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:1",
+      "question": "Management of warfarin amiodarone is reviewed for a 41-year-old woman. Which of the following is most accurate?",
+      "options": [
+        "A) Always give full 4F-prothrombin complex concentrate for any international normalized ratio of 3.5 without bleeding",
+        "B) Amiodarone induces warfarin metabolism so international normalized ratio always falls needing immediate dose increases",
+        "C) No antibiotic ever affects warfarin international normalized ratio",
+        "D) Amiodarone inhibits warfarin metabolism; reduce warfarin and monitor international normalized ratio closely"
+      ],
+      "answer": "D) Amiodarone inhibits warfarin metabolism; reduce warfarin and monitor international normalized ratio closely",
+      "explanation": "cytochrome P450 inhibition by amiodarone raises warfarin effect — a high-alert pair. Therefore, the most accurate choice is: Amiodarone inhibits warfarin metabolism; reduce warfarin and monitor international normalized ratio closely. Induction lowering international normalized ratio is the opposite interaction pattern.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Induction lowering international normalized ratio is the opposite interaction pattern. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "cytochrome P450 inhibition by amiodarone raises warfarin effect — a high-alert pair. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:2",
+      "question": "A 46-year-old man needs action related to direct oral anticoagulant counseling. Which of the following is correct?",
+      "options": [
+        "A) DOACs avoid routine international normalized ratio titration and vitamin K diet issues but demand strict adherence",
+        "B) Liver failure never affects anticoagulant choice or international normalized ratio interpretation",
+        "C) All DOACs are used at identical full doses regardless of renal function",
+        "D) DOACs require weekly international normalized ratio checks identical to warfarin"
+      ],
+      "answer": "A) DOACs avoid routine international normalized ratio titration and vitamin K diet issues but demand strict adherence",
+      "explanation": "Short offset and fixed dosing change monitoring and missed-dose counseling. Therefore, the most accurate choice is: DOACs avoid routine international normalized ratio titration and vitamin K diet issues but demand strict adherence. DOACs are not INR-titrated like warfarin.",
+      "choice_explanations": {
+        "A": "Short offset and fixed dosing change monitoring and missed-dose counseling. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "DOACs are not INR-titrated like warfarin. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:3",
+      "question": "A 32-year-old man has findings that make unfractionated heparin monitoring hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) unfractionated heparin infusions use activated partial thromboplastin time or anti-Xa; low-molecular-weight heparin is usually weight-based without routine levels",
+        "B) Always give full 4F-prothrombin complex concentrate for any international normalized ratio of 3.5 without bleeding",
+        "C) low-molecular-weight heparin always requires international normalized ratio monitoring every 6 hours",
+        "D) international normalized ratio is the standard monitor for low-molecular-weight heparin in pregnancy"
+      ],
+      "answer": "A) unfractionated heparin infusions use activated partial thromboplastin time or anti-Xa; low-molecular-weight heparin is usually weight-based without routine levels",
+      "explanation": "Monitoring strategy depends on product and clinical context. Therefore, the most accurate choice is: unfractionated heparin infusions use activated partial thromboplastin time or anti-Xa; low-molecular-weight heparin is usually weight-based without routine levels. international normalized ratio monitors VKAs, not standard low-molecular-weight heparin therapy.",
+      "choice_explanations": {
+        "A": "Monitoring strategy depends on product and clinical context. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "international normalized ratio monitors VKAs, not standard low-molecular-weight heparin therapy. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:4",
+      "question": "In a 57-year-old man, distinguishing protamine from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Protamine is first-line reversal for all DOACs equally",
+        "B) Protamine reverses unfractionated heparin; low-molecular-weight heparin reversal is incomplete; watch anaphylactoid reactions",
+        "C) Reverses all factor Xa inhibitor DOACs equally",
+        "D) Protamine reverses low-molecular-weight heparin more completely than unfractionated heparin always"
+      ],
+      "answer": "B) Protamine reverses unfractionated heparin; low-molecular-weight heparin reversal is incomplete; watch anaphylactoid reactions",
+      "explanation": "Polycationic protamine binds anionic heparin. Therefore, the most accurate choice is: Protamine reverses unfractionated heparin; low-molecular-weight heparin reversal is incomplete; watch anaphylactoid reactions. direct oral anticoagulant reversal uses different specific strategies.",
+      "choice_explanations": {
+        "A": "direct oral anticoagulant reversal uses different specific strategies. It is less consistent than the correct choice.",
+        "B": "Polycationic protamine binds anionic heparin. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:5",
+      "question": "Safety concerns around heparin-induced thrombocytopenia management arise in a 46-year-old man. Which of the following is most accurate?",
+      "options": [
+        "A) Increase antipsychotic dose to treat neuroleptic malignant syndrome rigidity",
+        "B) Stop all heparin and anticoagulate with a non-heparin agent when heparin-induced thrombocytopenia is likely",
+        "C) Increase unfractionated heparin dose to overcome heparin-induced thrombocytopenia antibodies",
+        "D) Always stop all antiplatelets 2 months before any dental procedure without exception"
+      ],
+      "answer": "B) Stop all heparin and anticoagulate with a non-heparin agent when heparin-induced thrombocytopenia is likely",
+      "explanation": "Immune heparin-induced thrombocytopenia paradoxically risks thrombosis despite thrombocytopenia. Therefore, the most accurate choice is: Stop all heparin and anticoagulate with a non-heparin agent when heparin-induced thrombocytopenia is likely. More heparin is dangerous in heparin-induced thrombocytopenia.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Immune heparin-induced thrombocytopenia paradoxically risks thrombosis despite thrombocytopenia. This matches the correct interpretation.",
+        "C": "More heparin is dangerous in heparin-induced thrombocytopenia. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:6",
+      "question": "Senior review is requested for vancomycin levels in a 34-year-old man. Which of the following is correct?",
+      "options": [
+        "A) Routine trough targets of 40–50 milligrams/L for simple cellulitis",
+        "B) Routine target international normalized ratio 4.5–6 for typical nonvalvular atrial fibrillation",
+        "C) Low albumin makes total levels always overestimate toxicity without free-level thought",
+        "D) Serious methicillin-resistant Staphylococcus aureus infections use AUC-guided or historically higher trough targets with nephrotoxicity vigilance"
+      ],
+      "answer": "D) Serious methicillin-resistant Staphylococcus aureus infections use AUC-guided or historically higher trough targets with nephrotoxicity vigilance",
+      "explanation": "Excessive exposure raises nephrotoxicity risk; dosing is individualized. Therefore, the most accurate choice is: Serious methicillin-resistant Staphylococcus aureus infections use AUC-guided or historically higher trough targets with nephrotoxicity vigilance. Very high troughs are not routine safe targets.",
+      "choice_explanations": {
+        "A": "Very high troughs are not routine safe targets. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Excessive exposure raises nephrotoxicity risk; dosing is individualized. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:7",
+      "question": "Which statement about managing aminoglycoside extended interval in a 69-year-old man is most accurate?",
+      "options": [
+        "A) They are only time-dependent agents managed solely by continuous infusion always",
+        "B) Extended-interval dosing leverages concentration-dependent killing and post-antibiotic effect",
+        "C) Aminoglycosides are purely time-dependent like beta-lactams needing only continuous infusion always",
+        "D) Beta-lactams are purely concentration-dependent with only once-daily Cmax goals like AGs"
+      ],
+      "answer": "B) Extended-interval dosing leverages concentration-dependent killing and post-antibiotic effect",
+      "explanation": "Cmax/MIC-driven killing supports high-dose extended-interval strategies when appropriate. Therefore, the most accurate choice is: Extended-interval dosing leverages concentration-dependent killing and post-antibiotic effect. They are concentration-dependent, not classic time-dependent beta-lactams.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Cmax/MIC-driven killing supports high-dose extended-interval strategies when appropriate. This matches the correct interpretation.",
+        "C": "They are concentration-dependent, not classic time-dependent beta-lactams. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:8",
+      "question": "Careful reasoning about renal dosing vanco anion gap is required. Which of the following is most accurate?",
+      "options": [
+        "A) Severe chronic kidney disease always requires higher low-molecular-weight heparin doses for the same anti-Xa effect",
+        "B) All DOACs are used at identical full doses regardless of renal function",
+        "C) Reduce dose or extend interval when glomerular filtration rate falls to avoid accumulation",
+        "D) Automatically increase doses as glomerular filtration rate falls to maintain effect"
+      ],
+      "answer": "C) Reduce dose or extend interval when glomerular filtration rate falls to avoid accumulation",
+      "explanation": "Primarily renal clearance makes kidney function central to safety. Therefore, the most accurate choice is: Reduce dose or extend interval when glomerular filtration rate falls to avoid accumulation. Lower glomerular filtration rate warrants less aggressive exposure, not automatic increases.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Primarily renal clearance makes kidney function central to safety. This matches the correct interpretation.",
+        "D": "Lower glomerular filtration rate warrants less aggressive exposure, not automatic increases. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:9",
+      "question": "Small differences in wording about digoxin toxicity risks matter. Which of the following is correct?",
+      "options": [
+        "A) Statins never cause muscle toxicity",
+        "B) Electrolytes never influence digoxin toxicity",
+        "C) Hypokalemia, hypomagnesemia, renal impairment, and interactions raise digoxin toxicity risk",
+        "D) Thiazides always lower lithium by increasing Li clearance"
+      ],
+      "answer": "C) Hypokalemia, hypomagnesemia, renal impairment, and interactions raise digoxin toxicity risk",
+      "explanation": "Na/K-ATPase interaction is modulated by potassium; clearance is renal. Therefore, the most accurate choice is: Hypokalemia, hypomagnesemia, renal impairment, and interactions raise digoxin toxicity risk. Low potassium potentiates toxicity risk.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Low potassium potentiates toxicity risk. It is less consistent than the correct choice.",
+        "C": "Na/K-ATPase interaction is modulated by potassium; clearance is renal. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:10",
+      "question": "Which of the following is the most precise statement about phenytoin hypoalbuminemia?",
+      "options": [
+        "A) Low albumin raises free phenytoin fraction; interpret totals with correction or free levels",
+        "B) Thiazides always lower lithium by increasing Li clearance",
+        "C) Low albumin makes total levels always overestimate toxicity without free-level thought",
+        "D) Macrolides shorten ventricular repolarization interval and prevent torsades always"
+      ],
+      "answer": "A) Low albumin raises free phenytoin fraction; interpret totals with correction or free levels",
+      "explanation": "Highly bound narrow therapeutic index drugs mislead when binding proteins fall. Therefore, the most accurate choice is: Low albumin raises free phenytoin fraction; interpret totals with correction or free levels. Totals may look therapeutic while free drug is high.",
+      "choice_explanations": {
+        "A": "Highly bound narrow therapeutic index drugs mislead when binding proteins fall. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Totals may look therapeutic while free drug is high. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:11",
+      "question": "In advanced review of carbamazepine autoinduction clinic, which of the following is most accurate?",
+      "options": [
+        "A) Levels may fall over initial weeks as clearance rises; retitrate carefully",
+        "B) valproic acid never affects ammonia concentrations",
+        "C) Carbamazepine levels never change after a stable starting dose",
+        "D) Thiazides always lower lithium by increasing Li clearance"
+      ],
+      "answer": "A) Levels may fall over initial weeks as clearance rises; retitrate carefully",
+      "explanation": "Autoinduction complicates early versus maintenance dosing. Therefore, the most accurate choice is: Levels may fall over initial weeks as clearance rises; retitrate carefully. Clearance increases, so levels can decline without dose change.",
+      "choice_explanations": {
+        "A": "Autoinduction complicates early versus maintenance dosing. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Clearance increases, so levels can decline without dose change. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:12",
+      "question": "In a 59-year-old woman, distinguishing valproate hyperammonemia from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) valproic acid never affects ammonia concentrations",
+        "B) Steroids never affect glucose concentrations",
+        "C) valproic acid can cause hyperammonemic encephalopathy even with seemingly therapeutic levels",
+        "D) Carbamazepine levels never change after a stable starting dose"
+      ],
+      "answer": "C) valproic acid can cause hyperammonemic encephalopathy even with seemingly therapeutic levels",
+      "explanation": "Urea-cycle interference is a known valproic acid adverse pathway. Therefore, the most accurate choice is: valproic acid can cause hyperammonemic encephalopathy even with seemingly therapeutic levels. Ammonia-related encephalopathy risk is real.",
+      "choice_explanations": {
+        "A": "Ammonia-related encephalopathy risk is real. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Urea-cycle interference is a known valproic acid adverse pathway. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:13",
+      "question": "Which closely related statement about lithium thiazide is correct?",
+      "options": [
+        "A) Low albumin makes total levels always overestimate toxicity without free-level thought",
+        "B) Thiazides always lower lithium by increasing Li clearance",
+        "C) Thiazides can raise lithium levels via enhanced proximal reabsorption — toxicity risk",
+        "D) Electrolytes never influence digoxin toxicity"
+      ],
+      "answer": "C) Thiazides can raise lithium levels via enhanced proximal reabsorption — toxicity risk",
+      "explanation": "Volume depletion increases lithium reabsorption. Therefore, the most accurate choice is: Thiazides can raise lithium levels via enhanced proximal reabsorption — toxicity risk. Lithium levels usually rise, not fall, with thiazides.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Lithium levels usually rise, not fall, with thiazides. It is less consistent than the correct choice.",
+        "C": "Volume depletion increases lithium reabsorption. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:14",
+      "question": "Senior review is requested for selective serotonin reuptake inhibitor monoamine oxidase inhibitor in a 45-year-old man. Which of the following is correct?",
+      "options": [
+        "A) SSRIs and MAOIs are routinely co-started for faster effect safely",
+        "B) Combining SSRIs with MAOIs risks severe serotonin syndrome; respect washouts",
+        "C) Add another monoamine oxidase inhibitor to overcome serotonin excess",
+        "D) Linezolid has no serotonergic interaction potential"
+      ],
+      "answer": "B) Combining SSRIs with MAOIs risks severe serotonin syndrome; respect washouts",
+      "explanation": "Excess serotonergic tone can be life-threatening. Therefore, the most accurate choice is: Combining SSRIs with MAOIs risks severe serotonin syndrome; respect washouts. Coadministration is a contraindicated pattern, not routine care.",
+      "choice_explanations": {
+        "A": "Coadministration is a contraindicated pattern, not routine care. It is less consistent than the correct choice.",
+        "B": "Excess serotonergic tone can be life-threatening. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:15",
+      "question": "Which statement about serotonin syndrome in a 36-year-old man is most accurate?",
+      "options": [
+        "A) Linezolid has no serotonergic interaction potential",
+        "B) Stop serotonergic agents, support ABCs, use benzodiazepines; consider cyproheptadine",
+        "C) Add another monoamine oxidase inhibitor to overcome serotonin excess",
+        "D) Increase unfractionated heparin dose to overcome heparin-induced thrombocytopenia antibodies"
+      ],
+      "answer": "B) Stop serotonergic agents, support ABCs, use benzodiazepines; consider cyproheptadine",
+      "explanation": "Removing precipitants and controlling agitation/autonomics are priorities. Therefore, the most accurate choice is: Stop serotonergic agents, support ABCs, use benzodiazepines; consider cyproheptadine. Adding an monoamine oxidase inhibitor worsens serotonin toxicity.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Removing precipitants and controlling agitation/autonomics are priorities. This matches the correct interpretation.",
+        "C": "Adding an monoamine oxidase inhibitor worsens serotonin toxicity. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:16",
+      "question": "A 41-year-old woman requires careful decisions about neuroleptic malignant syndrome management. Which of the following is most accurate?",
+      "options": [
+        "A) Increase unfractionated heparin dose to overcome heparin-induced thrombocytopenia antibodies",
+        "B) Increase antipsychotic dose to treat neuroleptic malignant syndrome rigidity",
+        "C) Always stop all antiplatelets 2 months before any dental procedure without exception",
+        "D) Stop antipsychotics and provide supportive care; consider dantrolene/bromocriptine in severe cases"
+      ],
+      "answer": "D) Stop antipsychotics and provide supportive care; consider dantrolene/bromocriptine in severe cases",
+      "explanation": "Removing dopamine blockade and aggressive support are foundations. Therefore, the most accurate choice is: Stop antipsychotics and provide supportive care; consider dantrolene/bromocriptine in severe cases. More dopamine antagonist worsens neuroleptic malignant syndrome.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "More dopamine antagonist worsens neuroleptic malignant syndrome. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Removing dopamine blockade and aggressive support are foundations. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:17",
+      "question": "Management of opioid rotation is reviewed for a 69-year-old woman. Which of the following is most accurate?",
+      "options": [
+        "A) Severe chronic kidney disease always requires higher low-molecular-weight heparin doses for the same anti-Xa effect",
+        "B) Opioid constipation always resolves by day three without prophylaxis",
+        "C) Use exact 1:1 milligram equivalency without safety reduction ever",
+        "D) Incomplete cross-tolerance requires dose reduction when rotating opioids"
+      ],
+      "answer": "D) Incomplete cross-tolerance requires dose reduction when rotating opioids",
+      "explanation": "Equianalgesic tables are starting points; reduce for incomplete cross-tolerance. Therefore, the most accurate choice is: Incomplete cross-tolerance requires dose reduction when rotating opioids. Blind 1:1 conversions risk overdose.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Blind 1:1 conversions risk overdose. It is less consistent than the correct choice.",
+        "D": "Equianalgesic tables are starting points; reduce for incomplete cross-tolerance. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:18",
+      "question": "A 53-year-old woman needs action related to patient-controlled analgesia safety. Which of the following is correct?",
+      "options": [
+        "A) Encourage family to press patient-controlled analgesia while the patient sleeps deeply",
+        "B) Abruptly stop chronic steroids during sepsis to recover the adrenal axis",
+        "C) Monitor sedation and respiration; discourage patient-controlled analgesia by proxy",
+        "D) Metformin dosing ignores renal function and acute illness"
+      ],
+      "answer": "C) Monitor sedation and respiration; discourage patient-controlled analgesia by proxy",
+      "explanation": "Proxy dosing during deep sedation raises overdose risk. Therefore, the most accurate choice is: Monitor sedation and respiration; discourage patient-controlled analgesia by proxy. patient-controlled analgesia by proxy is unsafe.",
+      "choice_explanations": {
+        "A": "patient-controlled analgesia by proxy is unsafe. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Proxy dosing during deep sedation raises overdose risk. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:19",
+      "question": "In a 63-year-old man, treatment choices for insulin stacking are compared. Which of the following is most accurate?",
+      "options": [
+        "A) Amiodarone induces warfarin metabolism so international normalized ratio always falls needing immediate dose increases",
+        "B) Give intravenous insulin to treat hypoglycemia",
+        "C) Stacking rapid insulin always prevents hypoglycemia",
+        "D) Repeating rapid-acting insulin before the prior dose peaks can cause delayed hypoglycemia"
+      ],
+      "answer": "D) Repeating rapid-acting insulin before the prior dose peaks can cause delayed hypoglycemia",
+      "explanation": "Pharmacodynamic overlap of boluses is a common inpatient error. Therefore, the most accurate choice is: Repeating rapid-acting insulin before the prior dose peaks can cause delayed hypoglycemia. Stacking increases hypoglycemia risk.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Stacking increases hypoglycemia risk. It is less consistent than the correct choice.",
+        "D": "Pharmacodynamic overlap of boluses is a common inpatient error. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:20",
+      "question": "A 32-year-old woman is managed for problems related to hypoglycemia treatment. Which of the following is correct?",
+      "options": [
+        "A) Conscious: oral glucose; unconscious: intravenous dextrose or glucagon if no intravenous access",
+        "B) Give intravenous insulin to treat hypoglycemia",
+        "C) Only oral vitamin K over three days for intracranial hemorrhage on warfarin",
+        "D) Stacking rapid insulin always prevents hypoglycemia"
+      ],
+      "answer": "A) Conscious: oral glucose; unconscious: intravenous dextrose or glucagon if no intravenous access",
+      "explanation": "Raise glucose rapidly by the safest available route. Therefore, the most accurate choice is: Conscious: oral glucose; unconscious: intravenous dextrose or glucagon if no intravenous access. Insulin worsens hypoglycemia.",
+      "choice_explanations": {
+        "A": "Raise glucose rapidly by the safest available route. This matches the correct interpretation.",
+        "B": "Insulin worsens hypoglycemia. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:21",
+      "question": "Urgent management decisions for diabetic ketoacidosis potassium rule are required in a 37-year-old man. Which of the following is most accurate?",
+      "options": [
+        "A) Always give full 4F-prothrombin complex concentrate for any international normalized ratio of 3.5 without bleeding",
+        "B) Start insulin immediately despite severe hypokalemia without repletion",
+        "C) Hold insulin if potassium is critically low until potassium is replaced",
+        "D) Always stop allopurinol during every flare if already established as a universal rule"
+      ],
+      "answer": "C) Hold insulin if potassium is critically low until potassium is replaced",
+      "explanation": "Insulin drives potassium intracellularly and can precipitate arrhythmia if K is already very low. Therefore, the most accurate choice is: Hold insulin if potassium is critically low until potassium is replaced. Potassium repletion takes precedence when K is dangerously low.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Potassium repletion takes precedence when K is dangerously low. It is less consistent than the correct choice.",
+        "C": "Insulin drives potassium intracellularly and can precipitate arrhythmia if K is already very low. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:22",
+      "question": "A 42-year-old woman has a complicated course involving hyperosmolar hyperglycemic state versus diabetic ketoacidosis. Which of the following is correct?",
+      "options": [
+        "A) Always stop all antiplatelets 2 months before any dental procedure without exception",
+        "B) hyperosmolar hyperglycemic state always shows large anion-gap ketoacidosis identical to diabetic ketoacidosis",
+        "C) hyperosmolar hyperglycemic state features profound hyperglycemia/hyperosmolarity with little ketoacidosis",
+        "D) fresh frozen plasma is always faster and lower volume than prothrombin complex concentrate for urgent international normalized ratio reversal"
+      ],
+      "answer": "C) hyperosmolar hyperglycemic state features profound hyperglycemia/hyperosmolarity with little ketoacidosis",
+      "explanation": "Osmotic shifts and volume deficits dominate hyperosmolar hyperglycemic state management nuance. Therefore, the most accurate choice is: hyperosmolar hyperglycemic state features profound hyperglycemia/hyperosmolarity with little ketoacidosis. Marked ketosis defines diabetic ketoacidosis more than hyperosmolar hyperglycemic state.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Marked ketosis defines diabetic ketoacidosis more than hyperosmolar hyperglycemic state. It is less consistent than the correct choice.",
+        "C": "Osmotic shifts and volume deficits dominate hyperosmolar hyperglycemic state management nuance. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:23",
+      "question": "Which statement about steroid stress dosing in a 32-year-old woman is most accurate?",
+      "options": [
+        "A) Patients with adrenal suppression need increased glucocorticoid coverage during major stress",
+        "B) Abruptly stop chronic steroids during sepsis to recover the adrenal axis",
+        "C) Steroids never affect glucose concentrations",
+        "D) Any three-day steroid pack always requires an eight-week taper"
+      ],
+      "answer": "A) Patients with adrenal suppression need increased glucocorticoid coverage during major stress",
+      "explanation": "Suppressed HPA axis cannot meet physiologic cortisol demand in stress. Therefore, the most accurate choice is: Patients with adrenal suppression need increased glucocorticoid coverage during major stress. Stopping steroids during stress risks adrenal crisis.",
+      "choice_explanations": {
+        "A": "Suppressed HPA axis cannot meet physiologic cortisol demand in stress. This matches the correct interpretation.",
+        "B": "Stopping steroids during stress risks adrenal crisis. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:24",
+      "question": "A 36-year-old man requires careful decisions about proton pump inhibitor stewardship. Which of the following is most accurate?",
+      "options": [
+        "A) Use PPIs for valid indications and reassess long-term therapy risks and need",
+        "B) dual antiplatelet therapy is identical lifelong high-intensity for every patient after any stent without reassessment",
+        "C) Continue PPIs lifelong in every patient without indication review",
+        "D) unfractionated heparin strengthens bone with chronic use"
+      ],
+      "answer": "A) Use PPIs for valid indications and reassess long-term therapy risks and need",
+      "explanation": "Infection, malabsorption, and interaction concerns motivate deprescribing when appropriate. Therefore, the most accurate choice is: Use PPIs for valid indications and reassess long-term therapy risks and need. Unreviewed indefinite use is not best practice.",
+      "choice_explanations": {
+        "A": "Infection, malabsorption, and interaction concerns motivate deprescribing when appropriate. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Unreviewed indefinite use is not best practice. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:25",
+      "question": "A 67-year-old man with reduced renal function is reassessed after incomplete response related to clopidogrel omeprazole. Which of the following is most accurate?",
+      "options": [
+        "A) All PPIs equally increase clopidogrel activation and lower stent thrombosis",
+        "B) Thiazides always lower lithium by increasing Li clearance",
+        "C) Automatically increase doses as glomerular filtration rate falls to maintain effect",
+        "D) Omeprazole/esomeprazole may reduce clopidogrel bioactivation via CYP2C19"
+      ],
+      "answer": "D) Omeprazole/esomeprazole may reduce clopidogrel bioactivation via CYP2C19",
+      "explanation": "Impaired prodrug activation is the mechanistic concern for select PPIs. Therefore, the most accurate choice is: Omeprazole/esomeprazole may reduce clopidogrel bioactivation via CYP2C19. The fear is reduced, not increased, activation.",
+      "choice_explanations": {
+        "A": "The fear is reduced, not increased, activation. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Impaired prodrug activation is the mechanistic concern for select PPIs. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:26",
+      "question": "A 53-year-old man needs action related to statin myopathy risks. Which of the following is correct?",
+      "options": [
+        "A) Loop diuretics are the classic cause of syndrome of inappropriate antidiuretic hormone as antidiuretic hormone secretagogues",
+        "B) Electrolytes never influence digoxin toxicity",
+        "C) High dose, interacting inhibitors, hypothyroidism, and organ impairment raise myopathy risk",
+        "D) Statins never cause muscle toxicity"
+      ],
+      "answer": "C) High dose, interacting inhibitors, hypothyroidism, and organ impairment raise myopathy risk",
+      "explanation": "Drug interactions elevating statin exposure are classic precipitants. Therefore, the most accurate choice is: High dose, interacting inhibitors, hypothyroidism, and organ impairment raise myopathy risk. Strong cytochrome P450 inhibitors raise risk for sensitive statins.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Drug interactions elevating statin exposure are classic precipitants. This matches the correct interpretation.",
+        "D": "Strong cytochrome P450 inhibitors raise risk for sensitive statins. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:27",
+      "question": "A 59-year-old woman has findings that make sick day reno drugs hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Double angiotensin-converting enzyme inhibitor during gastroenteritis dehydration to protect kidneys",
+        "B) The combination protects glomerular filtration rate in all elderly patients",
+        "C) Hold angiotensin-converting enzyme inhibitor/angiotensin receptor blocker/diuretic/sodium-glucose cotransporter 2/metformin in significant dehydrating illness per local rules",
+        "D) Metformin dosing ignores renal function and acute illness"
+      ],
+      "answer": "C) Hold angiotensin-converting enzyme inhibitor/angiotensin receptor blocker/diuretic/sodium-glucose cotransporter 2/metformin in significant dehydrating illness per local rules",
+      "explanation": "acute kidney injury and metformin lactic acidosis risk rise when patients are volume depleted. Therefore, the most accurate choice is: Hold angiotensin-converting enzyme inhibitor/angiotensin receptor blocker/diuretic/sodium-glucose cotransporter 2/metformin in significant dehydrating illness per local rules. Increasing angiotensin-converting enzyme inhibitor while dry is harmful.",
+      "choice_explanations": {
+        "A": "Increasing angiotensin-converting enzyme inhibitor while dry is harmful. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "acute kidney injury and metformin lactic acidosis risk rise when patients are volume depleted. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:28",
+      "question": "A 62-year-old man with reduced renal function is managed for problems related to nonsteroidal anti-inflammatory drug in heart failure. Which of the following is correct?",
+      "options": [
+        "A) nonsteroidal anti-inflammatory drugs promote sodium retention and can worsen heart failure and diuretic response",
+        "B) nonsteroidal anti-inflammatory drugs are first-line daily therapy in decompensated heart failure",
+        "C) Anticholinergics improve cognition in dementia as first-line therapy",
+        "D) intravenous diphenhydramine alone is first and only treatment for anaphylactic airway compromise"
+      ],
+      "answer": "A) nonsteroidal anti-inflammatory drugs promote sodium retention and can worsen heart failure and diuretic response",
+      "explanation": "Afferent arteriolar prostaglandin inhibition plus salt retention stress failing hearts. Therefore, the most accurate choice is: nonsteroidal anti-inflammatory drugs promote sodium retention and can worsen heart failure and diuretic response. nonsteroidal anti-inflammatory drugs are not heart-failure therapy.",
+      "choice_explanations": {
+        "A": "Afferent arteriolar prostaglandin inhibition plus salt retention stress failing hearts. This matches the correct interpretation.",
+        "B": "nonsteroidal anti-inflammatory drugs are not heart-failure therapy. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "clinical_pharmacy:extreme:29",
+      "question": "A 70-year-old woman returns with ongoing problems related to triple whammy. Which of the following is most accurate?",
+      "options": [
+        "A) angiotensin-converting enzyme inhibitor/angiotensin receptor blocker + diuretic + nonsteroidal anti-inflammatory drug combination markedly increases acute kidney injury risk",
+        "B) Mean the drug is mandatory first-line therapy in all elderly patients",
+        "C) Double angiotensin-converting enzyme inhibitor during gastroenteritis dehydration to protect kidneys",
+        "D) The combination protects glomerular filtration rate in all elderly patients"
+      ],
+      "answer": "A) angiotensin-converting enzyme inhibitor/angiotensin receptor blocker + diuretic + nonsteroidal anti-inflammatory drug combination markedly increases acute kidney injury risk",
+      "explanation": "Afferent constriction, efferent dilation, and volume depletion hit filtration fraction hard. Therefore, the most accurate choice is: angiotensin-converting enzyme inhibitor/angiotensin receptor blocker + diuretic + nonsteroidal anti-inflammatory drug combination markedly increases acute kidney injury risk. acute kidney injury risk rises rather than falls.",
+      "choice_explanations": {
+        "A": "Afferent constriction, efferent dilation, and volume depletion hit filtration fraction hard. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "acute kidney injury risk rises rather than falls. It is less consistent than the correct choice."
+      }
+    }
+  ]
+}
