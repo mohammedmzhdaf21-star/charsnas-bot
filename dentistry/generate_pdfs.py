@@ -22,11 +22,17 @@ from reportlab.platypus import (
 from content import SPECIALTIES, SPECIALTY_ORDER
 from pdf_content import PDF_SECTIONS
 
+try:
+    from stages import PDF_FILE_MAP
+except ImportError:  # pragma: no cover
+    PDF_FILE_MAP = {}
+
 PDF_DIR = Path(__file__).resolve().parent / "pdfs"
 
 
 def pdf_filename(specialty_key: str) -> str:
-    return f"UG_Dentistry_{specialty_key.title().replace(' ', '_')}_Notes.pdf"
+    stem = PDF_FILE_MAP.get(specialty_key, specialty_key)
+    return f"UG_Dentistry_{stem.title().replace(' ', '_')}_Notes.pdf"
 
 
 def _styles():
@@ -264,33 +270,43 @@ def write_specialty_pdf(path: Path, specialty_key: str) -> None:
 
 
 def ensure_pdfs(pdf_dir: Path | None = None, force: bool = False) -> dict[str, Path]:
-    """Create specialty PDFs; set force=True to regenerate all."""
+    """Create PDFs only for curricula that have section content or an existing file."""
     target = pdf_dir or PDF_DIR
     paths: dict[str, Path] = {}
     for key in SPECIALTY_ORDER:
         path = target / pdf_filename(key)
-        if force or not path.exists():
+        section_key = PDF_FILE_MAP.get(key, key)
+        can_build = section_key in PDF_SECTIONS or key in PDF_SECTIONS
+        if path.exists() and not force:
+            paths[key] = path
+            continue
+        if can_build and (force or not path.exists()):
+            build_key = key if key in PDF_SECTIONS else section_key
+            # Prefer writing under curriculum filename using mapped content
+            if build_key != key and build_key in PDF_SECTIONS:
+                # Temporarily build from mapped specialty sections
+                if key not in PDF_SECTIONS:
+                    PDF_SECTIONS[key] = PDF_SECTIONS[build_key]
             write_specialty_pdf(path, key)
-        paths[key] = path
+            paths[key] = path
+        elif path.exists():
+            paths[key] = path
     return paths
 
 
-def pdf_for_specialty(specialty_key: str, pdf_dir: Path | None = None) -> Path:
-    # Always ensure rich PDFs exist; regenerate if an old short file is detected (<5 pages)
+def pdf_for_specialty(specialty_key: str, pdf_dir: Path | None = None) -> Path | None:
+    """Return an existing notes PDF for this curriculum, or None if not available yet."""
     target = pdf_dir or PDF_DIR
     path = target / pdf_filename(specialty_key)
-    needs_build = not path.exists()
     if path.exists():
-        try:
-            from pypdf import PdfReader
-
-            if len(PdfReader(str(path)).pages) < 5:
-                needs_build = True
-        except Exception:
-            needs_build = True
-    if needs_build:
-        write_specialty_pdf(path, specialty_key)
-    return path
+        return path
+    # Fall back to mapped legacy stem filename if present
+    stem = PDF_FILE_MAP.get(specialty_key)
+    if stem:
+        legacy = target / f"UG_Dentistry_{stem.title().replace(' ', '_')}_Notes.pdf"
+        if legacy.exists():
+            return legacy
+    return None
 
 
 if __name__ == "__main__":

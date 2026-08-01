@@ -1179,6 +1179,76 @@ def _load_apply_custom_content():
 _apply_custom_content, reload_department_content = _load_apply_custom_content()
 _apply_custom_content(SPECIALTIES, _BankPath(__file__).resolve().parent / "custom_content")
 
+# Rebuild navigation keys as stage curricula (keeps legacy banks via BANK_FILE_MAP).
+from stages import (  # noqa: E402
+    STAGE_ORDER,
+    STAGES,
+    BANK_FILE_MAP,
+    all_curricula,
+    curriculum_stage,
+    label_to_curriculum,
+    label_to_stage,
+    stage_label,
+)
+
+
+def _empty_questions() -> dict:
+    return {d: [] for d in DIFFICULTIES}
+
+
+def _rebuild_specialties_as_curricula() -> None:
+    """Replace SPECIALTIES keys with stage curricula; reuse legacy banks where mapped."""
+    from bank_loader import load_specialty_questions
+
+    legacy = dict(SPECIALTIES)
+    banks_dir = _BankPath(__file__).resolve().parent / "question_banks"
+    SPECIALTIES.clear()
+    for key, label in all_curricula():
+        if key in legacy:
+            entry = legacy[key]
+            entry["label"] = label
+            SPECIALTIES[key] = entry
+            continue
+        stem = BANK_FILE_MAP.get(key)
+        questions = None
+        books = [f"{label} — faculty-recommended references (to be added)"]
+        pdf_notes = [f"{label}: curriculum notes will be expanded for this course."]
+        cases = {d: [] for d in ("easy", "medium", "hard")}
+        if stem and stem in legacy:
+            questions = legacy[stem].get("questions") or _empty_questions()
+            books = list(legacy[stem].get("books") or books)
+            pdf_notes = list(legacy[stem].get("pdf_notes") or pdf_notes)
+            cases = legacy[stem].get("cases") or cases
+        elif stem:
+            loaded = load_specialty_questions(banks_dir, stem)
+            if loaded is not None:
+                questions = loaded
+        SPECIALTIES[key] = {
+            "label": label,
+            "books": books,
+            "pdf_notes": pdf_notes,
+            "questions": questions or _empty_questions(),
+            "cases": cases,
+        }
+
+
+_rebuild_specialties_as_curricula()
+SPECIALTY_ORDER = [key for key, _label in all_curricula()]
+
+
+def reload_department_content(specialties: dict, banks_dir, custom_dir=None) -> None:
+    """Reload MCQ banks using curriculum→bank file map, then custom content."""
+    from bank_loader import apply_custom_content, load_specialty_questions
+    from pathlib import Path as _P
+
+    root = _P(banks_dir)
+    for key, spec in specialties.items():
+        stem = BANK_FILE_MAP.get(key, key)
+        loaded = load_specialty_questions(root, stem)
+        if loaded is not None:
+            spec["questions"] = loaded
+    if custom_dir is not None:
+        apply_custom_content(specialties, custom_dir)
 
 
 def specialty_label(key: str) -> str:
@@ -1186,9 +1256,13 @@ def specialty_label(key: str) -> str:
 
 
 def label_to_key(label: str) -> str | None:
-    for key, data in SPECIALTIES.items():
+    """Resolve a button label to a curriculum key (or legacy specialty key)."""
+    key = label_to_curriculum(label)
+    if key:
+        return key
+    for k, data in SPECIALTIES.items():
         if data["label"] == label:
-            return key
+            return k
     return None
 
 
@@ -1367,28 +1441,47 @@ def format_book_sources(specialty_key: str) -> str:
     )
 
 
-def specialty_menu_text() -> str:
+def stage_menu_text() -> str:
     return (
-        "🩺 *CharaNas Dentistry*\n"
+        "🦷 *CharaNas Dentistry*\n"
         "Undergraduate Dentistry Department\n\n"
-        "Choose a *specialty* first.\n"
-        "• *Short MCQ* — choose count (5/10/15/20), then advancement level (1–5)\n"
-        "• *Case-based Question* — choose Easy → Extreme\n\n"
-        "Short MCQ limit: *20 questions per specialty per day*.\n"
-        "Use *Change specialty* anytime to switch topics."
+        "Choose a *stage level*:\n"
+        "• Basic Foundation\n"
+        "• Basic Dental Sciences\n"
+        "• Pre-clinical Dentistry\n"
+        "• Clinical Dentistry\n\n"
+        "Then pick a curriculum course. Each course has:\n"
+        "• Short MCQ\n"
+        "• PDF files\n"
+        "• Book source\n\n"
+        "Short MCQ limit: *20 questions per curriculum per day*."
+    )
+
+
+def specialty_menu_text() -> str:
+    """Backward-compatible alias — opens stage menu copy."""
+    return stage_menu_text()
+
+
+def curriculum_menu_text(stage_key: str) -> str:
+    label = stage_label(stage_key)
+    return (
+        f"📚 Stage: *{label}*\n\n"
+        "Choose a *curriculum* course:"
     )
 
 
 def feature_menu_text(specialty_key: str) -> str:
     label = specialty_label(specialty_key)
+    stage_key = curriculum_stage(specialty_key)
+    stage = stage_label(stage_key) if stage_key else "Dentistry"
     return (
-        f"📍 Specialty: *{label}*\n\n"
+        f"📍 *{stage}* → *{label}*\n\n"
         "Choose a feature:\n"
         "• Short MCQ\n"
-        "• Case-based Question\n"
         "• PDF files\n"
         "• Book source\n\n"
-        "Or tap *Change specialty* to go back."
+        "Or tap *Change curriculum* / *Change stage*."
     )
 
 

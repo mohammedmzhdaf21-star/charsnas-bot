@@ -38,8 +38,14 @@ def department_paths(field: str) -> dict[str, Path]:
     }
 
 
+def _bank_stem(field: str, specialty: str) -> str:
+    aliases = DEPARTMENTS[field].get("bank_aliases") or {}
+    return aliases.get(specialty, specialty)
+
+
 def load_bank(field: str, specialty: str) -> dict[str, list[dict]]:
-    path = department_paths(field)["banks_dir"] / f"{specialty}.json"
+    stem = _bank_stem(field, specialty)
+    path = department_paths(field)["banks_dir"] / f"{stem}.json"
     data = _read_json(path, {d: [] for d in DIFFICULTIES})
     for d in DIFFICULTIES:
         data.setdefault(d, [])
@@ -81,6 +87,7 @@ def append_short_mcq(
         for L in "ABCD"
     }
 
+    stem = _bank_stem(field, specialty)
     bank = load_bank(field, specialty)
     idx = len(bank[difficulty])
     item = {
@@ -91,10 +98,11 @@ def append_short_mcq(
         "explanation": exp,
         "choice_explanations": choice_explanations,
         "source": "user_input",
+        "curriculum": specialty,
         "added_at": datetime.now(timezone.utc).isoformat(),
     }
     bank[difficulty].append(item)
-    path = department_paths(field)["banks_dir"] / f"{specialty}.json"
+    path = department_paths(field)["banks_dir"] / f"{stem}.json"
     _write_json(path, bank)
     return item
 
