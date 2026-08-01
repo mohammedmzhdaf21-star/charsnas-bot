@@ -18,10 +18,30 @@ from telegram.ext import (
 )
 
 try:
-    from catalog import CASE_DIFFICULTIES, CONTENT_TYPES, DEPARTMENTS, DIFFICULTIES
+    from catalog import (
+        CASE_DIFFICULTIES,
+        CONTENT_TYPES,
+        DEPARTMENTS,
+        DIFFICULTIES,
+        department_stages,
+        specialty_label,
+        stage_curricula,
+        stage_label,
+        uses_stages,
+    )
     from storage import append_book, append_case, append_short_mcq, bank_counts, save_pdf
 except ImportError:  # pragma: no cover
-    from question_input.catalog import CASE_DIFFICULTIES, CONTENT_TYPES, DEPARTMENTS, DIFFICULTIES
+    from question_input.catalog import (
+        CASE_DIFFICULTIES,
+        CONTENT_TYPES,
+        DEPARTMENTS,
+        DIFFICULTIES,
+        department_stages,
+        specialty_label,
+        stage_curricula,
+        stage_label,
+        uses_stages,
+    )
     from question_input.storage import append_book, append_case, append_short_mcq, bank_counts, save_pdf
 
 logging.basicConfig(
@@ -113,7 +133,7 @@ async def cmd_help(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         "Flow:\n"
         "1) Choose Short MCQ / Case-based / PDF / Book source\n"
         "2) Choose department (Medicine, Dentistry, Pharmacy, MLS, Nursing)\n"
-        "3) Choose specialty\n"
+        "3) Choose specialty (Dentistry: stage → curriculum)\n"
         "4) Enter how many items\n"
         "5) Submit each item with its details\n\n"
         "Short MCQs are saved into that specialty’s live question bank and appear in that department bot after reload.\n"
@@ -133,8 +153,51 @@ async def show_departments(update: Update, context: ContextTypes.DEFAULT_TYPE) -
     )
 
 
+async def show_stages(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    f = flow(context)
+    dep = DEPARTMENTS[f["department"]]
+    rows = [[(label, f"stage:{key}")] for key, label, _curricula in department_stages(f["department"])]
+    rows.append([("⟵ Back", "back:dept"), ("Cancel", "cancel")])
+    await safe_edit_or_reply(
+        update,
+        f"*{dep['label']}* — {dict(CONTENT_TYPES).get(f.get('content_type'), '')}\n\n"
+        "Choose the *stage level*:",
+        reply_markup=_kb(rows),
+    )
+
+
+async def show_curricula(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    f = flow(context)
+    dep = DEPARTMENTS[f["department"]]
+    stage_key = f.get("stage") or ""
+    curricula = stage_curricula(f["department"], stage_key)
+    rows = []
+    row = []
+    for key, label in curricula:
+        # Telegram button text max ~64 chars; keep labels readable
+        btn = label if len(label) <= 60 else label[:57] + "…"
+        row.append((btn, f"spec:{key}"))
+        if len(row) == 1:
+            rows.append(row)
+            row = []
+    if row:
+        rows.append(row)
+    rows.append([("⟵ Back", "back:stage"), ("Cancel", "cancel")])
+    s_label = stage_label(f["department"], stage_key)
+    await safe_edit_or_reply(
+        update,
+        f"*{dep['label']} → {s_label}*\n"
+        f"{dict(CONTENT_TYPES).get(f.get('content_type'), '')}\n\n"
+        "Choose the *curriculum*:",
+        reply_markup=_kb(rows),
+    )
+
+
 async def show_specialties(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     f = flow(context)
+    if uses_stages(f["department"]):
+        await show_stages(update, context)
+        return
     dep = DEPARTMENTS[f["department"]]
     specs = dep["specialties"]
     rows = []
@@ -155,11 +218,15 @@ async def show_specialties(update: Update, context: ContextTypes.DEFAULT_TYPE) -
     )
 
 
+def _back_to_target_after_specialty(department: str) -> str:
+    return "back:curr" if uses_stages(department) else "back:spec"
+
+
 async def show_difficulty(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     f = flow(context)
     diffs = CASE_DIFFICULTIES if f.get("content_type") == "case_based" else DIFFICULTIES
     rows = [[(label, f"diff:{key}")] for key, label in diffs]
-    rows.append([("⟵ Back", "back:spec"), ("Cancel", "cancel")])
+    rows.append([("⟵ Back", _back_to_target_after_specialty(f["department"])), ("Cancel", "cancel")])
     await safe_edit_or_reply(
         update,
         "Choose difficulty for these items:",
@@ -167,14 +234,20 @@ async def show_difficulty(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
     )
 
 
+def _path_label(f: dict) -> str:
+    dep = DEPARTMENTS[f["department"]]
+    spec = specialty_label(f["department"], f.get("specialty", ""))
+    if uses_stages(f["department"]) and f.get("stage"):
+        return f"{dep['label']} → {stage_label(f['department'], f['stage'])} → {spec}"
+    return f"{dep['label']} → {spec}"
+
+
 async def ask_count(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     f = flow(context)
     f["step"] = "count"
-    dep = DEPARTMENTS[f["department"]]
-    spec_label = dict(dep["specialties"]).get(f["specialty"], f["specialty"])
     await safe_edit_or_reply(
         update,
-        f"*{dep['label']} → {spec_label}*\n"
+        f"*{_path_label(f)}*\n"
         f"Difficulty: *{f.get('difficulty', 'n/a')}*\n\n"
         "How many items will you input now?\n"
         "Send a number from *1* to *50*.",
@@ -237,8 +310,8 @@ async def finish_flow(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         else:
             await safe_edit_or_reply(update, msg)
         return
-    dep = DEPARTMENTS[f["department"]]
-    spec_label = dict(dep["specialties"]).get(f["specialty"], f["specialty"])
+    path = _path_label(f)
+    target_word = "curriculum" if uses_stages(f["department"]) else "specialty"
     saved = f.get("saved", 0)
     ctype = dict(CONTENT_TYPES).get(f.get("content_type", ""), "items")
     counts = ""
@@ -251,8 +324,8 @@ async def finish_flow(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
     clear_flow(context)
     msg = (
         f"✅ Saved *{saved}* {ctype.lower()} into\n"
-        f"*{dep['label']} → {spec_label}*.\n\n"
-        "They are linked to that department bot’s specialty content."
+        f"*{path}*.\n\n"
+        f"They are linked to that department bot’s {target_word} content."
         f"{counts}\n\n"
         "Send /start to add more."
     )
@@ -289,11 +362,23 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         return
 
     if data == "back:dept":
+        f.pop("stage", None)
+        f.pop("specialty", None)
         await show_departments(update, context)
         return
 
-    if data == "back:spec":
-        await show_specialties(update, context)
+    if data == "back:stage":
+        f.pop("stage", None)
+        f.pop("specialty", None)
+        await show_stages(update, context)
+        return
+
+    if data in {"back:spec", "back:curr"}:
+        f.pop("specialty", None)
+        if uses_stages(f.get("department", "")) and f.get("stage"):
+            await show_curricula(update, context)
+        else:
+            await show_specialties(update, context)
         return
 
     if data.startswith("type:"):
@@ -304,8 +389,21 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
 
     if data.startswith("dept:"):
         f["department"] = data.split(":", 1)[1]
-        f["step"] = "specialty"
-        await show_specialties(update, context)
+        f.pop("stage", None)
+        f.pop("specialty", None)
+        if uses_stages(f["department"]):
+            f["step"] = "stage"
+            await show_stages(update, context)
+        else:
+            f["step"] = "specialty"
+            await show_specialties(update, context)
+        return
+
+    if data.startswith("stage:"):
+        f["stage"] = data.split(":", 1)[1]
+        f.pop("specialty", None)
+        f["step"] = "curriculum"
+        await show_curricula(update, context)
         return
 
     if data.startswith("spec:"):
