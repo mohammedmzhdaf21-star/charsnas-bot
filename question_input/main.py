@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import asyncio
 import logging
 import os
 from pathlib import Path
@@ -29,6 +30,7 @@ try:
         stage_label,
         uses_stages,
     )
+    from perplexity_gen import PerplexityError, configured as perplexity_configured, generate_short_mcqs
     from storage import append_book, append_case, append_short_mcq, bank_counts, save_pdf
 except ImportError:  # pragma: no cover
     from question_input.catalog import (
@@ -41,6 +43,11 @@ except ImportError:  # pragma: no cover
         stage_curricula,
         stage_label,
         uses_stages,
+    )
+    from question_input.perplexity_gen import (
+        PerplexityError,
+        configured as perplexity_configured,
+        generate_short_mcqs,
     )
     from question_input.storage import append_book, append_case, append_short_mcq, bank_counts, save_pdf
 
@@ -128,15 +135,17 @@ async def cmd_cancel(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None
 
 
 async def cmd_help(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    pplx = "ready" if perplexity_configured() else "missing PERPLEXITY_API_KEY"
     await update.message.reply_text(
         "Use /start to add content.\n\n"
         "Flow:\n"
-        "1) Choose Short MCQ / Case-based / PDF / Book source\n"
+        "1) Choose Short MCQ / Generate with Perplexity / Case / PDF / Book\n"
         "2) Choose department (Medicine, Dentistry, Pharmacy, MLS, Nursing)\n"
         "3) Choose specialty (Dentistry: stage → curriculum)\n"
         "4) Enter how many items\n"
-        "5) Submit each item with its details\n\n"
-        "Short MCQs are saved into that specialty’s live question bank and appear in that department bot after reload.\n"
+        "5) Submit each item — or for Perplexity, send a topic and questions are saved automatically\n\n"
+        f"Perplexity status: {pplx}\n"
+        "Short MCQs are saved into that specialty’s live question bank.\n"
         "Use /cancel to stop."
     )
 
@@ -242,15 +251,41 @@ def _path_label(f: dict) -> str:
     return f"{dep['label']} → {spec}"
 
 
+def _is_mcq_type(ctype: str | None) -> bool:
+    return ctype in {"short_mcq", "perplexity_mcq"}
+
+
 async def ask_count(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     f = flow(context)
     f["step"] = "count"
+    if f.get("content_type") == "perplexity_mcq":
+        tip = (
+            "How many Short MCQs should Perplexity generate?\n"
+            "Send a number from *1* to *20*.\n"
+            "They will be saved into this bank automatically."
+        )
+    else:
+        tip = (
+            "How many items will you input now?\n"
+            "Send a number from *1* to *50*."
+        )
     await safe_edit_or_reply(
         update,
         f"*{_path_label(f)}*\n"
         f"Difficulty: *{f.get('difficulty', 'n/a')}*\n\n"
-        "How many items will you input now?\n"
-        "Send a number from *1* to *50*.",
+        f"{tip}",
+    )
+
+
+async def ask_perplexity_topic(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    f = flow(context)
+    f["step"] = "pplx_topic"
+    spec = specialty_label(f["department"], f["specialty"])
+    await safe_edit_or_reply(
+        update,
+        f"*{_path_label(f)}*\n"
+        f"Generate *{f['count']}* {f.get('difficulty')} Short MCQs via Perplexity.\n\n"
+        f"Send a *topic focus* (e.g. pulpitis diagnosis), or type `skip` to use *{spec}*.",
     )
 
 
@@ -258,7 +293,80 @@ async def begin_item_entry(update: Update, context: ContextTypes.DEFAULT_TYPE) -
     f = flow(context)
     f["index"] = 0
     f["saved"] = 0
+    if f.get("content_type") == "perplexity_mcq":
+        await ask_perplexity_topic(update, context)
+        return
     await prompt_next_item(update, context)
+
+
+async def run_perplexity_generation(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    f = flow(context)
+    if not perplexity_configured():
+        await update.message.reply_text(
+            "Perplexity is not configured.\n"
+            "Add `PERPLEXITY_API_KEY` to `question_input/.env`, restart the input bot, then try again."
+        )
+        clear_flow(context)
+        return
+
+    dep = DEPARTMENTS[f["department"]]
+    spec_lab = specialty_label(f["department"], f["specialty"])
+    await update.message.reply_text(
+        f"Generating *{f['count']}* Short MCQs with Perplexity for\n"
+        f"*{_path_label(f)}*…\n"
+        "This can take up to a minute.",
+        parse_mode="Markdown",
+    )
+    f["step"] = "pplx_generating"
+    try:
+        items = await asyncio.to_thread(
+            generate_short_mcqs,
+            department_label=dep["label"],
+            specialty_label=spec_lab,
+            difficulty=f["difficulty"],
+            count=int(f["count"]),
+            topic=f.get("topic") or "",
+        )
+    except PerplexityError as exc:
+        log.exception("Perplexity generation failed")
+        await update.message.reply_text(f"Perplexity generation failed:\n{exc}\n\nSend /start to try again.")
+        clear_flow(context)
+        return
+    except Exception as exc:  # pragma: no cover
+        log.exception("Unexpected Perplexity error")
+        await update.message.reply_text(f"Unexpected error: {exc}\n\nSend /start to try again.")
+        clear_flow(context)
+        return
+
+    saved = 0
+    previews: list[str] = []
+    for item in items:
+        saved_item = append_short_mcq(
+            f["department"],
+            f["specialty"],
+            f["difficulty"],
+            question=item["question"],
+            options=item["options"],
+            answer_letter=item["answer_letter"],
+            explanation=item.get("explanation") or "",
+            source="perplexity",
+        )
+        saved += 1
+        if len(previews) < 3:
+            q = saved_item["question"]
+            if len(q) > 120:
+                q = q[:117] + "…"
+            previews.append(f"• {q}")
+
+    f["saved"] = saved
+    preview_text = "\n".join(previews)
+    more = "" if saved <= 3 else f"\n…and {saved - 3} more."
+    await update.message.reply_text(
+        f"Perplexity generated and saved *{saved}* Short MCQs.\n\n"
+        f"{preview_text}{more}",
+        parse_mode="Markdown",
+    )
+    await finish_flow(update, context)
 
 
 async def prompt_next_item(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -313,19 +421,28 @@ async def finish_flow(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
     path = _path_label(f)
     target_word = "curriculum" if uses_stages(f["department"]) else "specialty"
     saved = f.get("saved", 0)
-    ctype = dict(CONTENT_TYPES).get(f.get("content_type", ""), "items")
+    ctype_key = f.get("content_type", "")
+    if ctype_key == "perplexity_mcq":
+        ctype_words = "Perplexity Short MCQs"
+    else:
+        ctype_words = dict(CONTENT_TYPES).get(ctype_key, "items").lower()
     counts = ""
-    if f.get("content_type") == "short_mcq":
+    if _is_mcq_type(ctype_key):
         c = bank_counts(f["department"], f["specialty"])
         counts = (
             "\n\nBank totals now:\n"
             + "\n".join(f"• {k}: {v}" for k, v in c.items())
         )
     clear_flow(context)
+    linked = (
+        f"They were generated by Perplexity and saved into that department bot’s {target_word} bank."
+        if ctype_key == "perplexity_mcq"
+        else f"They are linked to that department bot’s {target_word} content."
+    )
     msg = (
-        f"✅ Saved *{saved}* {ctype.lower()} into\n"
+        f"✅ Saved *{saved}* {ctype_words} into\n"
         f"*{path}*.\n\n"
-        f"They are linked to that department bot’s {target_word} content."
+        f"{linked}"
         f"{counts}\n\n"
         "Send /start to add more."
     )
@@ -382,7 +499,18 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         return
 
     if data.startswith("type:"):
-        f["content_type"] = data.split(":", 1)[1]
+        ctype = data.split(":", 1)[1]
+        if ctype == "perplexity_mcq" and not perplexity_configured():
+            await query.edit_message_text(
+                "Perplexity is not configured yet.\n\n"
+                "1) Get an API key from Perplexity\n"
+                "2) Put `PERPLEXITY_API_KEY=...` in `question_input/.env`\n"
+                "3) Restart the Question Input bot\n"
+                "4) Send /start again"
+            )
+            clear_flow(context)
+            return
+        f["content_type"] = ctype
         f["step"] = "department"
         await show_departments(update, context)
         return
@@ -409,7 +537,7 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
     if data.startswith("spec:"):
         f["specialty"] = data.split(":", 1)[1]
         ctype = f.get("content_type")
-        if ctype in {"short_mcq", "case_based"}:
+        if ctype in {"short_mcq", "perplexity_mcq", "case_based"}:
             f["step"] = "difficulty"
             await show_difficulty(update, context)
         elif ctype == "pdf_files":
@@ -447,11 +575,21 @@ async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         return
 
     if step == "count":
-        if not text.isdigit() or not (1 <= int(text) <= 50):
-            await update.message.reply_text("Please send a number from 1 to 50.")
+        max_n = 20 if f.get("content_type") == "perplexity_mcq" else 50
+        if not text.isdigit() or not (1 <= int(text) <= max_n):
+            await update.message.reply_text(f"Please send a number from 1 to {max_n}.")
             return
         f["count"] = int(text)
         await begin_item_entry(update, context)
+        return
+
+    if step == "pplx_topic":
+        f["topic"] = "" if text.lower() in {"skip", "/skip"} else text
+        await run_perplexity_generation(update, context)
+        return
+
+    if step == "pplx_generating":
+        await update.message.reply_text("Still generating with Perplexity… please wait.")
         return
 
     ctype = f.get("content_type")
@@ -468,6 +606,9 @@ async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         return
     if ctype == "pdf_files":
         await update.message.reply_text("Please send a PDF document, or /done when finished.")
+        return
+    if ctype == "perplexity_mcq":
+        await update.message.reply_text("Send /start to generate more with Perplexity.")
         return
 
     await update.message.reply_text("Unexpected step. Send /start.")

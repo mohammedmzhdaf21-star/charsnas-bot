@@ -167,6 +167,7 @@ DEPARTMENTS = {
 
 CONTENT_TYPES = [
     ("short_mcq", "Short MCQ questions"),
+    ("perplexity_mcq", "Generate Short MCQs (Perplexity)"),
     ("case_based", "Case-based questions"),
     ("pdf_files", "PDF files"),
     ("book_source", "Book sources"),

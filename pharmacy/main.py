@@ -466,6 +466,8 @@ async def start_mcq_session(
     user = update.effective_user
     if not user:
         return
+    # Pick up newly saved / Perplexity-generated bank items without restarting
+    refresh_content()
     remaining = USAGE_STORE.remaining(user.id, specialty_key)
     bank_total, unseen = bank_stats(user.id, specialty_key)
     label = specialty_label(specialty_key)
