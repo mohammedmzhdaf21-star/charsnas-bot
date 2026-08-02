@@ -152,8 +152,7 @@ async def cmd_help(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         "Perplexity flow:\n"
         "1) Generate Short MCQs (Perplexity)\n"
         "2) Form: department → stage/curriculum → count → topic → difficulty mix\n"
-        "3) API returns strict JSON → validated → preview\n"
-        "4) Publish / drop / edit / discard before anything is saved\n\n"
+        "3) API generates strict JSON → validated → saved into the bank automatically\n\n"
         f"Perplexity status: {pplx}\n"
         "Use /cancel to stop."
     )
@@ -271,7 +270,7 @@ async def ask_count(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         tip = (
             "How many Short MCQs should Perplexity generate?\n"
             "Send a number from *1* to *20*.\n"
-            "You will preview and publish before anything is saved."
+            "They are written into the live bank automatically after generation."
         )
         difficulty_line = ""
     else:
@@ -471,14 +470,38 @@ async def run_perplexity_generation(update: Update, context: ContextTypes.DEFAUL
 
     f["pplx_draft"] = batch
     f["pplx_index"] = 0
+    # Save directly into the live bank — no manual typing / publish step
+    items = list(batch.get("questions") or [])
+    saved = 0
+    previews: list[str] = []
+    for item in items:
+        saved_item = append_short_mcq(
+            f["department"],
+            f["specialty"],
+            item["difficulty"],
+            question=item["question"],
+            options=item["options"],
+            answer_letter=item["answer_letter"],
+            explanation=item.get("explanation") or "",
+            source="perplexity",
+        )
+        saved += 1
+        if len(previews) < 3:
+            q = saved_item["question"]
+            if len(q) > 120:
+                q = q[:117] + "…"
+            previews.append(f"• [{item['difficulty']}] {q}")
+    f["saved"] = saved
+    more = "" if saved <= 3 else f"\n…and {saved - 3} more."
     await _reply_plain(
         update,
-        f"Validated *{len(batch['questions'])}* Short MCQs.\n"
-        f"Mix: {mix_summary(batch['difficulty_distribution'])}\n"
-        "Opening preview — publish only when you are ready.",
+        f"✅ Generated and saved *{saved}* Short MCQs into the bank.\n"
+        f"Mix: {mix_summary(batch['difficulty_distribution'])}\n\n"
+        + "\n".join(previews)
+        + more,
         markdown=True,
     )
-    await show_draft_preview(update, context)
+    await finish_flow(update, context)
 
 
 async def prompt_next_item(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
