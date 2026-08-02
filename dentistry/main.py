@@ -986,6 +986,14 @@ async def on_error(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 
 def main() -> None:
+    from stages import assert_curricula_wired, ensure_curriculum_banks
+
+    log.info("Ensuring every curriculum has a bank file…")
+    created = ensure_curriculum_banks(BANKS_DIR)
+    if created:
+        log.info("Created empty banks: %s", ", ".join(created))
+    refresh_content()
+    assert_curricula_wired(BANKS_DIR, SPECIALTIES)
     log.info("Preparing PDFs…")
     ensure_pdfs(PDF_DIR)
     app = (

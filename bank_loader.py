@@ -16,6 +16,23 @@ def bank_path(banks_dir: Path, specialty_key: str) -> Path:
     return banks_dir / f"{specialty_key}.json"
 
 
+EMPTY_BANK = {d: [] for d in DIFFICULTIES}
+
+
+def ensure_bank_files(banks_dir: Path | str, specialty_keys: list[str]) -> list[str]:
+    """Create missing empty bank JSON files so every specialty/curriculum is wired."""
+    root = Path(banks_dir)
+    root.mkdir(parents=True, exist_ok=True)
+    created: list[str] = []
+    for key in specialty_keys:
+        path = bank_path(root, key)
+        if path.exists():
+            continue
+        path.write_text(json.dumps(EMPTY_BANK, indent=2) + "\n", encoding="utf-8")
+        created.append(key)
+    return created
+
+
 def load_specialty_questions(banks_dir: Path, specialty_key: str) -> dict[str, list[dict[str, Any]]] | None:
     path = bank_path(banks_dir, specialty_key)
     if not path.exists():
@@ -33,8 +50,8 @@ def load_specialty_questions(banks_dir: Path, specialty_key: str) -> dict[str, l
 def apply_question_banks(specialties: dict[str, dict], banks_dir: Path | str) -> None:
     """Replace SPECIALTIES[*]['questions'] from JSON banks when present."""
     root = Path(banks_dir)
-    if not root.is_dir():
-        return
+    root.mkdir(parents=True, exist_ok=True)
+    ensure_bank_files(root, list(specialties.keys()))
     for key, spec in specialties.items():
         loaded = load_specialty_questions(root, key)
         if loaded is None:

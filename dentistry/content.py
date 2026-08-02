@@ -1180,16 +1180,34 @@ _apply_custom_content, reload_department_content = _load_apply_custom_content()
 _apply_custom_content(SPECIALTIES, _BankPath(__file__).resolve().parent / "custom_content")
 
 # Rebuild navigation keys as stage curricula (keeps legacy banks via BANK_FILE_MAP).
-from stages import (  # noqa: E402
-    STAGE_ORDER,
-    STAGES,
-    BANK_FILE_MAP,
-    all_curricula,
-    curriculum_stage,
-    label_to_curriculum,
-    label_to_stage,
-    stage_label,
-)
+try:  # noqa: E402
+    from stages import (
+        STAGE_ORDER,
+        STAGES,
+        BANK_FILE_MAP,
+        all_curricula,
+        assert_curricula_wired,
+        bank_stem,
+        curriculum_stage,
+        ensure_curriculum_banks,
+        label_to_curriculum,
+        label_to_stage,
+        stage_label,
+    )
+except ImportError:  # imported as dentistry.content from repo root
+    from dentistry.stages import (
+        STAGE_ORDER,
+        STAGES,
+        BANK_FILE_MAP,
+        all_curricula,
+        assert_curricula_wired,
+        bank_stem,
+        curriculum_stage,
+        ensure_curriculum_banks,
+        label_to_curriculum,
+        label_to_stage,
+        stage_label,
+    )
 
 
 def _empty_questions() -> dict:
@@ -1209,8 +1227,7 @@ def _rebuild_specialties_as_curricula() -> None:
             entry["label"] = label
             SPECIALTIES[key] = entry
             continue
-        # Prefer explicit map, else try curriculum key as bank stem (e.g. anatomy.json)
-        stem = BANK_FILE_MAP.get(key, key)
+        stem = bank_stem(key)
         questions = None
         books = [f"{label} — faculty-recommended references (to be added)"]
         pdf_notes = [f"{label}: curriculum notes will be expanded for this course."]
@@ -1233,7 +1250,10 @@ def _rebuild_specialties_as_curricula() -> None:
         }
 
 
+_BANKS_DIR = _BankPath(__file__).resolve().parent / "question_banks"
+ensure_curriculum_banks(_BANKS_DIR)
 _rebuild_specialties_as_curricula()
+assert_curricula_wired(_BANKS_DIR, SPECIALTIES)
 SPECIALTY_ORDER = [key for key, _label in all_curricula()]
 
 
@@ -1243,13 +1263,15 @@ def reload_department_content(specialties: dict, banks_dir, custom_dir=None) -> 
     from pathlib import Path as _P
 
     root = _P(banks_dir)
+    ensure_curriculum_banks(root)
     for key, spec in specialties.items():
-        stem = BANK_FILE_MAP.get(key, key)
+        stem = bank_stem(key)
         loaded = load_specialty_questions(root, stem)
         if loaded is not None:
             spec["questions"] = loaded
     if custom_dir is not None:
         apply_custom_content(specialties, custom_dir)
+    assert_curricula_wired(root, specialties)
 
 
 def specialty_label(key: str) -> str:

@@ -46,6 +46,10 @@ def _bank_stem(field: str, specialty: str) -> str:
 def load_bank(field: str, specialty: str) -> dict[str, list[dict]]:
     stem = _bank_stem(field, specialty)
     path = department_paths(field)["banks_dir"] / f"{stem}.json"
+    if not path.exists():
+        # Keep every specialty/curriculum wired even on first upload
+        path.parent.mkdir(parents=True, exist_ok=True)
+        _write_json(path, {d: [] for d in DIFFICULTIES})
     data = _read_json(path, {d: [] for d in DIFFICULTIES})
     for d in DIFFICULTIES:
         data.setdefault(d, [])

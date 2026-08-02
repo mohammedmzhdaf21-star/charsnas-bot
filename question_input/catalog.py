@@ -2,9 +2,19 @@
 
 from __future__ import annotations
 
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+# Single source of truth for dentistry stage → curriculum → bank stems
+from dentistry.stages import (  # noqa: E402
+    BANK_FILE_MAP as DENTISTRY_BANK_FILE_MAP,
+    ensure_curriculum_banks as ensure_dentistry_banks,
+    stages_as_catalog as dentistry_stages_as_catalog,
+)
 
 DEPARTMENTS = {
     "medicine": {
@@ -32,84 +42,11 @@ DEPARTMENTS = {
         "banks_dir": ROOT / "dentistry" / "question_banks",
         "custom_dir": ROOT / "dentistry" / "custom_content",
         "pdf_dir": ROOT / "dentistry" / "pdfs",
-        # Stage → curriculum navigation (matches dentistry bot)
         "nav_mode": "stages",
-        "stages": [
-            (
-                "basic_foundation",
-                "Basic Foundation",
-                [
-                    ("anatomy", "Anatomy / Human Anatomy"),
-                    ("physiology", "Physiology / Human Physiology"),
-                    ("biochemistry", "Biochemistry"),
-                    ("general_histology", "General Histology"),
-                    ("oral_histology", "Oral Histology / Embryology and Oral Histology"),
-                    ("oral_biology", "Oral Biology / Tooth Morphology"),
-                    ("dental_terminology", "Dental Terminology / Dental Anatomy terminology"),
-                ],
-            ),
-            (
-                "basic_dental_sciences",
-                "Basic Dental Sciences",
-                [
-                    ("dental_anatomy", "Dental Anatomy"),
-                    ("dental_materials", "Dental Materials"),
-                    ("general_pathology", "General Pathology"),
-                    ("general_pharmacology", "General Pharmacology"),
-                    ("drugs_in_dentistry", "Drugs in Dentistry"),
-                    ("oral_physiology", "Oral Physiology"),
-                    ("head_neck_anatomy", "Head and Neck Anatomy"),
-                ],
-            ),
-            (
-                "preclinical",
-                "Pre-clinical Dentistry",
-                [
-                    ("preclinical_operative", "Pre-clinical Operative Dentistry"),
-                    ("preclinical_prosthodontics", "Pre-clinical Prosthodontics"),
-                    ("preclinical_oral_surgery", "Pre-clinical Oral Surgery"),
-                    ("oral_medicine_radiology", "Oral Medicine / Oral Diagnosis / Oral Radiology"),
-                    ("community_dentistry", "Community Dentistry"),
-                    ("periodontology", "Periodontology"),
-                    ("oral_pathology", "Oral Pathology / Oral and Maxillofacial Pathology"),
-                ],
-            ),
-            (
-                "clinical",
-                "Clinical Dentistry",
-                [
-                    ("conservative_dentistry", "Conservative Dentistry"),
-                    ("prosthodontics", "Prosthodontics"),
-                    ("endodontics", "Endodontics"),
-                    ("orthodontics", "Orthodontics"),
-                    ("pediatric_dentistry", "Pediatric Dentistry"),
-                    ("oral_maxillofacial_surgery", "Oral and Maxillofacial Surgery"),
-                    ("implantology", "Implantology"),
-                    ("medically_compromised", "Management of Medically Compromised Patients"),
-                    ("dental_ethics", "Medical Ethics / Ethics in Dentistry"),
-                    ("comprehensive_care", "Comprehensive Dental Care"),
-                    ("evidence_based_dentistry", "Evidence-Based Dentistry"),
-                    ("medical_emergency", "Medical Emergency in Dentistry"),
-                ],
-            ),
-        ],
-        # Flat list used for label lookups (filled below)
+        # Imported from dentistry/stages.py — do not duplicate lists here
+        "stages": dentistry_stages_as_catalog(),
         "specialties": [],
-        "bank_aliases": {
-            "anatomy": "anatomy",
-            "head_neck_anatomy": "anatomy",
-            "oral_histology": "dental_anatomy",
-            "oral_biology": "dental_anatomy",
-            "dental_terminology": "dental_anatomy",
-            "preclinical_operative": "restorative",
-            "preclinical_prosthodontics": "prosthodontics",
-            "preclinical_oral_surgery": "oral_surgery",
-            "oral_medicine_radiology": "oral_radiology",
-            "periodontology": "periodontics",
-            "oral_pathology": "oral_medicine",
-            "conservative_dentistry": "restorative",
-            "oral_maxillofacial_surgery": "oral_surgery",
-        },
+        "bank_aliases": dict(DENTISTRY_BANK_FILE_MAP),
     },
     "pharmacy": {
         "label": "Pharmacy",
@@ -200,7 +137,23 @@ def _fill_flat_specialties() -> None:
         dep["specialties"] = flat
 
 
+def ensure_all_department_banks() -> dict[str, list[str]]:
+    """Ensure every specialty/curriculum has a bank JSON file. Returns created stems by dept."""
+    from bank_loader import ensure_bank_files
+
+    created: dict[str, list[str]] = {}
+    # Dentistry: curriculum stems (including shared remaps)
+    created["dentistry"] = ensure_dentistry_banks(DEPARTMENTS["dentistry"]["banks_dir"])
+    for key, dep in DEPARTMENTS.items():
+        if key == "dentistry":
+            continue
+        stems = [spec_key for spec_key, _label in dep["specialties"]]
+        created[key] = ensure_bank_files(dep["banks_dir"], stems)
+    return created
+
+
 _fill_flat_specialties()
+ensure_all_department_banks()
 
 
 def uses_stages(department: str) -> bool:
