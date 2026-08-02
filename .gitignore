@@ -30,3 +30,7 @@ data/seen_questions.json
 question_input/bot.log
 question_input/data/tmp/
 question_input/.env
+
+# Bot supervisor logs
+scripts/bots_ensure.log
+scripts/bots_supervisor.log

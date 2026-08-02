@@ -57,3 +57,27 @@ cp .env.example .env   # set QUESTION_INPUT_BOT_TOKEN from @BotFather
 Flow: content type → department → specialty → (difficulty) → count → enter each item with choices.
 Short MCQs are written into that specialty’s `question_banks/*.json` and appear in the linked department bot.
 
+## Keep bots running 24/7
+
+Each bot already restarts itself via `run_bot.sh`. For **all bots together**, use the supervisor:
+
+```bash
+bash scripts/start_bot_supervisor.sh   # start/repair all bots + watchdog
+bash scripts/ensure_bots.sh            # one-shot health check / restart
+```
+
+The supervisor checks every 30s and restarts any bot whose `python3 main.py` process is missing.
+
+### Important about hosting
+
+- A **Cursor cloud agent VM is not a permanent 24/7 server** — when the agent/VM stops, bots stop.
+- For real always-on service, deploy this repo on a small VPS (DigitalOcean, Hetzner, Railway, etc.), put tokens in `.env` files, then:
+
+```bash
+# on the VPS
+bash scripts/start_bot_supervisor.sh
+# or install the systemd unit (edit paths/user first):
+# sudo cp deploy/charanas-bots.service /etc/systemd/system/
+# sudo systemctl enable --now charanas-bots
+```
+
