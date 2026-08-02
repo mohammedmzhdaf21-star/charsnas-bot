@@ -133,7 +133,9 @@ async def cmd_start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     rows.append([("Cancel", "cancel")])
     await update.message.reply_text(
         "CharaNas *Question Input*\n\n"
-        "What do you want to add into a department bot?",
+        "What do you want to add into a department bot?\n\n"
+        "• *Generate Short MCQs (auto-save)* — Perplexity writes questions into the bank\n"
+        "• *Type Short MCQs myself* — you enter stem/options one by one",
         reply_markup=_kb(rows),
         parse_mode="Markdown",
     )
@@ -608,7 +610,9 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         rows = [[(label, f"type:{key}")] for key, label in CONTENT_TYPES]
         rows.append([("Cancel", "cancel")])
         await query.edit_message_text(
-            "What do you want to add into a department bot?",
+            "What do you want to add into a department bot?\n\n"
+            "• Generate Short MCQs (auto-save) — Perplexity writes into the bank\n"
+            "• Type Short MCQs myself — enter stem/options manually",
             reply_markup=_kb(rows),
         )
         return
@@ -645,7 +649,29 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
             )
             clear_flow(context)
             return
+        if ctype == "short_mcq":
+            # Offer generate vs manual so users don't land on stem entry by mistake
+            f["step"] = "mcq_mode"
+            rows = [
+                [("Generate with Perplexity (auto-save)", "type:perplexity_mcq")],
+                [("Type myself (stem / A–D)", "mcqmode:manual")],
+                [("⟵ Back", "back:type"), ("Cancel", "cancel")],
+            ]
+            await query.edit_message_text(
+                "Short MCQ — how do you want to add them?\n\n"
+                "*Generate* writes questions into the bank automatically.\n"
+                "*Type myself* asks you for each stem and options.",
+                reply_markup=_kb(rows),
+                parse_mode="Markdown",
+            )
+            return
         f["content_type"] = ctype
+        f["step"] = "department"
+        await show_departments(update, context)
+        return
+
+    if data == "mcqmode:manual":
+        f["content_type"] = "short_mcq"
         f["step"] = "department"
         await show_departments(update, context)
         return
