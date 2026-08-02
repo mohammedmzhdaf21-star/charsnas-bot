@@ -30,7 +30,14 @@ try:
         stage_label,
         uses_stages,
     )
-    from perplexity_gen import PerplexityError, configured as perplexity_configured, generate_short_mcqs
+    from perplexity_gen import (
+        PerplexityError,
+        allocate_mix,
+        configured as perplexity_configured,
+        generate_batch,
+        mix_summary,
+        single_distribution,
+    )
     from storage import append_book, append_case, append_short_mcq, bank_counts, save_pdf
 except ImportError:  # pragma: no cover
     from question_input.catalog import (
@@ -46,8 +53,11 @@ except ImportError:  # pragma: no cover
     )
     from question_input.perplexity_gen import (
         PerplexityError,
+        allocate_mix,
         configured as perplexity_configured,
-        generate_short_mcqs,
+        generate_batch,
+        mix_summary,
+        single_distribution,
     )
     from question_input.storage import append_book, append_case, append_short_mcq, bank_counts, save_pdf
 
@@ -138,14 +148,13 @@ async def cmd_help(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     pplx = "ready" if perplexity_configured() else "missing PERPLEXITY_API_KEY"
     await update.message.reply_text(
         "Use /start to add content.\n\n"
-        "Flow:\n"
-        "1) Choose Short MCQ / Generate with Perplexity / Case / PDF / Book\n"
-        "2) Choose department (Medicine, Dentistry, Pharmacy, MLS, Nursing)\n"
-        "3) Choose specialty (Dentistry: stage → curriculum)\n"
-        "4) Enter how many items\n"
-        "5) Submit each item — or for Perplexity, send a topic and questions are saved automatically\n\n"
+        "Manual flow: Short MCQ / Case / PDF / Book → department → specialty → enter items.\n\n"
+        "Perplexity flow:\n"
+        "1) Generate Short MCQs (Perplexity)\n"
+        "2) Form: department → stage/curriculum → count → topic → difficulty mix\n"
+        "3) API returns strict JSON → validated → preview\n"
+        "4) Publish / drop / edit / discard before anything is saved\n\n"
         f"Perplexity status: {pplx}\n"
-        "Short MCQs are saved into that specialty’s live question bank.\n"
         "Use /cancel to stop."
     )
 
@@ -262,17 +271,19 @@ async def ask_count(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         tip = (
             "How many Short MCQs should Perplexity generate?\n"
             "Send a number from *1* to *20*.\n"
-            "They will be saved into this bank automatically."
+            "You will preview and publish before anything is saved."
         )
+        difficulty_line = ""
     else:
         tip = (
             "How many items will you input now?\n"
             "Send a number from *1* to *50*."
         )
+        difficulty_line = f"Difficulty: *{f.get('difficulty', 'n/a')}*\n\n"
     await safe_edit_or_reply(
         update,
         f"*{_path_label(f)}*\n"
-        f"Difficulty: *{f.get('difficulty', 'n/a')}*\n\n"
+        f"{difficulty_line}"
         f"{tip}",
     )
 
@@ -284,8 +295,37 @@ async def ask_perplexity_topic(update: Update, context: ContextTypes.DEFAULT_TYP
     await safe_edit_or_reply(
         update,
         f"*{_path_label(f)}*\n"
-        f"Generate *{f['count']}* {f.get('difficulty')} Short MCQs via Perplexity.\n\n"
+        f"Count: *{f['count']}*\n\n"
         f"Send a *topic focus* (e.g. pulpitis diagnosis), or type `skip` to use *{spec}*.",
+    )
+
+
+async def show_distribution_menu(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    f = flow(context)
+    f["step"] = "pplx_distribution"
+    rows = [[(f"Level {n}", f"pplxlevel:{n}")] for n in range(1, 6)]
+    rows.append([("Single difficulty…", "pplxdist:single")])
+    rows.append([("⟵ Back", "back:pplx_topic"), ("Cancel", "cancel")])
+    topic = f.get("topic") or specialty_label(f["department"], f["specialty"])
+    await safe_edit_or_reply(
+        update,
+        f"*{_path_label(f)}*\n"
+        f"Topic: *{topic}*\n"
+        f"Count: *{f['count']}*\n\n"
+        "Choose the *difficulty distribution*:\n"
+        "Levels 1–5 use the same mixes as the study bots, or pick one single difficulty.",
+        reply_markup=_kb(rows),
+    )
+
+
+async def show_single_difficulty_menu(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    f = flow(context)
+    rows = [[(label, f"pplxdiff:{key}")] for key, label in DIFFICULTIES]
+    rows.append([("⟵ Back", "back:pplx_dist"), ("Cancel", "cancel")])
+    await safe_edit_or_reply(
+        update,
+        "Choose one difficulty for all generated questions:",
+        reply_markup=_kb(rows),
     )
 
 
@@ -299,52 +339,68 @@ async def begin_item_entry(update: Update, context: ContextTypes.DEFAULT_TYPE) -
     await prompt_next_item(update, context)
 
 
-async def run_perplexity_generation(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    f = flow(context)
-    if not perplexity_configured():
-        await update.message.reply_text(
-            "Perplexity is not configured.\n"
-            "Add `PERPLEXITY_API_KEY` to `question_input/.env`, restart the input bot, then try again."
-        )
-        clear_flow(context)
-        return
-
-    dep = DEPARTMENTS[f["department"]]
-    spec_lab = specialty_label(f["department"], f["specialty"])
-    await update.message.reply_text(
-        f"Generating *{f['count']}* Short MCQs with Perplexity for\n"
-        f"*{_path_label(f)}*…\n"
-        "This can take up to a minute.",
-        parse_mode="Markdown",
+def _escape_md(text: str) -> str:
+    return (
+        text.replace("\\", "\\\\")
+        .replace("*", "\\*")
+        .replace("_", "\\_")
+        .replace("`", "\\`")
+        .replace("[", "\\[")
     )
-    f["step"] = "pplx_generating"
-    try:
-        items = await asyncio.to_thread(
-            generate_short_mcqs,
-            department_label=dep["label"],
-            specialty_label=spec_lab,
-            difficulty=f["difficulty"],
-            count=int(f["count"]),
-            topic=f.get("topic") or "",
-        )
-    except PerplexityError as exc:
-        log.exception("Perplexity generation failed")
-        await update.message.reply_text(f"Perplexity generation failed:\n{exc}\n\nSend /start to try again.")
-        clear_flow(context)
-        return
-    except Exception as exc:  # pragma: no cover
-        log.exception("Unexpected Perplexity error")
-        await update.message.reply_text(f"Unexpected error: {exc}\n\nSend /start to try again.")
-        clear_flow(context)
-        return
 
+
+def _preview_keyboard() -> InlineKeyboardMarkup:
+    return _kb(
+        [
+            [("Publish all", "pplx:publish"), ("Drop this", "pplx:drop")],
+            [("Next", "pplx:next"), ("Edit stem", "pplx:edit")],
+            [("Discard draft", "pplx:discard")],
+        ]
+    )
+
+
+async def show_draft_preview(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    f = flow(context)
+    draft = f.get("pplx_draft") or {}
+    items = draft.get("questions") or []
+    if not items:
+        clear_flow(context)
+        await safe_edit_or_reply(update, "Draft is empty. Send /start to generate again.")
+        return
+    idx = min(int(f.get("pplx_index", 0)), len(items) - 1)
+    f["pplx_index"] = idx
+    f["step"] = "pplx_preview"
+    item = items[idx]
+    opts = "\n".join(f"{L}) {_escape_md(o)}" for L, o in zip("ABCD", item["options"]))
+    dist = mix_summary(draft.get("difficulty_distribution") or {})
+    text = (
+        f"*Preview {idx + 1}/{len(items)}* — not saved yet\n"
+        f"*{_path_label(f)}*\n"
+        f"Topic: {_escape_md(draft.get('topic') or '')}\n"
+        f"Mix: {dist}\n\n"
+        f"*[{item['difficulty']}]* {_escape_md(item['question'])}\n\n"
+        f"{opts}\n\n"
+        f"Answer: *{item['answer_letter']}*\n"
+        f"Explanation: {_escape_md(item.get('explanation') or '')}\n\n"
+        "Publish inserts into the live bank. Drop removes this item. Edit stem lets you rewrite it."
+    )
+    await safe_edit_or_reply(update, text, reply_markup=_preview_keyboard())
+
+
+async def publish_draft(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    f = flow(context)
+    draft = f.get("pplx_draft") or {}
+    items = list(draft.get("questions") or [])
+    if not items:
+        await safe_edit_or_reply(update, "Nothing to publish. Send /start.")
+        clear_flow(context)
+        return
     saved = 0
-    previews: list[str] = []
     for item in items:
-        saved_item = append_short_mcq(
+        append_short_mcq(
             f["department"],
             f["specialty"],
-            f["difficulty"],
+            item["difficulty"],
             question=item["question"],
             options=item["options"],
             answer_letter=item["answer_letter"],
@@ -352,21 +408,77 @@ async def run_perplexity_generation(update: Update, context: ContextTypes.DEFAUL
             source="perplexity",
         )
         saved += 1
-        if len(previews) < 3:
-            q = saved_item["question"]
-            if len(q) > 120:
-                q = q[:117] + "…"
-            previews.append(f"• {q}")
-
     f["saved"] = saved
-    preview_text = "\n".join(previews)
-    more = "" if saved <= 3 else f"\n…and {saved - 3} more."
-    await update.message.reply_text(
-        f"Perplexity generated and saved *{saved}* Short MCQs.\n\n"
-        f"{preview_text}{more}",
-        parse_mode="Markdown",
-    )
+    f["content_type"] = "perplexity_mcq"
     await finish_flow(update, context)
+
+
+async def _reply_plain(update: Update, text: str, *, markdown: bool = False) -> None:
+    kwargs = {"parse_mode": "Markdown"} if markdown else {}
+    if update.callback_query and update.callback_query.message:
+        await update.callback_query.message.reply_text(text, **kwargs)
+        return
+    if update.message:
+        await update.message.reply_text(text, **kwargs)
+
+
+async def run_perplexity_generation(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    f = flow(context)
+    if not perplexity_configured():
+        await _reply_plain(
+            update,
+            "Perplexity is not configured.\n"
+            "Add `PERPLEXITY_API_KEY` to `question_input/.env`, restart the input bot, then try again.",
+        )
+        clear_flow(context)
+        return
+
+    dep = DEPARTMENTS[f["department"]]
+    spec_lab = specialty_label(f["department"], f["specialty"])
+    dist = f.get("distribution") or single_distribution(int(f["count"]), "medium")
+    stage_key = f.get("stage") or ""
+    s_label = stage_label(f["department"], stage_key) if stage_key else ""
+    await _reply_plain(
+        update,
+        f"Calling Perplexity for\n*{_path_label(f)}*\n"
+        f"Mix: {mix_summary(dist)}\n\n"
+        "Validating strict JSON when it returns…",
+        markdown=True,
+    )
+    f["step"] = "pplx_generating"
+    try:
+        batch = await asyncio.to_thread(
+            generate_batch,
+            department_key=f["department"],
+            department_label=dep["label"],
+            specialty_key=f["specialty"],
+            specialty_label=spec_lab,
+            distribution=dist,
+            topic=f.get("topic") or "",
+            stage_key=stage_key,
+            stage_label=s_label,
+        )
+    except PerplexityError as exc:
+        log.exception("Perplexity generation failed")
+        await _reply_plain(update, f"Perplexity generation failed:\n{exc}\n\nSend /start to try again.")
+        clear_flow(context)
+        return
+    except Exception as exc:  # pragma: no cover
+        log.exception("Unexpected Perplexity error")
+        await _reply_plain(update, f"Unexpected error: {exc}\n\nSend /start to try again.")
+        clear_flow(context)
+        return
+
+    f["pplx_draft"] = batch
+    f["pplx_index"] = 0
+    await _reply_plain(
+        update,
+        f"Validated *{len(batch['questions'])}* Short MCQs.\n"
+        f"Mix: {mix_summary(batch['difficulty_distribution'])}\n"
+        "Opening preview — publish only when you are ready.",
+        markdown=True,
+    )
+    await show_draft_preview(update, context)
 
 
 async def prompt_next_item(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -537,7 +649,10 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
     if data.startswith("spec:"):
         f["specialty"] = data.split(":", 1)[1]
         ctype = f.get("content_type")
-        if ctype in {"short_mcq", "perplexity_mcq", "case_based"}:
+        if ctype == "perplexity_mcq":
+            # Form continues: count → topic → difficulty distribution
+            await ask_count(update, context)
+        elif ctype in {"short_mcq", "case_based"}:
             f["step"] = "difficulty"
             await show_difficulty(update, context)
         elif ctype == "pdf_files":
@@ -555,6 +670,79 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
     if data.startswith("diff:"):
         f["difficulty"] = data.split(":", 1)[1]
         await ask_count(update, context)
+        return
+
+    if data == "back:pplx_topic":
+        await ask_perplexity_topic(update, context)
+        return
+
+    if data == "back:pplx_dist":
+        await show_distribution_menu(update, context)
+        return
+
+    if data == "pplxdist:single":
+        await show_single_difficulty_menu(update, context)
+        return
+
+    if data.startswith("pplxlevel:"):
+        level = int(data.split(":", 1)[1])
+        f["distribution"] = allocate_mix(int(f["count"]), level)
+        f["difficulty"] = f"level_{level}"
+        await run_perplexity_generation(update, context)
+        return
+
+    if data.startswith("pplxdiff:"):
+        difficulty = data.split(":", 1)[1]
+        f["distribution"] = single_distribution(int(f["count"]), difficulty)
+        f["difficulty"] = difficulty
+        await run_perplexity_generation(update, context)
+        return
+
+    if data == "pplx:publish":
+        await publish_draft(update, context)
+        return
+
+    if data == "pplx:discard":
+        clear_flow(context)
+        await query.edit_message_text("Draft discarded. Nothing was saved. Send /start to begin again.")
+        return
+
+    if data == "pplx:drop":
+        draft = f.get("pplx_draft") or {}
+        items = draft.get("questions") or []
+        idx = int(f.get("pplx_index", 0))
+        if items and 0 <= idx < len(items):
+            items.pop(idx)
+            draft["questions"] = items
+            dist = {"easy": 0, "medium": 0, "hard": 0, "extreme": 0}
+            for item in items:
+                dist[item["difficulty"]] = dist.get(item["difficulty"], 0) + 1
+            draft["difficulty_distribution"] = dist
+            f["pplx_draft"] = draft
+            if not items:
+                clear_flow(context)
+                await query.edit_message_text("All items dropped. Nothing saved. Send /start.")
+                return
+            f["pplx_index"] = min(idx, len(items) - 1)
+        await show_draft_preview(update, context)
+        return
+
+    if data == "pplx:next":
+        draft = f.get("pplx_draft") or {}
+        items = draft.get("questions") or []
+        if items:
+            f["pplx_index"] = (int(f.get("pplx_index", 0)) + 1) % len(items)
+        await show_draft_preview(update, context)
+        return
+
+    if data == "pplx:edit":
+        f["step"] = "pplx_edit_stem"
+        await query.edit_message_text(
+            "Send the *new question stem* for this item.\n"
+            "Options, answer, and explanation stay the same unless you discard and regenerate.\n"
+            "Send /cancel to abort editing.",
+            parse_mode="Markdown",
+        )
         return
 
 
@@ -585,11 +773,32 @@ async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
     if step == "pplx_topic":
         f["topic"] = "" if text.lower() in {"skip", "/skip"} else text
-        await run_perplexity_generation(update, context)
+        await show_distribution_menu(update, context)
+        return
+
+    if step == "pplx_edit_stem":
+        draft = f.get("pplx_draft") or {}
+        items = draft.get("questions") or []
+        idx = int(f.get("pplx_index", 0))
+        if not items or not (0 <= idx < len(items)):
+            await update.message.reply_text("No draft item to edit. Send /start.")
+            clear_flow(context)
+            return
+        items[idx]["question"] = text
+        draft["questions"] = items
+        f["pplx_draft"] = draft
+        await update.message.reply_text("Stem updated.")
+        await show_draft_preview(update, context)
         return
 
     if step == "pplx_generating":
         await update.message.reply_text("Still generating with Perplexity… please wait.")
+        return
+
+    if step == "pplx_preview":
+        await update.message.reply_text(
+            "Use the preview buttons: Publish all / Drop this / Next / Edit stem / Discard draft."
+        )
         return
 
     ctype = f.get("content_type")
