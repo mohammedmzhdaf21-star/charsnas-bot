@@ -34,3 +34,6 @@ question_input/.env
 # Bot supervisor logs
 scripts/bots_ensure.log
 scripts/bots_supervisor.log
+
+# VPS deploy keys (never commit private keys)
+deploy/ssh/
