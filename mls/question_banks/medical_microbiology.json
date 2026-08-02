@@ -1,0 +1,2170 @@
+{
+  "easy": [
+    {
+      "id": "medical_microbiology:easy:0",
+      "question": "Which of the following is true of gram primary stain?",
+      "options": [
+        "A) Alcohol/acetone is applied as the primary stain",
+        "B) Crystal violet is the primary stain in the Gram procedure",
+        "C) Safranin is the primary stain before iodine in Gram staining",
+        "D) Iodine is the decolorizer that removes dye from Gram negatives"
+      ],
+      "answer": "B) Crystal violet is the primary stain in the Gram procedure",
+      "explanation": "Crystal violet enters cells; iodine forms complexes retained differently by walls. Therefore, the most accurate choice is: Crystal violet is the primary stain in the Gram procedure. Safranin is the counterstain, not the primary stain.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Crystal violet enters cells; iodine forms complexes retained differently by walls. This matches the correct interpretation.",
+        "C": "Safranin is the counterstain, not the primary stain. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:1",
+      "question": "Which finding is expected in gram-positive color?",
+      "options": [
+        "A) Gram-positive organisms appear purple/blue after Gram stain",
+        "B) Gram-negative organisms remain purple because of thick peptidoglycan",
+        "C) Safranin is the primary stain before iodine in Gram staining",
+        "D) Gram-positive organisms appear pink/red after Gram stain"
+      ],
+      "answer": "A) Gram-positive organisms appear purple/blue after Gram stain",
+      "explanation": "Thick peptidoglycan retains the crystal violet–iodine complex. Therefore, the most accurate choice is: Gram-positive organisms appear purple/blue after Gram stain. Pink/red is the Gram-negative counterstain appearance.",
+      "choice_explanations": {
+        "A": "Thick peptidoglycan retains the crystal violet–iodine complex. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Pink/red is the Gram-negative counterstain appearance. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:2",
+      "question": "Which of the following statements about gram-negative color is correct?",
+      "options": [
+        "A) Gram-positive organisms appear pink/red after Gram stain",
+        "B) Safranin is the primary stain before iodine in Gram staining",
+        "C) Gram-negative organisms remain purple because of thick peptidoglycan",
+        "D) Gram-negative organisms appear pink/red after decolorization and safranin"
+      ],
+      "answer": "D) Gram-negative organisms appear pink/red after decolorization and safranin",
+      "explanation": "Thin peptidoglycan loses crystal violet; safranin colors them. Therefore, the most accurate choice is: Gram-negative organisms appear pink/red after decolorization and safranin. Purple retention defines Gram positives.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Purple retention defines Gram positives. It is less consistent than the correct choice.",
+        "D": "Thin peptidoglycan loses crystal violet; safranin colors them. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:3",
+      "question": "In gram iodine mordant, which of the following is correct?",
+      "options": [
+        "A) Lancefield grouping types Gram-negative enteric rods",
+        "B) Safranin is the primary stain before iodine in Gram staining",
+        "C) Iodine is the decolorizer that removes dye from Gram negatives",
+        "D) Iodine acts as a mordant forming complexes with crystal violet"
+      ],
+      "answer": "D) Iodine acts as a mordant forming complexes with crystal violet",
+      "explanation": "Mordant fixes dye complexes within the cell wall matrix. Therefore, the most accurate choice is: Iodine acts as a mordant forming complexes with crystal violet. Alcohol/acetone is the decolorizer.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Alcohol/acetone is the decolorizer. It is less consistent than the correct choice.",
+        "D": "Mordant fixes dye complexes within the cell wall matrix. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:4",
+      "question": "Which of the following best describes gram decolorizer?",
+      "options": [
+        "A) Iodine is the decolorizer that removes dye from Gram negatives",
+        "B) Alcohol/acetone is applied as the primary stain",
+        "C) Alcohol/acetone decolorizes Gram-negative cells in the Gram stain",
+        "D) Safranin is the primary stain before iodine in Gram staining"
+      ],
+      "answer": "C) Alcohol/acetone decolorizes Gram-negative cells in the Gram stain",
+      "explanation": "Solvent extracts dye from thin-walled Gram negatives. Therefore, the most accurate choice is: Alcohol/acetone decolorizes Gram-negative cells in the Gram stain. Primary stain is crystal violet.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Primary stain is crystal violet. It is less consistent than the correct choice.",
+        "C": "Solvent extracts dye from thin-walled Gram negatives. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:5",
+      "question": "Select the correct statement about acid-fast bacilli primary stain.",
+      "options": [
+        "A) Carbol fuchsin or auramine is used to stain acid-fast bacilli",
+        "B) Safranin is the primary stain before iodine in Gram staining",
+        "C) Crystal violet is the classic acid-fast primary stain",
+        "D) Acid-fast organisms decolorize completely and take only methylene blue always"
+      ],
+      "answer": "A) Carbol fuchsin or auramine is used to stain acid-fast bacilli",
+      "explanation": "Mycolic acids retain carbol fuchsin despite acid-alcohol. Therefore, the most accurate choice is: Carbol fuchsin or auramine is used to stain acid-fast bacilli. Crystal violet is for Gram stain, not acid-fast bacilli primary.",
+      "choice_explanations": {
+        "A": "Mycolic acids retain carbol fuchsin despite acid-alcohol. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Crystal violet is for Gram stain, not acid-fast bacilli primary. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:6",
+      "question": "Which mechanism accounts for acid-fast bacilli appearance?",
+      "options": [
+        "A) Crystal violet is the classic acid-fast primary stain",
+        "B) Acid-fast organisms retain red carbol fuchsin after acid-alcohol",
+        "C) Acid-fast organisms decolorize completely and take only methylene blue always",
+        "D) Gram-negative organisms remain purple because of thick peptidoglycan"
+      ],
+      "answer": "B) Acid-fast organisms retain red carbol fuchsin after acid-alcohol",
+      "explanation": "Waxy mycolic-acid walls resist decolorization. Therefore, the most accurate choice is: Acid-fast organisms retain red carbol fuchsin after acid-alcohol. Non–acid-fast cells take the counterstain.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Waxy mycolic-acid walls resist decolorization. This matches the correct interpretation.",
+        "C": "Non–acid-fast cells take the counterstain. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:7",
+      "question": "Which of the following applies to Mycobacterium tuberculosis acid-fast?",
+      "options": [
+        "A) Corynebacterium are acid-fast beaded bacilli like Mycobacterium always",
+        "B) India ink stains mycobacterial mycolic acids acid-fast",
+        "C) M. tuberculosis is an acid-fast bacillus requiring special stains and culture",
+        "D) M. tuberculosis is a Gram-negative diplococcus like N. meningitidis"
+      ],
+      "answer": "C) M. tuberculosis is an acid-fast bacillus requiring special stains and culture",
+      "explanation": "Mycolic-acid–rich wall defines acid-fast staining behavior. Therefore, the most accurate choice is: M. tuberculosis is an acid-fast bacillus requiring special stains and culture. Neisseria is Gram-negative diplococci.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Mycolic-acid–rich wall defines acid-fast staining behavior. This matches the correct interpretation.",
+        "D": "Neisseria is Gram-negative diplococci. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:8",
+      "question": "Which of the following is true of catalase staph strep?",
+      "options": [
+        "A) H. influenzae satellites because it is a catalase-negative strep",
+        "B) S. epidermidis is coagulase-positive like S. aureus always",
+        "C) Staphylococcus is catalase-negative; Streptococcus is catalase-positive",
+        "D) Staphylococcus is catalase-positive; Streptococcus is catalase-negative"
+      ],
+      "answer": "D) Staphylococcus is catalase-positive; Streptococcus is catalase-negative",
+      "explanation": "Staphylococcal catalase decomposes H2O2 to oxygen and water. Therefore, the most accurate choice is: Staphylococcus is catalase-positive; Streptococcus is catalase-negative. Catalase is the classic staph versus strep screen.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Catalase is the classic staph versus strep screen. It is less consistent than the correct choice.",
+        "D": "Staphylococcal catalase decomposes H2O2 to oxygen and water. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:9",
+      "question": "Which finding is expected in coagulase aureus?",
+      "options": [
+        "A) S. epidermidis is coagulase-positive like S. aureus always",
+        "B) S. aureus is coagulase-positive; many central nervous system are coagulase-negative",
+        "C) Vibrio are oxidase-negative like Enterobacterales always",
+        "D) S. epidermidis typically ferments mannitol like S. aureus always"
+      ],
+      "answer": "B) S. aureus is coagulase-positive; many central nervous system are coagulase-negative",
+      "explanation": "Coagulase clots plasma, a key S. aureus marker. Therefore, the most accurate choice is: S. aureus is coagulase-positive; many central nervous system are coagulase-negative. CoNS are coagulase-negative.",
+      "choice_explanations": {
+        "A": "CoNS are coagulase-negative. It is less consistent than the correct choice.",
+        "B": "Coagulase clots plasma, a key S. aureus marker. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:10",
+      "question": "Which of the following statements about middle superior alveolar mannitol is correct?",
+      "options": [
+        "A) V. cholerae grows green on thiosulfate-citrate-bile salts-sucrose agar like V. parahaemolyticus always",
+        "B) S. aureus ferments mannitol on middle superior alveolar producing yellow colonies",
+        "C) S. epidermidis is coagulase-positive like S. aureus always",
+        "D) S. epidermidis typically ferments mannitol like S. aureus always"
+      ],
+      "answer": "B) S. aureus ferments mannitol on middle superior alveolar producing yellow colonies",
+      "explanation": "Mannitol fermentation acidifies middle superior alveolar indicator under staphylococcal growth. Therefore, the most accurate choice is: S. aureus ferments mannitol on middle superior alveolar producing yellow colonies. S. epidermidis usually mannitol-negative.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Mannitol fermentation acidifies middle superior alveolar indicator under staphylococcal growth. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "S. epidermidis usually mannitol-negative. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:11",
+      "question": "In alpha hemolysis, which of the following is correct?",
+      "options": [
+        "A) Beta-hemolysis is green partial hemolysis like pneumococcus",
+        "B) Alpha-hemolysis is complete clear hemolysis like S. pyogenes",
+        "C) Viridans streptococci are bile-soluble like pneumococcus",
+        "D) Alpha-hemolysis is green partial hemolysis such as S. pneumoniae and viridans"
+      ],
+      "answer": "D) Alpha-hemolysis is green partial hemolysis such as S. pneumoniae and viridans",
+      "explanation": "H2O2 and partial red blood cell degradation green the agar. Therefore, the most accurate choice is: Alpha-hemolysis is green partial hemolysis such as S. pneumoniae and viridans. Beta-hemolysis is complete clearing.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Beta-hemolysis is complete clearing. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "H2O2 and partial red blood cell degradation green the agar. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:12",
+      "question": "Which of the following best describes beta hemolysis?",
+      "options": [
+        "A) Beta-hemolysis is complete clear-zone hemolysis such as group A Streptococcus and some Guillain-Barré syndrome",
+        "B) Beta-hemolysis is green partial hemolysis like pneumococcus",
+        "C) S. pyogenes is classically CAMP-positive like Guillain-Barré syndrome",
+        "D) Alpha-hemolysis is complete clear hemolysis like S. pyogenes"
+      ],
+      "answer": "A) Beta-hemolysis is complete clear-zone hemolysis such as group A Streptococcus and some Guillain-Barré syndrome",
+      "explanation": "Hemolysins fully lyse red blood cells around colonies. Therefore, the most accurate choice is: Beta-hemolysis is complete clear-zone hemolysis such as group A Streptococcus and some Guillain-Barré syndrome. Alpha is partial green hemolysis.",
+      "choice_explanations": {
+        "A": "Hemolysins fully lyse red blood cells around colonies. This matches the correct interpretation.",
+        "B": "Alpha is partial green hemolysis. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:13",
+      "question": "Select the correct interpretation for optochin.",
+      "options": [
+        "A) Viridans streptococci are bile-soluble like pneumococcus",
+        "B) Beta-hemolysis is green partial hemolysis like pneumococcus",
+        "C) Viridans streptococci are optochin-susceptible like pneumococcus",
+        "D) S. pneumoniae is optochin-susceptible; viridans streptococci are resistant"
+      ],
+      "answer": "D) S. pneumoniae is optochin-susceptible; viridans streptococci are resistant",
+      "explanation": "Optochin inhibits pneumococcal growth in a zone assay. Therefore, the most accurate choice is: S. pneumoniae is optochin-susceptible; viridans streptococci are resistant. Viridans resistance distinguishes them from pneumococcus.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Viridans resistance distinguishes them from pneumococcus. It is less consistent than the correct choice.",
+        "D": "Optochin inhibits pneumococcal growth in a zone assay. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:14",
+      "question": "Which mechanism accounts for bile solubility?",
+      "options": [
+        "A) S. pneumoniae is bile-soluble; viridans streptococci are not",
+        "B) Viridans streptococci are bile-soluble like pneumococcus",
+        "C) Viridans streptococci are optochin-susceptible like pneumococcus",
+        "D) Viridans streptococci typically grow in 6.5% NaCl like enterococci"
+      ],
+      "answer": "A) S. pneumoniae is bile-soluble; viridans streptococci are not",
+      "explanation": "Bile salts autolyze pneumococci, clearing the suspension. Therefore, the most accurate choice is: S. pneumoniae is bile-soluble; viridans streptococci are not. Viridans remain turbid.",
+      "choice_explanations": {
+        "A": "Bile salts autolyze pneumococci, clearing the suspension. This matches the correct interpretation.",
+        "B": "Viridans remain turbid. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:15",
+      "question": "Which of the following applies to lancefield?",
+      "options": [
+        "A) Campylobacter grows as aerobic spore-forming Gram-positive rods",
+        "B) Lancefield groups classify beta-hemolytic streptococci by cell-wall carbohydrate",
+        "C) Lancefield grouping types Gram-negative enteric rods",
+        "D) Neisseria are Gram-positive rods in chains"
+      ],
+      "answer": "B) Lancefield groups classify beta-hemolytic streptococci by cell-wall carbohydrate",
+      "explanation": "C-carbohydrate antigens define groups A, B, C, G, and others. Therefore, the most accurate choice is: Lancefield groups classify beta-hemolytic streptococci by cell-wall carbohydrate. Enterobacterales use different iron deficiency systems.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "C-carbohydrate antigens define groups A, B, C, G, and others. This matches the correct interpretation.",
+        "C": "Enterobacterales use different iron deficiency systems. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:16",
+      "question": "Which of the following is true about group A Streptococcus pyrrolidonyl arylamidase?",
+      "options": [
+        "A) S. pyogenes is classically CAMP-positive like Guillain-Barré syndrome",
+        "B) S. pyogenes is PYR-positive and historically bacitracin-susceptible",
+        "C) Vibrio are oxidase-negative like Enterobacterales always",
+        "D) S. agalactiae is PYR-positive like group A Streptococcus always"
+      ],
+      "answer": "B) S. pyogenes is PYR-positive and historically bacitracin-susceptible",
+      "explanation": "pyrrolidonyl arylamidase arylamidase activity supports group A Streptococcus and enterococcus clues. Therefore, the most accurate choice is: S. pyogenes is PYR-positive and historically bacitracin-susceptible. Guillain-Barré syndrome is PYR-negative.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "pyrrolidonyl arylamidase arylamidase activity supports group A Streptococcus and enterococcus clues. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Guillain-Barré syndrome is PYR-negative. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:17",
+      "question": "Which finding is expected in Guillain-Barré syndrome Christie-Atkins-Munch-Petersen?",
+      "options": [
+        "A) S. agalactiae shows positive Christie-Atkins-Munch-Petersen test with enhanced hemolysis near S. aureus",
+        "B) S. pyogenes is classically CAMP-positive like Guillain-Barré syndrome",
+        "C) S. agalactiae is PYR-positive like group A Streptococcus always",
+        "D) Corynebacterium are acid-fast beaded bacilli like Mycobacterium always"
+      ],
+      "answer": "A) S. agalactiae shows positive Christie-Atkins-Munch-Petersen test with enhanced hemolysis near S. aureus",
+      "explanation": "Guillain-Barré syndrome Christie-Atkins-Munch-Petersen factor synergizes with staphylococcal β-lysin. Therefore, the most accurate choice is: S. agalactiae shows positive Christie-Atkins-Munch-Petersen test with enhanced hemolysis near S. aureus. group A Streptococcus is CAMP-negative.",
+      "choice_explanations": {
+        "A": "Guillain-Barré syndrome Christie-Atkins-Munch-Petersen factor synergizes with staphylococcal β-lysin. This matches the correct interpretation.",
+        "B": "group A Streptococcus is CAMP-negative. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:18",
+      "question": "Which of the following statements about enterococcus bile esculin azide is correct?",
+      "options": [
+        "A) Enterococci grow in 6.5% NaCl and hydrolyze esculin on bile esculin agar",
+        "B) H. influenzae requires only bile esculin hydrolysis for growth",
+        "C) Viridans streptococci are bile-soluble like pneumococcus",
+        "D) Viridans streptococci typically grow in 6.5% NaCl like enterococci"
+      ],
+      "answer": "A) Enterococci grow in 6.5% NaCl and hydrolyze esculin on bile esculin agar",
+      "explanation": "Salt tolerance plus esculin hydrolysis support enterococcal iron deficiency. Therefore, the most accurate choice is: Enterococci grow in 6.5% NaCl and hydrolyze esculin on bile esculin agar. Viridans lack 6.5% NaCl growth.",
+      "choice_explanations": {
+        "A": "Salt tolerance plus esculin hydrolysis support enterococcal iron deficiency. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Viridans lack 6.5% NaCl growth. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:19",
+      "question": "In neisseria gram-negative diplococci, which of the following is correct?",
+      "options": [
+        "A) Vibrio are oxidase-negative like Enterobacterales always",
+        "B) Neisseria are Gram-negative diplococci in kidney-bean pairs",
+        "C) Clostridia are aerobic Gram-negative cocci",
+        "D) Neisseria are Gram-positive rods in chains"
+      ],
+      "answer": "B) Neisseria are Gram-negative diplococci in kidney-bean pairs",
+      "explanation": "Coffee-bean gram-negative diplococci morphology is classic in PMNs on smears. Therefore, the most accurate choice is: Neisseria are Gram-negative diplococci in kidney-bean pairs. gutta-percha rods describe other genera.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Coffee-bean gram-negative diplococci morphology is classic in PMNs on smears. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "gutta-percha rods describe other genera. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:20",
+      "question": "Which of the following best describes Neisseria gonorrhoeae culture?",
+      "options": [
+        "A) Chlamydia grows readily on ordinary blood agar in 24 hours",
+        "B) N. gonorrhoeae grows readily on unsupplemented MacConkey agar",
+        "C) MacConkey agar is selective for Gram-positive cocci only",
+        "D) N. gonorrhoeae requires chocolate or Thayer-Martin media and increased carbon dioxide"
+      ],
+      "answer": "D) N. gonorrhoeae requires chocolate or Thayer-Martin media and increased carbon dioxide",
+      "explanation": "Fastidious Neisseria need enriched selective media for genital sites. Therefore, the most accurate choice is: N. gonorrhoeae requires chocolate or Thayer-Martin media and increased carbon dioxide. MacConkey selects enteric Gram negatives.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "MacConkey selects enteric Gram negatives. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Fastidious Neisseria need enriched selective media for genital sites. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:21",
+      "question": "Select the correct statement about meningococcus cerebrospinal fluid.",
+      "options": [
+        "A) N. meningitidis is an acid-fast filamentous rod",
+        "B) N. meningitidis can cause meningitis with gram-negative diplococci in cerebrospinal fluid neutrophils",
+        "C) M. tuberculosis is a Gram-negative diplococcus like N. meningitidis",
+        "D) cerebrospinal fluid Gram stain results can be deferred without clinical impact"
+      ],
+      "answer": "B) N. meningitidis can cause meningitis with gram-negative diplococci in cerebrospinal fluid neutrophils",
+      "explanation": "Encapsulated meningococci invade meninges producing purulent cerebrospinal fluid. Therefore, the most accurate choice is: N. meningitidis can cause meningitis with gram-negative diplococci in cerebrospinal fluid neutrophils. acid-fast bacilli morphology is mycobacteria.",
+      "choice_explanations": {
+        "A": "acid-fast bacilli morphology is mycobacteria. It is less consistent than the correct choice.",
+        "B": "Encapsulated meningococci invade meninges producing purulent cerebrospinal fluid. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:22",
+      "question": "Which mechanism accounts for haemophilus X and V growth factors?",
+      "options": [
+        "A) H. influenzae requires only bile esculin hydrolysis for growth",
+        "B) Salmonella appears as bile-esculin black enterococci on xylose lysine deoxycholate agar identically",
+        "C) H. influenzae satellites because it is a catalase-negative strep",
+        "D) H. influenzae requires X hemin and V nicotinamide adenine dinucleotide factors"
+      ],
+      "answer": "D) H. influenzae requires X hemin and V nicotinamide adenine dinucleotide factors",
+      "explanation": "Factor dependence distinguishes Haemophilus species on satellite and quad plates. Therefore, the most accurate choice is: H. influenzae requires X hemin and V nicotinamide adenine dinucleotide factors. Esculin tests are for enterococcus clues.",
+      "choice_explanations": {
+        "A": "Esculin tests are for enterococcus clues. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Factor dependence distinguishes Haemophilus species on satellite and quad plates. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:23",
+      "question": "Which of the following applies to haemophilus satellite?",
+      "options": [
+        "A) Staphylococcus is catalase-negative; Streptococcus is catalase-positive",
+        "B) H. influenzae requires only bile esculin hydrolysis for growth",
+        "C) H. influenzae satellites around S. aureus providing V factor",
+        "D) H. influenzae satellites because it is a catalase-negative strep"
+      ],
+      "answer": "C) H. influenzae satellites around S. aureus providing V factor",
+      "explanation": "Staphylococcal nicotinamide adenine dinucleotide release enables Haemophilus growth nearby. Therefore, the most accurate choice is: H. influenzae satellites around S. aureus providing V factor. Satellite phenomenon is factor provision, not strep iron deficiency.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Staphylococcal nicotinamide adenine dinucleotide release enables Haemophilus growth nearby. This matches the correct interpretation.",
+        "D": "Satellite phenomenon is factor provision, not strep iron deficiency. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:24",
+      "question": "Which of the following is true of mac Conkey purpose?",
+      "options": [
+        "A) MacConkey agar is selective for Gram-positive cocci only",
+        "B) MacConkey agar selects Gram-negatives and differentiates lactose fermenters",
+        "C) Iodine is the decolorizer that removes dye from Gram negatives",
+        "D) Lactose fermenters appear colorless on MacConkey always"
+      ],
+      "answer": "B) MacConkey agar selects Gram-negatives and differentiates lactose fermenters",
+      "explanation": "Bile salts and crystal violet inhibit GPs; lactose indicator shows fermentation. Therefore, the most accurate choice is: MacConkey agar selects Gram-negatives and differentiates lactose fermenters. It selects against many GPs.",
+      "choice_explanations": {
+        "A": "It selects against many GPs. It is less consistent than the correct choice.",
+        "B": "Bile salts and crystal violet inhibit GPs; lactose indicator shows fermentation. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:25",
+      "question": "Which finding is expected in lactose fermenter?",
+      "options": [
+        "A) P. aeruginosa is oxidase-negative lactose fermenter like E. coli",
+        "B) MacConkey agar is selective for Gram-positive cocci only",
+        "C) Lactose fermenters appear colorless on MacConkey always",
+        "D) Lactose-fermenting Enterobacterales appear pink on MacConkey"
+      ],
+      "answer": "D) Lactose-fermenting Enterobacterales appear pink on MacConkey",
+      "explanation": "Acid from lactose fermentation turns indicator pink. Therefore, the most accurate choice is: Lactose-fermenting Enterobacterales appear pink on MacConkey. Nonfermenters stay pale.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Nonfermenters stay pale. It is less consistent than the correct choice.",
+        "D": "Acid from lactose fermentation turns indicator pink. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:26",
+      "question": "Which of the following statements about e coli iron deficiency is correct?",
+      "options": [
+        "A) E. coli is typically indole-positive, lactose-positive, and oxidase-negative",
+        "B) E. coli is oxidase-positive like Pseudomonas",
+        "C) Shigella is motile H2S-positive like many Salmonella",
+        "D) P. aeruginosa is oxidase-negative lactose fermenter like E. coli"
+      ],
+      "answer": "A) E. coli is typically indole-positive, lactose-positive, and oxidase-negative",
+      "explanation": "Tryptophanase yields indole; oxidase-negative fermenters fit E. coli. Therefore, the most accurate choice is: E. coli is typically indole-positive, lactose-positive, and oxidase-negative. Pseudomonas is an oxidase-positive nonfermenter.",
+      "choice_explanations": {
+        "A": "Tryptophanase yields indole; oxidase-negative fermenters fit E. coli. This matches the correct interpretation.",
+        "B": "Pseudomonas is an oxidase-positive nonfermenter. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:27",
+      "question": "In klebsiella mucoid, which of the following is correct?",
+      "options": [
+        "A) Klebsiella often appears mucoid from capsule and K. pneumoniae is indole-negative",
+        "B) Klebsiella pneumoniae is typically highly motile with swarming",
+        "C) Shigella is motile H2S-positive like many Salmonella",
+        "D) B. anthracis is highly motile like B. cereus always"
+      ],
+      "answer": "A) Klebsiella often appears mucoid from capsule and K. pneumoniae is indole-negative",
+      "explanation": "Prominent capsule produces mucoid colonies. Therefore, the most accurate choice is: Klebsiella often appears mucoid from capsule and K. pneumoniae is indole-negative. Proteus swarms.",
+      "choice_explanations": {
+        "A": "Prominent capsule produces mucoid colonies. This matches the correct interpretation.",
+        "B": "Proteus swarms. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:28",
+      "question": "Which of the following best describes proteus swarming?",
+      "options": [
+        "A) Proteus mirabilis swarms on blood agar and is urease-positive",
+        "B) Proteus is nonmotile and urease-negative always",
+        "C) H. pylori is urease-negative like Campylobacter always",
+        "D) Shigella is motile H2S-positive like many Salmonella"
+      ],
+      "answer": "A) Proteus mirabilis swarms on blood agar and is urease-positive",
+      "explanation": "Peritrichous flagella enable swarming; urease alkalinizes media. Therefore, the most accurate choice is: Proteus mirabilis swarms on blood agar and is urease-positive. Urease and swarming are Proteus hallmarks.",
+      "choice_explanations": {
+        "A": "Peritrichous flagella enable swarming; urease alkalinizes media. This matches the correct interpretation.",
+        "B": "Urease and swarming are Proteus hallmarks. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:easy:29",
+      "question": "Select the correct interpretation for pseudomonas iron deficiency.",
+      "options": [
+        "A) P. aeruginosa is oxidase-negative lactose fermenter like E. coli",
+        "B) Vibrio are oxidase-negative like Enterobacterales always",
+        "C) E. coli is oxidase-positive like Pseudomonas",
+        "D) P. aeruginosa is oxidase-positive, non–lactose-fermenting, often green pigmented"
+      ],
+      "answer": "D) P. aeruginosa is oxidase-positive, non–lactose-fermenting, often green pigmented",
+      "explanation": "Oxidative metabolism and pyocyanin pigments are clues. Therefore, the most accurate choice is: P. aeruginosa is oxidase-positive, non–lactose-fermenting, often green pigmented. E. coli pattern is the enteric foil.",
+      "choice_explanations": {
+        "A": "E. coli pattern is the enteric foil. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Oxidative metabolism and pyocyanin pigments are clues. This matches the correct interpretation."
+      }
+    }
+  ],
+  "medium": [
+    {
+      "id": "medical_microbiology:medium:0",
+      "question": "A 36-year-old man has lab results reviewed for gram primary stain. Which of the following is correct?",
+      "options": [
+        "A) Alcohol/acetone is applied as the primary stain",
+        "B) Crystal violet is the primary stain in the Gram procedure",
+        "C) Iodine is the decolorizer that removes dye from Gram negatives",
+        "D) Safranin is the primary stain before iodine in Gram staining"
+      ],
+      "answer": "B) Crystal violet is the primary stain in the Gram procedure",
+      "explanation": "Crystal violet enters cells; iodine forms complexes retained differently by walls. Therefore, the most accurate choice is: Crystal violet is the primary stain in the Gram procedure. Safranin is the counterstain, not the primary stain.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Crystal violet enters cells; iodine forms complexes retained differently by walls. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Safranin is the counterstain, not the primary stain. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:1",
+      "question": "A specimen workup for gram-positive color is interpreted. Which of the following is most accurate?",
+      "options": [
+        "A) Gram-positive organisms appear pink/red after Gram stain",
+        "B) Gram-positive organisms appear purple/blue after Gram stain",
+        "C) Safranin is the primary stain before iodine in Gram staining",
+        "D) Gram-negative organisms remain purple because of thick peptidoglycan"
+      ],
+      "answer": "B) Gram-positive organisms appear purple/blue after Gram stain",
+      "explanation": "Thick peptidoglycan retains the crystal violet–iodine complex. Therefore, the most accurate choice is: Gram-positive organisms appear purple/blue after Gram stain. Pink/red is the Gram-negative counterstain appearance.",
+      "choice_explanations": {
+        "A": "Pink/red is the Gram-negative counterstain appearance. It is less consistent than the correct choice.",
+        "B": "Thick peptidoglycan retains the crystal violet–iodine complex. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:2",
+      "question": "A 25-year-old woman undergoes testing for gram-negative color. Which result pattern is most consistent?",
+      "options": [
+        "A) Gram-negative organisms remain purple because of thick peptidoglycan",
+        "B) Gram-positive organisms appear pink/red after Gram stain",
+        "C) Safranin is the primary stain before iodine in Gram staining",
+        "D) Gram-negative organisms appear pink/red after decolorization and safranin"
+      ],
+      "answer": "D) Gram-negative organisms appear pink/red after decolorization and safranin",
+      "explanation": "Thin peptidoglycan loses crystal violet; safranin colors them. Therefore, the most accurate choice is: Gram-negative organisms appear pink/red after decolorization and safranin. Purple retention defines Gram positives.",
+      "choice_explanations": {
+        "A": "Purple retention defines Gram positives. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Thin peptidoglycan loses crystal violet; safranin colors them. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:3",
+      "question": "Method selection for gram iodine mordant is discussed. Which of the following is correct?",
+      "options": [
+        "A) Lancefield grouping types Gram-negative enteric rods",
+        "B) Iodine is the decolorizer that removes dye from Gram negatives",
+        "C) Iodine acts as a mordant forming complexes with crystal violet",
+        "D) Safranin is the primary stain before iodine in Gram staining"
+      ],
+      "answer": "C) Iodine acts as a mordant forming complexes with crystal violet",
+      "explanation": "Mordant fixes dye complexes within the cell wall matrix. Therefore, the most accurate choice is: Iodine acts as a mordant forming complexes with crystal violet. Alcohol/acetone is the decolorizer.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Alcohol/acetone is the decolorizer. It is less consistent than the correct choice.",
+        "C": "Mordant fixes dye complexes within the cell wall matrix. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:4",
+      "question": "A 68-year-old man has an abnormal panel. Which statement about gram decolorizer is most accurate?",
+      "options": [
+        "A) Iodine is the decolorizer that removes dye from Gram negatives",
+        "B) Alcohol/acetone is applied as the primary stain",
+        "C) Alcohol/acetone decolorizes Gram-negative cells in the Gram stain",
+        "D) Safranin is the primary stain before iodine in Gram staining"
+      ],
+      "answer": "C) Alcohol/acetone decolorizes Gram-negative cells in the Gram stain",
+      "explanation": "Solvent extracts dye from thin-walled Gram negatives. Therefore, the most accurate choice is: Alcohol/acetone decolorizes Gram-negative cells in the Gram stain. Primary stain is crystal violet.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Primary stain is crystal violet. It is less consistent than the correct choice.",
+        "C": "Solvent extracts dye from thin-walled Gram negatives. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:5",
+      "question": "Results related to acid-fast bacilli primary stain are verified before release. Which of the following is appropriate?",
+      "options": [
+        "A) Crystal violet is the classic acid-fast primary stain",
+        "B) Acid-fast organisms decolorize completely and take only methylene blue always",
+        "C) Carbol fuchsin or auramine is used to stain acid-fast bacilli",
+        "D) India ink stains mycobacterial mycolic acids acid-fast"
+      ],
+      "answer": "C) Carbol fuchsin or auramine is used to stain acid-fast bacilli",
+      "explanation": "Mycolic acids retain carbol fuchsin despite acid-alcohol. Therefore, the most accurate choice is: Carbol fuchsin or auramine is used to stain acid-fast bacilli. Crystal violet is for Gram stain, not acid-fast bacilli primary.",
+      "choice_explanations": {
+        "A": "Crystal violet is for Gram stain, not acid-fast bacilli primary. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Mycolic acids retain carbol fuchsin despite acid-alcohol. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:6",
+      "question": "A 40-year-old man is evaluated with assays used in acid-fast bacilli appearance. Which of the following is correct?",
+      "options": [
+        "A) Gram-negative organisms remain purple because of thick peptidoglycan",
+        "B) Acid-fast organisms decolorize completely and take only methylene blue always",
+        "C) Acid-fast organisms retain red carbol fuchsin after acid-alcohol",
+        "D) Crystal violet is the classic acid-fast primary stain"
+      ],
+      "answer": "C) Acid-fast organisms retain red carbol fuchsin after acid-alcohol",
+      "explanation": "Waxy mycolic-acid walls resist decolorization. Therefore, the most accurate choice is: Acid-fast organisms retain red carbol fuchsin after acid-alcohol. Non–acid-fast cells take the counterstain.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Non–acid-fast cells take the counterstain. It is less consistent than the correct choice.",
+        "C": "Waxy mycolic-acid walls resist decolorization. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:7",
+      "question": "In laboratory assessment of Mycobacterium tuberculosis acid-fast, which of the following is correct?",
+      "options": [
+        "A) India ink stains mycobacterial mycolic acids acid-fast",
+        "B) M. tuberculosis is an acid-fast bacillus requiring special stains and culture",
+        "C) Corynebacterium are acid-fast beaded bacilli like Mycobacterium always",
+        "D) M. tuberculosis is a Gram-negative diplococcus like N. meningitidis"
+      ],
+      "answer": "B) M. tuberculosis is an acid-fast bacillus requiring special stains and culture",
+      "explanation": "Mycolic-acid–rich wall defines acid-fast staining behavior. Therefore, the most accurate choice is: M. tuberculosis is an acid-fast bacillus requiring special stains and culture. Neisseria is Gram-negative diplococci.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Mycolic-acid–rich wall defines acid-fast staining behavior. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Neisseria is Gram-negative diplococci. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:8",
+      "question": "A 42-year-old man has lab results reviewed for catalase staph strep. Which of the following is correct?",
+      "options": [
+        "A) S. epidermidis is coagulase-positive like S. aureus always",
+        "B) Staphylococcus is catalase-negative; Streptococcus is catalase-positive",
+        "C) H. influenzae satellites because it is a catalase-negative strep",
+        "D) Staphylococcus is catalase-positive; Streptococcus is catalase-negative"
+      ],
+      "answer": "D) Staphylococcus is catalase-positive; Streptococcus is catalase-negative",
+      "explanation": "Staphylococcal catalase decomposes H2O2 to oxygen and water. Therefore, the most accurate choice is: Staphylococcus is catalase-positive; Streptococcus is catalase-negative. Catalase is the classic staph versus strep screen.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Catalase is the classic staph versus strep screen. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Staphylococcal catalase decomposes H2O2 to oxygen and water. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:9",
+      "question": "A specimen workup for coagulase aureus is interpreted. Which of the following is most accurate?",
+      "options": [
+        "A) Vibrio are oxidase-negative like Enterobacterales always",
+        "B) S. epidermidis is coagulase-positive like S. aureus always",
+        "C) S. aureus is coagulase-positive; many central nervous system are coagulase-negative",
+        "D) S. epidermidis typically ferments mannitol like S. aureus always"
+      ],
+      "answer": "C) S. aureus is coagulase-positive; many central nervous system are coagulase-negative",
+      "explanation": "Coagulase clots plasma, a key S. aureus marker. Therefore, the most accurate choice is: S. aureus is coagulase-positive; many central nervous system are coagulase-negative. CoNS are coagulase-negative.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "CoNS are coagulase-negative. It is less consistent than the correct choice.",
+        "C": "Coagulase clots plasma, a key S. aureus marker. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:10",
+      "question": "A 26-year-old man undergoes testing for middle superior alveolar mannitol. Which result pattern is most consistent?",
+      "options": [
+        "A) S. aureus ferments mannitol on middle superior alveolar producing yellow colonies",
+        "B) S. epidermidis is coagulase-positive like S. aureus always",
+        "C) Any growth of 10 colonies always proves pyelonephritis",
+        "D) S. epidermidis typically ferments mannitol like S. aureus always"
+      ],
+      "answer": "A) S. aureus ferments mannitol on middle superior alveolar producing yellow colonies",
+      "explanation": "Mannitol fermentation acidifies middle superior alveolar indicator under staphylococcal growth. Therefore, the most accurate choice is: S. aureus ferments mannitol on middle superior alveolar producing yellow colonies. S. epidermidis usually mannitol-negative.",
+      "choice_explanations": {
+        "A": "Mannitol fermentation acidifies middle superior alveolar indicator under staphylococcal growth. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "S. epidermidis usually mannitol-negative. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:11",
+      "question": "Method selection for alpha hemolysis is discussed. Which of the following is correct?",
+      "options": [
+        "A) Alpha-hemolysis is green partial hemolysis such as S. pneumoniae and viridans",
+        "B) Viridans streptococci are bile-soluble like pneumococcus",
+        "C) Beta-hemolysis is green partial hemolysis like pneumococcus",
+        "D) Alpha-hemolysis is complete clear hemolysis like S. pyogenes"
+      ],
+      "answer": "A) Alpha-hemolysis is green partial hemolysis such as S. pneumoniae and viridans",
+      "explanation": "H2O2 and partial red blood cell degradation green the agar. Therefore, the most accurate choice is: Alpha-hemolysis is green partial hemolysis such as S. pneumoniae and viridans. Beta-hemolysis is complete clearing.",
+      "choice_explanations": {
+        "A": "H2O2 and partial red blood cell degradation green the agar. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Beta-hemolysis is complete clearing. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:12",
+      "question": "A 36-year-old man has an abnormal panel. Which statement about beta hemolysis is most accurate?",
+      "options": [
+        "A) Beta-hemolysis is complete clear-zone hemolysis such as group A Streptococcus and some Guillain-Barré syndrome",
+        "B) S. pyogenes is classically CAMP-positive like Guillain-Barré syndrome",
+        "C) Alpha-hemolysis is complete clear hemolysis like S. pyogenes",
+        "D) Beta-hemolysis is green partial hemolysis like pneumococcus"
+      ],
+      "answer": "A) Beta-hemolysis is complete clear-zone hemolysis such as group A Streptococcus and some Guillain-Barré syndrome",
+      "explanation": "Hemolysins fully lyse red blood cells around colonies. Therefore, the most accurate choice is: Beta-hemolysis is complete clear-zone hemolysis such as group A Streptococcus and some Guillain-Barré syndrome. Alpha is partial green hemolysis.",
+      "choice_explanations": {
+        "A": "Hemolysins fully lyse red blood cells around colonies. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Alpha is partial green hemolysis. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:13",
+      "question": "A 55-year-old woman undergoes assessment involving optochin. Which of the following is most accurate?",
+      "options": [
+        "A) S. pneumoniae is optochin-susceptible; viridans streptococci are resistant",
+        "B) Viridans streptococci are optochin-susceptible like pneumococcus",
+        "C) Viridans streptococci are bile-soluble like pneumococcus",
+        "D) Alpha-hemolysis is complete clear hemolysis like S. pyogenes"
+      ],
+      "answer": "A) S. pneumoniae is optochin-susceptible; viridans streptococci are resistant",
+      "explanation": "Optochin inhibits pneumococcal growth in a zone assay. Therefore, the most accurate choice is: S. pneumoniae is optochin-susceptible; viridans streptococci are resistant. Viridans resistance distinguishes them from pneumococcus.",
+      "choice_explanations": {
+        "A": "Optochin inhibits pneumococcal growth in a zone assay. This matches the correct interpretation.",
+        "B": "Viridans resistance distinguishes them from pneumococcus. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:14",
+      "question": "A 25-year-old woman is evaluated with assays used in bile solubility. Which of the following is correct?",
+      "options": [
+        "A) S. pneumoniae is bile-soluble; viridans streptococci are not",
+        "B) Viridans streptococci are optochin-susceptible like pneumococcus",
+        "C) Viridans streptococci are bile-soluble like pneumococcus",
+        "D) Viridans streptococci typically grow in 6.5% NaCl like enterococci"
+      ],
+      "answer": "A) S. pneumoniae is bile-soluble; viridans streptococci are not",
+      "explanation": "Bile salts autolyze pneumococci, clearing the suspension. Therefore, the most accurate choice is: S. pneumoniae is bile-soluble; viridans streptococci are not. Viridans remain turbid.",
+      "choice_explanations": {
+        "A": "Bile salts autolyze pneumococci, clearing the suspension. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Viridans remain turbid. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:15",
+      "question": "In laboratory assessment of lancefield, which of the following is correct?",
+      "options": [
+        "A) Lancefield grouping types Gram-negative enteric rods",
+        "B) Vibrio are oxidase-negative like Enterobacterales always",
+        "C) Lancefield groups classify beta-hemolytic streptococci by cell-wall carbohydrate",
+        "D) Neisseria are Gram-positive rods in chains"
+      ],
+      "answer": "C) Lancefield groups classify beta-hemolytic streptococci by cell-wall carbohydrate",
+      "explanation": "C-carbohydrate antigens define groups A, B, C, G, and others. Therefore, the most accurate choice is: Lancefield groups classify beta-hemolytic streptococci by cell-wall carbohydrate. Enterobacterales use different iron deficiency systems.",
+      "choice_explanations": {
+        "A": "Enterobacterales use different iron deficiency systems. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "C-carbohydrate antigens define groups A, B, C, G, and others. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:16",
+      "question": "A 55-year-old woman is examined, and group A Streptococcus pyrrolidonyl arylamidase is reviewed. Which of the following is correct?",
+      "options": [
+        "A) S. epidermidis is coagulase-positive like S. aureus always",
+        "B) S. pyogenes is classically CAMP-positive like Guillain-Barré syndrome",
+        "C) S. agalactiae is PYR-positive like group A Streptococcus always",
+        "D) S. pyogenes is PYR-positive and historically bacitracin-susceptible"
+      ],
+      "answer": "D) S. pyogenes is PYR-positive and historically bacitracin-susceptible",
+      "explanation": "pyrrolidonyl arylamidase arylamidase activity supports group A Streptococcus and enterococcus clues. Therefore, the most accurate choice is: S. pyogenes is PYR-positive and historically bacitracin-susceptible. Guillain-Barré syndrome is PYR-negative.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Guillain-Barré syndrome is PYR-negative. It is less consistent than the correct choice.",
+        "D": "pyrrolidonyl arylamidase arylamidase activity supports group A Streptococcus and enterococcus clues. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:17",
+      "question": "A specimen workup for Guillain-Barré syndrome Christie-Atkins-Munch-Petersen is interpreted. Which of the following is most accurate?",
+      "options": [
+        "A) S. pyogenes is classically CAMP-positive like Guillain-Barré syndrome",
+        "B) Corynebacterium are acid-fast beaded bacilli like Mycobacterium always",
+        "C) S. agalactiae shows positive Christie-Atkins-Munch-Petersen test with enhanced hemolysis near S. aureus",
+        "D) S. agalactiae is PYR-positive like group A Streptococcus always"
+      ],
+      "answer": "C) S. agalactiae shows positive Christie-Atkins-Munch-Petersen test with enhanced hemolysis near S. aureus",
+      "explanation": "Guillain-Barré syndrome Christie-Atkins-Munch-Petersen factor synergizes with staphylococcal β-lysin. Therefore, the most accurate choice is: S. agalactiae shows positive Christie-Atkins-Munch-Petersen test with enhanced hemolysis near S. aureus. group A Streptococcus is CAMP-negative.",
+      "choice_explanations": {
+        "A": "group A Streptococcus is CAMP-negative. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Guillain-Barré syndrome Christie-Atkins-Munch-Petersen factor synergizes with staphylococcal β-lysin. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:18",
+      "question": "A 28-year-old man undergoes testing for enterococcus bile esculin azide. Which result pattern is most consistent?",
+      "options": [
+        "A) Enterococci grow in 6.5% NaCl and hydrolyze esculin on bile esculin agar",
+        "B) Viridans streptococci typically grow in 6.5% NaCl like enterococci",
+        "C) Viridans streptococci are bile-soluble like pneumococcus",
+        "D) H. influenzae requires only bile esculin hydrolysis for growth"
+      ],
+      "answer": "A) Enterococci grow in 6.5% NaCl and hydrolyze esculin on bile esculin agar",
+      "explanation": "Salt tolerance plus esculin hydrolysis support enterococcal iron deficiency. Therefore, the most accurate choice is: Enterococci grow in 6.5% NaCl and hydrolyze esculin on bile esculin agar. Viridans lack 6.5% NaCl growth.",
+      "choice_explanations": {
+        "A": "Salt tolerance plus esculin hydrolysis support enterococcal iron deficiency. This matches the correct interpretation.",
+        "B": "Viridans lack 6.5% NaCl growth. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:19",
+      "question": "Method selection for neisseria gram-negative diplococci is discussed. Which of the following is correct?",
+      "options": [
+        "A) Neisseria are Gram-negative diplococci in kidney-bean pairs",
+        "B) Neisseria are Gram-positive rods in chains",
+        "C) Clostridia are aerobic Gram-negative cocci",
+        "D) Vibrio are oxidase-negative like Enterobacterales always"
+      ],
+      "answer": "A) Neisseria are Gram-negative diplococci in kidney-bean pairs",
+      "explanation": "Coffee-bean gram-negative diplococci morphology is classic in PMNs on smears. Therefore, the most accurate choice is: Neisseria are Gram-negative diplococci in kidney-bean pairs. gutta-percha rods describe other genera.",
+      "choice_explanations": {
+        "A": "Coffee-bean gram-negative diplococci morphology is classic in PMNs on smears. This matches the correct interpretation.",
+        "B": "gutta-percha rods describe other genera. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:20",
+      "question": "A 54-year-old man has an abnormal panel. Which statement about Neisseria gonorrhoeae culture is most accurate?",
+      "options": [
+        "A) N. gonorrhoeae requires chocolate or Thayer-Martin media and increased carbon dioxide",
+        "B) N. gonorrhoeae grows readily on unsupplemented MacConkey agar",
+        "C) MacConkey agar is selective for Gram-positive cocci only",
+        "D) Chlamydia grows readily on ordinary blood agar in 24 hours"
+      ],
+      "answer": "A) N. gonorrhoeae requires chocolate or Thayer-Martin media and increased carbon dioxide",
+      "explanation": "Fastidious Neisseria need enriched selective media for genital sites. Therefore, the most accurate choice is: N. gonorrhoeae requires chocolate or Thayer-Martin media and increased carbon dioxide. MacConkey selects enteric Gram negatives.",
+      "choice_explanations": {
+        "A": "Fastidious Neisseria need enriched selective media for genital sites. This matches the correct interpretation.",
+        "B": "MacConkey selects enteric Gram negatives. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:21",
+      "question": "Results related to meningococcus cerebrospinal fluid are verified before release. Which of the following is appropriate?",
+      "options": [
+        "A) Dermatophytes typically cause cryptococcal meningitis",
+        "B) N. meningitidis is an acid-fast filamentous rod",
+        "C) N. meningitidis can cause meningitis with gram-negative diplococci in cerebrospinal fluid neutrophils",
+        "D) M. tuberculosis is a Gram-negative diplococcus like N. meningitidis"
+      ],
+      "answer": "C) N. meningitidis can cause meningitis with gram-negative diplococci in cerebrospinal fluid neutrophils",
+      "explanation": "Encapsulated meningococci invade meninges producing purulent cerebrospinal fluid. Therefore, the most accurate choice is: N. meningitidis can cause meningitis with gram-negative diplococci in cerebrospinal fluid neutrophils. acid-fast bacilli morphology is mycobacteria.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "acid-fast bacilli morphology is mycobacteria. It is less consistent than the correct choice.",
+        "C": "Encapsulated meningococci invade meninges producing purulent cerebrospinal fluid. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:22",
+      "question": "A 60-year-old man is evaluated with assays used in haemophilus X and V growth factors. Which of the following is correct?",
+      "options": [
+        "A) Salmonella appears as bile-esculin black enterococci on xylose lysine deoxycholate agar identically",
+        "B) H. influenzae requires only bile esculin hydrolysis for growth",
+        "C) H. influenzae requires X hemin and V nicotinamide adenine dinucleotide factors",
+        "D) H. influenzae satellites because it is a catalase-negative strep"
+      ],
+      "answer": "C) H. influenzae requires X hemin and V nicotinamide adenine dinucleotide factors",
+      "explanation": "Factor dependence distinguishes Haemophilus species on satellite and quad plates. Therefore, the most accurate choice is: H. influenzae requires X hemin and V nicotinamide adenine dinucleotide factors. Esculin tests are for enterococcus clues.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Esculin tests are for enterococcus clues. It is less consistent than the correct choice.",
+        "C": "Factor dependence distinguishes Haemophilus species on satellite and quad plates. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:23",
+      "question": "In laboratory assessment of haemophilus satellite, which of the following is correct?",
+      "options": [
+        "A) Staphylococcus is catalase-negative; Streptococcus is catalase-positive",
+        "B) H. influenzae requires only bile esculin hydrolysis for growth",
+        "C) H. influenzae satellites around S. aureus providing V factor",
+        "D) H. influenzae satellites because it is a catalase-negative strep"
+      ],
+      "answer": "C) H. influenzae satellites around S. aureus providing V factor",
+      "explanation": "Staphylococcal nicotinamide adenine dinucleotide release enables Haemophilus growth nearby. Therefore, the most accurate choice is: H. influenzae satellites around S. aureus providing V factor. Satellite phenomenon is factor provision, not strep iron deficiency.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Staphylococcal nicotinamide adenine dinucleotide release enables Haemophilus growth nearby. This matches the correct interpretation.",
+        "D": "Satellite phenomenon is factor provision, not strep iron deficiency. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:24",
+      "question": "A 66-year-old man has lab results reviewed for mac Conkey purpose. Which of the following is correct?",
+      "options": [
+        "A) Iodine is the decolorizer that removes dye from Gram negatives",
+        "B) MacConkey agar is selective for Gram-positive cocci only",
+        "C) MacConkey agar selects Gram-negatives and differentiates lactose fermenters",
+        "D) Lactose fermenters appear colorless on MacConkey always"
+      ],
+      "answer": "C) MacConkey agar selects Gram-negatives and differentiates lactose fermenters",
+      "explanation": "Bile salts and crystal violet inhibit GPs; lactose indicator shows fermentation. Therefore, the most accurate choice is: MacConkey agar selects Gram-negatives and differentiates lactose fermenters. It selects against many GPs.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "It selects against many GPs. It is less consistent than the correct choice.",
+        "C": "Bile salts and crystal violet inhibit GPs; lactose indicator shows fermentation. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:25",
+      "question": "A specimen workup for lactose fermenter is interpreted. Which of the following is most accurate?",
+      "options": [
+        "A) P. aeruginosa is oxidase-negative lactose fermenter like E. coli",
+        "B) MacConkey agar is selective for Gram-positive cocci only",
+        "C) Lactose fermenters appear colorless on MacConkey always",
+        "D) Lactose-fermenting Enterobacterales appear pink on MacConkey"
+      ],
+      "answer": "D) Lactose-fermenting Enterobacterales appear pink on MacConkey",
+      "explanation": "Acid from lactose fermentation turns indicator pink. Therefore, the most accurate choice is: Lactose-fermenting Enterobacterales appear pink on MacConkey. Nonfermenters stay pale.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Nonfermenters stay pale. It is less consistent than the correct choice.",
+        "D": "Acid from lactose fermentation turns indicator pink. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:26",
+      "question": "A 29-year-old woman undergoes testing for e coli iron deficiency. Which result pattern is most consistent?",
+      "options": [
+        "A) P. aeruginosa is oxidase-negative lactose fermenter like E. coli",
+        "B) Shigella is motile H2S-positive like many Salmonella",
+        "C) E. coli is oxidase-positive like Pseudomonas",
+        "D) E. coli is typically indole-positive, lactose-positive, and oxidase-negative"
+      ],
+      "answer": "D) E. coli is typically indole-positive, lactose-positive, and oxidase-negative",
+      "explanation": "Tryptophanase yields indole; oxidase-negative fermenters fit E. coli. Therefore, the most accurate choice is: E. coli is typically indole-positive, lactose-positive, and oxidase-negative. Pseudomonas is an oxidase-positive nonfermenter.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Pseudomonas is an oxidase-positive nonfermenter. It is less consistent than the correct choice.",
+        "D": "Tryptophanase yields indole; oxidase-negative fermenters fit E. coli. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:27",
+      "question": "Method selection for klebsiella mucoid is discussed. Which of the following is correct?",
+      "options": [
+        "A) Klebsiella pneumoniae is typically highly motile with swarming",
+        "B) Klebsiella often appears mucoid from capsule and K. pneumoniae is indole-negative",
+        "C) B. anthracis is highly motile like B. cereus always",
+        "D) Shigella is motile H2S-positive like many Salmonella"
+      ],
+      "answer": "B) Klebsiella often appears mucoid from capsule and K. pneumoniae is indole-negative",
+      "explanation": "Prominent capsule produces mucoid colonies. Therefore, the most accurate choice is: Klebsiella often appears mucoid from capsule and K. pneumoniae is indole-negative. Proteus swarms.",
+      "choice_explanations": {
+        "A": "Proteus swarms. It is less consistent than the correct choice.",
+        "B": "Prominent capsule produces mucoid colonies. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:28",
+      "question": "A 52-year-old man has an abnormal panel. Which statement about proteus swarming is most accurate?",
+      "options": [
+        "A) Shigella is motile H2S-positive like many Salmonella",
+        "B) Proteus mirabilis swarms on blood agar and is urease-positive",
+        "C) Vibrio are oxidase-negative like Enterobacterales always",
+        "D) Proteus is nonmotile and urease-negative always"
+      ],
+      "answer": "B) Proteus mirabilis swarms on blood agar and is urease-positive",
+      "explanation": "Peritrichous flagella enable swarming; urease alkalinizes media. Therefore, the most accurate choice is: Proteus mirabilis swarms on blood agar and is urease-positive. Urease and swarming are Proteus hallmarks.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Peritrichous flagella enable swarming; urease alkalinizes media. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Urease and swarming are Proteus hallmarks. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:medium:29",
+      "question": "A 63-year-old woman undergoes assessment involving pseudomonas iron deficiency. Which of the following is most accurate?",
+      "options": [
+        "A) P. aeruginosa is oxidase-positive, non–lactose-fermenting, often green pigmented",
+        "B) Vibrio are oxidase-negative like Enterobacterales always",
+        "C) E. coli is oxidase-positive like Pseudomonas",
+        "D) P. aeruginosa is oxidase-negative lactose fermenter like E. coli"
+      ],
+      "answer": "A) P. aeruginosa is oxidase-positive, non–lactose-fermenting, often green pigmented",
+      "explanation": "Oxidative metabolism and pyocyanin pigments are clues. Therefore, the most accurate choice is: P. aeruginosa is oxidase-positive, non–lactose-fermenting, often green pigmented. E. coli pattern is the enteric foil.",
+      "choice_explanations": {
+        "A": "Oxidative metabolism and pyocyanin pigments are clues. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "E. coli pattern is the enteric foil. It is less consistent than the correct choice."
+      }
+    }
+  ],
+  "hard": [
+    {
+      "id": "medical_microbiology:hard:0",
+      "question": "A 36-year-old man is evaluated for possible gram primary stain. Which of the following is most accurate?",
+      "options": [
+        "A) Iodine is the decolorizer that removes dye from Gram negatives",
+        "B) Crystal violet is the primary stain in the Gram procedure",
+        "C) Safranin is the primary stain before iodine in Gram staining",
+        "D) Alcohol/acetone is applied as the primary stain"
+      ],
+      "answer": "B) Crystal violet is the primary stain in the Gram procedure",
+      "explanation": "Crystal violet enters cells; iodine forms complexes retained differently by walls. Therefore, the most accurate choice is: Crystal violet is the primary stain in the Gram procedure. Safranin is the counterstain, not the primary stain.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Crystal violet enters cells; iodine forms complexes retained differently by walls. This matches the correct interpretation.",
+        "C": "Safranin is the counterstain, not the primary stain. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:1",
+      "question": "A 64-year-old man has findings suggestive of gram-positive color. Which of the following is the best interpretation?",
+      "options": [
+        "A) Gram-negative organisms remain purple because of thick peptidoglycan",
+        "B) Safranin is the primary stain before iodine in Gram staining",
+        "C) Gram-positive organisms appear pink/red after Gram stain",
+        "D) Gram-positive organisms appear purple/blue after Gram stain"
+      ],
+      "answer": "D) Gram-positive organisms appear purple/blue after Gram stain",
+      "explanation": "Thick peptidoglycan retains the crystal violet–iodine complex. Therefore, the most accurate choice is: Gram-positive organisms appear purple/blue after Gram stain. Pink/red is the Gram-negative counterstain appearance.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Pink/red is the Gram-negative counterstain appearance. It is less consistent than the correct choice.",
+        "D": "Thick peptidoglycan retains the crystal violet–iodine complex. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:2",
+      "question": "In a 25-year-old woman, gram-negative color must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) Gram-negative organisms appear pink/red after decolorization and safranin",
+        "B) Gram-positive organisms appear pink/red after Gram stain",
+        "C) Gram-negative organisms remain purple because of thick peptidoglycan",
+        "D) Safranin is the primary stain before iodine in Gram staining"
+      ],
+      "answer": "A) Gram-negative organisms appear pink/red after decolorization and safranin",
+      "explanation": "Thin peptidoglycan loses crystal violet; safranin colors them. Therefore, the most accurate choice is: Gram-negative organisms appear pink/red after decolorization and safranin. Purple retention defines Gram positives.",
+      "choice_explanations": {
+        "A": "Thin peptidoglycan loses crystal violet; safranin colors them. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Purple retention defines Gram positives. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:3",
+      "question": "A 32-year-old man returns for review of suspected gram iodine mordant. Which of the following is most accurate?",
+      "options": [
+        "A) Lancefield grouping types Gram-negative enteric rods",
+        "B) Iodine acts as a mordant forming complexes with crystal violet",
+        "C) Safranin is the primary stain before iodine in Gram staining",
+        "D) Iodine is the decolorizer that removes dye from Gram negatives"
+      ],
+      "answer": "B) Iodine acts as a mordant forming complexes with crystal violet",
+      "explanation": "Mordant fixes dye complexes within the cell wall matrix. Therefore, the most accurate choice is: Iodine acts as a mordant forming complexes with crystal violet. Alcohol/acetone is the decolorizer.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Mordant fixes dye complexes within the cell wall matrix. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Alcohol/acetone is the decolorizer. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:4",
+      "question": "A clinic case of gram decolorizer is discussed. Which of the following is correct?",
+      "options": [
+        "A) Safranin is the primary stain before iodine in Gram staining",
+        "B) Iodine is the decolorizer that removes dye from Gram negatives",
+        "C) Alcohol/acetone is applied as the primary stain",
+        "D) Alcohol/acetone decolorizes Gram-negative cells in the Gram stain"
+      ],
+      "answer": "D) Alcohol/acetone decolorizes Gram-negative cells in the Gram stain",
+      "explanation": "Solvent extracts dye from thin-walled Gram negatives. Therefore, the most accurate choice is: Alcohol/acetone decolorizes Gram-negative cells in the Gram stain. Primary stain is crystal violet.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Primary stain is crystal violet. It is less consistent than the correct choice.",
+        "D": "Solvent extracts dye from thin-walled Gram negatives. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:5",
+      "question": "A 50-year-old man presents with features compatible with acid-fast bacilli primary stain. Which of the following is most accurate?",
+      "options": [
+        "A) Carbol fuchsin or auramine is used to stain acid-fast bacilli",
+        "B) India ink stains mycobacterial mycolic acids acid-fast",
+        "C) Acid-fast organisms decolorize completely and take only methylene blue always",
+        "D) Crystal violet is the classic acid-fast primary stain"
+      ],
+      "answer": "A) Carbol fuchsin or auramine is used to stain acid-fast bacilli",
+      "explanation": "Mycolic acids retain carbol fuchsin despite acid-alcohol. Therefore, the most accurate choice is: Carbol fuchsin or auramine is used to stain acid-fast bacilli. Crystal violet is for Gram stain, not acid-fast bacilli primary.",
+      "choice_explanations": {
+        "A": "Mycolic acids retain carbol fuchsin despite acid-alcohol. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Crystal violet is for Gram stain, not acid-fast bacilli primary. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:6",
+      "question": "Which statement about acid-fast bacilli appearance in a 40-year-old man is most accurate?",
+      "options": [
+        "A) Acid-fast organisms decolorize completely and take only methylene blue always",
+        "B) Gram-negative organisms remain purple because of thick peptidoglycan",
+        "C) Acid-fast organisms retain red carbol fuchsin after acid-alcohol",
+        "D) Crystal violet is the classic acid-fast primary stain"
+      ],
+      "answer": "C) Acid-fast organisms retain red carbol fuchsin after acid-alcohol",
+      "explanation": "Waxy mycolic-acid walls resist decolorization. Therefore, the most accurate choice is: Acid-fast organisms retain red carbol fuchsin after acid-alcohol. Non–acid-fast cells take the counterstain.",
+      "choice_explanations": {
+        "A": "Non–acid-fast cells take the counterstain. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Waxy mycolic-acid walls resist decolorization. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:7",
+      "question": "After examining a 26-year-old man, which statement about Mycobacterium tuberculosis acid-fast is correct?",
+      "options": [
+        "A) India ink stains mycobacterial mycolic acids acid-fast",
+        "B) Corynebacterium are acid-fast beaded bacilli like Mycobacterium always",
+        "C) M. tuberculosis is a Gram-negative diplococcus like N. meningitidis",
+        "D) M. tuberculosis is an acid-fast bacillus requiring special stains and culture"
+      ],
+      "answer": "D) M. tuberculosis is an acid-fast bacillus requiring special stains and culture",
+      "explanation": "Mycolic-acid–rich wall defines acid-fast staining behavior. Therefore, the most accurate choice is: M. tuberculosis is an acid-fast bacillus requiring special stains and culture. Neisseria is Gram-negative diplococci.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Neisseria is Gram-negative diplococci. It is less consistent than the correct choice.",
+        "D": "Mycolic-acid–rich wall defines acid-fast staining behavior. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:8",
+      "question": "A 42-year-old man is evaluated for possible catalase staph strep. Which of the following is most accurate?",
+      "options": [
+        "A) Staphylococcus is catalase-negative; Streptococcus is catalase-positive",
+        "B) H. influenzae satellites because it is a catalase-negative strep",
+        "C) Staphylococcus is catalase-positive; Streptococcus is catalase-negative",
+        "D) S. epidermidis is coagulase-positive like S. aureus always"
+      ],
+      "answer": "C) Staphylococcus is catalase-positive; Streptococcus is catalase-negative",
+      "explanation": "Staphylococcal catalase decomposes H2O2 to oxygen and water. Therefore, the most accurate choice is: Staphylococcus is catalase-positive; Streptococcus is catalase-negative. Catalase is the classic staph versus strep screen.",
+      "choice_explanations": {
+        "A": "Catalase is the classic staph versus strep screen. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Staphylococcal catalase decomposes H2O2 to oxygen and water. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:9",
+      "question": "A 57-year-old woman has findings suggestive of coagulase aureus. Which of the following is the best interpretation?",
+      "options": [
+        "A) S. aureus is coagulase-positive; many central nervous system are coagulase-negative",
+        "B) Vibrio are oxidase-negative like Enterobacterales always",
+        "C) S. epidermidis is coagulase-positive like S. aureus always",
+        "D) S. epidermidis typically ferments mannitol like S. aureus always"
+      ],
+      "answer": "A) S. aureus is coagulase-positive; many central nervous system are coagulase-negative",
+      "explanation": "Coagulase clots plasma, a key S. aureus marker. Therefore, the most accurate choice is: S. aureus is coagulase-positive; many central nervous system are coagulase-negative. CoNS are coagulase-negative.",
+      "choice_explanations": {
+        "A": "Coagulase clots plasma, a key S. aureus marker. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "CoNS are coagulase-negative. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:10",
+      "question": "In a 26-year-old man, middle superior alveolar mannitol must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) Any growth of 10 colonies always proves pyelonephritis",
+        "B) S. epidermidis is coagulase-positive like S. aureus always",
+        "C) S. epidermidis typically ferments mannitol like S. aureus always",
+        "D) S. aureus ferments mannitol on middle superior alveolar producing yellow colonies"
+      ],
+      "answer": "D) S. aureus ferments mannitol on middle superior alveolar producing yellow colonies",
+      "explanation": "Mannitol fermentation acidifies middle superior alveolar indicator under staphylococcal growth. Therefore, the most accurate choice is: S. aureus ferments mannitol on middle superior alveolar producing yellow colonies. S. epidermidis usually mannitol-negative.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "S. epidermidis usually mannitol-negative. It is less consistent than the correct choice.",
+        "D": "Mannitol fermentation acidifies middle superior alveolar indicator under staphylococcal growth. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:11",
+      "question": "A 50-year-old man returns for review of suspected alpha hemolysis. Which of the following is most accurate?",
+      "options": [
+        "A) Alpha-hemolysis is complete clear hemolysis like S. pyogenes",
+        "B) Alpha-hemolysis is green partial hemolysis such as S. pneumoniae and viridans",
+        "C) Beta-hemolysis is green partial hemolysis like pneumococcus",
+        "D) Viridans streptococci are bile-soluble like pneumococcus"
+      ],
+      "answer": "B) Alpha-hemolysis is green partial hemolysis such as S. pneumoniae and viridans",
+      "explanation": "H2O2 and partial red blood cell degradation green the agar. Therefore, the most accurate choice is: Alpha-hemolysis is green partial hemolysis such as S. pneumoniae and viridans. Beta-hemolysis is complete clearing.",
+      "choice_explanations": {
+        "A": "Beta-hemolysis is complete clearing. It is less consistent than the correct choice.",
+        "B": "H2O2 and partial red blood cell degradation green the agar. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:12",
+      "question": "A clinic case of beta hemolysis is discussed. Which of the following is correct?",
+      "options": [
+        "A) Beta-hemolysis is complete clear-zone hemolysis such as group A Streptococcus and some Guillain-Barré syndrome",
+        "B) Beta-hemolysis is green partial hemolysis like pneumococcus",
+        "C) S. pyogenes is classically CAMP-positive like Guillain-Barré syndrome",
+        "D) Alpha-hemolysis is complete clear hemolysis like S. pyogenes"
+      ],
+      "answer": "A) Beta-hemolysis is complete clear-zone hemolysis such as group A Streptococcus and some Guillain-Barré syndrome",
+      "explanation": "Hemolysins fully lyse red blood cells around colonies. Therefore, the most accurate choice is: Beta-hemolysis is complete clear-zone hemolysis such as group A Streptococcus and some Guillain-Barré syndrome. Alpha is partial green hemolysis.",
+      "choice_explanations": {
+        "A": "Hemolysins fully lyse red blood cells around colonies. This matches the correct interpretation.",
+        "B": "Alpha is partial green hemolysis. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:13",
+      "question": "Which statement about optochin is most accurate?",
+      "options": [
+        "A) Viridans streptococci are bile-soluble like pneumococcus",
+        "B) Beta-hemolysis is green partial hemolysis like pneumococcus",
+        "C) S. pneumoniae is optochin-susceptible; viridans streptococci are resistant",
+        "D) Viridans streptococci are optochin-susceptible like pneumococcus"
+      ],
+      "answer": "C) S. pneumoniae is optochin-susceptible; viridans streptococci are resistant",
+      "explanation": "Optochin inhibits pneumococcal growth in a zone assay. Therefore, the most accurate choice is: S. pneumoniae is optochin-susceptible; viridans streptococci are resistant. Viridans resistance distinguishes them from pneumococcus.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Optochin inhibits pneumococcal growth in a zone assay. This matches the correct interpretation.",
+        "D": "Viridans resistance distinguishes them from pneumococcus. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:14",
+      "question": "Which statement about bile solubility in a 25-year-old woman is most accurate?",
+      "options": [
+        "A) Viridans streptococci are bile-soluble like pneumococcus",
+        "B) S. pneumoniae is bile-soluble; viridans streptococci are not",
+        "C) Viridans streptococci are optochin-susceptible like pneumococcus",
+        "D) Viridans streptococci typically grow in 6.5% NaCl like enterococci"
+      ],
+      "answer": "B) S. pneumoniae is bile-soluble; viridans streptococci are not",
+      "explanation": "Bile salts autolyze pneumococci, clearing the suspension. Therefore, the most accurate choice is: S. pneumoniae is bile-soluble; viridans streptococci are not. Viridans remain turbid.",
+      "choice_explanations": {
+        "A": "Viridans remain turbid. It is less consistent than the correct choice.",
+        "B": "Bile salts autolyze pneumococci, clearing the suspension. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:15",
+      "question": "After examining a 65-year-old woman, which statement about lancefield is correct?",
+      "options": [
+        "A) Lancefield grouping types Gram-negative enteric rods",
+        "B) Clostridia are aerobic Gram-negative cocci",
+        "C) Lancefield groups classify beta-hemolytic streptococci by cell-wall carbohydrate",
+        "D) Neisseria are Gram-positive rods in chains"
+      ],
+      "answer": "C) Lancefield groups classify beta-hemolytic streptococci by cell-wall carbohydrate",
+      "explanation": "C-carbohydrate antigens define groups A, B, C, G, and others. Therefore, the most accurate choice is: Lancefield groups classify beta-hemolytic streptococci by cell-wall carbohydrate. Enterobacterales use different iron deficiency systems.",
+      "choice_explanations": {
+        "A": "Enterobacterales use different iron deficiency systems. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "C-carbohydrate antigens define groups A, B, C, G, and others. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:16",
+      "question": "Careful review of group A Streptococcus pyrrolidonyl arylamidase is required. Which of the following is most accurate?",
+      "options": [
+        "A) S. pyogenes is classically CAMP-positive like Guillain-Barré syndrome",
+        "B) S. agalactiae is PYR-positive like group A Streptococcus always",
+        "C) S. pyogenes is PYR-positive and historically bacitracin-susceptible",
+        "D) S. epidermidis is coagulase-positive like S. aureus always"
+      ],
+      "answer": "C) S. pyogenes is PYR-positive and historically bacitracin-susceptible",
+      "explanation": "pyrrolidonyl arylamidase arylamidase activity supports group A Streptococcus and enterococcus clues. Therefore, the most accurate choice is: S. pyogenes is PYR-positive and historically bacitracin-susceptible. Guillain-Barré syndrome is PYR-negative.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Guillain-Barré syndrome is PYR-negative. It is less consistent than the correct choice.",
+        "C": "pyrrolidonyl arylamidase arylamidase activity supports group A Streptococcus and enterococcus clues. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:17",
+      "question": "A 37-year-old woman has findings suggestive of Guillain-Barré syndrome Christie-Atkins-Munch-Petersen. Which of the following is the best interpretation?",
+      "options": [
+        "A) S. epidermidis is coagulase-positive like S. aureus always",
+        "B) S. agalactiae is PYR-positive like group A Streptococcus always",
+        "C) S. pyogenes is classically CAMP-positive like Guillain-Barré syndrome",
+        "D) S. agalactiae shows positive Christie-Atkins-Munch-Petersen test with enhanced hemolysis near S. aureus"
+      ],
+      "answer": "D) S. agalactiae shows positive Christie-Atkins-Munch-Petersen test with enhanced hemolysis near S. aureus",
+      "explanation": "Guillain-Barré syndrome Christie-Atkins-Munch-Petersen factor synergizes with staphylococcal β-lysin. Therefore, the most accurate choice is: S. agalactiae shows positive Christie-Atkins-Munch-Petersen test with enhanced hemolysis near S. aureus. group A Streptococcus is CAMP-negative.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "group A Streptococcus is CAMP-negative. It is less consistent than the correct choice.",
+        "D": "Guillain-Barré syndrome Christie-Atkins-Munch-Petersen factor synergizes with staphylococcal β-lysin. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:18",
+      "question": "In a 28-year-old man, enterococcus bile esculin azide must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) H. influenzae requires only bile esculin hydrolysis for growth",
+        "B) Viridans streptococci typically grow in 6.5% NaCl like enterococci",
+        "C) Enterococci grow in 6.5% NaCl and hydrolyze esculin on bile esculin agar",
+        "D) Viridans streptococci are bile-soluble like pneumococcus"
+      ],
+      "answer": "C) Enterococci grow in 6.5% NaCl and hydrolyze esculin on bile esculin agar",
+      "explanation": "Salt tolerance plus esculin hydrolysis support enterococcal iron deficiency. Therefore, the most accurate choice is: Enterococci grow in 6.5% NaCl and hydrolyze esculin on bile esculin agar. Viridans lack 6.5% NaCl growth.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Viridans lack 6.5% NaCl growth. It is less consistent than the correct choice.",
+        "C": "Salt tolerance plus esculin hydrolysis support enterococcal iron deficiency. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:19",
+      "question": "A 39-year-old woman returns for review of suspected neisseria gram-negative diplococci. Which of the following is most accurate?",
+      "options": [
+        "A) Clostridia are aerobic Gram-negative cocci",
+        "B) Neisseria are Gram-negative diplococci in kidney-bean pairs",
+        "C) Campylobacter grows as aerobic spore-forming Gram-positive rods",
+        "D) Neisseria are Gram-positive rods in chains"
+      ],
+      "answer": "B) Neisseria are Gram-negative diplococci in kidney-bean pairs",
+      "explanation": "Coffee-bean gram-negative diplococci morphology is classic in PMNs on smears. Therefore, the most accurate choice is: Neisseria are Gram-negative diplococci in kidney-bean pairs. gutta-percha rods describe other genera.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Coffee-bean gram-negative diplococci morphology is classic in PMNs on smears. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "gutta-percha rods describe other genera. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:20",
+      "question": "A clinic case of Neisseria gonorrhoeae culture is discussed. Which of the following is correct?",
+      "options": [
+        "A) N. gonorrhoeae requires chocolate or Thayer-Martin media and increased carbon dioxide",
+        "B) N. gonorrhoeae grows readily on unsupplemented MacConkey agar",
+        "C) Chlamydia grows readily on ordinary blood agar in 24 hours",
+        "D) MacConkey agar is selective for Gram-positive cocci only"
+      ],
+      "answer": "A) N. gonorrhoeae requires chocolate or Thayer-Martin media and increased carbon dioxide",
+      "explanation": "Fastidious Neisseria need enriched selective media for genital sites. Therefore, the most accurate choice is: N. gonorrhoeae requires chocolate or Thayer-Martin media and increased carbon dioxide. MacConkey selects enteric Gram negatives.",
+      "choice_explanations": {
+        "A": "Fastidious Neisseria need enriched selective media for genital sites. This matches the correct interpretation.",
+        "B": "MacConkey selects enteric Gram negatives. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:21",
+      "question": "A 70-year-old man presents with features compatible with meningococcus cerebrospinal fluid. Which of the following is most accurate?",
+      "options": [
+        "A) M. tuberculosis is a Gram-negative diplococcus like N. meningitidis",
+        "B) N. meningitidis can cause meningitis with gram-negative diplococci in cerebrospinal fluid neutrophils",
+        "C) cerebrospinal fluid Gram stain results can be deferred without clinical impact",
+        "D) N. meningitidis is an acid-fast filamentous rod"
+      ],
+      "answer": "B) N. meningitidis can cause meningitis with gram-negative diplococci in cerebrospinal fluid neutrophils",
+      "explanation": "Encapsulated meningococci invade meninges producing purulent cerebrospinal fluid. Therefore, the most accurate choice is: N. meningitidis can cause meningitis with gram-negative diplococci in cerebrospinal fluid neutrophils. acid-fast bacilli morphology is mycobacteria.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Encapsulated meningococci invade meninges producing purulent cerebrospinal fluid. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "acid-fast bacilli morphology is mycobacteria. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:22",
+      "question": "Which statement about haemophilus X and V growth factors in a 60-year-old man is most accurate?",
+      "options": [
+        "A) Salmonella appears as bile-esculin black enterococci on xylose lysine deoxycholate agar identically",
+        "B) H. influenzae requires only bile esculin hydrolysis for growth",
+        "C) H. influenzae satellites because it is a catalase-negative strep",
+        "D) H. influenzae requires X hemin and V nicotinamide adenine dinucleotide factors"
+      ],
+      "answer": "D) H. influenzae requires X hemin and V nicotinamide adenine dinucleotide factors",
+      "explanation": "Factor dependence distinguishes Haemophilus species on satellite and quad plates. Therefore, the most accurate choice is: H. influenzae requires X hemin and V nicotinamide adenine dinucleotide factors. Esculin tests are for enterococcus clues.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Esculin tests are for enterococcus clues. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Factor dependence distinguishes Haemophilus species on satellite and quad plates. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:23",
+      "question": "After examining a 30-year-old man, which statement about haemophilus satellite is correct?",
+      "options": [
+        "A) H. influenzae satellites around S. aureus providing V factor",
+        "B) Staphylococcus is catalase-negative; Streptococcus is catalase-positive",
+        "C) H. influenzae satellites because it is a catalase-negative strep",
+        "D) H. influenzae requires only bile esculin hydrolysis for growth"
+      ],
+      "answer": "A) H. influenzae satellites around S. aureus providing V factor",
+      "explanation": "Staphylococcal nicotinamide adenine dinucleotide release enables Haemophilus growth nearby. Therefore, the most accurate choice is: H. influenzae satellites around S. aureus providing V factor. Satellite phenomenon is factor provision, not strep iron deficiency.",
+      "choice_explanations": {
+        "A": "Staphylococcal nicotinamide adenine dinucleotide release enables Haemophilus growth nearby. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Satellite phenomenon is factor provision, not strep iron deficiency. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:24",
+      "question": "A 66-year-old man is evaluated for possible mac Conkey purpose. Which of the following is most accurate?",
+      "options": [
+        "A) Iodine is the decolorizer that removes dye from Gram negatives",
+        "B) MacConkey agar is selective for Gram-positive cocci only",
+        "C) Lactose fermenters appear colorless on MacConkey always",
+        "D) MacConkey agar selects Gram-negatives and differentiates lactose fermenters"
+      ],
+      "answer": "D) MacConkey agar selects Gram-negatives and differentiates lactose fermenters",
+      "explanation": "Bile salts and crystal violet inhibit GPs; lactose indicator shows fermentation. Therefore, the most accurate choice is: MacConkey agar selects Gram-negatives and differentiates lactose fermenters. It selects against many GPs.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "It selects against many GPs. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Bile salts and crystal violet inhibit GPs; lactose indicator shows fermentation. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:25",
+      "question": "A 52-year-old man has findings suggestive of lactose fermenter. Which of the following is the best interpretation?",
+      "options": [
+        "A) MacConkey agar is selective for Gram-positive cocci only",
+        "B) Lactose fermenters appear colorless on MacConkey always",
+        "C) Lactose-fermenting Enterobacterales appear pink on MacConkey",
+        "D) P. aeruginosa is oxidase-negative lactose fermenter like E. coli"
+      ],
+      "answer": "C) Lactose-fermenting Enterobacterales appear pink on MacConkey",
+      "explanation": "Acid from lactose fermentation turns indicator pink. Therefore, the most accurate choice is: Lactose-fermenting Enterobacterales appear pink on MacConkey. Nonfermenters stay pale.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Nonfermenters stay pale. It is less consistent than the correct choice.",
+        "C": "Acid from lactose fermentation turns indicator pink. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:26",
+      "question": "In a 29-year-old woman, e coli iron deficiency must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) P. aeruginosa is oxidase-negative lactose fermenter like E. coli",
+        "B) E. coli is typically indole-positive, lactose-positive, and oxidase-negative",
+        "C) E. coli is oxidase-positive like Pseudomonas",
+        "D) Vibrio are oxidase-negative like Enterobacterales always"
+      ],
+      "answer": "B) E. coli is typically indole-positive, lactose-positive, and oxidase-negative",
+      "explanation": "Tryptophanase yields indole; oxidase-negative fermenters fit E. coli. Therefore, the most accurate choice is: E. coli is typically indole-positive, lactose-positive, and oxidase-negative. Pseudomonas is an oxidase-positive nonfermenter.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Tryptophanase yields indole; oxidase-negative fermenters fit E. coli. This matches the correct interpretation.",
+        "C": "Pseudomonas is an oxidase-positive nonfermenter. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:27",
+      "question": "A 66-year-old man returns for review of suspected klebsiella mucoid. Which of the following is most accurate?",
+      "options": [
+        "A) Klebsiella pneumoniae is typically highly motile with swarming",
+        "B) Klebsiella often appears mucoid from capsule and K. pneumoniae is indole-negative",
+        "C) B. anthracis is highly motile like B. cereus always",
+        "D) Shigella is motile H2S-positive like many Salmonella"
+      ],
+      "answer": "B) Klebsiella often appears mucoid from capsule and K. pneumoniae is indole-negative",
+      "explanation": "Prominent capsule produces mucoid colonies. Therefore, the most accurate choice is: Klebsiella often appears mucoid from capsule and K. pneumoniae is indole-negative. Proteus swarms.",
+      "choice_explanations": {
+        "A": "Proteus swarms. It is less consistent than the correct choice.",
+        "B": "Prominent capsule produces mucoid colonies. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:28",
+      "question": "A clinic case of proteus swarming is discussed. Which of the following is correct?",
+      "options": [
+        "A) Proteus mirabilis swarms on blood agar and is urease-positive",
+        "B) Proteus is nonmotile and urease-negative always",
+        "C) Shigella is motile H2S-positive like many Salmonella",
+        "D) H. pylori is urease-negative like Campylobacter always"
+      ],
+      "answer": "A) Proteus mirabilis swarms on blood agar and is urease-positive",
+      "explanation": "Peritrichous flagella enable swarming; urease alkalinizes media. Therefore, the most accurate choice is: Proteus mirabilis swarms on blood agar and is urease-positive. Urease and swarming are Proteus hallmarks.",
+      "choice_explanations": {
+        "A": "Peritrichous flagella enable swarming; urease alkalinizes media. This matches the correct interpretation.",
+        "B": "Urease and swarming are Proteus hallmarks. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:hard:29",
+      "question": "Which statement about pseudomonas iron deficiency is most accurate?",
+      "options": [
+        "A) P. aeruginosa is oxidase-negative lactose fermenter like E. coli",
+        "B) P. aeruginosa is oxidase-positive, non–lactose-fermenting, often green pigmented",
+        "C) Vibrio are oxidase-negative like Enterobacterales always",
+        "D) E. coli is oxidase-positive like Pseudomonas"
+      ],
+      "answer": "B) P. aeruginosa is oxidase-positive, non–lactose-fermenting, often green pigmented",
+      "explanation": "Oxidative metabolism and pyocyanin pigments are clues. Therefore, the most accurate choice is: P. aeruginosa is oxidase-positive, non–lactose-fermenting, often green pigmented. E. coli pattern is the enteric foil.",
+      "choice_explanations": {
+        "A": "E. coli pattern is the enteric foil. It is less consistent than the correct choice.",
+        "B": "Oxidative metabolism and pyocyanin pigments are clues. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ],
+  "extreme": [
+    {
+      "id": "medical_microbiology:extreme:0",
+      "question": "A 36-year-old man has a complex presentation of gram primary stain. Which of the following is most accurate?",
+      "options": [
+        "A) Crystal violet is the primary stain in the Gram procedure",
+        "B) Alcohol/acetone is applied as the primary stain",
+        "C) Safranin is the primary stain before iodine in Gram staining",
+        "D) Iodine is the decolorizer that removes dye from Gram negatives"
+      ],
+      "answer": "A) Crystal violet is the primary stain in the Gram procedure",
+      "explanation": "Crystal violet enters cells; iodine forms complexes retained differently by walls. Therefore, the most accurate choice is: Crystal violet is the primary stain in the Gram procedure. Safranin is the counterstain, not the primary stain.",
+      "choice_explanations": {
+        "A": "Crystal violet enters cells; iodine forms complexes retained differently by walls. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Safranin is the counterstain, not the primary stain. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:1",
+      "question": "A 64-year-old man with diabetes and hypertension is reassessed after incomplete response related to gram-positive color. Which of the following is most accurate?",
+      "options": [
+        "A) Safranin is the primary stain before iodine in Gram staining",
+        "B) Gram-negative organisms remain purple because of thick peptidoglycan",
+        "C) Gram-positive organisms appear purple/blue after Gram stain",
+        "D) Gram-positive organisms appear pink/red after Gram stain"
+      ],
+      "answer": "C) Gram-positive organisms appear purple/blue after Gram stain",
+      "explanation": "Thick peptidoglycan retains the crystal violet–iodine complex. Therefore, the most accurate choice is: Gram-positive organisms appear purple/blue after Gram stain. Pink/red is the Gram-negative counterstain appearance.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Thick peptidoglycan retains the crystal violet–iodine complex. This matches the correct interpretation.",
+        "D": "Pink/red is the Gram-negative counterstain appearance. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:2",
+      "question": "A detailed evaluation for gram-negative color is underway in a 25-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) Safranin is the primary stain before iodine in Gram staining",
+        "B) Gram-negative organisms remain purple because of thick peptidoglycan",
+        "C) Gram-positive organisms appear pink/red after Gram stain",
+        "D) Gram-negative organisms appear pink/red after decolorization and safranin"
+      ],
+      "answer": "D) Gram-negative organisms appear pink/red after decolorization and safranin",
+      "explanation": "Thin peptidoglycan loses crystal violet; safranin colors them. Therefore, the most accurate choice is: Gram-negative organisms appear pink/red after decolorization and safranin. Purple retention defines Gram positives.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Purple retention defines Gram positives. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Thin peptidoglycan loses crystal violet; safranin colors them. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:3",
+      "question": "A 32-year-old man has findings that make gram iodine mordant hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Safranin is the primary stain before iodine in Gram staining",
+        "B) Iodine acts as a mordant forming complexes with crystal violet",
+        "C) Lancefield grouping types Gram-negative enteric rods",
+        "D) Iodine is the decolorizer that removes dye from Gram negatives"
+      ],
+      "answer": "B) Iodine acts as a mordant forming complexes with crystal violet",
+      "explanation": "Mordant fixes dye complexes within the cell wall matrix. Therefore, the most accurate choice is: Iodine acts as a mordant forming complexes with crystal violet. Alcohol/acetone is the decolorizer.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Mordant fixes dye complexes within the cell wall matrix. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Alcohol/acetone is the decolorizer. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:4",
+      "question": "In a 68-year-old man, distinguishing gram decolorizer from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Alcohol/acetone decolorizes Gram-negative cells in the Gram stain",
+        "B) Safranin is the primary stain before iodine in Gram staining",
+        "C) Iodine is the decolorizer that removes dye from Gram negatives",
+        "D) Alcohol/acetone is applied as the primary stain"
+      ],
+      "answer": "A) Alcohol/acetone decolorizes Gram-negative cells in the Gram stain",
+      "explanation": "Solvent extracts dye from thin-walled Gram negatives. Therefore, the most accurate choice is: Alcohol/acetone decolorizes Gram-negative cells in the Gram stain. Primary stain is crystal violet.",
+      "choice_explanations": {
+        "A": "Solvent extracts dye from thin-walled Gram negatives. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Primary stain is crystal violet. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:5",
+      "question": "A 50-year-old man returns with ongoing problems related to acid-fast bacilli primary stain. Which of the following is most accurate?",
+      "options": [
+        "A) Carbol fuchsin or auramine is used to stain acid-fast bacilli",
+        "B) Crystal violet is the classic acid-fast primary stain",
+        "C) India ink stains mycobacterial mycolic acids acid-fast",
+        "D) Acid-fast organisms decolorize completely and take only methylene blue always"
+      ],
+      "answer": "A) Carbol fuchsin or auramine is used to stain acid-fast bacilli",
+      "explanation": "Mycolic acids retain carbol fuchsin despite acid-alcohol. Therefore, the most accurate choice is: Carbol fuchsin or auramine is used to stain acid-fast bacilli. Crystal violet is for Gram stain, not acid-fast bacilli primary.",
+      "choice_explanations": {
+        "A": "Mycolic acids retain carbol fuchsin despite acid-alcohol. This matches the correct interpretation.",
+        "B": "Crystal violet is for Gram stain, not acid-fast bacilli primary. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:6",
+      "question": "Senior review is requested for acid-fast bacilli appearance in a 40-year-old man. Which of the following is correct?",
+      "options": [
+        "A) Acid-fast organisms decolorize completely and take only methylene blue always",
+        "B) Gram-negative organisms remain purple because of thick peptidoglycan",
+        "C) Acid-fast organisms retain red carbol fuchsin after acid-alcohol",
+        "D) Crystal violet is the classic acid-fast primary stain"
+      ],
+      "answer": "C) Acid-fast organisms retain red carbol fuchsin after acid-alcohol",
+      "explanation": "Waxy mycolic-acid walls resist decolorization. Therefore, the most accurate choice is: Acid-fast organisms retain red carbol fuchsin after acid-alcohol. Non–acid-fast cells take the counterstain.",
+      "choice_explanations": {
+        "A": "Non–acid-fast cells take the counterstain. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Waxy mycolic-acid walls resist decolorization. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:7",
+      "question": "Which statement about Mycobacterium tuberculosis acid-fast in a 26-year-old man is most accurate?",
+      "options": [
+        "A) Corynebacterium are acid-fast beaded bacilli like Mycobacterium always",
+        "B) M. tuberculosis is a Gram-negative diplococcus like N. meningitidis",
+        "C) India ink stains mycobacterial mycolic acids acid-fast",
+        "D) M. tuberculosis is an acid-fast bacillus requiring special stains and culture"
+      ],
+      "answer": "D) M. tuberculosis is an acid-fast bacillus requiring special stains and culture",
+      "explanation": "Mycolic-acid–rich wall defines acid-fast staining behavior. Therefore, the most accurate choice is: M. tuberculosis is an acid-fast bacillus requiring special stains and culture. Neisseria is Gram-negative diplococci.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Neisseria is Gram-negative diplococci. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Mycolic-acid–rich wall defines acid-fast staining behavior. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:8",
+      "question": "A 42-year-old man has a complex presentation of catalase staph strep. Which of the following is most accurate?",
+      "options": [
+        "A) S. epidermidis is coagulase-positive like S. aureus always",
+        "B) Staphylococcus is catalase-negative; Streptococcus is catalase-positive",
+        "C) H. influenzae satellites because it is a catalase-negative strep",
+        "D) Staphylococcus is catalase-positive; Streptococcus is catalase-negative"
+      ],
+      "answer": "D) Staphylococcus is catalase-positive; Streptococcus is catalase-negative",
+      "explanation": "Staphylococcal catalase decomposes H2O2 to oxygen and water. Therefore, the most accurate choice is: Staphylococcus is catalase-positive; Streptococcus is catalase-negative. Catalase is the classic staph versus strep screen.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Catalase is the classic staph versus strep screen. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Staphylococcal catalase decomposes H2O2 to oxygen and water. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:9",
+      "question": "A 57-year-old woman with diabetes and hypertension is reassessed after incomplete response related to coagulase aureus. Which of the following is most accurate?",
+      "options": [
+        "A) S. aureus is coagulase-positive; many central nervous system are coagulase-negative",
+        "B) S. epidermidis typically ferments mannitol like S. aureus always",
+        "C) Vibrio are oxidase-negative like Enterobacterales always",
+        "D) S. epidermidis is coagulase-positive like S. aureus always"
+      ],
+      "answer": "A) S. aureus is coagulase-positive; many central nervous system are coagulase-negative",
+      "explanation": "Coagulase clots plasma, a key S. aureus marker. Therefore, the most accurate choice is: S. aureus is coagulase-positive; many central nervous system are coagulase-negative. CoNS are coagulase-negative.",
+      "choice_explanations": {
+        "A": "Coagulase clots plasma, a key S. aureus marker. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "CoNS are coagulase-negative. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:10",
+      "question": "A detailed evaluation for middle superior alveolar mannitol is underway in a 26-year-old man. Which of the following is correct?",
+      "options": [
+        "A) S. epidermidis typically ferments mannitol like S. aureus always",
+        "B) S. epidermidis is coagulase-positive like S. aureus always",
+        "C) S. aureus ferments mannitol on middle superior alveolar producing yellow colonies",
+        "D) Any growth of 10 colonies always proves pyelonephritis"
+      ],
+      "answer": "C) S. aureus ferments mannitol on middle superior alveolar producing yellow colonies",
+      "explanation": "Mannitol fermentation acidifies middle superior alveolar indicator under staphylococcal growth. Therefore, the most accurate choice is: S. aureus ferments mannitol on middle superior alveolar producing yellow colonies. S. epidermidis usually mannitol-negative.",
+      "choice_explanations": {
+        "A": "S. epidermidis usually mannitol-negative. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Mannitol fermentation acidifies middle superior alveolar indicator under staphylococcal growth. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:11",
+      "question": "A 50-year-old man has findings that make alpha hemolysis hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Alpha-hemolysis is green partial hemolysis such as S. pneumoniae and viridans",
+        "B) Alpha-hemolysis is complete clear hemolysis like S. pyogenes",
+        "C) Beta-hemolysis is green partial hemolysis like pneumococcus",
+        "D) Viridans streptococci are optochin-susceptible like pneumococcus"
+      ],
+      "answer": "A) Alpha-hemolysis is green partial hemolysis such as S. pneumoniae and viridans",
+      "explanation": "H2O2 and partial red blood cell degradation green the agar. Therefore, the most accurate choice is: Alpha-hemolysis is green partial hemolysis such as S. pneumoniae and viridans. Beta-hemolysis is complete clearing.",
+      "choice_explanations": {
+        "A": "H2O2 and partial red blood cell degradation green the agar. This matches the correct interpretation.",
+        "B": "Beta-hemolysis is complete clearing. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:12",
+      "question": "In a 36-year-old man, distinguishing beta hemolysis from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Beta-hemolysis is green partial hemolysis like pneumococcus",
+        "B) Alpha-hemolysis is complete clear hemolysis like S. pyogenes",
+        "C) S. pyogenes is classically CAMP-positive like Guillain-Barré syndrome",
+        "D) Beta-hemolysis is complete clear-zone hemolysis such as group A Streptococcus and some Guillain-Barré syndrome"
+      ],
+      "answer": "D) Beta-hemolysis is complete clear-zone hemolysis such as group A Streptococcus and some Guillain-Barré syndrome",
+      "explanation": "Hemolysins fully lyse red blood cells around colonies. Therefore, the most accurate choice is: Beta-hemolysis is complete clear-zone hemolysis such as group A Streptococcus and some Guillain-Barré syndrome. Alpha is partial green hemolysis.",
+      "choice_explanations": {
+        "A": "Alpha is partial green hemolysis. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Hemolysins fully lyse red blood cells around colonies. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:13",
+      "question": "Which closely related statement about optochin is correct?",
+      "options": [
+        "A) Viridans streptococci are bile-soluble like pneumococcus",
+        "B) Beta-hemolysis is green partial hemolysis like pneumococcus",
+        "C) S. pneumoniae is optochin-susceptible; viridans streptococci are resistant",
+        "D) Viridans streptococci are optochin-susceptible like pneumococcus"
+      ],
+      "answer": "C) S. pneumoniae is optochin-susceptible; viridans streptococci are resistant",
+      "explanation": "Optochin inhibits pneumococcal growth in a zone assay. Therefore, the most accurate choice is: S. pneumoniae is optochin-susceptible; viridans streptococci are resistant. Viridans resistance distinguishes them from pneumococcus.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Optochin inhibits pneumococcal growth in a zone assay. This matches the correct interpretation.",
+        "D": "Viridans resistance distinguishes them from pneumococcus. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:14",
+      "question": "Senior review is requested for bile solubility in a 25-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) Viridans streptococci are optochin-susceptible like pneumococcus",
+        "B) Viridans streptococci typically grow in 6.5% NaCl like enterococci",
+        "C) Viridans streptococci are bile-soluble like pneumococcus",
+        "D) S. pneumoniae is bile-soluble; viridans streptococci are not"
+      ],
+      "answer": "D) S. pneumoniae is bile-soluble; viridans streptococci are not",
+      "explanation": "Bile salts autolyze pneumococci, clearing the suspension. Therefore, the most accurate choice is: S. pneumoniae is bile-soluble; viridans streptococci are not. Viridans remain turbid.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Viridans remain turbid. It is less consistent than the correct choice.",
+        "D": "Bile salts autolyze pneumococci, clearing the suspension. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:15",
+      "question": "Which statement about lancefield in a 65-year-old woman is most accurate?",
+      "options": [
+        "A) Neisseria are Gram-positive rods in chains",
+        "B) Vibrio are oxidase-negative like Enterobacterales always",
+        "C) Lancefield grouping types Gram-negative enteric rods",
+        "D) Lancefield groups classify beta-hemolytic streptococci by cell-wall carbohydrate"
+      ],
+      "answer": "D) Lancefield groups classify beta-hemolytic streptococci by cell-wall carbohydrate",
+      "explanation": "C-carbohydrate antigens define groups A, B, C, G, and others. Therefore, the most accurate choice is: Lancefield groups classify beta-hemolytic streptococci by cell-wall carbohydrate. Enterobacterales use different iron deficiency systems.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Enterobacterales use different iron deficiency systems. It is less consistent than the correct choice.",
+        "D": "C-carbohydrate antigens define groups A, B, C, G, and others. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:16",
+      "question": "Careful reasoning about group A Streptococcus pyrrolidonyl arylamidase is required. Which of the following is most accurate?",
+      "options": [
+        "A) S. pyogenes is classically CAMP-positive like Guillain-Barré syndrome",
+        "B) Vibrio are oxidase-negative like Enterobacterales always",
+        "C) S. agalactiae is PYR-positive like group A Streptococcus always",
+        "D) S. pyogenes is PYR-positive and historically bacitracin-susceptible"
+      ],
+      "answer": "D) S. pyogenes is PYR-positive and historically bacitracin-susceptible",
+      "explanation": "pyrrolidonyl arylamidase arylamidase activity supports group A Streptococcus and enterococcus clues. Therefore, the most accurate choice is: S. pyogenes is PYR-positive and historically bacitracin-susceptible. Guillain-Barré syndrome is PYR-negative.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Guillain-Barré syndrome is PYR-negative. It is less consistent than the correct choice.",
+        "D": "pyrrolidonyl arylamidase arylamidase activity supports group A Streptococcus and enterococcus clues. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:17",
+      "question": "A 37-year-old woman is reassessed after incomplete response related to Guillain-Barré syndrome Christie-Atkins-Munch-Petersen. Which of the following is most accurate?",
+      "options": [
+        "A) S. pyogenes is classically CAMP-positive like Guillain-Barré syndrome",
+        "B) S. agalactiae shows positive Christie-Atkins-Munch-Petersen test with enhanced hemolysis near S. aureus",
+        "C) S. agalactiae is PYR-positive like group A Streptococcus always",
+        "D) Alpha-hemolysis is complete clear hemolysis like S. pyogenes"
+      ],
+      "answer": "B) S. agalactiae shows positive Christie-Atkins-Munch-Petersen test with enhanced hemolysis near S. aureus",
+      "explanation": "Guillain-Barré syndrome Christie-Atkins-Munch-Petersen factor synergizes with staphylococcal β-lysin. Therefore, the most accurate choice is: S. agalactiae shows positive Christie-Atkins-Munch-Petersen test with enhanced hemolysis near S. aureus. group A Streptococcus is CAMP-negative.",
+      "choice_explanations": {
+        "A": "group A Streptococcus is CAMP-negative. It is less consistent than the correct choice.",
+        "B": "Guillain-Barré syndrome Christie-Atkins-Munch-Petersen factor synergizes with staphylococcal β-lysin. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:18",
+      "question": "A detailed evaluation for enterococcus bile esculin azide is underway in a 28-year-old man. Which of the following is correct?",
+      "options": [
+        "A) Viridans streptococci are bile-soluble like pneumococcus",
+        "B) Viridans streptococci typically grow in 6.5% NaCl like enterococci",
+        "C) H. influenzae requires only bile esculin hydrolysis for growth",
+        "D) Enterococci grow in 6.5% NaCl and hydrolyze esculin on bile esculin agar"
+      ],
+      "answer": "D) Enterococci grow in 6.5% NaCl and hydrolyze esculin on bile esculin agar",
+      "explanation": "Salt tolerance plus esculin hydrolysis support enterococcal iron deficiency. Therefore, the most accurate choice is: Enterococci grow in 6.5% NaCl and hydrolyze esculin on bile esculin agar. Viridans lack 6.5% NaCl growth.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Viridans lack 6.5% NaCl growth. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Salt tolerance plus esculin hydrolysis support enterococcal iron deficiency. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:19",
+      "question": "A 39-year-old woman has findings that make neisseria gram-negative diplococci hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Campylobacter grows as aerobic spore-forming Gram-positive rods",
+        "B) Clostridia are aerobic Gram-negative cocci",
+        "C) Neisseria are Gram-negative diplococci in kidney-bean pairs",
+        "D) Neisseria are Gram-positive rods in chains"
+      ],
+      "answer": "C) Neisseria are Gram-negative diplococci in kidney-bean pairs",
+      "explanation": "Coffee-bean gram-negative diplococci morphology is classic in PMNs on smears. Therefore, the most accurate choice is: Neisseria are Gram-negative diplococci in kidney-bean pairs. gutta-percha rods describe other genera.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Coffee-bean gram-negative diplococci morphology is classic in PMNs on smears. This matches the correct interpretation.",
+        "D": "gutta-percha rods describe other genera. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:20",
+      "question": "In a 54-year-old man, distinguishing Neisseria gonorrhoeae culture from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) MacConkey agar is selective for Gram-positive cocci only",
+        "B) N. gonorrhoeae requires chocolate or Thayer-Martin media and increased carbon dioxide",
+        "C) Chlamydia grows readily on ordinary blood agar in 24 hours",
+        "D) N. gonorrhoeae grows readily on unsupplemented MacConkey agar"
+      ],
+      "answer": "B) N. gonorrhoeae requires chocolate or Thayer-Martin media and increased carbon dioxide",
+      "explanation": "Fastidious Neisseria need enriched selective media for genital sites. Therefore, the most accurate choice is: N. gonorrhoeae requires chocolate or Thayer-Martin media and increased carbon dioxide. MacConkey selects enteric Gram negatives.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Fastidious Neisseria need enriched selective media for genital sites. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "MacConkey selects enteric Gram negatives. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:21",
+      "question": "A 70-year-old man returns with ongoing problems related to meningococcus cerebrospinal fluid. Which of the following is most accurate?",
+      "options": [
+        "A) cerebrospinal fluid Gram stain results can be deferred without clinical impact",
+        "B) M. tuberculosis is a Gram-negative diplococcus like N. meningitidis",
+        "C) N. meningitidis is an acid-fast filamentous rod",
+        "D) N. meningitidis can cause meningitis with gram-negative diplococci in cerebrospinal fluid neutrophils"
+      ],
+      "answer": "D) N. meningitidis can cause meningitis with gram-negative diplococci in cerebrospinal fluid neutrophils",
+      "explanation": "Encapsulated meningococci invade meninges producing purulent cerebrospinal fluid. Therefore, the most accurate choice is: N. meningitidis can cause meningitis with gram-negative diplococci in cerebrospinal fluid neutrophils. acid-fast bacilli morphology is mycobacteria.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "acid-fast bacilli morphology is mycobacteria. It is less consistent than the correct choice.",
+        "D": "Encapsulated meningococci invade meninges producing purulent cerebrospinal fluid. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:22",
+      "question": "Senior review is requested for haemophilus X and V growth factors in a 60-year-old man. Which of the following is correct?",
+      "options": [
+        "A) H. influenzae requires only bile esculin hydrolysis for growth",
+        "B) H. influenzae requires X hemin and V nicotinamide adenine dinucleotide factors",
+        "C) Salmonella appears as bile-esculin black enterococci on xylose lysine deoxycholate agar identically",
+        "D) H. influenzae satellites because it is a catalase-negative strep"
+      ],
+      "answer": "B) H. influenzae requires X hemin and V nicotinamide adenine dinucleotide factors",
+      "explanation": "Factor dependence distinguishes Haemophilus species on satellite and quad plates. Therefore, the most accurate choice is: H. influenzae requires X hemin and V nicotinamide adenine dinucleotide factors. Esculin tests are for enterococcus clues.",
+      "choice_explanations": {
+        "A": "Esculin tests are for enterococcus clues. It is less consistent than the correct choice.",
+        "B": "Factor dependence distinguishes Haemophilus species on satellite and quad plates. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:23",
+      "question": "Which statement about haemophilus satellite in a 30-year-old man is most accurate?",
+      "options": [
+        "A) H. influenzae satellites because it is a catalase-negative strep",
+        "B) H. influenzae requires only bile esculin hydrolysis for growth",
+        "C) H. influenzae satellites around S. aureus providing V factor",
+        "D) Staphylococcus is catalase-negative; Streptococcus is catalase-positive"
+      ],
+      "answer": "C) H. influenzae satellites around S. aureus providing V factor",
+      "explanation": "Staphylococcal nicotinamide adenine dinucleotide release enables Haemophilus growth nearby. Therefore, the most accurate choice is: H. influenzae satellites around S. aureus providing V factor. Satellite phenomenon is factor provision, not strep iron deficiency.",
+      "choice_explanations": {
+        "A": "Satellite phenomenon is factor provision, not strep iron deficiency. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Staphylococcal nicotinamide adenine dinucleotide release enables Haemophilus growth nearby. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:24",
+      "question": "A 66-year-old man has a complex presentation of mac Conkey purpose. Which of the following is most accurate?",
+      "options": [
+        "A) Iodine is the decolorizer that removes dye from Gram negatives",
+        "B) MacConkey agar is selective for Gram-positive cocci only",
+        "C) Lactose fermenters appear colorless on MacConkey always",
+        "D) MacConkey agar selects Gram-negatives and differentiates lactose fermenters"
+      ],
+      "answer": "D) MacConkey agar selects Gram-negatives and differentiates lactose fermenters",
+      "explanation": "Bile salts and crystal violet inhibit GPs; lactose indicator shows fermentation. Therefore, the most accurate choice is: MacConkey agar selects Gram-negatives and differentiates lactose fermenters. It selects against many GPs.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "It selects against many GPs. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Bile salts and crystal violet inhibit GPs; lactose indicator shows fermentation. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:25",
+      "question": "A 52-year-old man with diabetes and hypertension is reassessed after incomplete response related to lactose fermenter. Which of the following is most accurate?",
+      "options": [
+        "A) MacConkey agar is selective for Gram-positive cocci only",
+        "B) Lactose fermenters appear colorless on MacConkey always",
+        "C) Lactose-fermenting Enterobacterales appear pink on MacConkey",
+        "D) P. aeruginosa is oxidase-negative lactose fermenter like E. coli"
+      ],
+      "answer": "C) Lactose-fermenting Enterobacterales appear pink on MacConkey",
+      "explanation": "Acid from lactose fermentation turns indicator pink. Therefore, the most accurate choice is: Lactose-fermenting Enterobacterales appear pink on MacConkey. Nonfermenters stay pale.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Nonfermenters stay pale. It is less consistent than the correct choice.",
+        "C": "Acid from lactose fermentation turns indicator pink. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:26",
+      "question": "A detailed evaluation for e coli iron deficiency is underway in a 29-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) E. coli is oxidase-positive like Pseudomonas",
+        "B) Vibrio are oxidase-negative like Enterobacterales always",
+        "C) P. aeruginosa is oxidase-negative lactose fermenter like E. coli",
+        "D) E. coli is typically indole-positive, lactose-positive, and oxidase-negative"
+      ],
+      "answer": "D) E. coli is typically indole-positive, lactose-positive, and oxidase-negative",
+      "explanation": "Tryptophanase yields indole; oxidase-negative fermenters fit E. coli. Therefore, the most accurate choice is: E. coli is typically indole-positive, lactose-positive, and oxidase-negative. Pseudomonas is an oxidase-positive nonfermenter.",
+      "choice_explanations": {
+        "A": "Pseudomonas is an oxidase-positive nonfermenter. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Tryptophanase yields indole; oxidase-negative fermenters fit E. coli. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:27",
+      "question": "A 66-year-old man has findings that make klebsiella mucoid hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Shigella is motile H2S-positive like many Salmonella",
+        "B) Salmonella appears as bile-esculin black enterococci on xylose lysine deoxycholate agar identically",
+        "C) Klebsiella often appears mucoid from capsule and K. pneumoniae is indole-negative",
+        "D) Klebsiella pneumoniae is typically highly motile with swarming"
+      ],
+      "answer": "C) Klebsiella often appears mucoid from capsule and K. pneumoniae is indole-negative",
+      "explanation": "Prominent capsule produces mucoid colonies. Therefore, the most accurate choice is: Klebsiella often appears mucoid from capsule and K. pneumoniae is indole-negative. Proteus swarms.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Prominent capsule produces mucoid colonies. This matches the correct interpretation.",
+        "D": "Proteus swarms. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:28",
+      "question": "In a 52-year-old man, distinguishing proteus swarming from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Proteus mirabilis swarms on blood agar and is urease-positive",
+        "B) Shigella is motile H2S-positive like many Salmonella",
+        "C) Proteus is nonmotile and urease-negative always",
+        "D) H. pylori is urease-negative like Campylobacter always"
+      ],
+      "answer": "A) Proteus mirabilis swarms on blood agar and is urease-positive",
+      "explanation": "Peritrichous flagella enable swarming; urease alkalinizes media. Therefore, the most accurate choice is: Proteus mirabilis swarms on blood agar and is urease-positive. Urease and swarming are Proteus hallmarks.",
+      "choice_explanations": {
+        "A": "Peritrichous flagella enable swarming; urease alkalinizes media. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Urease and swarming are Proteus hallmarks. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "medical_microbiology:extreme:29",
+      "question": "Which closely related statement about pseudomonas iron deficiency is correct?",
+      "options": [
+        "A) Vibrio are oxidase-negative like Enterobacterales always",
+        "B) P. aeruginosa is oxidase-positive, non–lactose-fermenting, often green pigmented",
+        "C) E. coli is oxidase-positive like Pseudomonas",
+        "D) P. aeruginosa is oxidase-negative lactose fermenter like E. coli"
+      ],
+      "answer": "B) P. aeruginosa is oxidase-positive, non–lactose-fermenting, often green pigmented",
+      "explanation": "Oxidative metabolism and pyocyanin pigments are clues. Therefore, the most accurate choice is: P. aeruginosa is oxidase-positive, non–lactose-fermenting, often green pigmented. E. coli pattern is the enteric foil.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Oxidative metabolism and pyocyanin pigments are clues. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "E. coli pattern is the enteric foil. It is less consistent than the correct choice."
+      }
+    }
+  ]
+}

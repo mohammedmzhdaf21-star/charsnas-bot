@@ -1,0 +1,2170 @@
+{
+  "easy": [
+    {
+      "id": "dermatology:easy:0",
+      "question": "Which of the following is true of atopic dermatitis?",
+      "options": [
+        "A) Atopic flexure eczema identically",
+        "B) Itchy flexures; barrier/immunoglobulin E atopy; emollients/topical corticosteroid",
+        "C) Psoriasis extensor plaques identically always",
+        "D) Irritant dose-dependent barrier identically always without history"
+      ],
+      "answer": "B) Itchy flexures; barrier/immunoglobulin E atopy; emollients/topical corticosteroid",
+      "explanation": "Barrier dysfunction and Th2 inflammation. Therefore, the most accurate choice is: Itchy flexures; barrier/immunoglobulin E atopy; emollients/topical corticosteroid. Psoriasis is Th17/extensor plaques.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Barrier dysfunction and Th2 inflammation. This matches the correct interpretation.",
+        "C": "Psoriasis is Th17/extensor plaques. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:easy:1",
+      "question": "Which finding matches contact dermatitis allergic?",
+      "options": [
+        "A) Allergic type intravenous identically always",
+        "B) Irritant dose-dependent barrier identically always without history",
+        "C) Psoriasis extensor plaques identically always",
+        "D) Type 4 delayed to allergen; patch testing"
+      ],
+      "answer": "D) Type 4 delayed to allergen; patch testing",
+      "explanation": "Sensitized T cells react to allergen. Therefore, the most accurate choice is: Type 4 delayed to allergen; patch testing. Irritant is nonimmune toxic.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Irritant is nonimmune toxic. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Sensitized T cells react to allergen. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:easy:2",
+      "question": "Which of the following statements about irritant contact is correct?",
+      "options": [
+        "A) Psoriasis extensor plaques identically always",
+        "B) Allergic type intravenous identically always",
+        "C) Direct chemical barrier injury; hands common",
+        "D) Irritant dose-dependent barrier identically always without history"
+      ],
+      "answer": "C) Direct chemical barrier injury; hands common",
+      "explanation": "Nonimmunologic toxicity. Therefore, the most accurate choice is: Direct chemical barrier injury; hands common. Allergic needs sensitization.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Allergic needs sensitization. It is less consistent than the correct choice.",
+        "C": "Nonimmunologic toxicity. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:easy:3",
+      "question": "In psoriasis vulgaris, which of the following is correct?",
+      "options": [
+        "A) Psoriasis silvery plaque elbows identically",
+        "B) Well-demarcated silvery plaques extensors/scalp; nail pitting",
+        "C) Atopic flexure eczema identically",
+        "D) Psoriasis extensor plaques identically always"
+      ],
+      "answer": "B) Well-demarcated silvery plaques extensors/scalp; nail pitting",
+      "explanation": "Th17-driven keratinocyte proliferation. Therefore, the most accurate choice is: Well-demarcated silvery plaques extensors/scalp; nail pitting. Atopic is flexure itch barrier.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Th17-driven keratinocyte proliferation. This matches the correct interpretation.",
+        "C": "Atopic is flexure itch barrier. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:easy:4",
+      "question": "Which of the following best describes guttate psoriasis?",
+      "options": [
+        "A) Pustular psoriasis identical trigger always",
+        "B) Chronic plaque only without infection trigger",
+        "C) Drop-like after strep",
+        "D) Psoriasis silvery plaque elbows identically"
+      ],
+      "answer": "C) Drop-like after strep",
+      "explanation": "Poststreptococcal immune trigger. Therefore, the most accurate choice is: Drop-like after strep. Chronic plaque different morphology/trigger.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Chronic plaque different morphology/trigger. It is less consistent than the correct choice.",
+        "C": "Poststreptococcal immune trigger. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:easy:5",
+      "question": "Select the correct statement about pustular psoriasis.",
+      "options": [
+        "A) Infected folliculitis always culture-positive identically",
+        "B) Psoriasis extensor plaques identically always",
+        "C) Pustular psoriasis identical trigger always",
+        "D) Sterile pustules; may be systemic emergency"
+      ],
+      "answer": "D) Sterile pustules; may be systemic emergency",
+      "explanation": "Autoinflammatory pustulation. Therefore, the most accurate choice is: Sterile pustules; may be systemic emergency. Not necessarily bacterial.",
+      "choice_explanations": {
+        "A": "Not necessarily bacterial. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Autoinflammatory pustulation. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:easy:6",
+      "question": "Which mechanism accounts for seborrheic dermatitis?",
+      "options": [
+        "A) Psoriasis silvery plaque elbows identically",
+        "B) Atopic flexure eczema identically",
+        "C) Seborrheic adult dandruff topical only identically",
+        "D) Greasy scale scalp/face; Malassezia associated"
+      ],
+      "answer": "D) Greasy scale scalp/face; Malassezia associated",
+      "explanation": "Yeast-driven sebaceous inflammation. Therefore, the most accurate choice is: Greasy scale scalp/face; Malassezia associated. Psoriasis different distribution/scale.",
+      "choice_explanations": {
+        "A": "Psoriasis different distribution/scale. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Yeast-driven sebaceous inflammation. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:easy:7",
+      "question": "Which of the following applies to pityriasis rosea?",
+      "options": [
+        "A) Rubella milder lymphadenopathy identically always without distinction",
+        "B) Secondary syphilis palms always without serology consideration",
+        "C) Herald patch then Christmas-tree; human herpesvirus",
+        "D) Pityriasis rosea herald without serology always safe"
+      ],
+      "answer": "C) Herald patch then Christmas-tree; human herpesvirus",
+      "explanation": "Likely viral exanthem pattern. Therefore, the most accurate choice is: Herald patch then Christmas-tree; human herpesvirus. Syphilis must be considered if palms/soles atypical.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Syphilis must be considered if palms/soles atypical. It is less consistent than the correct choice.",
+        "C": "Likely viral exanthem pattern. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:easy:8",
+      "question": "Which of the following is true of tinea corporis?",
+      "options": [
+        "A) Tinea annular scale potassium hydroxide+ identically always",
+        "B) Annular active border; potassium hydroxide hyphae; terbinafine/azoles",
+        "C) Tinea active scaly border potassium hydroxide+ identically",
+        "D) Granuloma annulare nonscaly identically always"
+      ],
+      "answer": "B) Annular active border; potassium hydroxide hyphae; terbinafine/azoles",
+      "explanation": "Dermatophyte invades stratum corneum. Therefore, the most accurate choice is: Annular active border; potassium hydroxide hyphae; terbinafine/azoles. general anesthesia is noninfectious granulomatous.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Dermatophyte invades stratum corneum. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "general anesthesia is noninfectious granulomatous. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:easy:9",
+      "question": "Which finding is expected in tinea capitis?",
+      "options": [
+        "A) Tinea capitis scale kids oral antifungal identically always",
+        "B) Psoriasis silvery plaque elbows identically",
+        "C) Seborrheic adult dandruff topical only identically",
+        "D) Kids scalp scale/alopecia; oral antifungals"
+      ],
+      "answer": "D) Kids scalp scale/alopecia; oral antifungals",
+      "explanation": "Dermatophyte invades hair shaft. Therefore, the most accurate choice is: Kids scalp scale/alopecia; oral antifungals. Needs systemic therapy usually.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Needs systemic therapy usually. It is less consistent than the correct choice.",
+        "D": "Dermatophyte invades hair shaft. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:easy:10",
+      "question": "Which statement regarding onychomycosis is correct?",
+      "options": [
+        "A) Irritant dose-dependent barrier identically always without history",
+        "B) Dermatophyte nail dystrophy; confirm before long treatment",
+        "C) Psoriatic nail pitting identically always without testing",
+        "D) Bacillary angiomatosis Bartonella identically always without testing"
+      ],
+      "answer": "B) Dermatophyte nail dystrophy; confirm before long treatment",
+      "explanation": "Fungal invasion of nail plate. Therefore, the most accurate choice is: Dermatophyte nail dystrophy; confirm before long treatment. Psoriasis nails differ (pits/oil drop).",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Fungal invasion of nail plate. This matches the correct interpretation.",
+        "C": "Psoriasis nails differ (pits/oil drop). It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:easy:11",
+      "question": "In candidiasis intertrigo, which of the following is correct?",
+      "options": [
+        "A) Seborrheic adult dandruff topical only identically",
+        "B) Psoriatic nail pitting identically always without testing",
+        "C) Satellite pustules moist folds; antifungals",
+        "D) Tinea cruris without satellites identically always"
+      ],
+      "answer": "C) Satellite pustules moist folds; antifungals",
+      "explanation": "Candida thrives in moisture. Therefore, the most accurate choice is: Satellite pustules moist folds; antifungals. Dermatophyte cruris different.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Candida thrives in moisture. This matches the correct interpretation.",
+        "D": "Dermatophyte cruris different. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:easy:12",
+      "question": "Which of the following best describes scabies?",
+      "options": [
+        "A) Burrows finger webs; intense night itch; permethrin/ivermectin",
+        "B) Xerosis winter itch identically",
+        "C) Scabies finger webs identically",
+        "D) Dandruff freely movable scale identically"
+      ],
+      "answer": "A) Burrows finger webs; intense night itch; permethrin/ivermectin",
+      "explanation": "Sarcoptes burrows in stratum corneum. Therefore, the most accurate choice is: Burrows finger webs; intense night itch; permethrin/ivermectin. Dry skin lacks burrows/contagion.",
+      "choice_explanations": {
+        "A": "Sarcoptes burrows in stratum corneum. This matches the correct interpretation.",
+        "B": "Dry skin lacks burrows/contagion. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:easy:13",
+      "question": "Select the correct statement about lice pediculosis.",
+      "options": [
+        "A) Seborrheic adult dandruff topical only identically",
+        "B) Nits on hair; permethrin/comb",
+        "C) Dandruff freely movable scale identically",
+        "D) Xerosis winter itch identically"
+      ],
+      "answer": "B) Nits on hair; permethrin/comb",
+      "explanation": "Parasite eggs cemented to hair. Therefore, the most accurate choice is: Nits on hair; permethrin/comb. Dandruff flakes move easily.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Parasite eggs cemented to hair. This matches the correct interpretation.",
+        "C": "Dandruff flakes move easily. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:easy:14",
+      "question": "Which mechanism accounts for impetigo?",
+      "options": [
+        "A) herpes simplex virus vesicles crops infectious identically always",
+        "B) Honey crust Staph/Strep; topical/oral Abs",
+        "C) Impetigo honey crust identically primary always",
+        "D) herpes simplex virus vesicles herpes identically always"
+      ],
+      "answer": "B) Honey crust Staph/Strep; topical/oral Abs",
+      "explanation": "Superficial bacterial infection. Therefore, the most accurate choice is: Honey crust Staph/Strep; topical/oral Abs. herpes simplex virus is viral vesicles.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Superficial bacterial infection. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "herpes simplex virus is viral vesicles. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:easy:15",
+      "question": "Which of the following applies to erysipelas?",
+      "options": [
+        "A) Well-demarcated raised Strep cellulitis",
+        "B) herpes simplex virus vesicles herpes identically always",
+        "C) Deeper cellulitis poorly demarcated identically always nuance",
+        "D) Cellulitis unilateral infection identically always"
+      ],
+      "answer": "A) Well-demarcated raised Strep cellulitis",
+      "explanation": "Superficial dermal lymphatic involvement. Therefore, the most accurate choice is: Well-demarcated raised Strep cellulitis. Deeper cellulitis borders less sharp.",
+      "choice_explanations": {
+        "A": "Superficial dermal lymphatic involvement. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Deeper cellulitis borders less sharp. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:easy:16",
+      "question": "Which of the following is true of cellulitis?",
+      "options": [
+        "A) Necrotizing fasciitis without red flags identically observe",
+        "B) Simple cellulitis oral Abs always adequate",
+        "C) Deeper skin infection; Abs ± elevation",
+        "D) Deeper cellulitis poorly demarcated identically always nuance"
+      ],
+      "answer": "C) Deeper skin infection; Abs ± elevation",
+      "explanation": "Bacterial dermal/subcut infection. Therefore, the most accurate choice is: Deeper skin infection; Abs ± elevation. Nec fasc has pain out of proportion/rapid spread.",
+      "choice_explanations": {
+        "A": "Nec fasc has pain out of proportion/rapid spread. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Bacterial dermal/subcut infection. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:easy:17",
+      "question": "Which finding is expected in abscess?",
+      "options": [
+        "A) Cellulitis without fluctuance I&D first always",
+        "B) Fluctuant pus needs I&D ± Abs",
+        "C) Necrotizing fasciitis without red flags identically observe",
+        "D) Simple cellulitis oral Abs always adequate"
+      ],
+      "answer": "B) Fluctuant pus needs I&D ± Abs",
+      "explanation": "Walled-off pus requires drainage. Therefore, the most accurate choice is: Fluctuant pus needs I&D ± Abs. Pure cellulitis may not need I&D.",
+      "choice_explanations": {
+        "A": "Pure cellulitis may not need I&D. It is less consistent than the correct choice.",
+        "B": "Walled-off pus requires drainage. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:easy:18",
+      "question": "Which of the following statements about necrotizing fasciitis is correct?",
+      "options": [
+        "A) Necrotizing fasciitis without red flags identically observe",
+        "B) herpes simplex virus vesicles herpes identically always",
+        "C) Simple cellulitis oral Abs always adequate",
+        "D) Pain out of proportion, crepitus/rapid; surgical emergency"
+      ],
+      "answer": "D) Pain out of proportion, crepitus/rapid; surgical emergency",
+      "explanation": "Deep necrosis along fascia. Therefore, the most accurate choice is: Pain out of proportion, crepitus/rapid; surgical emergency. Needs urgent debridement.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Needs urgent debridement. It is less consistent than the correct choice.",
+        "D": "Deep necrosis along fascia. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:easy:19",
+      "question": "In herpes simplex virus oral/genital, which of the following is correct?",
+      "options": [
+        "A) Painful vesicles on erythematous base; antivirals",
+        "B) Impetigo honey crust identically primary always",
+        "C) herpes simplex virus vesicles herpes identically always",
+        "D) herpes simplex virus oral randomly distributed identically"
+      ],
+      "answer": "A) Painful vesicles on erythematous base; antivirals",
+      "explanation": "Herpesvirus epidermal infection. Therefore, the most accurate choice is: Painful vesicles on erythematous base; antivirals. Impetigo bacterial crust.",
+      "choice_explanations": {
+        "A": "Herpesvirus epidermal infection. This matches the correct interpretation.",
+        "B": "Impetigo bacterial crust. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:easy:20",
+      "question": "Which of the following best describes varicella-zoster virus chickenpox?",
+      "options": [
+        "A) Crops different stages; vaccine preventable",
+        "B) Smallpox all same stage identically historical",
+        "C) Varicella crops truncal differently staged identically",
+        "D) Morbilliform widespread new areas always identically"
+      ],
+      "answer": "A) Crops different stages; vaccine preventable",
+      "explanation": "Varicella spreads hematogenously in crops. Therefore, the most accurate choice is: Crops different stages; vaccine preventable. Variola synchronous stages.",
+      "choice_explanations": {
+        "A": "Varicella spreads hematogenously in crops. This matches the correct interpretation.",
+        "B": "Variola synchronous stages. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:easy:21",
+      "question": "Select the correct statement about herpes zoster.",
+      "options": [
+        "A) Impetigo honey crust identically primary always",
+        "B) herpes simplex virus oral randomly distributed identically",
+        "C) herpes simplex virus vesicles herpes identically always",
+        "D) Dermatomal painful vesicles; antivirals early"
+      ],
+      "answer": "D) Dermatomal painful vesicles; antivirals early",
+      "explanation": "Reactivation in sensory ganglion. Therefore, the most accurate choice is: Dermatomal painful vesicles; antivirals early. herpes simplex virus not strictly dermatomal usually.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "herpes simplex virus not strictly dermatomal usually. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Reactivation in sensory ganglion. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:easy:22",
+      "question": "Which mechanism accounts for postherpetic neuralgia?",
+      "options": [
+        "A) Active zoster vesicles always present with postherpetic neuralgia",
+        "B) Persistent pain after zoster rash heals",
+        "C) Simple cellulitis oral Abs always adequate",
+        "D) Impetigo honey crust identically primary always"
+      ],
+      "answer": "B) Persistent pain after zoster rash heals",
+      "explanation": "Nerve injury after inflammation. Therefore, the most accurate choice is: Persistent pain after zoster rash heals. postherpetic neuralgia continues after rash resolution.",
+      "choice_explanations": {
+        "A": "postherpetic neuralgia continues after rash resolution. It is less consistent than the correct choice.",
+        "B": "Nerve injury after inflammation. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:easy:23",
+      "question": "Which of the following applies to human papillomavirus warts?",
+      "options": [
+        "A) Melanoma always if pigmented",
+        "B) Seborrheic keratosis stuck-on observe always without concern when changing",
+        "C) Verruca vulgaris; destructive/immune therapies",
+        "D) Seborrheic keratosis stuck-on elderly identically always"
+      ],
+      "answer": "C) Verruca vulgaris; destructive/immune therapies",
+      "explanation": "Viral epidermal proliferation. Therefore, the most accurate choice is: Verruca vulgaris; destructive/immune therapies. SK is benign clonal keratinocyte growth aging.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Viral epidermal proliferation. This matches the correct interpretation.",
+        "D": "SK is benign clonal keratinocyte growth aging. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:easy:24",
+      "question": "Which of the following is true of molluscum?",
+      "options": [
+        "A) Seborrheic keratosis stuck-on elderly identically always",
+        "B) Warts verrucous identically",
+        "C) Molluscum umbilicated viral identically",
+        "D) Umbilicated pearly papules poxvirus"
+      ],
+      "answer": "D) Umbilicated pearly papules poxvirus",
+      "explanation": "Poxvirus epidermal infection. Therefore, the most accurate choice is: Umbilicated pearly papules poxvirus. human papillomavirus warts different morphology.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "human papillomavirus warts different morphology. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Poxvirus epidermal infection. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:easy:25",
+      "question": "Which finding is expected in acne vulgaris?",
+      "options": [
+        "A) Rosacea comedones prominent identically",
+        "B) Rosacea triggers spicy identically always without Abs",
+        "C) Acne comedonal identically",
+        "D) Comedones ± inflammatory; retinoids/benzoyl peroxide/Abs selected"
+      ],
+      "answer": "D) Comedones ± inflammatory; retinoids/benzoyl peroxide/Abs selected",
+      "explanation": "Pilosebaceous Propionibacterium/inflammation. Therefore, the most accurate choice is: Comedones ± inflammatory; retinoids/benzoyl peroxide/Abs selected. Rosacea lacks true comedones.",
+      "choice_explanations": {
+        "A": "Rosacea lacks true comedones. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Pilosebaceous Propionibacterium/inflammation. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:easy:26",
+      "question": "Which of the following statements about rosacea is correct?",
+      "options": [
+        "A) Rosacea triggers spicy identically always without Abs",
+        "B) Acne comedonal identically",
+        "C) Rosacea comedones prominent identically",
+        "D) Flushing papulopustules; triggers; metronidazole/ivermectin topical"
+      ],
+      "answer": "D) Flushing papulopustules; triggers; metronidazole/ivermectin topical",
+      "explanation": "Neurovascular/innate inflammation. Therefore, the most accurate choice is: Flushing papulopustules; triggers; metronidazole/ivermectin topical. No comedones typically.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "No comedones typically. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Neurovascular/innate inflammation. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:easy:27",
+      "question": "In hidradenitis, which of the following is correct?",
+      "options": [
+        "A) Simple furuncle once identically always",
+        "B) Anthrax eschar bioterror identically always",
+        "C) Simple morbilliform without organ involvement identically always",
+        "D) Painful boils intertriginous; sinus tracts; antibiotics/surgery/biologics"
+      ],
+      "answer": "D) Painful boils intertriginous; sinus tracts; antibiotics/surgery/biologics",
+      "explanation": "Follicular occlusion deep. Therefore, the most accurate choice is: Painful boils intertriginous; sinus tracts; antibiotics/surgery/biologics. Recurrent tunnels differ from single furuncle.",
+      "choice_explanations": {
+        "A": "Recurrent tunnels differ from single furuncle. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Follicular occlusion deep. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:easy:28",
+      "question": "Which of the following best describes pemphigus vulgaris?",
+      "options": [
+        "A) Flaccid blisters, +Nikolsky, immunoglobulin G desmoglein3; ritux/steroids",
+        "B) Bullous pemphigoid tense immunoglobulin G bullous pemphigoid antigen 180 elderly identically",
+        "C) Bullous pemphigoid elderly tense identically",
+        "D) Pemphigus flaccid +Nikolsky identically"
+      ],
+      "answer": "A) Flaccid blisters, +Nikolsky, immunoglobulin G desmoglein3; ritux/steroids",
+      "explanation": "Acantholysis from desmoglein Abs. Therefore, the most accurate choice is: Flaccid blisters, +Nikolsky, immunoglobulin G desmoglein3; ritux/steroids. blood pressure is hemidesmosome tense blisters.",
+      "choice_explanations": {
+        "A": "Acantholysis from desmoglein Abs. This matches the correct interpretation.",
+        "B": "blood pressure is hemidesmosome tense blisters. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:easy:29",
+      "question": "Select the correct statement about bullous pemphigoid.",
+      "options": [
+        "A) Bullous pemphigoid elderly tense identically",
+        "B) Pemphigus flaccid +Nikolsky identically",
+        "C) Tense blisters elderly; bullous pemphigoid antigen 180/230 Abs",
+        "D) Bullous pemphigoid tense immunoglobulin G bullous pemphigoid antigen 180 elderly identically"
+      ],
+      "answer": "C) Tense blisters elderly; bullous pemphigoid antigen 180/230 Abs",
+      "explanation": "Hemidesmosome Abs subepidermal. Therefore, the most accurate choice is: Tense blisters elderly; bullous pemphigoid antigen 180/230 Abs. Pemphigus intraepidermal acantholysis.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Pemphigus intraepidermal acantholysis. It is less consistent than the correct choice.",
+        "C": "Hemidesmosome Abs subepidermal. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ],
+  "medium": [
+    {
+      "id": "dermatology:medium:0",
+      "question": "A 53-year-old man presents with a clinical picture of atopic dermatitis. Which of the following is most accurate?",
+      "options": [
+        "A) Atopic flexure eczema identically",
+        "B) Irritant dose-dependent barrier identically always without history",
+        "C) Itchy flexures; barrier/immunoglobulin E atopy; emollients/topical corticosteroid",
+        "D) Psoriasis extensor plaques identically always"
+      ],
+      "answer": "C) Itchy flexures; barrier/immunoglobulin E atopy; emollients/topical corticosteroid",
+      "explanation": "Barrier dysfunction and Th2 inflammation. Therefore, the most accurate choice is: Itchy flexures; barrier/immunoglobulin E atopy; emollients/topical corticosteroid. Psoriasis is Th17/extensor plaques.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Barrier dysfunction and Th2 inflammation. This matches the correct interpretation.",
+        "D": "Psoriasis is Th17/extensor plaques. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:1",
+      "question": "While evaluating a 30-year-old woman, attention turns to contact dermatitis allergic. Which of the following is most accurate?",
+      "options": [
+        "A) Irritant dose-dependent barrier identically always without history",
+        "B) Allergic type intravenous identically always",
+        "C) Psoriasis extensor plaques identically always",
+        "D) Type 4 delayed to allergen; patch testing"
+      ],
+      "answer": "D) Type 4 delayed to allergen; patch testing",
+      "explanation": "Sensitized T cells react to allergen. Therefore, the most accurate choice is: Type 4 delayed to allergen; patch testing. Irritant is nonimmune toxic.",
+      "choice_explanations": {
+        "A": "Irritant is nonimmune toxic. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Sensitized T cells react to allergen. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:medium:2",
+      "question": "A 46-year-old woman develops symptoms of irritant contact. Which of the following is most accurate?",
+      "options": [
+        "A) Allergic type intravenous identically always",
+        "B) Direct chemical barrier injury; hands common",
+        "C) Irritant dose-dependent barrier identically always without history",
+        "D) Psoriasis extensor plaques identically always"
+      ],
+      "answer": "B) Direct chemical barrier injury; hands common",
+      "explanation": "Nonimmunologic toxicity. Therefore, the most accurate choice is: Direct chemical barrier injury; hands common. Allergic needs sensitization.",
+      "choice_explanations": {
+        "A": "Allergic needs sensitization. It is less consistent than the correct choice.",
+        "B": "Nonimmunologic toxicity. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:3",
+      "question": "A 47-year-old man is admitted with suspected psoriasis vulgaris. Which statement is correct?",
+      "options": [
+        "A) Well-demarcated silvery plaques extensors/scalp; nail pitting",
+        "B) Atopic flexure eczema identically",
+        "C) Psoriasis extensor plaques identically always",
+        "D) Psoriasis silvery plaque elbows identically"
+      ],
+      "answer": "A) Well-demarcated silvery plaques extensors/scalp; nail pitting",
+      "explanation": "Th17-driven keratinocyte proliferation. Therefore, the most accurate choice is: Well-demarcated silvery plaques extensors/scalp; nail pitting. Atopic is flexure itch barrier.",
+      "choice_explanations": {
+        "A": "Th17-driven keratinocyte proliferation. This matches the correct interpretation.",
+        "B": "Atopic is flexure itch barrier. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:4",
+      "question": "A 33-year-old man has examination findings of guttate psoriasis. Which of the following is most accurate?",
+      "options": [
+        "A) Necrotizing fasciitis without red flags identically observe",
+        "B) Drop-like after strep",
+        "C) Psoriasis silvery plaque elbows identically",
+        "D) Chronic plaque only without infection trigger"
+      ],
+      "answer": "B) Drop-like after strep",
+      "explanation": "Poststreptococcal immune trigger. Therefore, the most accurate choice is: Drop-like after strep. Chronic plaque different morphology/trigger.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Poststreptococcal immune trigger. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Chronic plaque different morphology/trigger. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:5",
+      "question": "A 61-year-old man reports symptoms typical of pustular psoriasis. Which of the following is correct?",
+      "options": [
+        "A) Pustular psoriasis identical trigger always",
+        "B) Sterile pustules; may be systemic emergency",
+        "C) Infected folliculitis always culture-positive identically",
+        "D) Psoriasis extensor plaques identically always"
+      ],
+      "answer": "B) Sterile pustules; may be systemic emergency",
+      "explanation": "Autoinflammatory pustulation. Therefore, the most accurate choice is: Sterile pustules; may be systemic emergency. Not necessarily bacterial.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Autoinflammatory pustulation. This matches the correct interpretation.",
+        "C": "Not necessarily bacterial. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:6",
+      "question": "A 35-year-old man is evaluated in the emergency department for seborrheic dermatitis. Which of the following is most accurate?",
+      "options": [
+        "A) Atopic flexure eczema identically",
+        "B) Psoriasis silvery plaque elbows identically",
+        "C) Greasy scale scalp/face; Malassezia associated",
+        "D) Seborrheic adult dandruff topical only identically"
+      ],
+      "answer": "C) Greasy scale scalp/face; Malassezia associated",
+      "explanation": "Yeast-driven sebaceous inflammation. Therefore, the most accurate choice is: Greasy scale scalp/face; Malassezia associated. Psoriasis different distribution/scale.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Psoriasis different distribution/scale. It is less consistent than the correct choice.",
+        "C": "Yeast-driven sebaceous inflammation. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:7",
+      "question": "A 33-year-old man is assessed for pityriasis rosea. Which of the following statements is correct?",
+      "options": [
+        "A) Herald patch then Christmas-tree; human herpesvirus",
+        "B) Secondary syphilis palms always without serology consideration",
+        "C) Irritant dose-dependent barrier identically always without history",
+        "D) Pityriasis rosea herald without serology always safe"
+      ],
+      "answer": "A) Herald patch then Christmas-tree; human herpesvirus",
+      "explanation": "Likely viral exanthem pattern. Therefore, the most accurate choice is: Herald patch then Christmas-tree; human herpesvirus. Syphilis must be considered if palms/soles atypical.",
+      "choice_explanations": {
+        "A": "Likely viral exanthem pattern. This matches the correct interpretation.",
+        "B": "Syphilis must be considered if palms/soles atypical. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:8",
+      "question": "A 46-year-old woman presents with a clinical picture of tinea corporis. Which of the following is most accurate?",
+      "options": [
+        "A) Annular active border; potassium hydroxide hyphae; terbinafine/azoles",
+        "B) Granuloma annulare nonscaly identically always",
+        "C) Tinea active scaly border potassium hydroxide+ identically",
+        "D) Tinea annular scale potassium hydroxide+ identically always"
+      ],
+      "answer": "A) Annular active border; potassium hydroxide hyphae; terbinafine/azoles",
+      "explanation": "Dermatophyte invades stratum corneum. Therefore, the most accurate choice is: Annular active border; potassium hydroxide hyphae; terbinafine/azoles. general anesthesia is noninfectious granulomatous.",
+      "choice_explanations": {
+        "A": "Dermatophyte invades stratum corneum. This matches the correct interpretation.",
+        "B": "general anesthesia is noninfectious granulomatous. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:9",
+      "question": "A 32-year-old woman is seen in clinic for suspected tinea capitis. Which of the following is correct?",
+      "options": [
+        "A) Seborrheic adult dandruff topical only identically",
+        "B) Tinea capitis scale kids oral antifungal identically always",
+        "C) Kids scalp scale/alopecia; oral antifungals",
+        "D) Dandruff freely movable scale identically"
+      ],
+      "answer": "C) Kids scalp scale/alopecia; oral antifungals",
+      "explanation": "Dermatophyte invades hair shaft. Therefore, the most accurate choice is: Kids scalp scale/alopecia; oral antifungals. Needs systemic therapy usually.",
+      "choice_explanations": {
+        "A": "Needs systemic therapy usually. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Dermatophyte invades hair shaft. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:10",
+      "question": "A 39-year-old man has findings requiring interpretation of onychomycosis. Which of the following is correct?",
+      "options": [
+        "A) Psoriatic nail pitting identically always without testing",
+        "B) Irritant dose-dependent barrier identically always without history",
+        "C) Dermatophyte nail dystrophy; confirm before long treatment",
+        "D) Bacillary angiomatosis Bartonella identically always without testing"
+      ],
+      "answer": "C) Dermatophyte nail dystrophy; confirm before long treatment",
+      "explanation": "Fungal invasion of nail plate. Therefore, the most accurate choice is: Dermatophyte nail dystrophy; confirm before long treatment. Psoriasis nails differ (pits/oil drop).",
+      "choice_explanations": {
+        "A": "Psoriasis nails differ (pits/oil drop). It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Fungal invasion of nail plate. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:11",
+      "question": "A 43-year-old man is admitted with suspected candidiasis intertrigo. Which statement is correct?",
+      "options": [
+        "A) Seborrheic adult dandruff topical only identically",
+        "B) Satellite pustules moist folds; antifungals",
+        "C) Tinea cruris without satellites identically always",
+        "D) Psoriatic nail pitting identically always without testing"
+      ],
+      "answer": "B) Satellite pustules moist folds; antifungals",
+      "explanation": "Candida thrives in moisture. Therefore, the most accurate choice is: Satellite pustules moist folds; antifungals. Dermatophyte cruris different.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Candida thrives in moisture. This matches the correct interpretation.",
+        "C": "Dermatophyte cruris different. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:12",
+      "question": "A 23-year-old man has examination findings of scabies. Which of the following is most accurate?",
+      "options": [
+        "A) Burrows finger webs; intense night itch; permethrin/ivermectin",
+        "B) Xerosis winter itch identically",
+        "C) Scabies finger webs identically",
+        "D) Dandruff freely movable scale identically"
+      ],
+      "answer": "A) Burrows finger webs; intense night itch; permethrin/ivermectin",
+      "explanation": "Sarcoptes burrows in stratum corneum. Therefore, the most accurate choice is: Burrows finger webs; intense night itch; permethrin/ivermectin. Dry skin lacks burrows/contagion.",
+      "choice_explanations": {
+        "A": "Sarcoptes burrows in stratum corneum. This matches the correct interpretation.",
+        "B": "Dry skin lacks burrows/contagion. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:13",
+      "question": "A 27-year-old man reports symptoms typical of lice pediculosis. Which of the following is correct?",
+      "options": [
+        "A) Xerosis winter itch identically",
+        "B) Dandruff freely movable scale identically",
+        "C) Nits on hair; permethrin/comb",
+        "D) Seborrheic adult dandruff topical only identically"
+      ],
+      "answer": "C) Nits on hair; permethrin/comb",
+      "explanation": "Parasite eggs cemented to hair. Therefore, the most accurate choice is: Nits on hair; permethrin/comb. Dandruff flakes move easily.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Dandruff flakes move easily. It is less consistent than the correct choice.",
+        "C": "Parasite eggs cemented to hair. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:14",
+      "question": "A 5-year-old child arrives in the emergency department with features of impetigo. Which of the following is most accurate?",
+      "options": [
+        "A) herpes simplex virus vesicles herpes identically always",
+        "B) Impetigo honey crust identically primary always",
+        "C) herpes simplex virus oral randomly distributed identically",
+        "D) Honey crust Staph/Strep; topical/oral Abs"
+      ],
+      "answer": "D) Honey crust Staph/Strep; topical/oral Abs",
+      "explanation": "Superficial bacterial infection. Therefore, the most accurate choice is: Honey crust Staph/Strep; topical/oral Abs. herpes simplex virus is viral vesicles.",
+      "choice_explanations": {
+        "A": "herpes simplex virus is viral vesicles. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Superficial bacterial infection. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:medium:15",
+      "question": "A 59-year-old man is assessed for erysipelas. Which of the following statements is correct?",
+      "options": [
+        "A) Cellulitis unilateral infection identically always",
+        "B) Deeper cellulitis poorly demarcated identically always nuance",
+        "C) Necrotizing fasciitis without red flags identically observe",
+        "D) Well-demarcated raised Strep cellulitis"
+      ],
+      "answer": "D) Well-demarcated raised Strep cellulitis",
+      "explanation": "Superficial dermal lymphatic involvement. Therefore, the most accurate choice is: Well-demarcated raised Strep cellulitis. Deeper cellulitis borders less sharp.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Deeper cellulitis borders less sharp. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Superficial dermal lymphatic involvement. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:medium:16",
+      "question": "A 18-year-old woman presents with a clinical picture of cellulitis. Which of the following is most accurate?",
+      "options": [
+        "A) Simple cellulitis oral Abs always adequate",
+        "B) Deeper skin infection; Abs ± elevation",
+        "C) Necrotizing fasciitis without red flags identically observe",
+        "D) Deeper cellulitis poorly demarcated identically always nuance"
+      ],
+      "answer": "B) Deeper skin infection; Abs ± elevation",
+      "explanation": "Bacterial dermal/subcut infection. Therefore, the most accurate choice is: Deeper skin infection; Abs ± elevation. Nec fasc has pain out of proportion/rapid spread.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Bacterial dermal/subcut infection. This matches the correct interpretation.",
+        "C": "Nec fasc has pain out of proportion/rapid spread. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:17",
+      "question": "A 58-year-old woman is seen in clinic for suspected abscess. Which of the following is correct?",
+      "options": [
+        "A) Fluctuant pus needs I&D ± Abs",
+        "B) Simple cellulitis oral Abs always adequate",
+        "C) Necrotizing fasciitis without red flags identically observe",
+        "D) Cellulitis without fluctuance I&D first always"
+      ],
+      "answer": "A) Fluctuant pus needs I&D ± Abs",
+      "explanation": "Walled-off pus requires drainage. Therefore, the most accurate choice is: Fluctuant pus needs I&D ± Abs. Pure cellulitis may not need I&D.",
+      "choice_explanations": {
+        "A": "Walled-off pus requires drainage. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Pure cellulitis may not need I&D. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:18",
+      "question": "A 23-year-old man develops symptoms of necrotizing fasciitis. Which of the following is most accurate?",
+      "options": [
+        "A) Pain out of proportion, crepitus/rapid; surgical emergency",
+        "B) Cellulitis without fluctuance I&D first always",
+        "C) Necrotizing fasciitis without red flags identically observe",
+        "D) Simple cellulitis oral Abs always adequate"
+      ],
+      "answer": "A) Pain out of proportion, crepitus/rapid; surgical emergency",
+      "explanation": "Deep necrosis along fascia. Therefore, the most accurate choice is: Pain out of proportion, crepitus/rapid; surgical emergency. Needs urgent debridement.",
+      "choice_explanations": {
+        "A": "Deep necrosis along fascia. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Needs urgent debridement. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:19",
+      "question": "A 4-year-old child is admitted with suspected herpes simplex virus oral/genital. Which of the following statements is correct?",
+      "options": [
+        "A) herpes simplex virus oral randomly distributed identically",
+        "B) Impetigo honey crust identically primary always",
+        "C) Painful vesicles on erythematous base; antivirals",
+        "D) herpes simplex virus vesicles herpes identically always"
+      ],
+      "answer": "C) Painful vesicles on erythematous base; antivirals",
+      "explanation": "Herpesvirus epidermal infection. Therefore, the most accurate choice is: Painful vesicles on erythematous base; antivirals. Impetigo bacterial crust.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Impetigo bacterial crust. It is less consistent than the correct choice.",
+        "C": "Herpesvirus epidermal infection. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:20",
+      "question": "During evaluation of a 5-year-old child, varicella-zoster virus chickenpox is considered. Which of the following is most accurate?",
+      "options": [
+        "A) Smallpox all same stage identically historical",
+        "B) Crops different stages; vaccine preventable",
+        "C) herpes simplex virus vesicles crops infectious identically always",
+        "D) Varicella crops truncal differently staged identically"
+      ],
+      "answer": "B) Crops different stages; vaccine preventable",
+      "explanation": "Varicella spreads hematogenously in crops. Therefore, the most accurate choice is: Crops different stages; vaccine preventable. Variola synchronous stages.",
+      "choice_explanations": {
+        "A": "Variola synchronous stages. It is less consistent than the correct choice.",
+        "B": "Varicella spreads hematogenously in crops. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:21",
+      "question": "A 20-year-old woman reports symptoms typical of herpes zoster. Which of the following is correct?",
+      "options": [
+        "A) Impetigo honey crust identically primary always",
+        "B) herpes simplex virus vesicles crops infectious identically always",
+        "C) herpes simplex virus oral randomly distributed identically",
+        "D) Dermatomal painful vesicles; antivirals early"
+      ],
+      "answer": "D) Dermatomal painful vesicles; antivirals early",
+      "explanation": "Reactivation in sensory ganglion. Therefore, the most accurate choice is: Dermatomal painful vesicles; antivirals early. herpes simplex virus not strictly dermatomal usually.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "herpes simplex virus not strictly dermatomal usually. It is less consistent than the correct choice.",
+        "D": "Reactivation in sensory ganglion. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:medium:22",
+      "question": "A 24-year-old woman is evaluated in the emergency department for postherpetic neuralgia. Which of the following is most accurate?",
+      "options": [
+        "A) Impetigo honey crust identically primary always",
+        "B) Active zoster vesicles always present with postherpetic neuralgia",
+        "C) Persistent pain after zoster rash heals",
+        "D) Simple cellulitis oral Abs always adequate"
+      ],
+      "answer": "C) Persistent pain after zoster rash heals",
+      "explanation": "Nerve injury after inflammation. Therefore, the most accurate choice is: Persistent pain after zoster rash heals. postherpetic neuralgia continues after rash resolution.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "postherpetic neuralgia continues after rash resolution. It is less consistent than the correct choice.",
+        "C": "Nerve injury after inflammation. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:23",
+      "question": "A 46-year-old woman is assessed for human papillomavirus warts. Which of the following statements is correct?",
+      "options": [
+        "A) Verruca vulgaris; destructive/immune therapies",
+        "B) Seborrheic keratosis stuck-on elderly identically always",
+        "C) Melanoma always if pigmented",
+        "D) Seborrheic keratosis stuck-on observe always without concern when changing"
+      ],
+      "answer": "A) Verruca vulgaris; destructive/immune therapies",
+      "explanation": "Viral epidermal proliferation. Therefore, the most accurate choice is: Verruca vulgaris; destructive/immune therapies. SK is benign clonal keratinocyte growth aging.",
+      "choice_explanations": {
+        "A": "Viral epidermal proliferation. This matches the correct interpretation.",
+        "B": "SK is benign clonal keratinocyte growth aging. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:24",
+      "question": "A 53-year-old man presents with a clinical picture of molluscum. Which of the following is most accurate?",
+      "options": [
+        "A) Molluscum umbilicated viral identically",
+        "B) Seborrheic keratosis stuck-on elderly identically always",
+        "C) Umbilicated pearly papules poxvirus",
+        "D) Warts verrucous identically"
+      ],
+      "answer": "C) Umbilicated pearly papules poxvirus",
+      "explanation": "Poxvirus epidermal infection. Therefore, the most accurate choice is: Umbilicated pearly papules poxvirus. human papillomavirus warts different morphology.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Poxvirus epidermal infection. This matches the correct interpretation.",
+        "D": "human papillomavirus warts different morphology. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:25",
+      "question": "A 14-year-old woman is seen in clinic for suspected acne vulgaris. Which of the following is correct?",
+      "options": [
+        "A) Acne comedonal identically",
+        "B) Rosacea comedones prominent identically",
+        "C) Comedones ± inflammatory; retinoids/benzoyl peroxide/Abs selected",
+        "D) Acne comedones face identically always"
+      ],
+      "answer": "C) Comedones ± inflammatory; retinoids/benzoyl peroxide/Abs selected",
+      "explanation": "Pilosebaceous Propionibacterium/inflammation. Therefore, the most accurate choice is: Comedones ± inflammatory; retinoids/benzoyl peroxide/Abs selected. Rosacea lacks true comedones.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Rosacea lacks true comedones. It is less consistent than the correct choice.",
+        "C": "Pilosebaceous Propionibacterium/inflammation. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:26",
+      "question": "A 16-year-old man develops symptoms of rosacea. Which of the following is most accurate?",
+      "options": [
+        "A) Flushing papulopustules; triggers; metronidazole/ivermectin topical",
+        "B) Acne comedonal identically",
+        "C) Rosacea comedones prominent identically",
+        "D) Rosacea triggers spicy identically always without Abs"
+      ],
+      "answer": "A) Flushing papulopustules; triggers; metronidazole/ivermectin topical",
+      "explanation": "Neurovascular/innate inflammation. Therefore, the most accurate choice is: Flushing papulopustules; triggers; metronidazole/ivermectin topical. No comedones typically.",
+      "choice_explanations": {
+        "A": "Neurovascular/innate inflammation. This matches the correct interpretation.",
+        "B": "No comedones typically. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:27",
+      "question": "A 41-year-old man is admitted with suspected hidradenitis. Which statement is correct?",
+      "options": [
+        "A) Painful boils intertriginous; sinus tracts; antibiotics/surgery/biologics",
+        "B) Anthrax eschar bioterror identically always",
+        "C) Simple furuncle once identically always",
+        "D) Brown recluse painful necrotic identically always"
+      ],
+      "answer": "A) Painful boils intertriginous; sinus tracts; antibiotics/surgery/biologics",
+      "explanation": "Follicular occlusion deep. Therefore, the most accurate choice is: Painful boils intertriginous; sinus tracts; antibiotics/surgery/biologics. Recurrent tunnels differ from single furuncle.",
+      "choice_explanations": {
+        "A": "Follicular occlusion deep. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Recurrent tunnels differ from single furuncle. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:28",
+      "question": "A 71-year-old woman has examination findings of pemphigus vulgaris. Which of the following is most accurate?",
+      "options": [
+        "A) Bullous pemphigoid elderly tense identically",
+        "B) Flaccid blisters, +Nikolsky, immunoglobulin G desmoglein3; ritux/steroids",
+        "C) Bullous pemphigoid tense immunoglobulin G bullous pemphigoid antigen 180 elderly identically",
+        "D) Pemphigus flaccid +Nikolsky identically"
+      ],
+      "answer": "B) Flaccid blisters, +Nikolsky, immunoglobulin G desmoglein3; ritux/steroids",
+      "explanation": "Acantholysis from desmoglein Abs. Therefore, the most accurate choice is: Flaccid blisters, +Nikolsky, immunoglobulin G desmoglein3; ritux/steroids. blood pressure is hemidesmosome tense blisters.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Acantholysis from desmoglein Abs. This matches the correct interpretation.",
+        "C": "blood pressure is hemidesmosome tense blisters. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:medium:29",
+      "question": "A 78-year-old man reports symptoms typical of bullous pemphigoid. Which of the following is correct?",
+      "options": [
+        "A) Tense blisters elderly; bullous pemphigoid antigen 180/230 Abs",
+        "B) Bullous pemphigoid tense immunoglobulin G bullous pemphigoid antigen 180 elderly identically",
+        "C) Bullous pemphigoid elderly tense identically",
+        "D) Pemphigus flaccid +Nikolsky identically"
+      ],
+      "answer": "A) Tense blisters elderly; bullous pemphigoid antigen 180/230 Abs",
+      "explanation": "Hemidesmosome Abs subepidermal. Therefore, the most accurate choice is: Tense blisters elderly; bullous pemphigoid antigen 180/230 Abs. Pemphigus intraepidermal acantholysis.",
+      "choice_explanations": {
+        "A": "Hemidesmosome Abs subepidermal. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Pemphigus intraepidermal acantholysis. It is less consistent than the correct choice."
+      }
+    }
+  ],
+  "hard": [
+    {
+      "id": "dermatology:hard:0",
+      "question": "A 53-year-old man is evaluated for possible atopic dermatitis. Which of the following is most accurate?",
+      "options": [
+        "A) Irritant dose-dependent barrier identically always without history",
+        "B) Atopic flexure eczema identically",
+        "C) Itchy flexures; barrier/immunoglobulin E atopy; emollients/topical corticosteroid",
+        "D) Psoriasis extensor plaques identically always"
+      ],
+      "answer": "C) Itchy flexures; barrier/immunoglobulin E atopy; emollients/topical corticosteroid",
+      "explanation": "Barrier dysfunction and Th2 inflammation. Therefore, the most accurate choice is: Itchy flexures; barrier/immunoglobulin E atopy; emollients/topical corticosteroid. Psoriasis is Th17/extensor plaques.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Barrier dysfunction and Th2 inflammation. This matches the correct interpretation.",
+        "D": "Psoriasis is Th17/extensor plaques. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:hard:1",
+      "question": "Two similar explanations for contact dermatitis allergic are compared. Which of the following is correct?",
+      "options": [
+        "A) Type 4 delayed to allergen; patch testing",
+        "B) Irritant dose-dependent barrier identically always without history",
+        "C) Psoriasis extensor plaques identically always",
+        "D) Allergic type intravenous identically always"
+      ],
+      "answer": "A) Type 4 delayed to allergen; patch testing",
+      "explanation": "Sensitized T cells react to allergen. Therefore, the most accurate choice is: Type 4 delayed to allergen; patch testing. Irritant is nonimmune toxic.",
+      "choice_explanations": {
+        "A": "Sensitized T cells react to allergen. This matches the correct interpretation.",
+        "B": "Irritant is nonimmune toxic. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:hard:2",
+      "question": "In a 46-year-old woman, irritant contact must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) Irritant dose-dependent barrier identically always without history",
+        "B) Direct chemical barrier injury; hands common",
+        "C) Psoriasis extensor plaques identically always",
+        "D) Allergic type intravenous identically always"
+      ],
+      "answer": "B) Direct chemical barrier injury; hands common",
+      "explanation": "Nonimmunologic toxicity. Therefore, the most accurate choice is: Direct chemical barrier injury; hands common. Allergic needs sensitization.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Nonimmunologic toxicity. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Allergic needs sensitization. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:hard:3",
+      "question": "A 47-year-old man returns for review of suspected psoriasis vulgaris. Which of the following is most accurate?",
+      "options": [
+        "A) Well-demarcated silvery plaques extensors/scalp; nail pitting",
+        "B) Atopic flexure eczema identically",
+        "C) Psoriasis silvery plaque elbows identically",
+        "D) Psoriasis extensor plaques identically always"
+      ],
+      "answer": "A) Well-demarcated silvery plaques extensors/scalp; nail pitting",
+      "explanation": "Th17-driven keratinocyte proliferation. Therefore, the most accurate choice is: Well-demarcated silvery plaques extensors/scalp; nail pitting. Atopic is flexure itch barrier.",
+      "choice_explanations": {
+        "A": "Th17-driven keratinocyte proliferation. This matches the correct interpretation.",
+        "B": "Atopic is flexure itch barrier. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:hard:4",
+      "question": "A clinic case of guttate psoriasis is discussed. Which of the following is correct?",
+      "options": [
+        "A) Drop-like after strep",
+        "B) Psoriasis silvery plaque elbows identically",
+        "C) Pustular psoriasis identical trigger always",
+        "D) Chronic plaque only without infection trigger"
+      ],
+      "answer": "A) Drop-like after strep",
+      "explanation": "Poststreptococcal immune trigger. Therefore, the most accurate choice is: Drop-like after strep. Chronic plaque different morphology/trigger.",
+      "choice_explanations": {
+        "A": "Poststreptococcal immune trigger. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Chronic plaque different morphology/trigger. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:hard:5",
+      "question": "A 61-year-old man presents with features compatible with pustular psoriasis. Which of the following is most accurate?",
+      "options": [
+        "A) Systemic sclerosis internal identically always",
+        "B) Pustular psoriasis identical trigger always",
+        "C) Infected folliculitis always culture-positive identically",
+        "D) Sterile pustules; may be systemic emergency"
+      ],
+      "answer": "D) Sterile pustules; may be systemic emergency",
+      "explanation": "Autoinflammatory pustulation. Therefore, the most accurate choice is: Sterile pustules; may be systemic emergency. Not necessarily bacterial.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Not necessarily bacterial. It is less consistent than the correct choice.",
+        "D": "Autoinflammatory pustulation. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:hard:6",
+      "question": "Which statement about seborrheic dermatitis in a 35-year-old man is most accurate?",
+      "options": [
+        "A) Psoriasis silvery plaque elbows identically",
+        "B) Seborrheic adult dandruff topical only identically",
+        "C) Atopic flexure eczema identically",
+        "D) Greasy scale scalp/face; Malassezia associated"
+      ],
+      "answer": "D) Greasy scale scalp/face; Malassezia associated",
+      "explanation": "Yeast-driven sebaceous inflammation. Therefore, the most accurate choice is: Greasy scale scalp/face; Malassezia associated. Psoriasis different distribution/scale.",
+      "choice_explanations": {
+        "A": "Psoriasis different distribution/scale. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Yeast-driven sebaceous inflammation. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:hard:7",
+      "question": "After examining a 33-year-old man, which statement about pityriasis rosea is correct?",
+      "options": [
+        "A) Pityriasis rosea herald without serology always safe",
+        "B) Irritant dose-dependent barrier identically always without history",
+        "C) Secondary syphilis palms always without serology consideration",
+        "D) Herald patch then Christmas-tree; human herpesvirus"
+      ],
+      "answer": "D) Herald patch then Christmas-tree; human herpesvirus",
+      "explanation": "Likely viral exanthem pattern. Therefore, the most accurate choice is: Herald patch then Christmas-tree; human herpesvirus. Syphilis must be considered if palms/soles atypical.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Syphilis must be considered if palms/soles atypical. It is less consistent than the correct choice.",
+        "D": "Likely viral exanthem pattern. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:hard:8",
+      "question": "A 46-year-old woman is evaluated for possible tinea corporis. Which of the following is most accurate?",
+      "options": [
+        "A) Annular active border; potassium hydroxide hyphae; terbinafine/azoles",
+        "B) Granuloma annulare nonscaly identically always",
+        "C) Tinea active scaly border potassium hydroxide+ identically",
+        "D) Tinea annular scale potassium hydroxide+ identically always"
+      ],
+      "answer": "A) Annular active border; potassium hydroxide hyphae; terbinafine/azoles",
+      "explanation": "Dermatophyte invades stratum corneum. Therefore, the most accurate choice is: Annular active border; potassium hydroxide hyphae; terbinafine/azoles. general anesthesia is noninfectious granulomatous.",
+      "choice_explanations": {
+        "A": "Dermatophyte invades stratum corneum. This matches the correct interpretation.",
+        "B": "general anesthesia is noninfectious granulomatous. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:hard:9",
+      "question": "A 32-year-old woman has findings suggestive of tinea capitis. Which of the following is the best interpretation?",
+      "options": [
+        "A) Dandruff freely movable scale identically",
+        "B) Kids scalp scale/alopecia; oral antifungals",
+        "C) Tinea capitis scale kids oral antifungal identically always",
+        "D) Seborrheic adult dandruff topical only identically"
+      ],
+      "answer": "B) Kids scalp scale/alopecia; oral antifungals",
+      "explanation": "Dermatophyte invades hair shaft. Therefore, the most accurate choice is: Kids scalp scale/alopecia; oral antifungals. Needs systemic therapy usually.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Dermatophyte invades hair shaft. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Needs systemic therapy usually. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:hard:10",
+      "question": "In a detailed discussion of onychomycosis, which of the following is most accurate?",
+      "options": [
+        "A) Psoriatic nail pitting identically always without testing",
+        "B) Dermatophyte nail dystrophy; confirm before long treatment",
+        "C) Irritant dose-dependent barrier identically always without history",
+        "D) Bacillary angiomatosis Bartonella identically always without testing"
+      ],
+      "answer": "B) Dermatophyte nail dystrophy; confirm before long treatment",
+      "explanation": "Fungal invasion of nail plate. Therefore, the most accurate choice is: Dermatophyte nail dystrophy; confirm before long treatment. Psoriasis nails differ (pits/oil drop).",
+      "choice_explanations": {
+        "A": "Psoriasis nails differ (pits/oil drop). It is less consistent than the correct choice.",
+        "B": "Fungal invasion of nail plate. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:hard:11",
+      "question": "A 43-year-old man returns for review of suspected candidiasis intertrigo. Which of the following is most accurate?",
+      "options": [
+        "A) Tinea cruris without satellites identically always",
+        "B) Seborrheic adult dandruff topical only identically",
+        "C) Psoriatic nail pitting identically always without testing",
+        "D) Satellite pustules moist folds; antifungals"
+      ],
+      "answer": "D) Satellite pustules moist folds; antifungals",
+      "explanation": "Candida thrives in moisture. Therefore, the most accurate choice is: Satellite pustules moist folds; antifungals. Dermatophyte cruris different.",
+      "choice_explanations": {
+        "A": "Dermatophyte cruris different. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Candida thrives in moisture. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:hard:12",
+      "question": "A clinic case of scabies is discussed. Which of the following is correct?",
+      "options": [
+        "A) Burrows finger webs; intense night itch; permethrin/ivermectin",
+        "B) Xerosis winter itch identically",
+        "C) Scabies finger webs identically",
+        "D) Dandruff freely movable scale identically"
+      ],
+      "answer": "A) Burrows finger webs; intense night itch; permethrin/ivermectin",
+      "explanation": "Sarcoptes burrows in stratum corneum. Therefore, the most accurate choice is: Burrows finger webs; intense night itch; permethrin/ivermectin. Dry skin lacks burrows/contagion.",
+      "choice_explanations": {
+        "A": "Sarcoptes burrows in stratum corneum. This matches the correct interpretation.",
+        "B": "Dry skin lacks burrows/contagion. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:hard:13",
+      "question": "A 27-year-old man presents with features compatible with lice pediculosis. Which of the following is most accurate?",
+      "options": [
+        "A) Xerosis winter itch identically",
+        "B) Dandruff freely movable scale identically",
+        "C) Nits on hair; permethrin/comb",
+        "D) Seborrheic adult dandruff topical only identically"
+      ],
+      "answer": "C) Nits on hair; permethrin/comb",
+      "explanation": "Parasite eggs cemented to hair. Therefore, the most accurate choice is: Nits on hair; permethrin/comb. Dandruff flakes move easily.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Dandruff flakes move easily. It is less consistent than the correct choice.",
+        "C": "Parasite eggs cemented to hair. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:hard:14",
+      "question": "Which statement about impetigo in a 5-year-old child is most accurate?",
+      "options": [
+        "A) Impetigo honey crust identically primary always",
+        "B) herpes simplex virus vesicles herpes identically always",
+        "C) Honey crust Staph/Strep; topical/oral Abs",
+        "D) herpes simplex virus anterior gingivostomatitis identically always"
+      ],
+      "answer": "C) Honey crust Staph/Strep; topical/oral Abs",
+      "explanation": "Superficial bacterial infection. Therefore, the most accurate choice is: Honey crust Staph/Strep; topical/oral Abs. herpes simplex virus is viral vesicles.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "herpes simplex virus is viral vesicles. It is less consistent than the correct choice.",
+        "C": "Superficial bacterial infection. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:hard:15",
+      "question": "After examining a 59-year-old man, which statement about erysipelas is correct?",
+      "options": [
+        "A) Necrotizing fasciitis without red flags identically observe",
+        "B) Well-demarcated raised Strep cellulitis",
+        "C) Deeper cellulitis poorly demarcated identically always nuance",
+        "D) Cellulitis unilateral infection identically always"
+      ],
+      "answer": "B) Well-demarcated raised Strep cellulitis",
+      "explanation": "Superficial dermal lymphatic involvement. Therefore, the most accurate choice is: Well-demarcated raised Strep cellulitis. Deeper cellulitis borders less sharp.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Superficial dermal lymphatic involvement. This matches the correct interpretation.",
+        "C": "Deeper cellulitis borders less sharp. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:hard:16",
+      "question": "A 18-year-old woman is evaluated for possible cellulitis. Which of the following is most accurate?",
+      "options": [
+        "A) Necrotizing fasciitis without red flags identically observe",
+        "B) Simple cellulitis oral Abs always adequate",
+        "C) Cellulitis without fluctuance I&D first always",
+        "D) Deeper skin infection; Abs ± elevation"
+      ],
+      "answer": "D) Deeper skin infection; Abs ± elevation",
+      "explanation": "Bacterial dermal/subcut infection. Therefore, the most accurate choice is: Deeper skin infection; Abs ± elevation. Nec fasc has pain out of proportion/rapid spread.",
+      "choice_explanations": {
+        "A": "Nec fasc has pain out of proportion/rapid spread. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Bacterial dermal/subcut infection. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:hard:17",
+      "question": "A 58-year-old woman has findings suggestive of abscess. Which of the following is the best interpretation?",
+      "options": [
+        "A) Cellulitis without fluctuance I&D first always",
+        "B) Simple cellulitis oral Abs always adequate",
+        "C) Necrotizing fasciitis without red flags identically observe",
+        "D) Fluctuant pus needs I&D ± Abs"
+      ],
+      "answer": "D) Fluctuant pus needs I&D ± Abs",
+      "explanation": "Walled-off pus requires drainage. Therefore, the most accurate choice is: Fluctuant pus needs I&D ± Abs. Pure cellulitis may not need I&D.",
+      "choice_explanations": {
+        "A": "Pure cellulitis may not need I&D. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Walled-off pus requires drainage. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:hard:18",
+      "question": "A 23-year-old man is evaluated for necrotizing fasciitis. Which of the following is the best interpretation?",
+      "options": [
+        "A) Pain out of proportion, crepitus/rapid; surgical emergency",
+        "B) Cellulitis without fluctuance I&D first always",
+        "C) Necrotizing fasciitis without red flags identically observe",
+        "D) Simple cellulitis oral Abs always adequate"
+      ],
+      "answer": "A) Pain out of proportion, crepitus/rapid; surgical emergency",
+      "explanation": "Deep necrosis along fascia. Therefore, the most accurate choice is: Pain out of proportion, crepitus/rapid; surgical emergency. Needs urgent debridement.",
+      "choice_explanations": {
+        "A": "Deep necrosis along fascia. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Needs urgent debridement. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:hard:19",
+      "question": "A 4-year-old child returns for review of suspected herpes simplex virus oral/genital. Which of the following is most accurate?",
+      "options": [
+        "A) herpes simplex virus vesicles herpes identically always",
+        "B) herpes simplex virus oral randomly distributed identically",
+        "C) Impetigo honey crust identically primary always",
+        "D) Painful vesicles on erythematous base; antivirals"
+      ],
+      "answer": "D) Painful vesicles on erythematous base; antivirals",
+      "explanation": "Herpesvirus epidermal infection. Therefore, the most accurate choice is: Painful vesicles on erythematous base; antivirals. Impetigo bacterial crust.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Impetigo bacterial crust. It is less consistent than the correct choice.",
+        "D": "Herpesvirus epidermal infection. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:hard:20",
+      "question": "Careful interpretation of varicella-zoster virus chickenpox is required. Which of the following is correct?",
+      "options": [
+        "A) herpes simplex virus vesicles crops infectious identically always",
+        "B) Crops different stages; vaccine preventable",
+        "C) Smallpox all same stage identically historical",
+        "D) Varicella crops truncal differently staged identically"
+      ],
+      "answer": "B) Crops different stages; vaccine preventable",
+      "explanation": "Varicella spreads hematogenously in crops. Therefore, the most accurate choice is: Crops different stages; vaccine preventable. Variola synchronous stages.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Varicella spreads hematogenously in crops. This matches the correct interpretation.",
+        "C": "Variola synchronous stages. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:hard:21",
+      "question": "A 20-year-old woman presents with features compatible with herpes zoster. Which of the following is most accurate?",
+      "options": [
+        "A) Impetigo honey crust identically primary always",
+        "B) herpes simplex virus vesicles herpes identically always",
+        "C) herpes simplex virus oral randomly distributed identically",
+        "D) Dermatomal painful vesicles; antivirals early"
+      ],
+      "answer": "D) Dermatomal painful vesicles; antivirals early",
+      "explanation": "Reactivation in sensory ganglion. Therefore, the most accurate choice is: Dermatomal painful vesicles; antivirals early. herpes simplex virus not strictly dermatomal usually.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "herpes simplex virus not strictly dermatomal usually. It is less consistent than the correct choice.",
+        "D": "Reactivation in sensory ganglion. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:hard:22",
+      "question": "Which statement about postherpetic neuralgia in a 24-year-old woman is most accurate?",
+      "options": [
+        "A) Impetigo honey crust identically primary always",
+        "B) Simple cellulitis oral Abs always adequate",
+        "C) Active zoster vesicles always present with postherpetic neuralgia",
+        "D) Persistent pain after zoster rash heals"
+      ],
+      "answer": "D) Persistent pain after zoster rash heals",
+      "explanation": "Nerve injury after inflammation. Therefore, the most accurate choice is: Persistent pain after zoster rash heals. postherpetic neuralgia continues after rash resolution.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "postherpetic neuralgia continues after rash resolution. It is less consistent than the correct choice.",
+        "D": "Nerve injury after inflammation. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:hard:23",
+      "question": "After examining a 46-year-old woman, which statement about human papillomavirus warts is correct?",
+      "options": [
+        "A) Seborrheic keratosis stuck-on elderly identically always",
+        "B) Melanoma always if pigmented",
+        "C) Verruca vulgaris; destructive/immune therapies",
+        "D) Seborrheic keratosis stuck-on observe always without concern when changing"
+      ],
+      "answer": "C) Verruca vulgaris; destructive/immune therapies",
+      "explanation": "Viral epidermal proliferation. Therefore, the most accurate choice is: Verruca vulgaris; destructive/immune therapies. SK is benign clonal keratinocyte growth aging.",
+      "choice_explanations": {
+        "A": "SK is benign clonal keratinocyte growth aging. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Viral epidermal proliferation. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:hard:24",
+      "question": "A 53-year-old man is evaluated for possible molluscum. Which of the following is most accurate?",
+      "options": [
+        "A) Seborrheic keratosis stuck-on elderly identically always",
+        "B) Molluscum umbilicated viral identically",
+        "C) Warts verrucous identically",
+        "D) Umbilicated pearly papules poxvirus"
+      ],
+      "answer": "D) Umbilicated pearly papules poxvirus",
+      "explanation": "Poxvirus epidermal infection. Therefore, the most accurate choice is: Umbilicated pearly papules poxvirus. human papillomavirus warts different morphology.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "human papillomavirus warts different morphology. It is less consistent than the correct choice.",
+        "D": "Poxvirus epidermal infection. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:hard:25",
+      "question": "A 14-year-old woman has findings suggestive of acne vulgaris. Which of the following is the best interpretation?",
+      "options": [
+        "A) Comedones ± inflammatory; retinoids/benzoyl peroxide/Abs selected",
+        "B) Acne comedonal identically",
+        "C) Rosacea triggers spicy identically always without Abs",
+        "D) Rosacea comedones prominent identically"
+      ],
+      "answer": "A) Comedones ± inflammatory; retinoids/benzoyl peroxide/Abs selected",
+      "explanation": "Pilosebaceous Propionibacterium/inflammation. Therefore, the most accurate choice is: Comedones ± inflammatory; retinoids/benzoyl peroxide/Abs selected. Rosacea lacks true comedones.",
+      "choice_explanations": {
+        "A": "Pilosebaceous Propionibacterium/inflammation. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Rosacea lacks true comedones. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:hard:26",
+      "question": "In a 16-year-old man, rosacea must be separated from similar conditions. Which of the following is correct?",
+      "options": [
+        "A) Acne comedonal identically",
+        "B) Rosacea triggers spicy identically always without Abs",
+        "C) Rosacea comedones prominent identically",
+        "D) Flushing papulopustules; triggers; metronidazole/ivermectin topical"
+      ],
+      "answer": "D) Flushing papulopustules; triggers; metronidazole/ivermectin topical",
+      "explanation": "Neurovascular/innate inflammation. Therefore, the most accurate choice is: Flushing papulopustules; triggers; metronidazole/ivermectin topical. No comedones typically.",
+      "choice_explanations": {
+        "A": "No comedones typically. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Neurovascular/innate inflammation. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:hard:27",
+      "question": "A 41-year-old man returns for review of suspected hidradenitis. Which of the following is most accurate?",
+      "options": [
+        "A) Simple furuncle once identically always",
+        "B) Painful boils intertriginous; sinus tracts; antibiotics/surgery/biologics",
+        "C) Impetigo honey crust identically primary always",
+        "D) Brown recluse painful necrotic identically always"
+      ],
+      "answer": "B) Painful boils intertriginous; sinus tracts; antibiotics/surgery/biologics",
+      "explanation": "Follicular occlusion deep. Therefore, the most accurate choice is: Painful boils intertriginous; sinus tracts; antibiotics/surgery/biologics. Recurrent tunnels differ from single furuncle.",
+      "choice_explanations": {
+        "A": "Recurrent tunnels differ from single furuncle. It is less consistent than the correct choice.",
+        "B": "Follicular occlusion deep. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:hard:28",
+      "question": "A clinic case of pemphigus vulgaris is discussed. Which of the following is correct?",
+      "options": [
+        "A) Flaccid blisters, +Nikolsky, immunoglobulin G desmoglein3; ritux/steroids",
+        "B) Pemphigus flaccid +Nikolsky identically",
+        "C) Bullous pemphigoid tense immunoglobulin G bullous pemphigoid antigen 180 elderly identically",
+        "D) Bullous pemphigoid elderly tense identically"
+      ],
+      "answer": "A) Flaccid blisters, +Nikolsky, immunoglobulin G desmoglein3; ritux/steroids",
+      "explanation": "Acantholysis from desmoglein Abs. Therefore, the most accurate choice is: Flaccid blisters, +Nikolsky, immunoglobulin G desmoglein3; ritux/steroids. blood pressure is hemidesmosome tense blisters.",
+      "choice_explanations": {
+        "A": "Acantholysis from desmoglein Abs. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "blood pressure is hemidesmosome tense blisters. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:hard:29",
+      "question": "A 78-year-old man presents with features compatible with bullous pemphigoid. Which of the following is most accurate?",
+      "options": [
+        "A) Pemphigus flaccid +Nikolsky identically",
+        "B) Tense blisters elderly; bullous pemphigoid antigen 180/230 Abs",
+        "C) Bullous pemphigoid elderly tense identically",
+        "D) Bullous pemphigoid tense immunoglobulin G bullous pemphigoid antigen 180 elderly identically"
+      ],
+      "answer": "B) Tense blisters elderly; bullous pemphigoid antigen 180/230 Abs",
+      "explanation": "Hemidesmosome Abs subepidermal. Therefore, the most accurate choice is: Tense blisters elderly; bullous pemphigoid antigen 180/230 Abs. Pemphigus intraepidermal acantholysis.",
+      "choice_explanations": {
+        "A": "Pemphigus intraepidermal acantholysis. It is less consistent than the correct choice.",
+        "B": "Hemidesmosome Abs subepidermal. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    }
+  ],
+  "extreme": [
+    {
+      "id": "dermatology:extreme:0",
+      "question": "A 53-year-old man has a complex presentation of atopic dermatitis. Which of the following is most accurate?",
+      "options": [
+        "A) Irritant dose-dependent barrier identically always without history",
+        "B) Itchy flexures; barrier/immunoglobulin E atopy; emollients/topical corticosteroid",
+        "C) Atopic flexure eczema identically",
+        "D) Psoriasis extensor plaques identically always"
+      ],
+      "answer": "B) Itchy flexures; barrier/immunoglobulin E atopy; emollients/topical corticosteroid",
+      "explanation": "Barrier dysfunction and Th2 inflammation. Therefore, the most accurate choice is: Itchy flexures; barrier/immunoglobulin E atopy; emollients/topical corticosteroid. Psoriasis is Th17/extensor plaques.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Barrier dysfunction and Th2 inflammation. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Psoriasis is Th17/extensor plaques. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:extreme:1",
+      "question": "Small differences in wording about contact dermatitis allergic matter. Which of the following is correct?",
+      "options": [
+        "A) Irritant dose-dependent barrier identically always without history",
+        "B) Allergic type intravenous identically always",
+        "C) Psoriasis extensor plaques identically always",
+        "D) Type 4 delayed to allergen; patch testing"
+      ],
+      "answer": "D) Type 4 delayed to allergen; patch testing",
+      "explanation": "Sensitized T cells react to allergen. Therefore, the most accurate choice is: Type 4 delayed to allergen; patch testing. Irritant is nonimmune toxic.",
+      "choice_explanations": {
+        "A": "Irritant is nonimmune toxic. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Sensitized T cells react to allergen. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:extreme:2",
+      "question": "A detailed evaluation for irritant contact is underway in a 46-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) Allergic type intravenous identically always",
+        "B) Irritant dose-dependent barrier identically always without history",
+        "C) Direct chemical barrier injury; hands common",
+        "D) Psoriasis extensor plaques identically always"
+      ],
+      "answer": "C) Direct chemical barrier injury; hands common",
+      "explanation": "Nonimmunologic toxicity. Therefore, the most accurate choice is: Direct chemical barrier injury; hands common. Allergic needs sensitization.",
+      "choice_explanations": {
+        "A": "Allergic needs sensitization. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Nonimmunologic toxicity. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:extreme:3",
+      "question": "A 47-year-old man has findings that make psoriasis vulgaris hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Atopic flexure eczema identically",
+        "B) Well-demarcated silvery plaques extensors/scalp; nail pitting",
+        "C) Psoriasis silvery plaque elbows identically",
+        "D) Psoriasis extensor plaques identically always"
+      ],
+      "answer": "B) Well-demarcated silvery plaques extensors/scalp; nail pitting",
+      "explanation": "Th17-driven keratinocyte proliferation. Therefore, the most accurate choice is: Well-demarcated silvery plaques extensors/scalp; nail pitting. Atopic is flexure itch barrier.",
+      "choice_explanations": {
+        "A": "Atopic is flexure itch barrier. It is less consistent than the correct choice.",
+        "B": "Th17-driven keratinocyte proliferation. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:extreme:4",
+      "question": "In a 33-year-old man, distinguishing guttate psoriasis from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Pustular psoriasis identical trigger always",
+        "B) Chronic plaque only without infection trigger",
+        "C) Psoriasis silvery plaque elbows identically",
+        "D) Drop-like after strep"
+      ],
+      "answer": "D) Drop-like after strep",
+      "explanation": "Poststreptococcal immune trigger. Therefore, the most accurate choice is: Drop-like after strep. Chronic plaque different morphology/trigger.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Chronic plaque different morphology/trigger. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Poststreptococcal immune trigger. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:extreme:5",
+      "question": "A 61-year-old man returns with ongoing problems related to pustular psoriasis. Which of the following is most accurate?",
+      "options": [
+        "A) Pustular psoriasis identical trigger always",
+        "B) Simple morbilliform without organ involvement identically always",
+        "C) Infected folliculitis always culture-positive identically",
+        "D) Sterile pustules; may be systemic emergency"
+      ],
+      "answer": "D) Sterile pustules; may be systemic emergency",
+      "explanation": "Autoinflammatory pustulation. Therefore, the most accurate choice is: Sterile pustules; may be systemic emergency. Not necessarily bacterial.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Not necessarily bacterial. It is less consistent than the correct choice.",
+        "D": "Autoinflammatory pustulation. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:extreme:6",
+      "question": "Senior review is requested for seborrheic dermatitis in a 35-year-old man. Which of the following is correct?",
+      "options": [
+        "A) Atopic flexure eczema identically",
+        "B) Seborrheic adult dandruff topical only identically",
+        "C) Greasy scale scalp/face; Malassezia associated",
+        "D) Psoriasis silvery plaque elbows identically"
+      ],
+      "answer": "C) Greasy scale scalp/face; Malassezia associated",
+      "explanation": "Yeast-driven sebaceous inflammation. Therefore, the most accurate choice is: Greasy scale scalp/face; Malassezia associated. Psoriasis different distribution/scale.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Yeast-driven sebaceous inflammation. This matches the correct interpretation.",
+        "D": "Psoriasis different distribution/scale. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:extreme:7",
+      "question": "Which statement about pityriasis rosea in a 33-year-old man is most accurate?",
+      "options": [
+        "A) Herald patch then Christmas-tree; human herpesvirus",
+        "B) Pityriasis rosea herald without serology always safe",
+        "C) Measles rash with ongoing fever always identically",
+        "D) Secondary syphilis palms always without serology consideration"
+      ],
+      "answer": "A) Herald patch then Christmas-tree; human herpesvirus",
+      "explanation": "Likely viral exanthem pattern. Therefore, the most accurate choice is: Herald patch then Christmas-tree; human herpesvirus. Syphilis must be considered if palms/soles atypical.",
+      "choice_explanations": {
+        "A": "Likely viral exanthem pattern. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Syphilis must be considered if palms/soles atypical. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:extreme:8",
+      "question": "A 46-year-old woman has a complex presentation of tinea corporis. Which of the following is most accurate?",
+      "options": [
+        "A) Tinea active scaly border potassium hydroxide+ identically",
+        "B) Granuloma annulare nonscaly identically always",
+        "C) Tinea annular scale potassium hydroxide+ identically always",
+        "D) Annular active border; potassium hydroxide hyphae; terbinafine/azoles"
+      ],
+      "answer": "D) Annular active border; potassium hydroxide hyphae; terbinafine/azoles",
+      "explanation": "Dermatophyte invades stratum corneum. Therefore, the most accurate choice is: Annular active border; potassium hydroxide hyphae; terbinafine/azoles. general anesthesia is noninfectious granulomatous.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "general anesthesia is noninfectious granulomatous. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Dermatophyte invades stratum corneum. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:extreme:9",
+      "question": "A 32-year-old woman is reassessed after incomplete response related to tinea capitis. Which of the following is most accurate?",
+      "options": [
+        "A) Dandruff freely movable scale identically",
+        "B) Tinea capitis scale kids oral antifungal identically always",
+        "C) Kids scalp scale/alopecia; oral antifungals",
+        "D) Seborrheic adult dandruff topical only identically"
+      ],
+      "answer": "C) Kids scalp scale/alopecia; oral antifungals",
+      "explanation": "Dermatophyte invades hair shaft. Therefore, the most accurate choice is: Kids scalp scale/alopecia; oral antifungals. Needs systemic therapy usually.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Dermatophyte invades hair shaft. This matches the correct interpretation.",
+        "D": "Needs systemic therapy usually. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:extreme:10",
+      "question": "Which of the following is the most precise statement about onychomycosis?",
+      "options": [
+        "A) Psoriatic nail pitting identically always without testing",
+        "B) Dermatophyte nail dystrophy; confirm before long treatment",
+        "C) Bacillary angiomatosis Bartonella identically always without testing",
+        "D) Irritant dose-dependent barrier identically always without history"
+      ],
+      "answer": "B) Dermatophyte nail dystrophy; confirm before long treatment",
+      "explanation": "Fungal invasion of nail plate. Therefore, the most accurate choice is: Dermatophyte nail dystrophy; confirm before long treatment. Psoriasis nails differ (pits/oil drop).",
+      "choice_explanations": {
+        "A": "Psoriasis nails differ (pits/oil drop). It is less consistent than the correct choice.",
+        "B": "Fungal invasion of nail plate. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:extreme:11",
+      "question": "A 43-year-old man has findings that make candidiasis intertrigo hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Seborrheic adult dandruff topical only identically",
+        "B) Granuloma annulare nonscaly identically always",
+        "C) Tinea cruris without satellites identically always",
+        "D) Satellite pustules moist folds; antifungals"
+      ],
+      "answer": "D) Satellite pustules moist folds; antifungals",
+      "explanation": "Candida thrives in moisture. Therefore, the most accurate choice is: Satellite pustules moist folds; antifungals. Dermatophyte cruris different.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Dermatophyte cruris different. It is less consistent than the correct choice.",
+        "D": "Candida thrives in moisture. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:extreme:12",
+      "question": "In a 23-year-old man, distinguishing scabies from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Xerosis winter itch identically",
+        "B) Dandruff freely movable scale identically",
+        "C) Burrows finger webs; intense night itch; permethrin/ivermectin",
+        "D) Scabies finger webs identically"
+      ],
+      "answer": "C) Burrows finger webs; intense night itch; permethrin/ivermectin",
+      "explanation": "Sarcoptes burrows in stratum corneum. Therefore, the most accurate choice is: Burrows finger webs; intense night itch; permethrin/ivermectin. Dry skin lacks burrows/contagion.",
+      "choice_explanations": {
+        "A": "Dry skin lacks burrows/contagion. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Sarcoptes burrows in stratum corneum. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:extreme:13",
+      "question": "A 27-year-old man returns with ongoing problems related to lice pediculosis. Which of the following is most accurate?",
+      "options": [
+        "A) Nits on hair; permethrin/comb",
+        "B) Xerosis winter itch identically",
+        "C) Dandruff freely movable scale identically",
+        "D) Seborrheic adult dandruff topical only identically"
+      ],
+      "answer": "A) Nits on hair; permethrin/comb",
+      "explanation": "Parasite eggs cemented to hair. Therefore, the most accurate choice is: Nits on hair; permethrin/comb. Dandruff flakes move easily.",
+      "choice_explanations": {
+        "A": "Parasite eggs cemented to hair. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Dandruff flakes move easily. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:extreme:14",
+      "question": "Senior review is requested for impetigo in a 5-year-old child. Which of the following is correct?",
+      "options": [
+        "A) Impetigo honey crust identically primary always",
+        "B) herpes simplex virus vesicles herpes identically always",
+        "C) Honey crust Staph/Strep; topical/oral Abs",
+        "D) herpes simplex virus anterior gingivostomatitis identically always"
+      ],
+      "answer": "C) Honey crust Staph/Strep; topical/oral Abs",
+      "explanation": "Superficial bacterial infection. Therefore, the most accurate choice is: Honey crust Staph/Strep; topical/oral Abs. herpes simplex virus is viral vesicles.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "herpes simplex virus is viral vesicles. It is less consistent than the correct choice.",
+        "C": "Superficial bacterial infection. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:extreme:15",
+      "question": "Which statement about erysipelas in a 59-year-old man is most accurate?",
+      "options": [
+        "A) Necrotizing fasciitis without red flags identically observe",
+        "B) Cellulitis unilateral infection identically always",
+        "C) Well-demarcated raised Strep cellulitis",
+        "D) Deeper cellulitis poorly demarcated identically always nuance"
+      ],
+      "answer": "C) Well-demarcated raised Strep cellulitis",
+      "explanation": "Superficial dermal lymphatic involvement. Therefore, the most accurate choice is: Well-demarcated raised Strep cellulitis. Deeper cellulitis borders less sharp.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Superficial dermal lymphatic involvement. This matches the correct interpretation.",
+        "D": "Deeper cellulitis borders less sharp. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:extreme:16",
+      "question": "A 18-year-old woman has a complex presentation of cellulitis. Which of the following is most accurate?",
+      "options": [
+        "A) Deeper cellulitis poorly demarcated identically always nuance",
+        "B) Necrotizing fasciitis without red flags identically observe",
+        "C) Deeper skin infection; Abs ± elevation",
+        "D) Simple cellulitis oral Abs always adequate"
+      ],
+      "answer": "C) Deeper skin infection; Abs ± elevation",
+      "explanation": "Bacterial dermal/subcut infection. Therefore, the most accurate choice is: Deeper skin infection; Abs ± elevation. Nec fasc has pain out of proportion/rapid spread.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Nec fasc has pain out of proportion/rapid spread. It is less consistent than the correct choice.",
+        "C": "Bacterial dermal/subcut infection. This matches the correct interpretation.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:extreme:17",
+      "question": "A 58-year-old woman is reassessed after incomplete response related to abscess. Which of the following is most accurate?",
+      "options": [
+        "A) Simple cellulitis oral Abs always adequate",
+        "B) Fluctuant pus needs I&D ± Abs",
+        "C) Cellulitis without fluctuance I&D first always",
+        "D) Necrotizing fasciitis without red flags identically observe"
+      ],
+      "answer": "B) Fluctuant pus needs I&D ± Abs",
+      "explanation": "Walled-off pus requires drainage. Therefore, the most accurate choice is: Fluctuant pus needs I&D ± Abs. Pure cellulitis may not need I&D.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Walled-off pus requires drainage. This matches the correct interpretation.",
+        "C": "Pure cellulitis may not need I&D. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:extreme:18",
+      "question": "A 23-year-old man worsens overnight with necrotizing fasciitis. Which of the following is most accurate?",
+      "options": [
+        "A) Simple cellulitis oral Abs always adequate",
+        "B) herpes simplex virus vesicles herpes identically always",
+        "C) Necrotizing fasciitis without red flags identically observe",
+        "D) Pain out of proportion, crepitus/rapid; surgical emergency"
+      ],
+      "answer": "D) Pain out of proportion, crepitus/rapid; surgical emergency",
+      "explanation": "Deep necrosis along fascia. Therefore, the most accurate choice is: Pain out of proportion, crepitus/rapid; surgical emergency. Needs urgent debridement.",
+      "choice_explanations": {
+        "A": "Needs urgent debridement. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Deep necrosis along fascia. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:extreme:19",
+      "question": "A 4-year-old child has findings that make herpes simplex virus oral/genital hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) herpes simplex virus vesicles herpes identically always",
+        "B) herpes simplex virus oral randomly distributed identically",
+        "C) Impetigo honey crust identically primary always",
+        "D) Painful vesicles on erythematous base; antivirals"
+      ],
+      "answer": "D) Painful vesicles on erythematous base; antivirals",
+      "explanation": "Herpesvirus epidermal infection. Therefore, the most accurate choice is: Painful vesicles on erythematous base; antivirals. Impetigo bacterial crust.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Impetigo bacterial crust. It is less consistent than the correct choice.",
+        "D": "Herpesvirus epidermal infection. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:extreme:20",
+      "question": "A 5-year-old child is managed for problems related to varicella-zoster virus chickenpox. Which of the following is correct?",
+      "options": [
+        "A) Crops different stages; vaccine preventable",
+        "B) Varicella crops truncal differently staged identically",
+        "C) Smallpox all same stage identically historical",
+        "D) herpes simplex virus vesicles crops infectious identically always"
+      ],
+      "answer": "A) Crops different stages; vaccine preventable",
+      "explanation": "Varicella spreads hematogenously in crops. Therefore, the most accurate choice is: Crops different stages; vaccine preventable. Variola synchronous stages.",
+      "choice_explanations": {
+        "A": "Varicella spreads hematogenously in crops. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Variola synchronous stages. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:extreme:21",
+      "question": "A 20-year-old woman returns with ongoing problems related to herpes zoster. Which of the following is most accurate?",
+      "options": [
+        "A) Impetigo honey crust identically primary always",
+        "B) Dermatomal painful vesicles; antivirals early",
+        "C) herpes simplex virus vesicles herpes identically always",
+        "D) herpes simplex virus oral randomly distributed identically"
+      ],
+      "answer": "B) Dermatomal painful vesicles; antivirals early",
+      "explanation": "Reactivation in sensory ganglion. Therefore, the most accurate choice is: Dermatomal painful vesicles; antivirals early. herpes simplex virus not strictly dermatomal usually.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Reactivation in sensory ganglion. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "herpes simplex virus not strictly dermatomal usually. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:extreme:22",
+      "question": "Senior review is requested for postherpetic neuralgia in a 24-year-old woman. Which of the following is correct?",
+      "options": [
+        "A) Simple cellulitis oral Abs always adequate",
+        "B) Persistent pain after zoster rash heals",
+        "C) Active zoster vesicles always present with postherpetic neuralgia",
+        "D) Impetigo honey crust identically primary always"
+      ],
+      "answer": "B) Persistent pain after zoster rash heals",
+      "explanation": "Nerve injury after inflammation. Therefore, the most accurate choice is: Persistent pain after zoster rash heals. postherpetic neuralgia continues after rash resolution.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Nerve injury after inflammation. This matches the correct interpretation.",
+        "C": "postherpetic neuralgia continues after rash resolution. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:extreme:23",
+      "question": "Which statement about human papillomavirus warts in a 46-year-old woman is most accurate?",
+      "options": [
+        "A) Seborrheic keratosis stuck-on elderly identically always",
+        "B) Melanoma always if pigmented",
+        "C) Seborrheic keratosis stuck-on observe always without concern when changing",
+        "D) Verruca vulgaris; destructive/immune therapies"
+      ],
+      "answer": "D) Verruca vulgaris; destructive/immune therapies",
+      "explanation": "Viral epidermal proliferation. Therefore, the most accurate choice is: Verruca vulgaris; destructive/immune therapies. SK is benign clonal keratinocyte growth aging.",
+      "choice_explanations": {
+        "A": "SK is benign clonal keratinocyte growth aging. It is less consistent than the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Viral epidermal proliferation. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:extreme:24",
+      "question": "A 53-year-old man has a complex presentation of molluscum. Which of the following is most accurate?",
+      "options": [
+        "A) Molluscum umbilicated viral identically",
+        "B) Warts verrucous identically",
+        "C) Seborrheic keratosis stuck-on elderly identically always",
+        "D) Umbilicated pearly papules poxvirus"
+      ],
+      "answer": "D) Umbilicated pearly papules poxvirus",
+      "explanation": "Poxvirus epidermal infection. Therefore, the most accurate choice is: Umbilicated pearly papules poxvirus. human papillomavirus warts different morphology.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "human papillomavirus warts different morphology. It is less consistent than the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Poxvirus epidermal infection. This matches the correct interpretation."
+      }
+    },
+    {
+      "id": "dermatology:extreme:25",
+      "question": "A 14-year-old woman is reassessed after incomplete response related to acne vulgaris. Which of the following is most accurate?",
+      "options": [
+        "A) Comedones ± inflammatory; retinoids/benzoyl peroxide/Abs selected",
+        "B) Acne comedones face identically always",
+        "C) Rosacea comedones prominent identically",
+        "D) Acne comedonal identically"
+      ],
+      "answer": "A) Comedones ± inflammatory; retinoids/benzoyl peroxide/Abs selected",
+      "explanation": "Pilosebaceous Propionibacterium/inflammation. Therefore, the most accurate choice is: Comedones ± inflammatory; retinoids/benzoyl peroxide/Abs selected. Rosacea lacks true comedones.",
+      "choice_explanations": {
+        "A": "Pilosebaceous Propionibacterium/inflammation. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Rosacea lacks true comedones. It is less consistent than the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:extreme:26",
+      "question": "A detailed evaluation for rosacea is underway in a 16-year-old man. Which of the following is correct?",
+      "options": [
+        "A) Rosacea triggers spicy identically always without Abs",
+        "B) Rosacea comedones prominent identically",
+        "C) Flushing papulopustules; triggers; metronidazole/ivermectin topical",
+        "D) Acne comedonal identically"
+      ],
+      "answer": "C) Flushing papulopustules; triggers; metronidazole/ivermectin topical",
+      "explanation": "Neurovascular/innate inflammation. Therefore, the most accurate choice is: Flushing papulopustules; triggers; metronidazole/ivermectin topical. No comedones typically.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "Neurovascular/innate inflammation. This matches the correct interpretation.",
+        "D": "No comedones typically. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:extreme:27",
+      "question": "A 41-year-old man has findings that make hidradenitis hard to confirm. Which of the following is most accurate?",
+      "options": [
+        "A) Painful boils intertriginous; sinus tracts; antibiotics/surgery/biologics",
+        "B) Venous compression first identically always",
+        "C) Brown recluse painful necrotic identically always",
+        "D) Simple furuncle once identically always"
+      ],
+      "answer": "A) Painful boils intertriginous; sinus tracts; antibiotics/surgery/biologics",
+      "explanation": "Follicular occlusion deep. Therefore, the most accurate choice is: Painful boils intertriginous; sinus tracts; antibiotics/surgery/biologics. Recurrent tunnels differ from single furuncle.",
+      "choice_explanations": {
+        "A": "Follicular occlusion deep. This matches the correct interpretation.",
+        "B": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Recurrent tunnels differ from single furuncle. It is less consistent than the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:extreme:28",
+      "question": "In a 71-year-old woman, distinguishing pemphigus vulgaris from similar conditions is difficult. Which of the following is correct?",
+      "options": [
+        "A) Bullous pemphigoid tense immunoglobulin G bullous pemphigoid antigen 180 elderly identically",
+        "B) Flaccid blisters, +Nikolsky, immunoglobulin G desmoglein3; ritux/steroids",
+        "C) Pemphigus flaccid +Nikolsky identically",
+        "D) Bullous pemphigoid elderly tense identically"
+      ],
+      "answer": "B) Flaccid blisters, +Nikolsky, immunoglobulin G desmoglein3; ritux/steroids",
+      "explanation": "Acantholysis from desmoglein Abs. Therefore, the most accurate choice is: Flaccid blisters, +Nikolsky, immunoglobulin G desmoglein3; ritux/steroids. blood pressure is hemidesmosome tense blisters.",
+      "choice_explanations": {
+        "A": "blood pressure is hemidesmosome tense blisters. It is less consistent than the correct choice.",
+        "B": "Acantholysis from desmoglein Abs. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice."
+      }
+    },
+    {
+      "id": "dermatology:extreme:29",
+      "question": "A 78-year-old man returns with ongoing problems related to bullous pemphigoid. Which of the following is most accurate?",
+      "options": [
+        "A) Bullous pemphigoid elderly tense identically",
+        "B) Tense blisters elderly; bullous pemphigoid antigen 180/230 Abs",
+        "C) Bullous pemphigoid tense immunoglobulin G bullous pemphigoid antigen 180 elderly identically",
+        "D) Pemphigus flaccid +Nikolsky identically"
+      ],
+      "answer": "B) Tense blisters elderly; bullous pemphigoid antigen 180/230 Abs",
+      "explanation": "Hemidesmosome Abs subepidermal. Therefore, the most accurate choice is: Tense blisters elderly; bullous pemphigoid antigen 180/230 Abs. Pemphigus intraepidermal acantholysis.",
+      "choice_explanations": {
+        "A": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "B": "Hemidesmosome Abs subepidermal. This matches the correct interpretation.",
+        "C": "This alternative can appear on a thoughtful differential, but the discriminating findings align more closely with the correct choice.",
+        "D": "Pemphigus intraepidermal acantholysis. It is less consistent than the correct choice."
+      }
+    }
+  ]
+}
