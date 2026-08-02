@@ -732,6 +732,8 @@ async def dispatch_feature(
             else:
                 await show_stage_menu(update, context, "Please choose a *stage level* first.")
             return
+        # Reload banks so Question Input / Perplexity uploads appear without restart
+        refresh_content()
         # Empty bank guard
         total, _unseen = bank_stats(update.effective_user.id, specialty_key) if update.effective_user else (0, 0)
         if total <= 0:

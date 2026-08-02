@@ -1209,17 +1209,18 @@ def _rebuild_specialties_as_curricula() -> None:
             entry["label"] = label
             SPECIALTIES[key] = entry
             continue
-        stem = BANK_FILE_MAP.get(key)
+        # Prefer explicit map, else try curriculum key as bank stem (e.g. anatomy.json)
+        stem = BANK_FILE_MAP.get(key, key)
         questions = None
         books = [f"{label} — faculty-recommended references (to be added)"]
         pdf_notes = [f"{label}: curriculum notes will be expanded for this course."]
         cases = {d: [] for d in ("easy", "medium", "hard")}
-        if stem and stem in legacy:
+        if stem in legacy:
             questions = legacy[stem].get("questions") or _empty_questions()
             books = list(legacy[stem].get("books") or books)
             pdf_notes = list(legacy[stem].get("pdf_notes") or pdf_notes)
             cases = legacy[stem].get("cases") or cases
-        elif stem:
+        else:
             loaded = load_specialty_questions(banks_dir, stem)
             if loaded is not None:
                 questions = loaded

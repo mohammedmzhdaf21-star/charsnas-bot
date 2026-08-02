@@ -71,6 +71,8 @@ STAGES: dict[str, dict] = {
 
 # Map curriculum key → existing question_banks/{stem}.json (when available)
 BANK_FILE_MAP: dict[str, str] = {
+    "anatomy": "anatomy",
+    "head_neck_anatomy": "anatomy",  # closest starter until a dedicated bank exists
     "dental_anatomy": "dental_anatomy",
     "oral_histology": "dental_anatomy",  # closest starter bank until dedicated content arrives
     "oral_biology": "dental_anatomy",

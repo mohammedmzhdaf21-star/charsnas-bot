@@ -96,6 +96,8 @@ DEPARTMENTS = {
         # Flat list used for label lookups (filled below)
         "specialties": [],
         "bank_aliases": {
+            "anatomy": "anatomy",
+            "head_neck_anatomy": "anatomy",
             "oral_histology": "dental_anatomy",
             "oral_biology": "dental_anatomy",
             "dental_terminology": "dental_anatomy",
