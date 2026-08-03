@@ -25,6 +25,7 @@ __all__ = [
     "append_case",
     "append_book",
     "save_pdf",
+    "save_generated_topic_pdf",
     "bank_counts",
     "load_bank",
 ]
@@ -223,6 +224,46 @@ def save_pdf(field: str, specialty: str, src_path: Path, original_name: str) -> 
         {
             "file": dest.name,
             "original_name": original_name,
+            "added_at": datetime.now(timezone.utc).isoformat(),
+        }
+    )
+    _write_json(meta_path, meta)
+    return dest
+
+
+def save_generated_topic_pdf(
+    field: str,
+    specialty: str,
+    src_path: Path,
+    *,
+    topic: str,
+    stage: str = "",
+    slide_count: int = 0,
+    source: str = "perplexity",
+) -> Path:
+    """Save a generated topic PDF under pdfs/generated/<stage?>/<specialty>/."""
+    pdf_root = department_paths(field)["pdf_dir"] / "generated"
+    if stage:
+        pdf_dir = pdf_root / stage / specialty
+    else:
+        pdf_dir = pdf_root / specialty
+    pdf_dir.mkdir(parents=True, exist_ok=True)
+    safe_topic = re.sub(r"[^\w.\-]+", "_", topic.strip()).strip("_") or "topic"
+    safe = f"{safe_topic[:70]}.pdf"
+    dest = pdf_dir / safe
+    if dest.exists():
+        dest = pdf_dir / f"{dest.stem}_{int(datetime.now().timestamp())}.pdf"
+    shutil.copy2(src_path, dest)
+    meta_path = department_paths(field)["custom_dir"] / "pdfs" / f"{specialty}.json"
+    meta = _read_json(meta_path, [])
+    meta.append(
+        {
+            "file": str(dest.relative_to(department_paths(field)["pdf_dir"])),
+            "original_name": dest.name,
+            "topic": topic,
+            "stage": stage or None,
+            "slide_count": slide_count,
+            "source": source,
             "added_at": datetime.now(timezone.utc).isoformat(),
         }
     )

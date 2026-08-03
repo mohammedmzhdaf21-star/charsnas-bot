@@ -105,10 +105,11 @@ DEPARTMENTS = {
 }
 
 CONTENT_TYPES = [
-    ("perplexity_mcq", "Generate Short MCQs (auto-save)"),
+    ("perplexity_mcq", "Generate Short MCQs + PDF (auto)"),
+    ("perplexity_pdf", "Generate topic PDF only"),
     ("short_mcq", "Type Short MCQs myself"),
     ("case_based", "Case-based questions"),
-    ("pdf_files", "PDF files"),
+    ("pdf_files", "Upload PDF files"),
     ("book_source", "Book sources"),
 ]
 
