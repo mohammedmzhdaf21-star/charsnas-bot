@@ -396,8 +396,16 @@ async def show_draft_preview(update: Update, context: ContextTypes.DEFAULT_TYPE)
         f"*[{item['difficulty']}]* {_escape_md(item['question'])}\n\n"
         f"{opts}\n\n"
         f"Answer: *{item['answer_letter']}*\n"
-        f"Explanation: {_escape_md(item.get('explanation') or '')}\n\n"
-        "Publish inserts into the live bank. Drop removes this item. Edit stem lets you rewrite it."
+        f"Explanation: {_escape_md(item.get('explanation') or '')}\n"
+    )
+    cex = item.get("choice_explanations") or {}
+    if isinstance(cex, dict) and any(cex.get(L) for L in "ABCD"):
+        text += "\n*Why each choice:*\n"
+        for L in "ABCD":
+            if cex.get(L):
+                text += f"{L}: {_escape_md(cex[L])}\n"
+    text += (
+        "\nPublish inserts into the live bank. Drop removes this item. Edit stem lets you rewrite it."
     )
     await safe_edit_or_reply(update, text, reply_markup=_preview_keyboard())
 
@@ -422,6 +430,7 @@ async def publish_draft(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
                 options=item["options"],
                 answer_letter=item["answer_letter"],
                 explanation=item.get("explanation") or "",
+                choice_explanations=item.get("choice_explanations") or {},
                 source="perplexity",
                 reject_similar=True,
             )
@@ -516,6 +525,7 @@ async def run_perplexity_generation(update: Update, context: ContextTypes.DEFAUL
                 options=item["options"],
                 answer_letter=item["answer_letter"],
                 explanation=item.get("explanation") or "",
+                choice_explanations=item.get("choice_explanations") or {},
                 source="perplexity",
                 reject_similar=True,
             )
