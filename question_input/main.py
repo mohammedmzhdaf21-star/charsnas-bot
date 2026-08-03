@@ -39,7 +39,17 @@ try:
         mix_summary,
         single_distribution,
     )
-    from storage import append_book, append_case, append_short_mcq, bank_counts, load_bank, save_pdf
+    from perplexity_pdf import generate_topic_slides, parse_topics
+    from pdf_slides import build_topic_pdf, safe_topic_filename
+    from storage import (
+        append_book,
+        append_case,
+        append_short_mcq,
+        bank_counts,
+        load_bank,
+        save_generated_topic_pdf,
+        save_pdf,
+    )
 except ImportError:  # pragma: no cover
     from question_input.catalog import (
         CASE_DIFFICULTIES,
@@ -60,6 +70,8 @@ except ImportError:  # pragma: no cover
         mix_summary,
         single_distribution,
     )
+    from question_input.perplexity_pdf import generate_topic_slides, parse_topics
+    from question_input.pdf_slides import build_topic_pdf, safe_topic_filename
     from question_input.dedupe import (
         DuplicateQuestionError,
         existing_stem_samples,
@@ -72,6 +84,7 @@ except ImportError:  # pragma: no cover
         append_short_mcq,
         bank_counts,
         load_bank,
+        save_generated_topic_pdf,
         save_pdf,
     )
 
@@ -149,6 +162,7 @@ async def cmd_start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         "CharaNas *Question Input*\n\n"
         "What do you want to add into a department bot?\n\n"
         "• *Generate Short MCQs (auto-save)* — Perplexity writes questions into the bank\n"
+        "• *Generate topic PDF slides* — one 15–20 slide IMB PDF per topic (logo watermark)\n"
         "• *Type Short MCQs myself* — you enter stem/options one by one",
         reply_markup=_kb(rows),
         parse_mode="Markdown",
@@ -165,10 +179,14 @@ async def cmd_help(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(
         "Use /start to add content.\n\n"
         "Manual flow: Short MCQ / Case / PDF / Book → department → specialty → enter items.\n\n"
-        "Perplexity flow:\n"
-        "1) Generate Short MCQs (Perplexity)\n"
-        "2) Form: department → stage/curriculum → count → topic → difficulty mix\n"
-        "3) API generates strict JSON → validated → saved into the bank automatically\n\n"
+        "Perplexity Short MCQs:\n"
+        "1) Generate Short MCQs\n"
+        "2) department → stage/curriculum → count → topic → difficulty mix\n"
+        "3) JSON validated → saved into the bank automatically\n\n"
+        "Perplexity topic PDFs:\n"
+        "1) Generate topic PDF slides\n"
+        "2) department → stage/curriculum → send topic(s)\n"
+        "3) Builds one 15–20 slide IMB PDF per topic with centered logo watermark\n\n"
         f"Perplexity status: {pplx}\n"
         "Use /cancel to stop."
     )
@@ -315,6 +333,22 @@ async def ask_perplexity_topic(update: Update, context: ContextTypes.DEFAULT_TYP
     )
 
 
+async def ask_pdf_topics(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    f = flow(context)
+    f["step"] = "pdf_topics"
+    f["count"] = 1
+    await safe_edit_or_reply(
+        update,
+        f"*{_path_label(f)}*\n\n"
+        "Send the *topic(s)* for PDF generation.\n\n"
+        "• One topic = one 15–20 slide PDF\n"
+        "• Multiple topics: put each on its own line (or separate with `;`)\n"
+        "• Max 10 topics per batch\n\n"
+        "Each PDF uses detailed *IMB-style* teaching text, textbook-style schematic sketches, "
+        "and a centered CharaNas logo watermark that stays readable underneath.",
+    )
+
+
 async def show_distribution_menu(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     f = flow(context)
     f["step"] = "pplx_distribution"
@@ -455,6 +489,104 @@ async def _reply_plain(update: Update, text: str, *, markdown: bool = False) -> 
         return
     if update.message:
         await update.message.reply_text(text, **kwargs)
+
+
+async def run_perplexity_pdf_generation(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    f = flow(context)
+    if not perplexity_configured():
+        await _reply_plain(
+            update,
+            "Perplexity is not configured.\n"
+            "Add `PERPLEXITY_API_KEY` to `question_input/.env`, restart the input bot, then try again.",
+        )
+        clear_flow(context)
+        return
+
+    topics = list(f.get("pdf_topics") or [])
+    if not topics:
+        await _reply_plain(update, "No topics provided. Send /start and try again.")
+        clear_flow(context)
+        return
+
+    dep = DEPARTMENTS[f["department"]]
+    spec_lab = specialty_label(f["department"], f["specialty"])
+    stage_key = f.get("stage") or ""
+    s_label = stage_label(f["department"], stage_key) if stage_key else ""
+    await _reply_plain(
+        update,
+        f"Generating *{len(topics)}* topic PDF(s) for\n*{_path_label(f)}*\n\n"
+        "Each deck is 15–20 IMB slides with schematic figures + centered logo watermark.\n"
+        "This can take a few minutes…",
+        markdown=True,
+    )
+    f["step"] = "pplx_generating"
+    saved_paths: list[str] = []
+    errors: list[str] = []
+    tmp_dir = Path(__file__).resolve().parent / ".tmp_pdfs"
+    tmp_dir.mkdir(parents=True, exist_ok=True)
+
+    for topic in topics:
+        try:
+            deck = await asyncio.to_thread(
+                generate_topic_slides,
+                department_key=f["department"],
+                department_label=dep["label"],
+                specialty_key=f["specialty"],
+                specialty_label=spec_lab,
+                topic=topic,
+                stage_key=stage_key,
+                stage_label=s_label,
+            )
+            tmp_path = tmp_dir / f"{safe_topic_filename(topic)}.pdf"
+            await asyncio.to_thread(
+                build_topic_pdf,
+                out_path=tmp_path,
+                department_label=dep["label"],
+                stage_label=s_label,
+                specialty_label=spec_lab,
+                topic=deck.get("topic") or topic,
+                slides=deck.get("slides") or [],
+                sources=deck.get("sources") or [],
+            )
+            dest = save_generated_topic_pdf(
+                f["department"],
+                f["specialty"],
+                tmp_path,
+                topic=deck.get("topic") or topic,
+                stage=stage_key,
+                slide_count=len(deck.get("slides") or []),
+                source="perplexity",
+            )
+            try:
+                tmp_path.unlink(missing_ok=True)
+            except OSError:
+                pass
+            saved_paths.append(str(dest))
+            await _reply_plain(
+                update,
+                f"✅ PDF ready ({len(deck.get('slides') or [])} slides):\n`{dest.name}`\nTopic: {topic}",
+                markdown=True,
+            )
+        except PerplexityError as exc:
+            log.exception("Perplexity PDF generation failed for topic=%s", topic)
+            errors.append(f"{topic}: {exc}")
+            await _reply_plain(update, f"Failed for *{topic}*:\n{exc}", markdown=True)
+        except Exception as exc:  # pragma: no cover
+            log.exception("Unexpected PDF build error for topic=%s", topic)
+            errors.append(f"{topic}: {exc}")
+            await _reply_plain(update, f"Unexpected error for *{topic}*:\n{exc}", markdown=True)
+
+    f["saved"] = len(saved_paths)
+    f["content_type"] = "perplexity_pdf"
+    f["generated_pdfs"] = saved_paths
+    if saved_paths:
+        await finish_flow(update, context)
+    else:
+        clear_flow(context)
+        await _reply_plain(
+            update,
+            "No PDFs were saved.\n" + ("\n".join(errors) if errors else "Send /start to try again."),
+        )
 
 
 async def run_perplexity_generation(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -617,6 +749,8 @@ async def finish_flow(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
     ctype_key = f.get("content_type", "")
     if ctype_key == "perplexity_mcq":
         ctype_words = "Perplexity Short MCQs"
+    elif ctype_key == "perplexity_pdf":
+        ctype_words = "topic PDF slide deck(s)"
     else:
         ctype_words = dict(CONTENT_TYPES).get(ctype_key, "items").lower()
     counts = ""
@@ -626,17 +760,27 @@ async def finish_flow(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
             "\n\nBank totals now:\n"
             + "\n".join(f"• {k}: {v}" for k, v in c.items())
         )
+    pdf_lines = ""
+    if ctype_key == "perplexity_pdf" and f.get("generated_pdfs"):
+        pdf_lines = "\n\nFiles:\n" + "\n".join(f"• `{Path(p).name}`" for p in f["generated_pdfs"][:10])
     clear_flow(context)
-    linked = (
-        f"They were generated by Perplexity and saved into that department bot’s {target_word} bank."
-        if ctype_key == "perplexity_mcq"
-        else f"They are linked to that department bot’s {target_word} content."
-    )
+    if ctype_key == "perplexity_mcq":
+        linked = (
+            f"They were generated by Perplexity and saved into that department bot’s {target_word} bank."
+        )
+    elif ctype_key == "perplexity_pdf":
+        linked = (
+            f"They were generated by Perplexity as 15–20 slide IMB PDFs "
+            f"(centered logo watermark) under that department’s generated PDF folder."
+        )
+    else:
+        linked = f"They are linked to that department bot’s {target_word} content."
     msg = (
         f"✅ Saved *{saved}* {ctype_words} into\n"
         f"*{path}*.\n\n"
         f"{linked}"
-        f"{counts}\n\n"
+        f"{counts}"
+        f"{pdf_lines}\n\n"
         "Send /start to add more."
     )
     if update.message:
@@ -668,6 +812,7 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         await query.edit_message_text(
             "What do you want to add into a department bot?\n\n"
             "• Generate Short MCQs (auto-save) — Perplexity writes into the bank\n"
+            "• Generate topic PDF slides — 15–20 IMB slides per topic + logo watermark\n"
             "• Type Short MCQs myself — enter stem/options manually",
             reply_markup=_kb(rows),
         )
@@ -695,7 +840,7 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
 
     if data.startswith("type:"):
         ctype = data.split(":", 1)[1]
-        if ctype == "perplexity_mcq" and not perplexity_configured():
+        if ctype in {"perplexity_mcq", "perplexity_pdf"} and not perplexity_configured():
             await query.edit_message_text(
                 "Perplexity is not configured yet.\n\n"
                 "1) Get an API key from Perplexity\n"
@@ -757,6 +902,8 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         if ctype == "perplexity_mcq":
             # Form continues: count → topic → difficulty distribution
             await ask_count(update, context)
+        elif ctype == "perplexity_pdf":
+            await ask_pdf_topics(update, context)
         elif ctype in {"short_mcq", "case_based"}:
             f["step"] = "difficulty"
             await show_difficulty(update, context)
@@ -881,6 +1028,17 @@ async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         await show_distribution_menu(update, context)
         return
 
+    if step == "pdf_topics":
+        topics = parse_topics(text)
+        if not topics:
+            await update.message.reply_text(
+                "Send at least one topic (one per line, or separated by `;`)."
+            )
+            return
+        f["pdf_topics"] = topics
+        await run_perplexity_pdf_generation(update, context)
+        return
+
     if step == "pplx_edit_stem":
         draft = f.get("pplx_draft") or {}
         items = draft.get("questions") or []
@@ -921,7 +1079,7 @@ async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     if ctype == "pdf_files":
         await update.message.reply_text("Please send a PDF document, or /done when finished.")
         return
-    if ctype == "perplexity_mcq":
+    if ctype in {"perplexity_mcq", "perplexity_pdf"}:
         await update.message.reply_text("Send /start to generate more with Perplexity.")
         return
 
