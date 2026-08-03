@@ -11,11 +11,23 @@ from typing import Any
 
 try:
     from catalog import DEPARTMENTS
+    from dedupe import DuplicateQuestionError, find_similar, iter_bank_questions
 except ImportError:  # pragma: no cover
     from question_input.catalog import DEPARTMENTS
+    from question_input.dedupe import DuplicateQuestionError, find_similar, iter_bank_questions
 
 DIFFICULTIES = ("easy", "medium", "hard", "extreme")
 CASE_DIFFS = ("easy", "medium", "hard")
+
+__all__ = [
+    "DuplicateQuestionError",
+    "append_short_mcq",
+    "append_case",
+    "append_book",
+    "save_pdf",
+    "bank_counts",
+    "load_bank",
+]
 
 
 def _read_json(path: Path, default: Any) -> Any:
@@ -66,8 +78,13 @@ def append_short_mcq(
     answer_letter: str,
     explanation: str = "",
     source: str = "user_input",
+    reject_similar: bool = True,
 ) -> dict[str, Any]:
-    """Append one Short MCQ into the department specialty bank. Returns saved item."""
+    """Append one Short MCQ into the department specialty bank. Returns saved item.
+
+    When reject_similar=True (default), raises DuplicateQuestionError if the stem
+    is the same as or a close rephrase of any existing item in this bank.
+    """
     if difficulty not in DIFFICULTIES:
         raise ValueError(f"invalid difficulty: {difficulty}")
     if len(options) != 4:
@@ -98,11 +115,25 @@ def append_short_mcq(
 
     stem = _bank_stem(field, specialty)
     bank = load_bank(field, specialty)
+    qtext = question.strip()
+
+    if reject_similar:
+        match, score = find_similar(qtext, iter_bank_questions(bank))
+        if match is not None:
+            mid = str(match.get("id") or "")
+            mq = str(match.get("question") or "")
+            raise DuplicateQuestionError(
+                f"Similar to existing question (score={score:.2f}): {mq[:120]}",
+                matched_id=mid or None,
+                matched_question=mq,
+                score=score,
+            )
+
     idx = len(bank[difficulty])
     prefix = "pplx" if src == "perplexity" else "custom"
     item = {
         "id": f"{specialty}:{difficulty}:{prefix}:{idx}",
-        "question": question.strip(),
+        "question": qtext,
         "options": labeled,
         "answer": answer,
         "explanation": exp,

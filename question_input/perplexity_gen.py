@@ -274,10 +274,20 @@ def _build_prompt(
     specialty_label: str,
     topic: str,
     distribution: dict[str, int],
+    avoid_stems: list[str] | None = None,
 ) -> str:
     focus = topic.strip() if topic.strip() else specialty_label
     total = sum(distribution.values())
     dist_line = ", ".join(f"{distribution[d]} {d}" for d in DIFFICULTIES if distribution[d])
+    avoid_block = ""
+    if avoid_stems:
+        lines = "\n".join(f"- {s}" for s in avoid_stems[:50])
+        avoid_block = (
+            "\n\nDo NOT write questions that are the same as, or mere rephrases of, "
+            "these existing stems already in the bank:\n"
+            f"{lines}\n"
+            "Each new stem must test a different fact, decision, or clinical angle.\n"
+        )
     return (
         "You are generating exam content for the CharaNas study system.\n"
         "Decide wording for each stem, but keep the routing fields exactly as given.\n\n"
@@ -295,7 +305,10 @@ def _build_prompt(
         "- Plausible distractors only.\n"
         "- Do not prefix options with A)/B)/C)/D).\n"
         "- explanation: 1–3 teaching sentences.\n"
+        "- Questions in this batch must also be distinct from each other "
+        "(no rephrased duplicates inside the batch).\n"
         "- Return strict JSON only matching the schema."
+        f"{avoid_block}"
     )
 
 
@@ -309,6 +322,7 @@ def generate_batch(
     topic: str = "",
     stage_key: str = "",
     stage_label: str = "",
+    avoid_stems: list[str] | None = None,
 ) -> dict[str, Any]:
     """Call Perplexity, validate strict JSON, return normalized batch."""
     key = api_key()
@@ -333,6 +347,7 @@ def generate_batch(
         specialty_label=specialty_label,
         topic=topic,
         distribution=distribution,
+        avoid_stems=avoid_stems,
     )
     fallback_diff = next((d for d in DIFFICULTIES if distribution.get(d)), "medium")
 

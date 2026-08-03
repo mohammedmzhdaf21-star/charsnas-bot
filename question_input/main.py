@@ -30,6 +30,7 @@ try:
         stage_label,
         uses_stages,
     )
+    from dedupe import DuplicateQuestionError, existing_stem_samples, filter_unique_batch, iter_bank_questions
     from perplexity_gen import (
         PerplexityError,
         allocate_mix,
@@ -38,7 +39,7 @@ try:
         mix_summary,
         single_distribution,
     )
-    from storage import append_book, append_case, append_short_mcq, bank_counts, save_pdf
+    from storage import append_book, append_case, append_short_mcq, bank_counts, load_bank, save_pdf
 except ImportError:  # pragma: no cover
     from question_input.catalog import (
         CASE_DIFFICULTIES,
@@ -59,7 +60,20 @@ except ImportError:  # pragma: no cover
         mix_summary,
         single_distribution,
     )
-    from question_input.storage import append_book, append_case, append_short_mcq, bank_counts, save_pdf
+    from question_input.dedupe import (
+        DuplicateQuestionError,
+        existing_stem_samples,
+        filter_unique_batch,
+        iter_bank_questions,
+    )
+    from question_input.storage import (
+        append_book,
+        append_case,
+        append_short_mcq,
+        bank_counts,
+        load_bank,
+        save_pdf,
+    )
 
 logging.basicConfig(
     format="%(asctime)s %(levelname)s %(name)s: %(message)s",
@@ -397,20 +411,31 @@ async def publish_draft(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
         clear_flow(context)
         return
     saved = 0
+    skipped = 0
     for item in items:
-        append_short_mcq(
-            f["department"],
-            f["specialty"],
-            item["difficulty"],
-            question=item["question"],
-            options=item["options"],
-            answer_letter=item["answer_letter"],
-            explanation=item.get("explanation") or "",
-            source="perplexity",
-        )
-        saved += 1
+        try:
+            append_short_mcq(
+                f["department"],
+                f["specialty"],
+                item["difficulty"],
+                question=item["question"],
+                options=item["options"],
+                answer_letter=item["answer_letter"],
+                explanation=item.get("explanation") or "",
+                source="perplexity",
+                reject_similar=True,
+            )
+            saved += 1
+        except DuplicateQuestionError:
+            skipped += 1
     f["saved"] = saved
     f["content_type"] = "perplexity_mcq"
+    if skipped:
+        await _reply_plain(
+            update,
+            f"Skipped *{skipped}* duplicate/similar question(s) during publish.",
+            markdown=True,
+        )
     await finish_flow(update, context)
 
 
@@ -447,6 +472,8 @@ async def run_perplexity_generation(update: Update, context: ContextTypes.DEFAUL
         markdown=True,
     )
     f["step"] = "pplx_generating"
+    existing_bank = load_bank(f["department"], f["specialty"])
+    avoid_stems = existing_stem_samples(existing_bank, limit=50)
     try:
         batch = await asyncio.to_thread(
             generate_batch,
@@ -458,6 +485,7 @@ async def run_perplexity_generation(update: Update, context: ContextTypes.DEFAUL
             topic=f.get("topic") or "",
             stage_key=stage_key,
             stage_label=s_label,
+            avoid_stems=avoid_stems,
         )
     except PerplexityError as exc:
         log.exception("Perplexity generation failed")
@@ -472,21 +500,28 @@ async def run_perplexity_generation(update: Update, context: ContextTypes.DEFAUL
 
     f["pplx_draft"] = batch
     f["pplx_index"] = 0
-    # Save directly into the live bank — no manual typing / publish step
-    items = list(batch.get("questions") or [])
+    # Drop near-duplicates vs bank and within the batch, then save
+    raw_items = list(batch.get("questions") or [])
+    unique_items, dropped = filter_unique_batch(raw_items, iter_bank_questions(existing_bank))
     saved = 0
+    skipped = len(dropped)
     previews: list[str] = []
-    for item in items:
-        saved_item = append_short_mcq(
-            f["department"],
-            f["specialty"],
-            item["difficulty"],
-            question=item["question"],
-            options=item["options"],
-            answer_letter=item["answer_letter"],
-            explanation=item.get("explanation") or "",
-            source="perplexity",
-        )
+    for item in unique_items:
+        try:
+            saved_item = append_short_mcq(
+                f["department"],
+                f["specialty"],
+                item["difficulty"],
+                question=item["question"],
+                options=item["options"],
+                answer_letter=item["answer_letter"],
+                explanation=item.get("explanation") or "",
+                source="perplexity",
+                reject_similar=True,
+            )
+        except DuplicateQuestionError:
+            skipped += 1
+            continue
         saved += 1
         if len(previews) < 3:
             q = saved_item["question"]
@@ -495,10 +530,21 @@ async def run_perplexity_generation(update: Update, context: ContextTypes.DEFAUL
             previews.append(f"• [{item['difficulty']}] {q}")
     f["saved"] = saved
     more = "" if saved <= 3 else f"\n…and {saved - 3} more."
+    skip_line = f"\nSkipped *{skipped}* duplicate/similar question(s)." if skipped else ""
+    if saved == 0:
+        await _reply_plain(
+            update,
+            f"No new questions saved — all *{len(raw_items)}* were duplicate or too similar "
+            f"to items already in this bank.{skip_line}\n\nSend /start to try a different topic.",
+            markdown=True,
+        )
+        clear_flow(context)
+        return
     await _reply_plain(
         update,
-        f"✅ Generated and saved *{saved}* Short MCQs into the bank.\n"
-        f"Mix: {mix_summary(batch['difficulty_distribution'])}\n\n"
+        f"✅ Generated and saved *{saved}* new Short MCQs into the bank."
+        f"{skip_line}\n"
+        f"Mix requested: {mix_summary(dist)}\n\n"
         + "\n".join(previews)
         + more,
         markdown=True,
@@ -920,15 +966,26 @@ async def handle_mcq_text(update: Update, context: ContextTypes.DEFAULT_TYPE, te
         return
     if step == "mcq_explanation":
         explanation = "" if text.lower() == "skip" else text
-        item = append_short_mcq(
-            f["department"],
-            f["specialty"],
-            f["difficulty"],
-            question=draft["question"],
-            options=[draft["a"], draft["b"], draft["c"], draft["d"]],
-            answer_letter=draft["answer"],
-            explanation=explanation,
-        )
+        try:
+            item = append_short_mcq(
+                f["department"],
+                f["specialty"],
+                f["difficulty"],
+                question=draft["question"],
+                options=[draft["a"], draft["b"], draft["c"], draft["d"]],
+                answer_letter=draft["answer"],
+                explanation=explanation,
+                reject_similar=True,
+            )
+        except DuplicateQuestionError as exc:
+            await update.message.reply_text(
+                "This question is too similar to one already in the bank, so it was *not* saved.\n"
+                f"{exc}\n\nSend a different stem, or /cancel.",
+                parse_mode="Markdown",
+            )
+            f["step"] = "mcq_stem"
+            f["draft"] = {}
+            return
         f["saved"] = f.get("saved", 0) + 1
         f["index"] += 1
         await update.message.reply_text(
