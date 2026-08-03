@@ -161,8 +161,8 @@ async def cmd_start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(
         "CharaNas *Question Input*\n\n"
         "What do you want to add into a department bot?\n\n"
-        "• *Generate Short MCQs (auto-save)* — Perplexity writes questions into the bank\n"
-        "• *Generate topic PDF slides* — one 15–20 slide IMB PDF per topic (logo watermark)\n"
+        "• *Generate Short MCQs (auto-save)* — Perplexity writes questions + auto PDF per topic\n"
+        "• *Generate topic PDF slides* — PDF only (if you already have the MCQs)\n"
         "• *Type Short MCQs myself* — you enter stem/options one by one",
         reply_markup=_kb(rows),
         parse_mode="Markdown",
@@ -179,14 +179,11 @@ async def cmd_help(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(
         "Use /start to add content.\n\n"
         "Manual flow: Short MCQ / Case / PDF / Book → department → specialty → enter items.\n\n"
-        "Perplexity Short MCQs:\n"
+        "Perplexity Short MCQs (+ auto PDF):\n"
         "1) Generate Short MCQs\n"
-        "2) department → stage/curriculum → count → topic → difficulty mix\n"
-        "3) JSON validated → saved into the bank automatically\n\n"
-        "Perplexity topic PDFs:\n"
-        "1) Generate topic PDF slides\n"
-        "2) department → stage/curriculum → send topic(s)\n"
-        "3) Builds one 15–20 slide IMB PDF per topic with centered logo watermark\n\n"
+        "2) department → stage/curriculum → count → topic(s) → difficulty mix\n"
+        "3) MCQs saved into the bank, then one 15–20 slide PDF is built per topic\n\n"
+        "PDF-only option remains available if you need slides without new MCQs.\n\n"
         f"Perplexity status: {pplx}\n"
         "Use /cancel to stop."
     )
@@ -329,7 +326,11 @@ async def ask_perplexity_topic(update: Update, context: ContextTypes.DEFAULT_TYP
         update,
         f"*{_path_label(f)}*\n"
         f"Count: *{f['count']}*\n\n"
-        f"Send a *topic focus* (e.g. pulpitis diagnosis), or type `skip` to use *{spec}*.",
+        "Send the *topic(s)* for Short MCQs.\n\n"
+        "• One topic per line (or separate with `;`)\n"
+        "• Each topic gets Short MCQs **and** an auto-generated 15–20 slide PDF "
+        "(IMB text + schematics + centered logo watermark)\n"
+        f"• Or type `skip` to use *{spec}* for both MCQs and the PDF",
     )
 
 
@@ -355,12 +356,16 @@ async def show_distribution_menu(update: Update, context: ContextTypes.DEFAULT_T
     rows = [[(f"Level {n}", f"pplxlevel:{n}")] for n in range(1, 6)]
     rows.append([("Single difficulty…", "pplxdist:single")])
     rows.append([("⟵ Back", "back:pplx_topic"), ("Cancel", "cancel")])
-    topic = f.get("topic") or specialty_label(f["department"], f["specialty"])
+    topics = f.get("pdf_topics") or [
+        f.get("topic") or specialty_label(f["department"], f["specialty"])
+    ]
+    topic_line = topics[0] if len(topics) == 1 else f"{len(topics)} topics"
     await safe_edit_or_reply(
         update,
         f"*{_path_label(f)}*\n"
-        f"Topic: *{topic}*\n"
-        f"Count: *{f['count']}*\n\n"
+        f"Topic(s): *{topic_line}*\n"
+        f"Count per topic: *{f['count']}*\n\n"
+        "After MCQs are saved, a PDF slide deck is auto-generated for each topic.\n\n"
         "Choose the *difficulty distribution*:\n"
         "Levels 1–5 use the same mixes as the study bots, or pick one single difficulty.",
         reply_markup=_kb(rows),
@@ -491,39 +496,35 @@ async def _reply_plain(update: Update, text: str, *, markdown: bool = False) -> 
         await update.message.reply_text(text, **kwargs)
 
 
-async def run_perplexity_pdf_generation(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+async def generate_topic_pdfs_for_flow(
+    update: Update,
+    context: ContextTypes.DEFAULT_TYPE,
+    topics: list[str],
+    *,
+    announce: bool = True,
+) -> list[str]:
+    """Generate and save one PDF per topic. Returns saved paths (best-effort)."""
     f = flow(context)
-    if not perplexity_configured():
-        await _reply_plain(
-            update,
-            "Perplexity is not configured.\n"
-            "Add `PERPLEXITY_API_KEY` to `question_input/.env`, restart the input bot, then try again.",
-        )
-        clear_flow(context)
-        return
-
-    topics = list(f.get("pdf_topics") or [])
+    topics = [t.strip() for t in topics if str(t).strip()]
     if not topics:
-        await _reply_plain(update, "No topics provided. Send /start and try again.")
-        clear_flow(context)
-        return
-
+        return []
     dep = DEPARTMENTS[f["department"]]
     spec_lab = specialty_label(f["department"], f["specialty"])
     stage_key = f.get("stage") or ""
     s_label = stage_label(f["department"], stage_key) if stage_key else ""
-    await _reply_plain(
-        update,
-        f"Generating *{len(topics)}* topic PDF(s) for\n*{_path_label(f)}*\n\n"
-        "Each deck is 15–20 IMB slides with schematic figures + centered logo watermark.\n"
-        "This can take a few minutes…",
-        markdown=True,
-    )
-    f["step"] = "pplx_generating"
+    if announce:
+        await _reply_plain(
+            update,
+            f"Also generating *{len(topics)}* topic PDF(s) for\n*{_path_label(f)}*\n\n"
+            "Each deck is 15–20 IMB slides with schematic figures + centered logo watermark.\n"
+            "This can take a few minutes…",
+            markdown=True,
+        )
     saved_paths: list[str] = []
-    errors: list[str] = []
     tmp_dir = Path(__file__).resolve().parent / ".tmp_pdfs"
     tmp_dir.mkdir(parents=True, exist_ok=True)
+    prev_step = f.get("step")
+    f["step"] = "pplx_generating"
 
     for topic in topics:
         try:
@@ -569,13 +570,36 @@ async def run_perplexity_pdf_generation(update: Update, context: ContextTypes.DE
             )
         except PerplexityError as exc:
             log.exception("Perplexity PDF generation failed for topic=%s", topic)
-            errors.append(f"{topic}: {exc}")
-            await _reply_plain(update, f"Failed for *{topic}*:\n{exc}", markdown=True)
+            await _reply_plain(update, f"PDF failed for *{topic}*:\n{exc}", markdown=True)
         except Exception as exc:  # pragma: no cover
             log.exception("Unexpected PDF build error for topic=%s", topic)
-            errors.append(f"{topic}: {exc}")
-            await _reply_plain(update, f"Unexpected error for *{topic}*:\n{exc}", markdown=True)
+            await _reply_plain(update, f"PDF error for *{topic}*:\n{exc}", markdown=True)
 
+    f["step"] = prev_step or f.get("step")
+    existing = list(f.get("generated_pdfs") or [])
+    existing.extend(saved_paths)
+    f["generated_pdfs"] = existing
+    return saved_paths
+
+
+async def run_perplexity_pdf_generation(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    f = flow(context)
+    if not perplexity_configured():
+        await _reply_plain(
+            update,
+            "Perplexity is not configured.\n"
+            "Add `PERPLEXITY_API_KEY` to `question_input/.env`, restart the input bot, then try again.",
+        )
+        clear_flow(context)
+        return
+
+    topics = list(f.get("pdf_topics") or [])
+    if not topics:
+        await _reply_plain(update, "No topics provided. Send /start and try again.")
+        clear_flow(context)
+        return
+
+    saved_paths = await generate_topic_pdfs_for_flow(update, context, topics, announce=True)
     f["saved"] = len(saved_paths)
     f["content_type"] = "perplexity_pdf"
     f["generated_pdfs"] = saved_paths
@@ -583,10 +607,7 @@ async def run_perplexity_pdf_generation(update: Update, context: ContextTypes.DE
         await finish_flow(update, context)
     else:
         clear_flow(context)
-        await _reply_plain(
-            update,
-            "No PDFs were saved.\n" + ("\n".join(errors) if errors else "Send /start to try again."),
-        )
+        await _reply_plain(update, "No PDFs were saved. Send /start to try again.")
 
 
 async def run_perplexity_generation(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -605,92 +626,123 @@ async def run_perplexity_generation(update: Update, context: ContextTypes.DEFAUL
     dist = f.get("distribution") or single_distribution(int(f["count"]), "medium")
     stage_key = f.get("stage") or ""
     s_label = stage_label(f["department"], stage_key) if stage_key else ""
+    topics = list(f.get("pdf_topics") or [])
+    if not topics:
+        single = (f.get("topic") or "").strip() or spec_lab
+        topics = [single]
+    f["pdf_topics"] = topics
+
     await _reply_plain(
         update,
         f"Calling Perplexity for\n*{_path_label(f)}*\n"
-        f"Mix: {mix_summary(dist)}\n\n"
+        f"Topics: *{len(topics)}* · Mix: {mix_summary(dist)}\n\n"
+        "1) Short MCQs auto-save into the bank\n"
+        "2) Then auto-generate one 15–20 slide PDF per topic\n\n"
         "Validating strict JSON when it returns…",
         markdown=True,
     )
     f["step"] = "pplx_generating"
-    existing_bank = load_bank(f["department"], f["specialty"])
-    avoid_stems = existing_stem_samples(existing_bank, limit=50)
-    try:
-        batch = await asyncio.to_thread(
-            generate_batch,
-            department_key=f["department"],
-            department_label=dep["label"],
-            specialty_key=f["specialty"],
-            specialty_label=spec_lab,
-            distribution=dist,
-            topic=f.get("topic") or "",
-            stage_key=stage_key,
-            stage_label=s_label,
-            avoid_stems=avoid_stems,
-        )
-    except PerplexityError as exc:
-        log.exception("Perplexity generation failed")
-        await _reply_plain(update, f"Perplexity generation failed:\n{exc}\n\nSend /start to try again.")
-        clear_flow(context)
-        return
-    except Exception as exc:  # pragma: no cover
-        log.exception("Unexpected Perplexity error")
-        await _reply_plain(update, f"Unexpected error: {exc}\n\nSend /start to try again.")
-        clear_flow(context)
-        return
 
-    f["pplx_draft"] = batch
-    f["pplx_index"] = 0
-    # Drop near-duplicates vs bank and within the batch, then save
-    raw_items = list(batch.get("questions") or [])
-    unique_items, dropped = filter_unique_batch(raw_items, iter_bank_questions(existing_bank))
     saved = 0
-    skipped = len(dropped)
+    skipped = 0
     previews: list[str] = []
-    for item in unique_items:
+    raw_total = 0
+
+    for topic in topics:
+        existing_bank = load_bank(f["department"], f["specialty"])
+        avoid_stems = existing_stem_samples(existing_bank, limit=50)
         try:
-            saved_item = append_short_mcq(
-                f["department"],
-                f["specialty"],
-                item["difficulty"],
-                question=item["question"],
-                options=item["options"],
-                answer_letter=item["answer_letter"],
-                explanation=item.get("explanation") or "",
-                choice_explanations=item.get("choice_explanations") or {},
-                source="perplexity",
-                reject_similar=True,
+            batch = await asyncio.to_thread(
+                generate_batch,
+                department_key=f["department"],
+                department_label=dep["label"],
+                specialty_key=f["specialty"],
+                specialty_label=spec_lab,
+                distribution=dist,
+                topic=topic,
+                stage_key=stage_key,
+                stage_label=s_label,
+                avoid_stems=avoid_stems,
             )
-        except DuplicateQuestionError:
-            skipped += 1
+        except PerplexityError as exc:
+            log.exception("Perplexity MCQ generation failed for topic=%s", topic)
+            await _reply_plain(
+                update,
+                f"Short MCQ generation failed for *{topic}*:\n{exc}",
+                markdown=True,
+            )
             continue
-        saved += 1
-        if len(previews) < 3:
-            q = saved_item["question"]
-            if len(q) > 120:
-                q = q[:117] + "…"
-            previews.append(f"• [{item['difficulty']}] {q}")
+        except Exception as exc:  # pragma: no cover
+            log.exception("Unexpected Perplexity MCQ error for topic=%s", topic)
+            await _reply_plain(update, f"Unexpected MCQ error for *{topic}*:\n{exc}", markdown=True)
+            continue
+
+        f["pplx_draft"] = batch
+        f["pplx_index"] = 0
+        raw_items = list(batch.get("questions") or [])
+        raw_total += len(raw_items)
+        unique_items, dropped = filter_unique_batch(raw_items, iter_bank_questions(existing_bank))
+        skipped += len(dropped)
+        topic_saved = 0
+        for item in unique_items:
+            try:
+                saved_item = append_short_mcq(
+                    f["department"],
+                    f["specialty"],
+                    item["difficulty"],
+                    question=item["question"],
+                    options=item["options"],
+                    answer_letter=item["answer_letter"],
+                    explanation=item.get("explanation") or "",
+                    choice_explanations=item.get("choice_explanations") or {},
+                    source="perplexity",
+                    reject_similar=True,
+                )
+            except DuplicateQuestionError:
+                skipped += 1
+                continue
+            saved += 1
+            topic_saved += 1
+            if len(previews) < 5:
+                q = saved_item["question"]
+                if len(q) > 100:
+                    q = q[:97] + "…"
+                previews.append(f"• [{item['difficulty']}] ({topic}) {q}")
+        await _reply_plain(
+            update,
+            f"Short MCQs for *{topic}*: saved *{topic_saved}*.",
+            markdown=True,
+        )
+
     f["saved"] = saved
-    more = "" if saved <= 3 else f"\n…and {saved - 3} more."
+    more = "" if saved <= 5 else f"\n…and more."
     skip_line = f"\nSkipped *{skipped}* duplicate/similar question(s)." if skipped else ""
     if saved == 0:
         await _reply_plain(
             update,
-            f"No new questions saved — all *{len(raw_items)}* were duplicate or too similar "
-            f"to items already in this bank.{skip_line}\n\nSend /start to try a different topic.",
+            f"No new questions saved — all *{raw_total}* were duplicate/too similar "
+            f"or generation failed.{skip_line}\n\n"
+            "Still trying PDF generation for your topic(s)…",
             markdown=True,
         )
+    else:
+        await _reply_plain(
+            update,
+            f"✅ Generated and saved *{saved}* new Short MCQs into the bank."
+            f"{skip_line}\n"
+            f"Mix requested: {mix_summary(dist)}\n\n"
+            + "\n".join(previews)
+            + more,
+            markdown=True,
+        )
+
+    # Auto-generate PDFs from the same Short MCQ topic(s)
+    pdf_paths = await generate_topic_pdfs_for_flow(update, context, topics, announce=True)
+    f["generated_pdfs"] = pdf_paths
+    if saved == 0 and not pdf_paths:
         clear_flow(context)
+        await _reply_plain(update, "Nothing was saved. Send /start to try a different topic.")
         return
-    await _reply_plain(
-        update,
-        f"✅ Generated and saved *{saved}* new Short MCQs into the bank."
-        f"{skip_line}\n"
-        f"Mix requested: {mix_summary(dist)}\n\n"
-        + "\n".join(previews)
-        + more,
-        markdown=True,
-    )
     await finish_flow(update, context)
 
 
@@ -761,12 +813,15 @@ async def finish_flow(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
             + "\n".join(f"• {k}: {v}" for k, v in c.items())
         )
     pdf_lines = ""
-    if ctype_key == "perplexity_pdf" and f.get("generated_pdfs"):
-        pdf_lines = "\n\nFiles:\n" + "\n".join(f"• `{Path(p).name}`" for p in f["generated_pdfs"][:10])
+    if f.get("generated_pdfs"):
+        pdf_lines = "\n\nPDF slide decks:\n" + "\n".join(
+            f"• `{Path(p).name}`" for p in f["generated_pdfs"][:10]
+        )
     clear_flow(context)
     if ctype_key == "perplexity_mcq":
         linked = (
-            f"They were generated by Perplexity and saved into that department bot’s {target_word} bank."
+            f"Short MCQs were saved into that department bot’s {target_word} bank. "
+            f"Matching topic PDF slide decks were auto-generated with the centered logo watermark."
         )
     elif ctype_key == "perplexity_pdf":
         linked = (
@@ -811,8 +866,8 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         rows.append([("Cancel", "cancel")])
         await query.edit_message_text(
             "What do you want to add into a department bot?\n\n"
-            "• Generate Short MCQs (auto-save) — Perplexity writes into the bank\n"
-            "• Generate topic PDF slides — 15–20 IMB slides per topic + logo watermark\n"
+            "• Generate Short MCQs (auto-save) — MCQs + auto PDF per topic\n"
+            "• Generate topic PDF slides — PDF only\n"
             "• Type Short MCQs myself — enter stem/options manually",
             reply_markup=_kb(rows),
         )
@@ -854,13 +909,13 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
             # Offer generate vs manual so users don't land on stem entry by mistake
             f["step"] = "mcq_mode"
             rows = [
-                [("Generate with Perplexity (auto-save)", "type:perplexity_mcq")],
+                [("Generate MCQs + PDF (Perplexity)", "type:perplexity_mcq")],
                 [("Type myself (stem / A–D)", "mcqmode:manual")],
                 [("⟵ Back", "back:type"), ("Cancel", "cancel")],
             ]
             await query.edit_message_text(
                 "Short MCQ — how do you want to add them?\n\n"
-                "*Generate* writes questions into the bank automatically.\n"
+                "*Generate* writes questions into the bank, then auto-builds a PDF per topic.\n"
                 "*Type myself* asks you for each stem and options.",
                 reply_markup=_kb(rows),
                 parse_mode="Markdown",
@@ -1024,7 +1079,18 @@ async def on_text(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         return
 
     if step == "pplx_topic":
-        f["topic"] = "" if text.lower() in {"skip", "/skip"} else text
+        if text.lower() in {"skip", "/skip"}:
+            topics = [specialty_label(f["department"], f["specialty"])]
+            f["topic"] = topics[0]
+        else:
+            topics = parse_topics(text)
+            if not topics:
+                await update.message.reply_text(
+                    "Send at least one topic (one per line, or separated by `;`), or `skip`."
+                )
+                return
+            f["topic"] = topics[0] if len(topics) == 1 else "; ".join(topics)
+        f["pdf_topics"] = topics
         await show_distribution_menu(update, context)
         return
 
