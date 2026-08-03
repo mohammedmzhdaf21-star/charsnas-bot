@@ -1,0 +1,10 @@
+{
+  "install": "pip3 install -r requirements.txt || true",
+  "start": "bash scripts/start_bot_supervisor.sh || true",
+  "terminals": [
+    {
+      "name": "bots-supervisor",
+      "command": "bash scripts/bot_supervisor.sh"
+    }
+  ]
+}

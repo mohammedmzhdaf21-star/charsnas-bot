@@ -1,0 +1,19 @@
+[Unit]
+Description=CharaNas Telegram bots supervisor (24/7)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/opt/charsnas-bot
+Environment=PYTHONUNBUFFERED=1
+# Adjust WorkingDirectory / User to your VPS paths.
+ExecStart=/bin/bash /opt/charsnas-bot/scripts/bot_supervisor.sh
+Restart=always
+RestartSec=5
+KillMode=mixed
+TimeoutStopSec=20
+
+[Install]
+WantedBy=multi-user.target

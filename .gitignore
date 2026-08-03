@@ -1,0 +1,39 @@
+.env
+dentistry/.env
+pharmacy/.env
+hub/.env
+mls/.env
+nursing/.env
+__pycache__/
+**/__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+bot.log
+dentistry/bot.log
+pharmacy/bot.log
+hub/bot.log
+mls/bot.log
+nursing/bot.log
+hub/channel_chat_id.txt
+hub/unlocked_users.json
+
+# daily Short MCQ usage
+data/
+**/data/daily_mcq_usage.json
+
+data/seen_questions.json
+**/data/seen_questions.json
+
+# Question input bot local files
+question_input/bot.log
+question_input/data/tmp/
+question_input/.env
+
+# Bot supervisor logs
+scripts/bots_ensure.log
+scripts/bots_supervisor.log
+
+# VPS deploy keys (never commit private keys)
+deploy/ssh/
