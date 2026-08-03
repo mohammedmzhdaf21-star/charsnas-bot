@@ -46,14 +46,14 @@ ssh_run "sudo mkdir -p '$REMOTE_DIR' && sudo chown \"\$USER\":\"\$USER\" '$REMOT
 if ssh_run "test -d '$REMOTE_DIR/.git'"; then
   ssh_run "cd '$REMOTE_DIR' && git fetch --all && git checkout main || true && git pull --ff-only || true"
 else
-  rsync -az --delete \
-    --exclude '.git' \
-    --exclude '__pycache__' \
-    --exclude '*.pyc' \
-    --exclude 'venv' \
-    --exclude '.venv' \
-    -e "ssh ${SSH_OPTS[*]}" \
-    "$ROOT/" "$TARGET:$REMOTE_DIR/"
+  tar -C "$ROOT" \
+    --exclude='.git' \
+    --exclude='__pycache__' \
+    --exclude='*.pyc' \
+    --exclude='venv' \
+    --exclude='.venv' \
+    --exclude='deploy/ssh' \
+    -czf - . | ssh "${SSH_OPTS[@]}" "$TARGET" "tar -C '$REMOTE_DIR' -xzf -"
 fi
 
 echo "==> Copying bot .env files (tokens)"
