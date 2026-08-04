@@ -894,6 +894,17 @@ async def on_error(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
 def main() -> None:
     log.info("Preparing PDFs…")
     ensure_pdfs(PDF_DIR)
+    from pdf_discovery import assert_generated_pdfs_discoverable, sync_generated_into_custom
+
+    mirrored = sync_generated_into_custom(PDF_DIR)
+    if mirrored:
+        log.info("Mirrored %s generated topic PDF(s) into custom/", len(mirrored))
+    pdf_counts = assert_generated_pdfs_discoverable(PDF_DIR)
+    if pdf_counts:
+        log.info(
+            "Generated topic PDFs discoverable: %s",
+            ", ".join(f"{k}={v}" for k, v in sorted(pdf_counts.items())),
+        )
     app = (
         Application.builder()
         .token(BOT_TOKEN)

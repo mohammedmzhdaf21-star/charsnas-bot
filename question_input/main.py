@@ -1331,6 +1331,28 @@ def main() -> None:
             "Missing QUESTION_INPUT_BOT_TOKEN. Create a bot with @BotFather, "
             "then put the token in question_input/.env"
         )
+    # Keep generated topic PDFs discoverable by every study bot (mirror → custom/).
+    try:
+        from pdf_discovery import sync_generated_into_custom
+    except ImportError:
+        import sys
+
+        root = Path(__file__).resolve().parents[1]
+        if str(root) not in sys.path:
+            sys.path.insert(0, str(root))
+        from pdf_discovery import sync_generated_into_custom
+
+    for dep in DEPARTMENTS.values():
+        pdf_dir = Path(dep["pdf_dir"])
+        if pdf_dir.exists():
+            mirrored = sync_generated_into_custom(pdf_dir)
+            if mirrored:
+                log.info(
+                    "Mirrored %s generated PDF(s) into %s/custom/",
+                    len(mirrored),
+                    pdf_dir,
+                )
+
     app = Application.builder().token(TOKEN).build()
     app.add_handler(CommandHandler("start", cmd_start))
     app.add_handler(CommandHandler("help", cmd_help))

@@ -997,7 +997,14 @@ async def on_error(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 
 def main() -> None:
-    from stages import assert_curricula_wired, ensure_curriculum_banks
+    import sys
+
+    repo_root = Path(__file__).resolve().parents[1]
+    if str(repo_root) not in sys.path:
+        sys.path.insert(0, str(repo_root))
+
+    from stages import PDF_FILE_MAP, assert_curricula_wired, ensure_curriculum_banks
+    from pdf_discovery import assert_generated_pdfs_discoverable, sync_generated_into_custom
 
     log.info("Ensuring every curriculum has a bank file…")
     created = ensure_curriculum_banks(BANKS_DIR)
@@ -1007,6 +1014,15 @@ def main() -> None:
     assert_curricula_wired(BANKS_DIR, SPECIALTIES)
     log.info("Preparing PDFs…")
     ensure_pdfs(PDF_DIR)
+    mirrored = sync_generated_into_custom(PDF_DIR)
+    if mirrored:
+        log.info("Mirrored %s generated topic PDF(s) into custom/", len(mirrored))
+    pdf_counts = assert_generated_pdfs_discoverable(PDF_DIR, also_key_map=dict(PDF_FILE_MAP))
+    if pdf_counts:
+        log.info(
+            "Generated topic PDFs discoverable: %s",
+            ", ".join(f"{k}={v}" for k, v in sorted(pdf_counts.items())),
+        )
     app = (
         Application.builder()
         .token(BOT_TOKEN)

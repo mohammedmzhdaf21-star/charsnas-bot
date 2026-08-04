@@ -148,42 +148,15 @@ def custom_pdf_paths(
     *,
     also_keys: list[str] | None = None,
 ) -> list[Path]:
-    """Return uploaded/generated PDFs for a specialty/curriculum.
+    """Return uploaded/generated PDFs for a specialty/curriculum."""
+    try:
+        from pdf_discovery import find_specialty_pdfs
+    except ImportError:  # pragma: no cover
+        import sys
 
-    Looks in:
-      - pdfs/custom/<key>/*.pdf
-      - pdfs/generated/<key>/*.pdf
-      - pdfs/generated/*/<key>/*.pdf   (stage/curriculum layout from Input bot)
-    """
-    root = Path(pdf_dir)
-    keys: list[str] = []
-    for key in [specialty_key, *(also_keys or [])]:
-        k = (key or "").strip()
-        if k and k not in keys:
-            keys.append(k)
-    found: list[Path] = []
-    seen: set[str] = set()
+        root = Path(__file__).resolve().parents[1]
+        if str(root) not in sys.path:
+            sys.path.insert(0, str(root))
+        from pdf_discovery import find_specialty_pdfs
+    return find_specialty_pdfs(pdf_dir, specialty_key, also_keys=also_keys)
 
-    def _add(path: Path) -> None:
-        if not path.is_file() or path.suffix.lower() != ".pdf":
-            return
-        resolved = str(path.resolve())
-        if resolved in seen:
-            return
-        seen.add(resolved)
-        found.append(path)
-
-    generated_root = root / "generated"
-    for key in keys:
-        custom_dir = root / "custom" / key
-        if custom_dir.is_dir():
-            for path in sorted(custom_dir.glob("*.pdf")):
-                _add(path)
-        direct_gen = generated_root / key
-        if direct_gen.is_dir():
-            for path in sorted(direct_gen.glob("*.pdf")):
-                _add(path)
-        if generated_root.is_dir():
-            for path in sorted(generated_root.glob(f"*/{key}/*.pdf")):
-                _add(path)
-    return found
