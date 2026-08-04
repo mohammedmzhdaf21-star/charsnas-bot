@@ -65,6 +65,7 @@ from content import (
 )
 from generate_pdfs import PDF_DIR, ensure_pdfs, pdf_for_specialty
 from bank_loader import custom_pdf_paths
+from stages import PDF_FILE_MAP, bank_stem
 from quiz_session import (
     COUNT_OPTIONS,
     DAILY_LIMIT,
@@ -668,19 +669,24 @@ async def send_pdfs(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
     path = pdf_for_specialty(specialty_key, PDF_DIR)
     label = specialty_label(specialty_key)
-    extras = custom_pdf_paths(PDF_DIR, specialty_key)
+    also = []
+    mapped = PDF_FILE_MAP.get(specialty_key) or bank_stem(specialty_key)
+    if mapped and mapped != specialty_key:
+        also.append(mapped)
+    extras = custom_pdf_paths(PDF_DIR, specialty_key, also_keys=also)
     if path is None and not extras:
         await safe_reply(
             update,
             f"📄 PDF notes for *{label}* are not uploaded yet.\n"
-            "Use the Question Input bot to add PDFs, or check back later.",
+            "Use the Question Input bot (**Generate Short MCQs + PDF**) to add topic PDFs, "
+            "or check back later.",
             reply_markup=feature_keyboard(),
         )
         return
     await safe_reply(
         update,
         f"📄 Sending *{label}* PDF study notes…"
-        + (f" (+{len(extras)} custom)" if extras else ""),
+        + (f" ({len(extras)} topic PDF{'s' if len(extras) != 1 else ''})" if extras else ""),
         reply_markup=feature_keyboard(),
     )
     if path is not None:
@@ -692,10 +698,15 @@ async def send_pdfs(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
             )
     for extra in extras:
         with extra.open("rb") as fh:
+            caption = (
+                f"Topic PDF — {label}"
+                if "generated" in extra.parts
+                else f"Custom PDF — {label}"
+            )
             await update.message.reply_document(
                 document=fh,
                 filename=extra.name,
-                caption=f"Custom PDF — {label}",
+                caption=caption,
             )
 
 

@@ -609,7 +609,7 @@ async def send_pdfs(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await safe_reply(
         update,
         f"📄 Sending *{label}* PDF study notes…"
-        + (f" (+{len(extras)} custom)" if extras else ""),
+        + (f" ({len(extras)} topic/custom PDF{'s' if len(extras) != 1 else ''})" if extras else ""),
         reply_markup=feature_keyboard(),
     )
     with path.open("rb") as fh:
@@ -623,7 +623,11 @@ async def send_pdfs(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
             await update.message.reply_document(
                 document=fh,
                 filename=extra.name,
-                caption=f"Custom PDF — {label}",
+                caption=(
+                    f"Topic PDF — {label}"
+                    if "generated" in extra.parts
+                    else f"Custom PDF — {label}"
+                ),
             )
 
 

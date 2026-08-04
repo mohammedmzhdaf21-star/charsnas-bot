@@ -142,8 +142,48 @@ def reload_department_content(
         apply_custom_content(specialties, custom_dir)
 
 
-def custom_pdf_paths(pdf_dir: Path | str, specialty_key: str) -> list[Path]:
-    folder = Path(pdf_dir) / "custom" / specialty_key
-    if not folder.is_dir():
-        return []
-    return sorted(folder.glob("*.pdf"))
+def custom_pdf_paths(
+    pdf_dir: Path | str,
+    specialty_key: str,
+    *,
+    also_keys: list[str] | None = None,
+) -> list[Path]:
+    """Return uploaded/generated PDFs for a specialty/curriculum.
+
+    Looks in:
+      - pdfs/custom/<key>/*.pdf
+      - pdfs/generated/<key>/*.pdf
+      - pdfs/generated/*/<key>/*.pdf   (stage/curriculum layout from Input bot)
+    """
+    root = Path(pdf_dir)
+    keys: list[str] = []
+    for key in [specialty_key, *(also_keys or [])]:
+        k = (key or "").strip()
+        if k and k not in keys:
+            keys.append(k)
+    found: list[Path] = []
+    seen: set[str] = set()
+
+    def _add(path: Path) -> None:
+        if not path.is_file() or path.suffix.lower() != ".pdf":
+            return
+        resolved = str(path.resolve())
+        if resolved in seen:
+            return
+        seen.add(resolved)
+        found.append(path)
+
+    generated_root = root / "generated"
+    for key in keys:
+        custom_dir = root / "custom" / key
+        if custom_dir.is_dir():
+            for path in sorted(custom_dir.glob("*.pdf")):
+                _add(path)
+        direct_gen = generated_root / key
+        if direct_gen.is_dir():
+            for path in sorted(direct_gen.glob("*.pdf")):
+                _add(path)
+        if generated_root.is_dir():
+            for path in sorted(generated_root.glob(f"*/{key}/*.pdf")):
+                _add(path)
+    return found
