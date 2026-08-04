@@ -241,8 +241,12 @@ def save_generated_topic_pdf(
     slide_count: int = 0,
     source: str = "perplexity",
 ) -> Path:
-    """Save a generated topic PDF under pdfs/generated/<stage?>/<specialty>/."""
-    pdf_root = department_paths(field)["pdf_dir"] / "generated"
+    """Save a generated topic PDF under pdfs/generated/ and mirror into pdfs/custom/.
+
+    Dual-write keeps study-bot PDF menus working even if a caller only scans custom/.
+    """
+    pdf_base = department_paths(field)["pdf_dir"]
+    pdf_root = pdf_base / "generated"
     if stage:
         pdf_dir = pdf_root / stage / specialty
     else:
@@ -254,11 +258,20 @@ def save_generated_topic_pdf(
     if dest.exists():
         dest = pdf_dir / f"{dest.stem}_{int(datetime.now().timestamp())}.pdf"
     shutil.copy2(src_path, dest)
+
+    # Mirror into custom/<specialty>/ so discovery cannot silently miss generated files.
+    custom_dir = pdf_base / "custom" / specialty
+    custom_dir.mkdir(parents=True, exist_ok=True)
+    custom_dest = custom_dir / dest.name
+    if not custom_dest.exists():
+        shutil.copy2(dest, custom_dest)
+
     meta_path = department_paths(field)["custom_dir"] / "pdfs" / f"{specialty}.json"
     meta = _read_json(meta_path, [])
     meta.append(
         {
-            "file": str(dest.relative_to(department_paths(field)["pdf_dir"])),
+            "file": str(dest.relative_to(pdf_base)),
+            "custom_file": str(custom_dest.relative_to(pdf_base)),
             "original_name": dest.name,
             "topic": topic,
             "stage": stage or None,

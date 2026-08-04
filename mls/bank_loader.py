@@ -142,8 +142,21 @@ def reload_department_content(
         apply_custom_content(specialties, custom_dir)
 
 
-def custom_pdf_paths(pdf_dir: Path | str, specialty_key: str) -> list[Path]:
-    folder = Path(pdf_dir) / "custom" / specialty_key
-    if not folder.is_dir():
-        return []
-    return sorted(folder.glob("*.pdf"))
+def custom_pdf_paths(
+    pdf_dir: Path | str,
+    specialty_key: str,
+    *,
+    also_keys: list[str] | None = None,
+) -> list[Path]:
+    """Return uploaded/generated PDFs for a specialty/curriculum."""
+    try:
+        from pdf_discovery import find_specialty_pdfs
+    except ImportError:  # pragma: no cover
+        import sys
+
+        root = Path(__file__).resolve().parents[1]
+        if str(root) not in sys.path:
+            sys.path.insert(0, str(root))
+        from pdf_discovery import find_specialty_pdfs
+    return find_specialty_pdfs(pdf_dir, specialty_key, also_keys=also_keys)
+

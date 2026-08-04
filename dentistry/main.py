@@ -65,6 +65,7 @@ from content import (
 )
 from generate_pdfs import PDF_DIR, ensure_pdfs, pdf_for_specialty
 from bank_loader import custom_pdf_paths
+from stages import PDF_FILE_MAP, bank_stem
 from quiz_session import (
     COUNT_OPTIONS,
     DAILY_LIMIT,
@@ -668,19 +669,24 @@ async def send_pdfs(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
     path = pdf_for_specialty(specialty_key, PDF_DIR)
     label = specialty_label(specialty_key)
-    extras = custom_pdf_paths(PDF_DIR, specialty_key)
+    also = []
+    mapped = PDF_FILE_MAP.get(specialty_key) or bank_stem(specialty_key)
+    if mapped and mapped != specialty_key:
+        also.append(mapped)
+    extras = custom_pdf_paths(PDF_DIR, specialty_key, also_keys=also)
     if path is None and not extras:
         await safe_reply(
             update,
             f"📄 PDF notes for *{label}* are not uploaded yet.\n"
-            "Use the Question Input bot to add PDFs, or check back later.",
+            "Use the Question Input bot (**Generate Short MCQs + PDF**) to add topic PDFs, "
+            "or check back later.",
             reply_markup=feature_keyboard(),
         )
         return
     await safe_reply(
         update,
         f"📄 Sending *{label}* PDF study notes…"
-        + (f" (+{len(extras)} custom)" if extras else ""),
+        + (f" ({len(extras)} topic PDF{'s' if len(extras) != 1 else ''})" if extras else ""),
         reply_markup=feature_keyboard(),
     )
     if path is not None:
@@ -692,10 +698,15 @@ async def send_pdfs(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
             )
     for extra in extras:
         with extra.open("rb") as fh:
+            caption = (
+                f"Topic PDF — {label}"
+                if "generated" in extra.parts
+                else f"Custom PDF — {label}"
+            )
             await update.message.reply_document(
                 document=fh,
                 filename=extra.name,
-                caption=f"Custom PDF — {label}",
+                caption=caption,
             )
 
 
@@ -986,7 +997,14 @@ async def on_error(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 
 def main() -> None:
-    from stages import assert_curricula_wired, ensure_curriculum_banks
+    import sys
+
+    repo_root = Path(__file__).resolve().parents[1]
+    if str(repo_root) not in sys.path:
+        sys.path.insert(0, str(repo_root))
+
+    from stages import PDF_FILE_MAP, assert_curricula_wired, ensure_curriculum_banks
+    from pdf_discovery import assert_generated_pdfs_discoverable, sync_generated_into_custom
 
     log.info("Ensuring every curriculum has a bank file…")
     created = ensure_curriculum_banks(BANKS_DIR)
@@ -996,6 +1014,15 @@ def main() -> None:
     assert_curricula_wired(BANKS_DIR, SPECIALTIES)
     log.info("Preparing PDFs…")
     ensure_pdfs(PDF_DIR)
+    mirrored = sync_generated_into_custom(PDF_DIR)
+    if mirrored:
+        log.info("Mirrored %s generated topic PDF(s) into custom/", len(mirrored))
+    pdf_counts = assert_generated_pdfs_discoverable(PDF_DIR, also_key_map=dict(PDF_FILE_MAP))
+    if pdf_counts:
+        log.info(
+            "Generated topic PDFs discoverable: %s",
+            ", ".join(f"{k}={v}" for k, v in sorted(pdf_counts.items())),
+        )
     app = (
         Application.builder()
         .token(BOT_TOKEN)
