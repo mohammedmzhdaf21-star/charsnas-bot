@@ -35,23 +35,33 @@ def find_specialty_pdfs(
     *,
     also_keys: list[str] | None = None,
 ) -> list[Path]:
-    """Return all PDFs for a specialty/curriculum (custom + generated)."""
+    """Return all PDFs for a specialty/curriculum (custom + generated).
+
+    Deduplicates by filename so a mirrored custom/ copy of the same generated
+    topic deck is not returned twice.
+    """
     root = Path(pdf_dir)
     keys = specialty_pdf_keys(specialty_key, also_keys)
     found: list[Path] = []
-    seen: set[str] = set()
+    seen_names: set[str] = set()
+    seen_resolved: set[str] = set()
 
     def _add(path: Path) -> None:
         if not path.is_file() or path.suffix.lower() != ".pdf":
             return
         resolved = str(path.resolve())
-        if resolved in seen:
+        if resolved in seen_resolved:
             return
-        seen.add(resolved)
+        name_key = path.name.lower()
+        if name_key in seen_names:
+            return
+        seen_resolved.add(resolved)
+        seen_names.add(name_key)
         found.append(path)
 
     generated_root = root / "generated"
     for key in keys:
+        # Prefer custom/ first (includes mirrored generated decks).
         custom_dir = root / "custom" / key
         if custom_dir.is_dir():
             for path in sorted(custom_dir.glob("*.pdf")):
@@ -133,15 +143,13 @@ def assert_generated_pdfs_discoverable(
             if mapped and mapped != specialty:
                 also.append(mapped)
         found = find_specialty_pdfs(root, specialty, also_keys=also)
-        found_set = {p.resolve() for p in found}
+        found_names = {p.name.lower() for p in found}
         for path in paths:
-            if path.resolve() not in found_set:
-                # After sync, custom copy may be the discoverable one — accept either
-                custom_copy = root / "custom" / specialty / path.name
-                if custom_copy.resolve() in found_set or custom_copy.exists():
-                    continue
-                missing.append(str(path))
-        counts[specialty] = len(find_specialty_pdfs(root, specialty, also_keys=also))
+            custom_copy = root / "custom" / specialty / path.name
+            if path.name.lower() in found_names or custom_copy.exists():
+                continue
+            missing.append(str(path))
+        counts[specialty] = len(found)
 
     if missing:
         raise RuntimeError(
