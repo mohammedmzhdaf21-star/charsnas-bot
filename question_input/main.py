@@ -22,6 +22,7 @@ try:
     from catalog import (
         CASE_DIFFICULTIES,
         CONTENT_TYPES,
+        DELETE_KINDS,
         DEPARTMENTS,
         DIFFICULTIES,
         department_stages,
@@ -46,6 +47,12 @@ try:
         append_case,
         append_short_mcq,
         bank_counts,
+        delete_book,
+        delete_pdf,
+        delete_short_mcq,
+        list_bank_questions,
+        list_books,
+        list_specialty_pdfs,
         load_bank,
         save_generated_topic_pdf,
         save_pdf,
@@ -54,6 +61,7 @@ except ImportError:  # pragma: no cover
     from question_input.catalog import (
         CASE_DIFFICULTIES,
         CONTENT_TYPES,
+        DELETE_KINDS,
         DEPARTMENTS,
         DIFFICULTIES,
         department_stages,
@@ -83,10 +91,18 @@ except ImportError:  # pragma: no cover
         append_case,
         append_short_mcq,
         bank_counts,
+        delete_book,
+        delete_pdf,
+        delete_short_mcq,
+        list_bank_questions,
+        list_books,
+        list_specialty_pdfs,
         load_bank,
         save_generated_topic_pdf,
         save_pdf,
     )
+
+DELETE_PAGE_SIZE = 8
 
 logging.basicConfig(
     format="%(asctime)s %(levelname)s %(name)s: %(message)s",
@@ -120,6 +136,18 @@ def _allowed(user_id: int | None) -> bool:
 def _kb(rows: list[list[tuple[str, str]]]) -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(
         [[InlineKeyboardButton(text, callback_data=data) for text, data in row] for row in rows]
+    )
+
+
+def _md_escape(text: str) -> str:
+    """Escape Telegram legacy Markdown special characters in user content."""
+    return (
+        str(text or "")
+        .replace("\\", "\\\\")
+        .replace("_", "\\_")
+        .replace("*", "\\*")
+        .replace("`", "\\`")
+        .replace("[", "\\[")
     )
 
 
@@ -160,10 +188,11 @@ async def cmd_start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     rows.append([("Cancel", "cancel")])
     await update.message.reply_text(
         "CharaNas *Question Input*\n\n"
-        "What do you want to add into a department bot?\n\n"
+        "What do you want to do?\n\n"
         "• *Generate Short MCQs (auto-save)* — Perplexity writes questions + auto PDF per topic\n"
         "• *Generate topic PDF slides* — PDF only (if you already have the MCQs)\n"
-        "• *Type Short MCQs myself* — you enter stem/options one by one",
+        "• *Type Short MCQs myself* — you enter stem/options one by one\n"
+        "• *Delete question / PDF / book* — remove something already saved",
         reply_markup=_kb(rows),
         parse_mode="Markdown",
     )
@@ -177,8 +206,10 @@ async def cmd_cancel(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None
 async def cmd_help(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     pplx = "ready" if perplexity_configured() else "missing PERPLEXITY_API_KEY"
     await update.message.reply_text(
-        "Use /start to add content.\n\n"
+        "Use /start to add or delete content.\n\n"
         "Manual flow: Short MCQ / Case / PDF / Book → department → specialty → enter items.\n\n"
+        "Delete flow: Delete question / PDF / book → choose kind → department → "
+        "specialty → pick the item → confirm.\n\n"
         "Perplexity Short MCQs (+ auto PDF):\n"
         "1) Generate Short MCQs\n"
         "2) department → stage/curriculum → count → topic(s) → difficulty mix\n"
@@ -191,12 +222,18 @@ async def cmd_help(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 async def show_departments(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     rows = [[(dep["label"], f"dept:{key}")] for key, dep in DEPARTMENTS.items()]
-    rows.append([("⟵ Back", "back:type"), ("Cancel", "cancel")])
     f = flow(context)
-    ctype = dict(CONTENT_TYPES).get(f.get("content_type", ""), "content")
+    back = "back:delete_kind" if _is_delete_flow(f) else "back:type"
+    rows.append([("⟵ Back", back), ("Cancel", "cancel")])
+    if _is_delete_flow(f):
+        ctype = _delete_kind_label(f.get("delete_kind"))
+        prompt = "Which department should we delete from?"
+    else:
+        ctype = dict(CONTENT_TYPES).get(f.get("content_type", ""), "content")
+        prompt = "Which department should receive this?"
     await safe_edit_or_reply(
         update,
-        f"*{ctype}*\n\nWhich department should receive this?",
+        f"*{ctype}*\n\n{prompt}",
         reply_markup=_kb(rows),
     )
 
@@ -292,6 +329,201 @@ def _path_label(f: dict) -> str:
 
 def _is_mcq_type(ctype: str | None) -> bool:
     return ctype in {"short_mcq", "perplexity_mcq"}
+
+
+def _is_delete_flow(f: dict) -> bool:
+    return f.get("content_type") == "delete_content"
+
+
+def _delete_kind_label(kind: str | None) -> str:
+    return dict(DELETE_KINDS).get(kind or "", "item")
+
+
+async def show_delete_kinds(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    f = flow(context)
+    f["content_type"] = "delete_content"
+    f["step"] = "delete_kind"
+    rows = [[(label, f"delkind:{key}")] for key, label in DELETE_KINDS]
+    rows.append([("⟵ Back", "back:type"), ("Cancel", "cancel")])
+    await safe_edit_or_reply(
+        update,
+        "*Delete content*\n\nWhat do you want to remove?",
+        reply_markup=_kb(rows),
+    )
+
+
+async def show_delete_difficulty(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    f = flow(context)
+    f["step"] = "delete_diff"
+    rows = [[("All difficulties", "deldiff:all")]]
+    rows.extend([[(label, f"deldiff:{key}")] for key, label in DIFFICULTIES])
+    rows.append([("⟵ Back", _back_to_target_after_specialty(f["department"])), ("Cancel", "cancel")])
+    await safe_edit_or_reply(
+        update,
+        f"*Delete Short MCQ*\n*{_path_label(f)}*\n\n"
+        "Filter by difficulty:",
+        reply_markup=_kb(rows),
+    )
+
+
+def _load_delete_items(f: dict) -> list[dict]:
+    kind = f.get("delete_kind")
+    dept = f["department"]
+    spec = f["specialty"]
+    if kind == "question":
+        diff = f.get("delete_diff") or "all"
+        return list_bank_questions(dept, spec, difficulty=None if diff == "all" else diff)
+    if kind == "pdf":
+        return list_specialty_pdfs(dept, spec)
+    if kind == "book":
+        return [{"title": t, "preview": t if len(t) <= 60 else t[:57] + "…"} for t in list_books(dept, spec)]
+    return []
+
+
+async def show_delete_list(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    f = flow(context)
+    f["step"] = "delete_list"
+    items = _load_delete_items(f)
+    f["delete_items"] = items
+    page = int(f.get("delete_page") or 0)
+    page_size = DELETE_PAGE_SIZE
+    total = len(items)
+    max_page = max(0, (total - 1) // page_size) if total else 0
+    if page > max_page:
+        page = max_page
+        f["delete_page"] = page
+    start = page * page_size
+    chunk = items[start : start + page_size]
+
+    kind = f.get("delete_kind")
+    kind_label = _delete_kind_label(kind)
+    flash = f.pop("delete_flash", None)
+    flash_line = f"✅ {_md_escape(flash)}\n\n" if flash else ""
+    if total == 0:
+        tip = {
+            "question": "No Short MCQs in this bank (for the selected difficulty).",
+            "pdf": "No custom/generated PDFs found for this specialty.",
+            "book": "No custom book sources saved for this specialty.\n"
+            "(Hardcoded study-bot defaults cannot be deleted here.)",
+        }.get(kind or "", "Nothing to delete.")
+        rows = [[("⟵ Back", "back:delete_filter"), ("Cancel", "cancel")]]
+        await safe_edit_or_reply(
+            update,
+            f"*{kind_label}*\n*{_path_label(f)}*\n\n{flash_line}{tip}\n\nSend /start when done.",
+            reply_markup=_kb(rows),
+        )
+        return
+
+    rows: list[list[tuple[str, str]]] = []
+    for i, item in enumerate(chunk):
+        idx = start + i
+        if kind == "question":
+            label = f"[{item.get('difficulty', '?')}] {item.get('preview') or item.get('id')}"
+        elif kind == "pdf":
+            label = f"[{item.get('kind', 'pdf')}] {item.get('preview') or item.get('name')}"
+        else:
+            label = item.get("preview") or item.get("title") or f"Item {idx + 1}"
+        if len(label) > 60:
+            label = label[:57] + "…"
+        rows.append([(label, f"delitem:{idx}")])
+
+    nav: list[tuple[str, str]] = []
+    if page > 0:
+        nav.append(("⟵ Prev", f"delpage:{page - 1}"))
+    if page < max_page:
+        nav.append(("Next ⟶", f"delpage:{page + 1}"))
+    if nav:
+        rows.append(nav)
+    rows.append([("⟵ Back", "back:delete_filter"), ("Cancel", "cancel")])
+
+    await safe_edit_or_reply(
+        update,
+        f"*{kind_label}*\n*{_path_label(f)}*\n\n"
+        f"{flash_line}"
+        f"Select an item to delete ({total} total, page {page + 1}/{max_page + 1}):",
+        reply_markup=_kb(rows),
+    )
+
+
+async def show_delete_confirm(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    f = flow(context)
+    items = f.get("delete_items") or []
+    idx = int(f.get("delete_index", -1))
+    if not (0 <= idx < len(items)):
+        await show_delete_list(update, context)
+        return
+    item = items[idx]
+    kind = f.get("delete_kind")
+    f["step"] = "delete_confirm"
+    if kind == "question":
+        detail = (
+            f"Difficulty: *{item.get('difficulty')}*\n"
+            f"Id: `{item.get('id')}`\n\n"
+            f"{_md_escape(item.get('question') or '')}"
+        )
+    elif kind == "pdf":
+        detail = (
+            f"File: `{item.get('name')}`\n"
+            f"Kind: *{item.get('kind')}*\n"
+            f"Path: `{item.get('rel')}`\n\n"
+            "Deletes both custom and generated copies with this filename."
+        )
+    else:
+        detail = f"Book title:\n*{_md_escape(item.get('title') or '')}*"
+    rows = [
+        [("Yes, delete", "delconfirm:yes")],
+        [("No, go back", "delconfirm:no")],
+        [("Cancel", "cancel")],
+    ]
+    await safe_edit_or_reply(
+        update,
+        f"*Confirm delete*\n*{_path_label(f)}*\n\n{detail}",
+        reply_markup=_kb(rows),
+    )
+
+
+async def perform_delete(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    f = flow(context)
+    items = f.get("delete_items") or []
+    idx = int(f.get("delete_index", -1))
+    if not (0 <= idx < len(items)):
+        await show_delete_list(update, context)
+        return
+    item = items[idx]
+    kind = f.get("delete_kind")
+    dept = f["department"]
+    spec = f["specialty"]
+    flash = "Nothing was deleted."
+    if kind == "question":
+        removed = delete_short_mcq(dept, spec, str(item.get("id") or ""))
+        if removed:
+            stem = (removed.get("question") or "")[:120]
+            flash = f"Deleted Short MCQ: {stem}"
+        else:
+            flash = "That question was already gone."
+    elif kind == "pdf":
+        removed_paths = delete_pdf(dept, spec, str(item.get("name") or ""))
+        if removed_paths:
+            flash = "Deleted PDF: " + ", ".join(p.name for p in removed_paths[:4])
+        else:
+            flash = "That PDF was already gone."
+    elif kind == "book":
+        ok = delete_book(dept, spec, str(item.get("title") or ""))
+        flash = (
+            f"Deleted book source: {item.get('title')}"
+            if ok
+            else "That book was already gone."
+        )
+
+    f.pop("delete_index", None)
+    f["delete_flash"] = flash
+    # Keep page in range after removal
+    page = int(f.get("delete_page") or 0)
+    remaining = max(0, len(items) - 1)
+    max_page = max(0, (remaining - 1) // DELETE_PAGE_SIZE) if remaining else 0
+    if page > max_page:
+        f["delete_page"] = max_page
+    await show_delete_list(update, context)
 
 
 async def ask_count(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -899,12 +1131,29 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         rows = [[(label, f"type:{key}")] for key, label in CONTENT_TYPES]
         rows.append([("Cancel", "cancel")])
         await query.edit_message_text(
-            "What do you want to add into a department bot?\n\n"
+            "What do you want to do?\n\n"
             "• Generate Short MCQs (auto-save) — MCQs + auto PDF per topic\n"
             "• Generate topic PDF slides — PDF only\n"
-            "• Type Short MCQs myself — enter stem/options manually",
+            "• Type Short MCQs myself — enter stem/options manually\n"
+            "• Delete question / PDF / book — remove saved content",
             reply_markup=_kb(rows),
         )
+        return
+
+    if data == "back:delete_kind":
+        await show_delete_kinds(update, context)
+        return
+
+    if data == "back:delete_filter":
+        if f.get("delete_kind") == "question":
+            await show_delete_difficulty(update, context)
+        else:
+            # Back to specialty/curriculum picker
+            f.pop("specialty", None)
+            if uses_stages(f.get("department", "")) and f.get("stage"):
+                await show_curricula(update, context)
+            else:
+                await show_specialties(update, context)
         return
 
     if data == "back:dept":
@@ -939,6 +1188,9 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
             )
             clear_flow(context)
             return
+        if ctype == "delete_content":
+            await show_delete_kinds(update, context)
+            return
         if ctype == "short_mcq":
             # Offer generate vs manual so users don't land on stem entry by mistake
             f["step"] = "mcq_mode"
@@ -958,6 +1210,55 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
         f["content_type"] = ctype
         f["step"] = "department"
         await show_departments(update, context)
+        return
+
+    if data.startswith("delkind:"):
+        kind = data.split(":", 1)[1]
+        if kind not in dict(DELETE_KINDS):
+            await query.edit_message_text("Unknown delete type. Send /start.")
+            clear_flow(context)
+            return
+        f["content_type"] = "delete_content"
+        f["delete_kind"] = kind
+        f.pop("delete_diff", None)
+        f.pop("delete_items", None)
+        f.pop("delete_page", None)
+        f.pop("delete_index", None)
+        f["step"] = "department"
+        await show_departments(update, context)
+        return
+
+    if data.startswith("deldiff:"):
+        diff = data.split(":", 1)[1]
+        f["delete_diff"] = diff
+        f["delete_page"] = 0
+        await show_delete_list(update, context)
+        return
+
+    if data.startswith("delpage:"):
+        try:
+            f["delete_page"] = int(data.split(":", 1)[1])
+        except ValueError:
+            f["delete_page"] = 0
+        await show_delete_list(update, context)
+        return
+
+    if data.startswith("delitem:"):
+        try:
+            f["delete_index"] = int(data.split(":", 1)[1])
+        except ValueError:
+            await show_delete_list(update, context)
+            return
+        await show_delete_confirm(update, context)
+        return
+
+    if data == "delconfirm:no":
+        f.pop("delete_index", None)
+        await show_delete_list(update, context)
+        return
+
+    if data == "delconfirm:yes":
+        await perform_delete(update, context)
         return
 
     if data == "mcqmode:manual":
@@ -988,6 +1289,14 @@ async def on_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
     if data.startswith("spec:"):
         f["specialty"] = data.split(":", 1)[1]
         ctype = f.get("content_type")
+        if ctype == "delete_content":
+            f["delete_page"] = 0
+            f.pop("delete_index", None)
+            if f.get("delete_kind") == "question":
+                await show_delete_difficulty(update, context)
+            else:
+                await show_delete_list(update, context)
+            return
         if ctype == "perplexity_mcq":
             # Form continues: count → topic → difficulty distribution
             await ask_count(update, context)

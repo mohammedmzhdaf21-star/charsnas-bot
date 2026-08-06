@@ -28,6 +28,12 @@ __all__ = [
     "save_generated_topic_pdf",
     "bank_counts",
     "load_bank",
+    "list_bank_questions",
+    "delete_short_mcq",
+    "list_books",
+    "delete_book",
+    "list_specialty_pdfs",
+    "delete_pdf",
 ]
 
 
@@ -287,3 +293,184 @@ def save_generated_topic_pdf(
 def bank_counts(field: str, specialty: str) -> dict[str, int]:
     bank = load_bank(field, specialty)
     return {d: len(bank.get(d) or []) for d in DIFFICULTIES}
+
+
+def list_bank_questions(
+    field: str,
+    specialty: str,
+    *,
+    difficulty: str | None = None,
+) -> list[dict[str, Any]]:
+    """List Short MCQs for delete UI. difficulty=None means all levels."""
+    bank = load_bank(field, specialty)
+    levels = DIFFICULTIES if not difficulty or difficulty == "all" else (difficulty,)
+    out: list[dict[str, Any]] = []
+    for diff in levels:
+        if diff not in DIFFICULTIES:
+            continue
+        for item in bank.get(diff) or []:
+            if not isinstance(item, dict):
+                continue
+            qid = str(item.get("id") or "").strip()
+            stem = str(item.get("question") or "").strip()
+            if not qid and not stem:
+                continue
+            out.append(
+                {
+                    "id": qid or f"{specialty}:{diff}:anon:{len(out)}",
+                    "difficulty": diff,
+                    "question": stem,
+                    "source": str(item.get("source") or ""),
+                    "preview": (stem[:72] + "…") if len(stem) > 72 else stem,
+                }
+            )
+    return out
+
+
+def delete_short_mcq(field: str, specialty: str, question_id: str) -> dict[str, Any] | None:
+    """Remove one Short MCQ by id. Returns the removed item, or None if not found."""
+    qid = (question_id or "").strip()
+    if not qid:
+        return None
+    stem = _bank_stem(field, specialty)
+    bank = load_bank(field, specialty)
+    removed: dict[str, Any] | None = None
+    for diff in DIFFICULTIES:
+        items = bank.get(diff) or []
+        keep: list[dict] = []
+        for item in items:
+            if not isinstance(item, dict):
+                continue
+            if removed is None and str(item.get("id") or "").strip() == qid:
+                removed = item
+                continue
+            keep.append(item)
+        bank[diff] = keep
+    if removed is None:
+        return None
+    path = department_paths(field)["banks_dir"] / f"{stem}.json"
+    _write_json(path, bank)
+    return removed
+
+
+def list_books(field: str, specialty: str) -> list[str]:
+    """Custom book titles only (not hardcoded study-bot defaults)."""
+    custom_dir = department_paths(field)["custom_dir"]
+    path = custom_dir / "books" / f"{specialty}.json"
+    data = _read_json(path, [])
+    if not isinstance(data, list):
+        return []
+    return [str(t).strip() for t in data if str(t).strip()]
+
+
+def delete_book(field: str, specialty: str, title: str) -> bool:
+    """Remove one custom book title. Returns True if something was removed."""
+    title = (title or "").strip()
+    if not title:
+        return False
+    custom_dir = department_paths(field)["custom_dir"]
+    path = custom_dir / "books" / f"{specialty}.json"
+    data = _read_json(path, [])
+    if not isinstance(data, list):
+        data = []
+    new_data = [str(t) for t in data if str(t).strip() != title]
+    if len(new_data) == len(data):
+        return False
+    _write_json(path, new_data)
+    return True
+
+
+def list_specialty_pdfs(field: str, specialty: str) -> list[dict[str, Any]]:
+    """List discoverable custom/generated PDFs for a specialty (deduped by name)."""
+    try:
+        from pdf_discovery import find_specialty_pdfs
+    except ImportError:  # pragma: no cover
+        import sys
+
+        root = Path(__file__).resolve().parents[1]
+        if str(root) not in sys.path:
+            sys.path.insert(0, str(root))
+        from pdf_discovery import find_specialty_pdfs
+
+    pdf_dir = department_paths(field)["pdf_dir"]
+    paths = find_specialty_pdfs(pdf_dir, specialty)
+    out: list[dict[str, Any]] = []
+    for path in paths:
+        try:
+            rel = str(path.relative_to(pdf_dir))
+        except ValueError:
+            rel = path.name
+        parts = Path(rel).parts
+        kind = "generated" if parts and parts[0] == "generated" else "custom"
+        out.append(
+            {
+                "name": path.name,
+                "path": str(path),
+                "rel": rel,
+                "kind": kind,
+                "preview": path.name if len(path.name) <= 60 else path.name[:57] + "…",
+            }
+        )
+    return out
+
+
+def delete_pdf(field: str, specialty: str, filename: str) -> list[Path]:
+    """Delete a specialty PDF everywhere it appears (custom + generated mirrors).
+
+    Also prunes matching rows from custom_content/pdfs/{specialty}.json.
+    Returns the list of paths that were removed.
+    """
+    name = Path(filename or "").name
+    if not name or not name.lower().endswith(".pdf"):
+        return []
+
+    pdf_base = department_paths(field)["pdf_dir"]
+    removed: list[Path] = []
+    seen: set[str] = set()
+
+    candidates: list[Path] = [
+        pdf_base / "custom" / specialty / name,
+    ]
+    gen_root = pdf_base / "generated"
+    direct = gen_root / specialty / name
+    candidates.append(direct)
+    if gen_root.is_dir():
+        for path in gen_root.glob(f"*/{specialty}/{name}"):
+            candidates.append(path)
+        # Also catch any deeper/other copies with the same filename under this specialty tree
+        for path in gen_root.rglob(name):
+            if specialty in path.parts:
+                candidates.append(path)
+    custom_copies = pdf_base / "custom" / specialty
+    if custom_copies.is_dir():
+        candidates.append(custom_copies / name)
+
+    for path in candidates:
+        try:
+            resolved = str(path.resolve())
+        except OSError:
+            continue
+        if resolved in seen:
+            continue
+        seen.add(resolved)
+        if path.is_file():
+            path.unlink()
+            removed.append(path)
+
+    meta_path = department_paths(field)["custom_dir"] / "pdfs" / f"{specialty}.json"
+    meta = _read_json(meta_path, [])
+    if isinstance(meta, list) and meta:
+        pruned = []
+        for row in meta:
+            if not isinstance(row, dict):
+                continue
+            file_val = str(row.get("file") or "")
+            custom_val = str(row.get("custom_file") or "")
+            original = str(row.get("original_name") or "")
+            if Path(file_val).name == name or Path(custom_val).name == name or original == name:
+                continue
+            pruned.append(row)
+        if len(pruned) != len(meta):
+            _write_json(meta_path, pruned)
+
+    return removed
