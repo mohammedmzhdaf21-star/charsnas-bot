@@ -525,7 +525,8 @@ async def generate_topic_pdfs_for_flow(
             update,
             f"Also generating *{len(topics)}* topic PDF(s) for\n*{_path_label(f)}*\n\n"
             "Each deck is 15–20 IMB slides with schematic figures + centered logo watermark.\n"
-            "This can take a few minutes…",
+            "Large topics (e.g. Hypertension) can take *several minutes* — the bot retries "
+            "automatically if Perplexity times out. Please wait…",
             markdown=True,
         )
     saved_paths: list[str] = []

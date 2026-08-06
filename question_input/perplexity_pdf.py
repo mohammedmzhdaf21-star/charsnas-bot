@@ -254,6 +254,25 @@ def validate_slide_deck(
     }
 
 
+def _pdf_timeout() -> "httpx.Timeout":
+    # Topic decks are large (15–20 detailed slides); default read wait is 7 minutes.
+    read_s = float(os.getenv("PERPLEXITY_PDF_TIMEOUT", "420") or "420")
+    return httpx.Timeout(connect=30.0, read=read_s, write=60.0, pool=30.0)
+
+
+def _post_pdf(api_url: str, headers: dict[str, str], payload: dict[str, Any]):
+    try:
+        with httpx.Client(timeout=_pdf_timeout()) as client:
+            return client.post(api_url, headers=headers, json=payload)
+    except httpx.TimeoutException as exc:
+        raise PerplexityError(
+            "Perplexity timed out while writing the slide deck. "
+            "Retrying automatically; large topics can take several minutes."
+        ) from exc
+    except httpx.HTTPError as exc:
+        raise PerplexityError(f"Perplexity network error: {exc}") from exc
+
+
 def generate_topic_slides(
     *,
     department_key: str,
@@ -264,7 +283,10 @@ def generate_topic_slides(
     stage_key: str = "",
     stage_label: str = "",
 ) -> dict[str, Any]:
-    """Call Perplexity (with search) and return a normalized 15–20 slide deck."""
+    """Call Perplexity (with search) and return a normalized 15–20 slide deck.
+
+    Uses a long read timeout and retries on timeout / schema rejection.
+    """
     key = api_key()
     if not key:
         raise PerplexityError(
@@ -276,7 +298,7 @@ def generate_topic_slides(
 
     api_url = (os.getenv("PERPLEXITY_API_URL") or DEFAULT_API_URL).strip()
     model = (os.getenv("PERPLEXITY_MODEL") or DEFAULT_MODEL).strip()
-    prompt = _build_prompt(
+    base_prompt = _build_prompt(
         department_key=department_key,
         department_label=department_label,
         stage_key=stage_key,
@@ -285,81 +307,130 @@ def generate_topic_slides(
         specialty_label=specialty_label,
         topic=topic,
     )
-
-    payload: dict[str, Any] = {
-        "model": model,
-        "temperature": 0.2,
-        "messages": [
-            {
-                "role": "system",
-                "content": (
-                    "You are an IMB (Iraqi Medical Board) medical/dental education writer for CharaNas. "
-                    "Write detailed, up-to-date teaching slides as strict JSON only. No markdown."
-                ),
-            },
-            {"role": "user", "content": prompt},
-        ],
-        "response_format": {
-            "type": "json_schema",
-            "json_schema": SLIDE_BATCH_SCHEMA,
-        },
-    }
-    # Keep web search ON so newest guideline themes can inform content.
-    if "sonar" in model.lower() and os.getenv("PERPLEXITY_PDF_DISABLE_SEARCH", "").strip() in {
-        "1",
-        "true",
-        "yes",
-    }:
-        payload["disable_search"] = True
-
+    system_msg = (
+        "You are an IMB (Iraqi Medical Board) medical/dental education writer for CharaNas. "
+        "Write detailed, up-to-date teaching slides as strict JSON only. No markdown."
+    )
     headers = {
         "Authorization": f"Bearer {key}",
         "Content-Type": "application/json",
         "Accept": "application/json",
     }
+
+    def _payload(prompt: str, response_format: dict[str, Any] | None) -> dict[str, Any]:
+        data: dict[str, Any] = {
+            "model": model,
+            "temperature": 0.2,
+            "messages": [
+                {"role": "system", "content": system_msg},
+                {"role": "user", "content": prompt},
+            ],
+        }
+        if response_format is not None:
+            data["response_format"] = response_format
+        # Keep web search ON unless explicitly disabled.
+        if "sonar" in model.lower() and os.getenv("PERPLEXITY_PDF_DISABLE_SEARCH", "").strip() in {
+            "1",
+            "true",
+            "yes",
+        }:
+            data["disable_search"] = True
+        return data
+
+    plain_suffix = (
+        "\n\nRespond with JSON only:\n"
+        '{"department":"...","stage":"...","specialty":"...","topic":"...",'
+        '"sources":["..."],"slides":[{"slide_number":1,"title":"...",'
+        '"body_paragraphs":["..."],"bullets":["..."],'
+        '"figure":{"kind":"schematic","title":"","caption":"...",'
+        '"labels":["..."],"sketch_notes":"..."},"clinical_pearl":"..."}]}'
+    )
+    compact_prompt = (
+        base_prompt
+        + "\n\nIMPORTANT: Return exactly 15 slides (not more) to keep the reply compact, "
+        "but keep IMB-level detail in each slide."
+    )
+
+    attempts: list[tuple[str, dict[str, Any]]] = [
+        (
+            "json_schema",
+            _payload(
+                base_prompt,
+                {"type": "json_schema", "json_schema": SLIDE_BATCH_SCHEMA},
+            ),
+        ),
+        (
+            "json_object",
+            _payload(
+                base_prompt + "\n\nRespond with a JSON object containing a slides array.",
+                {"type": "json_object"},
+            ),
+        ),
+        (
+            "plain_json",
+            _payload(base_prompt + plain_suffix, None),
+        ),
+        (
+            "compact_15_plain",
+            _payload(compact_prompt + plain_suffix, None),
+        ),
+    ]
+
     log.info(
-        "Calling Perplexity for topic PDF slides topic=%r dept=%s specialty=%s",
+        "Calling Perplexity for topic PDF slides topic=%r dept=%s specialty=%s timeout=%ss",
         topic,
         department_key,
         specialty_key,
+        os.getenv("PERPLEXITY_PDF_TIMEOUT", "420"),
     )
-    try:
-        with httpx.Client(timeout=180.0) as client:
-            resp = client.post(api_url, headers=headers, json=payload)
-    except httpx.HTTPError as exc:
-        raise PerplexityError(f"Perplexity network error: {exc}") from exc
 
-    if resp.status_code >= 400:
-        if resp.status_code in {400, 422} and "response_format" in payload:
-            log.warning("Perplexity rejected slide response_format; retrying plain JSON prompt")
-            payload.pop("response_format", None)
-            payload["messages"][-1]["content"] += (
-                "\n\nRespond with JSON only:\n"
-                '{"department":"...","stage":"...","specialty":"...","topic":"...",'
-                '"sources":["..."],"slides":[{"slide_number":1,"title":"...",'
-                '"body_paragraphs":["..."],"bullets":["..."],'
-                '"figure":{"kind":"schematic","title":"","caption":"...",'
-                '"labels":["..."],"sketch_notes":"..."},"clinical_pearl":"..."}]}'
-            )
-            with httpx.Client(timeout=180.0) as client:
-                resp = client.post(api_url, headers=headers, json=payload)
-        if resp.status_code >= 400:
-            raise PerplexityError(f"Perplexity API {resp.status_code}: {resp.text[:400]}")
+    last_error = "unknown error"
+    for label, payload in attempts:
+        # Each attempt itself retries once on timeout
+        for round_i in range(1, 3):
+            try:
+                resp = _post_pdf(api_url, headers, payload)
+            except PerplexityError as exc:
+                last_error = str(exc)
+                log.warning(
+                    "PDF attempt %s round %s network/timeout: %s",
+                    label,
+                    round_i,
+                    last_error,
+                )
+                continue
+            if resp.status_code >= 400:
+                last_error = f"Perplexity API {resp.status_code}: {resp.text[:400]}"
+                log.warning("PDF attempt %s HTTP error: %s", label, last_error)
+                if resp.status_code in {401, 403}:
+                    raise PerplexityError(
+                        "Perplexity rejected the API key (401/403). "
+                        "Check PERPLEXITY_API_KEY in question_input/.env and restart the input bot."
+                    )
+                break  # try next schema mode
+            body = resp.json()
+            try:
+                content = body["choices"][0]["message"]["content"]
+            except (KeyError, IndexError, TypeError):
+                last_error = f"Unexpected Perplexity response: {str(body)[:500]}"
+                log.warning("PDF attempt %s bad body: %s", label, last_error)
+                break
+            if isinstance(content, list):
+                content = "".join(
+                    part.get("text", "") if isinstance(part, dict) else str(part)
+                    for part in content
+                )
+            try:
+                raw = _parse_raw_json(str(content))
+                return validate_slide_deck(raw, expected_topic=topic)
+            except PerplexityError as exc:
+                last_error = str(exc)
+                log.warning("PDF attempt %s validate failed: %s", label, last_error)
+                break
 
-    body = resp.json()
-    try:
-        content = body["choices"][0]["message"]["content"]
-    except (KeyError, IndexError, TypeError) as exc:
-        raise PerplexityError(f"Unexpected Perplexity response: {str(body)[:500]}") from exc
-
-    if isinstance(content, list):
-        content = "".join(
-            part.get("text", "") if isinstance(part, dict) else str(part) for part in content
-        )
-
-    raw = _parse_raw_json(str(content))
-    deck = validate_slide_deck(raw, expected_topic=topic)
-    return deck
+    raise PerplexityError(
+        f"PDF generation failed after retries for topic '{topic}': {last_error}"
+    )
 
 
 def parse_topics(text: str) -> list[str]:
