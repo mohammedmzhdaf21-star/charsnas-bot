@@ -111,6 +111,13 @@ CONTENT_TYPES = [
     ("case_based", "Case-based questions"),
     ("pdf_files", "Upload PDF files"),
     ("book_source", "Book sources"),
+    ("delete_content", "Delete question / PDF / book"),
+]
+
+DELETE_KINDS = [
+    ("question", "Delete a Short MCQ"),
+    ("pdf", "Delete a PDF"),
+    ("book", "Delete a book source"),
 ]
 
 DIFFICULTIES = [
