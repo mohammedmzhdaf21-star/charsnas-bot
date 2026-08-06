@@ -86,7 +86,6 @@ BATCH_JSON_SCHEMA: dict[str, Any] = {
                         "options",
                         "answer_letter",
                         "explanation",
-                        "choice_explanations",
                     ],
                 },
             },
@@ -99,6 +98,42 @@ BATCH_JSON_SCHEMA: dict[str, Any] = {
             "difficulty_distribution",
             "questions",
         ],
+    },
+}
+
+# Simpler schema used as fallback when the full schema is rejected by the API.
+BATCH_JSON_SCHEMA_SIMPLE: dict[str, Any] = {
+    "name": "charanas_mcq_batch_simple",
+    "schema": {
+        "type": "object",
+        "additionalProperties": True,
+        "properties": {
+            "questions": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "additionalProperties": True,
+                    "properties": {
+                        "difficulty": {"type": "string"},
+                        "question": {"type": "string"},
+                        "options": {
+                            "type": "array",
+                            "items": {"type": "string"},
+                        },
+                        "answer_letter": {"type": "string"},
+                        "explanation": {"type": "string"},
+                    },
+                    "required": [
+                        "difficulty",
+                        "question",
+                        "options",
+                        "answer_letter",
+                        "explanation",
+                    ],
+                },
+            },
+        },
+        "required": ["questions"],
     },
 }
 
@@ -373,6 +408,20 @@ def _build_prompt(
     )
 
 
+def _post_perplexity(api_url: str, headers: dict[str, str], payload: dict[str, Any]):
+    try:
+        import httpx
+    except ImportError as exc:  # pragma: no cover
+        raise PerplexityError(
+            "Python package httpx is not installed. Run: pip install httpx"
+        ) from exc
+    try:
+        with httpx.Client(timeout=120.0) as client:
+            return client.post(api_url, headers=headers, json=payload)
+    except httpx.HTTPError as err:
+        raise PerplexityError(f"Perplexity network error: {err}") from err
+
+
 def generate_batch(
     *,
     department_key: str,
@@ -385,7 +434,10 @@ def generate_batch(
     stage_label: str = "",
     avoid_stems: list[str] | None = None,
 ) -> dict[str, Any]:
-    """Call Perplexity, validate strict JSON, return normalized batch."""
+    """Call Perplexity, validate JSON, return normalized batch.
+
+    Retries with simpler schemas if the API rejects strict json_schema formatting.
+    """
     key = api_key()
     if not key:
         raise PerplexityError(
@@ -412,86 +464,142 @@ def generate_batch(
     )
     fallback_diff = next((d for d in DIFFICULTIES if distribution.get(d)), "medium")
 
-    payload: dict[str, Any] = {
-        "model": model,
-        "temperature": 0.2,
-        "messages": [
-            {
-                "role": "system",
-                "content": (
-                    "You are a medical/dental education exam writer for CharaNas. "
-                    "When revealing answers, always teach why the correct choice is right "
-                    "at a slightly more advanced level, and why each incorrect choice is wrong. "
-                    "Output strict JSON only matching the schema. No markdown."
-                ),
-            },
-            {"role": "user", "content": prompt},
-        ],
-        "response_format": {
-            "type": "json_schema",
-            "json_schema": BATCH_JSON_SCHEMA,
-        },
-    }
-    if "sonar" in model.lower():
-        payload["disable_search"] = True
-
+    system_msg = (
+        "You are a medical/dental education exam writer for CharaNas. "
+        "When revealing answers, always teach why the correct choice is right "
+        "at a slightly more advanced level, and why each incorrect choice is wrong. "
+        "Output strict JSON only. No markdown."
+    )
     headers = {
         "Authorization": f"Bearer {key}",
         "Content-Type": "application/json",
         "Accept": "application/json",
     }
 
+    attempts: list[dict[str, Any]] = [
+        {
+            "label": "json_schema_full",
+            "payload": {
+                "model": model,
+                "temperature": 0.2,
+                "messages": [
+                    {"role": "system", "content": system_msg},
+                    {"role": "user", "content": prompt},
+                ],
+                "response_format": {
+                    "type": "json_schema",
+                    "json_schema": BATCH_JSON_SCHEMA,
+                },
+            },
+        },
+        {
+            "label": "json_schema_simple",
+            "payload": {
+                "model": model,
+                "temperature": 0.2,
+                "messages": [
+                    {"role": "system", "content": system_msg},
+                    {"role": "user", "content": prompt},
+                ],
+                "response_format": {
+                    "type": "json_schema",
+                    "json_schema": BATCH_JSON_SCHEMA_SIMPLE,
+                },
+            },
+        },
+        {
+            "label": "json_object",
+            "payload": {
+                "model": model,
+                "temperature": 0.2,
+                "messages": [
+                    {"role": "system", "content": system_msg},
+                    {
+                        "role": "user",
+                        "content": prompt
+                        + "\n\nRespond with a JSON object only containing a questions array.",
+                    },
+                ],
+                "response_format": {"type": "json_object"},
+            },
+        },
+        {
+            "label": "plain_json",
+            "payload": {
+                "model": model,
+                "temperature": 0.2,
+                "messages": [
+                    {"role": "system", "content": system_msg},
+                    {
+                        "role": "user",
+                        "content": prompt
+                        + "\n\nRespond with JSON only:\n"
+                        '{"department":"...","stage":"...","specialty":"...","topic":"...",'
+                        '"difficulty_distribution":{"easy":0,"medium":0,"hard":0,"extreme":0},'
+                        '"questions":[{"difficulty":"medium","question":"...","options":'
+                        '["...","...","...","..."],"answer_letter":"A","explanation":"...",'
+                        '"choice_explanations":{"A":"why A","B":"why B","C":"why C","D":"why D"}}]}',
+                    },
+                ],
+            },
+        },
+    ]
+
     log.info(
-        "Calling Perplexity model=%s total=%s dept=%s specialty=%s",
+        "Calling Perplexity model=%s total=%s dept=%s specialty=%s topic=%r",
         model,
         total,
         department_key,
         specialty_key,
+        topic,
     )
-    try:
-        with httpx.Client(timeout=120.0) as client:
-            resp = client.post(api_url, headers=headers, json=payload)
-    except httpx.HTTPError as exc:
-        raise PerplexityError(f"Perplexity network error: {exc}") from exc
 
-    if resp.status_code >= 400:
-        if resp.status_code in {400, 422} and "response_format" in payload:
-            log.warning("Perplexity rejected response_format; retrying plain JSON prompt")
-            payload.pop("response_format", None)
-            payload["messages"][-1]["content"] += (
-                "\n\nRespond with JSON only:\n"
-                '{"department":"...","stage":"...","specialty":"...","topic":"...",'
-                '"difficulty_distribution":{"easy":0,"medium":0,"hard":0,"extreme":0},'
-                '"questions":[{"difficulty":"medium","question":"...","options":'
-                '["...","...","...","..."],"answer_letter":"A","explanation":"...",'
-                '"choice_explanations":{"A":"why A","B":"why B","C":"why C","D":"why D"}}]}'
-            )
-            with httpx.Client(timeout=120.0) as client:
-                resp = client.post(api_url, headers=headers, json=payload)
+    last_error = "unknown error"
+    content = ""
+    for attempt in attempts:
+        payload = attempt["payload"]
+        if "sonar" in model.lower():
+            payload = dict(payload)
+            payload["disable_search"] = True
+        resp = _post_perplexity(api_url, headers, payload)
         if resp.status_code >= 400:
-            raise PerplexityError(f"Perplexity API {resp.status_code}: {resp.text[:400]}")
+            last_error = f"Perplexity API {resp.status_code}: {resp.text[:400]}"
+            log.warning("Attempt %s failed: %s", attempt["label"], last_error)
+            # Auth errors will not be fixed by schema retries
+            if resp.status_code in {401, 403}:
+                raise PerplexityError(
+                    "Perplexity rejected the API key (401/403). "
+                    "Check PERPLEXITY_API_KEY in question_input/.env and restart the input bot."
+                )
+            continue
+        body = resp.json()
+        try:
+            content = body["choices"][0]["message"]["content"]
+        except (KeyError, IndexError, TypeError):
+            last_error = f"Unexpected Perplexity response: {str(body)[:500]}"
+            log.warning("Attempt %s bad body: %s", attempt["label"], last_error)
+            continue
+        if isinstance(content, list):
+            content = "".join(
+                part.get("text", "") if isinstance(part, dict) else str(part) for part in content
+            )
+        try:
+            raw = _parse_raw_json(str(content))
+            return validate_batch(
+                raw,
+                expected_department=department_key,
+                expected_specialty=specialty_key,
+                expected_stage=stage_key,
+                expected_topic=topic or specialty_label,
+                expected_distribution=distribution,
+                fallback_difficulty=fallback_diff,
+            )
+        except PerplexityError as exc:
+            last_error = str(exc)
+            log.warning("Attempt %s validate failed: %s", attempt["label"], last_error)
+            continue
 
-    body = resp.json()
-    try:
-        content = body["choices"][0]["message"]["content"]
-    except (KeyError, IndexError, TypeError) as exc:
-        raise PerplexityError(f"Unexpected Perplexity response: {str(body)[:500]}") from exc
-
-    if isinstance(content, list):
-        content = "".join(
-            part.get("text", "") if isinstance(part, dict) else str(part) for part in content
-        )
-
-    raw = _parse_raw_json(str(content))
-    return validate_batch(
-        raw,
-        expected_department=department_key,
-        expected_specialty=specialty_key,
-        expected_stage=stage_key,
-        expected_topic=topic or specialty_label,
-        expected_distribution=distribution,
-        fallback_difficulty=fallback_diff,
-    )
+    raise PerplexityError(last_error)
 
 
 # Back-compat helper used by older call sites / tests

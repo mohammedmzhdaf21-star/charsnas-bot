@@ -489,11 +489,19 @@ async def publish_draft(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
 
 async def _reply_plain(update: Update, text: str, *, markdown: bool = False) -> None:
     kwargs = {"parse_mode": "Markdown"} if markdown else {}
-    if update.callback_query and update.callback_query.message:
-        await update.callback_query.message.reply_text(text, **kwargs)
-        return
-    if update.message:
-        await update.message.reply_text(text, **kwargs)
+    try:
+        if update.callback_query and update.callback_query.message:
+            await update.callback_query.message.reply_text(text, **kwargs)
+            return
+        if update.message:
+            await update.message.reply_text(text, **kwargs)
+            return
+    except Exception:
+        # Topic names / API errors often break Telegram Markdown (* _ `).
+        if markdown:
+            await _reply_plain(update, text, markdown=False)
+            return
+        raise
 
 
 async def generate_topic_pdfs_for_flow(
@@ -645,6 +653,8 @@ async def run_perplexity_generation(update: Update, context: ContextTypes.DEFAUL
 
     saved = 0
     skipped = 0
+    failed = 0
+    fail_notes: list[str] = []
     previews: list[str] = []
     raw_total = 0
 
@@ -665,16 +675,24 @@ async def run_perplexity_generation(update: Update, context: ContextTypes.DEFAUL
                 avoid_stems=avoid_stems,
             )
         except PerplexityError as exc:
+            failed += 1
+            fail_notes.append(f"{topic}: {exc}")
             log.exception("Perplexity MCQ generation failed for topic=%s", topic)
             await _reply_plain(
                 update,
-                f"Short MCQ generation failed for *{topic}*:\n{exc}",
-                markdown=True,
+                f"Short MCQ generation failed for {topic}:\n{exc}",
+                markdown=False,
             )
             continue
         except Exception as exc:  # pragma: no cover
+            failed += 1
+            fail_notes.append(f"{topic}: {exc}")
             log.exception("Unexpected Perplexity MCQ error for topic=%s", topic)
-            await _reply_plain(update, f"Unexpected MCQ error for *{topic}*:\n{exc}", markdown=True)
+            await _reply_plain(
+                update,
+                f"Unexpected MCQ error for {topic}:\n{exc}",
+                markdown=False,
+            )
             continue
 
         f["pplx_draft"] = batch
@@ -710,30 +728,45 @@ async def run_perplexity_generation(update: Update, context: ContextTypes.DEFAUL
                 previews.append(f"• [{item['difficulty']}] ({topic}) {q}")
         await _reply_plain(
             update,
-            f"Short MCQs for *{topic}*: saved *{topic_saved}*.",
-            markdown=True,
+            f"Short MCQs for {topic}: saved {topic_saved}.",
+            markdown=False,
         )
 
     f["saved"] = saved
     more = "" if saved <= 5 else f"\n…and more."
-    skip_line = f"\nSkipped *{skipped}* duplicate/similar question(s)." if skipped else ""
+    skip_line = f"\nSkipped {skipped} duplicate/similar question(s)." if skipped else ""
     if saved == 0:
-        await _reply_plain(
-            update,
-            f"No new questions saved — all *{raw_total}* were duplicate/too similar "
-            f"or generation failed.{skip_line}\n\n"
-            "Still trying PDF generation for your topic(s)…",
-            markdown=True,
-        )
+        if failed and raw_total == 0:
+            detail = "\n".join(fail_notes[:5]) or "unknown generation error"
+            await _reply_plain(
+                update,
+                "Short MCQ generation failed for every topic, so nothing was saved.\n\n"
+                f"{detail}\n\n"
+                "Common fixes:\n"
+                "• Check PERPLEXITY_API_KEY in question_input/.env\n"
+                "• Restart the Question Input bot\n"
+                "• Try one short topic and count 3–5\n\n"
+                "Still trying PDF generation for your topic(s)…",
+                markdown=False,
+            )
+        else:
+            await _reply_plain(
+                update,
+                f"No new questions saved — generated {raw_total}, "
+                f"but all were duplicate/too similar or could not be stored."
+                f"{skip_line}\n\n"
+                "Still trying PDF generation for your topic(s)…",
+                markdown=False,
+            )
     else:
         await _reply_plain(
             update,
-            f"✅ Generated and saved *{saved}* new Short MCQs into the bank."
+            f"Generated and saved {saved} new Short MCQs into the bank."
             f"{skip_line}\n"
             f"Mix requested: {mix_summary(dist)}\n\n"
             + "\n".join(previews)
             + more,
-            markdown=True,
+            markdown=False,
         )
 
     # Auto-generate PDFs from the same Short MCQ topic(s)
