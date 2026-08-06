@@ -23,12 +23,14 @@ from reportlab.platypus import (
 )
 
 ROOT = Path(__file__).resolve().parents[1]
+# Exact brand mark — never redraw/recolor this file. Watermark only scales opacity.
 LOGO_PATH = ROOT / "assets" / "charanas_logo.png"
 NAVY = colors.HexColor("#0B2A4A")
 SLATE = colors.HexColor("#334155")
 MUTED = colors.HexColor("#64748b")
 PAGE_SIZE = landscape(A4)
-WATERMARK_OPACITY = 0.08
+# Low opacity so the exact logo stays recognizable without blocking IMB text.
+WATERMARK_OPACITY = 0.10
 
 
 def _styles() -> dict[str, ParagraphStyle]:
@@ -139,11 +141,18 @@ def _escape(text: str) -> str:
 
 
 def _watermark_reader() -> ImageReader | None:
+    """Load the brand logo unchanged except for watermark opacity.
+
+    RGB channels are preserved exactly from assets/charanas_logo.png.
+    Only the alpha channel is scaled so the mark does not distract from reading.
+    """
     if not LOGO_PATH.exists():
         return None
     img = PILImage.open(LOGO_PATH).convert("RGBA")
-    alpha = img.getchannel("A").point(lambda p: int(p * WATERMARK_OPACITY))
-    img.putalpha(alpha)
+    # Preserve every color pixel; only multiply alpha for soft watermarking.
+    r, g, b, a = img.split()
+    a = a.point(lambda p: int(p * WATERMARK_OPACITY))
+    img = PILImage.merge("RGBA", (r, g, b, a))
     buf = io.BytesIO()
     img.save(buf, format="PNG")
     buf.seek(0)
