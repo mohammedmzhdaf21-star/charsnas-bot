@@ -524,8 +524,9 @@ async def generate_topic_pdfs_for_flow(
         await _reply_plain(
             update,
             f"Also generating *{len(topics)}* topic PDF(s) for\n*{_path_label(f)}*\n\n"
-            "Each deck is 15–20 IMB slides with schematic figures + centered logo watermark.\n"
-            "This can take a few minutes…",
+            "Each deck is 15–20 IMB slides (built in small chunks so large topics "
+            "like Hypertension do not time out), with schematics + centered logo watermark.\n"
+            "Please wait…",
             markdown=True,
         )
     saved_paths: list[str] = []
